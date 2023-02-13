@@ -1,0 +1,225 @@
+---
+content-type: reference
+product-area: documents
+navigation-topic: proofing-overview
+title: Overzicht van ondersteunde bestandstypen voor proefdrukken en grootten
+description: U kunt verschillende bestandstypen delen en reviseren met uw revisoren, zelfs als de software waarmee de bestanden zijn gemaakt (zoals Photoshop of Illustrator) niet op hun computer is geïnstalleerd. We ondersteunen statische bestanden, video, audio, webvastleggingen en interactieve bestandstypen van maximaal 4 GB.
+author: Courtney
+feature: Digital Content and Documents
+exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
+source-git-commit: c3474fb14fbe008c64ab669882c6bc047be71916
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 0%
+
+---
+
+# Overzicht van ondersteunde bestandstypen voor proefdrukken en grootten
+
+U kunt verschillende bestandstypen delen en reviseren met uw revisoren, zelfs als de software waarmee de bestanden zijn gemaakt (zoals Photoshop of Illustrator) niet op hun computer is geïnstalleerd. We ondersteunen statische bestanden, video, audio, webvastleggingen en interactieve bestandstypen van maximaal 4 GB.
+
+## Bestandsgrootten
+
+Workfront heeft de volgende limieten:
+
+* Bestanden moeten kleiner zijn dan 4 GB per bestand.
+* XLS- en XLSX-bestanden moeten kleiner zijn dan 100 MB.
+* Bestanden die zijn gekoppeld aan opmerkingen op proefdrukken, moeten kleiner zijn dan 30 MB.
+* PNG-bestanden moeten een hoogte en breedte van minder dan 65535 px hebben.
+* Statische gecombineerde proefdrukken kunnen maximaal 50 bestanden ondersteunen.
+* Documenten die als proefdrukken worden geüpload, moeten uit minder dan 2000 pagina&#39;s bestaan.
+
+>[!NOTE]
+>
+>Grotere bestanden nemen meer tijd in beslag om te uploaden en als uw verbinding niet stabiel is, kan de handeling worden beëindigd of verbroken.
+
+## Statische bestanden
+
+* ABC - Geavanceerde bitmapcompressie LAADEN
+* ABIC - Adaptieve compressie op twee niveaus van afbeeldingen
+* AFP - Geavanceerde functiepresentatie
+* AI - Adobe Illustrator-illustraties
+* ANI - Windows Geanimeerde cursor
+* ANZ - Mayo Clinic Analyze-indeling
+* ARW - Sony Raw-indeling
+* AWD - Fax Microsoft
+* BMP - Windows en OS/2 Bitmap-indelingen
+* CAL - CALS-raster
+* CGM - Computer Graphics Metafile
+* CIN - Kodak Cineon
+* CLP - Windows-klembord
+* CMP - LEAD gecomprimeerd
+* CMW - Gecomprimeerde linkergolf
+* CMX - Corel Presentation Exchange
+* CR2 - Canon Raw
+* CRW - Canon Raw
+* CUR - Windows-cursor
+* CUT - Dr. Halo
+* DGN - Intergraph Design
+* DOC - Microsoft Word-document
+* DOCX - Microsoft Word-document
+* DCR - Kodak Digital Camera
+* DCS - Kodak Digital Camera System
+* DCM - DICOM
+* DCX - Verfpenseel
+* DNG - digitaal negatief Adobe
+* DOC - Microsoft Word-document
+* DOCX - Microsoft Word-document 2007
+* DRW - DRaWing
+* DWF - AutoDesk-vector
+* ECW - Verbeterde gecomprimeerde golflengte
+* EMF - Windows-metabestand
+* EXIF - Exchangeable Image File Format
+* FAX - LaserView-lasergegevens
+* FITS - Flexibel imagetransportsysteem
+* FLC - Flic animatie
+* FPX - Kodak FlashPix
+* GBR - Gerber GIF - CompuServe
+* GIF - Graphics Interchange Format (alleen geanimeerd GIF in de nieuwe Workfront Proof Viewer)
+* GIF HDP - Windows HD Photo
+* ICO - Windows-pictogram
+* IFF - Interchange File Format
+* IOCA - Image Object Content Architecture
+* IMG - GEM-afbeelding
+* ITG - Intergraph
+* JBG - JBIG
+* JB2 - JBIG2
+* JPG - Joint Photographic Experts Group (JPEG)
+* JPEG-XR - Windows Media Photo / HD Photo (HDP)
+* JPEG-LS - JPEG zonder gegevensverlies
+* J2K - JPEG 2000
+* JP2 - JPEG 2000 gecomprimeerd
+* JPM - JPEG 2000 Deel 6
+* JPX - JPEG 2000 Deel 2
+* KDC - Kodak Digital Camera
+* Mac - MacPaint
+* MIF - MapInfo Interchange
+* MNG - Meerdere netwerkafbeeldingen
+* MO:DCA - Gemengd object: Documentinhoudarchitectuur
+* MSP - Microsoft Paint
+* MRC - HOOFD, rasterinhoud gemengd
+* MRC - T.44 Gemengde rasterinhoud
+* NAP - Syntaxis van het Protocol van de Laag van de Presentatie Noord-Amerikaanse (NAPLPS)
+* NEF - Nikon Electronic Format
+* NITF - National Imagery Transmission Format
+* NRW - Nikon Raw-indeling
+* ORF - Olympus Raw-indeling
+* PBM - Portable Bitmap Utilities
+* PCD - Kodak Photo CD
+* PCL - Taal voor printeropdrachten
+* PCL6 - Printer Command Language
+* PCT - Macintosh Pict
+* PCX, verfpenseel
+* PDF - Adobe Portable-documentbestand
+* PGM - Portable Bitmap Utilities
+* PLT - HPGL Plotter
+* PNG - Portable Network Graphics
+* PNM - Portable Bitmap Utilities
+* PPM - Portable Bitmap Utilities
+* PPT - PowerPoint-presentatie
+* PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand
+* PSD - Photoshop
+* PSP - Verfshop Pro
+* PTK - PTOCA
+* RAS - SUN Raster
+* RAF - Fujifilm Raw-indeling
+* RAW - Raw-gegevens
+* RTF, RTF, RTF-tekst
+* RW2 - Raw-indeling voor panasonic
+* SCT - Scitex, doorlopende toon
+* SFF - Structured Fax Format
+* SGI - Silicon Graphics Image
+* SHP - ESRI-vorm
+* SMP - Xionics
+* SNP - Microsoft Access Report Snapshot
+* SR2 - Sony Raw-indeling
+* SRF - Sony Raw-indeling
+* SVG - schaalbare vectorafbeeldingen
+* TDB - Microsoft Windows-miniaturencache
+* TFX - Internet Fax
+* TGA - Truevision TARGA
+* TIFF - Tagged Image File Format
+* TIFX - Xerox Internet Fax-bestand
+* VFF - Sun TAAC Bitmap
+* WBMP - Wireless Bitmap
+* WFX - WinFax
+* WMF - Windows-metabestand
+* WMZ - gecomprimeerd Windows-metabestand
+* WPG - Vector WordPerfect-afbeelding
+* XBM - XBitMap
+* XLS - Microsoft Excel-werkblad
+* XLSX - Microsoft Excel-werkblad 2007
+* XPM - XPicMap
+* XPS - XML-papierspecificatie
+* XWD - X WindowDump
+
+## Statische bestanden - Tekstgereedschap
+
+* AI - Adobe Illustrator-illustraties
+* AIT - Adobe Illustrator-sjabloon
+* DOC - Microsoft Word-document
+* DOCX - Microsoft Word-document
+* DOT - Microsoft Word-documentsjabloon
+* DOTX - Microsoft Word-documentsjabloon 
+* EPS - Encapsulated PostScript
+* PDF - Adobe Portable-documentbestand
+* PPT - PowerPoint-presentatie
+* PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand
+* PSD - Photoshop
+* RTF, RTF, RTF-tekst
+* XLS - Microsoft Excel-werkblad
+* XLSX - Microsoft Excel-werkblad 2007
+* XLT - Microsoft Excel-sjabloon
+* XLTX - Microsoft Excel-sjabloon
+
+## Videobestanden
+
+* MPEG-1
+* MPEG-2
+* H.263
+* H.264
+* Alle MPEG-4-implementaties (XVid, 3vix, enz.)
+* AVI
+* Flash (VP6, Sorenson Spark/H.263+, H.264)
+* MOV
+* MP4
+* MPG
+* VOB (alleen niet-gecodeerde VOB&#39;s)
+* Flash
+* Windows Media/VC-1
+* 3GP/3G2
+* Ogg Theora
+* MJPEG
+* DV
+* Onbewerkte YUV/RGB
+* MKV
+* Audio-codecs invoeren (onderdeel van video)
+
+   * MP3
+   * AAC/AAC-HE
+   * Windows Media
+   * PCM/WAV/AIFF
+   * AMR
+   * Ogg Vorbis
+
+## Audiobestanden
+
+* MP3
+* WAV
+* AIF
+
+## Web Capture
+
+U kunt statische webpagina-proefdrukken maken. Zie voor meer informatie [Een statische proefdruk maken voor een website of andere webinhoud](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) en [Een statisch proefexemplaar van een website maken met Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+
+## Bestanden overslaan
+
+Om veiligheidsredenen ondersteunen of extraheren we geen bestanden uit ZIP-bestanden. Pak de bestanden uit voordat u ze uploadt. Als u dit niet doet, wordt het uploaden niet voltooid.
+
+U kunt ZIP-bestanden alleen verzenden als ze een volledig interactief project bevatten en als voor uw account interactieve functies zijn ingeschakeld (Premium-abonnementen).
+
+Zie voor meer informatie [Overzicht van proefdrukken van interactieve inhoud](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+
+## InDesign- en Quark-bestanden
+
+InDesign- en Quark-bestanden worden niet ondersteund, omdat het geen zelfstandige bestandstypen zijn en omdat ze verwijzen naar een groot aantal andere bestanden, zoals afbeeldingen en lettertypen. De uitvoer van deze bestandstypen is afhankelijk van de uitvoerinstellingen. We raden klanten aan InDesign- en Quark-bestanden op te slaan als een PDF en de PDF te uploaden.

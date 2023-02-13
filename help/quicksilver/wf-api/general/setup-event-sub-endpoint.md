@@ -1,0 +1,36 @@
+---
+content-type: api
+navigation-topic: general-api
+title: Vereisten voor levering van abonnementen
+description: Vereisten voor levering van abonnementen
+author: John
+feature: Workfront API
+exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
+source-git-commit: 40698643b0fa530b38da465f3bc1e4d841fcc190
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
+
+---
+
+
+# Vereisten voor levering van abonnementen
+
+Abonnementsberichten voor gebeurtenissen zijn meldingen die kunnen worden ingesteld om gebruikers op de hoogte te stellen wanneer bepaalde gebeurtenissen zich voordoen. Meer informatie over welke abonnementen van de Gebeurtenis zien [Veelgestelde vragen - Abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-faq.md).
+
+## Normen voor de berichtlevering van het Event Subscription
+
+De eindpunten van de dienst die de berichten van het de gebeurtenisabonnement van Adobe Workfront gebruiken moeten aan de volgende basisvereisten voldoen, om ervoor te zorgen dat de berichten correct worden verzonden en ontvangen:
+
+* Het de diensteindpunt moet de verzoeken van de POST van HTTP goedkeuren. De POST van HTTP is de verzoekmethode die in alle leveringen van de berichten van het gebeurtenisabonnement, met inbegrip van bevestigingsberichten wordt gebruikt.
+
+* Opdat het systeem van de levering van het gebeurtenisabonnement bevestigt het bericht met succes werd ontvangen, moet het eindpunt een 200 niveauHTTP- status (bijvoorbeeld, 200 O.K. of 202) voor alle inkomende berichten terugkeren.
+
+* Als een status op 200-niveau niet wordt geretourneerd, gaat het abonnementssysteem van de gebeurtenis ervan uit dat het bericht niet met succes is bezorgd en wordt het juiste hertestbeleid toegepast. Ga voor meer informatie over het Workfront-beleid voor opnieuw proberen naar [Abonnementspogingen voor gebeurtenissen opnieuw proberen](../../wf-api/api/event-sub-retries.md).
+
+* In combinatie met het terugkeren van een 200-niveaustatus als reactiestatus, moet de reactie van HTTP binnen vijf seconden na de leveringspoging worden ontvangen.Deze beperking zorgt ervoor dat de de bedrijfsprocessen van de consument of infrastructuurbeperkingen de levering van andere berichten in afwachting van levering niet vertragen.
+
+* Als een lang lopend bedrijfsproces van een bericht van het gebeurtenisabonnement teweegbrengt, adviseert Workfront dat
+
+   1. het eindpunt bewaart de berichtinformatie op ontvangstbewijs en antwoordt onmiddellijk met een 200 niveaustatus.
+   1. Nadat een eindpunt op een verzoek van de gebeurtenisabonnementlevering heeft gereageerd, kunnen de bewaarde berichten worden verwerkt.

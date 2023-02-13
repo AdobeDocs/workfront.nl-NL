@@ -1,0 +1,126 @@
+---
+content-type: reference
+product-area: reporting
+navigation-topic: custom-view-filter-and-grouping-samples
+title: Een rapport groeperen op basis van een aangepast veld met meerdere selecties
+description: 'In een Adobe Workfront-rapport kunt u groeperen op basis van de waarde in een aangepast veld met meerdere selecties. Voorbeelden van aangepaste velden met meerdere selecties zijn: BEWERK ME.'
+author: Lisa and Nolan
+feature: Reports and Dashboards
+exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 0%
+
+---
+
+# Een rapport groeperen op basis van een aangepast veld met meerdere selecties
+
+In een Adobe Workfront-rapport kunt u groeperen op basis van de waarde in een aangepast veld met meerdere selecties. Voorbeelden van aangepaste velden met meerdere selecties zijn:
+
+* Selectievakjes
+* Meerdere vervolgkeuzemenu&#39;s selecteren
+
+U kunt alleen met dit type veld groeperen in de tekstmodus. Zie het artikel voor informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+
+>[!NOTE]
+>
+>U kunt geen rapport door een multi-select douanegebied in kaart brengen. U moet een extra berekend gebied tot stand brengen dat naar het multi-uitgezochte douanegebied verwijst om het rapport door de waarde van het multi-uitgezochte gebied van de douane ook in kaart te brengen. Zie voor meer informatie [Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
+## Een rapport groeperen op meerdere geselecteerde aangepaste velden
+
+Als u wilt groeperen op een aangepast veld met meerdere selecties, moet u aan de volgende voorwaarden voldoen:
+
+* Maak het aangepaste veld voor meerdere selecties in een aangepast formulier.\
+   Zie het artikel voor informatie over het maken van aangepaste formulieren en het toevoegen van aangepaste velden aan deze formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+* Koppel het aangepaste formulier aan objecten.
+* Vul het aangepaste veld voor meerdere selecties met een waarde voor elk object. 
+
+Om door een multi-select douanegebied in een rapport te groeperen:
+
+1. Maak een rapport of bewerk een bestaand rapport waaraan u een groep voor een aangepast veld met meerdere selecties wilt toevoegen.\
+   Zie het artikel voor informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+1. Selecteer **Groepen** tab.
+1. Klikken **Overschakelen naar tekstmodus**.
+
+1. Selecteer de tekst in het dialoogvenster **Uw rapport groeperen** en vervang deze door de volgende code:
+
+   <pre>group.0.displayName=Multi-select Naam van aangepast veld<br>group.0.valueexpression={DE:Multi-select Naam van aangepast veld}<br>groep.0.valueFormat=HTML<br>textmode=true</pre>
+
+1. Vervang &#39;Aangepaste veldnaam voor meerdere selecties&#39; door de werkelijke naam van het aangepaste veld voor meerdere selecties, zoals dit wordt weergegeven in Workfront.  
+1. Klikken **Opslaan en sluiten**.\
+   De objecten in het rapport worden gegroepeerd op de waarden van het aangepaste veld voor meerdere selecties.\
+   De naam van de groepen in het rapport zijn de namen van het aangepaste veld met meerdere selecties, gevolgd door de waarden die in het veld zijn geselecteerd. 
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Chart a report by multi-select Custom Fields</h2>
+<p>(NOTE: this moved to its own article, linked in the Note above!)</p>
+<p>You cannot build a chart in a report by referencing a multi-select custom field. Instead, you can create a calculated field that records the values of the multi-select custom field on a given object and group by the calculated field.&nbsp;</p>
+<ul>
+<li><a href="#build-a-calculated-custom-field-that-references-a-multi-select-custom-field" class="MCXref xref">Build a calculated custom field that references a multi-select custom field</a> </li>
+<li><a href="#build-a-chart-that-references-a-calculated-custom-field" class="MCXref xref">Build a chart that references a calculated custom field</a> </li>
+</ul>
+<p><strong>Build a calculated custom field that references a multi-select custom field</strong></p>
+<p>To be able to build a calculated field that references a multi-select custom field, you must have the following prerequisites:</p>
+<ul>
+<li>Build the multi-select custom field in a custom form.<br>For information about building custom forms and adding custom fields to them, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
+<li>Attach the custom form to objects.</li>
+<li>Populate the multi-select custom field with a value on each object.</li>
+</ul>
+<p>To build the calculated custom field that references the multi-select custom field:</p>
+<ol>
+<li value="1">Create a custom form, or edit an existing one.<br>For information about creating custom forms, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
+<li value="2">Click<strong>Add a Field</strong>, then <strong>Calculated</strong> to add the multi-select custom field to the form.</li>
+<li value="3">In the <strong>Label</strong> box, name the new calculated field to indicate that it references the multi-select custom field.<br>For example: "Calculated Multi-select Field."</li>
+<li value="4"> <p>In the <strong>Calculation</strong> box, enter the following code:</p><pre>{DE:Multi-select Custom Field}</pre> <p> <img src="assets/calculated-multi-select-custom-field-350x201.png" style="width: 350;height: 201;"> <br> </p> </li>
+<li value="5">Replace "Multi-select Custom Field" with the actual name of your multi-select custom field, as it appears in Workfront.</li>
+<li value="6"> <p>(Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the <strong>Update previous calculations</strong>&nbsp;option.</p> <p>This ensures that the new field is automatically populated with the value from the multi-select custom field as it is added to the forms attached to the objects already.</p> </li>
+<li value="7">Click <strong>Done</strong>.</li>
+<li value="8">Click <strong>Save +Close</strong>.</li>
+</ol>
+<p><strong>Build a chart that references a calculated custom field</strong></p>
+<ol>
+<li value="1"> Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. </li>
+<li value="2"> (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, select all the objects in your report, then click <strong>Edit</strong>. </li>
+<li value="3"> <p> (Optional and conditional) Enable the <strong>Recalculate Custom Expressions</strong> field, then click <strong>Save Changes</strong>.</p> <p> <img src="assets/recalculate-custom-expressions-350x259.png" style="width: 350;height: 259;"> <br> </p> </li>
+<li value="4"> Click <strong>Report Actions</strong>, then <strong>Edit</strong>. </li>
+<li value="5">Select the <strong>Groupings</strong> tab, then click <strong>Add Grouping</strong>. </li>
+<li value="6">Add the<strong>Calculated Multi-select Field</strong> you created as your grouping. </li>
+<li value="7"> <p>Select the <strong>Chart</strong> tab, and add a chart to your report.</p> <p>For information about adding a chart to a report, see the section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Add a chart to a report</a> in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>. </p> </li>
+<li value="8">Select the <strong>Calculated Multi-select Field</strong> as one of the fields to display in the chart. </li>
+<li value="9"> <p>Click <strong>Save + Close</strong>.</p> <p>The report displays the results grouped by the Calculated Multi-select Field in a chart. </p> </li>
+</ol>
+</div>
+-->

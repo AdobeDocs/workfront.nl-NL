@@ -1,0 +1,189 @@
+---
+product-area: projects;templates
+navigation-topic: plan-a-project
+title: Bronbeheerders aanwijzen voor een project of sjabloon
+description: U kunt de Managers van het Middel voor een project aanwijzen om erop te wijzen wie voor het beheren van middelen op het project verantwoordelijk is.
+author: Alina
+feature: Work Management
+exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
+source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 0%
+
+---
+
+# Bronbeheerders aanwijzen voor een project of sjabloon
+
+<!--
+<p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
+-->
+
+<!-- remove Prod and Prev references with Prod release - Jan 2023-->
+
+U kunt de Managers van het Middel voor een project aanwijzen om erop te wijzen wie voor het beheren van middelen op het project verantwoordelijk is. Dit is een informatieveld en het is niet verbonden met om het even welke hulpmiddelen van het middelbeheer.
+
+<!-- drafted for res scheduling deprecation blurb for preview release
+Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
+  
+>[!CAUTION]  
+>  
+>  
+> <span class="preview">Some of the information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**. </span>  
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span>  
+>  
+>* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
+>  
+>* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
+-->
+
+## Toegangsvereisten
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard </p> 
+   Or
+   <p>Legacy license: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects and Templates</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the project or template</p> 
+   
+   <p><b>NOTE</b>
+   
+   Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td> <p>Toegang tot projecten en sjablonen bewerken</p> <p><b>OPMERKING</b>
+
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Rechten voor het project of de sjabloon beheren</p>
+
+<p><b>OPMERKING</b>
+
+De gebruikers die als Managers van het Middel aan een project of een malplaatje worden toegevoegd krijgen direct Manage toestemmingen op het project of het malplaatje</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td>
+</tr> 
+ </tbody> 
+</table>
+
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+
+## Overwegingen over Resource Managers
+
+>[!NOTE]
+>
+>Resource Manager is geen functie. het is een gebied beschikbaar op een project of een malplaatje dat u manueel kunt bijwerken.
+
+* U kunt tot 30 gebruikers als Managers van het Middel voor een individueel project of een malplaatje aanwijzen.
+
+<!--
+* In the Production environment,designating Resource Managers on projects is a prerequisite to allowing users to schedule resources for work on the project when using the Scheduling tools.
+
+  For information about resource scheduling, see [Resource Scheduling](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md). 
+
+  <span class="preview">Scheduling tools have been removed from the Preview environment.</span>
+
+* Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
+
+  For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+
+ -->
+
+* U kunt geen teams of groepen als middelmanagers aanwijzen. U kunt gebruikers alleen aanwijzen als bronmanagers.
+
+* De gebruikers die u als Beheerders van het Middel op een project of een malplaatje aanwijst worden automatisch geen deel van het Team van het Project.
+
+   Voor informatie over projectteams, zie [Het projectteam beheren](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+
+* U kunt de Managers van het Middel voor projecten of voor projectmalplaatjes aanwijzen. Wanneer u de Managers van het Middel op een projectmalplaatje aanwijst, om het even welke gebruikers u als Managers van het Middel op het malplaatje aanwijst worden automatisch de Managers van het Middel op om het even welke projecten die gebruikend dat malplaatje worden gecreeerd.
+* U kunt het gebied van de Manager van het Middel op de volgende gebieden bekijken:
+
+   * Tijdens het bewerken van een project, zoals beschreven in dit artikel.
+   * Tijdens het bewerken van een sjabloon, zoals beschreven in dit artikel.
+   * Tijdens het samenstellen van project- of sjabloonrapporten. Voor informatie over bouwrapporten, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * Bij het maken of aanpassen van een project- of sjabloonweergave voor een lijst. Zie voor meer informatie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+* U kunt de Managers van het Middel op veelvoudige projecten of malplaatjes snel toevoegen of verwijderen door het gebied van de Manager van het Middel aan een mening van een lijst of een project toe te voegen en dit gebied uit te geven gebruikend in-line geef uit.
+
+## Bronbeheerders aanwijzen voor een project
+
+1. Voer een van de volgende handelingen uit:
+
+   * Om de Managers van het Middel aan één enkel project toe te voegen, ga naar het project waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **Het menu Meer** naast de projectnaam, dan **Bewerken.**
+
+   * Om de Managers van het Middel aan veelvoudige projecten gelijktijdig toe te voegen, navigeer aan een lijst van projecten, selecteer de projecten waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **Bewerken**.
+
+      De bestaande Managers van het Middel worden niet verwijderd uit de projecten u uitgeeft; om het even welke gebruikers u op deze manier toevoegt worden als Managers van Middelen op het project naast om het even welke bestaande Managers van het Middel toegevoegd.
+
+   * Om de Managers van het Middel aan een nieuw project toe te voegen, begin creërend een nieuw project.
+
+      Voor informatie over het creëren van een project, zie [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+
+1. In de **Overzicht** in het dialoogvenster Project bewerken klikt u in het dialoogvenster **Resource Manager** veld.
+1. Typ de naam van de gebruiker die u als middelmanager voor het project wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
+
+   Herhaal deze stap om veelvoudige middelmanagers voor het project toe te voegen.
+
+1. Klikken **Wijzigingen opslaan**.
+
+## Bronbeheer toewijzen voor een sjabloon
+
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+
+1. Klikken **Sjablonen**.
+
+1. Voer een van de volgende handelingen uit:
+
+   * Om de Managers van het Middel aan één enkel malplaatje toe te voegen, ga naar het malplaatje waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **Het menu Meer** naast de sjabloonnaam, en vervolgens **Bewerken.**
+
+   * Om de Managers van het Middel aan veelvoudige malplaatjes gelijktijdig toe te voegen, ga naar een lijst van malplaatjes en selecteer de malplaatjes waar u één of meerdere Managers van het Middel wilt aanwijzen, dan klik **Bewerken**.
+
+      Bestaande Resource Managers worden niet verwijderd uit de sjablonen die u bewerkt; om het even welke gebruikers u op deze manier toevoegt worden als Managers van Middelen op het malplaatje naast om het even welke bestaande Managers van het Middel toegevoegd.
+
+   * Om de Managers van het Middel aan een nieuw malplaatje toe te voegen, klik **Nieuwe sjabloon** en klik vervolgens op de knop **Het menu Meer** naast de sjabloonnaam, en vervolgens **Bewerken.**
+
+1. In de **Overzicht** klikt u in de **Resource Manager** veld.
+1. Typ de naam van de gebruiker die u als middelmanager voor het malplaatje wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
+
+   Herhaal deze stap om veelvoudige middelmanagers aan het malplaatje toe te voegen.
+
+1. Klikken **Wijzigingen opslaan**.

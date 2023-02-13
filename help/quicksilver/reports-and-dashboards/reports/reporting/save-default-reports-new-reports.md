@@ -1,0 +1,22 @@
+---
+product-area: reporting
+navigation-topic: reporting-navigation-topic
+title: Standaardrapporten opslaan als nieuwe rapporten
+description: U kunt een exemplaar van een standaardrapport wijzigen dat met uw geval van Adobe Workfront inbegrepen is en het opslaan als nieuw rapport.
+author: Nolan
+feature: Reports and Dashboards
+exl-id: e3fa0bc6-a8c3-408e-924f-228c270ff579
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
+
+---
+
+# Standaardrapporten opslaan als nieuwe rapporten
+
+U kunt een exemplaar van een standaardrapport wijzigen dat met uw geval van Adobe Workfront inbegrepen is en het opslaan als nieuw rapport.
+
+Nadat u een standaardrapport kopieert, wordt u de eigenaar van het gekopieerde rapport en het toont in de Mijn sectie van Rapporten in het gebied van Rapporten.
+
+Voor informatie over het kopiëren van een rapport raadpleegt u [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).

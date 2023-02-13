@@ -1,0 +1,29 @@
+---
+content-type: reference
+product-area: workfront-integrations
+navigation-topic: workfront-integrations-navigation-topic
+title: Adobe Workfront for Slack
+description: Adobe Workfront biedt integratie met Slack. Dit artikel verbindt aan instructies over gemeenschappelijke gebruiksgevallen voor dit scenario, evenals instructie voor configuratie.
+author: Becky
+feature: Workfront Integrations and Apps
+exl-id: 64fd0473-b29e-4b6f-a847-20a8d29997ee
+source-git-commit: 102fc3c00f442c3ca16b224a03cdb9ea1ed9598c
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 1%
+
+---
+
+# [!DNL Adobe Workfront for Slack]
+
+Deze sectie bevat de volgende artikelen:
+
+* [Configureren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+* [Toegang [!DNL Adobe Workfront] van [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+* [Uw werk en goedkeuringen beheren vanuit [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+* [Taken en uitgaven maken van [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
+* [Zoeken naar [!DNL Adobe Workfront] objecten van [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+* [Toegang [!DNL Adobe Workfront] objecten van een gedeelde koppeling in [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
+* [Heb toegang tot uw favorieten en recente punten van [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
+* [Een bericht plaatsen [!DNL Slack] opmerking toevoegen als update](../../workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+* [Ontvangen [!DNL Adobe Workfront] meldingen in [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)

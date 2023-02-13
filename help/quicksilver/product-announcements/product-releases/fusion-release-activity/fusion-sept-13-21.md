@@ -1,0 +1,65 @@
+---
+title: Workfront Fusion release activity:&nbsp;Week van 13 september 2021
+description: Workfront Fusion release activity:&nbsp;Week van 13 september 2021
+author: Luke
+draft: Probably
+feature: Product Announcements, Workfront Fusion
+exl-id: d9056d6f-a62d-4516-930e-4c3f4fbaec3e
+hidefromtoc: true
+source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 0%
+
+---
+
+# Workfront Fusion release activity: Week van 13 september 2021
+
+Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 23 september 2021 zijn aangebracht.
+
+Voor een lijst met alle recente wijzigingen raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+
+## De uitvoeringshistorie van het Workfront Fusion-scenario filteren en sorteren
+
+Om het gemakkelijker te maken om specifieke scenario-uitvoeringen te vinden, hebben wij het mogelijk gemaakt om door meer gebieden in de geschiedenis van de scenariouitvoering te filtreren. Naast bestaande filters kunt u nu filteren op het volgende:
+
+* Uitvoeringstijd
+* Aantal verrichtingen
+* Hoeveelheid overgedragen gegevens
+* Type handeling (uitvoeren of bijwerken)
+
+Eerder kon de uitvoeringshistorie alleen worden gefilterd op begintijd of status.
+
+We hebben het ook mogelijk gemaakt om de geschiedenis van de uitvoering van het scenario te sorteren. U kunt op de volgende waarden sorteren:
+
+* Begintijd van uitvoering
+* Uitvoerstatus
+* Uitvoeringstijd
+* Aantal verrichtingen
+* Hoeveelheid overgedragen gegevens
+
+Voor meer informatie over het filtreren en het sorteren van uitvoeringsgeschiedenis, zie [De uitvoeringsgeschiedenis van een scenario weergeven in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+
+## Help-koppelingen in Fusion leiden nu tot specifieke artikelen
+
+Om het voor u gemakkelijker te maken om de informatie te vinden u nodig hebt, hebben wij de hulpverbindingen in Fusion bijgewerkt om rechtstreeks aan het artikel over het gebied van Fusion te leiden u binnen werkt.
+
+U kunt op het hulppictogram in om het even welk gebied van Fusion klikken dat aan het artikel wordt genomen dat dat gebied bespreekt. De Help-koppeling in het deelvenster Scenario-instellingen leidt bijvoorbeeld tot het artikel waarin het deelvenster Scenario-instellingen wordt beschreven, terwijl de Help-koppeling in een Workfront-module naar het artikel leidt waarin wordt beschreven hoe u Workfront-modules kunt instellen. U kunt ook klikken op gemarkeerde koppelingen in de verklarende tekst om te leiden naar het artikel dat relevant is voor die verklarende tekst, zoals een lijst van gesteunde datum en tijdformaten.
+
+Eerder opende Fusion Help links de documentatie voor Workfront Fusion, die u vervolgens kon zoeken naar het gewenste onderwerp.
+
+## De de uitvoeringsgeschiedenis van het scenario toont slechts de knoop van Details wanneer de details beschikbaar zijn
+
+Om meer duidelijkheid in de lijst van de scenariouitvoering te creëren, hebben wij de knoop van Details voor slechts uitvoeringen zichtbaar gemaakt die details beschikbaar hebben. U kunt nu in één oogopslag zien of de details van een uitvoering zijn gearchiveerd. De functionaliteit van de knop Details is niet gewijzigd.
+
+Eerder hadden alle uitvoeringen een knop Details en soms klikken gebruikers op de details om te zien dat er geen details beschikbaar waren.
+
+Zie voor meer informatie [De uitvoeringsgeschiedenis van een scenario weergeven in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+
+## Time-out SDL Managed Translation-connector is verhoogd tot 120 seconden
+
+Om onderbrekingen op de SDL Beheerde Vertaalschakelaar te verminderen, hebben wij de onderbrekingsduur tot 120 seconden verhoogd.
+
+Eerder volgde de door SDL beheerde vertaling de Workfront Fusion-time-outgarantie van 40 seconden.

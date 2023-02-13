@@ -1,0 +1,28 @@
+---
+product-previous: workfront-goals
+content-type: release-notes
+navigation-topic: product-releases
+title: Adobe Workfront Goals release activity
+description: Met de Doelen van Adobe Workfront, kunt u strategie, doelstellingen, en werk richten om uitvoering over de organisatie te drijven en meetbare bedrijfsresultaten te leveren. Bepaal wat je gaat doen en waarom het belangrijk is.
+author: Luke
+feature: Product Announcements, Workfront Goals
+exl-id: 1740c91f-b01e-4e97-987a-d1b810d0c0a4
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 0%
+
+---
+
+# Adobe Workfront Goals release activity
+
+Met de Doelen van Adobe Workfront, kunt u strategie, doelstellingen, en werk richten om uitvoering over de organisatie te drijven en meetbare bedrijfsresultaten te leveren. Bepaal wat je gaat doen en waarom het belangrijk is.
+
+Voor meer informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
+
+De volgende releases zijn beschikbaar gesteld voor Workfront Goals:
+
+* [Adobe Workfront-doelen met de release 21.2](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
+* [Adobe Workfront-doelstellingen met 21.1-release](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
+* [Workfront-doelen met de 20.4-release](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
+* [Workfront Goals met de release van 20.3 - 14 augustus 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)

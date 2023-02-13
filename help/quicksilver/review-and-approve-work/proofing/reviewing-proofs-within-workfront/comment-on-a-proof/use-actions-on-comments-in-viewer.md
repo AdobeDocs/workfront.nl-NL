@@ -1,0 +1,80 @@
+---
+product-area: documents
+navigation-topic: comment-on-a-proof
+title: Handelingen gebruiken voor opmerkingen bij proefdrukken
+description: U kunt acties gebruiken om bij te houden wat er op elke commentaardraad op een proefdruk moet gebeuren. Een actie is een woord of uitdrukking zoals "te doen,"Gedaan,"of "Bezig"die uw beheerder van Adobe Workfront in het systeem voor uw organisatie vormt. Revisoren kunnen een actie toevoegen aan een opmerking om informatie te verschaffen over wat er is gedaan of wat er nog moet gebeuren als reactie op de opmerking.
+author: Courtney
+feature: Digital Content and Documents
+exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
+source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 0%
+
+---
+
+# Handelingen gebruiken voor opmerkingen bij proefdrukken
+
+U kunt acties gebruiken om bij te houden wat er op elke commentaardraad op een proefdruk moet gebeuren. Een actie is een woord of uitdrukking zoals &quot;te doen,&quot;Gedaan,&quot;of &quot;Bezig&quot;die uw beheerder van Adobe Workfront in het systeem voor uw organisatie vormt. Revisoren kunnen een actie toevoegen aan een opmerking om informatie te verschaffen over wat er is gedaan of wat er nog moet gebeuren als reactie op de opmerking.
+
+Voor informatie over hoe uw beheerder van Workfront toelaat en acties vormt, zie.
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Bewijs van machtigingsprofiel </td> 
+   <td>Manager of hoger</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Rol proefdrukken</td> 
+   <td>Auteur of moderator</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+
+## Handelingen gebruiken voor opmerkingen
+
+Een actie toepassen op een bestaande opmerking in de conceptviewer:
+
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+
+1. Voer een van de volgende handelingen uit:
+
+   * Klik op het vlagpictogram in de rechterbenedenhoek van de opmerking en klik vervolgens op de gewenste actie in het vervolgkeuzemenu.
+
+      ![](assets/actions-flag-icon-350x198.png)
+
+   * Klik op de knop **Meer** (drie horizontale punten op de opmerking) en klik vervolgens op de gewenste actie in de onderste sectie van het vervolgkeuzemenu dat wordt weergegeven.
+
+      ![Actions_on_comments-More_menu.png](assets/actions-on-coments-more-menu-350x347.png)
+
+1. (Optioneel) Als u van gedachten verandert, kunt u een van de volgende handelingen uitvoeren:
+
+   * Klik op het vlagpictogram of het pictogram **Meer** opnieuw, en klik vervolgens op **Handeling verwijderen**.
+
+   * Herhaal stap 1 om een andere handeling toe te passen.
+
+>[!TIP]
+>
+>U kunt opmerkingen filteren op een bepaalde handeling. Zie voor meer informatie [Zoeken, filteren en sorteren, proefdrukopmerkingen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).

@@ -1,0 +1,233 @@
+---
+product-area: projects
+navigation-topic: manage-projects
+title: Projecttijdlijnen opnieuw berekenen
+description: Door de tijdlijnen opnieuw te berekenen kunnen beheerders zien hoe verschillende factoren die met het project samenhangen, van invloed zijn op de tijdlijn van het project. De tijdlijn van een project verwijst naar geplande en geplande data.
+author: Alina
+feature: Work Management
+exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
+source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 0%
+
+---
+
+# Projecttijdlijnen opnieuw berekenen
+
+Door de tijdlijnen opnieuw te berekenen kunnen beheerders zien hoe verschillende factoren die met het project samenhangen, van invloed zijn op de tijdlijn van het project. De tijdlijn van een project verwijst naar geplande en geplande data.
+
+Het aanbrengen van veranderingen in programma&#39;s, personeelstijd weg, en andere punten buiten het werkingsgebied van een project beïnvloeden niet onmiddellijk de projectchronologie. De projecttijdlijn wordt beïnvloed wanneer de tijdlijn opnieuw wordt berekend. Externe invloeden hebben pas effect op uw project als de herberekening plaatsvindt.
+
+In dit artikel worden de manieren beschreven waarop tijdlijnherberekening plaatsvindt.
+
+## Toegangsvereisten
+
+<!--drafted for P&P: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard </p> 
+   Or
+   <p>Legacy license: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+De automatische chronologieherberekening gebeurt zonder speciale toegang voor om het even welke gebruikers betrokken bij het werken aan het project.
+
+U moet echter de volgende toegang hebben om de tijdlijn van een project handmatig opnieuw te berekenen:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>De beheerder van het systeem om chronologie voor alle projecten in het systeem opnieuw te berekenen</p> <p><b>OPMERKING</b>
+
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Rechten voor een project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
+## Automatische herberekening
+
+Door gebrek, worden de projectchronologie automatisch opnieuw berekend dagelijks wanneer het projectwerkingsgebied verandert of elke nacht. De beheerder van Workfront bepaalt of om chronologie elke nacht of met elke werkingsgebiedverandering automatisch te berekenen door de montages van Chronologie in het gebied van de Voorkeur van het Project van Opstelling te beheren. Zie voor meer informatie [Tijdlijnherberekeningen voor projecten configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+>[!NOTE]
+>
+>Als de tijdlijn van een project langer is dan 15 jaar, wordt de automatische herberekening voor dat project uitgeschakeld. U kunt slechts een Type van Update van Handboek voor een project selecteren langer dan 15 jaar. Als u de datums in het project wijzigt in minder dan 15 jaar, moet u de tijdlijn handmatig opnieuw berekenen voordat deze automatisch wordt berekend.
+
+* [Automatische herberekening van projecttijdlijnen](#automatic-recalculation-of-project-timelines)
+* [Handelingen die een automatische herberekening van projecttijdlijnen activeren](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+### Automatische herberekening van projecttijdlijnen {#automatic-recalculation-of-project-timelines}
+
+Adobe Workfront herberekent dagelijks tijdlijnen alleen voor projecten waarbij aan alle volgende voorwaarden is voldaan:
+
+* Huidige status hebben
+* Het Type van update van het project wordt geplaatst aan Automatisch of Automatisch en bij Verandering
+
+   Voor informatie over het type van het Type van projectupdate, zie [Overzicht van het type projectupdate](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+
+* Hebt u een datum voor laatste update in de afgelopen drie maanden\
+   Workfront-beheerder kan deze standaardfunctionaliteit wijzigen, zoals beschreven in [Tijdlijnherberekeningen voor projecten configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+* De laatste berekeningsdatum van de projecttijdlijn valt niet binnen de huidige kalenderdag. Dit betekent dat de laatste berekeningsdatum van de projecttijdlijn vóór 00:00 uur van de huidige dag ligt.
+
+U kunt vormen hoe vaak de chronologie voor uw project wordt bijgewerkt. Wanneer de projectchronologie wordt bijgewerkt, wordt het opnieuw berekend gebaseerd op veranderingen die aan het project worden aangebracht.
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+or changes made to another project that the timeline is dependent on
+</MadCap:conditionalText>
+-->
+
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
+-->
+
+Zie voor meer informatie [Selecteer het Type van projectupdate](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE:&nbsp;content moved to the article linked above)</p>
+<p>You can configure how the timeline for your project is updated:</p>
+<ol>
+<li value="1">Go to the project for which you want to configure how the timeline is updated.</li>
+<li value="2"> <p>  Click the <strong>More</strong> icon <img src="assets/more-icon.png"> to the right of the project name, then click&nbsp; <strong>Edit</strong>. </p> <p>The <strong>Edit Project</strong> dialog box is displayed.</p> </li>
+<li value="3"> <p>Click<strong>Settings.</strong><br><img src="assets/screen-shot-2013-09-18-at-10.36.16-am-350x347.png" alt="" style="width: 350;height: 347;"></p> </li>
+<li value="4">In the <strong>Update Type</strong> drop-down list, select from the following options:<br><strong>- Automatic and On Change:</strong> (Default setting) The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. The project timeline is also updated each night. <br>This is the recommended setting for this field because it ensures that the project timeline is always up to date.<br>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed.
+<div>
+<p><img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"></p>
+</div><br>This indicates that the recalculation is not yet finished, and the dates are subject to change. <br><strong>- Change Only:</strong> The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur.<br>You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.<br><strong>- Automatic Only:</strong> The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on.<br><note type="note">
+A project does not automatically recalculate each night if it is in Planning status. It only recalculates on change.
+</note><br><strong>- Manual Only:</strong> The project timeline is updated only when you select the option to Recalculate Timelines, as described in <a href="#manual-recalculation" class="MCXref xref">Manual recalculation</a>.<br>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).<br>For more information about the project Update Type, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a><note type="note">
+If the timeline of a project is longer than 15 years, the automatic recalculation is disabled. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
+</note></li>
+<li value="5">Click <strong>Save Changes.</strong></li>
+</ol>
+</div>
+-->
+
+### Handelingen die een automatische herberekening van projecttijdlijnen activeren {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
+
+Diverse bereikwijzigingen in de levensduur van een project berekenen de projecttijdlijn automatisch opnieuw, inclusief de volgende acties:
+
+* Taakstatus bijwerken...
+* Een taak naar een ander project verplaatsen.
+* De geplande datum of geplande einddatum van de taken bijwerken.
+* Het bijwerken van het Type van Duur, de Beperking van de Taak, of het aantal wijzers op de taken.
+* Het bijwerken van taak predecessor verhoudingen.
+* Het toevoegen van een goedkeuring aan een taak die ook tijd aan de Geplande Datum van Voltooiing van de taak toevoegt.\
+   Voor meer informatie over goedkeuringsinstellingen raadpleegt u [Algemene goedkeuringsinstellingen configureren](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+
+## Handmatige herberekening {#manual-recalculation}
+
+Als projecteigenaar, kunt u de chronologie voor individuele projecten manueel opnieuw berekenen. De Workfront-beheerder kan alle tijdlijnen in Workfront handmatig opnieuw berekenen.
+
+* [Tijdlijnen voor afzonderlijke projecten of bulksgewijs opnieuw berekenen](#recalculate-timelines-for-individual-projects-or-in-bulk)
+* [Tijdlijnen in grote hoeveelheden handmatig opnieuw berekenen in het vak Projecten bewerken](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
+* [Tijdlijnen voor alle projecten in het systeem opnieuw berekenen (alleen voor Workfront-beheerders)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
+
+### Tijdlijnen voor afzonderlijke projecten of bulksgewijs opnieuw berekenen {#recalculate-timelines-for-individual-projects-or-in-bulk}
+
+U kunt de chronologie van een project in Workfront van de projectpagina of van een projectlijst of rapport opnieuw berekenen.
+
+1. Ga naar het project waarvoor u de tijdlijn opnieuw wilt berekenen en klik op de knop **Meer** pictogram ![](assets/qs-more-menu.png) links van de projectnaam
+
+   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+
+   of
+
+   Ga naar een projectlijst of rapport en selecteer een of meerdere projecten en klik vervolgens op de knop **Meer** pictogram ![](assets/qs-more-menu.png) boven aan de lijst.
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+   >[!TIP]
+   >
+   >Afhankelijk van de complexiteit van uw projecten raden we u aan geen groot aantal projecten te selecteren wanneer u de tijdlijnen van de projecten bulksgewijs herberekent voor optimale prestaties. Sommige dingen die een project te complex zouden kunnen maken zouden veelvoudige gebiedsdelen of taken, of een groot aantal douanevelden kunnen zijn.
+
+1. Klikken **Tijdlijn opnieuw berekenen**.
+
+   Nadat de tijdlijn opnieuw is berekend, ziet u een bericht dat aangeeft dat de herberekening is gelukt.
+
+   >[!TIP]
+   >
+   >Voordat de tijdlijnherberekening is voltooid, worden sommige geplande of geprojecteerde datums mogelijk grijs weergegeven. Dit betekent dat de herberekening nog niet is voltooid en dat de data kunnen worden gewijzigd.
+
+### Tijdlijnen in grote hoeveelheden handmatig opnieuw berekenen in het vak Projecten bewerken {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
+
+U kunt de tijdlijnen van verschillende projecten handmatig opnieuw berekenen door ze bulksgewijs te bewerken.
+
+>[!TIP]
+>
+>Afhankelijk van de complexiteit van uw projecten raden we u aan geen groot aantal projecten te selecteren wanneer u deze in bulk bewerkt, zodat u optimale prestaties krijgt. Sommige dingen die een project te complex zouden kunnen maken zouden veelvoudige gebiedsdelen of taken of een groot aantal douanevelden kunnen zijn.
+
+1. Ga naar een lijst met projecten.
+1. Selecteer meerdere projecten in de lijst en klik op **Bewerken**.
+1. Klikken **Instellingen** selecteert u vervolgens **Tijdlijnen opnieuw berekenen**.
+
+1. Klikken **Wijzigingen opslaan**.
+
+### Tijdlijnen voor alle projecten in het systeem opnieuw berekenen (alleen voor Workfront-beheerders) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
+
+Workfront-beheerders kunnen de tijdlijndiagnose opnieuw berekenen om alle tijdlijnen in het Workfront-systeem onmiddellijk opnieuw te berekenen. Hierdoor kunnen alle projectbeheerders de invloed van externe wijzigingen direct zien op zowel geplande als geplande data.
+
+Zie voor meer informatie over het opnieuw berekenen van tijdlijnen voor de gehele Workfront-site de sectie &quot;Tijdlijnen voor de gehele Workfront-instantie opnieuw berekenen&quot; in [Tijdlijnherberekeningen voor projecten configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Project Update Types</h2>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and moved to thisa rticle: /Content/Manage work/Projects/Planning a Project/project-update-type-overview.htm)</p>
+<p>For information about how to update the project's Update Type, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>. </p> <note type="important">
+If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual.
+</note>
+<p>You can select how each project calculates its timeline by choosing between the following Update Types:</p> <note type="important">
+If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual.
+</note>
+<ul>
+<li> <p><strong>Automatic and On Change:</strong>&nbsp;This is the default setting. The project timeline is updated each time a change occurs&nbsp;in the project or in another project that the timeline is dependent on. The project timeline is also updated each night.&nbsp; <br>This is the recommended setting as it ensures that the project timeline is always up to date.</p> <p>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed. </p> <p> <img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"> </p> <p>This indicates that the recalculation is not yet finished, and the dates are subject to change. </p> </li>
+<li><strong>Change Only:</strong>&nbsp;The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur. <br>You might want to select this option if you are concerned about system performance and if&nbsp;changes rarely occur in the project or in other projects that the timeline is dependent on.</li>
+<li> <p><strong>Automatic Only:</strong>&nbsp;The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if you are concerned about system performance and if many changes occur each day in the project or in other projects that the timeline is dependent on.</p> <note type="note">
+A project does not automatically recalculate each night if it is in Planning status. It only recalculates on change.
+</note> </li>
+<li><strong>Manual Only:</strong>&nbsp;The project timeline is updated only&nbsp;when you select the option to <strong>Recalculate Timelines</strong>, as described in the section "Manual Recalculation" in&nbsp;the article <a href="#" class="MCXref xref selected">Recalculate project timelines</a>.<br>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</li>
+</ul>
+</div>
+-->

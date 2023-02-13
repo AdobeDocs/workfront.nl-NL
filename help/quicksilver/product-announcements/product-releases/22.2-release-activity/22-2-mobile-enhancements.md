@@ -1,0 +1,41 @@
+---
+title: 22.2 Verbeteringen voor mobiele apparaten
+description: 22.2 Verbeteringen voor mobiele apparaten
+author: Luke
+draft: Probably
+feature: Product Announcements
+exl-id: 72761545-9781-4a66-8672-2ff6a15cce9f
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
+
+---
+
+# 22.2 Verbeteringen voor mobiele apparaten
+
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 22.2 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+in January 2022
+</MadCap:conditionalText>
+-->
+
+de week van 4 april 2022.
+
+Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 raadpleegt u [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+
+## Tekeningen en opmerkingen over proefdocumenten in de mobiele app
+
+>[!NOTE]
+>
+>Deze functie is over het algemeen beschikbaar in de Apple App Store en Google Play Store medio april 2022.
+
+Met de mobiele app van Adobe Workfront kunt u nu tekeningen en opmerkingen toevoegen aan proefdrukdocumenten. Een nieuwe werkbalk op de proefdruk bevat tekengereedschappen voor vormen. U kunt voor elke vorm instellingen kiezen zoals kleur en lijndikte. Als u een vorm tekent op de proefdruk, wordt uw opmerking verbonden met dat gedeelte van het proefdrukdocument.
+
+U kunt ook reageren op opmerkingen die anderen over de bewijzen hebben gemaakt.
+
+Het volgende artikel wordt bijgewerkt wanneer de app naar de App-winkels wordt uitgebracht:
+
+[Bekijk en neem beslissingen over proefdrukken in de mobiele app van Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

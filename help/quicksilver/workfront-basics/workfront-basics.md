@@ -1,0 +1,31 @@
+---
+content-type: reference
+navigation-topic: get-started-with-workfront
+title: Basisbegrippen voor Adobe Workfront
+description: Bekijk deze gebieden om inzicht te krijgen in de grondbeginselen van Adobe Workfront.
+author: Lisa
+feature: Get Started with Workfront
+exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 17%
+
+---
+
+# Basisbegrippen voor Adobe Workfront
+
+Deze sectie bevat de volgende subsecties:
+
+* [Woordenlijst met Adobe Workfront-terminologie](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Adobe Workfront-browservereisten](../workfront-basics/workfront-browser-requirements.md)
+* [Ondersteunde talen in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
+* [Navigeren door Adobe Workfront](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [Home](../workfront-basics/using-home/home.md)
+* [Werkonderdelen bijwerken en updates weergeven](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [Werken met aangepaste formulieren](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
+* [Meldingen gebruiken](../workfront-basics/using-notifications/use-notifications.md)
+* [Rechten verlenen en aanvragen voor objecten](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+* [Uw account en profiel beheren](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
+* [Mobiele apps](../workfront-basics/mobile-apps/mobile-apps.md)
+* [Tips, trucs en probleemoplossing voor Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

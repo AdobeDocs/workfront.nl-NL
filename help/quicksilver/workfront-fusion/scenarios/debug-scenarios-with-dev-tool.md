@@ -1,0 +1,418 @@
+---
+product-previous: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: scenarios
+title: Foutopsporingsscenario's met Adobe Workfront Fusion DevTool
+description: Met Adobe Workfront Fusion DevTool kunt u scenario's begrijpen en problemen oplossen. Met DevTool voegt u een extra deelvenster toe aan de Chrome Developer Tools. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
+author: Becky
+feature: Workfront Fusion
+exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
+source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+workflow-type: tm+mt
+source-wordcount: '1518'
+ht-degree: 0%
+
+---
+
+# Foutopsporingsscenario&#39;s met de [!DNL Adobe Workfront Fusion] DevTool
+
+De [!DNL Adobe Workfront Fusion] Met DevTool kunt u scenario&#39;s begrijpen en problemen oplossen. Met het gereedschap DevTool voegt u een extra deelvenster toe aan het dialoogvenster [!DNL Chrome Developer Tools]. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] of hoger</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering] </p>  </td>    </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Neem contact op met uw [!DNL Workfront] beheerder.
+
+Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Installeer de [!DNL Chrome] DevTool-extensie
+
+Als u de opdracht [!DNL Workfront Fusion] DevTool, moet u eerst het installeren.
+
+1. Klikken [deze koppeling](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) om de extensie te downloaden.
+1. Als de bestanden zijn gedownload, pakt u ze uit in een map naar keuze.
+1. Een tabblad openen in [!DNL Chrome]
+1. Voer op de zoekbalk van het tabblad de `chrome://extensions`.
+1. Klik op de knop **[!UICONTROL Developer mode]** Schakel rechtsboven in het scherm in om de modus Ontwikkelaar in te schakelen. Als u naar rechts schakelt, is de modus voor ontwikkelaars ingeschakeld.
+1. Klik op **[!UICONTROL Load unpacked]**.
+1. Selecteer de map met het DevTool (waar u de bestanden hebt uitgepakt in stap 2).
+
+   Nadat u de verpakking hebt verwijderd, wordt het DevTool weergegeven onder de andere Chrome-extensies.
+
+## Zoek de [!DNL Workfront Fusion] DevTool
+
+Als u de opdracht [!DNL Workfront Fusion] DevTool, moet u toevoegen [!DNL Workfront Fusion] De DevTool-extensie voor uw [!DNL Chrome] browser, zoals beschreven in [De extensie Chrome DevTool installeren](#install-the-chrome-devtool-extension).
+
+1. Open uw [!DNL Workfront Fusion] scenario.
+1. Open [!DNL Chrome Developer Tools]:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!DNL Mac]</td> 
+      <td>Command + Option + I</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!DNL Windows]</td> 
+      <td> <p>Control + Shift + I</p> <p> of </p> <p>F12</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!TIP]
+   >
+   >We raden u aan de [!DNL Chrome Developer Console] onderaan om een betere mening van uw modules te handhaven.
+
+1. Klik op de knop **[!DNL Workfront Fusion]** tab in [!DNL Chrome Dev Tools].
+
+## Gebruik de [!DNL Workfront Fusion] DevTool
+
+Workfront Fusion DevTool bestaat uit drie hoofdsecties. U kunt deze in het linkerpaneel van uw DevTool venster vinden.
+
+* [Live stream](#live-stream)
+* [Scenario-foutopsporing](#scenario-debugger)
+* [Gereedschappen](#tools)
+
+### Live stream
+
+Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal in uw scenario op Uitvoeren klikt.
+
+1. Klik op de knop **[!UICONTROL Live Stream]** pictogram ![](assets/live-stream-icon.png) om de sectie Live stream te openen.
+1. Voer een van de volgende handelingen uit:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Handeling</th> 
+      <th>Instructies</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Aanvraaggegevens weergeven</td> 
+      <td> <p>U kunt de volgende informatie voor elke module in uw scenario bekijken</p> 
+       <ul> 
+        <li> <p>De Kopballen van het verzoek (API eindpunt URL, de methode van http, de tijd en de datum het verzoek werd geroepen, verzoekkopballen, en vraagkoord)</p> </li> 
+        <li> <p>Verzoek</p> </li> 
+        <li> <p>Antwoordheaders</p> </li> 
+        <li> <p>Reactieorgaan</p> </li> 
+       </ul> <p>Als u deze informatie wilt weergeven, klikt u op het desbetreffende tabblad in het rechterdeelvenster van het dialoogvenster [!DNL Workfront Fusion] DevTool.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Verzoeken en antwoorden zoeken</p> </td> 
+      <td> <p>Voer de zoekterm in het zoekveld in in het linkerdeelvenster van het dialoogvenster [!DNL Workfront Fusion] DevTool om alleen verzoeken weer te geven die de zoekterm bevatten.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Lijst met aanvragen verwijderen </p> </td> 
+      <td> <p>Klik op het prullenbakpictogram in de rechterbovenhoek van het linkerdeelvenster van het DevTool om de lijst met verzoeken te wissen die is opgenomen in het dialoogvenster [!DNL Workfront Fusion] DevTool. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Logboekregistratie voor console inschakelen</p> </td> 
+      <td> <p>Klik op het pictogram van de computer <img src="assets/console-computer-icon.png"> in de rechterbovenhoek van het linkerdeelvenster van het gereedschap Ontwikkelen.</p> <p>Aanmelden in de console wordt ingeschakeld wanneer het computerpictogram groen is.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>De aanvraag ophalen in de Raw JSON-indeling of cURL</p> </td> 
+      <td> 
+       <ul> 
+        <li> <p><strong>Ruwe JSON</strong> </p> <p>Klikken <strong>[!UICONTROL Copy RAW]</strong> in de hoger-juiste hoek van de DevTool's juiste ruit.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Klikken <strong>[!UICONTROL Copy cURL]</strong> in de hoger-juiste hoek van de DevTool's juiste ruit.</p> </li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+### Scenario-foutopsporing
+
+Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschiedenis van de scenario looppas en laat u toe om modules door hun naam of identiteitskaart te zoeken.
+
+1. Klik op de knop **[!UICONTROL Scenario Debugger]** pictogram ![](assets/scenario-debugger-icon.png) om Scenario Debugger te openen.
+1. (Optioneel) Voer de zoekterm (naam of module-id) in het zoekveld in het linkerdeelvenster van [!DNL Workfront Fusion] DevTool in het dialoogvenster [!UICONTROL Scenario Debugger] sectie.
+1. Dubbelklik op de naam van de module om de instellingen in de scenarioeditor te openen.
+1. Bekijk aanvraagdetails door op de gewenste bewerking te klikken.
+
+### Gereedschappen
+
+De [!DNL Workfront Fusion] DevTool beschikt over gereedschappen waarmee u uw scenario gemakkelijker kunt instellen.
+
+1. Klik op de knop **[!UICONTROL Tools]** pictogram ![](assets/console-tools-icon.png) om de gereedschappen te openen.
+1. Selecteer het gereedschap dat u wilt gebruiken
+1. Configureer de velden zoals hieronder wordt beschreven.
+1. Klik op **[!UICONTROL Run]**.
+
+Gereedschappen en de bijbehorende velden:
+
+* [Een module activeren](#focus-a-module)
+* [Modules zoeken op basis van toewijzing](#find-modules-by-mapping)
+* [App-metagegevens ophalen](#get-app-metadata)
+* [Toewijzing kopiëren](#copy-mapping)
+* [Filter kopiëren](#copy-filter)
+* [Verbinding wisselen](#swap-connection)
+* [Variabele wisselen](#swap-variable)
+* [App wisselen](#swap-app)
+* [Basis 64](#base-64)
+* [Naam module kopiëren](#copy-module-name)
+* [Bron opnieuw toewijzen](#remap-source)
+* [App markeren](#highlight-app)
+* [GS migreren](#migrate-gs)
+
+#### [!UICONTROL Focus a Module]
+
+Hiermee opent u instellingen van de opgegeven module op ID.
+
+<table style="table-layout:auto">
+    <tr>
+        <td>[!UICONTROL Module ID]</td>
+        <td>Voer de id in van de module waarvoor u instellingen wilt openen.</td>
+    </tr>
+</table>
+
+#### [!UICONTROL Find Modules by Mapping]
+
+Staat u toe om de waarden van modules voor een gespecificeerde termijn te zoeken. De output bevat IDs van modules die de termijn bevatten u naar hebt gezocht.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Keyword]</td> 
+   <td> <p> Voer de term in waarnaar u wilt zoeken. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Use Only Values]</p> </td> 
+   <td> <p>Schakel deze optie in als u alleen in de waarden van de modulevelden wilt zoeken.</p> <p>Schakel deze optie uit als u ook wilt zoeken in de namen van modulevelden.</p> <p>De zoekopdracht wordt uitgevoerd via de parameters name en label.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get App Metadata]
+
+Hiermee worden metagegevens van de toepassing opgehaald op basis van de modulenaam of -id van de app. Dit is bijvoorbeeld handig wanneer u moet weten welke versie van de app in uw scenario wordt gebruikt.
+
+<table style="table-layout:auto">
+    <tr>
+        <td>[!UICONTROL Source Module]</td>
+        <td>Selecteer de module waarvoor u metagegevens wilt ophalen.</td>
+    </tr>
+</table>
+
+#### [!UICONTROL Copy Mapping]
+
+Hiermee kopieert u waarden uit de bronmodule naar de doelmodule.
+
+>[!CAUTION]
+>
+>Zorg ervoor u de correcte bron en doelmodules plaatst. Als u een ander type module selecteert, worden de waarden in de doelmodule verwijderd.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td> <p> Selecteer de module of voer de id in van de module waaruit u de veldwaarden wilt kopiëren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
+   <td> <p>Selecteer de module of ga identiteitskaart van de module in waarin u de waarden van de bronmodule wilt opnemen.</p> <p>Belangrijk: Waarden in de doelmodule worden overschreven.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Copy Filter]
+
+Hiermee kopieert u de filterinstellingen van de bronmodule naar de doelmodule.
+
+>[!NOTE]
+>
+>De kopieeractie wordt uitgevoerd op het filter dat op de linkerkant van de geselecteerde module wordt geplaatst.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td> <p> Selecteer de module of voer de id in van de module waaruit u filterwaarden wilt kopiëren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
+   <td> <p>Selecteer de module of typ de id van de module waarin u de filterwaarden uit de bronmodule wilt invoegen.</p> <p>Belangrijk: Waarden in de doelmodule worden overschreven.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Preserve Fallback Route setting]</p> </td> 
+   <td> <p>De bronfilter wordt geplaatst als reserveroute. Schakel deze optie in om ook in te stellen dat het doelfilter is ingesteld als fallback-route.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Swap Connection]
+
+Dupliceert een verbinding van de bronmodule aan elke module in het scenario van zelfde app.
+
+<table style="table-layout:auto">
+    <tr>
+        <td>[!UICONTROL Source Module]</td>
+        <td>Selecteer de module of voer de id in van de module waaruit u de verbinding wilt dupliceren.</td>
+    </tr>
+</table>
+
+#### [!UICONTROL Swap Variable]
+
+Zoekt naar opgegeven variabelen in het scenario en vervangt deze door een nieuwe variabele.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Variable to Find]</td> 
+   <td> <p> Zoek de variabele die u in uw scenario wilt vervangen en kopieer deze naar deze ([!UICONTROL Variable to Find]). In het veld wordt de markering weergegeven met dubbele accolades. Voorbeeld: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Replace With]</p> </td> 
+   <td> <p>Zoek de variabele die u wilt vervangen door de variabele uit de module in uw scenario en kopieer deze naar deze ([!UICONTROL Variable to Find]). In het veld wordt de markering weergegeven met dubbele accolades. Voorbeeld: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Module]</p> </td> 
+   <td> <p>Selecteer de module waarin u de variabele wilt vervangen. Als geen module wordt geselecteerd, zal de variabele in het volledige scenario worden vervangen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Swap App]
+
+Hiermee vervangt u de geselecteerde app-versie in uw scenario door een andere app-versie.
+
+U kunt deze functie bijvoorbeeld gebruiken om de modules van Gmail- en E-mailapps te upgraden naar de meest recente versie.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL App to be Replaced]</td> 
+   <td> <p> Selecteer de app die u wilt vervangen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Replace with]</p> </td> 
+   <td> <p>Selecteer de app waarmee u deze wilt vervangen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Base 64]
+
+Staat u toe om de ingegaan gegevens aan Base64 te coderen of Base64 te decoderen. Sommige verzoeken worden gecodeerd aan Base64. Dit hulpmiddel kan nuttig zijn wanneer u naar bepaalde gegevens in het gecodeerde verzoek wilt zoeken.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Operation] </td> 
+   <td> <p>Selecteer of u de gegevens van wilt coderen [!UICONTROL Raw Data] veld naar Base64 of decoder Base64 naar Raw-gegevens.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Raw Data]</p> </td> 
+   <td> <p> Voer de gegevens in die u wilt coderen naar Base64 of Base64 als u wilt decoderen naar onbewerkte gegevens, afhankelijk van de optie die in het dialoogvenster [!UICONTROL Operation] veld hierboven.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Copy Module Name]
+
+Hiermee kopieert u de naam van de geselecteerde module naar het klembord.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Module] </td> 
+   <td> <p>Selecteer de module waarvan u de naam wilt kopiëren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Remap Source]
+
+Hiermee kunt u de toewijzingsbron wijzigen van de ene module in de andere.
+
+U moet eerst de module toevoegen u als bronmodule aan de route in uw scenario wilt gebruiken.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Module] </td> 
+   <td> <p> Selecteer de module u als toewijzingsbron voor andere modules in uw scenario wilt worden vervangen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
+   <td> <p>Selecteer de module die u als nieuwe toewijzingsbron wilt gebruiken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Module to Edit]</p> </td> 
+   <td> <p>Selecteer de module u de afbeelding voor wilt veranderen als u niet de afbeelding in het volledige scenario wilt veranderen. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Highlight App]
+
+Hiermee worden de modules van de opgegeven app in uw scenario gemarkeerd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL App to be Highlighted] </td> 
+   <td> <p> Selecteer de app die u wilt markeren in uw scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Version] </p> </td> 
+   <td> <p>Selecteer de versie van de app die u wilt markeren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Highlight Color]</p> </td> 
+   <td> <p> Voer de kleurhexadecimale kleur in die u voor markeringsmodules wilt gebruiken.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Migrate GS]
+
+Dit gereedschap is speciaal bedoeld voor een upgrade [!DNL Google Sheets] (verouderde) modules tot de nieuwste [!DNL Google Sheets] versie. Het voegt een nieuwe versie van de module net na de erfenisversie van de module in de scenario route toe.
+
+Voor deze module hoeft u geen parameters in te stellen.
