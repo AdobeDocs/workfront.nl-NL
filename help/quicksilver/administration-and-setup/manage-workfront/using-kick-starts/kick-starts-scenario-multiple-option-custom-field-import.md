@@ -8,7 +8,7 @@ description: U kunt aangepaste velden met meerdere opties in Adobe Workfront imp
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Voorbeelden van aangepaste velden met meerdere opties zijn:
 * Vervolgkeuzelijst met meerdere selecties
 * Vervolgkeuzelijst
 * Selectievakjes
-* Keuzerondjes.
+* Keuzerondjes
 
 Deze velden kunnen soms veel (soms honderden) opties bevatten. Als u ze importeert met de functie Kick-Start, kunt u als Workfront-beheerder veel tijd besparen en fouten voorkomen.
 
-U moet de stappen volgen die in de onderstaande secties worden beschreven, in deze volgorde, om aangepaste velden met meerdere opties te importeren met behulp van een trap-start:
+>[!IMPORTANT]
+>
+>U moet de stappen volgen die in de onderstaande secties worden beschreven, in deze volgorde, om aangepaste velden met meerdere opties te importeren met behulp van een trap-start:
+>
+>1. Bestaande aangepaste gegevens exporteren uit Workfront (optionele stap)
+>1. Het snelstartsjabloon exporteren voor aangepaste gegevens
+>1. Piek Excel Kick-Begint spreadsheet
+>1. Het Excel-werkblad uploaden naar Workfront
 
-1. Bestaande aangepaste gegevens exporteren uit Workfront (optionele stap)
-1. Het snelstartsjabloon exporteren voor aangepaste gegevens
-1. Piek Excel Kick-Begint spreadsheet
-1. Het Excel-werkblad uploaden naar Workfront
+
 
 ## Bestaande aangepaste gegevens exporteren uit Workfront (optionele stap)
 
@@ -115,15 +119,20 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
 1. Open het Excel-werkblad dat u in de vorige sectie hebt gedownload en bekijk een aantal bladen. Elk blad vertegenwoordigt een object in de toepassing.
 
-   Bijvoorbeeld: **Parameter** (dat verwijst naar Aangepast veld), **Parameteroptie**(dat verwijst naar de optie Aangepast veld), **Categorie** (Dit verwijst naar Aangepast formulier).
+   >[!INFO]
+   >
+   >Bijvoorbeeld: **Parameter** (dat verwijst naar Aangepast veld), **Parameteroptie**(dat verwijst naar de optie Aangepast veld), **Categorie** (Dit verwijst naar Aangepast formulier).
+   >
+   >U moet de namen van de objecten en hun kenmerken schrijven in de indeling die wordt ondersteund door de Workfront-database.
+   >
+   >Voor informatie over de betekenis van deze objecten raadpleegt u de [Workfront glossary](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Voor informatie over de namen van de objecten in de Workfront-database raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   U moet de namen van de objecten en hun kenmerken schrijven in de indeling die wordt ondersteund door de Workfront-database.
 
-   Voor informatie over de betekenis van deze objecten raadpleegt u de [Workfront glossary](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Voor informatie over de namen van de objecten in de Workfront-database raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Zorg ervoor dat de volgende informatie correct is opgemaakt:
@@ -164,7 +173,9 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
    * **`setName`** = voert u de naam in van de aangepaste velden die u in Workfront wilt weergeven.
 
-      We kunnen bijvoorbeeld twee aangepaste velden importeren, genaamd _Merk_, een veld voor het selectievakje, en _Media_, een veld voor keuzerondjes.
+      >[!INFO]
+      >
+      >We kunnen bijvoorbeeld twee aangepaste velden importeren, genaamd _Merk_, een veld voor het selectievakje, en _Media_, een veld voor keuzerondjes.
 
    * De **`setName`** en de **`setValue`** de kolommen bevatten gewoonlijk de zelfde informatie en zij zouden op de namen moeten wijzen die in de interface van Workfront voor uw nieuw gebied worden gewenst.
    De waarde van een veld is de naam die wordt weergegeven in rapporten, terwijl de naam wordt weergegeven in de aangepaste formulieren die aan objecten zijn gekoppeld.
