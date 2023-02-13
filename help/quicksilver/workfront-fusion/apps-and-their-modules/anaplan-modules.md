@@ -4,12 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Anaplan Modules
+title: Anaplan-modules
 description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die Anaplan gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: 8963acee01aac6117a731147d9288fddbe3e812f
+source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
