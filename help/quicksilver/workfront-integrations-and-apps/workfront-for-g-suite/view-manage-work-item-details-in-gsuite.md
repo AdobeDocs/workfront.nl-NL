@@ -7,14 +7,18 @@ description: U kunt de details van een tijdelijk item weergeven en beheren zonde
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Weergeven en beheren [!DNL Adobe Workfront] objectdetails van [!DNL G Suite]
+
+>[!NOTE]
+>
+>Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
 
 U kunt de details van een het werkpunt bekijken en beheren zonder te verlaten [!DNL G Suite]. U kunt bijvoorbeeld de beschrijving van een taak lezen, het bovenliggende object bekijken, de status ervan wijzigen en markeren als voltooid, allemaal binnen [!DNL Adobe Workfront for G Suite].
 

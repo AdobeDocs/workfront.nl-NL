@@ -8,14 +8,18 @@ description: Adobe Workfront for G Suite verbindt u met uw belangrijkste werk en
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
 
 [!DNL Adobe Workfront for G Suite] verbindt u met uw belangrijkste werk en staat u toe om met anderen samen te werken terwijl het blijven binnen [!DNL Gmail], [!DNL Google Calendar], en [!DNL Google Drive]. Zonder deze toepassingen te verlaten, kunt u gemailde verzoeken vangen of het werk updates en hen toevoegen aan [!DNL Workfront]. U kunt controleren wat er gebeurt in [!DNL Workfront], met inbegrip van termijnen, prioriteit, documenten, updates en extra context, zonder uw postbus te verlaten. U kunt goedkeuringsbesluiten nemen, op commentaren antwoorden, of nieuwe het werkverzoeken goedkeuren. En u kunt uw e-mails converteren naar persoonlijke projecttaken of werk en prioriteit toewijzen aan anderen.
 

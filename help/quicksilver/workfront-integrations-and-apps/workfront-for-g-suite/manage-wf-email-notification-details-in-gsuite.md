@@ -7,14 +7,18 @@ description: 'In G Suite: wanneer u een e-mailbericht opent, Adobe [!DNL Workfro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
 
 # Beheren [!DNL Adobe Workfront] meldingsgegevens van [!DNL G Suite]
+
+>[!NOTE]
+>
+>Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
 
 In [!DNL G Suite], wanneer u een e-mailbericht opent [!DNL Adobe Workfront] heeft verzonden, kunt u de bijbehorende details van het werkonderdeel bekijken en reageren zonder uw [!UICONTROL Inbox]. Als er acties beschikbaar zijn, zoals het goedkeuren van een aanvraag, kunt u die acties rechtstreeks uitvoeren vanuit [!DNL Workfront for G Suite].
 

@@ -7,14 +7,18 @@ description: U kunt documenten die zijn gekoppeld aan een [!DNL Adobe Workfront]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Documenten weergeven en beheren vanuit [!DNL G Suite]
+
+>[!NOTE]
+>
+>Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
 
 U kunt documenten die zijn gekoppeld aan een [!DNL Adobe Workfront] object zonder te verlaten [!DNL G Suite].
 

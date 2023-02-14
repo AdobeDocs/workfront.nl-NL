@@ -7,14 +7,18 @@ description: U kunt een bestaand project, een bestaande taak of een bestaand pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
 # Een update [!DNL Adobe Workfront] item van [!DNL G Suite] e-mailinhoud gebruiken
+
+>[!NOTE]
+>
+>Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
 
 U kunt een bestaand project, een bestaande taak of een bestaande uitgave bijwerken met informatie van een niet-[!DNL Adobe Workfront] e-mail.
 

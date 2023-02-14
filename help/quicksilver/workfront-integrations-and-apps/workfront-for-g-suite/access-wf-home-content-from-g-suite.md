@@ -7,14 +7,18 @@ description: U hebt toegang tot uw [!DNL Adobe Workfront] De inhoud van het huis
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
 
 # Toegang [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van [!DNL G Suite]
+
+>[!NOTE]
+>
+>Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
 
 U hebt toegang tot uw [!DNL Adobe Workfront] [!UICONTROL Home] inhoud, inclusief alle taken, problemen, goedkeuringen en toegangsverzoeken die aan u zijn toegewezen, zonder G Suite te verlaten.
 

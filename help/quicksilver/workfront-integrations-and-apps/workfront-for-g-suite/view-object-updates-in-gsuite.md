@@ -7,14 +7,18 @@ description: Zonder G Suite te verlaten, kunt u updates en antwoorden op updates
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # Weergave [!DNL Adobe Workfront] objectupdates van [!DNL G Suite]
+
+>[!NOTE]
+>
+>Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
 
 Zonder vertrek [!DNL G Suite]kunt u updates en antwoorden op updates weergeven op een [!DNL Adobe Workfront] object.
 
