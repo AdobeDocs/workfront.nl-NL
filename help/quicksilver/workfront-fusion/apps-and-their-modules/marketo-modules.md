@@ -378,7 +378,7 @@ Deze actiemodule leest informatie over een verslag door zijn identiteitskaart te
    <td>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen. De velden zijn beschikbaar op basis van de [!UICONTROL Record Type] geselecteerd.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL <Object> ID]</td> 
+   <td role="rowheader">[!UICONTROL &lt;Object> ID]</td> 
    <td>Voer de id in of wijs deze toe aan het object waarover u informatie wilt ophalen.</td> 
   </tr> 
  </tbody> 

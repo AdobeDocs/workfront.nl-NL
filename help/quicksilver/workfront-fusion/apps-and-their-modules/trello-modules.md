@@ -266,7 +266,7 @@ In deze actiemodule worden de instellingen van een bestaande board bewerkt.
    <td> <p> Selecteer of de kalenderfeed is ingeschakeld of niet.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL <Color> label name]</td> 
+   <td role="rowheader">[!UICONTROL &lt;Color> label name]</td> 
    <td> <p> Wijs een naam toe aan het gewenste kleurlabel.</p> </td> 
   </tr> 
   <tr> 

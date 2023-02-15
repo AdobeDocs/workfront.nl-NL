@@ -143,7 +143,7 @@ Om de vergunningscode voor een toegangstoken te ruilen, ga het tot uw Server van
 >  --header 'content-type: application/x-www-form-urlencoded' \\
 >
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
->````
+>```
 
 >[!IMPORTANT]
 >
