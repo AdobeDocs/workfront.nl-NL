@@ -6,9 +6,9 @@ description: Wanneer u de Adobe Workfront Scenario Planner gebruikt, kunt u init
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1575'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ Nieuwe initiatieven maken:
      </tr> 
      <tr> 
       <td role="rowheader">Sectie met vereiste taakrollen </td> 
-      <td> <p>Klik op de knop <strong>[!UICONTROL Start typing job role]</strong> en selecteer een rol in de lijst of typ de naam van een<span>n actief</span> functie. </p> <p><span>Afhankelijk van het feit of het plan is ingesteld om FTE's of uren te gebruiken,</span> Voeg het aantal functies toe dat nodig is voor dit initiatief in de FTE <span><span>of uren</span></span><span> voor elke maand</span>. <span>De eerste drie maanden van het initiatief worden standaard weergegeven.</span></p> <p><span>Door de informatie over de rol van de werknemers voor het initiatief bij te werken, wordt ook de informatie over de vereiste rol voor het plan bijgewerkt.</span> </p> <p>Voor informatie over vestiging het plan om VTE of uren te gebruiken, zie <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Plannen maken en bewerken in het dialoogvenster [!DNL Scenario Planner]</a>. </p> <p>Tip:  
-        <ul> 
-         <li> <p><span>Gebruik de [!UICONTROL Tab] om naar de volgende maand te gaan.</span> </p> </li> 
-         <li> <p> Alles <span>actief</span> de baanrollen in het systeem zijn vermeld wanneer u dit gebied klikt. </p> </li> 
-         <li> <p>De baanrollen die reeds aan de Beschikbare baanrollen van de planvertoning eerst zijn toegevoegd. Voor informatie over het toevoegen van beschikbare baanrollen aan een plan, zie <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Abonnementen maken en bewerken in Scenario Planner</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] is van mening dat een voltijdsequivalent 160 uur per maand bedraagt. </p> </li> 
-        </ul> </p> <p>U kunt een getal invoeren dat lager is dan 1 FTE of een decimaal getal voor FTE <span>of</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">uren</span>. Een 0,5 consultant-functie zou bijvoorbeeld betekenen dat een consultant de helft van zijn VTE (doorgaans 4 uur, waarbij 8 uur 1 VTE is) zou wijden aan het werken aan dit initiatief. </p> <p>Voor alle berekeningen in de Planner van het Scenario, gebruikt Workfront de volgende waarde: 1 FTE = 8 uur. </p> </td> 
+      <td> <p>Klik op de knop <strong>[!UICONTROL Start typing job role]</strong> en selecteer een rol in de lijst of typ de naam van een<span>n actief</span> functie. </p> <p><span>Afhankelijk van het feit of het plan is ingesteld om FTE's of uren te gebruiken,</span> Voeg het aantal functies toe dat nodig is voor dit initiatief in de FTE <span><span>of uren</span></span><span> voor elke maand</span>. <span>De eerste drie maanden van het initiatief worden standaard weergegeven.</span></p> <p><span>Door de informatie over de rol van de werknemers voor het initiatief bij te werken, wordt ook de informatie over de vereiste rol voor het plan bijgewerkt.</span> </p> <p>Voor informatie over vestiging het plan om VTE of uren te gebruiken, zie <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Plannen maken en bewerken in het dialoogvenster [!DNL Scenario Planner]</a>. </p>
+      <p><b>BELANGRIJK</b></p>  
+      <p>Voor alle berekeningen in de [!DNL Scenario Planner], [!DNL Workfront] gebruikt de volgende waarde: 1 FTE = 8 uur. </p>
+
+   <p><b>TIP</b></p>
+
+   <ul> 
+       <li> <p><span>Gebruik de [!UICONTROL Tab] om naar de volgende maand te gaan.</span> </p> </li> 
+      <li> <p> Alles <span>actief</span> de baanrollen in het systeem zijn vermeld wanneer u dit gebied klikt. </p> </li> 
+       <li> <p>De baanrollen die reeds aan de Beschikbare baanrollen van de planvertoning eerst zijn toegevoegd. Voor informatie over het toevoegen van beschikbare baanrollen aan een plan, zie <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Abonnementen maken en bewerken in Scenario Planner</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] is van mening dat een voltijdsequivalent 160 uur per maand bedraagt. </p> <p>Voor alle berekeningen in de Planner van het Scenario, gebruikt Workfront de volgende waarde: 1 FTE = 8 uur. </p></li> 
+      </ul> </p> <p>U kunt een getal invoeren dat lager is dan 1 FTE of een decimaal getal voor FTE <span>of</span> <span>uren</span>. Een 0,5 consultant-functie zou bijvoorbeeld betekenen dat een consultant de helft van zijn VTE (doorgaans 4 uur, waarbij 8 uur 1 VTE is) zou wijden aan het werken aan dit initiatief. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Sectie Kosten</td> 

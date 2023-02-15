@@ -7,9 +7,9 @@ description: Overzicht van uren, FTE, en kosteninformatie in de mening van het P
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,8 @@ De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de 
      <li>de voor andere projecten begrote uren. </li> 
     </ul> <p>De Beschikbare Uren, FTEs, of Kosten voor een gebruiker veranderen volgens het volgende: </p> 
     <ul> 
-     <li>hoe hun programma en FTE gebaseerd op de Voorkeur van het Beheer van het Middel op het systeemniveau worden berekend.<br>Raadpleeg het artikel voor meer informatie over het berekenen van de beschikbaarheid van gebruikers en functies <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</li> 
+     <li>hoe hun programma en FTE gebaseerd op de Voorkeur van het Beheer van het Middel op het systeemniveau worden berekend.<br><p>Raadpleeg het artikel voor meer informatie over het berekenen van de beschikbaarheid van gebruikers en functies <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p>
+     Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel in Workfront, zie <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a></li> 
     </ul> 
     <ul> 
      <li>de <strong>Prioriteit projectplanning</strong>, als de gebruiker voor het werk in de begroting wordt opgenomen.<br>Voor meer informatie over hoe de Prioriteit van de Planning van het Project de Beschikbare Uren van een gebruiker beïnvloedt, zie <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Overzicht van de navigatie in de bronnenplanner </a>. </li> 
@@ -135,6 +136,8 @@ De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de 
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### De kolom PLN (gepland) {#the-pln-planned-column}
 
@@ -303,7 +306,7 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
       <li> <p>Het verschil tussen de Beschikbare tijd of kosten en de begrote tijd of kosten voor de rol:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>Het verschil tussen de Beschikbare tijd of de kosten en de Geplande tijd of kosten voor de rol, wanneer het Geplande Gebruik (PLN) waarden in NETTO berekeningen het plaatsen wordt toegelaten:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
 
-Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Geselecteerde items weergeven.</span> </p> <p><span>Zie voor meer informatie</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner</a> </p> </li>
+Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Geselecteerde items weergeven.</span> </p> <p><span>Zie voor meer informatie </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Ges
       <li> <p>Het verschil tussen de Beschikbare tijd of de kosten en de begrote tijd of kosten voor de gebruiker:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>Het verschil tussen de Beschikbare tijd of de kosten en de Geplande tijd of kosten voor de gebruiker, wanneer het Geplande Gebruik (PLN) waarden in NETTO berekeningen het plaatsen wordt toegelaten:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
 
-Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Geselecteerde items weergeven.</span> </p> <p><span>Zie voor meer informatie</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner</a> </p> </li>
+Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Geselecteerde items weergeven.</span> </p> <p><span>Zie voor meer informatie </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 

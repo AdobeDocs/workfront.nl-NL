@@ -6,9 +6,9 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,12 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
       >Als u toewijzingen wijzigt terwijl deze instelling is ingeschakeld, wordt het totale aantal in de gebruikersregel verlaagd.
 
    1. **Project** in de **Kleurthema selecteren** sectie. Dit toont elk project en zijn respectieve het werkpunten in unieke kleuren en maakt het gemakkelijker om te begrijpen welke punten tot welk project behoren.
-   1. **Percentage** in de **Gebruikerstoewijzing weergeven in** sectie. Hiermee worden toewijzingen weergegeven als een percentagewaarde. De capaciteit van de gebruiker volgens hun planning wordt geacht 100% te zijn. Als een gebruiker bijvoorbeeld is gekoppeld aan een planning van 8 uur per dag, is 8 uur gelijk aan 100% capaciteit. Als u de gebruiker wilt toewijzen om 4 uur per dag te werken, werkt u de toewijzing bij tot 50%.
+   1. **Percentage** in de **Gebruikerstoewijzing weergeven in** sectie. Hiermee worden toewijzingen weergegeven als een percentagewaarde. De capaciteit van de gebruiker volgens het tijdschema wordt geacht 100% te bedragen. Als een gebruiker bijvoorbeeld is gekoppeld aan een planning van 8 uur per dag, is 8 uur gelijk aan 100% capaciteit. Als u de gebruiker wilt toewijzen om 4 uur per dag te werken, werkt u de toewijzing bij tot 50%.
+
+      >[!NOTE]
+      >
+      >De beheerder van Workfront beslist welk programma over uw systeem voor het berekenen van de capaciteit van de gebruiker op het gebied van het Beheer van het Middel van Opstelling te gebruiken. Zie voor meer informatie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Klik op de knop **Meer** menu ![](assets/qs-more-menu.png) voor een tijdelijk onderdeel klikt u op **Toewijzingen bewerken**.
 

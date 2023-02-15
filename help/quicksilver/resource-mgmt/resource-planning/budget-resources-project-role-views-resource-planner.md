@@ -6,9 +6,9 @@ description: U kunt middelen in de Planner van het Middel van Adobe Workfront be
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    Voor meer informatie over het begrijpen van het gebied van de Begroting van het Middel van het BedrijfsGeval, zie de sectie &quot;het Leiden van het Middel&quot;in het artikel [Overzicht van de gebieden van de bedrijfscase](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Optioneel) Selecteer de weergave Gebruiker om te zien of de gebruiker teveel of te weinig gebruikmaakt van de beschikbare en geplande uren voor elke gebruiker. De begrote uren uren zijn niet zichtbaar in de mening van de Gebruiker.
+
+   Voor informatie over hoe Workfront de beschikbaarheid van een gebruiker berekent, raadpleegt u [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Begrotingsmiddelen in de weergave Rol {#budget-resources-in-the-role-view}
 

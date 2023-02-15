@@ -6,9 +6,9 @@ description: U kunt plannen als deel van het gebruiken van de Planner van het Sc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2245'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,14 @@ Een abonnement maken of bewerken:
       <td role="rowheader"><span>FTE ([!UICONTROL Full Time Equivalent]) of [!UICONTROL Hours]</span> </td> 
       <td> <p><span>Selecteer een van de volgende opties om aan te geven hoe u de informatie over de rol van de taak voor dit abonnement wilt schatten:</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. Dit is de standaardinstelling </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>Voor alle berekeningen in de [!DNL Scenario Planner], [!DNL Workfront] gebruikt de volgende waarde: 1 FTE = 8 uur. </p> </li> 
-        <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
-       </ul> <p>Belangrijk: <span>De optie u hier selecteert bepaalt hoe de informatie van de baanrol voor het plan, de scenario's van het plan, en initiatieven toont.</span> </p> </td> 
-     </tr> 
+      <li> <p><span><strong>FTE</strong>. Dit is de standaardinstelling </span> </p> 
+      <p><b>BELANGRIJK</b></p>  
+      <p>Voor alle berekeningen in de [!DNL Scenario Planner], [!DNL Workfront] gebruikt de volgende waarde: 1 FTE = 8 uur. </p> </li> 
+      <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
+       </ul> <p><b>BELANGRIJK</b></p>
+
+   De optie u hier selecteert bepaalt hoe de informatie van de baanrol voor het plan, de scenario&#39;s van het plan, en initiatieven toont</p> </td>
+   </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Start date]</td> 
       <td> <p>Selecteer de maand en het jaar waarin het abonnement moet worden gestart. U kunt slechts maanden selecteren in dit veld. [!DNL Workfront] gaat ervan uit dat de begindatum van het plan de eerste dag van de geselecteerde maand is en de einddatum de laatste dag van het einde van de maand in zijn duur is. </p> </td> 
@@ -148,6 +150,8 @@ Een abonnement maken of bewerken:
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Next]**.
 
