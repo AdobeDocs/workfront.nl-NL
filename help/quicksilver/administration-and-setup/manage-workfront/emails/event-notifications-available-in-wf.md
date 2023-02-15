@@ -220,10 +220,11 @@ Zie ook [Meldingen: Verzoeken die ik heb ingediend](../../../workfront-basics/us
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document aanvragen Toevoegen aan primaire contactpersoon voor afgifte</p> </td> 
-   <td> <p>Een document wordt gewijzigd of geüpload op een probleem waarvoor ik de primaire contactpersoon ben.</p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer een document wordt geüpload of gewijzigd tijdens de uitgave, tenzij de gebruiker die het document heeft geüpload of gewijzigd ook de primaire contactpersoon is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten. &lt;!— GETEKEND IN FLARE: Voor meer informatie bij het publiceren van een project als Rij van het Verzoek van de Hulp, zie 
+   <td> <p>Een document wordt gewijzigd of geüpload op een probleem waarvoor ik de primaire contactpersoon ben.</p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer een document wordt geüpload of gewijzigd tijdens de uitgave, tenzij de gebruiker die het document heeft geüpload of gewijzigd ook de primaire contactpersoon is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten. 
+    <!-- GETEKEND IN FLARE: Voor meer informatie bij het publiceren van een project als Rij van het Verzoek van de Hulp, zie 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overzicht van het lusje van de Details van de Rij in een project</a>.
-
-    —>&lt;/p> &lt;/td>
+    -->
+    </p> </td>
 <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
@@ -429,10 +430,11 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document aanvragen voor toevoegen aan probleem toegewezen aan</p> </td> 
-   <td> <p>Documenten worden geüpload of gewijzigd op aanvragen waaraan ik toegewezen ben.</p> <p>De uitgevers ontvangen een e-mailbericht wanneer documenten worden geüpload of gewijzigd in een uitgave die zij hebben toegevoegd.</p> <p>Er wordt geen e-mailbericht verzonden als de gebruiker die de uitgave heeft ingevoerd, de uitgever is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.&lt;!— GETEKEND IN FLARE: Voor meer informatie bij het publiceren van een project als Rij van het Verzoek van de Hulp, zie 
+   <td> <p>Documenten worden geüpload of gewijzigd op aanvragen waaraan ik toegewezen ben.</p> <p>De uitgevers ontvangen een e-mailbericht wanneer documenten worden geüpload of gewijzigd in een uitgave die zij hebben toegevoegd.</p> <p>Er wordt geen e-mailbericht verzonden als de gebruiker die de uitgave heeft ingevoerd, de uitgever is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.
+    <!--GETEKEND IN FLARE: Voor meer informatie bij het publiceren van een project als Rij van het Verzoek van de Hulp, zie 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overzicht van het lusje van de Details van de Rij in een project</a>.
-
-    —>&lt;/p> &lt;/td>
+    -->
+    </p> </td>
 <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 

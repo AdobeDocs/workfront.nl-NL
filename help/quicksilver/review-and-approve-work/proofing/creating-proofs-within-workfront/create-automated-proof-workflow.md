@@ -65,8 +65,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >Overweeg het volgende wanneer u een Geautomatiseerde malplaatje van het Werkschema gebruikt:
    >   
    >* De instellingen van een automatische werkstroomsjabloon bepalen wat u kunt doen met de geautomatiseerde workflow voor een proefdruk. Als de knop Een werkgebied toevoegen bijvoorbeeld is uitgeschakeld in de sjabloon, is deze niet zichtbaar wanneer u werkt met de instellingen voor Geautomatiseerde workflow voor de proefdruk.
-   * Wanneer een persoon wordt toegevoegd aan een werkgebied in een Geautomatiseerde malplaatje van het Werkschema, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd een revisor toe te voegen.
-   * Uw vermogen om een Geautomatiseerde malplaatje van het Werkschema te wijzigen hangt van de malplaatjemontages af die door de beheerder van Workfront worden gevormd, zoals die in wordt beschreven. Als de mogelijkheid om de sjabloon te wijzigen is uitgeschakeld, kan alleen de eigenaar van de sjabloon deze wijzigen.
+   >* Wanneer een persoon wordt toegevoegd aan een werkgebied in een Geautomatiseerde malplaatje van het Werkschema, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd een revisor toe te voegen.
+   >* Uw vermogen om een Geautomatiseerde malplaatje van het Werkschema te wijzigen hangt van de malplaatjemontages af die door de beheerder van Workfront worden gevormd, zoals die in wordt beschreven. Als de mogelijkheid om de sjabloon te wijzigen is uitgeschakeld, kan alleen de eigenaar van de sjabloon deze wijzigen.
 
 
 1. Configureer de eerste fase van de geautomatiseerde workflow:
@@ -75,14 +75,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. In de **Ontvangers** voegt u revisoren toe aan het werkgebied.
 
       >[!NOTE]
-      Houd rekening met het volgende wanneer u revisoren aan een werkgebied toevoegt:
-      * U kunt externe gebruikers met een e-mailadres aan een werkgebied toevoegen.
-      * Nadat u een gebruiker aan een stadium toevoegt, kunt u montages voor die gebruiker op de proef vormen.
-      * U kunt gebruikers rechtstreeks naar een ander werkgebied slepen of u kunt gebruikers naar een werkgebied in het **Staven** diagram. Druk op Shift+Ctrl (Windows) of Shift+Command (Mac) om meerdere gebruikers te selecteren.
-      * U kunt een controleur slechts eenmaal aan een proefdruk toevoegen, wat betekent dat u dezelfde persoon niet aan meer dan één werkgebied kunt toevoegen op de proefdruk.
-      * Revisoren die niet aan een privéfase zijn toegevoegd, kunnen dat stadium niet zien op de proefdruk of de opmerkingen die in dat stadium zijn gemaakt.
-      * Door gebrek, verleent het toevoegen van een gebruiker aan een stadium die gebruiker toegang om de proef van het ogenblik te bekijken de proef wordt gecreeerd.\
-         Uw Workfront-beheerder kan gebruikers de toegang tot de proefdruk beperken tot de werkstroom het werkgebied ingaat waar de gebruiker is toegevoegd.
+      > 
+      >Houd rekening met het volgende wanneer u revisoren aan een werkgebied toevoegt:
+      > 
+      >* U kunt externe gebruikers met een e-mailadres aan een werkgebied toevoegen.
+      >* Nadat u een gebruiker aan een stadium toevoegt, kunt u montages voor die gebruiker op de proef vormen.
+      >* U kunt gebruikers rechtstreeks naar een ander werkgebied slepen of u kunt gebruikers naar een werkgebied in het **Staven** diagram. Druk op Shift+Ctrl (Windows) of Shift+Command (Mac) om meerdere gebruikers te selecteren.
+      >* U kunt een controleur slechts eenmaal aan een proefdruk toevoegen, wat betekent dat u dezelfde persoon niet aan meer dan één werkgebied kunt toevoegen op de proefdruk.
+      >* Revisoren die niet aan een privéfase zijn toegevoegd, kunnen dat stadium niet zien op de proefdruk of de opmerkingen die in dat stadium zijn gemaakt.
+      >* Door gebrek, verleent het toevoegen van een gebruiker aan een stadium die gebruiker toegang om de proef van het ogenblik te bekijken de proef wordt gecreeerd.\
+      >   Uw Workfront-beheerder kan gebruikers de toegang tot de proefdruk beperken tot de werkstroom het werkgebied ingaat waar de gebruiker is toegevoegd.
 
 
    1. Klikken **Werkgebiedinstellingen**.

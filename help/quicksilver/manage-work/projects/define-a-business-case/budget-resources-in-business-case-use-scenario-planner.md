@@ -134,16 +134,19 @@ U kunt uw middelen voor een periode van 15 jaar begroten. Als u middelen begroot
 
       <!--drafted for Budgeted Hours:
    <span class="preview">Wanneer u een project kopieert, en u uitgezocht om de Begroeide Uren aan het nieuwe project te kopiëren, worden de uren die in de begroting worden opgenomen gebruikend de Planner van het Scenario niet gekopieerd aan het nieuwe project. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Zie voor meer informatie [Een project kopiëren](../manage-projects/copy-project.md)</span>
-—>
+-->
 
    >[!IMPORTANT]
-   Wanneer u de Planner van het Scenario aan begrotingsmiddelen voor het project gebruikt, tonen de Begrotende Kosten van de Arbeid in de volgende gebieden van Workfront:
-   * Bronbudgettair gebied van de Business Case
-   * De Scenario-planner op systeemniveau als de Personeelskosten van het initiatief in verband met het project. Zie voor meer informatie [Initiatieven maken en bewerken in de functie Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
+   > 
+   >Wanneer u de Planner van het Scenario aan begrotingsmiddelen voor het project gebruikt, tonen de Begrotende Kosten van de Arbeid in de volgende gebieden van Workfront:
+   > 
+   >* Bronbudgettair gebied van de Business Case
+   >* De Scenario-planner op systeemniveau als de Personeelskosten van het initiatief in verband met het project. Zie voor meer informatie [Initiatieven maken en bewerken in de functie Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Optioneel) Klik op **Weergeven in Scenario Planner** het plan te openen dat het met het project samenhangende initiatief bevat. Hiermee opent u het deelvenster Scenario in een nieuw browsertabblad.
 1. (Optioneel) Informatie over het initiatief bijwerken. Zie voor meer informatie [Initiatieven maken en bewerken in de functie Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   U moet het initiatief na elke verandering voor het het Leiden gebied van het Middel op het project publiceren om bij te werken.
+   > 
+   >U moet het initiatief na elke verandering voor het het Leiden gebied van het Middel op het project publiceren om bij te werken.
