@@ -6,9 +6,9 @@ description: U kunt een bord filteren om alleen bepaalde kaarten weer te geven.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -55,21 +55,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
 1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klik op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png), breid de [!UICONTROL Members] en selecteert u de persoon of personen van wie u de kaarten wilt zien. U kunt ook niet-toegewezen kaarten weergeven.
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Members] en selecteert u de persoon of personen van wie u de kaarten wilt zien. U kunt ook niet-toegewezen kaarten weergeven.
 
    ![Filteren op lid](assets/boards-filter-by-assignees-0822.png)
 
 ## Een board filteren op tags
 
 1. Toegang tot het bord.
-1. Klik op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png), breid de [!UICONTROL Tags] en selecteert u de tags die u wilt zien.
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Tags] en selecteert u de tags die u wilt zien.
 
    ![Filteren op tag](assets/boards-filter-by-tags-0822.png)
 
 ## Een bord filteren op status
 
 1. Toegang tot het bord.
-1. Klik op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png), breid de [!UICONTROL Statuses] en selecteert u de statustypen die u wilt zien.
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Statuses] en selecteert u de statustypen die u wilt zien.
 
    U kunt ook voltooide kaarten verbergen.
 
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een board filteren op de datum van de datum
 
 1. Toegang tot het bord.
-1. Klik op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png), breid de [!UICONTROL Due Date] en selecteert u de datumopties die u wilt zien.
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Due Date] en selecteert u de datumopties die u wilt zien.
 
    Alleen kaarten in de geselecteerde datumbereiken worden weergegeven.
 
@@ -89,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord filteren om ook gearchiveerde kaarten weer te geven.
 
 1. Toegang tot het bord.
-1. Klik op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png), breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** om gearchiveerde kaarten weer te geven.
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** om gearchiveerde kaarten weer te geven.
 
    Het filter geeft het aantal gearchiveerde kaarten weer.
 
@@ -100,7 +100,7 @@ Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord
 ## Een bord filteren op verbinding
 
 1. Toegang tot het bord.
-1. Klik op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png), breid de [!UICONTROL Connection] en selecteert u de [!DNL Workfront] projecten voor de verbonden kaarten u wilt zien.
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Connection] en selecteert u de [!DNL Workfront] projecten voor de verbonden kaarten u wilt zien.
 
    U kunt ook kaarten weergeven die niet zijn verbonden met een project.
 
@@ -109,7 +109,7 @@ Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord
 ## Zoeken in een board
 
 1. Toegang tot het bord.
-1. Klik op het zoekpictogram ![Zoeken](assets/search-icon.png) en typ een zoekterm. Druk vervolgens op Enter.
+1. Klikken [!UICONTROL **Zoeken**] en typ een zoekterm. Druk vervolgens op Enter.
 
    Alle kaarten die de zoekterm bevatten, worden weergegeven.
 

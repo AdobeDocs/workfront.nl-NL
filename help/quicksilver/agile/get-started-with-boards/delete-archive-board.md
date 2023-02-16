@@ -6,16 +6,22 @@ title: Een board verwijderen of archiveren
 description: U kunt een board verwijderen of archiveren in Workfront. Als u een kaart verwijdert, wordt deze permanent uit Workfront verwijderd, terwijl bij het archiveren van een kaart alle kaarten behouden blijven en later hersteld kunnen worden.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # Een board verwijderen of archiveren
 
-U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld.
+{{highlighted-preview}}
+
+U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld. <span class="preview">Deze opties zijn van toepassing op zelfstandige borden en borden die deel uitmaken van verzamelingen.</span>
+
+>[!NOTE]
+>
+>Verzamelingen zijn alleen beschikbaar via de vroege functieoptie voor Workfront Boards.
 
 ## Toegangsvereisten
 

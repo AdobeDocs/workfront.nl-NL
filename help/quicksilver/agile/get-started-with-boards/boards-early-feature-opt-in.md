@@ -6,9 +6,9 @@ title: Aanmelden met vroege functies voor [!DNL Adobe Workfront] Borden
 description: Lees dit artikel voor meer informatie over de [!DNL Workfront Boards] opt-in voor vroege functies.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
   </tr>
   <tr>
    <td>Verzamelingen van borden maken</td>
-   <td>Geplant</td>
+   <td>Gedeeltelijk vrijgegeven</td>
   </tr>
   <tr>
    <td>Herhalingen maken</td>
@@ -162,7 +162,7 @@ Vroege functies voor borden zijn beschikbaar voor alle organisaties. Betrokkenhe
 Alleen [!DNL Workfront] beheerders kunnen zich aanmelden bij de eerste functies voor raden van bestuur. Wanneer een [!DNL Workfront] de beheerder laat vroege eigenschappen toe, alle gebruikers in de organisatie worden gekozen binnen.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klikken **[!UICONTROL Early feature opt-in]** boven aan het dashboardscherm.
+1. Klikken ![Aanmelden met vroege functies](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) boven aan het dashboardscherm.
 1. Klik op **[!UICONTROL Enable]**.
 1. Begin met het gebruik van de vroege functies van borden.
 
@@ -192,5 +192,5 @@ De [!DNL Workfront] de beheerder kan de optie Boven verbergen voor [!UICONTROL M
 Alleen [!DNL Workfront] beheerders kunnen ervoor kiezen geen functies in een vroeg stadium te ontvangen. Indien een [!DNL Workfront] de beheerder maakt de vroege eigenschappen onbruikbaar, alle gebruikers in de organisatie uit worden gekozen.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klikken **[!UICONTROL Early feature opt-in enabled]** boven aan het dashboardscherm.
+1. Klikken ![Aanmelden met vroege functie ingeschakeld](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) boven aan het dashboardscherm.
 1. Klik op **[!UICONTROL Disable]**.
