@@ -1,0 +1,323 @@
+---
+product-area: templates
+navigation-topic: templates-navigation-topic
+title: Sjabloontaken kopiëren en verplaatsen
+description: U kunt een sjabloontaak naar dezelfde sjabloon of naar een andere sjabloon verplaatsen.
+author: Alina
+feature: Work Management
+source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 0%
+
+---
+
+
+# Sjabloontaken kopiëren en verplaatsen
+
+<span class="preview">Het kopiëren en verplaatsen van een sjabloontaak is beschikbaar in de productieomgeving. De stappen op deze pagina verwijzen echter alleen naar functionaliteit in de voorvertoningsomgeving. Deze functionaliteit is beschikbaar in Production op 2 maart 2023.</span>
+
+U kunt een sjabloontaak van een sjabloon naar een andere sjabloon kopiëren of deze naar een andere sjabloon of naar een andere plaats in dezelfde sjabloon verplaatsen.
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> <p><b>OPMERKING</b>
+
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Rechten voor een sjabloon en de sjabloontaak beheren </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+
+## Overwegingen bij het kopiëren of verplaatsen van sjabloontaken
+
+Houd rekening met het volgende wanneer u een sjabloontaak kopieert:
+
+* Mijlpalen worden niet overgedragen naar de gekopieerde of verplaatste sjabloontaak.
+
+* U kunt een sjabloontaak kopiëren in de volgende onderdelen van de Adobe Workfront-webtoepassing:
+
+   * Op het taakniveau van het malplaatje, van **Meer pictogram** ![](assets/more-icon.png) rechts van de naam van de sjabloontaak.
+
+   * In een lijst met sjabloontaken.
+* U kunt sjabloontaken één voor één kopiëren of verplaatsen of meerdere sjabloontaken tegelijk selecteren.
+
+## Sjabloontaken kopiëren
+
+1. Ga naar de sjabloon die de sjabloontaak of sjabloontaken bevat die u wilt kopiëren.
+1. Klikken **Sjabloontaken** in het linkerdeelvenster.
+1. Voer een van de volgende handelingen uit:
+   * Klik op de naam van een sjabloontaak om deze te openen.
+   * Selecteer een of meerdere sjabloontaken in de lijst.
+1. (Voorwaardelijk) Klik op de knop **Meer** menu ![](assets/more-icon.png) boven aan de lijst met sjabloontaken of rechts van de naam van de sjabloontaak als u de taak hebt geopend, klikt u op **Kopiëren naar** of **Kopiëren**, afhankelijk van waar u de optie Kopiëren opent.
+Het vak Sjabloontaak kopiëren wordt geopend.
+   ![](assets/copy-template-task-box-unshimmed.png)
+1. (Optioneel) Wijzig de naam van de sjabloontaak in het dialoogvenster **Naam sjabloontaak** veld.
+
+   >[!TIP]
+   >
+   >Dit veld is gedimd en kan niet worden bewerkt wanneer u ervoor kiest meerdere sjabloontaken in een lijst te kopiëren. U kunt de muisaanwijzer boven het veld Naam sjabloontaak en een lijst met alle geselecteerde sjabloontaken weergeven.
+
+1. Typ de naam van het dialoogvenster **Doelsjabloon** waar u de sjabloontaak wilt kopiëren in het dialoogvenster **Doelsjabloon selecteren** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+
+   De huidige sjabloonnaam wordt standaard weergegeven. Als u de sjabloontaak binnen dezelfde sjabloon wilt kopiëren, laat u dit veld ongewijzigd.
+
+   >[!TIP]
+   >
+   >U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
+
+1. (Voorwaardelijk) Klik **aanvraagtoegang** om toegang tot het bestemmingsmalplaatje te verzoeken, als u geen toegang tot het geselecteerde malplaatje hebt.
+1. (Voorwaardelijk) blijf de malplaatjetaak aan het geselecteerde bestemmingsmalplaatje kopiëren zonder toegang te vragen als u toegang hebt om malplaatjetaken aan één van de malplaatjetaken op het bestemmingsmalplaatje toe te voegen.
+
+1. Klikken **Opties** in het linkerpaneel, dan schrap de attributen van de malplaatjetaak die u niet met de malplaatjetaak wilt kopiëren. Alle opties zijn standaard geselecteerd.
+
+   >[!TIP]
+   >
+   >Selectie opheffen **Alles selecteren** deselecteert alle opties.
+
+   Schakel een van de volgende opties uit als u deze niet wilt overbrengen naar de gekopieerde sjabloontaak. In de volgende tabel wordt beschreven wat er gebeurt wanneer de opties zijn uitgeschakeld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+    <tr> 
+      <td role="rowheader">Alles selecteren</td> 
+      <td>Schakel deze optie uit als u alle informatie uit de sjabloontaak wilt verwijderen wanneer u deze naar de nieuwe locatie kopieert. </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Restrictie</td> 
+      <td> <p>De beperking van de malplaatjetaak wordt geplaatst aan zo spoedig mogelijk of zo laat mogelijk gebaseerd op het plaatsen van de Wijze van het malplaatjeschema.</p> <p> Als deze optie is geselecteerd, wordt de huidige beperking van de sjabloontaak overgedragen naar de gekopieerde sjabloontaak. </p> 
+      <p><b>OPMERKING</b>
+
+   Wanneer het kopiëren van een malplaatjetaak met datum-specifieke beperkingen aan een ander malplaatje en de beperkingsdata van de malplaatjetaak zijn buiten de data van het nieuwe malplaatje, of verandert de beperking van de malplaatjetaak in zo spoedig mogelijk of zo laat mogelijk of de Geplande Begin of Geplande Afsluitingsdata van de malplaatjes worden aangepast.
+
+   Hieronder volgen voorbeelden van datumspecifieke beperkingen:
+   <ul>
+      <li> Moet beginnen op</li>
+      <li> Moet worden voltooid op</li>
+      <li> Niet eerder starten dan</li>
+      <li> Niet later starten dan</li>
+      </ul>
+     </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Toewijzingen</td> 
+      <td> <p>Alle toewijzingen worden verwijderd uit de sjabloontaak. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Goedkeuringsproces</td> 
+      <td>Alle goedkeuringsprocessen worden verwijderd uit de sjabloontaak.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Alle voorgangers</td> 
+      <td> <p>Dit betekent dat de afhankelijkheden niet worden overgedragen naar de gekopieerde sjabloontaken. </p> <p>Als deze optie is geselecteerd, blijven de voorgangers in de groep met gekopieerde sjabloontaken behouden en worden andere verwijderd.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Aangepaste gegevens</td> 
+      <td> <p>De waarden voor de aangepaste velden worden gewist en de aangepaste formulieren worden overgebracht naar de gekopieerde sjabloontaak. </p> <p>Als deze optie is geselecteerd, worden zowel de formulieren als de waarden voor de aangepaste velden overgebracht naar de gekopieerde sjabloontaak. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Financiële informatie</td> 
+      <td>De financiële informatie van de gekopieerde sjabloontaak wordt verwijderd en de Workfront werkt het kostentype van de sjabloontaak bij tot Geen kosten en het type van de sjabloontaak als Niet te factureren.
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Documenten</td> 
+      <td> <p>De documenten in bijlage aan de malplaatjetaak worden niet overgebracht naar de gekopieerde malplaatjetaak. Dit zijn versies, proefdrukken en gekoppelde documenten.</p> <p><b>OPMERKING</b></p>
+
+   <p>Dit omvat geen documentgoedkeuringen. Documentgoedkeuringen kunnen nooit worden gekopieerd wanneer een sjabloontaak wordt gekopieerd.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Herinneringsmeldingen</td> 
+      <td>De herinneringen aan sjabloontaken worden niet overgedragen naar de gekopieerde sjabloontaak. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Uitgaven</td> 
+      <td>De uitgaven die op de malplaatjetaak worden geregistreerd brengen niet naar de gekopieerde malplaatjetaak over. </td> 
+     </tr>  
+    </tbody> 
+   </table>
+
+(VRAGEN OVER DE LAATSTE RIJ: SJABLOONTAAK LIJKT GEEN &quot;DELEN&quot; TE HEBBEN)
+
+1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de malplaatjetaak in het bestemmingsmalplaatje dat u de ouder van de gekopieerde malplaatjetaak wilt worden.
+
+   >[!TIP]
+   >
+   >Wanneer het selecteren om veelvoudige malplaatjetaken in een lijst te kopiëren, worden alle geselecteerde malplaatjetaken de kinderen van de geselecteerde ouder en toegevoegd na de bestaande kindtaken.
+
+   Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
+
+   * In de lijst van de malplaatjetaak, selecteer één van de ouders in het malplaatjeplan.
+   * Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende sjabloontaak.
+
+   De sjabloontaak moet in de lijst worden weergegeven.
+
+1. Selecteer het keuzerondje voor het bovenliggende element nadat u het hebt gevonden.
+
+   Als u geen taak van het oudermalplaatje selecteert, worden de malplaatjetaken gekopieerd als belangrijkste malplaatjetaken eerder dan subtaken en zij worden geplaatst aan het eind van de lijst van de malplaatjetaak op het bestemmingsmalplaatje.
+
+1. Klikken **Sjabloontaak kopiëren**.
+
+   De gekopieerde sjabloontaken bevinden zich nu op de opgegeven sjabloon en zijn subtaken voor de geselecteerde bovenliggende sjabloontaak of de laatste sjabloontaken voor de sjabloon.
+
+
+## Sjabloontaken verplaatsen
+
+Naast het kopiëren van sjabloontaken kunt u een sjabloontaak ook naar een andere sjabloontaak in dezelfde sjabloon of naar een andere sjabloon verplaatsen.
+
+
+1. Ga naar de sjabloon die de sjabloontaak of sjabloontaken bevat die u wilt verplaatsen.
+1. Klikken **Sjabloontaken** in het linkerdeelvenster.
+1. Voer een van de volgende handelingen uit:
+   * Klik op de naam van een sjabloontaak om deze te openen.
+   * Selecteer een of meerdere sjabloontaken in de lijst.
+1. (Voorwaardelijk) Klik op de knop **Meer** menu ![](assets/more-icon.png) boven aan de lijst met sjabloontaken of rechts van de naam van de sjabloontaak als u de taak hebt geopend, klikt u op **Verplaatsen naar** of **Verplaatsen**, afhankelijk van waar u de optie Verplaatsen opent.
+Het vak Sjabloontaak verplaatsen wordt geopend.
+   ![](assets/move-template-task-box-unshimmed.png)
+
+1. (Optioneel) Wijzig de naam van de sjabloontaak in het dialoogvenster **Naam sjabloontaak** veld.
+
+   >[!TIP]
+   >
+   >Dit veld is grijs en kan niet worden bewerkt als u meerdere sjabloontaken in een lijst wilt verplaatsen. U kunt de muisaanwijzer boven het veld Naam sjabloontaak en een lijst met alle geselecteerde sjabloontaken weergeven.
+
+1. Typ de naam van het dialoogvenster **Doelsjabloon** waar u de sjabloontaak wilt verplaatsen in het dialoogvenster **Doelsjabloon selecteren** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+
+   >[!TIP]
+   >
+   >U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
+
+1. (Voorwaardelijk) Klik **aanvraagtoegang** om toegang tot het malplaatje te verzoeken, als u geen toegang tot het bestemmingsmalplaatje hebt.
+1. (Voorwaardelijk) blijf de malplaatjetaak aan het geselecteerde bestemmingsmalplaatje verplaatsen zonder toegang te vragen als u toegang hebt om malplaatjetaken aan één van de malplaatjetaken op het bestemmingsmalplaatje toe te voegen.
+
+1. Klikken **Opties** in het linkerpaneel, dan schrap de attributen van de malplaatjetaak die u niet met de malplaatjetaak wilt kopiëren. Alle opties zijn standaard geselecteerd.
+
+   >[!TIP]
+   >
+   >* De sectie Opties is alleen beschikbaar nadat u een doelsjabloon hebt geselecteerd.
+   >* Selectie opheffen **Alles selecteren** deselecteert alle opties.
+
+
+   Schakel een van de volgende opties uit als u de gegevens niet wilt overbrengen naar de verplaatste sjabloontaak. In de volgende tabel wordt beschreven wat er gebeurt wanneer de opties zijn uitgeschakeld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+    <tr> 
+      <td role="rowheader">Alles selecteren</td> 
+      <td>Schakel deze optie uit als u alle informatie uit de sjabloontaak wilt verwijderen wanneer u deze naar de nieuwe locatie verplaatst. </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Restrictie</td> 
+      <td> <p>De beperking van de malplaatjetaak wordt geplaatst aan zo spoedig mogelijk of zo laat mogelijk gebaseerd op het plaatsen van de Wijze van het malplaatjeschema.</p> <p> Als deze optie is geselecteerd, wordt de huidige beperking van de sjabloontaak overgedragen naar de verplaatste sjabloontaak. </p>
+
+   <p><b>OPMERKING</b>
+
+   Wanneer het bewegen van een malplaatjetaak met datum-specifieke beperkingen aan een ander malplaatje en de beperkingsdata van de malplaatjetaak zijn buiten de data van het nieuwe malplaatje, of verandert de beperking van de malplaatjetaak in zo spoedig mogelijk of zo laat mogelijk of de Geplande Begin of Geplande Afsluitingsdata van de malplaatjes worden aangepast.
+
+   Hieronder volgen voorbeelden van datumspecifieke beperkingen:
+   <ul>
+      <li> Starten bij</li>
+      <li> Moet worden voltooid op</li>
+      <li> Niet eerder starten dan</li>
+      <li> Niet later starten dan</li>
+      </ul>
+
+
+   </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Toewijzingen</td> 
+      <td> <p>Alle toewijzingen worden verwijderd uit de sjabloontaak. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Goedkeuringsproces</td> 
+      <td>Alle goedkeuringsprocessen worden verwijderd uit de sjabloontaak.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Alle voorgangers</td> 
+      <td> <p>Dit betekent dat de afhankelijkheden niet worden overgedragen met de verplaatste sjabloontaken. </p> <p>Als deze optie is geselecteerd, blijven de voorgangers in de groep verplaatste sjabloontaken behouden en worden andere verwijderd.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Aangepaste gegevens</td> 
+      <td> <p>De waarden voor de aangepaste velden worden gewist en de aangepaste formulieren worden overgebracht met de verplaatste sjabloontaak. </p> <p>Als deze optie is geselecteerd, worden zowel de formulieren als de waarden voor de aangepaste velden overgedragen met de verplaatste sjabloontaak. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Financiële informatie</td> 
+      <td>De financiële informatie van de verplaatste malplaatjetaak wordt verwijderd en Workfront werkt het Type van de Kosten van de malplaatjetaak aan Geen Kosten en het Type van de Inkomsten van de malplaatjetaak als niet Billable bij.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Documenten</td> 
+      <td> <p>De documenten die aan de sjabloontaak zijn gekoppeld, worden niet overgedragen met de verplaatste sjabloontaak. Dit zijn versies, proefdrukken en gekoppelde documenten.</p>
+
+   <p><b>OPMERKING</b></p>
+
+   <ul><li>
+      <p>Dit omvat geen documentgoedkeuringen. Documentgoedkeuringen kunnen nooit worden verplaatst wanneer een sjabloontaak wordt verplaatst.</p> </li>
+      <li>Als u ervoor kiest de documenten niet te laten verplaatsen met de sjabloontaak, worden de documenten verwijderd en gedurende 30 dagen in de prullenbak geplaatst. Een beheerder kan ze herstellen en ze worden hersteld op de verplaatste sjabloontaak.
+
+   Als de sjabloontaak wordt verwijderd nadat deze is verplaatst, worden de herstelde documenten geplaatst in het gebied Documenten van de gebruikerspagina van de beheerder die ze herstelt. </li> </ul>
+
+   </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Herinneringsmeldingen</td> 
+      <td>De herinneringen aan sjabloontaken worden niet overgedragen naar de verplaatste sjabloontaak. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Uitgaven</td> 
+      <td>De uitgaven die op de malplaatjetaak worden geregistreerd brengen niet met de verplaatste malplaatjetaak over. </td> 
+     </tr>  
+    </tbody> 
+   </table>
+
+(VRAGEN OVER DE LAATSTE RIJ: SJABLOONTAAK LIJKT GEEN &quot;DELEN&quot; TE HEBBEN)
+
+1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de malplaatjetaak in het bestemmingsmalplaatje dat u de ouder van de verplaatste malplaatjetaak wilt worden.
+
+   >[!TIP]
+   >
+   >Wanneer u selecteert om meerdere sjabloontaken in een lijst te verplaatsen, worden alle geselecteerde sjabloontaken de onderliggende taken van het geselecteerde bovenliggende element en worden deze toegevoegd na de bestaande onderliggende taken.
+
+   Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
+
+   * In de lijst van de malplaatjetaak, selecteer één van de ouders in het malplaatjeplan.
+   * Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende sjabloontaak.
+
+   De sjabloontaak moet in de lijst worden weergegeven.
+
+1. Selecteer het keuzerondje voor het bovenliggende element nadat u het hebt gevonden.
+
+   Als u geen taak van het oudermalplaatje selecteert, worden de malplaatjetaken verplaatst als belangrijkste malplaatjetaken eerder dan subtasks en zij worden geplaatst aan het eind van de lijst van de malplaatjetaak op het bestemmingsmalplaatje.
+
+1. Klikken **Sjabloontaak verplaatsen**.
+
+   De verplaatste sjabloontaken bevinden zich nu op de opgegeven sjabloon en zijn subtaken voor de geselecteerde bovenliggende sjabloontaak of de laatste sjabloontaken voor de sjabloon.
+
+

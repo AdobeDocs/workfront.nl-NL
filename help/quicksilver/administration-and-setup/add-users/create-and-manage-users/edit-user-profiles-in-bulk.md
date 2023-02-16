@@ -8,50 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2384'
 ht-degree: 0%
 
 ---
 
 # Gebruikersprofielen bulksgewijs bewerken
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work.</span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 >[!IMPORTANT]
 >
@@ -176,44 +142,76 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td role="rowheader">Bronplanning</td> 
       <td> 
+       <ul>
+
+   <li>
+       <b><span class="preview">Tijdstip van werk</span></b>: <span class="preview">Geeft het percentage aan van de FTE-tijd (Full Time Equivalent) dat de gebruiker beschikbaar is voor werkelijk werk, exclusief overhead. De Tijd van het werk moet een decimaal aantal tot 1 zijn, en het kan niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.</span>
+
+   <span class="preview">Het gebrek van het gebied is 1, erop wijzend dat een gebruiker hun volledige VTE op werkelijk besteedt, project-verwant werk.</span>
+
+   <span class="preview">Het systeem gebruikt dit aantal om de beschikbaarheid van de gebruiker voor daadwerkelijke, op project betrekking hebbende werk te berekenen. </span>
+
+   <span class="preview">Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>.</span>
+
+   <span class="preview">De uitzonderingen van het programma en de onderbreking van het programma zouden ook de gebruikerscapaciteit kunnen beïnvloeden.
+
+   Workfront berekent de beschikbaarheid van een gebruiker afhankelijk van de voorkeuren voor het beheer van bronnen in uw installatiegebied. Zie voor meer informatie <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a>.
+
+   <b>TIP</b>
+
+   <span class="preview">Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.</span>
+   </li>
+
+   <li><b>Deactivering van schema</b>: Schakel dit selectievakje in als u wilt plannen dat gebruikers na een bepaalde periode worden gedeactiveerd.</li> 
+       <li><b>Geplande datum van deactivering</b>: De datum waarna de gebruikers worden gedeactiveerd. Zie de sectie voor meer informatie over het plannen van gebruikers voor deactivering <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Gebruikers plannen voor deactivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Een gebruiker deactiveren of opnieuw activeren</a>.</li> 
+       <li> <p><b>Primaire rol</b>: Dit is de primaire taakrol die een gebruiker in Workfront heeft. Elke taak en kwestie waaraan de gebruikers worden toegewezen wordt ook toegewezen aan deze baanrol, door gebrek. Functies zijn essentieel voor het beheer van hulpbronnen. Voor meer informatie over baanrollen, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a></p> <p>U kunt dit gebied slechts bijwerken als u een vergunning van het Plan met administratieve gebruikerstoegang hebt, of als u een beheerder van Workfront bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+       <li>(Voorwaardelijk) Als u een <b>Primaire rol</b>de <b>Percentage van de beschikbaarheid van VTE</b> wordt weergegeven. Geef op welk percentage van de tijd van de planningen van de gebruikers aan deze taakrol wordt toegewezen. De standaardwaarde voor het Percentage van de Beschikbaarheid van VTE voor de Primaire Rol is 100%.</li> 
+       <li> <p><b>Andere rollen</b>: Gebruikers kunnen in Workfront meerdere functies hebben. Functies zijn essentieel voor het beheer van hulpbronnen. Er is geen limiet voor het aantal taakrollen dat een gebruiker kan uitvoeren. Nochtans, adviseren wij om één gebruiker aan een bovenmatig groot aantal baanrollen niet toe te wijzen, omdat het middelbeheer voor deze gebruikers te complex zou kunnen worden.</p> <p>Voor meer informatie over baanrollen, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> <p>U kunt dit gebied slechts bijwerken als u een vergunning van het Plan met administratieve gebruikerstoegang hebt, of als u een beheerder van Workfront bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+       <li> <p>(Voorwaardelijk) Als u een of meerdere <b>Andere rollen</b>de <b>Percentage van de beschikbaarheid van VTE</b> wordt voor elke rol weergegeven. Geef op welk percentage van de tijd van de planningen van de gebruikers wordt toegewezen aan elke taakrol. De standaardwaarde voor het Percentage van VTE Beschikbaarheid voor de Andere Rollen is 0%.</p> <p><b>OPMERKING</b>:  
        <ul> 
-        <li><b>Deactivering van schema</b>: Schakel dit selectievakje in als u wilt plannen dat gebruikers na een bepaalde periode worden gedeactiveerd.</li> 
-        <li><b>Geplande datum van deactivering</b>: De datum waarna de gebruikers worden gedeactiveerd. Zie de sectie voor meer informatie over het plannen van gebruikers voor deactivering <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Gebruikers plannen voor deactivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Een gebruiker deactiveren of opnieuw activeren</a>.</li> 
-        <li> <p><b>Primaire rol</b>: Dit is de primaire taakrol die een gebruiker in Workfront heeft. Elke taak en kwestie waaraan de gebruikers worden toegewezen wordt ook toegewezen aan deze baanrol, door gebrek. Functies zijn essentieel voor het beheer van hulpbronnen. Voor meer informatie over baanrollen, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a></p> <p>U kunt dit gebied slechts bijwerken als u een vergunning van het Plan met administratieve gebruikerstoegang hebt, of als u een beheerder van Workfront bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
-        <li>(Voorwaardelijk) Als u een <b>Primaire rol</b>de <b>Percentage van de beschikbaarheid van VTE</b> wordt weergegeven. Geef op welk percentage van de tijd van de planningen van de gebruikers aan deze taakrol wordt toegewezen. De standaardwaarde voor het Percentage van de Beschikbaarheid van VTE voor de Primaire Rol is 100%.</li> 
-        <li> <p><b>Andere rollen</b>: Gebruikers kunnen in Workfront meerdere functies hebben. Functies zijn essentieel voor het beheer van hulpbronnen. Er is geen limiet voor het aantal taakrollen dat een gebruiker kan uitvoeren. Nochtans, adviseren wij om één gebruiker aan een bovenmatig groot aantal baanrollen niet toe te wijzen, omdat het middelbeheer voor deze gebruikers te complex zou kunnen worden.</p> <p>Voor meer informatie over baanrollen, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> <p>U kunt dit gebied slechts bijwerken als u een vergunning van het Plan met administratieve gebruikerstoegang hebt, of als u een beheerder van Workfront bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
-        <li> <p>(Voorwaardelijk) Als u een of meerdere <b>Andere rollen</b>de <b>Percentage van de beschikbaarheid van VTE</b> wordt voor elke rol weergegeven. Geef op welk percentage van de tijd van de planningen van de gebruikers wordt toegewezen aan elke taakrol. De standaardwaarde voor het Percentage van VTE Beschikbaarheid voor de Andere Rollen is 0%.</p> <p><b>OPMERKING</b>:  
-          <ul> 
-           <li>Als Andere Rollen een Beschikbaarheid van 0% FTE hebben, tonen zij niet in de Planner van het Middel, tenzij de gebruikers aan taken in deze rollen worden toegewezen.</li> 
-           <li> <p>De som van alle Percentages van VTE Beschikbaarheid voor alle rollen moet 100% gelijk zijn. Elk percentage van FTE Beschikbaarheid berekent de Beschikbare Uren voor elke rol per gebruiker in de Planner van het Middel. De beschikbare uren voor elke rol per gebruiker hangt van de beschikbare tijd voor de gebruiker af.</p> <p>De beschikbare tijd voor de gebruiker wordt door Workfront berekend afhankelijk van de methode die door de beheerder van Workfront is geselecteerd om FTE in de Voorkeur van het Beheer van het Middel te berekenen.</p> <p>Voor meer informatie over het berekenen van beschikbaarheid voor de gebruiker, zie <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p> <p>Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </li> 
-          </ul> </p> </li> 
-        <li> <p><b>Schema</b>: Koppel een programma aan de gebruikers. Het programma van de gebruikers berekent de chronologie van de taken de gebruikers worden toegewezen aan.</p> <p>Een beheerder van Workfront of een groepsbeheerder moet een programma tot stand brengen alvorens het met gebruikers kan worden geassocieerd.</p> <p>Selecteer een systeem- of groepsschema om dit aan de geselecteerde gebruikers toe te wijzen.</p> <p>Voor meer informatie over systeem-niveau en groepsprogramma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p><b>BELANGRIJK</b>: Workfront gebruikt het programma van een gebruiker slechts wanneer de Calculate Beschikbaarheid van het Middel Gebruikend het plaatsen aan het Programma van de Gebruiker wordt geplaatst. Voor informatie over hoe de Berekende Beschikbaarheid van het Middel die het plaatsen gebruikt beïnvloedt welk programma voor het Beheer van het Middel wordt gebruikt, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </li> 
-        <li> <p><b>Tijdbladprofiel</b>: Koppel een tijdbladprofiel aan de gebruikers. Dit zorgt ervoor dat timesheets automatisch voor de gebruikers produceren.</p> 
-        <p><b>OPMERKING</b>:  
-          <ul> 
-           <li>De lijst met tijdlijnprofielen die beschikbaar zijn in dit veld, is afhankelijk van uw toegang:
-            <ul>
-             <li>Als beheerder van Workfront, kunt u alle systeem-niveau en groep-vlakke timesheet profielen zien.</li>
-             <li><p>Als groepsbeheerder, kunt u systeem-vlakke timesheet profielen, evenals die zien verbonden aan de groepen die u beheert.</p></li>
-             <li><p>Als gebruiker met een Planner-licentie en toegang tot het bewerken van gebruikers, kunt u alleen tijdbladprofielen op systeemniveau zien.</p></li>
-            </ul></li> 
-           <li>Als u een groepsbeheerder bent, moeten alle gebruikers u uitgeeft lid van een groep zijn die u beheert.</li> 
-          </ul> </p> </li> 
-        <li><b>Standaarduurtype</b>: Selecteer het standaarduurtype voor de gebruikers. Dit is het uurtype dat door gebrek wordt gebruikt wanneer de gebruikers tijd registreren.</li> 
-        <li> <p><b>Beschikbare uurtypen</b>: Selecteer de uurtypen die voor de gebruiker beschikbaar zouden moeten zijn. Deze uurtypen zijn overal zichtbaar in Workfront waar de gebruikers de tijd kunnen registreren. Een gebruiker kan de uurtypes slechts zien die op het projectniveau evenals het gebruikersniveau worden toegelaten.</p> 
-        <p>Voor meer informatie over welke uurtypes aan gebruikers beschikbaar zijn, zie <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Bepaal uurtypes en beschikbaarheid voor timesheets</a>.</p> 
-        </li> 
-        <li> <p><b>FTE</b>: Het aantal u hier specificeert wordt in aanmerking genomen om de beschikbaarheid te berekenen van de gebruiker die op het StandaardProgramma slechts wordt gebaseerd wanneer de Voorkeur van het Beheer van het Middel op het systeemniveau wordt geplaatst aan <b>Het standaardschema</b>.</p> 
-        <p>Als de FTE-waarde bijvoorbeeld 0,5 is en de standaardplanning 40 uur, kan de gebruiker 20 uur per week werken. Voor meer informatie over hoe de programmauitzonderingen of de onderbreking gebruikersbeschikbaarheid zouden kunnen beïnvloeden wanneer het Standaard Programma wordt geselecteerd, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>. </p> 
-        <p>Als de voorkeuren voor het beheer van bronnen op systeemniveau zijn ingesteld op <b>Het schema van de gebruiker</b>, wordt de waarde die u hier opgeeft genegeerd en wordt de gebruiker beschouwd als beschikbaar volgens wat in zijn programma is opgegeven. In dit geval wordt de FTE van de gebruiker voor de Resource Planner berekend met de volgende formule:</p>
-        <p><code style="font-style: normal;">User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code> </p> <p>Voor meer informatie over het berekenen van gebruiker FTE, zie <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p> <p>Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p>Voor meer informatie over het vormen van de Voorkeur van het Beheer van het Middel, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> 
-        </li> 
-        <li> <p><b>Brongroepen</b>: Koppel de gebruikers aan bronnenpools.</p> <p><b>OPMERKING</b>: Alleen de bronnenpools die alle geselecteerde gebruikers gemeen hebben, worden in dit veld weergegeven. Als de geselecteerde gebruikers geen gedeelde bronnenpools hebben, is dit veld leeg. Als dit veld leeg is, overschrijven de hier opgegeven bronnenpools hun afzonderlijke bronnenpools.</p> 
-        <p>Voor meer informatie over middelpools, zie <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Overzicht van bronnenpools </a>.</p> </li> 
-        <li><b>Kosten per uur</b>: De hoeveelheid kosten per uur voor de gebruiker. </li> 
-        <li><b>Facturering per uur</b>: De hoeveelheid facturering per uur voor de gebruiker.</li> 
-        <li><b>Aangepaste Forms</b>: Koppel een bestaand aangepast gebruikersformulier aan de gebruikers. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het maken van aangepaste formulieren raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</li> 
-        <li><b>Opmerking</b>: Voer een opmerking in het veld in dat wordt weergegeven. Alle geselecteerde gebruikers ontvangen zowel een melding in de app als een e-mailbericht met uw opmerking. De opmerking wordt weergegeven op het tabblad Updates van het gebruikersprofiel.</li> 
+       <li>Als Andere Rollen een Beschikbaarheid van 0% FTE hebben, tonen zij niet in de Planner van het Middel, tenzij de gebruikers aan taken in deze rollen worden toegewezen.</li> 
+       <li> <p>De som van alle Percentages van VTE Beschikbaarheid voor alle rollen moet 100% gelijk zijn. Elk percentage van FTE Beschikbaarheid berekent de Beschikbare Uren voor elke rol per gebruiker in de Planner van het Middel. De beschikbare uren voor elke rol per gebruiker hangt van de beschikbare tijd voor de gebruiker af.</p> <p>De beschikbare tijd voor de gebruiker wordt door Workfront berekend afhankelijk van de methode die door de beheerder van Workfront is geselecteerd om FTE in de Voorkeur van het Beheer van het Middel te berekenen.</p> <p>Voor meer informatie over het berekenen van beschikbaarheid voor de gebruiker, zie <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p> <p>Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </li> 
+       </ul> </p> </li> 
+       <li> <p><b>Schema</b>: Koppel een programma aan de gebruikers. Het programma van de gebruikers berekent de chronologie van de taken de gebruikers worden toegewezen aan.</p> <p>Een beheerder van Workfront of een groepsbeheerder moet een programma tot stand brengen alvorens het met gebruikers kan worden geassocieerd.</p> <p>Selecteer een systeem- of groepsschema om dit aan de geselecteerde gebruikers toe te wijzen.</p> <p>Voor meer informatie over systeem-niveau en groepsprogramma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p><b>BELANGRIJK</b>: Workfront gebruikt het programma van een gebruiker slechts wanneer de Calculate Beschikbaarheid van het Middel Gebruikend het plaatsen aan het Programma van de Gebruiker wordt geplaatst. Voor informatie over hoe de Berekende Beschikbaarheid van het Middel die het plaatsen gebruikt beïnvloedt welk programma voor het Beheer van het Middel wordt gebruikt, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </li> 
+       <li> <p><b>Tijdbladprofiel</b>: Koppel een tijdbladprofiel aan de gebruikers. Dit zorgt ervoor dat timesheets automatisch voor de gebruikers produceren.</p> 
+       <p><b>OPMERKING</b>:  
+       <ul> 
+       <li>De lijst met tijdlijnprofielen die beschikbaar zijn in dit veld, is afhankelijk van uw toegang:
+       <ul>
+       <li>Als beheerder van Workfront, kunt u alle systeem-niveau en groep-vlakke timesheet profielen zien.</li>
+       <li><p>Als groepsbeheerder, kunt u systeem-vlakke timesheet profielen, evenals die zien verbonden aan de groepen die u beheert.</p></li>
+       <li><p>Als gebruiker met een Planner-licentie en toegang tot het bewerken van gebruikers, kunt u alleen tijdbladprofielen op systeemniveau zien.</p></li>
+       </ul></li> 
+       <li>Als u een groepsbeheerder bent, moeten alle gebruikers u uitgeeft lid van een groep zijn die u beheert.</li> 
+       </ul> </p> </li> 
+       <li><b>Standaarduurtype</b>: Selecteer het standaarduurtype voor de gebruikers. Dit is het uurtype dat door gebrek wordt gebruikt wanneer de gebruikers tijd registreren.</li> 
+       <li> <p><b>Beschikbare uurtypen</b>: Selecteer de uurtypen die voor de gebruiker beschikbaar zouden moeten zijn. Deze uurtypen zijn overal zichtbaar in Workfront waar de gebruikers de tijd kunnen registreren. Een gebruiker kan de uurtypes slechts zien die op het projectniveau evenals het gebruikersniveau worden toegelaten.</p> 
+       <p>Voor meer informatie over welke uurtypes aan gebruikers beschikbaar zijn, zie <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Bepaal uurtypes en beschikbaarheid voor timesheets</a>.</p> 
+       </li> 
+       <li> <b>FTE</b>: Dit is het voltijdequivalent van de gebruiker. Workfront gebruikt dit aantal om de beschikbaarheid van de gebruiker te berekenen die op het StandaardProgramma wordt gebaseerd slechts wanneer de Voorkeur van het Beheer van het Middel op het systeemniveau aan het StandaardProgramma wordt geplaatst.
+
+   <p>FTE wijst op de hoeveelheid tijd die de gebruiker op het werk kan doorbrengen. Dit omvat overheadkosten, evenals tijd die aan projectwerk wordt doorgebracht. Bijvoorbeeld, tijd die in vergaderingen wordt doorgebracht, of de opleiding is ook inbegrepen in FTE.</p>
+
+   De FTE moet een decimaal getal tot en met 1 zijn en mag niet 0 zijn. Als de FTE-waarde bijvoorbeeld 0,5 is en de standaardplanning in Workfront 40 uur, is de gebruiker 20 uur per week beschikbaar.
+
+   De standaardwaarde van het veld is 1.
+
+   uitzonderingen plannen, mogelijk uitgestelde tijd, <span class="preview">en de waarde van de Tijd van het Werk</span> kan de beschikbaarheid van de gebruiker beïnvloeden.
+
+   Workfront berekent de beschikbaarheid van een gebruiker afhankelijk van de voorkeuren voor het beheer van bronnen in uw installatiegebied.
+
+   Als de Voorkeur van het Beheer van het Middel op het systeemniveau aan het Programma van de Gebruiker wordt geplaatst, wordt de waarde u hier specificeert genegeerd en de gebruiker wordt beschouwd als beschikbaar volgens wat in hun programma wordt gespecificeerd.
+
+   Zie voor meer informatie <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a>.
+
+   Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>.
+   </li> 
+       <li> <p><b>Brongroepen</b>: Koppel de gebruikers aan bronnenpools.</p> <p><b>OPMERKING</b>: Alleen de bronnenpools die alle geselecteerde gebruikers gemeen hebben, worden in dit veld weergegeven. Als de geselecteerde gebruikers geen gedeelde bronnenpools hebben, is dit veld leeg. Als dit veld leeg is, overschrijven de hier opgegeven bronnenpools hun afzonderlijke bronnenpools.</p> 
+       <p>Voor meer informatie over middelpools, zie <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Overzicht van bronnenpools </a>.</p> </li> 
+       <li><b>Kosten per uur</b>: De hoeveelheid kosten per uur voor de gebruiker. </li> 
+       <li><b>Facturering per uur</b>: De hoeveelheid facturering per uur voor de gebruiker.</li> 
+       <li><b>Aangepaste Forms</b>: Koppel een bestaand aangepast gebruikersformulier aan de gebruikers. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het maken van aangepaste formulieren raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</li> 
+       <li><b>Opmerking</b>: Voer een opmerking in het veld in dat wordt weergegeven. Alle geselecteerde gebruikers ontvangen zowel een melding in de app als een e-mailbericht met uw opmerking. De opmerking wordt weergegeven op het tabblad Updates van het gebruikersprofiel.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 

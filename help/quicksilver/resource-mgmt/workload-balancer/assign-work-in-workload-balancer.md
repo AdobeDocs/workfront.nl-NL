@@ -6,18 +6,16 @@ description: Als middelmanager, kunt u de Balancer van de Werkbelasting van Adob
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het toewijzen van werk in de werklastverdeler
 
-<!--drafted for Work Time story:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 Als middelmanager, kunt u de Balancer van de Werkbelasting van Adobe Workfront gebruiken om het werkpunten te bekijken die nog niet aan gebruikers zijn toegewezen evenals deze punten aan hen toe te wijzen.
 
@@ -52,8 +50,7 @@ Workfront gebruikt de volgende informatie om de capaciteit van de gebruiker in d
 
    Zie voor meer informatie [Persoonlijke tijd in Adobe Workfront configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">De werktijd van de gebruiker. Dit wijst op het percentage van FTE tijd dat de gebruiker beschikbaar is om werkelijk project-verwant werk, zonder overheadkosten uit te voeren. Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.</span>
 
 ## Werk toewijzen in Workload Balancer
 

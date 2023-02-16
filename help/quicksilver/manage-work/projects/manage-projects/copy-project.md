@@ -6,16 +6,16 @@ description: U kunt een project kopiëren in plaats van er zelf een te maken. U 
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
 
 # Een project kopiëren
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +33,7 @@ U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts 
 >* Notities
 >* Uren
 >* Predecessors voor meerdere projecten
->* Geforceerde uren <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">Geforceerde uren</span>
 >
 >De volgende punten worden altijd gekopieerd van een bestaand project aan nieuwe:
 >
@@ -137,11 +137,6 @@ Een project kopiëren:
 
 1. (Optioneel) Schakel de items uit die u niet naar het nieuwe project wilt kopiëren. In de volgende tabel wordt beschreven wat er gebeurt wanneer u de selectie van de items opheft:
 
-   <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -178,9 +173,20 @@ Een project kopiëren:
      </tr> 
      <tr> 
       <td role="rowheader">Alle voorgangers</td> 
-      <td> <p>Verwijdert alle voorgangersverhoudingen tussen de taken op het project. </p> <p>Tip: Predecessors voor meerdere projecten brengen nooit over naar het nieuwe project, ongeacht of dit is geselecteerd of niet. </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Verwijdert alle voorgangersverhoudingen tussen de taken op het project. </p> <p><b>TIP</b>
+
+   Predecessors voor meerdere projecten brengen nooit over naar het nieuwe project, ongeacht of dit is geselecteerd of niet. </p> </td>
+   </tr>
+
+<tr> 
+      <td role="rowheader"><span class="preview">Geforceerde uren</span></td> 
+      <td> <p><span class="preview">Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project. <span class="preview"></p>
+
+<b>OPMERKING</b>
+
+<span class="preview">De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Zie voor meer informatie <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken</a></span>
+</tr></td>
+    <tr> 
       <td role="rowheader">Financiële informatie</td> 
       <td> <p>Hiermee verwijdert u de informatie in de volgende gebieden: </p> 
        <ul> 

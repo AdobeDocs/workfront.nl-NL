@@ -5,9 +5,9 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
 workflow-type: tm+mt
-source-wordcount: '15140'
+source-wordcount: '15608'
 ht-degree: 0%
 
 ---
@@ -221,12 +221,23 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Automatic And On Change]</td> 
    <td> <p>Een van de [!UICONTROL Project Update] typen. Dit zal de Geprojecteerde en Geplande chronologie van het Project opnieuw berekenen wanneer het niight herberekeningsproces loopt en wanneer om het even welke update aan het Project of de Taken binnen het Project wordt gemaakt. </p> <p>Zie voor meer informatie <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecteer het Type van projectupdate </a>.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><p>Beschikbaarheid</p></td> 
+   <td> <p>Deze termijn wordt gebruikt met betrekking tot "gebruikersbeschikbaarheid"of "middelbeschikbaarheid"en het illustreert de hoeveelheid tijd dat het middel (gebruiker of baanrol) beschikbaar is om te werken. </p> 
+   <p>Workfront berekent de beschikbaarheid van gebruikers in verschillende velden en afhankelijk van de instellingen van de voorkeuren voor het beheer van bronnen in uw systeem. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a>. </p>
+   <p>Voor meer informatie over middelbeschikbaarheid, zie <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Aan de slag met Resource Management</a></p>
+   Afwisselend, wordt de "capaciteit"ook gebruikt om naar middelbeschikbaarheid te verwijzen. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Automatic Only]</td> 
    <td> <p>Een van de [!UICONTROL Project Update] typen. Hiermee worden de geprojecteerde en geplande tijdlijnen opnieuw berekend wanneer het nibleke herberekeningsproces wordt uitgevoerd.</p> <p>Zie voor meer informatie <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecteer het Type van projectupdate</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>"Zaken zoals gebruikelijk"werk dat aan het runnen van de dagelijkse primaire bedrijfsdoelstellingen bijdraagt.</td> 
   </tr> 
@@ -773,11 +784,10 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
      <li>[!UICONTROL Calculated Work]</li> 
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
-    </ul> <p>Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van taak [!UICONTROL Duration] en [!UICONTROL Duration Type]</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-    --> </td> 
-  </tr> 
-  <tr> 
+    </ul> <p>Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van taak [!UICONTROL Duration] en [!UICONTROL Duration Type]</a>.</p> 
+    --&gt; </td> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL Duration Unit]</td> 
    <td>De eenheid die wordt gebruikt om tijd in een machtsonderzoek te meten.</td> 
   </tr> 
@@ -858,15 +868,40 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
-   <td>Mappen worden gebruikt om documenten of rapporten te ordenen die aan een object zijn gekoppeld.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
-    <td>FTE</td> 
-    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
+   <td>Mappen worden gebruikt om documenten of rapporten te ordenen die aan een object zijn gekoppeld.</td> </tr>
+  <tr>
+  <td>FTE (voltijdequivalent)</td> 
+   <td>Dit is het Voltijdequivalent dat op de hoeveelheid tijd wijst dat een middel voor het werk beschikbaar is. 
+   Het FTE-veld wordt weergegeven in de volgende gebieden: 
+  <ul>
+   <li> Gebruikersprofiel, bij het bewerken of maken van de gebruiker </li>
+   <li> Resource Planner </li>
+   <li> Scenario Planner (aanvullende licentie vereist voor de Workfront Scenario Planner) </li>
+   <li> Gebruikerslijsten en -rapporten </li> </ul>
+
+<p>De FTE moet een decimaal getal tot en met 1 zijn en mag niet 0 zijn. </p>
+   <p> Een FTE van 1 (die het gebrek voor het FTE gebied van een gebruiker, zoals die in hun profiel wordt bepaald) is betekent dat een middel (gebruiker of rol) het volledige aantal uren, gebaseerd op het programma werkt dat hun beschikbaarheid berekent. </p>
+   <p>Uw Workfront-beheerder bepaalt welk schema wordt gebruikt om de beschikbaarheid van de gebruiker te bepalen.  </p>
+   <ul>
+   <li> Wanneer het standaardschema wordt gebruikt, gebruikt Workfront FTE van de gebruiker die in hun profiel wordt gevonden om beschikbaarheid te berekenen. </li>
+   <li> Wanneer het Programma van de Gebruiker wordt gebruikt, gebruikt Workfront de tijd van de gebruiker weg, <span class="preview">Tijdwaarde zakelijk</span>en de standaardplanninguren om de FTE van de gebruiker te berekenen. </li> </ul>
+
+<p>Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a>.  </p>
+   <p>Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>. </p>
+
+<p><b>OPMERKING</b></p>
+   <p>Voor alle berekeningen in de Planner van het Scenario, gebruikt Workfront de volgende waarde: 1 FTE = 8 uur.</p>
+   <p>Zie voor meer informatie <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Aan de slag met de functie Scenario Planner</a>. </p>
+   </td> </tr> 
+   </tbody> 
+   </table>
+
+<!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+<!--
+FTE
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+-->
 
 ## G - I
 
@@ -1412,7 +1447,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Plan] (in de [!DNL Scenario Planner])</td> 
-   <td> <p>Een plan is het belangrijkste voorwerp wanneer het werken met [!DNL Workfront] Scenario Planner. U kunt de strategie voor de nabije en lange toekomst van uw bedrijf schetsen en elk resultaat op hoog niveau identificeren en het als plan toevoegen aan [!DNL Workfront] Scenario Planner. </p> <p>U kunt niet weergeven [!DNL Scenario Planner] de plannen in een rapport en u kunt niet tot hen door [!DNL Workfront] API. </p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Scenario Planner] overzicht</a>. </p> </td> 
+   <td> <p>Een plan is het belangrijkste voorwerp wanneer het werken met [!DNL Workfront] Scenario Planner. U kunt de strategie voor de nabije en lange toekomst van uw bedrijf schetsen en elk resultaat op hoog niveau identificeren en het toevoegen als plan aan [!DNL Workfront] Scenario Planner. </p> <p>U kunt niet weergeven [!DNL Scenario Planner] de plannen in een rapport en u kunt niet tot hen door [!DNL Workfront] API. </p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Scenario Planner] overzicht</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
@@ -2287,10 +2322,26 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Workflow template]</td> 
    <td>In de [!UICONTROL Proof Approval] rapport, toont dit gebied om het even welke werkschemamalplaatjes in bijlage aan een proef. Als er geen sjablonen zijn gekoppeld, is de kolom leeg.</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Work Time]</td> 
+   <td>
+
+<p><span class="preview">Geeft het percentage aan van de FTE-tijd (Full Time Equivalent) dat de gebruiker beschikbaar is voor werkelijk werk, exclusief overhead. De Tijd van het werk moet een decimaal aantal tot 1 zijn, en het kan niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.</span>  </p>
+   </p><span class="preview">Het gebrek van het gebied is 1, erop wijzend dat een gebruiker hun volledige VTE op werkelijk besteedt, project-verwant werk.</span>   </p>
+   <p><span class="preview">Het systeem gebruikt dit aantal om de beschikbaarheid van de gebruiker voor daadwerkelijke, op project betrekking hebbende werk te berekenen. </span></p>
+   <p> <span class="preview">De uitzonderingen van het programma en de onderbreking van het programma zouden ook de gebruikerscapaciteit kunnen beïnvloeden.</span> </p>
+   <p><span class="preview">Zie Een schema maken voor meer informatie over het maken van planningen in Workfront. (KOPPELING INVOEGEN)</span> </p>
+    <p>Workfront berekent de beschikbaarheid van een gebruiker afhankelijk van de voorkeuren voor het beheer van bronnen in uw installatiegebied. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Voorkeuren voor beheer van bronnen configureren</a>. </p> 
+   <p><span class="preview">U kunt de werktijd van een gebruiker bijwerken wanneer u de gebruiker bewerkt of maakt. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Gebruikersprofiel bewerken</a></span></p> 
+   <b>TIP</b> 
+   <p><span class="preview">Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Working time]</td> 
-   <td>De gegevens waaruit uw schema's bestaan.</td> 
+   <td>In de documentatie van Workfront, wordt deze term gebruikt om de tijd te beschrijven die aan het werk, volgens een programma wordt toegewezen.</td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 

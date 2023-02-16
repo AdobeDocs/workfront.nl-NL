@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
 workflow-type: tm+mt
-source-wordcount: '12683'
+source-wordcount: '12688'
 ht-degree: 0%
 
 ---
@@ -1088,6 +1088,7 @@ ht-degree: 0%
          * [Blader door de catalogus met blauwdrukken en verzoek om installatie van blauwdrukken](administration-and-setup/blueprints/browse-catalog.md)
          * [Een projectsjabloon kopiëren](manage-work/projects/create-and-manage-templates/copy-template.md)
          * [Een sjabloon aan een project koppelen](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [Sjabloontaken kopiëren en verplaatsen](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Projectsjablonen bewerken](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [Een sjabloontaak bewerken](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Sjabloon maken van project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
