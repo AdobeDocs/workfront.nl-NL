@@ -6,7 +6,7 @@ title: Afvalfunctie van kaart configureren
 description: U kunt een kaart zodanig configureren dat kaarten volgens een schema worden gearchiveerd of van de kaart worden gehaald.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![Instellingen voor wegvallen van kaarten](assets/card-falloff-switch.png)
 
-1. Selecteer wanneer u kaarten van het bord wilt archiveren. U kunt maximaal 4 weken of 30 dagen kiezen.
+1. Selecteer wanneer u kaarten van het bord wilt archiveren. U kunt maximaal 8 weken of tot 60 dagen kiezen.
 
    De datum wordt bepaald vanaf wanneer de kaart voor het laatst is gewijzigd.
 

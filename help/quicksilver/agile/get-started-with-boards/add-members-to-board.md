@@ -6,9 +6,9 @@ description: Mensen moeten als leden aan de raad van bestuur worden toegevoegd v
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Boards]**.
 1. Maak een nieuw bord of bewerk een bestaand bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klik op de knop **[!UICONTROL Add member]** pictogram ![Leden toevoegen](assets/boards-addmember-spectrum-25x25.png).
-1. In de **[!UICONTROL Add members]** typt, typt u een naam en selecteert u deze wanneer de naam in de lijst wordt weergegeven.
+1. In de **[!UICONTROL Add members]** typt, typt u een naam en selecteert u deze wanneer deze in de lijst wordt weergegeven.
 
-   U kunt een individueel lid of een team selecteren. Als u een team kiest, wordt het team zelf toegevoegd aan het board. De individuele teamleden zijn dan beschikbaar om aan een kaart toe te wijzen.
+   U kunt een individueel lid of een team selecteren. Als u een team kiest, wordt het team zelf toegevoegd aan het board. Het volledige team en zijn individuele teamleden zijn dan beschikbaar om aan een kaart toe te wijzen.
 
    >[!NOTE]
    >
