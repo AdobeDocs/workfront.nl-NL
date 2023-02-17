@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,14 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Vereist) Typ of plak de URL van de widget waar deze op internet is opgeslagen.</p> 
+       <p><strong>Belangrijk</strong>: De URL voor moet een openbare URL zijn. </p>
       <p>Als u een videowidget toevoegt, kunt u dit op dit moment doen door het volgende toe te voegen in het vak URL:</p> 
       <ul> 
       <li> <p>YouTube- of Vimeo-koppeling</p> </li> 
       <li> <p>Video-koppeling Google Drive</p> </li> 
       <li> <p>Koppeling maken naar video met MP4- en MOV-extensie</p> </li> 
-      <li> <p>Koppeling maken naar video die al is geüpload naar het gebied Documenten in uw Workfront-instantie. Zie voor instructies <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Een videowidget toevoegen aan een aangepast formulier vanuit het gebied Documenten</a> in dit artikel.</p> </li> 
+      <li> <p>Koppeling maken naar video die al is geüpload naar het gebied Documenten in uw Workfront-instantie. Zie voor instructies <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Een videowidget toevoegen aan een aangepast formulier vanuit het gebied Documenten</a> in dit artikel.</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 

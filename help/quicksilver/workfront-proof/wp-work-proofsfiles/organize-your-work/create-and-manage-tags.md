@@ -7,9 +7,9 @@ description: U kunt labels maken en bewerken en deze toepassen op proefdrukken e
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Zie voor meer informatie over deze profielen en machtigingen [Profielen met proe
 1. Klikken **[!UICONTROL Tags]** > **[!UICONTROL Manage Tags]** net boven de lijst.
 
 1. Op de [!UICONTROL Tags] die wordt weergegeven, de tags beheren zoals hierboven beschreven in [Een tabblad maken, bewerken of verwijderen.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   Er wordt een label toegepast op alle geselecteerde items wanneer het selectievakje naast de tag donkergrijs is. Als het lichtgrijs is, worden slechts enkele items in een geselecteerde batch gelabeld. Als u een tag wilt verwijderen uit alle geselecteerde items, moet u controleren of het selectievakje naast de tag leeg is.\
+   Als het selectievakje naast de tag donkergrijs is, wordt een label toegepast op alle geselecteerde items. Als het lichtgrijs is, worden slechts enkele items in een geselecteerde batch gelabeld. Als u een tag wilt verwijderen uit alle geselecteerde items, moet u controleren of het selectievakje naast de tag leeg is.\
    ![Tags_menu_-_Donker_en_licht_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## Tags beheren op basis van proefgegevens of bestandsgegevens
