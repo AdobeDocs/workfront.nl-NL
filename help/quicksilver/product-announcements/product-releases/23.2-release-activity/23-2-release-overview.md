@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor mobiele apparaten](#agile-enhancements)
+* [Verbeteringen voor projectbeheer](#project-management-enhancements)
+* [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -81,6 +83,57 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Weergave van velden op een kaart aanpassen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Er is nu aanpassingsmogelijkheden beschikbaar om te bepalen welke velden op een kaart worden weergegeven, zowel in de volledige weergave wanneer de kaart is geopend als in de weergave voor gecondenseerde kaarten op het bord. Wanneer u een veld uitschakelt, wordt dit in geen van beide weergaven weergegeven. U kunt een veld ook inschakelen in de volledige weergave en verbergen in de versmalde weergave.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie voor vroege opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Een standaardstatus definiëren voor kaarten die naar een bordkolom worden verplaatst</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu een standaardstatus instellen om toe te passen op kaarten die naar een specifieke kolom worden verplaatst door een aangepaste status en een systeemstatus te selecteren in het kolombeleid. Wanneer u een kaart naar de kolom verplaatst, probeert Workfront eerst de aangepaste status toe te passen (bijvoorbeeld Feedback wachten). Als de aangepaste status niet beschikbaar is voor die kaart, past Workfront de systeemstatus toe (bijvoorbeeld In wachtstand). Als de status van de verbonden taak of uitgave wordt gewijzigd in de aangepaste of systeemstatus die is ingesteld in het kolombeleid, wordt de kaart automatisch naar de kolom verplaatst.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie voor vroege opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Verzamelingen die nu beschikbaar zijn in Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu verzamelingen maken op het dashboard voor borden. Een verzameling is een groep raden van bestuur om samen te werken aan het werk. Nadat u de verzameling een naam hebt gegeven, kunt u tekengebieden aan de verzameling toevoegen met behulp van een set sjablonen met vooraf gedefinieerde instellingen, zoals kolomnamen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie voor vroege opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Schattingsveld op verbonden kaarten verwijst naar het veld Artikelpunten op Workfront-objecten</a></p>
@@ -99,7 +152,6 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Kaart voorvertonen in innamekolom</a></p>
@@ -113,6 +165,77 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                             <li>
                                  <p>Productieversie voor vroege opt-in: 2 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Verbeteringen voor projectbeheer
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Beoogde uren kopiëren bij het kopiëren van een project</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <p>Nu, hebt u de optie om de uren te kopiëren die op het begrotingsgebied van het Middel van het BedrijfsGeval of de Planner van het Middel worden begroot wanneer u een project kopieert. Voorafgaand aan deze verhoging, werden de uren die voor het project werden begroot niet overgebracht naar het gekopieerde project.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Productieversie: 2 maart 2023 (buiten de cyclus)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Verbeteringen voor hulpbronnenbeheer
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Het veld Werktijd introduceren om de gebruikerscapaciteit nauwkeurig te berekenen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <p>Om middelmanagers toe te staan om de beschikbaarheid van hun gebruikers nauwkeurig te berekenen en rekenschap te geven voor de tijd die de gebruikers aan daadwerkelijke, projectgerelateerde werk wijden, introduceren wij het concept van de Tijd van het Werk aan Adobe Workfront.</p>
+                        <p>U kunt de waarde van het gebied van de Tijd van het Werk voor elke gebruiker bepalen, wanneer u creeert of hun profiel uitgeeft.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Productieversie: 2 maart 2023 (buiten de cyclus)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD</span></a><span style="color: #ff0000;"> Nieuw in productie!</span>
-                        <p>In de Adobe Workfront for XD-plug-in kunt u uw tekengebieden nu exporteren als één PDF-bestand of als meerdere PDF-bestanden.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD</span></a>
+                        </span></a><p>In de Adobe Workfront for XD-plug-in kunt u uw tekengebieden nu exporteren als één PDF-bestand of als meerdere PDF-bestanden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>

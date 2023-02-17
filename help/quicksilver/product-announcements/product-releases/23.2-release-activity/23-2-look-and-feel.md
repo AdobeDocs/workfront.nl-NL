@@ -4,9 +4,9 @@ description: Updates weergeven en voelen tijdens het tijdsbestek van de release 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,19 @@ Voor meer informatie, en om een videodemonstratie van een gelijkaardige eigensch
 ## Versiepictogram van document is bijgewerkt in Documentdetails
 
 We hebben het uiterlijk van het pictogram Documentversie bijgewerkt. Het pictogram geeft nu een rode stipnotatie weer wanneer u in een oudere versie werkt en een aanwijsapparaat dat &quot;Oudere versie&quot; aangeeft.
+
+## Nieuwe ervaring bij het kopiëren van een of meerdere sjabloontaken
+
+>[!NOTE]
+>
+>Voorvertoning release: 16 februari 2023; Planned Production release: 2 maart 2023
+
+Om uw gebruik van Adobe Workfront overal in de toepassing verenigbaar te maken, hebben wij de interface wanneer het kopiëren van of het bewegen van een malplaatjetaak opnieuw ontworpen. Dit is momenteel beschikbaar wanneer het kopiëren van een malplaatjetaak op het taakniveau of het kopiëren van een taak of veelvoudige taken in een lijst.
+
+Enkele verbeteringen zijn:
+
+* Alle informatie die u moet bijwerken voordat u de sjabloontaak kopieert of verplaatst, wordt op één doorlopende pagina weergegeven.
+* Workfront controleert of u onmiddellijk toegang hebt tot de doelsjabloon nadat u de sjabloon hebt gekozen. Voorafgaand aan deze verbetering, een waarschuwingsbericht erop wijst die dat u niet de correcte toegang hebt getoond nadat u het exemplaar of de beweging bevestigde, die in extra stappen resulteerde en de actie niet werd toegestaan.
+* De mogelijkheid om toegang aan te vragen voor een sjabloon waarop u de sjabloontaak wilt kopiëren of verplaatsen zonder het vak Sjabloontaak kopiëren of verplaatsen te verlaten.
+
+Zie voor meer informatie [Sjabloontaken kopiëren en verplaatsen](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
