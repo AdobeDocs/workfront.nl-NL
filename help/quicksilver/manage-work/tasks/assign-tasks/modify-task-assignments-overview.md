@@ -7,7 +7,7 @@ description: U kunt taken toewijzen aan of de toewijzing van taken door gebruike
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Dit artikel bevat algemene informatie over het effect van het wijzigen van taakt
 
 * Voor informatie over het toewijzen van taken raadpleegt u [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) en [Meerdere gebruikerstoewijzingen in een takenlijst wijzigen](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* Voor informatie over het wijzigen van taken op veelvoudige taken in het Plannende gebied, zie [Meerdere gebruikerstoewijzingen wijzigen voor taken in de planningsgebieden](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Voor informatie over het wijzigen van taken op veelvoudige taken in het Plannende gebied, zie &quot;veelvoudige gebruikerstoewijzingen aan taken in de Plannende gebieden wijzigen&quot;.
 * Voor informatie over het toewijzen van taken met behulp van Workload Balancer raadpleegt u [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Sommige informatie in dit artikel is ook van toepassing op toewijzingen aan kwesties. Voor meer informatie over het toewijzen van problemen, en extra overwegingen, zie [Overzicht van uitgaven wijzigen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

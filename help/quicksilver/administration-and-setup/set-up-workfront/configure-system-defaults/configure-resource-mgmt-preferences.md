@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 0%
@@ -87,7 +87,9 @@ Bij het berekenen van de capaciteit van een gebruiker houdt Workfront rekening m
 * [!UICONTROL Schedule] [!UICONTROL Exceptions] (afhankelijk van [!UICONTROL Schedule] wordt gebruikt, kan het de uitzonderingen van het programma van de gebruiker zijn, of die verbonden aan [!DNL Workfront] [!UICONTROL Default Schedule])
 * Tijd van gebruiker uitgeschakeld
 * De waarde van het voltijdequivalent ([!UICONTROL FTE]) van de gebruiker of die van de [!DNL Workfront] systeem. De [!UICONTROL FTE] is gelijk aan 1 wanneer de gebruiker voltijds werkt, zoals bepaald in het programma.
-* <span class="preview">De waarde van [!UICONTROL Work Time] voor de gebruiker die naar tijd verwijst die de gebruiker aan project-verwant werk besteedt. Dit omvat geen overheadtijd, zoals vergaderingen en opleiding. De [!UICONTROL Work Time] is gelijk aan 1 wanneer de gebruiker beschikbaar voor het werk de volledige tijd zoals die door wordt aangegeven [!UICONTROL FTE] of het programma, wat betekent dat ze geen tijd besteden aan niet-projectgerelateerd werk zoals vergaderingen of trainingen.</span>
+<div class="preview">
+* De waarde van [!UICONTROL Work Time] voor de gebruiker die naar tijd verwijst die de gebruiker aan project-verwant werk besteedt. Dit omvat geen overheadtijd, zoals vergaderingen en opleiding. De [!UICONTROL Work Time] is gelijk aan 1 wanneer de gebruiker beschikbaar voor het werk de volledige tijd zoals die door wordt aangegeven [!UICONTROL FTE] of het programma, wat betekent dat ze geen tijd besteden aan niet-projectgerelateerd werk zoals vergaderingen of trainingen.
+</div>
 
 Voor informatie over planning en het plannen van middelen in [!DNL Workfront], zie [Aan de slag met Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

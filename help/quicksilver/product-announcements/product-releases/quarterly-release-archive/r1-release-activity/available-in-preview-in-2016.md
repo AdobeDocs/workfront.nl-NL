@@ -6,9 +6,9 @@ description: De volgende functies zijn beschikbaar gesteld in de voorvertoningso
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ De volgende functies zijn beschikbaar gesteld in de voorvertoningsomgeving in 20
 
 ## Verbeteringen in bronnenplanning
 
-Nu kunt u alle taken op projecten zien waarvoor u de Manager van het Middel bent, toelatend u om meer geïnformeerd te zijn wanneer het nemen van het plannen van besluiten. 
+>[!NOTE]
+>
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Voor algemene informatie over de hulpmiddelen beschikbaar voor het plannen van middelen, zie [Aan de slag met Resource Scheduling](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+Nu kunt u alle taken op projecten zien waarvoor u de Manager van het Middel bent, toelatend u om meer geïnformeerd te zijn wanneer het nemen van het plannen van besluiten.
 
-Als u de informatie wilt aanpassen die op de tijdlijn van de planning wordt weergegeven, maakt u een filter, zoals beschreven in [Gegevens filteren in het planningsgebied](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+Voor algemene informatie over de hulpmiddelen beschikbaar voor het plannen van middelen, zie &quot;begonnen worden met het Plannen van het Middel&quot;.
 
-Naast het bekijken van taken op de projecten u voor verantwoordelijk bent, kunt u de het plannen chronologie gebruiken om veranderingen in middeltoewijzingen aan te brengen. Voor informatie over hoe te om gebruikerstoewijzingen op de het plannen chronologie te beheren, zie [Niet-toegewezen taken en problemen handmatig toewijzen in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+Om de informatie aan te passen die op de het plannen chronologie wordt getoond, creeer een filter, zoals die in &quot;de informatie van de Filter in het Plannende gebied&quot;wordt beschreven.
+
+Naast het bekijken van taken op de projecten u voor verantwoordelijk bent, kunt u de het plannen chronologie gebruiken om veranderingen in middeltoewijzingen aan te brengen. Voor informatie over hoe te om gebruikerstoewijzingen op de het plannen chronologie te beheren, zie &quot;manueel niet toegewezen taken en kwesties in de Plannende gebieden toewijzen&quot;.
 
 ## Gebruikerstoewijzingen beheren op de geplande tijdlijn
 
 Nu wanneer het plannen van middelen met de nieuwe middel die hulpmiddelen plannen, kunt u bepalen hoe de geplande uren voor een taak of een kwestie aan gebruikers worden toegewezen. U kunt de uren over dagen in de taakduur en onder toegewezen gebruikers verdelen.
 
-Zie voor meer informatie [Gebruikerstoewijzingen beheren in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Zie &quot;Gebruikerstoewijzingen in de planningsgebieden beheren&quot; voor meer informatie.
 
 ## Gebruikerstoewijzingen worden standaard uitgeschakeld
 
@@ -39,7 +43,7 @@ Schaduwen van gebruikerstoewijzing op de tijdlijn van de planning wanneer het pl
 
 Eerder werd de toewijzingsschaduw standaard weergegeven en kon deze niet worden uitgeschakeld.
 
-Voor meer informatie over hoe te om de opties van de gebruikerstoewijzing toe te laten, zie [Gebruikerstoewijzingen beheren in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [Gebruikerstoewijzingen beheren in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Voor meer informatie over hoe te om gebruikerstoewijzingsopties toe te laten, zie &quot;gebruikerstoewijzingen in de Plannende gebieden beheren&quot;.
 
 ## Het Malplaatje van de lay-out bepaalt of de Nieuwe of Oudere Kalender in het Mijn Gebied van het Werk toont
 

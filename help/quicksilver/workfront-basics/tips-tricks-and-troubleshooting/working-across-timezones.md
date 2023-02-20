@@ -5,9 +5,9 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe [!DNL Adobe Workfront] gebruikt tijdzones om het volgende te berekenen - BEWERK ME.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,7 @@ U kunt gebruikers helpen die gemakkelijker in verschillende tijdzones werken op 
 
    Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van beïnvloedt [!UICONTROL Planned Hours] in de [!UICONTROL Scheduling] en in de [!DNL Workload Balancer], zie het volgende:
-
-   * [Gebruikerstoewijzingen beheren in het dialoogvenster [!UICONTROL Scheduling] gebieden](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [Gebruikerstoewijzingen beheren in het dialoogvenster [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-
+   Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van beïnvloedt [!UICONTROL Planned Hours] in de [!DNL Workload Balancer], zie [Gebruikerstoewijzingen beheren in het dialoogvenster [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Berekende tijdvelden gebruiken in een aangepast formulier {#use-calculated-time-fields-in-a-custom-form}

@@ -5,9 +5,9 @@ description: Als deel van middelplanning, kunt u de baanrollen noodzakelijk voor
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Als deel van middelplanning, kunt u de baanrollen noodzakelijk voor de voltooiin
 
 >[!NOTE]
 >
->Het begroten van middelen is niet het zelfde als het plannen van middelen voor een project. Wanneer u middelen begroot, schat u de rollen die noodzakelijk zouden kunnen zijn om het werk aan een project te voltooien. Voor het eigenlijk plannen van of het toewijzen van gebruikers aan het werk aan een project, zie [Aan de slag met Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Voor informatie over middelplanning in Adobe Workfront, zie [Aan de slag met bronnenplanning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Het begroten van middelen is niet het zelfde als het plannen van middelen voor een project. Wanneer u middelen begroot, schat u de rollen die noodzakelijk zouden kunnen zijn om het werk aan een project te voltooien. Voor het eigenlijk plannen van of het toewijzen van gebruikers aan het werk aan een project, zie [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 U moet baanrollen met het project associëren alvorens u de middelen voor het kunt begroten. Hieronder vindt u manieren om taakrollen toe te wijzen aan een project:
 

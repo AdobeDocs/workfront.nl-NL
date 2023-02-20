@@ -6,7 +6,7 @@ description: U kunt middelen voor één enkel project plannen om op te geven aan
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Om tot het Plannende hulpmiddel in een project toegang te hebben:
 1. Ga naar het project waarvoor u middelen wilt plannen.
 1. Klik op de knop **Planning** of de sectie Werklastbalans in het linkerdeelvenster. De sectie van de Balancer van de Plannings of van de Werkbelasting zou onder kunnen worden gevestigd **Meer weergeven**.
 
-   Voor informatie over het plannen van middelen die het Plannende hulpmiddel in een project gebruiken, zie [Gebruikerstoewijzingen en toewijzingen wijzigen](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) in het artikel [Aan de slag met Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   Voor informatie over het plannen van middelen die het Plannende hulpmiddel in een project gebruiken, zie de &quot;wijzig gebruikerstoewijzingen en toewijzingen&quot;sectie in het artikel &quot;krijgen begonnen met het Plannen van het Middel&quot;.
 
 1. (Voorwaardelijk en aanbevolen) Als u op Planning hebt geklikt, klikt u op **Overschakelen naar werklastbalans** om bronnen te plannen met behulp van Workload Balancer.
 

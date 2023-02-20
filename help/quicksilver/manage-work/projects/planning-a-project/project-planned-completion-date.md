@@ -7,7 +7,7 @@ description: De geplande uitvoeringsdatum van een project is de datum waarop het
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Een project plannen vanaf de voltooiingsdatum:
 
 1. Selecteren **Projectdetails** in het linkerdeelvenster en klik vervolgens op de knop **Project bewerken** in de rechterbovenhoek.
 
-1. In de **Schema vanuit** veld, selecteren **Voltooiingsdatum**.
+1. In de **Planningsmodus** veld, selecteren **Voltooiingsdatum**.
 
 1. Geef de **Geplande afsluitdatum** van het project.
 1. Klikken **Wijzigingen opslaan**.
@@ -119,7 +119,7 @@ Een project plannen vanaf de begindatum:
 
 1. Selecteren **Projectdetails** in het linkerdeelvenster en klik vervolgens op de knop **Project bewerken** in de rechterbovenhoek.
 
-1. In de **Schema vanuit** veld, selecteren **Begindatum**.
+1. In de **Planningsmodus** veld, selecteren **Begindatum**.
 
 1. Geef de **Geplande begindatum** van het project.
 1. Klikken **Wijzigingen opslaan**.

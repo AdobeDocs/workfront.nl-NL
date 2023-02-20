@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ We blijven verbeteringen aanbrengen in de manier waarop je Workfront-doelen gebr
 
 * De ervaring met het afdrukken van een lijst met doelen is bijgewerkt met een intuïtievere koppeling Afdrukken in de sectie Lijst met doelen.
 
-   Voor informatie over afdrukdoelen raadpleegt u [De lijst met doelstellingen van Adobe Workfront afdrukken](../../../workfront-goals/goal-management/print-the-goal-list.md).
+   Zie &quot;De lijst met doelstellingen afdrukken in Adobe Workfront-doelen&quot; voor informatie over afdrukdoelen.
+
+   >[!NOTE]
+   >
+   >  De functionaliteit voor het afdrukken van doelen is vervangen en verwijderd uit Workfront.
+
 
 * Er is aanvullende informatie toegevoegd over resultaten en activiteiten in het deelvenster Details doel, zodat u duidelijk kunt zien wat het verschil is tussen de resultaten en activiteiten.
 

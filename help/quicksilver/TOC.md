@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 0%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 0%
       * [Informatie exporteren uit de bronnenplanner](resource-mgmt/resource-planning/export-resource-planner.md)
       * [Verslag over het begrote uur voor de planning van hulpbronnen](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Weergavebeperkingen van de functie Bronnen](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * Bronplanning {#resource-scheduling}
-      * [Bronplanning](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [Aan de slag met Resource Scheduling](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [Overzicht van de planningsgebieden](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [Instellingen configureren in de planningsgebieden](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [Gebruikerstoewijzingen ongeacht rol en groepslidmaatschap in de planningsgebieden toestaan](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [Automatisch niet-toegewezen taken en problemen toewijzen in de planningsgebieden](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [Vorm hoe Workfront middeluur en FTE beschikbaarheid voor het Plannende gebied berekent](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [Gegevens filteren in het planningsgebied](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [Gebruikerstoewijzingen beheren in de planningsgebieden](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [Niet-toegewezen taken en problemen handmatig toewijzen in de planningsgebieden](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [Meerdere gebruikerstoewijzingen wijzigen voor taken in de planningsgebieden](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * Hulpbronnengebruik {#resource-utilization}
       * [Hulpbronnengebruik](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Informatie over bronnengebruik weergeven](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 0%
       * [Gegevens filteren in Adobe Workfront Goals](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Overzicht van de status van objecten in Adobe Workfront Goals](workfront-goals/goal-management/goal-status-overview.md)
       * [Doelopmerkingen beheren in Adobe Workfront-doelen](workfront-goals/goal-management/manage-goal-comments.md)
-      * [De lijst met doelstellingen van Adobe Workfront afdrukken](workfront-goals/goal-management/print-the-goal-list.md)
       * [Doelen bijwerken in de sectie Gooddetails in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Herzie in-probleem doelstellingen in de Doelen van Adobe Workfront](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Doelstellingen in Adobe Workfront {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 0%
       * [Voortgang van Adobe Workfront-doelen bijwerken](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Doelstellingen beheren in de lijst met doelstellingen van Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Grafieken bekijken om trends in de voortgang van het doel in Adobe Workfront-doelen te begrijpen](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [De doelstellingen van het overzicht in de sectie van de Pulse van de Doelstellingen van Adobe Workfront](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Resultaten en activiteiten in de Adobe Workfront-doelstellingen {#results-activities-adobe-workfront-goals}
       * [Resultaten en activiteiten in de Adobe Workfront-doelstellingen](workfront-goals/results-and-activities/results-and-activities.md)
       * [Activiteiten toevoegen aan doelen in Adobe Workfront](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 0%
       * [Projecten toevoegen aan doelen in Adobe Workfront](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [Resultaten en activiteiten bewerken in Adobe Workfront Goals](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Aan de slag met resultaten en activiteiten in Adobe Workfront Goals](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [Resultaten, activiteiten en projecten verwijderen uit doelen in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [Voortgangsindicatoren verwijderen uit doelen van Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Instellingen voor Adobe Workfront-doelen {#adobe-workfront-goal-settings}
       * [Instellingen voor Adobe Workfront-doelen](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Terminologie voor Adobe Workfront-doelen aanpassen](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

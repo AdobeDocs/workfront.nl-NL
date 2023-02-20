@@ -6,9 +6,9 @@ description: Wanneer het beheren van taaktaken, kunt u hen voor veelvoudige take
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Wanneer het beheren van taaktaken, kunt u hen voor veelvoudige taken tegelijkert
 
 In dit artikel wordt verwezen naar het wijzigen van meerdere gebruikerstoewijzingen voor meerdere taken in een takenlijst. Zie ook de volgende artikelen voor het wijzigen van toewijzingen voor meerdere taken op andere gebieden:
 
-* Voor informatie over het wijzigen van taken op veelvoudige taken in het Plannende gebied, zie [Meerdere gebruikerstoewijzingen wijzigen voor taken in de planningsgebieden](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * Voor informatie over het toewijzen van taken met behulp van Workload Balancer raadpleegt u [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Voor informatie over het toewijzen van een taak aan één middel in een lijst, zie [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

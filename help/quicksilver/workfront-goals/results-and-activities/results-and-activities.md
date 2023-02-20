@@ -7,9 +7,9 @@ description: Resultaten en activiteiten zijn voortgangsindicatoren voor een doel
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 >
 >Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Als u de vorderingen met betrekking tot de Workfront-doelstellingen wilt vastleggen, moet u voortgangsindicatoren koppelen aan doelstellingen. Naast resultaten en activiteiten, kunt u projecten of kinddoelstellingen aan een doel ook associëren om vooruitgang te registreren.
 
 Deze sectie bevat de volgende artikelen:
 

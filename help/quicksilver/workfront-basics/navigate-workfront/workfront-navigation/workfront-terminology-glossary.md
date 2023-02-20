@@ -5,9 +5,9 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '15608'
+source-wordcount: '15588'
 ht-degree: 0%
 
 ---
@@ -480,8 +480,14 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  --> 
-  <tr> 
+  -->
+
+<tr> 
+   <td> <p>Capaciteit</p> </td> 
+   <td> <p>De beschikbare tijd van een bron wanneer zij aan het werk kunnen worden toegewezen. Zie "Beschikbaarheid". </p></td> 
+  </tr>
+
+<tr> 
    <td> <p>[!UICONTROL Category]</p> </td> 
    <td> <p>Een categorie is een aangepast formulier. U kunt rapporten voor dit voorwerp bouwen en u kunt het in andere objecten rapporten tonen, eveneens. Niet alle objecten kunnen een aangepast formulier of een aangepaste categorie hebben. De volgende objecten kunnen een aangepast formulier hebben: <br></p> 
     <ul> 
@@ -870,28 +876,28 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <td>[!UICONTROL Folder]</td> 
    <td>Mappen worden gebruikt om documenten of rapporten te ordenen die aan een object zijn gekoppeld.</td> </tr>
   <tr>
-  <td>FTE (voltijdequivalent)</td> 
+  <td>[!UICONTROL FTE] (voltijdequivalent)</td> 
    <td>Dit is het Voltijdequivalent dat op de hoeveelheid tijd wijst dat een middel voor het werk beschikbaar is. 
-   Het FTE-veld wordt weergegeven in de volgende gebieden: 
+   De [!UICONTROL FTE] wordt weergegeven in de volgende gebieden: 
   <ul>
    <li> Gebruikersprofiel, bij het bewerken of maken van de gebruiker </li>
-   <li> Resource Planner </li>
-   <li> Scenario Planner (aanvullende licentie vereist voor de Workfront Scenario Planner) </li>
+   <li> [!UICONTROL Resource Planner] </li>
+   <li> [!UICONTROL Scenario Planner] (aanvullende licentie vereist voor de Workfront Scenario Planner) </li>
    <li> Gebruikerslijsten en -rapporten </li> </ul>
 
-<p>De FTE moet een decimaal getal tot en met 1 zijn en mag niet 0 zijn. </p>
-   <p> Een FTE van 1 (die het gebrek voor het FTE gebied van een gebruiker, zoals die in hun profiel wordt bepaald) is betekent dat een middel (gebruiker of rol) het volledige aantal uren, gebaseerd op het programma werkt dat hun beschikbaarheid berekent. </p>
+<p>De [!UICONTROL FTE] moet een decimaal getal zijn tot en met 1, en mag niet 0 zijn. </p>
+   <p> An [!UICONTROL FTE] van 1 (dit is de standaardinstelling voor [!UICONTROL FTE] veld, zoals gedefinieerd in hun profiel) betekent dat een bron (gebruiker of rol) het volledige aantal uren werkt, op basis van het schema dat de beschikbaarheid ervan berekent. </p>
    <p>Uw Workfront-beheerder bepaalt welk schema wordt gebruikt om de beschikbaarheid van de gebruiker te bepalen.  </p>
    <ul>
-   <li> Wanneer het standaardschema wordt gebruikt, gebruikt Workfront FTE van de gebruiker die in hun profiel wordt gevonden om beschikbaarheid te berekenen. </li>
-   <li> Wanneer het Programma van de Gebruiker wordt gebruikt, gebruikt Workfront de tijd van de gebruiker weg, <span class="preview">Tijdwaarde zakelijk</span>en de standaardplanninguren om de FTE van de gebruiker te berekenen. </li> </ul>
+   <li> Wanneer de [!UICONTROL Default Schedule] wordt gebruikt, gebruikt Workfront de [!UICONTROL FTE] van de gebruiker in hun profiel wordt gevonden om beschikbaarheid te berekenen. </li>
+   <li> Wanneer het Programma van de Gebruiker wordt gebruikt, gebruikt Workfront de tijd van de gebruiker weg, <span class="preview">[!UICONTROL Work Time] value</span>, en [!UICONTROL Default Schedule]-uren om de gebruikersgegevens te berekenen [!UICONTROL FTE]. </li> </ul>
 
 <p>Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a>.  </p>
-   <p>Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>. </p>
+   <p>Voor meer informatie over het maken van programma's in [!DNL Workfront], zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>. </p>
 
 <p><b>OPMERKING</b></p>
-   <p>Voor alle berekeningen in de Planner van het Scenario, gebruikt Workfront de volgende waarde: 1 FTE = 8 uur.</p>
-   <p>Zie voor meer informatie <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Aan de slag met de functie Scenario Planner</a>. </p>
+   <p>Voor alle berekeningen in de [!UICONTROL Scenario Planner]Workfront gebruikt de volgende waarde: 1 [!UICONTROL FTE] = 8 uur.</p>
+   <p>Zie voor meer informatie <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Aan de slag met de [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
    </table>
@@ -1451,7 +1457,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
-   <td> <p>Het tijdkader waarbinnen iets gepland is voor te komen. Wanneer u projecten, taken of kwesties binnen creeert [!DNL Workfront], stelt u de geplande begin- en einddatums vast, evenals het geplande tijdsbestek waarin deze plaatsvinden. Deze waarden geven uw oorspronkelijke intentie weer of schatten hoe lang een werktijd moet duren om te voltooien. </p></td> 
+   <td> <p>Het tijdkader waarbinnen iets gepland is voor te komen. Wanneer u projecten, taken of kwesties binnen creeert [!DNL Workfront], stelt u de geplande begin- en einddatums vast, evenals het geplande tijdsbestek waarin deze plaatsvinden. Deze waarden geven uw oorspronkelijke intentie weer of schatten hoe lang het duurt voordat een object is voltooid. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Benefit]</td> 
@@ -1904,7 +1910,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
-   <td>Ook bekend als a [!UICONTROL Modified Shift]. De geplande dagen in tegenstelling tot de normale wekelijkse arbeidstijden zoals bepaald in het schema. Een zaterdag die gepland is om te werken, zou bijvoorbeeld een [!UICONTROL Schedule Exemption].</td> 
+   <td>Ook bekend als a [!UICONTROL Modified Shift]. Dagen die gepland zijn in tegenstelling tot de normale wekelijkse arbeidstijden zoals bepaald in het schema. Een zaterdag die gepland is om te werken, zou bijvoorbeeld een [!UICONTROL Schedule Exemption].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scheduled Report]</td> 
@@ -2328,15 +2334,15 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td>[!UICONTROL Work Time]</td> 
    <td>
 
-<p><span class="preview">Geeft het percentage aan van de FTE-tijd (Full Time Equivalent) dat de gebruiker beschikbaar is voor werkelijk werk, exclusief overhead. De Tijd van het werk moet een decimaal aantal tot 1 zijn, en het kan niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.</span>  </p>
-   </p><span class="preview">Het gebrek van het gebied is 1, erop wijzend dat een gebruiker hun volledige VTE op werkelijk besteedt, project-verwant werk.</span>   </p>
+<p><span class="preview">Vertegenwoordigt het percentage van het Voltijdequivalent ([!UICONTROL FTE]) tijd dat de gebruiker beschikbaar is voor daadwerkelijk werk, exclusief overhead. [!UICONTROL Work Time] moet een decimaal getal zijn tot en met 1, en mag niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.</span>  </p>
+   </p><span class="preview">De standaardinstelling van het veld is 1. Dit geeft aan dat een gebruiker de gehele waarde doorgeeft [!UICONTROL FTE] op concrete, projectgerelateerde werkzaamheden.</span>   </p>
    <p><span class="preview">Het systeem gebruikt dit aantal om de beschikbaarheid van de gebruiker voor daadwerkelijke, op project betrekking hebbende werk te berekenen. </span></p>
    <p> <span class="preview">De uitzonderingen van het programma en de onderbreking van het programma zouden ook de gebruikerscapaciteit kunnen beïnvloeden.</span> </p>
-   <p><span class="preview">Zie Een schema maken voor meer informatie over het maken van planningen in Workfront. (KOPPELING INVOEGEN)</span> </p>
-    <p>Workfront berekent de beschikbaarheid van een gebruiker afhankelijk van de voorkeuren voor het beheer van bronnen in uw installatiegebied. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Voorkeuren voor beheer van bronnen configureren</a>. </p> 
-   <p><span class="preview">U kunt de werktijd van een gebruiker bijwerken wanneer u de gebruiker bewerkt of maakt. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Gebruikersprofiel bewerken</a></span></p> 
+   <p><span class="preview">Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>.</span> </p>
+    <p>Workfront berekent de beschikbaarheid van een gebruiker op basis van de voorkeuren voor het beheer van bronnen in uw [!UICONTROL Setup] gebied. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Voorkeuren voor beheer van bronnen configureren</a>. </p> 
+   <p><span class="preview">U kunt de [!UICONTROL Work Time] van een gebruiker wanneer u de gebruiker bewerkt of maakt. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Gebruikersprofiel bewerken</a></span></p> 
    <b>TIP</b> 
-   <p><span class="preview">Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.</span></p> 
+   <p><span class="preview">Stel de [!UICONTROL Work Time] waarde aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.</span></p> 
    </td> 
   </tr> 
   <tr> 

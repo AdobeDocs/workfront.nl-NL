@@ -6,9 +6,9 @@ description: Het bepalen van een Structuur van de Onderverdeling van het Werk (W
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ In het begin van een belastingjaar of een kwartaal, kunt u uw middelen op een ho
 Raadpleeg het artikel voor informatie over het plannen van het gebruik van uw bronnen op een hoger niveau [Aan de slag met bronnenplanning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Wanneer u uw middelen in de context van de bouw van de Structuur van de Onderverdeling van het Werk van één project beheert, en ervoor zorgt dat elke taak aan het correcte middel wordt toegewezen, bent u bereid om uw middelen voor het werk te plannen dat moet worden gedaan.\
-Raadpleeg de artikelen in het dialoogvenster [Bronplanning](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) sectie.
+Raadpleeg de artikelen in het dialoogvenster [De werklastbalans](../../../resource-mgmt/workload-balancer/workload-balancer.md) sectie.
 
 ## Projectfinanciën schatten
 

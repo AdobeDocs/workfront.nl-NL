@@ -7,9 +7,9 @@ description: De geplande uren verbonden aan een taak, een kwestie, of een projec
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ Als een taak bijvoorbeeld om 16.00 uur moet beginnen en het schema op de eerste 
 >
 >De geplande uren per dag of de dagelijkse toewijzing is de toewijzing van de geplande uren voor elke dag tijdens de duur van de taak. Als de taak één taak heeft, dan vertegenwoordigt dit aantal de Geplande Uren per Dag per taak. Als de taak meerdere taken heeft, verschilt de geplande uren per dag per toewijzing van de taken van de geplande uren per dag. Er is geen visuele weergave in Workfront voor de geplande uren per dag per toewijzing, voor taken met meerdere toewijzingen.
 
- 
-
 ## De waarden voor Geplande uren zoeken en begrijpen
 
 U kunt de waarden voor Geplande uren in verschillende gebieden van Workfront vinden. 
@@ -89,7 +87,6 @@ U kunt de geplande uren vinden in de volgende gebieden van Workfront:
 * [De sectie Details van een project, taak of kwestie](#the-details-section-of-a-project-task-or-issue)
 * [Het vak Taak bewerken of Uitgave bewerken](#the-edit-task-or-edit-issue-box)
 * [Rapporten](#reports)
-* [De planningsgebieden](#the-scheduling-areas)
 * [De werklastbalans](#the-workload-balancer)
 * [De bronnenplanner](#the-resource-planner)
 * [Het gebruiksrapport](#the-utilization-report)
@@ -131,20 +128,22 @@ Voor informatie over het maken van rapporten raadpleegt u [Een aangepast rapport
 >
 >Als u een project (Financiële Gegevens) rapport creeert en het groepert door datum, zouden de Geplande Uren een deel van de Geplande Uren van het project afhankelijk van de chronologie van de taken op het project kunnen tonen. Door gebrek, verdeelt Workfront de Geplande Uren van taken gelijkelijk voor elke dag van de taakDuur. De geplande uren voor een bepaald tijdkader komen overeen met de gelijke verdeling die Workfront voor dat tijdkader heeft ingesteld in het projectrapport (Financial Data).
 
-### De planningsgebieden  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-De geplande uren voor taken en kwesties tonen in de Plannende gebieden op het Geplande gebied van Uren.
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-U kunt de dagelijkse toewijzing van Geplande Uren voor elke gebruiker bekijken die aan een taak of een kwestie in de Plannende gebieden wordt toegewezen.
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-Het daguurbedrag is een van de volgende: 
+The daily hour amount represents one of the following:
 
-* het standaardbedrag gelijk verdeeld door Workfront voor elke dag van de Duur van de taken of emissies
-* de aangepaste dagelijkse toewijzing die door de grondstoffenbeheerders wordt beheerd.
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   Voor informatie over het aanpassen van dagelijkse toewijzingen in de Planningshulpmiddelen, zie [Gebruikerstoewijzingen beheren in de planningsgebieden](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### De werklastbalans {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ De volgende Geplande Uren voor taken, kwesties, en projecten tonen in de Balance
 * Voor projecten, een totaal van Geplande Uren van de taken en kwesties zichtbaar op de het schermvertoning.
 
    >[!TIP]
-   In Workload Balancer worden niet alle geplande uren van een project weergegeven als zichtbaar in het gebied met projectdetails.
+   >
+   >In Workload Balancer worden niet alle geplande uren van een project weergegeven als zichtbaar in het gebied met projectdetails.
 
 U kunt de dagelijkse toewijzing van Geplande Uren voor elke gebruiker bekijken die aan een taak of een kwestie in de Balancer van de Werkbelasting wordt toegewezen.
 
@@ -176,7 +176,8 @@ In de bronnenplanner worden geplande uren weergegeven voor projecten, taken en p
 U kunt wekelijkse toewijzingen van Geplande Uren voor de gebruikers en baanrollen bekijken verbonden aan het werkpunten in de kolom PLN van de Planner van het Middel.
 
 >[!TIP]
-Aanpassingen van dagelijkse toewijzingen in de werklastbalans beïnvloeden wekelijkse toewijzingen voor taken en problemen in de bronnenplanner.
+>
+>Aanpassingen van dagelijkse toewijzingen in de werklastbalans beïnvloeden wekelijkse toewijzingen voor taken en problemen in de bronnenplanner.
 
 Het aantal geplande uren voor elk object is afhankelijk van de weergave die u toepast op de bronnenplanner. Zie voor meer informatie [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ Het wekelijkse bedrag voor projecten, gebruikers en rollen wordt beïnvloed door
 De geplande uren van het project zijn degenen verbonden aan de taken op elke taak en kwestie.
 
 >[!IMPORTANT]
-Merk op dat de Geplande Uren in het rapport van het Gebruik met de taken en niet met de taken en kwesties zelf worden geassocieerd. De geplande uren in het gebruiksrapport komen niet altijd overeen met de geplande uren voor de taken en problemen van het project. De geplande uren komen echter wel overeen met de uren die zijn gekoppeld aan de taken en uitgaven.
+>
+>Merk op dat de Geplande Uren in het rapport van het Gebruik met de taken en niet met de taken en kwesties zelf worden geassocieerd. De geplande uren in het gebruiksrapport komen niet altijd overeen met de geplande uren voor de taken en problemen van het project. De geplande uren komen echter wel overeen met de uren die zijn gekoppeld aan de taken en uitgaven.
 
 U kunt de volgende typen geplande uren weergeven in het gebruiksrapport:
 

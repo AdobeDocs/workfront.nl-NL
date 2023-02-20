@@ -6,9 +6,9 @@ description: Een projectoverzicht plannen
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ Houd rekening met het volgende wanneer u taken definieert:
 
    Raadpleeg het artikel voor meer informatie over Geplande uren [Overzicht van geplande uren](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Wijs elke taak toe aan een gebruiker of een team dat verantwoordelijk is voor de voltooiing ervan. 
+* Wijs elke taak toe aan een gebruiker of een team dat verantwoordelijk is voor de voltooiing ervan.
 * Controleer de beschikbaarheid van de gebruikers u aan de taken toewijst. Zorg ervoor dat ze vrij kunnen werken en niet overbelast zijn, zodat ze hun toegewezen taken kunnen uitvoeren. Als de gebruikers oververdeeld zijn of zij tijd in hun programma&#39;s hebben, overweeg één van het volgende:
 
    * Verminder de geplande uren van elke taak.
    * Voeg meer gebruikers aan een taak toe om ervoor te zorgen dat het tijdens de toegewezen tijd kan worden voltooid.
    * Wijs de taken opnieuw toe aan gebruikers die zonder andere beperkingen beschikbaar zijn.\
       Raadpleeg het artikel voor meer informatie over het plannen van uw projectbronnen [Resourceplanning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Voor meer informatie over het plannen van uw middelen om het werk aan een project te verwezenlijken, zie het artikel [Bronplanning](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      Voor meer informatie over het plannen van uw middelen om het werk aan een project te verwezenlijken, zie [Overzicht van de werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

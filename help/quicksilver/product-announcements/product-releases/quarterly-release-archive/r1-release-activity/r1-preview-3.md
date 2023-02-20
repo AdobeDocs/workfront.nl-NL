@@ -6,9 +6,9 @@ description: Deze pagina beschrijft alle veranderingen beschikbaar in het milieu
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Zie voor meer informatie  [Documenten van externe toepassingen koppelen](../../
 
 ## Bijgewerkt team dat aan Kalender werkt
 
+>[!NOTE]
+>
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 De kalender Werken aan beschikbaar voor teams bevat nu extra functionaliteit en een bijgewerkte look en feel. Het team dat aan kalender werkt functioneert nu gelijkend op het middel die hulpmiddel voor projecten plannen.
 
 Het bijgewerkte team dat aan kalender werkt omvat de volgende verbeteringen:
@@ -52,22 +56,26 @@ Verschillen van het middel dat hulpmiddel plant wanneer het plannen van middelen
 * De kwesties worden door gebrek getoond op het team dat aan kalender werkt.\
    Wanneer het plannen van middelen voor projecten, worden de kwesties niet getoond door gebrek.
 
-Voor meer informatie over het gebruiken van het bijgewerkte team dat aan kalender werkt, zie [Bronplanning](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+Voor meer informatie over het gebruiken van het bijgewerkte team dat aan kalender werkt, zie &quot;het Plannen van het Middel&quot;.
 
 ## Verbeteringen op gebied van middelenplanning
 
 De tijdlijn voor planning bevat de volgende verbeteringen:
 
-* [Gebruik het filter om te bepalen welke gebruikers op de geplande tijdlijn worden weergegeven](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [Gebruikers blijven op de tijdlijn staan nadat een taak is toegewezen](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;Gebruik het filter om te bepalen welke gebruikers op de geplande tijdlijn worden getoond&quot;
+* &quot;Gebruikers blijven op de tijdlijn staan nadat een taak is toegewezen&quot;
 
 ### Gebruik het filter om te bepalen welke gebruikers op de geplande tijdlijn worden weergegeven {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Het filter kan nu worden gebruikt om te bepalen welke gebruikers worden weergegeven op de planningstijdlijn, naast welke taken en problemen worden weergegeven in het gebied Niet toegewezen. Wanneer gebruikers in het filter worden geselecteerd, worden alleen de gebruikers weergegeven die u selecteert, ongeacht of ze een roltoewijzing hebben die overeenkomt met de roltoewijzing van taken in het niet-toegewezen gebied. Alle taken die momenteel aan die gebruiker zijn toegewezen, worden ook weergegeven.
 
 Voorafgaand aan deze verandering, controleerde de filter slechts welke taken en kwesties in het Unassigned gebied werden getoond. De gebruikers werden getoond in de het plannen chronologie slechts als de gebruiker de roltoewijzing van een taak in het Niet toegewezen gebied aanpaste.
 
-Zie voor meer informatie over het gebruik van het filter om te bepalen wat wordt weergegeven op de tijdlijn die wordt gepland  [Gegevens filteren in het planningsgebied](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md), en  [Niet-toegewezen taken en problemen handmatig toewijzen in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Niet-toegewezen taken en problemen handmatig toewijzen in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Voor meer informatie over het gebruiken van de filter om te controleren wat op de het plannen chronologie wordt getoond, zie &quot;informatie van de Filter in het Plannende gebied&quot;, en &quot;toewijzen manueel niet toegewezen taken en kwesties in de Plannende gebieden&quot;.
 
 ### Gebruikers blijven op de tijdlijn staan nadat een taak is toegewezen {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ De gebruikers blijven op de het plannen chronologie nadat zij een taak of een kw
 
 Voorafgaand aan deze verandering, zouden de gebruikers van de het plannen chronologie onmiddellijk na worden toegewezen een taak of kwestie verdwijnen als er geen resterende taken of kwestie in het Niet toegewezen gebied met een passende roltoewijzing waren.
 
-Zie voor meer informatie  [Niet-toegewezen taken en problemen handmatig toewijzen in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Niet-toegewezen taken en problemen handmatig toewijzen in de planningsgebieden](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Zie &quot;Niet-toegewezen taken en problemen in de planningsgebieden handmatig toewijzen&quot; voor meer informatie.
 
 ## Workfront-terminologie aanpassen door objectnamen te wijzigen
 
