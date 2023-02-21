@@ -7,7 +7,7 @@ description: U kunt een bestaand project, een bestaande taak of een bestaand pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -57,8 +57,6 @@ Voordat u een [!DNL Workfront] item met e-mailinhoud van [!DNL G Suite]moet u
 1. Onder **[!UICONTROL Type]** Klik op de vervolgkeuzepijl en klik vervolgens op het type object waar u de update wilt toevoegen.
 1. Klik op de knop **[!UICONTROL Search for]** typt u de naam van het object waar u de update wilt toevoegen en selecteert u vervolgens het item wanneer dit wordt weergegeven in de onderstaande lijst.
 
-   ![](assets/click-search-for-task-issue.png)
-
    Deze optie is afhankelijk van de optie die u in stap 3 hebt geselecteerd. Misschien is het **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]**, of **[!UICONTROL Search for an issue]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ Voordat u een [!DNL Workfront] item met e-mailinhoud van [!DNL G Suite]moet u
 1. Klik op **[!UICONTROL Update]**.
 
    Wanneer u uw browser vernieuwt, verschijnt er een bericht met een koppeling onder aan het dialoogvenster [!DNL Workfront for G Suite] bevestigt dat u de e-mail hebt geconverteerd naar een update:
-
-   ![](assets/email-was-converted-as-update.png)
 
    U kunt op de koppeling klikken om naar de [!UICONTROL Updates] tab in [!DNL Workfront] voor het object dat u hebt opgegeven in stap 4.
 

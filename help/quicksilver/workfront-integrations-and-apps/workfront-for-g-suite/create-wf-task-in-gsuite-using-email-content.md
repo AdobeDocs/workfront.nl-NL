@@ -7,7 +7,7 @@ description: U kunt een externe e-mail (niet gegenereerd door Adobe) converteren
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -59,8 +59,6 @@ Voordat u een [!DNL Workfront] taak in [!DNL G Suite]moet u
 1. Als de [!UICONTROL Workfront for G Suite] wordt niet weergegeven, klikt u op de knop [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de [!DNL G Suite] de zijbalk met invoegtoepassingen bevindt zich uiterst rechts op de pagina.
 1. Open het e-mailbericht in [!DNL G Suite], klikt u op een optie in [!DNL Workfront for G Suite] om de e-mail naar een nieuwe [!DNL Workfront] taak.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Selecteer een **[!UICONTROL Create new]** optie om aan te geven of de taak deel zal uitmaken van een project of een persoonlijke taak die onafhankelijk is van een project.
 1. Als u de taak aan een ouderproject wilt vastmaken, klik **[!UICONTROL Project name]**, begint de naam van het project te typen waar u de taak wilt uitvoeren en klikt u op de projectnaam wanneer deze in de onderstaande lijst wordt weergegeven.
 1. Breng een van de volgende wijzigingen aan:
@@ -107,8 +105,6 @@ Voordat u een [!DNL Workfront] taak in [!DNL G Suite]moet u
    Onder aan het dialoogvenster **[!UICONTROL Details]** kunt u ook op **[!UICONTROL View in [!DNL Workfront]]** om naar de nieuwe taak in Workfront te gaan.
 
    Wanneer u uw browser vernieuwt, verschijnt er een bericht met een koppeling onder aan het dialoogvenster [!DNL Workfront for G Suite] bevestigt dat u de e-mail naar een taak hebt geconverteerd:
-
-   ![](assets/email-was-converted.png)
 
    U kunt op de koppeling klikken om naar de weergave Details te gaan, in het dialoogvenster [!DNL Workfront for G Suite] voor de taak die u hebt gemaakt.
 

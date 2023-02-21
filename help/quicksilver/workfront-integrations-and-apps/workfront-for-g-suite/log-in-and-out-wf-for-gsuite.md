@@ -7,7 +7,7 @@ description: In dit artikel wordt beschreven hoe u zich aanmeldt bij het dialoog
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -69,8 +69,6 @@ Voordat u zich kunt aanmelden [!DNL Workfront for G Suite]moet u
 
 1. Als de [!UICONTROL Workfront for G Suite] wordt niet weergegeven, klikt u op de knop [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de [!DNL G Suite] de zijbalk met invoegtoepassingen bevindt zich uiterst rechts op de pagina.
 1. Klik op de knop **[!UICONTROL More actions]** pictogram boven aan [!DNL Workfront for G Suite] deelvenster.
-
-   ![](assets/more-actions-icon.png)
 
 1. Klikken **[!UICONTROL Logout]** in het menu dat wordt weergegeven.
 

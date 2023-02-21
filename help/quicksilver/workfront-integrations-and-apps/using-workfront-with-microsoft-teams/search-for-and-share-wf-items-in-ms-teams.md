@@ -6,16 +6,16 @@ description: U kunt zoeken naar [!DNL Workfront] objecten in [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Zoeken naar en delen [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]
 
-U kunt zoeken naar [!DNL Workfront] objecten in [!DNL Adobe WorkfrontWorkfront] kanaal in [!DNL Microsoft Teams] en deel deze items met leden van uw teams.
+U kunt zoeken naar [!DNL Workfront] objecten in [!DNL Adobe Workfront] kanaal in [!DNL Microsoft Teams] en deel deze items met leden van uw teams.
 
 * [Voorwaarden voor delen [!DNL Workfront] objecten in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Zoeken naar en delen [!DNL Workfront] objecten in [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ Als u naar een [!DNL Workfront] item van [!DNL Microsoft Teams] en delen met and
    Hiermee wordt het bericht verzonden, inclusief de [!DNL Workfront] item naar uw kanaal.\
    Alle leden van het kanaal kunnen dit bericht zien, met inbegrip van de informatie over [!DNL Workfront] kaart.
 
-1. Klikken **[!UICONTROL View in Workfront]** om het object te bekijken in Workfront.\
-   Alleen gebruikers met een [!DNL Workfront] Een licentie kan een object weergeven in Workfront.
+1. Klikken **[!UICONTROL View in Workfront]** om het item weer te geven in [!DNL Workfront].\
+   Alleen gebruikers met een [!DNL Workfront] licentie kan een item weergeven in [!DNL Workfront].

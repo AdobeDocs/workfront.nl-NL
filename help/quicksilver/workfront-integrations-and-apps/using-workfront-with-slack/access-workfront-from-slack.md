@@ -6,7 +6,7 @@ description: Integreren [!DNL Adobe Workfront] with [!DNL Slack] geeft u toegang
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 0%
@@ -95,8 +95,6 @@ Aanmelden bij [!DNL Workfront] van [!DNL Slack]:
    * `/wf home`
 
       De knopen van vertoningen waarvan u tot lijsten van uw taken, kwesties, en goedkeuringen kunt toegang hebben. Wanneer u op een van de knoppen klikt, worden de eerste 20 items van elke lijst weergegeven in [!DNL Slack].
-
-      ![](assets/slack-home-buttons-350x80.png)
 
       Voor meer informatie over het beheren [!DNL Workfront] tijdelijke items van [!DNL Slack], zie [Uw werk en goedkeuringen beheren vanuit [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
@@ -203,8 +201,6 @@ Voor meer informatie over toegang tot [!DNL Workfront] van een gedeelde koppelin
    of
 
    `/wf settings`
-
-   ![](assets/slack-configuring-settings-350x302.png)
 
    Alle instellingen zijn standaard ingeschakeld.
 

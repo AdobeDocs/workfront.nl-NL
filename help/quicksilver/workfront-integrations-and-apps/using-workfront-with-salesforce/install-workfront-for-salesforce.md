@@ -6,9 +6,9 @@ description: De toepassing installeren voordat deze beschikbaar wordt in het dia
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -79,8 +79,6 @@ U kunt als volgt de app installeren voordat deze beschikbaar is:
 
 1. Controleer de **[!UICONTROL Yes, grant access to these third-party web sites]** doos.
 
-   ![salesforce_Grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    Er wordt een laadscherm weergegeven en de installatie kan even duren.
 
 1. Klikken **[!UICONTROL Done]** als de installatie is voltooid.
@@ -123,11 +121,9 @@ U kunt als volgt de app installeren voordat deze beschikbaar is:
 
    De [!DNL Workfront] app is vermeld onder **[!UICONTROL Installed Packages]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. Ga naar **[!UICONTROL Setup>Security Controls>Remote Site Settings]**.
 1. (Voorwaardelijk) Als u uw [!DNL Workfront] URL vermeld in **[!UICONTROL All Remote Sites]** lijst, klikt u op **[!UICONTROL New Remote Site]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. Geef de **[!UICONTROL Remote Site Name]**.\
    Bijvoorbeeld, *[!DNL Workfront]*.
@@ -167,15 +163,11 @@ U kunt als volgt de app installeren voordat deze beschikbaar is:
 
    De [!DNL Workfront] app is vermeld onder **[!UICONTROL Installed Packages]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. Ga naar **[!UICONTROL Setup].**
 1. In de **[!UICONTROL SETTINGS]** sectie, &#x200B; uitvouwen **[!UICONTROL Security].**
 
 1. Klik op **[!UICONTROL Remote Site Settings]**.
 1. (Voorwaardelijk) Als u uw [!DNL Workfront] URL vermeld in **[!UICONTROL All Remote Sites]** lijst, klikt u op **[!UICONTROL New Remote Site]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. Geef de **[!UICONTROL Remote Site Name]**.
 

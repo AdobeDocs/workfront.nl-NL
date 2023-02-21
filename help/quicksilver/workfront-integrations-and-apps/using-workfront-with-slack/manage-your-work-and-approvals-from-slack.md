@@ -6,9 +6,9 @@ description: U kunt tot uw Lijst van het Werk van het Huis toegang hebben, herzi
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack]moet u
    >* U kunt uw opdracht starten met `/wf` in plaats van `/workfront`.
 
 
-   De knopen waarvan u tot lijsten van uw taken, kwesties, en goedkeuringsvertoning kunt toegang hebben. Wanneer u op een van de knoppen klikt, worden de eerste 20 items van elke lijst weergegeven in [!DNL Slack].\
-   ![](assets/slack-home-buttons-350x80.png)
+   De knopen waarvan u tot lijsten van uw taken, kwesties, en goedkeuringsvertoning kunt toegang hebben. Wanneer u op een van de knoppen klikt, worden de eerste 20 items van elke lijst weergegeven in [!DNL Slack].
 
 1. (Optioneel) Klik op **[!UICONTROL Tasks]** om al uw taken weer te geven.
 
@@ -95,8 +94,7 @@ Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack]moet u
    >* U kunt uw opdracht starten met `/wf` in plaats van `/workfront`.
 
 
-   De eerste 20 taken op uw lijstvertoning.\
-   ![](assets/slack-two-tasks-350x286.png)
+   De eerste 20 taken op uw lijstvertoning.
 
 1. Klikken **[!UICONTROL +`<remaining number>`meer]** om extra taken weer te geven.
 1. Overweeg de volgende informatie over je werk te bekijken:
@@ -141,8 +139,7 @@ Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack]moet u
    >* U kunt uw opdracht starten met `/wf` in plaats van `/workfront`.
 
 
-   De eerste 20 uitgaven in uw lijstvertoning.\
-   ![](assets/slack-two-issues-350x323.png)
+   De eerste 20 uitgaven in uw lijstvertoning.
 
 1. Klikken **[!UICONTROL + remaining `<number>`meer]** om extra objecten weer te geven.
 1. Overweeg de volgende informatie over je werk te bekijken:
@@ -179,12 +176,6 @@ Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack]moet u
    De eerste 20 objecten op je **[!UICONTROL Approvals]** lijstweergave. De extra informatie over de punten toont ook, zoals de naam van de gebruiker die het of de naam van het project verzocht het punt tot behoort.
 
 1. Klikken **[!UICONTROL + remaining `<number>`meer]** om extra objecten weer te geven.
-
-   ![slack_access_approval_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-
-   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. Overweeg goedkeuringen voor de volgende objecten te beheren:
 

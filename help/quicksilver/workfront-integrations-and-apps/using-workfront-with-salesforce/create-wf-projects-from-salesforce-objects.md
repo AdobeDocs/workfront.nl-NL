@@ -6,9 +6,9 @@ description: Na installatie [!DNL Adobe Workfront] voor Salesforce kunt u trigge
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -198,8 +198,6 @@ Projecten weergeven die zijn gemaakt op basis van een [!UICONTROL Opportunity] o
 1. Selecteer **[!UICONTROL Projects]** tab.
 
    Alle projecten die door bepaalde triggers worden gemaakt, worden op dit tabblad weergegeven. Willekeurige gebruiker in [!DNL Salesforce] die ook een [!DNL Workfront] account en wie machtigingen hebben om deze projecten te bekijken in [!DNL Workfront] kan ze ook zien in [!DNL Salesforce] voor de [!UICONTROL Opportunity] of de account die ze heeft gegenereerd.
-
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
 
    U kunt de volgende informatie over de projecten bekijken die door de integratie worden gecreeerd:
 

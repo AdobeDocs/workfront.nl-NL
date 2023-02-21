@@ -6,9 +6,9 @@ description: Nadat u hebt geïnstalleerd en geconfigureerd [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Voordat u taken en uitgaven kunt maken van [!DNL Slack]moet u
    >
    >Opdrachten zijn hoofdlettergevoelig. U kunt uw opdracht starten met `/wf` in plaats van `/workfront`.
    >  
-   >De naam van de Taak moet zijn ingegaan aangezien het in zal verschijnen [!DNL Workfront] interface, zonder haakjes of aanhalingstekens.\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >De naam van de Taak moet zijn ingegaan aangezien het in zal verschijnen [!DNL Workfront] interface, zonder haakjes of aanhalingstekens.
 
 1. (Optioneel) Typ de naam van een project waaraan u de nieuwe taak wilt koppelen en selecteer de naam wanneer deze in de lijst wordt weergegeven.\
    U ontvangt een bevestiging die aangeeft dat de taak aan het geselecteerde project is toegevoegd.
@@ -81,8 +80,7 @@ Voordat u taken en uitgaven kunt maken van [!DNL Slack]moet u
    >[!NOTE]
    >
    >Opdrachten zijn hoofdlettergevoelig. U kunt de opdracht starten met &#39;/wf&#39; in plaats van &#39;/workfront.&#39; \
-   >De naam van de uitgave moet worden ingevoerd zoals deze wordt weergegeven in het dialoogvenster [!DNL Workfront] interface, zonder haakjes of aanhalingstekens.\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >De naam van de uitgave moet worden ingevoerd zoals deze wordt weergegeven in het dialoogvenster [!DNL Workfront] interface, zonder haakjes of aanhalingstekens.
 
 1. (Optioneel) Typ de naam van een project waaraan u het nieuwe probleem wilt koppelen en selecteer het wanneer het in de lijst wordt weergegeven.\
    U ontvangt een bevestiging die aangeeft dat de uitgave aan het geselecteerde project is toegevoegd.

@@ -6,9 +6,9 @@ description: U kunt omzetten [!DNL Outlook] e-mails naar [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!
 1. Klik op de knop **[!DNL Workfront]** in de rechterbovenhoek van het e-mailbericht om het bericht weer te geven [!DNL Workfront] invoegtoepassing.\
    Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het dialoogvenster [!DNL Workfront] pictogram.
 
-1. Klik op de knop **[!UICONTROL Menu]** pictogram om de lijst met beschikbare [!DNL Workfront] opties.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Klik op de knop **[!UICONTROL Menu]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) pictogram om de lijst met beschikbare [!DNL Workfront] opties.\
+
 
 1. Klik op **[!UICONTROL Add to Work]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. Schakel de optie **[!UICONTROL Add to Project]** veld.
 1. (Optioneel) U kunt de volgende gegevens uit de e-mail bijwerken voordat u deze als taak opslaat:
@@ -68,4 +67,3 @@ Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!
 
 1. (Optioneel) Ga terug naar [!DNL Outlook]en selecteer het originele e-mailbericht.\
    Aan de bovenkant van de [!DNL Workfront] in het invoegvenster wordt bevestigd dat het e-mailbericht als taak aan Workfront is toegevoegd. De koppeling bevat de datum waarop deze is geconverteerd.\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)

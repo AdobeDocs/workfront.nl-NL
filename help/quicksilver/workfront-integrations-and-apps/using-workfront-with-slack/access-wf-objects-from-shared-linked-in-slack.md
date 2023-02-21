@@ -6,9 +6,9 @@ description: Wanneer koppelingen naar [!DNL Adobe Workfront] objecten worden met
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ Voordat je je favorieten en recente objecten kunt openen vanuit [!DNL Slack]moet
    >[!NOTE]
    >
    >De gebruiker die de koppeling deelt, moet ten minste [!UICONTROL View] toestemmingen aan het project zodat u extra informatie over het ziet.
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. (Optioneel) Klik op de naam van het project om het te openen in [!DNL Workfront] in een nieuw browsertabblad.
 1. Overweeg de volgende aanvullende informatie over het project te bekijken:

@@ -6,9 +6,9 @@ description: Nadat de eigenaar van uw team Adobe Workfront for Microsoft Teams h
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ Uw [!DNL Microsoft Teams] teameigenaar moet installeren [!DNL Workfront] for [!D
 
 ## Verzenden [!DNL Workfront] verzoeken van [!DNL Microsoft Teams]
 
-1. Klik op de knop **[!UICONTROL More added apps]** op de linkernavigatiebalk in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klik op de knop **[!UICONTROL More added apps]** (drie punten) op de linkernavigatiebalk in [!DNL Microsoft Teams].
 
 1. Klikken **[!DNL Workfront]** in de lijst die wordt weergegeven.
 1. Klik op de knop **[!UICONTROL Requests]** tab.
@@ -89,14 +87,10 @@ Uw [!DNL Microsoft Teams] teameigenaar moet installeren [!DNL Workfront] for [!D
 
 ## Weergave [!DNL Workfront] verzoeken die u hebt ingediend in [!DNL Microsoft Teams]
 
-1. Klik op de knop **[!UICONTROL More added apps]** op de linkernavigatiebalk in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klik op de knop **[!UICONTROL More added apps]** (drie punten) op de linkernavigatiebalk in [!DNL Microsoft Teams].
 
 1. Klikken **[!DNL Workfront]** in de lijst die wordt weergegeven.
 1. Klik op de knop **[!UICONTROL Requests]** tab.
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    Verzoeken die u hebt ingediend, worden weergegeven in het dialoogvenster [!UICONTROL My submitted requests] gebied van de [!UICONTROL Requests] tab. U kunt niet de informatie vormen die in dit lusje over de verzoeken wordt getoond u indiende.
 

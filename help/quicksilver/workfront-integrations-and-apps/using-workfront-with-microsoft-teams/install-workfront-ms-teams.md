@@ -6,9 +6,9 @@ description: De [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandeling
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,6 @@ Als teameigenaar in [!DNL Microsoft Teams], kunt u de [!DNL Workfront for Micros
 1. Selecteer het team voor wie u het [!DNL Workfront for Microsoft Teams] app.
 1. Klikken **[!UICONTROL Store]** op de zijnavigatiebalk.
 
-   ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
-
 1. In de **[!UICONTROL Search all]** vak, tekst *[!DNL Workfront]*.
 
 1. Klik op de knop **[!DNL Workfront]** en volg de instructies in de wizard.
@@ -69,9 +67,7 @@ Als teameigenaar in [!DNL Microsoft Teams], kunt u de [!DNL Workfront for Micros
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. Selecteren **[!UICONTROL General]** als u de app in dat kanaal wilt gebruiken voor het geselecteerde team, klikt u op **[!UICONTROL Set up]**.
-
-   ![teams_select_which_channel_to_use_the_app_install.PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
+1. Selecteer voor het kanaal de optie **[!UICONTROL General]** als u de app in dat kanaal wilt gebruiken voor het geselecteerde team, klikt u op **[!UICONTROL Set up]** voor de gewenste functies.
 
 1. Wanneer de installatie is voltooid, verschijnt er een melding dat de installatie is gelukt in het dialoogvenster [!UICONTROL General] kanaal van het team u selecteerde. Alle leden van het team kunnen deze melding zien.
 1. (Optioneel) Zet uw [!DNL Workfront] app voor eenvoudigere toegang:
@@ -79,8 +75,6 @@ Als teameigenaar in [!DNL Microsoft Teams], kunt u de [!DNL Workfront for Micros
    1. Klik op de knop **[!UICONTROL More]** pictogram onder het berichtveld in het dialoogvenster [!UICONTROL General] kanaal.
 
    1. Muis over de [!DNL Workfront] in de lijst en klik vervolgens op de knop **[!UICONTROL More]** rechts van het pictogram.
-
-      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
    1. Klik op **[!UICONTROL Pin]**.
 
@@ -104,18 +98,14 @@ Om te installeren [!DNL Workfront for Microsoft Teams] uit een privébestand:
 1. Aanmelden bij [!DNL Microsoft Teams] als [!DNL Microsoft] teameigenaar.
 1. Klik op de knop **[!UICONTROL More]** pictogram voor het team waarvoor u wilt installeren [!DNL Workfront for Microsoft Teams].
 
-   ![ms_teams_more_icon_for_team.png](assets/ms-teams-more-icon-for-team-350x177.png)
-
 1. Klik op **[!UICONTROL Manage Team]**.
 1. Selecteer **[!UICONTROL Apps]** tab, en klik vervolgens op **[!UICONTROL Upload a custom app]** in de rechterbenedenhoek van het scherm.
 
 1. Blader naar het privébestand dat u op uw computer hebt opgeslagen en voer de installatiestappen uit [!DNL Workfront for Microsoft Teams].
 1. Wanneer de installatie is voltooid, verschijnt er een melding dat de installatie is gelukt in het kanaal Algemeen van het team dat u hebt geselecteerd. Alle leden van het team kunnen deze melding zien.
-1. (Optioneel) Klik op de knop **[!UICONTROL More]** onder het pictogram **[!UICONTROL Type your questions here]** veld.
+1. (Optioneel) Klik op de knop **[!UICONTROL More]** (drie punten) onder het pictogram **[!UICONTROL Type your questions here]** veld.
 
 1. (Optioneel) Plaats de muisaanwijzer op de [!DNL Workfront] in de lijst en klik vervolgens op de knop **[!UICONTROL More]** rechts van het pictogram.
-
-   ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Pin]**.
 
@@ -138,15 +128,11 @@ Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams]:
 
    De [!DNL Workfront] beide chatkanalen zijn toegevoegd aan uw [!DNL Microsoft Teams] chatkanalen.
 
-   ![teams_workfront_bot_channel_highlight.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
-
 1. Ga naar de [!DNL Workfront] chatkanaal [!DNL Microsoft Teams] en type *[!UICONTROL log in]* in de **[!UICONTROL Type your questions here]** veld.
 
    of
 
    Klik op **[!UICONTROL Log in]**.
-
-   ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
    Er wordt een nieuw browsertabblad geopend.
 

@@ -6,9 +6,9 @@ description: Ontvangen [!DNL Adobe Workfront] meldingen in [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,6 @@ Voordat je [!DNL Workfront] meldingen in [!DNL Slack]moet u
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. Standaard zijn alle meldingen ingeschakeld.\
    Schakel een van de volgende meldingen uit:
 
@@ -107,25 +105,15 @@ Om uw [!DNL Workfront] meldingen voor [!DNL Slack]:
 
    * Klikken **[!UICONTROL Work on it]** aanvaarden om aan een taak te werken.
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Reply in [!DNL Workfront]]** Als u wilt reageren op een opmerking, typt u uw antwoord en klikt u op **[!UICONTROL Reply]**.
 
-   * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Reply in [!DNL Workfront]]** Als u wilt reageren op een opmerking, typt u uw antwoord en klikt u op **[!UICONTROL Reply]**.\
+   * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Approve]** of **[!UICONTROL Reject]** om een taak, kwestie, of project goed te keuren of te verwerpen die uw goedkeuring in afwachting zijn.
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, of **[!UICONTROL Reject]**, een document goed te keuren, met wijzigingen goed te keuren of af te wijzen.
 
-   * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Approve]** of **[!UICONTROL Reject]** om een taak, uitgave of project goed te keuren of af te wijzen die in afwachting zijn van uw goedkeuring.\
-
-      ![slack_accept_task_notification.png](assets/slack-approve-task-notification-350x105.png)
-
-   * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, of **[!UICONTROL Reject]**, om een document goed te keuren, goed te keuren met wijzigingen of af te wijzen.\
-
-      ![slack_accept_a_document.png](assets/slack-approve-a-document-350x362.png)\
       U kunt de muis ook boven de miniatuur van het document houden en op het vergrootglaspictogram klikken om een grotere voorvertoning van het document weer te geven voordat u het goedkeurt.\
       Alleen de goedgekeurde Slack [bestandstypen](https://api.slack.com/types/file) kan worden voorvertoond.
 
    * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Grant]** of **[!UICONTROL Ignore]** om het verzoek om meer toegang van een andere gebruiker te verlenen of te negeren.\
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       Je ontvangt een bevestiging dat je actie is uitgevoerd in [!DNL Workfront], voor elk besluit dat u neemt in uw berichten.

@@ -7,7 +7,7 @@ description: U kunt een externe e-mail converteren (niet gegenereerd door [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -102,8 +102,6 @@ Voordat u een uitgave kunt maken van [!DNL G Suite]moet u
    Onder aan het dialoogvenster **[!UICONTROL Details]** kunt u ook op **[!UICONTROL View in Workfront]** om naar het nieuwe probleem in Workfront te gaan.
 
    Wanneer u uw browser vernieuwt, verschijnt er een bericht met een koppeling onder aan het dialoogvenster [!UICONTROL Workfront for G Suite] bevestigt dat u de e-mail hebt geconverteerd naar een uitgave:
-
-   ![](assets/email-was-converted.png)
 
    U kunt op de koppeling klikken om naar de weergave Details te gaan, in het dialoogvenster [!DNL Workfront for G Suite] voor de uitgave die u hebt gemaakt.
 

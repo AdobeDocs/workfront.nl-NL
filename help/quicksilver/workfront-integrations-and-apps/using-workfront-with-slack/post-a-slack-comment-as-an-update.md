@@ -6,9 +6,9 @@ description: U kunt een Slack-opmerking toevoegen als een update voor een bepaal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -45,19 +45,13 @@ Voordat u een [!DNL Slack] opmerking toevoegen als update
 
 ## Een bericht plaatsen [!DNL Slack] opmerking als een update in [!DNL Workfront]
 
-1. Houd de muisaanwijzer boven een opmerking die u in een [!DNL Slack] kanaal, dan klik **[!UICONTROL More actions]** pictogram.
-
-   ![](assets/slack-more-icon.png)
+1. Houd de muisaanwijzer boven een opmerking die u in een [!DNL Slack] kanaal, dan klik **[!UICONTROL More actions]** (driepunts) pictogram.
 
 1. Klik op **[!UICONTROL Post an update]...`<the name of your Workfront app>`**.
 
    >[!NOTE]
    >
    >Mogelijk moet u op **[!UICONTROL More message shortcuts]** en schuiven omlaag naar de locatie van de **[!UICONTROL Post an update]** optie.
-   >
-   >
-   >![](assets/slack-more-message-shortcuts.png)
-
 1. In de **[!UICONTROL Project, task or issue]** typt u de naam van een project, taak of probleem waaraan u de update wilt toevoegen. Klik vervolgens op de naam van het project, de taak of de uitgave wanneer deze in de lijst wordt weergegeven. U moet toegang hebben om een object te kunnen bekijken voordat het in de lijst wordt weergegeven.
 1. (Optioneel) In het dialoogvenster **[!UICONTROL Include another user]** typt u de naam van een gebruiker die u in de update wilt opnemen. Klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 1. Klik op **[!UICONTROL Submit]**.
@@ -66,6 +60,6 @@ Voordat u een [!DNL Slack] opmerking toevoegen als update
 
 1. (Optioneel) Klik op de naam van het project, de taak of het probleem waarin u de update hebt geplaatst om het te openen in [!DNL Workfront].
 
-   Er is een indicatie in [!DNL Workfront] dat de update afkomstig is van [!DNL Slack].
+   Wanneer een opmerking afkomstig is van [!DNL Slack]wordt het bericht &quot;[!UICONTROL Posted from [!DNL Slack]]&quot; in [!DNL Workfront].
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

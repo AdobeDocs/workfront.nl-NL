@@ -6,9 +6,9 @@ description: U kunt een [!DNL Adobe Workfront] aanvraag vanuit een e-mailbericht
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ Als u een [!DNL Workfront] Verzoek van [!DNL Outlook]:
 1. Klik op de knop **[!DNL Workfront]** in de rechterbovenhoek van het e-mailbericht om de invoegtoepassing Workfront weer te geven.\
    Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het dialoogvenster [!DNL Workfront] pictogram.
 
-1. Klik op de knop **[!UICONTROL Menu]** pictogram om de lijst met beschikbare [!DNL Workfront] opties.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Klik op de knop **[!UICONTROL Menu]** pictogram ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) om de lijst met beschikbare [!DNL Workfront] opties.
 
 1. Klik op **[!UICONTROL Submit Request]**.
 1. In de **[!UICONTROL Select a Request Type]** Selecteer de wachtrij waarin u de aanvraag wilt verzenden.
-
-   ![o365_addin_submitRequest.png](assets/o365-addin-submitrequest.png)
 
 1. Geef de volgende informatie op:\
    Afhankelijk van hoe de aanvraagwachtrij is ingesteld, kunnen de beschikbare velden variëren. Voor een volledige lijst en beschrijving van mogelijke velden raadpleegt u [Maken en verzenden [!DNL Adobe Workfront] verzoeken](../../manage-work/requests/create-requests/create-submit-requests.md) artikel.
@@ -79,4 +75,3 @@ Als u een [!DNL Workfront] Verzoek van [!DNL Outlook]:
 
 1. (Optioneel) Ga terug naar [!DNL Outlook]en selecteer het originele e-mailbericht.\
    Aan de bovenkant van de [!DNL Workfront] in het invoegvenster wordt bevestigd dat het e-mailbericht als een aanvraag aan Workfront is toegevoegd. De koppeling bevat de datum waarop deze is geconverteerd.\
-   ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

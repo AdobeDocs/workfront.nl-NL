@@ -7,7 +7,7 @@ description: U hebt toegang tot uw [!DNL Adobe Workfront] De inhoud van het huis
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -56,11 +56,7 @@ Voordat u toegang kunt krijgen tot [!UICONTROL Home] inhoud van [!DNL G Suite]mo
 1. Als de [!UICONTROL Workfront for G Suite] wordt niet weergegeven, klikt u op de knop [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de [!DNL G Suite] de zijbalk met invoegtoepassingen bevindt zich uiterst rechts op de pagina.
 1. Als u een pijl naar links ziet boven aan [!DNL Workfront] for [!DNL G Suite]klikt u op de pijl om naar de knop [!UICONTROL Home] gebied.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. In de **[!UICONTROL Sort by]** gebied, klikt u op de pijl uitvouwen ![](assets/dropdown-arrow.png)klikt u vervolgens op een optie om op te geven hoe u de gewenste onderdelen wilt groeperen.
-
-   ![](assets/sort-by-area.png)
 
    Wanneer u sorteert op **[!UICONTROL Commit date]** of **[!UICONTROL Planned completion]** datum, de oudste het werkpunten bij de bovenkant zijn.
 

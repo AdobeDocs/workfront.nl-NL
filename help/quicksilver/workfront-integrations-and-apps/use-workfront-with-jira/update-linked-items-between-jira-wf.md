@@ -6,9 +6,9 @@ description: Wanneer u een koppeling [!DNL Jira] problemen [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ In de volgende lijst wordt aangegeven welke [!DNL Workfront] velden synchroniser
   </tr> 
   <tr> 
    <td>Aangepaste Forms- en aangepaste velden</td> 
-   <td> <p> Weergeven in het dialoogvenster [!DNL Workfront] in het rechterdeelvenster van [!DNL Jira] probleem. <br>Alleen de aangepaste velden die een werkelijke waarde hebben, worden in het deelvenster weergegeven.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>Opmerking: De secties van de Vorm van de douane worden getoond met het toegangsniveau van [!DNL Workfront] beheerder. </p> </td> 
+   <td> <p> Weergeven in het dialoogvenster [!DNL Workfront] in het rechterdeelvenster van [!DNL Jira] probleem. <br>Alleen de aangepaste velden die een werkelijke waarde hebben, worden in het deelvenster weergegeven.<br></p> <p>Opmerking: De secties van de Vorm van de douane worden getoond met het toegangsniveau van [!DNL Workfront] beheerder. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Priority]</td> 
@@ -201,8 +201,7 @@ Aan logboektijd voor een punt binnen [!DNL Jira] en deze zowel in [!DNL Jira] en
 
 1. Aanmelden [!DNL Jira].
 1. Ga naar de [!DNL Jira] in verband met de [!DNL Workfront] item.
-1. Breid uit **[!UICONTROL More]** menu en klik op **[!UICONTROL Log work]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. Breid uit **[!UICONTROL More]** menu en klik op **[!UICONTROL Log work]**.
 
 1. In de **[!UICONTROL Time Spent]** , geeft u aan hoeveel tijd u aan deze kwestie hebt besteed. U moet de tijd opgeven met de volgende tijdsperiodes:
 
@@ -225,8 +224,6 @@ U kunt de tijd alleen aan de gekoppelde [!DNL Workfront] item van [!DNL Jira] ui
 
 1. Klik op de knop **[!UICONTROL Log Time]** pictogram.
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. Geef de hoeveelheid op van **[!UICONTROL Hours]** en **[!UICONTROL Minutes]** u wilt u voor de kwestie registreren.
 
 1. Klik op **[!UICONTROL Log Time]**.
@@ -246,7 +243,7 @@ Opmerking van [!DNL Jira] een [!DNL Workfront] item:
 
    De details van de [!DNL Workfront] item moet worden weergegeven in het [!DNL Workfront] rechter paneel van de kwestie.
 
-1. Klik op de knop **[!UICONTROL Comments]** in het deelvenster [!DNL Workfront] of in het deelvenster **[!UICONTROL Comments]** tab. ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. Klik op de knop **[!UICONTROL Comments]** in het deelvenster [!DNL Workfront] of op het **[!UICONTROL Comments]** tab.
 
 1. Typ een opmerking en klik vervolgens op **[!UICONTROL Send]**.
 

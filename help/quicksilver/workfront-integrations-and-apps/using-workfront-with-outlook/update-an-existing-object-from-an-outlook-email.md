@@ -6,9 +6,9 @@ description: U kunt een bestaand project, een taak, of een kwestie met informati
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!
 1. Klik op de knop **[!DNL Workfront]** in de rechterbovenhoek van het e-mailbericht om de invoegtoepassing Workfront weer te geven.\
    Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het dialoogvenster [!DNL Workfront] pictogram.
 
-1. Klik op de knop **[!UICONTROL Menu]** pictogram om de lijst met beschikbare [!DNL Workfront] opties.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Klik op de knop **[!UICONTROL Menu]** pictogram ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) om de lijst met beschikbare [!DNL Workfront] opties.\
+
 
 1. Klikken **[!UICONTROL Update]in Workfront**.\
-   ![outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)\
    U kunt de volgende gegevens uit de e-mail bijwerken voordat u deze als taak opslaat:
 
    * **[!UICONTROL Type]**: Selecteer het type object dat u wilt bijwerken. U kunt **[!UICONTROL Project]**, **[!UICONTROL Task]**, of **[!UICONTROL Issue]**. Het object dat u selecteert, bepaalt de resultaten die worden weergegeven in het dialoogvenster **[!UICONTROL Name]** veld hieronder. Als u niet zeker bent van het type object, selecteert u **[!UICONTROL All]** om projecten, taken, en kwesties gelijktijdig te zoeken.
@@ -67,7 +66,6 @@ Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!
 1. (Optioneel) Klik op **[!UICONTROL Include Others]** typt u eerst de naam van de gebruikers die u in de update wilt opnemen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.\
    Herhaal dit proces om extra gebruikers op te nemen, en klik dan **[!UICONTROL Done]**.\
    Standaard ontvangt de gebruiker waarop u antwoordt een melding, ongeacht of u deze opneemt.\
-   ![o365_addin_include_other.png](assets/o365-addin-includeothers.png)
 
 1. (Optioneel) Klik op de knop **[!UICONTROL Lock]** pictogram om deze update te beperken tot gebruikers binnen uw bedrijf. Wanneer de update is vergrendeld, kunnen gebruikers buiten uw bedrijf de update niet zien.
 

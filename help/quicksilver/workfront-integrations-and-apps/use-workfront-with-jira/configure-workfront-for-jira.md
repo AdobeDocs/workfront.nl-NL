@@ -6,9 +6,9 @@ description: U kunt [!DNL Adobe Workfront for Jira] om uw [!DNL Jira] en [!DNL W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2239'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ triggers configureren voor het automatisch maken van items in [!DNL Jira]:
 
    De **[!UICONTROL Triggers]** is standaard geselecteerd.
 
-   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. Klikken **[!UICONTROL Add trigger]** om een nieuwe trigger toe te voegen.
 1. In de **[!UICONTROL Workfront team/user/role]** veld, geeft u de naam van een [!DNL Workfront] team, gebruiker of taakrol, en klik vervolgens om deze te selecteren wanneer deze in de lijst wordt weergegeven.
 
@@ -180,8 +178,6 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
 1. Klik op **[!UICONTROL Configure]**.
 1. Aanmelden bij [!DNL Workfront] als Workfront-beheerder.
 1. Klik op de knop **[!UICONTROL Setup]** tab.
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. In de **[!UICONTROL Synchronize from Jira to Workfront]** selecteert u de velden waarin u wilt bijwerken [!DNL Jira] wanneer deze in Workfront worden bijgewerkt.
 
@@ -305,7 +301,7 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
            <li>Wanneer u <strong>[!UICONTROL Always]</strong> u de integratie inschakelt om telkens een nieuwe Workfront-gebruiker te maken [!DNL Jira] gebruiker zonder [!DNL Workfront] account voert de volgende handelingen uit op een gekoppelde [!DNL Jira] probleem:
             <ul>
              <li>Is toegewezen aan een [!DNL Jira] kwestie</li>
-             <li><p>Tijd van aanmelding bij een [!DNL Jira] kwestie</p><p>Deze nieuwe gebruiker neemt geen [!DNL Workfront] licentie. De standaardinstelling is Altijd. De gebruiker heeft deze manier op [!DNL Workfront] heeft "[!UICONTROL Jira]" toegevoegd aan hun naam.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>Tijd van aanmelding bij een [!DNL Jira] kwestie</p><p>Deze nieuwe gebruiker neemt geen [!DNL Workfront] licentie. De standaardinstelling is Altijd. De gebruiker heeft deze manier op [!DNL Workfront] heeft "[!UICONTROL Jira]" toegevoegd aan hun naam.</p></li>
             </ul></li>
            <li>Wanneer u <strong>[!UICONTROL Never]</strong>De volgende dingen gebeuren:
             <ul>

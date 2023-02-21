@@ -6,9 +6,9 @@ description: U kunt zoeken naar [!DNL Adobe Workfront] objecten van [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,7 @@ Voordat u kunt zoeken naar [!DNL Workfront] objecten van [!DNL Slack]moet u
 
    >[!NOTE]
    >
-   >Opdrachten zijn hoofdlettergevoelig. Het trefwoord is niet hoofdlettergevoelig en moet zonder haakjes of aanhalingstekens worden ingevoerd.\
-   >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
+   >Opdrachten zijn hoofdlettergevoelig. Het trefwoord is niet hoofdlettergevoelig en moet zonder haakjes of aanhalingstekens worden ingevoerd.
 
 1. Selecteer in het veld dat wordt weergegeven een van de volgende objecttypen:
 

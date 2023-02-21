@@ -6,9 +6,9 @@ description: U kunt e-mails converteren naar [!DNL Adobe Workfront] taken of pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!
 
    Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het dialoogvenster [!DNL Workfront] pictogram.
 
-1. Klik op de knop **[!UICONTROL Menu]** pictogram om de lijst met beschikbare [!DNL Workfront] opties.
+1. Klik op de knop **[!UICONTROL Menu]** pictogram ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) om de lijst met beschikbare [!DNL Workfront] opties.
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. Klik op **[!UICONTROL Add to Work]**.
-
-   ![outlook__add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. Selecteer **[!UICONTROL Add to Project]** veld.
 1. Typ de naam van een project in het dialoogvenster **[!UICONTROL Project]** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
@@ -95,4 +93,3 @@ Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!
 
    Aan de bovenkant van de [!DNL Workfront] invoegvenster, ziet u de bevestiging met een koppeling waaraan het e-mailbericht is toegevoegd [!DNL Workfront] als een taak of een probleem. De koppeling bevat de datum waarop deze is geconverteerd.
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

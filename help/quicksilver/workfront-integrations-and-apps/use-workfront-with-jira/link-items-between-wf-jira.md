@@ -6,9 +6,9 @@ description: U kunt een koppeling [!DNL Jira] problemen [!DNL Adobe Workfront] t
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Als u een [!DNL Workfront] taak aan [!DNL Jira] probleem:
 
    In de **[!UICONTROL Updates]** op het gebied van de nieuwe taak wordt aangegeven dat er ook een nieuwe uitgave is gemaakt in [!DNL Jira].
 
-   ![WF_confirm_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. (Optioneel) Klik op de koppeling naar de Jira-kwestie om deze in Jira te openen.
 
    of
@@ -142,15 +140,14 @@ Handmatig koppelen [!DNL Jira] problemen [!DNL Workfront] objecten:
 
    of
 
-   Van de [!UICONTROL Details] gebied ![](assets/details-icon-in-left-panel.png), kopieert u de **[!UICONTROL Reference Number]** van het object in Workfront.
+   Van de [!UICONTROL Details] gebied kopiëren **[!UICONTROL Reference Number]** van het object in Workfront.
 
    >[!NOTE]
    >
    >U moet beschikken over een [!DNL Workfront] licentie voor aanmelden bij [!DNL Workfront]. Anders [!DNL Workfront] Deze gegevens moeten u worden verstrekt.
 
 1. In [!DNL Jira]navigeer naar een probleem dat u handmatig wilt koppelen aan de [!DNL Workfront] item.
-1. In de [!DNL Workfront] in het rechterdeelvenster, plakt u de **URL** of de **[!UICONTROL Reference Number]** van de [!DNL Workfront] item dat u eraan wilt koppelen.\
-   ![manueel_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. In de [!DNL Workfront] in het rechterdeelvenster, plakt u de **URL** of de **[!UICONTROL Reference Number]** van de [!DNL Workfront] item dat u eraan wilt koppelen.
 
 1. Klik op **[!UICONTROL Link]**.
 
@@ -168,8 +165,6 @@ Handmatig koppelen [!DNL Jira] problemen [!DNL Workfront] objecten:
 
 Zie voor meer informatie over het inschakelen van extra velden voor weergave in het rechterdeelvenster [Veldsynchronisatie configureren tussen [!DNL Jira] en [!DNL Workfront] Items](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) sectie in [Configureren [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). Een opmerking van de [!DNL Workfront] de beheerder die aan de integratie is gekoppeld, wordt gepost in het dialoogvenster **[!DNL Workfront]** tabblad van het dialoogvenster [!DNL Jira] een nieuwe [!DNL Jira] item is gemaakt. De opmerking bevat een koppeling naar de [!DNL Jira] probleem.
 
-![Jira_confirm_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## Items ontkoppelen tussen [!DNL Jira] en [!DNL Workfront]
 
 Gekoppelde items tussen [!DNL Jira] en [!DNL Workfront] kan handmatig worden ontkoppeld van [!DNL Jira].\
@@ -185,6 +180,6 @@ Alleen een [!DNL Workfront] de beheerder kan punten ontkoppelen die automatisch 
 Een koppeling verbreken [!DNL Jira] afgifte door een [!DNL Workfront] item:
 
 1. In [!DNL Jira]navigeer naar een probleem dat is gekoppeld aan een [!DNL Workfront] taak of probleem.
-1. Ga naar de [!DNL Workfront] en klikt u op de knop **[!UICONTROL Unlink]** pictogram, klik vervolgens op **[!UICONTROL Unlink]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. Ga naar de [!DNL Workfront] en klikt u op de knop **[!UICONTROL Unlink]** pictogram, klik vervolgens op **[!UICONTROL Unlink]**.
+
    De eerder gekoppelde [!DNL Jira] en [!DNL Workfront] objecten zijn nu ontkoppeld. Alle velden, opmerkingen of documenten die in de toekomst afzonderlijk op de velden kunnen worden bijgewerkt, worden niet bijgewerkt op de vorige versie in de andere toepassing.

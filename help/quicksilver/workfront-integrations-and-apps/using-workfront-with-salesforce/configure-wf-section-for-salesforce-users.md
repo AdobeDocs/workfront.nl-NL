@@ -6,9 +6,9 @@ description: Na de installatie [!DNL Adobe Workfront] voor Salesforce als [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,6 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
    Klikken **[!UICONTROL New]** om een nieuwe lay-out toe te voegen.
 
 1. (Optioneel) Sleep de **[!UICONTROL Section]** naar de lay-out en zet deze op de gewenste positie neer.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. (Optioneel) Geef een naam op voor de nieuwe sectie.
 
@@ -82,15 +81,13 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
 1. Klik op **[!UICONTROL OK]**.
 1. In de **[!UICONTROL Layout]** gebied, klikken **[!UICONTROL Visualforce Pages].**
 
-1. Sleep de **[!UICONTROL WorfrontOpportunities]** aan de nieuwe sectie in de **[!UICONTROL Opportunities]** Lay-out.
+1. Sleep de **[!UICONTROL WorkfrontOpportunities]** aan de nieuwe sectie in de **[!UICONTROL Opportunities]** Lay-out.
 
    of
 
    Sleep de **[!UICONTROL WorkfrontAccounts]** aan de nieuwe sectie in de  **[!UICONTROL Account]** Lay-out.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
-1. Klik op de knop **[!UICONTROL Properties]** in de rechterbovenhoek van de nieuw toegevoegde component.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. Klik op de knop **[!UICONTROL Properties]** in de rechterbovenhoek van de zojuist toegevoegde component.\
 
 1. Voor een optimale weergave geeft u de volgende eigenschappen op voor de [!DNL Workfront Visualforce] pagina:
 
@@ -104,8 +101,6 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
    Alle gebruikers aan wie deze lay-out is toegewezen, kunnen nu de [!DNL Workfront] deel over hun [!UICONTROL Opportunities] of [!UICONTROL Accounts] objecten.
 
    Gebruikers zien een [!DNL Workfront] aanmeldingsscherm op het [!DNL Workfront] sectie. Als ze geen [!DNL Workfront] -account, kunnen ze de sectie samenvouwen, maar niet verwijderen uit hun layout.
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## Configureer de [!DNL Workfront] in de [!DNL Salesforce Lightning Experience] kader
 
@@ -142,14 +137,11 @@ U kunt de [!DNL Workfront] aan de lay-out van een [!DNL Salesforce] [!UICONTROL 
 1. Ga naar een **[!UICONTROL Opportunity]** of **[!UICONTROL Account]**.
 
 1. Klik op de knop **[!UICONTROL Setup]** pictogram, klik vervolgens op **[!UICONTROL Edit Page]**.\
-   ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. Vouw de sectie **[!UICONTROL Custom-Managed]** uit.
 1. Sleep de **[!DNL Workfront]** component op uw [!UICONTROL Opportunity] of Accountpagina.
 
    We raden u aan de volledige breedte van de pagina te gebruiken voor de [!DNL Workfront] in plaats van een van de kolommen van de layout.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -159,4 +151,3 @@ U kunt de [!DNL Workfront] aan de lay-out van een [!DNL Salesforce] [!UICONTROL 
    >
    >Gebruikers zien een [!DNL Workfront] aanmeldingsscherm op het [!DNL Workfront] sectie. Als ze geen [!DNL Workfront] -account, kunnen ze de sectie samenvouwen, maar niet verwijderen uit hun layout. Gebruikers kunnen zich aanmelden met de verificatiemethode die u hebt ingeschakeld: Verbeterde verificatie of de URL van uw SAML (Security Assertion Markup Language).
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)
