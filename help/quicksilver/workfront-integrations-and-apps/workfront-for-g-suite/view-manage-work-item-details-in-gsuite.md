@@ -7,7 +7,7 @@ description: U kunt de details van een tijdelijk item weergeven en beheren zonde
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -57,7 +57,6 @@ Voordat u de details van het werkitem kunt weergeven en beheren in [!DNL G Suite
 
    Wanneer u een taak of kwestie selecteert, **[!UICONTROL Details]** is geopend. Het gebied boven de **[!UICONTROL Details]** wordt de naam van het bovenliggende object, de naam van de taak of uitgave weergegeven, en [!UICONTROL Due date] (als het een taak is) of [!UICONTROL Priority date] (als het een probleem is).
 
-   ![](assets/details-tab.png)
 
    U kunt verschillende taken op dit tabblad uitvoeren zonder dat u [!DNL G Suite], met inbegrip van:
 
