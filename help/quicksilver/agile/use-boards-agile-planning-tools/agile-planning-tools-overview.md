@@ -7,7 +7,7 @@ description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met e
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 # Overzicht van de gereedschappen voor mobiele planning
 
-{{highlighted-preview}}
-
-Als u een kaart maakt met behulp van ad-hockaarten en aangesloten kaarten, kunt u extra flexibele planningsgereedschappen gebruiken, zoals de beperkingen van de kolom-WIP, kaarten groeperen in swimlanes, een inlaatkolom die kan worden gebruikt voor een back-up, en <span class="preview">verzameling van borden</span>.
+Aangezien u een kaart gebruikend ad hoc en aangesloten kaarten creeert, zou u uit extra behendige planningshulpmiddelen, met inbegrip van de grenzen van kolomWIP, het groeperen van kaarten in swimlanes, een inputkolom kunnen worden gebruikt voor een achterstand, en inzamelingen van planken kunnen willen voordeel halen.
 
 U kunt om het even welk of al deze hulpmiddelen op een manier gebruiken die voor u en uw team werkt, zonder zich aan een specifieke agile methodologie zoals Kanban of Scrum te verbinden.
 

@@ -6,7 +6,7 @@ title: Verzamelingen beheren
 description: Een inzameling is een configureerbare groep raden van bestuur voor samenwerking aan het werk.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Verzamelingen beheren
-
-{{highlighted-preview-article-level}}
 
 Een inzameling is een configureerbare groep raden van bestuur voor samenwerking aan het werk. Verzamelingen kunnen verschillende typen tekengebieden bevatten die zijn gemaakt op basis van sjablonen.
 

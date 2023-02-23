@@ -6,7 +6,7 @@ description: De [!UICONTROL boards] In het dashboard ziet u de lijst met borden 
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # Het dashboard voor tekengebieden gebruiken
 
-{{highlighted-preview}}
-
-Op het dashboard Borden wordt de lijst met borden weergegeven <span class="preview">en verzamelingen</span> waartoe u toegang hebt, inclusief de borden die u hebt gemaakt en de borden waaraan u bent toegevoegd. <span class="preview">Individuele borden u toegang tot hebt die geen deel van een inzameling uitmaken worden eerst getoond.</span>
+Op het dashboard Borden ziet u de lijst met borden en verzamelingen waartoe u toegang hebt, inclusief de borden die u hebt gemaakt en de borden die u hebt toegevoegd. Individuele borden u toegang tot hebt die geen deel van een inzameling uitmaken worden eerst getoond.
 
 >[!NOTE]
 >
 >Verzamelingen zijn alleen beschikbaar via de optie Aanmelden voor vroege functies [!DNL Workfront] [!UICONTROL Boards].
 
-Op het dashboard kunt u het volgende doen voor borden en <span class="preview">verzamelingen</span>:
+Op het dashboard kunt u het volgende doen voor borden en inzamelingen:
 
 * Een bord archiveren (verzamelingen kunnen niet worden gearchiveerd)
 * De lijst met tekengebieden filteren
@@ -31,7 +29,7 @@ Op het dashboard kunt u het volgende doen voor borden en <span class="preview">v
 * Een board of collectie zoeken
 * Een board of een verzameling verwijderen
 
-Ga voor meer informatie over het maken van een nieuwe board of het bewerken van een bestaande board naar [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Voor informatie over het creëren van een nieuwe inzameling, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Ga voor meer informatie over het maken van een nieuwe board of het bewerken van een bestaande board naar [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md). Voor informatie over het creëren van een nieuwe inzameling, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Toegangsvereisten
 
@@ -72,9 +70,9 @@ U kunt het dashboard van de boards filtreren om actieve raad, gearchiveerde raad
 
    Wanneer een andere sortering dan de standaardsortering wordt toegepast op het dashboard, wordt een indicator weergegeven op het sorteerpictogram ![Sorteren toegepast](assets/sort-applied-boards.png).
 
-## Een board zoeken <span class="preview">of een verzameling</span>
+## Een board of verzameling zoeken
 
-<span class="preview">U kunt in het gebied van Borden naar een specifieke raad, of onderzoek in het gebied van Inzamelingen naar een specifieke inzameling zoeken.</span>
+U kunt in het gebied van Borden naar een specifieke raad, of onderzoek in het gebied van Inzamelingen naar een specifieke inzameling zoeken.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
 1. Klikken [!UICONTROL **Zoeken**] en typ een zoekterm. Druk vervolgens op Enter.
@@ -102,11 +100,11 @@ Als u een board archiveert, wordt deze naar het archief verzonden en kunt u deze
 
 1. Als u een gearchiveerd bord wilt herstellen, klikt u op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png) aan boord en selecteer **[!UICONTROL Restore]**.
 
-## Een board verwijderen <span class="preview">of een verzameling</span>
+## Een board of een verzameling verwijderen
 
 Wanneer u een board verwijdert, wordt deze permanent verwijderd uit [!DNL Workfront] en kan niet worden hersteld. Alle kaarten aan boord worden ook samen met het bord verwijderd.
 
-<span class="preview">Als u een verzameling verwijdert, worden alle platen in de verzameling verwijderd.</span>
+Als u een verzameling verwijdert, worden alle platen in de verzameling verwijderd.
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ Wanneer u een board verwijdert, wordt deze permanent verwijderd uit [!DNL Workfr
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
 1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) aan boord of in verzameling, en selecteer **[!UICONTROL Delete]**.
 
-   <span class="preview">Bij een verzameling bevindt het menu zich rechts, naast de [!UICONTROL **Verzameling weergeven**] knop.</span>
+   Bij een verzameling bevindt het menu zich rechts, naast de [!UICONTROL **Verzameling weergeven**] knop.
 
 1. Klikken **[!UICONTROL Delete board]** of [!UICONTROL **Verzameling verwijderen**] in het bevestigingsbericht.
-
-<div class="preview">
 
 ## Een board naar een verzameling verplaatsen
 
@@ -135,5 +131,3 @@ U kunt een zelfstandig board naar een verzameling verplaatsen of een board van d
 
    Het board wordt verplaatst naar de collectie en wordt niet meer weergegeven in de [!UICONTROL Boards] gebied.
 Als u nog geen verzameling hebt gemaakt, wordt u gevraagd om er een te maken om het board naar te verplaatsen.
-
-</div>

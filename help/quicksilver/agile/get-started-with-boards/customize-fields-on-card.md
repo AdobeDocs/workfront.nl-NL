@@ -5,9 +5,9 @@ title: Aanpassen welke velden worden weergegeven op een kaart
 description: U kunt aanpassen welke velden op een kaart worden weergegeven door een veld uit te schakelen zodat het niet wordt weergegeven op de volledige kaart of in de verkorte weergave, of door een veld te verbergen in de weergave van de verkorte kaart.
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Aanpassen welke velden worden weergegeven op een kaart
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
+>Deze functie is alleen beschikbaar via de optie Aanmelden voor vroege functies [!DNL Workfront] [!UICONTROL Boards]. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Standaard worden alle beschikbare velden op een kaart weergegeven, zowel in de volledige weergave wanneer de kaart is geopend als in de weergave Versmalde kaart op het bord. U kunt aanpassen welke velden worden weergegeven door:
 
@@ -62,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klikken [!UICONTROL **Configureren**] rechts van de board om het Configure paneel te openen.
 1. Uitbreiden [!UICONTROL **Kaarten**].
 
-   Alle velden zijn standaard ingeschakeld.
+   De meeste velden zijn standaard ingeschakeld.
 
 1. Schakel een veld uit om het in beide kaartweergaven uit te schakelen.
 1. Klik op het pictogram Verbergen ![Pictogram verbergen](assets/eye-hide-icon.png) naast een veld om dit te verbergen in de verkorte weergave.

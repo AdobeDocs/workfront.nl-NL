@@ -6,7 +6,7 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Een board maken of bewerken
 
-{{highlighted-preview}}
-
 Van de [!UICONTROL boards] kunt u een nieuw board maken of een bestaand board bewerken.
 
-<span class="preview">Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Toegangsvereisten
 
@@ -45,15 +43,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een nieuw bord maken
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Als u een zelfstandig toetsenbord wilt maken, klikt u op **[!UICONTROL Create New]** in de [!UICONTROL Boards] gebied. <span class="preview">Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. Als u een zelfstandig toetsenbord wilt maken, klikt u op **[!UICONTROL Create New]** in de [!UICONTROL Boards] gebied. Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > Verzamelingen zijn alleen beschikbaar via de optie Aanmelden voor vroege functies [!DNL Workfront] [!UICONTROL Boards].
 
-1. <span class="preview">Selecteer een sjabloon voor het bord.</span>
-
-   <div class="preview">
+1. Selecteer een sjabloon voor het bord.
 
    | Sjabloon | Beschrijving |
    |---------|----------|
@@ -64,8 +60,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >[!NOTE]
    >
    > De malplaatjes van de raad zijn beschikbaar slechts door vroege eigenschapopt-in voor [!DNL Workfront] [!UICONTROL Boards].
-
-   </div>
 
 1. Typ een naam voor het toetsenbord in het dialoogvenster **[!UICONTROL Board]** en drukt u op Enter.
 1. Configureer de kaart naar wens.
