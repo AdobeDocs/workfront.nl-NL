@@ -7,7 +7,7 @@ description: Een gebruiker deactiveren via de API
 author: John
 feature: Workfront API
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: 50675b7af3fcd2188a18391732a93a7b67454db9
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Een gebruiker deactiveren via de API:
 1. Een API-sleutel genereren met behulp van de volgende API-aanvraag:
 
 ```
-<domain>.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
+<domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
 ```
 
 1. Zoek GUID voor de gebruiker die u wilt deactiveren.
@@ -36,13 +36,13 @@ Een gebruiker deactiveren via de API:
    1. Gebruik het volgende API verzoek om GUID voor alle gebruikers in uw systeem terug te winnen, merk op dat **isActive** veldpresentaties **true** voor gebruikers die momenteel actief zijn en **false** voor gedeactiveerde gebruikers:
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
 1. Zoek GUID voor de gebruiker die u wilt deactiveren, gebruik het volgende **PUT** verzoek om de gebruiker te wijzigen **isActive** veldwaarde naar **false**:
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
 1. Uit het antwoord zal blijken dat de **isActive** veldwaarde is gewijzigd van **true** tot **false** die aangeeft dat de gebruiker is gedeactiveerd:

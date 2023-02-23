@@ -6,35 +6,45 @@ description: Geef een API-versie op in uw integratie
 author: John
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 889084f9a3740b40c84c658f9b0c17270b0a37d7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# Geef een API-versie op in uw integratie
+# Een API-versie opgeven in uw integratie
 
-Alle Adobe Workfront URI&#39;s moeten naar een specifieke versie van de API verwijzen na het gedeelte &quot;attask/api&quot; van de URI. In het volgende voorbeeld wordt versie 7.0 aangeroepen:
-`attask/api/v7.0/<objectName>/<objectId>` Zorg ervoor dat al uw integratieaanroepen momenteel ondersteunde Workfront API&#39;s bevatten.
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
+
+Alle Adobe Workfront URI&#39;s moeten naar een specifieke versie van de API verwijzen na het gedeelte &quot;attask/api&quot; van de URI. In het volgende voorbeeld wordt versie 15.0 aangeroepen:
+
+`attask/api/v15.0/<objectName>/<objectId>`
+
+Zorg ervoor dat al uw integratieaanroepen momenteel ondersteunde Workfront API&#39;s bevatten.
 
 ## Release- en implementatieschema van Workfront API&#39;s
 
-Nieuwe versies van de API worden elke zes tot acht maanden op tweejaarlijkse basis uitgebracht. Elke versie wordt ondersteund gedurende drie jaar na de releasedatum, met een extra jaar in een vervangen toestand waarin de versie beschikbaar maar niet ondersteund is.
+Nieuwe versies van de API worden regelmatig uitgebracht, meestal twee keer per jaar. Elke versie wordt ondersteund gedurende drie jaar na de releasedatum, met een extra jaar in een vervangen toestand waarin de versie beschikbaar maar niet ondersteund is.
 
 Zie voor meer informatie over het schema voor het afbreken en afbreken van de release van Workfront API&#39;s [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
 
-Workfront heeft de standaardversie van de API vanaf juli 2017 vervangen. Dit betekent dat Workfront niet langer een specifieke versie van de API aanwijst als de standaardversie. Alle toekomstige API-URI&#39;s moeten een versie van de API opgeven om geldig te zijn.
-
 >[!IMPORTANT]
 >
-> Integraties die de standaard API-versie gebruiken, moeten worden bijgewerkt om uiterlijk 1 juli 2018 een specifieke ondersteunde API-versie aan te roepen.
+>* Na de release 23.2 wordt de standaardversie van de API ingesteld op de meest recente versie. Voor elke API-aanroep zonder de opgegeven versie wordt de standaardversie gebruikt. Elke keer dat Workfront een nieuwe versie van de API loslaat, wordt de standaardversie bijgewerkt naar de nieuwste versie. Daarom moeten, nadat een nieuwe versie van de Workfront API is uitgebracht, alle API-aanroepen die de standaardversie gebruiken, worden gecontroleerd om ervoor te zorgen dat de functionaliteit nog steeds wordt ondersteund.
+>
+>* Als uw organisatie momenteel de standaard-API gebruikt, heeft uw Workfront-beheerder een bericht van het Aankondigingscentrum ontvangen met verdere instructies betreffende de standaard-API.
+>
+>* <span class="preview">De standaard-API in de voorvertoningsomgeving is ingesteld op de meest recente versie. De standaard-API in de productieomgeving wordt ingesteld op de meest recente versie na de release van 23.2 (april 2023)</span>.
+>
+>Ga voor de meest recente versie van de API naar [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
+
 
 ## De API-versie bepalen die u gebruikt
 
-U kunt de versie van de API bepalen die u gebruikt door de URI te controleren van een HTTP-aanvraag die naar de Workfront API wordt verzonden. In het volgende voorbeeld wordt een Workfront request-URI getoond die versie 7 van de API opgeeft:
+U kunt de versie van de API bepalen die u gebruikt door de URI te controleren van een HTTP-aanvraag die naar de Workfront API wordt verzonden. In het volgende voorbeeld wordt een Workfront request-URI getoond die versie 15 van de API opgeeft:
 
-`https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
+`https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
 
 Als een URI geen versie opgeeft, wordt de standaardversie van de API gebruikt, zoals in het volgende voorbeeld wordt getoond:
 
@@ -42,7 +52,7 @@ Als een URI geen versie opgeeft, wordt de standaardversie van de API gebruikt, z
 
 >[!IMPORTANT]
 >
-> Integraties die geen versie van de API in de URI opgeven, worden automatisch gerouteerd naar de standaardversie van de API en werken niet meer na 1 juli 2018.
+> Integraties die geen versie van de API in de URI opgeven, worden automatisch gerouteerd naar de standaardversie van de API.
 
 ## Integraties bijwerken voor gebruik van ondersteunde API-versies
 
