@@ -6,14 +6,16 @@ description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2895'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
 
 # Logtijd
+
+{{highlighted-preview}}
 
 U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
@@ -96,6 +98,7 @@ U kunt zich in Workfront aanmelden in de volgende gebieden:
 * [Home](#home)
 * [Project, taak of uitgave](#project-task-or-issue)
 * [Het deelvenster Samenvatting](#summary-panel)
+* <span class="preview">[Borden](#boards)</span>
 * [Mobiele app](#mobile-app)
 
 ### Tijdschema {#timesheet}
@@ -394,7 +397,20 @@ Zie voor meer informatie [Overzicht van samenvattingen](../../workfront-basics/t
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### Borden {#boards}
+
+>[!NOTE]
+>
+>Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
+
+U kunt zich aanmelden op verbonden kaarten op een Workfront-board. Dit is hetzelfde proces als het aanmelden bij een taak of uitgave en de uren die op de kaart zijn aangemeld, worden opgeslagen op de aangesloten taak of uitgave.
+Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### Mobiele app {#mobile-app}
 
 U kunt de tijd vastleggen via de mobiele app van Workfront.
+Zie voor meer informatie [Adobe Workfront voor Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) of [Adobe Workfront voor iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
