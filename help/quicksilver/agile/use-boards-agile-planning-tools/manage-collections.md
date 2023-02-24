@@ -6,24 +6,22 @@ title: Verzamelingen beheren
 description: Een inzameling is een configureerbare groep raden van bestuur voor samenwerking aan het werk.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Verzamelingen beheren
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>Verzamelingen zijn alleen beschikbaar via de optie Aanmelden voor vroege functies [!UICONTROL [!DNL Workfront] Boards]. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Een inzameling is een configureerbare groep raden van bestuur voor samenwerking aan het werk. Verzamelingen kunnen verschillende typen tekengebieden bevatten die zijn gemaakt op basis van sjablonen.
 
 Verzamelingen worden op het dashboard weergegeven, samen met afzonderlijke borden waartoe u toegang hebt die geen deel uitmaken van een verzameling. Zie voor meer informatie over het dashboard voor borden [Het dashboard voor tekengebieden gebruiken](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). U kunt op een willekeurige bordnaam op het dashboard klikken om het te openen.
-
->[!NOTE]
->
->Verzamelingen zijn alleen beschikbaar via de optie Aanmelden voor vroege functies [!UICONTROL [!DNL Workfront] Boards].
 
 ## Toegangsvereisten
 
