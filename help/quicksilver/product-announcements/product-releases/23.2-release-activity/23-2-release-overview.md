@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Naam van punten in lay-outsjabloon wijzigen</span></a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
-                        <p>U kunt nu de namen van punten in een lay-outsjabloon wijzigen zodat deze voor uw gebruikers betekenisvoller worden in plaats van de standaardnaam voor de vastgezette pagina te gebruiken. Punten die beheerders maken, worden weergegeven voor alle gebruikers die aan de lay-outsjabloon zijn toegewezen en gebruikers kunnen de naam van die punten niet wijzigen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Naam van punten in lay-outsjabloon wijzigen</span></a>
+                        </span></a><p>U kunt nu de namen van punten in een lay-outsjabloon wijzigen zodat deze voor uw gebruikers betekenisvoller worden in plaats van de standaardnaam voor de vastgezette pagina te gebruiken. Punten die beheerders maken, worden weergegeven voor alle gebruikers die aan de lay-outsjabloon zijn toegewezen en gebruikers kunnen de naam van die punten niet wijzigen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -83,9 +83,26 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Uren vastleggen op verbonden kaarten aan boord</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu uren aanmelden op verbonden kaarten, net als bij een taak of uitgave. U moet de correcte toestemmingen aan de taak of de kwestie hebben om de tijd te registreren.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 23 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie voor vroege opt-in: 2 maart 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Weergave van velden op een kaart aanpassen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Weergave van velden op een kaart aanpassen</a></p>
                         <p>Er is nu aanpassingsmogelijkheden beschikbaar om te bepalen welke velden op een kaart worden weergegeven, zowel in de volledige weergave wanneer de kaart is geopend als in de weergave voor gecondenseerde kaarten op het bord. Wanneer u een veld uitschakelt, wordt dit in geen van beide weergaven weergegeven. U kunt een veld ook inschakelen in de volledige weergave en verbergen in de versmalde weergave.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -102,7 +119,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Een standaardstatus definiëren voor kaarten die naar een bordkolom worden verplaatst</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Een standaardstatus definiëren voor kaarten die naar een bordkolom worden verplaatst</a></p>
                         <p>U kunt nu een standaardstatus instellen om toe te passen op kaarten die naar een specifieke kolom worden verplaatst door een aangepaste status en een systeemstatus te selecteren in het kolombeleid. Wanneer u een kaart naar de kolom verplaatst, probeert Workfront eerst de aangepaste status toe te passen (bijvoorbeeld Feedback wachten). Als de aangepaste status niet beschikbaar is voor die kaart, past Workfront de systeemstatus toe (bijvoorbeeld In wachtstand). Als de status van de verbonden taak of uitgave wordt gewijzigd in de aangepaste of systeemstatus die is ingesteld in het kolombeleid, wordt de kaart automatisch naar de kolom verplaatst.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -119,7 +136,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Verzamelingen die nu beschikbaar zijn in Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Verzamelingen die nu beschikbaar zijn in Adobe Workfront Boards</a></p>
                         <p>U kunt nu verzamelingen maken op het dashboard voor borden. Een verzameling is een groep raden van bestuur om samen te werken aan het werk. Nadat u de verzameling een naam hebt gegeven, kunt u tekengebieden aan de verzameling toevoegen met behulp van een set sjablonen met vooraf gedefinieerde instellingen, zoals kolomnamen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -190,7 +207,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Beoogde uren kopiëren bij het kopiëren van een project</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Beoogde uren kopiëren bij het kopiëren van een project</a>
                         <p>Nu, hebt u de optie om de uren te kopiëren die op het begrotingsgebied van het Middel van het BedrijfsGeval of de Planner van het Middel worden begroot wanneer u een project kopieert. Voorafgaand aan deze verhoging, werden de uren die voor het project werden begroot niet overgebracht naar het gekopieerde project.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -225,7 +242,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Het veld Werktijd introduceren om de gebruikerscapaciteit nauwkeurig te berekenen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Het veld Werktijd introduceren om de gebruikerscapaciteit nauwkeurig te berekenen</a>
                         <p>Om middelmanagers toe te staan om de beschikbaarheid van hun gebruikers nauwkeurig te berekenen en rekenschap te geven voor de tijd die de gebruikers aan daadwerkelijke, projectgerelateerde werk wijden, introduceren wij het concept van de Tijd van het Werk aan Adobe Workfront.</p>
                         <p>U kunt de waarde van het gebied van de Tijd van het Werk voor elke gebruiker bepalen, wanneer u creeert of hun profiel uitgeeft.</p>
                     </td>
@@ -328,6 +345,21 @@ Voor informatie over de onderhoudsupdates die tijdens de release 23.2 zijn gemaa
 
 Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Zie voor meer informatie de [Pagina met updates van trainingsreleases](https://one.workfront.com/s/training-release-updates).
 
+### Functionaliteit die binnenkort uit Workfront wordt verwijderd
+
+De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
+
+#### **Wijzigingen in de standaard-API van Workfront**
+
+Om ervoor te zorgen dat API-aanroepen de meest actuele Workfront API-functionaliteit kunnen benutten, werken we de standaard API bij. Wanneer een API-aanroep geen versie van de API opgeeft, wordt de standaard-API aangeroepen.
+
+De standaard-API weerspiegelt nu de meest recente versie van de API. Als u doorgaat, wordt de standaard-API telkens bijgewerkt wanneer een nieuwe API-versie wordt uitgebracht, zodat voor aanroepen van de standaard-API altijd de meest recente versie van de API wordt gebruikt.
+
+Eerder gebruikte de standaard-API Workfront API versie 2.0, die afgekeurd is.
+
+Als uw organisatie momenteel de verouderde Standaard API gebruikt, heeft uw beheerder van Workfront een bericht van het Aankondigingscentrum met verdere instructies betreffende het Standaard API ontvangen.
+
+Zie voor meer informatie [Integraties bijwerken die standaard-API-versies gebruiken](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en ha
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

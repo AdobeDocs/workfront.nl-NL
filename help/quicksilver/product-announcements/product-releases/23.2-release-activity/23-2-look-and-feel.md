@@ -4,7 +4,7 @@ description: Updates weergeven en voelen tijdens het tijdsbestek van de release 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 23.2 raad
 
 >[!NOTE]
 >
->Voorvertoning release: 9 februari 2023; Planned Production release: 23 februari 2023
+>Voorvertoning release: 9 februari 2023; Planned Production release: 2 maart 2023
 
 Aanvullende gebruikersgegevens worden nu weergegeven wanneer u gebruikers toevoegt in de volgende gebieden:
 
