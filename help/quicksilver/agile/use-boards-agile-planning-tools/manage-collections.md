@@ -6,14 +6,16 @@ title: Verzamelingen beheren
 description: Een inzameling is een configureerbare groep raden van bestuur voor samenwerking aan het werk.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
 # Verzamelingen beheren
+
+{{highlighted-preview-article-level}}
 
 Een inzameling is een configureerbare groep raden van bestuur voor samenwerking aan het werk. Verzamelingen kunnen verschillende typen tekengebieden bevatten die zijn gemaakt op basis van sjablonen.
 
@@ -60,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 | Sjabloon | Beschrijving |
 |---------|----------|
-| Basisbord | Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. |
+| Basisbord | Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
 | Kanban | De volgende kolommen worden aan boord gegeven: Achtergrond, Nieuw, Bezig, Voltooid en In wachtstand. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer** menu] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt elk vooraf ingesteld beleid wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospectief bord | De volgende kolommen worden aan boord gegeven: Wat ging er goed? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
 
