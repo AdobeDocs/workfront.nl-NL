@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Werkbladprofielen maken, bewerken en toewijzen
-description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugkerende tijdbladen voor uw gebruikers genereren zonder tussenkomst van u. Zo bespaart u tijd en zorgt u ervoor dat het volgende tussen gebruikers - BEWERK ME verenigbaar is.
+description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugkerende tijdbladen voor uw gebruikers genereren zonder tussenkomst van u. Zo bespaart u tijd en bent u verzekerd van consistentie tussen gebruikers.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -101,10 +101,12 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tijdschema's maken</strong> </td> 
-      <td> <p> <p>Geef op wanneer het tijdbladprofiel de tijdbladen moet genereren. Een timesheet kan worden geplaatst om automatisch op wekelijkse, bi-wekelijkse, halfmaandelijkse, of maandbasis te produceren. Selecteer de dag van de week waarop u het tijdspad wilt maken.</p> <p><b>OPMERKING</b>
+      <td> <p> <p>Geef op wanneer het tijdbladprofiel de tijdbladen moet genereren. Een timesheet kan worden geplaatst om automatisch op wekelijkse, bi-wekelijkse, halfmaandelijkse, of maandbasis te produceren. Selecteer de dag van de week waarop u het tijdspad wilt maken.</p>
+      <p>Een wekelijkse timesheet begint op de datum het wordt geproduceerd. Als u bijvoorbeeld elke donderdag wekelijkse tijdbladen maakt, is de eerste dag van de week op het tijdsplaat donderdag.</p>
+      <p><b>OPMERKING</b></p>
 
-   Als u een timesheet profiel vormt om timesheets op een Vrijdag tot stand te brengen, kunnen de gebruikers geen uren op Vrijdag, Zaterdag, en Zondag, voor de huidige week registreren.</p> <p>Workfront maakt altijd twee tijdbladen tegelijk: het eerste tijdspad bevat altijd de huidige datum en het tweede tijdspad begint wanneer het tijdkader van de eerste termijn eindigt.</p> </p> </td>
-   </tr> 
+   <p>Workfront maakt altijd twee tijdbladen tegelijk: het eerste tijdspad bevat altijd de huidige datum en het tweede tijdspad begint wanneer het tijdkader van de eerste termijn eindigt.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Fiatteurs</strong></p> </td> 
       <td> <p> <p>Approvers zijn gebruikers die timesheet voor de gebruikers goedkeuren verbonden aan timesheet. U kunt maximaal 7 gebruikers identificeren als fiatteurs op een timesheet. Het identificeren van veelvoudige gebruikers is nuttig om een fiatteur beschikbaar te verzekeren wanneer iemand uit het bureau is. Alle fiatteurs worden op de hoogte gesteld wanneer een gebruiker het tijdspad ter goedkeuring indient. Slechts één gebruiker wordt vereist om timesheet goed te keuren om het te worden goedgekeurd.</p> <p>Alleen gebruikers met beheerdersrechten voor tijdschriften kunnen worden ingesteld als fiatteurs. Voor meer informatie over administratieve rechten op tijdspagina raadpleegt u <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p>Gebruik het drop-down menu om fiatteur voor timesheet (als een fiatteur wordt vereist) te selecteren. U kunt uit de volgende opties selecteren:</p> 
