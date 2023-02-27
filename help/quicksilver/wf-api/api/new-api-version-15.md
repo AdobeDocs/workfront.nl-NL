@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Nieuw in API-versie 15
 description: Adobe Workfront heeft API-versie 14 uitgebracht op 14 juni 2022. API-versie 15 bevat de volgende wijzigingen ten opzichte van versie 14.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 0%

@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Nieuw in API-versie 8
 description: Dit is een lijst met bronnen die nieuw zijn voor API-versie 9. Voor een lijst met updates voor de bronnen van versie 8 gaat u naar Updates voor API versie 8
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 1%

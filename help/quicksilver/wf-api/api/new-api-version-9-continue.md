@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Nieuwe functies in API-versie 9 (vervolg)
 description: Deze lijst is de tweede helft van een grotere lijst. De eerste helft kan bij wat in API Versie 9 Nieuw is worden gevestigd. De lijst met updates voor versie 9 vindt u bij Updates voor API versie 9.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
