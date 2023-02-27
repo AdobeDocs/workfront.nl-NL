@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
 exl-id: 8b61a987-92c3-4fc1-82fc-a1f4e35e4e40
-source-git-commit: ffc7205eb995985127d89bdab1187e311490951e
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusio
 
 Voor een lijst met alle recente wijzigingen raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
 
 ## Adobe Workfront Proof-connector nu beschikbaar voor gebruikers met een Workfront Fusion for Automation-licentie
 

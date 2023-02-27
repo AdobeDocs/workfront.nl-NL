@@ -7,9 +7,9 @@ description: De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nie
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Functies in Voorvertoning worden gewoonlijk bij de volgende driemaandelijkse rel
 
 ### Onderhoudsupdates
 
-Problemen met het Adobe Workfront-product worden wekelijks in de productieomgeving opgelost. Zie de [Workfront-onderhoudsupdates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) pagina om te zien wat onlangs is opgelost.
+Problemen met het Adobe Workfront-product worden wekelijks in de productieomgeving opgelost. Zie de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina om te zien wat onlangs is opgelost.
 
 ## Functies die uit een driemaandelijkse release zijn verwijderd
 

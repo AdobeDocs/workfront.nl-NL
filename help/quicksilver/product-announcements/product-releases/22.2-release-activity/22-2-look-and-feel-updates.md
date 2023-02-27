@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk
 ### Voorvertoningsrelease: 10 februari 2022; Productieversie: 3 maart 2022
 
 >[!NOTE]
-De werkbalk voor dezelfde rapporten in dashboards is ook bijgewerkt in Production met het wekelijkse [Onderhoudsupdate](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) op 3 maart 2022.
+De werkbalk voor dezelfde rapporten in dashboards is ook bijgewerkt in Production met het wekelijkse [Onderhoudsupdate](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) op 3 maart 2022.
 
 * Projectrapporten
 * Taakrapporten
