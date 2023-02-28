@@ -6,7 +6,7 @@ description: U moet de Workfront met Adobe Experience Manager verbeterde connect
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -62,6 +62,7 @@ U moet de Workfront met Adobe Experience Manager verbeterde connector verwijdere
        <target>/apps/<path-to-project-install-folder>/install</target>
    </embedded>
    ```
+
 1. Verwijder het volgende ingebedde uit het pom.xml- dossier van submodule van het project genoemd allen.
 
    ```
