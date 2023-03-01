@@ -6,9 +6,9 @@ description: U kunt om het even welke taak of kwestie aan een raad toevoegen Kan
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 7b72d0eaa715b2094f4f574411d8e240107e080f
+source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -58,10 +58,9 @@ Een taak of uitgave toevoegen aan een [!UICONTROL Kanban] bord:
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Add to]** > **[!UICONTROL Kanban Board]**.
 1. In de [!UICONTROL Add Stories] typt u de naam van het Kanban-team.
 
->[!NOTE]
->
->Als u meerdere teams toevoegt, kan de taak of uitgave alleen worden weergegeven in één team [!DNL kanban] bord. Dit is het bord dat u kiest in stap 5.
+   >[!NOTE]
+   >
+   >Als u meerdere teams toevoegt, kan de taak of uitgave alleen worden weergegeven in één team [!DNL kanban] bord. Dit is het bord dat u kiest in stap 5.
 
-1. Als u taken toevoegt, klikt u op **[!UICONTROL Add Stories]**.\
-   of\
-   Klik op **[!UICONTROL Add Issues]**.
+1. Als u taken toevoegt, klikt u op **[!UICONTROL Add Stories]**.
+Als u problemen toevoegt, klikt u op **[!UICONTROL Add Issues]**.
