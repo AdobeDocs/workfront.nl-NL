@@ -7,18 +7,22 @@ description: Met Workfront Proof kunt u rapporten weergeven, zodat u de voortgan
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
 
 # Rapporten uitvoeren in [!DNL Workfront Proof]
 
+
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>* <span class="previe">De rapportfunctionaliteit is niet meer beschikbaar in [!DNL Workfront Proof]. Het rapporttabblad wordt nog weergegeven, maar de gegevens zijn niet nauwkeurig.</span>
+> 
+>* Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+
 
 Met Workfront Proof kunt u rapporten weergeven, zodat u de voortgang van het werk en de efficiëntie van uw teams kunt bijhouden.
 
