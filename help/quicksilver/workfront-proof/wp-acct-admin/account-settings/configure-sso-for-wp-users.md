@@ -7,9 +7,9 @@ description: Als u het Uitgezochte of Premium plan hebt, kunt u Enige Sign-On (S
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ De functie Single Sign-On kan worden ingeschakeld op de [!UICONTROL Single sign-
 
 Als serviceprovider hebben we hier onze entiteit-id gepubliceerd:
 
-[https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) (waarbij &#39;uwsubdomein&#39; het subdomein van uw account is)
+[https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq) (waarbij &#39;uwsubdomein&#39; het subdomein van uw account is)
 
 [!DNL Workfront Proof] vereist het e-mailadres van de gebruiker als unieke id, die kan worden doorgegeven als een van de volgende kenmerken:
 
@@ -66,7 +66,7 @@ Dit is de URL waarnaar u terugkeert nadat u zich hebt afgemeld, bijvoorbeeld
 
 **https://www.yourcompany.com/services/logout.asp**
 
-1. Voer de **vingerafdruk certificaat** 5.
+1. Voer de **vingerafdruk certificaat** (5)
 1. De SHA1-vingerafdruk van het SAML-certificaat dat door uw SAML Identity Provider is verstrekt.
 1. Zorg ervoor dat u de toetsinfo opneemt door deze in te stellen op uw identiteitsprovider.
 1. Overschakelen **SSO** tot **[!UICONTROL Enabled]** 6.
