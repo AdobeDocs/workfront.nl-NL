@@ -6,14 +6,16 @@ description: U kunt een filter, weergave of groep verwijderen uit lijsten en rap
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: a3e4eb500570f86c689ef3bef654d659b9c465a2
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Filters, weergaven en groepen verwijderen
+
+<span class="preview">In de voorvertoningsomgeving is de verbeterde filterervaring (voorheen &quot;bèta&quot; genoemd) nu de standaardinstelling. Deze verbeterde filters zijn nu &#39;standaard&#39; en de oudere filterervaring is &#39;verouderd&#39;.</span>
 
 U kunt een filter, weergave of groep verwijderen uit lijsten en rapporten als u deze hebt gemaakt of als ze met u zijn gedeeld. U kunt standaardfilters, -weergaven of -groepen niet verwijderen.
 

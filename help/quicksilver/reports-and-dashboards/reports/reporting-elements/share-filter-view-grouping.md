@@ -6,9 +6,9 @@ description: U kunt filters, weergaven en groeperingen delen die u kunt bekijken
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 8ac8981a40f051f11eef231397cd231ae1d8ddff
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
+
+<span class="preview">In de voorvertoningsomgeving is de verbeterde filterervaring (voorheen &quot;bèta&quot; genoemd) nu de standaardinstelling. Deze verbeterde filters zijn nu &#39;standaard&#39; en de oudere filterervaring is &#39;verouderd&#39;.</span>
 
 Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsobjecten wanneer zij toegangsniveaus toewijzen. Ga voor meer informatie over het verlenen van toegang tot objecten naar [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

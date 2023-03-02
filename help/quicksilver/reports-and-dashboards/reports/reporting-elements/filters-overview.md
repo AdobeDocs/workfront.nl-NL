@@ -7,14 +7,16 @@ description: U kunt filters in Adobe Workfront gebruiken om de hoeveelheid infor
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
 
 # Overzicht van filters in Adobe Workfront
+
+<span class="preview">In de voorvertoningsomgeving is de verbeterde filterervaring (voorheen &quot;bèta&quot; genoemd) nu de standaardinstelling. Deze verbeterde filters zijn nu &#39;standaard&#39; en de oudere filterervaring is &#39;verouderd&#39;.</span>
 
 U kunt filters in Adobe Workfront gebruiken om de hoeveelheid informatie te verminderen u op het scherm in lijsten, rapporten, of andere gebieden toont.
 

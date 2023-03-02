@@ -6,14 +6,16 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: fd2723eeb6a8323a8f2fcdb506991704777bdea8
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
 
 # Filters maken of bewerken in Adobe Workfront
+
+<span class="preview">In de voorvertoningsomgeving is de verbeterde filterervaring (voorheen &quot;bèta&quot; genoemd) nu de standaardinstelling. Deze verbeterde filters zijn nu &#39;standaard&#39; en de oudere filterervaring is &#39;verouderd&#39;.</span>
 
 U kunt de hoeveelheid informatie beperken die u op het scherm weergeeft in een lijst met items met een filter. U kunt bepaalde criteria definiëren op basis van bepaalde gegevens over een object en alleen de objecten weergeven die aan deze criteria voldoen.
 
