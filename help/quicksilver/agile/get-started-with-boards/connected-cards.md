@@ -6,16 +6,14 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # Gekoppelde kaarten op borden gebruiken
-
-{{highlighted-preview}}
 
 U kunt een kaart toevoegen aan uw board die is aangesloten op bestaande taken en problemen in [!DNL Workfront].
 
@@ -185,8 +183,6 @@ Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangeslot
 
 1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
 
-<div class="preview">
-
 ## Uren vastleggen op een aangesloten kaart
 
 >[!NOTE]
@@ -207,4 +203,3 @@ De velden voor tijdregistratie worden standaard niet weergegeven op verbonden ka
 
 De registratietijd op de kaart is hetzelfde als de tijd die u nodig hebt om u aan te melden bij een taak of uitgave. Voor meer informatie, zie &quot;tijd van het Logboek op een project, een taak, of een kwestie&quot;in het artikel [Logtijd](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
-</div>

@@ -6,7 +6,7 @@ description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
 source-wordcount: '2971'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Logtijd
-
-{{highlighted-preview}}
 
 U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
@@ -397,8 +395,6 @@ Zie voor meer informatie [Overzicht van samenvattingen](../../workfront-basics/t
 
 ![](assets/summary-hour-log.png)
 
-<div class="preview">
-
 ### Borden {#boards}
 
 >[!NOTE]
@@ -408,9 +404,7 @@ Zie voor meer informatie [Overzicht van samenvattingen](../../workfront-basics/t
 U kunt zich aanmelden op verbonden kaarten op een Workfront-board. Dit is hetzelfde proces als het aanmelden bij een taak of uitgave en de uren die op de kaart zijn aangemeld, worden opgeslagen op de aangesloten taak of uitgave.
 Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-</div>
-
 ### Mobiele app {#mobile-app}
 
 U kunt de tijd vastleggen via de mobiele app van Workfront.
-Zie voor meer informatie [Adobe Workfront voor Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) of [Adobe Workfront voor iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+Zie voor meer informatie [Adobe Workfront voor Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) of [Adobe Workfront voor iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
