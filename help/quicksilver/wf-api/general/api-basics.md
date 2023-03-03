@@ -6,9 +6,9 @@ description: Basisbeginselen van API
 author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4405'
+source-wordcount: '4478'
 ht-degree: 0%
 
 ---
@@ -427,11 +427,17 @@ Om optimale prestaties te verzekeren, toont de volgende lijst de beperkingen die
 
 ### Gepagineerde reacties gebruiken {#using-paginated-responses}
 
-Om het StandaardAantal de vraagbeperking van Resultaten met voeten te treden en 200 resultaten toe te staan, kunt u de filter $$LIMIT=200 in uw vraag, zoals aangetoond in het volgende voorbeeld omvatten:
-<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>Om betrouwbaarheid en prestaties voor andere huurders in het systeem te verzekeren, is de maximum toegestane resultaatgrens per vraag 2000 voorwerpen. Als u probeert een grotere limiet op te geven, wordt een foutbericht van IllegalArgumentException weergegeven. 
+Als u de standaardbeperking voor resultaatquery wilt overschrijven en 200 resultaten wilt toestaan, kunt u de opdracht `$$LIMIT=200` filter in uw vraag, zoals aangetoond in het volgende voorbeeld:
+<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Daarom adviseren wij u het gebruiken van gepagineerde reacties voor grote datasets overweegt. Voeg het filter $$FIRST toe om het eerste resultaat op te geven dat moet worden geretourneerd. Bijvoorbeeld, keert het volgende verzoek resultaten 201-250 voor een vraag terug:
-<pre>GET /attask/api/v15.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
+Om betrouwbaarheid en prestaties voor andere huurders in het systeem te verzekeren, is de maximum toegestane resultaatgrens per vraag 2000 voorwerpen. Als u probeert een grotere limiet op te geven, wordt een `IllegalArgumentException` foutbericht. 
+
+Daarom adviseren wij u het gebruiken van gepagineerde reacties voor grote datasets overweegt. Als u het eerste resultaat wilt opgeven dat moet worden geretourneerd, voegt u de opdracht `$$FIRST` filter. Bijvoorbeeld, keert het volgende verzoek resultaten 201-250 voor een vraag terug:
+<pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
+
+Let op: in het bovenstaande voorbeeld: `$$FIRST=200` retourneert het 201ste resultaat. `$$FIRST=0` retourneert het eerste resultaat. Het kan helpen om van de waarde $$FIRST als aantal resultaten te denken u wilt overslaan alvorens resultaten terug te keren.
+
+Gebruik een sorteerparameter om ervoor te zorgen dat de resultaten correct worden gepagineerd. Hierdoor kunnen de resultaten in dezelfde volgorde worden geretourneerd, zodat de paginering de resultaten niet herhaalt of overslaat. Als u bijvoorbeeld wilt sorteren met de object-id, gebruikt u `ID_Sort=asc`.
 
 ### Toegangsregels maken
 
