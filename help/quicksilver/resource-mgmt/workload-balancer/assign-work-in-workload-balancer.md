@@ -6,16 +6,14 @@ description: Als middelmanager, kunt u de Balancer van de Werkbelasting van Adob
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het toewijzen van werk in de werklastverdeler
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 Als middelmanager, kunt u de Balancer van de Werkbelasting van Adobe Workfront gebruiken om het werkpunten te bekijken die nog niet aan gebruikers zijn toegewezen evenals deze punten aan hen toe te wijzen.
 
@@ -49,9 +47,9 @@ Workfront gebruikt de volgende informatie om de capaciteit van de gebruiker in d
 * De time-out van de gebruiker. Dit geeft aan op welke dagen de gebruiker van plan is op te starten.
 
    Zie voor meer informatie [Persoonlijke tijd in Adobe Workfront configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-<div class="preview">
+
 * De werktijd van de gebruiker. Dit wijst op het percentage van FTE tijd dat de gebruiker beschikbaar is om werkelijk project-verwant werk, zonder overheadkosten uit te voeren. Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.
-</div>
+
 
 ## Werk toewijzen in Workload Balancer
 

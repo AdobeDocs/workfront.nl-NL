@@ -5,7 +5,7 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '15588'
 ht-degree: 0%
@@ -890,7 +890,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <p>Uw Workfront-beheerder bepaalt welk schema wordt gebruikt om de beschikbaarheid van de gebruiker te bepalen.  </p>
    <ul>
    <li> Wanneer de [!UICONTROL Default Schedule] wordt gebruikt, gebruikt Workfront de [!UICONTROL FTE] van de gebruiker in hun profiel wordt gevonden om beschikbaarheid te berekenen. </li>
-   <li> Wanneer het Programma van de Gebruiker wordt gebruikt, gebruikt Workfront de tijd van de gebruiker weg, <span class="preview">[!UICONTROL Work Time] value</span>, en [!UICONTROL Default Schedule]-uren om de gebruikersgegevens te berekenen [!UICONTROL FTE]. </li> </ul>
+   <li> Wanneer het Programma van de Gebruiker wordt gebruikt, gebruikt Workfront de tijd van de gebruiker weg, [!UICONTROL Work Time] waarde, en [!UICONTROL Default Schedule]-uren om de gebruikersgegevens te berekenen [!UICONTROL FTE]. </li> </ul>
 
 <p>Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a>.  </p>
    <p>Voor meer informatie over het maken van programma's in [!DNL Workfront], zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>. </p>
@@ -2334,15 +2334,15 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td>[!UICONTROL Work Time]</td> 
    <td>
 
-<p><span class="preview">Vertegenwoordigt het percentage van het Voltijdequivalent ([!UICONTROL FTE]) tijd dat de gebruiker beschikbaar is voor daadwerkelijk werk, exclusief overhead. [!UICONTROL Work Time] moet een decimaal getal zijn tot en met 1, en mag niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.</span>  </p>
-   </p><span class="preview">De standaardinstelling van het veld is 1. Dit geeft aan dat een gebruiker de gehele waarde doorgeeft [!UICONTROL FTE] op concrete, projectgerelateerde werkzaamheden.</span>   </p>
-   <p><span class="preview">Het systeem gebruikt dit aantal om de beschikbaarheid van de gebruiker voor daadwerkelijke, op project betrekking hebbende werk te berekenen. </span></p>
-   <p> <span class="preview">De uitzonderingen van het programma en de onderbreking van het programma zouden ook de gebruikerscapaciteit kunnen beïnvloeden.</span> </p>
-   <p><span class="preview">Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>.</span> </p>
+<p>Vertegenwoordigt het percentage van het Voltijdequivalent ([!UICONTROL FTE]) tijd dat de gebruiker beschikbaar is voor daadwerkelijk werk, exclusief overhead. [!UICONTROL Work Time] moet een decimaal getal zijn tot en met 1, en mag niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.</p>
+   </p>De standaardinstelling van het veld is 1. Dit geeft aan dat een gebruiker de gehele waarde doorgeeft [!UICONTROL FTE] op concrete, projectgerelateerde werkzaamheden.  </p>
+   <p>Het systeem gebruikt dit aantal om de beschikbaarheid van de gebruiker voor daadwerkelijke, op project betrekking hebbende werk te berekenen. </p>
+   <p> De uitzonderingen van het programma en de onderbreking van het programma zouden ook de gebruikerscapaciteit kunnen beïnvloeden. </p>
+   <p>Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>. </p>
     <p>Workfront berekent de beschikbaarheid van een gebruiker op basis van de voorkeuren voor het beheer van bronnen in uw [!UICONTROL Setup] gebied. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Voorkeuren voor beheer van bronnen configureren</a>. </p> 
-   <p><span class="preview">U kunt de [!UICONTROL Work Time] van een gebruiker wanneer u de gebruiker bewerkt of maakt. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Gebruikersprofiel bewerken</a></span></p> 
+   <p>U kunt de [!UICONTROL Work Time] van een gebruiker wanneer u de gebruiker bewerkt of maakt. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Gebruikersprofiel bewerken</a></p> 
    <b>TIP</b> 
-   <p><span class="preview">Stel de [!UICONTROL Work Time] waarde aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.</span></p> 
+   <p>Stel de [!UICONTROL Work Time] waarde aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.</p> 
    </td> 
   </tr> 
   <tr> 

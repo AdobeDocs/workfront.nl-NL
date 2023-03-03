@@ -5,7 +5,7 @@ description: Als deel van middelplanning, kunt u de Planner van het Scenario van
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -13,10 +13,6 @@ ht-degree: 0%
 ---
 
 # De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Als deel van middelplanning, kunt u de Planner van het Scenario van Adobe Workfront gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
@@ -132,21 +128,16 @@ U kunt uw middelen voor een periode van 15 jaar begroten. Als u middelen begroot
 
       Workfront maakt gebruik van de vereiste arbeidstijden van het gekoppelde initiatief om de begrote arbeidskosten en de begrote uren uren uren van het project te berekenen. Dit is de aanbevolen optie. Kostendenvertoningen in het BedrijfsGeval in de valuta van het project.
 
-      <!--drafted for Budgeted Hours:
-   <span class="preview">Wanneer u een project kopieert, en u uitgezocht om de Begroeide Uren aan het nieuwe project te kopiëren, worden de uren die in de begroting worden opgenomen gebruikend de Planner van het Scenario niet gekopieerd aan het nieuwe project. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Zie voor meer informatie [Een project kopiëren](../manage-projects/copy-project.md)</span>
--->
+      Wanneer u een project kopieert, en u uitgezocht om de Begroeide Uren aan het nieuwe project te kopiëren, worden de uren die in de begroting worden opgenomen gebruikend de Planner van het Scenario niet gekopieerd aan het nieuwe project. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Zie voor meer informatie [Een project kopiëren](../manage-projects/copy-project.md).
 
-   >[!IMPORTANT]
-   > 
-   >Wanneer u de Planner van het Scenario aan begrotingsmiddelen voor het project gebruikt, tonen de Begrotende Kosten van de Arbeid in de volgende gebieden van Workfront:
-   > 
-   >* Bronbudgettair gebied van de Business Case
-   >* De Scenario-planner op systeemniveau als de Personeelskosten van het initiatief in verband met het project. Zie voor meer informatie [Initiatieven maken en bewerken in de functie Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
+      >[!IMPORTANT]
+      Wanneer u de Planner van het Scenario aan begrotingsmiddelen voor het project gebruikt, tonen de Begrotende Kosten van de Arbeid in de volgende gebieden van Workfront:
+      * Bronbudgettair gebied van de Business Case
+      * De Scenario-planner op systeemniveau als de Personeelskosten van het initiatief in verband met het project. Zie voor meer informatie [Initiatieven maken en bewerken in de functie Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Optioneel) Klik op **Weergeven in Scenario Planner** het plan te openen dat het met het project samenhangende initiatief bevat. Hiermee opent u het deelvenster Scenario in een nieuw browsertabblad.
 1. (Optioneel) Informatie over het initiatief bijwerken. Zie voor meer informatie [Initiatieven maken en bewerken in de functie Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   > 
-   >U moet het initiatief na elke verandering voor het het Leiden gebied van het Middel op het project publiceren om bij te werken.
+   U moet het initiatief na elke verandering voor het het Leiden gebied van het Middel op het project publiceren om bij te werken.

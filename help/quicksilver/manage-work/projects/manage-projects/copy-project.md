@@ -6,16 +6,14 @@ description: U kunt een project kopiëren in plaats van er zelf een te maken. U 
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Een project kopiëren
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +31,7 @@ U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts 
 >* Notities
 >* Uren
 >* Predecessors voor meerdere projecten
->* <span class="preview">Geforceerde uren</span>
+>* Geforceerde uren
 >
 >De volgende punten worden altijd gekopieerd van een bestaand project aan nieuwe:
 >
@@ -179,12 +177,12 @@ Een project kopiëren:
    </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">Geforceerde uren</span></td> 
-      <td> <p><span class="preview">Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project. <span class="preview"></p>
+      <td role="rowheader">Geforceerde uren</td> 
+      <td> <p>Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project.</p>
 
 <b>OPMERKING</b>
 
-<span class="preview">De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Zie voor meer informatie <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken</a></span>
+De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Zie voor meer informatie <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Financiële informatie</td> 

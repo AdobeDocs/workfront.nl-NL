@@ -5,18 +5,14 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
 
 # De middelen van de begroting in BedrijfsGeval die de Planner van het Middel gebruiken
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Als deel van middelplanning, kunt u de project-vlakke Planner van het Middel gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
@@ -174,6 +170,4 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    De informatie over budgettering die in het bedrijfscase wordt gespecificeerd, wordt ook getoond in de Planner van het Middel.
 
-   <!--drafted for Budgeted Hours: 
-   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
-   -->
+   Wanneer u een project kopieert, hebt u de optie om de Begrotingshours aan het nieuwe project ook te kopiëren. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Zie voor meer informatie [Een project kopiëren](../manage-projects/copy-project.md).

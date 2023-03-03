@@ -5,17 +5,15 @@ title: Sjabloontaken kopiëren en verplaatsen
 description: U kunt een sjabloontaak naar dezelfde sjabloon of naar een andere sjabloon verplaatsen.
 author: Alina
 feature: Work Management
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
 
 
 # Sjabloontaken kopiëren en verplaatsen
-
-<span class="preview">Het kopiëren en verplaatsen van een sjabloontaak is beschikbaar in de productieomgeving. De stappen op deze pagina verwijzen echter alleen naar functionaliteit in de voorvertoningsomgeving. Deze functionaliteit is beschikbaar in Production op 2 maart 2023.</span>
 
 U kunt een sjabloontaak van een sjabloon naar een andere sjabloon kopiëren of deze naar een andere sjabloon of naar een andere plaats in dezelfde sjabloon verplaatsen.
 
