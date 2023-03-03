@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,26 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 2, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Uren vastleggen op verbonden kaarten aan boord</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Uren vastleggen op verbonden kaarten aan boord</a></p>
                         <p>U kunt nu uren aanmelden op verbonden kaarten, net als bij een taak of uitgave. U moet de correcte toestemmingen aan de taak of de kwestie hebben om de tijd te registreren.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -203,6 +219,22 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Verbeterde filterervaring algemeen beschikbaar in Adobe Workfront<span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></a>
+                        <p>De verbeterde filterervaring is over het algemeen beschikbaar en wordt op 2 maart 2023 de standaard filterbuilder in Voorvertoning. Een gefaseerde uitrol in Productie zal ook op 2 Maart beginnen, met beschikbaarheid voor alle klanten in de 23.2 versie.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 2 maart 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Productieversie: Met de release van 23.2</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
