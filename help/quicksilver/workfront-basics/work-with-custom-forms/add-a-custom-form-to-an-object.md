@@ -7,7 +7,7 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -15,6 +15,9 @@ ht-degree: 0%
 ---
 
 # Een aangepast formulier toevoegen aan een object
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een aangepast formulier bevat aangepaste velden waarin u informatie over het object kunt opslaan.
 
@@ -104,19 +107,23 @@ U kunt maximaal 10 aangepaste formulieren toevoegen aan een bepaald object, zoda
 
 ## Een aangepast formulier bulksgewijs aan meerdere objecten toevoegen
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit is released for NWE) </p>
--->
-
 U kunt aangepaste formulieren aan meerdere objecten toevoegen door deze in een lijst te selecteren.
+
+<!--
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+
+>[!NOTE]
+>
+><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+
+-->
 
 1. Navigeer naar een lijst met objecten.
 1. Selecteer meerdere objecten in de lijst.
 
 1. Klik op de knop **Meer** menu ![](assets/more-icon.png)klikt u op de knop **Bewerken** pictogram  ![](assets/edit-icon.png)of klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
-1. In de **Een selectie maken** selecteert u het formulier dat u aan alle geselecteerde objecten wilt koppelen.
-
+1. Selecteer het formulier dat u wilt koppelen aan alle geselecteerde objecten in het dialoogvenster **Een selectie maken** vervolgkeuzemenu.
    >[!NOTE]
    >
    >Als u het formulier niet kunt vinden in het vervolgkeuzemenu, betekent dit dat aan ten minste een van de objecten het formulier al is gekoppeld. Bepaal welk object dat is en verwijder het uit de selectie voordat u het formulier aan de overige objecten kunt toevoegen.

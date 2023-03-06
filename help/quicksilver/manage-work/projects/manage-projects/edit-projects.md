@@ -6,9 +6,9 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
-source-wordcount: '6382'
+source-wordcount: '6670'
 ht-degree: 0%
 
 ---
@@ -304,21 +304,40 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 
 ### Aangepaste Forms {#custom-forms}
 
+
+Afhankelijk van uw toegangsniveau en op uw toestemming op het project, bestaan de volgende scenario&#39;s:
+
+* Als u geen machtiging voor Aangepast formulier bewerken hebt voor het project, kunt u de velden op de gekoppelde aangepaste formulieren niet bewerken. U kunt de velden alleen weergeven op de aangepaste formulieren die zijn gekoppeld aan het project.
+* Als u toegang hebt tot een sectie op een aangepast formulier met Weergave (en niet Bewerken), kunt u de velden in die sectie niet bewerken.
+* Als u geen toegang hebt tot een sectie op een van de aangepaste formulieren die aan het project zijn gekoppeld, wordt de sectie niet weergegeven in het vak Project bewerken.
+
+Wanneer het selecteren van meer dan één project om hen in bulk uit te geven, bestaan de volgende scenario&#39;s:
+
+* Als u niet de toestemmingen van de Vorm van de Douane op minstens één van de geselecteerde projecten hebt uitgeven, kunt u niet de gebieden op om het even welke in bijlage douaneformulieren uitgeven. U kunt de velden alleen weergeven op de bijgevoegde aangepaste formulieren
+* Als u toegang hebt tot een sectie op een aangepast formulier met Weergave (en niet Bewerken), kunt u de velden in die sectie niet bewerken. U kunt de velden in die sectie alleen weergeven.
+* Als u geen toegang hebt tot een sectie op een van de aangepaste formulieren die aan ten minste een van de projecten is gekoppeld, wordt de sectie niet weergegeven in het vak Projecten bewerken.
+
+Raadpleeg de volgende artikelen voor informatie over aangepaste toegang tot formulieren:
+
+* [Een aangepast formulier delen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+* [Een sectie-einde toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+
+Informatie bewerken op aangepaste formulieren:
+
+
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
 
    ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
-1. Klik op de knop **Aangepast formulier toevoegen** en selecteer een formulier in de lijst om het bij het project te voegen.
-
-   U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor meer informatie over het samenstellen van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
-
-1. (Voorwaardelijk) Als u een aangepast formulier aan het project hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste gebieden specificeren alvorens u het project kunt bewaren.
+1. Klik op de knop **Aangepast formulier toevoegen** en selecteer een formulier in de lijst om het bij het project te voegen. Standaard worden de eerste 40 formulieren in alfabetische volgorde weergegeven. Als het formulier niet in de lijst wordt weergegeven, typt u de naam en selecteert u het vervolgens wanneer het in de lijst wordt weergegeven.
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het project zelf. Voor informatie over het instellen van machtigingen voor secties in een aangepast formulier raadpleegt u [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Voor informatie over het plaatsen van toestemmingen op projecten, zie [Een project delen in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >   U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor meer informatie over het samenstellen van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
 
+
+1. (Voorwaardelijk) Als u een aangepast formulier aan het project hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste gebieden specificeren alvorens u het project kunt bewaren.
 1. (Optioneel) Klik op de knop **X-pictogram** rechts van de naam van een aangepast formulier om het te verwijderen, klikt u op **Verwijderen**.
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen
 
@@ -327,6 +346,19 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
    Klikken **Opslaan**.
 
 ### Financiën {#finance}
+
+Afhankelijk van uw toegangsniveau en op uw toestemming op het project, bestaan de volgende scenario&#39;s:
+
+* Als u de toegang van de Mening tot Financiële Gegevens en de toestemmingen van de Financiën van de Mening over het project hebt, kunt u de gebieden in de sectie van de Financiën slechts bekijken. U kunt de velden in deze sectie niet bewerken.
+* Als u toegang tot financiële gegevens hebt bewerken en de machtigingen Financiën beheren voor het project, kunt u de velden in deze sectie bijwerken.
+
+Wanneer het selecteren van meer dan één project om hen in bulk uit te geven en, bestaan de volgende scenario&#39;s:
+
+* Als u minstens één project selecteert waar u de toestemmingen van de Financiën van de Mening (in plaats van Beheren van Financiën) hebt, kunt u de gebieden in deze sectie voor alle geselecteerde projecten slechts bekijken. U kunt de velden in de sectie Financiën niet bulksgewijs bewerken.
+* Als u ten minste één project selecteert waarvoor u geen financiële machtigingen hebt, wordt deze sectie helemaal niet weergegeven.
+
+Velden bewerken in het gebied Financiën:
+
 
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klikken **Financiën** in het linkerdeelvenster.
@@ -657,7 +689,18 @@ De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 
 ## Projecten bulksgewijs bewerken
 
-U kunt projecten bulksgewijs bewerken en alle gegevens tegelijkertijd bijwerken.
+U kunt projecten in bulk uitgeven en informatie voor alle geselecteerde projecten tezelfdertijd bijwerken.
+
+<!--
+The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
+
+Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+
+Editing projects in bulk differs depending on what environment you choose to update them in. 
+
+### Edit projects in bulk in the Production environment
+
+-->
 
 Projecten bulksgewijs bewerken:
 
@@ -716,9 +759,7 @@ Projecten bulksgewijs bewerken:
       <!--   
      <p>(NOTE: ensure this step stays accurate)</p>   
      -->
-   >[!NOTE]
-   >
-   >De informatie u over alle geselecteerde projecten wijzigt zal de bestaande informatie over individuele projecten met voeten treden, behalve **Resource Manager** veld. Het toevoegen van een nieuwe middelmanager in bulkgeef zal toevoegen die manager aan alle geselecteerde projecten. Als andere middelmanagers met de geselecteerde projecten worden geassocieerd, zullen zij op de projecten naast toegevoegd blijven door bulkgeef uit.
+
 
 1. (Optioneel) Selecteer in het gedeelte Instellingen een van de volgende opties:
 
@@ -750,3 +791,106 @@ Projecten bulksgewijs bewerken:
 1. Klikken **Wijzigingen opslaan**.
 
    Alle wijzigingen die u hebt aangebracht, zijn nu zichtbaar voor alle geselecteerde projecten.
+
+<!--drafted for bulk editing projects:  
+
+<div class="preview">
+
+### Edit projects in the Preview environment
+
+Consider the following when editing projects in bulk in the Preview environment:
+
+* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+
+   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+
+* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+
+    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+
+      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+
+    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+
+    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+
+    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+
+      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+
+* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+   >[!IMPORTANT]
+   >
+   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+
+* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+
+To edit projects in the Preview environment: 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Projects**.
+1. Select several projects in the list.
+1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+The **Edit Projects** dialog box opens. 
+
+   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+
+Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+
+1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
+
+   >[!TIP]
+   >
+   >Fields that you edit display with a light purple background.
+
+1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
+
+   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
+
+   ![](assets/custom-forms-in-common-unshimmed.png) 
+
+   >[!TIP]
+   >
+   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+
+1. Start typing the name of a custom form in the **Add custom form** field.
+
+
+   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+
+   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
+   
+   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
+   
+1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+
+   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+
+1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+
+   >[!CAUTION]
+   >
+   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+
+   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+
+1. Click **Finance** to edit financial information for all selected projects.
+For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
+1. Click **Project Settings** to edit the settings for all selected projects.
+For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
+1. Click **Task Settings** to edit the task settings for all selected projects. 
+For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
+1. Click **Issue Settings** to edit the issue settings for all selected projects.
+For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
+1. Click **Access** to edit the access settings for all selected projects.
+For more information about editing the Access area, see the section [Access](#access) in this article.
+1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+
+   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+
+1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
+1. Click **Save**. 
+
+<div>
+-->
