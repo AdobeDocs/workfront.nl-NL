@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 5292069412a73f824dbcd967d47737cff5ef58fa
+source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ U moet over de benodigde toegang of machtigingen beschikken in [!DNL SharePoint]
 Individuele gebruikers kunnen documenten koppelen via de nieuwe [!DNL SharePoint] integratie. Voor de integratie is geen beheerdersconfiguratie vereist. In plaats daarvan meldt de gebruiker zich aan bij hun [!DNL Microsoft] account bij koppelen van een document, waardoor de integratie toegang heeft tot documenten die beschikbaar zijn in de [!DNL SharePoint].
 
 De eerste keer dat een gebruiker verbinding maakt met de [!DNL Workfront] [!DNL SharePoint] integratie in hun [!DNL SharePoint] -account, kunnen ze alle machtigingen zien die [!DNL Workfront] gebruik bij interactie met hun [!UICONTROL SharePoint] account. Leesmachtigingen toestaan [!DNL Workfront] om bestanden te bekijken en te openen op [!DNL SharePoint]en schrijfmachtigingen geeft de gebruiker de mogelijkheid bestanden te uploaden naar [!DNL SharePoint].
+
+![Sharepoint-machtigingen](assets/sharepoint-permissions.png)
 
 Voor instructies voor het koppelen van documenten via de nieuwe [!DNL SharePoint] integratie, zie [Een extern document koppelen aan [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
