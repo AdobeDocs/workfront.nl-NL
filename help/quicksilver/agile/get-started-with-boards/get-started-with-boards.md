@@ -6,9 +6,9 @@ description: Bekijk deze artikelen voor meer informatie over het gebruik van bor
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
+* [Adobe Workfront Boards videodemonstraties](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [Optie voor vroege deelname aan raden](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Het dashboard voor tekengebieden gebruiken](../../agile/get-started-with-boards/use-boards-page.md)
 * [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md)

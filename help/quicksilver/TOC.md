@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: e1df51f5f689d7ecc7db56d1d836d34dbe40d1e1
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '12597'
+source-wordcount: '12602'
 ht-degree: 0%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 0%
       * [Scrum configureren](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Aan de slag met borden in Adobe Workfront {#boards-in-workfront}
       * [Aan de slag met borden in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Adobe Workfront Boards videodemonstraties](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Optie voor vroege deelname aan raden](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Het dashboard voor tekengebieden gebruiken](agile/get-started-with-boards/use-boards-page.md)
       * [Een board maken of bewerken](agile/get-started-with-boards/create-edit-board.md)
