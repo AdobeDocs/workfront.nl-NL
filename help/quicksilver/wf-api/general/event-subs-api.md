@@ -6,9 +6,9 @@ description: Event Subscription API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 0%
 
 ---
@@ -73,65 +73,10 @@ Voor een lijst met velden die worden ondersteund door gebeurtenisabonnementsobje
 
 Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement te maken, te vragen of te verwijderen:
 
-* Een toegangsniveau van &quot;Beheerder van het Systeem&quot;
-* An apiKey
+* Een toegangsniveau van &quot;Beheerder van het Systeem&quot;wordt vereist om de Abonnementen van de Gebeurtenis te gebruiken.
+* A `sessionID`  header is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
-   >[!NOTE]
-   >
-   >Als uw gebruiker de Workfront-API al gebruikt, moet uw gebruiker al een apiKey hebben. U kunt apiKey ophalen via de volgende HTTP-aanvraag:
-
-**Aanvraag-URL:**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**Aanvraagkoppen:**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>Naam koptekst</p> </th> 
-   <th> <p>Waarde koptekst</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Inhoudstype</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**Responscodes:**
-
-| Antwoordcode | Beschrijving |
-|---|---|
-| 200 (OK) | Het verzoek is verwerkt en de bestaande apiKey voor de gebruiker moet worden geretourneerd in de antwoordinstantie. |
-| 401 (Niet-geautoriseerd) | De server erkent het verzoek, maar kan het niet verwerken omdat de verzoekende apiKey/gebruiker geen toegang heeft om dit verzoek in te dienen. |
-
-{style=&quot;table-layout:auto&quot;}
-
-**Voorbeeld van reactiebody:**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> Als dit de eerste keer is met de Workfront API, moet u een apiKey genereren die u via deze koppeling kunt uitvoeren:
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   Zie voor meer informatie [Verificatie](api-basics.md#authentication) in [API-basisbeginselen](api-basics.md).
 
 ## Het vormen van het Middel van het Abonnement
 
@@ -268,8 +213,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Toestemming</p> </td> 
-   <td> <p>apiKey-waarde</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID, waarde</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,13 +236,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201 (gemaakt) | Het gebeurtenisabonnement is gemaakt. |
 | 400 (Ongeldige aanvraag) | Het URL-veld van de abonnementsbron werd als ongeldig beschouwd. |
-| 401 (Niet-geautoriseerd) | De opgegeven apiKey was leeg of werd ongeldig geacht. |
-| 403 (Verboden) | De gebruiker, die de verstrekte apiKey aanpast, heeft geen beheerderstoegang. |
+| 401 (Niet-geautoriseerd) | De opgegeven sessionID is leeg of wordt als ongeldig beschouwd. |
+| 403 (Verboden) | De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet. |
 
 Als u een abonnementsbron doorgeeft als de hoofdtekst van een aanvraag (waarbij het inhoudstype &#39;application/json&#39; is), wordt een gebeurtenisabonnement gemaakt voor het opgegeven object. Een antwoordcode van 201 (Gemaakt) geeft aan dat het abonnement is gemaakt. Een andere antwoordcode dan 201 betekent dat het abonnement **NOT** gemaakt.
 
 >[!NOTE]
- De responsheader &#39;Locatie&#39; bevat de URI van het zojuist gemaakte gebeurtenisabonnement.
+>
+> De responsheader &#39;Locatie&#39; bevat de URI van het zojuist gemaakte gebeurtenisabonnement.
 
 **Voorbeeld van responsheaders:**
 
@@ -342,8 +288,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Toestemming</p> </td> 
-   <td> <p>apiKey-waarde</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID, waarde</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,9 +298,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Antwoordcode | Beschrijving |
 |---|---|
-| 200 (OK) | Het verzoek is geretourneerd met alle gebeurtenisabonnementen die zijn gevonden voor de klant die overeenkomt met de opgegeven apiKey. |
-| 401 (Niet-geautoriseerd) | De opgegeven apiKey was leeg. |
-| 403 (Verboden) | De gebruiker, die de verstrekte apiKey aanpast, heeft geen beheerderstoegang. |
+| 200 (OK) | Het verzoek is geretourneerd met alle gebeurtenisabonnementen die zijn gevonden voor de klant die overeenkomt met de opgegeven sessionID. |
+| 401 (Niet-geautoriseerd) | De opgegeven sessionID is leeg. |
+| 403 (Verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
 **Voorbeeld van responsheaders:**
@@ -435,8 +381,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Toestemming</p> </td> 
-   <td> <p>apiKey-waarde</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID, waarde</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,8 +392,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | Antwoordcode | Beschrijving |
 |---|---|
 | 200 (OK) | Het verzoek is geretourneerd met het gebeurtenisabonnement dat overeenkomt met de opgegeven abonnement-id. |
-| 401 (Niet-geautoriseerd) | De opgegeven apiKey was leeg. |
-| 403 (Verboden) | De gebruiker, die de verstrekte apiKey aanpast, heeft geen beheerderstoegang. |
+| 401 (Niet-geautoriseerd) | De opgegeven sessionID is leeg. |
+| 403 (Verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
 **Voorbeeld van reactiebody:**
@@ -729,8 +675,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Toestemming</p> </td> 
-   <td> <p> apiKey van gebruiker </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID, waarde </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,11 +699,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
   </tr> 
   <tr> 
    <td>401 (Niet-geautoriseerd)</td> 
-   <td>De opgegeven apiKey was leeg.</td> 
+   <td>De opgegeven sessionID is leeg.</td> 
   </tr> 
   <tr> 
    <td>403 (Verboden)</td> 
-   <td>De gebruiker die met de opgegeven apiKey overeenkomt, heeft geen beheerderstoegang.</td> 
+   <td>De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet.</td> 
   </tr> 
   <tr> 
    <td>404 (niet gevonden)</td> 
@@ -949,7 +895,7 @@ Hieronder ziet u een voorbeeld van een aanvraag die het veld base64Encoding gebr
 
 Het volgende API eindpunt is afgekeurd en zou niet voor nieuwe implementaties moeten worden gebruikt. Wij adviseren ook overgangen oude implementaties aan de methode in **Abonnementen voor opvragen van gebeurtenissen** hierboven beschreven.
 
-U kunt alle gebeurtenisabonnementen voor een klant zoals die door de apiKey waarde wordt gespecificeerd vragen. De aanvraagsyntaxis voor het aanbieden van alle gebeurtenisabonnementen voor een specifieke klant is de volgende URL:
+U kunt alle gebeurtenisabonnementen voor een klant zoals die door de sessionID waarde wordt gespecificeerd vragen. De aanvraagsyntaxis voor het aanbieden van alle gebeurtenisabonnementen voor een specifieke klant is de volgende URL:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -970,8 +916,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Toestemming</p> </td> 
-   <td> <p> apiKey van gebruiker </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID, waarde </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,11 +940,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401 (Niet-geautoriseerd)</td> 
-   <td>De opgegeven apiKey was leeg.</td> 
+   <td>De opgegeven sessionID is leeg.</td> 
   </tr> 
   <tr> 
    <td>403 (Verboden)</td> 
-   <td>De gebruiker die met de opgegeven apiKey overeenkomt, heeft geen beheerderstoegang.</td> 
+   <td>De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet.</td> 
   </tr> 
  </tbody> 
 </table>
