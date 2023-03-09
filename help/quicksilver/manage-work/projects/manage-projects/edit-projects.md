@@ -6,17 +6,16 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '6670'
+source-wordcount: '7664'
 ht-degree: 0%
 
 ---
 
 # Projecten bewerken
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -691,16 +690,14 @@ De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 
 U kunt projecten in bulk uitgeven en informatie voor alle geselecteerde projecten tezelfdertijd bijwerken.
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+De informatie u op alle geselecteerde projecten verandert beschrijft de bestaande informatie over individuele projecten, behalve het gebied van de Manager van het Middel.
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+Het toevoegen van een nieuwe middelmanager wanneer het uitgeven van projecten in bulk voegt die manager aan alle geselecteerde projecten toe. Als andere middelmanagers met de geselecteerde projecten worden geassocieerd, blijven zij op de projecten naast één toegevoegd door bulkgeef uit.
 
-### Edit projects in bulk in the Production environment
+Het bewerken van grote hoeveelheden projecten is afhankelijk van de omgeving waarin u deze wilt bijwerken.
 
--->
+### Projecten bulksgewijs bewerken in de productieomgeving
 
 Projecten bulksgewijs bewerken:
 
@@ -792,105 +789,103 @@ Projecten bulksgewijs bewerken:
 
    Alle wijzigingen die u hebt aangebracht, zijn nu zichtbaar voor alle geselecteerde projecten.
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
-### Edit projects in the Preview environment
+### Projecten bewerken in de voorvertoningsomgeving
 
-Consider the following when editing projects in bulk in the Preview environment:
+Overweeg het volgende wanneer het uitgeven van projecten in bulk in het milieu van de Voorproef:
 
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+* Wanneer u projecten selecteert die verschillende waarden voor het zelfde gebied hebben, toont het gebied een &quot;Veelvoudige waarde&quot;indicator in het Edit de projectvakje. Naast velden die selectievakjes, keuzerondjes en schakelingen zijn, staat een indicator &quot;Meerdere waarden&quot;.
 
    ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+* Naast de indicator &quot;Meerdere waarden&quot; worden velden met meerdere opties op een van de volgende manieren weergegeven wanneer de gekozen opties verschillen op ten minste een van de geselecteerde projecten:
 
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+   * Velden voor selectievakjes hebben een regel in plaats van een selectievakje voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
       ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+   * Velden van het type van-/uitschakelen worden grijs weergegeven, met de knevel in het midden voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+   * In velden van het type keuzerondje waarin sommige opties zijn geselecteerd, maar niet alle opties, worden alle keuzerondjes als leeg weergegeven.
 
       ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+* Wanneer u een optie bijwerkt in een veld met meerdere opties (zoals een veld dat wordt weergegeven als een set gereedschappen of selectievakjes), moeten alle andere opties overeenkomen met de geselecteerde projecten.
 
    >[!IMPORTANT]
    >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+   >U hebt bijvoorbeeld een selectievakje met drie selectievakjes (Option1, Option 2 en Option 3) en Optie 1 is voor alle projecten uitgeschakeld. Optie 2 en 3 worden voor sommige van de geselecteerde projecten gecontroleerd en voor andere projecten uitgeschakeld. Als u Optie 1 voor alle projecten wilt controleren, moet u Optie 2 en 3 ook maken gelijke voor alle geselecteerde projecten alvorens u uw veranderingen kunt bewaren, zodat moet u of hen selecteren of hen schrappen zodat zij op alle geselecteerde projecten kunnen aanpassen. Als u geen van de opties wijzigt, kunt u het veld ongewijzigd opslaan en behouden de projecten hun huidige selectie voor alle opties.
 
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+* Wanneer u veelvoudige projecten selecteert die tot verschillende groepen behoren, zijn de statussen die op het gebied van de Status tonen systeem-vlakke statussen en niet groep-vlakke statussen.
 
-To edit projects in the Preview environment: 
+Projecten bewerken in de voorvertoningsomgeving:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klikken **Projecten**.
+1. Selecteer meerdere projecten in de lijst.
+1. Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
+De **Projecten bewerken** wordt geopend.
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+1. Klikken **Overzicht** algemene informatie over de geselecteerde projecten te bewerken.  Voor meer informatie over het uitgeven van het gebied van het Overzicht, zie de sectie [Overzicht](#overview) in dit artikel.
 
    >[!TIP]
    >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+   >Velden die u bewerkt, worden weergegeven met een lichtpaarse achtergrond.
 
-1. Start typing the name of a custom form in the **Add custom form** field.
+1. Klikken **Aangepaste Forms** aangepaste formulieren bewerken, toevoegen of vervangen die zijn gekoppeld aan de geselecteerde projecten.
+
+   De douaneformulieren die aan alle geselecteerde projecten in bijlage zijn tonen in **Aangepaste formulieren die veel worden gebruikt** in de **Aangepaste Forms** gebied.
+
+   ![](assets/custom-forms-in-common-unshimmed.png)
+
+   >[!TIP]
+   >
+   >   De namen van de formulieren die alle geselecteerde projecten gebruiken, worden weergegeven in het linkerdeelvenster van het vak Projecten bewerken.
+
+1. Typ de naam van een aangepast formulier in het dialoogvenster **Aangepast formulier toevoegen** veld.
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+   De douaneformulieren die reeds in bijlage aan de geselecteerde projecten zijn tonen in **Bijgevoegde formulieren** in de **Aangepast formulier toevoegen** veld.
 
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+   Aanvullende aangepaste formulieren die kunnen worden gekoppeld aan projecten, maar die niet zijn gekoppeld aan een van de geselecteerde projecten die worden weergegeven in het dialoogvenster **Forms toevoegen** in de **Aangepast formulier toevoegen** veld.
 
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+1. Klik om het aanvullende aangepaste formulier te selecteren in het dialoogvenster **Aangepast formulier toevoegen** of **Forms toevoegen** subsecties wanneer deze in de lijst worden weergegeven.
+
+   Wanneer een aangepast formulier al aan bepaalde geselecteerde projecten is gekoppeld, wordt naast de naam van het formulier aangegeven hoeveel projecten het formulier al hebben geselecteerd wanneer een formulier wordt toegevoegd.
+
+1. (Optioneel) Klik op de knop **x** rechts van de naam van een aangepast formulier klikt u op **Verwijderen** om het uit alle geselecteerde projecten te verwijderen.
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >   Als u aangepaste formulieren verwijdert, gaan alle bestaande aangepaste veldgegevens over de formulieren verloren. Dit kan niet worden hersteld.
 
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+   Zie de sectie voor meer informatie over het bewerken van aangepaste formulieren [Aangepaste Forms](#custom-forms) in dit artikel.
 
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+1. Klikken **Financiën** om de financiële informatie voor alle geselecteerde projecten te bewerken.
+Zie de sectie voor meer informatie over het bewerken van het gebied Financiën [Financiën](#finance) in dit artikel.
+1. Klikken **Projectinstellingen** om de instellingen voor alle geselecteerde projecten te bewerken.
+Zie de sectie voor meer informatie over het bewerken van het gebied Projectinstellingen [Projectinstellingen](#project-settings) in dit artikel.
+1. Klikken **Taakinstellingen** om de taakmontages voor alle geselecteerde projecten uit te geven.
+Zie de sectie voor meer informatie over het bewerken van het gedeelte Taakinstellingen [Taakinstellingen](#task-settings) in dit artikel.
+1. Klikken **Instellingen van uitgave** om de uitgaven montages voor alle geselecteerde projecten uit te geven.
+Zie de sectie voor meer informatie over het bewerken van het gedeelte Instellingen voor uitgave [Instellingen van uitgave](#issue-settings) in dit artikel.
+1. Klikken **Toegang** om de toegangsinstellingen voor alle geselecteerde projecten te bewerken.
+Zie de sectie voor meer informatie over het bewerken van het gebied Toegang [Toegang](#access) in dit artikel.
+1. (Optioneel) Als u de informatie die u in het vak Projecten bewerken hebt toegevoegd, wilt verwijderen, plaatst u de muisaanwijzer boven een bewerkt veld en klikt u op de knop **x** pictogram rechtsboven in het veld verwijderen.
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
+1. (Optioneel) Klik op **Annuleren** onder aan het dialoogvenster **Projecten bewerken** pagina om alle wijzigingen te verwijderen die in alle projecten zijn aangebracht.
+1. Klikken **Opslaan**.
 
 <div>
--->

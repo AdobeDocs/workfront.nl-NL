@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -188,9 +188,6 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->De inhoud op deze pagina verwijst naar functionaliteit die deel uitmaakt van de nieuwe Unified Commenting-ervaring, die momenteel alleen beschikbaar is in Adobe Workfront Goals. Voor meer informatie over de Verenigde Ervaring van Commentaren, zie [Unieke ervaring met opmerkingen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 U kunt commentaren aan doelstellingen in de sectie van Updates van een doelpagina toevoegen.
 
 U kunt reageren op of houden van een opmerking die u of anderen in dit gebied hebben toegevoegd.
@@ -203,6 +200,10 @@ Dit opent de doellijst.
 1. Beginnen met een opmerking in het dialoogvenster **Een opmerking schrijven** doos.
 
    ![](assets/comment-box-empty-unshimmed.png)
+
+   >[!TIP]
+   >
+   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
 
 1. (Optioneel) In het dialoogvenster **Waarschuwen** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
 1. Klikken **Verzenden**.
