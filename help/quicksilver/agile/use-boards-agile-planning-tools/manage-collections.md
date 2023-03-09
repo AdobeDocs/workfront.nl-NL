@@ -6,7 +6,7 @@ title: Verzamelingen beheren
 description: Een inzameling is een configureerbare groep raden van bestuur voor samenwerking aan het werk.
 author: Lisa
 feature: Agile
-source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een verzameling maken
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klikken **[!UICONTROL Create new]** in de [!UICONTROL Collections] gebied van het dashboard.
+1. Klikken **[!UICONTROL Add collection]** in de [!UICONTROL Collections] gebied van het dashboard.
 1. Typ een naam die u wilt vervangen **[!UICONTROL Untitled Collection]** en drukt u op Enter.
 
    U kunt tekengebieden toevoegen aan de verzameling of op [!UICONTROL **Alle kamers**] om terug te keren naar het dashboard.
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een nieuw bord maken in een verzameling
 
 1. Als u zich nog niet in een verzameling bevindt, klikt u op [!UICONTROL **Verzameling weergeven**] op het dashboard om een bestaande verzameling te openen.
-1. Klikken **[!UICONTROL Create new]** op de [!UICONTROL Boards] tabblad van de verzameling.
+1. Klikken **[!UICONTROL Add board]** op de [!UICONTROL Boards] tabblad van de verzameling.
 1. Selecteer een sjabloon voor het bord.
 
 | Sjabloon | Beschrijving |

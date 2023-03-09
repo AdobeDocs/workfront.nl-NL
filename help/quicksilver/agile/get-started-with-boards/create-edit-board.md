@@ -6,7 +6,7 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een nieuw bord maken
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Als u een zelfstandig toetsenbord wilt maken, klikt u op **[!UICONTROL Create New]** in de [!UICONTROL Boards] gebied. Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Als u een zelfstandig toetsenbord wilt maken, klikt u op **[!UICONTROL Add board]** in de [!UICONTROL Boards] gebied. Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
