@@ -6,7 +6,7 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -110,7 +110,7 @@ Houd rekening met het volgende wanneer u projecten bewerkt:
 
 ## Een project bewerken
 
-Als u een project bewerkt, kunt u informatie en instellingen voor het project wijzigen, evenals taken en problemen voor het project.
+Door een project uit te geven kunt u informatie en montages voor het project, evenals taken en kwesties op het project wijzigen.
 
 Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatus door hun staat in het malplaatje kunnen worden gewijzigd waarvan het project werd gecreeerd. Voor informatie over het bewerken van sjablonen raadpleegt u [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
