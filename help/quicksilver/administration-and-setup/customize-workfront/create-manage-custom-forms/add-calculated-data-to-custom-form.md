@@ -1,5 +1,5 @@
 ---
-title: Berekende gegevens toevoegen aan een aangepast formulier
+title: Berekende gegevens toevoegen aan een aangepast formulier met de oudere formulierbuilder
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e24a0408049e7eb2e7cb97833e7f41ea66e8131b
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2573'
 ht-degree: 0%
 
 ---
 
-# Berekende gegevens toevoegen aan een aangepast formulier
+# Berekende gegevens toevoegen aan een aangepast formulier met de oudere formulierbuilder
 
 In een aangepast formulier kunt u een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
 
@@ -145,9 +145,9 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
    >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak van de fout weer te geven.
       >  ![](assets/error-help.png)
    >* Geef een voorvertoning van de resultaten weer in het gebied onder de berekening.
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
 
-   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-   >  ![](assets/preview-calc.jpg)
+      >  ![](assets/preview-calc.jpg)
    >* Verwijzingsexpressies in een lange berekening met behulp van de regelnummers die aan de linkerkant worden weergegeven.
 
 

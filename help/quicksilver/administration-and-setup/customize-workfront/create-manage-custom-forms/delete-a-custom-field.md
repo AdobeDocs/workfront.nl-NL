@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Voor informatie over hoe de beheerders van Workfront deze toegang verlenen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,10 +68,14 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 >Het verwijderen van een aangepast veld uit een aangepast formulier met meer dan 500 velden en widgets kan niet ongedaan worden gemaakt. Als u het veld verwijdert, kunt u het pas opnieuw toevoegen als het formulier minder dan 500 velden en widgets heeft.
 
 1. Bepaal welke aangepaste velden u uit het oorspronkelijke aangepaste formulier wilt verwijderen, maar verwijder deze op dit moment niet.
-1. Een nieuw aangepast formulier maken, zoals wordt beschreven in [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Een nieuw aangepast formulier maken:
 
-   1. Voeg de aangepaste velden toe aan het nieuwe formulier dat u uit het oorspronkelijke aangepaste formulier wilt verwijderen, zoals wordt beschreven in [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   1. Voeg de aangepaste velden toe aan het nieuwe formulier dat u uit het oorspronkelijke aangepaste formulier wilt verwijderen.
+
+      * Als u de aangepaste formulierbuilder gebruikt, raadpleegt u [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+      * Als u de formulierontwerper gebruikt, raadpleegt u [Nieuwe of bestaande velden toevoegen aan uw aangepaste formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
    1. Sla het nieuwe aangepaste formulier op.
+
 
 1. De toegang tot het aangepaste formulier beperken tot gebruikers met beheerdersrechten, zoals beschreven in [Een aangepast formulier delen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. Pas het nieuwe aangepaste formulier toe op de objecten waarop het oorspronkelijke aangepaste formulier al is toegepast, zoals beschreven in [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

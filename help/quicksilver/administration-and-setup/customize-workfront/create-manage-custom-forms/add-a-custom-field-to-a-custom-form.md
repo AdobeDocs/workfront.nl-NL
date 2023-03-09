@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Een aangepast veld toevoegen aan een aangepast formulier
+title: Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder
 description: Wanneer u aan een aangepast formulier werkt, kunt u een nieuw aangepast veld maken en dit toevoegen aan een aangepast formulier. U kunt ook een aangepast veld toevoegen dat al aan een ander aangepast formulier is toegevoegd.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: a0b483e3ced69cbe59d51cca2edfb017ddadd09a
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
 
-# Een aangepast veld toevoegen aan een aangepast formulier
+# Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder
 
 Wanneer u aan een aangepast formulier werkt, kunt u een nieuw aangepast veld maken en dit toevoegen aan een aangepast formulier.
 

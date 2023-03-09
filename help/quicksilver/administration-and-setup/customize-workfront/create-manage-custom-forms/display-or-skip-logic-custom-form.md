@@ -1,5 +1,5 @@
 ---
-title: Weergavelogica toevoegen en logica overslaan naar een aangepast formulier
+title: Weergavelogica toevoegen en logica overslaan naar een aangepast formulier met de oudere formulierbuilder
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 59e3b958dd81f2f068bc06c3fe439de0084f9ce4
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
-# Weergavelogica toevoegen en logica overslaan naar een aangepast formulier
+# Weergavelogica toevoegen en logica overslaan naar een aangepast formulier met de oudere formulierbuilder
 
 U kunt bepalen welke secties van een aangepast formulier moeten worden weergegeven of overgeslagen op basis van de keuzes die een gebruiker maakt bij het invullen.
 
@@ -48,7 +48,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 * Als u weergavelogica wilt toevoegen aan een aangepast veld, een widget of een sectie-einde, moet ten minste één meerkeuzeveld (keuzerondjes, vervolgkeuzelijst of selectievakjes) vóór dit veld op het formulier worden geplaatst.
 
-   Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * U kunt geen logica overslaan toevoegen aan een widget of sectie-einde. U kunt het alleen toevoegen aan een veld met meerdere keuzen (keuzerondjes, vervolgkeuzelijst of selectievakjes).
 

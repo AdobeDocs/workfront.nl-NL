@@ -2,12 +2,13 @@
 title: Aangepaste formulieren en widgets die aan aangepaste formulieren zijn toegevoegd, weergeven en bewerken
 description: Wanneer u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
 author: Caroline
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
 
 ---
+
 
 # Aangepaste formulieren en widgets die aan aangepaste formulieren zijn toegevoegd, weergeven en bewerken
 

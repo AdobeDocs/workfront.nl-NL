@@ -1,5 +1,5 @@
 ---
-title: Een aangepast formulier maken of bewerken
+title: Een aangepast formulier maken of bewerken met de oudere formulierbuilder
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,18 +8,18 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
-# Een aangepast formulier maken of bewerken
+# Een aangepast formulier maken of bewerken met de oudere formulierbuilder
 
 U kunt een nieuw aangepast formulier maken of bewerken. Beide taken worden in dit artikel uitgelegd.
 
-Voor informatie over het maken van een nieuw aangepast formulier op basis van een bestaand formulier raadpleegt u [Een aangepast formulier kopiëren om een nieuw formulier te maken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+Voor informatie over het maken van een nieuw aangepast formulier op basis van een bestaand formulier raadpleegt u [Een aangepast formulier kopiëren om een nieuw formulier te maken met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
 ## Toegangsvereisten
 

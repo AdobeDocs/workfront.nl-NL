@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: maken,aangepast,formulier,kopiëren,basis,een ander
 navigation-topic: create-and-manage-custom-forms
-title: Een aangepast formulier kopiëren om een nieuw formulier te maken
+title: Een aangepast formulier kopiëren om een nieuw formulier te maken met de verouderde builder
 description: U kunt een nieuw aangepast formulier maken dat is gebaseerd op een bestaand formulier.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Een aangepast formulier kopiëren om een nieuw formulier te maken
+# Een aangepast formulier kopiëren om een nieuw formulier te maken met de verouderde builder
 
 U kunt een nieuw aangepast formulier maken dat is gebaseerd op een bestaand formulier.
 
@@ -80,12 +80,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 1. Selecteer het formulier dat u net hebt gekopieerd en klik op **Bewerken**.
 1. Breng wijzigingen aan in het formulier, zoals wordt uitgelegd in de volgende artikelen:
 
-   * [Een aangepast formulier kopiëren om een nieuw formulier te maken](#Add2)
-   * [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Aangepaste velden en widgets in een aangepast formulier plaatsen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Weergavelogica toevoegen en logica overslaan naar een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Een aangepast formulier voorvertonen en invullen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Een aangepast formulier kopiëren om een nieuw formulier te maken met de oudere formulierbuilder](#Add2)
+   * [Berekende gegevens toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Aangepaste velden en widgets in een aangepast formulier plaatsen met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Weergavelogica toevoegen en logica overslaan naar een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Een aangepast formulier voorvertonen en invullen met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. (Optioneel) Klik op **Opslaan en sluiten** voegt u het formulier toe aan het object waar u het wilt gebruiken, zoals wordt beschreven in [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

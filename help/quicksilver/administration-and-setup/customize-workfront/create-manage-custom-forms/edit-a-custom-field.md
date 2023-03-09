@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -52,15 +52,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 1. Klikken **Aangepaste Forms.**
 1. Klik op de knop **Velden** tab.
-
-   <!--
-   Or
-   If you are editing the properties for an image or video widget, click the <b>Widget Library</b> tab.</p>
-   -->
-
 1. Selecteer het aangepaste veld, het sectie-einde of de widget en klik vervolgens op **Bewerken**.
 1. Wijzig in het vak dat wordt weergegeven de opties die beschikbaar zijn voor het item dat u bewerkt.
 
-   Voor informatie over deze opties raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) of [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Meer informatie over deze opties vindt u
+   * Als u de aangepaste formulierbuilder gebruikt, raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) of [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * Als u de formulierontwerper gebruikt, raadpleegt u [Een formulier ontwerpen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Als u klaar bent, klikt u op **Opslaan + Sluiten**.

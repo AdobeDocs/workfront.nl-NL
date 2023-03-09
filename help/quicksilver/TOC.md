@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 51d4fdb5a47099f22d171a700ee9cf5270fb1553
+source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
 workflow-type: tm+mt
-source-wordcount: '12620'
+source-wordcount: '12770'
 ht-degree: 0%
 
 ---
@@ -475,29 +475,48 @@ ht-degree: 0%
       * Aangepaste formulieren {#custom-forms}
          * [Aangepaste formulieren](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Overzicht van aangepaste formulieren](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * [Een aangepast formulier maken of bewerken](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-         * [Een aangepast formulier kopiëren om een nieuw formulier te maken](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-         * [Een aangepast veld toevoegen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-         * [Een afbeeldings- of andere middelenwidget toevoegen aan een aangepast formulier](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-         * [Sectie-einde toevoegen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-         * [Toegang tot aangepaste velden](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-         * [Berekende gegevens toevoegen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-         * [Een bestaand berekend aangepast veld opnieuw gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-         * [Aangepaste velden en widgets plaatsen](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-         * [Delen voor aangepaste velden en widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-         * [Een aangepast veld of aangepaste widget opnieuw gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-         * [Weergavelogica toevoegen en logica overslaan](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-         * [Een aangepast formulier delen](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-         * [Een aangepast formulier voorvertonen en invullen](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-         * [Aangepaste formulieren in rapporten raadplegen](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-         * [Rapporten weergeven die een aangepast veld of een aangepaste widget gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-         * [Aangepaste formulieren weergeven die een aangepast veld of een aangepaste widget gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-         * [Aangepaste formuliergegevens overbrengen bij de conversie van een object](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-         * [Een aangepast formulier verwijderen of deactiveren](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
-         * [Eigenschappen van een aangepast veld, sectie-einde of widget bewerken](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-         * [Een aangepast veld of aangepaste widget uit het systeem verwijderen](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-         * [Opslag van rijke tekstvelden in de API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-         * [Objecttypen verwijderen op een aangepast formulier](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * Verouderde aangepaste formulierbuilder {#custom-form-builder}
+            * De aangepaste formulierbuilder gebruiken {#use-the-custom-form-builder}
+               * [De verouderde aangepaste formulierbuilder gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+               * [Een aangepast formulier maken of bewerken met de verouderde builder](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+               * [Een aangepast formulier kopiëren om een nieuw formulier te maken met de verouderde builder](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+               * [Een aangepast veld toevoegen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [Een afbeeldings- of andere middelenwidget toevoegen aan een aangepast formulier met de verouderde builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+               * [Een sectie-einde toevoegen met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+               * [Berekende gegevens toevoegen met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+               * [Een bestaand berekend aangepast veld opnieuw gebruiken met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+               * [Aangepaste velden en widgets positioneren met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+               * [Delen voor aangepaste velden en widgets met de verouderde builder](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+               * [Een aangepast veld of aangepaste widget opnieuw gebruiken met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
+               * [Weergavelogica toevoegen en logica overslaan met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+               * [Een aangepast formulier voorvertonen en invullen met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+               * [Objecttypen op een aangepast formulier verwijderen met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * Ontwerper van formulier {#form-designer}
+            * [Ontwerper van formulier](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+            * [Overzicht van de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+            * Een aangepast formulier ontwerpen {#design-a-form}
+               * [Een formulier ontwerpen](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+               * [Een formulier ontwerpen met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+               * [Een formulier ontwerpen op basis van een kopie met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+               * [Berekende velden toevoegen met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+               * [Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+            * Een formulier beheren {#manage-a-form}
+               * [Een formulier beheren](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
+               * [Objecttypen toevoegen aan of verwijderen uit een bestaand aangepast formulier met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+               * [De naam van een aangepast formulier wijzigen met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+         * Aangepaste formulieren beheren {#manage-custom-forms}
+            * [Aangepaste formulieren en velden beheren](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [Een aangepast formulier delen](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+            * [Toegang tot aangepaste velden](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [Een aangepast formulier deactiveren of opnieuw activeren](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+            * [Aangepaste formulieren in rapporten raadplegen](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+            * [Rapporten weergeven die een aangepast veld of een aangepaste widget gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+            * [Aangepaste formulieren weergeven die een aangepast veld of een aangepaste widget gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+            * [Aangepaste formuliergegevens overbrengen bij de conversie van een object](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+            * [Eigenschappen van een aangepast veld, sectie-einde of widget bewerken](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Een aangepast veld of aangepaste widget uit het systeem verwijderen](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+            * [Een aangepast formulier verwijderen](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+            * [Opslag van rijke tekstvelden in de API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
       * Statussen en prioriteitslabels {#statuses-priority-labels}
          * [Aangepaste statussen en prioriteitslabels maken](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Overzicht van statussen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
