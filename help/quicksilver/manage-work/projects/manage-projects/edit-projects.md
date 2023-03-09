@@ -6,7 +6,7 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
+source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 0%
@@ -64,6 +64,7 @@ U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak nodig. Wij adv
  </tbody> 
 </table>
 -->
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -230,10 +231,10 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
      <tr> 
       <td role="rowheader"><strong>Type voorwaarde</strong> </td> 
       <td> <p>Selecteer een van de volgende Condition Types: 
-        <ul> 
-         <li><strong>Handmatig:</strong> De eigenaar van het project stelt de voorwaarde handmatig in op het project.</li> 
-         <li><strong>Voortgangsstatus:</strong> Workfront stelt de voorwaarde automatisch in op basis van de status van voortgang van taken op het kritieke pad. Voor meer informatie over het begrijpen van de Status van de Voortgang, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang van taak</a>.</li> 
-        </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> selecteert het gebrek voor hoe de voorwaarde van de projecten voor uw systeem wordt berekend <span>of uw groep</span>. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>Handmatig:</strong> De eigenaar van het project stelt de voorwaarde handmatig in op het project.</li> 
+       <li><strong>Voortgangsstatus:</strong> Workfront stelt de voorwaarde automatisch in op basis van de status van voortgang van taken op het kritieke pad. Voor meer informatie over het begrijpen van de Status van de Voortgang, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang van taak</a>.</li> 
+       </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> selecteert het gebrek voor hoe de voorwaarde van de projecten voor uw systeem wordt berekend <span>of uw groep</span>. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Voorwaarde</strong> </td> 
@@ -242,10 +243,10 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
      <tr> 
       <td role="rowheader"><strong>Planningsmodus</strong> </td> 
       <td> <p>Geef op of het project gepland is vanaf de begindatum of vanaf de einddatum. Deze selectie bepaalt de geplande data van de taken betreffende het project. 
-        <ul> 
-         <li><strong>Begindatum</strong>: De eerste taak van het project heeft de zelfde Geplande Datum van het Begin zoals het project door gebrek. Voor informatie over de taak Geplande Datum van het Begin, zie <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overzicht van de geplande startdatum van de taak</a>. De projecttijdlijn berekent vanaf de begindatum en de einddatum van het project wordt door het systeem berekend op basis van de duur van alle taken. </li> 
-         <li><strong>Voltooiingsdatum</strong>: De laatste taak van het project heeft de zelfde Geplande Datum van Voltooiing zoals het project. De projecttijdlijn berekent vanaf de afsluitende datum en de begindatum van het project wordt door het systeem berekend door de duur van alle taken af te trekken van de afsluitende datum van het project. </li> 
-        </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> Hiermee selecteert u de standaardinstelling voor de planningsmodus voor uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>Begindatum</strong>: De eerste taak van het project heeft de zelfde Geplande Datum van het Begin zoals het project door gebrek. Voor informatie over de taak Geplande Datum van het Begin, zie <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overzicht van de geplande startdatum van de taak</a>. De projecttijdlijn berekent vanaf de begindatum en de einddatum van het project wordt door het systeem berekend op basis van de duur van alle taken. </li> 
+       <li><strong>Voltooiingsdatum</strong>: De laatste taak van het project heeft de zelfde Geplande Datum van Voltooiing zoals het project. De projecttijdlijn berekent vanaf de afsluitende datum en de begindatum van het project wordt door het systeem berekend door de duur van alle taken af te trekken van de afsluitende datum van het project. </li> 
+       </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> Hiermee selecteert u de standaardinstelling voor de planningsmodus voor uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Geplande begindatum en -tijd</strong> </td> 
@@ -266,10 +267,10 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
      <tr> 
       <td role="rowheader"><strong>Groep</strong></td> 
       <td> <p> <p>Geef de naam op van de groep die aan het project is gekoppeld. </p>Dit is een verplicht veld. U kunt geen project hebben dat niet aan een groep wordt geassocieerd. </p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> Door gebrek, wordt één van de volgende groepen automatisch geassocieerd met een project wanneer het wordt gecreeerd, tenzij u een verschillende groep specificeert:</p> 
-        <ul> 
-         <li> <p><span>Wanneer het project van het gebied van Projecten wordt gecreeerd, wordt de Groep van het Huis van de projectschepper geassocieerd met het project.</span> </p> <p>Dit is ook waar wanneer het project van de sectie van Projecten in een portefeuille of een programma wordt gecreeerd.</p> </li> 
-         <li> <p>Wanneer het project van de belangrijkste pagina van een groep in het gebied van de Opstelling wordt gecreeerd, wordt die groep geassocieerd met het project.</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Als het project, of zijn taken of kwesties reeds met een groep-vlakke goedkeuringsproces gebruikend groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de groep een conflict tussen de goedkeuringsstatussen van de vorige groep en die op het systeemniveau kunnen tot stand brengen. U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep bijwerkt. Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Goedkeuringsprocessen op groepsniveau</a>. Voor informatie over het creëren van een groep-vlakke douanestatus, zie <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Een groepsstatus maken of bewerken</a></p> </td> 
+       <ul> 
+       <li> <p><span>Wanneer het project van het gebied van Projecten wordt gecreeerd, wordt de Groep van het Huis van de projectschepper geassocieerd met het project.</span> </p> <p>Dit is ook waar wanneer het project van de sectie van Projecten in een portefeuille of een programma wordt gecreeerd.</p> </li> 
+       <li> <p>Wanneer het project van de belangrijkste pagina van een groep in het gebied van de Opstelling wordt gecreeerd, wordt die groep geassocieerd met het project.</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Als het project, of zijn taken of kwesties reeds met een groep-vlakke goedkeuringsproces gebruikend groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de groep een conflict tussen de goedkeuringsstatussen van de vorige groep en die op het systeemniveau kunnen tot stand brengen. U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep bijwerkt. Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Goedkeuringsprocessen op groepsniveau</a>. Voor informatie over het creëren van een groep-vlakke douanestatus, zie <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Een groepsstatus maken of bewerken</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bedrijf</strong> </td> 
@@ -293,7 +294,7 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 
    >[!TIP]
    >
-   >   Wanneer u de velden Projecteigenaar, Projectsponsor en Resource Manager bijwerkt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >Wanneer u de velden Projecteigenaar, Projectsponsor en Resource Manager bijwerkt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
 
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
 
@@ -302,7 +303,6 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
    Klikken **Opslaan**.
 
 ### Aangepaste Forms {#custom-forms}
-
 
 Afhankelijk van uw toegangsniveau en op uw toestemming op het project, bestaan de volgende scenario&#39;s:
 
@@ -333,7 +333,7 @@ Informatie bewerken op aangepaste formulieren:
 
    >[!NOTE]
    >
-   >   U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor meer informatie over het samenstellen van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
+   >U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor meer informatie over het samenstellen van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
 
 
 1. (Voorwaardelijk) Als u een aangepast formulier aan het project hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste gebieden specificeren alvorens u het project kunt bewaren.
@@ -514,17 +514,12 @@ Velden bewerken in het gebied Financiën:
        <td> <p>Selecteer het goedkeuringsproces u met het project wilt associëren. Uw Workfront-beheerder moet goedkeuringsprocessen op systeemniveau definiëren voordat u deze aan projecten kunt koppelen. <span>Een gebruiker met administratieve toegang tot goedkeuringsprocessen kan ook groepsspecifieke goedkeuringsprocessen maken.</span> Voor meer informatie over het creëren van goedkeuringsprocessen, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Een goedkeuringsproces voor werkitems maken</a>.</p> <p>Houd rekening met het volgende wanneer u goedkeuringsprocessen toevoegt: </p> 
        <ul> 
        <li>Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. </li> 
-       <li> <p>Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het project toont niet in de lijst.</p> <p>Als de groep verbonden aan het project verandert, wordt het groep-specifieke goedkeuringsproces een enig-gebruiksgoedkeuringsproces. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>. </p> </li>
-
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-
-   <p>Bij projecten voor het bewerken van grote hoeveelheden bestaan de volgende scenario's:</p>
-
-   <ul> 
-   <li> <p>Wanneer u projecten van de zelfde groep selecteert, zowel systeem-vlakke als groep-vlakke goedkeuringsprocessen tonen op dit gebied.</p> </li> 
-   <li> <p>Wanneer u projecten uit verschillende groepen selecteert, worden op dit gebied alleen goedkeuringsprocessen op systeemniveau weergegeven.</p> </li> 
-   <li> <p>Wanneer voor een van de projecten een goedkeuringsproces voor eenmalig gebruik is gekoppeld, wordt dit vervangen door het goedkeuringsproces op systeemniveau of op groepsniveau dat u selecteert. </p> </li> 
-   </ul> 
+       <li> <p>Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het project toont niet in de lijst.</p> <p>Als de groep verbonden aan het project verandert, wordt het groep-specifieke goedkeuringsproces een enig-gebruiksgoedkeuringsproces. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>Bij projecten voor het bewerken van grote hoeveelheden bestaan de volgende scenario's:</p> 
+       <ul> 
+       <li> <p>Wanneer u projecten van de zelfde groep selecteert, zowel systeem-vlakke als groep-vlakke goedkeuringsprocessen tonen op dit gebied.</p> </li> 
+       <li> <p>Wanneer u projecten uit verschillende groepen selecteert, worden op dit gebied alleen goedkeuringsprocessen op systeemniveau weergegeven.</p> </li> 
+       <li> <p>Wanneer voor een van de projecten een goedkeuringsproces voor eenmalig gebruik is gekoppeld, wordt dit vervangen door het goedkeuringsproces op systeemniveau of op groepsniveau dat u selecteert. </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -867,7 +862,7 @@ Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw la
 
    >[!CAUTION]
    >
-   >   Als u aangepaste formulieren verwijdert, gaan alle bestaande aangepaste veldgegevens over de formulieren verloren. Dit kan niet worden hersteld.
+   >Als u aangepaste formulieren verwijdert, gaan alle bestaande aangepaste veldgegevens over de formulieren verloren. Dit kan niet worden hersteld.
 
    Zie de sectie voor meer informatie over het bewerken van aangepaste formulieren [Aangepaste Forms](#custom-forms) in dit artikel.
 
@@ -887,5 +882,3 @@ Zie de sectie voor meer informatie over het bewerken van het gebied Toegang [Toe
 
 1. (Optioneel) Klik op **Annuleren** onder aan het dialoogvenster **Projecten bewerken** pagina om alle wijzigingen te verwijderen die in alle projecten zijn aangebracht.
 1. Klikken **Opslaan**.
-
-<div>
