@@ -6,9 +6,9 @@ description: U kunt een externe webpagina in een dashboard insluiten om toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,27 @@ Als uw organisatie bijvoorbeeld een op het web gebaseerde opslagplaats voor docu
 >Vanwege beveiligingsredenen kunt u met bepaalde websites geen webpagina&#39;s insluiten als een iframe. Als de webpagina die u in een dashboard wilt insluiten dit niet toestaat, wordt de pagina niet weergegeven in het dashboard. U kunt de externe pagina echter nog steeds openen door op de naam van het dashboard te klikken.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
 >Als u insluiten wilt toestaan voor een website die u bezit, werkt u samen met uw webbeheerder om de instelling **X-frame-opties** instellen. Zie voor meer informatie [X-frame-opties](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+
+
+>[!IMPORTANT]
+>
+>Dashboardpagina&#39;s worden niet meer ondersteund als ingesloten externe pagina&#39;s in dashboards. De volgende Workfront.com-subdomeinen worden niet meer ondersteund:
+>
+>* /dashboards &#x200B;
+>* /dashboard/:ID-&#x200B;
+>* /portfolio/:ID/content-dashboard__:dashboardID-&#x200B;
+>* /program/:ID/content-dashboard__:dashboardID &#x200B;
+>* /project/:ID/content-dashboard__:dashboardID &#x200B;
+>* /task/:ID/content-dashboard__:dashboardID &#x200B;
+>* /template/:ID/content-dashboard__:dashboardID-&#x200B;
+>* /templatetask/:ID/content-dashboard__:dashboardID &#x200B;
+>* /resourcesManagement/:ID/content-dashboard__:dashboardID &#x200B;
+>* /team/:ID/content-dashboard__:dashboardID &#x200B;
+>* /iteration/:ID/content-dashboard__:dashboardID &#x200B;
+>* /Requests/:ID/content-dashboard__:dashboardID &#x200B;
+>* /group/:ID/content-dashboard__:dashboardID &#x200B;
+>* /billingrecord/:ID/content-dashboard__:dashboardID
+
 
 ## Toegangsvereisten
 
