@@ -4,9 +4,9 @@ description: 23.2 Beheerdersverbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
 
 * **De grootte voor beschrijvende tekst wijzigen**: U kunt nu kleine, middelgrote of grote formaten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden. <span style="color: #ff0000;"> Het wijzigen van de grootte van de beschrijvende tekst is tijdelijk uitgesteld, maar komt binnenkort.</span></li>
 
-Zie voor meer informatie [Overzicht van de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+Zie voor meer informatie [Overzicht van de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Naam van punten in lay-outsjabloon wijzigen
 
@@ -37,4 +39,4 @@ U kunt nu de namen van punten in een lay-outsjabloon wijzigen zodat deze voor uw
 
 Zie voor meer informatie [Vastgezette pagina&#39;s aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Voor meer informatie over hoe gebruikers de naam van hun persoonlijke vastgezette pagina&#39;s kunnen wijzigen, raadpleegt u [Pagina&#39;s vastzetten om uw werkruimte aan te passen](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3414364/)
+[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3414364/){target=_blank}
