@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
+source-git-commit: 4f3764665b902cd52fa15c56294df084111e3399
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '2237'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,13 @@ De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. D
 
 Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaandelijkse Adobe Workfront-release voorbereiden](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
-<!-- The 23.2 release webinar will be held on ___. You can [register for the webinar here](link). -->
+## Wbinar vrijgeven
+
+In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe Summit om de volgende Workfront-sessies te bekijken:
+
+[Effectieve ervaringen: Van het maken van inhoud tot personalisatie](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) op 21 maart 2023 nieuwe manieren te leren om inhoud te maken, te beheren en aan te passen, en effectieve ervaringen met grotere efficiëntie te bieden. Deze sessie wordt live gestreamd voor een virtueel publiek.
+
+[De toekomst van Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) op 23 maart 2023 om de visie op Workfront en zijn plaats in het ecosysteem van de Adobe te zien en een blik op de toekomstige routekaart te werpen. Deze sessie wordt opgenomen en later beschikbaar als on-demand-inhoud.
 
 <span class="preview">Functies buiten de cyclus (functies die vóór de releasedatum van 23.2 worden vrijgegeven) worden geel gemarkeerd.</span>
 
@@ -30,6 +36,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
 * [Verbeteringen voor mobiele apparaten](#agile-enhancements)
 * [Verbeteringen voor projectbeheer](#project-management-enhancements)
 * [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
+* [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -50,7 +57,30 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Naam van punten in lay-outsjabloon wijzigen</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Aangepaste formulieren maken met de nieuwe formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <p>De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken.</p>
+                        <p>Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om 
+                        <ul>
+                        <li><strong>Een veld kopiëren</strong>: U kunt bestaande velden nu kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.</li>
+                        <li><strong>Standaardsectie gebruiken</strong>: Als de maker van het formulier geen sectie boven aan het formulier heeft toegevoegd, wordt nu een sectie Standaard weergegeven op het canvas, zodat gebruikers de machtigingen kunnen aanpassen voor velden waaraan geen aangepaste sectie is toegewezen. </li>
+                        <li><strong>De grootte voor beschrijvende tekst wijzigen</strong>: U kunt nu kleine, middelgrote of grote formaten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden. <span style="color: #ff0000;"> Het wijzigen van de grootte van de beschrijvende tekst is tijdelijk uitgesteld, maar komt binnenkort.</span></li> 
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 9 maart 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie: Met de release van 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Naam van punten in lay-outsjabloon wijzigen</span></a>
                         </span></a><p>U kunt nu de namen van punten in een lay-outsjabloon wijzigen zodat deze voor uw gebruikers betekenisvoller worden in plaats van de standaardnaam voor de vastgezette pagina te gebruiken. Punten die beheerders maken, worden weergegeven voor alle gebruikers die aan de lay-outsjabloon zijn toegewezen en gebruikers kunnen de naam van die punten niet wijzigen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -82,26 +112,26 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen toevoegen aan Workfront-raden vanuit lijsten en rapporten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een Workfront-board. Alle items die u toevoegt aan de kaart worden verbonden kaarten.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 2, 2023<br /></p>
+                                <p>Voorvertoning release: 2 maart 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>Productieversie: Met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Uren vastleggen op verbonden kaarten aan boord</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Uren vastleggen op verbonden kaarten aan boord</a></p>
                         <p>U kunt nu uren aanmelden op verbonden kaarten, net als bij een taak of uitgave. U moet de correcte toestemmingen aan de taak of de kwestie hebben om de tijd te registreren.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -118,7 +148,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Weergave van velden op een kaart aanpassen</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Weergave van velden op een kaart aanpassen</a></p>
                         <p>Er is nu aanpassingsmogelijkheden beschikbaar om te bepalen welke velden op een kaart worden weergegeven, zowel in de volledige weergave wanneer de kaart is geopend als in de weergave voor gecondenseerde kaarten op het bord. Wanneer u een veld uitschakelt, wordt dit in geen van beide weergaven weergegeven. U kunt een veld ook inschakelen in de volledige weergave en verbergen in de versmalde weergave.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -135,7 +165,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Een standaardstatus definiëren voor kaarten die naar een bordkolom worden verplaatst</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Een standaardstatus definiëren voor kaarten die naar een bordkolom worden verplaatst</a></p>
                         <p>U kunt nu een standaardstatus instellen om toe te passen op kaarten die naar een specifieke kolom worden verplaatst door een aangepaste status en een systeemstatus te selecteren in het kolombeleid. Wanneer u een kaart naar de kolom verplaatst, probeert Workfront eerst de aangepaste status toe te passen (bijvoorbeeld Feedback wachten). Als de aangepaste status niet beschikbaar is voor die kaart, past Workfront de systeemstatus toe (bijvoorbeeld In wachtstand). Als de status van de verbonden taak of uitgave wordt gewijzigd in de aangepaste of systeemstatus die is ingesteld in het kolombeleid, wordt de kaart automatisch naar de kolom verplaatst.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -152,7 +182,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Verzamelingen die nu beschikbaar zijn in Adobe Workfront Boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Verzamelingen die nu beschikbaar zijn in Adobe Workfront Boards</a></p>
                         <p>U kunt nu verzamelingen maken op het dashboard voor borden. Een verzameling is een groep raden van bestuur om samen te werken aan het werk. Nadat u de verzameling een naam hebt gegeven, kunt u tekengebieden aan de verzameling toevoegen met behulp van een set sjablonen met vooraf gedefinieerde instellingen, zoals kolomnamen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -169,7 +199,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Schattingsveld op verbonden kaarten verwijst naar het veld Artikelpunten op Workfront-objecten</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Schattingsveld op verbonden kaarten verwijst naar het veld Artikelpunten op Workfront-objecten</a></p>
                         <p>Het veld Schatting op verbonden kaarten in Workfront-boards verwijst nu naar het veld Artikelpunten voor het bijbehorende Workfront-object. </p>
                         <p>Het veld Nieuwe artikelpunten is een bewerkbaar, gratis formulierveld dat u kunt toevoegen aan een weergave in een lijst of rapport voor taken of problemen. Het is niet gebonden aan geplande uren of teamtaken.</p>
                     </td>
@@ -187,7 +217,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Kaart voorvertonen in innamekolom</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Kaart voorvertonen in innamekolom</a></p>
                         <p>U kunt nu op een aangesloten kaart in de innamekolom klikken om een alleen-weergaveversie van de inhoud te zien. U kunt de inhoud van de kaart pas bewerken als de kaart uit de innamekolom naar een andere kolom op het bord wordt verplaatst.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -223,7 +253,23 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Verbeterde filterervaring algemeen beschikbaar in Adobe Workfront<span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring bij het bulksgewijs bewerken van projecten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <p>Als onderdeel van het bijwerken van de vormgeving van de Workfront-ervaring, hebben we het tekstvak Projecten bewerken opnieuw ontworpen, terwijl we tegelijkertijd meerdere projecten tegelijk bewerken, in bulk. U kunt tot het nieuwe Edit vakje van Projecten toegang hebben wanneer het selecteren van verscheidene projecten tezelfdertijd in een lijst van projecten.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 9 maart 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Productieversie: Vanaf 23 maart zal dit in een gefaseerde uitrol die op 11 mei 2023 zal voltooien aan productie vrijkomen</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeterde filterervaring algemeen beschikbaar in Adobe Workfront</a>
                         <p>De verbeterde filterervaring is over het algemeen beschikbaar en wordt op 2 maart 2023 de standaard filterbuilder in Voorvertoning. Een gefaseerde uitrol in Productie zal ook op 2 Maart beginnen, met beschikbaarheid voor alle klanten in de 23.2 versie.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -239,7 +285,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Beoogde uren kopiëren bij het kopiëren van een project</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Beoogde uren kopiëren bij het kopiëren van een project</a>
                         <p>Nu, hebt u de optie om de uren te kopiëren die op het begrotingsgebied van het Middel van het BedrijfsGeval of de Planner van het Middel worden begroot wanneer u een project kopieert. Voorafgaand aan deze verhoging, werden de uren die voor het project werden begroot niet overgebracht naar het gekopieerde project.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -274,7 +320,7 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Het veld Werktijd introduceren om de gebruikerscapaciteit nauwkeurig te berekenen</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Het veld Werktijd introduceren om de gebruikerscapaciteit nauwkeurig te berekenen</a>
                         <p>Om middelmanagers toe te staan om de beschikbaarheid van hun gebruikers nauwkeurig te berekenen en rekenschap te geven voor de tijd die de gebruikers aan daadwerkelijke, projectgerelateerde werk wijden, introduceren wij het concept van de Tijd van het Werk aan Adobe Workfront.</p>
                         <p>U kunt de waarde van het gebied van de Tijd van het Werk voor elke gebruiker bepalen, wanneer u creeert of hun profiel uitgeeft.</p>
                     </td>
@@ -285,6 +331,42 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                             </li>
                             <li>
                                  <p><span class="preview">Productieversie: 2 maart 2023 (buiten de cyclus)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Verbeteringen voor mobiele apparaten
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische aanmelding en kaartverzamelingen in de mobiele app</span></a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span>
+                        <p>Biometrische aanmelding is nu een optie voor een snellere aanmelding bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.</p>
+                        <p>Borden-verzamelingen worden nu ook ondersteund in de mobiele app, zodat mobiele gebruikers verzamelingen kunnen bekijken waartoe ze toegang hebben in de desktopversie van hun lijst met mobiele borden.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: N.v.t.<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie: Beschikbaar in de Apple App Store en Google Play Store op 13 maart 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -310,7 +392,46 @@ Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaa
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Netto nieuwe klanten die aan Adobe Verenigde Ervaring moeten worden bezeten</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
+                        <p>De Adobe Verenigde Ervaring omvat:
+                        <ul>
+                        <li>Eén aanmelding voor alle Adobe-toepassingen via Adobe Experience Cloud</li>
+                        <li>Een "bedrijfsswitch" om te schakelen tussen Workfront-organisaties en -omgevingen</li>
+                        <li>Navigatie met opties voor Workfront-pagina's, Adobe Experience Cloud-voorkeuren en uw Workfront-profiel</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: N.v.t.<br /></p>
+                            </li>
+                            <li>
+                                <p>Productieversie: Medio maart 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De kijker van het proef opent in een nieuw lusje voor gebruikers op de Verenigde Ervaring</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
+                        <p>De kijker van het proef opent nu in een nieuw lusje voor gebruikers op de Verenigde Ervaring.
+                        </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: N.v.t.<br /></p>
+                            </li>
+                            <li>
+                                <p>Productieversie: Medio maart 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD</span></a>
                         </span></a><p>In de Adobe Workfront for XD-plug-in kunt u uw tekengebieden nu exporteren als één PDF-bestand of als meerdere PDF-bestanden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -380,6 +501,10 @@ Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en ha
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
 De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
+
+#### **Externe pagina&#39;s van het dashboard ondersteunen geen dashboard-URL&#39;s meer**
+
+Om de stabiliteit van het dashboard en de laadtijden te verbeteren, kunnen externe pagina&#39;s in dashboards niet meer verwijzen naar dashboard URL&#39;s. Systeembeheerders voor accounts die externe pagina&#39;s bevatten die verwijzen naar dashboards, ontvangen een melding in de app om hen op de hoogte te stellen van deze wijziging. Zie voor meer informatie [Een externe pagina insluiten in een dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 #### **Wijzigingen in de standaard-API van Workfront**
 

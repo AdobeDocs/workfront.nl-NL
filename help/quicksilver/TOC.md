@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
+source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
 workflow-type: tm+mt
-source-wordcount: '12770'
+source-wordcount: '12759'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 0%
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
       * 23.2 Release {#release-23-2}
          * [23.2 Overzicht van de release](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
-         * [23.2 releaseactiviteit: week van 27 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
-         * [23.2 releaseactiviteit: week van 20 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-         * [23.2 releaseactiviteit: week van 13 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-         * [23.2 releaseactiviteit: week van 6 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-         * [23.2 releaseactiviteit: week van 23 januari 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+         * [23.2 Beheerdersverbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+         * [23.2 Verbeteringen aan mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+         * [23.2 Verbeteringen van het projectbeheer](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+         * [23.2 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+         * [23.2 Andere verbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Updates weergeven en voelen tijdens het tijdsbestek van de release van 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
       * 23.1 Release {#release-23-1}
          * [23.1 Overzicht van de release](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
