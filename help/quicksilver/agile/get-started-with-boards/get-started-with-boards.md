@@ -6,9 +6,9 @@ description: Bekijk deze artikelen voor meer informatie over het gebruik van bor
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Deze sectie bevat de volgende artikelen:
 * [Bordkolommen beheren](../../agile/get-started-with-boards/manage-board-columns.md)
 * [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md)
 * [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+* [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
 * [Kaarten beheren](../../agile/get-started-with-boards/move-board-items.md)
 * [Controlelijstitems op kaarten beheren](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
 * [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
