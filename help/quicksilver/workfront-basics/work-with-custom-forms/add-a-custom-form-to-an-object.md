@@ -7,17 +7,16 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier toevoegen aan een object
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een aangepast formulier bevat aangepaste velden waarin u informatie over het object kunt opslaan.
 
@@ -53,8 +52,10 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang bewerken tot de objecten waarvoor u aangepaste formulieren beheert</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
-  </tr> 
+   <td> <p>Toegang bewerken tot de objecten waarvoor u aangepaste formulieren beheert</p> <p><b>OPMERKING</b></p>
+
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Rechten beheren voor het object waarvoor u een aangepast formulier wilt toevoegen.</p> <p>Machtigingen voor het aangepaste formulier weergeven of hoger, met toestemming om <b>Koppelen aan aangepaste gegevens</b> objecten (projecten, taken en problemen). Zie voor meer informatie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>.</p> <p>Belangrijk: Als u geen licentie voor abonnementen hebt met beheerdersrechten voor de aangepaste Forms, moet u specifieke machtigingen hebben om ten minste het aangepaste formulier te kunnen bekijken, zoals beschreven in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>. Deze machtigingen moeten ook aan u worden verleend als het formulier in het hele systeem zichtbaar is. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
@@ -110,13 +111,13 @@ U kunt maximaal 10 aangepaste formulieren toevoegen aan een bepaald object, zoda
 U kunt aangepaste formulieren aan meerdere objecten toevoegen door deze in een lijst te selecteren.
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+><span class="preview">Zie het artikel voor informatie over het bulksgewijs toevoegen van aangepaste formulieren aan projecten in de voorbeeldomgeving [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
--->
+—>
 
 1. Navigeer naar een lijst met objecten.
 1. Selecteer meerdere objecten in de lijst.

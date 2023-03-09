@@ -6,7 +6,7 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: a533beb1a28bedb8f7f05e8f0321b275d080eefb
+source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 0%
@@ -647,7 +647,7 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Wanneer iemand toegang krijgt tot dit project: Ze toegang geven tot ...</strong></td> 
-      <td><p>Selecteer de toegangsopties die gebruikers in het project moeten hebben, als het project met hen wordt gedeeld. Selecteer de specifieke toegangsopties als deze zijn aangewezen als <strong>Viewers</strong>, <strong>Medewerkers</strong>, of <strong>Managers</strong> wanneer het project met hen wordt gedeeld. </p><p>De <strong>Verwijderen</strong> toegang tot <strong>Beheren</strong> Het toestemmingsniveau bepaalt of de gebruikers het project zelf kunnen schrappen. Gebruikers met <strong>Beheren</strong> de toegang tot het project kan taken en kwesties binnen het project schrappen ongeacht of deze optie wordt geselecteerd, als zij <strong>Beheren</strong> machtigingen voor de taken en uitgaven. </p></td> 
+      <td><p>Selecteer de toegangsopties die gebruikers in het project moeten hebben, als het project met hen wordt gedeeld. Selecteer de specifieke opties voor hun toegang als ze zijn aangewezen als <strong>Viewers</strong>, <strong>Medewerkers</strong>, of <strong>Managers</strong> wanneer het project met hen wordt gedeeld. </p><p>De <strong>Verwijderen</strong> toegang tot <strong>Beheren</strong> Het toestemmingsniveau bepaalt of de gebruikers het project zelf kunnen schrappen. Gebruikers met <strong>Beheren</strong> de toegang tot het project kan taken en kwesties binnen het project schrappen ongeacht of deze optie wordt geselecteerd, als zij <strong>Beheren</strong> machtigingen voor de taken en uitgaven. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -884,3 +884,4 @@ Zie de sectie voor meer informatie over het bewerken van het gebied Toegang [Toe
 1. Klikken **Opslaan**.
 
 </div>
+

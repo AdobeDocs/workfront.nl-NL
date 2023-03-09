@@ -6,17 +6,16 @@ description: U kunt de volgorde bijwerken waarin de aangepaste formulieren die a
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
 
 # Aangepaste formulieren beheren die zijn gekoppeld aan objecten
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 U kunt de volgorde bijwerken waarin de aangepaste formulieren die aan een object zijn gekoppeld, worden weergegeven, verwijderd of de manier waarop aangepaste formulieren op meerdere objecten worden weergegeven, bulksgewijs bewerken.
 
@@ -98,13 +97,11 @@ Hetzelfde veld wordt mogelijk weergegeven op meerdere aangepaste formulieren die
 ## Meerdere aangepaste formulieren beheren wanneer objecten voor bulkbewerking
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
-
--->
+><span class="preview">Zie het artikel voor informatie over het beheren van aangepaste formulieren voor projecten in bulk in de voorbeeldomgeving [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
 Wanneer u objecten voor bulkbewerking gebruikt waarop meerdere aangepaste formulieren zijn toegepast, kunt u de manier bewerken waarop aangepaste formulieren op deze objecten worden weergegeven en kunt u ook gemeenschappelijke velden bewerken in de aangepaste formulieren.
 

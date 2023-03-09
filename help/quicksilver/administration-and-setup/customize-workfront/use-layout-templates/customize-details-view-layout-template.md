@@ -8,17 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # De weergave Details aanpassen met een lay-outsjabloon
 
-<!-- drafted for bulk editing proejcts: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om te bepalen welke informatie wordt weergegeven wanneer een gebruiker op het pictogram Details klikt ![](assets/project-details-icon.png) in het linkerdeelvenster wanneer u een taak, uitgave, document, programma of portfolio bekijkt.
 
@@ -38,12 +37,11 @@ De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen o
 
    ![](assets/edit-task-screen.png)
 
-<!--drafted for bulk editing proejcts - make this bullet live and in yellow at Preview: 
 
-* <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
+* <span class="preview">Schermen &quot;Objecten bewerken&quot; wanneer u projecten bulksgewijs bewerkt, zoals Projecten bewerken</span>
 
-  <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
-  -->
+   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+-->
 
 * Samenvatting ![](assets/summary-panel-icon.png) deelvenster voor lijsten met taken en problemen
 
