@@ -4,9 +4,9 @@ description: 23.2 Andere verbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Nieuwe ervaring met opmerkingen voor bètaproblemen
+
+Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van sommige objecten.
+
+Deze nieuwe ervaring zal op termijn in Adobe Workfront en daarbuiten, in de hele Adobe Experience Cloud, de opmerkingen verenigen.
+
+Als onderdeel van deze update introduceren we de nieuwe ervaring met opmerkingen in de sectie Updates van problemen. Met de huidige release is er een schakeloptie beschikbaar voor elke gebruiker om deze ervaring in te schakelen in een eigen omgeving, in een bètamodus. Nadat de bètaovereenkomst is geaccepteerd, wordt de sectie Nieuwe updates weergegeven en kunnen ze hun werk in die sectie blijven beheren zoals ze dat nu doen.
+Met de release 23.1 zijn vergelijkbare functies uitgebracht voor Workfront Goals.
+
+Enkele functies die in deze update zijn opgenomen zijn:
+
+* Afzonderlijke tabbladen voor opmerkingen en systeemupdates
+* Betere prestaties
+
+In toekomstige versies worden meer functies toegevoegd, aangezien de functionaliteit ook aan andere objecten wordt toegevoegd.
+
+Voor informatie over wat de nieuwe opmerkingervaring aanbiedt, raadpleegt u [Ervaring voor Unified Commating](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD
 

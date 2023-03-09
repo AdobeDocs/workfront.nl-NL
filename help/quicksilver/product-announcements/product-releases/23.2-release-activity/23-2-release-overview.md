@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 4f3764665b902cd52fa15c56294df084111e3399
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -388,6 +388,23 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring met opmerkingen voor bètaproblemen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <p>Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van sommige objecten.</p>
+                        <p>Deze nieuwe ervaring zal op termijn in Adobe Workfront en daarbuiten, in de hele Adobe Experience Cloud, de opmerkingen verenigen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 9 maart 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Productieversie: Met de release van 23.2 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
