@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6969697714365bf38a77f4972c3b97e4d13a1725
+source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -62,6 +62,7 @@ U kunt ervoor zorgen u de juiste groep met het team associeert door over het te 
 ## Stap 1 - Aan gebruikers worden {#step-1-to-users}
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+
 
 <!-- Agile -->
 

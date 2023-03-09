@@ -7,9 +7,9 @@ description: U kunt een aangepast formulier ontwerpen met de formulierontwerper.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,9 @@ U kunt verschillende tekstvelden toevoegen aan een aangepast formulier.
    >[!NOTE]
    >
    >Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-apps (beschikbaar in volgende versies).
+
 * **Beschrijvende tekst**: Hiermee kunt u instructies en koppelingen naar pagina&#39;s buiten Workfront opnemen.
+
 +++
 
 Een tekstveld toevoegen:
@@ -134,7 +136,7 @@ Een tekstveld toevoegen:
    * Tekst met één regel:
    * Alineatekst
    * Tekstveld met opmaak
-   * Beschrijvende teksten
+   * Beschrijvende tekst
 
    ![](assets/drag-field-to-section.png)
 
@@ -145,6 +147,17 @@ Een tekstveld toevoegen:
     <td>Invoer naar</td>
     <td>Beschrijving</td>
     <td>Beschikbaar voor </td>
+    </tr>
+    <tr>
+    <td>Grootte</td>
+    <td><p>Wijzig de grootte van de tekstvelden op het formulier.<p>
+   </td>
+    <td><ul>
+    <li>Tekst met één regel</li>
+    <li>Alineatekst</li>
+    <li>Tekst met opmaak</li>
+    <li>Beschrijvende tekst - Binnenkort beschikbaar</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Label</td>
@@ -209,6 +222,14 @@ Een tekstveld toevoegen:
     <td><ul><li>Beschrijvende tekst</li></ul></td>
     </tr>
    </table>
+
+1. (Optioneel) Herhaal de vorige stap om andere velden of widgets toe te voegen.
+
+   of
+
+   Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
+
+   ![pictogram kopiëren](assets/copy-field.png)
 
 1. Klik op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
 
@@ -346,6 +367,20 @@ Keuzerondjes en selectievakjes toevoegen:
     </tbody> 
     </table>
 
+1. (Optioneel) Herhaal de vorige stap om andere velden of widgets toe te voegen.
+
+   of
+
+   Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
+
+   ![pictogram kopiëren](assets/copy-field.png)
+
+1. Klik op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+
+   of
+
+   Klikken **Opslaan en sluiten**.
+
 ### Velden voor typekop en datum toevoegen
 
 U kunt datum- en tekstvelden toevoegen aan een aangepast formulier.
@@ -445,6 +480,14 @@ U voegt als volgt velden voor de typekop toe:
     </tbody> 
    </table>
 
+1. (Optioneel) Herhaal de vorige stap om andere velden of widgets toe te voegen.
+
+   of
+
+   Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
+
+   ![pictogram kopiëren](assets/copy-field.png)
+
 1. Klik op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
 
    of
@@ -520,6 +563,14 @@ Een afbeelding, PDF of video toevoegen:
     </tbody> 
    </table>
 
+1. (Optioneel) Herhaal de vorige stap om andere velden of widgets toe te voegen.
+
+   of
+
+   Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
+
+   ![pictogram kopiëren](assets/copy-field.png)
+
 1. Klik op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
 
    of
@@ -588,6 +639,14 @@ Een Adobe XD-bestand toevoegen:
      </tr> 
     </tbody> 
    </table>
+
+1. (Optioneel) Herhaal de vorige stap om andere velden of widgets toe te voegen.
+
+   of
+
+   Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
+
+   ![pictogram kopiëren](assets/copy-field.png)
 
 1. Klik op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
 
