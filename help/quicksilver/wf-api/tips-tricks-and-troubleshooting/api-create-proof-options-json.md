@@ -6,9 +6,9 @@ description: Geavanceerde opties voor proefdrukken toevoegen met Adobe Workfront
 author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Voor een overzicht van de API van het BewijsHK, zie [Overzicht van PoofHQ](../..
 1. Een proefdruk maken met de opdracht `Document createProof` in de Workfront API.
 
    >[!NOTE]
-   Neem bij het maken van de proefdruk geen waarde op voor de parameter advancedProofingOptions.
+   Wanneer u de proefdruk maakt, stelt u `{}` als de waarde voor de `advancedProofingOptions` parameter.
 
 1. Nadat de proefdruk is gemaakt, gebruikt u de API ProofHQ om geavanceerde opties toe te voegen.
 
