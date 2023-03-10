@@ -1,5 +1,5 @@
 ---
-source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
+source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -240,7 +240,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Laatste DPV-versie {#latest-version}
 
-**Laatste versie**: 11-01-2023
+**Laatste versie**: 10-03-2023
 
 <!-- Release -->
 
