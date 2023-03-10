@@ -7,9 +7,9 @@ description: De Handoff Datum is de datum een taak voor het werk beschikbaar wor
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 39efbf1d678cf85e9b6b61744fb046664992370c
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 >
 >Voor informatie over het opnieuw berekenen van de tijdlijn van het project raadpleegt u [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **Wanneer de taak een gedwongen beperking voor de Geplande Datums heeft**: De afhandelingsdatum is altijd dezelfde als de datum die door de beperking wordt ingesteld, ongeacht enige andere voorwaarde.\
+* **Wanneer de taak een gedwongen beperking voor de Geplande Datums heeft**: De afhandelingsdatum is afhankelijk van het type beperking en of de taak een werkelijke begindatum heeft of niet.\
    De volgende taken zijn geforceerde beperkingen:
 
    * Moet beginnen op
@@ -73,6 +73,13 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
    * Niet eerder starten dan
    * Niet later starten dan
    * Vaste datum
+
+   De volgende scenario&#39;s bestaan:
+
+   * Wanneer de taak een beperking van moet Begin of Begin niet vroeger dan heeft, is de Datum van de Afhandeling de datum van de Restrictie, tenzij er een Ware Datum van het Begin op de taak is. Als er een Werkelijke Datum van het Begin op de taak is, is de Datum van de Aflevering de Ware Datum van de Voltooiing van de voorganger.
+   * Wanneer de taak een beperking van moet op of Begin uiterlijk dan hebben, is de Datum van de Aflevering altijd de Ware Datum van Voltooiing van de voorganger, ongeacht of er een Ware Datum van het Begin op de taak of niet is.
+   * Wanneer de taak een beperking van Vaste Datums heeft, is de Datum van de Aflevering de Geplande Datum van het Begin van de taak, ongeacht of het een voorganger heeft of niet en ongeacht of voorganger wordt voltooid of niet.
+
 
 ## De Handoff-datum zoeken
 

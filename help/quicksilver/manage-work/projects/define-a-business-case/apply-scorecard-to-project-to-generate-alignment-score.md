@@ -5,9 +5,9 @@ description: U kunt een scorecard gebruiken om te meten hoe goed een project zic
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,18 @@ Een scorecard toepassen op een project:
 1. Klikken **Opslaan** om scorecard te bewaren en het project te scoren.
 
    scorecard wordt nu geassocieerd met het project en het project wordt genoteerd.
+
+1. (Voorwaardelijk) wanneer de veranderingen in de waarden van scorecard vragen voorkomen, moet u scorecard opnieuw berekenen om op de nieuwe waarden voor de projectscore te wijzen. U kunt als volgt de scorecard opnieuw berekenen:
+
+   1. Ga naar een lijst met projecten en selecteer alle projecten in de lijst.
+   1. Klik op de knop **Bewerken** boven aan de lijst.
+   1. Klikken **Instellingen** in het linkerpaneel, dan controleer **Scorecards opnieuw berekenen** aan het einde van het gebied Instellingen.
+   1. Klik op Opslaan. Hierdoor wordt de score opnieuw berekend op basis van de scorecards die voor alle geselecteerde projecten zijn gekoppeld.
+
+      >[!NOTE]
+      >
+      >   <span class="preview">De optie om scorecards opnieuw te berekenen is verwijderd uit de voorvertoningsomgeving wanneer u projecten bulksgewijs bewerkt. </span>
+
 
 ## Een uitlijningsscore genereren
 
