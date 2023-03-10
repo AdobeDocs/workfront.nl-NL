@@ -4,9 +4,9 @@ description: 23.2 Projectverbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Naast een bijgewerkt uiterlijk van de interface zijn de volgende wijzigingen ook
 * Vermelding welke aangepaste formulieren al zijn bijgevoegd bij de geselecteerde projecten en het aantal projecten met een bepaalde vorm dat al is bijgevoegd.
 
 * De functionaliteit voor opmerkingen is verwijderd uit het vak Projecten bewerken.
+
+* We hebben de optie Scorecards opnieuw berekenen uitgeschakeld bij het bewerken van grote hoeveelheden.
 
 Zie voor meer informatie [Projecten bewerken](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
