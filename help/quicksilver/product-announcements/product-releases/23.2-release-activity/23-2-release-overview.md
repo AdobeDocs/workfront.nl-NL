@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Aangepaste formulieren maken met de nieuwe formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Aangepaste formulieren maken met de nieuwe bètaversie van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
                         <p>De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken.</p>
                         <p>Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om 
                         <ul>

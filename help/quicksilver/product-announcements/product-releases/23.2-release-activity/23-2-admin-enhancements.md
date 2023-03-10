@@ -4,9 +4,9 @@ description: 23.2 Beheerdersverbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebrach
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Aangepaste formulieren maken met de nieuwe formulierontwerper
+## Aangepaste formulieren maken met de nieuwe bètaversie van de formulierontwerper
 
-De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken.
+De nieuwe formulierontwerper is nu beschikbaar in een openbare bètaversie en heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken.
 
 Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
 
