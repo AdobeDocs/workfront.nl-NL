@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
+source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,44 @@ Voor instructies voor het koppelen van documenten via de nieuwe [!DNL SharePoint
 >* Een gebruiker heeft toegang tot dezelfde sites, verzamelingen, mappen, submappen en bestanden via de [!DNL Workfront] [!DNL SharePoint] integratie zoals zij in hun [!DNL SharePoint] account.
 
 
-## De verouderde SharePoint-integratie configureren voor permanente toegang tot documenten
+## Informatie over beveiliging, toegang en autorisatie voor de [!DNL SharePoint] integratie
 
-Om ervoor te zorgen dat uw gebruikers toegang blijven houden tot documenten die zijn gekoppeld aan Workfront via de verouderde SharePoint-integratie, moet u de toegang tot de verouderde SharePoint-integratie opnieuw configureren en de SharePoint Client Secret up-to-date houden.
+### Verificatie en autorisatie
+
+[!DNL Workfront] gebruikt OAuth2 om een toegangstoken terug te winnen en een te verfrissen teken. Dit toegangstoken wordt gebruikt voor vergunning met allen [!DNL SharePoint] gebieden.
+
+### Toegang en machtigingen
+
+De eerste keer dat een gebruiker een document toevoegt aan [!DNL Workfront] van [!DNL SharePoint], worden zij geleid aan het scherm dat om de volgende toestemmingen verzoekt:
+
+| Toegang | Reden |
+|---|---|
+| Volledige toegang tot uw bestanden | Toestaan [!DNL Workfront] om de bestanden van een gebruiker te openen om elementen te koppelen. Wanneer documenten worden verzonden van [!DNL Workfront] tot [!DNL SharePoint], [!DNL Workfront] vereist toegang om het element te maken. |
+| Items in alle siteverzamelingen lezen | Toestaan [!DNL Workfront] om elementen te lezen die gebruikersnavigatie mogelijk maken. |
+| Items in alle siteverzamelingen bewerken of verwijderen | Toestaan [!DNL Workfront] om activa in plaatsen en plaatsinzameling tot stand te brengen. Verwijderen wordt alleen gebruikt bij opschonen nadat de koppelingen zijn verbroken. |
+| Toegang behouden tot gegevens die u toegang hebt verleend aan | Toestaan [!DNL Workfront] om een vernieuwingstoken te produceren. |
+| Aanmelden en gebruikersprofiel lezen | Toestaan [!DNL Workfront] om het toegangstoken te gebruiken om namens de gebruiker te handelen, door de OAuth2 login stroom. |
+
+Deze toegang wordt verleend door de gebruiker de eerste keer zij de integratie gebruiken, en kan op elk ogenblik worden ingetrokken.
+
+Overweeg het volgende met betrekking tot toegang tot [!DNL SharePoint] via de [!DNL Workfront] [!DNL SharePoint] integratie:
+
+* [!DNL Workfront] vraagt om de minimumtoegang die wordt vereist om verrichtingen in de integratie uit te voeren.
+* Toegang tot het weergeven, bewerken of verwijderen van [!DNL Adobe Workfront] document gekoppeld aan [!DNL SharePoint] is gebaseerd op de toegang van de gebruiker tot [!DNL Workfront]. Elke navigatie, download of bewerking van een [!DNL SharePoint] bestand of map vereist toegang tot [!DNL SharePoint]en de toegang tot deze acties wordt geregeld door [!DNL SharePoint].
+* Gebruikers kunnen miniaturen en voorvertoningen weergeven die afkomstig zijn van [!DNL SharePoint]en kunt u bestands- en mapnamen zien in [!DNL SharePoint], zonder u aan te melden [!DNL SharePoint].
+* De toegangstoken van een gebruiker wordt gebruikt slechts wanneer de gebruiker off-line is en een andere gebruiker de inhoud van een omslag bekijkt die met verbonden is [!DNL Workfront]. Het toegangstoken wordt gebruikt om te ontdekken of om het even welke documenten in de omslag zijn toegevoegd, verwijderd, of uitgegeven.
+
+### Beveiliging
+
+Alle communicatie tussen [!DNL Workfront] en [!DNL SharePoint] wordt uitgevoerd via HTTPS, waarmee de informatie wordt versleuteld.
+
+[!DNL Workfront] gegevens niet opslaan, kopiëren of dupliceren van [!DNL SharePoint]. De enige uitzondering is dat: [!DNL Workfront] slaat miniaturen op van [!DNL SharePoint] in de lijstweergave en in Voorvertoning.
+
+Als een element voor het eerst is geüpload naar [!DNL Workfront]en vervolgens verzonden naar [!DNL SharePoint], [!DNL Workfront] behoudt de gegevens voor het eerste bestand omdat gebruikers een vorige versie van een [!DNL Workfront] document. Als er een document is gemaakt in [!DNL SharePoint], [!DNL Workfront] slaat die bestandsgegevens niet op.
+
+## De nalatenschap configureren [!DNL SharePoint] integratie voor verdere toegang tot documenten
+
+Om ervoor te zorgen dat uw gebruikers via de veroudering toegang hebben tot documenten die aan Workfront zijn gekoppeld [!DNL SharePoint] integratie, moet u toegang tot de erfenis opnieuw vormen [!DNL SharePoint] en de SharePoint Client Secret up-to-date houden.
 
 * [Toegang tot de nalatenschap opnieuw configureren [!DNL SharePoint] integratie](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [Vorm het Geheim van de Cliënt voor verdere toegang tot de erfenis [!DNL SharePoint] integratie](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
@@ -130,51 +165,51 @@ Uw [!DNL SharePoint] Clientgeheim verloopt één keer per jaar. Om ervoor te zor
 1. Voer het nieuwe clientgeheim in de **[!UICONTROL Client Secret]** veld.
 1. Klik op **[!UICONTROL Save]**.
 
+<!--
 
-
-## Instructies voor het opzetten van de verouderde SharePoint-integratie
+## Instructions for setting up the legacy SharePoint integration
 
 >[!IMPORTANT]
 >
->Deze integratie is afgekeurd. De instructies hier zijn alleen ter informatie en worden in de nabije toekomst verwijderd.
+>This integration has been deprecated. The instructions here are for information only and will be removed in the near future.
 
 
-Workfront maakt verbinding met [!DNL SharePoint] Online met OAuth 2.0, een standaard die door de meeste op het web gebaseerde integraties wordt gebruikt voor de verificatie en autorisatie van gebruikers.
+Workfront connects to [!DNL SharePoint] Online using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
 
-Om OAuth te vormen, moet u tot een [!DNL SharePoint] site en een site-app binnen [!DNL SharePoint]. Dit proces wordt beschreven in de volgende secties.
+To configure OAuth, you need to create a [!DNL SharePoint] site and a Site App within [!DNL SharePoint]. This process is described in the following sections.
 
-Voor meer informatie over OAuth, zie [http://oauth.net](http://oauth.net/).
+For more information about OAuth, see [http://oauth.net](http://oauth.net/).
 
 >[!TIP]
 >
->Om het gemakkelijk te maken om informatie tussen te kopiëren en te kleven [!DNL Workfront] en [!DNL SharePoint] in deze stappen, adviseren wij het houden van beide toepassingen open in afzonderlijke lusjes.
+>To make it easy to copy and paste information between [!DNL Workfront] and [!DNL SharePoint] in these steps, we recommend keeping both applications open in separate tabs.
 
-* [Een [!DNL SharePoint] site](#create-and-configure-a-sharepoint-site)
-* [Schrijfmachtigingen verlenen aan de site-app](#grant-write-permissions-to-the-site-app)
-* [Een [!DNL Workfront] [!DNL SharePoint] integratiefunctie](#create-a-workfront-sharepoint-integration-instance)
-* [Voltooi uw integratie](#complete-your-integration)
-* [Documenten toevoegen](#add-documents)
+* [Create and configure a [!DNL SharePoint] site](#create-and-configure-a-sharepoint-site) 
+* [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app) 
+* [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance) 
+* [Complete your integration](#complete-your-integration) 
+* [Add documents](#add-documents)
 
-### Een [!DNL SharePoint] site  {#create-and-configure-a-sharepoint-site}
+### Create and configure a [!DNL SharePoint] site  {#create-and-configure-a-sharepoint-site}
 
-Om [!DNL Workfront] om te verifiëren met [!DNL SharePoint], [!DNL Workfront] kan een master site gebruiken waar gebruikers beschikken over [!UICONTROL Full Control] machtigingsniveau of specifieke beheermachtigingen. Deze master site fungeert als een verificatiepunt voor [!DNL Workfront].
+In order for [!DNL Workfront] to authenticate with [!DNL SharePoint], [!DNL Workfront] ca use a master site where users have the [!UICONTROL Full Control] permission level or specific Manage permissions. This master site acts as an Authentication Entry Point for [!DNL Workfront].
 
-Om een [!DNL SharePoint] Site:
+To create and configure a [!DNL SharePoint] Site:
 
-1. (Optioneel) Als u de hoofdsite van uw organisatie niet wilt gebruiken, kunt u een master site maken in [!DNL SharePoint].
+1. (Optional) If you do not want to use your organization's root site, you can create a master site in [!DNL SharePoint].
 
-   Ga voor instructies naar [Een site maken](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in de [!DNL Microsoft] Documentatie.
+   For instructions, visit [Create a site](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in the [!DNL Microsoft] Documentation.
 
-   * Selecteer **[!UICONTROL Team Site]** als u de site maakt.
+   * Select the **[!UICONTROL Team Site]** option when creating the site.
 
-1. (Voorwaardelijk) Als u in stap 1 een site hebt gemaakt, gaat u naar de site die u zojuist hebt gemaakt.
+1. (Conditional) If you created a site in step 1, go to the site you just created.
 
-   of
+   Or
 
-   Als u in stap 1 geen site hebt gemaakt, gaat u naar de hoofdsite van uw organisatie.
+   If you did not create a site in step 1, go to your organization's root site.
 
-1. Toevoegen `/_layouts/15/appregnew.aspx` aan het einde van de URL in de zoekbalk boven in het browservenster.
-1. Configureer de volgende velden:
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -182,15 +217,15 @@ Om een [!DNL SharePoint] Site:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Client ID]</p> </td> 
-      <td> <p>Klikken <strong>[!UICONTROL Generate]</strong> om een client-id te genereren. Kopieer deze id naar een veilige locatie. U gebruikt het later wanneer u de [!DNL SharePoint] integratie in [!DNL Workfront].</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client ID. Copy this ID to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Client Secret]</p> </td> 
-      <td> <p>Klikken <strong>[!UICONTROL Generate]</strong> om een clientgeheim te genereren. Kopieer dit geheim naar een veilige locatie. U gebruikt het later wanneer u de [!DNL SharePoint] integratie in [!DNL Workfront].</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client Secret. Copy this Secret to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Titel</p> </td> 
-      <td> <p>Voer een titel in, zoals [!DNL Workfront] Site-app. Gebruikers zien deze titel bij het toevoegen van documenten.</p> </td> 
+      <td role="rowheader"> <p>Title</p> </td> 
+      <td> <p>Enter a title, such as [!DNL Workfront] Site App. Users see this title when adding documents..</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL App Domain]</p> </td> 
@@ -203,24 +238,24 @@ Om een [!DNL SharePoint] Site:
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Create]**
-1. Doorgaan naar [Schrijfmachtigingen verlenen aan de site-app](#grant-write-permissions-to-the-site-app).
+1. Click **[!UICONTROL Create]**
+1. Continue to [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app).
 
-### Schrijfmachtigingen verlenen aan de site-app  {#grant-write-permissions-to-the-site-app}
+### Grant write permissions to the site app  {#grant-write-permissions-to-the-site-app}
 
-Op dit moment hebt u een Site-app gemaakt en deze geregistreerd binnen [!DNL Workfront]. Deze site-app wordt ook wel APP-principal genoemd in [!DNL SharePoint]. Het zit in je huurder. Nieuwe site-apps hebben niet automatisch toegang tot siteverzamelingen in de huurder. De toestemmingen moeten uitdrukkelijk, voor elke plaatsinzameling worden verleend. De stappen hieronder zullen u tonen hoe te om toestemming te verlenen schrijven aan nieuwe Plaats App een plaatsinzameling. Herhaal deze stappen voor elk van de plaatsinzamelingen u onder toevoegde [!UICONTROL Visible Site Collections] in de bovenstaande stappen.
+At this point, you have successfully created a Site App and registered it within [!DNL Workfront]. This site app is also known as an app principal in [!DNL SharePoint]. It resides within your tenant. New site apps do not automatically have access to site collections within the tenant. Permissions must be granted explicitly, for each site collection. The steps below will show you how to grant Write permission to the new Site App a site collection. Repeat these steps for each of the site collections you added under [!UICONTROL Visible Site Collections] in the steps above.
 
-Deze site-app moet [!UICONTROL Write] toestemming aan om het even welke plaatsinzamelingen die de gebruikers moeten toegang hebben door [!DNL Workfront].
+This site app must have [!UICONTROL Write] permission to any site collections that users need to access through [!DNL Workfront].
 
-1. &#39;/_layouts/15/appinv.aspx&#39; toevoegen aan de URL in [!DNL Sharepoint].
+1. Add '/_layouts/15/appinv.aspx' to the URL in [!DNL Sharepoint].
 
-   **Voorbeeld:**
+   **Example:**
 
    ```
    https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx
    ```
 
-1. De volgende velden configureren
+1. Configure the following fields
 
    <table style="table-layout:auto"> 
     <col> 
@@ -228,34 +263,39 @@ Deze site-app moet [!UICONTROL Write] toestemming aan om het even welke plaatsin
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL App ID]</td> 
-      <td> <p>Client-id toevoegen waarin u hebt gemaakt <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Een [!DNL SharePoint] site </a>en klik op <strong>[!UICONTROL Lookup]</strong>.</p> </td> 
+      <td> <p>Add the Client ID that you created in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>and click <strong>[!UICONTROL Lookup]</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Client] / [!UICONTROL App Domain] / [!UICONTROL Redirect URL]</p> </td> 
-      <td> <p>Deze worden automatisch gevuld wanneer u klikt [!UICONTROL Lookup].</p> </td> 
+      <td> <p>These automatically fill when you click [!UICONTROL Lookup].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Permission Request XML]</td> 
-      <td> <p>Kopieer de volgende XML naar de [!UICONTROL Permission Request XML] veld. Zorg ervoor dat deze exact wordt toegevoegd zoals wordt weergegeven zonder extra spaties enz. om fouten te voorkomen.</p> 
+      <td> <p>Copy the following XML to the [!UICONTROL Permission Request XML] field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
       <div></a> 
       <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
-       <pre></pre></div></div></td></tr></tbody></table>
+       <pre><code><span style="color: #63a35c; ">&lt;AppPermissionRequests&gt;</span><br><span style="color: #63a35c; ">&lt;AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/&gt;</span><br><span style="color: #63a35c; ">&lt;/AppPermissionRequests&gt;</span></code></pre> 
+      </div> 
+      </div> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
-1. Klik op **[!UICONTROL Create]**.
-1. Klik in het dialoogvenster dat wordt weergegeven op **[!UICONTROL Trust it]**.
-1. Controleer of de site-app toegang heeft tot de siteverzameling door op de knop **[!UICONTROL Site collection app permissions]** koppelen in [!UICONTROL Site Settings].
-1. Herhaal bovenstaande stappen voor de resterende plaatsinzamelingen, dan ga met verder [Een [!DNL Workfront] [!DNL SharePoint] integratiefunctie](#create-a-workfront-sharepoint-integration-instance).
+1. Click **[!UICONTROL Create]**. 
+1. In the dialog that appears, click **[!UICONTROL Trust it]**.
+1. Verify that the site app has access to the site collection by clicking the **[!UICONTROL Site collection app permissions]** link in [!UICONTROL Site Settings].
+1. Repeat the steps above for the remaining site collections, then continue with [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance).
 
-### Een [!DNL Workfront] [!DNL SharePoint] integratiefunctie {#create-a-workfront-sharepoint-integration-instance}
+### Create a [!DNL Workfront] [!DNL SharePoint] integration instance {#create-a-workfront-sharepoint-integration-instance}
 
-Wanneer u een site-app hebt gemaakt in [!DNL SharePoint]kunt u nu gegevens van de site-app kopiëren naar [!DNL Workfront]. De site-app is een appprincipal en fungeert als de conduit via welke OAuth-verzoeken worden gedaan om toegang te krijgen tot documenten in siteverzamelingen.
+When you have created a site app in [!DNL SharePoint], you can now copy information from the site app into [!DNL Workfront]. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
-1. Aanmelden [!DNL Workfront] als beheerder.
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Log into [!DNL Workfront] as an administrator.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
-1. Klik op **[!UICONTROL Add [!DNL SharePoint]]**.
-1. Configureer de volgende velden:
+1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
+1. Click **[!UICONTROL Add [!DNL SharePoint]]**.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -263,80 +303,82 @@ Wanneer u een site-app hebt gemaakt in [!DNL SharePoint]kunt u nu gegevens van d
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Name]</p> </td> 
-      <td> <p>Voer een naam in voor de [!DNL SharePoint] integratie. Gebruikers zien deze naam wanneer ze op [!UICONTROL Add] &gt; [!UICONTROL From] "naam van de integratie". </p> </td> 
+      <td> <p>Enter a name for the [!DNL SharePoint] integration. Users see this name when they click [!UICONTROL Add] &gt; [!UICONTROL From] 'name of integration'. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] Hostinstantie]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] Host Instance]</p> </td> 
       <td> <p><code>&lt;YourDomain&gt;.sharepoint.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] Toegangsdomein]</p> </td> 
-      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>Dit verwijst naar de Master site die gebruikers gebruiken om te verifiëren. Het is waarschijnlijk hetzelfde domein als het [!UICONTROL [!DNL SharePoint] Hostinstantie].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] Access Domain]</p> </td> 
+      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>This refers to the Master Site that users will use to authenticate through. It is likely the same domain as the [!UICONTROL [!DNL SharePoint] Host Instance].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>
       </p> </td> 
-      <td> <b>Belangrijk</b> Siteverzamelingen worden alleen in de Oudere versie gebruikt [!DNL SharePoint] Integratie.
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] Integration.
        <ul> 
-        <li> <p><b>Als u de hoofdsite van uw organisatie gebruikt</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
-        <li> <p><b>Als u een master site en subsites gebruikt:</b> </p> <p><b>BELANGRIJK</b>: [!DNL Microsoft SharePoint] beveelt niet langer het gebruik van subsites aan.</p> <p>Voer de URL-stam in voor de siteverzameling die u in de bovenstaande sectie hebt gemaakt.</p> <p>Dit is de sectie van URL na .com.</p> <p>Voorbeeld: voor de URL <code>https://mycompany.sharepoint.com/sites/mysite</code>de stam <code>/sites/mysite</code>.</p> </li> 
+        <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client-id]</td> 
-      <td>Voer de client-id in die u hebt gegenereerd in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Een [!DNL SharePoint] site </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client ID]</td> 
+      <td>Enter the Client ID that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Clientgeheim]</td> 
-      <td>Voer het clientgeheim in dat u hebt gegenereerd in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Een [!DNL SharePoint] site </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client Secret]</td> 
+      <td>Enter the Client Secret that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Visible Site Collections]</td> 
-      <td> <b>Belangrijk</b> Siteverzamelingen worden alleen in de Oudere versie gebruikt [!DNL SharePoint] integratie.
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] integration.
        <ul> 
-        <li> <p><b> Als u de hoofdsite van uw organisatie gebruikt</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
-        <li> <p><b>Als u een master site en subsites gebruikt:</b> </p> <p><b>BELANGRIJK</b>: [!DNL Microsoft SharePoint] beveelt niet langer het gebruik van subsites aan.</p> <p>Voor elke subsite die u aan uw [!DNL SharePoint] , voert u de stam van de subsite in.</p> <p>Voorbeeld: voor de URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>de stam <code>/sites/mysite/mysubsite</code>.</p> <p><b>OPMERKING</b>:   <p>Als u alleen uw configuratie wilt testen (geen subsites), voert u de stam van de master site in. </p> <p>Voorbeeld: voor de URL <code> https://mycompany.sharepoint.com/sites/mysite</code>de stam <code>/sites/mysite</code>.</p> <p>Wanneer u de configuratie hebt getest zoals beschreven in <a href="#complete-your-integration" class="MCXref xref">Voltooi uw integratie</a>, moet u de master site verwijderen en de subsites invoeren.</p> 
+        <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTE</b>:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
           <ol> 
-           <li value="1">Klik op de knop <strong>[!UICONTROL Main Menu]</strong> pictogram <img src="assets/main-menu-icon.png"> in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op <strong>[!UICONTROL Setup]</strong> <img src="assets/gear-icon-settings.png">.<li><p>Klik in het linkerdeelvenster op <strong>[!UICONTROL Documents]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] Integratie]</strong>.</p></li><li><p>Klik op de knop [!DNL SharePoint] de integratie u plaatst, dan klik uitgeven.</p></li><li><p>De stam voor de master site verwijderen uit de [!UICONTROL Visible Site Collections] veld.</p></li><li><p>Voor elke subsite die u aan uw [!DNL SharePoint] , voert u de stam van de subsite in.</p></li><p>Voorbeeld: voor de URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>de stam <code>/sites/mysite/mysubsite</code>.</p></li> 
+           <li value="1">Click the <strong>[!UICONTROL Main Menu]</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of [!DNL Adobe Workfront], then click <strong>[!UICONTROL Setup]</strong> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <strong>[!UICONTROL Documents]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] Integration]</strong>.</p></li><li><p>Click the [!DNL SharePoint] integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the [!UICONTROL Visible Site Collections] field.</p></li><li><p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
           </ol> </p> </li> 
        </ul> <p> </p> <p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Save]**
-1. Doorgaan naar [Voltooi uw integratie](#complete-your-integration).
+1. Click **[!UICONTROL Save]**
+1. Continue to [Complete your integration](#complete-your-integration).
 
-### Voltooi uw integratie {#complete-your-integration}
+### Complete your integration {#complete-your-integration}
 
-De basisconfiguratie is bijna volledig.
+The basic configuration is almost complete.
 
-1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Documents]** ![](assets/document-icon.png).
-1. Klik op **[!UICONTROL Add new]**.
-1. Klikken **[!UICONTROL From]`<title of your [!DNL SharePoint] site>`** in de vervolgkeuzelijst.
+1. In Workfront, Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Documents]** ![](assets/document-icon.png).
+1. Click **[!UICONTROL Add new]**.
+1. Click **[!UICONTROL From] `<title of your [!DNL SharePoint] site>`** in the dropdown.
 
-   Er wordt een dialoogvenster weergegeven waarin u wordt uitgenodigd deze site te vertrouwen.
+   A dialog that invites you to Trust this site appears.
 
    >[!NOTE]
    >
-   >Als dit dialoogvenster niet wordt weergegeven, kunt u [!DNL SharePoint] integratie is niet correct gevormd.
+   >If this dialog does not appear, your [!DNL SharePoint] integration is not configured correctly.
 
-1. Klik op **[!UICONTROL Trust it]**.
+1. Click **[!UICONTROL Trust it]**.
 
-### Documenten toevoegen {#add-documents}
+### Add documents {#add-documents}
 
-U kunt nu documenten toevoegen vanuit uw [!DNL SharePoint] site.
+You can now add documents from your [!DNL SharePoint] site.
 
-Zie voor instructies [Een extern document koppelen aan [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
+For instructions, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 
 >[!IMPORTANT]
 >
->Als de gebruiker die een map heeft gekoppeld, geen toegang meer heeft tot de externe toepassing, [!DNL Workfront] heeft geen toegang meer tot de inhoud van de map. Dit kan bijvoorbeeld gebeuren als de gebruiker die oorspronkelijk de map had gekoppeld het bedrijf verlaat. Een gebruiker met toegang tot de map moet de map opnieuw koppelen om ervoor te zorgen dat hij of zij toegang kan blijven krijgen.
+>If the user who linked a folder no longer has access to the external application, [!DNL Workfront] can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
+> 
+
+-->
 
 ## Problemen oplossen
 
 * [Probleem: Gebruikers ondervinden bij het gebruik van de [!DNL SharePoint] integratie.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [Probleem: Als [!DNL Workfront] -gebruiker, kan ik geen nieuwe [!DNL SharePoint] -instantie. Als ik probeer te doen, zie ik een fout.](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error)
 * [Probleem: Wanneer wordt geprobeerd te bladeren [!DNL SharePoint] bestanden in [!DNL Workfront], ik zie geen van mijn plaatsinzamelingen of al mijn plaatsinzamelingen.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [Probleem: Ik heb geen toegang tot eerder gekoppelde mappen en documenten in [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
@@ -344,7 +386,7 @@ Zie voor instructies [Een extern document koppelen aan [!DNL Workfront]](../../d
 
 Oplossingen:
 
-De gebruikers moeten een lid van een groep zijn die aangewezen toestemmingen aan de [!DNL SharePoint] site.
+Gebruikers moeten over de juiste machtigingen beschikken om [!DNL SharePoint] site.
 
 Gebruikers met [!UICONTROL Full Control] toegang heeft alle noodzakelijke toestemmingen voor uw [!DNL SharePoint] integratie. Als u geen Volledige toegang van de Controle aan uw gebruikers wilt verlenen, moet u de volgende toestemmingen verlenen:
 
@@ -373,15 +415,19 @@ Gebruikers met [!UICONTROL Full Control] toegang heeft alle noodzakelijke toeste
 
 Voor instructies over het creëren van en het uitgeven van toestemmingenniveaus, zie [machtigingsniveaus maken en bewerken](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in de documentatie van Microsoft.
 
-### Probleem: Als [!DNL Workfront] -gebruiker, kan ik geen nieuwe [!DNL SharePoint] -instantie. Als ik probeer te doen, zie ik een fout. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
+<!--
 
-Oplossingen:
+### Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
-Dit kan worden veroorzaakt door een aantal dingen, die van of [!DNL Workfront] of [!DNL SharePoint]s configuratie. Controleren of:
+Solutions:
 
-* Client ID, Client Secret, return URL en andere configuratievelden worden correct toegewezen tussen de [!DNL Workfront] [!DNL SharePoint] Integratie-instantie en de [!DNL SharePoint] Site-app.
-* De gebruiker heeft [!UICONTROL Full Control] toestemming aan de Inzameling van de Plaats die voor authentificatie wordt gebruikt.
-* De Site-app staat onder [!UICONTROL Site App Permissions] voor de [!UICONTROL Site Collection] gebruikt voor verificatie.
+This can be caused by a number of things, originating in either [!DNL Workfront] or [!DNL SharePoint]'s configuration. Verify that:
+
+* The Client ID, Client Secret, return URL and other configuration fields are correctly mapped between the [!DNL Workfront] [!DNL SharePoint] Integration instance and the [!DNL SharePoint] Site App.
+* The user has [!UICONTROL Full Control] permission to the Site Collection used for authentication.
+* The Site App is listed under [!UICONTROL Site App Permissions] for the [!UICONTROL Site Collection] used for authentication.
+
+-->
 
 ### Probleem: Wanneer wordt geprobeerd te bladeren [!DNL SharePoint] bestanden in [!DNL Workfront], ik zie geen van mijn plaatsinzamelingen of al mijn plaatsinzamelingen. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
@@ -389,25 +435,31 @@ Oplossingen:
 
 Om een plaatsinzameling in te zien [!DNL Workfront]moet aan de volgende voorwaarden worden voldaan:
 
-* De plaatsinzameling moet in worden geregistreerd [!DNL Workfront] [!DNL SharePoint] Integratie-instantie.
+<!--
 
-   Om dit te verifiëren in [!DNL Workfront]:
+* The site collection must be registered in the [!DNL Workfront] [!DNL SharePoint] Integration instance.
 
-   1. Ga naar [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
-   1. Bewerk de [!DNL SharePoint] Informatie over integratieinstanties.
-   1. Controleren of de siteverzameling onder staat staat [!UICONTROL Visible Site Collections].
+  To verify this in [!DNL Workfront]:
+
+   1. Go to [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
+   1. Edit the [!DNL SharePoint] Integration instance information.
+   1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
+   -->
 
 * De gebruiker moet meningstoegang tot de plaatsinzameling in hebben [!DNL SharePoint].
-* Om dit te verifiëren in [!DNL SharePoint], ga naar [!DNL SharePoint]en open de siteverzameling > [!UICONTROL Settings] > [!UICONTROL Site permissions].
-* De [!DNL SharePoint] Site App moet toegang hebben tot de siteverzameling.
 
-   Om dit te verifiëren in [!DNL SharePoint]:
+   Om dit te verifiëren in [!DNL SharePoint], ga naar [!DNL SharePoint]en open de siteverzameling > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+<!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
-   1. Ga naar de siteverzameling > [!UICONTROL Settings] > [!UICONTROL Site app permissions].
-   1. Zorg ervoor dat de [!UICONTROL Site App] gebruikt door [!DNL Workfront] wordt hier weergegeven.
-   1. (Voorwaardelijk) als App van de Plaats niet vermeld is, voeg aan de plaatsinzameling toe gebruikend _layouts/15/appinv.aspx.
+  To verify this in [!DNL SharePoint]:
 
-      Voor informatie over het toevoegen van de plaatsinzameling, zie het verlenen schrijft Toestemmingen aan App van de Plaats.
+   1. Go to the site collection > [!UICONTROL Settings] > [!UICONTROL Site app permissions].
+   1. Ensure that the [!UICONTROL Site App] used by [!DNL Workfront] is listed here.
+   1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
+
+      For information about adding the site collection, see Granting Write Permissions To The Site App.
+      
+-->
 
 ### Probleem: Ik heb geen toegang tot eerder gekoppelde mappen en documenten in [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
@@ -419,8 +471,10 @@ Een gebruiker met toegang tot de map moet de map opnieuw koppelen om ervoor te z
 
 Voor informatie over het koppelen van mappen van externe providers raadpleegt u [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### Probleem: Ik zie een fout &quot;404 niet gevonden&quot; bij het toevoegen van een document van [!DNL Sharepoint]
+<!--
 
-#### Oplossing:
+### Problem: I see a "404 not found" error when attempting to add a document from [!DNL Sharepoint]
 
-Deze fout zou kunnen voorkomen als één van de plaatsen in worden gevormd [!UICONTROL Visible Site Collections] list is verwijderd in Sharepoint. Controleer de [!UICONTROL Visible Site Collections] lijst, en verwijder om het even welke plaatsen die in SharePoint zijn geschrapt.
+#### Solution:
+
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
