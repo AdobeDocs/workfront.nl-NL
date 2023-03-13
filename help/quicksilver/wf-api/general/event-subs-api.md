@@ -6,9 +6,9 @@ description: Event Subscription API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ Bij het opvragen van Workfront HTTP gebruikt u de methode GET. Er zijn twee mani
 
 ### Query uitvoeren op alle abonnementen voor gebeurtenissen
 
-U kunt alle gebeurtenisabonnementen voor een klant zoals die door de apiKey waarde wordt gespecificeerd vragen. U kunt ook de volgende opties gebruiken om de reactie te beheren:
+U kunt alle gebeurtenissenabonnementen voor een klant vragen, of het volgende gebruiken om de reactie te beheren. U kunt ook de volgende opties gebruiken om de reactie te beheren:
 
 * **page**: de optie van de vraagparameter om het aantal pagina&#39;s te specificeren om terug te keren. De standaardwaarde is 1.
 * **limiet**: optie van de vraagparameter om het aantal resultaten te specificeren om per pagina terug te keren. De standaardwaarde is 100 met een maximum van 1000.
