@@ -6,9 +6,9 @@ description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2990'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,9 @@ Voor meer informatie over het type uren dat u kunt aanmelden in Workfront, raadp
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Review or higher</p> 
-   <p><b>NOTE</b></p>
-
-   <ul><li>Reviewers can log only General Hours in a timesheet</li>
-   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
+   <p>Legacy license: 
+   <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -64,11 +62,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> 
-   <p><b>OPMERKING</b></p>
-
-<ul><li>Revisoren kunnen alleen algemene uren in een tijdsplaat registreren</li>
-   <li>U moet een arbeidsvergunning of hoger hebben om uren aan een project, een taak, of een kwestie te registreren</li></ul>
+   <td> <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
+   <li> Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Draag of hogere toestemmingen op het het werkpunt bij u tijd voor dat omvat toestemmingen aan Loguren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute of hogere machtigingen voor het werkitem waarvoor u de tijd registreert, zijn onder meer machtigingen voor Log Hours.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

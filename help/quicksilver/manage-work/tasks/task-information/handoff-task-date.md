@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Overzicht van afhandelingsdatum taak
-description: De Handoff Datum is de datum een taak voor het werk beschikbaar wordt. Dit betekent doorgaans dat de voorgangers zijn opgelost en dat de opdrachtgever van de taak eraan kan beginnen te werken.
+description: De Handoff Datum is de datum dat een taak voor het werk beschikbaar wordt. Dit betekent doorgaans dat de voorgangers zijn opgelost en dat de opdrachtgever van de taak eraan kan beginnen te werken.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Overzicht van afhandelingsdatum taak
 
-De Handoff Datum is de datum een taak voor het werk beschikbaar wordt. Dit betekent doorgaans dat de voorgangers zijn opgelost en dat de opdrachtgever van de taak eraan kan beginnen te werken.
+De Handoff Datum is de datum dat een taak voor het werk beschikbaar wordt. Dit betekent doorgaans dat de voorgangers zijn opgelost en dat de opdrachtgever van de taak eraan kan beginnen te werken.
 
 >[!TIP]
 >
