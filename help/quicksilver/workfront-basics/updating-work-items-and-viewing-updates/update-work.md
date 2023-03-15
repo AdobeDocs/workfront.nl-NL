@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1827'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 0%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-U kunt een update toevoegen aan een Adobe Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen.
+U kunt opmerkingen toevoegen aan verschillende objecten in Workfront. Zie voor meer informatie [Overzicht van het tabblad Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-U kunt updates aan een object toevoegen vanuit de volgende Workfront-gebieden:
+U kunt een update toevoegen aan een Adobe Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object en er opmerkingen over te maken. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen.
+
+De informatie op deze pagina verwijst naar het bijwerken van werkzaamheden voor projecten, taken of problemen. Voor informatie over het toevoegen van commentaren en updates aan doelstellingen, zie [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+U kunt projecten, taken en problemen bijwerken vanuit de volgende Workfront-domeinen:
 
 * Vanuit een Workfront-object, in de sectie Updates
 * Vanuit het thuisgebied (voor taken en problemen)

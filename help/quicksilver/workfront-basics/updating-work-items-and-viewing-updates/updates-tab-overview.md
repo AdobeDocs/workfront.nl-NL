@@ -7,16 +7,22 @@ description: Het tabblad Updates bevat maximaal 200 van de meest recente updates
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het tabblad Updates
 
-Het tabblad Updates bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn gemaakt. U kunt op updates op de volgende objecten reageren:
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+Het tabblad Updates bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn gemaakt.
+
+U kunt opmerkingen maken en reageren op updates voor de volgende objecten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ Het tabblad Updates bevat maximaal 200 van de meest recente updates die in de af
   <tr> 
    <td> 
     <ul> 
+     <li>Documenten</li> 
+     <li>Doelen</li> 
+     <li>Problemen</li> 
+     <li>Herhalingen</li> 
      <li>Projecten</li> 
-     <li>Portfolio</li> 
      <li>Programma's</li> 
-     <li>Sjablonen</li> 
-     <li>Sjabloontaken</li> 
-     <li>Taken</li> 
+     <li>Portfolio</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Problemen</li> 
-     <li>Herhalingen</li> 
      <li>Artikelen</li> 
-     <li>Gebruikers</li> 
-     <li>Documenten</li> 
+     <li>Taken</li> 
+     <li>Sjablonen</li> 
+     <li>Sjabloontaken</li> 
      <li>Timesheets</li> 
+     <li>Gebruikers</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,6 +107,11 @@ Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergeg
   <tr> 
    <td>Iteratie</td> 
    <td>Team</td> 
+  </tr>
+
+<tr> 
+   <td>Doelen</td> 
+   <td>Resultaat, activiteit</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergeg
 >[!NOTE]
 >
 >De reacties die aan systeemupdates worden toegevoegd rollen niet omhoog aan het oudervoorwerp. Alleen directe antwoorden op een onderliggend object en antwoorden die aan bestaande updates zijn toegevoegd, worden doorgegeven aan bovenliggende objecten.
+>
+>Voor informatie over de objecthiërarchie in Adobe Workfront raadpleegt u [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Ga voor meer informatie over de objecthiërarchie in Adobe Workfront naar [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## Beperkingen op het tabblad Updates
 
