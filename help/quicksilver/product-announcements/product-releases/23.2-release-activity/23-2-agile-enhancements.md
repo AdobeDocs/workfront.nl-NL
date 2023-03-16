@@ -4,9 +4,9 @@ description: 23.2 Verbeteringen aan mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d9fa1c876f2b789c3c387387964ba749c5453a1e
+source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,27 @@ Deze pagina bevat een beschrijving van alle verbeteringen in de voorvertoningsom
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Taken en problemen toevoegen aan Workfront-raden vanuit lijsten en rapporten
+<!--
 
-U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een Workfront-board. Alle items die u toevoegt aan de kaart worden verbonden kaarten.
+## Iteration functionality available in Adobe Workfront Boards
 
-Het veld Boards kan nu worden toegevoegd aan lijsten en rapporten voor taken of problemen. In dit veld worden alle gebieden weergegeven waaraan een taak of uitgave is toegevoegd.
+Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
 
-Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+* Workstreams for grouping boards related to the same team, and collaborating on work
+* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
+* Iteration planning and iteration process boards
+
+Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+
+For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+
+## Add tasks and issues to Boards workstreams from lists and reports
+
+You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+-->
 
 ## Uren vastleggen op verbonden kaarten aan boord
 

@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 14178b9dadc5da0d858fd3b8d19fde2e7764aaee
+source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
 * [Verbeteringen voor mobiele apparaten](#agile-enhancements)
 * [Verbeteringen voor projectbeheer](#project-management-enhancements)
 * [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
+* [Verbeteringen voor rapporten en dashboards]
 * [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -57,7 +58,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Aangepaste formulieren maken met de nieuwe bètaversie van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Aangepaste formulieren maken met de nieuwe bètaversie van de formulierontwerper</a>
                         <p>De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken.</p>
                         <p>Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om 
                         <ul>
@@ -113,9 +114,47 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                         </p>
                     </td>
                 </tr>
+              <!-- <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 23, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen toevoegen aan Workfront-raden vanuit lijsten en rapporten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+                        <ul>
+                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
+                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
+                        <li>Iteration planning and iteration process boards</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 23, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen toevoegen aan Workfront-raden vanuit lijsten en rapporten</a></p>
                         <p>U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een Workfront-board. Alle items die u toevoegt aan de kaart worden verbonden kaarten.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -253,7 +292,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring bij het bulksgewijs bewerken van projecten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring bij het bulksgewijs bewerken van projecten</a>
                         <p>Als onderdeel van het bijwerken van de vormgeving van de Workfront-ervaring, hebben we het tekstvak Projecten bewerken opnieuw ontworpen, terwijl we tegelijkertijd meerdere projecten tegelijk bewerken, in bulk. U kunt tot het nieuwe Edit vakje van Projecten toegang hebben wanneer het selecteren van verscheidene projecten tezelfdertijd in een lijst van projecten.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -338,6 +377,45 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
             </tbody>
         </table>
 
+<!--
+### Reports and Dashboards enhancements
+
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                    </td>
+                    <td><p><b>Available on these dates: N/A</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        -->
+
 ### Verbeteringen voor mobiele apparaten
 
 <table>
@@ -392,7 +470,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring met opmerkingen voor bètaproblemen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring met opmerkingen voor bètaproblemen</a>
                         <p>Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van sommige objecten.</p>
                         <p>Deze nieuwe ervaring zal op termijn in Adobe Workfront en daarbuiten, in de hele Adobe Experience Cloud, de opmerkingen verenigen.</p>
                     </td>
