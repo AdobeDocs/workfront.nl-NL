@@ -6,7 +6,7 @@ description: U kunt taken aan gebruikers, rollen, of teams toewijzen om erop te 
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 0%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Als de veelvoudige rollen worden toegewezen en minstens één van hen één van de andere rollen van de gebruiker aanpast, wordt de taak of de kwestie toegewezen aan de gebruiker (de rol wordt willekeurig geselecteerd als er veelvoudige gelijken zijn), samen met om het even welke extra rollen die worden toegewezen</li>
       <li>Als minstens één baanrol wordt toegewezen en er geen gelijken aan de de baanrollen van de gebruiker zijn, wordt de taak of de kwestie toegewezen aan zowel de rol of de rollen als aan de gebruiker.</li>
      </ul>
-   <p>Voor informatie over de primaire rol van een gebruiker en andere rollen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Gebruikersprofiel bewerken</a>.</p>
-   </td>
-  </tr>
+   <p>Voor informatie over de primaire rol van een gebruiker en andere rollen, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Gebruikersprofiel bewerken</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

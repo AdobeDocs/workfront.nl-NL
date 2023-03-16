@@ -6,9 +6,9 @@ description: U kunt de toewijzing van gebruikers ongedaan maken uit werkitems in
 author: Alina
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting voor een team of in het Brongebied </p>
-   <p>Werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een project </p>
+   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p>
+   <p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p>
 
 </td> 
   </tr> 

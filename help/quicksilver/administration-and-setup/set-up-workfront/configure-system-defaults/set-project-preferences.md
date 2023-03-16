@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2072'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,15 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
        <ul> 
         <li>een status hebben van [!UICONTROL Current]</li> 
         <li>Heeft in de afgelopen drie maanden een update</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>Wanneer het bereik van een project verandert</strong>: Selecteer dit om projectchronologie onmiddellijk opnieuw te berekenen aangezien een verandering van het projectwerkingsgebied voorkomt. Voor informatie over wat een verandering van het projectwerkingsgebied betekent, zie <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projecttijdlijnen opnieuw berekenen</a>.</p> </li> 
+        <li>hebben een updatetype van één van het volgende gehad:</li>
+        <ul>
+        <li>Automatisch en bij wijziging</li>
+        <li>Alleen wijzigen</li>
+        <li>Alleen automatisch</li> 
+      </ul>       
+    <b>TIP</b>
+    <p>Deze instelling heeft geen invloed op projecten met alleen het updatetype Handmatig.</p>
+    <li> <p><strong>Wanneer het bereik van een project verandert</strong>: Selecteer dit om projectchronologie onmiddellijk opnieuw te berekenen aangezien een verandering van het projectwerkingsgebied voorkomt. Voor informatie over wat een verandering van het projectwerkingsgebied betekent, zie <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projecttijdlijnen opnieuw berekenen</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

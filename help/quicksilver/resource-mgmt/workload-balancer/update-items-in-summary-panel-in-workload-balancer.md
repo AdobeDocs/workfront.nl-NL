@@ -6,9 +6,9 @@ description: U kunt het deelvenster Samenvatting openen in Workload Balancer om 
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting voor een team of in het Brongebied </p>
-   <p>Werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een project </p>
+   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p>
+   <p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p> 
  </p> </td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ description: U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting voor een team of in het Brongebied </p>
-   <p>Werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een project </p>
+   <td> <p>Plan om werk in de Balancer van de Werkbelasting in het gebied van de Middelen toe te wijzen</p>
+   <p>Het werk om het werk in de Balancer van de Werkbelasting van een team of een project toe te wijzen</p>
  </td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ description: Zonder juiste toegang of machtigingen kunt u uw werktoewijzingen in
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ In de volgende tabel ziet u de verbinding tussen het Workfront-plan dat uw bedri
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-abonnement</td> 
+   <td role="rowheader"><p>Workfront-abonnement</p></td> 
    <td> <p>Gebieden waar u tot de Balancer van de Werkbelasting kunt toegang hebben</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ U moet de volgende toegang hebben om de werklastbalans te kunnen bekijken:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan voor weergave van de werklastverdeling in het gebied Bronnen</p>
+   <p>Het werk om de Balancer van de Werkbelasting van een team of een project te bekijken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -83,8 +84,8 @@ U moet de volgende toegang hebben om de werklastverdeling te beheren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> 
-   <p>Werk, om middelen in de Balancer van de Werkbelasting van een project te beheren</p>
+   <td> <p>Plan voor het beheer van toewijzingen in het werklastevenwicht in het gebied Bronnen</p>
+   <p>Het werk om taken in de Balancer van de Werkbelasting van een team of een project te beheren</p>
    </td> 
   </tr> 
   <tr> 

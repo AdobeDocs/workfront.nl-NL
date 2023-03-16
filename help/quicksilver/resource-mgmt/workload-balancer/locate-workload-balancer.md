@@ -7,9 +7,9 @@ description: U kunt de taakverdeler gebruiken om middelen voor het werk te plann
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 87f02f3908c86575ca2dfacd7d88146b9967a804
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting voor een team of in het Brongebied </p>
-   <p>Werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een project </p>
+   <td> <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen</p>
+   <p>Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p>
  </td> 
   </tr> 
   <tr> 
