@@ -4,7 +4,7 @@ description: 23.2 Verbeteringen aan mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -29,9 +29,27 @@ De naam van verzamelingen is gewijzigd in werkstromen. Met werkstromen kunt u ge
 
 Zie voor meer informatie [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Een herhaling maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), en [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). De tweede twee artikelen zijn pas beschikbaar in Main nadat ik mijn vertakking heb gepubliceerd.
 
-## Taken en problemen vanuit lijsten en rapporten toevoegen aan werkstromen van raden
+## Taken en problemen uit lijsten en rapporten toevoegen aan een workstreamkaartlijst
 
 U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een werkstroom in Workfront-raden. Items die u aan de werkstroom toevoegt, worden als ongeplande kaarten toegevoegd aan de kaartlijst.
+
+Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Aangepaste velden toevoegen aan kaarten op de kaart
+
+U kunt nu aangepaste velden opnemen in de Adobe Workfront Boards. Het veld moet al in Workfront zijn gemaakt. U kunt geen nieuwe aangepaste velden in een board ontwerpen en maken.
+
+Net als in de standaardvelden kunt u het aangepaste veld weergeven in de volledige weergave van een kaart en in de versmalde weergave op de kaart.
+
+Alle gegevens van het aangepaste veld op de kaart zijn alleen-lezen.
+
+Zie voor meer informatie [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Taken en problemen uit lijsten en rapporten toevoegen aan een Workfront-board
+
+U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een Workfront-board. Alle items die u toevoegt aan de kaart worden verbonden kaarten.
+
+Het veld Boards kan nu worden toegevoegd aan lijsten en rapporten voor taken of problemen. In dit veld worden alle gebieden weergegeven waaraan een taak of uitgave is toegevoegd.
 
 Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ De velden voor tijdregistratie worden standaard niet weergegeven op verbonden ka
 
 Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Taken en problemen toevoegen aan Workfront-raden vanuit lijsten en rapporten
-
-U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een Workfront-board. Alle items die u toevoegt aan de kaart worden verbonden kaarten.
-
-Het veld Boards kan nu worden toegevoegd aan lijsten en rapporten voor taken of problemen. In dit veld worden alle gebieden weergegeven waaraan een taak of uitgave is toegevoegd.
-
-Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Weergave van velden op een kaart aanpassen
 

@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen vanuit lijsten en rapporten toevoegen aan werkstromen van raden</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen uit lijsten en rapporten toevoegen aan een workstreamkaartlijst</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
                         <p>U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een werkstroom in Workfront-raden. Items die u aan de werkstroom toevoegt, worden als ongeplande kaarten toegevoegd aan de kaartlijst.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -170,7 +170,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen toevoegen aan Workfront-raden vanuit lijsten en rapporten</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen uit lijsten en rapporten toevoegen aan een Workfront-board</a></p>
                         <p>U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een Workfront-board. Alle items die u toevoegt aan de kaart worden verbonden kaarten.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
