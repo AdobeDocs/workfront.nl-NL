@@ -4,7 +4,7 @@ description: 23.2 Verbeteringen aan mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -17,27 +17,24 @@ Deze pagina bevat een beschrijving van alle verbeteringen in de voorvertoningsom
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Interferingfunctionaliteit beschikbaar in Adobe Workfront Boards
 
-## Iteration functionality available in Adobe Workfront Boards
+Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-functionaliteit gebruiken. Deze functies zijn:
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* Workstreams voor het groeperen van aan hetzelfde team gerelateerde borden en het samenwerken aan het werk
+* Een lijst met kaarten, of de achterstand van het werk, met de optie om bronnen te gebruiken om kaarten aan de taken en kwesties van Workfront te verbinden
+* Iteratieplannings- en iteratieprocesborden
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+De naam van verzamelingen is gewijzigd in werkstromen. Met werkstromen kunt u gegevens op verschillende manieren visualiseren. U kunt punten op kaarten in een lijst, op een raad, of op een herhaling tonen. Kaarten in een werkstroom kunnen ook worden gedeeld door meerdere borden. U kunt workflows eenvoudig vereenvoudigen met behulp van kaarten en borden in een workstream.
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+Zie voor meer informatie [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Een herhaling maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), en [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). De tweede twee artikelen zijn pas beschikbaar in Main nadat ik mijn vertakking heb gepubliceerd.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## Taken en problemen vanuit lijsten en rapporten toevoegen aan werkstromen van raden
 
-## Add tasks and issues to Boards workstreams from lists and reports
+U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een werkstroom in Workfront-raden. Items die u aan de werkstroom toevoegt, worden als ongeplande kaarten toegevoegd aan de kaartlijst.
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## Uren vastleggen op verbonden kaarten aan boord
 
@@ -50,6 +47,14 @@ U kunt nu uren aanmelden op verbonden kaarten, net als bij een taak of uitgave. 
 De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet **Uren** in het Configure gebied onder Kaarten.
 
 Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Taken en problemen toevoegen aan Workfront-raden vanuit lijsten en rapporten
+
+U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een Workfront-board. Alle items die u toevoegt aan de kaart worden verbonden kaarten.
+
+Het veld Boards kan nu worden toegevoegd aan lijsten en rapporten voor taken of problemen. In dit veld worden alle gebieden weergegeven waaraan een taak of uitgave is toegevoegd.
+
+Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Weergave van velden op een kaart aanpassen
 
