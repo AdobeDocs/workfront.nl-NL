@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '12759'
+source-wordcount: '12763'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
          * [23.2 Verbeteringen aan mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Verbeteringen van het projectbeheer](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
          * [23.2 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 Verbeteringen in rapporten en dashboards](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
          * [23.2 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [23.2 Andere verbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Updates weergeven en voelen tijdens het tijdsbestek van de release van 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
