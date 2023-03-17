@@ -5,18 +5,18 @@ title: Bestaande taken of problemen toevoegen aan een Adobe Workfront-board
 description: U kunt elke taak of elk probleem vanuit een lijst- of rapportweergave toevoegen aan een bestuur in Adobe Workfront.
 author: Lisa
 feature: Agile
-source-git-commit: e7cd8447ad257c9808de0b76762061343d004a4a
+source-git-commit: fd0b220801d26e10ad65ac7d6b8fa17bbeec629a
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Bestaande taken of problemen toevoegen aan een [!DNL Adobe Workfront] board
+# Bestaande taken of problemen toevoegen aan een [!DNL Adobe Workfront] board of workstream
 
 {{highlighted-preview-article-level}}
 
-U kunt elke taak of uitgave aan een board toevoegen in [!DNL Adobe Workfront] in een lijst- of rapportweergave.
+U kunt elke taak of uitgave toevoegen aan een board of een workstream in [!DNL Adobe Workfront] in een lijst- of rapportweergave.
 
 ## Toegangsvereisten
 
@@ -52,11 +52,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klikken [!UICONTROL **Meer**] > [!UICONTROL **Toevoegen aan kamers**].
 1. In de [!UICONTROL Add To] selecteert u het board waaraan u de items wilt toevoegen.
 
-   Alleen zelfstandige borden zijn beschikbaar, geen borden die deel uitmaken van verzamelingen.
+   Met deze optie zijn alleen zelfstandige borden beschikbaar, geen borden die deel uitmaken van werkstromen.
 
 1. Klikken [!UICONTROL **Toevoegen**].
 
    De taak of kwestie wordt toegevoegd aan de raad. Als op de kaart kolombeleid is toegepast voor status, wordt de kaart toegevoegd in de kolom die overeenkomt met de status. Anders wordt deze weergegeven in de eerste kolom aan de linkerkant, exclusief de inlaatkolom.
+
+   Voor informatie over kolombeleid raadpleegt u [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+## Bestaande taken of problemen toevoegen aan een werkstroom
+
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront].
+1. Kies een van de volgende opties: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]**, of **[!UICONTROL Dashboards]**.
+1. Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u aan de werkstroom wilt toevoegen.
+1. Selecteer een of meer taken of problemen.
+1. Klikken [!UICONTROL **Meer**] > [!UICONTROL **Toevoegen aan Workstream**].
+1. In de [!UICONTROL Add To] selecteert u de werkstream waaraan u de items wilt toevoegen.
+1. Klikken [!UICONTROL **Toevoegen**].
+
+   De taak of kwestie wordt toegevoegd aan de de kaartlijst van de werkstroom als ongeplande kaart.
 
 ## Borden weergeven die zijn gekoppeld aan een taak of uitgave
 
