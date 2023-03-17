@@ -6,30 +6,32 @@ description: De [!UICONTROL boards] In het dashboard ziet u de lijst met borden 
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
 # Het dashboard voor tekengebieden gebruiken
 
-Op het dashboard Borden ziet u de lijst met borden en verzamelingen waartoe u toegang hebt, inclusief de borden die u hebt gemaakt en de borden die u hebt toegevoegd. Individuele borden u toegang tot hebt die geen deel van een inzameling uitmaken worden eerst getoond.
+{{highlighted-preview}}
+
+Op het dashboard Borden ziet u de lijst met borden en werkstromen waartoe u toegang hebt, inclusief borden die u hebt gemaakt en borden die u hebt toegevoegd. Afzonderlijke borden waartoe u toegang hebt, die geen deel uitmaken van een werkstroom, worden eerst weergegeven.
 
 >[!NOTE]
 >
->Verzamelingen zijn alleen beschikbaar via de optie Aanmelden voor vroege functies [!DNL Workfront] [!UICONTROL Boards].
+>De werkstromen zijn beschikbaar in het milieu van de Voorproef, en in Productie door vroege eigenschapopt-in voor [!UICONTROL [!DNL Workfront] Boards]. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-Op het dashboard kunt u het volgende doen voor borden en inzamelingen:
+Op het dashboard kunt u het volgende doen voor borden en werkstromen:
 
-* Een bord archiveren (verzamelingen kunnen niet worden gearchiveerd)
-* De lijst met tekengebieden filteren
+* Een bord archiveren <span class="preview">of werkstroom</span>
+* De platen filteren <span class="preview">en werkstromen</span>
 * De lijst met tekengebieden sorteren op de naam van het bord of op de gewijzigde datum
-* Een board of collectie zoeken
-* Een board of een verzameling verwijderen
+* Een kaart of werkstroom zoeken
+* Een board of werkstroom verwijderen
 
-Ga voor meer informatie over het maken van een nieuwe board of het bewerken van een bestaande board naar [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md). Voor informatie over het creëren van een nieuwe inzameling, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Ga voor meer informatie over het maken van een nieuwe board of het bewerken van een bestaande board naar [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md). Voor informatie over het maken van een nieuwe werkstroom raadpleegt u [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Toegangsvereisten
 
@@ -52,14 +54,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw [!DNL Workfront] beheerder.
 
-## Filterborden {#filter-boards}
+## Filterborden <span class="preview">en werkstromen</span> {#filter-boards}
 
-U kunt het dashboard van de boards filtreren om actieve raad, gearchiveerde raad, of alle raad te tonen.
+U kunt het dashboard van Borden filtreren om actieve, gearchiveerde, of alle borden of werkstromen te tonen.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klikken [!UICONTROL **Filter**] en selecteert u **[!UICONTROL All]**, **[!UICONTROL Active boards]**, of **[!UICONTROL Archived boards]**.
+1. Klikken [!UICONTROL **Filter**] in het gebied Boards of het gebied Workstreams en selecteer **[!UICONTROL All]**, **[!UICONTROL Active]**, of **[!UICONTROL Archived]**.
 
-   Wanneer een ander filter dan het gebrek op het dashboard wordt toegepast, wordt een indicator getoond op het filterpictogram ![[!UICONTROL Filter applied to] dashboard](assets/boards-filterapplied-30x30.png).
+   Wanneer een ander filter dan het gebrek op het dashboard wordt toegepast, wordt een indicator getoond op het filterpictogram ![Filter toegepast op dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Sorteerborden
 
@@ -70,64 +72,68 @@ U kunt het dashboard van de boards filtreren om actieve raad, gearchiveerde raad
 
    Wanneer een andere sortering dan de standaardsortering wordt toegepast op het dashboard, wordt een indicator weergegeven op het sorteerpictogram ![Sorteren toegepast](assets/sort-applied-boards.png).
 
-## Een board of verzameling zoeken
+## Een board of een workstream zoeken
 
-U kunt in het gebied van Borden naar een specifieke raad, of onderzoek in het gebied van Inzamelingen naar een specifieke inzameling zoeken.
+U kunt in het gebied Boards naar een specifieke board zoeken, of in het gebied Workstreams naar een specifieke workstream zoeken.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
 1. Klikken [!UICONTROL **Zoeken**] en typ een zoekterm. Druk vervolgens op Enter.
 
-   Alle gebieden die de zoekterm in de titel bevatten, worden weergegeven.
+   Alle tekengebieden of werkstromen die de zoekterm in de titel bevatten, worden weergegeven.
 
    Klik op de X om de zoekopdracht te wissen.
 
    ![Op het dashboard naar tekengebieden zoeken](assets/boards-searchbox.png)
 
-## Een bord archiveren
+## Een bord archiveren <span class="preview">of een werkstroom</span>
 
-Als u een board archiveert, wordt deze naar het archief verzonden en kunt u deze later herstellen.
+Als u een board of een workstream archiveert, wordt deze naar het archief verzonden en kunt u deze later herstellen.
 
 >[!NOTE]
 >
 >Wanneer u een raad archiveert, wordt het gearchiveerd voor alle leden van de raad.
+>
+>Wanneer u een werkstroom archiveert, worden alle borden gearchiveerd.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op het bord en selecteert u **[!UICONTROL Archive]**.
+1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op het bord of de werkstroom en selecteer **[!UICONTROL Archive]**.
 
-   An [!UICONTROL Archive] pictogram ![Archief](assets/archive-icon-spectrum-25x20.png) verschijnt op het bord. U kunt een gearchiveerd bord niet bewerken.
+   In een werkstroom bevindt het menu zich aan de rechterkant, naast de knop [!UICONTROL **Werkstroom weergeven**] knop.
 
-   Gearchiveerde borden worden verborgen op het dashboard van Borden tenzij u een filter toepast om hen te tonen. Zie voor meer informatie de [[!UICONTROL Filter boards]](#filter-boards) in dit artikel.
+   An [!UICONTROL Archive] pictogram ![Archief](assets/archive-icon-spectrum-25x20.png) wordt weergegeven op het bord of de werkstroom. U kunt een gearchiveerd bord of werkstroom niet bewerken.
 
-1. Als u een gearchiveerd bord wilt herstellen, klikt u op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png) aan boord en selecteer **[!UICONTROL Restore]**.
+   Gearchiveerde items worden verborgen op het dashboard van het tekengebied, tenzij u een filter toepast om ze weer te geven. Zie voor meer informatie de [[!UICONTROL Filter boards]](#filter-boards) in dit artikel.
 
-## Een board of een verzameling verwijderen
+1. Als u een gearchiveerd board of een werkstream wilt herstellen, klikt u op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png) in het board of de workstream en selecteer **[!UICONTROL Restore]**.
+
+## Een board of een workstream verwijderen
 
 Wanneer u een board verwijdert, wordt deze permanent verwijderd uit [!DNL Workfront] en kan niet worden hersteld. Alle kaarten aan boord worden ook samen met het bord verwijderd.
 
-Als u een verzameling verwijdert, worden alle platen in de verzameling verwijderd.
+Als u een werkstroom verwijdert, worden ook alle borden in de werkstroom verwijderd.
 
 >[!NOTE]
 >
->U kunt alleen borden en verzamelingen verwijderen die u hebt gemaakt, niet borden en verzamelingen waaraan u bent toegevoegd.
+>U kunt alleen de gebieden en werkstromen verwijderen die u hebt gemaakt, niet de gebieden en werkstromen waaraan u bent toegevoegd.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) aan boord of in verzameling, en selecteer **[!UICONTROL Delete]**.
+1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op het bord of de werkstroom en selecteer **[!UICONTROL Delete]**.
 
-   Bij een verzameling bevindt het menu zich rechts, naast de [!UICONTROL **Verzameling weergeven**] knop.
+   In een werkstroom bevindt het menu zich aan de rechterkant, naast de knop [!UICONTROL **Werkstroom weergeven**] knop.
 
-1. Klikken **[!UICONTROL Delete board]** of [!UICONTROL **Verzameling verwijderen**] in het bevestigingsbericht.
+1. Klikken **[!UICONTROL Delete board]** of [!UICONTROL **Werkstroom verwijderen**] in het bevestigingsbericht.
 
-## Een board naar een verzameling verplaatsen
+## Een board naar een werkstroom verplaatsen
 
-U kunt een zelfstandig board naar een verzameling verplaatsen of een board van de ene verzameling naar een andere verzameling verplaatsen.
+U kunt een zelfstandig board naar een werkstream verplaatsen of een board van de ene naar de andere werkstream verplaatsen.
 
 >[!NOTE]
 >
 >U kunt alleen borden verplaatsen die u hebt gemaakt, niet borden waaraan u bent toegevoegd.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op het bord en selecteert u [!UICONTROL **Verplaatsen naar verzameling**].
-1. Selecteer de verzameling waaraan u het board wilt toevoegen en klik op [!UICONTROL **Verplaatsen**].
+1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op het bord en selecteert u [!UICONTROL **Verplaatsen naar werkstroom**].
+1. Selecteer aan welke werkstream u het board wilt toevoegen en klik op [!UICONTROL **Verplaatsen**].
 
-   Het board wordt verplaatst naar de collectie en wordt niet meer weergegeven in de [!UICONTROL Boards] gebied.
-Als u nog geen verzameling hebt gemaakt, wordt u gevraagd om er een te maken om het board naar te verplaatsen.
+   Het board wordt verplaatst naar de werkstream en wordt niet meer weergegeven in het [!UICONTROL Boards] gebied.
+Als u nog geen werkstroom hebt gemaakt, wordt u gevraagd om er een te maken om het werkgebied naar te verplaatsen.

@@ -6,9 +6,9 @@ description: U kunt een kaart naar een willekeurige kolom op het bord verplaatse
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![Het menu Meer](assets/boards-moremenu-350x329.png)
 
 ## Een kaart kopiëren
+
+Door een ad-hockaart te kopiëren worden alle velden op de kaart gedupliceerd, inclusief items op de checklist.
 
 >[!NOTE]
 >

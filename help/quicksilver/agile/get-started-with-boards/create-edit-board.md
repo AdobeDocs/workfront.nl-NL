@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Van de [!UICONTROL boards] kunt u een nieuw board maken of een bestaand board bewerken.
 
-Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Als u een board wilt toevoegen aan een werkstroom, raadpleegt u [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Toegangsvereisten
 
@@ -43,11 +43,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een nieuw bord maken
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Als u een zelfstandig toetsenbord wilt maken, klikt u op **[!UICONTROL Add board]** in de [!UICONTROL Boards] gebied. Om een raad aan een inzameling toe te voegen, zie [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Als u een zelfstandig toetsenbord wilt maken, klikt u op **[!UICONTROL Add board]** in de [!UICONTROL Boards] gebied. Als u een board wilt toevoegen aan een werkstroom, raadpleegt u [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
-   > Verzamelingen zijn alleen beschikbaar via de optie Aanmelden voor vroege functies [!DNL Workfront] [!UICONTROL Boards].
+   >De werkstromen zijn beschikbaar in het milieu van de Voorproef, en in Productie door vroege eigenschapopt-in voor [!UICONTROL [!DNL Workfront] Boards]. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Selecteer een sjabloon voor het bord.
 
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   > De malplaatjes van de raad zijn beschikbaar slechts door vroege eigenschapopt-in voor [!DNL Workfront] [!UICONTROL Boards].
+   > De malplaatjes van de raad zijn beschikbaar slechts door vroege eigenschapopt-in voor [!DNL Workfront] [!UICONTROL Boards]. Anders blijft u beperkt tot het basisbord.
 
 1. Typ een naam voor het toetsenbord in het dialoogvenster **[!UICONTROL Board]** en drukt u op Enter.
 1. Configureer de kaart naar wens.

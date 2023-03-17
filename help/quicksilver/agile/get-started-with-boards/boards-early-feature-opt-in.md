@@ -6,9 +6,9 @@ title: Aanmelden met vroege functies voor [!DNL Adobe Workfront] Borden
 description: Lees dit artikel voor meer informatie over de [!DNL Workfront Boards] opt-in voor vroege functies.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -125,16 +125,16 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
    <td>Gedeeltelijk vrijgegeven</td>
   </tr>
   <tr>
-   <td>Verzamelingen van borden maken</td>
+   <td>Werkstromen maken en tekengebieden toevoegen aan werkstromen</td>
    <td>Gedeeltelijk vrijgegeven</td>
   </tr>
   <tr>
    <td>Herhalingen maken</td>
-   <td>Geplant</td>
+   <td>Gedeeltelijk vrijgegeven (beschikbaar in Voorvertoning)</td>
   </tr>
   <tr>
    <td>Kaartlijst of achterstand definiëren</td>
-   <td>Geplant</td>
+   <td>Gedeeltelijk vrijgegeven (beschikbaar in Voorvertoning)</td>
   </tr>
   <tr>
    <td>Subtaken importeren als controlelijstitems op kaarten</td>

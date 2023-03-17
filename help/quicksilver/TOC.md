@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 0%
 
 ---
@@ -928,7 +928,10 @@ ht-degree: 0%
       * [Een inlaatkolom aan een bord toevoegen](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Groepen aan boord gebruiken](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Afvalfunctie van kaart configureren](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Verzamelingen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [Een herhaling maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [Metrische gegevens voor herhaling controleren](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * Kanban in een team {#kanban}
       * [Kanban in een team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban-overzicht](agile/use-kanban-in-an-agile-team/kanban-overview.md)

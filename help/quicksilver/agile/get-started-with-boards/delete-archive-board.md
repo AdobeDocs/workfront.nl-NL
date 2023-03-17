@@ -6,20 +6,21 @@ title: Een board verwijderen of archiveren
 description: U kunt een board verwijderen of archiveren in Workfront. Als u een kaart verwijdert, wordt deze permanent uit Workfront verwijderd, terwijl bij het archiveren van een kaart alle kaarten behouden blijven en later hersteld kunnen worden.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Een board verwijderen of archiveren
 
-U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld. Deze opties zijn van toepassing op zelfstandige borden en borden die deel uitmaken van verzamelingen.
+U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld. Deze opties zijn van toepassing op zelfstandige borden en borden die deel uitmaken van werkstromen.
 
 >[!NOTE]
 >
->Verzamelingen zijn alleen beschikbaar via de vroege functieoptie voor Workfront Boards.
+>De vorige versie van werkstromen, genaamd verzamelingen, zijn alleen beschikbaar via de vroege functieaanmelding voor [!UICONTROL [!DNL Workfront] Boards]. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Workstreams zijn beschikbaar voor iedereen in de voorvertoningsomgeving.
 
 ## Toegangsvereisten
 
