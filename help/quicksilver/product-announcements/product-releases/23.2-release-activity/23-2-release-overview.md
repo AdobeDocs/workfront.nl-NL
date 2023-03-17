@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Canvasdashboards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Canvasdashboards</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
                         <p>Canvasdashboards zijn toegevoegd als werk-in-uitvoering eigenschap voor dashboards die in lay-outmalplaatjes kunnen worden toegelaten. Met Canvasdashboards kunnen de visualisaties van Canvas worden gecombineerd met bestaande rapporten, naast de nieuwe lay-outopties. Momenteel worden alleen lijstrapporten ondersteund, maar er worden meer opties toegevoegd als de ontwikkeling doorgaat.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze data: N.v.t.</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release:<br /></p>
+                                <p>Voorvertoning release:n.v.t.<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: Met de release van 23.2</span></p>
