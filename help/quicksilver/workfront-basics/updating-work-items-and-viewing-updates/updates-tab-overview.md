@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Overzicht van het tabblad Updates
-description: Het tabblad Updates bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn gemaakt.
+title: Overzicht van de sectie Updates
+description: De sectie Updates bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn uitgevoerd.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
-# Overzicht van het tabblad Updates
+# Overzicht van de sectie Updates
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-Het tabblad Updates bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn gemaakt.
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-U kunt opmerkingen maken en reageren op updates voor de volgende objecten:
+-->
+
+In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
+
+## Overzicht van de sectie Updates
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+De sectie Updates van een object bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn uitgevoerd.
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+In de sectie Updates wordt de volgende informatie weergegeven:
+
+* Opmerkingen van gebruikers en antwoorden op deze opmerkingen.
+* Systeemupdates die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+De sectie Updates wordt weergegeven voor de volgende objecten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ U kunt opmerkingen maken en reageren op updates voor de volgende objecten:
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
-Zoals in de volgende tabel wordt getoond, worden antwoorden op updates voor bepaalde objecten ook weergegeven op het tabblad Updates van objecten met een hogere positie.
+Zoals getoond in de volgende lijst, verschijnen de antwoorden die op updates over bepaalde voorwerpen worden gemaakt ook op de sectie van Updates van hoger-gerangschikte voorwerpen.
 
-Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergegeven op het tabblad Updates voor de taak en op het tabblad Updates voor het project dat de taak bevat.
+Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergegeven in de sectie Updates voor de taak en in de sectie Updates voor het project dat de taak bevat.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergeg
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## Beperkingen op het tabblad Updates
+## Beperkingen van de sectie Updates
 
 ### Beperkingen voor gebruikers en teams
 
-U kunt geen updates uitvoeren op teams. Het tabblad Updates voor teams wordt gevuld met updates die worden ingevoerd voor de volgende objecten:
+U kunt geen updates uitvoeren op teams. De sectie Updates voor teams wordt gevuld met updates die worden ingevoerd voor de volgende objecten:
 
 * Gebruikers
 * Timesheets
 * Artikelen
 * Herhalingen
 
-Op het tabblad Updates voor gebruikers en teams kunt u de updates weergeven die in de afgelopen 90 dagen zijn ingevoerd.
+In de sectie Updates voor gebruikers en teams kunt u de updates weergeven die in de afgelopen 90 dagen zijn ingevoerd.
 
 Als u alle updates wilt zien die op een gebruiker of een team, voorbij de grens van 90 dagen worden gemaakt, kunt u een rapport voor nota&#39;s bouwen. Het rapport zou geen tijdfilter moeten hebben dat alle updates toont die voor gebruikers of teams worden gemaakt. Zie voor meer informatie [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

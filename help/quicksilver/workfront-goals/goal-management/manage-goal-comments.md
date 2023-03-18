@@ -6,7 +6,7 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Doelopmerkingen beheren in Adobe Workfront-doelen
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven in Adobe Workfront Goals.
 
@@ -206,7 +208,28 @@ Dit opent de doellijst.
    >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
 
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
+
+<!--drafted for beta release 23.2:
+1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. </span>
+1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
+   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+
+   >[!TIP]
+   >
+   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
+-->
 1. Klikken **Verzenden**.
+
+<!--drafted for 23.2 beta release: 
+
+   >[!TIP]
+   >
+   >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
+   >
+   > ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de bovenstaande stappen 5 tot en met 7. <!--insure this stays accurate-->
 1. (Optioneel) Klik op de knop **leuk** pictogram![](assets/like-icon.png) als u een opmerking wilt toevoegen die iemand anders heeft toegevoegd. Het pictogram wordt bijgewerkt met het aantal ‘like’.
 1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u tijdens het typen kenmerken op de werkbalk RTF. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

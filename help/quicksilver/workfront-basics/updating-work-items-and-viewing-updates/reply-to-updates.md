@@ -2,20 +2,40 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Reageren op updates
-description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad op het lusje van Updates voor het voorwerp. U kunt een antwoord toevoegen aan een update of als u toegang tot het object hebt met Weergave.
+description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de sectie van Updates voor het voorwerp. U kunt een antwoord toevoegen aan een update of als u toegang tot het object hebt met Weergave.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 923c9e25fbd73c9d6a6a20436333c6e7969e9538
+source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Reageren op updates
 
-Wanneer iemand toevoegt of op een update op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad op het lusje van Updates voor het voorwerp. U kunt een antwoord toevoegen aan een update of als u toegang tot het object hebt met Weergave.
+<!--take "Beta" references out when we remove the beta-->
+
+<!-- Drafted for commenting experience: 
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>
+>You can access the new design for the following objects:
+> * <span class="preview">Issues, when enabling the commenting Beta. </span>
+> * Goals
+>   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+
+-->
+
+Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de sectie van Updates voor het voorwerp.
+
 
 ## Toegangsvereisten
 
@@ -35,8 +55,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>de aanvrager of hoger voor kwesties en documenten; Revisor of hoger voor alle andere objecten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
-  </tr> 
+   <td> <p>de aanvrager of hoger voor kwesties en documenten; Revisor of hoger voor alle andere objecten</p> <p><b>OPMERKING</b>
+
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
    <td> <p>Toegang tot het object weergeven</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
@@ -48,26 +70,48 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Reageren op een update of een antwoord
 
+<!--
+Replying to a comment or reply differs depending on which experience and which object you select.
+
+### Reply to an update or reply in the current Updates section
+-->
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
 1. Op de **Updates** zoekt u de update of het antwoord waarop u wilt antwoorden.
 
-   Een afbeelding weergeven in de update:
+1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding weer te geven in de bestaande update:
 
-   * Klik op de knop **Voorvertoning** pictogram ![](assets/previewimageicon-31x31.png) op de miniatuur van de afbeelding om de afbeelding op volledige grootte te openen in een nieuw browsertabblad.
-   * Klik op de knop **Downloaden** pictogram ![](assets/downloadimageicon.png) op de miniatuur van de afbeelding om de afbeelding te downloaden.
-
-   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad wordt geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   ![](assets/tagging-transparency-350x192.png)
+   * Klik op de knop **Voorvertoning** pictogram ![](assets/previewimageicon-31x31.png) op de miniatuur van de afbeelding om de afbeelding op volledige grootte te openen in een nieuw browsertabblad.
+   * Klik op de knop **Downloaden** pictogram ![](assets/downloadimageicon.png) op de miniatuur van de afbeelding om de afbeelding te downloaden.
 
 1. Klikken **Reageren** in de update typt u een antwoord in het vak dat wordt weergegeven.
-1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Aanhalingsreactie**. De tekst van de vorige update verschijnt in het invoergebied, duidelijk met een grijze lijn.
-1. (Optioneel) Gebruik opmaak en emoties en voeg koppelingen en afbeeldingen toe zoals wordt uitgelegd in de sectie [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in het artikel [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   U kunt de gebruikers zien die actief in het gesprek betrokken zijn of in elk antwoord bij de bovenkant van die updatedraad geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   ![](assets/tagging-transparency-350x192.png)
+1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Aanhalingsreactie**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
+1. (Optioneel) Gebruik opmaak, emojis, neem koppelingen of afbeeldingen op zoals wordt uitgelegd in de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het artikel [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klikken **Reageren** om het antwoord op te slaan.
 
-   of
+<!--
 
-   Klikken **Gereed** als de taak of kwestie in een status van Voltooid of Gesloten is.
+<div class="preview">
+### Reply to a comment when using the commenting Beta experience
+
+1. Go to the object to which you want to add a reply.
+1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
+1. Click **Reply**. 
+
+   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+
+<!--this is not yet available in beta, leave drafted:  
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************
+
+1. Click **Submit** to save the reply.
+</div>
+-->
+
 
 ## Reageren op een update via e-mailmelding
 
@@ -103,7 +147,7 @@ Wanneer u een e-mailbericht ontvangt, kunt u snel het bijbehorende Workfront-obj
 
 1. Ga naar de update waaraan u een antwoord wilt toevoegen.
 
-   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad werd geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad werd geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 1. Klikken **Reageren,** voer uw antwoord in, dan klik **Reageren**.
 

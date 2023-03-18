@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,27 @@ ht-degree: 0%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-U kunt opmerkingen toevoegen aan verschillende objecten in Workfront. Zie voor meer informatie [Overzicht van het tabblad Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-U kunt een update toevoegen aan een Adobe Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object en er opmerkingen over te maken. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen.
+>[!NOTE]
+>
+>We are currently redesigning the way you update work when using the Updates section of an object. 
+>You can access the new design by enabling the commenting Beta. 
+>Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-De informatie op deze pagina verwijst naar het bijwerken van werkzaamheden voor projecten, taken of problemen. Voor informatie over het toevoegen van commentaren en updates aan doelstellingen, zie [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-U kunt projecten, taken en problemen bijwerken vanuit de volgende Workfront-domeinen:
+In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+U kunt een update toevoegen aan een Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object, terwijl u commentaar geeft op het object. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen. Gelabelde gebruikers ontvangen een melding in de app en een e-mail over uw update.
+
+De informatie op deze pagina beschrijft hoe u commentaar kunt geven op Workfront-objecten en hoe u projecten, taken en problemen bijwerkt. Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md). U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
+
+
+U kunt een update toevoegen aan projecten, taken en problemen uit de volgende Workfront-domeinen:
 
 * Vanuit een Workfront-object, in de sectie Updates
 * Vanuit het thuisgebied (voor taken en problemen)
@@ -99,85 +111,23 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Een update toevoegen aan een werkitem
 
-<!--drafted for the commenting experience - change the NOTE at the top of this paragraph with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
 
-Adding an update to a work item differs depending on what environment and what object you choose. 
+Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
 
-### Add an update to a work item in the Production environment
+### Add an update to a work item in the current Updates section
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals, in the Production and Preview environments. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 -->
 
 1. Ga naar het het werkpunt waarvoor u een update (zoals een project, een taak, of een kwestie) wilt verstrekken.
 1. Klik op de knop **Updates** sectie.
 1. Klikken **Een nieuwe update starten,** typ de update.
-
-1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u de kenmerken in het dialoogvenster **RTF** terwijl u typt.
-
-   | **Kenmerk** | **Werkbalkknop** | **Mac-sneltoetsen** | **Sneltoetsen pc** |
-   |---|---|---|---|
-   | Vet | ![mceclip10.png](assets/mceclip10.png) | + | Ctrl+B |
-   | Cursief | ![mceclip9.png](assets/mceclip9.png) | Alt+i | Ctrl+I |
-   | Onderstrepen | ![mceclip8.png](assets/mceclip8.png) | Alt+u | Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | K | Ctrl+K |
-   | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
-   | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
-   | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | Ctrl+Shift+9 |
-
-   Als u de opmaak van tekst wilt stoppen, deselecteert u het kenmerk in het dialoogvenster **RTF** werkbalk.
-
-   >[!NOTE]
-   >
-   >* Opmaak wordt ook weergegeven in e-mailberichten die gebruikers ontvangen met uw update.
-   >* Opmaak van RTF-gegevens die wordt toegepast op een update in een e-mailbericht, wordt niet weergegeven in de update wanneer deze wordt weergegeven op het tabblad Updates.
-   >* Als uw organisatie Workfront met Internet Explorer gebruikt, verliest alle opgemaakte tekst die in een update wordt geplakt zijn RTF-opmaak en wordt deze als onbewerkte tekst weergegeven. U kunt de tekst opnieuw opmaken met de kenmerken op de werkbalk RTF.
-   >* Opmaak van RTF-tekst is niet beschikbaar voor updates die worden uitgevoerd in het gedeelte Timesheets of voor notitie- en laatste-voorwaardenobjecten die worden weergegeven in een rapport.
-
-
-1. (Optioneel) Als u tekst uit vorige updates of uit andere bronnen wilt opnemen en deze wilt onderscheiden van uw eigen update, kunt u deze markeren als een blokofferte. Klik op de knop **Blokprijsopgave** pictogram ![](assets/block-quote-small.png) en typ de tekst die u wilt aanhalen. De geciteerde tekst wordt gemarkeerd met een verticaal grijze lijn weergegeven. Klik op de knop **Blokprijsopgave** weer op om terug te keren naar de normale opmaak.
-
-   ![](assets/block-quote-marked-350x144.png)
-
-1. (Optioneel) Voeg eventuele emoties toe aan de update.
-
-   >[!NOTE]
-   >
-   >* Workfront vervangt leestekens zoals :) niet door emojis.
-   >* Emojis is niet beschikbaar voor updates die in het gedeelte Timesheets zijn gemaakt of voor notitie- en laatste voorwaardenobjecten die in een rapport worden weergegeven.
-   >* De functie emoji in Workfront gebruikt Unicode-tekens en wordt als zodanig alleen weergegeven in browsers en besturingssystemen die Unicode-codepunten ondersteunen. Gebruikers van een ander platform, browser of besturingssysteem dan de uwe hebben mogelijk geen toegang tot dezelfde emojis.
-   >* Een niet-ondersteunde emoji wordt weergegeven door een zwarte of witte doos.
-   >* Windows 7 biedt alleen ondersteuning voor zwart-witafbeeldingen.
-   >* Mojs die worden toegepast op een update die via e-mail wordt uitgevoerd, worden niet weergegeven in de update wanneer deze wordt weergegeven in het gedeelte Updates.
-
-
-1. (Optioneel) Een URL-koppeling toevoegen aan extra informatiebronnen:
-
-   1. Klik in de update op de plaats waar u een koppeling wilt invoegen.
-   1. Op de **RTF** klikt u op de **Hyperlink** pictogram. ![](assets/link-icon.png)
-
-   1. In de **Koppeling maken** vak dat wordt weergegeven onder **URL**, typt of plakt u de URL van de bron waaraan u wilt koppelen.
-
-   1. Onder **Weer te geven tekst**, typt of plakt u de koppelingstekst.
-   1. Klikken **Opslaan**.
-
-
-
-1. (Optioneel) Als u een afbeelding aan de update wilt koppelen, klikt u op de knop **Afbeelding** pictogram ![](assets/addimageicon-35x32.png) en blader naar de afbeelding op uw computer.\
-   of\
-   Sleep de afbeelding naar het updategebied.
-
-   >[!NOTE]
-   >
-   >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen voordat u het afbeeldingspictogram kunt zien.
-   >* De maximale grootte van het afbeeldingsbestand is 7 MB. Ondersteunde bestandstypen voor afbeeldingen zijn .jpg, .gif en .png.
-   >* Afbeeldingen zijn alleen toegankelijk via het tabblad Updates van een object en zijn niet beschikbaar op het tabblad Documenten.
-   >* U kunt een update verzenden met een afbeelding en geen tekst.
-
-
-1. (Optioneel) Geef een of meer van de volgende items op:
+1. (Optioneel) Gebruik RTF-tekst of voeg emoties, koppelingen of afbeeldingen toe aan de update om de inhoud te verbeteren. Zie de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in dit artikel voor meer informatie
+1. (Optioneel) Werk een van de volgende gegevens bij over het werkitem:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -207,7 +157,10 @@ Adding an update to a work item differs depending on what environment and what o
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Privé voor mijn bedrijf</strong></td> 
-      <td> <p>Schakel deze optie uit als u wilt voorkomen dat gebruikers buiten uw bedrijf toegang hebben om deze update te bekijken.</p> </td> 
+      <td> <p>Schakel deze optie uit als u wilt voorkomen dat gebruikers buiten uw bedrijf toegang hebben om deze update te bekijken.</p> 
+      <p><b>OPMERKING</b></p>
+      <p>Deze optie toont slechts wanneer de gebruiker met een Bedrijf wordt geassocieerd.</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -223,18 +176,31 @@ Adding an update to a work item differs depending on what environment and what o
 1. Als u wilt reageren op een update, raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 <!--
-### Add an update to a work item in the Preview environment
+
+### Add an update to a work item using the commenting Beta experience
+
 
 >[!NOTE]
 >
-> In the Preview environment, the following functionality is available only for issues, after opting in the Beta program for the new commenting experience.
-> 
-> In the Production environment, the following functionality is available for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
+>The functionality described in this section is available for the following objects:
+>
+>* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
+>
+>   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>
+>   * <span class="preview">Home</span>
+>   * <span class="preview">Summary panel in lists</span>
+>   * <span class="preview">Summary panel in timesheets</span>
+>* Goals
+>
+>   The commenting experience Beta is the default current experience for goals.
+>   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-1. Locate the object you want to add comments to, then click its name to open the object's page.
+
+1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
-1. Activate the **Beta** toggle in the upper-right corner of the Updates area. This switches the Updates area to the new commenting experience. 
-1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
+   The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
    ![](assets/comment-box-empty-unshimmed.png)
@@ -244,62 +210,133 @@ Adding an update to a work item differs depending on what environment and what o
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
+1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
 
-   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
-   |---|---|---|---|
-   | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
-   | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
-   | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
-   | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
-   | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
-   | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
-
-    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
-
-   >[!NOTE]
-   >
-   >* Formatting also displays in any email notification users receive containing your update.
-   >* Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
-   >* If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
-   >* Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-
-   ************ HIDE THIS ********* 1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
-
-   ********  HIDE THIS ******** 1. (Optional) Add any emojis to your update.
-
-   >[!NOTE]
-   >
-   >* Workfront does not replace punctuation emoticons such as :) with emojis.
-   >* Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
-   >* An unsupported emoji is represented by a black or white box.
-   >* Windows 7 supports only black and white emojis.  
-   >* Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
-
-1. (Optional) To add a URL link to additional information sources:
-
-   1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
-
-   1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
+   * Bold
+   * Italics
+   * Underline
+   * Link
+   * Bulleted List
+   * Numbered List
+   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
    
-   1. Under **Text to display**, type or paste the link text.
-   1. Click **Save**.   
-1. Click **Submit**. 
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********)
-1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
-1. (Conditional and Optional) If you included additional people in your comment, click on the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+
+   >[!TIP]
+   >
+   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+   >
+   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
+
+
+
+1. Click **Submit** to add the update to the Workfront object. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment, or remove any of the tagged users. 
+   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
+
+   >[!TIP]
+   >
+   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
+1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. 
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
 
+   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+
+   >[!TIP]
+   >
+   >You cannot add a comment to a system update.
 -->
 
 
+## RTF-bestanden gebruiken in een Workfront-update
+
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+
+>[!NOTE]
+>
+>Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
+
+
+U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aan toe te voegen, zoals emojis, koppelingen of afbeeldingen.
+
+1. Ga naar het gedeelte Updates en typ een opmerking.
+1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u de kenmerken in het dialoogvenster **RTF** terwijl u typt.
+
+   | **Kenmerk** | **Werkbalkknop** | **Mac-sneltoetsen** | **Sneltoetsen pc** |
+   |---|---|---|---|
+   | Vet | ![mceclip10.png](assets/mceclip10.png) | + | Ctrl+B |
+   | Cursief | ![mceclip9.png](assets/mceclip9.png) | Alt+i | Ctrl+I |
+   | Onderstrepen | ![mceclip8.png](assets/mceclip8.png) | Alt+u | Ctrl+U |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | K | Ctrl+K |
+   | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
+   | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
+   | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | Ctrl+Shift+9 |
+
+   Als u de opmaak van tekst wilt stoppen, deselecteert u het kenmerk in het dialoogvenster **RTF** werkbalk.
+
+   >[!NOTE]
+   >
+   >* Opmaak wordt ook weergegeven in e-mailberichten die gebruikers ontvangen met uw update.
+   >* Opmaak van RTF-gegevens die wordt toegepast op een update in een e-mailbericht, wordt niet weergegeven in de update wanneer deze wordt weergegeven op het tabblad Updates.
+   >* Als uw organisatie Workfront met Internet Explorer gebruikt, verliest alle opgemaakte tekst die in een update wordt geplakt zijn RTF-opmaak en wordt deze als onbewerkte tekst weergegeven. U kunt de tekst opnieuw opmaken met de kenmerken op de werkbalk RTF.
+   >* Opmaak van RTF-tekst is niet beschikbaar voor updates die worden uitgevoerd in het gedeelte Timesheets of voor notitie- en laatste-voorwaardenobjecten die worden weergegeven in een rapport.
+
+
+1. (Optioneel) Als u tekst uit vorige updates of uit andere bronnen wilt opnemen en deze wilt onderscheiden van uw eigen update, kunt u deze markeren als een blokofferte. Klik op de knop **Blokprijsopgave** pictogram ![](assets/block-quote-small.png) en typ de tekst die u wilt aanhalen. De geciteerde tekst wordt gemarkeerd met een verticaal grijze lijn weergegeven. Klik op de knop **Blokprijsopgave** weer op om terug te keren naar de normale opmaak.
+
+   ![](assets/block-quote-marked-350x144.png)
+
+1. (Optioneel) Voeg emoties toe aan de update.
+
+   >[!NOTE]
+   >
+   >* Workfront vervangt leestekens zoals :) niet door emojis.
+   >* Emojis is niet beschikbaar voor updates die in het gedeelte Timesheets zijn gemaakt of voor notitie- en laatste voorwaardenobjecten die in een rapport worden weergegeven.
+   >* De functie emoji in Workfront gebruikt Unicode-tekens en wordt als zodanig alleen weergegeven in browsers en besturingssystemen die Unicode-codepunten ondersteunen. Gebruikers van een ander platform, browser of besturingssysteem dan de uwe hebben mogelijk geen toegang tot dezelfde emojis.
+   >* Een niet-ondersteunde emoji wordt weergegeven door een zwarte of witte doos.
+   >* Windows 7 biedt alleen ondersteuning voor zwart-witafbeeldingen.
+   >* Mojs die worden toegepast op een update die via e-mail wordt uitgevoerd, worden niet weergegeven in de update wanneer deze wordt weergegeven in het gedeelte Updates.
+
+
+1. (Optioneel) Een URL-koppeling toevoegen aan extra informatiebronnen:
+
+   1. Klik in de update op de plaats waar u een koppeling wilt invoegen.
+   1. Op de **RTF** klikt u op de **Hyperlink** pictogram. ![](assets/link-icon.png)
+
+   1. In de **Koppeling maken** vak dat wordt weergegeven onder **URL**, typt of plakt u de URL van de bron waaraan u wilt koppelen.
+
+   1. Onder **Weer te geven tekst**, typt of plakt u de koppelingstekst.
+   1. Klikken **Opslaan**.
+
+1. (Optioneel) Als u een afbeelding aan de update wilt koppelen, klikt u op de knop **Afbeelding** pictogram ![](assets/addimageicon-35x32.png) en blader naar de afbeelding op uw computer.\
+   of\
+   Sleep de afbeelding naar het updategebied.
+
+   >[!NOTE]
+   >
+   >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen voordat u het afbeeldingspictogram kunt zien.
+   >* De maximale grootte van het afbeeldingsbestand is 7 MB. Ondersteunde bestandstypen voor afbeeldingen zijn .jpg, .gif en .png.
+   >* Afbeeldingen zijn alleen toegankelijk via het tabblad Updates van een object en zijn niet beschikbaar op het tabblad Documenten.
+   >* U kunt een update verzenden met een afbeelding en geen tekst.
+
+1. Klikken **Bijwerken**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->.
+
 
 ## Updategegevens kopiëren
+
+<!--drafted for beta release toggle - remove when copying an update will be available: 
+
+>[!NOTE]
+>
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Er zijn verschillende manieren waarop u een update kunt kopiëren. Nadat u een koppeling hebt gekopieerd, kunt u de koppeling met anderen delen om deze naar de update te leiden.
 
@@ -345,7 +382,7 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klik in het bericht dat wordt weergegeven op **Bevestigen**.
+1. Klik in het bericht dat wordt weergegeven op **Bevestigen** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
 
 >[!NOTE]
 >
@@ -371,6 +408,17 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
    Als de tijdpagina niet is ingesteld met een fiatteur, klikt u op **Tijdblad opslaan en sluiten** om de update op te slaan.
 
 ## Systeemupdates in- of uitschakelen
+
+<!--remove preview with 23.2 production: 
+
+<div class="preview">
+>[!NOTE]
+>
+>It is not possible to disable system updates when using the Beta commenting experience. 
+>The information in this section refers only to functionality available in the current Updtes section. 
+>For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
+</div>
+-->
 
 In de sectie Updates van een Workfront-object worden twee soorten gegevens weergegeven:
 
