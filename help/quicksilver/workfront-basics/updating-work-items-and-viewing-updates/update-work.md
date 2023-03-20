@@ -6,7 +6,7 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
 workflow-type: tm+mt
 source-wordcount: '2674'
 ht-degree: 0%
@@ -218,15 +218,16 @@ De
       ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
 1. Klikken **Verzenden** om de update aan het Workfront-object toe te voegen.
-1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
-1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers.
-U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
+1. <span class="preview">(Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.</span>
+1. <span class="preview">Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers. </span>
+
+   <span class="preview">U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt. </span>
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
+   >   <span class="preview">Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.</span>
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de stappen 4 tot en met 7 hierboven. <!--(**************insure this stays accurate***********)-->. Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optioneel) Klik op de knop **leuk** pictogram![](assets/like-icon.png). Het pictogram wordt bijgewerkt met het aantal ‘like’.
 1. (Voorwaardelijk en Optioneel) Als u extra personen hebt toegevoegd aan uw opmerking, klikt u op het aantal leden dat is opgenomen in de update om een lijst weer te geven met entiteiten waarmee de opmerking die u hebt ingevoerd, wordt gedeeld.
