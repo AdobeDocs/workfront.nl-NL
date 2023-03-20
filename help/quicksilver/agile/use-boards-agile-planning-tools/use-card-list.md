@@ -6,9 +6,9 @@ title: De kaartlijst gebruiken
 description: U kunt een kaartlijst op een werkstroom tot stand brengen en de kaarten toevoegen aan herhalingen.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Klik op de X om de zoekopdracht te wissen.
 
 >[!NOTE]
 >
->U moet een herhaling maken voordat u er kaarten aan kunt toevoegen. Zie voor meer informatie [Een herhaling maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>U moet een herhaling maken voordat u er kaarten aan kunt toevoegen. Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Open de kaartlijst voor de werkstroom.
 1. Selecteer [!UICONTROL **Weergave herhaling**] om te zien welke kaarten aan een herhaling worden toegewezen en welke niet gepland zijn.

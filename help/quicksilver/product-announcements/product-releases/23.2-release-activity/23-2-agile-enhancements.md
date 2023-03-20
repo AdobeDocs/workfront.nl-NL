@@ -4,9 +4,9 @@ description: 23.2 Verbeteringen aan mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-func
 
 De naam van verzamelingen is gewijzigd in werkstromen. Met werkstromen kunt u gegevens op verschillende manieren visualiseren. U kunt punten op kaarten in een lijst, op een raad, of op een herhaling tonen. Kaarten in een werkstroom kunnen ook worden gedeeld door meerdere borden. U kunt workflows eenvoudig vereenvoudigen met behulp van kaarten en borden in een workstream.
 
-Zie voor meer informatie [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Een herhaling maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), en [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). De tweede twee artikelen zijn pas beschikbaar in Main nadat ik mijn vertakking heb gepubliceerd.
+Zie voor meer informatie [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), en [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). De tweede twee artikelen zijn pas beschikbaar in Main nadat ik mijn vertakking heb gepubliceerd.
 
 ## Taken en problemen uit lijsten en rapporten toevoegen aan een workstreamkaartlijst
 

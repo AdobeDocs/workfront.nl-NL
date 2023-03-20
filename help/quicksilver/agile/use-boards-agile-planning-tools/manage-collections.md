@@ -6,9 +6,9 @@ title: Werkstromen beheren
 description: Een werkstroom is een configureerbare groep borden en kaarten voor samenwerking op het werk.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Een werkstroom is een configureerbare groep borden en kaarten voor samenwerking op het werk. Workstreams kunnen verschillende typen borden bevatten die op basis van sjablonen zijn gemaakt. <span class="preview">en een kaartlijst met werkitems. In een werkstroom kunt u het werk in herhalingen of sprints volgen.</span>
 
-<span class="preview">Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) en [Een herhaling maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) en [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 Workstreams worden op het dashboard weergegeven, samen met afzonderlijke borden waartoe u toegang hebt en die geen deel uitmaken van een werkstroom. Zie voor meer informatie over het dashboard voor borden [Het dashboard voor tekengebieden gebruiken](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). U kunt op een willekeurige bordnaam op het dashboard klikken om het te openen.
 
@@ -111,7 +111,7 @@ Personen en teams moeten als leden aan de werkstream worden toegevoegd voordat z
 
    Het totale aantal kaarten, het aantal puntige kaarten en het aantal herhalingen worden weergegeven in de sectie Kaartlijst. Klikken [!UICONTROL **Lijst weergeven**] om de lijst te openen en kaarten toe te voegen. Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Als een herhaling is gedefinieerd, worden de begindatum, het aantal kaarten en het aantal punten weergegeven. Klikken [!UICONTROL **Tekengebied weergeven**] om het bord te openen. Zie voor meer informatie [Een herhaling maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   Als een herhaling is gedefinieerd, worden de begindatum, het aantal kaarten en het aantal punten weergegeven. Klikken [!UICONTROL **Tekengebied weergeven**] om het bord te openen. Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Klikken [!UICONTROL **Bron toevoegen**] om een bron te definiëren voor het importeren van kaarten in de werkstream. Op dit moment is de enige beschikbare bron [!DNL Adobe Workfront].
 1. Voeg filters toe om taken en problemen uit Workfront als kaarten te importeren.
