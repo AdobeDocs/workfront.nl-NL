@@ -6,7 +6,7 @@ description: Zonder juiste toegang of machtigingen kunt u uw werktoewijzingen in
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -28,8 +28,8 @@ In de volgende tabel ziet u de verbinding tussen het Workfront-plan dat uw bedri
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Workfront-abonnement</p></td> 
-   <td> <p>Gebieden waar u tot de Balancer van de Werkbelasting kunt toegang hebben</p> </td> 
+   <td role="rowheader"><p><b>Workfront-abonnement</b></p></td> 
+   <td> <p><b>Gebieden waar u tot de Balancer van de Werkbelasting kunt toegang hebben</b></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team of hoger </td> 

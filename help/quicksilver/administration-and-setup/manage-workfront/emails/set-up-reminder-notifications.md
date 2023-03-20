@@ -1,13 +1,13 @@
 ---
 title: Herinneringsmeldingen instellen
 description: Herinneringsmeldingen instellen
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,15 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
      </tr> 
      <tr> 
       <td role="rowheader">Timing</td> 
-      <td> <p>Selecteer de gebeurtenis die het meldingsbericht activeert dat moet worden gepland.</p> <p>Als de herinneringsmelding voor projecten, taken, of kwesties bedoeld is, zijn de beschikbare opties verwant met de Datum van Voltooiing of de Datum van het Begin. In de kennisgeving van de herinnering wordt rekening gehouden met het tijdstempel op de datum van voltooiing en start van projecten, taken en kwesties.</p> <p>Als de herinneringsmelding voor Chronologie bedoeld is, zijn de beschikbare opties verwant met de Datum van het Eind, de Datum van het Begin, of de Laatste Datum van de Update. In de herinneringsmelding voor Timesheets wordt rekening gehouden met de tijdstempel van het tijdbladeinde, het begin en de laatste updatedatum. De tijdpagina begint om middernacht op de dag van de Datum van het Begin (12:00 AM) en beëindigt net vóór middernacht op de Datum van het Eind (11:59 PM).</p> </td> 
+      <td> <p>Selecteer de gebeurtenis die het meldingsbericht activeert dat moet worden gepland.</p> <p>Als de herinneringsmelding voor projecten, taken, of kwesties bedoeld is, zijn de beschikbare opties verwant met de Datum van Voltooiing of de Datum van het Begin. In de kennisgeving van de herinnering wordt rekening gehouden met het tijdstempel op de datum van voltooiing en start van projecten, taken en kwesties.</p>
+
+   <p>Als de herinneringsmelding voor Chronologie bedoeld is, zijn de beschikbare opties verwant met de Datum van het Eind, de Datum van het Begin, of de Laatste Datum van de Update. In de herinneringsmelding voor Timesheets wordt rekening gehouden met de tijdstempel van het tijdbladeinde, het begin en de laatste updatedatum. De tijdpagina begint om middernacht op de dag van de Datum van het Begin (12:00 AM) en beëindigt net vóór middernacht op de Datum van het Eind (11:59 PM).</p>
+
+   <p><b>OPMERKING</b></p>
+      <p>Herinneringsmeldingen voor tijdschriften worden slechts om de 24 uur verspreid.</p> <p>Wanneer u binnen een periode van 24 uur meerdere herinneringsmeldingen instelt, stuurt Workfront één e-mailbericht met alle herinneringen die in dat bericht zijn opgenomen.</p>
+      <p>Als u bijvoorbeeld drie herinneringsmeldingen configureert om 10 uur vóór, 2 uur vóór en 1 uur vóór een vervaldatum te activeren, worden de drie herinneringen allemaal gecombineerd in dezelfde melding als ze op dezelfde dag voorkomen.</p> <p>Als u echter een herinneringsmelding instelt voor 26 uur vóór en een andere voor 1 uur vóór een vervaldatum, ontvangen gebruikers twee aparte meldingen. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Criteria</td> 

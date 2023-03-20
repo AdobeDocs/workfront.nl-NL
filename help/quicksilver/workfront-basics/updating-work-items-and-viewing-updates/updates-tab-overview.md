@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De sectie Updates van een object wordt momenteel opnieuw ontworpen. U hebt toegang tot het nieuwe ontwerp door de bètaversie voor opmerkingen in te schakelen.
+>De sectie Updates van een object wordt momenteel opnieuw ontworpen.
 >
->De bètaversie is momenteel beschikbaar voor <span class="preview">kwesties</span>.
+>Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>U hebt toegang tot het nieuwe ontwerp vanuit de volgende objecten en in de volgende omgevingen:
+>
+>* <span class="preview">Wanneer u de opmerkingentabelervaring inschakelt voor de volgende objecten:</span>
+   >
+   >     * <span class="preview">Problemen</span>
+
+   >     
+   >     <span class="preview">Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:</span>
+   >
+   >     * <span class="preview">Home</span>
+   >     * <span class="preview">Samenvattingspaneel in lijsten</span>
+   >     * <span class="preview">Samenvattingspaneel in tijdbladen</span>
+>
+>* Standaard wordt dit de huidige opmerkingervaring voor de volgende objecten:
+   >
+   >     * Doelen
+
+   >
+   >     U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
 
@@ -79,9 +98,9 @@ De sectie Updates wordt weergegeven voor de volgende objecten:
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-In de sectie Updates wordt informatie in de volgende tabbladen van de bètaopmerkingervaring weergegeven:
+In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
 
-* **Updates**: Hier worden opmerkingen van gebruikers weergegeven en antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+* **Opmerkingen**: Hier worden opmerkingen van gebruikers weergegeven en antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systeemactiviteit**: Geeft systeemupdates weer. Dit zijn informatieve berichten die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de bètaopmerkingervaring voor de volgende objecten:
@@ -102,14 +121,6 @@ U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de 
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->De opmerkingervaring Bèta is de standaard huidige ervaring voor doelstellingen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
->
->Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 

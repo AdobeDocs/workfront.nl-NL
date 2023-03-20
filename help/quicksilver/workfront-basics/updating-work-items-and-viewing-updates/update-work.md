@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2674'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De manier waarop u het werk bijwerkt, wordt momenteel opnieuw ontworpen met de sectie Updates van een object.
->
->U hebt toegang tot het nieuwe ontwerp door de bètaversie voor opmerkingen in te schakelen.
->
->De bètaversie is momenteel beschikbaar voor <span class="preview">kwesties</span>.
->
+>De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
 >Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>U hebt toegang tot het nieuwe ontwerp voor de volgende objecten:
+> * <span class="preview">Problemen bij het inschakelen van het bètabestand voor opmerkingen. </span>
+   >
+   >     <span class="preview">Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:</span>
+   >
+   >     * <span class="preview">Home</span>
+   >     * <span class="preview">Samenvattingspaneel in lijsten</span>
+   >     * <span class="preview">Samenvattingspaneel in tijdbladen</span>
+>
+> * Doelen
+   >   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 1. Als u wilt reageren op een update, raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Een update aan een werkitem toevoegen met behulp van de bètaervaring voor opmerkingen
-
-
->[!NOTE]
->
->De in deze sectie beschreven functionaliteit is beschikbaar voor de volgende objecten:
->
->* <span class="preview">Problemen wanneer u de bètaervaring voor opmerkingen inschakelt.</span>
-   >
-   >   <span class="preview">Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:</span>
-   >
-   >   * <span class="preview">Home</span>
-   >   * <span class="preview">Samenvattingspaneel in lijsten</span>
-   >   * <span class="preview">Samenvattingspaneel in tijdbladen</span>
->* Doelen
-
-   >
-   >   De nieuwe opmerkingervaring is de standaard huidige ervaring voor doelen.
-   >   U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. Zoek het object dat u wilt bijwerken en klik op de naam van het object om de objectpagina te openen.
 1. Klikken  **Updates** in het linkerdeelvenster.
