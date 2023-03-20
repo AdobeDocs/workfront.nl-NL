@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
+source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ Deze toegang wordt verleend door de gebruiker de eerste keer zij de integratie g
 
 Overweeg het volgende met betrekking tot toegang tot [!DNL SharePoint] via de [!DNL Workfront] [!DNL SharePoint] integratie:
 
+* De voor deze integratie aangevraagde machtigingen zijn **gedelegeerd** machtigingen.
 * [!DNL Workfront] vraagt om de minimumtoegang die wordt vereist om verrichtingen in de integratie uit te voeren.
 * Toegang tot het weergeven, bewerken of verwijderen van [!DNL Adobe Workfront] document gekoppeld aan [!DNL SharePoint] is gebaseerd op de toegang van de gebruiker tot [!DNL Workfront]. Elke navigatie, download of bewerking van een [!DNL SharePoint] bestand of map vereist toegang tot [!DNL SharePoint]en de toegang tot deze acties wordt geregeld door [!DNL SharePoint].
 * Gebruikers kunnen miniaturen en voorvertoningen weergeven die afkomstig zijn van [!DNL SharePoint]en kunt u bestands- en mapnamen zien in [!DNL SharePoint], zonder u aan te melden [!DNL SharePoint].
