@@ -4,9 +4,9 @@ description: 23.2 Andere verbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,26 @@ Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkel
 
 Deze nieuwe ervaring zal op termijn in Adobe Workfront en daarbuiten, in de hele Adobe Experience Cloud, de opmerkingen verenigen.
 
-Als onderdeel van deze update introduceren we de nieuwe ervaring met opmerkingen in de sectie Updates van problemen. Met de huidige release is er een schakeloptie beschikbaar voor elke gebruiker om deze ervaring in te schakelen in een eigen omgeving, in een bètamodus. Nadat de bètaovereenkomst is geaccepteerd, wordt de sectie Nieuwe updates weergegeven en kunnen ze hun werk in die sectie blijven beheren zoals ze dat nu doen.
+Als onderdeel van deze update introduceren we de nieuwe ervaring met opmerkingen in de sectie Updates van problemen. Met de huidige release is er een schakeloptie beschikbaar voor elke gebruiker om deze ervaring in te schakelen in hun eigen omgeving, in de bètamodus. Nadat de bètaovereenkomst is geaccepteerd, wordt de nieuwe sectie Updates weergegeven en kunnen ze hun werk in die sectie blijven beheren zoals ze dat nu doen.
+
 Met de release 23.1 zijn vergelijkbare functies uitgebracht voor Workfront Goals.
 
 Enkele functies die in deze update zijn opgenomen zijn:
 
 * Afzonderlijke tabbladen voor opmerkingen en systeemupdates
+
 * Betere prestaties
 
-In toekomstige versies worden meer functies toegevoegd, aangezien de functionaliteit ook aan andere objecten wordt toegevoegd.
+* Realtime-indicator voor nieuwe opmerkingen.
+   >[!NOTE]
+   >
+   >De real-time indicator is uitgesteld.
+
+* Opmerkingen bewerken nadat ze zijn verzonden.
+
+Met dit nieuwe ontwerp hebben we het toevoegen van opmerkingen aan systeemupdates verwijderd.
+
+In toekomstige versies worden meer functies toegevoegd, aangezien deze verbeteringen nog steeds aan andere objecten worden toegevoegd.
 
 Voor informatie over wat de nieuwe opmerkingervaring aanbiedt, raadpleegt u [Ervaring voor Unified Commating](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
