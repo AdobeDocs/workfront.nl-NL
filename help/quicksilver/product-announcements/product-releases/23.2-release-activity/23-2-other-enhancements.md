@@ -4,7 +4,7 @@ description: 23.2 Andere verbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -45,6 +45,8 @@ Met dit nieuwe ontwerp hebben we het toevoegen van opmerkingen aan systeemupdate
 In toekomstige versies worden meer functies toegevoegd, aangezien deze verbeteringen nog steeds aan andere objecten worden toegevoegd.
 
 Voor informatie over wat de nieuwe opmerkingervaring aanbiedt, raadpleegt u [Ervaring voor Unified Commating](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD
 
