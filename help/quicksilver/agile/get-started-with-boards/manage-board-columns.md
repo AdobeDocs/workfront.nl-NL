@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,11 @@ Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke ka
 
       ![Status voor kolommen](assets/boards-column-status.png)
 
-      De statusvertaalopties voor verbonden kaarten worden ook weergegeven. (De statusvertaling is niet van toepassing op ad-hockaarten.) Deze opties bepalen de status die wordt toegepast op de taak of uitgave in [!DNL Workfront] wanneer een aangesloten kaart naar deze kolom wordt verplaatst.
+      De statusvertaalopties voor verbonden kaarten worden ook weergegeven. (De statusvertaling is niet van toepassing op ad-hockaarten.) Deze opties bepalen de aangepaste status die wordt toegepast op de taak of uitgave in [!DNL Workfront] wanneer een aangesloten kaart naar deze kolom wordt verplaatst.
 
-   1. Als u de standaardstatusvertaalselecties wilt wijzigen, klikt u op de knop **[!UICONTROL Edit]** pictogram ![Pictogram Bewerken](assets/edit-icon-spectrum.png).
-   1. Als u de optie Aanmelden voor vroege functies gebruikt: Selecteer een [!UICONTROL **Aangepast**] status die op de kaart moet worden toegepast, zowel voor taken als voor problemen.
+   1. Als u de optie Aanmelden voor vroege functies gebruikt: Selecteer een [!UICONTROL **Aangepast**] status die op de kaart moet worden toegepast voor taken en voor problemen.
 
-      Wanneer een kaart naar deze kolom wordt verplaatst, [!DNL Workfront] probeert eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de aangepaste status niet beschikbaar is voor die kaart, past Workfront de systeemstatus toe (bijvoorbeeld Gesloten). De systeemstatus is de status die u in stap b hierboven hebt geselecteerd.
+      Wanneer een kaart naar deze kolom wordt verplaatst, [!DNL Workfront] probeert eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de geselecteerde aangepaste status niet beschikbaar is voor die kaart, wordt u gevraagd een andere status te kiezen die overeenkomt met de systeemstatus (in stap b hierboven).
 
       Als de status van de verbonden taak of uitgave wordt gewijzigd in de aangepaste of systeemstatus die is ingesteld in het kolombeleid, wordt de kaart automatisch naar de kolom verplaatst.
 
