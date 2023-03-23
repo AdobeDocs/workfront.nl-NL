@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion maakt naadloos verbinding tussen uw apps en 
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
+source-git-commit: fd610e1493724f922672f42f03e7f19bd779828e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ### maart 2023
 
+* [Workfront Fusion-releaseactiviteit: Week van 20 maart 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion-releaseactiviteit: Week van 6 maart 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
 
 ### december 2022
