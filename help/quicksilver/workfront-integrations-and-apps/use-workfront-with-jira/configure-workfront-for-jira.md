@@ -6,9 +6,9 @@ description: U kunt [!DNL Adobe Workfront for Jira] om uw [!DNL Jira] en [!DNL W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: d2c366a69b986bd8d559a18994810011c6d33441
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -89,12 +89,13 @@ Om te vormen [!DNL Workfront for Jira]:
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] verbindt met [!DNL Jira] het gebruiken van OAuth 2.0, een norm die door de meeste web-based integratie voor de authentificatie en de vergunning van gebruikers wordt gebruikt.
+   >De gebruiker moet een geldige `apiKey` in [!UICONTROL Workfront] om een geslaagde verbinding te maken.
 
    U moet zich aanmelden bij [!DNL Workfront] als [!DNL Workfront] beheerder om de configuratie voort te zetten.
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] verbindt met [!DNL Jira] het gebruiken van OAuth 2.0, een norm die door de meeste web-based integratie voor de authentificatie en de vergunning van gebruikers wordt gebruikt.
    >* Wanneer u wordt gevraagd het domein van uw [!DNL Workfront] -account, typt u deze notatie: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
    >* Verbeterde verificatie is pas beschikbaar na een [!DNL Workfront] de beheerder laat het voor deze integratie toe.
 
