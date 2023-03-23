@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Interferingfunctionaliteit beschikbaar in Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen vanuit objectdetails toevoegen aan een Workfront-board of -werkstroom</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu rechtstreeks vanuit de objectdetails bestaande taken of uitgaven toevoegen aan een Workfront-kaart of werkstroomkaartlijst. Om het even welke punten u aan een raad toevoegt zullen verbonden kaarten worden, en om het even welke punten die aan een werkstroom worden toegevoegd worden toegevoegd toegevoegd aan de kaartlijst als ongeplande kaarten.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 23 maart 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productieversie: Met de release van 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Interferingfunctionaliteit beschikbaar in Adobe Workfront Boards</a></p>
                         <p>Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-functionaliteit gebruiken. Deze functies zijn:
                         <ul>
                         <li>Workstreams voor het groeperen van aan hetzelfde team gerelateerde borden en het samenwerken aan het werk</li>
@@ -138,7 +154,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen uit lijsten en rapporten toevoegen aan een workstreamkaartlijst</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen uit lijsten en rapporten toevoegen aan een workstreamkaartlijst</a></p>
                         <p>U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een werkstroom in Workfront-raden. Items die u aan de werkstroom toevoegt, worden als ongeplande kaarten toegevoegd aan de kaartlijst.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -154,7 +170,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aangepaste velden toevoegen aan kaarten op de kaart</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aangepaste velden toevoegen aan kaarten op de kaart</a></p>
                         <p>U kunt nu aangepaste velden opnemen in de Adobe Workfront Boards. Het veld moet al in Workfront zijn gemaakt. U kunt geen nieuwe aangepaste velden in een board ontwerpen en maken.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -484,7 +500,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring met opmerkingen voor bètaproblemen<span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring met opmerkingen voor bètaproblemen</a>
                         <p>Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van sommige objecten. </p>
                         <p>Deze nieuwe ervaring zal op termijn in Adobe Workfront en daarbuiten, in de hele Adobe Experience Cloud, de opmerkingen verenigen. </p>
                     </td>

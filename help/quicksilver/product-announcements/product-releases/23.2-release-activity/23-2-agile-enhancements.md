@@ -4,9 +4,9 @@ description: 23.2 Verbeteringen aan mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Deze pagina bevat een beschrijving van alle verbeteringen in de voorvertoningsomgeving die zijn aangebracht met de release 23.2. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Taken en problemen vanuit objectdetails toevoegen aan een Workfront-board of -werkstroom
+
+U kunt nu rechtstreeks vanuit de objectdetails bestaande taken of uitgaven toevoegen aan een Workfront-kaart of werkstroomkaartlijst. Om het even welke punten u aan een raad toevoegt zullen verbonden kaarten worden, en om het even welke punten die aan een werkstroom worden toegevoegd worden toegevoegd toegevoegd aan de kaartlijst als ongeplande kaarten.
+
+Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Interferingfunctionaliteit beschikbaar in Adobe Workfront Boards
 
@@ -28,6 +34,8 @@ Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-func
 De naam van verzamelingen is gewijzigd in werkstromen. Met werkstromen kunt u gegevens op verschillende manieren visualiseren. U kunt punten op kaarten in een lijst, op een raad, of op een herhaling tonen. Kaarten in een werkstroom kunnen ook worden gedeeld door meerdere borden. U kunt workflows eenvoudig vereenvoudigen met behulp van kaarten en borden in een workstream.
 
 Zie voor meer informatie [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), en [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). De tweede twee artikelen zijn pas beschikbaar in Main nadat ik mijn vertakking heb gepubliceerd.
+
+[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Taken en problemen uit lijsten en rapporten toevoegen aan een workstreamkaartlijst
 
