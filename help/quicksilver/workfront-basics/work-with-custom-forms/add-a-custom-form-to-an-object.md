@@ -7,16 +7,16 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier toevoegen aan een object
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
 
 U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een aangepast formulier bevat aangepaste velden waarin u informatie over het object kunt opslaan.
 

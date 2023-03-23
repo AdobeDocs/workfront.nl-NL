@@ -5,16 +5,16 @@ description: U kunt een scorecard gebruiken om te meten hoe goed een project zic
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Pas een scorecard op een project toe en produceer een Score van de Uitlijning
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
 
 U kunt een scorecard gebruiken om te meten hoe goed een project zich op de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.
 

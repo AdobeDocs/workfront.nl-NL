@@ -7,16 +7,16 @@ description: U kunt geen rapport door een multi-select douanegebied in kaart bre
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
 
 U kunt geen rapport door een multi-select douanegebied in kaart brengen. U moet een extra berekend gebied tot stand brengen dat naar het multi-uitgezochte douanegebied verwijst om het rapport door de waarde van het multi-uitgezochte gebied van de douane ook in kaart te brengen.
 
