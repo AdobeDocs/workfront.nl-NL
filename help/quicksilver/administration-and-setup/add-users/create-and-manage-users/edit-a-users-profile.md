@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -91,10 +91,16 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader">Voorkeuren </td> 
       <td> 
        <ul> 
-        <li> <p><b>Tijdzone:</b> De tijdzone van de gebruiker.</p> <p>Voor informatie over hoe u gebruikers kunt helpen in Workfront samen te werken in verschillende tijdzones raadpleegt u <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Werken in tijdzones</a>.</p> </li> 
-        <li><b>Landinstelling e-mail</b>: De e-maillandinstelling van de voorkeur van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails van Workfront.</li> 
-        <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van de taken van deze gebruiker.</li> 
-        <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruiker aan zichzelf toewijst, rechtstreeks op het tabblad Werken aan wordt weergegeven. Standaard wordt alles weergegeven dat aan een gebruiker is toegewezen op het tabblad Werkaanvraag.</li> 
+      <li> <p><b>Tijdzone:</b> De tijdzone van de gebruiker.</p> <p>Voor informatie over hoe u gebruikers kunt helpen in Workfront samen te werken in verschillende tijdzones raadpleegt u <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Werken in tijdzones</a>.</p> </li> 
+       <li><b>Landinstelling e-mail</b>: De e-maillandinstelling van de voorkeur van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails van Workfront.</li>
+
+   <li><b>E-mails ontvangen van deze testomgeving</b>: Schakel deze optie in als u e-mailmeldingen wilt ontvangen vanuit de omgeving waarin u momenteel bent aangemeld.
+      <p><b>OPMERKING</b></p>
+      Deze optie is alleen beschikbaar in de omgeving van Voorvertoning en Sandbox. E-mailmeldingen zijn standaard ingeschakeld in de productieomgeving. 
+      </li>
+
+   <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van de taken van deze gebruiker.</li> 
+       <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruiker aan zichzelf toewijst, rechtstreeks op het tabblad Werken aan wordt weergegeven. Standaard wordt alles weergegeven dat aan een gebruiker is toegewezen op het tabblad Werkaanvraag.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
