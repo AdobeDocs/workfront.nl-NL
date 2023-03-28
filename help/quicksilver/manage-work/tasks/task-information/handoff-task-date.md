@@ -7,7 +7,7 @@ description: De Handoff Datum is de datum dat een taak voor het werk beschikbaar
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 
    De volgende scenario&#39;s bestaan:
 
-   * Wanneer de taak een beperking van moet Begin of Begin niet vroeger dan heeft, is de Datum van de Afhandeling de datum van de Restrictie, tenzij er een Ware Datum van het Begin op de taak is. Als er een Werkelijke Datum van het Begin op de taak is, is de Datum van de Aflevering de Ware Datum van de Voltooiing van de voorganger.
+   * Wanneer de taak een beperking van moet Begin of Begin niet vroeger dan heeft, is de Datum van de Aflevering de datum van de Restrictie, tenzij er een Ware Datum van het Begin op de taak is. Als er een Werkelijke Datum van het Begin op de taak is, is de Datum van de Aflevering de Ware Datum van de Voltooiing van de voorganger.
    * Wanneer de taak een beperking van moet op of Begin uiterlijk dan hebben, is de Datum van de Aflevering altijd de Ware Datum van Voltooiing van de voorganger, ongeacht of er een Ware Datum van het Begin op de taak of niet is.
    * Wanneer de taak een beperking van Vaste Datums heeft, is de Datum van de Aflevering de Geplande Datum van het Begin van de taak, ongeacht of het een voorganger heeft of niet en ongeacht of voorganger wordt voltooid of niet.
 
