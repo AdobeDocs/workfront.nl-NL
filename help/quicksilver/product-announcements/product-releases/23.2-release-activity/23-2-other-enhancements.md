@@ -4,9 +4,9 @@ description: 23.2 Andere verbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Nieuw bij de Workfront for Creative Cloud-plug-ins
+
+De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud plugins:
+
+* De insteekmodule waarschuwt u nu wanneer een taak een voorganger heeft
+* Koreaans is nu een ondersteunde taal
 
 ## Nieuwe ervaring met opmerkingen voor bètaproblemen
 

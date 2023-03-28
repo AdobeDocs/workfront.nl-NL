@@ -6,9 +6,9 @@ description: U kunt de Adobe Workfront for XD plug-in installeren via de Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
+source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ U kunt de [!DNL Adobe Workfront for XD] plug-in van de Adobe Marketplace. De plu
 * Japans
 * Vereenvoudigd Chinees
 * Traditioneel Chinees
-
-<!-- * Korean -->
+* Koreaans
 
 ## Toegangsvereisten
 

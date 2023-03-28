@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuw bij de Workfront for Creative Cloud-plug-ins</a>
+                        <p>De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud plugins:
+                        <ul>
+                        <li>De insteekmodule waarschuwt u nu wanneer een taak een voorganger heeft</li>
+                        <li>Koreaans is nu een ondersteunde taal</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: N.v.t.<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Productieversie: 23 maart 2023 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
