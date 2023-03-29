@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.2 Overzicht van de release
 
-Deze pagina bevat informatie over functionaliteit die is opgenomen in de release 23.2 die gepland is voor april 2023.
+Deze pagina bevat informatie over functionaliteit die is opgenomen in de release 23.2 die gepland is voor de week van 3 april 2023.
 
 De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien de versie 23.2 zijn geplande versie van de Productie nadert.
 
