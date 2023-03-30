@@ -6,9 +6,9 @@ description: Een uitgave converteren naar een project in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Als meer werk moet worden gedaan om een kwestie te voltooien nadat de kwestie wo
 U kunt een uitgave in een nieuw project omzetten of u kunt het in een project omzetten gebruikend een malplaatje. Dit artikel beschrijft beide manieren om kwesties in projecten om te zetten.
 
 Voor algemene informatie over het converteren van problemen raadpleegt u [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+Wanneer het creëren van een project van een kwestie, bevolken sommige gebieden op het project van andere voorwerpen. Voor meer informatie, zie de &quot;Nieuwe project standaardmontages&quot;sectie in het artikel [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Toegangsvereisten
 
@@ -80,7 +82,7 @@ U kunt een kwestie in een leeg project omzetten of een kwestie omzetten in een p
       >[!TIP]
       >   
       >* Als de kwestie gebruikend een verzoekrij werd gecreeerd, erft het nieuwe project de Groep van de verzoekrij.
-      >* Als de kwestie door het toe te voegen aan de sectie van Kwesties van het project werd gecreeerd, erft het nieuwe project de Groep als het project van de kwestie.
+      >* Als de kwestie door het toe te voegen aan de sectie van Kwesties van het project werd gecreeerd, erft het nieuwe project de Groep van het project van de kwestie.
 
 
    * Voer een van de volgende handelingen uit om een uitgave om te zetten in een project met behulp van een sjabloon:

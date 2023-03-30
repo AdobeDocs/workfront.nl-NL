@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Een project maken
-description: (NOTA:dit is verbonden van UI van de globale sectie van Projecten in klassiek. Niet wijzigen/verwijderen)
+description: Een project is een grote eenheid werk in Adobe Workfront. U kunt geheel nieuwe projecten maken, een sjabloon gebruiken of uitgaven of taken omzetten in projecten.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,21 @@ Overweeg het volgende:
 * Workfront past de instellingen van de groep toe, indien aanwezig, voordat deze de instellingen toepast die door de Workfront-beheerder zijn ingesteld.
 * Als u een project gebruikend een malplaatje creeert, nemen de montages van het malplaatje belangrijkheid over de montages die door de Workfront of de groepsbeheerder worden gevestigd.
 
->[!NOTE]
->
->Wij adviseren dat de standaardstatus voor een nieuw project Planning is. Aangezien u veranderingen in het nieuwe project aanbrengt, zorgt dit ervoor dat de berichten niet aan de gebruikers teweegbrengen die aan het project worden toegewezen.
+   >[!NOTE]
+   >
+   >Wij adviseren dat de standaardstatus voor een nieuw project Planning is. Aangezien u veranderingen in het nieuwe project aanbrengt, zorgt dit ervoor dat de berichten niet aan de gebruikers teweegbrengen die aan het project worden toegewezen.
+   >
+   >Voor meer informatie over vestiging de standaardstatus en andere standaardmontages voor een nieuw project, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) of [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-Voor meer informatie over vestiging de standaardstatus en andere standaardmontages voor een nieuw project, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront definieert de groep en status van het nieuwe project als volgt:
 
+   * De standaardstatus van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project of door een groepsbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor een groep wordt bepaald.
 
+   * De Groep van het nieuwe project is de Groep van het malplaatje. Als het malplaatje niet met een Groep wordt geassocieerd, dan is de Groep van het project de Groep van het Huis van de gebruiker die tot het project leidt.
+
+   * De statussen beschikbaar voor een nieuw project passen de statussen van de Groep van het project aan dat of de Groep van het malplaatje, of de Groep van het Huis van de gebruiker is die tot het project leidt.
+
+   * De groep van een nieuw project dat door een kwestie in een project wordt gecreeerd om te zetten is de Groep van het bestaande project van de kwestie. Als de gebruiker die de kwestie omzet geen toegang tot het project van de kwestie heeft, is de Groep van het nieuwe project de Groep van het Huis van de gebruiker die de kwestie omzet. De status van het nieuwe project komt overeen met de groepsstatus van de groep die is gekoppeld aan het project. Dit is ofwel de groep van het oorspronkelijke project ofwel de thuisgroep van de gebruiker die de uitgave omzet.
 
 ## Een geheel nieuw project maken
 
