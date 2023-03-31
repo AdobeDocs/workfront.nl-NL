@@ -6,9 +6,9 @@ description: U kunt een nieuwe verzoekrij in een dashboard inbedden om directe t
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-Beide volgende elementen moeten worden gemaakt voordat u een aanvraagwachtrij in een dashboard kunt insluiten:
+Beide volgende elementen moeten worden gemaakt voordat u een aanvraagwachtrij kunt insluiten in een dashboard:
 
 * **Het dashboard**: Voor informatie over het maken van dashboards raadpleegt u [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 * **De wachtrij met aanvragen**: Voor informatie bij het creëren van verzoekrijen, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -97,11 +97,9 @@ Wanneer u een koppeling naar een aanvraagtype deelt, wordt het aanvraagtype gese
 
    De code moet er ongeveer als volgt uitzien:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   Dit is de verbinding aan de verzoekrij verbonden aan het geselecteerde project.Het Type van Verzoek wordt vooraf geselecteerd.
+   Dit is de verbinding aan de verzoekrij verbonden aan het geselecteerde project. Het verzoektype wordt vooraf geselecteerd.
 
    De gebruikers kunnen om het even welk onderwerpgroep of rijonderwerp selecteren zij, of zij kunnen een ander verzoektype kiezen.
 
@@ -120,19 +118,15 @@ Wanneer u een koppeling deelt naar een vooraf geselecteerd aanvraagtype, wordt h
 
    De code moet er ongeveer als volgt uitzien:
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. Bewerk de code om alleen de onderstaande informatie te behouden:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >U kunt de `<samp>iframe </samp>` -tags toepassen wanneer de code wordt ingesloten in een andere toepassing dan Workfront.
+   >U kunt een `<samp>iframe </samp>` -tags toepassen wanneer de code wordt ingesloten in een andere toepassing dan Workfront.
 
    Dit is de verbinding aan de verzoekrij verbonden aan het geselecteerde project. Het verzoektype wordt vooraf geselecteerd en kan niet worden veranderd.
 

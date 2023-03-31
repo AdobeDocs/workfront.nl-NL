@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
+source-git-commit: 9125e2f7dbff41625166dcd358bab44d7c1b971b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -123,9 +123,9 @@ Wanneer u een project maakt, past Workfront er een set standaardinstellingen op 
 
 Overweeg het volgende:
 
-* Als beheerder van Workfront of een groepsbeheerder, kunt u de standaardmontages voor een nieuw project vormen wanneer het vormen van de Voorkeur van het Project.
+* Als beheerder van Workfront of een groepsbeheerder, kunt u de standaardmontages voor een nieuw project vormen wanneer het vormen van de Voorkeur van het Project voor uw instantie van Workfront of voor een groep.
 * Workfront past de instellingen van de groep toe, indien aanwezig, voordat deze de instellingen toepast die door de Workfront-beheerder zijn ingesteld.
-* Als u een project gebruikend een malplaatje creeert, nemen de montages van het malplaatje belangrijkheid over de montages die door de Workfront of de groepsbeheerder worden gevestigd.
+* De standaardStatus van een nieuw project beantwoordt aan de status die door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project of door een groepbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor een groep wordt bepaald.
 
    >[!NOTE]
    >
@@ -133,15 +133,23 @@ Overweeg het volgende:
    >
    >Voor meer informatie over vestiging de standaardstatus en andere standaardmontages voor een nieuw project, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) of [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-* Workfront definieert de groep en status van het nieuwe project als volgt:
+* De volgende scenario&#39;s bestaan voor hoe Workfront de Groep en Status van een nieuw project bepaalt:
 
-   * De standaardstatus van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project of door een groepsbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor een groep wordt bepaald.
+   * Als u een project van kras creeert, is de Groep van het project uw Groep van het Huis.
 
-   * De Groep van het nieuwe project is de Groep van het malplaatje. Als het malplaatje niet met een Groep wordt geassocieerd, dan is de Groep van het project de Groep van het Huis van de gebruiker die tot het project leidt.
+      De status van het project is de standaardstatus in de projectvoorkeuren van uw thuisgroep, indien aanwezig, of van uw Workfront-instantie. U kunt de standaardstatus veranderen wanneer het creëren van het project in om het even welke status beschikbaar voor de Groep van het project.
 
-   * De statussen beschikbaar voor een nieuw project passen de statussen van de Groep van het project aan dat of de Groep van het malplaatje, of de Groep van het Huis van de gebruiker is die tot het project leidt.
+   * Als u een project gebruikend een malplaatje creeert, nemen de montages van het malplaatje belangrijkheid over de montages die door de Workfront of de groepsbeheerder worden gevestigd.
 
-   * De groep van een nieuw project dat door een kwestie in een project wordt gecreeerd om te zetten is de Groep van het bestaande project van de kwestie. Als de gebruiker die de kwestie omzet geen toegang tot het project van de kwestie heeft, is de Groep van het nieuwe project de Groep van het Huis van de gebruiker die de kwestie omzet. De status van het nieuwe project komt overeen met de groepsstatus van de groep die is gekoppeld aan het project. Dit is ofwel de groep van het oorspronkelijke project ofwel de thuisgroep van de gebruiker die de uitgave omzet.
+      De Groep van het nieuwe project is de Groep van het malplaatje. Als het malplaatje niet met een Groep wordt geassocieerd, dan is de Groep van het project de Groep van het Huis van de gebruiker die tot het project leidt.
+
+      De standaardstatus van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project of door een groepsbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor de groep wordt bepaald. U kunt de standaardstatus veranderen wanneer het creëren van een project van een malplaatje, in om het even welke status van de Groep van het project dat of de Groep van het malplaatje, of de Groep van het Huis van de gebruiker is die tot het project leidt.
+
+   * Als u een project creeert door een kwestie om te zetten, is de groep van een nieuw project de Groep van het bestaande project van de kwestie. Als de gebruiker die de kwestie omzet geen toegang tot het project van de kwestie heeft of als het project van de kwestie geen Groep heeft, is de Groep van het nieuwe project de Groep van het Huis van de gebruiker die de kwestie omzet.
+
+      De status van het nieuwe project komt overeen met de groepsstatus van de groep die is gekoppeld aan het project. Dit is ofwel de groep van het oorspronkelijke project ofwel de thuisgroep van de gebruiker die de uitgave omzet.
+
+      Als u een malplaatje gebruikt wanneer u het project door de kwestie creeert om te zetten, verwijs naar het tweede scenario hierboven om te begrijpen welke Groep en welke Status Workfront op het nieuwe project van toepassing is.
 
 ## Een geheel nieuw project maken
 
