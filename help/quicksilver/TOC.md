@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 4588327c6b02b0d243e2a49f98cb88baac3e1270
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '12783'
+source-wordcount: '12775'
 ht-degree: 0%
 
 ---
@@ -895,16 +895,7 @@ ht-degree: 0%
       * [Filterknoppen worden niet weergegeven in paginakoppen](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
-   * [Algemeen overzicht](agile/agile-overview.md)
    * [Overzicht van de raden](agile/boards-overview.md)
-   * Agile in projecten {#agile-in-projects}
-      * [Agile in projecten](agile/agile-in-projects/agile-in-projects.md)
-      * [Agile-project](agile/agile-in-projects/use-agile-on-a-project.md)
-   * Aan de slag met Adobe Workfront {#agile-in-workfront}
-      * [Aan de slag met Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Een bestandsteam maken](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-      * [Kanban configureren](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-      * [Scrum configureren](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Aan de slag met borden in Adobe Workfront {#boards-in-workfront}
       * [Aan de slag met borden in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront Boards videodemonstraties](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
@@ -933,6 +924,12 @@ ht-degree: 0%
       * [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [Metrische gegevens voor herhaling controleren](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+   * [Algemeen overzicht](agile/agile-overview.md)
+   * Aan de slag met Adobe Workfront {#agile-in-workfront}
+      * [Aan de slag met Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+      * [Een bestandsteam maken](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Kanban configureren](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+      * [Scrum configureren](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Kanban in een team {#kanban}
       * [Kanban in een team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban-overzicht](agile/use-kanban-in-an-agile-team/kanban-overview.md)
