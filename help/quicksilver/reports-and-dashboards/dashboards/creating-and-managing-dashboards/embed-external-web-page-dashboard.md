@@ -6,9 +6,9 @@ description: U kunt een externe webpagina in een dashboard insluiten om toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Als uw organisatie bijvoorbeeld een op het web gebaseerde opslagplaats voor docu
 
 >[!IMPORTANT]
 >
->Dashboardpagina&#39;s worden niet meer ondersteund als ingesloten externe pagina&#39;s in dashboards. De volgende Workfront.com-subdomeinen worden niet meer ondersteund:
+>Dashboardpagina&#39;s worden niet meer ondersteund als ingesloten externe pagina&#39;s in dashboards. Bestaande dashboards worden niet automatisch gewijzigd om deze externe pagina&#39;s te verwijderen, maar wijzigingen aan een dashboard die een dergelijke verwijzing bevat, kunnen pas worden opgeslagen wanneer de verwijzing wordt verwijderd of gewijzigd.
+>
+>De volgende Workfront.com-subdomeinen worden niet meer ondersteund:
 >
 >* /dashboards &#x200B;
 >* /dashboard/:ID-&#x200B;
@@ -44,7 +46,8 @@ Als uw organisatie bijvoorbeeld een op het web gebaseerde opslagplaats voor docu
 >* /Requests/:ID/content-dashboard__:dashboardID &#x200B;
 >* /group/:ID/content-dashboard__:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>Als alternatieve oplossing kunt u overwegen een lijstrapport op te nemen in het dashboard, zoals wordt uitgelegd in [Een rapport toevoegen aan een dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Toegangsvereisten
 

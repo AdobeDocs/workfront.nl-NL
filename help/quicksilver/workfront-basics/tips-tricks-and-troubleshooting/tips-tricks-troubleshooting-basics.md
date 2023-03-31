@@ -4,9 +4,9 @@ description: Tips, trucs en probleemoplossing voor [!DNL Adobe Workfront] Basisb
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,4 @@ Deze sectie bevat de volgende artikelen:
 * [Dubbele goedkeuringsprocessen die in de [!UICONTROL Home Work List]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [Filterknoppen worden niet weergegeven in paginakoppen](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [De datumnotatie wijzigen in [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-
-
+* [De projecten ik op filter zijn omvat onverwachte resultaten](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)

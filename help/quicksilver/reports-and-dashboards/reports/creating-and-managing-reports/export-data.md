@@ -6,9 +6,9 @@ description: 'Sommige redenen voor het exporteren van gegevens zijn: BEWERK ME.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
 
    >[!IMPORTANT]
    >
-   >Het uitvoeren van een rapport dat een inzamelingsverwijzing binnen een kolom omvat kan in een fout resulteren, zelfs als het rapport anders binnen de vermelde uitvoergrenzen is. Als de verzameling waarnaar wordt verwezen te groot is, resulteert het exportproces in time-out en een fout.
+   >Het uitvoeren van een rapport dat een inzamelingsverwijzing binnen een kolom omvat kan in een fout resulteren, zelfs als het rapport anders binnen de vermelde uitvoergrenzen is. Als de verzameling waarnaar wordt verwezen te groot is, wordt het exportproces onderbroken en resulteert dit in een fout.
    >
    >U voorkomt deze fout door kolommen die verwijzen naar grote verzamelingen uit te sluiten of de grootte van de verzamelingen waarnaar wordt verwezen, te reduceren voordat u gaat exporteren.
 
