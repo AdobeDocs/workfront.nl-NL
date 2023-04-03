@@ -5,9 +5,9 @@ title: Documenten uploaden vanuit Illustrator
 description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bekijken en goedkeuren of die u gewoon in Adobe Workfront wilt opslaan.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
 
 1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
-1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
-1. Klikken **[!UICONTROL Upload]**Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
+1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
+1. Open de **[!UICONTROL Set Export File Settings]** configureren de gewenste exportopties op basis van het hierboven gekozen elementtype.
+
+   ![](assets/file-export-settings.png)
+1. Klik op **[!UICONTROL Upload]**.
 Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.

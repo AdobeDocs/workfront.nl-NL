@@ -6,9 +6,9 @@ description: U kunt de Adobe Workfront for XD plug-in installeren via de Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -66,15 +66,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 >Als u een [!DNL Adobe Admin Console] beheerder, kunt u de insteekmodule opnemen [!DNL Creative Cloud] implementatiepakketten. Zie voor meer informatie [Insteekmodules opnemen in het pakket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Open de [!DNL Adobe Creative Cloud] app.
-1. Klik op de knop **[!UICONTROL Marketplace]** aan de bovenkant van het venster.
-1. In de **[!UICONTROL Search All Plugins]** vak, tekst *Workfront* en vervolgens drukt u op **[!UICONTROL Enter]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Wanneer [!DNL Adobe Workfront for XD] wordt weergegeven in de zoekresultaten, klikt u op **[!UICONTROL Get]**.
+1. Ga naar de [Adobe Workfront for XD-installatiepagina](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) op de Adobe Exchange.
+1. Klik in het dialoogvenster dat wordt weergegeven op **Openen [!DNL Adobe Creative Cloud] bureaubladtoepassing**.
+1. Eenmaal [!DNL Adobe XD] insteekmodulebeheer wordt geopend, klikt u op **[!UICONTROL Install]**.
 1. Lees de informatie in het dialoogvenster en klik vervolgens op **[!UICONTROL OK]**.
-
 1. Ga naar de volgende sectie voor informatie over het openen van de plug-in.
 
 ## Open de [!DNL Adobe Workfront for XD] insteekmodule

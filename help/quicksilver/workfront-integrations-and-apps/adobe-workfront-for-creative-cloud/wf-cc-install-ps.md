@@ -6,9 +6,9 @@ description: U kunt de Adobe Workfront for Photoshop-insteekmodule installeren v
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 >Als u een [!DNL Adobe Admin Console] beheerder, kunt u de insteekmodule opnemen [!DNL Creative Cloud] implementatiepakketten. Zie voor meer informatie [Insteekmodules opnemen in het pakket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Open de [!DNL Adobe Creative Cloud] app.
-1. Klik op de knop **[!UICONTROL Marketplace]** aan de bovenkant van het venster.
-1. In de **[!UICONTROL Search All Plugins]** vak, tekst *Workfront* en vervolgens drukt u op **[!UICONTROL Enter]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Wanneer de Adobe Workfront for Photoshop-plug-in in de zoekresultaten wordt weergegeven, klikt u op **[!UICONTROL Get]**.
+1. Ga naar de [Adobe Workfront for Photoshop-installatiepagina](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) op de Adobe Exchange.
+1. Klik in het dialoogvenster dat wordt weergegeven op **Openen [!DNL Adobe Creative Cloud] bureaubladtoepassing**.
+1. Eenmaal [!DNL Adobe Photoshop] insteekmodulebeheer wordt geopend, klikt u op **[!UICONTROL Install]**.
 1. Lees de informatie in het dialoogvenster en klik vervolgens op **[!UICONTROL OK]**.
 
 1. Ga naar de volgende sectie voor informatie over het openen van de plug-in.
@@ -97,7 +93,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Van de **[!UICONTROL Plugins]** aan de bovenkant van het scherm selecteert u **[!UICONTROL Plugin Panel]**.
 1. Selecteren **[!DNL Adobe Workfront for Photoshop]**.
-1. Voer uw domein in en klik op **[!UICONTROL Log in]**. Er wordt een browserpagina geopend.
+1. Voer uw domein in en klik op **[!UICONTROL Log in]**. Er wordt een browserpagina geopend. Mogelijk moet u Photoshop toestemming geven om de browser te openen.
 
    >[!TIP]
    >

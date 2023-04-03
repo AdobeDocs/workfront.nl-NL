@@ -6,9 +6,9 @@ description: U kunt Workfront for Creative Cloud plug-in installeren via de Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -74,17 +74,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Als u het dialoogvenster [!DNL Adobe Workfront for design and video] insteekmodule:
 
-1. Open de [!DNL Adobe Creative Cloud] app.
-1. Klik op de knop **[!UICONTROL Marketplace]** aan de bovenkant van het venster.
-1. In de **[!UICONTROL Search All Plugins]** vak, tekst *Workfront* en vervolgens drukt u op **[!UICONTROL Enter]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Wanneer [!DNL Adobe Workfront for design and video] wordt weergegeven in de zoekresultaten, klikt u op **[!UICONTROL Get]**.
+1. Ga naar de [Installatiepagina van Adobe Workfront for Design en Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) op de Adobe Exchange.
+1. Klik in het dialoogvenster dat wordt weergegeven op **Openen [!DNL Adobe Creative Cloud] bureaubladtoepassing**.
+1. Eenmaal [!DNL Adobe Creative Cloud] insteekmodulebeheer wordt geopend, klikt u op **[!UICONTROL Install]**.
 1. Lees de informatie in het dialoogvenster en klik vervolgens op **[!UICONTROL OK]**.
 1. Als de insteekmodule is geïnstalleerd, opent u de knop [!DNL Creative Cloud] -toepassing die u nodig hebt, en zoek de Workfront-insteekmodule in het deelvenster met insteekmodules.
-
-   <!-- new screen -->
 
 1. Ga naar de volgende sectie voor informatie over het openen van de plug-in.
 
