@@ -5,9 +5,9 @@ title: Unieke ervaring met opmerkingen
 description: De nieuwe Verenigde Ervaring van Commentaren zal
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -318,11 +318,11 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
+   <td> <span class="preview">✓</span>
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>2e kwartaal 2023 
+   <td> 
    </td>
    <td> 
    </td>
@@ -346,11 +346,11 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
+   <td> <span class="preview">✓</span>
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>2e kwartaal 2023 
+   <td>
    </td>
    <td> 
    </td>

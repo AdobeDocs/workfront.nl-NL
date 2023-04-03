@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 
 1. Zoek het object dat u wilt bijwerken en klik op de naam van het object om de objectpagina te openen.
 1. Klikken  **Updates** in het linkerdeelvenster.
-1. Klikken **Probeer de bètaversie met opmerkingen uit** klikt u in de rechterbenedenhoek van het gebied Updates op **Akkoord** over de bètaovereenkomst. Hiermee schakelt u het gebied Updates over naar de bètaervaring met opmerkingen.
+1. De optie **Bèta met opmerkingen** Schakel rechtsboven in het gedeelte Updates in en klik op **Akkoord** over de bètaovereenkomst. Hiermee schakelt u het gebied Updates over naar de bètaervaring met opmerkingen.
 De **Opmerkingen** is standaard geselecteerd.
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 
@@ -224,7 +224,7 @@ De **Opmerkingen** is standaard geselecteerd.
 
 1. Klikken **Verzenden** om de update aan het Workfront-object toe te voegen.
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
-1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers.
+1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 ## Updategegevens kopiëren
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->Het kopiëren van een update is niet mogelijk wanneer u de opmerkingervaring voor bèta gebruikt.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Er zijn verschillende manieren waarop u een update kunt kopiëren. Nadat u een koppeling hebt gekopieerd, kunt u de koppeling met anderen delen om deze naar de update te leiden.
 
@@ -348,7 +349,7 @@ Met deze optie wordt de tekst van een specifieke update naar het klembord gekopi
 Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd, zodat u de verbinding met andere gebruikers kunt delen.
 
 1. Ga naar de updatethread die u wilt kopiëren.
-1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren**.
+1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren** <span class="preview">of **Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd,
 Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd. Wanneer u de update-koppeling deelt, ziet de gebruiker die deze koppeling volgt, een rand rondom de update.
 
 1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren**.
+1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren** <span class="preview">of **Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

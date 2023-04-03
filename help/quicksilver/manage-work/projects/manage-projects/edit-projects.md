@@ -6,9 +6,9 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '7718'
+source-wordcount: '7787'
 ht-degree: 0%
 
 ---
@@ -323,6 +323,7 @@ Wanneer het selecteren van meer dan één project om hen in bulk uit te geven, b
 * Als u niet de toestemmingen van de Vorm van de Douane op minstens één van de geselecteerde projecten hebt uitgeven, kunt u niet de gebieden op om het even welke in bijlage douaneformulieren uitgeven. U kunt de velden alleen weergeven op de bijgevoegde aangepaste formulieren
 * Als u toegang hebt tot een sectie op een aangepast formulier met Weergave (en niet Bewerken), kunt u de velden in die sectie niet bewerken. U kunt de velden in die sectie alleen weergeven.
 * Als u geen toegang hebt tot een sectie op een van de aangepaste formulieren die aan ten minste een van de projecten is gekoppeld, wordt de sectie niet weergegeven in het vak Projecten bewerken.
+* Als u vereiste gebieden op om het even welke douaneformulieren in bijlage aan alle projecten hebt, en u één gebied selecteert zonder het eigenlijk uit te geven, moet u uw veranderingen op dat gebied verwerpen of informatie toevoegen aan het alvorens u de projecten kunt bewaren u selecteerde. Als u helemaal geen vereist gebied selecteert, kunt u de projecten bewaren u selecteerde zelfs als het vereiste gebied leeg is.
 
 Raadpleeg de volgende artikelen voor informatie over aangepaste toegang tot formulieren:
 

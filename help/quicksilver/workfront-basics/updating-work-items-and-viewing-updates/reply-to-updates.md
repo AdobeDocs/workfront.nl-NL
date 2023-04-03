@@ -6,9 +6,9 @@ description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp an
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -109,14 +109,11 @@ Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het 
 
 1. Begin uw antwoord te typen en gebruik om het even welke extra opties van de Rich toolbar van de Tekst. Zie de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het gedeelte [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. Klikken **Verzenden** om het antwoord op te slaan.
 
+1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) naast de update voor meer opties om het antwoord te beheren. Zie voor meer informatie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## Reageren op een update via e-mailmelding
 
