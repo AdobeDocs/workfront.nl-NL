@@ -6,9 +6,9 @@ description: U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Wor
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ Bij elke Workfront-update wordt de Workfront-terminologie bijgewerkt voor de ond
 
 Workfront ondersteunt de volgende talen:
 
-* Chinees - vereenvoudigd (zh-CN)
-* Chinees - traditioneel (zh-TW)
 * Engels (en-US)
 * Frans (fr-FR)
 * Duits (de-DE)
-* Italiaans (it_IT)
 * Japans (ja)
+* Spaans (es)
+* Italiaans (it_IT)
 * Portugees (pt-BR)
-* Spaans - Latijns-Amerika
+* Koreaans (ko)
+* Chinees - vereenvoudigd (zh-CN)
+* Chinees - traditioneel (zh-TW)
 
 De taal die wordt gebruikt om Workfront in uw browser te bekijken wordt gecontroleerd door uw browser taalmontages. Selecteer een taal voor uw browser die in de lijst met ondersteunde talen wordt vermeld.
 
