@@ -6,9 +6,9 @@ description: U kunt een proefdruk op elk gewenst moment in het revisieproces han
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Proefdrukrol</td> 
-   <td>Eigenaar, auteur, moderator</td> 
+   <td>Eigenaar of moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
