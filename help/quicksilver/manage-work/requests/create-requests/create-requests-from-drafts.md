@@ -6,14 +6,16 @@ description: Naast het gebruik van de beschikbare concepten die Workfront u voor
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Verzoeken maken op basis van concepten
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 Naast het gebruik van de beschikbare concepten die Workfront u voorstelt wanneer u een nieuw verzoek invoert, kunt u ook een conceptverzoek vanuit de sectie Concepten openen en de aanvraag van daaruit voltooien.
 
@@ -53,11 +55,13 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
 ## Verzoeken maken op basis van concepten
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront.
-1. Klikken **Verzoeken** > **Concepten**.
+1. Klikken **Verzoeken** > **Concepten**.
 
    Een ontwerp voor elk rijonderwerp van elke verzoekrij toont in deze lijst.
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+
+1. <span class="preview">(Optioneel) Klik op een kolomkop om de lijst op die kolom te sorteren.</span>
 
 1. Controleer de informatie over elk concept in de volgende kolommen van de lijst Concepten:
 
@@ -67,10 +71,9 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
    | Invoerdatum | De datum waarop u het maken van de aanvraag hebt gestart. |
    | Datum laatste update | De laatste van uw laatste update. Als u het niet bijwerkte aangezien u eerst het verzoek begon, zouden de Datum van de Ingang en de Laatste Datum van de Update het zelfde moeten zijn. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. (Optioneel) Klik op **Filteren op type request** in de hoger-juiste hoek van de lijst van concepten, dan selecteer de verzoekrij die de concepten bevat u wilt tonen.
-1. Klik op de naam van een concept om het te openen.
+1. <span class="preview">(Facultatief) Gebruikend de snelle filter in de hoger-juiste hoek van de lijst van Concepten, begin de naam van een opgesteld verzoek, verzoekrij, rijonderwerp, of onderwerpgroep te typen, dan klik de naam van een ontwerp om het te openen. </span>
 1. Werk de informatie voor het verzoek bij zoals beschreven in [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Optioneel en voorwaardelijk) Klik op een willekeurig punt tijdens het invoeren van de aanvraag op **Negeren** concept als u het concept wilt verwijderen. Hiermee verwijdert u het concept dat niet kan worden hersteld. Zie voor meer informatie over het verwijderen van concepten [Een aanvraagconcept verwijderen](../../../manage-work/requests/create-requests/delete-request-draft.md).
 

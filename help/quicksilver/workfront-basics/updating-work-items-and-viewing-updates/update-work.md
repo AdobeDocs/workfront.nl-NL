@@ -6,7 +6,7 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 0%
@@ -232,6 +232,7 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
    >[!TIP]
    >
    >   Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
+
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de stappen 4 tot en met 7 hierboven. <!--(**************insure this stays accurate***********)-->. Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optioneel) Klik op de knop **leuk** pictogram![](assets/like-icon.png). Het pictogram wordt bijgewerkt met het aantal ‘like’.
 1. (Voorwaardelijk en Optioneel) Als u extra personen hebt toegevoegd aan uw opmerking, klikt u op het aantal leden dat is opgenomen in de update om een lijst weer te geven met entiteiten waarmee de opmerking die u hebt ingevoerd, wordt gedeeld.
@@ -349,7 +350,12 @@ Met deze optie wordt de tekst van een specifieke update naar het klembord gekopi
 Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd, zodat u de verbinding met andere gebruikers kunt delen.
 
 1. Ga naar de updatethread die u wilt kopiëren.
-1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren** <span class="preview">of **Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
+
+1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren**
+
+   of
+
+   <span class="preview">**Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd,
 Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd. Wanneer u de update-koppeling deelt, ziet de gebruiker die deze koppeling volgt, een rand rondom de update.
 
 1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren** <span class="preview">of **Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
+1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren**
+
+   of
+
+   <span class="preview">**Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klik in het bericht dat wordt weergegeven op **Bevestigen** <span class="preview">of **Verwijderen**</span> in de bètaervaring voor opmerkingen.
+1. Klik in het bericht dat wordt weergegeven op **Bevestigen**
+
+   of
+
+   <span class="preview"> **Verwijderen**, in de bètaervaring voor opmerkingen</span>.
 
 >[!NOTE]
 >

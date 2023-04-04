@@ -5,9 +5,9 @@ title: Unieke ervaring met opmerkingen
 description: De nieuwe Verenigde Ervaring van Commentaren zal
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -414,7 +414,7 @@ De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecte
 De nieuwe bètaversie van opmerkingervaring voor opmerkingen inschakelen:
 
 1. Ga naar een object waarvoor u de nieuwe opmerkingservaring wilt activeren en klik vervolgens op **Updates** in het linkerdeelvenster.
-1. Klikken **Probeer het Bèta met opmerkingen** in de rechterbenedenhoek van het gebied Updates.
+1. De optie **Bèta met opmerkingen** schakelen in de rechterbovenhoek van het gebied Updates.
 1. Klikken **Akkoord** in het vak Beta. Hierdoor wordt de nieuwe opmerkingervaring ingeschakeld voor het geselecteerde object.
 1. Een update typen in het dialoogvenster **Opmerkingen** tab. Het tabblad Opmerkingen moet het standaardtabblad zijn wanneer de nieuwe ervaring wordt geopend
 
