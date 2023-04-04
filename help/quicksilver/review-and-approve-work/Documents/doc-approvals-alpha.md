@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ Als u wilt deelnemen aan deze Alfa-release, moet u controleren of u door het pro
 
 ## Laatste release
 
+### Alfa-release 3 - maart 2023
+
+In deze 3de Alpha- versie, hebben wij uw terugkoppel door succesberichten opgenomen te introduceren die bij de voltooiing van acties zoals het toevoegen van of het verwijderen van fiatteurs en recensenten tonen. Bovendien biedt deze release uitgebreide zichtbaarheid van goedkeuringen die in behandeling zijn en die nu kunnen worden weergegeven op de pagina&#39;s Home en Mijn updates, zodat gebruikers eenvoudig documenten rechtstreeks vanaf deze pagina&#39;s kunnen goedkeuren.
+
+Bekijk de volledige video die hieronder doorloopt:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _Eerdere versies_
+
 ### Alfa-release 2 - jan. 2023
 
 Met deze Alpha 2 versie kunt u individuen en teams als recensenten of fiatteurs toevoegen en goedkeuringsbesluiten direct van de pagina van documentdetails nemen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _Eerdere versies_
+Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alfa-release 1 - nov. 2022
 
