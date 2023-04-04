@@ -4,9 +4,9 @@ description: Updates weergeven en voelen tijdens het tijdsbestek van de release 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Op deze pagina vindt u een beschrijving van kleine updates van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 23.2 zijn gemaakt. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
 Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 23.2 raadpleegt u [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Updates voor de vormgeving van de lijst Concepten op het gebied Verzoeken
+
+>[!NOTE]
+>
+>Voorvertoning release: 4 april 2023; Planned Production release: 18 april 2023
+
+We hebben de lijst Concepten op het gebied van verzoeken bijgewerkt om deze in overeenstemming te brengen met recentere lijsten in Workfront.
+Enkele updates omvatten het volgende:
+
+* Het filter &quot;Filter op verzoek&quot; is vervangen door het standaard snelle filter
+* De afbeelding is uit de lijst Concepten verwijderd als de lijst geen verzoeken bevat
+* Paginering en kolomsortering toegevoegd aan de lijst.
+
+Zie voor meer informatie [Verzoeken maken op basis van concepten](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Selectie van slimme gebruikers beschikbaar in andere gebieden van Workfront
 
