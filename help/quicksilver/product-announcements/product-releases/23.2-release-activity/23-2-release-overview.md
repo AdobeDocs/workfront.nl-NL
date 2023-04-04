@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -625,7 +625,7 @@ Er zijn momenteel geen Workfront Proof-updates beschikbaar. Dit gebied wordt bij
 
 ### Verbeteringen voor Workfront-doelen
 
-Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de release. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
+Nieuwe functies die beschikbaar zijn in de Workfront Goals release met 23.2 release. Voor informatie over deze nieuwe functies die nu beschikbaar zijn in Voorbeeld, raadpleegt u [Adobe Workfront-doelen met de 23.2-release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API-versie 15
 
