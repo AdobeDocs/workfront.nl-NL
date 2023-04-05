@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >U hebt toegang tot het nieuwe ontwerp voor de volgende objecten:
-> * <span class="preview">Problemen bij het inschakelen van het bètabestand voor opmerkingen. </span>
+> * Problemen bij het inschakelen van het bètabestand voor opmerkingen.
    >
-   >     <span class="preview">Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:</span>
+   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:
    >
-   >     * <span class="preview">Home</span>
-   >     * <span class="preview">Samenvattingspaneel in lijsten</span>
-   >     * <span class="preview">Samenvattingspaneel in tijdbladen</span>
+   >     * Home
+   >     * Samenvattingspaneel in lijsten
+   >     * Samenvattingspaneel in tijdbladen
 >
 > * Doelen
-   >   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 
 1. Als u wilt reageren op een update, raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Een update aan een werkitem toevoegen met behulp van de bètaervaring voor opmerkingen
 
 1. Zoek het object dat u wilt bijwerken en klik op de naam van het object om de objectpagina te openen.
@@ -224,7 +223,7 @@ De **Opmerkingen** is standaard geselecteerd.
 
 1. Klikken **Verzenden** om de update aan het Workfront-object toe te voegen.
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
-1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. De gegevens in de opmerking bewerken <!--or remove any of the tagged users-->.
 U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
    >
    >U kunt geen opmerking toevoegen aan een systeemupdate.
 
-</div>
 
 ## RTF-bestanden gebruiken in een Workfront-update
 
@@ -318,7 +316,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Afbeeldingen zijn alleen toegankelijk via het tabblad Updates van een object en zijn niet beschikbaar op het tabblad Documenten.
    >* U kunt een update verzenden met een afbeelding en geen tekst.
 
-1. Klikken **Bijwerken**  <span class="preview">of **Verzenden**</span> in de bètaervaring voor opmerkingen.
+1. Klikken **Bijwerken**  of **Verzenden**, wanneer u de bètaervaring voor opmerkingen gebruikt.
 
 
 ## Updategegevens kopiëren
@@ -351,11 +349,7 @@ Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd,
 
 1. Ga naar de updatethread die u wilt kopiëren.
 
-1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren**
-
-   of
-
-   <span class="preview">**Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
+1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren** of **Koppeling kopiëren**, wanneer u de bètaervaring gebruikt.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd,
 Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd. Wanneer u de update-koppeling deelt, ziet de gebruiker die deze koppeling volgt, een rand rondom de update.
 
 1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren**
-
-   of
-
-   <span class="preview">**Koppeling kopiëren** bij gebruik van de bètaervaring</span>.
+1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren** of **Koppeling kopiëren**, wanneer u de bètaervaring gebruikt.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klik in het bericht dat wordt weergegeven op **Bevestigen**
-
-   of
-
-   <span class="preview"> **Verwijderen**, in de bètaervaring voor opmerkingen</span>.
+1. Klik in het bericht dat wordt weergegeven op **Bevestigen** of **Verwijderen**, wanneer u de bètaervaring voor opmerkingen gebruikt.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">Het is niet mogelijk systeemupdates uit te schakelen wanneer u de bètaopmerkingervaring gebruikt. </span>
-><span class="preview">De informatie in deze sectie verwijst alleen naar functionaliteit die beschikbaar is in de huidige sectie Updates. </span>
-><span class="preview">Voor meer informatie over systeemupdates in de bètaversie raadpleegt u [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>Het is niet mogelijk systeemupdates uit te schakelen wanneer u de bètaopmerkingervaring gebruikt.
+>De informatie in deze sectie verwijst alleen naar functionaliteit die beschikbaar is in de huidige sectie Updates.
+>Voor meer informatie over systeemupdates in de bètaversie raadpleegt u [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 In de sectie Updates van een Workfront-object worden twee soorten gegevens weergegeven:

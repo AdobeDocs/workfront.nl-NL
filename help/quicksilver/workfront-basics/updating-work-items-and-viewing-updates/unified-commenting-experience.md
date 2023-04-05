@@ -5,9 +5,9 @@ title: Unieke ervaring met opmerkingen
 description: De nieuwe Verenigde Ervaring van Commentaren zal
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Nieuwe ervaring met opmerkingen
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van geselecteerde objecten.
 
@@ -91,7 +91,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">Vervangen door bewerkingsopmerking </span>
+   <td>Vervangen door bewerkingsopmerking 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">Deze functie moet beschikbaar zijn bij de versie 23.2 en is tijdelijk uitgesteld.</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2e kwartaal 2023 
    </td>
@@ -318,7 +316,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 
-De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecten wanneer u de sectie Updates in de volgende versies bekijkt:
+De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecten wanneer u de sectie Updates in de volgende versies van Workfront bekijkt:
 
 * Wanneer het toelaten van de ervaring van Bèta in de sectie van Updates:
 
-   <div class="preview">
-
-   * Problemen.
+   * Problemen
    Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * Standaard is dit de belangrijkste opmerkingervaring:
 
@@ -408,8 +403,6 @@ De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecte
 
    Voor meer informatie over het beheren van updates voor doelstellingen, zie [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 De nieuwe bètaversie van opmerkingervaring voor opmerkingen inschakelen:
 
@@ -423,5 +416,3 @@ De nieuwe bètaversie van opmerkingervaring voor opmerkingen inschakelen:
    Klik op de knop  **Systeemactiviteit** om de door Workfront gegenereerde activiteitenupdates weer te geven.
 
    Zie voor meer informatie over het bijwerken van objecten in de nieuwe opmerkingervaring [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>

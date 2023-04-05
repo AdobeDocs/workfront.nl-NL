@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->De sectie Updates van een object wordt momenteel opnieuw ontworpen.
->
+>De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
 >Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->U hebt toegang tot het nieuwe ontwerp vanuit de volgende objecten en in de volgende omgevingen:
+>U hebt toegang tot het nieuwe ontwerp voor de volgende objecten:
+> * Problemen bij het inschakelen van het bètabestand voor opmerkingen.
+   >
+   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:
+   >
+   >     * Home
+   >     * Samenvattingspaneel in lijsten
+   >     * Samenvattingspaneel in tijdbladen
 >
->* <span class="preview">Wanneer u de opmerkingentabelervaring inschakelt voor de volgende objecten:</span>
-   >
-   >     * <span class="preview">Problemen</span>
-
-   >     
-   >     <span class="preview">Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:</span>
-   >
-   >     * <span class="preview">Home</span>
-   >     * <span class="preview">Samenvattingspaneel in lijsten</span>
-   >     * <span class="preview">Samenvattingspaneel in tijdbladen</span>
->
->* Standaard wordt dit de huidige opmerkingervaring voor de volgende objecten:
-   >
-   >     * Doelen
+> * Doelen
 
    >
-   >     U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
@@ -116,7 +111,7 @@ U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Problemen</span></li> 
+     <li>Problemen</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergeg
 >
 >Voor informatie over de objecthiërarchie in Adobe Workfront raadpleegt u [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> Het is niet mogelijk te reageren op systeemupdates in de nieuwe bètaervaring voor opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> Het is niet mogelijk te reageren op systeemupdates in de nieuwe bètaervaring voor opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Beperkingen van de sectie Updates
 

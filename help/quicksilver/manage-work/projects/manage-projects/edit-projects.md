@@ -6,16 +6,16 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '7787'
+source-wordcount: '7310'
 ht-degree: 0%
 
 ---
 
 # Projecten bewerken
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -694,110 +694,11 @@ De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 
 U kunt projecten in bulk uitgeven en informatie voor alle geselecteerde projecten tezelfdertijd bijwerken.
 
+Houd rekening met het volgende wanneer u projecten bulksgewijs bewerkt:
 
-De informatie u op alle geselecteerde projecten verandert beschrijft de bestaande informatie over individuele projecten, behalve het gebied van de Manager van het Middel.
+* De informatie u op alle geselecteerde projecten verandert beschrijft de bestaande informatie over individuele projecten, behalve het gebied van de Manager van het Middel.
 
-Het toevoegen van een nieuwe middelmanager wanneer het uitgeven van projecten in bulk voegt die manager aan alle geselecteerde projecten toe. Als andere middelmanagers met de geselecteerde projecten worden geassocieerd, blijven zij op de projecten naast één toegevoegd door bulkgeef uit.
-
-Het bewerken van grote hoeveelheden projecten is afhankelijk van de omgeving waarin u deze wilt bijwerken.
-
-### Projecten bulksgewijs bewerken in de productieomgeving
-
-Projecten bulksgewijs bewerken:
-
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
-
-1. Klikken **Projecten**.
-1. Selecteer meerdere projecten in de lijst.
-1. Klikken **Bewerken**.
-
-   De **Projecten bewerken** wordt geopend.
-
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
-
-1. Geef de informatie over alle geselecteerde projecten op in de volgende secties:
-
-   * **Overzicht**
-
-      Zie voor meer informatie de [Overzicht](#overview) in dit artikel.
-
-   * **Financiën**
-
-      Zie voor meer informatie de [Financiën](#finance) in dit artikel.
-
-   * **Portfolio**
-
-      Zie de sectie Projectassociatie in het gedeelte [Overzicht](#overview) in dit artikel.
-
-   * **Instellingen**
-
-      Zie voor meer informatie de [Projectinstellingen](#project-settings) in dit artikel.
-
-   * **Toegang**
-
-      Zie voor meer informatie de [Toegang](#access) in dit artikel.
-
-   * **Aangepaste Forms**
-
-      Ga voor meer informatie verder met stap 7 hieronder.
-
-      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
-
-   * **Taken**
-
-      Zie voor meer informatie de [Taakinstellingen](#task-settings) in dit artikel.
-
-   * **Problemen**
-
-      Zie voor meer informatie de   [Instellingen van uitgave](#issue-settings) in dit artikel.
-
-   * **Opmerking**
-
-      Ga voor meer informatie verder met stap 9 hieronder.
-
-      <!--   
-     <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
-
-
-1. (Optioneel) Selecteer in het gedeelte Instellingen een van de volgende opties:
-
-   * **Kosten en opbrengsten opnieuw berekenen**: Selecteer deze optie om de kosten en opbrengsten van alle geselecteerde projecten opnieuw te berekenen.
-   * **Tijdlijnen opnieuw berekenen**: Selecteer deze optie om de tijdlijnen van alle geselecteerde projecten opnieuw te berekenen.
-   * **Scorecards opnieuw berekenen**: Selecteer deze optie om de waarden van de Scorecard voor alle geselecteerde projecten opnieuw te berekenen.
-
-   ![recalculeren_cost_scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
-
-1. Klikken **Aangepaste Forms** om de aangepaste formulieren te bewerken die zijn gekoppeld aan alle geselecteerde projecten.
-
-   Als de geselecteerde projecten geen gemeenschappelijke douaneformulieren hebben, zijn geen vormen vermeld in deze sectie.
-
-   U kunt alleen de velden in de formulieren bewerken die zijn gekoppeld aan alle geselecteerde projecten en die u kunt bewerken.
-
-1. (Optioneel) Selecteer in de sectie Aangepaste Forms de optie **Aangepaste expressies opnieuw berekenen** optie om ervoor te zorgen dat alle Berekende Gebieden van de Douane die op Forms in bijlage aan de geselecteerde projecten zijn bijgewerkt zijn.
-
-   >[!IMPORTANT]
-   >
-   >We raden u aan niet meer dan 500 projecten te selecteren op een moment dat u aangepaste expressies opnieuw berekent.
-
-1. (Optioneel) Klik op **Opmerking** selecteert u vervolgens de optie Een update voor elk projectvak plaatsen en geeft een opmerking op die u in de updatestream van het project wilt weergeven in het beschikbare veld. Voer een van de volgende handelingen uit:
-
-   * Klik op de knop **Mensen** pictogram ![](assets/people-icon-updates-classic.png) om een tag toe te wijzen aan een gebruiker die op de hoogte wordt gesteld van uw opmerking.
-   * Klik op de knop **Vergrendelen** pictogram ![](assets/lock-icon-open-updates-classic.png) om uw commentaar tot slechts mensen binnen uw bedrijf te beperken.
-
-   Deze opmerking is zichtbaar voor iedereen met Weergave toegang tot het project en met toegang tot weergavenotities.
-
-1. Klikken **Wijzigingen opslaan**.
-
-   Alle wijzigingen die u hebt aangebracht, zijn nu zichtbaar voor alle geselecteerde projecten.
-
-<div class="preview">
-
-### Projecten in buis bewerken in de voorvertoningsomgeving
-
-Overweeg het volgende wanneer het uitgeven van projecten in bulk in het milieu van de Voorproef:
+   Het toevoegen van een nieuwe middelmanager wanneer het uitgeven van projecten in bulk voegt die manager aan alle geselecteerde projecten toe. Als andere middelmanagers met de geselecteerde projecten worden geassocieerd, blijven zij op de projecten naast één toegevoegd door bulkgeef uit.
 
 * Wanneer u projecten selecteert die verschillende waarden voor het zelfde gebied hebben, toont het gebied een &quot;Veelvoudige waarde&quot;indicator in het Edit de projectvakje. Naast velden die selectievakjes, keuzerondjes en schakelingen zijn, staat een indicator &quot;Meerdere waarden&quot;.
 
@@ -826,7 +727,7 @@ Overweeg het volgende wanneer het uitgeven van projecten in bulk in het milieu v
 
 * Wanneer u veelvoudige projecten selecteert die tot verschillende groepen behoren, zijn de statussen die op het gebied van de Status tonen systeem-vlakke statussen en niet groep-vlakke statussen.
 
-Projecten bewerken in de voorvertoningsomgeving:
+Projecten bulksgewijs bewerken:
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
 1. Klikken **Projecten**.
@@ -863,9 +764,9 @@ Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw la
 
    Aanvullende aangepaste formulieren die kunnen worden gekoppeld aan projecten, maar die niet zijn gekoppeld aan een van de geselecteerde projecten die worden weergegeven in het dialoogvenster **Forms toevoegen** in de **Aangepast formulier toevoegen** veld.
 
-1. Klik om het aanvullende aangepaste formulier te selecteren in het dialoogvenster **Aangepast formulier toevoegen** of **Forms toevoegen** subsecties wanneer deze in de lijst worden weergegeven.
+1. Klik om aanvullende aangepaste formulieren te selecteren in het dialoogvenster **Aangepast formulier toevoegen** of **Forms toevoegen** subsecties wanneer deze in de lijst worden weergegeven.
 
-   Wanneer een aangepast formulier al aan bepaalde geselecteerde projecten is gekoppeld, wordt naast de naam van het formulier aangegeven hoeveel projecten het formulier al hebben geselecteerd wanneer een formulier wordt toegevoegd.
+   Wanneer een aangepast formulier al aan bepaalde geselecteerde projecten is gekoppeld, wordt naast de naam van het formulier aangegeven hoeveel projecten het formulier al hebben gekoppeld wanneer een formulier wordt toegevoegd.
 
 1. (Optioneel) Klik op de knop **x** rechts van de naam van een aangepast formulier klikt u op **Verwijderen** om het uit alle geselecteerde projecten te verwijderen.
 
@@ -892,5 +793,100 @@ Zie de sectie voor meer informatie over het bewerken van het gebied Toegang [Toe
 1. (Optioneel) Klik op **Annuleren** onder aan het dialoogvenster **Projecten bewerken** pagina om alle wijzigingen te verwijderen die in alle projecten zijn aangebracht.
 1. Klikken **Opslaan**.
 
-</div>
 
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+
+### Edit projects in bulk in the Production environment
+
+To edit projects in bulk:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Projects**.  
+1. Select several projects in the list.
+1. Click **Edit**.
+
+   The **Edit Projects** dialog box opens.
+
+   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+
+1. Specify the information on all selected projects in the following sections:
+
+   * **Overview**
+
+     For information, see the [Overview](#overview) section in this article.
+   
+   * **Finance**
+
+     For information, see the [Finance](#finance) section in this article.
+   
+   * **Portfolio**
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * **Settings**
+
+     For information, see the [Project Settings](#project-settings) section in this article.
+   
+   * **Access**
+
+     For information, see the [Access](#access) section in this article.
+   
+   * **Custom Forms**
+
+     For information, continue with step 7 below.
+
+     <!--   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     
+
+   * **Tasks**
+
+     For information, see the [Task Settings](#task-settings) section in this article.
+   
+   * **Issues**
+
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
+   
+   * **Comment**
+
+     For information, continue with step 9 below.
+
+     <!--   
+     <p>(NOTE: ensure this step stays accurate)</p>   
+     
+
+
+1. (Optional) In the Settings area, select any of the following options:
+
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click **Custom Forms** to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click **Save Changes**.
+
+   All changes you made are now visible on all the selected projects.
+
+-->
