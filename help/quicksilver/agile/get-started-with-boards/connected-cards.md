@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>Het aantal uren dat de kaart moet worden ingevuld.</p><p>Als u de optie Aanmelden voor vroege functies gebruikt [!DNL Workfront] [!UICONTROL Boards]Als u de schatting wijzigt, verandert ook de waarde van de artikelpunten in het verbonden object [!DNL Workfront] object.</p><p>Als u niet kiest in de beginfase van functies, is dit alleen een handmatige invoer en mag de waarde niet meer dan 99 zijn.</p></td>
+      <td><p>Het aantal uren dat de kaart moet worden ingevuld.</p><p>Als u de schatting wijzigt, wordt ook de waarde van de artikelpunten in het verbonden object gewijzigd [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -184,10 +184,6 @@ Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangeslot
 1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
 
 ## Uren vastleggen op een aangesloten kaart
-
->[!NOTE]
->
->Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
 
 U moet over de juiste machtigingen beschikken om de uren te kunnen vastleggen voor de verbonden taak of uitgave.
 

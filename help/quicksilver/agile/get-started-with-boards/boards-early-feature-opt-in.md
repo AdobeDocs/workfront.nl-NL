@@ -6,9 +6,9 @@ title: Aanmelden met vroege functies voor [!DNL Adobe Workfront] Borden
 description: Lees dit artikel voor meer informatie over de [!DNL Workfront Boards] opt-in voor vroege functies.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
   </tr>
   <tr>
    <td>Alleen-weergeven kaarten in innamekolom</td>
-   <td>Gedeeltelijk vrijgegeven</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Het veld Schatting toewijzen op de kaart aan het veld Artikelpunten op de taak</td>
-   <td>Gedeeltelijk vrijgegeven</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Werkstromen maken en tekengebieden toevoegen aan werkstromen</td>
-   <td>Gedeeltelijk vrijgegeven</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Herhalingen maken</td>
-   <td>Gedeeltelijk vrijgegeven (beschikbaar in Voorvertoning)</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Kaartlijst of achterstand definiëren</td>
-   <td>Gedeeltelijk vrijgegeven (beschikbaar in Voorvertoning)</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Subtaken importeren als controlelijstitems op kaarten</td>
@@ -142,19 +142,31 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
   </tr>
   <tr>
    <td>Weergave van velden op een kaart aanpassen</td>
-   <td>Gedeeltelijk vrijgegeven</td>
+   <td>Vrijgegeven</td>
   </tr>  
   <tr>
    <td>Een standaardstatus definiëren voor kaarten die naar kolommen worden verplaatst</td>
-   <td>Gedeeltelijk vrijgegeven</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Loguren op verbonden kaarten</td>
-   <td>Gedeeltelijk vrijgegeven</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Aangepaste velden toevoegen aan verbonden kaarten</td>
-   <td>Gedeeltelijk vrijgegeven (beschikbaar in Voorvertoning)</td>
+   <td>Vrijgegeven</td>
+  </tr>
+  <tr>
+   <td>E-mailmeldingen voor raden van bestuur definiëren</td>
+   <td>Geplant</td>
+  </tr>
+  <tr>
+   <td>Verouderde Kanbankkaarten migreren naar raden van bestuur</td>
+   <td>Geplant</td>
+  </tr>
+  <tr>
+   <td>Dynamische borden maken</td>
+   <td>Geplant</td>
   </tr>
  </tbody> 
 </table>

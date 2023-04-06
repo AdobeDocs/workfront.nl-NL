@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![Kolom opnemen](assets/intake-column-added3.png)
 
    Kaarten in de inlaatkolom kunnen pas worden bewerkt als u ze naar andere boardkolommen verplaatst. U kunt op de kaart klikken om deze te openen in een alleen-lezen weergave of op ![Taak of probleem openen](assets/boards-launch-icon.png) om de taak of uitgave te openen in een nieuw browsertabblad.
-
-   >[!NOTE]
-   >
-   >De alleen-lezen weergave voor kaarten in de innamekolom is alleen beschikbaar via de vroege functieaanmelding voor [!DNL Workfront] [!UICONTROL Boards].
 
    U kunt de volgorde van de items in de inlaatkolom handmatig wijzigen.
 

@@ -6,9 +6,9 @@ description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2977'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ Zie voor meer informatie [Overzicht van samenvattingen](../../workfront-basics/t
 ![](assets/summary-hour-log.png)
 
 ### Borden {#boards}
-
->[!NOTE]
->
->Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
 
 U kunt zich aanmelden op verbonden kaarten op een Workfront-board. Dit is hetzelfde proces als het aanmelden bij een taak of uitgave en de uren die op de kaart zijn aangemeld, worden opgeslagen op de aangesloten taak of uitgave.
 Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

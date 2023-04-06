@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke ka
 
       De statusvertaalopties voor verbonden kaarten worden ook weergegeven. (De statusvertaling is niet van toepassing op ad-hockaarten.) Deze opties bepalen de aangepaste status die wordt toegepast op de taak of uitgave in [!DNL Workfront] wanneer een aangesloten kaart naar deze kolom wordt verplaatst.
 
-   1. Als u de optie Aanmelden voor vroege functies gebruikt: Selecteer een [!UICONTROL **Aangepast**] status die op de kaart moet worden toegepast voor taken en voor problemen.
+   1. Selecteer een [!UICONTROL **Aangepast**] status die op de kaart moet worden toegepast voor taken en voor problemen.
 
-      Wanneer een kaart naar deze kolom wordt verplaatst, [!DNL Workfront] probeert eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de geselecteerde aangepaste status niet beschikbaar is voor die kaart, wordt u gevraagd een andere status te kiezen die overeenkomt met de systeemstatus (in stap b hierboven).
+      Wanneer een kaart naar deze kolom wordt verplaatst, [!DNL Workfront] probeert eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de geselecteerde aangepaste status niet beschikbaar is voor die kaart, wordt u gevraagd een andere status te kiezen die overeenkomt met de systeemstatus (in stap b hierboven). Voor meer informatie over statussen raadpleegt u [Overzicht van statussen](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Als de status van de verbonden taak of uitgave wordt gewijzigd in de aangepaste of systeemstatus die is ingesteld in het kolombeleid, wordt de kaart automatisch naar de kolom verplaatst.
-
-      >[!NOTE]
-      >
-      >Het instellen van een aangepaste standaardstatus voor de kolom is alleen beschikbaar via de functie Aanmelden voor eerste functie. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. Als u de optie Aanmelden voor vroege functies niet gebruikt: Selecteer een status voor taken en een status voor problemen. Alleen de standaardwaarde [!DNL Workfront] statussen zijn beschikbaar, niet aangepaste statussen.
-
-      >[!NOTE]
-      >
-      >Als u aangepaste statussen gebruikt in [!DNL Workfront], de eerste keer dat u een aangesloten kaart naar deze kolom verplaatst, wordt u gevraagd een status te kiezen. Bijvoorbeeld, als het verbonden project veelvoudige statustypes heeft die allen beantwoorden aan [!UICONTROL Completed], moet u kiezen in welke status [!DNL Workfront]. U kunt uw keuze als standaard instellen, zodat u de selectie niet hoeft uit te voeren telkens wanneer u een kaart naar de kolom verplaatst.
-      >Voor meer informatie over statussen raadpleegt u [Overzicht van statussen](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Optioneel) Stel een waarde in voor de kaarttoewijzingen:
 

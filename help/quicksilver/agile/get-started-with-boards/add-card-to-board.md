@@ -6,7 +6,7 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td><p>Typ het geschatte aantal uren voor de kaart die moet worden ingevuld. Dit is alleen een handmatige invoer.</p></td>
+      <td>Typ het geschatte aantal uren voor de kaart die moet worden ingevuld. Dit is alleen een handmatige invoer.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
