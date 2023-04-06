@@ -6,9 +6,9 @@ title: Een herhaling in een werkstroom maken
 description: Een herhaling is een ingestelde hoeveelheid tijd die is gereserveerd voor het voltooien van het werk. Sommige teams kunnen een herhaling als sprint verwijzen.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Nadat een herhaling is gestart, kunt u alleen de iteratienaam wijzigen.
 
+## Een herhaling verwijderen
+
+1. Klik op de knop [!UICONTROL **Kaartlijst**] in de werkstroom en opent u de herhalingsweergave.
+1. Klik op de knop **Verwijderen** naast de herhaling.
+1. Klikken [!UICONTROL **Herhaling verwijderen**] in het bevestigingsbericht.
