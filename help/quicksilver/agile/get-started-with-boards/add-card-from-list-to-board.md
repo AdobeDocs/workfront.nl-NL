@@ -5,16 +5,14 @@ title: Bestaande taken of problemen toevoegen aan een Adobe Workfront-board of -
 description: U kunt elke taak of elk probleem vanuit een lijst- of rapportweergave toevoegen aan een bestuur in Adobe Workfront.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Bestaande taken of problemen toevoegen aan een [!DNL Adobe Workfront] board of workstream
-
-{{highlighted-preview-article-level}}
 
 U kunt elke taak of uitgave toevoegen aan een board of een workstream in [!DNL Adobe Workfront] in een lijst- of rapportweergave of uit de objectdetails.
 
