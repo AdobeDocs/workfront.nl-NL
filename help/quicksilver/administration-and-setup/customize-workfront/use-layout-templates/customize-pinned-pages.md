@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Vastgezette pagina&#39;s aanpassen met een lay-outsjabloon
-
-{{highlighted-preview}}
 
 In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Deze pagina&#39;s zijn toegankelijk via het hoofdmenu ![](assets/main-menu-icon.png) of dashboards.
 
@@ -70,9 +68,9 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Herhaal de vorige stap om andere pagina&#39;s vast te zetten.
 
-1. <span class="preview"> (Optioneel) Als u de naam van een punt wilt wijzigen, houdt u de muisaanwijzer boven het punt, klikt u op de pijl naast de naam van het punt en selecteert u **Naam van punt wijzigen**. Typ de nieuwe naam van het punt en klik op het pictogram van het vinkje of druk op Enter.</span>
+1. (Optioneel) Als u de naam van een punt wilt wijzigen, houdt u de muisaanwijzer boven het punt, klikt u op de pijl naast de naam van het punt en selecteert u **Naam van punt wijzigen**. Typ de nieuwe naam van het punt en klik op het pictogram van het vinkje of druk op Enter.
 
-   <span class="preview"> Nadat u op het vinkje hebt geklikt of op Enter hebt gedrukt, wordt een klein pop-upvenster weergegeven waarin u de wijziging van de pinnaam ongedaan kunt maken voordat u deze hebt opgeslagen.</span>
+   Nadat u op het vinkje hebt geklikt of op Enter hebt gedrukt, wordt een klein pop-upvenster weergegeven waarin u de wijziging van de pinnaam ongedaan kunt maken voordat u deze hebt opgeslagen.
 
 1. Blijf het lay-outmalplaatje aanpassen.
 
