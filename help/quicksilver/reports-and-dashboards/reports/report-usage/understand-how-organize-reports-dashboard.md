@@ -7,9 +7,9 @@ description: U kunt zien of een rapport aan een dashboard in Adobe Workfront wor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## De informatie van het dashboard van de vertoning in de Mening van een rapportlijst
 
+>[!WARNING]
+>
+>Het opnemen van de kolom Dashboards in een rapportlijst kan de ladingstijden beduidend verhogen, vooral voor lange rapportlijsten.
+
 Een mening met dashboardinformatie voor een rapportlijst bouwen:
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Rapporten**.
-
 1. Klik in de lijst met rapporten op de knop **Weergave** vervolgkeuzemenu.
 1. Klikken **Nieuwe weergave**.
 1. Klikken **Kolom toevoegen**.

@@ -6,9 +6,9 @@ description: Informatie over het bètaprogramma voor het upcomming Reporting Can
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -16,176 +16,27 @@ ht-degree: 0%
 
 # Canvasbèta melden: overzicht
 
-## De bètaversie van het rapportcanvas
+## Canvas melden
 
-Een volledige herbezinning van rapportering in Workfront, het nieuwe hulpmiddel van het Rapporterende Canvas bijna klaar en zal spoedig voor openbare tests beschikbaar zijn. Bij het ontwikkelen van het Rapporterende Canvas, hebben wij hard gewerkt om een ervaring te verstrekken die maximale flexibiliteit in combinatie met een intuïtief, modulair ontwerp-zodat de gebruikers als u het meest effectief hefboomwerking uw eigen gegevens in het maken van en het delen van rapporten aanbiedt. Door een nieuw, verenigd rapporttype dat u toestaat om bijna elk element op een onbegrensd canvas te slepen-en-daling, zal het creëren van een visuele gegevensmeesterwerk spoedig gemakkelijker zijn dan ooit voordien.
+Een volledige herbezinning van rapportering in Workfront, is het nieuwe hulpmiddel van het Canvas van de Rapportering momenteel in ontwikkeling. Bij het ontwerpen van het Rapporterende Canvas, hebben wij hard gewerkt om een ervaring te verstrekken die maximalistische flexibiliteit in combinatie met een intuïtief, modulair ontwerp-zodat de gebruikers als u het meest effectief hefboomwerking uw eigen gegevens in het maken van en het delen van rapporten aanbiedt. Door een nieuw, verenigd rapporttype dat u toestaat om bijna elk element op een onbegrensd canvas te slepen-en-daling, zal het creëren van een visuele gegevensmeesterwerk spoedig gemakkelijker zijn dan ooit voordien.
 
-Dit artikel bevat informatie over hoe de bètaversie werkt en hoe uw organisatie ons kan helpen om de rapportfunctie voor de officiële start te verbeteren.
+Dit artikel bevat informatie over de huidige persoonlijke bètaversie, die beperkt is tot specifieke klanten. De nieuwe eigenschappen van het Canvas van de Rapportering worden nu opgesteld door de Dashboards van het Canvas. Zie **Ontwikkelingsplan** hieronder voor meer informatie .
 
-### Releaseplanning
+### Ontwikkelingsplan
 
-* Huidige bètaversie: De huidige bètaversie is privé en beperkt tot een specifiek aantal klanten.
-* Openbare bètastart: TBD (Zodra een datum wordt aangekondigd, zullen wij beginnen toestaand alle klanten om tot de bèta van het Canvas van de Rapportering toegang te hebben.)
-* Officiële release: TBD
+We bevinden ons in de laatste fase van het oplossen van een probleem op het gebied van gegevenskwaliteit dat we al eerder in de bètaversie van Reporting Canvas hebben gezien. Binnenkort zullen we opnieuw werken aan nieuwe visualisaties, de selectie van te rapporteren Workfront-objecten uitbreiden en de ervaringen met het maken en verspreiden van rapporten verbeteren. Deze zijn allemaal van wezenlijk belang voor het realiseren van onze doelstellingen voor het rapporteren van Canvas.
 
-### Functies
-
-In het ontwikkelen van het Melden van Canvas, hebben wij radicaal sommige eigenschappen-en creeerde sommige nieuwe van de grond omhoog-voor het stroomlijnen van rapport het maken. De volgende lijst schetst belangrijke eigenschappen van het Melden van Canvas in vergelijking met bestaande rapporteringshulpmiddelen, evenals hun huidige versiestatus:
-
->[!NOTE]
->
->Voor een chronologische lijst met toegevoegde functies en opgeloste problemen raadpleegt u [Canvasbèta melden: releaseactiviteit](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Beschrijving onderdeel</th> 
-   <th>Oudere terminologie </th> 
-   <th>Canvasterminologie rapporteren</th> 
-   <th>Status</th> 
-  </tr> 
-  <tr> 
-   <td>Rapporten</td> 
-   <td>Rapport</td> 
-   <td>Canvas melden</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Dashboards</td> 
-   <td>Dashboard</td> 
-   <td>Canvas melden</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Tabellen</td> 
-   <td>Tabblad Details</td> 
-   <td>Tabelblok</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Grafieken</td> 
-   <td>Tabblad Diagram</td> 
-   <td>Visualisatieblok</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Subtotalen</td> 
-   <td>Tabblad Samenvatting</td> 
-   <td>KPI-visualisatie</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Boorpad</td> 
-   <td>Modale viewer rapporteren</td> 
-   <td>Viewer-overlay rapporteren</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Kolommen</td> 
-   <td>Het tabblad Weergave</td> 
-   <td>Tabelbewerking</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Filters</td> 
-   <td>Tabblad Filter</td> 
-   <td>Tabelbewerking</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Groepen</td> 
-   <td>Tabblad Groep</td> 
-   <td>Tabelbewerking</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Veldconfiguratie<br>(aggregaties en voorwaardelijke opmaak)</td> 
-   <td>Het tabblad Weergave</td> 
-   <td>Tabelbewerking (kolom geselecteerd)</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Kolommen vergroten/verkleinen</td> 
-   <td>Tekstmodus</td> 
-   <td>Tabelbewerking (kolom geselecteerd)</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-   <tr> 
-   <td>Externe inhoud</td> 
-   <td>Externe pagina</td> 
-   <td>Webinhoudblok</td> 
-   <td>Vrijgegeven</td> 
-  </tr> 
-   <tr> 
-   <td>Exporteren</td> 
-   <td>Handelingen rapporteren</td> 
-   <td><strong>Meer</strong> menu in viewer</td> 
-   <td>Gedeeltelijk vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Kolommen delen</td> 
-   <td>Tekstmodus</td> 
-   <td>Veldbouwer</td> 
-   <td>Gedeeltelijk vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Berekende kolommen</td> 
-   <td>Tekstmodus</td> 
-   <td>Veldbouwer</td> 
-   <td>Gedeeltelijk vrijgegeven</td> 
-  </tr> 
-  <tr> 
-   <td>Diagramstijl</td> 
-   <td>Tabblad Diagram</td> 
-   <td>Visualisatieblok (tabblad Stijl)</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Geplande levering</td> 
-   <td>Handelingen rapporteren</td> 
-   <td><strong>Meer</strong> menu in viewer</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Rapporttoegang verlenen</td> 
-   <td>Handelingen rapporteren</td> 
-   <td><strong>Meer</strong> menu in viewer</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Toegang tot niet-geverifieerd dashboard</td> 
-   <td>Handelingen in het dashboard</td> 
-   <td><strong>Meer</strong> menu in viewer</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Rapportgegevens bewerken</td> 
-   <td>Online bewerken</td> 
-   <td>Samenvattingsvenster</td> 
-   <td>Geplant</td> 
-  </tr> 
-  <tr> 
-   <td>Pagina's filteren</td> 
-   <td>N.v.t.</td> 
-   <td>Canvas, filter</td> 
-   <td>Geplant</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->De hier vermelde functies worden vrijgegeven in het kader van een gelaagde productrelease. Functies waartoe u toegang hebt in deze bètaversie zijn mogelijk niet beschikbaar in de volledige release, op basis van het plan van uw organisatie.
+We bieden deze nieuwe ervaringen incrementeel, te beginnen met de release 23.2, via de nieuwe pagina Canvas-dashboards die nu beschikbaar is in uw voorvertoningsomgeving. De Dashboards van het canvas staan u toe om bestaande rapporten naast de nieuwe rapporteringsmogelijkheden te tonen wij bouwen, en zullen als onze primaire milieu voor het opstellen van en het testen van nieuwe eigenschappen voor het Melden van Canvas dienen. Ga voor meer informatie over het inschakelen en gebruiken van Canvasdashboards naar [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Deelnemen aan de bètaversie
 
+>[!IMPORTANT]
+>
+>De bètainformatie hieronder is voor beheerders die reeds in de bètaversie van het Canvas van de Rapportering zijn inbegrepen, die nieuwe deelnemers niet meer goedkeurt. Als u nieuwe eigenschappen van het Melden van Canvas zou willen testen aangezien zij worden toegevoegd, zie **Ontwikkelingsplan** hierboven voor informatie over het inschakelen van Canvasdashboards.
+
 ### Beschikbaarheid
 
-De bètaversie van het rapportcanvas is beschikbaar voor alle organisaties die zich op AWS bevinden, ongeacht de regio.
+De bèta van het Canvas van de Rapportering is beschikbaar aan alle organisaties die op AWS, ongeacht regio zijn.
 
 ### Deelnemen aan de bètaversie
 

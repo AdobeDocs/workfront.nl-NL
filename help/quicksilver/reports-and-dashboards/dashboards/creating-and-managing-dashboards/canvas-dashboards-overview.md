@@ -5,7 +5,7 @@ title: Overzicht van dashboards van canvas
 description: U kunt Canvasdashboards tot stand brengen die het Melden van de visualisaties van het Canvas met traditionele rapporten en eigenschapnieuwe lay-outopties integreren.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4203de3dcbb0f6675dd840a7f6b883907794ce02
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -23,7 +23,6 @@ Deze functie is in ontwikkeling en biedt nog geen ondersteuning voor:
 * kalenderintegratie
 * gemelde rapporten
 * distribueren via lay-outsjablonen
-
 
 ## Canvasdashboards openen
 
