@@ -7,7 +7,7 @@ description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met e
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Overzicht van de gereedschappen voor mobiele planning
-
-{{highlighted-preview}}
 
 Als u een kaart maakt met behulp van ad-hockaarten en kaarten met een verbinding, kunt u extra flexibele planningstools gebruiken.
 
@@ -26,15 +24,11 @@ Tot de nuttige gereedschappen voor Kanban behoren:
 * Kaarten groeperen in zwembaden
 * Een inlaatkolom die voor een achterstand kan worden gebruikt
 
-<div class="preview">
-
 Tot de nuttige gereedschappen voor rum behoren:
 
 * Werkstromen en iteratuurplaten
 * Kaartlijst of -achterstand
 * Metrisch
-
-</div>
 
 U kunt om het even welk of al deze hulpmiddelen op een manier gebruiken die voor u en uw team werkt, zonder zich aan een specifieke behendige methodologie te verbinden.
 

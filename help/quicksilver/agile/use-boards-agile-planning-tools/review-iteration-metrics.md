@@ -6,18 +6,16 @@ title: Metrische gegevens voor herhaling controleren
 description: Metriek zijn beschikbaar voor elke herhaling in een werkstroom, op de werkplaats van het iteratieproces.
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
 # Metrische gegevens voor herhaling controleren
 
-{{highlighted-preview-article-level}}
-
-Metriek zijn beschikbaar voor elke herhaling in een werkstroom, op de werkplaats van het iteratieproces.
+Metrische gegevens zijn beschikbaar voor elke herhaling in een werkstroom, op het werkgebied voor herhalingsprocessen en het dashboard.
 
 ## Toegangsvereisten
 

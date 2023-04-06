@@ -6,27 +6,21 @@ description: De [!UICONTROL boards] In het dashboard ziet u de lijst met borden 
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Het dashboard voor tekengebieden gebruiken
 
-{{highlighted-preview}}
-
 Op het dashboard Borden ziet u de lijst met borden en werkstromen waartoe u toegang hebt, inclusief borden die u hebt gemaakt en borden die u hebt toegevoegd. Afzonderlijke borden waartoe u toegang hebt, die geen deel uitmaken van een werkstroom, worden eerst weergegeven.
-
->[!NOTE]
->
->De werkstromen zijn beschikbaar in het milieu van de Voorproef, en in Productie door vroege eigenschapopt-in voor [!UICONTROL [!DNL Workfront] Boards]. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Op het dashboard kunt u het volgende doen voor borden en werkstromen:
 
-* Een bord archiveren <span class="preview">of werkstroom</span>
-* De platen filteren <span class="preview">en werkstromen</span>
+* Een bord of werkstroom archiveren
+* Borden en werkstromen filteren
 * De lijst met tekengebieden sorteren op de naam van het bord of op de gewijzigde datum
 * Een kaart of werkstroom zoeken
 * Een board of werkstroom verwijderen
@@ -54,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw [!DNL Workfront] beheerder.
 
-## Filterborden <span class="preview">en werkstromen</span> {#filter-boards}
+## Filterborden en werkstromen {#filter-boards}
 
 U kunt het dashboard van Borden filtreren om actieve, gearchiveerde, of alle borden of werkstromen te tonen.
 
@@ -85,7 +79,7 @@ U kunt in het gebied Boards naar een specifieke board zoeken, of in het gebied W
 
    ![Op het dashboard naar tekengebieden zoeken](assets/boards-searchbox.png)
 
-## Een bord archiveren <span class="preview">of een werkstroom</span>
+## Een kaart of werkstroom archiveren
 
 Als u een board of een workstream archiveert, wordt deze naar het archief verzonden en kunt u deze later herstellen.
 
@@ -123,17 +117,18 @@ Als u een werkstroom verwijdert, worden ook alle borden in de werkstroom verwijd
 
 1. Klikken **[!UICONTROL Delete board]** of [!UICONTROL **Werkstroom verwijderen**] in het bevestigingsbericht.
 
-## Een board naar een werkstroom verplaatsen
+<!-- ## Move a board to a workstream
 
-U kunt een zelfstandig board naar een werkstream verplaatsen of een board van de ene naar de andere werkstream verplaatsen.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->U kunt alleen borden verplaatsen die u hebt gemaakt, niet borden waaraan u bent toegevoegd.
+>You can only move boards that you created, not boards that you were added to.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op het bord en selecteert u [!UICONTROL **Verplaatsen naar werkstroom**].
-1. Selecteer aan welke werkstream u het board wilt toevoegen en klik op [!UICONTROL **Verplaatsen**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   Het board wordt verplaatst naar de werkstream en wordt niet meer weergegeven in het [!UICONTROL Boards] gebied.
-Als u nog geen werkstroom hebt gemaakt, wordt u gevraagd om er een te maken om het werkgebied naar te verplaatsen.
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->
