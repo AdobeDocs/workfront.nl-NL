@@ -5,16 +5,14 @@ description: U kunt een scorecard gebruiken om te meten hoe goed een project zic
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # Pas een scorecard op een project toe en produceer een Score van de Uitlijning
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
 
 U kunt een scorecard gebruiken om te meten hoe goed een project zich op de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.
 
@@ -95,17 +93,20 @@ Een scorecard toepassen op een project:
 
    scorecard wordt nu geassocieerd met het project en het project wordt genoteerd.
 
-1. (Voorwaardelijk) wanneer de veranderingen in de waarden van scorecard vragen voorkomen, moet u scorecard opnieuw berekenen om op de nieuwe waarden voor de projectscore te wijzen. U kunt als volgt de scorecard opnieuw berekenen:
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. Ga naar een lijst met projecten en selecteer alle projecten in de lijst.
-   1. Klik op de knop **Bewerken** boven aan de lijst.
-   1. Klikken **Instellingen** in het linkerpaneel, dan controleer **Scorecards opnieuw berekenen** aan het einde van het gebied Instellingen.
-   1. Klik op Opslaan. Hierdoor wordt de score opnieuw berekend op basis van de scorecards die voor alle geselecteerde projecten zijn gekoppeld.
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">De optie om scorecards opnieuw te berekenen is verwijderd uit de voorvertoningsomgeving wanneer u projecten bulksgewijs bewerkt. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## Een uitlijningsscore genereren
 

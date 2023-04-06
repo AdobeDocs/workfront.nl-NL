@@ -7,16 +7,16 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier toevoegen aan een object
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een aangepast formulier bevat aangepaste velden waarin u informatie over het object kunt opslaan.
 
@@ -115,18 +115,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Zie het artikel voor informatie over het bulksgewijs toevoegen van aangepaste formulieren aan projecten in de voorbeeldomgeving [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>Het toevoegen van aangepaste formulieren aan objecten is hetzelfde voor alle objecten, behalve voor projecten.
+>
+>Zie het artikel voor informatie over het bulksgewijs toevoegen van aangepaste formulieren aan projecten [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Navigeer naar een lijst met objecten.
 1. Selecteer meerdere objecten in de lijst.
 
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png)klikt u op de knop **Bewerken** pictogram  ![](assets/edit-icon.png)of klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
+1. Klik op de knop **Meer** menu ![](assets/more-icon.png)klikt u op de knop **Bewerken** pictogram  ![](assets/edit-icon.png)of klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
 1. Selecteer het formulier dat u wilt koppelen aan alle geselecteerde objecten in het dialoogvenster **Een selectie maken** vervolgkeuzemenu.
    >[!NOTE]
    >
    >Als u het formulier niet kunt vinden in het vervolgkeuzemenu, betekent dit dat aan ten minste een van de objecten het formulier al is gekoppeld. Bepaal welk object dat is en verwijder het uit de selectie voordat u het formulier aan de overige objecten kunt toevoegen.
+
 
 1. Klikken **Wijzigingen opslaan**.
 

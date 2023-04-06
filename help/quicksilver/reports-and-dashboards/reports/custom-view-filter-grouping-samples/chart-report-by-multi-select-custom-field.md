@@ -7,16 +7,16 @@ description: U kunt geen rapport door een multi-select douanegebied in kaart bre
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 U kunt geen rapport door een multi-select douanegebied in kaart brengen. U moet een extra berekend gebied tot stand brengen dat naar het multi-uitgezochte douanegebied verwijst om het rapport door de waarde van het multi-uitgezochte gebied van de douane ook in kaart te brengen.
 
@@ -109,7 +109,7 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
    >[!NOTE]
    >
-   ><span class="preview">Deze optie is verwijderd uit het bulksgewijs bewerken van projecten in de voorvertoningsomgeving.  U kunt uitdrukkingen voor projecten in massa nog opnieuw berekenen door te klikken **Meer** ![](assets/more-icon-45x33.png) boven aan een projectlijst, dan **Expressies opnieuw berekenen**. </span>
+   >Deze optie is verwijderd uit het bulksgewijs bewerken van projecten.  U kunt expressies voor projecten in bulk nog steeds opnieuw berekenen door op de knop **Meer** pictogram ![](assets/more-icon-45x33.png) boven aan een projectlijst, dan **Expressies opnieuw berekenen**.
 
 
 1. Ga naar het rapport waar u de grafiek voor het berekende gebied wilt toevoegen dat multi-select douaneveld van verwijzingen voorziet.
