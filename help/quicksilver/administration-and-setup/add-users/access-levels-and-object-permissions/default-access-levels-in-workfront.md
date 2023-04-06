@@ -10,16 +10,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
-# Ingebouwde toegangsniveaus in Adobe Workfront
+# Ingebouwde oudere toegangsniveaus in Adobe Workfront
 
-Elk van de zes ingebouwde toegangsniveaus wordt ontworpen voor een bepaald type gebruiker:
+Elk van de zes ingebouwde niveaus van de erfenistoegang worden ontworpen voor een bepaald type gebruiker:
 
 * Systeembeheerder
 * Planner
@@ -28,7 +28,7 @@ Elk van de zes ingebouwde toegangsniveaus wordt ontworpen voor een bepaald type 
 * Aanvrager
 * Externe gebruiker
 
-Afhankelijk van het toegangsniveau zijn maximaal drie instellingen beschikbaar voor de meeste Workfront-objecttypen:
+Afhankelijk van het oude toegangsniveau zijn maximaal drie instellingen beschikbaar voor de meeste Workfront-objecttypen:
 
 <table style="table-layout:auto">
     <tr>
@@ -45,25 +45,25 @@ Afhankelijk van het toegangsniveau zijn maximaal drie instellingen beschikbaar v
     </tr>
 </table>
 
-Als u een douanepanager, de Arbeider, de Vraag, of het toegangsniveau van de Recensent nodig hebt, kunt u het ingebouwde toegangsniveau kopiëren en de hoeveelheid toegang bepalen u het voor de diverse objecten van Workfront wilt toestaan. Voor informatie bij het creëren van een niveau van de douanetoegang of het wijzigen van één van de ingebouwde toegangsniveaus, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Als u een douanepanager, de Arbeider, de Vraag, of het toegangsniveau van de Recensent nodig hebt, kunt u het ingebouwde niveau van de erfenistoegang kopiëren en de hoeveelheid toegang bepalen u het voor de diverse objecten van Workfront wilt toestaan. Voor informatie bij het creëren van een niveau van de douanetoegang of het wijzigen van één van de ingebouwde niveaus van de erfenistoegang, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
->Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers.
+>Wij adviseren sterk dat u de ingebouwde niveaus van de erfenistoegang onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers.
 
 Voor algemene informatie over deze toegangsniveaus, zie [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Toegangsniveau van systeembeheerder
 
-Dit ingebouwde toegangsniveau, dat is gekoppeld aan de licentie voor abonnementen, is ontworpen voor een gebruiker die het Adobe Workfront-systeem beheert. U kunt dit ingebouwde toegangsniveau niet wijzigen.
+Dit ingebouwde toegangsniveau dat is gekoppeld aan de licentie voor abonnementen, is ontworpen voor een gebruiker die het Adobe Workfront-systeem beheert. U kunt dit ingebouwde toegangsniveau niet wijzigen.
 
-Gebruikers met het toegangsniveau voor systeembeheerders kunnen alles doen in Workfront. Ze kunnen alle Workfront-objecten en informatie die door alle andere gebruikers in Workfront is ingevoerd, weergeven en bewerken.
+Gebruikers met het toegangsniveau voor systeembeheerders kunnen alles doen binnen Workfront. Ze kunnen alle Workfront-objecten en informatie die door alle andere gebruikers in Workfront is ingevoerd, weergeven en bewerken.
 
 Zij hebben ook toegang tot het volledige gebied van de Opstelling, waar zij om het even welk plaatsen op het systeemniveau kunnen veranderen. En ze hebben toegang tot alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png).
 
 Zie voor meer informatie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Toegangsniveau van planner
+## Toegangsniveau van oudere installer
 
 Dit toegangsniveau is ook gekoppeld aan de licentie voor abonnementen en is bedoeld voor:
 
@@ -73,9 +73,9 @@ Dit toegangsniveau is ook gekoppeld aan de licentie voor abonnementen en is bedo
 * Gebruikers die rapporten maken en die tijdbladen, werkitems en documenten goedkeuren
 * Gebruikers die toegang tot alle gebieden in het hoofdmenu nodig hebben ![](assets/main-menu-icon.png)
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Planner maken en de mate van toegang bepalen die het toestaat voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
+U kunt een aangepaste versie van het ingebouwde oudere toegangsniveau van de Planner maken en de mate van toegang bepalen die het toestaat voor de verschillende objecttypen van Workfront. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
 
-Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten in het toegangsniveau van de Planner:
+Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten in het verouderde toegangsniveau van de Planner:
 
 | Workfront-objecttype | Geen toegang | Toegang weergeven | Toegang bewerken |
 |---|---|---|---|
@@ -94,11 +94,11 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Scenario Planner |   |   | ✓ (De standaardinstelling is Geen toegang.) |
 | Workfront-doelen |   |   | ✓ (De standaardinstelling is Geen toegang.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Toegangsniveau voor werknemers
+## Toegangsniveau voor oudere werknemers
 
-Dit ingebouwde toegangsniveau, dat aan de vergunning van het Werk wordt vastgemaakt, wordt ontworpen voor gebruikers die voor het uitvoeren van het werk in Workfront. Zij plannen het werk niet; ze maken het af .
+Dit toegangsniveau is gekoppeld aan de werklicentie en is bedoeld voor gebruikers die het werk in Workfront uitvoeren. Zij plannen het werk niet; ze maken het af .
 
 Gebruikers met dit toegangsniveau:
 
@@ -109,7 +109,7 @@ Gebruikers met dit toegangsniveau:
 * Alle gebieden in het hoofdmenu zijn toegankelijk ![](assets/main-menu-icon.png), maar hun gebied &quot;Gebruikers&quot; heet Teams. In het gebied van Teams, kunnen de gebruikers met dit toegangsniveau slechts teams bekijken die zij tot behoren, samen met het werk dat aan die teams wordt toegewezen.
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Worker maken en de mate van toegang bepalen die dit toestaat voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
+U kunt een aangepaste versie maken van het ingebouwde toegangsniveau van de Worker voor oudere gebruikers en de mate van toegang bepalen die dit mogelijk maakt voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het toegangsniveau van Worker:
 
@@ -130,9 +130,9 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Scenario Planner |   |   | ✓ (De standaardinstelling is Geen toegang.) |
 | Workfront-doelen |   |   | ✓ (De standaardinstelling is Geen toegang.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Toegangsniveau van revisor
+## Revisor verouderd toegangsniveau
 
 Dit toegangsniveau is gekoppeld aan de Revisielicentie en is ontworpen voor managers die werk aanvragen bij andere gebruikers en die het werk beoordelen en goedkeuren. Dit zijn geen projecteigenaars of teamleden, maar ze hebben toegang tot Workfront nodig om de werkitems te kunnen zien waarop ze toezicht houden.
 
@@ -144,7 +144,7 @@ Gebruikers met het toegangsniveau van de Revisor:
 * Kan aanvragen en documenten openen in het hoofdmenu ![](assets/main-menu-icon.png).
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau van Reviewer maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
+U kunt een aangepaste versie van het ingebouwde, oudere toegangsniveau van Reviewer maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
 
 Beperkt voor projecten en taken tot het toegangsniveau van de Worker, zijn de hoogste toegangsmontages beschikbaar voor voorwerpen in het de toegangsniveau van de Recensent:
 
@@ -249,13 +249,13 @@ Beperkt voor projecten en taken tot het toegangsniveau van de Worker, zijn de ho
  </tbody> 
 </table>
 
-## Toegangsniveau aanvrager
+## Verouderde toegangsniveau aanvragen
 
-Dit ingebouwde toegangsniveau, dat aan de vergunning van het Verzoek wordt vastgemaakt, wordt ontworpen voor gebruikers die eenvoudige het werkverzoeken in Workfront maken en ontvangen. Deze zijn standaard beperkt tot het gebied Verzoeken.
+Dit toegangsniveau, gekoppeld aan de aanvraaglicentie, is ontworpen voor gebruikers die eenvoudige werkverzoeken indienen en ontvangen in Workfront. Deze zijn standaard beperkt tot het gebied Verzoeken.
 
 Bijvoorbeeld, kan een gebruiker kwesties aan de rij van het de hulpbureauverzoek van uw organisatie registreren.
 
-Gebruikers met dit ingebouwde toegangsniveau:
+Gebruikers met dit toegangsniveau:
 
 * Kan verzoeken indienen en deze aanvragen bijwerken
 * Documenten uploaden en goedkeuren
@@ -263,7 +263,7 @@ Gebruikers met dit ingebouwde toegangsniveau:
 * Kan niet toewijzen aan werkitems
 * Alleen toegang tot aanvragen via het hoofdmenu ![](assets/main-menu-icon.png). Voor meer informatie over verzoekrijen, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau voor de aanvrager maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
+U kunt een aangepaste versie van het ingebouwde oudere toegangsniveau van de Vraag tot stand brengen en de hoeveelheid toegang bepalen het voor de diverse objecten van Workfront toelaat. Zie voor meer informatie [Ingebouwde toegangsniveaus in Adobe Workfront](#Customiz) in dit artikel.
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het toegangsniveau van de aanvrager:
 
@@ -284,7 +284,7 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Scenario Planner | ✓ |   |   |
 | Workfront-doelen |   |   | ✓ (De standaardinstelling is Geen toegang.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Toegangsniveau externe gebruiker
 

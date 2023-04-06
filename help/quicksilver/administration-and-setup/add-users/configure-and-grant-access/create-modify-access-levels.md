@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 0%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze toepassen op gebruikers, zoals wordt uitgelegd in [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze op gebruikers toepassen. Als u met toegangsniveaus werkt, is het belangrijk dat u begrijpt hoe ze samenwerken met de objectmachtigingen die gebruikers verlenen wanneer ze objecten met elkaar delen. Voor meer informatie over toegangsniveaus, zie
 
-Als u met toegangsniveaus werkt, is het belangrijk dat u begrijpt hoe ze samenwerken met de objectmachtigingen die gebruikers verlenen wanneer ze objecten met elkaar delen. Zie voor meer informatie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Overzicht van toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Overzicht van verouderde toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers. Als u een toegangsniveau wilt aanpassen, kopieert u het standaardtoegangsniveau en wijzigt u de kopie. (U kunt dit voor elk toegangsniveau behalve de Beheerder van het Systeem en Externe Gebruiker doen.)
+>Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers. Als u een toegangsniveau wilt aanpassen, kopieert u het standaardtoegangsniveau en wijzigt u de kopie. U kunt dit voor elk toegangsniveau behalve de Beheerder van het Systeem en Externe Gebruiker doen.
 
 ## Toegangsvereisten
 
@@ -41,11 +42,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>Huidig plan: Standaard
+   <p>of</p>
+   <p>Ouder plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="#" class="MCXref xref selected">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td> <p>Typ een naam voor uw toegangsniveau. </p> <p>Als u enkel een toegangsniveau kopieerde om nieuwe tot stand te brengen, is de standaardnaam de Naam van het Niveau van de Toegang (Exemplaar), waar de Naam van het Niveau van de Toegang het toegangsniveau is u kopieerde.</p> <p><strong>Tip</strong>: Wij adviseren dat u de originele naam van het toegangsniveau in de naam van het exemplaar omvat. Bij ACME-bedrijven krijgt een kopie van het toegangsniveau Planner bijvoorbeeld de naam ACME Planner.</p> </td> 
+      <td> <p>Typ een naam voor uw toegangsniveau. </p> <p>Als u enkel een toegangsniveau kopieerde om nieuwe tot stand te brengen, is de standaardnaam de Naam van het Niveau van de Toegang (Exemplaar), waar de Naam van het Niveau van de Toegang het toegangsniveau is u kopieerde.</p> <p><strong>Tip</strong>: Wij adviseren dat u de originele naam van het toegangsniveau in de naam van het exemplaar omvat. Bij ACME-bedrijven krijgt een kopie van het standaardtoegangsniveau bijvoorbeeld de naam ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschrijving </td> 
@@ -77,12 +80,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Licentietype</td> 
-      <td>Zorg ervoor dat de hier geselecteerde licentie de licentie is die het meest wordt gekoppeld aan het type toegangsniveau dat u maakt of bewerkt. De geselecteerde licentie bepaalt welke instellingen beschikbaar zijn voor het toegangsniveau. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</td> 
+      <td>Zorg ervoor dat de hier geselecteerde licentie de licentie is die het meest wordt gekoppeld aan het type toegangsniveau dat u maakt of bewerkt. De geselecteerde licentie bepaalt welke instellingen beschikbaar zijn voor het toegangsniveau. Zie voor meer informatie <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Overzicht van verouderde licenties</a> of <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Indien **Plan** is geselecteerd in het dialoogvenster **Licentietype** vak, naar de sectie schuiven **Beheertoegang toestaan voor** en selecteer administratieve toegangstoestemmingen voor degenen die dit toegangsniveau zullen hebben.
+1. (Voorwaardelijk) Indien **Standaard** of **Plan** is geselecteerd in het dialoogvenster **Licentietype** vak, naar de sectie schuiven **Beheertoegang toestaan voor** en selecteer administratieve toegangstoestemmingen voor degenen die dit toegangsniveau zullen hebben.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li>Nieuwe taakrollen toevoegen</li> 
         <li>Rolfacturering en kostentarieven bewerken</li> 
        </ul> 
-       <p>Voor belangrijke informatie over toegang tot financiële gegevens die beschikbaar is aan een gebruiker van de Planner met administratieve toegang tot baanrollen, zie <a href="#planner-users-with-administrative-access-to-job-roles">Plannergebruikers met beheerbare toegang tot functies</a>.</p>
+       <p>Voor belangrijke informatie over toegang tot financiële gegevens die beschikbaar is voor een gebruiker van de Norm of van de Planner met administratieve toegang tot baanrollen, zie <a href="#planner-users-with-administrative-access-to-job-roles">Standaard of Planner-gebruikers met beheerbare toegang tot functies</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets en uren</td> 
-      <td> <p>De beheerders van de groep kunnen timesheet profielen aan gebruikers in de groepen en subgroepen toewijzen zij leiden.</p> <p>Als deze optie niet is ingeschakeld, kunnen groepsbeheerders geen timesheet-profielen toewijzen aan andere gebruikers in de groepen en subgroepen die zij beheren, hoewel zij deze wel kunnen maken.</p> <p>Alle andere gebruikers met een licentie voor abonnementen kunnen alle uren en tijdbladen weergeven in Workfront.</p> <p>Als deze optie niet is ingeschakeld, kunnen gebruikers alleen uren weergeven op:</p> 
+      <td> <p>De beheerders van de groep kunnen timesheet profielen aan gebruikers in de groepen en subgroepen toewijzen zij leiden.</p> <p>Als deze optie niet is ingeschakeld, kunnen groepsbeheerders geen timesheet-profielen toewijzen aan andere gebruikers in de groepen en subgroepen die zij beheren, hoewel zij deze wel kunnen maken.</p> <p>Alle andere gebruikers met een Standard- of Plan-licentie kunnen alle uren en tijdbladen in Workfront bekijken.</p> <p>Als deze optie niet is ingeschakeld, kunnen gebruikers alleen uren weergeven op:</p> 
        <ul> 
         <li>Projecten, taken of problemen die zij beheren</li> 
         <li>Hun eigen tijdschema</li> 
@@ -203,9 +206,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Voor informatie over hoe een beheerder van Adobe een de toegangsniveau van de Beheerder van het Systeem aan een gebruikers toewijst, zie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Plannergebruikers met beheerbare toegang tot functies {#planner-users}
+## Standaard of Planner-gebruikers met beheerbare toegang tot functies {#planner-users}
 
-Als u een gebruiker van de Planner administratieve toegang tot baanrollen verleent, wordt de Edit het Factureren van de Rol &amp; het plaatsen van de Tarieven automatisch toegelaten voor de gebruiker.
+Als u een gebruiker van de Norm of van de Planner administratieve toegang tot baanrollen verleent, wordt de Edit het Factureren van de Rol &amp; het plaatsen van de Tarieven automatisch toegelaten voor de gebruiker.
 
 Later, als u administratieve toegang tot baanrollen voor de gebruiker onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat de Edit het Factureren van de Rol &amp; het plaatsen van de Tarieven van Kosten nog wordt toegelaten.
 

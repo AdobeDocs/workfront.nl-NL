@@ -6,9 +6,9 @@ description: U kunt een document aanvragen voor elk object dat Documenten onders
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ U moet het volgende hebben:
 
    >[!NOTE]
    >
-   >Als u de [Overzicht van Adobe Workfront-licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) die op uw account is ingeschakeld, kunt u een aanvraag naar elk willekeurig e-mailadres verzenden. Er is een instelling in het dialoogvenster [Beveiligingsvoorkeuren voor het systeem configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) Hiermee bepaalt u of deze externe e-mailgebruikers een wachtwoord moeten maken voordat ze met Workfront communiceren. 
+   >Als u de [Overzicht van verouderde licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) die op uw account is ingeschakeld, kunt u een aanvraag naar elk willekeurig e-mailadres verzenden. Er is een instelling in het dialoogvenster [Beveiligingsvoorkeuren voor het systeem configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) Hiermee bepaalt u of deze externe e-mailgebruikers een wachtwoord moeten maken voordat ze met Workfront communiceren. 
 
 1. Beschrijf de reden u het document verzoekt.
 1. Klikken **Aanvraag verzenden**.

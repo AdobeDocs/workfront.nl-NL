@@ -1,23 +1,23 @@
 ---
-title: Overzicht van toegangsniveaus
+title: Overzicht van verouderde toegangsniveaus
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: toegang,niveau,systeem,beheerder,planner,worker,revisor,aanvrager,extern,gebruiker
 navigation-topic: access-levels
 description: Elke gebruiker moet een toegangsniveau hebben om zich aan te melden en in Workfront te werken. Met het toegangsniveau kunt u bepalen wat een gebruiker kan zien en doen met bepaalde Workfront-objecten en -gebieden. Elk van de zes ingebouwde toegangsniveaus is verbonden aan één van de vijf Workfront vergunningen, die Plan, het Werk, het Overzicht, Verzoek, en Extern zijn.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 33c269cee3fbab51ce67f50cbdd1fdd190d948b7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# Overzicht van toegangsniveaus
+# Overzicht van verouderde toegangsniveaus
 
 Als beheerder van Adobe Workfront, wijst u een toegangsniveau aan een gebruiker voor twee doeleinden toe:
 
@@ -42,7 +42,7 @@ Raadpleeg de volgende artikelen voor informatie over verwante onderwerpen:
  <tbody> 
   <tr> 
    <td>Licenties</td> 
-   <td> <p>De vergunning verbonden aan een toegangsniveau bepaalt hoe het toegangsniveau kan worden gevormd.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> <p><strong>Tip</strong>: U kunt zien welk toegangsniveau en vergunning aan elke gebruiker door een gebruikerslijst of een rapport wordt toegewezen. Zie voor instructies <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">De toegangsniveaus en licenties van uw gebruikers weergeven</a>.</p> </td> 
+   <td> <p>De vergunning verbonden aan een toegangsniveau bepaalt hoe het toegangsniveau kan worden gevormd.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van verouderde licenties</a>.</p> <p><strong>Tip</strong>: U kunt zien welk toegangsniveau en vergunning aan elke gebruiker door een gebruikerslijst of een rapport wordt toegewezen. Zie voor instructies <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">De toegangsniveaus en licenties van uw gebruikers weergeven</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Ingebouwde toegangsniveaus</td> 

@@ -6,9 +6,9 @@ description: U kunt machtigingen delen of verwijderen voor een object dat u hebt
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 0%
 
 U hoeft geen Adobe Workfront-beheerder te zijn om machtigingen te delen voor objecten waartoe u toegang hebt, maar machtigingen voor objecten werken binnen de toegangsniveaus die door de Workfront-beheerder zijn ingesteld.
 
-Voor meer informatie over toegangsniveaus en toestemmingen, zie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [Overzicht van toegangsniveaus](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [Overzicht van toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [Overzicht van verouderde toegangsniveaus](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ U kunt de volgende objecten in Workfront delen met andere gebruikers:
 
    Als u bijvoorbeeld over Contribute-machtigingen voor het object beschikt, kunt u voor dat object geen andere gebruikersbeheermachtigingen verlenen.
 
-* U kunt een object niet delen met een machtigingsniveau dat hoger is dan het toegangsniveau van een gebruiker. Bijvoorbeeld, als een gebruiker de toegang van de Mening tot Projecten op hun toegangsniveau heeft, kunt u hen niet geven leidt toestemmingen op een project.
+* U kunt een object niet delen met een machtigingsniveau dat hoger is dan het toegangsniveau van een gebruiker. Bijvoorbeeld, als een gebruiker de toegang van de Mening tot Projecten op hun toegangsniveau heeft, kunt u hen niet geven leidt toestemmingen op een project.
 * Een gebruiker met machtigingen om ten minste een object weer te geven, kan dat object met iemand anders delen.
 * U kunt objecten delen met actieve gebruikers, functies, teams, groepen of bedrijven.
 

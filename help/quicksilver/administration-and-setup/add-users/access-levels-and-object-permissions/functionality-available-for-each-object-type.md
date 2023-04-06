@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
-title: Beschikbare functionaliteit voor elk objecttype
+title: Beschikbare functionaliteit voor elk objecttype voor verschillende oudere toegangsniveaus
 description: De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
 
-# Beschikbare functionaliteit voor elk objecttype
+# Beschikbare functionaliteit voor elk objecttype voor verschillende oudere toegangsniveaus
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
@@ -91,7 +91,7 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 | Financiering weergeven | ✓ | ✓ | ✓ |   |   |
 | Updates/opmerkingen | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -187,7 +187,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 | Bewerken | ✓ |   |   |   |   |
 | Kopiëren | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -305,7 +305,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 | Koppeling (met integratie) | ✓ | ✓ | ✓ | ✓ |   |
 | Ontkoppelen (met integratie) | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -477,7 +477,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 | Kopiëren | ✓ |   |   |   |   |
 | Sjabloondetails bewerken | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ De licentietypen Verzoek en Externe gebruiker zijn hier niet opgenomen omdat ze 
 | Risico&#39;s maken voor projecten | ✓ |   |   |
 | Risico&#39;s weergeven voor projecten | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ Alleen gebruikers met een abonnement hebben volledige toegang tot [object of geb
 | De middelen van de begroting in de hulpmiddelen van de Planning van het Middel&#42;&#42; | ✓ |   |   |   |   |
 | Bronnenpools koppelen aan projecten, sjablonen en gebruikers | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ Alleen gebruikers met een abonnement hebben volledige toegang tot [object of geb
 | Scenario&#39;s weergeven in het hoofdmenu ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | Abonnementen en initiatieven weergeven die de gebruiker heeft gemaakt&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Toegang tot objecten en gebieden per licentietype
-description: In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
-author: Caroline
+title: Oudere toegang tot objecten en gebieden per licentietype
+description: In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-verouderde licenties wordt toegestaan voor de objecten en gebieden in Workfront.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# Toegang tot objecten en gebieden per licentietype
+# Oudere toegang tot objecten en gebieden per licentietype
 
-In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
+In de onderstaande tabel ziet u het hoogste niveau van verouderde toegang (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
 
 * **Weergave**: De gebruiker kan items controleren en delen.
 * **Bewerken**: De gebruiker kan items maken, bewerken, verwijderen en delen.
@@ -49,11 +49,11 @@ In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave
 
 >[!NOTE]
 >
->Gebruikers met een revisielicentie of een aanvraaglicentie hebben beperkte mogelijkheden voor delen. Zie voor meer informatie [Overzicht van Adobe Workfront-licenties](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Gebruikers met een revisielicentie of een aanvraaglicentie hebben beperkte mogelijkheden voor delen. Zie voor meer informatie [Overzicht van Adobe Workfront-licenties](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) of [Overzicht van Adobe Workfront-licenties](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Externe gebruikers kunnen niet zoeken naar items in Workfront. Ze kunnen documenten en kalenders weergeven die specifiek met hen worden gedeeld. Ze kunnen ook de gebruikers zien die items met hen delen.
 
-In de volgende artikelen vindt u gedetailleerde informatie over wat de toegangsniveaus voor elk object en gebied toestaan:
+In de volgende artikelen vindt u gedetailleerde informatie over de toegangsniveaus in oudere versies voor elk object en elk gebied:
 
 * [Toegang verlenen tot projecten](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Toegang verlenen tot taken](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

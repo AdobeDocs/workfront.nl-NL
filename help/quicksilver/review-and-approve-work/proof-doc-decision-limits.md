@@ -5,12 +5,10 @@ title: Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde ge
 description: Voor alle niet-betaalde Workfront-licenties geldt een beperking van het aantal bewijzen en documentbeschikkingen. Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers.
 author: Courtney
 feature: Work Management
-hide: true
-hidefromtoc: true
-source-git-commit: 6961bc960312d364ee785543e13a7d75035ef326
+source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
@@ -74,13 +72,13 @@ Als een externe gebruiker zijn beslissingslimiet bereikt, zal hij of zij de toeg
 
 ## Gebruikers van contribuanten
 
-Zodra een gebruiker met een Medewerker- vergunning hun beslissingsgrens bereikt, zullen zij automatisch aan de Lichte vergunning met onbeperkte bewijs en documentbesluiten worden bevorderd. <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
+Zodra een gebruiker met een Medewerker- vergunning hun beslissingsgrens bereikt, zullen zij automatisch aan de Lichte vergunning met onbeperkte bewijs en documentbesluiten worden bevorderd. Voor meer informatie over de Lichte vergunning, zie [Lichttoegangsniveau](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) in de [Overzicht van toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artikel.
 
 >[!NOTE]
 >
->Zowel de Workfront-beheerder als de gebruiker ontvangen een e-mailbericht over deze upgrade.
+>De Workfront-beheerder ontvangt een e-mailbericht over deze upgrade.
 
-<!-- 
-## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
+## Het aantal beslissingen voor een gebruiker weergeven
+
+U kunt het aantal beslissingen voor een gebruiker weergeven in het gedeelte Gebruikers van Workfront. Zie voor meer informatie [Het aantal beslissingen voor alle gebruikers weergeven](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

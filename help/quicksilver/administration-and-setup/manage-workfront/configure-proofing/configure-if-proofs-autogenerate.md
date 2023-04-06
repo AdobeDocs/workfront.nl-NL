@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Configureer of er automatisch proefdrukken worden gegenereerd
 description: U kunt configureren of het systeem automatisch proefdrukken genereert wanneer gebruikers die u opgeeft documenten aan Workfront toevoegen. Deze instelling is standaard uitgeschakeld.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet het volgende hebben:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van verouderde licenties</a>*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 

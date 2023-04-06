@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 6e711f208d14bb8d1d4b57733a2327b46fa7969b
+source-git-commit: 2bc977f3d6ec6ca3e232da95d92c0e6bfcf706ef
 workflow-type: tm+mt
-source-wordcount: '12804'
+source-wordcount: '12860'
 ht-degree: 0%
 
 ---
@@ -412,15 +412,21 @@ ht-degree: 0%
          * [Aanmeldingsgegevens van gebruikers weergeven](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * Hoe de toegangsniveaus werken {#access-levels}
-         * [Hoe de toegangsniveaus werken](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Overzicht van toegangsniveaus](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Overzicht van licenties](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Toegangsniveaus en machtigingen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Toegang tot objecten per licentietype](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Hoe de toegangsniveaus werken](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Overzicht van toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Overzicht van licenties](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Toegang tot objecten en gebieden per licentietype](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Beschikbare functionaliteit voor elk objecttype](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * Hoe de niveaus van de erfenistoegang werken {#legacy-access-levels}
+         * [Hoe de toegang tot erfenisniveaus werkt](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Overzicht van verouderde toegangsniveaus](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Overzicht van verouderde licenties](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Verouderde toegangsniveaus en machtigingen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Oudere toegang tot objecten op licentietype](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [Functionaliteit voor elk objecttype](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Configureerbare toegang voor elk objecttype](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Ingebouwde toegangsniveaus](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Toegangsniveaus en licenties voor gebruikers weergeven](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [Configureerbare oudere toegang voor elk objecttype](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Ingebouwde verouderde toegangsniveaus](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Verouderde toegangsniveaus en licenties voor gebruikers weergeven](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Toegang tot Workfront configureren {#configure-access}
          * [Toegang configureren](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Aangepaste toegangsniveaus maken of wijzigen](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1803,6 +1809,9 @@ ht-degree: 0%
          * [Het veld Profiel voor proefdrukmachtiging in bulk bewerken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Delen van proefdrukken via openbare URL of insluitcode uitschakelen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Veelgestelde vragen: proefdrukken in Adobe Workfront - VS naar EMEA migratie](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+   * Tips, trucs en probleemoplossing voor goedkeuringen {#ttt-approvals}
+      * [Tips, trucs en probleemoplossing voor goedkeuringen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Het aantal beslissingen voor alle gebruikers weergeven](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
    * [Timesheets](timesheets/timesheets-all.md)
    * Details van tijdsplaat {#details}

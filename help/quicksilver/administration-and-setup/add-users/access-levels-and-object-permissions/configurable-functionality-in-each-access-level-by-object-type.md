@@ -1,26 +1,26 @@
 ---
-title: Configureerbare toegang tot functionaliteit voor elk objecttype
-description: Dit artikel verklaart wat u als beheerder van Adobe Workfront voor elk objecten type, op elk toegangsniveau kunt toestaan. Het verklaart ook wat de standaardconfiguratie voor elk type van toegangsniveau is.
-author: Caroline
+title: Configureerbare oudere toegang tot functionaliteit voor elk objecttype
+description: Dit artikel verklaart wat u als beheerder van Adobe Workfront voor elk objecten type, in elk erfenistoegangsniveau kunt toestaan. Het verklaart ook wat de standaardconfiguratie voor elk type van erfenistoegangsniveau is.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3456'
 ht-degree: 0%
 
 ---
 
-# Configureerbare toegang tot functionaliteit voor elk objecttype
+# Configureerbare oudere toegang tot functionaliteit voor elk objecttype
 
-Dit artikel verklaart wat u als beheerder van Adobe Workfront voor elk objecten type, op elk toegangsniveau kunt toestaan. Het verklaart ook wat de standaardconfiguratie voor elk type van toegangsniveau is.
+Dit artikel verklaart wat u als beheerder van Adobe Workfront voor elk objecten type, in elk erfenistoegangsniveau kunt toestaan. Het verklaart ook wat de standaardconfiguratie voor elk type van erfenistoegangsniveau is.
 
 Voor informatie over alle functionaliteit beschikbaar voor een objecten type in elk toegangsniveau, zie [Beschikbare functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projecten
 
-In elk toegangsniveau, kunt u de volgende opties voor projecten vormen:
+In elk niveau van de erfenistoegang, kunt u de volgende opties voor projecten vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ In elk toegangsniveau, kunt u de volgende opties voor projecten vormen:
 
 ## Taken
 
-In elk toegangsniveau, kunt u de volgende opties voor taken vormen:
+In elk erfenistoegangsniveau, kunt u de volgende opties voor taken vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ In elk toegangsniveau, kunt u de volgende opties voor taken vormen:
 
 ## Problemen
 
-In elk toegangsniveau, kunt u de volgende opties voor kwesties vormen:
+In elk erfenistoegangsniveau, kunt u de volgende opties voor kwesties vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ In elk toegangsniveau, kunt u de volgende opties voor kwesties vormen:
 
 ## Portfolio
 
-In elk toegangsniveau, kunt u de volgende opties voor portefeuilles vormen:
+In elk niveau van de erfenistoegang, kunt u de volgende opties voor portefeuilles vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ In elk toegangsniveau, kunt u de volgende opties voor portefeuilles vormen:
 
 ## Programma&#39;s
 
-In elk toegangsniveau, kunt u de volgende opties voor programma&#39;s vormen:
+In elk erfenistoegangsniveau, kunt u de volgende opties voor programma&#39;s vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ In elk toegangsniveau, kunt u de volgende opties voor programma&#39;s vormen:
 
 ## Rapporten, dashboards en kalenders
 
-In elk toegangsniveau, kunt u de volgende opties voor rapporten, dashboards, en kalenders vormen:
+In elk niveau van de erfenistoegang, kunt u de volgende opties voor rapporten, dashboards, en kalenders vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ In elk toegangsniveau, kunt u de volgende opties voor rapporten, dashboards, en 
 
 ## Filters, weergaven en groepen
 
-In elk toegangsniveau, kunt u de volgende opties voor filters, meningen, en groeperingen vormen:
+In elk ouder toegangsniveau, kunt u de volgende opties voor filters, meningen, en groeperingen vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ In elk toegangsniveau, kunt u de volgende opties voor filters, meningen, en groe
 
 ## Documenten
 
-In elk toegangsniveau, kunt u de volgende opties voor documenten vormen:
+In elk ouder toegangsniveau, kunt u de volgende opties voor documenten vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ In elk toegangsniveau, kunt u de volgende opties voor documenten vormen:
 
 ## Gebruikers
 
-In elk toegangsniveau, kunt u de volgende opties voor gebruikers vormen:
+In elk erfenistoegangsniveau, kunt u de volgende opties voor gebruikers vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ In elk toegangsniveau, kunt u de volgende opties voor gebruikers vormen:
 
 ## Teams
 
-In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
+In elk erfenistoegangsniveau, kunt u de volgende opties voor teams vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
 
 ## Sjablonen
 
-In elk toegangsniveau, kunt u de volgende opties voor malplaatjes vormen:
+In elk erfenistoegangsniveau, kunt u de volgende opties voor malplaatjes vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ In elk toegangsniveau, kunt u de volgende opties voor malplaatjes vormen:
 
 ## Financiële gegevens
 
-In elk toegangsniveau, kunt u de volgende opties voor financiële gegevens vormen:
+In elk niveau van de erfenistoegang, kunt u de volgende opties voor financiële gegevens vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ In elk toegangsniveau, kunt u de volgende opties voor financiële gegevens vorme
 
 ## Bronbeheer
 
-In elk toegangsniveau, kunt u de volgende opties voor het Beheer van het Middel vormen:
+In elk erfenistoegangsniveau, kunt u de volgende opties voor het Beheer van het Middel vormen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ In elk toegangsniveau, kunt u de volgende opties voor het Beheer van het Middel 
 
 ## Scenario Planner, gebied
 
-De standaardinstelling voor alle toegangsniveaus is Geen toegang. Een Workfront-beheerder kan dit wijzigen in Toegang weergeven of bewerken voor elke Planner, Worker en Reviewer.
+De standaardinstelling voor alle oudere toegangsniveaus is Geen toegang. Een Workfront-beheerder kan dit wijzigen in Toegang weergeven of bewerken voor elke Planner, Worker en Reviewer.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Gebied Workfront-doelen
 
-Alle zes van de standaardtoegangsniveaus (en alle 4 van de licentietypen) kunnen de Doelen van Workfront uitgeven en bekijken.
+Alle zes van de standaard oudere toegangsniveaus (en alle vier de licentietypen) kunnen Workfront-doelen bewerken en weergeven.
 
 Bewerken is de standaardoptie.
