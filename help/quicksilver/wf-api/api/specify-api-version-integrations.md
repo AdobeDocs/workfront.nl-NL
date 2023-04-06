@@ -6,18 +6,16 @@ description: Geef een API-versie op in uw integratie
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Een API-versie opgeven in uw integratie
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
-
-Alle Adobe Workfront URI&#39;s moeten naar een specifieke versie van de API verwijzen na het gedeelte &quot;attask/api&quot; van de URI. In het volgende voorbeeld wordt versie 15.0 aangeroepen:
+Alle Adobe Workfront URI&#39;s moeten verwijzen naar een specifieke versie van de API na het gedeelte &quot;attask/api&quot; van de URI. In het volgende voorbeeld wordt versie 15.0 aangeroepen:
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -31,11 +29,9 @@ Zie voor meer informatie over het schema voor het afbreken en afbreken van de re
 
 >[!IMPORTANT]
 >
->* Na de release 23.2 wordt de standaardversie van de API ingesteld op de meest recente versie. Voor elke API-aanroep zonder de opgegeven versie wordt de standaardversie gebruikt. Elke keer dat Workfront een nieuwe versie van de API loslaat, wordt de standaardversie bijgewerkt naar de nieuwste versie. Daarom moeten, nadat een nieuwe versie van de Workfront API is uitgebracht, alle API-aanroepen die de standaardversie gebruiken, worden gecontroleerd om ervoor te zorgen dat de functionaliteit nog steeds wordt ondersteund.
+>* De standaardversie van de API wordt ingesteld op de meest recente versie. Voor elke API-aanroep zonder de opgegeven versie wordt de standaardversie gebruikt. Elke keer dat Workfront een nieuwe versie van de API loslaat, wordt de standaardversie bijgewerkt naar de nieuwste versie. **Daarom moeten, nadat een nieuwe versie van de Workfront API is uitgebracht, alle API-aanroepen die de standaardversie gebruiken, worden gecontroleerd om ervoor te zorgen dat de functionaliteit nog steeds wordt ondersteund.**
 >
 >* Als uw organisatie momenteel de standaard-API gebruikt, heeft uw Workfront-beheerder een bericht van het Aankondigingscentrum ontvangen met verdere instructies betreffende de standaard-API.
->
->* <span class="preview">De standaard-API in de voorvertoningsomgeving is ingesteld op de meest recente versie. De standaard-API in de productieomgeving wordt ingesteld op de meest recente versie na de release van 23.2 (april 2023)</span>.
 >
 >Ga voor de meest recente versie van de API naar [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
 
