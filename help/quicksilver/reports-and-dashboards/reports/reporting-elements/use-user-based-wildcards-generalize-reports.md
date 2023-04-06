@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Gebruik op gebruiker gebaseerde jokertekens om rapporten te generaliseren
 description: U kunt een rapport generaliseren door vervangingen in plaats van specifieke informatie te gebruiken wanneer het bouwen van bepaalde rapporteringselementen.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%

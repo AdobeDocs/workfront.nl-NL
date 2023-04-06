@@ -4,19 +4,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Overzicht van filters in Adobe Workfront
 description: U kunt filters in Adobe Workfront gebruiken om de hoeveelheid informatie te verminderen u op het scherm in lijsten, rapporten, of andere gebieden toont.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
 
 # Overzicht van filters in Adobe Workfront
-
-<span class="preview">In de voorvertoningsomgeving is de verbeterde filterervaring (voorheen &quot;bèta&quot; genoemd) nu de standaardinstelling. Deze verbeterde filters zijn nu &#39;standaard&#39; en de oudere filterervaring is &#39;verouderd&#39;.</span>
 
 U kunt filters in Adobe Workfront gebruiken om de hoeveelheid informatie te verminderen u op het scherm in lijsten, rapporten, of andere gebieden toont.
 
@@ -169,11 +167,11 @@ Wanneer u een filter bouwt, verbindt u veelvoudige elementen samen die omhoog fi
 
 Dit is een voorbeeld van de standaardfilterconstructor:
 
-![Standaardfilterconstructor](assets/filter-statements-with-or-and-and-nwe.png)
+![Standaardfilterconstructor](assets/filter-sample-with-or.png)
 
-Dit is een voorbeeld van de bètafilterbuilder:
+Dit is een voorbeeld van de oudere filterconstructor:
 
-![Bètafilterbuilder](assets/filter-sample-with-or.png)
+![Verouderde filterconstructor](assets/filter-statements-with-or-and-and-nwe.png)
 
 Een filter bevat de volgende elementen:
 
@@ -233,13 +231,13 @@ Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificator
 
 ## Filters maken in de builderinterface
 
-U kunt op de volgende manieren een filter maken met de standaard- of bètabuilderinterface:
+U kunt op de volgende manieren een filter maken met de standaard- of oudere builderinterface:
 
 * Van kras
 * Een bestaand filter wijzigen
 * Een bestaand filter kopiëren
 
-Voor informatie over het creëren van een filter gebruikend de standaard of bèta bouwer interface, zie [Filters maken of bewerken in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Voor informatie over het creëren van een filter gebruikend de standaard of erfenis bouwerinterface, zie [Filters maken of bewerken in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Filters maken met de interface voor tekstmodus
 

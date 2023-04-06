@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variabelen van jokerfilter
 description: Door vervangingen in filters te gebruiken, kunt u een generische gebruiker of een datum in plaats van een specifieke gebruiker of een datum van verwijzingen voorzien. Op deze manier zijn de elementen die u maakt dynamisch en veranderen de resultaten afhankelijk van de context waarin ze worden gebruikt.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -94,21 +94,21 @@ U kunt jokertekens combineren met de volgende elementen om verschillende tijdspe
 | **m** | maand |
 | **y** | jaar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Kwalificaties** |  |
 |---|---|
 | **b** | begin van de week (zondag) |
 | **e** | einde van de week (zaterdag) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Operatoren** |  |
 |---|---|
 | **+** | waarde toevoegen aan jokertekenwaarde |
 | **-** | Waarde van jokerteken aftrekken van waarde |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Bijvoorbeeld de jokerteken `$$TODAYb+2w` verwijst naar &quot;2 weken vanaf het begin van deze week&quot;. Jokerteken *`$$NOW+2h` verwijst naar &quot;over 2 uur.&quot;
 

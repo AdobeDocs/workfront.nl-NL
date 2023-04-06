@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Overzicht van weergaven in Adobe Workfront
 description: U kunt het type gegevens aanpassen dat u in een lijst of rapport weergeeft door de weergave van de lijst of het rapport te beheren. U kunt objecten en de bijbehorende kenmerken in een weergave weergeven.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%

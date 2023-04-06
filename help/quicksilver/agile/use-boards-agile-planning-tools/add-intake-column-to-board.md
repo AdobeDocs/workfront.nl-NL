@@ -7,7 +7,7 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -77,7 +77,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Dit voorbeeld toont een filter voor taken van een specifiek project die in de status van [!UICONTROL New] of [!UICONTROL In Progress]en worden aan mij toegewezen.
 
-   Zie de sectie &quot;Een filter maken of bewerken in de bètabuilder&quot; in het artikel voor meer informatie over het maken van een filter [Filters maken of bewerken in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Zie de sectie &quot;Een filter maken of bewerken in de standaardbuilder&quot; in het artikel voor meer informatie over het maken van een filter [Filters maken of bewerken in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Geef het filter een naam en klik op **[!UICONTROL Save]**.
 

@@ -3,19 +3,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filters maken of bewerken in Adobe Workfront
 description: U kunt de hoeveelheid informatie beperken die u op het scherm weergeeft in een lijst met items met een filter. U kunt bepaalde criteria definiëren op basis van bepaalde gegevens over een object en alleen de objecten weergeven die aan deze criteria voldoen.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2380'
 ht-degree: 0%
 
 ---
 
 # Filters maken of bewerken in Adobe Workfront
-
-<span class="preview">In de voorvertoningsomgeving is de verbeterde filterervaring (voorheen &quot;bèta&quot; genoemd) nu de standaardinstelling. Deze verbeterde filters zijn nu &#39;standaard&#39; en de oudere filterervaring is &#39;verouderd&#39;.</span>
 
 U kunt de hoeveelheid informatie beperken die u op het scherm weergeeft in een lijst met items met een filter. U kunt bepaalde criteria definiëren op basis van bepaalde gegevens over een object en alleen de objecten weergeven die aan deze criteria voldoen.
 
@@ -76,11 +74,6 @@ U kunt filters tot stand brengen gebruikend de types van filterbouwers die in de
 </tr>
 <tr>
 <td>Standard builder</td>
-<td>Alle objecten </td>
-<td>Lijsten en rapporten</td>
-</tr>
-<tr>
-<td>Beta builder</td>
 <td>
 <ul>
 <li> <p>Projecten</p> </li>
@@ -100,149 +93,75 @@ U kunt filters tot stand brengen gebruikend de types van filterbouwers die in de
 <ul>
 <li> <p>De lijst van Projecten in de Planner van het Scenario</p> <p>Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u <a href="../../../scenario-planner/scenario-planner-overview.md">Overzicht van de functie Scenario Planner</a>. </p> </li>
 </ul>
-<p>OPMERKING: Bètabuilders voor filters zijn niet beschikbaar in rapporten.
+<p>OPMERKING: Standaardbuilders voor filters zijn niet beschikbaar in rapporten.
 </td>
+</tr>
+<tr>
+<td>Legacy builder</td>
+<td>Alle objecten </td>
+<td>Lijsten en rapporten</td>
 </tr>
 </tbody>
 </table>
 
 Voor informatie over Workfront-objecten raadpleegt u [Objecten in Adobe Workfront begrijpen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Een filter maken of bewerken in de standaardbuilder {#create-filter-in-standard-builder}
-
-U kunt filters in lijsten en rapporten op de volgende manieren tot stand brengen:
-
-* Van kras
-* Een bestaand filter bewerken en opslaan als een nieuw filter
-
-Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een geheel nieuw filter maakt of een bestaand filter gebruikt.
-
-1. Ga naar een lijst of een rapport die het filter bevat dat u wilt aanpassen.
-1. Klik op de knop **Filter** pictogram ![Filterpictogram](assets/filter-nwepng.png).
-
-   >[!TIP]
-   >
-   >De rapportmaker moet ervoor zorgen dat filters worden bewerkt om de vervolgkeuzelijst Filter in een rapport te kunnen bekijken. Het filter Standaard rapporteren wordt standaard toegepast op een rapport. De filter Standaard van het Rapport kan worden aangepast slechts wanneer u het rapport uitgeeft.
-
-   ![Vervolgkeuzelijst Filter](assets/filter-drop-down-expanded-nwe.png)
-
-1. Klikken **Nieuw filter** boven aan de lijst met filters
-
-   of
-
-   Houd de muisaanwijzer boven het filter dat u wilt wijzigen en klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
-
-   De builder voor het aanpassen van de filterlanceringen.
-
-1. Voer een van de volgende handelingen uit:
-
-   * Wijzig bestaande filterregels door op de bestaande regel te klikken en een nieuwe optie te selecteren.
-   * Filterregel toevoegen door te klikken **Een andere filterregel toevoegen** typt u eerst de naam van de optie waaraan u een regel wilt toevoegen in het dialoogvenster **Typ de veldnaam** en klikt u erop wanneer het wordt weergegeven in de vervolgkeuzelijst.
-
-      Velden die zijn gekoppeld aan het object van het filter worden weergegeven in het dialoogvenster **Typ de veldnaam** doos.
-
-   * Klikken **EN** of **OF** wanneer u een nieuwe filterregel toevoegt.\
-      Wanneer het toevoegen van filterregels, gebruik de filterbepalingen om de voorwaarde van uw filter te vestigen. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-      >[!NOTE]
-      >
-      >Wanneer u een groep EN verklaringen door veelvoudige OF verklaringen verbindt, moet u de gebieden herhalen die niet tussen OF verklaringen voor elke groep verklaringen veranderen.
-      >
-      >![Aangesloten filterinstructies](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >Wanneer u een filter voor taken bouwt die het woord &quot;marketing&quot;bevatten en in projecten met een status van Huidige of Planning zijn, moet u de volgende filterregels hebben:
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >Alhoewel taak: De naam bevat &quot;marketing&quot;verandert niet tussen de twee EN filtergroepen, het moet in de tweede groep worden herhaald.
-
-   * Verwijder een bestaande filterregel door op het pictogram X te klikken.
-
-1. (Optioneel) Klik op **Overschakelen naar tekstmodus** om een filter toe te voegen met de interface Tekstmodus.
-
-   Zie voor meer informatie over het maken van een filter met de interface van de tekstmodus [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
-
-1. Klikken **Filter opslaan** om een nieuw filter te maken of het geselecteerde filter te vervangen door uw wijzigingen.
-
-   of
-
-   Klikken **Opslaan als nieuw filter** om een nieuw filter te maken op basis van het geselecteerde filter.
-
-   Het nieuwe filter wordt weergegeven in de lijst met filters en wordt automatisch toegepast op de lijst of het rapport dat u hebt geselecteerd.
-
-1. (Optioneel) Voer een van de volgende handelingen uit:
-
-   * U kunt filters delen die u met andere gebruikers maakt, of deze in het hele systeem beschikbaar maken. Zie voor meer informatie [Een filter, weergave of groep delen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Verwijder filters die u niet meer in de lijst wilt weergeven. Zie voor meer informatie [Filters, weergaven en groepen verwijderen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-## Een filter maken of bewerken in de bètaversie
-
 Houd rekening met het volgende wanneer u filters maakt met de verschillende interfaces:
 
-* U kunt de bètabuilder vinden op dezelfde plaatsen als de standaardfilterinterface voor de gebieden die in de bovenstaande tabel worden vermeld.
-* U kunt heen en weer schakelen tussen de standaard en de bètabuilderinterface, waar de bètaoptie beschikbaar is.
-* Nadat u de bètabuilder in één gebied hebt ingeschakeld, is dit de standaardervaring voor alle gebieden waar deze beschikbaar is. Bijvoorbeeld, als u bèta bouwer in een projectlijst toelaat, is het de standaardervaring voor het bouwen van taak en het uitgeven van filters in lijsten eveneens.
-* U kunt op de volgende manieren filters maken met de bètabuilderinterface:
+* U kunt de standaardbuilder vinden op dezelfde plaatsen als waar u de oudere filterinterface vindt voor de gebieden die in de bovenstaande tabel worden vermeld.
+* De standaard builder is de standaardeigenschap voor alle gebieden waar het beschikbaar is. Als u wilt overschakelen naar de verouderde filterontwikkelaar, klikt u op de knop **Meer** menu naast [!UICONTROL **Filters**] en selecteert u [!UICONTROL **Terug naar Oudere filters**].
 
-   * Van kras
-   * Een bestaand filter bewerken
-   * Een bestaand filter dupliceren
-   * Een bestaand filter dupliceren, bewerken en opslaan als een nieuw filter
+   ![Terug naar Oudere filters](assets/use-legacy-filters.png)
 
-* Opgeslagen filters zijn beschikbaar in beide builders, ongeacht welke ervaring u gebruikte om ze oorspronkelijk te bouwen. Als u bijvoorbeeld een filter hebt gemaakt met de standaardbuilder, kunt u dit ook vinden en wijzigen in de bètabuilderinterface.
+* Opgeslagen filters zijn beschikbaar in beide builders, ongeacht welke ervaring u gebruikte om ze oorspronkelijk te bouwen. Als u bijvoorbeeld een filter hebt gemaakt met de verouderde builder, kunt u dit ook vinden en wijzigen in de standaardbuilderinterface.
 
    >[!TIP]
    >
-   >Een filter &quot;Alle&quot; wordt niet opgenomen in de bètabuilder omdat alle lijstitems worden weergegeven wanneer er geen filters worden toegepast. Klikken **Alles wissen** rechtsboven in de builder om actieve filters te wissen en alle items weer te geven. Indien **Alles wissen** worden grijs weergegeven, worden er geen filters toegepast.
+   >Een filter &quot;Alle&quot; wordt niet opgenomen in de standaardbuilder omdat alle lijstitems worden weergegeven wanneer er geen filters worden toegepast. Klikken [!UICONTROL **Alles wissen**] rechtsboven in de builder om actieve filters te wissen en alle items weer te geven. Indien [!UICONTROL **Alles wissen**] worden grijs weergegeven, worden er geen filters toegepast.
 
-* De standaard en bèta bouwers hebben een lichtjes verschillende syntaxis wanneer het bouwen van veelvoudige-verklaringsfilters die EN en OF exploitanten combineren. Hierdoor kunnen deze filters anders worden weergegeven wanneer u van de ene naar de andere builder schakelt.
+* De standaard en erfenisbouwers hebben een lichtjes verschillende syntaxis wanneer het bouwen van veelvoudige-instructiefilters die EN en OF exploitanten combineren. Hierdoor kunnen deze filters anders worden weergegeven wanneer u van de ene naar de andere builder schakelt.
 
    >[!INFO]
    >
    >Het volgende scenario bestaat:
    >
-   >1. Gebruik de bètabuilder om een filter te maken met de volgende syntaxis:
+   >1. Met de standaardbuilder kunt u een filter maken met de volgende syntaxis:
    >
    >   `(A OR B) AND C`
    >
-   >1. Ga terug naar de standaardbuilder en bewerk het filter met de syntaxis van de standaardbuilder, zoals beschreven in het dialoogvenster [Een filter maken of bewerken in de standaardbuilder](#create-filter-in-standard-builder) in dit artikel. De syntaxis voor de standaard builder geeft de filterinstructies als volgt weer:
+   >1. Ga naar de verouderde builder en bewerk het filter met de syntaxis van de verouderde builder, zoals beschreven in de [Een filter maken of bewerken in de verouderde builder](#create-filter-in-legacy-builder) in dit artikel. In de syntaxis voor de verouderde builder worden de filterinstructies als volgt weergegeven:
    >
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    >
-   >1. Wijzig het filter in de standaardinterface.
-   >1. Schakel terug naar de bètabuilder. De filterinstructie wordt weergegeven volgens de logica die wordt ondersteund in de standaardbuilder, zoals hierboven beschreven.
+   >1. Wijzig het filter in de oudere interface.
+   >1. Ga terug naar de standaardbuilder. De filterinstructie wordt weergegeven volgens de logica die wordt ondersteund in de verouderde builder, zoals hierboven beschreven.
 
    >
-   >   Het filter wordt als volgt weergegeven in de bètabuilderinterface:
+   >   Het filter wordt als volgt weergegeven in de standaardbuilderinterface:
    >  
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    > 
-   >   Dit gebeurt omdat het filter is gewijzigd in de standaardinterface.
+   >   Dit gebeurt omdat het filter is gewijzigd in de oudere interface.
 
-Maak een filter met de bètabuilderinterface:
+## Een filter maken of bewerken in de standaardbuilder
+
+U kunt op de volgende manieren filters maken met de standaardbuilderinterface:
+
+* Van kras
+* Een bestaand filter bewerken
+* Een bestaand filter dupliceren
+* Een bestaand filter dupliceren, bewerken en opslaan als een nieuw filter
+
+Maak een filter met de standaardbuilderinterface:
 
 1. Ga naar een lijst waar u een filter wilt tot stand brengen of die het filter bevat u wilt aanpassen.
-1. Klik op de knop **Filter** pictogram ![Filterpictogram](assets/filter-nwepng.png)en stelt vervolgens de **Bètainstelling** ![Bètainstelling](assets/beta-toggle-white-on-existing-filters.png) om toegang te krijgen tot de bètabuilder. Deze optie is standaard uitgeschakeld.
+1. Klik op de knop **Filter** pictogram ![Filterpictogram](assets/filter-nwepng.png) om de builderinterface te openen.
 
-   Ga vervolgens, indien nodig, akkoord met de bètaovereenkomst. U hoeft het maar één keer overeen te komen en de bètabuilder blijft ingeschakeld.
-
-   Hiermee opent u de interface van de bètafilterbuilder.
-
-   >[!TIP]
-   >
-   >De header van de interface van de filterbuilder verandert in blauw wanneer u de bètabuilder inschakelt. Nadat u de bètabuilderinterface hebt ingeschakeld, houdt Workfront deze ingeschakeld voor alle gebieden waar deze beschikbaar is.
-
-   ![Bètafilterbuilder](assets/new-filters-all-filter-types.png)
+   ![Standaardfilterconstructor](assets/new-filters-all-filter-types.png)
 
 1. Bekijk de volgende lijsten met filters:
 
@@ -312,7 +231,7 @@ Maak een filter met de bètabuilderinterface:
 
    >[!TIP]
    >
-   >Terwijl u het filter maakt, worden de resultaten direct in de lijst weergegeven. Als het filterdeelvenster de lijst bedekt, kunt u deze sluiten om de weergave te zien. De ingevoerde gegevens blijven in de bètaversie staan wanneer u het deelvenster opnieuw opent.
+   >Terwijl u het filter maakt, worden de resultaten direct in de lijst weergegeven. Als het filterdeelvenster de lijst bedekt, kunt u deze sluiten om de weergave te zien. De informatie die u hebt ingevoerd, blijft in de builder staan wanneer u het deelvenster opnieuw opent.
 
 1. Typ de waarde van een veld waarop u wilt filteren. Typ bijvoorbeeld de naam van een uitgave als u wilt filteren op `Issue:Name`. Selecteer de waarde wanneer deze in de lijst wordt weergegeven.
 
@@ -335,7 +254,7 @@ Maak een filter met de bètabuilderinterface:
 
    >[!INFO]
    >
-   >Wanneer u filtert voor project dat &quot;marketing&quot;in de naam bevat die of niet volledig zijn en niet op Greep zijn, kunt u de volgende veelvoudige filtergroepen gebruiken:
+   >Wanneer u filtert voor projecten die &quot;marketing&quot;in de naam bevatten die of niet volledig zijn en niet op greep zijn, kunt u de volgende veelvoudige filtergroepen gebruiken:
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -351,15 +270,15 @@ Maak een filter met de bètabuilderinterface:
 
    >[!TIP]
    >
-   >We raden u aan zoveel mogelijk van het filter te maken met de bètabuilderinterface en alleen tekstmodus te gebruiken wanneer u wijzigingen moet aanbrengen in het filter die alleen worden ondersteund in de tekstmodus.
+   >We raden u aan zoveel mogelijk van het filter te maken met de standaardbuilderinterface en alleen tekstmodus te gebruiken wanneer u wijzigingen moet aanbrengen in het filter die alleen worden ondersteund in de tekstmodus.
 
    Zie voor meer informatie over het maken van een filter met de interface van de tekstmodus [Een filter bewerken in de tekstmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klikken **Tekstmodus afsluiten** om op de bèta builder interface terug te komen.
+1. Klikken **Tekstmodus afsluiten** om aan de standaardbouwerinterface terug te keren.
 
    >[!WARNING]
    >
-   >Sommige instructies in de tekstmodus worden niet ondersteund in de bètaversie of de standaardinterface. Als u de tekstmodus afsluit wanneer u deze typen instructies hebt gemaakt, wordt mogelijk een waarschuwingsbericht gegenereerd.
+   >Sommige instructies in de tekstmodus worden niet ondersteund in de standaardbuilder of de oudere interface. Als u de tekstmodus afsluit wanneer u deze typen instructies hebt gemaakt, wordt mogelijk een waarschuwingsbericht gegenereerd.
 
 1. (Optioneel) Klik op **Toepassen** om het filter op de lijst toe te passen en de resultaten te zien.
 
@@ -411,4 +330,78 @@ Maak een filter met de bètabuilderinterface:
    * Deel het filter met anderen of maak het systeembreed beschikbaar. Zie voor meer informatie [Een filter, weergave of groep delen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * Verwijder het filter als het niet meer geldig is of als het niet meer gedupliceerd is. U kunt alleen filters verwijderen die u bezit. U kunt filters verwijderen die met u zijn gedeeld. Zie voor meer informatie [Filters, weergaven en groepen verwijderen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+## Een filter maken of bewerken in de verouderde builder {#create-filter-in-legacy-builder}
+
+U kunt oudere filters op de volgende manieren maken in lijsten en rapporten:
+
+* Van kras
+* Een bestaand filter bewerken en opslaan als een nieuw filter
+
+Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een geheel nieuw filter maakt of een bestaand filter gebruikt.
+
+1. Ga naar een lijst of een rapport die het filter bevat dat u wilt aanpassen.
+1. Klik op de knop **Filter** pictogram ![Filterpictogram](assets/filter-nwepng.png).
+
+   >[!TIP]
+   >
+   >De rapportmaker moet ervoor zorgen dat filters worden bewerkt om de vervolgkeuzelijst Filter in een rapport te kunnen bekijken. Het filter Standaard rapporteren wordt standaard toegepast op een rapport. De filter Standaard van het Rapport kan worden aangepast slechts wanneer u het rapport uitgeeft.
+
+   ![Vervolgkeuzelijst Filter](assets/filter-drop-down-expanded-nwe.png)
+
+1. Klikken **Nieuw filter** boven aan de lijst met filters.
+
+   of
+
+   Houd de muisaanwijzer boven het filter dat u wilt wijzigen en klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
+
+   De builder voor het aanpassen van de filterlanceringen.
+
+1. Voer een van de volgende handelingen uit:
+
+   * Wijzig bestaande filterregels door op de bestaande regel te klikken en een nieuwe optie te selecteren.
+   * Filterregel toevoegen door te klikken **Een andere filterregel toevoegen** typt u eerst de naam van de optie waaraan u een regel wilt toevoegen in het dialoogvenster **Typ de veldnaam** en klikt u erop wanneer het wordt weergegeven in de vervolgkeuzelijst.
+
+      Velden die zijn gekoppeld aan het object van het filter worden weergegeven in het dialoogvenster **Typ de veldnaam** doos.
+
+   * Klikken **EN** of **OF** wanneer u een nieuwe filterregel toevoegt.\
+      Wanneer het toevoegen van filterregels, gebruik de filterbepalingen om de voorwaarde van uw filter te vestigen. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+      >[!NOTE]
+      >
+      >Wanneer u een groep EN verklaringen door veelvoudige OF verklaringen verbindt, moet u de gebieden herhalen die niet tussen OF verklaringen voor elke groep verklaringen veranderen.
+      >
+      >![Aangesloten filterinstructies](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+      >
+      >Wanneer u een filter voor taken bouwt die het woord &quot;marketing&quot;bevatten en in projecten met een status van Huidige of Planning zijn, moet u de volgende filterregels hebben:
+      >
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Current`
+      >`OR`
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Planning`
+      >
+      >Alhoewel taak: De naam bevat &quot;marketing&quot;verandert niet tussen de twee EN filtergroepen, het moet in de tweede groep worden herhaald.
+
+   * Verwijder een bestaande filterregel door op het pictogram X te klikken.
+
+1. (Optioneel) Klik op **Overschakelen naar tekstmodus** om een filter toe te voegen met de interface Tekstmodus.
+
+   Zie voor meer informatie over het maken van een filter met de interface van de tekstmodus [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+
+1. Klikken **Filter opslaan** om een nieuw filter te maken of het geselecteerde filter te vervangen door uw wijzigingen.
+
+   of
+
+   Klikken **Opslaan als nieuw filter** om een nieuw filter te maken op basis van het geselecteerde filter.
+
+   Het nieuwe filter wordt weergegeven in de lijst met filters en wordt automatisch toegepast op de lijst of het rapport dat u hebt geselecteerd.
+
+1. (Optioneel) Voer een van de volgende handelingen uit:
+
+   * U kunt filters delen die u met andere gebruikers maakt, of deze in het hele systeem beschikbaar maken. Zie voor meer informatie [Een filter, weergave of groep delen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Verwijder filters die u niet meer in de lijst wilt weergeven. Zie voor meer informatie [Filters, weergaven en groepen verwijderen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
 
