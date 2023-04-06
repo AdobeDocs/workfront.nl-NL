@@ -4,7 +4,7 @@ description: Updates weergeven en voelen tijdens het tijdsbestek van de release 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 23.2 raad
 
 >[!NOTE]
 >
->Voorvertoning release: 4 april 2023; Planned Production release: 18 april 2023
+>Voorvertoning release: 4 april 2023; Planned Production release: 20 april 2023
 
 We hebben de lijst Concepten op het gebied van verzoeken bijgewerkt om deze in overeenstemming te brengen met recentere lijsten in Workfront.
 Enkele updates omvatten het volgende:

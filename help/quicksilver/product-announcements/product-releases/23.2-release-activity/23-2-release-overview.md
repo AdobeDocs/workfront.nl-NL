@@ -4,9 +4,9 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # 23.2 Overzicht van de release
 
-Deze pagina bevat informatie over functionaliteit die is opgenomen in de release 23.2 die gepland is voor de week van 3 april 2023.
-
-De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien de versie 23.2 zijn geplande versie van de Productie nadert.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 23.1. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.2 op 6 en 7 april 2023.
 
 Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaandelijkse Adobe Workfront-release voorbereiden](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen vanuit objectdetails toevoegen aan een Workfront-board of -werkstroom</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Taken en problemen vanuit objectdetails toevoegen aan een Workfront-board of -werkstroom</a></p>
                         <p>U kunt nu rechtstreeks vanuit de objectdetails bestaande taken of uitgaven toevoegen aan een Workfront-kaart of werkstroomkaartlijst. Om het even welke punten u aan een raad toevoegt zullen verbonden kaarten worden, en om het even welke punten die aan een werkstroom worden toegevoegd worden toegevoegd toegevoegd aan de kaartlijst als ongeplande kaarten.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -429,7 +427,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Canvasdashboards</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Canvasdashboards</a></p>
                         <p>Canvasdashboards zijn toegevoegd als werk-in-uitvoering eigenschap voor dashboards die in lay-outmalplaatjes kunnen worden toegelaten. Met Canvasdashboards kunnen de visualisaties van Canvas worden gecombineerd met bestaande rapporten, naast de nieuwe lay-outopties. Momenteel worden alleen lijstrapporten ondersteund, maar er worden meer opties toegevoegd als de ontwikkeling doorgaat.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -464,8 +462,8 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische aanmelding en kaartverzamelingen in de mobiele app</span></a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span>
-                        <p>Biometrische aanmelding is nu een optie voor een snellere aanmelding bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische aanmelding en kaartverzamelingen in de mobiele app</span></a>
+                        </span></a><p>Biometrische aanmelding is nu een optie voor een snellere aanmelding bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.</p>
                         <p>Borden-verzamelingen worden nu ook ondersteund in de mobiele app, zodat mobiele gebruikers verzamelingen kunnen bekijken waartoe ze toegang hebben in de desktopversie van hun lijst met mobiele borden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -537,7 +535,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Netto nieuwe klanten die aan Adobe Verenigde Ervaring moeten worden bezeten</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Netto nieuwe klanten die aan Adobe Verenigde Ervaring moeten worden bezeten</a></p>
                         <p>De Adobe Verenigde Ervaring omvat:
                         <ul>
                         <li>Eén aanmelding voor alle Adobe-toepassingen via Adobe Experience Cloud</li>
@@ -559,7 +557,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De kijker van het proef opent in een nieuw lusje voor gebruikers op de Verenigde Ervaring</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De kijker van het proef opent in een nieuw lusje voor gebruikers op de Verenigde Ervaring</a></p>
                         <p>De kijker van het proef opent nu in een nieuw lusje voor gebruikers op de Verenigde Ervaring.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ Er zijn momenteel geen Workfront Proof-updates beschikbaar. Dit gebied wordt bij
 
 Nieuwe functies die beschikbaar zijn in de Workfront Goals release met 23.2 release. Voor informatie over deze nieuwe functies die nu beschikbaar zijn in Voorbeeld, raadpleegt u [Adobe Workfront-doelen met de 23.2-release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API-versie 15
+### API-versie 16
 
-Voor API versie 15 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
+API versie 16 wordt vrijgegeven met de release 22.3. Voor API versie 16 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuw in API-versie 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Voor informatie over API-versies raadpleegt u [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

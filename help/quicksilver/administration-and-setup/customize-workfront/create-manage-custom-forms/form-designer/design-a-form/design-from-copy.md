@@ -7,7 +7,7 @@ description: U kunt een aangepast formulier ontwerpen op basis van een kopie met
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 4700e5650f6ef9de5291f36072db8706bade92ee
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Een formulier ontwerpen op basis van een kopie met de formulierontwerper
-
-{{highlighted-preview-article-level}}
 
 U kunt een nieuw aangepast formulier ontwerpen dat is gebaseerd op een bestaand formulier. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 

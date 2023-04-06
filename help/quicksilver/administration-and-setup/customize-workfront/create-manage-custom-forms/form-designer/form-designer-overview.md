@@ -7,7 +7,7 @@ description: U kunt een aangepast formulier ontwerpen dat gebruikers aan een Wor
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Overzicht van de formulierontwerper
-
-{{highlighted-preview-article-level}}
 
 Met de nieuwe formulierontwerper kunt u een aangepast formulier ontwerpen dat gebruikers aan een Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
 

@@ -7,7 +7,7 @@ description: U kunt een aangepast formulier ontwerpen met de formulierontwerper.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Een formulier ontwerpen met de formulierontwerper
-
-{{highlighted-preview-article-level}}
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
