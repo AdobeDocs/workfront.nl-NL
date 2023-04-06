@@ -5,21 +5,15 @@ title: Aanpassen welke velden worden weergegeven op een kaart
 description: U kunt aanpassen welke velden op een kaart worden weergegeven door een veld uit te schakelen zodat het niet wordt weergegeven op de volledige kaart of in de verkorte weergave, of door een veld te verbergen in de weergave van de verkorte kaart.
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
 
 # Aanpassen welke velden worden weergegeven op een kaart
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->Deze functie is alleen beschikbaar via de optie Aanmelden voor vroege functies [!DNL Workfront] [!UICONTROL Boards]. Zie voor meer informatie [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Standaard worden alle beschikbare velden op een kaart weergegeven, zowel in de volledige weergave wanneer de kaart is geopend als in de weergave Versmalde kaart op het bord. U kunt aanpassen welke velden worden weergegeven door:
 
@@ -71,13 +65,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Als u alle velden in beide weergaven wilt weergeven, klikt u op [!UICONTROL **Standaardwaarden van alle velden herstellen**].
 1. Klikken [!UICONTROL **Configuratie verbergen**] om het Configure paneel te sluiten.
 
-<div class="preview">
-
 ## Aangepaste velden toevoegen aan kaarten
+
+Aangepaste velden zijn beschikbaar op verbonden kaarten. Ze zijn alleen zichtbaar in de volledige kaartweergave, niet in de versmalde weergave op het bord.
 
 >[!NOTE]
 >
->Wanneer u een aangepast veld aan uw kaarten toevoegt, zijn de gegevens op de kaart alleen-lezen. Aangepaste velden zijn ook alleen beschikbaar op verbonden kaarten.
+>Wanneer u een aangepast veld aan uw kaarten toevoegt, zijn de gegevens op de kaart alleen-lezen.
 
 1. Een board openen en klikken [!UICONTROL **Configureren**] om het Configure paneel te openen.
 1. Uitbreiden [!UICONTROL **Kaarten**].
@@ -88,8 +82,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![Zoeken naar aangepast veld](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >De volgende veldtypen kunnen niet aan kaarten worden toegevoegd: Adobe XD, Image, PDF, Video.
+
 1. Selecteer de veldnaam.
+1. (Optioneel) Klik in het dialoogvenster **[!UICONTROL Field value]** om dit aangepaste veld te wijzigen in een ander veld.
+1. (Optioneel) Wijzig de **[!UICONTROL Field label]** aan de veldnaam die u op kaarten wilt weergeven.
+1. Als u alle gewenste wijzigingen hebt aangebracht, klikt u op [!UICONTROL **Veld opslaan**].
 
-   Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het aangepaste veld uitschakelen of verbergen na de stappen in het dialoogvenster [Kaarten configureren](customize-fields-on-card.md#configure-cards) of uit het bord te verwijderen.
+   ![Waarde en label van aangepast veld](assets/save-custom-field-value-label.png)
 
-</div>
+   Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het aangepaste veld uitschakelen in het kader van de stappen in het dialoogvenster [Kaarten configureren](customize-fields-on-card.md#configure-cards) van alle kaarten te verwijderen.
+
