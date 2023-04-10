@@ -6,9 +6,9 @@ title: Overzicht van ingebouwde Adobe Workfront-integratie
 description: U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de invoegtoepassing Adobe Creative Cloud gebruiken om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,20 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integreren [!DNL Workfront] opmerkingen en goedkeuringen met InDesign, Illustrator en Photoshop </li> 
-     <li>Downloaden/installeren vanaf Adobe Exchange of handmatig</li> 
-    </ul> </td> 
+     <li>Integreren [!DNL Workfront] opmerkingen en goedkeuringen met de volgende Adobe Creative Cloud-toepassingen: 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>Downloaden/installeren vanaf <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Zie voor meer informatie en instructies <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installeer de  [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
