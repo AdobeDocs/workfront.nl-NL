@@ -7,16 +7,16 @@ title: Adobe Workfront-integratiemethoden
 description: U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. U kunt al deze integraties gebruiken, afhankelijk van welke integratie het meest geschikt is voor een bepaalde taak.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront-integratiemethoden
 
-U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. U kunt al deze integraties gebruiken, afhankelijk van welke integratie het meest geschikt is voor een bepaalde taak.
+U kunt [!DNL Adobe Workfront] met toepassingen van derden en andere [!DNL Adobe] producten. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. U kunt al deze integraties gebruiken, afhankelijk van welke integratie het meest geschikt is voor een bepaalde taak.
 
 ## Ingebouwde integratie
 

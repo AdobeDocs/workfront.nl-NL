@@ -9,7 +9,7 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] integratie
 
-U kunt Adobe Workfront integreren met toepassingen van derden. Integraties kunnen het nut van Workfront uitbreiden en het aanpassen aan de behoeften van uw organisatie.
+U kunt Adobe Workfront integreren met toepassingen van derden en met andere toepassingen [!DNL Adobe] producten. Integraties kunnen het nut van Workfront uitbreiden en het aanpassen aan de behoeften van uw organisatie.
 
 De integratie voor [!DNL Workfront] vallen onder de volgende categorieën:
 

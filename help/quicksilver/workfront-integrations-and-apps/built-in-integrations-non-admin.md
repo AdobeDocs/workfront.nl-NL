@@ -6,16 +6,16 @@ title: Overzicht van ingebouwde Adobe Workfront-integratie
 description: U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de invoegtoepassing Adobe Creative Cloud gebruiken om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Overzicht van ingebouwde Adobe Workfront-integratie
 
-U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de invoegtoepassing Adobe Creative Cloud gebruiken om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
+U kunt [!DNL Adobe Workfront] met toepassingen van derden en andere [!DNL Adobe] producten. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve werknemer bent in de marketingindustrie, kunt u de opdracht [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] toepassingen om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
 
 Uw [!DNL Workfront] de beheerder moet ingebouwde integratie toelaten en vormen alvorens u hen kunt gebruiken. Als u wilt weten welke geïntegreerde integratie binnen uw organisatie wordt gebruikt, neemt u contact op met uw [!DNL Workfront] beheerder.
 
