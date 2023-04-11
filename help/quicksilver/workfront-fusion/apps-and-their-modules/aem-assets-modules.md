@@ -10,9 +10,9 @@ description: Met de [!DNL Adobe Experience Manager Assets] connector voor [!DNL 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
 
       Deze configuratie vereist informatie van [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       Voor deze configuratie zijn een gebruikersnaam en wachtwoord vereist.
 
@@ -79,7 +79,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
 
    Voor [!DNL AEM Assets as a Cloud Service], zie [De verbinding configureren voor [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   Voor [!UICONTROL AEM Assets Basic], zie [De verbinding configureren voor [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   Voor [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), zie [De verbinding configureren voor [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Klikken **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
@@ -135,7 +135,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
       </table>
 
 
-### De verbinding configureren voor [!DNL AEM Assets Basic]
+### De verbinding configureren voor [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
