@@ -7,9 +7,9 @@ description: U kunt de kosten voor projecten, taken en problemen in Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,6 @@ De geplande kosten van een project worden berekend aan de hand van de volgende f
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
 
-* 
-   * 
-
 U hebt bijvoorbeeld de volgende uitgaven op het tabblad Uitgaven van een taak: een marketinguitgave van $100 en een administratieve uitgave van $50. In het lusje van Financiën, selecteert u het de kostentype van de Uur van de Gebruiker. Een gebruiker wordt toegewezen aan de taak, en het uurtarief van de gebruiker is $15. De gebruiker wordt toegewezen om 5 uur aan deze taak te werken. Op het lusje van Uitgaven van het project, hebt u $100 Geplande Kosten voor een uitgave genoemd het Raadplegen. U hebt ook vaste kosten van $200 voor het project.
 
 De geplande kosten van het project worden als volgt berekend:
@@ -148,17 +145,15 @@ De Ware Kosten van een project zijn de kosten verbonden aan het daadwerkelijke w
 De werkelijke kosten worden berekend aan de hand van de volgende formule:
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-.
-
-U hebt bijvoorbeeld de volgende uitgaven op het tabblad Uitgaven van een taak: een marketinguitgave met een werkelijke kostprijs van $110 en een administratieve uitgave met een werkelijke kostprijs van $40. U selecteert het kostentype Rol Uourly en wijst de de baanrol van de Consultant aan de taak toe. Het tarief van de de baanrol van de consultant is $15 per uur, en er zijn 6 uren het programma geopend op de taak voor de Consultant baanrol. Er is ook een het Raadplegen uitgave verbonden aan het project (op het lusje van Uitgaven), met een Ware Kosten van $100 en een gebruiker met een Kosten per Uur tarief van $20 in hun gebruikersprofiel registreert 10 uren op het project.
+U hebt bijvoorbeeld de volgende uitgaven op het tabblad Uitgaven van een taak: een marketinguitgave met een werkelijke kostprijs van $110 en een administratieve uitgave met een werkelijke kostprijs van $40. U selecteert het kostentype Rol Uourly en wijst de de baanrol van de Consultant aan de taak toe. Het tarief van de de baanrol van de consultant is $15 per uur, en er zijn 6 uren het programma geopend op de taak voor de Consultant baanrol. Er is een het Raadplegend uitgave verbonden aan het project (op het lusje van Uitgaven), met een Ware Kosten van $100 en een gebruiker met een Kosten per Uur tarief van $20 in hun gebruikersprofiel registreert 10 uren op het project. U hebt ook vaste kosten van $200 voor het project.
 
 De werkelijke kosten van het project worden als volgt berekend:
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
