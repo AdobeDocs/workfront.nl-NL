@@ -6,9 +6,9 @@ description: U kunt de resolutie van een kwestie aan de resolutie van een projec
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -68,19 +68,30 @@ Voordat u begint, moet u:
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Ga naar de **Overzicht** in het gebied **Probleemdetails** sectie.
-1. Klik op de knop **Opgelost door** en selecteer een van de volgende typen oplossende objecten:  
+1. Klik op de knop **Opgelost door** en selecteer een van de volgende typen oplossende objecten:
 
    * **Project**
    * **Taak**
    * **Probleem**
 
-1. Het veld voor het oplossende object wordt weergegeven.
-1. Nadat u het object hebt geselecteerd, typt u de naam van een bepaald project, een bepaalde taak of een bepaalde uitgave in het beschikbare veld en selecteert u deze wanneer deze wordt weergegeven in de vervolgkeuzelijst.
-1. Klikken **Opslaan** **Wijzigingen**.\
+   Afhankelijk van het object dat u hebt geselecteerd, worden de volgende velden weergegeven:
+
+   * **Project oplossen**
+   * **Taak oplossen**
+   * **Probleem oplossen**
+
+
+1. Begin de naam van een specifiek project, een taak, of een kwestie in te typen **Project oplossen**, **Taak**, of **Probleem** en klikt u erop wanneer deze in de lijst wordt weergegeven.
+
+   >[!NOTE]
+   >
+   >U kunt de oplossing van een probleem niet koppelen aan de taak of het project waar het probleem zich bevindt. De taak of het project van de kwestie tonen niet in de Resolving Taak of de Resolving gebieden van de Taak.
+
+
+1. Klikken **Wijzigingen opslaan**.
+
    De oorspronkelijke uitgave wordt het Oplosbare Voorwerp voor het project, de taak, of de kwestie u in stap 4 en 5 selecteerde. Dit betekent dat de oorspronkelijke kwestie voltooit wanneer het het oplossen van voorwerp (het project, de taak, of de kwestie u het met verbonden het)) wordt voltooid.
 
    >[!NOTE]
    >
    >Één project, taak, of kwestie kan veelvoudige kwesties als Oplosbare Voorwerpen hebben.
-
- 
