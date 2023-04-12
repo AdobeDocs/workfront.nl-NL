@@ -6,9 +6,9 @@ description: U kunt codes aan kaarten toevoegen om visueel aan te tonen dat deze
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
 
-1. Zoek het label dat u van de kaart wilt verwijderen en klik vervolgens op de knop **[!UICONTROL Remove]**&#x200B; ![Tag verwijderen](assets/copy-of-boards-remove-30x23.png).
+1. Zoek het label dat u van de kaart wilt verwijderen en klik vervolgens op de knop **[!UICONTROL Remove]** pictogram ![Tag verwijderen](assets/copy-of-boards-remove-30x23.png).
 1. Klik op **[!UICONTROL Close]**.
 
 ## Een tag verwijderen
