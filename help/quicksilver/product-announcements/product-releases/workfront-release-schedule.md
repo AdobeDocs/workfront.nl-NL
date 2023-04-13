@@ -4,12 +4,12 @@ keywords: vrijgeven
 navigation-topic: product-announcements
 title: Adobe Workfront-releaseschema en -proces
 description: De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nieuwe functies. Deze functies worden vermeld in de opmerkingen bij de release voor de volgende driemaandelijkse release.
-author: Luke
+author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Problemen met het Adobe Workfront-product worden wekelijks in de productieomgevi
 
 ## Functies die uit een driemaandelijkse release zijn verwijderd
 
-Alle functies die bij een bepaalde driemaandelijkse release horen, kunnen worden getest in Voorbeeld 2-4 weken vóór de definitieve release naar Production. Als functies voor deze keer uit de driemaandelijkse release worden verwijderd, worden de volgende acties ondernomen om klanten op de hoogte te stellen:
+Alle functies die bij een bepaalde driemaandelijkse release horen, kunnen minimaal 2 tot 4 weken voorafgaand aan de definitieve release naar Production in Voorbeeld worden getest. Als functies voor deze keer uit de driemaandelijkse release worden verwijderd, worden de volgende acties ondernomen om klanten op de hoogte te stellen:
 
 * De opmerkingen bij de release van de kwartaalversie (te vinden in de [Productintroducties](../../product-announcements/product-releases/product-releases.md) pagina) worden bijgewerkt om aan te geven dat de functie is verwijderd.
 
@@ -41,6 +41,30 @@ Als functies uit de driemaandelijkse release worden verwijderd nadat alle functi
 * De opmerkingen bij de release van de kwartaalversie (te vinden in de [Productintroducties](../../product-announcements/product-releases/product-releases.md) pagina) worden bijgewerkt om aan te geven dat de functie is verwijderd.
 * Er wordt een artikel toegevoegd aan de Workfront Community waarin staat dat dit onderdeel is verwijderd.
 * Er wordt een bericht naar alle klanten verzonden via het Aankondigingscentrum waarin staat dat de functie is verwijderd. (Het Aankondigingscentrum is Workfront in-app meldingscentrum. Zie voor meer informatie [Aankondigingen verzenden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+
+## Bèta-releases
+
+Soms geeft Workfront nieuwe functies uit als onderdeel van een bètaprogramma.
+De specifieke informatie over elke bèta, inclusief hoe u kunt deelnemen, geeft vrij wanneer elk bètaprogramma wordt gestart en alle bètaprogramma&#39;s verschillen.
+
+Hieronder vindt u de typen bètaprogramma&#39;s die beschikbaar zijn in Workfront:
+
+* **Gesloten of persoonlijke bèta**: Hieronder vindt u kenmerken van een gesloten of private bètaversie:
+
+   * Functies zijn beschikbaar voor een kleine groep klanten, zorgvuldig geselecteerd door Workfront.
+   * Deelnemers werken doorgaans samen met een productmanager en geven regelmatig feedback.
+   * Nieuwe functies die deel uitmaken van de bètaversie kunnen worden vrijgegeven voor Voorvertoning of Productie of voor een aparte omgeving die beschikbaar wordt gesteld voor het bètaprogramma. Gesloten bètafuncties worden met willekeurige intervallen en zonder waarschuwing vrijgegeven.
+   * Er is geen releaseinformatie voor gesloten bètaprogramma&#39;s op de pagina&#39;s van de productrelease.
+
+* **Openbare bèta**: Hieronder vindt u kenmerken van een openbare bètaversie:
+
+   * De functies zijn beschikbaar voor alle Workfront-klanten, maar ze hebben een bètastatus. Ze zijn misschien niet altijd volledig functioneel en feedback is altijd welkom.
+   * De deelname aan een openbare bètaversie is optioneel en klanten kunnen zelf beslissen of ze de bètafuncties willen inschakelen.
+   * Nieuwe functies die onderdeel zijn van de bètaversie, kunnen worden vrijgegeven voor Voorvertoning of Productie.
+   * Functies kunnen vaker worden vrijgegeven dan de normale releasepatronen voor Workfront.
+   * Informatie over wanneer de eigenschappen aan openbare bèta worden vrijgegeven is inbegrepen in de de versiepagina&#39;s van het Product.
+
+Voor informatie over opmerkingen bij de release van producten raadpleegt u [Productintroducties](../../product-announcements/product-releases/product-releases.md).
 
 ## Opmerkingen bij de release
 
