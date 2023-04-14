@@ -6,9 +6,9 @@ description: In de volgende berichten wordt u gewaarschuwd voor communicatie, zo
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Iemand reageert op een van mijn werkitems</strong> </p> <p>De ontvanger van het werkitem ontvangt een e-mailbericht wanneer een gebruiker een update aan een werkitem toevoegt, tenzij de gebruiker die de update toevoegt ook de ontvanger is. </p> <p>Als er een opmerking op een aanvraag wordt geplaatst, stuurt u een e-mail naar de primaire contactpersoon voor de uitgave.</p> <p>De primaire contactpersoon voor een kwestie ontvangt een e-mailbericht wanneer een commentaar op een verzoek wordt gepost, tenzij de gebruiker die de opmerking heeft geplaatst ook de primaire contactpersoon voor de kwestie is.</p> <p>Gebruikers die rechtstreeks in de opmerking zijn opgenomen, ontvangen ook een e-mailbericht.</p> <p>Een kennisgeving wordt alleen verzonden als de projectstatus [!UICONTROL Current].</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Comment on] &lt;work item="" name=""&gt; op &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Iemand reageert op een van mijn werkitems</strong> </p> <p>De ontvanger van het werkitem ontvangt een e-mailbericht wanneer een gebruiker een update aan een werkitem toevoegt, tenzij de gebruiker die de update toevoegt ook de ontvanger is. </p> <p>Als er een opmerking op een aanvraag wordt geplaatst, stuurt u een e-mail naar de primaire contactpersoon voor de uitgave.</p> <p>De primaire contactpersoon voor een kwestie ontvangt een e-mailbericht wanneer een commentaar op een verzoek wordt gepost, tenzij de gebruiker die de opmerking heeft geplaatst ook de primaire contactpersoon voor de kwestie is.</p> <p>Gebruikers die rechtstreeks in de opmerking zijn opgenomen, ontvangen ook een e-mailbericht.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Comment on] &lt;work item="" name=""&gt; op &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Itemnaam zakelijk<br>Projectnaam<br>Referentienummer zakelijk item<br>Naam van de gebruiker die opmerkingen heeft gemaakt over het werkitem<br>Tekst van de opmerking die op het werkitem is geplaatst<br>Datum en tijd waarop de opmerking is gemaakt<br>*Totaal aantal ontvangen opmerkingen<br>*Aantal ontvangen opmerkingen voor elk object<br>*Projectnaam<br>*<strong>[!UICONTROL See All Notifications]</strong> knop<br>*Datum van de dagelijkse samenvatting </td> 
    <td><strong>Dagelijks</strong> </td> 
   </tr> 
