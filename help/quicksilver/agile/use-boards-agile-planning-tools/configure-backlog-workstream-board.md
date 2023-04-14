@@ -5,9 +5,10 @@ navigation-topic: boards
 title: De achterstand op een werkstroomgebied configureren
 description: U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en een vraag voor de kaarten te bepalen die in de bordbacklog van de werkstroomkaartlijst worden getrokken.
 author: Lisa
-source-git-commit: b58831d50c2be421c666515808091aa4863bb471
+exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
+source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -51,6 +52,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De achtergrondkolom wordt links van de board toegevoegd. Het blijft leeg totdat u een query op het bestand toepast.
 
 1. Uitbreiden [!UICONTROL **Backlogquery**].
+
+   >[!NOTE]
+   >
+   >Een standaardvraag kan reeds op de achterstand worden toegepast, die alle het werkpunten van de kaartlijst toont die niet tot een herhaling behoren en niet in Volledige status zijn.
+
 1. Klikken [!UICONTROL **Voorwaarde toevoegen**] en klik in het veld &quot;leeg&quot;.
 1. Selecteer het veld waarop u een query wilt uitvoeren.
 
@@ -58,13 +64,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Selecteer de queryoptie.
 
-   De opties zijn: is gelijk aan, is niet gelijk, bestaat en bestaat niet.
-
-   Voorbeeld: Als u Vervaldatum kiest en deze bestaat, worden kaarten met toegewezen vervaldatums weergegeven. Een kaart zonder vervaldatum wordt niet op de achterstand gezet.
+   De opties voor wijzigingstoetsen zijn afhankelijk van de velden waarop ze kunnen worden toegepast. Het veld &quot;name&quot; heeft bijvoorbeeld niet de optie &quot;groter dan&quot; of &quot;kleiner dan&quot; als optie, omdat deze modifiers alleen op getallen van toepassing zijn.
 
 1. Selecteer de waarde.
 
-   De waarde is alleen beschikbaar wanneer u equals (gelijk aan) gebruikt als de optie.
+   De waarde is niet beschikbaar als u &quot;bestaat&quot;of &quot;niet bestaat&quot;als bepaling gebruikt.
+
+   Als u bijvoorbeeld &quot;Vervaldatum&quot; en &quot;bestaat&quot; kiest, worden in de backlog kaarten weergegeven met toegewezen vervaldatums. Een kaart zonder vervaldatum wordt niet op de achterstand gezet.
 
 1. (Optioneel) Klik op [!UICONTROL **Voorwaarde toevoegen**] om een andere voorwaarde aan de vraag toe te voegen.
 
