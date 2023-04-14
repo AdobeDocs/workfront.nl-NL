@@ -6,9 +6,9 @@ description: Bekijk deze artikelen voor meer informatie over het gebruik van bor
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,3 +33,4 @@ Deze sectie bevat de volgende artikelen:
 * [Een kaart van een kaart verwijderen of archiveren](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filteren en zoeken in een board](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Tags toevoegen](../../agile/get-started-with-boards/add-tags.md)
+* [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)

@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '12875'
+source-wordcount: '12880'
 ht-degree: 0%
 
 ---
@@ -924,6 +924,7 @@ ht-degree: 0%
       * [Een kaart van een kaart verwijderen of archiveren](agile/get-started-with-boards/delete-board-items.md)
       * [Filteren en zoeken in een board](agile/get-started-with-boards/filter-search-in-board.md)
       * [Tags toevoegen](agile/get-started-with-boards/add-tags.md)
+      * [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Hulpprogramma&#39;s voor flexibele planning gebruiken in tekengebieden {#agile-planning-boards}
       * [Overzicht van de gereedschappen voor mobiele planning](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [De WIP-limiet (work in progress) op een board beheren](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)

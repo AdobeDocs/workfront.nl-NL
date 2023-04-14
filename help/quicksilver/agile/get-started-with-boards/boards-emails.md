@@ -1,0 +1,57 @@
+---
+filename: boards-emails
+content-type: reference
+navigation-topic: boards
+title: E-mailmeldingen en voorkeuren worden verzonden
+description: Adobe Workfront Boards stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
+author: Lisa
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 0%
+
+---
+
+# E-mailmeldingen en voorkeuren worden verzonden
+
+{{highlighted-preview-article-level}}
+
+[!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. De meldingen zijn standaard ingeschakeld en u kunt in de voorkeursinstellingen voor de raden selecteren welke e-mails u wilt ontvangen.
+
+>[!NOTE]
+>
+>E-mailberichten zijn alleen beschikbaar via de vroege functie-aanmelding voor Workfront Boards.
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
+   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+
+## Voorkeuren instellen voor e-mailberichten in kamers
+
+{{step1-to-boards}}
+
+1. Klikken [!UICONTROL **Voorkeuren**] op het dashboard Borden.
+1. Selecteer of u e-mails wilt ontvangen die u aan een kaart wilt toevoegen en aan een kaart wilt toewijzen.
+
+   ![E-mailvoorkeuren voor e-mailberichten worden ingesloten](assets/boards-email-preferences.png)
+
+   De voorkeuren die u instelt voor e-mailberichten, gelden voor al uw borden.

@@ -6,14 +6,16 @@ description: Adobe Workfront verzendt e-mailmeldingen, meldingen in de app en me
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] meldingen
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] verzendt e-mailmeldingen, meldingen in de app en meldingen op uw mobiele apparaat.
 
@@ -32,6 +34,7 @@ U kunt de volgende e-mailmeldingen ontvangen van [!DNL Workfront]:
 * [Kennisgeving van geposte opmerkingen](#notification-of-posted-comments)
 * [Automatische herinneringen](#automatic-reminders)
 * [Herinneringsmeldingen](#reminder-notifications)
+* [Boekberichten](#boards-notifications)
 * [Overige [!DNL Workfront] e-mail](#other-workfront-emails)
 
 ### Gebeurtenismeldingen
@@ -126,6 +129,16 @@ A [!DNL Workfront] beheerder (of een gebruiker met een [!UICONTROL Planner] het 
 Herinneringsmeldingen worden verzonden vanaf het e-mailadres dat de [!DNL Workfront] beheerder geselecteerd om uitgaande e-mailberichten te verwerken.
 
 Voor informatie over het instellen en inschakelen van herinneringsmeldingen raadpleegt u [Herinneringsmeldingen instellen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+
+<span class="preview">
+
+### Boekberichten
+
+[!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
+
+U kunt selecteren welke e-mails u wilt ontvangen in de voorkeursinstellingen voor de kamers. Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+</span>
 
 ### Overige [!DNL Workfront] e-mail
 
