@@ -6,9 +6,9 @@ description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp an
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het 
 
    U kunt de gebruikers zien die actief in het gesprek bij de bodem van zijn betrokken **Nieuwe opmerking** en kunt u meer toevoegen of verwijderen van de niet-relevante vakken. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Begin uw antwoord te typen en gebruik om het even welke extra opties van de Rich toolbar van de Tekst. Zie de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het gedeelte [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+1. Begin uw antwoord te typen en gebruik om het even welke extra opties van de Rich toolbar van de Tekst. Voor informatie over het gebruiken van RTF of andere het bijwerken mogelijkheden, zie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Klikken **Verzenden** om het antwoord op te slaan.
 

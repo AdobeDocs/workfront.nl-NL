@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -233,6 +233,17 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
    >   Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
 
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de stappen 4 tot en met 7 hierboven. <!--(**************insure this stays accurate***********)-->. Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Updates worden weergegeven, klikt u op **Weergave** in het blauw **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Aanvullende opmerkingen worden onder in het scherm weergegeven.
+
+   >[!NOTE]
+   >
+   >   De indicator &quot;nieuwe commentaren&quot;en &quot;de knoop van de Mening tonen slechts wanneer zowel de gebruikers die de nieuwe updates evenals de gebruiker ingegaan die momenteel de sectie van Updates bekijken de nieuwe het becommentariëren ervaring gebruiken.
+
+
 1. (Optioneel) Klik op de knop **leuk** pictogram![](assets/like-icon.png). Het pictogram wordt bijgewerkt met het aantal ‘like’.
 1. (Voorwaardelijk en Optioneel) Als u extra personen hebt toegevoegd aan uw opmerking, klikt u op het aantal leden dat is opgenomen in de update om een lijst weer te geven met entiteiten waarmee de opmerking die u hebt ingevoerd, wordt gedeeld.
 

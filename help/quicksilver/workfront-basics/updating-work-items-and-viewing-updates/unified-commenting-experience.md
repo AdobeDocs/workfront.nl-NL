@@ -1,17 +1,17 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Unieke ervaring met opmerkingen
+title: Nieuwe ervaring met opmerkingen
 description: De nieuwe Verenigde Ervaring van Commentaren zal
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Nieuwe ervaring met opmerkingen
 
@@ -204,7 +204,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td>Vervangen door tabblad Activiteit 
+   <td>Vervangen door het tabblad Activiteit 
    </td>
    <td> 
    </td>
@@ -302,7 +302,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> Vervangen door koppeling Kopiëren
    </td>
    <td> 
    </td>
@@ -316,7 +316,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> Vervangen door koppeling Kopiëren
    </td>
    <td> 
    </td>

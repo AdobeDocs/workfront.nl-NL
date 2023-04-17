@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
 
 1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van een opmerking klikt u op **Verwijderen** om een toegevoegde opmerking te verwijderen.
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de bovenstaande stappen 5 tot en met 9. <!--insure this stays accurate-->
+1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Updates worden weergegeven, klikt u op **Weergave** in het blauw **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Aanvullende opmerkingen worden onder in het scherm weergegeven.
 1. (Optioneel) Klik op de knop **leuk** pictogram![](assets/like-icon.png) als u een opmerking wilt toevoegen die iemand anders heeft toegevoegd. Het pictogram wordt bijgewerkt met het aantal ‘like’.
 1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u tijdens het typen kenmerken op de werkbalk RTF. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) Klik op de knop **Systeemactiviteit** om updates weer te geven die zijn geregistreerd door het systeem. Wanneer een doel wordt bijgewerkt, genereert Workfront een notitie over die update en geeft deze weer op het tabblad Systeemactiviteit. Workfront registreert ook een systeemupdate wanneer een resultaat, een activiteit, of een project aan het doel wordt toegevoegd of wanneer het wordt bijgewerkt. <!--ensure the casing on the tab has not changed-->

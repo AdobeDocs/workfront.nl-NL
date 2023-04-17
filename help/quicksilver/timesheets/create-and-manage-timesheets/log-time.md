@@ -6,9 +6,9 @@ description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3014'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
 
    >[!IMPORTANT]
    >
-   >Als een baanrol waarvoor u tijd registreerde is veranderd en **Taken handmatig toewijzen aan uren** instelling is uitgeschakeld, moet u de tijdinvoer handmatig opslaan. De tijdpagina bespaart uw tijd automatisch opnieuw slechts wanneer er geen tijd meer voor de baanrol wordt geregistreerd die is veranderd.
+   >U moet timesheet manueel bewaren als om het even welke volgende scenario&#39;s voorkomen:
    >
-   >Als de rol is gewijzigd en de **Taken handmatig toewijzen aan uren** Als deze instelling is ingeschakeld, kunt u de tijd vastleggen of de rol bijwerken en worden uw wijzigingen automatisch opgeslagen.
+   >* De rol van de baan verbonden aan tijd die u eerder registreerde is veranderd en **Taken handmatig toewijzen aan uren** instellen is uitgeschakeld. De tijd van het registreren voor nieuwe data zal het met een verschillende baanrol associëren.
+      >   
+      >   Als de rol is gewijzigd en de **Taken handmatig toewijzen aan uren** Als deze instelling is ingeschakeld, kunt u de tijd vastleggen of de rol bijwerken en worden uw wijzigingen automatisch opgeslagen.
+   >
+   >* De taakrol die aan een taak of kwestie wordt toegewezen is verschillend dan de baanrol de timesheet eigenaar registreert tijd met <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >De tijdpagina bespaart de tijd automatisch opnieuw wanneer er geen conflicterende ingangen meer tussen de twee rollen zijn.
 
 1. (Optioneel) Geef de hoeveelheid overwerk op in het veld Overwerk in de koptekst van het tijdblad.
 
