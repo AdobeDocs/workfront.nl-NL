@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: 4b396508c85758aa7efeca9e18cdbd204b06146f
 workflow-type: tm+mt
-source-wordcount: '12880'
+source-wordcount: '12897'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
       * [Overzicht van productreleases](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront-releaseschema en -proces](product-announcements/product-releases/workfront-release-schedule.md)
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
+      * 23.3 Release {#release-23-3}
+         * [23.3 Overzicht van de release](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
+         * [Updates weergeven en voelen tijdens de releaseperiode van 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+         * [23.3 releaseactiviteitweek van 17 april 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
       * 23.2 Release {#release-23-2}
          * [23.2 Overzicht van de release](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Beheerdersverbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)

@@ -6,9 +6,9 @@ description: Hieronder vindt u koppelingen naar aanvullende informatie over huid
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 12007f2207108207c74886da63a49a0de1b20859
+source-git-commit: bb9f8b020a9fd25ff282bf522b92400ad7871f86
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 15%
 
 ---
@@ -32,6 +32,7 @@ Voor informatie over hoe u uw organisatie kunt helpen probleemloos aan te passen
   <tr data-mc-conditions=""> 
    <td> <p>Uitzettingen in 2023</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 Overzicht van de release</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Overzicht van de release</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 Overzicht van de release</a> </p> </li>
     </ul> </td> 
