@@ -7,9 +7,9 @@ description: U kunt nieuwe scenario-sjablonen maken in [!DNL Adobe] Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Een nieuwe sjabloon maken
 
+U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scenario. Fusiebeheerders kunnen ook sjablonen maken op basis van bestaande scenario&#39;s.
+
+* [Een sjabloon maken](#build-a-template)
+* [Een sjabloon maken op basis van een scenario](#create-a-template-from-a-scenario)
+
+### Een sjabloon maken
+
 1. Klikken **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) in het linkernavigatievenster.
 1. Klikken **[!UICONTROL Create a new template]** in de rechterbovenhoek.
 1. (Optioneel) Wijzig de naam van de sjabloon door de standaardnaam te vervangen **[!UICONTROL New template name]** in de linkerbovenhoek.
@@ -81,6 +88,36 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 >[!NOTE]
 >
 >Door uw sjabloon op te slaan maakt u deze zichtbaar voor al uw teamleden. Als u uw malplaatje buiten uw team toegankelijk wilt zijn moet u het publiceren en dan een gedeelde verbinding gebruiken, of uw beheerder vragen om het malplaatje goed te keuren en te publiceren.
+
+### Een sjabloon maken op basis van een scenario
+
+>[!NOTE]
+>
+>U moet een beheerder van de Fusie zijn om een malplaatje van een scenario tot stand te brengen.
+
+1. Open de pagina met de scenariodetails voor het scenario waarvan u een scenario wilt maken.
+1. Klik op de knop **Beheer** naar beneden in de rechterbovenhoek van de pagina.
+1. Selecteren **Klonen als sjabloon**.
+
+   Het scenario wordt gekopieerd naar een Nieuwe sjabloonpagina.
+1. (Optioneel) Wijzig de naam van de sjabloon door de standaardnaam te vervangen **[!UICONTROL New template name]** in de linkerbovenhoek.
+1. (Optioneel) Als u de taal van de sjabloon wilt wijzigen, klikt u op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
+
+   >[!IMPORTANT]
+   >
+   >De taalselectie komt overeen met de talen die beschikbaar zijn in de systeeminstellingen en heeft alleen betrekking op de naam van de openbare sjabloon en de beschrijving ervan. U kunt een sjabloontaal niet wijzigen nadat de sjabloon is opgeslagen.
+
+1. (Optioneel) Als u een beschrijving van de sjabloon wilt invoeren, klikt u op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en voert u de beschrijving in.
+1. U kunt apps, modules en gereedschappen op dezelfde manier bewerken als wanneer u een standaardscenario bewerkt.
+
+   Als u contextafhankelijke Help wilt toevoegen aan de modules, raadpleegt u [Instellen [!UICONTROL Wizard] functionaliteit](#set-up-wizard-functionality) in dit artikel.
+
+   >[!NOTE]
+   >
+   >Als uw malplaatje modules omvat die vereisen toevoegend de verbinding, geloofsbrieven, of andere privacy-gevoelige informatie, wordt deze informatie niet gedeeld met de malplaatjegebruikers.
+
+1. (Optioneel) Klik op **[!UICONTROL Run once]** om de sjabloon te testen.
+1. Klik op de knop **[!UICONTROL Save]** pictogram ![](assets/save-icon.png).
 
 ## Instellen [!UICONTROL Wizard] functionaliteit {#set-up-wizard-functionality}
 

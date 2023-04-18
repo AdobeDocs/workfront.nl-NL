@@ -7,9 +7,9 @@ description: Als beheerder hebt u toestemming om sjablonen die door anderen zijn
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: bcca026e193e66cfb92ab9a0fb1aaf1eeb6892fb
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -99,4 +99,4 @@ Als u een sjabloon goedkeurt, wordt deze zichtbaar in het dialoogvenster [!UICON
 
 Als beheerder, hebt u de capaciteit om een scenario als malplaatje te klonen.
 
-Voor instructies over het klonen van een scenario als malplaatje, zie [Nieuwe sjablonen maken in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [Nieuwe sjablonen maken in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+Voor instructies over het klonen van een scenario als malplaatje, zie [Een sjabloon maken op basis van een scenario](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [Nieuwe sjablonen maken in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
