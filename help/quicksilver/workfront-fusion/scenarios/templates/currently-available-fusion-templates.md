@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Dit malplaatje vangt een projectbasislijn op om het even welke verandering van d
 ### Workfront - Basislijn aanmaken wekelijks
 
 Deze malplaatje vangt een projectbasislijn op wekelijkse basis elke Maandag om 6 uur ET op projecten die door portefeuille worden gefiltreerd, en leidt tot een update in de updatestroom voor registreren.
+
+### Projectsjablonen zoeken die niet worden gebruikt in de beleidstijd en hiervan melding maken
+
+Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met dit gemakkelijk te beheren malplaatje dat aangewezen gebruikers op malplaatjes in strijd met uw beleid op de hoogte brengt.
 
 ## Workfront - Workfront Prooftemplates
 
