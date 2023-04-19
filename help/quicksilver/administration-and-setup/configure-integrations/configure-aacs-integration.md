@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets-integratie
 description: U kunt uw werk verbinden met de volgende Integraties van Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ U kunt uw werk met uw inhoud verbinden in [!DNL Experience Manager Assets]&#x200
 * Metagegevens bijhouden voor elementen en mappen
 * Projectmetagegevens synchroniseren tussen [!DNL Workfront] en [!DNL Experience Manager Assets]
 
+U kunt ook verschillende Experience Manager Assets-opslagruimten verbinden met één Workfront-omgeving of met verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
 
 ## Toegangsvereisten
 
