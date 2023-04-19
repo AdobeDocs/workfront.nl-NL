@@ -6,9 +6,9 @@ description: U kunt de Adobe Workfront for Photoshop-insteekmodule installeren v
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -57,12 +57,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * U moet de [!DNL Adobe Photoshop] voordat u de [!DNL Workfront] insteekmodule.
 
-## Installeer de [!DNL Adobe Workfront for Photoshop] insteekmodule
+## Installeer de [!DNL Adobe Workfront for Photoshop] insteekmodule voor uw organisatie
 
->[!TIP]
->
->Als u een [!DNL Adobe Admin Console] beheerder, kunt u de insteekmodule opnemen [!DNL Creative Cloud] implementatiepakketten. Zie voor meer informatie [Insteekmodules opnemen in het pakket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Als u een [!DNL Adobe Admin Console] beheerder, kunt u de insteekmodule opnemen [!DNL Creative Cloud] implementatiepakketten. Zie voor meer informatie [Insteekmodules opnemen in het pakket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[Hier een videozelfstudie bekijken](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## Installeer de [!DNL Adobe Workfront for Photoshop] afzonderlijk insteekmodule
+
+U kunt de [!DNL Adobe Workfront for Photoshop] plug-in voor uzelf uit de [!DNL Adobe Exchange].
 
 1. Ga naar de [Adobe Workfront for Photoshop-installatiepagina](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) op de Adobe Exchange.
 1. Klik in het dialoogvenster dat wordt weergegeven op **Openen [!DNL Adobe Creative Cloud] bureaubladtoepassing**.
