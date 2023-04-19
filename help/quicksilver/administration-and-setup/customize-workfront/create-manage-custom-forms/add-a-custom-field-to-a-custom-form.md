@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -156,11 +156,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Indeling</td> 
-      <td> <p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p> <p><b>OPMERKING</b>:   
-        <ul> 
-         <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.<br></li> 
-         <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li> 
-        </ul> </p> </td> 
+      <td> <p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd. U kunt de indelingsselectie wijzigen nadat u het formulier hebt opgeslagen, maar de nieuwe indeling moet de ingevoerde waarde ondersteunen.</p>
+
+   <p><strong>Voorbeeld:</strong> Als u een numerieke waarde opslaat voor een veld met de tekstopmaak op ten minste één object en de notatie later wijzigt in Getal of Valuta, treedt er geen fout op. </p>
+      <p>Als u echter een alfanumerieke waarde opslaat in een veld met tekstindeling op ten minste één object en vervolgens probeert de indeling te wijzigen in Getal of Valuta, treedt er een fout op omdat de opgeslagen alfanumerieke waarde niet compatibel is met de notatie Getal of Valuta. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Weergavetype</td> 
