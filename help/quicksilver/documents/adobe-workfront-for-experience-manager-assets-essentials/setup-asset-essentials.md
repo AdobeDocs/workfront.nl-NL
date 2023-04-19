@@ -6,9 +6,9 @@ description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essenti
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials &#x200B;:
 * Elementen van Experience Manager Assets Essentials koppelen aan uw projecten en taken in Workfront &#x200B;
 * Workflows voor versiebeheer vereenvoudigen voor middelen die naar Experience Manager Assets Essentials worden geduwd
 
+U kunt ook verschillende Experience Manager Assets-opslagruimten verbinden met één Workfront-omgeving of met verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
 
 ## Toegangsvereisten
 
