@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![](assets/map-toggle-350x74.png)
 
+* [Drive-item](#drive-item)
 * [Item](#item)
 * [Lijst](#list)
 * [Pagina (bèta)](#page-beta)
 * [Site](#site)
 * [Overige](#other)
+
+### Drive-item
+
+* [Een bestand maken](#create-a-file)
+* [Een map maken](#create-a-folder)
+* [Een bestand ophalen](#get-a-file)
+* [Mapitems controleren](#watch-folder-items)
+
+#### Een bestand maken
+
+Deze actiemodule maakt een nieuw bestand in SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt maken.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie waar u het bestand wilt maken. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### Een map maken
+
+Deze actiemodule maakt een nieuwe map in SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van de map die u wilt maken.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie waar u de map wilt maken. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder name]</td> 
+   <td>Voer een naam voor de nieuwe map in of wijs deze toe.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### Een bestand ophalen
+
+Deze actiemodule haalt het opgegeven SharePoint-bestand op.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL File ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie van het bestand. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Mapitems controleren
+
+Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een map die u selecteert.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie van de map die u wilt controleren. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Voer het maximum aantal objecten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Item
 
