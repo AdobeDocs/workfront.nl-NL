@@ -6,9 +6,9 @@ description: De nieuwe Verenigde Ervaring van Commentaren zal
 author: Alina
 feature: Get Started with Workfront
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -163,8 +163,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -242,7 +243,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
   </tr>
   <tr>
-   <td>Nieuwe opmerkingen in real-time bekijken 
+   <td>Nieuwe opmerkingen in real-time bekijken (zoals wanneer een opmerking wordt verwijderd)
    </td>
    <td> 
    </td>
