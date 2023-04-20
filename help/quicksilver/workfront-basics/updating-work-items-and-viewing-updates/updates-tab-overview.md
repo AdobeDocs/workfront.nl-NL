@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de 
   <tr> 
    <td> 
     <ul> 
-     <li>Doelen</li> 
+     <li><p>Doelen</p>
+     <p>Dit is de standaardervaring voor doelstellingen</p>
+     </li> 
      </ul> </td> 
    <td> 
     <ul> 
