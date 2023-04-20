@@ -7,16 +7,18 @@ description: Lees dit artikel om beter te begrijpen hoe het Kanban-bord werkt.
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Kanban-overzicht
 
-In de volgende secties kunt u beter begrijpen hoe de [!UICONTROL Kanban] boordfuncties:
+In de volgende secties kunt u beter begrijpen hoe de [!UICONTROL Kanban] boordfuncties.
+
+Als u geïnteresseerd bent in migreren vanuit een &#39;agile&#39;-team [!UICONTROL Kanban] aan boord [!DNL Workfront] [!UICONTROL Boards], zie [Gegraveerd team migreren [!UICONTROL Kanban] kaarten naar [!DNL Workfront] borden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] treinindeling en -functies
 
