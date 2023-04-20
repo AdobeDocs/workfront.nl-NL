@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 U kunt desgewenst een inlaatkolom aan uw board toevoegen die taken en problemen automatisch ophaalt als verbonden kaarten wanneer deze worden toegevoegd [!DNL Workfront], op basis van filters die u definieert. De innamekolom kan als backlogkolom voor een team Kanban, een innamelocatie voor een steunteam dienen om kwesties te zien aangezien zij aan een verzoekrij, of een ander doel worden toegevoegd u wenst.
 
 Er is slechts één inlaatkolom toegestaan op een bord en deze wordt altijd weergegeven als de meest linkse kolom.
+
+De inlaatkolom is niet beschikbaar op een dynamisch bord.
 
 De inlaatkolom is beperkt tot 300 taken en 300 problemen. Ze worden gesorteerd op de prioriteit die op de items is gedefinieerd. Voor informatie over prioriteit raadpleegt u [Taak-prioriteit bijwerken](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) en [Probleemprioriteit bijwerken](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
