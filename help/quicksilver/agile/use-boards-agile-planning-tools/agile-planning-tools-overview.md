@@ -7,9 +7,9 @@ description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met e
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Deze sectie bevat de volgende artikelen:
 * [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Groepen aan boord gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Afvalfunctie van kaart configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [Kanbankkaarten voor mobiele teams migreren naar Workfront-borden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
