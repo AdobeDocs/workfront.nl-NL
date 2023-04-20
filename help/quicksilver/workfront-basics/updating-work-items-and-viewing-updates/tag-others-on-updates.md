@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Het labelen van anderen in een update is afhankelijk van de ervaring en het obje
 
    ![](assets/tag-users-in-update.png)
 
-1. (Optioneel) Schakel de optie **Privé voor mijn bedrijf** in de rechterbenedenhoek van het updatevak. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf.
+1. (Optioneel) Schakel de optie **Privé voor mijn bedrijf** in de rechterbenedenhoek van het updatevak. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf. De **Privé voor mijn bedrijf** Deze optie is alleen beschikbaar wanneer een bedrijf is opgegeven in uw Workfront-profiel.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ Het labelen van anderen in een update is afhankelijk van de ervaring en het obje
 
 ### Andere tags toepassen op updates in de bètaervaring voor opmerkingen
 
+U kunt tags toewijzen aan anderen bij updates in de bètaervaring voor opmerkingen. U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een opmerking bewerkt.
+
 1. Beginnen met het bijwerken van een tijdelijk item, zoals beschreven in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In de **Tags toewijzen aan personen of teams** typt u de naam van de gebruiker of het team dat u wilt opnemen en klikt u op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 
@@ -148,7 +150,7 @@ Het labelen van anderen in een update is afhankelijk van de ervaring en het obje
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Optioneel) Schakel de optie **Privé voor mijn bedrijf** in de rechterbenedenhoek van het updatevak. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf.
+1. (Optioneel) Schakel de optie **Privé voor mijn bedrijf** in de rechterbenedenhoek van het updatevak. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf. De **Privé voor mijn bedrijf** Deze optie is alleen beschikbaar wanneer een bedrijf is opgegeven in uw Workfront-profiel.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ Het labelen van anderen in een update is afhankelijk van de ervaring en het obje
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**. Verwijder alle getagde gebruikers en klik op **Verzenden**. U kunt een opmerking pas bewerken binnen 15 minuten nadat u deze hebt ingevoerd. U kunt alleen de opmerkingen bewerken die u hebt toegevoegd.
