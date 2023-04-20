@@ -6,7 +6,7 @@ description: Adobe Workfront verzendt e-mailmeldingen, meldingen in de app en me
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Workfront] meldingen
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] verzendt e-mailmeldingen, meldingen in de app en meldingen op uw mobiele apparaat.
 
@@ -130,15 +128,11 @@ Herinneringsmeldingen worden verzonden vanaf het e-mailadres dat de [!DNL Workfr
 
 Voor informatie over het instellen en inschakelen van herinneringsmeldingen raadpleegt u [Herinneringsmeldingen instellen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Boekberichten
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
 
 U kunt selecteren welke e-mails u wilt ontvangen in de voorkeursinstellingen voor de kamers. Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Overige [!DNL Workfront] e-mail
 
