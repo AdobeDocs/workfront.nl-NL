@@ -6,14 +6,16 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Gekoppelde kaarten op borden gebruiken
+
+{{highlighted-preview}}
 
 U kunt een kaart toevoegen aan uw board die is aangesloten op bestaande taken en problemen in [!DNL Workfront].
 
@@ -96,11 +98,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Als u de naam wijzigt, verandert ook de naam in de verbonden [!DNL Workfront] object.</p> </td> 
+      <td>Als u de naam wijzigt, verandert ook de naam in de verbonden [!DNL Workfront] object.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td> <p>Als u de beschrijving wijzigt, verandert ook de beschrijving op de verbonden [!DNL Workfront] object.</p> </td> 
+      <td>Als u de beschrijving wijzigt, verandert ook de beschrijving op de verbonden [!DNL Workfront] object. <span class="preview">U kunt URL's toevoegen in de beschrijving en deze worden klikbare koppelingen wanneer de kaart wordt opgeslagen.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -110,7 +112,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>Selecteer de kolom voor de kaart.</p></td>
+      <td>Selecteer de kolom voor de kaart.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -120,7 +122,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td>
-      <td><p>Als u deze datum wijzigt, wordt ook de geplande voltooiingsdatum op de verbonden [!DNL Workfront] object.</p></td>
+      <td>Als u deze datum wijzigt, wordt ook de geplande voltooiingsdatum op de verbonden [!DNL Workfront] object.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
@@ -137,6 +139,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Gebruik het navigatievenster aan de linkerkant om te schakelen tussen groepen velden op de kaartdetails.</span>
+
+   >[!NOTE]
+   >
+   >Het navigatievenster aan de linkerkant en de mogelijkheid om klikbare koppelingen toe te voegen in het veld Beschrijving zijn alleen beschikbaar via de vroege functieoptie voor Workfront Boards.
 
 1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
 Het verbonden object, de toewijzingen, de tags, de vervaldatum, de controlelijstteller, de geschatte uren en de status worden weergegeven op de kaart.
