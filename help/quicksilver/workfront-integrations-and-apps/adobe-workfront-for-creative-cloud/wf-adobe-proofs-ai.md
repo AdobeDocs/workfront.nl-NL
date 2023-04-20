@@ -5,13 +5,13 @@ title: Proefbestanden uploaden vanuit Illustrator
 description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bekijken en goedkeuren of die u gewoon in Adobe Workfront wilt opslaan.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
 
 ---
-
 
 # Proefbestanden uploaden van [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. In de **[!UICONTROL Proof Approvals]** sectie, selecteert u **[!UICONTROL Automated]**.
 1. (Optioneel) In het dialoogvenster **[!UICONTROL Workflow Template]** typt u de naam van een sjabloon voor een proefdrukwerkstroom.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

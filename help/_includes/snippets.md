@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Instellingen voor automatische proefdrukken aanpassen {#adjust-proof-settings}
 
-1. (Optioneel) Automatische proefdrukinstellingen aanpassen
+1. (Optioneel) Instellingen voor automatische proefdrukwerkstromen aanpassen
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>Proeffasen</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Frames uitschakelen
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>Proeffasen</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Frames uitschakelen
+         </td>
+         <td>
+      <ol>
 
    <li>Schakel Alles selecteren in of uit om alle fasen uit te schakelen. 
-   <p>of</p></li>
-   <li>Afzonderlijke stappen in-/uitschakelen.</li>
+      <p>of</p></li>
+      <li>Afzonderlijke stappen in-/uitschakelen.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Ontvangers toevoegen
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Ontvangers toevoegen
+         </td>
+         <td>
+      <ol>
 
    <li>In het Add nieuwe ontvankelijke vakje, begin typend de naam van de gebruiker.
-
-   Opmerking: U kunt geen externe ontvangers via e-mail vanuit de plug-in toevoegen.
 
    <li>Geef de proefdrukrol op.
 
    <li>Kies het type e-mailwaarschuwingen voor de ontvanger. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Een deadline instellen
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Een deadline instellen
+         </td>
+         <td>
+      <ol>
 
    <li>Kies een deadline.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>E-mailmeldingen</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Ontvangers op de hoogte stellen van de proefdruk
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>E-mailmeldingen</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Ontvangers op de hoogte stellen van de proefdruk
+         </td>
+         <td>
+      <ol>
 
    <li>Schakel het selectievakje in om gebruikers te waarschuwen wanneer de proefdruk wordt gemaakt.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Een aangepast bericht toevoegen
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Een aangepast bericht toevoegen
+         </td>
+         <td>
+      <ol>
 
    <li>Typ een onderwerp.
 
    <li>Typ het aangepaste bericht.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
