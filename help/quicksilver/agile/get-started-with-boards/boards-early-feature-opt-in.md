@@ -6,9 +6,9 @@ title: Aanmelden met vroege functies voor [!DNL Adobe Workfront] Borden
 description: Lees dit artikel voor meer informatie over de [!DNL Workfront Boards] opt-in voor vroege functies.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
   </tr>
   <tr>
    <td>Verouderde Kanbankkaarten migreren naar raden van bestuur</td>
-   <td>Geplant</td>
+   <td>Gedeeltelijk vrijgegeven</td>
   </tr>
   <tr>
    <td>Dynamische borden maken</td>
