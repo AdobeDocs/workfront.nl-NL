@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 4b396508c85758aa7efeca9e18cdbd204b06146f
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '12897'
+source-wordcount: '12905'
 ht-degree: 0%
 
 ---
@@ -935,6 +935,7 @@ ht-degree: 0%
       * [Een inlaatkolom aan een bord toevoegen](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Groepen aan boord gebruiken](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Afvalfunctie van kaart configureren](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [Kanbankkaarten voor mobiele teams migreren naar Workfront-borden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
