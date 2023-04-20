@@ -6,14 +6,16 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
 
 # Een ad-hockaart aan een kaart toevoegen
+
+{{highlighted-preview}}
 
 U kunt snel een kaart aan een raad toevoegen en het aan een lid in de raad toewijzen. De kaart kan een taak, een kwestie, een persoon, een groep, of om het even welk type van punt vertegenwoordigen dat u op de raad wilt omvatten.
 
@@ -63,7 +65,7 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>Een beschrijving van de kaart.</td> 
+      <td>Een beschrijving van de kaart. <span class="preview">U kunt URL's toevoegen in de beschrijving en deze worden klikbare koppelingen wanneer de kaart wordt opgeslagen.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -96,7 +98,17 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
     </tbody> 
    </table>
 
+   Voorbeeldkaart met details van afbeelding in de productieomgeving:
    ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Voorbeeldkaart met details van afbeelding in de voorvertoningsomgeving:
+   ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Gebruik het navigatievenster aan de linkerkant om te schakelen tussen groepen velden op de kaartdetails.</span>
+
+   >[!NOTE]
+   >
+   >Het navigatievenster aan de linkerkant en de mogelijkheid om klikbare koppelingen toe te voegen in het veld Beschrijving zijn alleen beschikbaar via de vroege functieoptie voor Workfront Boards.
 
 1. Klikken **[!UICONTROL Close]** om de kaart aan het bord toe te voegen.
 
