@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ Dit opent de doellijst.
 
    >[!TIP]
    >
-   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
+   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Afbeeldingen die aan de opmerking worden toegevoegd, worden ook in het concept opgeslagen. Concepten worden 7 dagen bewaard waarna ze worden verwijderd en kunnen niet worden hersteld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
 
+1. (Optioneel) Als u opmaak met RTF-opmaak wilt toevoegen aan de update, een hyperlink of een afbeelding, gebruikt u de gewenste opties op de werkbalk RTF of de pictogrammen ernaast. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
+1. Selecteer **Privé voor mijn bedrijf** Schakel deze optie in om de opmerking alleen zichtbaar te maken voor mensen in uw bedrijf.
+
+   >[!TIP]
+   >
+   >U moet een Bedrijf hebben in uw profiel wordt gespecificeerd om deze optie beschikbaar in het gebied van Updates te hebben dat.
+
+1. Klikken **Verzenden**.
+
+   >[!TIP]
+   >
+   >Als een andere gebruiker een opmerking verzendt naar hetzelfde item dat u bijwerkt, wordt er een rode lijn weergegeven met de indicator &quot;Nieuw&quot; om u op de hoogte te brengen van de nieuwere opmerkingen.
+   >
+   >De indicator wordt alleen weergegeven nadat de opmerking op het item is verzonden, en niet wanneer de opmerking nog steeds wordt samengesteld.
+   >
+   >De indicator &quot;Nieuw&quot;toont slechts wanneer zowel de gebruiker die een nieuwe update inging als de gebruiker die momenteel een update ingaat de nieuwe opmerkingervaring gebruikt.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-icon.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
-1. Bewerk de informatie in de opmerking&lt;<!--, or remove any of the tagged users-->.
+1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers.
 U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
 
          Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Klikken **Verzenden**.
-
-   >[!TIP]
-   >
-   >Als een andere gebruiker een opmerking verzendt naar hetzelfde item dat u bijwerkt, wordt er een rode lijn weergegeven met de indicator &quot;Nieuw&quot; om u op de hoogte te brengen van de nieuwere opmerkingen.
-   >
-   >De indicator wordt alleen weergegeven nadat de opmerking op het item is verzonden, en niet wanneer de opmerking nog steeds wordt samengesteld.
-   >
-   >De indicator &quot;Nieuw&quot;toont slechts wanneer zowel de gebruiker die een nieuwe update inging als de gebruiker die momenteel een update ingaat de nieuwe opmerkingervaring gebruikt.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van een opmerking klikt u op **Verwijderen** om een toegevoegde opmerking te verwijderen.
+1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van een opmerking klikt u op **Verwijderen** om een toegevoegde opmerking te verwijderen. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de bovenstaande stappen 5 tot en met 9. <!--insure this stays accurate-->
 1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Updates worden weergegeven, klikt u op **Weergave** in het blauw **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
 
@@ -176,7 +183,7 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
 
    Aanvullende opmerkingen worden onder in het scherm weergegeven.
 1. (Optioneel) Klik op de knop **leuk** pictogram![](assets/like-icon.png) als u een opmerking wilt toevoegen die iemand anders heeft toegevoegd. Het pictogram wordt bijgewerkt met het aantal ‘like’.
-1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u tijdens het typen kenmerken op de werkbalk RTF. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. (Optioneel) Klik op de knop **Systeemactiviteit** om updates weer te geven die zijn geregistreerd door het systeem. Wanneer een doel wordt bijgewerkt, genereert Workfront een notitie over die update en geeft deze weer op het tabblad Systeemactiviteit. Workfront registreert ook een systeemupdate wanneer een resultaat, een activiteit, of een project aan het doel wordt toegevoegd of wanneer het wordt bijgewerkt. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
