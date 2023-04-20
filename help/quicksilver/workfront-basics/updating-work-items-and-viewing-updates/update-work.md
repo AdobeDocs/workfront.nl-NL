@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2945'
 ht-degree: 0%
 
 ---
@@ -196,7 +196,7 @@ De **Opmerkingen** is standaard geselecteerd.
 
    >[!TIP]
    >
-   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
+   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Afbeeldingen die aan de opmerking worden toegevoegd, worden ook in het concept opgeslagen. Concepten worden 7 dagen bewaard waarna ze worden verwijderd en kunnen niet worden hersteld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
 
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
 1. (Optioneel) Als u tekstopmaak wilt toevoegen aan de update, gebruikt u een van de volgende opties in het menu **RTF** werkbalk om de tekst te verbeteren:
@@ -223,7 +223,7 @@ De **Opmerkingen** is standaard geselecteerd.
 
 1. Klikken **Verzenden** om de update aan het Workfront-object toe te voegen.
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
-1. De gegevens in de opmerking bewerken <!--or remove any of the tagged users-->.
+1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers.
 U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    1. Onder **Weer te geven tekst**, typt of plakt u de koppelingstekst.
    1. Klikken **Opslaan**.
 
-1. (Optioneel) Als u een afbeelding aan de update wilt koppelen, klikt u op de knop **Afbeelding** pictogram ![](assets/addimageicon-35x32.png) en blader naar de afbeelding op uw computer.\
-   of\
-   Sleep de afbeelding naar het updategebied.
+1. (Optioneel) Voer een van de volgende handelingen uit als u een afbeelding aan de update wilt koppelen, afhankelijk van de omgeving die u gebruikt:
+
+   * Klik op de knop **Afbeelding** pictogram ![](assets/addimageicon-35x32.png) en blader aan het beeld op uw computer of sleep het beeld in het updategebied, wanneer het gebruiken van de huidige het bijwerken ervaring
+
+   of
+
+   Klik op de knop **Bijlage toevoegen** pictogram ![](assets/add-image-paperclip-icon.png) en bladert u naar de afbeelding op uw computer als u de bètaervaring voor opmerkingen gebruikt.
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klik in het bericht dat wordt weergegeven op **Bevestigen** of **Verwijderen**, wanneer u de bètaervaring voor opmerkingen gebruikt.
+1. Klik in het bericht dat wordt weergegeven op **Bevestigen** of klik op **Verwijderen**, wanneer u de bètaervaring voor opmerkingen gebruikt.
 
->[!NOTE]
->
->Als u een update met een bijgevoegde afbeelding verwijdert, worden zowel de opmerking als de afbeelding verwijderd.
+   >[!NOTE]
+   >
+   >Als u een update met een bijgevoegde afbeelding verwijdert, worden zowel de opmerking als de afbeelding verwijderd.
+
+   Wanneer aan de opmerking die u verwijdert, reacties zijn gekoppeld, wordt aangegeven dat de opmerking is verwijderd met de naam van de gebruiker die de opmerking heeft verwijderd.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   Als u de bètaervaring voor opmerkingen gebruikt, worden verwijderde opmerkingen direct uit Workfront verwijderd. Een gebruiker die de sectie van Updates gebruikt ziet een commentaar dat door een andere gebruiker in echt - tijd wordt geschrapt.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Een update toevoegen aan een tijdspagina
 
