@@ -6,9 +6,9 @@ description: Leer over de gebieden van Adobe Workfront waar u van verzoeken kunt
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,11 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
 
    Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het converteren van problemen raadpleegt u [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Van de **Filterpictogram** ![](assets/filter-nwepng.png) in de rechterbovenhoek van de lijst selecteert u een van de filters die in de onderstaande tabel worden vermeld.
+1. Van de **Filterpictogram** ![](assets/filter-nwepng.png) Selecteer in de rechterbovenhoek van de lijst de filters die in de onderstaande tabel worden vermeld.
 
    >[!TIP]
    >
-   >U kunt filters in de Ingediende sectie van het gebied van Verzoeken niet wijzigen. Bovendien zijn er geen opties om de weergave van de lijst met ingediende verzoeken te wijzigen of te wijzigen.
+   >U kunt filters in de Ingediende sectie van het gebied van Verzoeken niet wijzigen.
 
    <table style="table-layout:auto"> 
     <col> 

@@ -2,7 +2,7 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
+source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
 workflow-type: tm+mt
 source-wordcount: '12919'
 ht-degree: 0%
@@ -808,7 +808,7 @@ ht-degree: 0%
       * [Andere tags toepassen op updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Alle updates in een notitierapport weergeven](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Overzicht van de knop Aan de slag en Gereed](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Unieke ervaring met opmerkingen](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+      * [Nieuwe ervaring met opmerkingen](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Werken met aangepaste formulieren {#work-with-custom-forms}
       * [Werken met aangepaste formulieren](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Een aangepast formulier toevoegen aan een object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

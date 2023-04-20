@@ -4,7 +4,8 @@ description: 23.2 Andere verbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Met dit nieuwe ontwerp hebben we het toevoegen van opmerkingen aan systeemupdate
 
 In toekomstige versies worden meer functies toegevoegd, aangezien deze verbeteringen nog steeds aan andere objecten worden toegevoegd.
 
-Voor informatie over wat de nieuwe opmerkingervaring aanbiedt, raadpleegt u [Ervaring voor Unified Commating](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+Voor informatie over wat de nieuwe opmerkingervaring aanbiedt, raadpleegt u [Nieuwe ervaring met opmerkingen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 [Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
