@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Aangepaste formuliergegevens overbrengen bij de conversie van een object
 
-Afhankelijk van de bedrijfsbehoeften van uw organisatie, zou het werk dat in een taak of een kwestie wordt bepaald te groot kunnen worden om het binnen de taak of de kwestie te beheren. In dit geval kunt u ze omzetten in een groter werkitem:
+Afhankelijk van de bedrijfsbehoeften van uw organisatie, zou het werk dat in een taak of een kwestie wordt bepaald te groot kunnen worden om binnen de taak of de kwestie te leiden. In dit geval kunt u ze omzetten in een groter werkitem:
 
 * U kunt uitgaven in taken of in projecten omzetten
 * U kunt taken omzetten in projecten
@@ -51,34 +51,25 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
 
-## Eerste: Het aangepaste formulier kopiëren {#first-copy-the-custom-form}
-
-Eerst moet u ervoor zorgen dat u aangepaste formuliergegevens behoudt voor een taak of uitgave die u wilt converteren. Omdat de aangepaste formuliergegevens exact moeten overeenkomen met het geconverteerde item, is het aan te raden het formulier te dupliceren, zodat u het aan het nieuwe object kunt koppelen.
-
->[!TIP]
->
->Een andere manier om aangepaste formuliergegevens in deze situatie te behouden, is door het grotere objecttype toe te voegen aan het aangepaste formulier. Zie de sectie [Een aangepast formulier bewerken starten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) in het artikel [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+## Eerste: Extra objecten toevoegen aan het aangepaste formulier
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Klikken **Aangepaste Forms**.
-1. Selecteer het aangepaste formulier voor taken of uitgaven en klik op **Kopiëren**.
-1. In de **Aangepast formulier** geeft u een naam op voor het nieuwe formulier.
+1. Zoek het formulier dat u nodig hebt en klik op **Bewerken**.
+1. Voeg boven aan het formulier het object toe waarnaar u de taak of uitgave wilt converteren.
+   >[!INFO]
+   >
+   >**Voorbeeld**: Selecteer Project als u de aangepaste formuliergegevens naar een project wilt overbrengen.
 
-1. Van de **Formuliertype** selecteert u het type object waarvoor u het nieuwe aangepaste formulier wilt maken
-
-   **Voorbeeld:** Selecteer Project als u de aangepaste formuliergegevens naar een project wilt overbrengen.
-
-1. Klikken **Formulier kopiëren**.
-
-   Dit gekopieerde aangepaste formulier kan nu worden gekoppeld aan een taak of project.
+1. Klikken **Toepassen** onder aan het formulier.
 
 1. Doorgaan naar [Tweede: De uitgave of taak converteren en de aangepaste formuliergegevens overdragen](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## Tweede: De uitgave of taak converteren en de aangepaste formuliergegevens overdragen {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Kopieer het aangepaste formulier naar de uitgave of taak die u converteert, zoals wordt uitgelegd in de sectie [Eerste: Het aangepaste formulier kopiëren](#first-copy-the-custom-form) in dit artikel.
-1. Converteer het probleem of de taak met de opdracht **Aangepaste Forms** in het vak dat wordt weergegeven, selecteert u het aangepaste formulier dat u hebt gekopieerd. Zie de volgende artikelen voor instructies:
+1. Voeg aanvullende objecten toe aan het aangepaste formulier voor de uitgave of taak die u converteert, zoals wordt uitgelegd in de sectie [Eerste: Extra objecten toevoegen aan het aangepaste formulier](#first-add-additonal-objects-to-the-custom-form) in dit artikel.
+1. Converteer het probleem of de taak met de opdracht **Aangepaste Forms** in het vak dat wordt weergegeven om het gewenste aangepaste formulier te selecteren. Zie de volgende artikelen voor instructies:
 
    * [Een uitgave converteren naar een project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Een uitgave converteren naar een taak in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
@@ -88,3 +79,29 @@ Eerst moet u ervoor zorgen dat u aangepaste formuliergegevens behoudt voor een t
 
    De informatie die wordt vastgelegd in de aangepaste velden van de uitgave wordt nu overgebracht naar het aangepaste formulier op de taak.
 
+
+<!--
+## First: Copy the custom form {#first-copy-the-custom-form}
+
+First you need to make sure that you retain any custom form data on a task or issue you want to convert. Because the custom form data must be an exact match on the converted item, it is best practice to duplicate the form so that you can attach it to the new object.
+
+>[!TIP]
+>
+>Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see the section [Start editing a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. Click **Custom Forms**.
+1. Select the task- or issue-type custom form, then click **Copy**.
+1. In the **Custom Form** dialog box, specify a name for the new form.  
+
+1. From the **Form Type** drop-down menu, select the type of object you want to create the new custom form for
+
+   **Example:** If you want to transfer the custom form data to a project, select Project.
+
+1. Click **Copy Form**.
+
+   This copied custom form can now be attached to a task or project.
+
+1. Continue on to [Second: Convert the issue or task and transfer the custom form data](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+-->
