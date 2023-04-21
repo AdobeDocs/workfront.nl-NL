@@ -1,5 +1,5 @@
 ---
-title: Overzicht van verouderde licenties
+title: Overzicht van licenties
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# Overzicht van verouderde licenties
+# Overzicht van licenties
 
-Uw organisatie heeft een aantal oudere licenties aangeschaft bij de aanschaf van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de vier soorten verouderde Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
+Uw organisatie heeft een aantal licenties aangeschaft bij de aanschaf van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de vier typen betaalde Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
 
-## Hoe verouderde licenties en toegangsniveaus uit oudere versies aan elkaar zijn gekoppeld
+## Hoe licenties en toegangsniveaus aan elkaar zijn gekoppeld
 
-De vier soorten licenties voor Workfront-verouderde licenties bieden verschillende toegangsniveaus tot Workfront. Elk verouderd toegangsniveau is gekoppeld aan een van deze verouderde licenties.
+De vier soorten licenties voor Workfront die worden betaald, maken verschillende toegangsniveaus tot Workfront mogelijk. Elk toegangsniveau is in bijlage aan één van deze vergunningen.
 
-Als Workfront-beheerder wijst u een verouderde licentie niet aan een gebruiker toe, maar wijst u deze beheerder het verouderde toegangsniveau toe dat aan die oudere licentie is gekoppeld.
+Als Workfront-beheerder wijst u in plaats van een licentie aan een gebruiker toe, het toegangsniveau toe dat aan die licentie is gekoppeld.
 
 In deze tabel en in dit diagram ziet u de belangrijkste toegangsniveaus tot Workfront:
 
-| Verouderde licentie | Gekoppeld toegangsniveau voor oudere bestanden |
+| Licentie | Gekoppeld toegangsniveau |
 |--- |--- |
 | Plan | Systeembeheerder, Planner |
 | Werk | Worker |

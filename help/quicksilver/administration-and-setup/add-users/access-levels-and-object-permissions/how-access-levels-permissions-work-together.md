@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
 
-# Hoe de niveaus van de erfenistoegang en toestemmingen samenwerken
+# Hoe de toegangsniveaus en de toestemmingen samenwerken
 
 De beheerder van Adobe Workfront bepaalt welk toegangsniveau elke gebruiker zou moeten hebben. Dat toegangsniveau bepaalt wat de gebruikers kunnen zien en met objecten types en gebieden in het systeem doen.
 
@@ -31,11 +31,11 @@ Bijvoorbeeld, als uw toegangsniveau zegt dat u taken kunt tot stand brengen, maa
 
 In dit artikel wordt uitgelegd hoe deze combinatie werkt.
 
-## Verouderd toegangsniveau
+## Toegangsniveau
 
 Het toegangsniveau dat door een Workfront-beheerder aan elke gebruiker wordt toegewezen, is vereist voor aanmelding bij Workfront.
 
-De standaard oudere toegangsniveaus zijn:
+De standaardtoegangsniveaus zijn:
 
 * Systeembeheerder (bijgevoegd bij de licentie voor abonnementen)
 * Planner (als bijlage bij de planvergunning gevoegd)

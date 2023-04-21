@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Oudere toegang tot objecten en gebieden per licentietype
-description: In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-verouderde licenties wordt toegestaan voor de objecten en gebieden in Workfront.
+title: Toegang tot objecten en gebieden per licentietype
+description: In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
-# Oudere toegang tot objecten en gebieden per licentietype
+# Toegang tot objecten en gebieden per licentietype
 
-In de onderstaande tabel ziet u het hoogste niveau van verouderde toegang (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
+In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
 
 * **Weergave**: De gebruiker kan items controleren en delen.
 * **Bewerken**: De gebruiker kan items maken, bewerken, verwijderen en delen.
@@ -53,7 +53,7 @@ In de onderstaande tabel ziet u het hoogste niveau van verouderde toegang (Bewer
 >
 >Externe gebruikers kunnen niet zoeken naar items in Workfront. Ze kunnen documenten en kalenders weergeven die specifiek met hen worden gedeeld. Ze kunnen ook de gebruikers zien die items met hen delen.
 
-In de volgende artikelen vindt u gedetailleerde informatie over de toegangsniveaus in oudere versies voor elk object en elk gebied:
+In de volgende artikelen vindt u gedetailleerde informatie over wat de toegangsniveaus voor elk object en gebied toestaan:
 
 * [Toegang verlenen tot projecten](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Toegang verlenen tot taken](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

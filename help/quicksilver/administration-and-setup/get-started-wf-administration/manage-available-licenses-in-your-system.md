@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
 1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
 
-   Voor meer informatie over de licenties die op deze pagina worden vermeld, raadpleegt u [Overzicht van verouderde licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Voor meer informatie over de licenties die op deze pagina worden vermeld, raadpleegt u [Overzicht van licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## Informatie weergeven over maandelijkse toegewezen bewijzen en documenten
 
-Voor alle niet-betaalde Workfront-licenties geldt een beperking van het aantal bewijzen en documentbeschikkingen. Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers.
-
 >[!IMPORTANT]
 >
->Bewijs- en documentbeslissingslimieten gelden niet voor gebruikers op [verouderde Workfront-licenties en toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>De limieten voor het bewijs van bevoegdheid en het document gelden alleen voor gebruikers van de nieuwe licenties. Zie voor meer informatie [Overzicht van nieuwe licenties](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+Voor alle niet-betaalde Workfront-licenties geldt een beperking van het aantal bewijzen en documentbeschikkingen. Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers.
 
 De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement dat u gebruikt. U kunt uw maandelijkse toewijzing bekijken in Opstelling > Vergunningen.
 

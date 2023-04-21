@@ -5,23 +5,19 @@ title: Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde ge
 description: Voor alle niet-betaalde Workfront-licenties geldt een beperking van het aantal bewijzen en documentbeschikkingen. Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers.
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
 
-
 # Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers
 
-Voor alle niet-betaalde Workfront-licenties geldt een beperking van het aantal bewijzen en documentbeschikkingen. Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers.
+Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Zie voor meer informatie [Overzicht van nieuwe licenties](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->Bewijs- en documentbeslissingslimieten gelden niet voor gebruikers op [verouderde Workfront-licenties en toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement waarop u werkt:
+Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers. De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement waarop u werkt:
 
 <table>
   <tr>

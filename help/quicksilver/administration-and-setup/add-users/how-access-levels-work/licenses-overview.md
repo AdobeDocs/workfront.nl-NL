@@ -1,28 +1,29 @@
 ---
-title: Overzicht van licenties
+title: Overzicht van nieuwe licenties
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: licentie,type
 navigation-topic: access-levels
-description: Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen betaalde Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
+description: Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen nieuwe licenties voor betaalde Workfront wanneer u een toegangsniveau aan de gebruiker toewijst.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6c1103ad00d7ac255aab1a2eb08df7b8b398b923
+exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
-# Overzicht van licenties
+# Overzicht van nieuwe licenties
 
 Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen betaalde Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
 
-## Hoe Workfront-licenties en toegangsniveaus aan elkaar zijn gekoppeld
+## Hoe nieuwe Workfront-licenties en nieuwe toegangsniveaus aan elkaar zijn gekoppeld
 
-De drie soorten tegen betaling afgegeven Workfront-licenties maken verschillende toegangsniveaus tot Workfront mogelijk. Elk toegangsniveau is in bijlage aan één van deze vergunningen.
+De drie soorten nieuwe betaalde Workfront-licenties bieden verschillende toegangsniveaus tot Workfront. Elk toegangsniveau is in bijlage aan één van deze vergunningen.
 
 Als Workfront-beheerder wijst u in plaats van een licentie aan een gebruiker toe, het toegangsniveau toe dat aan die licentie is gekoppeld.
 
@@ -56,4 +57,3 @@ Als u bijvoorbeeld het toegangsniveau Standaard aan een gebruiker toewijst, word
 U kunt de licenties en toegangsniveaus weergeven die aan uw gebruikers zijn toegewezen. Zie voor meer informatie [De toegangsniveaus en licenties van uw gebruikers weergeven](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 Voor informatie over het beheer van uw licenties raadpleegt u [Beschikbare licenties in uw systeem beheren](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
-

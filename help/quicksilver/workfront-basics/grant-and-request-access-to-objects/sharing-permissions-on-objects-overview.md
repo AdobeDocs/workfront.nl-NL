@@ -6,7 +6,7 @@ description: U kunt machtigingen delen of verwijderen voor een object dat u hebt
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 U hoeft geen Adobe Workfront-beheerder te zijn om machtigingen te delen voor objecten waartoe u toegang hebt, maar machtigingen voor objecten werken binnen de toegangsniveaus die door de Workfront-beheerder zijn ingesteld.
 
-U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [Overzicht van toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [Overzicht van verouderde toegangsniveaus](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [Overzicht van nieuwe toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [Overzicht van toegangsniveaus](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

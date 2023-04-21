@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
-title: Beschikbare functionaliteit voor elk objecttype voor verschillende oudere toegangsniveaus
+title: Beschikbare functionaliteit voor elk objecttype voor verschillende toegangsniveaus
 description: De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
 
-# Beschikbare functionaliteit voor elk objecttype voor verschillende oudere toegangsniveaus
+# Beschikbare functionaliteit voor elk objecttype voor verschillende toegangsniveaus
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 

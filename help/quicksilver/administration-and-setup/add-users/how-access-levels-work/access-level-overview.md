@@ -1,5 +1,5 @@
 ---
-title: Overzicht van toegangsniveaus
+title: Overzicht van nieuwe toegangsniveaus
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: Elke gebruiker moet een toegangsniveau hebben om zich aan te melden
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
 
-# Overzicht van toegangsniveaus
+# Overzicht van nieuwe toegangsniveaus
 
 Als beheerder van Adobe Workfront, wijst u een toegangsniveau aan een gebruiker voor twee doeleinden toe:
 
 * Elke gebruiker moet een toegangsniveau hebben om zich aan te melden en in Workfront te werken.
 * Met het toegangsniveau kunt u bepalen wat een gebruiker kan zien en doen met bepaalde Workfront-objecten en -gebieden.
 
-## Ingebouwde toegangsniveaus in Adobe Workfront {#built-in-access}
+## Nieuwe ingebouwde toegangsniveaus in Adobe Workfront {#built-in-access}
 
-Workfront heeft 6 ingebouwde toegangsniveaus:
+Workfront heeft 6 nieuwe ingebouwde toegangsniveaus:
 
 * Systeembeheerder
 * Standaard
