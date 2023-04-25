@@ -7,16 +7,16 @@ description: Privacy en rechten in Workfront for G Suite
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: a156092bf2b6cca70d09b76a65d755fbe05ec8da
+source-git-commit: bd9fb14b99886f4a514c4d37ad9d93be7a051858
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Privacy en rechten in Workfront for G Suite
 
-Omdat de privacy van klanten belangrijk is, slaat Adobe Workfront geen identificerende klantgegevens op of verzamelt deze die het resultaat zijn van toestemming van derden voor een Google-plug-in. Het gebruik en de overdracht van informatie die Workfront for G Suite van Google API&#39;s heeft ontvangen naar een andere app, voldoen aan het gebruikersgegevensbeleid van Google API Services, inclusief de gebruiksvereisten.
+Omdat de privacy van klanten belangrijk is, slaat Adobe Workfront geen identificerende klantgegevens op of verzamelt deze die het resultaat zijn van toestemming van derden voor een Google-plug-in. Het gebruik en de overdracht door Workfront for G Suite van informatie die van Google API&#39;s is ontvangen naar een andere app, worden ondersteund door de [Gebruikersgegevensbeleid Google API Services](https://developers.google.com/terms/api-services-user-data-policy), inclusief de vereisten voor beperkt gebruik.
 
 De volgende machtigingen zijn vereist, zodat de Workfront for G Suite-plug-in de maximale waarde kan leveren:
 
