@@ -9,9 +9,9 @@ description: U kunt de Adobe Workfront Fusion Adobe Workfront-connector gebruike
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '4852'
+source-wordcount: '4864'
 ht-degree: 0%
 
 ---
@@ -278,7 +278,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
    <td>Selecteer het object waarnaar u het wilt omzetten. Dit is het type dat het object na de conversie heeft.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Object> ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Voer de id van het object in. </p> <p>Opmerking: Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -771,7 +771,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
-   <td> <p>Voer het veld in waarnaar u wilt zoeken, de operator die u in de query wilt gebruiken en de waarde waarnaar u in het veld zoekt.</p> <p>Opmerking: Niet gebruiken <code>username </code>in uw zoekcriteria. Inclusief <code>username </code>in een API-query naar [!DNL Workfront] logt de gebruiker in Workfront, en het onderzoek zal niet succesvol zijn.</p> </td> 
+   <td> <p>Voer het veld in waarnaar u wilt zoeken, de operator die u in de query wilt gebruiken en de waarde waarnaar u in het veld zoekt.</p> <p>Opmerking: Niet gebruiken <code>username </code>in uw zoekcriteria. Inclusief <code>username </code>in een API-query naar [!DNL Workfront] logt de gebruiker in Workfront, en het onderzoek zal niet succesvol zijn.</p> <p>Opmerking: <code>In</code> en <code>NotIn</code>werken met arrays. De invoer moet een arrayindeling hebben.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Outputs]</td> 
