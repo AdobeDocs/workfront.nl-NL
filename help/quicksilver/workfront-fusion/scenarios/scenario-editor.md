@@ -7,9 +7,9 @@ description: De scenario redacteur staat u toe om scenario's in een visuele inte
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
    Als u een bestaand scenario wilt uitgeven, klik het scenario.
 
-1. (Voorwaardelijk) Als u een nieuw scenario maakt, onder **[!UICONTROL What services do you want to integrate]** selecteert u de toepassingen waarmee u wilt werken in het scenario en klikt u vervolgens op **[!UICONTROL Continue]**.
-
-   of
-
-   Klikken **[!UICONTROL Skip]** als u de apps liever in de scenario-editor wilt kiezen.
-
    In de scenario redacteur die toont, kunt u alles doen die in de lijst hieronder wordt vermeld. Zie voor meer informatie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Wanneer u klaar bent met het bewerken van een scenario (of op elk gewenst moment tijdens het bewerken), klikt u op de knop [!UICONTROL Save] pictogram. ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    >Nadat u het scenario hebt opgeslagen, is er een nieuwe versie beschikbaar in het menu met drie punten voor het geval u deze in de toekomst wilt gebruiken. Eerder opgeslagen versies van scenario&#39;s zijn slechts beschikbaar gedurende 60 dagen.
 
 ## Beschikbare scenario-editoracties
+
+De volgende acties zijn beschikbaar in de redacteur Scenario:
 
 <table style="table-layout:auto"> 
 <tbody>

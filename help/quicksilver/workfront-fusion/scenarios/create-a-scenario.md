@@ -7,9 +7,9 @@ description: De volgende taken verklaren hoe te om tot een [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 1. Klikken **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
 
 1. Klikken **[!UICONTROL Create a new scenario]** in de rechterbovenhoek van de pagina.
-1. (Optioneel) Onder **[!UICONTROL What services do you want to integrate]** Als u een nieuw scenario maakt, selecteert u de apps waarmee u wilt werken in het scenario en klikt u op **[!UICONTROL Continue]**.
-
-   of
-
-   Klikken **[!UICONTROL Skip]** als u de apps wilt kiezen in de scenario-editor.
-
 1. Als u een nieuw scenario maakt, klikt u in het scherm dat wordt weergegeven (de scenario-editor) **[!UICONTROL New scenario]** in de linkerbovenhoek en typ een naam voor het scenario.
 1. Doorgaan naar [Voeg een module in een scenario toe](#add-a-module-in-a-scenario).
 
