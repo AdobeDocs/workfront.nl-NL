@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Verbeteringen voor Adobe Workfront
 
 * [Verbeteringen voor mobiele apparaten](#agile-enhancements)
+* [Verbeterde integratie](#integration-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Verbeteringen voor mobiele apparaten
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Eenvoudige filters toegevoegd aan de sjabloon van het dynamische bord</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>De filters op de dynamische bordsjabloon zijn vereenvoudigd, zodat u sneller een board kunt maken.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 27 april 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Dynamisch bordsjabloon</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Dynamisch bordsjabloon</a></p>
                         <p>Er is nu een nieuwe sjabloon, dynamisch bord, beschikbaar voor zelfstandige borden. Deze sjabloon is niet beschikbaar voor tekengebieden in een werkstroom.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Productieversie voor vroege opt-in: 27 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Kanbankkaarten voor mobiele teams migreren naar raden</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Kanbankkaarten voor mobiele teams migreren naar raden</a></p>
                         <p>Een nieuwe <b>Toevoegen aan kamers</b> op de werkbalk van het mobiele team Kanban kunt u alle kaarten van het Kanban-bord toevoegen aan een Workfront-bord. U kunt een nieuwe Workfront-kaart maken of de kaarten aan een bestaande kaart toevoegen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Productieversie voor vroege opt-in: 27 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Linkernavigatie toegevoegd aan kaartgegevens aan boord</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Linkernavigatie toegevoegd aan kaartgegevens aan boord</a></p>
                         <p>Aangezien meer veldopties aan kaarten op Workfront Boards worden toegevoegd, zijn de kaartdetails langer geworden. Met een nieuw navigatievenster links van de kaartdetails kunt u een sectie selecteren en automatisch naar die groep velden gaan.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Productieversie voor vroege opt-in: 27 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Verbeterde integratie
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">De sjablooninstellingen voor automatische proefdrukwerkstromen aanpassen met Adobe Workfront for Creative Cloud</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt de bestaande instellingen van de automatische werkstroomsjabloon nu rechtstreeks in de Creative Cloud aanpassen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 27 april 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 27 april 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Andere verbeteringen
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profielen zonder avatars geven nu gebruikersinitialen weer</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profielen zonder avatars geven nu gebruikersinitialen weer</a></p>
                         <p>Om het gemakkelijker te maken om specifieke gebruikers binnen grote lijsten te vinden, tonen de profielen zonder aangepaste avatars nu de initialen van de gebruiker op een gekleurde achtergrond in lijsten en erfenisrapporten. Dit is een kleine cosmetische wijziging die niet van toepassing is als een avatar-foto al wordt gebruikt of als de gebruiker wordt gedeactiveerd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Voorvertoningsrelease: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: met de release van 23.3</span></p>
+                                <p><span class="preview">Productieversie: 4 mei 2023</span></p>
                             </li>
                         </ul>
                     </td>
