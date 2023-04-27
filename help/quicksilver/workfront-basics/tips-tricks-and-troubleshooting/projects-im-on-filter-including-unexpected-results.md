@@ -5,9 +5,9 @@ title: Projecten waarop ik het filter actief heb, inclusief onverwachte resultat
 description: Lees dit artikel om de Projecten problemen op te lossen ik ben op filter met inbegrip van onverwachte resultaten.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De [!UICONTROL **Projecten waar ik aan sta**] filter omvat projecten die de gebr
 
 1. Controleer de [!UICONTROL **Projectdetails**] voor elk onverwacht project inbegrepen door de filter, en verwijder uw naam uit alle gebieden.
 
-OF
+   OF
 
 1. Probeer een vergelijkbaar filter, zoals [!UICONTROL **Projecten die ik heb**], die alleen projecten bevat die specifiek aan u zijn toegewezen.
 

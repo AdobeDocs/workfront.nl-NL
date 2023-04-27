@@ -7,9 +7,9 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,11 @@ In de onderstaande lijsten worden de beschikbare expressies gedefinieerd die u k
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>Met deze expressie wordt het aantal dagen aan de datum toegevoegd. De notatie is als volgt:</p><pre>ADDDAYS(datum, nummer)</pre> </td> 
+   <td> <p>Met deze expressie wordt het aantal dagen aan de datum toegevoegd. De getalwaarde kan gedeeltelijke dagen omvatten (1,5 voegt bijvoorbeeld anderhalve dag toe aan de datum).</p> <p>De expressie wordt als volgt opgemaakt:</p><pre>ADDDAYS(datum, nummer)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>Met deze expressie wordt het aantal weekdagen aan de datum toegevoegd en wordt de notatie als volgt weergegeven:</p><pre>ADDWEEKDAYS(datum, nummer)</pre> </td> 
+   <td> <p>Met deze expressie wordt het aantal weekdagen aan de datum toegevoegd. Met deze expressie worden alleen gehele gehele getallen aan de datum toegevoegd, naar beneden afgerond. </p> <p>De expressie wordt als volgt opgemaakt:</p><pre>ADDWEEKDAYS(datum, nummer)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
