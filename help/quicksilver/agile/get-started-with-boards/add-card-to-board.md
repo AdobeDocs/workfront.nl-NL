@@ -6,16 +6,14 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Een ad-hockaart aan een kaart toevoegen
-
-{{highlighted-preview}}
 
 U kunt snel een kaart aan een raad toevoegen en het aan een lid in de raad toewijzen. De kaart kan een taak, een kwestie, een persoon, een groep, of om het even welk type van punt vertegenwoordigen dat u op de raad wilt omvatten.
 
@@ -65,7 +63,7 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>Een beschrijving van de kaart. <span class="preview">U kunt URL's toevoegen in de beschrijving en deze worden klikbare koppelingen wanneer de kaart wordt opgeslagen.</span></td>
+      <td>Een beschrijving van de kaart. U kunt URL's toevoegen in de beschrijving en deze worden klikbare koppelingen wanneer de kaart wordt opgeslagen.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -98,13 +96,13 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
     </tbody> 
    </table>
 
-   Voorbeeldkaart met details van afbeelding in de productieomgeving:
+   Voorbeeld van kaartdetails in de productieomgeving zonder dat vroege toegang tot functies is ingeschakeld:
    ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-071822.png)
 
-   <span class="preview">Voorbeeldkaart met details van afbeelding in de voorvertoningsomgeving:
-   ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-041723.png)</span>
+   Voorbeeld van kaartdetails in de productieomgeving met vroege functionaliteit ingeschakeld:
+   ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Gebruik het navigatievenster aan de linkerkant om te schakelen tussen groepen velden op de kaartdetails.</span>
+   Gebruik het navigatievenster aan de linkerkant om te schakelen tussen groepen velden op de kaartdetails.
 
    >[!NOTE]
    >
