@@ -6,7 +6,7 @@ description: Informatie beheren in het gebied Projectfinanciering
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -189,22 +189,18 @@ Informatie bewerken op het subtabblad Projectfinanciering:
       <td>Geef het budget voor dit project op.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Vaste kosten</strong> </td> 
+      <td role="rowheader">Vaste kosten</td> 
       <td>Geef de vaste kosten voor dit project op. Hieronder vallen geen arbeids- of kostenkosten.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Vaste inkomsten</strong> </td> 
+      <td role="rowheader">Vaste inkomsten</td> 
       <td> <p>Geef de vaste inkomsten van dit project op. Hieronder vallen geen inkomsten uit factureringsgegevens die aan partners of derden in rekening worden gebracht.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projectvaluta</td> 
       <td> <p>Geef een valuta op voor dit project als deze afwijkt van de standaardvaluta in uw systeem. De standaardvaluta in uw systeem wordt bepaald door uw beheerder van Workfront. Raadpleeg het artikel voor meer informatie over het instellen van wisselkoersen in Workfront <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wisselkoersen instellen</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Klikken **Opslaan***Wijzigingen**.
+1. Klikken **Wijzigingen opslaan**.

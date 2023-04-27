@@ -6,9 +6,9 @@ description: Het proces voor het creëren van en het leiden van uitgaven is het 
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Ga naar het project waar u uitgaven wilt ingaan.\
    Als u uitgaven aan een taak wilt toevoegen, navigeer aan een taak in plaats daarvan. 
-1. Klikken **Tonen**** Meer**, klik vervolgens op **Uitgaven.**
-1. Klikken **Voeg een uitgave toe.**
-De 
-**Een uitgave toevoegen** wordt weergegeven.
+1. Klikken **Meer weergeven** en klik vervolgens op **Uitgaven**.
+1. Klikken **Een uitgave toevoegen** .
+De **Een uitgave toevoegen** wordt weergegeven.
 1. Werk het volgende bij:
 
    * **Omschrijving:** Beschrijving van de uitgave.
@@ -76,12 +75,12 @@ De
 
 1. Selecteer een **Aangepast formulier** en geeft aan welke aanvullende informatie vereist is. U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie het artikel voor informatie over het maken van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Klikken **Wijzigingen opslaan.**
+1. Klikken **Wijzigingen opslaan**.
 
 ## Kosten verwijderen
 
 1. Ga naar het project waar u uitgaven wilt schrappen.
-1. Klikken **Tonen*** Meer** en klik vervolgens op **Uitgaven.**
+1. Klikken **Meer weergeven** en klik vervolgens op **Uitgaven**.
 1. Selecteer de kosten die u wilt verwijderen en klik vervolgens op **Verwijderen** ![Verwijderen](assets/delete.png).
 
-1. Klikken **Ja, verwijderen** om schrapping te bevestigen. 
+1. Klikken **Ja, verwijderen** om schrapping te bevestigen.
