@@ -7,9 +7,9 @@ description: U kunt de kosten voor projecten, taken en problemen in Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>De werkelijke kosten van het project worden als volgt berekend:
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>Deze kosten worden niet gedupliceerd in de berekening van de werkelijke kosten. Als bijvoorbeeld een vaste kostprijs deel uitmaakt van de werkelijke kosten van het project, wordt deze niet afzonderlijk toegevoegd aan de werkelijke kosten.
+
+>[!NOTE]
+>
 >Wanneer het registreren van tijd op een project, bestaan de volgende scenario&#39;s wanneer het berekenen van de Ware Kosten van de Arbeid voor het project:
 >
 >* Standaard gebruikt Workfront de kosten per uur van de gebruiker om de werkelijke loonkosten te berekenen.
 >* Als de gebruiker die de tijd registreert niet met om het even welke kosten wordt geassocieerd, dan gebruikt Workfront de Kosten per Uur tarief van de Primaire Rol van de gebruiker.
 >* Als uw Workfront-beheerder het **Taken handmatig toewijzen aan uurwaarden** het plaatsen in het gebied van de Voorkeur van Timesheets &amp; van Uren, en de gebruiker het registreren tijd op het project selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Kosten van het project gebaseerd op de rol die werd gespecificeerd toen de uren werden geregistreerd. Zie het artikel voor informatie over het inschakelen van logboektijd voor een specifieke taakrol [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Hoe Workfront kostentypen berekent voor taken {#how-workfront-calculates-cost-types-for-tasks}
