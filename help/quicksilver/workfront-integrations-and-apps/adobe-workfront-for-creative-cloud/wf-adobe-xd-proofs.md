@@ -6,9 +6,9 @@ description: U kunt uw tekengebieden als proefdrukken rechtstreeks uploaden naar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ U kunt een interactieve proefdruk maken voor uw tekengebieden met de [!DNL Workf
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -229,6 +233,8 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Kies de exportindeling in het menu **[!UICONTROL Asset Type]** vervolgkeuzemenu.
 

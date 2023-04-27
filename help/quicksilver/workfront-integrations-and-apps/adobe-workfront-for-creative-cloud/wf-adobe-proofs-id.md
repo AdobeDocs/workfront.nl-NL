@@ -6,9 +6,9 @@ description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bek
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
 1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
 1. De optie **[!UICONTROL Create a proof]** schakelen.
-1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
 1. In de **[!UICONTROL Proof Approvals]** sectie, selecteert u **[!UICONTROL Basic]**.
 1. (Optioneel) Voeg fiatteurs toe.
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
+1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
+
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
 1. Klikken **[!UICONTROL Upload]** Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
 
    ![](assets/plugin-files-350x307.png)\
    Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
+
 
 ## Een automatische proefdruk uploaden
 
@@ -93,26 +92,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
 
 1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
-1. De optie **[!UICONTROL Create a proof]** schakelen en vervolgens de optie **[!UICONTROL Asset Type]** in het keuzemenu.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. De optie **[!UICONTROL Create a proof]** schakelen.
+1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
 1. In de **[!UICONTROL Proof Approvals]** sectie, selecteert u **[!UICONTROL Automated]**.
 1. (Optioneel) In het dialoogvenster **[!UICONTROL Workflow Template]** typt u de naam van een sjabloon voor een proefdrukwerkstroom.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> Als het werkstroomsjabloon lege verplichte velden bevat, worden de automatische proefdrukinstellingen automatisch geopend en moet u deze velden invullen om de proefdrukinstellingen te kunnen uploaden.
+
 
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
+1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
-1. Klikken **[!UICONTROL Upload]** Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
-
-   ![](assets/plugin-files-350x307.png)\
-   Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
-
+1. Klikken **[!UICONTROL Upload]**Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
+Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
 
 ## Een nieuwe proefdrukversie uploaden
 
@@ -126,15 +125,13 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png)in de navigatiebalk.
 
 1. Klikken **[!UICONTROL New Version]** aan de onderkant van de plug-in.
-1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
-1. De optie **[!UICONTROL Create a proof]** schakelen en vervolgens de optie **[!UICONTROL Asset Type]** in het keuzemenu.
-
-   ![](assets/plugin-create-proof-350x182.png)
+1. De optie **[!UICONTROL Create a proof]** schakelen.
 
 1. In de *[!UICONTROL *Proof approvals]**, kiest u **[!UICONTROL Basic]** of **[!UICONTROL Automated]**.
 
 1. Toevoegen **[!UICONTROL Reviewers]** of **[!UICONTROL Workflow template]** op basis van het goedkeuringstype dat u in stap 7 hebt geselecteerd.
 
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
+1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
 1. Klikken **[!UICONTROL Upload]**Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
 Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
