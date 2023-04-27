@@ -7,9 +7,9 @@ description: De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nie
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ Hieronder vindt u de typen bètaprogramma&#39;s die beschikbaar zijn in Workfron
    * Informatie over wanneer de eigenschappen aan openbare bèta worden vrijgegeven is inbegrepen in de de versiepagina&#39;s van het Product.
 
 Voor informatie over opmerkingen bij de release van producten raadpleegt u [Productintroducties](../../product-announcements/product-releases/product-releases.md).
+
+## Andere introducties
+
+Soms geeft Workfront functies vrij die mogelijk niet worden gedocumenteerd in de opmerkingen bij de release, onderhoudsupdates of in de feitelijke documentatieartikelen. Dit gebeurt in een poging om nieuwe eigenschappen te testen alvorens hen permanent te maken. Gewoonlijk worden deze tests vrijgegeven aan een beperkt aantal klanten, maar er kan een tijd zijn wanneer zij aan iedereen zouden kunnen worden vrijgegeven.
+
+Als u iets in het systeem tegenkomt dat niet overeenkomt met de documentatie, vragen wij u om contact op te nemen met ons klantenondersteuningsteam. Zie voor meer informatie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Opmerkingen bij de release
 

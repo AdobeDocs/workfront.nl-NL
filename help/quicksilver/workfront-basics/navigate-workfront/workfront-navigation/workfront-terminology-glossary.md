@@ -5,9 +5,9 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '15588'
+source-wordcount: '15821'
 ht-degree: 0%
 
 ---
@@ -844,11 +844,32 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <td>[!UICONTROL External]</td> 
    <td> <p>Doorgaans een licentietype of een gebruiker met een dergelijke licentie, dat alleen de mogelijkheid heeft om informatie in het systeem te controleren.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] overzicht van licenties</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL External System]</td> 
    <td>Alle diensten of software die buiten het aangewezen registratiesysteem worden opgeslagen en beheerd.</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Alle Workfront-objecten of de bijbehorende informatie, zoals deze in de database worden weergegeven. </p>
+   <p>"Project", "user" en "hour" zijn bijvoorbeeld zowel Workfront-objecten als velden. "Naam", "status", "eigenaar" en "begindatum" zijn Workfront-velden die zijn gekoppeld aan de bovenstaande objecten. </p>
+
+<p>Wanneer u naar objecten verwijst, kunnen de termen "objecten" en "velden" door elkaar worden gebruikt.</p>
+   <p>In het bereik van rapportage verwijzen de "velden" naar de objecten of de informatie over het object dat u wilt vastleggen in het rapport.</p>
+
+<p><b>OPMERKING</b></p>
+
+<p>Bij meer tekstrapportage verwijzen velden naar de objecten of hun informatie zoals deze in de database worden weergegeven.</p>
+   <p>Soms is de naam die u in de gebruikersinterface ziet anders dan de naam van het veld in de database. 'issue' is bijvoorbeeld de naam van het object in de Workfront-interface, maar 'opTask' is de naam van het object (of het veld) in de Workfront-database. </p> 
+   <p> Het is belangrijk om het gebied te gebruiken aangezien het in het gegevensbestand wanneer het schrijven van een tekst-wijze rapport, mening, filter, of groepering verschijnt, of wanneer het creëren van een berekend gebied.</p>
+
+<p>Zie voor meer informatie <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> en <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Overzicht van de tekstmodus</a>.</p>
+
+<p>Workfront wordt standaard geleverd met een set velden die zowel objecten als hun gegevens definiëren. U kunt ook aangepaste velden maken om objecten te definiëren, maar u kunt geen aangepaste objecten maken.</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>Één van de belangrijkste bouwstenen van een rapport of een lijstelement dat bepaalt welke informatievertoningen op het scherm. Voor meer informatie over rapportelementen raadpleegt u <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementen rapporteren: filters, weergaven en groepen</a>.</p> <p>De filter bepaalt de resultaten die in een rapport of op een [!DNL Workfront] , zoals projecten, taken of problemen.</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>De het werkpunten en rapporten van een organisatie, evenals de groepen gebruikers die hen binnen beheren [!UICONTROL Workfront]. Objecten kunnen:</p> 
+   <td> <p>De informatie die u in [!DNL Adobe Workfront] wordt voorgesteld door voorwerpen die in [!DNL Workfront] database. De objecten zijn de drijvende kracht achter de informatie in Workfront. Voorbeelden van objecten zijn:</p> 
     <ul> 
      <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL Programs]</li> 
@@ -1314,7 +1335,17 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Companies]</li> 
-    </ul> <p>Zie voor meer informatie <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten begrijpen in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+     <li>[!UICONTROL Custom forms]</li>
+     <li>[!UICONTROL Custom fields]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL Billing Rates]</li> 
+     <li>[!UICONTROL Templates]</li> 
+     <li>[!UICONTROL Template tasks]</li>
+
+<p><b>OPMERKING</b></p>
+  <p>Dit is geen uitgebreide lijst. </p>
+
+</ul> <p>Zie voor meer informatie <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten begrijpen in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object Types]</td> 

@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Kosten berekenen in de bronnenplanner
-description: '"(Alina: ***Gekoppeld aan de Planning in het artikel van de Planner van het Middel, Begrijpend gebieden van de Planner van het Middel. - niet verplaatsen/wijzigen/verwijderen.)'''
-author: Alina
+description: U kunt uw middelen in de Planner van het Middel van Adobe Workfront begroten door Kostenwaarden, in plaats van Uren of VTE waarden te gebruiken. Kostenwaarden zijn niet beschikbaar voor de weergave**Weergeven door gebruiker** in de functie Bronnen.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 U kunt uw middelen in de Planner van het Middel van Adobe Workfront begroten door Kostenwaarden, in plaats van Uren of VTE waarden te gebruiken. Kostenwaarden zijn niet beschikbaar voor de **Weergeven op gebruiker** in de Resource Planner.
 
@@ -70,7 +72,7 @@ Om Beschikbare, Geplande, en Gefabriceerde informatie door Kosten in de Planner 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
 
 1. Klikken **Bronnen**.
-1. Ga naar de .
+1. Ga naar de bronnenplanner.
 1. (Voorwaardelijk) Selecteren **Weergeven op project** of **Weergeven op rol**.\
    Standaard **Weergeven op project** is geselecteerd.\
    De informatie over toewijzing en beschikbaarheid wordt weergegeven in uren.

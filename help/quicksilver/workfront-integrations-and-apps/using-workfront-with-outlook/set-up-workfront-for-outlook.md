@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion biedt integratie met Outlook. In dit artikel
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ Bij het configureren van de client moet de gebruiker een van de volgende account
 
 Standaard wordt aan de vereisten van de mailserver voldaan wanneer u verbinding maakt met [!DNL Office 365] of [!DNL Outlook.com]. Als u echter verbinding hebt met een on-premise installatie van [!DNL Exchange Server]zijn de volgende voorschriften van toepassing:
 
-* Wij steunen [!DNL Exchange 2016 On-Premise]
+* Wij steunen allen [!DNL Exchange On-Premise] servers
 * [!DNL Exchange Web Services] (EWS) moet zijn ingeschakeld en moet beschikbaar zijn op internet.
 * De server moet een geldig verificatiecertificaat hebben voordat de server geldige id-tokens kan uitgeven. Nieuwe installaties van [!DNL Exchange Server] een standaardcertificaat voor verificatie opnemen.
 
-   Zie voor meer informatie [Digitale certificaten en versleuteling in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) en [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * Om toegang te krijgen tot [!DNL Workfront] toe:voegen-binnen van [[!DNL Office] Winkel](https://store.office.com/), moeten uw servers van de cliënttoegang met kunnen communiceren  [https://store.office.com](https://store.office.com/).
 
