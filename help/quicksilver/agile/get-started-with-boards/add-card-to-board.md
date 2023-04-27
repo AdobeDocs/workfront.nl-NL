@@ -6,9 +6,9 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -96,17 +96,9 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
     </tbody> 
    </table>
 
-   Voorbeeld van kaartdetails in de productieomgeving zonder dat vroege toegang tot functies is ingeschakeld:
-   ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-071822.png)
-
-   Voorbeeld van kaartdetails in de productieomgeving met vroege functionaliteit ingeschakeld:
    ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-041723.png)
 
    Gebruik het navigatievenster aan de linkerkant om te schakelen tussen groepen velden op de kaartdetails.
-
-   >[!NOTE]
-   >
-   >Het navigatievenster aan de linkerkant en de mogelijkheid om klikbare koppelingen toe te voegen in het veld Beschrijving zijn alleen beschikbaar via de vroege functieoptie voor Workfront Boards.
 
 1. Klikken **[!UICONTROL Close]** om de kaart aan het bord toe te voegen.
 

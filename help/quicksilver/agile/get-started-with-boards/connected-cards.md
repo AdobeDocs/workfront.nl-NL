@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </table>
 
    Gebruik het navigatievenster aan de linkerkant om te schakelen tussen groepen velden op de kaartdetails.
-
-   >[!NOTE]
-   >
-   >Het navigatievenster aan de linkerkant en de mogelijkheid om klikbare koppelingen toe te voegen in het veld Beschrijving zijn alleen beschikbaar via de vroege functieoptie voor Workfront Boards.
 
 1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
 Het verbonden object, de toewijzingen, de tags, de vervaldatum, de controlelijstteller, de geschatte uren en de status worden weergegeven op de kaart.
