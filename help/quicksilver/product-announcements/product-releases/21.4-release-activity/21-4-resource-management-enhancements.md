@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Voor informatie over het toewijzen van werkitems in de werklastbalans raadpleegt
 ## Nieuwe standaardoptie voor werklastverdeling
 
 In het kader van onze inspanningen om planning te vervangen en van het belangrijkste hulpmiddel voor het toewijzen van bronnen in Workload Balancer Workfront te maken, hebben we de Workfront Balancer tot de standaardoptie voor alle nieuwe gebruikers gemaakt. Momenteel, is het plannen de standaardoptie. Deze wijziging is van toepassing op alle gebieden waar u toegang hebt tot de planning, waaronder het gebied Bronnen (in de nieuwe Adobe Workfront-ervaring) of het gebied Mensen (in Adobe Workfront Classic), en op project- en teamniveau.
-
-Voor informatie over afgekeurde planning, zie [Veroudering van hulpmiddelen voor het plannen van bronnen in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## Nieuwe filterervaring in Workload Balancer
 

@@ -7,9 +7,9 @@ description: Verschillende functies worden geleidelijk uit het Adobe Workfront-p
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Verschillende functies worden geleidelijk uit het Adobe Workfront-product verwij
    <td>Niet meer ondersteund met de 21.2-release</td> 
   </tr> 
   <tr> 
-   <td> <p>Bronplanning</p> <p>Workload Balancer biedt een verbeterde ervaring bij het plannen van bronnen.</p> <p>Voor meer gedetailleerde informatie over de Balancer van de Werkbelasting en eigenschapvergelijkingen met het Middel die hulpmiddelen plannen, zie <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Veroudering van hulpmiddelen voor het plannen van bronnen in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Bronplanning</p> <p>Workload Balancer biedt een verbeterde ervaring bij het plannen van bronnen.</p> <p>Voor meer gedetailleerde informatie over de werklastbalans raadpleegt u <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Overzicht van de werklastbalans</a>.</p> </td> 
    <td> </td> 
    <td> <p>Niet meer ondersteund op 9 november 2020 (met de release 20.4)</p> <p>--</p> <p>Verwijderd van het Workfront-platform na de eerste helft van 2022</p> </td> 
   </tr> 

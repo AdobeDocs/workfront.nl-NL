@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: c57f437108fa70030973e227eb84882477ca386c
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '12928'
+source-wordcount: '12912'
 ht-degree: 0%
 
 ---
@@ -1645,8 +1645,6 @@ ht-degree: 0%
    * Bronbeheer {#resource-management}
       * [Bronbeheer](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Aan de slag met Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-      * [Veroudering van hulpmiddelen voor het plannen van bronnen in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-      * [Migreren van Resource Scheduling naar de Workload Balancer](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
    * Resourceplanning in Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Resourceplanning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Brongroepen {#resource-pools}

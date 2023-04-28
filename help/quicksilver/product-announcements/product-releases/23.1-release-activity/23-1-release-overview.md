@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -574,11 +574,7 @@ Als deel van de veroudering van de hulpmiddelen van de Planning van het Middel, 
 
 * De planningssectie van de pagina van een project
 
-De werklastbalans vervangt de bronnenplanner. Zie de volgende bronnen voor meer informatie over de afschrijving en hoe u zich kunt voorbereiden op het gebruik van de werklastverdeler:
-
-* [Veroudering van hulpmiddelen voor het plannen van bronnen in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migreren van Resource Scheduling naar de Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+De werklastbalans vervangt de bronnenplanner.
 
 #### **Het SHARE-gebeurtenistype in de API voor gebeurtenisabonnementen.**
 

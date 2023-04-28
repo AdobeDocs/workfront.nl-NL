@@ -7,9 +7,9 @@ description: De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nie
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Voor informatie over opmerkingen bij de release van producten raadpleegt u [Prod
 
 ## Andere introducties
 
-Soms geeft Workfront functies vrij die mogelijk niet worden gedocumenteerd in de opmerkingen bij de release, onderhoudsupdates of in de feitelijke documentatieartikelen. Dit gebeurt in een poging om nieuwe eigenschappen te testen alvorens hen permanent te maken. Gewoonlijk worden deze tests vrijgegeven aan een beperkt aantal klanten, maar er kan een tijd zijn wanneer zij aan iedereen zouden kunnen worden vrijgegeven.
+Soms geeft Workfront functies vrij die mogelijk niet worden gedocumenteerd in de opmerkingen bij de release, onderhoudsupdates of in de documentatieartikelen. Dit gebeurt in een poging om nieuwe eigenschappen te testen alvorens hen permanent te maken. Gewoonlijk worden deze tests vrijgegeven aan een beperkt aantal klanten, maar er kan een tijd zijn wanneer zij aan iedereen zouden kunnen worden vrijgegeven. Deze bestanden kunnen worden vrijgegeven voor de voorvertoning of de productieomgeving.
 
-Als u iets in het systeem tegenkomt dat niet overeenkomt met de documentatie, vragen wij u om contact op te nemen met ons klantenondersteuningsteam. Zie voor meer informatie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Als u iets in het systeem tegenkomt dat niet overeenkomt met de documentatie en waarover u vragen hebt, vragen wij u contact op te nemen met ons klantenondersteuningsteam. Zie voor meer informatie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Opmerkingen bij de release
 

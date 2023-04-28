@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: De werklastbalans
-description: De werklastbalans is een middel dat hulpmiddel plant dat uiteindelijk de huidige middel het plannen hulpmiddelen zal vervangen die momenteel afgekeurd zijn.
+description: De werklastbalans is een middel dat middelen plant die u toestaan om het werkpunten aan uw middelen toe te wijzen.
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # De werklastbalans
-
->[!IMPORTANT]
->
->De werklastbalans is een middel dat hulpmiddelen plant die de planningshulpmiddelen vervangen die momenteel afgekeurd zijn.
->
->Voor meer informatie over het verwijderen van het middel die hulpmiddelen plannen en hen vervangen met de Balancer van de Werkbelasting, zie [Veroudering van hulpmiddelen voor het plannen van bronnen in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->Wij adviseren dat u de Balancer van de Werkbelasting voor het plannen van uw middelen gebruikt.
 
 Raadpleeg de volgende artikelen voor informatie over wat de werklastbalans is, hoe u door de werkbalk kunt navigeren en hoe u werk eraan kunt toewijzen:
 
