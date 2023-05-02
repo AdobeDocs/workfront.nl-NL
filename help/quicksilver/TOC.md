@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
 workflow-type: tm+mt
-source-wordcount: '12912'
+source-wordcount: '12934'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,7 @@ ht-degree: 0%
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion-releaseactiviteit {#fusion-release}
          * [Adobe Workfront Fusion-releaseactiviteit](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion-releaseactiviteit: Week van 1 mei 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
          * [Workfront Fusion-releaseactiviteit: Week van 17 april 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
          * [Workfront Fusion-releaseactiviteit: Week van 20 maart 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
          * [Workfront Fusion-releaseactiviteit: Week van 6 maart 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
@@ -343,6 +344,10 @@ ht-degree: 0%
       * Canvasbèta melden {#reporting-canvas-beta}
          * [Overzicht van de bètaversie van Canvas rapporteren](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
          * [Canvasbèta melden: releaseactiviteit](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Nieuwe bètaervaring met opmerkingen {#new-commenting-experience-beta}
+         * [Nieuwe bètaervaringsgegevens voor opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * [Nieuwe bètaervaringsactiviteit voor opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Beheer en installatie {#administration-and-setup}
    * [Beheer en installatie](administration-and-setup/administration-and-setup.md)
    * Aan de slag met het beheer {#get-started-administration}
@@ -809,7 +814,6 @@ ht-degree: 0%
       * [Andere tags toepassen op updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Alle updates in een notitierapport weergeven](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Overzicht van de knop Aan de slag en Gereed](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Nieuwe ervaring met opmerkingen](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Werken met aangepaste formulieren {#work-with-custom-forms}
       * [Werken met aangepaste formulieren](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Een aangepast formulier toevoegen aan een object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

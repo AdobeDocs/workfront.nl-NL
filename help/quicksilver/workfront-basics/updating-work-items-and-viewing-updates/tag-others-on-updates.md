@@ -6,7 +6,7 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
->Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot het nieuwe ontwerp voor de volgende objecten:
 > * Problemen bij het inschakelen van het bètabestand voor opmerkingen.

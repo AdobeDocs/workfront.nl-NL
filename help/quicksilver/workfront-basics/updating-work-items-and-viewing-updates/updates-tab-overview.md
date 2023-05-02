@@ -7,7 +7,7 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
->Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot het nieuwe ontwerp voor de volgende objecten:
 > * Problemen bij het inschakelen van het bètabestand voor opmerkingen.
@@ -189,7 +189,7 @@ Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergeg
 >
 >Voor informatie over de objecthiërarchie in Adobe Workfront raadpleegt u [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Het is niet mogelijk te reageren op systeemupdates in de nieuwe bètaervaring voor opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+> Het is niet mogelijk te reageren op systeemupdates in de nieuwe bètaervaring voor opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Beperkingen van de sectie Updates
 
