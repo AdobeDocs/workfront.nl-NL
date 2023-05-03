@@ -8,7 +8,7 @@ feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
@@ -272,7 +272,7 @@ De volgende tabel bevat een aantal opties die u kunt gebruiken met de Workfront 
 | contains | retourneert resultaten als de naam &quot;Workfront&quot; bevat | <pre>...name=Workfront&amp;name_Mod=contains....</pre> |
 | Tussen | retourneert resultaten die de laatste 7 dagen een ingangsdatum hebben | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 Zoekverzoeken zijn hoofdlettergevoelig. Als er een fout optreedt, controleert u of  **_Mod** en **_Bereik** hebben de juiste hoofdletters en kleine letters.
