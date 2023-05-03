@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
->Ga voor meer informatie over de nieuwe ervaring met bijwerken naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->U hebt toegang tot het nieuwe ontwerp voor de volgende objecten:
+>Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
 > * Problemen bij het inschakelen van het bètabestand voor opmerkingen.
    >
    >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:
@@ -135,7 +136,7 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 1. Ga naar het het werkpunt waarvoor u een update (zoals een project, een taak, of een kwestie) wilt verstrekken.
 1. Klik op de knop **Updates** sectie.
 1. Klikken **Een nieuwe update starten,** typ de update.
-1. (Optioneel) Gebruik RTF-tekst of voeg emoties, koppelingen of afbeeldingen toe aan de update om de inhoud te verbeteren. Zie de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in dit artikel voor meer informatie
+1. (Optioneel) Gebruik RTF-tekst of voeg emoties, koppelingen of afbeeldingen toe aan de update om de inhoud te verbeteren. Zie voor meer informatie de [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel
 1. (Optioneel) Werk een van de volgende gegevens bij over het werkitem:
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ De **Opmerkingen** is standaard geselecteerd.
    * Genummerde lijst
    * Bijlage toevoegen <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Zie de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in dit artikel voor meer informatie. <!--remove this list, above, when we get to parity for Rich Text-->
+   Zie voor meer informatie de [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
    >U kunt geen opmerking toevoegen aan een systeemupdate.
 
 
-## RTF-bestanden gebruiken in een Workfront-update
+## RTF-bestanden gebruiken in een Workfront-update{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
    of
 
-   Klik op de knop **Bijlage toevoegen** pictogram ![](assets/add-image-paperclip-icon.png) en bladert u naar de afbeelding op uw computer als u de bètaervaring voor opmerkingen gebruikt.
+   Klik op de knop **Bijlage toevoegen** pictogram ![](assets/add-image-paperclip-icon.png) en bladert u naar de afbeelding op uw computer als u de bètaervaring voor opmerkingen gebruikt. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen voordat u het afbeeldingspictogram kunt zien.
+   >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen in het gedeelte Voorkeuren voor feeds bijwerken van het gebied Workfront Interface voordat u de pictogrammen Afbeelding of Bijlage toevoegen kunt zien. Zie voor meer informatie [Voorkeuren voor gebruikersupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* De maximale grootte van het afbeeldingsbestand is 7 MB. Ondersteunde bestandstypen voor afbeeldingen zijn .jpg, .gif en .png.
-   >* Afbeeldingen zijn alleen toegankelijk via het tabblad Updates van een object en zijn niet beschikbaar op het tabblad Documenten.
+   >* Afbeeldingen zijn toegankelijk vanuit de sectie Updates van een object en zijn ook beschikbaar in het gebied Documenten.
+   >* <!--In the current commenting experience,--> Wanneer u een opmerking verwijdert die een afbeelding bevat, blijft de afbeelding in het gebied Documenten staan, maar is deze niet meer zichtbaar in de sectie Updates.
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* U kunt een update verzenden met een afbeelding en geen tekst.
 
 1. Klikken **Bijwerken**  of **Verzenden**, wanneer u de bètaervaring voor opmerkingen gebruikt.
@@ -392,7 +396,7 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    >[!NOTE]
    >
-   >Als u een update met een bijgevoegde afbeelding verwijdert, worden zowel de opmerking als de afbeelding verwijderd.
+   >Als u een update met een bijgevoegde afbeelding verwijdert, worden zowel de opmerking als de afbeelding verwijderd. Zie voor meer informatie de [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
 
    Wanneer aan de opmerking die u verwijdert, reacties zijn gekoppeld, wordt aangegeven dat de opmerking is verwijderd met de naam van de gebruiker die de opmerking heeft verwijderd.
 

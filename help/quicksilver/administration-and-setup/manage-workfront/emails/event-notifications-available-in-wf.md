@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 0%
 
 ---
@@ -220,12 +220,8 @@ Zie ook [Meldingen: Verzoeken die ik heb ingediend](../../../workfront-basics/us
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document aanvragen Toevoegen aan primaire contactpersoon voor afgifte</p> </td> 
-   <td> <p>Een document wordt gewijzigd of geüpload op een probleem waarvoor ik de primaire contactpersoon ben.</p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer een document wordt geüpload of gewijzigd tijdens de uitgave, tenzij de gebruiker die het document heeft geüpload of gewijzigd ook de primaire contactpersoon is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten. 
-    <!-- GETEKEND IN FLARE: Voor meer informatie bij het publiceren van een project als Rij van het Verzoek van de Hulp, zie 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overzicht van het lusje van de Details van de Rij in een project</a>.
-    -->
-    </p> </td>
-<td> <p>Actief</p> </td> 
+   <td> <p>Een document wordt gewijzigd of geüpload op een probleem waarvoor ik de primaire contactpersoon ben.</p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer een document wordt geüpload of gewijzigd tijdens de uitgave, tenzij de gebruiker die het document heeft geüpload of gewijzigd ook de primaire contactpersoon is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.</p> </td> 
+   <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Probleem</p> </td> 
@@ -235,6 +231,11 @@ Zie ook [Meldingen: Verzoeken die ik heb ingediend](../../../workfront-basics/us
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## Communicatie
 
@@ -269,10 +270,8 @@ Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/
   <tr> 
    <td> <p>Gebruiker</p> </td> 
    <td>Gerichte update naar gebruiker</td> 
-   <td> <p>Iemand neemt mij op een geleide update.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a>.</p> <p>In dit geval ontvangt de gebruiker die is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden als de gebruiker toegangsrechten heeft voor het object&lt;!&gt;— GETEKEND IN FLARE: en is niet de zelfde gebruiker die de update ingaat
-
-    -->. &lt;/p> &lt;p>Deze gebeurtenismelding wordt standaard geactiveerd en kan niet worden gedeactiveerd.&lt;/p> &lt;/td>
-<td> <p>Actief</p> </td> 
+   <td> <p>Iemand neemt mij op een geleide update.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a>.</p> <p>In dit geval ontvangt de gebruiker die is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden als de gebruiker toegangsrechten heeft voor het object en als deze ingeschakeld blijft in het profiel.  </p> <p>Deze gebeurtenismelding wordt standaard geactiveerd en kan niet worden gedeactiveerd.</p> </td> 
+   <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
@@ -309,6 +308,10 @@ Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## Goedkeuringsinformatie
 
@@ -430,12 +433,8 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document aanvragen voor toevoegen aan probleem toegewezen aan</p> </td> 
-   <td> <p>Documenten worden geüpload of gewijzigd op aanvragen waaraan ik toegewezen ben.</p> <p>De uitgevers ontvangen een e-mailbericht wanneer documenten worden geüpload of gewijzigd in een uitgave die zij hebben toegevoegd.</p> <p>Er wordt geen e-mailbericht verzonden als de gebruiker die de uitgave heeft ingevoerd, de uitgever is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.
-    <!--GETEKEND IN FLARE: Voor meer informatie bij het publiceren van een project als Rij van het Verzoek van de Hulp, zie 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overzicht van het lusje van de Details van de Rij in een project</a>.
-    -->
-    </p> </td>
-<td> <p>Actief</p> </td> 
+   <td> <p>Documenten worden geüpload of gewijzigd op aanvragen waaraan ik toegewezen ben.</p> <p>De uitgevers ontvangen een e-mailbericht wanneer documenten worden geüpload of gewijzigd in een uitgave die zij hebben toegevoegd.</p> <p>Er wordt geen e-mailbericht verzonden als de gebruiker die de uitgave heeft ingevoerd, de uitgever is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.</p> </td> 
+   <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak</p> </td> 
@@ -463,6 +462,11 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## Informatie over projecten die ik op
 
@@ -741,12 +745,7 @@ Zie ook [Meldingen: Overige informatie](../../../workfront-basics/using-notifica
    <td> </td> 
    <td> <p>Foutmelding</p> </td> 
    <td> <p>Er is een fout gevonden die uw aandacht vereist.</p> <p>Er wordt een e-mailbericht gegenereerd nadat Workfront een poging heeft gedaan en geen verbinding met een POP-account heeft gemaakt. Na 25 pogingen, maakt Workfront de verbinding aan POP rekening onbruikbaar om middelen te bewaren en het verzendt een bericht. </p> <p>Het e-mailbericht wordt verzonden naar de eigenaar van het project, als de POP-e-mail is gekoppeld aan een aanvraagwachtrij, of naar de Workfront-beheerders als de POP-account is gekoppeld aan de functie "Incoming Mail" in E-mailinstelling.
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
@@ -799,6 +798,14 @@ Zie ook [Meldingen: Overige informatie](../../../workfront-basics/using-notifica
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## Delegatie
 

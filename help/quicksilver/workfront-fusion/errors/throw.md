@@ -8,7 +8,7 @@ description: In sommige gevallen kunt u de scenario-uitvoering die door Terugdra
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Oplossing voor Throw
 
-Om een fout voorwaardelijk te werpen, kunt u een module vormen om het naar keuze opzettelijk te maken ontbreken tijdens zijn verrichting. Eén mogelijkheid is om de [!UICONTROL JSON] > [!UICONTROL Parse JSON] module (zie [JSON-modules](../../workfront-fusion/apps-and-their-modules/json-modules.md)), geconfigureerd om optioneel een fout te genereren (in dit geval BundleValidationError):
+Om een fout voorwaardelijk te werpen, kunt u een module vormen om het naar keuze opzettelijk tijdens zijn verrichting te maken ontbreken. Eén mogelijkheid is om de [!UICONTROL JSON] > [!UICONTROL Parse JSON] module (zie [JSON-modules](../../workfront-fusion/apps-and-their-modules/json-modules.md)), geconfigureerd om optioneel een fout te genereren (in dit geval BundleValidationError):
 
 Vervolgens kunt u een van de foutafhandelingsinstructies aan de foutafhandelingsroute koppelen:
 

@@ -7,7 +7,7 @@ description: In sommige gevallen is het nuttig om een falende module voor een pa
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%
@@ -71,11 +71,11 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 * Het minimale interval voor opnieuw proberen is één minuut.
 * Als de module meerdere bundels verwerkt en de verwerking van een bundel mislukt, wordt de gedeeltelijke uitvoering (alleen de bundel die de fout heeft veroorzaakt) verplaatst naar de onvolledige map voor uitvoeringen en wordt deze gepland voor nieuwe pogingen volgens de [!UICONTROL Break] compilerinstellingen. Nochtans, gaat de huidige uitvoering verder en de module blijft de verdere bundels verwerken. U kunt de optie &quot;[!UICONTROL Sequential processing]&quot; in de [!UICONTROL Scenario settings] om te voorkomen dat het scenario opnieuw wordt uitgevoerd totdat de uitvoering in de map Onvolledige uitvoeringen is opgelost.
 
-Voor meer informatie over onvolledige uitvoeringen raadpleegt u [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   Voor meer informatie over onvolledige uitvoeringen raadpleegt u [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Gebruik de [!UICONTROL Repeater] module
 
-1. De **[!UICONTROL Repeater]** en stelt de [!UICONTROL Repeats] tot het maximumaantal pogingen.
+1. De **[!UICONTROL Repeater]** en stelt de **[!UICONTROL Repeats]** tot het maximumaantal pogingen.
 1. Koppel de potentieel ontbrekende module aan de **[!UICONTROL Repeater]** module.
 1. Koppel een route van de foutenmanager aan deze module (zie [Foutafhandeling in [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. De koppeling **[!UICONTROL Tools]>[!UICONTROL Sleep]** module aan de route van de foutenmanager en reeks zijn **[!UICONTROL Delay]** tot het aantal seconden tussen de pogingen.

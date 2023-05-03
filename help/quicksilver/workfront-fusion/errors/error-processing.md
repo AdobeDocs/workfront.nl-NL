@@ -8,9 +8,9 @@ description: Soms kan een fout tijdens de uitvoering van een scenario voorkomen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,10 @@ De fout van de verbinding is één van de gemeenschappelijkste fouten gewoonlijk
 * Als de fout op de eerste module voorkomt, wordt de uitvoering van het scenario geëindigd met een waarschuwingsbericht. [!DNL Workfront Fusion] herhaaldelijk wordt gepoogd het scenario met steeds langere tussenpozen opnieuw uit te voeren (deze worden hieronder uitgelegd). Als alle pogingen mislukken, [!DNL Workfront Fusion] Hiermee wordt het scenario gedeactiveerd.
 * Als de verbindingsfout op een andere module dan de eerste voorkomt, hangen de verdere stappen van [Onvolledige uitvoeringen opslaan toestaan](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) optie in de scenario geavanceerde montages:
 
-   * Als deze optie is ingeschakeld, wordt de uitvoering van het scenario verplaatst naar de [!UICONTROL Incomplete executions] map waar [!DNL Workfront Fusion] herhaaldelijk wordt gepoogd om het scenario met langere tijdsintervallen opnieuw uit te voeren. Als alle pogingen mislukken, blijft de uitvoering in de [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) op handmatige oplossing door de gebruiker.
-   * Als de optie is uitgeschakeld, eindigt de uitvoering van het scenario met een fout gevolgd door een terugdraaifase. [!DNL Workfront Fusion] probeert dan herhaaldelijk om het scenario met stijgende tijdintervallen opnieuw uit te voeren. Als alle pogingen mislukken, [!DNL Workfront Fusion] Hiermee wordt het scenario gedeactiveerd.
+   * Als deze optie is ingeschakeld, wordt de uitvoering van het scenario verplaatst naar de [!UICONTROL Incomplete executions] map waar [!DNL Workfront Fusion] herhaaldelijk wordt gepoogd om het scenario met langere tijdsintervallen opnieuw uit te voeren. Als alle pogingen mislukken, blijft de uitvoering in de map Onvolledige uitvoeringen staan, in afwachting van handmatige oplossing door de gebruiker.
+
+      Voor meer informatie over onvolledige uitvoeringen raadpleegt u [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   * Als deze optie is uitgeschakeld, eindigt de uitvoering van het scenario met een fout gevolgd door een terugdraaifase. [!DNL Workfront Fusion] probeert dan herhaaldelijk om het scenario met stijgende tijdintervallen opnieuw uit te voeren. Als alle pogingen mislukken, [!DNL Workfront Fusion] Hiermee wordt het scenario gedeactiveerd.
 
 ### Tijdintervallen vergroten
 
@@ -80,17 +82,19 @@ De belangrijkste reden waarom de steeds langere tijdsintervallen in [!DNL Workfr
 >
 >**Voorbeeld:**
 >
->Een scenario bevat de [!DNL Google Sheets] trigger [!UICONTROL Watch Rows]. [!DNL Google Sheets] is 30 minuten niet beschikbaar vanwege onderhoud wanneer [!DNL Workfront Fusion] start het scenario, zodat het geen nieuwe rijen kan terugwinnen. Het scenario stopt en probeert het over 10 minuten opnieuw. Aangezien de dienst binnen dit tijdkader niet beschikbaar blijft, [!DNL Workfront Fusion] kan nog steeds geen informatie ophalen over nieuwe rijen. De volgende looppas van het scenario is gepland in 1 uur. [!DNL Google Sheets] is opnieuw beschikbaar binnen deze tijd en de scenario looppas met succes.
+>Een scenario bevat de [!DNL Google Sheets] trigger [!UICONTROL Watch Rows]. [!DNL Google Sheets] is 30 minuten niet beschikbaar vanwege onderhoud wanneer [!DNL Workfront Fusion] start het scenario, zodat het geen nieuwe rijen kan terugwinnen. Het scenario stopt en probeert het over 10 minuten opnieuw. Omdat [!DNL Google Sheets] nog steeds niet beschikbaar is, [!DNL Workfront Fusion] kan nog steeds geen informatie ophalen over nieuwe rijen. De volgende looppas van het scenario is gepland in 1 uur. [!DNL Google Sheets] is op dit ogenblik opnieuw beschikbaar, en de scenario looppas met succes.
 
 ## Gegevensfout
 
 `DataError`
 
-Er wordt een gegevensfout gegenereerd wanneer een item onjuist is toegewezen en de validatie die is uitgevoerd op het tabblad [!DNL Workfront Fusion] zij of aan de zijde van de dienst van derden die wordt gebruikt. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Er wordt een gegevensfout gegenereerd wanneer een item onjuist is toegewezen en de validatie die is uitgevoerd op het tabblad [!DNL Workfront Fusion] zij of aan de zijde van de dienst van derden die wordt gebruikt.
 
 Als deze fout voorkomt, wordt het scenario, tot waar de module ontbrak, verplaatst naar de onvolledige uitvoeringsomslag waar u de kwestie kunt problemen oplossen. Het scenario stopt echter niet en blijft volgens het schema lopen. Als u de uitvoering van het scenario wilt stoppen wanneer er een gegevensfout optreedt, schakelt u de optie Opeenvolgende verwerking in het instellingenvenster Scenario in.
 
 Als u de optie [!UICONTROL Allow storing incomplete executions] optie in de scenario montages, eindigt de uitvoering van het scenario met de fout en het terugschroeven van prijzen wordt uitgevoerd.
+
+Zie voor meer informatie over toewijzen [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 Voor informatie over onvolledige uitvoeringen raadpleegt u [Onvolledige uitvoeringen weergeven en oplossen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -108,7 +112,7 @@ Indien [!DNL Workfront Fusion] probeert om de zelfde bundel tweemaal in de diens
 
 `InvalidAccessTokenError`
 
-Er is een ongeldige fout in het toegangstoken opgetreden wanneer [!DNL Workfront Fusion] heeft geen toegang tot uw account dat bij een service van derden is geregistreerd. Dit gebeurt meestal wanneer u toegangsrechten intrekt voor [!DNL Workfront Fusion] bij het beheer van een bepaalde dienst, maar de bijbehorende scenario&#39;s blijven volgens schema lopen.
+Er is een ongeldige fout in het toegangstoken opgetreden wanneer [!DNL Workfront Fusion] heeft geen toegang tot uw account dat bij een service van derden is geregistreerd. Dit gebeurt gewoonlijk wanneer u toegangsrechten voor intrekt [!DNL Workfront Fusion] in het beheer van een bepaalde dienst, maar de verwante scenario&#39;s blijven volgens schema lopen.
 
 Als deze fout optreedt, wordt de uitvoering van een scenario onmiddellijk gestopt. De rest van het scenario dat van de module begint waar de fout voorkwam wordt verplaatst naar de onvolledige uitvoeringsomslag.
 
@@ -118,7 +122,9 @@ Voor informatie over onvolledige uitvoeringen raadpleegt u [Onvolledige uitvoeri
 
 `RateLimitError`
 
-Als een door een bepaalde dienst vastgestelde grens wordt overschreden, wordt een fout van de tariefgrens geproduceerd. Als deze fout optreedt, [!DNL Workfront Fusion] gaat op dezelfde manier te werk als bij de verbindingsfout. Zie voor meer informatie [Verbindingsfout](#connection-error).
+Als een door een bepaalde dienst vastgestelde grens wordt overschreden, wordt een fout van de tariefgrens geproduceerd. Als deze fout optreedt, [!DNL Workfront Fusion] gaat op dezelfde manier te werk als bij de verbindingsfout.
+
+Zie voor meer informatie [Verbindingsfout](#connection-error).
 
 ## Onvolledige gegevensfout
 
@@ -126,11 +132,15 @@ Als een door een bepaalde dienst vastgestelde grens wordt overschreden, wordt ee
 
 Een onvolledige gegevensfout treedt alleen op bij triggers. Deze fout wordt gegenereerd als een trigger vereiste gegevens niet kan downloaden van een bepaalde service.
 
-Als een scenario met eindigt `IncompleteDataError`zijn verdere gedrag zal afhangen van zijn instelling [!UICONTROL Max number of consecutive errors]. Zie voor meer informatie [Aantal opeenvolgende fouten](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) in het artikel [Het deelvenster met scenario-instellingen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Als een scenario met eindigt `IncompleteDataError`zijn verdere gedrag zal afhangen van zijn instelling [!UICONTROL Max number of consecutive errors].
+
+Zie voor meer informatie [Aantal opeenvolgende fouten](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) in het artikel [Het deelvenster met scenario-instellingen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 >[!INFO]
 >
->**Voorbeeld:** Een scenario heeft de [!DNL Workfront] trigger [!UICONTROL Watch Record] instellen op controleren voor documenten. Het scenario wordt uitgevoerd terwijl u een groot document uploadt, zoals een lange video. Omdat [!UICONTROL Workfront Fusion] probeert de video te downloaden terwijl deze nog uploadt naar Workfront, wordt het scenario beëindigd met de `IncompleteDataError`.
+>**Voorbeeld:**
+>
+>Een scenario heeft de [!DNL Workfront] trigger [!UICONTROL Watch Record] instellen op controleren voor documenten. Het scenario wordt uitgevoerd terwijl u een groot document uploadt, zoals een lange video. Omdat [!UICONTROL Workfront Fusion] probeert de video te downloaden terwijl deze nog uploadt naar Workfront, wordt het scenario beëindigd met de `IncompleteDataError`.
 
 ## Runtimefout
 
