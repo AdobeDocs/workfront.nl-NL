@@ -8,9 +8,9 @@ description: In dit artikel worden instructies beschreven die u kunt gebruiken v
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: 50b43cd4bafdfc3379eb1d73c12e15c791e28dbe
+source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -83,17 +83,31 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 >[!NOTE]
 >
->Momenteel kunnen de foutafhandelingsrichtlijnen niet buiten het bereik van een foutafhandelingsroute worden gebruikt en [!DNL Workfront Fusion] biedt momenteel geen module van de Borg aan die u zou toelaten om (werpen) fouten gemakkelijk te produceren, hoewel een alternerende actie kan worden gebruikt om zijn functionaliteit te simuleren. Zie voor meer informatie [Fouthandlerroute](../../workfront-fusion/errors/error-handling.md#error) in het artikel [Foutafhandeling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Zie ook [Oplossing voor Throw](../../workfront-fusion/errors/throw.md#workarou) in het artikel [Foutafhandeling genereren in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>* De foutafhandelingsinstructies kunnen momenteel niet worden gebruikt buiten een foutafhandelingsroute.
+   >
+   >   Zie voor meer informatie [Fouthandlerroute](../../workfront-fusion/errors/error-handling.md#error) in het artikel [Foutafhandeling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] biedt momenteel geen module van de Borg aan die u zou toelaten om (werpen) fouten gemakkelijk te produceren, hoewel een alternerende actie kan worden gebruikt om zijn functionaliteit te simuleren.
+   >
+   >   Zie voor meer informatie [Oplossing voor Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) in het artikel [Foutafhandeling genereren in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+
 
 ## Break {#break}
 
-Wanneer een fout door [!DNL Break] instructie, wordt een record gemaakt in het dialoogvenster [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) map waarin de status van de uitvoering van het scenario wordt opgeslagen, samen met gegevens uit de voorgaande modules. Voor elke bundel gegevens die de fout veroorzaakt, wordt een afzonderlijke verslag gecreeerd.
+Wanneer een fout door [!DNL Break] instructie, wordt een record gemaakt in de map Onvolledige uitvoeringen. Dit verslag slaat de staat van de scenariouitvoering, samen met gegevens van de vroegere modules op. De record verwijst naar de module waar de fout is opgetreden en bevat informatie over de gegevens die de module als invoer heeft ontvangen. Voor elke bundel gegevens die de fout veroorzaakt, wordt een afzonderlijke verslag gecreeerd.
 
-De record verwijst naar de module waar de fout is opgetreden en bevat informatie over de gegevens die de module als invoer heeft ontvangen. Zie voor meer informatie [Onvolledige uitvoeringen weergeven en oplossen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Zie voor meer informatie [Onvolledige uitvoeringen weergeven en oplossen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-Hier kunt u de fout handmatig oplossen door het scenario (indien nodig) bij te werken en één keer uit te voeren.
+### Fouten die voortvloeien uit de Break-richtlijn oplossen
 
-Aan de andere kant door de [!UICONTROL Automatically complete execution] onder de de richtlijnmontages van de Onderbreking, kan het worden gevormd om een onvolledige uitvoering automatisch te verwerken door het scenario na het gespecificeerde aantal notulen opnieuw uit te voeren.
+U kunt de fout handmatig oplossen door het scenario (indien nodig) bij te werken en één keer uit te voeren.
+
+U kunt het scenario ook vormen om een onvolledige uitvoering automatisch te verwerken door het scenario opnieuw uit te voeren. Om de module te vormen om onvolledige uitvoeringen te verwerken:
+
+1. Schakel in de module Onderbreken de optie [!UICONTROL **Automatisch uitvoering voltooien**] optie.
+1. In de **Aantal pogingen** veld, typt of wijst het maximumaantal pogingen toe dat u wilt dat de module de uitvoering opnieuw probeert
+
+   Dit getal moet tussen 1 en 100 liggen.
+1. In de **Interval tussen pogingen** Voer het aantal minuten in tussen elke poging om opnieuw te proberen of wijs het aantal minuten in.
 
 Als deze optie is ingeschakeld, wordt bij een fout de onvolledige uitvoering opgehaald (na de tijd die in het dialoogvenster [!UICONTROL Interval between attempts] (veld) en uitgevoerd met de oorspronkelijke invoergegevens. Dit zal herhalen tot de uitvoering van de module zonder een fout voltooit of tot het Aantal gespecificeerde pogingen wordt bereikt.
 
@@ -101,12 +115,13 @@ Als deze optie is ingeschakeld, wordt bij een fout de onvolledige uitvoering opg
 >
 >Als de aanvankelijke poging opnieuw probeert ontbreekt, stijgt het interval tussen opnieuw probeert exponentieel elke andere poging.
 
+
 Als &quot;Automatisch volledige uitvoering&quot; is ingeschakeld, wordt de uitvoering van het scenario gemarkeerd als &quot;Succes&quot; omdat de fouthandler voor automatisch opnieuw proberen van het einde de kwestie automatisch afhandelt. In dit geval ontvangen gebruikers geen e-mail over de mislukte uitvoering.
 
 Wanneer &quot;Automatisch volledige uitvoering&quot; is uitgeschakeld, wordt de uitvoering gemarkeerd als &quot;Waarschuwing&quot;.
 
-![](assets/break-directive-350x241.png)
+Er zijn sommige uitzonderingen op uitvoeringen die onder Onvolledige Uitvoeringen worden opgeslagen, en met sommige foutentypes, is auto-retry van een scenario uitvoering niet mogelijk.
 
-Nochtans, zijn er sommige uitzonderingen op uitvoeringen die onder Onvolledige Uitvoeringen worden opgeslagen en met sommige foutentypes, auto-retry van een scenario uitvoering is niet mogelijk. Zie voor meer informatie [Onvolledige uitvoeringen opslaan toestaan](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) in het artikel [Het deelvenster met scenario-instellingen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Zie voor meer informatie [Onvolledige uitvoeringen opslaan toestaan](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) in het artikel [Het deelvenster met scenario-instellingen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 Zie voor meer informatie [Geavanceerde foutafhandeling in Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md).
