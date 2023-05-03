@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3a052c8f6d22c513763875526d6d2b57f20da0cb
+source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Voorvertoning release: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                 <s><p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p></s>
+                                 </li>
+                                 <li>
+                                <p><span class="preview">Productieversie voor alle klanten: 18 mei 2012</span>3</p>
                             </li>
                         </ul>
                     </td>
