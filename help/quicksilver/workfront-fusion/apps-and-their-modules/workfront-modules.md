@@ -9,9 +9,9 @@ description: U kunt de Adobe Workfront Fusion Adobe Workfront-connector gebruike
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '4864'
+source-wordcount: '4921'
 ht-degree: 0%
 
 ---
@@ -278,7 +278,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
    <td>Selecteer het object waarnaar u het wilt omzetten. Dit is het type dat het object na de conversie heeft.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL  &lt;Object&gt; ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Voer de id van het object in. </p> <p>Opmerking: Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -1665,7 +1665,26 @@ Door gebeurtenisabonnementfilters te gebruiken, kunnen Fusion-gebruikers gebeurt
 
 Dit is anders dan het instellen van een filter in het dialoogvenster [!DNL Workfront Fusion] scenario. Zonder een gebeurtenisabonnementfilter ontvangt uw webhaak alle gebeurtenissen die betrekking hebben op het objecttype dat u selecteert. De meeste van deze gebeurtenissen zijn niet relevant voor het scenario en moeten worden uitgefilterd voordat het scenario kan worden voortgezet.
 
+De volgende operatoren zijn beschikbaar in het filter Workfront > Watch-gebeurtenissen:
+
+* Gelijk
+* Niet gelijk
+* Groter dan
+* Minder dan
+* Groter dan of gelijk aan
+* Kleiner dan of gelijk aan
+* Bevat
+* Exists
+* Is niet bestaand
+* Gewijzigd
+
 >[!NOTE]
+>
+> * De `Exists`, `Does not exist`, en `Changed` operators hebben geen waarde nodig en deze opties ontbreken in het waardeveld.
+> * De `Changed` wordt het veld Staat genegeerd.
+
+
+>[!IMPORTANT]
 >
 >U kunt filters in bestaande [!DNL Workfront] webhaken. Verschillende filters instellen voor [!DNL Workfront] -gebeurtenisabonnementen, verwijder de huidige webhaak en maak een nieuwe.
 
