@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
+source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
-            </tbody>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe verbeteringen in bètaervaringen met opmerkingen</a></p>
+                        <p>De verbeteringen in de sectie Updates worden binnen de releaseperiode van 23.3 beschikbaar gesteld voor de nieuwe bètaervaring met opmerkingen. Deze verbeteringen worden, tenzij anders vermeld, beschikbaar gesteld in de productieomgeving met de release 23.3. 
+ </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: met 23.3 release (tenzij anders vermeld)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
         </table>
 
 ## Aankondigingen
@@ -237,7 +254,7 @@ Er zijn momenteel geen Workfront Proof-updates beschikbaar. Dit gebied wordt bij
 
 ### Verbeteringen voor Workfront-doelen
 
-Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de release. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
+Nieuwe functies die binnen de releaseperiode van 23.3 beschikbaar komen bij de release Workfront Goals. Voor informatie over deze nieuwe functies die nu beschikbaar zijn in Voorbeeld, raadpleegt u [Adobe Workfront-doelen met de 23.3-release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API-versie 16
 
