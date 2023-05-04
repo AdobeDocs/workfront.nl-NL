@@ -8,7 +8,7 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
 
 1. Klik op **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
 
-1. Op de pagina die wordt weergegeven, in het dialoogvenster **[!UICONTROL General Preferences]** configureren, configureert u een van de volgende opties:
+1. Op de pagina die wordt weergegeven, in het dialoogvenster **[!UICONTROL General preferences]** configureren, configureert u een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,7 +93,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
     </tbody> 
    </table>
 
-1. In de **[!UICONTROL Logging Time]** configureren, configureert u een van de volgende opties:
+1. In de **[!UICONTROL Where users can log time]** configureren, configureert u een van de volgende opties:
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
     </tr>
    </table>
 
-1. In de **[!UICONTROL Pre-Populate timesheets with]** Configureer in &#x200B; gedeelte een van de volgende opties:
+1. In de **[!UICONTROL Pre-populate timesheets]** configureren, configureert u een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
     </tbody> 
    </table>
 
-1. In de **[!UICONTROL Project, Task or Issue Deletion Preferences]** in de sectie, geeft u het volgende op:
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. In de **[!UICONTROL Deleted projects, tasks, and issues]** in de sectie, geeft u het volgende op:
 
    <table style="table-layout:auto"> 
     <col> 

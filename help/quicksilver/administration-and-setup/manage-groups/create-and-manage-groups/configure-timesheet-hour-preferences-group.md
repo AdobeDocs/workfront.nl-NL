@@ -5,30 +5,32 @@ keywords: groep,voorkeuren,taak,groepen,uitgave,ontgrendelen
 navigation-topic: create-and-manage-groups
 title: Voorkeuren voor tijdschriften en uren voor een groep configureren
 description: Op systeemniveau, kan een beheerder van Adobe Workfront de timesheet en de sectie van de uurvoorkeur Algemene Voorkeur ontgrendelen en pre-bevolkt timesheets met. Dit staat groepsbeheerders toe om de opties in die secties onafhankelijk voor hun eigen groepen te vormen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
 
 # Voorkeuren voor tijdschriften en uren voor een groep configureren
 
+{{highlighted-preview}}
+
 Een beheerder van Adobe Workfront kan de volgende secties van timesheet en uurvoorkeur op systeemniveau ontgrendelen zodat de groepsbeheerders hen voor hun eigen groepen onafhankelijk kunnen vormen:
 
 * Algemene voorkeuren
-* Tijdopnamen vooraf vullen met
+* <span class="preview">Waar gebruikers tijd kunnen vastleggen</span>
+* Vooraf invullen van tijdbladen
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 De volgende secties op de pagina van de Voorkeur van Timesheet en van Uren zijn configureerbaar slechts op het systeemniveau en kunnen niet voor groepen worden ontgrendeld:
 
-* Registratietijd
-* Voorkeuren voor project-, taak- of probleemverwijdering
+* Verwijderde projecten, taken en problemen
 
 Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur ontgrendelt, zie de sectie [Tijdschema en uurvoorkeuren voor groepen ontgrendelen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in het artikel [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
     </tbody> 
    </table>
 
-1. In de **Tijdopnamen vooraf vullen met** configureren, configureert u een van de volgende opties:
+1. <span class="preview">In de **Waar gebruikers tijd kunnen vastleggen** configureren, configureert u een van de volgende opties:</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">De tijd van de logboek direct op projecten</span></td> 
+      <td><span class="preview">Staat gebruikers toe om tijd op het project (zowel op het lusje van Updates als timesheet) te registreren. Als u uw gebruikers wilt beperken van opnametijd op projectniveau, verlaat deze optie ongecontroleerd.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">De tijd van het logboek op projecten die volledig zijn</span></td>
+      <td><span class="preview">Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat ze in de status Voltooid hebben voltooid.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">De tijd van het programma van het programma op projecten die dood zijn</span></td> 
+      <td><span class="preview">Wanneer deze optie wordt toegelaten, kunnen de gebruikers uren op projecten met een Dode status registreren.</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Deze voorkeur wordt toegepast gebaseerd op configuratie van de voorkeur van de Groep van het Huis van de gebruiker. Als deze montages in de voorkeur van de Groep van het Huis van de gebruiker worden toegelaten, zullen zij tijd op projecten, met inbegrip van voltooide of dode projecten, kunnen direct registreren, ongeacht of de de groepsvoorkeur van het project het toestaat of niet.
+
+1. In de **Vooraf invullen van tijdbladen** configureren, configureert u een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
