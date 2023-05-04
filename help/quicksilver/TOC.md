@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
+source-git-commit: 122751851792dfecd062f156f804827cb732c40b
 workflow-type: tm+mt
-source-wordcount: '12934'
+source-wordcount: '12940'
 ht-degree: 0%
 
 ---
@@ -2012,6 +2012,7 @@ ht-degree: 0%
       * [Uitvoering, cycli en fasen van scenario&#39;s in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
       * [De uitvoeringsgeschiedenis van een scenario weergeven in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Onvolledige uitvoeringen weergeven en oplossen in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+      * [Vergrendelde scenario&#39;s weergeven en beheren in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
       * [Een scenario plannen in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Een scenario activeren of deactiveren in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Een filter toevoegen aan een scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2636,6 +2637,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->
