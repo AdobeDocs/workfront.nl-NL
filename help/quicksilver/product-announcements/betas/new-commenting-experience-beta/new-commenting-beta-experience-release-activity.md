@@ -5,9 +5,9 @@ title: 'Nieuwe ervaring met opmerkingen in bètareleaseactiviteit'
 description: Bekijk de wekelijkse releaseactiviteit voor de nieuwe opmerkingentabeleving van Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ De informatie op deze pagina verwijst naar de releaseactiviteit op wekelijkse ba
 
 Zie voor algemene informatie over de nieuwe bètaervaring met opmerkingen, waaronder een lijst met functies die momenteel beschikbaar zijn of in onderzoek [Nieuwe ervaring met opmerkingen](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >De nieuwe opmerkingervaring die is gestart in Beta met de release 23.2. Voor informatie over de oorspronkelijke versie raadpleegt u [23.2 Overzicht van de release](../../product-releases/23.2-release-activity/23-2-release-overview.md).
@@ -29,18 +27,16 @@ Zie voor algemene informatie over de nieuwe bètaervaring met opmerkingen, waaro
 
 De volgende secties bevatten functies die na de oorspronkelijke versie zijn toegevoegd, te beginnen met de functies die het laatst zijn uitgebracht.
 
-<!--
+## Week van 2 mei 2023
 
-## Week of May 2, 2023
+### Afbeeldingen worden verwijderd uit het gebied Documenten wanneer bijlagen worden verwijderd uit opmerkingen of wanneer opmerkingen met een bijlage worden verwijderd
 
-### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
+We wijzigen de manier waarop bijlagen werken wanneer u een opmerking met een bijlage verwijdert of bewerkt. Wanneer u nu een opmerking bewerkt en de bijlage verwijdert, of wanneer u een opmerking verwijdert die een bijlage bevat, wordt de bijlage ook verwijderd uit het gebied Documenten. Vóór deze wijziging bleven de bijlagen in de vorige opmerkingervaring in het gebied Documenten. Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+Deze optie is standaard beschikbaar voor opmerkingen over bètaervaringen en voor Workfront-doelen op de volgende datums:
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+* Voorbeeld en productie: 4 mei 2023
 
-* Preview and Production: May 4, 2023
--->
 
 ## 27 april 2023
 
