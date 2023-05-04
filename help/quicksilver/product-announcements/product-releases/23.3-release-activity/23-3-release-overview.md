@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Verbeterde integratie](#integration-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
+### Beheerdersverbeteringen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Besturingselement op groepsniveau beschikbaar voor tijdspagina en uurvoorkeur "Waar gebruikers tijd kunnen vastleggen"</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>De systeembeheerder kan nu de tijdspagina en uurvoorkeur "Waar de gebruikers tijd kunnen registreren"sluiten en ontgrendelen. Wanneer deze voorkeur wordt ontgrendeld, kunnen groepsbeheerders de instellingen voor "Waar gebruikers zich kunnen aanmelden" voor elke groep afzonderlijk configureren.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 4 mei 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: Met de release van 23.3</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Verbeteringen voor mobiele apparaten
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Eenvoudige filters toegevoegd aan de sjabloon van het dynamische bord</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Eenvoudige filters toegevoegd aan de sjabloon van het dynamische bord</a></p>
                         <p>De filters op de dynamische bordsjabloon zijn vereenvoudigd, zodat u sneller een board kunt maken.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
