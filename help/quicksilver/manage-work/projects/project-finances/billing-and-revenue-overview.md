@@ -7,7 +7,7 @@ description: Als projectmanager, kunt u het factureren tarieven gebruiken om opb
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Workfront kan Geplande Inkomsten automatisch bijhouden wanneer taken worden gema
 
 Het kan de Ware Winst ook automatisch volgen wanneer de Ware Uren het programma worden geopend op de taken, de kwesties, en op het project.
 
-In de volgende tabel worden de typen inkomsten weergegeven die aan taken, problemen en projecten zijn gekoppeld.
+De volgende lijst toont de soorten opbrengst verbonden aan taken, kwesties, en projecten.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,7 +106,7 @@ In de volgende tabel worden de typen inkomsten weergegeven die aan taken, proble
  <tbody> 
   <tr> 
    <td role="rowheader">Geplande inkomsten</td> 
-   <td> <p>Voor taken, is dit de opbrengst verbonden aan de Geplande Uren van taken. De geplande uren van alle taken lopen tot en met de geplande uren van het project om bij te dragen tot de berekening van het geplande projectuur. </p> <p>Voor meer informatie over Geplande Uren in Workfront, zie <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Overzicht van geplande uren</a>. </p> <p>Workfront berekent de geplande inkomsten voor taken en projecten aan de hand van de volgende formules:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>Voor taken, is dit de opbrengst verbonden aan de Geplande Uren van taken. De geplande uren van alle taken lopen tot en met de geplande uren van het project om bij te dragen tot de berekening van het geplande projectuur. </p> <p>Voor meer informatie over Geplande Uren in Workfront, zie <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Overzicht van geplande uren</a>. </p> <p>Workfront berekent de geplande inkomsten voor taken en projecten aan de hand van de volgende formules:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>OPMERKING</b>
 
 <p>De geplande ontvangsten van het project die in het gebied van de Details van het Project en in projectverslagen worden getoond verschillen van de geplande opbrengst die in het rapport van het Gebruik toont. </p> <p>De geplande ontvangsten in het gebied Projectdetails weerspiegelen de taakontvangsten die verband houden met de geplande uren van de taak en de vaste opbrengsten van het project. De geplande inkomsten in het gebruiksrapport geven de geplande inkomsten weer die alleen verband houden met de geplande uren uit de taakopdrachten voor het project. </p> 
@@ -120,7 +120,7 @@ In de volgende tabel worden de typen inkomsten weergegeven die aan taken, proble
   </tr> 
   <tr> 
    <td role="rowheader">Werkelijke ontvangsten*</td> 
-   <td> <p>Wordt gekoppeld aan de werkelijke uren van taken, problemen en projecten. </p> <p>In het algemeen berekent Workfront de werkelijke inkomsten aan de hand van de volgende formule:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>Zie voor informatie over de berekeningen van de werkelijke inkomsten in het gebruiksrapport: <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informatie over bronnengebruik weergeven </a>. </p> <p><b>TIP</b>
+   <td> <p>Wordt gekoppeld aan de werkelijke uren van taken, problemen en projecten. </p> <p>In het algemeen berekent Workfront de werkelijke inkomsten aan de hand van de volgende formule:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>Zie voor informatie over de berekeningen van de werkelijke inkomsten in het gebruiksrapport: <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informatie over bronnengebruik weergeven </a>. </p> <p><b>TIP</b>
 
 U kunt de werkelijke inkomsten niet bekijken op het niveau van de uitgave, maar de inkomsten die verband houden met de Werkelijke uren voor de kwesties dragen bij tot de daadwerkelijke inkomsten van het project. </p> </td>
 </tr> 
