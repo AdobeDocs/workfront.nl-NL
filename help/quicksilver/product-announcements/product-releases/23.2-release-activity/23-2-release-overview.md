@@ -4,13 +4,13 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # 23.2 Overzicht van de release
 
@@ -52,6 +52,22 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront-veldwaarden toewijzen aan labels in Experience Manager Assets</a>
+                        <p>Nu kunt u elementen categoriseren en snel zoeken op basis van gegevens van Workfront.  U kunt deze gegevens toewijzen als onderdeel van de configuratie van metagegevens in de Workfront for Experience Manager Assets-integratie.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: N.v.t.<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie:30 maart 2023</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

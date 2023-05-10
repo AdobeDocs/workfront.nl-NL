@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets-integratie
 description: U kunt uw werk verbinden met de volgende Integraties van Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ U kunt een kaart toewijzen [!DNL Workfront] objectgegevens naar elementmediaveld
 >
 >U kunt metagegevens slechts in één richting toewijzen: van [!DNL Workfront] tot [!DNL Experience Manager]. Metagegevens voor documenten die zijn gekoppeld aan [!DNL Workfront] van [!DNL Experience Manager] kan niet worden overgedragen aan [!DNL Workfront].
 
-
-
 ### Metagegevensvelden configureren
 
+Voordat u metagegevensvelden gaat toewijzen, moet u metagegevensvelden zowel in Workfront als in Experience Manager Assets configureren.
+
+U kunt als volgt metagegevensvelden configureren:
+
 1. Een metagegevensschema configureren in [!DNL Experience Manager Assets] zoals uiteengezet in [Elementmetagegevenstoewijzing tussen Adobe configureren [!DNL Workfront] en [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] beschikt over veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken, zoals wordt uitgelegd in [Een aangepast formulier maken of bewerken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Uitbreiden voor meer informatie over ondersteunde Workfront- en Experience Manager Assets-velden**
 
-### Activa
+**Experience Manager Assets-tags**
+
+U kunt elk door Workfront ondersteund veld toewijzen aan een tag in Experience Manager Assets. Hiervoor moet u ervoor zorgen dat de tagwaarden in Experience Manager Assets overeenkomen met die in Workfront.
+
+* Tags en Workfront-veldwaarden moeten exact overeenkomen in spelling en opmaak.
+* Workfront-veldwaarden die zijn toegewezen aan de tags voor de elementen van Manager moeten allemaal in kleine letters worden weergegeven, zelfs als de tag in Experience Manager Assets hoofdletters lijkt te bevatten.
+* Workfront-veldwaarden mogen geen spaties bevatten.
+* De veldwaarde in Workfront moet ook de mapstructuur van de Experience Manager Assets-tag bevatten.
+* Als u meerdere tekstvelden met één regel wilt toewijzen aan labels, voert u een door komma&#39;s gescheiden lijst met de tagwaarden in aan de Workfront-zijde van de metagegevenstoewijzing, en `xcm:keywords` aan de zijde van Experience Manager Assets. Elke veldwaarde wordt toegewezen aan een afzonderlijke tag. U kunt een berekend veld gebruiken om meerdere Workfront-velden te combineren tot één door komma&#39;s gescheiden tekstveld.
+* U kunt waarden toewijzen uit vervolgkeuzelijsten, keuzerondjes of selectievakjes door een lijst met door komma&#39;s gescheiden waarden in te voeren in het veld.
+
+
+>[!INFO]
+>
+>**Voorbeeld**: Als u de tag in de mapstructuur hier wilt weergeven, krijgt de veldwaarde in Workfront de waarde `landscapes:trees/spruce`. Noteer de kleine letters in de veldwaarde van Workfront.
+>
+>Als u wilt dat het label het meest linkse item in de codestructuur is, moet het worden gevolgd door een dubbele punt. In dit voorbeeld wordt de veldwaarde in Workfront als volgt toegewezen aan de landscapes-tag `landscapes:`.
+>
+>![Mapstructuur in AEM](assets/aem-folder-structure-with-red-boxes.png)
+
+
+Nadat u de tags in Experience Manager Assets hebt gemaakt, worden deze weergegeven onder de vervolgkeuzelijst Codes in de sectie Metagegevens. Als u een veld wilt koppelen aan een tag, selecteert u `xcm:keywords` in de vervolgkeuzelijst Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
+
+Ga voor meer informatie over tags in Experience Manager Assets, waaronder het maken en beheren van tags naar [Tags beheren](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Aangepaste Experience Manager Assets-metagegevensschemavelden**
+
+U kunt zowel ingebouwde als aangepaste Workfront-velden toewijzen aan aangepaste metagegevensschemavelden in Experience Manager Assets.
+
+Aangepaste metagegevensvelden die zijn gemaakt in Experience Manager Assets, worden in hun eigen sectie geordend in het instellingsgebied voor metagegevens.
+
+![sectie Aangepaste metagegevens](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Workfront-velden**
+
+U kunt ingebouwde en aangepaste Workfront-velden toewijzen aan Experience Manager Assets. De volgende veldwaarden moeten in beide gevallen overeenkomen met de spelling tussen Workfront en Experience Manager Assets:
+
+* Vervolgkeuzelijsten
+* Meerdere velden selecteren
+
+>[!TIP]
+>
+> Ga naar
+>
+> * Setup > Custom Forms in Workfront of het veld in het object
+> * Middelen > Metagegevensschema&#39;s in Experience Manager Assets
+
+
++++
+
+### Metagegevens toewijzen voor elementen
 
 Metagegevens worden toegewezen wanneer een element wordt verschoven van [!DNL Workfront] voor het eerst. Documenten met de ingebouwde of aangepaste velden worden automatisch toegewezen aan de opgegeven velden wanneer een element voor het eerst wordt verzonden naar [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->Deze integratie ondersteunt geen aangepaste metagegevens van [!DNL Adobe Experience Manager].
 
 Metagegevens toewijzen voor elementen:
 
@@ -125,13 +180,15 @@ Metagegevens toewijzen voor elementen:
    >[!NOTE]
    >
    >U kunt één kaart toewijzen [!DNL Workfront] veld naar meerdere [!UICONTROL Experience Manager Assets] velden. U kunt geen meerdere toewijzen [!DNL Workfront] velden naar één [!DNL Experience Manager Assets] veld.
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. In de [!DNL Experience Manager Assets] , doorzoeken in de vooraf ingevulde categorieën of ten minste twee letters invoeren in het zoekveld voor toegang tot extra categorieën.
 1. Herhaal stap 2 en 3 zo nodig.
    ![metagegevensvelden](assets/asset-metadata.png)
 1. Klikken [!UICONTROL Save] of ga naar de [Mappen](#folders) in dit artikel.
 
-### Mappen
+### Metagegevens toewijzen aan mappen
 
 Wanneer gebruikers een gekoppelde map maken voor een project, worden de bijbehorende project-, portfolio- en programmagegevens toegewezen aan de metagegevensvelden van mappen in [!DNL Experience Manager Assets].
 

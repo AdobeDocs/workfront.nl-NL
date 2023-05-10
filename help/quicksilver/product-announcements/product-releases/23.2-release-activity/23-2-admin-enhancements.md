@@ -4,9 +4,10 @@ description: 23.2 Beheerdersverbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
+source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Workfront-veldwaarden toewijzen aan labels in Experience Manager Assets
+
+Nu kunt u elementen categoriseren en snel zoeken op basis van gegevens van Workfront.  U kunt deze gegevens toewijzen als onderdeel van de configuratie van metagegevens in de Workfront for Experience Manager Assets-integratie.
+
+Eerder was het niet mogelijk om Workfront-gegevens toe te wijzen aan Experience Manager Assets-tags.
+
+Voor meer informatie over deze functionaliteit in Experience Manager Assets as a Cloud Service, [Configureer de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+Voor meer informatie over deze functionaliteit in Experience Manager Assets Essentials, [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Aangepaste formulieren maken met de nieuwe bètaversie van de formulierontwerper
 

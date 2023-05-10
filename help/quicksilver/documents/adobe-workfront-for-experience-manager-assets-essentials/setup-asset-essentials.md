@@ -6,9 +6,9 @@ description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essenti
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,23 @@ Voordat u begint, moet u
 * Een metagegevensschema configureren in Experience Manager Assets Essentials, zoals wordt uitgelegd in [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Zie voor meer informatie [Een aangepast formulier maken of bewerken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Ondersteunde velden voor Workfront en Experience Manager Assets**
+
+**Trefwoord AEM**
+
+U kunt elk door Workfront ondersteund veld toewijzen aan een trefwoord in Experience Manager Assets Essentials.
+
+Als u een veld wilt koppelen aan een trefwoord, selecteert u `dc:subject` in de vervolgkeuzelijst Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
+
+Als u meerdere tekstvelden met één regel wilt toewijzen aan trefwoorden, voert u een door komma&#39;s gescheiden lijst van de trefwoordwaarden in aan de Workfront-zijde van de metagegevenstoewijzing, en `dc:subject` aan de zijde van Experience Manager Assets. Elke veldwaarde wordt toegewezen aan een afzonderlijk trefwoord. U kunt een berekend veld gebruiken om meerdere Workfront-velden te combineren tot één door komma&#39;s gescheiden tekstveld.
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### Activa
 
@@ -119,6 +136,8 @@ Metagegevens worden toegewezen wanneer een element voor het eerst vanuit Workfro
    >
    >U kunt één Workfront-veld toewijzen aan meerdere Experience Manager Assets-velden. U kunt niet meerdere Workfront-velden toewijzen aan één Experience Manager Assets-veld.
 1. In de **Experience Manager** een Experience Manager Assets-veld kiezen.
+
+   Als u een Workfront-veld wilt toewijzen aan een Experience Manager Assets-tag, selecteert u `dc:subject`.
 1. Herhaal stap 1 en 2 zo nodig.
    ![metagegevens inschakelen](assets/metadata-assets-essentials.png)
 1. Klikken **Opslaan** of ga naar de [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
