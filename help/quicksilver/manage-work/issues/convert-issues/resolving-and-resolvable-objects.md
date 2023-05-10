@@ -7,7 +7,7 @@ description: Een oplosbaar object is een probleem waarvan de resolutie is gekopp
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 0%
@@ -169,7 +169,7 @@ Wanneer u de status van de taak of het project wijzigt in een aangepaste status,
 
 U kunt aangepaste statussen maken met dezelfde sleutel voor zowel uitgaven als projecten of taken. Wanneer het project of de taak (als Oplossend Voorwerp) in de douanestatus worden veranderd, weerspiegelt de verandering ook op de status van de kwestie. De statussleutel moet gelijk zijn voor de uitgave en project- of taakstatus.
 
-Maak bijvoorbeeld een aangepaste status voor een project met de naam &quot;Launched&quot; met de drielettercode &quot;LCD&quot; die gelijk is aan &quot;Current&quot; (Huidig). Maak ook een aangepaste status voor uitgave met de naam Project Launched, ook met de lettercode LCD die gelijk is aan &quot;In uitvoering&quot;. Wanneer u het project als &quot;Gelanceerd&quot;markeert, zal de kwestie automatisch de status in &quot;Project Gelanceerd&quot;veranderen. Als de instelling &quot;Automatically****set issue status to match the resolvable object using the Status keys&quot; niet is ingeschakeld, verandert de status van de uitgave in &quot;In progress&quot; (de standaardstatus).
+Maak bijvoorbeeld een aangepaste status voor een project met de naam &quot;Launched&quot; met de drielettercode &quot;LCD&quot; die gelijk is aan &quot;Current&quot; (Huidig). Maak ook een aangepaste status voor uitgave met de naam Project Launched, ook met de lettercode LCD die gelijk is aan &quot;In uitvoering&quot;. Wanneer u het project als &quot;Gelanceerd&quot;markeert, zal de kwestie automatisch de status in &quot;Project Gelanceerd&quot;veranderen. Als de instelling &#39;&#39;Probleemstatus automatisch bijwerken wanneer de status van de instelling Oplossend object verandert&#39;&#39; niet is ingeschakeld, verandert de status van de uitgave in &#39;&#39;In uitvoering&#39;&#39; (de standaardstatus).
 
 Ga voor meer informatie over het maken van een aangepaste status naar [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
