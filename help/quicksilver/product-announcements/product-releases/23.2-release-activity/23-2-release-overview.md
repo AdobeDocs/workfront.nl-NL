@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                                 <p>Voorvertoning release: 9 maart 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Productieversie: Vanaf 23 maart zal dit in een gefaseerde uitrol die op 11 mei 2023 zal voltooien aan productie vrijkomen</span></p>
+                                 <p><span class="preview">Productieversie: Vanaf 23 maart wordt dit in een gefaseerde uitrol vrijgegeven die na 11 mei 2023 zal worden voltooid</span></p>
                             </li>
                         </ul>
                     </td>

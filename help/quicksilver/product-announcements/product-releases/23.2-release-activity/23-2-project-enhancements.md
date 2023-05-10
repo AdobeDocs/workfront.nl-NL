@@ -4,7 +4,8 @@ description: 23.2 Projectverbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiec
 
 >[!NOTE]
 >
->Vanaf 23 maart zal dit vrijkomen voor productie in een gefaseerde uitrol die op 11 mei 2023 voltooid zal zijn.
+>Vanaf 23 maart zal dit vrijkomen voor productie in een gefaseerde uitrol die na 11 mei 2023 voltooid zal zijn.
 
 Als onderdeel van het bijwerken van de vormgeving van de Workfront-ervaring, hebben we het tekstvak Projecten bewerken opnieuw ontworpen, terwijl we tegelijkertijd meerdere projecten tegelijk bewerken, in bulk. U kunt tot het nieuwe Edit vakje van Projecten toegang hebben wanneer het selecteren van verscheidene projecten tezelfdertijd in een lijst van projecten.
 
