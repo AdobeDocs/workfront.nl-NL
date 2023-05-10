@@ -3,11 +3,11 @@ content-type: overview
 title: Overzicht van de bovenste navigatiebalk
 description: De bovenste navigatiebalk, die boven aan het scherm wordt weergegeven in het nieuwe [!DNL Adobe Workfront] beleving—biedt u de mogelijkheid om gemakkelijk naar andere delen van het platform te zoeken en ernaar te navigeren.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ De bovenste navigatiebalk, die boven aan het scherm wordt weergegeven in [!DNL A
 ## [!UICONTROL Home] pictogram
 
 De **[!UICONTROL Home]** pictogram ![](assets/home-icon.png) neemt u naar [!UICONTROL Home] pagina, de standaardbestemmingspagina. Ga voor meer informatie over Home naar [Gebruik de [!UICONTROL Home] gebied](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-An [!DNL Adobe Workfront] beheerder kan de [!UICONTROL Home] pictogram dat overeenkomt met het merk van uw bedrijf. Zie voor meer informatie [Merk uw [!DNL Adobe Workfront] instance](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Vastgezette pagina&#39;s
 
@@ -59,6 +57,12 @@ De **[!UICONTROL Search]** pictogram ![](assets/search-icon.png) in de rechterbo
 Ga voor meer informatie over zoeken naar [Zoeken [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL Main Menu]
+
+>[!IMPORTANT]
+>
+>Het hoofdmenu dat op deze pagina wordt beschreven, is alleen van toepassing op organisaties die nog niet zijn ingeschakeld op [!DNL Adobe Experience Cloud].
+>
+> Als uw organisatie is aangemeld bij [!DNL Adobe Experience Cloud], zie [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 De **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) opent de [!UICONTROL Main Menu], waarmee u naar een ander gebied van Workfront kunt navigeren.
 

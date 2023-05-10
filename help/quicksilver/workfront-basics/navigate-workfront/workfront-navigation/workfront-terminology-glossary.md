@@ -5,9 +5,9 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '15821'
+source-wordcount: '15833'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
 
 <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>Het aanpassen van [!DNL Workfront] om de interface een verschijning te geven die uw bedrijf door uw kleuren en logo's weerspiegelt te gebruiken.</td> 
+   <td><p>Het aanpassen van [!DNL Workfront] om de interface een verschijning te geven die uw bedrijf door uw kleuren en logo's weerspiegelt te gebruiken.</p><p><strong>OPMERKING</strong><br>Als uw organisatie is aangemeld bij [!DNL Adobe Experience Cloud], is branding niet beschikbaar.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumbs]</td> 

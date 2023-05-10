@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Merk Adobe Workfront met een lay-outsjabloon
+
+>[!IMPORTANT]
+>
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld op [!DNL Adobe Experience Cloud].
+>
+> Als uw organisatie is aangemeld bij [!DNL Adobe Experience Cloud], is branding niet beschikbaar.
 
 U kunt een lay-outmalplaatje gebruiken om de logo&#39;s op het hoogste navigatiegebied en op het Belangrijkste Menu voor bepaalde groepen, teams, baanrollen, en gebruikers aan te passen. Dit is vooral handig voor groepen in een grote organisatie die hun eigen merk hebben.
 
@@ -23,7 +29,7 @@ Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjabl
 
 >[!NOTE]
 >
->Een beheerder van Workfront kan de zelfde branding aanpassingen voor de volledige organisatie op het systeemniveau maken, zoals die in wordt verklaard [Adobe Workfront-exemplaar merkbaar](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Maar het brandmerken in een lay-outmalplaatje treedt systeem-vlakke branding met voeten. >
+>Een beheerder van Workfront kan de zelfde branding aanpassingen voor de volledige organisatie op het systeemniveau maken, zoals die in wordt verklaard [Adobe Workfront-exemplaar merkbaar](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Maar het brandmerken in een lay-outmalplaatje treedt systeem-vlakke branding met voeten.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

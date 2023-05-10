@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Afmelden bij [!DNL Adobe Workfront]
 description: Om veiligheidsredenen is het belangrijk dat u zich afmeldt bij [!DNL Adobe Workfront] regelmatig. Standaard, [!DNL Workfront] meldt gebruikers automatisch af na 8 uur inactiviteit.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,12 @@ Om veiligheidsredenen is het belangrijk dat u zich afmeldt bij [!DNL Adobe Workf
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld op [!DNL Adobe Experience Cloud].
+>
+> Als uw organisatie is aangemeld bij [!DNL Adobe Experience Cloud], meldt u zich af door in de bovenste navigatie op de profielafbeelding te klikken en [!UICONTROL **Afmelden**] in het menu. Zie voor meer informatie [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Toegangsvereisten
 
