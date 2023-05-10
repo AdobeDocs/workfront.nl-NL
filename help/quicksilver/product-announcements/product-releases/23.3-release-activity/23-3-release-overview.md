@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Eenvoudige filters beschikbaar aan boord van inlaatkolommen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Er zijn vereenvoudigde filters toegevoegd aan de instelling van de inlaatkolom, zodat u de inlaatkolom sneller kunt definiëren. De beschikbare filters zijn Workfront-projecten en toewijzingen per team of gebruiker. U kunt desgewenst overschakelen naar de geavanceerde filters.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 10 mei 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Productieversie voor vroege opt-in: 10 mei 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Eenvoudige filters toegevoegd aan de sjabloon van het dynamische bord</a></p>
                         <p>De filters op de dynamische bordsjabloon zijn vereenvoudigd, zodat u sneller een board kunt maken.</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront-veldwaarden toewijzen aan labels in Experience Manager Assets</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
+                        <p>Nu kunt u elementen categoriseren en snel zoeken op basis van gegevens van Workfront. U kunt deze gegevens toewijzen als onderdeel van de configuratie van metagegevens in de Workfront for Experience Manager Assets-integratie.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 10 mei 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 10 mei 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront-velden toewijzen aan aangepaste Experience Manager Assets-metagegevensvelden</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
+                        <p>Met de geïntegreerde native modus kunt u nu zowel native als ingebouwde Workfront-velden toewijzen aan aangepaste metagegevensschemavelden in Experience Manager Assets as a Cloud Service.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 10 mei 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 10 mei 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">De sjablooninstellingen voor automatische proefdrukwerkstromen aanpassen met Adobe Workfront for Creative Cloud</a></p>
@@ -285,7 +334,7 @@ Er zijn op dit punt in de release geen Scenario Planner-updates. Dit gebied word
 
 ### Verbeteringen in Workfront Proof
 
-Er zijn momenteel geen Workfront Proof-updates beschikbaar. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
+Nieuwe functies die binnen de releaseperiode van 23.3 naar de Workfront Proof-versie worden gepubliceerd. Voor informatie over deze nieuwe functies die nu beschikbaar zijn in Voorbeeld, raadpleegt u [Adobe Workfront Proof met 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Verbeteringen voor Workfront-doelen
 
