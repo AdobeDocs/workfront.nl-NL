@@ -9,7 +9,7 @@ description: U kunt Wederzijdse TLS gebruiken in uw Adobe Workfront Fusion HTTP-
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: d54a6072524274cf77ee0ca7b7cfa24987c97782
+source-git-commit: 9c0452e60e98439fdba8e1171ef52a773f3d72b5
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -92,10 +92,10 @@ U kunt de volgende koppelingen gebruiken om de openbare certificaten van Workfro
    >   * Noteer de vervaldatum en stel een herinnering voor uzelf in om het certificaat te uploaden naar uw webservice.
    >   * Bladwijzer deze pagina om de nieuwe certificaten gemakkelijk te vinden.
 >
-* Dit zijn mTLS-certificaten die geen jokertekens bevatten.
->
+>* Dit zijn mTLS-certificaten die geen jokertekens bevatten.
 
-* [Downloaden [!DNL Workfront Fusion] Certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+
+* [Downloaden [!DNL Workfront Fusion] Certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [Downloaden [!DNL Workfront Fusion] EU-certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
    Voor gebruik in de EU
