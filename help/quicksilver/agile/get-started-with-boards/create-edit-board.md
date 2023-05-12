@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       Alle objecten worden op het bord weergegeven als verbonden kaarten.
 
       De [!UICONTROL **Kaarten die worden toegevoegd**] de teller laat zien hoeveel kaarten er op het bord staan . Bijvoorbeeld, als u een project met 100 taken en kwesties selecteert, toont teller 100. Als u een gebruikerstaak toevoegt en die persoon aan 5 taken op het project wordt toegewezen, toont de teller 5.
+
+   1. (Optioneel) Selecteer [!UICONTROL **Inclusief voltooid werk**] ingevulde kaarten aan boord te nemen.
+
+      >[!NOTE]
+      >
+      >Als deze optie niet is geselecteerd en kaarten in andere statussen als voltooid zijn gemarkeerd, vallen ze van het bord en worden ze niet meer weergegeven.
 
    1. (Optioneel) Klik op [!UICONTROL **Geavanceerde filters gebruiken**] om extra filteropties weer te geven.
 
