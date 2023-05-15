@@ -6,9 +6,9 @@ description: 'In Adobe Workfront kunt u documenten toevoegen aan projecten, take
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ De Workfront-site voorkomt op de volgende manieren dat virussen en andere schade
 
 ### Hoe Workfront beschadigde bestanden detecteert {#how-workfront-detects-corrupted-files}
 
-Workfront scant op virussen wanneer een document wordt geüpload. Als u probeert een beschadigd document te uploaden, stopt Workfront het uploadproces en verschijnt een bericht dat het bestand beschadigd is. U ontvangt ook een e-mailmelding wanneer Workfront potentieel schadelijke inhoud detecteert en het bestand is opgeslagen om te worden verwijderd.\
-Alle beschadigde bestanden worden binnen 24 uur na de detectie verwijderd, tenzij u de bestanden handmatig verwijdert. Als u een beschadigd bestand verwijdert, houdt Workfront deze handeling bij als een update. Als u Workfront toestaat deze te verwijderen, worden er geen updates opgenomen.
+Het scannen van documenten wordt alleen op verzoek voor uw organisatie ingeschakeld.
+
+Als het scannen van documenten is ingeschakeld, worden bestanden van minder dan 25 MB gescand wanneer ze worden geüpload. Bestanden van meer dan 25 MB worden niet gescand.
+
+Als Workfront een beschadigd document detecteert, stopt Workfront het uploadproces en verschijnt een bericht dat het bestand beschadigd is. U ontvangt ook een e-mailmelding wanneer Workfront potentieel schadelijke inhoud detecteert en het bestand is opgeslagen om te worden verwijderd.
+
+Beschadigde bestanden worden binnen 24 uur na detectie verwijderd, tenzij u deze handmatig verwijdert. Als u een beschadigd bestand verwijdert, houdt Workfront deze handeling bij als een update. Als u Workfront toestaat deze te verwijderen, worden er geen updates opgenomen.
 
 ### Beperkingen voor bestandsnaam {#file-name-restrictions}
 
