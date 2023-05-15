@@ -6,9 +6,9 @@ description: De Desktop Proofing Viewer, die voornamelijk is ontworpen voor het 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ Als dit niet het geval is, kunt u de onderstaande stappen volgen.
 
 1. Voer een van de volgende handelingen uit om de app te downloaden:
 
-   * Als u de productieomgeving gebruikt, klikt u op  [Mac Production Download voor de Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
-   * Als u de voorvertoningsomgeving gebruikt, klikt u op  [Mac Preview Download voor de Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
+   * Als u de productieomgeving gebruikt, klikt u op [Mac Production Download voor de Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
+   * Als u de voorvertoningsomgeving gebruikt, klikt u op [Mac Preview Download voor de Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
 1. Klik in het installatievak dat wordt weergegeven op **Doorgaan** en klik vervolgens op **Installeren**.
@@ -65,27 +65,28 @@ Als dit niet het geval is, kunt u de onderstaande stappen volgen.
 
 >[!NOTE]
 >
->Als de Desktop Proofing Viewer niet wordt gestart wanneer u een interactieve proefdruk opent, betekent dit waarschijnlijk dat uw Workfront- of Workfront Proof-beheerder de Desktop Proofing Viewer moet configureren als de standaardviewer voor interactieve proefdrukken, zoals beschreven in .
+>Als de Desktop Proofing Viewer niet wordt gestart wanneer u een interactieve proefdruk opent, betekent dit waarschijnlijk dat uw Workfront- of Workfront Proof-beheerder de Desktop Proofing Viewer moet configureren als de standaardviewer voor interactieve proefdrukken, zoals beschreven in [Gebruikersinstelling voor het openen van niet-interactieve proefdrukken in de Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
 
 ## De Desktop Proofing Viewer installeren in Windows
 
 Als uw Workfront- of Workfront Proof-beheerder de app op uw werkstation heeft gedownload en de Desktop Proofing Viewer heeft geconfigureerd als de standaardviewer voor interactieve proefdrukken, kunt u de installatie voltooien door een interactieve proefdruk te openen in het gebied Documenten.
 
 >[!TIP]
-U kunt de opdrachtregel gebruiken om de Desktop Proofing Viewer te installeren door `Workfront Proof Setup 2.1.20.exe" /S`
+>
+>U kunt de opdrachtregel gebruiken om de Desktop Proofing Viewer te installeren door `Workfront Proof Setup 2.1.20.exe" /S`
 
 1. Voer een van de volgende handelingen uit om de app te downloaden:
 
-   * Klik in de productieomgeving op  [Windows Production-download voor de Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
-   * Klik in de voorvertoningsomgeving op  [Windows Preview-download voor de Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
+   * Klik in de productieomgeving op [Windows Production-download voor de Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
+   * Klik in de voorvertoningsomgeving op [Windows Preview-download voor de Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
 1. Open in het installatievak dat wordt weergegeven het bestand dat u net hebt gedownload om de installatie te starten.
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. Klik in het beveiligingswaarschuwingsvenster op **Uitvoeren.**De Desktop Proofing Viewer wordt automatisch geïnstalleerd en uitgevoerd. 
+1. Klik in het beveiligingswaarschuwingsvenster dat wordt weergegeven op **Uitvoeren**. De Desktop Proofing Viewer wordt automatisch geïnstalleerd en uitgevoerd.
 1. (Voorwaardelijk) Als u de toepassing installeert met Internet Explorer, vernieuwt u de startpagina in de browser nadat de toepassing is geïnstalleerd.
 1. Open een interactieve proefdruk vanuit het gebied Documenten.
 
-Nadat de Desktop Proofing Viewer is geïnstalleerd, worden alle interactieve proefdrukken geopend in de Desktop Proofing Viewer. Als de Desktop Proofing Viewer niet wordt gestart wanneer u een interactieve proefdruk opent, betekent dit waarschijnlijk dat uw Workfront- of Workfront Proof-beheerder de Desktop Proofing Viewer moet configureren als de standaardviewer voor interactieve proefdrukken, zoals beschreven in .
+Nadat de Desktop Proofing Viewer is geïnstalleerd, worden alle interactieve proefdrukken geopend in de Desktop Proofing Viewer. Als de Desktop Proofing Viewer niet wordt gestart wanneer u een interactieve proefdruk opent, betekent dit waarschijnlijk dat uw Workfront- of Workfront Proof-beheerder de Desktop Proofing Viewer moet configureren als de standaardviewer voor interactieve proefdrukken, zoals beschreven in [Gebruikersinstelling voor het openen van niet-interactieve proefdrukken in de Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
