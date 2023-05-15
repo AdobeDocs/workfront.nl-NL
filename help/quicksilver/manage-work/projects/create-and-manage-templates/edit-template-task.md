@@ -7,9 +7,9 @@ description: Nadat u een sjabloon hebt gemaakt, kunt u informatie over de sjablo
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Geplande uren</strong> </td> 
-      <td> <p>Geef de hoeveelheid geplande uren voor de toekomstige taak op voor het project dat met deze sjabloon is gemaakt. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt alleen de hoeveelheid geplande uren voor een taak opgeven als de opdracht<strong>Duur</strong> is ingesteld op <strong>Berekende toewijzing</strong>. </p> </td> 
+      <td> <p>Geef het aantal geplande uren voor de toekomstige taak op voor het project dat met deze sjabloon is gemaakt. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt het aantal geplande uren voor een taak alleen opgeven als de opdracht<strong>Duur</strong> is ingesteld op <strong>Berekende toewijzing</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Werkinspanning </td> 
@@ -276,6 +276,14 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Mijlsteen</p></strong> </td> 
+      <td> <p>Kies een mijlpaal die u aan de geselecteerde sjabloontaak wilt koppelen.</p>
+
+   <p><b>BELANGRIJK</b></p>
+   <p>U moet een milestone-pad aan een sjabloon koppelen, zodat dit veld kan worden weergegeven. Zie voor meer informatie <a href="../create-and-manage-templates/edit-templates.md">Projectsjablonen bewerken</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Traceermodus</strong> </td> 
       <td> <p>Geef op hoe de voortgangsstatus van de toekomstige taak wordt bijgehouden. </p> <p>Selecteer een van de volgende opties:</p> 
@@ -348,7 +356,7 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Selecteer het aangepaste formulier of de formulieren die u aan de sjabloontaak wilt koppelen. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor meer informatie over het samenstellen van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).U kunt maximaal tien aangepaste formulieren aan een sjabloontaak toevoegen. De formulieren worden automatisch toegevoegd aan de taken die op basis van de sjabloon worden gemaakt.
+1. Selecteer het aangepaste formulier of de formulieren die u aan de sjabloontaak wilt koppelen. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor meer informatie over het samenstellen van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). U kunt maximaal tien aangepaste formulieren toevoegen aan een sjabloontaak. De formulieren worden automatisch toegevoegd aan de taken die op basis van de sjabloon worden gemaakt.
 1. (Voorwaardelijk en optioneel) Als u een aangepast formulier aan de sjabloontaak hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de sjabloontaak kunt opslaan.
 
    >[!NOTE]

@@ -7,9 +7,9 @@ description: Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorg
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,9 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
   </tr> 
   <tr> 
    <td> <p>Percentage (p of pe)</p> </td> 
-   <td> <p>De vertraging wordt uitgedrukt als percentage van de geschatte tijd om de voorganger te voltooien. </p> <p>Bijvoorbeeld, als er een eind-begin gebiedsdeel met bij 20% vertraging tussen op een 10 dagvoorgangertaak is, zal het systeem berekenen hoeveel dagen 20% van de voorgangerstaakwandduur is en gebruikt dat als vertraging. In dit geval duurt het twee dagen nadat de taak is voltooid. </p> <p>Opmerking: De maximale vervallimiet voor procenten is 2000%.</p> </td> 
+   <td> <p>De vertraging wordt uitgedrukt als percentage van de geschatte tijd om de voorganger te voltooien. </p> <p>Bijvoorbeeld, als er een eind-begin gebiedsdeel met een vertraging van 20% op een predecessor 10-dagtaak is, zal het systeem berekenen hoeveel dagen 20% van de duur vertegenwoordigen van de voorgangerstaak en dat als vertraging gebruiken. In dit geval duurt het twee dagen nadat de taak is voltooid. </p>
+
+<p><b>OPMERKING</b></p> De maximale vervallimiet voor procenten is 2000%.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dag van de week (w) </p> </td> 
@@ -177,7 +179,17 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
      <li>Donderdag=5</li> 
      <li>Vrijdag=6</li> 
      <li>Zaterdag=7</li> 
-    </ul> <p>Als u wilt erop wijzen dat de Geplande Datum van het Begin van de opvolger op een Dinsdag van de huidige week zou moeten vallen, en de Dinsdag is vóór de Geplande Datum van de Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Opmerking: Als de Dinsdag voor de week van de Geplande VoltooiingsDatum van de voorganger inging, dan is de Geplande Datum van het Begin van de opvolgertaak de eerste beschikbare werkdag van die week. </p> <p>Als u wilt erop wijzen dat de vertraging op een Zaterdag van de huidige week zou moeten vallen, en de Zaterdag is na de Geplande Datum van Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>Als zaterdag een niet-werkdag is, wordt de volgende beschikbare dag na zaterdag (om positieve vertraging aan te geven) geselecteerd als de geplande begindatum van de opvolger. </p> <p>Als u het verloop of de komende weken wilt aangeven, kunt u een getal vóór het dagnummer toevoegen voor het type vertraging. </p> <p>Als u bijvoorbeeld de maandag van 10 weken geleden wilt aangeven, kunt u deze code gebruiken om de voorganger van uw opvolger aan te geven:</p> <p><code>4fs-102w</code> </p> <p>10 geeft 10 weken geleden aan en 2 is het nummer dat is toegewezen aan maandag. </p> </td> 
+    </ul> <p>Als u wilt erop wijzen dat de Geplande Datum van het Begin van de opvolger op een Dinsdag van de huidige week zou moeten vallen, en de Dinsdag is vóór de Geplande Datum van de Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+
+<p><b>OPMERKING</b></p>
+
+Als de Dinsdag voor de week van de Geplande VoltooiingsDatum van de voorganger inging, dan is de Geplande Datum van het Begin van de opvolgertaak de eerste beschikbare werkdag van die week. </p> <p>Als u wilt erop wijzen dat de vertraging op een Zaterdag van de huidige week zou moeten vallen, en de Zaterdag is na de Geplande Datum van Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen:</p> <p>4fs+7w</code> </p> <p>Als zaterdag een niet-werkdag is, wordt de volgende beschikbare dag na zaterdag (om positieve vertraging aan te geven) geselecteerd als de geplande begindatum van de opvolger. </p>
+
+<p>Dit is niet van toepassing op planningsuitzonderingen. Als een datum ook een kalenderuitzondering is en de Datum van het Begin van de opvolger wordt berekend om die dag te zijn, dan probeert het systeem om de dichtstbijzijnde beschikbare datum te vinden die de dag van de week is die in de voorgangersuitdrukking wordt gespecificeerd.</p>
+
+<p>Bijvoorbeeld, als de Datum van het Begin wordt berekend om een bepaalde Dinsdag te zijn en die dag een planningsuitzondering is en de vertraging van voorganger positief is dan zal het volgende Dinsdag (als dat ook een werkdag is) als Datum van het Begin van de opvolger kiezen. Als de vertraging negatief is, kiest het systeem de vorige Dinsdag als Datum van het Begin.</p>
+
+<p>Als u het verloop of de komende weken wilt aangeven, kunt u een getal vóór het dagnummer toevoegen voor het type vertraging. </p> <p>Als u bijvoorbeeld de maandag van 10 weken geleden wilt aangeven, kunt u deze code gebruiken om de voorganger van uw opvolger aan te geven:</p> <p><code>4fs-102w</code> </p> <p>10 geeft 10 weken geleden aan en 2 is het nummer dat is toegewezen aan maandag. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dag van de week Niet nul (k)</p> </td> 
