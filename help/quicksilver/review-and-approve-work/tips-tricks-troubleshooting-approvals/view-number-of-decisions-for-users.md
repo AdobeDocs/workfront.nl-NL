@@ -6,7 +6,7 @@ description: U kunt het aantal proef- en documentbeslissingen bekijken dat gebru
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Om het aantal besluiten voor een gebruiker te bekijken:
 
 1. Open de **Weergaven** en kies vervolgens het **Licenties** weergeven.
 
-1. De kolom zoeken **Goedkeuring deze maand** om het aantal besluiten te bekijken elke gebruiker in de maand heeft gemaakt.
+1. De kolom zoeken **Besluiten deze maand** om het aantal besluiten te bekijken elke gebruiker in de maand heeft gemaakt.
