@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 1. Ga naar het gedeelte Updates en typ een opmerking.
 1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u de kenmerken in het dialoogvenster **RTF** terwijl u typt.
 
-   | **Kenmerk** | **Werkbalkknop** | **Mac-sneltoetsen** | **Sneltoetsen pc** |
+   | **Kenmerk** | **Werkbalkknop** | **Mac-sneltoetsen** | **Windows-sneltoetsen** |
    |---|---|---|---|
    | Vet | ![mceclip10.png](assets/mceclip10.png) | + | Ctrl+B |
    | Cursief | ![mceclip9.png](assets/mceclip9.png) | Alt+i | Ctrl+I |
    | Onderstrepen | ![mceclip8.png](assets/mceclip8.png) | Alt+u | Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | K | Ctrl+K |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: K</br> <br><span class="preview">In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: ^V</span></br> | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: Ctrl+K</br> <br><span class="preview">In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: Ctrl+V</span></br> |
    | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
    | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
    | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | Ctrl+Shift+9 |
 
    Als u de opmaak van tekst wilt stoppen, deselecteert u het kenmerk in het dialoogvenster **RTF** werkbalk.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
