@@ -7,7 +7,7 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -90,7 +90,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De inlaatkolom wordt links van het bord toegevoegd. Deze blijft leeg totdat u er filters op toepast.
 
 1. Klikken [!UICONTROL **Geavanceerde filters gebruiken**].
-1. Klikken **[!UICONTROL Filter sources]** en selecteert u **[!UICONTROL Tasks]** of **[!UICONTROL Issues]**.
+1. Klikken **[!UICONTROL Add filter sources]** en selecteert u **[!UICONTROL Tasks]** of **[!UICONTROL Issues]**.
 
    ![Geavanceerde filteropties voor de kolom opnemen](assets/intake-column-advanced-filters1.png)
 
