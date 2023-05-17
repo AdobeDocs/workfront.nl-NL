@@ -5,9 +5,9 @@ title: 'Nieuwe ervaring met opmerkingen in bètareleaseactiviteit'
 description: Bekijk de wekelijkse releaseactiviteit voor de nieuwe opmerkingentabeleving van Adobe Workfront.
 author: Alina
 feature: Product Announcements
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De volgende secties bevatten functies die na de oorspronkelijke versie zijn toeg
 
 ## Week van 15 mei 2023
 
-### Verbeterde ervaring bij het toevoegen van hyperlinks aan opmerkingen (titel)
+### Verbeterde ervaring bij het toevoegen van hyperlinks aan opmerkingen
 
 U kunt nu hyperlinks aan commentaren toevoegen gebruikend de volgende kortere wegsleutels:
 
