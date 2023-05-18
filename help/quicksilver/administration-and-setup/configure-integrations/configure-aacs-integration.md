@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets-integratie
 description: U kunt uw werk verbinden met de volgende Integraties van Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ An [!DNL Experience Manager] velden die zijn toegewezen aan [!DNL Workfront] por
 >Gebruikers moeten schrijftoegang hebben in [!DNL Experience Manager] voor elementen die in het object leven, zodat de metagegevens gesynchroniseerd worden wanneer deze worden bijgewerkt.
 
 1. De optie **[!UICONTROL Sync object metadata]** veld.
-1. Klik op Opslaan of ga naar het dialoogvenster [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
+1. Klikken **Opslaan** of ga naar de [Workflows instellen (optioneel)](#set-up-workflows-optional) in dit artikel.
+
+<!--Courtney start here-->
+
+## Workflows instellen (optioneel)
+
+Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Als Workfront-beheerder kunt u workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
+
+De standaardwerkschemawaarden die u in de integratie plaatst kunnen op de niveaus van het Malplaatje van het Project en van het Project worden met voeten getreden.
+
+### Een workflow instellen voor het maken van aan Adobe Experience Manager gekoppelde mappen
+
+1. Schakelen tussen **[!UICONTROL Create Linked folder]** op.
+1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
+   ![Navigatie naar gekoppelde mappen](assets/select-folder-aem-integration.png)
+1. De optie **Portfolio- en programmanamen toevoegen** automatisch namen van Portfolio en Programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
+1. Klikken **Opslaan** of ga naar de [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
+
+<!--Courtney end here-->
 
 ## Gekoppelde mappen instellen (optioneel)
 
