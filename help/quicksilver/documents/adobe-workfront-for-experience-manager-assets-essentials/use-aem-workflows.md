@@ -5,14 +5,16 @@ title: Workflows gebruiken in de integratie met Experience Manager Assets Essent
 description: Workflows gebruiken in de integratie met Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 038f5f3c941ea69feb43492a30b5abea39f7c932
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # Workflows gebruiken in de Experience Manager Assets-integratie
+
+<span class="preview">De informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Een Workfront-beheerder kan workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
 
