@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 0%
@@ -18,12 +18,10 @@ ht-degree: 0%
 
 # Voorkeuren voor tijdschriften en uren voor een groep configureren
 
-{{highlighted-preview}}
-
 Een beheerder van Adobe Workfront kan de volgende secties van timesheet en uurvoorkeur op systeemniveau ontgrendelen zodat de groepsbeheerders hen voor hun eigen groepen onafhankelijk kunnen vormen:
 
 * Algemene voorkeuren
-* <span class="preview">Waar gebruikers tijd kunnen vastleggen</span>
+* Waar gebruikers tijd kunnen vastleggen
 * Vooraf invullen van tijdbladen
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
@@ -136,23 +134,23 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
     </tbody> 
    </table>
 
-1. <span class="preview">In de **Waar gebruikers tijd kunnen vastleggen** configureren, configureert u een van de volgende opties:</span>
+1. In de **Waar gebruikers tijd kunnen vastleggen** configureren, configureert u een van de volgende opties:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">De tijd van de logboek direct op projecten</span></td> 
-      <td><span class="preview">Staat gebruikers toe om tijd op het project (zowel op het lusje van Updates als timesheet) te registreren. Als u uw gebruikers wilt beperken van opnametijd op projectniveau, verlaat deze optie ongecontroleerd.</span></td>
+      <td role="rowheader">De tijd van de logboek direct op projecten</td> 
+      <td>Staat gebruikers toe om tijd op het project (zowel op het lusje van Updates als timesheet) te registreren. Als u uw gebruikers wilt beperken van opnametijd op projectniveau, verlaat deze optie ongecontroleerd.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">De tijd van het logboek op projecten die volledig zijn</span></td>
-      <td><span class="preview">Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat ze in de status Voltooid hebben voltooid.</span></td>
+      <td role="rowheader">De tijd van het logboek op projecten die volledig zijn</td>
+      <td>Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat ze in de status Voltooid hebben voltooid.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">De tijd van het programma van het programma op projecten die dood zijn</span></td> 
-      <td><span class="preview">Wanneer deze optie wordt toegelaten, kunnen de gebruikers uren op projecten met een Dode status registreren.</span></td>
+      <td role="rowheader">De tijd van het programma van het programma op projecten die dood zijn</td> 
+      <td>Wanneer deze optie wordt toegelaten, kunnen de gebruikers uren op projecten met een Dode status registreren.</td>
      </tr>
     </tbody>
    </table>
