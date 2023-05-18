@@ -5,7 +5,7 @@ title: Kanbankkaarten voor mobiele teams migreren naar Workfront-borden
 description: U kunt uw werkitems migreren van een Google-teambord naar een nieuwe of bestaande Workfront-kaart.
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
+source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Kanbankkaarten voor mobiele teams migreren naar Workfront-borden
-
-{{highlighted-preview-article-level}}
 
 U kunt uw werkitems migreren van een Google-teambord naar een nieuwe of bestaande Workfront-kaart. Wanneer u de migratie uitvoert, worden alle kaarten op het Kanban-bord gekopieerd naar het Workfront-bord. U kunt geen specifieke kaarten kiezen.
 
