@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion maakt naadloos verbinding tussen uw apps en 
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 5c3304556031e83345f6aaaf4457987b55c585be
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Workfront Fusion maakt naadloos verbinding tussen uw apps en webservices, 
 
 Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## Recente releases
+## Fusion-releases in 2023
 
 ### Mei 2023
 
+* [Workfront Fusion-releaseactiviteit: Week van 15 mei 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
 * [Workfront Fusion-releaseactiviteit: Week van 1 mei 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
 
 ### April 2023
@@ -35,6 +36,10 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 * [Workfront Fusion-releaseactiviteit: Week van 20 maart 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion-releaseactiviteit: Week van 6 maart 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
+## Fusieleveringen in 2022
+
++++**Klik om te openen**
 
 ### december 2022
 
@@ -91,6 +96,8 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 ### Januari 2022
 
 * [Workfront Fusion-releaseactiviteit: Week van 3 januari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
++++
 
 ## Fusieleveringen in 2021
 

@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Een bestand ophalen](#get-a-file)
 * [Mapitems controleren](#watch-folder-items)
 
-#### Een bestand maken
+#### Wijzigingen ophalen
 
-Deze actiemodule maakt een nieuw bestand in SharePoint.
+Deze module retourneert wijzigingen die zijn aangebracht in SharePoint.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ Deze actiemodule maakt een nieuw bestand in SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
-   <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt maken.</p> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van de map waarin u de wijzigingen wilt ophalen.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie waar u het bestand wilt maken. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie waar u de wijzigingen wilt ophalen. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</td> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een m
 
 ### Item
 
-* [[!UICONTROL Watch Items]](#watch-items)
-* [[!UICONTROL List Items]](#list-items)
-* [[!UICONTROL Get an Item]](#get-an-item)
+* [[!UICONTROL Copy Item]](#copy-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
-* [[!UICONTROL Update an item]](#update-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
+* [[!UICONTROL Get an Item]](#get-an-item)
+* [[!UICONTROL List Items]](#list-items)
+* [[!UICONTROL Move Item]](#move-an-item)
+* [[!UICONTROL Update an item]](#update-an-item)
+* [[!UICONTROL Watch Items] (Gepland)](#watch-items-scheduled)
 
-#### [!UICONTROL Watch Items]
 
-Deze triggermodule start een scenario wanneer een item wordt gemaakt of gewijzigd.
+#### [!UICONTROL Copy Item]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Watch Lists]</td> 
-   <td>Selecteer of u lijsten wilt volgen door aanmaaktijd (nieuwe items) of door wijzigingstijd (bijgewerkte items).</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
-   <td> <p>Selecteer hoe u de site wilt identificeren en welke lijst u wilt bekijken.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de site die u wilt controleren en selecteer vervolgens de lijst. Deze drop-down wint slechts volgende plaatsen terug.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal punten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL List Items]
-
-Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst terug.
+Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst ter
    <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL List Items]</td> 
-   <td> <p>Selecteer hoe u de lijst wilt identificeren waarvan u items wilt ophalen.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site met de lijst waaruit u items wilt ophalen en selecteer vervolgens de lijst. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal punten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get an Item]
-
-Deze actiemodule retourneert de gegevens van een opgegeven item.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Get an Item]</td> 
-   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt ophalen.</p> 
+   <td role="rowheader">Site-, station- en map-id's invoeren</td> 
+   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt kopiëren.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site met de lijst waarvan u een item wilt ophalen, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype kopiëren of u een veld of een map verplaatst.  Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td>Voer een naam in of wijs een naam toe aan de nieuwe kopie van het item. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ Deze actiemodule maakt een nieuw item in een SharePoint-lijst.
  </tbody> 
 </table>
 
+#### [!UICONTROL Delete an item]
+
+Met deze actiemodule verwijdert u een bestaand item uit een SharePoint-lijst.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Update an Item]</td> 
+   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt verwijderen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die het item bevat dat u wilt verwijderen, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get an Item]
+
+Deze actiemodule retourneert de gegevens van een opgegeven item.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get an Item]</td> 
+   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site met de lijst waarvan u een item wilt ophalen, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Items]
+
+Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Items]</td> 
+   <td> <p>Selecteer hoe u de lijst wilt identificeren waarvan u items wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site met de lijst waaruit u items wilt ophalen en selecteer vervolgens de lijst. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal punten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Move an Item]
+
+Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Site-, station- en map-id's invoeren</td> 
+   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt verplaatsen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype kopiëren of u een veld of een map verplaatst. Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td>Voer een naam in of wijs een naam toe aan het verplaatste item. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Update an item]
 
 Deze actiemodule werkt een bestaand item in een SharePoint-lijst bij.
@@ -351,39 +408,9 @@ Deze actiemodule werkt een bestaand item in een SharePoint-lijst bij.
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete an item]
+#### [!UICONTROL Watch Items] (Gepland)
 
-Met deze actiemodule verwijdert u een bestaand item uit een SharePoint-lijst.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Update an Item]</td> 
-   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt verwijderen.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die het item bevat dat u wilt verwijderen, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Lijst
-
-* [[!UICONTROL Watch Lists]](#watch-lists)
-* [[!UICONTROL List Lists]](#list-lists)
-* [[!UICONTROL Get a List]](#get-a-list)
-* [[!UICONTROL Create a List]](#create-a-list)
-
-#### [!UICONTROL Watch Lists]
-
-Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzigd.
+Deze triggermodule start een scenario wanneer een item wordt gemaakt of gewijzigd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzi
    <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
    <td> <p>Selecteer hoe u de site wilt identificeren en welke lijst u wilt bekijken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> waar de lijst die u wilt controleren zich bevindt.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de site die u wilt bekijken. Met de vervolgkeuzelijst haalt u alleen de volgende site op.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de site die u wilt controleren en selecteer vervolgens de lijst. Deze drop-down wint slechts volgende plaatsen terug.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal lijsten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal punten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List Lists]
+### Lijst
 
-Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst terug.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List Lists]</td> 
-   <td> <p>Selecteer hoe u de site wilt identificeren waarvan u lijsten wilt ophalen.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de lijsten bevat die u wilt ophalen. In de vervolgkeuzelijst worden alleen de volgende sites opgehaald.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal lijsten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a List]
-
-Deze actiemodule retourneert de gegevens van een opgegeven lijst.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Get a List]</td> 
-   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt ophalen.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>Lijst-id</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de lijst bevat die u wilt ophalen en selecteer vervolgens de lijst. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Create a List]](#create-a-list)
+* [[!UICONTROL Get a List]](#get-a-list)
+* [[!UICONTROL List Lists]](#list-lists)
+* [[!UICONTROL Watch Lists]](#watch-lists)
 
 #### [!UICONTROL Create a List]
 
@@ -497,6 +481,87 @@ Deze actiemodule maakt een nieuwe lijst in SharePoint.
  </tbody> 
 </table>
 
+#### [!UICONTROL Get a List]
+
+Deze actiemodule retourneert de gegevens van een opgegeven lijst.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get a List]</td> 
+   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>Lijst-id</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de lijst bevat die u wilt ophalen en selecteer vervolgens de lijst. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Lists]
+
+Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Lists]</td> 
+   <td> <p>Selecteer hoe u de site wilt identificeren waarvan u lijsten wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de lijsten bevat die u wilt ophalen. In de vervolgkeuzelijst worden alleen de volgende sites opgehaald.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal lijsten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Lists]
+
+Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzigd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Watch Lists]</td> 
+   <td>Selecteer of u lijsten wilt volgen door aanmaaktijd (nieuwe items) of door wijzigingstijd (bijgewerkte items).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
+   <td> <p>Selecteer hoe u de site wilt identificeren en welke lijst u wilt bekijken.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> waar de lijst die u wilt controleren zich bevindt.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de site die u wilt bekijken. Met de vervolgkeuzelijst haalt u alleen de volgende site op.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal lijsten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Pagina (bèta)
 
 >[!NOTE]
@@ -528,31 +593,8 @@ Deze actiemodule retourneert de gegevens van een opgegeven pagina.
 
 ### Site
 
-* [[!UICONTROL Search Sites]](#search-sites)
 * [[!UICONTROL Get a Site]](#get-a-site)
-
-#### [!UICONTROL Search Sites]
-
-Deze actiemodule zoekt naar sites op basis van een parameter die u opgeeft.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
-   <td> <p>Voer de zoekterm in of wijs deze toe waarnaar u de sites wilt zoeken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal plaatsen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Search Sites]](#search-sites)
 
 #### [!UICONTROL Get a Site]
 
@@ -577,6 +619,29 @@ Deze actiemodule retourneert de gegevens van een opgegeven site.
  </tbody> 
 </table>
 
+#### [!UICONTROL Search Sites]
+
+Deze actiemodule zoekt naar sites op basis van een parameter die u opgeeft.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
+   <td> <p>Voer de zoekterm in of wijs deze toe waarnaar u de sites wilt zoeken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal plaatsen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Overige
 
 #### [!UICONTROL Make an API Call]
@@ -597,7 +662,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -617,6 +682,28 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Gebeurtenissen van Let
+
+Deze instant triggermodule start een scenario wanneer een item in SharePoint wordt toegevoegd, bijgewerkt of verwijderd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Selecteer een bestaande webhaak of klik op Toevoegen om een nieuwe webhaak te maken.</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
