@@ -6,16 +6,16 @@ description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak n
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '7344'
+source-wordcount: '7310'
 ht-degree: 0%
 
 ---
 
 # Projecten bewerken
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Het is beschikbaar voor alle klanten in de milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,8 +690,6 @@ De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 * Status
 * Goedkeuringsbeslissingen nemen als u in een huidig goedkeuringsproces als fiatteur bent ingesteld
 
-<div class="preview">
-
 ## Projecten bulksgewijs bewerken
 
 U kunt projecten in bulk uitgeven en informatie voor alle geselecteerde projecten tezelfdertijd bijwerken.
@@ -795,7 +793,6 @@ Zie de sectie voor meer informatie over het bewerken van het gebied Toegang [Toe
 1. (Optioneel) Klik op **Annuleren** onder aan het dialoogvenster **Projecten bewerken** pagina om alle wijzigingen te verwijderen die in alle projecten zijn aangebracht.
 1. Klikken **Opslaan**.
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 

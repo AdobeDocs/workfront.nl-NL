@@ -6,7 +6,7 @@ description: Brongroepen zijn verzamelingen gebruikers die u helpen bij het behe
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ Om middelgroepen met verscheidene projecten in bulk te associëren:
    >
    >* Wanneer u malplaatjes in massa uitgeeft, slechts verschijnen de middelgroepen die voor alle geselecteerde malplaatjes gemeenschappelijk zijn op dit gebied. Als de geselecteerde sjablonen geen gedeelde bronnenpools hebben, is dit veld leeg. De middelpools u specificeert hier beschrijven de individuele middelpools van de projecten of de malplaatjes.
    >
-   >* Wanneer u projecten in bulk uitgeeft, is er een &quot;Veelvoudige waarde&quot;indicator als de geselecteerde projecten verschillende middelgroepen hebben. Als u bronnenpools bulksgewijs toevoegt voor projecten, worden alle pools toegevoegd aan het geselecteerde project en worden de oorspronkelijke bronnenpools overschreven.</span>
+   >* Wanneer u projecten in bulk uitgeeft, is er een &quot;Veelvoudige waarde&quot;indicator als de geselecteerde projecten verschillende middelgroepen hebben. Als u bronnenpools bulksgewijs toevoegt voor projecten, worden alle pools toegevoegd aan het geselecteerde project en worden de oorspronkelijke bronnenpools overschreven.
 
 
-   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. Klikken **Wijzigingen opslaan**.\
    Wanneer uw middelpools met uw projecten of uw malplaatjes worden geassocieerd, kunt u gebruikerstoewijzingen voor uw projecten binnen de Planner van het Middel begroten.\
