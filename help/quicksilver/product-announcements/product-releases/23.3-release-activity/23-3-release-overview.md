@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Besturingselement op groepsniveau beschikbaar voor tijdspagina en uurvoorkeur "Waar gebruikers tijd kunnen vastleggen"</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Besturingselement op groepsniveau beschikbaar voor tijdspagina en uurvoorkeur "Waar gebruikers tijd kunnen vastleggen"</a></p>
                         <p>De systeembeheerder kan nu de tijdspagina en uurvoorkeur "Waar de gebruikers tijd kunnen registreren"sluiten en ontgrendelen. Wanneer deze voorkeur wordt ontgrendeld, kunnen groepsbeheerders de instellingen voor "Waar gebruikers zich kunnen aanmelden" voor elke groep afzonderlijk configureren.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Eenvoudige filters beschikbaar aan boord van inlaatkolommen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Eenvoudige filters beschikbaar aan boord van inlaatkolommen</a></p>
                         <p>Er zijn vereenvoudigde filters toegevoegd aan de instelling van de inlaatkolom, zodat u de inlaatkolom sneller kunt definiëren. De beschikbare filters zijn Workfront-projecten en toewijzingen per team of gebruiker. U kunt desgewenst overschakelen naar de geavanceerde filters.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront-veldwaarden toewijzen aan labels in Experience Manager Assets</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch gekoppelde mappen maken met Adobe Experience Manager Assets bij het maken van een project</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
+                        <p>Met de nieuwe workflow voor het maken van gekoppelde mappen voor de Adobe Experience Manager-integratie kunt u de integratie configureren met een pad naar een map Adobe Experience Manager Assets. Wanneer de integratie aan een projectmalplaatje wordt toegevoegd, zullen om het even welke projecten die van het malplaatje worden gecreeerd automatisch tot een verbonden subfolder in Experience Manager Assets in de gespecificeerde omslag leiden. </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 11 mei 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 18 mei 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront-veldwaarden toewijzen aan labels in Experience Manager Assets</a></p>
                         <p>Nu kunt u elementen categoriseren en snel zoeken op basis van gegevens van Workfront. U kunt deze gegevens toewijzen als onderdeel van de configuratie van metagegevens in de Workfront for Experience Manager Assets-integratie.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront-velden toewijzen aan aangepaste Experience Manager Assets-metagegevensvelden</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront-velden toewijzen aan aangepaste Experience Manager Assets-metagegevensvelden</a></p>
                         <p>Met de geïntegreerde native modus kunt u nu zowel native als ingebouwde Workfront-velden toewijzen aan aangepaste metagegevensschemavelden in Experience Manager Assets as a Cloud Service.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
