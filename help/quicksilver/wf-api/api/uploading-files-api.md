@@ -6,9 +6,9 @@ description: Bestanden uploaden via de API
 author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt bestanden uploaden met Workfront API&#39;s met API-gereedschappen, zoals Postman, of met eenvoudige cURL-opdrachten.
 
-Zie de instructies voor het uploaden van documenten **Documenten uploaden** in Workfront [Gedrag na](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). U kunt dezelfde instructies ook gebruiken voor cURL-aanvragen.
+Zie de instructies voor het uploaden van documenten **Documenten uploaden** in Workfront [Gedrag na](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). U kunt dezelfde instructies ook gebruiken voor cURL-aanvragen.
 
 **Houd u aan de volgende richtlijnen wanneer u API-gereedschappen gebruikt om bestanden te uploaden:**
 

@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: ca3d2a50-fe85-46de-b871-dc1f135382a5
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ Om het voor u gemakkelijker te maken om de punten te vinden u in uw scenario&#39
 
 Zie voor meer informatie over toewijzen [Informatie van de ene module toewijzen aan de andere in Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Universele connectors en routering in Workfront Fusion](https://one.workfront.com/s/learningpath4/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44) leerpad op Workfront One.
+Deze functie is nu opgenomen in het dialoogvenster [Universele connectors en routering in Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) leerpad op Adobe Experience League.

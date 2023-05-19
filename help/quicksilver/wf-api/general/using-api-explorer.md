@@ -6,7 +6,7 @@ description: De API Explorer gebruiken
 author: Becky
 feature: Workfront API
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Wanneer u de Adobe Workfront Core API gebruikt, is de API Explorer een verouderd
 
 ## Open de API Explorer:
 
-1. Met een webbrowser naar de [API Explorer](https://one.workfront.com/s/api-explorer)\
+1. Met een webbrowser naar de [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
 1. Selecteer in de rechterbovenhoek van de API Explorer de gewensteWorkfront **API-versie** Standaard wordt de meest actuele versie automatisch geselecteerd
