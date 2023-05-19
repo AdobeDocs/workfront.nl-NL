@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront-licentie</a>*</td> 
+   <td role="rowheader"><a href="../../add-users/access-levels-and-object-permissions/wf-licenses.md">Adobe-licentie</a>*</td> 
    <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
   </tr> 
   <tr> 

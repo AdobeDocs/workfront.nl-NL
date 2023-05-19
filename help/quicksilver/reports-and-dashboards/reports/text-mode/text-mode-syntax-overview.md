@@ -6,9 +6,9 @@ description: U kunt de interface van de tekstwijze gebruiken om complexere menin
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor een volledige lijst van al onze te rapporteren gebieden en hun attributen, 
 ## Overwegingen bij de syntaxis van de tekstmodus
 
 * U moet de syntaxis van Adobe Workfront begrijpen voordat u rapportelementen kunt gaan maken in de tekstmodus. De Workfront-syntaxis voor de tekstmodus is uniek voor deze toepassing en heeft unieke kenmerken waarmee u vertrouwd moet zijn.
-* Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus. Zie voor trainingsmateriaal over verslaglegging [Workfront-rapporten en dashboards leren paden](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * U kunt weergaven, filters en groepen aanpassen met de standaardmodusinterface. U kunt echter alleen aangepaste vragen maken met de tekstmodus.
 
 ## Gemeenschappelijke richtsnoeren voor het samenstellen van rapporteringselementen in tekstmodus

@@ -6,9 +6,9 @@ description: Complexe tekstmodusfilters maken met EXISTS-instructies
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2799'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Houd rekening met de volgende regels wanneer u EXISTS-instructies in een filter 
 
 * U moet de objectcode van het object Koppelen gebruiken om uw instructies te verbinden.\
    U kunt de objectcode van alle objecten vinden in de API Explorer.\
-   Voor informatie over de API Explorer raadpleegt u de [API Explorer](https://one.workfront.com/s/api-explorer).
+   Voor informatie over de API Explorer raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Wanneer een object Koppelen ontbreekt omdat het origineel en de doelobjecten rechtstreeks met elkaar zijn verbonden, kunt u de objectcode van het doelobject gebruiken in plaats van het object Koppelen.
 * U kunt naar meerdere velden (doelvelden) op hetzelfde object (doelobject) verwijzen. In dat geval moet u de regels verbinden die naar de velden verwijzen door AND.\

@@ -5,9 +5,9 @@ title: Objecten begrijpen in [!DNL Adobe Workfront]
 description: Objecten begrijpen in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '1972'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL Filter]
 * [!UICONTROL Goal]
 
-   U kunt een rapport voor strategische doelstellingen bouwen of u kunt op doel betrekking hebbende informatie in een projectrapport tonen wanneer de projecten met doelstellingen als doelactiviteiten worden geassocieerd. U kunt strategische doelen maken en alleen projecten verbinden als uw organisatie een [!DNL Workfront Goals] licentie. Voor informatie over [!DNL Workfront Goals], zie [[!DNL Workfront Goals] overzicht](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en). Voor informatie over het verbinden van projecten met strategische doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en).
+   U kunt een rapport voor strategische doelstellingen bouwen of u kunt op doel betrekking hebbende informatie in een projectrapport tonen wanneer de projecten met doelstellingen als doelactiviteiten worden geassocieerd. U kunt strategische doelen maken en alleen projecten verbinden als uw organisatie een [!DNL Workfront Goals] licentie. Voor informatie over [!DNL Workfront Goals], zie [[!DNL Workfront Goals] overzicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Voor informatie over het verbinden van projecten met strategische doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
    <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -277,23 +277,13 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL Hour Type]
 * [!UICONTROL Initiative]
 
-   U kunt alleen een rapport maken voor initiatieven die de onderliggende objecten van een plan zijn als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over initiatieven raadpleegt u [Overzicht van initiatieven in het [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience).
+   U kunt alleen een rapport maken voor initiatieven die de onderliggende objecten van een plan zijn als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over initiatieven raadpleegt u [Overzicht van initiatieven in het [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * Rol initiatieftaak
 
-   U kunt een rapport voor de baanrollen verbonden aan de initiatieven in een plan slechts bouwen als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over het creëren van initiatieven en het associëren van hen met baanrollen, zie [Initiatieven maken en bewerken in het dialoogvenster [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience).
+   U kunt een rapport voor de baanrollen verbonden aan de initiatieven in een plan slechts bouwen als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over het creëren van initiatieven en het associëren van hen met baanrollen, zie [Initiatieven maken en bewerken in het dialoogvenster [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]

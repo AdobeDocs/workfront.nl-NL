@@ -6,9 +6,9 @@ description: U kunt de montages van een rapport uitgeven om te bepalen hoe het v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Zie ook:
 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Aan de slag met rapporten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Ingebouwde Adobe Workfront-rapporten gebruiken](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

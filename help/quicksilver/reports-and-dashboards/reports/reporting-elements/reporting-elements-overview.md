@@ -7,9 +7,9 @@ description: 'Alle Adobe Workfront-rapporten en -lijsten zijn een combinatie van
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Voor informatie over het creëren van een grafiek in een rapport, zie [Een diagr
 
 Deze sectie bevat de volgende artikelen:
 
-* [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
 * [Elementen rapporteren: filters, weergaven en groepen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Filters maken of bewerken in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)

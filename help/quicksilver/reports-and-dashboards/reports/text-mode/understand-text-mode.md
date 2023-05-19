@@ -6,9 +6,9 @@ description: Overzicht van de tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de 
 >
 >U kunt ook de mogelijkheden van berekende aangepaste velden uitbreiden met een versie van de tekstmodus voor aangepaste velden. De syntaxis en regels voor het maken van een berekend aangepast veld verschillen van de syntaxis en regels die u gebruikt in rapporten en lijsten. Voor informatie over het toevoegen van een berekend aangepast veld raadpleegt u [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus. Zie voor trainingsmateriaal over verslaglegging [Workfront-rapporten en dashboards leren paden](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * We raden u aan de standaardmodus te gebruiken om ervoor te zorgen dat de rapporten die u maakt intact blijven wanneer de Workfront-software wordt bijgewerkt. In de tekstmodus kunt u complexere weergaven, filters en groepen maken, maar het is ook moeilijker om deze te onderhouden en het is niet gegarandeerd wanneer de Workfront-software wordt bijgewerkt.
 * Wij adviseren dat u altijd probeert om alle rapporteringselementen in de standaardinterface te bouwen en op de bouwer van de tekstwijze slechts voor weinig aanpassingen over te schakelen.
 

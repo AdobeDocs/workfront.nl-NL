@@ -5,9 +5,9 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '15833'
+source-wordcount: '15985'
 ht-degree: 0%
 
 ---
@@ -1989,7 +1989,20 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Geeft het bovenliggende object van een ander object aan. Een document dat bijvoorbeeld is gekoppeld aan een taak, heeft de naam van de taak in het dialoogvenster [!UICONTROL Source] veld van een [!UICONTROL Document] verslag of mening; een kwestie die onder een project wordt geregistreerd heeft de naam van het project in [!UICONTROL Source] veld van een Issue-rapport of -weergave. </p> </td> 
+   <td> <p>Geeft het bovenliggende object van een ander object aan. Een document dat bijvoorbeeld is gekoppeld aan een taak, heeft de naam van de taak in het dialoogvenster [!UICONTROL Source] veld van een [!UICONTROL Document] verslag of mening; een kwestie die onder een project wordt geregistreerd heeft de naam van het project in [!UICONTROL Source] veld van een Issue-rapport of -weergave. </p> 
+   <p>In de volgende rapporten wordt een kolom Bron weergegeven waarin u informatie over het bovenliggende object kunt weergeven:</p>
+  <ul><li>Problemen melden</li>
+    <li>Uur</li>
+    <li>Documentrapporten </li>
+    </ul>
+   <p>Als de gebruikers geen toestemmingen aan het oudervoorwerp van een kwestie, een uur, of een document hebben, toont de Bronkolom van het rapport leeg, zelfs wanneer het rapport aan vertoning wordt gevormd, of met de toegangsrechten van een andere gebruiker moet worden geleverd. </p>
+   <p> Om informatie over het oudervoorwerp in het rapport te tonen, adviseren wij toevoegend een kolom voor het oudervoorwerp waar u de naam van de ouder kunt tonen. </p>
+    <p>Bijvoorbeeld, kunt u om het even welke volgend aan een rapport met een Bronkolom toevoegen: </p>
+    <ul><li>De kolommen van de Naam van het Project, van de Naam van de Taak, of van de Naam van de Uitgave aan een document of een uurrapport.</li>
+    <li>De kolommen van de Naam van het Project of van de Naam van de Taak aan een probleemrapport. </li> </ul>
+    Zie voor meer informatie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Een rapport uitvoeren en leveren met de toegangsrechten van een andere gebruiker</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Start Date]</td> 

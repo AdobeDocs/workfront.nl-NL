@@ -7,9 +7,9 @@ description: U kunt objecten weergeven die niet in de standaardmodusinterface zi
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 U kunt objecten weergeven die niet in de standaardmodusinterface zijn opgenomen. U kunt dit alleen doen door ernaar te verwijzen via de tekstmodus.\
 U kunt op de volgende manieren bepalen welke velden in een weergave kunnen worden opgenomen:
 
-* Gebruik de [API Explorer](https://one.workfront.com/s/api-explorer) om andere objecten te zoeken waarnaar in de tekstmodus kan worden verwezen.\
+* Gebruik de [API Explorer](../../../wf-api/general/api-explorer.md) om andere objecten te zoeken waarnaar in de tekstmodus kan worden verwezen.\
    Niet alle velden die in de API Explorer worden beschreven, zijn geldige velden voor de tekstmodus. Sommige velden worden alleen gemeld via de API.
 
 * Zoek het veld Id van het object in een kolom. De meeste objecten met een veld-id hebben ook een corresponderende kolom- of veldnaam die niet toegankelijk is via de standaardmodusinterface.

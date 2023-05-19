@@ -6,9 +6,9 @@ description: Door gebrek, kunnen de gebruikers de voorwerpen in een rapport slec
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 269340bc6a0c237edf44f5aa325d4ff95b647df8
+source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
-   Gebruikers met een lager toegangsniveau die rapporten mogen samenstellen, kunnen geen andere gebruiker dan zelf selecteren voor de **Dit rapport leveren met de toegangsrechten van:** veld.
+   Gebruikers met een lager toegangsniveau die rapporten mogen samenstellen, kunnen geen andere gebruiker dan henzelf selecteren voor de **Dit rapport leveren met de toegangsrechten van:** veld.
 
 1. Selecteer **Indeling** u wilt dat het rapport in de e-mail wordt weergegeven:
 
@@ -115,3 +115,39 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
    of\
    Klikken **Herhalende levering maken** om een terugkomende levering voor het rapport te plannen.\
    Raadpleeg het artikel voor meer informatie over rapportleveringen [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
+## Beperkingen voor rapporten met een kolom Bron
+
+In de volgende rapporten wordt een kolom Bron weergegeven waarin u informatie over het bovenliggende object kunt weergeven:
+
+* Problemen melden
+* Uur
+* Documentrapporten
+
+Als de gebruikers geen toestemmingen aan het oudervoorwerp van een kwestie, een uur, of een document hebben, toont de Bronkolom van het rapport leeg, zelfs wanneer het rapport aan vertoning wordt gevormd, of met de toegangsrechten van een andere gebruiker moet worden geleverd.
+
+Om informatie over het oudervoorwerp in het rapport te tonen, adviseren wij toevoegend een kolom voor het oudervoorwerp waar u de naam van de ouder kunt tonen.
+
+Bijvoorbeeld, kunt u om het even welke volgend aan een rapport met een Bronkolom toevoegen:
+
+* De kolommen van de Naam van het Project, van de Naam van de Taak, of van de Naam van de Uitgave aan een document of een uurrapport.
+* De kolommen van de Naam van het Project of van de Naam van de Taak aan een probleemrapport.
+* Een kolom die expressies in tekstmodus gebruikt die naar alle drie objecten verwijzen. Hier volgt een voorbeeld van een uurrapport:
+
+   `displayname=Custom Source`
+
+   `linkedname=opTask`
+
+   `namekey=view.relatedcolumn`
+
+   `namekeyargkey.0=opTask`
+
+   `namekeyargkey.1=name`
+
+   `textmode=true`
+
+   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+
+   `valueformat=HTML`
+
+   Voor informatie over de weergaven van de tekstmodus raadpleegt u [Een weergave bewerken in de tekstmodus](../text-mode/edit-text-mode-in-view.md).

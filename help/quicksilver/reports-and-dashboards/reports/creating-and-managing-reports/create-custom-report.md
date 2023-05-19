@@ -6,9 +6,9 @@ description: Als u begrijpt hoe rapporten moeten worden gemaakt, kunt u toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1786'
 ht-degree: 0%
 
 ---
@@ -129,8 +129,9 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
    >[!NOTE]
    >
    >Als u een veld toevoegt dat verwijst naar een object dat te ver verwijderd is van het object waarop u rapporteert, kunt u mogelijk niet sorteren op dit veld.\
-   >Een uitgiftenrapport kan bijvoorbeeld niet worden gesorteerd op het veld Projecteigenaar omdat het verwijst naar 3 extra objecten: Project, Eigenaar en Naam. Nochtans, kunt u dit gebied aan een probleemrapport nog toevoegen en de informatie voor het zien.\
-   >Meer over dwars-objecten verwijzingen in rapporten leren, zie de sectie &quot;Geavanceerde Rapportering Deel 1 van 3&quot;in [Leerpad voor rapporten en dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
+   >Een uitgiftenrapport kan bijvoorbeeld niet worden gesorteerd op het veld Projecteigenaar omdat het verwijst naar 3 extra objecten: Project, Eigenaar en Naam. Nochtans, kunt u dit gebied aan een probleemrapport nog toevoegen en de informatie voor het zien.
+
+   <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
 1. (Optioneel) Als u groepen gebruikt en u de gegevens in een kolom wilt samenvatten (samenvoegen), klikt u op de knop **Deze kolom samenvatten met** vervolgkeuzelijst in het dialoogvenster **Kolominstellingen** selecteert u vervolgens de optie die u wilt gebruiken om de gegevens in de kolom samen te voegen.
 

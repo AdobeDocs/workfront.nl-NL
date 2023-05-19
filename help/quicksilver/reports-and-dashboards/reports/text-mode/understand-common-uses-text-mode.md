@@ -6,9 +6,9 @@ description: Overzicht van veelvoorkomende toepassingen voor de tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ In dit artikel worden slechts een paar voorbeelden beschreven van de meest waars
 * [Voorbeelden van aangepaste weergaven, filters en groeperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Berekende aangepaste gegevens in rapporten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-Voor extra real-life voorbeelden van de tekstwijze die andere klanten van Workfront zouden kunnen hebben geïdentificeerd, bezoek [Rapportagegesprekken over tekstmodus](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) in Adobe Workfront One of sluit u zich aan bij de [Workfront Community](https://one.workfront.com/s/community) (Aanmelden is vereist).  
+<!--this link is outdated: 
+
+For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
+
+-->
 
 ## Exemplaren waar u tekstwijze in lijsten en rapporten zou kunnen gebruiken
 

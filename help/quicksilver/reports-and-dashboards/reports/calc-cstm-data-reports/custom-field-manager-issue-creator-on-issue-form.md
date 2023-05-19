@@ -7,9 +7,9 @@ description: Met behulp van een berekend aangepast veld kunt u de naam van de be
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 Met behulp van een berekend aangepast veld kunt u de naam van de beheerder van de maker van een uitgave weergeven op een aangepast formulier dat aan de uitgave is gekoppeld. Met dezelfde instructie kunt u vergelijkbare berekende velden maken voor projecten, problemen en andere objecten.
 
+<!--outdated link: 
 >[!TIP]
 >
->Voor meer informatie over extra voorbeelden van de douanetekstmodus van andere klanten, volgt [Rapportage tekstmodus](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) op onze communautaire site.
+>For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
+-->
 
 ## Toegangsvereisten
 
