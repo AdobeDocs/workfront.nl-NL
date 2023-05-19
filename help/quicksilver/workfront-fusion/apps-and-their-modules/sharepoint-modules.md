@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt kopiëren.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype kopiëren of u een veld of een map verplaatst.  Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype of u een veld of een map verplaatst.  Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination ID]</td> 
-   <td>  </td> 
+   <td> Voer de id in van de map waarnaar u het item wilt kopiëren of wijs deze toe. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL New name]</td> 
@@ -367,12 +367,12 @@ Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt verplaatsen.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype kopiëren of u een veld of een map verplaatst. Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype of u een veld of een map verplaatst. Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination ID]</td> 
-   <td>  </td> 
+   <td> Voer de id in van de map waarnaar u het item wilt verplaatsen of wijs deze toe. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL New name]</td> 
@@ -643,6 +643,33 @@ Deze actiemodule zoekt naar sites op basis van een parameter die u opgeeft.
 </table>
 
 ### Overige
+
+#### Wijzigingen ophalen
+
+Deze module haalt toevoegingen, updates, en schrappingen terug die in de omslag van SharePoint worden gemaakt.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt bijwerken.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL Drive ID]</strong>, en <strong>[!UICONTROL Folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die het item bevat dat u wilt bijwerken, selecteer vervolgens het station en selecteer vervolgens de map. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> Het teken identificeert vanaf welk punt de module zou moeten beginnen met het terugwinnen van veranderingen.  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Make an API Call]
 
