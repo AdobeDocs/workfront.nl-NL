@@ -6,9 +6,10 @@ title: Werkstromen beheren
 description: Een werkstroom is een configureerbare groep borden en kaarten voor samenwerking op het werk.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
+source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -100,6 +101,7 @@ Personen en teams moeten als leden aan de werkstream worden toegevoegd voordat z
 1. Klik op het dashboard op [!UICONTROL **Werkstroom weergeven**] om een werkstroom te openen.
 1. Klikken [!UICONTROL **Configureren**] om de [!UICONTROL Configure Workstream] deelvenster.
 1. (Optioneel) Typ een beschrijving van de werkstroom. Deze beschrijving wordt weergegeven op het dashboard.
+1. (Optioneel) Voeg tags toe aan de werkstream. Zie voor meer informatie [Tags toevoegen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
    Het totale aantal kaarten, het aantal puntige kaarten en het aantal herhalingen worden weergegeven in de sectie Kaartlijst. Klikken [!UICONTROL **Lijst weergeven**] om de lijst te openen en kaarten toe te voegen. Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
@@ -109,4 +111,3 @@ Personen en teams moeten als leden aan de werkstream worden toegevoegd voordat z
 1. Voeg filters toe om taken en problemen uit Workfront als kaarten te importeren.
 
    Het toevoegen van filters voor werkstroombronnen is hetzelfde als het toevoegen van filters voor een inlaatkolom op een basisbord of Kanban-bord. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
-
