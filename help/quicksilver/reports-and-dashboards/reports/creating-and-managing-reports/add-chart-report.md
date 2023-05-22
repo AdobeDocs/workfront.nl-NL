@@ -6,9 +6,9 @@ description: U kunt uw rapporten verbeteren door een grafiek toe te voegen. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Als u een **Balk** diagram naar uw rapport:
    Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 
 1. (Optioneel) Selecteer **Tonen in 3D** om het diagram weer te geven in een driedimensionale weergave.
-1. (Optioneel)**Groepsbalken**: Selecteer deze optie als u wilt definiëren hoe de balken moeten worden gegroepeerd.\
+1. (Optioneel) Groepenbalken**: Selecteer deze optie als u wilt definiëren hoe de balken moeten worden gegroepeerd.\
    Selecteer een van de volgende opties:
 
    * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde balken worden weergegeven:\
@@ -233,8 +233,21 @@ Als u een **Bubble** diagram naar uw rapport:
    >Voor meer informatie over het samenvatten van de informatie in een rapportkolom, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. In de **Luchtbellen** selecteert u in het veld Groeperen dat u in het diagram wilt opnemen. De groepering wordt vertegenwoordigd door de plaatsing van de bellen op de grafiek.
-1. In de **Bubbelkleur** selecteert u het veld dat u wilt weergeven door de kleuren van de bellen. De **Bubbelkleur** kan een groepering zijn u in het rapport bepaalt, maar het kan slechts gebieden van het voorwerp zijn u zoals selecteerde **Luchtbellen**. Als u bijvoorbeeld Taaknaam hebt geselecteerd, kunt u Taakstatus toevoegen, maar de projectstatus niet als een **Bubbelkleur**.\
+1. In de **Bubbelkleur** selecteert u het veld dat u wilt weergeven door de kleuren van de bellen.
+
    ![](assets/qs-bubble-chart-350x103.png)
+
+
+   De **Bubbelkleur** kan een groepering zijn u in het rapport bepaalt, maar het is slechts beschikbaar wanneer u selecteert **Naam** kolom voor het voorwerp van het rapport in **Luchtbellen** veld.
+
+   Als u bijvoorbeeld **Taaknaam** in een taakrapport kunt u **Taakstatus** als de **Bubbelkleur** veld.
+
+   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+
+   Als u echter **Taakstatus** voor de **Luchtbellen** veld, kunt u geen **Bubbelkleur** veld. U kunt ook niet **Projectnaam** voor de **Bubbelkleur** veld, zelfs wanneer u **Taaknaam** voor de **Bubble** veld.
+
+   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+
 
 1. Klikken **Opslaan + Sluiten** om de veranderingen in de interfacebouwer te bewaren.
 
@@ -257,7 +270,7 @@ Een diagram exporteren:
 
 ## Grafiekkleuren aanpassen {#customize-chart-colors}
 
-U kunt Workfront de kleuren laten selecteren van de elementen in het diagram of u kunt deze aanpassen terwijl u een diagram toevoegt aan uw rapporten. Als uw grafiek één enkele Groepering bevat die metrisch-zulke zoals een taakrapport vertegenwoordigt dat de hoeveelheid taken toont die door Ware Datum van Voltooiing worden gegroepeerd—elk resultaat in de Groepering wordt getoond in de zelfde kleur.
+U kunt Workfront de kleuren laten selecteren van de elementen in het diagram of u kunt deze aanpassen terwijl u een diagram toevoegt aan uw rapporten. Als uw grafiek één enkele Groepering bevat die metrisch-zulke zoals een taakrapport vertegenwoordigt dat het aantal taken toont die door Ware VoltooiingsDatum-elk resultaat in de Groepering wordt gegroepeerd in de zelfde kleur wordt getoond.
 
 U kunt slechts één kleur kiezen voor velden die worden weergegeven in de weergave van het rapport. U kunt verscheidene kleuren-voor elke optie-voor gebieden kiezen die in de Groepering van het rapport worden getoond.
 
@@ -324,4 +337,4 @@ Houd rekening met de volgende beperkingen wanneer u werkt met diagrammen:
 
 * U kunt de legenda van het diagram niet bewerken.
 * Wanneer u berekende velden gebruikt voor uw groepen, kunt u niet op de diagramelementen klikken.
-* De meeste gegevenspunten u in een grafiek kunt tonen is vier, in een borstelgrafiek. Alle andere grafiektypes tonen twee of een maximum van drie gegevenspunten.
+* Het meest aantal gegevenspunten u in een grafiek kunt tonen is vier, in een borstelgrafiek. Alle andere grafiektypes tonen twee of een maximum van drie gegevenspunten.

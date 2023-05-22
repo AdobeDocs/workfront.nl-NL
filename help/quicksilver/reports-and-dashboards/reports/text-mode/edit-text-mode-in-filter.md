@@ -6,9 +6,9 @@ description: "OPMERKING: voeg een sectie in dit artikel toe: /Content/Reports an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 -->
 
 U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere filters creëren.
+
+Zie ook de sectie &#39;Voorbeelden van aangepaste filters&#39; in het artikel voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste weergaven, filters en groeperingen](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Toegangsvereisten
 
@@ -62,7 +64,7 @@ Zie voor meer informatie:
 
 ## Tekstmodus in een filter bewerken
 
-Het bewerken van een filter in de tekstmodus is identiek voor rapporten en lijsten. De toegang tot van de mening van een rapport of van een lijst verschilt.
+Het bewerken van een filter in de tekstmodus is identiek voor rapporten en lijsten. De toegang tot van de filter van een rapport of van een lijst verschilt.
 
 >[!TIP]
 >
@@ -87,17 +89,19 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
     <col> 
     <tbody> 
      <tr> 
-      <td>Filterlijn/informatie</td> 
-      <td>Voorbeeld</td> 
+      <td><b>Filterlijn/informatie</b></td> 
+      <td><b>Voorbeeld</b></td> 
      </tr> 
      <tr> 
       <td> <p>De veldnaam en de waarde die ermee overeenkomen zoals deze worden weergegeven in de Workfront-database.</p> <p>Deze regel is verplicht.</p> <p> Voor meer informatie over hoe objecten en velden in de database worden weergegeven, raadpleegt u <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Gebruik de volgende regel om te filteren op taken in de status In uitvoering:</p> <p><code>status=INP</code> </p> <p>Tip: Wanneer het filtreren voor statussen, moet u de drie-lettercode van de status en niet de naam gebruiken.</p> </td> 
-     </tr> 
+      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Gebruik de volgende regel om te filteren op taken in de status In uitvoering:</p> <p><code>status=INP</code> </p> <p><b>TIP</b>
+
+   Wanneer het filtreren voor statussen, moet u de drie-lettercode van de status en niet de naam gebruiken.</p> </td>
+   </tr> 
      <tr> 
       <td> <p>De bepaling van de gebiedsnaam en wat de bepaling aan evenaart. Dit geeft aan op welke voorwaarden het veld waarop u filtert, moet voldoen.</p> <p>Deze regel is verplicht.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Als u wilt aangeven dat de status van de taken waarvoor u filtert, gelijk moet zijn aan In uitvoering, gebruikt u de volgende regel naast de bovenstaande regel:</p> <p><code>status_Mod=in</code> </p> <p>Als de bepaling een waaier is, zijn er twee lijnen om op de bepaling te wijzen.</p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Voorbeeld: </b></span></span> 
+       <div> <span class="autonumber"><span><b>VOORBEELD </b></span></span> 
         <p>Dit is een filter van de tekstwijze die taken zoekt die lopend zijn, die een Geplande Datum van de Voltooiing binnen de huidige maand hebben, en aan een gebruiker met een specifieke GUID toegewezen zijn:</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -116,7 +120,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
          <li> <p>Wanneer u de operator wijzigt van AND in OR, kan het aantal lijstitems toenemen.</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Voorbeeld: </b></span></span> 
+       <div> <span class="autonumber"><span><b>VOORBEELD </b></span></span> 
         <p>Als u wilt filteren op taken in de status In uitvoering of met de geplande Voltooiingsdatum van Vandaag, gebruikt u het volgende: </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
@@ -127,7 +131,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
      <tr> 
       <td> <p>Een vervanging die u toestaat om de informatie in een filter te generaliseren en de huidige tijd of de gebruiker van verwijzingen te voorzien die het programma wordt geopend.</p> <p>Jokertekens zijn optioneel.</p> <p>Tip:   <p>We raden u aan om waar mogelijk jokertekens te gebruiken om uw filters dynamischer te maken en niet dezelfde filters te dupliceren voor elke gebruiker of vergelijkbare tijdframes.</p> <p>Voor informatie over filterjokertekens raadpleegt u <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabelen van jokerfilter</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Voorbeeld: </b></span></span> 
+       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>VOORBEELD</b></span></span> 
         <p>Om voor taken te filtreren die aan de gebruiker worden toegewezen die momenteel het programma wordt geopend, gebruik het volgende:</p> 
         <p><code>assignedToID=$$USER.ID</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -169,3 +173,5 @@ Om voor taken te filtreren die in een status van Bezig zijn of aan de het progra
 
 1. Klikken **Gereed** als u de wijzigingen wilt opslaan en het rapport of het filter wilt blijven bewerken.
 1. Klikken **Opslaan + Sluiten** om uw rapport op te slaan of **Filter opslaan** om het filter in de lijst op te slaan.
+
+
