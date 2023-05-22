@@ -7,9 +7,10 @@ description: U kunt een aangepast formulier ontwerpen dat gebruikers aan een Wor
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
+source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -45,8 +46,6 @@ Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
 ## Functionaliteit binnenkort beschikbaar
 
 De volgende opties zijn momenteel niet beschikbaar in de formulierontwerper, maar worden binnenkort toegevoegd:
-
-* De grootte van beschrijvende tekst aanpassen
 
 * Logica weergeven/overslaan
 
