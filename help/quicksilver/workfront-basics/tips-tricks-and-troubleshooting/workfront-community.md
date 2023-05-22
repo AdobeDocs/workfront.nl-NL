@@ -5,9 +5,9 @@ title: De [!DNL Adobe Workfront] Gemeenschap
 description: TheAdobe [!DNL Workfront] Community is een online groep van meer dan 10.000 [!DNL Workfront] gebruikers. Door de gemeenschap kunt u bijgewerkt op productversies blijven, over klantengebeurtenissen leren, en met andere gebruikers over spreken [!DNL Workfront] producten en diensten. U zult antwoorden aan vragen vinden en verbindingen met andere vestigen [!DNL Workfront] klanten.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Als u uw wachtwoord voor de Community-site niet onthoudt, kunt u het beste conta
 
 ### Wat is URL voor [!DNL Workfront] Community?
 
-De [!DNL Workfront] De Gemeenschap is beschikbaar op [!DNL Workfront One] website op de volgende URL:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+De [!DNL Workfront] De Gemeenschap is beschikbaar op [!DNL Adobe Experience League] website op de volgende URL:  [[!DNL Workfront] Gemeenschap](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Wat is mijn subdomein? {#what-s-my-subdomain}
 

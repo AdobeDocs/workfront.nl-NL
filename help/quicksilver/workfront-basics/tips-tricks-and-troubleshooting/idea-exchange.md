@@ -5,9 +5,9 @@ title: Innovatie Lab
 description: De [!UICONTROL Innovation Lab] laat voor authentiek verklaarde gebruikers toe om voor te leggen, te stemmen, en ideeën met medeklanten te bespreken.
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Als geverifieerde gebruiker kunt u:
 
 Om over een idee te stemmen:
 
-1. Aanmelden bij de [!DNL Adobe Workfront] Gemeenschap [!DNL Workfront One] site op de volgende URL:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+1. Aanmelden bij de [!DNL Adobe Workfront] Gemeenschap [!DNL Adobe Experience League] site op de volgende URL:  [[!DNL Adobe Workfront] Gemeenschap](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
-1. Klik op de knop **[!UICONTROL Collaboration]** tab, en klik vervolgens op **[!UICONTROL Innovation Lab]**.
+1. Klik op de knop **[!UICONTROL Ideas]** tab.
 
 1. Zoek naar het idee waar u over wilt stemmen.
 1. Klik op het idee.

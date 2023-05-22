@@ -5,9 +5,9 @@ title: Je snelle gids voor hulp in [!DNL Adobe Workfront]
 description: Je snelle gids voor hulp in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: ccc20edf13c2cdec1d81d5ab90dcd0d24c0e2ff3
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -93,15 +93,6 @@ De volgende bronnen kunnen u helpen bepalen hoe u [!DNL Workfront]:
    <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Gemeenschap</a> </td> 
    <td>De [!DNL Workfront] Met Community kunt u gesprekken voeren met [!DNL Workfront] gebruikers en deskundigen over de hele wereld. Ze zijn er altijd om je vragen te beantwoorden of je in de juiste richting te wijzen.</td> 
   </tr> 
-  <!--<tr> 
-   <td><a href="https://one.workfront.com/s/groups" target="_blank">User groups</a> </td> 
-   <td>Come together with other [!DNL Workfront] users in your geographical, industry, and interest areas to share and learn, both virtually and in person.</td> 
-  </tr> --><!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td><a href="https://www.workfront.com/leap">Leap</a> </td> 
-    <td> <p>This premier modern work management event is designed to help you gain the skills to master modern work.</p> <p>Leap is your opportunity to network with the largest collection of Workfront users each year. Learn from the brightest minds in keynotes, interactive breakouts, and one-on-one consulting sessions. Get a sneak peek of the Workfront product roadmap and discover how companies like yours are leveraging Workfront as their operational system of record.<br>To learn more, see <a href="https://www.workfront.com/leap-us/whyattend">Why to attend Leap</a>.</p> </td> 
-   </tr>
-  --> 
  </tbody> 
 </table>
 
@@ -126,7 +117,7 @@ Deze 3 stappen kunnen u helpen als [!DNL Workfront] beheerder blijft bovenop elk
    <td> 
     <ul> 
      <li> <p>Test de nieuwste updates in uw [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
-     <li> <p>Bepaal hoe deze updates effect hebben op de manier waarop uw mensen werken. Ons <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Kennisbank</a> en <a href="https://one.workfront.com/s/event?tabset-79c36=e4025&amp;tabset-0ce9c=e4025">webinars</a> kan helpen! Onze productmanagers verwijzen vaak naar het directe probleem van de eindgebruiker of het bedrijf dat door de functionaliteit wordt opgelost, waardoor u de gevolgen van de wijziging kunt versnellen.</p> </li> 
+     <li> <p>Bepaal hoe deze updates effect hebben op de manier waarop uw mensen werken. Ons <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Kennisbank</a> en <a href="https://experienceleague.adobe.com/events/?lang=en">gebeurtenissen</a> kan helpen! Onze productmanagers verwijzen vaak naar het directe probleem van de eindgebruiker of het bedrijf dat door de functionaliteit wordt opgelost, waardoor u de gevolgen van de wijziging kunt versnellen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -154,9 +145,8 @@ De volgende bronnen kunnen u helpen meer te weten te komen over de [!DNL Workfro
 |---|---|
 | [[!DNL Workfront] ingebouwde integratie](https://www.workfront.com/integrations) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
 | [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Verbindingen [!DNL Workfront] tot 100+ toepassingen, die het gemakkelijk maken om uw bedrijfskritieke processen zonder code te automatiseren. |
-| [[!DNL Adobe Workfront] API Developer-forum](../../wf-api/general/api-developer-forum.md) | Voor degenen die API-documentatie willen openen, aan ons ontwikkelingsforum willen deelnemen of onze tech-blog willen lezen, is deze site de plaats voor u. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Wanneer doet [!DNL Workfront] onderhoud? Hoe kom ik erachter of [!DNL Workfront] is het uit?
 
@@ -170,6 +160,6 @@ Om te leren wat in een wekelijkse Update van het Onderhoud is bevestigd, zie [On
 
 De volgende dashboards kunnen u als a [!DNL Workfront] beheerder handhaaft Workfront:
 
-| [[!DNL Workfront] Gebruiksdashboard](https://one.workfront.com/s/article/Workfront-Usage-Dashboard) | Begrijpen hoe uw gebruikers hefboomwerking hebben [!DNL Workfront] kan u helpen de algemene toepassing van uw systeem meten evenals in om het even welke probleemgebieden duiken die enige aandacht kunnen vergen. |
+| [[!DNL Workfront] Gebruiksdashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Begrijpen hoe uw gebruikers hefboomwerking hebben [!DNL Workfront] kan u helpen de algemene toepassing van uw systeem meten evenals in om het even welke probleemgebieden duiken die enige aandacht kunnen vergen. |
 |---|---|
-| [[!DNL Workfront] Schoonmaakdashboard: Ongebruikte objecten deactiveren](https://one.workfront.com/s/article/Workfront-Cleanup-Dashboard) | Houden [!DNL Workfront] schoonmaken van ongebruikte objecten is een al lang bestaande beste praktijk, maar zonder de juiste gereedschappen is dit een stap in de goede richting. Dit dashboard is ontworpen voor systeembeheerders of proceseigenaars om eenvoudig te kunnen zoeken [!DNL Workfront] gegevens die eventueel moeten worden opgeschoond om de gebruikerservaring te verbeteren. We raden u aan dit dashboard elk kwartaal te bekijken om u te helpen [!DNL Workfront] schoon. |
+| [[!DNL Workfront] Schoonmaakdashboard: Ongebruikte objecten deactiveren](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Houden [!DNL Workfront] schoonmaken van ongebruikte objecten is een al lang bestaande beste praktijk, maar zonder de juiste gereedschappen is dit een stap in de goede richting. Dit dashboard is ontworpen voor systeembeheerders of proceseigenaars om eenvoudig te kunnen zoeken [!DNL Workfront] gegevens die eventueel moeten worden opgeschoond om de gebruikerservaring te verbeteren. We raden u aan dit dashboard elk kwartaal te bekijken om u te helpen [!DNL Workfront] schoon. |

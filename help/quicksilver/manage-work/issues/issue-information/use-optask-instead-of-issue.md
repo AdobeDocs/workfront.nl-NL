@@ -6,7 +6,7 @@ description: De naam van een uitgave wordt weergegeven als opTask in de Adobe Wo
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De naam van een uitgave wordt weergegeven als `opTask` in de Adobe Workfront-database. Hoewel er momenten zijn waarop u het `issue` veldnaam om naar problemen te verwijzen, meestal moet u de optie `opTask` veldnaam in plaats van `issue` bij het verwijzen naar kwesties.
 
-Raadpleeg voor meer informatie over hoe objecten worden weergegeven in de Workfront-database de [API Explorer](https://one.workfront.com/s/api-explorer).
+Raadpleeg voor meer informatie over hoe objecten worden weergegeven in de Workfront-database de [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 ## `opTask` filename
 
@@ -46,7 +46,7 @@ Voor informatie over het rapporteren van verzamelingen raadpleegt u [Referentiev
 <!--
 <note type="tip">
 For information about how issues appear in a collection, see the
-<a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+<a href="https://developer.adobe.com/workfront/api-explorer/" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
 <br>(NOTE: Drafted because this might not be needed.)
 </note>
 -->
