@@ -5,13 +5,13 @@ keywords: weergave,groep,gebeurtenis,meldingen,configureren,inschakelen,uitschak
 navigation-topic: create-and-manage-groups
 title: Gebeurtenismeldingen voor een groep weergeven en configureren
 description: Als groepsbeheerder kunt u de gebeurtenismeldingen weergeven die zijn geactiveerd voor een groep die u beheert. Ook, als een beheerder van Adobe Workfront een gebeurtenisbericht ontgrendelt, kunt u het voor een top-level groep vormen die u beheert. Configuratie van een gebeurtenismelding bestaat uit het activeren of deactiveren ervan.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 306d6493ff0413d5814f4aed8ab44fb897f3568d
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a>*</td> 
-   <td> <p>Pro of hoger</p> </td> 
+   <td role="rowheader">Workfront-abonnement*</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront-licentie</a>*</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
   </tr> 
  </tbody> 
