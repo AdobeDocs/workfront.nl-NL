@@ -6,9 +6,9 @@ description: U kunt filters, weergaven en groeperingen delen die u kunt bekijken
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Een filter delen met de standaardbuilderinterface:
    </tr>
    <tr>
    <td role="rowheader"><strong>Opgeslagen</strong></td>
-   <td>Filters die u zelf hebt gemaakt en opgeslagen.</td>
+   <td>Filters die u zelf hebt gemaakt en opgeslagen. In deze lijst worden standaard opgeslagen filters weergegeven in de volgorde van de laatst opgeslagen filters, maar u kunt de filternamen slepen om de lijst handmatig opnieuw te ordenen.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Standaardwaarden systeem</strong></td>
