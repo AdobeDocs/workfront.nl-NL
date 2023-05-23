@@ -4,12 +4,12 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Problemen met Workfront Proofing Manager-machtigingen oplossen
-description: Hieronder vindt u de machtigingsprofielen die beschikbaar zijn in [!DNL Adobe] Workfront for proofing users - BEWERK ME.
+description: De machtigingsprofielen beschikbaar in [!DNL Adobe] Workfront voor het proefdrukken van gebruikers is Beheerder, Supervisor, en Manager.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---

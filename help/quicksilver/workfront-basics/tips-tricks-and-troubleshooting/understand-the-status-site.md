@@ -1,12 +1,12 @@
 ---
 title: De [!DNL Adobe Workfront] Statussite
-description: De [!DNL Adobe Workfront] Statussite
+description: U kunt de gezondheid van de [!DNL Workfront] platform, met inbegrip van incidenten, geplande onderhoudsvensters en de huidige status van alle [!DNL Workfront] clusters door toegang te krijgen tot de [!DNL Workfront Status] site.
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---

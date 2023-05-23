@@ -2,10 +2,10 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Werken in tijdzones
-description: Het kan nuttig zijn om te begrijpen hoe [!DNL Adobe Workfront] gebruikt tijdzones om het volgende te berekenen - BEWERK ME.
+description: Het kan nuttig zijn om te begrijpen hoe [!DNL Adobe Workfront] gebruikt tijdzones om tijdvelden te berekenen voor objecten en tijden in andere gebieden, zoals e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -25,10 +25,7 @@ Tijd die je ziet in [!DNL Workfront] zijn gebaseerd op configuraties van tijdzon
 
 >[!NOTE]
 >
-><div class="preview">In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en bewaard door Coordinated Universal Time (UTC), niet door de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd en weergegeven op basis van de afzonderlijke tijdzones van elke gebruiker.</div>
-
-
-
+>In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en bewaard door Coordinated Universal Time (UTC), niet door de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd en weergegeven op basis van de afzonderlijke tijdzones van elke gebruiker.
 
 * [De [!DNL Workfront] instance](#your-organization-s-workfront-instance)
 * [Uw gebruikersprofiel](#your-user-profile)
@@ -48,7 +45,10 @@ De tijdzone voor de [!DNL Workfront] instantie wordt meestal ingesteld voor de l
 
 De tijdzone in uw gebruikersprofiel zou voor de plaats moeten worden gevormd waar u werkt. Dit bepaalt het volgende:
 
-* De tijd die in uw uitgaande [!DNL Workfront] e-mailberichten
+<!--
+* The time shown in your outgoing [!DNL Workfront] email messages
+[NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
+-->
 * Tijdstippen voor een object waaraan u werkt, zoals begin- en eindtijd
 
    Als gebruikers in meerdere tijdzones zijn toegewezen aan een object, [!DNL Workfront] converteert de objecten tijden voor iedereen betrokken, gebruikend de tijdzone die in elk gebruikersprofiel wordt gevormd.
