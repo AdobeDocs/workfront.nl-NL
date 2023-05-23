@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ De voorvertoningssandbox fungeert als een omgeving waarin gebruikers in uw organ
 
 De voorvertoningssandbox bevat uw feitelijke productiegegevens; het wordt echter elk weekend vernieuwd , zodat de gegevens maximaal een week achter de productieomgeving kunnen liggen . De punten die sinds laatste worden gecreeerd verfrissen tijd zijn in het milieu van de Sandbox van de Voorproef tot het volgende verfrist zich.
 
-De gegevensstromen uni-directioneel, van Productie aan Voorproef, en niet in omgekeerde. De voorvertoningsomgeving wordt altijd vernieuwd door [!DNL Workfront] elk weekend. Ga voor meer informatie over de specifieke dag en tijd van de update naar [status.adobe.com](https://status.adobe.com/).
+De gegevensstromen uni-directioneel, van Productie aan Voorproef, en niet in omgekeerde. De voorvertoningsomgeving wordt altijd vernieuwd door [!DNL Workfront] elk weekend.
 
 Voorvertoning van sandbox is ook toegestaan [!DNL Workfront] om nieuwe eigenschappen in een veilige milieu op te stellen, alvorens zij klaar zijn om aan Productie worden opgesteld. U kunt de nieuwe functies testen en [!DNL Workfront] U kunt feedback geven op de functionaliteit van de voorvertoningssandbox. Om deze reden, is de code van de zandbak van de Voorproef altijd vóór de code van de Productie, hoewel uw gegevens wekelijks worden verfrist.
 
@@ -77,7 +77,7 @@ De voorvertoningsomgeving is ideaal voor het uitvoeren van trainingen, het teste
 
 ## De voorvertoningssandbox openen
 
-Standaard, als een [!DNL Workfront] beheerder, hebt u toegang tot [!UICONTROL Preview] Sandbox-omgeving. Als u geen toegang hebt tot [!UICONTROL Preview] Sandbox-omgeving zoals beschreven in deze sectie, neem contact op met uw [!DNL Workfront] beheerder of ons klantenondersteuningsteam.
+Standaard, als een [!DNL Workfront] beheerder, hebt u toegang tot [!UICONTROL Preview] Sandbox-omgeving. Als u geen toegang hebt tot [!UICONTROL Preview] Sandbox-omgeving zoals beschreven in deze sectie, neem contact op met uw [!DNL Workfront] beheerder of ons Customer Support-team.
 
 * [De voorvertoningssandbox openen vanuit de [!DNL Workfront] Interface](#accessing-the-preview-sandbox-from-the-workfront-interface)
 * [De voorvertoningssandbox openen met een URL](#accessing-the-preview-sandbox-using-a-url)
