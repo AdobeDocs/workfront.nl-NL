@@ -7,9 +7,9 @@ description: De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nie
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Als functies uit de driemaandelijkse release worden verwijderd nadat alle functi
 Soms geeft Workfront nieuwe functies uit als onderdeel van een bètaprogramma.
 De specifieke informatie over elke bèta, inclusief hoe u kunt deelnemen, geeft vrij wanneer elk bètaprogramma wordt gestart en alle bètaprogramma&#39;s verschillen.
 
-Hieronder vindt u de typen bètaprogramma&#39;s die beschikbaar zijn in Workfront:
+De volgende bètaprogramma&#39;s zijn verkrijgbaar bij Workfront:
 
 * **Gesloten of persoonlijke bèta**: Hieronder vindt u kenmerken van een gesloten of private bètaversie:
 
@@ -82,7 +82,6 @@ De releaseopmerkingen bevatten een tabel met een lijst met functies in de linker
 
 * Releasedatum voorvertonen
 * Releasedatum productie
-* Beschikbaar in de nieuwe Adobe Workfront-ervaring en/of Adobe Workfront Classic
 
 Bijvoorbeeld:
 

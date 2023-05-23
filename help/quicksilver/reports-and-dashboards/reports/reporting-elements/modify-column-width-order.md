@@ -6,9 +6,9 @@ description: Lees dit artikel voor meer informatie over de richtlijnen voor kolo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Aanvraag of hoger </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
