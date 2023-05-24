@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                                 <p>Voorvertoning release: N.v.t.<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie:30 maart 2023</p>
+                                 <p>Productieversie: 30 maart 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -85,10 +85,11 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 9 maart 2023<br /></p>
+                                <p>Voorvertoning release: 9 maart 2023</p>
                             </li>
                             <li>
-                                 <p>Productieversie: Met de release van 23.2</p>
+                                 <p>Productieversie: Met de release van 23.2<br />
+                                 <span style="color: #ff0000;">De bètaversie van de formulierontwerper is op 24 mei 2023 tijdelijk uitgeschakeld in Preview en Production.</span></p>
                             </li>
                         </ul>
                     </td>

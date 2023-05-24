@@ -8,14 +8,18 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de formulierontwerper
+
+>[!IMPORTANT]
+>
+>De formulierontwerper is op 24 mei 2023 tijdelijk uitgeschakeld. Met de verouderde formulierontwikkelaar kunt u aangepaste formulieren maken en bewerken. Zie [Een aangepast formulier maken of bewerken met de oudere formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Met de nieuwe formulierontwerper kunt u een aangepast formulier ontwerpen dat gebruikers aan een Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
 
