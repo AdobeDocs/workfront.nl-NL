@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] U kunt uw e-mailaccount koppel
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: ea19c2a58bac322c804fca3f6bb7d7147efa4d9a
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2062'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,6 @@ Triggers wanneer een nieuw e-mailbericht wordt ontvangen voor verwerking volgens
 * [[!UICONTROL Copy an Email]](#copy-an-email)
 * [[!UICONTROL Delete an Email]](#delete-an-email)
 * [[!UICONTROL Get Emails]](#get-emails)
-* [[!UICONTROL Send me an Email]](#send-me-an-email)
 
 #### [!UICONTROL Send an Email]
 
@@ -541,25 +540,6 @@ Retourneert e-mailberichten die voldoen aan de opgegeven criteria.
   <tr> 
    <td role="rowheader">[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
    <td> <p> Selecteer deze optie als u de module wilt blijven uitvoeren, zelfs als er geen resultaten worden geretourneerd.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Send me an Email]
-
-Hiermee verzendt u een nieuwe e-mail naar uw e-mailadres.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Subject] </td> 
-   <td> <p>Voer de onderwerpregel van de e-mail in of wijs deze toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content] </td> 
-   <td> <p>Voer de tekst van de e-mail in.</p> </td> 
   </tr> 
  </tbody> 
 </table>
