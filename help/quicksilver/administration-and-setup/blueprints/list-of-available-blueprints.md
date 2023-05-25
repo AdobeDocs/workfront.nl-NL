@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ De [!UICONTROL Video Asset Production] Het pakket bevat een sjabloon waarmee het
 
 **[!UICONTROL Video Asset Production](Beheerd)**
 De [!UICONTROL Video Asset Production] Het pakket bevat een sjabloon waarmee het werk voor een standaardvideoproductieproces wordt georganiseerd. Dit pakket is bedoeld als ingangspunt voor het beheer van het maken van video-elementen in Workfront. Met dit pakket kunt u een basis maken voor het maken van video-inhoud en deze vervolgens aanpassen aan de behoeften van andere creatieve processen voor gespecialiseerde typen videomateriaal.
+
+**[!UICONTROL [!DNL Workfront] Communication and Launch Template]**
+
+Deze blauwdruk bevat één sjabloon waarmee het werk dat een [!DNL Workfront] de klant zal moeten doen om een stellaire uitrol te hebben van [!DNL Workfront] toepassing.
 
 **[!DNL Workfront Usage Dashboard]**
 Deze blauwdruk bevat één dashboard met 11 rapporten om systeembeheerders en bestuursteams te helpen begrijpen of hun configuratie zoals verwacht wordt gebruikt.
