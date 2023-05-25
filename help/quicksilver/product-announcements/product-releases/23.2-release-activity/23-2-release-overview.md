@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2749'
 ht-degree: 0%
 
 ---
@@ -656,7 +656,7 @@ Voor informatie over de onderhoudsupdates die tijdens de release 23.2 zijn gemaa
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Zie voor meer informatie de [Pagina met updates van trainingsreleases](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Raadpleeg voor meer informatie de sectie &quot;Nieuwe functies&quot; van het dialoogvenster [Workfront Tutorials pagina](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 

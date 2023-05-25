@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3e72e4a5562e06df8e398c37ca1b9e2c19b98187
+source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -386,7 +386,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 zijn gemaak
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Zie voor meer informatie de [Pagina met updates van trainingsreleases](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Raadpleeg voor meer informatie de sectie &quot;Nieuwe functies&quot; van het dialoogvenster [Workfront Tutorials pagina](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 <!-- Uncomment if there are any deprecations
 
