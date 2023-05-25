@@ -5,16 +5,14 @@ title: Adobe Experience Manager Assets-integratie
 description: U kunt uw werk verbinden met de volgende Integraties van Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
+source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Configureer de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 U kunt uw werk met uw inhoud verbinden in [!DNL Experience Manager Assets]&#x200B;:
 
@@ -226,8 +224,6 @@ An [!DNL Experience Manager] velden die zijn toegewezen aan [!DNL Workfront] por
 
 <!--Courtney start here-->
 
-<div class="preview">
-
 ## Workflows instellen (optioneel)
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Als Workfront-beheerder kunt u workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
@@ -241,8 +237,6 @@ De standaardwerkschemawaarden die u in de integratie plaatst kunnen op de niveau
    ![Navigatie naar gekoppelde mappen](assets/select-folder-aem-integration.png)
 1. De optie **Portfolio- en programmanamen toevoegen** automatisch namen van Portfolio en Programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
 1. Klikken **Opslaan** of ga naar de [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
-
-</div>
 
 <!--Courtney end here-->
 
