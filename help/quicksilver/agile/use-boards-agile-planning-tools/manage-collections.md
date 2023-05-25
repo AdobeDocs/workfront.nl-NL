@@ -7,9 +7,9 @@ description: Een werkstroom is een configureerbare groep borden en kaarten voor 
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -94,20 +94,28 @@ Personen en teams moeten als leden aan de werkstream worden toegevoegd voordat z
 
    Dit is hetzelfde proces als het toevoegen van leden aan een bestuur. Zie voor meer informatie [Leden toevoegen aan of verwijderen uit een board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## Bronnen toevoegen aan een werkstroom
+
+Een bron bepaalt waar de kaarten in de werkstroom vandaan komen.
+
+{{step1-to-boards}}
+
+1. Klik op de knop [!UICONTROL **Bronnen**] pictogram ![Bronpictogram](assets/sources-icon.png) om een bron te definiëren voor het importeren van kaarten in de werkstream. Op dit moment is de enige beschikbare bron [!DNL Adobe Workfront].
+1. Voeg filters toe om taken en problemen uit Workfront als kaarten te importeren.
+
+   Het toevoegen van filters voor werkstroombronnen is hetzelfde als het toevoegen van geavanceerde filters voor een inlaatkolom op een basisbord of Kanban-bord. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Een werkstroom configureren
 
 {{step1-to-boards}}
 
 1. Klik op het dashboard op [!UICONTROL **Werkstroom weergeven**] om een werkstroom te openen.
 1. Klikken [!UICONTROL **Configureren**] om de [!UICONTROL Configure Workstream] deelvenster.
-1. (Optioneel) Typ een beschrijving van de werkstroom. Deze beschrijving wordt weergegeven op het dashboard.
-1. (Optioneel) Voeg tags toe aan de werkstream. Zie voor meer informatie [Tags toevoegen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (Optioneel) Uitbreiden [!UICONTROL **Workstream**] en typ een beschrijving van de werkstroom. Deze beschrijving wordt weergegeven op het dashboard.
+1. (Optioneel) Uitbreiden [!UICONTROL **Herhalingen**] om een herhalingsproces voor deze werkstream te definiëren.
 
    Het totale aantal kaarten, het aantal puntige kaarten en het aantal herhalingen worden weergegeven in de sectie Kaartlijst. Klikken [!UICONTROL **Lijst weergeven**] om de lijst te openen en kaarten toe te voegen. Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Als een herhaling is gedefinieerd, worden de begindatum, het aantal kaarten en het aantal punten weergegeven. Klikken [!UICONTROL **Tekengebied weergeven**] om het bord te openen. Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Als er al een herhaling is gedefinieerd, worden de begindatum, het aantal kaarten en het aantal punten weergegeven. Klikken [!UICONTROL **Weergavepagina**] om het iteratiebord te openen. Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Klikken [!UICONTROL **Bron toevoegen**] om een bron te definiëren voor het importeren van kaarten in de werkstream. Op dit moment is de enige beschikbare bron [!DNL Adobe Workfront].
-1. Voeg filters toe om taken en problemen uit Workfront als kaarten te importeren.
-
-   Het toevoegen van filters voor werkstroombronnen is hetzelfde als het toevoegen van filters voor een inlaatkolom op een basisbord of Kanban-bord. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (Optioneel) Uitbreiden [!UICONTROL **Tags**] om codes toe te voegen aan de werkstroom. Zoek naar een markering, of typ een nieuwe markeringsnaam in het onderzoeksvakje en druk binnengaan om het tot stand te brengen.
