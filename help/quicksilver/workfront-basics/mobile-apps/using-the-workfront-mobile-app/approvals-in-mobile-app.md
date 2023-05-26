@@ -3,12 +3,12 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Goedkeuringen in de [!DNL Adobe Workfront] mobiele app
 description: U kunt goedkeuringen beheren die aan u zijn toegewezen of die u van [!UICONTROL Approvals] in het gebied [!DNL Adobe Workfront] mobiele app.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Proefdrukken volgen een afzonderlijk goedkeuringsproces. U kunt geen bewijs van 
    | ![Bewijs goedkeuren met wijzigingen van taak](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Approve with changes] (alleen beschikbaar voor documenten) |
    | ![Proef van taak afwijzen](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Reject] |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Optioneel) Selecteer **[!UICONTROL Add comment]** in het bevestigingsbericht onder aan het scherm om opmerkingen aan de beslissing toe te voegen. Deze opmerkingen worden weergegeven in de updates voor de goedkeuring.\
    ![Opmerking toevoegen](assets/mobile-addcommenttoapproval-350x123.png)\

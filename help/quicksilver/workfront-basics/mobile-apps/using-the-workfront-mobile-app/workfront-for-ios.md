@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront voor iOS
 description: De [!DNL Adobe Workfront] kunt u uw werk op elk iOS-apparaat openen. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met iOS 10 of hoger. Een specifieke [!DNL Workfront] De mobiele app is beschikbaar voor zowel de iPhone als de iPad.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Projecten weergeven in de Adobe Workfront-weergave
 description: Standaard wordt de lijst met projecten weergegeven in [!DNL Adobe Workfront] De weergave toont de meest recente 100 actieve projecten. De lijst van projecten is niet gegroepeerd op criteria.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%

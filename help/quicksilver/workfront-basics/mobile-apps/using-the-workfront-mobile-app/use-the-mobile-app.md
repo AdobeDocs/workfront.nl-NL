@@ -2,20 +2,46 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Gebruik de [!DNL Adobe Workfront] mobiele app
-description: Lees deze artikelen om te leren hoe u de [!DNL Adobe Workfront] mobiele app.
-author: Lisa
+description: Versnel de betrokkenheid en stroomlijnt het werk voor teams en individuen in uw organisatie door [!DNL Adobe Workfront's] mobiele app, beschikbaar op elk iOS- of Android-apparaat.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 3851d5ffd587731f795fa9703be545be3f8d1a17
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
 # Gebruik de [!DNL Adobe Workfront] mobiele app
 
-Deze sectie bevat de volgende artikelen:
+Versnel de betrokkenheid en stroomlijnt het werk voor teams en individuen in uw organisatie door [!DNL Adobe Workfront's] mobiele app, beschikbaar op elk iOS- of Android-apparaat. Met de app kunt u:
+
+* Snelle toegang tot belangrijke informatie
+* Houd uw workflow aan de gang met acties in één stap
+* Onderweg productief blijven
+
+U kunt de app downloaden en installeren vanuit het dialoogvenster [Apple App Store](https://www.apple.com/app-store/) of de [Google Play-winkel](https://play.google.com/store/apps;).
+
+In de mobiele app kunt u werkitems voltooien en informatie weergeven zoals u dat doet in de browserversie van [!DNL Workfront]. Deze en meer functies zijn beschikbaar:
+
+* Taken en problemen onderbrengen en toewijzen
+* Updates verzenden
+* Toegang tot Workfront-borden
+* Projecten weergeven en beheren
+* Weergeven, opmerkingen plaatsen en beslissingen nemen over proefdrukken
+* Taken en problemen, documenten, proefdrukken, tijdschriften en verzoeken om toegang goedkeuren
+* Meldingen in apps weergeven en erop reageren
+* Workfront-verzoeken maken en verwerken
+* De tijd van het logboek op een timesheet
+
+<!--
+>[!NOTE]
+>
+>The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
+-->
+
+Voor meer informatie over de [!DNL Adobe Workfront] mobiele app, bekijk de volgende artikelen:
 
 * [[!DNL Adobe Workfront] for [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [Wees een [!DNL Android] bètatester](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

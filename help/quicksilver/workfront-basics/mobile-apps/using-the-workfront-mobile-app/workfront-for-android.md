@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront voor Android
 description: De [!DNL Adobe Workfront] kunt u uw werk op elk Android-apparaat openen. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met Android 5.0 of hoger.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%

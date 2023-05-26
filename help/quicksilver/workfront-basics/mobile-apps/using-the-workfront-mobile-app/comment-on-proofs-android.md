@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Opmerking over proefdrukken in Android
 description: U kunt bestaande opmerkingen op een proefdruk controleren en oplossen en nieuwe opmerkingen en annotaties toevoegen aan het proefdrukdocument.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
