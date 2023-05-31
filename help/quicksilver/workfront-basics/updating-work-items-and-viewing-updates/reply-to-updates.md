@@ -6,9 +6,9 @@ description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp an
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen bij het inschakelen van het bètabestand voor opmerkingen.
+> * Problemen <!--<span class="preview">projects, tasks, and documents</span>,--> wanneer u het opmerkingsbètabestand inschakelt.
    >
-   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:
+   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
    >     * Home
    >     * Samenvattingspaneel in lijsten
@@ -43,6 +43,10 @@ ht-degree: 0%
 
 
 Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de sectie van Updates voor het voorwerp.
+
+>[!IMPORTANT]
+>
+>Het is niet mogelijk te reageren op systeemupdates in de nieuwe bètaervaring voor opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Toegangsvereisten

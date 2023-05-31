@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen bij het inschakelen van het bètabestand voor opmerkingen.
+> * Problemen <!--<span class="preview">projects, tasks, and documents</span>,--> wanneer u het opmerkingsbètabestand inschakelt.
    >
-   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:
+   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
    >     * Home
    >     * Samenvattingspaneel in lijsten
@@ -111,7 +111,7 @@ U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de 
      <li><p>Doelen</p>
      <p>Dit is de standaardervaring voor doelstellingen</p>
      </li> 
-     </ul> </td> 
+      </ul> </td> 
    <td> 
     <ul> 
      <li>Problemen</li> 
@@ -120,11 +120,50 @@ U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de 
  </tbody> 
 </table>
 
+<!--replace table above with this: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
+     <li><span class="preview">Projects</span></li>
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
-Zoals getoond in de volgende lijst, verschijnen de antwoorden die op updates over bepaalde voorwerpen worden gemaakt ook op de sectie van Updates van hoger-gerangschikte voorwerpen.
+Opmerkingen of antwoorden op updates over bepaalde objecten worden ook weergegeven in de sectie Updates van objecten met een hogere positie.
 
 Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergegeven in de sectie Updates voor de taak en in de sectie Updates voor het project dat de taak bevat.
+
+<!--
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>
+>* Issues, in the Preview and Production environments
+>* <span class="preview">Projects and tasks, in the Preview environment</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+-->
+
+In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook worden weergegeven op objecten met een hogere positie:
 
 <table style="table-layout:auto"> 
  <col> 

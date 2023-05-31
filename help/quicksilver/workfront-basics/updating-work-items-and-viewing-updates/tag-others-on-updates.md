@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen bij het inschakelen van het bètabestand voor opmerkingen.
+> * Problemen <!--<span class="preview">projects, tasks, and documents</span>,--> wanneer u het opmerkingsbètabestand inschakelt.
    >
-   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates van problemen en is niet beschikbaar voor de volgende gebieden:
+   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
    >     * Home
    >     * Samenvattingspaneel in lijsten

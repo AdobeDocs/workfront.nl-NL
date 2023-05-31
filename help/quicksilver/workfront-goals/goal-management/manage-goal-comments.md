@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,16 @@ Dit opent de doellijst.
 
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-icon.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
 1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers.
-U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
+U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quot;bewerkt&quot; wordt toegevoegd links van de datumstempel die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
+   > * Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
+   >
+   > * De datumstempel is de datum van de oorspronkelijke opmerking en niet de datum van de laatste update.
+
 
    1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-icon.png)Klik vervolgens op een van de volgende opties om informatie van een opmerking naar het klembord te kopiëren:
 
