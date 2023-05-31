@@ -5,7 +5,7 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe [!DNL Adobe Workfront] gebruikt tijdzones om tijdvelden te berekenen voor objecten en tijden in andere gebieden, zoals e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -93,7 +93,7 @@ U kunt gebruikers helpen die gemakkelijker in verschillende tijdzones werken op 
 
    Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van beïnvloedt [!UICONTROL Planned Hours] in de [!DNL Workload Balancer], zie [Gebruikerstoewijzingen beheren in het dialoogvenster [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van beïnvloedt [!UICONTROL Planned Hours] in de [!UICONTROL Workload Balancer], zie [Gebruikerstoewijzingen beheren in het dialoogvenster [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Berekende tijdvelden gebruiken in een aangepast formulier {#use-calculated-time-fields-in-a-custom-form}

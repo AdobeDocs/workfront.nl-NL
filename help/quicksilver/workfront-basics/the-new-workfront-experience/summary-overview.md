@@ -4,7 +4,7 @@ title: Overzicht van samenvattingen
 description: U kunt het deelvenster Samenvatting gebruiken om de gegevens van het werkitem rechtstreeks vanuit een lijst met taakproblemen, documenten of andere gebieden van [!DNL Adobe Workfront] die taken en problemen weergeven.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -31,7 +31,7 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Taken in de [!UICONTROL Unassigned] en [!UICONTROL Assigned] Werkgebieden van de [!DNL Workload Balancer]</td> 
+   <td>Taken in de [!UICONTROL Unassigned] en [!UICONTROL Assigned] Werkgebieden van de [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemen</td> 
@@ -45,7 +45,7 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemen in de [!UICONTROL Assigned Work] gebied van de [!DNL Workload Balancer]</td> 
+   <td>Problemen in de [!UICONTROL Assigned Work] gebied van de [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemen in de [!UICONTROL Submitted] van de [!UICONTROL Requests] gebied</td> 
@@ -68,7 +68,7 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
 
 In dit artikel wordt beschreven hoe u het dialoogvenster [!UICONTROL Summary] voor taken en problemen in lijsten.
 
-Voor informatie over de toegang tot [!UICONTROL Summary] in de [!DNL Workload Balancer], zie [Werk-items bij in het dialoogvenster [!DNL Workload Balancer] met de [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Voor informatie over de toegang tot [!UICONTROL Summary] in de [!UICONTROL Workload Balancer], zie [Werk-items bij in het dialoogvenster [!UICONTROL Workload Balancer] met de [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 Voor informatie over de toegang tot [!UICONTROL Summary] voor documenten, zie [[!UICONTROL Summary] voor documentoverzicht](../../documents/managing-documents/summary-for-documents.md).
 

@@ -7,7 +7,7 @@ description: Een lijst met artikelen die de functionaliteit van de Workfront Sce
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -37,6 +37,6 @@ Deze sectie bevat de volgende artikelen:
 * [Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Toon roltoewijzing voor projecten en initiatieven in [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Toon roltoewijzing voor projecten en initiatieven in [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

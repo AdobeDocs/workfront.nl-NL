@@ -6,14 +6,14 @@ description: Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewij
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
 
 ---
 
-# Toon roltoewijzing voor projecten en initiatieven in [!DNL Workload Balancer]
+# Toon roltoewijzing voor projecten en initiatieven in [!UICONTROL Workload Balancer]
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ U moet het volgende doen:
 
 &#42;Neem contact op met uw [!DNL Workfront] beheerder.
 
-## Toon roltoewijzing voor projecten en initiatieven in [!DNL Workload Balancer]
+## Toon roltoewijzing voor projecten en initiatieven in [!UICONTROL Workload Balancer]
 
-Als uw bedrijf een [!DNL Workfront Scenario Planner] vergunning, kunt u de middeltoewijzingen tussen het initiatief en het project met betrekking tot het op projectniveau met elkaar in overeenstemming brengen [!DNL Workload Balancer].
+Als uw bedrijf een [!DNL Workfront Scenario Planner] vergunning, kunt u de middeltoewijzingen tussen het initiatief en het project met betrekking tot het op projectniveau met elkaar in overeenstemming brengen [!UICONTROL Workload Balancer].
 
 1. (Voorwaardelijk) Verbind een project met een initiatief gebruikend één van de methodes die in de volgende artikelen worden beschreven:
 
@@ -72,7 +72,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] vergunning, kunt u de midde
    >Als u middelen op het initiatief verandert, moet u het scenario opnieuw publiceren dat het initiatief tot behoort opdat de recentste middelinformatie van het initiatief over het project kan bijwerken.
 
 1. Ga naar het project waar u de toewijzing van baanrollen voor het project evenals voor het bijbehorende initiatief wilt herzien.
-1. Klikken [!DNL Workload Balancer] in het linkerdeelvenster.
+1. Klikken [!UICONTROL Workload Balancer] in het linkerdeelvenster.
 
    Mogelijk moet u op **[!UICONTROL Scheduling]** vervolgens **[!UICONTROL Switch to Workload Balancer]**.
 

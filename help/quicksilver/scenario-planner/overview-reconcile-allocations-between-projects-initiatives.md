@@ -6,7 +6,7 @@ description: Overzicht van de afstemming van de toewijzingen van middelen tussen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -79,9 +79,9 @@ Beide processen zorgen voor een verband tussen de projecten en hun overeenkomsti
 
    * De [!UICONTROL Role Allocation] in de volgende gebieden:
 
-      * [!DNL Workload Balancer] van het project
+      * [!UICONTROL Workload Balancer] van het project
 
-         Voor informatie over hoe u de rolverdeling tussen het initiatief en het gekoppelde project in het [!DNL Workload Balancer], zie [Toon roltoewijzing voor projecten en initiatieven in [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
+         Voor informatie over hoe u de rolverdeling tussen het initiatief en het gekoppelde project in het [!UICONTROL Workload Balancer], zie [Toon roltoewijzing voor projecten en initiatieven in [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
       * [!UICONTROL Tasks] sectie
 

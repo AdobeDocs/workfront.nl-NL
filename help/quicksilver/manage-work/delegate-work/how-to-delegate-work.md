@@ -5,7 +5,7 @@ title: Taken en problemen delegeren
 description: U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. In dit artikel wordt beschreven hoe taken kunnen worden gedelegeerd en hoe taken kunnen worden uitgegeven.
 author: Alina
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -207,7 +207,7 @@ U hebt toegang tot de [!UICONTROL Assignments] in de volgende gebieden:
 
    De [!UICONTROL Assignments] in de taak of geeft de koptekst van de uitgave aan [!UICONTROL Assignments and delegations].
 
-* De [!DNL Workload Balancer] bij het handmatig toewijzen van taken of problemen
+* De [!UICONTROL Workload Balancer] bij het handmatig toewijzen van taken of problemen
 
    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
@@ -222,7 +222,7 @@ Als een taak of een kwestie wordt gedelegeerd en [!UICONTROL Delegations] subtab
 
 >[!TIP]
 >
->De geplande of Werkelijke Uren voor gedelegeerde taken en kwesties worden niet in de hulpmiddelen van het middelbeheer in aanmerking genomen, zoals [!DNL Workload Balancer] of de [!DNL Resource Planner] voor de gedelegeerde gebruikers. De uren blijven alleen gekoppeld aan de toegewezen gebruiker.
+>De geplande of Werkelijke Uren voor gedelegeerde taken en kwesties worden niet in de hulpmiddelen van het middelbeheer in aanmerking genomen, zoals [!UICONTROL Workload Balancer] of de [!DNL Resource Planner] voor de gedelegeerde gebruikers. De uren blijven alleen gekoppeld aan de toegewezen gebruiker.
 
 ### Gedelegeerde werkzaamheden zoeken in [!UICONTROL Home]
 

@@ -5,7 +5,7 @@ title: Linkernavigatie in [!DNL Adobe Workfront]
 description: Het linkernavigatievenster in [!DNL Workfront] maakt het gemakkelijk om door het systeem te navigeren.
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 0%
@@ -134,7 +134,7 @@ De volgende secties worden in het linkerdeelvenster weergegeven voor de **[!UICO
    <td>Toont de Planner van het Middel. Gebruik dit gebied om uw middelen over veelvoudige projecten te plannen. Voor informatie over het gebruiken van de Planner van het Middel, zie <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Aan de slag met bronnenplanning</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Workload Balancer]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Workload Balancer]</strong></td> 
    <td>Hiermee geeft u de werklastverdeling weer. Gebruik dit gebied om werkelijk werk aan uw middelen toe te wijzen. <br>
    Voor informatie over het gebruiken van het plannen van middelen, zie <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Overzicht van het toewijzen van werk in de werklastverdeler</a>.</td> 
   </tr> 

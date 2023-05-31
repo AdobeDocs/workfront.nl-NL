@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Als u een taakrol deactiveert, wordt deze niet meer weergegeven in de volgende g
 
 >[!TIP]
 >
->Gedeactiveerde rollen worden altijd weergegeven in filters in lijsten, rapporten en andere gereedschappen, zoals de [!DNL Workload Balancer].
+>Gedeactiveerde rollen worden altijd weergegeven in filters in lijsten, rapporten en andere gereedschappen, zoals de [!UICONTROL Workload Balancer].
 
 ## Overwegingen voordat u een taakrol deactiveert
 
