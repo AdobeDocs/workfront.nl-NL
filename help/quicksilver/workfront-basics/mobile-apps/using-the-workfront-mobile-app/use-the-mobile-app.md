@@ -6,9 +6,9 @@ description: Versnel de betrokkenheid en stroomlijnt het werk voor teams en indi
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Versnel de betrokkenheid en stroomlijnt het werk voor teams en individuen in uw 
 * Houd uw workflow aan de gang met acties in één stap
 * Onderweg productief blijven
 
-U kunt de app downloaden en installeren vanuit het dialoogvenster [Apple App Store](https://www.apple.com/app-store/) of de [Google Play-winkel](https://play.google.com/store/apps;).
+U kunt de app downloaden en installeren vanuit het dialoogvenster [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) of de [Google Play-winkel](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 In de mobiele app kunt u werkitems voltooien en informatie weergeven zoals u dat doet in de browserversie van [!DNL Workfront]. Deze en meer functies zijn beschikbaar:
 
