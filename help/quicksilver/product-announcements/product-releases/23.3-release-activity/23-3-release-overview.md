@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
+source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Verbeteringen voor Adobe Workfront
 
+* [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor mobiele apparaten](#agile-enhancements)
 * [Verbeterde integratie](#integration-enhancements)
+* [Projectverbeteringen](#project-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -221,8 +223,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch gekoppelde mappen maken met Adobe Experience Manager Assets bij het maken van een project</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
-                        <p>Met de nieuwe workflow voor het maken van gekoppelde mappen voor de Adobe Experience Manager-integratie kunt u de integratie configureren met een pad naar een map Adobe Experience Manager Assets. Wanneer de integratie aan een projectmalplaatje wordt toegevoegd, zullen om het even welke projecten die van het malplaatje worden gecreeerd automatisch tot een verbonden subfolder in Experience Manager Assets in de gespecificeerde omslag leiden. </p><p>Deze functionaliteit is alleen beschikbaar bij Adobe Experience Manager as a Cloud Service-integratie in Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch gekoppelde mappen maken met Adobe Experience Manager Assets bij het maken van een project</a></p>
+                        <p>Met de nieuwe workflow voor het maken van gekoppelde mappen voor de Adobe Experience Manager-integratie kunt u de integratie configureren met een pad naar een map Adobe Experience Manager Assets. Wanneer de integratie aan een projectmalplaatje wordt toegevoegd, zullen om het even welke projecten die van het malplaatje worden gecreeerd automatisch tot een verbonden subfolder in Experience Manager Assets in de gespecificeerde omslag leiden. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -286,6 +288,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Projectverbeteringen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Goedkeuring van nieuwe documenten</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Goedkeuringen van documenten worden opnieuw ontworpen in een gefaseerde implementatie die bij elke release beschikbaar wordt gemaakt voor meer gebruikers.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 31 mei 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 14 juni 2023</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Andere verbeteringen
 
 <table>
@@ -302,6 +341,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaervaring voor opmerkingen voor projecten, taken en documenten</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>De nieuwe bètaervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de bètaervaring voor opmerkingen alleen beschikbaar voor problemen en doelen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 1 juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productieversie:met 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profielen zonder avatars geven nu gebruikersinitialen weer</a></p>
