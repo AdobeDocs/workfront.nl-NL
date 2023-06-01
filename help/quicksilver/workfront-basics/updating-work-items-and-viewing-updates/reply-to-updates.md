@@ -6,9 +6,9 @@ description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp an
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.
 
 >[!NOTE]
 >
@@ -26,8 +26,9 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <!--<span class="preview">projects, tasks, and documents</span>,--> wanneer u het opmerkingsbètabestand inschakelt.
+> * Problemen <span class="preview">projecten, taken en documenten</span>.
    >
+   >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.\
    >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
    >     * Home

@@ -7,7 +7,7 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 0%
@@ -27,7 +27,9 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <span class="preview">projecten, taken en documenten</span> wanneer u het opmerkingsbètabestand inschakelt.
+> * Problemen <span class="preview">projecten, taken en documenten</span>.
+   >
+   >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
    >
    >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
@@ -131,7 +133,7 @@ Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergeg
 
 >[!NOTE]
 >
->Wanneer u de nieuwe bètaervaring voor opmerkingen inschakelt, worden opmerkingen weergegeven op de volgende objecten met een hogere positie en in de volgende omgevingen:
+>Wanneer u de nieuwe bètaervaring voor opmerkingen inschakelt, worden opmerkingen weergegeven op de volgende objecten met een hogere positie:
 >
 >* Problemen
 >* <span class="preview">Projecten</span>

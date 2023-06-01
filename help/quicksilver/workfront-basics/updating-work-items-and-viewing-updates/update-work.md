@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3181'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,9 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <span class="preview">projecten, taken en documenten</span>, wanneer u het opmerkingsbètabestand inschakelt.
+> * Problemen <span class="preview">projecten, taken en documenten</span>.
+   >
+   >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
    >
    >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
