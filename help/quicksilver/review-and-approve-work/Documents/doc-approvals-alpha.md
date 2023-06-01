@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
+exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
+source-git-commit: d52a550350aad0b7ae67d90e3742a21de743f2b3
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
-
 
 # Alfa-programma - Goedkeuringen document
 
@@ -25,15 +25,23 @@ Als u wilt deelnemen aan deze Alfa-release, moet u controleren of u door het pro
 
 ## Laatste release
 
+### Alfa-release 4 - mei 2023
+
+In deze 4de Alpha- versie, alvorens aan productie voor slechts een bepaalde groep klanten te lanceren, hebben wij berichten in de kopbal van Workfront, updatestroom, en e-mail opgenomen. E-mailmeldingen zijn exclusief voor de productieomgeving en zijn niet zichtbaar in uw voorvertoningsomgeving. Als u geïnteresseerd bent in de implementatie van deze release in uw productieomgeving op 14 juni, kunt u mij rechtstreeks bereiken op jbarron@adobe.com.
+
+We zijn enthousiast over deze mijlpaal en kijken uit naar nog veel meer.
+
+Bekijk de volledige video die hieronder doorloopt:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420094/)
+
+## _Eerdere versies_
+
 ### Alfa-release 3 - maart 2023
 
 In deze 3de Alpha- versie, hebben wij uw terugkoppel door succesberichten opgenomen te introduceren die bij de voltooiing van acties zoals het toevoegen van of het verwijderen van fiatteurs en recensenten tonen. Bovendien biedt deze release uitgebreide zichtbaarheid van goedkeuringen die in behandeling zijn en die nu kunnen worden weergegeven op de pagina&#39;s Home en Mijn updates, zodat gebruikers eenvoudig documenten rechtstreeks vanaf deze pagina&#39;s kunnen goedkeuren.
 
-Bekijk de volledige video die hieronder doorloopt:
-
->[!VIDEO](https://video.tv.adobe.com/v/3417854/)
-
-## _Eerdere versies_
+Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3417854/){target=_blank}
 
 ### Alfa-release 2 - jan. 2023
 
