@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <!--<span class="preview">projects, tasks, and documents</span>,--> wanneer u het opmerkingsbètabestand inschakelt.
+> * Problemen <span class="preview">projecten, taken en documenten</span>, wanneer u het opmerkingsbètabestand inschakelt.
    >
    >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
@@ -193,7 +193,7 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 De **Opmerkingen** is standaard geselecteerd.
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 1. (Optioneel) Een URL-koppeling toevoegen aan extra informatiebronnen:
 
    1. Klik in de update op de plaats waar u een koppeling wilt invoegen.
-   1. Op de **RTF** klikt u op de **Hyperlink** pictogram. ![](assets/link-icon.png)
+   1. Op de **RTF** klikt u op de **Hyperlink** pictogram ![](assets/link-icon.png).
 
    1. In de **Koppeling maken** vak dat wordt weergegeven onder **URL**, typt of plakt u de URL van de bron waaraan u wilt koppelen.
 

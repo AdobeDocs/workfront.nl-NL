@@ -6,9 +6,9 @@ description: Bekijk de wekelijkse releaseactiviteit voor de nieuwe opmerkingenta
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -29,48 +29,41 @@ De volgende secties bevatten functies die na de oorspronkelijke versie zijn toeg
 
 ## Week van 29 mei 2023
 
+### Nieuwe bètaervaring voor opmerkingen voor projecten, taken en problemen
+
+De nieuwe bètaervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de bètaervaring voor opmerkingen alleen beschikbaar voor problemen en doelen.
+
+Voorvertoning: 1 juni 2023
+
+Productie: met de 23.3-release
+
+>[!NOTE]
+>
+>Alle functies die vanaf 1 juni 2023 worden vrijgegeven voor de nieuwe bètaervaring met opmerkingen, zijn beschikbaar in Production voor projecten, taken en documenten na de release van 23.3 naar Production. Zie voor meer informatie [23.3 releaseoverzicht](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
 ### Nieuwe vormgeving van de tag &quot;bewerkt&quot; na het bewerken van een opmerking
 
-Wanneer u een opmerking bewerkt in de nieuwe bètaervaring voor opmerkingen, wordt een &quot;bewerkte&quot; tag toegevoegd aan de opmerking. Deze tag heeft nu een nieuwere look en feel dan de tag die oorspronkelijk werd vrijgegeven. De datum- en tijdstempels van de opmerking zijn die van de oorspronkelijke opmerking. Dit zijn niet de datum- en tijdstempels van het moment waarop de bewerking is uitgevoerd.  Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Wanneer u een opmerking bewerkt in de nieuwe bètaervaring voor opmerkingen, wordt een &quot;bewerkte&quot; tag toegevoegd aan de opmerking. Deze tag heeft nu een nieuw uiterlijk op de tag die oorspronkelijk werd uitgebracht. De datum- en tijdstempels van de opmerking zijn die van de oorspronkelijke opmerking. Dit zijn niet de datum- en tijdstempels van het moment waarop de bewerking is uitgevoerd.  Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Voorvertoning: 31 mei 2023
 
 Productie: 1 juni 2023
 
-<!--
+### Opmerkingen van onderliggende objecten worden doorgegeven aan een bovenliggend object
 
-### Comments from children objects now roll up to a parent object  
+Wanneer u de bètaervaring voor opmerkingen inschakelt, worden de opmerkingen die aan een onderliggend object zijn gekoppeld nu naar het bovenliggende object verplaatst. Opmerkingen van documenten worden nu bijvoorbeeld weergegeven over de kwestie waaraan de documenten zijn gekoppeld. Zie voor meer informatie [Overzicht van sectie Bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+Voorvertoning: 1 juni 2023
 
-Preview, for issues, projects, and tasks: June 1, 2023  
+Productie: 1 juni 2023
 
-Production, for issues: June 1, 2023 
+### Tijd vastleggen in de nieuwe bètaervaring voor opmerkingen
 
-Production, for projects, and tasks: with the 23.3 release 
--->
+U kunt tijd voor kwesties, taken, en projecten van het gebied van Updates registreren, wanneer het gebruiken van de nieuwe opmerkende ervaring van Bèta. Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-### Log time in the new commenting Beta experience 
+Voorvertoning: 1 juni 2023
 
-You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
-
-Preview: June 1, 2023 
-
-Production: June 15, 2023
-
--->
-
-<!--
-
-### New commenting Beta experience for projects, tasks, and issues  
-
-The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
-
-Preview: June 1, 2023 
-
-Production: with the 23.3 release 
--->
+Productie: Te publiceren
 
 ## Week van 15 mei 2023
 

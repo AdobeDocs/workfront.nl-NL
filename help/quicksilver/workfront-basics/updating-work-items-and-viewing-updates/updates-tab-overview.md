@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <!--<span class="preview">projects, tasks, and documents</span>,--> wanneer u het opmerkingsbètabestand inschakelt.
+> * Problemen <span class="preview">projecten, taken en documenten</span> wanneer u het opmerkingsbètabestand inschakelt.
    >
    >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
    >
@@ -99,7 +99,7 @@ In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor 
 * **Opmerkingen**: Hier worden opmerkingen van gebruikers weergegeven en antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systeemactiviteit**: Geeft systeemupdates weer. Dit zijn informatieve berichten die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de bètaopmerkingervaring voor de volgende objecten:
+Op dit moment kunt u opmerkingen toevoegen en reageren op updates met behulp van de bètaopmerkingervaring voor de volgende objecten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ U kunt op dit moment opmerkingen maken en op updates reageren met behulp van de 
      <li><p>Doelen</p>
      <p>Dit is de standaardervaring voor doelstellingen</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">Projecten</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>Problemen</li> 
+     <li><span class="preview">Taken</span></li>
+     <li><span class="preview">Documenten</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
@@ -151,17 +129,15 @@ Opmerkingen of antwoorden op updates over bepaalde objecten worden ook weergegev
 
 Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergegeven in de sectie Updates voor de taak en in de sectie Updates voor het project dat de taak bevat.
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>Wanneer u de nieuwe bètaervaring voor opmerkingen inschakelt, worden opmerkingen weergegeven op de volgende objecten met een hogere positie en in de volgende omgevingen:
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* Problemen
+>* <span class="preview">Projecten</span>
+>* <span class="preview">Taken</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook worden weergegeven op objecten met een hogere positie:
 

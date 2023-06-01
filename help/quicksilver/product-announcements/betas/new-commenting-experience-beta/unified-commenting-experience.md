@@ -6,16 +6,16 @@ description: Momenteel wordt een update van de opmerkingervaring in Adobe Workfr
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Nieuwe ervaring met opmerkingen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van geselecteerde objecten.
 
@@ -47,7 +47,7 @@ De nieuwe ervaring met opmerkingen bevat verbeteringen en wijzigingen in de best
 De nieuwe ervaringen met opmerkingen bevatten onder andere de volgende verbeteringen:
 
 * Verbeterde prestaties en gebruikerservaring
-* Scheiding van gebruikerscommentaren van de updates van de systeemactiviteit. Er zijn geen wijzigingen in de manier waarop het systeem wordt bijgewerkt.
+* Scheiding van gebruikerscommentaren van de updates van de systeemactiviteit.
 * Real-time indicator wanneer nieuwe opmerkingen worden toegevoegd aan een object
 * Opmerkingen bewerken na verzending.
 
@@ -261,7 +261,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecte
 
 * Wanneer het toelaten van de ervaring van Bèta in de sectie van Updates:
 
-   * Problemen<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * Problemen <span class="preview">projecten, taken en documenten</span>
    Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
