@@ -6,7 +6,7 @@ description: Bekijk de wekelijkse releaseactiviteit voor de nieuwe opmerkingenta
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -29,7 +29,7 @@ De volgende secties bevatten functies die na de oorspronkelijke versie zijn toeg
 
 ## Week van 29 mei 2023
 
-### Nieuwe bètaervaring voor opmerkingen voor projecten, taken en problemen
+### Nieuwe bètaervaring voor opmerkingen voor projecten, taken en documenten
 
 De nieuwe bètaervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de bètaervaring voor opmerkingen alleen beschikbaar voor problemen en doelen.
 
