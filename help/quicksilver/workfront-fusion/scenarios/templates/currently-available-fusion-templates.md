@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
+source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Als u beschikbare sjablonen wilt weergeven, klikt u op de knop **Sjablonen** pic
 ## Workfront-sjablonen
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
+
+### Workfront - Program Custom Forms en Field Data kopiëren naar bijbehorende nieuwe projecten
+
+Deze automatisering zoekt naar nieuwe projecten in programma&#39;s met douaneformulieren. Vervolgens worden deze aangepaste formulieren en velden voor het programma toegevoegd aan de nieuwe projecten.
 
 ### Workfront - Goedgekeurd probleem converteren naar project
 
