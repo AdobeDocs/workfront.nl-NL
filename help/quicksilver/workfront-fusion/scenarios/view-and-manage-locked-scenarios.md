@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Vergrendelde scenario's weergeven en beheren in [!DNL Adobe Workfront Fusion]
-description: Vergrendelde scenario's weergeven en beheren in [!DNL Adobe Workfront Fusion]
+title: Vergrendelde scenario's beheren in [!DNL Adobe Workfront Fusion]
+description: Vergrendelde scenario's beheren in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-source-git-commit: dcc4d37af99bae36ba5592cb4ca82ff473ec1cb5
+exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
+source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
 # Vergrendelde scenario&#39;s beheren in [!DNL Adobe Workfront Fusion]
 
-In sommige gevallen kan een scenario tijdelijk worden vergrendeld door de [!DNL Workfront Fusion] engineeringsteam omdat het scenario prestaties of andere kwesties veroorzaakt. Vergrendelde uitvoeringen worden binnen 2-4 uur automatisch ontgrendeld. U kunt scenario&#39;s ook manueel ontgrendelen.
+In sommige gevallen kan een scenario tijdelijk zijn vergrendeld in [!DNL Workfront Fusion]. Vergrendelde uitvoeringen worden binnen 2-4 uur automatisch ontgrendeld. U kunt scenario&#39;s ook manueel ontgrendelen.
 
 >[!IMPORTANT]
 >
 >Het ontgrendelen van een scenario kan fouten in de uitvoeringen van een scenario manueel veroorzaken.
-
 
 ## Toegangsvereisten
 
@@ -53,9 +53,21 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Vergrendelde scenario&#39;s
+
+Scenario&#39;s kunnen om een aantal redenen worden vergrendeld.
+
+Workfront Fusion ondersteunt geen parallelle verwerking van geplande scenario&#39;s. Deze scenario&#39;s worden gesloten aan het begin van de scenariouitvoering en ontgrendeld wanneer het voltooit. Als de uitvoering wordt onderbroken, kan het scenario niet ontgrendelen. Dit kan voorkomen wanneer een gebruiker manueel dwingen-houdt het scenario, of wanneer er een systeemkwestie is.
+
+Bovendien kan het technische team van Workfront Fusion een scenario vergrendelen omdat dit prestaties of andere problemen veroorzaakt.
+
+Ongeacht de oorzaak van een gesloten scenario, zal het scenario automatisch 2-4 uur ontgrendelen nadat het wordt gesloten.
+
 ## Een vergrendeld scenario ontgrendelen
 
 Vergrendelde scenario&#39;s ontgrendelen 2 tot 4 uur vanaf het moment dat ze vergrendeld waren. U kunt een scenario manueel ontgrendelen alvorens het wordt gepland om automatisch te ontgrendelen.
+
+Het ontgrendelen van een scenario kan fouten in de uitvoeringen van een scenario manueel veroorzaken. Wij adviseren manueel ontgrendelende scenario&#39;s slechts wanneer een scenario wegens het lopen en het tegenhouden van uitvoeringen als deel van het ontwerpen van het scenario wordt gesloten. In andere omstandigheden, adviseren wij dat u op het scenario wacht automatisch worden ontgrendeld.
 
 >[!IMPORTANT]
 >
