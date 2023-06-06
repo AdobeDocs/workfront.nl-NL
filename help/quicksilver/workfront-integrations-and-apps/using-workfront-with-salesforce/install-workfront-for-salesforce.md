@@ -6,9 +6,9 @@ description: De toepassing installeren voordat deze beschikbaar wordt in het dia
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 254ffae14b21dbef19b8f6b66a1c11e348c85c85
+source-git-commit: 0c49ab99653f390d592bba39bcb92145b8bedd0c
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '747'
 ht-degree: 2%
 
 ---
@@ -71,11 +71,11 @@ U kunt als volgt de app installeren voordat deze beschikbaar is:
 
 1. Ga in uw productieomgeving naar
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
 
    Ga in uw Sandbox-omgeving naar
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
 
 1. Controleer de **[!UICONTROL Yes, grant access to these third-party web sites]** doos.
 
