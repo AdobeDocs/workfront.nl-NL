@@ -7,9 +7,9 @@ description: Adobe Workfront is niet ontworpen voor het repliceren of vervangen 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e87f2a459314b8059a3df634e97560b5c1dffac4
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,6 @@ De hulpmiddelen van het Beheer van het middel gebruiken ook uw persoonlijke tijd
 >
 
 
-
-
 ## Toegangsvereisten
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
@@ -47,15 +45,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger (om uw persoonlijke tijd weg te vormen)</p> </td> 
+   <td>[!UICONTROL Work] of hoger (om uw persoonlijke tijd weg te vormen)</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] toegang (om wijzigingen aan te brengen in de kalender van de Tijd van andere gebruikers)</td> 
+   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] toegang (om wijzigingen aan te brengen in de tijdkalender van andere gebruikers)<br>
+   <strong>OPMERKING:</strong> Als een manager de persoonlijke tijd van een andere gebruiker van kalender uitgeeft, worden alle ingangen getoond in de tijdzone van de gebruiker en niet de tijdzone van de manager.</td> 
   </tr> 
  </tbody> 
 </table>
