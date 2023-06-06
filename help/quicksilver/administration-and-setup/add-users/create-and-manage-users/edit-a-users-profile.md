@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
+source-git-commit: fb934506205c586852497197115a7731083c0e54
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2867'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <li><b>Is actief:</b> Selecteer dit vakje om aan te geven dat de gebruiker actief is. Actieve gebruikers gebruiken een Workfront-licentie. Als u het vak wist, wordt de gebruiker gedeactiveerd.</li> 
        <li> <p><b>Toegangsniveau:</b> Selecteer het toegangsniveau dat u aan deze gebruiker wilt toewijzen.</p> 
        <p>Wanneer u een toegangsniveau aan een gebruiker toewijst, kunt u een niveau gelijk aan of minder dan uw eigen toegangsniveau toewijzen. (Als uw toegangsniveau bijvoorbeeld Planner is, kunt u het toegangsniveau voor beheerders niet toewijzen.) U kunt echter geen toegangsniveau toewijzen dat standaard lager is dan uw eigen toegangsniveau als de Workfront-beheerder niet-standaardmachtigingen op het toegangsniveau heeft ingeschakeld die niet ook in uw eigen toegangsniveau zijn ingeschakeld (via de instellingen voor Fine-Tune, zoals beschreven in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>). </p> 
-       <p>Voor meer informatie over toegangsniveaus, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Toegang tot Adobe Workfront configureren</a>.</p> </li> 
+       <p>Voor meer informatie over toegangsniveaus, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Toegang tot Adobe Workfront configureren</a>.</p><p> <b>Opmerking:</b> Als uw organisatie het nieuwe toegangsmodel (Norm/Licht/Medewerker) gebruikt, kunt u geen Standaard of Lichte gebruiker aan een niveau van de Toegang van de Medewerker opnieuw toewijzen als die gebruiker hun beslissingsgrens voor de maand reeds heeft bereikt. </p><p>Voor meer informatie over het nieuwe toegangsmodel, zie <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Overzicht van nieuwe toegangsniveaus</a>. </p><p>Voor informatie over de beslissingsgrenzen raadpleegt u <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers</a>.</p></li> 
        <li> <p><b>Lay-outsjabloon</b>: Kies een lay-outsjabloon voor de gebruiker. Deze lay-outsjabloon heeft voorrang op elke lay-outsjabloon die is toegewezen aan de thuisgroep, het thuisteam of de primaire taakrol van de gebruiker. Voor meer informatie over de toewijzingsprioriteit van Lay-outsjablonen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Lay-outsjablonen maken en beheren</a>.</p> <p><b>OPMERKING</b>:  <p>De lijst met sjablonen die u in dit veld hebt, is afhankelijk van uw toegang:</p> 
        <ul> 
        <li>Als beheerder van Workfront, kunt u alle systeem-niveau en groep-vlakke Malplaatjes van de Lay-out zien.</li> 
