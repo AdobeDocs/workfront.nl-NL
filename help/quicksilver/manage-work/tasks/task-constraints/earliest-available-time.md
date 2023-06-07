@@ -7,7 +7,7 @@ description: De vroegste Beschikbare Tijd is een Restrictie van de Taak die een 
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -68,12 +68,16 @@ In deze situatie:
 
 * **Vroegste beschikbare tijd:** Het gebruik van de oudste beschikbare tijdbeperking op de opvolgertaak geeft prioriteit aan de flexibele beperking van de voorganger.
 
-   **Voorbeeld:** Taak A is een voorganger aan Taak B. Taak B heeft de vroegst Beschikbare Beperking van de Tijd en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is taak B zo dicht mogelijk bij de voltooiing van het project gepland.
+   **VOORBEELD**
+
+   Taak A is een voorganger aan Taak B. Taak B heeft de vroegst Beschikbare Beperking van de Tijd en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is taak B zo dicht mogelijk bij de voltooiing van het project gepland.
 
    ![Vroegste Beschikbare beperking van de Tijd wanneer de taak de data dicht bij de Datum van de Voltooiing van het project heeft](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
 * **Zo snel mogelijk:** In dit scenario, geeft het gebruiken van zo spoedig mogelijk beperking op de opvolgertaak de prioriteit aan de opvolgertaak.
 
-   **Voorbeeld:**  Taak A is een voorganger aan Taak B. Taak B heeft zo snel mogelijk de beperking en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is taak B zo dicht mogelijk bij de start van het project gepland.
+   **VOORBEELD**
+
+   Taak A is een voorganger aan Taak B. Taak B heeft zo snel mogelijk de beperking en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is taak B zo dicht mogelijk bij de start van het project gepland.
 
    ![Zo snel mogelijk beperkingen wanneer de taak de data dicht bij de begindatum van het project heeft](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

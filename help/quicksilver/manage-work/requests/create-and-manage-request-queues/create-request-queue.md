@@ -6,9 +6,9 @@ description: U kunt opstelling een Rij van het Verzoek waar de gebruikers occasi
 author: Alina
 feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,14 @@ Een aanvraagwachtrij maken:
 
    * **Wie aanvragen kan toevoegen aan deze wachtrij:** Selecteer welke gebruikers toegang hebben om aanvragen aan deze wachtrij toe te voegen. U kunt de volgende groepen mensen toestaan om de Rij van het Verzoek in hun gebied van Verzoeken van de Globale Bar van de Navigatie te zien:
 
-      | Iedereen | Elke Workfront-gebruiker met een actief account kan deze aanvraagwachtrij bekijken en er aanvragen aan toevoegen |
+      | Wie aanvragen kan invoeren | Beschrijving |
       |---|---|
+      | Iedereen | Elke Workfront-gebruiker met een actief account kan deze aanvraagwachtrij bekijken en er aanvragen aan toevoegen |
       | Personen met toegang tot dit project | Gebruikers met de machtiging Weergeven aan het project kunnen aanvragen weergeven en toevoegen aan deze wachtrij |
       | Personen in het bedrijf van dit project | De gebruikers die tot het bedrijf behoren verbonden aan dit project kunnen verzoeken aan deze rij bekijken en toevoegen. Als er een bedrijf verbonden aan het project is, is de naam van het bedrijf vermeld tussen haakjes na dit het plaatsen. |
       | Personen in de projectgroep | De gebruikers die tot de groep behoren verbonden aan dit project kunnen verzoeken aan deze rij bekijken en toevoegen. Als er een groep verbonden aan het project is, wordt de naam van de groep vermeld tussen haakjes na dit het plaatsen. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Delen met deze koppelingen:** Met de volgende opties kunt u gebruikers buiten Workfront of Workfront-gebruikers via een externe pagina rechtstreeks toegang geven tot de aanvraagwachtrij en de bijbehorende formulieren. Voor informatie over het insluiten van een verzoekrij in een dashboard als externe pagina, zie [Een aanvraagwachtrij insluiten in een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -217,12 +218,11 @@ Een aanvraagwachtrij maken:
       De standaardwaarde voor de duur van de uitgave is 1 dag of 8 uur. Als uw Workfront-beheerder de typische uren per werkdag instelt op minder dan 8 uur, is de standaardduur voor uitgaven nog steeds 8 uur. Als de typische uren per werkdag bijvoorbeeld op 7 uur zijn ingesteld, is de standaardduur voor uitgaven 1,14 dagen of 8 uur. Raadpleeg de sectie &#39;Tijdlijnberekeningen&#39; in het artikel voor meer informatie over het instellen van het systeem (normale uren per werkdag) [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * **De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven.:** Wanneer geselecteerd, zijn alle verzoeken die aan de rij worden voorgelegd zichtbaar voor gebruikers in het zelfde bedrijf. De gebruikers kunnen deze verzoeken in de Al sectie van Verzoeken bekijken, die binnen het gebied van Verzoeken wordt gevestigd. Op het moment dat deze instelling wordt in- of uitgeschakeld, heeft deze invloed op alle toekomstige aanvragen. de informatie heeft geen terugwerkende kracht .
-   * **Wanneer iemand een verzoek indient, automatisch verlenen:** Wanneer een gebruiker een verzoek aan de verzoekrij indient, wordt de gebruiker automatisch verleend het niveau van toestemming dat u aan dat verzoek kiest. Selecteer een van de volgende machtigingsniveaus:\
-      **- Weergave**
+   * **Wanneer iemand een verzoek indient, automatisch verlenen:** Wanneer een gebruiker een verzoek aan de verzoekrij indient, wordt de gebruiker automatisch verleend het niveau van toestemming dat u aan dat verzoek kiest. Selecteer een van de volgende machtigingsniveaus:
 
-      **- Contribute**
-      **- Beheren**
-
+      * **Weergave**
+      * **Contribute**. Dit is de standaardselectie.
+      * **Beheren**
       Voor informatie over het Workfront machtigingenmodel raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
       Het plaatsen van toestemmingen bewaart hier tijd, eerder dan het moeten toestemmingen voor elk individueel inkomend verzoek verlenen. Het kiezen van deze optie is van invloed op alle toekomstige verzoeken, maar heeft geen terugwerkende invloed op bestaande verzoeken.
 
@@ -247,7 +247,9 @@ Een aanvraagwachtrij maken:
 
       Wanneer u een van de velden Toegewezen aan, Functie of Team inschakelt, wordt de naam van de toewijzingen altijd gewijzigd in het aanvraagformulier, maar u kunt alleen het hier geselecteerde type toewijzing opgeven.
 
-      **Voorbeeld:** Als u Toegewezen aan in het gebied van de Details van de Rij selecteerde, kunt u slechts gebruikers op het gebied van Toewijzingen op het verzoekformulier ingaan. In dit geval kunt u geen taakrollen of een team invoeren.
+      >[!NOTE]
+      Als u Toegewezen aan in het gebied van de Details van de Rij selecteerde, kunt u slechts gebruikers op het gebied van Toewijzingen op het verzoekformulier ingaan. In dit geval kunt u geen taakrollen of een team invoeren.
+
 
    * **Documenten**: Als u de sectie Documenten wilt weergeven in het nieuwe aanvraagformulier, selecteert u waar de sectie voor het uploaden van documenten moet worden geplaatst. Selecteer een van de volgende opties:
 
@@ -270,12 +272,11 @@ Een aanvraagwachtrij maken:
 
    * **Alle geselecteerde en niet-geselecteerde velden weergeven in:** Selecteer welke gebruikers u alle velden op het formulier wilt weergeven. De volgende opties bepalen de toegang tot de velden op het formulier.
 
+      | Welke gebruikers alle velden op het aanvraagformulier kunnen zien | Beschrijving |
+      |---|---| 
       | Alle gebruikers (abonnementslicenties) | Alle gebruikers met een licentie voor abonnementen kunnen zowel de geselecteerde als de niet-geselecteerde velden zien. |
-      |---|---|
       | Personen met toegang tot dit project (licentie voor abonnementen) | Gebruikers met een licentie voor een abonnement die ook weergaverechten voor dit project hebben, kunnen zowel de geselecteerde als de niet-geselecteerde velden zien. De rest van de gebruikers die aanvragen kunnen indienen voor dit project, kunnen alleen de geselecteerde velden zien. |
       | Geen gebruikers | De niet-geselecteerde velden kunnen niet door gebruikers worden weergegeven. Alle gebruikers die aanvragen naar dit project kunnen verzenden, kunnen alleen de geselecteerde velden zien. |
-
-      {style=&quot;table-layout:auto&quot;}
 
    * **Aangepaste Forms**: Selecteer een aangepast formulier dat u wilt koppelen aan de aanvraagwachtrij. Alleen Issue Custom Forms is beschikbaar om te selecteren in dit keuzemenu. Aan alle problemen die worden voorgelegd aan de wachtrij met aanvragen worden de geselecteerde formulieren gekoppeld.\
       Als u de veelvoudige Onderwerpen van de Rij verbonden aan een Rij van het Verzoek hebt, adviseren wij dat u douaneformulieren met de Onderwerpen van de Rij in plaats daarvan associeert. Voor meer informatie over het creëren van subsecties voor de Rij van het Verzoek, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -285,16 +286,18 @@ Een aanvraagwachtrij maken:
       >[!TIP]
       De vormen van de douane die aan de sectie van de Details van de Rij worden toegevoegd worden ook geassocieerd met om het even welke nieuwe kwestie die aan het project of de taken in de sectie van Kwesties wordt toegevoegd.
 
-   * **Toestaan dat problemen via e-mail worden toegevoegd:** Selecteer deze optie als u aanvragen via e-mail wilt verzenden.\
-      Zie voor meer informatie [Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 
 
+
+1. Doorgaan met het selecteren van gegevens voor de instellingen in het dialoogvenster **E-mailwachtrijinstellingen** om gebruikers toe te staan verzoeken te e-mailen naar het project van de verzoekrij.
+
+   Zie voor meer informatie [Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 1. Klikken **Opslaan**.\
    Uw project is nu gevormd om een Rij van het Verzoek te zijn en de gebruikers kunnen verzoeken aan het nu toevoegen.
 
 1. (Facultatief) om de functionaliteit van de Rij van het Verzoek te verbeteren, bouw extra ondersecties voor uw rij, evenals regels om de inkomende verzoeken aan het correcte team, de ontvanger of het project te leiden.
 
-   Raadpleeg de artikelen voor informatie over het maken van subsecties voor de aanvraagwachtrij [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) en [Onderwerpgroepen maken](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).\
-   Voor informatie over het verpletteren van de verzoeken aan de aangewezen ontvanger, het team, en aangewezen project, zie [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Raadpleeg de artikelen voor informatie over het maken van subsecties voor de aanvraagwachtrij [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) en [Onderwerpgroepen maken](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   * Voor informatie over het verpletteren van de verzoeken aan de aangewezen ontvanger, het team, en aangewezen project, zie [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).

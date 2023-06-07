@@ -7,9 +7,9 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2368'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,11 @@ In de onderstaande lijsten worden de beschikbare expressies gedefinieerd die u k
   </tr> 
   <tr> 
    <td><strong>PROD</strong> </td> 
-   <td>Deze expressie vermenigvuldigt alle getallen en is als volgt opgemaakt:<pre>PROD(nummer1, nummer2, ....)</pre></td> 
+   <td>Deze expressie vermenigvuldigt alle getallen en is als volgt opgemaakt:<pre>PROD(nummer1, nummer2, ....)</pre>
+   <b>OPMERKING</b>
+
+Wanneer u velden met uren vermenigvuldigt, dient u te weten of de uren in de geselecteerde velden in minuten, uren of seconden in de database worden opgeslagen. Als de uren in notulen of seconden maar vertoning in uren in de interface van Workfront worden bewaard, zou u voor de omzetting van notulen of seconden aan uren kunnen rekenschap moeten geven wanneer het schrijven van een uitdrukking gebruikend deze berekening.
+</td> 
   </tr> 
   <tr> 
    <td><strong>ROND</strong> </td> 
