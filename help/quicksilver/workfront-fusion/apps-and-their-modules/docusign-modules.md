@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 632952e91ebe2ae5caa370c310cfd5e7180232b7
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -160,11 +160,11 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td>[!UICONTROL URL]</td> 
-   <td> <p>Typ het adres op de webserver waarmee de module moet communiceren.</p> <p>U kunt een relatieve URL typen, wat betekent dat u het protocol (zoals <code>http://</code>) aan het begin. Dit suggereert aan de Webserver dat de interactie op de server voorkomt.</p> <p>Bijvoorbeeld: <code>[!DNL /api/conversations].create</code></p> <p>Tip: Voor een lijst van beschikbare eindpunten, zie <a href="https://developers.docusign.com/esign-rest-api/reference">[!DNL DocuSign] API-naslag</a>.</p> </td> 
+   <td> <p>Typ het adres op de webserver waarmee de module moet communiceren.</p> <p>U kunt een relatieve URL typen, wat betekent dat u het protocol (zoals <code>http://</code>) aan het begin. Dit suggereert aan de Webserver dat de interactie op de server voorkomt.</p> <p>Bijvoorbeeld: <code>[!DNL /api/conversations].create</code></p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers]</td> 

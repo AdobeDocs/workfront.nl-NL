@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ U kunt een verbinding maken met uw [!DNL Qualtrics] rechtstreeks vanuit een [!UI
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL API Key]</td> 
-      <td>Ga naar <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">API Tokenverificatie</a> in de [!DNL Qualtrics] documentatie.</td> 
+      <td>Als u de API-sleutel wilt zoeken, raadpleegt u de [!DNL Qualtrics] documentatie.</td> 
      </tr> 
     </tbody> 
    </table>

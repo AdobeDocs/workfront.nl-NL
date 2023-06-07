@@ -8,9 +8,9 @@ description: Met het gereedschap Tekstparser kunt u tekst parseren voor gebruik 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -226,9 +226,6 @@ Zoekt de ingevoerde tekst naar een opgegeven waarde of reguliere expressie en ve
 
 ### Gegevensovervulling
 
-Het schrapen van gegevens, soms genoemd Webschrapping, gegevensextractie, of Web het oogsten, is het proces om gegevens van websites te verzamelen en het op te slaan in uw lokale gegevensbestand of spreadsheets. Als u gegevens van een website wilt verwijderen en u niet bekend bent met reguliere expressies, kunt u een gereedschap voor het verwijderen van gegevens gebruiken:
-
-* [Apify](https://apify.com/)
-* [Best Data Scraping Tools for 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews)
+Het schrapen van gegevens, soms genoemd Webschrapping, gegevensextractie, of Web het oogsten, is het proces om gegevens van websites te verzamelen en het op te slaan in uw lokale gegevensbestand of spreadsheets. Als u gegevens van een website wilt verwijderen en u niet bekend bent met reguliere expressies, kunt u een gereedschap voor het verwijderen van gegevens gebruiken.
 
 Als het hulpprogramma voor het plakken van gegevens een REST API biedt, kunt u er verbinding mee maken via onze universele [[!UICONTROL HTTP] modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) en [Webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules.
