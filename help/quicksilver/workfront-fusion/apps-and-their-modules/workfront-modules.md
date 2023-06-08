@@ -9,9 +9,9 @@ description: U kunt de Adobe Workfront Fusion Adobe Workfront-connector gebruike
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 2a49e8f1947d39efa85bb8b8bdb7aee5054f8d33
 workflow-type: tm+mt
-source-wordcount: '4921'
+source-wordcount: '4954'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,10 @@ U kunt een verbinding maken met uw [!DNL Workfront] rechtstreeks vanuit een [!DN
    >[!NOTE]
    >
    >* Als u geen SAML login knoop ziet, heeft uw organisatie geen Enige Sign-On (SSO) toegelaten. U kunt zich aanmelden met uw gebruikersnaam en wachtwoord.
-      >   
-      >   Voor meer informatie over SSO, zie [Overzicht van Single Sign-On in [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   >   
+   >   Voor meer informatie over SSO, zie [Overzicht van Single Sign-On in [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
    >   
    >* OAuth 2.0 verbindingen aan [!DNL Workfront] API is niet langer afhankelijk van API-sleutels.
-
 
 ## [!DNL Workfront] modules en hun velden
 
@@ -278,7 +277,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
    <td>Selecteer het object waarnaar u het wilt omzetten. Dit is het type dat het object na de conversie heeft.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Object&gt; ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Voer de id van het object in. </p> <p>Opmerking: Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -345,6 +344,7 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
 >* Wanneer u de tekst voor een aangepast veld of een [!UICONTROL Note] object (opmerking of antwoord), kunt u HTML-tags gebruiken in het dialoogvenster [!UICONTROL Note Text] veld voor het maken van RTF-tekst, zoals vette of cursieve tekst.
 >
 >  Voor meer informatie over tekst met opmaak in updates raadpleegt u [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -391,6 +391,7 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
 >* Wanneer u de tekst voor een aangepast veld of een [!UICONTROL Note] object (opmerking of antwoord), kunt u HTML-tags gebruiken in het dialoogvenster [!UICONTROL Note Text] veld voor het maken van RTF-tekst, zoals vette of cursieve tekst.
 >
 >  Voor meer informatie over tekst met opmaak in updates raadpleegt u [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -403,7 +404,7 @@ De module retourneert de volgende informatie:
 * **[!UICONTROL Status Code]** (nummer): Dit wijst op het succes of de mislukking van uw HTTP- verzoek. Dit zijn standaardcodes die u kunt opzoeken op internet.
 * **[!UICONTROL Headers]** (object): Een meer gedetailleerde context voor de reactie/statuscode die niet op het outputlichaam betrekking heeft. Niet alle kopteksten in een antwoordkoptekst zijn reactiekoppen. Sommige koppen zijn daarom niet altijd even handig.
 
-   De antwoordheaders zijn afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module.
+  De antwoordheaders zijn afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module.
 
 * **[!UICONTROL Body]** (object): Afhankelijk van de HTTP-aanvraag die u hebt gekozen tijdens het configureren van de module, ontvangt u mogelijk gegevens terug. Deze gegevens, zoals de gegevens van een verzoek om GET, bevinden zich in dit object.
 
@@ -657,6 +658,7 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
 >* Wanneer u de tekst voor een aangepast veld of een [!UICONTROL Note] object (opmerking of antwoord), kunt u HTML-tags gebruiken in het dialoogvenster [!UICONTROL Note Text] veld voor het maken van RTF-tekst, zoals vette of cursieve tekst.
 >
 >  Voor meer informatie over tekst met opmaak in updates raadpleegt u [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -1675,14 +1677,13 @@ De volgende operatoren zijn beschikbaar in het filter Workfront > Watch-gebeurte
 * Kleiner dan of gelijk aan
 * Bevat
 * Exists
+   * Deze operator heeft geen waarde nodig en het waardeveld ontbreekt.
 * Is niet bestaand
+   * Deze operator heeft geen waarde nodig en het waardeveld ontbreekt.
 * Gewijzigd
-
->[!NOTE]
->
-> * De `Exists`, `Does not exist`, en `Changed` operators hebben geen waarde nodig en deze opties ontbreken in het waardeveld.
-> * De `Changed` wordt het veld Staat genegeerd.
-
+   * Deze operator heeft geen waarde nodig en het waardeveld ontbreekt.
+   * Deze operator negeert het veld Frame.
+   * Wanneer u `Changed`, selecteert u **Alleen bijgewerkte gebeurtenissen** in de **Oorsprong record** veld.
 
 >[!IMPORTANT]
 >
