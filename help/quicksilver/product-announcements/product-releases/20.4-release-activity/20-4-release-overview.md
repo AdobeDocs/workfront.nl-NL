@@ -6,16 +6,16 @@ description: De release van 20,4 werd in de week van 9 november 2020 beschikbaar
 author: Luke
 feature: Product Announcements
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3666'
 ht-degree: 0%
 
 ---
 
 # 20.4 - releaseoverzicht
 
-De release van 20,4 werd in de week van 9 november 2020 beschikbaar gesteld in de productieomgeving. Voor specifieke releasedatums en -tijden voor elke cluster raadpleegt u de [Workfront-statussite](https://status.workfront.com/).
+De release van 20,4 werd in de week van 9 november 2020 beschikbaar gesteld in de productieomgeving.
 
 Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront Classic als de nieuwe Adobe Workfront-ervaring die is opgenomen in de release 20.4.
 
