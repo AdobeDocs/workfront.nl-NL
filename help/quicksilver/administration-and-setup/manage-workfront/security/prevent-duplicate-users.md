@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 6f5b9e7638a85eca16d722cec6185cd5ed755eca
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -41,14 +41,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
-
-## Walkthrough
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[Bekijk een videodemonstratie van deze functie.](https://vimeo.com/371505632/2e6938ce06)
 
 ## Gebruikers met unieke e-mailadressen maken
 

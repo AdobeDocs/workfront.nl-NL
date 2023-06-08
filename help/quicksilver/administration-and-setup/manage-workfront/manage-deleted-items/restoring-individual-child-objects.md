@@ -7,9 +7,9 @@ description: In dit document wordt beschreven hoe u hulp kunt krijgen bij het he
 feature: System Setup and Administration
 role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U kunt de geëxporteerde gegevens op de volgende manieren importeren:
 
 De omgeving van de zandbak van de Voorproef wordt verfrist tijdens onze onderhoudsvensters tijdens het weekend.
 
-Voor meer informatie over de vensters van onderhoud voor het milieu van de Sandbox van de Voorproef, zie [trust.workfront.com](https://trust.workfront.com/).
+Voor meer informatie over de vensters van onderhoud voor het milieu van de Sandbox van de Voorproef, zie [de Adobe status site](https://status.adobe.com).
 
 >[!IMPORTANT]
 >
