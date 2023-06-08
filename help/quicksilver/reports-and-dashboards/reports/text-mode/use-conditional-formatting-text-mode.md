@@ -6,9 +6,9 @@ description: Voorwaardelijke opmaak gebruiken in tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 16d59c6e3d790f2804795f5a6fef05c8dca71b30
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -295,7 +295,6 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Terwijl deze verklaring op een kolom van de Naam van het Bedrijf kon worden toegepast, kon het ook op een andere kolom op het rapport worden toegepast. De groene tekst zou slechts worden getoond als het project een Bedrijf verbonden aan het had. Onthoud de `[field name]`, `[value]`, en `[qualifier]` rijden, ongeacht of de conditionering uiteindelijk op de kolom wordt weergegeven.
 >* Als u werkt met kwalificatietekens, raden we u aan `cicontains` eerder dan `equal`. Standaard, `equal` zoekt naar id-nummers. Met de `cicontains` kwalificatie, kunt u tot punten door hun naam toegang hebben.
 
-
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
@@ -322,7 +321,7 @@ Gebruik de volgende tabellen om te bepalen welke regels moeten worden gewijzigd 
 | Rood | `d30519` |
 | Geel | `e19503` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Uitlijning** | **Regel: align=** |
 |---|---|
@@ -330,14 +329,14 @@ Gebruik de volgende tabellen om te bepalen welke regels moeten worden gewijzigd 
 | Rechts uitlijnen | `right` |
 | Centreren | `center` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | Lettertype | Regel: ***fontstyle=*** |
 |---|---|
 | Vet | `bold` |
 | Cursief | `italic` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Achtergrondkleur** | **Regel: bgcolor=** |
 |---|---|
@@ -350,7 +349,7 @@ Gebruik de volgende tabellen om te bepalen welke regels moeten worden gewijzigd 
 | Geel | `feecc8` |
 | Wit | `ffffff` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### Meerdere voorwaardelijke indelingen {#multiple-conditional-formats}
 
@@ -375,8 +374,6 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 >[!NOTE]
 >
 >Wanneer u meerdere voorwaardelijke opmaakexpressies toevoegt, moet u elke expressie numeriek identificeren in de instructie. expression 0 en expression 1 zijn geïdentificeerd.
-
-![](assets/screen-shot-2013-08-15-at-3.18.45-pm-350x198.png)
 
 #### Tekst toepassen {#apply-text}
 
@@ -553,7 +550,7 @@ Als u de beschikbare afbeeldingen wilt gebruiken, past u de volgende code en waa
 | Witte cirkel ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
 | Gele cirkel ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Maak een `valueexpression` {#conditionally-format-a-valueexpression}
 
@@ -580,9 +577,9 @@ Houd rekening met het volgende wanneer u aggregators toevoegt aan een kolom in d
 * U kunt een aggregator aan een kolom toevoegen die een berekening toont. De samengevoegde waarde wordt weergegeven in de groep van de weergave of het rapport. Zie voor meer informatie [Groeperen: het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * De coderegels voor de definitie van de kolom moeten identiek zijn aan de coderegels die de aggregator introduceren en worden voorafgegaan door &quot;aggregator&quot;. Als u bijvoorbeeld een kolom hebt waarin u de geplande uren voor een project weergeeft, is de tekstmodus van de hoofdlijnen van de kolom:
 
-   ```
-   valuefield=workRequired
-   valueformat=compound
-   ```
+  ```
+  valuefield=workRequired
+  valueformat=compound
+  ```
 
-   Wanneer u de waarde van alle regels in de groepering van de mening wilt samenvoegen, kunnen wij de volgende code toevoegen om de aggregatorwaarden toe te voegen: `aggregator.valuefield=workRequired` (de `aggregator.valuefield` regel moet gelijk zijn aan `valuefield` die de kolom beschrijft) `aggregator.valueformat=compound` (de `aggregator.valueformat` regel moet dezelfde waarde hebben als de regel `valueformat` die de kolom beschrijft) `aggregator.function=SUM` (Dit is een verplichte regel die aangeeft hoe u de kolom wilt samenvoegen. In dit geval wilt u alle individuele geplande uren toevoegen aan één getal in de groeperingsregel.) `aggregator.displayformat=minutesAsHoursString` (omdat de uren in Workfront in minuten worden opgeslagen, willen wij wijzen op `displayformat` voor uren dat ze in minuten worden opgeslagen)
+  Wanneer u de waarde van alle regels in de groepering van de mening wilt samenvoegen, kunnen wij de volgende code toevoegen om de aggregatorwaarden toe te voegen: `aggregator.valuefield=workRequired` (de `aggregator.valuefield` regel moet gelijk zijn aan `valuefield` die de kolom beschrijft) `aggregator.valueformat=compound` (de `aggregator.valueformat` regel moet dezelfde waarde hebben als de regel `valueformat` die de kolom beschrijft) `aggregator.function=SUM` (Dit is een verplichte regel die aangeeft hoe u de kolom wilt samenvoegen. In dit geval wilt u alle individuele geplande uren toevoegen aan één getal in de groeperingsregel.) `aggregator.displayformat=minutesAsHoursString` (omdat de uren in Workfront in minuten worden opgeslagen, willen wij wijzen op `displayformat` voor uren dat ze in minuten worden opgeslagen)

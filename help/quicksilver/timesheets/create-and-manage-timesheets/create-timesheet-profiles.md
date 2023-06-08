@@ -6,9 +6,9 @@ description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugke
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Beschikbare uurtypen</strong> </td> 
-      <td>Door gebrek, zien de gebruikers alle algemene uren op een timesheet. Nochtans, als uw organisatie slechts specifieke algemene uren voor een bepaalde reeks gebruikers wil worden getoond, kunt u de algemene uren selecteren die zij in hun timesheets moeten zien door hen in hun timesheet profiel op dit gebied te selecteren. Als u alle algemene uren wilt onbruikbaar maken, schrap alle uurtypes om timesheet zonder een sectie voor algemene uren te produceren.</td> 
+      <td><p>Deze instelling verwijst alleen naar Algemene uurtypen en niet naar projectspecifieke uurtypen. </p>
+      <p>Door gebrek, zien de gebruikers alle algemene uren op een timesheet. Nochtans, als uw organisatie slechts specifieke algemene uren voor een bepaalde reeks gebruikers wil worden getoond, kunt u de algemene uren selecteren die zij in hun timesheets moeten zien door hen in hun timesheet profiel op dit gebied te selecteren. Als u alle algemene uren wilt onbruikbaar maken, schrap alle uurtypes om timesheet zonder een sectie voor algemene uren te produceren.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Overwerk</span> </td> 
@@ -158,7 +159,6 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >* U kunt een gebruiker ook aan een tijdlijnprofiel koppelen door het gebruikersprofiel te bewerken. Zie voor meer informatie [Gebruikersprofiel bewerken](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* Wanneer u een groep toevoegt, wordt alleen de groepsnaam weergegeven op het tabblad Personen toewijzen, niet de lijst met groepsleden. Als u de hier vermelde groepsleden wilt zien, klik sparen Veranderingen, dan klik de naam van het timesheet profiel u enkel creeerde.
    >* Wanneer u deze stappen beëindigt, produceert het timesheet profiel timesheets slechts voor de toegewezen gebruikers of groepsleden die geen bestaande timesheets voor de huidige periode hebben.
-
 
 1. Klikken **Wijzigingen opslaan**.
 

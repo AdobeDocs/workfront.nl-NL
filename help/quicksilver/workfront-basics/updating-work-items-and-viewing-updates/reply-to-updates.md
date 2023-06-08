@@ -6,7 +6,7 @@ description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp an
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -29,13 +29,13 @@ ht-degree: 0%
 >
 >* Problemen <span class="preview">projecten, taken en documenten</span>.
 >
->  Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
+>     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
 >
->  Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
+>     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
 >
->  * Home
->  * Samenvattingspaneel in lijsten
->  * Samenvattingspaneel in tijdbladen
+>     * Home
+>     * Samenvattingspaneel in lijsten
+>     * Samenvattingspaneel in tijdbladen
 >
 >* Doelen
 >

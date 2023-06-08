@@ -6,9 +6,9 @@ description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3334'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
 
 * U kunt tijd voor projecten, taken, of kwesties registreren, of u kunt tijd in uw timesheet direct registreren.
 
-   Voor informatie over het creëren van timesheets, zie [Een timesheet voor eenmalig gebruik maken](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  Voor informatie over het creëren van timesheets, zie [Een timesheet voor eenmalig gebruik maken](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * Alle tijd die door hulpmiddelen buiten timesheet wordt geregistreerd verschijnt in timesheet voor de overeenkomstige tijdspanne.
 * Taken en problemen met een project dat niet actueel is, worden niet vooraf in een tijdspagina geplaatst.
@@ -108,6 +108,9 @@ U kunt zich in Workfront aanmelden in de volgende gebieden:
 * [Mobiele app](#mobile-app)
 
 ### Tijdschema {#timesheet}
+
+
+#### De tijd van het logboek op een timesheet {#log-time-on-a-timesheet}
 
 U kunt algemene uren of project-specifieke uren op een timesheet registreren.
 
@@ -169,12 +172,11 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    >
    >   Wanneer het gebruiken van een standaardQWERTY toetsenbord, en na het klikken van de naam van een project in timesheet, druk de volgende reeks sleutels om het project samen te vouwen of uit te breiden:
    >   * Het project uitbreiden en zijn het werkpunten tonen:
-      >     * Shift + Alt + pijl-omhoog voor Windows-computers
-      >     * Shift + Option + pijl-omhoog voor Mac-computers
+   >     * Shift + Alt + pijl-omhoog voor Windows-computers
+   >     * Shift + Option + pijl-omhoog voor Mac-computers
    >   * Het project samenvouwen en de bijbehorende werkitems verbergen:
-      >     * Shift + Alt + pijl-omlaag voor Windows-computers
-      >     * Shift + Option + pijl-omlaag voor Mac-computers.
-
+   >     * Shift + Alt + pijl-omlaag voor Windows-computers
+   >     * Shift + Option + pijl-omlaag voor Mac-computers.
 
 
 1. (Optioneel) Als u een item dat automatisch wordt weergegeven op het tijdblad handmatig wilt vastzetten, houdt u de muisaanwijzer boven de naam van het item en klikt u op de knop **speld** pictogram ![](assets/empty-pin-icon.png).
@@ -185,26 +187,7 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    >   * Option + P voor zowel Windows- als Mac-computers.
 
 
-
 1. (Optioneel) Klik op het zoekpictogram ![](assets/search-icon.png) en beginnen een sleutelwoord te typen om een project, een taak, of een kwestie op timesheet te vinden.
-
-1. (Optioneel) U kunt een item (project, taak of uitgave) verwijderen uit de tijdlijn als u het item handmatig hebt toegevoegd (zoals beschreven in Stap 3-6) en als u nog geen tijd hebt aangemeld tegen het item door het uit te lijnen. <!--ensure this stays accurate-->
-
-   U kunt geen punten verwijderen die in timesheet volgens timesheet voorkeur in uw systeem of groep van Workfront worden omvat die worden gevormd om de timesheets (zoals beschreven in [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-   Om een punt uit timesheet te verwijderen dat manueel werd toegevoegd:
-
-   1. Zorg ervoor dat geen tijd tegen het punt wordt geregistreerd.
-   1. Klik op de knop **vrijmaken** pictogram ![Een item vastzetten](assets/pin-icon.png) naast het punt om het punt van timesheet los te maken.
-
-   >[!TIP]
-   >
-   >   Wanneer u een standaard QWERTY-toetsenbord gebruikt nadat u op een item in de tijdpagina hebt geklikt, drukt u op de volgende toetsen om het vastzetten van een item ongedaan te maken:
-   >   * Option + P voor zowel Windows- als Mac-computers.
-
-
-
-   Het item wordt verwijderd uit de tijdpagina nadat u de pagina hebt vernieuwd.
 
 1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** Selecteer een taakrol in het keuzemenu. De rol die wordt gespecificeerd wanneer u aan de het werkpuntvertoningen door gebrek wordt toegewezen. Als u geen rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -220,7 +203,6 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    >   Afhankelijk van uw besturingssysteem of browser en wanneer u een standaard QWERTY-toetsenbord gebruikt, drukt u op de volgende toetsen om nog een rij toe te voegen:
    >   * Ctrl + Option + voor Windows-computers
    >   * Cmd + Option + + voor Mac-computers
-
 
    De types van uren zijn beschikbaar afhankelijk van wat op het systeem, het project, en gebruikersniveaus, zoals die in wordt beschreven [Bepaal uurtypes en beschikbaarheid voor timesheets](define-hour-types-and-availability.md).
 
@@ -241,7 +223,6 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    >   * Cmd + Option + - voor Mac-computers
 
 
-
 1. Geef op hoeveel tijd u zich op een bepaalde dag in het tijdlijngedeelte van het tijdlijnvak wilt aanmelden en klik vervolgens buiten het uurvak om het uuritem op te slaan. De uren worden automatisch opgeslagen. De rij waarvoor u logboektijd wordt benadrukt in lichtblauw en de doos van de ureningang wordt geschetst in donkerblauw.
 
    ![Logtijdvak in tijdblad](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
@@ -253,12 +234,13 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    >U moet timesheet manueel bewaren als om het even welke volgende scenario&#39;s voorkomen:
    >
    >* De rol van de baan verbonden aan tijd die u eerder registreerde is veranderd en **Taken handmatig toewijzen aan uren** instellen is uitgeschakeld. De tijd van het registreren voor nieuwe data zal het met een verschillende baanrol associëren.
-      >   
-      >   Als de rol is gewijzigd en de **Taken handmatig toewijzen aan uren** Als deze instelling is ingeschakeld, kunt u de tijd vastleggen of de rol bijwerken en worden uw wijzigingen automatisch opgeslagen.
+   >   
+   >   Als de rol is gewijzigd en de **Taken handmatig toewijzen aan uren** Als deze instelling is ingeschakeld, kunt u de tijd vastleggen of de rol bijwerken en worden uw wijzigingen automatisch opgeslagen.
    >
    >* De taakrol die aan een taak of kwestie wordt toegewezen is verschillend dan de baanrol de timesheet eigenaar registreert tijd met <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
    >
    >De tijdpagina bespaart de tijd automatisch opnieuw wanneer er geen conflicterende ingangen meer tussen de twee rollen zijn.
+   >
 
 1. (Optioneel) Geef de hoeveelheid overwerk op in het veld Overwerk in de koptekst van het tijdblad.
 
@@ -275,7 +257,6 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    >   Als u een standaard QWERTY-toetsenbord gebruikt nadat u op het invoervak voor uren hebt geklikt, drukt u op de volgende toetsen om het opmerkingsvak te openen:
    >   * Shift + F2 voor zowel Windows- als Mac-computers.
 
-
 1. Klikken **Gereed** om de opmerking op te slaan.
 
    >[!TIP]
@@ -283,7 +264,6 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    >   Als u een standaard QWERTY-toetsenbord gebruikt, drukt u vanuit het vak Opmerking op de volgende toetsen om de opmerking op te slaan:
    >   * Ctrl + Enter voor Windows-computers.
    >   * Cmd + Return voor Mac-computers.
-
 
 
 1. (Optioneel) Klik op **Opmerkingen tonen** in de werkbalk om opmerkingen over het ingangspunt in uren weer te geven onder het werkitem.
@@ -317,6 +297,7 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
    * **Afwijzen**: Deze optie wordt weergegeven wanneer u een fiatteur van het tijdspad bent en het tijdblad ter goedkeuring aan u is voorgelegd. Als u erop klikt, wordt de status van de tijdlijn gewijzigd in Geweigerd en blijft de tijdlijn geopend.
 
    * **Goedkeuren**: Deze optie wordt weergegeven wanneer u een fiatteur van het tijdspad bent en het tijdblad ter goedkeuring aan u is voorgelegd. Als u erop klikt, wordt de status van de tijdlijn gewijzigd in Goedgekeurd en wordt de tijdlijn gesloten.
+
    >[!TIP]
    >
    >De opties Afwijzen en Goedkeuren worden ook op uw tijdspagina weergegeven wanneer u een systeembeheerder bent en het tijdsplaat is gekoppeld aan een fiatteur.
@@ -325,6 +306,33 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
 
    * **Opnieuw openen**: Deze optie is beschikbaar voor timesheets die u reeds hebt gesloten en die geen fiatteurs, of timesheets hebben die reeds zijn goedgekeurd. Open de tijdpagina opnieuw om de uren te wijzigen.
    * **Herstellen**: Deze optie is beschikbaar voor timesheets die ter goedkeuring zijn ingediend maar nog niet zijn goedgekeurd of afgewezen. Klikken **Herstellen** om timesheet opnieuw te openen en uuringangen te wijzigen.
+
+#### Een item verwijderen uit de tijdpagina
+
+U kunt een uuringang of een punt (project, taak, of kwestie) uit een timesheet verwijderen.
+
+Een uuringang uit een timesheet verwijderen:
+
+1. Ga naar timesheet en vind de uuringang u wilt verwijderen.
+1. Vervang de uren ingegaan met 0 of verwijder de uren en vervang hen met 0, dan druk binnengaan.
+
+   De uren worden verwijderd en de tijdpagina wordt automatisch opgeslagen.
+
+U kunt een punt (project, taak, of kwestie) uit timesheet verwijderen door het los te maken, als u nog niet tijd voor het hebt geregistreerd, en als u manueel het punt (zoals die in Stappen 4-8 in wordt beschreven) toevoegde [De tijd van het logboek op een timesheet](#log-time-on-a-timesheet) in dit artikel). <!--ensure this stays accurate-->
+
+U kunt geen punten verwijderen die in timesheet volgens timesheet voorkeur in uw systeem of groep van Workfront worden omvat die worden gevormd om de timesheets (zoals beschreven in [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). De punten houden pre-bevolkend timesheet op wanneer de data van de punten buiten het tijdkader van timesheet zijn.
+
+Om een punt uit timesheet te verwijderen dat manueel werd toegevoegd:
+
+1. Zorg ervoor dat geen tijd tegen het punt wordt geregistreerd.
+1. Klik op de knop **vrijmaken** pictogram ![Een item vastzetten](assets/pin-icon.png) naast het punt om het punt van timesheet los te maken.
+
+   >[!TIP]
+   >
+   >   Wanneer u een standaard QWERTY-toetsenbord gebruikt nadat u op een item in de tijdpagina hebt geklikt, drukt u op de volgende toetsen om het vastzetten van een item ongedaan te maken:
+   > * Option + P voor zowel Windows- als Mac-computers.
+
+   Het item wordt verwijderd uit de tijdpagina nadat u de pagina hebt vernieuwd.
 
 ### Home {#home}
 
@@ -365,11 +373,11 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
 
 * Een licentie voor werken of plannen.
 * Draag of hogere toestemmingen aan het project, de taak, of de kwestie met toegang tot de Uren van het Logboek bij.\
-   Voor meer informatie over het verlenen van toestemmingen op projecten, zie [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+  Voor meer informatie over het verlenen van toestemmingen op projecten, zie [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* Uw Workfront-beheerder moet de logtijd rechtstreeks inschakelen voor projecten die zijn ingesteld onder [!UICONTROL **Tijdschema en uren** ]> [!UICONTROL **Voorkeuren**], als u tijd aan een project direct wilt registreren.
+* Uw Workfront-beheerder moet de logtijd rechtstreeks inschakelen voor projecten die zijn ingesteld onder [!UICONTROL **Tijdschema en uren**]> [!UICONTROL **Voorkeuren**], als u tijd aan een project direct wilt registreren.
 
-   Voor meer informatie over het toestaan van gebruikers om uren aan projecten direct te registreren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Voor meer informatie over het toestaan van gebruikers om uren aan projecten direct te registreren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Om tijd in de sectie van Updates van een project, een taak, of een kwestie te registreren:
 
@@ -391,7 +399,7 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
 
    * **Uurtype**: Selecteer een Type van Uur van het drop-down menu, als het van getoond door gebrek verschillend is.
 
-      Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [Bepaal uurtypes en beschikbaarheid voor timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [Bepaal uurtypes en beschikbaarheid voor timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Functie**: (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** instellen, selecteert u een **Functie** in het keuzemenu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -422,16 +430,16 @@ Om tijd in de sectie van Uren van een project, een taak, of een kwestie te regis
 1. Geef de volgende informatie op:
 
    * **Eigenaar:** Standaard wordt uw naam in dit veld weergegeven.\
-      Als u de uren voor een andere gebruiker registreert, specificeer hun naam.
+     Als u de uren voor een andere gebruiker registreert, specificeer hun naam.
 
    * **Uren**: Voer het aantal uren in voor het project, de taak of de uitgave.
    * **Uurtype**: Selecteer een Type van Uur van het drop-down menu, als het van getoond door gebrek verschillend is.
 
-      Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [Bepaal uurtypes en beschikbaarheid voor timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [Bepaal uurtypes en beschikbaarheid voor timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Functie**: (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** instellen, selecteert u een **Functie** in het keuzemenu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 
 1. Klikken **Logboekuren**.
 
