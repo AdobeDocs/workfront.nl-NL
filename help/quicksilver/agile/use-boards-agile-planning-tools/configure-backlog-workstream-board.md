@@ -6,16 +6,22 @@ title: De achterstand op een werkstroomgebied configureren
 description: U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en een vraag voor de kaarten te bepalen die in de bordbacklog van de werkstroomkaartlijst worden getrokken.
 author: Lisa
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
+source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # De achterstand op een werkstroomgebied configureren
 
-U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en een vraag voor de kaarten te bepalen die in de bordbacklog van de werkstroomkaartlijst worden getrokken. Deze opties zijn niet beschikbaar op zelfstandige borden. Voor informatie over het toevoegen van een inlaatkolom aan een standalone board, zie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en een vraag voor de kaarten te bepalen die in de bordbacklog van de werkstroomkaartlijst worden getrokken.
+
+>[!NOTE]
+>
+>Als u een nieuwe kaart in de backlogkolom toevoegt die niet de vraagcriteria aanpast, zal de kaart van backlog verdwijnen wanneer de raad wordt verfrist en het zal slechts in de kaartlijst beschikbaar zijn. U kunt de vraag op elk ogenblik veranderen om aan te passen welke kaarten in de backlogkolom verschijnen.
+
+De backlogkolom en de vraag zijn niet beschikbaar op standalone borden. Voor informatie over het toevoegen van een inlaatkolom aan een standalone board, zie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Toegangsvereisten
 
@@ -55,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Een standaardvraag kan reeds op de achterstand worden toegepast, die alle het werkpunten van de kaartlijst toont die niet tot een herhaling behoren en niet in Volledige status zijn.
+   >Er kan al een standaardquery op de achtergrond worden toegepast, waarbij alle werkitems uit de kaartlijst worden weergegeven die een status hebben en de status niet Voltooid is.
 
 1. Klikken [!UICONTROL **Voorwaarde toevoegen**] en klik in het veld &quot;leeg&quot;.
 1. Selecteer het veld waarop u een query wilt uitvoeren.
