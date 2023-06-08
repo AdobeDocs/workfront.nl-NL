@@ -1,10 +1,13 @@
 ---
+content-type: reference
+navigation-topic: betas
 title: '''bèta Canvasdashboards: releaseactiviteit"'
 description: Wekelijkse releaseactiviteit voor de bètaversie van Adobe Workfront Canvas Dashboards
 author: Nolan
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+feature: Product Announcements
+source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,4 +23,4 @@ Voor algemene informatie over de bètaversie van Canvasdashboards raadpleegt u [
 
 * **Grafiekrapporten**
 
-   U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een dashboard van het Canvas, zie [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een dashboard van het Canvas, zie [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
