@@ -6,9 +6,9 @@ description: De de inhoudsblokken van het Web staan u toe om informatie van exte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De de inhoudsblokken van het Web staan u toe om informatie van externe websites 
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een webinhoud-blok toevoegen of bewerken
 
@@ -70,7 +70,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    | Ongeldige URL | De ingevoerde URL retourneert geen geldige site. |
    | Beperkingen op site van provider | De site die u wilt insluiten, is niet toegestaan. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Optioneel) Klik op de knop **Parameters doorgeven** schakelen om een lijst met beschikbare passeerparameters te openen.
 

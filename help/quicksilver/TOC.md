@@ -2,7 +2,7 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 0%
@@ -352,9 +352,9 @@ ht-degree: 0%
          * [Aangepaste SMTP verwijderen als een uitgaande e-mailoptie](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * Bètaprogramma&#39;s {#beta}
       * [Bètaprogramma&#39;s](product-announcements/betas/betas.md)
-      * Canvasbèta melden {#reporting-canvas-beta}
-         * [Overzicht van de bètaversie van Canvas rapporteren](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [Canvasbèta melden: releaseactiviteit](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * bèta van canvasdashboards {#canvas-dashboards-beta}
+         * [Overzicht van de bètaversie van Canvas rapporteren](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [bèta van canvasdashboards: releaseactiviteit](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nieuwe bètaervaring met opmerkingen {#new-commenting-experience-beta}
          * [Nieuwe bètaervaringsgegevens voor opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De gebiedsbouwer in het Melden van Canvas staat u toe om gebieden tot stand te b
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een veld met een formule maken
 
@@ -67,6 +67,6 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    | DATEDIFF | Berekent het totale aantal dagen tussen twee datums, afgerond op één decimaal. | Getal |
    | WEEKDAYDIFF | Berekent het aantal weekdagen tussen twee datums, afgerond op één decimaal. | Getal |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klik op de knop **Terug** om terug te keren naar uw tabel.

@@ -4,9 +4,9 @@ description: Een tabelkolom configureren in het rapportcanvas
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De kolommen in een lijst kunnen voor vertoning worden gevormd. U kunt de volgend
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Kolommen in een tabel wijzigen
 
@@ -45,7 +45,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    | Een kolom verplaatsen | Als u de volgorde van kolommen in een tabel wilt wijzigen, klikt u op de naam van een kolom en sleept u deze naar een nieuwe locatie. |
    | Een kolom verwijderen | Als u een kolom uit een tabel wilt verwijderen, klikt u op de kolom die u wilt verwijderen en klikt u op de x aan de rechterkant van de kolomnaam. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Als u een kolom wilt configureren, klikt u op de naam van de kolom die u wilt wijzigen in de koptekstrij van de tabel en vervolgens op een van de volgende tabbladen in het rechterdeelvenster:
 
