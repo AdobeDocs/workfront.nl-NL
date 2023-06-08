@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Verbeterde ervaring bij het verplaatsen van een document naar een gekoppelde map met slepen en neerzetten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p> 
+                        <p>Er is enige transparantie toegevoegd aan het slepen en neerzetten van een document in een gekoppelde map. Het document dat u naar een gekoppelde map hebt verplaatst, blijft nu in de documentlijst totdat het volledig is verplaatst. De documentopties zijn uitgeschakeld, maar u kunt het document nog wel openen voor weergave terwijl het wordt verplaatst. Wanneer de overdracht van het document is voltooid, verdwijnt deze uit de documentlijst omdat het document zich nu volledig in de gekoppelde map bevindt. </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 7 juni 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 15 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatisch gekoppelde mappen maken met Adobe Experience Manager Assets bij het maken van een project</a></p>
                         <p>Met de nieuwe workflow voor het maken van gekoppelde mappen voor de Adobe Experience Manager-integratie kunt u de integratie configureren met een pad naar een map Adobe Experience Manager Assets. Wanneer de integratie aan een projectmalplaatje wordt toegevoegd, zullen om het even welke projecten die van het malplaatje worden gecreeerd automatisch tot een verbonden subfolder in Experience Manager Assets in de gespecificeerde omslag leiden. </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Goedkeuring van nieuwe documenten</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor Microsoft Office-proefdrukken wijzigen</a> </p>
+                        <p>Om een robuuste en schaalbare proefdrukverwerkingsoplossing te behouden, wijzigen we onze ondersteunde Microsoft Office-bestandstypen en maximale bestandsgrootte.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 8 juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 8 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Goedkeuring van nieuwe documenten</a> </p>
                         <p>Goedkeuringen van documenten worden opnieuw ontworpen in een gefaseerde implementatie die bij elke release beschikbaar wordt gemaakt voor meer gebruikers.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaervaring voor opmerkingen voor projecten, taken en documenten</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaervaring voor opmerkingen voor projecten, taken en documenten</a> </p>
                         <p>De nieuwe bètaervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de bètaervaring voor opmerkingen alleen beschikbaar voor problemen en doelen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -352,7 +384,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Voorvertoningsrelease: 1 juni 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie:met 23.3 release</p>
+                                <p>Productieversie: Met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Verbeteringen voor nieuwe functionaliteit voor dashboard op canvas</a></p>
+                        <p>De verbeteringen aan het dashboard van het Canvas worden beschikbaar gesteld binnen het 23.3 versietijdschema. Deze verbeteringen worden, tenzij anders vermeld, beschikbaar gesteld in de productieomgeving met de release 23.3. 
+ </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: met 23.3 release (tenzij anders vermeld)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 

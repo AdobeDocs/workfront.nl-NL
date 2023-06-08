@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
 workflow-type: tm+mt
-source-wordcount: '13064'
+source-wordcount: '13069'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 0%
          * [23.3 releaseactiviteit week van 8 mei 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [23.3 releaseactiviteit week van 15 mei 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [23.3 releaseactiviteit week van 29 mei 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+         * [23.3 releaseactiviteit week van 5 juni 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
          * [Updates weergeven en voelen tijdens de releaseperiode van 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Release {#release-23-2}
          * [23.2 Overzicht van de release](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -57,11 +58,11 @@ ht-degree: 0%
          * [22.3 Overzicht van de release](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [22.3 Verbeteringen voor beheerders](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [22.3 Verbeterde integratie](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
-         * [22.3 Verbeteringen voor mobiele apparaten ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
-         * [22.3 Andere verbeteringen ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
-         * [22.3 Projectverbeteringen ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
-         * [22.3 Verbeteringen in het beheer van hulpbronnen ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
-         * [22.3 Verbeterde rapportage ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
+         * [22.3 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+         * [22.3 Andere verbeteringen](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
+         * [22.3 Projectverbeteringen](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
+         * [22.3 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+         * [22.3 Verbeterde rapportage](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [Updates weergeven en weergeven tijdens de releaseperiode van 22.3](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
       * 22.2 Release {#release-22-2}
          * [22.2 Overzicht van de release](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
