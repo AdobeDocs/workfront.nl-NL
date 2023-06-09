@@ -6,9 +6,9 @@ description: 'In Adobe Workfront kunt u documenten toevoegen aan projecten, take
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
+source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ U kunt nieuwe documenten vanuit het bestandssysteem op uw werkstation toevoegen 
 Een document toevoegen:
 
 1. Ga naar het project, de taak, of de kwestie waar u een nieuw document wilt toevoegen.
-1. Klik op de knop **Documenten** en klikt u op de knop **Nieuwe toevoegen** vervolgkeuzemenu.
+1. Klik op de knop **Documenten** en klikt u op de knop **Nieuwe toevoegen** vervolgkeuzemenu.
 
    ![](assets/add-new-350x138.png)
 
@@ -76,16 +76,17 @@ Een document toevoegen:
       <td role="rowheader">Documenten uploaden van uw bestandssysteem naar uw werkstation</td> 
       <td> 
        <ol> 
-        <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Document.</strong></li> 
+        <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Document.</strong></li> 
         <li value="2"> <p>Blader naar en selecteer het document dat u wilt toevoegen vanuit het bestandssysteem op uw werkstation.<br></p> <p>U kunt meerdere documenten selecteren door op Shift te drukken terwijl u extra bestanden selecteert.</p> </li> 
         <li value="3">Klikken <strong>Openen</strong>.</li> 
-       </ol> </td> 
+       </ol> 
+       <p><b>OPMERKING</b>: U kunt bestanden ook rechtstreeks van het bestandsbeheer naar de documentlijst slepen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documenten uploaden vanuit een externe toepassing zoals Google Drive of SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Van &lt;name_of_third-party_application&gt;</strong>.</p> <p>Als u bijvoorbeeld een document wilt uploaden vanaf Google Drive, klikt u op <strong>Van Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Van &lt;name_of_third-party_application&gt;</strong>.</p> <p>Als u bijvoorbeeld een document wilt uploaden vanaf Google Drive, klikt u op <strong>Van Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Volg de aanwijzingen om het document te selecteren in de externe toepassing.<br></p> <p>Zie voor meer informatie over gekoppelde documenten <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Documenten van externe toepassingen koppelen</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -93,7 +94,7 @@ Een document toevoegen:
       <td role="rowheader">Een document aanvragen bij een andere Workfront-gebruiker</td> 
       <td> 
        <ol> 
-        <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Een document aanvragen</strong>.</li> 
+        <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Een document aanvragen</strong>.</li> 
         <li value="2">In de <strong>Wie vraagt u het bij</strong> typt u de naam van de gebruiker van wie u het document aanvraagt.</li> 
         <li value="3">In de <strong>Vertel ze wat je vraagt</strong> typt u de naam van het document.</li> 
         <li value="4"> <p>Klikken <strong>Aanvraag verzenden</strong>.</p> <p>Uw verzoek wordt weergegeven op het tabblad Documenten.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Voor meer informatie over het aanvragen van documenten raadpleegt u <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Een document aanvragen</a>.</p> </li> 

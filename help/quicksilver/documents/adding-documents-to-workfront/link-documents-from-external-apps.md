@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit de volgende bronnen koppelen aan
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 0ecee45183f5bc77a1c4a489013e486d8c26094c
+source-git-commit: 5122914acd0ae0fdfb8a5ae7319075ce1072962e
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
 
 Voordat u documenten of mappen koppelt, moet uw Workfront-beheerder deze functionaliteit inschakelen voor elke documentprovider of voor een aangepaste documentintegratie, zoals beschreven in [Documentintegratie configureren](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-Documenten die zijn gekoppeld aan een externe cloud, kunt u op dezelfde manier controleren en goedkeuren als documenten die rechtstreeks naar Workfront zijn geüpload. 
+Documenten die zijn gekoppeld aan een externe cloud, kunt u op dezelfde manier controleren en goedkeuren als documenten die rechtstreeks naar Workfront zijn geüpload.
 
 ## Toegangsvereisten
 
@@ -89,7 +89,7 @@ Documenten die vanuit een externe toepassing aan Workfront zijn gekoppeld, worde
 De volgende uitzonderingen zijn van toepassing:
 
 * Als deze service de documentservice biedt, worden miniaturen en voorvertoningsafbeeldingen mogelijk opgeslagen op Workfront-servers.
-* Wanneer u proef in Workfront gebruikt, wordt het document gekopieerd en toegevoegd aan de proefdrukservers. 
+* Wanneer u proef in Workfront gebruikt, wordt het document gekopieerd en toegevoegd aan de proefdrukservers.
 
 ## Een document van een externe toepassing koppelen aan Workfront
 
@@ -133,17 +133,19 @@ U kunt documenten vanuit een externe toepassing, zoals Google en Microsoft OneDr
 
    Hoewel u meerdere documenten kunt selecteren, worden alleen documenten die in de huidige weergave zijn geselecteerd, gekoppeld. Als u bijvoorbeeld een document selecteert en vervolgens naar een map gaat, wordt het oorspronkelijk geselecteerde document niet gekoppeld.
 
-1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op de knop **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
+1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op de knop **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
 
    >[!NOTE]
-   Workfront DAM-klanten kunnen miniaturen weergeven wanneer ze documenten van Workfront DAM koppelen. Miniaturen kunnen ook worden weergegeven voor Workfront DAM-klanten voor andere services, zoals Dropbox en Box. Het weergeven van miniaturen voor andere services dan Workfront DAM in Workfront wordt echter niet ondersteund en er worden nooit miniaturen weergegeven wanneer u documenten koppelt van SharePoint of Google Drive.
+   >
+   >Workfront DAM-klanten kunnen miniaturen weergeven wanneer ze documenten van Workfront DAM koppelen. Miniaturen kunnen ook worden weergegeven voor Workfront DAM-klanten voor andere services, zoals Dropbox en Box. Het weergeven van miniaturen voor andere services dan Workfront DAM in Workfront wordt echter niet ondersteund en er worden nooit miniaturen weergegeven wanneer u documenten koppelt van SharePoint of Google Drive.
 
 1. Klikken **Koppeling**.
 
    In Workfront wordt het pictogram van de cloudprovider naast de documenten weergegeven.
 
    >[!NOTE]
-   Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
+   >
+   >Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
 
 ### Een nieuwe versie van een gekoppeld document toevoegen {#add-a-new-version-of-a-linked-document}
 
@@ -152,7 +154,8 @@ U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een documen
 1. Ga naar de **Documenten** het gekoppelde document.
 
    >[!IMPORTANT]
-   Het document moet zich buiten een gekoppelde map bevinden om een nieuwe versie te kunnen maken.
+   >
+   >Het document moet zich buiten een gekoppelde map bevinden om een nieuwe versie te kunnen maken.
 
 1. Klikken **Nieuwe toevoegen** > **Versie** en klikt u op de externe documentprovider.
 
@@ -171,25 +174,27 @@ U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een documen
 
    Blader naar de documenten die u wilt koppelen en selecteer deze.
 
-   U kunt meerdere documenten selecteren; alleen documenten die in de huidige weergave zijn geselecteerd, worden echter gekoppeld. Als u bijvoorbeeld een document selecteert en vervolgens naar een map gaat, wordt het oorspronkelijk geselecteerde document niet gekoppeld.
+   U kunt meerdere documenten selecteren; alleen documenten die in de huidige weergave zijn geselecteerd, worden echter gekoppeld. Als u bijvoorbeeld een document selecteert en vervolgens naar een map gaat, wordt het oorspronkelijk geselecteerde document niet gekoppeld.
 
-1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op de knop **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
+1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op de knop **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
 
    >[!NOTE]
-   Workfront DAM-klanten kunnen miniaturen weergeven wanneer ze documenten van Workfront DAM koppelen. Miniaturen kunnen ook worden weergegeven voor Workfront DAM-klanten voor andere services, zoals Dropbox en Box. Het weergeven van miniaturen voor andere services dan Workfront DAM in Workfront wordt echter niet ondersteund en er worden nooit miniaturen weergegeven wanneer u documenten koppelt van SharePoint of Google Drive.
+   >
+   >Workfront DAM-klanten kunnen miniaturen weergeven wanneer ze documenten van Workfront DAM koppelen. Miniaturen kunnen ook worden weergegeven voor Workfront DAM-klanten voor andere services, zoals Dropbox en Box. Het weergeven van miniaturen voor andere services dan Workfront DAM in Workfront wordt echter niet ondersteund en er worden nooit miniaturen weergegeven wanneer u documenten koppelt van SharePoint of Google Drive.
 
 1. Klikken **Koppeling**.
 
    In Workfront verschijnt het pictogram van de cloudprovider naast de documenten om aan te geven dat deze zijn gekoppeld aan de externe cloudprovider.
 
    >[!NOTE]
-   Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
+   >
+   >Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
 
 Voor informatie over het toevoegen van een nieuwe versie van een document dat u vanuit uw bestandssysteem naar Workfront hebt geüpload, raadpleegt u [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Workfront Proefdocumenten koppelen {#link-workfront-proof-documents}
 
-U kunt proefdrukken koppelen aan Workfront die oorspronkelijk in Workfront Proof bestond. Als u een proefdruk van Workfront Proof koppelt, zijn alle opmerkingen en andere metagegevens die bij de proefdruk horen, beschikbaar in Workfront. 
+U kunt proefdrukken koppelen aan Workfront die oorspronkelijk in Workfront Proof bestond. Als u een proefdruk van Workfront Proof koppelt, zijn alle opmerkingen en andere metagegevens die bij de proefdruk horen, beschikbaar in Workfront.
 
 U kunt alleen proefdrukken koppelen waarvoor u toegang tot Weergave hebt in Workfront Proof.
 
@@ -197,7 +202,8 @@ U kunt alleen proefdrukken koppelen waarvoor u toegang tot Weergave hebt in Work
 1. Klikken **Nieuwe toevoegen** en klik vervolgens op **Proef van Workfront**.
 
    >[!NOTE]
-   De opties in dit menu kunnen variëren afhankelijk van welke externe providers in uw omgeving zijn geconfigureerd.
+   >
+   >De opties in dit menu kunnen variëren afhankelijk van welke externe providers in uw omgeving zijn geconfigureerd.
 
 1. In de **Koppeling** proefdrukken **van** Het vak Workfront-proef dat wordt weergegeven, typt u de naam van de proefdruk die u in Workfront beschikbaar wilt maken.
 
@@ -224,7 +230,8 @@ U kunt een nieuw Google-document maken vanuit Workfront. U kunt geen nieuwe docu
    Een Google-document wordt toegevoegd aan de **Documenten** tab.
 
    >[!NOTE]
-    Mijn Drive en Gedeeld met mij geven twee verschillende resultaten. Als u geen bestand kunt vinden in Mijn station, checkt u de map Gedeeld met mij in.
+   >
+   > Mijn Drive en Gedeeld met mij geven twee verschillende resultaten. Als u geen bestand kunt vinden in Mijn station, checkt u de map Gedeeld met mij in.
 
 ## Een document van Workfront bijwerken en koppelen aan een externe cloud provider
 
@@ -263,9 +270,9 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 * Wanneer iemand toegang krijgt tot inhoud in een gekoppelde map in Workfront (zoals een submap in een gekoppelde map) die door een andere gebruiker aan Workfront is gekoppeld, wordt de inhoud gesynchroniseerd met Workfront met behulp van de Workfront-aanmeldingsgegevens van de gebruiker die de map oorspronkelijk heeft gekoppeld, niet met de gegevens van de gebruiker die de inhoud benadert.
 
 >[!IMPORTANT]
-* Als de gebruiker die de map oorspronkelijk heeft gekoppeld, uit het Workfront-systeem wordt verwijderd, kunnen gebruikers geen inhoud meer openen in de gekoppelde map via Workfront. In dit geval moet de map opnieuw worden gekoppeld door een actieve Workfront-gebruiker die rechten heeft op de map in de externe toepassing.
-* Als de gebruiker die een map heeft gekoppeld, geen toegang meer heeft tot de externe toepassing, heeft Workfront geen toegang meer tot de inhoud van de map. Dit kan bijvoorbeeld gebeuren als de gebruiker die oorspronkelijk de map had gekoppeld het bedrijf verlaat. Een gebruiker met toegang tot de map moet de map opnieuw koppelen om ervoor te zorgen dat hij of zij toegang kan blijven krijgen.
-
+>
+>* Als de gebruiker die de map oorspronkelijk heeft gekoppeld, uit het Workfront-systeem wordt verwijderd, kunnen gebruikers geen inhoud meer openen in de gekoppelde map via Workfront. In dit geval moet de map opnieuw worden gekoppeld door een actieve Workfront-gebruiker die rechten heeft op de map in de externe toepassing.
+>* Als de gebruiker die een map heeft gekoppeld, geen toegang meer heeft tot de externe toepassing, heeft Workfront geen toegang meer tot de inhoud van de map. Dit kan bijvoorbeeld gebeuren als de gebruiker die oorspronkelijk de map had gekoppeld het bedrijf verlaat. Een gebruiker met toegang tot de map moet de map opnieuw koppelen om ervoor te zorgen dat hij of zij toegang kan blijven krijgen.
 
 ### Een of meer externe mappen koppelen {#link-one-or-more-external-folders}
 
@@ -285,7 +292,8 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
    U kunt meerdere mappen selecteren; alleen de mappen die in de huidige weergave zijn geselecteerd, worden echter gekoppeld. Als u bijvoorbeeld een map selecteert en vervolgens naar een map gaat, wordt de oorspronkelijk geselecteerde map niet gekoppeld.
 
    >[!NOTE]
-   Als u mappen koppelt vanaf Google Drive, kunt u alleen mappen koppelen die zich op uw persoonlijke schijf (Mijn schijf) en op de teamschijf bevinden. U kunt geen mappen van het gebied Gedeeld met mij koppelen.
+   >
+   >Als u mappen koppelt vanaf Google Drive, kunt u alleen mappen koppelen die zich op uw persoonlijke schijf (Mijn schijf) en op de teamschijf bevinden. U kunt geen mappen van het gebied Gedeeld met mij koppelen.
 
 1. Klikken **Koppeling**.
 
@@ -310,26 +318,32 @@ U kunt een nieuwe map maken in een bestaande gekoppelde map. U kunt ook een ande
    ![](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
-   De volgende beperkingen gelden voor het slepen van een bestaande Workfront-map naar een gekoppelde map:
-   * De map die u sleept, kan nog niet worden gekoppeld en kan geen inhoud bevatten die al is gekoppeld.
-   * De map (inclusief de inhoud) die u sleept, mag niet groter zijn dan 50 MB.
-
+   >
+   >De volgende beperkingen gelden voor het slepen van een bestaande Workfront-map naar een gekoppelde map:
+   >
+   >* De map die u sleept, kan nog niet worden gekoppeld en kan geen inhoud bevatten die al is gekoppeld.
+   >* De map (inclusief de inhoud) die u sleept, mag niet groter zijn dan 50 MB.
 
 ## Een document toevoegen aan een gekoppelde map
 
 Als u via Workfront een document aan een gekoppelde map toevoegt, wordt dit automatisch toegevoegd als een gekoppeld document.
 
-1. In de **Documenten** in het gewenste gebied voor het document sleept u het document naar een gekoppelde map.
+1. Selecteer de gekoppelde map waarin u het document wilt plaatsen en klik op **Nieuw toevoegen > Document** Blader naar het document en voeg het toe aan de map.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/documents-linked-document-move-nwe-350x126.png" style="width: 350;height: 126;">Selection box is wonky on the left<br></p>
-   -->
+
 
    of
 
-   Selecteer de gekoppelde map waarin u het document wilt plaatsen en klik op **Nieuw toevoegen > Document** Blader naar het document en voeg het toe aan de map.
+   In de **Documenten** in het gewenste gebied voor het document sleept u het document naar een gekoppelde map.
 
    Er wordt automatisch een nieuwe versie van het document gemaakt in de externe toepassing en gekoppeld aan Workfront.
+
+>[!NOTE]
+>
+> * De documentopties zijn niet beschikbaar wanneer het document wordt verplaatst. Nadat het document naar Experience Manager Assets is verplaatst, is het niet meer zichtbaar in de documentlijst in Workfront.
+>
+> * Handelingen of bewerkingen die u tijdens het verplaatsen in het document aanbrengt, worden niet in het document in Experience Manager Assets weergegeven en gaan daarom verloren.
+
 
 ## Een gekoppeld document of een gekoppelde map verwijderen
 
@@ -347,4 +361,5 @@ Wanneer u de naam van een gekoppeld document of een gekoppelde map wijzigt, is d
 Als u wilt dat de naam overeenkomt in Workfront en in de externe toepassing, moet u de naam op beide plaatsen wijzigen.
 
 >[!IMPORTANT]
-Wijzig de naam niet van een document in Workfront dat is gekoppeld aan Dropbox; hierdoor wordt het bestand in Workfront ontoegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw, zoals beschreven in [Documenten van externe toepassingen koppelen](#synchronizing-changes-made-on-a-linked-document).
+>
+>Wijzig de naam niet van een document in Workfront dat is gekoppeld aan Dropbox; hierdoor wordt het bestand in Workfront ontoegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw, zoals beschreven in [Documenten van externe toepassingen koppelen](#synchronizing-changes-made-on-a-linked-document).

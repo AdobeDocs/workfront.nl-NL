@@ -6,9 +6,9 @@ description: U kunt documenten vanuit Workfront naar Experience Manager Assets o
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 91da06fe23b464e0422d50b0db69f4eae3db642f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -103,3 +103,21 @@ De meest recente versie verzenden:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klikken **Opslaan**. De nieuwe versie slaat op dezelfde locatie op als de vorige versie.
+
+## Een document naar een gekoppelde map in Experience Manager Assets verplaatsen
+
+>[!NOTE]
+>
+>Deze functionaliteit is alleen beschikbaar voor Experience Manager Assets as a Cloud Service. Deze is niet beschikbaar voor Experience Manager Assets Essentials.
+
+U kunt een document naar een gekoppelde map in Experience Manager Assets verplaatsen als zowel het document als de gekoppelde map zich in dezelfde documentlijst bevinden (zoals het documentgebied van een project).
+
+1. Zoek het document dat u wilt verplaatsen.
+1. Sleep het document naar de gekoppelde Experience Manager Assets-map waarnaar u het wilt verplaatsen.
+
+De documentopties zijn niet beschikbaar wanneer het document wordt verplaatst. Nadat het document naar Experience Manager Assets is verplaatst, is het niet meer zichtbaar in de documentlijst in Workfront.
+
+>[!NOTE]
+>
+> Handelingen of bewerkingen die u tijdens het verplaatsen in het document aanbrengt, worden niet in het document in Experience Manager Assets weergegeven en gaan daarom verloren.
+
