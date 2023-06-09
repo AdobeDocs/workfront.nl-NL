@@ -6,13 +6,13 @@ title: Adobe Workfront Proof met 23.3 release
 description: Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Proof in de nieuwe Adobe Workfront-ervaring die met de release 23.3 wordt vrijgegeven voor de productieomgeving.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
+source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Proof met 23.3 release
 
@@ -34,9 +34,25 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
                         </p>
                     </td>
                 </tr>
-                <tr>
+                </tr>
+                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing Viewer-update</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor Microsoft Office-proefdrukken wijzigen</a><span style="color: #ff0000;"> Nieuw in productie!</span> </p>
+                        <p>Om een robuuste en schaalbare proefdrukverwerkingsoplossing te behouden, wijzigen we onze ondersteunde Microsoft Office-bestandstypen en maximale bestandsgrootte.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 8 juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 8 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing Viewer-update</a></p>
                         <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.24! Deze update bevat Chrome v100-ondersteuning voor het controleren van interactieve proefdrukken en een aantal probleemoplossingen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
