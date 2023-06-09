@@ -9,7 +9,7 @@ description: Met de [!DNL Adobe Campaign Classic] modules, kunt u beginnen [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 482725764ede6b2700985fa67dc2cb9f92d3bb12
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Deze geplande trekkermodule begint een scenario wanneer een verslag verandert.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
@@ -128,7 +128,7 @@ Deze actiemodule maakt een nieuwe record in [!DNL Adobe Campaign Classic].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -155,7 +155,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Campaign Classi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Action]</td>
@@ -191,7 +191,7 @@ Met deze actiemodule verwijdert u één record uit [!DNL Adobe Campaign Classic]
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -217,7 +217,7 @@ Voor informatie over specifieke acties en velden raadpleegt u [[!DNL Adobe Campa
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -244,7 +244,7 @@ Deze actiemodule leest een record uit [!DNL Adobe Campaign Classic].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -276,7 +276,7 @@ Deze actiemodule abonneert een gebruiker aan of unsubscribes een gebruiker van e
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subscribe or unsubscribe]</td> 
@@ -303,7 +303,7 @@ Deze actiemodule werkt één record bij in [!DNL Adobe Campaign Classic].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -336,7 +336,7 @@ Deze zoekmodule retourneert records die op de opgegeven criteria zijn gebaseerd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
+   <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Campaign Classic], zie <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >Verbinding maken met [!DNL Adobe Campaign Classic]</a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
