@@ -7,7 +7,7 @@ description: De geplande uren verbonden aan een taak, een kwestie, of een projec
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c535f5dff5ccc1e77b097a871c4e0460958a482f
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 0%
@@ -26,7 +26,7 @@ De geplande uren verbonden aan een taak, een kwestie, of een project vertegenwoo
 * U moet de waarde van Geplande Uren voor taken en kwesties bepalen als u de hulpmiddelen van het Beheer van Middelen in Workfront wilt gebruiken.
 * U kunt de waarde van Geplande Uren op taken slechts voor sommige Types van Duur wijzigen.
 
-   Voor meer informatie over het wijzigen van Geplande Uren op taken met betrekking tot het Type van Duur van de taken, zie de sectie [Taak geplande uren bijwerken op basis van het type duur](#update-task-planned-hours-based-on-duration-type) in dit artikel.
+  Voor meer informatie over het wijzigen van Geplande Uren op taken met betrekking tot het Type van Duur van de taken, zie de sectie [Taak geplande uren bijwerken op basis van het type duur](#update-task-planned-hours-based-on-duration-type) in dit artikel.
 
 * U kunt de waarde van Geplande Uren op kwesties op elk ogenblik wijzigen.
 * U kunt de waarde van Geplande Uren van projecten of oudertaken niet wijzigen, aangezien zij een berekend totaal van alle Geplande Uren van al hun taken en subtaken zijn.
@@ -45,7 +45,7 @@ Deze sectie beschrijft verschillen tussen de taak en project Geplande Uren. Het 
 
 De geplande uren van een taak geven aan hoeveel tijd naar schatting nodig is om de taak daadwerkelijk uit te voeren. Standaard verdeelt Workfront het totale aantal geplande uren voor elke dag binnen de duur van elke taak gelijkmatig. De dagelijkse hoeveelheid geplande uren wordt de dagelijkse toewijzingen voor de taak. Als de taak aan veelvoudige middelen wordt toegewezen, wordt elk middel toegewezen een gelijke hoeveelheid dagelijkse uren, door gebrek.
 
-Met de werklastbalans kunt u de dagelijkse toewijzingen wijzigen voor de gebruikers die aan de taken zijn toegewezen. Dit kan ook de Geplande Uren van de taak bijwerken wanneer het Type van de Duur van de taak Eenvoudig is. Zie de sectie &quot;Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen&quot; in het artikel voor meer informatie [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Met de werklastbalans kunt u de dagelijkse toewijzingen wijzigen voor de gebruikers die aan de taken zijn toegewezen. Dit kan ook de Geplande Uren van de taak bijwerken wanneer het Type van de Duur van de taak Eenvoudig is. Zie de sectie &quot;Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen&quot; in het artikel voor meer informatie [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Wanneer een taak subtaken bevat, is de Geplande Uren van de oudertaak de som alle Geplande Uren op om het even welke subtaken. U kunt de geplande uren van een bovenliggende taak niet bijwerken.
 
@@ -60,10 +60,10 @@ U kunt de hoeveelheid geplande uren voor een project niet bewerken. De geplande 
 
 Of de kwesties in de berekening voor Geplande Uren inbegrepen zijn hangt van de plaats binnen het project af waar u Geplande Uren bekijkt. U kunt project Gepland Uren in de volgende plaatsen binnen een project bekijken:
 
-* **Projectdetails** **sectie** ****en de **Project bewerken**box **:**Alleen de geplande uren voor de taken in verband met het project worden in aanmerking genomen. De geplande uren voor de kwesties op het project worden niet in aanmerking genomen wanneer het bekijken van het totale aantal Geplande Uren voor het project in de sectie van de Details van het Project of het Edit vakje van het Project.
+* **De sectie Projectdetails en het vak Project bewerken**: Alleen de geplande uren voor de taken in verband met het project worden in aanmerking genomen. De geplande uren voor de kwesties op het project worden niet in aanmerking genomen wanneer het bekijken van het totale aantal Geplande Uren voor het project in de sectie van de Details van het Project of het Edit vakje van het Project.
 
-* **De **Workload Balancer: Alleen de geplande uren die zijn gekoppeld aan de taken die zichtbaar zijn in de weergave Werklastbalans in Workload Balancer voor projecten. De dagelijkse toewijzingen van gebruikers kunnen de dagelijks geplande uren van het project in de Werklastbalans veranderen.
-* **Gebruikssectie:** Met de geplande uren die zijn gekoppeld aan de gebruikers die zijn toegewezen aan de taken en de problemen met betrekking tot het project, wordt rekening gehouden bij het bekijken van het totale aantal geplande uren voor het project in de sectie Gebruik.
+* **De werklastbalans**: Alleen de geplande uren die zijn gekoppeld aan de taken die zichtbaar zijn in de weergave Werklastbalans in Workload Balancer voor projecten. De dagelijkse toewijzingen van gebruikers kunnen de dagelijks geplande uren van het project in de Werklastbalans veranderen.
+* **Gebruikssectie**: De geplande uren die zijn gekoppeld aan de gebruikers die zijn toegewezen aan de taken en de problemen met betrekking tot het project, worden in aanmerking genomen bij het bekijken van het totale aantal geplande uren voor het project in de sectie Gebruik.
 * **Deelvenster Roltoewijzing** in de takenlijst: De geplande uren voor de taken en de kwesties op het project die aan een baanrol of een gebruiker verbonden aan een baanrolvertoning in dit gebied worden toegewezen. De geplande uren verbonden aan taken en kwesties die unassigned of toegewezen aan teams zijn tonen niet op dit gebied. Zie voor meer informatie [Geplande uren van project weergeven in het deelvenster Roltoewijzing](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
 ## Verdeling van geplande uren over de duur van een taak
@@ -154,9 +154,9 @@ De volgende Geplande Uren voor taken, kwesties, en projecten tonen in de Balance
 * Voor taken en kwesties, de Geplande Uren verbonden aan hen toont.
 * Voor projecten, een totaal van Geplande Uren van de taken en kwesties zichtbaar op de het schermvertoning.
 
-   >[!TIP]
-   >
-   >In Workload Balancer worden niet alle geplande uren van een project weergegeven als zichtbaar in het gebied met projectdetails.
+  >[!TIP]
+  >
+  >In Workload Balancer worden niet alle geplande uren van een project weergegeven als zichtbaar in het gebied met projectdetails.
 
 U kunt de dagelijkse toewijzing van Geplande Uren voor elke gebruiker bekijken die aan een taak of een kwestie in de Balancer van de Werkbelasting wordt toegewezen.
 
@@ -165,7 +165,7 @@ De dagelijkse hoeveelheid geplande uren in uren is een van de volgende: 
 * het standaardbedrag gelijk verdeeld door Workfront voor elke dag van de Duur van de taken, de kwesties, of het project
 * de aangepaste dagelijkse toewijzing die door de grondstoffenbeheerders wordt beheerd.
 
-   Voor informatie over het aanpassen van dagelijkse toewijzingen in de werklastbalans raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Voor informatie over het aanpassen van dagelijkse toewijzingen in de werklastbalans raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### De bronnenplanner {#the-resource-planner}
 
@@ -181,12 +181,12 @@ U kunt wekelijkse toewijzingen van Geplande Uren voor de gebruikers en baanrolle
 
 Het aantal geplande uren voor elk object is afhankelijk van de weergave die u toepast op de bronnenplanner. Zie voor meer informatie [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-De hoeveelheid geplande uren per week voor taken en uitgaven is een van de volgende: 
+De hoeveelheid geplande uren per week voor taken en uitgaven is een van de volgende:
 
 * het wekelijkse standaardbedrag dat Workfront gelijkelijk over elke dag van de Duur van de taken of emissies uitkeert
 * de aangepaste wekelijkse toewijzing die door middelmanagers in de Balancer van de Werklast wordt beheerd.
 
-   Voor informatie over het aanpassen van dagelijkse toewijzingen in de werklastbalans raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Voor informatie over het aanpassen van dagelijkse toewijzingen in de werklastbalans raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Het wekelijkse bedrag voor projecten, gebruikers en rollen wordt beïnvloed door de wekelijkse hoeveelheden geplande uren voor de taken en kwesties die ermee verband houden.
 
@@ -203,7 +203,7 @@ U kunt de volgende typen geplande uren weergeven in het gebruiksrapport:
 * de totale geplande uren van alle toewijzingen voor het project gedurende de totale looptijd van de opgenomen projecten
 * het totale aantal geplande uren van alle toewijzingen alleen voor het opgegeven datumbereik (u kunt een afzonderlijke week of maand opgeven).
 
-   Wanneer de dagelijkse toewijzing van de gebruiker voor uren is aangepast met behulp van Werklastbalans, kunnen de Geplande Uren voor een specifieke datumwaaier worden beïnvloed als de data die in het rapport van het Gebruik worden geselecteerd slechts een deel van de Duur van een taak of van de kwestie bevatten. Voor informatie over het aanpassen van dagelijkse toewijzingen voor gebruikers raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Wanneer de dagelijkse toewijzing van de gebruiker voor uren is aangepast met behulp van Werklastbalans, kunnen de Geplande Uren voor een specifieke datumwaaier worden beïnvloed als de data die in het rapport van het Gebruik worden geselecteerd slechts een deel van de Duur van een taak of van de kwestie bevatten. Voor informatie over het aanpassen van dagelijkse toewijzingen voor gebruikers raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Zie voor meer informatie [Informatie over bronnengebruik weergeven](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
@@ -212,6 +212,7 @@ Zie voor meer informatie [Informatie over bronnengebruik weergeven](../../../res
 De geplande uren in het deelvenster Roltoewijzing geven het aantal geplande uren weer dat is gekoppeld aan elke taakrol die is toegewezen aan de taken of problemen van het project voor de totale duur van het project. Het aantal past de rol Geplande Uren van de Planner van het Middel aan.
 
 >[!TIP]
+>
 De geplande uren die aan gebruikers zijn gekoppeld, worden niet weergegeven in het deelvenster Roltoewijzing.
 
 Zie voor meer informatie [Roltoewijzing voor projecten en initiatieven weergeven in Workload Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md).
@@ -224,16 +225,16 @@ De volgende scenario&#39;s bestaan:
 
 * U kunt Geplande Uren voor taken slechts wijzigen wanneer het gebruiken van de Berekende Toewijzing of de Eenvoudige Types van Duur wanneer het uitgeven van een taak.
 
-   Voor meer informatie over het Berekende Type van Duur van de Toewijzing, zie [Overzicht van het type duur: Berekende toewijzing](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
+  Voor meer informatie over het Berekende Type van Duur van de Toewijzing, zie [Overzicht van het type duur: Berekende toewijzing](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
 
-   Voor meer informatie over het Eenvoudige Type van Duur, zie [Overzicht van het type duur: Eenvoudig](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+  Voor meer informatie over het Eenvoudige Type van Duur, zie [Overzicht van het type duur: Eenvoudig](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
 * U kunt taken die gepland zijn in de werklastbalans alleen bijwerken voor eenvoudige taken van het type Duur wanneer u de toewijzingen van gebruikers aan taken beheert. Voor informatie over het beheren van gebruikerstoewijzingen in het werklastevenwicht raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 * U kunt de geplande uren voor taken met een Duur Type van Gedreven of Berekend Werk niet wijzigen. In deze gevallen bepaalt Workfront de geplande uren op basis van de duur van de taak. in dit geval zijn de geplande uren echter altijd gelijk aan de duur (in uren) en worden zij niet beïnvloed door de procentuele toewijzing van de toegewezen middelen.
 
-   Voor meer informatie over het type Gedreven duur van de inspanning, zie [Overzicht van het type duur: Inzet gedreven](../../../manage-work/tasks/taskdurtn/effort-driven.md).
+  Voor meer informatie over het type Gedreven duur van de inspanning, zie [Overzicht van het type duur: Inzet gedreven](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
-   Voor meer informatie over het Berekende Type van Duur van het Werk, zie [Overzicht van het type duur: Berekend werk](../../../manage-work/tasks/taskdurtn/calculated-work.md).
+  Voor meer informatie over het Berekende Type van Duur van het Werk, zie [Overzicht van het type duur: Berekend werk](../../../manage-work/tasks/taskdurtn/calculated-work.md).
 
 ## Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen
 
@@ -256,10 +257,11 @@ De volgende scenario&#39;s bestaan wanneer manueel het bijwerken van gebruiker o
 * Wanneer u de toewijzingen handmatig hebt bijgewerkt om een wijziging in de geplande uren te activeren en u alle toewijzingen voor de taak verwijdert, worden ook de geplande uren verwijderd en de geplande uren van de taak 0.
 
 >[!NOTE]
+>
 Als een taak bijvoorbeeld 10 geplande uren heeft en u twee toewijzingen hebt, worden deze elk toegewezen aan 5 uur, standaard.
+>
 * Als u de individuele gebruikerstoewijzing of de dagelijkse toewijzingen niet bijwerkt gebruikend de Balancer van de Werkbelasting en u om het even welke of alle toegewezen personen uit de taak verwijdert, blijven de taak Gepland Uren 10 uren.
 * Als u de toewijzingen handmatig wijzigt in respectievelijk 4 en 6 uur en u de gebruiker verwijdert die is toegewezen aan 6 uur en hun functie, wordt de taak Geplande uren bijgewerkt naar 4 uur. Als u ook de gebruiker verwijdert die aan 4 uren wordt toegewezen maar de baanrol verbonden aan de verwijderde gebruiker houdt, blijven de Geplande Uren van de taak 4 uren. Als u de laatste gebruiker verwijdert die aan 4 uren evenals hun baanrol wordt toegewezen en de taak niet toegewezen blijft, wordt de taak Geplande Uren van de taak 0.
-
 
 
 
