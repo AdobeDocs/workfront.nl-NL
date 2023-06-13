@@ -5,24 +5,25 @@ title: Overzicht van dashboards van canvas
 description: U kunt Canvasdashboards tot stand brengen die het Melden van de visualisaties van het Canvas met traditionele rapporten en eigenschapnieuwe lay-outopties integreren.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
+source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van dashboards van canvas
 
 Canvasdashboards, een functie die momenteel wordt ontwikkeld voor dashboards, biedt een nieuwe optie voor het bouwen van effectieve dashboards in Workfront. De dashboards van het canvas zullen het Melden van de visualisaties van het Canvas toe om met bestaande rapporten gemakkelijk worden omvat, die verhoogde flexibiliteit evenals nieuwe lay-outopties verstrekken.
 
 Deze functie is in ontwikkeling en biedt nog geen ondersteuning voor:
-* grafiekrapporten
 * externe pagina&#39;s
 * kalenderintegratie
 * gemelde rapporten
 * distribueren via lay-outsjablonen
+
+Voor een volledige lijst met functies die zijn toegevoegd aan de Canvasdashboards gaat u naar [Canvasdashboards: releaseactiviteit](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Canvasdashboards openen
 

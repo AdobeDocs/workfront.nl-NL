@@ -6,9 +6,9 @@ description: U kunt een proefdocument delen in Adobe Workfront door het document
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Als u een proefdrukkoppeling deelt, kunnen Workfront-gebruikers toegang bekijken
 
    * Als u de koppeling naar het klembord wilt kopiëren, klikt u op **Koppeling kopiëren**.
 
-      U kunt de koppeling nu distribueren via een hulpprogramma van derden, zoals een chat of een e-mailtoepassing.
+     U kunt de koppeling nu distribueren via een hulpprogramma van derden, zoals een chat of een e-mailtoepassing.
 
    * Ga als volgt te werk om de koppeling rechtstreeks vanuit Adobe Workfront te e-mailen:
 
@@ -114,6 +114,13 @@ Als u een proefdrukkoppeling deelt, kunnen Workfront-gebruikers toegang bekijken
 
 U kunt elke Workfront-gebruiker aan de proefdruk toevoegen als u bewerkingsrechten hebt op de proefdruk. Als de proefdruk meerdere fasen heeft, voegt u de gebruiker aan een afzonderlijk werkgebied toe
 
+>[!WARNING]
+>
+>Naast de methoden die in dit artikel worden vermeld, is het mogelijk gebruikers aan een proef toe te voegen door hen in een commentaar van het lusje van Updates van een bestaande proef te etiketteren. Gebruikers die op deze manier aan een proefdruk zijn toegevoegd, ontvangen echter geen e-mailbericht tenzij ze opnieuw worden gelabeld nadat ze aan de proefdrukworkflow zijn toegevoegd.
+>
+>Daarom raden we u aan gebruikers aan een proefdruk toe te voegen aan de hand van een van de onderstaande methoden, en niet door ze in een opmerking te labelen.
+>
+
 >[!NOTE]
 >
 >Houd rekening met het volgende als u een verouderd Workfront-plan gebruikt waarin proefdrukken voor een gebruiker kan worden in- en uitgeschakeld:
@@ -121,7 +128,6 @@ U kunt elke Workfront-gebruiker aan de proefdruk toevoegen als u bewerkingsrecht
 >* De ontvangers hoeven geen proef te hebben toegelaten om de proef te herzien.
 >* Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. (Zie voor meer informatie [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
-
 
 ### Gebruikers toevoegen aan een bestaande proefdruk via het tabblad Documenten
 

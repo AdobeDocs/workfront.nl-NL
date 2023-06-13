@@ -7,9 +7,9 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ U kunt verschillende bestandstypen delen en reviseren met uw revisoren, zelfs al
 Workfront heeft de volgende limieten:
 
 * Bestanden moeten kleiner zijn dan 4 GB per bestand.
+* Microsoft Word- (DOC, DOCX) en PowerPoint-bestanden (PPT, PPTX) moeten kleiner zijn dan 512 MB.
 * XLS- en XLSX-bestanden moeten kleiner zijn dan 100 MB.
 * Bestanden die zijn gekoppeld aan opmerkingen op proefdrukken, moeten kleiner zijn dan 30 MB.
 * PNG-bestanden moeten een hoogte en breedte van minder dan 65535 px hebben.
@@ -34,6 +35,18 @@ Workfront heeft de volgende limieten:
 >Grotere bestanden nemen meer tijd in beslag om te uploaden en als uw verbinding niet stabiel is, kan de handeling worden beëindigd of verbroken.
 
 ## Statische bestanden
+
+>[!IMPORTANT]
+> De volgende statische bestandstypen worden niet meer ondersteund:
+>
+> * DOT - Microsoft Word-documentsjabloon
+> * DOTX - Microsoft Word-documentsjabloon
+> * POT - Microsoft PowerPoint-sjabloon
+> * POTX - Microsoft PowerPoint-sjabloon
+> * PPS - Microsoft PowerPoint-presentatie
+> * PPSX - Microsoft PowerPoint-presentatie
+> * XLT - Microsoft Excel-sjabloon
+> * XLTX - Microsoft Excel-sjabloon
 
 * ABC - Geavanceerde bitmapcompressie LAADEN
 * ABIC - Adaptieve compressie op twee niveaus van afbeeldingen
@@ -155,12 +168,22 @@ Workfront heeft de volgende limieten:
 
 ## Statische bestanden - Tekstgereedschap
 
+>[!IMPORTANT]
+> De volgende statische bestandstypen voor het tekstgereedschap worden niet meer ondersteund:
+>
+> * DOT - Microsoft Word-documentsjabloon
+> * DOTX - Microsoft Word-documentsjabloon
+> * POT - Microsoft PowerPoint-sjabloon
+> * POTX - Microsoft PowerPoint-sjabloon
+> * PPS - Microsoft PowerPoint-presentatie
+> * PPSX - Microsoft PowerPoint-presentatie
+> * XLT - Microsoft Excel-sjabloon
+> * XLTX - Microsoft Excel-sjabloon
+
 * AI - Adobe Illustrator-illustraties
 * AIT - Adobe Illustrator-sjabloon
 * DOC - Microsoft Word-document
 * DOCX - Microsoft Word-document
-* DOT - Microsoft Word-documentsjabloon
-* DOTX - Microsoft Word-documentsjabloon 
 * EPS - Encapsulated PostScript
 * PDF - Adobe Portable-documentbestand
 * PPT - PowerPoint-presentatie
@@ -169,8 +192,7 @@ Workfront heeft de volgende limieten:
 * RTF, RTF, RTF-tekst
 * XLS - Microsoft Excel-werkblad
 * XLSX - Microsoft Excel-werkblad 2007
-* XLT - Microsoft Excel-sjabloon
-* XLTX - Microsoft Excel-sjabloon
+
 
 ## Videobestanden
 
