@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3211'
 ht-degree: 0%
 
 ---
@@ -27,22 +27,20 @@ ht-degree: 0%
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
 > * Problemen <span class="preview">projecten, taken en documenten</span>.
-   >
-   >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
-   >
-   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
-   >
-   >     * Home
-   >     * Samenvattingspaneel in lijsten
-   >     * Samenvattingspaneel in tijdbladen
+>
+>     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
+>
+>     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
+>
+>     * Home
+>     * Samenvattingspaneel in lijsten
+>     * Samenvattingspaneel in tijdbladen
 >
 > * Doelen
-
-   >
-   >   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>
+>   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -201,6 +199,9 @@ De **Opmerkingen** is standaard geselecteerd.
    >
    >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Afbeeldingen die aan de opmerking worden toegevoegd, worden ook in het concept opgeslagen. Concepten worden 7 dagen bewaard waarna ze worden verwijderd en kunnen niet worden hersteld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
 
+1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
+   * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
+   * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
 1. (Optioneel) Als u tekstopmaak wilt toevoegen aan de update, gebruikt u een van de volgende opties in het menu **RTF** werkbalk om de tekst te verbeteren:
 
@@ -235,7 +236,6 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
    >
    >* Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
    >* De datumstempel naast de opmerking is de datum van de oorspronkelijke opmerking en niet de datum van de laatste bewerking.
-
 
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de stappen 4 tot en met 7 hierboven. <!--(**************insure this stays accurate***********)-->. Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Updates worden weergegeven, klikt u op **Weergave** in het blauw **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
@@ -296,7 +296,6 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Als uw organisatie Workfront met Internet Explorer gebruikt, verliest alle opgemaakte tekst die in een update wordt geplakt zijn RTF-opmaak en wordt deze als onbewerkte tekst weergegeven. U kunt de tekst opnieuw opmaken met de kenmerken op de werkbalk RTF.
    >* Opmaak van RTF-tekst is niet beschikbaar voor updates die worden uitgevoerd in het gedeelte Timesheets of voor notitie- en laatste-voorwaardenobjecten die worden weergegeven in een rapport.
 
-
 1. (Optioneel) Als u tekst uit vorige updates of uit andere bronnen wilt opnemen en deze wilt onderscheiden van uw eigen update, kunt u deze markeren als een blokofferte. Klik op de knop **Blokprijsopgave** pictogram ![](assets/block-quote-small.png) en typ de tekst die u wilt aanhalen. De geciteerde tekst wordt gemarkeerd met een verticaal grijze lijn weergegeven. Klik op de knop **Blokprijsopgave** weer op om terug te keren naar de normale opmaak.
 
    ![](assets/block-quote-marked-350x144.png)
@@ -311,7 +310,6 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Een niet-ondersteunde emoji wordt weergegeven door een zwarte of witte doos.
    >* Windows 7 biedt alleen ondersteuning voor zwart-witafbeeldingen.
    >* Mojs die worden toegepast op een update die via e-mail wordt uitgevoerd, worden niet weergegeven in de update wanneer deze wordt weergegeven in het gedeelte Updates.
-
 
 1. (Optioneel) Een URL-koppeling toevoegen aan extra informatiebronnen:
 
@@ -338,11 +336,10 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Afbeeldingen zijn toegankelijk vanuit de sectie Updates van een object en zijn ook beschikbaar in het gebied Documenten.
    >* U kunt een update verzenden met een afbeelding en geen tekst.
    >* Wanneer u een opmerking verwijdert die een afbeelding bevat, zijn de volgende scenario&#39;s afhankelijk van de ervaring die u kiest:
-      >
-      >     * In de huidige opmerkingervaring blijft de afbeelding in het gebied Documenten staan, maar is deze niet meer zichtbaar in de sectie Updates.
-      >     * In de nieuwe opmerkingervaring wordt de afbeelding verwijderd uit de sectie Updates en uit het gebied Documenten. De afbeelding wordt ook verwijderd uit het gebied Documenten wanneer u een opmerking bewerkt en de afbeelding verwijdert.
+   >
+   >     * In de huidige opmerkingervaring blijft de afbeelding in het gebied Documenten staan, maar is deze niet meer zichtbaar in de sectie Updates.
+   >     * In de nieuwe opmerkingervaring wordt de afbeelding verwijderd uit de sectie Updates en uit het gebied Documenten. De afbeelding wordt ook verwijderd uit het gebied Documenten wanneer u een opmerking bewerkt en de afbeelding verwijdert.
    >* Wanneer iemand een afbeelding verwijdert die is gekoppeld aan een opmerking in het gebied Documenten, wordt deze ook uit de opmerking verwijderd.
-
 
 1. Klikken **Bijwerken**  of **Verzenden**, wanneer u de bètaervaring voor opmerkingen gebruikt.
 
@@ -449,11 +446,11 @@ In de sectie Updates van een Workfront-object worden twee soorten gegevens weerg
 
 * **Gebruikersupdates:** De updates van de gebruiker zijn commentaren die u en andere gebruikers in uw systeem ingaan.
 
-   ![](assets/user-update-cl-350x277.png)
+  ![](assets/user-update-cl-350x277.png)
 
 * **Systeemupdates:** Bij systeemupdates worden het verwijderen van elementen vastgelegd, versies toegevoegd of verwijderd, een goedkeuringsaanvraag bijgevoegd of verwijderd, en eventuele wijzigingen die in de documenten op het object zijn aangebracht.
 
-   ![](assets/system-updates-cl-350x277.png)
+  ![](assets/system-updates-cl-350x277.png)
 
 Afhankelijk van uw Workfront-licentie zijn systeemupdates mogelijk standaard ingeschakeld. Workfront-beheerders kunnen bepalen wat wordt bijgehouden in systeemupdates, zoals wordt uitgelegd in [Door het systeem bijgehouden updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). U kunt ook systeemupdates of -activiteiten uitfilteren, zodat alleen gebruikersupdates voor alle objecten worden weergegeven.
 

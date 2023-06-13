@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Dit opent de doellijst.
    >
    >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Afbeeldingen die aan de opmerking worden toegevoegd, worden ook in het concept opgeslagen. Concepten worden 7 dagen bewaard waarna ze worden verwijderd en kunnen niet worden hersteld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
 
+1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
+   * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
+   * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
 1. (Optioneel) Als u opmaak met RTF-opmaak wilt toevoegen aan de update, een hyperlink of een afbeelding, gebruikt u de gewenste opties op de werkbalk RTF of de pictogrammen ernaast. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
 1. Selecteer **Privé voor mijn bedrijf** Schakel deze optie in om de opmerking alleen zichtbaar te maken voor mensen in uw bedrijf.
@@ -170,13 +173,12 @@ U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quo
    >
    > * De datumstempel is de datum van de oorspronkelijke opmerking en niet de datum van de laatste update.
 
-
    1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-icon.png)Klik vervolgens op een van de volgende opties om informatie van een opmerking naar het klembord te kopiëren:
 
       * **Koppeling kopiëren** om de koppeling van een update te kopiëren, zonder de antwoorden.
       * **Platte tekst kopiëren** om de tekst van een update te kopiëren.
 
-         Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van een opmerking klikt u op **Verwijderen** om een toegevoegde opmerking te verwijderen. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de bovenstaande stappen 5 tot en met 9. <!--insure this stays accurate-->

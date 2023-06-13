@@ -6,9 +6,9 @@ description: Bekijk de wekelijkse releaseactiviteit voor de nieuwe opmerkingenta
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,24 @@ Zie voor algemene informatie over de nieuwe bètaervaring met opmerkingen, waaro
 >Functies voor opmerkingen die worden vrijgegeven voor de bètaervaring voor Workfront-objecten, worden ook vrijgegeven naar de sectie Updates van een doelobject in Workfront Goals.
 
 De volgende secties bevatten functies die na de oorspronkelijke versie zijn toegevoegd, te beginnen met de functies die het laatst zijn uitgebracht.
+
+## Week van 13 juni 2023
+
+### Verbeterde ervaring bij het bewerken van opmerkingen
+
+U kunt nu de volgende sneltoetsen gebruiken bij het bewerken van opmerkingen:
+
+* CTRL + Z (CMD + Z voor Mac) om een wijziging ongedaan te maken
+
+* CTRL + Y (CMD + Y voor Mac) om een wijziging opnieuw uit te voeren
+
+Voorafgaand aan deze verbeteringen kunt u wijzigingen tijdens het bewerken van een opmerking niet ongedaan maken of opnieuw uitvoeren. Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Voorvertoning: 13 juni 2023
+
+Productie: 13 juni 2023
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## Week van 29 mei 2023
 
