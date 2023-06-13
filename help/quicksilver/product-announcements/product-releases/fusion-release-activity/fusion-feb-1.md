@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,15 @@ Zie voor meer informatie [MariaDB-modules](../../../workfront-fusion/apps-and-th
 
 Zie voor meer informatie [Marketo-modules](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
-## Intactische connector en modules nu beschikbaar
+<!--
 
-U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Intacct-account. Met de Intact modules kunt u:
+## Intacct connector and modules now available
 
-* Elementen zoeken op basis van criteria die u opgeeft
-* Voer een aangepaste API-aanroep uit.
+You can now use Workfront Fusion 2.0 to connect to your Intacct account. With the Intacct modules, you can:
 
-Zie voor meer informatie [Intaccingmodules](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+* Search assets based on criteria you specify
+* Perform a custom API call.
+
+For more information see [Intacct modules](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+
+-->
