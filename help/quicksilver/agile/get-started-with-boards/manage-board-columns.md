@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
+source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) in de kolom en selecteer **[!UICONTROL Edit]**. Typ in het gedeelte Instellingen de nieuwe naam in het dialoogvenster **[!UICONTROL Column name]** en klik op **[!UICONTROL Close]**.
 
 ## Een boardkolom verwijderen
+
+Wanneer u een kolom van een board schrapt, kan het niet worden teruggekregen.
 
 1. Toegang tot het bord.
 1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) in de kolom en selecteer **[!UICONTROL Delete]**.
