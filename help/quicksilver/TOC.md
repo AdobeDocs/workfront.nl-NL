@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
+source-git-commit: 80d3424e3adcabbe8222e74bd37eeb7304c3e734
 workflow-type: tm+mt
-source-wordcount: '13075'
+source-wordcount: '13078'
 ht-degree: 0%
 
 ---
@@ -1729,6 +1729,7 @@ ht-degree: 0%
       * [Documentrevisies en -goedkeuringen](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * Documentgoedkeuringen beheren {#manage-document-approvals}
          * [Documentgoedkeuringen beheren](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [Overzicht van documentgoedkeuringen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
          * [Een documentgoedkeuring maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Extra revisoren of fiatteurs toevoegen aan een document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [fiatteurs of revisoren uit een document verwijderen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
