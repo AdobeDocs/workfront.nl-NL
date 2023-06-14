@@ -7,7 +7,7 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 0%
@@ -28,22 +28,20 @@ ht-degree: 0%
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
 > * Problemen <span class="preview">projecten, taken en documenten</span>.
-   >
-   >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
-   >
-   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
-   >
-   >     * Home
-   >     * Samenvattingspaneel in lijsten
-   >     * Samenvattingspaneel in tijdbladen
 >
-> * Doelen
-
-   >
-   >   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
+>
+>     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
+>
+>     * Home
+>     * Samenvattingspaneel in lijsten
+>     * Samenvattingspaneel in tijdbladen
+>
+> * Doelen<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen <!--<span class="preview">and cards</span>-->. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
 
@@ -124,6 +122,13 @@ Op dit moment kunt u opmerkingen toevoegen en reageren op updates met behulp van
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
