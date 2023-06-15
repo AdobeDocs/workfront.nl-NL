@@ -5,7 +5,7 @@ title: Een document goedkeuren
 description: Als u als fiatteur aan een document wordt toegewezen, zijn er veelvoudige manieren u uw goedkeuringsbesluit kunt nemen.
 author: Nolan
 feature: Work Management
-source-git-commit: 369a8564f44524d1abed57553435ce69c7c5e170
+source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -64,7 +64,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](../assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
 
-
 1. Klikken **Filters** boven aan de linkerkant van de pagina en zorg ervoor dat **Goedkeuringen** is ingeschakeld.
 
    Alle werkitems die u wilt goedkeuren, worden weergegeven in de lijst.
@@ -82,6 +81,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * **Goedkeuren** geeft aan dat er geen wijzigingen nodig zijn voor deze versie van het document en dat goedkeuring wordt gegeven.
 
       * **Goedkeuren met wijzigingen** geeft aan dat het document nog enkele kleine wijzigingen moet bevatten, maar dat goedkeuring wordt verleend op voorwaarde dat deze wijzigingen worden aangebracht. Als u deze optie selecteert, wordt een venster weergegeven dat een tekstvak met de naam **Volgende stappen** Hier kunt u opgeven welke wijzigingen nodig zijn voor de goedkeuring van het document. U kunt deze gegevens invoeren en op **Bericht toevoegen** of u kunt op **Overslaan** het goedkeuringsbesluit zonder aanvullende informatie toe te zenden.
+
    * **Werking vereist** Hiermee wordt aangegeven dat de documentversie niet is goedgekeurd en aanzienlijke wijzigingen vereist.
 
    Neem het volgende in overweging bij het bekijken van documentgoedkeuringen in Home:
@@ -90,8 +90,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * Nadat een besluit is genomen over een goedkeuring, blijft de goedkeuring op het tabblad Mijn goedkeuringen staan met de tekst &quot;Beslissing gemaakt&quot; totdat u klikt op de knop **Vernieuwen** of totdat u de browserpagina vernieuwt.
 
-
-
 ## Een document op de documentpagina goedkeuren
 
 1. Ga naar de documentpagina door op de naam van het document te klikken.
@@ -99,8 +97,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Selecteer in het vervolgkeuzemenu naast de naam van het document de versie van het document die in afwachting is van uw goedkeuring. De meest recente versie wordt standaard geselecteerd.
 
    Als de momenteel geselecteerde versie van het document een goedkeuring in behandeling voor u heeft, worden de knopen van het goedkeuringsbesluit getoond in de hoogste juiste hoek van de pagina; als in andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode stip weergegeven.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van de pagina:
@@ -110,8 +109,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * **Goedkeuren** geeft aan dat er geen wijzigingen nodig zijn voor deze versie van het document en dat goedkeuring wordt gegeven.
 
       * **Goedkeuren met wijzigingen** geeft aan dat het document nog enkele kleine wijzigingen moet bevatten, maar dat goedkeuring wordt verleend op voorwaarde dat deze wijzigingen worden aangebracht. Als u deze optie selecteert, wordt een venster weergegeven dat een tekstvak met de naam **Volgende stappen** Hier kunt u opgeven welke wijzigingen nodig zijn voor de goedkeuring van het document. U kunt deze gegevens invoeren en op **Bericht toevoegen** of u kunt op **Overslaan** het goedkeuringsbesluit zonder aanvullende informatie toe te zenden.
-   * **Werking vereist** Hiermee wordt aangegeven dat de documentversie niet is goedgekeurd en aanzienlijke wijzigingen vereist.
 
+   * **Werking vereist** Hiermee wordt aangegeven dat de documentversie niet is goedgekeurd en aanzienlijke wijzigingen vereist.
 
 ## Een document goedkeuren in het venster Documentoverzicht
 
@@ -122,8 +121,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Selecteer in het vervolgkeuzemenu de versie van het document die u wilt reviseren. De meest recente versie wordt standaard geselecteerd.
 
    Als de momenteel geselecteerde versie van het document een goedkeuring in behandeling voor u heeft, worden de knopen van het goedkeuringsbesluit getoond in de hoogste juiste hoek van de ruit van het Overzicht van het Document; als in andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode stip weergegeven.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van het deelvenster Documentoverzicht:
@@ -133,4 +133,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * **Goedkeuren** geeft aan dat er geen wijzigingen nodig zijn voor deze versie van het document en dat goedkeuring wordt gegeven.
 
       * **Goedkeuren met wijzigingen** geeft aan dat het document nog enkele kleine wijzigingen moet bevatten, maar dat goedkeuring wordt verleend op voorwaarde dat deze wijzigingen worden aangebracht. Als u deze optie selecteert, wordt een venster weergegeven dat een tekstvak met de naam **Volgende stappen** Hier kunt u opgeven welke wijzigingen nodig zijn voor de goedkeuring van het document. U kunt deze gegevens invoeren en op **Bericht toevoegen** of u kunt op **Overslaan** het goedkeuringsbesluit zonder aanvullende informatie toe te zenden.
+
    * **Werking vereist** Hiermee wordt aangegeven dat de documentversie niet is goedgekeurd en aanzienlijke wijzigingen vereist.
