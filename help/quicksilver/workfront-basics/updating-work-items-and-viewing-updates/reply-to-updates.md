@@ -6,7 +6,7 @@ description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp an
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -26,8 +26,7 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
->
->* Problemen <span class="preview">projecten, taken en documenten</span>.
+> * Problemen <span class="preview">projecten, taken en documenten</span>.
 >
 >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
 >
@@ -37,11 +36,11 @@ ht-degree: 0%
 >     * Samenvattingspaneel in lijsten
 >     * Samenvattingspaneel in tijdbladen
 >
->* Doelen
+> * Doelen<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->  De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen <!--<span class="preview">and cards</span>-->. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->  Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de sectie van Updates voor het voorwerp.
 

@@ -6,7 +6,7 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 >     * Samenvattingspaneel in lijsten
 >     * Samenvattingspaneel in tijdbladen
 >
-> * Doelen
+> * Doelen<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen <!--<span class="preview">and cards</span>-->. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -283,7 +283,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: K</br> <br>In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: ^V</br> | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: Ctrl+K</br> <br>In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: Ctrl+V</br> |
    | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
    | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
-   | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | Ctrl+Shift+9 |
+   | Blokprijsopgave | <span class="preview">![](assets/block-quote-icon-large.png)</span> | Shift+9 | Ctrl+Shift+9 |
 
    Als u de opmaak van tekst wilt stoppen, deselecteert u het kenmerk in het dialoogvenster **RTF** werkbalk.
 

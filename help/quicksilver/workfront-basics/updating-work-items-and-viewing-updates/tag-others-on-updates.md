@@ -6,7 +6,7 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
 > * Problemen <span class="preview">projecten, taken en documenten</span>.
-   >
-   >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
-   >     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
-   >
-   >     * Home
-   >     * Samenvattingspaneel in lijsten
-   >     * Samenvattingspaneel in tijdbladen
 >
-> * Doelen
-
-   >
-   >   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
+>
+>     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
+>
+>     * Home
+>     * Samenvattingspaneel in lijsten
+>     * Samenvattingspaneel in tijdbladen
+>
+> * Doelen<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen <!--<span class="preview">and cards</span>-->. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 U kunt gebruikers tags toewijzen wanneer u een update uitvoert naar een object als u de aandacht wilt vestigen op een object dat ze anders wellicht niet volgen.
@@ -51,6 +50,7 @@ In plaats van deze gebruikers op het object te plaatsen door ze eraan toe te wij
 >[!NOTE]
 >
 >De gebruiker moet een persoonlijke melding in zijn profiel inschakelen om de e-mailmelding te ontvangen. Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 Voor informatie over het toevoegen van updates aan Workfront-objecten raadpleegt u [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ U kunt tags toewijzen aan anderen bij updates in de bètaervaring voor opmerking
    >
    >* Deze optie toont slechts wanneer de gebruiker met een Bedrijf wordt geassocieerd.
    >* Gelabelde gebruikers buiten het bedrijf konden nog steeds een melding in de app of een e-mail ontvangen, ook al zullen ze de persoonlijke opmerkingen op het tabblad Updates niet zien. We raden u aan geen tags toe te wijzen aan externe gebruikers tijdens een update als u de gegevens niet met hen wilt delen.
-
 
 1. (Optioneel) Herhaal stap 2 om meerdere gebruikers en teams toe te voegen. <!--insure this stays accurate-->
 

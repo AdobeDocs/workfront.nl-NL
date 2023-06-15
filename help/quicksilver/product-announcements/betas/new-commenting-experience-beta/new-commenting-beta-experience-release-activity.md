@@ -6,9 +6,9 @@ description: Bekijk de wekelijkse releaseactiviteit voor de nieuwe opmerkingenta
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,27 @@ Zie voor algemene informatie over de nieuwe bètaervaring met opmerkingen, waaro
 
 De volgende secties bevatten functies die na de oorspronkelijke versie zijn toegevoegd, te beginnen met de functies die het laatst zijn uitgebracht.
 
-## Week van 13 juni 2023
+## Week van 12 juni 2023
+
+### Nieuwe bètaervaring voor opmerkingen voor kaarten in het gebied Boards
+
+De nieuwe bètaervaring met opmerkingen is nu beschikbaar voor kaarten in het gebied Boards. Zie voor meer informatie [23.3 releaseoverzicht](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Voorvertoning: 15 juni 2023
+
+Productieversie voor vroege opt-in: 22 juni 2023
+
+Productie voor alle afnemers: met de 23.3-release
+
+### Blokophalingstekens toevoegen aan een opmerking
+
+U kunt nu blokaanhalingstekens aan een opmerking toevoegen met de werkbalkoptie RTF in de nieuwe bètaervaring voor opmerkingen.
+
+Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Voorvertoning: 14 juni 2023
+
+Productie: 15 juni 2023
 
 ### Verbeterde ervaring bij het bewerken van opmerkingen
 
