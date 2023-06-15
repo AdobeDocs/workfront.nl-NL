@@ -7,9 +7,9 @@ description: U kunt de gegevens in uw [!DNL Adobe Workfront Fusion] accountprofi
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,25 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Profielinstellingen wijzigen
 
-Gegevens wijzigen in uw accountprofiel:
+Het proces voor het veranderen van profiel het plaatsen verschilt gebaseerd op of uw organisatie op Adobe Verenigde Shell is.
+
+* [De profielmontages van de verandering op Verenigde Shell](#change-profile-settings-on-the-unified-shell)
+* [De profielmontages van de verandering zonder Verenigde Shell](#change-profile-settings-without-the-unified-shell)
+
+### De profielmontages van de verandering op Verenigde Shell
+
+Als uw organisatie op de Adobe Verenigde Shell is, kunt u tot uw profiel en voorkeuropties toegang hebben door uw profielbeeld op het hoogste navigatiegebied te klikken.
+
+In dit menu kunt u:
+
+* Kies **[!UICONTROL Dark theme]** opmaak voor [!DNL Adobe Experience Cloud].
+* Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inclusief voorkeuren voor primaire en secundaire talen.
+* Toegang tot uw **[!UICONTROL [!DNL Workfront] Profile]**. Wanneer u zich in het profiel bevindt, klikt u op de knop **[!UICONTROL More]** en selecteert u **[!UICONTROL Edit]**. Zie voor meer informatie over het profiel [Mijn instellingen configureren](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Sign out]** van Adobe Experience Cloud.
+
+### De profielmontages van de verandering zonder Verenigde Shell
+
+Om informatie in uw rekeningsprofiel in organisaties te veranderen die niet Adobe Unified ShellS gebruiken:
 
 1. Klik op de avatar onder aan het linkerdeelvenster en klik vervolgens op **[!UICONTROL Profile]**.
 1. Klik: **[!UICONTROL General Options]** Wijzig vervolgens een van de volgende opties:

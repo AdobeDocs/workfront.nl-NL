@@ -8,10 +8,9 @@ description: Als Adobe Workfront Fusion-beheerder verschillen uw beheerverantwoo
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-hidefromtoc: true
-source-git-commit: 7df10d5e48a460579b6b4acbbdc85aa46bd8d438
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -44,7 +43,7 @@ De volgende lijst maakt een lijst van de procedures die verschillend moeten word
 | Een gebruiker deactiveren | De sectie [Een gebruiker verwijderen](../../workfront-fusion/organizations/manage-fusion-users.md#delete) in [Beheren [!DNL Adobe Workfront Fusion] gebruikers in uw organisatie](../../workfront-fusion/organizations/manage-fusion-users.md) | De sectie &quot;Gebruikers verwijderen&quot; in [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 | Details van gebruiker wijzigen | [Profielinstellingen wijzigen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) | De sectie &quot;Gebruikersgegevens bewerken&quot; in het artikel [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!--
 ## SSO (Single Sign-On)

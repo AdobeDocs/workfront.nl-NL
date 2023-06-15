@@ -8,9 +8,9 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,7 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 * [Organisatiefuncties](#organization-roles)
 * [Gebruikers uitnodigen voor een organisatie](#inviting-users-to-an-organization)
+* [Overschakelen tussen organisaties](#switch-between-organizations)
 
 ### Organisatiefuncties
 
@@ -100,6 +101,12 @@ De uitnodiging verloopt over een dag.
 >[!NOTE]
 >
 >Als de gebruiker nieuw is voor [!DNL Fusion], [!DNL Fusion] maakt automatisch een account voor deze gebruikers en stuurt een e-mail met een tijdelijk wachtwoord, zodat de nieuwe gebruiker zich kan aanmelden en zijn wachtwoord kan wijzigen.
+
+### Overschakelen tussen organisaties
+
+U kunt deel uitmaken van meerdere organisaties in Fusion. De middelen worden niet gedeeld tussen organisaties.
+
+U kunt organisaties binnen de Adobe Verenigde Ervaring schakelen door de organisatienaam in de hoger-juiste hoek te klikken en de nieuwe organisatie van dropdown te selecteren. Alleen organisaties met een Fusion-account worden weergegeven in het vervolgkeuzemenu, zelfs als u lid bent van andere organisaties in Adobe.
 
 ## Teams
 
@@ -179,6 +186,14 @@ De opties voor e-mailmeldingen worden ingesteld op teamniveau.
 </table>
 
 Wijzigingen in meldingsopties worden automatisch opgeslagen
+
+#### Schakelen tussen teams
+
+U kunt deel uitmaken van meer dan één team in Fusion. Aangezien de teams geen middelen delen, kunt u teams moeten schakelen om tot specifieke scenario&#39;s of andere middelen toegang te hebben.
+
+Als uw organisatie niet op de Adobe Verenigde Ervaring is, kunt u teams schakelen door de teamnaam in de linkernavigatie te klikken, dan selecterend een team van dropdown.
+
+Als uw team op de Adobe Verenigde Ervaring is, kunt u een nieuw team selecteren door op de teamnaam in de kopbal te klikken, dan selecterend een team van dropdown. Deze optie is beschikbaar bij alle pagina&#39;s die voor een bepaald team, zoals een scenario pagina of de pagina van Verbindingen specifiek zijn.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

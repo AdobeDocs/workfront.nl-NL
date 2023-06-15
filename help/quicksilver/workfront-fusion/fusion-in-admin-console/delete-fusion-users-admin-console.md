@@ -8,8 +8,7 @@ description: U kunt een gebruiker alleen uit Adobe Workfront Fusion verwijderen 
 author: Becky
 feature: Workfront Fusion
 exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
-hidefromtoc: true
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -37,7 +36,7 @@ Een gebruiker wordt gedeactiveerd vanuit de [!DNL Adobe Admin Console] wanneer e
 * De gebruiker wordt verwijderd uit een productprofiel en niet toegewezen aan een ander productprofiel.
 * De gebruiker wordt verwijderd of gedeactiveerd in de organisatie die Workfront Fusion bevat.
 
-   Zie de sectie &quot;Gebruikers verwijderen&quot; in [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
+  Zie de sectie &quot;Gebruikers verwijderen&quot; in [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
 
 In [!DNL Workfront Fusion], heeft de deactivering op een van de volgende manieren invloed op de gebruiker:
 

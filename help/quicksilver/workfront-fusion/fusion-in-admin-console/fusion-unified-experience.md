@@ -6,9 +6,8 @@ title: Adobe Unified Experience for Workfront Fusion
 description: Toegang tot Workfront Fusion via Adobe Experience Cloud biedt u een naadloze, uniforme ervaring voor het beheer van al uw Adobe-toepassingen.
 author: Becky
 feature: Workfront Fusion
-hidefromtoc: true
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
-Toegang [!DNL Workfront Fusion] doorheen [!DNL Adobe Experience Cloud] biedt u een naadloze, uniforme ervaring voor het beheer van al uw advertentie[!DNL ]Adobe-toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
+Toegang [!DNL Workfront Fusion] doorheen [!DNL Adobe Experience Cloud] biedt u een naadloze, uniforme ervaring voor het beheer van al uw advertentie[!DNL]Adobe-toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
 
 Voor een video waarin navigatie wordt beschreven in [!DNL Fusion] in de [!DNL Adobe Experience Cloud], zie [[!DNL Fusion] op de [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
@@ -94,3 +93,4 @@ In dit menu kunt u:
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inclusief voorkeuren voor primaire en secundaire talen.
 * Toegang tot uw **[!UICONTROL [!DNL Workfront Fusion] Profile]**. Wanneer u zich in het profiel bevindt, klikt u op de knop **[!UICONTROL More]** menu ![](assets/more-icon.png) en selecteert u **[!UICONTROL Edit]**. Zie voor meer informatie over het profiel [Mijn instellingen configureren](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** van Adobe Experience Cloud.
+

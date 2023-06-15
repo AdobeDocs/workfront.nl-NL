@@ -8,7 +8,7 @@ description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoud
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: e71f276eb510497c026a70400afc754d5f57b60b
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -176,9 +176,9 @@ De eigenschappen van een gegevensopslag omvatten de gegevensstructuur die de geg
 ### De inhoud van een gegevensopslagruimte bewerken
 
 1. Klik op de knop **[!UICONTROL Data Store]** pictogram ![](assets/data-store-icon.png) in het linkernavigatievenster om het dialoogvenster [!UICONTROL Data Store] gebied.
-1. Klikken **[!UICONTROL Browse]** ![](assets/browse-data-store.png) naast de gegevensopslag die u wilt bewerken.
+1. Klikken **[!UICONTROL Browse]**  naast de gegevensopslag die u wilt bewerken.
 1. (Optioneel) U kunt kolommen opnieuw ordenen door deze naar de gewenste locatie te slepen.
-1. (Optioneel) [!UICONTROL Edit] één cel door op de knop **[!UICONTROL Edit]** pictogram ![](assets/data-store-edit.png)in die cel en voert u vervolgens de gewenste waarde in.
+1. (Optioneel) [!UICONTROL Edit] één cel door op de knop **[!UICONTROL Edit]** in die cel en voer vervolgens de gewenste waarde in.
 1. (Optioneel) Voeg een nieuw item toe aan de gegevensopslag door op **[!UICONTROL Add]** en vervolgens de gegevens voor het nieuwe item in te voeren.
 1. Klik op **[!UICONTROL Save]**.
 

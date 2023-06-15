@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">App of service</td> 
-   <td> <p>Een softwaretoepassing, meestal.</p> <p>Een toepassing kan ook een speciale functie zijn die gegevens manipuleert, zoals een iterator of aggregator. </p> <p>Een service is een bron van bundels die een web-API, webpagina, verschillende typen servers (FTP, SMTP, IMAP) enzovoort kunnen bevatten. </p> <p> <img src="assets/apps-350x420.jpg" style="width: 350;height: 420;"> </p> </td> 
+   <td> <p>Een softwaretoepassing, meestal.</p> <p>Een toepassing kan ook een speciale functie zijn die gegevens manipuleert, zoals een iterator of aggregator. </p> <p>Een service is een bron van bundels die een web-API, webpagina, verschillende typen servers (FTP, SMTP, IMAP) enzovoort kunnen bevatten. </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">App-aansluiting</td> 

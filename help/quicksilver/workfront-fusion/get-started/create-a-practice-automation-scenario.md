@@ -7,9 +7,9 @@ description: In dit artikel wordt beschreven hoe u een automatiseringsscenario k
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 99a8ad82c5fb2fb3f6adce9ff037086523be9b02
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,19 @@ Het creëren van een scenario bestaat uit verscheidene hoofdtaken:
 1. Aanmelden bij uw [!DNL Workfront Fusion] account.
 1. Klikken **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
 
-   In het linkerpaneel dat toont, kunt u uw scenario&#39;s in omslagen organiseren.
+   >[!NOTE]
+   >
+   >Als u het linkernavigatievenster of de bijbehorende pictogrammen niet ziet, klikt u op Menu ![Menu](assets/main-menu-icon-left-nav.png) pictogram.
+
+   In grijs [!UICONTROL Folders] in het deelvenster dat wordt weergegeven, kunt u uw scenario&#39;s in mappen ordenen.
 
    Boven aan het hoofdgebied rechts kunt u de **[!UICONTROL All]** scenario&#39;s die u hebt gemaakt, uw **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]**, en **[!UICONTROL Concepts]**. Concepten zijn scenario&#39;s die nog wat werk nodig hebben [!DNL Workfront Fusion] U kunt ze indelen als actief of inactief.
 
+<!--
    ![](assets/scenarios-left-panel-350x215.png)
+-->
 
-1. Klik in het linkerdeelvenster op de knop **[!UICONTROL Add folder]** pictogram ![](assets/add-folder-icon.png)Typ vervolgens een naam als &quot;Praktische scenario&#39;s&quot; voor de eerste map.
+1. In de [!UICONTROL Folders] klikt u op de knop **[!UICONTROL Add folder]** pictogram ![](assets/add-folder-icon.png)Typ vervolgens een naam als &quot;Praktische scenario&#39;s&quot; voor de eerste map.
 
 1. Open de map en klik op **[!UICONTROL Create a new scenario]** in de rechterbovenhoek van de pagina.
 
@@ -85,9 +91,11 @@ Het creëren van een scenario bestaat uit verscheidene hoofdtaken:
 
    De vertoningen van de scenario redacteur, die een lege module in het centrum bevatten, [!DNL Workfront] een vooraf geladen toepassing en enkele opties in de werkbalk onderaan.
 
+<!--
    ![](assets/scenario-editor-350x235.png)
+-->
 
-   Wanneer u begint creërend een nieuw scenario, is het een goed idee om te beginnen door een naam voor het te creëren.
+Wanneer u begint creërend een nieuw scenario, is het een goed idee om te beginnen door een naam voor het te creëren.
 
 1. Selecteer **[!UICONTROL New scenario]** naam van plaatsaanduiding in de linkerbovenhoek, typ een naam zoals &quot;Praktisch scenario 1&quot;.
 1. Doorgaan met [De eerste module toevoegen en configureren](#add-and-configure-the-first-module) hieronder.
@@ -229,18 +237,15 @@ Wij kozen ervoor om 1 project te hebben teruggekeerd, evenals de taken verbonden
 >
 >1. Klik met de rechtermuisknop op een [!DNL Workfront] en klik vervolgens op **[!UICONTROL Add a note]**.
 >1. Typ een overzicht voor de module in de notitie die wordt weergegeven.
-
 >
->   U kunt meerdere notities toevoegen voor een module.
+>    U kunt meerdere notities toevoegen voor een module.
 >
 >1. Sluit de **[!UICONTROL Notes]** gebied.
 >
->   Nadat u een notitie aan een scenario hebt toegevoegd, wordt een oranje stip weergegeven op het tabblad **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) onder aan de scenario-editor.
+>     Nadat u een notitie aan een scenario hebt toegevoegd, wordt een oranje stip weergegeven op het tabblad **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) onder aan de scenario-editor.
 >
 >1. Klik op de knop **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) om uw notities weer te geven.
-
 >
-
 
 
 
