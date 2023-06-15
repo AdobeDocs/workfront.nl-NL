@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">Opmerkingen toevoegen aan kaarten op borden</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu opmerkingen toevoegen aan zowel ad-hockaarten als aan gekoppelde kaarten op borden en andere gebruikers labelen voor de opmerkingen. Opmerkingen zijn beschikbaar in de kaartgegevens. De commentaarfunctie voor borden maakt gebruik van de nieuwe Adobe Workfront-opmerkingervaring.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 15 juni 2023</p>
+                            </li>
+                            <li>
+                                 <p>Productieversie voor vroege opt-in: 22 juni 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Verbeterde ervaring bij het verplaatsen van een document naar een gekoppelde map met slepen en neerzetten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Verbeterde ervaring bij het verplaatsen van een document naar een gekoppelde map met slepen en neerzetten</a></p> 
                         <p>Er is enige transparantie toegevoegd aan het slepen en neerzetten van een document in een gekoppelde map. Het document dat u naar een gekoppelde map hebt verplaatst, blijft nu in de documentlijst totdat het volledig is verplaatst. De documentopties zijn uitgeschakeld, maar u kunt het document nog wel openen voor weergave terwijl het wordt verplaatst. Wanneer de overdracht van het document is voltooid, verdwijnt deze uit de documentlijst omdat het document zich nu volledig in de gekoppelde map bevindt. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens de releaseperiode van 23.3</a></p>
-                        <p>Kleine updates van het uiterlijk van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen de releaseperiode van 23,3 jaar. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving. </p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 23.3<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Productieversie: minimaal 2 weken na publicatie voor Voorbeeld (tenzij anders vermeld)</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe verbeteringen in bètaervaringen met opmerkingen</a></p>
                         <p>De verbeteringen in de sectie Updates worden binnen de releaseperiode van 23.3 beschikbaar gesteld voor de nieuwe bètaervaring met opmerkingen. Deze verbeteringen worden, tenzij anders vermeld, beschikbaar gesteld in de productieomgeving met de release 23.3. 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 23.3<br /></p>
+                                <p>Voorvertoning release: 5 juni 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: met 23.3 release (tenzij anders vermeld)</span></p>
+                                <p><span class="preview">Productieversie: 5 juni 2023</span></p>
                             </li>
                         </ul>
                     </td>
