@@ -6,14 +6,16 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
 
 # Gekoppelde kaarten op borden gebruiken
+
+{{highlighted-preview}}
 
 U kunt een kaart toevoegen aan uw board die is aangesloten op bestaande taken en problemen in [!DNL Workfront].
 
@@ -70,7 +72,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* Alleen objecten waarvoor u machtigingen hebt, zijn beschikbaar in de zoekresultaten. Als een item grijs wordt weergegeven, is het al aan het bord toegevoegd.
    >* Wanneer u filtert op **[!UICONTROL Projects I Own]** of **[!UICONTROL Projects I'm On]**, worden projecten die overeenkomen met de status Voltooid, Dode of Geweigerd niet opgenomen. U kunt nog steeds naar die projecten zoeken met de **[!UICONTROL All]** filter.
 
-
 1. Klik op **[!UICONTROL Add]**.
 
    ![Zoeken naar taak of probleem om verbinding te maken](assets/boards-tasksissues-350x94.png)
@@ -101,12 +102,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
       <td>Als u de beschrijving wijzigt, verandert ook de beschrijving op de verbonden [!DNL Workfront] object. U kunt URL's toevoegen in de beschrijving en deze worden klikbare koppelingen wanneer de kaart wordt opgeslagen.</td> 
-     </tr> 
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
-      <td><p>Als u meer personen of een team aan de kaart wilt toewijzen, typt u een naam in het zoekveld en selecteert u de naam wanneer deze in de lijst wordt weergegeven. U kunt zowel personen als teams toevoegen. Er is slechts één teamtoewijzing toegestaan op een aangesloten kaart.</p>
-      <p>De kandidaten moeten lid van de raad zijn of zij zullen niet in de selectielijst verschijnen. Als een team lid is in de raad, kunnen de individuele teamleden aan de kaart worden toegewezen.</p>
-      <p>Alle geselecteerde toewijzingen worden ook toegewezen aan de taak of uitgave in [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
@@ -127,18 +122,42 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td><p>Het aantal uren dat de kaart moet worden ingevuld.</p><p>Als u de schatting wijzigt, wordt ook de waarde van de artikelpunten in het verbonden object gewijzigd [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
+      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
+      <td><p>Als u meer personen of een team aan de kaart wilt toewijzen, typt u een naam in het zoekveld en selecteert u de naam wanneer deze in de lijst wordt weergegeven. U kunt zowel personen als teams toevoegen. Er is slechts één teamtoewijzing toegestaan op een aangesloten kaart.</p>
+      <p>De kandidaten moeten lid van de raad zijn of zij zullen niet in de selectielijst verschijnen. Als een team lid is in de raad, kunnen de individuele teamleden aan de kaart worden toegewezen.</p>
+      <p>Alle geselecteerde toewijzingen worden ook toegewezen aan de taak of uitgave in [!DNL Workfront].</p></td>
+     </tr>
+     <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
       <td><p>Zoek naar en selecteer markeringen voor de kaart.</p>
       <p>Voor informatie over het maken van nieuwe tags raadpleegt u <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Tags toevoegen</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Custom fields]</strong></td>
+      <td><p>Aangepaste velden die u toevoegt, worden in dit gebied weergegeven.</p>
+      <p>Zie voor meer informatie <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Aanpassen welke velden worden weergegeven op een kaart</a>.</p></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist Items]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
       <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Voor meer informatie over controlelijstitems raadpleegt u <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
+      <td>Zie "Loguren op een aangesloten kaart" hieronder.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
+      <td><span class="preview"><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken en klik op de knop <strong>Bijlage toevoegen</strong> pictogram <img src="assets/attachment-icon.png" alt="Bijlage, pictogram"> om een bestand bij de opmerking te voegen. Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn. Gecodeerde gebruikers op verbonden kaarten ontvangen e-mailmeldingen.</p><p>Klikken <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
+      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.</p></span></td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL System activity]</strong></span> </td> 
+      <td><span class="preview"><p>Als u <strong>Systeemactiviteit</strong> Wordt ingeschakeld als een kaartsectie, de activiteit wordt weergegeven in dit gebied.</p> <p>Zie voor meer informatie <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Aanpassen welke velden worden weergegeven op een kaart</a> en <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Door het systeem bijgehouden updates</a>.</p></span></td>
+     </tr>     
     </tbody> 
    </table>
 
-   Gebruik het navigatievenster aan de linkerkant om te schakelen tussen groepen velden op de kaartdetails.
+   Gebruik het linkernavigatievenster om tussen secties van gebieden op de kaartdetails te bewegen.
 
 1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
 Het verbonden object, de toewijzingen, de tags, de vervaldatum, de controlelijstteller, de geschatte uren en de status worden weergegeven op de kaart.
@@ -175,7 +194,6 @@ Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangeslot
    >
    >* Alleen objecten waarvoor u machtigingen hebt, zijn beschikbaar in de zoekresultaten.
    >* Wanneer u filtert op **[!UICONTROL Projects I Own]** of **[!UICONTROL Projects I'm On]**, projecten die overeenkomen met een [!UICONTROL Complete], [!UICONTROL Dead], of [!UICONTROL Rejected] status worden niet opgenomen. U kunt nog steeds naar die projecten zoeken met de **[!UICONTROL All]** filter.
-
 
 1. Klik op **[!UICONTROL Connect]**.
 

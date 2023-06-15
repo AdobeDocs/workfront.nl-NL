@@ -5,13 +5,13 @@ title: Aanpassen welke velden worden weergegeven op een kaart
 description: U kunt aanpassen welke velden op een kaart worden weergegeven door een veld uit te schakelen zodat het niet wordt weergegeven op de volledige kaart of in de verkorte weergave, of door een veld te verbergen in de weergave van de verkorte kaart.
 author: Lisa
 feature: Agile
-source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
+exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
-
 
 # Aanpassen welke velden worden weergegeven op een kaart
 
@@ -21,6 +21,8 @@ Standaard worden alle beschikbare velden op een kaart weergegeven, zowel in de v
 * Een veld verbergen in de weergave Versmalde kaart
 
 Als een veld een waarde bevat en u het veld uitschakelt, blijft de waarde behouden als u het veld later weer inschakelt.
+
+Secties (die worden weergegeven als de linkernavigatieopties op de kaartdetails) zijn ook beschikbaar voor weergave en verbergen.
 
 U kunt ook aangepaste velden weergeven die eerder zijn gemaakt. U kunt geen nieuwe aangepaste velden in een board ontwerpen en maken.
 
@@ -58,11 +60,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klikken [!UICONTROL **Configureren**] rechts van de board om het Configure paneel te openen.
 1. Uitbreiden [!UICONTROL **Kaarten**].
 
-   De meeste velden zijn standaard ingeschakeld.
+   De meeste velden en secties zijn standaard ingeschakeld.
 
-1. Schakel een veld uit om het in beide kaartweergaven uit te schakelen.
-1. Klik op het pictogram Verbergen ![Pictogram verbergen](assets/eye-hide-icon.png) naast een veld om dit te verbergen in de verkorte weergave.
-1. Als u alle velden in beide weergaven wilt weergeven, klikt u op [!UICONTROL **Standaardwaarden van alle velden herstellen**].
+1. Schakel een veld of sectie uit om het in beide kaartweergaven uit te schakelen.
+1. Klik op het pictogram Verbergen ![Pictogram verbergen](assets/eye-hide-icon.png) naast een veld of sectie om deze in de versmalde weergave te verbergen.
+1. Als u alle velden en secties in beide weergaven wilt weergeven, klikt u op [!UICONTROL **Standaardwaarden van alle velden herstellen**].
 1. Klikken [!UICONTROL **Configuratie verbergen**] om het Configure paneel te sluiten.
 
 ## Aangepaste velden toevoegen aan kaarten
@@ -94,4 +96,3 @@ Aangepaste velden zijn beschikbaar op verbonden kaarten. Ze zijn alleen zichtbaa
    ![Waarde en label van aangepast veld](assets/save-custom-field-value-label.png)
 
    Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het aangepaste veld uitschakelen in het kader van de stappen in het dialoogvenster [Kaarten configureren](customize-fields-on-card.md#configure-cards) van alle kaarten te verwijderen.
-
