@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 0%
 >     * Samenvattingspaneel in lijsten
 >     * Samenvattingspaneel in tijdbladen
 >
-> * Doelen<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Doelen, <span class="preview">kaarten in het gebied van de kamers</span>
 >
->   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen <!--<span class="preview">and cards</span>-->. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   De nieuwe ervaring met opmerkingen is de enige ervaring voor doelen <span class="preview">en kaarten</span>. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 
 >[!NOTE]
 >
->De volgende functionaliteit is beschikbaar voor alle voorwerpen behalve doelstellingen. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md)
+>De volgende functionaliteit is beschikbaar voor alle objecten, behalve voor doelen en kaarten. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Ga naar het het werkpunt waarvoor u een update (zoals een project, een taak, of een kwestie) wilt verstrekken.
 1. Klik op de knop **Updates** sectie.
@@ -283,7 +285,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: K</br> <br>In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: ^V</br> | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: Ctrl+K</br> <br>In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: Ctrl+V</br> |
    | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
    | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
-   | Blokprijsopgave | <span class="preview">![](assets/block-quote-icon-large.png)</span> | Shift+9 | Ctrl+Shift+9 |
+   | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | Ctrl+Shift+9 |
 
    Als u de opmaak van tekst wilt stoppen, deselecteert u het kenmerk in het dialoogvenster **RTF** werkbalk.
 
@@ -346,20 +348,17 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 ## Updategegevens kopiëren
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 Er zijn verschillende manieren waarop u een update kunt kopiëren. Nadat u een koppeling hebt gekopieerd, kunt u de koppeling met anderen delen om deze naar de update te leiden.
+
+Het kopiëren van een update is afhankelijk van de manier waarop u opmerkingen maakt.
+
+### Een update kopiëren in de huidige opmerkingervaring
 
 * [De update kopiëren](#copy-the-update)
 * [De verbinding van de draad kopiëren](#copy-the-thread-link)
 * [De koppeling voor bijwerken kopiëren](#copy-the-update-link)
 
-### De update kopiëren {#copy-the-update}
+#### De update kopiëren {#copy-the-update}
 
 Met deze optie wordt de tekst van een specifieke update naar het klembord gekopieerd.
 
@@ -368,24 +367,47 @@ Met deze optie wordt de tekst van een specifieke update naar het klembord gekopi
 
    ![Platte tekst kopiëren](assets/update-stream-copy-body-text-350x152.png)
 
-### De verbinding van de draad kopiëren {#copy-the-thread-link}
+#### De verbinding van de draad kopiëren {#copy-the-thread-link}
 
 Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd, zodat u de verbinding met andere gebruikers kunt delen.
 
 1. Ga naar de updatethread die u wilt kopiëren.
 
-1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren** of **Koppeling kopiëren**, wanneer u de bètaervaring gebruikt.
+1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### De koppeling voor bijwerken kopiëren {#copy-the-update-link}
+#### De koppeling voor bijwerken kopiëren {#copy-the-update-link}
 
 Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd. Wanneer u de update-koppeling deelt, ziet de gebruiker die deze koppeling volgt, een rand rondom de update.
 
 1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren** of **Koppeling kopiëren**, wanneer u de bètaervaring gebruikt.
+1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Een update kopiëren in de nieuwe opmerkingervaring
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Koppeling kopiëren](#copy-link)
+* [Platte tekst kopiëren](#copy-body-text)
+
+#### Koppeling kopiëren
+
+Met deze optie kopieert u de opmerking of de thread-koppeling naar het klembord, zodat u de opmerking of de volledige thread kunt delen met andere gebruikers.
+
+1. Ga naar de update waarvan u de koppeling wilt kopiëren.
+
+1. Klik op de knop **Meer** en klik vervolgens op **Koppeling kopiëren**.
+
+#### Platte tekst kopiëren
+
+Met deze optie wordt de tekst van een specifieke update naar het klembord gekopieerd.
+
+1. Ga naar de update of het antwoord dat u wilt kopiëren.
+1. Klik op de knop **Meer** en klik vervolgens op **Platte tekst kopiëren**.
 
 ## Een update of antwoord verwijderen
 

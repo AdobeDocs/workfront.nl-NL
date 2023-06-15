@@ -6,9 +6,9 @@ description: Momenteel wordt een update van de opmerkingervaring in Adobe Workfr
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,15 @@ De nieuwe ervaring met opmerkingen bevat verbeteringen en wijzigingen in de best
 De nieuwe ervaringen met opmerkingen bevatten onder andere de volgende verbeteringen:
 
 * Verbeterde prestaties en gebruikerservaring
-* Scheiding van gebruikerscommentaren van de updates van de systeemactiviteit.
+* Scheiding van gebruikerscommentaren van de updates van de systeemactiviteit
 * Real-time indicator wanneer nieuwe opmerkingen worden toegevoegd aan een object
-* Opmerkingen bewerken na verzending.
+* Opmerkingen bewerken na verzending
 
 De volgende functies zijn verwijderd uit de nieuwe ervaring:
 
-* Opmerking over een systeemupdate.
+* Opmerkingen maken over een systeemupdate
+* De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen
+* Aangepast formulier bewerken
 
 In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de nieuwe opmerkingervaring en de beschikbaarheid ervan op gebieden waar deze functies worden ondersteund:
 
@@ -295,7 +297,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
   </tr>
 </table>
 
-## Nieuwe bètaervaringsactiviteit voor opmerkingen
+## Tijdlijn vrijgeven
 
-Voor informatie over de onlangs vrijgegeven functies raadpleegt u [Nieuwe activiteit voor bètabewerkingsbeleving met opmerkingen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Voor informatie over de functies die onlangs zijn vrijgegeven voor de nieuwe opmerkingervaring en een releasetijdlijn raadpleegt u [Nieuwe activiteit voor bètabewerkingsbeleving met opmerkingen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 
@@ -423,21 +425,18 @@ De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecte
 
 * Wanneer het toelaten van de ervaring van Bèta in de sectie van Updates:
 
-   * Problemen <span class="preview">projecten, taken en documenten</span>
+   * Problemen <span class="preview">projecten, taken, artikelen en documenten</span>
 
   Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * Standaard is dit de belangrijkste opmerkingervaring:
 
-   * Doelen
+   * Doelen, <span class="preview">kaarten in het gebied van de kamers</span>
 
   >[!NOTE]
   >
   >U moet een extra licentie voor Adobe Workfront Goals hebben om dit gebied van Workfront te kunnen openen. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  Voor meer informatie over het beheren van updates voor doelstellingen, zie [Doelopmerkingen beheren in Adobe Workfront-doelen](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 De nieuwe bètaervaring voor opmerkingen inschakelen:
 

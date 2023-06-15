@@ -6,9 +6,9 @@ description: Wanneer iemand toevoegt of op een update op een het werkvoorwerp an
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,12 @@ ht-degree: 0%
 >     * Samenvattingspaneel in lijsten
 >     * Samenvattingspaneel in tijdbladen
 >
-> * Doelen<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Doelen, <span class="preview">kaarten in het gebied van de kamers</span>
 >
->   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen <!--<span class="preview">and cards</span>-->. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   De nieuwe ervaring met opmerkingen is de enige ervaring voor doelen <span class="preview">en kaarten</span>. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+
 
 Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de sectie van Updates voor het voorwerp.
 

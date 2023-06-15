@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 0%
 >     * Samenvattingspaneel in lijsten
 >     * Samenvattingspaneel in tijdbladen
 >
-> * Doelen<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Doelen, <span class="preview">kaarten in het gebied van de kamers</span>
 >
->   De nieuwe ervaring met opmerkingen is de standaardeigenschap voor doelen <!--<span class="preview">and cards</span>-->. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   De nieuwe ervaring met opmerkingen is de enige ervaring voor doelen <span class="preview">en kaarten</span>. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
 
@@ -84,7 +84,7 @@ De sectie Updates wordt weergegeven voor de volgende objecten:
      <li>Sjablonen</li> 
      <li>Sjabloontaken</li> 
      <li>Timesheets</li> 
-     <li>Gebruikers</li> 
+     <li>Gebruikers</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor 
 * **Opmerkingen**: Hier worden opmerkingen van gebruikers weergegeven en antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systeemactiviteit**: Geeft systeemupdates weer. Dit zijn informatieve berichten die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Op dit moment kunt u opmerkingen toevoegen en reageren op updates met behulp van de bètaopmerkingervaring voor de volgende objecten:
+Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe ervaring met opmerkingen over de volgende objecten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ Op dit moment kunt u opmerkingen toevoegen en reageren op updates met behulp van
    <td> 
     <ul> 
      <li><p>Doelen</p>
-     <p>Dit is de standaardervaring voor doelstellingen</p>
+     <li><span class="preview">Kaarten in het gebied van de kamers</span></li>
+      Dit is de enige ervaring voor doelen <span class="preview">en kaarten</span>.
      </li> 
      <li><span class="preview">Projecten</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Problemen</li> 
@@ -123,12 +124,10 @@ Op dit moment kunt u opmerkingen toevoegen en reageren op updates met behulp van
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
