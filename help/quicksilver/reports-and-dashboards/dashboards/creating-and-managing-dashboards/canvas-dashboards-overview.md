@@ -6,9 +6,9 @@ description: U kunt Canvasdashboards tot stand brengen die het Melden van de vis
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
+source-git-commit: da55003a14851d7894693fb95bff866c20938849
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,44 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon.png)en klik vervolgens op **Dashboards**.
 
 1. Klik in het linkerdeelvenster op **Canvasdashboards**.
+
+## Canvasdashboards gebruiken
+
+### Nieuw canvasdashboard maken
+
+1. Canvasdashboards openen zoals beschreven in **Canvasdashboards openen** hierboven.
+
+1. Klikken **+ Nieuw dashboard**
+
+1. Klikken **Naamloos** in de linkerbovenhoek om een naam voor het dashboard in te voeren.
+
+1. Klikken **Gereed** in de rechterbovenhoek om het nieuwe dashboard op te slaan of widgets toe te voegen zoals beschreven in **Een rapport toevoegen aan een canvasdashboard** hieronder.
+
+### Een rapport toevoegen aan een canvasdashboard
+
+1. Canvasdashboards openen zoals beschreven in **Canvasdashboards openen** hierboven.
+
+1. Klik op het dashboard waaraan u een rapport wilt toevoegen uit de lijst met dashboards.
+
+1. Klikken **Widgets beheren** in de rechterbovenhoek klikt u op **Widget toevoegen**.
+
+1. Houd de muisaanwijzer boven het type rapportwidget dat u wilt toevoegen en klik op het selectievakje dat wordt weergegeven.
+
+1. Wanneer u alle widgets hebt geselecteerd die u wilt toevoegen, klikt u op **Toevoegen** in de rechterbovenhoek.
+
+1. De geselecteerde widgets worden op het dashboard weergegeven. Klikken **Configuratie** in het midden van een widget om te kiezen welk rapport wordt weergegeven.
+
+1. Typ de naam van het rapport dat u wilt weergeven in het dialoogvenster **Rapport zoeken** veld. Wanneer u het rapport in de lijst ziet, klikt u op **Lijstrapport** of **Grafiekrapport** pictogram naast zijn naam om de informatie van dat rapport in uw gekozen formaat te tonen.
+
+>[!WARNING]
+> Terwijl het toevoegen van veelvoudige widgets die informatie van het zelfde rapport tonen momenteel mogelijk is, adviseren wij slechts één keer tonend elk rapport aangezien het dashboardprestaties kan beïnvloeden.
+
+### Een widget bewerken in een Canvasdashboard
+
+1. Canvasdashboards openen zoals beschreven in **Canvasdashboards openen** hierboven.
+
+1. Klik op het dashboard dat u wilt bewerken in de lijst met dashboards.
+
+1. (Optioneel) Als u het formaat van een widget wilt wijzigen, sleept u de **Formaat wijzigen** in de linkerbenedenhoek van de widget naar de gewenste grootte.
+
+1. (Optioneel) Als u een widget wilt verplaatsen, sleept u de aangrenzende witruimte van de widget naar de gewenste relatieve positie op het dashboard.
