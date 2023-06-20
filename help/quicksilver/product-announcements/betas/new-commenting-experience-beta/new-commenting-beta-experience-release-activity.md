@@ -6,9 +6,9 @@ description: Bekijk de activiteit van de wekelijkse release voor de nieuwe Adobe
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,9 @@ Hieronder volgt een gepland tijdschema voor de release van de nieuwe opmerkinger
    * Nieuwe ervaring met opmerkingen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
 * Met de release van 23.4 (begin oktober 2023)
    * Nieuwe ervaring met opmerkingen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * Eind 2023:
-   * Verwijder de oudere ervaring uit de objecten die er nog over beschikken.
-   * De volgende objecten hebben de nieuwe ervaring met opmerkingen als enige ervaring: projecten, taken, kwesties, verhalen, documenten, malplaatjes, malplaatjetaken, programma&#39;s, portefeuilles, teams, gebruikers, en timesheets, doelstellingen, kaarten.
+   * De volgende objecten hebben de nieuwe ervaring bij het plaatsen van opmerkingen als de standaardervaring: projecten, taken, kwesties, verhalen, documenten, malplaatjes, malplaatjetaken, programma&#39;s, portefeuilles, teams, gebruikers, en timesheets, doelstellingen, kaarten. De oudere ervaring met opmerkingen blijft een optie.
 
   >[!NOTE]
   >
