@@ -6,9 +6,9 @@ description: U kunt in Adobe Creative Cloud-toepassingen blijven en uw werk naad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
+source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,14 @@ Neem contact op met uw [!DNL Workfront] beheerder.
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Van de **[!UICONTROL Work List]** selecteert u de taak of uitgave die u als voltooid wilt markeren.
-1. Klik op **[!UICONTROL Done]**.\
-   Dit geeft aan dat het object is voltooid in Workfront.
+1. Klik op **[!UICONTROL Done]**.  Als u de enige gebruiker bent die aan deze taak of kwestie wordt toegewezen, merkt dit het punt [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront].
+1. (Voorwaardelijk) Als er meerdere gebruikers zijn toegewezen aan deze taak of uitgave, klikt u op [!UICONTROL Done] Hiermee wordt een vervolgkeuzelijst geopend. U kunt dan:
+
+   Klikken **[!UICONTROL Done with my part]** als andere gebruikers ook hun werk moeten doen om de taak of kwestie te voltooien.
+
+   of
+
+   Klikken **[!UICONTROL Complete]** (voor taken) of **[!UICONTROL Resolved]** (voor kwesties) indien er geen verdere werkzaamheden nodig zijn op het gebied van de taak of kwestie. Dit geeft het item aan [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront].
 
    >[!NOTE]
    >
