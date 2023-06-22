@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a859e843-38e7-4743-9920-62a76da9caeb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 4f70f71294228e95d09a02e7a63bd683c04c6142
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -19,3 +19,4 @@ ht-degree: 0%
 * [Werk bij met de functie [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
 * [Werkitems markeren die zijn voltooid met de [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
 * [De tijd van het logboek gebruiken [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [Weergeven en beheren [!DNL Adobe Workfront] meldingen van [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
