@@ -6,20 +6,24 @@ title: E-mailmeldingen en voorkeuren worden verzonden
 description: Adobe Workfront Boards stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # E-mailmeldingen en voorkeuren worden verzonden
 
+{{highlighted-preview}}
+
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. De meldingen zijn standaard ingeschakeld en u kunt in de voorkeursinstellingen voor de raden selecteren welke e-mails u wilt ontvangen.
 
 >[!NOTE]
 >
 >E-mailberichten zijn alleen beschikbaar via de vroege functie-aanmelding voor Workfront Boards.
+
+<span class="preview">Met extra voorkeuren kunt u de donkere modus inschakelen voor al uw borden en werkstromen.</span>
 
 ## Toegangsvereisten
 
@@ -54,3 +58,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![E-mailvoorkeuren voor e-mailberichten worden ingesloten](assets/boards-email-preferences.png)
 
    De voorkeuren die u instelt voor e-mailberichten, gelden voor al uw borden.
+
+<div class="preview">
+
+## Voorkeuren voor de donkere modus instellen
+
+>[!NOTE]
+>
+>Als het exemplaar van Workfront van uw organisatie aan de Adobe verenigde Ervaring is genegeerd, kunt u donkere themamondopmaak voor alle Adobe Experience Cloud door uw voorkeurenmenu (uw profielbeeld) toelaten, en u zult geen afzonderlijke donkere wijzeoptie voor Workfront Boards zien. Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+{{step1-to-boards}}
+
+1. Klikken [!UICONTROL **Voorkeuren**] op het dashboard Borden.
+1. Schakel de modus Donker in of uit in het gebied Thema.
+
+   De voorkeur die u instelt voor de donkere modus, wordt toegepast op al uw borden en werkstromen en op het dashboard.
+
+</div>
