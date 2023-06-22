@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Een nieuwe board bevat standaard drie kolommen. U kunt meer kolommen toevoegen, de orde van de kolommen veranderen, kolommen anders noemen, en om het even welke kolommen schrappen die u niet nodig hebt.
 
 De montages van de kolom omvatten beleid, dat u toestaat om opties te bepalen voor wat met een kaart gebeurt wanneer het in die kolom wordt bewogen.
+
+Voor informatie over het sorteren van de kaarten in kolommen, zie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Toegangsvereisten
 

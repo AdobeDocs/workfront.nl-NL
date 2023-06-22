@@ -6,14 +6,16 @@ description: U kunt een bord filteren om alleen bepaalde kaarten weer te geven.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # Filteren en zoeken in een board
+
+{{highlighted-preview}}
 
 U kunt een board filteren om weer te geven:
 
@@ -23,6 +25,8 @@ U kunt een board filteren om weer te geven:
 * Kaarten die in een bepaald tijdsbestek verschuldigd zijn
 * Gearchiveerde kaarten
 * Kaarten verbonden met een specifiek project
+
+<span class="preview">Als u het bord sorteert, worden alle kaarten in de kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.</span>
 
 Door te zoeken kunt u ook een bepaalde kaart op het bord vinden.
 
@@ -105,6 +109,29 @@ Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord
    U kunt ook kaarten weergeven die niet zijn verbonden met een project.
 
    ![Filteren op verbinding](assets/boards-filter-by-connection.png)
+
+<div class="preview">
+
+## Sorteren op een board
+
+Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.
+
+1. Toegang tot het bord.
+1. Klikken [!UICONTROL **Sorteren op**] en selecteert u [!UICONTROL **Naam**], [!UICONTROL **Vervaldatum**], [!UICONTROL **Schatting**], [!UICONTROL **Status**], of [!UICONTROL **Verbinding**].
+
+   De verbinding (projectnaam) is slechts op verbonden kaarten van toepassing, en de andere opties zullen zowel verbonden als ad hoc kaarten in de kolommen sorteren.
+
+   Met de optie &quot;Gebruikersvolgorde&quot; worden de kaarten geretourneerd in de volgorde waarin ze handmatig zijn ingesteld, voordat er andere sorteeropties zijn toegepast. Dit is de standaardsortering voor de kolommen.
+
+1. Selecteren [!UICONTROL **Omgekeerde volgorde**] om de kolommen in omgekeerde volgorde van de sorteeroptie te sorteren.
+
+   De pijl op het sorteerpictogram geeft aan of de kolommen in oplopende of aflopende volgorde worden gesorteerd.
+
+   Wanneer een andere sortering dan de standaardinstelling wordt toegepast, wordt een indicator weergegeven op het sorteerpictogram ![Sorteren toegepast](assets/sort-applied-boards.png).
+
+   ![Sorteren op kolommen aan boord](assets/sort-by-columns-in-board.png)
+
+</div>
 
 ## Zoeken in een board
 
