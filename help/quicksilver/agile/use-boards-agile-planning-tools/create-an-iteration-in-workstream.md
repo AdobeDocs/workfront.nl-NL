@@ -6,14 +6,17 @@ title: Een herhaling in een werkstroom maken
 description: Een herhaling is een ingestelde hoeveelheid tijd die is gereserveerd voor het voltooien van het werk. Sommige teams kunnen een herhaling als sprint verwijzen.
 author: Lisa
 feature: Agile
-source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
+exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
+source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # Een herhaling in een werkstroom maken
+
+{{highlighted-preview}}
 
 Een herhaling is een ingestelde hoeveelheid tijd die is gereserveerd voor het voltooien van het werk. Sommige teams kunnen een herhaling als sprint verwijzen.
 
@@ -82,12 +85,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Klik op het tabblad Kaartlijst in de iteratieweergave op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png).
    * Klik in het iterboard op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png) in het metriegebied op de hoogste juiste.
 
-1. Bewerk de herhaling naar wens en klik op [!UICONTROL **Opslaan**].
+1. In de [!UICONTROL Iteration Configuration] de herhaling naar wens bewerken.
+1. Als u de naam van de herhaling wilt wijzigen, vouwt u [!UICONTROL **Details van herhaling**].
 
-   Nadat een herhaling is gestart, kunt u alleen de iteratienaam wijzigen.
+   Nadat een herhaling is gestart, kunt u alleen de naam van de herhaling wijzigen en niet de datum- of herhalingslengte.
+
+1. <span class="preview">Om doelstellingen aan de herhaling toe te voegen, breid uit [!UICONTROL **Doelen**].</span>
+1. <span class="preview">Klikken [!UICONTROL **Doel toevoegen**] en typ de naam van het doel.</span>
+
+   <span class="preview">Als doelen tijdens de herhaling zijn voltooid, kunt u het selectievakje inschakelen om ze te markeren als voltooid of op de knop **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png) om een doel te verwijderen. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid.</span>
+
+<!--
+<div class="preview">
+
+## Assign cards to the next iteration
+
+Use the [!UICONTROL Next Iteration] column to move cards from the current iteration to the next iteration, without sending them to the backlog first.
+
+1. Move a card to the [!UICONTROL **Next Iteration**] column, or add a new card directly in the column.
+1. Access the next iteration by clicking the [!UICONTROL **Next Iteration**] column title, or by clicking the up-pointing arrow next to the iteration name on the top of the screen.
+
+   The cards that you marked to come over to the next iteration are placed in the columns that correspond with their status.
+
+</div>
+-->
 
 ## Een herhaling verwijderen
 
 1. Klik op de knop [!UICONTROL **Kaartlijst**] in de werkstroom en opent u de herhalingsweergave.
-1. Klik op de knop **Verwijderen** naast de herhaling.
+1. Klik op de knop **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png) naast de herhaling.
 1. Klikken [!UICONTROL **Herhaling verwijderen**] in het bevestigingsbericht.
