@@ -6,16 +6,16 @@ description: Momenteel wordt een update van de opmerkingervaring in Adobe Workfr
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Nieuwe ervaring met opmerkingen
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze is alleen beschikbaar voor alle klanten in de voorvertoningsomgeving.</span>
 
 Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van geselecteerde objecten.
 
@@ -432,7 +432,7 @@ De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecte
 
 * Standaard is dit de belangrijkste opmerkingervaring:
 
-   * Doelen, <span class="preview">kaarten in het gebied van de kamers</span>
+   * Doelen, kaarten in het gebied van de raden
 
   >[!NOTE]
   >
