@@ -6,9 +6,9 @@ description: Bekijk de activiteit van de wekelijkse release voor de nieuwe Adobe
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
+source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -37,26 +37,70 @@ Hieronder volgt een gepland tijdschema voor de release van de nieuwe opmerkinger
    * Bèta voor opmerkingen
    * Nieuwe ervaring met opmerkingen voor doelen (als enige ervaring)
 * Met de release van 23.3 (20 juli 2023):
-   * Bèta voor opmerkingen voor projecten, taken, artikelen en documenten.
-   * Bèta voor opmerkingen voor projecten, taken, problemen, artikelen en documenten wordt de standaardoptie.
+   * Bèta voor opmerkingen voor projecten, taken en documenten.
    * Nieuwe ervaring met opmerkingen voor kaarten in het gebied van de raden van bestuur (als enige ervaring)
-* Tijdens de release van 23.4 (datum nog bekend) (beperkte release<!--, only available to Fast Track customers-->):
+* Tijdens de release van 23.4 (datum nog bekend) (beperkte release<!--, only available to customers that choose the fast release -->):
    * Nieuwe ervaring met opmerkingen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
 * Met de release van 23.4 (begin oktober 2023)
    * Nieuwe ervaring met opmerkingen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
+   * Bèta voor opmerkingen voor projecten, taken, problemen en documenten wordt de standaardoptie.
 * Eind 2023:
-   * De volgende objecten hebben de nieuwe ervaring bij het plaatsen van opmerkingen als de standaardervaring: projecten, taken, kwesties, verhalen, documenten, malplaatjes, malplaatjetaken, programma&#39;s, portefeuilles, teams, gebruikers, en timesheets, doelstellingen, kaarten. De oudere ervaring met opmerkingen blijft een optie.
+   * De oudere ervaring met opmerkingen blijft een optie voor de volgende objecten: projecten, taken, kwesties, en documenten.
+
+     Sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen, doelen en kaarten hebben de nieuwe opmerkingervaring als enige optie.
 
   >[!NOTE]
   >
   >    Herhalingen zullen de oudere ervaring met opmerkingen blijven gebruiken.
 
-In de volgende sectie worden de functies weergegeven die na de oorspronkelijke versie zijn toegevoegd, te beginnen met de functies die het laatst zijn uitgebracht.
+De volgende sectie bevat een lijst met functies die na de oorspronkelijke release zijn toegevoegd, te beginnen met de functies die het laatst zijn uitgebracht.
 
 ## Uitgebrachte functies
 
 De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. De pagina bevat nieuwe functies die worden toegevoegd en problemen die zijn opgelost voor de nieuwe opmerkingervaring.
+
+<!--
+### Week of June 19, 2023
+
+#### Quote comment content in a new reply 
+
+Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview and Production: June 22, 2023 
+
+### Upcoming releases, after June 19, 2023
+
+<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+
+The features described in this section are planned to release shortly after the week of June 19, 2023. 
+
+#### Add emojis to an update
+
+You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Preview: To be announced 
+
+Production: To be announced. Before the 23.3 release.
+
+#### New commenting experience for additional objects 
+
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+
+Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+
+Production release for all customers: with the 23.4 release 
+-->
 
 ### Week van 12 juni 2023
 

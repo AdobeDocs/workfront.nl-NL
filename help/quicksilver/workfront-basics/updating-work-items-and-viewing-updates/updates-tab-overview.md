@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ De sectie Updates wordt weergegeven voor de volgende objecten:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Artikelen</li> 
+     <li>Artikelen*</li> 
      <li>Taken</li> 
      <li>Sjablonen</li> 
      <li>Sjabloontaken</li> 
@@ -89,10 +89,13 @@ De sectie Updates wordt weergegeven voor de volgende objecten:
   </tr> 
  </tbody> 
 </table>
+*Artikelen zijn taken. Alle informatie over taken is ook beschikbaar voor artikelen.
 
 ### Overzicht van de sectie Updates in de ervaringen met bètaopmerkingen
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
 
@@ -109,7 +112,7 @@ Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe 
    <td> 
     <ul> 
      <li><p>Doelen</p>
-     <li><span class="preview">Kaarten in het gebied van de kamers</span></li>
+     <li><span class="preview">Kaarten in het gebied van de kamers*</span></li>
       Dit is de enige ervaring voor doelen <span class="preview">en kaarten</span>.
      </li> 
      <li><span class="preview">Projecten</span></li>
@@ -124,10 +127,7 @@ Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe 
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+*U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 

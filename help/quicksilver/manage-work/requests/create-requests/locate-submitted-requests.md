@@ -6,7 +6,7 @@ description: Leer over de gebieden van Adobe Workfront waar u van verzoeken kunt
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -15,14 +15,16 @@ ht-degree: 0%
 
 # Verzonden aanvragen zoeken
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden, of aanvragen die u hebt gestart maar die u nooit hebt verzonden. U kunt deze aanvragen vinden in de volgende gebieden van Adobe Workfront:
 
 * **Verzonden sectie**: Alle verzoeken die u of iemand anders heeft ingediend en u hebt toegang tot minstens Mening.
 * **Conceptsectie** : Alle aanvragen die u hebt gestart, maar die u nooit hebt voltooid en die u nooit hebt verzonden. Voor meer informatie over ontwerpverzoeken raadpleegt u [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   >[!TIP]
-   >
-   >U kunt alleen uw eigen conceptaanvragen bekijken.
+  >[!TIP]
+  >
+  >U kunt alleen uw eigen conceptaanvragen bekijken.
 
 ## Toegangsvereisten
 
@@ -69,6 +71,8 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    >U kunt de kolommen in de lijst Verzendverzoeken niet aanpassen.
 
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
+
+   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. De volgende kolommen worden standaard weergegeven:
 
@@ -121,7 +125,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
 
    Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het converteren van problemen raadpleegt u [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Van de **Filterpictogram** ![](assets/filter-nwepng.png) Selecteer in de rechterbovenhoek van de lijst de filters die in de onderstaande tabel worden vermeld.
+1. Van de **Filterpictogram** ![](assets/filter-nwepng.png) in de rechterbovenhoek van de lijst selecteert u een van de filters die in de onderstaande tabel worden vermeld.
 
    >[!TIP]
    >

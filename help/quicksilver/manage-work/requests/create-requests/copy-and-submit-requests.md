@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # Verzoeken kopiëren en verzenden
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE only - hard code it in classic articles!)</p>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Wanneer u regelmatig vergelijkbare verzoeken verzendt, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
 
@@ -91,7 +89,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 * U hebt altijd toegang om een kopie van uw eigen verzoeken te kopiëren en te verzenden, tenzij iemand uw machtigingen heeft verwijderd.
 * De toegang om verzoeken te kopiëren en voor te leggen die oorspronkelijk door anderen werden voorgelegd zou automatisch aan mensen in het zelfde bedrijf kunnen worden verleend wanneer de schepper van de verzoekrij toelaat **De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven** in de Details van de Rij of geef de gebieden van het Project uit. Als u deze instelling uitschakelt, kan alleen de oorspronkelijke aanvrager zijn of haar eigen verzoeken weergeven.
 
-   Raadpleeg de volgende artikelen voor meer informatie:
+  Raadpleeg de volgende artikelen voor meer informatie:
 
    * [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md)
@@ -102,9 +100,9 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
    * De aanvraagwachtrij is verwijderd.
    * Het onderwerp van de wachtrij is verwijderd.
 
-      >[!TIP]
-      >
-      >Als het rijonderwerp slechts in de verzoekrij was, kunt u nog het verzoek kopiëren en voorleggen en het zal onder de verzoekrij zelf worden bewaard.
+     >[!TIP]
+     >
+     >Als het rijonderwerp slechts in de verzoekrij was, kunt u nog het verzoek kopiëren en voorleggen en het zal onder de verzoekrij zelf worden bewaard.
 
    * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Zie voor meer informatie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Als de verzoekrij geen rijonderwerp heeft en het originele verzoek werd voorgelegd vóór Januari 2022.
@@ -113,9 +111,9 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
 * U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Zie voor meer informatie [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-   >[!TIP]
-   >
-   >De gekopieerde aanvraag is niet gekoppeld aan een oplossend object.
+  >[!TIP]
+  >
+  >De gekopieerde aanvraag is niet gekoppeld aan een oplossend object.
 
 ## Verzoeken kopiëren en verzenden
 
@@ -123,27 +121,34 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 1. (Voorwaardelijk) Als de sectie Verzonden niet standaard wordt weergegeven, klikt u op **Verzonden** in het linkerdeelvenster.
 1. Zoek het verzoek dat u wilt kopiëren en verzenden als nieuw en voer een van de volgende handelingen uit:
 
-   * Selecteer het, klik dan het **Kopiëren en verzenden als nieuw** pictogram ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in de linkerbovenhoek van de lijst Ingediende aanvragen.
-   * Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de naam van de aanvraag klikt u op **Kopiëren en verzenden als nieuw**
+   * Selecteer het, klik dan het **Kopiëren en verzenden als nieuw** pictogram ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in de linkerbovenhoek van de lijst Ingediende aanvragen. <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
 
-      of
+   <!-- reveal this tip for 23.3 preview release:
+   >[!TIP]
+   >
+   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
+   -->
 
-      Klik met de rechtermuisknop op de geselecteerde aanvraag en klik vervolgens op **Kopiëren en verzenden als nieuw**.
+   * Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de naam van de aanvraag klikt u op **Kopiëren en verzenden als nieuw** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
 
-      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     of
 
-      >[!TIP]
-      >
-      >Wanneer u geen toegang hebt om kwesties tot stand te brengen, ontvangt u een waarschuwing dat uw beheerder u van het creëren van verzoeken beperkte.
+     Klik met de rechtermuisknop op de geselecteerde aanvraag en klik vervolgens op **Kopiëren en verzenden als nieuw**.
+
+     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+
+     >[!TIP]
+     >
+     >Wanneer u geen toegang hebt om kwesties tot stand te brengen, ontvangt u een waarschuwing dat uw beheerder u van het creëren van verzoeken beperkte.
 
 1. (Optioneel) Werk indien nodig de volgende gegevens bij:
 
    * **Type aanvraag**: de verzoekrij waar het gekopieerde verzoek wordt bewaard. Standaard wordt de gekopieerde aanvraag opgeslagen in de wachtrij met aanvragen van de oorspronkelijke aanvraag.
    * **Onderwerpgroepen** en **Onderwerpen van de Rij**, als deze zijn geselecteerd. De namen of onderwerpgroepen en rijonderwerpen worden aangepast voor uw milieu. Door gebrek, wordt het gekopieerde verzoek bewaard aan de onderwerpgroepen en de rijonderwerpen van het originele verzoek.
 
-      >[!TIP]
-      >
-      >Als het pad verandert van het pad van het oorspronkelijke verzoek, heeft de maker van de aanvraagwachtrij de wachtrij gewijzigd.
+     >[!TIP]
+     >
+     >Als het pad verandert van het pad van het oorspronkelijke verzoek, heeft de maker van de aanvraagwachtrij de wachtrij gewijzigd.
 
 1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke velden de maker van de aanvraagwachtrij in het dialoogvenster **Nieuwe probleemvelden** van de **Wachtrij** subtab op het project, zou u om het even welke volgende gebieden kunnen vinden:
 
@@ -231,7 +236,6 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
    >
    >* Alle aangepaste formulieren die bij de oorspronkelijke aanvraag horen en de waarden in de aangepaste velden worden naar de gekopieerde aanvraag overgebracht. Dit geldt ook voor velden die logica bevatten.
    >* U kunt geen aangepaste formulieren uit de gekopieerde aanvraag verwijderen.
-
 
 1. Klikken **Verzenden**.
 

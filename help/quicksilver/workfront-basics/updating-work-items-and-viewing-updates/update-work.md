@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -188,6 +188,8 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 1. Als u wilt reageren op een update, raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Een update aan een werkitem toevoegen met behulp van de bètaervaring voor opmerkingen
+
+Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Zoek het object dat u wilt bijwerken en klik op de naam van het object om de objectpagina te openen.
 1. Klikken  **Updates** in het linkerdeelvenster.
@@ -388,6 +390,8 @@ Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd
 
 
 ### Een update kopiëren in de nieuwe opmerkingervaring
+
+Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
 
