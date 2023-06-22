@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de functionaliteit voor Adobe Wor
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
+source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,25 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor Microsoft Office-proefdrukken wijzigen</a><span style="color: #ff0000;"> Nieuw in productie!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Updates voor de Desktop Proofing Viewer uitstellen</a> </p>
+                        <p>Op basis van feedback van gebruikers voegen we de optie toe om updates voor de Desktop Proofing Viewer uit te stellen. Gebruikers kunnen nu ervoor kiezen een update uit te stellen en door te gaan met hun werk, maar ze herinneren eraan dat er een update beschikbaar is telkens wanneer ze de Desktop Proofing Viewer openen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: Met de release van 23.3</p>
+                            </li>
+                            <li>
+                                <p>Productieversie: Met de release van 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor Microsoft Office-proefdrukken wijzigen</a></p>
                         <p>Om een robuuste en schaalbare proefdrukverwerkingsoplossing te behouden, wijzigen we onze ondersteunde Microsoft Office-bestandstypen en maximale bestandsgrootte.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -50,7 +65,8 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing Viewer-update</a></p>
                         <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.24! Deze update bevat Chrome v100-ondersteuning voor het controleren van interactieve proefdrukken en een aantal probleemoplossingen.</p>

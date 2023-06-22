@@ -7,9 +7,9 @@ description: Op deze pagina worden alle verbeteringen beschreven die zijn aangeb
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Deze verbeteringen worden, tenzij anders vermeld, beschikbaar gesteld in de prod
 
 ## Verbeteringen voor de sectie Updates
 
-De verbeteringen aan de sectie van Updates van doelstellingen worden beschikbaar gemaakt binnen het 23.3 versietijdschema. Deze verbeteringen worden kort na de release naar Preview beschikbaar gesteld in de productieomgeving.
+De verhogingen aan de sectie van Updates van doelstellingen worden ter beschikking gesteld binnen de 23.3 versieperiode, tezelfdertijd zoals de updates die aan de nieuwe opmerkingbètaervaring worden vrijgegeven. Deze verbeteringen worden kort na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
 Verbeteringen in de opmerkingen die beschikbaar zijn gemaakt voor doelen zijn dezelfde als die welke worden vrijgegeven met de nieuwe bètaervaring voor opmerkingen voor andere Workfront-objecten.
 
