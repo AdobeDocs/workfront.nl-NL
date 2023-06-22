@@ -6,16 +6,14 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
 # Een ad-hockaart aan een kaart toevoegen
-
-{{highlighted-preview}}
 
 U kunt snel een kaart aan een raad toevoegen en het aan een lid in de raad toewijzen. De kaart kan een taak, een kwestie, een persoon, een groep, of om het even welk type van punt vertegenwoordigen dat u op de raad wilt omvatten.
 
@@ -100,18 +98,18 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
       <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Voor meer informatie over controlelijstitems raadpleegt u <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
-      <td><span class="preview"><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken en klik op de knop <strong>Bijlage toevoegen</strong> pictogram <img src="assets/attachment-icon.png" alt="Bijlage, pictogram"> om een bestand bij de opmerking te voegen. Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn.</p><p><strong>OPMERKING:</strong> Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken en klik op de knop <strong>Bijlage toevoegen</strong> pictogram <img src="assets/attachment-icon.png" alt="Bijlage, pictogram"> om een bestand bij de opmerking te voegen. Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn.</p><p><strong>OPMERKING:</strong> Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
       </p><p>Klikken <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
-      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.</p></span></td>
+      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p><p><strong>OPMERKING:</strong> Opmerkingen over kaarten zijn alleen beschikbaar via de optie Aanmelden voor Workfront Boards.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Voorbeeldafbeelding in de productieomgeving:
+   Voorbeeldafbeelding in de productieomgeving wanneer de optie voor vroege functionaliteit niet wordt gebruikt:
    ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Voorbeeldafbeelding in de voorvertoningsomgeving:</span>
+   Voorbeeldafbeelding in de productieomgeving wanneer de optie voor vroege functionaliteit is ingeschakeld:
    ![Ad-hockaartgegevens](assets/ad-hoc-card-details-with-comments.png)
 
    Gebruik het linkernavigatievenster om tussen secties van gebieden op de kaartdetails te bewegen.
