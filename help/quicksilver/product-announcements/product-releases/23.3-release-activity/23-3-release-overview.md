@@ -4,7 +4,7 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8de827eb5c187030a1e8d8c8a414c9ddccaa3d80
+source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
 workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 0%
@@ -25,8 +25,10 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor mobiele apparaten](#agile-enhancements)
+* [Verbeteringen voor financieel beheer](#financial-management-enhancements)
 * [Verbeterde integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
+* [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -111,7 +113,23 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolommen sorteren op board</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
+                        <p>We hebben de mogelijkheid toegevoegd om de kaarten in de kolommen op een bord te sorteren. Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 22 juni 2023</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                             
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">De modus Donker is nu beschikbaar op Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
@@ -130,24 +148,8 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen voor workstreamherhalingen in Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
-                        <p>Wij hebben de capaciteit toegevoegd om doelstellingen aan een herhaling toe te voegen, zonder het moeten van de doelstellingen op een kaart een lijst maken. De doelstellingen worden toegevoegd in het formaat van een controlelijst en kunnen volledig worden gemerkt. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid. De kolom Volgende herhaling is nu ook beschikbaar op herhalingsborden.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoning release: 22 juni 2023</p>
-                            </li>
-                            <li>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolommen sorteren op board</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
-                        <p>We hebben de mogelijkheid toegevoegd om de kaarten in de kolommen op een bord te sorteren. Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Doelen beschikbaar voor workstream-iteraties in Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Wij hebben de capaciteit toegevoegd om doelstellingen aan een herhaling toe te voegen, zonder het moeten van de doelstellingen op een kaart een lijst maken. De doelstellingen worden toegevoegd in het formaat van een controlelijst en kunnen volledig worden gemerkt. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -299,6 +301,42 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
             </tbody>
         </table>
 
+### Verbeteringen voor financieel beheer
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span> </p>
+                        <p>De effectieve datum van kosten en factureringstarieven zijn nu beschikbaar voor het bedrijf, de gebruiker, en de baanobjecten van de rol in Workfront. Wanneer de datum daadwerkelijke tarieven op een project worden toegepast, en de uren het programma worden geopend projecttaken, worden de kosten en de opbrengst berekend gebruikend de gespecificeerde tarieven voor elke tijdspanne.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 29 juni 2023</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor klanten met de Fast release: Nog aan te kondigen, na de productievrijgave van 23.3</p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.4</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Verbeterde integratie
 
 <table>
@@ -445,24 +483,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span> </p>
-                        <p>De effectieve datum van kosten en factureringstarieven zijn nu beschikbaar voor het bedrijf, de gebruiker, en de baanobjecten van de rol in Workfront. Wanneer de datum daadwerkelijke tarieven op een project worden toegepast, en de uren het programma worden geopend projecttaken, worden de kosten en de opbrengst berekend gebruikend de gespecificeerde tarieven voor elke tijdspanne.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoning release: 29 juni 2023</p>
-                            </li>
-                            <li>
-                                <p>Productieversie voor klanten met de Fast release: Nog aan te kondigen, na de productievrijgave van 23.3</p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.4</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>   
+                 </tr>  
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuring van nieuwe documenten</a> </p>

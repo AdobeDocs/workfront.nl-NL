@@ -3,9 +3,9 @@ title: 23.3 Verbeteringen in de mobiele apparaten
 description: 23.3 Verbeteringen in de mobiele apparaten
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Deze pagina bevat een beschrijving van alle verbeteringen in de voorvertoningsomgeving die zijn aangebracht in de versie 23.3. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.3.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Zie voor meer informatie over hoe u zich vóór de driemaandelijkse release kunt aanmelden bij nieuwe functies in de raden van bestuur [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## In de Google-weergave van een project wordt een kanban-bord weergegeven
 
@@ -28,24 +30,6 @@ Terwijl u zich in de raad van bestuur bevindt, kunt u ervoor kiezen om over te s
 
 Documentatie voor de bijgewerkte projectweergave wordt samen met de bijbehorende release beschikbaar gemaakt voor een voorvertoning.
 
-## De modus Donker is nu beschikbaar op Adobe Workfront Boards
-
-U kunt nu al uw borden en werkstromen in donkere modus weergeven. De nieuwe instelling is beschikbaar via de voorkeuren op het dashboard voor de raden.
-
->[!NOTE]
->
->Als het exemplaar van Workfront van uw organisatie aan de Adobe verenigde Ervaring is genegeerd, kunt u donkere themamondopmaak voor alle Adobe Experience Cloud door uw voorkeurenmenu (uw profielbeeld) toelaten, en u zult geen afzonderlijke donkere wijzeoptie voor Workfront Boards zien.
-
-Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Verbeteringen voor workstreamherhalingen in Adobe Workfront Boards
-
-Wij hebben de capaciteit toegevoegd om doelstellingen aan een herhaling toe te voegen, zonder het moeten van de doelstellingen op een kaart een lijst maken. De doelstellingen worden toegevoegd in het formaat van een controlelijst en kunnen volledig worden gemerkt. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid.
-
-De kolom Volgende herhaling is nu ook beschikbaar op herhalingsborden. Wanneer u een kaart in deze kolom plaatst, wordt het automatisch gedragen aan de volgende herhaling en keert niet aan de achterstand terug. Bij de volgende herhaling wordt de kaart weergegeven in de kolom die overeenkomt met de status.
-
-Voor meer informatie over beide functies raadpleegt u [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Kolommen sorteren op board
 
 We hebben de mogelijkheid toegevoegd om de kaarten in de kolommen op een bord te sorteren. Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.
@@ -56,6 +40,24 @@ Met de optie &quot;Gebruikersvolgorde&quot; worden de kaarten geretourneerd in d
 
 Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## De modus Donker is nu beschikbaar op Adobe Workfront Boards
+
+U kunt nu al uw borden en werkstromen in donkere modus weergeven. De nieuwe instelling is beschikbaar via de voorkeuren op het dashboard voor de raden.
+
+>[!NOTE]
+>
+>Als het exemplaar van Workfront van uw organisatie aan de Adobe verenigde Ervaring is genegeerd, kunt u donkere themamondopmaak voor alle Adobe Experience Cloud door uw voorkeurenmenu (uw profielbeeld) toelaten, en u zult geen afzonderlijke donkere wijzeoptie voor Workfront Boards zien.
+
+Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Doelen beschikbaar in workstream-iteraties in Adobe Workfront Boards
+
+Wij hebben de capaciteit toegevoegd om doelstellingen aan een herhaling toe te voegen, zonder het moeten van de doelstellingen op een kaart een lijst maken. De doelstellingen worden toegevoegd in het formaat van een controlelijst en kunnen volledig worden gemerkt. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Opmerkingen toevoegen aan kaarten op borden
 
 >[!NOTE]
@@ -65,6 +67,8 @@ Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agi
 U kunt nu opmerkingen toevoegen aan zowel ad-hockaarten als aan gekoppelde kaarten op borden en andere gebruikers labelen voor de opmerkingen. Opmerkingen zijn beschikbaar in de kaartgegevens. De commentaarfunctie voor borden maakt gebruik van de nieuwe Adobe Workfront-opmerkingervaring.
 
 Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) en [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Verbeteringen voor de tagmanager van de Boards
 

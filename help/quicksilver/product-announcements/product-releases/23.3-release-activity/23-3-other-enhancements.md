@@ -3,9 +3,9 @@ title: 23.3 Andere verbeteringen
 description: 23.3 Andere verbeteringen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ New Home is een belangrijke nieuwe functie die we graag verder willen ontwikkele
 
 Nieuwe introductiepagina is de standaardervaring voor alle gebruikers bij de release. U kunt er echter voor kiezen om terug te keren naar de bestaande Home-ervaring terwijl we de mogelijkheden van de website blijven ontwikkelen.
 
-Documenten voor New Home worden beschikbaar gesteld met de release die op 23 juni kan worden voorvertoond.
+Zie voor meer informatie [Aan de slag met New Home in Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3420860/){target=_blank}
 
 ## Nieuwe ervaring met opmerkingen voor extra objecten
 
