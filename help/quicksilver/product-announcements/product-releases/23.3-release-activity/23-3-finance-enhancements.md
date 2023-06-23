@@ -3,7 +3,7 @@ title: 23.3 Verbeteringen van het financieel beheer
 description: 23.3 Verbeteringen van het financieel beheer
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Datumeffectieve functiesets zijn nu ook beschikbaar in het gebruikersprofiel. De
 
 Met een nieuwe functie, betaalkaarten, kunt u meerdere factureringssnelheden per functie definiëren op basis van locatie. Een factureringspercentage voor een functie en locatie kan ook effectieve datums bevatten. Aan projecten kunnen tariefkaarten worden gekoppeld om alle tariefinformatie tegelijk toe te passen voor de specifieke functie en locatie. Rollen die zijn gebaseerd op locaties kunnen ook worden toegewezen aan taken met de mogelijkheid om hun tarieven op toewijzingsniveau te overschrijven.
 
-Al deze functies worden in juli 2023 vrijgegeven voor Voorvertoning en de bijgewerkte gebruikersdocumentatie is dan beschikbaar.
+Al deze functies worden op 29 juli 2023 vrijgegeven voor Voorvertoning en de bijgewerkte gebruikersdocumentatie is dan beschikbaar.
