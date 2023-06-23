@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Deze pagina bevat informatie over functionaliteit die is opgenomen in de release
 
 De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien versie 23.3 zijn geplande versie van de Productie nadert.
 
-De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [register voor webinar hier](https://wcc.on24.com/webcast/present?e=4212784&amp;k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Functies buiten de cyclus (functies die vóór de releasedatum van 23.3 worden vrijgegeven) worden geel gemarkeerd.</span>
 
