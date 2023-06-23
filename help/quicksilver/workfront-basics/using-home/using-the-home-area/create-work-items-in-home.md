@@ -6,9 +6,9 @@ description: Werkitems maken vanuit het gebied Home
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,13 @@ U kunt een persoonlijke taak maken die alleen voor u beschikbaar is in het dialo
 
 >[!NOTE]
 >
->Wanneer u een persoonlijke taak maakt, wordt deze opgeslagen in een &quot;verborgen&quot; project waarin niet kan worden gezocht [!UICONTROL Workfront]. U kunt tot dit project slechts toegang hebben wanneer u een taak op het schrapt (van de taak zelf, niet van [!UICONTROL Home] gebied).\
->![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)>
+>* Wanneer u een persoonlijke taak maakt, wordt deze opgeslagen in een &quot;verborgen&quot; project waarin niet kan worden gezocht [!UICONTROL Workfront]. Het project krijgt de naam &quot;&lt; Gebruikersnaam > Taken&quot;. De &quot;Naam van de Gebruiker&quot;is de volledige naam van de gebruiker die de taak creeerde. U kunt tot dit project toegang hebben slechts wanneer u de persoonlijke taak in klikt [!UICONTROL Home] gebied, bijvoorbeeld van de broodkruimel van de taak.
+>
+>* In tegenstelling tot gewone projecttaken, hebben de persoonlijke taken een beperkte reeks gebieden die in de interface van Workfront zichtbaar zijn, en beïnvloeden niet de chronologie of de vooruitgang van om het even welk project. Het opnieuw toewijzen van een persoonlijke taak aan een andere gebruiker voegt alle taakgebieden aan een persoonlijke taak toe, maar de taak blijft op het persoonlijke project van de gebruiker die de taak creeerde.
+>
+>* Wij adviseren dat u een project creeert en om het even welke persoonlijke taken naar het verplaatst, als u persoonlijke taken een deel van het regelmatige werkschema wilt maken.
+>
+> ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
 
 ## Werk aanvragen van een andere gebruiker
 

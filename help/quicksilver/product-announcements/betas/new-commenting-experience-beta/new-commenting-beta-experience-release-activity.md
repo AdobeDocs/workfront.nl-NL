@@ -6,9 +6,9 @@ description: Bekijk de activiteit van de wekelijkse release voor de nieuwe Adobe
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -71,15 +71,25 @@ De functies in deze sectie zullen naar verwachting kort na de week van 19 juni 2
 
 U kunt nu de inhoud van een opmerking kopiëren en deze als een nieuw aanhalingsteken toevoegen aan een antwoord in dezelfde thread wanneer u de nieuwe opmerkingervaring gebruikt.
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
 
-Voorbeeld en productie: Geplant voor 29 juni 2023
+Geplande release Voorvertoning en Productie: 29 juni 2023
+
+#### Nieuwe interface voor logboektijd
+
+We hebben de interface voor logtijd opnieuw ontworpen vanuit het gebied Updates in de nieuwe opmerkingervaring.
+
+Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md). De documentatie wordt bijgewerkt op het moment van de release.
+
+Voorvertoning gepland: 29 juni 2023
+
+Planned Production release: met de 23.3-release
 
 #### Externe items toevoegen aan een update
 
 U kunt nu emoties aan een opmerking toevoegen met een optie op de werkbalk RTF in de nieuwe opmerkingervaring.
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
 
 Voorvertoning: Te publiceren (tijdens de release van 23.3)
 
@@ -91,11 +101,11 @@ De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kor
 
 Dit is de enige opmerkingervaring voor deze objecten, omdat de oudere opmerkingervaring wordt verwijderd wanneer u deze objecten opent.
 
-Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). De documentatie wordt bijgewerkt op het moment van de release.
 
 Voorvertoning release: Nog aan te kondigen na de productierelease van 23.3 (20 juli 2023)
 
-Productieversie voor klanten met de Fast release: Nog aan te kondigen, na de productievrijgave van 23.3
+Productieversie voor klanten met de Fast release: Te publiceren na de release van 23.3
 
 Productieversie voor alle klanten: met de release van 23.4
 
