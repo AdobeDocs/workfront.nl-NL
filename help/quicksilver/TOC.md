@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
+source-git-commit: 19ae3a7c21047c4abf476d051e1cbefd09559e84
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13088'
 ht-degree: 0%
 
 ---
@@ -802,6 +802,10 @@ ht-degree: 0%
       * [Overzicht van de project-, taak- en uitgiftedatums in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Home {#home}
       * [Home](workfront-basics/using-home/home.md)
+      * Nieuwe startpagina {#new-home}
+         * [Nieuwe startpagina](workfront-basics/using-home/new-home/new-home.md)
+         * [Aan de slag met Nieuwe startpagina](workfront-basics/using-home/new-home/get-started-with-new-home.md)
+         * [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
       * Het gebied Home gebruiken {#use-home-area}
          * [Het gebied Home gebruiken](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Aan de slag met Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
