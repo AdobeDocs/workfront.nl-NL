@@ -6,9 +6,9 @@ description: U kunt een taak van een project aan een ander project kopiëren, of
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,37 @@ U kunt een taak van een project aan een ander project kopiëren, of u kunt een t
 U kunt een of meer taken of bovenliggende taken tegelijk kopiëren of dupliceren.
 
 ## Toegangsvereisten
+
+<!-- drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard</p> 
+   Or
+   <p>Legacy license: Work or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a task</p> <p>Contribute or higher permissions to the project</p> 
+   <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -37,8 +68,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
-  </tr> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p><b>OPMERKING</b>
+
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Rechten voor een taak beheren </p> <p>Contribute of hoger machtigingen voor het project</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
@@ -54,12 +87,13 @@ Houd rekening met het volgende wanneer u een taak kopieert:
 
 * Problemen worden niet met de taak gekopieerd.
 * De mijlpalen worden overgebracht naar de gekopieerde taak en uit de originele taak verwijderd.
+* Wanneer u een taak van één project aan een ander kopieert, zouden de taakdata kunnen worden herberekend. Bij de herberekening wordt rekening gehouden met het tijdschema dat voor het nieuwe project wordt gebruikt en met het tijdschema voor het project op basis van informatie.
 
 U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoepassing:
 
 * Op het taakniveau, vanaf **Meer pictogram** ![](assets/qs-more-menu-19x7.png) rechts van de taaknaam.
 
-   Zie voor meer informatie de [Een taak kopiëren op taakniveau](#copy-a-task-at-the-task-level) in dit artikel.
+  Zie voor meer informatie de [Een taak kopiëren op taakniveau](#copy-a-task-at-the-task-level) in dit artikel.
 
 * Voer een van de volgende handelingen uit in een takenlijst:
 
@@ -67,8 +101,9 @@ U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoep
    * Selecteer de taak (of taken) en vouw de **Meer** pictogram ![](assets/more-icon-task-list.png) boven aan de takenlijst.
    * Selecteer een taak en breid de **Meer** pictogram ![](assets/more-icon-task-list.png) naast de taaknaam.
 
-      Deze optie is niet beschikbaar als u meerdere taken selecteert.
-   Zie voor meer informatie de [Taken in een lijst kopiëren](#copy-tasks-in-a-list) in dit artikel.
+     Deze optie is niet beschikbaar als u meerdere taken selecteert.
+
+  Zie voor meer informatie de [Taken in een lijst kopiëren](#copy-tasks-in-a-list) in dit artikel.
 
 ## Taken in een lijst kopiëren {#copy-tasks-in-a-list}
 
@@ -90,6 +125,7 @@ U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoep
    * Klik op de knop **Het menu Meer** boven aan de takenlijst klikt u op **Kopiëren naar**.
    * Klik met de rechtermuisknop op de geselecteerde taken en klik vervolgens op **Kopiëren naar**.
    * Als u één taak selecteert, klikt u op de knop **Meer** menu ![](assets/more-icon-task-list.png) naast de taaknaam in de lijst klikt u op **Kopiëren naar**.
+
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Doorgaan met het kopiëren van de taak, zoals beschreven in de sectie [Een taak kopiëren op taakniveau](#copy-a-task-at-the-task-level) te beginnen met Stap 4.
@@ -128,7 +164,6 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
    >* U kunt ook beginnen het Aantal van de Verwijzing te typen of identiteitskaart van het project in te gaan. Hierdoor kunt u projecten met identieke namen beter van elkaar onderscheiden.
    >* Er worden slechts 100 projecten weergegeven in de lijst.
 
-
    De huidige projectnaam wordt standaard weergegeven. Als u de taak binnen het zelfde project wilt kopiëren, verlaat dit gebied onveranderd.
 
 1. (Voorwaardelijk) Klik **aanvraagtoegang** om toegang tot het project te verzoeken, als u geen toegang tot het geselecteerde project hebt.
@@ -143,6 +178,7 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
 1. Klikken **Opties** in het linkerpaneel, dan schrap de taakattributen die u niet met de taak wilt kopiëren. Alle opties zijn standaard geselecteerd.
 
    >[!TIP]
+   >
    Selecteren en vervolgens selectie opheffen **Alles selecteren** deselecteert alle opties.
 
    Schakel een van de volgende opties uit als u deze niet wilt overbrengen naar de gekopieerde taak. In de volgende tabel wordt beschreven wat er gebeurt wanneer de opties zijn uitgeschakeld:
@@ -201,12 +237,14 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
 1.  (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de taak in het bestemmingsproject die u de ouder van de gekopieerde taak wilt worden.
 
    >[!TIP]
+   >
    Wanneer u selecteert om meerdere taken in een lijst te kopiëren, worden alle geselecteerde taken de onderliggende taken van het geselecteerde bovenliggende element.
 
    Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
    * In de taaklijst, selecteer één van de ouders in het projectplan.
    * Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende taak.
+
    De taak moet in de lijst worden weergegeven.
 
    ![Bovenliggende taak selecteren bij het verplaatsen van een taak met zoekfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
@@ -242,12 +280,12 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
    * Problemen
    * Alleen de voorgangers die zich in dezelfde groep gekopieerde taken bevinden, worden ook gekopieerd met hun opvolgertaken.
 
-      **Voorbeeld:** Bijvoorbeeld, als u Taak 2 en zijn voorganger, Taak 1, tezelfdertijd kopieert, dan hebt u een exemplaar van Taak 2 en een exemplaar van Taak 1. Het exemplaar van Taak 1 zal voorganger van het exemplaar van Taak 2 zijn. Maar als u enkel Taak 2 kopieert zonder zijn voorganger te kopiëren, dan zal zijn exemplaar geen voorganger hebben.
+     **Voorbeeld:** Bijvoorbeeld, als u Taak 2 en zijn voorganger, Taak 1, tezelfdertijd kopieert, dan hebt u een exemplaar van Taak 2 en een exemplaar van Taak 1. Het exemplaar van Taak 1 zal voorganger van het exemplaar van Taak 2 zijn. Maar als u enkel Taak 2 kopieert zonder zijn voorganger te kopiëren, dan zal zijn exemplaar geen voorganger hebben.
 
 * Wanneer u een bovenliggende taak dupliceert, worden alle onderliggende taken ook gedupliceerd, zelfs wanneer de onderliggende taken niet zijn geselecteerd.
 * U kunt meerdere taken tegelijk dupliceren.
 
-   U kunt echter niet meerdere taken tegelijk dupliceren die niet opeenvolgend zijn.
+  U kunt echter niet meerdere taken tegelijk dupliceren die niet opeenvolgend zijn.
 
 * Mijlpalen worden verplaatst naar de nieuwe taak en uit de oorspronkelijke taak verwijderd.
 
@@ -259,7 +297,7 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
 
    * (Voorwaardelijk) Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Automatisch opslaan**, selecteert u de taken die u wilt dupliceren en klikt u op de knop **Het menu Meer** ![](assets/qs-more-menu-29x11.png) > **Dupliceren**.
 
-      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
    * (Voorwaardelijk) Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Handmatig opslaan** > **Standaard** of **Tijdlijnplanning** Voer vervolgens de volgende handelingen uit:
 
@@ -268,4 +306,5 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
       1. (Optioneel en voorwaardelijk) Klik op **Opnieuw** als u eerder had geklikt **Ongedaan maken** om de wijzigingen te behouden en de taken te dupliceren.
 
       1. Klikken **Opslaan** om uw wijzigingen op te slaan.
+
    1. Taken in een lijst bewerken

@@ -6,7 +6,7 @@ description: Met de knop Gereed kunt u automatisch de status van een taak of een
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -22,7 +22,7 @@ De [!UICONTROL Done] kan de status van een taak of een uitgave automatisch inste
 Gebruikers met bepaalde machtigingen kunnen de [!UICONTROL Done] om bepaalde statussen in het systeem te weerspiegelen. Er zijn drie verschillende manieren waarop [!UICONTROL Done] knop werkt voor problemen in [!DNL Workfront]:
 
 * Als de gebruiker een toegewezen [!UICONTROL Home Team], [!DNL Workfront] beheerder of een gebruiker met een [!UICONTROL Plan] licentie kan de [!UICONTROL Done] om bepaalde statussen voor teamleden te weerspiegelen. Zie [Configureer de [!UICONTROL Done] knoop voor een Team](#configure-the-uicontrol-done-button-for-a-team) in dit artikel.
-* Als de gebruiker geen [!UICONTROL Home Team], maar ze hebben[!UICONTROL Other Teams] in hun profiel, zoekt Workfront naar de instelling van de [!UICONTROL Done] op om het even welke teams verbonden aan de gebruiker. De selectie is willekeurig en de status verbonden aan om het even welke teams wordt gebruikt voor de kwestie.
+* Als de gebruiker geen [!UICONTROL Home Team], maar ze hebben [!UICONTROL Other Teams] in hun profiel, zoekt Workfront naar de instelling van de [!UICONTROL Done] op om het even welke teams verbonden aan de gebruiker. De selectie is willekeurig en de status verbonden aan om het even welke teams wordt gebruikt voor de kwestie.
 * Als de gebruiker geen [!UICONTROL Home Team] toegewezen [!UICONTROL Done] knop voor problemen is gekoppeld aan een systeem dat wordt gegenereerd [!UICONTROL Resolved] status met de drielettercode [!UICONTROL RLV]. Er zijn geen configuratieopties beschikbaar in dit scenario. De [!UICONTROL Done] automatisch wordt deze status ingesteld.
 * Als de [!UICONTROL Resolved] ([!UICONTROL RLV]) wordt verwijderd en de gebruiker het probleem markeert als [!UICONTROL Done] heeft geen [!UICONTROL Home Team], is de standaarduitgiftestatus gekoppeld aan wat als standaard is ingesteld voor [!UICONTROL Closed] voor de groep die aan het project wordt toegewezen, behoort de kwestie tot. De Workfront-beheerder kan een standaardinstelling voor de groep configureren voor het hele systeem. Zie [Configureer de [!UICONTROL Done] als de knop [!UICONTROL Resolved] status is verwijderd](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in dit artikel.
 
