@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">De modus Donker is nu beschikbaar op Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">De modus Donker is nu beschikbaar op Adobe Workfront Boards</a></p>
                         <p>U kunt nu al uw borden en werkstromen in donkere modus weergeven. De nieuwe instelling is beschikbaar via de voorkeuren op het dashboard voor de raden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juni 2023</p>
+                                <p>Voorvertoning release: 22 juni 2023<span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                <p>Productieversie voor alle klanten: N.v.t.</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Doelen beschikbaar voor workstream-iteraties in Adobe Workfront Boards</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Doelen beschikbaar voor workstream-iteraties in Adobe Workfront Boards</a></p>
                         <p>Wij hebben de capaciteit toegevoegd om doelstellingen aan een herhaling toe te voegen, zonder het moeten van de doelstellingen op een kaart een lijst maken. De doelstellingen worden toegevoegd in het formaat van een controlelijst en kunnen volledig worden gemerkt. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juni 2023</p>
+                                <p>Voorvertoning release: 22 juni 2023<span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                <p>Productieversie voor alle klanten: N.v.t.</p>
                             </li>
                         </ul>
                     </td>

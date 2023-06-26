@@ -3,9 +3,9 @@ title: 23.3 Verbeteringen in de mobiele apparaten
 description: 23.3 Verbeteringen in de mobiele apparaten
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Met de optie &quot;Gebruikersvolgorde&quot; worden de kaarten geretourneerd in d
 
 Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## De modus Donker is nu beschikbaar op Adobe Workfront Boards
 
 U kunt nu al uw borden en werkstromen in donkere modus weergeven. De nieuwe instelling is beschikbaar via de voorkeuren op het dashboard voor de raden.
@@ -54,7 +56,7 @@ Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/
 
 Wij hebben de capaciteit toegevoegd om doelstellingen aan een herhaling toe te voegen, zonder het moeten van de doelstellingen op een kaart een lijst maken. De doelstellingen worden toegevoegd in het formaat van een controlelijst en kunnen volledig worden gemerkt. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+De kolom Volgende herhaling is nu ook beschikbaar op herhalingsborden. Wanneer u een kaart in deze kolom plaatst, wordt het automatisch gedragen aan de volgende herhaling en keert niet aan de achterstand terug. Bij de volgende herhaling wordt de kaart weergegeven in de kolom die overeenkomt met de status.
 
 Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
