@@ -7,16 +7,14 @@ description: Een herhaling is een ingestelde hoeveelheid tijd die is gereserveer
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Een herhaling in een werkstroom maken
-
-{{highlighted-preview}}
 
 Een herhaling is een ingestelde hoeveelheid tijd die is gereserveerd voor het voltooien van het werk. Sommige teams kunnen een herhaling als sprint verwijzen.
 
@@ -90,12 +88,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Nadat een herhaling is gestart, kunt u alleen de naam van de herhaling wijzigen en niet de datum- of herhalingslengte.
 
-1. <span class="preview">Om doelstellingen aan de herhaling toe te voegen, breid uit [!UICONTROL **Doelen**].</span>
-1. <span class="preview">Klikken [!UICONTROL **Doel toevoegen**] en typ de naam van het doel.</span>
+<!--   
 
-   <span class="preview">Als doelen tijdens de herhaling zijn voltooid, kunt u het selectievakje inschakelen om ze te markeren als voltooid of op de knop **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png) om een doel te verwijderen. Het metriegebied op het hoogste recht van de herhaling toont hoeveel doelstellingen bestaan en hoeveel zijn voltooid.</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration

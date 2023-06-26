@@ -6,16 +6,14 @@ title: E-mailmeldingen en voorkeuren worden verzonden
 description: Adobe Workfront Boards stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # E-mailmeldingen en voorkeuren worden verzonden
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. De meldingen zijn standaard ingeschakeld en u kunt in de voorkeursinstellingen voor de raden selecteren welke e-mails u wilt ontvangen.
 
@@ -59,19 +57,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De voorkeuren die u instelt voor e-mailberichten, gelden voor al uw borden.
 
+<!--
+
 <div class="preview">
 
-## Voorkeuren voor de donkere modus instellen
+## Set the dark mode preference
 
 >[!NOTE]
 >
->Als het exemplaar van Workfront van uw organisatie aan de Adobe verenigde Ervaring is genegeerd, kunt u donkere themamondopmaak voor alle Adobe Experience Cloud door uw voorkeurenmenu (uw profielbeeld) toelaten, en u zult geen afzonderlijke donkere wijzeoptie voor Workfront Boards zien. Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. Klikken [!UICONTROL **Voorkeuren**] op het dashboard Borden.
-1. Schakel de modus Donker in of uit in het gebied Thema.
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   De voorkeur die u instelt voor de donkere modus, wordt toegepast op al uw borden en werkstromen en op het dashboard.
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->

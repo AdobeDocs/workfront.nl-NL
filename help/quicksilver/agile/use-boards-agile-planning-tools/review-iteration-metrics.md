@@ -7,16 +7,14 @@ description: Metriek zijn beschikbaar voor elke herhaling in een werkstroom, op 
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # Metrische gegevens voor herhaling controleren
-
-{{highlighted-preview}}
 
 Metrische gegevens zijn beschikbaar voor elke herhaling in een werkstroom, op het werkgebied voor herhalingsprocessen en het dashboard.
 
@@ -49,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Selecteer [!UICONTROL Iteration Process] bord.
 1. Bekijk het metriegebied boven het bord in de rechterbovenhoek. Klik op de pijlen omhoog en omlaag om te schakelen tussen herhalingen.
 
-   De volgende maatstaven worden weergegeven: het totale aantal punten dat aan de iteratie is toegewezen, de resterende punten die nog niet in de iteratie zijn ingevuld, het aantal punten dat in de iteratie is ingevuld; <span class="preview">en het aantal doelstellingen die in de herhaling worden gecreeerd en voltooid</span>.
+   De volgende maatstaven worden weergegeven: het totale aantal punten dat aan de herhaling is toegewezen, de resterende punten die nog niet in de herhaling zijn voltooid, het aantal punten dat in de herhaling is voltooid.
 
 1. (Optioneel) Klik op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png) om het detailsdialoogvenster voor de geselecteerde herhaling te openen.
 
