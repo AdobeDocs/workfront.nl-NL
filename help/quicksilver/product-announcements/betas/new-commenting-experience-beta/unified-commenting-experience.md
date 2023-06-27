@@ -5,10 +5,11 @@ title: Nieuwe ervaring met opmerkingen
 description: Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van geselecteerde objecten.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -61,12 +62,12 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 >
 >Voor de onderstaande objecten zijn alleen de opmerkingen en systeemupdates van het afgelopen jaar (vanaf juni 2022) beschikbaar wanneer de bètaervaring wordt ingeschakeld.
 >
+>U kunt opmerkingen en systeemupdates over deze objecten vóór juni 2022 bekijken wanneer u de sectie Updates in de huidige ervaring bekijkt:
 >* Problemen
 >* <span class="preview">Projecten</span>
 >* <span class="preview">Taken</span>
 >* <span class="preview">Documenten</span>
->
->U kunt opmerkingen en systeemupdates vóór juni 2022 weergeven wanneer u de sectie Updates in de huidige ervaring bekijkt.
+
 
 
 In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de nieuwe opmerkingervaring en de beschikbaarheid ervan op gebieden waar deze functies worden ondersteund:
@@ -135,7 +136,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>
