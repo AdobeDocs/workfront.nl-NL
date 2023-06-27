@@ -5,13 +5,13 @@ title: Documenten uploaden vanuit Illustrator
 description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bekijken en goedkeuren of die u gewoon in Adobe Workfront wilt opslaan.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
+source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # Documenten uploaden van [!DNL Illustrator]
 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * U moet de [!DNL Adobe Workfront for design and video] insteekmodule voordat u documenten kunt uploaden van [!DNL Illustrator].
 
-   Zie voor instructies [Installeren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Zie voor instructies [Installeren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Documenten uploaden naar [!DNL Illustrator]
 
@@ -73,3 +73,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![](assets/file-export-settings.png)
 1. Klik op **[!UICONTROL Upload]**.
 Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
+
+>[!NOTE]
+>
+>Als het document wordt geëxporteerd als een tekstdocument, moet u uw voorkeuren mogelijk opnieuw instellen in [!DNL Adobe Illustrator].
+>
+>1. In [!DNL Illustrator]klikt u op de knop **[!UICONTROL Edit]** en selecteert u **[!UICONTROL Preferences]**.
+>1. Selecteren **[!UICONTROL General]**.
+>1. Klik op **[!UICONTROL Reset Preferences]**.
+>1. Sluiten en opnieuw starten [!DNL Illustrator].
