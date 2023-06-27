@@ -6,9 +6,9 @@ description: Momenteel wordt een update van de opmerkingervaring in Adobe Workfr
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,18 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 * Opmerkingen maken over een systeemupdate
 * De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen
 * Aangepast formulier bewerken
+
+>[!NOTE]
+>
+>Voor de onderstaande objecten zijn alleen de opmerkingen en systeemupdates van het afgelopen jaar (vanaf juni 2022) beschikbaar wanneer de bètaervaring wordt ingeschakeld.
+>
+>* Problemen
+>* <span class="preview">Projecten</span>
+>* <span class="preview">Taken</span>
+>* <span class="preview">Documenten</span>
+>
+>U kunt opmerkingen en systeemupdates vóór juni 2022 weergeven wanneer u de sectie Updates in de huidige ervaring bekijkt.
+
 
 In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de nieuwe opmerkingervaring en de beschikbaarheid ervan op gebieden waar deze functies worden ondersteund:
 

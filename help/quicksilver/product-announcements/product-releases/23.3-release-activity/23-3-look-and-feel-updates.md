@@ -4,9 +4,9 @@ description: Updates weergeven en voelen tijdens de releaseperiode van 23.3
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ De verbeteringen zijn:
 * er is nu een laadindicator wanneer de pagina wordt geüpload;
 * het pictogram Kopiëren is blijvend en gaat vergezeld van tekst en wordt uitgeschakeld wanneer er geen verzoeken zijn geselecteerd.
 
-Zie voor meer informatie [Verzoeken kopiëren en verzenden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Zie voor meer informatie [Verzoeken kopiëren en verzenden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). De documentatie zal na de eigenschapversies worden bijgewerkt.
 
-## Bijgewerkt ontwerp bij het indienen van een nieuwe aanvraag
+## Bijgewerkt ontwerp wanneer het toevoegen van een nieuwe kwestie aan een project
 
 >[!NOTE]
 >
 >Voorvertoning gepland: 5 juli 2023; Planned Production release: met de 23.3-release
 
-We hebben het vak Nieuwe aanvraag bijgewerkt. Dit venster wordt weergegeven wanneer u een nieuwe aanvraag indient. Nu, past de interface de Nieuwe uitgavekader aan die wanneer het toevoegen van een nieuwe kwestie aan een project toont.
+We hebben het vak Nieuwe uitgave bijgewerkt, dat wordt weergegeven wanneer u een nieuwe uitgave naar een project verzendt. Nu, past de interface het Nieuwe verzoekvakje aan dat toont wanneer het voorleggen van een nieuw verzoek aan een verzoekrij.
 
-Zie voor meer informatie [Adobe Workfront-aanvragen maken en verzenden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Zie voor meer informatie [Problemen maken](../../../manage-work/issues/manage-issues/create-issues.md). De documentatie zal na de eigenschapversies worden bijgewerkt.
 
 ## Bijgewerkte lijst met factuurtarieven
 

@@ -6,9 +6,9 @@ description: Bekijk de activiteit van de wekelijkse release voor de nieuwe Adobe
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Zie voor algemene informatie over de nieuwe ervaringen met opmerkingen, waaronde
 >
 >De nieuwe opmerkingervaring die is gestart in Beta met de release 23.2. Voor informatie over de oorspronkelijke versie raadpleegt u [23.2 Overzicht van de release](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Functies voor opmerkingen die worden vrijgegeven voor de bètaervaring voor Workfront-objecten, worden ook vrijgegeven naar de sectie Updates van een doelobject in Workfront Goals.
+>Als enige opmerkingservaring worden functies die worden vrijgegeven voor de bètaervaring voor Workfront-objecten ook vrijgegeven voor de sectie Updates van de volgende objecten:
+>* Doelen
+>* Kaarten in het gebied van de kamers.
 
 ## Tijdlijn vrijgeven
 
