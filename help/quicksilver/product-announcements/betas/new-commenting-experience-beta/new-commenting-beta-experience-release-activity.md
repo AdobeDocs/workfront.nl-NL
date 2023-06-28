@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,9 @@ U kunt nu de inhoud van een opmerking kopiëren en deze als een nieuw aanhalings
 
 Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
 
-Geplande release Voorvertoning en Productie: 29 juni 2023
+Voorvertoning: 28 juni 2023
+
+Planned Production release: 29 juni 2023
 
 #### Nieuwe interface voor logboektijd
 

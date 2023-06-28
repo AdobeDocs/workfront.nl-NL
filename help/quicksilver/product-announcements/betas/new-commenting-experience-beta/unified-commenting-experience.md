@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> <!--<span class="preview">✓</span>-->
+   <td> <span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 2e kwartaal 2023
    </td>

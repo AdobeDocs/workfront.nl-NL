@@ -5,10 +5,12 @@ title: Problemen bewerken
 description: U kunt informatie bewerken over uitgaven die u hebt gemaakt of die andere gebruikers hebben gemaakt als zij de problemen met u hebben gedeeld.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -92,6 +94,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Zie voor meer informatie [Aangepaste formulieren en objectdetails exporteren](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Voor informatie over de velden die zichtbaar zijn in de sectie Details van uitgave, gaat u verder met het bewerken van het probleem in het venster Uitgave bewerken, zoals hieronder beschreven.
 
 1. Als u alle informatie over een uitgave wilt bewerken, selecteert u een uitgave in een lijst en klikt u op **Bewerken** boven aan de lijst
@@ -119,6 +122,8 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
    >[!NOTE]
    >
    >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen de velden in het vak Probleem bewerken verschillen in uw omgeving. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >De meeste velden in de onderstaande secties zijn ook toegankelijk vanuit het vak Nieuwe uitgave wanneer u een uitgave maakt. De secties waaronder de velden zich bevinden, komen niet overeen met het vak Nieuwe uitgave. Voor informatie over het maken van problemen raadpleegt u [Problemen maken](../../issues/manage-issues/create-issues.md).
 
 ### Naam van uitgave {#issue-name}
 
@@ -282,7 +287,6 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
    >
    >* Wijs het werkitem opnieuw toe aan actieve bronnen.
    >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
-
 
 1. (Optioneel) Geef aan of een verkrijger de primaire verkrijger is in verband met de kwestie door de aanwijzer boven de naam van de verkrijger te houden en op **Primair maken**. Een team kan niet de primaire ontvanger van een kwestie zijn.
 1. Werk de volgende velden bij:

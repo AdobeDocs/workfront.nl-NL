@@ -5,8 +5,10 @@ title: Problemen maken
 description: Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of van een taak registreren. Gebruikers met de juiste toegang kunnen de status van problemen bekijken en controleren terwijl het project of de taak wordt voltooid, zodat er geen lange e-mailketens of statusvergaderingen nodig zijn. In tegenstelling tot taken, die geplande gebeurtenissen zijn, vormen kwesties ongeplande het werkpunten in Adobe Workfront.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -14,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Problemen maken
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of van een taak registreren. Gebruikers met de juiste toegang kunnen de status van problemen bekijken en controleren terwijl het project of de taak wordt voltooid, zodat er geen lange e-mailketens of statusvergaderingen nodig zijn. In tegenstelling tot taken, die geplande gebeurtenissen zijn, vormen kwesties ongeplande het werkpunten in Adobe Workfront.
 
@@ -53,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
+(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
 -->
 
 ## Beperkingen bij het maken van problemen
@@ -92,6 +96,8 @@ Om een kwestie op een taak of een project tot stand te brengen:
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
+   <!--update the screen shot above for preview and highlight in yellow-->
+
    * Als er slechts één die Onderwerp van de Rij op het project wordt geplaatst is, wordt het automatisch getoond.
    * Als de Groep van het Onderwerp geen Onderwerpen van de Rij of de Groepen van het Onderwerp onder het heeft, is niets beschikbaar in de drop-down Groep van het Onderwerp.
 
@@ -101,7 +107,7 @@ Om een kwestie op een taak of een project tot stand te brengen:
    * Volgorde wijzigen
    * Probleem
    * Verzoek\
-      Afhankelijk van hoe uw Workfront-beheerder uw projectvoorkeuren heeft geconfigureerd, kunnen de namen van de uitgavetypen voor u verschillen.
+     Afhankelijk van hoe uw Workfront-beheerder uw projectvoorkeuren heeft geconfigureerd, kunnen de namen van de uitgavetypen voor u verschillen.
 
 1. Geef de velden op die beschikbaar zijn in het dialoogvenster **Nieuw probleem** formulier. Voor meer informatie over het definiëren van velden terwijl u een nieuwe uitgave invoert, raadpleegt u [Problemen bewerken](../../../manage-work/issues/manage-issues/edit-issues.md).
 1. (Voorwaardelijk) Als de onderwerpen van de Rij met een douaneformulier worden geassocieerd, zal dat douaneformulier in worden getoond **Nieuw probleem** formulier.\
@@ -119,6 +125,7 @@ De kwesties kunnen aan veelvoudige gebruikers, baanrollen of aan een team worden
 >[!IMPORTANT]
 >
 >De eigenaar van het project moet **Gebruikers toestaan inline uitgaven toe te voegen** wanneer het bepalen van kwesties voor het project alvorens u kwesties inline aan het project of de taken kunt toevoegen. Voor informatie over het vormen van uitgaven montages op een project, zie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+>
 
 Wanneer u snel meerdere problemen wilt toevoegen, kunt u inline problemen voor een taak of project maken door deze toe te voegen aan een lijst met problemen.
 
@@ -150,7 +157,6 @@ Inline uitgaven maken:
    >* Velden die bij een ander object horen
    >* Velden die u niet kunt bewerken
    >* Velden die berekeningen zijn en die automatisch door Workfront worden bijgewerkt
-
 
 1. Klik op Enter om het inline bewerken te voltooien en de uitgave toe te voegen aan het project of de taak.
 
