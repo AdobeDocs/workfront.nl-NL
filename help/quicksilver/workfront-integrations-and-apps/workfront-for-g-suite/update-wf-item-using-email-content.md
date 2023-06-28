@@ -7,9 +7,9 @@ description: U kunt een bestaand project, een bestaande taak of een bestaand pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
+>De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
 
 U kunt een bestaand project, een bestaande taak of een bestaande uitgave bijwerken met informatie van een niet-[!DNL Adobe Workfront] e-mail.
 
@@ -99,6 +99,6 @@ Voordat u een [!DNL Workfront] item met e-mailinhoud van [!DNL G Suite]moet u
 
    * Als u wilt reageren op een update van de **[!UICONTROL Updates]** tabblad, klikt u op **[!UICONTROL Reply]** en typ uw antwoord.
 
-      Voor beide bovenstaande opties kunt u op **[!UICONTROL Notify]** om ontvangers voor het antwoord te specificeren zoals in stap 5. Wanneer u klaar bent, klikt u op **[!UICONTROL Post]** om de update of het antwoord toe te voegen.
+     Voor beide bovenstaande opties kunt u op **[!UICONTROL Notify]** om ontvangers voor het antwoord te specificeren zoals in stap 5. Wanneer u klaar bent, klikt u op **[!UICONTROL Post]** om de update of het antwoord toe te voegen.
 
    * Klik op de knop **[!UICONTROL Details]** om de details voor het nieuwe project, de nieuwe taak, of de kwestie te bekijken.

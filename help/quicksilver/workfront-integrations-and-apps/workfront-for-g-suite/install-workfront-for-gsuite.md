@@ -7,9 +7,9 @@ description: U kunt de [!DNL Adobe Workfront] voor de invoegtoepassing G Suite v
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
+>De meest recente versie van de [!DNL Adobe Workfront] insteekmodule voor [!DNL Google] is op 26 juni 2023 vrijgegeven.
 
 U kunt de [!DNL Adobe Workfront for G Suite] invoegtoepassing van de [!DNL G Suite] Marketplace.
 
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Installeren [!DNL Workfront for G Suite]
 
-1. Klik op de volgende koppeling: [[!DNL Workfront for G Suite]](https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461)
+1. Klik op de volgende koppeling: [[!DNL Workfront for G Suite]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
    of
 

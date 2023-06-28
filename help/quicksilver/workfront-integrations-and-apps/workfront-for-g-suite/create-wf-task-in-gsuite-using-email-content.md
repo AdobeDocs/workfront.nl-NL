@@ -7,9 +7,9 @@ description: U kunt een externe e-mail (niet gegenereerd door Adobe) converteren
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
+>De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
 
 U kunt een externe e-mail converteren (niet gegenereerd door [!DNL Adobe Workfront]) [!DNL Workfront] taak.
 
@@ -116,7 +116,7 @@ Voordat u een [!DNL Workfront] taak in [!DNL G Suite]moet u
 
    * Als u wilt reageren op een update van de **[!UICONTROL Updates]** tabblad, klikt u op **[!UICONTROL Reply]** en typ uw antwoord.
 
-      Voor beide bovenstaande acties kunt u bepaalde gebruikers op de hoogte stellen van uw opmerking. Klikken **[!UICONTROL Notify]** begint u de naam van een gebruiker te typen en klikt u vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. Herhaal dit proces voor andere gebruikers die u een melding wilt sturen en klik vervolgens op **[!UICONTROL Post]**.
+     Voor beide bovenstaande acties kunt u bepaalde gebruikers op de hoogte stellen van uw opmerking. Klikken **[!UICONTROL Notify]** begint u de naam van een gebruiker te typen en klikt u vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. Herhaal dit proces voor andere gebruikers die u een melding wilt sturen en klik vervolgens op **[!UICONTROL Post]**.
 
    * Klik op de knop **[!UICONTROL Documents]** om documenten weer te geven die met de taak zijn opgeslagen.
 

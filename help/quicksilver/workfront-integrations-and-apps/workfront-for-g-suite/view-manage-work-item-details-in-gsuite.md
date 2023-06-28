@@ -7,9 +7,9 @@ description: U kunt de details van een tijdelijk item weergeven en beheren zonde
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
+>De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
 
 U kunt de details van een het werkpunt bekijken en beheren zonder te verlaten [!DNL G Suite]. U kunt bijvoorbeeld de beschrijving van een taak lezen, het bovenliggende object bekijken, de status ervan wijzigen en markeren als voltooid, allemaal binnen [!DNL Adobe Workfront for G Suite].
 
@@ -62,18 +62,18 @@ Voordat u de details van het werkitem kunt weergeven en beheren in [!DNL G Suite
 
    * De objecten weergeven **[!UICONTROL Description]** en andere details, zoals de gebruikers die aan het object zijn toegewezen, **[!UICONTROL Priority]**, de aanvrager **[!UICONTROL Planned completion date]** en eventuele aangepaste velden en formulieren die aan het object zijn gekoppeld.
 
-      Aangepaste formulieren geven alleen velden weer waarin informatie is toegevoegd.
+     Aangepaste formulieren geven alleen velden weer waarin informatie is toegevoegd.
 
    * Klik op de knop **[!UICONTROL Parent project]** gebied voor het weergeven van de details van het bovenliggende object.
 
-      >[!TIP]
-      >
-      >Dit kan handig zijn wanneer u taken en problemen met dezelfde naam hebt en deze moet onderscheiden.
+     >[!TIP]
+     >
+     >Dit kan handig zijn wanneer u taken en problemen met dezelfde naam hebt en deze moet onderscheiden.
 
    * Accepteer het aan u toegewezen werk door op **[!UICONTROL Work on it]**.
    * Verschillende opties bewerken, zoals **[!UICONTROL Done]** de **[!UICONTROL Status]** en de **[!UICONTROL Percent complete]**.
 
-      Onder **[!UICONTROL Percent complete]**, typt u nummers en (optioneel) het procentteken % om de voortgang van een object aan te geven.
+     Onder **[!UICONTROL Percent complete]**, typt u nummers en (optioneel) het procentteken % om de voortgang van een object aan te geven.
    * Informatie weergeven over een goedkeuringsaanvraag, zoals de eigenaar, de grootte en eventuele bijlagen.
    * **[!UICONTROL Approve]** of **[!UICONTROL Reject]** goedkeuringsverzoeken en -documenten.
 

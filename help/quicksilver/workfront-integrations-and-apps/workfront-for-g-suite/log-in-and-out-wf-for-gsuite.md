@@ -7,9 +7,9 @@ description: In dit artikel wordt beschreven hoe u zich aanmeldt bij het dialoog
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Er is een [bekende kwestie](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) met de huidige versie van [!DNL Workfront for G Suite] werkt niet zoals verwacht. We werken aan een nieuwe versie en verwachten dat deze wordt vrijgegeven aan de [!DNL Google Marketplace] in de nabije toekomst .
+>De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
 
 ## Toegangsvereisten
 
@@ -62,7 +62,6 @@ Voordat u zich kunt aanmelden [!DNL Workfront for G Suite]moet u
    >
    >* [!DNL Workfront] verbindt met [!DNL G Suite] het gebruiken van OAuth 2.0, een veilige norm die door de meeste web-based integratie voor de authentificatie en de vergunning van gebruikers wordt gebruikt.
    >* Wanneer u wordt gevraagd om het dialoogvenster [domein of host] van uw [!DNL Workfront] -account, typt u deze notatie: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
-
 
 
 ## Afmelden bij [!DNL Workfront for G Suite]
