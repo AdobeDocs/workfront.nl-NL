@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ U kunt alle informatie op de startpagina snel filteren om objectinformatie binne
 
 Voor gebruikers die de voorkeur geven aan de bestaande Home-ervaring, kan New Home worden uitgeschakeld.
 
+
 **Ga terug naar de huidige Home-ervaring:**
 
 1. Ga naar uw startpagina door op het Adobe Workfront-pictogram te klikken ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) boven aan het scherm als Home is ingesteld als uw openingspagina of door op het pictogram van het hoofdmenu te klikken ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) vervolgens klikken op **Home**.
@@ -97,3 +98,7 @@ Voor gebruikers die de voorkeur geven aan de bestaande Home-ervaring, kan New Ho
    ![Terug naar huidige startknop](../new-home/assets/go-back-to-current-home-button.png)
 
 1. In het bevestigingsvenster dat wordt weergegeven, kunt u desgewenst een korte enquête houden over uw ervaring met New Home of op **Terug naar huidige startpagina** om uw beslissing af te ronden en terug te keren naar de huidige Home-ervaring.
+
+>[!NOTE]
+>
+> Systeembeheerders kunnen Nieuwe startpagina als standaard uitschakelen voor hun gebruikers. Voor informatie over het wijzigen van de standaardervaring van het Huis voor gebruikers over een systeem, zie [Systeemvoorkeuren configureren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

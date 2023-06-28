@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
-# Beveiligingsvoorkeuren voor het systeem configureren
+# Systeemvoorkeuren configureren
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -23,14 +23,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-Als Adobe Workfront-beheerder kunt u beveiligingsvoorkeuren configureren voor uw Workfront-systeem:
+Als Adobe Workfront-beheerder kunt u voorkeuren configureren voor uw Workfront-systeem:
 
 * Toegang tot Workfront vanuit mobiele apps en andere geïntegreerde toepassingen
 * Regels voor het insluiten van Workfront in een iFrame
 
 Wijzigingen die u aanbrengt in de systeemvoorkeuren, zijn van invloed op alle gebruikers in uw systeem en op hun ervaring in Workfront.
 
-We raden u aan uw systeembeveiligingsvoorkeuren tijdens de Workfront-implementatie te configureren en deze daarna slechts af en toe opnieuw te bekijken.
+We raden u aan uw systeemvoorkeuren tijdens de Workfront-implementatie te configureren en deze daarna slechts af en toe opnieuw te bekijken.
 
 ## Toegangsvereisten
 
@@ -55,13 +55,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-## Uw voorkeuren voor systeembeveiliging configureren
+## Uw systeemvoorkeuren configureren
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Klik in het linkerdeelvenster op **Systeem** > **Voorkeuren**.
 
-1. In de **Beveiliging** selecteert u een van de volgende velden om de beveiligingsinstellingen voor uw organisatie vast te stellen:
+1. Selecteer een van de volgende velden om de instellingen voor uw organisatie vast te stellen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,6 +104,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td role="rowheader">Mobiele gebruikers automatisch afmelden na </td> 
       <td>Hier kunt u opgeven wanneer een gebruiker na een periode van inactiviteit uit de Workfront-toepassing wordt afgemeld. Gebruikers worden standaard afgemeld na 7 dagen inactiviteit. <p>Deze optie is ook van toepassing op Workfront-klanten die één aanmeldingsoplossing gebruiken.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Gebruikers in het systeem zien standaard de nieuwe Home-ervaring </td> 
+      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. In beide gevallen kunnen gebruikers ervoor kiezen om New Home op individuele basis in of uit te schakelen. Deze optie is standaard ingeschakeld.</td> 
      </tr> 
     </tbody> 
    </table>
