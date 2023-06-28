@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,19 @@ De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. D
 De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Functies buiten de cyclus (functies die vóór de releasedatum van 23.3 worden vrijgegeven) worden geel gemarkeerd.</span>
+
+>[!IMPORTANT]
+>
+>De release van 23.3 bevat de optie om uw organisatie te verplaatsen naar maandelijkse releases. Daarom wijzigt Workfront het nummeringsschema van releaseversies om rekening te houden met zowel maandelijks als driemaandelijks releasetracks.
+>
+>* Als u op de **snelle release (maandelijks)** tracé, de release na 23.3 zal **23,8**, in augustus 2023.
+> * Als u op de **driemaandelijks** vrijgavespoor, de release na 23.3 wordt **23,10**, in oktober 2023.
+> 
+> De driemaandelijkse versies zullen functionaliteit van drie maandelijkse versies omvatten. De driemaandelijkse versie van 23.10 bevat bijvoorbeeld functies die worden vrijgegeven in de maandelijkse versies 23.8, 23.9 en 23.10.
+>|Maandelijkse release|Driemaandelijkse release|
+>|—|—|
+>|<ul><li>23.8 (augustus 2023)</li><li>23.9 (september 2023)</li><li>23.10 uur (oktober 2023)</li></ul>| <ul><li>23.10 uur (oktober 2023)</li></ul>|
+>|<ul><li>23.11 (november 2023)</li><li>23.12 (december 2023)</li><li>24.1 (januari 2024)</li></ul>| <ul><li>24.1 (januari 2024)</li></ul>|
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -353,6 +366,22 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe G Suite-integratie nu beschikbaar</a></p> 
+                        <p>Er is nu een nieuwe G Suite-integratie beschikbaar in de Google Marketplace. De nieuwe integratie verifieert gebruikend OAuth2, en vervangt de vorige integratie.</p><p>De vorige G Suite-integratie is nu afgekeurd en wordt automatisch verwijderd.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: N.v.t.</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: 27 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">De integratie van Adobe Creative Cloud steunt nu veelvoudige toegewezen gebruikers</a></p> 
