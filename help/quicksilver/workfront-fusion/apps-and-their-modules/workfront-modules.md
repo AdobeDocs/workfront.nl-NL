@@ -9,9 +9,9 @@ description: U kunt de Adobe Workfront Fusion Adobe Workfront-connector gebruike
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 2a49e8f1947d39efa85bb8b8bdb7aee5054f8d33
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '4954'
+source-wordcount: '4996'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>  <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p></td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -277,7 +285,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
    <td>Selecteer het object waarnaar u het wilt omzetten. Dit is het type dat het object na de conversie heeft.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Object> ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Voer de id van het object in. </p> <p>Opmerking: Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

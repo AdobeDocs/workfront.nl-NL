@@ -8,9 +8,9 @@ description: Google heeft onlangs beperkingen geïntroduceerd op de manier waaro
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,11 +103,11 @@ Deze nieuwe beperkingen zijn alleen van toepassing als u [!DNL Google Drive] of 
 
 * Overschakelen op [!DNL G Suite]
 
-   of
+  of
 
 * Maak een aangepaste OAuth-client. Deze optie is bedoeld voor geavanceerde gebruikers.
 
-   Zie voor instructies [Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+  Zie voor instructies [Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
 Als u een andere dienst wilt integreren dan [!DNL Google Drive] of [!DNL Gmail]Deze beperkingen zijn echter niet van toepassing.
 

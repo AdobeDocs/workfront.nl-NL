@@ -8,9 +8,9 @@ description: Geavanceerde technieken voor foutafhandeling zijn onder andere filt
 author: Becky
 feature: Workfront Fusion
 exl-id: 57f43fc2-23ed-44f5-8785-90739329b5ee
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

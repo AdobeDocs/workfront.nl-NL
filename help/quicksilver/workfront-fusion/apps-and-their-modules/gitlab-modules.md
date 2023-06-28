@@ -9,9 +9,9 @@ title: GitLab-modules
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: d55ddd97a69f00a1f42d84dc55a12d2017855776
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '3862'
+source-wordcount: '3964'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,45 @@ In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatis
 Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Neem contact op met uw [!DNL Workfront] beheerder.
+
+Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Verbinden [!DNL GitLab] tot [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
 

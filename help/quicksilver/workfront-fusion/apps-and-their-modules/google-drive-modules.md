@@ -9,9 +9,9 @@ description: De [!DNL Adobe Workfront Fusion Google Drive] kunt u uw bestanden, 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -730,17 +738,17 @@ Overweeg het volgende over exploitanten op deze gebieden:
 
 * De `contains` operator voert alleen overeenkomende voorvoegsels uit voor een `title`.
 
-   De titel &#39;HelloWorld&#39; komt bijvoorbeeld overeen met `title contains 'Hello'` maar niet voor `title contains 'World'`.
+  De titel &#39;HelloWorld&#39; komt bijvoorbeeld overeen met `title contains 'Hello'` maar niet voor `title contains 'World'`.
 
 * De `contains` operator voert alleen overeenkomsten uit op hele tekenreekstokens voor `fullText`.
 
-   Als de volledige tekst van een document bijvoorbeeld de tekenreeks &quot;HelloWorld&quot; bevat, wordt alleen de query `fullText contains 'HelloWorld'` retourneert een resultaat. Vragen zoals `fullText contains 'Hello'` zou in dit scenario geen resultaten opleveren.
+  Als de volledige tekst van een document bijvoorbeeld de tekenreeks &quot;HelloWorld&quot; bevat, wordt alleen de query `fullText contains 'HelloWorld'` retourneert een resultaat. Vragen zoals `fullText contains 'Hello'` zou in dit scenario geen resultaten opleveren.
 
 * De `contains` komt overeen met een exacte alfanumerieke uitdrukking als deze wordt omringd door dubbele aanhalingstekens.
 
-   Als de `fullText` van een doc bevat de tekenreeks &quot;Hello there world&quot;, gevolgd door de query `fullText contains '"Hello there"'` retourneert een resultaat, maar de query `fullText contains '"Hello world"'` niet.
+  Als de `fullText` van een doc bevat de tekenreeks &quot;Hello there world&quot;, gevolgd door de query `fullText contains '"Hello there"'` retourneert een resultaat, maar de query `fullText contains '"Hello world"'` niet.
 
-   Omdat de zoekopdracht alfanumeriek is, geldt bovendien dat als de `fullText` van een doc bevat de tekenreeks &quot;Hello_world&quot;, gevolgd door de query `fullText contains '"Hello world"'` retourneert een resultaat.
+  Omdat de zoekopdracht alfanumeriek is, geldt bovendien dat als de `fullText` van een doc bevat de tekenreeks &quot;Hello_world&quot;, gevolgd door de query `fullText contains '"Hello world"'` retourneert een resultaat.
 
 * Velden van `type` de datum is momenteel niet vergelijkbaar met elkaar , alleen met constante datums .
 
@@ -842,55 +850,38 @@ Voor samengestelde clausules, kunt u haakjes gebruiken om clausules samen te gro
 Alle voorbeelden op deze pagina tonen de ongecodeerde `<q>q</q>` parameter, waarbij `title = 'hello'` is gecodeerd als `title+%3d+%27hello%27`. Clientbibliotheken verwerken deze codering automatisch.
 
 * Bestanden zoeken met de naam &quot;hello&quot;
-
-   <pre>title = 'hello'</pre>
+  <pre>title = 'hello'</pre>
 * Mappen zoeken met het mapspecifieke MIME-type
-
-   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
 * Zoeken naar bestanden die geen mappen zijn
-
-   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * Zoeken naar bestanden met een naam die de woorden &quot;hello&quot; en &quot;goodbye&quot; bevat
-
-   <pre>title bevat 'hello' en [!UICONTROL name] bevat 'afscheid'</pre>
+  <pre>title bevat 'hello' en [!UICONTROL name] bevat 'afscheid'</pre>
 * Bestanden zoeken met een naam die niet het woord &quot;hello&quot; bevat
-
-   <pre>geen titel bevat 'hello'</pre>
+  <pre>geen titel bevat 'hello'</pre>
 * Zoeken naar bestanden met het woord &quot;hello&quot; in de inhoud
-
-   <pre>fullText bevat 'hello'</pre>
+  <pre>fullText bevat 'hello'</pre>
 * Zoeken naar bestanden zonder het woord &quot;hello&quot; in de inhoud
-
-   <pre>not fullText contains 'hello'</pre>
+  <pre>not fullText contains 'hello'</pre>
 * Zoeken naar bestanden met de exacte uitdrukking &quot;hello world&quot; in de inhoud
-
-   <pre>fullText bevat '"hello world"'fullText bevat '"hello_world"'</pre>
+  <pre>fullText bevat '"hello world"'fullText bevat '"hello_world"'</pre>
 * Bestanden zoeken met een query die het teken &quot;\&quot; bevat (bijvoorbeeld &quot;\authors&quot;)
-
-   <pre>fullText bevat '\\authors'</pre>
+  <pre>fullText bevat '\\authors'</pre>
 * Zoeken naar bestanden die kunnen worden geschreven door de gebruiker &quot;test@example.org&quot;
-
-   <pre>'test@example.org' in [!DNL writers]</pre>
+  <pre>'test@example.org' in [!DNL writers]</pre>
 * Zoeken naar de id `1234567` in de `parents` verzameling. Hiermee worden alle bestanden en mappen gevonden die zich direct in de map bevinden waarvan de id `1234567`.
-
-   <pre>'1234567' in [!UICONTROL parents]</pre>
+  <pre>'1234567' in [!UICONTROL parents]</pre>
 * Zoeken naar de alias-id `appDataFolder` in de `parents` verzameling. Hiermee worden alle bestanden en mappen gevonden die zich direct onder de map [Map Application Data](https://developers.google.com/drive/api/v2/appdata).
-
-   <pre>'appDataFolder' in bovenliggende items</pre>
+  <pre>'appDataFolder' in bovenliggende items</pre>
 * Zoeken naar bestanden die kunnen worden geschreven door de gebruikers &quot;test@example.org&quot; en &quot;test2@example.org&quot;
-
-   <pre>'test@example.org' in schrijvers en 'test2@example.org' in schrijvers</pre>
+  <pre>'test@example.org' in schrijvers en 'test2@example.org' in schrijvers</pre>
 * Zoeken naar bestanden met de tekst &quot;belangrijk&quot; die zich in de prullenbak bevinden
-
-   <pre>fullText bevat 'main' en traped = true</pre>
+  <pre>fullText bevat 'main' en traped = true</pre>
 * Bestanden zoeken die na 4 juni 2012 zijn gewijzigd
-
-   <pre>modifiedDate &gt; '2012-06-04T12:00:00' // standaardtijdzone is UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
+  <pre>modifiedDate &gt; '2012-06-04T12:00:00' // standaardtijdzone is UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
 * Zoeken naar bestanden die met de geautoriseerde gebruiker worden gedeeld met &quot;hello&quot; in de naam
-
-   <pre>sharedWithMe en title bevat 'hello'</pre>
+  <pre>sharedWithMe en title bevat 'hello'</pre>
 * Bestanden zoeken met een [aangepaste bestandseigenschap](https://developers.google.com/drive/api/v2/properties) benoemd `additionalID` met de waarde `8e8aceg2af2ge72e78`.
-
-   <pre>eigenschappen hebben { key='additionalID' en value='8e8aceg2af2ge72e78' en visibility='PRIVATE' }</pre>
+  <pre>eigenschappen hebben { key='additionalID' en value='8e8aceg2af2ge72e78' en visibility='PRIVATE' }</pre>
 
 De bron van deze handleiding is [[!DNL Google Drive] documentatie](https://developers.google.com/drive/api/v2/search-shareddrives).

@@ -8,9 +8,9 @@ description: In dit artikel worden instructies beschreven die u kunt gebruiken v
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,12 +92,11 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 >[!NOTE]
 >
 >* De foutafhandelingsinstructies kunnen momenteel niet worden gebruikt buiten een foutafhandelingsroute.
-   >
-   >   Zie voor meer informatie [Fouthandlerroute](../../workfront-fusion/errors/error-handling.md#error) in het artikel [Foutafhandeling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>
+>   Zie voor meer informatie [Fouthandlerroute](../../workfront-fusion/errors/error-handling.md#error) in het artikel [Foutafhandeling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
 >* [!DNL Workfront Fusion] biedt momenteel geen module van de Borg aan die u zou toelaten om (werpen) fouten gemakkelijk te produceren, hoewel een alternerende actie kan worden gebruikt om zijn functionaliteit te simuleren.
-   >
-   >   Zie voor meer informatie [Oplossing voor Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) in het artikel [Foutafhandeling genereren in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
-
+>
+>   Zie voor meer informatie [Oplossing voor Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) in het artikel [Foutafhandeling genereren in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
 
 ## Break {#break}
 

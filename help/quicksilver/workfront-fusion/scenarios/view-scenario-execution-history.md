@@ -7,9 +7,9 @@ description: U kunt informatie over alle looppas voor een scenario tonen, of u k
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering] </p>  </td>  
+  <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,7 +156,6 @@ U kunt de geschiedenis van de uitvoering van het scenario sorteren.
    >* Uitvoeringen zijn alleen beschikbaar gedurende de afgelopen 30 dagen.
    >
    >* [!DNL Workfront Fusion] slaat webshpayloads op voor 30 dagen. Als u meer dan 30 dagen nadat u deze hebt gemaakt toegang krijgt tot een payload van een webhaak, treedt de fout op &quot;[!UICONTROL Failed to read file from storage.]&quot;
-
 
 
 1. (Optioneel) Als u uw zoekopdracht wilt beperken tot status, selecteert u de gewenste status in het dialoogvenster **[!UICONTROL By status]** vervolgkeuzelijst.

@@ -8,9 +8,9 @@ description: Een webhaak is een HTTP-aanroep die door een gebeurtenis wordt geac
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -211,9 +219,7 @@ Content-Type: application/json
 >1. Klikken **[!UICONTROL Add]** om een nieuwe webhaak toe te voegen.
 >1. Klik op **[!UICONTROL Show advanced settings]**.
 >1. Klik op **[!UICONTROL JSON pass-through]**.
-
 >
-
 
 ## WebHaakkoppen
 
@@ -264,9 +270,9 @@ De configuratie van de module bevat twee velden: [!UICONTROL Status] en [!UICONT
 
 * De [!UICONTROL Body] Het veld bevat alles wat door de aanroep van de website wordt geaccepteerd. Het kan eenvoudige tekst zijn, HTML, XML, JSON enzovoort.
 
-   >[!TIP]
-   >
-   >We raden u aan de instelling `Content-Type` koptekst naar het overeenkomstige MIME-type: `text/plain` voor onbewerkte tekst, `text/html` voor HTML, `application/json` voor JSON, `application/xml` voor XML enzovoort. Voor meer informatie over MIME types, zie [MIME-modules](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >[!TIP]
+  >
+  >We raden u aan de instelling `Content-Type` koptekst naar het overeenkomstige MIME-type: `text/plain` voor onbewerkte tekst, `text/html` voor HTML, `application/json` voor JSON, `application/xml` voor XML enzovoort. Voor meer informatie over MIME types, zie [MIME-modules](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie niet beschikbaar is binnen die periode, retourneert Workfront Fusion de status &#39;200 Accepted&#39;.
 

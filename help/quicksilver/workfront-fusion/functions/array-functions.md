@@ -8,9 +8,9 @@ description: De volgende arrayfuncties zijn beschikbaar in het Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,11 +100,11 @@ Retourneert een primitieve array met waarden van een complexe array. Deze functi
 >**Voorbeelden:**
 >
 >* `map(Emails[];email)`
-  >
+>
 >  Retourneert een primitieve array met e-mails
 >
 >* `map(Emails[];email;label;work;home)`
-  >
+>
 >  Retourneert een primitieve array met e-mails met een label dat gelijk is aan werk of privé
 
 Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
@@ -124,19 +132,19 @@ Hiermee worden waarden van een array gesorteerd. De geldige waarden van de `orde
 
 * `asc`
 
-   (standaard) - oplopende volgorde: 1, 2, 3, ... voor type Number. A, B, C, a, b, c, ... voor tekst
+  (standaard) - oplopende volgorde: 1, 2, 3, ... voor type Number. A, B, C, a, b, c, ... voor tekst
 
 * `desc`
 
-   aflopende volgorde: ..., 3, 2, 1 voor type Number. ..., c, b, a, C, B, A voor tekst.
+  aflopende volgorde: ..., 3, 2, 1 voor type Number. ..., c, b, a, C, B, A voor tekst.
 
 * `asc ci`
 
-   hoofdlettergevoelig, oplopende volgorde: A, a, B, b, C, c, ... voor tekst.
+  hoofdlettergevoelig, oplopende volgorde: A, a, B, b, C, c, ... voor tekst.
 
 * `desc ci`
 
-   niet-hoofdlettergevoelig, aflopende volgorde: ..., C, c, B, b, A, a voor tekst.
+  niet-hoofdlettergevoelig, aflopende volgorde: ..., C, c, B, b, A, a voor tekst.
 
 Gebruik de `key` parameter voor toegang tot eigenschappen in complexe objecten.
 
@@ -151,21 +159,20 @@ Het eerste item in een array is index 1.
 >**Voorbeelden:**
 >
 >* `sort(Contacts[];name)`
-   >
-   >    Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in oplopende volgorde
+>
+>    Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in oplopende volgorde
 >
 >* `sort(Contacts[];desc;name)`
-   >
-   >   Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in aflopende volgorde
+>
+>   Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in aflopende volgorde
 >
 >* `sort(Contacts[];asc ci;name)`
-   >
-   >    Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in niet-hoofdlettergevoelige oplopende volgorde
+>
+>    Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in niet-hoofdlettergevoelige oplopende volgorde
 >
 >* `sort(Emails[];sender.name)`
-   >
-   >    Hiermee wordt een array met e-mailberichten gesorteerd op de eigenschap &quot;sender.name&quot;
-
+>
+>    Hiermee wordt een array met e-mailberichten gesorteerd op de eigenschap &quot;sender.name&quot;
 
 ## [!UICONTROL arrayDifference [array1, array2, mode]]
 
@@ -177,33 +184,30 @@ Voer een van de volgende waarden in voor de `mode` parameter.
 
 * `symmetric`: Retourneert een array met elementen die niet hetzelfde zijn voor beide arrays.
 
-   Met andere woorden, de functie retourneert een array die alle elementen van `array1` die niet bestaan in `array2`en alle elementen van `array2` die niet bestaan in `array1`.
+  Met andere woorden, de functie retourneert een array die alle elementen van `array1` die niet bestaan in `array2`en alle elementen van `array2` die niet bestaan in `array1`.
 
-   >[!INFO]
-   >
-   >**Voorbeelden:**
-   >
-   >Op basis van de volgende arrays:
-   >
-   >
-   ```
-   >myArray = [1,2,3,4,5]
-   >```
-   >
-   >
-   ```
-   >yourArray = [3,4,5,6,7]
-   >```
-   >
-   >* `arrayDifference [myArray, yourArray, classic]`
-      >
-      >    Retourneert `[1,2]`
-   >
-   >* `arrayDifference [yourArray, myArray, classic]`
-      >
-      >    Retourneert `[6,7]`
-   >
-   >* `arrayDifference [myArray, yourArray, symmetric]`
-      >
-      >    Retourneert `[1,2,6,7]`
-
+  >[!INFO]
+  >
+  >**Voorbeelden:**
+  >
+  >Op basis van de volgende arrays:
+  >
+  >```
+  >myArray = [1,2,3,4,5]
+  >```
+  >
+  >```
+  >yourArray = [3,4,5,6,7]
+  >```
+  >
+  >* `arrayDifference [myArray, yourArray, classic]`
+  >
+  >    Retourneert `[1,2]`
+  >
+  >* `arrayDifference [yourArray, myArray, classic]`
+  >
+  >    Retourneert `[6,7]`
+  >
+  >* `arrayDifference [myArray, yourArray, symmetric]`
+  >
+  >    Retourneert `[1,2,6,7]`

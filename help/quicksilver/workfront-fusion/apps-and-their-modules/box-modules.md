@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,7 +160,6 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 >
 >* De grootte van het bestand kan de maximale bestandsgroottelimiet voor uw [!DNL Box] van plan bent, of u kunt al uw [!DNL Box] opslagquotum van de account. Als u meer opslagruimte wilt, verwijdert u bestaande bestanden uit [!DNL Box] of upgrade uw [!DNL Box] account.
 >* [!DNL Box] uploadt niet meer dan één bestand met dezelfde naam naar één map. Als de doelmap een bestand bevat met dezelfde naam als het bestand dat wordt geüpload, wordt de uitvoering van het scenario afgesloten met een fout. U kunt dit voorkomen door de naam van het bestand te wijzigen. Als u het bestand wilt bijwerken, gebruikt u de opdracht **[!UICONTROL Update a file]** module.
-
 
 #### [!UICONTROL Update a file]
 

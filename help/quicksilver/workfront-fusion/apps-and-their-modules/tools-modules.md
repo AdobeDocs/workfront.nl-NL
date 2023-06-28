@@ -8,9 +8,9 @@ description: De [!DNL Adobe Workfront Fusion Tools] de sectie omvat verscheidene
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -112,7 +120,6 @@ Deze module kan variabelen lezen die overal in het scenario werden geplaatst, ze
 >* Fouten opsporen in een formule. Als een in een module gebruikte formule ogenschijnlijk geen correct resultaat oplevert, kopieert u de formule en plakt u deze in een [!UICONTROL Set Variable] die u vóór de relevante module invoegt. Koppel de module(s) los na de [!UICONTROL Set Variable] en voert het scenario uit. Controleer de [!UICONTROL Set Variable] de output van de module, past of vereenvoudigt de formule, voert opnieuw het scenario uit, en blijft dit doen tot de kwestie is opgelost.
 
 
-
 #### [!UICONTROL Get Variable]
 
 Deze module wint een waarde terug die eerder door [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] module.
@@ -163,7 +170,6 @@ Deze module keert een waarde terug die door 1 na de verrichting van elke module 
 >1. Dit scenario maken:
 >1. De modules instellen **[!UICONTROL Reset a value]** veld naar Nooit.
 >1. Stel de route in voor oneven waarden. Plaats de filter voor deze route gebruikend de modulus mathfunctie die evenaart `1`:
-
 >
 >   ![](assets/odd-350x459.png)
 >

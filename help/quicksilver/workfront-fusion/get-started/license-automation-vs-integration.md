@@ -8,23 +8,25 @@ description: Adobe Workfront Fusion biedt twee verschillende licenties die bepal
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 8c781894022661bee229a88556728659ff634310
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] licenties
+# Verouderd [!DNL Adobe Workfront Fusion] licenties
 
-[!DNL Adobe Workfront Fusion] biedt twee verschillende licenties die bepalen welke functionaliteit u kunt gebruiken. Uw organisatie koos één van deze vergunningen toen het kocht [!DNL Workfront Fusion].
+In de [!DNL Adobe Workfront Fusion] bestaand licentiemodel; [!DNL Fusion] biedt twee verschillende licenties die bepalen welke functionaliteit u kunt gebruiken. Uw organisatie koos één van deze vergunningen toen het kocht [!DNL Workfront Fusion].
+
+>[!NOTE]
+>
+>Het nieuwe Fusion-licentiemodel is gebaseerd op het aantal bewerkingen dat uw organisatie gebruikt. In dit model hebben alle organisaties toegang tot dezelfde functionaliteit.
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
->[!NOTE]
->
->Om te weten te komen welk type van [!DNL Workfront Fusion] licentie geven die uw organisatie heeft, neemt u contact op met [!DNL Workfront Fusion] beheerder.
+Om te weten te komen welk type van [!DNL Workfront Fusion] licentie geven die uw organisatie heeft, neemt u contact op met [!DNL Workfront Fusion] beheerder.
 
 ## [!DNL Workfront Fusion for Work Automation]
 

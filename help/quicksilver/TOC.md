@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 feature-set: Workfront
-source-git-commit: 06dc88ee79736a8a0f4b5667370849827d771ca1
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '13091'
+source-wordcount: '13093'
 ht-degree: 0%
 
 ---
@@ -1965,6 +1965,7 @@ ht-degree: 0%
       * [Adobe Workfront Fusion-prestatiehandleidingen](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [IP Adressen om tot de Fusie van Adobe Workfront toegang te hebben](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion-licenties](workfront-fusion/get-started/license-automation-vs-integration.md)
+      * [Bewerkingen in [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
    * Basisbegrippen van Adobe Workfront Fusion {#workfront-fusion-basics}
       * [Basisbegrippen van Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
       * [Profielinstellingen wijzigen in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

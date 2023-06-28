@@ -9,9 +9,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../
 >* Niet alle edities van [!DNL Salesforce] API-toegang hebben. Zie de informatie over [!DNL Salesforce] edities met API-toegang op de [!DNL Salesforce] Community site.
 >* Voor informatie over specifieke fouten die door de [!DNL Salesforce] API, zie [!DNL Salesforce] API-documenten. U kunt ook de status van het dialoogvenster [!DNL Salesforce] API voor mogelijke uitvallen van de service.
 >
-
 
 ## Toegangsvereisten
 
@@ -49,11 +48,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -306,7 +313,7 @@ De module retourneert het volgende:
 * **[!UICONTROL Status Code]** (nummer): Dit wijst op het succes of de mislukking van uw HTTP- verzoek. Dit zijn standaardcodes die u kunt opzoeken op internet.
 * **[!UICONTROL Headers]** (object): Een meer gedetailleerde context voor de reactie/statuscode die niet op het outputlichaam betrekking heeft. Niet alle kopteksten in een antwoordkoptekst zijn reactiekoppen. Sommige koppen zijn daarom niet altijd even handig.
 
-   De antwoordheaders zijn afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module.
+  De antwoordheaders zijn afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module.
 
 * **[!UICONTROL Body]** (object): Afhankelijk van de HTTP-aanvraag die u hebt gekozen tijdens het configureren van de module, ontvangt u mogelijk gegevens terug. Deze gegevens, zoals de gegevens van een [!UICONTROL GET] request, bevindt zich in dit object.
 

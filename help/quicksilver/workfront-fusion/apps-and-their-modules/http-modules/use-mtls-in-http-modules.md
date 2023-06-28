@@ -9,9 +9,9 @@ description: U kunt Wederzijdse TLS gebruiken in uw Adobe Workfront Fusion HTTP-
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ Met wederzijdse TLS kan deze identiteitsbevestiging op beide manieren verlopen. 
 >**Voorbeeld:**
 >
 >* **TLS**: Wanneer iemand &quot;MyGreatBank.com&quot; in een browser typt, willen ze er zeker van zijn dat ze naar Mijn Grote Bank gaan, niet een website die hun bankgegevens kan misbruiken of verkopen. Ze willen ook zeker weten dat hun bankrekeninggegevens gecodeerd zijn.
-   >
-   >   Wanneer de browser (de client) verbinding maakt met MyGreatBank.com (de server), heeft TLS een certificaat van MyGreatBank.com nodig om de identiteit ervan te verifiëren. Het certificaat wordt geleverd door een certificeringsinstantie, zoals [!DNL DigiCert] of [!DNL Thawte]. Omdat de browser de certificeringsinstantie vertrouwt, is de verbinding mogelijk.
+>
+>   Wanneer de browser (de client) verbinding maakt met MyGreatBank.com (de server), heeft TLS een certificaat van MyGreatBank.com nodig om de identiteit ervan te verifiëren. Het certificaat wordt geleverd door een certificeringsinstantie, zoals [!DNL DigiCert] of [!DNL Thawte]. Omdat de browser de certificeringsinstantie vertrouwt, is de verbinding mogelijk.
 >
 >* **Wederzijdse TLS**: MySoftware.com is een softwareclient die informatie nodig heeft van de MyGreatBank.com API. MyGreatBank staat alleen vertrouwde clients toe verbinding te maken met hun servers. Naast het regelmatig controleren van TLS de identiteit van MyGreatBank.com, controleert het proces van de TLS/certificate instantie ook het verzoek van MySoftware.com.
-
 
 ## Toegangsvereisten
 
@@ -57,11 +56,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +95,16 @@ U kunt de volgende koppelingen gebruiken om de openbare certificaten van Workfro
 >[!IMPORTANT]
 >
 >* Deze [!DNL Workfront Fusion] openbare certificaten verlopen op 9 juni 2024. Nadat uw certificaat is verlopen, moet u een nieuw certificaat uploaden naar de webservice. We raden u aan:
-   >
-   >   * Noteer de vervaldatum en stel een herinnering voor uzelf in om het certificaat te uploaden naar uw webservice.
-   >   * Bladwijzer deze pagina om de nieuwe certificaten gemakkelijk te vinden.
+>
+>   * Noteer de vervaldatum en stel een herinnering voor uzelf in om het certificaat te uploaden naar uw webservice.
+>   * Bladwijzer deze pagina om de nieuwe certificaten gemakkelijk te vinden.
 >
 >* Dit zijn mTLS-certificaten die geen jokertekens bevatten.
-
 
 * [Downloaden [!DNL Workfront Fusion] Certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [Downloaden [!DNL Workfront Fusion] EU-certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
-   Voor gebruik in de EU
+  Voor gebruik in de EU
 
 <!--
 

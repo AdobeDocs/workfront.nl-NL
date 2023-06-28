@@ -8,9 +8,9 @@ description: Soms kan een fout tijdens de uitvoering van een scenario voorkomen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +71,7 @@ De fout van de verbinding is één van de gemeenschappelijkste fouten gewoonlijk
 
    * Als deze optie is ingeschakeld, wordt de uitvoering van het scenario verplaatst naar de [!UICONTROL Incomplete executions] map waar [!DNL Workfront Fusion] herhaaldelijk wordt gepoogd om het scenario met langere tijdsintervallen opnieuw uit te voeren. Als alle pogingen mislukken, blijft de uitvoering in de map Onvolledige uitvoeringen staan, in afwachting van handmatige oplossing door de gebruiker.
 
-      Voor meer informatie over onvolledige uitvoeringen raadpleegt u [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+     Voor meer informatie over onvolledige uitvoeringen raadpleegt u [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
    * Als deze optie is uitgeschakeld, eindigt de uitvoering van het scenario met een fout gevolgd door een terugdraaifase. [!DNL Workfront Fusion] probeert dan herhaaldelijk om het scenario met stijgende tijdintervallen opnieuw uit te voeren. Als alle pogingen mislukken, [!DNL Workfront Fusion] Hiermee wordt het scenario gedeactiveerd.
 
 ### Tijdintervallen vergroten

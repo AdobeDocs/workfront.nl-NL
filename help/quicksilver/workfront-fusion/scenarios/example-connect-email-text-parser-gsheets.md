@@ -7,9 +7,9 @@ description: Dit scenario helpt u een logboek van alle e-mailberichten tot stand
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,11 +149,13 @@ Voeg de eerste module toe en vorm het
 
    * Als u alleen naar het e-mailadres wilt zoeken, kunt u de onderstaande tabel gebruiken:
 
-      ([\w.-]+@[\w.-]+)
+     ([\w.-]+@[\w.-]+)
 
    * U kunt ook alleen naar telefoonnummers zoeken met onderstaande regex:
 
-      ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\?[\s-]?\d{3}[\s-]?\d{3,4} Het bovenstaande patroon behandelt de meeste algemene formaten waarin een telefoonaantal wordt geschreven.
+     ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\?[\s-]?\d{3}[\s-]?\d{3,4}
+The above pattern covers most common formats in which a phone number is written.
+
    Om uw patronen te testen, adviseren wij het gebruiken [[!DNL https://regex101.com]](https://regex101.com/) with [!DNL javascript] als de smaak.
 
    De rest van de configuratie blijft hetzelfde als de vorige configuratie.
@@ -196,21 +206,21 @@ Voor [!DNL Sheets]We moeten eerst een spreadsheet maken met de vereiste koptekst
 
       * Bevat de zin &quot;[!UICONTROL text parser module]&quot; (en geen e-mailadres)
 
-         ![](assets/text-parser-module-350x103.png)
+        ![](assets/text-parser-module-350x103.png)
 
       * Bevat bovenstaande zin en een e-mailadres
 
-         ![](assets/above-phrase-and-email-350x106.png)
+        ![](assets/above-phrase-and-email-350x106.png)
 
-         Als er geen fouten in de installatie voorkomen, worden in het eerste werkblad alle e-mails met de uitdrukking &quot;[!UICONTROL text parser module]&quot; terwijl in het tweede werkblad alleen die worden vastgelegd die de uitdrukking &quot;[!UICONTROL text parser module]&quot; en een e-mailadres. U kunt de onderstaande schermafbeeldingen raadplegen.
+        Als er geen fouten in de installatie voorkomen, worden in het eerste werkblad alle e-mails met de uitdrukking &quot;[!UICONTROL text parser module]&quot; terwijl in het tweede werkblad alleen die worden vastgelegd die de uitdrukking &quot;[!UICONTROL text parser module]&quot; en een e-mailadres. U kunt de onderstaande schermafbeeldingen raadplegen.
 
-         Werkblad 1:
+        Werkblad 1:
 
-         ![](assets/worksheet-1-350x57.png)
+        ![](assets/worksheet-1-350x57.png)
 
-         Werkblad 2:
+        Werkblad 2:
 
-         ![](assets/worksheet-2-350x41.png)
+        ![](assets/worksheet-2-350x41.png)
 
 ## Bronnen
 

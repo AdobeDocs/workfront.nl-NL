@@ -8,9 +8,9 @@ description: De volgende tekenreeksfuncties zijn beschikbaar in het Adobe Workfr
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +65,12 @@ Hiermee worden alle niet-ascii-tekens uit een tekstreeks verwijderd.
 >**Voorbeelden:**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
-   >
-   >   Retourneert: [!DNL Workfront]
+>
+>   Retourneert: [!DNL Workfront]
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
-   >
-   >   Retourneert: [!UICONTROL escrz]
-
+>
+>   Retourneert: [!UICONTROL escrz]
 
 ## [!UICONTROL base64 (text)]
 
@@ -98,13 +105,12 @@ Controleert of tekst de zoektekenreeks bevat.
 >**Voorbeelden:**
 >
 >* `contains( Hello World ; Hello )`
-   >
-   >   Retourneert: [!UICONTROL true]
+>
+>   Retourneert: [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
-   >
-   >   Retourneert: [!UICONTROL false]
-
+>
+>   Retourneert: [!UICONTROL false]
 
 ## [!UICONTROL decodeURL (text)]
 
@@ -154,17 +160,16 @@ Retourneert de positie van de eerste instantie van een opgegeven waarde in een t
 >**Voorbeelden:**
 >
 >* `indexOf( Workfront ; o )`
-   >
-   >   Retourneert: 1
+>
+>   Retourneert: 1
 >
 >* `indexOf( Workfront ; x )`
-   >
-   >   Retourneert: -1
+>
+>   Retourneert: -1
 >
 >* `indexOf( Workfront ; o ; 3 )`
-   >
-   >   Retourneert: 6
-
+>
+>   Retourneert: 6
 
 ## [!UICONTROL length (text or buffer)]
 
@@ -236,11 +241,14 @@ De vervangende tekenreeks kan de volgende speciale vervangingspatronen bevatten:
 >![](assets/variable-value-350x63.png)
 >
 >Retourneert: Telefoonnummer `+420777111222`
->>![](assets/variable-value---2-350x55.png)
+>>
+>![](assets/variable-value---2-350x55.png)
+>
 >Retourneert: Telefoonnummer: `+420777111222`
 
 >[!CAUTION]
-Gebruik geen benoemde vastleggroepen, zoals `/ is (?<number>\d+)/` in het vervangingstekenreeksargument. Dit resulteert in een fout.
+>
+>Gebruik geen benoemde vastleggroepen, zoals `/ is (?<number>\d+)/` in het vervangingstekenreeksargument. Dit resulteert in een fout.
 
 Zie voor meer informatie over reguliere expressies [Tekstparser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -249,18 +257,24 @@ Zie voor meer informatie over reguliere expressies [Tekstparser](../../workfront
 Berekent de sha1 hash van een tekenreeks. Als het belangrijkste argument wordt gespecificeerd, is sha1 HMAC hash in plaats daarvan teruggekeerd. Ondersteunde coderingen: &quot;hex&quot; (standaardwaarde), &quot;base64&quot; of &quot;latin1.&quot;
 
 >[!INFO]
-**Voorbeeld:**
-`sha1( workfront )`
-Retourneert: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
+>
+>**Voorbeeld:**
+>
+>`sha1( workfront )`
+>
+>Retourneert: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
 ## [!UICONTROL sha256 (text; [encoding]; [key])]
 
 Berekent de sha256 hash van een tekenreeks. Als het zeer belangrijke argument wordt gespecificeerd, sha256 hash HMAC in plaats daarvan is teruggekeerd. Ondersteunde coderingen: &quot;hex&quot; (standaardwaarde), &quot;base64&quot; of &quot;latin1&quot;.>
 
 >[!INFO]
-**Voorbeeld:**
-`sha256( workfront )`
-Retourneert: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
+>
+>**Voorbeeld:**
+>
+>`sha256( workfront )`
+>
+>Retourneert: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
 ## [!UICONTROL sha512 (text; [output encoding]; [key]; [key encoding])]
 
@@ -281,49 +295,61 @@ Ondersteunde toetscoderingen:
 Wanneer u &quot;[!UICONTROL binary]&quot; sleutelcodering, moet een sleutel een buffer zijn, niet een koord.
 
 >[!INFO]
-**Voorbeeld:**
-`sha512(workfront)`
-Retourneert: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd19cd b85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
+>
+>**Voorbeeld:**
+>
+>`sha512(workfront)`
+>
+>Retourneert: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd19cd b85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
 
 ## [!UICONTROL split (text; separator)]
 
 Splitst een tekenreeks in een array van tekenreeksen door de tekenreeks in subtekenreeksen te scheiden.
 
 >[!INFO]
-**Voorbeeld:**
-`split( John, George, Paul ; , )`
+>
+>**Voorbeeld:**
+>
+>`split( John, George, Paul ; , )`
 
 ## [!UICONTROL startcase (text)]
 
 Hiermee zet u de eerste letter van elk woord om in hoofdletters en alle andere letters in kleine letters.
 
 >[!INFO]
-**Voorbeeld:**
-`startcase( hello WORLD )`
-Retourneert: [!UICONTROL Hello World]
+>
+>**Voorbeeld:**
+>`startcase( hello WORLD )`
+>
+>Retourneert: [!UICONTROL Hello World]
 
 ## [!UICONTROL stripHTML (text)]
 
 Hiermee verwijdert u alle HTML-tags uit tekst.
 
 >[!INFO]
-**Voorbeeld:**
-`stripHTML( <b>Hello</b> )`
-Retourneert: Hallo
+>
+>**Voorbeeld:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Retourneert: Hallo
 
 ## [!UICONTROL substring (text; start;end)]
 
 Retourneert een gedeelte van een tekstreeks tussen de positie &quot;start&quot; en &quot;end&quot;.
 
 >[!INFO]
-**Voorbeelden:**
-* `substring( Hello ; 0 ; 3)`
-
-   Retourneert: Hel
-* `substring( Hello ; 1 ; 3 )`
-
-   Retourneert: el
-
+>
+>**Voorbeelden:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Retourneert: Hel
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Retourneert: el
 
 ## [!UICONTROL toBinary (value)]
 
@@ -332,14 +358,16 @@ Zet om het even welke waarde in binaire gegevens om.
 U kunt het coderen als tweede argument ook specificeren om binaire omzettingen van hexuitdraai of base64 op binaire gegevens toe te passen.
 
 >[!INFO]
-**Voorbeelden:**
-* `toBinary( Workfront )`
-
-   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
-* `toBinary( V29ya2Zyb250 ; base64 )`
-
-   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
-
+>
+>**Voorbeelden:**
+>
+>* `toBinary( Workfront )`
+>
+>   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
 
 ## [!UICONTROL toString (value)]
 
@@ -354,6 +382,9 @@ Hiermee verwijdert u spatietekens aan het begin of einde van de tekst.
 Zet alle alfabetische tekens in een tekstreeks om in hoofdletters.
 
 >[!INFO]
-**Voorbeeld:**
-`upper( Hello )`
-Retourneert: [!UICONTROL HELLO]
+>
+>**Voorbeeld:**
+>
+>`upper( Hello )`
+>
+>Retourneert: [!UICONTROL HELLO]

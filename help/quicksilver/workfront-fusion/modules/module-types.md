@@ -8,9 +8,9 @@ description: "Adobe Workfront Fusion maakt onderscheid tussen vijf typen modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,11 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -63,16 +67,15 @@ In tegenstelling tot triggermodules kunnen actiemodules aan het begin, midden of
 >* **[!DNL Workfront]>[!UICONTROL Upload a file]** een bestand verzenden naar [!DNL Workfront] en retourneert de id ervan.
 >* **[!UICONTROL Image]>[!UICONTROL Resize]** ontvangt een afbeelding, wijzigt de grootte van de afbeelding in de opgegeven afmetingen en geeft de gewijzigde afbeelding door aan de volgende actie.
 
-
 Het type Handeling heeft vier subtypen: Maken, lezen, bijwerken en verwijderen. Het subtype Update laat de volgende drie verrichtingen toe:
 
 * **De inhoud van een veld wissen**. Deze bewerking vindt plaats wanneer de inhoud van het veld wordt geëvalueerd om het trefwoord te wissen (niet te verwarren met *leeg*).
 
-   ![](assets/erase-content-of-field.png)
+  ![](assets/erase-content-of-field.png)
 
 * **De inhoud van een veld ongewijzigd laten**. Deze bewerking vindt plaats wanneer het veld leeg blijft of wanneer de inhoud van het veld wordt geëvalueerd naar leeg (weergegeven als null in JSON).
 
-   ![](assets/leave-content-field-unchanged-350x231.png)
+  ![](assets/leave-content-field-unchanged-350x231.png)
 
 * **De inhoud van een veld vervangen**. Deze operatie vindt plaats in alle andere gevallen dan de twee hierboven beschreven gevallen.
 
@@ -129,7 +132,6 @@ Met opiniepeilingtriggers kunt u de eerste bundel selecteren die ze via het deel
 >
 >* **[!DNL Google Sheets]>[!UICONTROL Watch Rows]** retourneert nieuwe rijen die door de gebruiker zijn toegevoegd sinds de laatste keer dat het scenario werd uitgevoerd
 
-
 ### Instant triggers
 
 Met instant triggers kan de service een melding sturen [!DNL Workfront Fusion] over een *wijzigen* onmiddellijk. Wij adviseren dat u een scenario plant dat een onmiddellijke trekker bevat om onmiddellijk te lopen. Zie voor instructies [Een scenario plannen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Zie ook [Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) voor details over hoe de inkomende gegevens worden behandeld.
@@ -140,7 +142,6 @@ Met instant triggers kan de service een melding sturen [!DNL Workfront Fusion] o
 >
 >* **[!DNL Workfront]>[!UICONTROL Watch Events]** retourneert informatie wanneer een bepaald type gebeurtenis plaatsvindt in Workfront, zoals het maken van een taak.
 >* **[!DNL Google Sheets]>[!UICONTROL Watch Changes]** geeft informatie weer wanneer een cel wordt bijgewerkt.
-
 
 ## Samenvoegapparatuur
 
@@ -159,7 +160,6 @@ Scenario&#39;s kunnen een onbeperkt aantal aggregators bevatten.
 >* **[!UICONTROL Archive]>[!UICONTROL Create an archive]** de ontvangen bestanden comprimeren naar een zip-archief
 >* **[!UICONTROL CSV]>[!UICONTROL Aggregate to CSV]** Hiermee worden meerdere tekenreeksen uit een CSV-bestand samengevoegd in één rij
 >* **[!UICONTROL Tools]>[!UICONTROL Text aggregator]** combineert meerdere tekenreeksen tot één tekenreeks
-
 
 Zie voor meer informatie [Samenvoegmodule in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 

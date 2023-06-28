@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,33 +122,32 @@ Als u een persoonlijke sleutel voor uw [!DNL Workfront Fusion Jira] verbinding, 
 
    * `openssl genrsa -out jira_privatekey.pem 1024`
 
-      Met deze opdracht wordt een persoonlijke sleutel van 1024 bits gegenereerd.
+     Met deze opdracht wordt een persoonlijke sleutel van 1024 bits gegenereerd.
 
    * `openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365`
 
-      Met deze opdracht maakt u een X509-certificaat.
+     Met deze opdracht maakt u een X509-certificaat.
 
    * `openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8`
 
-      Met deze opdracht wordt de persoonlijke sleutel (PKCS8-indeling) geëxtraheerd naar de `jira_privatekey.pcks8`
+     Met deze opdracht wordt de persoonlijke sleutel (PKCS8-indeling) geëxtraheerd naar de `jira_privatekey.pcks8`
 bestand.
 
    * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
 
-      Met deze opdracht haalt u de openbare sleutel uit het certificaat naar het `jira_publickey.pem` bestand.
+     Met deze opdracht haalt u de openbare sleutel uit het certificaat naar het `jira_publickey.pem` bestand.
 
-      >[!NOTE]
-      >
-      >Als u Vensters gebruikt, zou u de openbare sleutel aan kunnen moeten bewaren `jira_publickey.pem` bestand handmatig:
-      >
-      >1. In uw terminal, stel het volgende bevel in werking:
-      >   
-      >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
-      >   
-      >1. Kopieer de terminaluitvoer (inclusief `-------BEGIN PUBLIC KEY--------` en `-------END PUBLIC KEY--------`
-      >   
-      >1. Plak de einduitvoer in een bestand met de naam `jira_publickey.pem`.
-
+     >[!NOTE]
+     >
+     >Als u Vensters gebruikt, zou u de openbare sleutel aan kunnen moeten bewaren `jira_publickey.pem` bestand handmatig:
+     >
+     >1. In uw terminal, stel het volgende bevel in werking:
+     >   
+     >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
+     >   
+     >1. Kopieer de terminaluitvoer (inclusief `-------BEGIN PUBLIC KEY--------` en `-------END PUBLIC KEY--------`
+     >   
+     >1. Plak de einduitvoer in een bestand met de naam `jira_publickey.pem`.
 
 
 1. Doorgaan naar [De clienttoepassing configureren als een consument in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)

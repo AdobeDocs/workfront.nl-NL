@@ -8,7 +8,7 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 0%
@@ -33,11 +33,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -56,9 +64,7 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 ## Organisaties
 
-[!DNL Workfront Fusion] gebruikers behoren tot een organisatie. Uw [!DNL Fusion] De vergunning bepaalt hoeveel actieve scenario&#39;s en schakelaars in uw organisatie beschikbaar zijn.
-
-[!DNL Fusion] het verlenen van vergunningen bepaalt het aantal actieve scenario&#39;s en actieve apps die aan een organisatie beschikbaar zijn. [!DNL Fusion] geeft het huidige aantal actieve scenario&#39;s en actieve apps weer op het dashboard van de organisatie.
+[!DNL Workfront Fusion] gebruikers behoren tot een organisatie.
 
 * [Organisatiefuncties](#organization-roles)
 * [Gebruikers uitnodigen voor een organisatie](#inviting-users-to-an-organization)

@@ -8,9 +8,9 @@ description: Een iteratormodule is een speciaal type module dat een array omzet 
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
-source-git-commit: a2060e7179f2295bfd42da84bd7bca9862ad0a17
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,11 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -65,15 +69,14 @@ Zie voor meer informatie [De instellingen van een module configureren in Adobe W
 >**Voorbeelden:**
 >
 >* In het onderstaande scenario ziet u hoe u e-mails met bijlagen kunt ophalen en de bijlagen als afzonderlijke bestanden kunt opslaan in een geselecteerde [!DNL Dropbox] map.
-   >
-   >   E-mails kunnen een array met bijlagen bevatten. De [!UICONTROL Iterator] de module die na de eerste module wordt opgenomen zal u toelaten om elke gehechtheid afzonderlijk te behandelen. De [!UICONTROL Iterator] De array van bijlagen wordt in afzonderlijke bundels gesplitst. Elke bundel, met één bijlage, wordt dan bewaard één voor één in een geselecteerde [!DNL Dropbox] map. De [!UICONTROL Iterator] Hierboven ziet u de installatie van de module: de [!UICONTROL Array] moet het veld de `Attachments` array.
-   >
-   >   ![](assets/attachments-array-350x154.jpg)
+>
+>   E-mails kunnen een array met bijlagen bevatten. De [!UICONTROL Iterator] de module die na de eerste module wordt opgenomen zal u toelaten om elke gehechtheid afzonderlijk te behandelen. De [!UICONTROL Iterator] De array van bijlagen wordt in afzonderlijke bundels gesplitst. Elke bundel, met één bijlage, wordt dan bewaard één voor één in een geselecteerde [!DNL Dropbox] map. De [!UICONTROL Iterator] Hierboven ziet u de installatie van de module: de [!UICONTROL Array] moet het veld de `Attachments` array.
+>
+>   ![](assets/attachments-array-350x154.jpg)
 >
 >* Voor uw gemak, velen [!DNL Workfront Fusion] apps bieden gespecialiseerde [!UICONTROL Iterator] modules met een vereenvoudigde installatie. De [!UICONTROL Email] app bevat de speciale [!UICONTROL Iterator] module [!UICONTROL Email] > [!UICONTROL Iterate attachments] dat dezelfde resultaten oplevert als in het algemeen [!UICONTROL Iterator] module.
-   >
-   >   ![](assets/specialized-iterators-350x135.jpg)
-
+>
+>   ![](assets/specialized-iterators-350x135.jpg)
 
 
 ## Problemen oplossen: Toewijzingspaneel geeft geen toe te wijzen items weer onder [!UICONTROL Iterator] module

@@ -7,9 +7,9 @@ description: In dit artikel wordt beschreven waarom actieve of gedeactiveerde sc
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ U kunt met scenario&#39;s of in een actieve of inactieve staat werken:
 
 * Een actief scenario wordt periodiek volgens zijn bepaald programma uitgevoerd, zoals die in [Een scenario plannen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
-   Dit is nuttig wanneer u de functie van een scenario wilt automatiseren.
+  Dit is nuttig wanneer u de functie van een scenario wilt automatiseren.
 
 * Een inactief scenario wordt slechts uitgevoerd wanneer u het manueel in werking stelt.
 
-   Dit is nuttig wanneer u het scenario slechts op bepaalde tijden wilt in werking stellen.
+  Dit is nuttig wanneer u het scenario slechts op bepaalde tijden wilt in werking stellen.
 
 U kunt een scenario op elk ogenblik activeren of deactiveren, afhankelijk van hoe u het scenario wilt gebruiken.
 
@@ -48,11 +48,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering] </p>  </td>    </tr> 
+  <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

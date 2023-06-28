@@ -9,9 +9,9 @@ description: Met de [!DNL Adobe Acrobat Sign] modules, kunt u beginnen [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 8bb97b08bb5991fadbf2627f4ebfdaa25ae337ce
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '5422'
+source-wordcount: '5464'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>  </td>  
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +61,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## [!DNL Adobe Acrobat Sign] aanbevelingen voor connectorgebruik
 
-De [!DNL Adobe Sign ]app maakt automatisering van bedrijfsprocessen voor e-handtekeningen in [!DNL Fusion] veel makkelijker en krachtiger.
+De [!DNL Adobe Sign]app maakt automatisering van bedrijfsprocessen voor e-handtekeningen in [!DNL Fusion] veel makkelijker en krachtiger.
 
 Nieuwe gebruikers naar [!DNL Adobe Sign] bijzondere aandacht besteden aan een aantal van de beperkingen die verbonden zijn aan het actualiseren van overeenkomsten. Overeenkomsten worden gewoonlijk niet gewijzigd als ze eenmaal zijn gestart. We raden nieuwe gebruikers van [!DNL Adobe Sign] focus op het maken van nieuwe overeenkomsten met behulp van de module voor het maken van overeenkomsten. Dit maakt [!DNL Fusion] automatisering is eenvoudiger en werkt beter met [!DNL Adobe Sign].
 
@@ -754,7 +762,6 @@ Deze actiemodule werkt één record bij in [!DNL Adobe Acrobat Sign].
 
 
 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -813,7 +820,6 @@ Deze actiemodule werkt records bij die betrekking hebben op een specifiek object
 >* Als beste praktijk, als u aanzienlijke veranderingen in een overeenkomst verwacht, adviseren wij het creëren van een nieuwe overeenkomst eerder dan het bijwerken van de bestaande overeenkomst.
 >* Voor sommige updates zijn verplichte velden beschikbaar. Zorg ervoor dat u alle vereiste velden invult wanneer u de update configureert. Vereiste velden worden vet weergegeven in [!DNL Workfront Fusion] modules.
 >
-
 
 
 

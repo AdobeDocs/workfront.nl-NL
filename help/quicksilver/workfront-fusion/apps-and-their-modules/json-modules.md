@@ -8,9 +8,9 @@ description: De Adobe Workfront Fusion JSON-app biedt modules voor het verwerken
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering] </p> </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,8 +83,7 @@ Als het JSON-tekenreeksveld een verzameling bevat `{ ... }`De uitvoer bestaat ui
 >
 >**Voorbeeld:**
 >
->
-```
+>```
 >{
 >       "name" : "Peter",
 >
@@ -93,8 +100,7 @@ Als het JSON-tekenreeksveld een array bevat `[ ... ]`De uitvoer bestaat uit een 
 >
 >**Voorbeeld:**
 >
->
-```
+>```
 >[
 >   {
 >       "name" : "Peter",
@@ -227,39 +233,49 @@ Deze actiemodule transformeert een object naar een json-tekenreeks.
 >**Voorbeeld:** In het volgende voorbeeld wordt getoond hoe u gegevensrecords kunt transformeren vanuit [!DNL Google Sheets] in JSON-indeling:
 >
 >1. Plaats de [!DNL Google Sheets] > [!UICONTROL Select rows] in uw scenario om de gegevens op te halen. Stel de module in om rijen op te halen uit uw [!DNL Google] spreadsheet. De &#x200B; instellen **[!UICONTROL Maximum number of returned rows]** tot een klein aantal, maar groter dan één voor testdoeleinden (bijvoorbeeld drie). Voer de [!DNL Google Sheets] door er met de rechtermuisknop op te klikken en &quot;**[!UICONTROL Run this module only]**.&quot; Controleer de uitvoer van de module.
+>
 1. Verbind de [!UICONTROL Array Aggregator] module na de [!DNL Google Sheets] module. In de opstelling van de module kiest u [!DNL Google Sheets] in de **[!UICONTROL Source node]** veld. Laat de andere velden op dit moment ongewijzigd.
+>
 1. Verbinden [!UICONTROL JSON] > [!UICONTROL Create JSON] module na de [!UICONTROL Array Aggregator] module. De opstelling van de module vereist een structuur van Gegevens die het formaat JSON beschrijft. Klikken **[!UICONTROL Add]** om de gegevensstructuurinstellingen te openen. De eenvoudigste manier om deze gegevensstructuur te maken, is deze automatisch te genereren op basis van een JSON-voorbeeld. Klikken **[!UICONTROL Generator]** en plak uw JSON-voorbeeld in de **[!UICONTROL Sample data]** veld:
+>
+**Voorbeeld:**
+>   
+```
+{
 
-   **Voorbeeld:**
-   ```
-   {
-   
-   "books": [
-   
-   {
-   
-   "id": "ID",
-   
-   "title": "Title",
-   
-   "author": "Author"
-   
-   }
-   
-   ]
-   
-   }
-   ```
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
+>
 1. Klik op **[!UICONTROL Save]**. De [!UICONTROL Specification] bevat nu de gegenereerde structuur.
 1. Wijzig de naam van de gegevensstructuur in een specifiekere naam en klik op **[!UICONTROL Save]**. Een veld dat overeenkomt met het kenmerk van de hoofdarray wordt als een toewijzingsveld weergegeven in de instellingen van de JSON-module.
+>
 1. Klik op de knop **[!UICONTROL Map]** naast het veld en wijs de `Array[]` item van de uitvoer van de Array-aggregator naar dit item.
+>
 1. Klikken **[!UICONTROL OK]** om de [!UICONTROL JSON] instellen.
+>
 1. Open de instelling van het dialoogvenster [!UICONTROL Array Aggregator] module. Wijzig de **[!UICONTROL Target structure]** van [!UICONTROL Custom] aan de [!UICONTROL JSON] het veld van de module dat overeenkomt met het kenmerk van de hoofdarray. Items toewijzen vanuit de [!DNL Google Sheets] aan de aangewezen gebieden.
+>
 1. Klikken **[!UICONTROL OK]** om de [!UICONTROL Array Aggregator] instellen.
+>
 1. Voer het scenario uit.
-   De [!UICONTROL JSON] -module geeft de juiste JSON-indeling als uitvoer.
+>
+De [!UICONTROL JSON] -module geeft de juiste JSON-indeling als uitvoer.
+>
 1. Open de instelling van het dialoogvenster [!DNL Google Sheets] en verhoogt u de [!UICONTROL Maximum number of returned rows] getal dat groter is dan het aantal rijen in het werkblad om alle gegevens te verwerken.
-
 
 ## Problemen oplossen
 
@@ -272,5 +288,7 @@ Zorg ervoor dat de JSON-inhoud correct is toegewezen aan de [!UICONTROL Parse JS
 Bij het gebruik van voorwaardelijke instructies zoals `if` in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.
 
 >[!INFO]
+>
 **Voorbeeld:**
+>
 ![](assets/quotes-in-json-350x120.png)

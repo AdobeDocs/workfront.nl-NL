@@ -8,9 +8,9 @@ description: In dit artikel worden veelgestelde vragen over [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +90,7 @@ Zie voor meer informatie [[!UICONTROL Email] modules](../../workfront-fusion/app
 
 ### Antwoord
 
-De gemeenschappelijke scenario&#39;s worden in werking gesteld met intervallen volgens het programma u specificeert (bijvoorbeeld, elk uur, elke 5 minuten, eens per maand, en zo). Er zijn speciale triggers, ook wel &#39;instant triggers&#39; genoemd, die uw scenario direct kunnen starten nadat ze gegevens van een bepaalde service ontvangen. Directe triggers kunnen bijzonder nuttig zijn. We raden u aan om ze waar mogelijk te gebruiken. Ze helpen het aantal bewerkingen te verminderen. De ontvangen gegevens worden direct verwerkt zonder op de volgende geplande looppas te wachten. De [!DNL Google Sheets] module [!UICONTROL Watch Changes] start onmiddellijk een scenario nadat een cel is bijgewerkt.
+De gemeenschappelijke scenario&#39;s worden in werking gesteld met intervallen volgens het programma u specificeert (bijvoorbeeld, elk uur, elke 5 minuten, eens per maand, en zo). Er zijn speciale triggers, ook wel &#39;instant triggers&#39; genoemd, die uw scenario direct kunnen starten nadat ze gegevens van een bepaalde service ontvangen. Directe triggers kunnen bijzonder nuttig zijn. We raden u aan om ze waar mogelijk te gebruiken. Ze helpen het aantal bewerkingen te verminderen. De ontvangen gegevens worden direct verwerkt zonder op de volgende geplande looppas te wachten. De [!DNL Google Sheets] module [!UICONTROL Watch Changes] begint onmiddellijk een scenario nadat een cel wordt bijgewerkt.
 
 ## Wat zijn aggregators?
 
@@ -102,7 +110,7 @@ Een verrichting is om het even welke die taak door een module wordt uitgevoerd. 
 
 ### Antwoord
 
-De overdracht van gegevens verwijst naar de hoeveelheid gegevens die door uw scenario wordt overgebracht. Stel dat u een scenario hebt dat een 100 kB-afbeelding ophaalt uit FTP en de grootte tot 50 kB reduceert en beide afbeeldingen opslaat naar [!DNL Dropbox]. De hoeveelheid gegevens die in dit scenario wordt gebruikt, is 150 kB.
+De overdracht van gegevens verwijst naar de hoeveelheid gegevens die door uw scenario wordt overgebracht. Stel dat u een scenario hebt dat een 100 kB-afbeelding ophaalt uit FTP en de grootte tot 50 kB reduceert en beide afbeeldingen opslaat naar [!DNL Dropbox]. De hoeveelheid gegevens die in dit scenario wordt gebruikt, is 250 kB.
 
 ## Wat is een verbinding?
 

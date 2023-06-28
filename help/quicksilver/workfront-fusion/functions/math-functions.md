@@ -8,9 +8,9 @@ description: De volgende rekenkundige functies zijn beschikbaar in het Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,13 +69,12 @@ Retourneert het kleinste gehele getal dat groter dan of gelijk is aan een opgege
 >**Voorbeelden:**
 >
 >* `ceil(` `1.2` `)`
-   >
-   >   Retourneert 2
+>
+>   Retourneert 2
 >
 >* `ceil(` `4` `)`
-   >
-   >   Retourneert 4
-
+>
+>   Retourneert 4
 
 ## [!UICONTROL floor (number)]
 
@@ -78,17 +85,16 @@ Retourneert het grootste gehele getal dat kleiner dan of gelijk is aan een opgeg
 >**Voorbeelden:**
 >
 >* `floor(` `1.2` `)`
-   >
-   >   Retourneert 1
+>
+>   Retourneert 1
 >
 >* `floor(` `1.9` `)`
-   >
-   >   Retourneert 1
+>
+>   Retourneert 1
 >
 >* `floor(` `4` `)`
-   >
-   >   Retourneert 4
-
+>
+>   Retourneert 4
 
 ## [!UICONTROL formatNumber (number; decimalPOINTS; [decimalSeparator]; [thousandsSeparator])]
 
@@ -123,21 +129,20 @@ Rondt een numerieke waarde af op het dichtstbijzijnde gehele getal.
 >**Voorbeelden:**
 >
 >* `round(` `1.2` `)`
-   >
-   >   Retourneert 1
+>
+>   Retourneert 1
 >
 >* `round(` `1.5` `)`
-   >
-   >   Retourneert 2
+>
+>   Retourneert 2
 >
 >* `round(` `1.7` `)`
-   >
-   >   Retourneert 2
+>
+>   Retourneert 2
 > 
 >* `round(` `2` `)`
-   >
-   >   Retourneert 2
-
+>
+>   Retourneert 2
 
 ## [!UICONTROL sum ([array of values]), sum(value1; value2; ...)]
 

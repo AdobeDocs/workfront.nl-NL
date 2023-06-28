@@ -7,16 +7,16 @@ description: Toegang tot Workfront Fusion via Adobe Experience Cloud biedt u een
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
-Toegang [!DNL Workfront Fusion] doorheen [!DNL Adobe Experience Cloud] biedt u een naadloze, uniforme ervaring voor het beheer van al uw advertentie[!DNL]Adobe-toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
+Toegang [!DNL Workfront Fusion] doorheen [!DNL Adobe Experience Cloud] biedt u een naadloze, uniforme ervaring voor het beheer van al uw [!DNL Adobe] toepassingen. Met Single Identity Management kunt u zich op één locatie aanmelden, zonder meerdere URL&#39;s of aanmeldings-id&#39;s.
 
 Voor een video waarin navigatie wordt beschreven in [!DNL Fusion] in de [!DNL Adobe Experience Cloud], zie:
 
@@ -40,11 +40,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering] </p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

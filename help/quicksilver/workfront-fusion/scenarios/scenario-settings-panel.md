@@ -7,9 +7,9 @@ description: In dit artikel worden de instellingen beschreven die beschikbaar zi
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering] </p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,11 +106,11 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 
 * Als het scenario met een opiniepeilingtrigger begint, bepaalt het plaatsen het maximum aantal cycli die tijdens de uitvoering van het scenario worden toegestaan.
 
-   Zie voor meer informatie over opiniepeilingtriggers [Opiniepeilingtriggers](../../workfront-fusion/modules/module-types.md#polling) in [Typen modules](../../workfront-fusion/modules/module-types.md).
+  Zie voor meer informatie over opiniepeilingtriggers [Opiniepeilingtriggers](../../workfront-fusion/modules/module-types.md#polling) in [Typen modules](../../workfront-fusion/modules/module-types.md).
 
 * Als het scenario met een onmiddellijke trekker begint, wordt het plaatsen genegeerd en alle hangende gebeurtenissen worden verwerkt tijdens één enkele scenariouitvoering, één gebeurtenis per één cyclus.
 
-   Zie voor meer informatie over instant triggers [Instant triggers](../../workfront-fusion/modules/module-types.md#instant) in [Typen modules](../../workfront-fusion/modules/module-types.md).
+  Zie voor meer informatie over instant triggers [Instant triggers](../../workfront-fusion/modules/module-types.md#instant) in [Typen modules](../../workfront-fusion/modules/module-types.md).
 
 * Als het scenario niet met een trekker (instant/polling) begint, wordt het gespecificeerde maximumaantal cycli altijd uitgevoerd.
 

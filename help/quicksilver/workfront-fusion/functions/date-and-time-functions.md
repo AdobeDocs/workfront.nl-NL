@@ -8,9 +8,9 @@ description: De volgende datum- en tijdfuncties zijn beschikbaar in het Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p><p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,21 +109,20 @@ De `formatDate` Deze functie retourneert een tekstrepresentatie van de opgegeven
 >![](assets/date&time-functions-examples-350x61.png)
 >
 >* `formatDate(1. Date created;MM/DD/YYYY)`
-   >
-   >    Returns 10/01/2018
+>
+>    Returns 10/01/2018
 >
 >* `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
-   >
-   >   Returns 2018-10-01 09:32 AM
+>
+>   Returns 2018-10-01 09:32 AM
 >
 >* `formatDate(1. Date created;DD.MM.YYYY HH:mm;UTC)`
-   >
-   >    Retourneert 01.10.2018 07:32
+>
+>    Retourneert 01.10.2018 07:32
 >
 >* `formatDate(now;DD.MM.YYYY HH:mm)`
-   >
-   >    Retourneert 19.03.2019 15:30
-
+>
+>    Retourneert 19.03.2019 15:30
 
 ## [!UICONTROL parseDate (text; format; [timezone])]
 
@@ -166,16 +173,16 @@ Deze functie converteert een tekstreeks naar een datum op basis van de notatie e
 >**Voorbeelden:** In de volgende voorbeelden wordt de geretourneerde waarde Date uitgedrukt volgens ISO 8601, maar het gegevenstype van het resultaat is Date.
 >
 >* `parseDate(2016-12-28;YYYY-MM-DD)`
-   >
-   >    Retourneert 2016-12-28T00:00:00,000Z
+>
+>    Retourneert 2016-12-28T00:00:00,000Z
 >
 >* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
-   >
-   >    Retourneert 2016-12-28T16:03:00,000Z
+>
+>    Retourneert 2016-12-28T16:03:00,000Z
 >
 >* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
-   >
-   >    Retourneert 2016-12-28T16:03:06.000Z
+>
+>    Retourneert 2016-12-28T16:03:06.000Z
 >
 >* `parseDate(1482940986;X)`
 >
@@ -190,13 +197,12 @@ Retourneert een nieuwe datum als gevolg van het toevoegen van een bepaald aantal
 >**Voorbeelden:**
 >
 >* `addDays(2016-12-08T15:55:57.536Z;2)`
-   >
-   >    Retourneert 2016-12-10T15:55:57,536Z
+>
+>    Retourneert 2016-12-10T15:55:57,536Z
 >
 >* `addDays(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Retourneert 2016-12-6T15:55:57,536Z
-
+>
+>    Retourneert 2016-12-6T15:55:57,536Z
 
 ## [!UICONTROL addHours (date; number)] {#addhours-date-number}
 
@@ -207,13 +213,12 @@ Retourneert een nieuwe datum als gevolg van het toevoegen van een bepaald aantal
 >**Voorbeelden:**
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
-   >
-   >    Retourneert 2016-12-08T17:55:57,536Z
+>
+>    Retourneert 2016-12-08T17:55:57,536Z
 >
 >* `addHours(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Retourneert 2016-12-08T13:55:57,536Z
-
+>
+>    Retourneert 2016-12-08T13:55:57,536Z
 
 ## [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
 
@@ -224,13 +229,12 @@ Retourneert een nieuwe datum als gevolg van het toevoegen van een bepaald aantal
 >**Voorbeelden:**
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
-   >
-   >    Retourneert 2016-12-08T15:57:57,536Z
+>
+>    Retourneert 2016-12-08T15:57:57,536Z
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Retourneert 2016-12-08T15:53:57,536Z
-
+>
+>    Retourneert 2016-12-08T15:53:57,536Z
 
 ## [!UICONTROL addMonths (date; number)] {#addseconds-date-number}
 
@@ -241,13 +245,12 @@ Retourneert een nieuwe datum als gevolg van het toevoegen van een bepaald aantal
 >**Voorbeelden:**
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
-   >
-   >    Retourneert 2016-10-08T15:55:57,536Z
+>
+>    Retourneert 2016-10-08T15:55:57,536Z
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;-2)`
-   >
-   >    Retourneert 2016-06-08T15:55:57,536Z
-
+>
+>    Retourneert 2016-06-08T15:55:57,536Z
 
 ## [!UICONTROL addSeconds (date; number)]
 
@@ -258,13 +261,12 @@ Retourneert een nieuwe datum als gevolg van het toevoegen van een bepaald aantal
 >**Voorbeelden:**
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
-   >
-   >   Retourneert 2016-12-08T15:55:59,536Z
+>
+>   Retourneert 2016-12-08T15:55:59,536Z
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >   Retourneert 2016-12-08T15:55:55,536Z
-
+>
+>   Retourneert 2016-12-08T15:55:55,536Z
 
 ## [!UICONTROL addYears (date; number)]
 
@@ -275,13 +277,12 @@ Retourneert een nieuwe datum als gevolg van het toevoegen van een bepaald aantal
 >**Voorbeelden:**
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
-   >
-   >    Retourneert 2018-08-08T15:55:57,536Z
+>
+>    Retourneert 2018-08-08T15:55:57,536Z
 >
 >* `addYears(2016-12-08T15:55:57.536Z; -2)`
-   >
-   >    Retourneert 2014-08-08T15:55:57,536Z
-
+>
+>    Retourneert 2014-08-08T15:55:57,536Z
 
 ## [!UICONTROL setSecond (date; number)]
 
@@ -296,13 +297,12 @@ Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u gebruik
 >**Voorbeelden:**
 >
 >* `setSecond(2015-10-07T11:36:39.138Z;10)`
-   >
-   >    Retourneert 2015-10-07T11:36:10,138Z
+>
+>    Retourneert 2015-10-07T11:36:10,138Z
 >
 >* `setSecond(2015-10-07T11:36:39.138Z; 6)`
-   >
-   >    Retourneert 2015-10-07T11:37:01,138Z
-
+>
+>    Retourneert 2015-10-07T11:37:01,138Z
 
 ## [!UICONTROL setMinute (date; number)]
 
@@ -317,13 +317,12 @@ Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addMinu
 >**Voorbeelden:**
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
-   >
-   >    Retourneert 2015-10-07T11:10:39,138Z
+>
+>    Retourneert 2015-10-07T11:10:39,138Z
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;61)`
-   >
-   >    Retourneert 2015-10-07T12:01:39,138Z
-
+>
+>    Retourneert 2015-10-07T12:01:39,138Z
 
 ## [!UICONTROL setHour (date; number)]
 
@@ -338,13 +337,12 @@ Als u een getal buiten het bereik moet opgeven, raden we u aan addHours te gebru
 >**Voorbeelden:**
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
-   >
-   >   Retourneert 2015-08-07T06:36:39,138Z
+>
+>   Retourneert 2015-08-07T06:36:39,138Z
 >
 >* `setHour(2015-08-07T11:36:39.138;-6)`
-   >
-   >    Retourneert 2015-08-06T18:36:39,138Z
-
+>
+>    Retourneert 2015-08-06T18:36:39,138Z
 
 ## [!UICONTROL setDay (date; number/name of the day in English)]
 
@@ -359,17 +357,16 @@ Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addDays
 >**Voorbeelden:**
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
-   >
-   >   Retourneert 2018-06-25T11:36:39,138Z
+>
+>   Retourneert 2018-06-25T11:36:39,138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;1)`
-   >
-   >   Retourneert 2018-06-24T11:36:39,138Z
+>
+>   Retourneert 2018-06-24T11:36:39,138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;7)`
-   >
-   >   Retourneert 2018-06-30T11:36:39,138Z
-
+>
+>   Retourneert 2018-06-30T11:36:39,138Z
 
 ## [!UICONTROL setDate (date; number)]
 
@@ -382,13 +379,12 @@ Geef een getal op tussen 1 en 31. Als het getal zich buiten dit bereik bevindt, 
 >**Voorbeelden:**
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
-   >
-   >   Retourneert 2015-08-05T11:36:39,138Z
+>
+>   Retourneert 2015-08-05T11:36:39,138Z
 >
 >* `setDate(2015-08-07T11:36:39.138Z;32)`
-   >
-   >   Retourneert 2015-09-01T11:36:39,138Z
-
+>
+>   Retourneert 2015-09-01T11:36:39,138Z
 
 ## [!UICONTROL setMonth (date; number/name of the month in English)]
 
@@ -401,17 +397,16 @@ Geef een getal op tussen 1 en 12. Als het getal zich buiten dit bereik bevindt, 
 >**Voorbeelden:**
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
-   >
-   >   Retourneert 2015-05-07T11:36:39,138Z
+>
+>   Retourneert 2015-05-07T11:36:39,138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;17)`
-   >
-   >   Retourneert 2016-05-07T11:36:39,138Z
+>
+>   Retourneert 2016-05-07T11:36:39,138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;january)`
-   >
-   >   Retourneert 2015-01-07T12:36:39,138Z
-
+>
+>   Retourneert 2015-01-07T12:36:39,138Z
 
 ## [!UICONTROL setYear (date; number)]
 
@@ -422,9 +417,8 @@ Retourneert een nieuwe datum met het jaar dat in parameters is opgegeven.
 >**Voorbeeld:**
 >
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
-   >
-   >   Retourneert 2017-08-07T11:36:39,138Z
-
+>
+>   Retourneert 2017-08-07T11:36:39,138Z
 
 ## [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
@@ -449,17 +443,16 @@ Als er geen eenheid is opgegeven, retourneert de functie het verschil in millise
 >**Voorbeelden:**
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
-   >
-   >    Retourneert `600,000`
+>
+>    Retourneert `600,000`
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
-   >
-   >    Retourneert `4`
+>
+>    Retourneert `4`
 >
 >* `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
-   >
-   >    Retourneert `1`
-
+>
+>    Retourneert `1`
 
 ## Aanvullende voorbeelden
 
@@ -538,7 +531,6 @@ Een mogelijkheid is om de volgende expressie te gebruiken:
 >* Waarden van `D1`en `D2` Dit zijn waarden van het type Date. Als het waarden van het type String zijn (bijvoorbeeld 20.10.2018), gebruikt u de opdracht `parseDate()` om deze om te zetten in waarden van het type Date.
 >
 >* De `round()` functie wordt gebruikt voor gevallen waarin een van de data valt binnen de zomertijd en de andere niet. In deze gevallen is het verschil in uren één uur minder of meer. U kunt het door 24 voor een niet-geheel resultaat verdelen. Je verliest een uurtje spaargeld. Rond afgevlakt het zodat u geen percentage hebt
-
 
 ### Laatste dag/milliseconde van maand berekenen
 

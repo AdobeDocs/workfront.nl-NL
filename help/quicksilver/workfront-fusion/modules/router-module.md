@@ -8,9 +8,9 @@ description: De module van de Router staat u toe om uw stroom in verscheidene ro
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c39c562-1cee-4f8e-89cc-0ed554079a2b
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ De [!UICONTROL Router] de module staat u toe om uw stroom in verscheidene routes
 >
 >* Routes worden opeenvolgend verwerkt, niet parallel. Een bundel wordt niet verzonden naar de volgende route tot het volledig door de vorige route is verwerkt.
 >
-
 
 
 
@@ -49,11 +48,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>  </td> 
+   <td>
+   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>of</p>
+   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>
+   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>of</p>
+   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,15 +75,15 @@ A [!UICONTROL Router] kan op een van de volgende manieren aan een scenario worde
 
 * Als u verbinding wilt maken met de [!UICONTROL Router] module na een module, klik op het juiste handvat van de module, begin te typen **[!UICONTROL router]** als u er naar wilt zoeken, kiest u **[!UICONTROL Flow Control]** > **[!UICONTROL Router]** in de lijst met modules die worden weergegeven.
 
-   ![](assets/connect-the-router-350x108.png)
+  ![](assets/connect-the-router-350x108.png)
 
 * Als u de [!UICONTROL Router] de module tussen twee modules, klikt op het moersleutelpictogram onder de route die de twee modules verbindt (of klikt de route met de rechtermuisknop aan) en kiest **[!UICONTROL Add a router]** in het menu.
 
-   ![](assets/insert-router-350x191.png)
+  ![](assets/insert-router-350x191.png)
 
 * U kunt een [!UICONTROL Router] automatisch. Als u in de onderstaande afbeelding bijvoorbeeld de module in de rechterbenedenhoek wilt verbinden met de module in de linkerbovenhoek (die al is verbonden met de module in de rechterbovenhoek), sleept u de linkerhandgreep van de module rechtsonder en zet u deze neer op de module linksboven.
 
-   ![](assets/insert-router-automatically-350x379.png)
+  ![](assets/insert-router-automatically-350x379.png)
 
 ## Filters
 
