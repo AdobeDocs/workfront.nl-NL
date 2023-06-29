@@ -6,16 +6,16 @@ description: Leer over de gebieden van Adobe Workfront waar u van verzoeken kunt
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
 
 # Verzonden aanvragen zoeken
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden, of aanvragen die u hebt gestart maar die u nooit hebt verzonden. U kunt deze aanvragen vinden in de volgende gebieden van Adobe Workfront:
 
@@ -62,7 +62,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgelegd:
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
-1. Klikken **Verzonden** in het linkerdeelvenster om alle verzonden aanvragen weer te geven.
+1. Klikken **Verzonden** in het linkerdeelvenster om alle verzonden aanvragen weer te geven.
 
    U kunt maximaal 2000 verzoeken weergeven en deze kunnen op meerdere pagina&#39;s worden weergegeven.
 
@@ -70,44 +70,43 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    >
    >U kunt de kolommen in de lijst Verzendverzoeken niet aanpassen.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. De volgende kolommen worden standaard weergegeven:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Naam</td> 
-      <td> <p>De naam van de aanvraag.</p> <p>Klik op de naam van een aanvraag om deze te openen. </p> <p><b>TIP</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Naam</td> 
+         <td> <p>De naam van de aanvraag.</p> <p>Klik op de naam van een aanvraag om deze te openen. </p> <p><b>TIP</b>
 
    Als de kwestie niet werd bewaard toen het in een taak of een project werd omgezet, wordt de naam van de kwestie verduisterd en kan niet meer worden geklikt. Voor informatie over het converteren van problemen raadpleegt u <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Overzicht van conversie van problemen in Adobe Workfront</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">Omgezet in</td> 
-      <td> <p>De naam van het oplossende voorwerp dat een taak of een project kan zijn dat het verzoek werd omgezet in. </p> <p>Klik op de naam van de taak of het project om deze te openen. </p> <p>Als de aanvraag niet is geconverteerd, is dit veld leeg. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Pad</td> 
-      <td>De naam van de verzoekrij, onderwerpgroepen, en rijonderwerpen waar het verzoek oorspronkelijk werd voorgelegd. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Status</td> 
-      <td>De huidige status van het verzoek of van het oplossende voorwerp (taak of project)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Invoerdatum</td> 
-      <td>De datum waarop het verzoek werd ingediend of de datum waarop het oplossende voorwerp werd gecreeerd als het verzoek werd geschrapt toen het werd omgezet. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Datum laatste update</td> 
-      <td> <p>De datum waarop het verzoek voor het laatst is bijgewerkt.</p> <p>De lijst Verzendverzoeken wordt standaard gesorteerd op dit veld. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">Omgezet in</td> 
+         <td> <p>De naam van het oplossende voorwerp dat een taak of een project kan zijn dat het verzoek werd omgezet in. </p> <p>Klik op de naam van de taak of het project om deze te openen. </p> <p>Als de aanvraag niet is geconverteerd, is dit veld leeg. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Pad</td> 
+         <td>De naam van de verzoekrij, onderwerpgroepen, en rijonderwerpen waar het verzoek oorspronkelijk werd voorgelegd. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Status</td> 
+         <td>De huidige status van het verzoek of van het oplossende voorwerp (taak of project)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Invoerdatum</td> 
+         <td>De datum waarop het verzoek werd ingediend of de datum waarop het oplossende voorwerp werd gecreeerd als het verzoek werd geschrapt toen het werd omgezet. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Datum laatste update</td> 
+         <td> <p>De datum waarop het verzoek voor het laatst is bijgewerkt.</p> <p>De lijst Verzendverzoeken wordt standaard gesorteerd op dit veld. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Optioneel) Klik op de kop van een kolom om deze te sorteren.
 

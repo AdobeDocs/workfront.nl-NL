@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
 
 # Verzoeken kopiëren en verzenden
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
 
 Wanneer u regelmatig vergelijkbare verzoeken verzendt, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
 
@@ -122,15 +122,13 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 1. (Voorwaardelijk) Als de sectie Verzonden niet standaard wordt weergegeven, klikt u op **Verzonden** in het linkerdeelvenster.
 1. Zoek het verzoek dat u wilt kopiëren en verzenden als nieuw en voer een van de volgende handelingen uit:
 
-   * Selecteer het, klik dan het **Kopiëren en verzenden als nieuw** pictogram ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in de linkerbovenhoek van de lijst Ingediende aanvragen. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
+   * Selecteer het en klik vervolgens op <span class="preview"> **Kopiëren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> in de linkerbovenhoek van de lijst Ingediende aanvragen.
 
-   <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
    >
-   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
-   -->
+   > <span class="preview">Als u niet eerst een aanvraag hebt geselecteerd, wordt het pictogram Kopiëren grijs weergegeven.</span>
 
-   * Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de naam van de aanvraag klikt u op **Kopiëren en verzenden als nieuw** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
+   * Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de naam van de aanvraag klikt u op **Kopiëren en verzenden als nieuw**
 
      of
 
