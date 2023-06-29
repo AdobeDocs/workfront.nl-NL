@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
+source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,13 @@ ht-degree: 0%
 >
 >De nieuwe [!DNL SharePoint] de integratie werd vrijgegeven voor de productie met de release van 22.3 (juli 2022). Hoewel uw gebruikers nog steeds toegang hebben tot documenten die via de verouderde [!DNL SharePoint] de nieuwe [!DNL SharePoint] integratie om documenten uit SharePoint te koppelen.
 >
->* Voor de nieuwe SharePoint-integratie is geen configuratie door een beheerder vereist en deze kan door individuele gebruikers worden ingesteld. Voor een vloeiende overgang naar de nieuwe SharePoint-integratie moet een Workfront-beheerder echter kleine wijzigingen aanbrengen in het gedeelte Workfront Setup.
-   >
-   >    Zie voor meer informatie en instructies [De verouderde SharePoint-integratie configureren voor permanente toegang tot documenten](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in dit artikel.
+>* De nieuwe integratie van SharePoint vereist geen configuratie door een beheerder, en kan opstelling door individuele gebruikers zijn. Voor een vloeiende overgang naar de nieuwe SharePoint-integratie moet een Workfront-beheerder echter kleine wijzigingen aanbrengen in het gedeelte Workfront Setup.
+>
+>    Zie voor meer informatie en instructies [De verouderde SharePoint-integratie configureren voor permanente toegang tot documenten](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in dit artikel.
 >    
 >* We raden gebruikers aan documenten te koppelen die momenteel via de verouderde versie zijn gekoppeld [!DNL SharePoint] integratie door de nieuwe integratie .
-   >    
-   >    Voor instructies over het koppelen van documenten raadpleegt u [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
-
+>    
+>    Voor instructies over het koppelen van documenten raadpleegt u [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 U kunt [!DNL Workfront] with [!DNL SharePoint Online], zodat gebruikers kunnen navigeren naar, koppelen en toevoegen [!DNL SharePoint] documenten in Workfront. De opgegeven functionaliteit is vergelijkbaar met die van andere [!DNL Workfront] integratie, zoals [!DNL Google Drive], [!DNL Box], en [!DNL Dropbox].
 
@@ -82,7 +81,6 @@ Voor instructies voor het koppelen van documenten via de nieuwe [!DNL SharePoint
 >* A [!DNL SharePoint] integratie kan verbinding maken met één [!DNL SharePoint] -instantie. Daarom kan een gebruiker een integratie instellen voor één [!DNL SharePoint], maar kan geen integratie instellen op een tweede [!DNL SharePoint], zelfs als ze over machtigingen beschikken voor en documenten hebben op de tweede [!DNL SharePoint].
 >
 >* Een gebruiker heeft toegang tot dezelfde sites, verzamelingen, mappen, submappen en bestanden via de [!DNL Workfront] [!DNL SharePoint] integratie zoals zij in hun [!DNL SharePoint] account.
-
 
 ## Informatie over beveiliging, toegang en autorisatie voor de [!DNL SharePoint] integratie
 
@@ -135,7 +133,6 @@ Om ervoor te zorgen dat u toegang krijgt tot documenten die via de verouderde [!
 >
 > * De nalatenschap [!DNL SharePoint] integratie is gelabeld &quot;[!DNL SharePoint].&quot;
 > * De nieuwe [!DNL SharePoint] integratie is gelabeld &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].&quot;
-
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Setup]** ![Instellen](../get-started-wf-administration/assets/gear-icon-settings.png).
 1. Selecteren **[!UICONTROL Documents]** in de linkernavigatie selecteert u vervolgens **[!UICONTROL Cloud Providers]**.
@@ -449,7 +446,7 @@ Om een plaatsinzameling in te zien [!DNL Workfront]moet aan de volgende voorwaar
 
 * De gebruiker moet meningstoegang tot de plaatsinzameling in hebben [!DNL SharePoint].
 
-   Om dit te verifiëren in [!DNL SharePoint], ga naar [!DNL SharePoint]en open de siteverzameling > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+  Om dit te verifiëren in [!DNL SharePoint], ga naar [!DNL SharePoint]en open de siteverzameling > [!UICONTROL Settings] > [!UICONTROL Site permissions].
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
