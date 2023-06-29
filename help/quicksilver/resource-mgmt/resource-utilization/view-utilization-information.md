@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-utilization
 title: Informatie over bronnengebruik weergeven
 description: U kunt het gebruik van uw middelen bekijken gebruikend het rapport van het Gebruik.
-author: Alina
+author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '7758'
+source-wordcount: '7854'
 ht-degree: 0%
 
 ---
 
 # Informatie over bronnengebruik weergeven
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
@@ -268,7 +270,7 @@ De volgende informatie is beschikbaar in het gebruiksrapport wanneer het volgen 
   </tr> 
   <tr> 
    <td scope="col"><strong>Geplande kosten</strong> </td> 
-   <td scope="col"> <p>De totale geplande kosten voor de opgenomen projecten. U kunt de totale geplande kosten voor de totale levensduur van de opgenomen projecten weergeven of u kunt de totale geplande kosten alleen voor het opgegeven datumbereik weergeven (u kunt een afzonderlijke week of maand opgeven).</p> <p>Voor informatie over hoe de Geplande Kosten voor het project worden berekend, zie de "hoe Workfront Geplande, Begrotende, en Ware Kosten"sectie in het artikel berekent <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>.</p> </td> 
+   <td scope="col"> <p>De totale geplande kosten voor de opgenomen projecten. U kunt de totale geplande kosten voor de totale levensduur van de opgenomen projecten weergeven of u kunt de totale geplande kosten alleen voor het opgegeven datumbereik weergeven (u kunt een afzonderlijke week of maand opgeven).</p> <p><span class="preview">Merk op dat voor de week, de maand, en de driemaandelijkse meningen, de geplande kosten als gemiddelde van de gekozen periode worden berekend wanneer de kostenpercentages voor baanrollen of gebruikers datumeffectief zijn.</span></p><p>Voor informatie over hoe de Geplande Kosten voor het project worden berekend, zie de "hoe Workfront Geplande, Begrotende, en Ware Kosten"sectie in het artikel berekent <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Werkelijke kosten</strong> </td> 
@@ -323,22 +325,22 @@ Zie ook de volgende artikelen voor informatie over de specifieke velden en hoe W
 
 In tegenstelling tot andere gebieden van Workfront worden in het gebruiksrapport de geplande inkomsten voor taken met vaste inkomsten berekend door de vaste inkomsten gelijkmatig te delen door het aantal geplande uren op de taak. </p> <p>Een taak heeft bijvoorbeeld een opbrengst van $200. Als er 4 Geplande Uren op de taak zijn, zou elk uur $50 zijn. Dit wordt verdeeld op een gebruiker en rolniveau. Deze verdeling is uniek aan het rapport van het Gebruik.</p> <p><b>OPMERKING</b>
 
-Als u een Vaste taak van de Inkomsten hebt en er geen Geplande Uren voor de taak zijn, toont de Inkomsten niet in het Rapport van het Gebruik omdat er geen manier is om het aan de uren te verdelen. Als u Uren voor taken met Vaste Ontvangsten en geen taken plant, toont de Ontvangsten als Niet toegewezen Ontvangsten. </p> <p><strong>Rol Uur:</strong> De opbrengsten van de taak worden berekend aan de hand van de factureringsgraad die voor een specifieke rol is vastgesteld, vermenigvuldigd met het aantal geplande uren dat met die rol verband houdt. Workfront gebruikt de volgende formule:</p> <p>Rol volgens uurplanning = SUM (geplande uren van rol op alle taken) * Rol Factureringstarief</code></p> <p><strong>Uur gebruiker:</strong> De opbrengst op de taak wordt berekend gebruikend het factureringspercentage dat voor een specifieke gebruiker wordt geplaatst, vermenigvuldigd met het aantal Geplande Uren verbonden aan die gebruiker. Workfront gebruikt de volgende formule:</p> <p>Door gebruiker geplande omzet = SUM (geplande uren van gebruikers voor alle taken) * Factureringsfrequentie gebruiker</code> </p> <p><b>Rol Uur of Uur Plus Vast</b> </p> <p><b>BELANGRIJK</b>
+Als u een Vaste taak van de Inkomsten hebt en er geen Geplande Uren voor de taak zijn, toont de Inkomsten niet in het Rapport van het Gebruik omdat er geen manier is om het aan de uren te verdelen. Als u Uren voor taken met Vaste Ontvangsten en geen taken plant, toont de Ontvangsten als Niet toegewezen Ontvangsten. </p> <p><strong>Rol Uur:</strong> De opbrengsten van de taak worden berekend aan de hand van de factureringsgraad die voor een specifieke rol is vastgesteld, vermenigvuldigd met het aantal geplande uren dat met die rol verband houdt. Workfront gebruikt de volgende formule:</p> <p><code>Rol volgens uurplanning = SUM (geplande uren van rol op alle taken) * Rol Factureringstarief</code></p><p><span class="preview"><b>OPMERKING:</b> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</span></p>   <p><strong>Uur gebruiker:</strong> De opbrengst op de taak wordt berekend gebruikend het factureringspercentage dat voor een specifieke gebruiker wordt geplaatst, vermenigvuldigd met het aantal Geplande Uren verbonden aan die gebruiker. Workfront gebruikt de volgende formule:</p> <p><code>Door gebruiker geplande omzet = SUM (geplande uren van gebruikers voor alle taken) * Factureringsfrequentie gebruiker</code> </p> <p><span class="preview"><b>OPMERKING:</b> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</span></p> <p><b>Rol Uur of Uur Plus Vast</b> </p> <p><b>BELANGRIJK</b>
 
 In tegenstelling tot andere gebieden van Workfront worden in het gebruiksrapport de geplande inkomsten berekend door de vaste inkomsten gelijkmatig te delen door het aantal geplande uren op de taak. </p> <p>De volgende gevallen bestaan: </p>
 <ul>
-<li> <p><strong>Functie Uur plus hersteld:</strong> De opbrengsten van de taak worden berekend aan de hand van de factureringsgraad die voor een specifieke rol is ingesteld, vermenigvuldigd met het aantal geplande uren dat aan de rol is gekoppeld. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het roltarief. Workfront gebruikt de volgende formule:</p> <p>Role Hourly Plus Fixed Planed Revenue = [SUM(Geplande uren van rol op alle taken) * Het Tarief van de Facturering van de Rol] + SUM(Hoofdlettergebruik of Vaste hoeveelheid van de taak / Geplande uren van de taak)</code> </p> </li>
+<li> <p><strong>Functie Uur plus hersteld:</strong> De opbrengsten van de taak worden berekend aan de hand van de factureringsgraad die voor een specifieke rol is ingesteld, vermenigvuldigd met het aantal geplande uren dat aan de rol is gekoppeld. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het roltarief. Workfront gebruikt de volgende formule:</p> <p><code>Role Hourly Plus Fixed Planed Revenue = [SUM(Geplande uren van rol op alle taken) * Het Tarief van de Facturering van de Rol] + SUM(Hoofdlettergebruik of Vaste hoeveelheid van de taak / Geplande uren van de taak)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>Uur plus vaste kosten gebruiker:</strong> De factureringssnelheid die voor een specifieke gebruiker is ingesteld, vermenigvuldigd met het aantal geplande uren op de taak van die gebruiker. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het gebruikerstarief. Workfront gebruikt de volgende formule:</p> <p>Uurbron plus geplande inkomsten = [SUM(Geplande uren van gebruiker op alle taken) * Factureringssnelheid van de gebruiker] + SUM(Hoofdlettergebruik of Vaste hoeveelheid van de taak / Geplande uren van de taak)</code> </p> </li>
+<li> <p><strong>Uur plus vaste kosten gebruiker:</strong> De factureringssnelheid die voor een specifieke gebruiker is ingesteld, vermenigvuldigd met het aantal geplande uren op de taak van die gebruiker. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het gebruikerstarief. Workfront gebruikt de volgende formule:</p> <p><code>Uurbron plus geplande inkomsten = [SUM(Geplande uren van gebruiker op alle taken) * Factureringssnelheid van de gebruiker] + SUM(Hoofdlettergebruik of Vaste hoeveelheid van de taak / Geplande uren van de taak)</code> </p> </li>
 </ul> <p><b>Rol of Uur gebruiker met lampvoet</b> </p> <p><b>BELANGRIJK</b>
 
 In tegenstelling tot andere gebieden van Workfront wordt, wanneer de geplande ontvangsten het plafond overschrijden, het bedrag boven het maximumbedrag als vaste inkomsten beschouwd. De geplande inkomsten worden berekend door de vaste inkomsten gelijkmatig te delen door het aantal geplande uren op de taak, en vervolgens bij het maximumbedrag en de rol of de omzet per uur op te tellen. <br></p> <p>De volgende gevallen bestaan: </p>
 <ul>
-<li> <p><strong>Rol Uur met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Rol Uur, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven. Workfront gebruikt de volgende formule:</p> <p>Rol - Uur met geplande inkomsten - [SUM(Geplande uren van rol op alle taken en kwesties) * Het Tarief van de Facturering van de Rol] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Geplande uren van de taak)</code> </p> </li>
+<li> <p><strong>Rol Uur met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Rol Uur, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven. Workfront gebruikt de volgende formule:</p> <p><code>Rol - Uur met geplande inkomsten - [SUM(Geplande uren van rol op alle taken en kwesties) * Het Tarief van de Facturering van de Rol] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Geplande uren van de taak)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>Uur gebruiker met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Uur door gebruiker, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven. Workfront gebruikt de volgende formule: </p> <p>Door gebruiker geplande inkomsten met bovengrens = [SUM(Geplande uren van gebruiker op alle taken) * Factureringssnelheid van de gebruiker] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Geplande uren van de taak)</code> </p> </li>
+<li> <p><strong>Uur gebruiker met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Uur door gebruiker, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven. Workfront gebruikt de volgende formule: </p> <p><code>Door gebruiker geplande inkomsten met bovengrens = [SUM(Geplande uren van gebruiker op alle taken) * Factureringssnelheid van de gebruiker] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Geplande uren van de taak)</code> </p> </li>
 </ul> <p>Voor meer informatie over welke rol of gebruiker in aanmerking wordt genomen wanneer het berekenen van Geplande Ontvangsten, zie <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overzicht van facturering en inkomsten</a>.</p> </td>
 </tr> 
   <tr> 
@@ -349,22 +351,22 @@ In tegenstelling tot andere gebieden van Workfront wordt, wanneer de geplande on
 
 In tegenstelling tot andere gebieden van Workfront worden in het gebruiksrapport de werkelijke inkomsten berekend door Vaste inkomsten gelijkmatig te delen door het aantal uren dat op de taak is aangemeld. </p> <p> </p> <p>Een taak heeft bijvoorbeeld een werkelijke opbrengst van $200. Als er 4 Werkelijke uren aan de taak zijn, zou elk uur $50 zijn. Dit wordt verdeeld op een gebruiker en rolniveau. Deze verdeling is uniek aan het rapport van het Gebruik.</p> <p><b>OPMERKING</b>
 
-Als u een Vaste taak van de Ontvangsten hebt en er geen Werkelijke Uren op de taak zijn, toont de Ware Ontvangsten niet in het Rapport van het Gebruik omdat er geen manier is om uren te verdelen. </p> <p><strong>Rol Uur:</strong> De opbrengsten van de taak worden berekend aan de hand van de factureringsgraad die voor een specifieke rol is vastgesteld, vermenigvuldigd met het aantal geplande uren.</p> <p>Workfront gebruikt de volgende formule:</p> <p>Rol Uur Werkelijke Inkomsten = SUM (Werkelijke uren van rol op alle taken) * Rol Factureringstarief</code> </p> <p><strong>Uur gebruiker:</strong> De opbrengst op de taak wordt berekend gebruikend het facturerings tarief dat voor een specifieke gebruiker wordt geplaatst, vermenigvuldigd met het aantal uren tegen de taak van die gebruiker wordt geregistreerd. Workfront gebruikt de volgende formule:</p> <p>Werkelijke inkomsten per uur van gebruiker = SUM(Werkelijke uren van gebruiker voor alle taken) * Factureringsfrequentie gebruiker</code></p> <p><b>Rol of gebruiker - Uur plus Vast</b> </p> <p><b>BELANGRIJK</b>
+Als u een Vaste taak van de Ontvangsten hebt en er geen Werkelijke Uren op de taak zijn, toont de Ware Ontvangsten niet in het Rapport van het Gebruik omdat er geen manier is om uren te verdelen. </p> <p><strong>Rol Uur:</strong> De ontvangsten op de taak worden berekend aan de hand van de factureringsgraad die voor een specifieke rol is vastgesteld, vermenigvuldigd met het aantal werkelijke uren.</p> <p>Workfront gebruikt de volgende formule:</p> <p><code>Rol Uur Werkelijke Inkomsten = SUM (Werkelijke uren van rol op alle taken) * Rol Factureringstarief</code> </p> <p><span class="preview"><b>OPMERKING:</b> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</span></p> <p><strong>Uur gebruiker:</strong> De opbrengst op de taak wordt berekend gebruikend het facturerings tarief dat voor een specifieke gebruiker wordt geplaatst, vermenigvuldigd met het aantal uren tegen de taak van die gebruiker wordt geregistreerd. Workfront gebruikt de volgende formule:</p> <p><code>Werkelijke inkomsten per uur van gebruiker = SUM(Werkelijke uren van gebruiker voor alle taken) * Factureringsfrequentie gebruiker</code></p> <p><span class="preview"><b>OPMERKING:</b> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</span></p> <p><b>Rol of gebruiker - Uur plus Vast</b> </p> <p><b>BELANGRIJK</b>
 
 In tegenstelling tot andere gebieden van Workfront worden in het gebruiksrapport de werkelijke inkomsten berekend door Vaste inkomsten gelijkmatig te delen door het aantal uren dat op de taak is aangemeld. </p> <p>De volgende gevallen bestaan: </p>
 <ul>
-<li> <p><strong>Functie Uur plus hersteld:</strong> Het factureringstarief dat voor een specifieke rol wordt geplaatst, vermenigvuldigd met het aantal uren tegen de taak van een gebruiker met die rol wordt geregistreerd die. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het roltarief. </p> <p>Workfront gebruikt de volgende formule:</p> <p>Rol Uurly plus vaste werkelijke inkomsten = [SUM (Werkelijke uren van rol op alle taken) * Het Factureringstarief van de Rol] + SUM(Hoofdlettergebruik of Vaste hoeveelheid van de taak / Werkelijke uren van de taak)</code> </p> </li>
+<li> <p><strong>Functie Uur plus hersteld:</strong> Het factureringstarief dat voor een specifieke rol wordt geplaatst, vermenigvuldigd met het aantal uren tegen de taak van een gebruiker met die rol wordt geregistreerd die. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het roltarief. </p> <p>Workfront gebruikt de volgende formule:</p> <p><code>Rol Uurly plus vaste werkelijke inkomsten = [SUM (Werkelijke uren van rol op alle taken) * Het Factureringstarief van de Rol] + SUM(Hoofdlettergebruik of Vaste hoeveelheid van de taak / Werkelijke uren van de taak)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>Uur plus vaste kosten gebruiker:</strong> Het factureringstarief dat voor een specifieke gebruiker wordt geplaatst, vermenigvuldigd met het aantal uren die tegen de taak van die gebruiker worden geregistreerd. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het gebruikerstarief. </p> <p>Workfront gebruikt de volgende formule:</p> <p>Uur van gebruiker plus vaste werkelijke inkomsten = [SUM (Werkelijke uren van rol op alle taken) * Het Factureringstarief van de Gebruiker] + SUM (Hoofdlettergebruik of Vaste hoeveelheid van de taak/Gebruikerstijd van de taak)</code> </p> </li>
+<li> <p><strong>Uur plus vaste kosten gebruiker:</strong> Het factureringstarief dat voor een specifieke gebruiker wordt geplaatst, vermenigvuldigd met het aantal uren die tegen de taak van die gebruiker worden geregistreerd. Bovendien wordt een vast bedrag dat op de taak wordt gespecificeerd toegevoegd aan het gebruikerstarief. </p> <p>Workfront gebruikt de volgende formule:</p> <p><code>Uur van gebruiker plus vaste werkelijke inkomsten = [SUM (Werkelijke uren van rol op alle taken) * Het Factureringstarief van de Gebruiker] + SUM (Hoofdlettergebruik of Vaste hoeveelheid van de taak/Gebruikerstijd van de taak)</code> </p> </li>
 </ul> <p><b>Rol of Uur gebruiker met lampvoet</b> </p> <p><b>BELANGRIJK</b>
 
 In tegenstelling tot andere gebieden van Workfront wordt, wanneer de geplande ontvangsten het plafond overschrijden, het bedrag boven het maximumbedrag als vaste inkomsten beschouwd. De geplande inkomsten worden berekend door de vaste inkomsten gelijkmatig te delen door het aantal geplande uren op de taak, en vervolgens bij het maximumbedrag en de rol of de omzet per uur op te tellen. <br></p> <p>De volgende scenario&#39;s bestaan:</p>
 <ul>
-<li> <p><strong>Rol Uur met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Rol Uur, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven. Workfront gebruikt de volgende formule:</p> <p>Werkelijke inkomsten uit rol met GLB = [SUM (Werkelijke uren van rol op alle taken en kwesties) * Het Tarief van de Facturering van de Rol] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Werkelijke uren van de taak)</code></p> </li>
+<li> <p><strong>Rol Uur met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Rol Uur, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven. Workfront gebruikt de volgende formule:</p> <p><code>Werkelijke inkomsten uit rol met GLB = [SUM (Werkelijke uren van rol op alle taken en kwesties) * Het Tarief van de Facturering van de Rol] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Werkelijke uren van de taak)</code></p> </li>
 </ul>
 <ul>
-<li> <p><strong>Uur gebruiker met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Uur door gebruiker, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven.</p> <p> Workfront gebruikt de volgende formule:</p> <p>Werkelijke inkomsten van gebruiker met bijschrift = [SUM (Werkelijke uren van rol op alle taken en kwesties) * het Factureringstarief van de Gebruiker] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Werkelijke uren van de taak)</code> </p> </li>
+<li> <p><strong>Uur gebruiker met lampvoet:</strong> Taken worden per uur gefactureerd, net als in Uur door gebruiker, maar ze hebben een maximumhoeveelheid voor uiteinden die u kunt opgeven.</p> <p> Workfront gebruikt de volgende formule:</p> <p><code>Werkelijke inkomsten van gebruiker met bijschrift = [SUM (Werkelijke uren van rol op alle taken en kwesties) * het Factureringstarief van de Gebruiker] + Hoofdlettergebruik Hoeveelheid taak + SUM (Bedrag boven het hoofdletterbedrag / Werkelijke uren van de taak)</code> </p> </li>
 </ul>
 <div>
 <p><strong>Projectinkomsten</strong>: De opbrengst verbonden aan de uren het programma worden geopend op het project wordt berekend rekening houdend met het Factureren per bedrag van het Uur van de primaire baanrol van de gebruiker die de tijd registreert. Wij adviseren registrerentijd op het project niet. </p>
@@ -464,27 +466,27 @@ De voortgang of kosten van een of meer projecten volgen met behulp van een gebru
          Als u het gebruiksrapport wilt filteren, kunt u een filter toepassen en vervolgens op **Uitvoeren**.\
          Voor informatie over hoe te om het rapport van het Gebruik te filtreren, zie de sectie [Informatie over filtergebruik](#filter-utilization-information) in dit artikel.\
          Gebruiksinformatie wordt weergegeven voor individuele gebruikers en rollen (gebruikers worden gegroepeerd binnen hun bijbehorende rol).
+
    * Om gebruiksinformatie voor veelvoudige projecten te bekijken:
 
       1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Bronnen** vervolgens **Gebruik** in het linkerdeelvenster.
       1. Pas een filter op het rapport van het Gebruik toe, dan klik **Uitvoeren**.\
          U moet één of meerdere projecten in de filter specificeren alvorens het rapport van het Gebruik in werking te stellen. Voor informatie over hoe te om het rapport van het Gebruik te filtreren, zie de sectie [Informatie over filtergebruik](#filter-utilization-information) in dit artikel.\
          De informatie van het gebruik wordt getoond voor individuele rollen en projecten (de rollen worden gegroepeerd binnen hun bijbehorende project).
+
    * Gebruiksgegevens voor een programma weergeven:
 
       1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Bronnen** vervolgens **Gebruik** in het linkerdeelvenster en klik op de knop **Tonen**>**Programma&#39;s**.
       1. Pas een filter op het rapport van het Gebruik toe, dan klik **Uitvoeren**.\
          U moet één of meerdere programma&#39;s in de filter specificeren alvorens het rapport van het Gebruik in werking te stellen. Voor informatie over hoe te om het rapport van het Gebruik te filtreren, zie de sectie [Informatie over filtergebruik](#filter-utilization-information) in dit artikel.\
          Gebruiksinformatie wordt weergegeven voor afzonderlijke projecten en programma&#39;s (projecten worden gegroepeerd in het bijbehorende programma).
+
    * Gebruiksgegevens voor een portfolio weergeven:
 
       1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Bronnen** vervolgens **Gebruik** in het linkerdeelvenster en klik op **Tonen**>**Portfolio**.
       1. Pas een filter op het rapport van het Gebruik toe, dan klik **Uitvoeren**.\
          U moet een of meer portfolio&#39;s in het filter opgeven voordat u het gebruiksrapport uitvoert. Voor informatie over hoe te om het rapport van het Gebruik te filtreren, zie de sectie [Informatie over filtergebruik](#filter-utilization-information) in dit artikel.\
          Gebruiksinformatie wordt weergegeven voor afzonderlijke projecten, programma&#39;s en portfolio&#39;s (projecten worden gegroepeerd in het bijbehorende programma en programma&#39;s worden gegroepeerd in het bijbehorende portfolio).
-
-
-
 
 1. Klik in de rechterbovenhoek van het gebruiksrapport op de knop **Weergave** vervolgkeuzemenu, selecteert u een van de volgende opties:
 
@@ -533,39 +535,39 @@ Een filter maken of wijzigen:
 1. Geef de volgende informatie op om het filter te maken of te wijzigen:
 
    * **Portfolio:** Typ de naam van het portfolio dat de gegevens bevat die u wilt opnemen in het gebruiksrapport en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu.\
-      Herhaal dit proces om informatie van veelvoudige portefeuilles in het rapport van het Gebruik te omvatten.\
-      Als u alle portfolio&#39;s van uw systeem in uw filter wilt opnemen, klikt u op **Alles toevoegen**. (Deze optie is alleen beschikbaar als uw systeem minder dan tien portfolio&#39;s bevat.)
+     Herhaal dit proces om informatie van veelvoudige portefeuilles in het rapport van het Gebruik te omvatten.\
+     Als u alle portfolio&#39;s van uw systeem in uw filter wilt opnemen, klikt u op **Alles toevoegen**. (Deze optie is alleen beschikbaar als uw systeem minder dan tien portfolio&#39;s bevat.)
 
    * **Programma&#39;s:** Typ de naam van het programma dat de gegevens bevat die u wilt opnemen in het gebruiksrapport en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu.\
-      Herhaal dit proces om informatie van veelvoudige taken in het rapport van het Gebruik te omvatten.\
-      Als u al portfolio&#39;s in het filter hebt toegewezen, moet het programma dat u opgeeft, afkomstig zijn uit de portfolio&#39;s die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van het programma niet in het gebruiksrapport opgenomen.\
-      Als u alle programma&#39;s van uw systeem in uw filter wilt opnemen, klikt u op **Alles toevoegen**. (Deze optie is alleen beschikbaar als uw systeem minder dan 20 programma&#39;s bevat.)
+     Herhaal dit proces om informatie van veelvoudige taken in het rapport van het Gebruik te omvatten.\
+     Als u al portfolio&#39;s in het filter hebt toegewezen, moet het programma dat u opgeeft, afkomstig zijn uit de portfolio&#39;s die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van het programma niet in het gebruiksrapport opgenomen.\
+     Als u alle programma&#39;s van uw systeem in uw filter wilt opnemen, klikt u op **Alles toevoegen**. (Deze optie is alleen beschikbaar als uw systeem minder dan 20 programma&#39;s bevat.)
 
    * **Projecten:** Typ de naam van het project dat de gegevens bevat die u in het gebruiksrapport wilt opnemen en klik vervolgens op de naam wanneer deze in het keuzemenu wordt weergegeven.\
-      Herhaal dit proces om informatie van veelvoudige projecten in het rapport van het Gebruik te omvatten.\
-      Als u al portfolio&#39;s of programma&#39;s hebt toegewezen in het filter, moet het project dat u opgeeft, afkomstig zijn uit een van de portfolio&#39;s of programma&#39;s die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van het project niet opgenomen in het gebruiksrapport.\
-      Om alle projecten van uw systeem in uw filter te omvatten, klik **Alles toevoegen**. (Deze optie is alleen beschikbaar als uw systeem minder dan 250 projecten bevat.)
+     Herhaal dit proces om informatie van veelvoudige projecten in het rapport van het Gebruik te omvatten.\
+     Als u al portfolio&#39;s of programma&#39;s hebt toegewezen in het filter, moet het project dat u opgeeft, afkomstig zijn uit een van de portfolio&#39;s of programma&#39;s die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van het project niet opgenomen in het gebruiksrapport.\
+     Om alle projecten van uw systeem in uw filter te omvatten, klik **Alles toevoegen**. (Deze optie is alleen beschikbaar als uw systeem minder dan 250 projecten bevat.)
 
    * **Taken:** Typ de naam van de taak die de gegevens bevat die u wilt opnemen in het gebruiksrapport en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu.\
-      Herhaal dit proces om informatie van veelvoudige taken in het rapport van het Gebruik te omvatten.\
-      Als u al portfolio&#39;s, programma&#39;s of projecten hebt toegewezen in het filter, moet de opgegeven taak afkomstig zijn uit een van de portfolio&#39;s, programma&#39;s of projecten die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van de taak niet opgenomen in het gebruiksrapport.
+     Herhaal dit proces om informatie van veelvoudige taken in het rapport van het Gebruik te omvatten.\
+     Als u al portfolio&#39;s, programma&#39;s of projecten hebt toegewezen in het filter, moet de opgegeven taak afkomstig zijn uit een van de portfolio&#39;s, programma&#39;s of projecten die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van de taak niet opgenomen in het gebruiksrapport.
 
    * **Problemen:** Typ de naam van de uitgave die de informatie bevat die u in het gebruiksrapport wilt opnemen en klik vervolgens op de naam wanneer deze in het keuzemenu wordt weergegeven.\
-      Herhaal dit proces om informatie van veelvoudige kwesties in het rapport van het Gebruik op te nemen.\
-      Als u al portfolio&#39;s, programma&#39;s of projecten in het filter hebt opgegeven, moet de uitgave die u opgeeft, afkomstig zijn uit een van de portfolio&#39;s, programma&#39;s of projecten die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van de kwestie niet in het gebruiksrapport opgenomen.\
-      Kosteninformatie voor kwesties wordt niet altijd in het gebruiksrapport opgenomen. Zie de sectie voor meer informatie over wanneer kosteninformatie voor problemen is opgenomen in het gebruiksrapport [De vooruitgang, de kosten, en de opbrengst van het spoor met het rapport van het Gebruik](#track-progress-cost-and-revenue-with-the-utilization-report) in dit artikel.
+     Herhaal dit proces om informatie van veelvoudige kwesties in het rapport van het Gebruik op te nemen.\
+     Als u al portfolio&#39;s, programma&#39;s of projecten in het filter hebt opgegeven, moet de uitgave die u opgeeft, afkomstig zijn uit een van de portfolio&#39;s, programma&#39;s of projecten die al in het filter zijn opgenomen. Als dat niet het geval is, worden de gegevens van de kwestie niet in het gebruiksrapport opgenomen.\
+     Kosteninformatie voor kwesties wordt niet altijd in het gebruiksrapport opgenomen. Zie de sectie voor meer informatie over wanneer kosteninformatie voor problemen is opgenomen in het gebruiksrapport [De vooruitgang, de kosten, en de opbrengst van het spoor met het rapport van het Gebruik](#track-progress-cost-and-revenue-with-the-utilization-report) in dit artikel.
 
    * **Rollen:** Typ de naam van de rol die u wilt weergeven in het gebruiksrapport en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu. Herhaal dit proces om extra rollen op te nemen.\
-      Het gebruiksrapport bevat alleen informatie voor de rollen die u opgeeft. Een taak bevat bijvoorbeeld 10 Werkelijke uren. 6 van deze uren zijn afkomstig van een Designer-rol en 4 zijn afkomstig van een Developer-rol. Als u het gebruiksrapport filtert op rol voor Designer, worden de vier uur die afkomstig zijn van de rol Ontwikkelaar, uitgesloten van het rapport.
+     Het gebruiksrapport bevat alleen informatie voor de rollen die u opgeeft. Een taak bevat bijvoorbeeld 10 Werkelijke uren. 6 van deze uren zijn afkomstig van een Designer-rol en 4 zijn afkomstig van een Developer-rol. Als u het gebruiksrapport filtert op rol voor Designer, worden de vier uur die afkomstig zijn van de rol Ontwikkelaar, uitgesloten van het rapport.
 
    * **Filterregel toevoegen:** Klikken **Filterregel toevoegen** klikt u in het eerste veld en typt u vervolgens de veldnaam waarop u wilt filteren. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan het filter toe te voegen.
 
-      >[!IMPORTANT]
-      >
-      >Typ de veldnaam en niet het veldlabel. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het label en de naam van een aangepast veld raadpleegt u  [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+     >[!IMPORTANT]
+     >
+     >Typ de veldnaam en niet het veldlabel. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het label en de naam van een aangepast veld raadpleegt u  [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-      Voor meer informatie over de gebieden u in de kolommen ziet, zie [Woordenlijst met Adobe Workfront-terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
-      Kies het filter en de voorwaardomstandigheden voor het filter. De beschikbare modifiers worden beschreven in [Filter- en voorwaardenmodificatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Voor meer informatie over de gebieden u in de kolommen ziet, zie [Woordenlijst met Adobe Workfront-terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
+     Kies het filter en de voorwaardomstandigheden voor het filter. De beschikbare modifiers worden beschreven in [Filter- en voorwaardenmodificatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. Als u een nieuw filter wilt maken, klikt u op **Filter opslaan**.\
    of\
@@ -675,14 +677,14 @@ Gebruiksinformatie exporteren:
 1. Selecteer een van de volgende opties:
 
    * **PDF:** Exporteert het rapport in de indeling PDF. Dit is de aanbevolen indeling als u het rapport wilt afdrukken.\
-      Selecteer **Letter - Staand**, **Letter - liggend**, of **Andere grootten** (biedt opties voor exporteren in Legal (8,5 x 14 inch), Ledger (11 x 17 inch) en A4).\
-      Afhankelijk van het besturingssysteem dat u gebruikt, kunt u het bestand openen of opslaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
+     Selecteer **Letter - Staand**, **Letter - liggend**, of **Andere grootten** (biedt opties voor exporteren in Legal (8,5 x 14 inch), Ledger (11 x 17 inch) en A4).\
+     Afhankelijk van het besturingssysteem dat u gebruikt, kunt u het bestand openen of opslaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
 
    * **Excel:** Exporteert het rapport in XLSX-indeling. Dit is het geadviseerde formaat als u van plan bent om de gegevens in Excel verder te analyseren.\
-      Afhankelijk van het besturingssysteem dat u gebruikt, kunt u het bestand openen of opslaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
+     Afhankelijk van het besturingssysteem dat u gebruikt, kunt u het bestand openen of opslaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
 
    * **Door tabs gescheiden:** Exporteert het rapport in TSV-indeling. Dit is de aanbevolen indeling als u de gegevens wilt importeren in software van derden voor verdere analyse.\
-      Afhankelijk van het besturingssysteem dat u gebruikt, kunt u het bestand openen of opslaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
+     Afhankelijk van het besturingssysteem dat u gebruikt, kunt u het bestand openen of opslaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
 
 1. De informatie in het artikel lezen [Gegevens exporteren](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) voor meer informatie over het gebruik van het geëxporteerde bestand.
 

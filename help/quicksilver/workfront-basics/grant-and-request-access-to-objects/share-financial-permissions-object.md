@@ -6,14 +6,16 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
 
 # Financiële machtigingen delen op een object
+
+{{highlighted-preview}}
 
 Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -83,7 +85,7 @@ U moet de volgende opties hebben om financiële gegevens over objecten te kunnen
 
 Houd rekening met het volgende wanneer u financiële machtigingen toekent aan objecten:
 
-* U kunt financiële toestemmingen aan projecten, taken, en kwesties verlenen.
+* U kunt financiële toestemmingen verlenen aan projecten, taken, kwesties, <span class="preview">en tariefkaarten</span>.
 * Machtigingen kunnen worden overgeërfd: als u de toestemmingen van de Financiën van de Mening aan een project hebt, erft u automatisch de toestemmingen van de Financiën van de Mening aan de taken en kwesties op het project.
 
 Financiële machtigingen verlenen aan een object:
@@ -103,7 +105,7 @@ Financiële machtigingen verlenen aan een object:
    * **Bijdragen aan**
    * **Beheren**
 
-      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. Klik in hetzelfde vervolgkeuzemenu op **Geavanceerde instellingen** Voer vervolgens een van de volgende handelingen uit:
 
@@ -154,6 +156,18 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
+  <tr> 
+   <td><span class="preview">Creditcards beheren</span></td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Creditcards bekijken</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+  </tr>
   <tr> 
    <td>De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel</td> 
    <td>✓</td> 

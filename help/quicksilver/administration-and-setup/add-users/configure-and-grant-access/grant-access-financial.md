@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
 
 # Toegang tot financiële gegevens verlenen
+
+{{highlighted-preview}}
 
 Als beheerder van Adobe Workfront, kunt u de toegang van een gebruiker tot het volgende door het de toegangsniveau van de gebruiker bepalen, zoals die in [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
@@ -117,13 +119,14 @@ Een gebruiker zonder toegang tot financiële gegevens heeft geen toegang tot:
 * Sectie Financiën onder Project en Taakobjecten
 * Bedrijfscase
 * Factureringstarieven en factureringsgegevens
+* <span class="preview">Snelheidkaarten</span>
 * Kosten per uur en facturering per uur bij gebruikersvoorkeuren
 
-   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
+  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
 
 * Kosten per uur en facturering per uur op taakrollen
 
-   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
+  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
 
 ### Toegang weergeven
 
@@ -134,11 +137,11 @@ Een gebruiker met View-toegang tot financiële gegevens kan het volgende weergev
 * Factureringstarieven en factureringsgegevens
 * Kosten per uur en facturering per uur bij gebruikersvoorkeuren
 
-   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
+  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
 
 * Kosten per uur en facturering per uur op taakrollen
 
-   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
+  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergeven in stap 4 hierboven.
 
 ### Toegang bewerken
 
@@ -147,10 +150,11 @@ Een gebruiker met Edit toegang tot financiële gegevens kan het volgende bekijke
 * Sectie Financiën onder Project en Taakobjecten
 * Bedrijfscase
 * Factureringstarieven en factureringsgegevens
+* <span class="preview">Snelheidkaarten</span>
 * Kosten per uur en facturering per uur bij gebruikersvoorkeuren
 
-   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Bewerken in stap 4 hierboven.
+  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Bewerken in stap 4 hierboven.
 
 * Kosten per uur en facturering per uur op taakrollen
 
-   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Bewerken in stap 4 hierboven.
+  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Bewerken in stap 4 hierboven.

@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
 
 # Bedrijven maken en bewerken
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -66,9 +68,9 @@ U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Work
 
    * Gebruikers van hetzelfde bedrijf kunnen elkaars verzoeken zien.
 
-      Voor meer informatie over hoe een [!DNL Workfront] de beheerder kan gelijkaardige toegang tot verzoeken verlenen die op het bedrijf van gebruikers worden gebaseerd, zie de sectie [Configureer taak- en probleemvoorkeuren voor iedereen in de [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) in het artikel [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     Voor meer informatie over hoe een [!DNL Workfront] de beheerder kan gelijkaardige toegang tot verzoeken verlenen die op het bedrijf van gebruikers worden gebaseerd, zie de sectie [Configureer taak- en probleemvoorkeuren voor iedereen in de [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) in het artikel [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-      Voor meer informatie over hoe een groepsbeheerder gelijkaardige toegang tot verzoeken kan verlenen die op het bedrijf van gebruikers worden gebaseerd, zie [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     Voor meer informatie over hoe een groepsbeheerder gelijkaardige toegang tot verzoeken kan verlenen die op het bedrijf van gebruikers worden gebaseerd, zie [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
    * De gebruikers kunnen slechts verzoekrijen zien die met hun bedrijven worden geassocieerd. Voor meer informatie over het beperken van zicht van een verzoekrij, zie [Toegang tot aanvraagwachtrijen bieden](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
    * U kunt gebruikers beperken tot slechts gebruikers in hun bedrijf of hun bedrijf en het primaire bedrijf zien. Voor informatie over de primaire bedrijffunctionaliteit betreffende gebruikersprivacy, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -110,7 +112,7 @@ Een bedrijf toevoegen of bewerken:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Billing Rates] sectie</td> 
-      <td> <p>U kunt factureringstarieven met voeten treden verbonden aan uw baanrollen op het bedrijfsniveau. Voor informatie over het creëren van baanrollen en het associëren van hen met het factureren tarieven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> <p>Voor meer informatie over het overschrijven van het factureringstarief op het bedrijfsniveau, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven</a>.</p> </td> 
+      <td> <p><span class="preview">Deze sectie is verwijderd uit de voorvertoningsomgeving.</span></p><p>U kunt factureringstarieven met voeten treden verbonden aan uw baanrollen op het bedrijfsniveau. Voor informatie over het creëren van baanrollen en het associëren van hen met het factureren tarieven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> <p>Voor meer informatie over het overschrijven van het factureringstarief op het bedrijfsniveau, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] sectie</td> 
@@ -128,6 +130,10 @@ Een bedrijf toevoegen of bewerken:
 ## Ondernemingslidmaatschappen beheren
 
 Voor informatie over het beheren van lidmaatschappen voor een bestaand bedrijf, zie [Ondernemingslidmaatschappen beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+
+## Factureringssnelheden beheren
+
+Voor informatie over het overschrijden van factureringstarieven op bedrijfsniveau raadpleegt u [Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 ## Informatie over het delen van objecten met bedrijven
 

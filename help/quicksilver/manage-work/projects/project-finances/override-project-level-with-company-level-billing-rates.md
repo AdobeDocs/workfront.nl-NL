@@ -6,14 +6,16 @@ description: Override project-Level het Factureren Tarieven met het bedrijf-Vlak
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # Override project-Level het Factureren Tarieven met het bedrijf-Vlakke FactureringsTarieven
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -78,15 +80,28 @@ Nadat u de bedrijf-vlakke het facturerings optie van de tariefopheffing op een p
 1. Klikken **Bedrijven**.
 1. Klik de naam van het bedrijf dat met het project wordt geassocieerd waarvoor u bedrijf-vlakke het factureren tariefopheffing toeliet.
 1. Klikken **Factureringstarieven** in het linkerdeelvenster.
-1. Voer de nieuwe factureringssnelheid voor een bestaande taakrol in het dialoogvenster **Factureringsgraad bedrijf** en drukt u op Enter.
+1. Voer in de productieomgeving de nieuwe factureringsgraad in voor een bestaande functie in de **Factureringsgraad bedrijf** en drukt u op Enter.
+
+   of
+
+   <div class="preview">
+
+   Werk in de voorvertoningsomgeving de **Factureringsgraad bedrijf** en begin-/einddatums voor een bestaande taakrol en druk vervolgens op Enter.
+
+   Als u een nieuwe datum wilt toevoegen waarop het bedrijf een effectieve factureringssnelheid heeft, selecteert u een factureringssnelheid voor de rol van de taak en klikt u op Bewerken. Voor meer informatie over de datum van de daadwerkelijke het factureringspercentages van het bedrijf, zie [Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+
+   </div>
+
 1. Voer een van de volgende handelingen uit om de bedrijfstarieven voor een of meer projecten bij te werken:
 
    * Meerdere projecten:
+
    1. Ga naar een lijst met projecten.
    1. Schakel het selectievakje in in overeenstemming met de projecten die u wilt bijwerken.
    1. Klikken **Bewerken**.
    1. Schakel in het gedeelte Instellingen het selectievakje **Herberekening van kosten en opbrengsten** optie.
    1. Klikken **Wijzigingen opslaan**.
+
    * Eén project:
 
       1. Ga naar het project waarvoor u bedrijf-vlakke het factureren tariefopheffing toeliet.

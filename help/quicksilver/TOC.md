@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 0%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 0%
          * [Een scorecard maken](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [Herberekeningen van tijdlijn van project](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Aangepaste kwartalen voor projecten](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [Locaties configureren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Plan- en tijdlijnvoorkeuren configureren {#configure-timesheets-schedules}
          * [Plan- en tijdlijnvoorkeuren configureren](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Overzicht van schema&#39;s](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 0%
          * [Override project-Level het Factureren Tarieven met het bedrijf-Vlakke FactureringsTarieven](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [Overzicht van het overschrijven van de Billing Rates van de Rol en het berekenen van Inkomsten op een project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [Een tariefkaart aan een project koppelen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [Overzicht van het geplande project](manage-work/projects/project-finances/project-planned-benefit.md)
          * [De PIM-methode (Performance Index) instellen](manage-work/projects/project-finances/set-pim.md)
          * [Rendement op investering berekenen (ROI)](manage-work/projects/project-finances/calculate-roi.md)

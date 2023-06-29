@@ -6,14 +6,16 @@ description: U kunt taken aan gebruikers, rollen, of teams toewijzen om erop te 
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
 
 # Taken toewijzen
+
+{{highlighted-preview}}
 
 U kunt taken aan gebruikers, baanrollen, of teams toewijzen om erop te wijzen wie voor de voltooiing van de taken verantwoordelijk is. U kunt een taak aan meer dan één middel tegelijkertijd toewijzen.
 
@@ -26,7 +28,6 @@ U kunt taken aan gebruikers, baanrollen, of teams toewijzen om erop te wijzen wi
 >* Wijs het werkitem opnieuw toe aan actieve bronnen.
 >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
 >
-
 
 Het aantal gebruikers dat aan een taak en het programma van de taakeigenaar wordt toegewezen kan de geplande data van een taak wijzigen die in het veranderen van de chronologie van het project resulteert. Voor informatie over het effect van het toewijzen van meerdere gebruikers aan een taak raadpleegt u [Overzicht van het wijzigen van taaktaken](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
@@ -123,7 +124,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 * De taken en de kwesties op een project zouden eerst aan één of meerdere teams of baanrollen kunnen worden toegewezen. Wanneer het project klaar is te beginnen, zouden zij ook aan gebruikers kunnen moeten worden toegewezen:
 
-   <table>
+  <table>
   <col> 
   <col> 
   <tbody>
@@ -168,23 +169,25 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Klik op de naam van de toewijzingen als de taak of uitgave al is toegewezen.
 
-![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
 1. Voer een van de volgende handelingen uit:
 
    * Typ de naam van een gebruiker, rol of team die u wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
 
-      >[!TIP]
-      >
-      >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+     >[!TIP]
+     >
+     >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+     >
+     ><span class="preview">Wanneer u een taakroltoewijzing toevoegt, kunt u zoeken naar de taakrol of -locatie. Selecteer Systeem/StandaardRol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een Rol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten raadpleegt u [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
    * (Voorwaardelijk) Klik op een van de namen in het dialoogvenster **Voorgestelde toewijzingen** als deze lijst wordt weergegeven. Zie voor meer informatie [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    * Klikken **Geavanceerd**
 
-      Voor informatie over hoe te om geavanceerde taken te maken, zie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Voor informatie over hoe te om geavanceerde taken te maken, zie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. Klikken **Opslaan**.
 1. (Optioneel en voorwaardelijk) Klik op de knop **X-pictogram** naast de naam van de toewijzing in het rechtervenster van de taak om een toewijzing te verwijderen, als u klikte **Geavanceerd**.
@@ -219,11 +222,12 @@ Taken in een lijst toewijzen:
    * Klik in het dialoogvenster **Toegewezen aan** of **Toegewezen** en typ de naam van een actieve gebruiker die u aan de taak wilt toewijzen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de lijst.
    * Klik in het dialoogvenster **Toewijzingen** veld en typ de naam van een actieve gebruiker, taakrol of team die u aan de taak wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
-      >[!TIP]
-      >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
-      >
-      >
-   >
+     >[!TIP]
+     >
+     >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+     >
+     ><span class="preview">Wanneer u een taakroltoewijzing toevoegt, kunt u zoeken naar de taakrol of -locatie. Selecteer Systeem/StandaardRol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een Rol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten raadpleegt u [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+
 
 1. (Voorwaardelijk) Indien zichtbaar in het dialoogvenster **Toewijzingen** veld, klikt u op de knop **Mensen** in de rechterbovenhoek van het toewijzingsvak om het dialoogvenster **Geavanceerde toewijzingen** en maak geavanceerde toewijzingen.
 
@@ -234,7 +238,8 @@ Taken in een lijst toewijzen:
    Zie voor meer informatie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
-   U kunt geen geavanceerde toewijzingen maken vanuit de velden Toegewezen aan of Toegewezen.
+   >
+   >U kunt geen geavanceerde toewijzingen maken vanuit de velden Toegewezen aan of Toegewezen.
 
 1. Nadat u de toewijzingen aan de taak hebt toegevoegd, drukt u op Enter of klikt u ergens op de pagina om de wijzigingen op te slaan als u Automatisch opslaan hebt geselecteerd. Anders klikt u op **Opslaan**.
 
@@ -244,7 +249,8 @@ Taken in een lijst toewijzen:
 1. (Voorwaardelijk) Zorg ervoor dat de **Automatisch opslaan** wordt geselecteerd als u op een lijst van taken onder een project bent.
 
    >[!IMPORTANT]
-   U kunt taken niet bulksgewijs bewerken wanneer u taken handmatig in een project opslaat.
+   >
+   >U kunt taken niet bulksgewijs bewerken wanneer u taken handmatig in een project opslaat.
 
 1. Selecteer verschillende taken in de takenlijst.
 1. Klikken **Bewerken**.
@@ -254,7 +260,8 @@ Taken in een lijst toewijzen:
 1. In de **Toewijzingen** gebied, selecteert u de **Geadresseerde** typt u vervolgens de naam van een gebruiker, taakrol of team die u aan alle taken wilt toewijzen.
 
    >[!IMPORTANT]
-   Als om het even welke taken reeds wordt toegewezen, worden de middelen u hier op wijst toegevoegd aan de taken in plaats van het vervangen van de bestaande middelen op de taken.
+   >
+   >Als om het even welke taken reeds wordt toegewezen, worden de middelen u hier op wijst toegevoegd aan de taken in plaats van het vervangen van de bestaande middelen op de taken.
 
 1. (Optioneel) Selecteer het keuzerondje in het dialoogvenster **Taakeigenaar** kolom om aan te geven welke bron de primaire ontvanger of de eigenaar van de taak is, wanneer u meer dan één bron aan de taak toewijst. Dit is niet beschikbaar voor teams.
 1. (Voorwaardelijk) Geef de **Toewijzing %** voor elke die bron aan de taak wordt toegewezen als alle taken u selecteerde een Type van Duur van Gedreven of Berekende Taak hebben. Dit wijst op hoeveel van hun tijd deze middelen aan de voltooiing van de taak zouden moeten uitgeven. Dit is alleen beschikbaar voor gebruikers en functies.
@@ -264,7 +271,8 @@ Taken in een lijst toewijzen:
    Geef de hoeveelheid op van **Uren** voor elke die bron aan de taak wordt toegewezen als alle taken u selecteerde een Type van Duur van Eenvoudig hebben. Het totaal van alle uren voor alle middelen zou het aantal Geplande Uren voor de taak moeten evenaren.
 
    >[!IMPORTANT]
-   U kunt niet het toewijzingspercentage of het aantal uren per middel specificeren als de taken u selecteerde verschillende Types van Duur of van de taken hebben u selecteerde verschillende Types van Duur.
+   >
+   >U kunt niet het toewijzingspercentage of het aantal uren per middel specificeren als de taken u selecteerde verschillende Types van Duur of van de taken hebben u selecteerde verschillende Types van Duur.
 
    Voor informatie over het Type van Duur op taken, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 

@@ -6,14 +6,16 @@ description: U kunt uw middelen in de Planner van het Middel van Adobe Workfront
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
 
 # Kosten berekenen in de bronnenplanner
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -91,8 +93,8 @@ Om Beschikbare Kostenwaarden in de Planner van het Middel te tonen moet u het vo
 * Kosten per uur voor gebruikers en rollen
 * Informatie over de beschikbaarheid van gebruikers.
 
-   Het verkrijgen van informatie over de beschikbaarheid van gebruikers hangt af van de manier waarop uw Workfront-beheerder de voorkeuren voor het beheer van bronnen configureert.\
-   Voor meer informatie over het berekenen van gebruikersbeschikbaarheid en het plaatsen van de Voorkeur van het Beheer van het Middel, zie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Het verkrijgen van informatie over de beschikbaarheid van gebruikers hangt af van de manier waarop uw Workfront-beheerder de voorkeuren voor het beheer van bronnen configureert.\
+  Voor meer informatie over het berekenen van gebruikersbeschikbaarheid en het plaatsen van de Voorkeur van het Beheer van het Middel, zie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 De volgende lijst illustreert hoe Beschikbare Kosten in de Planner van het Middel wordt berekend:
 
@@ -130,15 +132,23 @@ Als de rol geen Kosten per Uur tarief heeft, is de Beschikbare Kosten van de Rol
 Hoewel u taakinformatie in de Planner van het Middel niet kunt bekijken, worden de Geplande Kosten voor gebruikers, rollen, en de projecten berekend door met de volgende taakinformatie rekening te houden:
 
 * Het type toewijzing op de taak.\
-   U kunt een taak niet toewijzen of de volgende entiteiten aan een taak toewijzen:
+  U kunt een taak niet toewijzen of de volgende entiteiten aan een taak toewijzen:
 
    * Een gebruiker (met of zonder taakrol)
    * Een rol
    * Een team\
-      Een taak die aan een Team wordt toegewezen wordt beschouwd als niet toegewezen, vanuit het perspectief van de Planner van het Middel.
+     Een taak die aan een Team wordt toegewezen wordt beschouwd als niet toegewezen, vanuit het perspectief van de Planner van het Middel.
 
 * De **Kostensoort** van de taken betreffende het project.\
-   Voor meer informatie over het Type van Kosten van een taak, zie [Trackkosten](../../manage-work/projects/project-finances/track-costs.md).
+  Voor meer informatie over het Type van Kosten van een taak, zie [Trackkosten](../../manage-work/projects/project-finances/track-costs.md).
+
+<div class="preview">
+
+* De effectieve data van de kostenpercentages voor functies en gebruikers.
+
+  Bijvoorbeeld, als de rol of de gebruiker 10 geplande uren in Februari en 10 geplande uren in Maart heeft, maar het kostentarief is veranderd van $12 in $20 in Maart, is de waarde voor de Geplande Kosten in Februari $120, en in Maart is de Geplande Kosten $200.
+
+</div>
 
 >[!NOTE]
 >
@@ -150,113 +160,113 @@ De volgende scenario&#39;s bestaan wanneer het berekenen van de Geplande Kosten 
 
    * **Rol en door de gebruiker geplande kosten**:
 
-      De door de gebruiker geplande kosten voor Rol en Gebruiker bedragen $0,00.
+     De door de gebruiker geplande kosten voor Rol en Gebruiker bedragen $0,00.
 
    * **Geplande projectkosten**:
 
-      De geplande projectkosten bedragen $0,00.
+     De geplande projectkosten bedragen $0,00.
 
 * Wanneer de **Kostensoort** is **Uur gebruiker** en er is een **gebruikerstoewijzing** op deze taak :
 
    * **Rol en door de gebruiker geplande kosten**:
 
-      De door de gebruiker geplande kosten worden berekend met behulp van de volgende formule:
+     De door de gebruiker geplande kosten worden berekend met behulp van de volgende formule:
 
 
 
-      ```
-      User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-      ```
+     ```
+     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
+     ```
 
-      Als een gebruiker een kostenpercentage in zijn profiel heeft, wordt dat tarief gebruikt om Geplande Kosten te berekenen. Anders worden de kosten op systeemniveau per uur van hun primaire rol gebruikt.
+     Als een gebruiker een kostenpercentage in zijn profiel heeft, wordt dat tarief gebruikt om Geplande Kosten te berekenen. Anders worden de kosten op systeemniveau per uur van hun primaire rol gebruikt.
 
-      >[!NOTE]
-      >
-      >De gebruiker kan aan de taak met één van hun secundaire baanrollen worden toegewezen, maar het tarief van de primaire baanrol wordt hier gebruikt.
+     >[!NOTE]
+     >
+     >De gebruiker kan aan de taak met één van hun secundaire baanrollen worden toegewezen, maar het tarief van de primaire baanrol wordt hier gebruikt.
 
-      De geplande kosten van de rol wordt berekend met behulp van de volgende formule:
+     De geplande kosten van de rol wordt berekend met behulp van de volgende formule:
 
-      ```
-      Role Planned Cost = SUM(User Planned Cost)
-      ```
+     ```
+     Role Planned Cost = SUM(User Planned Cost)
+     ```
 
    * **Geplande projectkosten**:
 
-      De geplande projectkosten bedragen $0,00.
+     De geplande projectkosten bedragen $0,00.
 
 * Wanneer de **Kostensoort** is **Uur gebruiker** en er is een **taakroltoewijzing** op deze taak :
 
    * **Rol en door de gebruiker geplande kosten**:
 
-      De door de gebruiker geplande kosten bedragen $0,00.
+     De door de gebruiker geplande kosten bedragen $0,00.
 
-      De geplande kosten van de rol wordt berekend met behulp van de volgende formule:
+     De geplande kosten van de rol wordt berekend met behulp van de volgende formule:
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
 
-      De kosten op systeemniveau per uur van de taakrol die aan de taak is toegewezen, worden gebruikt om de geplande kosten te berekenen.
+     De kosten op systeemniveau per uur van de taakrol die aan de taak is toegewezen, worden gebruikt om de geplande kosten te berekenen.
 
    * **Geplande projectkosten**:
 
-      De geplande projectkosten bedragen $0,00.
+     De geplande projectkosten bedragen $0,00.
 
 * Wanneer de **Kostensoort** is **Rol Uur** en er is **geen toewijzing** op deze taak :
 
    * **Rol en door de gebruiker geplande kosten**:
 
-      De door de gebruiker geplande kosten voor Rol en Gebruiker bedragen $0,00.
+     De door de gebruiker geplande kosten voor Rol en Gebruiker bedragen $0,00.
 
    * **Geplande projectkosten**:
 
-      De geplande projectkosten bedragen $0,00.
+     De geplande projectkosten bedragen $0,00.
 
 * Wanneer de **Kostensoort** is **Rol Uur** en er is een **gebruikerstoewijzing** op deze taak :
 
    * **Rol en door de gebruiker geplande kosten**:
 
-      De door de gebruiker geplande kosten bedragen $0,00.
+     De door de gebruiker geplande kosten bedragen $0,00.
 
-      De geplande kosten van de rol wordt berekend aan de hand van de volgende formule:
+     De geplande kosten van de rol wordt berekend aan de hand van de volgende formule:
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
 
-      Workfront bekijkt de baanrol die de gebruiker op de taak vervult om de Geplande Kosten voor de rol te berekenen.
+     Workfront bekijkt de baanrol die de gebruiker op de taak vervult om de Geplande Kosten voor de rol te berekenen.
 
-      Als de gebruiker niet aan om het even welke rol op de taak wordt geassocieerd, is de Geplande Kosten $0.00.
+     Als de gebruiker niet aan om het even welke rol op de taak wordt geassocieerd, is de Geplande Kosten $0.00.
 
    * **Geplande projectkosten**:
 
-      De geplande projectkosten worden berekend aan de hand van de volgende formule:
+     De geplande projectkosten worden berekend aan de hand van de volgende formule:
 
-      ```
-      Project Planned Cost = SUM(Role Planned Costs)
-      ```
+     ```
+     Project Planned Cost = SUM(Role Planned Costs)
+     ```
 
 * Wanneer de **Kostensoort** is **Rol Uur** en er is een **taakroltoewijzing** op deze taak :
 
    * **Rol en door de gebruiker geplande kosten**:
 
-      De door de gebruiker geplande kosten bedragen $0,00.
+     De door de gebruiker geplande kosten bedragen $0,00.
 
-      De geplande kosten van de rol wordt berekend aan de hand van de volgende formule:
+     De geplande kosten van de rol wordt berekend aan de hand van de volgende formule:
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
 
-      Workfront bekijkt de baanrol die de gebruiker op de taak vervult om de Geplande Kosten voor de rol te berekenen.
+     Workfront bekijkt de baanrol die de gebruiker op de taak vervult om de Geplande Kosten voor de rol te berekenen.
 
    * **Geplande projectkosten**:
 
-      De geplande projectkosten worden berekend aan de hand van de volgende formule:
+     De geplande projectkosten worden berekend aan de hand van de volgende formule:
 
-      ```
-      Project Planned Cost = SUM(Role Planned Costs)
-      ```
+     ```
+     Project Planned Cost = SUM(Role Planned Costs)
+     ```
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # Beschikbare functionaliteit voor elk objecttype voor verschillende toegangsniveaus
+
+{{highlighted-preview}}
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
@@ -485,7 +487,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 
 Alleen gebruikers met een licentie voor abonnementen hebben volledige toegang tot financiële gegevens.
 
-De licentietypen Verzoek en Externe gebruiker zijn hier niet opgenomen omdat ze geen toegang hebben tot [object of gebied selecteren].
+De licentietypen Verzoek en Externe gebruiker zijn hier niet opgenomen omdat ze geen toegang hebben tot deze objecten en gebieden.
 
 | Handeling | Planner | Worker | Revisor |
 |---|---|---|---|
@@ -496,6 +498,7 @@ De licentietypen Verzoek en Externe gebruiker zijn hier niet opgenomen omdat ze 
 | Factureringsrecords beheren | ✓ |   |   |
 | Kosten beheren | ✓ | ✓ |   |
 | Financiële gegevens weergeven | ✓&#42; | ✓&#42; | ✓&#42; |
+| <span class="preview">Creditcards beheren</span> | ✓ |   |   |
 | De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |
 | De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel&#42;&#42; | ✓ |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel&#42; | ✓ | ✓ | ✓ |
@@ -539,7 +542,7 @@ Alleen gebruikers met een abonnement hebben volledige toegang tot [object of geb
 | Informatie over een taakrol toevoegen of bewerken in plannen en initiatieven&#42; | ✓ | ✓ | ✓ |   |   |
 | Kosteninformatie over plannen en initiatieven toevoegen of bewerken&#42; | ✓ | ✓ | ✓ |   |   |
 | Plannen en initiatieven verwijderen | ✓ | ✓ | ✓ |   |   |
-| Scenario&#39;s weergeven in het hoofdmenu ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
+| Scenario&#39;s weergeven in het hoofdmenu ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | Abonnementen en initiatieven weergeven die de gebruiker heeft gemaakt&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

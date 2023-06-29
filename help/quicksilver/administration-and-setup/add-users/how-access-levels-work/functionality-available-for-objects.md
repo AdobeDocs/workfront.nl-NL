@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
 
 # Beschikbare functionaliteit voor elk objecttype voor nieuwe toegangsniveaus
+
+{{highlighted-preview}}
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
@@ -304,6 +306,7 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financi
 | Factureringsrecords beheren | ✓ |   |   |   |
 | Kosten beheren | ✓ |   |   |   |
 | Financiële gegevens weergeven | ✓&#42; | ✓&#42; |   |   |
+| <span class="preview">Creditcards beheren</span> | ✓ |   |   |   |
 | De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |   |
 | De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel&#42;&#42; | ✓ |   |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel&#42; | ✓ | ✓ |   |   |
