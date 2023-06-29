@@ -6,14 +6,16 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 0%
 
 ---
 
 # Weergaven maken of bewerken in Adobe Workfront
+
+{{highlighted-preview}}
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. U kunt verschillende typen weergaven gebruiken in Adobe Workfront.
 
@@ -72,12 +74,12 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
    * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
 
       * (Optioneel) In het dialoogvenster **Kolominstellingen** gebied, klikt u op **Deze kolom samenvatten met** selecteert u een van de beschikbare opties voor het samenvatten van de gegevens. Wanneer u deze optie kiest, wordt de informatie in uw kolom samengevoegd in de groepen van het rapport.\
-         Voor datumvelden kunt u de waarden als volgt samenvatten:
+        Voor datumvelden kunt u de waarden als volgt samenvatten:
 
          * Maximum
          * Minimaal
 
-         Voor getal- en valutavelden kunt u de waarden als volgt samenvatten:
+        Voor getal- en valutavelden kunt u de waarden als volgt samenvatten:
 
          * Aantal
          * Som
@@ -85,20 +87,21 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
          * Maximum
          * Minimaal
 
-         >[!NOTE]
-         >
-         >De volgende uitzonderingen gelden voor bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
-         >   
-         >   * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
-         >   * Werkelijke uren tellen de waarden voor de hoofdouder en de standalone taken samen; zij tellen niet de aantallen voor de ouders van oudertaken of de kindtaken samen.
-         >   * Aangepaste gegevensvelden voor getal- en valutawaarden voegen alle taken samen: ouders, kinderen, ouders van ouders en zelfstandige taken.
+        >[!NOTE]
+        >
+        >De volgende uitzonderingen gelden voor bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
+        >   
+        >   * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
+        >   * Werkelijke uren tellen de waarden voor de hoofdouder en de standalone taken samen; zij tellen niet de aantallen voor de ouders van oudertaken of de kindtaken samen.
+        >   * Aangepaste gegevensvelden voor getal- en valutawaarden voegen alle taken samen: ouders, kinderen, ouders van ouders en zelfstandige taken.
+        >   
+        >
 
-
-         Zie het artikel voor meer informatie over het gebruik van groepen in een rapport [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Zie het artikel voor meer informatie over het gebruik van groepen in een rapport [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Optioneel) Klik op **Geavanceerde opties** om de volgende informatie voor de kolom te specificeren:
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -121,9 +124,7 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
          </tbody> 
         </table>
 
-         Zie het artikel voor meer informatie over het voorwaardelijk opmaken van weergaven in rapporten [Voorwaardelijke opmaak gebruiken in tekstmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        Zie het artikel voor meer informatie over het voorwaardelijk opmaken van weergaven in rapporten [Voorwaardelijke opmaak gebruiken in tekstmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Voorwaardelijk) Als u hebt geklikt **Geavanceerde opties**, klikt u op **Gereed**.
 
@@ -147,14 +148,18 @@ U kunt een nieuwe Google-weergave maken of een bestaande, flexibele weergave aan
 
 Raadpleeg het artikel voor meer informatie over de Google-weergaven [Een project beheren in de Google-weergave](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">Deze procedure is alleen van toepassing op de oudere versie van de Agile, niet op de bestuursweergave van een project.</span>
 
 U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
 1. Ga naar de lijst met taken in een project.
-1. Klik op de knop **Agile Storyboard** pictogram ![](assets/agile-storyboard-nwe.png).
+1. Klik op de knop **Agile Storyboard** pictogram ![Agile Storyboard-pictogram](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">of</span>
+
+   <span class="preview">Klik op de knop **Raad** pictogram ![Pictogram bord](assets/board-icon-for-agile-view.png)en klik vervolgens op **Oudere pagina gebruiken** in de weergave aan boord.</span>
 
 1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
 
@@ -239,7 +244,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
    * Artikelnaam met een koppeling die rechtstreeks naar de taak verwijst
    * De projectnaam met een verbinding direct aan het project\
-      Deze koppeling wordt alleen weergegeven wanneer de schakelweergave op een herhaling wordt gebruikt. wordt niet weergegeven wanneer u een mobiele weergave gebruikt voor een project.
+     Deze koppeling wordt alleen weergegeven wanneer de schakelweergave op een herhaling wordt gebruikt. wordt niet weergegeven wanneer u een mobiele weergave gebruikt voor een project.
    * De taakbeschrijving
    * Huidige verplichting
    * Het percentage voltooide bewerkingen weergeven en bewerken door het percentage aan te passen dat is voltooid of door het aantal punten of uren aan te passen dat is voltooid
