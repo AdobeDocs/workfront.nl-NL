@@ -9,9 +9,9 @@ description: U kunt de Adobe Workfront Fusion Adobe Workfront-connector gebruike
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '4996'
+source-wordcount: '4998'
 ht-degree: 0%
 
 ---
@@ -993,6 +993,12 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
    <td> </td> 
   </tr> 
   <tr> 
+   <td>Goedkeuring proefdrukken</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>Gereserveerde tijd* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1722,3 +1728,4 @@ Zie voor meer informatie over gebeurtenisabonnementen [Veelgestelde vragen - Abo
 Voor meer informatie over webhooks raadpleegt u [Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 Zie voor meer informatie over filters in scenario&#39;s [Een filter toevoegen aan een scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
