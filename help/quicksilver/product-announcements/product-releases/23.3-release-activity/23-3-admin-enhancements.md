@@ -3,9 +3,9 @@ title: 23.3 Verbeteringen voor beheerders
 description: 23.3 Verbeteringen voor beheerders
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Om u in staat te stellen nieuwe Workfront-productfuncties en -updates sneller te
 
 Eerder werden functies en functionaliteit op kwartaalbasis voor alle klanten gepubliceerd.
 
-Documenten met meer informatie zijn beschikbaar bij de release 23.3.
+Zie voor meer informatie [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Besturingselement op groepsniveau beschikbaar voor tijdspagina en uurvoorkeur &quot;Waar gebruikers tijd kunnen vastleggen&quot;
 
