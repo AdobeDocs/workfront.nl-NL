@@ -6,9 +6,9 @@ description: Met de knop Gereed kunt u automatisch de status van een taak of een
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ De [!UICONTROL Done] kan de status van een taak of een uitgave automatisch inste
 Gebruikers met bepaalde machtigingen kunnen de [!UICONTROL Done] om bepaalde statussen in het systeem te weerspiegelen. Er zijn twee verschillende manieren om [!UICONTROL Done] de knop werkt voor taken in [!UICONTROL Workfront]:
 
 * Als de gebruiker een toegewezen Team van het Huis heeft, a [!DNL Workfront] beheerder of een gebruiker met een [!UICONTROL Plan] licentie kan de [!UICONTROL Done] om bepaalde statussen voor teamleden te weerspiegelen. Zie [Configureer de [!UICONTROL Done] knoop voor een Team](#configure-the-uicontrol-done-button-for-a-team) in dit artikel.
+* Als de gebruiker geen [!UICONTROL Home Team], maar ze hebben [!UICONTROL Other Teams] in hun profiel, zoekt Workfront naar de instelling van de [!UICONTROL Done] op om het even welke teams verbonden aan de gebruiker. De selectie is willekeurig en de status verbonden aan om het even welke teams wordt gebruikt voor de taak.
 * Als de gebruiker geen toegewezen Team van het Huis heeft, [!UICONTROL Done] knop voor taken is gekoppeld aan een volledige status. Er zijn geen configuratieopties beschikbaar in dit scenario. De [!UICONTROL Done] automatisch wordt deze status ingesteld.
 
 ## Toegangsvereisten
@@ -35,11 +36,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] plan*</strong></p></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] licentie*</strong></p></td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
  </tbody> 
@@ -66,20 +67,18 @@ U kunt wijzigen welke status op het werkitem is toegepast met de opdracht [!UICO
    >* Wanneer u één status selecteert voor elk type werkitem, wordt de taak- of uitgiftestatus ingesteld op die status wanneer een gebruiker klikt [!UICONTROL Done] op hun object. Als u meerdere statussen instelt voor elk type werkitem, wordt een vervolgkeuzemenu toegevoegd aan het dialoogvenster [!UICONTROL Done] en de gebruiker moet een status selecteren om de status van het werkitem te wijzigen.
    >* U kunt alleen statussen op systeemniveau koppelen aan de [!UICONTROL Done] knop. U kunt geen groepsspecifieke statussen koppelen aan de status van het werkitem.
    >* Wanneer een gebruiker die aan het item is toegewezen het item in de status plaatst die aan het [!UICONTROL Done] knop, het item wordt weergegeven als [!UICONTROL Done] voor die gebruiker, ongeacht of de status die u selecteert een [!UICONTROL Completed] of [!UICONTROL Closed] status of een werkstatus.
-
    >   
    >   
    >  Bijvoorbeeld, associating [!UICONTROL Done] knop met [!UICONTROL In Progress] zorgt ervoor dat het werkitem wordt weergegeven als [!UICONTROL Done] voor de gebruiker die de status wijzigt van [!UICONTROL New] tot [!UICONTROL In progress].
    >   
    >* De types van kwestie zijn aanpasbaar en zij zouden verschillende namen kunnen hebben dan hieronder vermeld in uw milieu.\
-      >  Hier volgen de standaardtaken en -typen:
-      >     
-      >   * [!UICONTROL Tasks]
-      >   * [!UICONTROL Issue]
-      >   * [!UICONTROL Request]
-      >   * [!UICONTROL Change Order]
-      >   * [!UICONTROL Bug Report]
-
+   >  Hier volgen de standaardtaken en -typen:
+   >     
+   >   * [!UICONTROL Tasks]
+   >   * [!UICONTROL Issue]
+   >   * [!UICONTROL Request]
+   >   * [!UICONTROL Change Order]
+   >   * [!UICONTROL Bug Report]
 
    Als de taak of kwestie aan veelvoudige gebruikers wordt toegewezen, ziet u &quot;[!UICONTROL Done with my part]&quot; in het keuzemenu, naast de meerdere statussen die voor uw team zijn gekozen.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ We hebben de interface voor logtijd opnieuw ontworpen vanuit het gebied Updates 
 
 Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md). De documentatie wordt bijgewerkt op het moment van de release.
 
-Voorvertoning gepland: 29 juni 2023
+Voorvertoning gepland voor projecten, taken en problemen: 5 juli 2023
 
-Planned Production release: met de 23.3-release
+Planned Production release for issues: 6 juli 2023
+
+Geplande productierelease voor projecten en taken: met de 23.3-release
 
 #### Externe items toevoegen aan een update
 
@@ -188,7 +190,7 @@ U kunt tijd voor kwesties, taken, en projecten van het gebied van Updates regist
 
 Voorvertoning: 1 juni 2023
 
-Productie: Te publiceren
+Productie: met de 23.3-release
 
 ### Week van 15 mei 2023
 
