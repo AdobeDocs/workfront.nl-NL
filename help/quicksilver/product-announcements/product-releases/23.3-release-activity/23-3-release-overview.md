@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In de Google-weergave van een project wordt een kanban-bord weergegeven</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In de Google-weergave van een project wordt een kanban-bord weergegeven</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
                         <p>De Gelijke Mening van een project omvat nu extra functionaliteit aan filter, groep, en soortwerk in een kanbanboard. Het nieuwe, flexibele ontwerp van de weergave bevat een robuuste zoekfunctie en de mogelijkheid om nieuwe taken rechtstreeks vanuit de kaart aan het project toe te voegen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -332,7 +332,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a><span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p>
                         <p>De effectieve datum van kosten en factureringstarieven zijn nu beschikbaar voor het bedrijf, de gebruiker, en de baanobjecten van de rol in Workfront. Wanneer de datum daadwerkelijke tarieven op een project worden toegepast, en de uren het programma worden geopend projecttaken, worden de kosten en de opbrengst berekend gebruikend de gespecificeerde tarieven voor elke tijdspanne.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -342,7 +342,8 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                             </li>
                             <li>
                                 <p>Productieversie voor klanten met de Fast release: Nog aan te kondigen, na de productievrijgave van 23.3</p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.4</p>
+                                <p>Productieversie voor alle klanten: Met de release van 23.4<br>
+                                <span style="color: #ff0000;"> De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning op 30 juni 2023.</span></p>
                             </li>
                         </ul>
                     </td>

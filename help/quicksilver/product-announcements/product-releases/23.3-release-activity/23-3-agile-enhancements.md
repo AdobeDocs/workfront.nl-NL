@@ -3,9 +3,9 @@ title: 23.3 Verbeteringen in de mobiele apparaten
 description: 23.3 Verbeteringen in de mobiele apparaten
 author: Lisa
 feature: Product Announcements
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ De Gelijke Mening van een project omvat nu extra functionaliteit aan filter, gro
 Terwijl u zich in de raad van bestuur bevindt, kunt u ervoor kiezen om over te schakelen naar de oude Google View.
 
 Zie voor meer informatie [Een project beheren in de Google-weergave](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Kolommen sorteren op board
 

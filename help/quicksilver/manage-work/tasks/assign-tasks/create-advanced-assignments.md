@@ -6,9 +6,9 @@ description: U kunt taken beheren of taken uitgeven door Geavanceerde Toewijzing
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Geavanceerde toewijzingen maken
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning op 30 juni 2023.
 
 U kunt taken beheren of taken uitgeven door Geavanceerde Toewijzingen te gebruiken.
 
