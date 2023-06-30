@@ -7,7 +7,7 @@ description: U kunt kiezen of u de nieuwe Workfront-functionaliteit op maand- of
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Snelle releases voor uw organisatie in- of uitschakelen
+
+{{highlighted-preview-article-level}}
 
 Adobe Workfront heeft twee modellen voor het uitbrengen van nieuwe functies en updates. U kunt kiezen of u de nieuwe functionaliteit op kwartaalbasis of volgens een snellere releaseplanning wilt ontvangen.
 

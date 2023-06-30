@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -67,6 +69,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <col> 
     <col> 
     <tbody> 
+     <tr> 
+      <td role="rowheader"> <p><span class="preview">Snelle revisie inschakelen</span></p> </td> 
+      <td><span class="preview">Hiermee kunt u maandelijkse Workfront-releases voor uw organisatie inschakelen in plaats van driemaandelijkse releases.</p><p>Voor meer informatie over het snelle versieproces, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Snelle releases voor uw organisatie in- of uitschakelen</a>.</span></p></td> 
+     </tr> 
      <tr> 
       <td role="rowheader"> <p>Insluiten van <strong>Workfront</strong> in een iframe</p> </td> 
       <td>Hiermee kunt u Workfront insluiten in een iframe.<p>Deze optie is standaard uitgeschakeld.</p><p><b>BELANGRIJK</b>: Als u een webtoepassing weergeeft in een iframe, wordt de toepassing blootgesteld aan een kwetsbaarheid bij het aanwijzen van een klik.</p></td> 
