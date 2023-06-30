@@ -9,9 +9,9 @@ description: Voor gebruik [!DNL Google Sheets] with [!DNL Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3439'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ Meer informatie vindt u op [developers.google.com/sheets/api/limits](https://dev
 ### Lege cellen ophalen van een [!DNL Google Sheet]
 
 Gebruik de [!UICONTROL Search Rows (Advanced)] en gebruik deze formule om de kolommen op te halen die leeg zijn.
-<pre>selecteren * [!UICONTROL where E is null​]</pre>Hier is "E"de kolom &amp; "is ongeldig"de voorwaarde. U kunt een geavanceerdere query maken met [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>select * waarbij E null is</pre>Hier is "E"de kolom &amp; "is ongeldig"de voorwaarde. U kunt een geavanceerdere query maken met [Google Query Lang] (https://developers.google.com/chart/interactive/docs/querylanguage).
 
 ### Voeg een knoop in een blad toe om een scenario in werking te stellen
 

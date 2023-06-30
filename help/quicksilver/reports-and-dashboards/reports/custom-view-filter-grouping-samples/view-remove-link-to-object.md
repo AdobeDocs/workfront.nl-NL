@@ -7,9 +7,9 @@ description: Sommige objecten die u in een weergave weergeeft, zijn standaard ge
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -72,33 +72,22 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 1. Klikken **Overschakelen naar tekstmodus**.
 1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
 1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
-
    <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
 
    >[!TIP]
    >
    >U kunt vergelijkbare code voor andere objecten gebruiken door het volgende aan te passen:
    >
-   >   
-   >   
-   >   * Vervang de **taxiveld** regel van de code met **valueexpression** en zorg dat dezelfde naam tussen accolades na het gelijkteken staat.
-   >   
-   >   
+   >* Vervang de **taxiveld** regel van de code met **valueexpression** en zorg dat dezelfde naam tussen accolades na het gelijkteken staat.
+   >* Alle regels die beginnen met verwijderen `link.` in de oorspronkelijke tekst van de kolom. Verwijder bijvoorbeeld alle volgende regels:
    >
-   >   
-   >   
-   >   * Alle regels die beginnen met > verwijderen
-   >   
-   >     ```>   
-   >     link.
-   >     ```   >   
-   >   
-   >     from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
+   >  ```
+   >  link.linkproperty.0.name=ID
+   >  link.linkproperty.0.valuefield=ID
+   >  link.linkproperty.0.valueformat=string
+   >  link.lookup=link.view
+   >  link.value=val(objCode)
+   >  ```
    >
-
-
 
 1. Klikken **Opslaan** vervolgens **Weergave opslaan**.

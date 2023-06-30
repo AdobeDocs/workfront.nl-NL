@@ -6,7 +6,7 @@ description: PKCE-stroom gebruiken voor OAuth 2-toepassingen
 author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Een PKCE-stroom heeft de volgende stappen. De stappen in deze sectie worden alle
 
 Voordat u autorisatie kunt implementeren, moet u uw app registreren in OAuth2 door een app-integratie te maken vanuit Workfront.
 
-Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth2-webtoepassing met één pagina maken met PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth2-webtoepassing met één pagina maken met PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
 ## Proefsleutel maken voor Codeuitwisseling
@@ -85,11 +85,8 @@ De PKCE-generatorcode maakt uitvoer die vergelijkbaar is met het volgende:
 >
 >```
 >{
->
 >  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
->
 >  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
 >}
 >```
 
@@ -106,7 +103,6 @@ Als u de standaard Server van de Vergunning van de Douane gebruikt, dan zou uw v
 >
 >```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
->
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
@@ -114,7 +110,7 @@ Noteer de parameters die worden doorgegeven:
 
 * `client_id` komt overeen met de client-id van de OAuth2-toepassing die u in de toepassing hebt gemaakt tijdens het configureren van de toepassing.
 
-   Zie Een OAuth2-webtoepassing van één pagina maken met PKCE in OAuth2-toepassingen maken voor Workfront-integratie voor instructies.
+  Zie Een OAuth2-webtoepassing van één pagina maken met PKCE in OAuth2-toepassingen maken voor Workfront-integratie voor instructies.
 
 * `response_type` is `code`, omdat de aanvraag het subsidietype voor machtigingscode gebruikt.
 
@@ -135,13 +131,9 @@ Om de vergunningscode voor een toegangstoken te ruilen, ga het tot uw Server van
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
@@ -170,13 +162,9 @@ Als de code nog geldig is en de verificateur van de code aanpast, ontvangt uw to
 >
 >```
 >{
->
 >    "access\_token": "eyJhd\[...\]Yozv",
->
 >    "expires\_in": 3600,
->
 >    "token\_type": "Bearer"
->
 >}
 >```
 
@@ -192,7 +180,6 @@ U kunt uw toegangstoken met een API vraag bevestigen gelijkend op het volgende:
 >
 >```
 >/attask/api/<api version>/proj/search \\
->
 >  --header 'sessionID: <access\_token>' \\
 >```
 
@@ -206,12 +193,8 @@ Als u een vernieuwingstoken wilt aanvragen, kunt u een POST-aanroep naar de API 
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```
