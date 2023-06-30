@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 186c102a0b1751ab0eba03bd86d2d9db6de9ec5b
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -530,6 +530,22 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Knop Nieuw delen</a> </p>
+                        <p>De optie Delen is uit het menu Meer gehaald voor projecten, taken en problemen om delen intuïtiever te maken.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 22 juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productieversie: Met de release van 23.3</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>

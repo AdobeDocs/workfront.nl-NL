@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Alina
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voor informatie over het delen van machtigingen voor objecten raadpleegt u [Over
 >
 >Een Workfront-beheerder kan machtigingen toevoegen of verwijderen voor alle items in het systeem, zonder de eigenaar van die items te zijn.
 
-In dit artikel wordt beschreven hoe u de volgende objecten kunt delen die identiek zijn: 
+In dit artikel wordt beschreven hoe u de volgende objecten kunt delen: 
 
 * Projecten, taken, problemen
 * Portfolio, programma&#39;s
@@ -43,13 +43,13 @@ Zie ook de volgende artikelen voor informatie over het delen van alle andere obj
    * [Een dashboard delen](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Een kalenderrapport delen](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-   Zie ook [Rapporten, dashboards en kalenders delen](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) voor algemene informatie over het delen van rapporten, dashboards, en kalenders. 
+  Zie ook [Rapporten, dashboards en kalenders delen](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) voor algemene informatie over het delen van rapporten, dashboards, en kalenders. 
 
 * Zie voor filters, weergaven en groepen [Een filter, weergave of groep delen](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * Zie voor documentmappen [Een documentmap delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Zie voor plannen [Een abonnement delen in de Scenario-planner](../../scenario-planner/share-a-plan.md).
 
-   Hiervoor is een aanvullende licentie vereist.
+  Hiervoor is een aanvullende licentie vereist.
 
 * Voor doelstellingen raadpleegt u [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Hiervoor is een aanvullende licentie vereist.
 
@@ -120,7 +120,17 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 1. Ga naar het object dat u wilt delen.
 
    Voor informatie over welke objecten kunnen worden gedeeld, raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. Klik op de knop **Meer** pictogram ![](assets/more-icon.png)naast de objectnaam klikt u op **Delen** of **Delen.**
+1. Voor projecten, taken en kwesties:
+
+   Klik op de knop **Delen** naast de objectnaam.
+
+   ![](assets/new-share-button.png)
+
+   OF
+
+   Voor documenten, portfolio&#39;s en programma&#39;s:
+
+   Klik op de knop **Meer** pictogram ![](assets/more-icon.png)naast de objectnaam klikt u op **Delen** of **Delen.**
 
    ![](assets/share-a-document-350x160.png)
 
@@ -140,6 +150,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >
    >
    >![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)   >
+   >
 
 1. (Optioneel) Herhaal stap 3 voor elke gebruiker, elk team, elke rol of elke groep aan wie u toegang tot het object wilt verlenen.
 
@@ -156,22 +167,27 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    * **Weergave:** Gebruikers kunnen het item bekijken en delen. 
    * **Contribute****:** Gebruikers kunnen updates uitvoeren, gegevens registreren, kleine bewerkingen uitvoeren en delen, plus alle weergavemachtigingen.
 
-      >[!TIP]
-      >
-      >U kunt Contribute-machtigingen alleen verlenen voor de volgende objecten: 
-      * Projecten
-      * Taken
-      * Problemen
-
+     >[!TIP]
+     >
+     >U kunt Contribute-machtigingen alleen verlenen voor de volgende objecten: 
+     >
+     >   
+     >   
+     * Projecten
+     * Taken
+     * Problemen
+     >   
+     >
 
    * **Beheren:**Gebruikers hebben volledige toegang tot het object zonder beheerrechten, die op toegangsniveau worden verleend, plus alle weergave- en Contribute-machtigingen.
 
-      >[!NOTE]
-       De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
+     >[!NOTE]
+     >
+      De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
 
-       
+      
 
-      ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
 1. (Optioneel) Klik op **Geavanceerde opties** specifieke machtigingen voor het object configureren.
 
@@ -188,20 +204,23 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    Nadat u toestemmingen op één project hebt bepaald, worden deze zelfde toestemmingen automatisch toegepast de volgende tijd u een project van kras creeert.
 
    >[!NOTE]
+   >
    Het malplaatje van de projecttoegang treedt de het delen gebreken met voeten die aan u door de beheerder van Workfront in uw Niveau van de Toegang worden verleend.\
    Voor meer informatie over het specificeren van het delen gebreken voor projecten in het Niveau van de Toegang, zie [Toegang verlenen tot projecten](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md) . >
+   >
    <!--   >
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >(NOTE: (this note also appears in Understanding Project Permissions.))   >
    ></MadCap:conditionalText>   >
    >-->   >
-
+   >
 
    U kunt toestemmingen op de projecten specificeren die van een malplaatje zullen worden gecreeerd wanneer u het malplaatje deelt. Zie voor meer informatie [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 1. (Optioneel) Als u het object openbaar wilt maken, klikt u op **Dit openbaar maken voor externe gebruikers**.
 
    >[!TIP]
+   >
    Deze optie is niet beschikbaar voor alle objecten.
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
@@ -210,6 +229,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    Gebruikers met de koppeling kunnen het object weergeven.
 
    >[!CAUTION]
+   >
    We raden u aan voorzichtig te zijn wanneer u een object met vertrouwelijke informatie deelt met externe gebruikers. Op deze manier kunnen ze informatie weergeven zonder dat ze een Workfront-gebruiker of onderdeel van uw organisatie zijn.
 
 1. Klikken **Opslaan**.
@@ -219,6 +239,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 Vanuit een lijst met objecten kunt u meerdere objecten tegelijk delen met andere gebruikers, teams, groepen, taakrollen of bedrijven.
 
 >[!IMPORTANT]
+>
 Wanneer u objecten in bulk deelt, worden de namen van de entiteiten die machtigingen hebben voor de afzonderlijke objecten niet weergegeven. Wanneer u objecten in bulk deelt, worden de entiteiten die u toevoegt aan de lijst voor gedeeld gebruik toegevoegd aan de geselecteerde objecten. Ze overschrijven niet de entiteiten die aan de afzonderlijke objecten zijn gekoppeld. 
 
 Objecten bulksgewijs delen:
@@ -229,6 +250,7 @@ Objecten bulksgewijs delen:
    Gebruikers die al toegang tot het object hebben, worden niet vermeld als beschikbaar bij het delen van grote hoeveelheden.
 
    >[!NOTE]
+   >
    Als u geen machtigingen hebt om een geselecteerd object te delen, kunt u het volgende doen: **Delen** is niet zichtbaar.
 
 1. In de **Bewerken `<Object Name>` toegang voor** veld, typ de naam van een gebruiker, team, groep, taakrol of bedrijf waaraan u machtigingen wilt verlenen.

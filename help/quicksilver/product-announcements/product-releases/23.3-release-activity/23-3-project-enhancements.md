@@ -3,9 +3,9 @@ title: 23.3 Projectverbeteringen
 description: 23.3 Projectverbeteringen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,10 @@ In deze eerste versie is het goedkeuringsproces gestroomlijnd voor zowel het mak
 * Goedkeuringsbesluiten rechtstreeks nemen via Mijn updates en startpagina
 * Goedkeuringen maken voor specifieke documentversies
 
-Voor meer informatie over het gebruik van de goedkeuringen voor nieuwe documenten raadpleegt u [Documentrevisies en -goedkeuringen](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.html?lang=en).
+Voor meer informatie over het gebruik van de goedkeuringen voor nieuwe documenten raadpleegt u [Overzicht van goedkeuringen van nieuwe documenten](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+
+## Knop Nieuw delen
+
+De optie Delen is uit het menu Meer gehaald voor projecten, taken en problemen om delen intuïtiever te maken. De nieuwe knop Delen wordt nu weergegeven naast de naam van een object vlak voor het menu Meer. Het delen van documenten, portfolio&#39;s en programma&#39;s blijft ongewijzigd.
+
+Zie voor meer informatie over het delen van objecten [Een object delen](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
