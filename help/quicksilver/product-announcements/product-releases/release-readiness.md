@@ -1,26 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Voorbereiden op een [!DNL Adobe Workfront] driemaandelijkse release
+title: Voorbereiden op een [!DNL Adobe Workfront] vrijgeven
 description: Volg deze tips om uw organisatie voor elke nieuwe Workfront-release probleemloos bij te werken.
 author: Becky
 feature: Product Announcements
-source-git-commit: 6fa34c77cd23a2abd781365d986d52c9b63a517f
+exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
 
-# Voorbereiden op een [!DNL Adobe Workfront] driemaandelijkse release
+# Voorbereiden op een [!DNL Adobe Workfront] geplande release
 
-[!DNL Adobe Workfront] geeft belangrijke updates van de Productomgeving driemaandelijks uit. Als [!DNL Workfront] beheerder, hebt u de kans om ervoor te zorgen dat uw organisatie een vlotte overgang aan elke nieuwe versie van heeft [!DNL Workfront] product.
+[!DNL Adobe Workfront] regelmatig belangrijke updates van de productieomgeving uit te voeren. Als [!DNL Workfront] beheerder, hebt u de kans om ervoor te zorgen dat uw organisatie een vlotte overgang aan elke nieuwe versie van heeft [!DNL Workfront] product.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Bekijk de onderstaande video voor meer informatie over manieren waarop u zich kunt voorbereiden op een [!DNL Adobe Workfront] driemaandelijkse release.
+Bekijk de onderstaande video voor meer informatie over manieren waarop u zich kunt voorbereiden op een [!DNL Adobe Workfront] vrijgeven.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
@@ -28,11 +29,11 @@ Bekijk de onderstaande video voor meer informatie over manieren waarop u zich ku
 
 Voor een gedetailleerde beschrijving van de [!DNL Workfront] releaseproces, zie [[!DNL Adobe Workfront] releaseplanning en -proces](workfront-release-schedule.md).
 
-## Voorbereiden op een [!DNL Workfront] driemaandelijkse release
+## Voorbereiden op een [!DNL Workfront] vrijgeven
 
 >[!TIP]
 >
->U kunt een projectmalplaatje tot stand brengen om het werk te volgen met betrekking tot [!DNL Workfront] driemaandelijkse releases.
+>U kunt een projectmalplaatje tot stand brengen om het werk te volgen met betrekking tot gepland [!DNL Workfront] lozingen.
 >
 >Zie voor meer informatie [Een [!DNL Workfront] project om releasewerkzaamheden bij te houden](#use-a-workfront-project-to-track-release-work) in dit artikel.
 
@@ -49,11 +50,11 @@ Wij adviseren dat u enkele of alle volgende acties overweegt die u kunnen helpen
 
 Opmerkingen bij de release voor een bepaalde functie worden gepubliceerd wanneer de functie naar uw [!UICONTROL Preview Sandbox] milieu. Op die manier kunt u de functie kennen en verkennen voordat deze deel uitmaakt van uw productieomgeving.
 
-Elke driemaandelijkse release heeft een overzichtspagina met korte beschrijvingen van elke functie en koppelingen naar meer diepgaande notities die aanvullende informatie en demo-video&#39;s bevatten. Deze diepgaande nota&#39;s worden georganiseerd door week aangezien de versies aan voorproef voorkomen, en dan door gebied dichter aan de daadwerkelijke de versiedatum van de Productie reorganiseren.
+Elke release heeft een overzichtspagina met korte beschrijvingen van elke functie en koppelingen naar diepgaande notities die aanvullende informatie en demo-video&#39;s bevatten. Deze diepgaande nota&#39;s worden georganiseerd door week aangezien de versies aan voorproef voorkomen, en dan door gebied dichter aan de daadwerkelijke de versiedatum van de Productie reorganiseren.
 
 We raden u aan de demo-video&#39;s in de opmerkingen bij de release te bekijken. Deze kunnen bijzonder nuttig zijn om de eigenschap in actie te zien, of voor een snel onderzoek naar de context van de eigenschap als u kort op tijd bent.
 
-Voor koppelingen naar de overzichten van de driemaandelijkse release gaat u naar [Productintroducties](product-releases.md).
+Voor koppelingen naar de releaseoverzichten raadpleegt u [Productintroducties](product-releases.md).
 
 ### Kijk naar de [!DNL Workfront] Aankondigingscentrum
 
@@ -64,8 +65,8 @@ Voor koppelingen naar de overzichten van de driemaandelijkse release gaat u naar
 Als [!DNL Workfront] beheerder, ontvangt u het bericht van het Centrum van de Aankondiging van [!DNL Workfront] over verschillende aspecten van de release. U ontvangt een bericht van het Aankondigingscentrum wanneer om het even welk van het volgende voorkomt:
 
 * Nieuwe functies zijn beschikbaar in de productieomgeving
-* Functies die worden vrijgegeven voor Voorvertoning, worden vrijgegeven voor de geplande driemaandelijkse release.
-* Alle nieuwe functies zijn beschikbaar in de voorvertoningsomgeving vóór de geplande driemaandelijkse release.
+* Functies die worden vrijgegeven voor Voorvertoning, worden vrijgegeven voor de geplande release.
+* Alle nieuwe functies zijn beschikbaar in de voorvertoningsomgeving vóór de geplande release.
 * De releasewebinar is open voor registratie
 
 >[!TIP]
@@ -89,11 +90,11 @@ Voor meer informatie over de [!UICONTROL Preview Sandbox] milieu, zie [De [!DNL 
 
 ### De releasewebinar bijwonen
 
-[!DNL Workfront] organiseert een Release-webinar kort voor elke driemaandelijkse release. Hier, de [!DNL Workfront] het productteam verklaart en toont nieuwe eigenschappen en functionaliteit, en kan vragen van die het bijwonen beantwoorden.
+[!DNL Workfront] gastheren een Verlenen Webinar kort voor sommige versies. Hier, de [!DNL Workfront] het productteam verklaart en toont nieuwe eigenschappen en functionaliteit, en kan vragen van die het bijwonen beantwoorden.
 
 Release-webinars worden aangekondigd via de [!DNL Workfront] Aankondigingscentrum. Registratiekoppelingen vindt u op de overzichtspagina van de release.
 
-Voor koppelingen naar de overzichten van de driemaandelijkse release gaat u naar [Productintroducties](product-releases.md).
+Voor koppelingen naar de releaseoverzichten raadpleegt u [Productintroducties](product-releases.md).
 
 ### Feedback op Workfront aanbieden
 
