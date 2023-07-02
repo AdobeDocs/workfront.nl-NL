@@ -183,7 +183,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
      >[!NOTE]
      >
-      De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
+     > De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
 
       
 
