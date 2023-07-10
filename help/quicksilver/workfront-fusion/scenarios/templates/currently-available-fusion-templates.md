@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Deze sjablonen halen informatie op van een webservice en brengen die informatie 
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
 Deze sjabloon maakt een scenario dat het bijwerken van een wisselkoers op een bepaald tijdstip automatiseert. Dit scenario trekt het tarief van Euros (EUR) aan US Dollars (USD) van APIlayers.com en werkt het tarief in Workfront bij.
+
+## Workfront-Marketo-sjablonen
+
+Deze sjablonen ondersteunen de integratie tussen Workfront en Marketo.
+
+>[!NOTE]
+>
+> U moet een Workfront Fusion for Work Automation and Integration-licentie hebben om sjablonen in deze sectie te kunnen gebruiken.
+
+### Uw concept van een Marketo Engage-e-mail goedkeuren met goedkeuringswerkstromen van Workfront
+
+Dit maakt deel uit van de Review and Approved integration tussen Workfront en Marketo Engage. Deze sjabloon detecteert of er een e-mailproef in Workfront is goedgekeurd en werkt vervolgens het bijbehorende e-mailbericht in Marketo Engage bij zoals goedgekeurd.
+
+### Aanvragen voor marketingcampagnes van Intake in Workfront en automatiseren het maken van campagnes in Marketo Engage
+
+Dit scenario verstrekt een programmatic manier om e-mail en webinar campagnes in Marketo Engage van een verzoek tot stand te brengen dat in Workfront wordt gemaakt. Door automatisering te gebruiken om, campagnes tot stand te brengen te organiseren en te vormen, kunnen de teams efficiency verbeteren.
+
+### Een e-mailproefexemplaar van uw concept van Marketo Engage-e-mail controleren in Workfront
+
+Deze sjabloon detecteert of een Workfront-taak is ingesteld op een status die klaar is voor controle en exporteert het e-mailconcept van Marketo Engage om het op te slaan als een proefexemplaar in Workfront.
 
 ## Workfront-Anaplan sjablonen
 
