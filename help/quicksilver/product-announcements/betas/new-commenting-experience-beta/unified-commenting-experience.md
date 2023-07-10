@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,7 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 * Opmerkingen maken over een systeemupdate
 * De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen
 * Aangepast formulier bewerken
+* De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>RTF-tekst (emojis)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>RTF-tekst (blokaanhalingstekens)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
   </tr>
   <tr>
-   <td>Personen uit de thread verwijderen 
+   <td>Automatisch alle deelnemers aan de verbinding labelen
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Aangepast formulier bewerken 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Verbindingskoppeling kopiëren 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2e kwartaal 2023 
    </td>
@@ -411,9 +399,50 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Aangepast formulier bewerken 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Reageren op systeemupdates 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Weergeven "namens" bij het toevoegen van opmerkingen die zijn aangemeld als een andere gebruiker
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
 
 ## Tijdlijn vrijgeven
 
-Voor informatie over de functies die onlangs zijn vrijgegeven voor de nieuwe opmerkingervaring en een releasetijdlijn raadpleegt u [Nieuwe activiteit voor bètabewerkingsbeleving met opmerkingen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Voor informatie over de functies die onlangs zijn vrijgegeven voor de nieuwe opmerkingervaring en een releasetijdlijn raadpleegt u [Nieuwe bètaervaringsactiviteit voor opmerkingen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 

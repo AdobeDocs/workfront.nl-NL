@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -232,7 +232,18 @@ Als u alle updates wilt zien die op een gebruiker of een team, voorbij de grens 
 
 ### Beperkingen bij het invoeren van opmerkingen namens een andere gebruiker
 
-Adobe Workfront-beheerders en groepsbeheerders kunnen zich aanmelden als andere gebruikers en acties uitvoeren in Workfront, zoals het invoeren van opmerkingen. (Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Eventuele opmerkingen die namens een andere gebruiker worden gemaakt, worden in de opmerking vermeld.
+Adobe Workfront-beheerders en groepsbeheerders kunnen zich aanmelden als andere gebruikers en acties uitvoeren in Workfront, zoals het invoeren van opmerkingen.
+
+Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Eventuele opmerkingen die namens een andere gebruiker worden gemaakt, worden in de opmerking vermeld.
+
+>[!NOTE]
+>
+><span class="preview">Wanneer u de nieuwe opmerkingervaring gebruikt, wordt de opmerking toegevoegd als de gebruiker die zich heeft aangemeld als een andere gebruiker en is er geen indicatie dat deze een opmerking toevoegt namens iemand anders.
+>
+>Als een Workfront-beheerder zich bijvoorbeeld aanmeldt als een andere gebruiker, is de Workfront-beheerder de gebruiker die aan de opmerking is gekoppeld. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 Een groepsbeheerder kan opmerkingen maken namens een andere persoon, maar kan die opmerking niet verwijderen. Alleen een Adobe Workfront-beheerder kan een opmerking verwijderen die hij namens een andere gebruiker heeft gemaakt.
 

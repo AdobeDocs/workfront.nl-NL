@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Zie voor algemene informatie over de nieuwe ervaringen met opmerkingen, waaronde
 
 We zijn van plan om de nieuwe opmerkingervaring op een interactieve manier vrij te geven. Dit is van invloed op geselecteerde objecten bij elke release. In het begin kan een kleine set functies worden vrijgegeven en er worden meer functies toegevoegd aan de resterende objecten in de loop van de tijd.
 
-Voor informatie over welke Workfront-objecten de sectie Updates weergeven, raadpleegt u   [Overzicht van de sectie Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+Voor informatie over welke Workfront-objecten de sectie Updates weergeven, raadpleegt u   [Overzicht van de sectie Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Hieronder volgt een gepland tijdschema voor de release van de nieuwe opmerkingervaring in de productieomgeving:
+Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het vrijgeven van de nieuwe opmerkingservaring voor de productieomgeving. Naast de onderstaande mijlpalen zullen we de ervaring met opmerkingen verder verbeteren met kleinere verbeteringen. Voor meer informatie over alle functies raadpleegt u de [Uitgebrachte functies](#released-features) in dit artikel.
 
 * Met de release van 23.2 (6 april 2023):
    * Bèta voor opmerkingen
@@ -51,24 +51,41 @@ Hieronder volgt een gepland tijdschema voor de release van de nieuwe opmerkinger
 * Eind 2023:
    * De oudere ervaring met opmerkingen blijft een optie voor de volgende objecten: projecten, taken, kwesties, en documenten.
 
-     Sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen, doelen en kaarten hebben de nieuwe opmerkingervaring als enige optie.
-
   >[!NOTE]
   >
   >    Herhalingen zullen de oudere ervaring met opmerkingen blijven gebruiken.
 
-De volgende sectie bevat een lijst met functies die na de oorspronkelijke release zijn toegevoegd, te beginnen met de functies die het laatst zijn uitgebracht.
-
 ## Uitgebrachte functies
 
-De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. De pagina bevat nieuwe functies die worden toegevoegd en problemen die zijn opgelost voor de nieuwe opmerkingervaring.
+De volgende sectie bevat een lijst met functies die na de oorspronkelijke release zijn toegevoegd, te beginnen met de functies die het laatst zijn uitgebracht.
 
+De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. Dit artikel bevat nieuwe functies die worden toegevoegd en problemen die worden opgelost voor de nieuwe opmerkingervaring.
 
 ### Functies uitgebracht na 19 juni 2023
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
 De functies in deze sectie zullen naar verwachting kort na de week van 19 juni 2023 worden gepubliceerd.
+
+#### Automatisch alle deelnemers aan de verbinding labelen
+
+Een eigenaar van een opmerking wordt nu automatisch gelabeld in een thread. Vóór deze update gebruiken alleen de gebruikers die zijn getagd met de tags &quot;@name&quot; of door ze toe te voegen aan de sectie &quot;Tagpersonen of -teams&quot; die wordt weergegeven in de lijst met gecodeerde gebruikers. Met dit, kunt u de eigenaar van een commentaar uit de draad nu verwijderen, als nodig, zelfs als zij niet manueel werden geëtiketteerd voordien.
+
+Voorvertoning gepland: 12 juli 2023
+
+Planned Production release: 13 juli 2023
+
+#### Nieuwe interface voor logboektijd
+
+We hebben de interface voor logtijd opnieuw ontworpen vanuit het gebied Updates in de nieuwe opmerkingervaring.
+
+Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md). De documentatie wordt bijgewerkt op het moment van de release.
+
+Voorvertoning van release weergeven voor projecten, taken en problemen: 5 juli 2023
+
+Productieversie voor problemen: 6 juli 2023
+
+Geplande productierelease voor projecten en taken: met de 23.3-release
 
 #### Inhoud prijsopmerking in een nieuw antwoord
 
@@ -80,27 +97,13 @@ Voorvertoning: 28 juni 2023
 
 Productieversie: 29 juni 2023
 
-#### Nieuwe interface voor logboektijd
-
-We hebben de interface voor logtijd opnieuw ontworpen vanuit het gebied Updates in de nieuwe opmerkingervaring.
-
-Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md). De documentatie wordt bijgewerkt op het moment van de release.
-
-Voorvertoning gepland voor projecten, taken en problemen: 5 juli 2023
-
-Planned Production release for issues: 6 juli 2023
-
-Geplande productierelease voor projecten en taken: met de 23.3-release
-
 #### Externe items toevoegen aan een update
 
 U kunt nu emoties aan een opmerking toevoegen met een optie op de werkbalk RTF in de nieuwe opmerkingervaring.
 
 Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
 
-Voorvertoning: Te publiceren (tijdens de release van 23.3)
-
-Productie: Te publiceren. Voor de release 23.3.
+Voorbeeld en productie: Te publiceren (tijdens of kort na de release van 23.3)
 
 #### Nieuwe ervaring met opmerkingen voor extra objecten
 

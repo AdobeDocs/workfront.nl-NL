@@ -8,15 +8,17 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Aanmelden als een andere gebruiker
 
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze is alleen beschikbaar voor alle gebruikers in de voorvertoningsomgeving.</span>
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -87,7 +89,6 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >   
    >* U kunt het wachtwoord van een Workfront-beheerder niet opnieuw instellen.
 
-
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Klik in het linkerdeelvenster op **Aanmelden als**.
@@ -145,6 +146,13 @@ Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsda
 Wanneer u zich bij Workfront als een andere gebruiker aanmeldt en een actie uitvoert, geeft Workfront duidelijk aan dat u elke actie uitvoert namens de gebruiker die u als gebruiker bent aangemeld.
 
 Als u bijvoorbeeld een opmerking maakt over een item terwijl u zich als een andere gebruiker hebt aangemeld, geeft een instructie aan dat de opmerking door u namens de gebruiker is gemaakt.
+
+>[!NOTE]
+>
+><span class="preview">Wanneer u de nieuwe opmerkingervaring gebruikt, wordt de opmerking toegevoegd als de gebruiker die zich heeft aangemeld als een andere gebruiker en is er geen indicatie dat deze een opmerking toevoegt namens iemand anders.
+>
+>Als een Workfront-beheerder zich bijvoorbeeld aanmeldt als een andere gebruiker, is de Workfront-beheerder de gebruiker die aan de opmerking is gekoppeld. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 ### Controlegegevens weergeven {#view-audit-information}
 

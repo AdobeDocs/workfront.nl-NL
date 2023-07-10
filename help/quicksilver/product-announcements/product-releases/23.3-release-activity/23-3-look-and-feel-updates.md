@@ -4,9 +4,9 @@ description: Updates weergeven en voelen tijdens de releaseperiode van 23.3
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ Zie voor meer informatie [Verzoeken kopiëren en verzenden](/help/quicksilver/ma
 
 >[!NOTE]
 >
->Voorvertoning gepland: 6 juli 2023; Planned Production release: met de 23.3-release
+>Voorvertoning gepland: bekend te maken; Planned Production release: bekend te maken.
+>
+>Deze functie was oorspronkelijk bedoeld om te worden uitgebracht met de release 23.3 en werd later vertraagd.
 
 We hebben het vak Nieuwe uitgave bijgewerkt, dat wordt weergegeven wanneer u een nieuwe uitgave naar een project verzendt. Nu, past de interface het Nieuwe verzoekvakje aan dat toont wanneer het voorleggen van een nieuw verzoek aan een verzoekrij.
 

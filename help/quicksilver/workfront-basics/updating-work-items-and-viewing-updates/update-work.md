@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3457'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 0%
 In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 U kunt een update toevoegen aan een Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object, terwijl u commentaar geeft op het object. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen. Gelabelde gebruikers ontvangen een melding in de app en een e-mail over uw update.
+
+U kunt een opmerking toevoegen aan een object dat u kunt weergeven of u kunt zich aanmelden als Workfront of groepsbeheerder en namens een andere gebruiker een opmerking toevoegen. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 De informatie op deze pagina beschrijft hoe u commentaar kunt geven op Workfront-objecten en hoe u projecten, taken en problemen bijwerkt. Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md). U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
 

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
 ## Reageren op een update of een antwoord
+
+U kunt reageren op een opmerking in de thread van een object dat u kunt weergeven, of u kunt zich aanmelden als Workfront of groepsbeheerder en reageren op een opmerking namens een andere gebruiker. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het object dat u selecteert.
 
