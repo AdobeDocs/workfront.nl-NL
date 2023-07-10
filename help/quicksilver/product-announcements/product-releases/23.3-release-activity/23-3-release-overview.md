@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
 >|----|----|
 >| <ul><li>23.8 (augustus 2023)</li><li>23.9 (september 2023)</li><li>23.10 uur (oktober 2023)</li></ul> | <ul><li>23.10 uur (oktober 2023)</li></ul> |
 >| <ul><li>23.11 (november 2023)</li><li>23.12 (december 2023)</li><li>24.1 (januari 2024)</li></ul> | <ul><li>24.1 (januari 2024)</li></ul> |
+>
+>Maandelijkse en driemaandelijkse versies zullen naar verwachting beschikbaar zijn op de laatste donderdag van de maand.
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -69,7 +71,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.</p>
+                                <p>Voorvertoning release: 22 juni 2023</p>
                             </li>
                             <li>
                                 <p>Productieversie: Met de release van 23.3</p>
