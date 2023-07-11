@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -83,11 +83,11 @@ U moet het volgende hebben:
      <tr> 
       <td role="rowheader">[!UICONTROL Cost/ Hr.]</td> 
       <td><p>Dit is het kostenpercentage per uur van de functie. Deze waarde berekent de geplande en de werkelijke kosten van taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke kosten van de projecten. Voer de snelheid in met de [!UICONTROL Base Currency].</p> 
-      <p><span class="preview">Voor kosteneffectieve datums klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de kosten/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. De eerste kostprijs heeft geen begindatum en de laatste kostprijs heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste kostenvoet bijvoorbeeld geen einddatum heeft en u een tweede kostenpercentage toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste kostenvoet zodat er geen hiaten bestaan.</span></p></td> 
+      <p><span class="preview">Voor kosteneffectieve datums klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de kosten/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. De eerste kostprijs heeft geen begindatum en de laatste kostprijs heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste kostenvoet bijvoorbeeld geen einddatum heeft en u een tweede kostenpercentage toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste kostenvoet zodat er geen hiaten bestaan.</span></p> <p><span class="preview">Tip: Als u een bestaande taakrol bewerkt, kunt u <strong>Sorteren op begindatum</strong> om de meest recente begindatum boven aan de tarieflijst te zien. </span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Bill/ Hr.] </td> 
-      <td><p>Dit is het facturerings per uurtarief van de baanrol. Deze waarde berekent de geplande en werkelijke inkomsten van de taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke inkomsten van de projecten. Voer de snelheid in met de [!UICONTROL Base Currency].</p> <p><span class="preview">Voor effectieve factureringssnelheden klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de facturering/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. Het eerste factuurtarief heeft geen begindatum en het laatste factuurtarief heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste factureringsfrequentie bijvoorbeeld geen einddatum heeft en u een seconde toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste factureringssnelheid zodat er geen hiaten bestaan.</span></p> </td> 
+      <td><p>Dit is het facturerings per uurtarief van de baanrol. Deze waarde berekent de geplande en werkelijke inkomsten van de taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke inkomsten van de projecten. Voer de snelheid in met de [!UICONTROL Base Currency].</p> <p><span class="preview">Voor effectieve factureringssnelheden klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de facturering/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. Het eerste factuurtarief heeft geen begindatum en het laatste factuurtarief heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste factureringsfrequentie bijvoorbeeld geen einddatum heeft en u een seconde toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste factureringssnelheid zodat er geen hiaten bestaan.</span></p> <p><span class="preview">Tip: Als u een bestaande taakrol bewerkt, kunt u <strong>Sorteren op begindatum</strong> om de meest recente begindatum boven aan de tarieflijst te zien. </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
