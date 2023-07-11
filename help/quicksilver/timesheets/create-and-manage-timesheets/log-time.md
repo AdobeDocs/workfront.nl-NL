@@ -6,7 +6,7 @@ description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3334'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
 1. Selecteer in het linkerdeelvenster de optie **Updates**.
 1. Klikken **Logtijd**.
 
-   Het dialoogvenster Uren invoeren wordt weergegeven.
+   <span class="preview">Het dialoogvenster Logtijd wordt weergegeven. </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
    >   
    >   Rechtsboven in het vak Dagen invoeren ziet u hoeveel uren er in een dag staan.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Geef de volgende informatie op:
 
