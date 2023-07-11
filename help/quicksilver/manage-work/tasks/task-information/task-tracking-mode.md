@@ -7,9 +7,9 @@ description: U kunt de instelling van de modus Tekstspatiëring van een taak aan
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Workfront gaat ervan uit dat de taken volgens planning zullen worden voltooid en
 
 De volgende uitzonderingen bestaan:
 
-* Als de taak onvolledige voorgangers heeft, zal het niet automatisch worden voltooid tot al zijn voordecessors worden voltooid.
+* Als de taak onvolledige voorgangers heeft, zal het niet automatisch worden voltooid tot al zijn voordecessors worden voltooid. Voorgangers moeten worden afgedwongen.
 * Als de taak een beperking van Vaste Datum heeft, voltooit de taak altijd op de Geplande Datum van Voltooiing, ongeacht of zijn predecessors worden voltooid.
 
 >[!IMPORTANT]
