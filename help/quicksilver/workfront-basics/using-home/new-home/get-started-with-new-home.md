@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voe
     Hiermee geeft u problemen weer die aan u zijn toegewezen in een tabel met aanpasbare filters, weergaven en groepen, alsmede een knop om een nieuwe uitgave rechtstreeks te maken.
 
 * **Mijn verzoeken**\
-    Hiermee geeft u alle aanvragen weer die aan u zijn toegewezen, een filter waarmee u alleen geopende aanvragen kunt weergeven en een knop waarmee het overzichtsvenster voor een aanvraag wordt geopend.
+    Toont alle verzoeken u hebt voorgelegd, een filter om open verzoeken slechts te tonen, en een knoop die de summiere ruit voor een verzoek opent.
 
 * **Teamverzoeken**\
     Toont alle hangende verzoeken om teams die u op gesorteerd door team bent, evenals knopen om een verzoek aan een gebruiker direct toe te wijzen of aan het zelf te werken.
