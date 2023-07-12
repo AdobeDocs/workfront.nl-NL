@@ -6,7 +6,7 @@ description: Uw Adobe Workfront-beheerder configureert welke gebeurtenismeldinge
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: ea16b13b6ecb6ecea365c6c4d31ee23b7bb712c6
+source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -29,7 +29,6 @@ Voor informatie over e-mailmeldingen raadpleegt u [[!DNL Adobe Workfront] meldin
 >* De [!DNL Workfront] beheerder of groepsbeheerder kan geen meldingen configureren voor [!DNL Workfront Goals]. Voor meer informatie over welke meldingen [!DNL Workfront] beheerder kan configureren, zie [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Voor informatie over het configureren van individuele meldingen voor [!DNL Workfront Goals] doorgaan met het lezen van dit artikel.
 >
 
-
 ## Toegangsvereisten
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
@@ -46,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
+   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
