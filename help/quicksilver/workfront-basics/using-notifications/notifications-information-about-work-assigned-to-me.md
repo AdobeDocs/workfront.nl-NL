@@ -6,9 +6,9 @@ description: In de volgende meldingen wordt u gewaarschuwd voor activiteiten die
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 39ba9e93a8597d4354472a19b1ac1c5f530f4398
+source-git-commit: 901605917347297a1ee077f00905b03427582650
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
  </thead> 
  <tbody>
   <tr> 
-   <td> <p><strong>Een voorganger van een taak die aan mijn team wordt toegewezen wordt voltooid</strong> </p> <p>Het toegewezen team ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken is voltooid. </p> <p>Gebruikers met een [!UICONTROL Review] of Re[!UICONTROL Requestor]de questor-licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>Voltooid: &lt;task name=""&gt;</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p><strong>Een voorganger van een taak die aan mijn team wordt toegewezen wordt voltooid</strong> </p> <p>Het toegewezen team ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken is voltooid. </p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>Voltooid: &lt;task name=""&gt;</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> <p>Naam van vorige taak<br>Predecessor Taakproject<br>Referentienummer vorige taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de vorige taak<br><strong>Meer informatie</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide voorgangers<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </p> </td> 
    <td><strong>Dagelijks</strong> </td>
   </tr>
