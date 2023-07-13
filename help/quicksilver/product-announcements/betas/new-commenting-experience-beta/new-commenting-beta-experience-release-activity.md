@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Planned Production release: 13 juli 2023
 
 We hebben de interface voor logtijd opnieuw ontworpen vanuit het gebied Updates in de nieuwe opmerkingervaring.
 
-Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md). De documentatie wordt bijgewerkt op het moment van de release.
+Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Voorvertoning release: 5 juli 2023
 
@@ -89,7 +89,7 @@ Productieversie: met de 23.3-release
 
 U kunt nu de inhoud van een opmerking kopiëren en deze als een nieuw aanhalingsteken toevoegen aan een antwoord in dezelfde thread wanneer u de nieuwe opmerkingervaring gebruikt.
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
+Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Voorvertoning: 28 juni 2023
 
