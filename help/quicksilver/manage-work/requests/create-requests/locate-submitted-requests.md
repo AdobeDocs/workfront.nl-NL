@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: Verzonden aanvragen zoeken
 description: Leer over de gebieden van Adobe Workfront waar u van verzoeken kunt de plaats bepalen die u of iemand anders indiende of verzoeken die u nooit hebt voorgelegd en als ontwerpen bewaard.
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Verzonden aanvragen zoeken
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden, of aanvragen die u hebt gestart maar die u nooit hebt verzonden. U kunt deze aanvragen vinden in de volgende gebieden van Adobe Workfront:
 
@@ -70,7 +72,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    >
    >U kunt de kolommen in de lijst Verzendverzoeken niet aanpassen.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. De volgende kolommen worden standaard weergegeven:

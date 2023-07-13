@@ -6,9 +6,9 @@ description: U kunt sjablonen maken en verwijderen vanuit het gebied Sjablonen. 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,21 @@ ht-degree: 0%
 
 U kunt sjablonen maken en verwijderen vanuit het gebied Sjablonen. Wanneer het bouwen van een nieuw malplaatje, kunt u de informatie voor alle taken en alle informatie voor uw toekomstige projectmontages ingaan. Deze informatie zal dan aan het project overbrengen, wanneer u het van het malplaatje creeert.
 
+>[!NOTE]
+>
+>Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Zie voor meer informatie [Een project maken](../create-projects/create-project.md).
+
+
 U kunt op de volgende manieren een nieuwe sjabloon maken:
 
 * Geheel nieuw, zoals beschreven in dit artikel.
 * Van bestaande projecten, door een project als malplaatje te bewaren.
 
-   Voor meer informatie over het creëren van malplaatjes van bestaande projecten, zie [Een project opslaan als een sjabloon](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  Voor meer informatie over het creëren van malplaatjes van bestaande projecten, zie [Een project opslaan als een sjabloon](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * Door deze uit een andere sjabloon te kopiëren.
 
-   Voor meer informatie over het kopiëren van een bestaande sjabloon raadpleegt u [Een projectsjabloon kopiëren](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  Voor meer informatie over het kopiëren van een bestaande sjabloon raadpleegt u [Een projectsjabloon kopiëren](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
 * Als u een Workfront-beheerder bent, kunt u sjablonen maken door blauwdrukken te importeren. Zie voor meer informatie [Een blauwdruk configureren](../../../administration-and-setup/blueprints/configure-template-package.md).
 

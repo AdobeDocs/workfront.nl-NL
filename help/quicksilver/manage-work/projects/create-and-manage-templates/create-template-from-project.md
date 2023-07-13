@@ -2,13 +2,14 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Sjabloon maken van project
-description: Sjabloon maken van project
+description: U kunt sjablonen maken wanneer u een bestaand project opslaat als een sjabloon.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -22,6 +23,12 @@ ht-degree: 0%
 U kunt sjablonen maken wanneer u een bestaand project opslaat als een sjabloon.
 
 Nadat u een bestaand project als malplaatje opslaat, kunt u het nieuwe malplaatje gebruiken om nieuwe projecten tot stand te brengen. Dit vereenvoudigt en versnelt het proces van de projectverwezenlijking.
+
+>[!NOTE]
+>
+>Wanneer het bewaren van een project als malplaatje, slaan de daadwerkelijke data van de taken en van het project niet voor het malplaatje op.
+>
+>Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Zie voor meer informatie [Een project maken](../create-projects/create-project.md).
 
 ## Toegangsvereisten
 

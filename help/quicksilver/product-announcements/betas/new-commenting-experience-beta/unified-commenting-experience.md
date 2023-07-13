@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,6 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 >* <span class="preview">Taken</span>
 >* <span class="preview">Documenten</span>
 
-
-
 In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de nieuwe opmerkingervaring en de beschikbaarheid ervan op gebieden waar deze functies worden ondersteund:
 
 <table>
@@ -79,7 +77,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td><strong>Bestaat in oude ervaring met opmerkingen </strong>
    </td>
-   <td><strong>Bestaat in bètaversie van de nieuwe opmerkingervaring </strong>
+   <td><strong>Bestaat in de nieuwe opmerkingervaring </strong>
    </td>
    <td><strong>Wordt geïntroduceerd in de nieuwe ervaring met opmerkingen </strong>
    </td>
@@ -224,9 +222,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Een project kopiëren
 description: U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts één project tegelijk kopiëren. U kunt projecten niet bulksgewijs kopiëren.
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ U kunt een project kopiëren in plaats van er zelf een te maken. U kunt slechts 
 >* Scorecard
 >* Standaardgegevens taak (goedkeuringsproces standaardtaak, Standaard aangepaste Forms taak)
 >
-
+> De datums van de oorspronkelijke taken van de projecten worden gekopieerd naar het nieuwe project. U moet de begin- of voltooiingsdatum van het project (afhankelijk van de planningsmodus) wijzigen om de datums van de taken bij te werken. De beperkingen van de taak zouden u kunnen verhinderen de data op het project te veranderen.
 
 ## Toegangsvereisten
 

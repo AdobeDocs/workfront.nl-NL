@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Geplande afsluitdatum van project instellen
 description: De geplande uitvoeringsdatum van een project is de datum waarop het project moet worden voltooid.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -86,13 +87,18 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## De geplande voltooiingsdatum van een project handmatig instellen
 
-U moet manueel de Geplande Datum van de Voltooiing van een project plaatsen wanneer u het project van de Datum van de Voltooiing plant. 
+U moet manueel de Geplande Datum van de Voltooiing van een project plaatsen wanneer u het project van de Datum van de Voltooiing plant.
+
+>[!NOTE]
+>
+>Wanneer u manueel de Geplande Datum van de Voltooiing van een project plaatst, berekent Workfront automatisch de Geplande Datum van het Begin van het project dat op de Duur van alle taken wordt gebaseerd.
+
 
 Een project plannen vanaf de voltooiingsdatum:
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Projecten**.
 
-1. Klikken **Nieuw project** dan **Nieuw project**.
+1. Klikken **Nieuw project** dan **Nieuw project**.
 
    Raadpleeg het artikel voor meer informatie over het maken van projecten [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -107,7 +113,7 @@ Een project plannen vanaf de voltooiingsdatum:
 
 ## De geplande voltooiingsdatum van een project automatisch instellen
 
-De geplande Voltooiingsdatum van een project wordt automatisch berekend door Adobe Workfront wanneer u het project van de Datum van het Begin plant. 
+De geplande Voltooiingsdatum van een project wordt automatisch berekend door Workfront wanneer u het project van de Datum van het Begin plant. 
 
 Een project plannen vanaf de begindatum:
 

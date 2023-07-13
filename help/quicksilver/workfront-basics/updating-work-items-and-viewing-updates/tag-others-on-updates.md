@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <span class="preview">projecten, taken en documenten</span>.
+> * Problemen <span class="preview" style="display-inline">projecten, taken en documenten</span>.
 >
 >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
 >
@@ -136,19 +136,19 @@ U kunt gebruikers handmatig labelen in de huidige sectie Updates.
 
 ### Andere tags toepassen op updates in de bètaervaring voor opmerkingen
 
-<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
+U kunt op de volgende manieren tags toewijzen aan andere updates in de nieuwe opmerkingervaring:
 
-You can tag others on updates in the new commenting experience in the following ways:
+* <span class="preview"> **Automatisch**: Wanneer een gebruiker een opmerking of antwoord toevoegt, worden deze automatisch gelabeld en toegevoegd aan het gebied Tagpersonen of -teams van het opmerkingvak. </span>
+* **Handmatig**: Wanneer u handmatig een gebruiker toevoegt aan het gebied Tagpersonen van het opmerkingsvak.
 
-* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
-* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een opmerking bewerkt of erop reageert.
 
-You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+1. Beginnen met het bijwerken van een tijdelijk item, zoals beschreven in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">Als eigenaar van de opmerking wordt u automatisch gelabeld en toegevoegd aan het gebied Tagpersonen of -teams in het opmerkingvak. </span>
 
+   >[!TIP]
+   >
+   ><span class="preview">De eigenaar van de opmerking kan zijn of haar eigen naam niet zien in het gebied Tagpersonen of -teams van het opmerkingvak.</span>
 
-In de bètaervaring voor opmerkingen kunt u handmatig tags toewijzen aan andere updates. U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een opmerking bewerkt of erop reageert.
-
-1. Beginnen met het bijwerken van een tijdelijk item, zoals beschreven in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. In de **Tags toewijzen aan personen of teams** typt u de naam van de gebruiker of het team dat u wilt opnemen en klikt u op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 
    of

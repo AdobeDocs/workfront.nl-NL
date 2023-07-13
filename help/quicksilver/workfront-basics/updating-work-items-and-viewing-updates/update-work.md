@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3497'
 ht-degree: 0%
 
 ---
@@ -42,21 +42,34 @@ ht-degree: 0%
 >
 >     U kunt updates aan kaarten in het gebied van Boards toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
-In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-U kunt een update toevoegen aan een Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object, terwijl u commentaar geeft op het object. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen. Gelabelde gebruikers ontvangen een melding in de app en een e-mail over uw update. Zie voor meer informatie [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+## Overwegingen bij het bijwerken van werkzaamheden
 
-U kunt een opmerking toevoegen aan een object dat u kunt weergeven of u kunt zich aanmelden als Workfront of groepsbeheerder en namens een andere gebruiker een opmerking toevoegen. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-De informatie op deze pagina beschrijft hoe u commentaar kunt geven op Workfront-objecten en hoe u projecten, taken en problemen bijwerkt. Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md). U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
+* U kunt een update toevoegen aan een Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object, terwijl u commentaar geeft op het object. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven.
 
+* U kunt gebruikers een tag toewijzen om hun aandacht te vestigen op de update. Gelabelde gebruikers ontvangen een melding in de app en een e-mail over uw update.
 
-U kunt een update toevoegen aan projecten, taken en problemen uit de volgende Workfront-domeinen:
+  >[!TIP]
+  >
+  >   <span class="preview">In de nieuwe opmerkingervaring worden eigenaars van opmerkingen automatisch gelabeld. Zie voor meer informatie [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* Vanuit een Workfront-object, in de sectie Updates
-* Vanuit het thuisgebied (voor taken en problemen)
-* Vanuit het deelvenster Samenvatting in een lijst met objecten (voor taken en problemen)
-* Van het timesheet (voor taken en kwesties)
+* U kunt een opmerking toevoegen aan een object dat u kunt weergeven of u kunt zich aanmelden als Workfront of groepsbeheerder en namens een andere gebruiker een opmerking toevoegen. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+* U kunt een update toevoegen aan projecten, taken en problemen uit de volgende Workfront-domeinen:
+
+   * Vanuit een Workfront-object, in de sectie Updates
+   * Vanuit het thuisgebied (voor taken en problemen)
+   * Vanuit het deelvenster Samenvatting in een lijst met objecten (voor taken en problemen)
+   * Van het timesheet (voor taken en kwesties)
+
+De informatie op deze pagina beschrijft hoe u commentaar kunt geven op Workfront-objecten en hoe u projecten, taken en problemen bijwerkt.
+
+Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md). U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
+
+Voor informatie over opmerkingen over kaarten in het gebied van de kamers raadpleegt u [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Toegangsvereisten
 
@@ -395,7 +408,7 @@ Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd
 
 Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
 
 * [Koppeling kopiëren](#copy-link)
 * [Platte tekst kopiëren](#copy-body-text)

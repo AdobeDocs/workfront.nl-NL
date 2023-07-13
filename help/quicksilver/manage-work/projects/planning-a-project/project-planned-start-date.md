@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Overzicht van de geplande begindatum van het project
 description: Overzicht van de geplande begindatum van het project
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -31,6 +32,10 @@ De Geplande Datum van het Begin van een project kan manueel of automatisch worde
 ## De geplande begindatum van een project handmatig instellen
 
 U moet manueel de Geplande Datum van het Begin van een project plaatsen wanneer u het project van de Datum van het Begin plant.
+
+>[!NOTE]
+>
+>Wanneer u manueel de Geplande Datum van het Begin van een project plaatst, berekent Workfront automatisch de Geplande Datum van Voltooiing van het project dat op de Duur van alle taken wordt gebaseerd.
 
 Voor informatie over het plaatsen van de Geplande Datum van het Begin van het project, zie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -55,23 +60,23 @@ De geplande begindatum van een project wordt automatisch ingesteld wanneer u het
 
 * vanaf nul en wanneer u het project van de Datum van Voltooiing plant.
 
-   De geplande begindatum wordt automatisch berekend door Adobe Workfront op basis van de datum die u hebt geselecteerd voor de voltooiingsdatum en de duur van alle taken voor het project.
+  De geplande begindatum wordt automatisch berekend door Adobe Workfront op basis van de datum die u hebt geselecteerd voor de voltooiingsdatum en de duur van alle taken voor het project.
 
-   Voor informatie over het maken van een geheel nieuw project raadpleegt u [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+  Voor informatie over het maken van een geheel nieuw project raadpleegt u [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
 * importeren uit Microsoft Project.
 
-   De geplande begindatum is de begindatum van het project in Microsoft Project.
+  De geplande begindatum is de begindatum van het project in Microsoft Project.
 
-   Voor informatie over het invoeren van een project van het Project van Microsoft, zie [Een project importeren uit een Microsoft-project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Voor informatie over het invoeren van een project van het Project van Microsoft, zie [Een project importeren uit een Microsoft-project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * Importeer het bestand met Workfront Kick-Start als Workfront-beheerder.
 
-   De geplande begindatum komt altijd overeen met de tijd en datum van de computer, tenzij u anders opgeeft in het veld setPlannedStartDate op het projectblad van het startbestand.
+  De geplande begindatum komt altijd overeen met de tijd en datum van de computer, tenzij u anders opgeeft in het veld setPlannedStartDate op het projectblad van het startbestand.
 
-   Voor informatie over het importeren van gegevens met de functie voor het starten raadpleegt u [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor informatie over het importeren van gegevens met de functie voor het starten raadpleegt u [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Voor informatie over het invoeren van projecten gebruikend schoppen, zie [Kick-Starts-scenario: eenvoudige voorbereiding van project- en taakimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Voor informatie over het invoeren van projecten gebruikend schoppen, zie [Kick-Starts-scenario: eenvoudige voorbereiding van project- en taakimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
