@@ -5,7 +5,7 @@ title: Adobe Experience Manager Assets-integratie
 description: U kunt uw werk verbinden met de volgende Integraties van Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 0%
@@ -23,7 +23,9 @@ U kunt uw werk met uw inhoud verbinden in [!DNL Experience Manager Assets]&#x200
 * Metagegevens bijhouden voor elementen en mappen
 * Projectmetagegevens synchroniseren tussen [!DNL Workfront] en [!DNL Experience Manager Assets]
 
-U kunt ook verschillende Experience Manager Assets-opslagruimten verbinden met één Workfront-omgeving of met verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
+>[!NOTE]
+>
+>U kunt ook verschillende Experience Manager Assets-opslagruimten verbinden met één Workfront-omgeving of met verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
 
 ## Toegangsvereisten
 
@@ -165,7 +167,6 @@ U kunt ingebouwde en aangepaste Workfront-velden toewijzen aan Experience Manage
 > * Setup > Custom Forms in Workfront of het veld in het object
 > * Middelen > Metagegevensschema&#39;s in Experience Manager Assets
 
-
 +++
 
 ### Metagegevens toewijzen voor elementen
@@ -181,7 +182,6 @@ Metagegevens toewijzen voor elementen:
    >
    >U kunt één kaart toewijzen [!DNL Workfront] veld naar meerdere [!UICONTROL Experience Manager Assets] velden. U kunt geen meerdere toewijzen [!DNL Workfront] velden naar één [!DNL Experience Manager Assets] veld.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. In de [!DNL Experience Manager Assets] , doorzoeken in de vooraf ingevulde categorieën of ten minste twee letters invoeren in het zoekveld voor toegang tot extra categorieën.
 1. Herhaal stap 2 en 3 zo nodig.
