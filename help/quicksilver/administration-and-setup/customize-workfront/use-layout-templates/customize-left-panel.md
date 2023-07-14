@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In een lay-outsjabloon kunt u aanpassen wat gebruikers in het linkerdeelvenstergebied in Adobe Workfront zien.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c0b0102eb1e1f45e794f962f7e905349f9e241eb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ U kunt bijvoorbeeld bepalen welke van de volgende items gebruikers in het linker
 >
 >Wijzigingen die u aanbrengt in de volgorde en zichtbaarheid worden weerspiegeld in de mobiele app.
 
+Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Toegangsvereisten
 
@@ -66,7 +70,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Tonen ![](assets/add-secondary-nav-item.png) of verbergen ![](assets/delete-secondary-nav-item.png) objecten. Elk item zonder ![](assets/add-secondary-nav-item.png) of ![](assets/delete-secondary-nav-item.png) kan niet worden verborgen.
 
    * Items slepen ![](assets/move-icon---dots.png) om hun orde op het linkerpaneel te veranderen.
-
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -195,10 +198,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >[!NOTE]
    >
    >De laatste 3 items in de **[!UICONTROL Customize what users see]** vervolgkeuzelijst ([!UICONTROL Lists], [!UICONTROL Home and Summary], en [!UICONTROL Branding]) zijn bedoeld voor het configureren van andere gebieden dan het linkerdeelvenster. Raadpleeg de volgende artikelen voor meer informatie over deze artikelen:
->   * [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+>   >   
+* [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 >* [Aanpassen [!UICONTROL Home] en [!UICONTROL Summary] een lay-outsjabloon gebruiken](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
 * [Merk Adobe [!DNL Workfront] een lay-outsjabloon gebruiken](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
-
 
 
 1. (Optioneel) Als u een item uit het linkerdeelvenster wilt toevoegen dat is gekoppeld aan een van de dashboards van uw organisatie, klikt u op **[!UICONTROL Add custom section]**, typt u een **[!UICONTROL Custom section title]** voor het item voegt u het dashboard toe.
@@ -206,6 +209,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De dashboarditems worden onder in het linkerdeelvenster weergegeven. Gebruikers zien de titel van de sectie Aangepast die u typt naast het dashboarditem wanneer ze de muisaanwijzer op het linkerdeelvenster plaatsen.
 
    >[!NOTE]
+   >
    Gebruikers kunnen aangepaste dashboarditems aan hun linkerdeelvenster toevoegen. Wanneer u aangepaste dashboarditems toevoegt aan een lay-outsjabloon, worden de items samengevoegd met de bijbehorende items zonder ze te overschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon met aangepaste dashboarditems. Ga voor informatie over hoe gebruikers het linkerdeelvenster kunnen aanpassen naar [Aangepaste tabbladen of secties maken](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Voor informatie over dashboards, zie [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
@@ -217,4 +221,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Als u klaar bent met het aanpassen, klikt u op **[!UICONTROL Save]**.
 
    >[!TIP]
+   >
    U kunt op [!UICONTROL Save] op elk gewenst moment de voortgang op te slaan en de sjabloon later te wijzigen.

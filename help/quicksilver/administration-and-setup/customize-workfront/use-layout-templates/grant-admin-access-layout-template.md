@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Als beheerder van Adobe Workfront, kunt u administratieve toegang voor een lay-outmalplaatje aan de groepsbeheerders van een bepaalde groep verlenen zodat zij het malplaatje kunnen uitgeven. Hiermee wijst u de sjabloon niet toe aan de gebruikers in de groep.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -61,6 +61,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* Wanneer een groepsbeheerder een lay-outmalplaatje creeert, is het toewijzen van administratieve toegang verplicht. De lay-outmalplaatje wordt aangewezen voor en zichtbaar aan slechts de gespecificeerde groep. Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). Voor informatie over groepsbeheerders, zie [Groepbeheerders](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    >   
    >* Als u geen administratieve toegang tot de groepsbeheerders in een bepaalde groep verleent, hebben alle gebruikers die gebruikersrekeningen kunnen uitgeven administratieve toegang tot het lay-outmalplaatje. Sommige Workfront-beheerders geven bewust geen beheertoegang voor een lay-outsjabloon om er een lay-outsjabloon op systeemniveau van te maken.
-
 
 1. U kunt op elk gewenst moment op Opslaan klikken om de voortgang op te slaan en de sjabloon later blijven wijzigen.

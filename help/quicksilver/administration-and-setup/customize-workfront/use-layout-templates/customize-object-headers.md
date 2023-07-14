@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de velden te configureren die gebruikers in de objectkoptekst zien wanneer ze de pagina van een object openen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,13 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 >
 >Het aanpassen van objecten kopballen is momenteel beschikbaar voor projecten, taken, en kwesties.
 
-
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
-
 ![](assets/object-header-fields.png)
+
+Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Toegangsvereisten
 
@@ -67,7 +70,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 1. In de [!UICONTROL Header fields] te klikken, de muis over de weergegeven velden te verplaatsen en een van de volgende handelingen uit te voeren:
    * Klik op de knop **x** pictogram om een veld te verwijderen
 
-      of
+     of
 
    * Klik en houd het **grijpen** om het veld naar een nieuwe locatie te slepen.
 
@@ -86,7 +89,6 @@ Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u ee
    >* U kunt bewerkbare velden toevoegen die al deel uitmaken van de standaardkoppen (bijvoorbeeld Projecteigenaar, Status, Percentage voltooid, Toewijzingen).
    >
    >* Wanneer u het veld &quot;Opgelost door&quot; toevoegt aan de koptekst van een probleem, verandert het veld in &quot;Probleem oplossen, Taak of Project&quot; wanneer er een object is dat is gekoppeld aan het probleem.
-
 
 
    ![](assets/add-field-to-header-in-lt-list.png)

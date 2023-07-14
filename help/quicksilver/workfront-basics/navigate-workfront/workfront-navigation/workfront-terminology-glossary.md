@@ -5,9 +5,9 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '15985'
+source-wordcount: '16151'
 ht-degree: 0%
 
 ---
@@ -2103,8 +2103,17 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Strategic Alignment]</td> 
    <td>Het meten en het richten van bedrijfsdoelstellingen over portefeuilles en programma's.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>Dit wordt gebruikt in rapportkolommen wanneer het gebruiken van de interface van de Wijze van de Tekst. </p>
+   <p>De <code>[!UICONTROL stretch]</code> wordt gebruikt om aan te geven welke kolommen extra ruimte innemen die niet nodig is voor de weergave. De breedte van de gebruikersinterface van de werkruimte voor een standaardgebruiker is ongeveer 850 pixels. Dit betekent dat als u een weergave hebt met vier kolommen (elk 150 pixels), uw weergave 600 van 850 pixels in beslag neemt. Er zijn 250 extra pixel in UI die aan de kolommen zullen worden toegevoegd die een rekbaarheidspercentage hebben verstrekt. </p>
+   <p>Het uitrekken van een kolom wordt afgedwongen wanneer u de extra coderegel gebruikt: <code>[!UICONTROL usewidths=true]</code> voor ten minste een van de kolommen in de weergave. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Subscribers]</td> 
    <td> <p>Gebruikers die zich abonneren op Projecten, Taken, of Kwesties.</p> <p>Wanneer u dit gebied in een rapport gebruikt, toont een lijst van abonnees, met elke abonnee die door een komma wordt gescheiden.</p> <p>Zie het artikel voor meer informatie <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonneren op objecten in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Views This Year]</td> 
    <td>In een rapportlijst, toont het het aantal tijden het rapport tijdens dit jaar is bekeken.<br>Raadpleeg het artikel voor meer informatie over het gebruik in rapportlijsten <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Rapportgebruik weergeven</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> In een rapport, wanneer het gebruiken van [!UICONTROL Text Mode] -interface, de coderegel waarin u de breedte van elke kolom kunt opgeven in pixels. Workfront biedt een aanbevolen breedte voor elk veld, maar afhankelijk van het type veld en de indeling kunt u de breedte aanpassen.
+U moet de extra <code>[!UICONTROL usewidths=true]</code> coderegel die de voor de kolom opgegeven breedte afdwingt. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>In een project, een taak, of een uitgifterapport, die de volgende verklaring op tekstwijze gebruiken toont de Geplande Uren van het project, de taak, of de kwestie:</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>Voor informatie over het gebruik van de tekstmodus raadpleegt u <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Overzicht van syntaxis in tekstmodus</a>. </p> 
    <p><b>TIP</b> 
    <p>In een uitgiftenrapport voegt u een van de opties [!UICONTROL Planned Hours] velden voegen de <code>work </code>aan het rapport. </p> </td> 
@@ -2396,7 +2416,10 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>In een project, een taak, of een uitgeven rapport, die de volgende verklaring op tekstwijze gebruikt toont het aantal Geplande Uren van het project, de taak, of de kwestie die door het woord "Uren"wordt gevolgd:</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>Voor informatie over het gebruik van de tekstmodus raadpleegt u <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Overzicht van syntaxis in tekstmodus</a>. </p> </td> 
   </tr> 
  </tbody> 

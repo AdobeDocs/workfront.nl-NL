@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de opties te configureren die gebruikers zien wanneer ze het Hoofdmenu in Workfront openen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 >
 >De belangrijkste opties van het Menu die de gebruikers zien hangen van hun vergunningstype af en welke montages in hun toegangsniveau worden gevormd. Sommige gebruikers die deze lay-outsjabloon gebruiken, zien mogelijk niet alle opties die u hier kiest. Zie voor meer informatie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) en [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
+Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Toegangsvereisten
 
@@ -60,9 +64,9 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    * Home
 
-      >[!TIP]
-      >
-      >Standaard wordt Home weergegeven als Mijn updates voor gebruikers die een revisie-licentie hebben, tenzij ze een lay-outsjabloon hebben die is gekoppeld aan hun profiel dat het gebied Mijn updates bevat in het hoofdmenu.
+     >[!TIP]
+     >
+     >Standaard wordt Home weergegeven als Mijn updates voor gebruikers die een revisie-licentie hebben, tenzij ze een lay-outsjabloon hebben die is gekoppeld aan hun profiel dat het gebied Mijn updates bevat in het hoofdmenu.
 
    * Portfolio
    * Programma&#39;s
@@ -73,16 +77,16 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    * Bronnen
    * Scenarios
 
-      >[!NOTE]
-      >
-      >De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >[!NOTE]
+     >
+     >De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Gebruikers
 
-      >[!NOTE]
-      >
-      >Alleen gebruikers met een abonnement kunnen gebruikers zien ![](assets/users-icon-in-main-menu.png) in het hoofdmenu.
+     >[!NOTE]
+     >
+     >Alleen gebruikers met een abonnement kunnen gebruikers zien ![](assets/users-icon-in-main-menu.png) in het hoofdmenu.
 
    * Verzoeken
    * Timesheets
@@ -92,9 +96,9 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    * Proofing
    * Doelen
 
-      >[!NOTE]
-      >
-      >Hiervoor is een aanvullende licentie vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >[!NOTE]
+     >
+     >Hiervoor is een aanvullende licentie vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mijn updates
    * Borden

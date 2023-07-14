@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Ingebouwde statuspictogrammen in weergaven
-description: Ingebouwde statuspictogrammen in weergaven
+description: U kunt het veld Ingebouwde statuspictogrammen als een kolom in uw weergaven toevoegen om de zichtbaarheid te vergroten in belangrijke punten van uw objecten.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,20 @@ U kunt het veld Ingebouwde statuspictogrammen als een kolom in uw weergaven toev
 * Een taak bevindt zich op een kritiek pad
 * Een gebruiker behoort tot een bedrijf, een team, of is gevestigd in een verschillende tijdzone
 
-De meeste indicatoren in het veld Statuspictogrammen zijn snelle koppelingen naar het werkelijke object of gebied van het object dat ze vertegenwoordigen.
+Overweeg het volgende:
 
-Als een of meer items die door de pictogrammen worden vertegenwoordigd, ontbreken in het object, wordt het pictogram dat het ontbrekende item vertegenwoordigt, weergegeven als een omtrek in de kolom Statuspictogrammen in plaats van als een volledige afbeelding.\
-![task_status_icons.png](assets/task-status-icons.png)\
-Zie voor meer informatie de [Overzicht van statuspictogrammen en vlaggen](#overview-of-status-icons-and-flags) in dit artikel.\
-In sommige weergaven wordt **Statuspictogrammen** field heet **Vlaggen** of **Pictogrammen weergeven**.\
-U kunt de vormgeving van de pictogrammen in het veld Statuspictogrammen niet aanpassen.
+* De meeste indicatoren in het veld Statuspictogrammen zijn snelle koppelingen naar het werkelijke object of gebied van het object dat ze vertegenwoordigen.
+
+* Als een van de items die door de pictogrammen worden vertegenwoordigd, niet aanwezig is in het object, wordt het pictogram dat het ontbrekende item vertegenwoordigt, grijs weergegeven in de kolom Statuspictogrammen in plaats van in een gekleurde afbeelding.
+
+  ![task_status_icons.png](assets/task-status-icons.png)
+
+  Zie voor meer informatie de [Overzicht van statuspictogrammen en vlaggen](#overview-of-status-icons-and-flags) in dit artikel.
+
+* In sommige weergaven wordt **Statuspictogrammen** field heet **Vlaggen** of **Pictogrammen weergeven**.\
+  U kunt de vormgeving van de pictogrammen in het veld Statuspictogrammen niet aanpassen.
+
+* U kunt het aantal pictogrammen niet bewerken in het veld Statuspictogrammen.
 
 ## Toegangsvereisten
 
@@ -87,8 +94,8 @@ Het veld Statuspictogrammen toevoegen aan een aangepaste weergave die u vanaf nu
    * Uitgaven
    * Documenten
    * Gebruikers\
-      Alleen deze objecten hebben de **Statuspictogrammen** beschikbaar.\
-      Voor informatie over objectlijsten raadpleegt u [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     Alleen deze objecten hebben de **Statuspictogrammen** beschikbaar.\
+     Voor informatie over objectlijsten raadpleegt u [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Van de **Weergave** vervolgkeuzelijst, selecteert u **Nieuwe weergave**.
 

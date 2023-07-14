@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Als beheerder van Adobe Workfront, kunt u een lay-outmalplaatje toewijzen u aan om het even welke gebruiker, baanrol, team, of groep hebt gecreeerd die het moet gebruiken.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -90,15 +90,15 @@ Er is echter maar één lay-outsjabloon zichtbaar voor de gebruiker op een bepaa
 * **Individuele gebruiker**: De lay-outmalplaatje dat aan de persoon als individuele gebruiker wordt toegewezen treedt alle anderen met voeten. U kunt een vorige toewijzing die tot een individuele gebruiker is gemaakt, overschrijven door een nieuwe toewijzing te maken; de meest recente heeft voorrang .
 * **Primaire functie**: Als de persoon geen lay-outmalplaatje als één enkele gebruiker wordt toegewezen, zien zij het malplaatje dat voor hun primaire baanrol wordt toegewezen.
 
-   Alleen de lay-outsjabloon die aan de primaire taakrol van een gebruiker is toegewezen, is zichtbaar voor de gebruiker. De malplaatjes die aan om het even welke secundaire baanrollen worden toegewezen die door de gebruiker worden gehouden zijn niet zichtbaar.
+  Alleen de lay-outsjabloon die aan de primaire taakrol van een gebruiker is toegewezen, is zichtbaar voor de gebruiker. De malplaatjes die aan om het even welke secundaire baanrollen worden toegewezen die door de gebruiker worden gehouden zijn niet zichtbaar.
 
 * **Thuisteam**: Als de persoon geen lay-outmalplaatje als individuele gebruiker, noch als gebruiker met een primaire baanrol wordt toegewezen, zien zij het malplaatje dat aan hun team van het Huis wordt toegewezen.
 
-   Alleen de sjabloon die is toegewezen aan het Home-team van een gebruiker is zichtbaar voor de gebruiker. De malplaatjes die aan andere teams worden toegewezen waar een gebruiker een lid is zijn niet zichtbaar.
+  Alleen de sjabloon die is toegewezen aan het Home-team van een gebruiker is zichtbaar voor de gebruiker. De malplaatjes die aan andere teams worden toegewezen waar een gebruiker een lid is zijn niet zichtbaar.
 
 * **Thuisgroep**: Als de persoon geen lay-outmalplaatje als individuele gebruiker, noch als gebruiker met een primaire baanrol, noch als lid van een team van het Huis wordt toegewezen, zien zij het malplaatje dat aan hun groep van het Huis wordt toegewezen.
 
-   Alleen de sjabloon die is toegewezen aan de groep Home van een gebruiker is zichtbaar voor de gebruiker. Sjablonen die aan een van de andere groepen zijn toegewezen, zijn niet zichtbaar.
+  Alleen de sjabloon die is toegewezen aan de groep Home van een gebruiker is zichtbaar voor de gebruiker. Sjablonen die aan een van de andere groepen zijn toegewezen, zijn niet zichtbaar.
 
 ## Grote aantallen gebruikers die zijn toegewezen aan een lay-outsjabloon
 

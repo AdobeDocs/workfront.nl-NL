@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om de labels van bepaalde objecten die in Workfront worden weergegeven, aan te passen aan de termen die in uw organisatie worden gebruikt.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,11 @@ Nadat u een lay-outsjabloon hebt opgeslagen waarin u de terminologie hebt gewijz
 >* Er kunnen grammatica en andere problemen optreden wanneer u labels aanpast. Als u bijvoorbeeld &quot;Issue&quot; wijzigt in &quot;Request&quot;, kunnen er plaatsen in de gebruikersinterface zijn waar de uitdrukking &quot;An request&quot; wordt weergegeven. Zie voor meer informatie [Implicaties van het aanpassen van objectnamen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) in het artikel [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
+Voor meer informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Toegangsvereisten
 
@@ -72,15 +75,15 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    * Klik op de pijl-omlaag als u een andere term van Workfront wilt gebruiken  ![](assets/dropdown-arrow.png) naast het label klikt u op het gewenste alternatieve label in de vervolgkeuzelijst.
 
-      >[!NOTE]
-      >
-      >Alternatieve labels in de vervolgkeuzelijsten worden ondersteund in versies van Workfront die zijn gelokaliseerd voor niet-Engelse talen.
+     >[!NOTE]
+     >
+     >Alternatieve labels in de vervolgkeuzelijsten worden ondersteund in versies van Workfront die zijn gelokaliseerd voor niet-Engelse talen.
 
    * Als u uw eigen aangepaste alternatief wilt opgeven voor het label dat voor een object wordt weergegeven, klikt u op **Aangepaste naam instellen** rechts van het label typt u vervolgens het **Enkelvoudig** en **meervoudig** vormen van de aangepaste term. U kunt op **Herstellen** als je van gedachten verandert.
 
-      U kunt de volgende objectnamen aanpassen:
+     U kunt de volgende objectnamen aanpassen:
 
-      <table style="table-layout:auto">
+     <table style="table-layout:auto">
       <col>
       <col>
       <col>

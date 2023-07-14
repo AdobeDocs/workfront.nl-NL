@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Taken bewerken
-description: Taken bewerken
+description: U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtigingen voor Contribute of Beheren hebt.
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 9c7af82b02649f33728d05126587fb5035e9e110
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '3627'
+source-wordcount: '3663'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Houd rekening met het volgende wanneer u taken bewerkt:
 * Het bijwerken van taken brengt berichten voor projecten teweeg die een Huidige status zijn. Om verwarring voor gebruikers te vermijden die aan de taken worden toegewezen, beperk het uitgeven taken zoveel mogelijk wanneer het project in de Huidige status is.
 * U kunt taken in een goedkeuringsproces niet bewerken. U kunt de Status voor een taak slechts registreren of bijwerken in een goedkeuringsproces.
 
-   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * U kunt documenten aan taken op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het instellen van projectvoorkeuren raadpleegt u [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -102,7 +102,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 1. Klikken **Projecten** klikt u vervolgens op de naam van een project om het te openen.
 1. Klikken **Taken** in het linkerdeelvenster.
 1. Klik op de taak die u wilt bewerken.
-1. (Optioneel) Als u de beperkte informatie over een taak wilt bewerken, klikt u op **Taakdetails** in het linkerdeelvenster.
+1. (Voorwaardelijk) Als u beperkte informatie over een taak wilt bewerken, als een gebruiker met Contribute-machtigingen voor de taak, klikt u op **Taakdetails** in het linkerdeelvenster.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -110,20 +110,19 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    * **Overzicht**
 
-      Dit gebied wordt standaard uitgevouwen.
+     Dit gebied wordt standaard uitgevouwen.
 
    * **Aangepaste Forms**
 
-      De namen van douaneformulieren worden alleen weergegeven als er aangepaste formulieren aan het object zijn gekoppeld.
+     De namen van douaneformulieren worden alleen weergegeven als er aangepaste formulieren aan het object zijn gekoppeld.
 
    * **Financiën**
+
    >[!NOTE]
    >
    >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Voor informatie over de gebieden zichtbaar in de sectie van de Details van de Taak,
-
-   U kunt de taak verder bewerken in het vak Taak bewerken, zoals hieronder wordt beschreven.
+   Voor informatie over de gebieden zichtbaar in de sectie van de Details van de Taak, ga verder met het uitgeven van de taak in het Edit de vakje van de Taak zoals hieronder beschreven.
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
@@ -133,6 +132,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
       * [Taakgegevens beheren in het gebied Overzicht van taakdetails](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Taakfinanciën beheren in de sectie Taakdetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+
    1. (Optioneel) Als er geen aangepaste formulieren aan de taak zijn gekoppeld, typt u de naam van een formulier in het dialoogvenster **Aangepast formulier toevoegen** , selecteert u het veld wanneer het wordt weergegeven in de lijst en klikt u vervolgens op **Wijzigingen opslaan**.
    1. (Optioneel) Klik op de knop **Exporteren** pictogram ![](assets/export.png) als u het overzicht en de aangepaste formuliergegevens wilt exporteren naar een PDF-bestand, klikt u op **Exporteren**. Selecteer een van de volgende opties:
 
@@ -146,10 +146,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
       Zie voor meer informatie [Aangepaste formulieren en objectdetails exporteren](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-
-
-
-1. Als u alle informatie over de taak wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-icon.png) naast de naam van de taak klikt u op **Bewerken**.
+1. (Voorwaardelijk) Als u alle informatie over de taak wilt bewerken, als een gebruiker met de machtiging Beheren voor de taak, klikt u op de knop **Meer** menu ![](assets/more-icon.png) naast de naam van de taak klikt u op **Bewerken**.
 
    of
 
@@ -334,7 +331,6 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    >
    >* Wijs het werkitem opnieuw toe aan actieve bronnen.
    >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
-
 
 1. (Optioneel) Geef aan of een verkrijger de primaire ontvanger van de taak is door de **Eigenaar** keuzerondje naast hun naam. Een team kan niet de primaire ontvanger van een taak zijn.
 1. (Voorwaardelijk en optioneel) Werk de volgende velden bij:
@@ -609,9 +605,9 @@ De volgende gebieden zijn inbegrepen in de projectheader, door gebrek:
 * Toewijzingen
 * Geplande voltooiing Datum en tijd
 
-   >[!CAUTION]
-   >
-   >Sommige Restricties van de Taak en andere gebiedsdelen zouden u kunnen verhinderen dit gebied uit te geven. Voor informatie over de Beperkingen van de Taak, zie [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >[!CAUTION]
+  >
+  >Sommige Restricties van de Taak en andere gebiedsdelen zouden u kunnen verhinderen dit gebied uit te geven. Voor informatie over de Beperkingen van de Taak, zie [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Goedkeuringsbeslissingen nemen als u in een huidig goedkeuringsproces als fiatteur bent ingesteld

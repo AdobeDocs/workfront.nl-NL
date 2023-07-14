@@ -7,9 +7,9 @@ description: U kunt de breedte van kolommen tijdelijk aanpassen door de marges t
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 >[!IMPORTANT]
 >
 >Als u de breedte van een kolom handmatig wijzigt zoals wordt beschreven in de sectie &quot;De breedte en volgorde van kolommen tijdelijk wijzigen&quot; in het artikel [Kolombreedte en -volgorde wijzigen](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) Nadat u de breedte van de kolom permanent hebt gewijzigd, blijft de breedte van de kolom behouden op basis van het handmatig wijzigen van de grootte en wordt de breedte van de kolom die wordt bijgewerkt volgens de volgende stappen, overschreven. U kunt de kolom weergeven op basis van de breedte die in de volgende stappen is gedefinieerd nadat u de cache hebt gewist of zich hebt aangemeld vanuit een andere browser.
+>
+>Zie de definities &quot;breedte&quot; en &quot;uitrekken&quot; in het gedeelte [Woordenlijst met Adobe Workfront-terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Ga naar een lijst met objecten.
 1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
@@ -79,3 +81,5 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    Voor de **width** Geef een willekeurig aantal (in pixels) op dat aangeeft in welke mate de kolom moet worden weergegeven in de weergave.
 
 1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
+
+

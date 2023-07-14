@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: U kunt een Malplaatje van de Lay-out gebruiken om te vormen wat de gebruikers zien wanneer zij een taak of een kwestie in Huis en in de Samenvatting klikken. Elke configuratie die u uitvoert met de onderstaande stappen, heeft op dezelfde manier invloed op het gebied Home en het deelvenster Samenvatting. Deze aanpassingen zijn niet van toepassing op het deelvenster Documentoverzicht.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,11 @@ U kunt de gebieden ook aanpassen die de gebruikers in het gebied van het Huis zi
 
 Voor informatie over het gebied Home raadpleegt u [Het gebied Home gebruiken](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Voor informatie over het deelvenster Samenvatting raadpleegt u [Overzicht van samenvattingen](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
+Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Toegangsvereisten
 

@@ -6,9 +6,9 @@ description: De Onderwerpen van de rij werken samen met het Verpletteren van Reg
 author: Alina
 feature: Work Management
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ U moet het volgende hebben:
       <td>Selecteer de aangepaste formulieren die u aan het onderwerp van de wachtrij wilt koppelen. U moet aangepaste formulieren maken voor problemen voordat u deze kunt koppelen aan onderwerpen in de wachtrij. Voor informatie over het maken van aangepaste formulieren raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Standaardgoedkeuring</td> 
+      <td role="rowheader"><strong>Standaardgoedkeuring</strong></td> 
       <td> <p>Koppel een goedkeuringsproces aan dit rijonderwerp. In dit keuzemenu worden alleen processen voor goedkeuring van uitgaven weergegeven. Alle problemen die naar deze wachtrij worden verzonden, worden gekoppeld aan dit goedkeuringsproces. Uw beheerder van Adobe Workfront moet de processen van de Goedkeuring op systeemniveau bepalen alvorens u hen met rijonderwerpen kunt associëren. <span>Een gebruiker met administratieve toegang tot goedkeuringsprocessen kan ook groepsspecifieke goedkeuringsprocessen maken.</span> Ga voor meer informatie over het maken van goedkeuringsprocessen naar <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Een goedkeuringsproces voor werkitems maken</a>.<br></p> 
        <div> 
         <p>Belangrijk: Als de groep van het project verandert, wordt het groep-specifieke goedkeuringsproces verbonden aan bestaande kwesties een enig-gebruiks goedkeuringsproces. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>.</p> 
@@ -136,7 +136,7 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standaardroute</strong> </td> 
-      <td>Specificeer de verpletterende regel u met het Onderwerp van de Rij wilt associëren. U moet de verpletterende regel tot stand brengen alvorens u het aan een Onderwerp van de Rij kunt vastmaken.</td> 
+      <td>Specificeer de verpletterende regel u met het Onderwerp van de Rij wilt associëren. U moet de verpletterende regel tot stand brengen alvorens u het aan een Onderwerp van de Rij kunt vastmaken. Zie voor meer informatie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Verpletterende regels maken</a> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aanvraagtypen</strong> </td> 

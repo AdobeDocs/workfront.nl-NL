@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In een lay-outsjabloon kunt u de pagina's vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Dit kunnen pagina's zijn die via het hoofdmenu of dashboards worden benaderd.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Voor meer informatie over het vastzetten van pagina&#39;s raadpleegt u [Pagina&#
 Voor meer informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Toegangsvereisten
 
@@ -60,9 +62,9 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    * Klik op een hoofdmenu-item.
 
-      >[!IMPORTANT]
-      >
-      >Voor het weergeven van de gebieden Scenario&#39;s en Doelen zijn aanvullende licenties vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md) Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >[!IMPORTANT]
+     >
+     >Voor het weergeven van de gebieden Scenario&#39;s en Doelen zijn aanvullende licenties vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md) Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
    * Klikken **Een dashboard toevoegen** typt u vervolgens een beschrijving **Titel van aangepaste sectie** en voeg het dashboard toe.
 

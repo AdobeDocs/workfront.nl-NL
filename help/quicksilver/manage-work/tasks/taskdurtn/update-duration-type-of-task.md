@@ -6,9 +6,9 @@ description: Het Type van Duur van een taak identificeert het verband tussen het
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,14 @@ U moet het volgende hebben om het Type van Duur van een taak te veranderen:
 
 ## Werk het Type van Duur van een taak bij
 
-Naast het bijwerken van het Type van Duur van een taak zoals die in dit artikel wordt beschreven, kunt u het Type van Duur ook bijwerken wanneer het uitgeven van een taak of wanneer het maken van geavanceerde taken. Zie voor meer informatie:
+Naast het bijwerken van het Type van Duur van een taak zoals die in dit artikel wordt beschreven, kunt u het Type van Duur ook bijwerken wanneer het uitgeven van een taak of wanneer het maken van geavanceerde taken. Zie voor meer informatie:
 
 * [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 U kunt als volgt het type duur van een taak bijwerken:
 
-1. Klikken **Hoofdmenu** > **Projecten** klikt u vervolgens op een project om het te openen.
+1. Klikken **Hoofdmenu** > **Projecten** klikt u vervolgens op een project om het te openen.
 1. Klik op de knop **Taken** in het linkerdeelvenster.
 1. Klikken **Taakdetails** in het linkerpaneel, dan in het gebied van het Overzicht klikt **Duur**.
 
@@ -63,14 +63,11 @@ U kunt als volgt het type duur van een taak bijwerken:
 
 1. Selecteer een van de volgende opties
 
-   | Berekend werk | Zie voor meer informatie [Overzicht van het type duur: Berekend werk](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Duur | Meer informatie |
    |---|---|
+   | Berekend werk | Zie voor meer informatie [Overzicht van het type duur: Berekend werk](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
    | Inzet gedreven | Zie voor meer informatie [Overzicht van het type duur: Inzet gedreven](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
    | Berekende toewijzing | Zie voor meer informatie [Overzicht van het type duur: Berekende toewijzing](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Eenvoudig | Zie voor meer informatie [Overzicht van het type duur: Eenvoudig](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-   {style=&quot;table-layout:auto&quot;}
-
-1. Klikken **Opslaan** **Wijzigingen**.
-
- 
+1. Klikken **Wijzigingen opslaan**.

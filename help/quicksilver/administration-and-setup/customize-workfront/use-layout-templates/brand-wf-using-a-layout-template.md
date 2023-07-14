@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Als beheerder van Adobe Workfront of een groepsbeheerder, kunt u een lay-outmalplaatje gebruiken om de logo's op het hoogste navigatiegebied en op het Belangrijkste Menu voor bepaalde groepen, teams, baanrollen, en gebruikers aan te passen. Dit is vooral handig voor groepen in een grote organisatie die hun eigen merk hebben.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -33,7 +33,6 @@ Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjabl
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
-
 
 ## Toegangsvereisten
 
