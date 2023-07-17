@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -22,3 +22,8 @@ Als Adobe Workfront-beheerder kunt u de gebeurtenismeldingen, herinneringsmeldin
 * Voor informatie over het configureren van gebeurtenismeldingen raadpleegt u [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * Voor informatie over het configureren van herinneringsmeldingen raadpleegt u [Herinneringsmeldingen instellen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 * Voor informatie over het configureren van e-mailsjablonen raadpleegt u [E-mailsjablonen configureren](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+
+Deze koppelingen gaan naar het gedeelte met Help-artikelen voor Adobe Workfront-berichten voor gebruikers.
+
+* Voor algemene informatie over meldingen raadpleegt u [Adobe Workfront-berichten](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md)
+* Voor informatie over het instellen van uw eigen meldingen in uw profiel raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)

@@ -9,9 +9,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Als u een Adobe Workfront-beheerder bent of als u een Planner-toegangsniveau heb
 
 Wanneer u berichtmontages in massa vormt, kunt u slechts de montages veranderen die de geselecteerde gebruikers in gemeenschappelijk hebben.
 
-U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren. Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren, inclusief uw eigen profiel. Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Toegangsvereisten
 

@@ -6,9 +6,9 @@ description: Adobe Workfront verzendt e-mailmeldingen, meldingen in de app en me
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 ## E-mailmeldingen
 
 [!DNL Workfront] stuurt een aantal e-mailmeldingen om gebruikers te waarschuwen voor activiteiten in Workfront en om nuttige informatie en koppelingen te verschaffen.
+
+Als u de voorkeuren voor e-mailberichten wilt wijzigen, raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -68,7 +70,7 @@ Bij het ontvangen van dagelijkse samenvattingsmeldingen moet u rekening houden m
 
 * Meldingen in een e-mailbericht met een dagelijkse samenvatting worden op verschillende criteria gegroepeerd. Bijvoorbeeld in het geval van **[!UICONTROL Information about Projects I Own]**, worden de gebeurtenissen gegroepeerd op de projectnaam.
 
-   Voor de **[!UICONTROL Communication]** categorie, worden de meldingen gegroepeerd door het object waar de communicatie heeft plaatsgevonden.
+  Voor de **[!UICONTROL Communication]** categorie, worden de meldingen gegroepeerd door het object waar de communicatie heeft plaatsgevonden.
 
 * De dagelijkse samenvatting in de e-mail bevat gebeurtenissen die zijn opgetreden voor de acties op één bepaald gebied (zoals **Informatie over eigen projecten**) binnen 24 uur vóór de gekozen leveringstermijn.
 * De tijdzone voor de tijd die voor dagelijkse samenvattingslevering wordt geselecteerd past uw timezone aan, aangezien het op uw browser wordt gevormd.

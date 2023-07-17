@@ -6,7 +6,7 @@ description: Toegang [!DNL Workfront] via Adobe Experience Cloud beschikt u over
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: b6008546089a420e5bb487d2035b8d87782905c1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -99,6 +99,6 @@ Als uw organisatie een afzonderlijke toepassing gebruikt om wachtwoorden te behe
 
 Als uw wachtwoord wordt beheerd door [!DNL Adobe]kunt u het wachtwoord in uw Adobe-account wijzigen.
 
-[Zie dit artikel voor het wijzigen van het wachtwoord voor Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
+[Zie dit artikel voor het wijzigen van het wachtwoord voor Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.

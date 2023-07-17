@@ -7,7 +7,7 @@ description: Overzicht van het berekenen van uren en FTE voor gebruikers en roll
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 0%
@@ -28,11 +28,11 @@ Voor meer informatie over het berekenen van Kosten in de Planner van het Middel,
 De volgende reeksen van middelinformatie worden berekend verschillend in de Planner van het Middel:
 
 * De waarden voor Beschikbare uren of FTE worden berekend op basis van de manier waarop de systeembeheerder de voorkeuren voor Bronbeheer in uw systeem configureert.\
-   Voor meer informatie over hoe de Beschikbare Uren en FTE waarden worden berekend, zie [Beschikbare uren of FTE voor gebruikers en baanrollen in de Planner van het Middel berekenen](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-   Voor meer informatie over het bepalen van de voorkeur van het Beheer van Middelen voor het systeem van Adobe Workfront, zie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Voor meer informatie over hoe de Beschikbare Uren en FTE waarden worden berekend, zie [Beschikbare uren of FTE voor gebruikers en baanrollen in de Planner van het Middel berekenen](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  Voor meer informatie over het bepalen van de voorkeur van het Beheer van Middelen voor het systeem van Adobe Workfront, zie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * Alle andere FTE-waarden worden berekend op basis van het standaardschema van het systeem.\
-   Voor meer informatie over hoe alle andere waarden in de Planner van het Middel wanneer het gebruiken van FTE tonen, zie de sectie [Bereken alle andere uren en FTE waarden voor gebruikers en baanrollen in de Planner van het Middel](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) in dit artikel.
+  Voor meer informatie over hoe alle andere waarden in de Planner van het Middel wanneer het gebruiken van FTE tonen, zie de sectie [Bereken alle andere uren en FTE waarden voor gebruikers en baanrollen in de Planner van het Middel](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) in dit artikel.
 
 Het is belangrijk om te begrijpen wat FTE voor elk van uw gebruikers en hun baanrollen is om uw middelen nauwkeurig te beheren aangezien u hen aan het werk toewijst.
 
@@ -100,7 +100,7 @@ In dit voorbeeld gebruiken we de volgende getallen:
 
 * Een standaardschema voor het systeem van 40 uur
 * Een gebruikersschema van 20 uur
-* Een FTE van de gebruiker van 0.75.
+* Een FTE van 0,75 voor gebruikers
 
 | Methode voor FTE-berekening (systeeminstelling) | **Uren van planning van gebruiker** | **Uren van het standaardschema** | **FTE-veld gebruiker** | **Beschikbare uren in de bronnenplanner** | **Beschikbare VTE in de Planner van het Middel** |
 |---|---|---|---|---|---|
@@ -117,18 +117,16 @@ Naast Beschikbare Uren of FTE, wordt de volgende tijdinformatie ook getoond in d
 * Geforceerde uren
 * Uurvariatie
 * Nettouren\
-   Zie voor meer informatie over deze waarden [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+  Zie voor meer informatie over deze waarden [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 * Uurverschil\
-   Zie voor meer informatie over wat deze waarde vertegenwoordigt [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+  Zie voor meer informatie over wat deze waarde vertegenwoordigt [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 U kunt de zelfde informatie in de Planner van het Middel zoals VTE of als uren tonen.
 
 Workfront gebruikt de volgende formule om alle andere waarden als FTE in de Planner van het Middel te tonen:
 
-```
-FTE = Resource Planner Hours/ Default Schedule Hours
-```
+`FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >
