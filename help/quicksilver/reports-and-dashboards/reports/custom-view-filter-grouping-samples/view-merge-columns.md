@@ -7,9 +7,9 @@ description: U kunt de informatie die in veelvoudige afzonderlijke kolommen word
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,10 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 * U kunt twee aangrenzende kolommen samenvoegen en de informatie van elke kolom tonen die door een lijnonderbreking wordt gescheiden, of u kunt de informatie in twee aangrenzende kolommen zonder scheidingsteken tussen de informatie van elke kolom samenvoegen.
 * U kunt de informatie uit meer dan twee kolommen samenvoegen door dezelfde syntaxis toe te passen die in dit artikel wordt beschreven op een reeds gedeelde kolom en een aangrenzende kolom.
-* De
-
-   ```
-   valueformat=HTML
-   ```
-
-   regel is verplicht in een gedeelde kolom. Anders bevatten de kolommen geen informatie (ze worden leeg weergegeven) wanneer het rapport uit Adobe Workfront wordt geëxporteerd.
+* De `valueformat=HTML` regel is verplicht in een gedeelde kolom. Anders bevatten de kolommen geen informatie (ze worden leeg weergegeven) wanneer het rapport uit Adobe Workfront wordt geëxporteerd.
 * Voorwaardelijke opmaak wordt mogelijk niet ondersteund in samengevoegde kolommen.
 
-   De volgende uitzonderingen bestaan:
+  De volgende uitzonderingen bestaan:
 
    * Wanneer u informatie in Workfront weergeeft, blijft de opmaak van de eerste kolom behouden en wordt de opmaak van alle andere kolommen genegeerd als de kolommen waaruit een samengevoegde kolom bestaat, een andere opmaak hebben.
    * Bij het exporteren van de weergave naar een PDF-bestand wordt voorwaardelijke opmaak toegepast op de eerste kolom in een samengevoegde kolom.
@@ -73,80 +67,47 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 * Als u een lijst met gedeelde kolommen naar een formaat van Excel of van het Lusje Gescheiden uitvoert, worden deze kolommen gescheiden uit in het uitgevoerde dossier.
 
+* Wanneer een of beide kolommen een `tile` tekstveld, wordt automatisch een geforceerd regeleinde ingevoegd in de samengevoegde kolom. Tekstvelden met opmaak zijn bijvoorbeeld `tile` tekstvelden. In dit geval is er een regelcode van `type=tile` wanneer u de kolommen in de tekstmodus weergeeft.
+
 ## Gegevens uit twee kolommen samenvoegen zonder een regeleinde
 
 U kunt de gegevens van meerdere afzonderlijke kolommen samenvoegen en deze weergeven in één kolom zonder einden of spaties tussen de waarden van elke kolom.
 
 >[!TIP]
 >
->Deze benadering wordt aanbevolen wanneer u twee kolommen samenvoegt die nooit een waarde voor dezelfde record tegelijk kunnen weergeven. Bijvoorbeeld, in een rapport van het Punt van het Werk, kunnen de kolommen van de Naam van de Uitgave en van de Naam van de Taak zonder een lijnonderbreking tussen hen worden samengevoegd omdat een Punt van het Werk nooit een Naam van de Uitgave en een Naam van de Taak tezelfdertijd kan hebben. Een werkitem kan een probleem of een taak in Workfront zijn.
+>Deze benadering wordt aanbevolen wanneer u twee kolommen samenvoegt die nooit een waarde voor dezelfde record tegelijk kunnen weergeven. Bijvoorbeeld, in een rapport van het Punt van het Werk, kunnen de kolommen van de Naam van de Uitgave en van de Naam van de Taak zonder een lijnonderbreking tussen hen worden samengevoegd omdat een Punt van het Werk nooit een Naam van de Uitgave en een Naam van de Taak tezelfdertijd kan hebben. Een werkitem kan een probleem of een taak in Workfront zijn.
 
 Dit doet u als volgt:
 
 1. Als u de tekstmodus voor een weergave gebruikt, voegt u de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   Wanneer u de eerste twee kolommen van een lijst of rapport samenvoegt, gaat Workfront voor elke tekstregel die informatie over het object in de eerste kolom bevat, met
+   Wanneer u de eerste twee kolommen van een lijst of rapport samenvoegt, gaat Workfront voor elke tekstregel die informatie over het object in de eerste kolom bevat, met `column.0.` en de tekstregels die informatie bevatten over de tweede kolom met `column.1.` .
 
-   ```
-   column.0.
-   ```
-
-   en de tekstregels die informatie bevatten over de tweede kolom met
-
-   ```
-   column.1.
-   ```
-
-   .\
-   U moet het kolomaantal van de eerste kolom met het aantal van die kolom voorafgaan. Het tellen van de kolom begint altijd met de meest linkse kolom van de lijst of het rapport geëtiketteerd als
-
-   ```
-   column.0.
-   ```
-
-   .
+   U moet het kolomaantal van de eerste kolom met het aantal van die kolom voorafgaan. Het tellen van de kolom begint altijd met de meest linkse kolom van de lijst of het rapport geëtiketteerd als `column.0.`.
 
    Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie voor elke kolom bevatten.
 
    **Voorbeeld:** Hier volgt de code in de tekstmodus voor een samengevoegde kolom die drie aparte kolommen bevat, te beginnen met de tweede kolom van de lijst. De samengevoegde waarden zijn Projectnaam, Geplande Begindatum en de naam van de eigenaar van het project en er is geen onderbreking tussen de drie waarden:
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.2.valuefield=plannedStartDate
-   ```
+   `column.2.valuefield=plannedStartDate`
 
-   ```
-   column.2.valueformat=atDate
-   ```
+   `column.2.valueformat=atDate`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valuefield=owner:name
-   ```
+   `column.3.valuefield=owner:name`
 
-   ```
-   column.3.valueformat=HTML
-   ```
+   `column.3.valueformat=HTML`
 
-   <pre><img src="assets/shared-column-no-line-breaks-350x142.png" style="width: 350;height: 142;"></pre>
+![](assets/shared-column-no-line-breaks-350x142.png)
 
 1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
 
@@ -157,140 +118,74 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
 1. Voeg een derde kolom toe tussen de twee kolommen die u wilt samenvoegen.
 
    >[!TIP]
-   * De kolommen die u wilt samenvoegen, moeten aan elkaar grenzen.
-   * Klik op de eerste kolom die u wilt samenvoegen.
-
+   >
+   >* De kolommen die u wilt samenvoegen, moeten aan elkaar grenzen.
+   >* Klik op de eerste kolom die u wilt samenvoegen.
 
 1. Klikken **Overschakelen naar tekstmodus** en voeg de volgende code toe in de middelste kolom die u in stap 1 hebt toegevoegd:
 
-   ```
-   value=<br>
-   ```
+   `value=<br>`
 
-   ```
-   valueformat=HTML
-   ```
+   `valueformat=HTML`
 
-   ```
-   width=1
-   ```
+   `width=1`
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
+
 
 1. Voeg de volgende tekst toe aan de eerste kolom:
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   Wanneer u de eerste twee kolommen van een lijst of rapport samenvoegt, gaat Workfront voor elke tekstregel die informatie over het object in de eerste kolom bevat, met
+   Wanneer u de eerste twee kolommen van een lijst of rapport samenvoegt, gaat Workfront voor elke tekstregel die informatie over het object in de eerste kolom bevat, met `column.0.`, de kolom met de delende informatie met `column.1.`en de tekstregels die informatie bevatten over de tweede kolom met `column.2.`.
 
-   ```
-   column.0.
-   ```
-
-   , de kolom met de delende informatie met
-
-   ```
-   column.1.
-   ```
-
-   en de tekstregels die informatie bevatten over de tweede kolom met
-
-   ```
-   column.2.
-   ```
-
-   . Als de gecombineerde kolom zich in het midden van de weergave bevindt, worden de kolommen genummerd op basis van hun plaats in de weergave. Het tellen van de kolom begint altijd met de meest linkse kolom van de lijst of het rapport geëtiketteerd als
-
-   ```
-   column.0.
-   ```
-
-   .
+   Als de gecombineerde kolom zich in het midden van de weergave bevindt, worden de kolommen genummerd op basis van hun plaats in de weergave. Het tellen van de kolom begint altijd met de meest linkse kolom van de lijst of het rapport geëtiketteerd als `column.0.`.
 
    Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie bevatten.
 
    **Voorbeeld:** Hier volgt de code van de tekstmodus voor een gedeelde kolom die de projectnaam, de geplande begindatum en de naam van de eigenaar van het project met een regeleinde bevat. De gedeelde kolom is de tweede kolom van een projectweergave.
 
-   ```
-   column.1.displayname=Project_StartDate_Owner
-   ```
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.displayname=Project_StartDate_Owner`
 
-   ```
-   column.1.textmode=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.textmode=true`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.2.value=<br>
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.2.width=1
-   ```
+   `column.2.value=<br>`
 
-   ```
-   column.2.valueformat=HTML
-   ```
+   `column.2.width=1`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.valueformat=HTML`
 
-   ```
-   column.3.valuefield=plannedStartDate
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valueformat=atDate
-   ```
+   `column.3.valuefield=plannedStartDate`
 
-   ```
-   column.3.sharecol=true
-   ```
+   `column.3.valueformat=atDate`
 
-   ```
-   column.4.value=<br>
-   ```
+   `column.3.sharecol=true`
 
-   ```
-   column.4.width=1
-   ```
+   `column.4.value=<br>`
 
-   ```
-   column.4.valueformat=HTML
-   ```
+   `column.4.width=1`
 
-   ```
-   column.4.sharecol=true
-   ```
+   `column.4.valueformat=HTML`
 
-   ```
-   column.5.textmode=true
-   ```
+   `column.4.sharecol=true`
 
-   ```
-   column.5.valuefield=owner:name
-   ```
+   `column.5.textmode=true`
 
-   ```
-   column.5.valueformat=HTML
-   ```
+   `column.5.valuefield=owner:name`
 
-   <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
+   `column.5.valueformat=HTML`
+
+
+   ![](assets/shared-column-with-line-breaks-350x199.png)
+
 
 1. Klikken **Opslaan** vervolgens **Weergave opslaan**.

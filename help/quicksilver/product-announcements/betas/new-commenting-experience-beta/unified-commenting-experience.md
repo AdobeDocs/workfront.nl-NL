@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -21,6 +21,15 @@ ht-degree: 0%
 Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van geselecteerde objecten.
 
 De nieuwe ervaring met opmerkingen wordt langzaam beschikbaar voor alle objecten met een sectie Updates in Workfront en later wordt deze ervaring uitgebreid naar andere Adobe Experience Cloud-toepassingen.
+
+<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
+
+For additional resources for the new commenting experience, also see the following articles:
+
+* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
+
+-->
 
 ## Functies
 
