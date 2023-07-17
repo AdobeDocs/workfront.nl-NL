@@ -6,9 +6,9 @@ description: Uw [!DNL Adobe Workfront] bevat informatie over uzelf (bijvoorbeeld
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '2821'
+source-wordcount: '2857'
 ht-degree: 0%
 
 ---
@@ -196,8 +196,7 @@ In het volgende raster ziet u welke secties in de [!UICONTROL My Settings] het g
 
 ## Het vormen van [!UICONTROL My Settings] gebied
 
-1. {#step1-click-profile-pic}
-
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op uw gebruikersnaam naast de profielafbeelding. Of (indien beschikbaar), klik op de profielafbeelding in het bovenste navigatiegebied en klik vervolgens op **[!UICONTROL Workfront Profile]**.
 1. Klik op de knop **[!UICONTROL More]** menu ![](assets/more-icon.png)en klik vervolgens op **[!UICONTROL Edit]**.
 
 1. Afhankelijk van uw toegangsniveau, kunt u de volgende secties bijwerken:
