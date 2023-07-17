@@ -7,9 +7,9 @@ description: Adobe Workfront is niet ontworpen voor het repliceren of vervangen 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ De hulpmiddelen van het Beheer van het middel gebruiken ook uw persoonlijke tijd
 >* [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Toegangsvereisten
 
@@ -63,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Persoonlijke tijd uit configureren [!DNL Workfront]
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op uw gebruikersnaam naast de profielafbeelding.
+1. {#step1-click-profile-pic}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Time Off]**.
 1. Selecteer de gewenste datum voor uw persoonlijke tijd weg.
@@ -71,4 +70,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Laat deze optie uitgeschakeld als u minder dan een volledige dag korting gebruikt en geef de begin- en eindtijd van de tijd uit aan.
 
 1. Klik op **[!UICONTROL Save]**.\
-   De tijd uit is nu zichtbaar over de [!DNL Workfront] systeem in het plannen van hulpmiddelen zoals het Net van het Middel. Wanneer u tijdens deze periode werk hebt toegewezen, wordt knopinfo weergegeven waarin de gebruiker wordt gewaarschuwd dat de geplande tijd uit is.
+   De tijd uit is nu zichtbaar over de [!DNL Workfront] systeem in de hulpmiddelen van het middelbeheer zoals de Planner van het Middel en de Balancer van de Werklast. Wanneer u tijdens deze periode werk hebt toegewezen, wordt knopinfo weergegeven waarin de gebruiker wordt gewaarschuwd dat de geplande tijd uit is.

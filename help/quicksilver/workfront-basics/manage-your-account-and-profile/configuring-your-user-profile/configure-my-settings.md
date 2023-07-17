@@ -6,9 +6,9 @@ description: Uw [!DNL Adobe Workfront] bevat informatie over uzelf (bijvoorbeeld
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2821'
 ht-degree: 0%
 
 ---
@@ -196,7 +196,7 @@ In het volgende raster ziet u welke secties in de [!UICONTROL My Settings] het g
 
 ## Het vormen van [!UICONTROL My Settings] gebied
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op uw gebruikersnaam naast de profielafbeelding.
+1. {#step1-click-profile-pic}
 
 1. Klik op de knop **[!UICONTROL More]** menu ![](assets/more-icon.png)en klik vervolgens op **[!UICONTROL Edit]**.
 
@@ -252,7 +252,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Als uw [!DNL Workfront] de beheerder liet een integratie SSO met toe [!DNL Workfront], wordt de gebruikersnaam van de SSO in dit veld weergegeven. Het type van configuratie SSO die voor uw wordt toegelaten [!DNL Workfront] -instantie is zichtbaar in dit veld.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Als uw [!DNL Workfront] de beheerder liet een integratie SSO met toe [!DNL Workfront] en heeft gebruikers voor SSO bijgewerkt, is dit gebied door gebrek geselecteerd. Het type van configuratie SSO die voor uw wordt toegelaten [!DNL Workfront] -instantie is zichtbaar in dit veld.</p> <p>Wanneer dit veld is geselecteerd, moet u zich aanmelden [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] referenties.</p> <p>Voor meer informatie over het configureren [!DNL Workfront] met een SSO-oplossing, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single Sign-On [!DNL Adobe Workfront]</a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Gebruikers bijwerken voor eenmalige aanmelding</a>.</p> </td> 
   </tr> 
  </tbody> 

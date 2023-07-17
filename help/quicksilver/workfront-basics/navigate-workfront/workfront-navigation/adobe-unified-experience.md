@@ -6,9 +6,9 @@ description: Toegang [!DNL Workfront] via Adobe Experience Cloud beschikt u over
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,17 @@ In dit menu kunt u:
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inclusief voorkeuren voor primaire en secundaire talen.
 * Toegang tot uw **[!UICONTROL [!DNL Workfront] Profile]**. Wanneer u zich in het profiel bevindt, klikt u op de knop **[!UICONTROL More]** menu ![](assets/more-icon.png) en selecteert u **[!UICONTROL Edit]**. Zie voor meer informatie over het profiel [Mijn instellingen configureren](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** van Adobe Experience Cloud.
+
+## Uw wachtwoord beheren
+
+>[!NOTE]
+>
+>Als u uw wachtwoord wijzigt, wordt dit voor al uw [!DNL Adobe Experience Cloud] toepassingen.
+
+Uw wachtwoord wordt niet beheerd in [!DNL Workfront].
+
+Als uw organisatie een afzonderlijke toepassing gebruikt om wachtwoorden te beheren, zult u uw wachtwoord door die leverancier veranderen.
+
+Als uw wachtwoord wordt beheerd door [!DNL Adobe], kunt u [het wachtwoord in uw Adobe-account wijzigen](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+
+Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.
