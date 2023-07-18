@@ -7,7 +7,7 @@ description: Overzicht van het berekenen van uren en FTE voor gebruikers en roll
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -115,7 +115,7 @@ In dit voorbeeld gebruiken we de volgende getallen:
 
 * Een standaardschema voor het systeem van 40 uur
 * Een gebruikersschema van 20 uur
-* Een FTE van 0,75 voor gebruikers
+* Een FTE van de gebruiker van 0.8
 
 | Methode voor FTE-berekening (systeeminstelling) | **Uren van planning van gebruiker** | **Uren van het standaardschema** | **FTE-veld gebruiker** | **Beschikbare uren in de bronnenplanner** | **Beschikbare VTE in de Planner van het Middel** |
 |---|---|---|---|---|---|
