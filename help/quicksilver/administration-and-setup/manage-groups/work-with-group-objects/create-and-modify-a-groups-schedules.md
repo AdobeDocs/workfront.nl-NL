@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Voor algemene informatie over het creëren van en het uitgeven van een programma
 >[!NOTE]
 >
 >Beheerders en gebruikers met een licentie voor abonnementen die andere gebruikers kunnen bewerken, kunnen een schema op systeemniveau of op groepsniveau aan een andere gebruiker toevoegen wanneer deze het profiel van die gebruiker bewerkt.
+
+Voor informatie over hoe de programma&#39;s in middelplanning worden gebruikt, zie [Overzicht van schema&#39;s](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [Overzicht van de bronnenplanner](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Toegangsvereisten
 

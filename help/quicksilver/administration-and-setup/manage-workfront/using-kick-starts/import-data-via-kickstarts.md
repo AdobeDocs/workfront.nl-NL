@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4912349cbbc74a6f7587312e83297169ecd52f51
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2421'
 ht-degree: 0%
 
 ---
@@ -298,6 +298,7 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 >  Als een vereist veld echter een standaardwaarde bevat die is ingesteld in de systeemvoorkeuren, hoeft u deze waarde niet in te vullen.
 >
 >  Bijvoorbeeld op **PROJ Project** de **setCondition** en **setConditionType** velden kunnen leeg blijven, maar de **setGroupID** en **setName** kolommen kunnen niet.
+>
 
 ### Een record importeren  {#import-a-record}
 
@@ -314,12 +315,12 @@ Elke rij van het blad komt overeen met een uniek object.
 
    * Als het object dat u importeert al in het Workfront-systeem bestaat (en u typt **FALSE** in de **isNew** kolom), moet identiteitskaart de alpha-numerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
 
-      **Voorbeeld:** Voor een project, de waarde die in wordt getoond **setGroupID** kolom moet een van de volgende vermeldingen bevatten:
+     **Voorbeeld:** Voor een project, de waarde die in wordt getoond **setGroupID** kolom moet een van de volgende vermeldingen bevatten:
 
       * GUID voor een bestaande Groep in uw instantie van Workfront
       * De waarde (getal) in de kolom Id in het dialoogvenster **GROEP** blad als u tijdens het importeren een nieuwe groep maakt
 
-         ![](assets/verysimplekickstartprojectimport-350x31.png)
+        ![Voorbeeld-id voor een groep](assets/kick-start-group-example.png)
 
 1. Voer waarden in voor de vereiste velden en alle andere velden die u tijdens het importeren wilt vullen.
 1. (Optioneel) Aangepaste gegevens toevoegen:
@@ -329,7 +330,7 @@ Elke rij van het blad komt overeen met een uniek object.
    * In de kolom **setCategorieID**, typ GUID van de bestaande douanevorm waarop dit douaneveld verblijft. Dit veld is vereist bij het importeren van aangepaste gegevens.
    * Als u meerdere gegevenswaarden in het aangepaste veld wilt toevoegen (zoals keuzerondjes, selectievakjes of lijsten), gebruikt u het verticale scheidingsteken voor aangepaste staafgegevens &#39;|&#39; in het tabblad Voorkeuren om de waarden van elkaar te scheiden.
 
-      **Voorbeeld:** Typ A|D onder de kolom DE:Departementen om afdeling A en afdeling D in uw douaneformulier te bevolken.
+     **Voorbeeld:** Typ A|D onder de kolom DE:Departementen om afdeling A en afdeling D in uw douaneformulier te bevolken.
 
 ### Datums opnemen  {#include-dates}
 
@@ -393,33 +394,33 @@ Hoewel het aan te raden is om waar mogelijk id&#39;s te gebruiken, is het soms l
 
 * **(importeren van project)**
 
-   Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten **GROEP** blad, nota nemend van de respectieve Groep IDs, en het kleven van hen in de correcte cellen (**setGroupID** kolom) op de **PROJ Project** blad.
+  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten **GROEP** blad, nota nemend van de respectieve Groep IDs, en het kleven van hen in de correcte cellen (**setGroupID** kolom) op de **PROJ Project** blad.
 
-   Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
+  Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
 
-   Om de Vervanging van de Naam van Attributen voor het hierboven beschreven voorbeeld te doen, verandert u **setGroupID** kolomkop naar **#setGroupID GROUP***name**. U kunt dan de groep van elk project door naam van verwijzingen voorzien.
+  Om de Vervanging van de Naam van Attributen voor het hierboven beschreven voorbeeld te doen, verandert u **setGroupID** kolomkop naar **#setGroupID GROUP***name**. U kunt dan de groep van elk project door naam van verwijzingen voorzien.
 
-   >[!NOTE]
-   >
-   >De optie om Vervanging van de Naam van Attributen te gebruiken is beperkt tot verwijzingen voor bestaande slechts verslagen. U kunt naamvervanging niet gebruiken voor objecten die u in dezelfde importbewerking maakt.
+  >[!NOTE]
+  >
+  >De optie om Vervanging van de Naam van Attributen te gebruiken is beperkt tot verwijzingen voor bestaande slechts verslagen. U kunt naamvervanging niet gebruiken voor objecten die u in dezelfde importbewerking maakt.
 
 * **(importeren door gebruiker)**
 
-   Vul bij het importeren van gebruikers de **setRoleID** uit een lijst met rollen in het **ROL** tab.
+  Vul bij het importeren van gebruikers de **setRoleID** uit een lijst met rollen in het **ROL** tab.
 
-   Sommige rol-id&#39;s zijn bedoeld voor records die al in de account staan, terwijl andere id&#39;s tijdens het importeren worden gemaakt.
+  Sommige rol-id&#39;s zijn bedoeld voor records die al in de account staan, terwijl andere id&#39;s tijdens het importeren worden gemaakt.
 
-   Voor de nieuwe gebruikersverslagen die aan bestaande rollen worden toegewezen, kunt u naamvervanging gebruiken. Voor de nieuwe gebruikersverslagen die aan onlangs ingevoerde rollen worden toegewezen, kunt u niet.
+  Voor de nieuwe gebruikersverslagen die aan bestaande rollen worden toegewezen, kunt u naamvervanging gebruiken. Voor de nieuwe gebruikersverslagen die aan onlangs ingevoerde rollen worden toegewezen, kunt u niet.
 
-   Op deze manier kunt u beide methoden gebruiken voor hetzelfde importbestand:
+  Op deze manier kunt u beide methoden gebruiken voor hetzelfde importbestand:
 
    * Voeg een kolom in het spreadsheet links van toe **setRoleID** kolom.
    * Geef de nieuwe kolom een naam **#setRoleID ROLE name**.
    * Voor roltoewijzingen aan bestaande records voert u de rolnamen in het dialoogvenster **#setRoleID ROLE name** kolom.
 
-      Voor roltoewijzingen aan nieuwe rolverslagen, input identiteitskaart u op het blad van de Rol van de ROL in setRoleID toewees.
+     Voor roltoewijzingen aan nieuwe rolverslagen, input identiteitskaart u op het blad van de Rol van de ROL in setRoleID toewees.
 
-      ![](assets/setroleid-350x66.png)
+     ![Rol-id voor gebruikers](assets/set-role-id.png)
 
 ## De spreadsheetgegevens importeren in Workfront
 
@@ -431,9 +432,9 @@ Het importeren Kick-Start ondersteunt de volgende bestandstypen:
 * Oudere Excel (&#42;.xls)
 * Zipped (&#42;ZIP) xlsx- of xls-bestand
 
-   >[!NOTE]
-   >
-   >U moet een dossier van het PIT gebruiken wanneer het invoeren van de spreadsheets van Excel die rapporten van verwijzingen voorzien; documenten; avatars; of eigenschapsbestanden weergeven, filteren of groeperen. Als u een gecomprimeerd importbestand gebruikt, wordt de &#42;ZIP-bestand moet dezelfde naam hebben als het &#42;.xlsx of &#42;.xls dossier, en al inhoud moet op het zelfde niveau van de dossierstructuur (geen omslagen) zijn.
+  >[!NOTE]
+  >
+  >U moet een dossier van het PIT gebruiken wanneer het invoeren van de spreadsheets van Excel die rapporten van verwijzingen voorzien; documenten; avatars; of eigenschapsbestanden weergeven, filteren of groeperen. Als u een gecomprimeerd importbestand gebruikt, wordt de &#42;ZIP-bestand moet dezelfde naam hebben als het &#42;.xlsx of &#42;.xls dossier, en al inhoud moet op het zelfde niveau van de dossierstructuur (geen omslagen) zijn.
 
 
 De sjabloonspreadsheetgegevens importeren in Workfront:

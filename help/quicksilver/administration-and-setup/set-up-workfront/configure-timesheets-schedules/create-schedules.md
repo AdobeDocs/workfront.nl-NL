@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Raadpleeg de volgende artikelen voor informatie over het koppelen van programma&
 De beheerders van de groep kunnen ook programma&#39;s tot stand brengen die met de groepen worden geassocieerd zij leiden. Zie voor meer informatie [De schema&#39;s van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
 Voor informatie over het gebruiken van programma&#39;s om gebruikers te helpen binnen samenwerken [!DNL Workfront] over tijdzones heen, zie [Werken in tijdzones](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+
+Voor informatie over hoe de programma&#39;s in middelplanning worden gebruikt, zie [Overzicht van schema&#39;s](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [Overzicht van de bronnenplanner](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Toegangsvereisten
 
