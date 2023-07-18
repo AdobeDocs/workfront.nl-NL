@@ -3,9 +3,9 @@ title: 23.3 Verbeterde integratie
 description: 23.3 Verbeterde integratie
 author: Lisa
 feature: Product Announcements
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,17 @@ Zie voor meer informatie [Weergeven en beheren [!DNL Adobe Workfront] meldingen 
 
 Voor informatie over het installeren van de Workfront for Creative Cloud plugins raadpleegt u [De Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen installeren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## Verbeterde ervaring bij het verplaatsen van een document naar een gekoppelde map met slepen en neerzetten
+<!--
 
-Er is enige transparantie toegevoegd aan het slepen en neerzetten van een document in een gekoppelde map. Het document dat u naar een gekoppelde map hebt verplaatst, blijft nu in de documentlijst totdat het volledig is verplaatst. De documentopties zijn uitgeschakeld, maar u kunt het document nog wel openen voor weergave terwijl het wordt verplaatst. Wanneer de overdracht van het document is voltooid, verdwijnt deze uit de documentlijst omdat het document zich nu volledig in de gekoppelde map bevindt.
+## Improved experience when moving a document to a linked folder with drag and drop
 
-Voorheen zouden documenten direct uit de documentlijst verdwijnen voordat ze naar de gekoppelde map waren verplaatst.
+We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
 
-Zie voor meer informatie [Documenten van externe toepassingen koppelen](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
+
+For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## Automatisch gekoppelde mappen maken met Adobe Experience Manager Assets bij het maken van een project
 

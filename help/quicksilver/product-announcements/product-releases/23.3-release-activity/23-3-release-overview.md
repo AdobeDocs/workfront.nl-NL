@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 20aac191f6bca42610575384c398306e61f59780
+source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
 workflow-type: tm+mt
-source-wordcount: '2759'
+source-wordcount: '2657'
 ht-degree: 0%
 
 ---
@@ -418,22 +418,22 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                         </ul>
                     </td>
                 </tr>                
-                <tr>
+ <!--               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeterde ervaring bij het verplaatsen van een document naar een gekoppelde map met slepen en neerzetten</a></p> 
-                        <p>Er is enige transparantie toegevoegd aan het slepen en neerzetten van een document in een gekoppelde map. Het document dat u naar een gekoppelde map hebt verplaatst, blijft nu in de documentlijst totdat het volledig is verplaatst. De documentopties zijn uitgeschakeld, maar u kunt het document nog wel openen voor weergave terwijl het wordt verplaatst. Wanneer de overdracht van het document is voltooid, verdwijnt deze uit de documentlijst omdat het document zich nu volledig in de gekoppelde map bevindt. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
+                        <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
                     </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 7 juni 2023</p>
+                                <p>Preview release: June 7, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: 15 juni 2023</span></p>
+                                <p><span class="preview">Production release: June 15, 2023</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatisch gekoppelde mappen maken met Adobe Experience Manager Assets bij het maken van een project</a></p>
