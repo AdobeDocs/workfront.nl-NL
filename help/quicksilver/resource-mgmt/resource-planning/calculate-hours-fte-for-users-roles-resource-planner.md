@@ -7,7 +7,7 @@ description: Overzicht van het berekenen van uren en FTE voor gebruikers en roll
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -68,21 +68,22 @@ Gebaseerd op hoe dit het plaatsen wordt gevormd, wordt de beschikbaarheid van de
      Voor meer informatie over programma&#39;s, met inbegrip van het StandaardProgramma, zie [Een schema maken](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * De **Beschikbare FTE** voor de gebruiker in de Planner van het Middel is het zelfde als gebruiker FTE die in de gebruikersmontages wordt gespecificeerd.
-Bijvoorbeeld, als de gebruiker FTE 0.5 in de gebruikersmontages is, beschikbaar FTE van de gebruiker is 0.5 in de Planner van het Middel. Voor meer informatie over de waarde van de gebruiker FTE aangezien het in de gebruikersmontages toont, zie [Gebruikersprofiel bewerken](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     Bijvoorbeeld, als de gebruiker FTE 0.5 in de gebruikersmontages is, beschikbaar FTE van de gebruiker is 0.5 in de Planner van het Middel. Voor meer informatie over de waarde van de gebruiker FTE aangezien het in de gebruikersmontages toont, zie [Gebruikersprofiel bewerken](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Het schema van de gebruiker**: Het Programma van de gebruiker wordt gebruikt om de beschikbaarheid van de gebruiker in de Planner van het Middel te bepalen. De waarde van de gebruiker FTE wordt genegeerd. In dit geval:
 
    * De **Beschikbare uren** in de Planner van het Middel is het zelfde als de Uren van het Programma van de gebruiker.
 
-  Bijvoorbeeld, als het Programma van de gebruiker 40 uren per week beschikbaar voor het werk heeft, is de gebruiker beschikbaar om 40 uren per week in de Planner van het Middel te werken.
+     Bijvoorbeeld, als het Programma van de gebruiker 40 uren per week beschikbaar voor het werk heeft, is de gebruiker beschikbaar om 40 uren per week in de Planner van het Middel te werken.
 
    * De **Beschikbare FTE** in de Resource Planner wordt berekend aan de hand van de volgende formule:
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  Bijvoorbeeld, als het Programma van de gebruiker 20 uren beschikbaar heeft om te werken, en het Standaard Plan in Workfront 40 uren beschikbaar heeft om te werken, FTE van de gebruiker is 0.5.
+     Bijvoorbeeld, als het Programma van de gebruiker 20 uren beschikbaar heeft om te werken, en het Standaard Plan in Workfront 40 uren beschikbaar heeft om te werken, FTE van de gebruiker is 0.5.
 
-  Voor meer informatie over programma&#39;s, met inbegrip van het StandaardProgramma, zie [Een schema maken](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Voor meer informatie over programma&#39;s, met inbegrip van het StandaardProgramma, zie [Een schema maken](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
