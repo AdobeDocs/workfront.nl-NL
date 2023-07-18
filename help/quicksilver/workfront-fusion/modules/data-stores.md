@@ -8,9 +8,9 @@ description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoud
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensops
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Data storage size in MB]</p> </td> 
-      <td> <p>Wijs de grootte voor de gegevensopslag toe vanuit uw totale interne gegevensopslag.</p> <p>Opmerking: De gereserveerde hoeveelheid kan op elk gewenst moment worden gewijzigd.</p>  </td> 
+      <td> <p>Wijs de grootte voor de gegevensopslag toe vanuit uw totale interne gegevensopslag.</p> <p> De standaardwaarde is 10 MB. Als u minder dan 10 MB aan niet toegewezen ruimte van de Opslag van Gegevens van uw 500 MB toewijzing hebt, is de standaardgrootte de hoeveelheid niet toegewezen opslag.  <p>Opmerking: De gereserveerde hoeveelheid kan op elk gewenst moment worden gewijzigd.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
