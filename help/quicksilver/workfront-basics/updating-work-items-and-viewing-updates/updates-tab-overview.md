@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze is alleen beschikbaar voor alle klanten in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <span class="preview">projecten, taken en documenten</span>.
+> * Kwesties, projecten, taken, en documenten.
 >
 >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
 >
@@ -115,13 +115,13 @@ Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe 
      <li>Kaarten in het gebied van de kamers*</li>
       Dit is de enige ervaring voor doelen en kaarten.
      </li> 
-     <li><span class="preview">Projecten</span></li>
+     <li>Projecten</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>Problemen</li> 
-     <li><span class="preview">Taken</span></li>
-     <li><span class="preview">Documenten</span></li>
+     <li>Taken</li>
+     <li>Documenten</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ Wanneer u bijvoorbeeld een update toevoegt aan een taak, wordt de update weergeg
 
 >[!NOTE]
 >
->Wanneer u de nieuwe bètaervaring voor opmerkingen inschakelt, worden opmerkingen weergegeven op de volgende objecten met een hogere positie:
+>Wanneer u de nieuwe opmerkingervaring inschakelt, worden opmerkingen weergegeven op de volgende objecten met een hogere positie:
 >
 >* Problemen
->* <span class="preview">Projecten</span>
->* <span class="preview">Taken</span>
+>* Projecten
+>* Taken
 >
 >Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administrati
 
 Eventuele opmerkingen die namens een andere gebruiker worden gemaakt, worden in de opmerking vermeld.
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">Wanneer u de nieuwe opmerkingervaring gebruikt, wordt de opmerking toegevoegd als de gebruiker die zich heeft aangemeld als een andere gebruiker en is er geen indicatie dat deze een opmerking toevoegt namens iemand anders.
+>Wanneer u de nieuwe opmerkingervaring gebruikt, wordt de opmerking toegevoegd als de gebruiker die zich heeft aangemeld als een andere gebruiker en is er geen indicatie dat deze een opmerking toevoegt namens iemand anders.
 >
->Als een Workfront-beheerder zich bijvoorbeeld aanmeldt als een andere gebruiker, is de Workfront-beheerder de gebruiker die aan de opmerking is gekoppeld. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Als een Workfront-beheerder zich bijvoorbeeld aanmeldt als een andere gebruiker, is de Workfront-beheerder de gebruiker die aan de opmerking is gekoppeld. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 Een groepsbeheerder kan opmerkingen maken namens een andere persoon, maar kan die opmerking niet verwijderen. Alleen een Adobe Workfront-beheerder kan een opmerking verwijderen die hij namens een andere gebruiker heeft gemaakt.

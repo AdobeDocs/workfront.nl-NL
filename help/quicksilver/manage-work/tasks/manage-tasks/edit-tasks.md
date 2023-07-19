@@ -6,9 +6,9 @@ description: U kunt informatie bewerken over taken die u hebt gemaakt of waarop 
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 0%
 
 ---
@@ -356,7 +356,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duur per instantie</td> 
-      <td> <p>Dit wordt alleen weergegeven op het bovenliggende element van terugkerende taken. Het toont de duur van elke terugkomende taak. Voor informatie over het creëren van terugkomende taken, zie <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Herhalende taken maken</a>. </p> <p> <b>OPMERKING</b>
+      <td> <p>Dit wordt alleen weergegeven op het bovenliggende element van terugkerende taken. Het toont de duur van elke terugkomende taak, zoals bepaald toen de taak werd gecreeerd. Voor informatie over het creëren van terugkomende taken, zie <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Herhalende taken maken</a>. </p> <p> <b>OPMERKING</b>
 
    De duur die in individuele terugkerende taken wordt gewijzigd toont niet de waarde die op dit gebied wordt vermeld. </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    </tr> 
    <tr> 
    <td role="rowheader">Geplande uren</td> 
-   <td> <p>Geef de hoeveelheid geplande uren voor de taak op in uren. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt de hoeveelheid Geplande Uren voor een taak slechts specificeren wanneer het Type van Duur aan Berekende Toewijzing wordt geplaatst. Voor meer informatie over de soorten duur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</p> </td> 
+   <td> <p>Geef de hoeveelheid geplande uren voor de taak op in uren. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt de hoeveelheid Geplande Uren voor een taak slechts specificeren wanneer het Type van Duur aan Berekende Toewijzing wordt geplaatst. Voor meer informatie over de soorten duur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</p> 
+   <b>OPMERKING</b>
+   <p>
+   Bij het maken van terugkerende taken zijn de geplande uren die van elk exemplaar. De geplande uren van de bovenliggende taken zijn het totaal van alle geplande uren van alle voorvallen. Voor informatie over het creëren van terugkomende taken, zie <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Herhalende taken maken</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Toewijzing</td> 

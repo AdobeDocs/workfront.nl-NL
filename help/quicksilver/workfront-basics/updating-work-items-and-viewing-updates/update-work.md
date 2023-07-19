@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3471'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze is alleen beschikbaar voor alle klanten in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <span class="preview">projecten, taken en documenten</span>.
+> * Kwesties, projecten, taken, en documenten.
 >
 >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
 >
@@ -53,7 +53,7 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >   <span class="preview">In de nieuwe opmerkingervaring worden eigenaars van opmerkingen automatisch gelabeld. Zie voor meer informatie [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  >   In de nieuwe opmerkingervaring worden eigenaars van opmerkingen automatisch gelabeld. Zie voor meer informatie [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
   <!--take the "in the new commenting experience" out when this is the only experience-->
 
 * U kunt een opmerking toevoegen aan een object dat u kunt weergeven of u kunt zich aanmelden als Workfront of groepsbeheerder en namens een andere gebruiker een opmerking toevoegen. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -69,7 +69,7 @@ De informatie op deze pagina beschrijft hoe u commentaar kunt geven op Workfront
 
 Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md). U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
 
-Voor informatie over opmerkingen over kaarten in het gebied van de kamers raadpleegt u [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+Zie voor meer informatie over opmerkingen over kaarten in het gebied Boards [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Toegangsvereisten
 
@@ -174,7 +174,7 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong></td> 
-      <td>Klik op de pijl naast de huidige status en selecteer vervolgens de gewenste status in het vervolgkeuzemenu. Voor informatie over het instellen van een status raadpleegt u <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Taakstatus bijwerken</a>.<p>Het bijwerken van de status van een werkitem wijzigt niet automatisch de status van een project. Afhankelijk van hoe uw project opstelling is, zou u updates aan de projectstatus afzonderlijk kunnen moeten maken. Voor meer informatie over de diverse types van projectupdate, zie <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecteer het Type van projectupdate </a>.</p><p><b>OPMERKING</b>
+      <td>Klik op de pijl naast de huidige status en selecteer vervolgens de gewenste status in het vervolgkeuzemenu. Voor informatie over het instellen van een status raadpleegt u <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Taakstatus bijwerken</a>.<p>Het bijwerken van de status van een werkitem wijzigt niet automatisch de status van een project. Afhankelijk van hoe uw project opstelling is, zou u updates aan de projectstatus afzonderlijk kunnen maken. Voor meer informatie over de diverse types van projectupdate, zie <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecteer het Type van projectupdate </a>.</p><p><b>OPMERKING</b>
 
    U kunt de status van een tijdelijk onderdeel niet wijzigen als dit onderdeel zich in de status In afwachting van goedkeuring bevindt.</p></td>
    </tr> 
@@ -212,7 +212,7 @@ Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingerv
 De **Opmerkingen** is standaard geselecteerd.
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -325,7 +325,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >
    >* Workfront vervangt leestekens zoals :) niet door emojis.
    >* Emojis is niet beschikbaar voor updates die in het gedeelte Timesheets zijn gemaakt of voor notitie- en laatste voorwaardenobjecten die in een rapport worden weergegeven.
-   >* De functie emoji in Workfront gebruikt Unicode-tekens en wordt als zodanig alleen weergegeven in browsers en besturingssystemen die Unicode-codepunten ondersteunen. Gebruikers van een ander platform, browser of besturingssysteem dan de uwe hebben mogelijk geen toegang tot dezelfde emojis.
+   >* De functie emoji in Workfront gebruikt Unicode-tekens en wordt als zodanig alleen weergegeven in browsers en besturingssystemen die Unicode-codepunten ondersteunen. Gebruikers van een ander platform, browser of besturingssysteem hebben mogelijk geen toegang tot hetzelfde domein.
    >* Een niet-ondersteunde emoji wordt weergegeven door een zwarte of witte doos.
    >* Windows 7 biedt alleen ondersteuning voor zwart-witafbeeldingen.
    >* Mojs die worden toegepast op een update die via e-mail wordt uitgevoerd, worden niet weergegeven in de update wanneer deze wordt weergegeven in het gedeelte Updates.
@@ -462,7 +462,7 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Voorwaardelijk)Als u uw update wilt opslaan zonder het tijdblad ter goedkeuring te verzenden, klikt u op **Opslaan voor later**.
+1. (Voorwaardelijk) Als u uw update wilt opslaan zonder het tijdblad ter goedkeuring te verzenden, klikt u op **Opslaan voor later**.
 
    of
 
@@ -478,8 +478,8 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
 >[!NOTE]
 >
->Het is niet mogelijk systeemupdates uit te schakelen wanneer u de bètaopmerkingervaring gebruikt.
->De informatie in deze sectie verwijst alleen naar functionaliteit die beschikbaar is in de huidige sectie Updates.
+>Het is niet mogelijk systeemupdates uit te schakelen wanneer u de nieuwe opmerkingervaring gebruikt.
+>De informatie in deze sectie verwijst slechts naar functionaliteit beschikbaar in de huidige sectie van Updates.
 >Voor meer informatie over systeemupdates in de bètaversie raadpleegt u [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

@@ -8,9 +8,9 @@ description: Overzicht van terugkerende taken
 author: Alina
 feature: Work Management
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -43,14 +43,14 @@ Houd rekening met het volgende wanneer u terugkerende taken maakt in Workfront:
 * U kunt geen herhalingsfrequentie aan een bestaande taak toevoegen.
 * Herhalende taken worden weergegeven als subtaken of onderliggende taken voor de hoofdinstantie die als bovenliggende taak wordt weergegeven.
 * U kunt geen goedkeuring aan een ouder terugkomende taak vastmaken.
-* Workfront brengt de meeste velden die u voor de bovenliggende herhaling bijwerkt, over naar de onderliggende taken. De volgende velden worden niet overgedragen naar de onderliggende taken wanneer deze worden gemaakt:
+* Workfront brengt de meeste velden die u voor de bovenliggende herhaling bijwerkt, over naar de onderliggende taken. De volgende velden worden niet overgedragen naar de onderliggende taken wanneer deze worden gemaakt:
 
    * De beperking van de Taak van de kindtaken verandert automatisch in:
 
       * Moet bij projecten die vanaf de begindatum zijn gepland, van start gaan.
       * Moet worden voltooid op voor projecten die vanaf de voltooiingsdatum zijn gepland.
-   * Documenten die aan het bovenliggende element zijn gekoppeld, worden niet naar de onderliggende elementen overgedragen.
 
+   * Documenten die aan het bovenliggende element zijn gekoppeld, worden niet naar de onderliggende elementen overgedragen.
 
 * De volgende veranderingen komen op de oudertaak voor nadat u erop wijst dat de taak terugkomt:
 
@@ -60,6 +60,7 @@ Houd rekening met het volgende wanneer u terugkerende taken maakt in Workfront:
 
       * Eenvoudig
       * Inzet gedreven
+* De duur en de geplande uren die voor een nieuwe terugkerende taak worden vermeld zijn de Duur en de Geplande Uren van elke herhaling. De Duur van de oudertaak is de tijd tussen de Geplande Datum van het Begin van de vroegste taak en de Geplande Datum van de Voltooiing van de recentste taak. De geplande uren van de bovenliggende taak is het totaal van alle geplande uren vanaf alle herhalingen.
 
 ## Overwegingen bij het bewerken van terugkerende taken
 
@@ -89,7 +90,7 @@ In de volgende tabel wordt aangegeven of wijzigingen die zijn aangebracht in de 
 | Duur | De onderliggende items worden niet bijgewerkt |
 | Aangepaste formuliergegevens | De onderliggende items worden niet bijgewerkt |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; De volgende scenario&#39;s bestaan wanneer u de Frequentie van de Herhaling van een oudertaak bijwerkt:
 

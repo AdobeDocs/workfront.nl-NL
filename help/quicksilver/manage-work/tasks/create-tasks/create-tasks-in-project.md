@@ -6,7 +6,7 @@ description: U kunt taken in een project slechts tot stand brengen nadat u het p
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -131,10 +131,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * Financiën
       * Instellingen
 
-         Voor informatie over het definiëren van alle taakgerelateerde velden op een taak raadpleegt u [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+        Voor informatie over het definiëren van alle taakgerelateerde velden op een taak raadpleegt u [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
    1. (Voorwaardelijk en optioneel) Als u de taak wilt herhalen, werkt u de **Herhalingsfrequentie** veld. Voor meer informatie over het creëren van terugkomende taken, zie [Herhalende taken maken](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Optioneel) Klik op **Documenten** in het linkerpaneel om een document aan de nieuwe taak vast te maken, dan klik **Bestanden toevoegen of koppelen** om een document aan de taak van uw computer, een andere dienst toe te voegen, of documenten en omslagen van uw computer of een andere dienst te verbinden.
-
 
 1. (Voorwaardelijk) Als u hebt geklikt **Meer taken toevoegen** in stap 5, begin de taakinformatie in te gaan gebruikend in-lijn het uitgeven, dan druk binnengaan.
 
@@ -150,13 +150,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * Als u hebt geklikt **Nieuwe taak** in stap 5 klikt u op **Taak maken** om uw wijzigingen op te slaan en de nieuwe taak toe te voegen aan uw project.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
    * Als u hebt geklikt **Meer taken toevoegen** Voer in stap 5 de volgende handelingen uit:
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 

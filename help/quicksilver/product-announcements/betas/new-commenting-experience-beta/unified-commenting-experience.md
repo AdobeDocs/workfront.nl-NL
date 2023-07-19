@@ -7,16 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
 # Nieuwe ervaring met opmerkingen
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze is alleen beschikbaar voor alle klanten in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van geselecteerde objecten.
 
@@ -74,9 +74,9 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 >
 >U kunt opmerkingen en systeemupdates over deze objecten vóór juni 2022 bekijken wanneer u de sectie Updates in de huidige ervaring bekijkt:
 >* Problemen
->* <span class="preview">Projecten</span>
->* <span class="preview">Taken</span>
->* <span class="preview">Documenten</span>
+>* Projecten
+>* Taken
+>* Documenten
 
 In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de nieuwe opmerkingervaring en de beschikbaarheid ervan op gebieden waar deze functies worden ondersteund:
 
@@ -159,7 +159,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -231,7 +231,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -330,7 +330,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -372,7 +372,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -491,7 +491,7 @@ De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecte
 
 * Wanneer het toelaten van de ervaring van Bèta in de sectie van Updates:
 
-   * Problemen <span class="preview">projecten, taken en documenten</span>
+   * Problemen, projecten, taken en documenten
 
   Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

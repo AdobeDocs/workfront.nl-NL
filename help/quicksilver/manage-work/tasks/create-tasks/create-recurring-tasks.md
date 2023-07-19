@@ -6,9 +6,9 @@ description: U kunt terugkomende taken voor taken tot stand brengen u als deel v
 author: Alina
 feature: Work Management
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Klikken **Meer opties** Voer vervolgens een naam in voor de taak in het dialoogvenster **Taaknaam** veld.
-1. Werk de taak verder bij op dezelfde manier als wanneer u een nieuwe taak toevoegt. Voor meer informatie over het toevoegen van een nieuwe taak, zie [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+1. Werk de taak verder bij op dezelfde manier als wanneer u een nieuwe taak toevoegt. Voor meer informatie over het toevoegen van een nieuwe taak, zie [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+   >[!TIP]
+   >
+   >   De duur en de geplande uren die voor een nieuwe terugkerende taak worden vermeld zijn de Duur en de Geplande Uren van elke herhaling. De Duur van de oudertaak is de tijd tussen de Geplande Datum van het Begin van de vroegste taak en de Geplande Datum van de Voltooiing van de recentste taak. De geplande uren van de bovenliggende taak is het totaal van alle geplande uren vanaf alle herhalingen.
+
 1. Klikken **Overzicht** in het linkerdeelvenster.
 1. Omlaag schuiven naar de **Herhalingsschema** en selecteert u vervolgens de **Dit een terugkerende taak maken** optie.
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
-1. In de **Frequentie** selecteert u in de vervolgkeuzelijst het aantal tijdseenheden waarop de taak moet worden uitgevoerd en het type tijdseenheid. Selecteer een van de volgende opties:
+1. In de **Frequentie** selecteert u in de vervolgkeuzelijst het aantal tijdseenheden waarop de taak moet worden uitgevoerd en het type tijdseenheid. Selecteer een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,4 +131,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!IMPORTANT]
    >
-   >Het aanpassen van de bovenliggende recidieven nadat de kinderen individueel zijn aangepast kan leiden tot verschillende informatie tussen de kinderen of tussen de kinderen en de ouder. Zie voor meer informatie [Overzicht van terugkerende taken](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >Het aanpassen van de bovenliggende recidieven nadat de kinderen individueel zijn aangepast kan leiden tot verschillende informatie tussen de kinderen of tussen de kinderen en de ouder. Zie voor meer informatie [Overzicht van terugkerende taken](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
