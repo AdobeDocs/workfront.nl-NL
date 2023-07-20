@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze is alleen beschikbaar voor alle klanten in de voorvertoningsomgeving.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Problemen <span class="preview">projecten, taken en documenten</span>.
+> * Kwesties, projecten, taken, en documenten.
 >
 >     Deze optie is beschikbaar wanneer u de bètaervaring voor opmerkingen inschakelt.
 >
@@ -115,7 +115,7 @@ Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingerv
 
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
 1. Klikken **Updates** klikt u op de knop **Opmerkingen** voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren.
-1. <span class="preview">(Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Offerteantwoord**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.</span>
+1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Offerteantwoord**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
 1. Klikken **Reageren**.
 
    U kunt de gebruikers zien die actief in het gesprek bij de bodem van zijn betrokken **Nieuwe opmerking** en kunt u meer toevoegen of verwijderen van de niet-relevante vakken. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

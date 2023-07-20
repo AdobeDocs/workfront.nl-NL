@@ -6,9 +6,10 @@ navigation-topic: manage-tasks
 title: Overzicht van terugkerende taken
 description: Overzicht van terugkerende taken
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -60,11 +61,11 @@ Houd rekening met het volgende wanneer u terugkerende taken maakt in Workfront:
 
       * Eenvoudig
       * Inzet gedreven
-* De duur en de geplande uren die voor een nieuwe terugkerende taak worden vermeld zijn de Duur en de Geplande Uren van elke herhaling. De Duur van de oudertaak is de tijd tussen de Geplande Datum van het Begin van de vroegste taak en de Geplande Datum van de Voltooiing van de recentste taak. De geplande uren van de bovenliggende taak is het totaal van alle geplande uren vanaf alle herhalingen.
+* De duur en de geplande uren die voor een nieuwe terugkerende taak worden vermeld zijn de Duur en de Geplande Uren van elk voorkomen. De Duur van de oudertaak is de tijd tussen de Geplande Datum van het Begin van de vroegste taak en de Geplande Datum van de Voltooiing van de recentste taak. De geplande uren van de bovenliggende taak is het totaal van alle geplande uren van alle voorvallen.
 
 ## Overwegingen bij het bewerken van terugkerende taken
 
-Sommige wijzigingen die u aanbrengt in een bovenliggende taak die terugkerend is, worden mogelijk niet op alle bestaande terugkeringen bijgewerkt. Onderliggende taken die de voortgang tonen of afzonderlijk zijn bijgewerkt, worden niet bijgewerkt wanneer u het bovenliggende onderdeel bijwerkt. Workfront is van mening dat een taak vooruitgang laat zien in de volgende situaties:
+Sommige wijzigingen die u aanbrengt in een bovenliggende taak die terugkeert, worden mogelijk niet op alle bestaande exemplaren bijgewerkt. Onderliggende taken die de voortgang tonen of afzonderlijk zijn bijgewerkt, worden niet bijgewerkt wanneer u het bovenliggende onderdeel bijwerkt. Workfront is van mening dat een taak vooruitgang laat zien in de volgende situaties:
 
 * De status wordt bijgewerkt en de taak is niet langer Nieuw
 * Het percentage Voltooien van de taak is hoger dan nul
@@ -75,7 +76,7 @@ In de volgende tabel wordt aangegeven of wijzigingen die zijn aangebracht in de 
 | Velden bijgewerkt op de bovenliggende taak | Overdracht van updates naar onbewerkte kinderen of kinderen zonder geregistreerde voortgang |
 |---|---|
 | Herhalingsfrequentie * | ✔ |
-| Toewijzingen&#42;&#42; | ✔ |
+| Toewijzingen | ✔ |
 | Naam | ✔ |
 | Beschrijving | ✔ |
 | Prioriteit | ✔ |

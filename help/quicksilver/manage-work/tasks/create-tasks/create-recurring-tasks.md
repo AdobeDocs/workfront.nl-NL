@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: Herhalende taken maken
 description: U kunt terugkomende taken voor taken tot stand brengen u als deel van één enkel project moet herhalen.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -66,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!TIP]
    >
-   >   De duur en de geplande uren die voor een nieuwe terugkerende taak worden vermeld zijn de Duur en de Geplande Uren van elke herhaling. De Duur van de oudertaak is de tijd tussen de Geplande Datum van het Begin van de vroegste taak en de Geplande Datum van de Voltooiing van de recentste taak. De geplande uren van de bovenliggende taak is het totaal van alle geplande uren vanaf alle herhalingen.
+   >   De duur en de geplande uren die voor een nieuwe terugkerende taak worden vermeld zijn de Duur en de Geplande Uren van elk voorkomen. De Duur van de oudertaak is de tijd tussen de Geplande Datum van het Begin van de vroegste taak en de Geplande Datum van de Voltooiing van de recentste taak. De geplande uren van de bovenliggende taak is het totaal van alle geplande uren van alle voorvallen.
 
 1. Klikken **Overzicht** in het linkerdeelvenster.
 1. Omlaag schuiven naar de **Herhalingsschema** en selecteert u vervolgens de **Dit een terugkerende taak maken** optie.
