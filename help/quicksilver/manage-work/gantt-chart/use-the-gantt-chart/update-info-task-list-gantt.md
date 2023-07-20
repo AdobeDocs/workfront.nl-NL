@@ -6,9 +6,9 @@ description: De van de taaklijst Gantt- Grafiek toont details over taken die op 
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
    De **[!UICONTROL Autosave]** Deze optie is standaard geselecteerd. In dat geval worden alle wijzigingen automatisch opgeslagen.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klik op het pictogram Gantt-diagram](assets/click-gantt-chart-icon.png)
 
 1. (Optioneel) Klik op de knop **[!UICONTROL Plan mode]** pictogram en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om uw wijzigingen handmatig op te slaan.
 
@@ -131,7 +131,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
    Alle wijzigingen worden automatisch opgeslagen wanneer de **[!UICONTROL Autosave]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klik op het pictogram Gantt-diagram](assets/click-gantt-chart-icon.png)
 
 1. (Optioneel) Klik op de knop **[!UICONTROL Plan mode]** pictogram en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om uw wijzigingen handmatig op te slaan.
 
@@ -178,7 +178,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 1. Ga naar het project u wilt wijzigen.
 1. In de **[!UICONTROL Tasks]** gebied, klikt u op **[!UICONTROL Gantt chart]** pictogram.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klik op het pictogram Gantt-diagram](assets/click-gantt-chart-icon.png)
 
    Alle wijzigingen worden automatisch opgeslagen wanneer de **[!UICONTROL Autosave]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
