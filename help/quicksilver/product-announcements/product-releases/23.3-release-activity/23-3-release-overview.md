@@ -4,20 +4,18 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # 23.3 releaseoverzicht
 
-Deze pagina bevat informatie over functionaliteit die is opgenomen in de release 23.3 die gepland is voor de week van 17 juli 2023.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien versie 23.3 zijn geplande versie van de Productie nadert.
-
-De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar om hier een opname op aanvraag te bekijken](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Functies buiten de cyclus (functies die vóór de releasedatum van 23.3 worden vrijgegeven) worden geel gemarkeerd.</span>
 
@@ -116,7 +114,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In de Google-weergave van een project wordt een kanban-bord weergegeven</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In de Google-weergave van een project wordt een kanban-bord weergegeven</a></p>
                         <p>De Gelijke Mening van een project omvat nu extra functionaliteit aan filter, groep, en soortwerk in een kanbanboard. Het nieuwe, flexibele ontwerp van de weergave bevat een robuuste zoekfunctie en de mogelijkheid om nieuwe taken rechtstreeks vanuit de kaart aan het project toe te voegen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -132,7 +130,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolommen sorteren op board</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolommen sorteren op board</a></p>
                         <p>We hebben de mogelijkheid toegevoegd om de kaarten in de kolommen op een bord te sorteren. Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -189,7 +187,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                                 <p>Voorvertoning release: 15 juni 2023</p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 22 juni 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                 <p>Productieversie voor vroege opt-in: 22 juni 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                                 <p>Voorvertoning release: 10 mei 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 10 mei 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                 <p>Productieversie voor vroege opt-in: 10 mei 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                                 <p>Voorvertoning release: 27 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                                 <p>Voorvertoning release: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p>
+                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                                 <p>Voorvertoning release: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</span></p></s>
+                                 <s><p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Productieversie voor alle klanten: 18 mei 2023</span></p>
@@ -308,7 +306,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                                 <p>Voorvertoning release: 13 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 13 april 2023 <span style="color: #ff0000;"> Deze functie is alleen beschikbaar in Productie via de vroege functie-aanmelding voor Workfront Boards.</p>
+                                 <p>Productieversie voor vroege opt-in: 13 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.3</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a></p>
                         <p>De effectieve datum van kosten en factureringstarieven zijn nu beschikbaar voor het bedrijf, de gebruiker, en de baanobjecten van de rol in Workfront. Wanneer de datum daadwerkelijke tarieven op een project worden toegepast, en de uren het programma worden geopend projecttaken, worden de kosten en de opbrengst berekend gebruikend de gespecificeerde tarieven voor elke tijdspanne.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -346,7 +344,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                             <li>
                                 <p>Productieversie voor klanten met de Fast release: Nog aan te kondigen, na de productievrijgave van 23.3</p>
                                 <p>Productieversie voor alle klanten: Met de release van 23.4<br>
-                                <span style="color: #ff0000;"> De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning van 30 juni tot 13 juli 2023.</span></p>
+                                De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning van 30 juni tot 13 juli 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ De webinar voor release 23.3 zal op 29 juni 2023 worden gehouden. U kunt [regist
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe thuiservaring</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe thuiservaring</a></p>
                         <p>Thuis heeft een belangrijke update ontvangen om gebruikers van alle typen beter in staat te stellen Workfront te gebruiken voor hun specifieke behoeften. De nieuwe ervaring van het Huis biedt visuele en inhoudaanpassingen voor uw Homepage aan, die de flexibiliteit verstrekt om slechts de informatie te tonen die voor uw werk het meest relevant is.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>

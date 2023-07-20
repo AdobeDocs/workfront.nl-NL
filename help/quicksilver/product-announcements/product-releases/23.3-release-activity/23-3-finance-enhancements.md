@@ -3,16 +3,16 @@ title: 23.3 Verbeteringen van het financieel beheer
 description: 23.3 Verbeteringen van het financieel beheer
 author: Lisa
 feature: Product Announcements
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
 # 23.3 Verbeteringen van het financieel beheer
 
-Op deze pagina worden alle verbeteringen in het financieel beheer beschreven die zijn aangebracht met de versie 23.3 voor de voorbeeldomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.3.
+Op deze pagina worden alle verbeteringen in het financieel beheer beschreven die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

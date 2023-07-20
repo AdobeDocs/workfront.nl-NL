@@ -3,16 +3,16 @@ title: 23.3 Verbeteringen voor beheerders
 description: 23.3 Verbeteringen voor beheerders
 author: Lisa
 feature: Product Announcements
-source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # 23.3 Verbeteringen voor beheerders
 
-Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 23.3 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.3.
+Deze pagina beschrijft alle beheerderverhogingen die met versie 23.3 worden aangebracht. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

@@ -3,7 +3,7 @@ title: 23.3 Verbeteringen in de mobiele apparaten
 description: 23.3 Verbeteringen in de mobiele apparaten
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 23.3 Verbeteringen in de mobiele apparaten
 
-Deze pagina bevat een beschrijving van alle verbeteringen in de voorvertoningsomgeving die zijn aangebracht in de versie 23.3. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.3.
+Op deze pagina worden alle verbeteringen op het gebied van raden en rollen beschreven die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

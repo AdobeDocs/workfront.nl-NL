@@ -3,16 +3,16 @@ title: 23.3 Projectverbeteringen
 description: 23.3 Projectverbeteringen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # 23.3 Projectverbeteringen
 
-Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de versie 23.3 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.3.
+Deze pagina beschrijft alle projectverhogingen die met versie 23.3 worden gemaakt. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
