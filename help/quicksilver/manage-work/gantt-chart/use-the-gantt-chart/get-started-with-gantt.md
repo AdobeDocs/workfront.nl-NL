@@ -6,9 +6,9 @@ description: De Gantt-grafieken in Adobe Workfront geven een visuele weergave va
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ De takenlijst [!UICONTROL Gantt Chart] is toegankelijk in de volgende gebieden:
 
 Toegang tot de takenlijst [!UICONTROL Gantt Chart], navigeert u naar een van de bovenstaande gebieden en klikt u op de knop [!UICONTROL Gantt Chart] pictogram.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![Klik op het pictogram Gantt-diagram](assets/click-gantt-chart-icon.png)
 
 ### Projectlijst [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 

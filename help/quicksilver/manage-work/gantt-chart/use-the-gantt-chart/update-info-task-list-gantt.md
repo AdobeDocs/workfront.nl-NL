@@ -6,9 +6,9 @@ description: De van de taaklijst Gantt- Grafiek toont details over taken die op 
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
 1. Klik op de knop **[!UICONTROL Gantt chart]** pictogram.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klik op het pictogram Gantt-diagram](assets/click-gantt-chart-icon.png)
 
    Alle wijzigingen worden automatisch opgeslagen wanneer de **[!UICONTROL Autosave]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
@@ -87,7 +87,8 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
    >   
    >   * [!DNL Mac]: Gebruiken [!UICONTROL Command + Z] om ongedaan te maken en [!UICONTROL Command + Shift + Z] om opnieuw uit te voeren.
    >   * [!DNL Windows]: Gebruiken [!UICONTROL Ctrl + Z] om ongedaan te maken en [!UICONTROL Ctrl + Y] om opnieuw uit te voeren.
-
+   >   
+   >
 
 1. Klikken **[!UICONTROL Save]** in de rechterbovenhoek van het dialoogvenster [!UICONTROL Gantt chart].
 
@@ -118,7 +119,8 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
    >   
    >   * [!DNL Mac]: Gebruiken [!UICONTROL Command + Z] om ongedaan te maken en [!UICONTROL Command + Shift + Z] om opnieuw uit te voeren.
    >   * [!DNL Windows]: [!UICONTROL Use Ctrl + Z] om ongedaan te maken en [!UICONTROL Ctrl + Y] om opnieuw uit te voeren.
-
+   >   
+   >
 
 1. Klik op **[!UICONTROL Save]** .
 
@@ -152,7 +154,6 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
    >   * [!UICONTROL As Late As Possible]
    >   * [!UICONTROL Earliest Available Time]
    >   * [!UICONTROL Latest Available Time]
-
    >   
    >   
    >In sommige gevallen, zouden de voorgangersverhoudingen de taken kunnen verhinderen vroeger te beginnen, en de taakbeweging wordt niet toegestaan.
@@ -167,7 +168,8 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
    >   
    >   * [!DNL Mac]: Gebruiken [!UICONTROL Command + Z] om ongedaan te maken en [!UICONTROL Command + Shift + Z] om opnieuw uit te voeren.
    >   * [!DNL Windows]: Gebruiken [!UICONTROL Ctrl + Z] om ongedaan te maken en [!UICONTROL Ctrl + Y] om opnieuw uit te voeren.
-
+   >   
+   >
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -189,6 +191,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
+   >
 
 1. (Optioneel en voorwaardelijk) Als u de wijzigingen handmatig wilt opslaan, klikt u op de knop **[!UICONTROL Undo]** of &#x200B;**[!UICONTROL Redo]** als u een van de wijzigingen wilt annuleren of dupliceren.
 
@@ -200,7 +203,8 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
    >   
    >   * [!DNL Mac]: Gebruiken [!UICONTROL Command + Z] om ongedaan te maken en [!UICONTROL Command + Shift + Z] om opnieuw uit te voeren.
    >   * [!DNL Windows]: Gebruiken [!UICONTROL Ctrl + Z] om ongedaan te maken en [!UICONTROL Ctrl + Y] om opnieuw uit te voeren.
-
+   >   
+   >
 
 1. Klikken **[!UICONTROL Save]** in de rechterbovenhoek van het dialoogvenster [!UICONTROL Gantt chart].
 

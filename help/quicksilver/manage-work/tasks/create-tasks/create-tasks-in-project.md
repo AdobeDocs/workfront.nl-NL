@@ -6,9 +6,9 @@ description: U kunt taken in een project slechts tot stand brengen nadat u het p
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Voor informatie over het creëren van persoonlijke taken die niet in een project
 
 In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken ook op de volgende manieren maken:
 
-* Door bestaande taken te kopiëren of te dupliceren. Zie voor meer informatie [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Door taken van het ene project naar het andere te verplaatsen. Zie voor meer informatie [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Door bestaande taken te kopiëren of te dupliceren. Zie voor meer informatie [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Door taken van het ene project naar het andere te verplaatsen. Zie voor meer informatie [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Toegangsvereisten
 
@@ -89,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Voorwaardelijk) Als u de takenlijst momenteel in een flexibele weergave bekijkt, klikt u op de knop **Lijstweergave** pictogram ![](assets/list-view-in-agile-view-for-tasks.png) in de rechterbovenhoek om de takenlijst weer te geven.
 1. (Optioneel) Klik op de knop **Abonnementsmodus** pictogram ![](assets/nwe-plan-mode-icon-task-list.png) en selecteert u **Handmatig opslaan** Selecteer vervolgens een van de **Standaard** of **Tijdlijnplanning**. Hiermee schakelt u het **Automatisch opslaan** Deze optie is standaard ingeschakeld.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Handmatig opslaan selecteren](assets/manual-save-option.png)
 
    >[!TIP]
    >

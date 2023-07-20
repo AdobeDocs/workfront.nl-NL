@@ -4,9 +4,9 @@ title: Overzicht van samenvattingen
 description: U kunt het deelvenster Samenvatting gebruiken om de gegevens van het werkitem rechtstreeks vanuit een lijst met taakproblemen, documenten of andere gebieden van [!DNL Adobe Workfront] die taken en problemen weergeven.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -116,21 +116,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >U kunt slechts één taak of één uitgave tegelijk selecteren om hun details in te zien in de [!UICONTROL Summary] deelvenster.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![Het deelvenster Samenvatting](assets/summary-panel-for-task.png)
 
 1. (Optioneel) Als u het dialoogvenster [!UICONTROL Summary] voert u een van de volgende handelingen uit:
 
    * Klik in een taak- of uitgavelijst op de knop **[!UICONTROL Open Summary]** pictogram ![](assets/summary-panel-icon.png)
 
-      of
+     of
 
-      Klik op de knop **X** in de rechterbovenhoek van het dialoogvenster [!UICONTROL Summary] deelvenster.
+     Klik op de knop **X** in de rechterbovenhoek van het dialoogvenster [!UICONTROL Summary] deelvenster.
 
    * In de [!UICONTROL Submitted] van de [!UICONTROL Requests] gebied, klikt u op **[!UICONTROL Close Summary]** pictogram ![](assets/close-summary-with-text-nwe.png)
 
-      of
+     of
 
-      Klik op de knop **X** in de rechterbovenhoek van het deelvenster Overzicht.
+     Klik op de knop **X** in de rechterbovenhoek van het deelvenster Overzicht.
 
 ## [!UICONTROL Percent Complete]
 

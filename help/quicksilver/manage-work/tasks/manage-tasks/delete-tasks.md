@@ -6,9 +6,9 @@ description: U kunt taken verwijderen die mogelijk duplicaten zijn of die ten on
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Als de taak uren heeft geregistreerd, moet de Workfront of groepsbeheerder de schrapping van deze taken toestaan door de Voorkeur van de Taak &amp; van de Uitgave in uw instantie van Workfront te vormen. Dit is ook van toepassing wanneer u probeert om projecten te schrappen die taken met het programma geopende uren hebben hen.
 
-   <!--
+  <!--
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-   Voor meer informatie over het toelaten van de schrapping van taken waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Voor meer informatie over het toelaten van de schrapping van taken waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Het effect van het verwijderen van taken {#the-impact-of-deleting-tasks}
 
@@ -73,7 +73,7 @@ De volgende objecten die aan een taak zijn gekoppeld, worden ook verwijderd wann
 
 * Documenten
 
-   U kunt een taak waarvoor een document is uitgecheckt, niet verwijderen. Zie voor meer informatie over het uitchecken van documenten [Documenten uitchecken](../../../documents/managing-documents/check-out-documents.md).
+  U kunt een taak waarvoor een document is uitgecheckt, niet verwijderen. Zie voor meer informatie over het uitchecken van documenten [Documenten uitchecken](../../../documents/managing-documents/check-out-documents.md).
 
 * Problemen
 * Subtaken
@@ -85,21 +85,21 @@ Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van 
 * Ga naar het project en herstel de taak niet als de taak later wordt hersteld.
 * worden verwijderd en worden op de taak hersteld als de taak later wordt hersteld.
 
-   Dit is ook van toepassing wanneer u probeert om projecten te schrappen die taken met het programma geopende uren hebben hen.
+  Dit is ook van toepassing wanneer u probeert om projecten te schrappen die taken met het programma geopende uren hebben hen.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
 
-   Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * De kosten van de taak zullen naar het project worden verplaatst.
 
 * De gebruikers die aan de taak of aan de taakgoedkeuring worden toegewezen blijven op het projectteam.
 
-   Voor meer informatie over projectteams, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Voor meer informatie over projectteams, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Taken verwijderen
 
@@ -121,9 +121,10 @@ Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van 
       1. Klikken **Verwijderen** vervolgens **Ja, verwijderen** om de schrapping te bevestigen.
 
          De taken worden verwijderd.
+
    1. (Voorwaardelijk) Klik op de knop **Abonnementsmodus** pictogram en selecteer **Handmatig opslaan** als u de wijzigingen die u in de takenlijst aanbrengt, wilt omkeren.
 
-      ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+      ![Handmatig opslaan selecteren](assets/manual-save-option.png)
 
       Ga als volgt te werk:
 
@@ -134,7 +135,6 @@ Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van 
       1. Klikken **Opslaan** om de taken te verwijderen.
 
          Taken worden pas verwijderd nadat u de wijzigingen hebt opgeslagen.
-
 
 ### Eén taak verwijderen {#delete-a-single-task}
 

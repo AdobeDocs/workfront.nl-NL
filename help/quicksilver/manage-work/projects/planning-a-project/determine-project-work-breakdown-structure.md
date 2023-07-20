@@ -6,9 +6,9 @@ description: Het bepalen van een Structuur van de Onderverdeling van het Werk (W
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
@@ -48,23 +48,23 @@ Terwijl u taken definieert, moet u ervoor zorgen dat u niet teveel werk voor é�
 Om WBS- resultaten en te bepalen leverables in Workfront, adviseren wij u de volgende activiteiten uit te voeren om een hiërarchische mening van projecttaken tot stand te brengen:
 
 * Maak een nieuw project als u dat nog niet hebt gedaan.\
-   Zie het artikel voor informatie over het maken van een project [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+  Zie het artikel voor informatie over het maken van een project [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
 * Maak taken voor alle actiepunten die nodig zijn om elk resultaat en elke te leveren item te voltooien.\
-   Zie het artikel voor informatie over het maken van taken [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  Zie het artikel voor informatie over het maken van taken [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * Van de taken u enkel creeerde, identificeer welke belangrijke resultaten zijn en associeer hen met mijlpalen.\
-   Raadpleeg de artikelen voor informatie over het maken van mijlpaaltaken [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) en [Mijlpalen koppelen aan taken](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Raadpleeg de artikelen voor informatie over het maken van mijlpaaltaken [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) en [Mijlpalen koppelen aan taken](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Verdeel de taken met te groot een werkingsgebied in subtaken. Koppel ze aan het bovenliggende element dat uw te leveren item definieert.\
-   Zie het artikel voor informatie over het maken van subtaken [Subtaken maken](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  Zie het artikel voor informatie over het maken van subtaken [Subtaken maken](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identificeer afhankelijkheidsrelaties tussen subtaken en tussen mijlpalen.\
-   In een afhankelijkheidsrelatie is het begin van een taak afhankelijk van de voltooiing van een andere taak of groep taken.\
-   Zie de artikelen voor informatie over taakafhankelijkheden [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) en [Een voorganger-relatie maken in de takenlijst](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  In een afhankelijkheidsrelatie is het begin van een taak afhankelijk van de voltooiing van een andere taak of groep taken.\
+  Zie de artikelen voor informatie over taakafhankelijkheden [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) en [Een voorganger-relatie maken in de takenlijst](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Bepaal of op enig punt in de levensduur van het project goedkeuringen en beoordelingen nodig zijn. Goedkeuringsprocedures maken om aan deze behoefte te voldoen.\
-   Raadpleeg het artikel voor informatie over goedkeuringen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Raadpleeg het artikel voor informatie over goedkeuringen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Schatting van de werkschema&#39;s en planningsbeperkingen
 
@@ -74,22 +74,22 @@ Overweeg het volgende:
 
 * De beperkingen van de taak bepalen wanneer het werk aan een taak moet beginnen of beëindigen.
 
-   Zie het artikel voor informatie over het definiëren van taakbeperkingen [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  Zie het artikel voor informatie over het definiëren van taakbeperkingen [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * De duur van een taak is het beschikbare tijdkader om een taak te voltooien. Bij het schatten van Duur, kunt u een waarde willen ingaan die met de mogelijkheid van een vertraging rekening houdt. Als soortgelijke projecten in het verleden zijn voltooid, hebt u wellicht een goed idee waar u deze waarde wilt instellen.
 
-   Aangezien de duur een schatting is, moet u optimistische tijdwaarden instellen om rekening te houden met factoren die de taak kunnen beïnvloeden, zoals weer, stroomuitval, problemen met leveranciers of andere onvoorziene gebeurtenissen. Bovendien ben zeker om te overwegen of er om het even welke bijbehorende voorganger of afhankelijkheidstaken zijn en hoe zij beperkingen op het werk kunnen plaatsen en taakvoltooiing kunnen beïnvloeden.
+  Aangezien de duur een schatting is, moet u optimistische tijdwaarden instellen om rekening te houden met factoren die de taak kunnen beïnvloeden, zoals weer, stroomuitval, problemen met leveranciers of andere onvoorziene gebeurtenissen. Bovendien ben zeker om te overwegen of er om het even welke bijbehorende voorganger of afhankelijkheidstaken zijn en hoe zij beperkingen op het werk kunnen plaatsen en taakvoltooiing kunnen beïnvloeden.
 
-   Afhankelijk van het Type van Duur van de taak, kunt u de duur van een taak tijdens het leven van een project wijzigen, maar dit zal ook de chronologie van het project beïnvloeden. Raadpleeg het artikel voor informatie over de duur van een taak [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Afhankelijk van het Type van Duur van de taak, kunt u de duur van een taak tijdens het leven van een project wijzigen, maar dit zal ook de chronologie van het project beïnvloeden. Raadpleeg het artikel voor informatie over de duur van een taak [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Taken toewijzen
 
 Nadat u de duur en de beperkingen van elke taak hebt bepaald, kunt u bepalen wie de tijd en de vaardigheden heeft om het werk te verwezenlijken. U kunt taken toewijzen aan de volgende entiteiten in Workfront:
 
 * Gebruikers\
-   Alleen gebruikers met een Planner- of Worker-toegangsniveau kunnen aan taken worden toegewezen. Hoewel u taken kunt toewijzen aan aanvragers en revisoren, kunnen ze deze niet voltooien. Daarom raden wij u niet aan deze taken toe te wijzen.
+  Alleen gebruikers met een Planner- of Worker-toegangsniveau kunnen aan taken worden toegewezen. Hoewel u taken kunt toewijzen aan aanvragers en revisoren, kunnen ze deze niet voltooien. Daarom raden wij u niet aan deze taken toe te wijzen.
 
-   Voor informatie over de toegangsniveaus en hoe ze definiëren wat gebruikers met Workfront-objecten kunnen doen, raadpleegt u [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  Voor informatie over de toegangsniveaus en hoe ze definiëren wat gebruikers met Workfront-objecten kunnen doen, raadpleegt u [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * Taken rollen
 * Teams
@@ -150,7 +150,7 @@ U kunt de taaklijst op projectniveau bekijken.
 
    De structuur Werkverdeling wordt weergegeven in de tweede kolom van de geselecteerde weergave.
 
-   ![](assets/wbs-view-on-task-list-nwe-350x87.png)
+   ![De Structuur van de Onderverdeling van het werk in een taaklijst](assets/work-breakdown-structure.png)
 
 ### WBS in een taakrapport weergeven {#view-the-wbs-in-a-task-report}
 
