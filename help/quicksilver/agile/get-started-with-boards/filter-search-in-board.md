@@ -6,7 +6,7 @@ description: U kunt een bord filteren om alleen bepaalde kaarten weer te geven.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Filteren en zoeken in een board
-
-{{highlighted-preview}}
 
 U kunt een board filteren om weer te geven:
 
@@ -26,7 +24,7 @@ U kunt een board filteren om weer te geven:
 * Gearchiveerde kaarten
 * Kaarten verbonden met een specifiek project
 
-<span class="preview">Als u het bord sorteert, worden alle kaarten in de kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.</span>
+Als u het bord sorteert, worden alle kaarten in de kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.
 
 Door te zoeken kunt u ook een bepaalde kaart op het bord vinden.
 
@@ -110,8 +108,6 @@ Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord
 
    ![Filteren op verbinding](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Sorteren op een board
 
 Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteerd. U kunt geen enkele kolom sorteren en de kolom voor het aantal kolommen of de kolom voor het aantal kolommen wordt niet gesorteerd.
@@ -130,8 +126,6 @@ Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteer
    Wanneer een andere sortering dan de standaardinstelling wordt toegepast, wordt een indicator weergegeven op het sorteerpictogram ![Sorteren toegepast](assets/sort-applied-boards.png).
 
    ![Sorteren op kolommen aan boord](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Zoeken in een board
 

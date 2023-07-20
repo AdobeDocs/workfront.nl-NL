@@ -6,16 +6,14 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
 
 # Weergaven maken of bewerken in Adobe Workfront
-
-{{highlighted-preview}}
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. U kunt verschillende typen weergaven gebruiken in Adobe Workfront.
 
@@ -150,16 +148,12 @@ Raadpleeg het artikel voor meer informatie over de Google-weergaven [Een project
 
 >[!NOTE]
 >
-><span class="preview">Deze procedure is alleen van toepassing op de oudere versie van de Agile, niet op de bestuursweergave van een project.</span>
+>Deze procedure is alleen van toepassing op de oudere versie van de Agile, niet op de bestuursweergave van een project.
 
 U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
 1. Ga naar de lijst met taken in een project.
-1. Klik op de knop **Agile Storyboard** pictogram ![Agile Storyboard-pictogram](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">of</span>
-
-   <span class="preview">Klik op de knop **Raad** pictogram ![Pictogram bord](assets/board-icon-for-agile-view.png)en klik vervolgens op **Oudere pagina gebruiken** in de weergave aan boord.</span>
+1. Klik op de knop **Raad** pictogram ![Pictogram bord](assets/board-icon-for-agile-view.png)en klik vervolgens op **Oudere pagina gebruiken** in de weergave aan boord.
 
 1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
 
@@ -255,4 +249,4 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
 1. Klikken **Opslaan**.\
    Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. anders, wordt u ertoe aangezet om een versie te bewaren. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
 
-1. (Optioneel) Klik op de knop **Lijstweergave** pictogram ![](assets/list-view-in-agile-view-for-tasks.png) om terug te keren naar de takenlijst.
+1. (Optioneel) Klik op de knop **Lijst** om terug te keren naar de takenlijst.

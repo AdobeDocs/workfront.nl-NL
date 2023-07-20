@@ -6,9 +6,9 @@ title: E-mailmeldingen en voorkeuren worden verzonden
 description: Adobe Workfront Boards stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # E-mailmeldingen en voorkeuren worden verzonden
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. De meldingen zijn standaard ingeschakeld en u kunt in de voorkeursinstellingen voor de raden selecteren welke e-mails u wilt ontvangen.
-
->[!NOTE]
->
->E-mailberichten zijn alleen beschikbaar via de vroege functie-aanmelding voor Workfront Boards.
 
 ## Toegangsvereisten
 

@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -146,11 +146,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken en klik op de knop <strong>Bijlage toevoegen</strong> pictogram <img src="assets/attachment-icon.png" alt="Bijlage, pictogram"> om een bestand bij de opmerking te voegen. Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn. Gecodeerde gebruikers op verbonden kaarten ontvangen e-mailmeldingen.</p><p>Klikken <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
-      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p><p><strong>OPMERKING:</strong> Opmerkingen over kaarten zijn alleen beschikbaar via de optie Aanmelden voor Workfront Boards.</p></td>
+      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
-      <td><p>Als u <strong>Systeemactiviteit</strong> Wordt ingeschakeld als een kaartsectie, de activiteit wordt weergegeven in dit gebied.</p> <p>Zie voor meer informatie <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Aanpassen welke velden worden weergegeven op een kaart</a> en <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Door het systeem bijgehouden updates</a>.</p><p><strong>OPMERKING:</strong> Systeemactiviteit is alleen beschikbaar via de vroege functie-opt-in voor Workfront Boards.</p></td>
+      <td><p>Als u <strong>Systeemactiviteit</strong> Wordt ingeschakeld als een kaartsectie, de activiteit wordt weergegeven in dit gebied.</p> <p>Zie voor meer informatie <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Aanpassen welke velden worden weergegeven op een kaart</a> en <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Door het systeem bijgehouden updates</a>.</p></td>
      </tr>     
     </tbody> 
    </table>

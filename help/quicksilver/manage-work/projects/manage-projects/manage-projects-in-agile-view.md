@@ -6,16 +6,14 @@ description: Vereiste plannen, licentietypen en toegang tot Adobe Workfront Plan
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Een project beheren in de Google-weergave
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 >[!NOTE]
 >
-><span class="preview">Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.</span>
+>Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.
 
 * [Functionaliteit in een project](#agile-functionality-in-a-project)
 * [Verschillen bij gebruik van de functie Gelijk voor een project in plaats van voor een herhaling](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 ## Een project weergeven in de Google-weergave
 
 1. Ga naar het project u in een flexibele mening wilt bekijken.
-1. Klik op de knop **Agile** pictogram ![Gegraveerd pictogram](assets/agile-icon-nwe.png).
+1. Klik op de knop **Raad** pictogram ![Pictogram bord](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">of</span>
-
-   <span class="preview">Klik op de knop **Raad** pictogram ![Pictogram bord](assets/board-icon-for-agile-view.png).</span>
-
-   Het project wordt weergegeven in de standaardstapelweergave.
-
-   <span class="preview">In de voorvertoningsomgeving wordt de weergave Bord standaard weergegeven.</span>
+   De boardweergave van het project wordt standaard weergegeven.
 
    ![Weergave van het project door de raad](assets/project-agile-board-view.png)
 
-   (Alleen weergave Ouder bestand) Als u het project eerder hebt bekeken in een aangepaste, flexibele weergave, wordt het project weergegeven in die weergave in plaats van in de standaardweergave voor bestanden.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Optioneel) Klik op **Configureren** om opties voor de kolommen en kaarten in te stellen.</span>
+1. (Optioneel) Klik op **Configureren** om opties voor de kolommen en kaarten in te stellen.
 
-   <span class="preview">Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) en [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Merk op dat u geen kolombeleid op de boardmening van een project kunt bepalen.</span>
+   Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) en [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Merk op dat u geen kolombeleid op de boardmening van een project kunt bepalen.
 
-1. <span class="preview">(Optioneel) Klik op **Oudere pagina gebruiken** gebruiken in plaats van de weergave board.</span>
+1. (Optioneel) Klik op **Oudere pagina gebruiken** gebruiken in plaats van de weergave board.
 
 1. (Optioneel - alleen weergave voor oudere bestanden) Als u een aangepaste, flexibele weergave hebt gemaakt of als een andere gebruiker een aangepaste, flexibele weergave heeft gemaakt en deze met u heeft gedeeld, kunt u deze weergeven in plaats van de standaardstapelweergave.
 
@@ -200,14 +192,13 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 
    Als u statussen wilt toevoegen aan de bestandsweergave, maakt u een nieuwe, flexibele weergave of past u een bestaande, flexibele weergave aan, zoals wordt beschreven in de sectie Een flexibele weergave maken of aanpassen in het artikel [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Optioneel) Als u wilt terugkeren naar de lijstweergave, klikt u op de knop **Lijst** pictogram.\
-   ![Lijstpictogram](assets/list-icon.png)
+1. (Optioneel) Als u wilt terugkeren naar de lijstweergave, klikt u op de knop **Lijst** pictogram.
 
 ## Eenvoudige weergaven maken en aanpassen {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.</span>
+>Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.
 
 Net als bij standaardweergaven in Workfront kunt u bestaande flexibele weergaven aanpassen of nieuwe, volledig nieuwe weergaven maken. In tegenstelling tot standaardweergaven kunt u geen nieuwe, flexibele weergaven maken op basis van bestaande, flexibele weergaven.
 
@@ -217,7 +208,7 @@ Zie de sectie Een flexibele weergave maken of aanpassen in het artikel voor meer
 
 >[!NOTE]
 >
-><span class="preview">Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.</span>
+>Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.
 
 Voor informatie over hoe u een Tegelweergave kunt delen, raadpleegt u [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Voor informatie over hoe u een Tegelweergave kunt delen, raadpleegt u [Een filte
 
 >[!NOTE]
 >
-><span class="preview">Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.</span>
+>Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.
 
 Zie de sectie &quot;Een weergave verwijderen&quot; in het artikel voor informatie over het verwijderen van een weergave [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

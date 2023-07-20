@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    | Basisbord | Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. |
    | Kanban | De volgende kolommen worden aan boord gegeven: Achtergrond, Nieuw, Bezig, Voltooid en In wachtstand. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer** menu] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt elk vooraf ingesteld beleid wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospectief bord | De volgende kolommen worden aan boord gegeven: Wat ging er goed? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
-   | Dynamisch bord | De volgende kolommen worden aan boord gegeven: Niet geselecteerd, Nieuw, Bezig, In de wachtstand en Voltooid. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. (U kunt de naam van de kolom Niet-geselecteerd wijzigen, maar de naam van de kolom niet verwijderen. Deze kolom bevat alle kaarten met een status die niet overeenkomt met een van de andere kolomstatussen.) <p>Het standaardkolombeleid wijst kaarten aan kolommen toe die op hun status worden gebaseerd. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**OPMERKING:** Het dynamische bord is alleen beschikbaar via de vroege functie-opt-in voor Workfront Boards. |
+   | Dynamisch bord | De volgende kolommen worden aan boord gegeven: Niet geselecteerd, Nieuw, Bezig, In de wachtstand en Voltooid. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. (U kunt de naam van de kolom Niet-geselecteerd wijzigen, maar de naam van de kolom niet verwijderen. Deze kolom bevat alle kaarten met een status die niet overeenkomt met een van de andere kolomstatussen.) <p>Het standaardkolombeleid wijst kaarten aan kolommen toe die op hun status worden gebaseerd. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. Voer de stappen van de installatiewizard uit als u alleen een dynamisch board wilt gebruiken:
 

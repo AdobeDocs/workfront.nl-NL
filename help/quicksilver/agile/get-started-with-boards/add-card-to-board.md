@@ -6,9 +6,9 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken en klik op de knop <strong>Bijlage toevoegen</strong> pictogram <img src="assets/attachment-icon.png" alt="Bijlage, pictogram"> om een bestand bij de opmerking te voegen. Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn.</p><p><strong>OPMERKING:</strong> Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
       </p><p>Klikken <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
-      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p><p><strong>OPMERKING:</strong> Opmerkingen over kaarten zijn alleen beschikbaar via de optie Aanmelden voor Workfront Boards.</p></td>
+      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Voorbeeldafbeelding in de productieomgeving wanneer de optie voor vroege functionaliteit niet wordt gebruikt:
-   ![Ad-hockaartgegevens](assets/boards-edit-ad-hoc-card-041723.png)
-
-   Voorbeeldafbeelding in de productieomgeving wanneer de optie voor vroege functionaliteit is ingeschakeld:
    ![Ad-hockaartgegevens](assets/ad-hoc-card-details-with-comments.png)
 
    Gebruik het linkernavigatievenster om tussen secties van gebieden op de kaartdetails te bewegen.

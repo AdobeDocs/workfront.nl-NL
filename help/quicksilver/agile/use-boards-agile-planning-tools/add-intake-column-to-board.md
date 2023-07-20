@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 &#42;Neem contact op met uw [!DNL Workfront] beheerder.
 
 ## Een inlaatkolom maken met eenvoudige filters
-
->[!NOTE]
->
->Eenvoudige filters zijn alleen beschikbaar via de vroege functie opt-in voor Adobe Workfront Boards.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Boards]**.
 1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
