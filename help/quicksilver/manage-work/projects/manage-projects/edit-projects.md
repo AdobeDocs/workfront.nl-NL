@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Projecten bewerken
 description: U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak nodig. Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de status van de Planning is.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7336'
 ht-degree: 0%
 
 ---
@@ -142,6 +143,7 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 
       * [Informatie beheren in het gebied Projectoverzicht](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Informatie beheren in het gebied Projectfinanciering](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+
    1. (Optioneel) Als u een aangepast formulier wilt bijvoegen, typt u de naam van een formulier in het dialoogvenster **Aangepast formulier toevoegen** , selecteert u het veld wanneer het wordt weergegeven in de lijst en klikt u vervolgens op **Wijzigingen opslaan**.
    1. (Optioneel) Klik op de knop **Exporteren** pictogram ![](assets/export.png) als u het overzicht en de aangepaste formuliergegevens wilt exporteren naar een PDF-bestand, klikt u op **Exporteren**. Selecteer een van de volgende opties:
 
@@ -154,6 +156,7 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Zie voor meer informatie [Aangepaste formulieren en objectdetails exporteren](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Voor informatie over de gebieden zichtbaar in de sectie van de Details van het Project, ga met het uitgeven van het project in het Edit vakje van het Project zoals hieronder beschreven verder.
 1. Als u alle informatie over het project wilt bewerken, klikt u op de knop **Meer** menu ![](assets/qs-more-menu.png) naast de naam van het project klikt u op **Bewerken**.
 
@@ -302,7 +305,11 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 
    >[!TIP]
    >
-   >Wanneer u de velden Projecteigenaar, Projectsponsor en Resource Manager bijwerkt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >Wanneer u de velden Projecteigenaar, Projectsponsor en Resource Manager bijwerkt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen.
+   >
+   >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
 
@@ -677,15 +684,15 @@ De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 * Projecteigenaar
 * Geplande voltooiing Datum en tijd
 
-   >[!NOTE]
-   >
-   >U kunt dit gebied slechts uitgeven wanneer het project van de Datum van de Voltooiing gepland is. Wanneer het project van de Datum van het Begin gepland is, berekent Workfront de Geplande Datum en de tijd van de Voltooiing gebaseerd op de duur van de taken.
+  >[!NOTE]
+  >
+  >U kunt dit gebied slechts uitgeven wanneer het project van de Datum van de Voltooiing gepland is. Wanneer het project van de Datum van het Begin gepland is, berekent Workfront de Geplande Datum en de tijd van de Voltooiing gebaseerd op de duur van de taken.
 
 * Voorwaarde
 
-   >[!NOTE]
-   >
-   >U kunt dit gebied uitgeven slechts wanneer het Type van Voorwaarde van het project Handboek is. Wanneer het Voorwaardetype aan de Status van de Voortgang wordt geplaatst, berekent Workfront de voorwaarde die op de vooruitgang van de taken wordt gebaseerd. Zie voor meer informatie [Overzicht van het type Projectvoorwaarde en Voorwaarde](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+  >[!NOTE]
+  >
+  >U kunt dit gebied uitgeven slechts wanneer het Type van Voorwaarde van het project Handboek is. Wanneer het Voorwaardetype aan de Status van de Voortgang wordt geplaatst, berekent Workfront de voorwaarde die op de vooruitgang van de taken wordt gebaseerd. Zie voor meer informatie [Overzicht van het type Projectvoorwaarde en Voorwaarde](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 * Status
 * Goedkeuringsbeslissingen nemen als u in een huidig goedkeuringsproces als fiatteur bent ingesteld
@@ -698,32 +705,31 @@ Houd rekening met het volgende wanneer u projecten bulksgewijs bewerkt:
 
 * De informatie u op alle geselecteerde projecten verandert beschrijft de bestaande informatie over individuele projecten, behalve het gebied van de Manager van het Middel.
 
-   Het toevoegen van een nieuwe middelmanager wanneer het uitgeven van projecten in bulk voegt die manager aan alle geselecteerde projecten toe. Als andere middelmanagers met de geselecteerde projecten worden geassocieerd, blijven zij op de projecten naast één toegevoegd door bulkgeef uit.
+  Het toevoegen van een nieuwe middelmanager wanneer het uitgeven van projecten in bulk voegt die manager aan alle geselecteerde projecten toe. Als andere middelmanagers met de geselecteerde projecten worden geassocieerd, blijven zij op de projecten naast één toegevoegd door bulkgeef uit.
 
 * Wanneer u projecten selecteert die verschillende waarden voor het zelfde gebied hebben, toont het gebied een &quot;Veelvoudige waarde&quot;indicator in het Edit de projectvakje. Naast velden die selectievakjes, keuzerondjes en schakelingen zijn, staat een indicator &quot;Meerdere waarden&quot;.
 
-   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Naast de indicator &quot;Meerdere waarden&quot; worden velden met meerdere opties op een van de volgende manieren weergegeven wanneer de gekozen opties verschillen op ten minste een van de geselecteerde projecten:
 
    * Velden voor selectievakjes hebben een regel in plaats van een selectievakje voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
-      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Velden van het type van-/uitschakelen worden grijs weergegeven, met de knevel in het midden voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
-   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * In velden van het type keuzerondje waarin sommige opties zijn geselecteerd, maar niet alle opties, worden alle keuzerondjes als leeg weergegeven.
 
-      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
-
+     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Wanneer u een optie bijwerkt in een veld met meerdere opties (zoals een veld dat wordt weergegeven als een set gereedschappen of selectievakjes), moeten alle andere opties overeenkomen met de geselecteerde projecten.
 
-   >[!IMPORTANT]
-   >
-   >U hebt bijvoorbeeld een selectievakje met drie selectievakjes (Option1, Option 2 en Option 3) en Optie 1 is voor alle projecten uitgeschakeld. Optie 2 en 3 worden voor sommige van de geselecteerde projecten gecontroleerd en voor andere projecten uitgeschakeld. Als u Optie 1 voor alle projecten wilt controleren, moet u Optie 2 en 3 ook maken gelijke voor alle geselecteerde projecten alvorens u uw veranderingen kunt bewaren, zodat moet u of hen selecteren of hen schrappen zodat zij op alle geselecteerde projecten kunnen aanpassen. Als u geen van de opties wijzigt, kunt u het veld ongewijzigd opslaan en behouden de projecten hun huidige selectie voor alle opties.
+  >[!IMPORTANT]
+  >
+  >U hebt bijvoorbeeld een selectievakje met drie selectievakjes (Option1, Option 2 en Option 3) en Optie 1 is voor alle projecten uitgeschakeld. Optie 2 en 3 worden voor sommige van de geselecteerde projecten gecontroleerd en voor andere projecten uitgeschakeld. Als u Optie 1 voor alle projecten wilt controleren, moet u Optie 2 en 3 ook maken gelijke voor alle geselecteerde projecten alvorens u uw veranderingen kunt bewaren, zodat moet u of hen selecteren of hen schrappen zodat zij op alle geselecteerde projecten kunnen aanpassen. Als u geen van de opties wijzigt, kunt u het veld ongewijzigd opslaan en behouden de projecten hun huidige selectie voor alle opties.
 
 * Wanneer u veelvoudige projecten selecteert die tot verschillende groepen behoren, zijn de statussen die op het gebied van de Status tonen systeem-vlakke statussen en niet groep-vlakke statussen.
 

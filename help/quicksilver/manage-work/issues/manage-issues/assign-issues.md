@@ -5,10 +5,11 @@ title: Problemen toewijzen
 description: U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van kwesties, zie wijzigen uitgeeft overzicht.
 author: Alina
 feature: Work Management
+role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,6 @@ U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie v
 >
 >* Wijs het werkitem opnieuw toe aan actieve bronnen.
 >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
-
 
 Naast dit artikel raden we u aan de volgende artikelen te lezen voor meer informatie over het toewijzen van problemen:
 
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waar u het probleem kopieert met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waar u het probleem kopieert met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Toegang verlenen aan gebruikers</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 
 * Taken of problemen worden doorgaans eerst toegewezen aan een of meerdere taakrollen of teams. Wanneer de projecten klaar zijn om te beginnen, zouden zij ook aan gebruikers kunnen moeten worden toegewezen.
 
-   Als een taak of een kwestie aan één of veelvoudige rollen wordt toegewezen en u dan ook een gebruiker toewijst, beslist Adobe Workfront welke baanrol aan de extra gebruiker (als om het even welk) te associëren volgens de volgende regels:
+  Als een taak of een kwestie aan één of veelvoudige rollen wordt toegewezen en u dan ook een gebruiker toewijst, beslist Adobe Workfront welke baanrol aan de extra gebruiker (als om het even welk) te associëren volgens de volgende regels:
 
    * Als er slechts één taakrol is toegewezen en deze overeenkomt met de primaire rol van de gebruiker, wordt de taak of kwestie alleen toegewezen aan de gebruiker die zijn primaire rol vervult.
    * Als er veelvoudige toegewezen rollen zijn en minstens één van de rollen de secundaire rollen van de gebruiker aanpast, dan wordt de taak of de kwestie toegewezen aan de gebruiker die één van hun Andere Rollen vervult — die Workfront willekeurig selecteert als er veelvoudige gelijken zijn — evenals om het even welke extra rollen die worden toegewezen.
@@ -118,17 +118,21 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 
    * Typ de naam van een gebruiker, rol of team die u wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
-      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Voorwaardelijk) Klik op een van de namen in het dialoogvenster **Voorgestelde toewijzingen** list
    * Klikken **Toewijzen aan mij** om het aan zich toe te wijzen
    * Klikken **Geavanceerd**
 
-      Het maken van geavanceerde toewijzingen is vergelijkbaar voor taken en problemen. Voor informatie over hoe te om geavanceerde taken te maken, zie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Het maken van geavanceerde toewijzingen is vergelijkbaar voor taken en problemen. Voor informatie over hoe te om geavanceerde taken te maken, zie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-      >[!TIP]
-      >
-      >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+     >[!TIP]
+     >
+     >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen.
+     >
+     >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+     >
+     >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
 
 1. Klikken **Opslaan** om het toewijzen van het probleem te voltooien.
@@ -153,14 +157,19 @@ Om kwesties in een lijst toe te wijzen:
 
    * Klik in het dialoogvenster **Toegewezen aan** of **Toegewezen** en typ de naam van een actieve gebruiker die u aan de uitgave wilt toewijzen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de lijst.
 
-      ![](assets/assigned-to-field-task-list-nwe.png)
+     ![](assets/assigned-to-field-task-list-nwe.png)
 
    * Klik in het dialoogvenster **Toewijzingen** veld en typ de naam van een actieve gebruiker, taakrol of actief team die u aan de uitgave wilt toewijzen, en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
-      ![](assets/assignments-field-task-list-nwe.png)
+     ![](assets/assignments-field-task-list-nwe.png)
+
    >[!TIP]
    >
-   >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen.
+   >
+   >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >
+   De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Voorwaardelijk) Klik, indien zichtbaar in het veld Toewijzingen, op de knop **Personenpictogram** ![](assets/teams.png) in de rechterbovenhoek van het toewijzingsvak om het vak Geavanceerde toewijzingen te openen en geavanceerde toewijzingen te maken. Zie voor meer informatie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

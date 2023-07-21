@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: Meerdere gebruikerstoewijzingen in een takenlijst wijzigen
 description: Wanneer het beheren van taaktaken, kunt u hen voor veelvoudige taken tegelijkertijd wijzigen door de bulkbewerkingseigenschap in een lijst van taken te gebruiken.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks, Resource Management
+role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -123,21 +124,21 @@ When assigning users to work, their availability according to their schedules af
 
       1. In de **Toewijzingen** sectie, selecteert u **Geadresseerde**.
 
-         Informatie die algemeen is voor alle geselecteerde taken, wordt weergegeven. Als bijvoorbeeld dezelfde gebruiker aan alle taken is toegewezen, wordt die gebruiker in het dialoogvenster **Geadresseerde** kolom. Als de informatie niet over de geselecteerde taken gemeenschappelijk is, wordt geen informatie weergegeven.
+         Informatie die algemeen is voor alle geselecteerde taken, wordt weergegeven. Als bijvoorbeeld dezelfde gebruiker aan alle taken is toegewezen, wordt die gebruiker in het dialoogvenster **Geadresseerde** kolom. Als de informatie niet over de geselecteerde taken gemeenschappelijk is, wordt geen informatie weergegeven.
 
       1. Begin de naam van een gebruiker, een rol, of een team te typen, dan het te selecteren wanneer het in de lijst toont. De toewijzing wordt toegevoegd en vervangt niet de huidige toewijzingen voor de geselecteerde taken.
-      >[!TIP]
-      >
-      > * U kunt meerdere gebruikers, taakrollen of teams toewijzen. U kunt alleen actieve gebruikers, taakrollen en teams toewijzen.
-      >   
-      > * Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
 
-         > 
-         >   Als een gebruiker, een baanrol, of een team werd toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
-         >   
-         >     * Wijs het werkitem opnieuw toe aan actieve bronnen.
-         >     * Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
 
+     >[!TIP]
+     >
+     > * U kunt meerdere gebruikers, taakrollen of teams toewijzen. U kunt alleen actieve gebruikers, taakrollen en teams toewijzen.
+     >   
+     > * Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt. De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     > 
+     >   Als een gebruiker, een baanrol, of een team werd toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
+     >   
+     >     * Wijs het werkitem opnieuw toe aan actieve bronnen.
+     >     * Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
 
 
    * Afzonderlijke toewijzingen verwijderen:
@@ -147,27 +148,27 @@ When assigning users to work, their availability according to their schedules af
          of
 
          (Voorwaardelijk) Als de toegewezen persoon die u wilt verwijderen niet in de sectie Toewijzingen wordt weergegeven omdat de toegewezen persoon aan slechts enkele van de geselecteerde taken is toegewezen, klikt u op **Toegewezen verwijderen** en typ de naam van de toegewezen persoon die u wilt verwijderen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+
    * Alle bestaande toewijzingen verwijderen:
 
       1. Klikken **Alle bestaande toewijzingen verwijderen** en klik vervolgens op **Ja, alle toewijzingen verwijderen**.
 
          Hierdoor worden niet alleen algemene toewijzingen (toewijzingen die in het dialoogvenster Bewerken worden weergegeven), maar ook alle toewijzingen voor alle geselecteerde taken verwijderd.
-      Het verwijderen van gebruikers uit taken kan taakuren en toewijzingspercentages beïnvloeden.
 
-      Zie voor meer informatie [Overzicht van het wijzigen van taaktaken](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+     Het verwijderen van gebruikers uit taken kan taakuren en toewijzingspercentages beïnvloeden.
 
-
-
-
+     Zie voor meer informatie [Overzicht van het wijzigen van taaktaken](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 1. (Optioneel) Wijzig een of meer van de volgende opties voor toewijzingen:
 
    * (Voorwaardelijk) **Toewijzing % of uren**: Geef een nieuw toewijzingspercentage of nieuwe uren op.
 
-      >[!NOTE]
-      >
-      >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-      Als het veld leeg is, betekent dit dat de waarde verschillend is voor alle taken. u kunt deze echter nog wijzigen .
+     >[!NOTE]
+     >
+     >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+     >
+     >
+     Als het veld leeg is, betekent dit dat de waarde verschillend is voor alle taken. u kunt deze echter nog wijzigen .
 
    * **Taakeigenaar**: Selecteer deze optie als u de toegewezen eigenaar van de taak wilt maken voor alle taken die worden bewerkt.
    * **Rol van de gemachtigde**: Selecteer een rol in de vervolgkeuzelijst. Als deze optie niet is geselecteerd, selecteert Adobe Workfront automatisch de primaire rol van de gebruiker.

@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Een goedkeuringsproces bewerken
 description: Als u een Adobe Workfront-beheerder bent of als u beheerdersrechten hebt voor goedkeuringsprocessen, kunt u alle goedkeuringsprocessen in het systeem zien en bewerken.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Voor informatie over het maken van goedkeuringsprocessen raadpleegt u [Een goedk
 >
 >* Een werkgebied toevoegen na het huidige werkgebied
 >* Een extra fiatteur toevoegen voor het huidige werkgebied
-
 
 ## Toegangsvereisten
 
@@ -135,6 +134,7 @@ U moet het volgende hebben:
    <p><b>TIP</b>:</p>
 
    <p>Wanneer u een gebruiker toevoegt als fiatar, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.</p>
+      <p>De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Toegang verlenen aan gebruikers</a></p>.
 
    <p><b>OPMERKING</b>:
 

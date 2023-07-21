@@ -5,11 +5,12 @@ navigation-topic: manage-projects
 title: Informatie beheren in het gebied Projectoverzicht
 description: Informatie beheren in het gebied Projectoverzicht
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -154,10 +155,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!TIP]
    >
-   >Wanneer u de velden Projecteigenaar, Projectsponsor en Resource Manager bijwerkt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >Wanneer u de velden Projecteigenaar, Projectsponsor en Resource Manager bijwerkt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen.
+   >
+   >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   > 
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Bekijk de volgende velden in de sectie Overzicht. U kunt de volgende velden niet bewerken:
+1. Bekijk de volgende velden in de sectie Overzicht. U kunt de volgende velden niet bewerken:
 
    | Veld | Beschrijving |
    |---|---|

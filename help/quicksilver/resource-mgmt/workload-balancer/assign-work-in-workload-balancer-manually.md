@@ -5,10 +5,11 @@ title: Handmatig werk toewijzen met Workload Balancer
 description: Met de Adobe Workfront Workload Balancer kunt u handmatig werkitems toewijzen aan gebruikers.
 author: Alina
 feature: Resource Management
+role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -83,13 +84,18 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
    >* In Windows: CTRL+klik op de taak of de uitgiftebalk.
    >* In Mac: CMD+klik op de taak- of uitgavenbalk.
 
-
 1. Voer een van de volgende handelingen uit:
 
    * Begin de naam van een gebruiker, baanrol, of team te typen die u aan het punt in wilt toewijzen **Personen, rollen of teams zoeken** , selecteert u het veld wanneer het wordt weergegeven in de lijst en klikt u vervolgens op **Opslaan**.
+
    >[!TIP]
    >
-   >Wanneer u een gebruiker toevoegt, ziet u de avatar, de primaire rol van de gebruiker en hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >Wanneer u een gebruiker toevoegt, ziet u de avatar, de primaire rol van de gebruiker en hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen.
+   >
+   >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
+   >
+   > De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
 
    ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
@@ -113,12 +119,12 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
    >   
    >   * Wijs het werkitem opnieuw toe aan actieve bronnen.
    >   * Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
-
+   >   
+   >
 
    * Klikken **Geavanceerd** om toegang te krijgen tot Geavanceerde toewijzingen.
 
-      Voor meer informatie over het maken van Geavanceerde Taken, zie [Geavanceerde toewijzingen maken](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
+     Voor meer informatie over het maken van Geavanceerde Taken, zie [Geavanceerde toewijzingen maken](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. (Optioneel) Klik op de knop **Toewijzingspictogram tonen** ![](assets/show-allocations-icon-small.png)klikt u op de knop **Het menu Meer** ![](assets/qs-more-menu.png) > **Toewijzingen bewerken**.
 

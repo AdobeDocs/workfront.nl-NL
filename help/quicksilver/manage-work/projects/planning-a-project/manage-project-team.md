@@ -4,11 +4,12 @@ navigation-topic: plan-a-project
 title: Het projectteam beheren
 description: Het team van het Project bestaat uit gebruikers die met het project worden geassocieerd. De leden van de vertoning van het Team van het Project in de sectie van Mensen van het project.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -136,7 +137,8 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
    >
    >* U kunt geen gebruikers toevoegen door hun teams, groepen, bedrijven, of baanrollen toe te voegen.
    >* Terwijl u de gebruikers toevoegt, ziet u de avatar, de primaire rol van de gebruiker en hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
-
+   >
+   >  De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Klikken **Toevoegen**.
