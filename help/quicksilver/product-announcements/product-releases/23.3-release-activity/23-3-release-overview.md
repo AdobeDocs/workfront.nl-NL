@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,9 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
 >| <ul><li>23.8 (31 augustus 2023)</li><li>23.9 (28 september 2023)</li><li>23.10 (26 oktober 2023)</li></ul> | <ul><li>23.10 uur (week 26 oktober 2023)</li></ul> |
->| <ul><li>23.11 (november 2023)</li><li>23.12 (december 2023)</li><li>24.1 (januari 2024)</li></ul> | <ul><li>24.1 (januari 2024)</li></ul> |
+>| <ul><li>Geen release (november 2023)</li><li>Geen vrijgave (december 2023)</li><li>24.1 (januari 2024)</li></ul> | <ul><li>24.1 (januari 2024)</li></ul> |
+>
+>Voor meer informatie over het snelle releaseproces raadpleegt u [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
