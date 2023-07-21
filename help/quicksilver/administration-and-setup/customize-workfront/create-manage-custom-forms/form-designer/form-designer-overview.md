@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ Hoewel u bij het ontwerpen van een nieuw aangepast formulier nog geen weergave-/
 
 Pictogrammen op een veld in de formulierontwerper geven aan dat logica wordt toegepast op het veld.
 
-De **D** linksonder betekent dat het veld het doelveld voor de weergavelogica is (als een specifieke selectie op het formulier wordt gemaakt, wordt dit veld weergegeven). De **D** pictogram rechtsonder betekent dat het veld wordt gebruikt om weergavelogica te definiëren (een specifieke selectie of waarde in dit veld geeft het doelveld weer).
+De ![Logica voor doelveld weergeven](assets/display-logic-bottom-left.png) linksonder betekent dat het veld het doelveld voor de weergavelogica is (als een specifieke selectie op het formulier wordt gemaakt, wordt dit veld weergegeven). De ![Pictogram voor weergavelogica definiëren](assets/display-logic-bottom-right.png) pictogram rechtsonder betekent dat het veld wordt gebruikt om weergavelogica te definiëren (een specifieke selectie of waarde in dit veld geeft het doelveld weer).
 
-De **S** pictogram linksonder betekent dat het veld het doelveld is voor de logica van overslaan (als een specifieke selectie is aangebracht op het formulier, slaat het formulier over naar dit veld). De **S** pictogram rechtsonder betekent dat het veld wordt gebruikt om logica overslaan te definiëren (een specifieke selectie of waarde in dit veld slaat andere velden over en gaat rechtstreeks naar het doelveld).
+De ![Logica voor doelveld overslaan](assets/skip-logic-bottom-left.png) pictogram linksonder betekent dat het veld het doelveld is voor de logica van overslaan (als een specifieke selectie is aangebracht op het formulier, slaat het formulier over naar dit veld). De ![Logicopictogram voor overslaan definiëren](assets/skip-logic-bottom-right.png) pictogram rechtsonder betekent dat het veld wordt gebruikt om logica overslaan te definiëren (een specifieke selectie of waarde in dit veld slaat andere velden over en gaat rechtstreeks naar het doelveld).
+
+![Logische pictogrammen](assets/logic-icons-3.png)
 
 Als u een veld selecteert waarop logica is toegepast, worden de bestaande logische regels in de veldinstellingen weergegeven.
 
