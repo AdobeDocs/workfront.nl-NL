@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                             </li>
                             <li>
                                  <p>Productieversie: Met de release van 23.2<br />
-                                 <span style="color: #ff0000;">De bètaversie van de formulierontwerper is op 24 mei 2023 tijdelijk uitgeschakeld in Preview en Production.</span></p>
+                                 <span style="color: #ff0000;">De bètaversie van de formulierontwerper is tijdelijk uitgeschakeld in Voorvertoning en Productie van 24 mei tot 21 juli 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Naam van punten in lay-outsjabloon wijzigen</span></a>
-                        </span></a><p>U kunt nu de namen van punten in een lay-outsjabloon wijzigen zodat deze voor uw gebruikers betekenisvoller worden in plaats van de standaardnaam voor de vastgezette pagina te gebruiken. Punten die beheerders maken, worden weergegeven voor alle gebruikers die aan de lay-outsjabloon zijn toegewezen en gebruikers kunnen de naam van die punten niet wijzigen.</p>
+                        <p>U kunt nu de namen van punten in een lay-outsjabloon wijzigen zodat deze voor uw gebruikers betekenisvoller worden in plaats van de standaardnaam voor de vastgezette pagina te gebruiken. Punten die beheerders maken, worden weergegeven voor alle gebruikers die aan de lay-outsjabloon zijn toegewezen en gebruikers kunnen de naam van die punten niet wijzigen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -480,7 +480,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische aanmelding en kaartverzamelingen in de mobiele app</span></a>
-                        </span></a><p>Biometrische aanmelding is nu een optie voor een snellere aanmelding bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.</p>
+                        <p>Biometrische aanmelding is nu een optie voor een snellere aanmelding bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.</p>
                         <p>Borden-verzamelingen worden nu ook ondersteund in de mobiele app, zodat mobiele gebruikers verzamelingen kunnen bekijken waartoe ze toegang hebben in de desktopversie van hun lijst met mobiele borden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -592,7 +592,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD</span></a>
-                        </span></a><p>In de Adobe Workfront for XD-plug-in kunt u uw tekengebieden nu exporteren als één PDF-bestand of als meerdere PDF-bestanden.</p>
+                        <p>In de Adobe Workfront for XD-plug-in kunt u uw tekengebieden nu exporteren als één PDF-bestand of als meerdere PDF-bestanden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>

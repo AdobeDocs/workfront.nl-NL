@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ Voor meer informatie over deze functionaliteit in Experience Manager Assets as a
 Voor meer informatie over deze functionaliteit in Experience Manager Assets Essentials, [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Aangepaste formulieren maken met de nieuwe bètaversie van de formulierontwerper
-
->[!IMPORTANT]
->
->De bètaversie van de formulierontwerper is op 24 mei 2023 tijdelijk uitgeschakeld. Met de verouderde formulierontwikkelaar kunt u aangepaste formulieren maken en bewerken. Zie [Een aangepast formulier maken of bewerken met de oudere formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 De nieuwe formulierontwerper is nu beschikbaar in een openbare bètaversie en heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken.
 

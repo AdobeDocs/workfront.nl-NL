@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 18 mei 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica weergeven en logica-indicatoren en regels overslaan die worden weergegeven in de bètaversie van de formulierontwerper</a></p>
+                        <p>De openbare bètaversie van de formulierontwerper is op 21 juli 2023 opnieuw ingeschakeld in Voorvertoning en Productie. Bovendien kunt u nu de bestaande logicaregels bekijken die zijn gemaakt in verouderde aangepaste formulieren in de formulierontwerper.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 21 juli 2023</p>
+                            </li>
+                            <li>
+                                <p>Productieversie: 21 juli 2023</p>
                             </li>
                         </ul>
                     </td>
