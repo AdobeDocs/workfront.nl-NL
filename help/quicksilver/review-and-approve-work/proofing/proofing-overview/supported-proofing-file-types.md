@@ -7,9 +7,9 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt verschillende bestandstypen delen en reviseren met uw revisoren, zelfs al
 Workfront heeft de volgende limieten:
 
 * Bestanden moeten kleiner zijn dan 4 GB per bestand.
-* Microsoft Word- (DOC, DOCX) en PowerPoint-bestanden (PPT, PPTX) moeten kleiner zijn dan 512 MB.
+* Microsoft Word- (DOC, DOCX) en PowerPoint-bestanden (PPT, PPTX) moeten kleiner zijn dan 512 MB. (Dit is ook van toepassing op ongearchiveerde proefdrukken van deze bestandstypen die zijn gemaakt voordat de maximale bestandsgrootte is geïmplementeerd.)
 * XLS- en XLSX-bestanden moeten kleiner zijn dan 100 MB.
 * Bestanden die zijn gekoppeld aan opmerkingen op proefdrukken, moeten kleiner zijn dan 30 MB.
 * PNG-bestanden moeten een hoogte en breedte van minder dan 65535 px hebben.
@@ -180,11 +180,15 @@ Workfront heeft de volgende limieten:
 > * XLT - Microsoft Excel-sjabloon
 > * XLTX - Microsoft Excel-sjabloon
 
+>[!WARNING]
+> Het volgende statische bestandstype wordt tijdelijk niet ondersteund vanwege een beveiligingsprobleem:
+>
+> * EPS - Encapsulated PostScript
+
 * AI - Adobe Illustrator-illustraties
 * AIT - Adobe Illustrator-sjabloon
 * DOC - Microsoft Word-document
 * DOCX - Microsoft Word-document
-* EPS - Encapsulated PostScript
 * PDF - Adobe Portable-documentbestand
 * PPT - PowerPoint-presentatie
 * PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand

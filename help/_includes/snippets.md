@@ -1,5 +1,5 @@
 ---
-source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -109,7 +109,6 @@ Gekoppelde mappen instellen:
 >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel wordt weergegeven.
 >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **[!UICONTROL Main Menu]** ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Home]**.
 >
-
 
 <!-- Integrations -->
 
@@ -239,7 +238,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Laatste DPV-versie {#latest-version}
 
-**Laatste versie**: 2.1.23.
+**Laatste versie**: 15-05-2023
 
 <!-- Release -->
 
@@ -280,20 +279,18 @@ Met de knop Gereed kunt u wijzigen welke status wordt toegepast op het werkitem.
    >* Wanneer u voor elk type werkitem één status selecteert, wordt de taak- of uitgiftestatus ingesteld op die status wanneer een gebruiker op Gereed klikt voor het desbetreffende item. Als u meerdere statussen instelt voor elk type werkitem, wordt een vervolgkeuzemenu toegevoegd aan de knop Gereed en moet de gebruiker een status kiezen om de status van het werkitem te wijzigen.
    >* U kunt alleen statussen op systeemniveau koppelen aan de knop Gereed. U kunt geen groepsspecifieke statussen koppelen aan de status van het werkitem.
    >* Wanneer een gebruiker die aan het item is toegewezen het item in de status plaatst die aan de knop Gereed is gekoppeld, wordt het item weergegeven als Gereed voor die gebruiker, ongeacht of de status die u selecteert een Voltooid of Gesloten status of een werkstatus is.
-
    >   
    >   
    >  Als u bijvoorbeeld de knop Gereed koppelt aan Bezig, wordt het werkitem weergegeven als Gereed voor de gebruiker die de status wijzigt van Nieuw in Bezig.
    >   
    >* De types van kwestie zijn aanpasbaar en zij zouden verschillende namen kunnen hebben dan hieronder vermeld in uw milieu.\
-      >  Hier volgen de standaardtaken en -typen:
-      >     
-      >   * Taken
-      >   * Probleem
-      >   * Verzoek
-      >   * Volgorde wijzigen
-      >   * Foutrapport
-
+   >  Hier volgen de standaardtaken en -typen:
+   >     
+   >   * Taken
+   >   * Probleem
+   >   * Verzoek
+   >   * Volgorde wijzigen
+   >   * Foutrapport
 
    Als de taak of de kwestie aan veelvoudige gebruikers wordt toegewezen, ziet u een &quot;Gedaan met mijn deel&quot;optie in het drop-down menu, naast de veelvoudige statussen die voor uw team worden gekozen.
 

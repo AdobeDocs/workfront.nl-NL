@@ -7,9 +7,9 @@ description: Een Select- of Premium-bestand [!DNL Workfront] U moet een abonneme
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Eerst moet u de sectie Aangepast veld instellen waaraan u aangepaste velden wilt
    | **Doorzoekbaar** | Hiermee kunnen gebruikers items zoeken in het veld Aangepast. |
    | **Verborgen** | Hiermee verbergt u het aangepaste veld op het tabblad [!UICONTROL New proof], Nieuwe gast, en [!UICONTROL New user] pagina&#39;s |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klik op **[!UICONTROL Save]**.
 1. In de **Aangepast veld** pagina die wordt weergegeven, klikt u op de knop **[!UICONTROL Custom fields settings]** om de pagina te vernieuwen.
@@ -75,6 +75,10 @@ Eerst moet u de sectie Aangepast veld instellen waaraan u aangepaste velden wilt
 
    U kunt besturingselementwaarden gebruiken om de waarden in het besturingsveld te bepalen. Als u deze waarde selecteert, wordt het afhankelijke veld zichtbaar. Stel bijvoorbeeld dat het afhankelijke veld A is en dat het besturingsveld X is en dat u de besturingselementwaarden in X alleen instelt op opties 1 en 2. Dit betekent dat veld A alleen zichtbaar is als veld X optie 1 of 2 is geselecteerd. Dit betekent dat als veld X-opties 3 of 4 is geselecteerd, veld A niet wordt weergegeven. Open de **[!UICONTROL Visibility rules]** tab.
 
+   >[!NOTE]
+   >
+   >Alleen aangepaste veldtypen Lijst en Radio kunnen worden gebruikt voor het besturingsveld in een zichtbaarheidsregel, terwijl het afhankelijke veld elk veldtype kan zijn.
+
    Een zichtbaarheidsregel toevoegen:
 
    1. Klikken **[!UICONTROL New visibility rule]** voor de module waar u de regel wilt toevoegen.
@@ -87,6 +91,10 @@ Eerst moet u de sectie Aangepast veld instellen waaraan u aangepaste velden wilt
    Als optie 1 in veld Y wordt gekozen, worden alleen opties 1 en 2 in veld B weergegeven.
 
    Als optie 2 in veld Y wordt gekozen, worden alleen opties 3 en 4 in veld B weergegeven.
+
+   >[!NOTE]
+   >
+   >Alleen aangepaste veldtypen Lijst en Radio kunnen worden gebruikt voor afhankelijke en beheerste velden in een afhankelijkheidsregel.
 
    Om een gebiedsdeelregel toe te voegen:
 

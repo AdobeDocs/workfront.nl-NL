@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Artikel</td> 
-       <td> <p>Voeg tekst toe die context aan de informatie in het rapport geeft.</p> <p>Zie [uiteindelijke koppeling] voor meer informatie.</p> </td> 
+       <td> <p>Voeg tekst toe die context aan de informatie in het rapport geeft.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Webinhoud</td> 
@@ -61,7 +61,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Canvas, filter</td> 
-       <td> <p>Voeg een filter toe dat gebruikers toestaat om verschillende aspecten van een rapport te bekijken. Dit filter is op alle gegevens in het rapport van toepassing.</p> <p>Zie [uiteindelijke koppeling] voor meer informatie.</p> </td> 
+       <td> <p>Voeg een filter toe dat gebruikers toestaat om verschillende aspecten van een rapport te bekijken. Dit filter is op alle gegevens in het rapport van toepassing.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
      </tr> 
      <tr> 
       <td role="rowheader">Favoriet het rapport</td> 
-      <td>Nadat u het bewerkvenster hebt verlaten, klikt u op de knop <strong>Ster</strong> pictogram [pictogram] naast de naam van het rapport om het aan uw lijst van favoriete rapporten toe te voegen.</td> 
+      <td>Nadat u het bewerkvenster hebt verlaten, klikt u op de knop <strong>Ster</strong> pictogram naast de naam van het rapport om het aan uw lijst van favoriete rapporten toe te voegen.</td> 
      </tr> 
     </tbody> 
    </table>
