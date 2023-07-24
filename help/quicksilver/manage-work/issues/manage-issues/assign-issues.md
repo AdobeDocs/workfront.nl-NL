@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -169,7 +169,7 @@ Om kwesties in een lijst toe te wijzen:
    >
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    >
-   De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Voorwaardelijk) Klik, indien zichtbaar in het veld Toewijzingen, op de knop **Personenpictogram** ![](assets/teams.png) in de rechterbovenhoek van het toewijzingsvak om het vak Geavanceerde toewijzingen te openen en geavanceerde toewijzingen te maken. Zie voor meer informatie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

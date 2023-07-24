@@ -4,9 +4,11 @@ navigation-topic: create-and-manage-request-queues
 title: Onderwerpgroepen maken
 description: De Groepen van het onderwerp worden geassocieerd met de Queues van het Verzoek. Zij staan u toe om uw Vragen van het Verzoek in veelvoudige categorieën, afhankelijk van de aard van de verzoeken te lagen.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -58,7 +60,6 @@ Voor meer informatie over hoe te om de Queuten van het Verzoek tot stand te bren
 >* Er is geen grens aan het aantal Onderwerpen van de Rij die met een onderwerpgroep kunnen worden geassocieerd.
 >* Onderwerpgroepen zijn een te rapporteren object.
 >
-
 
 ## Onderwerpgroepen maken
 

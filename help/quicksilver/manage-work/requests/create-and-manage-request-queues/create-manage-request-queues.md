@@ -3,13 +3,15 @@ content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
 title: Aanvraagwachtrijen maken en beheren
-description: Meer informatie over het maken en beheren van aanvraagwachtrijen in Adobe Workfront vindt u in de volgende artikelen.
+description: U kunt aanvraagrijen in Adobe Workfront maken om ongeplande werkzaamheden in uw organisatie vast te leggen. De volgende artikelen beschrijven hoe u projecten kunt vormen om als verzoekrijen te functioneren.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -25,6 +27,6 @@ Deze sectie bevat de volgende artikelen:
 * [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
   -->

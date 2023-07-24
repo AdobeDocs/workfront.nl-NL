@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,12 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
 
 De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen ook de beschikbaarheid en volgorde van velden die gebruikers in de volgende gebieden zien:
 
-* &quot;Nieuw object&quot;-vakken, zoals Nieuwe taak en Nieuw probleem
+<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
+* "New object" boxes, such as New Task and New Issue
 
   ![](assets/new-task-dialog.png)
+
+-->
 
 * Schermen &quot;Object bewerken&quot;, zoals Taak bewerken, Probleem bewerken en Project bewerken
 

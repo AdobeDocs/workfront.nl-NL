@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: Werkvoorraadonderwerpen maken
 description: De Onderwerpen van de rij werken samen met het Verpletteren van Regels om het inkomende werk aan een gebruiker, baanrol, team automatisch toe te wijzen, of het op een project te plaatsen. De Onderwerpen van de rij bepalen de voorwaarden die voor de Verpletterende Regel moeten bestaan worden uitgevoerd.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -140,14 +141,18 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aanvraagtypen</strong> </td> 
-      <td> <p>Kies welk soort verzoeken dit rijonderwerp opslaat. De zichtbare opties worden ingesteld op het tabblad <strong>Wachtrij</strong> tabblad van het project. Dit is een verplicht veld. </p> <p>Opmerking: De Types van verzoek tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina's van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Een aanvraagwachtrij maken</a>. </p> <p>Selecteer een van de volgende typen:</p> 
-       <ul> 
-        <li>Foutrapport</li> 
-        <li>Volgorde wijzigen</li> 
-        <li>Probleem</li> 
-        <li>Verzoek</li> 
-       </ul> <p>Mogelijk is de naam van uw Workfront-beheerder gewijzigd in een aantal van deze opties. </p> </td> 
-     </tr> 
+      <td> <p>Kies welk soort verzoeken dit rijonderwerp opslaat. De zichtbare opties worden ingesteld op het tabblad <strong>Wachtrij</strong> tabblad van het project. Dit is een verplicht veld. </p>
+
+   <p><b>OPMERKING</b>:
+
+   De types tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Een aanvraagwachtrij maken</a>. </p> <p>Selecteer een van de volgende typen:</p>
+   <ul>
+   <li>Foutrapport</li>
+   <li>Volgorde wijzigen</li>
+   <li>Probleem</li>
+   <li>Verzoek</li>
+   </ul> <p>Mogelijk is de naam van uw Workfront-beheerder gewijzigd in een aantal van deze opties. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 
