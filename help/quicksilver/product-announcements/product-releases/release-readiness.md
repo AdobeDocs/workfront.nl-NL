@@ -6,14 +6,20 @@ description: Volg deze tips om uw organisatie voor elke nieuwe Workfront-release
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
 
 # Voorbereiden op een [!DNL Adobe Workfront] geplande release
+
+>[!NOTE]
+>
+>Workfront biedt twee modellen voor de release van nieuwe functies en updates. Uw organisatie kan kiezen of nieuwe functionaliteit op een driemaandelijkse basis, of op een sneller versieschema wordt ontvangen. Het proces om voor een versie voor te bereiden is gelijkaardig, ongeacht het model uw organisatie gebruikt.
+>
+>Voor een gedetailleerde uitleg van de twee releasemodellen raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] regelmatig belangrijke updates van de productieomgeving uit te voeren. Als [!DNL Workfront] beheerder, hebt u de kans om ervoor te zorgen dat uw organisatie een vlotte overgang aan elke nieuwe versie van heeft [!DNL Workfront] product.
 
@@ -50,7 +56,7 @@ Wij adviseren dat u enkele of alle volgende acties overweegt die u kunnen helpen
 
 Opmerkingen bij de release voor een bepaalde functie worden gepubliceerd wanneer de functie naar uw [!UICONTROL Preview Sandbox] milieu. Op die manier kunt u de functie kennen en verkennen voordat deze deel uitmaakt van uw productieomgeving.
 
-Elke release heeft een overzichtspagina met korte beschrijvingen van elke functie en koppelingen naar diepgaande notities die aanvullende informatie en demo-video&#39;s bevatten. Deze diepgaande nota&#39;s worden georganiseerd door week aangezien de versies aan voorproef voorkomen, en dan door gebied dichter aan de daadwerkelijke de versiedatum van de Productie reorganiseren.
+Elke release heeft een overzichtspagina met korte beschrijvingen van elke functie en koppelingen naar diepgaande notities die aanvullende informatie en demo-video&#39;s bevatten. Deze diepgaande nota&#39;s worden georganiseerd door week aangezien de versies aan voorproef voorkomen, en dan door gebied dichter aan de daadwerkelijke de versiedatum van de Productie driemaandelijkse uitgave reorganiseren.
 
 We raden u aan de demo-video&#39;s in de opmerkingen bij de release te bekijken. Deze kunnen bijzonder nuttig zijn om de eigenschap in actie te zien, of voor een snel onderzoek naar de context van de eigenschap als u kort op tijd bent.
 
@@ -78,7 +84,7 @@ Als [!DNL Workfront] beheerder, ontvangt u het bericht van het Centrum van de Aa
 
 ### Ontdek de [!UICONTROL Preview Sandbox] milieu
 
-De [!UICONTROL Preview Sandbox] milieu, ook bekend als [!UICONTROL Preview] milieu, dient als milieu waar de gebruikers in uw organisatie veilig met een afzonderlijke exemplaar van uw gegevens van het milieu van de Productie kunnen testen en werken. [!UICONTROL Workfront] geeft nieuwe eigenschappen en functionaliteit de milieu van de Voorproef ruim uit alvorens zij aan het milieu van de Productie worden vrijgegeven. U hebt de kans om met deze eigenschappen vertrouwd te maken alvorens zij in de dagelijkse werkschema&#39;s van uw gebruikers worden vrijgegeven. Als uw gebruikers dan problemen hebben met het gebruik van de nieuwe functies, kunt u ze gemakkelijker helpen zich aan te passen.
+De [!UICONTROL Preview Sandbox] milieu, ook bekend als [!UICONTROL Preview] milieu, dient als milieu waar de gebruikers in uw organisatie veilig met een afzonderlijke exemplaar van uw gegevens van het milieu van de Productie kunnen testen en werken. [!UICONTROL Workfront] geeft gewoonlijk nieuwe eigenschappen en functionaliteit de milieu van de Voorproef minstens twee weken uit alvorens zij aan het milieu van de Productie worden vrijgegeven. U hebt de kans om met deze eigenschappen vertrouwd te maken alvorens zij in de dagelijkse werkschema&#39;s van uw gebruikers worden vrijgegeven. Als uw gebruikers dan problemen hebben met het gebruik van de nieuwe functies, kunt u ze gemakkelijker helpen zich aan te passen.
 
 >[!TIP]
 >
