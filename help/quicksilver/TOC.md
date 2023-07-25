@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '13126'
+source-wordcount: '13125'
 ht-degree: 0%
 
 ---
@@ -447,7 +447,7 @@ ht-degree: 0%
          * [Hoe de nieuwe toegangsniveaus werken](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Overzicht van nieuwe toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [Overzicht van nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Toegang tot objecten en gebieden voor nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Toegang tot objecten en gebieden met nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Beschikbare functionaliteit voor elk objecttype voor nieuwe toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Schakel de optie voor automatische upgrade voor niet-betaalde gebruikers uit in het nieuwe licentieplan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * Hoe de toegangsniveaus werken {#legacy-access-levels}
