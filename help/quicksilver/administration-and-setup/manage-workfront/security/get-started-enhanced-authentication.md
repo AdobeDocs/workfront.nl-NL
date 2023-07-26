@@ -3,8 +3,10 @@ title: Overzicht van uitgebreide verificatie
 description: Verborgen van zoekopdracht en van linkernav
 hidefromtoc: true
 hide: true
+feature: System Setup and Administration
+role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: ab329085fae35fdda28dc8db70e3b47d9d6c28ea
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -102,7 +104,7 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
   <tr> 
    <td> <p>Beveiliging tegen pogingen tot onjuiste invoer van wachtwoord </p> </td> 
    <td> <p>✓ </p> <p>Hiermee vergrendelt u het account nadat 5 pogingen tot het invoeren van een onjuist wachtwoord zijn uitgevoerd. De wachttijd die vereist is nadat de vergrendeling is geconfigureerd door de Workfront-beheerder</p> </td> 
-   <td> <p>✓</p> <p>De wachttijd wordt exponentieel verhoogd na elk opeenvolgend onjuist wachtwoord op basis van best practices van de branche. de vereiste tijd kan niet worden geconfigureerd door de Workfront-beheerder</p> </td> 
+   <td> <p>✓</p> <p>De wachttijd wordt exponentieel verhoogd na elk opeenvolgend onjuist wachtwoord op basis van best practices in de branche; de vereiste tijd kan niet door de Workfront-beheerder worden geconfigureerd</p> </td> 
    <td> <p>✓</p> <p>Gebruikt een lock-out algoritme die proactief een verscheidenheid van verdacht gedrag blokkeert.</p> </td> 
   </tr> 
   <tr> 
@@ -150,13 +152,13 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
   </tr> 
   <tr> 
    <td> <p> De Workfront-aanmeldingspagina configureren om altijd om te leiden naar de aanmeldingspagina van de identiteitsprovider </p> </td> 
-   <td> Deze optie is standaard ingeschakeld en kan niet worden uitgeschakeld</td> 
+   <td> Standaard ingeschakeld en kan niet worden uitgeschakeld</td> 
    <td> <p>✓</p> <p>De Workfront-beheerder kan de aanmeldingspagina zo configureren dat deze wordt omgeleid naar de aanmeldingspagina van de identiteitsprovider, of kan een of meer aanmeldknoppen configureren.</p> </td> 
    <td> <p>✓</p> <p> Workfront-beheerders kunnen de aanmeldingspagina zo configureren dat deze wordt omgeleid naar de aanmeldingspagina van de identiteitsprovider, of ze kunnen een of meer aanmeldknoppen configureren.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Elke instantie toestaan om meerdere SSO-providers in te schakelen</p> </td> 
-   <td> <p>N.v.t.</p> </td> 
+   <td> <p>NVT</p> </td> 
    <td> <p>Niet gepland</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 

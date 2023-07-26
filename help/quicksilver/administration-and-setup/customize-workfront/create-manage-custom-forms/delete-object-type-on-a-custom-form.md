@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Objecttypen verwijderen op een aangepast formulier
 description: Op een bestaand aangepast formulier kunt u objecttypen verwijderen die aan het formulier zijn gekoppeld. Nadat u dit hebt gedaan, kunnen gebruikers het formulier niet meer koppelen aan objecten van dat type.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%

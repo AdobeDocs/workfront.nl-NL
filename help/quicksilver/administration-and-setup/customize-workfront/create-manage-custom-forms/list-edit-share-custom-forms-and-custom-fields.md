@@ -1,8 +1,10 @@
 ---
 title: Aangepaste formulieren en widgets die aan aangepaste formulieren zijn toegevoegd, weergeven en bewerken
-description: Wanneer u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
+description: Als u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
 author: Caroline
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+feature: System Setup and Administration, Custom Forms
+role: Admin
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 # Aangepaste formulieren en widgets die aan aangepaste formulieren zijn toegevoegd, weergeven en bewerken
 
-Wanneer u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
+Als u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
 
-Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Toegangsvereisten
 
@@ -65,7 +67,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    * Bewerkbaar voor het hele systeem
    * Zichtbaar voor het hele systeem
    * Gemaakt door u
-   * Wordt met u gedeeld, met Weergave- of Beheren-toegang
+   * Gedeeld met u, met of Mening of Beheren toegang
 
    >[!NOTE]
    >
@@ -77,8 +79,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    * [Delen voor aangepaste velden en widgets configureren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Een aangepast veld of aangepaste widget uit het systeem verwijderen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-
-1. Selecteer **Secties** en zorgt u ervoor dat **Parametergroep** is geselecteerd als de **Weergave** voor de lijst..
+1. Selecteer de **Secties** en zorg er vervolgens voor dat **Parametergroep** is geselecteerd als de **Weergave** voor de lijst..
 
    Alle sectie-einden worden in deze weergave weergegeven, samen met een lijst met aangepaste formulieren die elk sectie-einde bevatten.
 

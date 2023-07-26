@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Target-modules
 description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] met modules kunt u records maken, lezen, bijwerken of verwijderen, alle records van een bepaald type weergeven, zoekrecords weergeven op basis van criteria die u opgeeft, of een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2200'
 ht-degree: 0%
@@ -47,7 +48,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
       <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td>
@@ -55,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td>
     </tr>
     </tr>
@@ -132,7 +133,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Target] modules:
               <p>Klik op <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
-              <p>Selecteer het type bestand dat u uitpakt.</p>
+              <p>Selecteer het type bestand dat u extraheert.</p>
             </li>
             <li value="3">
               <p>Selecteer het bestand dat de persoonlijke sleutel of het certificaat bevat.</p>
@@ -358,7 +359,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
-      <td>Voer de werkruimte in of wijs de werkruimte toe die aan de activiteit is gekoppeld</td>
+      <td>Voer de werkruimte in die aan de activiteit is gekoppeld of wijs deze toe</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Property IDs] </td>
@@ -532,7 +533,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
-      <td>Voer de werkruimte in of wijs de werkruimte toe die aan de activiteit is gekoppeld</td>
+      <td>Voer de werkruimte in die aan de activiteit is gekoppeld of wijs deze toe</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Property IDs] </td>
@@ -660,7 +661,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] Basis-URL]</td>
-      <td>Voer uw [!DNL Target] basis-URL.</td>
+      <td>Voer uw gegevens in of wijs deze toe [!DNL Target] basis-URL.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -822,7 +823,7 @@ Deze zoekmodule haalt een lijst met records van het geselecteerde type op.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Sort by]</td>
-      <td>Voor elk veld waarop u wilt sorteren, klikt u op <b>[!UICONTROL Add item]</b> en selecteert u het veld en of de geretourneerde resultaten oplopend of aflopend moeten zijn.</td>
+      <td>Klik voor elk veld waarop u wilt sorteren op <b>[!UICONTROL Add item]</b> en selecteert u het veld en of de geretourneerde resultaten oplopend of aflopend moeten zijn.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts At]</td>
@@ -859,24 +860,24 @@ Deze zoekmodule zoekt naar Activiteiten, Aanbiedingen of Soorten publiek op basi
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Sort by]</td>
-    <td>Voor elk veld waarop u wilt sorteren, klikt u op <b>[!UICONTROL Add item]</b> en selecteert u het veld en of de geretourneerde resultaten oplopend of aflopend moeten zijn.</td>
+    <td>Klik voor elk veld waarop u wilt sorteren op <b>[!UICONTROL Add item]</b> en selecteert u het veld en of de geretourneerde resultaten oplopend of aflopend moeten zijn.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Search criteria]</td>
-    <td>Voor elke regel die u wilt instellen, selecteert u het veld, de operator en de waarde. Klikken <b>[!UICONTROL Add AND rule]</b> om aanvullende regels op te stellen.</td>
+    <td>Selecteer voor elke regel die u wilt instellen het veld, de operator en de waarde. Klikken <b>[!UICONTROL Add AND rule]</b> om aanvullende regels op te stellen.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Offset]</td>
     <td>
       <p>Voer het nummer in van de eerste reactie die de module moet retourneren. De eerste geretourneerde reactie heeft een verschuiving van <code>0</code>. Gebruik dit veld in combinatie met het [!UICONTROL Maximum number of returned results] om de reacties te pagineren.</p>
-      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u [!UICONTROL Offset] tot en met 20 en [!UICONTROL Maximum number of returned] resulteert in 10.</p>
+      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u [!UICONTROL Offset] tot en met 20 [!UICONTROL Maximum number of returned] resulteert in 10.</p>
     </td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Maximum number of returned results]</td>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
       <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren. Gebruik dit veld in combinatie met het [!UICONTROL Offset] om de reacties te pagineren.</p>
-      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u [!UICONTROL Offset] tot en met 20 en [!UICONTROL Maximum number of returned] resulteert in 10.</p>
+      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u [!UICONTROL Offset] tot en met 20 [!UICONTROL Maximum number of returned] resulteert in 10.</p>
     </td>
   </tr>
 </tbody>

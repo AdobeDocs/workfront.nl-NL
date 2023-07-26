@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Adobe Workfront] documentatie'
 description: Documentatie voor [!DNL Adobe Workfront].
+feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 757fcb4dae232e90850b77a7d77c23e181519183
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -35,7 +36,7 @@ Zie [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-fusion
 
 ### De basisbeginselen voor gebruikers
 
-Ga aan de slag met Workfront door de basisbeginselen te beheersen.
+Ga aan de slag met Workfront door de basisbeginselen onder de knie te krijgen.
 
 Zie [Basisbegrippen voor Adobe Workfront](/help/quicksilver/workfront-basics/workfront-basics.md).
 

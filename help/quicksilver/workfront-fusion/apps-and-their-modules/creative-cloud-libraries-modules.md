@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud-bibliotheekmodules
 description: Met de [!DNL Adobe Workfront Fusion Adobe Creative Cloud] De modules van Bibliotheken, kunt u een scenario beginnen wanneer een element of een bibliotheek worden gecreeerd of wordt bijgewerkt. U kunt ook elementen uploaden, ophalen, archiveren of een lijst maken, of een oproep doen aan de [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -46,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
       <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td>
@@ -54,9 +55,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td>
     </tr>
   </tbody>
@@ -409,7 +410,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Creative Cloud 
     <tr>
       <td role="rowheader">[!UICONTROL Query String]</td>
       <td>
-        <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p>
+        <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p>
       </td>
     </tr>

@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Delen voor aangepaste velden en widgets configureren met de oudere formulierbuilder
 description: Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 
-Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Toegangsvereisten
 
@@ -59,13 +59,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    Of voer de volgende handelingen uit als u het delen configureert voor een aangepast veld of een aangepaste widget in een bestaand aangepast formulier:
 
    1. Selecteer het aangepaste formulier en klik op **Bewerken**.
-   1. Selecteer in het formulierbewerkingsgebied aan de rechterkant het item waarvoor u delen wilt configureren.
+   1. Selecteer in het formulierbewerkingsgebied aan de rechterkant het item waarvoor u het delen wilt configureren.
    1. Klik in het linkerdeelvenster op **Veld delen**.
-
 
 1. In de **Aangepaste veldtoegang** vak waarin wordt weergegeven, geeft u aan met wie u het item wilt delen en hoe u het wilt delen:
 
-   1. In de linkerbenedenhoek van het dialoogvenster **Aangepaste veldtoegang** vak, onder **Aangepaste veldtoegang verlenen aan**, typt u de naam van een gebruiker, team, taakrol, groep of bedrijf waarmee u het item wilt delen, en klikt u vervolgens op de naam wanneer het item wordt weergegeven.
+   1. In de linkerbenedenhoek van het dialoogvenster **Aangepaste veldtoegang** onder **Aangepaste veldtoegang verlenen aan**, typt u de naam van een gebruiker, team, taakrol, groep of bedrijf waarmee u het item wilt delen, en klikt u vervolgens op de naam wanneer het item wordt weergegeven.
 
       ![](assets/share-field-give-access-to.jpg)
 
@@ -91,15 +90,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 1. (Optioneel) Herhaal de vorige stap om andere namen aan de lijst toe te voegen en de opties te configureren.
 1. (Optioneel) Klik op het tandwielpictogram ![](assets/gear-icon-settings.png) in de rechterbovenhoek als u een optie voor het delen van het veld voor het hele systeem wilt kiezen.
 
-   Niet alle volgende opties worden tegelijkertijd weergegeven in dit keuzemenu. De tweede wordt bijvoorbeeld alleen weergegeven wanneer een van de andere twee is geselecteerd.
+   Niet alle volgende opties worden tegelijkertijd weergegeven in dit vervolgkeuzemenu. De tweede wordt bijvoorbeeld alleen weergegeven wanneer een van de andere twee is geselecteerd.
 
    * **Dit bewerkbaar maken voor het hele systeem, zodat iedereen in Workfront het kan bewerken** (de standaardoptie)
 
-      Wanneer u een aangepast veld of een aangepaste widget toevoegt en u het delen ervan niet beperkt, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren deze weergeven en de eigenschappen ervan bewerken.
+     Wanneer u een aangepast veld of een aangepaste widget toevoegt en u het delen ervan niet beperkt, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren deze weergeven en de eigenschappen ervan bewerken.
 
    * **Toegang tot bewerken in het hele systeem verwijderen**
 
-      Hiermee beperkt u de toegang tot alleen de personen die u aan de lijst hebt toegevoegd.
+     Hiermee beperkt u de toegang tot alleen de personen die u aan de lijst hebt toegevoegd.
 
    * **Dit systeem zo zichtbaar maken dat iedereen in Workfront het kan zien**
 
@@ -124,7 +123,7 @@ U kunt erachter komen wie toegang tot een aangepast veld of een aangepaste widge
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
 1. Klik op de knop **Velden** en selecteert u vervolgens het veld, de afbeelding of de toegangswidget.
-1. Klik in het vak dat wordt weergegeven op **Overgenomen machtigingen** en bekijk de namen die worden weergegeven.
+1. Klik in het weergegeven vak op **Overgenomen machtigingen** en bekijk de namen die worden weergegeven.
 1. Klikken **Annuleren**.
 
 ### Toegang tot een aangepast veld of aangepaste widget verwijderen in een aangepast formulier dat is gedeeld {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}

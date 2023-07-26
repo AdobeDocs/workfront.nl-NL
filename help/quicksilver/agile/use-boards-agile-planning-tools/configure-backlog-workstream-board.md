@@ -5,8 +5,9 @@ navigation-topic: boards
 title: De achterstand op een werkstroomgebied configureren
 description: U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en een vraag voor de kaarten te bepalen die in de bordbacklog van de werkstroomkaartlijst worden getrokken.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -76,7 +77,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De waarde is niet beschikbaar als u &quot;bestaat&quot;of &quot;niet bestaat&quot;als bepaling gebruikt.
 
-   Als u bijvoorbeeld &quot;Vervaldatum&quot; en &quot;bestaat&quot; kiest, worden in de backlog kaarten weergegeven met toegewezen vervaldatums. Een kaart zonder vervaldatum wordt niet op de achterstand gezet.
+   Als u bijvoorbeeld &quot;Vervaldatum&quot; en &quot;bestaan&quot; kiest, worden in de backlog kaarten weergegeven met toegewezen vervaldatums. Een kaart zonder vervaldatum wordt niet op de achterstand gezet.
 
 1. (Optioneel) Klik op [!UICONTROL **Voorwaarde toevoegen**] om een andere voorwaarde aan de vraag toe te voegen.
 

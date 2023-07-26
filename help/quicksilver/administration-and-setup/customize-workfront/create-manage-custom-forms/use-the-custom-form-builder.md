@@ -6,19 +6,19 @@ product-area: system-administration
 navigation-topic: customize-workfront
 description: U kunt een aangepast formulier maken dat gebruikers aan een Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 7b225c5b9010089189ecbc2260e6148c9494e3eb
+exl-id: 9268fe04-1ad2-481f-822d-6e2b8ac23e26
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-
 # De verouderde aangepaste formulierbuilder gebruiken
 
-* [Een aangepast formulier maken of bewerken met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+* [Een aangepast formulier maken of bewerken met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 * [Een aangepast formulier kopiëren om een nieuw formulier te maken met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
 * [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
 * [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)

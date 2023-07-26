@@ -5,8 +5,9 @@ navigation-topic: api-navigation-topic
 title: API
 description: Workfront API-artikelen
 author: Becky
+feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Deze sectie bevat de volgende artikelen:
 * [Abonnementscertificaten voor gebeurtenissen](../../wf-api/api/event-sub-certs.md)
 * [Geef een API-versie op in uw integratie](../../wf-api/api/specify-api-version-integrations.md)
 
-* [Core API-wijzigingen: Antwoorden van statuszoekacties](../../wf-api/api/api-changes-search.md)
+* [Core API-wijzigingen: antwoorden op statuszoekopdrachten](../../wf-api/api/api-changes-search.md)
 * [Integraties bijwerken die standaard-API-versies gebruiken](../../wf-api/api/update-default-api-versioning.md)
 * [Vervalsing van API-intern](../../wf-api/api/deprecation-api-internal.md)
 * [Geslaagde tekens in API-reacties](../../wf-api/api/escaped-characters-api.md)
@@ -33,10 +34,10 @@ Deze sectie bevat de volgende artikelen:
 * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met PKCE-stroom](../../wf-api/api/oauth-app-pkce-flow.md)
 * [Nieuwe functies in API-versie 16](../../wf-api/api/new-api-version-16.md)
-* [Nieuw in API-versie 15](../../wf-api/api/new-api-version-15.md)
-* [Nieuw in API-versie 14](../../wf-api/api/new-api-version-14.md)
+* [Nieuwe functies in API-versie 15](../../wf-api/api/new-api-version-15.md)
+* [Nieuwe functies in API-versie 14](../../wf-api/api/new-api-version-14.md)
 * [Nieuwe functies in API-versie 13](../../wf-api/api/new-api-version-13.md)
-* [Nieuw in API-versie 12](../../wf-api/api/new-api-version-12.md)
+* [Nieuwe functies in API-versie 12](../../wf-api/api/new-api-version-12.md)
 * [Nieuw in API-versie 11](../../wf-api/api/new-api-version-11.md)
 * [Nieuw in API-versie 10](../../wf-api/api/new-api-version-10.md)
 * [Nieuw in API-versie 9](../../wf-api/api/new-api-version-9.md)

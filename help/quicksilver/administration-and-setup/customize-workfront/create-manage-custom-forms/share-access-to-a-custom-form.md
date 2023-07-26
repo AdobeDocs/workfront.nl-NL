@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt toegang voor een douaneformulier vormen om te controleren wie-persoon, rol, groep, team, bedrijf-kan bekijken, delen, en het uitgeven.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%
@@ -72,16 +72,16 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
       <td role="rowheader">Weergeven</td> 
       <td> <p>U kunt het aangepaste formulier weergeven en invullen op objecten.</p> <p><b>OPMERKING</b>: Voor gebruikers met een licentie voor werk, revisie en aanvragen is dit de hoogst beschikbare optie.</p> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of u het volgende wilt toestaan:</p> 
        <ul> 
-        <li><strong>Koppelen aan aangepaste gegevens</strong>: De mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</li> 
-        <li> <p><strong>Delen</strong>: De mogelijkheid om het aangepaste formulier te delen met anderen in het systeem</p> <p>Gebruikers met een licentie voor werk, revisie of aanvragen kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport. Zie voor meer informatie.</p> </li> 
+        <li><strong>Koppelen aan aangepaste gegevens</strong>: Mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</li> 
+        <li> <p><strong>Delen</strong>: Mogelijkheid om het aangepaste formulier te delen met anderen in het systeem</p> <p>Gebruikers met een licentie voor werk, revisie of aanvragen kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport. Zie voor meer informatie.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beheren</td> 
       <td> <p>Alleen beschikbaar voor gebruikers met een licentie voor abonnementen. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of u het volgende wilt toestaan:</p> 
        <ul> 
-        <li> <p><strong>Koppelen aan aangepaste gegevens</strong>: De mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</p> </li> 
-        <li><strong>Verwijderen</strong>: Het aangepaste formulier van het systeem verwijderen</li> 
+        <li> <p><strong>Koppelen aan aangepaste gegevens</strong>: Mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</p> </li> 
+        <li><strong>Verwijderen</strong>: Het aangepaste formulier verwijderen van het systeem</li> 
         <li><strong>Delen</strong>: Het aangepaste formulier delen met anderen in het systeem</li> 
        </ul> </td> 
      </tr> 
@@ -97,7 +97,6 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
    >
    >* Wanneer u een aangepast formulier systeembreed zichtbaar maakt, staat u gebruikers toe het formulier alleen te bekijken en in te vullen op objecten waaraan ze zijn toegewezen, en niet het aan andere objecten te koppelen. U kunt de mogelijkheid bieden om het aangepaste formulier aan objecten te koppelen met de optie &quot;Bijvoegen aan aangepaste gegevens&quot; die in stap 5 wordt beschreven.
    >* De meeste organisaties willen ervoor zorgen dat iedereen in het systeem een douaneformulier kan invullen wanneer het aan voorwerpen wordt vastgemaakt zij werken en zijn gegevens in rapporten bekijken. Als dit voor uw organisatie waar is, adviseren wij dat u &quot;**Dit voor het hele systeem zichtbaar maken**.&quot; Wanneer de optie deze manier wordt gevormd, &quot;Zichtbare systeem-brede&quot;vertoningen in de dialoogdoos:
-
    >   
    >![](assets/visible-system-wide-350x480.png)
    >   

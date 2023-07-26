@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt de naam van bestaande aangepaste formulieren wijzigen met de formulierontwerper.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # De naam van een aangepast formulier wijzigen met de formulierontwerper
 
@@ -34,7 +34,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
-   <p>Huidig plan: Standaard</p>
+   <p>Huidige abonnement: standaard</p>
    <p>of</p>
    <p>Ouder plan: Plan</p></td> 
   </tr> 

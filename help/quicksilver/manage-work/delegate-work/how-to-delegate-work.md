@@ -4,8 +4,9 @@ navigation-topic: delegate-work
 title: Taken en problemen delegeren
 description: U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. In dit artikel wordt beschreven hoe taken kunnen worden gedelegeerd en hoe taken kunnen worden uitgegeven.
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -32,16 +33,14 @@ Voor algemene informatie over het delegeren van werk, zie [Overzicht van werkzaa
 >
 >* De gebruikers die u als afgevaardigden selecteert, ontvangen de zelfde toestemmingen zoals uw toestemmingen op de taken en de kwesties u aan hen delegeert.
 >* De toestemmingen moeten binnen hun toegangsniveaus werken, en soms zouden hun toegangsniveaus lager kunnen zijn dan van u.
-
-   >
-   >   
-   >   Bijvoorbeeld, als een gebruiker slechts de toegang van de Mening tot taken op hun toegangsniveau heeft en u hebt leiden toestemmingen op de taken u aan hen delegeert, ontvangen zij leiden toestemmingen aan de taken u aan hen delegeert. Ze kunnen echter niet dezelfde handelingen uitvoeren als u met betrekking tot gedelegeerde taken. Zij moeten om Edit toegang tot Taken van de systeembeheerder verzoeken om taken in uw afwezigheid bij te werken.
-   >
-   >   
-   >   Voor informatie over hoe een kan uw toegangsniveau wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>
+>   
+>   Bijvoorbeeld, als een gebruiker slechts de toegang van de Mening tot taken op hun toegangsniveau heeft en u hebt leiden toestemmingen op de taken u aan hen delegeert, ontvangen zij leiden toestemmingen aan de taken u aan hen delegeert. Ze kunnen echter niet dezelfde handelingen uitvoeren als u met betrekking tot gedelegeerde taken. Zij moeten om Edit toegang tot Taken van de systeembeheerder verzoeken om taken in uw afwezigheid bij te werken.
+>
+>   
+>   Voor informatie over hoe een kan uw toegangsniveau wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* Voor punten die na de delegatie reeds begonnen worden toegewezen, kan het tot één uur duren nadat het punt werd toegewezen voor [!DNL Workfront] om de onlangs-toegewezen punten met de afgevaardigde te delen.
-
 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
@@ -87,11 +86,11 @@ Voordat u de in dit artikel beschreven activiteiten kunt uitvoeren, moet u het v
 
 * Uw [!DNL Workfront] of groepsbeheerder de optie [!UICONTROL Allow users to delete tasks & issues with logged hours] in het dialoogvenster [!UICONTROL Setup] gebied van uw [!DNL Workfront] -instantie.
 
-   Zie voor meer informatie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Zie voor meer informatie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Taken en problemen delegeren aan een andere gebruiker
 
-Alvorens het werk aan anderen te delegeren, adviseren wij dat u hen bereikt en hen deelt dat zij als afgevaardigden op uw het werkpunten zullen worden aangewezen. Vraag om hun mondelinge goedkeuring alvorens werk te delegeren om ervoor te zorgen zij de tijd nodig hebben om het werk te voltooien terwijl u uit het bureau bent.
+Alvorens het werk aan anderen te delegeren, adviseren wij dat u hen bereikt en hen op de hoogte brengt dat zij als afgevaardigden op uw het werkpunten zullen worden aangewezen. Vraag om hun mondelinge goedkeuring alvorens werk te delegeren om ervoor te zorgen zij de tijd nodig hebben om het werk te voltooien terwijl u uit het bureau bent.
 
 Voor algemene informatie over het delegeren van taken en kwesties, zie [Overzicht van taken en problemen delegeren](delegate-work.md).
 
@@ -105,29 +104,30 @@ Uw taken en problemen delegeren aan anderen:
 
    * [!UICONTROL **Uw taken en problemen delegeren aan**]: Typ de naam van een gebruiker waaraan u uw taken en uitgaven wilt delegeren en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven. U kunt slechts één gebruiker selecteren.\
 
-      De gebruiker die u als afgevaardigde selecteert ontvangt de zelfde toestemmingen zoals uw toestemmingen op de taken en de kwesties u aan hen delegeert. Zie voor meer informatie [Taak- en probleemoverzicht delegeren](delegate-work-overview.md).
+     De gebruiker die u als afgevaardigde selecteert ontvangt de zelfde toestemmingen zoals uw toestemmingen op de taken en de kwesties u aan hen delegeert. Zie voor meer informatie [Taak- en probleemoverzicht delegeren](delegate-work-overview.md).
 
    * [!UICONTROL **Begindatum**]: Selecteer een datum in de kalender waarop de delegatie van uw werkitems moet beginnen.
 
-      >[!TIP]
-      >
-      >De begindatum kan niet in het verleden zijn.
+     >[!TIP]
+     >
+     >De begindatum kan niet in het verleden zijn.
 
-   * [!UICONTROL **Geen einddatum**]: Selecteer deze optie als u niet de einddatum voor uw delegatie wilt specificeren.
+   * [!UICONTROL **Geen einddatum**]: Selecteer deze optie als u de einddatum voor uw delegatie niet wilt opgeven.
 
    * [!UICONTROL **Einddatum**]: Selecteer een datum in het rooster waarop de delegatie moet stoppen.
 
-      >[!TIP]
-      >
-      >Als u geen einddatum selecteert, wordt de delegatie alleen voor de huidige dag ingeschakeld.
+     >[!TIP]
+     >
+     >Als u geen einddatum selecteert, wordt de delegatie alleen voor de huidige dag ingeschakeld.
 
-      ![](assets/delegate-box-expanded-in-home.png)
+     ![](assets/delegate-box-expanded-in-home.png)
 
 1. Klikken [!UICONTROL **Opslaan**].
 
    De volgende dingen gebeuren:
 
    * Uw werk wordt gedelegeerd aan de opgegeven gebruiker. Eventuele onvolledige taken of problemen die datums hebben binnen de door u geselecteerde tijd (inclusief de nieuw toegewezen taken nadat de delegatie is ingeschakeld) worden gedelegeerd.
+
    >[!TIP]
    >
    >   Voltooide werkitems met datums binnen de tijdsperiode van de delegatie worden niet gedelegeerd.
@@ -138,7 +138,6 @@ Uw taken en problemen delegeren aan anderen:
    * Een aanwijzing dat uw taken en problemen zijn gedelegeerd aan andere gebruikers die op de meeste gebieden worden weergegeven waar u toewijzingen kunt zien in [!DNL Workfront]. Voor meer informatie over welke gebieden de namen van afgevaardigden niet omvatten, zie [Taak- en probleemoverzicht delegeren](delegate-work-overview.md).
 
    * De [!UICONTROL **Delegeren**] in de [!UICONTROL Home] gebied verandert in [!UICONTROL **Delegatie bewerken**] aan te geven dat er een delegatie bestaat .
-
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -151,8 +150,7 @@ Uw taken en problemen delegeren aan anderen:
 
    * De gebruiker u als uw afgevaardigde selecteerde ontvangt een e-mail over de delegatie, als hun gebeurtenisberichten worden toegelaten.
 
-      Voor informatie over het inschakelen van persoonlijke e-mailmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
+     Voor informatie over het inschakelen van persoonlijke e-mailmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
@@ -163,7 +161,7 @@ U kunt een delegatie laten verlopen, als u een Einddatum selecteerde, of u kunt 
 
 1. Ga naar de [!UICONTROL Home] gebied, klik vervolgens op [!UICONTROL Edit delegation] in de rechterbovenhoek van de werklijst.
 1. In de [!UICONTROL Delegate tasks and issues] voert u een van de volgende handelingen uit:
-   * De [!UICONTROL **Begindatum**] of de [!UICONTROL **Einddatum**]
+   * Wijzig de [!UICONTROL **Begindatum**] of de [!UICONTROL **Einddatum**]
    * Klikken [!UICONTROL **Delegatie stoppen**]
 
    >[!TIP]
@@ -181,7 +179,7 @@ U kunt een delegatie laten verlopen, als u een Einddatum selecteerde, of u kunt 
    De delegatie heeft de datums bijgewerkt of is gestopt en de gedelegeerde gebruikers zijn uit uw taken en problemen verwijderd. Hun machtigingen voor de taken en problemen blijven bestaan.
 
 
-## Gedelegeerde werkzaamheden zoeken en gegevens delegeren
+## Zoeken naar gedelegeerde werkzaamheden en gedelegeerde gegevens
 
 <!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
@@ -192,24 +190,24 @@ Wanneer taken en kwesties worden gedelegeerd, zijn er verscheidene gebieden in [
 * [Gedelegeerde werkzaamheden zoeken in [!UICONTROL Home]](#locate-delegated-work-in-home)
 
 
-### Delegaties zoeken in de [!UICONTROL Assignments] box
+### Delegaties zoeken in het dialoogvenster [!UICONTROL Assignments] box
 
 Wanneer uw systeem of groepsbeheerder werkdelegatie in uw systeem toelaat, [!UICONTROL Assignments] worden de volgende tabbladen weergegeven, overal waar u toegang tot deze tabbladen hebt:
 
-* [!UICONTROL **Toewijzingen**]: Gebruikers die zijn toegewezen aan de taak of uitgave worden hier weergegeven.
-* [!UICONTROL **Delegaties**]: De gebruikers die door de wijzers op de taak worden aangewezen of geven hier vertoning uit.
+* [!UICONTROL **Toewijzingen**]: Gebruikers die hier zijn toegewezen aan de taak- of uitgifteweergave.
+* [!UICONTROL **Delegaties**]: De gebruikers die door de wijzers op de taak worden aangewezen of vertoning van de kwestie hier worden aangewezen als afgevaardigden.
 
-U hebt toegang tot de [!UICONTROL Assignments] in de volgende gebieden:
+U hebt toegang tot [!UICONTROL Assignments] in de volgende gebieden:
 
 * De taak- of uitgiftekop
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-   De [!UICONTROL Assignments] in de taak of geeft de koptekst van de uitgave aan [!UICONTROL Assignments and delegations].
+  De [!UICONTROL Assignments] in de taak of geeft de koptekst van de uitgave aan [!UICONTROL Assignments and delegations].
 
 * De [!UICONTROL Workload Balancer] bij het handmatig toewijzen van taken of problemen
 
-   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -227,9 +225,9 @@ Als een taak of een kwestie wordt gedelegeerd en [!UICONTROL Delegations] subtab
 ### Gedelegeerde werkzaamheden zoeken in [!UICONTROL Home]
 
 1. Ga naar de [!UICONTROL **Home**] klikt u op de vervolgkeuzelijst met filters en selecteert u een of meer van de volgende opties:
-   * [!UICONTROL **Gedelegeerde**]: om taken en kwesties te bekijken die aan u of door u worden gedelegeerd.
+   * [!UICONTROL **Gedelegeerde**]: om taken en problemen te bekijken die aan u of door u zijn gedelegeerd.
    * [!UICONTROL **Aan mij gedelegeerd**]: om taken en kwesties te bekijken die aan u door een andere gebruiker worden gedelegeerd.
-   * [!UICONTROL **Gedelegeerde**]: om taken en kwesties te bekijken die door u aan andere gebruikers worden gedelegeerd.
+   * [!UICONTROL **Gedelegeerde**]: om taken en problemen weer te geven die u aan andere gebruikers hebt gedelegeerd.
 
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
@@ -240,9 +238,10 @@ Als een taak of een kwestie wordt gedelegeerd en [!UICONTROL Delegations] subtab
    * [!UICONTROL Project]
    * [!UICONTROL My Priority]
 1. Breid de groeperingen in uit [!UICONTROL **Werklijst**] om gedelegeerde werkitems weer te geven. De volgende scenario&#39;s bestaan:
-   * Voor punten die u aan anderen delegeerde, toont de naam van de afgevaardigde in [!UICONTROL **Werklijst**] en de [!UICONTROL **Toewijzingen en delegaties**] rechts.
+   * Voor punten die u aan anderen delegeerde, toont de naam van de afgevaardigde in [!UICONTROL **Werklijst**] en de [!UICONTROL **Toewijzingen en delegaties**] aan de rechterkant.
 
-   * Voor items die aan u zijn gedelegeerd, wordt de naam van de ontvanger weergegeven in het dialoogvenster [!UICONTROL **Werklijst**] en de **[!UICONTROL Assignments and delegations]** rechts.
+   * Voor aan u gedelegeerde items wordt de naam van de ontvanger weergegeven in het dialoogvenster [!UICONTROL **Werklijst**] en de **[!UICONTROL Assignments and delegations]** aan de rechterkant.
+
    >[!TIP]
    >
    >    Als de delegatie op een datum na de datum van vandaag moet beginnen, wordt de begindatum van de delegatie ook weergegeven in het [!UICONTROL Work List]. De gedelegeerde items worden weergegeven in de groep die u selecteert voor de [!UICONTROL Work List], afhankelijk van het type van de groep. Als u bijvoorbeeld groepeert op [!UICONTROL Planned Completion Date], worden de gedelegeerde items weergegeven in de groep die overeenkomt met de geplande voltooiingsdatums.

@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 0%
 
 ---
-
 
 # Berekende velden toevoegen met de formulierontwerper
 
@@ -23,19 +23,19 @@ Een berekend aangepast veld kan het volgende bevatten:
 
 * Een eenvoudige verwijzing naar één ingebouwd veld.
 
-   >[!INFO]
-   >
-   > **Voorbeeld:** Om de opbrengst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend douanegebied tot stand brengen dat de ingebouwde Ware Inkomsten van het gebied bevat. Wanneer iemand de douaneformulier aan een project of een taak vastmaakt, toont de opbrengst voor het project of de taak op het gebied.
+  >[!INFO]
+  >
+  > **Voorbeeld:** Om de opbrengst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend douanegebied tot stand brengen dat de ingebouwde Ware Inkomsten van het gebied bevat. Wanneer iemand de douaneformulier aan een project of een taak vastmaakt, toont de opbrengst voor het project of de taak op het gebied.
 
 * Een expressie die naar een of meer velden verwijst. Dit kunnen aangepaste velden, andere berekende aangepaste velden en ingebouwde velden zijn.
 
-   >[!INFO]
-   >
-   >**Voorbeeld:** Om de winst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend gebied tot stand brengen genoemd Winst die een wiskundige uitdrukking bevat die kosten van opbrengst aftrekt.
-   >
-   >Hiervoor kunt u de wiskundige expressie SUB (subtract) gebruiken met de ingebouwde velden Werkelijke kosten en Werkelijke inkomsten van Workfront.
-   >
-   >In de onderstaande stappen kunt u zien hoe dit voorbeeld kan worden uitgevoerd.
+  >[!INFO]
+  >
+  >**Voorbeeld:** Om de winst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend gebied tot stand brengen genoemd Winst die een wiskundige uitdrukking bevat die kosten van opbrengst aftrekt.
+  >
+  >Hiervoor kunt u de wiskundige expressie SUB (subtract) gebruiken met de ingebouwde velden Werkelijke kosten en Werkelijke inkomsten van Workfront.
+  >
+  >In de onderstaande stappen kunt u zien hoe dit voorbeeld kan worden uitgevoerd.
 
 
 ## Toegangsvereisten
@@ -67,7 +67,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 U kunt hetzelfde berekende aangepaste veld gebruiken voor aangepaste formulieren die bij verschillende objecten horen. U kunt bijvoorbeeld het berekende veld Winst gebruiken dat u voor het aangepaste formulier voor het project hebt gemaakt, op een aangepaste taakvorm.
 
-Als u een bestaand berekend aangepast veld gebruikt, wordt de berekening niet overgedragen naar het nieuwe formulier. U moet de berekening opnieuw toevoegen, in hetzelfde veld, op het nieuwe aangepaste formulier.
+Als u een bestaand berekend aangepast veld gebruikt, wordt de berekening niet overgedragen naar het nieuwe formulier. U moet de berekening opnieuw toevoegen in hetzelfde veld op het nieuwe aangepaste formulier.
 
 U kunt ook een andere berekening voor hetzelfde veld uitvoeren op het nieuwe formulier. Als u dezelfde naam voor het berekende aangepaste veld behoudt, bent u verzekerd van consistentie en consistentie in de naamgevingsconventie.
 
@@ -78,7 +78,6 @@ U kunt ook een andere berekening voor hetzelfde veld uitvoeren op het nieuwe for
 >* Nadat u een object hebt opgeslagen waar u gegevens hebt bewerkt in een aangepast formulier, klikt u op het pictogram Meer ![](assets/more-icon.png) op de hoofdpagina van het object en vervolgens Aangepaste expressies opnieuw berekenen.
 >* Selecteer de optie Aangepaste expressies opnieuw berekenen wanneer u objecten bulksgewijs bewerkt.
 >* Selecteer de optie Vorige berekeningen bijwerken wanneer u een berekend aangepast veld op een aangepast formulier bewerkt.
-
 
 Een bestaand berekend aangepast veld opnieuw gebruiken:
 
@@ -108,7 +107,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
    >
    >Voorbeelden van complexe formulieren zijn formulieren met trapsgewijze parameters, berekende aangepaste gegevensvelden en opties voor meerdere waarden in één veld.
 
-1. Klik op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
 
    of
 
@@ -152,7 +151,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
       <td> Standaard wordt de formule die u voor het veld maakt hier opgeslagen. U kunt tekst toevoegen voor aanvullende informatie over het veld en de formule in het veld. Dit kan op twee manieren nuttig zijn: 
        <ul> 
       <li><p>Als herinnering aan wat de formule is en hoe het werkt. Dit is vooral handig als u dit berekende aangepaste veld wilt gebruiken op meerdere formulieren.</p> </li> 
-      <li> <p>Als knopinfo kunnen gebruikers zien wanneer ze de muisaanwijzer op het veld plaatsen. U voegt hier tekst toe die u in de knopinfo wilt zien.</p> <p>Als u niet wilt dat zij de formule in tooltip zien, wat voor hen verwarrend zou kunnen zijn, kunt u het verbergen.</li> 
+      <li> <p>Als knopinfo kunnen gebruikers zien wanneer ze de muisaanwijzer op het veld plaatsen. U voegt hier alle tekst toe die u in de knopinfo wilt zien.</p> <p>Als u niet wilt dat zij de formule in tooltip zien, wat voor hen verwarrend zou kunnen zijn, kunt u het verbergen.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -181,95 +180,96 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
 
       * Als u wilt dat de berekening naar een ingebouwd veld verwijst, moet de naam van het veld tussen accolades staan.
 
-         Bijvoorbeeld: `{actualRevenue}`
+        Bijvoorbeeld: `{actualRevenue}`
 
-         Veldnamen zijn hoofdlettergevoelig en moeten in de berekening precies worden weergegeven hoe ze in het Workfront-systeem worden weergegeven.
+        Veldnamen zijn hoofdlettergevoelig en moeten in de berekening precies worden weergegeven hoe ze in het Workfront-systeem worden weergegeven.
 
-         Ga naar de [Workfront API-verkenner](https://developer.adobe.com/workfront/api-explorer/) om de veldnamen te identificeren die in berekeningen kunnen worden gebruikt.
+        Ga naar de [Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/) om de veldnamen te identificeren die in berekeningen kunnen worden gebruikt.
 
       * Als u wilt dat de berekening naar een aangepast veld verwijst, moet de naam van het veld tussen accolades staan en door `DE:` tussen de haakjes.
 
-         Bijvoorbeeld: `{DE:Profit}`
+        Bijvoorbeeld: `{DE:Profit}`
 
-         In het systeem worden alle aangepaste velden weergegeven waaruit u kunt kiezen wanneer u typt `DE:`.
+        In het systeem worden alle aangepaste velden weergegeven waaruit u kunt kiezen wanneer u typt `DE:`.
 
          * Als u wilt dat de berekening verwijst naar een veld dat gegevens uit het veld *parent* Als het aangepaste formulier aan een object is gekoppeld, moet u de veldnaam ook tussen accolades en het objecttype van het bovenliggende object plaatsen.
 
-         Als het aangepaste formulier bijvoorbeeld is geconfigureerd om te werken met taken en u wilt dat het veld de werkelijke inkomsten van het bovenliggende object berekent wanneer het formulier aan een taak is gekoppeld, moet u aangeven `Project` als het objecttype van het veld:
+        Als het aangepaste formulier bijvoorbeeld is geconfigureerd voor taken en u wilt dat het veld de werkelijke inkomsten van het bovenliggende object berekent wanneer het formulier aan een taak is gekoppeld, moet u aangeven `Project` als het objecttype van het veld:
 
-         `{project}.{actualRevenue}`
+        `{project}.{actualRevenue}`
 
-         Of als het een aangepast veld is:
+        Of als het een aangepast veld is:
 
-         `{project}.{DE:profit}`
+        `{project}.{DE:profit}`
 
-         **Afzonderlijke items met perioden**
+        **Afzonderlijke items met perioden**
 
-         Wanneer u in een berekend aangepast veld naar een verwant object verwijst, moet u namen en kenmerken van objecten scheiden met punten.
+        Wanneer u in een berekend aangepast veld naar een verwant object verwijst, moet u namen en kenmerken van objecten scheiden met punten.
 
-         Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar van de Portfolio wilt weergeven in een berekend aangepast veld, typt u het volgende:
+        Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar van de Portfolio wilt weergeven in een berekend aangepast veld, typt u het volgende:
 
-         `{project}.{porfolio}.{owner}`
+        `{project}.{porfolio}.{owner}`
 
-         Dit bepaalt het volgende: Via het object van het aangepaste formulier (een taak) hebt u toegang tot het volgende object dat betrekking heeft op de taak (een project). Vanaf dat punt hebt u toegang tot het volgende verwante object voor het project (een portfolio) en kunt u vervolgens verwijzen naar de velden die zijn gedefinieerd voor het portfolioobject (de eigenaar)
+        Dit zou het volgende bepalen: Van het voorwerp van het douaneformulier (een taak), kunt u tot het volgende voorwerp met betrekking tot de taak (een project) toegang hebben. Vanaf dat punt hebt u toegang tot het volgende verwante object voor het project (een portfolio) en kunt u vervolgens verwijzen naar de velden die zijn gedefinieerd voor het portfolioobject (de eigenaar)
 
-         **Naamsyntaxis voor het verwijzen naar een aangepast veld**
+        **Naamsyntaxis voor het verwijzen naar een aangepast veld**
 
-         Wanneer u in een berekend aangepast veld naar een ander aangepast veld verwijst, moet u de naam van het veld invoeren die in de gebruikersinterface van Workfront wordt weergegeven.
+        Wanneer u in een berekend aangepast veld naar een ander aangepast veld verwijst, moet u de naam van het veld invoeren die in de gebruikersinterface van Workfront wordt weergegeven.
 
-         Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast veld met de naam Executive sponsor, typt u het volgende:
+        Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast veld met de naam Executive sponsor, typt u het volgende:
 
-         `{DE:Executive sponsor}`
+        `{DE:Executive sponsor}`
 
-         >[!NOTE]
-         >
-         >De syntaxis voor een veld met een typekop is iets anders dan voor andere typen velden, omdat u deze moet toevoegen `:name` aan het einde.
-         >
-         >Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast tekstveld met de naam &quot;Executive sponsor&quot;, typt u:
-         >
-         >`{DE:Executive sponsor:name}`
-
-
-         **Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten**
-
-         In een aangepast formulier met meerdere objecten moeten de geselecteerde objecttypen compatibel zijn met ten minste één veld waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Velden die niet compatibel zijn met het object, worden N.v.t. het formulier weergegeven.
-
-         Als u er zeker van wilt zijn dat het berekende veld het juiste resultaat voor alle objecttypen weergeeft, moet u `$$OBJCODE` om een berekening te definiëren voor elk objecttype.
-
-         >[!INFO]
-         >
-         >**Voorbeeld:**
-         >
-         >In een douaneformulier dat wordt gevormd om met projecten, taken, en kwesties te werken, kunt u de volgende formule gebruiken om het objecten type te tonen:
-         >
-         >`IF($$OBJCODE="PROJ","This is a project",IF($$OBJCODE="TASK","This is a task","This is an issue"))`
-         >
-         >Op een project zal het gebied &quot;Dit is een project&quot;tonen, op een taak zal het &quot;Dit is een taak&quot;tonen, en op een kwestie zal het &quot;Dit is een kwestie&quot;zeggen.
+        >[!NOTE]
+        >
+        >De syntaxis voor een veld met een typekop is iets anders dan voor andere typen velden, omdat u deze moet toevoegen `:name` aan het einde.
+        >
+        >Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast tekstveld met de naam &quot;Executive sponsor&quot;, typt u:
+        >
+        >`{DE:Executive sponsor:name}`
 
 
-         >[!INFO]
-         >
-         >**Voorbeeld:** Er is echter geen toewijzing aan: Het gebied van de naam in projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon invult die het project creeerde, tenzij iemand manueel dit verandert).
-         >
-         >In het veld Aangepast in lading kunt u dus `$$OBJCODE` zoals hieronder getoond om het gebied van de Eigenaar van verwijzingen te voorzien wanneer het douaneformulier aan een project in bijlage is, en toegewezen aan: Veld benoemen wanneer het formulier aan een taak is gekoppeld:
-         >
-         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
+        **Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten**
 
-         Voor meer informatie over variabelen zoals `$$OBJCODE,` zie [Variabelen van jokerfilter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        In een aangepast formulier met meerdere objecten moeten de geselecteerde objecttypen compatibel zijn met ten minste één veld waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Velden die niet compatibel zijn met het object, worden N.v.t. het formulier weergegeven.
 
-         **Automatische updates van berekende aangepaste velden**
+        Als u er zeker van wilt zijn dat het berekende veld het juiste resultaat voor alle objecttypen weergeeft, moet u `$$OBJCODE` om een berekening te definiëren voor elk objecttype.
 
-         Berekende aangepaste velden op een object worden automatisch opnieuw berekend wanneer het volgende gebeurt:
+        >[!INFO]
+        >
+        >**Voorbeeld:**
+        >
+        >In een douaneformulier dat wordt gevormd om met projecten, taken, en kwesties te werken, kunt u de volgende formule gebruiken om het objecten type te tonen:
+        >
+        >`IF($$OBJCODE="PROJ","This is a project",IF($$OBJCODE="TASK","This is a task","This is an issue"))`
+        >
+        >Op een project zal het gebied &quot;Dit is een project&quot;tonen, op een taak zal het &quot;Dit is een taak&quot;tonen, en op een kwestie zal het &quot;Dit is een kwestie&quot;zeggen.
+
+
+        >[!INFO]
+        >
+        >**Voorbeeld:** Hoewel er geen Toegewezen aan is: Het gebied van de Naam in projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon invult die het project creeerde, tenzij iemand manueel dit verandert).
+        >
+        >In het veld Aangepast in lading kunt u dus `$$OBJCODE` zoals hieronder wordt getoond om naar het gebied van de Eigenaar te verwijzen wanneer het douaneformulier aan een project in bijlage is, en het Toegewezen aan: gebied van de Naam wanneer het formulier aan een taak in bijlage is:
+        >
+        >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
+
+        Voor meer informatie over variabelen zoals `$$OBJCODE,` zie [Variabelen van jokerfilter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+
+        **Automatische updates van berekende aangepaste velden**
+
+        Berekende aangepaste velden op een object worden automatisch opnieuw berekend wanneer het volgende gebeurt:
 
          * Er verandert iets op het object, zoals een dagelijkse tijdlijnberekening.
          * Iemand bewerkt een ander veld waarnaar wordt verwezen door een berekend aangepast veld op het object.
          * De berekende expressie is leeg en het veld bevat een waarde. Deze stelt de waarde in op null.
 
-            >[!NOTE]
-            >
-            ><div>In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en bewaard door Coordinated Universal Time (UTC), niet door de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd op basis van de afzonderlijke tijdzones van elke gebruiker.</div>
+           >[!NOTE]
+           >
+           ><div>In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en bewaard door Coordinated Universal Time (UTC), niet door de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd op basis van de afzonderlijke tijdzones van elke gebruiker.</div>
 
 +++
+
    1. Klik in het grote tekstvak en klik vervolgens op **Expressies** en **Velden** die beschikbaar zijn om deze aan uw berekening toe te voegen.
 
       U kunt ook een expressie of veld in het grote tekstvak typen en deze selecteren wanneer deze wordt weergegeven. Elk item wordt weergegeven met een &#39;F&#39; voor een veld of een &#39;E&#39; voor een expressie.
@@ -282,17 +282,15 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
       >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
       > 
       >* Houd de muisaanwijzer boven een expressie in uw berekening om een beschrijving te bekijken, een voorbeeld van het gebruik ervan en een koppeling Meer informatie in het artikel [Berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-         >  ![](assets/hover-expression-help-text.jpg)
+      >  ![](assets/hover-expression-help-text.jpg)
       >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
-         >  ![](assets/colors-fields-expressions.jpg)
-      >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak van de fout weer te geven.
-         >  ![](assets/error-help.png)
+      >  ![](assets/colors-fields-expressions.jpg)
+      >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak ervan weer te geven.
+      >  ![](assets/error-help.png)
       >* Geef een voorvertoning van de resultaten weer in het gebied onder de berekening.
-         ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-
-         >  ![](assets/preview-calc.jpg)
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
+      >  ![](assets/preview-calc.jpg)
       >* Verwijzingsexpressies in een lange berekening met behulp van de regelnummers die aan de linkerkant worden weergegeven.
-
 
 +++
    1. Klikken **Minimaliseren** als u klaar bent met het maken van de berekening voor het berekende aangepaste veld.
@@ -318,10 +316,8 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
     </tbody> 
    </table>
 
-1. Klik op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
 
    of
 
    Klikken **Opslaan en sluiten**.
-
-

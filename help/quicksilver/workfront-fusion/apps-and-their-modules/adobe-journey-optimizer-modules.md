@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer-modules
 description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL Adobe Journey Optimizer]en deze verbinding maken met meerdere toepassingen en services van derden.
 author: Becky
+feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 0%
@@ -51,7 +52,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
       <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td>
@@ -59,9 +60,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td>
     </tr>
   </tbody>
@@ -130,7 +131,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Journey Optimizer] modules:
                 <p>Klik op <b>[!UICONTROL Extract]</b>.</p>
               </li>
               <li value="2">
-                <p>Selecteer het type bestand dat u uitpakt.</p>
+                <p>Selecteer het type bestand dat u extraheert.</p>
               </li>
               <li value="3">
                 <p>Selecteer het bestand dat de persoonlijke sleutel of het certificaat bevat.</p>
@@ -495,7 +496,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Journey Optimiz
      <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Voer het maximale aantal resultaten in dat de module in één uitvoeringscyclus mag retourneren.</p>
+        <p>Voer het maximale aantal resultaten in dat de module in één uitvoeringscyclus moet retourneren.</p>
       </td>
     </tr>
   </tbody>

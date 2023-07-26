@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Toegang voor een gedeeld aangepast veld dat u wilt gebruiken
 description: Wanneer iemand een aangepast veld deelt met de toegang Weergeven of Beheren, kan hij of zij verschillende andere instellingen configureren om die toegang nader te definiëren. Als u een ontvanger van het veld bent, beïnvloeden deze instellingen wat u met het veld kunt doen. Het volgende wordt mogelijk weergegeven wanneer u het veld bekijkt.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Wanneer iemand een aangepast veld deelt met de toegang Weergeven of Beheren, kan hij of zij verschillende andere instellingen configureren om die toegang nader te definiëren. Als u een ontvanger van het veld bent, beïnvloeden deze instellingen wat u met het veld kunt doen. Het volgende wordt mogelijk weergegeven wanneer u het veld bekijkt.
 
-Voor meer informatie over hoe gebruikers instellingen voor delen configureren bij het delen van een aangepast formulier raadpleegt u [Delen voor aangepaste velden en widgets configureren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Ga voor meer informatie over hoe gebruikers instellingen voor delen configureren wanneer ze een aangepast formulier delen naar [Delen voor aangepaste velden en widgets configureren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Voor meer informatie over hoe gebruikers instellingen voor delen configureren bi
    <td> 
     <ul> 
      <li>Weergave</li> 
-     <li>Toevoegen aan aangepaste Forms: Niet geselecteerd</li> 
+     <li>Toevoegen aan aangepaste Forms: niet geselecteerd</li> 
     </ul> </td> 
    <td> <p>Als u het tabblad Velden weergeeft op de hoofdpagina van Aangepaste Forms, kunt u het veld zien, maar de knop Bewerken is niet beschikbaar op de werkbalk wanneer u het veld selecteert.</p> </td> 
   </tr> 
@@ -44,7 +44,7 @@ Voor meer informatie over hoe gebruikers instellingen voor delen configureren bi
    <td> 
     <ul> 
      <li>Weergave</li> 
-     <li>Toevoegen aan aangepaste Forms: Geselecteerd</li> 
+     <li>Toevoegen aan aangepaste Forms: geselecteerd</li> 
     </ul> </td> 
    <td> <p>Als u het veld aan een aangepast formulier toevoegt:</p> 
     <ul> 

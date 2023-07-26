@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Wanneer het werk dat in een het werkpunt wordt bepaald te groot wordt, kunt u het in een groter het werkpunt omzetten.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
 
-## Eerste: Extra objecten toevoegen aan het aangepaste formulier
+## Eerste: extra objecten toevoegen aan het aangepaste formulier
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
@@ -64,18 +64,18 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 1. Klikken **Toepassen** onder aan het formulier.
 
-1. Doorgaan naar [Tweede: De uitgave of taak converteren en de aangepaste formuliergegevens overdragen](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Doorgaan naar [Ten tweede: converteer de uitgave of taak en breng de aangepaste formuliergegevens over](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
-## Tweede: De uitgave of taak converteren en de aangepaste formuliergegevens overdragen {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
+## Ten tweede: converteer de uitgave of taak en breng de aangepaste formuliergegevens over {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Voeg aanvullende objecten toe aan het aangepaste formulier voor de uitgave of taak die u converteert, zoals wordt uitgelegd in de sectie [Eerste: Extra objecten toevoegen aan het aangepaste formulier](#first-add-additonal-objects-to-the-custom-form) in dit artikel.
-1. Converteer het probleem of de taak met de opdracht **Aangepaste Forms** in het vak dat wordt weergegeven om het gewenste aangepaste formulier te selecteren. Zie de volgende artikelen voor instructies:
+1. Voeg aanvullende objecten toe aan het aangepaste formulier voor de uitgave of taak die u converteert, zoals wordt uitgelegd in de sectie [Ten eerste: extra objecten toevoegen aan het aangepaste formulier](#first-add-additonal-objects-to-the-custom-form) in dit artikel.
+1. Converteer het probleem of de taak met de opdracht **Aangepaste Forms** in het vak dat wordt weergegeven om het aangepaste formulier te selecteren dat u nodig hebt. Zie de volgende artikelen voor instructies:
 
    * [Een uitgave converteren naar een project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Een uitgave converteren naar een taak in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Een taak omzetten in een project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. In de **Omzetten in (objecttype)** in het dialoogvenster dat wordt weergegeven, klikt u op de knop **Forms toevoegen** en selecteert u het formulier dat u in de vorige sectie hebt gekopieerd.
+1. In de **Omzetten in (objecttype)** klikt u op het dialoogvenster dat wordt weergegeven **Forms toevoegen** en selecteert u het formulier dat u in de vorige sectie hebt gekopieerd.
 
    De informatie die wordt vastgelegd in de aangepaste velden van de uitgave wordt nu overgebracht naar het aangepaste formulier op de taak.
 

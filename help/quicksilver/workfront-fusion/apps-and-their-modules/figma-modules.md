@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Figuurmodules
 description: Met de [!DNL Adobe Workfront Fusion] De modules van Figma, kunt u lijsten van commentaren, dossiers, dossierversies, of projecten terugwinnen. U kunt ook een opmerking plaatsen of een aanroep van de figma-API maken.
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2006'
 ht-degree: 0%
@@ -46,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
       <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td>
@@ -54,9 +55,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td>
     </tr>
   </tbody>
@@ -142,7 +143,7 @@ In deze zoekmodule worden alle opmerkingen weergegeven die zijn gekoppeld aan é
             <p>Als u de id niet kent, klikt u op <b>[!UICONTROL Find Files]</b> en ga of kaart identiteitskaart van het project in dat het dossier met wordt geassocieerd, dan het dossier selecteert.</p>
           </li>
           <li>
-            <p>Als u de id van het project niet kent, klikt u op <b>[!UICONTROL Find Projects]</b> en ga of kaart identiteitskaart van het team in dat het project bezit het dossier wordt geassocieerd met, dan het project, dan selecteer het dossier.</p>
+            <p>Als u niet de identiteitskaart van het project kent, klik <b>[!UICONTROL Find Projects]</b> en ga of kaart identiteitskaart van het team in dat het project bezit het dossier wordt geassocieerd met, dan het project, dan selecteer het dossier.</p>
           </li>
         </ul>
       </td>
@@ -266,7 +267,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
       <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>Als u alleen een subset van het document wilt retourneren, voert u de knooppunten in die de module moet retourneren. De module keert de vermelde knopen, hun kinderen, en om het even wat tussen de wortelknoop en de vermelde knopen terug.</p>
-        <p>Voor elk knooppunt dat u wilt retourneren, klikt u op <b>[!UICONTROL Add]</b> en voert u de tekst van het knooppunt in.</p>
+        <p>Voor elke knoop die u wilt terugkeren, klik <b>[!UICONTROL Add]</b> en voert u de tekst van het knooppunt in.</p>
       </td>
     </tr>
     <tr>
@@ -292,7 +293,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Plugin data]</td>
-      <td>Een door komma's gescheiden lijst met insteekmodules en/of de tekenreeks "[!UICONTROL shared]". Alle gegevens die aanwezig zijn in het document dat door deze plug-ins wordt geschreven, worden opgenomen in het resultaat van de opdracht <code>pluginData</code> en <code>sharedPluginData</code> eigenschappen.</td>
+      <td>Een door komma's gescheiden lijst met insteekmodules en/of de tekenreeks "[!UICONTROL shared]". Alle gegevens die aanwezig zijn in het document dat door deze plug-ins wordt geschreven, worden opgenomen in het resultaat in de <code>pluginData</code> en <code>sharedPluginData</code> eigenschappen.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Branch data]</td>
@@ -315,7 +316,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
       <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>Voer de knooppunten in die u wilt retourneren en converteren</p>
-        <p>Voor elk knooppunt dat u wilt retourneren, klikt u op <b>[!UICONTROL Add]</b> en voert u de tekst van het knooppunt in.</p>
+        <p>Voor elke knoop die u wilt terugkeren, klik <b>[!UICONTROL Add]</b> en voert u de tekst van het knooppunt in.</p>
       </td>
     </tr>
     <tr>
@@ -365,7 +366,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
       <td role="rowheader" [!UICONTROL>Node-id's]</td>
       <td>
         <p>Ga de knopen in die u de module wilt teruggeven.</p>
-        <p>Voor elk knooppunt dat u wilt renderen, klikt u op <b>[!UICONTROL Add]</b> en voert u de tekst van het knooppunt in.</p>
+        <p>Voor elke knoop die u wilt teruggeven, klik <b>[!UICONTROL Add]</b> en voert u de tekst van het knooppunt in.</p>
       </td>
     </tr>
     <tr>
@@ -402,7 +403,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Use absolute bounds]</td>
-      <td>Schakel deze optie in om de volledige afmetingen van het knooppunt te gebruiken, ongeacht of het knooppunt wordt uitgesneden of dat de ruimte rondom het knooppunt leeg is. Hiermee kunt u tekstknooppunten exporteren zonder ze uit te snijden. Standaard: [!UICONTROL false].</td>
+      <td>Schakel deze optie in om de volledige afmetingen van het knooppunt te gebruiken, ongeacht of het knooppunt wordt uitgesneden of dat de ruimte rondom het knooppunt leeg is. Gebruik deze optie om tekstknooppunten te exporteren zonder ze uit te snijden. Standaard: [!UICONTROL false].</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Version ID]</td>
@@ -411,7 +412,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
   </tbody>
 </table>
 
-##### Een bestand of afbeelding ophalen: Afbeeldingsvullingen
+##### Een bestand of afbeelding ophalen: afbeeldingsvullingen
 
 <table style="table-layout:auto"> 
   <col/>
@@ -473,7 +474,7 @@ Deze zoekmodule retourneert een lijst met alle bestanden in het opgegeven projec
         <p>Ga of kaart identiteitskaart van het Project in het project dat u dossiers voor wilt terugwinnen. </p>
         <ul>
           <li>
-            <p>Als u de id van het project niet kent, klikt u op <b>[!UICONTROL Find Projects]</b> en ga identiteitskaart van het team in of kaart dat het project met wordt geassocieerd, dan selecteer het project.</p>
+            <p>Als u niet de identiteitskaart van de projecten kent, klik <b>[!UICONTROL Find Projects]</b> en ga identiteitskaart van het team in of kaart dat het project met wordt geassocieerd, dan selecteer het project.</p>
           </li>
         </ul>
       </td>
@@ -596,7 +597,7 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan Figma AP
     <tr>
       <td role="rowheader">[!UICONTROL Query String]</td>
       <td>
-        <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p>
+        <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p>
       </td>
     </tr>

@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Een aangepaste veld- of middelenwidget opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder
 description: Wanneer u een aangepast formulier maakt of bewerkt, kunt u een aangepast veld of aangepaste widget toevoegen die al aan een ander aangepast formulier is toegevoegd.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Wanneer u een aangepast formulier maakt of bewerkt, kunt u een aangepaste veld- 
 
 U kunt een bestaand berekend aangepast veld ook opnieuw gebruiken in een aangepast formulier. Zie voor instructies [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
 
-Voor informatie over aangepaste velden en widgets middelen in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Zie voor informatie over aangepaste velden en widgets elementen in aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Een aangepast veld of aangepaste widget gebruiken die al in een ander aangepast formulier wordt gebruikt
 
-1. Beginnen met het maken of bewerken van een aangepast formulier, zoals beschreven in [Een aangepast formulier maken of bewerken met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Beginnen met het maken of bewerken van een aangepast formulier, zoals beschreven in [Een aangepast formulier maken of bewerken met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Met **Veld toevoegen** geselecteerd, klik **Veldbibliotheek**.
 
 1. Sleep het veld of de widget naar de gewenste positie in het aangepaste formulier.

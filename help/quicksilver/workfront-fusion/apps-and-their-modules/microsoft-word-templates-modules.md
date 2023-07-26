@@ -8,13 +8,14 @@ navigation-topic: apps-and-their-modules
 title: Microsoft Word-sjabloonmodules
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebruikmaken van Microsoft Word-sjablonen en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+feature: Workfront Fusion
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Microsoft Word Template] modules
 
@@ -65,7 +66,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Vereisten
 
-Voor gebruik [!DNL Miscrosoft Word Templates] with [!DNL Adobe Workfront Fusion]is het noodzakelijk [!DNL Office 365] account. U kunt er een maken op www.office.com.
+Voor gebruik [!DNL Miscrosoft Word Templates] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!DNL Office 365] account. U kunt er een maken op www.office.com.
 
 ## Gebruiken [!DNL Microsoft Word Templates] modules
 
@@ -84,52 +85,51 @@ Dit document maken:
 A [!DNL Microsoft Word] sjabloon is een normaal [!DNL Microsoft Word] document (.docx-bestand) met speciale codes in de tekst die bepalen waar en hoe gegevens moeten worden samengevoegd of ingevuld. Er zijn drie typen tags:
 
 * [Tag voor eenvoudige waarde](#simple-value-tag)
-* [Label voorwaarde](#condition-tag)
+* [Voorwaardetag](#condition-tag)
 * [Tag herhalen](#loop-tag)
 
 ### Tag voor eenvoudige waarde {#simple-value-tag}
 
-Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de naam [!UICONTROL Key] veldwaarde, die binnen dubbele accolades wordt geplaatst; bijvoorbeeld:
+Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de naam [!UICONTROL Key] veldwaarde, die binnen dubbele accolades wordt geplaatst, bijvoorbeeld
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Voorbeeld:** Als u een document wilt maken met de tekst &quot;Hi, Petr!&quot;, kunt u een [!DNL Microsoft Word Template] om de volgende sjabloon te maken:
 
-<pre>&gt; Hallo &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hallo {{name}}!</pre>
 
 Hiervoor stelt u de module als volgt in:
 
 ![](assets/word-template-simple-value-350x286.png)
 
-### Label voorwaarde {#condition-tag}
+### Voorwaardetag {#condition-tag}
 
 U kunt een voorwaardelabel gebruiken om tekst te laten omlopen die alleen moet worden gerenderd als aan bepaalde voorwaarden is voldaan. Als u de tekst wilt laten omlopen, plaatst u deze tussen openingstag en afsluitingstag, bijvoorbeeld &quot;hasPhone&quot; als de voorwaarde is of de gegevens al dan niet een telefoonnummer bevatten. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /, zoals in het onderstaande voorbeeld wordt getoond.
 
 **Voorbeeld:** Als u een document wilt maken dat een telefoonnummer van de klant bevat als de invoergegevens een telefoonnummer maar geen e-mailadres bevatten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
-<pre>> &#123;&#123;#hasPhone&#125;&#125;_Telefoon: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;_E-mail: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Hiervoor stelt u de module als volgt in:
+<pre>&gt; {{#hasPhone}_Telefoon: {{phone}} {{/hasPhone}</pre><pre>&gt; {{#hasEmail}_E-mail: {{email}} {{/hasEmail}}</pre>Hiervoor stelt u de module als volgt in:
 
 ![](assets/word-template-conditional-350x501.png)
 
 In het document ziet het telefoonnummer er als volgt uit:
-<pre>&gt; Telefoon: 445551234</pre>
+<pre>&gt; Telefoon: 4445551234</pre>
 
 ### Tag herhalen {#loop-tag}
 
-U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. Plaats de tekst tussen de openings- en sluitingslustags. De naam van een openingstag wordt voorafgegaan door een hash-teken #; de naam van een afsluitende tag wordt voorafgegaan door een schuine streep /.
+U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. Plaats de tekst tussen de openings- en sluitingslustags. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /.
 
 * [Tag herhalen met een documentmodule invullen](#loop-tag-with-fill-out-a-document-module)
-
-<!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### Tag herhalen met een documentmodule invullen {#loop-tag-with-fill-out-a-document-module}
 
 **Voorbeeld:** Als u een document wilt maken met de naam en het telefoonnummer van elk contact in een lijst met klanten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Hiervoor stelt u de module als volgt in:
 
@@ -206,7 +206,7 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
    <td> <p>Dit moet een array van verzamelingen zijn, waarbij:</p> 
     <ul> 
      <li>Elke verzameling komt overeen met één gegevensitem en bevat één item <code>entry</code></li> 
-     <li>Item <code>entry </code>bevat een verzameling van <code>key </code>en <code>value</code></li> 
+     <li>Item <code>entry </code>bevat een verzameling van de <code>key </code>en <code>value</code></li> 
      <li>Item <code>key </code>bevat de naam van de tag</li> 
      <li>item <code>value </code>bevat de waarde van de tag</li> 
     </ul> 
@@ -217,7 +217,7 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
      <li>Voeg de naam en waarde toe. Zie het voorbeeld voor het gekozen waardetype in dit artikel voor meer informatie. 
       <ul> 
        <li><a href="#simple-value-tag" class="MCXref xref">Tag voor eenvoudige waarde</a></li> 
-       <li><a href="#condition-tag" class="MCXref xref">Label voorwaarde</a></li> 
+       <li><a href="#condition-tag" class="MCXref xref">Voorwaardetag</a></li> 
        <li><a href="#loop-tag" class="MCXref xref">Tag herhalen</a></li> 
       </ul></li> 
     </ol> </td> 
@@ -276,7 +276,7 @@ Deze aggregatormodule is vooral handig voor het maken van lijsten of rapporten.
    <td> <p>Dit moet een array van verzamelingen zijn, waarbij:</p> 
     <ul> 
      <li>Elke verzameling komt overeen met één gegevensitem en bevat één item <code>entry</code></li> 
-     <li>Item <code>entry </code>bevat een verzameling van <code>key </code>en <code>value</code></li> 
+     <li>Item <code>entry </code>bevat een verzameling van de <code>key </code>en <code>value</code></li> 
      <li>Item <code>key </code>bevat de naam van de tag</li> 
      <li>item <code>value </code>bevat de waarde van de tag</li> 
     </ul> 
@@ -287,11 +287,10 @@ Deze aggregatormodule is vooral handig voor het maken van lijsten of rapporten.
      <li>Voeg de naam en waarde toe. Zie het voorbeeld voor het gekozen waardetype in dit artikel voor meer informatie. 
       <ul> 
        <li><a href="#simple-value-tag" class="MCXref xref">Tag voor eenvoudige waarde</a></li> 
-       <li><a href="#condition-tag" class="MCXref xref">Label voorwaarde</a></li> 
+       <li><a href="#condition-tag" class="MCXref xref">Voorwaardetag</a></li> 
        <li><a href="#loop-tag" class="MCXref xref">Tag herhalen</a></li> 
       </ul></li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
-

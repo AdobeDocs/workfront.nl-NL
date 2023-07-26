@@ -5,8 +5,9 @@ navigation-topic: workfront-api
 title: Tips, trucs en probleemoplossing voor de Adobe Workfront API
 description: Tips, trucs en probleemoplossing voor de Adobe Workfront API
 author: Becky
+feature: Workfront API
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [API-fout: &quot;De externe server heeft een fout geretourneerd: (400) Ongeldig verzoek&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+* [API-fout: &quot;De externe server heeft een fout geretourneerd: (400) Onjuiste aanvraag&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [Duplicaten die worden geretourneerd tijdens een grote gepagineerde zoekopdracht](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [Zoekresultaten sorteren in de API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
 * [Bijwerken naar e-mailadres werkt de gebruikersnaam niet bij](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)

@@ -3,17 +3,18 @@ filename: api-changes-search
 content-type: api
 keywords: object,status,zoeken,best,werkwijze,reactie
 navigation-topic: api-navigation-topic
-title: 'Core API-wijzigingen: Reacties voor zoeken naar status'
+title: 'Core API-wijzigingen: antwoorden op statuszoekopdrachten'
 description: Wijzigingen in de manier waarop Workfront statusobjecten opslaat.
+feature: Workfront API
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# Core API-wijzigingen: Antwoorden van statuszoekacties
+# Core API-wijzigingen: antwoorden op statuszoekopdrachten
 
 Er zijn wijzigingen aangebracht in de manier waarop Workfront statusobjecten opslaat. Deze wijzigingen zijn niet van invloed op de manier waarop aanvragen voor statuszoekopdrachten worden gedaan, maar hebben invloed op de reactie die wordt geretourneerd door API-verzoeken die een zoekopdracht naar statusobjecten bevatten door een onvolledige lijst met groepsstatussen te retourneren.
 

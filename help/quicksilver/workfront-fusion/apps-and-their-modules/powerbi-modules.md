@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Power BI
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
+feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 0%
@@ -44,7 +45,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -52,9 +53,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -66,7 +67,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 ## [!DNL Power BI] modules en hun velden
 
-Wanneer u [!DNL Power BI], [!DNL Workfront Fusion] geeft de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vette titel in een module geeft een vereist veld aan.
+Wanneer u [!DNL Power BI], [!DNL Workfront Fusion] geeft de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vetgedrukte titel in een module geeft een verplicht veld aan.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [Informatie van de ene module toewijzen aan de andere in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -437,16 +438,16 @@ Deze actiemodule leidt tot een nieuwe dataset.
         <p>Selecteer of wijs de standaardwijze voor de dataset toe:</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL As Azure]</b>: Een dataset met een levende verbinding met [!DNL Azure Analysis Service]</p>
+            <p><b>[!UICONTROL As Azure]</b>: Een dataset met een live verbinding met [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[!UICONTROL As on Prem]</b>: Een dataset met een levende verbinding met [!DNL On-premise Analysis] Service</p>
+            <p><b>[!UICONTROL As on Prem]</b>: Een dataset met een live verbinding met [!DNL On-premise Analysis] Service</p>
           </li>
           <li>
             <p><b>[!DNL Push]</b>: Een dataset die programmatic toegang voor het duwen van gegevens in toestaat [!DNL Power BI]</p>
           </li>
           <li>
-            <p><b>[!DNL Push Streaming]</b>: Een dataset die gegevens het stromen steunt en programmatische toegang toestaat voor het duwen van gegevens in [!DNL Power BI]</p>
+            <p><b>[!DNL Push Streaming]</b>: Een dataset die gegevens het stromen steunt en programmatic toegang toestaat voor het duwen van gegevens in [!DNL Power BI]</p>
           </li>
           <li>
             <p><b>[!DNL Streaming]</b>: Een dataset die gegevens het stromen steunt</p>
@@ -863,7 +864,7 @@ Deze actiemodule haalt metagegevens van een opgegeven toepassing op.
 
 #### [!UICONTROL Get an App's Report]
 
-Deze actiemodule haalt metagegevens op van het rapport van een opgegeven app.
+Met deze actiemodule worden metagegevens opgehaald van het rapport van een opgegeven app.
 
 <table>
   <col/>
@@ -942,7 +943,7 @@ Deze actiemodule voert een API-aanroep uit naar de [!DNL Power BI] API.
         <p>[!UICONTROL Method]</p>
       </td>
       <td>
-        <p>Selecteer [!UICONTROL HTTP] request method you need to configure the API call. Zie voor meer informatie [!UICONTROL HTTP] aanvraagmethoden.</p>
+        <p>Selecteer de [!UICONTROL HTTP] request method you need to configure the API call. Zie voor meer informatie [!UICONTROL HTTP] aanvraagmethoden.</p>
       </td>
     </tr>
     <tr>

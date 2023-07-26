@@ -4,7 +4,8 @@ navigation-topic: use-the-home-area
 title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
-source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voe
     Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken.
 
 * **Mijn projecten**\
-    De projecten van vertoningen die aan u in een lijst worden toegewezen die kunnen worden gesorteerd om slechts projecten te tonen u of alle projecten bezit u bent. standaardopties voor filter, weergave en groepering; en een knop om rechtstreeks een nieuw project te maken.
+    De projecten van vertoningen die aan u in een lijst worden toegewezen die kunnen worden gesorteerd om slechts projecten te tonen u of alle projecten hebt u bent; standaardfilter, mening, en groeperingsopties; en een knoop om een nieuw project direct tot stand te brengen.
 
 * **Mijn taken**\
     De taken van vertoningen die aan u in een lijst met klantgerichte filters, meningen, en groeperingen, evenals een knoop worden toegewezen om een nieuwe taak direct tot stand te brengen.
@@ -54,7 +55,7 @@ Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voe
 * **To-dos**\
     Met deze unieke widget kunt u tekstitems toevoegen aan een persoonlijke controlelijst die u kunt bewerken.
 
-Voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets raadpleegt u [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Achtergrondaanpassing
 
@@ -72,7 +73,7 @@ U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kle
 
 ### Filteren op tijdbereik
 
-U kunt alle informatie op de startpagina snel filteren om objectinformatie binnen drie specifieke tijdbereiken weer te geven: Dag, Week of Maand. Bovendien wordt boven aan de startpagina een overzicht weergegeven van het aantal taken dat u moet uitvoeren en de taken die u binnen het bereik hebt voltooid.
+U kunt alle informatie op uw startpagina snel filteren om objectinformatie binnen drie specifieke tijdbereiken weer te geven: Dag, Week of Maand. Bovendien wordt boven aan de startpagina een overzicht weergegeven van het aantal taken dat u moet uitvoeren en de taken die u binnen het bereik hebt voltooid.
 
 **Het tijdbereik van uw startpagina wijzigen:**
 

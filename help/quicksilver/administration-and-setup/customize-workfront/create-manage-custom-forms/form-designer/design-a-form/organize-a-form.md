@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt een aangepast formulier ordenen met de formulierontwerper.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 08de894a-82f0-4440-a350-680d6648f01e
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
 
 ---
-
 
 # Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
 
@@ -34,7 +34,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
-   <p>Huidig plan: Standaard</p>
+   <p>Huidige abonnement: standaard</p>
    <p>of</p>
    <p>Ouder plan: Plan</p></td> 
   </tr> 
@@ -53,9 +53,9 @@ Als u bijvoorbeeld gevoelige informatie wilt bijhouden die alleen systeembeheerd
 
 De toegangsinstellingen die u voor een sectie selecteert, zijn rechtstreeks gekoppeld aan de machtigingen die gebruikers hebben voor het Workfront-object waaraan het aangepaste formulier is gekoppeld. U kunt een sectie verbergen of weergeven op basis van het feit of de gebruiker toegang heeft tot het object, een bijdrage levert aan dat object of dat object beheert. U kunt ook een sectie alleen instellen op Beheerder, zodat alleen gebruikers met een toegangsniveau van de systeembeheerder toegang hebben tot de sectie.
 
-Voor informatie over machtigingen voor objecten raadpleegt u [Overzicht van het delen van machtigingen voor objecten](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Zie voor informatie over machtigingen voor objecten [Overzicht van het delen van machtigingen voor objecten](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een formulier ontwerpen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een formulier ontwerpen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Toegang voor een sectie in een aangepast formulier maken en configureren
 
@@ -92,7 +92,7 @@ Voor informatie over aangepaste velden en widgets in aangepaste formulieren raad
           <p>Staat gebruikers toe om aan het voorwerp bij te dragen als het een project, een taak, of een kwestie is.</p>
           <p>Staat gebruikers toe om het profiel uit te geven of de profieltoestemming te bezitten aan het voorwerp als het een gebruiker is.</p></li> 
           <li><b>Bewerken</b>: Rechten voor het object beheren </li> 
-          <li><b>Alleen beheerder</b>: Toegangsniveau van systeembeheerder</li> 
+          <li><b>Alleen beheerder</b>: Toegangsniveau voor systeembeheerder</li> 
          </ul> </li> 
         <p>De volgende machtigingen zijn beschikbaar onder <b>Gebruikers met deze toegang tot het object kunnen veldwaarden bewerken</b>: </p> 
          <ul> 
@@ -100,10 +100,10 @@ Voor informatie over aangepaste velden en widgets in aangepaste formulieren raad
            <p>Als het voorwerp een project, een taak, of een kwestie, deze toestemming gebruikers toestaat om aan het voorwerp bij te dragen</p>
           <p>Als het object een gebruiker is, kunnen gebruikers met deze machtiging het profiel bewerken of eigenaar zijn van de profielmachtiging voor het object.</p> 
           <li><b>Bewerken</b>: Rechten voor het object beheren </li> 
-          <li><b>Alleen beheerder</b>: Toegangsniveau van systeembeheerder</li> 
+          <li><b>Alleen beheerder</b>: Toegangsniveau voor systeembeheerder</li> 
          </ul> </li> 
        </ul> 
-       <p>Voor informatie over machtigingen voor objecten raadpleegt u <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overzicht van het delen van machtigingen voor objecten</a>.</p> 
+       <p>Zie voor informatie over machtigingen voor objecten <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overzicht van het delen van machtigingen voor objecten</a>.</p> 
        <p><b>OPMERKING</b>:  
        <ul> 
        <li> <p>Gebruikers zonder de machtigingen die u hier opgeeft, kunnen de aangepaste velden en widgets niet zien in de sectie. </p> <p>Dit is ook het geval als u de waarden van de velden in rapporten weergeeft of deze in berekende velden gebruikt in tekstmodusrapportage.</p> </li> 
@@ -123,7 +123,7 @@ Voor informatie over aangepaste velden en widgets in aangepaste formulieren raad
 
 ### Hoe meerdere objecttypen de machtigingen voor secties kunnen beïnvloeden {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
-De beperkte machtiging Bewerken voor sectie-einden van aangepaste formulieren is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
+De beperkte machtiging Bewerken voor afbrekingen van aangepaste formuliersecties is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
 
 In een douaneformulier met een sectieonderbreking die met de Beperkte Edit toestemming wordt gevormd, als u één van de andere objecten types aan de vorm (Portfolio, Programma, Document, Bedrijf, het Verslag van de Facturering, Herhaling, Kosten, of Groep) toevoegt, zult u worden ertoe aangezet om aan de Edit toestemming te schakelen, die met zowel dat objecten type als de bestaande objecten types op de vorm compatibel is.
 
@@ -157,10 +157,9 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 >* U kunt de **Voorvertoning** in de rechterbovenhoek om een idee te krijgen van hoe de aangepaste velden en widgets in het formulier worden weergegeven.
 >* Aangepaste velden en widgets geven het formulier mogelijk niet altijd op dezelfde manier weer, afhankelijk van hoeveel schermruimte beschikbaar is wanneer een gebruiker het formulier bekijkt. Het derde veld in een rij velden kan bijvoorbeeld omlopen naar de volgende rij velden als de horizontale ruimte beperkt is.
 
-
 1. (Optioneel) Als u een aangepast veld of een aangepaste widget boven of onder een ander veld of een andere widget wilt plaatsen, sleept u het onder of boven totdat er een horizontale blauwe lijn tussen de items wordt weergegeven.
 
-1. Klik op **Toepassen**
+1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen**
 
    of
 

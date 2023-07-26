@@ -2,8 +2,9 @@
 title: Verbeteringen voor aangepaste formulieren
 description: De volgende belangrijke verbeteringen zijn aangebracht voor het beheer van aangepaste formulieren in de release 22.2.
 author: Luke
+feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -16,19 +17,19 @@ De volgende belangrijke verbeteringen zijn aangebracht voor het beheer van aange
 
 ## Elementwidgets toevoegen
 
-U kunt afbeelding insluiten in uw aangepaste formulieren. Op deze manier kunt u interactiever en visueel communiceren met aangepaste formuliergebruikers. Binnenkort zijn er nog meer widgettypen beschikbaar.
+U kunt de afbeelding insluiten in uw aangepaste formulieren. Op deze manier kunt u interactiever en visueel communiceren met aangepaste formuliergebruikers. Binnenkort zijn er nog meer widgettypen beschikbaar.
 
 ![](assets/image-in-custom-form.png)
 
 Wanneer een aangepast formulier met een widget aan een object is gekoppeld, kunnen gebruikers die met het object werken dit in de volgende gebieden zien:
 
-* Het gebied van Details van het voorwerp (bijvoorbeeld voor een project, het gebied van Details van het Project) &#x200B;
+* Het gebied Details van het object (bijvoorbeeld voor een project, het gebied Projectdetails) &#x200B;
 
-   ![](assets/see-image-details-page.png)
+  ![](assets/see-image-details-page.png)
 
 * Het vak Bewerken voor het object als dit de nieuwe Adobe Workfront-ervaring bevat (bijvoorbeeld de vakken Project bewerken en Taak bewerken) &#x200B;
 
-   ![](assets/image-see-in-edit.png)
+  ![](assets/image-see-in-edit.png)
 
 Gebruikers kunnen de widget momenteel niet zien in de volgende gebieden: &#x200B;
 
@@ -67,7 +68,7 @@ Dit is vooral handig wanneer u een uitgave of taak converteert, omdat u een aang
 >
 >Wanneer de conversie plaatsvindt, moet het aangepaste formulier al zijn gekoppeld aan het objecttype waarnaar u converteert.
 
-Voor instructies over het toevoegen van een middelenwidget aan een aangepast formulier, raadpleegt u [Een afbeelding of andere middelenwidget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Zie voor instructies over het toevoegen van een middelenwidget aan een aangepast formulier [Een afbeelding of andere middelenwidget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 Houd rekening met het volgende wanneer u een aangepast formulier met meerdere objecten maakt of bewerkt:
 
@@ -77,7 +78,7 @@ Houd rekening met het volgende wanneer u een aangepast formulier met meerdere ob
 
 ### Machtigingsopties voor sectie-einden
 
-De set opties voor machtigingen voor sectie-einden die beschikbaar zijn voor de typen Uitgave-, Taak-, Project- en Gebruikersobjecten heeft één andere machtigingsoptie dan de set machtigingsopties voor alle andere objecttypen: Beperkte bewerking.
+De set opties voor machtigingen voor sectie-einden die beschikbaar zijn voor de typen Uitgave-, Taak-, Project- en Gebruikersobjecten heeft één andere machtigingsoptie dan de set met machtigingsopties voor alle andere objecttypen: Beperkte bewerking.
 
 ![](assets/section-break-permissions-limited-edit.png)
 
@@ -85,7 +86,7 @@ De reeks toestemmingen van de sectieonderbreking beschikbaar voor alle andere ob
 
 ![](assets/section-break-permissions-no-limited-edit.png)
 
-In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, gebruikt het systeem een algemene set machtigingen voor secties-einden die werken voor alle objecttypen. Met name in plaats van de optie Beperkte bewerkingsmachtigingen te gebruiken, vervangt deze algemene set de optie Bewerken met machtiging door de optie Beperkte bewerkingsmachtigingen. De optie Bewerken is compatibel met alle objecttypen.
+In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, gebruikt het systeem een algemene set machtigingen voor secties-einden die werken voor alle objecttypen. In plaats van de optie Beperkte bewerkingsmachtigingen te gebruiken, vervangt deze algemene set met name de optie Bewerken-machtiging door de optie Beperkte bewerkingsmachtigingen. De optie Bewerken is compatibel met alle objecttypen.
 
 Wanneer u een objecttype koppelt dat andere machtigingsopties gebruikt dan de andere objecttypen die al op een aangepast formulier voorkomen, wordt een bericht weergegeven waarin u kunt overschakelen naar de algemene set machtigingsopties voor het formulier. Deze wijziging is van toepassing op alle velden, zelfs als deze niet onder een sectie-einde vallen.
 
@@ -93,18 +94,17 @@ Zie voor meer informatie [Een sectie-einde toevoegen aan een aangepast formulier
 
 ### Compatibiliteit met aangepaste velden berekenen
 
-Als in een aangepast formulier met meerdere objecten een berekend veld verwijst naar velden die beschikbaar zijn voor gebruik met alle gekoppelde objecttypen van het formulier (zoals {name}, {description} en {entryDate} die beschikbaar zijn voor meerdere objecttypen), worden de gegevens correct berekend, ongeacht het object waaraan u het toevoegt.
+In een aangepast formulier met meerdere objecten als een berekend veld verwijst naar velden die beschikbaar zijn voor gebruik met alle bijbehorende objecttypen van het formulier (zoals {name}, {description}, en {entryDate}, die beschikbaar zijn voor meerdere objecttypen), worden de gegevens correct berekend, ongeacht het object waaraan u de gegevens koppelt.
 
-Als u bijvoorbeeld een formulier met meerdere objecten hebt voor projecten en uitgaven en u een berekend veld toevoegt dat de expressie {name} bevat, wordt in het veld de projectnaam weergegeven wanneer u het formulier aan een project toevoegt en voegt u de taaknaam het formulier aan een taak toe.
+Als u bijvoorbeeld een formulier met meerdere objecten hebt voor projecten en uitgaven, en u een berekend veld toevoegt met de {name} in het veld wordt de projectnaam weergegeven wanneer u het formulier aan een project toevoegt en wordt de taaknaam weergegeven wanneer u het formulier aan een taak toevoegt.
 
 Als een berekend veld in het formulier echter verwijst naar een veld dat niet compatibel is met alle objecttypen van het formulier, wordt u in een bericht gewaarschuwd dat u wijzigingen wilt aanbrengen.
 
 >[!INFO]
 >
->**Voorbeeld:** In een aangepast formulier dat is gekoppeld aan het taakobjecttype, maakt u een berekend aangepast veld dat verwijst naar het ingebouwde veld Toegewezen aan: Naam, zodat de naam van de primaire ontvanger kan worden weergegeven wanneer het formulier aan een taak is gekoppeld:
+>**Voorbeeld:** In een douaneformulier verbonden aan het de objecten van de Taak type, creeert u een berekend douanegebied dat verwijzingen het ingebouwde gebied Toegewezen aan: Naam zodat het de naam van de primaire verantwoordelijke ontvanger kan tonen wanneer de vorm aan een taak in bijlage is:
 >
->
-```
+>```
 >Assigned To: Name{assignedTo}.{name}
 >```
 >
@@ -115,11 +115,11 @@ Wanneer dit voorkomt, kunt u één van het volgende doen:
 * Verwijder een van de twee incompatibele items uit het aangepaste formulier. Dit is het objecttype of het veld waarnaar wordt verwezen.
 * Beide items behouden en de filtervariabele voor jokertekens gebruiken `$$OBJCODE` als een voorwaarde in een IF-expressie om twee verschillende versies van het veld In laden te maken. Hierdoor werkt het veld goed, ongeacht het type object waaraan het formulier is gekoppeld.
 
-   Gebruikend het bovenstaande voorbeeld, hoewel er geen ingebouwde Toegewezen aan is: Het gebied van de naam voor projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon invult die het project creeerde, tenzij iemand manueel dit verandert). In het veld Aangepast in lading kunt u dus `$$OBJCODE` zoals hieronder getoond om het gebied van de Eigenaar van verwijzingen te voorzien wanneer het douaneformulier aan een project in bijlage is, en toegewezen aan: Veld benoemen wanneer het formulier aan een taak is gekoppeld:
+  Gebruikend het voorbeeld hierboven, hoewel er geen ingebouwde Toegewezen aan is: Het gebied van de Naam voor projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon invult die het project creeerde, tenzij iemand manueel dit verandert). In het veld Aangepast in lading kunt u dus `$$OBJCODE` zoals hieronder wordt getoond om naar het gebied van de Eigenaar te verwijzen wanneer het douaneformulier aan een project in bijlage is, en het Toegewezen aan: gebied van de Naam wanneer het formulier aan een taak in bijlage is:
 
-   ```
-   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
-   ```
+  ```
+  IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
+  ```
 
 >[!NOTE]
 >

@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Groepen aan boord gebruiken
 description: U kunt kaarten op een bord groeperen door een ontvanger of door markering. Wanneer u een optie selecteert om door te groeperen, verschijnen de kaarten in een swimlane formaat.
 author: Lisa
+feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 09ab9912df9ad2ac30a461f22b585d633fc73b23
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -54,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >De standaardinstelling voor groeperen is **[!UICONTROL None]**. U kunt deze optie op elk gewenst moment selecteren om een groep te verwijderen en alleen de kolommen op het bord weer te geven.
 
-1. Als u de kaarten wilt groeperen, selecteert u **[!UICONTROL Assignees]** of **[!UICONTROL Tags]**.
+1. Selecteer **[!UICONTROL Assignees]** of **[!UICONTROL Tags]**.
 
    De kaarten worden automatisch gegroepeerd. Klik op de pijl naast de groepsnaam om de groep samen te vouwen en uit te vouwen.
 

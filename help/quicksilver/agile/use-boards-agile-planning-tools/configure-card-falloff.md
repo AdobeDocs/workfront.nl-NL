@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Afvalfunctie van kaart configureren
 description: U kunt een kaart zodanig configureren dat kaarten volgens een schema worden gearchiveerd of van de kaart worden gehaald.
 author: Lisa
+feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%

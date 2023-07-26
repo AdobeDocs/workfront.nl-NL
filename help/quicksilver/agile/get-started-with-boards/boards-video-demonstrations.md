@@ -5,7 +5,9 @@ navigation-topic: boards
 title: Adobe Workfront Boards videodemonstraties
 description: Deze video's zullen u aan de verschillende types van raden introduceren beschikbaar in Adobe Workfront en voorbeelden tonen van hoe u planken in uw dagelijks werk kunt gebruiken.
 author: Lisa
-source-git-commit: 0ad01e55046c34ca042524f77a0ac3d7cd274826
+feature: Agile
+exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Met een eenvoudige, of eenvoudige, board kunt u snel aan de slag gaan met borden
 
 [Bekijk een videodemonstratie van een basisbord.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
-### Kanban
+### Kanban-bord
 
 Een KanaBord kan een achterstand, of inlaatkolom bevatten, die met filters wordt gevormd om taken en kwesties van Workfront op de raad te brengen.
 

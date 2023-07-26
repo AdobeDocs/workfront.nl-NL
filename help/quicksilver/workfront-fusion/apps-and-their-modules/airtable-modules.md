@@ -8,10 +8,11 @@ navigation-topic: apps-and-their-modules
 title: Airtable-modules
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -141,7 +142,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>Slimme koppelingen</td> 
-   <td> <p>Schakel deze optie in om namen in te voeren in plaats van record-id's naar velden die aan een andere tabel zijn gekoppeld. De record wordt automatisch gemaakt in de gekoppelde tabel als er geen overeenkomst is.</p> </td> 
+   <td> <p>Schakel deze optie in om namen in te voeren in plaats van record-id's naar velden die een koppeling naar een andere tabel bevatten. De record wordt automatisch gemaakt in de gekoppelde tabel als er geen overeenkomst is.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -411,7 +412,7 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
   </tr> 
   <tr> 
    <td>Weergave</td> 
-   <td> <p>Selecteer de weergave die u wilt gebruiken.</p> </td> 
+   <td> <p>Selecteer de gewenste weergave.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Formule</p> </td> 
@@ -438,7 +439,7 @@ De URL van de webhaak moet worden gegenereerd in Workfront Fusion en vervolgens 
 1. Meld u aan bij uw Airtable-account.
 1. Open de basis en de tabel die u voor het formulier wilt gebruiken en maak een formulierweergave.
 1. Stel het formulier naar wens in, schuif omlaag in het formulier en schakel de optie Omleiden naar URL in nadat het formulier is verzonden.
-1. Ga Webhaak URL in die in stap 2 aan de getoonde dialoogdoos wordt geproduceerd en voeg ?record_id= {record_id} net na Webhaak URL toe om Record identiteitskaart in de output van de module te omvatten, dan sparen te klikken. De resulterende URL ziet er bijvoorbeeld als volgt uit:
+1. Voer de Webhaak-URL die in stap 2 is gegenereerd in het weergegeven dialoogvenster in en voeg de ?record_id= toe{record_id} vlak na de URL van de web-haak om de record-id op te nemen in de uitvoer van de module, klikt u op Opslaan. De resulterende URL ziet er bijvoorbeeld als volgt uit:
 1. Ga terug naar uw scenario van de Fusie van Workfront en stel de module van de Reacties van het Controle slechts in werking om gebieden van Airtable te laden en die gebieden in de andere modules in kaart te kunnen brengen.
 1. Verzend het formulier in Airtable waar de optie Omleiden naar URL nadat het formulier is verzonden is ingeschakeld en WebHaak-URL is toegevoegd (stap 6 hierboven).
 

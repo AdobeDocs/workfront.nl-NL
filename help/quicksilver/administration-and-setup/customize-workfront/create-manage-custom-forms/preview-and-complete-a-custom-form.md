@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Een aangepast formulier voorvertonen en invullen met de oudere formulierbuilder
 description: Wanneer u klaar bent met het maken of bewerken van een aangepast formulier, kunt u het voorbeeld bekijken om te zien hoe het er voor gebruikers uitziet, en het vervolgens opslaan en sluiten.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -46,7 +46,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Een aangepast formulier maken en voorvertonen
 
-1. Beginnen met het maken en configureren van een aangepast formulier, zoals wordt beschreven in de artikelen [Een aangepast formulier maken of bewerken met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)en andere.
+1. Beginnen met het maken en configureren van een aangepast formulier, zoals wordt beschreven in de artikelen [Een aangepast formulier maken of bewerken met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)en andere.
 
 1. (Optioneel) Klik op **Voorvertoning** om te zien hoe het formulier er uitziet wanneer het wordt gebruikt, klikt u op **Voorvertoning beëindigen** om terug te keren naar het bewerken van het formulier.
 

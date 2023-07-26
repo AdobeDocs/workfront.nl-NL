@@ -5,8 +5,9 @@ navigation-topic: delegate-work
 title: Overzicht van werkzaamheden delegeren
 description: Wanneer u van plan bent om voor een korte periode uit het bureau te zijn, kunt u uw werk aan andere gebruikers tijdelijk delegeren om ervoor te zorgen dat uw afwezigheid geen wegbelemmering wordt om het werk te voltooien.
 author: Alina
+feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f3ae487f53f7c4f8c389cf0d35323f21e76ece35
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Wanneer u van plan bent om voor een korte periode uit het bureau te zijn, kunt u
 
 Bijvoorbeeld, als bepaalde taken vóór u terugkeren maar u hebt niet de tijd om hen te voltooien alvorens u weggaat, kunt u uw taken aan een andere gebruiker delegeren zodat kunnen zij hen op tijd voltooien en niet de voltooiing van het project vertragen tot nadat u terugkeert.
 
-U kunt de volgende objecten delegeren in [!DNL Adobe Workfront]:
+U kunt in [!DNL Adobe Workfront]:
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Projects where you are designated as the Project Owner (not yet, not for the MVP)</p> </li>
@@ -41,14 +42,14 @@ Overweeg het volgende wanneer u taken en kwesties delegeert:
 
 * Uw [!DNL Workfront] of groepsbeheerder moet de delegatievoorkeuren inschakelen in het dialoogvenster [!UICONTROL Setup] voordat u uw werk aan anderen kunt delegeren.
 
-   Zie voor meer informatie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Zie voor meer informatie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * U kunt taken en problemen alleen delegeren vanuit de [!UICONTROL Home] gebied.
 * Er zijn uitzonderingen voor de volgende licentietypen:
 
    * U kunt uw werk delegeren aan revisoren of aanvragers, hoewel [!DNL Workfront] adviseert het niet.
    * Revisoren kunnen het werk delegeren aan anderen. Ze kunnen geen werkitems weergeven in hun [!UICONTROL Home] gebied. Ze kunnen alleen goedkeuringen bekijken.
    * Aanvragers kunnen hun werk niet delegeren aan anderen. Ze kunnen geen werkitems weergeven in hun [!UICONTROL Home] gebied
-* U kunt de aan u toegewezen taken en kwesties slechts delegeren. U kunt geen taken en kwesties delegeren die aan andere gebruikers, teams, of baanrollen worden toegewezen.
+* U kunt de taken en de kwesties slechts delegeren die aan u worden toegewezen. U kunt geen taken en kwesties delegeren die aan andere gebruikers, teams, of baanrollen worden toegewezen.
 * U kunt taken en kwesties slechts delegeren die niet vóór de begindatum van de delegatie worden voltooid.
 * Als een het werkpunt tijdens het tijdkader van de delegatie voltooit, blijft het punt op het gebied van het Huis van de afgevaardigde en van de toegewezen persoon 2 weken vóór [!DNL Workfront] wordt automatisch verwijderd.
 * De gebruikers die u als afgevaardigden selecteert, ontvangen de zelfde toestemmingen zoals uw toestemmingen op de taken en de kwesties u aan hen delegeert. De toestemmingen moeten binnen hun toegangsniveaus werken, en soms zouden hun toegangsniveaus lager kunnen zijn dan van u.
@@ -63,9 +64,9 @@ Overweeg het volgende wanneer u taken en kwesties delegeert:
 * U kunt gedelegeerde werk en gedelegeerde namen weergeven op verschillende gebieden van [!DNL Workfront]. Voor meer informatie, zie de sectie &quot;van de plaats de plaats van gedelegeerd werk en van afgevaardigden informatie&quot;in het artikel [Taak beheren en taken delegeren](../delegate-work/how-to-delegate-work.md).
 
 
-   >[!IMPORTANT]
-   >
-   >  Als een gebruiker slechts de toegang van de Mening tot taken op hun toegangsniveau heeft en u hebt leiden toestemmingen op de taken u aan hen delegeert, ontvangen zij leiden toestemmingen aan de taken u aan hen delegeert. Ze kunnen echter niet dezelfde handelingen uitvoeren als u met betrekking tot gedelegeerde taken. Zij moeten om Edit toegang tot Taken van de systeembeheerder verzoeken om taken in uw afwezigheid bij te werken.
+  >[!IMPORTANT]
+  >
+  >  Als een gebruiker slechts de toegang van de Mening tot taken op hun toegangsniveau heeft en u hebt leiden toestemmingen op de taken u aan hen delegeert, ontvangen zij leiden toestemmingen aan de taken u aan hen delegeert. Ze kunnen echter niet dezelfde handelingen uitvoeren als u met betrekking tot gedelegeerde taken. Zij moeten om Edit toegang tot Taken van de systeembeheerder verzoeken om taken in uw afwezigheid bij te werken.
 
 * Als de delegatie wordt gestopt, worden de machtigingen die aan de gedelegeerde gebruikers zijn verleend voor de taken en problemen waaraan ze zijn gedelegeerd, niet verwijderd.
 * Als een systeem of het [!UICONTROL Allow users to delegate their tasks & issues] in het dialoogvenster [!UICONTROL Setup] , worden de momenteel gedelegeerde gebruikers verwijderd van de taken en problemen waaraan zij eerder zijn gedelegeerd. Hun machtigingen voor de taken of uitgaven worden niet verwijderd.
@@ -74,9 +75,9 @@ Overweeg het volgende wanneer u taken en kwesties delegeert:
 
 | Handeling | Toewijzingen | Delegaties |
 |--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------------------------------------|
-| Een toegewezen of gedelegeerde gebruiker kan het werkitem bewerken of verwijderen waaraan deze is toegewezen of waaraan deze is gedelegeerd | Gebaseerd op machtigingen en toegangsniveau | Gebaseerd op machtigingen en toegangsniveau |
+| Een toegewezen of gedelegeerde gebruiker kan het werkitem bewerken of verwijderen waaraan deze is toegewezen | Gebaseerd op machtigingen en toegangsniveau | Gebaseerd op machtigingen en toegangsniveau |
 | Een toegewezen of gedelegeerde gebruiker wordt weergegeven in de koptekst van het werkitem | Ja | Ja |
-| De toegewezen of gedelegeerde taken of uitgaven worden weergegeven in het thuisgebied van de ontvanger of gedelegeerde | Ja, totdat het item is voltooid | Ja, alleen voor de duur van de delegatie |
+| De toegewezen of gedelegeerde taken of uitgaven worden weergegeven in het thuisgebied van de ontvanger of gedelegeerde | Ja, totdat het item is voltooid | Ja, alleen voor het tijdsbestek van de delegatie |
 | U kunt het werk aan gebruikers van het gebied van het Huis toewijzen of delegeren | Ja | Ja |
 | U kunt het werk aan gebruikers toewijzen of delegeren gebruikend | Ja | Nee |
 | U kunt het werk aan gebruikers in een lijst, of van de kopbal van een het werkpunt toewijzen of delegeren | Ja | Nee |

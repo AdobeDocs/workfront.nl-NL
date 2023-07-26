@@ -4,8 +4,9 @@ content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: De datumnotatie wijzigen in [!DNL Adobe Workfront]
 description: De datumnotatie voor de datums wijzigen in [!DNL Adobe Workfront] u moet de taalmontages in uw browser veranderen.
+feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%

@@ -4,7 +4,8 @@ navigation-topic: new-home
 title: Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina
 description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die op uw startpagina wordt weergegeven. U kunt de grootte van deze widgets wijzigen en deze op uw startpagina rangschikken.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Voor informatie over beschikbare widgets en welke informatie deze bijhouden, raa
 
 1. Ga naar uw startpagina door op het Adobe Workfront-pictogram te klikken ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) boven aan het scherm als Home is ingesteld als uw openingspagina of door op het pictogram van het hoofdmenu te klikken ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) vervolgens klikken op **Home**.
 
-1. Klik op de knop **Aanpassen** in de rechterbovenhoek van de pagina.
+1. Klik op de knop **Aanpassen** in de rechterbovenhoek van de pagina
 
    ![Knop Aanpassen](../new-home/assets/customize-button.png)
 
@@ -34,7 +35,7 @@ Voor informatie over beschikbare widgets en welke informatie deze bijhouden, raa
 
 1. Ga naar uw startpagina door op het Adobe Workfront-pictogram te klikken ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) boven aan het scherm als Home is ingesteld als uw openingspagina of door op het pictogram van het hoofdmenu te klikken ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) vervolgens klikken op **Home**.
 
-1. Zoek de widget die u wilt verplaatsen of waarvan u het formaat wilt wijzigen op de startpagina.
+1. Zoek de widget die u wilt verplaatsen of vergroten of verkleinen op de startpagina.
 
 1. Ofwel:
 
@@ -48,6 +49,6 @@ Voor informatie over beschikbare widgets en welke informatie deze bijhouden, raa
 
 1. Ga naar uw startpagina door op het Adobe Workfront-pictogram te klikken ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) boven aan het scherm als Home is ingesteld als uw openingspagina of door op het pictogram van het hoofdmenu te klikken ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) vervolgens klikken op **Home**.
 
-1. Zoek de widget op de startpagina die u wilt verwijderen en klik op het pictogram Meer ![Meer pictogram](../new-home/assets/more-icon.png) in de rechterbovenhoek van de widget.
+1. Zoek de widget op de startpagina die u wilt verwijderen en klik op het pictogram Meer ![Meer pictogram](../new-home/assets/more-icon.png) rechtsboven in de widget.
 
 1. Klikken **Verwijderen**.

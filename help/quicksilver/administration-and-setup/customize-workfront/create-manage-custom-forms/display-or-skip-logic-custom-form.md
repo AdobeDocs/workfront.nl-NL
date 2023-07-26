@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt bepalen welke secties van een aangepast formulier moeten worden weergegeven of overgeslagen op basis van de keuzes die een gebruiker maakt bij het invullen.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 0%
@@ -48,7 +48,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 * Als u weergavelogica wilt toevoegen aan een aangepast veld, een widget of een sectie-einde, moet ten minste één meerkeuzeveld (keuzerondjes, vervolgkeuzelijst of selectievakjes) vóór dit veld op het formulier worden geplaatst.
 
-   Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * U kunt geen logica overslaan toevoegen aan een widget of sectie-einde. U kunt het alleen toevoegen aan een veld met meerdere keuzen (keuzerondjes, vervolgkeuzelijst of selectievakjes).
 
@@ -85,7 +85,7 @@ De beste manier om te leren hoe te om vertoning toe te voegen en logica aan een 
 
    1. In de **Formuliertitel** vak, tekst **Aangepast voorbeeldformulier - Leren werken met weergavelogica en logica overslaan**.
 
-   1. Klikken **Veld toevoegen** in de linkerbovenhoek.
+   1. Klikken **Veld toevoegen** linksboven.
    1. Een vervolgkeuzeveld toevoegen met de naam *Probleemveld* door te klikken **Vervolgkeuzelijst** en typt u **Probleemveld** in de **Label** doos.
 
    1. Onder **Keuzen** voegt u de volgende opties toe aan de tekstvakken:
@@ -105,7 +105,7 @@ De beste manier om te leren hoe te om vertoning toe te voegen en logica aan een 
 1. In het vak dat wordt weergegeven, **Weergavelogica** open, opstelling de logica voor wanneer **Ander onderzoek** wordt op het formulier weergegeven door op **Probleemveld** in de eerste vervolgkeuzelijst, **Onderzoek vereist** in de tweede vervolgkeuzelijst, en **Geselecteerd** in de derde vervolgkeuzelijst.
 1. Klikken **Opslaan** om de **Field Logic** venster, klik vervolgens op **Gereed** in de **Veldinstellingen** gebied.
 
-   Nu, wanneer iemand selecteert **Onderzoek vereist** in de **Probleemveld** de **Ander onderzoek** wordt weergegeven.
+   Nu, wanneer iemand selecteert **Onderzoek vereist** in de **Probleemveld** vervolgkeuzelijst **Ander onderzoek** wordt weergegeven.
 
 1. Klikken **Voorvertoning** om ervoor te zorgen dat de logica op de gewenste manier op het formulier wordt weergegeven.
 1. Klikken **Voorvertoning beëindigen** wanneer u ontdekt dat de logica zoals verwacht werkt.
@@ -113,7 +113,7 @@ De beste manier om te leren hoe te om vertoning toe te voegen en logica aan een 
 
 ### Logica overslaan {#skip-logic}
 
-Logische functies overslaan werkt net als logica voor weergave, maar fungeert als omgekeerd: in plaats van specifieke aangepaste meerkeuzevelden te laten verschijnen op basis van specifieke selecties, bepaalt u welke velden moeten worden overgeslagen op basis van de selecties van de gebruikers.
+Logische functies voor overslaan zijn vergelijkbaar met die voor de weergave van logica, maar fungeren als het omgekeerde: in plaats van dat specifieke aangepaste multikeuze-velden worden weergegeven op basis van specifieke selecties, bepaalt u welke velden moeten worden overgeslagen op basis van de selecties van de gebruikers.
 
 U leert dit door te werken aan het voorbeeldformulier dat u in de sectie hebt gemaakt [Logica weergeven](#display-logic) in dit artikel :
 
@@ -125,7 +125,7 @@ U leert dit door te werken aan het voorbeeldformulier dat u in de sectie hebt ge
 1. Selecteer het drop-down gebied u genoemde creeerde *Probleemveld*.
 1. Klik op de knop **Logica toevoegen** in de **Veldinstellingen** zijbalk.
 
-1. In de **Field Logic** de **Logica overslaan** is geselecteerd.
+1. In de **Field Logic** verzeker u de **Logica overslaan** is geselecteerd.
 
 1. Eerste vervolgkeuzelijst instellen op **Geen onderzoek meer** en de tweede vervolgkeuzelijst naar **Geselecteerd**.
 

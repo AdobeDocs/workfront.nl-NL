@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt een aangepast formulier ontwerpen op basis van een kopie met de formulierontwerper.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
 
 ---
-
 
 # Een formulier ontwerpen op basis van een kopie met de formulierontwerper
 
@@ -34,7 +34,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
-   <p>Huidig plan: Standaard</p>
+   <p>Huidige abonnement: standaard</p>
    <p>of</p>
    <p>Ouder plan: Plan</p></td> 
   </tr> 

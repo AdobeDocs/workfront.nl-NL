@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt objecttypen toevoegen aan of verwijderen uit aangepaste formulieren met de formulierontwerper.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
 
 ---
-
 
 # Objecttypen toevoegen aan of verwijderen uit een bestaand aangepast formulier met de formulierontwerper
 
@@ -34,7 +34,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
-   <p>Huidig plan: Standaard</p>
+   <p>Huidige abonnement: standaard</p>
    <p>of</p>
    <p>Ouder plan: Plan</p></td> 
   </tr> 
@@ -53,7 +53,7 @@ U kunt aanvullende objecttypen aan het formulier toevoegen zodat het aan meerder
 
 >[!NOTE]
 >
->Sectie-einden kunnen worden beïnvloed door het objecttype. De beperkte machtiging Bewerken voor sectie-einden van aangepaste formulieren is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
+>Sectie-einden kunnen worden beïnvloed door het objecttype. De beperkte machtiging Bewerken voor afbrekingen van aangepaste formuliersecties is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
 >
 >Zie voor meer informatie [Hoe meerdere objecttypen de machtigingen voor secties kunnen beïnvloeden](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 

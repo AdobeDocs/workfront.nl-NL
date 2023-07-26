@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Een sectie-einde toevoegen aan een aangepast formulier met de oudere formulierbuilder
 description: U kunt aangepaste velden en widgets in een aangepast formulier groeperen in secties met koppen. Dit is handig als u gebruikers die het formulier invullen, een geordende ervaring wilt laten zien. Ook, als u toegang tot bepaalde douanegebieden en widgets aan bepaalde gebruikers moet beperken, kunt u hen in een sectie plaatsen en dan toegang tot de sectie verlenen aan slechts die gebruikers.
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Als u bijvoorbeeld gevoelige informatie wilt bijhouden die alleen systeembeheerd
 
 De toegangsinstellingen die u voor een sectie selecteert, zijn rechtstreeks gekoppeld aan de machtigingen die gebruikers hebben voor het Workfront-object waaraan het aangepaste formulier is gekoppeld. U kunt een sectie verbergen of weergeven op basis van het feit of de gebruiker toegang heeft tot het object, een bijdrage levert aan dat object of dat object beheert. U kunt ook een sectie alleen instellen op Beheerder, zodat alleen gebruikers met een toegangsniveau van de systeembeheerder toegang hebben tot de sectie.
 
-Voor informatie over machtigingen voor objecten raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Zie voor informatie over machtigingen voor objecten [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 <!--
 >[!TIP]
@@ -95,7 +95,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
           <p>Staat gebruikers toe om aan het voorwerp bij te dragen als het een project, een taak, of een kwestie is.</p>
           <p>Staat gebruikers toe om het profiel uit te geven of de profieltoestemming te bezitten aan het voorwerp als het een gebruiker is.</p></li> 
           <li><b>Bewerken</b>: Rechten voor het object beheren </li> 
-          <li><b>Alleen beheerder</b>: Toegangsniveau van systeembeheerder</li> 
+          <li><b>Alleen beheerder</b>: Toegangsniveau voor systeembeheerder</li> 
          </ul> </li> 
         <p>De volgende machtigingen zijn beschikbaar onder <b>Gebruikers met deze toegang tot het object kunnen veldwaarden bewerken</b>: </p> 
          <ul> 
@@ -103,10 +103,10 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
            <p>Als het voorwerp een project, een taak, of een kwestie, deze toestemming gebruikers toestaat om aan het voorwerp bij te dragen</p>
           <p>Als het object een gebruiker is, kunnen gebruikers met deze machtiging het profiel bewerken of eigenaar zijn van de profielmachtiging voor het object.</p> 
           <li><b>Bewerken</b>: Rechten voor het object beheren </li> 
-          <li><b>Alleen beheerder</b>: Toegangsniveau van systeembeheerder</li> 
+          <li><b>Alleen beheerder</b>: Toegangsniveau voor systeembeheerder</li> 
          </ul> </li> 
        </ul> 
-       <p>Voor informatie over machtigingen voor objecten raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overzicht van het delen van machtigingen voor objecten</a>.</p> 
+       <p>Zie voor informatie over machtigingen voor objecten <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overzicht van het delen van machtigingen voor objecten</a>.</p> 
        <p><b>OPMERKING</b>:  
        <ul> 
        <li> <p>Gebruikers zonder de machtigingen die u hier opgeeft, kunnen de aangepaste velden en widgets niet zien in de sectie. </p> <p>Dit is ook het geval als u de waarden van de velden in rapporten weergeeft of deze in berekende velden gebruikt in tekstmodusrapportage.</p> </li> 
@@ -207,7 +207,7 @@ You can click
 
 ## Hoe meerdere objecttypen de machtigingen voor secties kunnen beïnvloeden {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
-De beperkte machtiging Bewerken voor sectie-einden van aangepaste formulieren is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
+De beperkte machtiging Bewerken voor afbrekingen van aangepaste formuliersecties is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
 
 In een douaneformulier met een sectieonderbreking die met de Beperkte Edit toestemming wordt gevormd, als u één van de andere objecten types aan de vorm (Portfolio, Programma, Document, Bedrijf, het Verslag van de Facturering, Herhaling, Kosten, of Groep) toevoegt, zult u worden ertoe aangezet om aan de Edit toestemming te schakelen, die met zowel dat objecten type als de bestaande objecten types op de vorm compatibel is.
 
@@ -217,4 +217,4 @@ In een douaneformulier met een sectieonderbreking die met de Beperkte Edit toest
 >
 >U voegt het objecttype Portfolio toe aan het formulier, wat betekent dat de optie Beperkte bewerking niet langer beschikbaar is voor het sectie-einde in het formulier.
 >
->Een bericht op het scherm zet u ertoe aan om op de Edit toestemming te schakelen, die het meest gelijkaardig aan Beperkte Edit is, en compatibel met zowel het de objecten van het Project type als het objecten van de Portfolio type is.
+>Een bericht op het scherm zet u ertoe aan om op de Edit toestemming te schakelen, die het meest gelijkaardig aan Beperkte Edit is, en compatibel met zowel het de objecten van het Project type als het Portfolio objecten type is.

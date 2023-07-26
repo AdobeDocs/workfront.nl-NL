@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Aanmelden met vroege functies voor [!DNL Adobe Workfront] Borden
 description: Lees dit artikel voor meer informatie over de [!DNL Workfront Boards] opt-in voor vroege functies.
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -213,7 +214,7 @@ Wanneer uw [!DNL Workfront] de beheerder heeft vroegere eigenschappen voor raden
 
 Wanneer de [!DNL Workfront] de beheerder laat vroege eigenschappen voor raden van bestuur toe, alle gebruikers in de organisatie worden gekozen binnen.
 
-De [!DNL Workfront] de beheerder kan de optie Boven verbergen voor [!UICONTROL Main Menu] voor individuele gebruikers of groepen gebruikers met een lay-outsjabloon. Zie voor meer informatie [De [!UICONTROL Main Menu] een lay-outsjabloon gebruiken](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+De [!DNL Workfront] de beheerder kan de optie Boven verbergen voor de [!UICONTROL Main Menu] voor individuele gebruikers of groepen gebruikers met een lay-outsjabloon. Zie voor meer informatie [De [!UICONTROL Main Menu] een lay-outsjabloon gebruiken](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
@@ -221,7 +222,7 @@ De [!DNL Workfront] de beheerder kan de optie Boven verbergen voor [!UICONTROL M
 
 ### Kan ik me afmelden voor de eerste functies nadat ik lid ben geworden?
 
-Alleen [!DNL Workfront] beheerders kunnen ervoor kiezen geen functies in een vroeg stadium te ontvangen. Indien een [!DNL Workfront] de beheerder maakt de vroege eigenschappen onbruikbaar, alle gebruikers in de organisatie uit worden gekozen.
+Alleen [!DNL Workfront] beheerders kunnen ervoor kiezen om functies in een vroeg stadium niet meer te ontvangen. Indien een [!DNL Workfront] de beheerder maakt de vroege eigenschappen onbruikbaar, alle gebruikers in de organisatie uit worden gekozen.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
 1. Klikken ![Aanmelden met vroege functie ingeschakeld](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) boven aan het dashboardscherm.

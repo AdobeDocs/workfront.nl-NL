@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder
 description: Wanneer u aan een aangepast formulier werkt, kunt u een nieuw aangepast veld maken en dit toevoegen aan een aangepast formulier. U kunt ook een aangepast veld toevoegen dat al aan een ander aangepast formulier is toegevoegd.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2264'
 ht-degree: 0%
@@ -77,7 +77,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Tekstveld met opmaak</td> 
-      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens. Dit is beschikbaar in Home, het gedeelte Updates, lijsten en het gebied Details voor Workfront-objecten. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Voor informatie over toegang tot dit veld via de API raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Opslag van rijke tekstvelden in de API</a>.</p> <p><b>OPMERKING</b>: Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-apps (beschikbaar in volgende versies). </p> </td> 
+      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokopties. Dit is beschikbaar in Home, het gebied van Updates, lijsten, en het gebied van Details voor de voorwerpen van Workfront. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Voor informatie over toegang tot dit veld via de API raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Opslag van rijke tekstvelden in de API</a>.</p> <p><b>OPMERKING</b>: Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-toepassingen (beschikbaar in komende versies). </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vervolgkeuzelijst</td> 
@@ -143,7 +143,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td> <p>(Vereist) Met deze naam identificeert het systeem het aangepaste veld wanneer u het toevoegt aan verschillende gebieden in Workfront, zoals rapporten, Home- en API-interacties.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
       <p><b>BELANGRIJK</b>:   
       <ul> 
-      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem niet langer het aangepaste veld waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
+      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
       <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
       <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
       </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#Add" class="MCXref xref">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
@@ -180,7 +180,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td> <p>(Alleen Typeahead-velden) Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b>OPMERKING</b>:   
         <ul> 
          <li>Als uw Workfront-beheerder de naam voor Portfolio, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor het object weergegeven in deze vervolgkeuzelijst, niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
-         <li>De volgende objecttypen worden ondersteund in de mobiele apps van iOS en Android Workfront: Gebruiker, Bedrijf, Groep, de Rol van de Baan, Portfolio, Programma, Project, en Malplaatje.</li> 
+         <li>De volgende objecttypen worden ondersteund in de mobiele apps van iOS en Android Workfront: Gebruiker, Bedrijf, Groep, Functie, Portfolio, Programma, Project en Sjabloon.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -211,10 +211,10 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td role="rowheader">Wijzigingen in veld bijhouden in updateffeeds</td> 
       <td><p>Klik op de vervolgkeuzelijst en selecteer de objecttypen waarin u de waardewijzigingen van het veld automatisch wilt bijhouden.</p> 
-      <p><b>OPMERKING</b>: Deze optie is niet beschikbaar voor het volgende:</p> 
+      <p><b>OPMERKING</b>: Deze optie is niet beschikbaar voor:</p> 
       <ul> 
-      <li>Aangepaste formulieren die zijn gekoppeld aan de volgende objecttypen: Kosten, Bedrijf, Iteratie, Factureringsverslag, en Groep.</li> 
-      <li>De volgende veldtypen: Berekende, beschrijvende tekst en sectie-einde</li> 
+      <li>Aangepaste formulieren die zijn gekoppeld aan de volgende objecttypen: Kosten, Bedrijf, Iteratie, Factureringsrecord en Groep.</li> 
+      <li>De volgende veldtypen: Berekende , Omschrijvende tekst en Sectie-einde</li> 
       </ul>
       <p><b>BELANGRIJK</b>: Wanneer u een objecttype selecteert of deselecteert, heeft dit invloed op alle aangepaste formulieren die zijn gekoppeld aan het geselecteerde objecttype en die dit veld bevatten. Als u bijvoorbeeld hier een objecttype uitschakelt en het aangepaste formulier opslaat, worden de waardewijzigingen van het veld niet meer bijgehouden voor dat objecttype in een aangepast formulier dat het veld bevat.</p>
        <p>Nadat u hier een objecttype voor een veld hebt geselecteerd en het aangepaste formulier hebt opgeslagen, wordt het veld weergegeven op het tabblad Aangepaste velden in het gebied feeds bijwerken in Setup.</p> 
@@ -227,19 +227,19 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Keuzen </td> 
-      <td> <p>(Alleen vervolgkeuzelijsten, selectievakjes of keuzerondjes; optioneel)</p> 
+      <td> <p>(Alleen vervolgkeuzelijst, selectievakjes of keuzerondjes; optioneel)</p> 
        <ol> 
         <li> <p>Klikken <b>Opties</b>Schakel vervolgens een van de volgende opties in:</p> 
            <ul> 
-            <li><strong>Waarden tonen</strong>: Hiermee worden de waarden van elke keuze in het veld weergegeven. Het label van elke keuze wordt standaard weergegeven.</li> 
-            <li><strong>Keuzen A-Z sorteren</strong>: Hiermee sorteert u de opties die u alfabetisch in het veld toevoegt.</li> 
+            <li><strong>Waarden tonen</strong>: geeft de waarden van elke keuze in het veld weer. Het label van elke keuze wordt standaard weergegeven.</li> 
+            <li><strong>Keuzen A-Z sorteren</strong>: hiermee sorteert u de opties die u alfabetisch in het veld toevoegt.</li> 
            </ul> 
         </li> 
-        <li> <p>Voor elke keuze die u voor de gebruiker toevoegt, klikt u op het tandwielpictogram <img src="assets/gear-icon-settings.png">Selecteer vervolgens een van de volgende opties:</p> 
+        <li> <p>Klik voor elke keuze die u voor de gebruiker toevoegt op het tandwielpictogram <img src="assets/gear-icon-settings.png">Selecteer vervolgens een van de volgende opties:</p> 
            <ul> 
-            <li><strong>Standaard selecteren</strong>: Selecteer standaard de keuze in het veld.</li> 
+            <li><strong>Standaard selecteren</strong>: Selecteer de standaardinstelling in het veld.</li> 
             <li> <p><strong>Keuze verbergen</strong>: Verberg de keuze in het veld. Verborgen keuzen blijven beschikbaar in rapporten.</p> </li> 
-            <li> <p><strong>Keuze verwijderen</strong>: De keuze uit het veld verwijderen.</p> <p><b>WAARSCHUWING</b>: Als deze optie wordt gebruikt voor huidige objecten, verwijdert u deze niet uit het veld. Als u deze regel verwijdert, gaan historische gegevens verloren. Selecteer in plaats daarvan de optie om deze te verbergen, zodat gebruikers deze optie in de toekomst niet meer kunnen selecteren.</p> </li> 
+            <li> <p><strong>Keuze verwijderen</strong>: Verwijder de keuze uit het veld.</p> <p><b>WAARSCHUWING</b>: Als u de huidige objecten hebt die deze optie gebruiken, verwijdert u deze niet uit het veld. Als u deze regel verwijdert, gaan historische gegevens verloren. Selecteer in plaats daarvan de optie om deze te verbergen, zodat gebruikers deze optie in de toekomst niet meer kunnen selecteren.</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -262,7 +262,6 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >
    >* Als u overschakelt op Keuzerondjes, behoudt Workfront de eventueel door een gebruiker in het veld ingevoerde waarden totdat de gebruiker gegevens in een willekeurig deel van het formulier wijzigt en opslaat. Op dit punt worden alle waarden die zijn geselecteerd in het veld Meerdere selectietypen vervangen door de geselecteerde waarde voor Keuzerondje.
    >* Als u overschakelt naar een vervolgkeuzelijst met één keuze, behoudt Workfront de eventuele multi-select waarden die een gebruiker in het veld heeft ingevoerd, totdat de gebruiker de waarden in het veld wijzigt en opslaat. Op dit punt worden alle waarden die zijn geselecteerd in het veld Meerdere selecties vervangen door de geselecteerde vervolgkeuzelijst.
-
 
 1. (Optioneel) Herhaal stap 2-6 om andere aangepaste velden toe te voegen.
 

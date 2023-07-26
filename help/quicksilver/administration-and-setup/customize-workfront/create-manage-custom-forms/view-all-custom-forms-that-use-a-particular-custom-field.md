@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Alle aangepaste formulieren weergeven die een bepaald aangepast veld of een bepaalde aangepaste widget gebruiken
 description: U kunt zien welke aangepaste formulieren een aangepast veld of een aangepaste widget gebruiken die u wilt wijzigen of verwijderen. Het is belangrijk om te beoordelen of die douaneformulieren aanpassingen nodig zullen hebben om behoorlijk te blijven werken of nuttig te blijven nadat u het gebied of widget verandert of schrapt.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt zien welke aangepaste formulieren een aangepast veld of een aangepaste widget gebruiken die u wilt wijzigen of verwijderen. Het is belangrijk om te beoordelen of die douaneformulieren aanpassingen nodig zullen hebben om behoorlijk te blijven werken of nuttig te blijven nadat u het gebied of widget verandert of schrapt.
 
-Voor informatie over aangepaste velden en widgets in aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Toegangsvereisten
 

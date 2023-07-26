@@ -2,10 +2,10 @@
 title: Een afbeeldings- of andere middelenwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder
 description: U kunt de eigenschappen van de volgende widgets voor elementen, zoals afbeeldingen, video's, PDF-bestanden en Adobe XD-bestanden, toevoegen of bewerken in een aangepast formulier. Dit is handig wanneer u visuele inhoud wilt opnemen, zoals brandingafbeeldingen, een instructievideo of een interactief prototype voor een app die u ontwerpt.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 0%
@@ -68,7 +68,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    * Als u een nieuwe widget toevoegt, selecteert u **Afbeelding**, **PDF**, of **Video** om het aan de onderkant van het formulier toe te voegen of sleep het naar de gewenste plaats op het formulier.
 
-      ![](assets/add-widget.png)
+     ![](assets/add-widget.png)
 
 
    * Als u een widget wilt toevoegen die al aan een ander aangepast formulier is toegevoegd, klikt u op **Veldbibliotheek** Klik vervolgens op de naam van de widget in de lijst die wordt weergegeven. Zie voor meer informatie [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
@@ -147,7 +147,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Vereist) Typ of plak een geldige XD prototypekoppeling.</p> 
-      <p>Opmerking: De instelling voor Koppelingstoegang op het tabblad Delen in Adobe XD moet zijn ingesteld op Iedereen met de koppeling. Anders kunnen gebruikers het prototype niet bekijken. 
+      <p>Opmerking: de instelling Koppelingstoegang op het tabblad Delen in Adobe XD moet zijn ingesteld op Iedereen met de koppeling. Anders kunnen gebruikers het prototype niet bekijken. 
    </td> 
      </tr> 
      <tr> 
@@ -179,5 +179,5 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 1. Ga naar de video in het gebied Documenten en genereer een proefdruk, zoals beschreven in [Een interactieve proefdruk maken voor een website of andere webinhoud](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Open de proefdruk.
-1. Klik met de rechtermuisknop ergens op de video en selecteer vervolgens **Videoadres kopiëren**.
+1. Klik met de rechtermuisknop op een willekeurige locatie in de video en selecteer **Videoadres kopiëren**.
 1. Plak het gekopieerde adres in het aangepaste formulier waar u de videowidget toevoegt **URL** doos.

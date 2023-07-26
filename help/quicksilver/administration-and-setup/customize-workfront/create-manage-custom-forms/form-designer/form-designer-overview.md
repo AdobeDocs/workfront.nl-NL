@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt een aangepast formulier ontwerpen dat gebruikers aan een Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
 author: Courtney / Lisa
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Er is een nieuwe knop boven aan zowel de nieuwe formulierontwerper als de veroud
 
 Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
 
-* **Een veld kopiëren**: U kunt bestaande velden nu kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.
+* **Een veld kopiëren**: U kunt nu bestaande velden kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.
 
-* **De grootte voor beschrijvende tekst wijzigen**: U kunt nu kleine, middelgrote of grote formaten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden.
+* **De grootte voor beschrijvende tekst wijzigen**: U kunt nu kleine, middelgrote of grote grootten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden.
 
 * **Standaardsectie gebruiken**: Als de maker van het formulier geen sectie boven aan het formulier heeft toegevoegd, wordt nu een sectie Standaard weergegeven op het canvas, zodat gebruikers de machtigingen kunnen aanpassen voor velden waaraan geen aangepaste sectie is toegewezen.
 
@@ -63,7 +63,7 @@ Pictogrammen op een veld in de formulierontwerper geven aan dat logica wordt toe
 
 De ![Logica voor doelveld weergeven](assets/display-logic-bottom-left.png) linksonder betekent dat het veld het doelveld voor de weergavelogica is (als een specifieke selectie op het formulier wordt gemaakt, wordt dit veld weergegeven). De ![Pictogram voor weergavelogica definiëren](assets/display-logic-bottom-right.png) pictogram rechtsonder betekent dat het veld wordt gebruikt om weergavelogica te definiëren (een specifieke selectie of waarde in dit veld geeft het doelveld weer).
 
-De ![Logica voor doelveld overslaan](assets/skip-logic-bottom-left.png) pictogram linksonder betekent dat het veld het doelveld is voor de logica van overslaan (als een specifieke selectie is aangebracht op het formulier, slaat het formulier over naar dit veld). De ![Logicopictogram voor overslaan definiëren](assets/skip-logic-bottom-right.png) pictogram rechtsonder betekent dat het veld wordt gebruikt om logica overslaan te definiëren (een specifieke selectie of waarde in dit veld slaat andere velden over en gaat rechtstreeks naar het doelveld).
+De ![Logica voor doelveld overslaan](assets/skip-logic-bottom-left.png) pictogram linksonder betekent dat het veld het doelveld is voor de logica van overslaan (als een specifieke selectie is aangebracht op het formulier, slaat het formulier over naar dit veld). De ![Logicopictogram overslaan definiëren](assets/skip-logic-bottom-right.png) pictogram rechtsonder betekent dat het veld wordt gebruikt om logica overslaan te definiëren (een specifieke selectie of waarde in dit veld slaat andere velden over en gaat rechtstreeks naar het doelveld).
 
 ![Logische pictogrammen](assets/logic-icons-3.png)
 
