@@ -5,10 +5,12 @@ title: Overzicht van conversie van problemen in Adobe Workfront
 description: Als meer werk moet worden gedaan om een kwestie te voltooien nadat de kwestie wordt voorgelegd, kunt u de kwestie in een project of in een taak omzetten.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -31,13 +33,15 @@ Voor informatie over het omzetten van kwesties in projecten, zie [Een uitgave co
    * Tijdens de conversie wordt u mogelijk gevraagd of u het probleem en de bijbehorende resolutie wilt koppelen aan het project of de taak die u maakt.
    * Als u de kwestie houdt, werken de status en het percentage volledig van het project of de taak automatisch de status en het percentage volledig van de kwestie bij wanneer om het even welke veranderingen op het project, de taak, of de kwestie voorkomen of wanneer Workfront de chronologie opnieuw berekent.
 
-* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Zie voor meer informatie de [Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in dit artikel.
+* Wanneer het omzetten van een kwestie in een taak of een project, wordt de kwestie verwijderd uit het gebied van het Huis van de gebruiker die aan de kwestie wordt toegewezen.
+
+* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Zie de klasse [Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in dit artikel.
 * Tijdens het converteren van een uitgave worden niet alle documenten of de bijbehorende gegevens verplaatst naar het nieuwe object waarnaar de uitgave wordt geconverteerd. De volgende items worden opgenomen wanneer u een uitgave converteert waaraan documenten of documentkoppelingen zijn gekoppeld:
 
    * Document
    * Het document is gekoppeld aan services van derden, zoals Google Drive of SharePoint.
    * Versies
-   * Proefdrukken worden alleen opgenomen als de optie **Behoud het oorspronkelijke probleem en koppel zijn resolutie aan deze taak** is uitgeschakeld.
+   * Proefdrukken worden alleen opgenomen als de optie **Behoud het oorspronkelijke probleem en koppel zijn resolutie aan deze taak** is niet geselecteerd.
    * Documentgoedkeuringen worden niet opgenomen wanneer u een uitgave converteert waaraan documenten en documentkoppelingen zijn gekoppeld.
 
 * Als u hebt besloten de uitgave bij de conversie te houden en er documenten aan zijn gekoppeld, worden het document en de versies ervan naar het project of de taak gekopieerd. De proefdrukken en de documentgoedkeuringen worden niet gekopieerd naar het project of de taak.
@@ -92,8 +96,8 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
    <td>Projectdatums</td> 
    <td> 
     <ul> 
-     <li> <p><b>Geplande begindatum</b>: De dichtstbijzijnde arbeidstijd die op de werktijd van het sjabloonprogramma wordt gebaseerd, moet volgens de tijdzone van het schema van het sjabloon vooraf worden geselecteerd. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van voltooiing. </p> </li> 
-     <li> <p><b>Geplande afsluitdatum</b>: De dichtstbijzijnde arbeidstijd die op de werktijd van het sjabloonprogramma wordt gebaseerd, moet volgens de tijdzone van het schema van het sjabloon vooraf worden geselecteerd. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van begin. </p> </li> 
+     <li> <p><b>Geplande begindatum</b>: De dichtstbijzijnde arbeidstijd op basis van de arbeidstijd van het sjabloonschema moet vooraf worden geselecteerd, afhankelijk van de tijdzone van het schema van de sjabloon. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van voltooiing. </p> </li> 
+     <li> <p><b>Geplande afsluitdatum</b>: De dichtstbijzijnde arbeidstijd op basis van de arbeidstijd van het sjabloonschema moet vooraf worden geselecteerd, afhankelijk van de tijdzone van het schema van de sjabloon. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van begin. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

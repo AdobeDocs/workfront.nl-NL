@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om te bepalen welke informatie wordt weergegeven wanneer een gebruiker op het pictogram Details klikt ![](assets/project-details-icon.png) in het linkerdeelvenster wanneer u een taak, uitgave, document, programma of portfolio bekijkt.
+Als Adobe Workfront-beheerder kunt u met een lay-outsjabloon bepalen welke informatie wordt weergegeven wanneer een gebruiker op het pictogram Details klikt ![](assets/project-details-icon.png) in het linkerdeelvenster wanneer u een taak, uitgave, document, programma of portfolio bekijkt.
 
 <!--
 or billing record
@@ -35,14 +35,13 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
 
 De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen ook de beschikbaarheid en volgorde van velden die gebruikers in de volgende gebieden zien:
 
-<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
-* "New object" boxes, such as New Task and New Issue
+
+* &quot;Object maken&quot;-vakken, zoals Taak maken
 
   ![](assets/new-task-dialog.png)
 
--->
 
-* Schermen &quot;Object bewerken&quot;, zoals Taak bewerken, Probleem bewerken en Project bewerken
+* Schermen &quot;Object bewerken&quot; tijdens het bewerken van een object, zoals Taak bewerken, Probleem bewerken en Project bewerken
 
   ![](assets/edit-task-screen.png)
 
@@ -85,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +110,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn</p> <
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **Opslaan**.
+   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
 
    >[!TIP]
    >
