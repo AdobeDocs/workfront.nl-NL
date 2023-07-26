@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
+source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 -->
 
-De [!DNL Adobe PDF Services] kan uw bestanden lezen, omzetten of wijzigen, maar geen van beide [!DNL Adobe] noch [!DNL Workfront Fusion] Sla uw bestanden of gegevens op. Dit betekent dat:
+De [!DNL Adobe PDF Services] kan uw bestanden lezen, converteren of wijzigen, maar geen van beide [!DNL Adobe] noch [!DNL Workfront Fusion] Sla uw bestanden of gegevens op. Dit betekent dat:
 
-* U behoudt de controle over uw bestanden, inclusief de beveiliging
+* U behoudt de controle over uw bestanden, inclusief de beveiliging ervan
 * U hoeft geen [!UICONTROL Adobe] opslag- of cloudopslagaccount voor gebruik van de PDF Services.
 
 ## Toegangsvereisten
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -71,9 +71,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -82,6 +82,12 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Vereisten
+
+Als u een OAuth Server-aan-Server wilt maken, moet u de Adobe PDF Services API toevoegen in uw console voor Adobe-ontwikkelaars. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
+
+Zie voor instructies [API aan project toevoegen gebruikend OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) In de Adobe ontwikkelaarsdocumentatie.
 
 ## Verbinding maken met [!DNL Adobe PDF Services]
 
@@ -111,19 +117,19 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe PDF Services] modules:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].</td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes] (alleen JWT)</td>
@@ -138,7 +144,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe PDF Services] modules:
 
 ## [!DNL Adobe PDF Services] modules en hun velden
 
-Wanneer u [!DNL PDF Services], [!DNL Workfront Fusion] geeft de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vette titel in een module geeft een vereist veld aan.
+Wanneer u [!DNL PDF Services], [!DNL Workfront Fusion] geeft de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vetgedrukte titel in een module geeft een verplicht veld aan.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -164,7 +170,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### [!UICONTROL Generate document]
 
-De [!UICONTROL Generate document] is een krachtige manier om een PDF te creëren die gegevens bevat u selecteert. U kunt het formatteren door [!DNL Microsoft Word] of door gegevens in JSON-indeling op te geven.
+De [!UICONTROL Generate document] is een krachtige manier om een PDF te maken die gegevens bevat die u selecteert. U kunt het formatteren door te gebruiken [!DNL Microsoft Word] of door gegevens in JSON-indeling op te geven.
 
 Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionaliteit, zie [Overzicht van het genereren van documenten](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in de [!DNL Adobe Document Services] documentatie.
 
@@ -297,11 +303,11 @@ Deze actiemodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-b
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
-   <td> <p>U kunt een aggregatormodule gebruiken om documenten te verzamelen die in een PDF moeten worden gecombineerd, of u kunt de documenten handmatig toevoegen. </p> <p>We raden u aan een [!UICONTROL Array Aggregator] aan gezamenlijke output van een vorige module. Door een aggregator te gebruiken, te hoeven u niet de namen, de plaatsen, of de aantallen dossiers te kennen om te combineren. Het gebruik van een aggregator is daarom veel flexibeler en schaalbaarder dan het handmatig invoeren van de te combineren documenten.</p> <p>Als u de opdracht [!UICONTROL Combine PDF] bestandsmodule met een aggregator, moet u toewijzing inschakelen op de [!UICONTROL Documents] veld. </p> <p>In dit voorbeeld wordt [!UICONTROL Read Related Records] de module identificeert documenten verbonden aan een project, en [!UICONTROL Download Documents] elke module wordt gedownload. Alle PDF worden geaggregeerd in een array die wordt doorgegeven aan de [!UICONTROL Combine PDF] bestandenmodule.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>U kunt documenten ook handmatig invoeren.</p> <p>Voor elk document dat in de gecombineerde PDF moet worden opgenomen:</p> 
+   <td> <p>U kunt een aggregatormodule gebruiken om documenten te verzamelen die in een PDF moeten worden gecombineerd, of u kunt de documenten handmatig toevoegen. </p> <p>We raden u aan een [!UICONTROL Array Aggregator] aan gezamenlijke output van een vorige module. Door een aggregator te gebruiken, te hoeven u niet de namen, de plaatsen, of de aantallen dossiers te kennen om te combineren. Het gebruik van een aggregator is daarom veel flexibeler en schaalbaarder dan het handmatig invoeren van de te combineren documenten.</p> <p>Als u de opdracht [!UICONTROL Combine PDF] bestandsmodule met een aggregator, moet u toewijzing inschakelen op de [!UICONTROL Documents] veld. </p> <p>In dit voorbeeld wordt [!UICONTROL Read Related Records] identificeert documenten verbonden aan een project, en [!UICONTROL Download Documents] elke module wordt gedownload. Alle PDF worden geaggregeerd in een array die wordt doorgegeven aan de [!UICONTROL Combine PDF] bestandenmodule.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>U kunt documenten ook handmatig invoeren.</p> <p>Voor elk document dat in de gecombineerde PDF moet worden opgenomen:</p> 
     <ol> 
      <li value="1"> <p>Klikken [!UICONTROL Add a Document]</p> </li> 
      <li value="2"> <p>In de [!UICONTROL Source file] , selecteert u de module die het document uitvoert dat u wilt opnemen, of wijst u de naam en gegevens van het bronbestand toe. </p> </li> 
-     <li value="3"> <p>(Optioneel) Als u alleen bepaalde pagina's uit het bronbestand wilt opnemen, klikt u voor elk paginabereik dat u wilt toevoegen op <strong>[!UICONTROL Add item]</strong> in de [!UICONTROL Pages] , voert u vervolgens de eerste en laatste pagina in van het paginabereik dat u wilt opnemen, en klikt u op <strong>[!UICONTROL Add]</strong>. U kunt meerdere paginabereiken uit één document opnemen.</p> </li> 
+     <li value="3"> <p>(Optioneel) Als u alleen bepaalde pagina's uit het bronbestand wilt opnemen, klikt u voor elk paginabereik dat u wilt toevoegen op <strong>[!UICONTROL Add item]</strong> in de [!UICONTROL Pages] veld, voert u vervolgens de eerste en laatste pagina in van het paginabereik dat u wilt opnemen, en klikt u op <strong>[!UICONTROL Add]</strong>. U kunt meerdere paginabereiken uit één document opnemen.</p> </li> 
      <li value="4"> <p>Klik op <strong>[!UICONTROL Add]</strong>. </p> </li> 
     </ol> </td> 
   </tr> 
@@ -368,15 +374,15 @@ Met dit gereedschap wordt een document geconverteerd naar een PDF-bestand. Het b
    <td role="rowheader">[!UICONTROL Language]</td> 
    <td> <p>Selecteer de standaardtaal voor het brondocument. Zo kan de module een geschikt lettertype selecteren als het bronbestand geen lettertype bevat.</p> <p>Selecteer een van de volgende talen:</p> 
     <ul> 
-     <li> <p>en-US (standaard): Engels (Verenigde Staten van Amerika)</p> </li> 
+     <li> <p>en-US (Default): English (United States of America)</p> </li> 
      <li> <p>ca-ES: Catalaans (Spanje)</p> </li> 
-     <li> <p>cs-CZ: Tsjechisch (Tsjechië)</p> </li> 
-     <li> <p>da-DK: Deens (Denemarken)</p> </li> 
+     <li> <p>cs-CZ: Tsjechisch (Tsjechische Republiek)</p> </li> 
+     <li> <p>DK: Deens (Denemarken)</p> </li> 
      <li> <p>de-DE: Duits (Duitsland)</p> </li> 
      <li> <p>en-AE: Engels (Verenigde Arabische Emiraten)</p> </li> 
      <li> <p>en-GB: Engels (Verenigd Koninkrijk)</p> </li> 
      <li> <p>en-IL: Engels (Israël)</p> </li> 
-     <li> <p>nl-NL: Engels (Verenigde Staten van Amerika)</p> </li> 
+     <li> <p>en-US: Engels (Verenigde Staten van Amerika)</p> </li> 
      <li> <p>es-ES: Spaans (Spanje)</p> </li> 
      <li> <p>es-MX: Spaans (Mexico)</p> </li> 
      <li> <p>EU-ES: Baskisch (Spanje)</p> </li> 
@@ -390,14 +396,14 @@ Met dit gereedschap wordt een document geconverteerd naar een PDF-bestand. Het b
      <li> <p>ja-JP: Japans (Japan)</p> </li> 
      <li> <p>kr-KR: Koreaans (Zuid-Korea)</p> </li> 
      <li> <p>nb-NO: Noors Bokmål (Noorwegen)</p> </li> 
-     <li> <p>nl-NL: Nederlands (Nederland)</p> </li> 
+     <li> <p>NL: Nederlands (Nederland)</p> </li> 
      <li> <p>pl-PL: Pools (Polen)</p> </li> 
      <li> <p>pt-BR: Portugees (Brazilië)</p> </li> 
-     <li> <p>pt-PT: Portugees (Portugal)</p> </li> 
-     <li> <p>ro-RO: Roemeens (Roemenië)</p> </li> 
-     <li> <p>ru-RU: Russisch (Rusland)</p> </li> 
-     <li> <p>sk-SK: Slowaaks (Slowakije)</p> </li> 
-     <li> <p>sl-SI: Sloveens (Slovenië)</p> </li> 
+     <li> <p>pt-PT: Portugees</p> </li> 
+     <li> <p>RO: Roemeens (Roemenië)</p> </li> 
+     <li> <p>Ru-RU: Russisch (Rusland)</p> </li> 
+     <li> <p>sk-SK: Slowakije (Slowakije)</p> </li> 
+     <li> <p>sl-SI: Slovenië (Slovenië)</p> </li> 
      <li> <p>sv-SE: Zweeds (Zweden)</p> </li> 
      <li> <p>tr-TR: Turks (Turkije)</p> </li> 
      <li> <p>uk-UA: Oekraïens (Oekraïne)</p> </li> 
@@ -424,7 +430,7 @@ Met dit gereedschap wordt een HTML-bestand geconverteerd naar een PDF-bestand.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Belangrijk: Bronbestand moet de indeling HTML of ZIP hebben. </p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Belangrijk: bronbestand moet de HTML- of ZIP-indeling hebben. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL JSON]</td> 
@@ -625,7 +631,7 @@ In deze module kunt u pagina&#39;s in een PDF-document selectief roteren of verw
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pages]</td> 
-   <td> <p>Voor elk paginabereik dat u wilt verwijderen, klikt u op <strong>[!UICONTROL Add]</strong> en voer vervolgens de eerste en laatste pagina van het paginabereik in. </p> <p>Opmerking:   
+   <td> <p>Klik voor elk paginabereik dat u wilt verwijderen op <strong>[!UICONTROL Add]</strong> en voer vervolgens de eerste en laatste pagina van het paginabereik in. </p> <p>Opmerking:   
      <ul> 
       <li> <p>U kunt negatieve getallen gebruiken om terug te tellen vanaf het einde van het document. De laatste pagina van een document is -1, de tweede tot de laatste pagina is -2, enzovoort.</p> </li> 
       <li> <p>Als u één pagina wilt verwijderen, stelt u hetzelfde paginanummer in als het begin en het einde van het bereik.</p> </li> 
