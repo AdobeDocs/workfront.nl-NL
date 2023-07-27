@@ -6,9 +6,9 @@ description: Hieronder vindt u koppelingen naar aanvullende informatie over huid
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: a20ff4ea67ac2745663896df0e0ae792f4f21024
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '169'
 ht-degree: 15%
 
 ---
@@ -32,6 +32,7 @@ Voor informatie over hoe u uw organisatie kunt helpen probleemloos aan te passen
   <tr data-mc-conditions=""> 
    <td> <p>Uitzettingen in 2023</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Overzicht release 4de kwartaal 2023</a> </p> <p> Inclusief releases: <ul><li>23.8</li><li>23.9</li><li>23.10</li></ul></p>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 Overzicht van de release</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Overzicht van de release</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 Overzicht van de release</a> </p> </li>

@@ -4,9 +4,9 @@ description: Updates weergeven en voelen tijdens de releaseperiode van 23.3
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Voor een lijst van alle veranderingen beschikbaar met versie 23.3, zie [23.3 Ove
 
 >[!NOTE]
 >
->Voorvertoning gepland: 29 juni 2023; Planned Production release: 13 juli 2023
+>Planned Preview release: 29 juni 2023; Planned Production release: 13 juli 2023
 
 We hebben verbeteringen aangebracht in de interface van de lijst met ingediende aanvragen.
 
@@ -36,7 +36,7 @@ Zie voor meer informatie [Verzoeken kopiëren en verzenden](/help/quicksilver/ma
 
 >[!NOTE]
 >
->Voorvertoning gepland: bekend te maken; Planned Production release: bekend te maken.
+>Planned Preview release: 27 juli 2023; Geplande productie voor snelle release: met release 23.8. Geplande productie voor driemaandelijkse release: met release van 23.10
 >
 >Deze functie was oorspronkelijk bedoeld om te worden uitgebracht met de release 23.3 en werd later vertraagd.
 
@@ -48,6 +48,6 @@ Zie voor meer informatie [Problemen maken](../../../manage-work/issues/manage-is
 
 >[!NOTE]
 >
->Voorvertoning release: 29 juni 2023; Planned Production release voor klanten met Fast release: Te publiceren na de publicatie van 23.3 Productie; Planned Production release voor alle klanten: Met de release van 23.4
+>Voorvertoningsrelease: 29 juni 2023; geplande productierelease voor klanten met een Fast-release: aan te kondigen, na de productierelease 23.3; geplande productierelease voor alle klanten: met de release 23.4
 
 De lijst met tarieven voor projectfacturering heeft nu de modernere look en feel die in de meeste andere lijsten in Workfront worden aangetroffen.
