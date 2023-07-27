@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de functionaliteit voor Adobe Wor
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,12 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: Met de release van 23.3</p>
+                                <p><i>Voor gebruikers die handmatig installeren, met versie 2.1.26</i></p>
+                                <p>Voorbeeld en productierelease: 27 juli 2023</p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.3</p>
+                                <p><i>Voor gebruikers die automatische installatie gebruiken, met versie 2.1.27</i></p>
+                                <p>Voorbeeld en productierelease: 3 augustus 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -76,7 +78,7 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 10 mei 2023<br /></p>
+                                <p>Voorvertoningsrelease: 10 mei 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 10 mei 2023</span></p>
