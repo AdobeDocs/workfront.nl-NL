@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
 >De release van 23.3 bevat de optie om uw organisatie te verplaatsen naar maandelijkse releases. Daarom wijzigt Workfront het nummeringsschema van releaseversies om rekening te houden met zowel maandelijks als driemaandelijks releasetracks.
 >
 >* Als u op de **snelle release (maandelijks)** tracé, de release na 23.3 zal **23,8**, op 31 augustus 2023.
-> * Als u op de **driemaandelijks** vrijgavespoor, de release na 23.3 wordt **23,10**, in de week van 26 oktober 2023.
+> * Als u op de **kwartaal** vrijgavespoor, de release na 23.3 wordt **23,10**, in de week van 26 oktober 2023.
 > 
 > De driemaandelijkse versies zullen functionaliteit van drie maandelijkse versies omvatten. De driemaandelijkse versie van 23.10 bevat bijvoorbeeld functies die worden vrijgegeven in de maandelijkse versies 23.8, 23.9 en 23.10.
 >
@@ -35,14 +35,14 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
 >| <ul><li>23.8 (31 augustus 2023)</li><li>23.9 (28 september 2023)</li><li>23.10 (26 oktober 2023)</li></ul> | <ul><li>23.10 uur (week 26 oktober 2023)</li></ul> |
 >| <ul><li>Geen release (november 2023)</li><li>Geen vrijgave (december 2023)</li><li>24.1 (januari 2024)</li></ul> | <ul><li>24.1 (januari 2024)</li></ul> |
 >
->Voor meer informatie over het snelle releaseproces raadpleegt u [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Zie voor meer informatie over het snelle releaseproces [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor mobiele apparaten](#agile-enhancements)
 * [Verbeteringen voor financieel beheer](#financial-management-enhancements)
-* [Verbeterde integratie](#integration-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
@@ -71,10 +71,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juni 2023</p>
+                                <p>Voorvertoningsrelease: 22 juni 2023</p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.3</p>
+                                <p>Productieversie: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -87,7 +87,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 4 mei 2023</p>
+                                <p>Voorvertoningsrelease: 4 mei 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 18 mei 2023</span></p>
@@ -103,7 +103,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 21 juli 2023</p>
+                                <p>Voorvertoningsrelease: 21 juli 2023</p>
                             </li>
                             <li>
                                 <p>Productieversie: 21 juli 2023</p>
@@ -138,10 +138,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 29 juni 2023</p>
+                                <p>Voorvertoningsrelease: 29 juni 2023</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                <p>Productieversie voor alle klanten: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -154,10 +154,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juni 2023</p>
+                                <p>Voorvertoningsrelease: 22 juni 2023</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                <p>Productieversie voor alle klanten: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -170,10 +170,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juni 2023<span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.3.</span></p>
+                                <p>Voorvertoningsrelease: 22 juni 2023<span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: N.v.t.</p>
+                                <p>Productieversie voor alle klanten: n.v.t.</p>
                             </li>
                         </ul>
                     </td>
@@ -186,10 +186,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juni 2023<span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.3.</span></p>
+                                <p>Voorvertoningsrelease: 22 juni 2023<span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: N.v.t.</p>
+                                <p>Productieversie voor alle klanten: n.v.t.</p>
                             </li>
                         </ul>
                     </td>
@@ -202,11 +202,11 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 15 juni 2023</p>
+                                <p>Voorvertoningsrelease: 15 juni 2023</p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 22 juni 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 22 juni 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -219,7 +219,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 19 mei 2023</p>
+                                <p>Voorvertoningsrelease: 19 mei 2023</p>
                             </li>
                             <li>
                                  <p><span class="preview">Productieversie: 19 mei 2023</span></p>
@@ -235,11 +235,11 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 10 mei 2023<br /></p>
+                                <p>Voorvertoningsrelease: 10 mei 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 10 mei 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 10 mei 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -252,11 +252,11 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 27 april 2023<br /></p>
+                                <p>Voorvertoningsrelease: 27 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -264,16 +264,16 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dynamisch bordsjabloon</a></p>
-                        <p>Er is nu een nieuwe sjabloon, dynamisch bord, beschikbaar voor zelfstandige borden. Deze sjabloon is niet beschikbaar voor tekengebieden in een werkstroom.</p>
+                        <p>Er is nu een nieuwe sjabloon, dynamisch bord, beschikbaar voor zelfstandige borden. Deze sjabloon is niet beschikbaar voor tekengebieden binnen een werkstroom.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 20 april 2023<br /></p>
+                                <p>Voorvertoningsrelease: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -286,10 +286,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 20 april 2023<br /></p>
+                                <p>Voorvertoningsrelease: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Productieversie voor vroege opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p></s>
+                                 <s><p>Productieversie voor vroegtijdige opt-in: 28 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Productieversie voor alle klanten: 18 mei 2023</span></p>
@@ -305,7 +305,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 20 april 2023<br /></p>
+                                <p>Voorvertoningsrelease: 20 april 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie voor alle klanten: 27 april 2023</span></p>
@@ -321,11 +321,11 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 13 april 2023<br /></p>
+                                <p>Voorvertoningsrelease: 13 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 13 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.3</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 13 april 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</p>
+                                <p>Productieversie voor alle klanten: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -357,11 +357,11 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 29 juni 2023</p>
+                                <p>Voorvertoningsrelease: 29 juni 2023</p>
                             </li>
                             <li>
-                                <p>Productieversie voor klanten met de Fast release: Nog aan te kondigen, na de productievrijgave van 23.3</p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.4<br>
+                                <p>Productieversie voor klanten met een Fast release: na de productierelease 23.3 aan te kondigen</p>
+                                <p>Productieversie voor alle klanten: met de release van 23.10 (oktober 2023)<br>
                                 De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning van 30 juni tot 13 juli 2023.</p>
                             </li>
                         </ul>
@@ -370,7 +370,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
            </tbody>
         </table>
 
-### Verbeterde integratie
+### Verbeteringen voor integratie
 
 <table>
             <col style="width: 50%;" />
@@ -394,7 +394,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.</p>
+                                <p>Voorvertoning release: n.v.t.</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 27 juni 2023</span></p>
@@ -410,7 +410,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.</p>
+                                <p>Voorvertoning release: n.v.t.</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 22 juni 2023</span></p>
@@ -426,7 +426,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.</p>
+                                <p>Voorvertoning release: n.v.t.</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 22 juni 2023</span></p>
@@ -458,7 +458,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 11 mei 2023</p>
+                                <p>Voorvertoningsrelease: 11 mei 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 24 mei 2023</span></p>
@@ -474,7 +474,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 10 mei 2023</p>
+                                <p>Voorvertoningsrelease: 10 mei 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 10 mei 2023</span></p>
@@ -490,7 +490,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 10 mei 2023</p>
+                                <p>Voorvertoningsrelease: 10 mei 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 10 mei 2023</span></p>
@@ -506,7 +506,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 27 april 2023</p>
+                                <p>Voorvertoningsrelease: 27 april 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 27 april 2023</span></p>
@@ -558,10 +558,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juni 2023<br /></p>
+                                <p>Voorvertoningsrelease: 22 juni 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.3</p>
+                                <p>Productieversie: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -588,15 +588,15 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe proefdrukfunctionaliteit in de mobiele app van Workfront</a> </p>
-                        <p>Met de afgekeurde stand-alone Workfront Proof-app in 23.4 zijn er voor de primaire mobiele Workfront-app testfuncties toegevoegd, zodat proofing op mobiele apparaten kan worden voortgezet.</p>
+                        <p>Met de veroudering van de standalone Workfront Proof-app in de release van 23.10 (oktober 2023), zijn voor de primaire mobiele app van Workfront proefdrukken toegevoegd om het maken van proefdrukken op mobiele apparaten mogelijk te maken.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.</p>
+                                <p>Voorvertoning release: n.v.t.</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: Beschikbaar in Apple App Store en Google Play Store op 21 juni 2023</span></p>
+                                <p><span class="preview">Productieversie: beschikbaar in de Apple App Store en Google Play Store op 21 juni 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -628,10 +628,10 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 23 juni 2023</p>
+                                <p>Voorvertoningsrelease: 23 juni 2023</p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.3</p>
+                                <p>Productieversie: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -639,16 +639,16 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring met opmerkingen voor extra objecten</a> </p>
-                        <p>De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kort na de release 23.3 in Production: sjabloontaken, sjablonen, tijdbladen, teams, gebruikers, programma's, portfolio's.</p>
+                        <p>De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kort na de release 23.3 to Production: sjabloontaken, sjablonen, tijdbladen, teams, gebruikers, programma's, portfolio's.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: Nog aan te kondigen, na de productievrijgave van 23.3</p>
+                                <p>Voorvertoningsrelease: aan te kondigen na de productieresessie van 23.3</p>
                             </li>
                             <li>
-                                <p>Productieversie voor klanten met de Fast release: Nog aan te kondigen, na de productievrijgave van 23.3 </p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.4</p>
+                                <p>Productieversie voor klanten met een Fast release: na de productierelease 23.3 aan te kondigen </p>
+                                <p>Productieversie voor alle klanten: met de release van 23.10 (oktober 2023)</p>
                             </li>
                         </ul>
                     </td>
@@ -664,7 +664,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                                 <p>Voorvertoningsrelease: 1 juni 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.3</p>
+                                <p>Productieversie: met de release van 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -710,7 +710,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 5 juni 2023<br /></p>
+                                <p>Voorvertoningsrelease: 5 juni 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Productieversie: 5 juni 2023</span></p>
@@ -726,7 +726,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: De gehele releaseperiode van 23,3 jaar</p>
+                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 23.3</p>
                             </li>
                             <li>
                                 <p><span class="preview">Minimaal 2 weken na de release naar Voorvertoning (tenzij anders aangegeven)</span></p>
@@ -763,7 +763,7 @@ Voor API versie 16 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige
 
 Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
-Voor informatie over API-versies raadpleegt u [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Zie voor informatie over API-versies [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
@@ -777,11 +777,11 @@ Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en ha
 
 De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
 
-#### Veroudering van de mobiele app Proof met 23.4
+#### Veroudering van de Proof mobile-app met de release 23.10 (oktober 2023)
 
-De Proof mobile-app wordt officieel vervangen door de release 23.4. De algemene mobiele Workfront-app voor mobiele apparaten is verbeterd met nieuwe proefdrukfunctionaliteit (zie de releaseopmerking onder Workfront Mobile-verbeteringen voor meer informatie) en gebruikers wordt aangeraden deze zo snel mogelijk te gebruiken voor proefdrukken.
+De Proof mobile-app wordt officieel vervangen door de release van 23.10 (oktober 2023). De algemene mobiele Workfront-app voor mobiele apparaten is verbeterd met nieuwe proefdrukfunctionaliteit (zie de releaseopmerking onder Workfront Mobile-verbeteringen voor meer informatie) en gebruikers wordt aangeraden deze zo snel mogelijk te gebruiken voor proefdrukken.
 
-Voor de mobiele Workfront-app is een Workfront-aanmelding vereist. Externe gebruikers en gasten kunnen de proefdrukapp blijven gebruiken voor proefdrukken. deze wordt echter niet meer ondersteund en zal niet meer beschikbaar zijn met 23.4.
+Voor de mobiele Workfront-app is een Workfront-aanmelding vereist. Externe gebruikers en gasten kunnen de proefdrukken-app blijven gebruiken. Deze wordt echter niet meer ondersteund en is niet meer beschikbaar met de release van 23.10 (oktober 2023).
 
 
 <!-- HTML you might need
