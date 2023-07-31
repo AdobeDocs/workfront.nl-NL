@@ -3,20 +3,34 @@ title: 23.3 Verbeteringen van het financieel beheer
 description: 23.3 Verbeteringen van het financieel beheer
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # 23.3 Verbeteringen van het financieel beheer
 
-Op deze pagina worden alle verbeteringen in het financieel beheer beschreven die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
+Op deze pagina worden alle verbeteringen in het financieel beheer beschreven die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld met de release 23.3 op 20 en 21 juli 2023.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Daadwerkelijke kosten en factureringstarieven
+
+
+>[!IMPORTANT]
+>
+>Dit onderdeel wordt beschikbaar gesteld op de volgende data:
+>
+>* Voorvertoningsrelease: 29 juni 2023
+>
+>* Productieversie voor klanten met een Fast release: na de productierelease 23.3 aan te kondigen
+>
+>* Productieversie voor alle klanten: Productieversie voor alle klanten: met de release van 23.10 (oktober 2023)
+>
+>De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning van 30 juni tot 13 juli 2023.
+
 
 De effectieve datum van kosten en factureringstarieven zijn nu beschikbaar voor het bedrijf, de gebruiker, en de baanobjecten van de rol in Workfront. Wanneer de datum daadwerkelijke tarieven op een project worden toegepast, en de uren het programma worden geopend projecttaken, worden de kosten en de opbrengst berekend gebruikend de gespecificeerde tarieven voor elke tijdspanne.
 

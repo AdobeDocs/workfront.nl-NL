@@ -8,18 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: d1594634c5507e04f314da2fbccf621f8c1e03e7
+source-git-commit: b6ea67f28b498cc0de4325a2350545c660574d4c
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
 
 # Problemen maken
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving.</span>
-
 <!--remove Preview and Prod references when this comes to Prod-->
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld. </span>
+
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release 4de kwartaal 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+
+
 
 Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of van een taak registreren. Gebruikers met de juiste toegang kunnen de status van problemen bekijken en controleren terwijl het project of de taak wordt voltooid, zodat er geen lange e-mailketens of statusvergaderingen nodig zijn. In tegenstelling tot taken, die geplande gebeurtenissen zijn, vormen kwesties ongeplande het werkpunten in Adobe Workfront.
 

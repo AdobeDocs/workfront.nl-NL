@@ -5,17 +5,18 @@ navigation-topic: get-started-with-boards
 title: Een board verwijderen of archiveren
 description: U kunt een board verwijderen of archiveren in Workfront. Als u een kaart verwijdert, wordt deze permanent uit Workfront verwijderd, terwijl bij het archiveren van een kaart alle kaarten behouden blijven en later hersteld kunnen worden.
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # Een board verwijderen of archiveren
 
-U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld. Deze opties zijn van toepassing op zelfstandige borden en borden die deel uitmaken van werkstromen.
+U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld. Deze opties zijn zowel van toepassing op zelfstandige borden als op borden die deel uitmaken van werkstromen.
 
 ## Toegangsvereisten
 
@@ -70,6 +71,6 @@ Een gearchiveerd bord kan op elk ogenblik worden hersteld. Elke gebruiker kan ee
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
 1. Klik op het dashboard op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png) en selecteert u **[!UICONTROL Archived Boards]**.
-1. Zoek het board dat u wilt herstellen en klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteer **[!UICONTROL Restore]**.
+1. Zoek het board dat u wilt herstellen en klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteert u **[!UICONTROL Restore]**.
 
    ![Klembord herstellen](assets/boards-dashboard-restore.png)

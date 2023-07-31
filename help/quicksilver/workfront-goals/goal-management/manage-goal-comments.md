@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ U kunt commentaren aan doelstellingen in de sectie van Updates van een doelpagin
 U kunt reageren op of houden van een opmerking die u of anderen in dit gebied hebben toegevoegd.
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) > **Doelen** in de rechterbovenhoek.
-Dit opent de doellijst.
+Hierdoor wordt de lijst met doelen geopend.
 1. Zoek het doel waaraan u opmerkingen wilt toevoegen en klik op de naam van het doel om de doelpagina te openen.
 1. Klikken  **Updates** in het linkerdeelvenster.
 1. Klik op de knop **Opmerkingen** in de linkerbovenhoek van het gebied Updates.
@@ -144,7 +144,7 @@ Dit opent de doellijst.
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
 1. (Optioneel) Als u opmaak met RTF-opmaak wilt toevoegen aan de update, een hyperlink of een afbeelding, gebruikt u de gewenste opties op de werkbalk RTF of de pictogrammen ernaast. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
-1. Selecteer **Privé voor mijn bedrijf** Schakel deze optie in om de opmerking alleen zichtbaar te maken voor mensen in uw bedrijf.
+1. Selecteer de **Privé voor mijn bedrijf** Schakel deze optie in om de opmerking alleen zichtbaar te maken voor mensen in uw bedrijf.
 
    >[!TIP]
    >
@@ -154,14 +154,12 @@ Dit opent de doellijst.
 
    >[!TIP]
    >
-   >Als een andere gebruiker een opmerking verzendt naar hetzelfde item dat u bijwerkt, wordt er een rode lijn weergegeven met de indicator &quot;Nieuw&quot; om u op de hoogte te brengen van de nieuwere opmerkingen.
+   >Als een andere gebruiker een opmerking verzendt naar hetzelfde item dat u bijwerkt, wordt er een rode lijn weergegeven met de indicator &quot;Nieuw&quot; om u op de hoogte te brengen van de nieuwere opmerkingen en wordt onder in het scherm een blauwe melding weergegeven die het aantal nieuwe opmerkingen aangeeft.
    >
    >De indicator wordt alleen weergegeven nadat de opmerking op het item is verzonden, en niet wanneer de opmerking nog steeds wordt samengesteld.
-   >
-   >De indicator &quot;Nieuw&quot;toont slechts wanneer zowel de gebruiker die een nieuwe update inging als de gebruiker die momenteel een update ingaat de nieuwe opmerkingervaring gebruikt.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-icon.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
+1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op **Meer** menu ![](assets/more-icon.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
 1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers.
 U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quot;bewerkt&quot; wordt toegevoegd links van de datumstempel die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
@@ -181,7 +179,7 @@ U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quo
         Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van een opmerking klikt u op **Verwijderen** om een toegevoegde opmerking te verwijderen. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de bovenstaande stappen 5 tot en met 9. Voor meer informatie over het beantwoorden van updates, zie [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
+1. (Optioneel) Klik op **Antwoord** om op een bestaande opmerking te reageren, volgt u de bovenstaande stappen 5 tot en met 9. Voor meer informatie over het beantwoorden van updates, zie [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Updates worden weergegeven, klikt u op **Weergave** in het blauw **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
