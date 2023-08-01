@@ -6,9 +6,9 @@ description: Taakgegevens beheren in het gebied Overzicht van taakdetails
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7e591a8eb801da463f05b574c091f68278974ad7
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2089'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,15 @@ U moet het volgende hebben:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objectmachtigingen</strong> </p> </td> 
-   <td> <p>Contribute of hoger voor het project</p> <p>Machtigingen weergeven voor de taak om informatie weer te geven in de sectie Details. </p> <p>Rechten voor het bijwerken van gegevens in de sectie Details beheren.</p> </td> 
+   <td> <p>Contribute of hoger voor het project</p> <p>De toestemmingen van de mening voor de taak om informatie in de sectie van Details te bekijken. </p> 
+   <p>Contribute-machtigingen voor de taak om de volgende gegevens in de sectie Details bij te werken:</p>
+
+<ul>
+   <li>Beschrijving</li>
+   <li>Status</li>
+   </ul>
+
+<p>Rechten voor de taak beheren om alle informatie in de sectie Details bij te werken.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +106,7 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Selecteer de status van de taak die aangeeft in welk ontwikkelingsstadium de taak zich bevindt.</p> <p>Tip: U kunt de taakstatus bijwerken in de taakkoptekst. </p> </td> 
+      <td> <p>Selecteer de status van de taak die aangeeft in welk ontwikkelingsstadium de taak zich bevindt.</p> <p>Tip: u kunt de taakstatus bijwerken in de taakkoptekst. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Prioriteit</td> 
@@ -123,7 +131,7 @@ U moet het volgende hebben:
         <li> <p>Berekende toewijzing </p> </li> 
         <li> <p> Berekend werk </p> </li> 
         <li> <p>Inzet gedreven </p> </li> 
-        <li> <p>Eenvoudig</p> </li> 
+        <li> <p>eenvoudig</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -132,10 +140,10 @@ U moet het volgende hebben:
        <div> 
         <div> 
          <p>Dit is de hoeveelheid tijd dat u een taak open laat blijven alvorens het wordt voltooid. </p> 
-         <p>Belangrijk: Omdat de taakduur typisch de hoeveelheid tijd tussen de Geplande Begin en de Geplande Datums van de Voltooiing is, beïnvloedt het de chronologie van het project.</p> 
+         <p>Belangrijk: aangezien de taakduur typisch de hoeveelheid tijd tussen de Geplande Begin en de Geplande Datums van de Voltooiing is, beïnvloedt het de chronologie van het project.</p> 
          <p>Ga als volgt te werk om de duur van de taak en de tijdseenheid aan te geven:</p> 
          <ul> 
-          <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Typ de tijdsduur en kies een van de tijdseenheden die beschikbaar zijn in het keuzemenu.</p> </li> </ul>
+          <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Typ de tijdsduur en selecteer een van de beschikbare tijdeenheden in het keuzemenu.</p> </li> </ul>
 
    <p><strong>TIP</strong></p> <p> Wanneer u de Duur van taken in een taaklijst bijwerkt, kunt u de afkorting voor de eenheid van tijd gebruiken. </p>      <p> U kunt kiezen uit de opties voor normale tijd of verstreken tijd in de volgende tabel: </p> 
          <table style="table-layout:auto"> 
@@ -189,7 +197,7 @@ U moet het volgende hebben:
           </tbody> 
          </table> 
          <p><strong>OPMERKING</strong> </p>
-         <p> De verstreken tijd is een eenheid van tijd voor de Duur van een taak. Dit is de tijd tussen de Geplande Datum van het Begin en de Geplande Datum van de Voltooiing van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen. De regelmatige tijd houdt rekening met vakantie, weekends, en onderbreking en sluit hen van de Duur van de taak uit. Voor meer informatie over taakduur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>. </p> 
+         <p> De verstreken tijd is een eenheid van tijd voor de Duur van een taak. Dit is de tijd tussen de Geplande Datum van het Begin en de Geplande Datum van de Voltooiing van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen. De regelmatige tijd houdt rekening met vakantie, weekends, en tijd weg en sluit hen van de Duur van de taak uit. Voor meer informatie over taakduur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>. </p> 
          <p> 
          <!--You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)--></p> 
         </div> 
@@ -197,7 +205,7 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader">Geprojecteerde duur</td> 
-      <td> <p>Het verschil in dagen tussen de geprojecteerde aanvangsdatum en de geprojecteerde einddatum. </p> </td> 
+      <td> <p>Het verschil in dagen tussen de geprojecteerde aanvangsdatum en de verwachte einddatum. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Werkelijke duur</td> 
@@ -205,7 +213,7 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader">Geplande uren</td> 
-      <td> <p>Geef de hoeveelheid geplande uren voor de taak op in uren. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt de hoeveelheid Geplande Uren voor een taak slechts specificeren wanneer het Type van Duur aan Berekende Toewijzing wordt geplaatst. Voor meer informatie over de soorten duur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</p> </td> 
+      <td> <p>Geef de hoeveelheid geplande uren voor de taak op in uren. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt de hoeveelheid Geplande Uren voor een taak slechts specificeren wanneer het Type van Duur aan Berekende Toewijzing wordt geplaatst. Zie voor meer informatie over de soorten duur <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Werkelijke uren</td> 
@@ -217,7 +225,7 @@ U moet het volgende hebben:
        <div> 
         <p>De hoeveelheid inspanning die wordt vereist om de taak te voltooien. Uw projectmanager zou kunnen besluiten om dit gebied in plaats van Geplande Uren te gebruiken om de inspanning te schatten nodig om een taak te voltooien. Dit veld is alleen zichtbaar als aan de volgende voorwaarden is voldaan:</p> 
         <ul> 
-         <li> <p>De taak heeft een Eenvoudig Type van Duur. </p> <p>Tip: Als u het type Duur van de taak wijzigt, wordt dit gebied verduisterd. </p> </li> 
+         <li> <p>De taak heeft een Eenvoudig Type van Duur. </p> <p>Tip: als u het type duur van de taak wijzigt, wordt dit veld grijs weergegeven. </p> </li> 
          <li>Uw projectmanager heeft de Werkinspanning van het Gebruik toegelaten om het taak Geplande gebied van Uren op het project automatisch te berekenen. </li> 
         </ul> 
         <p>Selecteer een van de volgende opties:</p> 
@@ -228,7 +236,7 @@ U moet het volgende hebben:
         </ul> 
         <p><strong>OPMERKING</strong></p> 
         <p> Door de hoeveelheid moeite bij te werken, kan de geplande uren worden bijgewerkt. De update is onmiddellijk als het Type van projectupdate Automatisch is. Wanneer het Type van Projectupdates Handmatig is moet u chronologie opnieuw berekenen om de bijgewerkte Geplande Uren te zien. </p> 
-        <p>Voor informatie over het gebruiken van de Werkinspanning in plaats van Geplande Uren om taakinspanning te schatten, zie <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van werkprestaties</a>. </p> 
+        <p>Voor informatie over het gebruiken van de Werkinspanning in plaats van Geplande Uren om taakinspanning te schatten, zie <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van de werkprestaties</a>. </p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -249,20 +257,20 @@ U moet het volgende hebben:
         <li> <p><span>Niet eerder starten dan</span> </p> <p>Geef een <strong>Geplande begindatum</strong>. </p> </li> 
         <li> <p> Voltooien <span>Niet later dan</span></p> <p>Geef een <strong>Geplande afsluitdatum</strong>. </p> </li> 
         <li> <p> Voltooien <span>Niet eerder dan</span></p> <p>Geef een <strong>Geplande afsluitdatum</strong></p> </li> 
-       </ul> <p>Voor meer informatie over de Beperking van de Taak, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</p> </td> 
+       </ul> <p>Voor meer informatie over Taakbeperking, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Geplande begindatum</td> 
       <td> <p>Wanneer de taak van plan is te beginnen. De geplande begindatum van een taak wordt bepaald en beïnvloed door een aantal factoren:</p> 
        <ul> 
         <li>Afhankelijk van de systeembrede voorkeur voor de taak geplande begindatum, kan de begindatum van een nieuwe taak op een project of vandaag, of de begindatum van het project, door gebrek zijn. <span>De groepsbeheerder voor de groep verbonden aan het project kan deze voorkeur voor de groep ook plaatsen.</span> Voor meer informatie over de taakvoorkeuren op systeemniveau of groepsniveau raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Taak- en probleemvoorkeuren voor het hele systeem configureren</a>.</li> 
-        <li>Afhankelijk van de voorgangers van de taak, wordt de geplande begindatum gekozen door Workfront om de volgende beschikbare datum te zijn nadat de voorgangers klaar zijn of beginnen, afhankelijk van de voorganger-relatie. Voor meer informatie over vorige relaties raadpleegt u <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overzicht van voorgangers van taken</a>.</li> 
+        <li>Afhankelijk van de voorgangers van de taak, wordt de geplande begindatum gekozen door Workfront om de volgende beschikbare datum te zijn nadat de voorgangers klaar zijn of beginnen, afhankelijk van de voorganger-relatie. Zie voor meer informatie over voorgaande relaties <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overzicht van voorgangers van taken</a>.</li> 
         <li>De projectmanager of de taakeigenaar kunnen manueel de geplande begindatum plaatsen wanneer de taakbeperking of Vaste Datums is of moet Begin op. Voor meer informatie over taakbeperkingen, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Geprojecteerde begindatum</td> 
-      <td> <p>De datum waarop de "echte levensfase" ingaat, is gebaseerd op de voortgang en voltooiing van eerdere taken. Dit is een berekend veld en u kunt het niet handmatig bewerken.</p> <p> De geplande begindatum en de geplande begindatum zijn dezelfde, wanneer een project voor het eerst wordt gepland. De geplande begindatum kan van het geplande begin weggaan, als het project evolueert en de taak nog niet is begonnen. Zie voor meer informatie over geplande begindatums <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Overzicht van de geplande begindatum van het project</a>. </p> </td> 
+      <td> <p>De datum waarop de "echte levensfase" ingaat, is gebaseerd op de voortgang en voltooiing van eerdere taken. Dit is een berekend veld en u kunt het niet handmatig bewerken.</p> <p> De geplande begindatum en de geplande begindatum zijn dezelfde, wanneer een project voor het eerst wordt gepland. De geplande begindatum kan van het geplande begin weggaan, als het project evolueert en de taak nog niet is begonnen. Zie voor meer informatie over de geplande begindatums <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Overzicht van de geplande begindatum van het project</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Werkelijke begindatum</td> 
@@ -274,7 +282,7 @@ U moet het volgende hebben:
        <ul> 
         <li>De geplande einddatum wordt berekend vanaf de geplande begindatum door de duur van de taak toe te voegen aan de geplande begindatum. Wanneer de projectmanager of Workfront de Duur van de taak specificeert, teweegbrengt dit een update aan de geplande voltooiingsdatum. Als de geplande datum verandert, zal het vaak omdat de Duur van is bijgewerkt.</li> 
         <li>De projectmanager of de taakeigenaar kunnen manueel de geplande voltooiingsdatum plaatsen wanneer de taakbeperking of Vaste Datums is of moet beëindigen. Voor meer informatie over taakbeperkingen, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</li> 
-        <li>Als het Type van Duur van de taak verandert, en het aantal middelen op de taken tezelfdertijd verandert, zal de geplande voltooiingsdatum ook veranderen. Voor meer informatie over de soorten duur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</li> 
+        <li>Als het Type van Duur van de taak verandert, en het aantal middelen op de taken tezelfdertijd verandert, zal de geplande voltooiingsdatum ook veranderen. Zie voor meer informatie over de soorten duur <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -299,7 +307,7 @@ U moet het volgende hebben:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Laatst bijgewerkt op</td> 
-      <td> <p>De datum waarop de taak voor het laatst is bijgewerkt. </p> <p>Tip: Workfront registreert een bijgewerkte Datum telkens als iemand uitgeeft en een taak opslaat.</p> </td> 
+      <td> <p>De datum waarop de taak voor het laatst is bijgewerkt. </p> <p>Tip: Workfront registreert een bijgewerkte datum telkens wanneer iemand een taak bewerkt en slaat deze op.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Laatst bijgewerkt op</td> 

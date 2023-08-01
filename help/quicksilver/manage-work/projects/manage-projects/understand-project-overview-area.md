@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-U kunt de informatie van een project bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het bewerken van alle informatie voor een project raadpleegt u [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+U kunt de informatie van een project bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Zie voor informatie over het bewerken van alle informatie voor een project [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Toegangsvereisten
 
@@ -41,11 +41,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten of hoger weergeven</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot of hoger voor projecten weergeven </p>
+
+<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor het project of hoger</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot het project weergeven om beperkte informatie over het project weer te geven</p> 
+   <p>Toegang tot het project beheren om informatie over het project te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Voorwaardelijk) als er een specifiek gebied is dat op een project moet worden bijgewerkt maar niet in deze sectie wordt getoond, klik **Het menu Meer** ![](assets/more-icon.png) naast de projectnaam, dan **Bewerken** om meer projectgebieden te bekijken.
 
-   Voor meer informatie over het bewerken van projecten raadpleegt u [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Zie voor meer informatie over het bewerken van projecten [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Bewerk of bekijk de velden in de onderstaande tabel die worden weergegeven in het dialoogvenster **Overzicht** sectie.\
    Als u een veld wilt bewerken dat beschikbaar is voor bewerking, klikt u op het veld of klikt u op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
@@ -99,7 +102,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>De status van het project. </p> <p>Tip: U kunt een project niet voltooien tenzij alle taken en kwesties ook hebben voltooid. Als de wijze van de Voltooiing van het Project aan Automatisch wordt geplaatst, kunt u niet een project manueel voltooien. </p> </td> 
+      <td> <p>De projectstatus. </p> <p>Tip: u kunt een project alleen voltooien als alle taken en problemen zijn voltooid. Als de wijze van de Voltooiing van het Project aan Automatisch wordt geplaatst, kunt u niet een project manueel voltooien. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type voorwaarde</td> 
@@ -148,7 +151,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Resource Manager</td> 
-      <td> <p>Dit is de persoon die gebruikersmiddelen in het project kan beheren. </p> <p>Voor informatie over de Managers van het Middel, zie het artikel <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Bronbeheerders aanwijzen voor een project of sjabloon </a>.</p> </td> 
+      <td> <p>Dit is de persoon die gebruikersmiddelen in het project kan beheren. </p> <p>Zie het artikel voor informatie over Resource Managers <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Bronbeheerders aanwijzen voor een project of sjabloon </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -203,7 +206,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td><span>De eerste dag van de startmaand van het initiatief, wanneer het project aan een initiatief is gekoppeld.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Einddatum initiatief</span> </td> 
+      <td role="rowheader"><span>Einddatum van initiatief</span> </td> 
       <td><span>De laatste dag van de laatste maand van het initiatief, wanneer het project gekoppeld is aan een initiatief. </span> </td> 
      </tr> 
      <tr> 
@@ -218,6 +221,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-   Voor informatie over het koppelen van projecten aan initiatieven raadpleegt u [Werk of creeer projecten bij door initiatieven in de Planner van het Scenario te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md).
+   Zie voor informatie over het koppelen van projecten aan initiatieven [Werk of creeer projecten door initiatieven in de Planner van het Scenario bij te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 1. Klikken **Wijzigingen opslaan**.

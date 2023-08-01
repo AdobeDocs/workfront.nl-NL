@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2504'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,13 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen voor een uitgave om deze te bewerken in het gebied Issue Details </p> <p>Machtigingen voor een uitgave beheren om deze te bewerken in het vak Uitgave bewerken</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen voor een uitgave om de volgende velden in het gebied Details te bewerken: </p>
+   <ul>
+   <li>Beschrijving</li>
+   <li>Status</li>
+   <li>Ernst</li>
+   </ul>
+   <p>Rechten beheren voor een uitgave om alle velden in het gebied Details of in het vak Uitgave bewerken te bewerken</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,8 +86,8 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
-   1. (Optioneel) Klik op de knop **Alles samenvouwen** in de rechterbovenhoek om alle gebieden samen te vouwen.
-   1. (Optioneel en voorwaardelijk) Als een gebied is samengevouwen, klikt u op de knop **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Optioneel) Klik op de knop **Alles samenvouwen** om alle gebieden samen te vouwen.
+   1. (Optioneel en voorwaardelijk) Klik op het pictogram **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. (Optioneel) Als u een aangepast formulier wilt bijvoegen, typt u de naam van een formulier in het dialoogvenster **Aangepast formulier toevoegen** , selecteert u het veld wanneer het wordt weergegeven in de lijst en klikt u vervolgens op **Wijzigingen opslaan**.
    1. (Optioneel) Klik op de knop **Exporteren** pictogram ![](assets/export.png) als u het overzicht en de aangepaste formuliergegevens wilt exporteren naar een PDF-bestand, klikt u op **Exporteren**. Selecteer een van de volgende opties:
 
@@ -157,7 +163,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Selecteer de status van de uitgave. Voor meer informatie over uitgiftestatussen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Toegang krijgen tot de lijst met systeemuitgiftestatussen</a>. </p> </td> 
+      <td> <p>Selecteer de status van de uitgave. Zie voor meer informatie over uitgiftestatussen <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Toegang krijgen tot de lijst met systeemuitgiftestatussen</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Prioriteit</td> 
@@ -187,7 +193,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      </tr> 
      <tr> 
       <td role="rowheader">Type</td> 
-      <td> <p>Volgens de Eigenschappen van de Rij die door uw projectmanager op het gebied van de Details van de Rij van het project worden geselecteerd, zou u het type van de kwestie kunnen specificeren. Selecteer een van de volgende opties in het dialoogvenster <b>Type</b> vervolgkeuzemenu: </p> 
+      <td> <p>Volgens de Eigenschappen van de Rij die door uw projectmanager op het gebied van de Details van de Rij van het project worden geselecteerd, zou u het type van de kwestie kunnen specificeren. Selecteer een van de volgende opties in het dialoogvenster <b>Type</b> vervolgkeuzelijst: </p> 
        <ul> 
         <li> <p><strong>Foutrapport</strong> </p> </li> 
         <li> <p><strong>Volgorde wijzigen</strong> </p> </li> 
@@ -220,7 +226,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
       <td> Standaard is de geplande aanmaakdatum 24 uur na de standaardbegindatum. Standaard hebben uitgaven een Duur van 1 dag. U kunt de <strong>Geplande afsluitdatum</strong> van de kwestie.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Werkelijke begindatum en -tijd</td> 
+      <td role="rowheader">Begindatum en -tijd</td> 
       <td>De werkelijke begindatum wordt automatisch ingevuld wanneer u de status van de uitgave wijzigt in <strong>In uitvoering</strong>. U kunt de <strong>Werkelijke begindatum</strong> van de kwestie. U kunt de datum desgewenst handmatig bijwerken. </td> 
      </tr> 
      <tr> 
@@ -300,7 +306,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
     <tbody> 
      <tr> 
       <td role="rowheader">Geplande uren</td> 
-      <td> <p>Dit is de hoeveelheid tijd die het werkelijk nodig zou hebben om de taken van de Commissie af te ronden. Typ het aantal geplande uren voor de uitgave.<br></p> <p>Opmerking: Als u de geplande uren van de uitgave wijzigt, blijft de geplande afwerkingsdatum ongewijzigd. </p> </td> 
+      <td> <p>Dit is de hoeveelheid tijd die het werkelijk nodig zou hebben om de taken van de Commissie af te ronden. Typ het aantal geplande uren voor de uitgave.<br></p> <p>Opmerking: als u de geplande uren van de uitgave wijzigt, blijft de geplande afwerkingsdatum ongewijzigd. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rol van de gemachtigde</td> 
@@ -326,7 +332,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de uitgave zelf. Voor informatie over het instellen van machtigingen voor secties in een aangepast formulier raadpleegt u [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Voor informatie over het instellen van uitgiftemachtigingen raadpleegt u [Een uitgave delen](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de uitgave zelf. Zie voor informatie over het instellen van machtigingen voor secties in een aangepast formulier [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Zie voor informatie over het instellen van machtigingen voor uitgaven [Een uitgave delen](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Klikken **Opslaan** of ga door met het bewerken van de volgende sectie.
 
@@ -353,7 +359,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
        <p>Houd rekening met het volgende wanneer u goedkeuringsprocessen toevoegt: </p> 
        <ul> 
        <li>Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. </li> 
-       <li> <p>Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het project toont niet in de lijst.</p> <p>Belangrijk: Als de groep van het project verandert, wordt het groep-specifieke goedkeuringsproces een enig-gebruiksgoedkeuringsproces. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>. </p> </li> 
+       <li> <p>Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het project toont niet in de lijst.</p> <p>Belangrijk: als de groep van het project verandert, wordt het groepsspecifieke goedkeuringsproces een goedkeuringsproces voor eenmalig gebruik. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>. </p> </li> 
        <li> <p>U kunt standaardgoedkeuringsprocessen bepalen die automatisch aan kwesties moeten worden vastgemaakt wanneer het creëren van verzoekrijen of de Onderwerpen van de Rij. Voor informatie over het bijwerken van de Details van de Rij, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Een aanvraagwachtrij maken</a>. Voor informatie over het creëren van de Onderwerpen van de Rij, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Werkvoorraadonderwerpen maken</a>. </p> </li> 
        <li>Bij problemen met bulkbewerking bestaan de volgende scenario's: 
        <ul> 
@@ -366,7 +372,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      </tr> 
      <tr> 
       <td role="rowheader">Herinneringsmeldingen</td> 
-      <td> <p>Schakel het selectievakje in waarvoor meldingen voor herinneringen die u aan deze uitgave wilt toevoegen. Alle herinneringsmeldingen voor problemen worden weergegeven. Uw Workfront-beheerder moet Herinneringsmeldingen configureren voordat u deze op een uitgave kunt selecteren. Voor meer informatie over het vormen van de Meldingen van de Herinnering, zie <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Herinneringsmeldingen instellen</a></p> </td> 
+      <td> <p>Schakel het selectievakje in waarvoor meldingen voor herinneringen die u aan deze uitgave wilt toevoegen. Alle herinneringsmeldingen voor problemen worden weergegeven. Uw Workfront-beheerder moet Herinneringsmeldingen configureren voordat u deze op een uitgave kunt selecteren. Zie voor meer informatie over het configureren van Herinneringsmeldingen de informatie <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Herinneringsmeldingen instellen</a></p> </td> 
      </tr> 
     </tbody> 
    </table>

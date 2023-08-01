@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '7336'
+source-wordcount: '7315'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,8 @@ U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak nodig. Wij adv
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     <p>Manage permissions to a project </p> 
+     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,10 +85,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute-machtigingen voor een project om het te bewerken in het gebied Projectdetails </p> </li> 
-     <li> <p>Rechten voor een project beheren om het te bewerken in het vak Project bewerken</p> </li> 
-    </ul> <p> Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+    <p>Rechten voor een project beheren </p> 
+    <p> Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,13 +95,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Beperkingen voor het bewerken van projecten
 
-Er zijn enkele beperkingen die kunnen voorkomen dat u projecten bewerkt.
+Er zijn enkele beperkingen die kunnen voorkomen dat u projecten kunt bewerken.
 
 Houd rekening met het volgende wanneer u projecten bewerkt:
 
 * U kunt geen projecten uitgeven die in een Proces van de Goedkeuring, behalve registrerentijd zijn.
 * U kunt documenten of malplaatjes aan een project vastmaken dat een status van Voltooid heeft, Dead, of in Hangende Goedkeuring slechts als uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het instellen van projectvoorkeuren raadpleegt u [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-* U kunt de volgende informatie over een project alleen bewerken in de status Dead of Complete:
+* U kunt de volgende informatie over een project alleen bewerken in de status Dead of Voltooid:
 
    * Bestaande uitgaven wijzigen.
    * Aangepaste formulieren toevoegen, verwijderen of bewerken.
@@ -114,7 +110,7 @@ Houd rekening met het volgende wanneer u projecten bewerkt:
 
 Door een project uit te geven kunt u informatie en montages voor het project, evenals taken en kwesties op het project wijzigen.
 
-Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatus door hun staat in het malplaatje kunnen worden gewijzigd waarvan het project werd gecreeerd. Voor informatie over het bewerken van sjablonen raadpleegt u [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatus door hun staat in het malplaatje kunnen worden gewijzigd waarvan het project werd gecreeerd. Zie voor informatie over het bewerken van sjablonen [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Projecten**.
 1. (Optioneel) Klik op **Projecten waar ik aan sta** of **Projecten die ik heb** in de hoger-juiste hoek om projecten te tonen waar u de eigenaar of de projecten bent waar u deel van het projectteam uitmaakt.
@@ -137,8 +133,8 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
-   1. (Optioneel) Klik op de knop **Alles samenvouwen** in de rechterbovenhoek om alle gebieden samen te vouwen.
-   1. (Optioneel en voorwaardelijk) Als een gebied is samengevouwen, klikt u op de knop **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Optioneel) Klik op de knop **Alles samenvouwen** om alle gebieden samen te vouwen.
+   1. (Optioneel en voorwaardelijk) Klik op het pictogram **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Raadpleeg de volgende artikelen voor meer informatie over het bewerken van informatie op het tabblad Projectdetails:
 
       * [Informatie beheren in het gebied Projectoverzicht](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
@@ -236,19 +232,19 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
       <td> <p>Selecteer een van de volgende Condition Types: 
        <ul> 
        <li><strong>Handmatig:</strong> De eigenaar van het project stelt de voorwaarde handmatig in op het project.</li> 
-       <li><strong>Voortgangsstatus:</strong> Workfront stelt de voorwaarde automatisch in op basis van de status van voortgang van taken op het kritieke pad. Voor meer informatie over het begrijpen van de Status van de Voortgang, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang van taak</a>.</li> 
+       <li><strong>Voortgangsstatus:</strong> Workfront stelt de voorwaarde automatisch in op basis van de status van voortgang van taken op het kritieke pad. Voor meer informatie over het begrijpen van de Status van de Voortgang, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang taak</a>.</li> 
        </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> selecteert het gebrek voor hoe de voorwaarde van de projecten voor uw systeem wordt berekend <span>of uw groep</span>. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Voorwaarde</strong> </td> 
-      <td> <p> <p>(Wordt alleen weergegeven nadat u <strong>Handmatig</strong> voor de <strong>Type voorwaarde</strong>): Selecteer een voorwaarde om aan te geven hoe het project gaat. </p> <p>Voor informatie hoe de projectvoorwaarden automatisch of manueel kunnen worden geplaatst, zie <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overzicht van het type Projectvoorwaarde en Voorwaarde</a></p> </p> </td> 
+      <td> <p> <p>(Wordt alleen weergegeven nadat u <strong>Handmatig</strong> voor de <strong>Type voorwaarde</strong>): Selecteer een voorwaarde om aan te geven hoe het project verloopt. </p> <p>Voor informatie hoe de projectvoorwaarden automatisch of manueel kunnen worden geplaatst, zie <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overzicht van het type Projectvoorwaarde en Voorwaarde</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planningsmodus</strong> </td> 
       <td> <p>Geef op of het project gepland is vanaf de begindatum of vanaf de einddatum. Deze selectie bepaalt de geplande data van de taken betreffende het project. 
        <ul> 
        <li><strong>Begindatum</strong>: De eerste taak van het project heeft de zelfde Geplande Datum van het Begin zoals het project door gebrek. Voor informatie over de taak Geplande Datum van het Begin, zie <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overzicht van de geplande startdatum van de taak</a>. De projecttijdlijn berekent vanaf de begindatum en de einddatum van het project wordt door het systeem berekend op basis van de duur van alle taken. </li> 
-       <li><strong>Voltooiingsdatum</strong>: De laatste taak van het project heeft de zelfde Geplande Datum van Voltooiing zoals het project. De projecttijdlijn berekent vanaf de afsluitende datum en de begindatum van het project wordt door het systeem berekend door de duur van alle taken af te trekken van de afsluitende datum van het project. </li> 
+       <li><strong>Voltooiingsdatum</strong>: De laatste taak van het project heeft dezelfde geplande uitvoeringsdatum als het project. De projecttijdlijn berekent vanaf de afsluitende datum en de begindatum van het project wordt door het systeem berekend door de duur van alle taken af te trekken van de afsluitende datum van het project. </li> 
        </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> Hiermee selecteert u de standaardinstelling voor de planningsmodus voor uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p></p> </td> 
      </tr> 
      <tr> 
@@ -289,7 +285,7 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Projecteigenaar</strong> </td> 
-      <td> <p>Begin de naam van een gebruiker te typen om hen aan het project toe te voegen, dan het te selecteren wanneer het in de lijst toont. De gebruiker wordt toegevoegd aan het projectteam en krijgt automatisch beheermachtigingen voor het project. De gebruiker die als de Eigenaar van het Project wordt aangewezen moet een actieve gebruiker van Workfront zijn.</p>
+      <td> <p>Begin de naam van een gebruiker te typen om hen aan het project toe te voegen, dan het te selecteren wanneer het in de lijst toont. De gebruiker wordt toegevoegd aan het projectteam en krijgt automatisch beheermachtigingen voor het project. De gebruiker die als de eigenaar van het Project wordt aangewezen moet een actieve gebruiker van Workfront zijn.</p>
       </td> 
      </tr> 
      <tr> 
@@ -403,7 +399,7 @@ Velden bewerken in het gebied Financiën:
       <td> <p> <p>Geef op hoe Workfront de schatting bij voltooiing (EAC) moet berekenen. </p>
       Selecteer een van de volgende opties: 
       <ul><li><b>Berekenen op projectniveau</b></li>
-      <li><b>Omhoog rollen vanuit taken/subtaken</b></li> </ul>
+      <li><b>Omhoog schuiven vanuit taken/subtaken</b></li> </ul>
       <p>Zie voor meer informatie over de berekening van de schatting bij voltooiing <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Schatting berekenen bij voltooiing (EAC)</a>.</p> <p>Uw Workfront- of groepsbeheerder selecteert de standaardschatting bij voltooiing voor uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p> </p> </td> 
      </tr> 
      <tr> 
@@ -452,16 +448,16 @@ Velden bewerken in het gebied Financiën:
       <td role="rowheader"><strong>Voltooiingsmodus</strong> </td> 
       <td> <p>Bepaalt hoe het project wordt gemarkeerd als Voltooid. Selecteer een van de volgende opties: 
        <ul> 
-       <li><p><strong>Automatisch</strong>: Het project is gemarkeerd als Voltooid wanneer alle taken en problemen zijn voltooid.</p><p>De status van het project wordt automatisch gewijzigd in Voltooien slechts wanneer de projectstatus Huidig is wanneer de taken worden voltooid. </p></li> 
-       <li><strong>Handmatig</strong>: U moet manueel de Volledige status voor het project selecteren, wanneer alle taken en kwesties worden voltooid.</li> 
+       <li><p><strong>Automatisch</strong>: Het project wordt gemarkeerd als Voltooid wanneer alle taken en problemen zijn voltooid.</p><p>De status van het project wordt automatisch gewijzigd in Voltooien slechts wanneer de projectstatus Huidig is wanneer de taken worden voltooid. </p></li> 
+       <li><strong>Handmatig</strong>: U moet de status Voltooien handmatig selecteren voor het project wanneer alle taken en uitgaven zijn voltooid.</li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Samenvattingsmodus</strong></td> 
        <td> <p>Controls how the parent tasks are marked as Complete. Selecteer een van de volgende opties: 
        <ul> 
-       <li><strong>Automatisch</strong>: De oudertaken worden duidelijk Voltooid en zij werken hun percentage automatisch bij volledig, aangezien de kindtaken worden voltooid en het percentage complete van de kinderen wordt bijgewerkt. </li> 
-       <li><strong>Handmatig</strong>: U moet manueel het percentage bijwerken voltooit en de status van de oudertaken, onafhankelijk van wat veranderingen in de kindtaken worden aangebracht.</li> 
+       <li><strong>Automatisch</strong>: De oudertaken zijn duidelijk Voltooid en zij werken hun percentage automatisch bij volledig, aangezien de kindtaken worden voltooid en het percentage complete van de kinderen wordt bijgewerkt. </li> 
+       <li><strong>Handmatig</strong>: U moet het percentage en de status van de bovenliggende taken handmatig bijwerken, onafhankelijk van de wijzigingen die worden aangebracht in de onderliggende taken.</li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -470,7 +466,7 @@ Velden bewerken in het gebied Financiën:
        <ul> 
        <li>Datums van taken bijwerken</li> 
        <li>De voorgangersrelaties van taken wijzigen</li> 
-       <li><p>Verander ouder-kind verhoudingen, toevoegend of verwijderend taken naast het veranderen van de taakbeperking of het type van duur.</p><p>Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het project) op de tijd bij die door het Type van Update wordt vermeld. </p><p>Als de bovenliggende objecten niet onmiddellijk na de wijziging worden bijgewerkt wanneer u Automatisch en bij wijziging of Alleen wijziging bijwerken selecteert, vernieuwt u de pagina</p><p>Selecteer een van de volgende opties: </p><p>- <strong>Automatisch en bij wijziging</strong> (Standaardinstelling): De projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat het project van (bij Verandering) afhankelijk is. De projecttijdlijn wordt ook elke avond bijgewerkt (automatisch).</p><p>Dit is het geadviseerde plaatsen voor dit gebied omdat het ervoor zorgt dat het project altijd bijgewerkt is.</p><p>Wanneer u een handeling uitvoert op een taak of project waarmee een tijdlijnherberekening wordt gestart, worden alle beschikbare datums direct weergegeven, zodat u kunt doorgaan met werken. Voor projecten met meer dan 100 taken worden datums die langere herberekeningen vereisen kort weergegeven als een vraagteken (tussen 1 en 5 seconden, of tot een minuut voor grote projecten). Dit geeft aan dat de herberekening nog niet is voltooid en dat de datums kunnen worden gewijzigd.</p><p>- <strong>Alleen wijzigen</strong>: De projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat het project van afhankelijk is. U zou deze optie kunnen willen selecteren als de veranderingen zelden in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is.</p><p>- <strong>Alleen automatisch</strong>: Het projecttijdschema wordt elke avond bijgewerkt; de tijdlijn wordt niet meteen na het aanbrengen van de wijzigingen bijgewerkt.</p><p>U zou deze optie kunnen willen selecteren als vele veranderingen elke dag in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is. Houd er echter rekening mee dat u deze instelling hebt gekozen, aangezien het project niet tegelijk met de wijzigingen wordt bijgewerkt.</p><p>- <strong>Alleen handmatig</strong>: De projecttijdlijn wordt alleen bijgewerkt wanneer u de optie voor het opnieuw berekenen van de tijdlijn selecteert. Zie voor meer informatie over het handmatig opnieuw berekenen van de projecttijdlijn <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projecttijdlijnen opnieuw berekenen</a>. </p><p>U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).</p></li> 
+       <li><p>Verander ouder-kind verhoudingen, toevoegend of verwijderend taken naast het veranderen van de taakbeperking of het type van duur.</p><p>Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het project) op de tijd bij die door het Type van Update wordt vermeld. </p><p>Als de bovenliggende objecten niet onmiddellijk na de wijziging worden bijgewerkt wanneer u Automatisch en bij wijziging of Alleen wijziging bijwerken selecteert, vernieuwt u de pagina</p><p>Selecteer een van de volgende opties: </p><p>- <strong>Automatisch en bij wijziging</strong> (Standaard plaatsen): De projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat het project van (bij Verandering) afhankelijk is. De projecttijdlijn wordt ook elke avond bijgewerkt (automatisch).</p><p>Dit is het geadviseerde plaatsen voor dit gebied omdat het ervoor zorgt dat het project altijd bijgewerkt is.</p><p>Wanneer u een handeling uitvoert op een taak of project waarmee een tijdlijnherberekening wordt gestart, worden alle beschikbare datums direct weergegeven, zodat u kunt doorgaan met werken. Voor projecten met meer dan 100 taken worden datums die langere herberekeningen vereisen kort weergegeven als een vraagteken (tussen 1 en 5 seconden, of tot een minuut voor grote projecten). Dit geeft aan dat de herberekening nog niet is voltooid en dat de datums kunnen worden gewijzigd.</p><p>- <strong>Alleen wijzigen</strong>: De projecttijdlijn wordt bijgewerkt telkens wanneer een wijziging optreedt in het project of in een ander project waarvan het project afhankelijk is. U zou deze optie kunnen willen selecteren als de veranderingen zelden in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is.</p><p>- <strong>Alleen automatisch</strong>: De projecttijdlijn wordt elke avond bijgewerkt; de tijdlijn wordt niet onmiddellijk bijgewerkt nadat wijzigingen zijn aangebracht.</p><p>U zou deze optie kunnen willen selecteren als vele veranderingen elke dag in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is. Houd er echter rekening mee dat u deze instelling hebt gekozen, aangezien het project niet tegelijk met de wijzigingen wordt bijgewerkt.</p><p>- <strong>Alleen handmatig</strong>: De projecttijdlijn wordt alleen bijgewerkt wanneer u de optie voor het opnieuw berekenen van de tijdlijn selecteert. Zie voor meer informatie over het handmatig opnieuw berekenen van de projecttijdlijn <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projecttijdlijnen opnieuw berekenen</a>. </p><p>U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).</p></li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -484,20 +480,20 @@ Velden bewerken in het gebied Financiën:
        <li>Voor taakbeperkingen die betrekking hebben op planning vanaf een begindatum (zo snel mogelijk, Vroegst beschikbare tijd, Begin niet vroeger dan, Begin niet later dan, moet beginnen) verandert de Geplande Datum van het Begin niet maar de Geplande Datum van de Voltooiing verandert.</li> 
        <li>Voor taakbeperkingen die betrekking hebben op planning vanaf een voltooiingsdatum (zo laat mogelijk, laatst beschikbare tijd, Afwerking niet vroeger dan, Afwerking niet later dan, moet beëindigen), verandert de geplande voltooiingsdatum niet, maar de geplande begindatum verandert.</li> 
        <li>Voor taken met een beperking van Vaste datums, verandert noch de Geplande Begin noch de Datum van de Voltooiing. </li> 
-       </ul><p>De duur van de taak verandert niet wanneer u deze instelling selecteert. Alleen de geplande datums veranderen, afhankelijk van de Taakbeperking. Voor informatie over taakbeperking raadpleegt u <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>. </p><p>- <strong>Gebruikerstijd in taakduur negeren</strong>: Bij het selecteren van deze optie blijven de geplande data van de taken voor het project zoals oorspronkelijk gepland, zelfs als de primaire ontvanger van de taak tijd heeft weg tijdens de duur van de taak. </p><p>Houd rekening met het volgende wanneer u opties voor deze instelling selecteert:</p> 
+       </ul><p>De duur van de taak verandert niet wanneer u deze instelling selecteert. Alleen de geplande datums veranderen, afhankelijk van de Taakbeperking. Zie voor informatie over taakbeperking <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>. </p><p>- <strong>Gebruikerstijd in taakduur negeren</strong>: Bij het selecteren van deze optie blijven de geplande data van de taken voor het project zoals oorspronkelijk gepland, zelfs als de primaire ontvanger van de taak tijd heeft die tijdens de duur van de taak weg is. </p><p>Houd rekening met het volgende wanneer u opties voor deze instelling selecteert:</p> 
        <ul> 
        <li><p>De standaardoptie voor dit het plaatsen voor een nieuw project is het zelfde als de systeem-vlakke projectvoorkeur. </p><p>Voor informatie over de projectvoorkeur op het niveau van het Systeem, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>. </p></li> 
        <li>Wanneer u een malplaatje aan een bestaand project vastmaakt, wordt het plaatsen op het project bijgewerkt om één van het malplaatje aan te passen. </li> 
-       <li><p>Workfront bepaalt welke geplande taakdatums moeten worden aangepast volgens de taakbeperkingswaarde van de taak. Afhankelijk van wat dat is, of het Geplande Begin of de Geplande VoltooiingsDatum, of allebei zou kunnen worden beïnvloed, of zelfs het zelfde zouden kunnen blijven. Bijvoorbeeld, als een taak een Beperking van Vaste Datums heeft, passen de data niet aan wanneer de Primaire Ontvanger tijd weg heeft, zelfs wanneer <strong>Overweeg de gebruikerstijd in taakduur</strong> is geselecteerd. </p></li> 
+       <li><p>Workfront bepaalt welke geplande taakdatums moeten worden aangepast op basis van de taakbeperkingswaarde van de taak. Afhankelijk van wat dat is, of het Geplande Begin of de Geplande VoltooiingsDatum, of allebei zou kunnen worden beïnvloed, of zelfs het zelfde zouden kunnen blijven. Bijvoorbeeld, als een taak een Beperking van Vaste Datums heeft, passen de data niet aan wanneer de Primaire Ontvanger tijd weg heeft, zelfs wanneer <strong>Overweeg de gebruikerstijd in taakduur</strong> is geselecteerd. </p></li> 
        </ul></td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Modus Bronniveaus</strong> </td> 
-       <td> <p> <p>Selecteer een van de volgende opties:</p> <p>- <strong>Handmatig</strong>: u moet uw middelen manueel niveau (dit is het gebrek plaatsen)</p> <p>- <strong>Automatisch</strong>: Workfront brengt uw bronnen op een hoger niveau.</p> <p>Voor meer informatie over het Levelen van Middel, zie <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Niveaubronnen in de Gantt-grafiek </a>.</p> </p> </td> 
+       <td> <p> <p>Selecteer een van de volgende opties:</p> <p>- <strong>Handmatig</strong>: u moet de bronnen handmatig op hetzelfde niveau plaatsen (dit is de standaardinstelling)</p> <p>- <strong>Automatisch</strong>: Workfront brengt uw bronnen op een hoger niveau.</p> <p>Voor meer informatie over het Levelen van Middel, zie <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Niveaubronnen in de Gantt-grafiek </a>.</p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risico</strong> </td> 
-       <td> <p> <p>Bepaal het risiconiveau van uw project. Het risico is slechts een indicator van hoe riskant een project kan zijn. U kunt de uitvoering van uw projecten prioriteren op basis van het risiconiveau.</p> <p> <p>U kunt kiezen uit de volgende risiconiveaus:</p> <p>- Zeer laag</p> <p>- Laag</p> <p>- Normaal</p> <p>- Hoog</p> <p>- Zeer hoog</p> <p>De risiconiveaus die u hier aangeeft, kunnen niet worden aangepast.</p> <p>Deze houden geen verband met de potentiële Risico's die tijdens de levensduur van een project konden voorkomen en die u op het lusje van Risks van het project, of in het BedrijfsGeval zou moeten registreren. Voor informatie over potentiële projectrisico's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Risicotypen bewerken en maken</a>. </p> </p> </p> </td> 
+       <td> <p> <p>Bepaal het risiconiveau van uw project. Het risico is slechts een indicator van hoe riskant een project kan zijn. U kunt de uitvoering van uw projecten prioriteren op basis van het risiconiveau.</p> <p> <p>U kunt kiezen uit de volgende risiconiveaus:</p> <p>- Zeer laag</p> <p>- Laag</p> <p>- Normaal</p> <p>- Hoog</p> <p>- Zeer hoog</p> <p>De risiconiveaus die u hier aangeeft, kunnen niet worden aangepast.</p> <p>Deze houden geen verband met de potentiële Risico's die tijdens de duur van een project konden voorkomen en die u op het lusje van Risks van het project, of in het BedrijfsGeval zou moeten registreren. Voor informatie over potentiële projectrisico's raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Risicotypen bewerken en maken</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Brongroepen</strong> </td> 
@@ -509,7 +505,7 @@ Velden bewerken in het gebied Financiën:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Voor dit project goed te keuren tijd vereisen</strong></td> 
-       <td> <p> Selecteer deze optie om de Eigenaar van het Project te vereisen om tijd goed te keuren die op het project wordt het programma wordt geopend. Als u de Verslagen van de Facturering gebruikt en u deze optie selecteert, slechts verschijnen de goedgekeurde uren op het project als beschikbare factureerbare uren voor de Verslagen van de Facturering. De goedkeuring van de tijd voor het project staat los van de goedkeuring van tijdbladen. </p> <p>Voor meer informatie over het vereisen van tijd om over een project te worden goedgekeurd, zie <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Tijd vereisen om te worden goedgekeurd voor een project</a>.</p> </td> 
+       <td> <p> Selecteer deze optie om de Eigenaar van het Project te vereisen om tijd goed te keuren die op het project wordt geregistreerd. Als u de Verslagen van de Facturering gebruikt en u deze optie selecteert, slechts verschijnen de goedgekeurde uren op het project als beschikbare factureerbare uren voor de Verslagen van de Facturering. De goedkeuring van de tijd voor het project staat los van de goedkeuring van tijdbladen. </p> <p>Voor meer informatie over het vereisen van tijd om over een project te worden goedgekeurd, zie <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Tijd vereisen om te worden goedgekeurd voor een project</a>.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Rijtypen filteren</strong> en</span> <strong>Uurtypen</strong></td> 
@@ -517,13 +513,13 @@ Velden bewerken in het gebied Financiën:
        <ul> 
        <li> <p>Selecteren <strong>Nee</strong> om alle project-specifieke uurtypes op het project ter beschikking te stellen. (Dit is de standaardselectie)</p> <p>of</p> </li> 
        <li>Selecteren <strong>Ja</strong> om slechts een ondergroep van de project-specifieke uurtypes beschikbaar te maken op het project, dan selecteer de uurtypes u beschikbaar wilt maken. (Houd Shift ingedrukt als u meerdere uurtypen wilt selecteren.)</li> 
-       <p>Als u deze optie selecteert, worden alleen de uurstypen die u selecteert, beschikbaar gemaakt om te selecteren wanneer u zich aanmeldt in uren voor het project (of voor taken en problemen binnen het project). U moet ten minste één uurtype selecteren; als u deze optie selecteert en u geen uurtypes selecteert, worden alle uurtypes ter beschikking gesteld op het project.</p> </ul>
+       <p>Als u deze optie selecteert, worden alleen de uurstypen die u selecteert, beschikbaar gemaakt om te selecteren wanneer u zich aanmeldt in uren voor het project (of voor taken en problemen binnen het project). U moet minstens één uurtype selecteren; als u deze optie selecteert en u geen uurtypes selecteert, worden alle uurtypes ter beschikking gesteld op het project.</p> </ul>
 
    <p>De selectie van het type van zelfde uur moet op het individuele gebruikersniveau worden gemaakt opdat de gebruiker deze uurtypeopties op het project ziet. Voor meer informatie over het bepalen van uurtypes op het gebruikersniveau, zie <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Logtijd</a>. </p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>Herinneringsmelding</strong> </td> 
-       <td> <p> <p>Selecteer de Herinneringsmelding die aan het project moet worden gekoppeld. U moet de Berichten van de Herinnering voor projecten voor dit gebied vormen om tijdens het uitgeven van een project te verschijnen. Voor meer informatie over het vormen van de Meldingen van de Herinnering, zie <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Herinneringsmeldingen instellen</a> .</a></p> </p> </td> 
+       <td> <p> <p>Selecteer de Herinneringsmelding die aan het project moet worden gekoppeld. U moet de Berichten van de Herinnering voor projecten voor dit gebied vormen om tijdens het uitgeven van een project te verschijnen. Zie voor meer informatie over het configureren van Herinneringsmeldingen de informatie <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Herinneringsmeldingen instellen</a> .</a></p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>Goedkeuringsproces</strong></td> 
@@ -570,7 +566,7 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
    * Wanneer u veelvoudige projecten van verschillende groepen selecteert, slechts worden de systeem-vlakke processen van de taakgoedkeuring getoond op dit gebied.
 
 1. In de **Standaard aangepaste Forms** selecteert u het aangepaste formulier of de formulieren die u aan alle nieuwe taken wilt koppelen wanneer u deze aan het project toevoegt. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor meer informatie over het samenstellen van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
-1. (Optioneel) Selecteer **Werk-inspanning gebruiken om de geplande uren automatisch te berekenen** als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren te gebruiken.
+1. (Optioneel) Selecteer **Werk-inspanning gebruiken om de geplande uren automatisch te berekenen** als u het beheren van taakinspanning wilt toelaten door de Geplande Uren van het Werk te gebruiken.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
@@ -584,7 +580,7 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
 
    >[!TIP]
    >
-   >Wanneer het Type van Projectupdate aan Automatisch wordt geplaatst en u dit het plaatsen selecteert, werken de Geplande Uren van de taken volgens de taakDuur en het percentage van de Werkinspanning bij, als zij aan nul worden geplaatst. Voor meer informatie over het gebruiken van de Werkinspanning van het Werk om inspanning voor een taak te plannen, zie [Overzicht van werkprestaties](../../../manage-work/tasks/task-information/work-effort.md).
+   >Wanneer het Type van Projectupdate aan Automatisch wordt geplaatst en u dit het plaatsen selecteert, werken de Geplande Uren van de taken volgens de taakDuur en het percentage van de Werkinspanning bij, als zij aan nul worden geplaatst. Voor meer informatie over het gebruiken van de Werkinspanning van het Werk om inspanning voor een taak te plannen, zie [Overzicht van de werkprestaties](../../../manage-work/tasks/task-information/work-effort.md).
 
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
 
@@ -599,13 +595,13 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
 
    ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
-1. (Optioneel) Schakel de optie **Gebruikers toestaan inline uitgaven toe te voegen** optie. Deze optie is standaard geselecteerd.
+1. (Optioneel) Schakel de optie **Gebruikers toestaan inline uitgaven toe te voegen** -optie. Deze optie is standaard geselecteerd.
 
    Als u deze optie uitschakelt, kunnen gebruikers geen problemen inline toevoegen aan het project of de taken in de sectie Problemen.
 
    >[!TIP]
    >
-   >Schakel deze optie uit als u wilt dat gebruikers de velden Nieuw probleem of de aangepaste formulieren voor nieuwe uitgaven invullen. Als u gebruikers inline toegang geeft tot uitgaven, kunnen ze de velden Nieuwe uitgave en aangepaste formulieren omzeilen wanneer ze problemen maken. Voor informatie over het instellen van velden en aangepaste formulieren voor nieuwe uitgaven raadpleegt u [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >Schakel deze optie uit als u wilt dat gebruikers de velden Nieuw probleem of de aangepaste formulieren voor nieuwe uitgaven invullen. Als u gebruikers inline toegang geeft tot uitgaven, kunnen ze de velden Nieuwe uitgave en aangepaste formulieren omzeilen wanneer ze problemen maken. Zie voor informatie over het instellen van velden en aangepaste formulieren voor nieuwe uitgaven [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Wanneer u deze optie uitschakelt, kunnen gebruikers met machtigingen voor het toevoegen van uitgaven aan het project of de taken dat op de volgende manieren doen:
 
@@ -654,16 +650,16 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
       <td><p>Selecteren uit <strong>Weergave</strong>, <strong>Contribute</strong>, of <strong>Beheren</strong> toegang tot het project. De gebruiker die aan een kwestie wordt toegewezen wordt automatisch deze toegang tot het project, eveneens verleend.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Wanneer iemand een verzoek indient: Geef ze toegang</strong></td> 
+      <td role="rowheader"><strong>Wanneer iemand een aanvraag indient: geef ze toegang</strong></td> 
       <td><p>Selecteren uit <strong>Weergave</strong>, <strong>Contribute</strong>, of <strong>Beheren</strong> toegang tot het verzoek. Wanneer het project ook een verzoekrij is en een gebruiker een verzoek aan het project voorlegt, worden zij deze toegang tot het verzoek verleend zij voorlegden. Voor informatie over vestiging een project als verzoekrij, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Een aanvraagwachtrij maken</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven</strong></td> 
+      <td role="rowheader"><strong>Personen van hetzelfde bedrijf nemen dezelfde machtigingen over voor alle aanvragen</strong></td> 
       <td><p>Selecteer dit gebied als u mensen van het zelfde bedrijf de zelfde toegang tot alle verzoeken op het project wilt hebben, of zij hen of niet voorlegden.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Wanneer iemand toegang krijgt tot dit project: Ze toegang geven tot ...</strong></td> 
-      <td><p>Selecteer de toegangsopties die gebruikers in het project moeten hebben, als het project met hen wordt gedeeld. Selecteer de specifieke toegangsopties als deze zijn aangewezen als <strong>Viewers</strong>, <strong>Medewerkers</strong>, of <strong>Managers</strong> wanneer het project met hen wordt gedeeld. </p><p>De <strong>Verwijderen</strong> toegang tot <strong>Beheren</strong> Het toestemmingsniveau bepaalt of de gebruikers het project zelf kunnen schrappen. Gebruikers met <strong>Beheren</strong> de toegang tot het project kan taken en kwesties binnen het project schrappen ongeacht of deze optie wordt geselecteerd, als zij <strong>Beheren</strong> machtigingen voor de taken en uitgaven. </p></td> 
+      <td role="rowheader"><strong>Wanneer iemand toegang krijgt tot dit project: geef hem toegang tot ...</strong></td> 
+      <td><p>Selecteer de toegangsopties die gebruikers in het project moeten hebben, als het project met hen wordt gedeeld. Selecteer de specifieke opties voor hun toegang als ze zijn aangewezen als <strong>Viewers</strong>, <strong>Medewerkers</strong>, of <strong>Managers</strong> wanneer het project met hen wordt gedeeld. </p><p>De <strong>Verwijderen</strong> toegang tot <strong>Beheren</strong> Het toestemmingsniveau bepaalt of de gebruikers het project zelf kunnen schrappen. Gebruikers met <strong>Beheren</strong> de toegang tot het project kan taken en kwesties binnen het project schrappen ongeacht of deze optie wordt geselecteerd, als zij <strong>Beheren</strong> machtigingen voor de taken en uitgaven. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -733,9 +729,9 @@ Houd rekening met het volgende wanneer u projecten bulksgewijs bewerkt:
 
 * Wanneer u veelvoudige projecten selecteert die tot verschillende groepen behoren, zijn de statussen die op het gebied van de Status tonen systeem-vlakke statussen en niet groep-vlakke statussen.
 
-Projecten bulksgewijs bewerken:
+Projecten in bulk bewerken:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 1. Klikken **Projecten**.
 1. Selecteer meerdere projecten in de lijst.
 1. Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
@@ -745,13 +741,13 @@ De **Projecten bewerken** wordt geopend.
 
 Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klikken **Overzicht** algemene informatie over de geselecteerde projecten te bewerken.  Voor meer informatie over het uitgeven van het gebied van het Overzicht, zie de sectie [Overzicht](#overview) in dit artikel.
+1. Klikken **Overzicht** algemene informatie over de geselecteerde projecten te bewerken.  Zie de sectie voor meer informatie over het bewerken van het gebied Overzicht [Overzicht](#overview) in dit artikel.
 
    >[!TIP]
    >
    >Velden die u bewerkt, worden weergegeven met een lichtpaarse achtergrond.
 
-1. Klikken **Aangepaste Forms** aangepaste formulieren bewerken, toevoegen of vervangen die zijn gekoppeld aan de geselecteerde projecten.
+1. Klikken **Aangepaste Forms** om aangepaste formulieren te bewerken, toe te voegen of te vervangen die aan de geselecteerde projecten zijn gekoppeld.
 
    De douaneformulieren die aan alle geselecteerde projecten in bijlage zijn tonen in **Aangepaste formulieren die veel worden gebruikt** in de **Aangepaste Forms** gebied.
 

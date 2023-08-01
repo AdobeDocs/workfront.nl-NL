@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,13 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    <td role="rowheader">Objectmachtigingen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-machtigingen voor een taak om deze te bewerken in het gebied Taakdetails </p> </li> 
-     <li> <p>Machtigingen beheren voor een taak om deze te bewerken in het vak Taak bewerken</p> </li> 
+     <li> <p>Contribute-machtigingen voor een taak om de volgende gegevens te bewerken in het gebied Taakdetails: </p>
+     <ul>
+     <li>Beschrijving</li>
+     <li>Status</li>
+     </ul>  
+      </li> 
+     <li> <p>Rechten voor een taak beheren om alle informatie in het gebied Details en het vak Taak bewerken te bewerken</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Contribute of hoger machtigingen voor het project</p> </li> 
@@ -98,12 +103,12 @@ U kunt een taak in een lijst bewerken met het deelvenster Overzicht. Voor inform
 
 U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de volgende stappen wordt het bewerken van een taak beschreven in het vak Taak bewerken.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Projecten** klikt u vervolgens op de naam van een project om het te openen.
 1. Klikken **Taken** in het linkerdeelvenster.
 1. Klik op de taak die u wilt bewerken.
-1. (Voorwaardelijk) Als u beperkte informatie over een taak wilt bewerken, als een gebruiker met Contribute-machtigingen voor de taak, klikt u op **Taakdetails** in het linkerdeelvenster.
+1. (Voorwaardelijk) Als u beperkte informatie over een taak wilt bewerken, klikt u op **Taakdetails** in het linkerdeelvenster.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -111,7 +116,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    * **Overzicht**
 
-     Dit gebied wordt standaard uitgevouwen.
+     Dit gebied wordt standaard uitgebreid.
 
    * **Aangepaste Forms**
 
@@ -127,8 +132,8 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
-   1. (Optioneel) Klik op de knop **Alles samenvouwen** pictogram ![](assets/collapse-all-icon.png) in de rechterbovenhoek om alle gebieden samen te vouwen.
-   1. (Optioneel en voorwaardelijk) Als een gebied is samengevouwen, klikt u op de knop **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Optioneel) Klik op de knop **Alles samenvouwen** pictogram ![](assets/collapse-all-icon.png) in de rechterbovenhoek alle gebieden samenvouwen.
+   1. (Optioneel en voorwaardelijk) Klik op het pictogram **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Raadpleeg de volgende artikelen voor meer informatie over het bewerken van informatie op het tabblad Taakdetails:
 
       * [Taakgegevens beheren in het gebied Overzicht van taakdetails](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
@@ -247,7 +252,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       <li> <p><span>Niet eerder starten dan</span> </p> <p>Geef een <strong>Geplande begindatum</strong>. </p> </li> 
       <li> <p> Voltooien <span>Niet later dan</span></p> <p>Geef een <strong>Geplande afsluitdatum</strong>. </p> </li> 
       <li> <p> Voltooien <span>Niet eerder dan</span></p> <p>Geef een <strong>Geplande afsluitdatum</strong></p> </li> 
-       </ul> <p>Voor meer informatie over de Beperking van de Taak, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</p> </td> 
+       </ul> <p>Voor meer informatie over Taakbeperking, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datum en tijd vastleggen</td> 
@@ -258,7 +263,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       <td> <p>Wanneer de taak van plan is te beginnen. De geplande begindatum van een taak wordt bepaald en beïnvloed door een aantal factoren:</p> 
        <ul> 
       <li>Afhankelijk van de systeembrede voorkeur voor de taak geplande begindatum, kan de begindatum van een nieuwe taak op een project of vandaag, of de begindatum van het project, door gebrek zijn. <span>De groepsbeheerder voor de groep verbonden aan het project kan deze voorkeur voor de groep ook plaatsen.</span> Voor meer informatie over de taakvoorkeuren op systeemniveau of groepsniveau raadpleegt u <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Taak- en probleemvoorkeuren voor het hele systeem configureren</a>.</li> 
-      <li>Afhankelijk van de voorgangers van de taak, wordt de geplande begindatum gekozen door Workfront om de volgende beschikbare datum te zijn nadat de voorgangers klaar zijn of beginnen, afhankelijk van de voorganger-relatie. Voor meer informatie over vorige relaties raadpleegt u <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overzicht van voorgangers van taken</a>.</li> 
+      <li>Afhankelijk van de voorgangers van de taak, wordt de geplande begindatum gekozen door Workfront om de volgende beschikbare datum te zijn nadat de voorgangers klaar zijn of beginnen, afhankelijk van de voorganger-relatie. Zie voor meer informatie over voorgaande relaties <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overzicht van voorgangers van taken</a>.</li> 
       <li>De projectmanager of de taakeigenaar kunnen manueel de geplande begindatum plaatsen wanneer de taakbeperking of Vaste Datums is of moet Begin op. Voor meer informatie over taakbeperkingen, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</li> 
        </ul> </td> 
      </tr> 
@@ -268,11 +273,11 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
        <ul> 
       <li>De geplande einddatum wordt berekend vanaf de geplande begindatum door de duur van de taak toe te voegen aan de geplande begindatum. Wanneer de projectmanager of Workfront de Duur van de taak specificeert, teweegbrengt dit een update aan de geplande voltooiingsdatum. Als de geplande datum verandert, zal het vaak omdat de Duur van is bijgewerkt.</li> 
       <li>De projectmanager of de taakeigenaar kunnen manueel de geplande voltooiingsdatum plaatsen wanneer de taakbeperking of Vaste Datums is of moet beëindigen. Voor meer informatie over taakbeperkingen, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a>.</li> 
-      <li>Als het Type van Duur van de taak verandert, en het aantal middelen op de taken tezelfdertijd verandert, zal de geplande voltooiingsdatum ook veranderen. Voor meer informatie over de soorten duur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</li> 
+      <li>Als het Type van Duur van de taak verandert, en het aantal middelen op de taken tezelfdertijd verandert, zal de geplande voltooiingsdatum ook veranderen. Zie voor meer informatie over de soorten duur <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Werkelijke begindatum en -tijd</td> 
+      <td role="rowheader">Begindatum en -tijd</td> 
       <td> <p>Geef een werkelijke begindatum op voor de taak. De standaardinstelling wordt meestal automatisch ingevuld wanneer u de status van de taak wijzigt in Bezig. De daadwerkelijke begindatum kan ook handmatig worden gewijzigd door de projectmanager of de eigenaar van de taak. </p> </td> 
      </tr> 
      <tr> 
@@ -280,7 +285,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       <td> <p>Geef de werkelijke datum en tijd op waarop de taak is voltooid. De standaarddatum en -tijd waarop een taak wordt voltooid, vallen altijd samen met de werkelijke tijd waarop de status wordt voltooid. De daadwerkelijke voltooiingsdatum kan ook manueel door de projectmanager, of de taakeigenaar worden gewijzigd. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><b>Werktijdsectie</b></td> 
+      <td role="rowheader"><b>Werktijdensectie</b></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Werkinspanning </td> 
@@ -303,7 +308,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    Door de hoeveelheid moeite bij te werken, kan de geplande uren worden bijgewerkt. De update is onmiddellijk als het Type van projectupdate Automatisch is. Wanneer het Type van Projectupdates Handmatig is moet u chronologie opnieuw berekenen om de bijgewerkte Geplande Uren te zien. </p>
 
-   <p>Voor informatie over het gebruiken van de Werkinspanning in plaats van Geplande Uren om taakinspanning te schatten, zie <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van werkprestaties</a>. </p> 
+   <p>Voor informatie over het gebruiken van de Werkinspanning in plaats van Geplande Uren om taakinspanning te schatten, zie <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van de werkprestaties</a>. </p> 
     </td> 
      </tr> 
     </tbody> 
@@ -352,7 +357,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       <li> <p>Berekende toewijzing </p> </li> 
       <li> <p> Berekend werk </p> </li> 
       <li> <p>Inzet gedreven </p> </li> 
-      <li> <p>Eenvoudig</p> </li> 
+      <li> <p>eenvoudig</p> </li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -373,7 +378,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    <p>Ga als volgt te werk om de duur van de taak en de tijdseenheid aan te geven:</p> 
       <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Typ de tijdsduur en kies een van de tijdseenheden die beschikbaar zijn in het keuzemenu.</p> <p><b>TIP</b></p>
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Typ de tijdsduur en selecteer een van de beschikbare tijdeenheden in het keuzemenu.</p> <p><b>TIP</b></p>
       Wanneer u de Duur van taken in een taaklijst bijwerkt, kunt u de afkorting voor de eenheid van tijd gebruiken. </p> </li> 
       </ul> 
       <p> U kunt kiezen uit de opties voor normale tijd of verstreken tijd in de volgende tabel: </p> 
@@ -432,13 +437,13 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    <p>De verstreken tijd is een eenheid van tijd voor de Duur van een taak. Dit is de tijd tussen de Geplande Datum van het Begin en de Geplande Datum van de Voltooiing van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen.
 
-   De regelmatige tijd houdt rekening met vakantie, weekends, en onderbreking en sluit hen van de Duur van de taak uit. Voor meer informatie over taakduur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>. </p>
+   De regelmatige tijd houdt rekening met vakantie, weekends, en tijd weg en sluit hen van de Duur van de taak uit. Voor meer informatie over taakduur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>. </p>
    </div> 
    </div> </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Geplande uren</td> 
-   <td> <p>Geef de hoeveelheid geplande uren voor de taak op in uren. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt de hoeveelheid Geplande Uren voor een taak slechts specificeren wanneer het Type van Duur aan Berekende Toewijzing wordt geplaatst. Voor meer informatie over de soorten duur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</p> 
+   <td> <p>Geef de hoeveelheid geplande uren voor de taak op in uren. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt de hoeveelheid Geplande Uren voor een taak slechts specificeren wanneer het Type van Duur aan Berekende Toewijzing wordt geplaatst. Zie voor meer informatie over de soorten duur <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>.</p> 
    <b>OPMERKING</b>
    <p>
    Bij het maken van terugkerende taken zijn de geplande uren die van elk exemplaar. De geplande uren van de bovenliggende taken zijn het totaal van alle geplande uren van alle voorvallen. Voor informatie over het creëren van terugkomende taken, zie <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Herhalende taken maken</a>.
@@ -457,7 +462,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    </tr> 
    <tr> 
    <td role="rowheader">Rol van de gemachtigde</td> 
-   <td> <p>Selecteer een rol in het menu <strong>Rol van de gemachtigde</strong> vervolgkeuzemenu wanneer u een persoon als ontvanger hebt geselecteerd. Dit is de rol die de verkrijger in deze taak kan vervullen. </p> <p><b>TIP</b>
+   <td> <p>Selecteer een rol in het menu <strong>Rol van de gemachtigde</strong> vervolgkeuzemenu wanneer u een persoon als ontvanger hebt geselecteerd. Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 
@@ -483,7 +488,7 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de taak zelf. Voor informatie over het instellen van taakmachtigingen raadpleegt u [Een taak delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de taak zelf. Zie voor informatie over het instellen van taakmachtigingen [Een taak delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
 1. Klikken **Opslaan** of ga verder met de volgende secties.
 
@@ -505,19 +510,19 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
       <td> <p>Geef het type kosten voor de taak op. Dit gaat bepalen hoe de kosten van de taak, gebaseerd op het aantal uren op de taken worden berekend. </p> <p>Selecteer een van de volgende opties: </p> 
        <ul> 
         <li> <p>Geen kosten</p> </li> 
-        <li> <p>Vaste uren </p> </li> 
+        <li> <p>Vast uurwerk </p> </li> 
         <li> <p> Uur gebruiker </p> </li> 
         <li> <p> Rol Uur</p> </li> 
-       </ul> <p>Voor meer informatie over het volgen van kosten, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a> . Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Kostensoort voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a> .</p> </td> 
+       </ul> <p>Zie voor meer informatie over trackingkosten <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a> . Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Kostensoort voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type inkomsten</td> 
       <td> <p>Geef het type inkomsten voor de taak op. Dit gaat bepalen hoe de Inkomsten op de taak worden berekend, gebaseerd op het aantal uren op de taken. </p> <p>Selecteer een van de volgende opties: </p> 
        <ul> 
-      <li> <p> Niet opteerbaar </p> </li> 
+      <li> <p> Niet opblaasbaar </p> </li> 
       <li> <p>Uur gebruiker </p> </li> 
       <li> <p>Rol Uur </p> </li> 
-      <li> <p>Vaste uren </p> </li> 
+      <li> <p>Vast uurwerk </p> </li> 
       <li> <p>Uur gebruiker met lampvoet </p> </li> 
       <li> <p>Rol Uur met lampvoet </p> </li> 
       <li> <p>Uur plus vaste kosten gebruiker </p> </li> 
@@ -556,7 +561,7 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
      </tr> 
      <tr> 
       <td role="rowheader">Bronniveaus</td> 
-      <td> <p>Selecteer <strong>Uitsluiten van bronnenniveau</strong> veld als u wilt dat de bronnen die aan de taak zijn toegewezen, niet op niveau worden gebracht.</p> </td> 
+      <td> <p>Selecteer de <strong>Uitsluiten van bronnenniveau</strong> veld als u wilt dat de bronnen die aan de taak zijn toegewezen, niet op niveau worden gebracht.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vertraging Niveaus</td> 
