@@ -6,9 +6,9 @@ title: Overzicht van ingebouwde Adobe Workfront-integratie
 description: U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de invoegtoepassing Adobe Creative Cloud gebruiken om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td> 
     <ul> 
      <li> <p>Integreer met een Web-based versie van Vooruitzichten in wolk-ontvangen Bureau 365 of Vooruitzichten Live. </p> </li> 
-     <li> <p>Alle gebeurtenissen van uw [!DNL Outlook] kalender en de bijbehorende kalenders die u selecteert, zoals verjaardagen en feestdagen, in uw kalender.</p>  <p>Opmerking: De de kalenderconfiguratie van Vooruitzichten is volledig gescheiden van Vooruitzichten toe:voegen-binnen (de Integratie van Vooruitzichten of Workfront voor Vooruitzichten). Er is geen installatie vereist om de kalender te configureren.</p></li> 
+     <li> <p>Alle gebeurtenissen van uw [!DNL Outlook] kalender en de bijbehorende kalenders die u selecteert, zoals verjaardagen en feestdagen, in uw kalender.</p>  <p>Nota: De de kalenderconfiguratie van Vooruitzichten is volledig gescheiden van Vooruitzichten toe:voegen-binnen (de Integratie van Vooruitzichten of Workfront voor Vooruitzichten). Er is geen installatie vereist om de kalender te configureren.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td> 
     <ul> 
      <li>Een bestaand project/taak/probleem bijwerken met gegevens uit een e-mail </li> 
-     <li>E-mails converteren naar [!DNL Workfront] objecten direct vanuit je postvak </li> 
+     <li>E-mails converteren naar [!DNL Workfront] objecten direct vanuit je Postvak IN </li> 
      <li>Nieuwe taken maken op basis van een e-mail </li> 
      <li>Opmerking over [!DNL Workfront] items </li> 
     </ul> </td> 
@@ -148,13 +148,6 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td> 
     <ul> 
      <li>Documenten en mappen koppelen aan [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM*</td> 
-   <td> 
-    <ul> 
-     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Digitale elementen koppelen aan [!DNL Workfront]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

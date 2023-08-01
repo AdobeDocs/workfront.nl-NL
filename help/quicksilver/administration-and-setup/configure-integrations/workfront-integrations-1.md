@@ -9,9 +9,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Volg de volgende workflow om aan de slag te gaan met ingebouwde (native) integra
 
    Bij het kiezen van een integratie is het belangrijk om een toepassing te kiezen die mensen reeds regelmatig gebruiken. Integreren [!DNL Workfront] met een regelmatig, of vaak, gebruikte toepassing zal de goedkeuring onder uw gebruikers verhogen.
 
-   Voor een lijst met beschikbare integratie raadpleegt u [Integratie zonder extra kosten beschikbaar](#integrations-available-at-no-additional-cost) en [Integraties die een extra aankoop vereisen](#integrations-requiring-an-additional-purchase).
+   Zie voor een lijst met beschikbare integratie [Integratie zonder extra kosten beschikbaar](#integrations-available-at-no-additional-cost) en [Integraties die een extra aankoop vereisen](#integrations-requiring-an-additional-purchase).
 
 1. **Identificeer uw technologiebeheerder**
 
@@ -52,9 +52,9 @@ Volg de volgende workflow om aan de slag te gaan met ingebouwde (native) integra
 
    Als uw beheerder problemen heeft met de native integratie-instelling, kunt u contact opnemen met [!DNL Workfront] Klantenondersteuning voor hulp bij het begeleiden of oplossen van problemen. while [!DNL Workfront] Wij zullen de integratie niet voor u opzetten, wij zijn geëngageerd u alle noodzakelijke hulpmiddelen en middelen te geven u om het zelf te doen moet. U kunt rechtstreeks contact opnemen met de Klantenondersteuning of u kunt de uitgebreide bronartikelen verkennen om u te helpen uw integratie eenvoudig in te stellen.
 
-   Raadpleeg voor meer informatie over [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+   Raadpleeg voor meer informatie over het [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-   Ga voor koppelingen naar Help-artikelen naar [Integratie zonder extra kosten beschikbaar](#integrations-available-at-no-additional-cost). en [Integraties die een extra aankoop vereisen](#integrations-requiring-an-additional-purchase).
+   Voor koppelingen naar Help-artikelen raadpleegt u [Integratie zonder extra kosten beschikbaar](#integrations-available-at-no-additional-cost). en [Integraties die een extra aankoop vereisen](#integrations-requiring-an-additional-purchase).
 
    Voor instructies over het creëren van een steungeval, zie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -128,7 +128,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     </ul> <p>Zie voor meer informatie <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for G Suite]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL G Suite] gebruikers moeten beschikken over een [!DNL Workfront] licentie </li> 
+     <li>[!DNL G Suite] gebruikers moeten een [!DNL Workfront] licentie </li> 
      <li>[!DNL Workfront] de mening en het werk delend toestemmingen moeten per toegangsniveau worden geplaatst </li> 
      <li> E-mailaccount met POP </li> 
      <li>[!DNL Workfront] aanvraaginstellingen moeten POP-instellingen bevatten </li> 
@@ -163,7 +163,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
    <td> 
     <ul> 
      <li> Alleen installatie door een [!DNL Jira] beheerder</li> 
-     <li>Niet-[!DNL Jira] beheerders moeten toegang vragen en krijgen van de [!DNL Jira] beheerder</li> 
+     <li>Niet-[!DNL Jira] beheerders moeten toegang vragen en krijgen van [!DNL Jira] beheerder</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     <ul> 
      <li> <p>Integreren met een webversie van [!DNL Outlook] in de cloud [!DNL Office 365] of [!DNL Outlook Live.] </p> </li> 
      <li> <p>Alle gebeurtenissen van uw [!DNL Outlook] kalender en de bijbehorende kalenders die u selecteert, zoals Verjaardagen en feestdagen, in uw [!UICONTROL Home Calendar].</p> </li> 
-    </ul> <p><b>OPMERKING</b>: De [!UICONTROL Outlook] kalenderconfiguratie is volledig los van [!DNL Outlook] Add-in ([!DNL Outlook] integratie of [!DNL Workfront for Outlook]). Er is geen installatie vereist om de kalender te configureren.</p> <p>Zie voor meer informatie <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Configureer uw [!UICONTROL Home Calendar] weergave-instellingen</a>.</p> </td> 
+    </ul> <p><b>OPMERKING</b>: De [!UICONTROL Outlook] De kalenderconfiguratie is volledig los van [!DNL Outlook] Add-in ([!DNL Outlook] integratie of [!DNL Workfront for Outlook]). Er is geen installatie vereist om de kalender te configureren.</p> <p>Zie voor meer informatie <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Configureer uw [!UICONTROL Home Calendar] weergave-instellingen</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -198,7 +198,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     <ul> 
      <li>[!DNL Outlook] 2013 of 2016 voor [!DNL Windows] en [!DNL Outlook] 2016 voor [!DNL Mac] </li> 
      <li>[!DNL Outlook] op het web moet [!DNL Exchange] 2016 en [!DNL Office] 365 </li> 
-     <li>[!DNL Outlook Web Access] moet [!DNL Exchange] 2013 </li> 
+     <li>[!DNL Outlook Web Access] moet [!DNL Exchange] 13 </li> 
      <li>Directe verbinding met een [!DNL Exchange] Server of [!DNL Office 365]</li> 
     </ul> </td> 
    <td> 
@@ -247,7 +247,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
    <td> 
     <ul> 
      <li>Documenten en mappen koppelen aan [!DNL Workfront]</li> 
-    </ul> <p>Zie voor meer informatie <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">Configureer de [!DNL SharePoint] integratie</a>.</p> </td> 
+    </ul> <p>Zie voor meer informatie <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">Vorm [!DNL SharePoint] integratie</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -263,7 +263,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
    <td> 
     <ul> 
      <li>[!DNL Slack] de beheerder moet alle gebruikers van de Slack toestaan te installeren [!DNL Workfront for Slack]</li> 
-     <li>[!DNL Slack] gebruikers moeten beschikken over een [!DNL Workfront] licentie </li> 
+     <li>[!DNL Slack] gebruikers moeten een [!DNL Workfront] licentie </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -287,17 +287,13 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
 
 [!DNL Workfront] biedt u de mogelijkheid andere ingebouwde integraties en geïntegreerde producten tegen extra kosten te benutten. Vraag uw accountvertegenwoordiger om prijsgegevens.
 
-* [!DNL Workfront DAM]
-
-   Zie voor meer informatie [[!DNL Adobe Workfront DAM] binnen [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md).
-
 * [!DNL Workfront Fusion]
 
-   Zie voor meer informatie [[!DNL Adobe Workfront Fusion] overzicht](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  Zie voor meer informatie [[!DNL Adobe Workfront Fusion] overzicht](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-   Zie voor meer informatie [Configureren [!DNL Workfront] with [!DNL Adobe Experience Manager] verouderde connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+  Zie voor meer informatie [Adobe Workfront voor Experience Manager Assets en Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 
 ## Partnerintegratie
 
