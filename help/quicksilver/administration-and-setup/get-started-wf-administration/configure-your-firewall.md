@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1543'
 ht-degree: 13%
 
 ---
@@ -19,24 +19,24 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn gegaan. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
 >Als u uw lijst van gewenste personen wilt configureren als uw organisatie is aangemeld bij de Adobe Admin Console, raadpleegt u [Domeinen die zijn toegestaan voor Adobe-apps en -services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console, raadpleegt u [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend en zijn de volgende processen mogelijk:
 
 * Berichten verzenden vanuit de Workfront-toepassing
 
-   >[!NOTE]
-   >
-   >Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+  >[!NOTE]
+  >
+  >Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
 
 * Documentwebkoppelingen gebruiken bij het configureren van aangepaste documentintegratie
 * Workfront Event-abonnementen gebruiken
 
-   Zie voor meer informatie [Event Subscription API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Zie voor meer informatie [API voor abonnementen voor gebeurtenissen](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 U moet ook bepaalde poorten openen om e-mailberichten te coderen wanneer ze worden geleverd.
 
@@ -44,12 +44,24 @@ U moet ook bepaalde poorten openen om e-mailberichten te coderen wanneer ze word
 
 Als uw organisatie het plan van de Onderneming heeft, kunt u twee lijsten van gewenste personen van Workfront ook vormen:
 
-* **E-maillijst van gewenste personen**: Hiermee kunt u bepalen waar gebruikers in Workfront opgeslagen gegevens via e-mail kunnen verzenden. Zie voor meer informatie [Uw e-maillijst van gewenste personen configureren](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP lijst van gewenste personen**: Beperkt de toegang tot Workfront tot 45 IP adressen of IP adreswaaiers die u specificeert, die een extra laag van veiligheid voor de toepassing van Workfront verstrekken. Zie voor meer informatie [Toegang tot Adobe Workfront beperken tot IP-adres](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **E-maillijst van gewenste personen**: Hiermee kunt u bepalen waar gebruikers gegevens kunnen e-mailen die in Workfront zijn opgeslagen. Zie voor meer informatie [Uw e-maillijst van gewenste personen configureren](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **IP LIJST VAN GEWENSTE PERSONEN**: Beperkt de toegang tot Workfront tot 45 IP adressen of IP adreswaaiers die u specificeert, die een extra laag van veiligheid voor de toepassing van Workfront verstrekken. Zie voor meer informatie [Toegang tot Adobe Workfront beperken tot IP-adres](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+
+## Zoek uw Workfront-cluster
+
+De IP adressen die u aan uw lijst van gewenste personen op uw firewall moet toevoegen hangen van de cluster af waar uw milieu van de Productie loopt.
+
+De cluster van uw organisatie zoeken:
+
+1. Als Workfront-beheerder klikt u op de knop **Hoofdmenu** pictogram ![Hoofdmenu](assets/main-menu-icon.png)en klik vervolgens op **Instellen**.
+1. Klik in de linkernavigatie op **Systeem** selecteert u vervolgens **Klantgegevens**.
+1. Zoek de **Clusterinstelling** in de rechterbovenhoek van de pagina. De cluster van uw organisatie wordt hier vermeld.
+
+   CL01 verwijst naar Cluster 1, CL02 is Cluster 2, enzovoort.
+
+Zie de sectie voor meer informatie [Het cluster- en Workfront-plan van uw organisatie weergeven](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) in het artikel [Overzicht van firewalls](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## IP adressen om aan de lijst van gewenste personen toe te voegen
-
-De IP adressen die u aan uw lijst van gewenste personen op uw firewall moet toevoegen hangen van de cluster af waar uw milieu van de Productie loopt. U kunt erachter komen welke cluster dit is door Opstelling > Systeem te bekijken > de Info van de Douane. Zie de sectie voor meer informatie [Basisinformatie configureren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) in het artikel [Basisinformatie voor uw systeem configureren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 >[!IMPORTANT]
 >
@@ -58,7 +70,6 @@ De IP adressen die u aan uw lijst van gewenste personen op uw firewall moet toev
 >* Workfront for G Suite
 >* Workfront for Outlook
 >* Workfront voor Salesforce
-
 
 * [IP-adressen voor clusters 1, 2, 3, 5, 7, 8 en 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP adressen om voor Cluster 4 toe te staan](#ip-addresses-to-allow-for-cluster-4)

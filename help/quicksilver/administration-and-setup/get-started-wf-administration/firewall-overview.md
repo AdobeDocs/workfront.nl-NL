@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Omdat Adobe Workfront communiceert met het netwerk van uw organisatie, moet de f
 Dit wordt verwezenlijkt door een lijst van gewenste personen, die hoofdzakelijk een &quot;lijst&quot;van plaatsen is die &quot;toegestaan&quot;zijn om gegevens door de firewall te verzenden of te ontvangen. De plaatsen kunnen op één van twee manieren worden geïdentificeerd:
 
 * **IP-adres**: een reeks getallen zoals 52.31.132.175
-* **Domein**: een deel van een URL, zoals &quot;this domain&quot; in www.thisdomain.com
+* **Domein**: deel van een URL, zoals &quot;this domain&quot; in www.thisdomain.com
 
 Workfront gebruikt specifieke IP-adressen en -domeinen voor webcommunicatie. Deze moeten aan de lijst van gewenste personen van uw organisatie worden toegevoegd alvorens u Workfront in uw organisatie kunt gebruiken.
 
@@ -57,13 +57,7 @@ Geef uw netwerkbeheerder de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Je Workfront-abonnement</td> 
-   <td> <p>Het plan van uw organisatie is één van het volgende:</p> 
-    <ul> 
-     <li> <p>Enterprise </p> </li> 
-     <li> <p>Zakelijk </p> </li> 
-     <li> <p>Pro </p> </li> 
-     <li> <p>Team </p> </li> 
-    </ul> <p>Als u uw abonnement wilt zoeken, raadpleegt u <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Bekijk het cluster van uw organisatie en het plan van Workfront.</a></p> </td> 
+   <td> <p>Als u het plan van uw organisatie wilt opzoeken, raadpleegt u <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Bekijk het cluster van uw organisatie en het plan van Workfront.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uw domein</td> 
@@ -114,7 +108,7 @@ Geef uw netwerkbeheerder de volgende informatie:
 
    ![](assets/locate-cluster.png)
 
-1. Selecteer **Licenties**.
+1. Als u uw Workfront-abonnement wilt bekijken, selecteert u **Licenties**.
 
    Uw abonnement wordt onder aan de pagina weergegeven.
 
