@@ -7,9 +7,9 @@ description: Met Adobe Workfront Fusion DevTool kunt u scenario's begrijpen en p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Foutopsporingsscenario&#39;s met de [!DNL Adobe Workfront Fusion] DevTool
 
 De [!DNL Adobe Workfront Fusion] Met DevTool kunt u scenario&#39;s begrijpen en problemen oplossen. Met het gereedschap DevTool voegt u een extra deelvenster toe aan het dialoogvenster [!DNL Chrome Developer Tools]. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
+
+>[!NOTE]
+>
+>Workfront Fusion DevTool is niet beschikbaar aan organisaties die tot Fusion door de Adobe Verenigde Shell toegang hebben.
 
 ## Toegangsvereisten
 
@@ -37,7 +41,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>    </tr> 
@@ -45,9 +49,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -140,7 +144,7 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
       <td> <p>U kunt de volgende informatie voor elke module in uw scenario bekijken</p> 
        <ul> 
         <li> <p>De Kopballen van het verzoek (API eindpunt URL, de methode van http, de tijd en de datum het verzoek werd geroepen, verzoekkopballen, en vraagkoord)</p> </li> 
-        <li> <p>Verzoek</p> </li> 
+        <li> <p>Indieningsinstantie</p> </li> 
         <li> <p>Antwoordheaders</p> </li> 
         <li> <p>Reactieorgaan</p> </li> 
        </ul> <p>Als u deze informatie wilt weergeven, klikt u op het desbetreffende tabblad in het rechterdeelvenster van het dialoogvenster [!DNL Workfront Fusion] DevTool.</p> </td> 
@@ -155,7 +159,7 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Logboekregistratie voor console inschakelen</p> </td> 
-      <td> <p>Klik op het pictogram van de computer <img src="assets/console-computer-icon.png"> in de rechterbovenhoek van het linkerdeelvenster van het gereedschap Ontwikkelen.</p> <p>Aanmelden in de console wordt ingeschakeld wanneer het computerpictogram groen is.</p> </td> 
+      <td> <p>Klik op het computerpictogram <img src="assets/console-computer-icon.png"> in de rechterbovenhoek van het linkerdeelvenster van het gereedschap Ontwikkelen.</p> <p>Aanmelden in de console wordt ingeschakeld wanneer het computerpictogram groen is.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>De aanvraag ophalen in de Raw JSON-indeling of cURL</p> </td> 
@@ -182,7 +186,7 @@ Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschie
 De [!DNL Workfront Fusion] DevTool beschikt over gereedschappen waarmee u uw scenario gemakkelijker kunt instellen.
 
 1. Klik op de knop **[!UICONTROL Tools]** pictogram ![](assets/console-tools-icon.png) om de gereedschappen te openen.
-1. Selecteer het gereedschap dat u wilt gebruiken
+1. Selecteer het gewenste gereedschap
 1. Configureer de velden zoals hieronder wordt beschreven.
 1. Klik op **[!UICONTROL Run]**.
 
@@ -261,7 +265,7 @@ Hiermee kopieert u waarden uit de bronmodule naar de doelmodule.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
-   <td> <p>Selecteer de module of ga identiteitskaart van de module in waarin u de waarden van de bronmodule wilt opnemen.</p> <p>Belangrijk: Waarden in de doelmodule worden overschreven.</p> </td> 
+   <td> <p>Selecteer de module of ga identiteitskaart van de module in waarin u de waarden van de bronmodule wilt opnemen.</p> <p>Belangrijk: waarden in de doelmodule worden overschreven.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,7 +288,7 @@ Hiermee kopieert u de filterinstellingen van de bronmodule naar de doelmodule.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
-   <td> <p>Selecteer de module of typ de id van de module waarin u de filterwaarden uit de bronmodule wilt invoegen.</p> <p>Belangrijk: Waarden in de doelmodule worden overschreven.</p> </td> 
+   <td> <p>Selecteer de module of typ de id van de module waarin u de filterwaarden uit de bronmodule wilt invoegen.</p> <p>Belangrijk: waarden in de doelmodule worden overschreven.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Preserve Fallback Route setting]</p> </td> 
@@ -329,7 +333,7 @@ Zoekt naar opgegeven variabelen in het scenario en vervangt deze door een nieuwe
 
 #### [!UICONTROL Swap App]
 
-Hiermee vervangt u de geselecteerde app-versie in uw scenario door een andere app-versie.
+Hiermee vervangt u de geselecteerde toepassingsversie in uw scenario door een andere toepassingsversie.
 
 U kunt deze functie bijvoorbeeld gebruiken om de modules van Gmail- en E-mailapps te upgraden naar de meest recente versie.
 
@@ -432,6 +436,6 @@ Hiermee worden de modules van de opgegeven app in uw scenario gemarkeerd.
 
 #### [!UICONTROL Migrate GS]
 
-Dit gereedschap is speciaal bedoeld voor een upgrade [!DNL Google Sheets] (verouderde) modules tot de nieuwste [!DNL Google Sheets] versie. Het voegt een nieuwe versie van de module net na de erfenisversie van de module in de scenario route toe.
+Dit gereedschap is speciaal bedoeld voor een upgrade [!DNL Google Sheets] (verouderde) modules tot de meest recente [!DNL Google Sheets] versie. Het voegt een nieuwe versie van de module net na de erfenisversie van de module in de scenario route toe.
 
 Voor deze module hoeft u geen parameters in te stellen.
