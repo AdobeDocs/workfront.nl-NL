@@ -7,9 +7,9 @@ description: Deze video's zullen u aan de verschillende types van raden introduc
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,12 @@ Met een eenvoudige, of eenvoudige, board kunt u snel aan de slag gaan met borden
 Een KanaBord kan een achterstand, of inlaatkolom bevatten, die met filters wordt gevormd om taken en kwesties van Workfront op de raad te brengen.
 
 [Bekijk een videodemonstratie van een kanbanboard.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Dynamisch bord
+
+Met een dynamisch bord kunt u een kaart automatisch vullen met kaarten die zijn gebaseerd op een Workfront-project. Met filters worden kaarten op basis van hun status toegevoegd aan kolommen.
+
+[Bekijk een videodemonstratie van een dynamisch bord.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Mobiel bord
 
