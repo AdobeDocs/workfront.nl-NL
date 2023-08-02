@@ -5,9 +5,9 @@ title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,17 @@ Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voe
 
 * **To-dos**\
     Met deze unieke widget kunt u tekstitems toevoegen aan een persoonlijke controlelijst die u kunt bewerken.
+
+Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het type licentie. In de onderstaande tabel wordt aangegeven welke widgets gebruikers van elk licentietype zien wanneer ze voor het eerst naar New Home navigeren.
+
+| **Verouderd licentietype** | **Standaardwidgets** | **Huidig licentietype** | **Standaardwidgets** |
+|---|---|---|---|
+| Plan | Mijn projecten, opmerkingen, opdrachten | Standaard | Mijn projecten, mijn werk, herinneringen, opdrachten |
+| Werk | Mijn werk, herinneringen, opdrachten | Licht | Mijn werk, in afwachting van mijn goedkeuring, kan worden uitgevoerd |
+| Controleren | Mijn werk, herinneringen, opdrachten | Medewerker | Mijn werk, herinneringen, opdrachten |
+| Beperkt | Mijn projecten, in afwachting van mijn goedkeuring, | Extern | In afwachting van mijn goedkeuring, ongedaan maken |
+| Medewerker | Mijn werk, herinneringen, opdrachten |  |  |
+| Extern | In afwachting van mijn goedkeuring, ongedaan maken |  |  |
 
 Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
