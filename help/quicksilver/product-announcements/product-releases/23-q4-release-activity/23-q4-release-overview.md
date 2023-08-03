@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 ## Verbeteringen voor Adobe Workfront
 
-* Projectverbeteringen
+* [Verbeteringen voor borden](#boards-enhancements)
+* [Projectverbeteringen](#project-enhancements)
+
+### Verbeteringen voor borden
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documenten die als alleen-weergeven beschikbaar zijn op verbonden kaarten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p><p>Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbeeldingen en PDF bekijken. U kunt een voorvertoning van een document weergeven in de browser of het document downloaden naar de computer. </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 3 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor raden van bestuur: 10 augustus 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">De mening van de raad van een project nu beschikbaar voor kwesties</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p><p>U kunt nu een Board-weergave openen van een lijst met projectkwesties. Met het Kanban-bord kunt u de voortgang van de problemen op een meer visuele manier volgen dan ze in de lijst weer te geven. </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 3 augustus 2023<br /></p>
+                            </li>
+                             <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Projectverbeteringen
 
