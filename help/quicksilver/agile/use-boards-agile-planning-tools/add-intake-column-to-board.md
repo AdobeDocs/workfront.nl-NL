@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,19 @@ De inlaatkolom is niet beschikbaar op een dynamisch bord.
 
 De inlaatkolom is niet beschikbaar op borden die deel van een werkstroom uitmaken. In plaats daarvan, kunt u opstelling een backlogkolom om kaarten van de kaartlijst te trekken. Voor informatie over het toevoegen van een backlogkolom aan een raad in een werkstroom, zie [De achterstand op een werkstroomgebied configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-De inlaatkolom is beperkt tot 300 taken en 300 problemen. Ze worden gesorteerd op de prioriteit die op de items is gedefinieerd. Voor informatie over prioriteit raadpleegt u [Taak-prioriteit bijwerken](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) en [Probleemprioriteit bijwerken](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+De inlaatkolom is beperkt tot 300 taken en 300 problemen. De standaardvolgorde van items in de inlaatkolom is als volgt:
 
-Voor meer informatie over kolommen raadpleegt u [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Voor informatie over verbonden kaarten raadpleegt u [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Taken:
+
+* Primaire bestelling: Projectnaam
+* Secundaire volgorde: structuur van werkverdeling
+
+Problemen:
+
+* Primaire bestelling: Projectnaam
+* Secundaire volgorde: Referentienummer
+
+Zie voor meer informatie over kolommen [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Zie voor informatie over aangesloten kaarten [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Toegangsvereisten
 
@@ -59,12 +69,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Uitbreiden **[!UICONTROL Board]**.
 1. Inschakelen **[!UICONTROL Dynamically intake items to board]**.
 
-   ![Opties voor het eenvoudige filter van de kolom](assets/intake-column-simple-filters.png)
+   ![Opties voor eenvoudige filters in kolom](assets/intake-column-simple-filters.png)
 
    De inlaatkolom wordt links van het bord toegevoegd. Deze blijft leeg totdat u er filters op toepast.
 
 1. (Optioneel) Zoek en selecteer [!DNL Workfront] [!UICONTROL **Projecten**].
-1. (Optioneel) Zoek en selecteer gebruiker of team [!UICONTROL **Toewijzingen**].
+1. (Optioneel) Zoek en selecteer een gebruiker of team [!UICONTROL **Toewijzingen**].
 1. Selecteren [!UICONTROL **Inclusief voltooid werk**] om taken en kwesties met een Volledige status in de inputkolom te tonen.
 
    >[!NOTE]
@@ -98,11 +108,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Opgeslagen filters en standaardfilters van het systeem kunnen ook worden geselecteerd.
 
-1. Klik in het filterdeelvenster op **[!UICONTROL New filter]** om aan de slag te gaan.
+1. Klik in het filterdeelvenster op **[!UICONTROL New filter]** aan de slag.
 
    ![Klik op Nieuw filter](assets/intake-filter-dialog5.png)
 
-1. Stel uw filter samen en klik op **[!UICONTROL Save as new]**.
+1. Maak uw filter en klik op **[!UICONTROL Save as new]**.
 
    ![Filter builder](assets/intake-filter-dialog6.png)
 

@@ -1,19 +1,21 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Een project beheren in de Google-weergave
+title: Een project beheren in de Google View
 description: Vereiste plannen, licentietypen en toegang tot Adobe Workfront Plan Team, Pro, Business, of Enterprise Workfront License Type Review, Work, of Plan Machtigingen in het toegangsmodel Toegang bewerken en de mogelijkheid om rapporten, dashboards en kalenders te maken
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
 
-# Een project beheren in de Google-weergave
+# Een project beheren in de Google View
+
+{{preview-and-fast-release}}
 
 <!--
 Required plans, license types, and access
@@ -65,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <li> <p>Projecten</p> </li> 
      <li> <p>Rapporten, dashboards, kalenders</p> </li> 
      <li> <p>Filters, weergaven, groepen</p> </li> 
-    </ul> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -90,7 +92,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 De volgende flexibele functionaliteit is beschikbaar wanneer u een project beheert in een flexibele weergave:
 
 * Voltooiingsstatus\
-  Voor meer gedetailleerde informatie over voltooiingsstatus raadpleegt u [Overzicht van de voltooiingsstatus](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
+  Zie voor meer informatie over de voltooiingsstatus [Overzicht van de voltooiingsstatus](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
 
 * Artikelbord\
   Raadpleeg voor meer informatie over de artikelpagina de [Schuifbord](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) sectie.
@@ -161,8 +163,8 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 
 ## Een project weergeven in de Google-weergave
 
-1. Ga naar het project u in een flexibele mening wilt bekijken.
-1. Klik op de knop **Raad** pictogram ![Pictogram bord](assets/board-icon-for-agile-view.png).
+1. Ga naar het project u in een flexibele mening, op of de taaklijst wilt bekijken <span class="preview">of de uitgiftenlijst</span>.
+1. Klik op de knop **Raad** pictogram ![Bordebord, pictogram](assets/board-icon-for-agile-view.png).
 
    De boardweergave van het project wordt standaard weergegeven.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
@@ -11,13 +11,21 @@ ht-degree: 0%
 
 <!-- General -->
 
-## Gemarkeerde voorvertoning {#highlighted-preview}
+## Voorvertoning met markering {#highlighted-preview}
 
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 ## Gemarkeerde voorvertoning voor volledig artikel {#highlighted-preview-article-level}
 
 <span class="preview">De informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
+
+## Voorbeeld en snelle release Q4 2023 {#preview-and-fast-release}
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release 4de kwartaal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
 ## Belangrijke opmerking voor navigatiefuncties die niet van toepassing zijn op AEC/shell {#important-not-on-aec}
 
@@ -29,9 +37,9 @@ ht-degree: 0%
 
 ## Stap 1 - klik alleen op Hoofdmenu {#step1-click-main-menu}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
 
-## Stap 1 - klik op het hoofdmenu en klik vervolgens op - {#step1-click-mm-then-click}
+## Stap 1 - klik dan het Belangrijkste Menu - {#step1-click-mm-then-click}
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op
 
@@ -101,7 +109,7 @@ Gekoppelde mappen instellen:
 
 ## Pictogram Start {#click-home}
 
-1. Klik op de knop [!UICONTROL Home] pictogram ![Startpictogram](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop [!UICONTROL Home] pictogram ![Startpictogram](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
 >[!NOTE]
 >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in de [!UICONTROL Home] pictogram in uw omgeving:
@@ -117,9 +125,9 @@ Gekoppelde mappen instellen:
 U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassing die u gebruikt:
 * Voor Photoshop, zie [Adobe Workfront voor Photoshop installeren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * Zie voor XD [Adobe Workfront for XD installeren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* Ga voor InDesign, Illustrator, Premiere Pro en After Effects naar [Adobe Workfront installeren voor ontwerp en video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* Voor InDesign, Illustrator, Premiere Pro en After Effects raadpleegt u [Adobe Workfront installeren voor ontwerp en video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
-## CC-toepassingslijst {#cc-app-list}
+## Lijst met CC-toepassingen {#cc-app-list}
 
 * Photoshop
 * XD
@@ -302,7 +310,7 @@ Als u de wijzigingen in de functionaliteit van de knop Gereed zichtbaar wilt mak
 
 Om gebruikers met een Team van het Huis te associëren:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
 
 1. Klikken **[!UICONTROL Users]** en selecteert u vervolgens de gebruiker of gebruikers die u aan een Home Team wilt koppelen.
 1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.\

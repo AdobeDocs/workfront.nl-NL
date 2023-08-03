@@ -6,14 +6,16 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
 
 # Gekoppelde kaarten op borden gebruiken
+
+{{preview-and-fast-release}}
 
 U kunt een kaart toevoegen aan uw board die is aangesloten op bestaande taken en problemen in [!DNL Workfront].
 
@@ -72,13 +74,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op **[!UICONTROL Add]**.
 
-   ![Zoeken naar taak of probleem om verbinding te maken](assets/boards-tasksissues-350x94.png)
+   ![Zoeken naar taak of probleem voor verbinding](assets/boards-tasksissues-350x94.png)
 
    De kaart wordt onder aan de linkerkolom toegevoegd. De aangesloten [!DNL Workfront] -object en de bijbehorende toewijzingen worden op de kaart weergegeven.
 
    >[!NOTE]
    >
-   >Indien een verkrijger [!DNL Workfront] de taak of de kwestie is geen lid van de raad van bestuur; zij worden niet aan de kaart toegewezen.
+   >Indien een ontvanger op de [!DNL Workfront] de taak of de kwestie is geen lid van de raad van bestuur; zij worden niet aan de kaart toegewezen.
 
    ![Verbonden kaart](assets/boards-connected-card-first-added.png)
 
@@ -123,7 +125,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
       <td><p>Als u meer personen of een team aan de kaart wilt toewijzen, typt u een naam in het zoekveld en selecteert u de naam wanneer deze in de lijst wordt weergegeven. U kunt zowel personen als teams toevoegen. Er is slechts één teamtoewijzing toegestaan op een aangesloten kaart.</p>
       <p>De kandidaten moeten lid van de raad zijn of zij zullen niet in de selectielijst verschijnen. Als een team lid is in de raad, kunnen de individuele teamleden aan de kaart worden toegewezen.</p>
-      <p>Alle geselecteerde toewijzingen worden ook toegewezen aan de taak of uitgave in [!DNL Workfront].</p></td>
+      <p>Alle door u geselecteerde toewijzingen worden ook toegewezen aan de taak of uitgave in [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -137,7 +139,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Voor meer informatie over controlelijstitems raadpleegt u <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p></td>
+      <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Zie voor meer informatie over controlelijstitems <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
+      <td><span class="preview"><p>Houd de muis boven de documentminiatuur en klik op <strong>Voorvertoning</strong> om het bestand in de browser of <strong>Downloaden</strong> om het bestand naar uw computer te downloaden.</p></span>
+      <span class="preview"><p><strong>OPMERKING:</strong> Op dit moment moet een document naar de Workfront-taak worden geüpload om op de aangesloten kaart beschikbaar te zijn.</p></span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
@@ -157,7 +164,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Gebruik het linkernavigatievenster om tussen secties van gebieden op de kaartdetails te bewegen.
 
-1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
+1. Klikken **[!UICONTROL Close]** om terug te keren naar de raad van bestuur.
 Het verbonden object, de toewijzingen, de tags, de vervaldatum, de controlelijstteller, de geschatte uren en de status worden weergegeven op de kaart.
 
    ![Kaart aan boord toegevoegd](assets/boards-connected-card-details-110922.png)
@@ -174,17 +181,17 @@ Verbinding verbreken op het niveau van het board:
 
 Verbinding verbreken op kaartniveau:
 
-1. Open de kaart en open deze.
+1. Open de kaart en open de kaart.
 1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) in het gebied Verbinding van de kaartdetails, en selecteer **[!UICONTROL Disconnect]**.
 1. Klikken **[!UICONTROL Disconnect]** in het bevestigingsbericht.
 
 ## Een ad-hockaart converteren naar een aangesloten kaart
 
-Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangesloten kaart. Voor meer informatie over ad-hockaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangesloten kaart. Zie voor meer informatie over ad-hockaarten [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Open de kaart en open de ad-hockaart.
 1. Controleer de naam en beschrijving op de kaart. Ze worden toegevoegd aan de taak of uitgave die u maakt in [!DNL Workfront].
-1. In de [!UICONTROL Connection] voor meer informatie over de kaart klikt u op **[!UICONTROL Connect with Workfront]**.
+1. In de [!UICONTROL Connection] gebied met kaartgegevens klikt u op **[!UICONTROL Connect with Workfront]**.
 1. Op de [!UICONTROL Connect Card] selecteert u of u een taak of een uitgave maakt.
 1. Zoek naar en selecteer een project om de taak of kwestie aan toe te voegen.
 
@@ -199,13 +206,13 @@ Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangeslot
 
    De projectnaam wordt weergegeven in het gebied Verbinding op de kaartdetails.
 
-1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
+1. Klikken **[!UICONTROL Close]** om terug te keren naar de raad van bestuur.
 
 ## Uren vastleggen op een aangesloten kaart
 
 U moet over de juiste machtigingen beschikken om de uren te kunnen vastleggen voor de verbonden taak of uitgave.
 
-De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet [!UICONTROL **Uren**] in de [!UICONTROL Configure] areaal [!UICONTROL Cards]. Zie voor meer informatie [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet inschakelen [!UICONTROL **Uren**] in de [!UICONTROL Configure] areaal [!UICONTROL Cards]. Zie voor meer informatie [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Voer het aantal uren in voor de taak of uitgave.
 1. Selecteer een [!UICONTROL Hour Type] in het keuzemenu als dit een andere instelling is dan de standaardinstelling.
