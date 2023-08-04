@@ -5,9 +5,9 @@ title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -55,16 +55,65 @@ Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voe
 * **To-dos**\
     Met deze unieke widget kunt u tekstitems toevoegen aan een persoonlijke controlelijst die u kunt bewerken.
 
-Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het type licentie. In de onderstaande tabel wordt aangegeven welke widgets gebruikers van elk licentietype zien wanneer ze voor het eerst naar New Home navigeren.
+  >[!NOTE]
+  >
+  >U moet over machtigingen beschikken om taken te maken om taken te kunnen uitvoeren in de widget Aan-opdrachten.
 
-| **Verouderd licentietype** | **Standaardwidgets** | **Huidig licentietype** | **Standaardwidgets** |
-|---|---|---|---|
-| Plan | Mijn projecten, opmerkingen, opdrachten | Standaard | Mijn projecten, mijn werk, herinneringen, opdrachten |
-| Werk | Mijn werk, herinneringen, opdrachten | Licht | Mijn werk, in afwachting van mijn goedkeuring, kan worden uitgevoerd |
-| Controleren | Mijn werk, herinneringen, opdrachten | Medewerker | Mijn werk, herinneringen, opdrachten |
-| Beperkt | Mijn projecten, in afwachting van mijn goedkeuring, | Extern | In afwachting van mijn goedkeuring, ongedaan maken |
-| Medewerker | Mijn werk, herinneringen, opdrachten |  |  |
-| Extern | In afwachting van mijn goedkeuring, ongedaan maken |  |  |
+Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het type licentie. In de onderstaande tabellen ziet u welke widgets gebruikers van elk licentietype zien wanneer ze voor het eerst naar New Home navigeren.
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Huidig licentietype</b></td>
+        <td><b>Standaardwidgets</b></td>
+    </tr>
+    <tr>
+        <td>Standaard</td>
+        <td>Mijn projecten, mijn werk, herinneringen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Licht</td>
+        <td>Mijn werk, in afwachting van mijn goedkeuring, kan worden uitgevoerd</td>
+    </tr>
+    <tr>
+        <td>Medewerker</td>
+        <td>Mijn werk, herinneringen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>In afwachting van mijn goedkeuring, ongedaan maken</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Verouderd licentietype</b></td>
+        <td><b>Standaardwidgets</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>Mijn projecten, opmerkingen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Werk</td>
+        <td>Mijn werk, herinneringen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Controleren</td>
+        <td>Mijn werk, herinneringen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Beperkt</td>
+        <td>Mijn projecten, in afwachting van mijn goedkeuring,</td>
+    </tr>
+    <tr>
+        <td>Medewerker</td>
+        <td>Mijn werk, herinneringen, opdrachten</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>In afwachting van mijn goedkeuring, ongedaan maken</td>
+    </tr>
+</table>
 
 Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
