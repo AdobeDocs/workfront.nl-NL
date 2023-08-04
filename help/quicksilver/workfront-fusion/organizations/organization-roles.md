@@ -8,20 +8,20 @@ description: Dit artikel bevat informatie over de toegang tot en machtigingen vo
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
-# Organisatiefuncties in [!DNL Adobe Workfront Fusion]
+# Organisatie- en teamrollen in [!DNL Adobe Workfront Fusion]
 
-Dit artikel beschrijft de toegang en de functionaliteit beschikbaar aan de verschillende organisatierollen in [!DNL Workfront Fusion].
+Dit artikel beschrijft de toegang en de functionaliteit beschikbaar aan de verschillende team en organisatierollen in [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->Organisatierollen zijn gescheiden van teamrollen in [!DNL Workfront Fusion]. Voor meer informatie over teamrollen, zie [Teamrollen](../organizations/organizations-and-teams.md#team-roles-team-roles).
+>Organisatierollen zijn gescheiden van teamrollen in [!DNL Workfront Fusion]. Voor meer informatie over organisatie en teamrollen, zie [Organisaties en teams](../organizations/organizations-and-teams.md).
 
 ## Toegangsvereisten
 
@@ -46,7 +46,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
@@ -54,9 +54,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -91,6 +91,20 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td> <p>Alle teams openen</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>App voor organisatie installeren</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
   <tr> 
    <td> <p>Organisaties verwijderen</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -135,10 +149,21 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
     <td> </td> 
    </tr>
   --> 
- </tbody> 
+  <tr> 
+   <td> <p>Team toevoegen</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-## Scenarios
+
+## Teamrollen
+
+### Scenarios
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,10 +174,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -168,7 +193,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Scènes toevoegen</p> </td> 
@@ -188,7 +213,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td> <p style="text-align: left;">Scènes bewerken</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -196,68 +221,68 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Scenario-kennisgevingen</p> </td> 
+   <td> <p style="text-align: left;">Scriptmeldingen ontvangen</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Status opnieuw instellen</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Lijstscenario's</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Scènemarkeerteken bewerken</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">scenario's activeren</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> <p style="text-align: left;">Beginscenario's</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">scenario's deactiveren</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> <p style="text-align: left;">Stop-scenario's</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Scènes handmatig uitvoeren</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Weergavescenario's</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-  </tr> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   </tr> 
  </tbody> 
 </table>
 
-## Verbindingen
+### Verbindingen
 
 <table style="table-layout:auto">
  <col> 
@@ -268,10 +293,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -301,12 +326,12 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Webhaken
+### Webhaken
 
 <table style="table-layout:auto"> 
  <col> 
@@ -317,10 +342,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -350,12 +375,12 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gegevensopslag
+### Gegevensopslag
 
 <table style="table-layout:auto"> 
  <col> 
@@ -366,10 +391,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -399,19 +424,19 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Bladeren door gegevensopslag</p> </td> 
+   <td> <p style="text-align: left;">Bladeren door gegevensopslagruimten</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gegevensstructuren
+### Gegevensstructuren
 
 <table style="table-layout:auto">
  <col> 
@@ -422,10 +447,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">hy0</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -454,13 +479,13 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td> <p style="text-align: left;">Gegevensstructuren weergeven</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Apparaten
+### Apparaten
 
 <table style="table-layout:auto"> 
  <col> 
@@ -471,10 +496,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -503,13 +528,13 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td> <p style="text-align: left;">Lijstapparaten</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Toetsen
+### Toetsen
 
 <table style="table-layout:auto">
  <col> 
@@ -520,10 +545,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -552,8 +577,117 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td> <p style="text-align: left;">Lijsttoetsen</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
+
+### Sjablonen
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Sjablonen toevoegen</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Sjablonen verwijderen</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Sjablonen bewerken</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Lijstsjablonen</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Sjablonen weergeven</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Teams
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Teams toevoegen</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Teams verwijderen</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Teamgebruiker toevoegen en bewerken</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Teams weergeven</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+

@@ -3,14 +3,14 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Adobe Workfront Fusion-organisaties en -teams
+title: Adobe Workfront Fusion organisaties en teams
 description: Met de functies van Adobe Workfront Fusion Organisation en Teams kunnen ondernemingen de toegang tot scenario's en andere functies in Fusion controleren.
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
@@ -42,9 +42,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -74,11 +74,11 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 Een gebruiker heeft een van de volgende rollen in een organisatie:
 
-* **[!UICONTROL Owner]**: De eigenaar heeft alle rechten die beschikbaar zijn in de organisatie.
-* **[!UICONTROL Admin]**: Met de beheerdersrol kan een gebruiker teams en gebruikers voor de organisatie maken en beheren.
-* **[!UICONTROL Member]**: Leden kunnen [!DNL Workfront Fusion] maar kan geen organisatorische wijzigingen aanbrengen.
+* **[!UICONTROL Owner]**: De eigenaar heeft alle machtigingen die beschikbaar zijn in de organisatie.
+* **[!UICONTROL Admin]**: De admin rol laat een gebruiker toe om teams en gebruikers voor de organisatie tot stand te brengen en te beheren.
+* **[!UICONTROL Member]**: Leden kunnen gebruikmaken [!DNL Workfront Fusion] maar kan geen organisatorische wijzigingen aanbrengen.
 * **[!UICONTROL Accountant]**: Met een accountantrol kunnen gebruikers alleen licentiegegevens weergeven op het dashboard van de organisatie.
-* **[!UICONTROL App Developer]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en zal in de nabije toekomst beschikbaar worden gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
+* **[!UICONTROL App Developer]**: Functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
 ### Gebruikers uitnodigen voor een organisatie
 
@@ -86,7 +86,7 @@ Door gebrek, kan een organisatieeigenaar (of erkende gebruiker) een andere perso
 
 Een gebruiker uitnodigen om deel te nemen aan een organisatie:
 
-1. Klikken **[!UICONTROL Change details]** in de rechterbovenhoek van het scherm.
+1. Klikken **[!UICONTROL Change details]** rechtsboven in het scherm.
 1. Selecteren **[!UICONTROL Invite a new user]**.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
@@ -110,7 +110,7 @@ De uitnodiging verloopt over een dag.
 
 ### Overschakelen tussen organisaties
 
-U kunt deel uitmaken van meerdere organisaties in Fusion. De middelen worden niet gedeeld tussen organisaties.
+U kunt deel uitmaken van meer dan één organisatie in Fusion. De middelen worden niet gedeeld tussen organisaties.
 
 U kunt organisaties binnen de Adobe Verenigde Ervaring schakelen door de organisatienaam in de hoger-juiste hoek te klikken en de nieuwe organisatie van dropdown te selecteren. Alleen organisaties met een Fusion-account worden weergegeven in het vervolgkeuzemenu, zelfs als u lid bent van andere organisaties in Adobe.
 
@@ -142,10 +142,12 @@ Gebruikers kunnen hun team selecteren in de vervolgkeuzelijst in het navigatieve
 Een gebruiker heeft één van de volgende rollen in elk van zijn teams:
 
 * **[!UICONTROL Team Admin]**: Naast de mogelijkheden van de andere teamrollen, staat de rol Admin de gebruiker toe om, de rol van een teamlid toe te voegen te verwijderen of te veranderen.
-* **[!UICONTROL Team Member]**: De rol van het teamlid staat gebruikers toe om scenario&#39;s tot stand te brengen en uit te voeren.
+* **[!UICONTROL Team Member]**: Met de rol van het teamlid kunnen gebruikers scenario&#39;s maken en uitvoeren.
 * **[!UICONTROL Team Monitoring]**: De [!UICONTROL monitoring] de rol staat gebruikers toe om tot uitvoerinformatie voor scenario&#39;s toegang te hebben, maar zij kunnen scenario&#39;s ontwerpen of hun &quot;Actieve&quot;status veranderen niet.
 * **[!UICONTROL Team Operator]**: De [!UICONTROL operator] de rol staat gebruikers toe om uitvoeringsgegevens te zien en de &quot;Actieve&quot;status van scenario&#39;s te veranderen.
-* **[!UICONTROL Team Restricted Member]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en zal in de nabije toekomst beschikbaar worden gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
+* **[!UICONTROL Team Restricted Member]**: Functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
+
+Voor informatie over specifieke taken beschikbaar aan teamrollen, zie[Organisatie- en teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Teambeheer
 
@@ -158,8 +160,8 @@ Eigenaars en beheerders van organisaties kunnen teams maken.
 
 Een team maken:
 
-1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Organization]**
-1. Selecteer **[!UICONTROL Team]** tab.
+1. Klik in het linkernavigatievenster op **[!UICONTROL Organization]**
+1. Selecteer de **[!UICONTROL Team]** tab.
 1. Klikken **[!UICONTROL Add a new team]** onder de lijst van teams.
 1. Voer een naam in voor het nieuwe team en klik op **Toevoegen**.
 
@@ -167,8 +169,8 @@ Een team maken:
 
 De opties voor e-mailmeldingen worden ingesteld op teamniveau.
 
-1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Team]**
-1. Selecteer **[!UICONTROL Notification Options]** tab.
+1. Klik in het linkernavigatievenster op **[!UICONTROL Team]**
+1. Selecteer de **[!UICONTROL Notification Options]** tab.
 1. Schakel de meldingen in die het team moet ontvangen.
 
    <table style="table-layout:auto"> 
