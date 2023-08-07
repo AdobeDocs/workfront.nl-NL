@@ -4,21 +4,21 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: De [!DNL Adobe Workfront] Aangepaste vernieuwingssandbox-omgeving
-description: De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw productieomgeving kunt testen en gebruiken. Het is ook ideaal voor het uitvoeren van trainingen en het bepalen van de installatiefunctionaliteit.
+description: De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw productieomgeving kunt testen en gebruiken. Het is ook ideaal voor het uitvoeren van trainingen en het bepalen van instelfunctionaliteit.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # De [!DNL Adobe Workfront] Aangepaste vernieuwingssandbox-omgeving
 
-De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw productieomgeving kunt testen en gebruiken. Het is ook ideaal voor het uitvoeren van trainingen en het bepalen van de installatiefunctionaliteit.
+De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw productieomgeving kunt testen en gebruiken. Het is ook ideaal voor het uitvoeren van trainingen en het bepalen van instelfunctionaliteit.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw produc
 >
 >  Er zijn ook extra kosten voor het ophalen van de aangepaste vernieuwingssandbox die niet vereist zijn voor de voorvertoningssandbox.
 >
->  Voor meer informatie over de zandbak van de Voorproef, zie [De [!DNL Adobe Workfront] Voorvertoning van sandbox-omgeving](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Zie voor meer informatie over de voorvertoningssandbox [De [!DNL Adobe Workfront] Sandbox-voorvertoning](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 
 ## Toegangsvereisten
@@ -62,9 +62,9 @@ De sandbox Aangepast vernieuwen bevat de werkelijke productiegegevens. Deze word
 >[!NOTE]
 >
 >* U kunt niet plannen verfrist zich voor de huidige dag. Als vandaag bijvoorbeeld 1 juni is, is 2 juni de vroegste dag waarop u kunt plannen om te vernieuwen.
+>* Gepland verfrist zich komt om 12:00 AM op de bepaalde datum voor, die op timezone van de gebruiker wordt gebaseerd die het verzoek indiende.
 >* Uw aangepaste vernieuwingssandbox heeft altijd dezelfde productfuncties als uw productieomgeving. Wanneer u de aangepaste vernieuwingssandbox vernieuwt, blijft de branding echter alleen behouden voor de achtergrondkleur van het aanmeldingsscherm. Het aanmeldingsscherm en de navigatiebalklogo&#39;s zijn ingesteld op [!DNL Workfront] De standaardwaarden en brandingafbeeldingen die u vóór het vernieuwen hebt gewijzigd, worden niet weergegeven.
 >
-
 
 
 
@@ -80,7 +80,7 @@ Als [!DNL Workfront] beheerder, kunt u tot uw Douane toegang hebben vernieuwt Sa
 
 >[!NOTE]
 >
->Als uw account zich op Cluster 4 (EMEA-cluster) bevindt, hebt u vanuit de productieomgeving geen toegang tot uw aangepaste vernieuwingssandbox. Voor meer informatie over hoe u tot uw Douane kunt toegang hebben verfrist Sandbox wanneer u een rekening op Cluster 4 hebt, zie [Toegang tot de aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Toegang tot de aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
+>Als uw account zich op Cluster 4 (EMEA-cluster) bevindt, hebt u vanuit de productieomgeving geen toegang tot uw aangepaste vernieuwingssandbox. Voor meer informatie over hoe u tot uw Douane kunt toegang hebben verfrist Sandbox wanneer u een rekening op Cluster 4 hebt, zie [Toegang tot de Aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Toegang tot de Aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
 
 Ga als volgt te werk om uw aangepaste vernieuwingssandbox te openen:
 
@@ -88,11 +88,11 @@ Ga als volgt te werk om uw aangepaste vernieuwingssandbox te openen:
 
 1. Klik op **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
-1. In de **[!UICONTROL Test Environment]** sectie, klikt u op **[!UICONTROL Sandbox 1]** of **[!UICONTROL Sandbox 2]**.
+1. In de **[!UICONTROL Test Environment]** sectie, klikken **[!UICONTROL Sandbox 1]** of **[!UICONTROL Sandbox 2]**.
 
    Met het ondersteuningspakket geeft u op of u toegang hebt tot een of twee aangepaste vernieuwingssandboxen.
 
-1. Meld u aan met uw aanmeldingsgegevens voor Aangepaste vernieuwingssandbox.
+1. Meld u aan met uw aanmeldingsgegevens voor Aangepast vernieuwen in sandbox.
 
    Uw referenties voor Aangepaste sandbox vernieuwen zijn gelijk aan de gegevens voor uw productie, tenzij u uw productiereferenties hebt gewijzigd sinds u de aangepaste sandbox Vernieuwen voor het laatst hebt vernieuwd. De logins worden alleen gesynchroniseerd wanneer het vernieuwen plaatsvindt. Ze worden niet automatisch gesynchroniseerd.
 
@@ -103,7 +103,7 @@ Ga als volgt te werk om uw aangepaste vernieuwingssandbox te openen:
 Elke gebruiker heeft via een URL toegang tot de sandbox Aangepast vernieuwen.
 
 * [Ga tot de Aangepaste Refresh Sandbox voor rekeningen op Clusters 1, 2, 3, en 5 toegang hebben](#access-the-custom-refresh-sandbox-for-accounts-on-clusters-1-2-3-and-5)
-* [Toegang tot de aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)
+* [Toegang tot de Aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)
 
 ### Ga tot de Aangepaste Refresh Sandbox voor rekeningen op Clusters 1, 2, 3, en 5 toegang hebben {#access-the-custom-refresh-sandbox-for-accounts-on-clusters-1-2-3-and-5}
 
@@ -113,16 +113,16 @@ Via een URL toegang krijgen tot uw aangepaste sandbox Vernieuwen:
 
 1. Navigeer naar deze URL als u slechts één aangepaste vernieuwingssandbox hebt:
 
-   https://companyname.sb01.workfront.com (oude URL):https:/cr1.attasksandbox.com/.)
+   https://companyname.sb01.workfront.com (oude URL:https:/cr1.attasksandbox.com/.)
 
-   Of als u twee aangepaste vernieuwingssandboxen hebt naast de bovenstaande URL&#39;s, kunt u ook naar de volgende URL gaan om toegang te krijgen tot uw tweede aangepaste vernieuwingssandbox:
+   Of als u twee aangepaste vernieuwingssandboxen hebt, in aanvulling op de bovenstaande URL&#39;s, kunt u ook naar de volgende URL gaan om toegang te krijgen tot uw tweede aangepaste vernieuwingssandbox:
 
-   https://companyname.sb02.workfront.com (oude URL):https:/cr2.attasksandbox.com/)
+   https://companyname.sb02.workfront.com (oude URL:https:/cr2.attasksandbox.com/)
 
 1. Meld u in het aanmeldingsscherm aan met uw aanmeldingsgegevens voor Aangepast vernieuwen in sandbox.
 1. Uw referenties voor Aangepaste sandbox vernieuwen zijn gelijk aan de gegevens voor uw productie, tenzij u uw productiereferenties hebt gewijzigd sinds de aangepaste sandbox voor het vernieuwen van uw product voor het laatst is vernieuwd. De logins worden alleen gesynchroniseerd wanneer het vernieuwen plaatsvindt. Ze worden niet automatisch gesynchroniseerd.
 
-### Toegang tot de aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts) {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
+### Toegang tot de Aangepaste vernieuwingssandbox voor accounts in cluster 4 (EMEA-accounts) {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
 Als uw [!DNL Workfront] -account zich in Cluster 4 (EMEA-cluster) bevindt, hebt u alleen via een URL toegang tot uw aangepaste vernieuwingssandbox. Neem contact op met ons Customer Support-team om te weten te komen in welk cluster uw account staat.
 
@@ -132,21 +132,21 @@ Via een URL toegang krijgen tot uw aangepaste sandbox Vernieuwen:
 
 1. Navigeer naar deze URL als u slechts één aangepaste vernieuwingssandbox hebt:
 
-   https://companyname.sb01.workfront.com (oude URL):https://cr3.attasksandbox.com)
+   https://companyname.sb01.workfront.com (oude URL:https://cr3.attasksandbox.com)
 
    of
 
    Ga naar een van deze URL&#39;s als u twee aangepaste vernieuwingssandboxen hebt:
 
-   https://companyname.sb01.workfront.com (oude URL):https://cr3.attasksandbox.com)
+   https://companyname.sb01.workfront.com (oude URL:https://cr3.attasksandbox.com)
 
-   https://companyname.sb02.workfront.com (oude URL):https://cr4.attasksandbox.com)
+   https://companyname.sb02.workfront.com (oude URL:https://cr4.attasksandbox.com)
 
 1. Meld u in het aanmeldingsscherm aan met uw aanmeldingsgegevens voor Aangepast vernieuwen in sandbox.
 
    Uw referenties voor Aangepaste sandbox vernieuwen zijn gelijk aan de gegevens voor uw productie, tenzij u uw productiereferenties hebt gewijzigd sinds de aangepaste sandbox voor het vernieuwen van uw product voor het laatst is vernieuwd. De logins worden alleen gesynchroniseerd wanneer het vernieuwen plaatsvindt. Ze worden niet automatisch gesynchroniseerd.
 
-## Een vernieuwingsvenster voor uw aangepaste vernieuwingssandbox plannen
+## Plan vernieuwen van uw aangepaste vernieuwingssandbox
 
 >[!IMPORTANT]
 >
