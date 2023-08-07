@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **E-mail** > **Meldingen**.
+1. Klik in het linkerdeelvenster op **E-mail** > **Meldingen**> **E-mailsjablonen**.
 
-1. Klik op de knop **E-mailsjablonen** tab, en klik vervolgens op **Nieuwe e-mailsjabloon**.
+<!--hidden for tab redesign - August 2023: 
+  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+  -->
+
+1. Klikken **Nieuwe e-mailsjabloon**.
 
 1. In de **Nieuwe e-mailsjabloon** Geef de volgende informatie op in het vak dat wordt weergegeven:
 
@@ -62,23 +66,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">E-mailsjabloon</td> 
+      <td role="rowheader">Naam</td> 
       <td>Titel van de e-mailsjabloon (vereist).</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beschrijving</td> 
-      <td>Beschrijving van de sjabloon.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objecttype</td> 
       <td>Geef het objecttype op waarmee u de sjabloon wilt koppelen (verplicht; standaard wordt dit ingesteld op 'Issue').</td> 
-     </tr> 
+     </tr>
      <tr> 
+      <td role="rowheader">Beschrijving</td> 
+      <td>Beschrijving van de sjabloon.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Onderwerp </td> 
       <td>Onderwerp dat wordt getoond wanneer het e-mailbericht wordt verzonden (vereist).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
+      <td role="rowheader">Lichaam </td> 
       <td> <p>Inhoud die wordt weergegeven wanneer het e-mailbericht wordt verzonden.</p> <p>U kunt HTML-opmaak gebruiken voor de e-mailinhoud, zoals beschreven in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-opmaak toevoegen aan een e-mailsjabloon</a> in dit artikel.</p> </td> 
      </tr> 
     </tbody> 
@@ -99,7 +104,7 @@ Met HTML-opmaak kunt u uw e-mailsjablonen verrijken, zoals in de volgende sectie
 
 ### Koppeling naar Workfront-objecten {#link-to-workfront-objects}
 
-U kunt koppelingen naar Workfront-velden opnemen met de opdracht `$$` jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan een specifiek voorwerp.
+U kunt koppelingen naar Workfront-velden opnemen met de `$$` jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan een specifiek voorwerp.
 
 De hoofdtekst van de e-mail voor een melding waarin de taakontvanger wordt gewaarschuwd voor de taak die op het punt staat te worden gestart, kan bijvoorbeeld de volgende structuur volgen:
 
@@ -129,11 +134,11 @@ Voer een van de volgende handelingen uit om de waarde &quot;jokerteken&quot; voo
 
 * Gebruik de waarde &quot;valueField&quot; die u vindt in een weergave in de tekstmodus van een rapport. Zie voor meer informatie over waarden voor de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   De waarde &#39;kop&#39; kan de naam van het object zijn, zoals u wilt dat het in de hoofdtekst van de e-mail wordt weergegeven.
+  De waarde &#39;kop&#39; kan de naam van het object zijn, zoals u wilt dat het in de hoofdtekst van de e-mail wordt weergegeven.
 
 ### Koppelen naar aangepaste velden met HTML {#link-to-custom-fields-with-html}
 
-U kunt koppelingen naar gebruikers en aangepaste velden opnemen met de opdracht **$$** jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan het voorwerp. Ze moeten aan beide zijden van de verwijzing naar databasekenmerken aanwezig zijn.
+U kunt koppelingen naar gebruikers en aangepaste velden opnemen met de **$$** jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan het voorwerp. Ze moeten aan beide zijden van de verwijzing naar databasekenmerken aanwezig zijn.
 
 Als u bijvoorbeeld de volgende tekst toevoegt als HTML, wordt de voornaam van de toegewezen gebruiker toegevoegd aan het herinneringsbericht dat aan een taak is gekoppeld:
 

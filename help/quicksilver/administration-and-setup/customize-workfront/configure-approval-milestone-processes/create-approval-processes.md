@@ -3,12 +3,12 @@ title: Een goedkeuringsproces voor werkitems maken
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen herzien alvorens het voorwerp in het systeem vordert.
+description: U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen vóór de objecten in het systeem evalueren.
 author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 0%
@@ -17,7 +17,9 @@ ht-degree: 0%
 
 # Een goedkeuringsproces voor werkitems maken
 
-U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen herzien alvorens het voorwerp in het systeem vordert.
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
+
+U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen vóór de objecten in het systeem evalueren.
 
 Dit artikel beschrijft hoe te om een systeem-niveau of groep-vlakke globale goedkeuringsprocessen voor het werkpunten (project, taak, kwestie, malplaatje, of malplaatjetaak) tot stand te brengen.
 
@@ -55,7 +57,7 @@ U moet het volgende hebben:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Als u een beheerder van Workfront bent of u administratieve toegang tot goedkeuringsprocessen hebt, kunt u een systeem-vlakke goedkeuringsproces, of een groep-vlakke goedkeuringsproces voor een bepaalde groep tot stand brengen.</p> 
-   <p>Als u een groepsbeheerder bent, kunt u goedkeuringsprocessen op groepsniveau voor groepen tot stand brengen die u beheert.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <p>Als u een groepsbeheerder bent, kunt u goedkeuringsprocessen op groepsniveau voor groepen tot stand brengen die u beheert.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,6 +73,10 @@ U moet het volgende hebben:
    of
 
    Als u een goedkeuringsproces op groepsniveau maakt, klikt u op **Groepen** ![](assets/groups-icon.png)klikt u op de naam van de groep en vervolgens klikt u op **Goedkeuringen**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. Klik op de knop **Goedkeuring van project**, **Taakgoedkeuringen**, of **Goedkeuring afgeven** , afhankelijk van het type goedkeuringsproces dat u wilt maken.
 
@@ -101,7 +107,7 @@ U moet het volgende hebben:
        <li>Als u een groepsbeheerder zonder administratieve toegang tot goedkeuringsprocessen bent, kunt u het goedkeuringsproces aan om het even welke groep toewijzen u beheert wanneer u zijn naam typt. De <b>Alle groepen</b> is niet beschikbaar.</li> 
        </ul> 
        <p>Deze optie is niet beschikbaar voor goedkeuringsprocedures voor eenmalig gebruik.</p> 
-       <p><b>WAARSCHUWING</b>: Wanneer u veranderingen in het groep-specifieke goedkeuringsproces aanbrengt, zouden de bestaande goedkeuringsprocessen die reeds met het werkpunten zijn geassocieerd kunnen veranderen. Voor informatie over deze wijzigingen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>.</p> 
+       <p><b>WAARSCHUWING</b>: Wanneer u wijzigingen aanbrengt in het groepsspecifieke goedkeuringsproces, kunnen de bestaande goedkeuringsprocessen die al aan werkitems zijn gekoppeld, veranderen. Voor informatie over deze wijzigingen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>.</p> 
        <p>Ga voor meer informatie over het aanbieden en beheren van de goedkeuringsprocedures van uw groep vanaf de pagina van uw groep naar <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Goedkeuringsprocessen op groepsniveau</a>. </p> 
        <p>Voor informatie over administratieve toegang tot goedkeuringsprocessen raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
      </tr> 
@@ -146,7 +152,7 @@ U moet het volgende hebben:
        <li> <p>Wanneer u een goedkeuring toewijst aan de projectsponsor en niemand als sponsor van een project is aangewezen, wordt de goedkeuring opnieuw toegewezen aan de eigenaar van het project. Als niemand als eigenaar van het project wordt aangewezen, wordt de goedkeuring toegewezen aan de beheerder van Workfront. </p> </li> 
       </ul> 
        <ul> 
-       <li> <p>Wanneer u een goedkeuring aan een rol toewijst en <b>Fiatteur niet vereist om op het projectteam (voor goedkeuringsprocessen te zijn die een rol omvatten)</b> is gehandicapt maar er zijn geen rollen in het projectteam die de rol op de goedkeuring aanpassen, wordt de goedkeuring opnieuw toegewezen aan de Eigenaar van het Project. Voor informatie over goedkeuringsinstellingen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Algemene goedkeuringsinstellingen configureren</a>.</p> </li> 
+       <li> <p>Wanneer u een goedkeuring aan een rol toewijst en <b>Fiatteur niet vereist om op het projectteam (voor goedkeuringsprocessen te zijn die een rol omvatten)</b> is gehandicapt maar er zijn geen rollen in het projectteam die de rol op de goedkeuring aanpassen, wordt de goedkeuring opnieuw toegewezen aan de Eigenaar van het Project. Zie voor informatie over goedkeuringsinstellingen <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Algemene goedkeuringsinstellingen configureren</a>.</p> </li> 
        </ul> 
        <ul> 
        <li> <p>Wanneer u een goedkeuring toewijst aan de Eigenaar van het Project en niemand als eigenaar van een project wordt aangewezen, wordt de goedkeuring opnieuw toegewezen aan de belangrijkste beheerder van Workfront zoals die in de sectie van de Info van de Klant in het gebied van de Opstelling wordt vermeld. Zie voor meer informatie <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Basisinformatie voor uw systeem configureren</a>.  </p> </li> 
@@ -162,12 +168,12 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader">Kiezen wat er gebeurt wanneer de goedkeuring wordt geweigerd</p> </td> 
-      <td> <p>Selecteer de actie die u wilt uitvoeren als het het werkpunt in om het even welk stadium van de weg wordt verworpen:</p> 
+      <td> <p>Selecteer de actie die u wilt uitvoeren als het werkitem in een van de fasen van het pad wordt afgewezen:</p> 
        <ul> 
-       <li><b>Een probleem maken</b>: (Beschikbaar slechts voor project en taakgoedkeuringsprocessen) een kwestie wordt gecreeerd in het project of de taak waar het goedkeuringsproces loopt. De standaard toegewezen bron op de taak, of de eigenaar van het project wordt toegewezen aan de kwestie. Standaard wordt de naam van het gemaakte probleem <b>Goedkeuring geweigerd (&lt;project or="" task="" name=""&gt;)</b>. Dit is een afwijzingsprobleem dat onder de taak of het project is aangegaan, afhankelijk van het goedkeuringsproces waarbij de afkeuring heeft plaatsgevonden.</li> 
+       <li><b>Een probleem maken</b>: (Beschikbaar slechts voor project en taakgoedkeuringsprocessen) Een kwestie wordt gecreeerd in het project of de taak waar het goedkeuringsproces loopt. De standaard toegewezen bron op de taak, of de eigenaar van het project wordt toegewezen aan de kwestie. Standaard wordt de naam van het gemaakte probleem <b>Goedkeuring geweigerd (&lt;project or="" task="" name=""&gt;)</b>. Dit is een afwijzingsprobleem dat onder de taak of het project is aangegaan, afhankelijk van het goedkeuringsproces waarbij de afkeuring heeft plaatsgevonden.</li> 
        <li> <p><b>Status instellen op</b>: Kies een van de volgende opties:</p> 
        <ul> 
-       <li><b>Vorige status</b>: Het verworpen project, de taak, of de kwestie keert terug naar de status voorafgaand aan de status die het goedkeuringsproces activeert.</li> 
+       <li><b>Vorige status</b>: Het afgewezen project, de afgewezen taak of de geweigerde uitgave keert terug naar de status voorafgaand aan de status die het goedkeuringsproces activeert.</li> 
        <li><p><b>Een andere status in de lijst</b>: Het geweigerde object wordt verplaatst naar de status die u kiest, bijvoorbeeld In wachtstand. U kunt een van de standaardstatussen kiezen of een aangepaste status die u aan uw Workfront-systeem hebt toegevoegd.</p>
        <p>Als u een status selecteert die aan een goedkeuringsproces is gekoppeld als de afwijzingsstatus, wordt het afgewezen object naar de geselecteerde status verplaatst en wordt deze gemarkeerd als "In afwachting van goedkeuring".</p> 
        <p> Als u bijvoorbeeld In de wachtstand selecteert voor de afwijzingsstatus en de status In de wachtstand is gekoppeld aan een goedkeuringsproces, wordt het geweigerde object in de status "In de wachtstand gezet voor goedkeuring" geplaatst, waarvoor goedkeuring is vereist.</p>
