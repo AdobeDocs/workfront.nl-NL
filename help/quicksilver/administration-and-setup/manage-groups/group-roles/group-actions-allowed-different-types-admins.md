@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -229,3 +229,11 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
 &#42; In het toegangsniveau van de groepsbeheerder, **Bewerken** moet worden geselecteerd voor de **Gebruikers** instellen, met **Gebruikersbeheerder (Groepgebruikers)** geselecteerd onder **Uw instellingen nauwkeurig afstellen** ![](assets/gear-icon-in-access-levels.png). Zie de sectie voor meer informatie [De toegang van gebruikers tot het bewerken van gebruikers configureren met behulp van een aangepast toegangsniveau](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in het artikel [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; In het de toegangsniveau van de groepsbeheerder, moet de toegang tot deze actie worden toegelaten. Zie voor meer informatie [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+De volgende activiteiten zijn slechts beschikbaar aan groep en subgroepbeheerders wanneer hun organisaties op het Primaire of Uiteindelijke plan zijn. Deze specifieke activiteiten kunnen ook &quot;geavanceerde bedrijfscontroles&quot; worden genoemd. Zie de [Prijs- en verpakkingspagina van Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over plannen. (Voor organisaties die de erfenisplannen gebruiken, toont de bovenstaande lijst de activiteiten voor groep en subgroepbeheerders.)
+
+* Voorkeuren voor projecten, taken en uitgaven configureren
+* Voorkeuren voor tijdpagina&#39;s en uren configureren
+* E-mailberichten voor gebeurtenismeldingen configureren
+* Goedkeuringsprocessen maken en beheren
+* Subgroepen maken en beheren
