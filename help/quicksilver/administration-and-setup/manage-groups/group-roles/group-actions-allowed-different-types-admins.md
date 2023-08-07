@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
+source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,7 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
    <th>Subgroepbeheerder (de acties zijn beperkt tot de groepen die de beheerder beheert)</th> 
   </tr> 
  </thead> 
- <tbody> 
-  <tr> 
-   <td>Leden inschrijven voor de nieuwe Adobe Workfront-ervaring</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
+ <tbody>
   <tr> 
    <td>Het wachtwoord van een gebruiker opnieuw instellen</td> 
    <td>✓ </td> 
