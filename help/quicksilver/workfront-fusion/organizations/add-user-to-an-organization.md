@@ -7,9 +7,9 @@ description: U kunt gebruikers toevoegen aan organisaties in Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Voor instructies over het toevoegen van een gebruiker in de[!DNL  Adobe Admin Console], zie de sectie &quot;Gebruikersdetails bewerken&quot; in het artikel [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) of neem contact op met uw [!UICONTROL Adobe Admin Console] Beheerder.
 >
->Voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console, raadpleegt u [Op Platform gebaseerde beheerverschillen (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Op Platform gebaseerde beheerverschillen (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
 ## Toegangsvereisten
 
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -101,8 +101,8 @@ Een gebruiker toevoegen aan de organisatie:
 >[!NOTE]
 >
 >   
-><p>Als u de [!UICONTROL Invite a new user] -knop, uw organisatie is aangemeld bij de [!DNL Adobe Business Platform.] </p>
+><p>Als u het geneesmiddel niet ziet [!UICONTROL Invite a new user] -knop, uw organisatie is aangemeld bij de [!DNL Adobe Business Platform.] </p>
 >
 >   <p>Voor instructies over het toevoegen van een gebruiker aan een organisatie die aan is geregistreerd [!DNL Adobe Business Platform], zie <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Een gebruiker toevoegen aan een organisatie die aan de [!DNL Adobe Business Platform]</a></p>
 
-De gebruiker ontvangt een e-mail met de uitnodiging waar hij of zij de uitnodiging kan accepteren door op een [!UICONTROL Accept the Role] knop.
+De gebruiker ontvangt een e-mailuitnodiging waarin hij of zij de uitnodiging kan accepteren.
