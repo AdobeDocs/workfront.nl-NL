@@ -6,14 +6,16 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3486'
 ht-degree: 0%
 
 ---
 
 # Werk bijwerken
+
+<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -45,9 +47,15 @@ ht-degree: 0%
 
 ## Overwegingen bij het bijwerken van werkzaamheden
 
-* In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Voor meer informatie over welke voorwerpen de sectie van Updates tonen, zie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+* In de sectie Updates kunt u opmerkingen toevoegen aan de meeste objecten in Adobe Workfront. Zie voor meer informatie over welke objecten de sectie Updates weergeven [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* U kunt een update toevoegen aan een Workfront-object (project, taak of uitgave) om te communiceren over de voortgang van het object, terwijl u commentaar geeft op het object. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven.
+* U kunt opmerkingen toevoegen aan Workfront-objecten vanuit andere toepassingen die zijn geïntegreerd met Workfront of vanuit de mobiele app Workfront.
+
+  Niet alle toepassingen die zijn geïntegreerd met Workfront, kunnen opmerkingen toevoegen aan Workfront-objecten.
+
+  Niet alle functies die beschikbaar zijn in de sectie Updates van een object in Workfront zijn beschikbaar in andere toepassingen wanneer u Workfront-objecten opent vanuit de toepassing. Bijvoorbeeld, kunnen de Rich Text mogelijkheden of het maken van een commentaar privé aan het Bedrijf van iemand niet beschikbaar zijn wanneer het toevoegen van commentaren aan een voorwerp van Workfront van een derdetoepassing.
+
+* U kunt tijdens het toevoegen van opmerkingen over het object communiceren over de voortgang van een Workfront-object (project, taak of uitgave). Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen een melding over uw update ontvangen. Iedereen met View-toegang tot het object kan de update bekijken.
 
 * U kunt gebruikers een tag toewijzen om hun aandacht te vestigen op de update. Gelabelde gebruikers ontvangen een melding in de app en een e-mail over uw update.
 
@@ -58,12 +66,11 @@ ht-degree: 0%
 
 * U kunt een opmerking toevoegen aan een object dat u kunt weergeven of u kunt zich aanmelden als Workfront of groepsbeheerder en namens een andere gebruiker een opmerking toevoegen. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-* U kunt een update toevoegen aan projecten, taken en problemen uit de volgende Workfront-domeinen:
+* U kunt een update toevoegen aan projecten, taken en problemen in de volgende Workfront-regio&#39;s:
 
    * Vanuit een Workfront-object, in de sectie Updates
    * Vanuit het thuisgebied (voor taken en problemen)
-   * Vanuit het deelvenster Samenvatting in een lijst met objecten (voor taken en problemen)
-   * Van het timesheet (voor taken en kwesties)
+   * Vanuit het deelvenster Samenvatting in een lijst met objecten of vanuit een tijdspad (voor taken en problemen)
 
 De informatie op deze pagina beschrijft hoe u commentaar kunt geven op Workfront-objecten en hoe u projecten, taken en problemen bijwerkt.
 
@@ -119,7 +126,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>een verzoek of hoger indienen voor kwesties en documenten; Reviseren of hoger voor alle andere objecten</p> </td> 
+   <td> <p>Vragen of hoger voor problemen en documenten; controleren of hoger voor alle andere objecten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
@@ -148,12 +155,12 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
 >
 >De volgende functionaliteit is beschikbaar voor alle objecten, behalve voor doelen en kaarten. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 >
->U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+>U kunt updates aan kaarten in het gebied van Boards toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Ga naar het het werkpunt waarvoor u een update (zoals een project, een taak, of een kwestie) wilt verstrekken.
 1. Klik op de knop **Updates** sectie.
-1. Klikken **Een nieuwe update starten,** typ de update.
-1. (Optioneel) Gebruik RTF-tekst of voeg emoties, koppelingen of afbeeldingen toe aan de update om de inhoud te verbeteren. Zie voor meer informatie de [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel
+1. Klikken **Een nieuwe update starten,** typ vervolgens de update.
+1. (Optioneel) Gebruik RTF-tekst of voeg emoties, koppelingen of afbeeldingen toe aan de update om de inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
 1. (Optioneel) Werk een van de volgende gegevens bij over het werkitem:
 
    <table style="table-layout:auto"> 
@@ -166,7 +173,7 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Vastlegdatum</strong></td> 
-      <td>Selecteer in de datumkiezer de datum die u hebt vastgelegd om het werkitem te voltooien. Zie voor informatie over Datum vastleggen <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Overzicht van datum vastleggen</a>.</td> 
+      <td>Selecteer in de datumkiezer de datum die u hebt vastgelegd om het werkitem te voltooien. Voor informatie over de Datum van het Vastleggen, zie <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Overzicht van datum vastleggen</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Voorwaarde</strong></td> 
@@ -222,17 +229,7 @@ De **Opmerkingen** is standaard geselecteerd.
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
-1. (Optioneel) Als u tekstopmaak wilt toevoegen aan de update, gebruikt u een van de volgende opties in het menu **RTF** werkbalk om de tekst te verbeteren:
-
-   * Vet
-   * Cursief
-   * Onderstrepen
-   * Koppeling
-   * Lijst met opsommingstekens
-   * Genummerde lijst
-   * Bijlage toevoegen <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
-
-   Zie voor meer informatie de [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel. <!--remove this list, above, when we get to parity for Rich Text-->
+1. (Optioneel) Gebruik RTF-tekst of voeg <!--hidden for August 10: emojis,--> koppelingen, of afbeeldingen naar uw update, maken om uw inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
 
    >[!TIP]
    >
@@ -243,11 +240,12 @@ De **Opmerkingen** is standaard geselecteerd.
    >De indicator &quot;Nieuw&quot;toont slechts wanneer zowel de gebruiker die een nieuwe update inging als de gebruiker die momenteel een update ingaat de nieuwe opmerkingervaring gebruikt.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. Klik op de knop **Bijlage toevoegen** pictogram ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> om een afbeelding aan uw opmerking toe te voegen. De afbeelding moet op uw computer worden opgeslagen voordat u deze kunt koppelen. <!--**************** this might be renamed to "Add image")-->
 
 1. Klikken **Verzenden** om de update aan het Workfront-object toe te voegen.
-1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op de knop **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
+1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
 1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers.
-U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
+U kunt uw opmerking binnen 15 jaar na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
@@ -256,7 +254,7 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
    >* Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
    >* De datumstempel naast de opmerking is de datum van de oorspronkelijke opmerking en niet de datum van de laatste bewerking.
 
-1. (Optioneel) Klik op **Reageren** om op een bestaande opmerking te reageren, volgt u de stappen 4 tot en met 7 hierboven. <!--(**************insure this stays accurate***********)-->. Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optioneel) Klik op **Antwoord** om op een bestaande opmerking te reageren, volgt u de stappen 4 tot en met 8 hierboven. <!--(**************insure this stays accurate***********)--> Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Updates worden weergegeven, klikt u op **Weergave** in het blauw **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
@@ -283,7 +281,7 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
 
 ## RTF-bestanden gebruiken in een Workfront-update{#use-rich-text-in-a-workfront-update}
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
@@ -291,18 +289,19 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
 
 U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aan toe te voegen, zoals emojis, koppelingen of afbeeldingen.
 
-1. Ga naar het gedeelte Updates en typ een opmerking.
-1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u de kenmerken in het dialoogvenster **RTF** terwijl u typt.
+1. Ga naar de **Updates** van een Workfront-object en een opmerking typen.
+1. (Optioneel) Als u RTF-opmaak wilt toevoegen aan de update, gebruikt u de kenmerken op het tabblad **RTF** terwijl u typt. <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
 
    | **Kenmerk** | **Werkbalkknop** | **Mac-sneltoetsen** | **Windows-sneltoetsen** |
    |---|---|---|---|
-   | Vet | ![mceclip10.png](assets/mceclip10.png) | + | Ctrl+B |
+   | Vet | ![mceclip10.png](assets/mceclip10.png) | Alt+B | Ctrl+B |
    | Cursief | ![mceclip9.png](assets/mceclip9.png) | Alt+i | Ctrl+I |
    | Onderstrepen | ![mceclip8.png](assets/mceclip8.png) | Alt+u | Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: K</br> <br>In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: ^V</br> | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: Ctrl+K</br> <br>In de bètaervaring voor opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: Ctrl+V</br> |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen:+K</br> <br>Als u in de bètaervaring met opmerkingen een koppeling over de geselecteerde tekst wilt plakken: +V</br> | <br>Het vak Koppelingen maken of Koppelingen toevoegen openen: Ctrl+K</br> <br>In de bètaervaring met opmerkingen kunt u een koppeling over de geselecteerde tekst plakken: Ctrl+V</br> |
    | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
    | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
    | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | Ctrl+Shift+9 |
+   | Emoji | ![](assets/emoji-icon.png) | +. | ⊞+. |
 
    Als u de opmaak van tekst wilt stoppen, deselecteert u het kenmerk in het dialoogvenster **RTF** werkbalk.
 
@@ -324,7 +323,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >[!NOTE]
    >
    >* Workfront vervangt leestekens zoals :) niet door emojis.
-   >* Emojis is niet beschikbaar voor updates die in het gedeelte Timesheets zijn gemaakt of voor notitie- en laatste voorwaardenobjecten die in een rapport worden weergegeven.
+   >* Emojis is niet beschikbaar voor de voorwerpen van de Nota en van de Laatste Voorwaarde die in een rapport worden bekeken.
    >* De functie emoji in Workfront gebruikt Unicode-tekens en wordt als zodanig alleen weergegeven in browsers en besturingssystemen die Unicode-codepunten ondersteunen. Gebruikers van een ander platform, browser of besturingssysteem hebben mogelijk geen toegang tot hetzelfde domein.
    >* Een niet-ondersteunde emoji wordt weergegeven door een zwarte of witte doos.
    >* Windows 7 biedt alleen ondersteuning voor zwart-witafbeeldingen.
@@ -340,7 +339,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    1. Onder **Weer te geven tekst**, typt of plakt u de koppelingstekst.
    1. Klikken **Opslaan**.
 
-1. (Optioneel) Voer een van de volgende handelingen uit als u een afbeelding aan de update wilt koppelen, afhankelijk van de omgeving die u gebruikt:
+1. (Optioneel) Voer een van de volgende handelingen uit als u een afbeelding wilt koppelen aan de update:
 
    * Klik op de knop **Afbeelding** pictogram ![](assets/addimageicon-35x32.png) en blader aan het beeld op uw computer of sleep het beeld in het updategebied, wanneer het gebruiken van de huidige het bijwerken ervaring
 
@@ -351,7 +350,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >[!NOTE]
    >
    >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen in het gedeelte Voorkeuren voor feeds bijwerken van het gebied Workfront Interface voordat u de pictogrammen Afbeelding of Bijlage toevoegen kunt zien. Zie voor meer informatie [Voorkeuren voor gebruikersupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
-   >* De maximale grootte van het afbeeldingsbestand is 7 MB. Ondersteunde bestandstypen voor afbeeldingen zijn .jpg, .gif en .png.
+   >* De maximale bestandsgrootte voor afbeeldingen is 7 MB. Ondersteunde bestandstypen zijn .jpg, .gif en .png.
    >* Afbeeldingen zijn toegankelijk vanuit de sectie Updates van een object en zijn ook beschikbaar in het gebied Documenten.
    >* U kunt een update verzenden met een afbeelding en geen tekst.
    >* Wanneer u een opmerking verwijdert die een afbeelding bevat, zijn de volgende scenario&#39;s afhankelijk van de ervaring die u kiest:
@@ -365,14 +364,14 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 ## Updategegevens kopiëren
 
-Er zijn verschillende manieren waarop u een update kunt kopiëren. Nadat u een koppeling hebt gekopieerd, kunt u de koppeling met anderen delen om deze naar de update te leiden.
+U kunt een update op verschillende manieren kopiëren. Nadat u een koppeling hebt gekopieerd, kunt u de koppeling met anderen delen om deze naar de update te leiden.
 
 Het kopiëren van een update is afhankelijk van de manier waarop u opmerkingen maakt.
 
 ### Een update kopiëren in de huidige opmerkingervaring
 
 * [De update kopiëren](#copy-the-update)
-* [De verbinding van de draad kopiëren](#copy-the-thread-link)
+* [De koppeling voor de verbinding met de verbinding kopiëren](#copy-the-thread-link)
 * [De koppeling voor bijwerken kopiëren](#copy-the-update-link)
 
 #### De update kopiëren {#copy-the-update}
@@ -384,7 +383,7 @@ Met deze optie wordt de tekst van een specifieke update naar het klembord gekopi
 
    ![Platte tekst kopiëren](assets/update-stream-copy-body-text-350x152.png)
 
-#### De verbinding van de draad kopiëren {#copy-the-thread-link}
+#### De koppeling voor de verbinding met de verbinding kopiëren {#copy-the-thread-link}
 
 Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd, zodat u de verbinding met andere gebruikers kunt delen.
 
@@ -443,7 +442,7 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    >[!NOTE]
    >
-   >Als u een update met een bijgevoegde afbeelding verwijdert, worden zowel de opmerking als de afbeelding verwijderd. Zie voor meer informatie de [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
+   >Als u een update met een bijgevoegde afbeelding verwijdert, worden zowel de opmerking als de afbeelding verwijderd. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
 
    Wanneer aan de opmerking die u verwijdert, reacties zijn gekoppeld, wordt aangegeven dat de opmerking is verwijderd met de naam van de gebruiker die de opmerking heeft verwijderd.
 
@@ -453,24 +452,28 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## Een update toevoegen aan een tijdspagina
+<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
 
-1. Ga naar een tijdpagina waarop u een update wilt uitvoeren.
-1. Klik op de tijdpagina om deze te openen.
-1. Klik onder aan de tijdpagina op **Een opmerking opnemen**.
-1. Typ een update in het vak dat onder aan de tijdpagina wordt weergegeven.
+## Add an update on a Timesheet
+
+1. Go to a Timesheet on which you want to make an update.
+1. Click the Timesheet to open it.
+1. At the bottom of the Timesheet, click **Include a comment**.
+1. In the box that displays at the bottom of the Timesheet, type an update.
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Voorwaardelijk) Als u uw update wilt opslaan zonder het tijdblad ter goedkeuring te verzenden, klikt u op **Opslaan voor later**.
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
-   of
+   Or
 
-   Als u de update wilt opslaan en de tijdpagina ter goedkeuring wilt verzenden, klikt u op **Ter goedkeuring verzenden**.
+   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
 
-   of
+   Or
 
-   Als de tijdpagina niet is ingesteld met een fiatteur, klikt u op **Tijdblad opslaan en sluiten** om de update op te slaan.
+   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
+
+-->
 
 ## Systeemupdates in- of uitschakelen
 
@@ -480,12 +483,12 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 >
 >Het is niet mogelijk systeemupdates uit te schakelen wanneer u de nieuwe opmerkingervaring gebruikt.
 >De informatie in deze sectie verwijst slechts naar functionaliteit beschikbaar in de huidige sectie van Updates.
->Voor meer informatie over systeemupdates in de bètaversie raadpleegt u [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+>Zie voor meer informatie over systeemupdates in de bètaversie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 In de sectie Updates van een Workfront-object worden twee soorten gegevens weergegeven:
 
-* **Gebruikersupdates:** De updates van de gebruiker zijn commentaren die u en andere gebruikers in uw systeem ingaan.
+* **Gebruikers: updates:** De updates van de gebruiker zijn commentaren die u en andere gebruikers in uw systeem ingaan.
 
   ![](assets/user-update-cl-350x277.png)
 
@@ -493,9 +496,13 @@ In de sectie Updates van een Workfront-object worden twee soorten gegevens weerg
 
   ![](assets/system-updates-cl-350x277.png)
 
-Afhankelijk van uw Workfront-licentie zijn systeemupdates mogelijk standaard ingeschakeld. Workfront-beheerders kunnen bepalen wat wordt bijgehouden in systeemupdates, zoals wordt uitgelegd in [Door het systeem bijgehouden updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). U kunt ook systeemupdates of -activiteiten uitfilteren, zodat alleen gebruikersupdates voor alle objecten worden weergegeven.
+  Afhankelijk van uw Workfront-licentie zijn systeemupdates mogelijk standaard ingeschakeld. Workfront-beheerders kunnen bepalen wat wordt bijgehouden in systeemupdates, zoals wordt uitgelegd in [Door het systeem bijgehouden updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). U kunt ook systeemupdates of -activiteiten uitfilteren, zodat alleen gebruikersupdates voor alle objecten worden weergegeven.
 
-Voor meer informatie over het verschil tussen gebruiker en systeemupdates, zie [Door het systeem bijgehouden updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  De volgende objecten hebben geen door het systeem gegenereerde updates:
+
+   * Team
+   * Sjabloon
+   * Sjabloontaak
 
 Zo schakelt u systeemupdates in of uit:
 
@@ -505,4 +512,11 @@ Zo schakelt u systeemupdates in of uit:
    ![](assets/show-system-updates-qs-350x55.png)
 
    Deze optie is overal in Workfront blijvend en blijft in de positie staan die u selecteert, zelfs als u zich afmeldt bij Workfront.
+
+   >[!TIP]
+   >
+   >   Objecten die geen systeemupdates opnemen, beschikken niet over de optie Systeemupdates tonen in het gebied Updates.
+
+   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+
 

@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -51,83 +51,99 @@ De informatie in de sectie van Updates is verschillend georganiseerd, afhankelij
 
 ### Overzicht van de huidige sectie Updates
 
-De sectie Updates van een object bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn uitgevoerd.
+* De sectie Updates van een object bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn uitgevoerd.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-De huidige sectie van Updates toont de volgende informatie:
+* De sectie Updates wordt weergegeven voor de volgende objecten:
 
-* Opmerkingen van gebruikers en antwoorden op deze opmerkingen.
-* Systeemupdates die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Documenten</li> 
+      <li>Doelen</li> 
+      <li>Problemen</li> 
+      <li>Herhalingen</li> 
+      <li>Projecten</li> 
+      <li>Programma's</li> 
+      <li>Portfolio</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Artikelen*</li> 
+      <li>Taken</li> 
+      <li>Sjablonen</li> 
+      <li>Sjabloontaken</li> 
+      <li>Timesheets</li> 
+      <li>Gebruikers</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-De sectie Updates wordt weergegeven voor de volgende objecten:
+  *Artikelen zijn taken. Alle informatie over taken is ook beschikbaar voor artikelen.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Documenten</li> 
-     <li>Doelen</li> 
-     <li>Problemen</li> 
-     <li>Herhalingen</li> 
-     <li>Projecten</li> 
-     <li>Programma's</li> 
-     <li>Portfolio</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Artikelen*</li> 
-     <li>Taken</li> 
-     <li>Sjablonen</li> 
-     <li>Sjabloontaken</li> 
-     <li>Timesheets</li> 
-     <li>Gebruikers</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Artikelen zijn taken. Alle informatie over taken is ook beschikbaar voor artikelen.
+* De huidige sectie van Updates toont de volgende informatie:
+
+   * Updates van gebruikers: opmerkingen van gebruikers en antwoorden op deze opmerkingen.
+   * Systeemupdates: informatieberichten die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* De volgende objecten registreren geen systeemupdates:
+
+   * Team
+   * Sjabloon
+   * Sjabloontaak
 
 ### Overzicht van de sectie Updates in de ervaringen met bètaopmerkingen
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Opmerkingen**: Hier worden opmerkingen van gebruikers weergegeven en antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
-* **Systeemactiviteit**: Geeft systeemupdates weer. Dit zijn informatieve berichten die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
 
-Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe ervaring met opmerkingen over de volgende objecten:
+   * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Doelen</p>
-     <li>Kaarten in het gebied van de kamers*</li>
-      Dit is de enige ervaring voor doelen en kaarten.
-     </li> 
-     <li>Projecten</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Problemen</li> 
-     <li>Taken</li>
-     <li>Documenten</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe ervaring met opmerkingen over de volgende objecten:
 
-*U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Doelen</p>
+        <li>Kaarten in het gebied van de kamers*</li>
+          Dit is de enige ervaring voor doelen en kaarten.
+        </li> 
+        <li>Projecten</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Problemen</li> 
+        <li>Taken</li>
+        <li>Documenten</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
@@ -209,7 +225,7 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
 >
 >De reacties die aan systeemupdates worden toegevoegd rollen niet omhoog aan het oudervoorwerp. Alleen directe antwoorden op een onderliggend object en antwoorden die aan bestaande updates zijn toegevoegd, worden doorgegeven aan bovenliggende objecten.
 >
->Voor informatie over de objecthiërarchie in Adobe Workfront raadpleegt u [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+>Zie voor informatie over de objecthiërarchie in Adobe Workfront [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
 > Het is niet mogelijk te reageren op systeemupdates in de nieuwe bètaervaring voor opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
