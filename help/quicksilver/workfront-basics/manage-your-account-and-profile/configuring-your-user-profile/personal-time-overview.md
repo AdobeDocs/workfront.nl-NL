@@ -7,9 +7,9 @@ description: Adobe Workfront is niet ontworpen voor het repliceren of vervangen 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Het is echter belangrijk om aan te geven wanneer een goedgekeurde time-out optreedt, omdat dit van invloed is op uw schema en op de [!UICONTROL Planned Completion Dates] van de taken waaraan u bent toegewezen.
 
-Als u bijvoorbeeld bent toegewezen aan een taak die twee weken in beslag moet nemen, en u van plan bent om tijdens die tijd drie dagen uit te voeren, [!DNL Workfront] voegt drie dagen toe aan de tijdlijn van de taak om voor de time-off rekening te houden.
+Als u bijvoorbeeld bent toegewezen aan een taak die twee weken in beslag moet nemen, en u drie dagen van plan bent om tijdens die tijd uit te voeren, [!DNL Workfront] voegt drie dagen toe aan de tijdlijn van de taak om voor de time-off rekening te houden.
 
 De hulpmiddelen van het Beheer van het middel gebruiken ook uw persoonlijke tijd weg om erop te wijzen wanneer u beschikbaar om voor het werk moet worden gepland.
 
@@ -65,8 +65,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op uw gebruikersnaam naast de profielafbeelding. Of (indien beschikbaar), klik op de profielafbeelding in het bovenste navigatiegebied en klik vervolgens op **[!UICONTROL Workfront Profile]**.
 1. Klik in het linkerdeelvenster op **[!UICONTROL Time Off]**.
 1. Selecteer de gewenste datum voor uw persoonlijke tijd weg.
-1. Selecteren **[!UICONTROL All day]**, als u een hele dag vrij neemt.\
+
+   ![Persoonlijke tijd voor de kalender](assets/personal-time-off-calendar.png)
+
+1. Selecteren **[!UICONTROL All day]**, als u een hele dag vrij neemt.
+
    Laat deze optie uitgeschakeld als u minder dan een volledige dag korting gebruikt en geef de begin- en eindtijd van de tijd uit aan.
 
-1. Klik op **[!UICONTROL Save]**.\
+1. Klik op **[!UICONTROL Save]**.
+
    De tijd uit is nu zichtbaar over de [!DNL Workfront] systeem in de hulpmiddelen van het middelbeheer zoals de Planner van het Middel en de Balancer van de Werklast. Wanneer u tijdens deze periode werk hebt toegewezen, wordt knopinfo weergegeven waarin de gebruiker wordt gewaarschuwd dat de geplande tijd uit is.
