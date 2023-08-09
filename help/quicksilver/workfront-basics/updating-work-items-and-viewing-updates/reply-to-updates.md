@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>een verzoek of hoger indienen voor kwesties en documenten; Reviseren of hoger voor alle andere objecten</p> </td> 
+   <td> <p>Vragen of hoger voor problemen en documenten; controleren of hoger voor alle andere objecten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>de aanvrager of hoger voor kwesties en documenten; Revisor of hoger voor alle andere objecten</p> <p><b>OPMERKING</b>
+   <td> <p>Aanvrager of hoger voor uitgaven en documenten; revisor of hoger voor alle andere objecten</p> <p><b>OPMERKING</b>
 
 Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
 </tr> 
@@ -83,7 +83,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## Reageren op een update of een antwoord
+## Reageren op een update of een antwoord in Workfront
 
 U kunt reageren op een opmerking in de thread van een object dat u kunt weergeven, of u kunt zich aanmelden als Workfront of groepsbeheerder en reageren op een opmerking namens een andere gebruiker. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -99,7 +99,7 @@ Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het 
    * Klik op de knop **Voorvertoning** pictogram ![](assets/previewimageicon-31x31.png) op de miniatuur van de afbeelding om de afbeelding op volledige grootte te openen in een nieuw browsertabblad.
    * Klik op de knop **Downloaden** pictogram ![](assets/downloadimageicon.png) op de miniatuur van de afbeelding om de afbeelding te downloaden.
 
-1. Klikken **Reageren** in de update typt u een antwoord in het vak dat wordt weergegeven.
+1. Klikken **Antwoord** in de update typt u een antwoord in het vak dat wordt weergegeven.
 
    U kunt de gebruikers zien die actief in het gesprek betrokken zijn of in elk antwoord bij de bovenkant van die updatedraad geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -107,16 +107,16 @@ Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het 
 
 1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Aanhalingsreactie**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
 1. (Optioneel) Gebruik opmaak, emojis, neem koppelingen of afbeeldingen op zoals wordt uitgelegd in de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het artikel [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Klikken **Reageren** om het antwoord op te slaan.
+1. Klikken **Antwoord** om het antwoord op te slaan.
 
 ### Reageren op een opmerking bij gebruik van de bètaervaring voor opmerkingen
 
 Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
-1. Klikken **Updates** klikt u op de knop **Opmerkingen** voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren.
+1. Klikken **Updates** en klik vervolgens op de knop **Opmerkingen** voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren.
 1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Offerteantwoord**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
-1. Klikken **Reageren**.
+1. Klikken **Antwoord**.
 
    U kunt de gebruikers zien die actief in het gesprek bij de bodem van zijn betrokken **Nieuwe opmerking** en kunt u meer toevoegen of verwijderen van de niet-relevante vakken. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -127,53 +127,23 @@ Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingerv
 1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) naast de update voor meer opties om het antwoord te beheren. Zie voor meer informatie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 
 
-## Reageren op een update via e-mailmelding
+## Reageren op een update van een e-mailbericht
 
 Afhankelijk van de configuratie van uw e-mailberichten, ontvangt u mogelijk een e-mailmelding wanneer een update wordt uitgevoerd naar bepaalde objecten waartoe u toegang hebt.
 
->[!NOTE]
->
->Beantwoorden op updates via e-mail is niet beschikbaar voor omgevingen op cluster 6.
+U kunt op de volgende manieren reageren op een update van een e-mailmelding:
+
+* Reageren op het e-mailbericht dat u ontvangt. Uw antwoordbericht wordt toegevoegd als Workfront-antwoord op de oorspronkelijke opmerking.
+* Gebruik de knop Opmerking in het e-mailbericht om terug te navigeren naar Workfront en de update te beantwoorden in het gedeelte Updates.
 
 Hieronder ziet u een voorbeeld van een e-mailmelding die wordt geactiveerd als gevolg van een update op het tabblad Updates van een taak:
 
 ![email.png](assets/email-350x202.png)
 
-Vanuit de e-mail kunt u eenvoudig een antwoord rechtstreeks toevoegen aan de communicatielijn van het object in Workfront. U kunt ook een reactie toevoegen zonder u aan te melden bij Workfront, op een e-mailbericht dat wordt gegenereerd op basis van opmerkingen die zijn gemaakt voor de volgende objecten:
+Zie voor meer informatie [E-mailberichten beantwoorden](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
-* Project
-* Taak
-* Probleem
-* Document
-* Sjabloon en sjabloontaak
-* Portfolio
-* Programma
-* Iteratie
-* Tijdschema
 
-### Reageren op een update van een e-mailbericht
 
-Wanneer u een e-mailbericht ontvangt, kunt u snel het bijbehorende Workfront-object openen en een antwoord rechtstreeks aan de communicatielijn toevoegen.
 
-1. Klikken **Opmerking** in de e-mailmelding.
 
-   De pagina Details voor het object wordt geopend in Workfront.
 
-1. Ga naar de update waaraan u een antwoord wilt toevoegen.
-
-   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad werd geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-1. Klikken **Reageren,** voer uw antwoord in, dan klik **Reageren**.
-
-### Een update toevoegen aan een object buiten Workfront
-
-Wanneer u een Workfront-e-mailmelding ontvangt, kunt u snel een update toevoegen aan de communicatielijn zonder u aan te melden bij Workfront.
-
-Een update toevoegen aan een Workfront-e-mail:
-
-1. Open vanuit uw e-mailtoepassing de Workfront-e-mail waarop u wilt reageren en open vervolgens een antwoordvenster.
-1. Typ de update.\
-   Bijlagen zijn niet toegestaan en elke RTF-opmaak die wordt toegepast op een update in een e-mailbericht, wordt niet weergegeven in de update wanneer deze wordt weergegeven op het tabblad Updates.
-1. Klikken **Verzenden**.
-
-   Uw update wordt toegevoegd aan de communicatieverbinding van het object.

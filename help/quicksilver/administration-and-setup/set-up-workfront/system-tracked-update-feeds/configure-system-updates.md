@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 * Handelingen die gebruikers uitvoeren op een object
 
 Deze systeemupdates omvatten de wijziging die is aangebracht, de naam van de gebruiker die de wijziging heeft aangebracht en de tijd en datum van de wijziging.
+
+Zie voor meer informatie over systeemupdates [Door het systeem bijgehouden updates](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 Als [!DNL Workfront] beheerder, kunt u vormen welke objecten gebieden en acties [!DNL Workfront] tracks voor het opnemen van systeemupdates.
 
@@ -60,7 +62,6 @@ U kunt bepalen welke informatie [!DNL Workfront] tracks wanneer gebruikers de in
 >* [!DNL Workfront] Kan geen updates bijhouden en opnemen over berekende aangepaste velden.
 >* U kunt de systeemupdate aanpassen voor projecten, taken, problemen, portfolio&#39;s, programma&#39;s en gebruikers. U kunt de systeemupdate voor sjablonen, documenten of tijdbladen niet aanpassen, maar [!DNL Workfront] worden systeemupdates voor deze objecten vastgelegd.
 >
-
 
 
 
