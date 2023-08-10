@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,15 @@ De [!UICONTROL Updates] omvat de volgende typen updates:
      U moet een extra licentie hebben om toegang te hebben tot de [!UICONTROL Goals] gebied. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Card] aan boord
 
-     Voor meer informatie over updates van kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](../../../agile/get-started-with-boards/add-card-to-board.md).
-
+     Voor meer informatie over updates van kaarten raadpleegt u [Gekoppelde kaarten op borden gebruiken](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] volgt geen systeemupdates voor de volgende objecten:
 
    * [!UICONTROL Team]
    * [!UICONTROL Template]
    * [!UICONTROL Template Task]
+   * Ad hoc [!UICONTROL Card]
+
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
@@ -99,4 +100,6 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * [!UICONTROL Document]
    * [!UICONTROL Timesheet]
    * [!UICONTROL Iteration]
+   * [!UICONTROL Goal]
+
 
