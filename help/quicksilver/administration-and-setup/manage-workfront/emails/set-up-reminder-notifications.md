@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Herinneringsmeldingen instellen
-
-<!--hidden content for the tab redesign in August 2023-->
 
 Herinneringsberichten sturen e-mails naar ontvangers op basis van opgegeven criteria. Als Adobe Workfront-beheerder of een gebruiker met een Planner-toegangsniveau en beheertoegang tot herinneringsberichten, kunt u herinneringsberichten handmatig koppelen aan uw werkitems, zoals projecten, taken, problemen en tijdbladen.
 
@@ -68,9 +66,8 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
 
 1. Klikken **E-mail** > **Meldingen** > **Herinneringsmeldingen**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. Klikken **Nieuwe melding voor herinnering**.
 
 1. Klik in de vervolgkeuzelijst op het objecttype dat u wilt koppelen aan de herinneringsmelding.

@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 0%
 
 ---
@@ -240,8 +240,6 @@ De **Opmerkingen** is standaard geselecteerd.
    >De indicator &quot;Nieuw&quot;toont slechts wanneer zowel de gebruiker die een nieuwe update inging als de gebruiker die momenteel een update ingaat de nieuwe opmerkingervaring gebruikt.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Klik op de knop **Bijlage toevoegen** pictogram ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> om een afbeelding aan uw opmerking toe te voegen. De afbeelding moet op uw computer worden opgeslagen voordat u deze kunt koppelen. <!--**************** this might be renamed to "Add image")-->
-
 1. Klikken **Verzenden** om de update aan het Workfront-object toe te voegen.
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op **Meer** menu ![](assets/more-menu.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
 1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers.
@@ -301,7 +299,6 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
    | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
    | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | Ctrl+Shift+9 |
-   | Emoji | ![](assets/emoji-icon.png) | +. | ⊞+. |
 
    Als u de opmaak van tekst wilt stoppen, deselecteert u het kenmerk in het dialoogvenster **RTF** werkbalk.
 
@@ -345,7 +342,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
    of
 
-   Klik op de knop **Bijlage toevoegen** pictogram ![](assets/add-image-paperclip-icon.png) en bladert u naar de afbeelding op uw computer als u de bètaervaring voor opmerkingen gebruikt. <!--the name of the icon and the icon for it might change-->
+   Klik op de knop **Bijlage toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en bladert u naar de afbeelding op uw computer als u de bètaervaring voor opmerkingen gebruikt. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >

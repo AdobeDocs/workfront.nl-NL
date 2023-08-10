@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ U kunt nu emoties aan een opmerking toevoegen met een optie op de werkbalk RTF i
 
 Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
 
-Voorbeeld en productie: aan te kondigen (tijdens of kort na release 23.3) <!--August 10, 2023-->
+Voorbeeld en productie: 10 augustus 2023
 
 #### Nieuwe ervaring met opmerkingen voor extra objecten
 

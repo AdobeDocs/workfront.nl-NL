@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -53,9 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik in het linkerdeelvenster op **E-mail** > **Meldingen**> **E-mailsjablonen**.
 
-<!--hidden for tab redesign - August 2023: 
-  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
-  -->
+![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klikken **Nieuwe e-mailsjabloon**.
 

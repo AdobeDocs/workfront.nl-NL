@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -129,9 +129,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td>✓ 
    </td>
-   <td>
+   <td>✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td> 
    </td>
@@ -140,7 +140,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
   </tr>
 
 <tr>
-   <td>RTF-tekst (blokaanhalingstekens)
+   <td>RTF-tekst (blokaanhalingen)
    </td>
    <td>✓ 
    </td>
@@ -502,13 +502,13 @@ De nieuwe opmerkingervaring wordt momenteel ondersteund voor de volgende objecte
 
   >[!NOTE]
   >
-  >U moet een extra licentie voor Adobe Workfront Goals hebben om dit gebied van Workfront te kunnen openen. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 De nieuwe bètaervaring voor opmerkingen inschakelen:
 
 1. Ga naar een object waarvoor u de nieuwe opmerkingervaring wilt activeren en klik vervolgens op **Updates** in het linkerdeelvenster.
 1. De optie **Bèta met opmerkingen** schakelen in de rechterbovenhoek van het gebied Updates.
-1. Klikken **Akkoord** in het vak Beta. Hierdoor wordt de nieuwe opmerkingervaring ingeschakeld voor het geselecteerde object.
+1. Klikken **Akkoord** in het vak Bètaovereenkomst. Hierdoor wordt de nieuwe opmerkingervaring ingeschakeld voor het geselecteerde object.
 1. Een update typen in het dialoogvenster **Opmerkingen** tab. Het tabblad Opmerkingen moet het standaardtabblad zijn wanneer de nieuwe ervaring wordt geopend
 
    of
