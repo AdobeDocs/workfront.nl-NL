@@ -7,9 +7,9 @@ description: Toegang tot Workfront Fusion via Adobe Experience Cloud biedt u een
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: d43d17f59d8ecc071cf953994721b586ff9328d2
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -41,16 +41,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -70,21 +70,21 @@ Het exemplaar van Workfront Fusion van uw organisatie moet aan de [!DNL Adobe Bu
 
 ## Toegang [!DNL Workfront Fusion]
 
-Nadat u zich hebt aangemeld bij [!DNL Adobe Experience Cloud], kunt u alle [!DNL Workfront Fusion] organisaties en omgevingen waartoe u toegang hebt, klikt u op de organisatieschakelaar in het bovenste navigatiegebied. Selecteer [!DNL Workfront Fusion] organisatie of omgeving waarin u wilt werken.
+Nadat u zich hebt aangemeld bij [!DNL Adobe Experience Cloud]kunt u alle opties van [!DNL Workfront Fusion] organisaties en omgevingen waartoe u toegang hebt, klikt u op de organisatieschakelaar in het bovenste navigatiegebied. Selecteer de [!DNL Workfront Fusion] organisatie of omgeving waarin u wilt werken.
 
 ![Weergave [!DNL Workfront Fusion] organisaties en omgevingen](assets/aec-view-all-orgs.png)
 
 >[!NOTE]
 >
->De eerste keer dat u zich aanmeldt bij [!DNL Adobe Experience Cloud], wordt standaard de eerste in de alfabetische lijst gebruikt. De volgende keer dat u zich aanmeldt, wordt de organisatie standaard ingesteld op de laatste bezochte organisatie.
+>De eerste keer dat u zich aanmeldt [!DNL Adobe Experience Cloud], wordt standaard de eerste in de alfabetische lijst gebruikt. De volgende keer dat u zich aanmeldt, wordt de organisatie standaard ingesteld op de laatste bezochte organisatie.
 
-[!DNL Workfront Fusion] wordt weergegeven in de lijst met [!DNL Adobe Experience Cloud] producten waartoe u toegang hebt. U kunt [!DNL Workfront Fusion] in het snelmenu op het tabblad [!DNL Experience Cloud] homepage, of gebruik productschakelaar ![Productschakelaar](assets/main-menu-icon.png) om toepassingen op elk moment te wijzigen.
+[!DNL Workfront Fusion] wordt weergegeven in de lijst met [!DNL Adobe Experience Cloud] producten waartoe u toegang hebt. U kunt [!DNL Workfront Fusion] in het snelmenu op het tabblad [!DNL Experience Cloud] homepage, of gebruik productschakelaar ![Productschakelaar](assets/main-menu-icon.png) om toepassingen op elk gewenst moment te wijzigen.
 
-![Selecteren [!DNL Workfront Fusion] om toegang te krijgen tot de toepassing](assets/aec-product-switcher.png)
+![Selecteren [!DNL Workfront Fusion] toegang tot de toepassing](assets/aec-product-switcher.png)
 
 ## Navigeren [!DNL Workfront Fusion]
 
-Gebruik de [!UICONTROL Main Menu] pictogram ![](assets/main-menu-icon-left-nav.png) links van de [!DNL Adobe] navigatiebalk om de [!UICONTROL Organization] en [!UICONTROL Team] menu&#39;s. Als u een [!DNL Workfront Fusion] beheerder, uw [!UICONTROL Administration] wordt ook hier weergegeven.
+Gebruik de [!UICONTROL Main Menu] pictogram ![](assets/main-menu-icon-left-nav.png) links van de [!DNL Adobe] de navigatiebalk om de [!UICONTROL Organization] en [!UICONTROL Team] menu&#39;s. Als u een [!DNL Workfront Fusion] beheerder, [!UICONTROL Administration] wordt ook hier weergegeven.
 
 Om teams te schakelen, klik op de teamnaam bij de bovenkant van de pagina, dan selecteer het team. Dit verschijnt slechts op pagina&#39;s die voor een team specifiek zijn, zoals een scenario bouwer of [!UICONTROL Connections] pagina.
 
@@ -102,4 +102,11 @@ In dit menu kunt u:
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inclusief voorkeuren voor primaire en secundaire talen.
 * Toegang tot uw **[!UICONTROL [!DNL Workfront Fusion] Profile]**. Wanneer u zich in het profiel bevindt, klikt u op de knop **[!UICONTROL More]** menu ![](assets/more-icon.png) en selecteert u **[!UICONTROL Edit]**. Zie voor meer informatie over het profiel [Mijn instellingen configureren](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** van Adobe Experience Cloud.
+
+
+## Toegang tot uw berichten
+
+U kunt uw berichten en aankondigingen op het gebied van Meldingen van Verenigde Shell vinden.
+
+Klik op het pictogram Meldingen om uw meldingen weer te geven ![Meldingspictogram](assets/notifications-icon.png) in de rechterbovenhoek van het scherm. Een rode stip op het pictogram Meldingen geeft aan dat u ongelezen meldingen of aankondigingen hebt.
 
