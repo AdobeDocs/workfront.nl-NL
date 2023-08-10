@@ -5,9 +5,9 @@ title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Het nieuwe huis wordt ontworpen om hoogst aanpasbaar te zijn, toestaand u om wid
 
 ### Widgets
 
-Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties. Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht van de informatie die ze weergeven:
+Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties. Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht van de informatie die ze weergeven:
 
 * **Mijn werk**\
     Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken.
@@ -50,7 +52,7 @@ Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voe
     Toont alle goedkeuringen voor uw organisatie in een lijst met klantgerichte kolommen, evenals een onderzoeksbar die u toestaat om naar specifieke goedkeuringen te zoeken.
 
 * **Opmerkingen**\
-    Toont recente commentaardraden die @ van u over Workfront bevatten, evenals een antwoordknoop die u toestaat om een antwoord binnen widget samen te stellen.
+    Toont recente commentaardraden die @ van u over Workfront bevatten, evenals een antwoordknoop die u toestaat om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
 
 * **To-dos**\
     Met deze unieke widget kunt u tekstitems toevoegen aan een persoonlijke controlelijst die u kunt bewerken.
@@ -114,8 +116,6 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
         <td>In afwachting van mijn goedkeuring, ongedaan maken</td>
     </tr>
 </table>
-
-Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Achtergrondaanpassing
 
