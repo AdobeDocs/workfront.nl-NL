@@ -4,9 +4,9 @@ description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
+source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                                 <p>Voorvertoning release: gedurende de gehele releaseperiode van 23.3</p>
                             </li>
                             <li>
-                                <p><span class="preview">Minimaal 2 weken na de release naar Voorvertoning (tenzij anders aangegeven)</span></p>
+                                <p><span class="preview">Productieversie: minimaal 2 weken na publicatie voor Voorbeeld (tenzij anders vermeld)</span></p>
                             </li>
                         </ul>
                     </td>
