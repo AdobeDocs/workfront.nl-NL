@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -44,7 +46,7 @@ Of u kon slechts projecten tonen die een toegewezen projecteigenaar hebben, die 
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Filterregels voor een tabel configureren
 
@@ -110,7 +112,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bevat</strong> </td> 
-      <td> <p>Hiermee wordt naar de opgegeven tekst in een hele tekstreeks gezocht.</p> <p>Als u bijvoorbeeld "Bevat index" gebruikt, wordt er alles met "Inf" of "inf" vastgelegd, zoals het woord "Infinity".</p> <p>Opmerking: Adobe Workfront zoekt naar het volledige woord of de hele woordgroep die u voor elke filterregel invoert. Als u bijvoorbeeld velden zoekt met de uitdrukking "nieuw project" in de naam, geeft Workfront geen projecten weer die alleen "nieuw" of "project" in de naam hebben, of woorden die extra woorden bevatten tussen bijvoorbeeld "nieuw hoofdproject". Het filter vindt slechts projecten met de nauwkeurige uitdrukking "nieuw project"in de naam.</p> </td> 
+      <td> <p>Hiermee wordt naar de opgegeven tekst in een hele tekenreeks gezocht.</p> <p>Als u bijvoorbeeld "Bevat index" gebruikt, wordt er alles met "Inf" of "inf" vastgelegd, zoals het woord "Infinity".</p> <p>Opmerking: Adobe Workfront zoekt naar het volledige woord of de hele woordgroep die u voor elke filterregel invoert. Als u bijvoorbeeld velden zoekt met de uitdrukking "nieuw project" in de naam, geeft Workfront geen projecten weer die alleen "nieuw" of "project" in de naam hebben, of woorden die extra woorden bevatten tussen bijvoorbeeld "nieuw hoofdproject". Het filter vindt slechts projecten met de nauwkeurige uitdrukking "nieuw project"in de naam.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bevat niet</strong> </td> 
@@ -150,7 +152,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
       >[!IMPORTANT]
       >
-      >EN OF de exploitanten op het zelfde niveau-verbindend of veelvoudige regels binnen een regelreeks of volledige regelreeksen samen-zullen altijd aanpassen. Bijvoorbeeld, als u de exploitant tussen twee regels binnen een regelreeks verandert, zullen alle andere exploitanten in die regelreeks automatisch veranderen om het aan te passen.
+      >EN OF de exploitanten op het zelfde niveau-verbindend of veelvoudige regels binnen een regelreeks of volledige regelreeksen samen-zullen altijd aanpassen. Als u bijvoorbeeld de operator wijzigt tussen twee regels binnen een regelset, worden alle andere operatoren in die regelset automatisch aangepast.
 
 1. (Voorwaardelijk) Om een extra reeks van de filterregel toe te voegen, doe het volgende:
 

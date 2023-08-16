@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
@@ -19,11 +21,11 @@ De gebiedsbouwer in het Melden van Canvas staat u toe om gebieden tot stand te b
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een veld met een formule maken
 
-1. Maak of navigeer naar een tabelblok, zoals beschreven in [Een tabelblok toevoegen of bewerken in het rapportcanvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Een tabelblok maken of naar een tabelblok navigeren, zoals beschreven in [Een tabelblok toevoegen of bewerken in het rapportcanvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 1. Voor de lijstkopbal in het rapport, klik **Bewerken** pictogram ![](assets/edit-icon.png).
 
    ![](assets/edit-icon-table-header-350x71.png)
@@ -45,7 +47,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    | -functie | Beschrijving | Uitvoer |
    |---|---|---|
-   | IF | Vergelijk twee argumenten die op een geselecteerde bepaling worden gebaseerd, dan voer een gespecificeerde actie uit die op de resulterende Waar (Is Waar:) of Vals (Is Vals:) waarde wordt gebaseerd. Opmerking: momenteel, kan het tweede argument geen statische Waar of Vals waarde zijn. In plaats daarvan, kunt u een genestelde functie zoals ISBLANK (de Naam van het Project) gebruiken die altijd Vals als een oplossing terugkeert. | True/False, Date, Number of String |
+   | IF | Vergelijk twee argumenten die op een geselecteerde bepaling worden gebaseerd, dan voer een gespecificeerde actie uit die op de resulterende Waar (Is Waar:) of Vals (Is Vals:) waarde wordt gebaseerd. Opmerking: momenteel kan het tweede argument geen statische waarde Waar of Onwaar zijn. In plaats daarvan, kunt u een genestelde functie zoals ISBLANK (de Naam van het Project) gebruiken die altijd Vals als een oplossing terugkeert. | True/False, Date, Number of String |
    | CONCREET | Voeg twee of meer tekenreeksen van begin tot eind samen om een nieuwe tekenreeks te maken. | String |
    | BEVATTEN | Evalueer of een veld voor een tekenreeksargument (Tekst zoeken) zich in een ander veld voor een tekenreeksargument bevindt (Binnen tekst). | Waar/Onwaar |
    | IN | Evalueren of de waarde van een argumentveld (Zoeken) overeenkomt met de waarde van ten minste een ander argumentveld (Binnen) | Waar/Onwaar |

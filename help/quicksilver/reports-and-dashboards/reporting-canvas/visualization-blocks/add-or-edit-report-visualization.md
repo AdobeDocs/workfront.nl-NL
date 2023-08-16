@@ -4,7 +4,9 @@ description: Een visualisatieblok toevoegen of bewerken in Rapportcanvas
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,13 +27,13 @@ U kunt de volgende soorten visualisaties aan een rapport toevoegen:
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een visualisblok toevoegen of bewerken
 
 >[!TIP]
 >
->Al uw veranderingen worden automatisch bewaard aangezien u de blokken in uw rapport bouwt en uitgeeft.
+>Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapportage**.
 1. Klikken **Nieuw rapport**, dan creeer een rapport met lijsten die gegevens bevatten, zoals die in [Bouw een rapport in het Rapporteren van Canvas](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) en [Een tabelblok toevoegen of bewerken in het rapportcanvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
@@ -40,7 +42,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    Klik in een bestaand rapport met tabellen die gegevens bevatten op de knop **Meer menu** pictogram ![](assets/more-icon.png) in de rapportkopbal, dan selecteer **Bewerken**.
 
-1. Aan de rechterkant van het scherm, onder **Een blok toevoegen**, ofwel:
+1. Rechts van het scherm, onder **Een blok toevoegen**, ofwel:
 
    Sleep de **Visualisatie** pictogram **** rechtstreeks naar de gewenste locatie op het canvas.
 
@@ -50,7 +52,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    of
 
-   Selecteer **Visualiseren** **** boven aan een bestaande tabel op het canvas.
+   Selecteer de **Visualiseren** **** boven aan een bestaande tabel op het canvas.
 
    >[!TIP]
    >
@@ -76,7 +78,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. Ga verder met het configureren van uw visualisatie:
 
-   * **Balk** visualisatie: Zie voor instructies [Vorm een bar visualisatie in het Rapporterende Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **Kolom** visualisatie: Zie voor instructies [Vorm een kolomvisualisatie in het Melden van Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **Schijf** visualisatie: Zie voor instructies [Paardenvisualisatie configureren in Rapportcanvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** visualisatie: Zie voor instructies [Vorm een KPI visualisatie in het Melden van Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * **Balk** visualisatie: zie voor instructies [Vorm een bar visualisatie in het Rapporterende Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * **Kolom** visualisatie: zie voor instructies [Vorm een kolomvisualisatie in het Melden van Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * **Schijf** visualisatie: zie voor instructies [Paardenvisualisatie configureren in Rapportcanvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * **KPI** visualisatie: zie voor instructies [Vorm een KPI visualisatie in het Melden van Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -19,7 +21,7 @@ U kunt de informatie in een rapport organiseren door het in groepen te tonen die
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Rijen in een tabel groeperen
 
@@ -60,7 +62,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
       <td> 
        <ul> 
         <li> <p>Oudste naar nieuwste</p> </li> 
-        <li> <p>Nieuwst naar oudst</p> </li> 
+        <li> <p>Nieuwst naar oudste</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -95,8 +97,8 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    * Als u een andere groep wilt toevoegen, sleept u een ander veld uit het zijpaneel.
    * Als u rijen wilt weergeven in een groep die standaard is samengevouwen, klikt u op de knop **Het menu Meer** pictogram ![](assets/more-icon.png) naast de groep klikt u op **Groep samenvouwen**.
 
-      Elke groep kan individueel worden gevormd om met samengevouwen of uitgevouwen rijen te tonen. Standaard worden alle gegroepeerde rijen samengevouwen.
+     Elke groep kan individueel worden gevormd om met samengevouwen of uitgevouwen rijen te tonen. Standaard worden alle gegroepeerde rijen samengevouwen.
 
    * Als u een telling in de groepstrij wilt weergeven, klikt u op de knop **Het menu Meer** pictogram ![](assets/more-icon-27x15.png) naast de groep klikt u op **Aantal weergeven**.
-   * Als u een groep wilt verwijderen, klikt u op de knop **Het menu Meer** pictogram ![](assets/more-icon.png) naast de groep klikt u op **Groep verwijderen**.
+   * Klik op de knop **Het menu Meer** pictogram ![](assets/more-icon.png) naast de groep klikt u op **Groep verwijderen**.
    * Als u meerdere groepen die u hebt gemaakt opnieuw wilt rangschikken, sleept u deze ![](assets/move-icon---dots.png) in een nieuwe volgorde.

@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -19,13 +21,13 @@ U kunt een rapport maken door unieke blokken naar het canvas te slepen die uw ge
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een rapport samenstellen
 
 >[!NOTE]
 >
->Al uw veranderingen worden automatisch bewaard aangezien u de blokken in uw rapport bouwt en uitgeeft.
+>Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapportage**.
 1. Klikken **Nieuw rapport**.
@@ -78,11 +80,11 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
      </tr> 
      <tr> 
       <td role="rowheader">Een blok dupliceren</td> 
-      <td>Klik op de knop <strong>Het menu Meer</strong> pictogram <img src="assets/more-icon.png"> in de blokoptekst selecteert u vervolgens <strong>Blok kopiëren</strong>.</td> 
+      <td>Klik op de knop <strong>Het menu Meer</strong> pictogram <img src="assets/more-icon.png"> op de kopbal van het blok, dan selecteer <strong>Blok kopiëren</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een blok verwijderen</td> 
-      <td>Klik op de knop <strong>Het menu Meer</strong> pictogram <img src="assets/more-icon.png"> in de blokoptekst selecteert u vervolgens <strong>Blok verwijderen</strong>.</td> 
+      <td>Klik op de knop <strong>Het menu Meer</strong> pictogram <img src="assets/more-icon.png"> op de kopbal van het blok, dan selecteer <strong>Blok verwijderen</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een blok verplaatsen</td> 

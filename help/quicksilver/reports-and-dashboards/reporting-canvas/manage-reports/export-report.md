@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -23,12 +25,12 @@ U kunt een volledig rapport-of een specifiek blok-in een dossierformaat uitvoere
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een rapport exporteren
 
 1. Navigeer naar het rapport dat u wilt exporteren.
-1. Klik in de rapportkoptekst op de knop **Meer** pictogram ![](assets/more-icon-27x15.png), klikt u op **Exporteren** Selecteer vervolgens de bestandsindeling die u wilt maken.
+1. Klik in de koptekst van het rapport op de knop **Meer** pictogram ![](assets/more-icon-27x15.png), klikt u op **Exporteren** Selecteer vervolgens de bestandsindeling die u wilt maken.
 
    >[!NOTE]
    >
@@ -37,7 +39,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    >   * Als u een rapport exporteert dat meerdere tabellen bevat naar een XLSX-indeling, bevat het geëxporteerde bestand een apart blad voor elke tabel.
    >   * Als u een rapport exporteert dat meerdere tabellen bevat naar een CSV-indeling, is het geëxporteerde resultaat een gecomprimeerde map die een afzonderlijk bestand voor elke tabel bevat.
    >   * Als u een tabel met gegroepeerde rijen exporteert naar een CSV-indeling, bevat het CSV-bestand alle rijen, maar deze worden niet in groepen weergegeven.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

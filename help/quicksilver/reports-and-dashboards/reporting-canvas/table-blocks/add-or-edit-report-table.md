@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -19,7 +21,7 @@ In een tabel worden veldgegevens weergegeven in kolommen die kunnen worden gefil
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een tabelblok toevoegen of bewerken
 
@@ -69,5 +71,5 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 1. Voer een van de volgende handelingen uit om de tabel verder te configureren:
 
    * **Formulierveld toevoegen**: Klikken **Nieuw +** boven aan het dialoogvenster **Velden** lijst. Zie voor meer instructies over het maken van een formuleveld [Bouw een formules gebied in het Rapporteren van Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
-   * **Een filter toevoegen**: Sleep het veld waarmee u de tabel wilt filteren naar het **Filter** boven de tabel. Zie voor meer informatie over het instellen van filterregels [Een tabel filteren in Rapportcanvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
+   * **Een filter toevoegen**: Sleep het veld waarin u de tabel wilt filteren naar het **Filter** boven de tabel. Zie voor meer informatie over het instellen van filterregels [Een tabel filteren in Rapportcanvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
    * **Rijen groeperen op specifieke kenmerken**: Sleep het veld waarin u de tabel wilt groeperen naar het **Groep** boven de tabel. Zie voor meer informatie over het maken van rijgroepen [Tabelrijen groeperen in canvas rapporteren](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).

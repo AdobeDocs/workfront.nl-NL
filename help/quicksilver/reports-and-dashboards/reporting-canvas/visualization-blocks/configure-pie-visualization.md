@@ -4,7 +4,9 @@ description: Paardenvisualisatie configureren in Rapportcanvas
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -18,13 +20,13 @@ Met een schijfvisualisatie kunt u snel een artikel over uw gegevens vertellen do
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een schijfvisualisatie configureren
 
 >[!TIP]
 >
->Al uw veranderingen worden automatisch bewaard aangezien u de blokken in uw rapport bouwt en uitgeeft.
+>Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
 1. Beginnen met het toevoegen van een visualisatieblok met de **Schijf** visualisatietype naar een rapport, zoals wordt uitgelegd in [Een visualisatieblok toevoegen of bewerken in Rapportcanvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
@@ -60,7 +62,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    1. Op de **Gegevens** tab:
 
-      | Gegevensbron (vervolgkeuzemenu) | Verander de gegevensbron voor visualisatie in een andere lijst op het rapportcanvas. |
+      | Gegevensbron (vervolgkeuzelijst) | Verander de gegevensbron voor visualisatie in een andere lijst op het rapportcanvas. |
       |---|---|
       | Gegevensbron tonen | Schakel deze optie in om de brontabel voor de visualisatie op het rapportcanvas weer te geven of schakel de optie uit om de tabel te verbergen. |
 

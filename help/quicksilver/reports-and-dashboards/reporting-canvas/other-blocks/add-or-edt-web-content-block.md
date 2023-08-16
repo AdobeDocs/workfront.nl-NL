@@ -6,7 +6,9 @@ description: De de inhoudsblokken van het Web staan u toe om informatie van exte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -20,7 +22,7 @@ De de inhoudsblokken van het Web staan u toe om informatie van externe websites 
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Canvasbèta melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een webinhoud-blok toevoegen of bewerken
 
@@ -31,7 +33,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    Ga naar een bestaand rapport, klik op de knop **Meer** pictogram ![](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **Bewerken**.
 
-1. Aan de rechterkant van het scherm, onder **Een blok toevoegen**, ofwel:
+1. Rechts van het scherm, onder **Een blok toevoegen**, ofwel:
 
    Sleep de **Webinhoud** rechtstreeks naar de gewenste locatie op het canvas.
 
@@ -61,7 +63,6 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    >   * powerbi.com
    >   * domo.com
    >   * looker.com
-
 
    Er verschijnt een waarschuwing onder de ingevoerde URL als deze niet kan worden ingesloten. Deze waarschuwingen zijn:
 
