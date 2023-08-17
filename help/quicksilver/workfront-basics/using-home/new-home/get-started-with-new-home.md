@@ -5,9 +5,9 @@ title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,15 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Licht</td>
-        <td>Mijn werk, in afwachting van mijn goedkeuring, kan worden uitgevoerd</td>
+        <td>Mijn werk, in afwachting van mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Medewerker</td>
-        <td>Mijn werk, herinneringen, opdrachten</td>
+        <td>Mijn werk, opmerkingen</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring, ongedaan maken</td>
+        <td>In afwachting van mijn goedkeuring</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Controleren</td>
-        <td>Mijn werk, herinneringen, opdrachten</td>
+        <td>Mijn werk, opmerkingen</td>
     </tr>
     <tr>
         <td>Beperkt</td>
-        <td>Mijn projecten, in afwachting van mijn goedkeuring,</td>
+        <td>Mijn projecten, in afwachting van mijn goedkeuring</td>
     </tr>
     <tr>
         <td>Medewerker</td>
-        <td>Mijn werk, herinneringen, opdrachten</td>
+        <td>Mijn werk, opmerkingen</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>In afwachting van mijn goedkeuring, ongedaan maken</td>
+        <td>In afwachting van mijn goedkeuring</td>
     </tr>
 </table>
 

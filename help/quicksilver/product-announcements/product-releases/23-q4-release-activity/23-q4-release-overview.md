@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                 </tr>  
-                 <tr>
+                </tr>  
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documenten die als alleen-weergeven beschikbaar zijn op verbonden kaarten</a></p><p>Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbeeldingen en PDF bekijken. U kunt een voorvertoning van een document weergeven in de browser of het document downloaden naar de computer. </p>
                     </td>
@@ -83,16 +83,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">Functie</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatums</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">De mening van de raad van een project nu beschikbaar voor kwesties</a></p><p>U kunt nu een Board-weergave openen van een lijst met projectkwesties. Met het Kanban-bord kunt u de voortgang van de problemen op een meer visuele manier volgen dan ze in de lijst weer te geven. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -101,6 +91,26 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 3 augustus 2023<br /></p>
                             </li>
                              <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Documenten toevoegen aan verbonden kaarten</a></p><p>U kunt nu documenten op verbonden kaarten aan Adobe Workfront Boards toevoegen. Alle documenten die u op de kaart toevoegt, worden beschikbaar op het tabblad Documenten van de verbonden taak of uitgave. Dezelfde bestandstypen worden in beide gebieden ondersteund.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor raden van bestuur: 24 augustus 2023</p>
+                            </li>
+                            <li>
                                 <p>Productie voor snelle release: met de release van 23.8</p>
                             </li>
                             <li>
@@ -147,8 +157,105 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamische herberekening van berekende velden op formulieren</a> </p>
+                        <p>Berekende velden op een formulier dat aan een object is gekoppeld, worden nu dynamisch opnieuw berekend in real-time wanneer afhankelijke waarden van een formulier op de pagina worden gewijzigd. Zo kunt u de bijgewerkte resultaten bekijken zonder het formulier op te slaan.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Geplande uren instellen voor terugkerende taken van onderliggende items met het type Eenvoudige duur zonder toewijzingen</a></p>
+                        <p>We hebben een wijziging aangebracht in de manier waarop geplande uren worden toegewezen aan terugkerende taken zonder toewijzingen en met een eenvoudige tijdsduur. Nu, wanneer u Geplande Uren op een nieuwe terugkomende taak met een Eenvoudig Type van Duur en geen taken plaatst, worden de uren ook toegewezen aan de individuele herhalingen. Vóór deze wijziging werden de uren niet opgeslagen voor afzonderlijke herhalingen toen de bovenliggende taken niet werden toegewezen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
+
+<!--
+### Financial management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 29, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
+                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+-->
 
 ### Andere verbeteringen
 
@@ -165,27 +272,64 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                 </tr>
-                 <!--
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaverbeteringen voor opmerkingervaring</a> </p>
+                        <p>De verbeteringen aan de sectie van Updates worden ter beschikking gesteld binnen het Vierde Kwartaal 2023 versietijdskader voor het becommentariëren ervarings bèta. Deze verbeteringen zullen in de Productomgeving voor alle klanten beschikbaar worden gesteld met de vierde release van 2023 (oktober 2023).</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 17, 2023</p>
+                                <p>Voorvertoningsrelease: gedurende de releaseperiode van het vierde kwartaal van 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.8 release</p>
+                                <p>Productie voor snelle release: vanaf de 23,8-release</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release (tenzij anders gespecificeerd)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaverbeteringen voor canvasdashboards</a> </p>
+                        <p>De verbeteringen aan de dashboards van het Canvas worden ter beschikking gesteld binnen het vierde Kwartaal 2023 releasetijdschema als deel van aan de gang zijnde bèta. Deze verbeteringen zullen in de Productomgeving voor alle klanten beschikbaar worden gesteld met de vierde release van 2023 (oktober 2023).</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: gedurende de releaseperiode van het vierde kwartaal van 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: vanaf de 23,8-release</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release (tenzij anders gespecificeerd)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Wijzigen in standaardwidget Nieuwe startpagina</a> </p>
+                        <p>De widget Aan/uit, waarvoor toestemming nodig is om taken te maken, is nu alleen aanwezig in de standaardwidget die is ingesteld voor gebruikers met de licentietypen Standaard, Overzicht of Werkwerk. Bovendien is de widget automatisch verwijderd van de homepages van gebruikers met alle andere licentietypen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: 17 augustus 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: 17 augustus 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het vierde kwartaal van 2023</a></p><p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het vierde kwartaal van 2023. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
