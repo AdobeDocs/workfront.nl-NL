@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1894'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+* <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
@@ -27,17 +27,6 @@ Deze pagina bevat informatie over de tijdlijn van de release voor de nieuwe opme
 
 Zie voor algemene informatie over de nieuwe ervaringen met opmerkingen, waaronder een lijst met kenmerken die momenteel beschikbaar zijn of die worden onderzocht [Nieuwe ervaring met opmerkingen](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-
-<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
->
-><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
--->
 
 >[!IMPORTANT]
 >
@@ -61,12 +50,11 @@ Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het v
 * Met 23.3 release (20 juli 2023):
    * Bèta voor opmerkingen voor projecten, taken en documenten.
    * Nieuwe ervaring met opmerkingen voor kaarten in het gebied van de raden van bestuur (als enige ervaring)
-* Tijdens de release van 23.10 (datum die moet worden aangekondigd) (beperkte release, alleen beschikbaar voor klanten die de snelle release kiezen): <!--for August 17 - add the actual date in here-->
+* Tijdens de release van het vierde kwartaal van 2023 (beperkte release, alleen beschikbaar voor klanten die de snelle release kiezen):
    * Nieuwe ervaring met opmerkingen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
-   * Bèta voor opmerkingen voor projecten, taken, problemen en documenten wordt de standaardoptie. Hiermee wordt de bètafase van de nieuwe opmerkingervaring afgesloten.
-* Met de release van 23.10 (oktober 2023)
+   * Bèta voor opmerkingen voor projecten, taken, problemen en documenten wordt de standaardoptie. Het label &quot;Bèta&quot; wordt verwijderd.
+* Met de vierde release van 23.10 uur in 2023 (oktober 2023)
    * Nieuwe ervaring met opmerkingen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
-  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
    * De nieuwe ervaring met opmerkingen voor projecten, taken, problemen en documenten wordt de standaardoptie. Hiermee wordt de bètafase van de nieuwe opmerkingervaring afgesloten.
 * Eind 2023:
    * De ervaring met oudere opmerkingen blijft een secundaire optie voor de volgende objecten: projecten, taken, problemen en documenten.
@@ -79,48 +67,93 @@ Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het v
 
 De volgende sectie bevat een lijst met functies die zijn toegevoegd na de oorspronkelijke versie van 23.2, te beginnen met de functies die het laatst zijn uitgebracht.
 
-<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
-
->[!IMPORTANT]
->
-><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
->
-><span class="preview"></span>
->
-><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
-
--->
-
-<!--for the August 17 release: remove the paragraph below and replace it with this: 
-
-The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
--->
-
 De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. Dit artikel bevat nieuwe functies die worden toegevoegd en problemen die worden opgelost voor de nieuwe opmerkingervaring.
 
-<!--add the following with the August 17 release: 
+### Week van 14 augustus 2023 (Start van de release van het vierde kwartaal 2023)
 
-### Week of August 14, 2023
+#### Nieuwe ervaring met opmerkingen voor extra objecten
 
-#### Avatar improvements when tagging users in an update
+De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kort na de release 23.3 to Production: sjabloontaken, sjablonen, tijdbladen, teams, gebruikers, programma&#39;s, portfolio&#39;s.
 
-To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Dit is de enige opmerkingervaring voor deze objecten, omdat de oudere opmerkingervaring wordt verwijderd wanneer u deze objecten opent.
 
--->
+Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-### Functies uitgebracht na 19 juni 2023
+Voorvertoningsrelease: 17 augustus 2023
 
-<!--restructure this section with actual weeks and dates, when we know them-->
+Productieversie voor snelle release: met de release van 23,8 (31 augustus 2023)
 
-De functies in deze sectie zullen naar verwachting kort na de week van 19 juni 2023 worden gepubliceerd.
+Productieversie voor alle klanten: met de release van 23.10 (oktober 2023)
+
+#### Nieuwe ontwerpupdate voor de nieuwe opmerkingsstroom
+
+We hebben de nieuwe commentaarstroom opnieuw ontworpen om deze een meer bijgewerkte look-and-feel te geven. Enkele verbeteringen zijn:
+
+* De inhoud van de opmerkingstroom wordt gecentreerd op de pagina, in plaats van de volledige breedte van de pagina in beslag te nemen.
+
+* Het menupictogram Meer wordt verplaatst naar de rechterbovenhoek van de opmerking in plaats van naast de knop Als.
+
+* De knoppen Slaan en Reageren staan nu naast elkaar.
+
+* De knop Logtijd is verplaatst naar de rechterbovenhoek van het gebied met opmerkingen.
+
+* De Add antwoordherinnering werd toegevoegd om gebruikers te vragen om een antwoord aan bestaande toe te voegen.
+
+* Er is een scheidingslijn tussen elke commentaardraad
+
+Zie voor meer informatie [Overzicht van het tabblad Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+Voorvertoningsrelease: 17 augustus 2023
+
+Productie voor snelle release: met de release van 23.8 (31 augustus 2023)
+
+Productie voor driemaandelijkse release: met 23.10 release (oktober 2023)
+
+#### De nieuwe ervaring met opmerkingen is de standaardervaring voor projecten, taken, problemen en documenten
+
+De nieuwe opmerkingervaring wordt gebruikt voor de volgende objecten: projecten, taken, problemen en documenten.  De oudere ervaring met opmerkingen blijft een alternatieve optie bij het benaderen van deze objecten.
+
+Om deze wijziging te ondersteunen, hebben we ook de schakeloptie &quot;Opmerkingen verzenden&quot; gewijzigd in &quot;Nieuwe opmerkingen&quot;.
+
+Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+Voorvertoningsrelease: 17 augustus 2023
+
+Productie voor snelle release: met de release van 23.8 (31 augustus 2023)
+
+Productie voor driemaandelijkse release: met 23.10 release (oktober 2023)
+
+#### Verbeteringen aanbrengen bij het coderen van gebruikers in een update
+
+Om u beter inzicht te geven in welke gebruikers in een update zijn gelabeld, geven we nu de namen weer van de gebruikers (maximaal twee gebruikers) die in een update zijn gelabeld. Zie voor meer informatie [Andere tags toewijzen in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+Voorvertoningsrelease: 17 augustus 2023
+
+Productie voor snelle release: met de release van 23.8 (31 augustus 2023)
+
+Productie voor alle klanten: met de release van 23.10 (oktober 2023)
+
+### Week van 7 augustus 2023
+
+#### Externe items toevoegen aan een update
+
+U kunt nu emoties aan een opmerking toevoegen met een optie op de werkbalk RTF in de nieuwe opmerkingervaring.
+
+Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
+
+Voorbeeld en productie: 10 augustus 2023
+
+### Week van 10 juli 2023
 
 #### Automatisch alle deelnemers aan de verbinding labelen
 
 Een eigenaar van een opmerking wordt nu automatisch gelabeld in een thread. Vóór deze update gebruiken alleen de gebruikers die zijn getagd met de tags &quot;@name&quot; of door ze toe te voegen aan de sectie &quot;Tagpersonen of -teams&quot; die wordt weergegeven in de lijst met gecodeerde gebruikers. Met dit, kunt u de eigenaar van een commentaar uit de draad nu verwijderen, als nodig, zelfs als zij niet manueel werden geëtiketteerd voordien.
 
-Geplande voorvertoning release: 12 juli 2023
+Voorvertoningsrelease: 12 juli 2023
 
-Planned Production release: 13 juli 2023
+Productieversie: 13 juli 2023
+
+### Week van 3 juli 2023
 
 #### Nieuwe interface voor logboektijd
 
@@ -130,7 +163,9 @@ Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timeshe
 
 Voorvertoningsrelease: 5 juli 2023
 
-Productieversie: met 23.3 release
+Productieversie: met de release van 23.3 (juli 2023)
+
+### Week van 26 juni 2023
 
 #### Inhoud prijsopmerking in een nieuw antwoord
 
@@ -142,28 +177,6 @@ Voorbeeld: 28 juni 2023
 
 Productieversie: 29 juni 2023
 
-#### Externe items toevoegen aan een update
-
-U kunt nu emoties aan een opmerking toevoegen met een optie op de werkbalk RTF in de nieuwe opmerkingervaring.
-
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
-
-Voorbeeld en productie: 10 augustus 2023
-
-#### Nieuwe ervaring met opmerkingen voor extra objecten
-
-De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kort na de release 23.3 to Production: sjabloontaken, sjablonen, tijdbladen, teams, gebruikers, programma&#39;s, portfolio&#39;s.
-
-Dit is de enige opmerkingervaring voor deze objecten, omdat de oudere opmerkingervaring wordt verwijderd wanneer u deze objecten opent.
-
-Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). De documentatie wordt bijgewerkt op het moment van de release.
-
-Voorvertoningsrelease: aan te kondigen na de productieresessie van 23.3 (20 juli 2023)
-
-Productieversie voor klanten met een Fast-release: na de release 23.3 bekend te maken
-
-Productieversie voor alle klanten: met de release van 23.4
-
 ### Week van 12 juni 2023
 
 #### Nieuwe opmerkingervaring voor kaarten in het gebied van de kamers
@@ -174,7 +187,7 @@ Voorbeeld: 15 juni 2023
 
 Productieversie voor vroegtijdige opt-in: 22 juni 2023
 
-Productie voor alle klanten: met de release van 23.3
+Productie voor alle klanten: met de release van 23.3 (juli 2023)
 
 #### Blokkeraanhalingstekens toevoegen aan een opmerking
 
@@ -210,7 +223,7 @@ De nieuwe bètaervaring voor opmerkingen is nu beschikbaar voor projecten, taken
 
 Voorbeeld: 1 juni 2023
 
-Productie: met de release van 23.3
+Productie: met 23.3 release (juli 2023)
 
 >[!NOTE]
 >
@@ -238,7 +251,7 @@ U kunt tijd voor kwesties, taken, en projecten van het gebied van Updates regist
 
 Voorbeeld: 1 juni 2023
 
-Productie: met de release van 23.3
+Productie: met 23.3 release (juli 2023)
 
 ### Week van 15 mei 2023
 

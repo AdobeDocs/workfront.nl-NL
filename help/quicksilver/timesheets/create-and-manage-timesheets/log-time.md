@@ -2,14 +2,14 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Logtijd
-description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
+description: U kunt tijd voor het werkpunten in&nbsp registreren;Adobe Workfront om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3407'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>\
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht release 4de kwartaal 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+
+U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
 Voor meer informatie over het type uren dat u kunt aanmelden in Workfront, raadpleegt u [Uurtypen beheren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
@@ -119,7 +122,7 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
 >
 >Gebruikers die een tijdlijnprofiel hebben toegewezen, kunnen het gedeelte Timesheets zien en de algemene uren van het logbestand. Nochtans, kunnen zij geen uren op om het even welke taken of kwesties registreren die aan hen worden toegewezen die op timesheet verschijnen.
 
-1. Klik op de knop [!UICONTROL **Hoofdmenu**] pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop [!UICONTROL **Hoofdmenu**] pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken [!UICONTROL **Timesheets**]. Uw huidige timesheet wordt standaard weergegeven.
    ![Tijdschema](assets/timesheet-redesigned-nwe.png)
@@ -139,7 +142,7 @@ U kunt algemene uren of project-specifieke uren op een timesheet registreren.
 
 1. (Optioneel) Als u een project, taak of uitgave wilt toevoegen aan de tijdpagina, klikt u op de knop **Item toevoegen** vervolgkeuzemenu in de linkerbovenhoek van de tijdpagina en klik vervolgens op **Projecten toevoegen**, **Taken toevoegen**, of **Problemen toevoegen**.
 
-   Een lijst met projecten, taken of uitgaven wordt weergegeven.
+   Er wordt een lijst met projecten, taken of problemen weergegeven.
 
    <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
@@ -362,13 +365,13 @@ U kunt projectspecifieke tijd op een project, een taak, of een kwestie in de vol
 
 #### Sectie Updates{#updates-section}
 
-<!--remove the note below when the -->
+<!--remove the note below - October 2023 -->
 
 >[!NOTE]
 >
 > Er zijn lichte verschillen in de blik en het gevoel van het gebruikersinterface tussen de huidige en de nieuwe sectie van Updates. De informatie in deze sectie verwijst naar functionaliteit zoals deze wordt weergegeven in de nieuwe opmerkingervaring.
 >
->Voor meer informatie over de nieuwe sectie van Updates, zie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Zie voor meer informatie over de nieuwe sectie Updates [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Om tijd in de sectie van Updates van een project, een taak, of een kwestie te registreren, moet u het volgende hebben:
 
@@ -394,7 +397,7 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
    >   
    >   Rechtsboven in het vak Dagen invoeren ziet u hoeveel uren er in een dag staan.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Geef de volgende informatie op:
 
@@ -402,7 +405,7 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
 
      Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [Bepaal uurtypes en beschikbaarheid voor timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Functie**: (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** instellen, selecteert u een **Functie** in het keuzemenu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Functie**: (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** instellen, selecteert u **Functie** in het keuzemenu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    * **Uren**: Voer het aantal uren in voor het project, de taak of de uitgave.
 
@@ -438,7 +441,7 @@ Om tijd in de sectie van Uren van een project, een taak, of een kwestie te regis
 
      Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [Bepaal uurtypes en beschikbaarheid voor timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Functie**: (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** instellen, selecteert u een **Functie** in het keuzemenu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Functie**: (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** instellen, selecteert u **Functie** in het keuzemenu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 

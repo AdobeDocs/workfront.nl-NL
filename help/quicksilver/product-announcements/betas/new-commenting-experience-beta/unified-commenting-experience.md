@@ -7,20 +7,19 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
 
 # Nieuwe ervaring met opmerkingen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>\
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht release 4de kwartaal 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van geselecteerde objecten.
 
@@ -473,83 +472,97 @@ Voor informatie over de functies die onlangs zijn vrijgegeven voor de nieuwe opm
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 
-De nieuwe ervaring met opmerkingen wordt momenteel ondersteund voor de volgende objecten:
+De nieuwe omgevingen met opmerkingen zijn momenteel beschikbaar voor de volgende objecten en in de volgende omgevingen:
 
-<!--replace the first bullet with this on August 17: 
+* In de productieomgeving voor alle klanten:
 
-<span class="preview">
+   * Als u de bètaervaring inschakelt in de sectie Updates voor
 
-* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+      * Problemen, projecten, taken en documenten
 
-   * Project
-   * Task
-   * Issue
-   * Document
+     Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   >[!TIP]
-   >
-   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+   * Standaard de enige ervaring voor opmerkingen
 
-   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+      * Doelen, kaarten aan boord
 
-</span>
+     >[!NOTE]
+     >
+     >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+* <span class="preview"> In de voorvertoningsomgeving voor alle klanten </span>
 
-* Als u de bètaervaring inschakelt in de sectie Updates voor
+  <span class="preview">
 
-   * Problemen, projecten, taken en documenten
+   * Wanneer u de functie Nieuwe opmerkingen inschakelt in de sectie Updates, worden standaard de volgende objecten gebruikt:
 
-  Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      * Project
+      * Taak
+      * Probleem
+      * Document
 
-<!--replace the second bullet with this on August 17: 
+     >[!TIP]
+     >
+     >De optie Nieuwe ervaring met opmerkingen is standaard ingeschakeld voor deze objecten. U kunt de schakeloptie Nieuwe opmerkingen uitschakelen om de oudere opmerkingervaring weer te geven.
 
-<span class="preview">
+     Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* By default, as the only commenting experience for the following objects:  
+  </span>
 
-  * Goal
+  <span class="preview">
+
+   * Standaard is dit de enige opmerkingervaring voor de volgende objecten:
+
+      * Goal
+
+        >[!NOTE]
+        >
+        >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+      * Kaart aan boord
+      * Team
+      * Sjabloon
+      * Sjabloontaak
+      * Tijdschema
+      * Programma
+      * Portfolio
+      * Gebruiker
+
+     >[!TIP]
+     >
+     >Er is geen optie om de nieuwe opmerkingervaring voor herhalingen in te schakelen. Alleen de oudere ervaring met opmerkingen is beschikbaar voor herhalingen.
+
+  </span>
+
+<!--before August 17: 
+
+The new commenting experience is currently supported for the following objects:
+
+
+* When enabling the Beta experience in the Updates section for 
+
+    * Issues, projects, tasks, and documents
+
+    For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+* By default, as the only commenting experience for
+
+    * Goals, cards on a board
 
     >[!NOTE]
     >
     >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-  * Card on a board
-  * Team
-  * Template
-  * Template Task
-  * Timesheet
-  * Program
-  * Portfolio
-  * User
-
->[!TIP]
->
->There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
-
-</span>
 
 -->
 
-* Standaard de enige ervaring voor opmerkingen
+Afhankelijk van de omgeving waartoe u toegang hebt, kunt u een van de volgende handelingen uitvoeren:
 
-   * Doelen, kaarten aan boord
+* De bètaervaring voor opmerkingen in de productieomgeving inschakelen
+* <span class="preview">Ervaring voor oudere opmerkingen inschakelen in de voorvertoningsomgeving </span>
 
-  >[!NOTE]
-  >
-  >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-<!--display on August 17: 
-
-Depending on the environment you access the commenting experience you can do one of the following: 
-
-* Enable the commenting experience Beta in the Production environment
-* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
--->
-
-De bètaervaring voor opmerkingen inschakelen:
+Om de opmerkingservaring bèta in het milieu van de Productie toe te laten:
 
 1. Ga naar een object waarvoor u de nieuwe opmerkingervaring wilt activeren en klik vervolgens op **Updates** in het linkerdeelvenster.
-1. De optie **Bèta met opmerkingen** schakelen in de rechterbovenhoek van het gebied Updates.
+1. Kies de optie **Bèta met opmerkingen** Schakel rechtsboven in het gedeelte Updates in om dit in te schakelen.
 1. Klikken **Akkoord** in het vak Bètaovereenkomst. Hierdoor wordt de nieuwe opmerkingervaring ingeschakeld voor het geselecteerde object.
 1. Een update typen in het dialoogvenster **Opmerkingen** tab. Het tabblad Opmerkingen moet het standaardtabblad zijn wanneer de nieuwe ervaring wordt geopend
 
@@ -557,20 +570,19 @@ De bètaervaring voor opmerkingen inschakelen:
 
    Klik op de knop  **Systeemactiviteit** om de door Workfront gegenereerde activiteitenupdates weer te geven.
 
-   Ga voor meer informatie over het bijwerken van objecten in de nieuwe opmerkingervaring naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<!--make this available for August 17: 
-
 <span class="preview">
 
-To disable the new commenting experience and display the legacy experience: 
+De nieuwe opmerkingervaring uitschakelen en de oudere ervaring weergeven in de voorvertoningsomgeving:
 
-1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
-1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
-  
-  This changes the Updates area to the legacy commenting stream. 
+1. Ga naar een project, taak, uitgave of document en klik vervolgens op **Updates** in het linkerdeelvenster.
+1. Klik op de knop **Nieuwe opmerkingen** Schakel rechtsboven in het gedeelte Updates in of uit om de selectie van de schakeloptie op te heffen en de nieuwe ervaring uit te schakelen.
 
-1. Start typing an update in the space provided. 
+Hiermee wijzigt u het gebied Updates in de oudere opmerkingsstroom.
+
+1. Een update typen in het dialoogvenster **Opmerkingen** tab. Het tabblad Opmerkingen moet het standaardtabblad zijn wanneer de nieuwe ervaring wordt geopend
+
+   of
+
+   Klik op de knop  **Systeemactiviteit** om de door Workfront gegenereerde activiteitenupdates weer te geven.
+
 </span>
-
--->

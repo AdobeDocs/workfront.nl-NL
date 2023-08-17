@@ -6,9 +6,9 @@ description: Navigeren binnen een portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 In [!DNL Adobe Workfront], vertegenwoordigt een portefeuille een inzameling van projecten die voor de zelfde middelen, begroting, programma, en prioriteit concurreren. Het belangrijkste doel van de portefeuille is om leidinggevenden en projectmanagers bij te staan bij het selecteren van projecten die de organisatie het meest ten goede komen.
 
-Zie voor meer informatie over portfolio&#39;s [Overzicht van Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Zie voor meer informatie over portfolio&#39;s [Overzicht van Portfolio&#39;s in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Toegangsvereisten
 
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -57,15 +57,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront].
 
 1. Klik op [!UICONTROL Portfolios].
-1. Van de **[!UICONTROL Filter]** selecteert u het volgende:
+1. Van de **[!UICONTROL Filter]** Selecteer de volgende opties in het keuzemenu:
 
    * **[!UICONTROL Portfolios I Own]**: Bevat een lijst met portfolio&#39;s waarvoor u als de [!UICONTROL Portfolio Manager].
    * **[!UICONTROL All]**: Bevat alle portfolio&#39;s waarvoor u ten minste toegang hebt tot Weergave.\
 
-      Voor meer informatie over toegang tot Portfolio, zie [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Voor meer informatie over toestemmingen aan Portfolio, zie  [Een portfolio delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+     Voor meer informatie over toegang tot Portfolio&#39;s, zie [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
+      Zie voor meer informatie over machtigingen voor Portfolio&#39;s  [Een portfolio delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
-      Als u nieuwe portfolio&#39;s wilt toevoegen, raadpleegt u [Een portfolio maken](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+     Als u nieuwe portfolio&#39;s wilt toevoegen, raadpleegt u [Een portfolio maken](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 1. Klik op de naam van een portfolio om dit te openen.\
    De volgende maatstaven voor de prestaties van het portfolio worden weergegeven in het dialoogvenster [!UICONTROL Portfolio Details] gebied binnen een portfolio:
@@ -76,27 +76,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Het portfolio [!UICONTROL Alignment]
    * Het portfolio [!UICONTROL Net Value]
 
-1. (Optioneel) Klik op **[!UICONTROL Projects]** in het linkerdeelvenster om projecten weer te geven die zijn gekoppeld aan het geselecteerde portfolio en selecteer vervolgens een van de volgende filters in het menu **[!UICONTROL Filter]** vervolgkeuzemenu:
+1. (Optioneel) Klik op **[!UICONTROL Projects]** in het linkerdeelvenster om projecten weer te geven die aan het geselecteerde portfolio zijn gekoppeld, en selecteer vervolgens een van de volgende filters in het menu **[!UICONTROL Filter]** vervolgkeuzelijst:
 
    * **[!UICONTROL Active]**: Omvat alle projecten verbonden aan de geselecteerde portefeuille die in de volgende statussen zijn:
 
       * [!UICONTROL Planning]
       * [!UICONTROL Approved]
       * [!UICONTROL Current]
-   * **[!UICONTROL Requested]**: Omvat projecten verbonden aan de geselecteerde portefeuille met een status van **[!UICONTROL Requested]**.\
+   * **[!UICONTROL Requested]**: Omvat projecten die zijn gekoppeld aan het geselecteerde portfolio met een status van **[!UICONTROL Requested]**.
 
-      Voor informatie over het herzien van Gevraagde projecten, zie [Gevraagde projecten controleren](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+     Voor informatie over het herzien van Gevraagde projecten, zie [Gevraagde projecten controleren](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
 
-   * **[!UICONTROL All]**: Omvat alle projecten verbonden aan de geselecteerde portefeuille.
+   * **[!UICONTROL All]**: Bevat alle projecten die aan het geselecteerde portfolio zijn gekoppeld.
 
-      >[!NOTE]
-      >
-      >Als u alleen specifieke projecten wilt zien, kunt u overwegen een projectfilter te maken in het dialoogvenster **[!UICONTROL Filter]** vervolgkeuzemenu boven aan de lijst met projecten om het aantal weergegeven projecten te verminderen.
+     >[!NOTE]
+     >
+     >Als u alleen specifieke projecten wilt zien, kunt u overwegen een projectfilter te maken in het dialoogvenster **[!UICONTROL Filter]** vervolgkeuzemenu boven aan de lijst met projecten om het aantal weergegeven projecten te verminderen.
 
-      Zie voor meer informatie over het maken van filters [Overzicht van filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Zie voor meer informatie over het maken van filters [Overzicht van filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Klikken **[!UICONTROL Programs]**&#x200B; in het linkerpaneel om Programma&#39;s binnen de portefeuille tot stand te brengen of bestaande te beheren.\
+1. Klikken **[!UICONTROL Programs]** in het linkerdeelvenster om programma&#39;s in het portfolio te maken of bestaande programma&#39;s te beheren.\
    Voor informatie over programma&#39;s raadpleegt u de [Programma&#39;s maken en beheren](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) sectie.
 
 1. (Optioneel) Breid de **[!UICONTROL Portfolio Details]** in het linkerdeelvenster en klik vervolgens op **[!UICONTROL Overview]** of **[!UICONTROL Custom Forms]** om informatie over het portfolio te bewerken.
@@ -109,18 +109,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Uw bedrijf moet een [!UICONTROL Business] of hoger [!DNL Workfront] van plan zijn toegang te hebben tot [!UICONTROL Portfolio Optimizer].
 
-   Voor informatie over het gebruik van de Portfolio Optimizer raadpleegt u de [Projecten beheren in de Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) sectie.
+   Voor informatie over het gebruik van Portfolio Optimizer, zie [Projecten beheren in Portfolio optimaliseren](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) sectie.
 
 1. (Optioneel) Klik op **Documenten** in het linkerdeelvenster om documenten aan het portfolio te koppelen.
-1. (Optioneel) Klik op **[!UICONTROL Updates]** in het linkerdeelvenster om opmerkingen toe te voegen aan de updatestream van het portfolio.
+1. (Optioneel) Klik op **[!UICONTROL Updates]** in het linkerdeelvenster om opmerkingen toe te voegen aan de updatestream van het portfolio. Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) Klik op de knop **[!UICONTROL More]menu** ![](assets/qs-more-icon-on-an-object.png) Voer een van de volgende handelingen uit:
 
    * Deactiveer het portfolio. Wanneer een portefeuille wordt gedeactiveerd, kunt u het niet meer associëren met projecten op het projectniveau.
    * Het portfolio verwijderen.
 
-      >[!IMPORTANT]
-      >
-      >Hiermee worden de projecten die aan de portfolio zijn gekoppeld, niet verwijderd. Hierdoor wordt de naam van het portfolio verwijderd uit de projecten die er momenteel aan gekoppeld zijn.
+     >[!IMPORTANT]
+     >
+     >Hiermee worden de projecten die aan de portfolio zijn gekoppeld, niet verwijderd. Hierdoor wordt de naam van het portfolio verwijderd uit de projecten die er momenteel aan gekoppeld zijn.
 
    * Het portfolio delen met andere gebruikers.
 

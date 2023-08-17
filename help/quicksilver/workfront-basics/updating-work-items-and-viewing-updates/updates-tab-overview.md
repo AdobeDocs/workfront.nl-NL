@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,24 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>\
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht release 4de kwartaal 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+
+>[!IMPORTANT]
 >
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
 >
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>Afhankelijk van welke omgeving en van welke objecten u de opmerkingervaring opent, ziet u mogelijk verschillende functionaliteit in de sectie Updates.
+>
+>Ga voor meer informatie over de nieuwe opmerkingervaring en de beschikbaarheid ervan naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
 >
 > * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
-
--->
+> * Samenvattingspaneel in lijsten
+> * Samenvattingspaneel in tijdbladen
 
 <!-- with October 26 release: add somewhere this:
 
@@ -44,38 +43,36 @@ ht-degree: 0%
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old note, removed with August 2023: 
+
 >[!NOTE]
 >
->De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->U hebt toegang tot de nieuwe ervaring voor de volgende objecten:
-> * Kwesties, projecten, taken, en documenten.
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     Dit is beschikbaar wanneer u de nieuwe opmerkingervaring inschakelt.
+>     This is available when you enable the new commenting experience.
 >
->     Deze functionaliteit is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
->     * Samenvattingspaneel in lijsten
->     * Samenvattingspaneel in tijdbladen
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * Doelen, kaarten in het gebied van de raden
+> * Goals, cards in the Boards area
 >
->   De nieuwe ervaring met opmerkingen is de enige ervaring voor doelen en kaarten. U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     U kunt updates aan kaarten in het gebied van Boards toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+
+-->
 
 ## Overzicht van de sectie Updates
-
-De informatie in de sectie van Updates is verschillend georganiseerd, afhankelijk van welke milieu u tot het toegang hebt.
-
-### Overzicht van de huidige sectie Updates
-
-<!--October 26 - replace current with legacy-->
 
 * De sectie Updates van een object bevat maximaal 200 van de meest recente updates die in de afgelopen 90 dagen zijn uitgevoerd.
 
@@ -106,12 +103,20 @@ De informatie in de sectie van Updates is verschillend georganiseerd, afhankelij
       <li>Sjabloontaken</li> 
       <li>Timesheets</li> 
       <li>Gebruikers</li>
+      <li>Kaarten aan boord</li>
       </ul> </td> 
     </tr> 
   </tbody> 
   </table>
 
   *Artikelen zijn taken. Alle informatie over taken is ook beschikbaar voor artikelen.
+
+De informatie in de sectie van Updates is verschillend georganiseerd, afhankelijk van welke milieu u tot het toegang hebt.
+
+
+### Overzicht van de huidige sectie Updates
+
+<!--October 26 - replace current with legacy-->
 
 * De huidige sectie van Updates toont de volgende informatie:
 
@@ -128,74 +133,88 @@ De informatie in de sectie van Updates is verschillend georganiseerd, afhankelij
 
 Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
+<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
 
    * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+
+  * The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+    -->
+
 * Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe ervaring met opmerkingen over de volgende objecten:
 
-<!--replace the table with this list on August 17: 
 
-    * Projects
-    * Tasks (and stories)
-    * Issues
-    * Documents
+   * Projecten
+   * Taken (en artikelen)
+   * Problemen
+   * Documenten
+   * Doelen
 
-    <span class="preview">
-    
-    * Templates
-    * Template Tasks
-    * Timesheets
-    * Users
-    * Portfolios
-    * Programs
-    
-    >[!NOTE]
-    >
-    >    You cannot display the new commenting experience for iterations. 
+  >[!NOTE]
+  >
+  >U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-    </span>
-  
-  -->
+   * Kaarten aan boord
 
-<table style="table-layout:auto"> 
+  >[!NOTE]
+  >
+  > U kunt updates aan kaarten in het gebied van Boards toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+  <span class="preview">
+
+   * Sjablonen
+   * Sjabloontaken
+   * Timesheets
+   * Gebruikers
+   * Portfolio&#39;s
+   * Programma&#39;s
+
+  >[!NOTE]
+  >
+  >    U kunt de nieuwe opmerkingervaring voor herhalingen niet weergeven.
+
+  </span>
+
+<!--hidden in August 2023 and replaced by the list above: 
+
+  <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
       <tr> 
       <td> 
         <ul> 
-        <li><p>Doelen</p>
-        <li>Kaarten in het gebied van de kamers*</li>
-          Dit is de enige ervaring voor doelen en kaarten.
+        <li><p>Goals</p>
+        <li>Cards in the Boards area*</li>
+          This is the only experience for goals and cards.
         </li> 
-        <li>Projecten</li>
+        <li>Projects</li>
         </ul> </td> 
       <td> 
         <ul> 
-        <li>Problemen</li> 
-        <li>Taken</li>
-        <li>Documenten</li>
+        <li>Issues</li> 
+        <li>Tasks</li>
+        <li>Documents</li>
         </ul> </td> 
       </tr> 
     </tbody> 
     </table>
 
-*U kunt updates aan kaarten in de gebieden van de Raad toevoegen en bekijken wanneer u de Commentaren en de secties van de Activiteit van het Systeem op een kaart toelaat. Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
+  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+  -->
 
-<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
-* The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
--->
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
@@ -287,7 +306,11 @@ Er zijn sommige beperkingen in de sectie van Updates van een team en wanneer het
 
 ### Beperkingen voor gebruikers en teams
 
-U kunt geen updates uitvoeren op teams. De sectie Updates voor teams wordt gevuld met updates die worden ingevoerd voor de volgende objecten:
+U kunt geen nieuwe opmerkingen toevoegen in de sectie Updates van een team.
+
+<span class="preview">U kunt een antwoord toevoegen aan een update die u in een team weergeeft. De antwoordvertoningen in de sectie van Updates van het team evenals de sectie van Updates van het voorwerp het tot behoort. </span>
+
+De sectie Updates voor teams wordt gevuld met updates die worden ingevoerd voor de volgende objecten:
 
 * Gebruikers
 * Timesheets
