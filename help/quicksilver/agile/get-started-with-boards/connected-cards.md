@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ Wanneer een van de volgende gegevens voor de kaart op de ene locatie wordt bijge
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
+* <span class="preview">[!UICONTROL Documents]</span>
 
 >[!NOTE]
+>
 >Eén verbonden taak of uitgave kan slechts eenmaal per board worden toegevoegd. Dezelfde taak of uitgave kan met meerdere borden worden verbonden.
 
 ## Toegangsvereisten
@@ -143,8 +145,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview"><p>Houd de muis boven de documentminiatuur en klik op <strong>Voorvertoning</strong> om het bestand in de browser of <strong>Downloaden</strong> om het bestand naar uw computer te downloaden.</p></span>
-      <span class="preview"><p><strong>OPMERKING:</strong> Op dit moment moet een document naar de Workfront-taak worden geüpload om op de aangesloten kaart beschikbaar te zijn.</p></span></td>
+      <td><span class="preview">Voor een bestaand document beweegt u de muis boven de documentminiatuur en klikt u op <strong>Voorvertoning</strong> om het bestand in de browser of <strong>Downloaden</strong> om het bestand naar uw computer te downloaden. Zie voor een nieuw document <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Documenten toevoegen aan kaarten</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>

@@ -6,21 +6,24 @@ description: 'In Adobe Workfront kunt u documenten toevoegen aan projecten, take
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront
 
+{{preview-and-fast-release}}
+
 U kunt documenten toevoegen aan projecten, taken of problemen in de volgende gebieden in Adobe Workfront:
 
 * Het gebied Algemene documenten
 * Het gebied Documenten voor een Workfront-object
+* <span class="preview">Een aangesloten kaart op een Workfront-kaart</span>
 
-U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen naar documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten raadpleegt u [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md). Raadpleeg voor meer informatie over het toevoegen van documenten van externe leveranciers van cloud&#39;s de website [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen naar documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten raadpleegt u [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md). Raadpleeg voor meer informatie over het toevoegen van documenten van externe leveranciers van cloud&#39;s [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Er gelden geen beperkingen voor de bestandstypen en -grootten die u kunt uploaden naar Workfront. De upload kan echter alleen worden voltooid als deze binnen vijf minuten is voltooid en u over voldoende opslagruimte beschikt.
 
@@ -44,7 +47,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +65,7 @@ U kunt nieuwe documenten vanuit het bestandssysteem op uw werkstation toevoegen 
 Een document toevoegen:
 
 1. Ga naar het project, de taak, of de kwestie waar u een nieuw document wilt toevoegen.
-1. Klik op de knop **Documenten** en klikt u op de knop **Nieuwe toevoegen** vervolgkeuzemenu.
+1. Klik op de knop **Documenten** en klikt u op de knop **Nieuwe toevoegen** vervolgkeuzelijst.
 
    ![](assets/add-new-350x138.png)
 
@@ -97,7 +100,7 @@ Een document toevoegen:
         <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Een document aanvragen</strong>.</li> 
         <li value="2">In de <strong>Wie vraagt u het bij</strong> typt u de naam van de gebruiker van wie u het document aanvraagt.</li> 
         <li value="3">In de <strong>Vertel ze wat je vraagt</strong> typt u de naam van het document.</li> 
-        <li value="4"> <p>Klikken <strong>Aanvraag verzenden</strong>.</p> <p>Uw verzoek wordt weergegeven op het tabblad Documenten.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Voor meer informatie over het aanvragen van documenten raadpleegt u <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Een document aanvragen</a>.</p> </li> 
+        <li value="4"> <p>Klikken <strong>Aanvraag verzenden</strong>.</p> <p>Uw verzoek wordt weergegeven op het tabblad Documenten.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Zie voor meer informatie over het aanvragen van documenten <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Een document aanvragen</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 

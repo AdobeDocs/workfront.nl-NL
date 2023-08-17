@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 0%
 
 ---
@@ -383,7 +383,7 @@ ht-degree: 0%
       * [E-maillijst van gewenste personen configureren](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
       * [Aankondigingen verzenden](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [Browservereisten](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-      * [Verschillen op basis van Platforms](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+      * [Verschillen op basis van platforms](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
    * Workfront instellen {#set-up-wf}
       * [Instellen](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Standaardwaarden systeem configureren {#configure-system-defaults}
@@ -962,6 +962,7 @@ ht-degree: 0%
       * [Bestaande taken of problemen aan een board toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Kaarten beheren](agile/get-started-with-boards/move-board-items.md)
       * [Controlelijstitems op kaarten beheren](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Documenten toevoegen aan kaarten](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Een kaart van een kaart verwijderen of archiveren](agile/get-started-with-boards/delete-board-items.md)
       * [Filteren en zoeken in een board](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1096,7 +1097,7 @@ ht-degree: 0%
          * [Problemen met Adobe Experience Manager-integratie oplossen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migreren van de verouderde of verbeterde aansluiting naar Workfront voor Adobe Experience Manager as a Cloud Service integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migreren van de verouderde aansluiting naar de verbeterde aansluiting](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [De Workfront verwijderen met de verouderde Adobe Experience Manager-aansluiting](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [De Workfront verwijderen met de Adobe Experience Manager Enhanced-aansluiting](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1210,7 +1211,7 @@ ht-degree: 0%
          * [Factureringsrecords maken](manage-work/projects/project-finances/create-billing-records.md)
          * [Override project-Level het Factureren Tarieven met het bedrijf-Vlakke FactureringsTarieven](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [Overzicht van het overschrijven van de Billing Rates van de Rol en het berekenen van Inkomsten op een project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
-         * [De Factureringstarieven van de Rol van de Opheffing van de Baan op projectniveau](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
          * [Een tariefkaart aan een project koppelen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [Overzicht van het geplande project](manage-work/projects/project-finances/project-planned-benefit.md)
          * [De PIM-methode (Performance Index) instellen](manage-work/projects/project-finances/set-pim.md)
@@ -1247,7 +1248,7 @@ ht-degree: 0%
          * [Overzicht van de geplande startdatum van de taak](manage-work/tasks/task-information/task-planned-start-date.md)
          * [Overzicht van de geplande voltooiing van de taak](manage-work/tasks/task-information/task-planned-completion-date.md)
          * [Overzicht van afhandelingsdatum taak](manage-work/tasks/task-information/handoff-task-date.md)
-         * [Datum en overzicht van Slack taak](manage-work/tasks/task-information/task-slack-date.md)
+         * [Overzicht van Datum Slack taak](manage-work/tasks/task-information/task-slack-date.md)
          * [Overzicht van &quot;Kan starten&quot; voor taken](manage-work/tasks/task-information/can-start-task-overview.md)
          * [Traceermodus instellen voor taken](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [Vertraging taakniveaus bijwerken](manage-work/tasks/task-information/task-leveling-delay.md)
@@ -1366,13 +1367,13 @@ ht-degree: 0%
          * [Informatie bijwerken in de Gantt-grafiek van de takenlijst](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [Niveaubronnen in de Gantt-grafiek](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [De Gantt-grafiek exporteren naar PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Portfolio-beheer {#portfolio-management}
-      * [Portfolio-beheer](manage-work/portfolios/portfolio-management-overview.md)
-      * Portfolio-overzicht in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
-         * [Portfolio](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+   * Beheer van Portfolio&#39;s {#portfolio-management}
+      * [Beheer van Portfolio&#39;s](manage-work/portfolios/portfolio-management-overview.md)
+      * Overzicht van Portfolio&#39;s in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
+         * [Portfolio&#39;s](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navigeren binnen een portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
-         * [Overzicht van Portfolio-beheer](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Portfolio-overzicht in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Overzicht van het beheer van Portfolio&#39;s](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
+         * [Overzicht van Portfolio&#39;s in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Portfolio&#39;s maken en beheren {#create-and-manage-portfolios}
          * [Portfolio&#39;s maken en beheren](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Een portfolio maken](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
@@ -1388,13 +1389,13 @@ ht-degree: 0%
          * [Een bestaand programma toevoegen aan een portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [Een project toevoegen aan een programma](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [Een project uit een programma verwijderen](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * Projecten beheren in de Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
-         * [Projecten beheren in de Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+      * Projecten beheren in Portfolio optimaliseren {#manage-projects-in-portfolio-optimizer}
+         * [Projecten beheren in Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Overzicht van Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-         * [De functie Portfolio optimaliseren zoeken](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+         * [De functie Portfolio optimaliseren vinden](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Overzicht van de Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-         * [Prioriteit geven aan projecten in de Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-         * [Projecten optimaliseren in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+         * [Prioriteit geven aan projecten in Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+         * [Projecten optimaliseren in Portfolio optimaliseren](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Het risico voor de nettowaarde in een portefeuille berekenen](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * Verzoeken {#requests}
       * [Verzoeken](manage-work/requests/requests-overview.md)
@@ -1531,7 +1532,7 @@ ht-degree: 0%
          * [Overzicht van &quot;IF&quot;-instructies](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
          * [Voorbeeld van berekend aangepast veld: geef de manager van de maker van een uitgave weer op het aangepaste formulier voor uitgave](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
          * [Voorbeeld van een berekend aangepast veld: een statustijdstempel weergeven in een aangepast formulier](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-         * [Voorbeeld van berekende aangepaste velden: bewerkingsgeschiedenis van een veld weergeven](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+         * [Voorbeeld van een berekend aangepast veld: bewerkingsgeschiedenis van een veld weergeven](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * Voorbeelden van aangepaste weergaven, filters en groeperingen {#custom-view-samples}
          * [Voorbeelden van aangepaste weergaven, filters en groeperingen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapporten of lijsten: gebruikers weergeven die zijn gekoppeld aan een object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
@@ -1546,7 +1547,7 @@ ht-degree: 0%
          * [Filter: weergaverapporten die zijn gepland voor levering](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
          * [Filter: items weergeven op basis van dezelfde naam wanneer de statussen zijn gekoppeld aan verschillende groepen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
          * [Een rapport groeperen op basis van een aangepast veld met meerdere selecties](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-         * [Groepering: taakgroep op vier niveaus voor Portfolio-eigenaar, programmaeigenaar, projecteigenaar en projectstatus](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+         * [Groepering: taakgroepering op vier niveaus voor eigenaar van Portfolio, eigenaar van programma, eigenaar van project en status van project](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
          * [Groeperen: een vierde groep toevoegen aan een lijst](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
          * [Groeperen: lijstresultaten ordenen met een berekende waarde die hetzelfde is voor alle objecten in de groep](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
          * [Groeperen: het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
@@ -1576,7 +1577,7 @@ ht-degree: 0%
          * [Weergave: een afbeelding weergeven in plaats van een tekenreeks in een kolom](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [Weergave: weergaveobjecten die niet zijn opgenomen in de standaardinterface](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
          * [Weergave: oorspronkelijke informatie weergeven over taken en projectlijsten](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-         * [Weergave: geef Program- en Portfolio-informatie weer in een taakweergave](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+         * [Weergave: informatie over programma en Portfolio weergeven in een taakweergave](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [Weergeven: taakinspringingen weergeven in een takenlijst](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [Weergave: de relatie bovenliggend-onderliggend item in een taak weergeven door de taken in te springen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
          * [Weergeven: documentrapport met koppeling naar proefdruk](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
@@ -1990,7 +1991,7 @@ ht-degree: 0%
       * [Adobe Workfront Fusion op de Adobe Unified Experience](workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
       * [Gebruikers aan Adobe Workfront Fusion toevoegen via de Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
       * [Gebruikers in Adobe Workfront Fusion verwijderen via de Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
-      * [Op Platform gebaseerde beheerverschillen (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
+      * [Platformgebaseerde verschillen in beheer (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
    * Verbindingen in Adobe Workfront Fusion {#connections-in-fusion}
       * [Verbindingen in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
       * [Over het verbinden van Adobe Workfront Fusion met een app of service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
@@ -2102,7 +2103,7 @@ ht-degree: 0%
       * [Datadog-modules](workfront-fusion/apps-and-their-modules/datadog-modules.md)
       * [Modules voor gegevensopslag](workfront-fusion/apps-and-their-modules/data-store-modules.md)
       * [DocuSign-modules](workfront-fusion/apps-and-their-modules/docusign-modules.md)
-      * [Dropbox-modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
+      * [Dropbox](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
       * [E-mailmodules](workfront-fusion/apps-and-their-modules/email-modules.md)
       * [Versleuteling](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
       * [Figuurmodules](workfront-fusion/apps-and-their-modules/figma-modules.md)
@@ -2154,7 +2155,7 @@ ht-degree: 0%
       * [ServiceNow-modules](workfront-fusion/apps-and-their-modules/servicenow-modules.md)
       * [SFTP-modules](workfront-fusion/apps-and-their-modules/sftp.md)
       * [SharePoint-modules](workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
-      * [Slack-modules](workfront-fusion/apps-and-their-modules/slack-modules.md)
+      * [Slack](workfront-fusion/apps-and-their-modules/slack-modules.md)
       * [SOAP-module](workfront-fusion/apps-and-their-modules/soap-module.md)
       * [Split.io-modules](workfront-fusion/apps-and-their-modules/split-io-modules.md)
       * [Tekstparser](workfront-fusion/apps-and-their-modules/text-parser.md)
@@ -2194,7 +2195,7 @@ ht-degree: 0%
          * [XD tekengebieden als proefdrukken uploaden naar Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
          * [XD tekengebieden uploaden naar Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [Proefdrukken van InDesign uploaden](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
-         * [Documenten uploaden van InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+         * [Documenten uploaden vanuit InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [Proefbestanden uploaden van [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [Documenten uploaden van [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
@@ -2253,12 +2254,12 @@ ht-degree: 0%
       * [Adobe Workfront for Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Adobe Workfront for Slack configureren](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [Heb toegang tot uw favorieten en recente punten van Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-      * [Uw werk en goedkeuringen van Slack beheren](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
-      * [Taken en problemen maken met Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
+      * [Uw werk en goedkeuringen beheren vanuit de Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+      * [Taken en problemen maken vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
       * [Zoeken naar Adobe Workfront-objecten van Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
-      * [Adobe Workfront-objecten openen via een gedeelde koppeling in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-      * [Adobe Workfront openen vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Een Slack-opmerking plaatsen als een update](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Adobe Workfront-objecten benaderen via een gedeelde koppeling in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
+      * [Adobe Workfront benaderen vanuit Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+      * [Opmerkingen van Slacks als een update plaatsen](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Adobe Workfront-berichten ontvangen in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront met Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront met Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2477,7 +2478,7 @@ ht-degree: 0%
          * [Problemen oplossen - beschadigd interfacefont in proefdrukviewer op Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Begrijp hoe cache en cookies invloed hebben op Workfront Proef](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Problemen met snelheid in Workfront Proef](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Problemen met het bekijken van proefdrukken - gezamenlijke objecten Flash toegelicht](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
+         * [Problemen met het bekijken van proefdrukken - Flash van gedeelde objecten uitgelegd](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [Problemen oplossen - Workfront Proofing-viewer](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof-integratie {#wf-proof-integrations}
       * [Workfront Proof-integratie](workfront-proof/wp-integrations/wp-integrations.md)
