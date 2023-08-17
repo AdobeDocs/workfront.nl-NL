@@ -7,16 +7,18 @@ description: U kunt gegevens op een aangepast formulier bewerken nadat het formu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # Gegevens bewerken in aangepaste formuliervelden
 
-U kunt gegevens op een aangepast formulier bewerken nadat het formulier aan een object is gekoppeld. Voor informatie over het toevoegen van aangepaste formulieren aan objecten raadpleegt u [Een aangepast formulier toevoegen aan een object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+{{preview-and-fast-release}}
+
+U kunt gegevens op een aangepast formulier bewerken nadat het formulier aan een object is gekoppeld. Zie voor informatie over het toevoegen van aangepaste formulieren aan objecten [Een aangepast formulier toevoegen aan een object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Toegangsvereisten
 
@@ -36,16 +38,16 @@ U moet het volgende hebben:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang bewerken tot het object waarvoor u het aangepaste formulier wilt bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang bewerken tot het object waarvoor u het aangepaste formulier wilt bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Objectmachtigingen</p> </td> 
    <td> 
     <ul> 
      <li> <p>Contribute of hoger voor het object waarvoor u het aangepaste formulier wilt bewerken</p> </li> 
-     <li>Machtigingen weergeven voor de velden die u wilt bewerken. Voor informatie over het delen van machtigingen voor aangepaste velden raadpleegt u <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Delen voor aangepaste velden en widgets configureren</a>.</li> 
+     <li>Machtigingen weergeven voor de velden die u wilt bewerken. Zie voor informatie over het delen van machtigingen voor aangepaste velden <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Delen voor aangepaste velden en widgets configureren</a>.</li> 
      <li> <p>Machtigingen bewerken voor de secties in het formulier waar de velden die u wilt bewerken zich bevinden</p> </li> 
-    </ul> <p>Voor informatie over het aanvragen van aanvullende toegang voor objecten raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+    </ul> <p>Zie voor informatie over het aanvragen van aanvullende toegang voor objecten <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +59,7 @@ U moet het volgende hebben:
 * Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 * Er moeten aangepaste formulieren aan een object zijn gekoppeld.
 
-   Zie voor informatie over het toepassen van aangepaste formulieren op een object [Een aangepast formulier toevoegen aan een object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+  Voor informatie over hoe u aangepaste formulieren op een object kunt toepassen, raadpleegt u [Een aangepast formulier toevoegen aan een object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Informatie bewerken op een aangepast formulier
 
@@ -70,7 +72,7 @@ Het bewerken van gegevens op een aangepast formulier dat aan een object is gekop
 
 1. Blader naar het aangepaste formulier. Als er een aangepast formulier aan het object is gekoppeld, wordt de naam van het formulier als een gebied weergegeven in de sectie Details.
 1. Klik zo nodig op de pijl ![](assets/expand-arrow-right.png) links van de naam van het aangepaste formulier om het uit te vouwen.
-1. Klik in de rechterbovenhoek van de pagina op het pictogram Bewerken ![](assets/edit-icon.png).
+1. Klik rechtsboven op de pagina op het pictogram Bewerken ![](assets/edit-icon.png).
 1. Voer de gegevens in een veld in waartoe u toegang hebt.
 
    ![](assets/click-in-field-to-edit-info-350x132.png)
@@ -93,20 +95,17 @@ Het bewerken van gegevens op een aangepast formulier dat aan een object is gekop
 
    Voor informatie over alle veldtypen raadpleegt u [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Klikken **Opslaan** Wijzigingen.
+1. Klikken **Wijzigingen opslaan**.
 
    >[!IMPORTANT]
    >
+   >U moet alle vereiste velden op het formulier invullen voordat u het formulier kunt opslaan. De naam van een vereist veld wordt gevolgd door een sterretje.
    >
-   >
-   ><!--   >
-   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This is true in "Edit custom forms" but not in "Add a custom form to an object." This snippet is used in both articles. The whole snippet is conditioned for classic only in "Add" but not in "Edit." Don't remove the NWE conditioning in the snippet because it is needed in "Edit."</p>   >
-   >-->   >
-   >
-   >U moet alle vereiste velden op het formulier invullen voordat u het formulier kunt opslaan. De naam van een vereist veld wordt gevolgd door een sterretje.
-   ![](assets/nwe-required-custom-field.png)   >
+   >![](assets/nwe-required-custom-field.png)
 
-   Wanneer iemand gegevens wijzigt in een ander object waarnaar wordt verwezen door berekende aangepaste velden in het object, worden de wijzigingen niet automatisch doorgevoerd in het object. Voor informatie over het handmatig bijwerken van alle berekende aangepaste velden in het object raadpleegt u [Alle berekende aangepaste velden voor een object opnieuw berekenen](#recalculate-all-calculated-custom-fields-for-an-object) in dit artikel.
+   Wanneer iemand gegevens wijzigt in een ander object waarnaar wordt verwezen door berekende aangepaste velden in het object, worden de wijzigingen niet automatisch doorgevoerd in het object. Zie voor informatie over het handmatig bijwerken van alle berekende aangepaste velden in het object [Alle berekende aangepaste velden voor een object opnieuw berekenen](#recalculate-all-calculated-custom-fields-for-an-object) in dit artikel.
+
+   <span class="preview">Wanneer afhankelijke velden op de pagina worden gewijzigd, worden berekende velden op het aangepaste formulier dynamisch opnieuw berekend in real-time. U kunt de bijgewerkte resultaten bekijken zonder het formulier op te slaan. Dit geldt zowel voor berekende velden op standaardformulieren als voor aangepaste formulieren.</span>
 
    U kunt ook handmatig alle berekende aangepaste velden voor een object bijwerken wanneer u het object samen met andere objecten in een lijst bulksgewijs bewerkt. Zie voor instructies [Alle berekende aangepaste velden voor meerdere objecten in een lijst opnieuw berekenen wanneer u de objecten bewerkt](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in dit artikel.
 
@@ -134,9 +133,14 @@ U kunt de aangepaste velden van verschillende objecten handmatig opnieuw bereken
    Workfront berekent alle aangepaste velden voor alle geselecteerde objecten.
 
 >[!TIP]
-Afhankelijk van de complexiteit van uw projecten raden we u aan geen groot aantal projecten te selecteren wanneer u berekende aangepaste velden bulksgewijs herberekent voor optimale prestaties. Sommige dingen die een project te complex zouden kunnen maken zouden veelvoudige gebiedsdelen of taken of een groot aantal douanevelden kunnen zijn.
-Aangepaste expressies bulksgewijs herberekenen in een lijst met projecten:
-1. Ga naar een projectlijst of rapport en selecteer één of verscheidene projecten.
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png)en klik vervolgens op **Aangepaste expressies opnieuw berekenen**.
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
-Workfront berekent alle aangepaste velden voor alle geselecteerde projecten.
+>
+>Afhankelijk van de complexiteit van uw projecten raden we u aan geen groot aantal projecten te selecteren wanneer u berekende aangepaste velden bulksgewijs herberekent voor optimale prestaties. Sommige dingen die een project te complex zouden kunnen maken zouden veelvoudige gebiedsdelen of taken of een groot aantal douanevelden kunnen zijn.
+>
+>Aangepaste expressies bulksgewijs herberekenen in een lijst met projecten:
+>
+>1. Ga naar een projectlijst of rapport en selecteer één of verscheidene projecten.
+>1. Klik op de knop **Meer** menu ![](assets/more-icon.png)en klik vervolgens op **Aangepaste expressies opnieuw berekenen**.
+>
+>![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+>
+>Workfront berekent alle aangepaste velden voor alle geselecteerde projecten.

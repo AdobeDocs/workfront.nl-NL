@@ -4,7 +4,7 @@ description: De blik-en-voelen updates tijdens het Vierde Kwartaal 2023 de tijdk
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ Voor een lijst van alle veranderingen beschikbaar met de Vierde Versie van het K
 
 We hebben de tabbladen voor e-mailmeldingen, herinneringsberichten en e-mailsjablonen in het gedeelte Instellen > E-mail > Meldingen bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront.
 
-Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het systeem](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het systeem](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
