@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,9 @@ De volgende sectie bevat een lijst met functies die zijn toegevoegd na de oorspr
 
 De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. Dit artikel bevat nieuwe functies die worden toegevoegd en problemen die worden opgelost voor de nieuwe opmerkingervaring.
 
-### Week van 14 augustus 2023 (Start van de release van het vierde kwartaal 2023)
+### Week van 14 augustus 2023
+
+[Bekijk een videodemonstratie van alle functies die in de week van 14 augustus 2023 zijn uitgebracht](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nieuwe ervaring met opmerkingen voor extra objecten
 
