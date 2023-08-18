@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
 # Overzicht van blauwdrukken
 
-De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen installeren. Andere gebruikers kunnen door de catalogus bladeren en de installatie van een blauwdruk aanvragen. Zie voor meer informatie [Blader door de catalogus met blauwdrukken en verzoek om installatie van blauwdrukken](../../administration-and-setup/blueprints/browse-catalog.md).
+De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen, dashboards en organisatiestructuren installeren. Andere gebruikers kunnen door de catalogus bladeren en de installatie van een blauwdruk aanvragen. Zie voor meer informatie [Blader door de catalogus met blauwdrukken en verzoek om installatie van blauwdrukken](../../administration-and-setup/blueprints/browse-catalog.md).
 
 Elke blauwdruk is gericht aan een afdeling en specifiek rijpheidsniveau om u te helpen bewezen beste praktijken in uw systeem sneller uitvoeren. De hieronder beschreven rijpingsniveaus worden aangegeven in de blauwdrukcataloguskaart en in de details.
 
@@ -36,10 +36,9 @@ Het blauwdruktype laat zien wat er in de blauwdruk staat. Het type wordt onder a
 
 De volgende typen blauwdrukken zijn beschikbaar:
 
-* Projectsjablonen: Omvat standaardvoorwerpen verbonden aan een projectmalplaatje (taken, kwesties, rollen, en teams), en sommige voorkeur met betrekking tot die voorwerpen. Zie voor meer informatie [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md).
-* Organisatiestructuren: Omvat voorwerpen verbonden aan de structuur van een organisatie (bedrijven, groepen, rollen, en teams). Zie voor meer informatie [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md).
-* Dashboards: Omvat één of meerdere dashboards voor een specifiek gebruiksgeval, zoals de implementatieservices.
-
+* Projectsjablonen: bevat standaardobjecten die zijn gekoppeld aan een projectsjabloon (taken, problemen, rollen en teams) en enkele voorkeuren die betrekking hebben op die objecten. Zie voor meer informatie [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md).
+* Organisatiestructuren: omvat objecten die zijn gekoppeld aan de structuur van een organisatie (bedrijven, groepen, rollen en teams). Zie voor meer informatie [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md).
+* Dashboards: omvat één of meerdere dashboards voor een specifiek gebruiksgeval, zoals de implementatieservices.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
