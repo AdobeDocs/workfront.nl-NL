@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                                <p>Voorvertoningsrelease: 21 augustus 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productie voor raden van bestuur: 24 augustus 2023</p>
+                                <p>Productie voor de vroege toegang tot de kamers: TBD</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 23.8</p>
+                                <p>Productie voor snelle release: TBD</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 23.10 release</p>
