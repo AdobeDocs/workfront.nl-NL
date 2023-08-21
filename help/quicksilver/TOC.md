@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 538e3a5090dce6f6e441da9911269a1d264833f8
+source-git-commit: 1e062b38f0b8e0be1857a1a1fe9e64f1d6fa6c36
 workflow-type: tm+mt
-source-wordcount: '13169'
+source-wordcount: '13176'
 ht-degree: 0%
 
 ---
@@ -430,6 +430,7 @@ ht-degree: 0%
          * [Testomgevingen](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [Sandbox-omgeving voorvertonen](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Aangepaste vernieuwingssandbox-omgeving](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+         * [Objecten van de ene verplaatsen [!DNL Workfront] milieu aan een andere](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * Gebruikers toevoegen {#add-users}
       * [Gebruikers aan Workfront toevoegen](administration-and-setup/add-users/add-users.md)
       * Gebruikers maken en beheren {#create-manage-users}
