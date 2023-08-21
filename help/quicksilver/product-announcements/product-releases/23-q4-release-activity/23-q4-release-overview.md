@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 23.10 release (tenzij anders gespecificeerd)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nieuwe filteropties voor Nieuwe startpagina</a> </p>
+                        <p>Er zijn nu nieuwe filteropties beschikbaar voor de widget Mijn werk in Nieuwe startpagina. U kunt onder andere filters voor objecttypen (taken, problemen en verzoeken) en statussen (niet gereed, klaar om te starten, te werken en te voltooien) kiezen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor aangepaste terminologie voor New Home</a> </p>
+                        <p>Om beter aan de unieke behoeften van organisaties te voldoen, gebruikt Nieuw Huis nu douaneterminologie voor voorwerpen zoals die in de lay-outmalplaatjes van een instantie worden bepaald. Als "Project"-objecten bijvoorbeeld in uw Workfront-instantie als "Campagnes" zijn gelabeld, wordt de widget Mijn projecten in plaats daarvan weergegeven als Mijn campagnes in Nieuw startpunt.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">De knop Nieuwe startpagina wordt verwijderd voor accounts waarvoor Nieuwe startpagina is uitgeschakeld</a> </p>
+                        <p>De knop Nieuwe startpagina proberen is niet meer beschikbaar voor accounts waarvoor Nieuwe startpagina is uitgeschakeld. Het nieuwe Huis moet door de systeembeheerder opnieuw worden toegelaten alvorens individuele gebruikers de knoop kunnen gebruiken om Nieuwe Huis te proberen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
                             </li>
                         </ul>
                     </td>
