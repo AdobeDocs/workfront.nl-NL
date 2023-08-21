@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,8 @@ Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren 
       <td role="rowheader"> <p>Toegang verlenen</p> </td> 
       <td> <p> Selecteer de machtigingen die gebruikers nodig hebben voor een object waaraan het aangepaste formulier is gekoppeld, om deze sectie weer te geven en de veldwaarden ervan te bewerken. 
        <p>De volgende machtigingen zijn beschikbaar onder <b>Gebruikers met deze toegang tot het object kunnen veldwaarden weergeven</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>Weergave</strong>: Machtigingen voor het object weergeven</li>
           <li><p><b>Beperkte bewerking</b>: (Alleen beschikbaar als het object een project, taak, uitgave of gebruiker is):</p> 
           <p>Staat gebruikers toe om aan het voorwerp bij te dragen als het een project, een taak, of een kwestie is.</p>
           <p>Staat gebruikers toe om het profiel uit te geven of de profieltoestemming te bezitten aan het voorwerp als het een gebruiker is.</p></li> 
@@ -125,13 +126,13 @@ Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren 
 
 De beperkte machtiging Bewerken voor afbrekingen van aangepaste formuliersecties is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
 
-In een douaneformulier met een sectieonderbreking die met de Beperkte Edit toestemming wordt gevormd, als u één van de andere objecten types aan de vorm (Portfolio, Programma, Document, Bedrijf, het Verslag van de Facturering, Herhaling, Kosten, of Groep) toevoegt, zult u worden ertoe aangezet om aan de Edit toestemming te schakelen, die met zowel dat objecten type als de bestaande objecten types op de vorm compatibel is.
+Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met de machtiging Beperkte bewerking, een van de andere objecttypen aan het formulier toevoegt (Portfolio, Programma, Document, Bedrijf, Factureringsrecord, Iteratie, Kosten of Groep), wordt u gevraagd om over te schakelen naar de machtiging Bewerken. Deze is compatibel met zowel dat objecttype als de bestaande objecttypen op het formulier.
 
 >[!INFO]
 >
 >**Voorbeeld:** In een douaneformulier verbonden aan het de objecten van het Project type, wordt een sectieonderbreking gevormd met de Beperkte Edit toestemming.
 >
->U voegt het objecttype Portfolio toe aan het formulier, wat betekent dat de optie Beperkte bewerking niet langer beschikbaar is voor het sectie-einde in het formulier.
+>U voegt het objecttype Portfolio aan het formulier toe. Dit betekent dat de optie Beperkte bewerking niet meer beschikbaar is voor het sectie-einde in het formulier.
 >
 >Een bericht op het scherm zet u ertoe aan om op de Edit toestemming over te schakelen, die het minste niveau van toestemmingen compatibel met zowel het de objecten van het Project type als het Portfolio objecten type is.
 

@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: manage-rate-cards
 title: Creditcards beheren
-description: De kaarten van het tarief staan u toe om veelvoudige het facturerings tarieven per rol te bepalen, die op plaats wordt gebaseerd.
+description: Met tariefkaarten kunt u meerdere factureringssnelheden per rol definiëren, op basis van locatie.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-De kaarten van het tarief staan u toe om veelvoudige het facturerings tarieven per rol te bepalen, die op plaats wordt gebaseerd. U zou een baan van Ontwerper kunnen hebben die in Parijs wordt gevestigd en een tweede Ontwerper die in New York wordt gebaseerd, elk met verschillende factureringstarieven. Nochtans, wordt een plaats niet vereist voor baanrollen op een tariefkaart. Een factureringstarief voor een baanrol (en misschien plaats) op een tariefkaart kan efficiënte data ook omvatten.
+Met tariefkaarten kunt u meerdere factureringssnelheden per rol definiëren, op basis van locatie. U zou een baan van Ontwerper kunnen hebben die in Parijs wordt gevestigd en een tweede Ontwerper die in New York wordt gebaseerd, elk met verschillende factureringstarieven. Nochtans, wordt een plaats niet vereist voor baanrollen op een tariefkaart. Een factureringstarief voor een baanrol (en misschien plaats) op een tariefkaart kan efficiënte data ook omvatten.
 
 ## Toegangsvereisten
 
@@ -52,15 +52,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidkaarten**].
-1. Klikken [!UICONTROL **Nieuwe tariefkaart**] Voer vervolgens de naam en beschrijving van de creditcard in de lijst in.
-1. Als u factuursnelheden wilt toevoegen, klikt u op de naam van de tariefkaart in de lijst.
-1. Klik op het kaartscherm op [!UICONTROL **Nieuwe factureringsfrequentie**].
-1. Selecteer een [!UICONTROL **Functie**] factureringssnelheden definiëren voor.
+1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidskaarten**].
+1. Klikken [!UICONTROL **Nieuwe tariefkaart**] Typ vervolgens een naam voor de tariefkaart in het dialoogvenster [!UICONTROL **Creditcard**] veld, ter vervanging van &quot;Naamloze tariefkaart&quot;.
+1. Klik op het kaartscherm op [!UICONTROL **Functie toevoegen**].
+1. Selecteer een [!UICONTROL **Functie**] om factureringstarieven te bepalen voor.
 
-   Het standaardFactureringstarief toont het systeem-vlakke tarief voor deze baanrol.
+   Het standaardFactureringstarief toont het systeem-vlakke tarief voor deze baanrol, als wordt bepaald.
 
-   ![Het dialoogvenster Nieuwe factureringsfrequentie](assets/location-rate-for-rate-card.png)
+   ![Dialoogvenster Nieuwe factureringsfrequentie](assets/location-rate-for-rate-card.png)
 
 1. Selecteer een [!UICONTROL **Valuta**] voor de functie.
 1. (Optioneel) Selecteer een [!UICONTROL **Locatie**] voor de functie.
@@ -79,23 +78,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      Factureringsgraad 1 zal geen begindatum hebben en het laatste factureringstarief zal geen einddatum hebben. Sommige datums worden automatisch toegevoegd. Bijvoorbeeld, als het Facturerings Tarief 1 geen einddatum heeft, en u het Facturerings Tarief 2 met een begindatum van 1 mei 2023 toevoegt, wordt een einddatum van 30 april, 2023 toegevoegd aan het Facturerings Tarief 1 zodat geen hiaten bestaan.
 
 1. Klikken [!UICONTROL **Opslaan**].
-1. (Optioneel) Als u nog een factureringsniveau wilt toevoegen, voor dezelfde taakrol op een andere locatie of voor een aparte taakrol, klikt u op [!UICONTROL **Nieuwe factureringsfrequentie**].
+1. (Optioneel) Als u nog een factureringsniveau wilt toevoegen, voor dezelfde taakrol op een andere locatie of voor een aparte taakrol, klikt u op [!UICONTROL **Functie toevoegen**].
+1. (Optioneel) Als u een factureringssnelheid wilt bewerken, selecteert u de frequentie op de kaart en klikt u op de knop **Bewerken** pictogram.
 
 ## Een creditcard kopiëren
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidkaarten**].
-1. Schakel het selectievakje in naast de tariefkaart in de lijst en klik op de knop **Kopiëren** pictogram ![Pictogram Kopiëren](assets/copy-icon.png).
+1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidskaarten**].
+1. Schakel het selectievakje naast de tariefkaart in de lijst in en klik op de knop **Kopiëren** pictogram ![Pictogram kopiëren](assets/copy-icon.png).
 
    Er wordt een creditcard met dubbele snelheden toegevoegd. Klik op de naam van de tariefkaart in de lijst om de naam ervan te wijzigen.
 
-## Een creditcard voor een tarief verwijderen
+## Een volledige tariefkaart verwijderen
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidkaarten**].
-1. Schakel het selectievakje naast de tariefkaart in de lijst in en klik op de knop **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png).
+1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidskaarten**].
+1. Schakel het selectievakje naast de tariefkaart in de lijst in en klik op **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png).
 
    >[!NOTE]
    >
