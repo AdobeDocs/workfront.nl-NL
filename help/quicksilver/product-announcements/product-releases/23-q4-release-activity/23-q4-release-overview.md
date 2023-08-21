@@ -3,7 +3,7 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 3 augustus 2023<br /></p>
+                                <p>Voorvertoningsrelease: 3 augustus 2023</p>
                             </li>
                             <li>
                                 <p>Productie voor raden van bestuur: 10 augustus 2023</p>
@@ -88,7 +88,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 3 augustus 2023<br /></p>
+                                <p>Voorvertoningsrelease: 3 augustus 2023</p>
                             </li>
                              <li>
                                 <p>Productie voor snelle release: met de release van 23.8</p>
@@ -105,10 +105,10 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 21 augustus 2023<br /></p>
+                                <p>Voorvertoningsrelease: 21 augustus 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor de vroege toegang tot de kamers: TBD</p>
+                                <p>Productie voor raden van bestuur: 24 augustus 2023</p>
                             </li>
                             <li>
                                 <p>Productie voor snelle release: TBD</p>
