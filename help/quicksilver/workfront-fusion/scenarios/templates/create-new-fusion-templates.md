@@ -3,20 +3,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Nieuwe sjablonen maken in [!DNL Adobe Workfront Fusion]
-description: U kunt nieuwe scenario-sjablonen maken in [!DNL Adobe] Workfront Fusion.
+description: U kunt nieuwe scenariosjablonen maken in [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Nieuwe sjablonen maken in [!DNL Adobe Workfront Fusion]
 
-U kunt nieuwe scenario-sjablonen maken in [!DNL Adobe] Workfront Fusion.
+U kunt nieuwe scenariosjablonen maken in [!DNL Adobe] Workfront Fusion.
 
 >[!TIP]
 >
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>    </tr> 
@@ -49,9 +49,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -72,8 +72,8 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 
 1. Klikken **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) in het linkernavigatievenster.
 1. Klikken **[!UICONTROL Create a new template]** in de rechterbovenhoek.
-1. (Optioneel) Wijzig de naam van de sjabloon door de standaardnaam te vervangen **[!UICONTROL New template name]** in de linkerbovenhoek.
-1. (Optioneel) Als u de taal van de sjabloon wilt wijzigen, klikt u op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
+1. (Optioneel) Wijzig de naam van de sjabloon door de standaardnaam te vervangen **[!UICONTROL New template name]** in de linkerbovenhoek
+1. (Optioneel) Klik op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
 
    >[!IMPORTANT]
    >
@@ -82,7 +82,7 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 1. (Optioneel) Als u een beschrijving van de sjabloon wilt invoeren, klikt u op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en voert u de beschrijving in.
 1. U kunt toepassingen, modules en gereedschappen op dezelfde manier toevoegen als wanneer u een standaardscenario maakt.
 
-   Als u contextafhankelijke Help wilt toevoegen aan de modules, raadpleegt u [Instellen [!UICONTROL Wizard] functionaliteit](#set-up-wizard-functionality) in dit artikel.
+   Als u contextafhankelijke Help wilt toevoegen aan de modules raadpleegt u [Instellen [!UICONTROL Wizard] functionaliteit](#set-up-wizard-functionality) in dit artikel.
 
    Voor meer informatie bij het bouwen van een scenario, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -95,7 +95,7 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 
 >[!NOTE]
 >
->Door uw sjabloon op te slaan maakt u deze zichtbaar voor al uw teamleden. Als u uw malplaatje buiten uw team toegankelijk wilt zijn moet u het publiceren en dan een gedeelde verbinding gebruiken, of uw beheerder vragen om het malplaatje goed te keuren en te publiceren.
+>Door uw sjabloon op te slaan maakt u deze zichtbaar voor al uw teamleden. Als u wilt dat uw sjabloon toegankelijk is buiten uw team, moet u een verzoek indienen om de sjabloon te laten goedkeuren en publiceren. De aanvraag wordt ter goedkeuring naar Adobe Workfront gestuurd en nadat deze is goedgekeurd, is de sjabloon toegankelijk voor anderen buiten uw team.
 
 ### Een sjabloon maken op basis van een scenario
 
@@ -104,12 +104,12 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 >U moet een beheerder van de Fusie zijn om een malplaatje van een scenario tot stand te brengen.
 
 1. Open de pagina met de scenariodetails voor het scenario waarvan u een scenario wilt maken.
-1. Klik op de knop **Beheer** naar beneden in de rechterbovenhoek van de pagina.
+1. Klik op de knop **Beheerder** naar beneden in de rechterbovenhoek van de pagina.
 1. Selecteren **Klonen als sjabloon**.
 
    Het scenario wordt gekopieerd naar een Nieuwe sjabloonpagina.
-1. (Optioneel) Wijzig de naam van de sjabloon door de standaardnaam te vervangen **[!UICONTROL New template name]** in de linkerbovenhoek.
-1. (Optioneel) Als u de taal van de sjabloon wilt wijzigen, klikt u op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
+1. (Optioneel) Wijzig de naam van de sjabloon door de standaardnaam te vervangen **[!UICONTROL New template name]** in de linkerbovenhoek
+1. (Optioneel) Klik op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
 
    >[!IMPORTANT]
    >
@@ -118,7 +118,7 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 1. (Optioneel) Als u een beschrijving van de sjabloon wilt invoeren, klikt u op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en voert u de beschrijving in.
 1. U kunt apps, modules en gereedschappen op dezelfde manier bewerken als wanneer u een standaardscenario bewerkt.
 
-   Als u contextafhankelijke Help wilt toevoegen aan de modules, raadpleegt u [Instellen [!UICONTROL Wizard] functionaliteit](#set-up-wizard-functionality) in dit artikel.
+   Als u contextafhankelijke Help wilt toevoegen aan de modules raadpleegt u [Instellen [!UICONTROL Wizard] functionaliteit](#set-up-wizard-functionality) in dit artikel.
 
    >[!NOTE]
    >
