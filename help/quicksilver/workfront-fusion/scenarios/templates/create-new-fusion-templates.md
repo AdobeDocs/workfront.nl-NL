@@ -7,9 +7,9 @@ description: U kunt nieuwe scenariosjablonen maken in [!DNL Adobe] Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 >[!NOTE]
 >
 >Door uw sjabloon op te slaan maakt u deze zichtbaar voor al uw teamleden. Als u wilt dat uw sjabloon toegankelijk is buiten uw team, moet u een verzoek indienen om de sjabloon te laten goedkeuren en publiceren. De aanvraag wordt ter goedkeuring naar Adobe Workfront gestuurd en nadat deze is goedgekeurd, is de sjabloon toegankelijk voor anderen buiten uw team.
+>
+>Zie voor informatie over het publiceren van sjablonen [Publiceren en delen [!DNL Adobe Workfront Fusion] sjablonen](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### Een sjabloon maken op basis van een scenario
 
