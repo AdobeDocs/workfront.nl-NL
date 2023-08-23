@@ -6,9 +6,9 @@ description: U kunt aanpassen welke velden op een kaart worden weergegeven door 
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Schakel een veld of sectie uit om het in beide kaartweergaven uit te schakelen.
 1. Klik op het pictogram Verbergen ![Pictogram verbergen](assets/eye-hide-icon.png) naast een veld of sectie om deze in de versmalde weergave te verbergen.
-1. Als u alle velden en secties in beide weergaven wilt weergeven, klikt u op [!UICONTROL **Standaardwaarden van alle velden herstellen**].
-1. Klikken [!UICONTROL **Configuratie verbergen**] om het Configure paneel te sluiten.
+1. Klik op [!UICONTROL **Standaardwaarden van alle velden herstellen**].
+1. Klikken [!UICONTROL **Configureren verbergen**] om het Configure paneel te sluiten.
 
 ## Aangepaste velden toevoegen aan kaarten
 
@@ -90,9 +90,13 @@ Aangepaste velden zijn beschikbaar op verbonden kaarten. Ze zijn alleen zichtbaa
 
 1. Selecteer de veldnaam.
 1. (Optioneel) Klik in het dialoogvenster **[!UICONTROL Field value]** om dit aangepaste veld te wijzigen in een ander veld.
-1. (Optioneel) Wijzig de **[!UICONTROL Field label]** aan de veldnaam die u op kaarten wilt weergeven.
+1. (Optioneel) Wijzig de instelling **[!UICONTROL Field label]** aan de veldnaam die u op kaarten wilt weergeven.
 1. Als u alle gewenste wijzigingen hebt aangebracht, klikt u op [!UICONTROL **Veld opslaan**].
 
    ![Waarde en label van aangepast veld](assets/save-custom-field-value-label.png)
 
    Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het aangepaste veld uitschakelen in het kader van de stappen in het dialoogvenster [Kaarten configureren](customize-fields-on-card.md#configure-cards) van alle kaarten te verwijderen.
+
+>[!NOTE]
+>
+>Als u het aangepaste veld later in Workfront een andere naam geeft, moet u het veldlabel in het deelvenster Configureren bewerken, anders wordt het veld niet op de kaarten weergegeven.
