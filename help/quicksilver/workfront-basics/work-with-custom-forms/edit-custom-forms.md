@@ -7,9 +7,9 @@ description: U kunt gegevens op een aangepast formulier bewerken nadat het formu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Het bewerken van gegevens op een aangepast formulier dat aan een object is gekop
 
    Wanneer iemand gegevens wijzigt in een ander object waarnaar wordt verwezen door berekende aangepaste velden in het object, worden de wijzigingen niet automatisch doorgevoerd in het object. Zie voor informatie over het handmatig bijwerken van alle berekende aangepaste velden in het object [Alle berekende aangepaste velden voor een object opnieuw berekenen](#recalculate-all-calculated-custom-fields-for-an-object) in dit artikel.
 
-   <span class="preview">Wanneer afhankelijke velden op de pagina worden gewijzigd, worden berekende velden op het aangepaste formulier dynamisch opnieuw berekend in real-time. U kunt de bijgewerkte resultaten bekijken zonder het formulier op te slaan. Dit geldt zowel voor berekende velden op standaardformulieren als voor aangepaste formulieren.</span>
+   <span class="preview">Wanneer afhankelijke velden op de pagina worden gewijzigd, worden berekende velden op het aangepaste formulier dynamisch opnieuw berekend in real-time. U kunt de nieuwe berekende veldwaarde zien zonder het formulier op te slaan, maar deze wordt pas daadwerkelijk toegepast op het formulier en het object als u de wijzigingen opslaat. Dit geldt zowel voor berekende velden op standaardformulieren als voor aangepaste formulieren.</span>
 
    U kunt ook handmatig alle berekende aangepaste velden voor een object bijwerken wanneer u het object samen met andere objecten in een lijst bulksgewijs bewerkt. Zie voor instructies [Alle berekende aangepaste velden voor meerdere objecten in een lijst opnieuw berekenen wanneer u de objecten bewerkt](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in dit artikel.
 
