@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 ## Verbeteringen voor Adobe Workfront
 
 * [Verbeteringen voor borden](#boards-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -60,6 +61,42 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen voor gebruikerstoewijzingen op borden en kaarten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Er zijn nu verbeteringen beschikbaar die flexibiliteit bieden bij het toevoegen van gebruikers aan borden en kaarten in Adobe Workfront Boards.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 21 augustus 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 24 augustus 2023</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Documenten toevoegen aan verbonden kaarten</a></p><p>U kunt nu documenten op verbonden kaarten aan Adobe Workfront Boards toevoegen. Alle documenten die u op de kaart toevoegt, worden beschikbaar op het tabblad Documenten van de verbonden taak of uitgave. Dezelfde bestandstypen worden in beide gebieden ondersteund.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 21 augustus 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor raden van bestuur: 24 augustus 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: TBD</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documenten die als alleen-weergeven beschikbaar zijn op verbonden kaarten</a></p><p>Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbeeldingen en PDF bekijken. U kunt een voorvertoning van een document weergeven in de browser of het document downloaden naar de computer. </p>
@@ -98,29 +135,65 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### Verbeteringen voor integratie
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Documenten toevoegen aan verbonden kaarten</a></p><p>U kunt nu documenten op verbonden kaarten aan Adobe Workfront Boards toevoegen. Alle documenten die u op de kaart toevoegt, worden beschikbaar op het tabblad Documenten van de verbonden taak of uitgave. Dezelfde bestandstypen worden in beide gebieden ondersteund.</p>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen op gebied van ervaring bij het verzenden van documenten naar SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p><p>We hebben een aantal wijzigingen aangebracht om het gemakkelijker te maken om mappen te zoeken wanneer u documenten naar uw SharePoint-mappen (GraphAPI) verzendt</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 21 augustus 2023</p>
-                            </li>
-                            <li>
-                                <p>Productie voor raden van bestuur: 24 augustus 2023</p>
+                                <p>Voorvertoning release: 24 augustus<br /></p>
                             </li>
                             <li>
                                 <p>Productie voor snelle release: TBD</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                                <p>Productie voor driemaandelijkse release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades voor slepen en neerzetten voor documentintegratie</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p><p>Er zijn verbeteringen aangebracht om de duidelijkheid te verbeteren en gebruikersfouten te verwijderen bij het slepen en neerzetten van een bestand in een gekoppelde map.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: 24 augustus<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: TBD</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: TBD</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### Projectverbeteringen
 
