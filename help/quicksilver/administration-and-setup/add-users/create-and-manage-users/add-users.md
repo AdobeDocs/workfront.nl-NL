@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 9bcd792139f8f2f0198da943e5c63a2add32e856
+source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn gegaan. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>De op deze pagina beschreven procedure is van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>
+>De beheerders van de groep in organisaties die aan Adobe Admin Console zijn genegeerd kunnen deze procedure gebruiken om gebruikers tot stand te brengen en de gebruiker voor admin goedkeuring voor te leggen.
 >
 >Voor instructies voor het toevoegen van een gebruiker in de Adobe Admin Console:
 >
@@ -27,7 +29,7 @@ ht-degree: 0%
 >* Zie de sectie Gebruikers toevoegen in het artikel [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
 >* Neem contact op met uw Adobe Admin Console-beheerder.
 >
->Voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console, raadpleegt u [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 U kunt gebruikers toevoegen in Adobe Workfront door nieuwe individuele gebruikers te maken of bestaande gebruikers te kopiëren.
 
@@ -58,7 +60,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau van de Beheerder van het Systeem. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
      <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -76,18 +78,18 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
    * Standaardwachtwoord
    * E-mailadres
 
-   >[!NOTE]
-   >
-   >U kunt bepalen of gebruikers de contactinformatie van andere gebruikers kunnen bekijken door het plaatsen van de Mening van Gebruikers te verfijnen wanneer het specificeren van toegangsniveaus voor de voorwerpen van Workfront. Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  >[!NOTE]
+  >
+  >U kunt bepalen of gebruikers de contactinformatie van andere gebruikers kunnen bekijken door het plaatsen van de Mening van Gebruikers te verfijnen wanneer het specificeren van toegangsniveaus voor de voorwerpen van Workfront. Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Wat is de positie van de nieuwe gebruiker binnen het bedrijf? Heeft deze persoon directe meldingen? Aan wie rapporteert deze persoon?
-* Welke functie vervult de persoon? Bestaat deze functie in Workfront? Bestaat er een limiet voor het aantal mensen dat deze functie kan vervullen? Voor informatie over het maken van taakrollen raadpleegt u [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Welke functie vervult de persoon? Bestaat deze functie in Workfront? Bestaat er een limiet voor het aantal mensen dat deze functie kan vervullen? Zie voor informatie over het maken van taakrollen [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 * Welk toegangsniveau zou de gebruiker moeten hebben? Bestaat deze al of moet u een nieuwe maken? Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-* In welke thuisgroep moet deze gebruiker zich bevinden? Moet de persoon in meer dan één groep zijn? Voor informatie over groepen raadpleegt u [Overzicht van groepen](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+* In welke thuisgroep moet deze gebruiker zich bevinden? Moet de persoon in meer dan één groep zijn? Zie voor informatie over groepen [Overzicht van groepen](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 * Welk huisteam zou deze gebruiker binnen moeten zijn? Moet de persoon in meer dan één team zitten? Voor informatie over teams, zie [Teams overzicht](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Welke douaneinformatie moet u met deze gebruiker associëren?
 
-   Als informatie over gebruikers wordt vastgelegd in aangepaste velden die u hebt gemaakt, moet u een aangepast formulier klaar hebben wanneer u een gebruiker maakt. Voor informatie over aangepaste formulieren raadpleegt u [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Als informatie over gebruikers wordt vastgelegd in aangepaste velden die u hebt gemaakt, moet u een aangepast formulier klaar hebben wanneer u een gebruiker maakt. Voor informatie over aangepaste formulieren raadpleegt u [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Een nieuwe gebruiker maken
 
@@ -103,7 +105,7 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
 
 1. In de **Nieuwe gebruiker** vak dat wordt weergegeven, klikt u op **Geavanceerde opties tonen** en configureert u vervolgens de beschikbare opties om de gegevens van de persoon in te voeren.
 
-   Voor informatie over deze opties raadpleegt u [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Zie voor informatie over deze opties [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Voer een van de volgende handelingen uit:
 
@@ -115,9 +117,12 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
    >Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld, is de optie Alleen toestaan &lt;sso configuration=&quot;&quot;> Het verificatieveld is verborgen als u de e-mailuitnodiging uitschakelt. De federatie-id of &lt;sso configuration=&quot;&quot;> Het veld Gebruikersnaam blijft zichtbaar.
 
    >[!NOTE]
+   >
    Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
+   >
    De nieuwe gebruikers van de Adobe worden toegevoegd aan de Admin Console, en de Admin Console levert een e-mail om hen uit te nodigen om het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om tot om het even welk systeem van de Adobe toegang te hebben.
-   Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
+   >
+   Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
 
 1. Klikken **Deze gebruiker toevoegen**.
 
@@ -125,17 +130,22 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
 
    Klikken **Personen gebruiker toevoegen en een andere gebruiker starten** om de nieuwe gebruiker op te slaan en een andere gebruiker toe te voegen.
 
+   >[!NOTE]
+   >
+   Als u een groepsbeheerder bent die een gebruiker aan een organisatie toevoegt die aan Adobe Admin Console is geregistreerd, zijn de opties voor deze stap **Gebruiker verzenden voor goedkeuring door beheerder** en **Ter goedkeuring verzenden en een andere beginnen**. De gebruiker wordt aangemaakt in een gedeactiveerde en in afwachting van de goedkeuringsstatus. Een Workfront-beheerder moet de gebruiker goedkeuren, die de gebruiker in Workfront activeert en deze aan de Adobe Admin Console toevoegt.
+
 ## Een gebruiker kopiëren om een nieuwe te maken
 
 U kunt een gebruiker maken door een bestaande gebruiker te kopiëren.
 
 >[!NOTE]
+>
 Wanneer u op deze manier een gebruiker maakt, wordt alle informatie van de oorspronkelijke gebruiker naar de nieuwe gebruiker gekopieerd, behalve de volgende:
+>
 * De informatie in de Persoonlijke sectie van Info.
-* Wanneer ik inlog, toon: Het standaardlandingslusje voor het toegangsniveau wordt geselecteerd in dit vakje.
+* Wanneer ik login, toon: Het standaardlandende lusje voor het toegangsniveau wordt geselecteerd in dit vakje.
 * Directe rapporten
 >
-
 
 Nieuwe gebruiker maken door een bestaande gebruiker te kopiëren:
 
@@ -156,6 +166,9 @@ Hiermee maakt u in Workfront een nieuwe account voor de gebruiker.
 Als u de optie hebt geselecteerd om een uitnodiging naar de gebruiker te verzenden, ontvangt u een e-mail waarin deze een koppeling kan volgen om het Workfront-wachtwoord te maken.
 
 >[!NOTE]
+>
 Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
+>
 De nieuwe gebruikers van de Adobe worden toegevoegd aan de Admin Console, en de Admin Console levert een e-mail om hen uit te nodigen om het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om tot om het even welk systeem van de Adobe toegang te hebben.
-Voor bestaande Adobe-gebruikers kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
+>
+Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
