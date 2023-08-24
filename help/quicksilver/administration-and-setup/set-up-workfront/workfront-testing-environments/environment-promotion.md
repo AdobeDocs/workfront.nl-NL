@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4042384f4e3c70bb23d585d5a5e392d624ac6cb4
+source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2317'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Werkobjecten
 
-| Promoteerbaar object | Opgenomen subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
 | --- | --- |
 | Project (PROJ) | Project<br>Taak<br>Toewijzing<br>Voorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
 | Sjabloon (TMPL) | Sjabloon<br>Sjabloontaak<br>Toewijzing sjabloontaak<br>Sjabloontaakvoorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
 
 ### Objecten rapporteren
 
-| Promoteerbaar object | Opgenomen subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
 | --- | --- |
 | Lay-outsjabloon (UITMPL) | Lay-outsjabloon<br>Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
 | Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
@@ -92,7 +92,7 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Aangepaste gegevensobjecten
 
-| Promoteerbaar object | Opgenomen subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
 | --- | --- |
 | Categorie (CTGY) | Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica<br>Groep |
 | Parameter (PARAM) | Parameter<br>Parameteroptie |
@@ -100,7 +100,7 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Organisatie-objecten
 
-| Promoteerbaar object | Opgenomen subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
 | --- | --- |
 | Groep (GROEP) | Groep <br>Subgroepen (maximaal 5 niveaus)<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
 | Rol (ROLE) | Rol |
@@ -111,7 +111,7 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Andere configuratieobjecten
 
-| Promoteerbaar object | Opgenomen subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
 | --- | --- |
 | Goedkeuringsproces (ARVPRC) | Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Rol<br>Team<br>Groep |
 | Schema (SCHED) | Schema<br>Onwerkdag<br>Groep |
@@ -126,7 +126,7 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 De API verifieert elke aanvraag om ervoor te zorgen dat de client toegang heeft om een aangevraagd object te bekijken of te wijzigen.
 
-Verificatie wordt uitgevoerd door een sessie-id door te geven die kan worden gegeven met een van de volgende methoden:
+Verificatie wordt uitgevoerd door een sessie-id of API-sleutel door te geven. Deze kan op een van de volgende manieren worden gegeven:
 
 ### Koptekstverificatie aanvragen
 
@@ -138,22 +138,6 @@ Hieronder ziet u een voorbeeld van een aanvraagkoptekst:
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
-
-### Parameterverificatie aanvragen
-
-U kunt verifiëren door een verzoekparameter genoemd sessionID over te gaan, zoals aangetoond in het volgende voorbeeld: 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
-### Verificatie op basis van cookie
-
-De API gebruikt de zelfde op koekje-gebaseerde authentificatie die door Web UI aan het systeem wordt gebruikt. Als een client zich aanmeldt bij Workfront via de webinterface, wordt voor alle AJAX aanroepen die vanuit dezelfde browser worden uitgevoerd, dezelfde verificatie gebruikt.
-
->[!NOTE]
->
->Ter bescherming tegen de mogelijkheid van aanvallen CSRF (Cross-Site Request Svervalsing), is deze methode van authentificatie slechts beschikbaar voor read-only verrichtingen.
 
 ## API-eindpunten
 
@@ -189,13 +173,13 @@ In de tweede stap worden de `objectCollections` -array in de POST-instantie om d
 
 >[!NOTE]
 >
-Noteer de structuur van de `objectCollections`  array.
+>Noteer de structuur van de `objectCollections`  array.
 >
-Elk item in de array bevat een `objCode` sleutel die overeenkomt met de objectcode die wordt gedocumenteerd in de Workfront API Explorer.
+>Elk item in de array bevat een `objCode` sleutel die overeenkomt met de objectcode die wordt gedocumenteerd in de Workfront API Explorer.
 >
-Elk item bevat ook een `entities` verzameling. Dit verwacht `ID` en `name` toetsen om aanwezig te zijn.
+>Elk item bevat ook een `entities` verzameling. Dit verwacht `ID` en `name` toetsen om aanwezig te zijn.
 >
-Voor de lijst met toegestane objectcodes die moet worden aangevraagd in het dialoogvenster `objectCollections` lijst, zie [Ondersteunde objecten voor milieubescherming](#supported-objects-for-environment-promotion) in dit artikel.
+>Voor de lijst met toegestane objectcodes die moet worden aangevraagd in het dialoogvenster `objectCollections` lijst, zie [Ondersteunde objecten voor milieubescherming](#supported-objects-for-environment-promotion) in dit artikel.
 
 #### URL
 
@@ -207,7 +191,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -273,7 +259,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
 }
 ```
@@ -303,7 +288,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -330,7 +317,6 @@ _Leeg_
             "createdAt": "2023-06-06T17:29:21.600Z",
             "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
             "publishedAt": null,
-            "isPrivate": true,
             "customerId": "61aa9d090005fa42152c1cb66659f38d"
         },
         {...}
@@ -363,7 +349,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -389,21 +377,15 @@ _Leeg_
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
                    "name": "Default Group",
-                   "description"
+                   "description": "null"
+                   - or -
+                   "description": "..."
                }
             ],
             "ROLE": [
@@ -436,7 +418,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -452,13 +436,6 @@ _Leeg_
 
 ```json
 {
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
     "packageEntities": {
         "GROUP": [
            {
@@ -472,7 +449,7 @@ _Leeg_
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -504,12 +481,11 @@ De aanvraag verwacht dat alle bewerkbare velden worden opgegeven.
 De bewerkbare kenmerken zijn:
 
 1. name (string)
-2. description (string)
-3. bron (tekenreeks met URL-validatie)
-4. status (tekenreeks met validatie van waarden)
-5. version (geheel getal)
-6. metagegevens (verzameling)
-7. packageEntities (collectie)
+1. description (string)
+1. bron (tekenreeks met URL-validatie)
+1. status (tekenreeks met validatie van waarden)
+1. version (geheel getal)
+1. packageEntities (collectie)
 
 De statusopties zijn:
 
@@ -554,7 +530,9 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -588,7 +566,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -620,15 +598,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -666,7 +636,6 @@ De bewerkbare kenmerken zijn:
 1. bron (tekenreeks met URL-validatie)
 1. status (tekenreeks met validatie van waarden)
 1. version (geheel getal)
-1. metagegevens (verzameling)
 1. packageEntities (collectie)
 
    of
@@ -688,7 +657,9 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -719,15 +690,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -760,7 +723,7 @@ Met deze aanroep wordt de record voor het promotiepakket verwijderd. Deze actie 
 
 >[!NOTE]
 >
-In tegenstelling tot het schrappen van een promotiepakket, is de aanbeveling om de status van het pakket te veranderen in DISABLED. Hierdoor kan het pakket worden opgehaald en blijft de installatiegeschiedenis van de locatie van het pakket behouden.
+>In tegenstelling tot het schrappen van een promotiepakket, is de aanbeveling om de status van het pakket te veranderen in DISABLED. Hierdoor kan het pakket worden opgehaald en blijft de installatiegeschiedenis van de locatie van het pakket behouden.
 
 #### URL
 
@@ -772,7 +735,9 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -838,7 +803,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -888,7 +855,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -935,7 +904,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -953,8 +924,8 @@ _Leeg_
 [
     {
         "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-        "blueprintVersion": 1,
+        "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
@@ -1024,7 +995,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -1041,8 +1014,8 @@ _Leeg_
 ```json
 {
     "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-    "blueprintVersion": 1,
+    "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
