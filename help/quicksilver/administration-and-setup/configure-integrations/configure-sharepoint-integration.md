@@ -1,5 +1,5 @@
 ---
-title: Configureer de [!DNL SharePoint] integratie
+title: Vorm [!DNL SharePoint] integratie
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De nieuwe [!DNL SharePoint] de integratie werd vrijgegeven voor de productie met de release van 22.3 (juli 2022). Hoewel uw gebruikers nog steeds toegang hebben tot documenten die via de verouderde [!DNL SharePoint] de nieuwe [!DNL SharePoint] integratie om documenten uit SharePoint te koppelen.
+>De nieuwe [!DNL SharePoint] de integratie werd vrijgegeven voor de productie met de release van 22.3 (juli 2022). Hoewel uw gebruikers nog steeds toegang hebben tot documenten die via de verouderde [!DNL SharePoint] integratie moeten zij de nieuwe [!DNL SharePoint] integratie om documenten uit SharePoint te koppelen.
 >
 >* De nieuwe integratie van SharePoint vereist geen configuratie door een beheerder, en kan opstelling door individuele gebruikers zijn. Voor een vloeiende overgang naar de nieuwe SharePoint-integratie moet een Workfront-beheerder echter kleine wijzigingen aanbrengen in het gedeelte Workfront Setup.
 >
@@ -31,11 +31,11 @@ ht-degree: 0%
 >    
 >* We raden gebruikers aan documenten te koppelen die momenteel via de verouderde versie zijn gekoppeld [!DNL SharePoint] integratie door de nieuwe integratie .
 >    
->    Voor instructies over het koppelen van documenten raadpleegt u [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+>    Zie voor instructies over het koppelen van documenten [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 U kunt [!DNL Workfront] with [!DNL SharePoint Online], zodat gebruikers kunnen navigeren naar, koppelen en toevoegen [!DNL SharePoint] documenten in Workfront. De opgegeven functionaliteit is vergelijkbaar met die van andere [!DNL Workfront] integratie, zoals [!DNL Google Drive], [!DNL Box], en [!DNL Dropbox].
 
-Deze integratie is alleen compatibel met [!DNL SharePoint Online]. Instanties op locatie van [!DNL SharePoint] worden niet ondersteund.
+Deze integratie is alleen compatibel met [!DNL SharePoint Online]. Op locatie [!DNL SharePoint] worden niet ondersteund.
 
 ## Toegangsvereisten
 
@@ -70,7 +70,7 @@ U moet over de benodigde toegang of machtigingen beschikken in [!DNL SharePoint]
 
 Individuele gebruikers kunnen documenten koppelen via de nieuwe [!DNL SharePoint] integratie. Voor de integratie is geen beheerdersconfiguratie vereist. In plaats daarvan meldt de gebruiker zich aan bij hun [!DNL Microsoft] account bij koppelen van een document, waardoor de integratie toegang heeft tot documenten die beschikbaar zijn in de [!DNL SharePoint].
 
-De eerste keer dat een gebruiker verbinding maakt met de [!DNL Workfront] [!DNL SharePoint] integratie in hun [!DNL SharePoint] -account, kunnen ze alle machtigingen zien die [!DNL Workfront] gebruik bij interactie met hun [!UICONTROL SharePoint] account. Leesmachtigingen toestaan [!DNL Workfront] om bestanden te bekijken en te openen op [!DNL SharePoint]en schrijfmachtigingen geeft de gebruiker de mogelijkheid bestanden te uploaden naar [!DNL SharePoint].
+De eerste keer dat een gebruiker verbinding maakt met de [!DNL Workfront] [!DNL SharePoint] integratie in hun [!DNL SharePoint] -account, kunnen ze alle machtigingen zien die [!DNL Workfront] gebruik bij interactie met hun [!UICONTROL SharePoint] account. Leesmachtigingen toestaan [!DNL Workfront] bestanden weergeven en openen op [!DNL SharePoint]en schrijfmachtigingen geeft de gebruiker de mogelijkheid bestanden te uploaden naar [!DNL SharePoint].
 
 ![Sharepoint-machtigingen](assets/sharepoint-permissions.png)
 
@@ -81,6 +81,27 @@ Voor instructies voor het koppelen van documenten via de nieuwe [!DNL SharePoint
 >* A [!DNL SharePoint] integratie kan verbinding maken met één [!DNL SharePoint] -instantie. Daarom kan een gebruiker een integratie instellen voor één [!DNL SharePoint], maar kan geen integratie instellen op een tweede [!DNL SharePoint], zelfs als ze over machtigingen beschikken voor en documenten hebben op de tweede [!DNL SharePoint].
 >
 >* Een gebruiker heeft toegang tot dezelfde sites, verzamelingen, mappen, submappen en bestanden via de [!DNL Workfront] [!DNL SharePoint] integratie zoals zij in hun [!DNL SharePoint] account.
+
+### Documenten van SharePoint koppelen
+
+Voor instructies voor het koppelen van documenten van SharePoint via de nieuwe [!DNL SharePoint] integratie, zie [Een extern document koppelen aan [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Documenten naar SharePoint verzenden
+
+Een document naar SharePoint verzenden:
+
+1. Klik op de knop **Verzenden naar** pictogram ![Verzenden naar](assets/send-to-icon.png) en selecteer SharePoint (Graph API).
+1. (Optioneel) Zoek in de zoekbalk naar de site of map waarnaar u het document wilt verzenden.
+1. Selecteer de site of map in de lijst.
+
+   * Sites zijn gemarkeerd met ![Sitepictogram](assets/site-icon.png).
+
+   * Mappen zijn gemarkeerd met ![Mappictogram](assets/folder-icon.png).
+
+   * Bestanden zijn niet gemarkeerd met een pictogram.
+
+1. Klikken **Opslaan**.
+
 
 ## Informatie over beveiliging, toegang en autorisatie voor de [!DNL SharePoint] integratie
 
@@ -96,7 +117,7 @@ De eerste keer dat een gebruiker een document toevoegt aan [!DNL Workfront] van 
 |---|---|
 | Volledige toegang tot uw bestanden | Toestaan [!DNL Workfront] om de bestanden van een gebruiker te openen om elementen te koppelen. Wanneer documenten worden verzonden van [!DNL Workfront] tot [!DNL SharePoint], [!DNL Workfront] vereist toegang om het element te maken. |
 | Items in alle siteverzamelingen lezen | Toestaan [!DNL Workfront] om elementen te lezen die gebruikersnavigatie mogelijk maken. |
-| Items in alle siteverzamelingen bewerken of verwijderen | Toestaan [!DNL Workfront] om activa in plaatsen en plaatsinzameling tot stand te brengen. Verwijderen wordt alleen gebruikt bij opschonen nadat de koppelingen zijn verbroken. |
+| Items in alle siteverzamelingen bewerken of verwijderen | Toestaan [!DNL Workfront] om activa in plaatsen en plaatsinzameling te creëren. Verwijderen wordt alleen gebruikt bij opschonen nadat de koppelingen zijn verbroken. |
 | Toegang behouden tot gegevens die u toegang hebt verleend aan | Toestaan [!DNL Workfront] om een vernieuwingstoken te produceren. |
 | Aanmelden en gebruikersprofiel lezen | Toestaan [!DNL Workfront] om het toegangstoken te gebruiken om namens de gebruiker te handelen, door de OAuth2 login stroom. |
 
@@ -160,7 +181,7 @@ Uw [!DNL SharePoint] Clientgeheim verloopt één keer per jaar. Om ervoor te zor
 1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Klik op de knop [!DNL SharePoint] integratie die u wilt bijwerken, en klik dan **[!UICONTROL Edit]**.
-1. Voer het nieuwe clientgeheim in de **[!UICONTROL Client Secret]** veld.
+1. Voer het nieuwe clientgeheim in het dialoogvenster **[!UICONTROL Client Secret]** veld.
 1. Klik op **[!UICONTROL Save]**.
 
 <!--
@@ -376,11 +397,11 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 
 ## Problemen oplossen
 
-* [Probleem: Gebruikers ondervinden bij het gebruik van de [!DNL SharePoint] integratie.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [Probleem: Wanneer wordt geprobeerd te bladeren [!DNL SharePoint] bestanden in [!DNL Workfront], ik zie geen van mijn plaatsinzamelingen of al mijn plaatsinzamelingen.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
-* [Probleem: Ik heb geen toegang tot eerder gekoppelde mappen en documenten in [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
+* [Probleem: gebruikers ervaren op verificatie gebaseerde fouten bij het gebruik van de [!DNL SharePoint] integratie.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
+* [Probleem: tijdens het bladeren [!DNL SharePoint] bestanden in [!DNL Workfront], ik zie geen van mijn plaatsinzamelingen of al mijn plaatsinzamelingen.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [Probleem: ik heb geen toegang tot eerder gekoppelde mappen en documenten in [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
-### Probleem: Gebruikers ondervinden bij het gebruik van de [!DNL SharePoint] integratie. {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
+### Probleem: gebruikers ervaren op verificatie gebaseerde fouten bij het gebruik van de [!DNL SharePoint] integratie. {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
 
 Oplossingen:
 
@@ -411,7 +432,7 @@ Gebruikers met [!UICONTROL Full Control] toegang heeft alle noodzakelijke toeste
  </tbody> 
 </table>
 
-Voor instructies over het creëren van en het uitgeven van toestemmingenniveaus, zie [machtigingsniveaus maken en bewerken](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in de documentatie van Microsoft.
+Zie voor instructies over het maken en bewerken van machtigingsniveaus [machtigingsniveaus maken en bewerken](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in de documentatie van Microsoft.
 
 <!--
 
@@ -427,7 +448,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### Probleem: Wanneer wordt geprobeerd te bladeren [!DNL SharePoint] bestanden in [!DNL Workfront], ik zie geen van mijn plaatsinzamelingen of al mijn plaatsinzamelingen. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### Probleem: tijdens het bladeren [!DNL SharePoint] bestanden in [!DNL Workfront], ik zie geen van mijn plaatsinzamelingen of al mijn plaatsinzamelingen. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 Oplossingen:
 
@@ -459,7 +480,7 @@ Om een plaatsinzameling in te zien [!DNL Workfront]moet aan de volgende voorwaar
       
 -->
 
-### Probleem: Ik heb geen toegang tot eerder gekoppelde mappen en documenten in [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
+### Probleem: ik heb geen toegang tot eerder gekoppelde mappen en documenten in [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
 Oplossing:
 
