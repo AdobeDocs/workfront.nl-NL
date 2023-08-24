@@ -6,9 +6,9 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt snel een kaart aan een raad toevoegen en het aan een lid in de raad toewi
 
 >[!NOTE]
 >
->De ad-hockaarten op een bord zijn niet verbonden met het werk in [!DNL Adobe Workfront]. Voor meer informatie over aangesloten kaarten raadpleegt u [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>De ad-hockaarten op een bord zijn niet verbonden met het werk in [!DNL Adobe Workfront]. Zie voor meer informatie over aangesloten kaarten [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Toegangsvereisten
 
@@ -82,8 +82,8 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
       <td>Typ het geschatte aantal uren voor de kaart die moet worden ingevuld. Dit is alleen een handmatige invoer.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
-      <td> <p>Als u de kaart wilt toewijzen, typt u een naam in het zoekveld en selecteert u de naam wanneer deze in de lijst wordt weergegeven. U kunt zowel personen als teams toevoegen en u kunt meerdere personen of teams toewijzen aan een kaart.</p> <p>De kandidaten moeten lid van de raad zijn of zij zullen niet in de selectielijst verschijnen. Als een team lid is in de raad, kunnen de individuele teamleden aan de kaart worden toegewezen.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
+      <td>Klik op <strong>[!UICONTROL Add Assignment]</strong> en typ een naam in het zoekveld. Selecteer vervolgens de optie wanneer deze wordt weergegeven in de lijst met resultaten. U kunt zowel personen als teams toevoegen en u kunt meerdere personen of teams toewijzen aan een kaart.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
@@ -95,7 +95,7 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Voor meer informatie over controlelijstitems raadpleegt u <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p> </td> 
+      <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Zie voor meer informatie over controlelijstitems <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
@@ -110,7 +110,7 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
 
    Gebruik het linkernavigatievenster om tussen secties van gebieden op de kaartdetails te bewegen.
 
-1. Klikken **[!UICONTROL Close]** om de kaart aan het bord toe te voegen.
+1. Klikken **[!UICONTROL Close]** de kaart aan het bord toevoegen.
 
    De toewijzingen, tags, vervaldatum, teller van de checklist, geschatte uren en status worden weergegeven op de kaart.
 
@@ -138,6 +138,6 @@ U kunt ad-hockaarten met alleen een titel toevoegen om uw board snel te vullen.
 
    Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
 
-1. In de [!UICONTROL Card Details] , werkt u de gegevens naar wens bij en klikt u op **[!UICONTROL Close]** om terug te keren naar het bestuur.
+1. In de [!UICONTROL Card Details] , werkt u de gegevens naar wens bij en klikt u op **[!UICONTROL Close]** om terug te keren naar de raad van bestuur.
 
    Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, wordt bij het wijzigen van de status op de kaart de kaart automatisch naar de corresponderende kolom verplaatst. Zie &quot;Kolominstellingen en beleid definiëren&quot; in het artikel voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

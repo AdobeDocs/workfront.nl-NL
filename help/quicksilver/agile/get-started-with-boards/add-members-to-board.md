@@ -6,16 +6,16 @@ description: Mensen moeten als leden aan de raad van bestuur worden toegevoegd v
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Leden toevoegen aan of verwijderen uit een board
 
-Personen en teams moeten als leden aan de raad van bestuur worden toegevoegd voordat ze de raad kunnen bekijken en aan kaarten kunnen worden toegewezen.
+Personen en teams moeten als leden aan de raad van bestuur worden toegevoegd voordat ze de raad kunnen bekijken.
 
 ## Toegangsvereisten
 
@@ -45,9 +45,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Boards]**.
 1. Maak een nieuw bord of bewerk een bestaand bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klik op de knop **[!UICONTROL Add member]** pictogram ![Leden toevoegen](assets/boards-addmember-spectrum-25x25.png).
-1. In de **[!UICONTROL Add members]** typt, typt u een naam en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+1. In de **[!UICONTROL Add members]** typt, typt u een naam en selecteert u deze wanneer de naam in de lijst wordt weergegeven.
 
-   U kunt een individueel lid of een team selecteren. Als u een team kiest, wordt het team zelf toegevoegd aan het board. Het volledige team en zijn individuele teamleden zijn dan beschikbaar om aan een kaart toe te wijzen.
+   U kunt een individueel lid of een team selecteren. Als u een team kiest, wordt het team zelf toegevoegd aan het board.
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![Lid van boord verwijderen](assets/boards-remove-member-from-board-350x367.png)
 
-   Wanneer u een lid uit een raad schrapt, worden zij ook geschrapt van om het even welke kaarten zij werden toegewezen aan. Voor verbonden kaarten worden de toewijzingen ook bijgewerkt op de [!DNL Workfront] taak of probleem.
+   Wanneer u een lid uit een raad verwijdert, worden zij niet verwijderd uit om het even welke kaarten zij worden toegewezen aan. Voor verbonden kaarten worden de toewijzingen ook bijgewerkt op de [!DNL Workfront] taak of probleem.
 
    Leden worden alleen van dit bestuur verwijderd. Ze worden niet verwijderd uit andere raden van bestuur waartoe ze behoren.
 

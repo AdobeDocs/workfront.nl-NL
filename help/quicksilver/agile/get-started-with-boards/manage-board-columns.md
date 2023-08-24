@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke ka
 
 1. (Optioneel) Stel een waarde in voor de kaartstatus:
 
-   1. Selecteer **[!UICONTROL Status]** selectievakje.
+   1. Selecteer de **[!UICONTROL Status]** selectievakje.
 
    1. Selecteer de status die u wilt toepassen op een kaart wanneer deze naar deze kolom wordt verplaatst.
 
@@ -124,33 +124,33 @@ Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke ka
 
    1. Selecteer een [!UICONTROL **Aangepast**] status die op de kaart moet worden toegepast voor taken en voor problemen.
 
-      Wanneer een kaart naar deze kolom wordt verplaatst, [!DNL Workfront] probeert eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de geselecteerde aangepaste status niet beschikbaar is voor die kaart, wordt u gevraagd een andere status te kiezen die overeenkomt met de systeemstatus (in stap b hierboven). Voor meer informatie over statussen raadpleegt u [Overzicht van statussen](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      Wanneer een kaart naar deze kolom wordt verplaatst, [!DNL Workfront] probeert eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de geselecteerde aangepaste status niet beschikbaar is voor die kaart, wordt u gevraagd een andere status te kiezen die overeenkomt met de systeemstatus (in stap b hierboven). Zie voor meer informatie over statussen [Overzicht van statussen](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Als de status van de verbonden taak of uitgave wordt gewijzigd in de aangepaste of systeemstatus die is ingesteld in het kolombeleid, wordt de kaart automatisch naar de kolom verplaatst.
 
 1. (Optioneel) Stel een waarde in voor de kaarttoewijzingen:
 
-   1. Selecteer **[!UICONTROL Assignees]** selectievakje.
+   1. Selecteer de **[!UICONTROL Assignees]** selectievakje.
    1. Selecteer een handeling.
 
       * **[!UICONTROL Add on assignees]:** De geselecteerde toewijzingen worden toegevoegd aan de bestaande lijst met toewijzingen op een kaart wanneer deze naar deze kolom wordt verplaatst.
       * **[!UICONTROL Override assignees]:** De geselecteerde toewijzingen overschrijven alle andere toewijzingen en worden de enige toewijzingen op een kaart wanneer deze naar deze kolom wordt verplaatst.
-   1. Selecteer de toewijzingen in de vervolgkeuzelijst. Alleen leden in de raad kunnen kiezen. Zie voor meer informatie [Leden toevoegen aan of verwijderen uit een board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. Klikken [!UICONTROL **Toewijzing toevoegen**] en zoek naar een gebruiker. Selecteer de toewijzingen in de zoekresultaten. Alle Workfront-gebruikers en -teams kunnen kiezen uit.
 
       ![Toewijzingen voor kolom](assets/boards-column-assignees.png)
 
-
 1. (Optioneel) Stel een waarde in voor de kaartcodes:
 
-   1. Selecteer **[!UICONTROL Cards]** selectievakje.
+   1. Selecteer de **[!UICONTROL Cards]** selectievakje.
    1. Selecteer een handeling.
 
       * **[!UICONTROL Add on tags]:** De tags die u selecteert, worden toegevoegd aan de bestaande lijst met codes op een kaart wanneer deze naar deze kolom wordt verplaatst.
       * **[!UICONTROL Override tags]:** De tags die u selecteert, overschrijven alle andere tags en worden de enige tags op een kaart wanneer deze naar deze kolom wordt verplaatst.
-   1. Selecteer de labels in de vervolgkeuzelijst. Alleen tags die al zijn gemaakt in het dialoogvenster [!UICONTROL Tag Manager] zijn beschikbaar waaruit u kunt kiezen. Voor informatie over het toevoegen van nieuwe tags raadpleegt u [Tags toevoegen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+
+   1. Selecteer de labels in de vervolgkeuzelijst. Alleen tags die al in het dialoogvenster [!UICONTROL Tag Manager] zijn beschikbaar waaruit u kunt kiezen. Zie voor informatie over het toevoegen van nieuwe tags [Tags toevoegen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Codes voor kolom](assets/boards-column-tags.png)
-
 
 1. De optie **[!UICONTROL Work in progress limit]** beleid om het aantal kaarten te beperken dat aan de kolom kan worden toegevoegd. Typ vervolgens het limietnummer in het dialoogvenster **[!UICONTROL Set limit]** veld.
 

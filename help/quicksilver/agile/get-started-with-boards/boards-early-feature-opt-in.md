@@ -7,9 +7,9 @@ description: Lees dit artikel voor meer informatie over de [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Alleen [!DNL Workfront] beheerders kunnen zich aanmelden bij de eerste functies 
 
 ### Hoe weet ik of mijn organisatie heeft gekozen voor vroege functies?
 
-Wanneer uw [!DNL Workfront] de beheerder heeft vroegere eigenschappen voor raden van bestuur toegelaten, zult u een [!UICONTROL Early Feature Opt-In] Ingeschakelde knop boven aan het dashboardscherm. Klik op de knop om te zien welke functies zijn ingeschakeld.
+Neem contact op met uw [!DNL Workfront] beheerder om te weten te komen of hebben zij vroege eigenschappen voor raden van bestuur toegelaten.
 
 ### Kunnen vroege eigenschappen slechts voor bepaalde gebruikers worden toegelaten?
 

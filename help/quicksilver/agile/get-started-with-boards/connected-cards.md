@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De kaart wordt onder aan de linkerkolom toegevoegd. De aangesloten [!DNL Workfront] -object en de bijbehorende toewijzingen worden op de kaart weergegeven.
 
-   >[!NOTE]
-   >
-   >Indien een ontvanger op de [!DNL Workfront] de taak of de kwestie is geen lid van de raad van bestuur; zij worden niet aan de kaart toegewezen.
-
    ![Verbonden kaart](assets/boards-connected-card-first-added.png)
 
 1. Klikken ![Taak of probleem openen](assets/boards-launch-icon.png) om de [!DNL Workfront] taak of probleem op een nieuw browsertabblad.
@@ -124,9 +120,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td><p>Het aantal uren dat de kaart moet worden ingevuld.</p><p>Als u de schatting wijzigt, wordt ook de waarde van de artikelpunten in het verbonden object gewijzigd [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
-      <td><p>Als u meer personen of een team aan de kaart wilt toewijzen, typt u een naam in het zoekveld en selecteert u de naam wanneer deze in de lijst wordt weergegeven. U kunt zowel personen als teams toevoegen. Er is slechts één teamtoewijzing toegestaan op een aangesloten kaart.</p>
-      <p>De kandidaten moeten lid van de raad zijn of zij zullen niet in de selectielijst verschijnen. Als een team lid is in de raad, kunnen de individuele teamleden aan de kaart worden toegewezen.</p>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
+      <td><p>Als u meer personen of een team aan de kaart wilt toewijzen, klikt u op <strong>[!UICONTROL Add Assignment]</strong> en typ een naam in het zoekveld. Selecteer vervolgens de optie wanneer deze wordt weergegeven in de lijst met resultaten. U kunt zowel personen als teams toevoegen. Er is slechts één teamtoewijzing toegestaan op een aangesloten kaart.</p>
       <p>Alle door u geselecteerde toewijzingen worden ook toegewezen aan de taak of uitgave in [!DNL Workfront].</p></td>
      </tr>
      <tr>
