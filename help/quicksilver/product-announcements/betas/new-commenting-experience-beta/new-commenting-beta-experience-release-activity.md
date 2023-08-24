@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het v
 De volgende sectie bevat een lijst met functies die zijn toegevoegd na de oorspronkelijke versie van 23.2, te beginnen met de functies die het laatst zijn uitgebracht.
 
 De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. Dit artikel bevat nieuwe functies die worden toegevoegd en problemen die worden opgelost voor de nieuwe opmerkingervaring.
+
+### Week van 21 augustus 2023
+
+#### De tijdstempelnotatie wijzigen op het tabblad Opmerkingen
+
+We hebben de tijdstempelindeling van de gebruikersopmerkingen bijgewerkt op het tabblad Opmerkingen van de nieuwe opmerkingsstroom. Als onderdeel van deze wijziging worden opmerkingen van het lopende jaar niet langer in de tijdstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
+
+De wijzigingen hebben geen invloed op systeemupdates op het tabblad Systeemactiviteit.
+
+Voorbeeld en productie: 24 augustus 2023
 
 ### Week van 14 augustus 2023
 

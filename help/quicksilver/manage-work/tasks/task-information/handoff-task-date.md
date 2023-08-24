@@ -7,7 +7,7 @@ description: De Handoff Datum is de datum dat een taak voor het werk beschikbaar
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -34,27 +34,26 @@ De Handoff Datum is de datum dat een taak voor het werk beschikbaar wordt. Dit b
 >* Dead
 >
 
-
 Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatum van een taak:
 
 * **Als de taak een onvolledige voorganger heeft**: De afhandelingsdatum voor de taak is null.
-* **Als de taak een volledige voorganger heeft**: De afhandelingsdatum is dezelfde als de werkelijke afsluitende datum van de vorige taak. Als de voorganger een vertraging heeft, berekent Workfront de afhandelingsdatum van de opvolgertaak aan de hand van de volgende formule:
+* **Als de taak een volledige voorganger heeft**: De afhandelingsdatum is gelijk aan de werkelijke afsluitende datum van de voorgaande taak. Als de voorganger een vertraging heeft, berekent Workfront de afhandelingsdatum van de opvolgertaak aan de hand van de volgende formule:
 
-   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
+  `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-   Voor informatie over vertragingstijd raadpleegt u [Overzicht van labeltypen](../use-prdcssrs/lag-types.md).
+  Voor informatie over vertragingstijd raadpleegt u [Overzicht van labeltypen](../use-prdcssrs/lag-types.md).
 
-   Als de opvolgertaak meer dan één voorganger heeft, wordt de afhandelingsdatum berekend op basis van de laatste werkelijke Voltooiingsdatum van de voorgangers. Als de werkelijke Voltooiingsdata van de twee voorgangers bijvoorbeeld 8 november 2022 en 20 november 2022 zijn, is de Handoff Date van de opvolger 20 november 2022.
+  Als de opvolgertaak meer dan één voorganger heeft, wordt de afhandelingsdatum berekend op basis van de laatste werkelijke Voltooiingsdatum van de voorgangers. Als de werkelijke Voltooiingsdata van de twee voorgangers bijvoorbeeld 8 november 2022 en 20 november 2022 zijn, is de Handoff Date van de opvolger 20 november 2022.
 
-   >[!NOTE]
-   >
-   >   Het berekenen van de Handoff Datum van een opvolgertaak die op de Ware Datum van Voltooiing of een voorgangertaak wordt gebaseerd is het zelfde of voorganger wordt afgedwongen of niet. Voor meer informatie over gedwongen predecessors, zie [Voorgangers afdwingen](../use-prdcssrs/enforced-predecessors.md).
+  >[!NOTE]
+  >
+  >   Het berekenen van de Handoff Datum van een opvolgertaak die op de Ware Datum van Voltooiing of een voorgangertaak wordt gebaseerd is het zelfde of voorganger wordt afgedwongen of niet. Voor meer informatie over gedwongen predecessors, zie [Voorgangers afdwingen](../use-prdcssrs/enforced-predecessors.md).
 
 
 * **Als de taak geen voorganger heeft en**:
 
    * **De geplande begindatum ligt in het verleden**: De afhandelingsdatum is gelijk aan de geplande begindatum van het project.
-   * **De geplande begindatum is in de toekomst (elke datum na de huidige datum)**: De afhandelingsdatum is gelijk aan de geplande begindatum van het project.
+   * **De geplande begindatum is in de toekomst (elke datum na de huidige datum)**: De afhandelingsdatum is gelijk aan de geplande begindatum van de taak.
 
 >[!NOTE]
 >
@@ -63,10 +62,10 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 >* U berekent manueel de chronologie van het project van de opvolger opnieuw. U moet over beheerdersmachtigingen voor het project beschikken om de tijdlijn opnieuw te berekenen.
 >* De tijdlijn van het project van de opvolger wordt automatisch &#39;s nachts opnieuw berekend.
 >
->Voor informatie over het opnieuw berekenen van de tijdlijn van het project raadpleegt u [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Zie voor informatie over het opnieuw berekenen van de tijdlijn van het project [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * **Wanneer de taak een gedwongen beperking voor de Geplande Datums heeft**: De afhandelingsdatum is afhankelijk van het type beperking en of de taak een werkelijke begindatum heeft of niet.\
-   De volgende taken zijn geforceerde beperkingen:
+  De volgende taken zijn geforceerde beperkingen:
 
    * Moet beginnen op
    * Moet worden voltooid op
@@ -74,12 +73,11 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
    * Niet later starten dan
    * Vaste datum
 
-   De volgende scenario&#39;s bestaan:
+  De volgende scenario&#39;s bestaan:
 
-   * Wanneer de taak een beperking van moet Begin of Begin niet vroeger dan heeft, is de Datum van de Aflevering de datum van de Restrictie, tenzij er een Ware Datum van het Begin op de taak is. Als er een Werkelijke Datum van het Begin op de taak is, is de Datum van de Aflevering de Ware Datum van de Voltooiing van de voorganger.
+   * Wanneer de taak een beperking heeft van moet Begin op of Begin niet vroeger dan, is de Datum van de Aflevering de datum van de Restrictie, tenzij er een Ware Datum van het Begin op de taak is. Als er een Werkelijke Datum van het Begin op de taak is, is de Datum van de Aflevering de Ware Datum van de Voltooiing van de voorganger.
    * Wanneer de taak een beperking van moet op of Begin uiterlijk dan hebben, is de Datum van de Aflevering altijd de Ware Datum van Voltooiing van de voorganger, ongeacht of er een Ware Datum van het Begin op de taak of niet is.
    * Wanneer de taak een beperking van Vaste Datums heeft, is de Datum van de Aflevering de Geplande Datum van het Begin van de taak, ongeacht of het een voorganger heeft of niet en ongeacht of voorganger wordt voltooid of niet.
-
 
 ## De Handoff-datum zoeken
 

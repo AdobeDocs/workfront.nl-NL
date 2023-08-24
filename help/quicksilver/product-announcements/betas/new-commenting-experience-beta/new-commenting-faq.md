@@ -1,0 +1,53 @@
+---
+product-area: betas
+navigation-topic: new-commenting-faq
+title: Nieuwe veelgestelde vragen over opmerkingen
+description: Dit artikel bevat een lijst met de meestgestelde vragen over de nieuwe opmerkingervaring.
+author: Alina
+feature: Product Announcements
+role: User, Admin
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 0%
+
+---
+
+
+# Nieuwe veelgestelde vragen over opmerkingen
+
+Dit artikel bevat een lijst met de meestgestelde vragen over de nieuwe opmerkingervaring.
+
+Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+## Kan ik verschillende bestandstypen naast afbeeldingen aan opmerkingen koppelen?
+
+Momenteel ondersteunen we alleen afbeeldingsbijlagen bij opmerkingen. Als u andere dossiertypes wilt zien, gelieve een verzoek van het innovatielaboratorium voor te leggen zodat wij kunnen begrijpen hoe vereist de eigenschap is.
+
+## Wilt u de mogelijkheid toevoegen om de status, voorwaarde of geplande voltooiingsdatum van een tijdelijk onderdeel te bewerken in de nieuwe opmerkingervaring?
+
+We zijn niet van plan om de mogelijkheid om deze handelingen uit te voeren terug te brengen, aangezien deze beschikbaar zijn in de koptekst en in de detailgebieden van het object. We begrijpen wel dat we u vragen om het patroon van het gebruik van de commentaarstroom te wijzigen, maar we doen dit om de opmerkingservaring te behouden voor het directe doel van communicatie en samenwerking.
+
+## Zijn er plannen om een gecombineerde mening van commentaren en systeemupdates te hebben?
+
+Er zijn momenteel geen plannen om een gecombineerde weergave te maken. Geef feedback en gebruik uw kwesties via de feedbackknop Feedback geven in de app of verzend aanvragen in het gebied Workfront Ideas van de community, zodat we beter kunnen begrijpen hoe nodig de functionaliteit is.
+
+## Zal u de functionaliteit van het ongedaan maken van een geposte opmerking terugbrengen?
+
+We hebben de functionaliteit voor het ongedaan maken van een geposte opmerking vervangen door de mogelijkheid om opmerkingen te bewerken gedurende 15 minuten vanaf het moment dat deze is geplaatst.
+
+## Zal de functionaliteit van het verwijderen van draaddeelnemers tot specifieke vergunningstypes worden beperkt?
+
+Er zijn momenteel geen plannen om toestemmings of toegangscontroles toe te voegen voor wie deze onlangs geïntroduceerde functionaliteit kan gebruiken. Geef feedback en gebruik uw kwesties via de feedbackknop in de app of verzend aanvragen in het gebied Workfront Ideas van de community, zodat we beter kunnen begrijpen hoe belangrijk deze functionaliteit is.
+
+## Is er een manier om te bepalen wie opmerkingen kan bewerken?
+
+Er zijn momenteel geen plannen om machtigingen of toegangscontroles toe te voegen over wie opmerkingen kan bewerken. Geef feedback en gebruik uw kwesties via de feedbackknop in de app of verzend aanvragen in het gebied Workfront Ideas van de community, zodat we beter kunnen begrijpen hoe belangrijk deze functionaliteit is.
+
+## Kunnen opmerkingen worden doorzocht of gefilterd?
+
+Ja. We zijn van plan om in de toekomst de mogelijkheid in te voeren om commentaar te zoeken.
+
+## Kan het commentaar worden gesorteerd?
+
+Er zijn geen duidelijke plannen om dit in te voeren. Als er nog steeds behoefte aan is nadat we zoeken en filteren hebben geïntroduceerd, zullen we onze plannen heroverwegen.

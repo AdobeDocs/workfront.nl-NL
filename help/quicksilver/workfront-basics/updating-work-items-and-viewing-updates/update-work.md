@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3521'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingerv
 1. Klikken **Verzenden** om de update aan het Workfront-object toe te voegen.
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op **Meer** menu ![](assets/more-menu.png)  <span class="preview">in de rechterbovenhoek van de opmerking</span>en klik vervolgens op **Bewerken**.
 1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers.
-U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt links van de datumstempel toegevoegd die wordt weergegeven wanneer de opmerking is bijgewerkt.
+U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Bewerkt&quot; wordt toegevoegd links van de datumstempel die wordt weergegeven wanneer de opmerking is ingevoerd.
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -275,6 +275,7 @@ U kunt uw opmerking binnen 15 uur na verzending bewerken. Een indicator &quot;Be
    >
    >* Er wordt een e-mail gegenereerd om gebruikers alleen van uw update op de hoogte te stellen wanneer u de oorspronkelijke update verzendt. Er wordt geen e-mail gegenereerd nadat u de update hebt bewerkt.
    >* De datumstempel naast de opmerking is de datum van de oorspronkelijke opmerking en niet de datum van de laatste bewerking.
+   >* Opmerkingen van het lopende jaar worden niet in het datumstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
 
 1. (Optioneel) Klik op **Antwoord** om op een bestaande opmerking te reageren, volgt u de stappen 4 tot en met 8 hierboven. <!--(**************insure this stays accurate***********)--> Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 

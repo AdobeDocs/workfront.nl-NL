@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 03505cbede4b022e792f39c5730d3edc5231585e
+source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
 workflow-type: tm+mt
-source-wordcount: '13188'
+source-wordcount: '13192'
 ht-degree: 0%
 
 ---
@@ -374,6 +374,7 @@ ht-degree: 0%
          * [Nieuwe bètaervaringsgegevens voor opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nieuwe releaseactiviteit voor opmerkingervaring](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+         * [Nieuwe veelgestelde vragen over opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Beheer en installatie {#administration-and-setup}
    * [Beheer en installatie](administration-and-setup/administration-and-setup.md)
    * Aan de slag met het beheer {#get-started-administration}
