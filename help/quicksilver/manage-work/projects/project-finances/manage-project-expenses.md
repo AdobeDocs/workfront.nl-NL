@@ -6,9 +6,9 @@ description: Het proces voor het creëren van en het leiden van uitgaven is het 
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Werk of hoger </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p><b>OPMERKING</b> </p>
+   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor het project beheren met beheerdersmachtigingen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Draag of hoger toestemmingen aan het project met toestemmingen bij Mening of leidt Financiën</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,12 +63,12 @@ De **Een uitgave toevoegen** wordt weergegeven.
    * **Type uitgave:** (Vereist) Selecteer de categorie die de uitgave het best beschrijft.
    * **Taak:** Typ de naam van de taak waaraan deze uitgave is gekoppeld en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
    * **Geplande hoeveelheid:** Het geplande begrote bedrag voor de uitgaven.\
-      Dit heeft gevolgen voor de begrote kosten van het project.
+     Dit heeft gevolgen voor de begrote kosten van het project.
 
    * **Werkelijk bedrag:** Het bedrag dat de uitgave werkelijk kostte.\
-      Dit is van invloed op de werkelijke kosten van het project.
+     Dit is van invloed op de werkelijke kosten van het project.
 
-   * **Geplande datum:** De verwachte datum voor de uitgave. U kunt de datum in het veld typen met het gereedschap *dd/mm/yy* of u kunt op het kalenderpictogram klikken  ![](assets/calendar-icon.png) en selecteert u de datum dynamisch.
+   * **Geplande datum:** De verwachte datum voor de uitgave. U kunt de datum in het veld typen met het gereedschap *dd/mm/yy* of op het kalenderpictogram klikken  ![](assets/calendar-icon.png) en selecteert u de datum dynamisch.
 
    * **Betaalde datum:** De datum waarop de uitgave is betaald.
    * **Billable:** Selecteer deze optie als u deze kosten wilt doorberekenen. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.

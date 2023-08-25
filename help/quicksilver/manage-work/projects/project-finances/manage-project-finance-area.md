@@ -6,7 +6,7 @@ description: Informatie beheren in het gebied Projectfinanciering
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-U kunt de financiële informatie van een project bekijken of uitgeven door tot het gebied van de Financiën van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het bewerken van alle informatie voor een project raadpleegt u [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+U kunt de financiële informatie van een project bekijken of uitgeven door tot het gebied van de Financiën van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Zie voor informatie over het bewerken van alle informatie voor een project [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Toegangsvereisten
 
@@ -39,7 +39,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bekijken of vergroten</p> <p>Toegang tot projecten en financiële gegevens bewerken om financiële informatie over het project te bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bekijken of vergroten</p> <p>Toegang tot projecten en financiële gegevens bewerken om financiële informatie over het project te bewerken</p> <p><b>OPMERKING</b></p>
+   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -95,7 +96,7 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
      </tr> 
      <tr> 
       <td role="rowheader">Begroting</td> 
-      <td>Dit is de begroting voor het project. Dit wordt handmatig opgegeven door de eigenaar van het project.</td> 
+      <td>Dit is de begroting voor het project. Dit wordt manueel gespecificeerd door de Eigenaar van het Project.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vaste kosten</td> 
@@ -107,7 +108,7 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
      </tr> 
      <tr> 
       <td role="rowheader">Werkelijke kosten</td> 
-      <td>Alle kosten van het project. De werkelijke kosten zijn de som van alle werkelijke kosten: arbeidskosten (gebaseerd op Werkelijke uren en de tarieven verbonden aan de baanrollen of gebruikers die hen registreren), uitgaven, en vaste kosten, die met een project of een taak kunnen worden geassocieerd.</td> 
+      <td>Alle kosten van het project. De werkelijke kosten zijn de som van alle werkelijke kosten: loonkosten (gebaseerd op Werkelijke uren en de tarieven die gekoppeld zijn aan de functies of gebruikers die deze bijhouden), kosten en vaste kosten, die aan een project of taak kunnen worden gekoppeld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vaste inkomsten</td> 
@@ -172,7 +173,7 @@ Informatie bewerken op het subtabblad Projectfinanciering:
       <td role="rowheader">Prestatiesindexmethode</td> 
       <td> <p>Controls the method Workfront uses to calculate project performance metrics. Dit wordt opstelling op het systeemniveau door uw beheerder, maar u kunt het op het projectniveau ook uitgeven. U kunt een van de volgende opties selecteren:</p> 
        <ul> 
-        <li><strong>Uur:</strong>Workfront gebruikt de geplande uren voor de berekening van de CPI en de EAC van het project en de EAC van het project wordt weergegeven als een aantal, in uren. </li> 
+        <li><strong>Op uren gebaseerd:</strong>Workfront gebruikt de geplande uren voor de berekening van de CPI en de EAC van het project en de EAC van het project wordt weergegeven als een aantal, in uren. </li> 
         <li><strong>Op basis van kosten:</strong>Workfront gebruikt de geplande loonkosten voor de berekening van de CPI en de EAC van het project, en de EAC wordt weergegeven als een valutawaarde. Wanneer u deze optie selecteert, moet u ervoor zorgen dat uw taaktoewijzingen (taakrollen of gebruikers) aan kostentarieven zijn gekoppeld.</li> 
        </ul> </td> 
      </tr> 
@@ -180,7 +181,7 @@ Informatie bewerken op het subtabblad Projectfinanciering:
       <td role="rowheader">Schatting bij voltooiing</td> 
       <td> <p>Vertegenwoordigt de verwachte totale kosten van uw project of taak wanneer het voltooit. Dit wordt opstelling op het systeemniveau door uw beheerder, maar u kunt het op het projectniveau ook uitgeven. U kunt een van de volgende opties selecteren:</p> 
        <ul> 
-        <li><strong>Berekenen op projectniveau</strong>: EAC voor de bovenliggende taak en het project wordt bepaald door de werkelijke uren/werkelijke loonkosten in de EAC-formules in te voeren. Deze berekening omvat Werkelijke uren/kosten en uitgaven die rechtstreeks aan de oudertaak of het project worden toegevoegd.</li> 
+        <li><strong>Berekenen op projectniveau</strong>: EAC voor de bovenliggende taak en het project worden bepaald door de werkelijke uren/werkelijke loonkosten in de OAG-formules in te voeren. Deze berekening omvat Werkelijke uren/kosten en uitgaven die rechtstreeks aan de oudertaak of het project worden toegevoegd.</li> 
         <li><strong>Omhoog rollen vanuit Taken/Subtaken</strong>: EAC voor de oudertaak en het project worden bepaald door EAC voor elke kindtaak samen te vatten. Deze berekening sluit Werkelijke uren/kosten en kosten uit die rechtstreeks aan de oudertaak of het project worden toegevoegd.</li> 
        </ul> </td> 
      </tr> 
