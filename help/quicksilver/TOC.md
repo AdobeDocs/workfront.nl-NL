@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
+source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
 workflow-type: tm+mt
-source-wordcount: '13192'
+source-wordcount: '13201'
 ht-degree: 0%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 0%
          * [Administratieve toegang voor lay-outsjablonen](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [Gebruikers toewijzen aan lay-outsjablonen](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Een lay-outsjabloon kopiëren](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+         * [Verwijder de klassieke lay-outsjablonen met een API-aanroep](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Aangepaste formulieren {#custom-forms}
          * [Aangepaste formulieren](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Overzicht van aangepaste formulieren](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)

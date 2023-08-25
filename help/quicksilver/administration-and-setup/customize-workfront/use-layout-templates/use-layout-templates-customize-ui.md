@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Deze sectie bevat de volgende artikelen:
 * [Het linkerdeelvenster aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 * [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
 * [Home en overzicht aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Vastgezette pagina&#39;s aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 * [De landingspagina aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
@@ -35,3 +35,4 @@ Deze sectie bevat de volgende artikelen:
 * [Administratieve toegang verlenen voor een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
 * [Gebruikers toewijzen aan een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 * [Een lay-outsjabloon kopiëren](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+* [Verwijder de klassieke lay-outsjablonen met een API-aanroep](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
