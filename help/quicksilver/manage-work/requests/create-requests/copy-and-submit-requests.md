@@ -1,14 +1,14 @@
 ---
 title: Verzoeken kopiëren en verzenden
-description: Wanneer u regelmatig vergelijkbare verzoeken verzendt, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
+description: Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
 author: Alina
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
-Wanneer u regelmatig vergelijkbare verzoeken verzendt, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
+Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
 
 ## Toegangsvereisten
 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot problemen bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -88,7 +88,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 * U kunt alleen ingediende aanvragen kopiëren en verzenden. U kunt geen opgestelde verzoeken kopiëren.
 * U kunt verzoeken kopiëren en verzenden die u oorspronkelijk hebt verzonden, of verzoeken die anderen hebben verzonden en u hebt toegang tot minimaal Beeld.
 * U hebt altijd toegang om een kopie van uw eigen verzoeken te kopiëren en te verzenden, tenzij iemand uw machtigingen heeft verwijderd.
-* De toegang om verzoeken te kopiëren en voor te leggen die oorspronkelijk door anderen werden voorgelegd zou automatisch aan mensen in het zelfde bedrijf kunnen worden verleend wanneer de schepper van de verzoekrij toelaat **De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven** in de Details van de Rij of geef de gebieden van het Project uit. Als u deze instelling uitschakelt, kan alleen de oorspronkelijke aanvrager zijn of haar eigen verzoeken weergeven.
+* De toegang om verzoeken te kopiëren en voor te leggen die oorspronkelijk door anderen werden voorgelegd zou automatisch aan mensen in het zelfde bedrijf kunnen worden verleend wanneer de schepper van de verzoekrij toelaat **Personen van hetzelfde bedrijf nemen dezelfde machtigingen over voor alle aanvragen** in de Details van de Rij of geef de gebieden van het Project uit. Als u deze instelling uitschakelt, kan alleen de oorspronkelijke aanvrager zijn of haar eigen verzoeken weergeven.
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
@@ -120,6 +120,11 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Verzoeken**.
 1. (Voorwaardelijk) Als de sectie Verzonden niet standaard wordt weergegeven, klikt u op **Verzonden** in het linkerdeelvenster.
+
+   >[!TIP]
+   >
+   >   Uw Workfront- of groepsbeheerder kan uw lay-outsjabloon aanpassen en gebieden uit het hoofdmenu of uit het linkerdeelvenster in uw omgeving verwijderen. In dit geval zijn ze mogelijk niet beschikbaar voor u.
+
 1. Zoek het verzoek dat u wilt kopiëren en verzenden als nieuw en voer een van de volgende handelingen uit:
 
    * Selecteer het en klik vervolgens op **Kopiëren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in de linkerbovenhoek van de lijst Ingediende aanvragen.
@@ -142,12 +147,12 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
 1. (Optioneel) Werk indien nodig de volgende gegevens bij:
 
-   * **Type aanvraag**: de verzoekrij waar het gekopieerde verzoek wordt bewaard. Standaard wordt de gekopieerde aanvraag opgeslagen in de wachtrij met aanvragen van de oorspronkelijke aanvraag.
-   * **Onderwerpgroepen** en **Onderwerpen van de Rij**, als deze zijn geselecteerd. De namen of onderwerpgroepen en rijonderwerpen worden aangepast voor uw milieu. Door gebrek, wordt het gekopieerde verzoek bewaard aan de onderwerpgroepen en de rijonderwerpen van het originele verzoek.
+   * **Type aanvraag**: de aanvraagwachtrij waarin de gekopieerde aanvraag is opgeslagen. Standaard wordt de gekopieerde aanvraag opgeslagen in de wachtrij met aanvragen van de oorspronkelijke aanvraag.
+   * **Onderwerpgroepen** en **Werkvoorraadonderwerpen**, als deze zijn geselecteerd. De namen of onderwerpgroepen en rijonderwerpen worden aangepast voor uw milieu. Door gebrek, wordt het gekopieerde verzoek bewaard aan de onderwerpgroepen en de rijonderwerpen van het originele verzoek.
 
      >[!TIP]
      >
-     >Als het pad verandert van het pad van het oorspronkelijke verzoek, heeft de maker van de aanvraagwachtrij de wachtrij gewijzigd.
+     >Als de weg van de weg van het originele verzoek verandert, dan wijzigde de maker van de verzoekrij de rij.
 
 1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke velden de maker van de aanvraagwachtrij in het dialoogvenster **Nieuwe probleemvelden** van de **Wachtrij** subtab op het project, zou u om het even welke volgende gebieden kunnen vinden:
 

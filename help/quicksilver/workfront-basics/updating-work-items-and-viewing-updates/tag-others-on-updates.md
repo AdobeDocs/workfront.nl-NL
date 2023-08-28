@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Andere tags toepassen op updates
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>\
 <span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ U kunt gebruikers handmatig labelen in de huidige sectie Updates.
 
 U kunt op de volgende manieren tags toewijzen aan andere updates in de nieuwe opmerkingervaring:
 
-* **Automatisch**: Wanneer een gebruiker een opmerking of antwoord toevoegt, worden deze automatisch gelabeld en toegevoegd aan het gebied Tagpersonen of -teams van het opmerkingvak.
+* **Automatisch**: Wanneer een gebruiker een thread start, een opmerking toevoegt of een antwoord toevoegt, worden deze automatisch gelabeld en toegevoegd aan het gebied Tagpersonen of -teams van het opmerkingvak. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >Wanneer de draad in de erfenis het becommentariëren ervaring begint, worden de draaddeelnemers niet automatisch geëtiketteerd.
+
 * **Handmatig**: Wanneer u handmatig een gebruiker toevoegt aan het gebied Tagpersonen van het opmerkingsvak.
 
 U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een opmerking bewerkt of erop reageert.
@@ -213,3 +220,10 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
    Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) <span class="preview">in de rechterbovenhoek van de opmerking</span>en klik vervolgens op **Bewerken**. Verwijder alle getagde gebruikers en klik vervolgens op **Verzenden**. U kunt een opmerking pas bewerken binnen 15 minuten nadat u deze hebt ingevoerd. U kunt alleen de opmerkingen bewerken die u hebt toegevoegd.
+
+   >[!TIP]
+   >
+   >Wanneer u de ervaring van oudere opmerkingen gebruikt om opmerkingen en reacties toe te voegen, kunnen eigenaars van opmerkingen die niet specifiek zijn gecodeerd, niet handmatig worden verwijderd door personen die de nieuwe opmerkingervaring gebruiken.
+
+
+

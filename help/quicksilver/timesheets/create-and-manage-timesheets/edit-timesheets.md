@@ -6,9 +6,9 @@ description: Als gebruiker met administratieve toegang tot Timesheets, kunt u in
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet administratieve toegang tot Timesheets hebben. </p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p><b>OPMERKING</b>
+   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p><b>OPMERKING</b>
 
 Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
 </tr> 
@@ -73,7 +73,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen, of creeer nieuwe. Voor informatie over het maken of bijwerken van filters raadpleegt u [Filters maken of bewerken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen, of creeer nieuwe. Zie voor informatie over het maken of bijwerken van filters [Filters maken of bewerken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -111,6 +111,16 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
      <tr> 
       <td role="rowheader"><strong>Einddatum</strong> </td> 
       <td> Dit is de einddatum van het tijdschema.</td> 
+     </tr>
+<tr> 
+      <td role="rowheader"><strong>Status</strong> </td> 
+      <td> Dit is de status van het tijdspad.
+      Hieronder vindt u mogelijke statusopties voor tijdschriften: 
+      <ul><li><b>Openen</b>: De tijdpagina is geopend en de uuritems kunnen worden bewerkt.</li>
+      <li><b>Verzonden</b>: Het tijdschema wordt ter goedkeuring voorgelegd aan de aangewezen fiatteurs.</li>
+      <li><b>Geweigerd</b>: De tijdpagina is niet goedgekeurd door de fiatteurs en is nu weer beschikbaar voor de gebruiker om de tijdinvoer te bewerken.</li>
+      <li><b>Gesloten</b>: De tijdpagina wordt gesloten door de gebruiker of goedgekeurd door de fiatteur en wordt daarom nu gesloten. U kunt geen tijd aan een gesloten timesheet toevoegen.</li>
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Fiatteurs</strong> </td> 
@@ -127,4 +137,4 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
     </tbody> 
    </table>
 
-1. Klik op Opslaan.
+1. Klikken **Opslaan**.
