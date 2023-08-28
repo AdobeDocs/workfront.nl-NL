@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e31391e854c088ba203a17db81fc04b61a840c21
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Productie voor raden van bestuur: 24 augustus 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: TBD</p>
+                                <p>Productie voor snelle afgifte: n.v.t.</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 23.10 release</p>
@@ -110,7 +110,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Productie voor raden van bestuur: 10 augustus 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 23.8</p>
+                                <p>Productie voor snelle afgifte: n.v.t.</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 23.10 release</p>
@@ -128,7 +128,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 3 augustus 2023</p>
                             </li>
                              <li>
-                                <p>Productie voor snelle release: met de release van 23.8</p>
+                                <p>Productie voor snelle afgifte: n.v.t.</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 23.10 release</p>
