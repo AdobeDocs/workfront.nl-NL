@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
+source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1555'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -91,12 +93,12 @@ Voor instructies voor het koppelen van documenten van SharePoint via de nieuwe [
 Een document naar SharePoint verzenden:
 
 1. Klik op de knop **Verzenden naar** pictogram ![Verzenden naar](assets/send-to-icon.png) en selecteer SharePoint (Graph API).
-1. (Optioneel) Zoek in de zoekbalk naar de site of map waarnaar u het document wilt verzenden.
+1. <span class="preview">(Optioneel) Zoek in de zoekbalk naar de site of map waarnaar u het document wilt verzenden.</span>
 1. Selecteer de site of map in de lijst.
 
-   * Sites zijn gemarkeerd met ![Sitepictogram](assets/site-icon.png).
+   * <span class="preview">Sites zijn gemarkeerd met ![Sitepictogram](assets/site-icon.png).</span>
 
-   * Mappen zijn gemarkeerd met ![Mappictogram](assets/folder-icon.png).
+   * <span class="preview">Mappen zijn gemarkeerd met ![Mappictogram](assets/folder-icon.png).</span>
 
    * Bestanden zijn niet gemarkeerd met een pictogram.
 
