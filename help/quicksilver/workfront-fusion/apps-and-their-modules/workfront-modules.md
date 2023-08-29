@@ -5,13 +5,13 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront-modules
-description: U kunt de Adobe Workfront Fusion Adobe Workfront-connector gebruiken om uw processen in Workfront te automatiseren. Als u een Workfront Fusion for Work Automation and Integration-licentie hebt, kunt u deze ook gebruiken om verbinding te maken met apps en services van derden.
+description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw processen in Workfront automatiseren. Als u een Workfront Fusion for Work Automation and Integration-licentie hebt, kunt u deze ook gebruiken om verbinding te maken met apps en services van derden.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '4998'
+source-wordcount: '5038'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
@@ -53,9 +53,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -70,7 +70,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 De [!DNL Workfront] -connector gebruikt OAuth 2.0 om verbinding te maken met [!DNL Workfront].
 
-U kunt een verbinding maken met uw [!DNL Workfront] rechtstreeks vanuit een [!DNL Workfront Fusion] module.
+U kunt een verbinding maken met uw [!DNL Workfront] rechtstreeks vanuit een [!DNL Workfront Fusion] -module.
 
 1. In alle [!DNL Workfront] app-module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] doos.
 1. Voer de naam van de instantie in de URL in. Voorbeeld: `https://<your instance>.my.workfront.com`.
@@ -115,7 +115,7 @@ Deze triggermodule voert in real-time een scenario uit wanneer objecten van een 
 
 De module retourneert alle standaardvelden die aan de record zijn gekoppeld, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-1. Klikken **[!UICONTROL Add]** rechts van de **Webhaak** doos.
+1. Klikken **[!UICONTROL Add]** aan de rechterzijde **Webhaak** doos.
 
 1. Vorm webhaak in de **[!UICONTROL Add a hook]** weergegeven.
 
@@ -143,22 +143,22 @@ De module retourneert alle standaardvelden die aan de record zijn gekoppeld, sam
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>U kunt filters instellen om alleen te controleren op records die voldoen aan de criteria die u selecteert.</p> <p>Voer voor elk filter het veld in dat door het filter moet worden geëvalueerd, de operator en de waarde die door het filter moet worden toegestaan. U kunt meer dan één filter gebruiken door EN regels toe te voegen.</p> <p>Opmerking: U kunt filters in bestaande [!DNL Workfront] webhaken. Verschillende filters instellen voor [!DNL Workfront] -gebeurtenisabonnementen, verwijder de huidige webhaak en maak een nieuwe.</p> <p>Zie voor meer informatie over gebeurtenisfilters <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Abonnementsfilters voor gebeurtenissen in het dialoogvenster [!DNL Workfront] &gt; [!UICONTROL Watch Events] modules</a> in dit artikel.</p> </td> 
+      <td> <p>U kunt filters instellen om alleen te controleren op records die voldoen aan de criteria die u selecteert.</p> <p>Voer voor elk filter het veld in dat door het filter moet worden geëvalueerd, de operator en de waarde die door het filter moet worden toegestaan. U kunt meer dan één filter gebruiken door EN regels toe te voegen.</p> <p>Opmerking: u kunt filters niet bewerken in bestaande [!DNL Workfront] webhaken. Verschillende filters instellen voor [!DNL Workfront] -gebeurtenisabonnementen, verwijder de huidige webhaak en maak een nieuwe.</p> <p>Zie voor meer informatie over gebeurtenisfilters <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Abonnementsfilters voor gebeurtenissen in het dialoogvenster [!DNL Workfront] &gt; [!UICONTROL Watch Events] modules</a> in dit artikel.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td>Gebeurtenissen die in dit verband zijn gemaakt, uitsluiten</td> 
+      <td>Exclusief gebeurtenissen die in dit verband worden gemaakt</td> 
       <td>Schakel deze optie in om gebeurtenissen uit te sluiten die zijn gemaakt of bijgewerkt met dezelfde connector die deze triggermodule gebruikt. Dit kan situaties verhinderen waar een scenario zich zou teweegbrengen, veroorzakend het om in een eindeloze lijn te herhalen.</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
-      <td> <p>Kies of u op het scenario wilt letten <strong>[!UICONTROL New Records Only]</strong>, <strong>[!UICONTROL Updated Records Only]</strong>, <strong>[!UICONTROL New and Updated Records]</strong>, of <strong>[!DNL Deleted Records Only]</strong>.</p> <p>Opmerking: Als u <strong>[!UICONTROL New and Updated Records]</strong>Wanneer u de webhaak maakt, worden er twee gebeurtenisabonnementen gemaakt (voor hetzelfde webhadres).</p> </td> 
+      <td> <p>Kies of u op het scenario wilt letten <strong>[!UICONTROL New Records Only]</strong>, <strong>[!UICONTROL Updated Records Only]</strong>, <strong>[!UICONTROL New and Updated Records]</strong>, of <strong>[!DNL Deleted Records Only]</strong>.</p> <p>Opmerking: als u <strong>[!UICONTROL New and Updated Records]</strong>Wanneer u de webhaak maakt, worden er twee gebeurtenisabonnementen gemaakt (voor hetzelfde webhadres).</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 Nadat WebHaak wordt gecreeerd, kunt u het adres van het eindpunt bekijken dat de gebeurtenissen worden verzonden naar.
 
-Zie de sectie voor meer informatie [Voorbeelden van gebeurtenistaken](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in de [!DNL Workfront] Help-artikel [Event Subscription API](../../wf-api/general/event-subs-api.md).
+Zie de sectie voor meer informatie [Voorbeelden van gebeurtenistaken](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in de [!DNL Workfront] Help-artikel [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md).
 
 Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
@@ -286,11 +286,11 @@ Deze actiemodule maakt een van de volgende omzettingen:
   </tr> 
   <tr> 
    <td>[!UICONTROL <Object> ID]</td> 
-   <td> <p>Voer de id van het object in. </p> <p>Opmerking: Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
+   <td> <p>Voer de id van het object in. </p> <p>Opmerking: wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Template ID]</td> 
-   <td> <p>Als u in een project omzet, selecteer identiteitskaart van het Malplaatje die u voor het project wilt gebruiken.</p> <p>Opmerking: Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
+   <td> <p>Als u in een project omzet, selecteer identiteitskaart van het Malplaatje die u voor het project wilt gebruiken.</p> <p>Opmerking: wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Custom forms]</td> 
@@ -348,7 +348,7 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
 
 >[!NOTE]
 >
->* Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.
+>* Wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.
 >* Wanneer u de tekst voor een aangepast veld of een [!UICONTROL Note] object (opmerking of antwoord), kunt u HTML-tags gebruiken in het dialoogvenster [!UICONTROL Note Text] veld voor het maken van RTF-tekst, zoals vette of cursieve tekst.
 >
 >  Voor meer informatie over tekst met opmaak in updates raadpleegt u [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -395,7 +395,7 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
 
 >[!NOTE]
 >
->* Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.
+>* Wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.
 >* Wanneer u de tekst voor een aangepast veld of een [!UICONTROL Note] object (opmerking of antwoord), kunt u HTML-tags gebruiken in het dialoogvenster [!UICONTROL Note Text] veld voor het maken van RTF-tekst, zoals vette of cursieve tekst.
 >
 >  Voor meer informatie over tekst met opmaak in updates raadpleegt u [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -409,12 +409,12 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het make
 
 De module retourneert de volgende informatie:
 
-* **[!UICONTROL Status Code]** (nummer): Dit wijst op het succes of de mislukking van uw HTTP- verzoek. Dit zijn standaardcodes die u kunt opzoeken op internet.
-* **[!UICONTROL Headers]** (object): Een meer gedetailleerde context voor de reactie/statuscode die niet op het outputlichaam betrekking heeft. Niet alle kopteksten in een antwoordkoptekst zijn reactiekoppen. Sommige koppen zijn daarom niet altijd even handig.
+* **[!UICONTROL Status Code]** (getal): Dit geeft aan of uw HTTP-aanvraag is geslaagd of mislukt. Dit zijn standaardcodes die u kunt opzoeken op internet.
+* **[!UICONTROL Headers]** (object): een gedetailleerdere context voor de respons-/statuscode die geen betrekking heeft op de hoofdtekst van de uitvoer. Niet alle kopteksten in een antwoordkoptekst zijn reactiekoppen. Sommige koppen zijn daarom niet altijd even handig.
 
   De antwoordheaders zijn afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module.
 
-* **[!UICONTROL Body]** (object): Afhankelijk van de HTTP-aanvraag die u hebt gekozen tijdens het configureren van de module, ontvangt u mogelijk gegevens terug. Deze gegevens, zoals de gegevens van een verzoek om GET, bevinden zich in dit object.
+* **[!UICONTROL Body]** (object): afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module, ontvangt u mogelijk gegevens terug. Deze gegevens, zoals de gegevens van een verzoek om GET, bevinden zich in dit object.
 
 U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -442,11 +442,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object. Dit bepaalt het inhoudstype van het verzoek.</p> <p>Bijvoorbeeld:<code> {"Content-type":"application/json"}</code></p> <p>Opmerking: Als u fouten krijgt en het moeilijk is om hun oorsprong te bepalen, denk na wijzigend kopballen die op [!DNL Workfront] documentatie. Als uw Aangepaste API-oproep een HTTP-aanvraagfout van 422 retourneert, probeert u een <code>"Content-Type":"text/plain"</code> header.</p> </td> 
+   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object. Dit bepaalt het inhoudstype van het verzoek.</p> <p>Bijvoorbeeld:<code> {"Content-type":"application/json"}</code></p> <p>Nota: Als u fouten krijgt en het moeilijk is om hun oorsprong te bepalen, denk na wijzigend kopballen die op [!DNL Workfront] documentatie. Als uw Aangepaste API-oproep een HTTP-aanvraagfout van 422 retourneert, probeert u een <code>"Content-Type":"text/plain"</code> header.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> <p>Tip: Wij adviseren dat u informatie door het lichaam JSON eerder dan als vraagparameters verzendt.</p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> <p>Tip: We raden u aan informatie via de JSON-hoofdtekst te verzenden in plaats van als queryparameters.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
@@ -490,12 +490,20 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
-   <td>Selecteer het type van [!DNL Workfront] record die u wilt verwijderen uit de module.</td> 
+   <td>Selecteer het type van [!DNL Workfront] record die u wilt verwijderen.</td> 
   </tr> 
  </tbody> 
 </table>
 
 Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+
+>[!NOTE]
+>
+>Wij adviseren de volgende scenario configuratie om de mogelijkheid te vermijden dat verslagen niet wegens asynchrone verrichtingen worden geschrapt.
+>
+>1. Verwijder de record synchroon.
+>1. Voeg foutafhandeling toe aan de module Record verwijderen om de fout te negeren die wordt veroorzaakt door de 40 tweede time-out.
+
 
 +++
 
@@ -544,7 +552,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Selecteer het type van [!DNL Workfront] verslag dat u de module wilt met in wisselwerking staan.</p> </td> 
+   <td> <p>Selecteer het type van [!DNL Workfront] record waarmee de module moet communiceren.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
@@ -662,7 +670,7 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
 
 >[!NOTE]
 >
->* Wanneer u de id van een object invoert, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.
+>* Wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.
 >* Wanneer u de tekst voor een aangepast veld of een [!UICONTROL Note] object (opmerking of antwoord), kunt u HTML-tags gebruiken in het dialoogvenster [!UICONTROL Note Text] veld voor het maken van RTF-tekst, zoals vette of cursieve tekst.
 >
 >  Voor meer informatie over tekst met opmaak in updates raadpleegt u [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -781,7 +789,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
-   <td> <p>Voer het veld in waarnaar u wilt zoeken, de operator die u in de query wilt gebruiken en de waarde waarnaar u in het veld zoekt.</p> <p>Opmerking: Niet gebruiken <code>username </code>in uw zoekcriteria. Inclusief <code>username </code>in een API-query naar [!DNL Workfront] logt de gebruiker in Workfront, en het onderzoek zal niet succesvol zijn.</p> <p>Opmerking: <code>In</code> en <code>NotIn</code>werken met arrays. De invoer moet een arrayindeling hebben.</p></td> 
+   <td> <p>Voer het veld in waarnaar u wilt zoeken, de operator die u in de query wilt gebruiken en de waarde waarnaar u in het veld zoekt.</p> <p>Opmerking: niet gebruiken <code>username </code>in uw zoekcriteria. Inclusief <code>username </code>in een API-query naar [!DNL Workfront] logt de gebruiker in Workfront, en het onderzoek zal niet succesvol zijn.</p> <p>Opmerking: <code>In</code> en <code>NotIn</code>werken met arrays. De invoer moet een arrayindeling hebben.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Outputs]</td> 
@@ -1709,7 +1717,7 @@ De volgende operatoren zijn beschikbaar in het filter Workfront > Watch-gebeurte
 >
 >### Gebeurtenissen filteren met behulp van een gebeurtenisabonnementfilter (aanbevolen)
 >
->Met het gebeurtenisfilter kunt u de webhaak zo instellen dat het scenario wordt geactiveerd wanneer een uitgave aan Ana wordt toegewezen wanneer de uitgave wordt gemaakt. Ana heeft de gebruiker-id b378489d8f7cd3cee0539260720a84b7.
+>Met het gebeurtenisfilter kunt u de webhaak zo instellen dat het scenario wordt geactiveerd wanneer een uitgave aan Ana wordt toegewezen wanneer de uitgave wordt gemaakt. Ana heeft de gebruikersnaam b378489d8f7cd3cee0539260720a84b7.
 >
 >![](assets/event-filter-watch-events-350x277.png)
 >
@@ -1717,7 +1725,7 @@ De volgende operatoren zijn beschikbaar in het filter Workfront > Watch-gebeurte
 >
 >### Gebeurtenissen filteren in het scenario (niet aanbevolen)
 >
->Als u gebeurtenissen wilt filteren zodat alleen uitgaven die aan Ana zijn toegewezen, worden verwerkt, kunt u een filter maken na het dialoogvenster [!UICONTROL Watch Events] module.
+>Als u gebeurtenissen wilt filteren zodat alleen uitgaven die aan Ana zijn toegewezen, worden verwerkt, kunt u een filter maken na het dialoogvenster [!UICONTROL Watch Events] -module.
 >
 >![](assets/watch-events-non-event-filter-350x206.png)
 >
