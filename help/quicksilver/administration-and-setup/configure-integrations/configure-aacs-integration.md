@@ -5,16 +5,16 @@ title: Adobe Experience Manager Assets-integratie
 description: U kunt uw werk verbinden met de volgende Integraties van Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
+source-git-commit: 69f1ee95754207ea9e6bcaf8ee2d270a15c9fc6b
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
-# Configureer de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
+# Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
 
-U kunt uw werk met uw inhoud verbinden in [!DNL Experience Manager Assets]&#x200B;:
+U kunt uw werk in [!DNL Experience Manager Assets]&#x200B;:
 
 * Elementen en metagegevens verschuiven vanuit [!DNL Adobe Workfront] tot [!DNL Experience Manager Assets]&#x200B;
 * Elementen koppelen van [!DNL Experience Manager Assets] aan uw projecten en taken in [!DNL Workfront&#x200B;]
@@ -72,21 +72,22 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] gekoppeld aan een organisatie-id in het dialoogvenster [!DNL Adobe Admin Consol]e. Zie voor meer informatie [verschillen in toediening op basis van Platforms ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] gekoppeld aan een organisatie-id in het dialoogvenster [!DNL Adobe Admin Consol]e. Zie voor meer informatie [Verschillen in beheer op basis van platforms ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## De integratiegegevens instellen
 
 1. Klik op de knop **[!UICONTROL Main Menu]** in de rechterbovenhoek van Adobe Workfront en klik vervolgens op **[!UICONTROL Setup]** .
 1. Selecteren **[!UICONTROL Documents]** in het linkerdeelvenster selecteert u vervolgens **[!UICONTROL [!DNL Experience Manager] Integration]**.
+
    >[!NOTE]
    >
    >Dit configuratiegebied wordt alleen weergegeven als uw [!DNL Workfront] milieu is opgenomen onder een [!DNL Adobe Admin Console].
 
 1. Selecteren **[!UICONTROL Add [!DNL Experience Manager] Integration]**.
-1. In de **[!UICONTROL Name]** Voer de naam in die gebruikers moeten zien wanneer ze in Workfront en Experience Manager Assets met deze integratie werken.
+1. In de **[!UICONTROL Name]** Voer in het veld de naam in die gebruikers moeten zien wanneer ze in Workfront en Experience Manager Assets met deze integratie werken.
 1. In de **[!UICONTROL Navigation URL]** wordt automatisch de navigatie-URL ingevuld. Deze alleen-lezen URL wordt gebruikt om een koppeling te maken naar de [!DNL Experience Manager] van de [!UICONTROL Main Menu] voor snelle toegang.
-1. Kies een opslagplaats in het menu **[!UICONTROL [!DNL Experience Manager] Assets repository]** vervolgkeuzemenu. Het systeem vult automatisch alle [!DNL Experience Manager] opslagplaatsen die zijn gekoppeld aan de organisatie-id waaraan uw gebruikersprofiel is toegewezen.
+1. Kies een opslagplaats in het menu **[!UICONTROL [!DNL Experience Manager] Assets repository]** vervolgkeuzelijst. Het systeem vult alle [!DNL Experience Manager] opslagplaatsen die zijn gekoppeld aan de organisatie-id waaraan uw gebruikersprofiel is toegewezen.
    ![Kies een ervaringsbeheeropslagplaats](assets/setup-information.png)
 
 1. Klikken **[!UICONTROL Save]** of ga naar de [Metagegevens instellen (optioneel)](#set-up-metadata-optional) in dit artikel.
@@ -109,7 +110,7 @@ Voordat u metagegevensvelden gaat toewijzen, moet u metagegevensvelden zowel in 
 
 U kunt als volgt metagegevensvelden configureren:
 
-1. Een metagegevensschema configureren in [!DNL Experience Manager Assets] zoals uiteengezet in [Elementmetagegevenstoewijzing tussen Adobe configureren [!DNL Workfront] en [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Een metagegevensschema configureren in [!DNL Experience Manager Assets] zoals uiteengezet in [Metagegevenstoewijzing tussen Adoben configureren [!DNL Workfront] en [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
 1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] beschikt over veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken, zoals wordt uitgelegd in [Een aangepast formulier maken of bewerken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
@@ -130,9 +131,9 @@ U kunt elk door Workfront ondersteund veld toewijzen aan een tag in Experience M
 
 >[!INFO]
 >
->**Voorbeeld**: Als u de tag in de mapstructuur hier wilt weergeven, krijgt de veldwaarde in Workfront de waarde `landscapes:trees/spruce`. Noteer de kleine letters in de veldwaarde van Workfront.
+>**Voorbeeld**: Als u de code in de mapstructuur hier wilt laten overeenkomen, wordt de veldwaarde in Workfront ingesteld op `landscapes:trees/spruce`. Noteer de kleine letters in de veldwaarde van Workfront.
 >
->Als u wilt dat het label het meest linkse item in de codestructuur is, moet het worden gevolgd door een dubbele punt. In dit voorbeeld wordt de veldwaarde in Workfront als volgt toegewezen aan de landscapes-tag `landscapes:`.
+>Als u wilt dat het label het meest linkse item in de codestructuur is, moet het worden gevolgd door een dubbele punt. In dit voorbeeld wordt de veldwaarde in Workfront als volgt toegewezen aan de landschapstag `landscapes:`.
 >
 >![Mapstructuur in AEM](assets/aem-folder-structure-with-red-boxes.png)
 
@@ -162,7 +163,7 @@ U kunt ingebouwde en aangepaste Workfront-velden toewijzen aan Experience Manage
 
 >[!TIP]
 >
-> Ga naar
+> Als u wilt controleren of de veldwaarden exact overeenkomen, gaat u naar
 >
 > * Setup > Custom Forms in Workfront of het veld in het object
 > * Middelen > Metagegevensschema&#39;s in Experience Manager Assets
@@ -171,7 +172,7 @@ U kunt ingebouwde en aangepaste Workfront-velden toewijzen aan Experience Manage
 
 ### Metagegevens toewijzen voor elementen
 
-Metagegevens worden toegewezen wanneer een element wordt verschoven van [!DNL Workfront] voor het eerst. Documenten met de ingebouwde of aangepaste velden worden automatisch toegewezen aan de opgegeven velden wanneer een element voor het eerst wordt verzonden naar [!DNL Experience Manager Assets].
+Metagegevens worden toegewezen wanneer een element wordt verplaatst van [!DNL Workfront] voor het eerst. Documenten met de ingebouwde of aangepaste velden worden automatisch toegewezen aan de opgegeven velden wanneer een element voor het eerst wordt verzonden naar [!DNL Experience Manager Assets].
 
 Metagegevens toewijzen voor elementen:
 
@@ -180,7 +181,7 @@ Metagegevens toewijzen voor elementen:
 
    >[!NOTE]
    >
-   >U kunt één kaart toewijzen [!DNL Workfront] veld naar meerdere [!UICONTROL Experience Manager Assets] velden. U kunt geen meerdere toewijzen [!DNL Workfront] velden naar één [!DNL Experience Manager Assets] veld.
+   >U kunt één kaart toewijzen [!DNL Workfront] veld naar meerdere [!UICONTROL Experience Manager Assets] velden. U kunt niet meerdere toewijzingen toewijzen [!DNL Workfront] velden naar één [!DNL Experience Manager Assets] veld.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. In de [!DNL Experience Manager Assets] , doorzoeken in de vooraf ingevulde categorieën of ten minste twee letters invoeren in het zoekveld voor toegang tot extra categorieën.
@@ -203,7 +204,7 @@ Metagegevens toewijzen voor mappen:
 
    >[!NOTE]
    >
-   >U kunt één Workfront-veld toewijzen aan meerdere Experience Manager Assets-velden. U kunt geen meerdere toewijzen [!DNL Workfront] velden naar één [!DNL Experience Manager Assets] veld.
+   >U kunt één Workfront-veld toewijzen aan meerdere Experience Manager Assets-velden. U kunt niet meerdere toewijzingen toewijzen [!DNL Workfront] velden naar één [!DNL Experience Manager Assets] veld.
 
 1. In de **[!DNL Experience Manager Assets]** , doorzoeken in de vooraf ingevulde categorieën of ten minste twee letters invoeren in het zoekveld voor toegang tot extra categorieën.
 1. Herhaal stap 2 en 3 zo nodig.
@@ -214,6 +215,8 @@ Metagegevens toewijzen voor mappen:
 ### Metagegevens van object synchroniseren
 
 An [!DNL Experience Manager] velden die zijn toegewezen aan [!DNL Workfront] portfolio, programma, project, taak, uitgave en documentvelden worden automatisch bijgewerkt wanneer het veld wordt gewijzigd in [!DNL Workfront].
+
+Als deze optie is ingeschakeld, bevat elk element dat is doorgegeven aan Adobe Experience Manager een kaart op de pagina Documentdetails die een real-time weergave van de Adobe Experience Manager-metagegevens van het document weergeeft.
 
 >[!IMPORTANT]
 >
@@ -228,14 +231,14 @@ An [!DNL Experience Manager] velden die zijn toegewezen aan [!DNL Workfront] por
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Als Workfront-beheerder kunt u workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
 
-De standaardwerkschemawaarden die u in de integratie plaatst kunnen op de niveaus van het Malplaatje van het Project en van het Project worden met voeten getreden.
+De standaardwerkschemawaarden die u in de integratie plaatst kunnen op de niveaus van het Malplaatje en van het Project worden met voeten getreden.
 
 ### Een workflow instellen voor het maken van aan Adobe Experience Manager gekoppelde mappen
 
 1. Schakelen tussen **[!UICONTROL Create Linked folder]** op.
 1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
    ![Navigatie naar gekoppelde mappen](assets/select-folder-aem-integration.png)
-1. De optie **Portfolio- en programmanamen toevoegen** automatisch namen van Portfolio en Programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
+1. De optie **Portfolio- en programmanamen toevoegen** automatisch namen van Portfolio&#39;s en programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
 1. Klikken **Opslaan** of ga naar de [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
 
 <!--Courtney end here-->
