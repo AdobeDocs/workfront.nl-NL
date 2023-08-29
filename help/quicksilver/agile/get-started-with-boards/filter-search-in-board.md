@@ -6,9 +6,9 @@ description: U kunt een bord filteren om alleen bepaalde kaarten weer te geven.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Als u het bord sorteert, worden alle kaarten in de kolommen gesorteerd. U kunt g
 
 Door te zoeken kunt u ook een bepaalde kaart op het bord vinden.
 
-Wanneer filters worden toegepast, wordt een indicator weergegeven op het bord ![Filter toegepast op board](assets/boards-filterapplied-30x30.png). Klikken **[!UICONTROL Clear All]** om alle filters van de raad te verwijderen, en klik **[!UICONTROL Hide filters]** om het filterdeelvenster te sluiten.
+Wanneer filters worden toegepast, wordt een indicator weergegeven op het bord ![Filter toegepast op board](assets/boards-filterapplied-30x30.png). Klikken **[!UICONTROL Clear All]** om alle filters van de raad te verwijderen, en het samenvouwpictogram te klikken om het filterpaneel te sluiten.
 
-![Deelvenster Filter](assets/boards-all-filters-collapsed-1022.png)
+![Deelvenster Filter](assets/boards-all-filters-collapsed-0823.png)
 
 ## Toegangsvereisten
 
@@ -91,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord filteren om ook gearchiveerde kaarten weer te geven.
 
 1. Toegang tot het bord.
-1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** om gearchiveerde kaarten weer te geven.
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** gearchiveerde kaarten weergeven.
 
    Het filter geeft het aantal gearchiveerde kaarten weer.
 
