@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
 
 # Nieuwe releaseactiviteit voor opmerkingervaring
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ We hebben de tijdstempelindeling van de gebruikersopmerkingen bijgewerkt op het 
 
 De wijzigingen hebben geen invloed op systeemupdates op het tabblad Systeemactiviteit.
 
-Voorbeeld en productie: 24 augustus 2023
+Voorbeeld en productie voor alle klanten: 24 augustus 2023
 
 ### Week van 14 augustus 2023
 
 [Bekijk een videodemonstratie van alle functies die in de week van 14 augustus 2023 zijn uitgebracht](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nieuwe ervaring met opmerkingen voor extra objecten
+
+[!BADGE In productie voor snelle release]{type=Positive}
 
 De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kort na de release 23.3 to Production: sjabloontaken, sjablonen, tijdbladen, teams, gebruikers, programma&#39;s, portfolio&#39;s.
 
@@ -98,6 +102,8 @@ Productieversie voor snelle release: met de release van 23,8 (31 augustus 2023)
 Productieversie voor alle klanten: met de release van 23.10 (oktober 2023)
 
 #### Nieuwe ontwerpupdate voor de nieuwe opmerkingsstroom
+
+[!BADGE In productie voor snelle release]{type=Positive}
 
 We hebben de nieuwe commentaarstroom opnieuw ontworpen om deze een meer bijgewerkte look-and-feel te geven. Enkele verbeteringen zijn:
 
@@ -122,6 +128,8 @@ Productie voor snelle release: met de release van 23.8 (31 augustus 2023)
 Productie voor driemaandelijkse release: met 23.10 release (oktober 2023)
 
 #### De nieuwe ervaring met opmerkingen is de standaardervaring voor projecten, taken, problemen en documenten
+
+[!BADGE In productie voor snelle release]{type=Positive}
 
 De nieuwe opmerkingervaring wordt gebruikt voor de volgende objecten: projecten, taken, problemen en documenten.  De oudere ervaring met opmerkingen blijft een alternatieve optie bij het benaderen van deze objecten.
 
