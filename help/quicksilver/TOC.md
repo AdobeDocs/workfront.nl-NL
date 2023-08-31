@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13214'
 ht-degree: 0%
 
 ---
@@ -1099,6 +1099,7 @@ ht-degree: 0%
          * [Een document verzenden naar Experience Manager Assets of Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Bewijs van een gekoppeld actief voor Experience Manager Assets of Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Een map maken die is gekoppeld met Experience Manager Assets of Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Problemen met Adobe Experience Manager-integratie oplossen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
