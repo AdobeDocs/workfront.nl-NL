@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen voor gebruikerstoewijzingen op borden en kaarten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Er zijn nu verbeteringen beschikbaar die flexibiliteit bieden bij het toevoegen van gebruikers aan borden en kaarten in Adobe Workfront Boards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen voor gebruikerstoewijzingen op borden en kaarten</a></p><p>Er zijn nu verbeteringen beschikbaar die flexibiliteit bieden bij het toevoegen van gebruikers aan borden en kaarten in Adobe Workfront Boards.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -127,6 +127,9 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                             <li>
                                 <p>Voorvertoningsrelease: 3 augustus 2023</p>
                             </li>
+                            <li>
+                                <p>Productie voor de vroege toegang tot de kamers:</p>
+                            </li>
                              <li>
                                 <p>Productie voor snelle afgifte: n.v.t.</p>
                             </li>
@@ -157,7 +160,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen op gebied van ervaring bij het verzenden van documenten naar SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p><p>We hebben een aantal wijzigingen aangebracht om het gemakkelijker te maken om mappen te zoeken wanneer u documenten naar uw SharePoint-mappen (GraphAPI) verzendt</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen op gebied van ervaring bij het verzenden van documenten naar SharePoint (GraphAPI)</a></p><p>We hebben een aantal wijzigingen aangebracht om het gemakkelijker te maken om mappen te zoeken wanneer u documenten naar uw SharePoint-mappen (GraphAPI) verzendt</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -165,17 +168,14 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoning release: 24 augustus<br /></p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: TBD</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: TBD</p>
+                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades voor slepen en neerzetten voor documentintegratie</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p><p>Er zijn verbeteringen aangebracht om de duidelijkheid te verbeteren en gebruikersfouten te verwijderen bij het slepen en neerzetten van een bestand in een gekoppelde map.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades voor slepen en neerzetten voor documentintegratie</a></p><p>Er zijn verbeteringen aangebracht om de duidelijkheid te verbeteren en gebruikersfouten te verwijderen bij het slepen en neerzetten van een bestand in een gekoppelde map.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -183,10 +183,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoning release: 24 augustus<br /></p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: TBD</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: TBD</p>
+                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span>
                             </li>
                         </ul>
                     </td>
@@ -213,8 +210,10 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Bijgewerkt ontwerp wanneer het toevoegen van een nieuwe kwestie aan een project</a> </p><p>Deze update is aangekondigd met de release 23.3.
-                        <p>We hebben het vak Nieuwe uitgave bijgewerkt, dat wordt weergegeven wanneer u een nieuwe uitgave naar een project verzendt. Nu, past de interface het Nieuwe verzoekvakje aan dat toont wanneer het voorleggen van een nieuw verzoek aan een verzoekrij.  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Bijgewerkt ontwerp wanneer het toevoegen van een nieuwe kwestie aan een project</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Deze update is aangekondigd met de release 23.3.</p>
+                        <p>We hebben het vak Nieuwe uitgave bijgewerkt, dat wordt weergegeven wanneer u een nieuwe uitgave naar een project verzendt. Nu, past de interface het Nieuwe verzoekvakje aan dat toont wanneer het voorleggen van een nieuw verzoek aan een verzoekrij.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -232,7 +231,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamische herberekening van berekende velden op formulieren</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamische herberekening van berekende velden op formulieren</a></p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>Berekende velden op een formulier dat aan een object is gekoppeld, worden nu dynamisch opnieuw berekend in real-time wanneer afhankelijke waarden van een formulier op de pagina worden gewijzigd. Zo kunt u de bijgewerkte resultaten bekijken zonder het formulier op te slaan.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -252,6 +252,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Geplande uren instellen voor terugkerende taken van onderliggende items met het type Eenvoudige duur zonder toewijzingen</a></p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>We hebben een wijziging aangebracht in de manier waarop geplande uren worden toegewezen aan terugkerende taken zonder toewijzingen en met een eenvoudige tijdsduur. Nu, wanneer u Geplande Uren op een nieuwe terugkomende taak met een Eenvoudig Type van Duur en geen taken plaatst, worden de uren ook toegewezen aan de individuele herhalingen. Vóór deze wijziging werden de uren niet opgeslagen voor afzonderlijke herhalingen toen de bovenliggende taken niet werden toegewezen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -349,6 +350,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaverbeteringen voor opmerkingervaring</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>De verbeteringen aan de sectie van Updates worden ter beschikking gesteld binnen het Vierde Kwartaal 2023 versietijdskader voor het becommentariëren ervarings bèta. Deze verbeteringen zullen in de Productomgeving voor alle klanten beschikbaar worden gesteld met de vierde release van 2023 (oktober 2023).</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -368,6 +370,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaverbeteringen voor canvasdashboards</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>De verbeteringen aan de dashboards van het Canvas worden ter beschikking gesteld binnen het vierde Kwartaal 2023 releasetijdschema als deel van aan de gang zijnde bèta. Deze verbeteringen zullen in de Productomgeving voor alle klanten beschikbaar worden gesteld met de vierde release van 2023 (oktober 2023).</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -387,6 +390,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nieuwe filteropties voor Nieuwe startpagina</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>Er zijn nu nieuwe filteropties beschikbaar voor de widget Mijn werk in Nieuwe startpagina. U kunt onder andere filters voor objecttypen (taken, problemen en verzoeken) en statussen (niet gereed, klaar om te starten, te werken en te voltooien) kiezen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -425,6 +429,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">De knop Nieuwe startpagina wordt verwijderd voor accounts waarvoor Nieuwe startpagina is uitgeschakeld</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>De knop Nieuwe startpagina proberen is niet meer beschikbaar voor accounts waarvoor Nieuwe startpagina is uitgeschakeld. Het nieuwe Huis moet door de systeembeheerder opnieuw worden toegelaten alvorens individuele gebruikers de knoop kunnen gebruiken om Nieuwe Huis te proberen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -444,6 +449,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Wijzigen in standaardwidget Nieuwe startpagina</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>De widget Aan/uit, waarvoor toestemming nodig is om taken te maken, is nu alleen aanwezig in de standaardwidget die is ingesteld voor gebruikers met de licentietypen Standaard, Overzicht of Werkwerk. Bovendien is de widget automatisch verwijderd van de homepages van gebruikers met alle andere licentietypen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
