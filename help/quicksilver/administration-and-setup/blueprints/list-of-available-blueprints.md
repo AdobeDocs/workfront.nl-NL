@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -61,10 +61,10 @@ De [!UICONTROL General Internal Strategic Initiative] de blauwdruk bevat een pro
 **[!UICONTROL Human Resources Organization Setup]**
 Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een afdeling van het Middelen uit te breiden.
 
-[!BADGE Nieuw!]{type=Informative}**[!UICONTROL Information Technology Organization Setup]**
+**[!UICONTROL Information Technology Organization Setup]**
 Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een het gebruiksgeval van de Technologie van de Informatie uit te breiden.
 
-**[!UICONTROL Inherited Instance Basics | Checklist]**
+[!BADGE Nieuw!]{type=Informative}**[!UICONTROL Inherited Instance Basics | Checklist]**
 Deze blauwdruk bevat een projectmalplaatje (of controlelijst) dat u met een korte lijst van vragen, middelen, en verbindingen voor een duidelijk inzicht in kunt herzien hoe uw instantie van Workfront is gevormd. Gebruik dit wanneer u onlangs een Workfront-exemplaar hebt geërfd en hulp nodig hebt bij het opstarten van het programma.
 
 **[!UICONTROL Integrated Campaign Execution]**
