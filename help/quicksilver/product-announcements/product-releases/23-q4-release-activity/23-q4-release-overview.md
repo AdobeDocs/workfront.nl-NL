@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
+source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoning release: 24 augustus<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span>
+                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -183,7 +183,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoning release: 24 augustus<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span>
+                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -418,10 +418,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 23.8</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
                             </li>
                         </ul>
                     </td>
