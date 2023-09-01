@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
+source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -142,14 +142,12 @@ Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingerv
    * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+      * De volgende objecten hebben geen tabblad Systeemactiviteit:
 
-  * The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
-    -->
+         * Team
+         * Sjabloon
+         * Sjabloontaak
+         * Ad-hockaart
 
 * Op dit moment kunt u opmerkingen toevoegen en op updates reageren met de nieuwe ervaring met opmerkingen over de volgende objecten:
 
