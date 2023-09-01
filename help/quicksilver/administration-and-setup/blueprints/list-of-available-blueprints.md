@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ De [!UICONTROL General Internal Strategic Initiative] de blauwdruk bevat een pro
 **[!UICONTROL Human Resources Organization Setup]**
 Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een afdeling van het Middelen uit te breiden.
 
-**[!UICONTROL Information Technology Organization Setup]**
+[!BADGE Nieuw!]{type=Informative}**[!UICONTROL Information Technology Organization Setup]**
 Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een het gebruiksgeval van de Technologie van de Informatie uit te breiden.
 
 **[!UICONTROL Inherited Instance Basics | Checklist]**
@@ -78,6 +78,10 @@ Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront professional services
 
 **[!UICONTROL New Hire Readiness]**
 Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront] de organisatie van de professionele diensten heeft jarenlang tijdens implementatieovereenkomsten met de teams van het Personeel gebruikt om de specialisten van HR en het huren van managers ertoe aan te zetten essentiële activiteiten te voltooien om de eerste dag van een nieuwe werknemer opmerkelijk te maken.
+
+[!BADGE Nieuw!]{type=Informative}**Offboarding | Gebruikersdashboard wordt verwijderd**
+
+Deze blauwdruk bevat één dashboard met 13 rapporten om u te helpen, de voorwerpen en de taken vinden opnieuw toewijzen of anders beheren verbonden aan een gebruiker die Workfront vertrekt. U kunt deze rapporten ook gebruiken voor een gebruiker die naar een nieuwe rol of groep gaat om zijn werk opnieuw toe te wijzen.
 
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
 Deze blauwdruk bevat één sjabloon waarmee het werk dat een [!DNL Workfront] de klant zal moeten voltooien om de uitbreiding aan volgende processen na hun aanvankelijke implementatie te beheren.
@@ -100,6 +104,10 @@ Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een 
 **[!UICONTROL Recruiting Process Tracking]**
 Deze blauwdruk bepaalt een controlelijst voor interne het aanwerven middelen om bedrijfsbelanghebbenden te helpen de vooruitgang van hoofdtelverzoeken volgen. Het is ontworpen ter ondersteuning van een beheerde looptijdniveau.
 
+[!BADGE Nieuw!]{type=Informative}**Voorbereiding van bronnenbeheer**
+
+Gebruik dit Malplaatje van Project en Rapport van de Gebruiker om u te verzekeren hebt de correcte montages en de informatie noodzakelijk om de nauwkeurige gegevens van het Beheer van het Middel te produceren.
+
 **[!UICONTROL Risk Control Self Assessment: Key Risk Mitigation Planning]**
 [!UICONTROL Risk Control Self Assessment] (RSCA) bepaalt een proces om risico&#39;s te identificeren en de controles te meten u op zijn plaats hebt om die risico&#39;s te verlichten. Dit malplaatje formaliseert het proces voor u om nieuwe risico&#39;s te evalueren, ervoor te zorgen dat de aangewezen controles worden geplaatst, en om ervoor te zorgen u weet hoe te om de doeltreffendheid van de controle te meten en te documenteren.
 
@@ -117,6 +125,14 @@ Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront] de organisatie van d
 
 **[!UICONTROL System Administrator Maintenance Dashboard]**
 Deze blauwdruk bevat één dashboard om systeembeheerders te helpen het systeem regelmatig te onderhouden en op te schonen vanuit diverse problemen die zich in de loop der tijd zouden kunnen voordoen.
+
+[!BADGE Nieuw!]{type=Informative}**Waarderealisatie | Kernwaardedashboard**
+
+Deze blauwdruk bevat één dashboard met 21 rapporten om u te helpen de Waarde van Workfront meten. Deze rapporten helpen u de voordelen van het Centraliseren van het Werk en het Beheren van de Processen van het Werk in meetbare waarden vertalen die u in tijd kunt volgen om betere resultaten te drijven.
+
+[!BADGE Nieuw!]{type=Informative}**Waarderealisatie | Het dashboard bekijken en goedkeuren**
+
+Deze blauwdruk bevat één dashboard met 7 rapporten om u te helpen de Waarde van Workfront realiseren. Met deze rapporten kunt u de waarden van Reviseren en goedkeuren omzetten in meetbare voordelen die u in de loop der tijd kunt bijhouden om betere resultaten te behalen.
 
 **[!UICONTROL Video Asset Production](Geïntegreerd)**
 De [!UICONTROL Video Asset Production] Het pakket bevat een sjabloon waarmee het werkproces voor een standaard videoproductieproces wordt georganiseerd. Het malplaatje verstrekt een len proces voor de originele videoactiva verwezenlijking voor een team dat zich op standaard werkende procedures baseert om te bepalen hoe te het werk te doen en het project slechts gebruikt om aan het werk voorrang te geven en vooruitgang te volgen.

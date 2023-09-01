@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,19 @@ De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe Workfront Fus
 
 Uw team of organisatie kan andere team-gecreeerde malplaatjes beschikbaar hebben.
 
-Als u beschikbare sjablonen wilt weergeven, klikt u op de knop **Sjablonen** pictogram ![](assets/fusion-template-icon.png) in het zijnavigatiemenu in Fusion.
+Klik op de knop **Sjablonen** pictogram ![](assets/fusion-template-icon.png) in het zijnavigatiemenu in Fusion.
 
 ## Workfront-sjablonen
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
 
-### Workfront - Program Custom Forms en Field Data kopiëren naar bijbehorende nieuwe projecten
+### [!BADGE Nieuw!]{type=Informative}
 
-Deze automatisering zoekt naar nieuwe projecten in programma&#39;s met douaneformulieren. Vervolgens worden deze aangepaste formulieren en velden voor het programma toegevoegd aan de nieuwe projecten.
+Deze automatisering zoekt naar nieuwe projecten in programma&#39;s met aangepaste formulieren. Vervolgens worden deze aangepaste formulieren en velden voor het programma toegevoegd aan de nieuwe projecten.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+Deze automatisering zoekt naar nieuwe projecten in portfolio&#39;s met aangepaste formulieren. Deze portfolio voegt vervolgens aangepaste formulieren en velden toe aan de nieuwe projecten.
 
 ### Workfront - Goedgekeurd probleem converteren naar project
 
@@ -54,7 +58,7 @@ Dit malplaatje vangt een projectbasislijn op om het even welke verandering van d
 
 Deze malplaatje vangt een projectbasislijn op wekelijkse basis elke Maandag om 6 uur ET op projecten die door portefeuille worden gefiltreerd, en leidt tot een update in de updatestroom voor registreren.
 
-### Projectsjablonen zoeken die niet worden gebruikt in de beleidstijd en hiervan melding maken
+### [!BADGE Nieuw!]{type=Informative}
 
 Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met dit gemakkelijk te beheren malplaatje dat aangewezen gebruikers op malplaatjes in strijd met uw beleid op de hoogte brengt.
 
@@ -80,7 +84,7 @@ Deze sjablonen halen informatie op van een webservice en brengen die informatie 
 
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
-Deze sjabloon maakt een scenario dat het bijwerken van een wisselkoers op een bepaald tijdstip automatiseert. Dit scenario trekt het tarief van Euros (EUR) aan US Dollars (USD) van APIlayers.com en werkt het tarief in Workfront bij.
+Deze sjabloon maakt een scenario dat het bijwerken van een wisselkoers op een bepaald tijdstip automatiseert. In dit scenario wordt de koers van Euros (EUR) naar Amerikaanse dollars (USD) opgehaald van een APIlayers.com API en wordt de koers in Workfront bijgewerkt.
 
 ## Workfront-Marketo-sjablonen
 
@@ -90,15 +94,15 @@ Deze sjablonen ondersteunen de integratie tussen Workfront en Marketo.
 >
 > U moet een Workfront Fusion for Work Automation and Integration-licentie hebben om sjablonen in deze sectie te kunnen gebruiken.
 
-### Uw concept van een Marketo Engage-e-mail goedkeuren met goedkeuringswerkstromen van Workfront
+### Concepten van e-mailberichten voor Marketo&#39;s Engage goedkeuren met goedkeuringswerkstromen van Workfront
 
-Dit maakt deel uit van de Review and Approved integration tussen Workfront en Marketo Engage. Deze sjabloon detecteert of er een e-mailproef in Workfront is goedgekeurd en werkt vervolgens het bijbehorende e-mailbericht in Marketo Engage bij zoals goedgekeurd.
+Dit maakt deel uit van de herziening en de goedkeuring van de integratie tussen Workfront en Marketo Engage. Deze sjabloon detecteert of er een e-mailproef in Workfront is goedgekeurd en werkt vervolgens het bijbehorende e-mailbericht in het Marketo Engage bij zoals goedgekeurd.
 
 ### Aanvragen voor marketingcampagnes van Intake in Workfront en automatiseren het maken van campagnes in Marketo Engage
 
 Dit scenario verstrekt een programmatic manier om e-mail en webinar campagnes in Marketo Engage van een verzoek tot stand te brengen dat in Workfront wordt gemaakt. Door automatisering te gebruiken om, campagnes tot stand te brengen te organiseren en te vormen, kunnen de teams efficiency verbeteren.
 
-### Een e-mailproefexemplaar van uw concept van Marketo Engage-e-mail controleren in Workfront
+### Een e-mailproefexemplaar van uw concept van uw Marketo Engage-e-mail controleren in Workfront
 
 Deze sjabloon detecteert of een Workfront-taak is ingesteld op een status die klaar is voor controle en exporteert het e-mailconcept van Marketo Engage om het op te slaan als een proefexemplaar in Workfront.
 
@@ -106,7 +110,7 @@ Deze sjabloon detecteert of een Workfront-taak is ingesteld op een status die kl
 
 Deze sjablonen ondersteunen de integratie tussen Workfront en Anaplan en verwachten een specifieke configuratie in zowel Anaplan als Workfront. Zie de artikelen voor de afzonderlijke sjablonen voor informatie over deze sjablonen en de bijbehorende configuraties.
 
-Voor meer informatie over de integratie tussen Workfront en Anaplan raadpleegt u [Adobe Workfront met Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Zie voor meer informatie over de integratie tussen Workfront en Anaplan [Adobe Workfront met Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 >[!NOTE]
 >
