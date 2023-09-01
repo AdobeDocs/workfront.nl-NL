@@ -6,9 +6,9 @@ description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bek
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
+source-git-commit: e3bc8ca88dda16ac792e6de8055296105e6ff0e0
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> -->
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang bewerken tot [!UICONTROL Documents]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang bewerken tot [!UICONTROL Documents]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-* U moet de [!DNL Adobe Workfront for design and video] insteekmodule voordat u documenten kunt uploaden van [!DNL Illustrator].
+* U moet installeren [!DNL Adobe Workfront for design and video] voordat u documenten kunt uploaden van [!DNL Illustrator].
 
   Zie voor instructies [Installeren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het werkitem waar u een document wilt uploaden.
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
 
-1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
+1. Klikken **[!UICONTROL New File]** onder aan de insteekmodule.
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
 1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
 1. Open de **[!UICONTROL Set Export File Settings]** configureren de gewenste exportopties op basis van het hierboven gekozen elementtype.

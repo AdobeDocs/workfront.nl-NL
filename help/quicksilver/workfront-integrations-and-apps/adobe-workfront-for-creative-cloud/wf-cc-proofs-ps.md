@@ -6,9 +6,9 @@ description: U kunt uw tekengebieden als proefdrukken rechtstreeks uploaden naar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
+source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang bewerken tot [!UICONTROL Documents]</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang bewerken tot [!UICONTROL Documents]</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-* U moet de [!DNL Adobe Workfront for Photoshop] insteekmodule voordat u proefdrukken kunt uploaden van [!DNL Adobe Photoshop].
+* U moet installeren [!DNL Adobe Workfront for Photoshop] voordat u proefdrukken kunt uploaden van [!DNL Adobe Photoshop].
 
-   Zie voor instructies [Installeren [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  Zie voor instructies [Installeren [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## Een basisproef uploaden
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
-1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
+1. Klikken **[!UICONTROL New File]** aan de onderkant van de [!DNL Workfront] deelvenster.
 1. De optie **[!UICONTROL Create a proof]** schakelen.
 1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
 1. In de **[!UICONTROL Proof Approvals]** sectie, selecteert u **[!UICONTROL Basic]**.
@@ -79,7 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klikken **[!UICONTROL Upload]** Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
 
    ![](assets/plugin-files-350x307.png)\
-   Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
+   Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in het gebied [!DNL Workfront] deelvenster in [!DNL Photoshop] en in de [!DNL Workfront] bureaubladtoepassing.
 
 
 ## Een automatische proefdruk uploaden
@@ -91,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
 
-1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
+1. Klikken **[!UICONTROL New File]** aan de onderkant van de [!DNL Workfront] deelvenster.
 1. De optie **[!UICONTROL Create a proof]** schakelen.
 1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
 1. In de **[!UICONTROL Proof Approvals]** sectie, selecteert u **[!UICONTROL Automated]**.
@@ -111,7 +111,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
 1. Klikken **[!UICONTROL Upload]**Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
-Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
+Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in het gebied [!DNL Workfront] deelvenster in [!DNL Photoshop] en in de [!DNL Workfront] bureaubladtoepassing.
 
 ## Een nieuwe proefdrukversie uploaden
 
@@ -124,7 +124,7 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png)in de navigatiebalk.
 
-1. Klikken **[!UICONTROL New Version]** aan de onderkant van de plug-in.
+1. Klikken **[!UICONTROL New Version]** aan de onderkant van de [!DNL Workfront] deelvenster.
 1. De optie **[!UICONTROL Create a proof]** schakelen.
 
 1. In de *[!UICONTROL *Proof approvals]**, kiest u **[!UICONTROL Basic]** of **[!UICONTROL Automated]**.
@@ -134,4 +134,4 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
 1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu.
 1. Klikken **[!UICONTROL Upload]**Configureer vervolgens de gewenste exportopties op basis van het hierboven gekozen elementtype.
-Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
+Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in het gebied [!DNL Workfront] deelvenster in [!DNL Photoshop] en in de [!DNL Workfront] bureaubladtoepassing.

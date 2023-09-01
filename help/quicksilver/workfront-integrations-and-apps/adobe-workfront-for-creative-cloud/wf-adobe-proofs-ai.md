@@ -6,9 +6,9 @@ description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bek
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
-source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
+source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-* U moet de [!DNL Adobe Workfront for design and video] insteekmodule voordat u proefdrukken kunt uploaden van [!DNL Illustrator].
+* U moet installeren [!DNL Adobe Workfront for design and video] voordat u proefdrukken kunt uploaden van [!DNL Illustrator].
 
-   Zie voor instructies [Installeren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Zie voor instructies [Installeren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Een basisproef uploaden
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
-1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
+1. Klikken **[!UICONTROL New File]** onder aan de insteekmodule.
 1. De optie **[!UICONTROL Create a proof]** schakelen.
 1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
 1. In de **[!UICONTROL Proof Approvals]** sectie, selecteert u **[!UICONTROL Basic]**.
@@ -91,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
 
-1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
+1. Klikken **[!UICONTROL New File]** onder aan de insteekmodule.
 1. De optie **[!UICONTROL Create a proof]** schakelen.
 1. (Optioneel) Typ een naam voor de proefdruk in het dialoogvenster **[!UICONTROL Proof Name]** tekstvak.
 1. In de **[!UICONTROL Proof Approvals]** sectie, selecteert u **[!UICONTROL Automated]**.
@@ -124,7 +124,7 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
 1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png)in de navigatiebalk.
 
-1. Klikken **[!UICONTROL New Version]** aan de onderkant van de plug-in.
+1. Klikken **[!UICONTROL New Version]** onder aan de insteekmodule.
 1. De optie **[!UICONTROL Create a proof]** schakelen.
 
 1. In de *[!UICONTROL *Proof approvals]**, kiest u **[!UICONTROL Basic]** of **[!UICONTROL Automated]**.
