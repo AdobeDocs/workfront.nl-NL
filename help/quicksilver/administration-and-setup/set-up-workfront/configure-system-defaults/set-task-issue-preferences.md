@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-   <td> <p>Berekent de geplande en werkelijke inkomstenramingen voor een taak. Wanneer de <strong>[!UICONTROL Revenue Type]</strong> is ingesteld op<strong>[!UICONTROL Not Billable]</strong>de geplande uren en de werkelijk geregistreerde uren geen inkomstenraming voor de taak opleveren, en de werkzaamheden aan de taak dragen niet bij tot de ontvangsten op projectniveau.</p> </td> 
+   <td> <p>Berekent de geplande en werkelijke inkomstenramingen voor een taak. Wanneer de <strong>[!UICONTROL Revenue Type]</strong> is ingesteld op <strong>[!UICONTROL Not Billable]</strong>de geplande uren en de werkelijk geregistreerde uren geen inkomstenraming voor de taak opleveren, en de werkzaamheden aan de taak dragen niet bij tot de ontvangsten op projectniveau.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cost Type]</td> 
@@ -118,7 +118,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: geeft de primaire contactpersoon (maker van de uitgave) toegang tot de taak om de taak te beoordelen, op de hoogte te blijven van de voortgang van de taak en opmerkingen te maken over de sectie Updates van de taak.</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Geeft de primaire contactpersoon (maker van de uitgave) toegang tot de taak om de taak te beoordelen, op de hoogte te blijven van de voortgang van de taak en opmerkingen te maken over de sectie Updates van de taak.</li> 
      <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Hiermee kan de gebruiker die de uitgave converteert, deze opties wijzigen tijdens de conversie van een uitgave naar een taak.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: geeft de primaire contactpersoon (maker van de uitgave) toegang tot het project om het project te beoordelen, op de hoogte te blijven van de voortgang van het project en opmerkingen te maken over het gedeelte Updates van het project.</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Geeft de primaire contactpersoon (maker van de uitgave) toegang tot het project om het project te beoordelen, op de hoogte te blijven van de voortgang van het project en opmerkingen te maken over de sectie Updates van het project.</li> 
      <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Hiermee kan de gebruiker die de uitgave converteert, de weergegeven opties wijzigen tijdens de conversie van een uitgave naar een project.</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Zie voor meer informatie over taakmachtigingen<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Zie voor meer informatie over taakmachtigingen <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Bepaalt de standaardtoestemming een gebruiker aan het project heeft waarop zij een taak hebben die aan hen wordt toegewezen. Zie voor meer informatie over projectmachtigingen <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Zie voor meer informatie over taakmachtigingen<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Zie voor meer informatie over taakmachtigingen <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Bepaalt de standaardtoestemming een gebruiker aan het project heeft waarop zij een taak hebben die aan hen wordt toegewezen. Zie voor meer informatie over projectmachtigingen <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p> </li> 
     </ul> </td> 
   </tr> 
