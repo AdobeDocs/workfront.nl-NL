@@ -6,16 +6,16 @@ description: U kunt de Adobe Workfront for XD plug-in installeren via de Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
 # Installeren en openen [!DNL Adobe Workfront for XD]
 
-U kunt de [!DNL Adobe Workfront for XD] plug-in van de Adobe Marketplace. De plug-in ondersteunt de volgende talen:
+U kunt de [!DNL Adobe Workfront for XD] van de Adobe Marketplace. De plug-in ondersteunt de volgende talen:
 
 * Engels
 * Frans
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td><p>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</p><p>Zie voor meer informatie <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Ondersteuningsbeleid voor Creative Cloud</a>.</p></td> 
+   <td><p>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</p><p>Zie voor meer informatie <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Ondersteuningsbeleid voor Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,6 +64,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Als u een [!DNL Adobe Admin Console] beheerder, kunt u de insteekmodule opnemen [!DNL Creative Cloud] implementatiepakketten. Zie voor meer informatie [Insteekmodules opnemen in het pakket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [Hier een videozelfstudie bekijken](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+[!DNL Adobe Admin Console] beheerders kunnen ook pakketten met alleen de plug-in maken voor distributie naar gebruikers. Zie voor meer informatie [Maken [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] pakketten voor uw gebruikers in de [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## Installeer de [!DNL Adobe Workfront for XD] afzonderlijk insteekmodule
 
@@ -96,11 +98,10 @@ U kunt de [!DNL Adobe Workfront for XD] plug-in voor uzelf uit de [!DNL Adobe Ex
 
    >[!TIP]
    >
-   >* Als u uw domein wilt zoeken, opent u een browser en navigeert u naar uw [!DNL Workfront] en kopieer het eerste deel van de URL:\
-      >![](assets/domain-350x50.png)
+   >* Als u uw domein wilt zoeken, opent u een browser en navigeert u naar uw [!DNL Workfront] -instantie en kopieer het eerste deel van de URL:\
+   >![](assets/domain-350x50.png)
    >
-   > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
-
+   > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om u het Workfront-domein te verschaffen dat u kunt vinden onder Product > Workfront in de Admin Console.
 
 1. Voer in de browser uw [!DNL Workfront] referenties en klik vervolgens op **[!DNL Log in]**. Als uw bedrijf één enkel teken-op (SSO) gebruikt, zult u aan de pagina van uw leverancier worden geleid SSO om zich aan te melden.
 
@@ -108,13 +109,12 @@ U kunt de [!DNL Adobe Workfront for XD] plug-in voor uzelf uit de [!DNL Adobe Ex
    >
    >Mogelijk wordt u niet gevraagd om uw [!DNL Workfront] als u zich onlangs hebt aangemeld.
 
-   Volg de aanwijzingen om u aan te melden [!DNL Workfront].
+   Volg de aanwijzingen voor aanmelden [!DNL Workfront].
 
    >[!NOTE]
    >
    >* [!DNL Workfront] verbindt met [!DNL Adobe Creative Cloud] het gebruiken van OAuth 2.0, een veilige norm die door de meeste web-based integratie voor de authentificatie en de vergunning van gebruikers wordt gebruikt.
    >* Wanneer u wordt gevraagd om het dialoogvenster [domein of host] van uw [!DNL Workfront] -account, typt u deze notatie: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
-
 
 1. Klikken **[!UICONTROL Allow Access]** om het aanmelden te voltooien en terug te gaan naar [!DNL Adobe XD] om uw werk te zien.
 

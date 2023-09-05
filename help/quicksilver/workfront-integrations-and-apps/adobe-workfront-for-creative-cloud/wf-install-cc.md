@@ -6,9 +6,9 @@ description: U kunt [!DNL Adobe Workfront for design and video] van de Adobe Mar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Als u een [!DNL Adobe Admin Console] beheerder, kunt u [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] implementatiepakketten. Zie voor meer informatie [Insteekmodules opnemen in het pakket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [Hier een videozelfstudie bekijken](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+[!DNL Adobe Admin Console] beheerders kunnen ook pakketten met alleen de plug-in maken voor distributie naar gebruikers. Zie voor meer informatie [Maken [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] pakketten voor uw gebruikers in de [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## Installeren [!DNL Workfront for design and video] individueel
 
