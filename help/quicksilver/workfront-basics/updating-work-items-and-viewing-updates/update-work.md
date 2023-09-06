@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 0%
 
 ---
@@ -218,6 +218,7 @@ Het toevoegen van een update aan een tijdelijk item hangt af van de versie van d
       <td> <p>Schakel deze optie uit als u wilt voorkomen dat gebruikers buiten uw bedrijf toegang hebben om deze update te bekijken.</p> 
       <p><b>OPMERKING</b></p>
       <p>Deze optie toont slechts wanneer de gebruiker met een Bedrijf wordt geassocieerd.</p>
+      <p>Deze optie is niet beschikbaar in alle gebieden waar u updates kunt toevoegen. Dit is bijvoorbeeld niet beschikbaar in toepassingen van derden waar u updates kunt toevoegen. </p>
       </td> 
      </tr> 
     </tbody> 
