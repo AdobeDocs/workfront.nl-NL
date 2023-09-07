@@ -4,9 +4,9 @@ description: De [!DNL Adobe Workfront Fusion] De modules van CRM van HubSpot lat
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -42,9 +42,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -731,6 +731,19 @@ Verwijdert een bestaand ticket met zijn id.
 
 Hiermee kunt u een aangepaste API-aanroep uitvoeren.
 
+>[!NOTE]
+>
+>De volgende eindpunten werden afgekeurd in HubSpot API op 31 Augustus, 2023, en kunnen niet meer in de modules van de Fusie worden gebruikt.
+>
+>* Gebeurtenissen voor inhoud weergeven
+>* Sociale gebeurtenissen weergeven
+>* Taakgebeurtenissen voor agenda weergeven
+>* Alle kalendergebeurtenissen weergeven
+>* Kalendertaak maken
+>* Kalendertaak ophalen op id
+>* Kalender bijwerken
+>* Een kalendertaak verwijderen
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -745,11 +758,11 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Selecteer de HTTP-methode die u wilt gebruiken:</p> <p>[!UICONTROL GET]</p> <p>om informatie voor een ingang terug te winnen.</p> <p>[!UICONTROL POST]</p> <p>om een nieuwe ingang tot stand te brengen.</p> <p>[!UICONTROL PUT]</p> <p>om een bestaand item bij te werken of te vervangen.</p> <p>[!UICONTROL PATCH]</p> <p>om een gedeeltelijke ingsupdate te maken.</p> <p>[!UICONTROL DELETE]</p> <p>om een item te verwijderen.</p> </td> 
+   <td> <p>Selecteer de HTTP-methode die u wilt gebruiken:</p> <p>[!UICONTROL GET]</p> <p>om informatie voor een ingang terug te winnen.</p> <p>[!UICONTROL POST]</p> <p>om een nieuw item te maken.</p> <p>[!UICONTROL PUT]</p> <p>om een bestaand item bij te werken of te vervangen.</p> <p>[!UICONTROL PATCH]</p> <p>om een gedeeltelijke ingsupdate te maken.</p> <p>[!UICONTROL DELETE]</p> <p>om een item te verwijderen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p> Voer de gewenste aanvraagheaders in. U hoeft geen machtigingsheaders toe te voegen; dat hebben we al voor u gedaan .</p> </td> 
+   <td> <p> Voer de gewenste aanvraagheaders in. Je hoeft geen autorisatieheaders toe te voegen; dat hebben we al voor je gedaan.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -780,8 +793,8 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
 
 ## Een nieuwe toepassing maken
 
-1. Meld u aan bij uw [!DNL HubSpot] ontwikkelaarsaccount.
-1. Selecteer **[!UICONTROL Create an App]** optie.
+1. Aanmelden bij uw [!DNL HubSpot] ontwikkelaarsaccount.
+1. Selecteer de **[!UICONTROL Create an App]** -optie.
 1. Voer de toepassingsnaam in en [!UICONTROL Save] het dialoogvenster.
 1. Selecteer het bereik dat u nodig hebt voor uw webhaak.
 
