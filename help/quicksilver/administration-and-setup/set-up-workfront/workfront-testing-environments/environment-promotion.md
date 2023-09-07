@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ In de tweede stap worden de `objectCollections` -array in de POST-instantie om d
 >
 >Elk item in de array bevat een `objCode` sleutel die overeenkomt met de objectcode die wordt gedocumenteerd in de Workfront API Explorer.
 >
->Elk item bevat ook een `entities` verzameling. Dit verwacht `ID` en `name` toetsen om aanwezig te zijn.
+>Elk item bevat ook een `entities` verzameling. Dit verwacht `ID` veld. De toepassing kan ook een optionele `name` om het gemakkelijker te maken om te weten wat `ID` vertegenwoordigt.
 >
 >Voor de lijst met toegestane objectcodes die moet worden aangevraagd in het dialoogvenster `objectCollections` lijst, zie [Ondersteunde objecten voor milieubescherming](#supported-objects-for-environment-promotion) in dit artikel.
 
