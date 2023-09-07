@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
 workflow-type: tm+mt
-source-wordcount: '13222'
+source-wordcount: '13231'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 0%
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion-releaseactiviteit {#fusion-release}
          * [Adobe Workfront Fusion-releaseactiviteit](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion release activity: Week van 1 september 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Workfront Fusion release activity: Week van 21 augustus 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Workfront Fusion release activity: Week 7 augustus 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
          * [Workfront Fusion release activity: Week van 10 juli 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
@@ -2004,6 +2005,7 @@ ht-degree: 0%
       * [Verbindingen in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
       * [Over het verbinden van Adobe Workfront Fusion met een app of service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Verbindingen maken in Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
+      * [Verbindingsmetagegevens](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Verbinding maken met Adobe Workfront Fusion - Basisinstructies](workfront-fusion/connections/connect-to-fusion-general.md)
       * [Adobe Workfront Fusion verbinden met een willekeurige webservice](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
       * [Connect Adobe Workfront Fusion naar een webservice die API-tokenverificatie gebruikt](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
