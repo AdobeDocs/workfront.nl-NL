@@ -7,9 +7,9 @@ description: Adobe Workfront Boards stuurt u een e-mail wanneer u aan een bord w
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # E-mailmeldingen en voorkeuren worden verzonden
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. De meldingen zijn standaard ingeschakeld en u kunt in de voorkeursinstellingen voor de raden selecteren welke e-mails u wilt ontvangen.
+
+U ontvangt ook een e-mail wanneer u bent gelabeld in een opmerking op een aangesloten kaart, afhankelijk van de instellingen voor e-mailmeldingen. Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
 
 ## Toegangsvereisten
 
