@@ -6,9 +6,9 @@ description: Werkitems maken vanuit het gebied Home
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>OPMERKING</b></p> 
+   <p>Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -72,6 +73,9 @@ U kunt een persoonlijke taak maken die alleen voor u beschikbaar is in het dialo
 >
 >* In tegenstelling tot gewone projecttaken, hebben de persoonlijke taken een beperkte reeks gebieden die in de interface van Workfront zichtbaar zijn, en beïnvloeden niet de chronologie of de vooruitgang van om het even welk project. Het opnieuw toewijzen van een persoonlijke taak aan een andere gebruiker voegt alle taakgebieden aan een persoonlijke taak toe, maar de taak blijft op het persoonlijke project van de gebruiker die de taak creeerde.
 >
+>
+>* De persoonlijke taken tonen slechts op timesheets wanneer zij het programma geopende uren hebben of zij worden vastgezet aan timesheet. U kunt een persoonlijke taak aan een timesheet slechts vastzetten wanneer er uren voor de taak het programma worden geopend. Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
 >* Wij adviseren dat u een project creeert en om het even welke persoonlijke taken naar het verplaatst, als u persoonlijke taken een deel van het regelmatige werkschema wilt maken.
 >
 > ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
@@ -111,7 +115,7 @@ U kunt een taak of een kwestie aan een bestaand project direct van het gebied va
    >
    >De taak of het probleem wordt weergegeven op het tabblad [!UICONTROL Work List] alleen wanneer het project [!UICONTROL Status] is ingesteld op [!UICONTROL Current].
 
-1. (Voorwaardelijk) Selecteer **[!UICONTROL Issue]** van de **[!UICONTROL Add As]** vervolgkeuzemenu. Standaard, **[!UICONTROL Task]** is geselecteerd.
+1. (Voorwaardelijk) Als u een uitgave wilt maken, selecteert u **[!UICONTROL Issue]** van de **[!UICONTROL Add As]** vervolgkeuzelijst. Standaard, **[!UICONTROL Task]** is geselecteerd.
 
 1. Klikken **[!UICONTROL Select date]** selecteert u vervolgens de datum en het tijdstip waarop de taak moet worden uitgevoerd.
 1. Klikken **[!UICONTROL Create]** om de taak op te slaan.

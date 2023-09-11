@@ -7,16 +7,16 @@ description: Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorg
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
 # Overzicht van labeltypen
 
-Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorganger moet overgaan tot de afhankelijke taak (Positieve Lag) kan beginnen, of de hoeveelheid tijd dat een afhankelijke taak kon beginnen alvorens voorganger (Negatieve Lag) begint.
+Lag is de hoeveelheid tijd die na de Geplande Voltooiing van een voorganger moet overgaan tot de afhankelijke taak (Positieve Lag) kan beginnen, of de hoeveelheid tijd die een afhankelijke taak kon beginnen alvorens voorganger (Negatieve Lag) begint.
 
 De geplande, voorspelde en geschatte data van de vervolgtaken worden berekend met inachtneming van de vertraging en de geplande, voorspelde en geraamde aanvangsdata (Voltooiing) van de voorgaande taken.
 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -93,12 +93,12 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
 1. Klikken **Voorganger toevoegen**.
 1. (Optioneel) Als u een voorganger voor meerdere projecten wilt toevoegen, vervangt u de opdracht **Bovenliggend project** naam met een ander project.
 1. Typ de naam van de voorgaande taak en selecteer deze wanneer deze in de lijst wordt weergegeven.
-1. Selecteer **Type afhankelijkheid**.
+1. Selecteer de **Type afhankelijkheid**.
 
    Voor meer informatie over de Types van Afhankelijkheid van predecessor, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. Geef een **Lag** hoeveelheid met een numerieke waarde. U kunt negatieve getallen opgeven om een negatieve vertraging aan te geven.
-1. Selecteer uit de volgende opties het type vertraging dat u voor uw voorganger wilt opgeven:
+1. Selecteer een van de volgende opties om het type vertraging aan te geven dat u voor uw voorganger wilt opgeven:
 
    * **Dagen**
    * **Kalenderdagen**
@@ -106,13 +106,13 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
    * **Dag van de week**
    * **Dag van de week (niet nul)**
 
-      Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de sectie [Overzicht van typen labels](#lag-types-overview) in dit artikel.
+     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de sectie [Overzicht van typen labels](#lag-types-overview) in dit artikel.
 
 1. Klikken **Opslaan**.
 
 ### Wijs op de Types van Lag in een taaklijst  {#indicate-lag-types-in-a-task-list}
 
-1. Ga naar een takenlijst en selecteer de **Standaard** Weergeven vanuit de **Weergave** vervolgkeuzemenu.
+1. Ga naar een takenlijst en selecteer de **Standaard** Weergeven vanuit de **Weergave** vervolgkeuzelijst.
 
 1. Klik in het dialoogvenster **Predecessors** kolom die overeenkomt met de taak waarvoor u een voorganger en een hoeveelheid vertraging wilt opgeven.
 1. Voer het volgende in zonder spaties:
@@ -120,21 +120,16 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
    * het aantal van de taak u als voorganger van de geselecteerde taak wilt wijzen
    * de afkorting voor het gebiedstype u tussen de taken wilt wijzen
 
-      Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * ofwel **+** voor een positieve vertraging of een **-** voor een negatieve vertraging
 
    * de omvang van de vertraging
    * De afkorting voor het Laagtype dat u wilt gebruiken.
 
-      Voor meer informatie over de afkortingen voor de Types van Lag, zie de sectie [Overzicht van typen labels](#lag-types-overview) in dit artikel.
-   Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, voert u
+     Zie de sectie voor meer informatie over de afkortingen voor Lagtypen [Overzicht van typen labels](#lag-types-overview) in dit artikel.
 
-   ```
-   1fs+2d
-   ```
-
-   in de kolom Voorgangers.
+   Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, voert u  `1fs+2d` in de kolom Voorgangers.
 
 1. Klik op Enter op het toetsenbord om de wijzigingen in uw taak op te slaan.
 
@@ -155,12 +150,12 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Dagen (d)</p> </td> 
-   <td> <p>De vertraging tussen twee taken die verband houden met afhankelijkheid wordt gemeten in werkdagen. Dit is het standaardlabeltype. </p> <p>Als er bijvoorbeeld een eindstartafhankelijkheid is met een vertraging van twee werkdagen en de voorganger op vrijdag klaar is, begint de afhankelijke taak op woensdag. De weekenddagen tellen niet als deel van de vertraging. </p> <p>Opmerking: De maximale vervallimiet voor dagen is 366.</p> </td> 
+   <td> <p>Dagen (d of de)</p> </td> 
+   <td> <p>De vertraging tussen twee taken die verband houden met afhankelijkheid wordt gemeten in werkdagen. Dit is het standaardlabeltype. </p> <p>Als er bijvoorbeeld een eindstartafhankelijkheid is met een vertraging van twee werkdagen en de voorganger op vrijdag klaar is, begint de afhankelijke taak op woensdag. De weekenddagen tellen niet als deel van de vertraging. </p> <p>Opmerking: de maximale vervallimiet voor dagen is 366.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Kalenderdagen (c)</p> </td> 
-   <td> <p>De vertraging tussen twee taken wordt gemeten in kalenderdagen, met inbegrip van feestdagen en weekends. </p> <p>Opmerking: Hoewel dit type vertraging niet-werkdagen telt als onderdeel van de vertraging, kan een afhankelijke taak nooit beginnen op een niet-werkdag. Als dit vlagtype de afhankelijke taak op een niet-werkende dag laat beginnen, is de Geplande Datum van het Begin van de afhankelijke taak gepland voor de volgende werkdag. </p> <p>Bijvoorbeeld, als er een eind-begin gebiedsdeel met een 2 kalenderdagvertraging is en de voorgangerstaak op Donderdag eindigt, begint de afhankelijke taak op Maandag in plaats van een Zondag. </p> </td> 
+   <td> <p>Kalenderdagen (c of ce)</p> </td> 
+   <td> <p>De vertraging tussen twee taken wordt gemeten in kalenderdagen, met inbegrip van feestdagen en weekends. </p> <p>Opmerking: hoewel dit type vertraging niet-werkdagen telt als onderdeel van de vertraging, kan een afhankelijke taak nooit beginnen op een niet-werkdag. Als dit vlagtype de afhankelijke taak op een niet-werkende dag laat beginnen, is de Geplande Datum van het Begin van de afhankelijke taak gepland voor de volgende werkdag. </p> <p>Bijvoorbeeld, als er een eind-begin gebiedsdeel met een 2 kalenderdagvertraging is en de voorgangerstaak op Donderdag eindigt, begint de afhankelijke taak op Maandag in plaats van een Zondag. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Percentage (p of pe)</p> </td> 
@@ -183,7 +178,7 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
 
 <p><b>OPMERKING</b></p>
 
-Als de Dinsdag voor de week van de Geplande VoltooiingsDatum van de voorganger inging, dan is de Geplande Datum van het Begin van de opvolgertaak de eerste beschikbare werkdag van die week. </p> <p>Als u wilt erop wijzen dat de vertraging op een Zaterdag van de huidige week zou moeten vallen, en de Zaterdag is na de Geplande Datum van Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen:</p> <p>4fs+7w</code> </p> <p>Als zaterdag een niet-werkdag is, wordt de volgende beschikbare dag na zaterdag (om positieve vertraging aan te geven) geselecteerd als de geplande begindatum van de opvolger. </p>
+Als de Datum van het Begin van de opvolger wordt berekend om een bepaalde Dinsdag te zijn en die dag die voor de huidige week wordt overgegaan, dan is de Geplande Datum van het Begin van de opvolgertaak de zelfde dag (Dinsdag) van de volgende week, als beschikbaar. </p> <p>Als u wilt erop wijzen dat de vertraging op een Zaterdag van de huidige week zou moeten vallen, en de Zaterdag is na de Geplande Datum van Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen:</p> <p><code>4fs+7w</code> </p> <p>Als zaterdag een niet-werkdag is, wordt de volgende beschikbare dag na zaterdag (om positieve vertraging aan te geven) geselecteerd als de geplande begindatum van de opvolger. </p>
 
 <p>Dit is niet van toepassing op planningsuitzonderingen. Als een datum ook een kalenderuitzondering is en de Datum van het Begin van de opvolger wordt berekend om die dag te zijn, dan probeert het systeem om de dichtstbijzijnde beschikbare datum te vinden die de dag van de week is die in de voorgangersuitdrukking wordt gespecificeerd.</p>
 
@@ -206,14 +201,14 @@ Houd rekening met de volgende regels wanneer u negatieve vlaggen gebruikt:
 
 * De negatieve Lag kan niet de begin/einddata van een taak dwingen om vóór of na de Geplande Begin/beëindigingsdata van het project te zijn. Deze data worden gespecificeerd in het Programma van gebied op het project.
 
-   Overweeg in dit geval het volgende:
+  Overweeg in dit geval het volgende:
 
    * Plan het project vanaf de voltooiingsdatum.
    * De laatste taak op het project zou moeten gebruiken moet op de Beperking van de Taak beëindigen. Aanbevolen wordt de taak voldoende lang te maken om rekening te houden met alle taken in verband met het project. De resterende taken werken goed met de restrictie Zo snel mogelijk.
 
-* Het gebruik van een voorganger-relatie Voltooien met taken kan een foutbericht veroorzaken.
+* Het gebruik van een voorgangerrelatie Voltooien-Begin met taken kan een foutbericht veroorzaken.
 
-   Overweeg in dit geval het volgende:
+  Overweeg in dit geval het volgende:
 
    * Stel een voorgangerrelatie tussen taken in die bestaat uit Voltooien.
    * De duur van de opvolgertaak moet gelijk zijn aan of groter zijn dan het geplande aantal dagen tussen taken.

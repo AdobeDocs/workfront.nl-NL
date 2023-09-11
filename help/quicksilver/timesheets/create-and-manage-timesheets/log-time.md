@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3468'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
 * De tijdbladen bevatten de totale tijd voor alle geregistreerde datums. Weekends worden altijd opgenomen, zelfs als tijdlijnberekeningen zijn geconfigureerd om ze uit te sluiten (zoals beschreven in [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Het maximumaantal punten dat in een timesheet wordt getoond is 45. Als er meer dan 45 punten zijn de waarvan data het timesheet tijdkader aanpassen, slechts de onlangs bijgewerkte punten tonen.
 * Uur-items die in factureringsrecords zijn opgenomen, worden grijs weergegeven en kunnen niet worden bewerkt in de tijdpagina. Zie voor meer informatie [Factureringsrecords maken](../../manage-work/projects/project-finances/create-billing-records.md).
+* De persoonlijke taken tonen niet in timesheet door gebrek. De persoonlijke taken tonen in timesheet slechts wanneer zij tijd het programma wordt geopend. Nadat u de tijd op een persoonlijke taak registreert, kunt u de taak aan timesheet vastzetten en het zal op timesheet blijven als het vastgezet blijft. Zie voor meer informatie [Werkitems maken vanuit het gebied Home](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Logtijd
 
