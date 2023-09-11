@@ -6,7 +6,7 @@ description: Adobe Workfront heeft API-versie 16 uitgebracht op 6 april 2022. AP
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Nieuwe functies in API-versie 16
 
-Adobe Workfront heeft API-versie 16 uitgebracht op 6 april 2022. API-versie 16 bevat de volgende wijzigingen ten opzichte van versie 15.
+Adobe Workfront heeft API-versie 16 uitgebracht op 6 april 2023. API-versie 16 bevat de volgende wijzigingen ten opzichte van versie 15.
 
 ## Toegevoegde bronnen
 
@@ -28,7 +28,7 @@ Er zijn geen bronnen verwijderd voor API-versie 16
 ## Gewijzigde bronnen
 
 <!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
-* [Goedkeuring (GOEDKEURING)](#approval-approval)
+* [Goedkeuring (goedkeuring)](#approval-approval)
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)
 * [Uur (UUR)](#hour-hour)
@@ -79,7 +79,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 -->
 
-### Goedkeuring (GOEDKEURING)
+### Goedkeuring (goedkeuring)
 
 Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen vereisen dat een supervisor of een andere gebruiker weg op het het werkpunt ondertekent. Een voorwerp van de Goedkeuring vertegenwoordigt de actie van het ondertekenen van op een het werkpunt.
 
@@ -634,7 +634,7 @@ Een object UserNote is een melding.
     </tr>  </tbody>
 </table>
 
-### Werk (WERKEN)
+### Werken (WERKEN)
 
 Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als OpTask erft, en gemeenschappelijke code tussen twee deelt.
 
