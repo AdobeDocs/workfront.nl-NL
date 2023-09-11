@@ -7,9 +7,9 @@ description: Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorg
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
 <p><b>OPMERKING</b></p> De maximale vervallimiet voor procenten is 2000%.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Dag van de week (w) </p> </td> 
+   <td> <p>Dag van de week (b of wij) </p> </td> 
    <td> <p>De vertraging tussen twee taken wordt gemeten door de dagen van de week voor de week aan te geven die de geplande Voltooiingsdatum van de voorganger bevat.</p> <p>Voor dit Type van Lag, wordt elke dag van de week geassocieerd met een aantal:</p> 
     <ul> 
      <li>Zondag=1</li> 
@@ -187,7 +187,7 @@ Als de Datum van het Begin van de opvolger wordt berekend om een bepaalde Dinsda
 <p>Als u het verloop of de komende weken wilt aangeven, kunt u een getal vóór het dagnummer toevoegen voor het type vertraging. </p> <p>Als u bijvoorbeeld de maandag van 10 weken geleden wilt aangeven, kunt u deze code gebruiken om de voorganger van uw opvolger aan te geven:</p> <p><code>4fs-102w</code> </p> <p>10 geeft 10 weken geleden aan en 2 is het nummer dat is toegewezen aan maandag. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Dag van de week Niet nul (k)</p> </td> 
+   <td> <p>Dag van de week Niet nul (k of ke)</p> </td> 
    <td> <p>De vertraging tussen twee taken wordt bepaald identiek aan de Dag van het type van de Verlag van de Week, behalve als de tijd van de voorganger op de zelfde dag van de gespecificeerde week beëindigt. De vertragingstijd wordt vervolgens berekend aan de aangrenzende week (+/-). </p> <p>In dit geval kan de vertragingstijd nooit 0 zijn.</p> </td> 
   </tr> 
  </tbody> 
