@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
 workflow-type: tm+mt
-source-wordcount: '13231'
+source-wordcount: '13334'
 ht-degree: 0%
 
 ---
@@ -1978,6 +1978,41 @@ ht-degree: 0%
       * [Terminologie voor Adobe Workfront-doelen aanpassen](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Een doel delen in Workfront-doelen](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Meldingen voor Adobe Workfront-doelen inschakelen](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Adobe Maestro {#adobe-maestro}
+   * [Adobe Maestro-informatie](maestro/maestro-information.md)
+   * [Overzicht van Adobe Maestro](maestro/maestro-overview.md)
+   * [Adobe Maestro-releaseactiviteit](maestro/release-activity.md)
+   * Adobe Maestro architectuur {#adobe-maestro-architecture}
+      * [Architectuurgegevens](maestro/architecture-and-fields/architecture-and-fields-information.md)
+      * [Werkruimten maken](maestro/architecture-and-fields/create-workspaces.md)
+      * [Overzicht van recordtypen en taxonomieën](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+      * [Recordtypen maken](maestro/architecture-and-fields/create-record-types.md)
+      * [Startrecordtypen voor taxonomie maken](maestro/architecture-and-fields/create-a-taxonomy.md)
+      * [Verbind recordtypen](maestro/architecture-and-fields/connect-record-types.md)
+      * [Velden maken](maestro/architecture-and-fields/create-fields.md)
+      * [Recordtypen bewerken](maestro/architecture-and-fields/edit-record-types.md)
+      * [Velden bewerken](maestro/architecture-and-fields/edit-fields.md)
+      * [Werkruimten verwijderen](maestro/architecture-and-fields/delete-workspaces.md)
+      * [Recordtypen verwijderen](maestro/architecture-and-fields/delete-record-types.md)
+      * [Velden verwijderen](maestro/architecture-and-fields/delete-fields.md)
+      * [Voorbeeld van het verbinden van recordtypen en records](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+      * [Lijst met werkruimtemalplaatjes](maestro/architecture-and-fields/workspace-templates.md)
+   * Adobe Maestro-toegang {#adobe-maestro-access}
+      * [Toegangsgegevens](maestro/access/access-information.md)
+      * [Overzicht van toegang](maestro/access/access-overview.md)
+      * [Toegang verlenen tot Adobe Maestro](maestro/access/grant-access.md)
+   * Adobe Maestro records {#adobe-maestro-records}
+      * [Registergegevens](maestro/records/records-information.md)
+      * [Records maken](maestro/records/create-records.md)
+      * [Connect-records](maestro/records/connect-records.md)
+      * [Records bewerken](maestro/records/edit-records.md)
+      * [Records verwijderen](maestro/records/delete-records.md)
+      * [Records delen](maestro/records/share-records.md)
+   * Adobe Maestro-weergaven {#adobe-maestro-views}
+      * [Weergavegegevens](maestro/views/views-information.md)
+      * [Recordweergaven beheren](maestro/views/manage-record-views.md)
+      * [De tabelweergave beheren](maestro/views/manage-the-table-view.md)
+      * [De tijdlijnweergave beheren](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * Aan de slag met Adobe Workfront Fusion {#get-started-with-workfront-fusion}
