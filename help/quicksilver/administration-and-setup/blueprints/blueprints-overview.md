@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Overzicht van blauwdrukken
+
+Blauwdrukken zijn sets Workfront-objecten die betrekking hebben op veelvoorkomende gebruiksgevallen in Workfront. U kunt een blauwdruk downloaden en installeren, en dan de voorwerpen voor uw specifiek gebruiksgeval vormen.
+
+>[!INFO]
+>
+>Voorbeelden:
+>
+>* **Instellen van personeelsorganisatie**
+>
+>   Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een afdeling van het Middelen uit te breiden.
+>
+>* **Nieuwe controlelijst voor IT-medewerkers toevoegen**
+>
+>   Deze blauwdruk bevat een sjabloon om nieuwe werknemers aan boord te nemen activiteiten te organiseren. Met deze sjabloon kunnen IT-teams efficiënt werken, wat leidt tot een positieve nieuwe werknemerservaring en snellere prestaties.
+>
+>* **Controlelijst voor beginselen van overerfde instanties**
+>
+>    Deze blauwdruk bevat een projectmalplaatje (of controlelijst) dat u met een korte lijst van vragen, middelen, en verbindingen voor een duidelijk inzicht in kunt herzien hoe uw instantie van Workfront is gevormd. Gebruik dit wanneer u onlangs een Workfront-exemplaar hebt geërfd en hulp nodig hebt bij het opstarten van het programma.
+>
+>Als u de huidige blauwdrukken wilt bekijken, raadpleegt u [Lijst met beschikbare blauwdrukken](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen, dashboards en organisatiestructuren installeren. Andere gebruikers kunnen door de catalogus bladeren en de installatie van een blauwdruk aanvragen. Zie voor meer informatie [Blader door de catalogus met blauwdrukken en verzoek om installatie van blauwdrukken](../../administration-and-setup/blueprints/browse-catalog.md).
 
