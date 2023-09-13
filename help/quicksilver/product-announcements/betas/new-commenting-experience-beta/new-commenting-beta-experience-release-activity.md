@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,16 @@ Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het v
 De volgende sectie bevat een lijst met functies die zijn toegevoegd na de oorspronkelijke versie van 23.2, te beginnen met de functies die het laatst zijn uitgebracht.
 
 De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. Dit artikel bevat nieuwe functies die worden toegevoegd en problemen die worden opgelost voor de nieuwe opmerkingervaring.
+
+### Week van 11 september 2023
+
+#### De nieuwe opmerkingervaring legt informatie vast vanaf 1 januari 2019
+
+Projecten, taken, problemen en documenten geven updates weer vanaf 1 januari 2019. Vóór deze verbetering werd de nieuwe opmerkingervaring alleen bijgewerkt vanaf juni 2022 voor deze objecten.
+
+Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+Voorbeeld en productie voor alle klanten: 11 september 2023.
 
 ### Week van 21 augustus 2023
 

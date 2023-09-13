@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 
 >[!NOTE]
 >
->Voor de onderstaande objecten zijn alleen de opmerkingen en systeemupdates van het afgelopen jaar (vanaf juni 2022) beschikbaar wanneer de bètaervaring wordt ingeschakeld.
+>Voor de objecten hieronder zijn alleen de opmerkingen en systeemupdates beschikbaar die beginnen op 1 januari 2019 in de nieuwe opmerkingervaring.
 >
->U kunt opmerkingen en systeemupdates over deze objecten vóór juni 2022 bekijken wanneer u de sectie Updates in de huidige ervaring bekijkt:
+>U kunt opmerkingen en systeemupdates over deze objecten vóór 1 januari 2019 weergeven wanneer u de sectie Updates in de huidige ervaring weergeeft:
 >
 >* Problemen
 >* Projecten

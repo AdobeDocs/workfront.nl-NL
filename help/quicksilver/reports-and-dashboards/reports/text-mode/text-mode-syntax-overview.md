@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,13 @@ Voor informatie en overwegingen over tekstwijze alvorens u begint, zie [Overzich
 
 Voor een volledige lijst van al onze te rapporteren gebieden en hun attributen, zie [API Explorer](../../../wf-api/general/api-explorer.md).
 
+Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.
+
 ## Overwegingen bij de syntaxis van de tekstmodus
 
 * U moet de syntaxis van Adobe Workfront begrijpen voordat u rapportelementen kunt gaan maken in de tekstmodus. De Workfront-syntaxis voor de tekstmodus is uniek voor deze toepassing en heeft unieke kenmerken waarmee u vertrouwd moet zijn.
 * Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
-* U kunt weergaven, filters en groepen aanpassen met de standaardmodusinterface. U kunt echter alleen aangepaste vragen maken met de tekstmodus.
+* U kunt weergaven, filters en groepen aanpassen met de standaardmodusinterface. U kunt echter alleen aangepaste vragen maken met behulp van de tekstmodus.
 
 ## Gemeenschappelijke richtsnoeren voor het samenstellen van rapporteringselementen in tekstmodus
 
@@ -38,12 +40,12 @@ De volgende richtlijnen gelden voor het samenstellen van rapporten of lijsteleme
    * U kunt een object weergeven dat zich drie objecten buiten het rapport- of lijstobject in een weergave bevindt.
    * U kunt niet verwijzen naar objecten die zich meer dan twee objecten buiten het hoofdobject bevinden in een groep, filter of aangepaste vraag.
 
-  **Voorbeeld:** U kunt de naam of GUID van de Eigenaar van Portfolio in een taakmening tonen:
+  **Voorbeeld:** U kunt de naam of GUID van de Eigenaar van het Portfolio in een taakmening tonen:
 
 
   `valuefield=project:portfolio:ownerID`
 
-  U kunt niet groeperen, filteren of vragen voor de Eigenaar van de Portfolio in een taakmening:
+  U kunt niet groeperen, filteren of vragen voor de Eigenaar van het Portfolio in een taakmening:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
@@ -73,7 +75,7 @@ De kenmerken van kamelendoosjes zijn:
 * De volgende woorden beginnen altijd met een hoofdletter.
 * Er zijn geen spaties tussen de woorden.
 
-**Voorbeeld:** Als u wilt verwijzen naar de datum van daadwerkelijke voltooiing van een project, wordt de naam van het veld dat u zou gebruiken bij het samenstellen van de tekstmodus waarin elementen worden gerapporteerd, aangeduid met
+**Voorbeeld:** Als u wilt verwijzen naar de datum van daadwerkelijke voltooiing van een project, is de naam van het veld dat u zou gebruiken bij het samenstellen van de tekstmodus die elementen rapporteert,
 
 `actualCompletionDate`
 
@@ -130,7 +132,7 @@ De volgende tabel bevat een lijst met de meestvoorkomende regels voor codes in e
 >
 >  `column.0.valuefield=name`
 >  
->  Voor informatie over het delen van kolommen raadpleegt u [Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>  Zie voor informatie over het delen van kolommen [Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
 #### `Valuefield` syntaxisoverzicht voor weergaven en groepen
@@ -163,13 +165,13 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
 
 #### `Valueexpression` syntaxisoverzicht voor weergaven en groepen
 
-U kunt de `valuefield=` coderegel met `valueexpression=` wanneer u weergaven en groepen maakt in de tekstmodus wanneer u wilt verwijzen naar een berekening tussen twee of meer velden.
+U kunt de opdracht `valuefield=` regel met code `valueexpression=` wanneer u weergaven en groepen maakt in de tekstmodus wanneer u wilt verwijzen naar een berekening tussen twee of meer velden.
 
 >[!TIP]
 >
 >Hoewel u berekende velden kunt maken die u in rapporten kunt weergeven, zijn berekende weergaven en groeperingen dynamischer. De berekende meningen en de groeperingen verfrissen zich met nieuwe informatie telkens als u het rapport in werking stelt of een lijst toont.
 >
->Voor informatie over het maken van berekende kolommen in een weergave raadpleegt u [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+>Zie voor informatie over het maken van berekende kolommen in een weergave [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 Het bouwen van een berekende groepering is gelijkaardig aan het bouwen van een berekende kolom in een mening.
 
@@ -262,7 +264,7 @@ Voor informatie over het bouwen van filters en douaneherinneringen, zie:
 * [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-Voor informatie over het maken van filters in de tekstmodus raadpleegt u [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Zie voor informatie over het maken van filters in de tekstmodus [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 U kunt de volgende elementen gebruiken om filters en aangepaste herinneringen op tekstwijze te bouwen:
 

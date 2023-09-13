@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2630'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 -->
 
 U kunt opstelling een Rij van het Verzoek waar de gebruikers occasionele verzoeken kunnen ingaan die niet gepland werk aan een project zijn. Bijvoorbeeld, kan een rij van het hulpdeskverzoek opstelling zijn om alle gebruikersverzoeken te vangen die aan een afdeling van IT komen.
+
+In dit artikel wordt beschreven hoe u een aanvraagwachtrij kunt maken waarin gebruikers aanvragen kunnen indienen. Voor informatie over hoe te om een nieuw verzoek aan een verzoekrij voor te leggen, zie [Verzoeken kopiëren en verzenden](../create-requests/copy-and-submit-requests.md).
 
 ## Toegangsvereisten
 
@@ -74,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -97,14 +99,14 @@ Dit artikel beschrijft hoe te om een verzoekrij van een bestaand project tot sta
  <tbody> 
   <tr> 
    <td role="rowheader">Wachtrij</td> 
-   <td> <p>U moet opstelling een project als verzoekrij in het gebied van de Details van de Rij. Deze stap is verplicht. </p> <p>Zie voor meer informatie de <a href="#create-a-request-queue" class="MCXref xref">Een aanvraagwachtrij maken</a> in dit artikel.</p> </td> 
+   <td> <p>U moet opstelling een project als verzoekrij in het gebied van de Details van de Rij. Deze stap is verplicht. </p> <p>Zie de klasse <a href="#create-a-request-queue" class="MCXref xref">Een aanvraagwachtrij maken</a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Onderwerpgroepen</td> 
    <td> <p>Het zijn extra menu's die verzoeken classificeren die op gemeenschappelijke eigenschappen worden gebaseerd. Bijvoorbeeld, voor een Rij van het Verzoek van IT, zou u "On-site"en "Verre"onderwerpgroepen kunnen willen hebben. </p> <p>Zie voor meer informatie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Onderwerpgroepen maken</a>. </p> <p>Dit is optioneel.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Onderwerpen van de Rij</td> 
+   <td role="rowheader">Werkvoorraadonderwerpen</td> 
    <td> <p>Zij zijn extra menu's die verzoeken classificeren die tot de zelfde Groep van het Onderwerp behoren die op gemeenschappelijke eigenschappen wordt gebaseerd. Een onderwerpgroep kan verscheidene rijonderwerpen bevatten. </p> <p>Bijvoorbeeld, kan de "On-site"onderwerpgroep voor de Rij van het Verzoek van IT de "Hardware", "Software"en "Netwerk"rijonderwerpen bevatten. </p> <p>Zie voor meer informatie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Werkvoorraadonderwerpen maken</a>. </p> <p>Dit is optioneel.</p> </td> 
   </tr> 
   <tr> 
@@ -163,7 +165,7 @@ Een aanvraagwachtrij maken:
 
         >[!NOTE]
         >
-        >U kunt een verzoekwachtrij in een dashboard weergeven als een externe pagina. In dit geval is de wachtrij met aanvragen vooraf geselecteerd, maar u kunt een andere wachtrij met aanvragen selecteren in het veld Type verzoek. gebruikers kunnen het aanvraagtype wijzigen. Navigatiecomponenten van de Verzoeken worden ook weergegeven.
+        >U kunt een verzoekwachtrij in een dashboard weergeven als een externe pagina. In dit geval is de wachtrij met aanvragen vooraf geselecteerd, maar u kunt een andere wachtrij met aanvragen selecteren in het veld Type verzoek. gebruikers kunnen het Aanvraagtype wijzigen. Navigatiecomponenten van de Verzoeken worden ook weergegeven.
 
       * **Code insluiten:** Gebruik deze HTML-code om het formulier voor de aanvraagwachtrij in te sluiten als een iframe binnen een HTML-pagina.\
         Als gebruikers nog niet zijn geverifieerd bij Workfront wanneer ze de pagina bekijken waarop de code is ingesloten, wordt het Workfront-aanmeldingsvenster weergegeven. Nadat gebruikers zich hebben aangemeld, wordt het formulier Wachtrij aanvragen weergegeven.
@@ -172,7 +174,7 @@ Een aanvraagwachtrij maken:
         >
         Als een aanvraagwachtrij wordt weergegeven in een iframe, wordt alleen het aanvraagformulier weergegeven. De naam van de aanvraag wordt dan vooraf geselecteerd en grijs weergegeven. Gebruiker kan het aanvraagtype niet wijzigen. Navigatiecomponenten van het gebied Verzoeken worden niet weergegeven.
 
-        Als u het formulier voor de aanvraagwachtrij wilt weergeven wanneer u deze insluitcode gebruikt, moet u de instelling Insluiten van Workfront in een iFrame toestaan inschakelen in de systeeminstellingen. Ga voor meer informatie over het inschakelen van insluiting van Workfront in een iframe naar [Beveiligingsvoorkeuren voor het systeem configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Als deze instelling niet is ingeschakeld, wordt het iframe leeg weergegeven.
+        Als u het formulier voor de aanvraagwachtrij wilt weergeven wanneer u deze insluitcode gebruikt, moet u de instelling Insluiten van Workfront in een iFrame toestaan inschakelen in de systeeminstellingen. Ga voor meer informatie over het inschakelen van insluiting van Workfront in een iFrame naar [Systeembeveiligingsvoorkeuren configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Als deze instelling niet is ingeschakeld, wordt het iframe leeg weergegeven.
 
         U kunt als volgt verschillende aspecten van de weergave van het ingesloten formulier aanpassen:
 
@@ -196,7 +198,7 @@ Een aanvraagwachtrij maken:
           </tr> 
           <tr> 
            <td> <p>Toon en sta gebruikers toe om de vooraf gevormde drop-down lijst van de Groep van het Onderwerp te veranderen</p> </td> 
-           <td> <p>Gebruik de parameter "path" door de parameter "path" toe te voegen <code>showPreSelectedOptions=true</code> aan de <code>src URL</code>.</p> </td> 
+           <td> <p>Gebruik de parameter "path" door het toevoegen van de <code>showPreSelectedOptions=true</code> aan de <code>src URL</code>.</p> </td> 
           </tr> 
           <tr> 
            <td> <p>Detecteren wanneer het formulier is verzonden</p> </td> 
@@ -207,7 +209,7 @@ Een aanvraagwachtrij maken:
 
    * **Typen aanvragen:** Maak een keuze uit de onderstaande standaardopties.
 
-     De Workfront-beheerder kan de standaardaanvraagtypen een andere naam geven. Voor meer informatie over het anders noemen van de verzoektypes, zie [Standaardtypen voor problemen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+     De Workfront-beheerder kan de standaardaanvraagtypen een andere naam geven. Voor meer informatie over het anders noemen van de verzoektypes, zie [Standaardobjecttypen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
       * Foutrapport
       * Volgorde wijzigen
@@ -220,13 +222,13 @@ Een aanvraagwachtrij maken:
      >
      De Types van verzoek tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-     Elk type dat u hier selecteert, is beschikbaar op het formulier (u kunt meerdere typen selecteren). Als u meerdere typen selecteert, kunt u meerdere aanvragen ordenen die binnenkomen.\
-     Bijvoorbeeld, als u het formulier op een verzoekrij voor een project van IT gebruikt, kunnen de volgende verzoektypes in de rij komen: hardware, software, oplossingen voor problemen en problemen.
+     Elk hier geselecteerd type is beschikbaar op het formulier (u kunt meerdere typen selecteren). Als u meerdere typen selecteert, kunt u meerdere aanvragen ordenen die binnenkomen.\
+     Als u bijvoorbeeld het formulier op een aanvraagwachtrij voor een IT-project gebruikt, kunnen de volgende aanvraagtypen in de wachtrij worden geplaatst: hardware, software, foutoplossingen en problemen.
 
-   * **Standaardduur:** De standaardduur is de tijd die nodig is om een uitgave te voltooien. Dit wordt de standaardinstelling voor alle binnenkomende uitgaven en kan handmatig worden gewijzigd. De duur wordt meestal ingesteld in uren, dagen of weken. De standaardduur van een uitgave is gelijk aan de geplande uren voor het probleem. De geplande afwerkingsdatum van de uitgave wordt berekend op basis van dit veld.\
+   * **Standaardduur:** De standaardduur is de tijd die nodig is om een uitgave te voltooien. Dit wordt de standaardinstelling voor alle binnenkomende uitgaven en kan handmatig worden gewijzigd. De duur wordt over het algemeen ingesteld in uren, dagen of weken. De standaardduur van een uitgave is gelijk aan de geplande uren voor het probleem. De geplande afwerkingsdatum van de uitgave wordt berekend op basis van dit veld.\
      De standaardwaarde voor de duur van de uitgave is 1 dag of 8 uur. Als uw Workfront-beheerder de typische uren per werkdag instelt op minder dan 8 uur, is de standaardduur voor uitgaven nog steeds 8 uur. Als de typische uren per werkdag bijvoorbeeld op 7 uur zijn ingesteld, is de standaardduur voor uitgaven 1,14 dagen of 8 uur. Raadpleeg de sectie &#39;Tijdlijnberekeningen&#39; in het artikel voor meer informatie over het instellen van het systeem (normale uren per werkdag) [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven.:** Wanneer geselecteerd, zijn alle verzoeken die aan de rij worden voorgelegd zichtbaar voor gebruikers in het zelfde bedrijf. De gebruikers kunnen deze verzoeken in de Al sectie van Verzoeken bekijken, die binnen het gebied van Verzoeken wordt gevestigd. Op het moment dat deze instelling wordt in- of uitgeschakeld, heeft deze invloed op alle toekomstige aanvragen. de informatie heeft geen terugwerkende kracht .
+   * **De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven.:** Wanneer geselecteerd, zijn alle verzoeken die aan de rij worden voorgelegd zichtbaar voor gebruikers in het zelfde bedrijf. De gebruikers kunnen deze verzoeken in de Al sectie van Verzoeken bekijken, die binnen het gebied van Verzoeken wordt gevestigd. Op het moment dat deze instelling wordt in- of uitgeschakeld, heeft deze invloed op alle toekomstige aanvragen. De instelling heeft geen retroactieve invloed op informatie.
    * **Wanneer iemand een verzoek indient, automatisch verlenen:** Wanneer een gebruiker een verzoek aan de verzoekrij indient, wordt de gebruiker automatisch verleend het niveau van toestemming dat u aan dat verzoek kiest. Selecteer een van de volgende machtigingsniveaus:
 
       * **Weergave**
@@ -236,7 +238,7 @@ Een aanvraagwachtrij maken:
      Voor informatie over het Workfront machtigingenmodel raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
      Het plaatsen van toestemmingen bewaart hier tijd, eerder dan het moeten toestemmingen voor elk individueel inkomend verzoek verlenen. Het kiezen van deze optie is van invloed op alle toekomstige verzoeken, maar heeft geen terugwerkende invloed op bestaande verzoeken.
 
-   * **Standaardgoedkeuring**: Koppel een goedkeuringsproces aan deze verzoekrij. In dit keuzemenu worden alleen processen voor goedkeuring van uitgaven weergegeven. Alle kwesties die aan deze rij worden voorgelegd zullen met dit goedkeuringsproces worden geassocieerd. Uw Workfront-beheerder moet goedkeuringsprocessen op systeemniveau definiëren voordat u deze kunt koppelen aan aanvraagwachtrijen. Gebruikers met administratieve toegang tot goedkeuringsprocessen kunnen ook groepsspecifieke goedkeuringsprocessen maken.
+   * **Standaardgoedkeuring**: Koppel een goedkeuringsproces aan deze aanvraagwachtrij. In dit keuzemenu worden alleen processen voor goedkeuring van uitgaven weergegeven. Alle kwesties die aan deze rij worden voorgelegd zullen met dit goedkeuringsproces worden geassocieerd. Uw Workfront-beheerder moet goedkeuringsprocessen op systeemniveau definiëren voordat u deze kunt koppelen aan aanvraagwachtrijen. Gebruikers met administratieve toegang tot goedkeuringsprocessen kunnen ook groepsspecifieke goedkeuringsprocessen maken.
 
      >[!IMPORTANT]
      >
@@ -250,7 +252,7 @@ Een aanvraagwachtrij maken:
       * Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het project toont niet in de lijst.
 
    * **Standaardroute**: Associeer een Verpletterende Regel met deze verzoekrij. Het gebruik dat Regels verplettert om nieuwe kwesties automatisch toe te wijzen die aan een Rij van het Verzoek aan het correcte middel (gebruiker, baanrol, of team) worden voorgelegd, en aan het correcte project. Alle kwesties die aan deze rij worden voorgelegd zullen met deze Verpletterende Regel worden geassocieerd. U moet het Verpletteren van Regels vormen alvorens u hen met verzoekrij kunt associëren.\
-     Als u veelvoudige rijonderwerpen verbonden aan een verzoekrij hebt, adviseren wij dat u het verpletteren van regels met de rijonderwerpen in plaats daarvan associeert. Voor meer informatie over het creëren van het verpletteren van regels, zie [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+     Als u veelvoudige rijonderwerpen verbonden aan een verzoekrij hebt, adviseren wij dat u het verpletteren van regels met de rijonderwerpen in plaats daarvan associeert. Voor meer informatie over het creëren van verpletterende regels, zie [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
    * **Nieuwe probleemvelden:** In toon de volgende geselecteerde gebieden aan alle gebruikerssectie, selecteer om het even welke gebieden die u zichtbaar aan alle gebruikers wilt zijn die een verzoek aan het project indienen of een kwestie toevoegen aan het project of de taken.
 

@@ -7,9 +7,9 @@ description: Bepaalde velden in Adobe Workfront beperken het aantal tekens dat i
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,8 @@ Bepaalde velden in Adobe Workfront beperken het aantal tekens dat in het veld ka
 Wanneer u de limiet nadert, wordt een teller weergegeven. Wanneer u de limiet overschrijdt, worden overtollige tekens gemarkeerd en kunt u de tekst niet posten. Verwijder tekens totdat u binnen de toegestane limiet bent.
 
 De tekenlimiet is afhankelijk van het veld dat u gebruikt. De onderstaande limieten zijn van toepassing op talen die een Latijns alfabet gebruiken (zoals Engels). De limiet kan lager zijn voor talen die uitgebreide of double-bytetekens bevatten.
+
+Workfront- of groepsbeheerders kunnen de tekenlimieten in velden niet wijzigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,11 +61,11 @@ De tekenlimiet is afhankelijk van het veld dat u gebruikt. De onderstaande limie
    <td> <p>2,000</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Beschrijvingsveld in de Report Builder</p> </td> 
+   <td> <p>Beschrijving in de Report Builder</p> </td> 
    <td> <p>512</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Label vervolgkeuzemenu</p> </td> 
+   <td> <p>Label vervolgmenu</p> </td> 
    <td> <p>255</p> </td> 
   </tr> 
   <tr> 

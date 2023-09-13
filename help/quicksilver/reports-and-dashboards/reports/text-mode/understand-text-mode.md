@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Overzicht van de tekstmodus
-description: Overzicht van de tekstmodus
+description: U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de interface van de tekstwijze te gebruiken wanneer het creëren van de elementen die omhoog het rapport of de lijst maken.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de interface van de tekstwijze te gebruiken wanneer het creëren van de elementen die omhoog het rapport of de lijst maken. Met de standaardinterface kunt u verwijzen naar velden en hun kenmerken die gemakkelijk beschikbaar zijn in de Workfront-interface. In de tekstmodus kunt u verwijzen naar velden en kenmerken die mogelijk niet beschikbaar zijn in de standaardmodus, maar wel in de Workfront-database.
 
+Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.
+
 ## Overwegingen voordat de tekstmodus wordt gebruikt
 
 >[!TIP]
@@ -39,13 +41,13 @@ U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de 
 * We raden u aan de standaardmodus te gebruiken om ervoor te zorgen dat de rapporten die u maakt intact blijven wanneer de Workfront-software wordt bijgewerkt. In de tekstmodus kunt u complexere weergaven, filters en groepen maken, maar het is ook moeilijker om deze te onderhouden en het is niet gegarandeerd wanneer de Workfront-software wordt bijgewerkt.
 * Wij adviseren dat u altijd probeert om alle rapporteringselementen in de standaardinterface te bouwen en op de bouwer van de tekstwijze slechts voor weinig aanpassingen over te schakelen.
 
-   >[!TIP]
-   >
-   >Met de standaardbuilder hebt u belangrijke bouwstenen en codepatronen die u kunt gebruiken wanneer u de code in tekstmodus wijzigt.
+  >[!TIP]
+  >
+  >Met de standaardbuilder hebt u belangrijke bouwstenen en codepatronen die u kunt gebruiken wanneer u de code in tekstmodus wijzigt.
 
 * Er zijn een reeks regels en een unieke syntaxis die u moet gebruiken om rapporten en lijsten op tekstwijze met succes te bouwen. Zorg ervoor dat u bekend bent met de Workfront-syntaxis voor de tekstmodus voordat u begint.
 
-   Voor informatie over de syntaxis en de regels voor het gebruiken van tekstwijze, zie [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Voor informatie over de syntaxis en de regels voor het gebruiken van tekstwijze, zie [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Nadat u een rapporteringselement op tekstwijze aanpast, zou u of niet op standaardwijze (in een mening) kunnen kunnen kunnen terugschakelen of de code voor het element zou kunnen worden geschrapt u creeerde (in filters en groepen.) Niet alle velden die in de tekstmodus worden ondersteund, worden in de standaardmodus ondersteund.
 
@@ -79,7 +81,7 @@ Voor een volledige lijst van al onze te melden gebieden, zie [API Explorer](../.
 
 Toegang tot de interface van de tekstmodus is vergelijkbaar voor weergaven, groepen en filters wanneer u deze benadert vanuit een rapport of lijst.
 
-Zie voor informatie over het gebruik van de tekstmodus in weergaven, filters en groepen:
+Zie voor meer informatie over het gebruik van de tekstmodus in weergaven, filters en groepen:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>

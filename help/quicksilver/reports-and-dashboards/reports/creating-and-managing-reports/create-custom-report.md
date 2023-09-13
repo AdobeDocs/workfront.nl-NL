@@ -6,9 +6,9 @@ description: Als u begrijpt hoe rapporten moeten worden gemaakt, kunt u toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 Als u begrijpt hoe rapporten moeten worden gemaakt, kunt u toegang bieden tot de informatie die uw organisatie nodig heeft in Adobe Workfront. U kunt elk van de ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw eigen rapporten helemaal zelf samenstellen.
 
-Voor meer informatie over ingebouwde rapporten, zie [Ingebouwde Adobe Workfront-rapporten gebruiken](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). Voor informatie over het creëren van een rapport door het te kopiëren, zie [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Voor meer informatie over ingebouwde rapporten, zie [Ingebouwde Adobe Workfront-rapporten gebruiken](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+Voor informatie over het creëren van een rapport door het te kopiëren, zie [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken en beheren van rapporten, waaronder klassen, video&#39;s en zelfstudies.
 
 ## Toegangsvereisten
 
@@ -38,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -108,7 +112,7 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
    Ga voor meer informatie over het maken van een nieuwe weergave naar [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Als u een nieuwe kolom wilt toevoegen, klikt u op **Kolom toevoegen**.
+1. Als u een nieuwe kolom wilt toevoegen, klikt u **Kolom toevoegen**.
 
    of
 
@@ -120,7 +124,7 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
    ![](assets/nwe-add-column-typeahead-350x459.png)
 
-1. (Optioneel) In het dialoogvenster **Kolominstellingen** gebied selecteren **Sorteren op deze kolom** Als u de waarden in de kolom in oplopende alfabetische volgorde wilt sorteren, geeft u aan of de lijst deze kolom als eerste sortering moet gebruiken.
+1. (Optioneel) In het dialoogvenster **Kolominstellingen** gebied, selecteren **Sorteren op deze kolom** Als u de waarden in de kolom in oplopende alfabetische volgorde wilt sorteren, geeft u aan of de lijst deze kolom als eerste sortering moet gebruiken.
 
    U kunt veelvoudige niveaus van soorten in een rapportmening hebben als u door de waarde in één kolom eerst wilt sorteren, de waarde in een tweede kolom tweede, etc.
 
@@ -133,9 +137,9 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
    <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
-1. (Optioneel) Als u groepen gebruikt en u de gegevens in een kolom wilt samenvatten (samenvoegen), klikt u op de knop **Deze kolom samenvatten met** vervolgkeuzelijst in het dialoogvenster **Kolominstellingen** selecteert u vervolgens de optie die u wilt gebruiken om de gegevens in de kolom samen te voegen.
+1. (Optioneel) Als u groepen gebruikt en u de gegevens in een kolom wilt samenvatten (samenvoegen), klikt u op de knop **Deze kolom samenvatten met** vervolgkeuzelijst in de **Kolominstellingen** selecteert u vervolgens de optie die u wilt gebruiken om de gegevens in de kolom samen te voegen.
 
-   De bijeengevoegde informatie wordt weergegeven in de kolom in de groeperingsrijen.
+   De samengevoegde informatie wordt weergegeven in de kolom in de rijen voor cijfergroepering.
 
    ![Samengevoegde samenvatting over groepen](assets/aggregate-summary-displays-on-groupings-2022-350x195.png)
 
@@ -143,12 +147,11 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
    >[!NOTE]
    >
-   >De volgende uitzonderingen gelden voor bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
+   >De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
    >
    >* Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
-   >* Werkelijke uren tellen de waarden voor de hoofdouder en de standalone taken samen; zij tellen niet de aantallen voor de ouders van oudertaken of de kindtaken samen.
-   >* Aangepaste gegevensvelden voor getal- en valutawaarden voegen alle taken samen: ouders, kinderen, ouders van ouders en zelfstandige taken.
-
+   >* Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
+   >* Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
 
    Voor meer informatie over het gebruiken van groeperingen in een rapport, zie [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -172,7 +175,7 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
      </tr> 
      <tr> 
       <td role="rowheader">Kolomregels</td> 
-      <td> <p>Klikken <strong>Een regel toevoegen voor deze kolom</strong> om voorwaardelijke opmaak toe te voegen aan de kolom. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klikken <strong>Regel toevoegen</strong> nadat u klaar bent met het definiëren van de regel. Voor meer informatie over voorwaardelijke opmaak in een weergave raadpleegt u <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Voorwaardelijke opmaak gebruiken in weergaven</a>.</p> </td> 
+      <td> <p>Klikken <strong>Een regel toevoegen voor deze kolom</strong> om voorwaardelijke opmaak toe te voegen aan de kolom. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klikken <strong>Regel toevoegen</strong> nadat u klaar bent met het definiëren van de regel. Zie voor meer informatie over voorwaardelijke opmaak in een weergave <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Voorwaardelijke opmaak gebruiken in weergaven</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -189,13 +192,13 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
    of
 
-   Kies **Een bestaande groepering toepassen** een bestaande groep selecteren
+   Kies **Een bestaande groepering toepassen** om een bestaande groep te selecteren
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Typ het veld dat u als groep wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan die groep toe te voegen.
 1. (Optioneel) U kunt een groep maken in de tekstmodus door te klikken op **Overschakelen naar tekstmodus**. Zie voor meer informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   Voor meer informatie over het maken van nieuwe groepen raadpleegt u [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Zie voor meer informatie over het maken van nieuwe groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. (Optioneel) Selecteer **Deze groep standaard samenvouwen** als u wilt dat de resultaten in deze groep worden samengevouwen in plaats van uitgevouwen.
 
@@ -205,7 +208,6 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
    >
    >* Wanneer u groepen handmatig aanpast wanneer u een lijst weergeeft, onthoudt Workfront uw handmatige voorkeur totdat u zich afmeldt. Wanneer u zich weer aanmeldt, wordt de lijst weergegeven volgens deze instelling.
    >* De resultaten van een groepering tonen altijd uitgevouwen na de toegang tot hen van een grafiekelement.
-
 
 1. (Optioneel) U kunt een matrixgroepering maken om de resultaten in een rasterindeling weer te geven.
 
@@ -219,13 +221,13 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
 1. Een rapport maken zoals wordt beschreven in het dialoogvenster [Een rapport maken](#create-a-report) in dit artikel.
 1. Selecteer in de rapportbuilder de optie **Filters** om de hoeveelheid informatie te identificeren die u het rapport wilt omvatten.
-1. Klikken **Filterregel toevoegen** om een aangepast filter toe te voegen.\
+1. Klikken **Filterregel toevoegen** een aangepast filter toevoegen.\
    of\
-   Kies **Een bestaand filter toepassen** om een bestaand filter te gebruiken.
+   Kies **Een bestaand filter toepassen** een bestaand filter gebruiken.
 
    ![](assets/nwe-add-a-filter-350x93.png)
 
-1. Als u hebt geklikt **Filterregel toevoegen** typt u het veld dat u als filter wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan dat filter toe te voegen.\
+1. Als u klikt **Filterregel toevoegen** typt u het veld dat u als filter wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan dat filter toe te voegen.\
    Gebruik filtermodifiers om het filter te maken. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    Zie voor meer informatie over het maken van nieuwe filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).

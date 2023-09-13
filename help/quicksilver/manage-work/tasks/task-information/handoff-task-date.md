@@ -7,9 +7,9 @@ description: De Handoff Datum is de datum dat een taak voor het werk beschikbaar
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 
 * **Als de taak geen voorganger heeft en**:
 
-   * **De geplande begindatum ligt in het verleden**: De afhandelingsdatum is gelijk aan de geplande begindatum van het project.
-   * **De geplande begindatum is in de toekomst (elke datum na de huidige datum)**: De afhandelingsdatum is gelijk aan de geplande begindatum van de taak.
+   * **De geplande begindatum ligt in het verleden**: De afhandelingsdatum is gelijk aan de geplande begindatum van het project als voor de taak geen dwangbeperking is ingesteld. In de gevallen waarin taken gedwongen beperkingen hebben, raadpleegt u de sectie &quot;Wanneer de taak een gedwongen beperking voor de geplande datums heeft&quot; hieronder.
+   * **De geplande begindatum is in de toekomst (elke datum na de huidige datum)**: De afhandelingsdatum is gelijk aan de geplande begindatum van de taak als voor de taak geen dwangbeperking is ingesteld. In de gevallen waarin taken gedwongen beperkingen hebben, raadpleegt u de sectie &quot;Wanneer de taak een gedwongen beperking voor de geplande datums heeft&quot; hieronder.
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 
   De volgende scenario&#39;s bestaan:
 
-   * Wanneer de taak een beperking heeft van moet Begin op of Begin niet vroeger dan, is de Datum van de Aflevering de datum van de Restrictie, tenzij er een Ware Datum van het Begin op de taak is. Als er een Werkelijke Datum van het Begin op de taak is, is de Datum van de Aflevering de Ware Datum van de Voltooiing van de voorganger.
-   * Wanneer de taak een beperking van moet op of Begin uiterlijk dan hebben, is de Datum van de Aflevering altijd de Ware Datum van Voltooiing van de voorganger, ongeacht of er een Ware Datum van het Begin op de taak of niet is.
-   * Wanneer de taak een beperking van Vaste Datums heeft, is de Datum van de Aflevering de Geplande Datum van het Begin van de taak, ongeacht of het een voorganger heeft of niet en ongeacht of voorganger wordt voltooid of niet.
+   * **Wanneer de taak een beperking van moet beginnen of niet vroeger dan begint**: Als de datum van de taakbeperking in het verleden is en er geen Ware Datum van het Begin op de taak (de taak is nog niet begonnen) is de Datum van Handoff de dichtstbijzijnde mogelijke datum de taak kan worden begonnen om te worden gewerkt aan. Als de taak is begonnen, evenaart de Datum van Handoff de begindatum van het project.
+   * **Wanneer de taak een beperking heeft van moet Eindigen of niet later beginnen dan**: Als de datum van de taakbeperking in de toekomst is en er geen Ware Datum van het Begin op de taak (de taak is nog niet begonnen) is de Datum van de Afhandeling de Geplande Datum van het Begin van de taak. Als er op de taak als Werkelijke Datum van het Begin is dan is de Datum van Handoff de begindatum van het project.
+   * **Wanneer de taak een beperking van Vaste Datums heeft**: De afhandelingsdatum is de geplande begindatum van de taak, ongeacht of deze al dan niet een voorganger heeft en of de voorganger al dan niet is voltooid.
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## De Handoff-datum zoeken
 

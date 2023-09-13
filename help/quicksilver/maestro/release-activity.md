@@ -3,9 +3,9 @@ title: Adobe Maestro-releaseactiviteit
 description: Gebruik Maestro om aangepaste objecten, velden en werkruimten te maken.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ U kunt nu een aangepast pictogram selecteren voor een recordtype en een aangepas
 
 Voorbeeld en productie: 13 juli 2023
 
-U kunt nu een veldtype van het Selectievakje aan de recordtypes van Maestro toevoegen. Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een record toevoegen. U kunt dit veld gebruiken om een specifiek kenmerk of een specifieke status voor die specifieke record aan te geven. U kunt deze bijvoorbeeld gebruiken als vlag voor het bijhouden van voltooiing, goedkeuring of een ander binair kenmerk voor elke record.
+U kunt nu een veldtype van het Selectievakje aan de recordtypes van Maestro toevoegen. U kunt een veld van het type Selectievakje gebruiken om één optie voor het selectievakje aan een record toe te voegen. U kunt dit veld gebruiken om een specifiek kenmerk of een specifieke status voor die specifieke record aan te geven. U kunt deze bijvoorbeeld gebruiken als vlag voor het bijhouden van voltooiing, goedkeuring of een ander binair kenmerk voor elke record.
 
 ## Week van 26 juni 2023
 
