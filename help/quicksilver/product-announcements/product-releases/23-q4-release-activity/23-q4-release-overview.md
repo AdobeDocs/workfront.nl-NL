@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
+source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,49 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 ## Verbeteringen voor Adobe Workfront
 
+* [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor borden](#boards-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Andere verbeteringen](#other-enhancements)
+
+### Beheerdersverbeteringen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Waardeopties van een externe API toevoegen aan een aangepast formulier</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>een nieuw veldtype, <strong>Externe zoekopdracht</strong>, is nu beschikbaar op de aangepaste formulierontwerper. Wanneer u gegevens op een extern systeem hebt opgeslagen, kunt u met dit veldtype opties laden vanuit een externe API en filteren op basis van andere veldwaarden in het aangepaste formulier.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 14 september 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23,9</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Verbeteringen voor borden
 
@@ -60,7 +99,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                </tr>  
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen voor gebruikerstoewijzingen op borden en kaarten</a></p><p>Er zijn nu verbeteringen beschikbaar die flexibiliteit bieden bij het toevoegen van gebruikers aan borden en kaarten in Adobe Workfront Boards.</p>
@@ -157,7 +196,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                 </tr>  
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Verbeteringen op gebied van ervaring bij het verzenden van documenten naar SharePoint (GraphAPI)</a></p><p>We hebben een aantal wijzigingen aangebracht om het gemakkelijker te maken om mappen te zoeken wanneer u documenten naar uw SharePoint-mappen (GraphAPI) verzendt</p>
@@ -165,7 +204,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 24 augustus<br /></p>
+                                <p>Voorvertoningsrelease: 24 augustus 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
@@ -180,7 +219,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 24 augustus<br /></p>
+                                <p>Voorvertoningsrelease: 24 augustus 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
@@ -190,7 +229,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
            </tbody>
         </table>
-
 
 ### Projectverbeteringen
 
@@ -272,65 +310,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
            </tbody>
         </table>
 
-<!--
-### Financial management enhancements
-
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
-                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: June 29, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
-                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 17, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-        </table>
--->
-
 ### Andere verbeteringen
 
 <table>
@@ -387,6 +366,25 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nieuwe knoppen voor snelle toegang tot de widget Mijn werk</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Als u uw mogelijkheden om uw werk rechtstreeks vanuit New Home te beheren verder uitbreidt, zijn er nieuwe sneltoetsen toegevoegd aan de widget Mijn werk.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 13 september 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23,9</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nieuwe filteropties voor Nieuwe startpagina</a> </p>
