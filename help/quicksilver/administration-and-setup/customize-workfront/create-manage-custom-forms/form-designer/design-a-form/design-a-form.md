@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 0%
 
 ---
 
 # Een formulier ontwerpen met de formulierontwerper
+
+{{preview-and-fast-release}}
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -460,7 +462,7 @@ U voegt als volgt velden voor de typekop toe:
       <td role="rowheader">Type object waarnaar wordt verwezen</td> 
       <td> <p>Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b>OPMERKING</b>:   
         <ul> 
-         <li>Als uw Workfront-beheerder de naam voor Portfolio, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor Workfront voor het object weergegeven in deze vervolgkeuzelijst en niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
+         <li>Als uw Workfront-beheerder de naam voor Portfolio's, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor Workfront voor het object weergegeven in deze vervolgkeuzelijst en niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
          <li>De volgende objecttypen worden ondersteund in de mobiele apps van iOS en Android Workfront: Gebruiker, Bedrijf, Groep, Functie, Portfolio, Programma, Project en Sjabloon.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -492,6 +494,90 @@ U voegt als volgt velden voor de typekop toe:
 
    Klikken **Opslaan en sluiten**.
 
+<div class="preview">
+
+### Externe opzoekvelden toevoegen
+
+Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een van deze opties in het vervolgkeuzemenu selecteren.
+
+Een externe zoekopdracht toevoegen:
+
+1. Op de linkerkant van het scherm, vind **Externe zoekopdracht** en sleep het naar een sectie op het canvas.
+1. Configureer rechts in het scherm de opties voor het aangepaste veld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Naam</td> 
+      <td> <p>(Vereist) Met deze naam geeft het systeem het aangepaste veld aan.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
+      <p><b>BELANGRIJK</b>:   
+      <ul> 
+      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
+      <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
+      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
+      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#Add" class="MCXref xref">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
+     </tr> 
+      <td role="rowheader">Instructies</td> 
+      <td> <p>Typ eventuele aanvullende informatie over het aangepaste veld. Wanneer gebruikers het aangepaste formulier invullen, kunnen ze de muisaanwijzer boven het pictogram van het vraagteken plaatsen om knopinfo weer te geven met de informatie die u hier typt.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Indeling</td>
+      <td><p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p>
+      <p><strong>OPMERKING:</strong></p>
+      <ul><li>U kunt het indelingstype wijzigen nadat het formulier is opgeslagen, met één beperking: alle bestaande waarden op objecten moeten kunnen worden omgezet in het nieuwe type. (Als het indelingstype bijvoorbeeld Tekst is en een object de waarde "abc" opslaat, kunt u het veld niet converteren. Er treedt dan een fout op die het systeem niet kan converteren naar getal/valuta.) Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.</li>
+      <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">Basis-API-URL</td> 
+      <td><p>Typ of plak de URL voor de API.</p><p>De API-URL moet een JSON-inhoud retourneren van de opties die u wilt weergeven in het vervolgkeuzemenu. U kunt het veld JSON-pad gebruiken om de specifieke waarden van de geretourneerde JSON-waarden te selecteren die vervolgkeuzemogelijkheden moeten zijn.</p><p>Wanneer u de API-URL invoert, kunt u optioneel de volgende waarden in de URL doorgeven:</p>
+      <ul><li>$$query - Dit vertegenwoordigt de zoektekst die de eindgebruiker in het veld typt en waarmee u query-filtering voor uw eindgebruikers kunt implementeren. (De gebruiker zoekt naar de waarde in de vervolgkeuzelijst.)</li>
+      <li>{fieldName} - Waar fieldName een aangepast of native veld in Workfront is. Op deze manier kunt u trapsgewijze dropdown-optiefilters implementeren wanneer u de waarde van een al geselecteerd veld doorgeeft aan het veld Externe opzoeken om opties omlaag te filteren. (Het veld Regio bestaat bijvoorbeeld al op het formulier en u versmalt een lijst met landen van de API naar landen die zich in een specifieke regio bevinden.)</li></ul>
+      <p><strong>OPMERKING:</strong> Controleer de documentatie voor de API u met voor de specifieke vragen werkt u kunt bepalen.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">HTTP-methode</td> 
+      <td>Selecteren <strong>Get</strong>, <strong>Post</strong>, of <strong>Put</strong> voor de methode.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">JSON-pad</td>
+      <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzemogelijkheden.</p><p>Als uw API-URL bijvoorbeeld JSON retourneert in deze indeling:</br>
+      <pre>
+      { data: { name: "USA"}, { name: "Canada"} }
+      </pre>
+      </p>
+      <p>vervolgens kunt u "$.data[*].name" gebruiken om de VS en Canada te selecteren als vervolgkeuzemogelijkheden.</p> <p>Raadpleeg voor meer informatie over het JSON-pad en om ervoor te zorgen dat u het juiste JSON-pad schrijft <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Kopteksten</td>
+      <td>Klikken <strong>Koptekst toevoegen</strong>en typ of plak het sleutelwaardepaar dat is vereist voor verificatie met de API.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+
+   of
+
+   Klikken **Opslaan en sluiten**.
+
+>[!NOTE]
+>
+>Technische beperkingen van de oproep tot de externe API:
+>
+>* Maximumaantal opties: 200 (alleen de eerste 200 opties van de geretourneerde JSON worden weergegeven)
+>* Time-out: 3 seconden
+>* Aantal pogingen: 3
+>* Wacht een tijd tussen pogingen: 500 ms
+>* Verwachte reactiestatus: 2xx
+
+</div>
+
 ### Afbeeldingen, PDF en video&#39;s toevoegen
 
 U kunt afbeeldingen, PDF en video&#39;s toevoegen aan een aangepast formulier. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen de afbeelding, de PDF of de video alleen in de volgende gebieden bekijken:
@@ -514,7 +600,7 @@ The Workfront Mobile app -->
 
 +++
 
-Een afbeelding, PDF of video toevoegen:
+Afbeeldingen, PDF of video&#39;s toevoegen:
 
 1. Zoek aan de linkerkant van het scherm een van de volgende velden en sleep deze naar een sectie op het canvas.
 
