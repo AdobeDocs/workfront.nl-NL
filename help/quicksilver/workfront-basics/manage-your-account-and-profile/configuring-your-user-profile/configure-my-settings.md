@@ -6,9 +6,9 @@ description: Uw [!DNL Adobe Workfront] bevat informatie over uzelf (bijvoorbeeld
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2855'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De meeste van deze gegevens zijn al ingesteld door uw [!DNL Workfront] beheerder
 
 Afhankelijk van welk toegangsniveau u binnen hebt [!DNL Workfront], kunt u sommige van deze informatie bewerken door uw [!UICONTROL My Settings] gebied.
 
-## De invloed van toegangsniveaus op het bewerken van [!UICONTROL My Settings] gebied
+## Hoe de toegangsniveaus het uitgeven beïnvloeden [!UICONTROL My Settings] gebied
 
 Afhankelijk van welk toegangsniveau u hebt, kunt u secties in uw [!UICONTROL My Settings] gebied.
 
@@ -321,7 +321,7 @@ Geef op wat u in uw [!DNL Workfront] interface in deze sectie.
 
 >[!NOTE]
 >
->Gebruikers met een [!UICONTROL Requestor] licentie bevat geen andere items in het linkervenster die u aan de licentie kunt toevoegen [!UICONTROL Main Menu], buiten de [!UICONTROL Requests] gebied. Als [!DNL Workfront] beheerder, kunt u gebruikers met een vergunning van de Aanvrager aan een lay-outmalplaatje toewijzen dat alle andere gebieden in [!UICONTROL Main Menu]. Daarna kunnen ze de gebieden selecteren die ze in hun [!UICONTROL Main Menu] door het gebruikersprofiel te bewerken.
+>Gebruikers met een [!UICONTROL Requestor] licentie bevat geen andere items in het linkervenster die u aan de licentie kunt toevoegen [!UICONTROL Main Menu], buiten de [!UICONTROL Requests] gebied. Als [!DNL Workfront] beheerder, kunt u gebruikers met een vergunning van de Vraag aan een lay-outmalplaatje toewijzen dat alle andere gebieden in [!UICONTROL Main Menu]. Daarna kunnen ze de gebieden selecteren die ze in hun [!UICONTROL Main Menu] door het gebruikersprofiel te bewerken.
 
 In deze subsectie kunt u de volgende opties wijzigen:
 
@@ -356,7 +356,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
 
 ### [!UICONTROL Notifications]
 
-Geef op van welke meldingen u wilt ontvangen [!DNL Workfront]. Voor meer informatie over het vormen van berichten, zie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Geef op van welke meldingen u wilt ontvangen [!DNL Workfront]. Voor meer informatie over het vormen van berichten, zie [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 
@@ -376,7 +376,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
-   <td>Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL Workfront administrator] toegangsniveau, en het is slechts editable voor [!DNL Workfront] beheerders. Als u een [!DNL Workfront] beheerder, moet u er rekening mee houden dat u het toegangsniveau niet in een lagere waarde wijzigt wanneer u dit veld wijzigt. </td> 
+   <td>Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL Workfront administrator] toegangsniveau en kan alleen worden bewerkt voor [!DNL Workfront] beheerders. Als u een [!DNL Workfront] beheerder, moet u er rekening mee houden dat u het toegangsniveau niet in een lagere waarde wijzigt wanneer u dit veld wijzigt. </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
@@ -401,7 +401,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
     <ul> 
      <li>Uw bedrijf gebruikt een oudere versie [!DNL Workfront] en heeft de [!DNL Workfront Proof] of u hebt een [!UICONTROL Work] of [!UICONTROL Plan] licentie op een nieuwer [!DNL Workfront] plannen.</li> 
      <li>U bent ingeschakeld als proefgebruiker.</li> 
-    </ul> <p>[!DNL Workfront] beheerders kunnen het veld voor alle gebruikers behalve zichzelf bewerken, zodat alle gebruikers het veld als alleen-weergeven in hun eigen profielen zien. Voor meer informatie over het bevoegdhedenprofiel raadpleegt u <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Overzicht van machtigingsprofiel proefdrukken</a>.</p> </td> 
+    </ul> <p>[!DNL Workfront] beheerders kunnen het veld voor alle gebruikers behalve zichzelf bewerken, zodat alle gebruikers het veld als alleen-weergeven in hun eigen profielen zien. Zie voor meer informatie over het bevoegdhedenprofiel <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Overzicht van machtigingsprofiel proefdrukken</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -430,7 +430,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Team]</strong> </td> 
-   <td> <p>Selecteer een <strong>[!UICONTROL Home Team]</strong> in het keuzemenu. Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL System Administrator] toegangsniveau, en het is slechts editable voor [!DNL Workfront] beheerders of gebruikers met een [!UICONTROL Plan] licentie die ook toegang heeft tot administratieve gebruikers. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">De toegang van gebruikers tot het bewerken van gebruikers configureren met behulp van een aangepast toegangsniveau</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.<br></p> <p>Uw <strong>Thuisteam</strong> kan het uiterlijk van uw [!DNL Workfront] interface, als een lay-outmalplaatje met het team wordt geassocieerd. </p> <p> <br>Voor meer informatie over teams, zie <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overzicht</a>.</p> </td> 
+   <td> <p>Selecteer een <strong>[!UICONTROL Home Team]</strong> in het keuzemenu. Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL System Administrator] toegangsniveau en kan alleen worden bewerkt voor [!DNL Workfront] beheerders of gebruikers met een [!UICONTROL Plan] licentie die ook toegang heeft tot administratieve gebruikers. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">De toegang van gebruikers tot het bewerken van gebruikers configureren met behulp van een aangepast toegangsniveau</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.<br></p> <p>Uw <strong>Thuisteam</strong> kan het uiterlijk van uw [!DNL Workfront] interface, als een lay-outmalplaatje met het team wordt geassocieerd. </p> <p> <br>Voor meer informatie over teams, zie <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overzicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Teams]</strong> </td> 
@@ -438,11 +438,11 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Group]</strong> </td> 
-   <td> <p>Selecteer een <strong>[!UICONTROL Home Group]</strong> in het keuzemenu.</p> <p>Opmerking: Dit is een verplicht veld. Er kan geen gebruiker aan een groep zijn gekoppeld.<br></p> <p>Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL System Administrator] niveau. Voor meer informatie over wie de <strong>[!UICONTROL Home Group]</strong> veld, zie de <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md#prerequisites" class="MCXref xref">Gebruikers toevoegen</a> sectie in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a>.Your <strong>[!UICONTROL Home Group]</strong> is de standaardgroep voor alle projecten en het gebrek <strong>[!UICONTROL Home Group]</strong> voor alle nieuwe gebruikers die u maakt. Aangepaste formulieren die u maakt, worden gedeeld met uw <strong>[!UICONTROL Home Group]</strong> standaard.</p> <p>Voor meer informatie over groepen raadpleegt u <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> </td> 
+   <td> <p>Selecteer een <strong>[!UICONTROL Home Group]</strong> in het keuzemenu.</p> <p>Opmerking: dit is een verplicht veld. Er kan geen gebruiker aan een groep zijn gekoppeld.<br></p> <p>Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL System Administrator] niveau. Voor meer informatie over wie de <strong>[!UICONTROL Home Group]</strong> veld, zie de <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md#prerequisites" class="MCXref xref">Gebruikers toevoegen</a> sectie in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a>.Your <strong>[!UICONTROL Home Group]</strong> is de standaardgroep voor alle projecten en het gebrek <strong>[!UICONTROL Home Group]</strong> voor alle nieuwe gebruikers die u maakt. Aangepaste formulieren die u maakt, worden gedeeld met uw <strong>[!UICONTROL Home Group]</strong> standaard.</p> <p>Zie voor meer informatie over groepen <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Groups]</strong> </td> 
-   <td> <p>U kunt tot meerdere groepen behoren. Geef in dit veld extra groepen op waartoe u behoort door de naam van een groep te typen. Klik om het te selecteren wanneer het in de lijst toont. Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL System Administrator] toegangsniveau. Voor meer informatie over wie de <strong>[!UICONTROL Other Groups]</strong> in het veld, zie de sectie "Andere groepen" in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a>.</p> <p>Voor meer informatie over groepen raadpleegt u <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> </td> 
+   <td> <p>U kunt tot meerdere groepen behoren. Geef in dit veld extra groepen op waartoe u behoort door de naam van een groep te typen. Klik om het te selecteren wanneer het in de lijst toont. Dit veld is zichtbaar voor gebruikers met een [!UICONTROL Plan] of [!UICONTROL System Administrator] toegangsniveau. Voor meer informatie over wie de <strong>[!UICONTROL Other Groups]</strong> in het veld, zie de sectie "Andere groepen" in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a>.</p> <p>Zie voor meer informatie over groepen <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -483,7 +483,7 @@ Voer in deze sectie een van de volgende handelingen uit:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Schema</strong></td> 
-   <td> <p>Alleen [!DNL Workfront] beheerders of gebruikers met een [!UICONTROL Plan] een licentie die ook administratieve toegang heeft voor tijdschriften en uren, kan dit veld bijwerken. Voor meer informatie over administratieve toegang voor timesheets en uren, zie de "sectie van Timesheets en van Uren"in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p>Selecteer de juiste tijdpagina in het keuzemenu. Dit zorgt ervoor dat uw timesheets automatisch worden gegenereerd volgens de specificaties die door uw [!DNL Workfront] beheerder. </p> </td> 
+   <td> <p>Alleen [!DNL Workfront] beheerders of gebruikers met een [!UICONTROL Plan] een licentie die ook administratieve toegang heeft voor tijdschriften en uren, kan dit veld bijwerken. Voor meer informatie over administratieve toegang voor timesheets en uren, zie de "sectie van Tijdopnemers en van Uren"in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p>Selecteer de juiste tijdpagina in het keuzemenu. Dit zorgt ervoor dat uw timesheets automatisch worden gegenereerd volgens de specificaties die door uw [!DNL Workfront] beheerder. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Default Hour Type]</strong> </td> 
@@ -499,15 +499,15 @@ Voer in deze sectie een van de volgende handelingen uit:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>Het aantal u hier specificeert wordt in aanmerking genomen om uw beschikbaarheid te berekenen die op het StandaardProgramma slechts wordt gebaseerd wanneer [!UICONTROL Resource Management Preferences] op systeemniveau <strong>[!UICONTROL The Default Schedule]</strong>.</p> <p>Als de FTE-waarde bijvoorbeeld 0,5 is en de waarde [!UICONTROL Default Schedule] is 40 uur, kunt u 20 uur per week werken.</p> <p>Als de [!UICONTROL Resource Management Preferences] op systeemniveau <strong>[!UICONTROL The User's Schedule]</strong>De waarde die u hier opgeeft, wordt genegeerd en u kunt werken volgens de instructies in uw schema. In dit geval, uw FTE voor [!UICONTROL Resource Planner] wordt berekend met de volgende formule: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Voor meer informatie over het berekenen van gebruiker FTE, zie <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p> <p>Voor meer informatie over het maken van programma's in [!DNL Workfront], zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p>Voor meer informatie over het vormen van de Voorkeur van het Beheer van het Middel, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </td> 
+   <td> <p>Het aantal u hier specificeert wordt in aanmerking genomen om uw beschikbaarheid te berekenen die op het StandaardProgramma slechts wordt gebaseerd wanneer [!UICONTROL Resource Management Preferences] op systeemniveau <strong>[!UICONTROL The Default Schedule]</strong>.</p> <p>Als de FTE-waarde bijvoorbeeld 0,5 is en de waarde [!UICONTROL Default Schedule] is 40 uur, kunt u 20 uur per week werken.</p> <p>Als de [!UICONTROL Resource Management Preferences] op systeemniveau <strong>[!UICONTROL The User's Schedule]</strong>De waarde die u hier opgeeft, wordt genegeerd en u kunt werken volgens de instructies in uw schema. In dit geval, uw FTE voor [!UICONTROL Resource Planner] wordt berekend aan de hand van de volgende formule: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Voor meer informatie over het berekenen van gebruiker FTE, zie <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p> <p>Voor meer informatie over het maken van programma's in [!DNL Workfront], zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p>Voor meer informatie over het vormen van de Voorkeur van het Beheer van het Middel, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Cost per Hour]</strong> </td> 
-   <td>Geef de hoeveelheid kosten per uur voor de gebruiker op. Voor meer informatie over het bijhouden van kosten in [!DNL Workfront], zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>. U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op uw toegangsniveau of als u een [!DNL Workfront] beheerder. Voor meer informatie over financiële toegang raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Toegang tot financiële gegevens verlenen</a>.</td> 
+   <td>Geef de hoeveelheid kosten per uur voor de gebruiker op. Voor meer informatie over het bijhouden van kosten in [!DNL Workfront], zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>. U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op uw toegangsniveau of als u een [!DNL Workfront] beheerder. Zie voor meer informatie over financiële toegang <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Toegang tot financiële gegevens verlenen</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Billing per Hour]</strong> </td> 
-   <td>Geef de hoeveelheid facturering per uur voor de gebruiker op. Voor meer informatie over het volgen van facturering en opbrengst, zie <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overzicht van facturering en inkomsten</a>. U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op uw toegangsniveau of als u een [!DNL Workfront] beheerder. Voor meer informatie over financiële toegang raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Toegang tot financiële gegevens verlenen</a>.</td> 
+   <td>Geef de hoeveelheid facturering per uur voor de gebruiker op. Voor meer informatie over het volgen van facturering en opbrengst, zie <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overzicht van facturering en inkomsten</a>. U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op uw toegangsniveau of als u een [!DNL Workfront] beheerder. Zie voor meer informatie over financiële toegang <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Toegang tot financiële gegevens verlenen</a>.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -530,4 +530,4 @@ U kunt een opmerking opnemen in het gebruikersprofiel dat is opgeslagen in het d
 
 U kunt op de knop [!UICONTROL people] om anderen op te nemen in de update.
 
-U kunt op de knop [!UICONTROL lock] om deze update privé te maken voor gebruikers die in het zelfde bedrijf zijn zoals u.
+U kunt op de knop [!UICONTROL lock] pictogram om deze update privé te maken voor gebruikers die in het zelfde bedrijf zijn zoals u.

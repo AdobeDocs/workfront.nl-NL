@@ -6,9 +6,9 @@ description: Deze pagina beschrijft alle veranderingen beschikbaar in het milieu
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ Zie voor meer informatie  [Documenten van externe toepassingen koppelen](../../
 >
 >De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-De kalender Werken aan beschikbaar voor teams bevat nu extra functionaliteit en een bijgewerkte look en feel. Het team dat aan kalender werkt functioneert nu gelijkend op het middel die hulpmiddel voor projecten plannen.
+De kalender Werken aan die beschikbaar is voor teams bevat nu extra functionaliteit en een bijgewerkte look en feel. Het team dat aan kalender werkt functioneert nu gelijkend op het middel die hulpmiddel voor projecten plannen.
 
 Het bijgewerkte team dat aan kalender werkt omvat de volgende verbeteringen:
 
 * Gebruikers alfabetisch weergeven of gegroepeerd op rol.
-* Filter de planning chronologie door projectprioriteiten, status, en individuele projecten. U kunt de plantijdlijn ook filteren op rollen en gebruikers. (Het gebied van de Filter omvat minder optie dan wanneer het plannen van middelen voor projecten.)
+* Filter de planning chronologie door projectprioriteiten, status, en individuele projecten. U kunt de plantijdlijn ook filteren op rollen en gebruikers. (Het gebied Filter bevat minder opties dan wanneer u bronnen voor projecten instelt.)
 * Neem problemen op in de tijdlijn van de planning.
 * De gebruikerstoewijzingen van de vertoning en wijzigen het aantal uren dat de gebruikers aan bepaalde taken en kwesties voor elke dag worden toegewezen.
 * De indicatoren van de mening die tonen wanneer de gebruikers over-toegewezen op om het even welke bepaalde dag zijn.
@@ -49,12 +49,12 @@ Het bijgewerkte team dat aan kalender werkt omvat de volgende verbeteringen:
 Verschillen van het middel dat hulpmiddel plant wanneer het plannen van middelen voor projecten:
 
 * Alle teamleden worden getoond in het team dat aan kalender werkt.\
-   Wanneer het plannen van middelen voor projecten, slechts worden de gebruikers die een rol verbonden aan hen hebben die een rol van één of meerdere taken in Unassigned gebied aanpast getoond.
+  Wanneer het plannen van middelen voor projecten, slechts worden de gebruikers die een rol verbonden aan hen hebben die een rol van één of meerdere taken in Unassigned gebied aanpast getoond.
 * Het gereedschap Wisselen is niet beschikbaar in de werkkalender van het team.
 * Om het even welk teamlid kan veranderingen aanbrengen op het team dat aan kalender werkt.\
-   Wanneer het plannen van middelen voor projecten, slechts kunnen de Managers van het Middel resourcing besluiten voor het project nemen.
+  Wanneer het plannen van middelen voor projecten, slechts kunnen de Managers van het Middel resourcing besluiten voor het project nemen.
 * De kwesties worden door gebrek getoond op het team dat aan kalender werkt.\
-   Wanneer het plannen van middelen voor projecten, worden de kwesties niet getoond door gebrek.
+  Wanneer het plannen van middelen voor projecten, worden de kwesties niet getoond door gebrek.
 
 Voor meer informatie over het gebruiken van het bijgewerkte team dat aan kalender werkt, zie &quot;het Plannen van het Middel&quot;.
 
@@ -110,11 +110,11 @@ Wanneer u deze vervanging aanbrengt, wordt in de volgende gebieden van de toepas
 
 In de volgende gebieden wordt de bijgewerkte naam van de objecten niet weergegeven:
 
-* Bronramingen
+* Bronschattingen
 * Resource Budget Manager
 * Capaciteitsplanner
 * Bronraster
-* Teamontwikkelaar
+* Teamontwerper
 * Portfolio optimaliseren 
 * Mobiele apps
 * Outlook Add-in
@@ -144,7 +144,7 @@ De volgende velden zijn uit Workfront verwijderd en kunnen niet langer in de rap
 
 De leveringsoptie Dagelijkse samenvatting is toegevoegd aan het gedeelte &quot;Verzoeken die ik heb gemaakt&quot; van uw meldingsinstellingen.
 
-Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen. Dit is vereist omdat de voorvertoningssandbox de e-mailadressen van alle gebruikers wist.
 
@@ -152,7 +152,7 @@ Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om de
 
 De vormgeving van het bericht voor &quot;Documentgoedkeuring&quot; is bijgewerkt met een nieuwe interface:
 
-Voor meer informatie over e-mailmeldingen raadpleegt u [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Zie voor meer informatie over e-mailmeldingen [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen. Dit is vereist omdat de voorvertoningssandbox de e-mailadressen van alle gebruikers wist.
 

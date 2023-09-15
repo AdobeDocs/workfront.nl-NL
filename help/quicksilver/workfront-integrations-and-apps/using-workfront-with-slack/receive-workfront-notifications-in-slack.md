@@ -6,9 +6,9 @@ description: Ontvangen [!DNL Adobe Workfront] meldingen in [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
 -->
 
-Nadat u hebt geïnstalleerd [!DNL Adobe Workfront for Slack], u kunt [!DNL Workfront] meldingen in [!DNL Slack].\
+Nadat u [!DNL Adobe Workfront for Slack], u kunt [!DNL Workfront] meldingen in [!DNL Slack].\
 Voor informatie over installeren [!DNL Workfront for Slack], zie [Configureren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-U kunt een geselecteerd aantal van [!UICONTROL notifications] die worden weergegeven in de meldingsballon in het dialoogvenster [!DNL Workfront] interface, ook te leveren in [!DNL Slack].
+U kunt een geselecteerd aantal van [!UICONTROL notifications] die worden weergegeven in de meldingsballon in de [!DNL Workfront] interface, ook te leveren in [!DNL Slack].
 
 E-mailmeldingen werken onafhankelijk van [!DNL Workfront] interfacemeldingen. U of uw [!DNL Workfront] de beheerder kan e-mailberichten onbruikbaar maken, terwijl de interfaceberichten niet kunnen worden onbruikbaar gemaakt in [!DNL Workfront].\
 U kunt deze optie echter uitschakelen [!DNL Workfront] meldingen die u ontvangt [!DNL Slack], als u zich alleen op deze meldingen wilt concentreren in het dialoogvenster [!DNL Workfront] interface.
@@ -48,7 +48,7 @@ U moet het volgende hebben:
 
 ## Vereisten
 
-Voordat je [!DNL Workfront] meldingen in [!DNL Slack]moet u
+Voordat je [!DNL Workfront] meldingen in [!DNL Slack], moet u
 
 * Configureren [!DNL Workfront for Slack]\
    Voor instructies over het configureren [!DNL Workfront for Slack], zie [Configureren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
@@ -86,7 +86,7 @@ Voordat je [!DNL Workfront] meldingen in [!DNL Slack]moet u
 Je kunt ontvangen en reageren op [!DNL Workfront] meldingen van [!DNL Slack].
 
 U kunt e-mailmeldingen uitschakelen voor meldingen die u inschakelt [!DNL Slack], om dubbele meldingen te voorkomen.\
-Voor informatie over het configureren van uw e-mailmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het configureren van uw e-mailmeldingen raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 In- of uitschakelen [!DNL Workfront] meldingen in [!DNL Slack] heeft geen invloed op de meldingen die u ontvangt in het dialoogvenster [!DNL Workfront] interface.\
 Meldingen binnen het dialoogvenster [!DNL Workfront] interface kan niet worden uitgeschakeld.
@@ -111,9 +111,9 @@ Om uw [!DNL Workfront] meldingen voor [!DNL Slack]:
 
    * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, of **[!UICONTROL Reject]**, een document goed te keuren, met wijzigingen goed te keuren of af te wijzen.
 
-      U kunt de muis ook boven de miniatuur van het document houden en op het vergrootglaspictogram klikken om een grotere voorvertoning van het document weer te geven voordat u het goedkeurt.\
+     U kunt de muis ook boven de miniatuur van het document houden en op het vergrootglaspictogram klikken om een grotere voorvertoning van het document weer te geven voordat u het goedkeurt.\
       Alleen de goedgekeurde Slack [bestandstypen](https://api.slack.com/types/file) kan worden voorvertoond.
 
    * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Grant]** of **[!UICONTROL Ignore]** om het verzoek om meer toegang van een andere gebruiker te verlenen of te negeren.\
 
-      Je ontvangt een bevestiging dat je actie is uitgevoerd in [!DNL Workfront], voor elk besluit dat u neemt in uw berichten.
+     Je ontvangt een bevestiging dat je actie is uitgevoerd in [!DNL Workfront], voor elk besluit dat u neemt in uw berichten.

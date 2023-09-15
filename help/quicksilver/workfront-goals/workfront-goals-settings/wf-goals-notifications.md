@@ -7,9 +7,9 @@ description: Adobe Workfront Goals wordt geleverd met een set vooraf gedefinieer
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 De Doelen van Adobe Workfront komt met een reeks gebeurtenisberichten die u voor uw rekening kunt toelaten. Deze gebeurtenismeldingen activeren e-mailcommunicatie telkens wanneer aan de door de gebeurtenis gedefinieerde voorwaarde wordt voldaan.
 
-Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [Meldingen: Doelen](../../workfront-basics/using-notifications/notifications-goals.md).
+Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [Meldingen: Doelstellingen](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Voor informatie over het beheren van berichten in Adobe Workfront raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het beheren van berichten in Adobe Workfront raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

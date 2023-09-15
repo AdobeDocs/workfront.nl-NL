@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '"Meldingen: Communicatie'
-description: In de volgende berichten wordt u gewaarschuwd voor communicatie, zoals een updateopmerking, die plaatsvindt op een tijdelijk onderdeel waarmee u te maken hebt. Zie Uw eigen gebeurtenismeldingen activeren of deactiveren voor informatie over het configureren van de meldingen die u ontvangt.
+title: "Meldingen: Communicatie"
+description: In de volgende berichten wordt u gewaarschuwd voor communicatie, zoals een updateopmerking, die plaatsvindt op een tijdelijk onderdeel waarmee u te maken hebt. Zie Uw eigen e-mailmeldingen wijzigen voor informatie over het configureren van de berichten die u ontvangt.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
 
 # Meldingen: Communicatie
 
-In de volgende berichten wordt u gewaarschuwd voor communicatie, zoals een updateopmerking, die plaatsvindt op een tijdelijk onderdeel waarmee u te maken hebt. Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+In de volgende berichten wordt u gewaarschuwd voor communicatie, zoals een updateopmerking, die plaatsvindt op een tijdelijk onderdeel waarmee u te maken hebt. Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td> <p><strong>Meteen</strong> </p> <p><strong>en dagelijks</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Iemand antwoordt op mijn verzoek</strong> </p> <p>Nadat een gebruiker een werkverzoek indient en een andere gebruiker op dat werkverzoek antwoordt, ontvangt de gebruiker die het verzoek indiende een e-mailbericht.</p> <p>Er wordt geen e-mailmelding verzonden als:</p> 
+   <td> <p><strong>Iemand beantwoordt mijn verzoek</strong> </p> <p>Nadat een gebruiker een werkverzoek indient en een andere gebruiker op dat werkverzoek antwoordt, ontvangt de gebruiker die het verzoek indiende een e-mailbericht.</p> <p>Er wordt geen e-mailmelding verzonden als:</p> 
     <ul> 
      <li> <p>De gebruiker die antwoordt is de zelfde gebruiker die het verzoek indiende</p> </li> 
      <li> <p>De gebruiker heeft geen toegang om de notitie te zien</p> </li> 
@@ -60,7 +60,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td> <p><strong>Meteen</strong> </p> <p><strong>en dagelijks</strong> </p> <p><strong></strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Iemand reageert op een thread waar ik in zit</strong> </p> <p>De deelnemers in de draad en de gebruikers die in een direct bericht inbegrepen zijn ontvangen een e-mailbericht wanneer een gebruiker een commentaar in de draad aanbrengt.</p> <p>Gebruikers moeten beschikken over [!UICONTROL View] toegang om een bericht te ontvangen.</p> <p>De volgende gebruikers ontvangen geen melding:</p> 
+   <td> <p><strong>Iemand reageert op een thread waar ik in zit</strong> </p> <p>De deelnemers in de draad en de gebruikers die in een direct bericht inbegrepen zijn ontvangen een e-mailbericht wanneer een gebruiker een commentaar in de draad aanbrengt.</p> <p>Gebruikers moeten [!UICONTROL View] toegang om een bericht te ontvangen.</p> <p>De volgende gebruikers ontvangen geen melding:</p> 
     <ul> 
      <li>Teams die zijn opgenomen in een direct bericht</li> 
      <li>De eigenaar van de notitie</li> 
@@ -71,7 +71,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
   </tr> 
   <tr> 
    <td> <p><strong>Iemand reageert op een van mijn werkitems</strong> </p> <p>De ontvanger van het werkitem ontvangt een e-mailbericht wanneer een gebruiker een update aan een werkitem toevoegt, tenzij de gebruiker die de update toevoegt ook de ontvanger is. </p> <p>Als er een opmerking op een aanvraag wordt geplaatst, stuurt u een e-mail naar de primaire contactpersoon voor de uitgave.</p> <p>De primaire contactpersoon voor een kwestie ontvangt een e-mailbericht wanneer een commentaar op een verzoek wordt gepost, tenzij de gebruiker die de opmerking heeft geplaatst ook de primaire contactpersoon voor de kwestie is.</p> <p>Gebruikers die rechtstreeks in de opmerking zijn opgenomen, ontvangen ook een e-mailbericht.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Comment on] &lt;work item="" name=""&gt; op &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
-   <td> Itemnaam zakelijk<br>Projectnaam<br>Referentienummer zakelijk item<br>Naam van de gebruiker die opmerkingen heeft gemaakt over het werkitem<br>Tekst van de opmerking die op het werkitem is geplaatst<br>Datum en tijd waarop de opmerking is gemaakt<br>*Totaal aantal ontvangen opmerkingen<br>*Aantal ontvangen opmerkingen voor elk object<br>*Projectnaam<br>*<strong>[!UICONTROL See All Notifications]</strong> knop<br>*Datum van de dagelijkse samenvatting </td> 
+   <td> Naam van werkitem<br>Projectnaam<br>Referentienummer zakelijk item<br>Naam van de gebruiker die opmerkingen heeft gemaakt over het werkitem<br>Tekst van de opmerking die op het werkitem is geplaatst<br>Datum en tijd waarop de opmerking is gemaakt<br>*Totaal aantal ontvangen opmerkingen<br>*Aantal ontvangen opmerkingen voor elk object<br>*Projectnaam<br>*<strong>[!UICONTROL See All Notifications]</strong> knop<br>*Datum van de dagelijkse samenvatting </td> 
    <td><strong>Dagelijks</strong> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td><strong>Dagelijks</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Wanneer de opmerking bij de gebruiker wordt toegevoegd</strong> </p> <p>U kunt een opmerking maken over een gebruiker in het dialoogvenster [!UICONTROL Updates] van het gebruikersobject. U kunt ook een opmerking plaatsen bij een gebruiker wanneer u de instellingen van de gebruiker bewerkt. De gebruiker waartegen de opmerking wordt geplaatst, ontvangt een e-mail om deze op de hoogte te stellen van deze opmerking. </p> <p>U moet minstens gemachtigd zijn [!UICONTROL View] de gebruiker om een update in te voeren op de [!UICONTROL Updates] van de gebruiker. U moet [!UICONTROL Edit] machtigingen voor de gebruiker om de instellingen van de gebruiker te bewerken. </p> <p>Ga voor meer informatie over het maken van opmerkingen over gebruikers op het tabblad Updates naar <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a>.</p> <p>Voor meer informatie over het invoeren van een opmerking voor een gebruiker wanneer u de instellingen van de gebruiker bewerkt, raadpleegt u <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Mijn instellingen configureren</a>.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>&lt;user name=""&gt; [!UICONTROL wanted you to know]</em></p> <p>Het onderwerp van de dagelijkse overzichtsmelding is:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Wanneer de opmerking bij de gebruiker wordt toegevoegd</strong> </p> <p>U kunt een opmerking maken over een gebruiker in het dialoogvenster [!UICONTROL Updates] van het gebruikersobject. U kunt ook een opmerking plaatsen bij een gebruiker wanneer u de instellingen van de gebruiker bewerkt. De gebruiker waartegen de opmerking is geplaatst, ontvangt een e-mail om deze op de hoogte te stellen van deze opmerking. </p> <p>U moet minstens gemachtigd zijn [!UICONTROL View] de gebruiker om een update in te voeren op de [!UICONTROL Updates] van de gebruiker. U moet [!UICONTROL Edit] machtigingen voor de gebruiker om de instellingen van de gebruiker te bewerken. </p> <p>Ga voor meer informatie over het maken van opmerkingen over gebruikers op het tabblad Updates naar <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a>.</p> <p>Ga voor meer informatie over het invoeren van een opmerking voor een gebruiker wanneer u de instellingen van de gebruiker bewerkt naar <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Mijn instellingen configureren</a>.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>&lt;user name=""&gt; [!UICONTROL wanted you to know]</em></p> <p>Het onderwerp van de dagelijkse overzichtsmelding is:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Uw gebruikersnaam<br>Naam van de gebruiker die de opmerking heeft toegevoegd<br>Tekst van de opmerking<br>Datum en tijd waarop de opmerking is gemaakt<br>*Totaal aantal ontvangen opmerkingen<br>*Aantal ontvangen opmerkingen voor elk object<br>*<strong>[!UICONTROL See All Notifications]</strong> knop<br>*Datum van de dagelijkse samenvatting </td> 
    <td> <p><strong>Meteen</strong> </p> <p><strong>en dagelijks</strong> </p> </td> 
   </tr> 

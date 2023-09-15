@@ -1,23 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Meldingen: Diverse gegevens"
+title: "Meldingen: Diverse informatie"
 description: In de volgende berichten wordt u gewaarschuwd voor activiteiten die plaatsvinden in een project dat u sponsort.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
 
-# Meldingen: Overige informatie
+# Meldingen: Diverse informatie
 
 In de volgende berichten wordt u gewaarschuwd voor activiteiten die plaatsvinden in een project dat u sponsort.
 
-Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -38,7 +38,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Er wordt een bericht verzonden naar de [!UICONTROL Announcement Center]</strong> </p> <p>U ontvangt een e-mailbericht wanneer een nieuw bericht naar de [!UICONTROL Announcement Center]. </p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL [!DNL Adobe Workfront] Aankondiging]: &lt;subject of="" the="" announcement=""&gt;</em></p> </td> 
+   <td> <p><strong>Er wordt een bericht verzonden naar de [!UICONTROL Announcement Center]</strong> </p> <p>U ontvangt een e-mailbericht wanneer een nieuw bericht naar de [!UICONTROL Announcement Center]. </p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL [!DNL Adobe Workfront] Mededeling]: &lt;subject of="" the="" announcement=""&gt;</em></p> </td> 
    <td> Betreft: Aankondiging<br>Tekst van het bericht in de aankondiging<br>Bijgevoegd document(en)<br>Naam van de gebruiker die de aankondiging heeft verzonden<br>Datum en tijdstip waarop de aankondiging is verzonden </td> 
    <td><strong>Meteen</strong> </td> 
   </tr> 
@@ -48,7 +48,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td><strong>Meteen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Nadat u een aanvraag voor het uploaden van een document hebt ontvangen, wordt de aanvraag geannuleerd</strong> </p> <p>De documentaanvrager ontvangt een e-mailbericht wanneer een documentverzoek wordt geannuleerd.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt; heeft de documentaanvraag geannuleerd. </em></p> <p>De volgende tekst is opgenomen in de tekst van de e-mailmelding:</p> <p><em>[!UICONTROL Hi] &lt;your name=""&gt;, <br><br>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt;[!UICONTROL no longer needs you to upload anything regarding the request you got earlier. We just wanted to let you know.]</em> </p> </td> 
+   <td> <p><strong>Na ontvangst van een aanvraag voor het uploaden van een document wordt de aanvraag geannuleerd</strong> </p> <p>De documentaanvrager ontvangt een e-mailbericht wanneer een documentverzoek wordt geannuleerd.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt; heeft de documentaanvraag geannuleerd. </em></p> <p>De volgende tekst is opgenomen in de tekst van de e-mailmelding:</p> <p><em>[!UICONTROL Hi] &lt;your name=""&gt;, <br><br>&lt;name of="" the="" user="" who="" canceled="" the="" request=""&gt;[!UICONTROL no longer needs you to upload anything regarding the request you got earlier. We just wanted to let you know.]</em> </p> </td> 
    <td>Naam van de gebruiker die de aanvraag heeft geannuleerd<br>De tekst van het oorspronkelijke uploadverzoek voor documenten<br>A "[!UICONTROL CANCELED]" banner over de oorspronkelijke documentaanvraag<br>Datum en tijd van de oorspronkelijke documentaanvraag<br></td> 
    <td><strong>Meteen</strong> </td> 
   </tr> 
@@ -64,12 +64,12 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
   </tr> 
   <tr> 
    <td> <p><strong>Een van mijn mensen wordt toegevoegd aan een project</strong> </p> <p>Een manager ontvangt een e-mailbericht wanneer een van zijn of haar gebruikers aan een project wordt toegevoegd. Deze kennisgeving wordt verzonden ongeacht de status van het project. </p> <p>Gebruikers met een [!UICONTROL Review] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail is: <em>Projecttoewijzing: &lt;user name=""&gt;[&lt;project guid=""&gt;_ &lt;user guid=""&gt;]</em></p> </td> 
-   <td> <p>Projectnaam<br>Portfolio-naam<br>Projectreferentienummer<br>Naam van de gebruiker die de persoon aan het project toevoegde<br>Naam van de gebruiker die aan het project werd toegevoegd<br>Project [!UICONTROL Planned Start Date]<br>Project [!UICONTROL Planned Completion Date]<br>Projectpercentage voltooid<br>Namen van anderen in project<br>Projectstatus<br>Projecteigenaar<br><strong>[!UICONTROL See More Details]</strong> knop<br><br><br></p> </td> 
+   <td> <p>Projectnaam<br>Naam Portfolio<br>Projectreferentienummer<br>Naam van de gebruiker die de persoon aan het project toevoegde<br>Naam van de gebruiker die aan het project werd toegevoegd<br>Project [!UICONTROL Planned Start Date]<br>Project [!UICONTROL Planned Completion Date]<br>Projectpercentage voltooid<br>Namen van anderen in het project<br>Projectstatus<br>Projecteigenaar<br><strong>[!UICONTROL See More Details]</strong> knop<br><br><br></p> </td> 
    <td><strong>Meteen</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Iemand voegt een project toe aan een portfolio of programma waarvan ik eigenaar ben</strong> </p> <p>De portefeuille en/of de programmaeigenaar ontvangen een bericht wanneer een nieuw project aan een portefeuille of een programma wordt toegevoegd.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Project added to] &lt;portfolio name=""&gt;[Project GUID]</em></p> </td> 
-   <td> Portfolio-naam<br>Projectreferentienummer<br>Naam van de gebruiker die het project aan de portefeuille/het programma heeft toegevoegd<br><br></td> 
+   <td> Naam Portfolio<br>Projectreferentienummer<br>Naam van de gebruiker die het project aan de portefeuille/het programma heeft toegevoegd<br><br></td> 
    <td><strong>Meteen</strong> </td> 
   </tr> 
   <tr> 

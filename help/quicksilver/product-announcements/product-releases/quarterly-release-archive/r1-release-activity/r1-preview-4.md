@@ -6,9 +6,9 @@ description: Deze pagina beschrijft alle veranderingen beschikbaar in het milieu
 author: Luke
 feature: Product Announcements
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Wanneer het creëren van goedkeuringsprocessen voor project, taak, en uitgevende
 
 * Goedkeuring &quot;Stappen&quot; worden nu goedkeuringsfasen genoemd.
 * Meerdere typen fiatteurs per werkgebied opnemen.\
-   Dit omvat gebruikers, teams en taakrollen.\
-   Vóór deze wijziging kunt u alleen meerdere fiatteurs van hetzelfde type opnemen. U kunt bijvoorbeeld meerdere taakrollen opnemen, maar niet een taakrol en een team.
+  Dit omvat gebruikers, teams en taakrollen.\
+  Vóór deze wijziging kunt u alleen meerdere fiatteurs van hetzelfde type opnemen. U kunt bijvoorbeeld meerdere taakrollen opnemen, maar niet een taakrol en een team.
 
-* De volgende bestaande beperkingen met betrekking tot de wijziging van bestaande algemene goedkeuringsprocedures zijn geschrapt:
+* De volgende reeds bestaande beperkingen met betrekking tot de wijziging van bestaande algemene goedkeuringsprocedures zijn geschrapt:
 
    * Het gewijzigde goedkeuringsproces wordt alleen weerspiegeld op objecten in het hele systeem waar het goedkeuringsproces nog niet is gestart of waar het goedkeuringsproces niet is gewijzigd. Objecten waarvan het goedkeuringsproces al is gestart of waar het goedkeuringsproces is gewijzigd, worden niet bijgewerkt met uw wijzigingen.
    * U kunt de status die bepaalt wanneer de goedkeuring start, niet wijzigen.
@@ -42,7 +42,7 @@ Wanneer het associëren van een goedkeuringsproces met een project, een taak, of
 * Bijgewerkt uiterlijk.
 * Het goedkeuringsdiagram wordt weergegeven op het tabblad Goedkeuring en geeft een visuele weergave weer van eerdere, huidige en toekomstige goedkeuringsstappen.
 
-Voor meer informatie over het associëren van goedkeuringen met projecten, taken, en kwesties, zie [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Zie voor meer informatie over het koppelen van goedkeuringen aan projecten, taken en problemen [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## De status van een project rechtstreeks wijzigen vanaf de projectpagina
 
@@ -66,22 +66,22 @@ Voor meer informatie over het plannen van gebruikers voor deactivering, zie [Een
 
 De optie Dagelijkse samenvatting is nu beschikbaar in het gedeelte Actie vereist van de instellingen voor Meldingen.
 
-Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen. Dit is vereist omdat de voorvertoningssandbox de e-mailadressen van alle gebruikers wist.
 
-## Verbetering van prullenbak: Opgenomen in de updatestroom en e-mailmelding ontvangen
+## Verbetering van prullenbak: opgenomen in de updatestroom en e-mailmelding ontvangen
 
 De volgende verbeteringen zijn toegevoegd bij het herstellen van verwijderde projecten, taken en problemen:
 
 * U ontvangt nu een e-mailbericht nadat u een object hebt teruggezet.\
-   Als Workfront-beheerder ontvangt u nu een e-mailbericht nadat u een project, taak of uitgave hebt hersteld die eerder is verwijderd. In het e-mailbericht wordt u geïnformeerd over de status van het herstelproces.\
-   Ga voor meer informatie over het herstellen van objecten in Workfront naar [Verwijderde items herstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Als Workfront-beheerder ontvangt u nu een e-mailbericht nadat u een project, taak of uitgave hebt hersteld die eerder is verwijderd. In het e-mailbericht wordt u geïnformeerd over de status van het herstelproces.\
+  Ga voor meer informatie over het herstellen van objecten in Workfront naar [Verwijderde items herstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * Wanneer het object is hersteld, wordt het verwijderen en herstellen van het object nu opgenomen in de updatestream van het object zelf en in de updatestream van het bovenliggende object.\
-   Eerder werd alleen de verwijdering opgenomen in de updatestream van het bovenliggende object.\
-   Wanneer de taak bijvoorbeeld is hersteld, wordt een bericht toegevoegd aan de updatestream van zowel het project als de taak zelf om aan te geven dat de taak is hersteld. (Verwijderen en herstellen worden niet opgenomen bij subtaken. Informatie over het verwijderen en herstellen van subtaken is alleen beschikbaar voor bovenliggende taken.)\
-   Zie voor meer informatie [Verwijderde items herstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Eerder werd alleen de verwijdering opgenomen in de updatestream van het bovenliggende object.\
+  Wanneer de taak bijvoorbeeld is hersteld, wordt een bericht toegevoegd aan de updatestream van zowel het project als de taak zelf om aan te geven dat de taak is hersteld. (Verwijderen en herstellen worden niet opgenomen bij subtaken. Informatie over het verwijderen en herstellen van subtaken is alleen beschikbaar voor bovenliggende taken.)\
+  Zie voor meer informatie [Verwijderde items herstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
  
 

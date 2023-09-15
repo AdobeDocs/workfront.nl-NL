@@ -6,9 +6,9 @@ description: Adobe Workfront verzendt e-mailmeldingen, meldingen in de app en me
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Workfront] stuurt een aantal e-mailmeldingen om gebruikers te waarschuwen voor activiteiten in Workfront en om nuttige informatie en koppelingen te verschaffen.
 
-Als u de voorkeuren voor e-mailberichten wilt wijzigen, raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Als u de voorkeuren voor uw e-mailberichten wilt wijzigen, raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ In de standaardstatus wordt aangegeven welke meldingen (dagelijks, direct of bei
 
 Voor een volledige lijst van de gebeurtenisberichten, en informatie over hoe zij op het systeemniveau, groepsniveau, of gebruikersniveau worden toegelaten en gevormd, zie [Gebeurtenismeldingen beschikbaar in [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Voor informatie over hoe u kunt kiezen welke gebeurtenismeldingen u wilt ontvangen, raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Ga voor informatie over hoe u kunt kiezen welke gebeurtenismeldingen u wilt ontvangen naar [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -85,13 +85,13 @@ Dagelijkse samenvattingse-mails voor de [!UICONTROL Communication] de categorie 
 
 De informatie wordt samengevat voor het voorwerp waar de mededeling voorkwam, en een totaal aantal communicatie berichten wordt getoond voor elk voorwerp.
 
-Voor meer informatie over het configureren van e-mailmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Zie voor meer informatie over het configureren van e-mailmeldingen [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Voor instructies over opmerkingen over [!UICONTROL Communication] e-mails, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor instructies over het plaatsen van opmerkingen op [!UICONTROL Communication] e-mails, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Meer informatie over [!UICONTROL Communication] e-mails, zie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Meer informatie over [!UICONTROL Communication] e-mails, zie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Voor meer informatie over het inschakelen van dagelijkse samenvattingsmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Zie voor meer informatie over het inschakelen van dagelijkse samenvattingsmeldingen [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Automatische herinneringen
 
@@ -140,25 +140,25 @@ U kunt selecteren welke e-mails u wilt ontvangen in de voorkeursinstellingen voo
 
 Er zijn andere e-mails die je ontvangt van [!DNL Workfront] die niet kunnen worden geconfigureerd. De volgende e-mails worden automatisch verzonden door [!DNL Workfront] wanneer aan deze voorwaarden is voldaan:
 
-* Een item herstellen: Wanneer de [!DNL Workfront] de beheerder herstelt een voorwerp van [!UICONTROL Recycle] Bak, er wordt een e-mail verzonden naar de [!DNL Workfront] beheerder.
-* Kan niet worden hersteld: Wanneer de [!DNL Workfront] beheerder probeert een object te herstellen vanuit de prullenbak en het terugzetten is mislukt. Er wordt een e-mail verzonden naar de [!DNL Workfront] beheerder.
+* Een item herstellen: wanneer de [!DNL Workfront] de beheerder herstelt een voorwerp van [!UICONTROL Recycle] Bak, er wordt een e-mail verzonden naar de [!DNL Workfront] beheerder.
+* Kan niet herstellen: Wanneer de [!DNL Workfront] beheerder probeert een object te herstellen vanuit de prullenbak en het terugzetten is mislukt. Er wordt een e-mail verzonden naar de [!DNL Workfront] beheerder.
 
 De volgende e-mails kunnen alleen op gebruikersprofielniveau worden geconfigureerd. Ze kunnen niet worden in- of uitgeschakeld op systeemniveau:
 
-* Voltooiing van de persoonlijke taak: wanneer een persoonlijke taak die u aan iemand anders hebt toegewezen, is voltooid, ontvangt u een e-mail.
-* Opmerking toegevoegd aan gebruiker: als iemand opmerkingen maakt over uw gebruikersprofiel, ontvangt u een e-mail.
+* Voltooiing van persoonlijke taak: wanneer een persoonlijke taak die u aan iemand anders hebt toegewezen, is voltooid, ontvangt u een e-mail.
+* Opmerking toegevoegd aan gebruiker: wanneer iemand opmerkingen maakt over uw gebruikersprofiel, ontvangt u een e-mail.
 
 ## Meldingen in apps
 
 U kunt meldingen ontvangen in het dialoogvenster [!DNL Workfront] webtoepassing, wanneer bepaalde gebeurtenissen plaatsvinden.
 
-Voor meer informatie over meldingen in de app raadpleegt u [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Zie voor meer informatie over meldingen in de app [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## E-mailmeldingen in de mobiele e-mailtoepassing
 
 U kunt [!DNL Workfront] e-mailmeldingen in uw mobiele e-mailtoepassing, op uw mobiele apparaat.
 
-Als u de [!DNL Workfront] Mobiele toepassing geïnstalleerd op uw telefoon. Als u op de koppelingen in de e-mail tikt, worden deze geopend in het dialoogvenster [!DNL Workfront] Mobiele app. U kunt bijvoorbeeld op een van de volgende actieknoppen tikken:
+Als u de [!DNL Workfront] De mobiele toepassing die op uw telefoon is geïnstalleerd, en die op de verbindingen in e-mail tikt opent hen in [!DNL Workfront] Mobiele app. U kunt bijvoorbeeld op een van de volgende actieknoppen tikken:
 
 * [!UICONTROL Work On It]
 * [!UICONTROL Comment]

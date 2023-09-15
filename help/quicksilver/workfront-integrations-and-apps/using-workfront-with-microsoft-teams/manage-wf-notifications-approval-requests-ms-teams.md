@@ -6,9 +6,9 @@ description: U kunt meldingen ontvangen van [!DNL Adobe Workfront] over items di
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Deze meldingen bevatten [!DNL Workfront] acties die u kunt uitvoeren binnen [!DN
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet langer [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
 
 
 ## Toegangsvereisten
@@ -51,7 +51,7 @@ U kunt [!DNL Workfront] meldingen in [!DNL Microsoft Teams] indien aan de volgen
 
 * Een teameigenaar heeft geïnstalleerd en geconfigureerd [!DNL Workfront for Microsoft Teams] voor uw team.
 * U bent aangemeld [!DNL Workfront] van [!DNL Microsoft Teams].
-* U hebt directe meldingen ingeschakeld in [!DNL Workfront]. Voor informatie over het inschakelen van instant notifications raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* U hebt directe meldingen ingeschakeld in [!DNL Workfront]. Voor informatie over het inschakelen van instant notifications raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Voor informatie over installeren [!DNL Workfront for Microsoft Teams] en aanmelden bij [!DNL Workfront from Microsoft Teams], zie [Installeren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -62,9 +62,9 @@ Wanneer de [!DNL Workfront for Microsoft Teams] app is geïnstalleerd, een [!DNL
 Houd rekening met het volgende wanneer u werkt met [!DNL Workfront] meldingen van [!DNL Microsoft Teams]:
 
 * U kunt niet allen ontvangen, maar slechts een geselecteerd aantal van [!DNL Workfront] meldingen in [!DNL Microsoft Teams].
-* Alle meldingen die u ontvangt van [!DNL Workfront] in het dialoogvenster [!DNL Workfront] bot chatten kanaal.
+* Alle meldingen die u ontvangt van [!DNL Workfront] worden weergegeven in de [!DNL Workfront] bot chatten kanaal.
 
-   Voor informatie over het installeren van de [!DNL Workfront] beide kanalen, zie [Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) sectie in [Installeren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) artikel.
+  Voor informatie over het installeren van de [!DNL Workfront] beide kanalen, zie [Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) sectie in [Installeren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) artikel.
 
 * Er kan een vertraging van maximaal 5 minuten zijn tussen het tijdstip waarop een update wordt uitgevoerd [!DNL Workfront] en wanneer u hierover een melding ontvangt in [!DNL Microsoft Teams].
 * Voor elke [!DNL Microsoft Teams] bericht, u ontvangt ook een e-mailbericht.
@@ -74,7 +74,7 @@ Om het [!DNL Workfront] meldingen die u kunt ontvangen in [!DNL Microsoft Teams]
 1. Klik op de knop **[!UICONTROL More added]** (driepuntpictogram) op de linkernavigatiebalk in [!DNL Microsoft Teams].
 
 1. Klikken [!DNL Workfront] in de lijst die wordt weergegeven.
-1. Selecteer **[!UICONTROL Settings]** tab.
+1. Selecteer de **[!UICONTROL Settings]** tab.
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -93,7 +93,7 @@ Om het [!DNL Workfront] meldingen die u kunt ontvangen in [!DNL Microsoft Teams]
 1. Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams].\
    Voor informatie over aanmelden bij [!DNL Workfront], zie [Installeren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Ga naar de **[!UICONTROL Chat]** en klik op de knop **[!DNL Workfront]** beide kanalen.\
+1. Ga naar de **[!UICONTROL Chat]** en klik op **[!DNL Workfront]** beide kanalen.\
    Dit kanaal is bedoeld voor uw persoonlijke chat met de [!DNL Workfront] bot. Alles [!DNL Workfront] hier worden meldingen weergegeven.
 1. Afhankelijk van het type kennisgeving dat u ontvangt, gaat u verder naar de desbetreffende sectie:
 
@@ -250,9 +250,9 @@ U ontvangt toewijzingsmeldingen wanneer u, of een team dat u hebt ingeschakeld, 
 
 * **[!UICONTROL Work on it]**: Selecteer deze optie om aan het item te werken. Een bericht wordt kort weergegeven om te bevestigen dat een nieuw onderdeel aan uw werklijst is toegevoegd.
 * **[!UICONTROL View in [!DNL Workfront]]**: Selecteer deze optie om de toegewezen uitgave of taak in Workfront weer te geven. Er wordt dan een nieuw tabblad geopend.
-* **[!UICONTROL Start]**: Klik om het werk aan het punt te beginnen. Een bericht wordt kort weergegeven om te bevestigen dat een nieuw onderdeel aan uw werklijst is toegevoegd.
+* **[!UICONTROL Start]**: Klik om aan het item te werken. Een bericht wordt kort weergegeven om te bevestigen dat een nieuw onderdeel aan uw werklijst is toegevoegd.
 * **[!UICONTROL Comment]**: Klik om een opmerking over het item te maken. Uw opmerking wordt ook weergegeven in de updatestream van het item in Workfront.
-* **[!UICONTROL Status]**: Klik, selecteer dan de nieuwe status voor het het werkpunt van het drop-down menu.
+* **[!UICONTROL Status]**: Klik en selecteer vervolgens de nieuwe status voor het werkitem in het keuzemenu.
 
 #### Handelingen beschikbaar voor specifieke toewijzingsmeldingen:
 
@@ -368,7 +368,7 @@ Je ontvangt een bericht als er een update is van een object waaraan je bent geko
 
 * **[!UICONTROL Reply]**: Klik om te reageren op de [!UICONTROL update]. Uw antwoord wordt ook weergegeven in de updatestream van het item in Workfront.
 * **Weergeven in Workfront**: Selecteer deze optie om de opmerking en het item in Workfront weer te geven. Dit item wordt op een nieuw tabblad geopend.
-* **[!UICONTROL Status]**: Klik, selecteer dan de nieuwe status voor het punt van het drop-down menu.
+* **[!UICONTROL Status]**: Klik en selecteer vervolgens de nieuwe status voor het item in het keuzemenu.
 
 #### Beschikbare acties op het gebied van specifieke kennisgevingen van informatie:
 
@@ -385,7 +385,7 @@ Je ontvangt een bericht als er een update is van een object waaraan je bent geko
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Er wordt een update uitgevoerd voor een taak, uitgave of project waarop u bent geabonneerd</td> 
+   <td role="rowheader">Er wordt een update uitgevoerd voor een taak, uitgave of project waarop u een abonnement hebt</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -407,7 +407,7 @@ Je ontvangt een bericht als er een update is van een object waaraan je bent geko
 U ontvangt een melding over een datumwijziging wanneer de datum verandert in een tijdelijk onderdeel waaraan u bent toegewezen. Vanaf het datumwijzigingsbericht kunt u de volgende handelingen uitvoeren.
 
 * **[!UICONTROL Comment]**: Klik om een opmerking over het item te maken. Uw opmerking wordt ook weergegeven in de updatestream van het item in Workfront.
-* **[!UICONTROL Status]**: Klik, selecteer dan de nieuwe status voor het het werkpunt van het drop-down menu.
+* **[!UICONTROL Status]**: Klik en selecteer vervolgens de nieuwe status voor het werkitem in het keuzemenu.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -422,7 +422,7 @@ U ontvangt een melding over een datumwijziging wanneer de datum verandert in een
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">De wijzigingen op de vervaldatum worden toegepast op een taak die u toewijst aan</td> 
+   <td role="rowheader">De wijzigingen op de vervaldatum in een taak die u toewijst aan</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

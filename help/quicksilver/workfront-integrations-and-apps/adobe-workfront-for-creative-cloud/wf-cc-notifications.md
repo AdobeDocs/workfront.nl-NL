@@ -5,9 +5,9 @@ title: Weergeven en beheren [!DNL Adobe Workfront] meldingen in Adobe Creative C
 description: U kunt meldingen in de Adobe Creative Cloud ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
 
 {{cc-install-prereq}}
 
-* U hebt directe meldingen ingeschakeld in [!DNL Workfront]. Voor informatie over het inschakelen van instant notifications raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* U hebt directe meldingen ingeschakeld in [!DNL Workfront]. Voor informatie over het inschakelen van instant notifications raadpleegt u [Uw eigen e-mailmeldingen wijzigen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Weergeven en beheren [!DNL Workfront] meldingen in Adobe Creative Cloud
 
@@ -73,7 +73,7 @@ De volgende meldingen zijn beschikbaar in de plug-in:
 * Iemand heeft uw team opgenomen in een geleide update (@teamname)
 * Iemand heeft commentaar gegeven op uw gebruikersprofiel
 * Iemand heeft opmerkingen gemaakt over een update waarin u bent opgenomen
-* Iemand heeft commentaar gegeven op je object of iets wat je hebt gedaan
+* Iemand heeft commentaar gegeven op je werkobject of iets wat je hebt gedaan
 * Uw document is goedgekeurd/goedgekeurd met wijzigingen/afgewezen
 
 

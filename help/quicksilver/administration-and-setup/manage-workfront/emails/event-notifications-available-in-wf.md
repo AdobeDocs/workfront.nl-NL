@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '5008'
+source-wordcount: '5006'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Deze meldingen kunnen op systeem- en groepsniveau worden geconfigureerd:
 * Voor informatie over het configureren van gebeurtenismeldingen op systeemniveau raadpleegt u [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * Voor informatie over het configureren van gebeurtenismeldingen op groepsniveau raadpleegt u [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Individuele gebruikers kunnen hun individuele gebeurtenismeldingen ook in hun afzonderlijke profiel activeren en deactiveren. Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Individuele gebruikers kunnen hun individuele gebeurtenismeldingen ook in hun afzonderlijke profiel activeren en deactiveren. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 In de volgende tabellen staan alle Adobe Workfront-gebeurtenismeldingen, een korte beschrijving van de gebeurtenis en of de gebeurtenis standaard actief of inactief is.
 
@@ -60,7 +60,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document in afwachting van goedkeuring aan fiatteurs</p> </td> 
+   <td> <p>Document ter goedkeuring aan fiatteurs</p> </td> 
    <td> <p>Ik moet een document goedkeuren.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
@@ -133,13 +133,13 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
   <tr> 
    <td> <p>Toewijzing</p> </td> 
    <td> <p>Aanvraag voor werkitem naar team</p> </td> 
-   <td> <p>Mijn team krijgt een nieuwe werkaanvraag.</p> <p>De Leden van het team ontvangen een e-mailbericht wanneer het team een nieuw het werkverzoek ontvangt. (De gebruiker die het verzoek heeft ingediend, ontvangt geen melding als hij of zij lid is van het team.)</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment dat het werkverzoek wordt gedaan en de status van het werkverzoek Nieuw is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Mijn team krijgt een nieuwe werkaanvraag.</p> <p>De Leden van het team ontvangen een e-mailbericht wanneer het team een nieuw het werkverzoek ontvangt. (De gebruiker die het verzoek heeft ingediend, ontvangt geen melding als hij of zij lid is van het team.)</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment dat het werkverzoek wordt gedaan en de status Werkverzoek Nieuw is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Toewijzing</p> </td> 
    <td> <p>Aanvraag voor tijdelijk item om te werken aan toegewezen persoon</p> </td> 
-   <td> <p>Ik krijg een nieuw verzoek om werk.</p> <p>De ontvanger van het werkitem ontvangt een e-mailbericht, tenzij de gebruiker die het verzoek indient ook de ontvanger is. </p> <p>Er wordt geen melding verzonden als de taakstatus Voltooid is of als de uitgiftestatus Gesloten is.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment van de aanvraag.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Ik krijg een nieuw verzoek om werk.</p> <p>De ontvanger van het werkitem ontvangt een e-mailbericht, tenzij de gebruiker die het verzoek indient ook de ontvanger is. </p> <p>Er wordt geen melding verzonden als de taakstatus Voltooid is of als de uitgiftestatus is gesloten.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment van de aanvraag.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
  </tbody> 
@@ -147,7 +147,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
 
 ## Verzoeken die ik heb ingediend
 
-Zie ook [Meldingen: Verzoeken die ik heb ingediend](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Zie ook [Meldingen: verzoeken die ik heb ingediend](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -172,7 +172,7 @@ Zie ook [Meldingen: Verzoeken die ik heb ingediend](../../../workfront-basics/us
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Documentaanvraag voltooid voor aanvrager</p> </td> 
-   <td> <p>Er is voldaan aan een aanvraag voor het uploaden van documenten.</p> <p>De aanvrager van het document ontvangt een e-mailbericht wanneer aan een aanvraag voor het uploaden van een document is voldaan.</p> </td> 
+   <td> <p>Er is voldaan aan een aanvraag voor het uploaden van documenten.</p> <p>De aanvrager van het document ontvangt een e-mailbericht wanneer een aanvraag om een document te uploaden is voldaan.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/
   <tr> 
    <td> <p>Team</p> </td> 
    <td> <p>Directe update naar team</p> </td> 
-   <td> <p>Iemand neemt mijn team op een geleide update.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a>.</p> <p>In dit geval ontvangt elk lid van het team dat is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden naar gebruikers die toegangsrechten hebben voor het object van de update.</p> <p>Als de gebruiker die de gestuurde update verzendt lid is van het team dat wordt opgenomen, ontvangt de gebruiker die de update verzendt geen e-mailbericht.</p> </td> 
+   <td> <p>Iemand neemt mijn team op een geleide update op.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a>.</p> <p>In dit geval ontvangt elk lid van het team dat is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden naar gebruikers die toegangsrechten hebben voor het object van de update.</p> <p>Als de gebruiker die de gestuurde update verzendt lid is van het team dat wordt opgenomen, ontvangt de gebruiker die de update verzendt geen e-mailbericht.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
@@ -315,7 +315,7 @@ Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/
 
 ## Goedkeuringsinformatie
 
-Zie ook [Meldingen: Goedkeuringsinformatie](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+Zie ook [Meldingen: goedkeuringsgegevens](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -340,7 +340,7 @@ Zie ook [Meldingen: Goedkeuringsinformatie](../../../workfront-basics/using-noti
   <tr> 
    <td> <p>Probleem</p> </td> 
    <td> <p>Wijziging van goedkeuringsstatus van gedelegeerde afgifte</p> </td> 
-   <td> <p>Er is een verzoek tot goedkeuring van een gedelegeerde uitgave voltooid. </p> <p>Wanneer u een afgiftegoedkeuring aan iemand anders delegeert, ontvangt u een e-mailbericht wanneer deze de goedkeuring heeft voltooid (of zij de goedkeuring van de uitgave goedkeuren of verwerpen). </p> </td> 
+   <td> <p>Een verzoek tot goedkeuring van een gedelegeerde uitgave is voltooid. </p> <p>Wanneer u een afgiftegoedkeuring aan iemand anders delegeert, ontvangt u een e-mailbericht wanneer deze de goedkeuring heeft voltooid (of zij de goedkeuring van de uitgave goedkeuren of verwerpen). </p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
@@ -409,7 +409,7 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
   <tr> 
    <td> <p>Taak</p> </td> 
    <td> <p>Goedkeuringsbesluit voor taak toegewezen aan</p> </td> 
-   <td> <p>Een taak die ik heb voltooid, wordt goedgekeurd of afgewezen.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak wordt goedgekeurd of afgewezen.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een taak die ik heb voltooid, wordt goedgekeurd of verworpen.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak wordt goedgekeurd of afgewezen.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -470,7 +470,7 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
 
 ## Informatie over projecten die ik op
 
-Zie ook [Meldingen: Informatie over projecten die ik op](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Zie ook [Meldingen: Informatie over projecten waar ik op sta](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -519,7 +519,7 @@ Zie ook [Meldingen: Informatie over projecten die ik op](../../../workfront-basi
   <tr> 
    <td> <p>Project</p> </td> 
    <td> <p>Voltooiing van project voor projectteam</p> </td> 
-   <td> <p>Een project dat ik heb, is voltooid.</p> <p>De gebruikers op een projectteam ontvangen een e-mailbericht wanneer de projectstatus Voltooid is.</p> <p>Tip: Als projecten regelmatig worden voltooid, kan het toelaten van deze optie tot veel e-mail voor gebruikers leiden die een beperkt aantal taken op vele projecten hebben. </p> </td> 
+   <td> <p>Een project dat ik heb, is voltooid.</p> <p>De gebruikers op een projectteam ontvangen een e-mailbericht wanneer de projectstatus Voltooid is.</p> <p>Tip: als projecten regelmatig worden voltooid, kan het inschakelen van deze optie veel e-mail maken voor gebruikers die een beperkt aantal taken voor veel projecten hebben. </p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -582,19 +582,19 @@ Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-b
   <tr> 
    <td> <p>Probleem</p> </td> 
    <td> <p>Datum van uitgave vastleggen wijzigen in projecteigenaar</p> </td> 
-   <td> <p>De datum van het vastleggen verandert voor een kwestie over één van mijn projecten.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer de Datum van het Vastleggen voor een kwestie op het project verandert, tenzij de gebruiker die de Datum van het Vastleggen verandert de zelfde gebruiker is zoals de Eigenaar van het Project.</p> </td> 
+   <td> <p>De datum van het vastleggen verandert voor een kwestie over één van mijn projecten.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer de Datum van het Vastleggen voor een kwestie op het project verandert, tenzij de gebruiker die de Datum verandert van het Vastleggen de zelfde gebruiker is zoals de Eigenaar van het Project.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Probleem</p> </td> 
    <td> <p>Voltooiing van probleem aan projecteigenaar</p> </td> 
-   <td> <p>Een kwestie wordt voltooid over een project dat ik bezit.</p> <p>De eigenaar van het project ontvangt een e-mailbericht.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Er is een probleem met een project dat ik heb.</p> <p>De eigenaar van het project ontvangt een e-mailbericht.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak</p> </td> 
    <td> <p>Mijlpaal taak Voltooien naar projecteigenaar</p> </td> 
-   <td> <p>Een mijlpaal is een project dat ik heb.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> </td> 
+   <td> <p>Een mijlpalettaak is voltooid voor een project dat ik heb.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -617,7 +617,7 @@ Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-b
   </tr> 
   <tr> 
    <td> <p>Taak</p> </td> 
-   <td> <p>Taak Voltooien aan de Eigenaar van het Project</p> </td> 
+   <td> <p>Taak Voltooien naar projecteigenaar</p> </td> 
    <td> <p>Een taak is voltooid voor een project dat ik bezit.</p> <p>De eigenaar van het project ontvangt een kennisgeving. </p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
@@ -638,7 +638,7 @@ Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-b
 
 ## Informatie over door mij gefinancierde projecten
 
-Zie ook [Meldingen: Informatie over door mij gefinancierde projecten](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+Zie ook [Meldingen: Informatie over projecten die ik financier](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -687,7 +687,7 @@ Zie ook [Meldingen: Informatie over door mij gefinancierde projecten](../../../w
   <tr> 
    <td> <p>Project</p> </td> 
    <td> <p>Projectsponsor toewijzen aan projectsponsor</p> </td> 
-   <td> <p>Ik ben de sponsor van een project.</p> <p>De projectsponsor ontvangt een e-mailkennisgeving wanneer deze wordt ingesteld als de sponsor van een project.</p> </td> 
+   <td> <p>Ik ben ingesteld als sponsor van een project.</p> <p>De projectsponsor ontvangt een e-mailkennisgeving wanneer deze wordt ingesteld als de sponsor van een project.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -713,7 +713,7 @@ Zie ook [Meldingen: Informatie over door mij gefinancierde projecten](../../../w
 
 ## Overige informatie
 
-Zie ook [Meldingen: Overige informatie](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Zie ook [Meldingen: Diverse informatie](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -757,7 +757,7 @@ Zie ook [Meldingen: Overige informatie](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Gebruiker</p> </td> 
    <td> <p>Nieuwe gebruiker aan Gebruiker</p> </td> 
-   <td> <p>Verzend de gebruiker via e-mail wanneer een nieuwe gebruiker in Workfront wordt gemaakt.</p> <p>Nadat de nieuwe gebruiker is gemaakt, ontvangt de gebruiker een e-mailuitnodiging, waarin hij of zij aangeeft dat een Workfront-account is gemaakt en waarin hij of zij wordt gevraagd hun wachtwoord in te stellen.</p> <p>Wanneer gebruikers een nieuwe gebruiker maken, kunnen ze de optie "E-mail voor een uitnodiging naar deze persoon verzenden" selecteren (zoals beschreven in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a><span style="font-weight: 400;">). Wanneer de optie Nieuwe gebruiker naar gebruiker echter is ingeschakeld, ontvangen alle nieuwe gebruikers de e-mailuitnodiging, ongeacht of de optie "E-mailuitnodiging verzenden naar deze persoon" is geselecteerd.</span></p> </td> 
+   <td> <p>Als er een nieuwe gebruiker in Workfront wordt gemaakt, stuurt u een e-mail naar de gebruiker.</p> <p>Nadat de nieuwe gebruiker is gemaakt, ontvangt de gebruiker een e-mailuitnodiging, waarin hij of zij aangeeft dat een Workfront-account is gemaakt en waarin hij of zij wordt gevraagd hun wachtwoord in te stellen.</p> <p>Wanneer gebruikers een nieuwe gebruiker maken, kunnen ze de optie "E-mail voor een uitnodiging naar deze persoon verzenden" selecteren (zoals beschreven in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a><span style="font-weight: 400;">). Wanneer de optie Nieuwe gebruiker naar gebruiker echter is ingeschakeld, ontvangen alle nieuwe gebruikers de e-mailuitnodiging, ongeacht of de optie "E-mailuitnodiging verzenden naar deze persoon" is geselecteerd.</span></p> </td> 
    <td> Inactief </td> 
   </tr> 
   <tr> 
@@ -786,7 +786,7 @@ Zie ook [Meldingen: Overige informatie](../../../workfront-basics/using-notifica
   </tr> 
   <tr> 
    <td> <p>Taak</p> </td> 
-   <td> <p>Taak toewijzen aan Resource Owner</p> </td> 
+   <td> <p>Taaktoewijzing aan Resource Owner</p> </td> 
    <td> <p>Een wijziging in de taaktoewijzing is van invloed op een van mijn mensen.</p> <p>De manager van de Taak van de Ontvanger ontvangt een e-mailbericht.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
@@ -815,5 +815,5 @@ Zie ook [Meldingen: Delegatie](../../../workfront-basics/using-notifications/not
 |------------------|---------------------------------------------|--------------------------------------------------------------|---------------|
 | Taken en problemen | Taak en delegatie aan de verkrijger | Ik delegeer mijn taken en problemen (bevestiging) | Actief |
 | Taken en problemen | Taak beëindigen en delegatie aan de toegewezen persoon afgeven | Ik stop de delegatie van mijn taken en kwesties (bevestiging) | Actief |
-| Taken en problemen | Taak en afgifte van delegatie | Iemand delegeert zijn taken en kwesties aan mij | Actief |
+| Taken en problemen | Taak en afgifte van delegatie aan gedelegeerde | Iemand delegeert zijn taken en kwesties aan mij | Actief |
 | Taken en problemen | Taken stoppen en delegeren aan gedelegeerde personen afgeven | Iemand stopt de delegatie van zijn taken en kwesties aan mij | Actief |

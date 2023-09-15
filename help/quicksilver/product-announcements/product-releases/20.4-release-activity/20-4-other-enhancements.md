@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van beheerde
 
 We brengen enkele wijzigingen aan om de kracht van data-in-motion-codering van de Workfront Proofing-toepassing te verbeteren. De zwakke TLS-krakers worden op 11 november 2020 afgekeurd.
 
-Zorg ervoor dat u een ondersteunde browser gebruikt wanneer u Workfront opent. Voor meer informatie over ondersteunde browsers raadpleegt u [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).
+Zorg ervoor dat u een ondersteunde browser gebruikt wanneer u Workfront opent. Zie voor meer informatie over ondersteunde browsers [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).
 
 ## Nieuwe vormgeving voor 3 e-mailsjablonen
 
@@ -42,18 +42,18 @@ De volgende e-mailsjablonen hebben een nieuw uiterlijk om de leesbaarheid en de 
 * Een afhankelijke taak waaraan u bent toegewezen, is nu klaar om te beginnen
 * E-mailmelding voor team met vorige gebruiker voltooid
 
-Als u e-mail wilt inschakelen voor testdoeleinden in uw voorvertoningsomgeving, raadpleegt u de sectie E-mailbeheer in de voorbeeldsectie in [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Als u e-mail wilt inschakelen voor testdoeleinden in uw voorvertoningsomgeving, raadpleegt u de sectie E-mailbeheer in de voorbeeldsectie in [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Nieuwe e-mailmeldingen voor teams
 
 De volgende e-mailmelding voor teams is toegevoegd:
 
-* Een voorganger van een taak die aan mijn team wordt toegewezen wordt voltooid: Het toegewezen team ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken als voltooid is gemarkeerd.
-* Alle predecessors van een taak die aan mijn team wordt toegewezen worden voltooid: Het toegewezen team ontvangt een e-mailbericht voor elke voorganger die als voltooid is gemarkeerd.
+* Een voorganger van een taak die aan mijn team wordt toegewezen wordt voltooid: Het toegewezen team ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken is gemarkeerd als voltooid.
+* Alle voorgangers van een taak die aan mijn team is toegewezen, worden voltooid: het toegewezen team ontvangt een e-mailbericht voor elke voorganger die als voltooid is gemarkeerd.
 
 Zie voor meer informatie [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
-## Nieuw voor beheerders: Verbeteringen voor e-mailmeldingen
+## Nieuw voor beheerders: verbeteringen voor e-mailmeldingen
 
 Nu, met één enkele klik, kunt u een gebeurtenis e-mailbericht in Opstelling toelaten of onbruikbaar maken. Klik op de aan/uit-schakelaar naast de naam van het bericht.
 
@@ -63,7 +63,7 @@ Voor informatie over het configureren van e-mailmeldingen raadpleegt u [Gebeurte
 
 Deze functie is nu opgenomen in het dialoogvenster [Leerpad voor e-mail- en in-app-meldingen](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) op Workfront One.
 
-## Nieuwe API-objecten die updates voor gebeurtenisabonnementen activeren
+## Nieuwe API-objecten die updates voor abonnementen voor gebeurtenissen activeren
 
 Er zijn twee nieuwe API-objecten, documentVersion en proofApproval, gemaakt en geconfigureerd om abonnementsupdates voor gebeurtenissen te activeren wanneer een document wordt versioneerd of goedgekeurd.
 

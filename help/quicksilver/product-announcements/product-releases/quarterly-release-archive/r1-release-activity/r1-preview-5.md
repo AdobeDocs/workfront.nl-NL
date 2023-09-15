@@ -6,9 +6,9 @@ description: Deze pagina beschrijft alle veranderingen beschikbaar in het milieu
 author: Luke
 feature: Product Announcements
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Voor meer informatie over het vormen rapporten om de nieuwe grafiek van Gantt te
 
 Voor meer informatie over het bekijken van de grafiek van Gantt in projectrapporten en taakrapporten, zie [Informatie weergeven in de Gantt-grafiek](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot; in [Informatie weergeven in de Gantt-grafiek](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-## Verbetering van prullenbak: Taken en subtaken worden teruggezet naar de vorige volgorde
+## Verbetering van prullenbak: taken en subtaken worden in de vorige volgorde hersteld
 
 Wanneer u nu een taak of subtaak herstelt nadat deze is verwijderd, wordt de taak of subtaak weer op de vorige locatie teruggezet (in de takenlijst of onder de bovenliggende taak), in dezelfde volgorde als voordat deze werd verwijderd.
 
@@ -58,10 +58,10 @@ Ga voor meer informatie over het herstellen van objecten in Workfront naar [Verw
 De volgende verbeteringen zijn nu beschikbaar wanneer u een projectlijst of projectrapport weergeeft in de Mijlsteenweergave:
 
 * **Vorm of de Status van de Voortgang en de Volgorde van de Procent in de mening worden getoond:** Er is een nieuwe optie waarmee u kunt configureren of de pictogrammen voor de Voortgangsstatus worden weergegeven in de Mijlsteenweergave. Bovendien kunt u ook configureren of de gegevens Percent Complete worden weergegeven met betrekking tot projecten en taken.\
-   Zie voor meer informatie [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+  Zie voor meer informatie [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **Bewerk het volledige percentage rechtstreeks vanuit de Mijlsteenweergave:** Nu kunt u de Percentage van Voltooiing van projecten en taken direct van de mening van de Mijlpaal uitgeven.\
-   Zie voor meer informatie [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+  Zie voor meer informatie [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## De bijgewerkte look and Feel van verscheidene Pagina&#39;s van de Opstelling van het Systeem
 
@@ -83,22 +83,22 @@ De organisatiekoppen van de gebeurtenismeldingen in het gedeelte E-mailinstellin
 
 Zie voor meer informatie over gebeurtenismeldingen  [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-## Onmiddellijke meldingen uitschakelen: Configuratie in contextoverzicht
+## Onmiddellijke meldingen uitschakelen: configuratie in contextoverzicht
 
 De volgende opties zijn nu beschikbaar in directe e-mailmeldingen. Deze opties zijn alleen beschikbaar voor expresmeldingen die ook een dagelijkse tegenhanger voor de controlesamenvatting hebben:
 
-* &quot;Voeg dit aan een Dagelijkse Samenvatting toe&quot;
+* &quot;Dit toevoegen aan een dagelijkse samenvatting&quot;
 * &quot;E-mails van dit type stoppen&quot;
 
 Nu, wanneer u een onmiddellijk e-mailbericht ontvangt, kunt u of dat bericht aan een dagelijks samenvattingsbericht toevoegen, of u kunt van dat bericht volledig afmelden.
 
-Deze opties zijn beschikbaar in het e-mailbericht. Voor meer informatie over het ontvangen van e-mailberichten raadpleegt u [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md)
+Deze opties zijn beschikbaar in het e-mailbericht. Zie voor meer informatie over het ontvangen van e-mailmeldingen [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
-## Verschillende e-mailmeldingen zijn verplaatst van de sectie &quot;Actie vereist&quot; naar andere projectgerelateerde secties
+## Verschillende e-mailmeldingen zijn verplaatst van de sectie Actie vereist naar andere projectgerelateerde secties
 
 Verschillende meldingen zijn verplaatst van de sectie &quot;Actie vereist&quot; van de gebruikersprofielpagina naar andere secties, als volgt:
 
-Voor meer informatie over het configureren van e-mailmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+Zie voor meer informatie over het configureren van e-mailmeldingen [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,17 +171,21 @@ Voor meer informatie over het configureren van e-mailmeldingen raadpleegt u [Uw 
 De volgende wijzigingen zijn toegevoegd ter ondersteuning van de toekomstige functionaliteit voor bronnenplanning:
 
 * Het huidige lusje &quot;van de Planning van het Middel&quot;is anders genoemd aan &quot;Verouderde Planning van het Middel&quot;in het gebied van Mensen. 
-* Er is een nieuw tabblad &quot;Resource Planning&quot; geïntroduceerd in het gebied Mensen waar de nieuwe functionaliteit wordt ontwikkeld.\
-   Voor meer informatie over het nieuwe lusje van de Planning van het Middel, zie [Aan de slag met bronnenplanning](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+* Er is een nieuw tabblad &quot;Resource Planning&quot; geïntroduceerd in het gebied Personen waar de nieuwe functionaliteit wordt ontwikkeld.\
+  Voor meer informatie over het nieuwe lusje van de Planning van het Middel, zie [Aan de slag met bronnenplanning](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * Het huidige &quot;Resource Pool&quot;-object is hernoemd naar &quot;Legacy Resource Pool&quot;.\
-   Voor meer informatie over het creëren van de nieuwe op gebruiker-gebaseerde Groepen van het Middel, zie [Overzicht van bronnenpools](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  Voor meer informatie over het creëren van de nieuwe op gebruiker-gebaseerde Groepen van het Middel, zie [Overzicht van bronnenpools](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * Er is een nieuw &quot;Resource Pool&quot;-object gemaakt ter ondersteuning van de nieuwe (op gebruikers gebaseerde) bronnenpools.
 
-   >[!NOTE]
-   * Als u momenteel rapporten over de bestaande Groepen van het Middel van de Oudheid in werking stelt, zullen de bestaande rapporten niet veranderen.
-   * Als u een nieuw rapport voor de bestaande (baan op rol-gebaseerde) Groepen van het Middel van de Oudheid wilt tot stand brengen, zult u &quot;Oudere Groepen van het Middel van het Middel&quot;als uw voorwerp voor het rapport moeten selecteren.
-   * Als u een nieuw rapport voor de nieuwe (op gebruiker-gebaseerde) Groepen van het Middel wilt tot stand brengen, zult u &quot;Groepen van het Middel&quot;als uw voorwerp voor het rapport moeten selecteren.
-
+  >[!NOTE]
+  >
+  >
   >   
+  >   
+  * Als u momenteel rapporten over de bestaande Groepen van het Middel van de Oudheid in werking stelt, zullen de bestaande rapporten niet veranderen.
+  * Als u een nieuw rapport voor de bestaande (baan op rol-gebaseerde) Groepen van het Middel van de Oudheid wilt tot stand brengen, zult u &quot;Oudere Groepen van het Middel van het Middel&quot;als uw voorwerp voor het rapport moeten selecteren.
+  * Als u een nieuw rapport voor de nieuwe (op gebruiker-gebaseerde) Groepen van het Middel wilt tot stand brengen, zult u &quot;Groepen van het Middel&quot;als uw voorwerp voor het rapport moeten selecteren.
+  >   
+  >

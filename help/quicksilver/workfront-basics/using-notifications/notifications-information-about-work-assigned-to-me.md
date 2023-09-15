@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Meldingen: Informatie over werk dat aan mij is toegewezen"
+title: 'Meldingen: Informatie over werk dat aan mij is toegewezen'
 description: In de volgende meldingen wordt u gewaarschuwd voor activiteiten die plaatsvinden op een werkitem dat aan u is toegewezen.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 901605917347297a1ee077f00905b03427582650
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In de volgende meldingen wordt u gewaarschuwd voor activiteiten die plaatsvinden op een werkitem dat aan u is toegewezen.
 
-Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -35,12 +35,12 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
  <tbody>
   <tr> 
    <td> <p><strong>Een voorganger van een taak die aan mijn team wordt toegewezen wordt voltooid</strong> </p> <p>Het toegewezen team ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken is voltooid. </p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>Voltooid: &lt;task name=""&gt;</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
-   <td> <p>Naam van vorige taak<br>Predecessor Taakproject<br>Referentienummer vorige taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de vorige taak<br><strong>Meer informatie</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide voorgangers<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </p> </td> 
+   <td> <p>Naam van vorige taak<br>Predecessor Taakproject<br>Referentienummer vorige taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de voorgangstaak<br><strong>Meer informatie</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide voorgangers<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </p> </td> 
    <td><strong>Dagelijks</strong> </td>
   </tr>
   <tr> 
    <td> <p><strong>Een voorganger van een van mijn taken is voltooid</strong> </p> <p>De toegewezen taak ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken is voltooid. </p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Complete]: &lt;task name=""&gt;</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
-   <td> <p>Naam van vorige taak<br>Predecessor Taakproject<br>Referentienummer vorige taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de vorige taak<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide voorgangers<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </p> </td> 
+   <td> <p>Naam van vorige taak<br>Predecessor Taakproject<br>Referentienummer vorige taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de voorgangstaak<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide voorgangers<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </p> </td> 
    <td><strong>Dagelijks</strong> </td> 
   </tr> 
   <!--
@@ -56,13 +56,13 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td><strong>Dagelijks</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p id="a-task-i-m-assigned-to-is-completed"><strong>Een taak waaraan ik ben toegewezen, is voltooid</strong> </p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak is voltooid.</p> <p>Een kennisgeving wordt alleen verzonden als de projectstatus [!UICONTROL Current].</p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Complete]: &lt;task name=""&gt; op &lt;project name=""&gt;</em></p> <p> <p>Opmerking: Als de taak is gewijzigd in een status die overeenkomt met [!UICONTROL Complete]In het onderwerp van de e-mail staat nog steeds ''Voltooid''.</p> </p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p id="a-task-i-m-assigned-to-is-completed"><strong>Een taak waaraan ik ben toegewezen, is voltooid</strong> </p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak is voltooid.</p> <p>Een kennisgeving wordt alleen verzonden als de projectstatus [!UICONTROL Current].</p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Complete]: &lt;task name=""&gt; op &lt;project name=""&gt;</em></p> <p> <p>Opmerking: als de taak is gewijzigd in een status die gelijk is aan [!UICONTROL Complete]In het onderwerp van de e-mail staat nog steeds ''Voltooid''.</p> </p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> <p>Taaknaam<br>Projectnaam<br>Referentienummer taak<br>Naam van de gebruiker die de taak heeft voltooid<br>Datum en tijd waarop de taak is voltooid<br>Status vorige taak<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide taken<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting<br></p> </td> 
    <td><strong>Dagelijks</strong> </td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><strong>Alle voorgangers van een taak die aan mijn team is toegewezen, zijn voltooid</strong> </p> <p>Het toegewezen team ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken als voltooid is gemarkeerd.</p> <p>Gebruikers met een licentie voor een revisie of aanvrager ontvangen geen melding.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>Taak voltooid: &lt;name&gt;</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> Overzicht van het werk dat aan u is toegewezen &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
-   <td> Taaknaam<br>Taakproject<br>Referentienummer taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de vorige taak<br><strong>Meer informatie</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide taken<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </td>
+   <td> Taaknaam<br>Taakproject<br>Referentienummer taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de voorgangstaak<br><strong>Meer informatie</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide taken<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </td>
    <td><strong>Meteen</strong> </td> 
   </tr>
   <!--
@@ -79,7 +79,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
   --> 
   <tr> 
    <td> <p><strong>Alle voorgangers van mijn taken zijn voltooid</strong> </p> <p>De toegewezen taak ontvangt een e-mailbericht voor elke voorganger die is voltooid.</p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Complete]: &lt;task name=""&gt;</em><br></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
-   <td> Taaknaam<br>Taakproject<br>Referentienummer taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de vorige taak<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide taken<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </td> 
+   <td> Taaknaam<br>Taakproject<br>Referentienummer taak<br>Naam van de gebruiker die de voorgangstaak heeft voltooid<br>Status van de voorgaande taak<br>Datum en tijd waarop de voorganger is voltooid<br>Eerdere status van de voorgangstaak<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide taken<br>*Taaknaam<br>*Naam van de gebruiker die de taak heeft voltooid<br>*Datum van de dagelijkse samenvatting </td> 
    <td><strong>Meteen</strong> </td> 
   </tr>
   <!--
@@ -95,8 +95,8 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td><strong>Dagelijks</strong> </td> 
   </tr>
   <tr> 
-   <td> <p><strong>Een probleem waaraan ik ben toegewezen, is voltooid</strong> </p> <p>Een kennisgeving wordt alleen verzonden als de projectstatus [!UICONTROL Current] of [!UICONTROL Planning].</p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>Voltooid: &lt;issue name=""&gt; op &lt;project name=""&gt;</em></p> <p><em> Het onderwerp van de dagelijkse overzichtsmelding is: Overzicht van het werk dat aan u is toegewezen &lt;date of="" daily="" digest=""&gt; </em> </p> </td> 
-   <td> Naam van uitgave<br>Projectnaam<br>Referentienummer van uitgave<br>Naam van de gebruiker die de uitgave heeft voltooid<br>Status nieuwe uitgave<br>Datum en tijdstip waarop de afgifte is voltooid<br>Status vorige taak<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide uitgaven<br>*Naam van uitgave<br>*Naam van de gebruiker die de uitgave heeft voltooid<br>*Datum van de dagelijkse samenvatting<br></td> 
+   <td> <p><strong>Een probleem waaraan ik ben toegewezen, is voltooid</strong> </p> <p>Een kennisgeving wordt alleen verzonden als de projectstatus [!UICONTROL Current] of [!UICONTROL Planning].</p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>Voltooid: &lt;issue name=""&gt; op &lt;project name=""&gt;</em></p> <p><em> Het onderwerp van het dagelijkse samenvattingsbericht is: Overzicht van het werk dat aan u is toegewezen &lt;date of="" daily="" digest=""&gt; </em> </p> </td> 
+   <td> Naam van uitgave<br>Projectnaam<br>Referentienummer van uitgave<br>Naam van de gebruiker die de uitgave heeft voltooid<br>Status van nieuwe uitgave<br>Datum en tijdstip waarop de afgifte is voltooid<br>Status vorige taak<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal voltooide uitgaven<br>*Naam van uitgave<br>*Naam van de gebruiker die de uitgave heeft voltooid<br>*Datum van de dagelijkse samenvatting<br></td> 
    <td><strong>Dagelijks</strong> </td> 
   </tr> 
   <tr> 
@@ -115,8 +115,8 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td> <p><strong>Meteen</strong> </p> <p><strong>en dagelijks</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>De status verandert op een taak waaraan ik ben toegewezen</strong> <p>De taakontvanger ontvangt een e-mailbericht wanneer de status van de taak verandert, tenzij de gebruiker die de status heeft gewijzigd ook de ontvanger is.</p> <p>Opmerking: Dit bericht wordt niet verzonden wanneer de taakstatus wordt gewijzigd in voltooid. Een afzonderlijke melding wordt gebruikt voor voltooide taken. Zie <a href="#a-task-i-m-assigned-to-is-completed" class="MCXref xref">Een taak waaraan ik ben toegewezen, is voltooid</a>, hierboven.</p> <p>Een kennisgeving wordt alleen verzonden als de projectstatus [!UICONTROL Current].</p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>&lt;task name=""&gt; van &lt;project name=""&gt; is &lt;new status=""&gt;</em></p> <p> </p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
-   <td> Taaknaam<br>Projectnaam<br>Referentienummer taak<br>Naam van de gebruiker die de status heeft gewijzigd<br>Nieuwe status<br>Datum en tijd waarop de status is gewijzigd<br>Voorvertoningsstatus<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal taken waar de Status veranderde<br>*Taaknaam<br>*Status vorige taak<br>*Nieuwe taakstatus<br>*Naam van de gebruiker die de status heeft gewijzigd<br>*Datum van de dagelijkse samenvatting<br></td> 
+   <td><strong>De status verandert op een taak waaraan ik ben toegewezen</strong> <p>De taakontvanger ontvangt een e-mailbericht wanneer de status van de taak verandert, tenzij de gebruiker die de status heeft gewijzigd ook de ontvanger is.</p> <p>Opmerking: deze melding wordt niet verzonden wanneer de taakstatus wordt gewijzigd in voltooid. Een afzonderlijke melding wordt gebruikt voor voltooide taken. Zie <a href="#a-task-i-m-assigned-to-is-completed" class="MCXref xref">Een taak waaraan ik ben toegewezen, is voltooid</a>, hierboven.</p> <p>Een kennisgeving wordt alleen verzonden als de projectstatus [!UICONTROL Current].</p> <p>Gebruikers met een [!UICONTROL Review] of [!UICONTROL Requestor] de licentie ontvangt geen kennisgeving.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>&lt;task name=""&gt; van &lt;project name=""&gt; is &lt;new status=""&gt;</em></p> <p> </p> <p> Het onderwerp van de dagelijkse overzichtsmelding is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> Taaknaam<br>Projectnaam<br>Referentienummer taak<br>Naam van de gebruiker die de status heeft gewijzigd<br>Nieuwe status<br>Datum en tijd waarop de status is gewijzigd<br>Voorvertoningsstatus<br><strong>[!UICONTROL See More Details]</strong> knop<br>*Projectnaam<br>*Referentienummer van project<br>*Totaal aantal taken waarin de status is gewijzigd<br>*Taaknaam<br>*Status vorige taak<br>*Nieuwe taakstatus<br>*Naam van de gebruiker die de status heeft gewijzigd<br>*Datum van de dagelijkse samenvatting<br></td> 
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 

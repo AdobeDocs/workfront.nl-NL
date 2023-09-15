@@ -6,9 +6,9 @@ description: U kunt een document aanvragen voor elk object dat Documenten onders
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ U moet het volgende hebben:
 
 1. Ga naar het gebied waar u het gewenste document wilt hebben.
 1. Klik op de knop **Documenten** tab. 
-1. Klik op de knop **Nieuwe toevoegen** vervolgkeuzemenu.
+1. Klik op de knop **Nieuwe toevoegen** vervolgkeuzelijst.
 
 1. Klikken **Een document aanvragen**.
 
@@ -58,16 +58,16 @@ U moet het volgende hebben:
 
    >[!NOTE]
    >
-   >Als u de [Overzicht van verouderde licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) die op uw account is ingeschakeld, kunt u een aanvraag naar elk willekeurig e-mailadres verzenden. Er is een instelling in het dialoogvenster [Beveiligingsvoorkeuren voor het systeem configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) Hiermee bepaalt u of deze externe e-mailgebruikers een wachtwoord moeten maken voordat ze met Workfront communiceren. 
+   >Als u de [Overzicht van verouderde licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) die op uw account is ingeschakeld, kunt u een aanvraag naar elk e-mailadres verzenden. Er is een instelling in het dialoogvenster [Systeembeveiligingsvoorkeuren configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) Hiermee bepaalt u of deze externe e-mailgebruikers een wachtwoord moeten maken voordat ze met Workfront communiceren. 
 
-1. Beschrijf de reden u het document verzoekt.
+1. Beschrijf de reden dat u het document aanvraagt.
 1. Klikken **Aanvraag verzenden**.
 
    Wanneer u een aanvraag indient bij een gebruiker, wordt een tijdelijke aanduiding toegevoegd aan het documentgebied. U kunt de gebruiker eraan herinneren of het verzoek van deze tijdelijke aanduiding annuleren. De gebruiker ontvangt een Workfront-melding en een e-mail over de aanvraag.
 
-   De gebruiker ontvangt een e-mailmelding als deze voorkeur is ingeschakeld, en een melding in de app. Voor meer informatie over e-mailmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   De gebruiker ontvangt een e-mailmelding als deze voorkeur is ingeschakeld, en een melding in de app. Zie voor meer informatie over e-mailmeldingen [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-   U kunt op de koppeling in het e-mailbericht klikken en het document vervolgens uploaden. U kunt ook op de melding in de app klikken. Elke optie leidt u naar de pagina van het gebruikersprofiel waar u het gevraagde document kunt uploaden.
+   Klik op de koppeling in het e-mailbericht en upload het document. U kunt ook op de melding in de app klikken. Elke optie leidt u naar de pagina van het gebruikersprofiel waar u het gevraagde document kunt uploaden.
 
    U kunt ook rechtstreeks reageren op het e-mailbericht en de gewenste documenten bijvoegen (als u geconfigureerd bent om e-mailreacties te ondersteunen). Zie voor informatie over het configureren van e-mailreacties.
 

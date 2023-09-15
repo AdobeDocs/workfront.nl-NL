@@ -1,27 +1,28 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: Uw eigen gebeurtenismeldingen activeren of deactiveren
-description: Uw Adobe Workfront-beheerder configureert welke gebeurtenismeldingen gebruikers ontvangen wanneer er gebeurtenissen plaatsvinden in Workfront.
+keywords: wijzigen,e-mail,melding,instellingen
+title: Uw eigen e-mailmeldingen wijzigen
+description: In dit artikel wordt beschreven hoe u uw e-mailmeldingen in uw gebruikersprofiel kunt beheren.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
 
-# Uw eigen gebeurtenismeldingen activeren of deactiveren
+# Uw eigen e-mailmeldingen wijzigen
 
-Uw Adobe [!DNL Workfront] beheerder configureert welke gebeurtenismeldingen gebruikers ontvangen wanneer gebeurtenissen plaatsvinden in Workfront (zoals beschreven in [[!UICONTROL Configure event] meldingen voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Uw Adobe [!DNL Workfront] beheerder configureert welke e-mailberichten gebruikers ontvangen wanneer gebeurtenissen plaatsvinden in Workfront (zoals beschreven in [[!UICONTROL Configure event] meldingen voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Uw groepsbeheerder kan ook configureren welke gebeurtenismeldingen voor u en de gebruikers in uw thuisgroep worden geactiveerd. Als uw [!UICONTROL Home Group] Als subgroep ontvangt u de gebeurtenismeldingen die zijn geactiveerd voor de bovenste groep boven de groep.
+Uw groepsbeheerder kan ook configureren welke meldingen voor u en de gebruikers in uw [!UICONTROL Home Group]. Als uw [!UICONTROL Home Group] Als subgroep ontvangt u de meldingen die zijn geactiveerd voor de bovenste groep boven de groep.
 
-U kunt dit verder aanpassen door te vormen welke berichten u ontvangt. U kunt ook kiezen of u meldingen wilt ontvangen terwijl gebeurtenissen plaatsvinden of in één e-mail met dagelijkse samenvatting.
+U kunt dit verder aanpassen door te vormen welke berichten u ontvangt. U kunt ook kiezen of u meldingen wilt ontvangen terwijl gebeurtenissen plaatsvinden of in één e-mail met dagelijkse controlesamenvatting.
 
-Voor informatie over e-mailmeldingen raadpleegt u [[!DNL Adobe Workfront] meldingen](../../workfront-basics/using-notifications/wf-notifications.md).
+Zie voor meer informatie over e-mailmeldingen [[!DNL Adobe Workfront] meldingen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
@@ -54,9 +55,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## De instellingen voor e-mailmeldingen weergeven en wijzigen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op uw gebruikersnaam naast de profielafbeelding.
+{{step1-click-profile-pic}}
 
-1. Klik op de knop **[!UICONTROL More]** pictogram ![](assets/more-icon.png) en klik vervolgens op **[!UICONTROL Edit]**.
+1. Klik op de knop **[!UICONTROL More]** pictogram ![](assets/more-icon.png) naast uw naam klikt u op **[!UICONTROL Edit]**.
 
 1. In de **[!UICONTROL Edit Person]** vak dat wordt weergegeven, gaat u naar de **[!UICONTROL Notifications]** sectie.
 
@@ -72,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Als u een teamlid voor een project bent, blijft u e-mailberichten voor het ontvangen tot u van het team wordt verwijderd, zelfs als u geen toegang meer tot het project hebt. Voor instructies over het verwijderen van gebruikers uit een team raadpleegt u [Gebruikers uit projecten verwijderen](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
 
-   Voor de **[!UICONTROL Communication]** rubriek, kunt u individuele berichten voor onmiddellijke levering slechts selecteren. Als u meldingen in een dagelijkse samenvatting wilt laten verzenden, moet u ze allemaal selecteren.
+   Voor de **[!UICONTROL Communication]** rubriek, kunt u afzonderlijke meldingen selecteren voor alleen directe levering. Als u meldingen in een dagelijkse samenvatting wilt laten verzenden, moet u ze allemaal selecteren.
 
    Als alle e-mailberichten voor een bepaalde categorie zijn geactiveerd, wordt het vak in de titel van de categorie weergegeven als geselecteerd. Als alle e-mailberichten in een bepaalde categorie zijn gedeactiveerd, is het selectievakje uitgeschakeld. Als sommige meldingen zijn geactiveerd en andere zijn gedeactiveerd, wordt het selectievakje Categorie weergegeven als een rechte lijn.\
    Als u een meldingsinstelling wijzigt, wordt het label **[!UICONTROL Edited]** verschijnt voor die bericht het plaatsen, om u te laten weten dat die bericht het plaatsen is gewijzigd.

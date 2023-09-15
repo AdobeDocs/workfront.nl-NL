@@ -6,9 +6,9 @@ description: Deze pagina beschrijft alle veranderingen beschikbaar in het milieu
 author: Luke
 feature: Product Announcements
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -44,15 +44,15 @@ Zie voor meer informatie [Goedkeuring van de werkzaamheden](../../../../review-a
 Wanneer een project, een taak, of een kwestie goedkeuring in afwachting is, kunt u nu vormen of de gebruikers kunnen:
 
 * Bewerk de aangepaste vorm van een project, taak of uitgave die in afwachting is van goedkeuring.\
-   Voor informatie over hoe te om projecten, taken, en kwesties te vormen die wanneer in afwachting van goedkeuring moeten worden uitgegeven, zie [Algemene goedkeuringsinstellingen configureren](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Voor informatie over hoe te om projecten, taken, en kwesties te vormen die wanneer in afwachting van goedkeuring moeten worden uitgegeven, zie [Algemene goedkeuringsinstellingen configureren](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
 * Voeg kwesties aan een project toe dat goedkeuring in afwachting is.\
-   Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om kwesties toe te voegen wanneer het project goedkeuring in afwachting is, zie [Projectvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om kwesties toe te voegen wanneer het project goedkeuring in afwachting is, zie [Projectvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Bewerk taken en problemen in een project waarvoor goedkeuring is aangevraagd.\
-   Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om taken en kwesties uit te geven wanneer het project goedkeuring in afwachting is, zie [Projectvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om taken en kwesties uit te geven wanneer het project goedkeuring in afwachting is, zie [Projectvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Vóór deze wijziging konden projecten, taken en kwesties die in behandeling waren voor goedkeuring niet worden bewerkt. ook konden er geen problemen worden toegevoegd aan projecten die nog moesten worden goedgekeurd , en taken en problemen konden niet worden bewerkt in projecten die nog moesten worden goedgekeurd .
+Voorafgaand aan deze wijziging konden projecten, taken en kwesties die in behandeling waren niet worden bewerkt. Ook konden problemen niet worden toegevoegd aan projecten waarvoor goedkeuring was aangevraagd, en konden taken en problemen niet worden bewerkt binnen projecten waarvoor goedkeuring was aangevraagd.
 
 ## Lay-outsjablonen toewijzen aan groepen
 
@@ -68,7 +68,7 @@ De functionaliteit is gewijzigd door de instellingen voor e-mailmeldingen van ge
 
 Voordat u deze wijziging aanbracht, zijn de door u geselecteerde instellingen voor e-mailmeldingen opgeslagen. Alle andere instellingen voor ongewijzigde meldingen zijn uitgeschakeld toen u uw wijzigingen opsloeg. 
 
-Raadpleeg &quot;Modifying User Notification Settings in Bulk&quot; in voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Raadpleeg &quot;Modifying User Notification Settings in Bulk&quot; in [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Verscheidene e-mailmeldingen bekijken en bekijken
 
@@ -82,9 +82,9 @@ De weergave van de volgende e-mailmeldingen is bijgewerkt met een nieuwe interfa
 * In afwachting van goedkeuring (project, taak, problemen)
 * Statuswijziging voor projecten, taken, problemen
 
-Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen, aangezien de voorbeeldsandbox de e-mailadressen van alle gebruikers wist.    Voor meer informatie over e-mailmeldingen raadpleegt u [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen, aangezien de voorbeeldsandbox de e-mailadressen van alle gebruikers wist.    Zie voor meer informatie over e-mailmeldingen [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
-## Nieuwe e-mailsamenvattingsopties voor verschillende berichtgebieden
+## Nieuwe e-mailsamenvattingsopties voor verschillende gebieden met meldingen
 
 In de volgende berichtgebieden is de optie Dagelijkse samenvatting toegevoegd:
 
@@ -117,7 +117,7 @@ U kunt een URL van een object delen in de volgende toepassingen:
 * Tekstbericht
 * E-mail
 * Opslagstation (bijvoorbeeld iCloud Drive)
-* Een andere geïnstalleerde toepassing (bijvoorbeeld Notities, Facebook)
+* Een andere geïnstalleerde toepassing (bijvoorbeeld Notes, Facebook)
 * U kunt een koppeling naar het object naar het klembord kopiëren en deze later in een andere toepassing plakken. 
 
 ## Context-gevoelige Help in Setup

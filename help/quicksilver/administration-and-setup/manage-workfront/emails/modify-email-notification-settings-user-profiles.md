@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: wijzigen,e-mail,melding,instellingen,bulk,bulkbewerking,configureren,meerdere,gebruikers
 navigation-topic: emails-administration
 title: Instellingen voor e-mailmeldingen wijzigen in gebruikersprofielen
-description: Als u een Adobe Workfront-beheerder bent of als u een Planner-toegangsniveau hebt waarmee u de instellingen van andere gebruikers kunt bewerken, kunt u de meldingsinstellingen voor meerdere gebruikers tegelijk configureren. Dit omvat het opgeven of gebruikers meldingen ontvangen wanneer gebeurtenissen zich voordoen, of in één dagelijkse samenvatting per e-mail, zoals beschreven in Adobe Workfront-berichten. Zie Toegang verlenen aan gebruikers voor informatie over het toegangsniveau dat nodig is om gebruikers te bewerken.
-author: Lisa, Caroline
+description: Dit artikel bevat informatie voor de Workfront of groepsbeheerders over hoe ze de e-mailmeldingen van andere gebruikers kunnen bijwerken.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Wanneer u berichtmontages in massa vormt, kunt u slechts de montages veranderen 
 
 >[!NOTE]
 >
->U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren, inclusief uw eigen profiel. Zie voor meer informatie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren, inclusief uw eigen profiel. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Toegangsvereisten
@@ -46,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement of licentietype u hebt.
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement- of licentietype u hebt.
 
 ## De instellingen voor e-mailmeldingen van meerdere gebruikers bulksgewijs wijzigen
 

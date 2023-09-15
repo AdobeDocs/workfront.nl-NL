@@ -6,9 +6,9 @@ description: U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Uw taken en problemen delegeren aan anderen:
 
    * De gebruiker u als uw afgevaardigde selecteerde ontvangt een e-mail over de delegatie, als hun gebeurtenisberichten worden toegelaten.
 
-     Voor informatie over het inschakelen van persoonlijke e-mailmeldingen raadpleegt u [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     Voor informatie over het inschakelen van persoonlijke e-mailmeldingen raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 

@@ -5,9 +5,9 @@ description: Adobe Workfront stuurt meldingen over objecten die je hebt toegewez
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Als uw [!DNL Workfront] de beheerder heeft toegelaten <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> in uw toegangsniveau kunt u zich niet abonneren op objecten in [!DNL Workfront].</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!UICONTROL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!UICONTROL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Als uw [!DNL Workfront] beheerder heeft <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> in uw toegangsniveau kunt u zich niet abonneren op objecten in [!DNL Workfront].</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!UICONTROL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!UICONTROL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -73,11 +73,10 @@ Als u bijvoorbeeld een abonnement wilt nemen op een uitgave:
 
    >[!TIP]
    >
-   >Als u zich wilt abonneren op projecten, kunt u het volgende doen:
+   >Als u zich wilt abonneren op projecten, kunt u een van de volgende handelingen uitvoeren:
    >
    >* Ga naar het project u aan wilt intekenen, klik **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) rechts van de projectnaam, en vervolgens **[!UICONTROL Subscribe]**.
    >* Ga naar een projectlijst of rapport en selecteer een project, klik **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) boven aan de lijst klikt u op **[!UICONTROL Subscribe]**. Dit is alleen beschikbaar in een lijst met projecten.
-
 
 1. Klikken **[!UICONTROL More]** ![](assets/more-icon.png)en klik vervolgens op **[!UICONTROL Subscribe]**.
 
@@ -89,7 +88,7 @@ Als u bijvoorbeeld een abonnement wilt nemen op een uitgave:
 
    Telkens wanneer iemand opmerkingen maakt over het probleem, ontvangt u een melding in de app. Afhankelijk van de functies die u hebt ingeschakeld, kunt u ook e-mailmeldingen en pushberichten voor mobiele apps ontvangen.
 
-   Ga voor meer informatie over e-mail met abonnementen naar [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Ga voor meer informatie over e-mailberichten met abonnementen naar [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Abonnement op een object opzeggen
 
@@ -97,15 +96,14 @@ Je kunt je abonnement op een object eenvoudig opzeggen in [!DNL Workfront]. De p
 
 Als u bijvoorbeeld uw abonnement op een uitgave wilt opzeggen:
 
-1. Ga naar het probleem waarvan u het abonnement wilt opzeggen.
+1. Ga naar de uitgave waarvan u het abonnement wilt opzeggen.
 
    >[!TIP]
    >
-   >Als u uw abonnement op projecten wilt opzeggen, kunt u het volgende doen:
+   >Als u uw abonnement op projecten wilt opzeggen, kunt u een van de volgende handelingen uitvoeren:
    >
    >* Ga naar het project u van wilt losmaken, klik **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) rechts van de projectnaam, en vervolgens **[!UICONTROL Unsubscribe]**.
    >* Ga naar een projectlijst of rapport en selecteer een project, klik **[!UICONTROL More]** pictogram ![](assets/qs-more-menu.png) boven aan de lijst klikt u op **[!UICONTROL Unsubscribe]**. Dit is alleen beschikbaar in een lijst met projecten.
-
 
 1. Klikken **[!UICONTROL More]** ![](assets/more-icon.png)en klik vervolgens op **[!UICONTROL Unsubscribe]**.
 
@@ -113,7 +111,7 @@ Als u bijvoorbeeld uw abonnement op een uitgave wilt opzeggen:
 
 1. Je kunt je abonnement op een object waarop je bent geabonneerd, ook opzeggen door op de knop [!UICONTROL Unsubscribe] in de e-mail met het abonnement.
 
-   Als je je abonnement op een object hebt opgezegd, ontvang je geen bericht meer wanneer iemand iets over dit onderwerp opmerkt.
+   Zodra je je abonnement op een object hebt opgezegd, ontvang je geen bericht meer wanneer iemand iets over dit onderwerp opmerkt.
 
    The Update Status of the item records that you have unsubscribed to the issue.
 
@@ -138,7 +136,6 @@ Alle abonnees krijgen [!UICONTROL View] toestemming voor het geabonneerde item. 
    >   
    >* Ga naar een projectlijst of rapport en selecteer een project.
 
-
 1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png).
 1. Klik op de nummerballon naast de knop **[!UICONTROL Subscribe]** koppeling.
 1. Typ in het vak dat wordt weergegeven de naam van de gebruiker in het vak **[!UICONTROL Subscribe others]** en selecteert u vervolgens de gebruiker in de weergegeven opties.
@@ -161,7 +158,6 @@ Wanneer iemand een opmerking toevoegt aan de [!UICONTROL Updates] van het item o
    >* Ga naar het project waarvan u anderen wilt afmelden, of
    >   
    >* Ga naar een projectlijst of rapport en selecteer een project.
-
 
 1. Klik op **[!UICONTROL More]** ![](assets/more-icon.png).
 1. Klik op de nummerballon naast de knop **[!UICONTROL Subscribe]** of **[!UICONTROL Unsubscribe]** koppeling.
@@ -199,7 +195,7 @@ Om te zien wie zich abonneert op een object:
 
 1. Navigeer naar een item waarvoor u de abonnees wilt zien.
 
-   Als er om het even welke abonnees aan het punt zijn, verschijnt het aantal abonnees naast de bel. U kunt de muisaanwijzer boven het nummer plaatsen om een lijst weer te geven met gebruikers die zich op het item abonneren. De eerste 25 abonnees worden in alfabetische volgorde weergegeven.
+   Als er om het even welke abonnees aan het punt zijn, verschijnt het aantal abonnees naast de bel. U kunt de muisaanwijzer boven het nummer plaatsen en een lijst weergeven met gebruikers die zich op het item abonneren. De eerste 25 abonnees worden in alfabetische volgorde weergegeven.
 
    ![Abonnees weergeven](assets/bell-hover-for-list-qs-350x90.png)
 
@@ -211,15 +207,15 @@ Houd rekening met het volgende terwijl u met abonnementen werkt:
 
 * De [!DNL Workfront] de beheerder kan niet controleren wat de gebruikers kunnen of niet kunnen intekenen aan.
 
-   Iedereen met [!UICONTROL View] of hogere toestemmingen aan om het even welke taak, kwestie, of project kunnen aan hen intekenen.
+  Iedereen met [!UICONTROL View] of hogere toestemmingen aan om het even welke taak, kwestie, of project kunnen aan hen intekenen.
 
 * Abonnementen kunnen niet worden geconfigureerd voor een e-mail met dagelijkse samenvatting.
 * Als u zich abonneert op een taak, uitgave of project en u ook de ontvanger, de primaire contactpersoon of de eigenaar van het project bent, ontvangt u alleen een e-mail met het abonnement wanneer iemand opmerkingen maakt over het object waarop u zich abonneert.
 
-   Voor meer informatie over e-mailmeldingen die worden geactiveerd wanneer een opmerking wordt gemaakt over een van je objecten, raadpleegt u [Adobe Workfront-berichten](../../workfront-basics/using-notifications/wf-notifications.md).
+  Zie voor meer informatie over e-mailmeldingen die worden geactiveerd wanneer er een opmerking wordt gemaakt over een van je objecten [Adobe Workfront-berichten](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * Als je je abonneert op een object en er commentaar op geeft, ontvang je geen e-mail met een abonnement op die opmerking, tenzij je naam in de opmerking wordt opgenomen.
 * Als de gebruiker die opmerkingen maakt over het item de opmerking privé maakt door de opmerking te vergrendelen en u maakt geen deel uit van hetzelfde bedrijf als die gebruiker, ontvangt u geen melding voor die opmerking. Voor meer informatie over het privé maken van een commentaar aan uw bedrijf, zie [Een update toevoegen aan een werkitem](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) sectie in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * U kunt geen rapport maken voor abonnementen. Een controle wordt geregistreerd in de Status van de Update van elk punt wanneer iemand op het punt intekent of afmeldt.
-* Opmerkingen over onderliggende objecten activeren geen abonnementmeldingen voor bovenliggende objecten. Als u zich op een project abonneert, zult u slechts bericht van commentaren ontvangen die op dat project worden gemaakt. U zult geen bericht van commentaren ontvangen die aan kindpunten verbonden aan het project (d.w.z., taken of kwesties) worden gemaakt, tenzij u aan elk kind intekent. Zie de klasse [Interdependentie en hiërarchie van objecten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) sectie in [Objecten begrijpen in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+* Opmerkingen over onderliggende objecten activeren geen abonnementmeldingen voor bovenliggende objecten. Als u zich op een project abonneert, zult u slechts bericht van commentaren ontvangen die op dat project worden gemaakt. U zult geen bericht van commentaren ontvangen die aan kindpunten verbonden aan het project (d.w.z., taken of kwesties) worden gemaakt, tenzij u aan elk kind intekent. Zie voor meer informatie over objectrelaties de [Interdependentie en hiërarchie van objecten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) sectie in [Objecten begrijpen in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

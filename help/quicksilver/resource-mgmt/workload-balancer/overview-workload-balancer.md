@@ -7,9 +7,9 @@ description: Nadat de projectmanagers het werk aan projecten plannen en taken cr
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 11c87d8a97261c24d063fbc824f2e907d07f8217
+source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Nadat de projectmanagers het werk aan projecten plannen en taken creëren, kunt 
 >U moet de Planner van het Middel en niet de Balancer van de Werkbelasting gebruiken om baanroltoewijzingen voor uw projecten, op een hoog niveau te schatten. Voor meer informatie over de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 In dit artikel wordt het algemene doel van Workload Balancer beschreven en een aantal van de beste werkwijzen voor hoe u projecten en bronnen kunt instellen om het programma met succes te gebruiken.
+
+Ga naar de [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) pagina. Selecteer in het linkermenu de optie **Bronnen beheren** > **Werklastverdeling** en kiest u een zelfstudie.
 
 ## De werklastbalans zoeken
 
@@ -56,18 +58,18 @@ Houd rekening met de volgende voordelen wanneer u de werklastverdeling gebruikt:
 * Als personenmanager kunt u uw mensen beschermen tegen uitbarsting en hen in staat stellen hun beste werk te doen met betere focus, kwaliteit en betrokkenheid. U kunt hun volledig gebruik verzekeren, silo&#39;s breken, en groepering van het werk over teams toelaten.
 * Wanneer u werk op het taak- of uitgaveniveau toewijst, hebt u geen zichtbaarheid in hoe druk een gebruiker zou kunnen zijn. Als u de werklastbalans gebruikt, kunt u zien welke gebruikers in hun werklast beschikbaar zijn om de taak of het probleem op tijd te voltooien. Dit omvat hun tijd uit en programma uitzonderingsdetails.
 
-   Zie voor meer informatie [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Zie voor meer informatie [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-   U kunt werkitems ook bulksgewijs toewijzen, waardoor het gemakkelijker wordt om een groot aantal werkitems tegelijk over meerdere projecten te distribueren. Zie voor meer informatie [Werk in bulk toewijzen met Werklastverdeling](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  U kunt werkitems ook bulksgewijs toewijzen, waardoor het gemakkelijker wordt om een groot aantal werkitems tegelijk over meerdere projecten te distribueren. Zie voor meer informatie [Werk in bulk toewijzen met Werklastverdeling](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * De managers kunnen geschikte personeelsbesluiten door transparantie in maken hoe de mensen in hun organisatie worden gebruikt.
 * De leden van het team profiteren van betere samenwerking, aangezien zij allen kunnen bekijken wat hun medewerkers op elk bepaald ogenblik werken aan. Voor informatie over de toegang nodig om middelen in de Balancer van de Werkbelasting te bekijken of te beheren, zie [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* U kunt de toepassing delen met iedereen die geen toegang heeft tot het brongebied door een koppeling naar het gebied in te sluiten in een aangepast tabblad. Zie voor meer informatie [De werklastbalans delen met een koppeling](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* U deelt de bron met iedereen die geen toegang heeft tot het brongebied door er een koppeling naar in te sluiten in een aangepast tabblad. Zie voor meer informatie [De werklastbalans delen met een koppeling](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 * U kunt de werklasten en de vraag van mensen visualiseren en beheren in één weergave op algemeen, projectniveau of teamniveau, afhankelijk van uw rol. Bij het beheren van projecten omvat dit niet alleen de toewijzing van middelen voor het project, maar ook het visualiseren van de toewijzing van middelen uit de Adobe Workfront Scenario Planner. Personenmanagers gebruiken de Workfront Scenario Planner om baanvaardigheden in de hele organisatie te beheren. De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring.
 
-   >[!NOTE]
-   >
-   >  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
 
 
 ## Aanbevolen werkwijzen voor het gebruik van de werklastbalans
@@ -88,7 +90,7 @@ Zie voor informatie over het maken en gebruiken van filters in Workload Balancer
 
 * Als gebruiker die programma&#39;s voor anderen werkt, moet u de correcte toegang en de toestemmingen hebben om middelen voor het werk te plannen.
 
-   Voor informatie over de toegang nodig om de werkbelasting van uw bronnen in de werklastverhouding te beheren, raadpleegt u [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+  Voor informatie over de toegang nodig om de werkbelasting van uw bronnen in de werklastverhouding te beheren, raadpleegt u [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 * De gebruikers waarvan werkbelasting u wilt beheren moeten aan de volgende criteria voldoen zodat de informatie over hun beschikbaarheid en vaardigheden nauwkeurig is:
 
@@ -96,12 +98,12 @@ Zie voor informatie over het maken en gebruiken van filters in Workload Balancer
    * Voor meer informatie over het associëren van Programma&#39;s en de Rollen van de Baan met gebruikers, zie [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * Als een gebruiker niet aan een Programma wordt geassocieerd, wordt het StandaardProgramma van uw systeem van Workfront geassocieerd met de gebruiker door gebrek, voor middelbeheer.
    * Heb de Uitzonderingen van het Programma die in hun programma&#39;s worden bijgewerkt.\
-      Voor meer informatie over het creëren van programma&#39;s, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+     Voor meer informatie over het creëren van programma&#39;s, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * De time-outkalender laten bijwerken in hun profiel.\
-      Voor informatie over het bijwerken van de kalender van de Tijd van een gebruiker, zie [Persoonlijke tijd in Adobe Workfront configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Voor informatie over het bijwerken van de kalender van de Tijd van een gebruiker, zie [Persoonlijke tijd in Adobe Workfront configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-      <!--   
+     <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
      <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
@@ -120,13 +122,13 @@ Zorg ervoor dat de volgende taak en probleeminstellingen aanwezig zijn voordat u
 * De taken en de kwesties hebben een waarde voor hun Duur die groter is dan nul.
 * De geplande data van de problemen liggen binnen de tijdlijn van het project.
 
-## Voordat u de functie voor werklastverdeling gaat gebruiken
+## Voordat u de werklastverdeling gaat gebruiken
 
 * U kunt de werklastbalans gebruiken om dagelijkse toewijzingen voor gebruikers in uw organisatie toe te wijzen en te beheren.
 
-   In dit artikel wordt uitgelegd hoe u door de werklastbalans kunt navigeren om de volgende handelingen uit te voeren: [Navigeren door werklastbalans](../workload-balancer/navigate-the-workload-balancer.md).
+  In dit artikel wordt uitgelegd hoe u door de werklastbalans kunt navigeren om de volgende handelingen uit te voeren: [Navigeren door werklastbalans](../workload-balancer/navigate-the-workload-balancer.md).
 
-   In de volgende artikelen wordt uitgelegd hoe u werk toewijst en gebruikerstoewijzingen beheert:
+  In de volgende artikelen wordt uitgelegd hoe u werk toewijst en gebruikerstoewijzingen beheert:
 
    * [Overzicht van het toewijzen van werk in de werklastverdeler](../workload-balancer/assign-work-in-workload-balancer.md).
    * [Toewijzingen van gebruikers beheren in Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).

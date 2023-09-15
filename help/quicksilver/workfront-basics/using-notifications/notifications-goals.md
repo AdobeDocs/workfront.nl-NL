@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '"Meldingen: Doelen'
-description: '"Meldingen: Doelen'
+title: 'Meldingen: Doelstellingen'
+description: 'Meldingen: Doelstellingen'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# Meldingen: Doelen
+# Meldingen: Doelstellingen
 
 U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen die plaatsvinden in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] de licentie kan deze ook voor andere gebruikers inschakelen. Zie voor meer informatie [[!DNL Adobe Workfront] meldingen](../../workfront-basics/using-notifications/wf-notifications.md).
 
@@ -43,7 +43,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL View] toegang tot [!DNL Goals] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] toegang tot [!DNL Goals] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -62,7 +62,7 @@ De gebruiker waarvan [!DNL Goals] de meldingen moeten als volgt worden bijgewerk
 * Een lay-outsjabloon die de [!DNL Goals] in het gebied [!UICONTROL Main Menu].
 * Toegang tot de nieuwe [!DNL Adobe Workfront] ervaring.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: we need this here because you can see these notifications from Classic)
   </MadCap:conditionalText>
@@ -70,7 +70,7 @@ De gebruiker waarvan [!DNL Goals] de meldingen moeten als volgt worden bijgewerk
 
 ## [!DNL Goals] meldingen in de [!UICONTROL user profile] gebied
 
-De meldingen in de volgende tabel geven een waarschuwing over gebeurtenissen die plaatsvinden in [!DNL Workfront Goals], zoals iemand die u een doel, resultaat of activiteit toewijst of iemand die een update uitvoert voor een doel, resultaat of activiteit die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen gebeurtenismeldingen activeren of deactiveren](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+De meldingen in de volgende tabel geven een waarschuwing over gebeurtenissen die plaatsvinden in [!DNL Workfront Goals], zoals iemand die u een doel, resultaat of activiteit toewijst of iemand die een update uitvoert voor een doel, resultaat of activiteit die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 
@@ -93,7 +93,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td> <p>De naam van de persoon die het resultaat of de activiteit aan u heeft toegewezen</p> <p>De periode van het doel voor het resultaat of de activiteit</p> <p>De naam van het resultaat of de activiteit</p> <p>De <strong>[!UICONTROL Open in web app]</strong> knop die de [!UICONTROL Goal Details] deelvenster</p> <p>De <strong>[!UICONTROL Change Notifications Settings]</strong> knop waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Iemand heeft een nieuw persoonlijk doel voor mij gemaakt</strong> </td> 
+   <td><strong>Iemand creëerde een nieuw persoonlijk doel voor mij</strong> </td> 
    <td> <p>De naam van de persoon die het doel heeft toegewezen</p> <p>De periode van het doel</p> <p>De naam van het doel</p> <p>De <strong>[!UICONTROL Open in web app]</strong> knop die de [!UICONTROL Goal Details] deelvenster</p> <p>De <strong>[!UICONTROL Change Notifications Settings]</strong> knop waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
   <tr> 
