@@ -3,9 +3,9 @@ title: Records bewerken
 description: U kunt recordgegevens bewerken in Adobe Maestro. U moet recordtypen maken voordat u records kunt maken en bewerken.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Als de bewerkte records zijn gekoppeld aan andere records, heeft de nieuwe informatie over de records die u bewerkt, betrekking op de gekoppelde records.
 * U kunt records niet bulksgewijs bewerken. <!--this will probably change-->
 
+
 ## Records bewerken
 
 U kunt een record uit de volgende gebieden bewerken:
@@ -140,7 +141,9 @@ U kunt een record uit de volgende gebieden bewerken:
 
    >[!TIP]
    >
-   >Gekoppelde velden kunnen niet worden bewerkt. De gegevens voor deze velden worden automatisch ingevuld via de gekoppelde records. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
+   >* Gekoppelde velden kunnen niet worden bewerkt. De gegevens voor deze velden worden automatisch ingevuld via de gekoppelde records. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
+   >
+   >* URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
 
 
 
