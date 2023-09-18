@@ -7,7 +7,7 @@ description: U kunt een rapport alleen in een diagram weergeven op basis van een
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
    >[!NOTE]
    >
    >Deze optie is verwijderd uit het bulksgewijs bewerken van projecten.  U kunt expressies voor projecten in bulk nog steeds opnieuw berekenen door op de knop **Meer** pictogram ![](assets/more-icon-45x33.png) boven aan een projectlijst, dan **Expressies opnieuw berekenen**.
-
 
 1. Ga naar het rapport waar u de grafiek voor het berekende gebied wilt toevoegen dat multi-select douaneveld van verwijzingen voorziet.
 1. Klikken **Handelingen rapporteren** vervolgens **Bewerken**.
