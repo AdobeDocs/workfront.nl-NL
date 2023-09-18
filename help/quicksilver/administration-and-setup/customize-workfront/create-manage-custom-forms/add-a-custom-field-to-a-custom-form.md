@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -126,6 +126,10 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >Velden die meerdere selecties mogelijk maken, zoals Selectievakje en Vervolgkeuzelijst, zijn moeilijk in rapporten in te delen en te groeperen. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
+
 1. Op de **Veldinstellingen** kunt u de opties configureren die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
    <table style="table-layout:auto"> 
@@ -179,7 +183,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader">Type object waarnaar wordt verwezen</td> 
       <td> <p>(Alleen Typeahead-velden) Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b>OPMERKING</b>:   
         <ul> 
-         <li>Als uw Workfront-beheerder de naam voor Portfolio, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor het object weergegeven in deze vervolgkeuzelijst, niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
+         <li>Als uw Workfront-beheerder de naam voor Portfolio's, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor het object weergegeven in deze vervolgkeuzelijst, niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
          <li>De volgende objecttypen worden ondersteund in de mobiele apps van iOS en Android Workfront: Gebruiker, Bedrijf, Groep, Functie, Portfolio, Programma, Project en Sjabloon.</li> 
         </ul> </p> </td> 
      </tr> 

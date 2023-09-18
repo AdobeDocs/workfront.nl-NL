@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Een tekstveld toevoegen:
 
 1. Zoek links in het scherm een van de volgende tekstvelden en sleep deze naar een sectie op het canvas:
 
-   * Tekst met één regel:
+   * Tekst met één regel
    * Alineatekst
    * Tekstveld met opmaak
    * Beschrijvende tekst
@@ -254,6 +254,10 @@ U kunt keuzerondjes, selectievakjes en downloads toevoegen aan een aangepast for
 * **Vervolgkeuzelijst**: Bevat een lijst met keuzemogelijkheden.
 
 +++
+
+>[!NOTE]
+>
+>Velden die meerdere selecties toestaan, zoals de Checkbox-groep, zijn moeilijk in rapporten in te delen en te groeperen. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
 
 Keuzerondjes en selectievakjes toevoegen:
 
@@ -568,13 +572,14 @@ Een externe zoekopdracht toevoegen:
 
 >[!NOTE]
 >
->Technische beperkingen van de oproep tot de externe API:
+>De volgende punten zijn technische beperkingen van de vraag aan externe API:
 >
 >* Maximumaantal opties: 200 (alleen de eerste 200 opties van de geretourneerde JSON worden weergegeven)
 >* Time-out: 3 seconden
 >* Aantal pogingen: 3
 >* Wacht een tijd tussen pogingen: 500 ms
 >* Verwachte reactiestatus: 2xx
+>* De gebruiker kan de geselecteerde waarde zien (en de waarde bewerken) in Workfront-lijsten en -rapporten, maar het vervolgkeuzemenu wordt niet weergegeven met opties uit de externe API.
 
 </div>
 
