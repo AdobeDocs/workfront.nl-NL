@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 0%
 
 ---
@@ -257,7 +257,7 @@ U kunt keuzerondjes, selectievakjes en downloads toevoegen aan een aangepast for
 
 >[!NOTE]
 >
->Velden die meerdere selecties toestaan, zoals de Checkbox-groep, zijn moeilijk in rapporten in te delen en te groeperen. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
+>Velden die meerdere selecties toestaan, zoals Groep Selectievakje en Vervolgkeuzelijst, zijn moeilijk in rapporten in te delen en te groeperen. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
 
 Keuzerondjes en selectievakjes toevoegen:
 
@@ -328,7 +328,7 @@ Keuzerondjes en selectievakjes toevoegen:
     </tr> 
     <tr> 
      <td role="rowheader">Weergavetype</td> 
-    <td>Schakel tussen keuzerondjes, groepen selectievakjes of vervolgkeuzelijsten voor het veld.</td> 
+    <td>Schakel tussen keuzerondjes, groepen selectievakjes, vervolgkeuzelijsten of meerkeuzevelden voor het veld.</td> 
     <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
@@ -559,7 +559,7 @@ Een externe zoekopdracht toevoegen:
      </tr>
      <tr> 
       <td role="rowheader">Kopteksten</td>
-      <td>Klikken <strong>Koptekst toevoegen</strong>en typ of plak het sleutelwaardepaar dat is vereist voor verificatie met de API.</td>
+      <td><p>Klikken <strong>Koptekst toevoegen</strong>en typ of plak het sleutelwaardepaar dat is vereist voor verificatie met de API.</p><p><strong>OPMERKING:</strong> De gebieden van de Kopbal zijn geen veilige plaats om geloofsbrieven op te slaan, en u zou moeten zorgvuldig zijn wat u ingaat en bewaart.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ Een externe zoekopdracht toevoegen:
 >* Aantal pogingen: 3
 >* Wacht een tijd tussen pogingen: 500 ms
 >* Verwachte reactiestatus: 2xx
->* De gebruiker kan de geselecteerde waarde zien (en de waarde bewerken) in Workfront-lijsten en -rapporten, maar het vervolgkeuzemenu wordt niet weergegeven met opties uit de externe API.
+>* Gebruikers kunnen de geselecteerde waarde zien (en de waarde bewerken) in Workfront-lijsten en -rapporten, maar het vervolgkeuzemenu wordt niet weergegeven met opties uit de externe API.
 
 </div>
 
