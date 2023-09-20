@@ -9,13 +9,13 @@ description: Elke gebruiker moet een toegangsniveau hebben om zich aan te melden
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # Schakel de optie voor automatische upgrade voor niet-betaalde gebruikers uit in het nieuwe licentieplan
 
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Huidig plan: Standaard
+   <td>Huidige abonnement: standaard
    <p>of</p>
    <p>Ouder plan: Plan</p></td> 
   </tr> 
@@ -57,6 +57,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. Omlaag schuiven naar [!UICONTROL **Voorkeuren**].
+1. Uitbreiden [!UICONTROL **Systeem**] in de linkernavigatie, dan klik [!UICONTROL **Voorkeuren**].
 1. In de [!UICONTROL **Algemene voorkeuren**] sectie, controleren [!UICONTROL **Automatisch upgraden uitschakelen in Toegangsniveaus**] doos.
 1. Klikken [!UICONTROL **Opslaan**].

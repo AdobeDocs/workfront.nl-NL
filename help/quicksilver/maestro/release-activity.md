@@ -3,9 +3,9 @@ title: Adobe Maestro-releaseactiviteit
 description: Gebruik Maestro om aangepaste objecten, velden en werkruimten te maken.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ De vrijgegeven functies worden weergegeven in de volgorde van hun release, met d
 Deze sectie bevat een overzicht van de functies en patches die zijn uitgebracht na de start van het gesloten bètaprogramma van Maestro op 22 mei 2023.
 
 De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma van Maestro hebben toegang tot alle functies in hun voorproef- en productieomgeving.
+
+## Week van 18 september 2023
+
+### Rijen opnieuw ordenen
+
+Voorbeeld en productie: 20 september 2023
+
+U kunt nu een of meerdere rijen (of records) opnieuw rangschikken in de tabelweergave van een recordtypepagina.
 
 ## Week van 4 september 2023
 
