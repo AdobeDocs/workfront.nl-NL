@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Beveiligingsvoorkeuren voor het systeem configureren
+title: Systeembeveiligingsvoorkeuren configureren
 description: Als Adobe Workfront-beheerder kunt u beveiligingsvoorkeuren configureren voor uw Workfront-systeem.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Insluiten van <strong>Workfront</strong> in een iframe</p> </td> 
-      <td>Hiermee kunt u Workfront insluiten in een iframe.<p>Deze optie is standaard uitgeschakeld.</p><p><b>BELANGRIJK</b>: Als u een webtoepassing weergeeft in een iframe, wordt de toepassing blootgesteld aan een kwetsbaarheid bij het aanwijzen van een klik.</p></td> 
+      <td>Hiermee kunt u Workfront insluiten in een iframe.<p>Deze optie is standaard uitgeschakeld.</p><p><b>BELANGRIJK</b>: Als u een webtoepassing weergeeft in een iframe, wordt de toepassing kwetsbaarder voor een clickjacking-beveiliging.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">SAML 2.0-verificatie toestaan in Office 365 add-ins</td> 
@@ -111,7 +111,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers in het systeem zien standaard de nieuwe Home-ervaring </td> 
-      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. In beide gevallen kunnen gebruikers ervoor kiezen om New Home op individuele basis in of uit te schakelen. Deze optie is standaard ingeschakeld.</td> 
+      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Als deze optie is ingeschakeld, kunnen gebruikers er nog steeds voor kiezen om New Home op individuele basis in of uit te schakelen. Als deze optie is uitgeschakeld, kunnen gebruikers geen nieuwe startpagina gebruiken. Deze optie is standaard ingeschakeld.</td> 
      </tr> 
     </tbody> 
    </table>
