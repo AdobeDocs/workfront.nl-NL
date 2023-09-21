@@ -7,9 +7,9 @@ description: Toegang tot Workfront Fusion via Adobe Experience Cloud biedt u een
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -109,4 +109,11 @@ In dit menu kunt u:
 U kunt uw berichten en aankondigingen op het gebied van Meldingen van Verenigde Shell vinden.
 
 Klik op het pictogram Meldingen om uw meldingen weer te geven ![Meldingspictogram](assets/notifications-icon.png) in de rechterbovenhoek van het scherm. Een rode stip op het pictogram Meldingen geeft aan dat u ongelezen meldingen of aankondigingen hebt.
+
+Voor instructies over het configureren van uw meldingen in de Adobe Experience Cloud raadpleegt u [Configuratie van melding](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in de documentatie bij de Adobe.
+
+Let bij het configureren op het volgende:
+
+* **Waarschuwingen** verwijzen naar vastgelopen scenario&#39;s.
+* **Updates voor inhoud** verwijs naar fouten en waarschuwingen in scenario uitvoeren.
 

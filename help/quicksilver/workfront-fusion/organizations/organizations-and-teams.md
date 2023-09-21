@@ -8,9 +8,9 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ De uitnodiging verloopt over een dag.
 
 U kunt deel uitmaken van meer dan één organisatie in Fusion. De middelen worden niet gedeeld tussen organisaties.
 
-U kunt organisaties binnen de Adobe Verenigde Ervaring schakelen door de organisatienaam in de hoger-juiste hoek te klikken en de nieuwe organisatie van dropdown te selecteren. Alleen organisaties met een Fusion-account worden weergegeven in het vervolgkeuzemenu, zelfs als u lid bent van andere organisaties in Adobe.
+U kunt organisaties binnen de Adobe Verenigde Ervaring schakelen door de organisatienaam in de hoger-juiste hoek te klikken en de nieuwe organisatie van dropdown te selecteren. Alleen organisaties met een Fusion-account worden in het vervolgkeuzemenu weergegeven, zelfs als u lid bent van andere organisaties in de Adobe.
 
 ## Teams
 
@@ -164,6 +164,12 @@ Een team maken:
 1. Voer een naam in voor het nieuwe team en klik op **Toevoegen**.
 
 #### Meldingsopties voor team instellen
+
+>[!NOTE]
+>
+>Als u toegang hebt tot [!DNL Fusion] via de [!DNL Adobe Experience Cloud], worden uw meldingen verwerkt in de [!DNL Experience Cloud] meldingscentrum.
+>
+>Zie voor meer informatie [Toegang tot uw berichten](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 De opties voor e-mailmeldingen worden ingesteld op teamniveau.
 
