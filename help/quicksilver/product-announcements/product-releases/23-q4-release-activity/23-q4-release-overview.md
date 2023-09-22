@@ -3,9 +3,9 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
+source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
 >| <ul><li>23.8 (31 augustus 2023)</li><li>23.9 (28 september 2023)</li><li>23.10 (26 oktober 2023)</li></ul> | <ul><li>23.10 uur (week 26 oktober 2023)</li></ul> |
+
+De webinar voor de release van 23.10 wordt gehouden op 5 oktober 2023. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">Functies die buiten de cyclus vallen (kenmerken die vóór de releasedatum van het vierde kwartaal van 2023 in productie zijn), worden geel gemarkeerd.</span>
 
