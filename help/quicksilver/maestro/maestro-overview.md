@@ -3,7 +3,8 @@ title: Overzicht van Adobe Maestro
 description: Adobe Maestro is een nieuw aanbod van Adobe Workfront. U kunt volledig-klantgerichte werkruimten tot stand brengen om werkschema's te bepalen die aan de behoeften van elke organisatorische eenheid in uw onderneming voldoen.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 0%

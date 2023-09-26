@@ -3,7 +3,8 @@ title: Voorbeeld van het verbinden van recordtypen en records
 description: In dit artikel wordt een voorbeeld beschreven van hoe u een verbinding kunt maken tussen een Adobe Maestro-recordtype en een Workfront-projectobjecttype. Het beschrijft ook hoe u een verslag van Maestro met aan een individueel project kunt verbinden.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1742'
 ht-degree: 0%

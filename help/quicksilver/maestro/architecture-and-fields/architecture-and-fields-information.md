@@ -3,7 +3,8 @@ title: Architectuurgegevens
 description: In de volgende artikelen wordt beschreven hoe u de architectuur van Adobe Maestro kunt configureren. Als onderdeel van deze configuratie leert u hoe u werkruimten, recordtypen en aangepaste velden maakt om de workflows die u in Adobe Maestro wilt beheren, in kaart te brengen.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

@@ -3,7 +3,8 @@ title: Adobe Maestro-informatie
 description: Als leider van marketingactiviteiten kunt u met Adobe Maestro de werkzaamheden in de hele marketinglevenscyclus voor al uw teams organiseren. De artikelen in deze sectie beschrijven hoe u Maestro kunt vormen en hoe u kunt beginnen zijn mogelijkheden als deel van uw verrichtingen van het campagnebeheer te gebruiken.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
