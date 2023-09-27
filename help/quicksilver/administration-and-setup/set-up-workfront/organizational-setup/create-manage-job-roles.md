@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Taakrollen maken en beheren
-description: Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn.
+description: Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen creëren die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
+source-git-commit: fa5aa268405c8ee2b5915fd55983397decf8d198
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen creëren die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Toegangsvereisten
 
@@ -62,7 +62,11 @@ U moet het volgende hebben:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Geef een naam op voor de taakrol. Dit is de naam die overal wordt weergegeven in [!DNL Workfront] waarbij [!UICONTROL Job Role] wordt weergegeven. </p> <p>Tip: De naam van een taakrol kan maximaal 255 tekens bevatten. Langere namen kunnen echter worden afgebroken in bepaalde gebieden van [!DNL Workfront]. </p> </td> 
+      <td> <p>Geef een naam op voor de taakrol. Dit is de naam die overal wordt weergegeven in [!DNL Workfront] waarbij [!UICONTROL Job Role] wordt weergegeven. </p> <p>Tip: de naam van een taakrol kan maximaal 255 tekens bevatten. Langere namen kunnen echter worden afgebroken in bepaalde gebieden van [!DNL Workfront]. </p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>Voer een beschrijving in voor de rol die aangeeft wat er uniek aan is. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
@@ -71,50 +75,44 @@ U moet het volgende hebben:
         <li> <p>Selecteren <b>[!UICONTROL Yes]</b> als u wilt dat de rol actief is en overal beschikbaar is in [!DNL Workfront] die aan gebruikers, werkpunten, enz. moeten worden geassocieerd. </p> </li> 
         <li> <p>Selecteren <b>[!UICONTROL No]</b>, als u wilt dat de rol wordt gedeactiveerd en niet beschikbaar is om toe te wijzen aan gebruikers, werkitems, enz. </p> </li> 
        </ul> <p><span>Voor informatie over het deactiveren van functies raadpleegt u</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Taakrollen deactiveren</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Voer een beschrijving in voor de rol die aangeeft wat er uniek aan is. </td> 
-     </tr> 
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
       <td> <p><span>Dit is het [!UICONTROL Base Currency], zoals ingesteld in de [!UICONTROL Setup] door uw Workfront-beheerder. Zie voor meer informatie</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wisselkoersen instellen</a> .</p> <p>Tip: <span>U kunt de [!UICONTROL Base Currency] op het taakrolniveau. Dit veld is grijs en dient als herinnering voor wat de basisvaluta voor uw systeem is.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Cost/ Hr.]</td> 
+      <td role="rowheader">[!UICONTROL Cost Rate]</td> 
       <td><p>Dit is het kostenpercentage per uur van de functie. Deze waarde berekent de geplande en de werkelijke kosten van taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke kosten van de projecten. Voer de snelheid in met de [!UICONTROL Base Currency].</p> 
-      <p><span class="preview">Voor kosteneffectieve datums klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de kosten/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. De eerste kostprijs heeft geen begindatum en de laatste kostprijs heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste kostenvoet bijvoorbeeld geen einddatum heeft en u een tweede kostenpercentage toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste kostenvoet zodat er geen hiaten bestaan.</span></p> <p><span class="preview">Tip: Als u een bestaande taakrol bewerkt, kunt u <strong>Sorteren op begindatum</strong> om de meest recente begindatum boven aan de tarieflijst te zien. </span></p></td> 
+      <p><span class="preview">Voor kosteneffectieve datums klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de kosten/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. De eerste kostprijs heeft geen begindatum en de laatste kostprijs heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste kostenvoet bijvoorbeeld geen einddatum heeft en u een tweede kostenpercentage toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste kostenvoet zodat er geen hiaten bestaan.</span></p> <p><span class="preview">Tip: wanneer u een bestaande taakrol bewerkt, kunt u <strong>Sorteren op begindatum</strong> om de meest recente begindatum boven aan de tarieflijst te zien. </span></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Bill/ Hr.] </td> 
-      <td><p>Dit is het facturerings per uurtarief van de baanrol. Deze waarde berekent de geplande en werkelijke inkomsten van de taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke inkomsten van de projecten. Voer de snelheid in met de [!UICONTROL Base Currency].</p> <p><span class="preview">Voor effectieve factureringssnelheden klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de facturering/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. Het eerste factuurtarief heeft geen begindatum en het laatste factuurtarief heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste factureringsfrequentie bijvoorbeeld geen einddatum heeft en u een seconde toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste factureringssnelheid zodat er geen hiaten bestaan.</span></p> <p><span class="preview">Tip: Als u een bestaande taakrol bewerkt, kunt u <strong>Sorteren op begindatum</strong> om de meest recente begindatum boven aan de tarieflijst te zien. </span></p> </td> 
+      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
+      <td><p>Dit is het facturerings per uurtarief van de baanrol. Deze waarde berekent de geplande en werkelijke inkomsten van de taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke inkomsten van de projecten. Voer de snelheid in met de [!UICONTROL Base Currency].</p> <p><span class="preview">Voor effectieve factureringssnelheden klikt u op <strong>[!UICONTROL Add Rate]</strong>. Voer de waarde van de facturering/het uur voor de tijdsperiode in en wijs een [!UICONTROL Start Date] en [!UICONTROL End Date] indien nodig. Het eerste factuurtarief heeft geen begindatum en het laatste factuurtarief heeft geen einddatum.</span></p> <p><span class="preview">Sommige datums worden automatisch toegevoegd. Als de eerste factureringsfrequentie bijvoorbeeld geen einddatum heeft en u een seconde toevoegt met een begindatum van 1 mei 2023, wordt een einddatum van 30 april 2023 toegevoegd aan de eerste factureringssnelheid zodat er geen hiaten bestaan.</span></p> <p><span class="preview">Tip: wanneer u een bestaande taakrol bewerkt, kunt u <strong>Sorteren op begindatum</strong> om de meest recente begindatum boven aan de tarieflijst te zien. </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
-      <td> 
-       <div> 
-        <p>Selecteer een valuta die aan deze taakrol is gekoppeld. Dit is de munteenheid die [!DNL Workfront] gebruik voor het berekenen van de kosten en opbrengsten die met deze functie samenhangen. </p> 
-        <p><span>Dit is een andere dan de [!UICONTROL Base Currency] door uw [!DNL Workfront] beheerder in de [!UICONTROL Setup] en kan verschillen van de valuta die aan een project is gekoppeld.</span> </p> 
-        <p>Tip: Alleen valuta's die beschikbaar zijn in de [!UICONTROL Exchange Rates] in uw systeem beschikbaar in dit veld.</p> 
-       </div> <p><span>Voor informatie over het instellen van de [!UICONTROL Base Currency] in [!DNL Workfront], zie</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wisselkoersen instellen</a>.</p> <p><span>Voor informatie over het wijzigen van de valuta van een project raadpleegt u</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">De projectvaluta wijzigen</a>.</p> </td> 
+      <td>
+        <p>Selecteer een valuta die aan deze taakrol is gekoppeld. Dit is de valuta die [!DNL Workfront] gebruik voor het berekenen van de kosten en opbrengsten die met deze functie samenhangen. </p> 
+        <p><span>Dit is anders dan de [!UICONTROL Base Currency] door uw [!DNL Workfront] beheerder in de [!UICONTROL Setup] en kan verschillen van de valuta die aan een project is gekoppeld.</span> </p> 
+        <p>Tip: alleen valuta's beschikbaar in de [!UICONTROL Exchange Rates] in uw systeem beschikbaar zijn in dit veld.</p> 
+       <p><span>Voor informatie over het instellen van de [!UICONTROL Base Currency] in [!DNL Workfront], zie</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wisselkoersen instellen</a>.</p> <p><span>Voor informatie over het wijzigen van de valuta van een project raadpleegt u</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">De projectvaluta wijzigen</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency Cost/ Hour]</span> </td> 
-      <td> 
-       <div> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
+      <td>
         <p>Dit is het kostenpercentage per uur van de functie die wordt gebruikt voor de geselecteerde [!UICONTROL Override Currency]. [!DNL Workfront] gebruikt deze waarde om de geplande en de werkelijke kosten van taken en kwesties te berekenen die verband houden met de functie. </p> 
-        <p><span>Voer de snelheid in het dialoogvenster [!UICONTROL Override Currency] hierboven gespecificeerd. Dit werkt ook het tarief van Kosten/Uur voor deze baanrol bij wanneer het gebruiken van [!UICONTROL Base Currency].</span> </p> 
+        <p><span>Voer de snelheid in het dialoogvenster [!UICONTROL Override Currency] hierboven gespecificeerd. Dit werkt ook het Kostentarief voor deze baanrol bij wanneer het gebruiken van [!UICONTROL Base Currency].</span> </p> 
         <p>Voor informatie over hoe [!DNL Workfront] berekent kosten, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>.</p> 
-       </div> <p>Tip: Bij het bijwerken van een bestaande functie waaraan al een kosten/uurtarief is gekoppeld, [!DNL Workfront] berekent de [!UICONTROL Override Currency] op basis van de conversiesnelheid in uw systeem. Als u de [!UICONTROL Override Currency Cost/ Hour]De kosten/uren van de rol worden ook automatisch bijgewerkt.</p> </td> 
+       <p>Tip: wanneer u een bestaande rol bijwerkt waaraan al een kostenpercentage is gekoppeld, [!DNL Workfront] berekent de [!UICONTROL Override Currency] op basis van de conversiesnelheid in uw systeem. Als u de [!UICONTROL Override Currency Cost Rate], wordt het kostenpercentage van de functie ook automatisch bijgewerkt.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency Billing/ Hour]</span> </td> 
-      <td> 
-       <div> 
-        <p>Dit is het facturerings per uurtarief van de baanrol gebruikend geselecteerde [!UICONTROL Override Currency]. [!DNL Workfront] gebruikt deze waarde om de geplande en de daadwerkelijke opbrengst van taken en kwesties te berekenen verbonden aan de baanrol. </p> 
-        <p><span>Voer de snelheid in het dialoogvenster [!UICONTROL Override Currency] hierboven gespecificeerd. Dit werkt ook het facturerings/Uuretarief voor deze baanrol bij wanneer het gebruiken van [!UICONTROL Base Currency].</span> </p> 
-        <p>Voor informatie over hoe [!DNL Workfront] berekent inkomsten, zie <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overzicht van facturering en inkomsten</a>.</p> 
-       </div> <p>Tip: Bij het bijwerken van een bestaande taakrol waaraan al een facturerings-/uurtarief is gekoppeld, [!DNL Workfront] berekent de wisselkoers bij overschrijven op basis van de conversiekoers in uw systeem. Als u de facturering/uur van valuta overschrijven bijwerkt, wordt de facturering/uur van de taakrol ook automatisch bijgewerkt. </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
+      <td>
+        <p>Dit is het facturerings per uurtarief van de baanrol gebruikend geselecteerde [!UICONTROL Override Currency]. [!DNL Workfront] gebruikt deze waarde om de geplande en de daadwerkelijke opbrengst van taken en kwesties te berekenen verbonden aan de baanrol. </p>
+        <p><span>Voer de snelheid in het dialoogvenster [!UICONTROL Override Currency] hierboven gespecificeerd. Dit werkt ook het Facturerings Rate voor deze baanrol bij wanneer het gebruiken van [!UICONTROL Base Currency].</span> </p>
+        <p>Voor informatie over hoe [!DNL Workfront] berekent inkomsten, zie <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overzicht van facturering en inkomsten</a>.</p>
+        <p>Tip: wanneer u een bestaande taakrol bijwerkt waaraan al een factureringspercentage is gekoppeld [!DNL Workfront] berekent de wisselkoers bij overschrijven op basis van de conversiekoers in uw systeem. Als u de factureringssnelheid voor valuta overschrijven bijwerkt, wordt de factureringssnelheid van de taakrol ook automatisch bijgewerkt. </p>
+       </td>
      </tr> 
     </tbody> 
    </table>
@@ -123,7 +121,7 @@ U moet het volgende hebben:
    >
    >De rollen van de baan zijn een integraal deel van het beheren van middelen. Om de middelen planningshulpmiddelen te gebruiken, hebben de baanrollen een kosten en het facturerings tarief verbonden aan hen nodig. Zie voor meer informatie [Aan de slag met Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over alle toepassingen van functies in [!DNL Workfront], zie [Overzicht van taakrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Voor informatie over het verwijderen van een taakrol raadpleegt u [Taakrollen verwijderen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over alle toepassingen van functies in [!DNL Workfront], zie [Overzicht van de taakrol](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Zie voor informatie over het verwijderen van een taakrol [Taakrollen verwijderen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
