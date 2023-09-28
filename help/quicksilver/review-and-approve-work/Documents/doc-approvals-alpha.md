@@ -2,54 +2,68 @@
 product-area: documents
 navigation-topic: approvals
 title: Alfa-programma - Goedkeuringen document
-description: We zijn erg blij dat we de start van ons Alpha-programma voor documentgoedkeuring aankondigen. Hier vindt u informatie over de nieuwste Alfa-release samen met een korte videodemo om u aan de slag te krijgen.
+description: We zijn blij dat we de start van ons Alpha-programma voor documentgoedkeuring aankondigen. Hier vindt u informatie over de nieuwste release van de Alpha en een korte videodemo om u aan de slag te krijgen.
 author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: d52a550350aad0b7ae67d90e3742a21de743f2b3
+source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
 # Alfa-programma - Goedkeuringen document
 
-We zijn erg blij dat we de start van ons Alpha-programma voor documentgoedkeuring aankondigen. Hier vindt u informatie over de nieuwste Alfa-release samen met een korte videodemo om u aan de slag te krijgen.
+We zijn blij dat we de start van ons Alpha-programma voor documentgoedkeuring aankondigen. Hier vindt u informatie over de nieuwste release van de Alpha en een korte videodemo om u aan de slag te krijgen.
 
 ## Eerste configuratie
 
-Als u wilt deelnemen aan deze Alfa-release, moet u controleren of u door het productteam bent toegevoegd aan Alfa in Voorvertoning. Als dat niet het geval is, neemt u contact op met uw Customer Success of accountmanager en vraagt u om een nieuwe account.
+Als u wilt deelnemen aan deze release van Alpha, moet u controleren of u door het productteam bent toegevoegd aan de Alpha in Voorvertoning. Als dat niet het geval is, neemt u contact op met uw Customer Success of accountmanager en vraagt u om een nieuwe account.
 
 ## Laatste release
 
-### Alfa-release 4 - mei 2023
+### Release van de Alpha 5 - september 2023
 
-In deze 4de Alpha- versie, alvorens aan productie voor slechts een bepaalde groep klanten te lanceren, hebben wij berichten in de kopbal van Workfront, updatestroom, en e-mail opgenomen. E-mailmeldingen zijn exclusief voor de productieomgeving en zijn niet zichtbaar in uw voorvertoningsomgeving. Als u geïnteresseerd bent in de implementatie van deze release in uw productieomgeving op 14 juni, kunt u mij rechtstreeks bereiken op jbarron@adobe.com.
+In deze vijfde release van de Alpha hebben we het volgende:
+
+* Verbeterde lijst met fiatteurs en revisoren
+* De mogelijkheid toegevoegd aan fiatteurs die nog geen goedkeuringsbesluit hebben genomen
+* De mogelijkheid toegevoegd om afzonderlijke teamleden weer te geven in de goedkeuringslijst
+* De mogelijkheid toegevoegd om externe fiatteurs toe te voegen
+* De weergave voor externe fiatteurs is verbeterd voor het weergeven, downloaden en toevoegen van opmerkingen aan een document
+
+Bekijk de volledige video die hieronder doorloopt:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424613/)
+
+## _Eerdere versies_
+
+### Release van de Alpha 4 - mei 2023
+
+In deze release van de 4de Alpha hebben we, voordat we de productie voor slechts een bepaalde groep klanten lanceren, berichten opgenomen in de Workfront-header, de updatestream en e-mail. E-mailmeldingen zijn exclusief voor de productieomgeving en zijn niet zichtbaar in uw voorvertoningsomgeving. <!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
 
 We zijn enthousiast over deze mijlpaal en kijken uit naar nog veel meer.
 
 Bekijk de volledige video die hieronder doorloopt:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420094/)
+Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3420094/){target=_blank}
 
-## _Eerdere versies_
+### Release 3 van de Alpha - maart 2023
 
-### Alfa-release 3 - maart 2023
-
-In deze 3de Alpha- versie, hebben wij uw terugkoppel door succesberichten opgenomen te introduceren die bij de voltooiing van acties zoals het toevoegen van of het verwijderen van fiatteurs en recensenten tonen. Bovendien biedt deze release uitgebreide zichtbaarheid van goedkeuringen die in behandeling zijn en die nu kunnen worden weergegeven op de pagina&#39;s Home en Mijn updates, zodat gebruikers eenvoudig documenten rechtstreeks vanaf deze pagina&#39;s kunnen goedkeuren.
+In deze release van de derde Alpha hebben we uw feedback verwerkt door succesberichten te introduceren die worden weergegeven wanneer acties worden voltooid, zoals het toevoegen of verwijderen van fiatteurs en revisoren. Bovendien biedt deze release uitgebreide zichtbaarheid van goedkeuringen die in behandeling zijn en die nu kunnen worden weergegeven op de pagina&#39;s Home en Mijn updates, zodat gebruikers eenvoudig documenten rechtstreeks vanaf deze pagina&#39;s kunnen goedkeuren.
 
 Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3417854/){target=_blank}
 
-### Alfa-release 2 - jan. 2023
+### Release 2 van Alpha - januari 2023
 
-Met deze Alpha 2 versie kunt u individuen en teams als recensenten of fiatteurs toevoegen en goedkeuringsbesluiten direct van de pagina van documentdetails nemen.
+Met deze release van Alpha 2 kunt u personen en teams toevoegen als revisoren of fiatteurs en rechtstreeks goedkeuringsbesluiten nemen op de pagina met documentdetails.
 
 Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
-### Alfa-release 1 - nov. 2022
+### Release 1 van de Alpha - nov. 2022
 
 Kijk naar onze [video doorlopen](https://video.tv.adobe.com/v/3412837){target=_blank} en voel je vrij om mee te volgen als je wilt!
 
