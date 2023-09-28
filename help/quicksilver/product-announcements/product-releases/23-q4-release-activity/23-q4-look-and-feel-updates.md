@@ -4,13 +4,13 @@ description: De blik-en-voelen updates tijdens het Vierde Kwartaal 2023 de tijdk
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # De blik-en-voelen updates tijdens het Vierde Kwartaal 2023 versietijdkader
 
@@ -27,3 +27,13 @@ Voor een lijst van alle veranderingen beschikbaar met de Vierde Versie van het K
 We hebben de tabbladen voor e-mailmeldingen, herinneringsberichten en e-mailsjablonen in het gedeelte Instellen > E-mail > Meldingen bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront.
 
 Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het systeem](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+## Updates voor taakrolschermen bekijken en voelen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 21 september 2023; Productieversie voor alle klanten: wanneer de tariefkaarten en andere updates voor financieel beheer worden vrijgegeven
+
+We hebben de schermen New Job Role en Edit Job Role bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront.
+
+Zie voor meer informatie [Taakrollen maken en beheren](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
