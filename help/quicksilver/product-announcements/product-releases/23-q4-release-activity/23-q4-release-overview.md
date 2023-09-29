@@ -4,9 +4,9 @@ description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ De webinar voor de release van 23.10 wordt gehouden op 5 oktober 2023. U kunt [r
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### Verbeteringen voor startpagina
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nieuwe snelle toegangsknoppen voor widgets Project, Taak en Probleem bijhouden</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Uw mogelijkheden om het werk rechtstreeks vanuit New Home te beheren, zijn uitgebreid en er zijn nieuwe sneltoegangsknoppen toegevoegd aan de widgets Project, Taak en Probleem bijhouden.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 13 september 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23,9</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nieuwe filteropties voor Nieuwe startpagina</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Er zijn nu nieuwe filteropties beschikbaar voor de widget Mijn werk in Nieuwe startpagina. U kunt onder andere filters voor objecttypen (taken, problemen en verzoeken) en statussen (niet gereed, klaar om te starten, te werken en te voltooien) kiezen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor aangepaste terminologie voor New Home</a> </p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <p>Om beter aan de unieke behoeften van organisaties te voldoen, gebruikt Nieuw Huis nu douaneterminologie voor voorwerpen zoals die in de lay-outmalplaatjes van een instantie worden bepaald. Als "Project"-objecten bijvoorbeeld in uw Workfront-instantie als "Campagnes" zijn gelabeld, wordt de widget Mijn projecten in plaats daarvan weergegeven als Mijn campagnes in Nieuw startpunt.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">De knop Nieuwe startpagina wordt verwijderd voor accounts waarvoor Nieuwe startpagina is uitgeschakeld</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>De knop Nieuwe startpagina proberen is niet meer beschikbaar voor accounts waarvoor Nieuwe startpagina is uitgeschakeld. Het nieuwe Huis moet door de systeembeheerder opnieuw worden toegelaten alvorens individuele gebruikers de knoop kunnen gebruiken om Nieuwe Huis te proberen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 23.8</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Wijzigen in standaardwidget Nieuwe startpagina</a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>De widget Aan/uit, waarvoor toestemming nodig is om taken te maken, is nu alleen aanwezig in de standaardwidget die is ingesteld voor gebruikers met de licentietypen Standaard, Overzicht of Werkwerk. Bovendien is de widget automatisch verwijderd van de homepages van gebruikers met alle andere licentietypen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: 17 augustus 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: 17 augustus 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ De webinar voor de release van 23.10 wordt gehouden op 5 oktober 2023. U kunt [r
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 23.10 release (tenzij anders gespecificeerd)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nieuwe knoppen voor snelle toegang tot de widget Mijn werk</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
-                        <p>Als u uw mogelijkheden om uw werk rechtstreeks vanuit New Home te beheren verder uitbreidt, zijn er nieuwe sneltoetsen toegevoegd aan de widget Mijn werk.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: 13 september 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Productie voor snelle release: met de release van 23,9</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nieuwe filteropties voor Nieuwe startpagina</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
-                        <p>Er zijn nu nieuwe filteropties beschikbaar voor de widget Mijn werk in Nieuwe startpagina. U kunt onder andere filters voor objecttypen (taken, problemen en verzoeken) en statussen (niet gereed, klaar om te starten, te werken en te voltooien) kiezen.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Productie voor snelle release: met de release van 23.8</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor aangepaste terminologie voor New Home</a> </p><p>[!BADGE in productie ]{type=Informative}</p>
-                        <p>Om beter aan de unieke behoeften van organisaties te voldoen, gebruikt Nieuw Huis nu douaneterminologie voor voorwerpen zoals die in de lay-outmalplaatjes van een instantie worden bepaald. Als "Project"-objecten bijvoorbeeld in uw Workfront-instantie als "Campagnes" zijn gelabeld, wordt de widget Mijn projecten in plaats daarvan weergegeven als Mijn campagnes in Nieuw startpunt.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">De knop Nieuwe startpagina wordt verwijderd voor accounts waarvoor Nieuwe startpagina is uitgeschakeld</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
-                        <p>De knop Nieuwe startpagina proberen is niet meer beschikbaar voor accounts waarvoor Nieuwe startpagina is uitgeschakeld. Het nieuwe Huis moet door de systeembeheerder opnieuw worden toegelaten alvorens individuele gebruikers de knoop kunnen gebruiken om Nieuwe Huis te proberen.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Productie voor snelle release: met de release van 23.8</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Wijzigen in standaardwidget Nieuwe startpagina</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
-                        <p>De widget Aan/uit, waarvoor toestemming nodig is om taken te maken, is nu alleen aanwezig in de standaardwidget die is ingesteld voor gebruikers met de licentietypen Standaard, Overzicht of Werkwerk. Bovendien is de widget automatisch verwijderd van de homepages van gebruikers met alle andere licentietypen.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: 17 augustus 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Productie voor snelle release: 17 augustus 2023</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: 17 augustus 2023</p>
                             </li>
                         </ul>
                     </td>

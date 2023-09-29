@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Als u wilt deelnemen aan deze release van Alpha, moet u controleren of u door he
 In deze vijfde release van de Alpha hebben we het volgende:
 
 * Verbeterde lijst met fiatteurs en revisoren
-* De mogelijkheid toegevoegd aan fiatteurs die nog geen goedkeuringsbesluit hebben genomen
+* De mogelijkheid toegevoegd om fiatteurs te herinneren die nog geen goedkeuringsbesluit hebben genomen
 * De mogelijkheid toegevoegd om afzonderlijke teamleden weer te geven in de goedkeuringslijst
 * De mogelijkheid toegevoegd om externe fiatteurs toe te voegen
 * De weergave voor externe fiatteurs is verbeterd voor het weergeven, downloaden en toevoegen van opmerkingen aan een document
