@@ -7,9 +7,9 @@ description: U kunt kaarten op een bord groeperen door een ontvanger of door mar
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ U kunt kaarten op een bord groeperen door een ontvanger of door markering. Wanne
 
 >[!NOTE]
 >
->Kaarten in de inlaatkolom worden niet in een groep opgenomen. Voor informatie over de inlaatkolom, zie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Kaarten in de inlaatkolom worden niet in een groep opgenomen en de inlaatkolom wordt verborgen wanneer een groep wordt toegepast. Voor informatie over de inlaatkolom, zie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Toegangsvereisten
 
