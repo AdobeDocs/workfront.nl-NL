@@ -5,13 +5,13 @@ title: Aan de slag met New Home in Adobe Workfront
 description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met New Home in Adobe Workfront
 
@@ -131,24 +131,9 @@ U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kle
 
 1. In de **Achtergrond** van de **Aanpassen** klikt u op de kleur die u voor de achtergrond Home wilt selecteren. U kunt ook op **Geen** om de achtergrond te verwijderen.
 
-### Filteren op tijdbereik
-
-U kunt alle informatie op uw startpagina snel filteren om objectinformatie binnen drie specifieke tijdbereiken weer te geven: Dag, Week of Maand. Bovendien wordt boven aan de startpagina een overzicht weergegeven van het aantal taken dat u moet uitvoeren en de taken die u binnen het bereik hebt voltooid.
-
-**Het tijdbereik van uw startpagina wijzigen:**
-
-1. Ga naar uw startpagina door op het Adobe Workfront-pictogram te klikken ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) boven aan het scherm als Home is ingesteld als uw openingspagina of door op het pictogram van het hoofdmenu te klikken ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) vervolgens klikken op **Home**.
-
-1. Klik op het tijdbereikfilter in de linkerbovenhoek van de startpagina. Het filter is standaard ingesteld op **Mijn week**.
-
-   ![Vervolgkeuzelijst voor tijdbereikfilter](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Klik op een van beide **Dag**, **Week**, of **Maand** om de startpagina te filteren, zodat deze alleen informatie weergeeft over objecten die binnen dat tijdsbestek zijn vervallen.
-
 ## Huidige Home-ervaring herstellen
 
 Voor gebruikers die de voorkeur geven aan de bestaande Home-ervaring, kan New Home worden uitgeschakeld.
-
 
 **Ga terug naar de huidige Home-ervaring:**
 

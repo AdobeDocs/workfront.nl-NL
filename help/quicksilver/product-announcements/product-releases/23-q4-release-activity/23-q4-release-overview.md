@@ -3,10 +3,10 @@ title: Overzicht release 4de kwartaal 2023
 description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
-exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,7 @@ De webinar voor de release van 23.10 wordt gehouden op 5 oktober 2023. U kunt [r
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor borden](#boards-enhancements)
+* [Verbeteringen voor startpagina](#home-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Andere verbeteringen](#other-enhancements)
@@ -201,26 +202,26 @@ De webinar voor de release van 23.10 wordt gehouden op 5 oktober 2023. U kunt [r
                         </p>
                     </td>
                  </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Wijzigingen voor werkregistratie in Nieuwe startpagina </a> </p>
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Op basis van gebruikersfeedback hebben we het tijdbereikfilter en de overzichtsbalk voor de hele pagina verwijderd, waarin taken werden beschreven die moesten worden uitgevoerd en voltooid. De widgets van het project, van de Taak, en van de Kwestie elk hebben ingebouwde het filtreren eigenschappen die u toestaan om hun werkingsgebied op een individuele basis aan te passen.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: September 13, 2023<br /></p>
+                                <p>Voorvertoningsrelease: 13 september 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.9 release</p>
+                                <p>Productie voor snelle release: met de release van 23,9</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nieuwe snelle toegangsknoppen voor widgets Project, Taak en Probleem bijhouden</a> </p>
