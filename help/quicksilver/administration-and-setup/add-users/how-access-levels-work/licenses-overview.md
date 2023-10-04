@@ -5,21 +5,21 @@ content-type: reference
 product-area: system-administration
 keywords: licentie,type
 navigation-topic: access-levels
-description: Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen nieuwe licenties voor betaalde Workfront wanneer u een toegangsniveau aan de gebruiker toewijst.
+description: Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen nieuwe Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
 # Overzicht van nieuwe licenties
 
-Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen betaalde Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
+Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
 
 ## Hoe nieuwe Workfront-licenties en nieuwe toegangsniveaus aan elkaar zijn gekoppeld
 
