@@ -6,9 +6,9 @@ description: Bronvelden voor abonnementen
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
+source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
  <col> 
  <thead> 
   <tr> 
-   <th>Resource</th> 
+   <th>Bron</th> 
    <th>objCode</th> 
    <th>Veld</th> 
   </tr> 
@@ -54,12 +54,17 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> assignPercent </td> 
+   <td> toewijzingspercentage </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td> avgWorkPerDay </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> classifierID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -137,6 +142,11 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td> </td> 
    <td> </td> 
    <td>werk</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workPerDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -241,7 +251,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Opmerking: LastUpdateDate zal slechts een gebeurtenis teweegbrengen de eerste keer dat het tijdens elke dag wordt bijgewerkt. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Opmerking: LastUpdateDate activeert alleen een gebeurtenis de eerste keer dat deze tijdens elke dag wordt bijgewerkt. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -531,7 +541,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>bewijsbeschikking</span> </td> 
+   <td><span>bewijsBesluit</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1467,6 +1477,11 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td> </td> 
    <td> </td> 
    <td>approvalProcessID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachedRateCardID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2486,7 +2501,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>tiworkHoursPerDaytle</td> 
+   <td>workHoursPerDay </td> 
   </tr> 
  </tbody> 
 </table>
