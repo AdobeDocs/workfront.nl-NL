@@ -6,9 +6,9 @@ description: Wanneer u een kaart van een bord schrapt, wordt het permanent gesch
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -54,17 +54,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    An [!UICONTROL Archive] pictogram ![Archief](assets/archive-icon-spectrum-25x20.png) wordt weergegeven op gearchiveerde kaarten. U kunt een gearchiveerde kaart niet bewerken, maar u kunt de kaart wel verwijderen of naar een andere kolom verplaatsen.
 
-1. Als u een gearchiveerde kaart wilt herstellen, klikt u op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Restore]**.
+1. Om een gearchiveerde kaart te herstellen, klik **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Restore]**.
 
 ## Een kaart filteren om gearchiveerde kaarten weer te geven {#filter-a-board-to-show-archived-cards}
 
 Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord filteren om ook gearchiveerde kaarten weer te geven.
 
 1. Toegang tot het bord.
-1. Klik op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png), breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** om gearchiveerde kaarten weer te geven.
+1. Klikken [!UICONTROL **Configureren**] rechts van de board om het Configure paneel te openen.
+1. Uitbreiden [!UICONTROL **Kaarten**].
+1. Inschakelen [!UICONTROL **Gearchiveerde kaarten op de kaart weergeven**].
+1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** gearchiveerde kaarten weergeven.
 
    Het filter geeft het aantal gearchiveerde kaarten weer.
 
-   ![Gearchiveerde kaarten filteren](assets/boards-filter-by-archived-cards_0822.png)
+   ![Gearchiveerde kaarten filteren](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >De [!UICONTROL Archived Cards] is niet beschikbaar in het filter als u de configuratie-instelling niet hebt ingeschakeld om gearchiveerde kaarten weer te geven.
 
 1. Selecteren **[!UICONTROL Archived cards]** om de optie te wissen en alleen actieve kaarten weer te geven.

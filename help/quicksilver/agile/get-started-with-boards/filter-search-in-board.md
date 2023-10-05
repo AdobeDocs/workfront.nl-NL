@@ -6,9 +6,9 @@ description: U kunt een bord filteren om alleen bepaalde kaarten weer te geven.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord filteren om ook gearchiveerde kaarten weer te geven.
 
 1. Toegang tot het bord.
+1. Klikken [!UICONTROL **Configureren**] rechts van de board om het Configure paneel te openen.
+1. Uitbreiden [!UICONTROL **Kaarten**].
+1. Inschakelen [!UICONTROL **Gearchiveerde kaarten op de kaart weergeven**].
 1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** gearchiveerde kaarten weergeven.
 
    Het filter geeft het aantal gearchiveerde kaarten weer.
 
-   ![Gearchiveerde kaarten filteren](assets/boards-filter-by-archived-cards_0822.png)
+   ![Gearchiveerde kaarten filteren](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >De [!UICONTROL Archived Cards] is niet beschikbaar in het filter als u de configuratie-instelling niet hebt ingeschakeld om gearchiveerde kaarten weer te geven.
 
 1. Selecteren **[!UICONTROL Archived cards]** om de optie te wissen en alleen actieve kaarten weer te geven.
 
