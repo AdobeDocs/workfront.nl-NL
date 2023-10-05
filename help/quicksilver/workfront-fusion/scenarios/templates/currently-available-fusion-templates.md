@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Deze sjablonen automatiseren Workfront-processen en -workflows.
 
 ### [!BADGE Nieuw!]{type=Informative}
 
-Deze automatisering zoekt naar nieuwe projecten in programma&#39;s met aangepaste formulieren. Vervolgens worden deze aangepaste formulieren en velden voor het programma toegevoegd aan de nieuwe projecten.
+Deze automatisering leidt tot nieuwe projecten in Workfront die van Naam, Portfolio, Status, Geplande Datum van het Begin, en de details van het Malplaatje worden gebaseerd die u in CSV specificeert.
 
 ### [!BADGE Nieuw!]{type=Informative}
+
+Gebruik deze sjabloon om een notitie-update van 30 dagen toe te passen op uw verzoeken. Voor aanvragen die niet over 30 dagen zijn bijgewerkt, wordt de status gewijzigd en op 60 dagen gesloten.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+Deze automatisering werkt projecten aan Volledige status bij die alle taken bij 1005 volledig hebben. Projecten met open kwesties of open taken of projectgoedkeuringen zullen een update ontvangen, en wanneer opgelost, zullen de projecten aan Volledige status overgaan.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+Gebruik dit scenario helpen de waarschuwing over en de sluiting van projecten automatiseren die aan het het verouderde projectbeleid van uw organisatie voldoen.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+Gebruik deze sjabloon om notities en antwoorden van een uitgave of verzoek te kopiëren naar een reeds omgezet project of taak.
+
+### Workfront - Program Custom Forms en Field Data kopiëren naar bijbehorende nieuwe projecten
+
+Deze automatisering zoekt naar nieuwe projecten in programma&#39;s met aangepaste formulieren. Vervolgens worden deze aangepaste formulieren en velden voor het programma toegevoegd aan de nieuwe projecten.
+
+### Workfront - Aangepaste Forms- en veldgegevens van Portfolio kopiëren naar gekoppelde nieuwe projecten
 
 Deze automatisering zoekt naar nieuwe projecten in portfolio&#39;s met aangepaste formulieren. Deze portfolio voegt vervolgens aangepaste formulieren en velden toe aan de nieuwe projecten.
 
@@ -58,7 +78,7 @@ Dit malplaatje vangt een projectbasislijn op om het even welke verandering van d
 
 Deze malplaatje vangt een projectbasislijn op wekelijkse basis elke Maandag om 6 uur ET op projecten die door portefeuille worden gefiltreerd, en leidt tot een update in de updatestroom voor registreren.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Projectsjablonen zoeken die niet worden gebruikt in de beleidstijd en hiervan melding maken
 
 Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met dit gemakkelijk te beheren malplaatje dat aangewezen gebruikers op malplaatjes in strijd met uw beleid op de hoogte brengt.
 
@@ -81,6 +101,10 @@ Deze sjablonen halen informatie op van een webservice en brengen die informatie 
 >[!NOTE]
 >
 > U moet een Workfront Fusion for Work Automation and Integration-licentie hebben om sjablonen in deze sectie te kunnen gebruiken.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+JWT-autorisatie voor een client-API instellen.
 
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
@@ -105,6 +129,19 @@ Dit scenario verstrekt een programmatic manier om e-mail en webinar campagnes in
 ### Een e-mailproefexemplaar van uw concept van uw Marketo Engage-e-mail controleren in Workfront
 
 Deze sjabloon detecteert of een Workfront-taak is ingesteld op een status die klaar is voor controle en exporteert het e-mailconcept van Marketo Engage om het op te slaan als een proefexemplaar in Workfront.
+
+## Workfront-SharePoint-sjablonen
+
+Deze sjablonen verbinden Workfront en SharePoint.
+
+>[!NOTE]
+>
+> U moet een Workfront Fusion for Work Automation and Integration-licentie hebben om sjablonen in deze sectie te kunnen gebruiken.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+Met deze sjabloon kunt u zien of een SharePoint-map is gewijzigd.
+
 
 ## Workfront-Anaplan sjablonen
 
@@ -131,3 +168,6 @@ Zie voor meer informatie over de integratie tussen Workfront en Anaplan [Adobe W
 
 * [Een [!DNL Anaplan] lijstitem uit een [!DNL Adobe Workfront] campagneverzoek](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Pas een [!DNL Anaplan] begrotingstoewijzing aan een [!DNL Adobe Workfront] campagneverzoek of campagneproject](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
