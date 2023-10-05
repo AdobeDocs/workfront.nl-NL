@@ -2,17 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Documenten toevoegen aan kaarten
-description: binnenkort!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+description: U kunt documenten toevoegen aan verbonden kaarten op Adobe Workfront Boards.
 author: Lisa
 feature: Agile
-source-git-commit: 5c7842352a5b69d04e018e13756a2047c77a0855
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
+source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
 
 # Documenten toevoegen aan kaarten
+
+>[!IMPORTANT]
+>
+>Deze functie is tijdelijk uitgeschakeld in alle omgevingen.
 
 {{article-preview-and-fast-release}}
 
