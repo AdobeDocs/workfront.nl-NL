@@ -4,13 +4,13 @@ description: Gebruik Maestro om aangepaste objecten, velden en werkruimten te ma
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Maestro-releaseactiviteit
 
@@ -34,13 +34,21 @@ Deze sectie bevat een overzicht van de functies en patches die zijn uitgebracht 
 
 De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma van Maestro hebben toegang tot alle functies in hun voorproef- en productieomgeving.
 
+## Week van 9 oktober 2023
+
+### Zoeken in tabelweergave
+
+Voorbeeld en productie: 9 oktober 2023
+
+U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweergave. U kunt trefwoorden en speciale tekens gebruiken in alle velden die zichtbaar zijn op het scherm om een record te zoeken. Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
+
 ## Week van 18 september 2023
 
 ### Rijen opnieuw ordenen
 
 Voorbeeld en productie: 20 september 2023
 
-U kunt nu een of meerdere rijen (of records) opnieuw rangschikken in de tabelweergave van een recordtypepagina.
+U kunt nu een of meerdere rijen (of records) opnieuw rangschikken in de tabelweergave van een recordtypepagina. Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
 
 ## Week van 4 september 2023
 

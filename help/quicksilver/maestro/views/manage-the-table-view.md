@@ -4,13 +4,13 @@ description: U kunt records en de bijbehorende velden in een tabelweergave weerg
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
-
 
 # De tabelweergave beheren
 
@@ -145,24 +145,45 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >
    >* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk.
 
-1. Als u de kolommen breder wilt maken, klikt u op de kolomscheidingslijnen en sleept u deze naar de gewenste plaats.
+1. Selecteer een of meerdere records in een rij en sleep de **handgreep** pictogram ![](assets/handle-icon.png) links van de recordnaam om de rijen opnieuw te ordenen.
+
+   >[!NOTE]
+   >
+   >U kunt rijen niet opnieuw rangschikken als u ten minste één sortering toepast op de tabelweergave.
+
+1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 
    >[!TIP]
    >
    >De wijzigingen die u aanbrengt in de kolombreedte en -volgorde zijn permanent en zichtbaar voor alle gebruikers die toegang hebben tot het recordtype.
 
-1. Als u een kolom wilt verbergen, houdt u de muisaanwijzer boven de kolomkop en klikt u op de pijl omlaag en vervolgens op **Veld verbergen**
+1. Houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag, en klik vervolgens op **Veld verbergen**
 
    of
 
-   Klikken **Velden** in de tabelwerkbalk en schakelt u de schakeloptie uit die is gekoppeld aan de velden die u wilt verbergen.
+   Klikken **Velden** in de tabelwerkbalk en schakelt u de schakeloptie uit die is gekoppeld aan de velden (of kolommen) die u wilt verbergen.
 
    >[!TIP]
    >
    >Het aantal verborgen velden wordt links van het pictogram Velden op de werkbalk weergegeven.
 
 
-1. Van de **Velden** Als u deze instelling instelt, schakelt u de schakeloptie in die is gekoppeld aan de velden die u wilt weergeven in de kolommen van de tabel. Alle velden worden standaard weergegeven.
+1. Klik op de knop **Velden** het plaatsen en laat de knevel toe verbonden aan de gebieden u in de kolommen van de lijst wilt tonen. Alle velden worden standaard weergegeven.
+
+1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
+
+   1. Klik op de knop **zoeken** pictogram ![](assets/search-icon.png) en begint een sleutelwoord te typen verbonden aan om het even welk gebied van een verslag dat op het scherm toont. Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt blauw gemarkeerd.
+
+      U kunt elk woord of speciaal teken gebruiken dat op het scherm zichtbaar is.
+
+      U kunt geen trefwoorden gebruiken die zijn gekoppeld aan velden die zijn verborgen in de tabelweergave.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+   1. (Optioneel) Als er meer dan één overeenkomst is, klikt u op de pijl-omhoog of -omlaag rechts van het trefwoord Zoeken om alle overeenkomende items in de tabel te zoeken.
+
+   1. Klik op de knop **X** in het zoekvak om het zoekwoord te wissen.
+
 
 ### Rijen (of records) toevoegen {#add-rows}
 
@@ -388,12 +409,11 @@ Sorteren <!--ungrouped (add this when sorting for groupings will be available-->
 
 1. Klik buiten de **Records sorteren op** te sluiten.
 
+   ![](assets/sorting-in-table-view.png)
+
    De gegevens in de tabel worden gesorteerd op basis van de geselecteerde criteria.
 
    In de velden die u voor de sortering selecteert, wordt een sorteerpictogram weergegeven, gevolgd door een getal dat de volgorde aangeeft waarin de sortering wordt toegepast.
-
-   ![](assets/sorting-in-table-view.png)
-
 
 <!-- this is not available yet: 
 

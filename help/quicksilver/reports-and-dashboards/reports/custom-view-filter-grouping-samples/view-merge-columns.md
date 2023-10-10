@@ -7,9 +7,9 @@ description: U kunt de informatie die in veelvoudige afzonderlijke kolommen word
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    * Bij het exporteren van de weergave naar een PDF-bestand wordt voorwaardelijke opmaak toegepast op de eerste kolom in een samengevoegde kolom.
    * Wanneer u de weergave naar een Excel-bestand exporteert, worden samengevoegde kolommen weergegeven als afzonderlijke kolommen. De afzonderlijke kolommen geven ook hun respectievelijke voorwaardelijke opmaakregels weer.
 
-* Kolommen met de **viewalias** kan de hoeveelheid kolommen beperken die u kunt samenvoegen. Als u deze limieten wilt vermijden, vermijdt u het gebruik van de **viewalias** kenmerk. Als u de opdracht **viewalias** in een kolom, zorg ervoor dat het het laatste punt is dat in de kolom wordt vermeld.
+* Kolommen met de **viewalias** kan de hoeveelheid kolommen beperken die u kunt samenvoegen. Als u deze limieten wilt vermijden, vermijdt u het **viewalias** kenmerk. Als u de opdracht **viewalias** in een kolom, zorg ervoor dat het het laatste punt is dat in de kolom wordt vermeld.
 
 * Als u een lijst met gedeelde kolommen naar een formaat van Excel of van het Lusje Gescheiden uitvoert, worden deze kolommen gescheiden uit in het uitgevoerde dossier.
 
@@ -85,7 +85,7 @@ Dit doet u als volgt:
 
    Wanneer u de eerste twee kolommen van een lijst of rapport samenvoegt, gaat Workfront voor elke tekstregel die informatie over het object in de eerste kolom bevat, met `column.0.` en de tekstregels die informatie bevatten over de tweede kolom met `column.1.` .
 
-   U moet het kolomaantal van de eerste kolom met het aantal van die kolom voorafgaan. Het tellen van de kolom begint altijd met de meest linkse kolom van de lijst of het rapport geëtiketteerd als `column.0.`.
+   U moet het kolomaantal van de eerste kolom met het aantal van die kolom voorafgaan. Kolom tellen begint altijd met de meest linkse kolom van de lijst of het rapport met het label `column.0.`.
 
    Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie voor elke kolom bevatten.
 
@@ -133,13 +133,13 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
    `sharecol=true`
 
 
-1. Voeg de volgende tekst toe aan de eerste kolom:
+1. Klik op de eerste kolom en klik **Overschakelen naar tekstmodus** Voeg vervolgens de volgende tekst toe aan de kolom:
 
    `sharecol=true`
 
    Wanneer u de eerste twee kolommen van een lijst of rapport samenvoegt, gaat Workfront voor elke tekstregel die informatie over het object in de eerste kolom bevat, met `column.0.`, de kolom met de delende informatie met `column.1.`en de tekstregels die informatie bevatten over de tweede kolom met `column.2.`.
 
-   Als de gecombineerde kolom zich in het midden van de weergave bevindt, worden de kolommen genummerd op basis van hun plaats in de weergave. Het tellen van de kolom begint altijd met de meest linkse kolom van de lijst of het rapport geëtiketteerd als `column.0.`.
+   Als de gecombineerde kolom zich in het midden van de weergave bevindt, worden de kolommen genummerd op basis van hun plaats in de weergave. Kolom tellen begint altijd met de meest linkse kolom van de lijst of het rapport met het label `column.0.`.
 
    Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie bevatten.
 

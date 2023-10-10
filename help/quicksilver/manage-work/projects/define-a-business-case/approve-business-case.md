@@ -5,7 +5,7 @@ description: Nadat u de Business Case voor een projectverzoek hebt voltooid en i
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -56,7 +56,7 @@ Overweeg het volgende wanneer het goedkeuren van een BedrijfsGeval van een proje
 * U moet manueel naar de individuele projecten gaan die goedkeuring van het BedrijfsGeval nodig hebben om te zien dat zij in afwachting van goedkeuring zijn. Er is geen Workfront-meldingsmechanisme waarmee iemand wordt gewaarschuwd dat hij of zij de Business Case van een project moet goedkeuren.
 * U kunt de projecten vinden die op de goedkeuring van het BedrijfsGeval wachten of door een projectrapport te bouwen, of door tot de portefeuille toegang te hebben zij met worden geassocieerd. 
 
-   Raadpleeg het artikel voor meer informatie over Portfolio [Portfolio-overzicht in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Raadpleeg het artikel voor meer informatie over Portfolio&#39;s [Overzicht van Portfolio&#39;s in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## De bedrijfscase goedkeuren door een projectrapport op te stellen
 
@@ -68,13 +68,13 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
    Zie het artikel voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Selecteer **Weergave** tabblad van het rapport en klik vervolgens op **Kolom toevoegen**.
+1. Selecteer de **Weergave** tabblad van het rapport en klik vervolgens op **Kolom toevoegen**.
 
 1. Typ &quot;Status&quot; in het dialoogvenster **Tonen in deze kolom** en selecteer dit veld wanneer het in de lijst wordt weergegeven.
 
     Deze kolom zal de status van de projecten tonen.
 
-1. Selecteer **Filters** tabblad van het rapport en klik vervolgens op **Filterregel toevoegen**.
+1. Selecteer de **Filters** tabblad van het rapport en klik vervolgens op **Filterregel toevoegen**.
 
 1. Typ &quot;Status&quot; in het dialoogvenster **Alleen projecten tonen waarin ...** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
 1. Selecteren **Gelijk** voor de filteroptie.
@@ -86,7 +86,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
 1. (Optioneel) Klik op **Een andere filterregel toevoegen**.
 
-   U kunt extra filters toevoegen om alleen projecten weer te geven waar u de eigenaar van het project bent, of de sponsor van het project of de eigenaar van de Portfolio.
+   U kunt extra filters toevoegen om alleen projecten te tonen waar u de eigenaar van het project bent, of de sponsor van het project of de eigenaar van het Portfolio.
 
    U kunt bijvoorbeeld de volgende filterinstructies gebruiken: 
 
@@ -106,7 +106,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   om te tonen waar u als Manager van de Portfolio wordt aangewezen. 
+   om te tonen waar u als Manager van het Portfolio wordt aangewezen. 
 
 1. Klikken **Opslaan en sluiten**.
 
@@ -114,7 +114,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
 1. Klik op de naam van een project in het rapport om het te openen.
 1. Klikken **Bedrijfs-case** in het linkerdeelvenster.
-1. Klikken **Goedkeuren** of **Afwijzen** in het gebied Overzicht van bedrijfscase om de Business Case goed te keuren of af te wijzen. 
+1. Klikken **Goedkeuren** of **Afwijzen** in het gebied Overzicht van bedrijfscase om de Business Case goed te keuren of af te wijzen.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 

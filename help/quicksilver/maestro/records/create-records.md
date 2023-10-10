@@ -4,15 +4,15 @@ description: In Adobe Maestro is een record een instantie van een recordtype. U 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
-
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Records maken
 
@@ -167,4 +167,3 @@ U kunt records uit andere toepassingen importeren door deze te koppelen aan Maes
 
    * De rijen bevatten de nieuwe records
    * De kolommen vullen informatie voor de gebieden van de verslagen.
-

@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,9 @@ Voor informatie over het omzetten van kwesties in projecten, zie [Een uitgave co
 
 * Wanneer het omzetten van een kwestie in een taak of een project, wordt de kwestie verwijderd uit het gebied van het Huis van de gebruiker die aan de kwestie wordt toegewezen.
 
-* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Zie de klasse [Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in dit artikel.
+* Bij het omzetten van een uitgave worden de machtigingen naar de oorspronkelijke uitgaven niet overgedragen naar het omgezette object (taak of project).
+
+* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Zie de klasse [Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in dit artikel.
 * Tijdens het converteren van een uitgave worden niet alle documenten of de bijbehorende gegevens verplaatst naar het nieuwe object waarnaar de uitgave wordt geconverteerd. De volgende items worden opgenomen wanneer u een uitgave converteert waaraan documenten of documentkoppelingen zijn gekoppeld:
 
    * Document
@@ -110,12 +112,17 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
   </tr> 
   <tr> 
    <td>Groep</td> 
-   <td>Overdrachten uit de sjabloon. Als er geen Groep op het malplaatje is, wordt het geplaatst aan de Groep van het project dat de kwestie tot behoort.</td> 
+   <td><p> De volgende scenario's bestaan:</p>
+     <ul><li>Als een groep tijdens de omzetting wordt gespecificeerd, wordt dat de groep van het project</li>
+     <li>Als u in een project omzet gebruikend een malplaatje, en er een groep op het malplaatje is, en tijdens de omzetting u geen groep specificeert, dan wordt de groep van het malplaatje de groep van het nieuwe project</li>
+      <li> Als er geen groep op het malplaatje is en u geen groep tijdens de omzetting specificeert, dan wordt de groep van het oorspronkelijke project van de kwestie de groep van het nieuwe project</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Bedrijf</td> 
-   <td>Overdrachten uit de sjabloon. Anders is dit veld leeg.</td> 
-  </tr> 
+   <td>Bedrijf</td>    
+   <td>  Overdrachten uit de sjabloon. Anders is dit veld leeg.</td>
+
+</tr> 
   <tr> 
    <td>Projecteigenaar</td> 
    <td>Overdrachten van het gebied van de Eigenaar van het Malplaatje op het malplaatje. Anders, wordt het geplaatst aan het programma geopende gebruiker die de omzetting uitvoert. </td> 
