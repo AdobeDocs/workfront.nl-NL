@@ -6,9 +6,9 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Boards]**.
 1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klik op **[!UICONTROL Add card]>[!UICONTROL New card]**.
+
+   De [!UICONTROL Card Details] wordt weergegeven.
+
+   >[!NOTE]
+   >
+   >Als u buiten het veld Naam klikt, wordt de ad-hockaart automatisch onder aan de kolom uiterst links opgeslagen als &quot;Naamloos&quot;. Als u de kaart wilt afsluiten zonder deze op te slaan, klikt u op [!UICONTROL **Annuleren**] zonder ergens anders in het dialoogvenster te klikken [!UICONTROL Card Details] doos.
+
 1. In de **[!UICONTROL Card Details]** voegt u de volgende informatie toe:
 
    <table style="table-layout:auto"> 
