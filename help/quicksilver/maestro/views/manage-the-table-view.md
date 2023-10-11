@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -145,12 +145,6 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >
    >* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk.
 
-1. Selecteer een of meerdere records in een rij en sleep de **handgreep** pictogram ![](assets/handle-icon.png) links van de recordnaam om de rijen opnieuw te ordenen.
-
-   >[!NOTE]
-   >
-   >U kunt rijen niet opnieuw rangschikken als u ten minste één sortering toepast op de tabelweergave.
-
 1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 
    >[!TIP]
@@ -191,9 +185,16 @@ De rijen van een Maestro- lijstmening tonen individuele verslagen van het gesele
 
 U kunt tot 10.000 verslagen (of rijen) voor een verslagtype in Maestro hebben.
 
-Het toevoegen van rijen aan een Maestro- lijstmening is identiek aan het creëren van verslagen in een lijst.
+1. Ga naar een recordtypepagina en selecteer een **Tabel** in het keuzemenu Weergave.
+1. Records (of rijen) toevoegen, zoals wordt beschreven in het artikel [Records maken](../records/create-records.md).
 
-Zie voor meer informatie [Records maken](../records/create-records.md).
+   De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers die toegang hebben tot Maestro. <!--this will change with permissions-->
+
+1. (Optioneel) Selecteer een of meerdere records in een rij en sleep vervolgens de records **handgreep** pictogram ![](assets/handle-icon.png) links van de recordnaam om de rijen opnieuw te ordenen.
+
+   >[!NOTE]
+   >
+   >U kunt rijen niet opnieuw rangschikken als u ten minste één sortering toepast op de tabelweergave.
 
 <!-- this is not possible right now:
 

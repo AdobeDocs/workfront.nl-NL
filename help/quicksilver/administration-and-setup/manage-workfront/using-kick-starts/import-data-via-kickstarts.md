@@ -9,16 +9,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 0%
 
 ---
 
 # Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon
 
-Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront biedt een Kick-Start-sjabloon die u kunt gebruiken om dit te doen, zoals wordt uitgelegd in [Kick-start gegevensimporteur](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront beschikt over een Kick-Start-sjabloon die u kunt gebruiken om dit te doen, zoals wordt uitgelegd in [Kick-start gegevensimporteur](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Dit proces wordt opgedeeld in drie hoofdtaken:
 
@@ -46,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -306,7 +306,7 @@ Elke rij van het blad komt overeen met een uniek object.
 
 1. Voltooi de cel in het dialoogvenster **isNew** kolom:
 
-   * Als het object dat u importeert nieuw is, typt u **TRUE** om de gegevens in de rij te importeren.
+   * Als het object dat u importeert nieuw is, typt u **TRUE** de gegevens in de rij importeren.
    * Als het object zich al in Workfront bevindt, typt u **FALSE** om de rij te negeren.
 
 1. Voltooi de cel in het dialoogvenster **ID** kolom op een van de volgende manieren:
@@ -315,12 +315,17 @@ Elke rij van het blad komt overeen met een uniek object.
 
    * Als het object dat u importeert al in het Workfront-systeem bestaat (en u typt **FALSE** in de **isNew** kolom), moet identiteitskaart de alpha-numerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
 
-     **Voorbeeld:** Voor een project, de waarde die in wordt getoond **setGroupID** kolom moet een van de volgende vermeldingen bevatten:
+     ![Voorbeeld-id voor een groep](assets/kick-start-group-example.png)
+
+   * Wanneer u een project invoert, moet u op een identiteitskaart van de Groep wijzen.
+
+      * Als de groep al in Workfront bestaat, moet u de unieke id ervan toevoegen aan de **setGroupID** veld voor het project.
+      * Als de groep niet bestaat in Workfront, kunt u de opdracht **GROEP** blad naar uw importbestand instellen **isNew** veld naar **TRUE** op het groepsblad en geef een numerieke id op voor de nieuwe groep in de **ID** kolom. De **setGroupID** veld voor het nieuwe project moet overeenkomen met het numerieke veld **ID** voor de nieuwe groep.
+
+     **Voorbeeld:** Voor een project, de waarde die in **setGroupID** kolom moet een van de volgende vermeldingen bevatten:
 
       * GUID voor een bestaande Groep in uw instantie van Workfront
       * De waarde (getal) in de kolom Id in het dialoogvenster **GROEP** blad als u tijdens het importeren een nieuwe groep maakt
-
-        ![Voorbeeld-id voor een groep](assets/kick-start-group-example.png)
 
 1. Voer waarden in voor de vereiste velden en alle andere velden die u tijdens het importeren wilt vullen.
 1. (Optioneel) Aangepaste gegevens toevoegen:
@@ -328,7 +333,7 @@ Elke rij van het blad komt overeen met een uniek object.
    * Maak een nieuwe kolom voor elk aangepast veld dat u wilt opnemen in het importproces.
    * Geef elke nieuwe kolom voor het bijbehorende aangepaste veld de volgende naam: **DE:[Naam van aangepast veld zoals wordt weergegeven in Workfront]**.
    * In de kolom **setCategorieID**, typ GUID van de bestaande douanevorm waarop dit douaneveld verblijft. Dit veld is vereist bij het importeren van aangepaste gegevens.
-   * Als u meerdere gegevenswaarden in het aangepaste veld wilt toevoegen (zoals keuzerondjes, selectievakjes of lijsten), gebruikt u het verticale scheidingsteken voor aangepaste staafgegevens &#39;|&#39; in het tabblad Voorkeuren om de waarden van elkaar te scheiden.
+   * Als u meerdere gegevenswaarden in het aangepaste veld wilt toevoegen (zoals keuzerondjes, selectievakjes of lijsten), gebruikt u het verticale scheidingsteken voor aangepaste gegevens op de balk &quot;|&quot; in het tabblad Voorkeuren om de waarden van elkaar te scheiden.
 
      **Voorbeeld:** Typ A|D onder de kolom DE:Departementen om afdeling A en afdeling D in uw douaneformulier te bevolken.
 
@@ -338,7 +343,7 @@ Workfront kan de meeste datumnotaties verwerken. U moet er echter voor zorgen da
 
 >[!TIP]
 >
->De meeste mensen vinden het het gemakkelijkst om de notatie MM/DD/YYYY te gebruiken (bijvoorbeeld: 10-07-2022).
+>De meeste mensen vinden het het gemakkelijkst om het formaat van MM/DD/YYYY (bijvoorbeeld: 07/10/2022) te gebruiken.
 
 Workfront accepteert ook tijdwaarden als onderdeel van de datum (bijvoorbeeld: 07/10/2022 01:30 of 07/10/2022 1:00 PM).
 
@@ -369,7 +374,7 @@ U kunt de volgende vervangingen gebruiken wanneer het bevolken van uw Kick-Begin
  <tbody> 
   <tr> 
    <td> <p>$$TODAY</p> </td> 
-   <td> <p>Indien gebruikt op een <strong>setDate</strong> in dit veld wordt de datum ingesteld op middernacht op de dag waarop u Kick-Start importeert.</p> <p>U kunt het jokerteken wijzigen met de standaardsyntaxis die is toegestaan met het jokerteken op een filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Als u wilt dat een project begint op de maandag van de week waarop het wordt geïmporteerd, kunt u <strong>$$TODAYbw</strong>. Hiermee stelt u de geplande startdatum van uw project in op zondag om 12.00 uur. Aangezien het programma voor het project op dat moment waarschijnlijk geen werk toelaat, zal het om 9:00 beginnen maandagochtend.</p> </td> 
+   <td> <p>Indien gebruikt op een <strong>setDate</strong> in dit veld wordt de datum ingesteld op middernacht op de dag waarop u Kick-Start importeert.</p> <p>U kunt het jokerteken wijzigen met de standaardsyntaxis die is toegestaan met het jokerteken op een filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Als u wilt dat een project begint op de maandag van de week waarop het wordt geïmporteerd, kunt u <strong>$$TODAYbw</strong>. Hierdoor wordt de geplande startdatum van uw project ingesteld op zondag 12:00 uur. Aangezien het programma voor het project op dat moment waarschijnlijk geen werk toelaat, zal het om 9:00 beginnen maandagochtend.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
@@ -381,7 +386,7 @@ U kunt de volgende vervangingen gebruiken wanneer het bevolken van uw Kick-Begin
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>Dit jokerteken is speciaal toegevoegd voor Kick-Start-invoer van gebruikers. Wanneer een Workfront-account wordt gemaakt, wordt een gebruiker met het toegangsniveau Systeembeheerder gemaakt. De gebruikersnaam die aan de standaardbeheerder is toegewezen, kan als voorvoegsel worden gebruikt bij het maken van andere gebruikers in de account.</p> <p>Omdat gebruikersnamen in alle klanten uniek moeten zijn, is dit nuttig wanneer u verscheidene individuen met zeer gemeenschappelijke gebruikersnamen zoals John Smith hebt, die een gebruikersbenaming "jsmith."zouden kunnen hebben Door de gebruikersnaamtoewijzing met de standaardbeheerdersgebruikersnaam voor te bereiden, garandeert u dat elke gebruikersnaam uniek is (bijvoorbeeld: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tip: Een elegantere manier om ervoor te zorgen dat gebruikersnamen overal in het systeem uniek zijn, is door het e-mailadres van het individu in te voeren in <strong>setUserName</strong> veld.</p> </td> 
+   <td> <p>Dit jokerteken is speciaal toegevoegd voor Kick-Start-invoer van gebruikers. Wanneer een Workfront-account wordt gemaakt, wordt een gebruiker met het toegangsniveau Systeembeheerder gemaakt. De gebruikersnaam die aan de standaardbeheerder is toegewezen, kan als voorvoegsel worden gebruikt bij het maken van andere gebruikers in de account.</p> <p>Omdat gebruikersnamen in alle klanten uniek moeten zijn, is dit nuttig wanneer u verscheidene individuen met zeer gemeenschappelijke gebruikersnamen zoals John Smith hebt, die een gebruikersbenaming "jsmith."zouden kunnen hebben Door de gebruikersnaamtoewijzing met de standaardbeheerdersgebruikersnaam voor te bereiden, garandeert u dat elke gebruikersnaam uniek is (bijvoorbeeld: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tip: een elegantere manier om ervoor te zorgen dat gebruikersnamen in het hele systeem uniek zijn, is door het e-mailadres van het individu in te voeren in de <strong>setUserName</strong> veld.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -394,7 +399,7 @@ Hoewel het aan te raden is om waar mogelijk id&#39;s te gebruiken, is het soms l
 
 * **(importeren van project)**
 
-  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten **GROEP** blad, nota nemend van de respectieve Groep IDs, en het kleven van hen in de correcte cellen (**setGroupID** kolom) op de **PROJ Project** blad.
+  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door **GROEP** blad, nota nemend van de respectieve Groep IDs, en het kleven van hen in de correcte cellen (**setGroupID** kolom) op de **PROJ Project** blad.
 
   Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
 
@@ -430,11 +435,11 @@ Het importeren Kick-Start ondersteunt de volgende bestandstypen:
 
 * Op XML gebaseerd Excel (&#42;.xlsx)
 * Oudere Excel (&#42;.xls)
-* Zipped (&#42;ZIP) xlsx- of xls-bestand
+* Gezipt (&#42;ZIP) xlsx- of xls-bestand
 
   >[!NOTE]
   >
-  >U moet een dossier van het PIT gebruiken wanneer het invoeren van de spreadsheets van Excel die rapporten van verwijzingen voorzien; documenten; avatars; of eigenschapsbestanden weergeven, filteren of groeperen. Als u een gecomprimeerd importbestand gebruikt, wordt de &#42;ZIP-bestand moet dezelfde naam hebben als het &#42;.xlsx of &#42;.xls dossier, en al inhoud moet op het zelfde niveau van de dossierstructuur (geen omslagen) zijn.
+  >U moet een ZIP-bestand gebruiken bij het importeren van Excel-spreadsheets die verwijzen naar rapporten, documenten, avatars of eigenschapsbestanden weergeven, filteren of groeperen. Als u een gecomprimeerd importbestand gebruikt, wordt de &#42;ZIP-bestand moet dezelfde naam hebben als het &#42;.xlsx of &#42;.xls dossier, en al inhoud moet op het zelfde niveau van de dossierstructuur (geen omslagen) zijn.
 
 
 De sjabloonspreadsheetgegevens importeren in Workfront:
@@ -443,7 +448,7 @@ De sjabloonspreadsheetgegevens importeren in Workfront:
 
 1. Klikken **Systeem** >**Gegevens importeren (Kick-start)**.
 
-1. In de **Gegevens uploaden met werkblad Kick-Start** sectie, klikt u op **Bestand kiezen** Blader vervolgens naar de gevulde spreadsheet en selecteer deze.
+1. In de **Gegevens uploaden met werkblad Kick-Start** sectie, klikken **Bestand kiezen** Blader vervolgens naar de gevulde spreadsheet en selecteer deze.
 
 1. Klikken **Uploaden.**
 
