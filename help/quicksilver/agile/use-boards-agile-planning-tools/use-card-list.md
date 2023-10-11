@@ -6,14 +6,19 @@ title: De kaartlijst gebruiken
 description: U kunt een kaartlijst op een werkstroom tot stand brengen en de kaarten toevoegen aan herhalingen.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 # De kaartlijst gebruiken
+
+>[!IMPORTANT]
+>
+>Workstreams zijn niet beschikbaar voor alle klanten.
 
 U kunt een kaartlijst op een werkstroom tot stand brengen en de kaarten toevoegen aan herhalingen.
 
@@ -85,7 +90,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Als u alle kaarten voor de werkstroom in één lijst wilt weergeven, klikt u op [!UICONTROL **Lijstweergave**] op het tabblad Kaartlijst.
 
-Klik op [!UICONTROL **Weergave herhaling**]. Niet-geplande kaarten worden in hun eigen groep weergegeven.
+Als u alle kaarten voor de werkstroom wilt weergeven, gegroepeerd op herhaling, klikt u op [!UICONTROL **Weergave herhaling**]. Niet-geplande kaarten worden in hun eigen groep weergegeven.
 
 Als u een bestaande kaart wilt bewerken, selecteert u deze in de lijst en klikt u op [!UICONTROL **Bewerken**].
 
@@ -117,7 +122,7 @@ Klik op de X om de zoekopdracht te wissen.
 >U moet een herhaling maken voordat u er kaarten aan kunt toevoegen. Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Open de kaartlijst voor de werkstroom.
-1. Selecteer [!UICONTROL **Weergave herhaling**] om te zien welke kaarten aan een herhaling worden toegewezen en welke niet gepland zijn.
+1. Selecteer de [!UICONTROL **Weergave herhaling**] om te zien welke kaarten aan een herhaling worden toegewezen en welke niet gepland zijn.
 1. Selecteer een ongeplande kaart in de lijst en klik op [!UICONTROL **Bewerken**].
 1. Selecteer een herhaling in het dialoogvenster [!UICONTROL **Herhalingen**] veld.
 1. Als u artikelpunten gebruikt, voert u een waarde in het dialoogvenster [!UICONTROL **Schatting**] veld.
@@ -129,5 +134,4 @@ Klik op de X om de zoekopdracht te wissen.
 
 >[!TIP]
 >
->Als u een herhalingsprocesboard hebt gemaakt, worden alle ongeplande kaarten in de kaartlijst weergegeven in [!UICONTROL Backlog] kolom. Wanneer een kaart naar een andere kolom wordt verplaatst, wordt deze onderdeel van de actieve herhaling. Kaarten die u toevoegt aan de iteratie in de kaartlijst, worden op basis van hun status toegevoegd aan een kolom.
-
+>Als u een herhalingsprocesboard hebt gemaakt, worden alle ongeplande kaarten in de kaartlijst weergegeven in de [!UICONTROL Backlog] kolom. Wanneer een kaart naar een andere kolom wordt verplaatst, wordt deze onderdeel van de actieve herhaling. Kaarten die u toevoegt aan de iteratie in de kaartlijst, worden op basis van hun status toegevoegd aan een kolom.

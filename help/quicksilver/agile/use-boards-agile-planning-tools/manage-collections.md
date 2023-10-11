@@ -7,14 +7,18 @@ description: Een werkstroom is een configureerbare groep borden en kaarten voor 
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Werkstromen beheren
+
+>[!IMPORTANT]
+>
+>Workstreams zijn alleen beschikbaar voor een specifieke groep klanten.
 
 Een werkstroom is een configureerbare groep borden en kaarten voor samenwerking op het werk. Workstreams kunnen verschillende typen borden bevatten die zijn gemaakt op basis van sjablonen en een kaartlijst met werkitems. In een werkstroom kunt u het werk in herhalingen of sprints volgen.
 
@@ -55,15 +59,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een nieuw board maken in een werkstroom
 
 1. Als u zich nog niet in een werkstroom bevindt, klikt u op [!UICONTROL **Werkstroom weergeven**] op het dashboard om een bestaande werkstream te openen.
-1. Klikken **[!UICONTROL Add board]** op de [!UICONTROL Boards] van de werkstroom.
+1. Klikken **[!UICONTROL Add board]** op de [!UICONTROL Boards] tabblad van de werkstroom.
 1. Selecteer een sjabloon voor het bord.
 
 | Sjabloon | Beschrijving |
 |---------|----------|
 | Basisbord | Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
-| Kanban | De volgende kolommen worden aan boord gegeven: Achtergrond, Nieuw, Bezig, Voltooid en In wachtstand. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer** menu] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt elk vooraf ingesteld beleid wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| Retrospectief bord | De volgende kolommen worden aan boord gegeven: Wat ging er goed? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
-| Iteratieproces | Dit is het bord dat wordt gebruikt om een herhaling te definiëren en uit te voeren. <p>De volgende kolommen worden aan boord gegeven: Achtergrond, Nieuw, Bezig, Voltooid en In wachtstand. U kunt geen kolommen aan het bord toevoegen. <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer**] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt elk vooraf ingesteld beleid wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Kanban-bord | De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer** menu] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Retrospectief | De volgende kolommen staan aan boord: Wat is er goed gegaan? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
+| Iteratieproces | Dit is het bord dat wordt gebruikt om een herhaling te definiëren en uit te voeren. <p>De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt geen kolommen aan het bord toevoegen. <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer**] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Voor meer informatie over het instellen van de raad raadpleegt u [Een board maken of bewerken](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -100,7 +104,7 @@ Een bron bepaalt waar de kaarten in de werkstroom vandaan komen.
 
 {{step1-to-boards}}
 
-1. Klik op de knop [!UICONTROL **Bronnen**] pictogram ![Bronpictogram](assets/sources-icon.png) om een bron te definiëren voor het importeren van kaarten in de werkstream. Op dit moment is de enige beschikbare bron [!DNL Adobe Workfront].
+1. Klik op de knop [!UICONTROL **Bronnen**] pictogram ![Bronpictogram](assets/sources-icon.png) om een bron te definiëren voor het importeren van kaarten in de werkstream. Momenteel is de enige beschikbare bron [!DNL Adobe Workfront].
 1. Voeg filters toe om taken en problemen uit Workfront als kaarten te importeren.
 
    Het toevoegen van filters voor werkstroombronnen is hetzelfde als het toevoegen van geavanceerde filters voor een inlaatkolom op een basisbord of Kanban-bord. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
@@ -114,7 +118,7 @@ Een bron bepaalt waar de kaarten in de werkstroom vandaan komen.
 1. (Optioneel) Uitbreiden [!UICONTROL **Workstream**] en typ een beschrijving van de werkstroom. Deze beschrijving wordt weergegeven op het dashboard.
 1. (Optioneel) Uitbreiden [!UICONTROL **Herhalingen**] om een herhalingsproces voor deze werkstream te definiëren.
 
-   Het totale aantal kaarten, het aantal puntige kaarten en het aantal herhalingen worden weergegeven in de sectie Kaartlijst. Klikken [!UICONTROL **Lijst weergeven**] om de lijst te openen en kaarten toe te voegen. Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Het totale aantal kaarten, het aantal puntige kaarten en het aantal herhalingen worden weergegeven in de sectie Kaartlijst. Klikken [!UICONTROL **Lijst weergeven**] de lijst openen en kaarten toevoegen. Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
    Als er al een herhaling is gedefinieerd, worden de begindatum, het aantal kaarten en het aantal punten weergegeven. Klikken [!UICONTROL **Weergavepagina**] om het iteratiebord te openen. Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

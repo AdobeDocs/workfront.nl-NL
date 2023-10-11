@@ -6,14 +6,18 @@ description: U kunt elke taak of elk probleem vanuit een lijst- of rapportweerga
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # Bestaande taken of problemen toevoegen aan een [!DNL Adobe Workfront] board of workstream
+
+>[!IMPORTANT]
+>
+>Workstreams zijn alleen beschikbaar voor een specifieke groep klanten.
 
 U kunt elke taak of uitgave toevoegen aan een board of een workstream in [!DNL Adobe Workfront] in een lijst- of rapportweergave of uit de objectdetails.
 

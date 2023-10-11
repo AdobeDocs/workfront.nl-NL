@@ -6,16 +6,20 @@ description: U kunt codes aan kaarten toevoegen om visueel aan te tonen dat deze
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
 # Tags toevoegen
 
-U kunt codes aan kaarten toevoegen om visueel aan te tonen dat deze op elkaar lijken. Vervolgens kunt u met deze tags filteren om verwante kaarten weer te geven. Boordtags worden niet gedeeld tussen tekengebieden, maar werkstroomtags zijn beschikbaar op alle borden in een werkstream.
+U kunt codes aan kaarten toevoegen om visueel aan te tonen dat deze op elkaar lijken. Vervolgens kunt u met deze tags filteren om verwante kaarten weer te geven.
+
+>[!NOTE]
+>
+>Tags worden niet tussen tekengebieden gedeeld.
 
 ## Toegangsvereisten
 
@@ -57,6 +61,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![Tagbeheer](assets/tag-manager-2023.png)
 
 ## Tags maken voor een werkstroom
+
+>[!IMPORTANT]
+>
+>Workstreams zijn alleen beschikbaar voor een specifieke groep klanten.
+
+Workstream-tags zijn beschikbaar voor alle boards in een werkstream.
 
 {{step1-to-boards}}
 

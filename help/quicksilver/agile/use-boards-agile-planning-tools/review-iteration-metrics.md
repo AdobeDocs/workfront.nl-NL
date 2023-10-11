@@ -7,14 +7,18 @@ description: Metriek zijn beschikbaar voor elke herhaling in een werkstroom, op 
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # Metrische gegevens voor herhaling controleren
+
+>[!IMPORTANT]
+>
+>Workstreams zijn alleen beschikbaar voor een specifieke groep klanten.
 
 Metrische gegevens zijn beschikbaar voor elke herhaling in een werkstroom, op het werkgebied voor herhalingsprocessen en het dashboard.
 
@@ -44,10 +48,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 {{step1-to-boards}}
 
 1. Als u een werkstroom wilt openen, klikt u op [!UICONTROL **Werkstroom weergeven**].
-1. Selecteer [!UICONTROL Iteration Process] bord.
+1. Selecteer de [!UICONTROL Iteration Process] bord.
 1. Bekijk het metriegebied boven het bord in de rechterbovenhoek. Klik op de pijlen omhoog en omlaag om te schakelen tussen herhalingen.
 
-   De volgende maatstaven worden weergegeven: het totale aantal punten dat aan de herhaling is toegewezen, de resterende punten die nog niet zijn voltooid in de herhaling en het aantal punten dat in de herhaling is voltooid.
+   De volgende metriek worden weergegeven: het totale aantal punten dat aan de herhaling is toegewezen, de resterende punten die nog niet in de herhaling zijn voltooid en het aantal punten dat in de herhaling is voltooid.
 
 1. (Optioneel) Klik op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png) om het detailsdialoogvenster voor de geselecteerde herhaling te openen.
 
@@ -55,6 +59,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-boards}}
 
-De volgende metriek worden getoond op het dashboard voor de huidige herhaling van de werkstroom: het totale aantal punten dat aan de herhaling is toegewezen, het aantal punten dat is voltooid en de resterende punten die nog niet in de herhaling zijn voltooid.
+De volgende metriek worden weergegeven op het dashboard voor de huidige herhaling van de werkstroom: het totale aantal punten dat is toegewezen aan de iteratie, het aantal punten dat is voltooid en de resterende punten die nog niet zijn voltooid in de iteratie.
 
 Als u metriek voor andere herhalingen wilt bekijken, moet u het herhalingsbord openen.

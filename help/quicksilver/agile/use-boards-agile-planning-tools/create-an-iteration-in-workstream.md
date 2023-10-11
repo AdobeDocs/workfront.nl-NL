@@ -7,14 +7,18 @@ description: Een herhaling is een ingestelde hoeveelheid tijd die is gereserveer
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # Een herhaling in een werkstroom maken
+
+>[!IMPORTANT]
+>
+>Workstreams zijn alleen beschikbaar voor een specifieke groep klanten.
 
 Een herhaling is een ingestelde hoeveelheid tijd die is gereserveerd voor het voltooien van het werk. Sommige teams kunnen een herhaling als sprint verwijzen.
 
@@ -81,10 +85,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Open de herhaling op een van de volgende manieren:
 
    * Klik op het tabblad Kaartlijst in de iteratieweergave op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png).
-   * Klik in het iterboard op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png) in het metriegebied op de hoogste juiste.
+   * Klik in het iterboard op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png) in het metriegebied op de hoogste juiste kant.
 
 1. In de [!UICONTROL Iteration Configuration] de herhaling naar wens bewerken.
-1. Als u de naam van de herhaling wilt wijzigen, vouwt u [!UICONTROL **Details van herhaling**].
+1. Als u de iteratienaam wilt wijzigen, vouwt u [!UICONTROL **Details van herhaling**].
 
    Nadat een herhaling is gestart, kunt u alleen de naam van de herhaling wijzigen en niet de datum- of herhalingslengte.
 

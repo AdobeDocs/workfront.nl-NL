@@ -7,9 +7,9 @@ description: Adobe Workfront Boards zijn flexibele hulpmiddelen die teamsamenwer
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,11 @@ Met behulp van borden kunt u:
 * Kolommen configureren om een status of categorie weer te geven
 * Workflows aanpassen met kaarten met open einde (ofwel ad-hockaarten of kaarten die zijn aangesloten op [!DNL Workfront] taken en problemen)
 * Werk voor een team organiseren en beheren op één locatie
-* Workstreams gebruiken om gegevens (zoals borden en kaarten) te groeperen en aan het werk samen te werken
-* Gebruik flexibele planningstools, zoals een inlaatkolom voor Kanban-borden, en een kaartlijst en iteratieplanning
+* Tegelplanningstools gebruiken, zoals een inlaatkolom voor Kanban-borden
 
 Voor informatie over het gebruik van de basisfuncties van borden raadpleegt u [Aan de slag met boards in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Zie voor informatie over flexibele planningsgereedschappen in raden van bestuur [Overzicht van de gereedschappen voor mobiele planning](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Voor informatie over het gebruiken van een raad op een project, zie [Een project beheren in de Google-weergave](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Voor informatie over het gebruiken van een raad op een project, zie [Een project beheren in de Google View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 U kunt ook borden openen in de mobiele app. Zie voor meer informatie [[!DNL Adobe Workfront] [!UICONTROL Boards] voor mobiel](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 

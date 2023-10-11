@@ -7,9 +7,9 @@ description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met e
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ Tot de nuttige gereedschappen voor Kanban behoren:
 
 Tot de nuttige gereedschappen voor rum behoren:
 
-* Werkstromen en iteratuurplaten
+* Werkstromen en iteratuurborden
 * Kaartlijst of -achterstand
-* Metrisch
+* Metrische intervallen
+
+>[!IMPORTANT]
+>
+>Workstreams en de bijbehorende gereedschappen zijn alleen beschikbaar voor een specifieke groep klanten.
 
 U kunt om het even welk of al deze hulpmiddelen op een manier gebruiken die voor u en uw team werkt, zonder zich aan een specifieke behendige methodologie te verbinden.
 

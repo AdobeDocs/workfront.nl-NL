@@ -7,16 +7,16 @@ description: U kunt een board verwijderen of archiveren in Workfront. Als u een 
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # Een board verwijderen of archiveren
 
-U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld. Deze opties zijn zowel van toepassing op zelfstandige borden als op borden die deel uitmaken van werkstromen.
+U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld.
 
 ## Toegangsvereisten
 

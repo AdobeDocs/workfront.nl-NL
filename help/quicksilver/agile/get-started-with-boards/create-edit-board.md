@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # Een board maken of bewerken
 
 Van de [!UICONTROL boards] kunt u een nieuw board maken of een bestaand board bewerken.
-
-Als u een board wilt toevoegen aan een werkstroom, raadpleegt u [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Toegangsvereisten
 
@@ -43,16 +41,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een nieuw bord maken
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Als u een zelfstandig toetsenbord wilt maken, klikt u op **[!UICONTROL Add board]** in de [!UICONTROL Boards] gebied. Als u een board wilt toevoegen aan een werkstroom, raadpleegt u [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Klik op **[!UICONTROL Add board]**.
 
 1. Selecteer een sjabloon voor het bord.
 
    | Sjabloon | Beschrijving |
    |---------|----------|
    | Basisbord | Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. |
-   | Kanban | De volgende kolommen worden aan boord gegeven: Achtergrond, Nieuw, Bezig, Voltooid en In wachtstand. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer** menu] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt elk vooraf ingesteld beleid wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Retrospectief bord | De volgende kolommen worden aan boord gegeven: Wat ging er goed? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
-   | Dynamisch bord | De volgende kolommen worden aan boord gegeven: Niet geselecteerd, Nieuw, Bezig, In de wachtstand en Voltooid. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. (U kunt de naam van de kolom Niet-geselecteerd wijzigen, maar de naam van de kolom niet verwijderen. Deze kolom bevat alle kaarten met een status die niet overeenkomt met een van de andere kolomstatussen.) <p>Het standaardkolombeleid wijst kaarten aan kolommen toe die op hun status worden gebaseerd. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Kanban-bord | De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Als u het standaardbeleid voor elke kolom wilt bekijken, klikt u op de knop [!UICONTROL **Meer** menu] op een kolom en selecteer [!UICONTROL **Bewerken**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Retrospectief | De volgende kolommen staan aan boord: Wat is er goed gegaan? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
+   | Dynamisch bord | De volgende kolommen worden verstrekt op de raad: Niet geselecteerd, Nieuw, Bezig, In Greep, en Volledig. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. (U kunt de naam van de niet-geselecteerde kolom wijzigen, maar de kolom niet verwijderen. Deze kolom bevat alle kaarten met een status die niet overeenkomt met een van de andere kolomstatussen.) <p>Het standaardkolombeleid wijst kaarten aan kolommen toe die op hun status worden gebaseerd. Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. Voer de stappen van de installatiewizard uit als u alleen een dynamisch board wilt gebruiken:
 
@@ -73,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
       Dit is hetzelfde proces als het maken van een filter op een inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-   1. Nadat u de filters hebt toegevoegd, klikt u op [!UICONTROL **Tekengebied maken**].
+   1. Klik op [!UICONTROL **Tekengebied maken**].
 
 1. Typ een naam voor het toetsenbord in het dialoogvenster **[!UICONTROL Board]** en drukt u op Enter.
 1. Configureer de kaart naar wens.
@@ -90,7 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
 1. Selecteer op het dashboard het board dat u wilt openen.
-1. Bewerk het bord naar wens. U kunt op de naam van het board klikken om de naam te wijzigen.
+1. Bewerk het bord naar wens. U kunt op de naam van het tekengebied klikken om de naam te wijzigen.
 
    Zie voor meer informatie [Leden toevoegen aan of verwijderen uit een board](../../agile/get-started-with-boards/add-members-to-board.md), [Bordkolommen beheren](../../agile/get-started-with-boards/manage-board-columns.md), en [Een kaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 

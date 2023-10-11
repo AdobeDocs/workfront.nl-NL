@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ U kunt desgewenst een inlaatkolom aan uw board toevoegen die taken en problemen 
 Er is slechts één inlaatkolom toegestaan op een bord en deze wordt altijd weergegeven als de meest linkse kolom.
 
 De inlaatkolom is niet beschikbaar op een dynamisch bord.
-
-De inlaatkolom is niet beschikbaar op borden die deel van een werkstroom uitmaken. In plaats daarvan, kunt u opstelling een backlogkolom om kaarten van de kaartlijst te trekken. Voor informatie over het toevoegen van een backlogkolom aan een raad in een werkstroom, zie [De achterstand op een werkstroomgebied configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
 De inlaatkolom is beperkt tot 300 taken en 300 problemen. De standaardvolgorde van items in de inlaatkolom is als volgt:
 

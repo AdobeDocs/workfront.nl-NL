@@ -7,14 +7,18 @@ description: U kunt verkiezen om een backlogkolom op een raad in een werkstroom 
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # De achterstand op een werkstroomgebied configureren
+
+>[!IMPORTANT]
+>
+>Workstreams zijn alleen beschikbaar voor een specifieke groep klanten.
 
 U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en een vraag voor de kaarten te bepalen die in de bordbacklog van de werkstroomkaartlijst worden getrokken.
 
