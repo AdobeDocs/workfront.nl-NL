@@ -7,9 +7,9 @@ description: De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nie
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nieuwe functies. Deze functies worden vermeld in de opmerkingen bij de release voor de volgende driemaandelijkse release.
 
+De uitgiften vinden typisch rond 8-10 PMijd de Berg Tijd van de VS plaats.
+
 ## Tijdschema voor productie bijwerken
 
 ### Productfuncties
@@ -27,7 +29,7 @@ De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nieuwe functies.
 
 Adobe Workfront heeft twee modellen voor het uitbrengen van nieuwe functies en updates. Uw organisatie kan kiezen of nieuwe functionaliteit op een driemaandelijkse basis, of op een sneller versieschema wordt ontvangen.
 
-Maandelijkse en driemaandelijkse versies zullen naar verwachting beschikbaar zijn op de laatste donderdag van de maand.
+Maandelijkse en driemaandelijkse versies zullen naar verwachting beschikbaar zijn op de laatste donderdag van de maand. De uitgiften vinden typisch rond 8-10 PMijd de Berg Tijd van de VS plaats.
 
 Functies in Voorvertoning worden gewoonlijk bij de volgende release beschikbaar gesteld in uw productieomgeving. In sommige gevallen worden functies echter buiten een geplande release beschikbaar gesteld in de productieomgeving. Deze wijzigingen blijven minimaal twee weken in Voorvertoning om u voldoende tijd te geven om op de hoogte te blijven van de wijzigingen. Deze wijzigingen worden ook gemeld via het Aankondigingscentrum op het moment dat ze worden toegevoegd aan Voorvertoning.
 
@@ -45,7 +47,7 @@ Alle functies die bij een bepaalde release horen (maandelijks of driemaandelijks
 
 Als functies uit de geplande release worden verwijderd nadat alle functies beschikbaar zijn om te testen in Voorvertoning, worden de volgende acties uitgevoerd om klanten te informeren:
 
-* De opmerkingen bij de release (zijn te vinden in het [Productintroducties](../../product-announcements/product-releases/product-releases.md) pagina) worden bijgewerkt om aan te geven dat de functie is verwijderd.
+* De releaseopmerkingen voor de release (zijn te vinden in het [Productintroducties](../../product-announcements/product-releases/product-releases.md) pagina) worden bijgewerkt om aan te geven dat de functie is verwijderd.
 * Er wordt een artikel toegevoegd aan de Workfront Community waarin staat dat dit onderdeel is verwijderd.
 * Er wordt een bericht naar alle klanten verzonden via het Aankondigingscentrum waarin staat dat de functie is verwijderd. (Het Aankondigingscentrum is Workfront in-app meldingscentrum. Zie voor meer informatie [Aankondigingen verzenden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
@@ -63,7 +65,7 @@ De volgende bètaprogramma&#39;s zijn verkrijgbaar bij Workfront:
    * Nieuwe functies die deel uitmaken van de bètaversie kunnen worden vrijgegeven voor Voorvertoning of Productie of voor een aparte omgeving die beschikbaar wordt gesteld voor het bètaprogramma. Gesloten bètafuncties worden met willekeurige intervallen en zonder waarschuwing vrijgegeven.
    * Er is geen releaseinformatie voor gesloten bètaprogramma&#39;s op de pagina&#39;s van de productrelease.
 
-* **Openbare bèta**: Hieronder vindt u kenmerken van een openbare bètaversie:
+* **Openbare bèta**: De volgende kenmerken van een openbare bètaversie zijn:
 
    * De functies zijn beschikbaar voor alle Workfront-klanten, maar ze hebben een bètastatus. Ze zijn misschien niet altijd volledig functioneel en feedback is altijd welkom.
    * De deelname aan een openbare bètaversie is optioneel en klanten kunnen zelf beslissen of ze de bètafuncties willen inschakelen.

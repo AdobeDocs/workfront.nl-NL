@@ -6,9 +6,9 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2808'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger die Toewijzingen maken aan de taken en problemen bevatten waarvoor u toewijzingen wilt beheren. </p> <p>of </p> <p>U kunt machtigingen beheren voor de taken waarvoor u de geplande uren wilt bijwerken, en voor het bijwerken van toewijzingen. Voor informatie over het bijwerken van Geplande Uren in de Balancer van de Werkbelasting, zie <a href="#update-task-planned-hours-when-managing-user-allocations">Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen</a> in dit artikel. </p> <p>Voor informatie over taaktoestemmingen, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">Een taak delen </a><span> en voor informatie over uitgiftemachtigingen raadpleegt u</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">Een uitgave delen </a></span>. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger die Toewijzingen maken aan de taken en problemen bevatten waarvoor u toewijzingen wilt beheren. </p> <p>of </p> <p>U kunt machtigingen beheren voor de taken waarvoor u de geplande uren wilt bijwerken, en voor het bijwerken van toewijzingen. Voor informatie over het bijwerken van Geplande Uren in de Balancer van de Werkbelasting, zie <a href="#update-task-planned-hours-when-managing-user-allocations">Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen</a> in dit artikel. </p> <p>Zie voor informatie over taakmachtigingen <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">Een taak delen </a><span> en voor informatie over uitgiftemachtigingen raadpleegt u</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">Een uitgave delen </a></span>. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,9 +80,9 @@ Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse 
 * U kunt dagelijkse, wekelijkse en maandelijkse toewijzingen van de gebruikers aan hun werkitems weergeven. Schakel de weergave Week of Maand in om wekelijkse of maandelijkse toewijzingen weer te geven.
 * U kunt de werklastbalans gebruiken om de dagelijkse, wekelijkse of maandelijkse toewijzing van de gebruikers aan de taken of uitgaven aan te passen. Voor informatie over het aanpassen van de weergave van Werklastbalans raadpleegt u [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   >[!NOTE]
-   >
-   >Wij adviseren dat u een besluit neemt welk tijdkader (dagelijks, wekelijks, of maandelijks) u altijd wilt gebruiken wanneer het beheren van gebruikerstoewijzingen en niet tussen hen voor de zelfde het werkpunten wilt schakelen. Wanneer u wekelijkse toewijzingen bijwerkt voor dezelfde gebruiker waarvoor u eerder dagelijkse toewijzingen hebt bijgewerkt, wordt de dagelijkse toewijzing voor de gebruiker gewijzigd.
+  >[!NOTE]
+  >
+  >Wij adviseren dat u een besluit neemt welk tijdkader (dagelijks, wekelijks, of maandelijks) u altijd wilt gebruiken wanneer het beheren van gebruikerstoewijzingen en niet tussen hen voor de zelfde het werkpunten wilt schakelen. Wanneer u wekelijkse toewijzingen bijwerkt voor dezelfde gebruiker waarvoor u eerder dagelijkse toewijzingen hebt bijgewerkt, wordt de dagelijkse toewijzing voor de gebruiker gewijzigd.
 
 * U kunt toewijzingen bijwerken voor zowel werkdagen als niet-werkdagen.
 * De tijdstempels voor de Geplande Begin en Geplande Voltooiingsdata van de het werkpunten evenals het Programma van het project zijn belangrijk wanneer Workfront automatisch de dagelijkse toewijzing voor de taak berekent.
@@ -93,8 +93,7 @@ Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse 
 >
 >Workfront berekent de toerekening van de twee uur over de twee dagen van de duur met behulp van de volgende formule:
 >
->
-```
+>```
 >
 >   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
 >```
@@ -113,26 +112,26 @@ Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse 
 
 * Wanneer een gebruiker tijd uit heeft gepland, de dag of het gedeelte van de dag in een grijze achtergrond toont. Als de Workfront-beheerder de instelling Gebruikerstijd uit in het gedeelte Setup heeft ingeschakeld om rekening te houden met de tijd van de gebruiker uitgeschakeld, gaan de toegewezen uren naar de volgende beschikbare dag in de tijdlijn. Als de instelling is uitgeschakeld, blijven de toegewezen uren op de dag staan die voor vrije tijd is gemarkeerd en wordt de gebruiker weergegeven als oververdeeld. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!TIP]
-   >
-   >Als de tijd weg duidelijk was nadat de gebruiker aan een het werkpunt werd toegewezen, moet u de chronologie van het project opnieuw berekenen om de bewogen toewijzing te tonen. Zie voor meer informatie [Projecttijdlijnen opnieuw berekenen](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >[!TIP]
+  >
+  >Als de tijd weg duidelijk was nadat de gebruiker aan een het werkpunt werd toegewezen, moet u de chronologie van het project opnieuw berekenen om de bewogen toewijzing te tonen. Zie voor meer informatie [Projecttijdlijnen opnieuw berekenen](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * Als er veelvoudige gebruikers aan de taak worden toegewezen, wordt de hoeveelheid Geplande Uren gelijkmatig verdeeld aan elke gebruiker eerst, dan gelijkmatig aan elke dag binnen de Duur van de taak. Deze distributie wordt de toewijzing van elke gebruiker aan de taak.
 
-   De volgende scenario&#39;s kunnen bijvoorbeeld bestaan:
+  De volgende scenario&#39;s kunnen bijvoorbeeld bestaan:
 
    * Voor een taak met een Duur van 2 Dagen en met 10 Geplande Uren die aan één gebruiker wordt toegewezen, is de dagelijkse toewijzing voor de gebruiker 5 uren voor elke dag door gebrek.
    * Voor een taak met een Duur van 2 dagen en met 10 Geplande Uren die aan twee gebruikers worden toegewezen, is de dagelijkse toewijzing voor elke gebruiker 2.5 uren voor elke dag door gebrek.
 
 * Als een taak of afgifte vóór de geplande voltooiingsdatum is voltooid, wordt het aantal toegewezen uren voor de resterende dagen doorgehaald en wordt niet meegerekend in de totale toewijzing van de gebruiker. Dit wordt alleen weergegeven wanneer zowel het pictogram Toewijzingen weergeven als de instelling Geprojecteerde datums weergeven zijn ingeschakeld. Ga voor meer informatie over het inschakelen van instellingen in Workload Balancer naar [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![](assets/allocations-struck-through-highlighted-350x39.png)
 
 * Wanneer een gebruiker wordt oververdeeld, worden de toegewezen uren weergegeven met een rode achtergrond in het gebruikersveld.
-* Wanneer de gebruiker onderverdeeld of een gelijke hoeveelheid uren aan hun geplande beschikbare tijd wordt toegewezen, tonen de uren met een blauwe achtergrond.
+* Wanneer de gebruiker onderverdeeld is of een gelijke hoeveelheid uren aan hun geplande beschikbare tijd toewijst, tonen de uren met een blauwe achtergrond.
 * U kunt de toewijzing van gebruikers weergeven in een grafiekweergave in de gebruikersregel. Voor informatie over het toelaten van de grafiekmening voor gebruikerstoewijzingen, zie de &quot;sectie van de Balancer van de Werkbelasting&quot;in het artikel [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/user-allocation-chart-350x237.png)
+  ![](assets/user-allocation-chart-350x237.png)
 
 ### Criteria voor het opnieuw instellen van gebruikerstoewijzingen {#criteria-that-reset-user-allocations}
 
@@ -140,7 +139,7 @@ Niet alle taakveranderingen brengen de gewijzigde toewijzingen aan herverdeling 
 
 >[!NOTE]
 >
->Als u de automatische verdeling van de toewijzingen voor werkartikelen niet hebt gewijzigd, worden de uren gelijkmatig verdeeld over alle toewijsingen wanneer het aantal toewijsingen, de duur van een taak of de hoeveelheid geplande uren voor het werkitem wordt gewijzigd.
+>Als u de automatische verdeling van de toewijzingen voor werkitems niet hebt gewijzigd, worden de uren gelijkmatig verdeeld over alle toewijsingen wanneer het aantal toewijzingen, de duur van een taak of de hoeveelheid geplande uren voor het werkitem wordt gewijzigd.
 
 * [Handelingen die aangepaste toewijzingen opnieuw instellen](#actions-that-reset-adjusted-allocations)
 * [Handelingen waarbij de aangepaste toewijzingen niet opnieuw worden ingesteld](#actions-that-do-not-reset-adjusted-allocations)
@@ -200,7 +199,7 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 
    1. **Uren opnemen uit uitgaven**. Hierdoor kunt u niet alleen taaktoewijzingen maar ook toewijzingen van uitgaven beheren.
    1. **Voltooid werk tonen** . Op deze manier worden items weergegeven die zijn voltooid en gepland tijdens de tijdlijn waarvoor u toewijzingen beheert.
-   1. **Resterende tijd tonen** optie. Het totale aantal uren voor elke gebruiker (in de gebruikerslijn) verandert. Als deze instelling is ingeschakeld, wordt in Workload Balancer het aantal uren weergegeven dat elke gebruiker beschikbaar heeft voor het werk in plaats van het aantal uren waarvoor hij of zij is toegewezen.
+   1. **Resterende tijd tonen** -optie. Het totale aantal uren voor elke gebruiker (in de gebruikerslijn) verandert. Als deze instelling is ingeschakeld, wordt in Workload Balancer het aantal uren weergegeven dat elke gebruiker beschikbaar heeft voor het werk in plaats van het aantal uren waarvoor hij of zij is toegewezen.
 
       >[!TIP]
       >
@@ -216,13 +215,13 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 
 1. Klik op de knop **Meer** menu ![](assets/qs-more-menu.png) voor een tijdelijk onderdeel klikt u op **Toewijzingen bewerken**.
 
-![](assets/more-menu-on-task-wb-nwe.png)
+   ![](assets/more-menu-on-task-wb-nwe.png)
 
-of
+   of
 
-Dubbelklik op de dag, week of maand in de balk van een taak of uitgave.
+   Dubbelklik op de dag, week of maand in de balk van een taak of uitgave.
 
-De toewijzingsvakken kunnen worden bewerkt.
+   De toewijzingsvakken kunnen worden bewerkt.
 
 1. Klik in het vak van elke dagelijkse, wekelijkse of maandelijkse toewijzing om de hoeveelheid uren of de percentagewaarde waarvoor u de gebruiker elke dag, week of maand wilt toewijzen handmatig bij te werken en klik vervolgens op de knop **Opslaan** pictogram ![](assets/checkmark-icon.png).
 
@@ -243,16 +242,23 @@ De toewijzingsvakken kunnen worden bewerkt.
    * Voor taken met de Types van Duur die niet Eenvoudig of voor kwesties zijn, moet het totaal van de toewijzingen de taak Gepland Uren aanpassen alvorens u het vinkje pictogram kunt klikken.
    * Voor taken met een Eenvoudig Type van Duur kan het totaal van de toewijzingen hoger of lager zijn dan de Geplande Uren en u kunt het pictogram van het vinkje klikken zelfs als zij niet aanpassen. Hierdoor wordt ook het aantal geplande uren voor de taak bijgewerkt. U moet over de juiste machtigingen en toegang beschikken om geplande uren bij te werken voor taken vanuit Workload Balancer.
 
-      >[!TIP]
-      >
-      >Een slotpictogram toont rechts van de taaknaam aangezien u begint uw toewijzingen aan te passen om erop te wijzen dat de taak een Eenvoudig Type van Duur heeft.
+     >[!TIP]
+     >
+     >Een slotpictogram toont rechts van de taaknaam aangezien u begint uw toewijzingen aan te passen om erop te wijzen dat de taak een Eenvoudig Type van Duur heeft.
 
-      ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+
    Raadpleeg de volgende sectie in dit artikel voor meer informatie over de voorwaarden waaraan moet worden voldaan om geplande uren in Workload Balancer bij te werken: [Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen](#update-task-planned-hours-when-managing-user-allocations). Voor informatie over de Types van Duur van de taak, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Voorwaardelijk) als de taak aan meer dan één gebruiker wordt toegewezen, herhaal deze stappen voor elke gebruiker die aan de taak wordt toegewezen om de toewijzingen voor elke gebruiker bij te werken.
 
    Iedereen die toegang heeft om de Balancer van de Werklast te bekijken en de zelfde gebruikers en de zelfde projecten te bekijken u nu de bijgewerkte toewijzing voor de gebruikers beheerde.
+
+>[!TIP]
+>
+>Een potloodpictogram wordt rechts van de naam van het werkitem weergegeven om aan te geven dat dit handmatig is aangepast.
+
+![Handmatig aangepast uurpictogram](assets/icon-for-manually-adjusted-hours.png)
 
 ## Taak geplande uren bijwerken bij het beheren van gebruikerstoewijzingen {#update-task-planned-hours-when-managing-user-allocations}
 
@@ -264,8 +270,6 @@ U kunt de geplande uren van een taak bijwerken wanneer u gebruikerstoewijzingen 
 >* Het handmatig bijwerken van geplande uren door het wijzigen van de dagelijkse toewijzingen kan invloed hebben op de geplande uren wanneer taken in de toekomst worden verwijderd. Zie voor meer informatie [Overzicht van geplande uren](../../manage-work/tasks/task-information/planned-hours.md).
 >
 >* Het is niet mogelijk geplande uren voor problemen bij te werken door toewijzingen in de werklastbalans bij te werken.
->
-
 
 Dit is mogelijk wanneer aan de volgende voorwaarden wordt voldaan:
 
@@ -274,10 +278,10 @@ Dit is mogelijk wanneer aan de volgende voorwaarden wordt voldaan:
    * Rechten voor de taken beheren.
    * Werk Geplande uren in de toegang van de Balancer van de Werkbelasting op het gebied van het Beheer van het Middel van uw Niveau van de Toegang bij.
 
-   Zie de volgende sectie in dit artikel voor meer informatie over de toegang die nodig is om de werklastbalans te gebruiken: [Toegangsvereisten](#access-requirements) .
+  Zie de volgende sectie in dit artikel voor meer informatie over de toegang die nodig is om de werklastbalans te gebruiken: [Toegangsvereisten](#access-requirements).
 
 * De taak heeft een Type van Duur van Eenvoudig.
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
   -->

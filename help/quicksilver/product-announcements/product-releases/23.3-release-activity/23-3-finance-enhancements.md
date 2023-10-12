@@ -3,9 +3,10 @@ title: 23.3 Verbeteringen van het financieel beheer
 description: 23.3 Verbeteringen van het financieel beheer
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiec
 >
 >* Productieversie voor klanten met een Fast release: na de productierelease 23.3 aan te kondigen
 >
->* Productieversie voor alle klanten: Productieversie voor alle klanten: met de release van 23.10 (oktober 2023)
+>* Productieversie voor alle klanten: Productieversie voor alle klanten: Te publiceren
 >
 >De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning van 30 juni tot 13 juli 2023.
 

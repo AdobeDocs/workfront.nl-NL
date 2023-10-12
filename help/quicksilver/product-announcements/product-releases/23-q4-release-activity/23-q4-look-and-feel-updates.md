@@ -4,10 +4,10 @@ description: De blik-en-voelen updates tijdens het Vierde Kwartaal 2023 de tijdk
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het vierde Kwartaal 2023 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met de Vierde Versie van het Kwartaal 2023, zie [Overzicht release 4de kwartaal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Indicator voor handmatig aangepaste toewijzingen in de werklastbalans
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 12 oktober 2023; Productieversie voor alle klanten: TBD
+
+Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.
+
+Zie voor meer informatie [Toewijzingen van gebruikers beheren in Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Nieuwe look-and-feel updates voor tabbladen in het gedeelte Instellingmeldingen
 

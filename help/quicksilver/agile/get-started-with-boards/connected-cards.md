@@ -6,7 +6,7 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
+source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -27,6 +27,7 @@ Wanneer een van de volgende gegevens voor de kaart op de ene locatie wordt bijge
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
+* <span class="preview">[!UICONTROL Subtasks]</span>
 * <span class="preview">[!UICONTROL Documents]</span>
 
 >[!NOTE]

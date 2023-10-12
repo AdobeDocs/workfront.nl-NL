@@ -3,10 +3,10 @@ title: 23.3 releaseoverzicht
 description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
-exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
+exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                             </li>
                             <li>
                                 <p>Productieversie voor klanten met een Fast release: na de productierelease 23.3 aan te kondigen</p>
-                                <p>Productieversie voor alle klanten: met de release van 23.10 (oktober 2023)<br>
+                                <p>Productieversie voor alle afnemers: Te publiceren<br>
                                 De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning van 30 juni tot 13 juli 2023.</p>
                             </li>
                         </ul>
@@ -420,8 +420,8 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront-meldingen van Workfront for Creative Cloud-plug-ins weergeven en beheren</a></p> 
-                        <p>Om het voor u gemakkelijker te maken om de berichten te ontvangen u wenst, hebben wij het mogelijk gemaakt om Workfront berichten te bekijken en te beheren zonder de Adobe Creative Cloud te verlaten. U kunt nu meldingen en de bijbehorende werkitems en opmerkingen rechtstreeks weergeven via het Workfront-insteekvenster in de Creative Cloud-toepassing.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront-meldingen van de Workfront for Creative Cloud-plug-ins weergeven en beheren</a></p> 
+                        <p>Om het voor u gemakkelijker te maken om de berichten te ontvangen u wenst, hebben wij het mogelijk gemaakt om Workfront berichten te bekijken en te beheren zonder de Adobe Creative Cloud te verlaten. U kunt nu meldingen en de bijbehorende werkitems en opmerkingen rechtstreeks bekijken in het Workfront-insteekvenster van de toepassing Creative Cloud.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -500,8 +500,8 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">De sjablooninstellingen voor automatische proefdrukwerkstromen aanpassen met Adobe Workfront for Creative Cloud</a></p>
-                        <p>U kunt de bestaande instellingen van de automatische werkstroomsjabloon nu rechtstreeks in de Creative Cloud aanpassen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Instellingen voor automatische proefdrukwerkstromen aanpassen met Adobe Workfront for Creative Cloud</a></p>
+                        <p>U kunt de bestaande sjablooninstellingen voor geautomatiseerde workflows nu rechtstreeks in het Creative Cloud aanpassen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
