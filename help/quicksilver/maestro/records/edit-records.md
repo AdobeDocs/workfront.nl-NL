@@ -4,13 +4,13 @@ description: U kunt recordgegevens bewerken in Adobe Maestro. U moet recordtypen
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * U kunt records bewerken die u of een andere gebruiker heeft gemaakt. <!--will change with access levels-->
 * Als de bewerkte records zijn gekoppeld aan andere records, heeft de nieuwe informatie over de records die u bewerkt, betrekking op de gekoppelde records.
 * U kunt records niet bulksgewijs bewerken. <!--this will probably change-->
-
+* U kunt geen velden bewerken die zijn gekoppeld vanuit andere records.
 
 ## Records bewerken
 
@@ -145,6 +145,11 @@ U kunt een record uit de volgende gebieden bewerken:
    >* Gekoppelde velden kunnen niet worden bewerkt. De gegevens voor deze velden worden automatisch ingevuld via de gekoppelde records. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
    >
    >* URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

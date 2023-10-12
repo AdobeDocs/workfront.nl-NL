@@ -7,9 +7,9 @@ description: Adobe Workfront heeft limieten voor het aantal objecten dat aan een
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,13 @@ De volgende voorwerpen verbonden aan projecten hebben de volgende grenzen:
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Taken</p></td> 
-   <td>  <p>Het maximumaantal taken per project is 5.000. Er wordt een waarschuwingsbericht weergegeven wanneer het aantal taken dit maximum bereikt. Wanneer het maximum wordt bereikt, toont een foutenmelding en kunnen de extra taken niet aan het project worden toegevoegd.</p> <p>Verplaats taken die zijn gesloten voor een ander project dat is bestemd voor gesloten taken om te voorkomen dat u dit maximum bereikt. De verslagen over deze projecten moeten mogelijk worden aangepast.</p>
+   <td>  <p>Het maximumaantal taken per project is 5.000. Er wordt een waarschuwingsbericht weergegeven wanneer het aantal taken dit maximum bereikt. Wanneer het maximum wordt bereikt, toont een foutenmelding en kunnen de extra taken niet aan het project worden toegevoegd.</p> <p>Verplaats taken die zijn gesloten voor een ander project dat is bestemd voor gesloten taken om te voorkomen dat u dit maximum bereikt. Het kan nodig zijn de verslagen over deze projecten aan te passen.</p>
 
 <b>BELANGRIJK</b>
 
-Voor projecten waar de taken veel gebiedsdelen hebben, adviseren wij dat het aantal taken in de projecten veel lager zou moeten zijn dan het maximum toegestane van 5.000 taken.
+Voor projecten waar de taken veel gebiedsdelen hebben, zou een prestatiesdegradatie in het berekenen van de chronologie kunnen voorkomen of wanneer het werken in het project.
+
+Daarom adviseren wij dat het aantal taken in projecten met complexe afhankelijkheden veel lager zou moeten zijn dan het toegestane maximum van 5.000 taken.
 
 Enkele voorbeelden van taakgebiedsdelen die het opnieuw berekenen van de chronologie van het project zouden kunnen beïnvloeden of verhinderen zijn:
 
@@ -43,7 +45,7 @@ Enkele voorbeelden van taakgebiedsdelen die het opnieuw berekenen van de chronol
   </tr> 
   <tr> 
    <td role="rowheader"><p>Problemen</p></td> 
-   <td>  <p>Het maximumaantal uitgaven per project is 10.000. Er wordt een waarschuwingsbericht weergegeven wanneer het aantal problemen dit maximum bereikt. Wanneer het maximum wordt bereikt, toont een foutenmelding en kunnen de extra kwesties niet aan het project worden toegevoegd.</p> <p>U kunt voorkomen dat dit maximum wordt bereikt door problemen die zijn gesloten, naar een ander project te verplaatsen dat is bedoeld voor afgesloten problemen. De verslagen over deze projecten moeten mogelijk worden aangepast.</p> </td> 
+   <td>  <p>Het maximumaantal uitgaven per project is 10.000. Er wordt een waarschuwingsbericht weergegeven wanneer het aantal problemen dit maximum bereikt. Wanneer het maximum wordt bereikt, toont een foutenmelding en kunnen de extra kwesties niet aan het project worden toegevoegd.</p> <p>U kunt voorkomen dat dit maximum wordt bereikt door problemen die zijn gesloten, naar een ander project te verplaatsen dat is bedoeld voor afgesloten problemen. Het kan nodig zijn de verslagen over deze projecten aan te passen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Duur</p></td> 

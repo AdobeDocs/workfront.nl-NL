@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -50,7 +50,7 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 * Opmerkingen maken over een systeemupdate
 * De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen
 * Aangepast formulier bewerken
-* De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt.
+* De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
 * De optie &#39;Vraag om goedkeuring&#39; wanneer u personen een label geeft terwijl u een opmerking aan een document toevoegt.
 
 >[!NOTE]

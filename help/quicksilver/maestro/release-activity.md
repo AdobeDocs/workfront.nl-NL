@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
@@ -41,6 +41,24 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 Voorbeeld en productie: 9 oktober 2023
 
 U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweergave. U kunt trefwoorden en speciale tekens gebruiken in alle velden die zichtbaar zijn op het scherm om een record te zoeken. Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
+
+<!--
+***********WHICH WEEK IS THIS???***********
+
+### New People field type 
+
+Preview and production: ************ADD INFORMATION HERE***********
+
+You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
+
+
+### Rich Text- format for Paragraph fields
+
+Preview and production: ************ADD INFORMATION HERE***********
+
+We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+-->
 
 ## Week van 18 september 2023
 

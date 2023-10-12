@@ -6,8 +6,8 @@ description: Bekijk de activiteit van de wekelijkse release voor de nieuwe Adobe
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 0%
@@ -70,6 +70,18 @@ Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het v
 De volgende sectie bevat een lijst met functies die zijn toegevoegd na de oorspronkelijke versie van 23.2, te beginnen met de functies die het laatst zijn uitgebracht.
 
 De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. Dit artikel bevat nieuwe functies die worden toegevoegd en problemen die worden opgelost voor de nieuwe opmerkingervaring.
+
+<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+
+### Week of October 9, 2023
+
+#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 13, 2023. 
+
+-->
 
 ### Week van 11 september 2023
 

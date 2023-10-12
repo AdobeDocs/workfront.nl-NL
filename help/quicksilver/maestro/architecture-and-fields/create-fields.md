@@ -4,13 +4,13 @@ description: In Adobe Maestro, kunt u douanevelden voor elk soort van operatione
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Percentage](#percentage)
    * [Valuta](#currency)
    * [Selectievakje](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ Tekstvelden van één regel bevatten beperkte alfanumerieke informatie. U kunt b
 
    ![](assets/single-line-text-field-type.png)
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolomkop van het veld in een tabel plaatst.
 1. Klikken **Maken**.
@@ -213,12 +214,22 @@ Tekstvelden van één regel bevatten beperkte alfanumerieke informatie. U kunt b
 
 In alineasvelden wordt aanvullende alfanumerieke informatie over een record vastgelegd, vergelijkbaar met het veld Beschrijving. De inhoud van een alinea-veld kan maximaal 1000 tekens bevatten.
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Alinea** veldtype.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. Klikken **Maken**.
@@ -235,7 +246,7 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
    ![](assets/multi-select-field-type.png)
 
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Keuzen**: De opties die beschikbaar zijn om in het keuzemenu te selecteren nadat het veld is opgeslagen. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
@@ -257,7 +268,7 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
    ![](assets/single-select-field-type.png)
 
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Keuzen**: De opties die beschikbaar zijn om in het keuzemenu te selecteren nadat het veld is opgeslagen. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
@@ -279,7 +290,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
    ![](assets/date-field-type.png)
 
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Datumnotatie**: Het type datumnotatie dat u in dit veld wilt weergeven.
@@ -308,7 +319,7 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Getal** veldtype.
 
    ![](assets/number-field-type.png)
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
 
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record.
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
@@ -331,7 +342,7 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 
    ![](assets/percentage-field-type.png)
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record.
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Precisie**: Het aantal decimalen dat u voor het veld wilt opnemen. U kunt maximaal 6 decimalen weergeven.
@@ -353,7 +364,7 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
 
    ![](assets/currency-field-type.png)
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Valuta**: Het type valuta dat u in dit veld wilt weergeven. Dit is een lijst van valuta&#39;s volgens de Internationale Organisatie voor Normalisatie (ISO).
@@ -376,12 +387,30 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
 
    ![](assets/checkbox-field-type.png)
 
-1. Voeg de volgende informatie toe:
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. Klikken **Maken**.
 
    Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de bijbehorende waarden kunnen aan records worden gekoppeld. Het veld wordt ook weergegeven op de pagina Details van een record.
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## Velden maken door recordtypen aan elkaar te koppelen
 
@@ -402,6 +431,3 @@ Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe 
 Maestro creeert gebieden voor operationele verslagtypes en taxonomieën wanneer u een werkruimte van een malplaatje creeert.
 
 Zie voor meer informatie [Werkruimten maken](../architecture-and-fields/create-workspaces.md).
-
-
-

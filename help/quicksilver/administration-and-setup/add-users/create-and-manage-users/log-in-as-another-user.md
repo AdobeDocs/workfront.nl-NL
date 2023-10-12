@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Adobe Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, is deze actie niet beschikbaar.
 >
->Voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console, raadpleegt u [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-beheerder moet u mogelijk Workfront openen namens een andere gebruiker.
 
@@ -49,7 +49,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Omdat een documentintegratie verbinding kan maken met persoonlijke privébestanden, hebben beheerders geen toegang tot documentintegratie wanneer ze zijn aangemeld als een andere gebruiker.
 >
->Voor meer informatie over documentintegratie raadpleegt u [Documentintegratie configureren](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Zie voor meer informatie over documentintegratie [Documentintegratie configureren](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 
 ## Toegangsvereisten
 
@@ -102,7 +102,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >
    >De beheerders van de groep kunnen login slechts als gebruikers die lid van de groepen zijn zij leiden. Ze kunnen zich niet aanmelden als Workfront-beheerder.
 
-1. Klikken **Meld u aan.**
+1. Klikken **Log in.**
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
@@ -131,7 +131,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Wanneer u als een andere gebruiker het programma wordt geopend, toont een bericht bij de bovenkant van het scherm om op dit te wijzen.
 
-1. Klik op **Afmelden.**
+1. Nadat u de noodzakelijke acties als gebruiker hebt uitgevoerd, klik **Afmelden.**
 
 ## Traceren en controleren van activiteiten terwijl een beheerder als een andere gebruiker is aangemeld
 
@@ -148,7 +148,7 @@ Wanneer u zich bij Workfront als een andere gebruiker aanmeldt en een actie uitv
 
 Als u bijvoorbeeld een opmerking maakt over een item terwijl u zich als een andere gebruiker hebt aangemeld, geeft een instructie aan dat de opmerking door u namens de gebruiker is gemaakt.
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >
