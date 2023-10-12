@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td><p>Aangepaste velden die u toevoegt, worden in dit gebied weergegeven.</p>
       <p>Zie voor meer informatie <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Aanpassen welke velden worden weergegeven op een kaart</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtask]</strong></span></td>
+      <td><span class="preview"><p>Eventuele bestaande subtaken voor de taak worden in deze sectie weergegeven. Klikken <strong>[!UICONTROL Add Subtask]</strong> om een nieuwe subtaak toe te voegen.</p>
+      <p>De teller bij de bovenkant van de sectie toont het aantal voltooide subtaken en het totale aantal subtaken.</p>
+      <p>Voor meer informatie over subtaken, zie <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Subtaken beheren op tekengebieden</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Zie voor meer informatie over controlelijstitems <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
+      <td><p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p>
+      <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Zie voor meer informatie over controlelijstitems <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
