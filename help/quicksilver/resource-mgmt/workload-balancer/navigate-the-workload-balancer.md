@@ -6,9 +6,9 @@ description: Gebruik de werklastbalans om de beschikbaarheid van uw bronnen te b
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ Houd rekening met het volgende wanneer u de werklastbalans weergeeft:
 
   >[!NOTE]
   >
-  >* De punten van het werk die aan een baanrol of een team worden toegewezen, en ook aan een gebruiker worden toegewezen die de primaire ontvanger is, tonen niet in het Unassigned gebied van het Werk.
+  >* De punten van het werk die aan een baanrol of een team worden toegewezen, en ook aan een gebruiker worden toegewezen die de primaire ontvanger is, tonen in zowel het Niet toegewezen gebied van het Werk als onder de toegewezen naam van de gebruiker in het Toegewezen gebied van het Werk.
   >* De punten van het werk die aan een gebruiker en een baanrol worden toegewezen, waar de baanrol als primaire ontvanger van het punt wordt geselecteerd, tonen in het Niet toegewezen gebied van het Werk.
   >* De punten van het werk die aan meer dan één gebruikersvertoning onder alle toegewezen gebruikersnamen in het Toegewezen gebied van het Werk worden toegewezen.
+
+  Zie &quot;Toewijzingsgebieden in werklastbalans&quot; in [Overzicht van het toewijzen van werk in de werklastverdeler](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Wanneer een project geen taken tijdens een periode heeft, wordt de bar op het projectniveau een gedimde kleur.
 

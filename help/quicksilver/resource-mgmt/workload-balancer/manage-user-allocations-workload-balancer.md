@@ -6,7 +6,7 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Toewijzingen van gebruikers beheren in Workload Balancer
+
+{{highlighted-preview}}
 
 Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en hun dagelijkse, wekelijkse, of maandelijkse toewijzingen van de Balancer van de Werklast beheren om ervoor te zorgen zij een hoeveelheid uren worden toegewezen die in hun beschikbare programma&#39;s past.
 
@@ -256,7 +258,7 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 
 >[!TIP]
 >
->Een potloodpictogram wordt rechts van de naam van het werkitem weergegeven om aan te geven dat dit handmatig is aangepast.
+><span class="preview">Een potloodpictogram wordt rechts van de naam van het werkitem weergegeven om aan te geven dat dit handmatig is aangepast.</span>
 
 ![Handmatig aangepast uurpictogram](assets/icon-for-manually-adjusted-hours.png)
 
