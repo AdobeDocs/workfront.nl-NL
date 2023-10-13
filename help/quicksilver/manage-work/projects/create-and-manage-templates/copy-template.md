@@ -6,9 +6,9 @@ description: In plaats van een nieuw projectmalplaatje van kras te creëren, kun
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot sjablonen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -46,6 +46,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
+
+## Overwegingen bij het kopiëren van sjablonen
+
+De volgende punten worden altijd gekopieerd van een bestaand project aan nieuwe:
+
+* Sjabloontaken
+* Standaardinformatie sjabloontaak (standaardgoedkeuringsproces taak, standaard aangepaste Forms)
+* Aangepaste formulieren
+* Risico&#39;s
+* Informatie over wachtrijinstellingen
+* Portfolio en programma
+* Goedkeuringen
+* Documenten
+* De dagen van de oorspronkelijke sjabloontaken worden overgedragen naar de nieuwe sjabloon. U moet de dag van het Begin of van de Voltooiing van het malplaatje (afhankelijk van zijn Wijze van het Programma) veranderen om de dagen op de malplaatjetaken bij te werken, indien nodig.
+
+De volgende items worden nooit van een bestaand project naar een nieuw project gekopieerd:
+
+* Factureringstarieven
+* Opmerkingen van gebruikers
+
 ## Een sjabloon kopiëren
 
 1. Ga naar de sjabloon die u wilt kopiëren.
@@ -54,5 +74,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Standaard is de nieuwe naam **Kopie van `<original template name>`.**
 
-1. Selecteer of u wilt **Gebruikerstoewijzingen op taken en sjabloon behouden**: Selecteer deze optie als u alle taken en sjabloontoewijzingen van de oorspronkelijke sjabloon naar de nieuwe sjabloon wilt verplaatsen.
-1. Klikken **Opslaan** om een kopie van de sjabloon te maken.
+1. Selecteer of u wilt **Gebruikerstoewijzingen op taken en sjabloon behouden**: selecteer deze optie als u alle taken en sjabloontoewijzingen van de oorspronkelijke sjabloon naar de nieuwe sjabloon wilt verplaatsen.
+1. Klikken **Opslaan** een kopie van de sjabloon maken.

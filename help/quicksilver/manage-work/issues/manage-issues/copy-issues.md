@@ -6,9 +6,9 @@ description: U kunt een uitgave of een verzoek kopiëren en hen op het zelfde of
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -57,13 +57,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## Overwegingen voor problemen die samenhangen met documenten of aanvraagwachtrijen
+## Overwegingen bij het kopiëren van problemen
+
+### Algemene overwegingen bij het kopiëren van problemen
+
+U hebt de kans om te selecteren om sommige punten met betrekking tot de kwestie aan de gekopieerde kwestie tijdens het kopiëren te kopiëren. Sommige items worden echter standaard overgebracht naar de nieuwe uitgave, andere niet, zoals in de onderstaande lijsten wordt beschreven.
+
+De volgende items worden standaard naar de nieuwe uitgave gekopieerd:
+
+* Primaire contactpersoon
+* Aangepaste formulieren. De informatie in de aangepaste velden wordt alleen naar de nieuwe uitgave gekopieerd wanneer u Aangepaste gegevens selecteert tijdens het kopiëren.
+* Goedkeuringen
+* Geplande begin- en geplande einddatum
+
+De volgende objecten worden standaard niet naar de nieuwe uitgave gekopieerd:
+
+* Aangemeld aantal uren
+
+### Overwegingen voor problemen die samenhangen met documenten of aanvraagwachtrijen
 
 Overweeg het volgende wanneer het kopiëren van kwesties die documenten bevatten of met een verzoekrij worden geassocieerd:
 
 * **Wanneer een kwestie met een verzoekrij wordt geassocieerd:** Wanneer u een uitgave naar een ander voorwerp kopieert en de kwestie met een verzoekrij wordt geassocieerd, wordt de gekopieerde kwestie niet meer geassocieerd met de originele rij de eerste kwestie voortkwam uit.
-* **Wanneer een document aan de uitgave wordt vastgemaakt:** Wanneer u een uitgave naar een ander voorwerp kopieert en de kwestie heeft een document aan het in bijlage, het document en zijn versies zich ook aan de nieuwe kwestie bewegen. Proefdrukken of goedkeuringen die aan het document zijn gekoppeld, worden niet verplaatst.
-* **Wanneer een uitgave aan een document of een omslag wordt verbonden:** Wanneer u een uitgave kopieert waarin documenten of mappen zijn gekoppeld aan een externe service zoals Google Drive, worden de koppelingen naar de documenten overgebracht naar de gekopieerde uitgave. 
+* **Wanneer een document aan de uitgave wordt vastgemaakt:** Wanneer u een uitgave naar een ander voorwerp kopieert en de kwestie heeft een document aan het in bijlage, het document en zijn versies zich ook aan de nieuwe kwestie bewegen. Proefdrukken of goedkeuringen die aan het document zijn gekoppeld, worden niet verplaatst.
+* **Wanneer een uitgave aan een document of een omslag wordt verbonden:** Wanneer u een uitgave kopieert waarin documenten of mappen zijn gekoppeld aan een externe service zoals Google Drive, worden de koppelingen naar de documenten overgebracht naar de gekopieerde uitgave.
 
 ## Uitgaven kopiëren in een lijst
 
@@ -84,7 +101,7 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE:&nbsp;ensure step number stays accurate)
+   (NOTE: ensure step number stays accurate)
    </MadCap:conditionalText>
    -->
 
@@ -92,7 +109,7 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 
 U kunt één uitgave kopiëren wanneer het bekijken.
 
-1. Ga naar een kwestie die u wilt kopiëren, dan klik **Meer** menu ![](assets/more-icon.png) rechts van de naam van de uitgave, **Kopiëren** naar.
+1. Ga naar een kwestie die u wilt kopiëren, dan klik **Meer** menu ![](assets/more-icon.png) rechts van de naam van de uitgave, **Kopiëren** tot en met.
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
@@ -106,19 +123,20 @@ U kunt één uitgave kopiëren wanneer het bekijken.
    >
    >Er worden slechts 100 projecten weergegeven in de lijst.
 
-1. (Voorwaardelijk) Klik **aanvraagtoegang** als u geen toegang hebt om kwesties aan het project te kopiëren.
+1. (Voorwaardelijk) Klik **verzoek om toegang** als u geen toegang hebt om kwesties aan het project te kopiëren.
 1. (Voorwaardelijk) blijf de kwestie aan het geselecteerde bestemmingsproject kopiëren zonder toegang te vragen als u toegang hebt om kwesties aan één van de taken op het bestemmingsproject toe te voegen.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. (Optioneel) In het dialoogvenster **Opties** Schakel een van de items uit die in de onderstaande tabel worden vermeld, uit als u deze uit de nieuwe uitgave wilt verwijderen. Alle opties zijn standaard geselecteerd.
 
    >[!NOTE]
-   Dit is alleen van invloed op de gekopieerde problemen, niet op de oorspronkelijke problemen.
+   >
+   >Dit is alleen van invloed op de gekopieerde problemen, niet op de oorspronkelijke problemen.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -130,7 +148,7 @@ U kunt één uitgave kopiëren wanneer het bekijken.
      </tr> 
      <tr> 
       <td role="rowheader">Voortgang</td> 
-      <td>Hiermee verwijdert u het eventuele percentage van de uitgave dat is voltooid. </td> 
+      <td>Hiermee verwijdert u het eventuele percentage van de uitgave dat is voltooid.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documenten</td> 
@@ -146,7 +164,7 @@ U kunt één uitgave kopiëren wanneer het bekijken.
      </tr> 
      <tr> 
       <td role="rowheader">Aangepaste gegevens</td> 
-      <td>Hiermee verwijdert u de informatie uit het aangepaste formulier over de uitgave en de informatie over de aangepaste formulieren die zijn gekoppeld aan de documenten die bij de uitgave zijn gevoegd, als deze ook met de uitgave zijn gekopieerd. De aangepaste formulieren blijven bij de formulieren en documenten horen, maar de informatie over de formulieren gaat niet over op de nieuwe uitgave. </td> 
+      <td>Hiermee verwijdert u de informatie uit het aangepaste formulier over de uitgave en de informatie over de aangepaste formulieren die zijn gekoppeld aan de documenten die bij de uitgave zijn gevoegd, als deze ook met de uitgave zijn gekopieerd. De aangepaste formulieren blijven bij de formulieren en documenten horen, maar de informatie over de formulieren gaat niet over op de nieuwe uitgave. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -156,4 +174,4 @@ U kunt één uitgave kopiëren wanneer het bekijken.
 
    De gekopieerde problemen worden toegevoegd aan het opgegeven project.
 
- 
+

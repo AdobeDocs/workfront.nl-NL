@@ -6,9 +6,9 @@ description: U kunt een taak van een project aan een ander project kopiëren, of
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -85,9 +85,14 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Houd rekening met het volgende wanneer u een taak kopieert:
 
-* Problemen worden niet met de taak gekopieerd.
 * De mijlpalen worden overgebracht naar de gekopieerde taak en uit de originele taak verwijderd.
 * Wanneer u een taak van één project aan een ander kopieert, zouden de taakdata kunnen worden herberekend. Bij de herberekening wordt rekening gehouden met het tijdschema dat voor het nieuwe project wordt gebruikt en met het tijdschema voor het project op basis van informatie.
+* Subtaken worden overgedragen naar de nieuwe taak.
+* Aangepaste formulieren worden samen met de taak gekopieerd. De gegevens in de aangepaste velden worden alleen naar de gekopieerde taken overgedragen wanneer u Aangepaste gegevens kopieert wanneer u deze taak kopieert.
+* U kunt bepaalde onderdelen die aan de taak zijn gekoppeld tijdens het kopiëren naar de gekopieerde taak kopiëren. De volgende objecten worden echter standaard niet overgedragen naar de gekopieerde taak:
+   * Problemen
+   * Aangemeld aantal uren
+   * Opmerkingen van gebruikers <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoepassing:
 
@@ -124,7 +129,7 @@ U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoep
 
    * Klik op de knop **Het menu Meer** boven aan de takenlijst klikt u op **Kopiëren naar**.
    * Klik met de rechtermuisknop op de geselecteerde taken en klik vervolgens op **Kopiëren naar**.
-   * Als u één taak selecteert, klikt u op de knop **Meer** menu ![](assets/more-icon-task-list.png) naast de taaknaam in de lijst klikt u op **Kopiëren naar**.
+   * Als u één taak selecteert, klikt u op de knop **Meer** menu ![](assets/more-icon-task-list.png) naast de naam van de taak in de lijst klikt u op **Kopiëren naar**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
@@ -156,17 +161,17 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Typ de naam van de **Doelproject** waar u de taak in wilt kopiëren **Doelproject selecteren** veld. 
+1. Typ de naam van de **Doelproject** waar u de taak wilt kopiëren in de **Doelproject selecteren** veld. 
 
    >[!TIP]
    >
    >* De naam van het project is hoofdlettergevoelig.
-   >* U kunt ook beginnen het Aantal van de Verwijzing te typen of identiteitskaart van het project in te gaan. Hierdoor kunt u projecten met identieke namen beter van elkaar onderscheiden.
+   >* U kunt ook het Referentienummer typen of de id van het project invoeren. Hierdoor kunt u projecten met identieke namen beter van elkaar onderscheiden.
    >* Er worden slechts 100 projecten weergegeven in de lijst.
 
    De huidige projectnaam wordt standaard weergegeven. Als u de taak binnen het zelfde project wilt kopiëren, verlaat dit gebied onveranderd.
 
-1. (Voorwaardelijk) Klik **aanvraagtoegang** om toegang tot het project te verzoeken, als u geen toegang tot het geselecteerde project hebt.
+1. (Voorwaardelijk) Klik **verzoek om toegang** om toegang tot het project te verzoeken, als u geen toegang tot het geselecteerde project hebt.
 1. (Voorwaardelijk) blijf de taak aan het geselecteerde bestemmingsproject kopiëren zonder toegang te vragen als u toegang hebt om taken aan één van de taken op het bestemmingsproject toe te voegen.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
@@ -189,7 +194,7 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
     <tbody> 
      <tr> 
       <td role="rowheader">Restrictie</td> 
-      <td> <p>De taakbeperking wordt geplaatst aan zo spoedig mogelijk of zo laat mogelijk gebaseerd op het plaatsen van de Wijze van het projectprogramma.</p> <p> Als deze optie is geselecteerd, wordt de huidige beperking van de taak overgedragen naar de gekopieerde taak. </p> <p>Opmerking: Wanneer het bewegen of het kopiëren van een taak met datum-specifieke beperkingen aan een ander project en de beperkingsdata van de taak zijn buiten de data van het nieuwe project, of verandert de Beperking van de Taak in zo spoedig mogelijk of zo laat mogelijk of de Geplande Begin of Geplande Voltooiingsdata van de projecten worden aangepast. Sommige voorbeelden van datum-specifieke beperkingen zijn moet beginnen, moet beëindigen, begin niet vroeger dan, begin niet later dan, enz. Voor informatie over taakbeperkingen en hoe de taakbeperkingen of projectdata kunnen worden beïnvloed, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a> en zoekt naar een specifieke beperking.</p> </td> 
+      <td> <p>De taakbeperking wordt geplaatst aan zo spoedig mogelijk of zo laat mogelijk gebaseerd op het plaatsen van de Wijze van het projectprogramma.</p> <p> Als deze optie is geselecteerd, wordt de huidige beperking van de taak overgedragen naar de gekopieerde taak. </p> <p>Opmerking: wanneer een taak met datumspecifieke beperkingen naar een ander project wordt verplaatst of gekopieerd en de beperkingsdatums van de taak buiten de datums van het nieuwe project vallen, wordt de taakbeperking zo snel mogelijk of zo laat mogelijk gewijzigd of worden de geplande begin- of einddatums van de projecten aangepast. Sommige voorbeelden van datum-specifieke beperkingen zijn moet beginnen, moet beëindigen, begin niet vroeger dan, begin niet later dan, enz. Voor informatie over taakbeperkingen en hoe de taakbeperkingen of projectdata kunnen worden beïnvloed, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Overzicht van taakbeperking</a> en zoekt naar een specifieke beperking.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Toewijzingen</td> 

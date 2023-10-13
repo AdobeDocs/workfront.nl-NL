@@ -5,13 +5,13 @@ title: Sjabloontaken kopiëren en verplaatsen
 description: U kunt een sjabloontaak naar dezelfde sjabloon of naar een andere sjabloon verplaatsen.
 author: Alina
 feature: Work Management
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
-
 
 # Sjabloontaken kopiëren en verplaatsen
 
@@ -54,9 +54,15 @@ Houd rekening met het volgende wanneer u een sjabloontaak kopieert:
 
 * Mijlpalen worden niet overgedragen naar de gekopieerde of verplaatste sjabloontaak.
 
+* Subtaken worden overgedragen naar de nieuwe sjabloontaak.
+* Aangepaste formulieren worden gekopieerd met de sjabloontaak. De gegevens in de aangepaste velden worden alleen naar de nieuwe sjabloontaak overgedragen wanneer u Aangepaste gegevens wilt kopiëren.
+* U kunt bepaalde items die aan de sjabloontaak zijn gekoppeld tijdens het kopiëren naar de gekopieerde taak kopiëren. De volgende objecten worden echter standaard niet overgedragen naar de gekopieerde taak:
+
+   * Opmerkingen van gebruikers
+
 * U kunt een sjabloontaak kopiëren in de volgende onderdelen van de Adobe Workfront-webtoepassing:
 
-   * Op het taakniveau van het malplaatje, van **Meer pictogram** ![](assets/more-icon.png) rechts van de naam van de sjabloontaak.
+   * Op het taakniveau van het malplaatje, van **Meer pictogram** ![](assets/more-icon.png) rechts van de sjabloontaaknaam.
 
    * In een lijst met sjabloontaken.
 * U kunt sjabloontaken één voor één kopiëren of verplaatsen of meerdere sjabloontaken tegelijk selecteren.
@@ -75,7 +81,7 @@ Het vak Sjabloontaak kopiëren wordt geopend.
 
    >[!TIP]
    >
-   >Dit veld is gedimd en kan niet worden bewerkt wanneer u ervoor kiest meerdere sjabloontaken in een lijst te kopiëren. U kunt de muisaanwijzer boven het veld Naam sjabloontaak en een lijst met alle geselecteerde sjabloontaken weergeven.
+   >Dit veld is grijs en kan niet worden bewerkt als u meerdere sjabloontaken in een lijst wilt kopiëren. U kunt de muisaanwijzer boven het veld Naam sjabloontaak en een lijst met alle geselecteerde sjabloontaken weergeven.
 
 1. Typ de naam van het dialoogvenster **Doelsjabloon** waar u de sjabloontaak wilt kopiëren in het dialoogvenster **Doelsjabloon selecteren** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
 
@@ -85,7 +91,7 @@ Het vak Sjabloontaak kopiëren wordt geopend.
    >
    >U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
 
-1. (Voorwaardelijk) Klik **aanvraagtoegang** om toegang tot het bestemmingsmalplaatje te verzoeken, als u geen toegang tot het geselecteerde malplaatje hebt.
+1. (Voorwaardelijk) Klik **verzoek om toegang** om toegang tot het bestemmingsmalplaatje te verzoeken, als u geen toegang tot het geselecteerde malplaatje hebt.
 1. (Voorwaardelijk) blijf de malplaatjetaak aan het geselecteerde bestemmingsmalplaatje kopiëren zonder toegang te vragen als u toegang hebt om malplaatjetaken aan één van de malplaatjetaken op het bestemmingsmalplaatje toe te voegen.
 
 1. Klikken **Opties** in het linkerpaneel, dan schrap de attributen van de malplaatjetaak die u niet met de malplaatjetaak wilt kopiëren. Alle opties zijn standaard geselecteerd.
@@ -159,7 +165,7 @@ Het vak Sjabloontaak kopiëren wordt geopend.
     </tbody> 
    </table>
 
-(VRAGEN OVER DE LAATSTE RIJ: SJABLOONTAAK LIJKT GEEN &quot;DELEN&quot; TE HEBBEN)
+(OVER DE LAATSTE RIJ VRAGEN: SJABLOONTAAK LIJKT NIET TE HEBBEN &quot;DELEN&quot;)
 
 1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de malplaatjetaak in het bestemmingsmalplaatje dat u de ouder van de gekopieerde malplaatjetaak wilt worden.
 
@@ -209,7 +215,7 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
    >
    >U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
 
-1. (Voorwaardelijk) Klik **aanvraagtoegang** om toegang tot het malplaatje te verzoeken, als u geen toegang tot het bestemmingsmalplaatje hebt.
+1. (Voorwaardelijk) Klik **verzoek om toegang** om toegang tot het malplaatje te verzoeken, als u geen toegang tot het bestemmingsmalplaatje hebt.
 1. (Voorwaardelijk) blijf de malplaatjetaak aan het geselecteerde bestemmingsmalplaatje verplaatsen zonder toegang te vragen als u toegang hebt om malplaatjetaken aan één van de malplaatjetaken op het bestemmingsmalplaatje toe te voegen.
 
 1. Klikken **Opties** in het linkerpaneel, dan schrap de attributen van de malplaatjetaak die u niet met de malplaatjetaak wilt kopiëren. Alle opties zijn standaard geselecteerd.
@@ -218,7 +224,6 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
    >
    >* De sectie Opties is alleen beschikbaar nadat u een doelsjabloon hebt geselecteerd.
    >* Selectie opheffen **Alles selecteren** deselecteert alle opties.
-
 
    Schakel een van de volgende opties uit als u de gegevens niet wilt overbrengen naar de verplaatste sjabloontaak. In de volgende tabel wordt beschreven wat er gebeurt wanneer de opties zijn uitgeschakeld:
 
@@ -295,7 +300,7 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
     </tbody> 
    </table>
 
-(VRAGEN OVER DE LAATSTE RIJ: SJABLOONTAAK LIJKT GEEN &quot;DELEN&quot; TE HEBBEN)
+(OVER DE LAATSTE RIJ VRAGEN: SJABLOONTAAK LIJKT NIET TE HEBBEN &quot;DELEN&quot;)
 
 1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de malplaatjetaak in het bestemmingsmalplaatje dat u de ouder van de verplaatste malplaatjetaak wilt worden.
 
@@ -317,5 +322,3 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
 1. Klikken **Sjabloontaak verplaatsen**.
 
    De verplaatste sjabloontaken bevinden zich nu op de opgegeven sjabloon en zijn subtaken voor de geselecteerde bovenliggende sjabloontaak of de laatste sjabloontaken voor de sjabloon.
-
-
