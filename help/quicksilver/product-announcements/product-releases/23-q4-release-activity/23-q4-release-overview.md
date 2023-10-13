@@ -4,9 +4,9 @@ description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De werkknop voor project-, taak- en Issue-widgets delegeren</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Een algemeen gevraagde eigenschap van de oude homepage, hebben wij nu een afgevaardigde knoop aan Mijn Werk, Mijn Taken, en Mijn Uitgave widgets toegevoegd zodat u het werk gemakkelijk kunt delegeren wanneer u uit het bureau bent.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 12 oktober 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 23,10 release</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De widget Nieuwe borden voor Nieuwe startpagina</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
