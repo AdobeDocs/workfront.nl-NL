@@ -6,9 +6,9 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ U moet het volgende hebben:
 
 Gebruikerstoewijzingen zijn hoeveelheden uren die de tijd aangeven die een gebruiker op een bepaalde dag of weekdag, week of maand moet doorbrengen om het werkitem te voltooien. Ze worden opgenomen in de geplande uren van het werkitem.
 
-In dit artikel wordt beschreven hoe u dagelijkse, wekelijkse of maandelijkse toewijzingen per uur kunt bijwerken voor gebruikers die zijn toegewezen aan taken of uitgaven. Voor informatie over het beheren van algemene toewijzingen voor gebruikers en baanrollen aan taken, zie [Gebruikers- en roltoewijzingstijden beheren voor taken](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+In dit artikel wordt beschreven hoe u dagelijkse, wekelijkse of maandelijkse toewijzingen per uur kunt bijwerken voor gebruikers die zijn toegewezen aan taken of uitgaven. Voor informatie over het beheren van algemene toewijzingen voor gebruikers en baanrollen aan taken, zie [Gebruikers- en roltoewijzingstijden beheren voor taken](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [Overzicht van gebruikerstoewijzing](#user-allocation-overview)
 * [Criteria voor het opnieuw instellen van gebruikerstoewijzingen](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse 
 >
 >Workfront berekent de toerekening van de twee uur over de twee dagen van de duur met behulp van de volgende formule:
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  Voor ons voorbeeld zijn de dagelijkse toewijzingstijden voor elke dag:
 >   
@@ -107,8 +104,6 @@ Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse 
 >  (2 / 13) * 8 = 1,23 toewijzingstijden voor de tweede dag
 >
 >  In de bovenstaande berekeningen is 13 de totale beschikbare uren voor de taak: 5 + 8 = 13
-
-
 
 * Twee gebruikers in verschillende tijdzones of planningen in verschillende tijdzones dan die van de toegewezen gebruikers kunnen ertoe leiden dat de toewijzingsbedragen anders worden weergegeven voor twee gebruikers die dezelfde werkitems bekijken.
 
@@ -199,9 +194,9 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
 
 1. (Optioneel) Klik op de knop **Instellingen** pictogram ![](assets/gear-icon-settings.png) en selecteer een van de volgende opties:
 
-   1. **Uren opnemen uit uitgaven**. Hierdoor kunt u niet alleen taaktoewijzingen maar ook toewijzingen van uitgaven beheren.
-   1. **Voltooid werk tonen** . Op deze manier worden items weergegeven die zijn voltooid en gepland tijdens de tijdlijn waarvoor u toewijzingen beheert.
-   1. **Resterende tijd tonen** -optie. Het totale aantal uren voor elke gebruiker (in de gebruikerslijn) verandert. Als deze instelling is ingeschakeld, wordt in Workload Balancer het aantal uren weergegeven dat elke gebruiker beschikbaar heeft voor het werk in plaats van het aantal uren waarvoor hij of zij is toegewezen.
+   1. **Uren opnemen uit uitgaven**. Hierdoor kunt u niet alleen taaktoewijzingen maar ook toewijzingen van uitgaven beheren.
+   1. **Voltooid werk tonen**. Op deze manier worden items weergegeven die zijn voltooid en gepland tijdens de tijdlijn waarvoor u toewijzingen beheert.
+   1. **Resterende tijd tonen**. Het totale aantal uren voor elke gebruiker (in de gebruikerslijn) verandert. Als deze instelling is ingeschakeld, wordt in Workload Balancer het aantal uren weergegeven dat elke gebruiker beschikbaar heeft voor het werk in plaats van het aantal uren waarvoor hij of zij is toegewezen.
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ Als onderdeel van het toewijzen van werk aan gebruikers, kunt u gebruikerstoewij
       >[!NOTE]
       >
       >De beheerder van Workfront beslist welk programma over uw systeem voor het berekenen van de capaciteit van de gebruiker op het gebied van het Beheer van het Middel van Opstelling te gebruiken. Zie voor meer informatie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. Klik op de knop **Meer** menu ![](assets/qs-more-menu.png) voor een tijdelijk onderdeel klikt u op **Toewijzingen bewerken**.
 

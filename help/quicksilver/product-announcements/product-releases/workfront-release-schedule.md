@@ -7,9 +7,9 @@ description: De voorvertoningsomgeving wordt eenmaal per week bijgewerkt met nie
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De uitgiften vinden typisch rond 8-10 PMijd de Berg Tijd van de VS plaats.
 
 Adobe Workfront heeft twee modellen voor het uitbrengen van nieuwe functies en updates. Uw organisatie kan kiezen of nieuwe functionaliteit op een driemaandelijkse basis, of op een sneller versieschema wordt ontvangen.
 
-Maandelijkse en driemaandelijkse versies zullen naar verwachting beschikbaar zijn op de laatste donderdag van de maand. De uitgiften vinden typisch rond 8-10 PMijd de Berg Tijd van de VS plaats.
+Maandelijkse en driemaandelijkse versies zullen naar verwachting beschikbaar zijn op de laatste donderdag van de maand. De vrijlatingen vinden gewoonlijk rond 8-10 uur &#39;s avonds plaats in de Amerikaanse Mountain Time.
 
 Functies in Voorvertoning worden gewoonlijk bij de volgende release beschikbaar gesteld in uw productieomgeving. In sommige gevallen worden functies echter buiten een geplande release beschikbaar gesteld in de productieomgeving. Deze wijzigingen blijven minimaal twee weken in Voorvertoning om u voldoende tijd te geven om op de hoogte te blijven van de wijzigingen. Deze wijzigingen worden ook gemeld via het Aankondigingscentrum op het moment dat ze worden toegevoegd aan Voorvertoning.
 
