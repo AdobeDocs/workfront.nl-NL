@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,22 @@ Deze sectie bevat een overzicht van de functies en patches die zijn uitgebracht 
 
 De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma van Maestro hebben toegang tot alle functies in hun voorproef- en productieomgeving.
 
+## Week van 16 oktober 2023
+
+### Het veldtype New People
+
+Voorbeeld en productie: 16 oktober 2023
+
+U kunt nu een veld van het type Mensen toevoegen aan Maestro-recordtypen. U kunt velden van het type Mensen gebruiken om bestaande gebruikers aan een record te koppelen. Zie voor meer informatie [Velden maken](../maestro/architecture-and-fields/create-fields.md).
+
+
+### RTF-indeling voor alineasvelden
+
+Voorbeeld en productie: 16 oktober 2023
+
+We hebben besturingselementen voor RTF-opmaak toegevoegd voor velden van het type Alinea. U kunt de alineasvelden opmaken met RTF-tekst in de tabelweergave van een recordtype of op de pagina Details van een record. Zie voor meer informatie [Records bewerken](../maestro/records/edit-records.md).
+
+
 ## Week van 9 oktober 2023
 
 ### Zoeken in tabelweergave
@@ -41,24 +57,6 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 Voorbeeld en productie: 9 oktober 2023
 
 U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweergave. U kunt trefwoorden en speciale tekens gebruiken in alle velden die zichtbaar zijn op het scherm om een record te zoeken. Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## Week van 18 september 2023
 

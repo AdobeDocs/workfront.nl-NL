@@ -6,9 +6,9 @@ description: U kunt een sjabloontaak naar dezelfde sjabloon of naar een andere s
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -52,22 +52,23 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Houd rekening met het volgende wanneer u een sjabloontaak kopieert:
 
-* Mijlpalen worden niet overgedragen naar de gekopieerde of verplaatste sjabloontaak.
+* De volgende informatie wordt standaard overgedragen naar de verplaatste taak:
 
-* Subtaken worden overgedragen naar de nieuwe sjabloontaak.
-* Aangepaste formulieren worden gekopieerd met de sjabloontaak. De gegevens in de aangepaste velden worden alleen naar de nieuwe sjabloontaak overgedragen wanneer u Aangepaste gegevens wilt kopiëren.
+   * Aangepaste formulieren en aangepaste veldgegevens.
+   * Subtaken.
+
+* De volgende informatie wordt niet overgedragen naar de verplaatste of gekopieerde taak:
+
+   * Mijlpalen worden niet overgedragen naar de gekopieerde of verplaatste sjabloontaak.
+
 * U kunt bepaalde items die aan de sjabloontaak zijn gekoppeld tijdens het kopiëren naar de gekopieerde taak kopiëren. De volgende objecten worden echter standaard niet overgedragen naar de gekopieerde taak:
 
    * Opmerkingen van gebruikers
-
-* U kunt een sjabloontaak kopiëren in de volgende onderdelen van de Adobe Workfront-webtoepassing:
-
-   * Op het taakniveau van het malplaatje, van **Meer pictogram** ![](assets/more-icon.png) rechts van de sjabloontaaknaam.
-
-   * In een lijst met sjabloontaken.
-* U kunt sjabloontaken één voor één kopiëren of verplaatsen of meerdere sjabloontaken tegelijk selecteren.
+* Aangepaste formulieren worden gekopieerd met de sjabloontaak. De gegevens in de aangepaste velden worden alleen naar de nieuwe sjabloontaak overgedragen wanneer u Aangepaste gegevens wilt kopiëren.
 
 ## Sjabloontaken kopiëren
+
+U kunt één sjabloontaak kopiëren of meerdere sjabloontaken bulksgewijs kopiëren.
 
 1. Ga naar de sjabloon die de sjabloontaak of sjabloontaken bevat die u wilt kopiëren.
 1. Klikken **Sjabloontaken** in het linkerdeelvenster.
@@ -165,7 +166,6 @@ Het vak Sjabloontaak kopiëren wordt geopend.
     </tbody> 
    </table>
 
-(OVER DE LAATSTE RIJ VRAGEN: SJABLOONTAAK LIJKT NIET TE HEBBEN &quot;DELEN&quot;)
 
 1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de malplaatjetaak in het bestemmingsmalplaatje dat u de ouder van de gekopieerde malplaatjetaak wilt worden.
 
@@ -191,8 +191,7 @@ Het vak Sjabloontaak kopiëren wordt geopend.
 
 ## Sjabloontaken verplaatsen
 
-Naast het kopiëren van sjabloontaken kunt u een sjabloontaak ook naar een andere sjabloontaak in dezelfde sjabloon of naar een andere sjabloon verplaatsen.
-
+U kunt een sjabloontaak verplaatsen naar een andere sjabloontaak in dezelfde sjabloon of naar een andere sjabloon. U kunt één sjabloontaak of meerdere sjabloontaken bulksgewijs verplaatsen.
 
 1. Ga naar de sjabloon die de sjabloontaak of sjabloontaken bevat die u wilt verplaatsen.
 1. Klikken **Sjabloontaken** in het linkerdeelvenster.
@@ -300,7 +299,6 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
     </tbody> 
    </table>
 
-(OVER DE LAATSTE RIJ VRAGEN: SJABLOONTAAK LIJKT NIET TE HEBBEN &quot;DELEN&quot;)
 
 1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de malplaatjetaak in het bestemmingsmalplaatje dat u de ouder van de verplaatste malplaatjetaak wilt worden.
 

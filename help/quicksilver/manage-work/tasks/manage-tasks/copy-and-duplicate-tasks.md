@@ -6,9 +6,9 @@ description: U kunt een taak van een project aan een ander project kopiëren, of
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -85,30 +85,18 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Houd rekening met het volgende wanneer u een taak kopieert:
 
-* De mijlpalen worden overgebracht naar de gekopieerde taak en uit de originele taak verwijderd.
 * Wanneer u een taak van één project aan een ander kopieert, zouden de taakdata kunnen worden herberekend. Bij de herberekening wordt rekening gehouden met het tijdschema dat voor het nieuwe project wordt gebruikt en met het tijdschema voor het project op basis van informatie.
-* Subtaken worden overgedragen naar de nieuwe taak.
 * Aangepaste formulieren worden samen met de taak gekopieerd. De gegevens in de aangepaste velden worden alleen naar de gekopieerde taken overgedragen wanneer u Aangepaste gegevens kopieert wanneer u deze taak kopieert.
 * U kunt bepaalde onderdelen die aan de taak zijn gekoppeld tijdens het kopiëren naar de gekopieerde taak kopiëren. De volgende objecten worden echter standaard niet overgedragen naar de gekopieerde taak:
    * Problemen
    * Aangemeld aantal uren
-   * Opmerkingen van gebruikers <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * Opmerkingen van gebruikers <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* De volgende items worden standaard naar de gekopieerde taak verplaatst:
 
-U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoepassing:
+   * De mijlpalen worden overgebracht naar de gekopieerde taak en uit de originele taak verwijderd.
+   * Subtaken worden overgedragen naar de nieuwe taak.
 
-* Op het taakniveau, vanaf **Meer pictogram** ![](assets/qs-more-menu-19x7.png) rechts van de taaknaam.
-
-  Zie voor meer informatie de [Een taak kopiëren op taakniveau](#copy-a-task-at-the-task-level) in dit artikel.
-
-* Voer een van de volgende handelingen uit in een takenlijst:
-
-   * Klik met de rechtermuisknop op de naam van een taak.
-   * Selecteer de taak (of taken) en vouw de **Meer** pictogram ![](assets/more-icon-task-list.png) boven aan de takenlijst.
-   * Selecteer een taak en breid de **Meer** pictogram ![](assets/more-icon-task-list.png) naast de taaknaam.
-
-     Deze optie is niet beschikbaar als u meerdere taken selecteert.
-
-  Zie voor meer informatie de [Taken in een lijst kopiëren](#copy-tasks-in-a-list) in dit artikel.
+* U kunt één taak tegelijk kopiëren of meerdere taken tegelijk wanneer u taken in een lijst bewerkt.
 
 ## Taken in een lijst kopiëren {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoep
 
    Ga naar een taakrapport.
 
-1. Klikken **Taken** in het linkerdeelvenster.
+1. (Voorwaardelijk) Klik **Taken** in het linkerpaneel, als u het project opende dat de taken bevat.
 1. Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) vervolgens **Automatisch opslaan**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ U kunt een taak kopiëren in de volgende gebieden van de Adobe Workfront-webtoep
 
    * Klik op de knop **Het menu Meer** boven aan de takenlijst klikt u op **Kopiëren naar**.
    * Klik met de rechtermuisknop op de geselecteerde taken en klik vervolgens op **Kopiëren naar**.
-   * Als u één taak selecteert, klikt u op de knop **Meer** menu ![](assets/more-icon-task-list.png) naast de naam van de taak in de lijst klikt u op **Kopiëren naar**.
+   * Als u één taak selecteert, klikt u op de knop **Meer** menu ![](assets/more-icon-task-list.png) naast de naam van de taak in de lijst klikt u op **Kopiëren naar**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Doorgaan met het kopiëren van de taak, zoals beschreven in de sectie [Een taak kopiëren op taakniveau](#copy-a-task-at-the-task-level) te beginnen met Stap 4.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## Een taak kopiëren op taakniveau {#copy-a-task-at-the-task-level}
 
-Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiëren nadat u deze hebt geopend. 
+Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiëren nadat u deze hebt geopend.
 
 1. Zoek naar een taak in je Workfront-systeem.
-1. Klik op de naam van de taak om deze te openen. 
+1. Klik op de naam van de taak om deze te openen.
 1. Klik op de knop **Meer** vervolgkeuzemenu ![](assets/qs-more-menu.png) naast de naam van de taak klikt u op **Kopiëren** **tot**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Typ de naam van de **Doelproject** waar u de taak wilt kopiëren in de **Doelproject selecteren** veld. 
+1. Typ de naam van de **Doelproject** waar u de taak wilt kopiëren in de **Doelproject selecteren** veld.
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
 
    De huidige projectnaam wordt standaard weergegeven. Als u de taak binnen het zelfde project wilt kopiëren, verlaat dit gebied onveranderd.
 
-1. (Voorwaardelijk) Klik **verzoek om toegang** om toegang tot het project te verzoeken, als u geen toegang tot het geselecteerde project hebt.
+1. (Voorwaardelijk) Klik **verzoek om toegang** om toegang tot het project te verzoeken, als u geen toegang tot het geselecteerde project hebt.
 1. (Voorwaardelijk) blijf de taak aan het geselecteerde bestemmingsproject kopiëren zonder toegang te vragen als u toegang hebt om taken aan één van de taken op het bestemmingsproject toe te voegen.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Klikken **Opties** in het linkerpaneel, dan schrap de taakattributen die u niet met de taak wilt kopiëren. Alle opties zijn standaard geselecteerd.
+1. Klikken **Opties** in het linkerpaneel, dan schrap de taakattributen die u niet met de taak wilt kopiëren. Alle opties zijn standaard geselecteerd.
 
    >[!TIP]
    >
-   Selecteren en vervolgens selectie opheffen **Alles selecteren** deselecteert alle opties.
+   >Selecteren en vervolgens selectie opheffen **Alles selecteren** deselecteert alle opties.
 
    Schakel een van de volgende opties uit als u deze niet wilt overbrengen naar de gekopieerde taak. In de volgende tabel wordt beschreven wat er gebeurt wanneer de opties zijn uitgeschakeld:
 
@@ -239,24 +225,24 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
     </tbody> 
    </table>
 
-1.  (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de taak in het bestemmingsproject die u de ouder van de gekopieerde taak wilt worden.
+1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de taak in het bestemmingsproject die u de ouder van de gekopieerde taak wilt worden.
 
-   >[!TIP]
-   >
-   Wanneer u selecteert om meerdere taken in een lijst te kopiëren, worden alle geselecteerde taken de onderliggende taken van het geselecteerde bovenliggende element.
+>[!TIP]
+>
+>Wanneer u selecteert om meerdere taken in een lijst te kopiëren, worden alle geselecteerde taken de onderliggende taken van het geselecteerde bovenliggende element.
 
-   Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
+Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
-   * In de taaklijst, selecteer één van de ouders in het projectplan.
-   * Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende taak.
+* In de taaklijst, selecteer één van de ouders in het projectplan.
+* Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende taak.
 
-   De taak moet in de lijst worden weergegeven.
+De taak moet in de lijst worden weergegeven.
 
-   ![Bovenliggende taak selecteren bij het verplaatsen van een taak met zoekfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![Bovenliggende taak selecteren bij het verplaatsen van een taak met zoekfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Selecteer het keuzerondje voor het bovenliggende element nadat u het hebt gevonden. 
+1. Selecteer het keuzerondje voor het bovenliggende element nadat u het hebt gevonden.
 
-   Als u geen oudertaak selecteert, worden de taken gekopieerd als belangrijkste taken eerder dan subtaken en zij zullen aan het eind van de taaklijst op het bestemmingsproject worden geplaatst. 
+   Als u geen oudertaak selecteert, worden de taken gekopieerd als belangrijkste taken eerder dan subtaken en zij zullen aan het eind van de taaklijst op het bestemmingsproject worden geplaatst.
 
 1. Klikken **Taak kopiëren**
 
@@ -275,7 +261,6 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
 ### Overwegingen bij het dupliceren van taken {#considerations-for-duplicating-tasks}
 
 * U kunt een taak alleen in een takenlijst dupliceren wanneer de lijst op taaknummer wordt gesorteerd.
-
 * De nieuwe taak krijgt dezelfde naam als de oorspronkelijke taak.
 * U kunt niet selecteren welke informatie aan de nieuwe taak wordt gedupliceerd. Bijna alle informatie van de originele taak zal naar de gedupliceerde taak, met inbegrip van ouderverhouding, door gebrek worden overgebracht.
 * De volgende punten worden niet overgebracht naar de nieuwe taak:
@@ -285,10 +270,12 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
    * Problemen
    * Alleen de voorgangers die zich in dezelfde groep gekopieerde taken bevinden, worden ook gekopieerd met hun opvolgertaken.
 
-     **Voorbeeld:** Bijvoorbeeld, als u Taak 2 en zijn voorganger, Taak 1, tezelfdertijd kopieert, dan hebt u een exemplaar van Taak 2 en een exemplaar van Taak 1. Het exemplaar van Taak 1 zal voorganger van het exemplaar van Taak 2 zijn. Maar als u enkel Taak 2 kopieert zonder zijn voorganger te kopiëren, dan zal zijn exemplaar geen voorganger hebben.
+     **VOORBEELD**
+
+     Bijvoorbeeld, als u Taak 2 en zijn voorganger, Taak 1, tezelfdertijd kopieert, dan hebt u een exemplaar van Taak 2 en een exemplaar van Taak 1. Het exemplaar van Taak 1 zal voorganger van het exemplaar van Taak 2 zijn. Maar als u enkel Taak 2 kopieert zonder zijn voorganger te kopiëren, dan zal zijn exemplaar geen voorganger hebben.
 
 * Wanneer u een bovenliggende taak dupliceert, worden alle onderliggende taken ook gedupliceerd, zelfs wanneer de onderliggende taken niet zijn geselecteerd.
-* U kunt meerdere taken tegelijk dupliceren.
+* U kunt een of meerdere taken tegelijk dupliceren.
 
   U kunt echter niet meerdere taken tegelijk dupliceren die niet opeenvolgend zijn.
 
@@ -312,4 +299,4 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
 
       1. Klikken **Opslaan** om uw wijzigingen op te slaan.
 
-   1. Taken in een lijst bewerken
+         De taken worden gedupliceerd en aan het zelfde project toegevoegd zoals de originele taken.

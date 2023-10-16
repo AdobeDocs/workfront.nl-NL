@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Percentage](#percentage)
    * [Valuta](#currency)
    * [Selectievakje](#checkbox)
-     <!--* [People](#people)-->
+   * [Mensen](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ Tekstvelden van één regel bevatten beperkte alfanumerieke informatie. U kunt b
 
 ### Alinea {#paragraph}
 
-In alineasvelden wordt aanvullende alfanumerieke informatie over een record vastgelegd, vergelijkbaar met het veld Beschrijving. De inhoud van een alinea-veld kan maximaal 1000 tekens bevatten.
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+In alineasvelden wordt aanvullende alfanumerieke informatie over een record vastgelegd, vergelijkbaar met het veld Beschrijving.
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* De inhoud van een alinea-veld kan maximaal 1000 tekens bevatten.
+>
+>* U kunt RTF-opmaak gebruiken om de inhoud van alineasvelden te verbeteren wanneer deze worden weergegeven in de tabelweergave of op de pagina Details van een record.
 
 1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Alinea** veldtype.
 
@@ -394,23 +390,25 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
 
    Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de bijbehorende waarden kunnen aan records worden gekoppeld. Het veld wordt ook weergegeven op de pagina Details van een record.
 
-<!--
-### People
+### Mensen
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job role, or team--> naar een record. Dit is een typeveld en u kunt alleen gebruikers toevoegen<!--, roles, or teams--> die al in Workfront bestaan.
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**.
+1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Mensen** veldtype.
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+   ![](assets/people-field-type.png)
 
--->
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record.
+   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Meerdere waarden toestaan**: Selecteer deze optie als u wilt toestaan dat gebruikers meer dan één gebruiker toevoegen in dit veld. Deze optie is standaard uitgeschakeld.
+
+   >[!NOTE]
+   >
+   >    Als u Meerdere waarden toestaan selecteert en meerdere gebruikers zijn opgeslagen in de records waaraan het veld is gekoppeld, kunt u de instelling in de toekomst niet meer uitschakelen wanneer u dit veld bewerkt.
+1. Klikken **Maken**.
+
+   Het nieuwe Mensen-type gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd. Het veld wordt ook weergegeven op de pagina Details van een record.
 
 ## Velden maken door recordtypen aan elkaar te koppelen
 

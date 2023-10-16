@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Overwegingen bij het bewerken van records
 
 * U kunt records bewerken die u of een andere gebruiker heeft gemaakt. <!--will change with access levels-->
-* Als de bewerkte records zijn gekoppeld aan andere records, heeft de nieuwe informatie over de records die u bewerkt, betrekking op de gekoppelde records.
+* U kunt geen velden bewerken die zijn gekoppeld vanuit andere records of velden die berekeningen bevatten.
+* Als de records die u weergeeft, aan andere records zijn gekoppeld, heeft de nieuwe informatie over de records die u bewerkt, betrekking op de gekoppelde records.
 * U kunt records niet bulksgewijs bewerken. <!--this will probably change-->
-* U kunt geen velden bewerken die zijn gekoppeld vanuit andere records.
+* URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
+* U kunt de volgende opmaakopties voor RTF-tekst gebruiken bij het bewerken van een veld voor alineatekst:
+
+   * Vet
+   * Cursief
+   * Onderstrepen
+   * Een koppeling toevoegen
+   * Een lijst met opsommingstekens toevoegen
+   * Een genummerde lijst toevoegen
 
 ## Records bewerken
 
@@ -99,9 +108,11 @@ U kunt een record uit de volgende gebieden bewerken:
 
 ### Een record bewerken vanaf de pagina Details van de record
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op Maestro.
+1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
 
    De werkruimte die u als laatste opent.
+
+1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
 1. Voer een van de volgende handelingen uit:
 
    * Klik in een tabelweergave op de naam van een record.
@@ -120,11 +131,6 @@ U kunt een record uit de volgende gebieden bewerken:
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    Gekoppelde velden of velden die berekeningen bevatten of door het systeem worden gegenereerd, kunnen niet worden bewerkt.
-
-
 1. Klikken **Wijzigingen opslaan**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### Een record bewerken vanuit de tabelweergave van het recordtype
@@ -132,24 +138,15 @@ U kunt een record uit de volgende gebieden bewerken:
 1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> klik vervolgens op **Maestro** ![](assets/maestro-icon.png).
 
    De werkruimte die u het laatst hebt geopend.
+
+1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
 1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik in de rij van een record om informatie over de record inline te bewerken en druk vervolgens op **Enter** op uw toetsenbord om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen.
+1. Klik in de rij van een record om informatie over de record inline te bewerken.
 
-   >[!TIP]
-   >
-   >* Gekoppelde velden kunnen niet worden bewerkt. De gegevens voor deze velden worden automatisch ingevuld via de gekoppelde records. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
-   >
-   >* URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen.
