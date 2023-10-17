@@ -6,9 +6,9 @@ description: U kunt een sjabloontaak naar dezelfde sjabloon of naar een andere s
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -50,21 +50,33 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Overwegingen bij het kopiëren of verplaatsen van sjabloontaken
 
-Houd rekening met het volgende wanneer u een sjabloontaak kopieert:
+Houd rekening met het volgende wanneer u sjabloontaken kopieert:
+
+* De volgende informatie wordt niet overgedragen naar de gekopieerde taak:
+
+   * Mijlpalen
+
+* U kunt bepaalde items die aan de sjabloontaak zijn gekoppeld tijdens het kopiëren naar de gekopieerde taak kopiëren. De volgende objecten worden echter standaard niet overgedragen naar de gekopieerde taak:
+
+   * Opmerkingen van gebruikers
+
+* Aangepaste formulieren worden samen met de sjabloontaak gekopieerd wanneer u een sjabloontaak kopieert. De gegevens in de aangepaste velden worden alleen naar de nieuwe sjabloontaak overgedragen wanneer u Aangepaste gegevens wilt kopiëren.
+
+* De volgende punten brengen aan de gekopieerde malplaatjetaak door gebrek over:
+
+   * Subtaken
+
+Houd rekening met het volgende wanneer u sjabloontaken verplaatst:
 
 * De volgende informatie wordt standaard overgedragen naar de verplaatste taak:
 
    * Aangepaste formulieren en aangepaste veldgegevens.
    * Subtaken.
+   * Opmerkingen van de gebruiker.
 
-* De volgende informatie wordt niet overgedragen naar de verplaatste of gekopieerde taak:
+* De volgende informatie wordt niet overgedragen naar de verplaatste taak:
 
-   * Mijlpalen worden niet overgedragen naar de gekopieerde of verplaatste sjabloontaak.
-
-* U kunt bepaalde items die aan de sjabloontaak zijn gekoppeld tijdens het kopiëren naar de gekopieerde taak kopiëren. De volgende objecten worden echter standaard niet overgedragen naar de gekopieerde taak:
-
-   * Opmerkingen van gebruikers
-* Aangepaste formulieren worden gekopieerd met de sjabloontaak. De gegevens in de aangepaste velden worden alleen naar de nieuwe sjabloontaak overgedragen wanneer u Aangepaste gegevens wilt kopiëren.
+   * Mijlpalen.
 
 ## Sjabloontaken kopiëren
 

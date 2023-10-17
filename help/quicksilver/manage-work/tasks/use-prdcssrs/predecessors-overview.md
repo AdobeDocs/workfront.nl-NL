@@ -7,9 +7,9 @@ description: Een voorganger is de taak waarvan een andere taak (een opvolger of 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Of de voorganger- en opvolgertaken tot hetzelfde project of tot twee verschillen
 Wanneer het op predecessors aankomt, wordt de projectchronologie beïnvloed door het volgende:
 
 * Afhankelijkheid van voorgangers
-* Lagewaarde en type\
-   Voor meer informatie over zowel afhankelijkheid als vertraging, zie [Voorbeelden van voorgangerswaarden in een takenlijst](#examples-of-predecessor-values-in-a-task-list).
+* Lagwaarde en -type\
+  Voor meer informatie over zowel afhankelijkheid als vertraging, zie [Voorbeelden van voorgangerswaarden in een takenlijst](#examples-of-predecessor-values-in-a-task-list).
 
 Bijvoorbeeld, als taak A een voorganger is om B in een eindstartverhouding te taken, en taak B heeft een taakbeperking van zo snel mogelijk, dan wijst Workfront taak B een geplande begindatum onmiddellijk na de geplande voltooiingsdatum van taak A toe, ongeacht of voorganger wordt afgedwongen of niet.
 
@@ -46,12 +46,12 @@ Als u relaties met voorgangers wilt begrijpen, moet u begrijpen:
 
 * **Een voorganger afdwingen:** Wanneer u een voorganger afdwingt, kan de opvolgertaak pas worden gestart als de voorganger is voltooid. De opvolgertaak wordt weergegeven als onmiddellijk starten nadat de voorganger is voltooid.
 
-   Workfront staat niet toe dat het wordt gemarkeerd als Bezig of Voltooid totdat de voorganger is voltooid. Workfront staat echter toe dat er uren worden gerapporteerd over de taak.\
-   Voor meer informatie over het afdwingen van voorgangers raadpleegt u [Voorgangers afdwingen](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+  Workfront staat niet toe dat het wordt gemarkeerd als Bezig of Voltooid totdat de voorganger is voltooid. Workfront staat echter toe dat er uren worden gerapporteerd over de taak.\
+  Zie voor meer informatie over het afdwingen van voorgangers [Voorgangers afdwingen](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Labels:** U kunt vertragingen in uw gebiedsdelen bouwen die tot een vertraging leiden die na de voltooiing van een voorgangstaak en vóór de opvolgertaak moet voorkomen kan beginnen. Lags beïnvloeden de tijdlijn van het project.
 
-   Zie voor meer informatie over type lag [Overzicht van labeltypen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Zie voor meer informatie over type lag [Overzicht van labeltypen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Relaties van voorgangers maken
 
@@ -102,11 +102,11 @@ Wanneer u predecessors in een lijst van taken bekijkt, zou u om het even welke v
 * **1fs-3d -** Het vorige taaknummer is 1. Het afhankelijkheidstype is Finish-Start met een vertragingstijd van 3 dagen. In de projectchronologie, toont deze taak als aanvang 3 werkdagen alvorens de voorgangerstaak wordt gebeëindigd.
 * **1fs+3de** -Het vorige taaknummer is 1. Het afhankelijkheidstype is Voltooien-Begin-Geforceerd met een vertragingstijd van 3 dagen. In de projectchronologie, toont deze taak als aanvang 3 werkdagen nadat taak 1 wordt gebeëindigd. Workfront staat niet toe dat het wordt gemarkeerd als Bezig of Voltooid totdat Taak 1 is voltooid. Workfront staat echter toe dat er uren worden gerapporteerd over de taak.
 
-   >[!NOTE]
-   >
-   >De afgedwongen waarde (**e**) moet aan de Lag, niet aan predecessor worden toegevoegd.
+  >[!NOTE]
+  >
+  >De afgedwongen waarde (**e**) moet aan de Lag, niet aan predecessor worden toegevoegd.
 
-* **4515:2** Het vorige taaknummer is 2. - Dit is een Einde aan Begin, niet afgedwongen afhankelijkheid met predecessor in het project met verwijzingsaantal **4515**; het vorige taaknummer is **2**.
+* **4515:2** Het vorige taaknummer is 2. - Dit is een Einde aan Begin, niet afgedwongen afhankelijkheid met predecessor in het project met verwijzingsaantal **4515**.
 
 ## Voorgangergegevens weergeven
 
@@ -114,24 +114,24 @@ U kunt voorganger-informatie weergeven in de volgende gebieden van Workfront. Di
 
 * Op taakniveau, in de sectie Predecessors.
 
-   Zie de sectie [De voorgangers van een taak zoeken](#locate-the-predecessors-of-a-task) in dit artikel.
+  Zie de sectie [De voorgangers van een taak zoeken](#locate-the-predecessors-of-a-task) in dit artikel.
 
 * In het Gantt-diagram.
 
-   Voor informatie over het tonen van predecessors in de grafiek van Gantt, zie [Vorm hoe de informatie op de Grafiek van Gantt toont](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+  Voor informatie over het tonen van predecessors in de grafiek van Gantt, zie [Vorm hoe de informatie op de Grafiek van Gantt toont](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 * In een takenlijst.
 
-   Als u informatie wilt bekijken over de voorgangers van uw taken in een takenlijst, kunt u een van de volgende handelingen uitvoeren:
+  Als u informatie wilt bekijken over de voorgangers van uw taken in een takenlijst, kunt u een van de volgende handelingen uitvoeren:
 
    * Pas de ingebouwde standaardweergave toe in een takenlijst.
 
-      Zie de sectie voor informatie over het weergeven van voorganger-informatie in de standaardweergave [De voorgangers van een taak zoeken](#locate-the-predecessors-of-a-task) in dit artikel.
+     Zie de sectie voor informatie over het weergeven van voorganger-informatie in de standaardweergave [De voorgangers van een taak zoeken](#locate-the-predecessors-of-a-task) in dit artikel.
 
    * Bouw een taakmening of een rapport en voeg de kolom Predecessors aan die mening toe.
 
-      Voor meer informatie over het bouwen van een aangepaste mening voor taken met voorgangersinformatie, zie [Weergave: details voorganger](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     Voor meer informatie over het bouwen van een aangepaste mening voor taken met voorgangersinformatie, zie [Weergave: details van vorige versie](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
 * In de taakkopbal wanneer het toegang tot van de taak.
 
-   ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![](assets/qs-predecessor-info-in-task-header-350x141.png)

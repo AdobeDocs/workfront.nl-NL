@@ -4,19 +4,21 @@ description: Leer hoe u toegang verleent en informatie deelt in Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Toegang verlenen tot Adobe Maestro
 
 >[!IMPORTANT]
+>
+>Adobe Maestro is een nieuw aanbod van Adobe Workfront.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro is een nieuw aanbod van Adobe Workfront. Zie voor meer informatie [Maestro-overzicht](../maestro-overview.md).
 
 Momenteel kunnen alle gebruikers in uw organisatie toegang hebben tot Maestro als aan de volgende voorwaarde is voldaan:
 
@@ -50,9 +50,9 @@ Nadat uw organisatie is ingeschreven voor het bètaprogramma van Maestro, kunt u
 
 Het Maestro-gebied delen met een lay-outsjabloon:
 
-1. Meld u aan bij Workfront als systeembeheerder.
+1. Aanmelden bij **Workfront** als systeembeheerder.
 
-1. Voeg het pictogram Maestro toe aan het hoofdmenu met behulp van een lay-outsjabloon.
+1. Voeg de **Maestro** pictogram ![](assets/maestro-icon.png) aan de **Hoofdmenu** met een **Lay-outsjabloon**.
 
    Zie voor meer informatie [Het hoofdmenu aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Het Maestro-gebied delen met een lay-outsjabloon:
    Alle gebruikers die aan de sjabloon zijn toegewezen, hebben nu toegang tot Maestro in hun hoofdmenu.
 
    Gebruikers kunnen werkruimten, recordtypen, records en velden maken.
-
-
-

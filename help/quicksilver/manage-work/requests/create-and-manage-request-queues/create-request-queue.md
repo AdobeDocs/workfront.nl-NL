@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b></p>
+
+<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -99,7 +101,7 @@ Dit artikel beschrijft hoe te om een verzoekrij van een bestaand project tot sta
  <tbody> 
   <tr> 
    <td role="rowheader">Wachtrij</td> 
-   <td> <p>U moet opstelling een project als verzoekrij in het gebied van de Details van de Rij. Deze stap is verplicht. </p> <p>Zie de klasse <a href="#create-a-request-queue" class="MCXref xref">Een aanvraagwachtrij maken</a> in dit artikel.</p> </td> 
+   <td> <p>U moet opstelling een project als verzoekrij in het gebied van de Details van de Rij. Deze stap is verplicht. </p> <p>Zie de klasse <a href="#create-a-request-queue" class="MCXref xref">Een aanvraagwachtrij maken</a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Onderwerpgroepen</td> 
@@ -131,7 +133,7 @@ Een aanvraagwachtrij maken:
 1. (Optioneel) Klik op **Projectdetails** in het linkerdeelvenster en voeg een **Beschrijving** aan het project in de **Overzicht** gebied. Deze informatie wordt weergegeven bij alle nieuwe aanvragen.
 1. Klikken **Wachtrij** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** vervolgens **Wachtrij**.
 
-   Hiermee opent u de sectie Wachtrij details.
+   Hiermee opent u de sectie met gegevens van de wachtrij.
 
    ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
 
@@ -140,14 +142,14 @@ Een aanvraagwachtrij maken:
    * **Publiceren als wachtrij voor Help-aanvragen:** Selecteer deze optie om dit project te identificeren als een aanvraagwachtrij. Alle inkomende kwesties worden beschouwd als Verzoeken.\
      Als deze optie niet is geselecteerd, gedraagt het project zich als een standaardproject in Workfront en zijn alle binnenkomende problemen van belang.
 
-   * **Wie aanvragen kan toevoegen aan deze wachtrij:** Selecteer welke gebruikers toegang hebben om aanvragen aan deze wachtrij toe te voegen. U kunt de volgende groepen mensen toestaan om de Rij van het Verzoek in hun gebied van Verzoeken van de Globale Bar van de Navigatie te zien:
+   * **Wie aanvragen kan toevoegen aan deze wachtrij:** Selecteer welke gebruikers toegang hebben om aanvragen aan deze wachtrij toe te voegen. U kunt de volgende groepen mensen toestaan om de Rij van het Verzoek in hun gebied van Verzoeken van de Globale Bar van de Navigatie te zien wanneer zij een nieuw verzoek toevoegen:
 
      | Wie aanvragen kan invoeren | Beschrijving |
      |---|---|
      | Iedereen | Elke Workfront-gebruiker met een actief account kan deze aanvraagwachtrij bekijken en er aanvragen aan toevoegen |
      | Personen met toegang tot dit project | Gebruikers met de machtiging Weergeven aan het project kunnen aanvragen weergeven en toevoegen aan deze wachtrij |
      | Personen in het bedrijf van dit project | De gebruikers die tot het bedrijf behoren verbonden aan dit project kunnen verzoeken aan deze rij bekijken en toevoegen. Als er een bedrijf verbonden aan het project is, is de naam van het bedrijf vermeld tussen haakjes na dit het plaatsen. |
-     | Personen in de projectgroep | De gebruikers die tot de groep behoren verbonden aan dit project kunnen verzoeken aan deze rij bekijken en toevoegen. Als er een groep verbonden aan het project is, wordt de naam van de groep vermeld tussen haakjes na dit het plaatsen. |
+     | Personen in de projectgroep | De gebruikers die tot de groep behoren verbonden aan dit project kunnen verzoeken aan deze rij bekijken en toevoegen. Als er een groep is die aan het project is gekoppeld, wordt de naam van de groep na deze instelling tussen haakjes weergegeven, in een grijs lettertype. |
 
      {style="table-layout:auto"}
 
@@ -172,7 +174,7 @@ Een aanvraagwachtrij maken:
 
         >[!NOTE]
         >
-        Als een aanvraagwachtrij wordt weergegeven in een iframe, wordt alleen het aanvraagformulier weergegeven. De naam van de aanvraag wordt dan vooraf geselecteerd en grijs weergegeven. Gebruiker kan het aanvraagtype niet wijzigen. Navigatiecomponenten van het gebied Verzoeken worden niet weergegeven.
+        >Als een aanvraagwachtrij wordt weergegeven in een iframe, wordt alleen het aanvraagformulier weergegeven. De naam van de aanvraag wordt dan vooraf geselecteerd en grijs weergegeven. Gebruiker kan het aanvraagtype niet wijzigen. Navigatiecomponenten van het gebied Verzoeken worden niet weergegeven.
 
         Als u het formulier voor de aanvraagwachtrij wilt weergeven wanneer u deze insluitcode gebruikt, moet u de instelling Insluiten van Workfront in een iFrame toestaan inschakelen in de systeeminstellingen. Ga voor meer informatie over het inschakelen van insluiting van Workfront in een iFrame naar [Systeembeveiligingsvoorkeuren configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Als deze instelling niet is ingeschakeld, wordt het iframe leeg weergegeven.
 
@@ -220,7 +222,7 @@ Een aanvraagwachtrij maken:
 
      >[!NOTE]
      >
-     De Types van verzoek tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >De Types van verzoek tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Elk hier geselecteerd type is beschikbaar op het formulier (u kunt meerdere typen selecteren). Als u meerdere typen selecteert, kunt u meerdere aanvragen ordenen die binnenkomen.\
      Als u bijvoorbeeld het formulier op een aanvraagwachtrij voor een IT-project gebruikt, kunnen de volgende aanvraagtypen in de wachtrij worden geplaatst: hardware, software, foutoplossingen en problemen.
@@ -231,9 +233,9 @@ Een aanvraagwachtrij maken:
    * **De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven.:** Wanneer geselecteerd, zijn alle verzoeken die aan de rij worden voorgelegd zichtbaar voor gebruikers in het zelfde bedrijf. De gebruikers kunnen deze verzoeken in de Al sectie van Verzoeken bekijken, die binnen het gebied van Verzoeken wordt gevestigd. Op het moment dat deze instelling wordt in- of uitgeschakeld, heeft deze invloed op alle toekomstige aanvragen. De instelling heeft geen retroactieve invloed op informatie.
    * **Wanneer iemand een verzoek indient, automatisch verlenen:** Wanneer een gebruiker een verzoek aan de verzoekrij indient, wordt de gebruiker automatisch verleend het niveau van toestemming dat u aan dat verzoek kiest. Selecteer een van de volgende machtigingsniveaus:
 
-      * **Weergave**
-      * **Contribute**. Dit is de standaardselectie.
-      * **Beheren**
+      * **Toegang weergeven**
+      * **Contribute Access**. Dit is de standaardselectie.
+      * **Toegang beheren**
 
      Voor informatie over het Workfront machtigingenmodel raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
      Het plaatsen van toestemmingen bewaart hier tijd, eerder dan het moeten toestemmingen voor elk individueel inkomend verzoek verlenen. Het kiezen van deze optie is van invloed op alle toekomstige verzoeken, maar heeft geen terugwerkende invloed op bestaande verzoeken.
@@ -242,7 +244,7 @@ Een aanvraagwachtrij maken:
 
      >[!IMPORTANT]
      >
-     Als de groep van het project verandert, wordt het groep-specifieke goedkeuringsproces verbonden aan bestaande kwesties een enig-gebruiks goedkeuringsproces. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >Als de groep van het project verandert, wordt het groep-specifieke goedkeuringsproces verbonden aan bestaande kwesties een enig-gebruiks goedkeuringsproces. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
      Als u veelvoudige rijonderwerpen verbonden aan een verzoekrij hebt, adviseren wij dat u goedkeuringsprocessen met de rijonderwerpen in plaats daarvan associeert. Voor meer informatie over het creëren van rijonderwerpen, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -251,21 +253,20 @@ Een aanvraagwachtrij maken:
       * Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven.
       * Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het project toont niet in de lijst.
 
-   * **Standaardroute**: Associeer een Verpletterende Regel met deze verzoekrij. Het gebruik dat Regels verplettert om nieuwe kwesties automatisch toe te wijzen die aan een Rij van het Verzoek aan het correcte middel (gebruiker, baanrol, of team) worden voorgelegd, en aan het correcte project. Alle kwesties die aan deze rij worden voorgelegd zullen met deze Verpletterende Regel worden geassocieerd. U moet het Verpletteren van Regels vormen alvorens u hen met verzoekrij kunt associëren.\
+   * **Standaardroute**: Associeer een Verpletterende Regel met deze verzoekrij. Het gebruik dat Regels verplettert om nieuwe kwesties automatisch toe te wijzen die aan een Rij van het Verzoek aan het correcte middel (gebruiker, baanrol, of team) worden voorgelegd, en aan het correcte project. Alle kwesties die aan deze rij worden voorgelegd zullen met deze Verpletterende Regel worden geassocieerd. U moet het Verpletteren van Regels vormen alvorens zij in de sectie van de Details van de Rij tonen en alvorens u hen met verzoekrij kunt associëren.\
      Als u veelvoudige rijonderwerpen verbonden aan een verzoekrij hebt, adviseren wij dat u het verpletteren van regels met de rijonderwerpen in plaats daarvan associeert. Voor meer informatie over het creëren van verpletterende regels, zie [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-   * **Nieuwe probleemvelden:** In toon de volgende geselecteerde gebieden aan alle gebruikerssectie, selecteer om het even welke gebieden die u zichtbaar aan alle gebruikers wilt zijn die een verzoek aan het project indienen of een kwestie toevoegen aan het project of de taken.
+   * **Nieuwe probleemvelden:** In de **De volgende geselecteerde velden aan alle gebruikers tonen** selecteert u de velden die zichtbaar moeten zijn voor alle gebruikers die een aanvraag naar het project verzenden of een uitgave aan het project of de taken toevoegen.
 
      >[!TIP]
      >
-     De nieuwe die Gebieden van de Uitgave in de sectie van de Details van de Rij worden geselecteerd worden ook geassocieerd met om het even welke nieuwe kwestie aan het project of aan de taken in de sectie van Kwesties wordt toegevoegd.
+     >De nieuwe die Gebieden van de Uitgave in de sectie van de Details van de Rij worden geselecteerd worden ook geassocieerd met om het even welke nieuwe die kwestie aan het project wordt toegevoegd <!--this is confusing: or to the tasks in the Issues section-->.
 
      Wanneer u een van de velden Toegewezen aan, Functie of Team inschakelt, wordt de naam van de toewijzingen altijd gewijzigd in het aanvraagformulier, maar u kunt alleen het hier geselecteerde type toewijzing opgeven.
 
      >[!NOTE]
      >
-     Als u Toegewezen aan in het gebied van de Details van de Rij selecteerde, kunt u slechts gebruikers op het gebied van Toewijzingen op het verzoekformulier ingaan. In dit geval kunt u geen taakrollen of een team invoeren.
-
+     >Als u Toegewezen aan in het gebied van de Details van de Rij selecteerde, kunt u slechts gebruikers op het gebied van Toewijzingen op het verzoekformulier ingaan. In dit geval kunt u geen taakrollen of een team invoeren.
 
    * **Documenten**: Als u de sectie Documenten wilt weergeven in het nieuwe aanvraagformulier, selecteert u waar de sectie voor het uploaden van documenten moet worden geplaatst. Selecteer een van de volgende opties:
 
@@ -286,7 +287,7 @@ Een aanvraagwachtrij maken:
 
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-   * **Alle geselecteerde en niet-geselecteerde velden weergeven in:** Selecteer welke gebruikers u alle velden op het formulier wilt weergeven. De volgende opties bepalen de toegang tot de velden op het formulier.
+   * **Alle geselecteerde en niet-geselecteerde velden weergeven in:** Selecteer welke gebruikers u alle velden op het nieuwe aanvraagformulier wilt weergeven. De volgende opties bepalen de toegang tot de velden op het formulier.
 
      | Welke gebruikers alle velden op het aanvraagformulier kunnen zien | Beschrijving |
      |---|---| 
@@ -294,8 +295,8 @@ Een aanvraagwachtrij maken:
      | Personen met toegang tot dit project (licentie voor abonnementen) | Gebruikers met een licentie voor een abonnement die ook weergaverechten voor dit project hebben, kunnen zowel de geselecteerde als de niet-geselecteerde velden zien. De rest van de gebruikers die aanvragen kunnen indienen voor dit project, kunnen alleen de geselecteerde velden zien. |
      | Geen gebruikers | De niet-geselecteerde velden kunnen niet door gebruikers worden weergegeven. Alle gebruikers die aanvragen naar dit project kunnen verzenden, kunnen alleen de geselecteerde velden zien. |
 
-   * **Aangepaste Forms**: Selecteer een aangepast formulier dat u wilt koppelen aan de aanvraagwachtrij. Alleen Issue Custom Forms is beschikbaar om te selecteren in dit keuzemenu. Aan alle problemen die worden voorgelegd aan de wachtrij met aanvragen worden de geselecteerde formulieren gekoppeld.\
-     Als u de veelvoudige Onderwerpen van de Rij verbonden aan een Rij van het Verzoek hebt, adviseren wij dat u douaneformulieren met de Onderwerpen van de Rij in plaats daarvan associeert. Voor meer informatie over het creëren van subsecties voor de Rij van het Verzoek, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   * **Aangepaste Forms**: Selecteer een aangepast formulier dat u wilt koppelen aan de aanvraagwachtrij. Alleen Issue Custom Forms is beschikbaar om te selecteren in dit keuzemenu. Aan alle problemen die worden voorgelegd aan de wachtrij met aanvragen worden de geselecteerde formulieren gekoppeld. U moet aangepaste formulieren maken voor uitgaven voordat u deze kunt weergeven in de sectie Wachtrijdetails.
+Als u de veelvoudige Onderwerpen van de Rij verbonden aan een Rij van het Verzoek hebt, adviseren wij dat u douaneformulieren met de Onderwerpen van de Rij in plaats daarvan associeert. Voor meer informatie over het creëren van subsecties voor de Rij van het Verzoek, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![](assets/custom-forms-on-queue-details.png)
 
@@ -303,7 +304,7 @@ Een aanvraagwachtrij maken:
 
      >[!TIP]
      >
-     De vormen van de douane die aan de sectie van de Details van de Rij worden toegevoegd worden ook geassocieerd met om het even welke nieuwe kwestie die aan het project of de taken in de sectie van Kwesties wordt toegevoegd.
+     >De vormen van de douane aan de sectie van de Details van de Rij worden toegevoegd worden ook geassocieerd met om het even welke nieuwe die kwestie aan het project wordt toegevoegd <!--this is confusiong: or the tasks in the Issues  section-->.
 
 1. Doorgaan met het selecteren van gegevens voor de instellingen in het dialoogvenster **E-mailwachtrijinstellingen** om gebruikers toe te staan verzoeken te e-mailen naar het project van de verzoekrij.
 

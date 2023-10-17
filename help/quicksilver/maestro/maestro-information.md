@@ -4,13 +4,13 @@ description: Als leider van marketingactiviteiten kunt u met Adobe Maestro de we
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Maestro-informatie
 
@@ -53,8 +53,8 @@ Lees de volgende artikelen voor een overzicht van de Adobe Maestro:
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [Bekijk een videodemonstratie van Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Maestro-overzicht](maestro-overview.md): Een overzicht op hoog niveau van Adobe Maestro, inclusief de terminologie en concepten die uniek zijn voor deze oplossing. We raden je aan om je reis met Maestro hier te beginnen.
-* [Geen activiteit](../maestro/release-activity.md): Een lijst met alle functies die zijn gepubliceerd sinds de start van het gesloten bètaprogramma Maestro op 22 mei 2023 met exacte releasedatums en een kort overzicht van elk onderdeel.
+* [Overzicht van Adobe Maestro](maestro-overview.md): Een overzicht op hoog niveau van Adobe Maestro, inclusief de terminologie en concepten die uniek zijn voor deze oplossing. We raden je aan om je reis met Maestro hier te beginnen.
+* [Adobe Maestro-releaseactiviteit](../maestro/release-activity.md): Een lijst met alle functies die zijn gepubliceerd sinds de start van het gesloten bètaprogramma Maestro op 22 mei 2023 met exacte releasedatums en een kort overzicht van elk onderdeel.
 
 ## Maestro architectuur en functionaliteit
 
@@ -64,4 +64,3 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
 * [Architectuurgegevens](../maestro/architecture-and-fields/architecture-and-fields-information.md): Uitgebreide informatie over de architectuur van Adobe Maestro, met geleidelijke instructies over hoe u werkruimten, recordtypes, en gebieden creeert en beheert.
 * [Registergegevens](../maestro/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
 * [Weergavegegevens](../maestro/views/views-information.md): Uitgebreide informatie over Maestro-weergaven en hoe deze te beheren.
-

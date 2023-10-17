@@ -4,9 +4,10 @@ description: In de volgende artikelen wordt beschreven hoe u de architectuur van
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ De artikelen in de volgende secties beschrijven hoe u de werkruimten van Maestro
 * [Recordtypen bewerken](../architecture-and-fields/edit-record-types.md)
 * [Verbind recordtypen](../architecture-and-fields/connect-record-types.md)
 * [Voorbeeld van het verbinden van recordtypen en records](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Velden maken in Adobe Maestro](../architecture-and-fields/create-fields.md)
+* [Velden maken](../architecture-and-fields/create-fields.md)
 * [Velden bewerken](../architecture-and-fields/edit-fields.md)
 * [Werkruimten verwijderen](../architecture-and-fields/delete-workspaces.md)
 * [Recordtypen verwijderen](../architecture-and-fields/delete-record-types.md)
 * [Velden verwijderen](../architecture-and-fields/delete-fields.md)
-
-

@@ -6,9 +6,9 @@ description: U kunt taken naar verschillende projecten of naar verschillende bov
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ U kunt taken in Adobe Workfront verplaatsen tussen de volgende objecten:
 * Een taak binnen het zelfde project onder een verschillende ouder.
 
 U kunt een taak op taakniveau verplaatsen of u kunt een taak uit een lijst met taken verplaatsen.
+U kunt één taak verplaatsen of meerdere taken tegelijk uit een takenlijst verplaatsen.
 
 ## Toegangsvereisten
 
@@ -48,20 +49,36 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken beheren</p> <p>Draag of hoger toestemmingen aan het project met capaciteit bij om Taken toe te voegen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor de taken beheren</p> <p>Contribute of hoger rechten voor het project met de mogelijkheid om taken toe te voegen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
-## Een taak in een lijst verplaatsen
+## Overwegingen bij het verplaatsen van taken
 
-Een taak verplaatsen die in een takenlijst wordt weergegeven:
+Houd rekening met het volgende wanneer u een taak verplaatst:
+
+* Wanneer u een taak van één project aan een ander verplaatst, zouden de taakdata kunnen worden herberekend. Bij de herberekening wordt rekening gehouden met het tijdschema dat voor het nieuwe project wordt gebruikt en met het tijdschema voor het project op basis van informatie.
+
+* U hebt de kans om sommige punten te selecteren verbonden aan de taak naar de verplaatste taak tijdens het het bewegen proces te verplaatsen. De volgende objecten worden echter standaard overgebracht naar de verplaatste taak:
+
+   * Problemen
+   * Aangemeld aantal uren
+   * Opmerkingen van gebruikers
+   * Aangepaste formulieren en aangepaste veldgegevens
+   * Subtaken
+
+De volgende items worden standaard niet verplaatst met de taak:
+
+* De mijlpalen worden overgebracht naar de gekopieerde taak en uit de originele taak verwijderd.
+
+## Taken in een lijst verplaatsen
 
 1. Ga naar het project dat de taak of de taken bevat die u wilt bewegen.
 1. Klikken **Taken** in het linkerdeelvenster om de takenlijst weer te geven.
-1. Zorg ervoor dat de **Automatisch opslaan** schakelt u in en selecteert u vervolgens de taak of taken die u wilt verplaatsen.
+1. Klik op de knop **Abonnementsmodus** pictogram ![](assets/plan-mode-icon.png) en ervoor zorgen dat de **Automatisch opslaan** schakelt u in en selecteert u vervolgens de taak of taken die u wilt verplaatsen.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -77,7 +94,7 @@ Een taak verplaatsen die in een takenlijst wordt weergegeven:
 
    * Klik op de knop **Meer** menu ![](assets/qs-more-menu.png) boven aan de takenlijst klikt u op **Verplaatsen naar**.
    * Klik met de rechtermuisknop op de geselecteerde taken en klik vervolgens op **Verplaatsen naar**.
-   * Als u één taak selecteert, klikt u op de knop **Meer** menu ![](assets/more-icon-task-list.png) naast de taaknaam in de lijst klikt u op **Verplaatsen naar**.
+   * Als u één taak selecteert, klikt u op de knop **Meer** menu ![](assets/more-icon-task-list.png) naast de naam van de taak in de lijst klikt u op **Verplaatsen naar**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
@@ -91,7 +108,7 @@ Een taak verplaatsen die in een takenlijst wordt weergegeven:
 
 ## Een taak op taakniveau verplaatsen {#move-a-task-at-the-task-level}
 
-Naast het verplaatsen van taken uit een lijst met taken kunt u een taak ook op taakniveau verplaatsen nadat u deze hebt geopend. 
+Naast het verplaatsen van taken uit een lijst met taken kunt u een taak ook op taakniveau verplaatsen nadat u deze hebt geopend.
 
 1. Zoek naar een taak in je Workfront-systeem.
 1. Klik op de naam van de taak om deze te openen.
@@ -103,7 +120,7 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak ook op t
 
    >[!TIP]
    >
-   >Dit veld is grijs en kan niet worden bewerkt als u meerdere taken in een lijst wilt verplaatsen. U kunt de muisaanwijzer boven het veld Taaknaam en een lijst met alle geselecteerde taken weergeven.
+   >Het veld Taaknaam wordt grijs weergegeven en kan niet worden bewerkt wanneer u ervoor kiest meerdere taken in een lijst te verplaatsen. U kunt de muisaanwijzer boven het veld Taaknaam en een lijst met alle geselecteerde taken weergeven.
    >
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
@@ -115,9 +132,8 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak ook op t
    >[!TIP]
    >
    >* De naam van het project is hoofdlettergevoelig.
-   >* U kunt ook beginnen het Aantal van de Verwijzing te typen of identiteitskaart van het project in te gaan. Hierdoor kunt u projecten met identieke namen beter van elkaar onderscheiden.
+   >* U kunt ook het Referentienummer typen of de id van het project invoeren. Hierdoor kunt u projecten met identieke namen beter van elkaar onderscheiden.
    >* Er worden slechts 100 projecten weergegeven in de lijst.
-
 
 1. (Voorwaardelijk) Klik **Toegang aanvragen** om toegang tot het project te verzoeken, als u geen toegang tot het geselecteerde project hebt.
 1. (Voorwaardelijk) blijf de taak aan het geselecteerde bestemmingsproject verplaatsen zonder toegang te vragen als u toegang hebt om taken aan één van de taken op het bestemmingsproject toe te voegen.
@@ -126,16 +142,17 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak ook op t
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Optioneel) Klik op **Opties** in het linkerdeelvenster
+1. (Optioneel) Klik op **Opties** in het linkerdeelvenster
 
    of
 
    Omlaag schuiven naar de **Opties** in het vak Taak verplaatsen en deselecteer vervolgens een van de items in de onderstaande tabel om deze van de verplaatste taken te verwijderen. Alle opties zijn standaard geselecteerd.
 
    >[!IMPORTANT]
-   Als u de selectie van items in de lijst Opties opheft, gaan er gegevens verloren. Informatie van de bestaande taak wordt verwijderd en kan niet worden hersteld.
+   >
+   >Als u de selectie van items in de lijst Opties opheft, gaan er gegevens verloren. Informatie van de bestaande taak wordt verwijderd en kan niet worden hersteld.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -217,24 +234,26 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak ook op t
    Naar de **Bovenliggend element selecteren** selecteert u vervolgens de taak in het doelproject die u als bovenliggende taak van de verplaatste taak wilt instellen.
 
    >[!TIP]
-   Wanneer u selecteert om meerdere taken in een lijst te verplaatsen, worden alle geselecteerde taken de onderliggende taken van het geselecteerde bovenliggende element.
+   >
+   >Wanneer u selecteert om meerdere taken in een lijst te verplaatsen, worden alle geselecteerde taken de onderliggende taken van het geselecteerde bovenliggende element.
 
    Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
    * In de taaklijst, selecteer één van de ouders in het projectplan.
    * Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende taak.
 
-   De taak moet in de lijst worden weergegeven.
+   De taak wordt weergegeven in de lijst.
 
    ![Bovenliggende taak selecteren bij het verplaatsen van een taak met zoekfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecteer het keuzerondje voor het bovenliggende element nadat u het hebt gevonden.
 
-   Als u geen oudertaak selecteert, worden de taken verplaatst als belangrijkste taken eerder dan subtaken en zij zullen aan het eind van de taaklijst op het bestemmingsproject worden geplaatst.
+   Als u geen oudertaak selecteert, worden de taken verplaatst als belangrijkste taken eerder dan subtaken en zij worden geplaatst aan het eind van de taaklijst op het bestemmingsproject.
 
 1. Klikken **Taak verplaatsen**
 
    of
 
    Klikken **Taken verplaatsen** wanneer u meerdere taken in een lijst selecteert.
-De verplaatste taken zijn nu op het gespecificeerde project en of subtaken aan een oudertaak, of de laatste taken op het project.
+
+   De verplaatste taken zijn nu op het gespecificeerde project en of subtaken aan een oudertaak, of de laatste taken op het project.

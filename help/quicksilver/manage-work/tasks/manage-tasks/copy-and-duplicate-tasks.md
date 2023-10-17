@@ -6,9 +6,9 @@ description: U kunt een taak van een project aan een ander project kopiëren, of
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ Houd rekening met het volgende wanneer u een taak kopieert:
    Ga naar een taakrapport.
 
 1. (Voorwaardelijk) Klik **Taken** in het linkerpaneel, als u het project opende dat de taken bevat.
-1. Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) vervolgens **Automatisch opslaan**.
+1. Klik op de knop **Abonnementsmodus** pictogram ![](assets/qs-list-mode-or-save-mode-icon-small.png)en ervoor zorgen dat de **Automatisch opslaan** is ingeschakeld.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
 
 1. (Optioneel) Klik op **Bovenliggend element selecteren** in het linkerpaneel, dan selecteer de taak in het bestemmingsproject die u de ouder van de gekopieerde taak wilt worden.
 
->[!TIP]
->
->Wanneer u selecteert om meerdere taken in een lijst te kopiëren, worden alle geselecteerde taken de onderliggende taken van het geselecteerde bovenliggende element.
+   >[!TIP]
+   >
+   >Wanneer u selecteert om meerdere taken in een lijst te kopiëren, worden alle geselecteerde taken de onderliggende taken van het geselecteerde bovenliggende element.
 
-Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
+   Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
-* In de taaklijst, selecteer één van de ouders in het projectplan.
-* Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende taak.
+   * In de taaklijst, selecteer één van de ouders in het projectplan.
+   * Klik op het zoekpictogram ![Zoekpictogram](assets/search-icon.png) en zoek op naam naar een bovenliggende taak.
 
-De taak moet in de lijst worden weergegeven.
+   De taak wordt weergegeven in de lijst.
 
-![Bovenliggende taak selecteren bij het verplaatsen van een taak met zoekfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Bovenliggende taak selecteren bij het verplaatsen van een taak met zoekfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecteer het keuzerondje voor het bovenliggende element nadat u het hebt gevonden.
 
-   Als u geen oudertaak selecteert, worden de taken gekopieerd als belangrijkste taken eerder dan subtaken en zij zullen aan het eind van de taaklijst op het bestemmingsproject worden geplaatst.
+   Als u geen oudertaak selecteert, worden de taken gekopieerd als belangrijkste taken eerder dan subtaken en zij worden geplaatst aan het eind van de taaklijst op het bestemmingsproject.
 
 1. Klikken **Taak kopiëren**
 
@@ -287,11 +289,11 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
 1. Klikken **Taken** in het linkerdeelvenster.
 1. Voer een van de volgende handelingen uit:
 
-   * (Voorwaardelijk) Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Automatisch opslaan**, selecteert u de taken die u wilt dupliceren en klikt u op de knop **Het menu Meer** ![](assets/qs-more-menu-29x11.png) > **Dupliceren**.
+   * (Voorwaardelijk) Klik op de knop **Abonnementsmodus** pictogram ![](assets/qs-list-mode-or-save-mode-icon-small.png) en zorgen voor **Automatisch opslaan** is ingeschakeld, selecteert u de taken die u wilt dupliceren en klikt u op de knop **Het menu Meer** ![](assets/qs-more-menu-29x11.png) > **Dupliceren**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Voorwaardelijk) Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Handmatig opslaan** > **Standaard** of **Tijdlijnplanning** Voer vervolgens de volgende handelingen uit:
+   * (Voorwaardelijk) Klik op de knop **Abonnementsmodus** pictogram ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Handmatig opslaan** > **Standaard** of **Tijdlijnplanning** Voer vervolgens de volgende handelingen uit:
 
       1. Selecteer de taak of taken die u wilt dupliceren en klik op **Dupliceren**.
       1. (Optioneel) Klik op **Ongedaan maken** om uw wijzigingen om te keren en de taken niet te dupliceren.

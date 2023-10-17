@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact opnemen met Klantenondersteuning
-description: Contact opnemen met Klantenondersteuning
+description: Als Adobe Workfront-klant kunt u telefonisch contact opnemen met het klantenondersteuningsteam van Workfront of een ticket online verzenden.
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-Als [!DNL Adobe Workfront] klant, kunt u contact opnemen met [!DNL Workfront] Het team van de Steun van de klant telefonisch of door een kaartje online voor te leggen.
+Als [!DNL Adobe Workfront] klant, kunt u [!DNL Workfront] Het team van de Steun van de klant telefonisch of door een kaartje online voor te leggen.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Als [!DNL Adobe Workfront] klant, kunt u contact opnemen met [!DNL Workfront] He
 
 ## Telefoon
 
-U kunt contact opnemen met [!DNL Workfront Customer Support] 7 dagen per week, 24 uur per dag, door de volgende getallen:
+U kunt contact [!DNL Workfront Customer Support] 7 dagen per week, 24 uur per dag, door de volgende getallen:
 
 * VS: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -47,7 +47,7 @@ U kunt een steunkaartje van zelfbediening voorleggen [!DNL Experience League] po
 
    Vanuit de ondersteuningstartpagina kunt u eenvoudig naar uw open ondersteuningsgevallen navigeren, een nieuw geval registreren, de bovenste ondersteuningsartikelen weergeven of aanvullende leerbronnen openen.
 
-1. Als u een kwestie wilt verzenden, selecteert u de optie &quot;[!UICONTROL Open a support case]&quot;, klikt u vervolgens op **[!UICONTROL Sign]In**.
+1. Selecteer de optie om een kwestie te verzenden **[!UICONTROL Open a support case]** en klik vervolgens op **[!UICONTROL Sign]In**.
 
 1. Klikken **[!UICONTROL Open case]** in de linkerzijbalk.
 
@@ -79,9 +79,9 @@ U kunt een steunkaartje van zelfbediening voorleggen [!DNL Experience League] po
    >
    >U kunt ook naar de [!UICONTROL My cases] pagina door te klikken **[!UICONTROL My cases]** in de linkerzijbalk.
 
-1. Op de [!UICONTROL My cases] pagina, gebruikt u de opties boven aan de pagina om te filteren op Product ([!DNL Experience Cloud] oplossing) of [!UICONTROL Status] (open of gesloten). U kunt ook de opdracht [!UICONTROL search] om te zoeken naar trefwoorden die betrekking hebben op uw ondersteuningsgevallen.
+1. Op de **[!UICONTROL My cases]** pagina, gebruik de opties bij de bovenkant van de pagina aan filter door **Product ([!DNL Experience Cloud] oplossing)** of geval **[!UICONTROL Status]** (Openen of Gesloten). U kunt ook de opdracht [!UICONTROL search] om te zoeken naar trefwoorden die betrekking hebben op uw ondersteuningsgevallen.
 
-1. Klik op de knop **Nummer kwestie** om toegang te krijgen tot het bestand. De [!UICONTROL case] wordt geopend.
+1. Klik op de knop **Hoofdletternummer** om toegang te krijgen tot het bestand. De [!UICONTROL case] wordt geopend.
 
 1. In de [!UICONTROL case] bekijk, herzie de recentste commentaren met de toegewezen caseeigenaar en voeg om het even welke extra gehechtheid of reacties toe.
 
