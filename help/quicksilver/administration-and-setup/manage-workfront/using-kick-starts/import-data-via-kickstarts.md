@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>:</p> 
+   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ Nadat u de Excel-sjabloon met uw gegevens hebt gevuld, kunt u de Excel-sjabloon 
 
 Het importeren Kick-Start ondersteunt de volgende bestandstypen:
 
-* Op XML gebaseerd Excel (&#42;.xlsx)
-* Oudere Excel (&#42;.xls)
-* Gezipt (&#42;ZIP) xlsx- of xls-bestand
+* Op XML gebaseerde Excel (.xlsx)
+* Oudere Excel (.xls)
+* Zipped-bestand (.ZIP) (dat alleen .xlsx- of .xls-bestanden bevat)
 
   >[!NOTE]
   >
-  >U moet een ZIP-bestand gebruiken bij het importeren van Excel-spreadsheets die verwijzen naar rapporten, documenten, avatars of eigenschapsbestanden weergeven, filteren of groeperen. Als u een gecomprimeerd importbestand gebruikt, wordt de &#42;ZIP-bestand moet dezelfde naam hebben als het &#42;.xlsx of &#42;.xls dossier, en al inhoud moet op het zelfde niveau van de dossierstructuur (geen omslagen) zijn.
-
+  >U moet een .ZIP dossier gebruiken wanneer het invoeren van de spreadsheets van Excel die de volgende voorwerpen van verwijzingen voorzien:
+  >
+  >* Rapporten
+  >* Documenten
+  >* Avatars
+  >* Eigenschappenbestanden weergeven, filteren of groeperen.
+  >
+  >Wanneer u een gecomprimeerd importbestand gebruikt, moet het ZIP-bestand dezelfde naam hebben als het XSL- of XLS-bestand en moeten alle bestanden op hetzelfde structuurniveau staan (geen mappen).
 
 De sjabloonspreadsheetgegevens importeren in Workfront:
 

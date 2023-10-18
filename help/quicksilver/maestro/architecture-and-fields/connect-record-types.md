@@ -4,13 +4,13 @@ description: Een manier om aan te geven hoe individuele recordtypen op elkaar be
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
@@ -42,6 +44,7 @@ U kunt het volgende verbinden:
 
 * Typen maestro-operationele registers
 * Operationeel Maestro-recordtypen naar taxonomische recordtypen
+* Maestro-taxonomitypes naar soorten operationele record
 * Operationele recordtypen van Maestro en objecttypen van andere toepassingen.
 
 Op deze manier kunt u velden van het gekoppelde record of objecttype weergeven op een andere Maestro-record.
@@ -240,7 +243,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klikken **Velden toevoegen** om uw wijzigingen op te slaan.
 
-   Het volgende wordt toegevoegd:
+   De volgende items worden toegevoegd:
 
    * Het gekoppelde recordveld waarin de records van het gekoppelde recordtype worden weergegeven nadat u ze handmatig hebt toegevoegd. De naam van het gekoppelde recordveld is de naam die u in stap 6 hebt geselecteerd. <!-- ensure this is still accurate-->
 
@@ -250,18 +253,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * Een gekoppeld recordveld op het recordtype waarnaar u koppelt. De naam van het gekoppelde recordveld in het gekoppelde recordtype is de naam van het recordtype dat u koppelt.
 
-     Als u bijvoorbeeld het recordtype &quot;Product&quot; koppelt aan het recordtype &quot;Campagne&quot; en u het verbonden veld van de campagne &quot;Gekoppeld product&quot; een naam geeft, wordt een veld &quot;Campagne&quot; gemaakt voor het recordtype product.
+     Als u bijvoorbeeld het recordtype &quot;Product&quot; koppelt aan het recordtype &quot;Campagne&quot; en u het verbonden veld van de campagne &quot;Gekoppeld product&quot; een naam geeft, wordt een veld &quot;Campagne&quot; met gekoppelde records gemaakt voor het recordtype product.
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >Het gekoppelde recordveld waarin het recordtype wordt weergegeven dat u koppelt, wordt niet toegevoegd aan recordtypen wanneer u een recordtype verbindt met het volgende: <!--is this temporary for taxonomies??-->
-     >        
-     >   * Een taxonomie.
-     >   * Een objecttype uit een andere toepassing.
-
-1. (Optioneel) Klik in het oorspronkelijke recordtype of in de tabelweergave van het gekoppelde recordtype op de vervolgkeuzelijst rechts van het gekoppelde recordveld en klik op een van de volgende opties:
+1. (Optioneel) Klik in het oorspronkelijke recordtype of in de tabelweergave van het gekoppelde recordtype op de pijl omlaag in de koptekst van de gekoppelde recordvelden en klik vervolgens op een van de volgende opties:
 
    * **Veld bewerken**: U kunt het dialoogvenster **Naam** en de **Beschrijving** informatie over het veld.
    * **Opzoekvelden bewerken**: Voeg de velden van een gekoppelde record toe of verwijder deze.
@@ -270,11 +264,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Als u velden wilt toevoegen of verwijderen, volgt u de aanwijzingen in stap 7-12 hierboven. <!--ensure these step numbers stay accurate-->
 
-1. (Optioneel) Klik op de pijl omlaag in de koptekst van de gekoppelde record of velden en klik vervolgens op **Verwijderen**.
+1. (Optioneel) Klik op de pijl omlaag in de koptekst van het gekoppelde recordveld in het recordtype waarvan u een koppeling maakt, en klik vervolgens op **Verwijderen**.
 
-   Het recordveld en eventuele aanvullende opzoekvelden worden verwijderd en de velden en de gegevens ervan kunnen niet worden hersteld.
+   Het recordveld en eventuele aanvullende gekoppelde opzoekvelden worden verwijderd en de velden en hun gegevens kunnen niet worden hersteld.
 
    >[!TIP]
    >
-   >    Het gekoppelde recordveld in de record dat is gekoppeld vanuit de oorspronkelijke record, wordt niet verwijderd. <!-- is this still accurate?! -->
-
+   >    Het gekoppelde recordveld in het recordtype waarnaar u koppelt, wordt niet verwijderd. <!-- is this still accurate?! -->

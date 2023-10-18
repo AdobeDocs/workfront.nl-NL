@@ -4,19 +4,21 @@ description: In Adobe Maestro, kunt u douanevelden schrappen die niet meer relev
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Velden verwijderen
 
 >[!IMPORTANT]
+>
+>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
@@ -35,6 +37,9 @@ U kunt Maestro-velden verwijderen die niet meer relevant zijn.
 * U kunt velden verwijderen die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt. <!--this will change with access levels/ permissions-->
 * U kunt een veld alleen verwijderen in de tabel met recordtypen.
 * Alle informatie die in het veld is opgeslagen, wordt verwijderd en kan niet worden hersteld.
+* Wanneer u een gekoppeld recordveld verwijdert, worden alle gekoppelde opzoekvelden ook verwijderd uit het recordtype waaruit u een koppeling maakt. De gekoppelde recordvelden van de recordtypen waarnaar u een koppeling maakt, worden niet verwijderd.
+
+  Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Toegangsvereisten

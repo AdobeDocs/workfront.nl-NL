@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '7315'
+source-wordcount: '7330'
 ht-degree: 0%
 
 ---
@@ -257,11 +257,11 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat deze in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie voor meer informatie over het maken van portfolio's <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Een portfolio maken </a>.</td> 
+      <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat het in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie voor meer informatie over het maken van portfolio's <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Een portfolio maken </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Programma</strong></td> 
-      <td> <p>Als u een Portfolio voor het project selecteerde, specificeer een Programma voor het project. Sommige Portfolio hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Ga voor meer informatie over het maken van programma's naar <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Een programma maken</a>.</p> </td> 
+      <td> <p>Als u een Portfolio voor het project selecteerde, specificeer een Programma voor het project. Sommige Portfolio's hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Ga voor meer informatie over het maken van programma's naar <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Een programma maken</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Groep</strong></td> 
@@ -404,7 +404,7 @@ Velden bewerken in het gebied Financiën:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Gepland voordeel</strong> </td> 
-      <td> <p>Schatting wat het geplande voordeel van het project is. Dit wordt gebruikt in het BedrijfsGeval van het project en Portfolio Optimizer. Voor meer informatie over het Geplande Voordeel van een project, zie <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Overzicht van het geplande project</a>. Bij de berekening van de nettowaarde van een project wordt rekening gehouden met het geplande voordeel van een project. </p> <p>Zie voor meer informatie <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Projecten beheren in de Portfolio Optimizer</a> .<br></p> </td> 
+      <td> <p>Schatting wat het geplande voordeel van het project is. Dit wordt gebruikt in het Bedrijfs Geval van het project en Portfolio Optimizer. Voor meer informatie over het Geplande Voordeel van een project, zie <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Overzicht van het geplande project</a>. Bij de berekening van de nettowaarde van een project wordt rekening gehouden met het geplande voordeel van een project. </p> <p>Zie voor meer informatie <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Projecten beheren in Portfolio optimaliseren</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Werkelijk voordeel</strong> </td> 
@@ -457,7 +457,7 @@ Velden bewerken in het gebied Financiën:
        <td> <p>Controls how the parent tasks are marked as Complete. Selecteer een van de volgende opties: 
        <ul> 
        <li><strong>Automatisch</strong>: De oudertaken zijn duidelijk Voltooid en zij werken hun percentage automatisch bij volledig, aangezien de kindtaken worden voltooid en het percentage complete van de kinderen wordt bijgewerkt. </li> 
-       <li><strong>Handmatig</strong>: U moet het percentage en de status van de bovenliggende taken handmatig bijwerken, onafhankelijk van de wijzigingen die worden aangebracht in de onderliggende taken.</li> 
+       <li><strong>Handmatig</strong>: U moet het percentage en de status van de bovenliggende taken handmatig bijwerken, onafhankelijk van de wijzigingen die worden aangebracht in de onderliggende taken. Hierdoor kunt u een bovenliggende taak markeren die is voltooid, zelfs als de subtaken onvolledig zijn. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 

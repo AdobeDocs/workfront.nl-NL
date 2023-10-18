@@ -6,9 +6,9 @@ description: U kunt de status van een taak bijwerken om anderen te informeren ov
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,15 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
+## Overwegingen bij het bijwerken van de status van taken
+
+* Wanneer u een taak markeert als Voltooid, wordt het percentage dat is voltooid van de taak bijgewerkt naar 100%.
+* De volgende scenario&#39;s bestaan voor oudertaken:
+   * U kunt niet de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en subtaken niet worden voltooid.
+   * U kunt de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
+
+  Zie voor meer informatie [Projecten bewerken](../manage-projects/edit-projects.md).
+
 ## Taakstatus handmatig bijwerken
 
 Wanneer u een taakstatus bijwerkt, kunt u ook een uitleg over de nieuwe status typen en andere taakgegevens wijzigen, zoals de vervaldatum.
@@ -94,11 +103,11 @@ Wanneer u een taakstatus bijwerkt, kunt u ook een uitleg over de nieuwe status t
    * Als u een notitie over de update wilt toevoegen, gaat u naar de **Updates** gebied en klik **Een nieuwe update starten** Typ uw notitie.
 
    * Als u bepaalde gebruikers op de hoogte wilt stellen van de update, typt u hun namen in het dialoogvenster **Waarschuwen** wordt weergegeven wanneer u een notitie over de update typt. Zie voor meer informatie [Andere tags toepassen op updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Klik op **Voorwaarde selecteren** rechts van de **Waarschuwen** (deze worden weergegeven wanneer u een opmerking over de update typt) en selecteer vervolgens de voorwaarde die het best overeenkomt met de huidige toestand van de taak.
+   * Klik op **Voorwaarde selecteren** aan de rechterzijde **Waarschuwen** (deze worden weergegeven wanneer u een opmerking over de update typt) en selecteer vervolgens de voorwaarde die het best overeenkomt met de huidige toestand van de taak.
 
    * Als u de taakdatum vastleggen wilt bijwerken, vouwt u de opdracht **Vastlegdatum** en selecteer een nieuwe datum vastleggen.
    * Om een visuele aanwijzing van taakvoltooiing te verstrekken, sleep de bel onder Percentage Voltooid of klik het tweemaal om een percentagewaarde in te gaan.\
-      ![](assets/drag-the-progress-bar-350x155.png)
+     ![](assets/drag-the-progress-bar-350x155.png)
 
 ## Taakstatus automatisch bijwerken
 

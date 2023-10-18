@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Operationele recordtypen maken
 
 >[!IMPORTANT]
+>
+>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
@@ -100,7 +102,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
         Zie voor meer informatie [Werkruimten maken](../architecture-and-fields/create-workspaces.md).
       * Wanneer u ze importeert met een Excel- of CSV-bestand. Dit is niet beschikbaar voor gegevenstypen van taxonomie.
-      * Wanneer u een verbinding maakt met objecttypen vanuit een andere toepassing, wanneer u velden toevoegt aan een recordtype. Hiermee maakt u in Maestro een alleen-lezen recordtype dat is verbonden met objecttypen uit de oorspronkelijke toepassing. Dit is niet beschikbaar voor gegevenstypen van taxonomie.
+      * Wanneer u een verbinding maakt met objecttypen vanuit een andere toepassing, wanneer u velden toevoegt aan een recordtype. Hiermee maakt u in Maestro een alleen-lezen recordtype dat is verbonden met objecttypen uit de oorspronkelijke toepassing.
 
      Voor informatie over het verbinden van objecten types met verslagen Maestro, zie [Connect-records](../records/connect-records.md).
    * Handmatig:
@@ -258,5 +260,7 @@ U kunt de volgende objecten importeren uit de volgende toepassingen:
    * Projecten
    * Portfolio&#39;s
    * Programma&#39;s
+   * Bedrijf
+   * Groep
 
 Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).

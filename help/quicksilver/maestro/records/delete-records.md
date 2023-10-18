@@ -4,19 +4,20 @@ description: U kunt records verwijderen die u of een andere gebruiker heeft gema
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Records verwijderen
 
 >[!IMPORTANT]
+>>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >

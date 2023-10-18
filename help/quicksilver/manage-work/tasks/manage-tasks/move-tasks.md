@@ -6,9 +6,9 @@ description: U kunt taken naar verschillende projecten of naar verschillende bov
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Houd rekening met het volgende wanneer u een taak verplaatst:
 
 De volgende items worden standaard niet verplaatst met de taak:
 
-* De mijlpalen worden overgebracht naar de gekopieerde taak en uit de originele taak verwijderd.
+* Mijlpalen
 
 ## Taken in een lijst verplaatsen
 

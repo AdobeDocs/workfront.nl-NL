@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Maestro is een nieuw aanbod van Adobe Workfront.
+>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
@@ -50,7 +50,7 @@ Nadat uw organisatie is ingeschreven voor het bètaprogramma van Maestro, kunt u
 
 Het Maestro-gebied delen met een lay-outsjabloon:
 
-1. Aanmelden bij **Workfront** als systeembeheerder.
+1. Aanmelden bij **Workfront** als Workfront-beheerder.
 
 1. Voeg de **Maestro** pictogram ![](assets/maestro-icon.png) aan de **Hoofdmenu** met een **Lay-outsjabloon**.
 

@@ -4,13 +4,13 @@ description: Nadat u verbindingen tussen recordtypen hebt gemaakt, kunt u afzond
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Connect-records
 
 >[!IMPORTANT]
+>
+>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
@@ -276,15 +278,3 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
    >  De velden die u toevoegt of verwijdert op de pagina met Workfront-objectrecordtypen, worden niet toegevoegd aan of verwijderd uit het Maestro-recordtype dat is gekoppeld aan het Workfront-objecttype. De velden zijn alleen zichtbaar op de pagina met alleen-lezen Workfront-recordtypen, zodat u ze in Maestro kunt bekijken.
 
 1. (Optioneel) Kies in het vervolgkeuzemenu Weergave op de pagina Type Workfront-objectrecord de tijdlijnweergave om de Workfront-gekoppelde objecten weer te geven in de tijdlijnweergave.
-
-
-
-
-
-
-
-
-
-
-
-

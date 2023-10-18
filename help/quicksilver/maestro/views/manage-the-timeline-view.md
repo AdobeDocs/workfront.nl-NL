@@ -4,13 +4,13 @@ description: U kunt records weergeven in een tijdlijnweergave wanneer u de pagin
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
-
 
 # De tijdlijnweergave beheren
 
@@ -27,6 +27,8 @@ role: User
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
@@ -261,5 +263,3 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven welke informati
 1. Klikken **Opslaan**.
 
    De records worden in de tijdlijnweergave weergegeven met de specificaties die u hebt geselecteerd.
-
-

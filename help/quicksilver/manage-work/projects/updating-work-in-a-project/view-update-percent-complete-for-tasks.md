@@ -6,9 +6,9 @@ description: U kunt het percentage van voltooiing van een taak bijwerken om de v
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -84,26 +84,34 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 U kunt het voltooide percentage voor een taak op een van de volgende gebieden bijwerken:
 
-* **In een takenlijst**: U kunt het percentage van een taak bijwerken wanneer de kolom Percentage voltooid wordt weergegeven.\
-   Voor meer informatie over inline bewerken raadpleegt u [Items inline bewerken in een lijst in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **In een takenlijst**: U kunt het voltooide percentage van een taak bijwerken wanneer de kolom Percentage voltooid wordt weergegeven.\
+  Zie voor meer informatie over inline bewerken [Items inline bewerken in een lijst in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **In de milestone-weergave**: U kunt het percentage bijwerken volledig van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport. Zie voor meer informatie [De milestone-weergave gebruiken](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **In de milestone-weergave**: U kunt het percentage bijwerken voltooide van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport. Zie voor meer informatie [De milestone-weergave gebruiken](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Terwijl u de taak bijwerkt**: U kunt de optie voor het percentage van een taak bijwerken wanneer u een update toevoegt aan de taak.
+* **Terwijl u de taak bijwerkt**: U kunt de optie voor het percentage van een taak bijwerken wanneer u een update aan de taak toevoegt.
 
-   >[!IMPORTANT]
-   >
-   >Deze optie wordt alleen weergegeven nadat u de optie Percentage tonen hebt ingeschakeld.\
-   >Ga als volgt te werk om het percentage van de volledige updatebalk voor taken in te schakelen:
-   >
-   >1. Ga naar de **Hoofd** menu>uw naam>**Meer** pictogram naast uw naam >**Bewerken** > selecteren **Percentage volledig tonen bij updatestatus**.\
-      >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
-
+  >[!IMPORTANT]
+  >
+  >Deze optie wordt alleen weergegeven nadat u de optie Percentage tonen hebt ingeschakeld.\
+  >Ga als volgt te werk om het percentage van de volledige updatebalk voor taken in te schakelen:
+  >
+  >1. Ga naar de **Hoofd** menu>uw naam>**Meer** pictogram naast uw naam >**Bewerken** > selecteren **Percentage volledig tonen bij updatestatus**.\
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
 
 * **In de taakkoptekst**: U kunt het percentage van een taak bijwerken in de taakkoptekst. Zie voor meer informatie [Taken bewerken](../../tasks/manage-tasks/edit-tasks.md).
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
+
+## Overwegingen bij het bijwerken van het percentage voltooide taken
+
+* Wanneer u een taak markeert als 100% voltooid, wordt de taakstatus bijgewerkt naar Voltooid.
+* De volgende scenario&#39;s bestaan voor oudertaken:
+   * U kunt niet het percentage bijwerken volledig van een oudertaak aan 100% wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en de subtaken niet worden voltooid.
+   * U kunt het percentage volledig van een oudertaak aan 100% bijwerken wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
+
+  Zie voor meer informatie [Projecten bewerken](../manage-projects/edit-projects.md).
 
 ## Het percentage van een taak bijwerken
 

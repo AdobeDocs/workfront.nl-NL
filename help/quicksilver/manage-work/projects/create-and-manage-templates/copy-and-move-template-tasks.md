@@ -6,7 +6,7 @@ description: U kunt een sjabloontaak naar dezelfde sjabloon of naar een andere s
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
 source-wordcount: '2127'
 ht-degree: 0%
@@ -70,9 +70,9 @@ Houd rekening met het volgende wanneer u sjabloontaken verplaatst:
 
 * De volgende informatie wordt standaard overgedragen naar de verplaatste taak:
 
-   * Aangepaste formulieren en aangepaste veldgegevens.
-   * Subtaken.
-   * Opmerkingen van de gebruiker.
+   * Aangepaste formulieren en aangepaste veldgegevens
+   * Subtaken
+   * Opmerkingen van gebruikers
 
 * De volgende informatie wordt niet overgedragen naar de verplaatste taak:
 

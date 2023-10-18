@@ -4,17 +4,19 @@ description: In dit artikel wordt een voorbeeld beschreven van hoe u een verbind
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # Voorbeeld van het verbinden van recordtypen en records
 
 >[!IMPORTANT]
+>
+>De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
 >
 >Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
 >
@@ -193,6 +195,3 @@ Dit doet u als volgt:
    >    De velden die u toevoegt aan de Workfront Project Maestro-record, worden alleen toegevoegd op de Workfront Project-pagina en worden niet toegevoegd aan de pagina Campagne-recordtype, als gekoppelde velden. U moet de projectgebieden van het de informatie van het Project verbonden-voorwerp gebied van het het verslagtype van de Campagne toevoegen om hen voor campagnes te bekijken.
 
 1. (Optioneel en voorwaardelijk) Als u ten minste twee datumvelden voor projecten wilt weergeven, klikt u op de knop **Weergave** vervolgkeuzemenu in de tabel met Workfront-projectrecordtypen, en **Weergave maken** > **Tijdlijn** > **Maken** om een tijdlijnweergave te maken en de projecten op een tijdlijn weer te geven.
-
-
-
