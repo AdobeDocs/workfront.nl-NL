@@ -7,7 +7,7 @@ description: De prestatie-index van het kostenschema (CSI) is een automatische b
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -31,18 +31,16 @@ De prestatie-index van het kostenschema (CSI) is een automatische berekening waa
 U kunt van de informatie profiteren die door dit metrisch wordt verstrekt slechts als het volgende in uw organisatie bestaat:
 
 * Uw gebruikers registreren tijd voor het werk zij voltooien.\
-   Dit berekent CSI gebaseerd op Uren.
+  Dit berekent CSI gebaseerd op Uren.
 * Uw gebruikers of baanrollen hebben Kosten per Uur verbonden aan hen. 
 
-   Dit berekent CSI op basis van kosten.
+  Dit berekent CSI op basis van kosten.
 
 ## Hoe Workfront de Performance Index (CSI) van het Kostenschema berekent
 
 Workfront berekent de Kostenprestatie-index (CSI) van een project of taak aan de hand van de volgende formule:
 
-```
-CSI = CPI x SPI
-```
+`CSI = CPI x SPI`
 
 Voor informatie over CPI, zie het artikel [Kostenprestatie-index (CPI) berekenen](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
@@ -50,9 +48,8 @@ Zie het artikel voor informatie over SPI [Prestatie-index (SPI) voor planning be
 
 CSI heeft de volgende drie mogelijke waarden:
 
-* 1 = Volgt het algemene plan   
-* 
-   >1 = Combinatie van begrotingsprogramma&#39;s
+* 1 = Volgt het algemene plan
+* \>1 = Combinatie van begrotingsprogramma
 * &lt;1 = combinatie van begrotingsschema voor overschrijden
 
 ![](assets/csi-highlighted.png)
@@ -66,6 +63,6 @@ CSI heeft de volgende drie mogelijke waarden:
 U kunt CSI vinden in de volgende gebieden van Workfront:
 
 * Financieringsgebied in de sectie Projectdetails.
-* Financieringsgebied in de sectie Taakdetails.
+* Het gebied van de financiën in de sectie van de Details van de Taak.
 * Een project- of taakweergave
 * Een project- of taakrapport
