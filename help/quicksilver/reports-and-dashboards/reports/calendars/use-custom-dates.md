@@ -6,9 +6,9 @@ description: Een kalenderrapport is een dynamisch rapport dat een visuele verteg
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -69,7 +69,7 @@ U kunt kiezen hoe de groep items moet worden weergegeven in uw kalender.
 
    >[!NOTE]
    >
-   >U moet [!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport tot stand te brengen.
+   >U moet [!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport te creëren.
 
 1. Klik links op **[!UICONTROL Add to Calendar]** en klik vervolgens op **[!UICONTROL Add advanced items]**.
 
@@ -96,17 +96,17 @@ U kunt kiezen hoe de groep items moet worden weergegeven in uw kalender.
       <td><p>Kies hoe u de datums wilt weergeven:</p>
        <ul>
         <li><strong>[!UICONTROL Single Date]</strong>: In de kalender wordt het object op één datum weergegeven.</li>
-        <li><strong>[!UICONTROL Duration] (Van begin tot eind)</strong>: In de kalender wordt het object over een periode van dagen weergegeven.<br><p>Opmerking: Als u <strong>[!UICONTROL Duration]</strong>, moet de opgegeven einddatum na de begindatum liggen, anders wordt het item niet weergegeven in de kalender.</p></li>
+        <li><strong>[!UICONTROL Duration] (Van begin tot eind)</strong>: Het object wordt in de kalender over een periode van dagen weergegeven.<br><p>Opmerking: als u <strong>[!UICONTROL Duration]</strong>, moet de opgegeven einddatum na de begindatum liggen, anders wordt het item niet weergegeven in de kalender.</p></li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Custom Dates]</strong></td>
-      <td><p>Voer de aangepaste datumnaam in die is gekoppeld aan het object dat u wilt bijhouden.</p></td>
+      <td><p>Voer de aangepaste datumnaam in die is gekoppeld aan het object dat u wilt bijhouden.</p><p><strong>OPMERKING:</strong> U kunt maximaal 50 resultaten zoeken naar de aangepaste datumnaam om prestatieproblemen te voorkomen.</td>
      </tr>
     </tbody>
    </table>
 
-1. Ga door naar de volgende sectie.
+1. Ga verder naar de volgende sectie.
 
 ## Objecten toevoegen aan de groep items
 
@@ -133,6 +133,6 @@ Nadat u hebt ingesteld hoe de items moeten worden weergegeven, moet u de objecte
 
    >[!NOTE]
    >
-   >Als de standaardlabelopties niet beschikbaar zijn voor een bepaald object, wordt in plaats daarvan de naam van het object weergegeven. Wanneer bijvoorbeeld [!UICONTROL Parent Task] label is geselecteerd en er is geen bovenliggende taak aan het object gekoppeld, [!DNL Adobe Workfront] Hiermee geeft u de objectnaam weer die u in de kalender weergeeft.
+   >Als de standaardlabelopties niet beschikbaar zijn voor een bepaald object, wordt in plaats daarvan de naam van het object weergegeven. Als u bijvoorbeeld [!UICONTROL Parent Task] label is geselecteerd en er is geen bovenliggende taak aan het object gekoppeld, [!DNL Adobe Workfront] geeft de objectnaam weer die u in de kalender weergeeft.
 
 1. Klik op **[!UICONTROL Save]**.

@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave
 * **Weergave**: De gebruiker kan items controleren en delen.
 * **Bewerken**: De gebruiker kan items maken, bewerken, verwijderen en delen.
 
-   >[!NOTE]
-   >
-   >Wanneer een andere gebruiker een object deelt, kan de deler machtigingen opgeven die hun mogelijkheid beperken om het object te bewerken. Zie voor meer informatie [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >Wanneer een andere gebruiker een object deelt, kan de deler machtigingen opgeven die hun mogelijkheid beperken om het object te bewerken. Zie voor meer informatie [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 |   | Plan | Werk | Controleren | Verzoek | Extern |
 |---|---|---|---|---|---|
 | Projecten | Bewerken | Bewerken (zonder Maken-machtigingen) | Weergave | Weergeven (alleen de pagina Details) | Geen toegang |
 | Taken | Bewerken | Bewerken | Weergave | Weergave | Weergave |
 | Problemen | Bewerken | Bewerken | Bewerken | Bewerken | Geen toegang |
-| Portfolio | Bewerken | Weergave | Weergave | Geen toegang | Geen toegang |
+| Portfolio&#39;s | Bewerken | Weergave | Weergave | Geen toegang | Geen toegang |
 | Programma&#39;s | Bewerken | Weergave | Weergave | Geen toegang | Geen toegang |
 | Rapporten, dashboards en kalenders | Bewerken | Weergave | Weergave | Weergave&#42; | Weergeven (alleen voor kalenders, geen machtigingen voor delen) |
 | Filters, weergaven en groepen | Bewerken | Bewerken | Bewerken | Bewerken | Geen toegang |
@@ -49,7 +49,7 @@ In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave
 
 >[!NOTE]
 >
->Gebruikers met een revisielicentie of een aanvraaglicentie hebben beperkte mogelijkheden voor delen. Zie voor meer informatie [Overzicht van Adobe Workfront-licenties](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) of [Overzicht van Adobe Workfront-licenties](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Gebruikers met een revisielicentie of een aanvraaglicentie hebben beperkte mogelijkheden voor delen. Zie voor meer informatie [Overzicht van Adobe Workfront-licenties](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Externe gebruikers kunnen niet zoeken naar items in Workfront. Ze kunnen documenten en kalenders weergeven die specifiek met hen worden gedeeld. Ze kunnen ook de gebruikers zien die items met hen delen.
 
