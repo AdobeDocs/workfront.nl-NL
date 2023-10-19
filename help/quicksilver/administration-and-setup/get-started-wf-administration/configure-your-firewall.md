@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,11 @@ ht-degree: 13%
 >
 >Als u uw lijst van gewenste personen wilt configureren als uw organisatie is aangemeld bij de Adobe Admin Console, raadpleegt u [Domeinen die zijn toegestaan voor Adobe-apps en -services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>De manier een organisatie zijn lijst van gewenste personen vormt is uniek aan elke organisatie. Werk samen met uw IT-team om de procedure van uw organisatie te identificeren en deze toevoegingen te implementeren.
 
 Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend en zijn de volgende processen mogelijk:
 
