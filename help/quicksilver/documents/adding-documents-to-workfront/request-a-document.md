@@ -6,9 +6,9 @@ description: U kunt een document aanvragen voor elk object dat Documenten onders
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ U moet het volgende hebben:
 
    Klik op de koppeling in het e-mailbericht en upload het document. U kunt ook op de melding in de app klikken. Elke optie leidt u naar de pagina van het gebruikersprofiel waar u het gevraagde document kunt uploaden.
 
-   U kunt ook rechtstreeks reageren op het e-mailbericht en de gewenste documenten bijvoegen (als u geconfigureerd bent om e-mailreacties te ondersteunen). Zie voor informatie over het configureren van e-mailreacties.
+   U kunt ook rechtstreeks reageren op het e-mailbericht en de gewenste documenten bijvoegen (als u geconfigureerd bent om e-mailreacties te ondersteunen).
 
 1. Nadat u het document hebt geüpload, heeft de persoon die het heeft aangevraagd toegang tot het document op persoonlijke titel **Documenten** gebied.
 

@@ -4,9 +4,9 @@ description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -326,7 +326,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe standaardlandingspagina van contribuant: Nieuwe startpagina</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p>
-                        <p>Nieuwe startpagina is nu de standaardbestemmingspagina voor contributoraccounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die specifiek zijn geselecteerd om medewerkers in staat te stellen hun werk direct te beheren.</p>
+                        <p>New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -628,27 +628,8 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Bijgewerkte e-mailsjablonen</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
-                        <p>Als het begin van een nieuw initiatief om onze e-mails met gebeurtenismeldingen bij te werken, hebben we twee van de meest gebruikte programma's bijgewerkt: documentgoedkeuring en het delen van objecten.</p>
-                    </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
-                        <ul>
-                            <li>
-                                <p>Voorvertoningsrelease: 12 oktober 2023</p>
-                            </li>
-                            <li>
-                                <p>Productie voor snelle release: met 23,10 release</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Wijzigingen in hoofdmenu van Contribute</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
-                        <p>Om contribuanten beter te informeren over de functies die beschikbaar zijn met een betaald Workfront-licentietype, kunnen ze nu alle beschikbare opties in het hoofdmenu zien.</p>
+                        <p>Medewerkers/aanvragers beter informeren over de functies die beschikbaar zijn met een betaald Workfront-licentietype, kunnen nu alle opties zien die beschikbaar zijn in het hoofdmenu.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>

@@ -3,9 +3,9 @@ title: Verbeteringen startpunt vierde kwartaal 2023
 description: Verbeteringen startpunt vierde kwartaal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Ga voor meer informatie over de widgets die beschikbaar zijn in New Home naar [A
 
 ## Nieuwe standaardlandingspagina van contribuant: Nieuwe startpagina
 
-Nieuwe startpagina is nu de standaardbestemmingspagina voor contributoraccounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die specifiek zijn geselecteerd om medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de contribuanten ook worden geïnstrueerd bij het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Als een lay-out met een aangepaste homepage die momenteel door een contributoraccount wordt gebruikt, blijft deze hun homepage.
+New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de Medewerkers ook worden geïnstrueerd over het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Als een lay-out met een aangepaste homepage die momenteel door een contributoraccount wordt gebruikt, blijft deze hun homepage.
 
 Ga voor meer informatie over het gebruik van New Home naar [Aan de slag met Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
