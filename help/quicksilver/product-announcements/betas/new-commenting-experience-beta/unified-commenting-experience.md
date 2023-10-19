@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,10 @@ Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkel
 
 De nieuwe ervaring met opmerkingen wordt langzaam beschikbaar voor alle objecten met een sectie Updates in Workfront en later wordt deze ervaring uitgebreid naar andere Adobe Experience Cloud-toepassingen.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## Functies
@@ -50,7 +47,7 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 * Opmerkingen maken over een systeemupdate
 * De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen
 * Aangepast formulier bewerken
-* De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt, is oorspronkelijk verwijderd. Het is op 19 oktober 2023 weer opgenomen.
 * De optie &#39;Vraag om goedkeuring&#39; wanneer u personen een label geeft terwijl u een opmerking aan een document toevoegt.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Opmerkingen oplossen 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>3e kwartaal 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Zoeken in opmerkingen 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>3e kwartaal 2023 
+   <td>1e kwartaal 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Afbeeldingen kopiëren en plakken in een opmerking
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1e kwartaal 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Aangepast formulier bewerken 
    </td>
@@ -456,7 +455,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

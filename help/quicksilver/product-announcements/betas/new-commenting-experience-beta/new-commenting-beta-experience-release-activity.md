@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -65,23 +65,23 @@ Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het v
   >
   >    Herhalingen zullen de oudere ervaring met opmerkingen blijven gebruiken. De nieuwe ervaring met opmerkingen is niet beschikbaar voor herhalingen.
 
+* Eerste kwartaal 2024 (januari 2024):
+
+   * De optie om terug te schakelen naar de oudere opmerkingsstroom wordt verwijderd en de nieuwe opmerkingstroom wordt de enige ervaring voor alle objecten, met uitzondering van herhalingen.
+
 ## Uitgebrachte functies
 
 De volgende sectie bevat een lijst met functies die zijn toegevoegd na de oorspronkelijke versie van 23.2, te beginnen met de functies die het laatst zijn uitgebracht.
 
 De volgende informatie heeft betrekking op de releaseactiviteit op wekelijkse basis van de functies die zijn opgenomen in de nieuwe bètaervaring met opmerkingen. Dit artikel bevat nieuwe functies die worden toegevoegd en problemen die worden opgelost voor de nieuwe opmerkingervaring.
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### Week van 16 oktober 2023
 
-### Week of October 9, 2023
+#### Voeg de informatie &quot;namens &lt; gebruikersnaam >&quot; toe wanneer u opmerkingen maakt terwijl u bent aangemeld als een andere gebruiker
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+Tijdens het opnieuw ontwerpen van de opmerkingervaring hebben we de indicator &quot;namens &lt; gebruikersnaam >&quot; verwijderd wanneer een Workfront of groepsbeheerder opmerkingen heeft toegevoegd terwijl hij of zij zich als een andere gebruiker heeft aangemeld. Deze gegevens zijn nu hersteld.
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+Voorbeeld en productie voor alle klanten: 19 oktober 2023.
 
 ### Week van 11 september 2023
 

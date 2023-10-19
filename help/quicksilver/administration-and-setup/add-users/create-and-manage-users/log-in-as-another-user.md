@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 1. Klikken **Log in.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsda
 Wanneer u zich bij Workfront als een andere gebruiker aanmeldt en een actie uitvoert, geeft Workfront duidelijk aan dat u elke actie uitvoert namens de gebruiker die u als gebruiker bent aangemeld.
 
 Als u bijvoorbeeld een opmerking maakt over een item terwijl u zich als een andere gebruiker hebt aangemeld, geeft een instructie aan dat de opmerking door u namens de gebruiker is gemaakt.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->Wanneer u de nieuwe opmerkingervaring gebruikt, wordt de opmerking toegevoegd als de gebruiker die zich heeft aangemeld als een andere gebruiker en is er geen indicatie dat deze een opmerking toevoegt namens iemand anders.
->
->Als een Workfront-beheerder zich bijvoorbeeld aanmeldt als een andere gebruiker, is de Workfront-beheerder de gebruiker die aan de opmerking is gekoppeld. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### Controlegegevens weergeven {#view-audit-information}
 

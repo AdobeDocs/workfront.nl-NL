@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -133,8 +133,6 @@ De informatie in de sectie van Updates is verschillend georganiseerd, afhankelij
 
 Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
@@ -211,8 +209,6 @@ Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingerv
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
@@ -325,18 +321,13 @@ Adobe Workfront-beheerders en groepsbeheerders kunnen zich aanmelden als andere 
 
 Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Eventuele opmerkingen die namens een andere gebruiker worden gemaakt, worden in de opmerking vermeld.
+Houd rekening met het volgende wanneer u zich aanmeldt als een andere gebruiker en opmerkingen toevoegt:
 
-<!--remove the note below when we release this back to the new commenting-->
+* Eventuele opmerkingen die namens een andere gebruiker worden gemaakt, worden in de opmerking vermeld.
 
->[!NOTE]
->
->Wanneer u de nieuwe opmerkingervaring gebruikt, wordt de opmerking toegevoegd als de gebruiker die zich heeft aangemeld als een andere gebruiker en is er geen indicatie dat deze een opmerking toevoegt namens iemand anders.
->
->Als een Workfront-beheerder zich bijvoorbeeld aanmeldt als een andere gebruiker, is de Workfront-beheerder de gebruiker die aan de opmerking is gekoppeld. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* Een groepsbeheerder kan opmerkingen maken namens een andere persoon, maar kan die opmerking niet verwijderen. Alleen een Adobe Workfront-beheerder kan een opmerking verwijderen die hij namens een andere gebruiker heeft gemaakt.
 
-
-Een groepsbeheerder kan opmerkingen maken namens een andere persoon, maar kan die opmerking niet verwijderen. Alleen een Adobe Workfront-beheerder kan een opmerking verwijderen die hij namens een andere gebruiker heeft gemaakt.
+* Een Workfront of groepsbeheerder kan een commentaar dat hij of zij namens een andere gebruiker heeft toegevoegd alleen bewerken wanneer hij of zij zich afmeldt als de gebruiker en zich weer aanmeldt als zichzelf.
 
 ## Systeemupdates van werkitems weergeven met het rapport Dagboekingang
 

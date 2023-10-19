@@ -5,9 +5,9 @@ title: Verklarende woordenlijst [!DNL Adobe Workfront] terminologie
 description: De [!DNL Adobe Workfront] woordenlijst bevat de algemeen gebruikte termen in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '16151'
+source-wordcount: '16163'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
  <tbody> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Access Level]</td> 
-   <td>Een gebruikersprofiel dat bepaalt hoe een gebruiker met verschillende voorwerpen en hulpmiddelen binnen Workfront kan communiceren.</td> 
+   <td>Een gebruikersprofiel dat bepaalt hoe een gebruiker met verschillende objecten en gereedschappen in Workfront kan communiceren.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Active Task]</td> 
@@ -42,16 +42,16 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Activity]</td> 
-   <td>In [!DNL Workfront Goals]Een activiteit is een voortgangsindicator voor een doel. Dit kan een voortgangsbalk zijn die u handmatig bijwerkt of een project dat aan het doel is gekoppeld. U kunt geen activiteiten weergeven in een rapport en u hebt geen toegang tot deze activiteiten via het dialoogvenster [!DNL Workfront] API. Voor informatie over activiteiten raadpleegt u <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Aan de slag met resultaten en activiteiten in Adobe Workfront Goals</a>.</td> 
+   <td>In [!DNL Workfront Goals]Een activiteit is een voortgangsindicator voor een doel. Dit kan een voortgangsbalk zijn die u handmatig bijwerkt of een project dat aan het doel is gekoppeld. U kunt geen activiteiten weergeven in een rapport en u hebt geen toegang tot deze activiteiten via de [!DNL Workfront] API. Zie voor informatie over activiteiten <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Aan de slag met resultaten en activiteiten in Adobe Workfront Goals</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>Voor taken en kwesties, is dit de kosten verbonden aan de daadwerkelijke die uren met betrekking tot de Kosten per uurtarief van het middel worden geregistreerd aan de taak of de kwestie worden toegewezen. Voor projecten is dit een totaal van alle [!UICONTROL Actual Costs] van taken en problemen in verband met het project. Zie voor meer informatie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>.</p> </td> 
+   <td> <p>Voor taken en kwesties, is dit de kosten verbonden aan de daadwerkelijke die uren met betrekking tot de Kosten per uurtarief van het middel worden geregistreerd aan de taak of de kwestie worden toegewezen. Voor projecten is dit in totaal [!UICONTROL Actual Costs] van taken en problemen met het project. Zie voor meer informatie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>De som van de [!UICONTROL Actual Amounts] voor alle uitgaven die voor een project of een taak worden geregistreerd.</p> <b>VOORBEELD </b>
-   <p>Als u een uitgave voor Taak 1 creeert en $600.00 in ingaat in [!UICONTROL Actual Amount] in het veld [!UICONTROL Actual Expense Cost] hiervoor is $ 600.00 . </p> 
+   <p>Als u een uitgave voor Taak 1 creeert en $600.00 in ingaat [!UICONTROL Actual Amount] in het veld [!UICONTROL Actual Expense Cost] hiervoor is $ 600.00 . </p> 
    <p>Voor een project: [!DNL Workfront] gebruikt de volgende formule om te berekenen [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
@@ -75,7 +75,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Start]</td> 
-   <td>De tijdstempel wanneer een gebruiker een object wijzigt dat bezig is met werk dat aan hem is toegewezen.</td> 
+   <td>De tijdstempel wanneer een gebruiker een object wijzigt dat bezig is met werk dat aan hem of haar is toegewezen.</td> 
   </tr> 
   <!--<tr> 
  <td>A type of work process that is unplanned.</td> 
@@ -117,17 +117,17 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
          how resources are budgeted for work, or 
        </MadCap:conditionalText>
       --> het bedrag van [!UICONTROL Planned Hours] die aan uw middelen wordt toegewezen.</li> 
-     <li> <p>De [!UICONTROL Allocation Date] is de eerste dag (zondag) van een week waarin de toewijzing van een [!UICONTROL Job Role] om een taak te starten. Een resource ([!UICONTROL Job Role]) kan zo veel hebben [!UICONTROL Allocation Dates] zoals in weken gedurende de [!UICONTROL Duration] van de taken waaraan het wordt toegewezen. Als taken zich uitstrekken over meerdere maanden, kan de eerste dag van een maand ook een [!UICONTROL Allocation Date], indien het binnen de [!UICONTROL Duration] van de taak.</p> <p>U kunt bijvoorbeeld een [!UICONTROL Job Role] toegewezen aan een taak die zich over 3 weken uitstrekt en 90 [!UICONTROL Planned Hours]. Deze uren worden gelijkmatig verdeeld tijdens de duur van de taak, die elke dag 6 aanwijst [!UICONTROL Planned Hours] naar uw taakrol:</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Aantal [!UICONTROL Work Days] tijdens de [!UICONTROL Duration] van de taak </em> </p> <p>Er zijn dus drie [!UICONTROL Allocation Dates], één voor elke zondag van elke week gedurende de [!UICONTROL Duration] van de taak, elk met een bepaald aantal [!UICONTROL Planned Hours] geassocieerd met hen.<br>Als de taak in het midden van de laatste week van een maand begint en twee weken na het begin van een nieuwe maand eindigt, zal de taak vier hebben [!UICONTROL Allocation Dates]: één voor elke zondag van elke week gedurende de [!UICONTROL Duration] en één voor de eerste dag van de nieuwe maand.</p> <p>We raden u aan een <!--
+     <li> <p>De [!UICONTROL Allocation Date] is de eerste dag (zondag) van een week waarin de toewijzing van een [!UICONTROL Job Role] om een taak te starten. Een resource ([!UICONTROL Job Role]) kan zo veel hebben [!UICONTROL Allocation Dates] zoals in weken gedurende de [!UICONTROL Duration] van de taken waaraan het wordt toegewezen. Als taken zich uitstrekken over meerdere maanden, kan de eerste dag van een maand ook een [!UICONTROL Allocation Date], indien het binnen de [!UICONTROL Duration] van de taak.</p> <p>U kunt bijvoorbeeld een [!UICONTROL Job Role] toegewezen aan een taak die zich over 3 weken uitstrekt en 90 [!UICONTROL Planned Hours]. Deze uren worden gelijkmatig verdeeld tijdens de duur van de taak, die elke dag 6 aanwijst [!UICONTROL Planned Hours] naar uw taakrol:</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Aantal [!UICONTROL Work Days] tijdens de [!UICONTROL Duration] van de taak </em> </p> <p>Er zijn dus drie [!UICONTROL Allocation Dates]elke zondag gedurende de [!UICONTROL Duration] , elk met een bepaald aantal [!UICONTROL Planned Hours] geassocieerd met hen.<br>Als de taak in het midden van de laatste week van een maand begint en twee weken na het begin van een nieuwe maand eindigt, zal de taak vier hebben [!UICONTROL Allocation Dates]: één voor elke zondag van elke week tijdens de [!UICONTROL Duration] en één voor de eerste dag van de nieuwe maand.</p> <p>Om deze informatie optimaal te gebruiken, adviseren wij dat u een <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
-       --> Rapport voor project (financiële gegevens) en een matrixgroep toevoegen voor [!UICONTROL Allocation Date]en groepeert de resultaten vervolgens wekelijks, maandelijks, driemaandelijks of jaarlijks voor de meest nauwkeurige gegevens.<br>Zie het artikel voor informatie over het maken van een matrixgroep <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Een matrixrapport maken</a>.</p> </li> 
-    </ul> <p>Financiële informatie wordt ingevuld in [!UICONTROL Project (Financial Data)] alleen als de gegevens die ermee verband houden, jonger zijn dan 5 jaar. Als bijvoorbeeld in januari 2015 een functie werd toegewezen aan een taak en vandaag september 2021, een financieel gebied zoals [!UICONTROL Allocation Date] voor de rol job niet wordt gevuld in de [!UICONTROL Project (Financial Data)] verslag. </p> 
+       --> Rapport voor project (financiële gegevens) en een matrixgroep toevoegen voor [!UICONTROL Allocation Date]en groepeert de resultaten vervolgens wekelijks, maandelijks, driemaandelijks of jaarlijks voor de meest nauwkeurige gegevens.<br>Zie het artikel voor informatie over het maken van een matrixgroepering <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Een matrixrapport maken</a>.</p> </li> 
+    </ul> <p>Financiële informatie wordt ingevuld in [!UICONTROL Project (Financial Data)] alleen als de gegevens die ermee verband houden, jonger zijn dan 5 jaar. Als bijvoorbeeld in januari 2015 een functie werd toegewezen aan een taak en vandaag september 2021, een financieel gebied zoals [!UICONTROL Allocation Date] voor de rol job niet wordt gevuld in het dialoogvenster [!UICONTROL Project (Financial Data)] verslag. </p> 
     <div> 
      <p>Voor een [!UICONTROL Budgeted Hour] rapport:</p> 
      <ul> 
       <li>Dit rapport samenstellen wanneer u probeert te begrijpen hoeveel [!UICONTROL Budgeted Hours] dat aan uw middelen of aan uw projecten in de Planner van het Middel wordt toegewezen.</li> 
-      <li> <p>De [!UICONTROL Allocation Date] is de eerste dag (een zondag) van de week waarvoor u de uren in de [!UICONTROL Resource Planner]. </p> <p>Tip:   <p>Als een week zich over twee maanden uitstrekt, zal het twee rijen in het rapport produceren: één die met de eerste dag van de week (zondag van de eerste week die in de eerste maand is) beantwoordt, en de tweede rij toont de eerste dag van de tweede maand. </p> <p>Als u bijvoorbeeld 8 uur begroot voor een gebruiker voor de week van 30 juni (zondag) - 6 juli (zaterdag), worden in de twee rijen een [!UICONTROL Allocation Date] van 30 juni en 1 juli. </p> </p> <p>Voor informatie over begrotingsmiddelen in het [!DNL Resource Planner], zie het artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Begrotingsmiddelen in de [!DNL Resource Planner] met de [!UICONTROL Project] en [!UICONTROL Role] views</a>.</p> <p>Voor informatie over het samenstellen van een [!UICONTROL Budgeted Hour] rapport, zie <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Rapport: Budgeted Hour</a>. </p> </li> 
+      <li> <p>De [!UICONTROL Allocation Date] is de eerste dag (een zondag) van de week waarvoor u de uren in de [!UICONTROL Resource Planner]. </p> <p>Tip:   <p>Als een week zich over twee maanden uitstrekt, zal het twee rijen in het rapport produceren: één die aan de eerste dag van de week (Zondag van de eerste week die tijdens de eerste maand is) beantwoordt, en de tweede rij toont de eerste dag van de tweede maand. </p> <p>Als u bijvoorbeeld 8 uur begroot voor een gebruiker voor de week van 30 juni (zondag) - 6 juli (zaterdag), worden in de twee rijen een [!UICONTROL Allocation Date] van 30 juni en 1 juli. </p> </p> <p>Voor informatie over begrotingsmiddelen in het [!DNL Resource Planner], zie het artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Begrotingsmiddelen in de [!DNL Resource Planner] met de [!UICONTROL Project] en [!UICONTROL Role] views</a>.</p> <p>Voor informatie over het samenstellen van een [!UICONTROL Budgeted Hour] rapport, zie <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Verslag: Budgeted Hour</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -169,7 +169,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignments]</td> 
-   <td> <p>In een [!UICONTROL Task] of [!UICONTROL Issue] rapport, toont dit gebied een lijst van alle entiteiten (gebruikers, baanrollen, teams) die aan de taak of de kwestie worden toegewezen. U kunt filteren op dit veld met behulp van de velden [!UICONTROL Assignment Users] en [!UICONTROL Assignment Roles]. U kunt filteren door het team dat aan de taak of kwestie wordt toegewezen gebruikend het gebied van het Team. U kunt een rapport niet groeperen door dit gebied.</p> <p>Werkitems die in het deelvenster [!UICONTROL Recycle Bin] zal in sommige rapporten blijven tonen die naar [!UICONTROL Assignment] object waar [!DNL OR] filtermodifier wordt gebruikt.</p> </td> 
+   <td> <p>In een [!UICONTROL Task] of [!UICONTROL Issue] rapport, toont dit gebied een lijst van alle entiteiten (gebruikers, baanrollen, teams) die aan de taak of de kwestie worden toegewezen. U kunt filteren op dit veld met de velden [!UICONTROL Assignment Users] en [!UICONTROL Assignment Roles]. U kunt filteren door het team dat aan de taak of kwestie wordt toegewezen gebruikend het gebied van het Team. U kunt een rapport niet groeperen door dit gebied.</p> <p>Werkitems die in het deelvenster [!UICONTROL Recycle Bin] zal in sommige rapporten blijven tonen die naar verwijzen [!UICONTROL Assignment] object waar [!DNL OR] filtermodifier wordt gebruikt.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignment Roles]</td> 
@@ -180,9 +180,9 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <td>[!UICONTROL Assignment Status]</td> 
    <td> <p>In een taak-, taak- of uitgifterapport [!UICONTROL Assignment Status] toont of de gebruikers die aan een het werkpunt worden toegewezen hebben geklikt [!UICONTROL Work On It] of de [!UICONTROL Done] om het werk te accepteren of te voltooien. Het volgende [!UICONTROL Assignment Statuses] bestaan:</p> 
     <ul> 
-     <li><b>[!UICONTROL Requested]</b>: de gebruiker is toegewezen aan de taak of uitgave, maar zij hebben niet geklikt op [!UICONTROL Work On It] om er nog aan te werken.</li> 
-     <li><b>[!UICONTROL Working]</b>: de gebruiker op de knop [!UICONTROL Work On It] en werkt momenteel aan het item. </li> 
-     <li><b>[!UICONTROL Done]</b>: de gebruiker op de knop [!UICONTROL Done] en heeft hun werk aan het onderdeel voltooid. </li> 
+     <li><b>[!UICONTROL Requested]</b>: de gebruiker is toegewezen aan de taak of uitgave, maar heeft niet op de knop [!UICONTROL Work On It] om er nog aan te werken.</li> 
+     <li><b>[!UICONTROL Working]</b>: de gebruiker heeft op de knop [!UICONTROL Work On It] en werkt momenteel aan het item. </li> 
+     <li><b>[!UICONTROL Done]</b>: de gebruiker heeft op de knop [!UICONTROL Done] en heeft hun werk aan het onderdeel voltooid. </li> 
     </ul> <p>Zie voor meer informatie <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">[!UICONTROL Work On It] en [!UICONTROL Done] knopoverzicht</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Assignment Users]</td> 
    <td>
-   <p>In een [!UICONTROL Task] of [!UICONTROL Issue] rapport, toont dit gebied informatie over de gebruikers die aan de taken of de kwesties worden toegewezen. Dit veld wordt weergegeven [!UICONTROL Primary Owners]en andere gebruikers die zijn toegewezen aan taken of problemen. </p></td> 
+   <p>In een [!UICONTROL Task] of [!UICONTROL Issue] rapport, toont dit gebied informatie over de gebruikers die aan de taken of de kwesties worden toegewezen. Dit veld wordt weergegeven [!UICONTROL Primary Owners], alsmede andere gebruikers die zijn toegewezen aan taken of problemen. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Attribute]</td> 
@@ -333,7 +333,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>[!UICONTROL Budgeted Hour] verslag</p><p>De [!UICONTROL Budgeted Hour] -object in het rapport Boedgeted Hour verwijst naar informatie die betrekking heeft op een afgekeurd hulpmiddel voor middelenbeheer. Alleen de "[!UICONTROL Bud. Hours]" in dit verslag wordt verwezen naar de in de [!UICONTROL Resource Planner] of de [!UICONTROL Resource Budgeting] gebied van het project [!UICONTROL Business Case]. </p> <p>Raadpleeg het artikel voor meer informatie over het maken van een rapport <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Een aangepast rapport maken</a>.</p> </td> 
+        <td> <p>[!UICONTROL Budgeted Hour] verslag</p><p>De [!UICONTROL Budgeted Hour] -object in het rapport Boedgeted Hour verwijst naar informatie die betrekking heeft op een vervangen hulpmiddel voor middelenbeheer. Alleen de "[!UICONTROL Bud. Hours]" in dit verslag wordt verwezen naar de in de [!UICONTROL Resource Planner] of de [!UICONTROL Resource Budgeting] gebied van het project [!UICONTROL Business Case]. </p> <p>Raadpleeg het artikel voor meer informatie over het maken van een rapport <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Een aangepast rapport maken</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -377,7 +377,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <td> <p>Dit is de kosten verbonden aan de uren die u, als Manager van het Middel, begroting voor uw baanrollen voor het werk dat zij aan projecten moeten voltooien. </p> <p>De [!UICONTROL Budgeted Labor Cost] in een projectverslag wordt de volgende formule gebruikt:</p> <p><code style="font-style: normal;">[!UICONTROL Budgeted Labor Cost] = SUM([!UICONTROL Job Role Cost] per [!UICONTROL Hour] * [!UICONTROL Budgeted Hours] per [!UICONTROL Job Role])</code> </p> <p>Dit veld kan naar het volgende verwijzen:</p> 
     <ul> 
      <li> <p>De arbeidskosten in de [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case] of in de [!UICONTROL Resource Planner] die worden geassocieerd met de kosten van baanrollen op een project. Voor informatie over het berekenen van de [!UICONTROL Budgeted Labor Cost], zie het artikel <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">[!UICONTROL Understand Budgeted Labor Cost] en [!UICONTROL Budgeted Hours] voor projecten</a></p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>De arbeidskosten in de [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case] die de [!UICONTROL People Costs] geraamd in een initiatief dat verband houdt met het project van het [!DNL Scenario Planner] wanneer u de Planner van het Scenario gebruikt om uw projectmiddelen te begroten. Voor informatie over initiatieven raadpleegt u <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Overzicht van initiatieven in het scenario Planner</a>. </p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">De [!DNL Scenario Planner] overzicht</a>. </p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>De arbeidskosten in de [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case] die de [!UICONTROL People Costs] geraamd in een initiatief dat verband houdt met het project van het [!DNL Scenario Planner] wanneer u de Planner van het Scenario gebruikt om uw projectmiddelen te begroten. Zie voor informatie over initiatieven <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Overzicht van initiatieven in het scenario Planner</a>. </p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">De [!DNL Scenario Planner] overzicht</a>. </p> </li> 
      <p>Deze wordt in de volgende gebieden onder de volgende namen weergegeven:</p>
    <ul>
    <li><strong>[!UICONTROL Budgeted Labor Cost]</strong>: in de [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case].
@@ -532,11 +532,11 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Change Order]</td> 
-   <td> <p>Een van de [!UICONTROL Issue] typen, waarbij doorgaans wordt aangegeven dat een ongeplande hoeveelheid werk moet worden verricht voordat het project kan worden voltooid.</p> <p>Voor meer informatie over [!UICONTROL Issue] typen, raadpleegt u de sectie "Standaarduitgavetypen" in het artikel <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md" class="MCXref xref">Standaardtypen voor problemen aanpassen</a>.</p> </td> 
+   <td> <p>Een van de [!UICONTROL Issue] typen, waarbij doorgaans wordt aangegeven dat een ongeplande hoeveelheid werk moet worden verricht voordat het project kan worden voltooid.</p> <p>Voor meer informatie over [!UICONTROL Issue] typen, raadpleegt u de sectie "Standaarduitgavetypen" in het artikel <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md" class="MCXref xref">Standaardobjecttypen aanpassen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Child Task]</td> 
-   <td>Een taak die een [!UICONTROL Subtask] van [!UICONTROL Parent Task] ([!UICONTROL Summary Task]).</td> 
+   <td>Een taak die [!UICONTROL Subtask] van een [!UICONTROL Parent Task] ([!UICONTROL Summary Task]).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Children]</td> 
@@ -587,7 +587,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Condition]</td> 
-   <td> <p>Dit is een visuele weergave van de voortgang van een taak, kwestie of project.</p> <p>Voor projecten, kan de voorwaarde manueel door de projecteigenaar worden geplaatst of het kan automatisch plaatsen door [!DNL Workfront], op basis van de stand van de voortgang van het project. </p> <p>De mogelijke waarden voor de projectvoorwaarde zijn:</p> 
+   <td> <p>Dit is een visuele weergave van de voortgang van een taak, kwestie of project.</p> <p>Voor projecten kan de voorwaarde handmatig worden ingesteld door de eigenaar van het project of automatisch worden ingesteld door [!DNL Workfront], op basis van de stand van de voortgang van het project. </p> <p>De mogelijke waarden voor de projectvoorwaarde zijn:</p> 
     <ul> 
      <li>[!UICONTROL On Target]</li> 
      <li>[!UICONTROL At Risk]</li> 
@@ -611,11 +611,11 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Condition Update]</td> 
-   <td> <p>Dit gebied toont de huidige staat van taken, projecten of kwesties. Deze optie toont de meest recente updates die de eigenaars van taken, projecten of problemen hebben verstrekt in [!UICONTROL Update Status] , samen met de nieuwe voorwaarde.</p> <p>Opmerkingen die zijn gemaakt bij updates van voorwaarden worden niet weergegeven in het dialoogvenster [!UICONTROL Condition Update] kolom; alleen de hoofdupdate wordt weergegeven.</p> </td> 
+   <td> <p>Dit gebied toont de huidige staat van taken, projecten of kwesties. Deze optie toont de meest recente updates die de eigenaars van taken, projecten of problemen hebben verstrekt in [!UICONTROL Update Status] en de nieuwe voorwaarde.</p> <p>Opmerkingen die zijn gemaakt bij updates van voorwaarden worden niet weergegeven in het dialoogvenster [!UICONTROL Condition Update] kolom; alleen de hoofdupdate wordt weergegeven.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
-   <td> <p>Als u een [!UICONTROL Task Constraint] die gekoppeld is aan een specifieke datum, zoals [!UICONTROL Must Start On], wordt die specifieke datum [!UICONTROL Constraint Date] van de taak.</p> <p>De volgende taakbeperkingen werken de [!UICONTROL Constraint Date] veld:</p> 
+   <td> <p>Als u een [!UICONTROL Task Constraint] die gekoppeld is aan een specifieke datum, zoals [!UICONTROL Must Start On], dan wordt die specifieke datum [!UICONTROL Constraint Date] van de taak.</p> <p>De volgende taakbeperkingen werken de [!UICONTROL Constraint Date] veld:</p> 
     <ul> 
      <li>[!UICONTROL Must Start On]</li> 
      <li>[!UICONTROL Must Finish On]</li> 
@@ -784,7 +784,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Duration Type]</td> 
-   <td> <p>Een taakgebied dat erop wijst hoe het werk dat wordt vereist om de taak te voltooien aan de wijzers over de taakduur wordt toegewezen. Het vertegenwoordigt de relatie tussen de [!UICONTROL Duration] van de taak [!UICONTROL Work Required]en de hoeveelheid tijd, of [!UICONTROL Allocation], moeten de toegewezen middelen aan de taak besteden om deze te voltooien. </p> <p>Dit veld wordt weergegeven op het tabblad [!UICONTROL Details] tabblad van een taak. </p> <p>Optie is:</p> 
+   <td> <p>Een taakgebied dat erop wijst hoe het werk dat wordt vereist om de taak te voltooien aan de wijzers over de taakduur wordt toegewezen. Het vertegenwoordigt de relatie tussen de [!UICONTROL Duration] van de taak [!UICONTROL Work Required]en de hoeveelheid tijd, of [!UICONTROL Allocation], moeten de toegewezen middelen aan de taak besteden om deze te voltooien. </p> <p>Dit veld wordt weergegeven op het tabblad [!UICONTROL Details] taaktabblad. </p> <p>Optie is:</p> 
     <ul> 
      <li>[!UICONTROL Calculated assignment]</li> 
      <li>[!UICONTROL Calculated Work]</li> 
@@ -803,7 +803,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Elapsed Time]</td> 
-   <td> <p>[!UICONTROL Elapsed time] is een tijdseenheid voor een taak [!UICONTROL Duration]. Het is de tijd tussen [!UICONTROL Planned Start Date] en de [!UICONTROL Planned Completion Date] van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen. </p> <p>[!DNL Workfront] ondersteunt de volgende verstreken tijdeenheden voor de taakduur:</p> 
+   <td> <p>[!UICONTROL Elapsed time] is een tijdseenheid voor een taak [!UICONTROL Duration]. De tijd tussen [!UICONTROL Planned Start Date] en de [!UICONTROL Planned Completion Date] van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen. </p> <p>[!DNL Workfront] ondersteunt de volgende verstreken tijdeenheden voor de taakduur:</p> 
     <ul> 
      <li> <p>[!UICONTROL Elapsed Minutes]</p> </li> 
      <li> <p>[!UICONTROL Elapsed Hours]</p> </li> 
@@ -830,7 +830,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Event Handler]</td> 
-   <td>Geautomatiseerde taken die plaatsvinden wanneer gebeurtenissen plaatsvinden. Een veelvoorkomend voorbeeld is een geautomatiseerde e-mailmelding.</td> 
+   <td>Geautomatiseerde taken die plaatsvinden wanneer gebeurtenissen plaatsvinden. Een veelvoorkomend voorbeeld is een geautomatiseerd e-mailbericht.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Event notification]</td> 
@@ -861,7 +861,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
 
 <p>Bij meer tekstrapportage verwijzen velden naar de objecten of hun informatie zoals deze in de database worden weergegeven.</p>
    <p>Soms is de naam die u in de gebruikersinterface ziet anders dan de naam van het veld in de database. 'issue' is bijvoorbeeld de naam van het object in de Workfront-interface, maar 'opTask' is de naam van het object (of het veld) in de Workfront-database. </p> 
-   <p> Het is belangrijk om het gebied te gebruiken aangezien het in het gegevensbestand wanneer het schrijven van een tekst-wijze rapport, mening, filter, of groepering verschijnt, of wanneer het creëren van een berekend gebied.</p>
+   <p> Het is belangrijk om het gebied te gebruiken zoals het in het gegevensbestand wanneer het schrijven van een tekst-wijze rapport, mening, filter, of groepering verschijnt, of wanneer het creëren van een berekend gebied.</p>
 
 <p>Zie voor meer informatie <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> en <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Overzicht van de tekstmodus</a>.</p>
 
@@ -871,7 +871,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
 
 <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
-   <td> <p>Één van de belangrijkste bouwstenen van een rapport of een lijstelement dat bepaalt welke informatievertoningen op het scherm. Voor meer informatie over rapportelementen raadpleegt u <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementen rapporteren: filters, weergaven en groepen</a>.</p> <p>De filter bepaalt de resultaten die in een rapport of op een [!DNL Workfront] , zoals projecten, taken of problemen.</p> </td> 
+   <td> <p>Één van de belangrijkste bouwstenen van een rapport of een lijstelement dat bepaalt welke informatievertoningen op het scherm. Zie voor meer informatie over rapportelementen <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementen rapporteren: filters, weergaven en groepen</a>.</p> <p>De filter bepaalt de resultaten die in een rapport of op een [!DNL Workfront] , zoals projecten, taken of problemen.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Financial Work Management]</td> 
@@ -883,7 +883,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Fixed Revenue]</td> 
-   <td>U kunt een vast bedrag van opbrengst voor een project bepalen. Dit maakt deel uit van het [!UICONTROL Planned Revenue] van het project dat de hoeveelheid geld vertegenwoordigt die u zou kunnen verkrijgen als u het project voltooit. Voor informatie over inkomsten raadpleegt u <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overzicht van facturering en inkomsten</a>. </td> 
+   <td>U kunt een vast bedrag van opbrengst voor een project bepalen. Dit maakt deel uit van het [!UICONTROL Planned Revenue] van het project dat de hoeveelheid geld vertegenwoordigt die u zou kunnen verkrijgen als u het project voltooit. Zie voor informatie over inkomsten <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overzicht van facturering en inkomsten</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Flags]</td> 
@@ -907,7 +907,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <li> Gebruikerslijsten en -rapporten </li> </ul>
 
 <p>De [!UICONTROL FTE] moet een decimaal getal zijn tot en met 1, en mag niet 0 zijn. </p>
-   <p> An [!UICONTROL FTE] van 1 (dit is de standaardinstelling voor [!UICONTROL FTE] veld, zoals gedefinieerd in hun profiel) betekent dat een bron (gebruiker of rol) het volledige aantal uren werkt, op basis van het schema dat de beschikbaarheid ervan berekent. </p>
+   <p> An [!UICONTROL FTE] van 1 (dit is de standaardwaarde voor [!UICONTROL FTE] veld, zoals gedefinieerd in hun profiel) betekent dat een bron (gebruiker of rol) het volledige aantal uren werkt, op basis van het schema dat de beschikbaarheid ervan berekent. </p>
    <p>Uw Workfront-beheerder bepaalt welk schema wordt gebruikt om de beschikbaarheid van de gebruiker te bepalen.  </p>
    <ul>
    <li> Wanneer de [!UICONTROL Default Schedule] wordt gebruikt, gebruikt Workfront de [!UICONTROL FTE] van de gebruiker in hun profiel wordt gevonden om beschikbaarheid te berekenen. </li>
@@ -917,7 +917,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <p>Voor meer informatie over het maken van programma's in [!DNL Workfront], zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>. </p>
 
 <p><b>OPMERKING</b></p>
-   <p>Voor alle berekeningen in de [!UICONTROL Scenario Planner]Workfront gebruikt de volgende waarde: 1 [!UICONTROL FTE] = 8 uur.</p>
+   <p>Voor alle berekeningen in de [!UICONTROL Scenario Planner], Workfront gebruikt de volgende waarde: 1 [!UICONTROL FTE] = 8 uur.</p>
    <p>Zie voor meer informatie <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Aan de slag met de [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
@@ -951,7 +951,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td><p>Er zijn twee concepten van doelstellingen in [!DNL Workfront]: </p> 
     <ul> 
      <li> <p><b>Projectdoelen</b>: Een reeks bedrijfsdoelstellingen die door de relevante belanghebbenden van een project zijn overeengekomen. De doelstellingen van het project maken deel uit van het BedrijfsGeval van een project. </p> <p>U kunt projectdoelstellingen niet in lijsten of rapporten tonen maar u kunt tot hen door API toegang hebben. </p> <p>Voor informatie over de projectdoelstellingen van het BedrijfsGeval, zie <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md">Zakelijke hoofddoelen maken </a>. </p> </li> 
-     <li> <p><b>Strategische doelstellingen</b>: Een strategisch doel is een doel dat u maakt om uw werkstrategie voor een bepaalde periode te plannen. U kunt deze typen doelen maken met [!DNL Workfront Goals]. Uw organisatie moet een extra licentie aanschaffen en u moet toegang hebben tot deze functie om strategische doelen te kunnen maken. [!DNL Workfront Goals] alleen beschikbaar zijn met een extra licentie.</p> 
+     <li> <p><b>Strategische doelstellingen</b>: Een strategisch doel is een doel dat u kunt creëren om uw werkstrategie voor een specifieke periode te plannen. U kunt deze typen doelen maken met [!DNL Workfront Goals]. Uw organisatie moet een extra licentie aanschaffen en u moet toegang hebben tot deze functie om strategische doelen te kunnen maken. [!DNL Workfront Goals] alleen beschikbaar zijn met een extra licentie.</p> 
      <p>Zie voor meer informatie <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] overzicht </a>. </p> 
      <p>U kunt strategische doelstellingen in een doel of een projectrapport tonen en tot hen toegang hebben door API. </p> </li> 
     </ul> </td> 
@@ -971,7 +971,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Global Interface Preferences]</td> 
-   <td>Interface-instellingen die van invloed zijn op alle gebruikers. [!UICONTROL Global Interface Preferences] kan worden overschreven door de [!UICONTROL User Interface Preferences].</td> 
+   <td>Interfacemontages die alle gebruikers beïnvloeden. [!UICONTROL Global Interface Preferences] kan door [!UICONTROL User Interface Preferences].</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Group]</td> 
@@ -979,7 +979,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Group Administrator]</td> 
-   <td> <p>Gebruikers die de objecten, toegang en gebruikers van bepaalde gebruikersgroepen beheren.</p> <p> In een [!UICONTROL Group] rapport, toont dit gebied de namen van de gebruikers aangewezen als [!UICONTROL Group Administrators] in de groep. Voor meer informatie over de Beheerders van de Groep, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a>.</p> </td> 
+   <td> <p>Gebruikers die de objecten, toegang en gebruikers van bepaalde gebruikersgroepen beheren.</p> <p> In een [!UICONTROL Group] rapport, toont dit gebied de namen van de gebruikers aangewezen als [!UICONTROL Group Administrators] in de groep. Zie voor meer informatie over groepsbeheerders <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Group with Administration Access]</td> 
@@ -1003,7 +1003,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr>
 
 <tr> 
-   <td>Uur-status</td> 
+   <td>Uur</td> 
    <td> <p>An attribute set by Workfront for the Actual Hours that users log for tasks, issues, or projects. </p>
 
 Uur-items kunnen een van de volgende statussen in Workfront hebben:
@@ -1011,8 +1011,8 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <li><b>Verzonden</b>: de uren zijn het programma geopend op een project, een taak, of een kwestie. Ze maken deel uit van een factureringsrecord of worden nog niet toegevoegd aan een factureringsrecord.</li>
    <li><b>Goedgekeurd</b>: de uren zijn geregistreerd en zijn goedgekeurd door de eigenaar van het project. Ze maken deel uit van een factureringsrecord of worden nog niet toegevoegd aan een factureringsrecord.</li> 
    <li><b>Niet goedgekeurd</b>: de uren zijn geregistreerd en verworpen door de eigenaar van het project. Ze maken deel uit van een factureringsrecord of worden nog niet toegevoegd aan een factureringsrecord.</li>
-   <li><b>Gefactureerd</b>: de uren zijn geregistreerd, aan een factureringsverslag toegevoegd, en de status van het factureringsverslag is gemerkt als Gevonden. Zij hoefden niet te worden goedgekeurd door de eigenaar van het project.</li>
-   <li><b>Gefactureerd en goedgekeurd</b>: de uren zijn geregistreerd, goedgekeurd door de eigenaar van het project, en de status van de factureringsrecord is gemarkeerd als Met factuur.</li>
+   <li><b>Gefactureerd</b>: de uren zijn geregistreerd, toegevoegd aan een factureringsrecord en de status van de factureringsrecord is gemarkeerd als Met factuur. Zij hoefden niet te worden goedgekeurd door de eigenaar van het project.</li>
+   <li><b>Gefactureerd en goedgekeurd</b>: de uren zijn geregistreerd, goedgekeurd door de eigenaar van het project en de status van de factureringsrecord is gemarkeerd als Met factuur.</li>
    </ul>
 
 
@@ -1043,11 +1043,11 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Inherited Access]</td> 
-   <td>Functie voor delen waarmee toegang kan worden doorgegeven van object naar een ander object. Bijvoorbeeld, erven de de erfenistoegang van de projectgebruiker in programma en portefeuillerecords wordt bepaald die.</td> 
+   <td>Functie voor delen waarmee toegang kan worden doorgegeven van object naar een ander object. Bijvoorbeeld, erven de de erfenistoegang van de projectgebruiker in programma en portefeuillerecords wordt bepaald.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Initiative]</td> 
-   <td> <p>In de [!DNL Workfront Scenario Planner]U kunt een plan opsplitsen in verschillende initiatieven om het beheer van het plan te vergemakkelijken. <span>U kunt een [!UICONTROL Initiative] rapport en u kunt tot [!UICONTROL Initiative] informatie in een [!UICONTROL Project] verslag.</span></p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">De [!DNL Scenario Planner] overzicht</a>. </p> <p>De [!DNL Initiative] het rapport is niet zichtbaar in uw [!DNL Workfront] -instantie tenzij uw bedrijf een [!DNL Workfront Scenario Planner] licentie. U hebt geen toegang tot [!UICONTROL Initiatives] via de API.</p> </td> 
+   <td> <p>In de [!DNL Workfront Scenario Planner], kunt u een plan opsplitsen in verschillende initiatieven om het beheer van het plan te vergemakkelijken. <span>U kunt een [!UICONTROL Initiative] rapport en u kunt tot [!UICONTROL Initiative] informatie in een [!UICONTROL Project] verslag.</span></p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">De [!DNL Scenario Planner] overzicht</a>. </p> <p>De [!DNL Initiative] het rapport is niet zichtbaar in uw [!DNL Workfront] -instantie tenzij uw bedrijf een [!DNL Workfront Scenario Planner] licentie. U hebt geen toegang tot [!UICONTROL Initiatives] via de API.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Initiative Job Role]</span> </td> 
@@ -1063,7 +1063,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Last Published Date]</td> 
-   <td> <p>Een veld in een [!UICONTROL Initiative], [!UICONTROL Initiative Job Role], en [!UICONTROL Project] rapporten die de datum tonen dat een planinitiatief voor het laatst aan een project werd gepubliceerd. U kunt initiatieven publiceren om projecten tot stand te brengen of projecten bij te werken verbonden aan de initiatieven.</p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Scenario Planner] overzicht</a>. </p> <p><span>Voor informatie over publicatieinitiatieven raadpleegt u</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publiceer scenario's om projecten in tot stand te brengen en bij te werken [!DNL Workfront Scenario Planner]</a>. Dit veld is niet zichtbaar in uw [!DNL Workfront] -instantie tenzij uw bedrijf een [!DNL Workfront Scenario Planner] licentie.</p> </td> 
+   <td> <p>Een veld in een [!UICONTROL Initiative], [!UICONTROL Initiative Job Role], en [!UICONTROL Project] rapporten die de datum tonen dat een planinitiatief voor het laatst aan een project werd gepubliceerd. U kunt initiatieven publiceren om projecten tot stand te brengen of projecten bij te werken met betrekking tot de initiatieven.</p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Scenario Planner] overzicht</a>. </p> <p><span>Zie voor informatie over publicatieinitiatieven</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publiceer scenario's om projecten in te stellen en bij te werken [!DNL Workfront Scenario Planner]</a>. Dit veld is niet zichtbaar in uw [!DNL Workfront] -instantie tenzij uw bedrijf een [!DNL Workfront Scenario Planner] licentie.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Inline Search]</td> 
@@ -1080,7 +1080,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Issue]</td> 
-   <td> <p>Een ongeplande het werkpunt dat gewoonlijk wijst op een probleem verhinderend de voltooiing van een taak of een project. Het wordt getrigeerd en geëvalueerd voor verdere werkzaamheden</p> <p>An [!UICONTROL Issue] kan ook een [!UICONTROL Help Desk] verzoek. [!UICONTROL Change Orders], [!UICONTROL Requests], en [!UICONTROL Bugs] ook [!UICONTROL Issues].</p> </td> 
+   <td> <p>Een niet-gepland het werkpunt dat gewoonlijk wijst op een probleem verhinderend de voltooiing van een taak of een project. Het wordt getrigeerd en geëvalueerd voor verdere werkzaamheden</p> <p>An [!UICONTROL Issue] kan ook een [!UICONTROL Help Desk] verzoek. [!UICONTROL Change Orders], [!UICONTROL Requests], en [!UICONTROL Bugs] ook [!UICONTROL Issues].</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Issue Management]</td> 
@@ -1111,11 +1111,11 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
  <tbody> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Job Role]</td> 
-   <td> <p>Wordt gebruikt om de dagelijkse functies en verantwoordelijkheden van een gebruiker te identificeren. De rollen van de baan kunnen aan werkpunten worden toegewezen om de vereiste vaardigheid te identificeren nodig om een het werkproces te voltooien zonder het aan een specifieke gebruiker toe te wijzen. </p> <p>Een gebruiker kan meerdere rollen hebben. Voorbeelden zijn Grafische ontwerper of Consultant.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> </td> 
+   <td> <p>Wordt gebruikt om de dagelijkse functies en verantwoordelijkheden van een gebruiker te identificeren. De rollen van de baan kunnen aan de werkpunten worden toegewezen om de vereiste vaardigheid te identificeren nodig om een het werkproces te voltooien zonder het aan een specifieke gebruiker toe te wijzen. </p> <p>Een gebruiker kan meerdere rollen hebben. Voorbeelden zijn Grafische ontwerper of Consultant.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Journal Entry]</p> </td> 
-   <td> <p>Een te rapporteren object dat u informatie geeft over systeemupdates voor bijgehouden velden die worden weergegeven in het dialoogvenster [!UICONTROL Updates] gebied met projecten, taken, problemen en andere objecten.</p> <p>Zie voor meer informatie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Verslag over de [!UICONTROL Updates] gebied</a>.</p> </td> 
+   <td> <p>Een te rapporteren object dat u informatie geeft over systeemupdates voor bijgehouden velden die in het dialoogvenster [!UICONTROL Updates] gebied met projecten, taken, problemen en andere objecten.</p> <p>Zie voor meer informatie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Verslag over de [!UICONTROL Updates] gebied</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban Flag]</td> 
@@ -1131,7 +1131,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Lag Types]</td> 
-   <td> <p>De methode voor de berekening van de [!UICONTROL Lag]. Het kan zijn:</p> 
+   <td> <p>De methode voor de berekening van [!UICONTROL Lag]. Het kan zijn:</p> 
     <ul> 
      <li>[!UICONTROL Days] (werkdagen)</li> 
      <li>[!UICONTROL Calendar Days] (feestdagen negeren)</li> 
@@ -1170,7 +1170,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Layout Template]</td> 
-   <td>Gedefinieerd door de systeembeheerder of groepsbeheerder om de tabbladen en rapporten te identificeren die worden weergegeven in de werkruimte van een gebruiker.</td> 
+   <td>Gedefinieerd door de systeembeheerder of groepsbeheerder om de tabbladen en rapporten te identificeren die worden weergegeven in de werkruimte van een bepaalde gebruiker.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Layout Type]</td> 
@@ -1269,7 +1269,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Milestone Task]</td> 
-   <td>Een taak gemarkeerd om een te meten te melden gebeurtenis aan te geven.</td> 
+   <td>Een taak die is gemarkeerd om een te meten te melden gebeurtenis aan te geven.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Module]</td> 
@@ -1281,7 +1281,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL My Home Team]</td> 
-   <td> <p>Wanneer hiernaar wordt verwezen in filters, wordt in dit veld een van de gebruikers weergegeven die bij het [!UICONTROL Home Team] van de aangemelde gebruiker, of het werkpunten die aan [!UICONTROL Home Team] van de aangemelde gebruiker. </p> <p>Wij adviseren gebruikend dit gebied in een filter om rapporten generischer te maken wanneer het delen van hen met andere gebruikers. Deze manier, kunt u slechts één rapport bouwen dat verschillende informatie afhankelijk van zal tonen wie het programma opent om het te bekijken, aangezien de informatie altijd voor de het programma geopende gebruiker wordt aangepast. </p> </td> 
+   <td> <p>Wanneer hiernaar wordt verwezen in filters, wordt in dit veld een van de gebruikers weergegeven die bij het [!UICONTROL Home Team] van de aangemelde gebruiker of de aan de [!UICONTROL Home Team] van de aangemelde gebruiker. </p> <p>Wij adviseren gebruikend dit gebied in een filter om rapporten generischer te maken wanneer het delen van hen met andere gebruikers. Deze manier, kunt u slechts één rapport bouwen dat verschillende informatie afhankelijk van zal tonen wie het programma opent om het te bekijken, aangezien de informatie altijd voor de het programma geopende gebruiker wordt aangepast. </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Naming convention]</td> 
@@ -1383,7 +1383,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td><span>[!UICONTROL Override Currency]</span> </td> 
    <td> 
     <div> 
-     <p>In een [!UICONTROL Job Role] rapport : dit is de valuta die gekoppeld is aan een functie . Het is een opheffing van de [!UICONTROL Base Currency] in de [!UICONTROL Setup] door de [!DNL Workfront] beheerder. </p> 
+     <p>In een [!UICONTROL Job Role] rapport : dit is de valuta die gekoppeld is aan een functie . Het is een opheffing van de [!UICONTROL Base Currency] , zoals vastgesteld in [!UICONTROL Setup] door de [!DNL Workfront] beheerder. </p> 
      <p>Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> 
     </div> </td> 
   </tr> 
@@ -1442,7 +1442,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent]</td> 
-   <td>In een rapport bevat dit veld informatie over het bovenliggende element van het object. Bijvoorbeeld in een [!UICONTROL issue] rapport, zou het informatie over de taak of het project kunnen tonen dat de kwestie onder het programma wordt geopend; in een taakrapport, zou het informatie over de directe oudertaak of over het project kunnen tonen. Meer informatie over de objecten waarin bovenliggende elementen kunnen staan [!DNL Workfront], zie de sectie "Interdependentie en hiërarchie van objecten" in het artikel <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten begrijpen in [!DNL Adobe Workfront]</a>. </td> 
+   <td>In een rapport bevat dit veld informatie over het bovenliggende element van het object. In een [!UICONTROL issue] rapport, zou het informatie over de taak of het project kunnen tonen dat de kwestie onder het programma wordt geopend; in een taakrapport, zou het informatie over de directe oudertaak of over het project kunnen tonen. Meer informatie over de objecten waarin bovenliggende elementen kunnen staan [!DNL Workfront], zie de sectie "Interdependentie en hiërarchie van objecten" in het artikel <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten begrijpen in [!DNL Adobe Workfront]</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent Lag]</td> 
@@ -1484,7 +1484,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Plan] (in de [!DNL Scenario Planner])</td> 
-   <td> <p>Een plan is het belangrijkste voorwerp wanneer het werken met [!DNL Workfront] Scenario Planner. U kunt de strategie voor de nabije en lange toekomst van uw bedrijf schetsen en elk resultaat op hoog niveau identificeren en het toevoegen als plan aan [!DNL Workfront] Scenario Planner. </p> <p>U kunt niet weergeven [!DNL Scenario Planner] de plannen in een rapport en u kunt niet tot hen door [!DNL Workfront] API. </p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Scenario Planner] overzicht</a>. </p> </td> 
+   <td> <p>Een plan is het belangrijkste voorwerp wanneer het werken met [!DNL Workfront] Scenario Planner. U kunt de strategie voor de nabije en lange toekomst van uw bedrijf schetsen en elk resultaat op hoog niveau identificeren en het als plan toevoegen aan [!DNL Workfront] Scenario Planner. </p> <p>U kunt niet weergeven [!DNL Scenario Planner] de plannen in een rapport en u kunt niet tot hen door [!DNL Workfront] API. </p> <p>De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Scenario Planner] overzicht</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
@@ -1496,7 +1496,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Planned Budgeted Hours]</td> 
-   <td> <p>In een [!UICONTROL Budgeted Hour] rapport, dit toont het aantal uren die voor Projecten of worden begroot [!UICONTROL Job Roles] in de [!UICONTROL Resource Planner]. </p> <p>Voor informatie over het opnemen van Projecten of Rollen in [!UICONTROL Resource Planner], zie het artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Begrotingsmiddelen in de [!UICONTROL Resource Planner] met de [!UICONTROL Project] en [!UICONTROL Role] views</a>. Voor informatie over de [!UICONTROL Budgeted Hours] rapport, zie het artikel <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Rapport: Budgeted Hour</a>.</p> </td> 
+   <td> <p>In een [!UICONTROL Budgeted Hour] rapport, dit toont het aantal uren dat voor Projecten of [!UICONTROL Job Roles] in de [!UICONTROL Resource Planner]. </p> <p>Voor informatie over het opnemen van Projecten of Rollen in [!UICONTROL Resource Planner], zie het artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Begrotingsmiddelen in de [!UICONTROL Resource Planner] met de [!UICONTROL Project] en [!UICONTROL Role] views</a>. Voor informatie over de [!UICONTROL Budgeted Hours] rapport, zie het artikel <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Verslag: Budgeted Hour</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
@@ -1508,11 +1508,11 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
-   <td> <p>Een totaal van de [!UICONTROL Planned Labor Cost] en de [!UICONTROL Planned Expense Cost] van het project. Hieronder vallen niet de [!UICONTROL Planned Risk Cost] over het project.  </p> </td> 
+   <td> <p>Een totaal van [!UICONTROL Planned Labor Cost] en de [!UICONTROL Planned Expense Cost] van het project. Hieronder vallen niet de [!UICONTROL Planned Risk Cost] over het project.  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
-   <td> <p>Een taak [!UICONTROL Planned Duration] is meestal hetzelfde als de taak [!UICONTROL Duration]. Dit is het verschil in dagen tussen de [!UICONTROL Planned Start] en de [!UICONTROL Planned Completion Dates] van de taak. </p> <p>Als de taak een [!UICONTROL Duration] Type [!UICONTROL Effort Driven]de [!UICONTROL Planned Duration] kan verschillen van [!UICONTROL Duration] van de taak, gebaseerd op hoeveel middelen u aan de taak toewijst. </p> <p>Als een taak bijvoorbeeld een [!UICONTROL Duration] Type [!UICONTROL Effort Driven] heeft een [!UICONTROL Duration] van 3 dagen en u wijst één middel met een volledig tijdschema aan de taak toe, [!UICONTROL Planned Duration] is ook drie dagen. Als u drie middelen met een volledig tijdschema aan de zelfde taak toewijst, [!UICONTROL Duration] blijft 3 dagen, maar de [!UICONTROL Planned Duration] wordt 1 dag. De [!UICONTROL Planned Duration] wijzigt ook de [!UICONTROL Planned Start] en [!UICONTROL Planned Completion] datum van de taak , om de nieuwe [!UICONTROL Planned Duration]. Hierdoor wordt ook de tijdlijn van het project beïnvloed. </p> <p>Voor meer informatie over het verschil tussen [!UICONTROL Duration] en [!UICONTROL Planned Duration] zie het artikel voor taken <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Verschil tussen [!UICONTROL Planned Duration] en [!UICONTROL Duration] voor taken</a>.</p> <p>Projecten en problemen hebben geen [!UICONTROL Planned Duration]. </p> </td> 
+   <td> <p>Een taak [!UICONTROL Planned Duration] is meestal hetzelfde als de taak [!UICONTROL Duration]. Dit is het verschil in dagen tussen de [!UICONTROL Planned Start] en de [!UICONTROL Planned Completion Dates] van de taak. </p> <p>Als de taak een [!UICONTROL Duration] Type [!UICONTROL Effort Driven]de [!UICONTROL Planned Duration] kan verschillen van [!UICONTROL Duration] van de taak, gebaseerd op hoeveel middelen u aan de taak toewijst. </p> <p>Bijvoorbeeld als een taak met een [!UICONTROL Duration] Type [!UICONTROL Effort Driven] heeft een [!UICONTROL Duration] van 3 dagen en u wijst één middel met een volledig tijdschema aan de taak toe, [!UICONTROL Planned Duration] is ook drie dagen. Als u drie middelen met een volledig tijdschema aan de zelfde taak toewijst, [!UICONTROL Duration] blijft 3 dagen, maar de [!UICONTROL Planned Duration] wordt 1 dag. De [!UICONTROL Planned Duration] wijzigt ook de [!UICONTROL Planned Start] en [!UICONTROL Planned Completion] datum van de taak , om de nieuwe [!UICONTROL Planned Duration]. Hierdoor wordt ook de tijdlijn van het project beïnvloed. </p> <p>Voor meer informatie over het verschil tussen [!UICONTROL Duration] en [!UICONTROL Planned Duration] zie het artikel voor taken <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Verschil tussen [!UICONTROL Planned Duration] en [!UICONTROL Duration] voor taken</a>.</p> <p>Projecten en problemen hebben geen [!UICONTROL Planned Duration]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration Minutes]</td> 
@@ -1521,7 +1521,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Planned Expense Cost]</td> 
    <td> <p>De som van de [!UICONTROL Planned Amounts] voor alle uitgaven die voor een project of een taak worden geregistreerd.</p> <p><b>VOORBEELD</b></p>
-   <p>Als u een uitgave voor Taak 1 creeert en $600.00 in ingaat in [!UICONTROL Planned Amount] in het veld [!UICONTROL Planned Expense Cost] hiervoor is $ 600.00 . </p> 
+   <p>Als u een uitgave voor Taak 1 creeert en $600.00 in ingaat [!UICONTROL Planned Amount] in het veld [!UICONTROL Planned Expense Cost] hiervoor is $ 600.00 . </p> 
    <p>Voor een project: [!DNL Workfront] gebruikt de volgende formule om te berekenen [!UICONTROL Planned Expense Cost]:</p> <p><code>Project [!UICONTROL Planned Expense Cost] = SUM (All Project [!UICONTROL Planned Expense Costs]) + SUM (All Tasks [!UICONTROL Planned Expense Costs])</code> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (Drafting this because not sure if this is correct anymore)</p>
@@ -1529,9 +1529,9 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Hours]</td> 
-   <td> <p>Dit veld wordt weergegeven in het dialoogvenster [!UICONTROL projects], [!UICONTROL tasks], en geeft gebieden, rapporten voor projecten, taken, of kwesties, en middelen beheersinstrumenten zoals [!UICONTROL Resource Planner], [!UICONTROL Workload Balancer] en de [!UICONTROL Utilization] verslag. </p> <p>Het toont de hoeveelheid uren die de Eigenaar van het Project schat dat elke taak of kwestie zou moeten voltooien. Voor projecten is het doorgaans een opsomming van [!UICONTROL Planned Hours] van de taken in het project. </p> <p>De [!UICONTROL Planned Hours] in het veld kan andere informatie worden weergegeven, afhankelijk van waar u deze weergeeft. Voor informatie over geplande uren raadpleegt u <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Overzicht van geplande uren</a>.</p> <p>Geplande uren worden in minuten opgeslagen in de [!DNL Workfront] database. Zorg er bij het schrijven van berekeningen met dit veld voor dat de uren als minuten worden weergegeven.<br></p> <p>Door gebrek, worden de Geplande Uren gelijkelijk verdeeld over alle dagen binnen de duur van een het werkpunt en ook voor alle middelen die aan de taak worden toegewezen. De gebruikers kunnen de dagelijkse hoeveelheid Geplande Uren voor een het werkpunt of de individuele Geplande Uren voor elke toegewezen persoon bijwerken.</p> <p>Het bijwerken van dit gebied verschilt voor projecten, taken, en kwesties: </p> 
+   <td> <p>Dit veld wordt weergegeven in het dialoogvenster [!UICONTROL projects], [!UICONTROL tasks], en geeft gebieden, rapporten voor projecten, taken, of kwesties, en middelen beheersinstrumenten zoals [!UICONTROL Resource Planner], [!UICONTROL Workload Balancer] en de [!UICONTROL Utilization] verslag. </p> <p>Het toont de hoeveelheid uren die de Eigenaar van het Project schat dat elke taak of kwestie zou moeten voltooien. Voor projecten is het doorgaans een opsomming van de [!UICONTROL Planned Hours] van de taken in het project. </p> <p>De [!UICONTROL Planned Hours] in het veld kan andere informatie worden weergegeven, afhankelijk van waar u deze weergeeft. Voor informatie over geplande uren raadpleegt u <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Overzicht van geplande uren</a>.</p> <p>Geplande uren worden in minuten opgeslagen in de [!DNL Workfront] database. Zorg er bij het schrijven van berekeningen met dit veld voor dat de uren als minuten worden weergegeven.<br></p> <p>Door gebrek, worden de Geplande Uren gelijkelijk verdeeld over alle dagen binnen de duur van een het werkpunt en ook voor alle middelen die aan de taak worden toegewezen. De gebruikers kunnen de dagelijkse hoeveelheid Geplande Uren voor een het werkpunt of de individuele Geplande Uren voor elke toegewezen persoon bijwerken.</p> <p>Het bijwerken van dit gebied verschilt voor projecten, taken, en kwesties: </p> 
     <ul> 
-     <li> <p>Voor uitgaven kunt u dit veld handmatig bijwerken. De geplande uren van de uitgave worden niet toegevoegd aan het Geplande Uren van het Project. </p> <p>Tip: In een uitgiftenrapport wordt een van de [!UICONTROL Planned Hours] velden worden vervangen door [!UICONTROL Work] veld. In het veld wordt het aantal geplande uren weergegeven. Zie voor meer informatie het onderwerp "Werk" of "[!UICONTROL Work]"- velden in deze tabel. </p> </li> 
+     <li> <p>Voor uitgaven kunt u dit veld handmatig bijwerken. De geplande uren van de uitgave worden niet toegevoegd aan het Geplande Uren van het Project. </p> <p>Tip: in een uitgifterapport is een van de [!UICONTROL Planned Hours] velden worden vervangen door [!UICONTROL Work] veld. In het veld wordt het aantal geplande uren weergegeven. Zie voor meer informatie het onderwerp "Werk" of "[!UICONTROL Work]"- velden in deze tabel. </p> </li> 
     </ul> 
     <ul> 
      <li> <p>Voor taken kunt u dit veld handmatig bijwerken wanneer de [!UICONTROL Duration Type] van de taak [!UICONTROL Calculated Assignment] of [!UICONTROL Simple]. Dit veld wordt berekend door [!DNL Workfront] wanneer de [!UICONTROL Duration Type] van de taak [!UICONTROL Calculated Work] of [!UICONTROL Effort Driven].<br>Voor informatie over [!UICONTROL Task Duration], zie het artikel <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van taak [!UICONTROL Duration] en [!UICONTROL Duration Type]</a>.</p> </li> 
@@ -1543,11 +1543,11 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Planned Labor Cost]</td> 
    <td> 
-    <p>Voor een taak, het uurtarief van de gebruiker of de rol vermenigvuldigd met het aantal uren die aan de gebruiker of de rol worden toegewezen.</p> <p>Voor een project is het in totaal [!UICONTROL Planned Labor Costs] van alle taken.</p> <p>Of het tarief van de gebruiker of de rol wordt gebruikt hangt van het Type van Kosten af dat voor de bepaalde taak wordt geselecteerd. </p> <p>Zie voor meer informatie <a href="../../../manage-work/projects/project-finances/track-costs.md">Trackkosten</a>.</p> </td> 
+    <p>Voor een taak, het uurtarief van de gebruiker of de rol vermenigvuldigd met het aantal uren die aan de gebruiker of de rol worden toegewezen.</p> <p>Voor een project is het een totaal van [!UICONTROL Planned Labor Costs] van alle taken.</p> <p>Of het tarief van de gebruiker of de rol wordt gebruikt hangt van het Type van Kosten af dat voor de bepaalde taak wordt geselecteerd. </p> <p>Zie voor meer informatie <a href="../../../manage-work/projects/project-finances/track-costs.md">Trackkosten</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Revenue]</td> 
-   <td> <p>Taken en projecten kunnen een waarde weergeven voor [!UICONTROL Planned Revenue] in [!DNL Workfront]. [!UICONTROL Planned Revenue] staat voor het bedrag van de aan de [!UICONTROL Planned Hours] van de taken betreffende het project. Voor projecten kan het ook de [!UICONTROL Fixed Revenue] van het project. </p> <p>Voor taken, is dit de opbrengst verbonden aan [!UICONTROL Planned Hours] van taken. De geplande uren van alle taken lopen tot en met de geplande uren van het project om bij te dragen tot de berekening van het project [!UICONTROL Planned Hours]. </p> 
+   <td> <p>Taken en projecten kunnen een waarde weergeven voor [!UICONTROL Planned Revenue] in [!DNL Workfront]. [!UICONTROL Planned Revenue] staat voor het bedrag van de aan de [!UICONTROL Planned Hours] van de projecttaken. Voor projecten kan het ook de [!UICONTROL Fixed Revenue] van het project. </p> <p>Voor taken, is dit de opbrengst verbonden aan [!UICONTROL Planned Hours] van taken. De geplande uren van alle taken lopen tot de geplande uren van het project om bij te dragen tot de berekening van het project [!UICONTROL Planned Hours]. </p> 
    <p>[!DNL Workfront] berekeningen [!UICONTROL Planned Revenue] voor taken en projecten met behulp van de volgende formules:</p> 
    <p><code>Task [!UICONTROL Planned Revenue] = [!UICONTROL Planned Hours] * Billing hourly rate</code> </p> <p><code>Project [!UICONTROL Planned Revenue] = SUM (All tasks [!UICONTROL Planned Revenue]) + [!UICONTROL Fixed Revenue]</code> </p> 
    <!--
@@ -1562,7 +1562,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Risk Cost]</td> 
-   <td> <p>Het totaal van de [!UICONTROL Potential Cost] van alle risico's voor het project waarbij rekening wordt gehouden met de waarschijnlijkheid dat het project zich voordoet. Dit bedrag is niet opgenomen in het [!UICONTROL Planned Cost] van het project.</p> <p>De [!UICONTROL Planned Risk Cost] van een project wordt berekend aan de hand van de volgende formule:</p> <p><code>Planned Risk Cost = SUM(Potential Risk Cost * Probability / 100)</code> </p> </td> 
+   <td> <p>Het totaal van [!UICONTROL Potential Cost] van alle risico's voor het project waarbij rekening wordt gehouden met de waarschijnlijkheid dat het project zich voordoet. Dit bedrag is niet opgenomen in het [!UICONTROL Planned Cost] van het project.</p> <p>De [!UICONTROL Planned Risk Cost] van een project wordt berekend aan de hand van de volgende formule:</p> <p><code>Planned Risk Cost = SUM(Potential Risk Cost * Probability / 100)</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
@@ -1578,7 +1578,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>Een verzameling projecten met verenigende kenmerken. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. U kunt Portfolio in Programma's verdelen en de projecten met de Programma's associëren alvorens zij aan een Portfolio worden toegevoegd.</p> <p>Zie voor meer informatie over portfolio's <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Overzicht van Portfolio in [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>Een verzameling projecten met verenigende kenmerken. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. U kunt Portfolio's in Programma's verdelen en de projecten met de Programma's associëren alvorens zij aan een Portfolio worden toegevoegd.</p> <p>Zie voor meer informatie over portfolio's <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Overzicht van Portfolio's in [!DNL Adobe Workfront]</a>.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -1591,7 +1591,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Portfolio Owner]</td> 
-   <td>De belanghebbende die verantwoordelijk is voor de prioriteitstelling en de begroting voor een portefeuille.</td> 
+   <td>De belanghebbende die verantwoordelijk is voor de prioritering en de begroting van een portefeuille.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Potential Risk Cost]</td> 
@@ -1608,8 +1608,8 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Primary Contact]</td> 
    <td><p>De [!UICONTROL Primary Contact] is de maker van een uitgifte en wordt automatisch aangewezen door [!DNL Workfront] wanneer de persoon de kwestie creeert. U kunt dit veld handmatig bijwerken als u [!DNL Manage] machtigingen voor de uitgave. Een kwestie kan slechts één Primaire Contact hebben.</p> 
-   <p>Als u de primaire contactpersoon wijzigt, heeft de gebruiker die oorspronkelijk als de primaire contactpersoon was aangewezen nog [!UICONTROL Manage] toegang tot het probleem.</p>
-   <p>Wanneer het omzetten van een kwestie in een taak of een project, de gebruiker die als [!UICONTROL Primary Contact] van de [!UICONTROL Converted Issue Originator] van het project of de taak. Als de [!UICONTROL Primary Contact] van de uitgave wordt bijgewerkt nadat de uitgave is geconverteerd, [!UICONTROL Converted Issue Originator] wordt behouden als de [!UICONTROL Primary Contact] van de kwestie op het moment dat de omzetting plaatsvond. Zie ook "[!UICONTROL Converted Issue Originator]" in dit artikel.</p> 
+   <p>Als u de primaire contactpersoon wijzigt, heeft de gebruiker die oorspronkelijk als de primaire contactpersoon was aangewezen, nog [!UICONTROL Manage] toegang tot het probleem.</p>
+   <p>Wanneer het omzetten van een kwestie in een taak of een project, de gebruiker die als [!UICONTROL Primary Contact] van de [!UICONTROL Converted Issue Originator] van het project of de taak. Als de [!UICONTROL Primary Contact] van de uitgave wordt bijgewerkt nadat de uitgave is omgezet, [!UICONTROL Converted Issue Originator] wordt behouden als de [!UICONTROL Primary Contact] van de kwestie op het moment dat de omzetting plaatsvond. Zie ook "[!UICONTROL Converted Issue Originator]" in dit artikel.</p> 
    </td> 
   </tr>
   <tr> 
@@ -1645,18 +1645,18 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td> <p>In een project, een Taak, en een rapport van het Doel, toont dit gebied de Status van de Voortgang van projecten, taken, of strategische doelstellingen. Raadpleeg de volgende artikelen voor meer informatie:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">Overzicht van voortgang van project</a> </p> </li> 
-     <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang van taak</a> </p> </li> 
-     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Overzicht van de voortgang en conditie van het doel in [!DNL Adobe Workfront Goals]</a> </p>
+     <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang taak</a> </p> </li> 
+     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Overzicht van voortgang en toestand van het doel in [!DNL Adobe Workfront Goals]</a> </p>
      <p>De [!UICONTROL Goal] en de [!UICONTROL Progress Status] for [!DNL goals] het veld is alleen zichtbaar als uw organisatie heeft aangeschaft [!DNL Workfront Goals]. Voor informatie over strategische doelstellingen in [!DNL Workfront Goals], zie <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] overzicht</a>. </p> </li>
     </ul> </td> 
   </tr> 
   <td>[!UICONTROL Project]</td> 
-   <td> <p>Een grote hoeveelheid werk die binnen een bepaald tijdsbestek moet worden voltooid en waarvoor een specifiek budget en een bepaald aantal middelen moeten worden gebruikt. Om het beheersbaar te maken, verdeelt u het project in een reeks taken. Als u alle taken uitvoert, wordt het project voltooid. Voor informatie over het plannen van een project, zie <a href="../../../manage-work/projects/planning-a-project/plan-project.md">Een projectoverzicht plannen</a>.</p> 
+   <td> <p>Een groot deel van de werkzaamheden moet binnen een bepaald tijdsbestek worden voltooid en moet een specifiek budget en een bepaald aantal middelen gebruiken. Om het beheersbaar te maken, verdeelt u het project in een reeks taken. Als u alle taken uitvoert, wordt het project voltooid. Voor informatie over het plannen van een project, zie <a href="../../../manage-work/projects/planning-a-project/plan-project.md">Een projectoverzicht plannen</a>.</p> 
   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Assignment Planned Hours]</td> 
-   <td> <p>In een [!UICONTROL Initiative Job Role] rapport, dit toont het aantal [!UICONTROL Planned Hours] gekoppeld aan een taakrol die is toegewezen aan taken of problemen in het project. Dit veld en de [!UICONTROL Initiative Job Role] rapporttype wordt niet weergegeven in uw [!DNL Workfront] -instantie tenzij uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Workfront Scenario Planner] overzicht</a>. </p> </td> 
+   <td> <p>In een [!UICONTROL Initiative Job Role] rapport, dit toont het aantal van [!UICONTROL Planned Hours] gekoppeld aan een taakrol die is toegewezen aan taken of problemen in het project. Dit veld en de [!UICONTROL Initiative Job Role] rapporttype wordt niet weergegeven in uw [!DNL Workfront] -instantie tenzij uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over de [!DNL Workfront Scenario Planner], zie <a href="../../../scenario-planner/scenario-planner-overview.md">De [!DNL Workfront Scenario Planner] overzicht</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Details]</td> 
@@ -1676,7 +1676,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Owner]</td> 
-   <td>De gebruiker die verantwoordelijk is voor het beheer van het bereik, de tijdlijn en de toewijzingen van een project. De standaardfiatteur voor wijzigingsorders, financiële wijzigingen en te leveren items.</td> 
+   <td>De gebruiker verantwoordelijk voor het beheren van het bereik, de tijdlijn en de toewijzingen van een project. De standaardfiatteur voor wijzigingsorders, financiële wijzigingen en te leveren items.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Planning]</td> 
@@ -1696,7 +1696,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Projected]</td> 
-   <td> <p>Een schatting van de tijdstempel van wanneer het werk zal worden voltooid op basis van de geplande uren en het percentage dat een taak, uitgave of project voltooid zal zijn.</p> <p>Dit heeft betrekking op datums of de [!UICONTROL Duration] van taken, kwesties, of projecten. Doorgaans worden datums en tijdsduur aangegeven die meer gelden voor het leven van de onderdelen van het werk, nadat een deel van het werk al is voltooid of enige tijd voorbij is. </p> <p>De [!UICONTROL Projected Completion Date] van een taak is de datum waarop [!DNL Workfront] verwacht dat deze taak zal worden voltooid op basis van hoeveel werk er tot dusverre is verricht , hoeveel mensen er zijn toegewezen en hoeveel tijd er is verstreken sinds de begindatum .</p> </td> 
+   <td> <p>Een schatting van de tijdstempel van wanneer het werk zal worden voltooid op basis van de geplande uren en het percentage dat een taak, uitgave of project voltooid zal zijn.</p> <p>Dit heeft betrekking op datums of de [!UICONTROL Duration] van taken, kwesties, of projecten. Doorgaans worden datums en tijdsduur aangegeven die meer gelden voor het leven van de onderdelen van het werk, nadat een deel van het werk al is voltooid of enige tijd is verstreken. </p> <p>Bijvoorbeeld de [!UICONTROL Projected Completion Date] van een taak is de datum waarop [!DNL Workfront] verwacht dat deze taak zal worden voltooid op basis van hoeveel werk er tot dusverre is verricht , hoeveel mensen er zijn toegewezen en hoeveel tijd er is verstreken sinds de begindatum .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Deadline]</td> 
@@ -1724,7 +1724,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Public]</td> 
-   <td>Op een [!UICONTROL Note] of [!UICONTROL Document]maakt deze optie dat object toegankelijk voor andere gebruikers of zelfs voor personen van buiten [!DNL Workfront]. Voor een [!UICONTROL Help Desk Queue], [!UICONTROL Public] betekent dat alle gebruikers die Issues kunnen verzenden problemen kunnen verzenden via de [!UICONTROL Help Desk] Gebied.</td> 
+   <td>Op een [!UICONTROL Note] of [!UICONTROL Document]maakt deze optie dat object toegankelijk voor andere gebruikers of zelfs voor personen van buiten [!DNL Workfront]. Voor een [!UICONTROL Help Desk Queue], [!UICONTROL Public] betekent dat alle gebruikers die Issues kunnen verzenden, Issues kunnen verzenden via de [!UICONTROL Help Desk] Gebied.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Quality]</td> 
@@ -1753,7 +1753,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Ready]</td> 
-   <td> <p>Dit gebied op een taakrapport wijst erop of [!UICONTROL Agile] taak is gemarkeerd als [!UICONTROL Ready] op de achtergrond. Deze markering is alleen van toepassing op [!UICONTROL Agile] taken, die taken zijn die zijn toegewezen aan een [!UICONTROL Agile] team. </p> </td> 
+   <td> <p>Dit gebied op een taakrapport wijst erop of [!UICONTROL Agile] taak is gemarkeerd als [!UICONTROL Ready] op de achtergrond. Deze markering geldt alleen voor [!UICONTROL Agile] taken, die taken zijn die zijn toegewezen aan een [!UICONTROL Agile] team. </p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
@@ -1769,11 +1769,11 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining Risk Cost]</td> 
-   <td> <p>Een projectgebied dat het verschil tussen toont [!UICONTROL Planned Risk Cost] van een project en het totaal van alle [!UICONTROL Actual Costs] van alle risico's voor het project. </p> <p>De [!UICONTROL Remaining Risk Cost] voor een project wordt berekend aan de hand van de volgende formule:</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
+   <td> <p>Een projectgebied dat het verschil tussen toont [!UICONTROL Planned Risk Cost] van een project en het totaal van [!UICONTROL Actual Costs] van alle risico's voor het project. </p> <p>De [!UICONTROL Remaining Risk Cost] voor een project wordt berekend aan de hand van de volgende formule:</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Replanning]</td> 
-   <td>Het veranderen van de data van een Project om problemen te herstellen of te overwinnen. Een project dat bijvoorbeeld al enkele maanden in de wachtstand staat, moet opnieuw worden gepland om de precieze data te weerspiegelen.</td> 
+   <td>Het veranderen van de data van een Project om problemen te herstellen of te overwinnen. Een project dat bijvoorbeeld al enkele maanden in de wachtstand staat, moet opnieuw worden gepland om nauwkeurige data te weerspiegelen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Report]</td> 
@@ -1860,7 +1860,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Result]</td> 
-   <td>In [!DNL Workfront Goals]Een resultaat is een voortgangsindicator voor een doel. Dit kan een getal, een percentage of een valutabedrag zijn dat u handmatig bijwerkt. U kunt geen resultaten in een rapport tonen en u kunt niet tot hen door [!DNL Workfront] API. Voor informatie over activiteiten raadpleegt u <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Aan de slag met resultaten en activiteiten in Adobe Workfront Goals</a>.</td> 
+   <td>In [!DNL Workfront Goals]Een resultaat is een voortgangsindicator voor een doel. Dit kan een getal, een percentage of een valutabedrag zijn dat u handmatig bijwerkt. U kunt geen resultaten in een rapport tonen en u kunt niet tot hen door [!DNL Workfront] API. Zie voor informatie over activiteiten <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Aan de slag met resultaten en activiteiten in Adobe Workfront Goals</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Revenue]</td> 
@@ -1879,7 +1879,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td> <p>Dit kan verwijzen naar de volgende concepten in [!DNL Workfront]:</p> 
     <ul> 
      <li> <p>Een gebied op een project dat erop wijst hoe riskant een project kan zijn. U kunt de uitvoering van uw projecten prioriteren op basis van het risiconiveau. Projecten kunnen de volgende risiconiveaus hebben:</p> <p>- [!UICONTROL Very Low]</p> <p>- [!UICONTROL Low]</p> <p>- [!UICONTROL Medium]</p> <p>- [!UICONTROL High]</p> <p>- [!UICONTROL Very High]</p> <p>De risiconiveaus die u aangeeft voor een project kunnen niet worden aangepast. </p> <p> Zie de sectie Projectinstellingen in het artikel voor informatie over het bijwerken van het risico van een project <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projecten bewerken</a>. U kunt het risicogebied van een project in rapporten tonen. </p> </li> 
-     <li> <p>Een gebeurtenis die tijdens de levensduur van een project kan plaatsvinden die een mogelijk effect op de kosten, het bereik of het schema van het project identificeert. U bepaalt potentiële risico's aan een project en associeert een waarschijnlijkheid dat zij of kosten voorkomen aangezien u het BedrijfsGeval van het project bouwt. Voor informatie over het toevoegen van risico's aan het BedrijfsGeval van het project, zie "tot stand brengen en risico's op projecten uitgeven". </p> <p>U kunt geen risico's weergeven die zijn gedefinieerd in het dialoogvenster [!UICONTROL Business Case] in verslagen. U kunt slechts verscheidene soorten Kosten van het Risico in rapporten en lijsten tonen. </p> </li> 
+     <li> <p>Een gebeurtenis die tijdens de duur van een project kan voorkomen die een potentiële invloed op de kosten, het werkingsgebied, of het programma van het project identificeert. U bepaalt potentiële risico's aan een project en associeert een waarschijnlijkheid dat zij of kosten voorkomen aangezien u het BedrijfsGeval van het project bouwt. Voor informatie over het toevoegen van risico's aan het BedrijfsGeval van het project, zie "tot stand brengen en risico's op projecten uitgeven". </p> <p>U kunt geen risico's weergeven die zijn gedefinieerd in het dialoogvenster [!UICONTROL Business Case] in verslagen. U kunt slechts verscheidene soorten Kosten van het Risico in rapporten en lijsten tonen. </p> </li> 
     </ul> </td>
 
 </tr> 
@@ -1887,14 +1887,14 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td>[!UICONTROL Risk Cost]</td> 
    <td> <p>De kosten in verband met de risico's voor een project. Hier volgt een overzicht van de risicokosten voor projecten die u in rapporten kunt weergeven:</p> 
     <ul> 
-     <li> <p>[!UICONTROL Actual Cost]: een veld met een risico dat de werkelijke kosten voor het risico aangeeft. Naast rapporten en lijsten kunt u het vinden in [!UICONTROL Edit Risk] bij het bewerken of maken van een risico. </p> <p>Voor project-, taak- of uitgiftekosten raadpleegt u "[!UICONTROL Actual Cost]" in dit artikel. </p> </li> 
-     <li> <p>[!UICONTROL Planned Risk Cost]: een gebied op het project dat een totaal van allen toont [!UICONTROL Potential Risk Costs] voor het project. Zie ook "[!UICONTROL Planned Risk Cost]" in dit artikel. </p> <p>Voor informatie over de Mogelijke Kosten van het Risico, zie <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Mogelijke risicokosten berekenen </a>. </p> </li> 
-     <li> <p>[!UICONTROL Remaining Risk Cost]: een gebied op het project dat het verschil tussen het totaal van toont [!UICONTROL Actual Costs] van alle risico's en [!UICONTROL Planned Risk Cost]. Zie ook "Resterende risicokosten" in dit artikel. </p> </li> 
+     <li> <p>[!UICONTROL Actual Cost]: een veld met een risico dat de werkelijke kosten van het risico toont. Naast rapporten en lijsten kunt u het vinden in [!UICONTROL Edit Risk] bij het bewerken of maken van een risico. </p> <p>Voor project-, taak- of uitgaven raadpleegt u "[!UICONTROL Actual Cost]" in dit artikel. </p> </li> 
+     <li> <p>[!UICONTROL Planned Risk Cost]: een veld op het project dat een totaal van alle [!UICONTROL Potential Risk Costs] voor het project. Zie ook "[!UICONTROL Planned Risk Cost]" in dit artikel. </p> <p>Voor informatie over de Mogelijke Kosten van het Risico, zie <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Mogelijke risicokosten berekenen </a>. </p> </li> 
+     <li> <p>[!UICONTROL Remaining Risk Cost]: een veld op het project waarin het verschil tussen het totaal van de [!UICONTROL Actual Costs] van alle risico's en de [!UICONTROL Planned Risk Cost]. Zie ook "Resterende risicokosten" in dit artikel. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk Management]</td> 
-   <td>Processen om risico's te identificeren, te beperken en te bewaken.</td> 
+   <td>Processen om risico te identificeren, te verlichten en te controleren.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Role]</td> 
@@ -1981,7 +1981,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Slack Date]</td> 
-   <td>In een taakweergave of rapport [!UICONTROL Slack Date] geeft de exacte datum weer waarop een taak beslist invloed kan hebben op de [!UICONTROL Completion Date] van het project. Voor informatie over de [!UICONTROL Slack Date] van een taak, zie <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Datum en overzicht van Slack taak</a>.</td> 
+   <td>In een taakweergave of rapport [!UICONTROL Slack Date] geeft de exacte datum weer waarop een taak beslist invloed kan hebben op de [!UICONTROL Completion Date] van het project. Voor informatie over de [!UICONTROL Slack Date] van een taak, zie <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Overzicht van Datum Slack taak</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Smart Assignments]</td> 
@@ -1989,16 +1989,16 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Geeft het bovenliggende object van een ander object aan. Een document dat bijvoorbeeld is gekoppeld aan een taak, heeft de naam van de taak in het dialoogvenster [!UICONTROL Source] veld van een [!UICONTROL Document] verslag of mening; een kwestie die onder een project wordt geregistreerd heeft de naam van het project in [!UICONTROL Source] veld van een Issue-rapport of -weergave. </p> 
+   <td> <p>Geeft het bovenliggende object van een ander object aan. Een document dat bijvoorbeeld is gekoppeld aan een taak, heeft de naam van de taak in het dialoogvenster [!UICONTROL Source] veld van een [!UICONTROL Document] rapport of mening; een kwestie die onder een project wordt geregistreerd heeft de naam van het project in [!UICONTROL Source] veld van een Issue report of view. </p> 
    <p>In de volgende rapporten wordt een kolom Bron weergegeven waarin u informatie over het bovenliggende object kunt weergeven:</p>
   <ul><li>Problemen melden</li>
-    <li>Uur</li>
+    <li>Uur-rapporten</li>
     <li>Documentrapporten </li>
     </ul>
    <p>Als de gebruikers geen toestemmingen aan het oudervoorwerp van een kwestie, een uur, of een document hebben, toont de Bronkolom van het rapport leeg, zelfs wanneer het rapport aan vertoning wordt gevormd, of met de toegangsrechten van een andere gebruiker moet worden geleverd. </p>
    <p> Om informatie over het oudervoorwerp in het rapport te tonen, adviseren wij toevoegend een kolom voor het oudervoorwerp waar u de naam van de ouder kunt tonen. </p>
     <p>Bijvoorbeeld, kunt u om het even welke volgend aan een rapport met een Bronkolom toevoegen: </p>
-    <ul><li>De kolommen van de Naam van het Project, van de Naam van de Taak, of van de Naam van de Uitgave aan een document of een uurrapport.</li>
+    <ul><li>De kolommen van de Naam van het Project, van de Naam van de Taak, of van de Naam van de Uitgave aan een document of uurrapport.</li>
     <li>De kolommen van de Naam van het Project of van de Naam van de Taak aan een probleemrapport. </li> </ul>
     Zie voor meer informatie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Een rapport uitvoeren en leveren met de toegangsrechten van een andere gebruiker</a>
 
@@ -2027,7 +2027,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
      <li>[!UICONTROL New]</li> 
      <li>[!UICONTROL In Progress]</li> 
      <li>[!UICONTROL Complete]</li> 
-    </ul> <p>Voor meer informatie over de Status van de Taak, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">De lijst met taakstatussen van het systeem openen</a></p> <p>Voor problemen worden de [!UICONTROL Status] is een instelling op het onderwerp die aangeeft of dit probleem:</p> 
+    </ul> <p>Zie voor meer informatie over Taakstatus <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">De lijst met taakstatussen van het systeem openen</a></p> <p>Voor problemen worden de [!UICONTROL Status] is een instelling op het onderwerp die aangeeft of dit probleem:</p> 
     <ul> 
      <li>[!UICONTROL New]</li> 
      <li>[!UICONTROL In Progress]</li> 
@@ -2038,7 +2038,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
      <li>[!UICONTROL Cannot Duplicate]</li> 
      <li>[!UICONTROL Verified Complete]</li> 
      <li>[!UICONTROL Reopened]</li> 
-    </ul> <p>Voor meer informatie over de Uitgiftestatus raadpleegt u <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Toegang krijgen tot de lijst met systeemuitgiftestatussen</a>.</p> 
+    </ul> <p>Zie voor meer informatie over de uitgiftestatus <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Toegang krijgen tot de lijst met systeemuitgiftestatussen</a>.</p> 
     <p>Voor strategische doelstellingen [!UICONTROL Status] is het plaatsen op het doel dat erop wijst of het doel is:</p> 
      <ul> 
       <li>[!UICONTROL Active]</li> 
@@ -2058,7 +2058,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td>Statuspictogrammen</td> 
    <td> <p>U kunt de ingebouwde [!UICONTROL Status Icons] veld als kolom in uw weergaven om de zichtbaarheid van belangrijke punten van uw objecten te verbeteren, zoals:</p> 
     <ul> 
-     <li>Er zijn documenten aan een object gekoppeld</li> 
+     <li>Een object bevat documenten</li> 
      <li>Een object is gekoppeld aan een goedkeuringsproces</li> 
      <li>Aan een object zijn aanvullende notities gekoppeld</li> 
      <li>Een last is factureerbaar of terugbetaalbaar </li> 
@@ -2078,7 +2078,8 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Update]</td> 
-   <td> <p>In dit veld wordt de meest recente statusupdate weergegeven die gebruikers hebben ingevoerd in het bestand '[!UICONTROL Update Status]'. Opmerkingen die zijn gemaakt bij statusupdates worden niet weergegeven in het dialoogvenster [!UICONTROL Status Update] kolom.</p> <p>Als u de optie '[!UICONTROL New],' '[!UICONTROL In Process],' en '[!UICONTROL Complete]' statussen, gebruik de [!UICONTROL Status] kolom.</p> <p>Opmerkingen die zijn gemaakt bij statusupdates worden niet weergegeven in het dialoogvenster [!UICONTROL Status Update] kolom.</p> <p>Raadpleeg het artikel voor meer informatie over statussen <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Taakstatus bijwerken</a>.</p> </td> 
+   <td> <p>In dit veld wordt de meest recente statusupdate weergegeven die de objecteigenaars hebben geleverd in de sectie '[!UICONTROL Update Status]'. Voor projecten betekent dit commentaar van de eigenaar van het project, en voor taken en kwesties betekent dit commentaar van de toewijsorganen.</p> 
+   <p> Opmerkingen over statusupdates worden niet weergegeven in het dialoogvenster [!UICONTROL Status Update] kolom.</p> <p>Als u de optie '[!UICONTROL New],' '[!UICONTROL In Process],' en '[!UICONTROL Complete]' statussen, gebruik de [!UICONTROL Status] kolom.</p> <p>Raadpleeg het artikel voor meer informatie over statussen <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Taakstatus bijwerken</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Statuses]</td> 
@@ -2155,7 +2156,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Team]</td> 
-   <td> <p>Een inzameling van gebruikers die aan gelijkaardige doelstellingen of bedrijfsdoelstellingen werken. Deze gebruikers kunnen collectief aan een het werkpunt worden toegewezen door het team aan het het werkpunt toe te wijzen.</p> <p>Voor meer informatie over teams raadpleegt u <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overzicht</a>.</p> <p>Projecten kunnen [!UICONTROL Project Team], dat alle gebruikers of rollen bevat verbonden aan het werk aan het project.</p> <p>Voor meer informatie over de Teams van het Project, zie <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Overzicht van het projectteam</a></p> </td> 
+   <td> <p>Een inzameling van gebruikers die aan gelijkaardige doelstellingen of bedrijfsdoelstellingen werken. Deze gebruikers kunnen collectief aan een het werkpunt worden toegewezen door het team aan het het werkpunt toe te wijzen.</p> <p>Zie voor meer informatie over teams <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overzicht</a>.</p> <p>Projecten kunnen een [!UICONTROL Project Team], dat alle gebruikers of rollen bevat verbonden aan het werk aan het project.</p> <p>Zie voor meer informatie over projectteams <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Overzicht van het projectteam</a></p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Ad hoc"> 
     <td>Team Goals</td> 
@@ -2164,7 +2165,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   --> 
   <tr> 
    <td>[!UICONTROL Template]</td> 
-   <td> <p>De malplaatjes van het project zijn generische overzichten van uw meest herhaalbare projecten. U kunt taken, rijonderwerpen, douaneformulieren bepalen, documenten of goedkeuringen vastmaken wanneer u een projectmalplaatje creeert om u tijd te besparen wanneer u een nieuw project moet creëren. </p> <p>U kunt malplaatjes aan bestaande projecten vastmaken, of u kunt hen gebruiken om nieuwe projecten te bouwen. Alle informatie die op het malplaatje wordt gespecificeerd brengt naar de projecten over die gebruikend het worden gecreeerd. </p> <p>Voor meer informatie over sjablonen raadpleegt u <a href="../../../manage-work/projects/create-and-manage-templates/project-template-overview.md">Overzicht van de projectsjabloon</a>.</p> </td> 
+   <td> <p>De malplaatjes van het project zijn generische overzichten van uw meest herhaalbare projecten. U kunt taken, rijonderwerpen, douaneformulieren bepalen, documenten of goedkeuringen vastmaken wanneer u een projectmalplaatje creeert om u tijd te besparen wanneer u een nieuw project moet creëren. </p> <p>U kunt malplaatjes aan bestaande projecten vastmaken, of u kunt hen gebruiken om nieuwe projecten te bouwen. Alle informatie die op het malplaatje wordt gespecificeerd brengt naar de projecten over die gebruikend het worden gecreeerd. </p> <p>Zie voor meer informatie over sjablonen <a href="../../../manage-work/projects/create-and-manage-templates/project-template-overview.md">Overzicht van de projectsjabloon</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Template Task]</td> 
@@ -2188,7 +2189,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Timesheet Profile]</td> 
-   <td> <p>A [!UICONTROL Timesheet Profile] is een sjabloon die [!DNL Workfront] gebruikt om automatisch tijdbladen te creëren voor de gebruikers verbonden aan hen. </p> <p>U kunt een aantal montages vormen die op elk timesheet zullen van toepassing zijn aangezien het wordt gecreeerd. Enkele van deze instellingen zijn: hoe vaak het timesheet (wekelijks, om de week, tweemaal per maand, of maandelijks), de begindag van timesheet, de timesheet fiatteurs, beschikbaar zou moeten worden gecreeerd [!UICONTROL Hour Types] dat gebruikers aan geregistreerde uren kunnen associëren.</p> </td> 
+   <td> <p>A [!UICONTROL Timesheet Profile] is een sjabloon die [!DNL Workfront] gebruiken om automatisch tijdbladen te creëren voor de gebruikers verbonden aan hen. </p> <p>U kunt een aantal montages vormen die op elk timesheet zullen van toepassing zijn aangezien het wordt gecreeerd. Enkele van deze instellingen zijn: hoe vaak het tijdspad moet worden gemaakt (wekelijks, om de week, tweemaal per maand of maandelijks), de startdag van het tijdspad, de fiatteurs van het tijdspad, de beschikbare [!UICONTROL Hour Types] dat gebruikers aan geregistreerde uren kunnen associëren.</p> </td> 
   </tr> 
   <tr > 
    <td>[!UICONTROL Top Parent ID] </td> 
@@ -2200,7 +2201,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Hours]</td> 
-   <td> <p>In een [!UICONTROL project report]In dit veld wordt de afgeronde som van alle uren van het project weergegeven, de laatste keer dat de projectfinanciering werd berekend. [!UICONTROL Actual Hours] wijzen op de nauwkeurige uren het programma worden geopend op het project. De [!UICONTROL Actual Hours] moet overeenkomen met de [!UICONTROL Total Hours]. Als de [!UICONTROL Total Hours] lijkt aanzienlijk te verschillen van de [!UICONTROL Actual Hours] in het veld moet u Financiën opnieuw berekenen voor het project.</p> <p>Zie het artikel voor meer informatie over het opnieuw berekenen van projectfinanciën <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Projectfinanciën opnieuw berekenen</a>.</p> <p>In een tijdsplaat [!UICONTROL Standard] bekijken, verwijst dit gebied naar de totale uren die voor punten voor de data worden geregistreerd die op timesheet worden getoond. De [!UICONTROL Total Hours] het gebied voor timesheets in deze ingebouwde mening verwijst naar "[!UICONTROL hoursDuration]" veld dat het verschil in uren tussen de begin- en einddatum van het tijdblad dynamisch berekent. Dit wordt gebruikt om de [!UICONTROL Total Hours] in rood als de gebruiker meer tijd dan de beschikbare uren in het tijdspad van timesheet registreert. Zie voor meer informatie <a href="../../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md" class="MCXref xref">Totale uren weergeven op het tijdblad</a>. </p> </td> 
+   <td> <p>In een [!UICONTROL project report]In dit veld wordt de afgeronde som van alle uren van het project weergegeven, de laatste keer dat de projectfinanciering werd berekend. [!UICONTROL Actual Hours] wijzen op de nauwkeurige uren het programma worden geopend op het project. De [!UICONTROL Actual Hours] moet overeenkomen met de [!UICONTROL Total Hours]. Als de [!UICONTROL Total Hours] lijkt aanzienlijk te verschillen van de [!UICONTROL Actual Hours] in het veld moet u de financiën voor het project opnieuw berekenen.</p> <p>Zie het artikel voor meer informatie over het opnieuw berekenen van projectfinanciën <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Projectfinanciën opnieuw berekenen</a>.</p> <p>In een tijdsplaat [!UICONTROL Standard] bekijken, verwijst dit gebied naar de totale uren die voor punten voor de data worden geregistreerd die op timesheet worden getoond. De [!UICONTROL Total Hours] het gebied voor timesheets in deze ingebouwde mening verwijst naar "[!UICONTROL hoursDuration]" veld dat het verschil in uren tussen de begin- en einddatum van het tijdblad dynamisch berekent. Dit wordt gebruikt om de [!UICONTROL Total Hours] in rood als de gebruiker meer tijd dan de beschikbare uren in het tijdspad van timesheet registreert. Zie voor meer informatie <a href="../../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md" class="MCXref xref">Totale uren weergeven op het tijdblad</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tracking Mode]</td> 
@@ -2329,13 +2330,13 @@ U moet de extra <code>[!UICONTROL usewidths=true]</code> coderegel die de voor d
    <td> <p>In een project, een taak, of een uitgifterapport, die de volgende verklaring op tekstwijze gebruiken toont de Geplande Uren van het project, de taak, of de kwestie:</p>
    <code><p>valuefield=work</p>
    <p>valueformat=HTML</p></code> 
-   <p>Voor informatie over het gebruik van de tekstmodus raadpleegt u <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Overzicht van syntaxis in tekstmodus</a>. </p> 
+   <p>Zie voor informatie over het gebruik van de tekstmodus <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Overzicht van syntaxis in tekstmodus</a>. </p> 
    <p><b>TIP</b> 
    <p>In een uitgiftenrapport voegt u een van de opties [!UICONTROL Planned Hours] velden voegen de <code>work </code>aan het rapport. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work]</td> 
-   <td> <p>Een van de twee primaire licentietypen. Dit heeft minder toegang dan [!UICONTROL Plan], maar kan updates in het systeem maken en uitvoeren. Dit betekent meer mogelijkheden dan [!UICONTROL External], [!UICONTROL Reviewer], of [!UICONTROL Requester] Licentietypen.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] overzicht van licenties</a>.</p> <p>Het werk kan verwijzen naar het aantal [!UICONTROL Planned Hours] voor een project, taak of kwestie. Zie voor meer informatie de "[!UICONTROL work]" in deze tabel. </p> <p>Tip: In een uitgiftenrapport voegt u een van de opties [!UICONTROL Planned Hours] velden voegen de <code>work </code>aan het rapport. </p> </td> 
+   <td> <p>Een van de twee primaire licentietypen. Dit heeft minder toegang dan [!UICONTROL Plan], maar kan updates in het systeem maken en uitvoeren. Dit betekent meer mogelijkheden dan [!UICONTROL External], [!UICONTROL Reviewer], of [!UICONTROL Requester] Licentietypen.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] overzicht van licenties</a>.</p> <p>Het werk kan betrekking hebben op het aantal [!UICONTROL Planned Hours] voor een project, taak of kwestie. Zie voor meer informatie de "[!UICONTROL work]" in deze tabel. </p> <p>Tip: in een uitgifterapport voegt u een van de [!UICONTROL Planned Hours] velden voegen de <code>work </code>aan het rapport. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work Breakdown Structure]</td> 
@@ -2346,16 +2347,16 @@ U moet de extra <code>[!UICONTROL usewidths=true]</code> coderegel die de voor d
    <td> 
     <p>Een projectmanager zou kunnen besluiten om dit gebied in plaats van te gebruiken [!UICONTROL Planned Hours] een raming te maken van de inspanningen die nodig zijn om een taak te voltooien. Dit veld is alleen zichtbaar als aan de volgende voorwaarden is voldaan:</p> 
      <ul> 
-      <li> <p>De taak heeft een [!UICONTROL Simple Duration Type]. </p> <p>Tip: Als u de taak bijwerkt [!UICONTROL Duration Type] bij elk ander type wordt dit veld verborgen. </p> </li> 
+      <li> <p>De taak heeft een [!UICONTROL Simple Duration Type]. </p> <p>Tip: als u de taak bijwerkt [!UICONTROL Duration Type] bij elk ander type, wordt dit veld verborgen. </p> </li> 
       <li>De projectmanager heeft de [!UICONTROL Use Work Effort] taak automatisch berekenen [!UICONTROL Planned Hours] veld op het project. </li> 
      </ul> 
-     <p>Voor informatie over het gebruik [!UICONTROL Work Effort] in plaats van [!UICONTROL Planned Hours] om de taakinspanning te ramen , zie <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van werkprestaties</a>. </p> 
+     <p>Voor informatie over het gebruik [!UICONTROL Work Effort] in plaats van [!UICONTROL Planned Hours] om de taakinspanning te ramen , zie <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van de werkprestaties</a>. </p> 
      <p>U kunt dit veld weergeven in taakrapporten en lijsten.</p> 
     </td> 
    </tr> 
   <tr> 
    <td>[!UICONTROL Work Item]</td> 
-   <td> <p>Dit veld verwijst naar taken of problemen in [!DNL Workfront]. </p> <p>De [!UICONTROL Work Item] het rapport toont informatie voor zowel taken als kwesties. </p> </td> 
+   <td> <p>In dit veld wordt verwezen naar taken of problemen in [!DNL Workfront]. </p> <p>De [!UICONTROL Work Item] het rapport toont informatie voor zowel taken als kwesties. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work management mix]</td> 
@@ -2420,7 +2421,7 @@ U moet de extra <code>[!UICONTROL usewidths=true]</code> coderegel die de voor d
    <p>valuefield=workRequiredExpression</p>
    <p>valueformat=HTML</p>
    </code>
-    <p>Voor informatie over het gebruik van de tekstmodus raadpleegt u <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Overzicht van syntaxis in tekstmodus</a>. </p> </td> 
+    <p>Zie voor informatie over het gebruik van de tekstmodus <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Overzicht van syntaxis in tekstmodus</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Een tijdlijnweergave beheren:
 
 ### Filters toevoegen
 
-Met filters vermindert u de hoeveelheid informatie die op het scherm wordt weergegeven.
+U kunt de hoeveelheid informatie die op het scherm wordt weergegeven verminderen door filters te gebruiken.
 
 Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergave:
 
@@ -166,13 +166,13 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 
 * De filters zijn uniek voor de weergave die u selecteert. Op twee tijdlijnweergaven van hetzelfde recordtype kunnen verschillende filters worden toegepast. Twee gebruikers die naar dezelfde tijdlijnweergave kijken, zien hetzelfde filter dat op dat moment wordt toegepast.
 
-* U kunt de filters die u maakt en toepast op een tijdlijnweergave niet een naam geven.
+* U kunt de filters die u maakt voor een tijdlijnweergave niet een naam geven.
 
-* Als u filters verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en wordt dezelfde weergave gebruikt als u.
+* Als u filters verwijdert, worden deze verwijderd van iedereen die hetzelfde recordtype als u benadert en die dezelfde weergave als u weergeeft.
 
-Het toevoegen van filters in de tijdlijnweergave is hetzelfde als het toevoegen van filters in de tabelweergave.
+* Het toevoegen van filters in de tijdlijnweergave is hetzelfde als het toevoegen van filters in de tabelweergave.
 
-Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](../views/manage-the-table-view.md).
+  Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](../views/manage-the-table-view.md).
 
 ### Groepering toevoegen
 
@@ -180,45 +180,49 @@ Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelwee
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 U kunt records groeperen aan de hand van vergelijkbare informatie wanneer u een groepering toepast op een weergave.
 
 Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergave:
 
-* U kunt groepen toepassen in de tabel- en tijdlijnweergave. De groepen van de tabelweergave zijn onafhankelijk van de groepen in de tijdlijnweergave van hetzelfde recordtype.
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * U kunt drie niveaus van groepering in een mening van Maestro toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
 * U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API.
+* De groepen zijn uniek voor de weergave die u selecteert. In twee tijdlijnweergaven van hetzelfde recordtype kunnen verschillende groeperingen worden toegepast. Twee gebruikers die naar dezelfde tijdlijnweergave kijken, zien dezelfde groepering die op dat moment wordt toegepast.
+
+* U kunt de groepen die u maakt voor een tijdlijnweergave niet een naam geven.
+
+* Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
 
 Een groep toevoegen:
 
-1. Een tijdlijnweergave maken, zoals wordt beschreven in het artikel [Recordweergaven beheren](../views/manage-record-views.md).
-1. Klikken **Groepering**.
+1. Een tijdlijnweergave maken voor een recordtype, zoals beschreven in het artikel [Recordweergaven beheren](../views/manage-record-views.md).
+1. Klikken **Groepering** in de rechterbovenhoek van de tijdlijnweergave.
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. Klik op een van de voorgestelde velden of klik op **Een ander veld kiezen** en zoek naar een ander veld. Klik vervolgens op het veld wanneer het wordt weergegeven in de lijst.
+1. Klik op een van de voorgestelde velden of klik op **Een ander veld kiezen**, zoek naar een ander veld en klik op het veld wanneer het in de lijst wordt weergegeven.
 
    >[!TIP]
    >
    >U kunt geen gekoppelde velden selecteren.
 
-   De groepering wordt automatisch toegepast op de tijdlijn en records worden weergegeven in het groepsvak. Het aantal items in een groep wordt weergegeven op de groeperingsregel.
+   De groepering wordt automatisch toegepast op de tijdlijn en records worden weergegeven in het groepsvak.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. (Optioneel) Herhaal de bovenstaande stappen om maximaal drie groepen samen te voegen.
 
-   Het aantal toegepaste groeperingen wordt links van het pictogram Groeperen in de rechterbovenhoek van de werkbalk weergegeven.
+   Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optioneel) Klik op de knop **x** rechts van een groep om de groepering te verwijderen
+1. (Optioneel) Klik op de knop **x** pictogram rechts van een veld dat is geselecteerd voor de groep om de groep te verwijderen
 
    of
 
-   Klikken **Alles wissen** alle groepen verwijderen.
+   Klikken **Alles wissen** alle velden verwijderen.
 
 1. Klik buiten de **Records groeperen op** te sluiten.
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### De weergave-instellingen voor de tijdlijn bewerken {#edit-the-timeline-view-settings}
 
-Werk de instellingen van de tijdlijnweergave bij om aan te geven welke informatie wordt weergegeven in het tijdlijngedeelte van de weergave.
+Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe informatie wordt weergegeven in het tijdlijngedeelte van de weergave.
 
-1. Een tijdlijnweergave maken, zoals wordt beschreven in het artikel [Recordweergaven beheren](../views/manage-record-views.md).
+1. Een tijdlijnweergave maken voor een recordtype, zoals beschreven in het artikel [Recordweergaven beheren](../views/manage-record-views.md).
 1. Klikken **Instellingen**.
 1. Klikken **Datum en tijd** in het linkerdeelvenster selecteert u vervolgens een **Begindatum** en **Einddatum** om weer te geven op de tijdlijn. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is. De balken die de records weergeven, beginnen op de datum die u aangeeft voor de begindatum en eindigen op de datum die overeenkomt met de einddatum.
 
    >[!NOTE]
    >
-   >    Records die geen waarden hebben voor de begin- of einddatum of die later een begindatum hebben dan de einddatum, worden niet weergegeven in de tijdlijnweergave.
+   >Records die geen waarden hebben voor de begin- of einddatum of die later een begindatum hebben dan de einddatum, worden niet weergegeven in de tijdlijnweergave.
 
+1. Klikken **Stijl van balk** in het linkerdeelvenster om aan te geven welke velden u op de recordbalken wilt weergeven.
 
-1. Klikken **Gegevens opnemen** om aan te geven welke velden u op de recordborden wilt weergeven.
-
-   Het veld Naam is standaard geselecteerd.
+   Het veld Naam is standaard geselecteerd. <!--adjust this when the primary field is released??-->
 
 1. Klikken **Veld toevoegen** om maximaal vier velden aan de recordbalken toe te voegen.
 1. Klik in het dialoogvenster **Zoeken in velden** en klik op het veld dat u wilt toevoegen.
@@ -259,6 +262,41 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven welke informati
    Aan de rechterkant wordt een voorvertoning weergegeven van hoe de balken eruit zullen zien op de tijdlijn.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. Klikken **Kleur** in het linkerdeelvenster om de kleuren van de records en groepen in de tijdlijn aan te passen.
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. (Voorwaardelijk en optioneel) Als u een groepering aan de tijdlijnweergave hebt toegevoegd, kunt u een van de volgende opties selecteren om een kleur in te stellen voor de groepering in het dialoogvenster **Groeperingskleur instellen** sectie:
+
+   * **Standaard (grijs)**: De kleur van de groepen is ingesteld op grijs. Dit is de standaardinstelling.
+   * **Veldwaarden**: De kleur van de groepen komt overeen met de kleur van het veld waarop u groepeert.
+U kunt de kleur van de groepen alleen aanpassen aan velden met opties voor kleurcodes.
+
+   Multiselect- of single-select-velden kunnen bijvoorbeeld kleuropties hebben.
+
+   Als u groepeert op velden zonder opties voor kleurcodering, blijft de kleur van de groep grijs.
+
+   >[!TIP]
+   >
+   >Als u geen groepen hebt toegevoegd aan de tijdlijnweergave, wordt deze sectie niet weergegeven.
+
+1. In de **Recordkleur instellen** selecteert u een van de volgende opties om een kleur in te stellen voor de records:
+
+   * **Recordtype**: De kleur van de records komt overeen met de kleur van het geselecteerde recordtype. Dit is de standaardoptie.
+   * **Veldwaarden**: De kleur van de records komt overeen met de kleur van een veld dat u opgeeft. Ga verder met stap 10. <!--ensure this stays accurate-->
+   * **Groepering**: De kleur van de records komt overeen met de kleur die u voor de groepen hebt opgegeven. Deze optie is grijs als er geen groepen zijn toegepast op de tijdlijnweergave.
+   * **Geen**: Records worden weergegeven in een witte balk.
+
+1. (Voorwaardelijk) Als u **Veldwaarden** voor de recordkleuren selecteert u een veld in het dialoogvenster **De recordkleur afstemmen op** vervolgkeuzelijst.
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   Alleen velden met opties voor kleurcodes worden weergegeven in het keuzemenu.
+
+   Multiselect- of single-select-velden kunnen bijvoorbeeld kleuropties hebben.
+
+   Als u geen veld hebt met kleurgecodeerde opties voor het geselecteerde recordtype, wordt deze optie grijs weergegeven.
 
 1. Klikken **Opslaan**.
 

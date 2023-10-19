@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ Voorbeeld en productie: 16 oktober 2023
 
 We hebben besturingselementen voor RTF-opmaak toegevoegd voor velden van het type Alinea. U kunt de alineasvelden opmaken met RTF-tekst in de tabelweergave van een recordtype of op de pagina Details van een record. Zie voor meer informatie [Records bewerken](../maestro/records/edit-records.md).
 
+
+### Kleurcodering opnemen en groeperen voor de tijdlijnweergave
+
+Voorbeeld en productie: 19 oktober 2023
+
+U kunt nu de recordbalken en de groepen in de tijdlijnweergave in kleur coderen.
+
+Hier volgen opties voor de kleuren die u kunt weergeven voor recordbalken en groepen in de tijdlijnweergave:
+
+* Groepen kunnen overeenkomen met de volgende kleuren:
+
+   * Grijs (standaard)
+
+   * De kleur van het veld waarop u groepeert
+
+* Balken kunnen overeenkomen met de volgende kleuren:
+
+   * De kleur van het recordtype
+
+   * De kleur van een veld dat u selecteert
+
+   * De kleur van de groep
+
+   * Geen kleur (standaard)
+
+Wanneer u kleuren afstemt op een bepaald veld, kunt u alleen velden met opties voor kleurcodes selecteren.
+
+Zie voor meer informatie [De tijdlijnweergave beheren](../maestro/views/manage-the-timeline-view.md).
 
 ## Week van 9 oktober 2023
 
