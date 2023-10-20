@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 0%
 
 ---
@@ -502,7 +502,7 @@ U voegt als volgt velden voor de typekop toe:
 
 ### Externe opzoekvelden toevoegen
 
-Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een van deze opties in het vervolgkeuzemenu selecteren.
+Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren.
 
 Een externe zoekopdracht toevoegen:
 
@@ -540,7 +540,8 @@ Een externe zoekopdracht toevoegen:
      <tr> 
       <td role="rowheader">Basis-API-URL</td> 
       <td><p>Typ of plak de URL voor de API.</p><p>De API-URL moet een JSON-inhoud retourneren van de opties die u wilt weergeven in het vervolgkeuzemenu. U kunt het veld JSON-pad gebruiken om de specifieke waarden van de geretourneerde JSON-waarden te selecteren die vervolgkeuzemogelijkheden moeten zijn.</p><p>Wanneer u de API-URL invoert, kunt u optioneel de volgende waarden in de URL doorgeven:</p>
-      <ul><li>$$query - Dit vertegenwoordigt de zoektekst die de eindgebruiker in het veld typt en waarmee u query-filtering voor uw eindgebruikers kunt implementeren. (De gebruiker zoekt naar de waarde in de vervolgkeuzelijst.)</li>
+      <ul><li>$$QUERY - Dit vertegenwoordigt de onderzoekstekst die de eindgebruiker op het gebied typt en u toestaat om vraag het filtreren voor uw eind uit te voeren - gebruikers. (De gebruiker zoekt naar de waarde in de vervolgkeuzelijst.)</li>
+      <li>$$HOST - Dit staat voor de huidige Workfront-host en kan worden gebruikt om API-aanroepen naar de Workfront API te maken. Wanneer dit jokerteken wordt gebruikt, wordt de authentificatie behandeld en de gebruikers te hoeven niet om authentificatiekopballen te verzenden. (Gebruikers kunnen bijvoorbeeld zoeken naar taken met de basis-URL "$$HOST/attask/api/task/search", waardoor ze zoektaken kunnen uitvoeren en waarden kunnen selecteren uit een geretourneerde lijst met taken.)</li>
       <li>{fieldName} - Waar fieldName een aangepast of native veld in Workfront is. Op deze manier kunt u trapsgewijze dropdown-optiefilters implementeren wanneer u de waarde van een al geselecteerd veld doorgeeft aan het veld Externe opzoeken om opties omlaag te filteren. (Het veld Regio bestaat bijvoorbeeld al op het formulier en u versmalt een lijst met landen van de API naar landen die zich in een specifieke regio bevinden.)</li></ul>
       <p><strong>OPMERKING:</strong> Controleer de documentatie voor de API u met voor de specifieke vragen werkt u kunt bepalen.</p></td> 
      </tr>
@@ -561,6 +562,15 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">Kopteksten</td>
       <td><p>Klikken <strong>Koptekst toevoegen</strong>en typ of plak het sleutelwaardepaar dat is vereist voor verificatie met de API.</p><p><strong>OPMERKING:</strong> De gebieden van de Kopbal zijn geen veilige plaats om geloofsbrieven op te slaan, en u zou moeten zorgvuldig zijn wat u ingaat en bewaart.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">Meerdere selecties opheffen</td>
+      <td><p>Selecteer deze optie als de gebruiker meer dan één waarde in de vervolgkeuzelijst moet selecteren.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Een vereist veld maken</td>
+      <td><p>Selecteer deze optie als u wilt dat het veld verplicht is zodat de gebruiker het aangepaste formulier kan invullen.</p></td>
+     </tr>       
     </tbody>
    </table>
 
