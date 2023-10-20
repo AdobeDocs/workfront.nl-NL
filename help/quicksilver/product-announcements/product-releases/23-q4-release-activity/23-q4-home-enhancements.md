@@ -3,9 +3,9 @@ title: Verbeteringen startpunt vierde kwartaal 2023
 description: Verbeteringen startpunt vierde kwartaal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 Een algemeen gevraagde eigenschap van de oude homepage, hebben wij nu een afgevaardigde knoop aan Mijn Werk, Mijn Taken, en Mijn Uitgave widgets toegevoegd zodat u het werk gemakkelijk kunt delegeren wanneer u uit het bureau bent. In het gedelegeerde menu, dat identiek aan de manier werkt het voorafgaand aan Nieuwe Huis, kunt u selecteren aan wie en voor hoe lang u uw verhalen en kwesties wilt delegeren. De knop wordt alleen weergegeven als de werkdelegatie is ingeschakeld in uw Workfront-omgeving.
 
-Ga voor meer informatie over delegeren in Workfront naar [Taak beheren en taken delegeren](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+Ga voor meer informatie over delegeren in Workfront naar [Taak beheren en taken delegeren](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## De widget Nieuwe borden voor Nieuwe startpagina
 
@@ -30,7 +30,7 @@ Ga voor meer informatie over de widgets die beschikbaar zijn in New Home naar [A
 
 ## Nieuwe standaardlandingspagina van contribuant: Nieuwe startpagina
 
-New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de Medewerkers ook worden geïnstrueerd over het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Als een lay-out met een aangepaste homepage die momenteel door een contributoraccount wordt gebruikt, blijft deze hun homepage.
+New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de Medewerkers ook worden geïnstrueerd over het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Deze standaardwidgets voor Medewerkers zijn: Verzoeken, Opmerkingen, Problemen en Boven. Merk op dat als een lay-out met een douane homepage momenteel door een contributorrekening wordt gebruikt, het hun homepage zal blijven.
 
 Ga voor meer informatie over het gebruik van New Home naar [Aan de slag met Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
