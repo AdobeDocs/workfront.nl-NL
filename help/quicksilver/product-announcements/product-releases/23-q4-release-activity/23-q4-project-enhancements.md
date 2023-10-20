@@ -3,9 +3,9 @@ title: Verbeteringen van projecten in het vierde kwartaal van 2023
 description: Verbeteringen van projecten in het vierde kwartaal van 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ Zie voor meer informatie [Gegevens bewerken in aangepaste formuliervelden](/help
 We hebben een wijziging aangebracht in de manier waarop geplande uren worden toegewezen aan terugkerende taken zonder toewijzingen en met een eenvoudige tijdsduur. Nu, wanneer u Geplande Uren op een nieuwe terugkomende taak met een Eenvoudig Type van Duur en geen taken plaatst, worden de uren ook toegewezen aan de individuele herhalingen. Vóór deze wijziging werden de uren niet opgeslagen voor afzonderlijke herhalingen toen de bovenliggende taken niet werden toegewezen.
 
 Voor informatie over het creëren van terugkomende taken, zie [Herhalende taken maken](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Real-time updates op takenlijst
+
+De lijsten van taken werken nu in real time bij. Wijzigingen die worden aangebracht in een taak, worden bijgewerkt in de takenlijst, zodat een gebruiker die de takenlijst bekijkt de wijziging kan zien zonder de pagina te vernieuwen.

@@ -4,9 +4,9 @@ description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Real-time updates op takenlijst</a> </p>
+                        <p>[!BADGE in productie]{type=Informative}</p>
+                        <p>De lijsten van taken werken nu in real time bij. Wijzigingen die worden aangebracht in een taak, worden bijgewerkt in de takenlijst, zodat een gebruiker die de takenlijst bekijkt de wijziging kan zien zonder de pagina te vernieuwen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle klanten: gefaseerde uitrol, voltooid op 19 oktober 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
