@@ -4,8 +4,9 @@ description: Adobe Workfront-doelen
 author: Alina
 draft: Probably
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
-source-git-commit: 8d475c4b1eb818f4c693ccd3c731201979438459
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -41,7 +42,7 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 * Een Pro of hoger [Adobe Workfront-plan](https://www.workfront.com/plans).
 * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
 
-   Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+  Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
 Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
@@ -53,7 +54,7 @@ Deze sectie bevat de volgende subsecties:
 * [Doelstellingen en de Adobe Workfront-doelstellingen](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Resultaten en activiteiten in de Adobe Workfront-doelstellingen](../workfront-goals/results-and-activities/results-and-activities.md)
 
-   <!--
+  <!--
   <li>Tips, tricks, and troubleshooting for Workfront Goals (might come after GA)</li>
   -->
 

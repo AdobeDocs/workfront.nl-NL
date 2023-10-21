@@ -7,8 +7,9 @@ title: Scenario's in [!DNL Adobe] Workfront Fusion
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Deze sectie bevat de volgende artikelen:
 * [Basisscenario-instellingen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/basic-scenario-settings.md)
 * [Het deelvenster met scenario-instellingen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)
 * [Scenario-details in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md)
-* [Uitvoeringsstroom van scenario&#39;s in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md)
+* [Uitvoeringsstroom scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md)
 * [Uitvoering van scenario&#39;s, cycli en fasen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
 * [De uitvoeringsgeschiedenis van een scenario weergeven in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md)
 * [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
@@ -39,7 +40,7 @@ Deze sectie bevat de volgende artikelen:
 * [Een filter toevoegen aan een scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 * [Foutopsporingsscenario&#39;s met de [!DNL Adobe Workfront Fusion] DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
 * [Scenario-sjablonen](../../workfront-fusion/scenarios/templates/fusion-templates.md)
-* [[!DNL Adobe Workfront Fusion] voorbeeld scenario: E-mailadres verbinden [!UICONTROL Text Parser], en [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
+* [[!DNL Adobe Workfront Fusion] voorbeeld: Connect-e-mail, [!UICONTROL Text Parser], en [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Een versie van een scenario herstellen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Modules of scenario&#39;s kopiëren in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [Vergrendelde scenario&#39;s weergeven en beheren in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

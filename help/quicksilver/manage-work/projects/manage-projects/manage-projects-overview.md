@@ -6,8 +6,9 @@ title: Projecten beheren
 description: Meer informatie over het beheren van projecten vindt u in de volgende artikelen.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Deze sectie bevat de volgende artikelen:
 * [Een project opslaan als een sjabloon](../../../manage-work/projects/manage-projects/save-project-as-template.md)
 * [Projecten verwijderen](../../../manage-work/projects/manage-projects/delete-projects.md)
 * [Een verwijderd project herstellen](../../../manage-work/projects/manage-projects/recover-project.md)
-* [Een project exporteren naar een Microsoft-project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [Een project exporteren naar Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Microsoft-projectvelden toewijzen aan Adobe Workfront-projecten](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
 * [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [De status van een project wijzigen](../../../manage-work/projects/manage-projects/change-project-status.md)
@@ -35,6 +36,6 @@ Deze sectie bevat de volgende artikelen:
 * [Gebruikers uit projecten verwijderen](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [Bronnen voor een project plannen](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [Communiceren met projectteamleden](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [Een project beheren in de Google-weergave](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [Een project beheren in de Google View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Overzicht van projectlimieten](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Overzicht van projectmetriek](../../../manage-work/projects/manage-projects/project-metrics.md)

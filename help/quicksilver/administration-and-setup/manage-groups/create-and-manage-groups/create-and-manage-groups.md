@@ -8,8 +8,9 @@ description: Een Workfront-beheerder kan groepen gebruikers maken die overeenkom
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f8f2996a-89cb-4929-ad04-ab84c7bd66fc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Deze sectie bevat de volgende artikelen:
 * [Bekijk het aantal licenties dat is toegewezen en gebruikt in een groep in de nieuwe Adobe Workfront-ervaring](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
 * [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
 * [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
-* [Een project, taak of uitgiftevoorkeur voor subgroepen vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
+* [Een project, taak of uitgave van subgroepen vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
 * [Voorkeuren voor tijdschriften en uren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
 * [Een groepsoverzicht en uurvoorkeur vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
 * [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)

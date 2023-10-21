@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Goedkeuringen weergeven
 description: De processen van de goedkeuring verstrekken de flexibiliteit om multistep goedkeuringen voor projecten, taken, en kwesties tot stand te brengen. Adobe Workfront-beheerders definiëren goedkeuringsprocessen voor consistentie in het hele systeem.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -19,7 +19,7 @@ De processen van de goedkeuring verstrekken de flexibiliteit om multistep goedke
 
 Voor informatie over het maken van goedkeuringsprocessen raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Voor informatie over het koppelen van goedkeuringen aan werk in Workfront raadpleegt u [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Voor informatie over het koppelen van goedkeuringen aan het werk in Workfront raadpleegt u [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Toegangsvereisten
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -59,26 +59,26 @@ U kunt goedkeuringen van de volgende gebieden bekijken of beheren:
 * In het thuisgebied
 
    * Alle projecten, taken, kwesties, timesheets, documenten, en toegang die op uw goedkeuring wachten worden getoond in het gebied van het Huis wanneer u selecteert om allen of Goedkeuringen te bekijken.
-   * Goedkeuringen die u ook hebt voorgelegd tonen in het gebied van het Huis, in de Goedkeuringen I sectie van de Lijst van het Werk heb voorgelegd. Zie voor meer informatie de [Uw werk voor goedkeuring in het gebied Home controleren](#review-work-you-submit-for-approval-in-the-home-area) in dit artikel.
+   * Goedkeuringen die u ook hebt voorgelegd tonen in het gebied van het Huis, in de Goedkeuringen I sectie van de Lijst van het Werk heb voorgelegd. Zie de klasse [Uw werk voor goedkeuring in het gebied Home controleren](#review-work-you-submit-for-approval-in-the-home-area) in dit artikel.
    * De goedkeuringen worden verwijderd uit het gebied van het Huis wanneer het bijbehorende project, de taak, of de kwestie wordt duidelijk Afgelost, op Greep, Gesloten, of Geannuleerd.
 
-   Voor informatie over het gebruik van Home raadpleegt u [Aan de slag met Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Voor informatie over het gebruik van Home raadpleegt u [Aan de slag met Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * In de koptekst van een project, taak, uitgave, document of proef
-* In de sectie van Goedkeuringen van een project, een taak, of een kwestie
+* In de sectie van Goedkeuringen van een project, taak, of kwestie
 * In een rapport
 
-   >[!NOTE]
-   >
-   >U kunt geen besluit nemen over een goedkeuring uit een rapport.
+  >[!NOTE]
+  >
+  >U kunt geen besluit nemen over een goedkeuring uit een rapport.
 
-   U kunt een project, een taak, een kwestie, of een rapport van de documentgoedkeuring tot stand brengen dat goedkeuringsinformatie bevat.
+  U kunt een project, een taak, een kwestie, of een rapport van de documentgoedkeuring tot stand brengen dat goedkeuringsinformatie bevat.
 
-   Voor informatie over het maken van rapporten raadpleegt u [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Voor informatie over het maken van rapporten raadpleegt u [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Uw werk voor goedkeuring in het gebied Home controleren {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
    >
@@ -87,8 +87,7 @@ U kunt goedkeuringen van de volgende gebieden bekijken of beheren:
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
 
-
-1. Selecteren **Werklijst** klikt u op de knop **Filter** vervolgkeuzelijst en selecteert u **Goedkeuringen**.
+1. Selecteren **Werklijst** en klik vervolgens op de knop **Filter** vervolgkeuzelijst en selecteert u **Goedkeuringen**.
 1. Breid uit **Goedkeuringen die ik heb ingediend** en zoek naar de goedkeuringen die u hebt verzonden.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
@@ -113,11 +112,11 @@ U kunt de goedkeuringsstatus van een object weergeven in de volgende secties van
 </table>
 
 * [In het gedeelte Updates kunt u de goedkeuringsstatus weergeven](#use-the-updates-area-to-view-an-approval-status)
-* [Gebruik het gebied Goedkeuringen om een goedkeuringsstatus weer te geven](#use-the-approvals-area-to-view-an-approval-status)
+* [Geef een goedkeuringsstatus weer in het gebied Goedkeuringen](#use-the-approvals-area-to-view-an-approval-status)
 
 ### In het gedeelte Updates kunt u de goedkeuringsstatus weergeven {#use-the-updates-area-to-view-an-approval-status}
 
-Wanneer een goedkeuring voor een project, een taak, of een kwestie in werking wordt gesteld, toont een status in **Updates** tabblad van het object, dat de goedkeuringsstatus aangeeft. Een nieuwe status wordt altijd weergegeven wanneer het object het goedkeuringsproces doorloopt. Dit omvat de volgende gebeurtenissen:
+Wanneer een goedkeuring voor een project, een taak, of een kwestie in werking wordt gesteld, toont een status in **Updates** tabblad van het object, dat de goedkeuringsstatus aangeeft. Een nieuwe status wordt altijd weergegeven wanneer het object het goedkeuringsproces doorloopt. Dit zijn onder andere de volgende gebeurtenissen:
 
 * Voor een object wordt een goedkeuringsproces gestart. Het goedkeuringsproces wordt in gang gezet wanneer de status wordt veranderd.
 * Het object wordt geweigerd
@@ -127,7 +126,7 @@ Wanneer een goedkeuring voor een project, een taak, of een kwestie in werking wo
 >
 >Als een goedkeuring op een taak wordt toegepast, worden de goedkeuringsupdates getoond op het lusje van Updates van de taak, niet op het lusje van Updates van het project waar de taak verblijft.
 
-### Gebruik het gebied Goedkeuringen om een goedkeuringsstatus weer te geven {#use-the-approvals-area-to-view-an-approval-status}
+### Geef een goedkeuringsstatus weer in het gebied Goedkeuringen {#use-the-approvals-area-to-view-an-approval-status}
 
 U kunt zien waar een taak of kwestie waaraan u momenteel werkt in het goedkeuringsproces is. U kunt de volgende informatie zien:
 

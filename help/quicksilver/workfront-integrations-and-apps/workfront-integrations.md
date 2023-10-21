@@ -3,10 +3,11 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront-integratieoverzicht
-description: Adobe Workfront biedt integratie met andere veelgebruikte toepassingen, zoals de [!DNL Adobe Creative Cloud], [!DNL Salesforce], Jira en Slack. Dit artikel verwijst naar documentatie voor alle momenteel aangeboden integraties.
+description: Adobe Workfront biedt integratie met andere veelgebruikte toepassingen, zoals de [!DNL Adobe Creative Cloud], [!DNL Salesforce], Jira en Slack. In dit artikel wordt verwezen naar documentatie voor alle momenteel aangeboden integraties.
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 6298e42d-3cf4-4bed-8a9d-3df2f6d74f93
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: fiatteurs of revisoren uit een document verwijderen
 description: U kunt afzonderlijke fiatteurs of revisoren uit een document verwijderen.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # fiatteurs of revisoren uit een document verwijderen
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De goedkeuring of het revisieverzoek wordt verwijderd en de fiatteur ontvangt een melding dat zijn goedkeuring niet langer nodig is. Hun op goedkeuring betrekking hebbende aandeeltoegang wordt ook geschrapt.
 
-1. (Optioneel) Schakel het selectievakje **Fiatteur** Schakel het selectievakje in overeenkomstig de naam.
+1. (Optioneel) Schakel het selectievakje **Fiatteur** Schakel het selectievakje in op basis van de naam.
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren te verwijderen.
 
@@ -76,6 +76,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De goedkeuring of het revisieverzoek wordt verwijderd en de fiatteur ontvangt een melding dat zijn goedkeuring niet langer nodig is. Hun op goedkeuring betrekking hebbende aandeeltoegang wordt ook geschrapt.
 
-1. (Optioneel) Schakel het selectievakje **Fiatteur** Schakel het selectievakje in overeenkomstig de naam.
+1. (Optioneel) Schakel het selectievakje **Fiatteur** Schakel het selectievakje in op basis van de naam.
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren te verwijderen.

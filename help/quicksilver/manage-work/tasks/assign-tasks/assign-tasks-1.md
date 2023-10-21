@@ -6,8 +6,9 @@ title: Taken toewijzen
 description: U kunt taaktoewijzingen op verschillende manieren beheren in Adobe Workfront. De methodes in deze sectie beschrijven de verschillende manieren u taken aan gebruikers, teams, en baanrollen kunt toewijzen.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 2b79998d-7436-43ef-a5f5-6302f1f1b7a7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

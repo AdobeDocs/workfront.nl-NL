@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Recentere ingediende goedkeuringen
 description: U kunt elk van de volgende objecten terugroepen die ter goedkeuring zijn ingediend.
 author: Courtney and Alina
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Tijdopnamen, Documenten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Tijdopnamen, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -65,13 +65,14 @@ Als u een goedkeuring herinnert die met de beginstatus van het project wordt gea
 
 U hebt een projectgoedkeuring verzonden door:
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
+   >
    Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >
    * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
-
 
 1. In de **Werklijst** gebied, navigeer naar de **Goedkeuringen die ik heb ingediend** groeperen.
 
@@ -90,17 +91,19 @@ Wanneer u een taakgoedkeuring herinnert, keert de taak aan de status terug het w
 Als u een goedkeuring herinnert die met de beginstatus van de taak wordt geassocieerd, wordt het goedkeuringsproces overgeslagen en de taak blijft in de beginstatus.
 
 >[!NOTE]
+>
 U kunt de eerste status van een project of een taak met een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het toevoegen van goedkeuringen aan een malplaatje, zie [Projectsjablonen bewerken](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Om een taakgoedkeuring terug te roepen hebt u voorgelegd:
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
+   >
    Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >
    * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
-
 
 1. In de **Werklijst** gebied, navigeer naar de **Goedkeuringen die ik heb ingediend** groeperen.
 
@@ -119,15 +122,17 @@ Wanneer u een emissiegoedkeuring herinnert, keert de afgifte terug naar de statu
 Als u een goedkeuring herinnert die met de beginstatus van de kwestie wordt geassocieerd, wordt het goedkeuringsproces overgeslagen en de kwestie blijft in de beginstatus.
 
 >[!NOTE]
+>
 U kunt de eerste status van een uitgave aan een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het creëren van een verzoekrij, zie [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
+   >
    Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >
    * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
-
 
 1. In de **Werklijst** gebied, navigeer naar de **Goedkeuringen die ik heb ingediend** groeperen.
 
@@ -143,13 +148,14 @@ U kunt de eerste status van een uitgave aan een goedkeuringsproces associëren d
 
 Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de status het binnen was alvorens het voor goedkeuring werd voorgelegd.
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
+   >
    Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >
    * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
-
 
 1. In de **Werklijst** gebied, navigeer naar de **Goedkeuringen die ik heb ingediend** groeperen.
 
@@ -165,13 +171,14 @@ Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de sta
 
 Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers handmatig uit de goedkeuring verwijderen.
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
+   >
    Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >
    * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
-
 
 1. In de **Werklijst** gebied, navigeer naar de **Goedkeuringen die ik heb ingediend** groeperen.
 
@@ -182,19 +189,20 @@ Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers ha
    ![Document.png](assets/document-350x232.png)
 
 1. Klikken **Goedkeuringen beheren** in de rechterbovenhoek van het deelvenster rechts. Hiermee opent u het vak Goedkeuringen beheren.
-1. Klik op de knop **Verwijderen** pictogram inline met de naam van een gebruiker in het vak Goedkeuringen beheren. Verwijder alle gebruikers om de documentgoedkeuring volledig in herinnering te roepen.
+1. Klik op de knop **Verwijderen** inline met de naam van een gebruiker in het vak Goedkeuringen beheren. Verwijder alle gebruikers om de documentgoedkeuring volledig in herinnering te roepen.
 
    ![Remove_User.png](assets/remove-user-350x41.png)
 
 ## Toegangsverzoeken
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
+   >
    Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >
    * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
-
 
 1. In de **Werklijst** gebied, navigeer naar de **Goedkeuringen die ik heb ingediend** groeperen.
 

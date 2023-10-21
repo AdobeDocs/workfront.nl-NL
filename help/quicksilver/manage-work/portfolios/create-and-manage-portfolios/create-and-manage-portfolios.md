@@ -6,8 +6,9 @@ title: Portfolio's maken en beheren
 description: Een Portfolio is een verzameling projecten die met dezelfde middelen, budget en planning concurreren. De projecten in een Portfolio zijn gelijkaardig genoeg dat zij de zelfde Pool van het Middel zouden gebruiken en tegen zelfde scorecard worden gemeten.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

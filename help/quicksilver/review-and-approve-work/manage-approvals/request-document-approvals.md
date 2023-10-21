@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Documentgoedkeuring aanvragen
 description: U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt ook om documentgoedkeuring verzoeken van mensen zonder Workfront-accounts als uw Workfront-beheerder deze mogelijkheid heeft ingeschakeld, zoals beschreven in de voorkeuren voor systeembeveiliging configureren.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Documentgoedkeuring aanvragen
 
-U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt ook documentgoedkeuring aanvragen bij personen zonder Workfront-accounts als uw Workfront-beheerder deze functie heeft ingeschakeld, zoals wordt beschreven in [Beveiligingsvoorkeuren voor het systeem configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt ook documentgoedkeuring aanvragen bij personen zonder Workfront-accounts als uw Workfront-beheerder deze functie heeft ingeschakeld, zoals wordt beschreven in [Systeembeveiligingsvoorkeuren configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Toegangsvereisten
 
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>De mening of hogere toegang tot Projecten, Taken, Kwesties, Malplaatjes, Portfolio's, Programma's, Rapporten, Dashboards, en Kalenders, Documenten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Omlaag schuiven naar de **Goedkeuringen** in de samenvatting en typ in het dialoogvenster **Fiatteur toevoegen** tekstvak. U kunt Workfront-gebruikers toevoegen op naam of via e-mail.
 
-1. Als uw Adobe Workfront-beheerder de mogelijkheid heeft om samen te werken met mensen die Workfront niet gebruiken, zoals beschreven in [Beveiligingsvoorkeuren voor het systeem configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadres typen om deze op te nemen.
+1. Als uw Adobe Workfront-beheerder de mogelijkheid heeft om samen te werken met mensen die Workfront niet gebruiken, zoals beschreven in [Systeembeveiligingsvoorkeuren configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadres typen om deze op te nemen.
 
    U kunt geen goedkeuring aanvragen bij teams of groepen.
 

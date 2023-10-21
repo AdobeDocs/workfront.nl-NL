@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: E-mails
-description: E-mail in Adobe Workfront bestaat uit meldingen, herinneringen en gebruikersuitnodigingen. Systeembeheerders zijn verantwoordelijk voor het instellen van een groot aantal e-mailinstellingen. andere gebruikers ( afhankelijk van het toegangsniveau ) kunnen echter baat hebben bij het gebruik van e-mailfuncties om hun eigen communicatie rond het werk te beheren .
+description: E-mail in Adobe Workfront bestaat uit meldingen, herinneringen en gebruikersuitnodigingen. Systeembeheerders zijn verantwoordelijk voor het instellen van een groot aantal e-mailinstellingen, maar andere gebruikers (afhankelijk van het toegangsniveau) kunnen profiteren van het gebruik van e-mailfuncties voor het beheer van hun eigen communicatie rondom het werk.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # E-mails
 
-E-mail in Adobe Workfront bestaat uit meldingen, herinneringen en gebruikersuitnodigingen. Systeembeheerders zijn verantwoordelijk voor het instellen van een groot aantal e-mailinstellingen. andere gebruikers ( afhankelijk van het toegangsniveau ) kunnen echter baat hebben bij het gebruik van e-mailfuncties om hun eigen communicatie rond het werk te beheren .
+E-mail in Adobe Workfront bestaat uit meldingen, herinneringen en gebruikersuitnodigingen. Systeembeheerders zijn verantwoordelijk voor het instellen van een groot aantal e-mailinstellingen, maar andere gebruikers (afhankelijk van het toegangsniveau) kunnen profiteren van het gebruik van e-mailfuncties voor het beheer van hun eigen communicatie rondom het werk.
 
 E-mail in Workfront (zowel intern als extern) is divers en dynamisch. De automatische mededelingen kunnen naar gebruikers worden verzonden die hen op de hoogte brengen wanneer de taken te laat zijn. Meldingen kunnen worden ingesteld voor een specifiek werkitem om een gebruiker eraan te herinneren dat een taak een vervaldatum nadert. Uitnodigingen kunnen worden ingesteld zodat gebruikers hun eigen wachtwoorden kunnen instellen in plaats van dat de systeembeheerder wachtwoorden beheert.
 

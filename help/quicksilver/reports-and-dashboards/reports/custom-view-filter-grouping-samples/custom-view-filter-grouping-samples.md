@@ -6,8 +6,9 @@ title: Voorbeelden van aangepaste weergaven, filters en groeperingen
 description: Voorbeeldweergave, Filter en GroeperingVoor inhoudsopgave geschikt artikel". Ik zag niet veel waarde in het organiseren van dit door voorwerpen.)"
 author: Lisa and Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>
 -->
 
-Deze sectie bevat voorbeelden van aangepaste weergaven, filters en groepen die u kunt gebruiken in uw Adobe Workfront-account. Tenzij anders gespecificeerd, kunnen deze voorbeelden niet enkel door de standaardwijzeinterface te gebruiken worden gebouwd en kunnen slechts door de interface van de tekstwijze te gebruiken worden gebouwd. Zie voor meer informatie over de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Deze sectie bevat voorbeelden van aangepaste weergaven, filters en groepen die u kunt gebruiken in uw Adobe Workfront-account. Tenzij anders gespecificeerd, kunnen deze voorbeelden niet worden gebouwd enkel door de standaardwijzeinterface te gebruiken en kunnen slechts door de interface van de tekstwijze te gebruiken worden gebouwd. Zie voor meer informatie over de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;below, drafted because not sure if the links are currently working - April 2022)</p>
@@ -32,59 +33,59 @@ Deze sectie bevat voorbeelden van aangepaste weergaven, filters en groepen die u
 
 ## Voorbeelden van aangepaste weergaven
 
-* [Weergave: de naam van bovenliggende taken weergeven als kapitalen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
+* [Weergeven: de naam van bovenliggende taken weergeven als kapitalen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
 * [Weergave: Werkelijke uren over geplande uren in dezelfde kolom van een taakweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
-* [Weergave: het toegewezen Bedrijf en de Groep van het Huis van de gebruiker](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-* [Weergave: basislijnvariatie voor Duur en Gepland Werk in een taakweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+* [Weergave: bedrijf en thuisgroep van toegewezen gebruiker](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+* [Weergave: basislijnvariatie voor Duur en Gepland werk in een taakweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
 * [Weergave: de kosten van overwerk berekenen in een tijdlijnweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
 * [Weergave: tijd- en datumverschillen berekenen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
-* [Weergave: het resultaat weergeven van een berekening tussen twee velden in een kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-* [Weergave: Voeg een lijst van taakopvolgers in een kolom toe](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [Weergeven en groeperen: weergaveproject Werkelijke duur geaggregeerd door gemiddelde in een groep](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-* [Weergave: gecombineerde taak en uitgiftedetails in een lijst van het Uur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+* [Weergeven: het resultaat weergeven van een berekening tussen twee velden in een kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [Weergave: voeg een lijst met taakopvolgers toe in een kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
+* [Weergeven en groeperen: werkelijke duur van project weergeven geaggregeerd door gemiddelde in een groep](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [Weergave: gecombineerde taak- en uitgavedetails in een overzicht van uren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [Weergave: een afbeelding weergeven in plaats van een tekenreeks in een kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [Weergave: weergaveobjecten die niet in de standaardinterface zijn opgenomen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Weergave: toon originele uitgifteinformatie over taak en projectlijsten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-* [Weergave: programma- en Portfolio-informatie weergeven in een taakweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
-* [Weergave: taakinspringingen weergeven in een takenlijst](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [Weergave: documentrapport met koppeling naar bewijs](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
-* [Weergave: De breedte van een kolom permanent bewerken](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-* [Weergave: uitgebreide gebruikersgegevens](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
+* [Weergave: weergaveobjecten die niet zijn opgenomen in de standaardinterface](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [Weergave: oorspronkelijke informatie weergeven over taken en projectlijsten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [Weergave: informatie over programma en Portfolio weergeven in een taakweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+* [Weergeven: taakinspringingen weergeven in een takenlijst](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [Weergeven: documentrapport met koppeling naar proefdruk](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
+* [Weergave: de breedte van een kolom permanent bewerken](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+* [Weergeven: uitgebreide gebruikersgegevens](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
 * [Weergave: de inhoud van een kolom verbergen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-* [Weergave: uren met informatie over bovenliggende taken](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
-* [Weergave: kwesties met goedkeuringsinformatie](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
-* [Weergave: problemen met de bedrijfsnaam van de afzender](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
-* [Weergave: problemen met het oplossen van objectdetails](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
+* [Weergeven: uren met bovenliggende taakgegevens](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
+* [Weergeven: problemen met goedkeuringsinformatie](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
+* [Weergave: problemen met de bedrijfsnaam van de maker](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
+* [Weergeven: problemen met het oplossen van objectdetails](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
 * [Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-* [Weergave: multi-rij projectweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
-* [Weergave: het voortkomen uitgeeft details voor taken en projecten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
-* [Weergave: de ouder-kind verhouding in een taak tonen door de taken in te springen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
-* [Weergave: Geplande uren vs. Werkelijke uren per toewijzing in een taakweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [Weergave: details voorganger](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
-* [Weergave: project met alle gebruikers van het projectteam en rollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
+* [Weergave: projectweergave met meerdere rijen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
+* [Weergave: details over de oorsprong van taken en projecten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
+* [Weergave: de relatie bovenliggend-onderliggend item in een taak weergeven door de taken in te springen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
+* [Weergave: Geplande uren versus Werkelijke uren per toewijzing in een taakweergave](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
+* [Weergave: details van vorige versie](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [Weergave: project met alle gebruikers en rollen van het projectteam](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
 * [Weergave: lijst met projectgebruikers met taakrollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
 * [Weergave: koppeling naar een object in een kolom verwijderen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
-* [Weergave: in rapporten gebruikte rapporteringselementen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
-* [Weergave: Oplosbare Objecten in een taak- of projectrapport](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+* [Weergave: rapporteringselementen die worden gebruikt in rapporten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
+* [Weergave: Oplosbare objecten in een taak- of projectrapport](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
   -->
 
-* [Weergave: bovenliggende taken tot 4 niveaus diep tonen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
-* [Weergave: verzendingspad voor problemen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
-* [Weergave: taak met Alle datums variatie](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
-* [Weergave: taken die door planningsuitzonderingen worden beïnvloed](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
-* [Weergave: externe URL gebruiken met aangepast gegevensveld](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
-* [Weergave: Percentage gebruikersrol rol van beschikbaarheid van FTE](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+* [Weergave: bovenliggende taken tot 4 niveaus diep weergeven](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+* [Weergeven: verzendpad voor problemen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
+* [Weergeven: taak met variatie Alle datums](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+* [Weergave: taken die worden beïnvloed door planningsuitzonderingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
+* [Weergeven: externe URL met gebruik van aangepast gegevensveld](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
+* [Weergave: percentage gebruikersrol van FTE-beschikbaarheid](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
 * [Weergave: persoonlijke tijd van gebruiker uitgeschakeld](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md" class="MCXref xref" xrefformat="{para}">View: username</a> </p> </li>
   -->
 
@@ -92,40 +93,40 @@ Deze sectie bevat voorbeelden van aangepaste weergaven, filters en groepen die u
 
 * [Filter: onvolledige voordecessors voor meerdere projecten weergeven](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [Filter: onvolledige opvolgers voor meerdere projecten weergeven](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
-* [Filter: de huidige projecten tonen in afwachting van goedkeuring](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
-* [Filter: alleen items in een goedkeuringsstatus weergeven](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+* [Filter: uw huidige projecten weergeven in afwachting van goedkeuring](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
+* [Filter: alleen items weergeven in een goedkeuringsstatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [Filter: items in een lijst verwijderen door twee velden te vergelijken](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
 * [Filter: bovenliggende taken weergeven](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-* [Filter: Bewijs van goedkeuring om vorige proefversies weg te laten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+* [Filter: rapport Goedkeuring proef om vorige proefversies weg te laten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
 * [Filter: meerdere filterregels maken die naar hetzelfde veld verwijzen (&quot;AND&quot;-instructies)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
 * [Filter: weergaverapporten die zijn gepland voor levering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
-* [Filter: items weergeven op basis van status met dezelfde naam wanneer de statussen aan verschillende groepen zijn gekoppeld](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [Filter: items weergeven op basis van dezelfde naam wanneer de statussen zijn gekoppeld aan verschillende groepen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
 ## Voorbeelden van aangepaste groepen
 
 * [Een rapport groeperen op basis van een aangepast veld met meerdere selecties](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-* [Groeperen: Thuisgroep van projecteigenaar in een lijst met uren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [Groeperen: Taakgroep op vier niveaus voor Portfolio-eigenaar, programmaeigenaar, projecteigenaar en projectstatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [Groepering: Home Group of Project Owner in een lijst met uren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [Groepering: taakgroepering op vier niveaus voor eigenaar van Portfolio, eigenaar van programma, eigenaar van project en status van project](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
 * [Groeperen: een vierde groep toevoegen aan een lijst](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [Groeperen: lijstresultaten ordenen met een berekende waarde die wordt gedeeld door alle objecten in de groep](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [Groeperen: lijstresultaten ordenen met een berekende waarde die hetzelfde is voor alle objecten in de groep](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Groeperen: het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
-* [Groeperen: aangeven of de resultaten van een groepering moeten worden samengevouwen of uitgevouwen in de tekstmodus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
-* [Groeperen: uitsplitsing naar projectpercentage 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
-* [Groeperen: uitsplitsing naar projectpercentage 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
-* [Groeperen: projecten op instapdatum](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-* [Groeperen: Projectsponsor voor uren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
-* [Groeperen: Projectsponsor voor een takenlijst](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
+* [Groeperen: geeft aan of de resultaten van een groepering moeten worden samengevouwen of uitgevouwen met de tekstmodus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [Groepering: uitsplitsing projectpercentages 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
+* [Groepering: uitsplitsing projectpercentages 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
+* [Groepering: projecten op datum van binnenkomst](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
+* [Groepering: projectsponsor voor uren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+* [Groepering: projectsponsor voor een takenlijst](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
 * [Groeperen: de weergavenaam in een groep bewerken](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [Groeperen: Thuisgroep van projecteigenaar in een lijst met uren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [Groeperen: verdeling taakpercentage 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
-* [Groeperen: verdeling taakpercentage 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+* [Groepering: Home Group of Project Owner in een lijst met uren](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [Groepering: verdeling taakpercentage 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
+* [Groepering: verdeling taakpercentage 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
 * [Groeperen: taken per portfolio, programma en project](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
 
 ## Overige aangepaste rapporteringselementen en -rapporten
 
-* [Rapporten of lijsten: gebruikers weergeven die aan een object zijn gekoppeld](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
-* [Rapport: Budgeted Hour](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
-* [Rapport: gecombineerde taak en kwestie Mening en Groepering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+* [Rapporten of lijsten: gebruikers weergeven die zijn gekoppeld aan een object](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+* [Verslag: Budgeted Hour](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
+* [Rapport: gecombineerde taak en uitgave weergeven en groeperen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
 * [Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
 
 <!--

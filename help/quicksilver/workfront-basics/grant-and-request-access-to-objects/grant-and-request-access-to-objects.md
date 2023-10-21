@@ -6,8 +6,9 @@ title: Rechten verlenen en aanvragen voor objecten
 description: Bekijk deze artikelen voor meer informatie over het verlenen en aanvragen van machtigingen voor objecten in Workfront.
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -38,10 +39,10 @@ Deze sectie bevat de volgende artikelen over hoe u toestemming aan voorwerpen ku
 * [Een filter, weergave of groep delen](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Een abonnement delen in de Scenario-planner](../../scenario-planner/share-a-plan.md)
 
-   Hiervoor is een aanvullende licentie voor de Workfront Scenario Planner vereist. Zie voor meer informatie [Toegang nodig om de Planner van het Scenario te gebruiken](../../scenario-planner/access-needed-to-use-sp.md).
+  Hiervoor is een aanvullende licentie voor de Workfront Scenario Planner vereist. Zie voor meer informatie [Toegang nodig om de Planner van het Scenario te gebruiken](../../scenario-planner/access-needed-to-use-sp.md).
 
 * [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-   Dit vereist een extra licentie voor Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  Dit vereist een extra licentie voor Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 * [Toegang tot Adobe Workfront configureren](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

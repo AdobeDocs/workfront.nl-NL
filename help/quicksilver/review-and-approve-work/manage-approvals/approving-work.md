@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Goedkeuring van de werkzaamheden
 description: Goedkeuring van de werkzaamheden
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Als u als fiatteur wordt geplaatst, zou u regelmatig moeten herzien welk werk in
 
 Voor informatie over het maken van goedkeuringsprocessen raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Voor informatie over het koppelen van goedkeuringen aan werk in Workfront raadpleegt u [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Voor informatie over het koppelen van goedkeuringen aan het werk in Workfront raadpleegt u [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Toegangsvereisten
 
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -58,11 +58,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt goedkeuringen bekijken en beheren in verschillende gebieden van Workfront.
 
-Voor meer informatie over het bekijken van objecten die wachten op goedkeuring of onderdelen die u zelf ter goedkeuring hebt ingediend, raadpleegt u [Goedkeuringen weergeven](../../review-and-approve-work/manage-approvals/view-approvals.md).
+Ga voor meer informatie over het bekijken van objecten die wachten op goedkeuring of onderdelen die u zelf ter goedkeuring hebt ingediend naar [Goedkeuringen weergeven](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Werk goedkeuren vanuit het thuisgebied
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
    >
@@ -72,8 +72,7 @@ Voor meer informatie over het bekijken van objecten die wachten op goedkeuring o
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
 
-
-1. Klik op de knop **Filter** vervolgkeuzemenu.
+1. Klik op de knop **Filter** vervolgkeuzelijst.
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
@@ -100,31 +99,31 @@ Voor meer informatie over het bekijken van objecten die wachten op goedkeuring o
    * **Timesheets:** Klikken **Goedkeuren** of **Afwijzen** .
 
    * **Documenten:** Klikken **Goedkeuren**, **Afwijzen**, of **Wijzigingen**.\
-       Houd rekening met het volgende wanneer u goedkeuringen weergeeft:
+      Houd rekening met het volgende wanneer u goedkeuringen weergeeft:
 
       * Hier worden proefdrukken van goedkeuringen weergegeven wanneer een gebruiker een proefdruk met u deelt, zoals wordt beschreven in de sectie &quot;Een proefdrukkoppeling delen&quot; in het artikel [Een proefdruk delen in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
       * Goedkeuringen voor proefdrukken worden alleen weergegeven in het gedeelte Home als uw Workfront-omgeving is geïntegreerd met een Workfront Proof Premium-account. Neem contact op met de Workfront-beheerder als u geen gebruik kunt maken van de hier beschreven proefdrukken.
       * U ontvangt een melding in de app waarin u op de hoogte wordt gebracht van de goedkeuring voor proefdrukken.\
-         Voor meer informatie over meldingen in de app raadpleegt u [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+        Zie voor meer informatie over meldingen in de app [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
       * De naam van de gebruiker die goedkeuring heeft aangevraagd, wordt weergegeven naast de miniatuurafbeelding in het gebied Home, met de volgende tekst:\
-         &quot;*Gebruiker A* graag uw goedkeuring op...&quot;
+        &quot;*Gebruiker A* graag uw goedkeuring op...&quot;
 
-         <!--      
+        <!--      
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
         (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
         </MadCap:conditionalText>      
         -->
 
-         Als de gebruikersnaam niet beschikbaar is, wordt de volgende tekst weergegeven:\
-         &quot;Een nieuwe versie van een proefdruk kan worden weergegeven&quot;
+        Als de gebruikersnaam niet beschikbaar is, wordt de volgende tekst weergegeven:\
+        &quot;Een nieuwe versie van een proefdruk kan worden weergegeven&quot;
       * Als u een goedkeuringsbesluit wilt nemen over het bewijs, klikt u op **Ga naar proefafdruk**, klikt u op **Revisie voltooien** en klikt u op een van de beschikbare opties. De beschikbare opties voor het goedkeuren van een proefdruk zijn: **Goedgekeurd**, **Goedgekeurd met wijzigingen**, **Vereiste wijzigingen**, en **Niet relevant**.
 
       * Nadat een besluit is genomen op het bewijs, blijft het bewijs op het tabblad Mijn goedkeuringen staan met de tekst &quot;Beslissing gemaakt&quot; totdat u klikt op het tabblad **Vernieuwen** of totdat u de browserpagina vernieuwt.
 
-         Voor informatie over het bekijken van een bewijs raadpleegt u [Proefversies bekijken in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-   * **Toegang:** Selecteer in het dialoogvenster **Toegang wijzigen** vervolgkeuzemenu en vervolgens op **Toegang verlenen**. Of klik op **Negeren**.
+        Voor informatie over het bekijken van een bewijs raadpleegt u [Proefversies bekijken in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
+   * **Toegang:** Selecteer het toegangsniveau dat u wilt verlenen in het dialoogvenster **Toegang wijzigen** vervolgkeuzemenu en vervolgens op **Toegang verlenen**. Of klik op **Negeren**.
 
 ## Het werk rechtstreeks vanuit een project, taak of probleem goedkeuren
 
@@ -150,7 +149,7 @@ Om het werk van een project, een taak, of een kwestie direct goed te keuren:
      </tr> 
      <tr> 
       <td role="rowheader">Goedkeuringsfasen</td> 
-      <td>De fasen van het goedkeuringsproces. <br>Het huidige stadium dat goedkeuring in afwachting is wordt getoond zoals In behandeling. De stadia die reeds zijn goedgekeurd worden getoond zoals Goedgekeurd; als Niet gestart worden weergegeven, worden stappen weergegeven die nog niet zijn goedgekeurd.</td> 
+      <td>De fasen van het goedkeuringsproces. <br>Het huidige stadium dat goedkeuring in afwachting is wordt getoond zoals In behandeling. De stadia die reeds zijn goedgekeurd worden getoond als Goedgekeurd; de stadia die nog niet zijn goedgekeurd worden getoond als niet Begonnen.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -175,13 +174,13 @@ Afhankelijk van uw berichtinstellingen ontvangt u mogelijk e-mailberichten waari
 1. Voer een van de volgende handelingen uit om het document te reviseren:
 
    * De metagegevens van het document weergeven.
-   * Als er een proefdruk is gemaakt voor het reviseren van het document met opmaakcodes en opmerkingen, klikt u op **Proef openen** ![](assets/open-proof-icon-qs.png) in de rechterbovenhoek en bekijk de proefdruk.
+   * Als er een proefdruk is gemaakt voor het reviseren van het document met markeringen en opmerkingen, klikt u op **Proef openen** ![](assets/open-proof-icon-qs.png) in de rechterbovenhoek en bekijk de proefdruk.
 
-      <!--   
+     <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-      Voor informatie over het controleren van proefdrukken raadpleegt u [Proefversies bekijken in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Zie voor informatie over het controleren van proefdrukken [Proefversies bekijken in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Klik op een **Besluit** in de rechterbovenhoek om het document goed te keuren, goed te keuren met wijzigingen of af te wijzen.
 

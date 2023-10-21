@@ -6,8 +6,9 @@ title: Resultaten en activiteiten in de Adobe Workfront-doelstellingen
 description: Resultaten en activiteiten zijn voortgangsindicatoren voor een doel in de Doelen van Adobe Workfront. Meer informatie over resultaten en activiteiten vindt u in de volgende artikelen.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -50,13 +51,13 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Als u de vorderingen met betrekking tot de Workfront-doelstellingen wilt vastleggen, moet u voortgangsindicatoren koppelen aan doelstellingen. Naast resultaten en activiteiten, kunt u projecten of kinddoelstellingen aan een doel ook associëren om vooruitgang te registreren.
+Als u de vorderingen met betrekking tot de Workfront-doelstellingen wilt vastleggen, moet u voortgangsindicatoren aan de doelstellingen koppelen. Naast resultaten en activiteiten, kunt u projecten of kinddoelstellingen aan een doel ook associëren om vooruitgang te registreren.
 
 Deze sectie bevat de volgende artikelen:
 
 * [Aan de slag met resultaten en activiteiten in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 * [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Projecten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+* [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
 * [Resultaten en activiteiten bewerken in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Resultaten, activiteiten en projecten verwijderen uit doelen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

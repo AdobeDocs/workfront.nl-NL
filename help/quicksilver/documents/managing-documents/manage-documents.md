@@ -6,8 +6,9 @@ title: Documenten beheren
 description: U kunt documenten organiseren en beheren in Workfront in het gebied Documenten.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 16b2675741de3171c8789b33820b7bb5c506b978
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Deze sectie bevat de volgende artikelen: &#x200B;
 * [Een koppeling naar een documentmap kopiëren en delen](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md)
 * [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md)
 * [Documentversies beheren](../../documents/managing-documents/manage-document-versions.md)
-* [Documenten uitchecken](../../documents/managing-documents/check-out-documents.md)
+* [Documenten controleren](../../documents/managing-documents/check-out-documents.md)
 * [Documenten downloaden](../../documents/managing-documents/download-documents.md)
 * [Documenten verplaatsen](../../documents/managing-documents/move-documents.md)
 * [Documentopslaglimieten controleren](../../documents/managing-documents/check-document-storage.md)

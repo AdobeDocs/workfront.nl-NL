@@ -5,8 +5,9 @@ title: Een projectoverzicht plannen
 description: Een projectoverzicht plannen
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 0%
@@ -51,7 +52,7 @@ Nadat u het algemene werkingsgebied van het project hebt bepaald, kunt u dan bep
 
 ### De begin- en einddatum van het project bepalen {#define-the-start-and-completion-date-of-the-project}
 
-Wanneer u een project plant, is één van de eerste dingen die u moet bepalen de chronologie: wanneer kan het project beginnen en wanneer moet het worden voltooid . Bepaal of er een vastgestelde termijn voor wanneer het project moet worden gebeëindigd, of of u een uitgangspunt en het werk uit daar zou moeten plaatsen. 
+Wanneer u een project plant, is één van de eerste dingen die u moet bepalen de chronologie: wanneer kan het project beginnen en tegen welk tijdstip het moet voltooien. Bepaal of er een vastgestelde termijn voor wanneer het project moet worden gebeëindigd, of of u een uitgangspunt en het werk uit daar zou moeten plaatsen. 
 
 U kunt een project van een Datum van het Begin plannen, of u kunt het van de Datum van de Voltooiing plannen. U kunt dit kenmerk instellen wanneer u het project maakt en u kunt het op elk gewenst moment wijzigen door het project te bewerken.
 
@@ -78,14 +79,14 @@ Wanneer het plannen van een project, is er extra informatie die opstelling moet 
 Stel de volgende vragen:
 
 * Bestaat er een verordening die u verplicht een register van gebeurtenissen en processen bij te houden? Zo ja, wat moet u volgen?\
-   Met Workfront kunt u bewerkingen, wijzigingen in het bereik, statuswijzigingen en handelingen vastleggen, zodat u kunt voldoen aan de specifieke regelgeving voor uw branche.\
-   Raadpleeg het artikel voor meer informatie over het definiëren van de updates die in Workfront moeten worden bijgehouden [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Met Workfront kunt u bewerkingen, wijzigingen in het bereik, statuswijzigingen en handelingen vastleggen, zodat u kunt voldoen aan de specifieke regelgeving voor uw branche.\
+  Raadpleeg het artikel voor meer informatie over het definiëren van de updates die in Workfront moeten worden bijgehouden [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Is er informatie die u nodig hebt om bij te houden die geen veld in Workfront heeft om het in op te slaan?! Als dat het geval is, maakt u een aangepaste Forms voor projecten of taken waarin u deze gegevens kunt opslaan.\
-   Zie het artikel voor meer informatie over het maken van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Zie het artikel voor meer informatie over het maken van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-* Zijn er om het even welke punten van de goedkeuringscontrole die moeten worden verleend alvorens het werk aan een project kan verdergaan? Als ja, creeer de Processen van de Goedkeuring voor projecten of taken die u kunt gebruiken aangezien u uw project bouwt.\
-   Raadpleeg het artikel voor meer informatie over goedkeuringsprocessen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Zijn er controlepunten voor goedkeuring die moeten worden toegekend voordat de werkzaamheden aan een project kunnen worden voortgezet? Als ja, creeer de Processen van de Goedkeuring voor projecten of taken die u kunt gebruiken aangezien u uw project bouwt.\
+  Raadpleeg het artikel voor meer informatie over goedkeuringsprocessen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## De projecttijdlijn samenstellen
 
@@ -99,19 +100,19 @@ Houd rekening met het volgende wanneer u de tijdlijn van het project samenstelt:
 * Verdeel grotere doelstellingen in kindertaken en bepaal hun Begin en hun Voltooiingsdata.
 * Bepaal of uw doelstellingen afhankelijk zijn van andere doelstellingen.
 
-   U kunt die gebiedsdelen opstelling als predecessors.
+  U kunt die gebiedsdelen opstelling als predecessors.
 
-   U hebt bijvoorbeeld een project om een appartementengebouw te bouwen. Een van uw doelstellingen is het loodsen en een ander is het leggen van de basis. Een van uw leidinggevende taken is het verbinden met de hoofdwaterlijn van de stad en dit moet gebeuren voordat de basis gelegd wordt. De meeste andere leidinggevende taken kunnen echter pas worden uitgevoerd nadat de basis is gelegd. In dit geval kunt u beter predecessors gebruiken om te begrijpen wanneer één doel kan beginnen nadat de voorwaarde is voltooid.
+  U hebt bijvoorbeeld een project om een appartementengebouw te bouwen. Een van uw doelstellingen is het loodsen en een ander is het leggen van de basis. Een van uw leidinggevende taken is het verbinden met de hoofdwaterlijn van de stad en dit moet gebeuren voordat de basis gelegd wordt. De meeste andere leidinggevende taken kunnen echter pas worden uitgevoerd nadat de basis is gelegd. In dit geval kunt u beter predecessors gebruiken om te begrijpen wanneer één doel kan beginnen nadat de voorwaarde is voltooid.
 
-   Wanneer u oudertaken gebruikt om doelstellingen te organiseren, kunt u één taak voor elk belangrijk doel tot stand brengen, en subtaken toevoegen wanneer u aan het stadium van het breken van belangrijke doelstellingen in individuele taken komt. Hierdoor blijven de taken die deel uitmaken van het doel dat binnen het project is georganiseerd, behouden. 
+  Wanneer u oudertaken gebruikt om doelstellingen te organiseren, kunt u één taak voor elk belangrijk doel tot stand brengen, en subtaken toevoegen wanneer u aan het stadium van het breken van belangrijke doelstellingen in individuele taken komt. Hierdoor blijven de taken die deel uitmaken van het doel dat binnen het project is georganiseerd, behouden. 
 
-   Voor meer informatie over taakvoorgangers raadpleegt u [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Voor meer informatie over taakvoorgangers raadpleegt u [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Houd rekening met de belangrijkste doelstellingen van uw project en markeer deze als mijlpaal.
 
-   Wij adviseren gebruikend oudertaken als mijlpalen.
+  Wij adviseren gebruikend oudertaken als mijlpalen.
 
-   Voor meer informatie over het gebruiken van milestone taken, zie [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Voor meer informatie over het gebruiken van milestone taken, zie [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Definieer een tijdlijn voor elke doelstelling. Als u met oudertaken werkt, moet elke kindtaak een bepaalde Datum van het Begin en van de Voltooiing hebben. De tijd tussen de vroegste Datum van het Begin van een taak en de recentste Datum van de Voltooiing van een taak op het zelfde project resulteert in de projectchronologie. 
 
@@ -124,25 +125,25 @@ U kunt taken op een project op de volgende manieren tot stand brengen:
 * Voeg taken toe aan een project in inline geef uit.
 * Gebruik een Malplaatje met bepaalde Taken van het Malplaatje en voeg het aan uw project toe. 
 
-   De Taken van het Malplaatje worden de Taken van het Project. 
+  De Taken van het Malplaatje worden de Taken van het Project. 
 
-   Zie het artikel voor meer informatie over het maken van taken [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+  Zie het artikel voor meer informatie over het maken van taken [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 Houd rekening met het volgende wanneer u taken definieert:
 
 * Definieer de tijdlijn van elke taak. Dit wordt gevangen op het gebied van de Duur van elke taak.
 
-   Raadpleeg het artikel voor informatie over de duur van de taak [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Raadpleeg het artikel voor informatie over de duur van de taak [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Bepaal de ouder-kind verhouding tussen de taken.
 * Definieer de voorganger-relatie tussen de taken.
 * Koppel een milestone-pad aan het project en koppel een mijlpaal aan de respectievelijke taak. 
 
-   Raadpleeg het artikel voor meer informatie over het gebruik van mijlpaaltaken [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Raadpleeg het artikel voor meer informatie over het gebruik van mijlpaaltaken [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Bepaal de hoeveelheid werk nodig om elke taak te voltooien. Dit wordt vastgelegd in het veld Geplande uren van elke taak.
 
-   Raadpleeg het artikel voor meer informatie over Geplande uren [Overzicht van geplande uren](../../../manage-work/tasks/task-information/planned-hours.md).
+  Raadpleeg het artikel voor meer informatie over Geplande uren [Overzicht van geplande uren](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Wijs elke taak toe aan een gebruiker of een team dat verantwoordelijk is voor de voltooiing ervan.
 * Controleer de beschikbaarheid van de gebruikers u aan de taken toewijst. Zorg ervoor dat ze vrij kunnen werken en niet overbelast zijn, zodat ze hun toegewezen taken kunnen uitvoeren. Als de gebruikers oververdeeld zijn of zij tijd in hun programma&#39;s hebben, overweeg één van het volgende:
@@ -150,5 +151,5 @@ Houd rekening met het volgende wanneer u taken definieert:
    * Verminder de geplande uren van elke taak.
    * Voeg meer gebruikers aan een taak toe om ervoor te zorgen dat het tijdens de toegewezen tijd kan worden voltooid.
    * Wijs de taken opnieuw toe aan gebruikers die zonder andere beperkingen beschikbaar zijn.\
-      Raadpleeg het artikel voor meer informatie over het plannen van uw projectbronnen [Resourceplanning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Voor meer informatie over het plannen van uw middelen om het werk aan een project te verwezenlijken, zie [Overzicht van de werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     Raadpleeg het artikel voor meer informatie over het plannen van uw projectbronnen [Resourceplanning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Voor meer informatie over het plannen van uw middelen om het werk aan een project te verwezenlijken, zie [Overzicht van de werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

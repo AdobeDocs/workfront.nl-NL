@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Overzicht van goedkeuringen van nieuwe documenten
 description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat al goedkeuringen in behandeling heeft.
 author: Nolan
-feature: Work Management
-source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
+feature: Work Management, Digital Content and Documents
+exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van goedkeuringen van nieuwe documenten
 
@@ -39,18 +39,18 @@ Lees verder hieronder voor meer informatie over geplande functies en releases vo
 * **Controlespoor**\
     Met de Goedkeuringen van Nieuw Document, wordt een controletraject van alle goedkeuringsactiviteiten gehandhaafd in de activiteitenstroom, die een waardevolle middel voor toekomstige verwijzing en naleving verstrekken.
 
-## Release-abonnement
+## Releaseplan
 
 We stellen Goedkeuringen voor nieuwe documenten beschikbaar voor gebruikers in de loop van verschillende releases. Naast het toevoegen van nieuwe eigenschappen, zullen wij ook het aantal rekeningen uitbreiden waarvoor de Goedkeuringen van het Nieuw Document met elke versie beschikbaar zijn. Accountbeheerders ontvangen een e-mail van het Aankondigingscentrum waarin zij op de hoogte worden gesteld van de wijziging voordat deze wordt opgenomen.
 
 Als u Goedkeuringen voor nieuwe documenten wilt inschakelen in uw productieomgeving, neemt u contact op met uw Customer Success of Strategic Account Manager.
 
 **Release 1**\
-    Voorvertoning: 31 mei 2023\
+    Voorbeeld: 31 mei 2023\
     Productie: 14 juni 2023
 
 ## Goedkeuringen van nieuwe documenten gebruiken
 
 Raadpleeg de artikelen in de lijst voor gebruikers die documentgoedkeuringen willen maken of beheren [Documentgoedkeuringen beheren](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
 
-Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in de lijst [Documenten beoordelen en goedkeuren](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).
+Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in [Documenten beoordelen en goedkeuren](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).

@@ -6,8 +6,9 @@ title: Projectfinanciën
 description: De volgende artikelen bevatten informatie over gebieden waar u financiële informatie over projecten kunt vinden en over hoe te om projectfinanciën te beheren.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Raadpleeg de volgende artikelen voor informatie over gebieden waar u financiële
 
 [De projectvaluta wijzigen](../../../manage-work/projects/project-finances/change-project-currency.md)
 
-[Projectfinanciën opgenomen in de basislijnen van projecten](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
+[Projectfinanciën die in de basislijnen van projecten zijn opgenomen](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
 
 ## Projectcijfers en -berekeningen
 

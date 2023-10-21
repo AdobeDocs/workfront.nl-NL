@@ -7,8 +7,9 @@ title: Workfront Proof - veelgestelde vragen
 description: Deze sectie bevat de volgende artikelen - BEWERK ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
@@ -25,10 +26,10 @@ Deze sectie bevat de volgende artikelen:
 
 * [Veelgestelde vragen - proefdrukken en bestanden maken en delen](../../../workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
 * [Veelgestelde vragen - proefdrukken bekijken](../../../workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-* [Veelgestelde vragen - [!DNL Workfront Proof] account](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+* [FAQ - [!DNL Workfront Proof] account](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
 * [Aanmelden en uw wachtwoord en e-mail wijzigen voor [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md" class="MCXref xref" xrefformat="{para}">Opening a Workfront Proof basic trial account</a> </li>
   -->
 

@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Een document reviseren
 description: Als controleur kunt u een voorvertoning weergeven van een document dat ter controle naar u is verzonden.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
 
 ---
-
 
 # Een document reviseren
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -79,7 +79,7 @@ Add once functionality is added
 
 1. Selecteer in het vervolgkeuzemenu de versie van het document die u wilt reviseren. De meest recente versie wordt standaard geselecteerd.
 
-1. Houd de muisaanwijzer boven de voorvertoning van het document in het dialoogvenster **Details** boven aan het deelvenster Documentoverzicht. Vervolgens:
+1. Houd de voorvertoning van het document boven in het dialoogvenster **Details** boven aan het deelvenster Documentoverzicht. Vervolgens:
 
    Klikken **Voorvertoning** om een alleen-lezen versie van het document in een nieuw venster te openen.
 

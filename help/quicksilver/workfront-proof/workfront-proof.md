@@ -7,8 +7,9 @@ title: Workfront Proof
 description: Deze sectie bevat de volgende subsecties - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 12%
@@ -19,7 +20,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken in Adobe Workfront raadpleegt u [Proofing](../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Zie voor informatie over proefdrukken in Adobe Workfront [Proofing](../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende subsecties:
 

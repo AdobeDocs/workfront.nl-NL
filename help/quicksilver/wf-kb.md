@@ -1,8 +1,9 @@
 ---
 filename: wf-kb
 title: Workfront-kennisbasis
+recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 * [Documenten](documents/documents-overview.md)
 * [Rapportage](reports-and-dashboards/reports-and-dashboards-overview.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 

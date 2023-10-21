@@ -8,8 +8,9 @@ title: Adobe Workfront Fusion in de Adobe Admin Console
 description: Verwijder deze tekst en vervang deze door uw eigen inhoud.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 92185eff-ca16-4d2a-acc6-a0d271203232
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -26,5 +27,5 @@ Deze sectie bevat de volgende artikelen:
 
 * [Gebruikers toevoegen aan [!DNL Adobe Workfront Fusion] via de [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 * [Gebruikers verwijderen in [!DNL Adobe Workfront Fusion] via de [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
-* [verschillen in toediening op basis van Platforms ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
+* [Verschillen in beheer op basis van platforms ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
 * [[!DNL Adobe Workfront Fusion] op de [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)

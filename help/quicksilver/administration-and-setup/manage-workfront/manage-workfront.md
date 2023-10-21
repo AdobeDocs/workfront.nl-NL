@@ -7,8 +7,9 @@ title: Adobe Workfront beheren
 description: Als Workfront-beheerder kunt u proofing Workfront-functionaliteit, rapporten, e-mails, beveiliging, wisselkoersen, verwijderde items en diagnostische functies configureren.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%

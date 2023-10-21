@@ -8,8 +8,9 @@ description: Als [!DNL Adobe Workfront] beheerder, kunt u de systeemgebreken, zo
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 160c1b11cfca13ae141612a516d6c592d4bac509
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Deze sectie bevat de volgende artikelen:
 * [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
 * [Projectvoorkeuren voor alle groepen in het systeem vergrendelen of ontgrendelen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
 * [Aanvraagtypen configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
-* [Standaardtypen voor problemen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
+* [Standaardobjecttypen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Standaardfilters, weergaven en groepen maken, bewerken en delen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
 * [Configureren [!UICONTROL Resource Management] voorkeuren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Risicotypen bewerken en maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)

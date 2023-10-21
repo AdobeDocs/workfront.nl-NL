@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Een document goedkeuren
 description: Als u als fiatteur aan een document wordt toegewezen, zijn er veelvoudige manieren u uw goedkeuringsbesluit kunt nemen.
 author: Nolan
-feature: Work Management
-source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
+feature: Work Management, Digital Content and Documents
+exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
 
 ---
-
 
 # Een document goedkeuren
 
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een document van thuis goedkeuren
 
-1. Klik op de knop **Home** pictogram ![](../assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](../assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](../assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
 
-1. Klikken **Filters** boven aan de linkerkant van de pagina en zorg ervoor dat **Goedkeuringen** is ingeschakeld.
+1. Klikken **Filters** links boven op de pagina en zorg ervoor dat **Goedkeuringen** is ingeschakeld.
 
    Alle werkitems die u wilt goedkeuren, worden weergegeven in de lijst.
 
@@ -96,7 +96,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Selecteer in het vervolgkeuzemenu naast de naam van het document de versie van het document die in afwachting is van uw goedkeuring. De meest recente versie wordt standaard geselecteerd.
 
-   Als de momenteel geselecteerde versie van het document een goedkeuring in behandeling voor u heeft, worden de knopen van het goedkeuringsbesluit getoond in de hoogste juiste hoek van de pagina; als in andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode stip weergegeven.
+   Als voor de momenteel geselecteerde versie van het document goedkeuring in behandeling is, worden de knoppen voor het goedkeuringsbesluit weergegeven in de rechterbovenhoek van de pagina. Als voor andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode punt weergegeven.
 
    <!--
    ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
@@ -120,7 +120,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Selecteer in het vervolgkeuzemenu de versie van het document die u wilt reviseren. De meest recente versie wordt standaard geselecteerd.
 
-   Als de momenteel geselecteerde versie van het document een goedkeuring in behandeling voor u heeft, worden de knopen van het goedkeuringsbesluit getoond in de hoogste juiste hoek van de ruit van het Overzicht van het Document; als in andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode stip weergegeven.
+   Als voor de momenteel geselecteerde versie van het document goedkeuring in behandeling is, worden de knoppen voor het goedkeuringsbesluit weergegeven in de rechterbovenhoek van het deelvenster Documentoverzicht. Als voor andere versies van het document goedkeuring voor u in behandeling is, wordt in het keuzemenu een rode punt weergegeven.
 
    <!--
    ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)

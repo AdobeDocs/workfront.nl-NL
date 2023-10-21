@@ -8,8 +8,9 @@ title: Apps en modules daarvan
 description: Adobe Workfront Fusion biedt momenteel speciale connectors voor de apps op deze lijst. Als de app waarmee u wilt werken, niet in deze lijst staat, kunt u er verbinding mee maken met de modules HTTP, SOAP of JSON.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%

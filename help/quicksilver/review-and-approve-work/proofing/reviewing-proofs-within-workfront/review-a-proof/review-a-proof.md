@@ -2,19 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Een bewijs controleren
+title: Een proefafdruk controleren
 description: Inhoud weergeven in een proefdruk
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 9fbdf8a3-eebc-4ad3-9ad9-7d8ad782b929
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-# Een bewijs controleren
+# Een proefafdruk controleren
 
 * [Inhoud weergeven in een proefdruk](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
 * [Een gebied binnen een proefdruk meten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -27,6 +28,6 @@ ht-degree: 0%
 * [De resolutie voor interactieve proefdrukken wijzigen in de proefdrukviewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
 * [Een proefdruk delen vanuit de proefdrukviewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
 * [Proofing van interactieve inhoud instellen in webproefdrukviewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
-* [Instellingen voor proefdrukviewers configureren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+* [De instellingen voor de proefdrukviewer configureren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
 
  

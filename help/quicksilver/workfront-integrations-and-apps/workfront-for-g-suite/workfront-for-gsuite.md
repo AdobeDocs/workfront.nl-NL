@@ -7,8 +7,9 @@ title: Adobe Workfront for G Suite
 description: Adobe Workfront for G Suite verbindt u met uw belangrijkste werk en staat u toe om met anderen samen te werken terwijl het blijven binnen Gmail, Google Kalender, en de Aandrijving van Google. Zonder deze toepassingen te verlaten, kunt u gemailde verzoeken of het werk updates vangen en hen toevoegen aan Workfront. U kunt controleren wat er in Workfront gebeurt, met inbegrip van vervaldata, prioriteit, documenten, updates en extra context, zonder uw binnen doos te verlaten. U kunt goedkeuringsbesluiten nemen, op commentaren antwoorden, of nieuwe het werkverzoeken goedkeuren. En u kunt uw e-mails converteren naar persoonlijke projecttaken of werk en prioriteit toewijzen aan anderen.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Deze Help-artikelen kunnen u helpen aan de slag te gaan met [!DNL Workfront for 
 * [Privacy en rechten in Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
 * [Aanmelden en uit [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
-Deze verklaren hoe te te beheren [!DNL Workfront] objecten zonder deze te verlaten [!DNL G Suite]:
+Deze verklaren hoe te te beheren [!DNL Workfront] objecten zonder [!DNL G Suite]:
 
 * [Toegang [!DNL Adobe Workfront] Home-inhoud van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [Een update [!DNL Adobe Workfront] object van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
@@ -40,7 +41,7 @@ Deze verklaren hoe te te beheren [!DNL Workfront] objecten zonder deze te verlat
 Deze verklaren hoe te om details over een het werkpunt te bekijken en te antwoorden wanneer u een [!DNL Workfront] e-mailbericht.
 
 * [Beheren [!DNL Adobe Workfront] meldingsgegevens van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-* [Reageren op een [!DNL Adobe Workfront] update-melding van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+* [Antwoord op een [!DNL Adobe Workfront] update-melding van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
 
 Hieronder wordt uitgelegd hoe u kunt maken [!DNL Workfront] objecten en updates gebruiken inhoud van niet-[!DNL Workfront] e-mails:
 

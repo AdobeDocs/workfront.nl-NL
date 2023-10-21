@@ -7,8 +7,9 @@ title: Adobe Workfront Fusion
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
-source-git-commit: 89e7481e90e802e352b917654b82047edca033eb
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Voor trainingsmateriaal met betrekking tot [!DNL Adobe Workfront Fusion], zie [O
 
 Ga voor meer informatie over de nieuwste verbeteringen met Workfront Fusion naar [[!DNL Adobe Workfront Fusion] releaseactiviteit](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Zie voor informatie over de verschillende aspecten en kenmerken in [!DNL Workfront Fusion]Raadpleeg de volgende secties in de Help:
+Zie voor meer informatie over de verschillende aspecten en kenmerken in [!DNL Workfront Fusion]Raadpleeg de volgende secties in de Help:
 
 * [Aan de slag met [!DNL Adobe Workfront Fusion]](../workfront-fusion/get-started/get-started.md)
 * [[!DNL Adobe Workfront Fusion] in de [!DNL Adobe Admin Console]](../workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)

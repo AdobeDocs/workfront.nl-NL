@@ -6,8 +6,9 @@ title: Bronnen beheren
 description: Het Beheer van het middel is belangrijk voor behoorlijk het beheren van uw werk en het voorspellen beschikbaarheid. Leer in de volgende artikelen hoe u uw bronnen kunt plannen en plannen voor uw werk.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%

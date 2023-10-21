@@ -6,8 +6,9 @@ title: Goederenbeheer in Adobe Workfront-doelstellingen
 description: Lees de volgende artikelen om te zien waar u begint met Workfront Goals, hoe belangrijk het is om doelen te gebruiken, hoe u doelen kunt maken, bewerken, opmerkingen kunt plaatsen en beheren, en hoe u doelinformatie kunt filteren en afdrukken
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -44,7 +45,7 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >* Een Pro of hoger [Adobe Workfront-plan](https://www.workfront.com/plans).
 >* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
-   >Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 >
 >Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
@@ -66,4 +67,4 @@ Lees de volgende artikelen om te zien waar u begint met Workfront Goals, hoe bel
 * [Gegevens filteren in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md)
 * [Doelen bijwerken in de sectie Gooddetails in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
-* [Herzie in-probleem doelstellingen in de Doelen van Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)
+* [Herzie doelstellingen in de problemen van Adobe Workfront Doelstellingen](../../workfront-goals/goal-management/view-in-trouble-goals.md)

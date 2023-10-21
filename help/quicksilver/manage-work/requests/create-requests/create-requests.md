@@ -6,8 +6,9 @@ title: Verzoeken maken
 description: In Adobe Workfront zijn verzoeken en kwesties onderling verwisselbaar. U kunt verzoeken tot stand brengen door een verzoek in Workfront voor te leggen, een verzoek in een andere toepassing voor te leggen, of een verzoek in een project te e-mailen dat is ingesteld als een Wachtrij van het Verzoek.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

@@ -5,7 +5,9 @@ title: Aankondigingsarchief
 description: Deze sectie bevat eerdere aankondigingen ter referentie
 author: Luke
 feature: Product Announcements
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+recommendations: noDisplay, noCatalog
+exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -24,4 +26,3 @@ ht-degree: 0%
 * [E-mailwoordenboek en POP-reactie](email-spoofing-pop-reply-message.md)
 * [De klanten op Clusters 1, 2, en 3 moeten om het even welke lijst van gewenste personen IP blokken bijwerken om het blokkeren van de diensten van Adobe Workfront te verhinderen](clusters-1-3-update-whitelist.md)
 * [Aangepaste SMTP verwijderen als een uitgaande e-mailoptie](remove-custom-smtp.md)
-

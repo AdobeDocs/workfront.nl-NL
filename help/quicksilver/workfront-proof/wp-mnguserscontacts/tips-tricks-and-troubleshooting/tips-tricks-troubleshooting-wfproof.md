@@ -7,8 +7,9 @@ title: Tips, trucs en probleemoplossing voor [!DNL Workfront Proof] gebruikers e
 description: Deze sectie bevat de volgende artikelen - BEWERK ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f6269b63-bd4e-4bc7-b022-779b3556f029
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%

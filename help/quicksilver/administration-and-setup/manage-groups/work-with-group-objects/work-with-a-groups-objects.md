@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Werken met de objecten van een groep
-description: Wanneer nieuwe objecten aan de pagina Groepen worden toegevoegd, vergeet dan niet het artikel Groepen/Groepen beheren overview/groups.html bij te werken
+description: Vergeet niet het artikel Groepen/Groepen bij te werken wanneer nieuwe objecten aan de pagina Groepen worden toegevoegd. overview/groups.html
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

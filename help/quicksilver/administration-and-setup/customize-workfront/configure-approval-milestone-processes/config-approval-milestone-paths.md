@@ -4,12 +4,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
-description: U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt, document, of proef kunnen vastmaken. U kunt ook mijlpaden maken die op elk project in het systeem kunnen worden toegepast.
+description: U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt, document, of proef kunnen vastmaken. U kunt ook milestone-paden maken die op elk project in het systeem kunnen worden toegepast.
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%

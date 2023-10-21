@@ -7,8 +7,9 @@ title: Beheer en installatie
 description: In deze sectie vindt u de informatie die u nodig heeft om het Workfront-systeem te beheren.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 24%
@@ -20,8 +21,7 @@ ht-degree: 24%
 Deze sectie bevat de volgende subsecties:
 
 * [Aan de slag met de Adobe Workfront-administratie](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Workfront administration in the Adobe Admin Console</a> </li>
   -->
 

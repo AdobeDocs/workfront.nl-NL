@@ -8,8 +8,9 @@ description: U kunt de standaardinstellingen, tijdschema's en planningen van het
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -28,4 +29,4 @@ Deze sectie bevat de volgende artikelen:
 * [Uw e-maillijst van gewenste personen configureren](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [Aankondigingen verzenden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 * [Browservereisten voor Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-* [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

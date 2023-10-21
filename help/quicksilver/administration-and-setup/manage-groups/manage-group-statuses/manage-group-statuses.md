@@ -8,8 +8,9 @@ description: Als groepsbeheerder kunt u aangepaste statussen maken voor een groe
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -29,4 +30,4 @@ Deze sectie bevat de volgende artikelen:
 * [Aangepaste statussen in een groep die wordt verplaatst of verwijderd](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
 * [Aangepaste status op een taak of uitgave die wordt verplaatst of gekopieerd](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
 
-Voor informatie over het opnieuw ordenen van groepsstatussen raadpleegt u [Statussen op systeemniveau en groepen opnieuw ordenen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Zie voor informatie over het opnieuw ordenen van groepsstatussen [Statussen op systeemniveau en groepen opnieuw ordenen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
