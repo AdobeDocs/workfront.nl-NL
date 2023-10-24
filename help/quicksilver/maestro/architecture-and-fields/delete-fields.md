@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -106,6 +106,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de kaart van een recordtype waarvan u de velden wilt verwijderen.
 1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 1. Zoek het veld dat u wilt verwijderen in de kolomkoppen en houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag na de veldnaam.
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. Klikken **Verwijderen**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->

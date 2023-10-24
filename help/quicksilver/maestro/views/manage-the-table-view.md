@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
    * Pak de kolomkop en sleep deze naar de gewenste positie. De kolom die u kort hebt verplaatst, wordt weergegeven met een blauwe achtergrond totdat u andere aanpassingen in de tabel aanbrengt.
 
-   * Klikken **Velden** in de werkbalk van de tabel, sleept u de velden in de gewenste volgorde en klikt u vervolgens buiten de **Velden, zichtbaarheid en volgorde** om het te sluiten.
+   * Klikken **Velden** in de werkbalk van de tabel, sleept u de velden in de gewenste volgorde en klikt u vervolgens buiten de **Zichtbaarheid en volgorde van velden** te sluiten.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -157,14 +157,14 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
    of
 
-   Klikken **Velden** in de tabelwerkbalk en schakelt u de schakeloptie uit die is gekoppeld aan de velden (of kolommen) die u wilt verbergen.
+   Klikken **Velden** in de tabelwerkbalk en schakelt u de schakeloptie uit die is gekoppeld aan de velden (of kolommen) die u wilt verbergen. De **Zichtbaarheid en volgorde van velden** wordt weergegeven.
 
    >[!TIP]
    >
    >Het aantal verborgen velden wordt links van het pictogram Velden op de werkbalk weergegeven.
 
 
-1. Klik op de knop **Velden** het plaatsen en laat de knevel toe verbonden aan de gebieden u in de kolommen van de lijst wilt tonen. Alle velden worden standaard weergegeven.
+1. Klik op de knop **Velden** en schakelt u de schakeloptie in die is gekoppeld aan de velden die u wilt weergeven in de kolommen van de tabel. Alle velden worden standaard weergegeven.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 

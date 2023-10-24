@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -113,6 +113,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Hierdoor wordt de pagina van het recordtype geopend.
 1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 1. Houd de cursor boven de kolomkop van een veld dat u wilt bewerken en klik op de pijl omlaag na de veldnaam.
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. Klikken **Veld bewerken** en werkt u vervolgens de gegevens in het veld bij en klikt u op **Opslaan**.
 
    <!--insert screen shot when finalized-->
