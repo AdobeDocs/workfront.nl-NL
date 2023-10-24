@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers in het systeem zien standaard de nieuwe Home-ervaring </td> 
-      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Als deze optie is ingeschakeld, kunnen gebruikers er nog steeds voor kiezen om New Home op individuele basis in of uit te schakelen. Als deze optie is uitgeschakeld, kunnen gebruikers geen nieuwe startpagina gebruiken. Deze optie is standaard ingeschakeld.</td> 
+      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Wanneer toegelaten, zullen de gebruikers de Nieuwe ervaring van het Huis door gebrek zien, maar kunnen nog verkiezen om Nieuwe Huis op individuele basis toe te laten of onbruikbaar te maken. <b>Als deze optie is uitgeschakeld, kunnen gebruikers geen nieuwe startpagina gebruiken.</b> Deze instelling is standaard ingeschakeld.</td> 
      </tr> 
     </tbody> 
    </table>

@@ -6,9 +6,9 @@ description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
     Toont alle goedkeuringen voor uw organisatie in een lijst met klantgerichte kolommen, evenals een onderzoeksbar die u toestaat om naar specifieke goedkeuringen te zoeken.
 
 * **Opmerkingen**\
-    Toont recente commentaardraden die @ van u over Workfront bevatten, evenals een antwoordknoop die u toestaat om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
+    Toont recente commentaardraden van over Workfront, gelijkaardig aan de Mijn pagina van Updates, evenals een antwoordknoop die u toestaat om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
 
 * **To-dos**\
     Met deze unieke widget kunt u tekstitems toevoegen aan een persoonlijke controlelijst die u kunt bewerken.
@@ -78,7 +78,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
     </tr>
     <tr>
         <td>Medewerker</td>
-        <td>Mijn werk, opmerkingen</td>
+        <td>Mijn verzoeken, opmerkingen in afwachting van mijn goedkeuring, raden van bestuur</td>
     </tr>
     <tr>
         <td>Extern</td>
@@ -104,11 +104,11 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
         <td>Mijn werk, opmerkingen</td>
     </tr>
     <tr>
-        <td>Beperkt</td>
+        <td>Verzoek</td>
         <td>Mijn projecten, in afwachting van mijn goedkeuring</td>
     </tr>
     <tr>
-        <td>Medewerker</td>
+        <td>Contribute</td>
         <td>Mijn werk, opmerkingen</td>
     </tr>
     <tr>

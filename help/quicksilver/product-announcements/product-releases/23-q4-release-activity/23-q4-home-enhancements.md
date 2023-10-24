@@ -3,9 +3,9 @@ title: Verbeteringen startpunt vierde kwartaal 2023
 description: Verbeteringen startpunt vierde kwartaal 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Ga voor meer informatie over de widgets die beschikbaar zijn in New Home naar [A
 
 ## Nieuwe standaardlandingspagina van contribuant: Nieuwe startpagina
 
-New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de Medewerkers ook worden geïnstrueerd over het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Deze standaardwidgets voor Medewerkers zijn: Verzoeken, Opmerkingen, Problemen en Boven. Merk op dat als een lay-out met een douane homepage momenteel door een contributorrekening wordt gebruikt, het hun homepage zal blijven.
+New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren. Op hun eerste bezoek aan de pagina, zullen de Medewerkers ook worden geïnstrueerd over het gebruiken van Nieuw Huis en specifieke widgets beschikbaar door gebrek in een aangepaste analyse. Deze standaardwidgets voor Medewerkers zijn: Mijn verzoeken, Opmerkingen, In afwachting van mijn goedkeuring, en Boards. Merk op dat als een lay-out met een douane homepage momenteel door een contributorrekening wordt gebruikt, het hun homepage zal blijven.
 
 Ga voor meer informatie over het gebruik van New Home naar [Aan de slag met Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -40,9 +40,9 @@ Op basis van gebruikersfeedback hebben we het tijdbereikfilter en de overzichtsb
 
 Voor meer informatie over het volgen van het werk in Nieuwe Huis, zie [Aan de slag met Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Nieuwe snelle toegangsknoppen voor de widgets Project, Taak en Probleem bijhouden
+## Nieuwe snelactieknoppen voor de widget Mijn werk
 
-Uw mogelijkheden om het werk rechtstreeks vanuit New Home te beheren, zijn verder uitgebreid en er zijn nieuwe sneltoegangsknoppen toegevoegd aan de widgets Project, Taak en Probleem bijhouden (inclusief Mijn werk). Deze nieuwe knoppen zijn gevonden voor elk project, elke taak, elk probleem of elk verzoek in deze widgets. Met deze knoppen kunt u snel het overzichtsvenster openen, bestanden uploaden, aangepaste formulieren bewerken, een update maken en een logtijd maken zonder dat u de nieuwe startpagina verlaat, maar ook een grotere knop Aan het werkgebied.
+Als u uw mogelijkheden om uw werk rechtstreeks vanuit New Home te beheren verder uitbreidt, zijn er nieuwe snelactieknoppen toegevoegd aan de widget Mijn werk. Deze nieuwe knoppen zijn gevonden voor elk project, elke taak, elk probleem of elk verzoek in de widget. Met deze knoppen kunt u snel het overzichtsvenster openen, bestanden uploaden, aangepaste formulieren bewerken, een update maken en een logtijd maken zonder dat u de nieuwe startpagina verlaat, maar ook een grotere knop Aan/Gereed.
 
 Ga voor meer informatie over de widgetmogelijkheden in New Home naar [Aan de slag met Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

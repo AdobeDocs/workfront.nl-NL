@@ -6,9 +6,9 @@ description: In de [!DNL Workfront] mobiele app, kunt u alle borden zien die u h
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,11 @@ In de [!DNL Workfront] mobiele app, kunt u alle borden zien die u hebt gemaakt o
 
 Wijzigingen die u aanbrengt in de kaart van kolommen en kaarten in de app, worden ook doorgevoerd in de desktopversie van het board.
 
-Als u feedback wilt geven op mobiele borden, selecteert u de optie **[!UICONTROL Send]** ![Feedback verzenden](assets/mobile-send-feedback-icon.png) aan de bovenkant van om het even welk bord en volg de herinneringen.
+Als u feedback wilt geven op mobiele borden, selecteert u de **[!UICONTROL Send]** ![Feedback verzenden](assets/mobile-send-feedback-icon.png) aan de bovenkant van om het even welk bord en volg de herinneringen.
+
+>[!NOTE]
+>
+>De mobiele app ondersteunt momenteel alle typen tekengebieden **behalve** Iteratieprocesborden.
 
 ## De lijst met tekengebieden weergeven en filteren
 
@@ -44,7 +48,7 @@ Als u feedback wilt geven op mobiele borden, selecteert u de optie **[!UICONTROL
 
 >[!NOTE]
 >
->Op dit moment kunt u alleen een kaart archiveren of verwijderen uit de desktopversie van [!DNL Workfront] [!UICONTROL Boards], niet van de mobiele app.
+>Op dit moment kunt u alleen een board archiveren of verwijderen uit de bureaubladversie van [!DNL Workfront] [!UICONTROL Boards], niet van de mobiele app.
 
 ## Bordinhoud weergeven
 
@@ -75,7 +79,7 @@ Als u bijvoorbeeld de naam van een verbonden kaart bijwerkt op een board in de m
    >
    >U kunt een andere tag op de kaart selecteren, maar u kunt geen nieuwe tags maken in de mobiele app.
 
-1. (Optioneel) Als u een kaart wilt verwijderen, selecteert u de optie [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en kies [!UICONTROL **Verwijderen**]. Selecteer vervolgens [!UICONTROL **Verwijderen**] in het bevestigingsbericht.
+1. (Optioneel) Als u een kaart wilt verwijderen, selecteert u de [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en kies [!UICONTROL **Verwijderen**]. Selecteer vervolgens [!UICONTROL **Verwijderen**] in het bevestigingsbericht.
 
 ## Werken met ad-hockaarten
 
@@ -89,11 +93,11 @@ Een ad-hockaart is niet verbonden met een Workfront-taak of -uitgave. In de onde
    >
    >U kunt een andere tag op de kaart selecteren, maar u kunt geen nieuwe tags maken in de mobiele app.
 
-1. (Optioneel) Als u een nieuwe ad-hockaart wilt toevoegen, selecteert u [!UICONTROL **Nieuwe kaart**] in de kolom waar u de kaart wilt toevoegen en voer de naam van de kaart in. Als u details wilt toevoegen, selecteert u de nieuwe kaart.
+1. (Optioneel) Selecteer [!UICONTROL **Nieuwe kaart**] in de kolom waar u de kaart wilt toevoegen en voer de naam van de kaart in. Als u details wilt toevoegen, selecteert u de nieuwe kaart.
 
-1. (Optioneel) Als u een kaart wilt kopiëren, selecteert u de optie [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en kies [!UICONTROL **Kopiëren**].
+1. (Optioneel) Als u een kaart wilt kopiëren, selecteert u de [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en kies [!UICONTROL **Kopiëren**].
 
-1. (Optioneel) Als u een kaart wilt verwijderen, selecteert u de optie [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en kies [!UICONTROL **Verwijderen**]. Selecteer vervolgens [!UICONTROL **Verwijderen**] in het bevestigingsbericht.
+1. (Optioneel) Als u een kaart wilt verwijderen, selecteert u de [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en kies [!UICONTROL **Verwijderen**]. Selecteer vervolgens [!UICONTROL **Verwijderen**] in het bevestigingsbericht.
 
 ## Controlelijstitems op kaarten beheren
 
@@ -101,7 +105,7 @@ De items op de controlelijst zijn zowel op ad-hockaarten als op gekoppelde kaart
 
 1. Als u een controlelijstitem wilt toevoegen, opent u de kaart en selecteert u [!UICONTROL **Nieuw item in checklist**]. Voer de naam van het item in de controlelijst in. De teller op de kaart wordt bijgewerkt.
 1. (Optioneel) Als u een item uit de controlelijst wilt kopiëren, opent u de kaart en selecteert u de optie [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op het item en kies [!UICONTROL **Kopiëren**]. Onder aan de lijst wordt een kopie van het item toegevoegd.
-1. (Optioneel) Als u een item uit de controlelijst wilt verwijderen, opent u de kaart en selecteert u de optie [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op het item en kies [!UICONTROL **Verwijderen**].
+1. (Optioneel) Als u een item uit de controlelijst wilt verwijderen, opent u de kaart en selecteert u de [!UICONTROL **Meer**] menu ![Het menu Meer](assets/more-icon-spectrum.png) op het item en kies [!UICONTROL **Verwijderen**].
 1. Als u een item in de controlelijst wilt voltooien, opent u de kaart en schakelt u het selectievakje naast de naam van het item in.
 Het item is gemarkeerd als Voltooid. De teller op de kaart wordt bijgewerkt om aan te geven hoeveel controlelijstitems zijn voltooid.
 
@@ -129,6 +133,6 @@ Wanneer filters worden toegepast, wordt een indicator weergegeven op het bord ![
 1. Typ een zoekterm in het vak en selecteer [!UICONTROL **Gereed**] of ![Gereed pictogram](assets/mobile-apply-icon-checkmark.png).
 
    Alle kaarten die de zoekterm in de titel bevatten, worden weergegeven.
-Selecteer de X om de zoekopdracht te wissen.
+Selecteer X om het onderzoek te ontruimen.
 
    ![Zoeken naar kaart](assets/mobile-search-for-card.png)

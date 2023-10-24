@@ -4,9 +4,9 @@ description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe snelle toegangsknoppen voor widgets Project, Taak en Probleem bijhouden</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe snelactieknoppen voor de widget Mijn werk</a> </p>
                         <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
-                        <p>Uw mogelijkheden om het werk rechtstreeks vanuit New Home te beheren, zijn uitgebreid en er zijn nieuwe sneltoegangsknoppen toegevoegd aan de widgets Project, Taak en Probleem bijhouden.</p>
+                        <p>Als u uw mogelijkheden om uw werk rechtstreeks vanuit New Home te beheren verder uitbreidt, zijn er nieuwe snelactieknoppen toegevoegd aan de widget Mijn werk.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
