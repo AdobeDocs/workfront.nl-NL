@@ -4,9 +4,9 @@ description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Beslissingen over proefdrukken en documenten beschikbaar voor klanten van het oudere licentiemodel</a></p>
+                        <p>Oudere klanten die nog niet zijn overgestapt op het nieuwe Adobe Workfront-licentiemodel, kunnen nu in één rapport gegevens zien met het aantal bewijsmiddelen/documentbeslissingen per gebruiker per maand. Deze gegevens zijn beschikbaar wanneer u een rapport Gebruikersbesluiten uitvoert.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 12 oktober 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 12 oktober 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Berekende velden op aangepaste formulieren kunnen nu de joker $$USER gebruiken</a></p>
@@ -494,7 +510,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Upgrades voor slepen en neerzetten voor documentintegratie</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Er zijn verbeteringen aangebracht om de duidelijkheid te verbeteren en gebruikersfouten te verwijderen bij het slepen en neerzetten van een bestand in een gekoppelde map.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Upgrades voor slepen en neerzetten voor documentintegratie</a></p><p>Er zijn verbeteringen aangebracht om de duidelijkheid te verbeteren en gebruikersfouten te verwijderen bij het slepen en neerzetten van een bestand in een gekoppelde map.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -502,7 +518,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                                 <p>Voorvertoningsrelease: 24 augustus 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle afnemers: 31 augustus 2023</span></p>
+                                <p><span class="preview">Productie voor alle klanten: na de release van 23.10</span></p>
                             </li>
                         </ul>
                     </td>
