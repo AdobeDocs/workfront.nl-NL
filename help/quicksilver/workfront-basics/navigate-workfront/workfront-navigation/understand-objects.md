@@ -5,9 +5,9 @@ title: Objecten begrijpen in [!DNL Adobe Workfront]
 description: Objecten begrijpen in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,10 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL User Delegation]
 
   U kunt rapporteren over gebruikers die zijn gedelegeerd om taken en problemen van anderen uit te voeren terwijl ze buiten het kantoor zijn. Dit rapport toont de gebruiker die uit het bureau evenals de gebruiker is die hun taken vervult terwijl zij uit zijn.
+
 * [!UICONTROL Users Decisions]
+
+  U kunt rapporteren hoeveel besluiten gebruikers hebben genomen op proefdrukken en documenten in de huidige maand.
+
 * [!UICONTROL View]
 * [!UICONTROL Work Item] (dit levert een rapport op voor taken en kwesties)
