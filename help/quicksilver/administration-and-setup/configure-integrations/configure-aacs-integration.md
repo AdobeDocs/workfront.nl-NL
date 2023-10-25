@@ -5,14 +5,18 @@ title: Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
 description: U kunt uw werk in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 4915dfb923a661befaf33007b8bcb9834e38a3e4
+source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
 
 # Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
+
+>[!IMPORTANT]
+>
+>Deze functionaliteit is alleen beschikbaar voor organisaties die aan de [!DNL Adobe Admin Console].
 
 U kunt uw werk in [!DNL Experience Manager Assets]&#x200B;:
 
@@ -25,7 +29,7 @@ U kunt uw werk in [!DNL Experience Manager Assets]&#x200B;:
 
 >[!NOTE]
 >
->U kunt ook verschillende Experience Manager Assets-opslagruimten verbinden met één Workfront-omgeving of met verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
+>U kunt ook verbinding maken met verschillende [!DNL Experience Manager Assets] repository&#39;s naar één [!UICONTROL Workfront] milieu, of verscheidene [!DNL Workfront] omgevingen naar één [!DNL Experience Manager Assets] opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
 
 ## Toegangsvereisten
 
@@ -176,7 +180,9 @@ Metagegevens worden toegewezen wanneer een element wordt verplaatst van [!DNL Wo
 
 Metagegevens toewijzen voor elementen:
 
-1. Selecteren **[!UICONTROL Assets]** boven de tabel met metagegevens.
+<!--
+1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. In de **[!UICONTROL [!DNL Workfront] field]** kiest u een ingebouwd of aangepast Workfront-veld.
 
    >[!NOTE]
@@ -186,44 +192,46 @@ Metagegevens toewijzen voor elementen:
 
 1. In de [!DNL Experience Manager Assets] , doorzoeken in de vooraf ingevulde categorieën of ten minste twee letters invoeren in het zoekveld voor toegang tot extra categorieën.
 1. Herhaal stap 2 en 3 zo nodig.
-   ![metagegevensvelden](assets/asset-metadata.png)
-1. Klikken [!UICONTROL Save] of ga naar de [Mappen](#folders) in dit artikel.
+   ![metagegevensvelden](assets/metadata-no-asset-toggle.png)
+1. Klikken [!UICONTROL Save] of ga naar de [Workflows instellen](#set-up-workflows-optional) in dit artikel.
 
-### Metagegevens toewijzen aan mappen
+<!--
 
-Wanneer gebruikers een gekoppelde map maken voor een project, worden de bijbehorende project-, portfolio- en programmagegevens toegewezen aan de metagegevensvelden van mappen in [!DNL Experience Manager Assets].
+### Map metadata for folders
+
+When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
 
 >[!NOTE]
 >
->Deze integratie ondersteunt geen aangepaste metagegevens van [!DNL Adobe Experience Manager].
+>This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-Metagegevens toewijzen voor mappen:
+To map metadata for folders: 
 
-1. Selecteren **[!UICONTROL Folders]** boven de tabel met metagegevens.
-1. In de **[!UICONTROL [!DNL Workfront] field]** kiest u een ingebouwd of aangepast Workfront-veld.
+1. Select **[!UICONTROL Folders]** above the metadata table.
+1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
-   >[!NOTE]
-   >
-   >U kunt één Workfront-veld toewijzen aan meerdere Experience Manager Assets-velden. U kunt niet meerdere toewijzingen toewijzen [!DNL Workfront] velden naar één [!DNL Experience Manager Assets] veld.
+    >[!NOTE]
+    >
+    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
 
-1. In de **[!DNL Experience Manager Assets]** , doorzoeken in de vooraf ingevulde categorieën of ten minste twee letters invoeren in het zoekveld voor toegang tot extra categorieën.
-1. Herhaal stap 2 en 3 zo nodig.
-   ![mapmetagegevens](assets/folder-metadata.png)
-1. Klikken **[!UICONTROL Save]** of ga naar de [Synchronisatie van metagegevens van project](#project-metadata-sync) in dit artikel.
+1. In the **[!DNL Experience Manager Assets]** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
+1. Repeat steps 2 and 3 as needed.
+![folder metadata](assets/folder-metadata.png)
+1. Click **[!UICONTROL Save]** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### Metagegevens van object synchroniseren
+### Object metadata sync
 
-An [!DNL Experience Manager] velden die zijn toegewezen aan [!DNL Workfront] portfolio, programma, project, taak, uitgave en documentvelden worden automatisch bijgewerkt wanneer het veld wordt gewijzigd in [!DNL Workfront].
+An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
 
-Als deze optie is ingeschakeld, bevat elk element dat is doorgegeven aan Adobe Experience Manager een kaart op de pagina Documentdetails die een real-time weergave van de Adobe Experience Manager-metagegevens van het document weergeeft.
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
 
 >[!IMPORTANT]
 >
->Gebruikers moeten schrijftoegang hebben in [!DNL Experience Manager] voor elementen die in het object leven, zodat de metagegevens gesynchroniseerd worden wanneer deze worden bijgewerkt.
+>Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
-1. De optie **[!UICONTROL Sync object metadata]** veld.
-1. Klikken **Opslaan** of ga naar de [Workflows instellen (optioneel)](#set-up-workflows-optional) in dit artikel.
+1. Enable the **[!UICONTROL Sync object metadata]** field.
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
 
 <!--Courtney start here-->
 
