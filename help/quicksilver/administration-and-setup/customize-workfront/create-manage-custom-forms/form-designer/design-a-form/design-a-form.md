@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Een formulier ontwerpen met de formulierontwerper
-
-{{preview-and-fast-release}}
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -498,8 +496,6 @@ U voegt als volgt velden voor de typekop toe:
 
    Klikken **Opslaan en sluiten**.
 
-<div class="preview">
-
 ### Externe opzoekvelden toevoegen
 
 Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren.
@@ -590,8 +586,6 @@ Een externe zoekopdracht toevoegen:
 >* Wacht een tijd tussen pogingen: 500 ms
 >* Verwachte reactiestatus: 2xx
 >* Gebruikers kunnen de geselecteerde waarde zien (en de waarde bewerken) in Workfront-lijsten en -rapporten, maar het vervolgkeuzemenu wordt niet weergegeven met opties uit de externe API.
-
-</div>
 
 ### Afbeeldingen, PDF en video&#39;s toevoegen
 
