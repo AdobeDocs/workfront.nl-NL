@@ -7,7 +7,7 @@ description: U kunt in Workfront een map maken die is gekoppeld met Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
+source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -79,6 +79,7 @@ Een gekoppelde map maken:
 
 1. Ga naar het project waar u de omslag wilt.
 1. Selecteren **Nieuwe toevoegen** en ga dan naar de integratie van de Erviteitsmanager uw beheerderopstelling.
+
    >[!NOTE]
    >
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Experience Manager Assets of Assets Essentials worden niet specifiek genoemd.
