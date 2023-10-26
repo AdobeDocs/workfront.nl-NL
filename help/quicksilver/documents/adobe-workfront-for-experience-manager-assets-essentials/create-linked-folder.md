@@ -7,9 +7,9 @@ description: U kunt in Workfront een map maken die is gekoppeld met Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong>Product</strong>
    </td>
-   <td>U moet Experience Manager Assets as a Cloud Service of Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd.
+   <td>Experience Manager Assets moet as a Cloud Service zijn of Assets Essentials bevatten en u moet als gebruiker aan het product worden toegevoegd.
    </td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong>Configuraties op toegangsniveau</strong>
    </td>
-   <td>U moet een Workfront-beheerder zijn. Voor informatie over Workfront-beheerders raadpleegt u <strong>Volledige administratieve toegang verlenen aan een gebruiker</strong>.
+   <td>U moet een beheerder van Workfront zijn om een integratie van de Experience Manager te vormen. Nadat het wordt gevormd, kunnen de gebruikers met een vergunning van het Plan opstelling verbonden omslagen op individuele projecten.
    </td>
   </tr>
 </table>
@@ -71,7 +71,7 @@ Voordat u begint,
 
 De gekoppelde map wordt gemaakt op de locatie die door de Workfront-beheerder is opgegeven bij het instellen van de integratie. Elke integratie kan slechts één maplocatie voor gekoppelde mappen hebben.
 
-De naam voor de gekoppelde map wordt automatisch gemaakt op basis van de Portfolio, het programma, het project waaraan de map is gekoppeld en kan niet worden gewijzigd. Als het project niet met een Portfolio of Programma wordt geassocieerd, zal de verbonden omslag de projectnaam en de aanmaakdatum tonen.
+De naam voor de gekoppelde map wordt automatisch gemaakt op basis van het Portfolio, het programma, het project waaraan de map is gekoppeld en kan niet worden gewijzigd. Als het project niet met een Portfolio of een Programma wordt geassocieerd, zal de verbonden omslag de projectnaam en aanmaakdatum tonen.
 
 Een gekoppelde map maken:
 
@@ -81,7 +81,7 @@ Een gekoppelde map maken:
 1. Selecteren **Nieuwe toevoegen** en ga dan naar de integratie van de Erviteitsmanager uw beheerderopstelling.
    >[!NOTE]
    >
-   >De Workfront-beheerder kan elke naam voor deze integratie kiezen, dus Experience Manager Assets of Assets Essentials wordt niet specifiek vermeld.
+   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Experience Manager Assets of Assets Essentials worden niet specifiek genoemd.
 
 1. Selecteren **Gekoppelde map maken**. Het systeem maakt automatisch een map in de Experience Manager op basis van de locatie die is opgegeven bij het instellen van de integratie.
    ![een gekoppelde map maken](assets/linked-folder.png)
