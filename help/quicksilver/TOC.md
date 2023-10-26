@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '13357'
+source-wordcount: '13365'
 ht-degree: 0%
 
 ---
@@ -381,6 +381,7 @@ ht-degree: 0%
          * [Nieuwe veelgestelde vragen over opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
       * Alfa-integratie tussen Workfront en Frame.io {#frame-io-wf-integration-alpha}
          * [Standaard Adobe Workfront- en Frame.io-integratie alfa: overzicht](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+         * [Standaard Adobe Workfront- en Frame.io-integratie alfa: functies](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Beheer en installatie {#administration-and-setup}
    * [Beheer en installatie](administration-and-setup/administration-and-setup.md)
    * Aan de slag met het beheer {#get-started-administration}
