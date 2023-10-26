@@ -4,9 +4,9 @@ description: Overzicht release 4de kwartaal 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
+source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2679'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Beslissingen over proefdrukken en documenten beschikbaar voor klanten van het oudere licentiemodel</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Beslissingen over proefdrukken en documenten beschikbaar voor klanten van het oudere licentiemodel</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Oudere klanten die nog niet zijn overgestapt op het nieuwe Adobe Workfront-licentiemodel, kunnen nu in één rapport gegevens zien met het aantal bewijsmiddelen/documentbeslissingen per gebruiker per maand. Deze gegevens zijn beschikbaar wanneer u een rapport Gebruikersbesluiten uitvoert.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -89,7 +89,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>            
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Berekende velden op aangepaste formulieren kunnen nu de joker $$USER gebruiken</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Berekende velden op aangepaste formulieren kunnen nu de joker $$USER gebruiken</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Het jokerteken $$USER is nu beschikbaar in berekende aangepaste velden en externe opzoekvelden op de nieuwe formulierontwerper.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -109,7 +109,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Waardeopties van een externe API toevoegen aan een aangepast formulier</a></p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>een nieuw veldtype, <strong>Externe zoekopdracht</strong>, is nu beschikbaar op de aangepaste formulierontwerper. Wanneer u gegevens op een extern systeem hebt opgeslagen, kunt u met dit veldtype opties laden vanuit een externe API en filteren op basis van andere veldwaarden in het aangepaste formulier.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -147,7 +147,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtaken zijn nu beschikbaar op Adobe Workfront-borden</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Wanneer u een aangesloten kaart aan een raad voor een taak van Workfront toevoegt, worden om het even welke bestaande subtaken ingevoerd op de kaart. Wanneer u een subtaak maakt op een aangesloten kaart, wordt bovendien een subtaak toegevoegd aan de Workfront-taak.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtaken zijn nu beschikbaar op Adobe Workfront-borden</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Wanneer u een aangesloten kaart aan een raad voor een taak van Workfront toevoegt, worden om het even welke bestaande subtaken ingevoerd op de kaart. Wanneer u een subtaak maakt op een aangesloten kaart, wordt bovendien een subtaak toegevoegd aan de Workfront-taak.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -183,7 +183,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documenten toevoegen aan verbonden kaarten</a></p><p>U kunt nu documenten op verbonden kaarten aan Adobe Workfront Boards toevoegen. Alle documenten die u op de kaart toevoegt, worden beschikbaar op het tabblad Documenten van de verbonden taak of uitgave. Dezelfde bestandstypen worden in beide gebieden ondersteund.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documenten toevoegen aan verbonden kaarten</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>U kunt nu documenten op verbonden kaarten aan Adobe Workfront Boards toevoegen. Alle documenten die u op de kaart toevoegt, worden beschikbaar op het tabblad Documenten van de verbonden taak of uitgave. Dezelfde bestandstypen worden in beide gebieden ondersteund.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -204,7 +204,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documenten die als alleen-weergeven beschikbaar zijn op verbonden kaarten</a></p><p>Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbeeldingen en PDF bekijken. U kunt een voorvertoning van een document weergeven in de browser of het document downloaden naar de computer. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documenten die als alleen-weergeven beschikbaar zijn op verbonden kaarten</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbeeldingen en PDF bekijken. U kunt een voorvertoning van een document weergeven in de browser of het document downloaden naar de computer. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -225,7 +225,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">De mening van de raad van een project nu beschikbaar voor kwesties</a></p><p>U kunt nu een Board-weergave openen van een lijst met projectkwesties. Met het Kanban-bord kunt u de voortgang van de problemen op een meer visuele manier volgen dan ze in de lijst weer te geven. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">De mening van de raad van een project nu beschikbaar voor kwesties</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>U kunt nu een Board-weergave openen van een lijst met projectkwesties. Met het Kanban-bord kunt u de voortgang van de problemen op een meer visuele manier volgen dan ze in de lijst weer te geven. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -265,7 +265,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Daadwerkelijke kosten en factureringstarieven</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De effectieve datum van kosten en factureringstarieven zijn nu beschikbaar voor het bedrijf, de gebruiker, en de baanobjecten van de rol in Workfront. Wanneer de datum daadwerkelijke tarieven op een project worden toegepast, en de uren het programma worden geopend projecttaken, worden de kosten en de opbrengst berekend gebruikend de gespecificeerde tarieven voor elke tijdspanne.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -303,7 +303,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De werkknop voor project-, taak- en Issue-widgets delegeren</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De werkknop voor project-, taak- en Issue-widgets delegeren</a> </p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Een algemeen gevraagde eigenschap van de oude homepage, hebben wij nu een afgevaardigde knoop aan Mijn Werk, Mijn Taken, en Mijn Uitgave widgets toegevoegd zodat u het werk gemakkelijk kunt delegeren wanneer u uit het bureau bent.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -322,7 +322,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De widget Nieuwe borden voor Nieuwe startpagina</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De widget Nieuwe borden voor Nieuwe startpagina</a> </p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>In een belangrijke nieuwe aanvulling op de opties voor werkbeheer die beschikbaar zijn in New Home, kunt u nu een board weergeven op uw homepage!</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -341,7 +341,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe standaardlandingspagina van contribuant: Nieuwe startpagina</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe standaardlandingspagina van contribuant: Nieuwe startpagina</a>  </p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>New Home is nu de standaard landingspagina voor Contribute/Request-accounts. Deze nieuwe standaardstartpagina bevat een aantal widgets die speciaal zijn geselecteerd om Medewerkers in staat te stellen hun werk direct te beheren.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -361,7 +361,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Wijzigingen voor werkregistratie in Nieuwe startpagina </a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Op basis van gebruikersfeedback hebben we het tijdbereikfilter en de overzichtsbalk voor de hele pagina verwijderd, waarin taken werden beschreven die moesten worden uitgevoerd en voltooid. De widgets van het project, van de Taak, en van de Kwestie elk hebben ingebouwde het filtreren eigenschappen die u toestaan om hun werkingsgebied op een individuele basis aan te passen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -381,7 +381,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe snelactieknoppen voor de widget Mijn werk</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Als u uw mogelijkheden om uw werk rechtstreeks vanuit New Home te beheren verder uitbreidt, zijn er nieuwe snelactieknoppen toegevoegd aan de widget Mijn werk.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -401,7 +401,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe filteropties voor Nieuwe startpagina</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Er zijn nu nieuwe filteropties beschikbaar voor de widget Mijn werk in Nieuwe startpagina. U kunt onder andere filters voor objecttypen (taken, problemen en verzoeken) en statussen (niet gereed, klaar om te starten, te werken en te voltooien) kiezen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -437,7 +437,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De knop Nieuwe startpagina wordt verwijderd voor accounts waarvoor Nieuwe startpagina is uitgeschakeld</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De knop Nieuwe startpagina proberen is niet meer beschikbaar voor accounts waarvoor Nieuwe startpagina is uitgeschakeld. Het nieuwe Huis moet door de systeembeheerder opnieuw worden toegelaten alvorens individuele gebruikers de knoop kunnen gebruiken om Nieuwe Huis te proberen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -457,7 +457,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Wijzigen in standaardwidget Nieuwe startpagina</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De widget Aan/uit, waarvoor toestemming nodig is om taken te maken, is nu alleen aanwezig in de standaardwidget die is ingesteld voor gebruikers met de licentietypen Standaard, Overzicht of Werkwerk. Bovendien is de widget automatisch verwijderd van de homepages van gebruikers met alle andere licentietypen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -544,7 +544,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuring van nieuwe documenten</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuring van nieuwe documenten</a> </p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>In deze versie is het goedkeuringsproces gestroomlijnd voor zowel het maken van goedkeuringen als het goedkeuren/reviseren van documenten, naast nieuwe functionaliteit.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -582,7 +582,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Bijgewerkt ontwerp wanneer het toevoegen van een nieuwe kwestie aan een project</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Deze update is aangekondigd met de release 23.3.</p>
                         <p>We hebben het vak Nieuwe uitgave bijgewerkt, dat wordt weergegeven wanneer u een nieuwe uitgave naar een project verzendt. Nu, past de interface het Nieuwe verzoekvakje aan dat toont wanneer het voorleggen van een nieuw verzoek aan een verzoekrij.</p>
                     </td>
@@ -603,7 +603,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Dynamische herberekening van berekende velden op formulieren</a></p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Berekende velden op een formulier dat aan een object is gekoppeld, worden nu dynamisch opnieuw berekend in real-time wanneer afhankelijke waarden van een formulier op de pagina worden gewijzigd. Zo kunt u de bijgewerkte resultaten bekijken zonder het formulier op te slaan.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -623,7 +623,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Geplande uren instellen voor terugkerende taken van onderliggende items met het type Eenvoudige duur zonder toewijzingen</a></p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>We hebben een wijziging aangebracht in de manier waarop geplande uren worden toegewezen aan terugkerende taken zonder toewijzingen en met een eenvoudige tijdsduur. Nu, wanneer u Geplande Uren op een nieuwe terugkomende taak met een Eenvoudig Type van Duur en geen taken plaatst, worden de uren ook toegewezen aan de individuele herhalingen. Vóór deze wijziging werden de uren niet opgeslagen voor afzonderlijke herhalingen toen de bovenliggende taken niet werden toegewezen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -661,7 +661,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Wijzigingen in hoofdmenu van Contribute</a> <span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Wijzigingen in hoofdmenu van Contribute</a> </p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Medewerkers/aanvragers beter informeren over de functies die beschikbaar zijn met een betaald Workfront-licentietype, kunnen nu alle opties zien die beschikbaar zijn in het hoofdmenu.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -681,7 +681,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaverbeteringen voor opmerkingervaring</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De verbeteringen aan de sectie van Updates worden ter beschikking gesteld binnen het Vierde Kwartaal 2023 versietijdskader voor het becommentariëren ervarings bèta. Deze verbeteringen zullen in de Productomgeving voor alle klanten beschikbaar worden gesteld met de vierde release van 2023 (oktober 2023).</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -701,7 +701,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nieuwe bètaverbeteringen voor canvasdashboards</a> </p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De verbeteringen aan de dashboards van het Canvas worden ter beschikking gesteld binnen het vierde Kwartaal 2023 releasetijdschema als deel van aan de gang zijnde bèta. Deze verbeteringen zullen in de Productomgeving voor alle klanten beschikbaar worden gesteld met de vierde release van 2023 (oktober 2023).</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -720,7 +720,7 @@ Het webinar uit de release van 23.10 was op 5 oktober 2023. U kunt [register voo
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het vierde kwartaal van 2023</a></p><p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het vierde kwartaal van 2023. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het vierde kwartaal van 2023</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het vierde kwartaal van 2023. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
