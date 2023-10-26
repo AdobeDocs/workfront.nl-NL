@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Overzicht van licenties
 
-Uw organisatie heeft een aantal licenties aangeschaft bij de aanschaf van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de vier typen betaalde Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
+Uw organisatie heeft een aantal licenties aangeschaft bij de aanschaf van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de vijf typen Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
 
 ## Hoe licenties en toegangsniveaus aan elkaar zijn gekoppeld
 
-De vier soorten licenties voor Workfront die worden betaald, maken verschillende toegangsniveaus tot Workfront mogelijk. Elk toegangsniveau is in bijlage aan één van deze vergunningen.
+De vijf soorten Workfront-licenties bieden verschillende toegangsniveaus tot Workfront. Elk toegangsniveau is in bijlage aan één van deze vergunningen.
 
 Als Workfront-beheerder wijst u in plaats van een licentie aan een gebruiker toe, het toegangsniveau toe dat aan die licentie is gekoppeld.
 
@@ -34,6 +34,7 @@ In deze tabel en in dit diagram ziet u de belangrijkste toegangsniveaus tot Work
 | Plan | Systeembeheerder, Planner |
 | Werk | Worker |
 | Controleren | Revisor |
+| Verzoek | Aanvrager |
 | Extern | Externe gebruiker |
 
 >[!NOTE]

@@ -6,7 +6,7 @@ description: Override project-Level het Factureren Tarieven met het bedrijf-Vlak
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ Nadat u de bedrijf-vlakke het facturerings optie van de tariefopheffing op een p
 
    * Meerdere projecten:
 
-   1. Ga naar een lijst met projecten.
-   1. Schakel het selectievakje in in overeenstemming met de projecten die u wilt bijwerken.
-   1. Klikken **Bewerken**.
-   1. Schakel in het gedeelte Instellingen het selectievakje **Herberekening van kosten en opbrengsten** -optie.
-   1. Klikken **Wijzigingen opslaan**.
+      1. Ga naar een lijst met projecten.
+      1. Schakel het selectievakje in in overeenstemming met de projecten die u wilt bijwerken.
+      1. Klikken **Bewerken**.
+      1. Schakel in het gedeelte Instellingen het selectievakje **Herberekening van kosten en opbrengsten** -optie.
+      1. Klikken **Wijzigingen opslaan**.
 
    * Eén project:
 

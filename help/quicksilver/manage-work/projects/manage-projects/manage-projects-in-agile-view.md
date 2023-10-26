@@ -6,7 +6,7 @@ description: Vereiste plannen, licentietypen en toegang tot Adobe Workfront Plan
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 2137d792485324386b33e75af91ab09415b48390
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Een project beheren in de Google View
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -163,7 +161,7 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 
 ## Een project weergeven in de Google-weergave
 
-1. <span class="preview">Ga naar het project u in een flexibele mening, op of de taaklijst of de lijst van de kwestie wilt bekijken.</span>
+1. Ga naar het project u in een flexibele mening, op of de taaklijst of de lijst van de kwestie wilt bekijken.
 1. Klik op de knop **Raad** pictogram ![Bordebord, pictogram](assets/board-icon-for-agile-view.png).
 
    De boardweergave van het project wordt standaard weergegeven.
