@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '3468'
+source-wordcount: '3347'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>\
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht release 4de kwartaal 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal uren te wijzen u het werken aan hen doorwerkt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
@@ -366,14 +368,6 @@ U kunt projectspecifieke tijd op een project, een taak, of een kwestie in de vol
 
 #### Sectie Updates{#updates-section}
 
-<!--remove the note below - October 2023 -->
-
->[!NOTE]
->
-> Er zijn lichte verschillen in de blik en het gevoel van het gebruikersinterface tussen de huidige en de nieuwe sectie van Updates. De informatie in deze sectie verwijst naar functionaliteit zoals deze wordt weergegeven in de nieuwe opmerkingervaring.
->
->Zie voor meer informatie over de nieuwe sectie Updates [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 Om tijd in de sectie van Updates van een project, een taak, of een kwestie te registreren, moet u het volgende hebben:
 
 * Een licentie voor werken of plannen.
@@ -398,7 +392,7 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
    >   
    >   Rechtsboven in het vak Dagen invoeren ziet u hoeveel uren er in een dag staan.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Geef de volgende informatie op:
 

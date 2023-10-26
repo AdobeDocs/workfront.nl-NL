@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Systeemupdates configureren
 description: Workfront genereert automatische systeemupdates in de [!UICONTROL Updates] om de wijzigingen op te nemen die gebruikers op het object uitvoeren. Als [!DNL Workfront] beheerder, kunt u vormen welke objecten gebieden en acties [!DNL Workfront] tracks voor het opnemen van systeemupdates.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 0%
 * Wijzigingen aanbrengen in een objectveld
 * Handelingen die gebruikers uitvoeren op een object
 
-Deze systeemupdates omvatten de wijziging die is aangebracht, de naam van de gebruiker die de wijziging heeft aangebracht en de tijd en datum van de wijziging.
+Deze systeemupdates bevatten het volgende type informatie:
+
+* De aangebrachte wijziging
+* De naam van de gebruiker die de wijziging heeft aangebracht
+* Het tijdstip en de datum van de wijziging
 
 Zie voor meer informatie over systeemupdates [Door het systeem bijgehouden updates](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -147,7 +151,7 @@ U kunt bijvoorbeeld [!DNL Workfront] registreert een update telkens als een gebr
   </tr> 
   <tr> 
    <td>Document wordt gemaakt of verwijderd</td> 
-   <td>Projecten, Taken, Kwesties, Portfolio, Programma's</td> 
+   <td>Projecten, Taken, Kwesties, Portfolio's, Programma's</td> 
    <td> <p>Ingeschakeld</p> </td> 
   </tr> 
   <tr> 
@@ -172,7 +176,7 @@ U kunt bijvoorbeeld [!DNL Workfront] registreert een update telkens als een gebr
   </tr> 
   <tr> 
    <td>De toegang van iemand is gewijzigd</td> 
-   <td>Projecten, taken, problemen, documenten, Portfolio, programma's</td> 
+   <td>Projecten, taken, problemen, documenten, Portfolio's, programma's</td> 
    <td> <p>Ingeschakeld</p> </td> 
   </tr> 
   <tr> 

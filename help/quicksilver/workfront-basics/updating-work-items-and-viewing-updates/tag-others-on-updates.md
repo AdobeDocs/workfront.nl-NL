@@ -6,78 +6,53 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
 
 # Andere tags toepassen op updates
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
-
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>\
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht release 4de kwartaal 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 >[!IMPORTANT]
 >
 >De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
->Afhankelijk van welke omgeving en van welke objecten u de opmerkingervaring opent, ziet u mogelijk verschillende functionaliteit in de sectie Updates.
+>
+>Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogelijk de volgende functionaliteit voor de sectie Updates:
+>* De nieuwe ervaring
+>* De oudere ervaring
+>* De nieuwe en oudere ervaring
 >
 >Ga voor meer informatie over de nieuwe opmerkingervaring en de beschikbaarheid ervan naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
+>De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates van Workfront-objecten. Deze ervaring is niet beschikbaar wanneer u de objecten vanuit de volgende gebieden opent:
 >
 > * Home
 > * Samenvattingspaneel in lijsten
 > * Samenvattingspaneel in tijdbladen
 
-
-<!--old note before August 17: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the commenting Beta experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
-
--->
-
 U kunt gebruikers tags toewijzen wanneer u een update uitvoert naar een object als u de aandacht wilt vestigen op een object dat ze anders wellicht niet volgen.
+
 In plaats van deze gebruikers op het object te plaatsen door ze eraan toe te wijzen of door ze ertoe te brengen zich erop te abonneren, kunt u ze in de update labelen om het met hen te delen. Gelabelde gebruikers ontvangen een melding over de update die u invoert.
 
->[!NOTE]
->
->De gebruiker moet een persoonlijke melding in zijn profiel inschakelen om de e-mailmelding te ontvangen. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
+## Overwegingen over het coderen van gebruikers in updates
 
-Voor informatie over het toevoegen van updates aan Workfront-objecten raadpleegt u [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* Gebruikers die updates hebben gecodeerd, moeten een persoonlijke melding inschakelen in hun profiel om de e-mailmelding te ontvangen. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
->[!NOTE]
->
->Wanneer een kwestie in een project of een taak wordt omgezet, worden de updates gekopieerd aan het nieuwe project of de taak, maar de geëtiketteerde gebruikers niet. Om het gesprek voort te zetten, moet u de deelnemers opnieuw etiketteren.
+  Voor informatie over het toevoegen van updates aan Workfront-objecten raadpleegt u [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+* Wanneer een kwestie in een project of een taak wordt omgezet, worden de updates gekopieerd aan het nieuwe project of de taak, maar de geëtiketteerde gebruikers niet. Om het gesprek voort te zetten, moet u de deelnemers opnieuw etiketteren.
 
 ## Toegangsvereisten
 
@@ -116,50 +91,6 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 ## Andere tags toepassen op updates
 
 Het labelen van anderen in een update is afhankelijk van de ervaring en het object dat u selecteert.
-
-### Andere tags toepassen op updates in de sectie Huidige updates
-
-<!--change "current" to "legacy" at the October 26, 2023 release-->
-
-U kunt gebruikers handmatig labelen in de huidige sectie Updates.
-
-1. Beginnen met het bijwerken van een tijdelijk item, zoals beschreven in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. In de **Waarschuwen** typt u de naam van de gebruiker of het team dat u wilt opnemen en klikt u op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
-
-   of
-
-   Typ het @-symbool in het dialoogvenster **Een nieuwe update starten** typt u de naam van de gebruiker of het team dat u in de update wilt opnemen en klikt u vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
-
-   >[!TIP]
-   >
-   >Als u de juiste gebruiker wilt identificeren wanneer er gebruikers met vergelijkbare of identieke namen zijn, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres.
-   >
-   >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze in een update codeert.
-   >
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-
-   ![](assets/tag-users-in-update.png)
-
-1. (Optioneel) Schakel de optie **Privé voor mijn bedrijf** in de rechterbenedenhoek van het updatevak. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf. De **Privé voor mijn bedrijf** Deze optie is alleen beschikbaar wanneer een bedrijf is opgegeven in uw Workfront-profiel.
-
-   >[!NOTE]
-   >
-   >Gelabelde gebruikers buiten het bedrijf konden nog steeds een melding in de app of een e-mail ontvangen, ook al zullen ze de persoonlijke opmerkingen op het tabblad Updates niet zien. We raden u aan geen tags toe te wijzen aan externe gebruikers tijdens een update als u de gegevens niet met hen wilt delen.
-
-1. (Optioneel) Herhaal stap 2 om meerdere gebruikers en teams toe te voegen.
-
-   >[!NOTE]
-   >
-   >Alle gebruikers en teamleden die in het veld Waarschuwen worden vermeld, ontvangen een melding in de app voor de update en ontvangen mogelijk een e-mail, afhankelijk van de configuratie van hun instellingen voor e-mailmeldingen. Gebruikers die zichzelf in een opmerking of antwoord labelen, ontvangen een melding voor die opmerking of reactie en kunnen hun naam voor de rest van de thread in het veld Waarschuwen weergeven, maar ontvangen geen andere melding tenzij ze zichzelf opnieuw labelen. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) en [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-
-1. Klikken **Bijwerken**.\
-   Aan gebruikers die zijn opgenomen in de update, wordt automatisch weergavemachtiging toegekend aan het object en deze gebruikers kunnen updates die aan het object zijn toegevoegd, weergeven en erop reageren.
-
-   U kunt zien wie in elk antwoord bij de bovenkant van de updatedraad is geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord.
-
-   ![](assets/tagging-transparency-350x192.png)
-
-   Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Andere tags toepassen op updates in de nieuwe opmerkingervaring
 
@@ -213,17 +144,60 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
 1. Klikken **Verzenden**.\
    Aan gebruikers die zijn opgenomen in de update, wordt automatisch weergavemachtiging toegekend aan het object en deze gebruikers kunnen updates die aan het object zijn toegevoegd, weergeven en erop reageren.
 
-   <span class="preview">De namen van de getagde entiteiten worden naast hun avatars (maximaal twee entiteiten) weergegeven. Als er meerdere entiteiten zijn gelabeld, wordt de naam van de eerste entiteit weergegeven, plus het aantal extra entiteiten dat is gelabeld.</span>
+   De namen van de getagde entiteiten worden naast hun avatars (maximaal twee entiteiten) weergegeven. Als er meerdere entiteiten zijn gelabeld, wordt de naam van de eerste entiteit weergegeven, plus het aantal extra entiteiten dat is gelabeld.
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) <span class="preview">in de rechterbovenhoek van de opmerking</span>en klik vervolgens op **Bewerken**. Verwijder alle getagde gebruikers en klik vervolgens op **Verzenden**. U kunt een opmerking pas bewerken binnen 15 minuten nadat u deze hebt ingevoerd. U kunt alleen de opmerkingen bewerken die u hebt toegevoegd.
+1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking klikt u op **Bewerken**. Verwijder alle getagde gebruikers en klik vervolgens op **Verzenden**. U kunt een opmerking pas bewerken binnen 15 minuten nadat u deze hebt ingevoerd. U kunt alleen de opmerkingen bewerken die u hebt toegevoegd.
 
    >[!TIP]
    >
    >Wanneer u de ervaring van oudere opmerkingen gebruikt om opmerkingen en reacties toe te voegen, kunnen eigenaars van opmerkingen die niet specifiek zijn gecodeerd, niet handmatig worden verwijderd door personen die de nieuwe opmerkingervaring gebruiken.
+
+
+### Andere tags toepassen op updates in de sectie Oudere updates
+
+U kunt gebruikers handmatig labelen in de sectie Updates van oudere versies.
+
+1. Beginnen met het bijwerken van een tijdelijk item, zoals beschreven in [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. In de **Waarschuwen** typt u de naam van de gebruiker of het team dat u wilt opnemen en klikt u op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+
+   of
+
+   Typ het @-symbool in het dialoogvenster **Een nieuwe update starten** typt u de naam van de gebruiker of het team dat u in de update wilt opnemen en klikt u vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+
+   >[!TIP]
+   >
+   >Als u de juiste gebruiker wilt identificeren wanneer er gebruikers met vergelijkbare of identieke namen zijn, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres.
+   >
+   >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze in een update codeert.
+   >
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+   ![](assets/tag-users-in-update.png)
+
+1. (Optioneel) Schakel de optie **Privé voor mijn bedrijf** in de rechterbenedenhoek van het updatevak. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf. De **Privé voor mijn bedrijf** Deze optie is alleen beschikbaar wanneer een bedrijf is opgegeven in uw Workfront-profiel.
+
+   >[!NOTE]
+   >
+   >Gelabelde gebruikers buiten het bedrijf konden nog steeds een melding in de app of een e-mail ontvangen, ook al zullen ze de persoonlijke opmerkingen op het tabblad Updates niet zien. We raden u aan geen tags toe te wijzen aan externe gebruikers tijdens een update als u de gegevens niet met hen wilt delen.
+
+1. (Optioneel) Herhaal stap 2 om meerdere gebruikers en teams toe te voegen.
+
+   >[!NOTE]
+   >
+   >Alle gebruikers en teamleden die in het veld Waarschuwen worden vermeld, ontvangen een melding in de app voor de update en ontvangen mogelijk een e-mail, afhankelijk van de configuratie van hun instellingen voor e-mailmeldingen. Gebruikers die zichzelf in een opmerking of antwoord labelen, ontvangen een melding voor die opmerking of reactie en kunnen hun naam voor de rest van de thread in het veld Waarschuwen weergeven, maar ontvangen geen andere melding tenzij ze zichzelf opnieuw labelen. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) en [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+1. Klikken **Bijwerken**.\
+   Aan gebruikers die zijn opgenomen in de update, wordt automatisch weergavemachtiging toegekend aan het object en deze gebruikers kunnen updates die aan het object zijn toegevoegd, weergeven en erop reageren.
+
+   U kunt zien wie in elk antwoord bij de bovenkant van de updatedraad is geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord.
+
+   ![](assets/tagging-transparency-350x192.png)
+
+   Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

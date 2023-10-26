@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Door het systeem bijgehouden updates
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] legt de activiteit vast die op bepaalde voorwerpen door statusinformatie in de objecten te registreren plaatsvindt [!UICONTROL Updates] gebied.
 
@@ -32,6 +34,8 @@ De [!UICONTROL Updates] omvat de volgende typen updates:
 
   Voor meer informatie over de feeds van systeemupdates en hoe te om hen toe te laten, zie [Systeemupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,7 +44,9 @@ De [!UICONTROL Updates] omvat de volgende typen updates:
 
 ## Overwegingen bij systeembijgehouden updates
 
-* Door het systeem bijgehouden updates zijn niet beschikbaar voor alle objecten die het gebied Updates hebben. De [!UICONTROL Updates] is beschikbaar voor de volgende objecten:
+Door het systeem bijgehouden updates zijn niet beschikbaar voor alle objecten die het gebied Updates hebben.
+
+* De [!UICONTROL Updates] is beschikbaar voor de volgende objecten:
 
    * [!UICONTROL Project]
    * [!UICONTROL Task]
@@ -64,12 +70,13 @@ De [!UICONTROL Updates] omvat de volgende typen updates:
 
      Voor meer informatie over updates van kaarten raadpleegt u [Gekoppelde kaarten op borden gebruiken](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] volgt geen systeemupdates voor de volgende objecten:
+* [!DNL Workfront] houdt geen systeemupdates bij voor de volgende objecten:
 
    * [!UICONTROL Team]
    * [!UICONTROL Template]
    * [!UICONTROL Template Task]
    * Ad hoc [!UICONTROL Card]
+   * [!UICONTROL Iterations]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ De [!UICONTROL Updates] omvat de volgende typen updates:
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Gebruikers kunnen systeemupdates standaard weergeven of ze kunnen ervoor kiezen deze niet weer te geven.
+* Hieronder ziet u de verschillen tussen de nieuwe en de oudere opmerkingervaring:
 
-  Zie de sectie voor informatie over het uitschakelen van de weergave van systeemupdates [Systeemupdates in- of uitschakelen](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in het artikel [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Wanneer u de nieuwe opmerkingervaring gebruikt, worden gebruikersupdates weergegeven op het tabblad Opmerkingen en worden systeemupdates weergegeven op het tabblad Systeemactiviteit.
 
-  >[!NOTE]
-  >
-  >De ervaring met opmerkingen en de [!UICONTROL Updates] gebied in [!DNL Workfront].
-  >
-  > U kunt systeemupdates niet verbergen wanneer u de nieuwe opmerkingervaring gebruikt.
-  > 
-  >Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * Als u de oudere opmerkingervaring gebruikt, worden het systeem en de gebruikersupdates in één doorlopende feed weergegeven.
+
+   * Als gebruikers de oudere opmerkingervaring gebruiken, kunnen ze systeemupdates standaard bekijken of ze kunnen ervoor kiezen deze niet weer te geven. Het is niet mogelijk systeemupdates uit te schakelen wanneer u de nieuwe opmerkingervaring gebruikt.
+
+     Zie de sectie voor informatie over het uitschakelen van de weergave van systeemupdates [Systeemupdates in- of uitschakelen](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in het artikel [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront registreert door het systeem bijgehouden updates voor de volgende objecten, maar er is geen optie om de weergave ervan uit te schakelen:
 

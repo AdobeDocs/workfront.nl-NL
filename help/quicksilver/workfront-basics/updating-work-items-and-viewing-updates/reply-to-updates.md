@@ -8,28 +8,37 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
 
 # Reageren op updates
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>\
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht release 4de kwartaal 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
->Afhankelijk van welke omgeving en van welke objecten u de opmerkingervaring opent, ziet u mogelijk verschillende functionaliteit in de sectie Updates.
+>
+>Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogelijk de volgende functionaliteit voor de sectie Updates:
+>* De nieuwe ervaring
+>* De oudere ervaring
+>* De nieuwe en oudere ervaring
 >
 >Ga voor meer informatie over de nieuwe opmerkingervaring en de beschikbaarheid ervan naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates en is niet beschikbaar voor de volgende gebieden:
+>De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates van Workfront-objecten. Deze ervaring is niet beschikbaar wanneer u de objecten vanuit de volgende gebieden opent:
 >
 > * Home
 > * Samenvattingspaneel in lijsten
@@ -41,6 +50,7 @@ Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp an
 >
 >Het is niet mogelijk te reageren op systeemupdates in de nieuwe opmerkingervaring. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
 ## Toegangsvereisten
 
@@ -79,7 +89,30 @@ U kunt reageren op een opmerking in de thread van een object dat u kunt weergeve
 
 Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het object dat u selecteert.
 
-### Reageren op een update of antwoord in de huidige sectie Updates
+### Reageren op een opmerking bij gebruik van de nieuwe opmerkingervaring
+
+Ga voor meer informatie over de functies die beschikbaar zijn in de nieuwe opmerkingervaring en voor welke objecten [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+1. Ga naar het object waaraan u een antwoord wilt toevoegen.
+1. Klikken **Updates** en klik vervolgens op de knop **Opmerkingen** voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren.
+1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** in de rechterbovenhoek van de opmerking waarop u wilt reageren, klikt u op **Offerteantwoord**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
+1. Klikken **Antwoord**.
+
+   ![](assets/reply-to-update-empty-box.png)
+
+   U kunt de gebruikers zien die actief in het gesprek bij de bodem van zijn betrokken **Antwoord toevoegen...** en kunt u meer toevoegen of verwijderen van de niet-relevante vakken. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   Als u aanvullende antwoorden op een bestaande reactie wilt toevoegen, kunt u beginnen met typen in het dialoogvenster **Antwoord toevoegen...** of klik op **Antwoord** op de oorspronkelijke opmerking. Uw antwoord wordt toegevoegd aan het eind van de draad.
+
+1. Begin uw antwoord te typen en gebruik om het even welke extra opties van de Rich toolbar van de Tekst. Voor informatie over het gebruiken van RTF of andere het bijwerken mogelijkheden, zie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+
+1. Klikken **Verzenden** om het antwoord op te slaan.
+
+1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking waarop u wilt reageren voor meer opties voor het beheren van de reactie. Zie voor meer informatie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+
+### Reageren op een update of antwoord in de sectie Oudere updates
 
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
 1. Op de **Updates** zoekt u de update of het antwoord waarop u wilt antwoorden.
@@ -98,30 +131,6 @@ Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het 
 1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Aanhalingsreactie**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
 1. (Optioneel) Gebruik opmaak, emojis, neem koppelingen of afbeeldingen op zoals wordt uitgelegd in de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het artikel [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klikken **Antwoord** om het antwoord op te slaan.
-
-### Reageren op een opmerking bij gebruik van de nieuwe opmerkingervaring
-
-Ga voor meer informatie over de functies die beschikbaar zijn in de nieuwe opmerkingervaring en voor welke objecten [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. Ga naar het object waaraan u een antwoord wilt toevoegen.
-1. Klikken **Updates** en klik vervolgens op de knop **Opmerkingen** voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren.
-1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu <span class="preview">in de rechterbovenhoek van de opmerking waarop u wilt reageren</span>en klik vervolgens op **Offerteantwoord**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
-1. Klikken **Antwoord**.
-
-   ![](assets/reply-to-update-empty-box.png)
-
-   U kunt de gebruikers zien die actief in het gesprek bij de bodem van zijn betrokken **Antwoord toevoegen...** en kunt u meer toevoegen of verwijderen van de niet-relevante vakken. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   >[!TIP]
-   >
-   >   <span class="preview">Als u aanvullende antwoorden op een bestaande reactie wilt toevoegen, kunt u beginnen met typen in het dialoogvenster **Antwoord toevoegen...** of klik op **Antwoord** op de oorspronkelijke opmerking. Uw antwoord wordt toegevoegd aan het eind van de draad. </span>
-
-1. Begin uw antwoord te typen en gebruik om het even welke extra opties van de Rich toolbar van de Tekst. Voor informatie over het gebruiken van RTF of andere het bijwerken mogelijkheden, zie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
-
-1. Klikken **Verzenden** om het antwoord op te slaan.
-
-1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) <span class="preview">in de rechterbovenhoek van de opmerking waarop u wilt reageren</span> voor meer opties om het antwoord te beheren. Zie voor meer informatie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
-
 
 ## Reageren op een update van een e-mailbericht
 

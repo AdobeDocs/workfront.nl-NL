@@ -6,9 +6,9 @@ description: U kunt commentaren op timesheets, de het werkpunten inbegrepen in t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De toegang van de mening of hoger tot Taken en Kwesties</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot of hoger weergeven voor Taken en problemen</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -58,7 +58,7 @@ Opmerkingen worden standaard verborgen wanneer u voor het eerst een tijdblad ope
 
 Opmerkingen weergeven op een tijdblad:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Timesheets**.
 1. Open de tijdpagina waarin u opmerkingen wilt weergeven.
@@ -78,23 +78,25 @@ De commentaren tonen onder het punt waar de uuringang en de commentaar werden ge
 
 U kunt algemene opmerkingen maken over de tijdpagina.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Timesheets**.
 1. Ga naar de tijdpagina waarop u een opmerking wilt maken.
-1. Klikken **Updates** in het linkerdeelvenster en voer een update in.
-1. (Optioneel) Voeg personen of teams toe aan de **Waarschuwen** om anderen in uw update op te nemen. Ga voor meer informatie over Workfront-updates naar [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Typ uw opmerking en klik vervolgens op **Bijwerken**.
+1. Klikken **Updates** in het linkerpaneel, zorg ervoor **Opmerkingen** is geselecteerd en begint u een update in te voeren in het dialoogvenster **Nieuwe opmerking** doos.
+1. (Optioneel) Voeg personen of teams toe aan de **Tags toewijzen aan personen of teams** om anderen in uw update op te nemen. Zie voor meer informatie [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Optioneel) Voeg RTF-opmaak toe aan uw opmerking. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optioneel) Selecteer de optie **Privé voor mijn bedrijf** als u wilt dat alleen personen van uw bedrijf de update kunnen bekijken.
+1. Typ uw opmerking en klik vervolgens op **Verzenden**.
 
    Uw opmerking wordt weergegeven in het dialoogvenster [!UICONTROL Updates] van het tijdsplaat.
 
-   Door het systeem gegenereerde updates worden ook in dit gebied weergegeven wanneer u de optie [!UICONTROL **Systeemupdates tonen**] het plaatsen in de sectie van Updates.
+1. (Optioneel) Klik op de knop **Systeemactiviteit** om door het systeem gegenereerde updates te controleren.
 
    Zie de sectie &quot;Systeemupdates inschakelen of uitschakelen&quot; in het artikel voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Commentaar op een individuele uuringang in een timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Timesheets**.
 1. Ga naar de tijdpagina waar u een opmerking wilt maken en klik op **Tijdschema** in het linkerdeelvenster.
@@ -105,14 +107,14 @@ U kunt algemene opmerkingen maken over de tijdpagina.
    >   Als u een standaard QWERTY-toetsenbord gebruikt nadat u op het invoervak voor uren hebt geklikt, drukt u op de volgende toetsen om het opmerkingsvak te openen:
    >   * Shift + F2 voor zowel Windows- als Mac-computers.
 
-
    Voer een van de volgende handelingen uit:
 
    * Typ een nieuwe opmerking en klik op **Gereed**.
-   * Bewerk een bestaande opmerking en klik op **Gereed** of klik op **Annuleren** om de wijzigingen te verwijderen.
+   * Een bestaande opmerking bewerken en klikken **Gereed** of klik op **Annuleren** om de wijzigingen te verwijderen.
    * Klik op de knop **Verwijderen** pictogram ![](assets/delete.png) om een opgeslagen opmerking te verwijderen.
 
-      Een blauwe markering wordt in de rechterbovenhoek van het invoervak van het uur weergegeven om aan te geven dat er opmerkingen zijn geregistreerd bij het invoeren van de tijd.
+     Een blauwe markering wordt in de rechterbovenhoek van het invoervak van het uur weergegeven om aan te geven dat er opmerkingen zijn geregistreerd bij het invoeren van de tijd.
+
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
@@ -120,7 +122,6 @@ U kunt algemene opmerkingen maken over de tijdpagina.
    >   Als u een standaard QWERTY-toetsenbord gebruikt, drukt u vanuit het vak Opmerking op de volgende toetsen om de opmerking op te slaan:
    >   * Ctrl + Enter voor Windows-computers.
    >   * Cmd + Return voor Mac-computers.
-
 
 
 1. (Optioneel) Zie de sectie voor informatie over het configureren van opmerkingen voor uren die in de tijdpagina moeten worden weergegeven [Uur-ingangs commentaren op een timesheet bekijken](#view-hour-entry-comments-on-a-timesheet) in dit artikel.
@@ -134,7 +135,7 @@ U kunt algemene opmerkingen maken over de tijdpagina.
 
 U kunt alleen opmerkingen maken over taken en problemen in een tijdsplaat. U kunt geen opmerkingen maken over projecten of algemene tijd.
 
-1. Klik op de knop [!UICONTROL **Hoofdmenu**] pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop [!UICONTROL **Hoofdmenu**] pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 1. Klikken [!UICONTROL **Timesheets**].
 1. Ga naar de tijdpagina waarop u een opmerking wilt maken en klik op [!UICONTROL **Tijdschema**] in het linkerdeelvenster.
 1. Klik op de rij van een taak of een probleem en klik vervolgens op [!UICONTROL **Samenvatting openen**].

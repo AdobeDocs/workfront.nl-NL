@@ -8,24 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
 
 # Problemen maken
 
-<!--remove Preview and Prod references when this comes to Prod-->
+<!--
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
 
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release 4de kwartaal 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span> 
 
-
+-->
 
 Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of van een taak registreren. Gebruikers met de juiste toegang kunnen de status van problemen bekijken en controleren terwijl het project of de taak wordt voltooid, zodat er geen lange e-mailketens of statusvergaderingen nodig zijn. In tegenstelling tot taken, die geplande gebeurtenissen zijn, vormen kwesties ongeplande het werkpunten in Adobe Workfront.
 
@@ -87,68 +87,67 @@ Voor informatie over het creëren van kwesties door hen aan een verzoekrij voor 
 
 Nadat u de velden van een nieuw uitgaveformulier voor uw project hebt gedefinieerd, kunt u beginnen met het maken van uitgaven.
 
-Het maken van problemen hangt af van de omgeving waarin u de uitgave maakt.
+<!-- OLD UI: redesigned on Oct 26, 2023:
 
-### Creeer kwesties op een taak of een project gebruikend de Nieuwe knoop van de Kwestie in het milieu van de Productie
+Creating issues differs depending on which environment you choose to create the issue. 
 
-Om een kwestie op een taak of een project tot stand te brengen:
+### Create issues on a task or project using the New Issue button in the Production environment
 
-1. Ga naar een project waar u de kwestie wilt tot stand brengen.
-1. (Optioneel) Als u het probleem voor een taak wilt registreren, gaat u naar de **Taken** en klikt u op de naam van een taak.
-1. Klik op de knop **Problemen** sectie.
+To create an issue on a task or a project:
+
+1. Go to a project where you want to create the issue. 
+1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
+1. Click the **Issues** section.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. Klikken **Nieuw probleem**.
+1. Click **New Issue**.
 
    ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
 
-1. (Voorwaardelijk) als de projectmaker de Onderwerpen van de Rij of de Groepen van het Onderwerp op het project creeerde worden zij toegevoegd aan de nieuwe uitgifteformulier. Geef de **Onderwerpgroep** of de **Onderwerp van wachtrij** van uw nieuwe uitgave. De Groepen van het onderwerp en de Onderwerpen van de Rij hebben namen die aan uw milieu worden aangepast.\
-   Voor meer informatie over het creëren van de Groepen van het Onderwerp, zie [Onderwerpgroepen maken](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
+   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
-   * Als er slechts één die Onderwerp van de Rij op het project wordt geplaatst is, wordt het automatisch getoond.
-   * Als de Groep van het Onderwerp geen Onderwerpen van de Rij of de Groepen van het Onderwerp onder het heeft, is niets beschikbaar in de drop-down Groep van het Onderwerp.
+   * If there is only one Queue Topic set on the project, it is displayed automatically.
+   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
 
-1. (Voorwaardelijk) Als de projectmaker toestemming heeft verleend voor de **Type aanvraag** in het veld Nieuw probleem dat u wilt weergeven, selecteert u het type uitgave op basis van de volgende opties:
+1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
 
-   * Foutrapport
-   * Volgorde wijzigen
-   * Probleem
-   * Verzoek\
-     Afhankelijk van hoe uw Workfront-beheerder uw projectvoorkeuren heeft geconfigureerd, kunnen de namen van de uitgavetypen voor u verschillen.
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request  
+     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
 
    >[!TIP]
    >
-   >De types van Verzoek moeten in de Details van de Rij worden toegelaten en evenals wanneer het creëren van het Onderwerp van de Rij om als selectie in de Nieuwe vorm van de Uitgave te tonen. Raadpleeg de volgende artikelen voor meer informatie:
-   >* [Een aanvraagwachtrij maken](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Werkvoorraadonderwerpen maken](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
+   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 
-1. Voeg een naam voor de nieuwe uitgave toe in het dialoogvenster **Naam van uitgave** veld.
-1. Geef de velden op die beschikbaar zijn in het dialoogvenster **Nieuw probleem** formulier. Ga voor meer informatie over de velden die beschikbaar zijn wanneer u een nieuwe uitgave invoert naar [Problemen bewerken](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Add a name for the new issue in the **Issue Name** field. 
+1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
-   >Niet alle velden met betrekking tot uitgaven zijn beschikbaar in het formulier Nieuwe uitgave. De projectschepper laat de gebieden beschikbaar toe wanneer het creëren van een kwestie wanneer zij het gebied van de Details van de Rij van het project bepalen. Zie voor meer informatie [Een wachtrij met verzoeken maken](../../requests/create-and-manage-request-queues/create-request-queue.md).
+   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
 
 
-1. (Voorwaardelijk) Als de onderwerpen van de Rij met een douaneformulier worden geassocieerd, zal dat aangepaste vorm in **Nieuw probleem** formulier.\
-   of\
-   Als het project met een kwestie douaneformulier door het gebied van de Details van de Rij wordt geassocieerd, toont de vorm in **Nieuw probleem** na de standaard Workfront-velden.
+1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
+   Or  
+   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
 
-   Zie voor meer informatie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klikken **Nieuw probleem opslaan.**
+1. Click **Save New Issue.**
 
-De kwesties kunnen aan veelvoudige gebruikers, baanrollen of aan een team worden toegewezen. Voor meer informatie over het toewijzen en beheren van verzoeken raadpleegt u [Werk- en teamverzoeken beheren](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
-
-<div class="preview">
-
-### Problemen op een taak of project maken met de knop Nieuw probleem in de voorvertoningsomgeving
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
+-->
 
 Om een kwestie op een taak of een project tot stand te brengen:
 
@@ -202,7 +201,6 @@ Het vak Nieuwe uitgave wordt weergegeven.
 
    De kwesties kunnen aan veelvoudige gebruikers, baanrollen of aan een team worden toegewezen. Voor meer informatie over het toewijzen en beheren van verzoeken raadpleegt u [Werk- en teamverzoeken beheren](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-</div>
 
 ## Problemen op een taak of project inline maken
 
