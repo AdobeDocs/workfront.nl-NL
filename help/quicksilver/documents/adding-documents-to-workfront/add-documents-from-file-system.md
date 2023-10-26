@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront
-description: 'In Adobe Workfront kunt u documenten toevoegen aan projecten, taken of problemen op de volgende gebieden: BEWERK ME.'
+description: U kunt documenten toevoegen aan projecten, taken of problemen in meerdere gebieden in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 # Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront
 
-{{preview-and-fast-release}}
-
 U kunt documenten toevoegen aan projecten, taken of problemen in de volgende gebieden in Adobe Workfront:
 
 * Het gebied Algemene documenten
 * Het gebied Documenten voor een Workfront-object
-* <span class="preview">Een aangesloten kaart op een Workfront-kaart</span>
+* Een aangesloten kaart op een Workfront-kaart
 
 U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen naar documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten raadpleegt u [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md). Raadpleeg voor meer informatie over het toevoegen van documenten van externe leveranciers van cloud&#39;s [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

@@ -7,9 +7,9 @@ description: Lees dit artikel voor meer informatie over de [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
   </tr>
   <tr>
    <td>Documenten op verbonden kaarten weergeven</td>
-   <td>Gedeeltelijk vrijgegeven</td>
+   <td>Vrijgegeven</td>
   </tr>
- </tbody> 
+ </tbody>
 </table>
 
 ## Aanmelden voor vroege functies

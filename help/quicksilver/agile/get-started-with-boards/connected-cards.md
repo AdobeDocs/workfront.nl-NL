@@ -6,7 +6,7 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Gekoppelde kaarten op borden gebruiken
-
-{{preview-and-fast-release}}
 
 U kunt een kaart toevoegen aan uw board die is aangesloten op bestaande taken en problemen in [!DNL Workfront].
 
@@ -27,8 +25,8 @@ Wanneer een van de volgende gegevens voor de kaart op de ene locatie wordt bijge
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
-* <span class="preview">[!UICONTROL Subtasks]</span>
-* <span class="preview">[!UICONTROL Documents]</span>
+* [!UICONTROL Subtasks]
+* [!UICONTROL Documents]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtask]</strong></span></td>
-      <td><span class="preview"><p>Eventuele bestaande subtaken voor de taak worden in deze sectie weergegeven. Klikken <strong>[!UICONTROL Add Subtask]</strong> om een nieuwe subtaak toe te voegen.</p>
+      <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
+      <td><p>Eventuele bestaande subtaken voor de taak worden in deze sectie weergegeven. Klikken <strong>[!UICONTROL Add Subtask]</strong> om een nieuwe subtaak toe te voegen.</p>
       <p>De teller bij de bovenkant van de sectie toont het aantal voltooide subtaken en het totale aantal subtaken.</p>
-      <p>Voor meer informatie over subtaken, zie <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Subtaken beheren op tekengebieden</a>.</p></span></td>
+      <p>Voor meer informatie over subtaken, zie <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Subtaken beheren op tekengebieden</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
@@ -148,8 +146,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Zie voor meer informatie over controlelijstitems <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview">Voor een bestaand document beweegt u de muis boven de documentminiatuur en klikt u op <strong>Voorvertoning</strong> om het bestand in de browser of <strong>Downloaden</strong> om het bestand naar uw computer te downloaden. Zie voor een nieuw document <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Documenten toevoegen aan kaarten</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
+      <td>Voor een bestaand document beweegt u de muis boven de documentminiatuur en klikt u op <strong>Voorvertoning</strong> om het bestand in de browser of <strong>Downloaden</strong> om het bestand naar uw computer te downloaden. Zie voor een nieuw document <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Documenten toevoegen aan kaarten</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
