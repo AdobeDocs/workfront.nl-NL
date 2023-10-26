@@ -6,16 +6,14 @@ description: Override project-Level het Factureren Tarieven met het bedrijf-Vlak
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Override project-Level het Factureren Tarieven met het bedrijf-Vlakke FactureringsTarieven
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -41,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -80,17 +78,9 @@ Nadat u de bedrijf-vlakke het facturerings optie van de tariefopheffing op een p
 1. Klikken **Bedrijven**.
 1. Klik de naam van het bedrijf dat met het project wordt geassocieerd waarvoor u bedrijf-vlakke het factureren tariefopheffing toeliet.
 1. Klikken **Factureringstarieven** in het linkerdeelvenster.
-1. Voer in de productieomgeving de nieuwe factureringsgraad in voor een bestaande functie in de **Factureringsgraad bedrijf** en drukt u op Enter.
+1. Werk de **Factureringsgraad bedrijf** en begin-/einddatums voor een bestaande taakrol en druk vervolgens op Enter.
 
-   of
-
-   <div class="preview">
-
-   Werk in de voorvertoningsomgeving de **Factureringsgraad bedrijf** en begin-/einddatums voor een bestaande taakrol en druk vervolgens op Enter.
-
-   Als u een nieuwe datum wilt toevoegen waarop het bedrijf een effectieve factureringssnelheid heeft, selecteert u een factureringssnelheid voor de rol van de taak en klikt u op Bewerken. Voor meer informatie over de datum van de daadwerkelijke het factureringspercentages van het bedrijf, zie [Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   Als u een nieuwe datum wilt toevoegen aan een effectieve factureringssnelheid van het bedrijf, selecteert u een factureringssnelheid voor de rol van de taak en klikt u op **Bewerken**. Voor meer informatie over de datum van de daadwerkelijke het factureringspercentages van het bedrijf, zie [Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Voer een van de volgende handelingen uit om de bedrijfstarieven voor een of meer projecten bij te werken:
 
@@ -99,7 +89,7 @@ Nadat u de bedrijf-vlakke het facturerings optie van de tariefopheffing op een p
    1. Ga naar een lijst met projecten.
    1. Schakel het selectievakje in in overeenstemming met de projecten die u wilt bijwerken.
    1. Klikken **Bewerken**.
-   1. Schakel in het gedeelte Instellingen het selectievakje **Herberekening van kosten en opbrengsten** optie.
+   1. Schakel in het gedeelte Instellingen het selectievakje **Herberekening van kosten en opbrengsten** -optie.
    1. Klikken **Wijzigingen opslaan**.
 
    * Eén project:

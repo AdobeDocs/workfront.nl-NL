@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
 
 # Bedrijven maken en bewerken
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -104,19 +102,15 @@ Een bedrijf toevoegen of bewerken:
       <td> 
        <ul> 
         <li> <p><b>[!UICONTROL Company Name]</b>: Typ een naam voor het bedrijf.</p> </li> 
-        <li> <p><b>[!UICONTROL Is Active]</b>: Wanneer deze optie wordt toegelaten, kunnen de gebruikers het bedrijf vinden en het aan projecten vastmaken die zij creëren en uitgeven. Een inactief bedrijf kan niet aan projecten worden vastgehouden. Deze optie is standaard ingeschakeld.</p> </li> 
-        <li> <p><b>[!UICONTROL This is the Primary Company]</b>: Wijst het bedrijf als primair bedrijf van uw organisatie toe. Het primaire bedrijf vertegenwoordigt doorgaans uw [!DNL Workfront] -account waar de meeste gebruikers werken.</p> <p>U kunt één bedrijf of geen bedrijf hebben dat als primair bedrijf wordt aangewezen, maar u kunt geen veelvoudige bedrijven hebben die als primaire bedrijven worden aangewezen. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> <p><b>OPMERKING</b>: Door hun toegangsniveaus te wijzigen, kunt u gebruikers beperken om andere gebruikers te zien: alleen in hun primaire onderneming, of in hun gelieerde onderneming en de primaire onderneming. Voor informatie over hoe het primaire bedrijf met de toegangsniveaus van gebruikers werkt, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </li> 
+        <li> <p><b>[!UICONTROL Is Active]</b>: Wanneer deze optie is ingeschakeld, kunnen gebruikers het bedrijf zoeken en het koppelen aan projecten die ze maken en bewerken. Een inactief bedrijf kan niet aan projecten worden vastgehouden. Deze optie is standaard ingeschakeld.</p> </li> 
+        <li> <p><b>[!UICONTROL This is the Primary Company]</b>: Wijst het bedrijf toe als primair bedrijf van uw organisatie. Het primaire bedrijf vertegenwoordigt doorgaans uw [!DNL Workfront] -account waar de meeste gebruikers werken.</p> <p>U kunt één bedrijf of geen bedrijf hebben dat als primair bedrijf wordt aangewezen, maar u kunt geen veelvoudige bedrijven hebben die als primaire bedrijven worden aangewezen. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> <p><b>OPMERKING</b>: Door hun toegangsniveaus te wijzigen, kunt u gebruikers beperken om andere gebruikers te zien: slechts in hun primair bedrijf, of in hun verbonden bedrijf en het primaire bedrijf. Voor informatie over hoe het primaire bedrijf met de toegangsniveaus van gebruikers werkt, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </li> 
         <li> <p><b>[!UICONTROL Group]</b>: Als er een groep is die zaken met het bedrijf leidt, kunt u de naam van de groep hier toevoegen. Dit is nuttig voor groepsbeheerders die over alle bedrijven moeten rapporteren en beheren die hun groepen zaken doen met.</p> <p><b>BELANGRIJK</b>: Als u niet de groep associeert die met dit bedrijf zal werken, kunnen de beheerders voor de groep tot geen toegang hebben tenzij zij administratieve toegang tot bedrijven in hun toegangsniveau hebben. Voor informatie over hoe deze toegang wordt verleend, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Begin de naam van de groep te typen en druk vervolgens op <strong>[!UICONTROL Enter]</strong> wanneer deze wordt weergegeven.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Wanneer u een groep aan een bedrijf toewijst, de groepsbeheerders voor de groepsaanwinst [!UICONTROL Manage] toegang tot het bedrijf. Zie voor meer informatie <a href="#group-administrators-and-companies" class="MCXref xref">Groepsbeheerders en bedrijven</a> in dit artikel.</p> </li> 
         <li> <p><b>[!UICONTROL Company Members]</b>: Voeg bestaande gebruikers toe aan het bedrijf. Door dit te doen, associeert u deze gebruikers met dit bedrijf.</p> <p>Er is geen beperking aan hoeveel gebruikers u met één bedrijf associeert, maar een gebruiker kan niet met meer dan één bedrijf worden geassocieerd.</p> </li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Billing Rates] sectie</td> 
-      <td> <p><span class="preview">Deze sectie is verwijderd uit de voorvertoningsomgeving.</span></p><p>U kunt factureringstarieven met voeten treden verbonden aan uw baanrollen op het bedrijfsniveau. Voor informatie over het creëren van baanrollen en het associëren van hen met het factureren tarieven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> <p>Voor meer informatie over het overschrijven van het factureringstarief op het bedrijfsniveau, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] sectie</td> 
-      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet beschikbaar in zijn [!DNL Workfront]kunt u een aangepast formulier maken en dit koppelen aan uw bedrijf. U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve bedrijven worden vermeld in het keuzemenu. Ga voor informatie over het maken van aangepaste Forms naar <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>. </p> </td> 
+      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet beschikbaar in zijn [!DNL Workfront]kunt u een aangepast formulier maken en dit koppelen aan uw bedrijf. U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve bedrijven worden vermeld in de keuzelijst. Voor informatie over het maken van aangepaste Forms raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -147,7 +141,7 @@ Zie voor meer informatie over het delen van objecten [Overzicht van het delen va
 
 Wanneer een [!DNL Workfront] de beheerder wijst een groep aan een bedrijf toe, de groepsbeheerders voor de groepsaanwinst [!UICONTROL Manage] toegang tot het bedrijf in [!UICONTROL Setup]. Hieronder valt ook de toegang tot [!UICONTROL Companies] pagina in [!UICONTROL Setup], waar zij de met hun groep verbonden onderneming kunnen zien en beheren.
 
-Met deze toegang tot [!UICONTROL Companies] pagina, kan een groepsbeheerder een groep aan een bedrijf toewijzen, maar het moet een bedrijf zijn dat de groepsbeheerder creeerde. Als het de toegangsniveau van de groepsbeheerder niet met administratieve toegang tot bedrijven wordt gevormd, [!UICONTROL Group] Het gebied wordt vereist wanneer de groepsbeheerder bedrijf-het is bolded titel wijst op dit:
+Met deze toegang [!UICONTROL Companies] pagina, kan een groepsbeheerder een groep aan een bedrijf toewijzen, maar het moet een bedrijf zijn dat de groepsbeheerder creeerde. Als het de toegangsniveau van de groepsbeheerder niet met administratieve toegang tot bedrijven wordt gevormd, [!UICONTROL Group] Het gebied wordt vereist wanneer de groepsbeheerder tot bedrijf-het is bolded titel wijst op dit:
 
 ![](assets/manage-company-group-field-req.jpg)
 
