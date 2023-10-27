@@ -3,16 +3,16 @@ title: Verbeteringen van projecten in het vierde kwartaal van 2023
 description: Verbeteringen van projecten in het vierde kwartaal van 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 # Verbeteringen van projecten in het vierde kwartaal van 2023
 
-Deze pagina beschrijft alle projectverbeteringen die zijn aangebracht met de release van het vierde kwartaal van 2023 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van 23.10.
+Deze pagina beschrijft alle projectverbeteringen die zijn aangebracht met de release van het vierde kwartaal van 2023 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.10.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwart de versiecyclus van 2023, zie [Overzicht release 4de kwartaal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
