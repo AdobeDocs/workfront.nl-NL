@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 0%
 
 ---
@@ -308,13 +308,21 @@ Elke rij van het blad komt overeen met een uniek object.
 1. Voltooi de cel in het dialoogvenster **isNew** kolom:
 
    * Als het object dat u importeert nieuw is, typt u **TRUE** de gegevens in de rij importeren.
-   * Als het object zich al in Workfront bevindt, typt u **FALSE** om de rij te negeren.
+   * Als het object zich al in Workfront bevindt, **FALSE** moet in de kolom zijn om de rij te negeren.
+
+      * Records die al in Workfront bestaan, worden niet bijgewerkt.
+      * Als u een sjabloon met gegevens hebt gedownload, worden bestaande objecten al gemarkeerd met **FALSE**.
+      * Als u een lege sjabloon hebt gedownload, hoeft u geen nieuwe rijen voor bestaande objecten toe te voegen.
 
 1. Voltooi de cel in het dialoogvenster **ID** kolom op een van de volgende manieren:
 
-   * Als het object dat u importeert nieuw is (en u typt **TRUE** in de **isNew** (kolom), geeft u een willekeurig nummer voor de id op. Dit nummer moet uniek zijn in het werkblad.
+   * Als het object dat u importeert nieuw is (en u typt **TRUE** in de **isNew** (kolom), typt u een willekeurig nummer voor de id. Dit nummer moet uniek zijn in het werkblad.
 
-   * Als het object dat u importeert al in het Workfront-systeem bestaat (en u typt **FALSE** in de **isNew** kolom), moet identiteitskaart de alpha-numerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
+   * Als het object al bestaat in Workfront (en **FALSE** bevindt zich in de **isNew** kolom), moet identiteitskaart de alpha-numerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
+
+      * Records die al in Workfront bestaan, worden niet bijgewerkt.
+      * Als u een malplaatje met gegevens downloadde, bevatten de bestaande voorwerpen reeds GUID als identiteitskaart
+      * U kunt een nieuw object importeren op basis van een bestaand object door **FALSE** tot **TRUE** in de **isNew** kolom, wijzigt u de id en brengt u de benodigde gegevensaanpassingen aan voordat u gaat importeren.
 
      ![Voorbeeld-id voor een groep](assets/kick-start-group-example.png)
 
