@@ -6,10 +6,10 @@ description: Bronvelden voor abonnementen
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: a000e1fc353bfbe47851062945adb810804d8dee
+source-git-commit: 80b42da8f9cd51571258c7b09fe4498be5244320
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p><span style="color: #ff0000;"> Dit veld is verouderd en wordt in de week van 23 oktober 2023 verwijderd.</p></span></td> 
+   <td>workPerDate <p>[!BADGE Verwijderd]{type=negative tooltip="Dit gebied werd verwijderd op 26 oktober 2023."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
