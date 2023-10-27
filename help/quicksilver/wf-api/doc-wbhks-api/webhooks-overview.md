@@ -7,9 +7,9 @@ description: Overzicht van webhooks
 author: Becky
 feature: Workfront API
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: eb738fa8cadaafb0332c5c78a3816d5c346c33b2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,19 @@ De gebruikerservaring voor integratie op basis van een webhaak is vergelijkbaar 
 
 **Referentie-implementatie**
 
-Workfront biedt een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. Code hiervoor is te vinden op [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app) . Deze implementatie is gebaseerd op Java en maakt het Workfront mogelijk om verbinding te maken met documenten op een netwerkbestandssysteem. 
+Workfront geeft voorbeelden van een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. Deze voorbeelden zijn te vinden op [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). De voorbeelden zijn gebaseerd op Java en stellen Workfront in staat om documenten te verbinden met een netwerkbestandssysteem. 
+
+>[!NOTE]
+>
+>De middelen op GitHub zijn slechts voorbeelden, en kunnen geen implementatie uitvoeren.
 
 ## Versies
 
-* Versie 1.0 (Releasedatum - mei 2015): Oorspronkelijke specificatie
+* Versie 1.0 (Releasedatum - mei 2015): initiële specificatie
 
 * Versie 1.1 (Releasedatum - juni 2015). Bijgewerkt /uploadInit - Toegevoegde documentId en documentVersionId
 
-* Versie 1.2 (Releasedatum - oktober 2015): Toegevoegde /createFolder
+* Versie 1.2 (Releasedatum - oktober 2015): Toegevoegd /createFolder
 
 * Volgende versies (Releasedatum - TBD):
 
