@@ -2,25 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Foutopsporingsscenario's met Adobe Workfront Fusion DevTool
-description: Met Adobe Workfront Fusion DevTool kunt u scenario's begrijpen en problemen oplossen. Met DevTool voegt u een extra deelvenster toe aan de Chrome Developer Tools. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
+title: Foutopsporingsscenario's met Adobe Workfront Fusion Devtool
+description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en problemen oplossen. Met het gereedschap Ontwikkelen voegt u een extra deelvenster toe aan Chrome Developer Tools. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
 
-# Foutopsporingsscenario&#39;s met de [!DNL Adobe Workfront Fusion] DevTool
+# Foutopsporingsscenario&#39;s met de [!DNL Adobe Workfront Fusion] Devtool
 
-De [!DNL Adobe Workfront Fusion] Met DevTool kunt u scenario&#39;s begrijpen en problemen oplossen. Met het gereedschap DevTool voegt u een extra deelvenster toe aan het dialoogvenster [!DNL Chrome Developer Tools]. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
-
->[!NOTE]
->
->Workfront Fusion DevTool is niet beschikbaar aan organisaties die tot Fusion door de Adobe Verenigde Shell toegang hebben.
+De [!DNL Adobe Workfront Fusion] Met Devtool kunt u scenario&#39;s begrijpen en problemen oplossen. Met het gereedschap Ontwikkelen voegt u een extra deelvenster toe aan het dialoogvenster [!DNL Chrome Developer Tools]. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
 
 ## Toegangsvereisten
 
@@ -61,34 +57,49 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Installeer de [!DNL Chrome] DevTool-extensie
+## Toegang krijgen tot Workfront Fusion Devtool
 
-<!--
-To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
+De toegang tot het apparaat is afhankelijk van of u Fusion gebruikt in het dialoogvenster [!DNL Adobe Unified Experience].
 
-1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
-1. When the files have downloaded, extract them to a folder of your choice.
-1. Open a tab in [!DNL Chrome]
-1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click **[!UICONTROL Load unpacked]**.
-1. Select the folder containing the DevTool (where you extracted the files in step 2).
+* [Toegang tot het gereedschap Ontwikkelen in het dialoogvenster [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Toegang tot het gereedschap Apparaat in de klassieke taal [!DNL Fusion] ervaring](#access-the-devtool-in-the-classic-fusion-experience)
 
-   Once unpacked, the DevTool appears among your other Chrome extensions.
-   -->
+### Toegang tot het gereedschap Ontwikkelen in het dialoogvenster [!DNL Adobe Unified Experience]
 
-U kunt de [!DNL Workfront Fusion] DevTool naar [!DNL Chrome] via de [!UICONTROL [!DNL Chrome] Web Store].
+Als u Fusie in de Adobe Verenigde Shell gebruikt, kunt u tot het Dev Hulpmiddel van de redacteur van het Scenario toegang hebben.
 
-1. Klikken [deze koppeling](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) om naar de [!DNL Workfront Fusion] DevTool op de [!UICONTROL [!DNL Chrome] Web Store].
+1. Ga naar de redacteur Scenario voor het scenario u wilt zuiveren.
+
+   Ga voor de locatie van de Scenario-editor naar [Scenario-editor](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+
+1. Klik met de rechtermuisknop in een leeg gebied van de pagina (niet in een module).
+1. Selecteren **Ontwikkelgereedschap openen**.
+
+>[!NOTE]
+>
+>Alleen de **Live stream** gebied van Devtool is beschikbaar aan gebruikers in Verenigde Shell.
+
+### Toegang tot het gereedschap Apparaat in de klassieke taal [!DNL Fusion] ervaring
+
+Het gereedschap Ontwikkelen gebruiken in de klassieke [!DNL Fusion] ervaring, moet u een [!DNL Chrome] extensie. U kunt deze extensie vervolgens gebruiken vanuit het dialoogvenster [!DNL Chrome] Developer Tools.
+
+* [Installeer het installatieprogramma [!DNL Chrome] Devtool-extensie](#install-the-chrome-devtool-extension)
+* [Zoek de [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+
+#### Installeer de [!DNL Chrome] Devtool-extensie
+
+U kunt de [!DNL Workfront Fusion] Ontwikkelen naar [!DNL Chrome] via de [!UICONTROL [!DNL Chrome] Web Store].
+
+1. Klikken [deze koppeling](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) om naar de [!DNL Workfront Fusion] Ontwikkelen op de [!UICONTROL [!DNL Chrome] Web Store].
 1. Klik op **[!UICONTROL Add to [!DNL Chrome]]**.
 1. Controleer de machtigingen in het venster dat wordt geopend. Als u akkoord gaat met de machtigingen, klikt u op **[!UICONTROL Add Extension]**.
 
-De [!DNL Workfront Fusion] De extensie DevTool wordt toegevoegd aan uw [!DNL Chrome] extensies.
+De [!DNL Workfront Fusion] De extensie Devtool wordt toegevoegd aan uw [!DNL Chrome] extensies.
 
 
-## Zoek de [!DNL Workfront Fusion] DevTool
+#### Zoek de [!DNL Workfront Fusion] Devtool
 
-Als u de opdracht [!DNL Workfront Fusion] DevTool, moet u toevoegen [!DNL Workfront Fusion] De DevTool-extensie voor uw [!DNL Chrome] browser, zoals beschreven in [De extensie Chrome DevTool installeren](#install-the-chrome-devtool-extension).
+Als u de opdracht [!DNL Workfront Fusion] Ontwikkelen: u moet de opdracht [!DNL Workfront Fusion] Extensie Ontwikkelen voor uw [!DNL Chrome] browser, zoals beschreven in [De extensie Chrome Device installeren](#install-the-chrome-Devtool-extension).
 
 1. Open uw [!DNL Workfront Fusion] scenario.
 1. Open [!DNL Chrome Developer Tools]:
@@ -114,9 +125,9 @@ Als u de opdracht [!DNL Workfront Fusion] DevTool, moet u toevoegen [!DNL Workfr
 
 1. Klik op de knop **[!DNL Workfront Fusion]** tab in [!DNL Chrome Dev Tools].
 
-## Gebruik de [!DNL Workfront Fusion] DevTool
+## Gebruik de [!DNL Workfront Fusion] Devtool
 
-Workfront Fusion DevTool bestaat uit drie hoofdsecties. U kunt deze in het linkerpaneel van uw DevTool venster vinden.
+Workfront Fusion Devtool bestaat uit drie hoofdsecties. Deze vindt u in het linkerdeelvenster van het venster Ontwikkelen.
 
 * [Live stream](#live-stream)
 * [Scenario-foutopsporing](#scenario-debugger)
@@ -147,15 +158,15 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
         <li> <p>Indieningsinstantie</p> </li> 
         <li> <p>Antwoordheaders</p> </li> 
         <li> <p>Reactieorgaan</p> </li> 
-       </ul> <p>Als u deze informatie wilt weergeven, klikt u op het desbetreffende tabblad in het rechterdeelvenster van het dialoogvenster [!DNL Workfront Fusion] DevTool.</p> </td> 
+       </ul> <p>Als u deze informatie wilt weergeven, klikt u op het desbetreffende tabblad in het rechterdeelvenster van het dialoogvenster [!DNL Workfront Fusion] Ontwikkelen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Verzoeken en antwoorden zoeken</p> </td> 
-      <td> <p>Voer de zoekterm in het zoekveld in in het linkerdeelvenster van het dialoogvenster [!DNL Workfront Fusion] DevTool om alleen verzoeken weer te geven die de zoekterm bevatten.</p> </td> 
+      <td> <p>Voer de zoekterm in het zoekveld in in het linkerdeelvenster van het dialoogvenster [!DNL Workfront Fusion] Ontwikkelen om alleen aanvragen weer te geven die de zoekterm bevatten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Lijst met aanvragen verwijderen </p> </td> 
-      <td> <p>Klik op het prullenbakpictogram in de rechterbovenhoek van het linkerdeelvenster van het DevTool om de lijst met verzoeken te wissen die is opgenomen in het dialoogvenster [!DNL Workfront Fusion] DevTool. </p> </td> 
+      <td> <p>Klik op het prullenbakpictogram in de rechterbovenhoek van het linkerdeelvenster van het apparaat om de lijst met verzoeken te wissen die zijn opgenomen in het dialoogvenster [!DNL Workfront Fusion] Ontwikkelen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Logboekregistratie voor console inschakelen</p> </td> 
@@ -165,8 +176,8 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
       <td role="rowheader"> <p>De aanvraag ophalen in de Raw JSON-indeling of cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Ruwe JSON</strong> </p> <p>Klikken <strong>[!UICONTROL Copy RAW]</strong> in de hoger-juiste hoek van de DevTool's juiste ruit.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Klikken <strong>[!UICONTROL Copy cURL]</strong> in de hoger-juiste hoek van de DevTool's juiste ruit.</p> </li> 
+        <li> <p><strong>Ruwe JSON</strong> </p> <p>Klikken <strong>[!UICONTROL Copy RAW]</strong> in de rechterbovenhoek van het rechterdeelvenster van het gereedschap Ontwikkelen.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Klikken <strong>[!UICONTROL Copy cURL]</strong> in de rechterbovenhoek van het rechterdeelvenster van het gereedschap Ontwikkelen.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -177,13 +188,13 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
 Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschiedenis van de scenario looppas en laat u toe om modules door hun naam of identiteitskaart te zoeken.
 
 1. Klik op de knop **[!UICONTROL Scenario Debugger]** pictogram ![](assets/scenario-debugger-icon.png) om Scenario Debugger te openen.
-1. (Optioneel) Voer de zoekterm (naam of module-id) in het zoekveld in het linkerdeelvenster van [!DNL Workfront Fusion] DevTool in het dialoogvenster [!UICONTROL Scenario Debugger] sectie.
+1. (Optioneel) Voer de zoekterm (naam of module-id) in het zoekveld in het linkerdeelvenster van [!DNL Workfront Fusion] Ontwikkelen in het dialoogvenster [!UICONTROL Scenario Debugger] sectie.
 1. Dubbelklik op de naam van de module om de instellingen in de scenarioeditor te openen.
 1. Bekijk aanvraagdetails door op de gewenste bewerking te klikken.
 
 ### Gereedschappen
 
-De [!DNL Workfront Fusion] DevTool beschikt over gereedschappen waarmee u uw scenario gemakkelijker kunt instellen.
+De [!DNL Workfront Fusion] Het apparaat is uitgerust met gereedschappen waarmee u uw scenario gemakkelijker kunt instellen.
 
 1. Klik op de knop **[!UICONTROL Tools]** pictogram ![](assets/console-tools-icon.png) om de gereedschappen te openen.
 1. Selecteer het gewenste gereedschap

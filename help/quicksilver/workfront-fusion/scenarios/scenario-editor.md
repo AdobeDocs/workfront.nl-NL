@@ -7,9 +7,9 @@ description: De scenario redacteur staat u toe om scenario's in een visuele inte
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 1. Klikken **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
 
-1. Als u een scenario wilt creëren, klik **[!UICONTROL Create a new scenario]** in de rechterbovenhoek van de pagina.
+1. Als u een scenario wilt creëren, klik **[!UICONTROL Create a new scenario]** rechtsboven op de pagina.
 
    of
 
@@ -99,8 +99,8 @@ De volgende acties zijn beschikbaar in de redacteur Scenario:
      <td role="rowheader">Een route instellen</td>   
      <td> <p>Klik op de knop [!UICONTROL wrench] pictogram <img src="assets/wrench-icon.gif"> tussen de twee modules en gebruik een van de volgende opties:</p>    
        <ul>
-         <li><strong>[!UICONTROL Set up a filter]</strong>: Bepalen welke bundels op bepaalde punten in het scenario worden gebruikt. Zie voor meer informatie <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Een filter toevoegen aan een scenario in [!DNL Adobe Workfront Fusion]</a>.</li>     
-         <li><strong>[!UICONTROL Unlink]</strong>: Hiermee verwijdert u een route.</li>     
+         <li><strong>[!UICONTROL Set up a filter]</strong>: Hiermee bepaalt u welke bundels op bepaalde punten in het scenario worden gebruikt. Zie voor meer informatie <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Een filter toevoegen aan een scenario in [!DNL Adobe Workfront Fusion]</a>.</li>     
+         <li><strong>[!UICONTROL Unlink]</strong>: Verwijdert een route.</li>     
          <li><strong>[!UICONTROL Add a router]</strong>: Voegt een router tussen modules toe. </li>     
          <li><strong>[!UICONTROL Add a module]</strong>: Voegt een nieuwe module tussen modules toe.</li>     
          <li><strong>[!UICONTROL Add a note]</strong>: Voegt een nota aan de route toe.</li>   
@@ -160,6 +160,11 @@ De volgende acties zijn beschikbaar in de redacteur Scenario:
    <tr> 
      <td role="rowheader">Het scenario testen</td>   
      <td>Klikken <strong>[!UICONTROL Run once]</strong> om te verifiëren dat het scenario zoals u verwacht loopt alvorens u het activeert. Nadat het scenario is geactiveerd, wordt het volgens het schema uitgevoerd. Als alles niet zoals verwacht loopt, kunt u onze sectie van de foutenbehandeling bezoeken om te leren hoe te om fouten te behandelen.</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">Met het gereedschap Ontwikkelen kunt u fouten in het scenario opsporen</td>   
+     <td>Zie voor meer informatie <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Foutopsporingsscenario's met de [!DNL Adobe Workfront Fusion] Devtool</a>.
+</td> 
    </tr> 
 </tbody>
 </table>
