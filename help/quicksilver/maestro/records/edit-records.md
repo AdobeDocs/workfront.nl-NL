@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -151,4 +151,4 @@ U kunt een record uit de volgende gebieden bewerken:
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen.
+1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen. Een opgeslagen indicator wordt kort in de rechterbovenhoek van de tabelweergave weergegeven om aan te geven dat de wijzigingen zijn opgeslagen.

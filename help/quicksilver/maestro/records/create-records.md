@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,12 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 1. Klikken **Nieuw &lt; Naam recordtype >** in de laatste rij van de tabel om een nieuwe rij aan de tabel toe te voegen.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
+
+   >[!TIP]
+   >
+   >    Typ CTRL+Enter om een nieuwe record in een nieuwe rij toe te voegen.
+
+   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Typ informatie in de nieuwe rij over de nieuwe record.
 
