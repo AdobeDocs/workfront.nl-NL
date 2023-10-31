@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers in het systeem zien standaard de nieuwe Home-ervaring </td> 
-      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Wanneer toegelaten, zullen de gebruikers de Nieuwe ervaring van het Huis door gebrek zien, maar kunnen nog verkiezen om Nieuwe Huis op individuele basis toe te laten of onbruikbaar te maken. <b>Als deze optie is uitgeschakeld, kunnen gebruikers geen nieuwe startpagina gebruiken.</b> Deze instelling is standaard ingeschakeld.</td> 
+      <td>Hier kunt u opgeven of gebruikers standaard de Nieuwe startervaring zien. Wanneer toegelaten, zullen de gebruikers de Nieuwe ervaring van het Huis door gebrek zien, maar kunnen nog verkiezen om Nieuwe Huis op individuele basis toe te laten of onbruikbaar te maken. Wanneer gehandicapt, zullen de gebruikers niet de banner zien die hen om aan Nieuw huis-nochtans toestaat over te schakelen, kunnen zij nog aan hun Nieuwe Homepage navigeren door manueel in te gaan <code>/home/workspaces</code> aan het einde van hun instantie-URL. Deze instelling is standaard ingeschakeld.</td> 
      </tr> 
     </tbody> 
    </table>

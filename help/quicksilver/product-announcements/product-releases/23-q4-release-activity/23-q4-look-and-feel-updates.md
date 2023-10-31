@@ -5,9 +5,9 @@ author: Lisa
 draft: Probably
 feature: Product Announcements
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het vierde Kwartaal 2023 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met de Vierde Versie van het Kwartaal 2023, zie [Overzicht release 4de kwartaal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Zoeken naar updates voor e-mailsjabloon voor documentgoedkeuringen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 1 november 2023; Productieversie voor alle klanten: 1 november
+
+Het e-mailsjabloon voor meldingen voor documentgoedkeuring is bijgewerkt zodat het beter aansluit bij andere e-mailsjablonen voor Adoben en het document helderder en bruikbaarder wordt.
 
 ## Indicator voor handmatig aangepaste toewijzingen in de werklastbalans
 
