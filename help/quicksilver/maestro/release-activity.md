@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ De vrijgegeven functies worden weergegeven in de volgorde van hun release, met d
 Deze sectie bevat een overzicht van de functies en patches die zijn uitgebracht na de start van het gesloten bètaprogramma van Maestro op 22 mei 2023.
 
 De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma van Maestro hebben toegang tot alle functies in hun voorproef- en productieomgeving.
+
+## Week van 30 oktober 2023
+
+### Nieuwe veldtypen voor gebruikers- en datumvelden die moeten vastleggen wie een record heeft gemaakt of voor het laatst een record heeft gewijzigd of op welke datum
+
+Voorbeeld en productie: 30 oktober 2023
+
+De volgende veldtypen zijn geïntroduceerd voor Maestro-records:
+
+* Gemaakt door
+
+* Aanmaakdatum
+
+* Laatst gewijzigd door
+
+* Laatst gewijzigd
+
+De veldwaarden van de velden die van deze veldtypen zijn gemaakt, zijn alleen-lezen en leggen de naam vast van de gebruiker die een record heeft gemaakt of voor het laatst heeft gewijzigd, of de datum waarop de record is gemaakt of voor het laatst is gewijzigd.
+
+Zie voor meer informatie [Velden maken](../maestro/architecture-and-fields/create-fields.md).
+
+### Navigeren naar Workfront-objecten vanuit een Maestro-record
+
+Voorbeeld en productie: 31 oktober 2023
+
+U kunt nu de Workfront-objectpagina&#39;s openen vanuit de volgende gebieden in Maestro:
+
+* De alleen-lezen gekoppelde Workfront-objectrecordtabelweergave
+
+* De alleen-lezen Workfront-objectrecordpagina Details
+
+Zie voor meer informatie [Connect-records](../maestro/records/connect-records.md).
 
 ## Week van 16 oktober 2023
 

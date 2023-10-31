@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
    >
    >  De velden die u toevoegt of verwijdert op de pagina met Workfront-objectrecordtypen, worden niet toegevoegd aan of verwijderd uit het Maestro-recordtype dat is gekoppeld aan het Workfront-objecttype. De velden zijn alleen zichtbaar op de pagina met alleen-lezen Workfront-recordtypen, zodat u ze in Maestro kunt bekijken.
 
-1. (Optioneel) Kies in het vervolgkeuzemenu Weergave op de pagina Type Workfront-objectrecord de tijdlijnweergave om de Workfront-gekoppelde objecten weer te geven in de tijdlijnweergave.
+1. (Optioneel en voorwaardelijk) Als u ten minste twee datumvelden hebt toegevoegd aan het Workfront-object, klikt u op de knop **Weergave** vervolgkeuzemenu op de pagina met recordtypen voor Workfront-objecten en selecteer de **Tijdlijn** weergeven. De aan Workfront gekoppelde objecten worden in de tijdlijnweergave weergegeven.
