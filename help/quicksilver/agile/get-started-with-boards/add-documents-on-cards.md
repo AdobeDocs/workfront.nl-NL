@@ -6,9 +6,9 @@ description: U kunt documenten toevoegen aan verbonden kaarten op Adobe Workfron
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Zoek op de kaart de [!UICONTROL Documents] gebied. Klikken ![Lijstpictogram](assets/docs-list-icon.png) om alle documenten in een lijst weer te geven of klik op ![Galerijpictogram](assets/docs-gallery-icon.png) om de documenten in een galerie weer te geven.
 1. Houd de muis boven de documentminiatuur en klik op [!UICONTROL **Voorvertoning**] om het bestand in de browser of [!UICONTROL **Downloaden**] om het bestand naar uw computer te downloaden.
+
+   >[!NOTE]
+   >
+   >PDF geven geen miniatuurafbeelding weer.
