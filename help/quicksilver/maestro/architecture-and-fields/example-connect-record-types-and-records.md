@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ Dit doet u als volgt:
    * De projecten u selecteerde om met campagnes te verbinden tonen als afzonderlijke verslagen in de het verslagtype van het Project van Workfront pagina. De projectverslagen zijn ook read-only en hun informatie werkt automatisch bij aangezien de projecten in Workfront bijwerken. U moet meer projecten van het aangesloten verslag van Maestro toevoegen om hen in het het verslagtype van het Project van Workfront te bekijken.
    * Het veld Campagne gekoppeld record bevat de namen van de campagnes die zijn verbonden met projecten op de pagina Type campagnerecord.
 
-1. (Optioneel) Klik op de knop **Meer** pictogram ![](assets/more-menu.png) rechts van de naam van het Workfront-projectrecordtype en klik op **Naam wijzigen** om de naam van het recordtype te wijzigen.
+1. (Optioneel) Voer een van de volgende handelingen uit om de pagina Workfront-projectdetails te openen in Maestro:
 
-   >[!TIP]
-   >
-   >U kunt de naam van een recordtype wijzigen door op de naam in de kop van het recordtype te klikken.
+   * Van het recordtype dat u koppelde (**Campagne**), ga naar het Workfront project linked record (**Projectinformatie**) en klik op de naam van een Workfront-project.
+   * Van de **Tabel** de **Workfront Project** recordpagina, klikt u op de naam van een Workfront-project
 
-1. Klik op het pictogram Velden toevoegen ![](assets/add-fields-icon.png) in de hoger-juiste hoek van de het verslagtype van het Project van Workfront lijst om meer projectgebieden aan het de recordtype van Maestro van het Project van Workfront toe te voegen.
+     of
+
+     Klik op de knop **Meer** rechts van een Workfront-project klikt u op **Weergave**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Hiermee opent u de pagina Maestro Details van het gekoppelde Workfront-project. Dit is een alleen-lezen pagina.
+
+1. (Optioneel) Voer een van de volgende handelingen uit om het gekoppelde Workfront-project te openen in Workfront:
+
+   * Van de **Tabel** de **Workfront Project** pagina, klikt u op de naam van een Workfront-project,
+
+   of
+
+   Klik op de knop **Meer** rechts van de Workfront-projectnaam klikt u op **Ga naar bron**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Hiermee opent u de Workfront-projectpagina. U kunt informatie over het Workfront-project bewerken als u hiervoor gemachtigd bent.
+
+1. Klik op de knop **Velden toevoegen** pictogram ![](assets/add-fields-icon.png) in de hoger-juiste hoek van de het verslagtype van het Project van Workfront lijst om meer projectgebieden aan het de recordtype van Maestro van het Project van Workfront toe te voegen.
 1. Klik op de knop **+** pictogram voor de projectvelden die u wilt toevoegen aan de Workfront Project Maestro-record in het dialoogvenster **Niet-geselecteerde velden** sectie.
 1. Klik op de knop **-** pictogram voor de projectvelden die u uit de Workfront Project Maestro-record wilt verwijderen in het dialoogvenster **Geselecteerde velden** sectie.
 1. Klikken **Opslaan**.

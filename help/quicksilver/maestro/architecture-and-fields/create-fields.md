@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '3484'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen over Maestro-velden
 
-* U kunt alleen velden maken vanuit de tabelweergave van een recordtypepagina. Velden worden als kolommen weergegeven in de tabelweergave.
+* U kunt alleen velden maken vanuit de tabelweergave van een recordtypepagina. Velden worden als kolommen weergegeven in de tabelweergave. Alle velden die aan een recordtype zijn gekoppeld, worden ook weergegeven op de pagina Details van elke record van dat type.
 
   Voor informatie over het beheren van lijstkolommen (of verslaggebieden), zie [De tabelweergave beheren](../views/manage-the-table-view.md).
 
@@ -189,6 +189,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Valuta](#currency)
    * [Selectievakje](#checkbox)
    * [Mensen](#people)
+   * [Gemaakt door](#created-by)
+   * [Aanmaakdatum](#created-date)
+   * [Laatst gewijzigd door](#last-modified-by)
+   * [Laatst gewijzigd](#last-modified-date)
 
    >[!IMPORTANT]
    >
@@ -209,7 +213,7 @@ Tekstvelden van één regel bevatten beperkte alfanumerieke informatie. U kunt b
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolomkop van het veld in een tabel plaatst.
 1. Klikken **Maken**.
 
-   Het nieuwe veld met één regel wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe veld met één regel wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
 
 ### Alinea {#paragraph}
@@ -232,7 +236,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. Klikken **Maken**.
 
-   Het nieuwe paragraafgebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe paragraafgebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
 
 
 ### Meerdere selecties {#multi-select}
@@ -255,7 +259,7 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
 1. Klikken **Maken**.
 
-   Het nieuwe multi-select gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe multi-select gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
 
 ### Enkel selecteren {#single-select}
 
@@ -277,7 +281,7 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
 1. Klikken **Maken**.
 
-   Het nieuwe veld Eén keuze wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe veld Eén keuze wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
 ### Datum {#date}
 
@@ -291,7 +295,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
    * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Datumnotatie**: Het type datumnotatie dat u in dit veld wilt weergeven.
+   * **Datumnotatie**: Het type datumnotatie dat u in dit veld wilt weergeven. <!--update this casing - submitted bug for it-->
 
      Selecteer een van de volgende indelingen:
       * **Landinstelling**: Komt overeen met de landinstelling van de browser.
@@ -299,7 +303,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
       * **Lang**: 16 mei 2023
       * **Europees** Debat : 16 mei 2023
       * **ISO** 2023-05-16
-   * **Een tijdveld opnemen**: Selecteer deze optie als u een tijdstempel wilt opnemen. Deze optie is standaard uitgeschakeld.
+   * **Een tijdveld opnemen**: Selecteer deze optie als u een tijdstempel wilt opnemen. Deze optie is standaard uitgeschakeld. <!--update this setting name - submitted bug for it to be changed-->
 
      Selecteer een van de volgende opties:
 
@@ -308,7 +312,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
 1. Klikken **Maken**.
 
-   Het nieuwe datumveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen worden gekoppeld aan records. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe datumveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen worden gekoppeld aan records.
 
 ### Getal {#number}
 
@@ -330,7 +334,7 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 
 1. Klikken **Maken**.
 
-   Het nieuwe nummerveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe nummerveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
 ### Percentage {#percentage}
 
@@ -352,7 +356,7 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 
 1. Klikken **Maken**.
 
-   Het nieuwe percentageveld wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe percentageveld wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
 
 ### Valuta {#currency}
 
@@ -375,7 +379,7 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
 
 1. Klikken **Maken**.
 
-   Het nieuwe valutaveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe valutaveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
 ### Selectievakje
 
@@ -390,7 +394,7 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. Klikken **Maken**.
 
-   Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de bijbehorende waarden kunnen aan records worden gekoppeld. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de bijbehorende waarden kunnen aan records worden gekoppeld.
 
 ### Mensen
 
@@ -411,7 +415,109 @@ U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job ro
 
 1. Klikken **Maken**.
 
-   Het nieuwe Mensen-type gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd. Het veld wordt ook weergegeven op de pagina Details van een record.
+   Het nieuwe Mensen-type gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
+
+### Gemaakt door
+
+U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heeft gemaakt, toe te voegen aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de naam van de gebruiker die is aangemeld toen de record werd gemaakt.
+
+1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Gemaakt door** veldtype.
+
+   ![](assets/created-by-field-type.png)
+
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+
+1. Klikken **Maken**.
+
+   Het nieuwe veld Gemaakt door type wordt toegevoegd als kolom aan het recordtype en de waarden ervan worden voorgevuld met de naam van de gebruiker die elke record heeft gemaakt.
+
+
+### Aanmaakdatum
+
+Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop een record is gemaakt aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de datum (en eventueel met de tijd) waarop de record is gemaakt.
+
+1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Aanmaakdatum** veldtype.
+
+   ![](assets/created-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Datumnotatie**: Kies een van de volgende indelingen:
+
+      * **Landinstelling**: Komt overeen met de landinstelling van de browser.
+      * **Standaard** 16-05-2023
+      * **Lang**: 16 mei 2023
+      * **Europees** Debat : 16 mei 2023
+      * **ISO** 2023-05-16
+   * **Een tijdveld opnemen**: Selecteer deze optie als u een tijdstempel wilt opnemen. Deze optie is standaard uitgeschakeld. <!--submitted a UI text change for this - check the UI-->
+
+     Selecteer een van de volgende opties:
+
+      * **24 uur**: Bijvoorbeeld: 18:00
+      * **12 uur**: Bijvoorbeeld: 6:00 PM
+
+1. Klikken **Maken**.
+
+   Het nieuwe datumtekstveld Gemaakt wordt toegevoegd als een kolom aan het recordtype en de waarden ervan worden voorgevuld met de datum (of datum en tijd) waarop de record is gemaakt.
+
+
+### Laatst gewijzigd door
+
+U kunt de Laatst gewijzigd op veldtype gebruiken om de gebruiker die de record het laatst heeft gewijzigd, toe te voegen aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de naam van de gebruiker die is aangemeld toen de record voor het laatst werd bijgewerkt.
+
+1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Laatst gewijzigd door** veldtype.
+
+   ![](assets/last-modified-by-field-type.png)
+
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+
+1. Klikken **Maken**.
+
+   Het nieuwe subtekstveld Laatst gewijzigd wordt toegevoegd als een kolom aan het recordtype en de waarden ervan worden voorgevuld met de naam van de gebruiker die elke record het laatst heeft gewijzigd.
+
+
+### Laatst gewijzigd
+
+Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record voor het laatst is gewijzigd in een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de datum (en eventueel met de tijd) waarop de record voor het laatst is gewijzigd.
+
+1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Aanmaakdatum** veldtype.
+
+   ![](assets/last-modified-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Datumnotatie**: Kies een van de volgende indelingen:
+
+      * **Landinstelling**: Komt overeen met de landinstelling van de browser.
+      * **Standaard** 16-05-2023
+      * **Lang**: 16 mei 2023
+      * **Europees** Debat : 16 mei 2023
+      * **ISO** 2023-05-16
+   * **Een tijdveld opnemen**: Selecteer deze optie als u een tijdstempel wilt opnemen. Deze optie is standaard uitgeschakeld. <!--submitted a UI text change for this - check the UI-->
+
+     Selecteer een van de volgende opties:
+
+      * **24 uur**: Bijvoorbeeld: 18:00
+      * **12 uur**: Bijvoorbeeld: 6:00 PM
+
+1. Klikken **Maken**.
+
+   Het nieuwe datum-type veld Laatst gewijzigd wordt toegevoegd als kolom aan het recordtype en de waarden ervan worden voorgevuld met de datum (of datum en tijd) waarop de record voor het laatst is gewijzigd.
+
 
 ## Velden maken door recordtypen aan elkaar te koppelen
 

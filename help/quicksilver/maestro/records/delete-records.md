@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Als de verwijderde records zijn gekoppeld aan andere records, worden de gekoppelde records niet verwijderd, maar worden de gegevens uit de verwijderde record ook verwijderd.
 * U kunt records in bulk niet verwijderen. <!--this will probably change-->
 * U kunt records niet verwijderen uit de tijdlijnweergave.
+* U kunt geen recordtype verwijderen dat is gekoppeld vanuit een andere toepassing. Als u bijvoorbeeld een Maestro-record koppelt aan een Workfront-object, kunt u het Workfront-object niet verwijderen van de Workfront-objectrecordpagina.
 
 ## Records verwijderen
 

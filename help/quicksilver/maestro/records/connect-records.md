@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U kunt het volgende verbinden:
 * Operationele gegevens van Maestro naar taxonomische gegevens
 * Operationele Maestro-records en objecten van andere toepassingen.
 
-  De volgende toepassingen en objecttypen worden momenteel ondersteund:
+  U kunt Maestro-records vanuit de volgende toepassingen verbinden met objecten van de onderstaande typen:
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Iedereen met toegang tot Maestro kan de verbindingen zien die u maakt tussen Maestro records of tussen Maestro records en Workfront objecten. U kunt ook de verbindingen van alle anderen weergeven en bewerken. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * U kunt één Maestro-record verbinden met een of meerdere objecten vanuit een andere toepassing.
 * U kunt taxonomieën niet verbinden met recordtypen of met objecten uit een andere toepassing. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* U kunt Maestro-records momenteel alleen koppelen aan Workfront-objecten. Als u Maestro-records wilt koppelen aan Workfront-objecten, moet u over het volgende beschikken:
+* Als u Maestro-records wilt koppelen aan Workfront-objecten, moet u over het volgende beschikken:
 
    * Workfront-objecten. U moet bijvoorbeeld eerst projecten, portfolio&#39;s, programma&#39;s, bedrijven of groepen maken in Workfront.
    * Maestro-werkruimten, recordtypen en records. Raadpleeg de volgende artikelen voor meer informatie:
@@ -151,16 +151,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ### Connect Maestro-records
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> klik vervolgens op **Maestro** ![](assets/maestro-icon.png).
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
    De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
-1. Selecteer een tabelweergave in het menu **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
+1. Selecteer een **Tabel** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 1. Voeg een verbinding aan een ander verslag of objecten type van het geselecteerde verslagtype toe. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
 
-Er wordt een nieuwe kolom aan de tabel toegevoegd om het gekoppelde recordtype weer te geven.
+   Er wordt een nieuwe kolom aan de tabel toegevoegd om het gekoppelde recordtype weer te geven.
 
 1. Voeg records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Zie voor meer informatie [Records maken](../../maestro/records/create-records.md).
 1. Ga in een record in de tabelweergave naar de gekoppelde recordkolom en houd de cursor boven de cel die overeenkomt met de record die u wilt koppelen aan andere Maestro-records, en klik vervolgens op de knop **+** pictogram.
@@ -201,7 +201,7 @@ Er wordt een nieuwe kolom aan de tabel toegevoegd om het gekoppelde recordtype w
 
 Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfront-objecttype, kunt u afzonderlijke Maestro-records verbinden met objecten in Workfront. U kunt ook velden van het Workfront-object verbinden met het Maestro-recordtype.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> klik vervolgens op **Maestro** ![](assets/maestro-icon.png).
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
    De laatst geopende werkruimte moet standaard worden geopend.
 
@@ -265,11 +265,30 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
    >
    >    * Als u het type Workfront-objectrecord wilt weergeven in de tijdlijnweergave, moet u ten minste twee datumvelden weergeven in de tabelweergave van de alleen-lezen Workfront-recordtype.
 
-1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) naast de naam van het Workfront-objectrecordtype in de koptekst van de pagina klikt u op **Naam wijzigen** om de naam van de record te bewerken.
+1. (Optioneel) Voer een van de volgende handelingen uit om de pagina met gegevens over Workfront-objectrecords te openen in Maestro:
 
-   >[!NOTE]
-   >
-   >    U kunt een gekoppeld Workfront-recordtype of objecten niet verwijderen van de Workfront-recordtype pagina.
+   * Ga in het recordtype waarvan u een koppeling hebt gemaakt naar het aan een Workfront-object gekoppelde recordveld en klik op de naam van het Workfront-object.
+   * Van de **Tabel** Klik op de naam van het Workfront-object in de weergave van het Workfront-recordtype
+
+     of
+
+     Klik op de knop **Meer** rechts van de naam van het Workfront-object en klikt u op **Weergave**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Hiermee opent u de pagina Details van Maestro van het gekoppelde Workfront-object. Dit is een alleen-lezen pagina.
+
+1. (Optioneel) Voer een van de volgende handelingen uit om het gekoppelde Workfront-object te openen in Workfront:
+
+   * Van de **Tabel** Klik op de naam van het Workfront-object om de Workfront-recordtypepagina weer te geven.
+
+   of
+
+   Klik op de knop **Meer** rechts van de naam van het Workfront-object, klikt u op **Ga naar bron**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Hierdoor wordt de Workfront-objectpagina geopend. U kunt informatie over het Workfront-object bewerken als u hiervoor gemachtigd bent.
 
 1. (Optioneel) Klik op de knop **Velden toevoegen** pictogram ![](assets/add-fields-icon.png) in de rechterbovenhoek van de tabelweergave op de Workfront-pagina met recordtypen om Workfront-velden toe te voegen aan of te verwijderen uit het Workfront-recordtype.
 
