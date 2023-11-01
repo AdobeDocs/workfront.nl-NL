@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
+source-git-commit: 608a5beb5e29a786e41d713f1414a0cb79baf093
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Projecten |   |   | ✓ |
 | Taken |   |   | ✓ |
 | Problemen |   |   | ✓ |
-| Portfolio |   |   | ✓ |
+| Portfolio&#39;s |   |   | ✓ |
 | Programma&#39;s |   |   | ✓ |
 | Rapporten (inclusief dashboards en kalenderrapporten) |   |   | ✓ |
 | Filters, weergaven en groepen |   |   | ✓ |
@@ -115,13 +115,13 @@ Dit toegangsniveau is gekoppeld aan de Lichte licentie en is ontworpen voor gebr
 * Alle items en updates weergeven die zijn gekoppeld aan werk
 * Projecten, taken en problemen goedkeuren
 * dashboards en rapporten weergeven
-* Tracktijd
+* De tijd van het spoor en keurt chronologie goed
 * Problemen maken en beheren
 * Updates op het werk maken
 
 Gebruikers met het toegangsniveau Licht:
 
-* Kan geen werkitems toewijzen of tijdbladen goedkeuren
+* Kan aan werkitems worden toegewezen, maar deze kunnen niet worden voltooid.
 * Kan aanvragen en documenten openen in het hoofdmenu.
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
@@ -166,7 +166,7 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>Portfolio's</td> 
    <td> </td> 
    <td>✓ (De standaardinstelling is Geen toegang.)</td> 
    <td> </td> 
@@ -256,14 +256,14 @@ Dit toegangsniveau is gekoppeld aan de bijdragelicentie en is bedoeld voor gebru
 
 * Verzoeken verzenden
 * Aanvragen bijhouden
-* Aanvragen voor bijwerken en controleren.
+* Aanvragen voor bijwerken en controleren
 
 Gebruikers met dit ingebouwde toegangsniveau:
 
 * Kan verzoeken indienen en deze aanvragen bijwerken
 * Documenten uploaden en goedkeuren
 * Kan de status van de verzonden problemen bekijken
-* Kan niet toewijzen aan werkitems
+* Kan worden toegewezen aan werkitems maar kan deze niet voltooien
 * U hebt alleen toegang tot aanvragen via het hoofdmenu. Voor meer informatie over verzoekrijen, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
@@ -279,7 +279,7 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Project |   | ✓ (Alleen de pagina Projectdetails) |   |
 | Taak |   | ✓ (Alleen de pagina Details) |   |
 | Probleem |   |   | ✓ |
-| Portfolio | ✓ |   |   |
+| Portfolio&#39;s | ✓ |   |   |
 | Programma&#39;s | ✓ |   |   |
 | Rapporten (inclusief dashboards en kalenderrapporten) |   | ✓ (Alleen het tabblad Details) |   |
 | Filters, weergaven en groepen |   |   | ✓ |
@@ -312,7 +312,7 @@ U kunt dit toegangsniveau niet wijzigen.
 
 >[!IMPORTANT]
 >
->De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Zie voor meer informatie [Beveiligingsvoorkeuren voor het systeem configureren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Zie voor meer informatie [Systeembeveiligingsvoorkeuren configureren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 #### **Toegangsgegevens**
 
@@ -323,9 +323,9 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Project | ✓ |   |   |
 | Taak | ✓ |   |   |
 | Probleem | ✓ |   |   |
-| Portfolio | ✓ |   |   |
+| Portfolio&#39;s | ✓ |   |   |
 | Programma&#39;s | ✓ |   |   |
-| Rapporten (inclusief dashboards en kalenderrapporten) |   | ✓ (alleen voor kalenderverslagen; geen mogelijkheid om rapporten te delen) |   |
+| Rapporten (inclusief dashboards en kalenderrapporten) |   | ✓ (Alleen voor kalenderrapporten; geen mogelijkheid om rapporten te delen) |   |
 | Filters, weergaven en groepen | ✓ |   |   |
 | Document |   | ✓ (kan geen documenten delen) |   |
 | Gebruiker |   | ✓ |   |
@@ -389,13 +389,12 @@ Gebruikers krijgen toegang tot afzonderlijke objecten wanneer andere gebruikers 
 >* Als een gebruiker een object deelt met bepaalde machtigingen en dat object onderliggende objecten eronder heeft, erft de ontvanger dezelfde machtigingen voor die onderliggende objecten.
 >* Als een toegangsniveau gebruikers beperkt om bepaalde voorwerpen te schrappen, houdt dit hen niet van het schrappen van kindvoorwerpen die in die voorwerpen bevat zijn.
 
-
 Een gebruiker kan de ontvanger een van de volgende machtigingen verlenen aan het afzonderlijke object:
 
 * **Weergave**: Met dit machtigingsniveau kan de ontvanger het object op een van de volgende manieren delen:
 
    * In het hele systeem, zodat alle gebruikers het kunnen zien (niet beschikbaar voor alle objecten)
-   * Met externe gebruikers die geen Workfront-licentie hebben (niet beschikbaar voor alle objecten)
+   * Met externe gebruikers zonder Workfront-licentie (niet beschikbaar voor alle objecten)
    * Met een e-mailadres (alleen beschikbaar voor documenten en kalenders)
 
 * **Contribute**: (niet beschikbaar voor alle objecten)
