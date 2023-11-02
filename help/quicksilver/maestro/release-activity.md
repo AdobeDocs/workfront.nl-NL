@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ U kunt nu de Workfront-objectpagina&#39;s openen vanuit de volgende gebieden in 
 * De alleen-lezen Workfront-objectrecordpagina Details
 
 Zie voor meer informatie [Connect-records](../maestro/records/connect-records.md).
+
+### Verbeterde navigatie in de tabelweergave
+
+Voorbeeld en productie: 2 november 2023
+
+De navigatie in de tabelweergave van een recordtype is verbeterd.
+
+Hieronder volgen enkele verbeteringen:
+
+* Gebruik de tabtoets op het toetsenbord om door de kolommen en rijen van de tabel te navigeren
+
+* Voeg een nieuwe record toe vanaf een willekeurige kolompositie. Vóór deze verbetering kon u een verslag slechts van de eerste kolom toevoegen.
+
+* Gebruik de toetsenbordcombinatie Shift + Enter om een nieuwe record (of rij) aan de tabel toe te voegen.
+
+Zie voor meer informatie [Records maken](../maestro/records/connect-records.md).
 
 ## Week van 16 oktober 2023
 
