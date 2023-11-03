@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 # Taken toewijzen
 
 {{highlighted-preview}}
-
->[!IMPORTANT]
->
->De functie voor het overschrijven van de toewijzingssnelheid is tijdelijk uitgeschakeld in Voorvertoning op 30 juni 2023.
 
 U kunt taken aan gebruikers, baanrollen, of teams toewijzen om erop te wijzen wie voor de voltooiing van de taken verantwoordelijk is. U kunt een taak aan meer dan één middel tegelijkertijd toewijzen.
 
@@ -187,7 +183,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">Wanneer u een taakroltoewijzing toevoegt, kunt u zoeken naar de taakrol of -locatie. Selecteer Systeem/StandaardRol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een Rol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten raadpleegt u [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Wanneer u een taakroltoewijzing toevoegt, kunt u zoeken naar de taakrol of -locatie. Selecteer Systeem/StandaardRol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een Rol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Zie voor meer informatie over tariefkaarten [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
    * (Voorwaardelijk) Klik op een van de namen in het dialoogvenster **Voorgestelde toewijzingen** als deze lijst wordt weergegeven. Zie voor meer informatie [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
@@ -216,7 +212,7 @@ Taken in een lijst toewijzen:
 1. Ga naar een lijst met taken waarvoor de velden Toegewezen aan, Toegewezen of Toegewezen in de weergave staan.
 1. (Optioneel) Klik op de knop **Automatisch opslaan** vervolgkeuzelijst en selecteer een van de volgende opties:
 
-   | Option | Optiebeschrijving |
+   | Optie | Optiebeschrijving |
    |---|---| 
    | Automatisch opslaan | Wijzigingen die u aanbrengt in de taken worden automatisch opgeslagen en u kunt ze niet terugzetten |
    | Handmatig opslaan | U moet uw wijzigingen handmatig opslaan. U kunt uw wijzigingen herstellen voordat u ze opslaat. |
@@ -235,7 +231,7 @@ Taken in een lijst toewijzen:
      >
      >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">Wanneer u een taakroltoewijzing toevoegt, kunt u zoeken naar de taakrol of -locatie. Selecteer Systeem/StandaardRol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een Rol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten raadpleegt u [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Wanneer u een taakroltoewijzing toevoegt, kunt u zoeken naar de taakrol of -locatie. Selecteer Systeem/StandaardRol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een Rol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Zie voor meer informatie over tariefkaarten [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Voorwaardelijk) Indien zichtbaar in het dialoogvenster **Toewijzingen** veld, klikt u op de knop **Mensen** in de rechterbovenhoek van het toewijzingsvak om het dialoogvenster **Geavanceerde toewijzingen** en maak geavanceerde toewijzingen.
@@ -273,7 +269,7 @@ Taken in een lijst toewijzen:
    >Als om het even welke taken reeds wordt toegewezen, worden de middelen u hier op wijst toegevoegd aan de taken in plaats van het vervangen van de bestaande middelen op de taken.
 
 1. (Optioneel) Selecteer het keuzerondje in het dialoogvenster **Taakeigenaar** kolom om aan te geven welke bron de primaire ontvanger of de eigenaar van de taak is, wanneer u meer dan één bron aan de taak toewijst. Dit is niet beschikbaar voor teams.
-1. (Voorwaardelijk) Geef de **Toewijzing %** voor elke die bron aan de taak wordt toegewezen als alle taken u selecteerde een Type van Duur van Gedreven of Berekende Taak hebben. Dit wijst op hoeveel van hun tijd deze middelen aan de voltooiing van de taak zouden moeten uitgeven. Dit is alleen beschikbaar voor gebruikers en functies.
+1. (Voorwaardelijk) Geef de **Toewijzing %** voor elke die bron aan de taak wordt toegewezen als alle taken u selecteerde een Type van Duur van Gedreven of Berekende Taak hebben. Dit wijst op hoeveel van hun tijd deze middelen aan de voltooiing van de taak zouden moeten uitgeven. Dit is alleen beschikbaar voor gebruikers en taakrollen.
 
    of
 
@@ -285,7 +281,7 @@ Taken in een lijst toewijzen:
 
    Voor informatie over het Type van Duur op taken, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Optioneel) Selecteer een rol die de gebruiker op de taak moet uitvoeren vanuit de **Een rol kiezen** vervolgkeuzelijst in het dialoogvenster **Rol van de gemachtigde** wanneer u gebruikers aan taken toewijst. Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Optioneel) Selecteer een rol die de gebruiker op de taak moet uitvoeren vanuit de **Een rol kiezen** vervolgkeuzemenu in het dialoogvenster **Rol van de gemachtigde** wanneer u gebruikers aan taken toewijst. Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle taken wilt verwijderen, voert u een van de volgende handelingen uit:
 
