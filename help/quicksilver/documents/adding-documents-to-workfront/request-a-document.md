@@ -6,9 +6,9 @@ description: U kunt een document aanvragen voor elk object dat Documenten onders
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,6 @@ U moet het volgende hebben:
    De gebruiker ontvangt een e-mailmelding als deze voorkeur is ingeschakeld, en een melding in de app. Zie voor meer informatie over e-mailmeldingen [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Klik op de koppeling in het e-mailbericht en upload het document. U kunt ook op de melding in de app klikken. Elke optie leidt u naar de pagina van het gebruikersprofiel waar u het gevraagde document kunt uploaden.
-
-   U kunt ook rechtstreeks reageren op het e-mailbericht en de gewenste documenten bijvoegen (als u geconfigureerd bent om e-mailreacties te ondersteunen).
 
 1. Nadat u het document hebt geüpload, heeft de persoon die het heeft aangevraagd toegang tot het document op persoonlijke titel **Documenten** gebied.
 
