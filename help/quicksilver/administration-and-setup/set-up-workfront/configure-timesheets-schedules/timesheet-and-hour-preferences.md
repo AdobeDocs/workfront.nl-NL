@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,13 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in specificeren [!DNL Workfront] om te bepalen welke punten timesheets met kunnen vooraf invullen en welke punten gebruikers tijd aan registreren kunnen.
+
+>[!NOTE]
+>
+>De punten waarvoor u tijd tijdens het tijdkader van de timesheet vertoning in timesheet door gebrek registreerde, hoewel zij niet aan de voorwaarden zouden kunnen voldoen die in dit artikel worden beschreven voor het vooraf invullen van timesheet.
+>
+>Voor informatie over logboektijd, zie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 Alle wijzigingen die u aanbrengt in tijdbladen, zijn van invloed op alle tijdbladen die in de toekomst worden gemaakt.
 
@@ -66,7 +73,8 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
        <ul> 
         <li>Om het even welke projecten, taken, en kwesties waar zij toegang tot logboektijd hebben</li> 
         <li>Hun tijdschema's als Algemene Tijd</li> 
-       </ul> <p>Dit is nuttig wanneer de gebruikers van plan zijn weg van het bureau te zijn en die tijd willen vooraf registreren.</p> <p><b>OPMERKING</b>: U kunt niet voorkomen dat gebruikers zich aanmelden bij taken of problemen die zijn gesloten of geannuleerd. U kunt gebruikers slechts verhinderen om tijd op volledige of dode projecten te registreren. Wij adviseren dat u filters in lijsten van taken en kwesties gebruikt om degenen uit te sluiten die zijn voltooid of geannuleerd zichtbaar aan gebruikers zijn.</p> </td> 
+       </ul> <p>Dit is nuttig wanneer de gebruikers van plan zijn om vanaf het bureau weg te zijn en die tijd willen vooraf registreren.</p> <p><b>OPMERKING</b>:</p> 
+       <p>U kunt niet voorkomen dat gebruikers zich aanmelden bij taken of problemen die zijn gesloten of geannuleerd. U kunt gebruikers slechts verhinderen om tijd op volledige of dode projecten te registreren. Wij adviseren dat u filters in lijsten van taken en kwesties gebruikt om degenen uit te sluiten die zijn voltooid of geannuleerd zichtbaar aan gebruikers zijn.</p> </td> 
      </tr>
 
    <tr> 
@@ -88,7 +96,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restrict hour editing to owners and admins]</td> 
-      <td>Bewerken beperken tot de gebruiker die de uren invoert en [!DNL Workfront] beheerders. Deze instelling is van toepassing op de [!UICONTROL Hours] in een project of in een rapport van Uren.</td> 
+      <td>Bewerken beperken tot de gebruiker die de uren en [!DNL Workfront] beheerders. Deze instelling is van toepassing op de [!UICONTROL Hours] in een project of in een rapport van Uren.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -105,7 +113,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
         <td>Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat zij hebben uitgevoerd voor projecten in het dialoogvenster [!UICONTROL Complete] status.</td>
     </tr>
     <tr>
-        <td>De tijd van het programma van het programma op projecten die dood zijn</td>
+        <td>De tijd van het programma van de logboeken op projecten die dood zijn</td>
         <td>Wanneer deze optie is ingeschakeld, kunnen gebruikers uren aanmelden bij projecten met een [!UICONTROL Dead] status.</td>
     </tr>
    </table>
@@ -153,7 +161,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
       <td role="rowheader">[!UICONTROL When deleting tasks or issues]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Move any logged time to the project where the task or issue resides]</strong>: Als deze taak of kwestie later wordt hersteld, blijft de tijd op het project.<br></li> 
+        <li><strong>[!UICONTROL Move any logged time to the project where the task or issue resides]</strong>: Als deze taak of uitgave later wordt hersteld, blijft de tijd op het project.<br></li> 
         <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: Als deze taak of uitgave later wordt hersteld, wordt de geregistreerde tijd hersteld aan de taak of de kwestie.</p> <p>Zie voor meer informatie over deze opties <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] op uren dat een object wordt verwijderd en hersteld</a>.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -174,7 +182,7 @@ Voor informatie over hoe een groepsbeheerder timesheet en uurvoorkeur voor een g
 >
 >Na een [!DNL Workfront] de beheerder ontgrendelt een voorkeur op systeemniveau, kan om het even welke groepsbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] de beheerder moet een voorkeur voor iedereen in het systeem vormen en sluiten. Zie voor meer informatie [Een groepsoverzicht en uurvoorkeur vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
-Om een projectvoorkeur te ontgrendelen zodat de groepen het kunnen vormen:
+Een projectvoorkeur ontgrendelen zodat groepen deze kunnen configureren:
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
@@ -185,8 +193,8 @@ Om een projectvoorkeur te ontgrendelen zodat de groepen het kunnen vormen:
    * Als u wilt dat groepsbeheerders een voorkeur voor hun groepen kunnen vormen, ontgrendel het ![](assets/unlock-toggle-button.png).
    * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het gesloten is (dit is het gebrek).
 
-      >[!IMPORTANT]
-      >
-      >Wij adviseren dat u met de beheerders en de gebruikers in groepen door het systeem communiceert om ervoor te zorgen dat alle behoeften rekenschap worden gegeven op de manier u een gesloten voorkeur vormt. Wanneer u het sluit, wordt uw configuratie voor het geërft door alle groepen in het systeem. En als de voorkeur voor om het even welke periode is ontgrendeld, vervangt uw configuratie die die groepsbeheerders zouden kunnen hebben gemaakt.
+     >[!IMPORTANT]
+     >
+     >Wij adviseren dat u met de beheerders en de gebruikers in groepen door het systeem communiceert om ervoor te zorgen dat alle behoeften rekenschap worden gegeven op de manier u een gesloten voorkeur vormt. Wanneer u het sluit, wordt uw configuratie voor het geërft door alle groepen in het systeem. En als de voorkeur voor om het even welke periode is ontgrendeld, vervangt uw configuratie die die groepsbeheerders zouden kunnen hebben gemaakt.
 
 1. Klik op **[!UICONTROL Save]**.

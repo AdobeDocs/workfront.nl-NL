@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 0%
 
 ---
@@ -415,55 +415,6 @@ U kunt een update op verschillende manieren kopiëren. Nadat u een koppeling heb
 
 Het kopiëren van een update is afhankelijk van de manier waarop u opmerkingen maakt.
 
-### Een update kopiëren in de oudere opmerkingervaring
-
-<!--remove legacy when removed from the UI-->
-
-* [De update kopiëren](#copy-the-update)
-* [De koppeling voor de verbinding met de verbinding kopiëren](#copy-the-thread-link)
-* [De koppeling voor bijwerken kopiëren](#copy-the-update-link)
-* [Aanhalingsreactie](#quote-reply)
-
-#### De update kopiëren {#copy-the-update}
-
-Met deze optie wordt de tekst van een specifieke update naar het klembord gekopieerd.
-
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** en klik vervolgens op **Platte tekst kopiëren**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### De koppeling voor de verbinding met de verbinding kopiëren {#copy-the-thread-link}
-
-Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd, zodat u de verbinding met andere gebruikers kunt delen.
-
-1. Ga naar de updatethread die u wilt kopiëren.
-
-1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### De koppeling voor bijwerken kopiëren {#copy-the-update-link}
-
-Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd. Wanneer u de update-koppeling deelt, ziet de gebruiker die deze koppeling volgt, een rand rondom de update.
-
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Aanhalingsreactie
-
-Met de optie Aanhalingsreactie kopieert u de oorspronkelijke opmerking naar een nieuw antwoord als een blokcitaat.
-
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** en klik vervolgens op **Aanhalingsreactie**.
-
-   Er wordt een nieuw opmerkingsvak geopend en het geciteerde antwoord wordt opgenomen in de nieuwe opmerking en gemarkeerd als een blokcitaat.
-
-1. Voeg je update toe en klik op **Antwoord** om de opmerking toe te voegen.
-
 ### Een update kopiëren in de nieuwe opmerkingervaring
 
 Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ Met de koppelingsoptie Kopiëren kopieert u de opmerking of de koppeling naar he
 
 1. Klik op de knop **Meer** en klik vervolgens op **Koppeling kopiëren**.
 
+1. Plak de koppeling die u in de vorige stap hebt gekopieerd in een e-mail of een andere toepassing om deze met anderen te delen. Met de gedeelde koppeling wordt de opmerking geopend waaruit u de koppeling hebt gedeeld.
+
+   >[!TIP]
+   >
+   >Wanneer u de verbinding van een gesprek over een kindvoorwerp van een hoger-rangschikkend voorwerp deelt, opent de verbinding de draad in het hoger-rangschikkende gebied van de Updates van objecten.
+   >
+   >Bijvoorbeeld, als u de verbinding van een taakcommentaar van het gebied van Updates van het project kopieert, opent de commentaar de projectpagina.
+
 #### Platte tekst kopiëren
 
 Met de optie Tekst kopiëren wordt de tekst van een specifieke update naar het klembord gekopieerd.
@@ -507,6 +466,64 @@ Met de antwoordoptie Citaat kopieert u de oorspronkelijke opmerking naar een nie
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Voeg je update toe en klik op **Verzenden** om de opmerking toe te voegen.
+
+### Een update kopiëren in de oudere opmerkingervaring
+
+<!--remove legacy when removed from the UI-->
+
+* [De update kopiëren](#copy-the-update)
+* [De koppeling voor de verbinding met de verbinding kopiëren](#copy-the-thread-link)
+* [De koppeling voor bijwerken kopiëren](#copy-the-update-link)
+* [Aanhalingsreactie](#quote-reply)
+
+  >[!TIP]
+  >
+  >Wanneer u kopieert en de verbinding van een gesprek over een kindvoorwerp van een hoger-rangschikkend voorwerp deelt, opent de verbinding de draad in het gebied van de Updates van het kindvoorwerp.
+  >
+  >Als u bijvoorbeeld de koppeling van een taakopmerking kopieert vanuit het gedeelte Updates van het project, wordt de taakpagina geopend met de opmerking.
+
+#### De update kopiëren {#copy-the-update}
+
+Met deze optie wordt de tekst van een specifieke update naar het klembord gekopieerd.
+
+1. Ga naar de update of het antwoord dat u wilt kopiëren.
+1. Klik op de knop **Meer** en klik vervolgens op **Platte tekst kopiëren**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### De koppeling voor de verbinding met de verbinding kopiëren {#copy-the-thread-link}
+
+Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd, zodat u de verbinding met andere gebruikers kunt delen.
+
+1. Ga naar de updatethread die u wilt kopiëren.
+
+1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. Plak de koppeling die u in de vorige stap hebt gekopieerd in een e-mail of een andere toepassing om deze met anderen te delen. Met de gedeelde koppeling wordt de opmerking geopend waaruit u de koppeling hebt gedeeld.
+
+#### De koppeling voor bijwerken kopiëren {#copy-the-update-link}
+
+Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd. Wanneer u de update-koppeling deelt, ziet de gebruiker die deze koppeling volgt, een rand rondom de update.
+
+1. Ga naar de update of het antwoord dat u wilt kopiëren.
+1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Plak de koppeling die u in de vorige stap hebt gekopieerd in een e-mail of een andere toepassing om deze met anderen te delen. Met de gedeelde koppeling wordt de opmerking geopend waaruit u de koppeling hebt gedeeld.
+
+#### Aanhalingsreactie
+
+Met de optie Aanhalingsreactie kopieert u de oorspronkelijke opmerking naar een nieuw antwoord als een blokcitaat.
+
+1. Ga naar de update of het antwoord dat u wilt kopiëren.
+1. Klik op de knop **Meer** en klik vervolgens op **Aanhalingsreactie**.
+
+   Er wordt een nieuw opmerkingsvak geopend en het geciteerde antwoord wordt opgenomen in de nieuwe opmerking en gemarkeerd als een blokcitaat.
+
+1. Voeg je update toe en klik op **Antwoord** om de opmerking toe te voegen.
 
 ## Een update of antwoord verwijderen
 
