@@ -9,7 +9,7 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2200'
 ht-degree: 0%
@@ -188,7 +188,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#Create" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
+    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Record type]</td>
@@ -197,19 +197,19 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       <ul>
         <li>
           <p>[!UICONTROL AB Activity]</p>
-          <p>Doorgaan naar <a href="#AB%C2%A0Activ" class="MCXref xref" >AB-activiteitsvelden</a>.</p>
+          <p>Doorgaan naar <a href="#ab-activity-fields" class="MCXref xref" >AB-activiteitsvelden</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL XT Activity]</p>
-          <p>Doorgaan naar <a href="#XT" class="MCXref xref" >XT-activiteitvelden</a>.</p>
+          <p>Doorgaan naar <a href="#xt-activity-fields" class="MCXref xref" >XT-activiteitvelden</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Offer]</p>
-          <p>Doorgaan naar <a href="#Offer" class="MCXref xref" >Velden aanbieden</a>.</p>
+          <p>Doorgaan naar <a href="#offer-fields" class="MCXref xref" >Velden aanbieden</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Audience]</p>
-          <p>Doorgaan naar <a href="#Audience" class="MCXref xref" >Poortvelden</a>.</p>
+          <p>Doorgaan naar <a href="#audience-fields" class="MCXref xref" >Poortvelden</a>.</p>
         </li>
       </ul>
     </td>
@@ -317,7 +317,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts at]</td>
-      <td>Voer de datum en de tijd in om de activiteit in de indeling te starten of wijs de datum en tijd toe <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Voer de datum en tijd in of wijs de datum en tijd aan om de activiteit te starten in de notatie <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ends at]</td>
@@ -491,7 +491,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts at]</td>
-      <td>Voer de datum en de tijd in om de activiteit in de indeling te starten of wijs de datum en tijd toe <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Voer de datum en tijd in of wijs de datum en tijd aan om de activiteit te starten in de notatie <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ends at]</td>
@@ -657,7 +657,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#Create" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
+      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] Basis-URL]</td>
@@ -710,7 +710,7 @@ Deze actiemodule schrapt één enkele activiteit van AB, activiteit XT, Aanbiedi
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#Create" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
+    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -733,7 +733,7 @@ Deze actiemodule wint gegevens voor één enkele Activiteit, Aanbieding, Publiek
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#Create" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
+    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -756,7 +756,7 @@ Deze actiemodule werkt een Activiteit, Aanbieding, of Publiek bij.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#Create" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
+      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -766,12 +766,12 @@ Deze actiemodule werkt een Activiteit, Aanbieding, of Publiek bij.
           <li>
             <p><b>[!UICONTROL AB Activity]</b>
             </p>
-            <p>Zie veldbeschrijvingen in <a href="#AB%C2%A0Activ" class="MCXref xref" >AB-activiteitsvelden</a> krachtens <a href="#Create2" class="MCXref xref" >Een record maken</a>.</p>
+            <p>Zie veldbeschrijvingen in <a href="#ab-activity-fields" class="MCXref xref" >AB-activiteitsvelden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL XT Activity]</b>
             </p>
-            <p>Zie veldbeschrijvingen in <a href="#XT" class="MCXref xref" >XT-activiteitvelden</a> krachtens <a href="#Create2" class="MCXref xref" >Een record maken</a>.</p>
+            <p>Zie veldbeschrijvingen in <a href="#xt-activity-fields" class="MCXref xref" >XT-activiteitvelden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Other Activity]</b>
@@ -781,12 +781,12 @@ Deze actiemodule werkt een Activiteit, Aanbieding, of Publiek bij.
           <li>
             <p><b>[!UICONTROL Offer]</b>
             </p>
-            <p>Zie veldbeschrijvingen in <a href="#Offer" class="MCXref xref" >Velden aanbieden</a> krachtens <a href="#Create2" class="MCXref xref" >Een record maken</a>.</p>
+            <p>Zie veldbeschrijvingen in <a href="#offer-fields" class="MCXref xref" >Velden aanbieden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>Zie veldbeschrijvingen in <a href="#Audience" class="MCXref xref" >Poortvelden</a> krachtens <a href="#Create2" class="MCXref xref" >Een record maken</a>.</p>
+            <p>Zie veldbeschrijvingen in <a href="#audience-fields" class="MCXref xref" >Poortvelden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ Deze zoekmodule haalt een lijst met records van het geselecteerde type op.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#Create" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
+      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -852,7 +852,7 @@ Deze zoekmodule zoekt naar Activiteiten, Aanbiedingen of Soorten publiek op basi
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#Create" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
+    <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
