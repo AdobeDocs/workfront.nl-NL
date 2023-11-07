@@ -6,8 +6,9 @@ title: Abonnementsberichten voor gebeurtenissen filteren
 description: Abonnementsberichten voor gebeurtenissen filteren
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 U kunt intermediaire verwerkingscomponenten bouwen die u kunnen helpen slechts de berichten van het gebeurtenisabonnement filtreren en verwerken die uw zaken vereist.
 
-Zie voor meer informatie over gebeurtenisabonnementen [Event Subscription API](../../wf-api/general/event-subs-api.md).
+Zie voor meer informatie over gebeurtenisabonnementen [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md).
 
 ## Gebeurtenisberichten filteren
 
@@ -211,7 +212,7 @@ Het volgende voorbeeld in Node.js toont hoe te om projectladingen te filtreren d
    let eventSubscriptionMessage = JSON.parse(event.body);
    ```
 
-3. Haal het projectGroupIDfrom het &quot;newState&quot;attribuut van het bericht van het gebeurtenisabonnement op, dan pas het met groepsidentiteitskaart van de groep aan u in Stap 1 identificeerde.
+3. Haal het projectGroupIDfrom het &quot;newState&quot;attribuut van het bericht van het gebeurtenisabonnement op, dan pas het aan met groepsidentiteitskaart van de groep aan u in Stap 1 identificeerde.
 
    ```
    let projectGroupId = eventSubscriptionMessage.newState.groupID; 

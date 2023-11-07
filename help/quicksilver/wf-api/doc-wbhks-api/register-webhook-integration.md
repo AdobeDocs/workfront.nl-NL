@@ -6,8 +6,9 @@ title: Registreer een Integratie Webhaak
 description: Registreer een Integratie Webhaak
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront-beheerders kunnen een aangepaste webshintegratie voor hun bedrijf toevoegen door te navigeren naar Setup > Documenten > Aangepaste integratie in Workfront. Van de pagina van de Integratie van de Douane binnen Opstelling, kunnen de beheerders een lijst van bestaande integratie van documentWebHaak bekijken. Vanaf deze pagina kunnen integraties worden toegevoegd, bewerkt, ingeschakeld en uitgeschakeld.
 
-Als u een integratie wilt toevoegen, klikt u op **Aangepaste integratie toevoegen**.
+Om een integratie toe te voegen, klik **Aangepaste integratie toevoegen**.
 
 ![](assets/webhooks-integration-350x230.png)
 
@@ -45,7 +46,7 @@ Wanneer de beheerder een integratie toevoegt, zal hij waarden voor de volgende g
   </tr> 
   <tr> 
    <td>Basis-API-URL</td> 
-   <td> <p>De locatie van de callback-API. Wanneer het maken van vraag aan het externe systeem, zal Workfront eenvoudig de eindpuntnaam aan dit adres toevoegen. Als de beheerder bijvoorbeeld de URL van de basis-API, "https://www.mycompany.com/api/v1", heeft ingevoerd, gebruikt Workfront de volgende URL om de metagegevens van een document op te halen: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+   <td> <p>De locatie van de callback-API. Wanneer het maken van vraag aan het externe systeem, zal Workfront eenvoudig de eindpuntnaam aan dit adres toevoegen. Als de beheerder bijvoorbeeld de URL van de basis-API, " https://www.mycompany.com/api/v1 " invoert, gebruikt Workfront de volgende URL om de metagegevens van een document op te halen: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
   </tr> 
   <tr> 
    <td>Parameters aanvragen</td> 
@@ -73,7 +74,7 @@ Wanneer de beheerder een integratie toevoegt, zal hij waarden voor de volgende g
   </tr> 
   <tr> 
    <td>Workfront Redirect URI</td> 
-   <td>(Alleen OAuth2) Dit is een alleen-lezen veld en wordt gegenereerd door Workfront. Deze waarde wordt gebruikt om deze integratie bij de externe documentprovider te registreren. Opmerking: Zoals hierboven voor Authentificatie URL wordt beschreven, moet de leverancier de "staat"parameter en zijn waarde aan het querystring toevoegen wanneer het uitvoeren van redirect.</td> 
+   <td>(Alleen OAuth2) Dit is een alleen-lezen veld en wordt gegenereerd door Workfront. Deze waarde wordt gebruikt om deze integratie bij de externe documentprovider te registreren. Opmerking: zoals hierboven beschreven voor verificatie-URL, moet de provider de parameter "state" en de bijbehorende waarde toevoegen aan de querytekenreeks wanneer de omleiding wordt uitgevoerd.</td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 

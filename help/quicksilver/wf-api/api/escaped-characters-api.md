@@ -5,8 +5,9 @@ title: Geslaagde tekens in API-reacties
 description: Geslaagde tekens in API-reacties
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 7%
@@ -15,7 +16,7 @@ ht-degree: 7%
 
 # Geslaagde tekens in API-reacties
 
-De syntaxis van sommige API-reacties kan het escape-teken bevatten. `\` (backslash). Een escape-teken geeft aan dat het teken of de tekenreeks van tekens die onmiddellijk na het escape-teken volgen, een speciale waarde heeft. Bijvoorbeeld: `\t` het leesapparaat vertelt dat `t` moet worden geïnterpreteerd als `tab` en niet als de letter &quot;t&quot;. Een tekenreeks van een of meer tekens na de backslash wordt een escapereeks genoemd.
+De syntaxis van sommige API-reacties kan het escape-teken bevatten. `\` (backslash). Een escape-teken geeft aan dat het teken of de tekenreeks van tekens die onmiddellijk na het escape-teken volgen, een speciale waarde heeft. Bijvoorbeeld: `\t` het leesapparaat vertelt dat `t` dient te worden geïnterpreteerd als `tab` en niet als de letter &quot;t&quot;. Een tekenreeks van een of meer tekens na de backslash wordt een escapereeks genoemd.
 
 Voor hexadecimale escapereeksen moeten geldige hexadecimale cijfers worden gebruikt. De volgende tabel bevat een lijst met escapereeksen die zijn gecodeerd in Adobe Workfront API-reacties:
 
@@ -74,7 +75,7 @@ Voor hexadecimale escapereeksen moeten geldige hexadecimale cijfers worden gebru
   <tr> 
    <td> <p>\/</p> </td> 
    <td>47</td> 
-   <td>/ (schuine streep naar voren)</td> 
+   <td>/ (Forward slash)</td> 
   </tr> 
   <tr> 
    <td> <p>\u003c</p> </td> 

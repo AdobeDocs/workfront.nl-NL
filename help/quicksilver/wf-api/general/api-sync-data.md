@@ -6,8 +6,9 @@ title: Gebruik de API om gegevens voor programma's en services te synchroniseren
 description: Gebruik de API om gegevens voor programma's en services te synchroniseren
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -19,9 +20,9 @@ ht-degree: 0%
 
 Dit zijn enkele algemene manieren waarop u de API kunt gebruiken om gegevens voor programma&#39;s en services te synchroniseren.
 
-## Bijna realtime updates
+## Bijna real-time updates
 
-Adobe Workfront gebruikt &quot;Event Subscriptions&quot; (ook wel webhooks genoemd) om updates in real time over ondersteunde objecten en acties via de API naar het gewenste eindpunt of de gewenste eindpunten te verzenden. U kunt een update voor nieuwe objecten en acties verwachten binnen 5 seconden, maar de updates zijn gemiddeld over ongeveer 1 seconde beschikbaar. Voor meer informatie over welk type objecten wordt ondersteund, welke typen acties worden ondersteund, technische details en voorbeelden van hoe u gebeurtenisabonnementen kunt instellen, raadpleegt u [Event Subscription API](../../wf-api/general/event-subs-api.md) en [Vereisten voor levering van abonnementen](../../wf-api/general/setup-event-sub-endpoint.md).
+Adobe Workfront gebruikt &quot;Event Subscriptions&quot; (ook wel webhooks genoemd) om updates in real time over ondersteunde objecten en acties via de API naar het gewenste eindpunt of de gewenste eindpunten te verzenden. U kunt een update voor nieuwe objecten en acties verwachten binnen 5 seconden, maar de updates zijn gemiddeld over ongeveer 1 seconde beschikbaar. Voor meer informatie over welk type objecten wordt ondersteund, welke typen acties worden ondersteund, technische details en voorbeelden van hoe u gebeurtenisabonnementen kunt instellen, raadpleegt u [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md) en [Vereisten voor levering van abonnementen](../../wf-api/general/setup-event-sub-endpoint.md).
 
 ## Batchupdates
 
@@ -39,7 +40,7 @@ Invoerdatums worden opgeslagen met ISO 8601-opmaak. Deze standaard bevat gegeven
  
 <pre><code>2020-05-18T17:00:00:000-0600</code></pre> 
 
-Zowel de datum waarop een object is gemaakt als de laatste datum waarop het object is gewijzigd, worden opgeslagen als respectievelijk &quot;entryDate&quot; en &quot;lastUpdateDate&quot;. Zie voor uitgebreide informatie over Workfront-objecten, de bijbehorende velden en veldnamen de [API Explorer](../../wf-api/general/api-explorer.md). De entryDate voor een bepaald Workfront-object verandert niet, waarbij de lastUpdatedDate telkens wanneer het object wordt gewijzigd, verandert.
+Zowel de datum waarop een object is gemaakt als de laatste datum waarop het object is gewijzigd, worden opgeslagen als respectievelijk &quot;entryDate&quot; en &quot;lastUpdateDate&quot;. Voor uitgebreide informatie over Workfront-objecten, de bijbehorende velden en veldnamen raadpleegt u de [API Explorer](../../wf-api/general/api-explorer.md). De entryDate voor een bepaald Workfront-object verandert niet, waarbij de lastUpdatedDate telkens wanneer het object wordt gewijzigd, verandert.
 
 **Voorbeeld:** GET-aanvraag voor een uitgaveobject, met gebruik van de **lastUpdateDate** veld. Dit verzoek retourneert alle problemen die sinds die opgegeven datum zijn bijgewerkt.
 

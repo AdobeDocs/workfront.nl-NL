@@ -5,8 +5,9 @@ title: De stroom van de vergunningscode voor douane OAuth 2 toepassingen
 description: De stroom van de vergunningscode voor douane OAuth 2 toepassingen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -21,8 +22,8 @@ Als u wilt integreren met Workfront en uw clienttoepassing in staat wilt stellen
 * Een OAuth2-toepassing maken
 * De toepassing van derden configureren
 * Koppeling maken naar de pagina Autoriseren voor uw gebruikers
-* Stroom van machtigingscode instellen: Gebruikers melden zich aan bij de Workfront-instantie en gaan ermee akkoord dat de clienttoepassing namens hen verbinding maakt met Workfront. Dientengevolge, krijgt u een vergunningscode die u met toegang zult ruilen en tokens verfrist.
-* Tokenstroom vernieuwen instellen: In deze stroom gebruikt u het vernieuwingstoken om een nieuw toegangstoken te krijgen wanneer oude wordt verlopen.
+* Stroom van machtigingscode instellen: gebruikers melden zich aan bij de Workfront-instantie en gaan ermee akkoord dat de clienttoepassing namens hen verbinding maakt met Workfront. Dientengevolge, krijgt u een vergunningscode die u met toegang zult ruilen en tokens verfrist.
+* Opstelling verfrist Symbolische Stroom: In deze stroom gebruikt u verfrist token om een nieuw toegangstoken te krijgen wanneer oude wordt verlopen.
 
 ## Een OAuth2-toepassing maken
 
@@ -34,9 +35,9 @@ Uw gebruikers moeten zich aanmelden om deze integratie in hun eigen account te a
 
 * De volledige URL van het domein van uw organisatie. Voorbeeld:
 
-   ```
-   https://myorganization.my.workfront.com
-   ```
+  ```
+  https://myorganization.my.workfront.com
+  ```
 
 
 * `client_id`: Dit is de client-id die is gegenereerd toen u de OAuth2-app in Workfront maakte.
@@ -94,11 +95,11 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
 * `code`: De vergunningscode die voor het krijgen van het toegangs/verfrist teken wordt vereist.
 * `domain`: Het domein van uw organisatie. Voorbeeld: in `myorganization.my.workfront.com`, is het domein `myorganization`.
-* `lane`: de termijn voor het indienen van het verzoek. Voorbeeld: in `myorganization.preview.workfront.com`is de weg `preview`.
+* `lane`: de weg van het verzoek. Voorbeeld: in `myorganization.preview.workfront.com`, is de weg `preview`.
 
-   >[!IMPORTANT]
-   >
-   >De `code` is slechts 2 minuten geldig. Daarom moet u verfrissen krijgen en toegang tokens binnen die tijd.
+  >[!IMPORTANT]
+  >
+  >De `code` is slechts 2 minuten geldig. Daarom moet u verfrissen krijgen en toegang tokens binnen die tijd.
 
 1. Wanneer u een code hebt, kunt u verzoeken om vernieuwings- en toegangstokens door de code samen met de gegevens van de clienttoepassing naar de `/integrations/oauth2/api/v1/token` eindpunt.
 

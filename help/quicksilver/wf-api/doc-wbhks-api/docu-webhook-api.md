@@ -6,10 +6,11 @@ title: Document Webhooks-API
 description: Document Webhooks-API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3646'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Workfront biedt een voorbeeldimplementatie om de ontwikkeling van een nieuwe web
 
 ## Registreren van een Integratie Webhaak
 
-Workfront-beheerders kunnen een aangepaste webshintegratie voor hun bedrijf toevoegen door te navigeren naar Setup > Documenten > Aangepaste integratie in Workfront. Van de pagina van de Integratie van de Douane binnen Opstelling, kunnen de beheerders een lijst van bestaande integratie van documentWebHaak bekijken. Vanaf deze pagina kunnen integraties worden toegevoegd, bewerkt, ingeschakeld en uitgeschakeld. Als u een integratie wilt toevoegen, klikt u op de knop Integratie toevoegen.
+Workfront-beheerders kunnen een aangepaste webshintegratie voor hun bedrijf toevoegen door te navigeren naar Setup > Documenten > Aangepaste integratie in Workfront. Van de pagina van de Integratie van de Douane binnen Opstelling, kunnen de beheerders een lijst van bestaande integratie van documentWebHaak bekijken. Vanaf deze pagina kunnen integraties worden toegevoegd, bewerkt, ingeschakeld en uitgeschakeld. Klik op de knop Integratie toevoegen om een integratie toe te voegen.
 
 ### Beschikbare velden
 
@@ -83,7 +84,7 @@ Wanneer de beheerder een integratie toevoegt, zal hij waarden voor de volgende g
   </tr> 
   <tr> 
    <td>Workfront Redirect URI</td> 
-   <td>  <p>(Alleen OAuth2) Dit is een alleen-lezen veld en wordt gegenereerd door Workfront. Deze waarde wordt gebruikt om deze integratie bij de externe documentprovider te registreren. Opmerking: Zoals hierboven voor Authentificatie URL wordt beschreven, moet de leverancier de "staat"parameter en zijn waarde aan het querystring toevoegen wanneer het uitvoeren van redirect.</p></td> 
+   <td>  <p>(Alleen OAuth2) Dit is een alleen-lezen veld en wordt gegenereerd door Workfront. Deze waarde wordt gebruikt om deze integratie bij de externe documentprovider te registreren. Opmerking: zoals hierboven beschreven voor verificatie-URL, moet de provider de parameter "state" en de bijbehorende waarde toevoegen aan de querytekenreeks wanneer de omleiding wordt uitgevoerd.</p></td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 
@@ -161,7 +162,7 @@ Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== ­­­­­­­­­­­­­­­
 
 ## API-specificatie
 
-Hieronder vindt u een lijst met API&#39;s die de webhakprovider moet implementeren om documentwebhooks te laten werken.
+Hieronder vindt u een lijst met API&#39;s die de webshaakprovider moet implementeren om documentwebhooks te laten werken.
 
 ### Het krijgen OAuth2 Tokens (nodig slechts authentificatie OAuth2)
 
@@ -193,7 +194,7 @@ URL is configureerbaar en beantwoordt aan de Symbolische waarde van URL van het 
   <tr> 
    <td>code</td> 
    <td>afhankelijk</td> 
-   <td> <p>De machtigingscode die naar Workfront wordt verzonden vlak nadat de gebruiker op de knop "Grant" klikt. Dit is alleen vereist wanneer het subsidietype "authentication_code" is. De toelatingscode moet van korte duur zijn, die gewoonlijk over 10 minuten of minder afloopt.</p> </td> 
+   <td> <p>De machtigingscode die naar Workfront wordt verzonden vlak nadat de gebruiker op de knop "Grant" klikt. Dit is alleen vereist wanneer het subsidietype "authentication_code" is. De toelatingscode moet van korte duur zijn, gewoonlijk aflopend binnen 10 minuten of minder.</p> </td> 
   </tr> 
   <tr> 
    <td>refresh_token</td> 
@@ -292,7 +293,7 @@ GET /metadata?id=[document- of map-id]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>  <p>De id van het bestand of de map, waarnaar wordt verwezen door de websiteprovider. Dit is anders dan de Workfront-document-id. Gebruik de waarde '/' om de metagegevens van de hoofdmap op te halen.</p><p>Opmerking: De maximale lengte voor de id is 255 tekens.</p></td> 
+   <td>  <p>De id van het bestand of de map, waarnaar wordt verwezen door de websiteprovider. Dit is anders dan de Workfront-document-id. Gebruik de waarde '/' om de metagegevens van de hoofdmap op te halen.</p><p>Opmerking: de id mag maximaal 255 tekens lang zijn.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -396,7 +397,7 @@ GET/bestanden
 |---|---|
 | parentId  | De map-id. Gebruik de waarde &#39;/&#39; om de metagegevens van de hoofdmap op te halen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 De API voor documentwebhooks biedt momenteel geen ondersteuning voor paginering.
 
@@ -459,7 +460,7 @@ GET/zoekopdracht
   </tr> 
   <tr> 
    <td>parentId</td> 
-   <td> <p>(optioneel) De map-id waaruit de zoekopdracht is uitgevoerd. Opmerking: Dit is een tijdelijke aanduiding voor een toekomstige functie in Workfront. Workfront geeft deze parameter momenteel niet door. </p> </td> 
+   <td> <p>(optioneel) De map-id waaruit de zoekopdracht is uitgevoerd. Opmerking: dit is een tijdelijke aanduiding voor toekomstige functies in Workfront. Workfront geeft deze parameter momenteel niet door. </p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -514,7 +515,7 @@ GET/download
 
 **Antwoord**
 
-De onbewerkte bytes van het document.
+The raw bytes of the document.
 
 **Voorbeeld:** `https://www.acme.com/api/download?id=123456`
 
@@ -533,7 +534,7 @@ GET /miniatuur
 | id  | De document-id. |
 | size  |  De breedte van de miniatuur |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -613,7 +614,7 @@ PUT /upload
 
  
 
-**Verzoek**
+**Indieningsinstantie**
 
 De onbewerkte inhoudbytes voor het document.
 
@@ -728,7 +729,7 @@ POST /createFolder
 | parentId  | De map-id waarin de map moet worden gemaakt |
 | name  | De naam van de nieuwe map |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -776,7 +777,7 @@ PUT /delete
 | documentId  | Te verwijderen document-id |
 | folderId  |  De te verwijderen map-id |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Antwoord Een JSON-tekenreeks die aangeeft of de functie is gelukt of mislukt, zoals is opgegeven in de sectie Foutafhandeling hieronder.
 
@@ -811,10 +812,10 @@ PUT /naam wijzigen
 
 | Naam  | Beschrijving |
 |---|---|
-| id | De document- of map-id waarvan de naam moet worden gewijzigd |
+| id | De naam van het document of de map moet worden gewijzigd |
 | name  | De nieuwe naam van het document of de map |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -938,16 +939,16 @@ Voor het uitvoeren van deze tests hebt u het volgende nodig:
 
 Bij deze tests wordt er ook van uitgegaan dat u de instantie WebHaak van document al in Workfront hebt geregistreerd onder Instellen > Documenten > Aangepaste integratie.
 
-### Test 1: Verstrek de dienst van Webhaak van het Document voor een gebruiker
+### Testen 1: De Document Webhaak-service verlenen aan een gebruiker
 
 Test URL van de Authentificatie en Symbolische Eindpunt URL voor op OAuth-Gebaseerde Leveranciers van Webhaken.
 
 1. Ga in Workfront naar de hoofdpagina Documenten door op de koppeling Documenten in de bovenste navigatiebalk te klikken.
 1. Klik op Add dropdown Documenten en selecteer uw dienst van Webhaak van het Document onder Add de Dienst.
-1. (Alleen OAuth-services) Nadat u de vorige stap hebt uitgevoerd, wordt de pagina voor OAuth2-verificatie van uw service geladen in een pop-upvenster. (Opmerking: u wordt mogelijk eerst gevraagd zich aan te melden bij uw service.) Via de verificatiepagina geeft u Workfront toegang tot de account van de gebruiker door op de knop Vertrouwd of Toestaan te klikken.
-1. Controleer of uw service is toegevoegd aan het vervolgkeuzemenu Documenten toevoegen. Vernieuw de browser als deze standaard niet wordt weergegeven.
+1. (Alleen OAuth-services) Nadat u de vorige stap hebt uitgevoerd, wordt de pagina voor OAuth2-verificatie van uw service geladen in een pop-upvenster. (Opmerking: u wordt mogelijk eerst gevraagd u aan te melden bij uw service.) Via de verificatiepagina geeft u Workfront toegang tot de account van de gebruiker door op de knop Vertrouwd of Toestaan te klikken.
+1. Controleer of uw service is toegevoegd aan de vervolgkeuzelijst Documenten toevoegen. Vernieuw de browser als deze standaard niet wordt weergegeven.
 
-### Test 2: Een document koppelen aan Workfront Test de volgende eindpunten: /bestanden, /metadata
+### Test 2: Een document koppelen aan Workfront Test de volgende eindpunten: /files, /metadata
 
 1. Ga in Workfront naar de hoofdpagina Documenten door op de koppeling Documenten in de bovenste navigatiebalk te klikken.
 1. Selecteer de documentservice Webhaak onder Documenten toevoegen.
@@ -955,17 +956,17 @@ Test URL van de Authentificatie en Symbolische Eindpunt URL voor op OAuth-Gebase
 1. Controleer of u de mapstructuur correct kunt navigeren.
 1. Een document selecteren en koppelen naar Workfront
 
-### Test 3: Naar een document navigeren in het inhoudsbeheersysteem
+### Testen 3: naar een document navigeren in het inhoudsbeheersysteem
 
-Test de volgende eindpunten: /metadata (in het bijzonder viewLink)
+Test de volgende eindpunten: /metadata (specifiek viewLink)
 
 1. Een document koppelen aan Workfront
 1. Selecteer het document en klik op de koppeling Openen.
 1. Controleer of het document op een nieuw tabblad wordt geopend.
 
-### Test 4: Naar een document in het inhoudsbeheersysteem navigeren (met aanmelding)
+### Testen 4: naar een document navigeren in het inhoudsbeheersysteem (met aanmelding)
 
-Test de volgende eindpunten: /metadata (in het bijzonder viewLink)
+Test de volgende eindpunten: /metadata (specifiek viewLink)
 
 1. Zorg ervoor dat u bent afgemeld bij het inhoudsbeheersysteem.
 1. Koppel een document aan Workfront.
@@ -973,15 +974,15 @@ Test de volgende eindpunten: /metadata (in het bijzonder viewLink)
 1. Controleer of het aanmeldingsscherm van het inhoudsbeheersysteem op een nieuw tabblad wordt geladen.
 1. Aanmelden en controleren of u naar het document bent gegaan
 
-### Test 5: Het document downloaden van het contentbeheersysteem
+### Test 5: Download het document van het contentbeheersysteem
 
-Test de volgende eindpunten: /metadata (in het bijzonder de downloadLink)
+Test de volgende eindpunten: /metadata (in het bijzonder downloadLink)
 
 1. Koppel een document aan Workfront.
 1. Selecteer het document en klik op de koppeling Downloaden.
 1. Controleer of het downloaden begint.
 
-### Test 6: Inhoud zoeken
+### Testen 6: inhoud zoeken
 
 Test de volgende eindpunten: /search
 
@@ -990,7 +991,7 @@ Test de volgende eindpunten: /search
 1. Voer een zoekopdracht uit vanuit het modaal.
 1. Controleer of de zoekresultaten correct zijn.
 
-### Test 7: Document van Workfront naar inhoudsbeheersysteem verzenden
+### Testen 7: document vanuit Workfront naar contentbeheersysteem verzenden
 
 Test de volgende eindpunten: /files, /uploadInit, /upload
 
@@ -998,29 +999,29 @@ Test de volgende eindpunten: /files, /uploadInit, /upload
 1. Een document vanaf uw computer uploaden naar Workfront
 1. Ga naar de pagina met documentdetails
 1. Selecteer in het vervolgkeuzemenu Documenthandelingen de documentservice onder Verzenden naar...
-1. Ga naar de gewenste doelmap en klik op de knop Opslaan.
+1. Ga naar de gewenste doelmap en klik op Opslaan.
 1. Controleer of het document naar de juiste locatie in het inhoudsbeheersysteem is geüpload.
 
-### Test 8: Miniaturen weergeven in Workfront
+### Testen 8: Miniaturen weergeven in Workfront
 
-Test de volgende eindpunten: /miniatuur
+Test de volgende eindpunten: /thumbnail
 
 1. Koppel een document aan Workfront.
 1. Selecteer het document in de lijst.
 1. Controleer of de miniatuur in het rechterdeelvenster wordt weergegeven.
 
-### Test 9: De inhoudbytes ophalen
+### Testen 9: De bytes van de inhoud ophalen
 
 Test de volgende eindpunten: /download
 
 1. Koppel een document aan Workfront.
 1. Ga naar de pagina met documentdetails.
-1. Het document naar Workfront verzenden door Documenthandelingen > Verzenden naar te selecteren.. > Workfront. Hiermee wordt een nieuwe documentversie in Workfront gemaakt.
+1. Het document naar Workfront verzenden door Documenthandelingen > Verzenden naar.. > Workfront te selecteren. Hiermee wordt een nieuwe documentversie in Workfront gemaakt.
 1. Download het document vanuit Workfront door op de koppeling Downloaden te klikken.
 
-### Test 10: Toegangstoken vernieuwen (alleen OAuth2 Webhaak-providers)
+### Test 10: toegangstoken vernieuwen (alleen OAuth2 Webhaak-providers)
 
-Test de volgende eindpunten: URL van token-eindpunt
+Test de volgende eindpunten: Token Endpoint URL
 
 1. Verricht de dienst van Webhaak van het Document voor een gebruiker
 1. Maak het toegangstoken van de gebruiker ongeldig door 1 te wachten op time-out, of 2) het manueel ongeldig te maken in het externe systeem.
@@ -1028,7 +1029,7 @@ Test de volgende eindpunten: URL van token-eindpunt
 
 >[!NOTE]
 >
->De optie Verzenden naar.. is niet beschikbaar voor gekoppelde documenten. Dit wordt door Workfront toegevoegd. U kunt het /download eindpunt testen door het eindpunt manueel te raken gebruikend een cliënt REST, zoals Postman. Alternatief, kan het /download eindpunt worden getest door een digitaal bewijs te produceren. Neem contact op met Workfront om digitale proefdrukken in te schakelen.
+>De optie Verzenden naar is momenteel niet beschikbaar voor gekoppelde documenten.. Dit wordt door Workfront toegevoegd. U kunt het /download eindpunt testen door het eindpunt manueel te raken gebruikend een cliënt REST, zoals Postman. Alternatief, kan het /download eindpunt worden getest door een digitaal bewijs te produceren. Neem contact op met Workfront om digitale proefdrukken in te schakelen.
 
 ## Versies
 

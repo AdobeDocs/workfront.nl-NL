@@ -5,8 +5,9 @@ title: JWT-stroom gebruiken voor aangepaste OAuth 2-toepassingen
 description: JWT-stroom gebruiken voor aangepaste OAuth 2-toepassingen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -37,8 +38,8 @@ Als u de openbare sleutel wilt genereren, gaat u **één** van de volgende punte
 
 * Open uw MacOS/Linux-terminal en voer de volgende opdracht uit. Upload vervolgens `certificate_pub.crt` met de **Openbare sleutel toevoegen** in de OAuth2-toepassingsinstellingen in Workfront.
 
-   <!-- [Copy](javascript:void(0);) -->
-   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
+  <!-- [Copy](javascript:void(0);) -->
+  <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
 * Gebruik de **Een openbaar/privé-sleutelpaar genereren** in de OAuth2 toepassingsopstelling in Workfront om RSA te produceren.
 
@@ -54,7 +55,7 @@ De volgende lijst bevat informatie over gebieden die kunnen worden vereist wanne
  <tbody> 
   <tr> 
    <td role="rowheader">exp</td> 
-   <td> <p>Vereist. De vervalparameter is een vereiste parameter die de absolute tijd vanaf 01/01/1970 GMT meet. U moet ervoor zorgen dat de vervaltijd later is dan het tijdstip van uitgifte. Na deze tijd is de JWT niet meer geldig. </p> <p>Opmerking: Wij adviseren dat u een zeer kortstondige token (een paar minuten) hebt, zodat het snel verloopt nadat het voor een toegangstoken is geruild. Telkens wanneer een nieuw toegangstoken wordt vereist, wordt één JWT ondertekend en geruild. Dit is een veiligere aanpak. We raden niet langer gebruikte tokens aan die opnieuw worden gebruikt om zo nodig toegangstokens te verkrijgen.</p> </td> 
+   <td> <p>Vereist. De vervalparameter is een vereiste parameter die de absolute tijd vanaf 01/01/1970 GMT meet. U moet ervoor zorgen dat de vervaltijd later is dan het tijdstip van uitgifte. Na deze tijd is de JWT niet meer geldig. </p> <p>Opmerking: we raden u aan een token met een korte levensduur (enkele minuten) te gebruiken, zodat het kort na de ruil verloopt voor een toegangstoken. Telkens wanneer een nieuw toegangstoken wordt vereist, wordt één JWT ondertekend en geruild. Dit is een veiligere aanpak. We raden niet langer gebruikte tokens aan die opnieuw worden gebruikt om zo nodig toegangstokens te verkrijgen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">is</td> 

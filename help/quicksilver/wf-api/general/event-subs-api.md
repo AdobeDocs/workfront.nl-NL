@@ -1,12 +1,13 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Event Subscription API
-description: Event Subscription API
+title: API voor abonnementen voor gebeurtenissen
+description: API voor abonnementen voor gebeurtenissen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Event Subscription API
+# API voor abonnementen voor gebeurtenissen
 
 <!--BOB clean this up-->
 
@@ -67,7 +68,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Tijdschema
 * Gebruiker
 
-Voor een lijst met velden die worden ondersteund door gebeurtenisabonnementsobjecten raadpleegt u [Bronvelden voor abonnementen](../../wf-api/api/event-sub-resource-fields.md).
+Zie voor een lijst met velden die worden ondersteund door gebeurtenisabonnementsobjecten [Bronvelden voor abonnementen](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -76,7 +77,7 @@ Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement 
 * Een toegangsniveau van &quot;Beheerder van het Systeem&quot;wordt vereist om de Abonnementen van de Gebeurtenis te gebruiken.
 * A `sessionID`  header is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
-   Zie voor meer informatie [Verificatie](api-basics.md#authentication) in [API-basisbeginselen](api-basics.md).
+  Zie voor meer informatie [Verificatie](api-basics.md#authentication) in [API-basisbeginselen](api-basics.md).
 
 ## Het vormen van het Middel van het Abonnement
 
@@ -90,7 +91,7 @@ De abonnementsbron bevat de volgende velden.
 
    * **String** - De objCode van het voorwerp dat aan veranderingen wordt geabonneerd. De mogelijke waarden voor objCode worden in de onderstaande tabel weergegeven.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -234,10 +235,10 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Antwoordcode | Beschrijving |
 |---|---|
-| 201 (gemaakt) | Het gebeurtenisabonnement is gemaakt. |
+| 201 | Het gebeurtenisabonnement is gemaakt. |
 | 400 (Ongeldige aanvraag) | Het URL-veld van de abonnementsbron werd als ongeldig beschouwd. |
 | 401 (Niet-geautoriseerd) | De opgegeven sessionID is leeg of wordt als ongeldig beschouwd. |
-| 403 (Verboden) | De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet. |
+| 403 (verboden) | De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet. |
 
 Als u een abonnementsbron doorgeeft als de hoofdtekst van een aanvraag (waarbij het inhoudstype &#39;application/json&#39; is), wordt een gebeurtenisabonnement gemaakt voor het opgegeven object. Een antwoordcode van 201 (Gemaakt) geeft aan dat het abonnement is gemaakt. Een andere antwoordcode dan 201 betekent dat het abonnement **NOT** gemaakt.
 
@@ -256,14 +257,14 @@ Als u een abonnementsbron doorgeeft als de hoofdtekst van een aanvraag (waarbij 
 
 ## Abonnementen voor opvragen van gebeurtenissen
 
-Bij het opvragen van Workfront HTTP gebruikt u de methode GET. Er zijn twee manieren om te zoeken naar gebeurtenisabonnementen: Vraag door abonnement identiteitskaart (zie hieronder) of vraag alle gebeurtenisabonnementen.
+Bij het opvragen van Workfront HTTP gebruikt u de methode GET. Er zijn twee manieren om te zoeken naar gebeurtenisabonnementen: query op abonnement-id (zie hieronder) of vraag naar alle gebeurtenisabonnementen.
 
 ### Query uitvoeren op alle abonnementen voor gebeurtenissen
 
 U kunt alle gebeurtenissenabonnementen voor een klant vragen, of het volgende gebruiken om de reactie te beheren. U kunt ook de volgende opties gebruiken om de reactie te beheren:
 
-* **page**: de optie van de vraagparameter om het aantal pagina&#39;s te specificeren om terug te keren. De standaardwaarde is 1.
-* **limiet**: optie van de vraagparameter om het aantal resultaten te specificeren om per pagina terug te keren. De standaardwaarde is 100 met een maximum van 1000.
+* **page**: optie voor queryparameter om op te geven hoeveel pagina&#39;s moeten worden geretourneerd. De standaardwaarde is 1.
+* **limiet**: optie voor queryparameter om het aantal resultaten op te geven dat per pagina moet worden geretourneerd. De standaardwaarde is 100 met een maximum van 1000.
 
 De aanvraagsyntaxis voor het aanbieden van alle gebeurtenisabonnementen voor een specifieke klant is als volgt:
 
@@ -298,14 +299,14 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Antwoordcode | Beschrijving |
 |---|---|
-| 200 (OK) | Het verzoek is geretourneerd met alle gebeurtenisabonnementen die zijn gevonden voor de klant die overeenkomt met de opgegeven sessionID. |
+| 200 | Het verzoek is geretourneerd met alle gebeurtenisabonnementen die zijn gevonden voor de klant die overeenkomt met de opgegeven sessionID. |
 | 401 (Niet-geautoriseerd) | De opgegeven sessionID is leeg. |
-| 403 (Verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
+| 403 (verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
 **Voorbeeld van responsheaders:**
 
-| Reactieheader | Voorbeeld |
+| Reactiekoptekst | Voorbeeld |
 |---|---|
 | Inhoudstype | `→application/json;charset=UTF-8` |
 | Datum | `→Wed, 05 Apr 2017 21:29:32 GMT` |
@@ -391,9 +392,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 | Antwoordcode | Beschrijving |
 |---|---|
-| 200 (OK) | Het verzoek is geretourneerd met het gebeurtenisabonnement dat overeenkomt met de opgegeven abonnement-id. |
+| 200 | Het verzoek is geretourneerd met het gebeurtenisabonnement dat overeenkomt met de opgegeven abonnement-id. |
 | 401 (Niet-geautoriseerd) | De opgegeven sessionID is leeg. |
-| 403 (Verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
+| 403 (verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
 **Voorbeeld van reactiebody:**
@@ -419,13 +420,14 @@ Filteren met gebeurtenisabonnementen kan worden gebruikt om ervoor te zorgen dat
 Een **BIJWERKEN - TAAK** gebeurtenisabonnement kan alleen worden geactiveerd wanneer de **newState** van een gebeurtenislading bepaalt **taskStatus** als **huidig**.
 
 >[!IMPORTANT]
+>
 De volgende kenmerken zijn van toepassing op het filteren van gebeurtenisabonnementen
 
 * Wanneer een filterveld een niet-lege waarde heeft, alleen berichten met een **newState** met de filtersleutels en -waarden worden naar de geabonneerde URL verzonden
 * U kunt filteren op aangepaste gegevens die zijn opgenomen in het dialoogvenster **newState** EN/OF **oldState** van het object
 * Filters worden alleen beoordeeld op het feit of ze al dan niet gelijk zijn aan een specifieke waarde
 * Als de filtersyntaxis onjuist is of niet overeenkomt met de gegevens in het dialoogvenster **newState** van de lading, zal een bevestigingsbericht niet zijn teruggekeerd om erop te wijzen dat een fout is voorgekomen
-* Filters kunnen niet worden bijgewerkt op een abonnement dat momenteel bestaat. er moet een nieuw abonnement worden gemaakt met nieuwe filterparameters .
+* Filters kunnen niet worden bijgewerkt op een abonnement dat momenteel bestaat. Een nieuw abonnement moet worden gemaakt met nieuwe filterparameters.
 * Er kunnen meerdere filters worden toegepast op één abonnement en het abonnement wordt alleen geleverd als aan alle filtervoorwaarden is voldaan.
 * Het toepassen van meerdere filters op één abonnement staat gelijk aan het gebruik van een **EN** logische operator.
 * Meerdere gebeurtenisabonnementen kunnen op één object worden toegepast zolang er een of meer parameters voor het abonnementsveld voor gebeurtenissen verschillen tussen de abonnementen voor elke gebeurtenis.
@@ -455,7 +457,7 @@ Met dit filter kunnen berichten worden doorlopen als de wijziging die is opgetre
 }
 ```
 
-#### ne: niet gelijk aan
+#### ne: niet gelijk
 
 Met dit filter kunnen berichten worden weergegeven als de wijziging die is opgetreden niet overeenkomt `fieldValue` in het filter. De `fieldValue` waarde is hoofdlettergevoelig.
 
@@ -580,6 +582,7 @@ Met dit filter kunnen berichten doorkomen als de wijziging die zich heeft voorge
 Met dit filter kunnen alleen berichten worden weergegeven als het opgegeven veld (`fieldName`) heeft een andere waarde in de oude en de nieuwe staat. Andere velden bijwerken naast het opgegeven veld (`fieldName`) retourneert deze wijziging niet.
 
 >[!NOTE]
+>
 `fieldValue` in de array filters hieronder heeft geen effect.
 
 ```
@@ -604,6 +607,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 `oldState` is niet mogelijk op CREATE `eventTypes`.
 
 >[!NOTE]
+>
 Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` op de `oldState`, wat het was voordat er een update van de taak werd uitgevoerd.
 Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
@@ -626,7 +630,7 @@ Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van �
 
 ### Verbindingsvelden gebruiken
 
-De `filterConnector` in het veld voor de abonnementspayload kunt u kiezen hoe de filters moeten worden toegepast. De standaardwaarde is &quot;AND&quot;, waarbij alle filters moeten zijn ingesteld op `true` voor het abonnementsbericht om door te komen. Als &quot;OR&quot; is opgegeven, mag het abonnementsbericht slechts door één filter worden doorgestuurd.
+De `filterConnector` in het veld voor de abonnementspayload kunt u kiezen hoe de filters moeten worden toegepast. De standaardwaarde is &quot;AND&quot;, waarbij alle filters moeten zijn ingesteld op `true` voor het abonnementsbericht om door te komen. Als &quot;OR&quot; is opgegeven, moet slechts één filter overeenkomen voor het abonnementsbericht dat wordt doorgestuurd.
 
 ```
 {
@@ -652,7 +656,7 @@ De `filterConnector` in het veld voor de abonnementspayload kunt u kiezen hoe de
 
 ## Gebeurtenisabonnementen verwijderen
 
-Bij het verwijderen van Workfront HTTP gebruikt u de methode DELETE. De aanvraagsyntaxis voor het verwijderen van één gebeurtenisabonnement op basis van abonnement-id is als volgt:
+Bij het verwijderen van Workfront HTTP gebruikt u de methode DELETE. De aanvraagsyntaxis voor het verwijderen van één gebeurtenisabonnement op basis van abonnement-id ziet er als volgt uit:
 
 **Aanvraag-URL:**
 
@@ -702,11 +706,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
    <td>De opgegeven sessionID is leeg.</td> 
   </tr> 
   <tr> 
-   <td>403 (Verboden)</td> 
+   <td>403 (verboden)</td> 
    <td>De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet.</td> 
   </tr> 
   <tr> 
-   <td>404 (niet gevonden)</td> 
+   <td>404</td> 
    <td>De server kan geen gebeurtenisabonnement vinden dat overeenkomt met de abonnement-id die is opgegeven voor verwijdering.</td> 
   </tr> 
  </tbody> 
@@ -714,13 +718,13 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 **Voorbeeld van responsheaders:**
 
-| Reactieheader | Voorbeeld |
+| Reactiekoptekst | Voorbeeld |
 |---|---|
 | Datum | `→Wed, 05 Apr 2017 21:33:41 GMT` |
 | Server | `→Apache-Coyote/1.1` |
 
 
-**Voorbeeld van reactiebody:** N.v.t.
+**Voorbeeld van reactiebody:** NVT
 
 ## Voorbeelden van gebeurtenistaken
 
@@ -851,7 +855,7 @@ Hier volgt een voorbeeld van een payload voor een CREATE-gebeurtenis:
 
 Als een gebeurtenisabonnement wegens een conflict tussen speciale karakters in uw gebeurtenisabonnementen en uw netwerkmontages wordt verworpen, dan kunt u het coderen Base64 gebruiken om uw gebeurtenisabonnementen over te gaan. Base64 is een reeks coderingsregelingen die om het even welke willekeurige gegevens in een formaat van het koord van ASCII kunnen omzetten. Het is belangrijk om op te merken dat Base64 geen vorm van veiligheidsencryptie is.
 
-### Basis 64-coderingsveld
+### Base 64 Encoding Field
 
 Het base64Encoding-veld is een optioneel veld dat wordt gebruikt om Base64-codering van gebeurtenisabonnementsladingen in te schakelen. De standaardwaarde is false en de mogelijke waarden zijn: true, false en &quot; &quot; (leeg).
 
@@ -891,7 +895,7 @@ Hieronder ziet u een voorbeeld van een aanvraag die het veld base64Encoding gebr
  
 ```
 
-## Vervangen methode voor het opvragen van alle abonnementen op gebeurtenissen
+## Verouderde methode voor het opvragen van alle abonnementen op gebeurtenissen
 
 Het volgende API eindpunt is afgekeurd en zou niet voor nieuwe implementaties moeten worden gebruikt. Wij adviseren ook overgangen oude implementaties aan de methode in **Abonnementen voor opvragen van gebeurtenissen** hierboven beschreven.
 
@@ -943,7 +947,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
    <td>De opgegeven sessionID is leeg.</td> 
   </tr> 
   <tr> 
-   <td>403 (Verboden)</td> 
+   <td>403 (verboden)</td> 
    <td>De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet.</td> 
   </tr> 
  </tbody> 

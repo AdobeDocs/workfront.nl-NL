@@ -5,10 +5,11 @@ title: Nieuw in API-versie 10
 description: Bijgewerkte bronnen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -25,18 +26,18 @@ ht-degree: 0%
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |   | TOEVOEGEN |
+|   |   |   |   |   |   | ADD |
 |   |   |   |   |   |   | TELLEN |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | ZOEKEN |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntry
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | TOEVOEGEN |
+| ID |   |   |   |   |   | ADD |
 |   |   |   |   |   |   | TELLEN  |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | BEWERKEN  |
@@ -44,7 +45,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | RAPPORT  |
 |   |   |   |   |   |   | ZOEKEN |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
@@ -55,13 +56,13 @@ ht-degree: 0%
 |   |   |   |   |   |   | RAPPORT  |
 |   |   |   |   |   |   | ZOEKEN  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | TOEVOEGEN |
+| ID |   |   |   |   |   | ADD |
 |   |   |   |   |   |   | TELLEN |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | BEWERKEN  |
@@ -69,7 +70,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | RAPPORT  |
 |   |   |   |   |   |   | ZOEKEN  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
@@ -83,13 +84,13 @@ ht-degree: 0%
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### UserHomeCalendarPreference
+### UserHomeCalendarPreferences
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| customerID | klant |   |   |   |   | TOEVOEGEN |
+| customerID | klant |   |   |   |   | ADD |
 | edTime | user |   |   |   |   | TELLEN |
 | firstDayOfWeek |   |   |   |   |   | DELETE |
 | ID |   |   |   |   |   | BEWERKEN |
@@ -98,7 +99,7 @@ ht-degree: 0%
 | userID |   |   |   |   |   | ZOEKEN |
 | workDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Bijgewerkte bronnen**
 
@@ -112,7 +113,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront A
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetedCost  |   |   |   |   |   |   |
@@ -120,20 +121,20 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront A
 | projectRoi  |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### Toewijzing
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| assignPercent `¹` |   |   |   |   |   |   |
+| toewijzingspercentage `<sup>1</sup>` |   |   |   |   |   |   |
 | viewByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`added validator LESS_THAN_EQUAL
+`<sup>1</sup>`added validator LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -141,7 +142,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront A
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -149,11 +150,11 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront A
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| name `¹` |   |   |   |   |   |   |
+| name `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
 ### DocMetadataLinkGroup
 
@@ -161,36 +162,36 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront A
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Document
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocumentRequest
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DocumentVersion
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
 Kosten
 
@@ -198,7 +199,7 @@ Kosten
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Groep
 
@@ -207,44 +208,44 @@ Kosten
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
 ### OpTask
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Type gewijzigd van null in Boolean
+<sup>1</sup> Type gewijzigd van null in Boolean
 
 ### PortalSection
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Portfolio
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
+| portfolioNetValue |   |   |   |  |  |   |
 | portfolioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Project
 
@@ -255,25 +256,25 @@ Kosten
 | projectRoi |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Goedkeuring proef
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| fiatteurDecision |  |  |  |  |  |  |
+| fiatteurDecision |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Snelheid
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ bijgewerkte VALUTA voor validatie
+<sup>1</sup>added validator CURRENCY
 
 ### Taak
 
@@ -283,7 +284,7 @@ Kosten
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -291,11 +292,11 @@ Kosten
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ added validator LESS_THAN
+<sup>1</sup> added validator LESS_THAN
 
 ### TeamAssignment
 
@@ -303,7 +304,7 @@ Kosten
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TeamTask
 
@@ -311,7 +312,7 @@ Kosten
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tijdschema
 
@@ -319,17 +320,17 @@ Kosten
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Bijwerken
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ verandert in possibleValues
+<sup>1</sup> wijzigingen in possibleValues
 
 ### Gebruiker
 
@@ -337,29 +338,29 @@ Kosten
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventType <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ verandert in possibleValues
+<sup>1</sup> wijzigingen in possibleValues
 
 ### Werk
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval ¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Type gewijzigd van null in Boolean
+<sup>1</sup> Type gewijzigd van null in Boolean
 
 ## Verwijderde bronnen {#removed-resources}
 
@@ -367,7 +368,7 @@ Kosten
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| assignDate |   |   |   |   |   | TOEVOEGEN  |
+| assignDate |   |   |   |   |   | ADD  |
 | budgetedHours |   |   |   |   |   | TELLEN  |
 | ID |   |   |   |   |   | DELETE  |
 | scheduledBudgetedHours |   |   |   |   |   | BEWERKEN  |
@@ -375,7 +376,7 @@ Kosten
 | roleID |   |   |   |   |   | RAPPORT  |
 | userID |   |   |   |   |   | ZOEKEN |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

@@ -5,10 +5,11 @@ title: Updates voor API versie 8
 description: 'De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Zie Nieuwe functies in API-versie 8 voor informatie over de bronnen die nieuw zijn voor versie 8. Wijzigingen in een bron worden als volgt aangegeven: BEWERK ME.'
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -27,38 +28,38 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| Actie¹  |   |   |   |   |   |   |
+| action<sup>1</sup>  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
-### AccessRule¹ 
+### AccessRule<sup>1</sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| forbiddenActions² |   |   |   |   |   |   |
-| secundairActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secundairActions<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ vlag verwijderd: RAPPORTAGE\
-² Wijzigingen in mogelijke waarden
+<sup>1</sup> Markering verwijderd: RAPPORTABLE\
+<sup>2</sup> Wijzigingen in mogelijke waarden
 
 ### Goedkeuring
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden\
-・Vlaggen toegevoegd: DYNAMIC, LAZY_READ en NOT_GROUPABLE
+<sup>1</sup>Wijzigingen in mogelijke waarden\
+<sup>2</sup>Toegevoegde markeringen: DYNAMIC, LAZY_READ en NOT_GROUPABLE
 
 ### Toewijzing
 
@@ -68,38 +69,38 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Klant
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Klantvoorkeuren
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| name¹ |   |   |   |   |   |   |
+| name<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### DocumentApproval
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-³ Markering toegevoegd: NOT_FILTERABLE
+<sup>1</sup>Markering toegevoegd: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -107,7 +108,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 | activeProofStage |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Groep
 
@@ -115,17 +116,17 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 |   |   | eigenaars |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-³ Markering toegevoegd: NOT_FILTERABLE
+<sup>1</sup>Markering toegevoegd: NOT_FILTERABLE
 
 ### Iteratie
 
@@ -133,7 +134,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### leuk
 
@@ -141,61 +142,61 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Opmerking
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### OpTask
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | herhaling |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | schatten |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Portfolio
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Programma
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Project
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjecten |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjecten |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Goedkeuring proef
 
@@ -203,23 +204,23 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 | fiatverID | fiatteur |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-³ Markering toegevoegd: NOT_FILTERABLE
+<sup>1</sup>Markering toegevoegd: NOT_FILTERABLE
 
 ### QueueDef
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| aanvragerCoreAction¹ |   |   |   |   |   |   |
-| requestorForbiddenActions¹ |   |   |   |   |   |   |
+| aanvragerCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Snelheid
 
@@ -229,7 +230,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 | name |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ReservedTime
 
@@ -237,7 +238,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceManager
 
@@ -245,19 +246,19 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Taak
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Team
 
@@ -269,7 +270,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 | teamStoryBoardIssueStatuses |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Sjabloon
 
@@ -277,27 +278,27 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TemplateTask
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 Bijwerken
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Gebruiker
 
@@ -307,7 +308,7 @@ Bijwerken
 |   |   | usergroups |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -315,22 +316,22 @@ Bijwerken
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup>Wijzigingen in mogelijke waarden
 
 ### Werk
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden\
-・Vlaggen toegevoegd: DYNAMIC, LAZY_READ en NOT_GROUPABLE
+<sup>1</sup>Wijzigingen in mogelijke waarden\
+<sup>2</sup>Toegevoegde markeringen: DYNAMIC, LAZY_READ en NOT_GROUPABLE

@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nieuw in API-versie 15
+title: Nieuwe functies in API-versie 15
 description: Adobe Workfront heeft API-versie 14 uitgebracht op 14 juni 2022. API-versie 15 bevat de volgende wijzigingen ten opzichte van versie 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 0%
 
 ---
 
-# Nieuw in API-versie 15
+# Nieuwe functies in API-versie 15
 
 Adobe Workfront heeft API-versie 15 uitgebracht op 14 juni 2022. API-versie 15 bevat de volgende wijzigingen ten opzichte van versie 14.
 
@@ -35,7 +36,7 @@ Adobe Workfront heeft API-versie 15 uitgebracht op 14 juni 2022. API-versie 15 b
 
 Het object Initiative maakt in de Workfront Scenario Planner ramingen voor het soort en het aantal functies, de vaste kosten en het geplande voordeel.
 
-Voor meer informatie over initiatieven raadpleegt u [Overzicht van initiatieven in het scenario Planner](../../scenario-planner/initiatives-overview.md).
+Zie voor meer informatie over initiatieven [Overzicht van initiatieven in het scenario Planner](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -508,7 +509,7 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>TOEVOEGEN</b>
+            <p><b>ADD</b>
             </p>
           </li>
           <li>
@@ -551,7 +552,7 @@ Er zijn geen bronnen verwijderd voor API-versie 15.
 
 * [AccessRule (ACSRUL)](#AccessRu)
 
-* [Goedkeuring (GOEDKEURING)](#Approval)
+* [Goedkeuring (goedkeuring)](#Approval)
 
 * [Categorie (CTGY)](#Category)
 
@@ -573,7 +574,7 @@ Er zijn geen bronnen verwijderd voor API-versie 15.
 
 * [Parameter (PARAM)](#Paramete)
 
-* [Portfolio (POORT)](#Portfoli)
+* [Portfolio (HAVEN)](#Portfoli)
 
 * [Programma (PRGM)](#Program)
 
@@ -597,7 +598,7 @@ Er zijn geen bronnen verwijderd voor API-versie 15.
 
 * [UserNote (USRNOT)](#UserNote)
 
-* [Werk (WERKEN)](#Work)
+* [Werken (WERKEN)](#Work)
 
 ### AccessLevel (ACSLVL)
 
@@ -778,7 +779,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
   </tbody>
 </table>
 
-### Goedkeuring (GOEDKEURING)
+### Goedkeuring (goedkeuring)
 
 Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen vereisen dat een supervisor of een andere gebruiker weg op het het werkpunt ondertekent. Een voorwerp van de Goedkeuring vertegenwoordigt de actie van het ondertekenen van op een het werkpunt.
 
@@ -1228,7 +1229,7 @@ Een object Parameter is een aangepast veld.
   </tbody>
 </table>
 
-### Portfolio (POORT)
+### Portfolio (HAVEN)
 
 Een object Portfolio is een verzameling projecten die concurreren om dezelfde bronnen, meestal geld of mensen om deze te voltooien.
 
@@ -1360,7 +1361,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het gebied van de Desk van de Hulp is gepubliceerd om gebruikers toe te staan om kwesties aan het voor te leggen.
 
-Voor meer informatie over de Queuges van het Verzoek, zie [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table>
   <col/>
@@ -1404,7 +1405,7 @@ Voor meer informatie over de Queuges van het Verzoek, zie [Een aanvraagwachtrij 
 
 ### ScoreCardQuestion (SCOREQ)
 
-Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
+Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van het Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
 Voor meer informatie over Scorecard-vragen raadpleegt u [Een scorecard maken](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -1649,7 +1650,7 @@ Een object UserNote is een melding.
   </tbody>
 </table>
 
-### Werk (WERKEN)
+### Werken (WERKEN)
 
 Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als OpTask erft, en gemeenschappelijke code tussen twee deelt.
 

@@ -5,8 +5,9 @@ title: Wanneer APIModel INTERNAL (OpTask)Categorie van het gebied niet steunt
 description: Wanneer APIModel INTERNAL geen gebied geprojecteerd steunt (OpTask)
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -16,8 +17,8 @@ ht-degree: 0%
 
 # Categorie
 
-Veldklasse: &quot;java.lang.IllegalArgumentException&quot;,\
-bericht: &quot;APIModel INTERNAL steunt geen gebied projectid (OpTask)&quot;
+FieldSclass: &quot;java.lang.IllegalArgumentException&quot;,\
+bericht: &quot;APIModel INTERNAL ondersteunt geen field projectid (OpTask)&quot;
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -121,7 +122,7 @@ bericht: &quot;APIModel INTERNAL steunt geen gebied projectid (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdatedByID&quot;}"><strong>lastUpdatedByID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Updated By ID&quot;}">Laatst bijgewerkt op ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">ID van de laatste gebruiker die het object heeft bijgewerkt</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">Id van laatste gebruiker die het object moet bijwerken</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">Niet gegroepeerd</span> </p> </td> 
   </tr> 

@@ -6,8 +6,9 @@ title: OAuth2-tokens ophalen
 description: OAuth2-tokens ophalen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Keert OAuth2 terug verfrist teken en toegangstoken voor een voor authentiek verk
 
 **URL**
 
-POST/om het even welk/url
+POST/alle URL&#39;s
 
 URL is configureerbaar en beantwoordt aan de Symbolische waarde van URL van het Eindpunt op de pagina van de Opstelling van de douanevertegratie.
 
@@ -49,7 +50,7 @@ URL is configureerbaar en beantwoordt aan de Symbolische waarde van URL van het 
   <tr>
    <td>code</td>
    <td>afhankelijk</td>
-   <td><p>De machtigingscode die naar Adobe Workfront wordt verzonden vlak nadat de gebruiker op de knop "Grant" klikt. Dit is alleen vereist wanneer het subsidietype "authentication_code" is. De toelatingscode moet van korte duur zijn, die gewoonlijk over 10 minuten of minder afloopt.</p></td>
+   <td><p>De machtigingscode die naar Adobe Workfront wordt verzonden vlak nadat de gebruiker op de knop "Grant" klikt. Dit is alleen vereist wanneer het subsidietype "authentication_code" is. De toelatingscode moet van korte duur zijn, gewoonlijk aflopend binnen 10 minuten of minder.</p></td>
   </tr>
   <tr>
    <td>refresh_token</td>

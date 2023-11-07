@@ -5,8 +5,9 @@ title: Aflopende ondersteuning voor JSONP
 description: Aflopende ondersteuning voor JSONP
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 681336c2-2f41-4746-8cba-be077f556742
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Als u JSONP als deel van om het even welk van uw integratie van Workfront gebrui
 
    >[!NOTE]
    >
-   >Het toevoegen van domeinen aan de lijst van gewenste personen voor CORS wordt gesteund slechts voor klanten die JSONP voorafgaand aan 1 Augustus 2018 gebruikten.
+   >Het toevoegen van domeinen aan de lijst van gewenste personen voor CORS wordt gesteund slechts voor klanten die JSONP voorafgaand aan 1 Augustus, 2018 gebruikten.
 
 
 1. Breng wijzigingen aan in uw integratiecode om CORS te gebruiken.

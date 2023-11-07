@@ -5,8 +5,9 @@ title: Geef een API-versie op in uw integratie
 description: Geef een API-versie op in uw integratie
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Zorg ervoor dat al uw integratieaanroepen momenteel ondersteunde Workfront API&#
 
 Nieuwe versies van de API worden regelmatig uitgebracht, meestal twee keer per jaar. Elke versie wordt ondersteund gedurende drie jaar na de releasedatum, met een extra jaar in een vervangen toestand waarin de versie beschikbaar maar niet ondersteund is.
 
-Zie voor meer informatie over het schema voor het afbreken en afbreken van de release van Workfront API&#39;s [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
+Zie voor meer informatie over het schema voor het afbreken en afgekeuren van Workfront API&#39;s [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
 
 >[!IMPORTANT]
 >

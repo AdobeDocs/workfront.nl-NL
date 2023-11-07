@@ -5,10 +5,11 @@ title: Updates voor API versie 9
 description: Bijgewerkte bronnen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 ## Bijgewerkte bronnen
 
-De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Als u de bronnen wilt bekijken die nieuw zijn voor versie 9, gaat u naar [Nieuw in API-versie 9](../../wf-api/api/new-api-version-9.md) en [Nieuwe functies in API-versie 9 (vervolg)](../../wf-api/api/new-api-version-9-continue.md). Wijzigingen in een bron worden als volgt aangegeven:
+De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Als u de nieuwe bronnen van versie 9 wilt bekijken, gaat u naar [Nieuw in API-versie 9](../../wf-api/api/new-api-version-9.md) en [Nieuwe functies in API-versie 9 (vervolg)](../../wf-api/api/new-api-version-9-continue.md). Wijzigingen in een bron worden als volgt aangegeven:
 
 * Toevoegingen worden gewoon vermeld
 * Verwijderingen worden aangegeven met doorhalingstekst
@@ -27,13 +28,13 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `opTaskID`<sup>2</sup> |  |  |  |  |  |  |
-| `taskID`<sup>2</sup> |  |  |  |  |  |  |
+| `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
+| `taskID`<sup>2</sup> |   |   |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ vlag verwijderd: RAPPORTAGE\
-² Markering verwijderd: NOT_GROUPABLE
+<sup>1</sup> Markering verwijderd: RAPPORTABLE\
+<sup>2</sup> Markering verwijderd: NOT_GROUPABLE
 
 ### Goedkeuring
 
@@ -41,20 +42,20 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Toewijzing
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `assignUserToRoleOnTasks`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnTasks`<sup>1</sup> |  |  |
+| |   |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `assignUserToRoleOnTasks`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnTasks`<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ veld: lockToRole
+<sup>1</sup> Toegevoegd veld: lockToRole
 
 ### Klantvoorkeuren
 
@@ -62,127 +63,127 @@ Toewijzing
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
 ### Uur
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `days` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `days` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Iteratie
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `moveIssues` |  |  |
+|   |   |   |   | `moveIssues` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LayoutTemplates
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Opmerking
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `html` |  |  |  |  |  |  |
-| `json` |  |  |  |  |  |  |
-| `richTextNoteID` |  |  |  |  |  |  |
+| `html` |   |   |   |   |   |   |
+| `json` |   |   |   |   |   |   |
+| `richTextNoteID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### OpTask
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `color` | `agileWork` |  |  | `convertToProject` |  |  |
-| `isReady` |  |  |  | `convertToTask` |  |  |
-| `storyBoardOrder` |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+| `color` | `agileWork` |   |   | `convertToProject` |   |   |
+| `isReady` |   |   |   | `convertToTask` |   |   |
+| `storyBoardOrder` |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceBudget
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `ID` |  |  |  |  |  |  |
+| `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ vlag verwijderd: RAPPORTAGE
+<sup>1</sup> Markering verwijderd: RAPPORTABLE
 
 ### Schema
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `homeGroupID` | `homeGroup` |  |  |  |  |  |
+| `homeGroupID` | `homeGroup` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Taak
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  | `agileWork` |  |  | `convertToProject` |  |  |
-|  |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+|   | `agileWork` |   |   | `convertToProject` |   |   |
+|   |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Team
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `includeIssues` |  |  |  |  |  |  |
+| `includeIssues` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TimesheetProfile
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIFilter
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `filtersForObjCode` |  |
+|   |   |   |   |   | `filtersForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIView
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `viewsForObjCode` |  |
+|   |   |   |   |   | `viewsForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gebruiker
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `logTimeInDays` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `logTimeInDays` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Werk
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `storyBoardOrder` | `agileWork` |  |  | `getWFHomeObjects` |  |  |
+| `storyBoardOrder` | `agileWork` |   |   | `getWFHomeObjects` |   |   |

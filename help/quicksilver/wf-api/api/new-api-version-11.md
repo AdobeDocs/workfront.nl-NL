@@ -5,8 +5,9 @@ title: Nieuw in API-versie 11
 description: ReportBudgedHour is toegevoegd aan de Adobe Workfront API als bron voor Rapportage. Het kenmerkt verwijzingsgebieden, kerngebieden, en standaardgebieden die in BudgetedHour afwezig zijn.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '3600'
 ht-degree: 0%
@@ -173,7 +174,7 @@ ReportBudgedHour is toegevoegd aan de Adobe Workfront API als bron voor Rapporta
    <td> 
     <ul> 
      <li> <p style="font-weight: bold;">assignDate </p> <p>De datum van de Toewijzing is de eerste dag (een Zondag) van de week waarvoor u de uren in de Planner van het Middel begroot.</p> </li> 
-     <li> <p style="font-weight: bold;">budgetedHours </p> <p>De begrote Uren zijn uren dat de middelmanager voor het werk begrotingen dat de middelen aan projecten moeten voltooien</p> </li> 
+     <li> <p style="font-weight: bold;">budgetedHours </p> <p>De begrote Uren zijn uren dat de middelmanager voor het werk begrotingen dat de middelen aan projecten moeten voltooien begrotingen</p> </li> 
      <li> <p style="font-weight: bold;">ID </p> <p>De unieke Workfront-id die is toegewezen aan een specifiek Te Rapporteren Boedgeted Hour-object.</p> </li> 
      <li style="font-weight: bold;">scheduledBudgetedHours </li> 
      <li> <p style="font-weight: bold;">projectID </p> <p>De unieke Workfront-id die aan een specifiek project is toegewezen.</p> </li> 
@@ -298,7 +299,7 @@ Een AccessLevelPermissions-object vertegenwoordigt een set machtigingen. Deze re
  <tbody> 
   <tr> 
    <td>Directe velden</td> 
-   <td> <p>In de volgende velden werd de mogelijke waarde BUDGETING_INFORMATIE toegevoegd. Dit staat gebruikers met toestemming toe om prioriteiten en begrotingstijden in de planner uit te geven.</p> 
+   <td> <p>In de volgende velden werd de mogelijke waarde BUDGETING_INFORMATIE toegevoegd. Hierdoor kunnen gebruikers met toestemming prioriteiten en begrotingstijden in de planner bewerken.</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
@@ -320,7 +321,7 @@ Als een gebruiker in Workfront geen toegang heeft tot een object dat hij of zij 
    <td>Directe velden</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">action</p> <p>Toegevoegd de mogelijke waarde BUDGETING_INFORMATIE. Dit staat gebruikers met toestemming toe om prioriteiten en begrotingstijden in de planner uit te geven.  </p> </li> 
+     <li> <p style="font-weight: bold;">action</p> <p>Toegevoegd de mogelijke waarde BUDGETING_INFORMATIE. Hierdoor kunnen gebruikers met toestemming prioriteiten en begrotingstijden in de planner bewerken.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -336,7 +337,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
  <tbody> 
   <tr> 
    <td>Directe velden</td> 
-   <td> <p>In de volgende velden werd de mogelijke waarde BUDGETING_INFORMATIE toegevoegd. Dit staat gebruikers met toestemming toe om prioriteiten en begrotingstijden in de planner uit te geven.</p> 
+   <td> <p>In de volgende velden werd de mogelijke waarde BUDGETING_INFORMATIE toegevoegd. Hierdoor kunnen gebruikers met toestemming prioriteiten en begrotingstijden in de planner bewerken.</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
@@ -562,7 +563,7 @@ Een object Company vertegenwoordigt een organisatie die bestaat uit een verzamel
 
 ### Klant {#customer}
 
-Een object Customer vertegenwoordigt een organisatie die een instantie van Workfront gebruikt.
+Een object van de Klant vertegenwoordigt een organisatie die een instantie van Workfront gebruikt.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -615,7 +616,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
     <ul> 
      <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Toegevoegde mogelijke waarden:</p> 
       <ul> 
-       <li style="font-weight: normal;">password:password.eauthPolicy (Wachtwoordcomplexiteitseisen)</li> 
+       <li style="font-weight: normal;">password:password.eauthPolicy (Vereisten voor wachtwoordcomplexiteit)</li> 
        <li style="font-weight: normal;"> password:password.minimumLength (Minimale Wachtwoordlengte)</li> 
        <li style="font-weight: normal;">wachtwoord:mobileSessionTimeout (mobiele sessietime-out)</li> 
        <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff (User Time Off)</li> 
@@ -681,7 +682,7 @@ Een Iteration-object vertegenwoordigt één Agile Iteration. Herhalingen zijn di
    <td> <p>De volgende velden zijn toegevoegd aan het object Iteration.</p> 
     <ul> 
      <li style="font-weight: bold;">originalTotalPoints</li> 
-     <li style="font-weight: bold;">punten voltooid</li> 
+     <li style="font-weight: bold;">Voltooide punten</li> 
      <li style="font-weight: bold;">totalPoints  </li> 
     </ul> </td> 
   </tr> 
@@ -690,7 +691,7 @@ Een Iteration-object vertegenwoordigt één Agile Iteration. Herhalingen zijn di
 
 ### Lay-outsjabloon {#layout-template}
 
-Een object Layout Template vertegenwoordigt een bepaalde rangschikking van lay-outelementen, zoals het hoofdmenu, het navigatievenster of het gebied Home. Lay-outsjablonen kunnen worden toegewezen aan gebruikers, teams, groepen of taakrollen.
+Een object Layout Sjabloon vertegenwoordigt een bepaalde rangschikking van lay-outelementen, zoals het hoofdmenu, het navigatievenster of het gebied Home. Lay-outsjablonen kunnen worden toegewezen aan gebruikers, teams, groepen of taakrollen.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -948,7 +949,7 @@ Een voorwerp QueueDef vertegenwoordigt een Rij, die een Project is dat aan het g
  <tbody> 
   <tr> 
    <td>Directe velden</td> 
-   <td> <p>In de volgende velden werd de mogelijke waarde BUDGETING_INFORMATIE toegevoegd. Dit staat gebruikers met toestemming toe om prioriteiten en begrotingstijden in de planner uit te geven.</p> 
+   <td> <p>In de volgende velden werd de mogelijke waarde BUDGETING_INFORMATIE toegevoegd. Hierdoor kunnen gebruikers met toestemming prioriteiten en begrotingstijden in de planner bewerken.</p> 
     <ul> 
      <li style="font-weight: bold;">aanvragerCoreAction</li> 
      <li style="font-weight: bold;">requestorForbiddenActions</li> 
@@ -1056,7 +1057,7 @@ Een voorwerp ScheduledReport vertegenwoordigt een rapport dat is gevormd om voor
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
+Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van het Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1163,7 +1164,7 @@ Een voorwerp van het Malplaatje vertegenwoordigt een patroon voor een Project. P
    <td>Verzamelingsvelden</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>alle prioriteiten</p> <p style="font-weight: normal;">Toegevoegd</p> </li> 
+     <li style="font-weight: bold;"> <p>allePrioriteiten</p> <p style="font-weight: normal;">Toegevoegd</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1216,7 +1217,7 @@ Een voorwerp TemplateTask vertegenwoordigt een Taak die deel van een Malplaatje 
    <td>Verzamelingsvelden</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>alle prioriteiten</p> <p style="font-weight: normal;">Toegevoegd</p> </li> 
+     <li style="font-weight: bold;"> <p>allePrioriteiten</p> <p style="font-weight: normal;">Toegevoegd</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

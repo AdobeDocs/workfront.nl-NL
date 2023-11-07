@@ -6,8 +6,9 @@ title: Metagegevens ophalen voor een bestand of map
 description: Metagegevens ophalen voor een bestand of map
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -38,7 +39,7 @@ GET /metadata?id=[document- of map-id]
   <tr> 
    <td>id</td> 
    <td>De id van het bestand of de map, waarnaar wordt verwezen door de websiteprovider. Dit is anders dan de Adobe Workfront-document-id. Gebruik de waarde '/' om de metagegevens van de hoofdmap op te halen.
-   <p>Opmerking: De maximale lengte voor de id is 255 tekens.</p></td> 
+   <p>Opmerking: de id mag maximaal 255 tekens lang zijn.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +68,7 @@ GET /metadata?id=[document- of map-id]
   <tr> 
    <td>aardig </td> 
    <td>String </td> 
-   <td>Hiermee wordt opgegeven of dit item een bestand of map is ("bestand" of "map")</td> 
+   <td>Hiermee wordt opgegeven of dit item een bestand of map ('bestand' of 'map') is</td> 
   </tr> 
   <tr> 
    <td>id</td> 

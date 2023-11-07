@@ -5,8 +5,9 @@ title: API-foutbericht 400 Ongeldig verzoek
 description: API-foutbericht 400 Ongeldig verzoek
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# API-fout: &quot;De externe server heeft een fout geretourneerd (400) Onjuist verzoek&quot;
+# API-fout: &quot;De externe server heeft een fout geretourneerd (400): onjuiste aanvraag&quot;
 
 ## Probleem
 
@@ -28,6 +29,6 @@ Deze fout treedt op wanneer u via de API een aangepast veld probeert te importer
 
 ## Oplossing
 
-Voeg het correcte douaneformulier aan het Onderwerp van de Rij toe.
+Voeg de correcte douanevorm aan het Onderwerp van de Rij toe.
 
 Meer over de Onderwerpen van de Rij leren, zie [Werkvoorraadonderwerpen maken](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

@@ -5,13 +5,14 @@ title: Gekoppelde mappen worden niet ondersteund voor DOCU-object
 description: Gekoppelde mappen worden niet ondersteund voor DOCU-object
 author: Becky
 feature: Workfront API
-source-git-commit: 9bdc433158e471729bd27d701947d6ae41aa06e7
+role: Developer
+exl-id: 33b5a998-f3e1-42a2-852e-fb862d770d50
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Het gebruik van de API om een gekoppelde map toe te voegen, wordt niet ondersteund
 

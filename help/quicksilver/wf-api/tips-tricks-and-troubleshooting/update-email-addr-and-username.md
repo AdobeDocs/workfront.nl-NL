@@ -5,8 +5,9 @@ title: Bijwerken naar e-mailadres werkt de gebruikersnaam niet bij
 description: Bijwerken naar e-mailadres werkt de gebruikersnaam niet bij
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2d24d1b8-9504-484f-9cc0-d2f1abd6391a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -18,9 +19,9 @@ ht-degree: 0%
 
 ## Probleem
 
-Normaal gesproken `emailAddr` en `username` zijn hetzelfde kenmerk. Daarom als u een gebruiker verandert `emailAddr` kenmerk, de `username` kenmerk wordt automatisch bijgewerkt.
+Normaal gesproken, `emailAddr` en `username` zijn hetzelfde kenmerk. Daarom als u een gebruiker verandert `emailAddr` kenmerk, de `username` kenmerk wordt automatisch bijgewerkt.
 
-Wanneer de `username` komt niet overeen met de `emailAddr`, een update van de `emailAddr` werkt de `username` automatisch. Dit geldt voor beide `emailAddr` wijzigingen door de gebruikersinterface en via de API.
+Wanneer de `username` komt niet overeen met de `emailAddr`, en een update van de `emailAddr` werkt de `username` automatisch. Dit geldt voor beide `emailAddr` wijzigingen door de gebruikersinterface en via de API.
 
 ## Oorzaak
 

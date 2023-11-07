@@ -5,10 +5,11 @@ title: Nieuw in API-versie 6
 description: Nieuw in API-versie 6
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 0%
 
 ## Bijgewerkte objecten
 
-Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, verwijderingen hebben doorhaling, veranderingen in bestaand hebben een nota in bijlage na de lijst
+Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwijderingen zijn doorgehaald, wijzigingen in bestaande objecten hebben een gekoppelde notitie na de tabel
 
 ### Bijwerken
 
@@ -60,14 +61,14 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
-² hasFilters-kenmerk gewijzigd in true
+<sup>2</sup> hasFilters-kenmerk gewijzigd in true
 
  
 
@@ -76,16 +77,16 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Datum van validatie toegevoegd
+<sup>1</sup> Validatie van datum toegevoegd
 
-² NOT_FILTERABLE, markering toegevoegd
+<sup>2</sup> NOT_FILTERABLE, markering toegevoegd
 
  
 
@@ -93,9 +94,9 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 |   | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -105,15 +106,15 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
  
 
-### Goedkeuringspad¹
+### Goedkeuringspad<sup>1</sup>
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
@@ -126,13 +127,13 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | isPrivate |   |   |   |   |   | Zoeken |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Gewijzigd in Te Rapporteren
+<sup>1</sup> Gewijzigd in Te Rapporteren
 
-² Toegevoegde Max Length Validator
+<sup>2</sup> Validator voor Max. lengte toegevoegd
 
  
 
@@ -140,14 +141,14 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Datum van validatie toegevoegd
+<sup>1</sup> Datum van validatie toegevoegd
 
-² Niet_Filterbare vlag toegevoegd
+<sup>2</sup> Niet_filterbare vlag toegevoegd
 
  
 
@@ -159,7 +160,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |   |   |   |   | swapUsersOnProjecten |   |   |
 |   |   |   |   | unassignUserFromprojects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Niet_filterbare vlag toegevoegd
+<sup>1</sup> Niet_filterbare vlag toegevoegd
 
  
 
@@ -179,11 +180,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Niet_filterbare vlag toegevoegd
+<sup>1</sup> Niet_filterbare vlag toegevoegd
 
  
 
@@ -191,11 +192,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| factureringsdatum¹ |   |   |   |   |   |   |
+| factureringsdatum<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ added NO_TIME field flag
+<sup>1</sup> markering toegevoegd NO_TIME-veld
 
 ### Burndown-gebeurtenis 
 
@@ -204,7 +205,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +216,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -227,7 +228,7 @@ Aangepaste Enum 
 |   |   |   |   | isMogelijkToUnlockStatus | projectGroupStatuses |   |
 |   |   |   |   |   | taskGroupStatuses |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ Document 
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| rate¹ |   |   |   |   |   |   |
+| tarief<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Gewijzigde PRECISION-validator voor 8 t/m 9
+<sup>1</sup> Gewijzigde PRECISION-validator voor 8-9
 
  
 
@@ -260,7 +261,7 @@ Wisselkoers 
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,29 +269,29 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
  
 
-### Optask (Issue)¹ 
+### Optask (probleem)<sup>1</sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Met vlag HERSTELBAAR
+<sup>1</sup> Met vlag gemarkeerd als HERSTELBAAR
 
-² Niet_Filterbare vlag toegevoegd
+<sup>2</sup> Niet_filterbare vlag toegevoegd
 
  
 
-### Project¹ 
+### Project<sup>1</sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
@@ -301,28 +302,28 @@ Wisselkoers 
 | werk |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
+<sup>1</sup> Met vlag gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
 
-² Niet_Filterbare vlag toegevoegd
+<sup>2</sup> Niet_filterbare vlag toegevoegd
 
  
 
-### Taak¹
+### Taak<sup>1</sup>
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Met vlag HERSTELBAAR
+<sup>1</sup> Met vlag gemarkeerd als HERSTELBAAR
 
-² AT_DATE_YEAR_BEFORE validator added
+<sup>2</sup> AT_DATE_YEAR_BEFORE-validator toegevoegd
 
-³ Niet_Filterbare vlag toegevoegd
+<sup>3</sup> Niet_filterbare vlag toegevoegd
 
  
 
@@ -333,31 +334,31 @@ Wisselkoers 
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Template¹ 
+### Sjabloon<sup>1</sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
+<sup>1</sup> Met vlag gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
 
-### Sjabloontaak¹ 
+### Sjabloontaak<sup>1</sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Met vlag HERSTELBAAR
+<sup>1</sup> Met vlag gemarkeerd als HERSTELBAAR
 
-² Niet_Filterbare vlag toegevoegd
+<sup>2</sup> Niet_filterbare vlag toegevoegd
 
  
 
@@ -365,11 +366,11 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ MAX_LENGTH violators
+<sup>1</sup> MAX_LENGTH-overtreders
 
  
 
@@ -377,13 +378,13 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Mogelijke waarden gewijzigd
+<sup>1</sup> Mogelijke waarden gewijzigd
 
-² heeft filters gewijzigd in `[true]`
+<sup>2</sup> heeft filters Gewijzigd in `[true]`
 
  
 

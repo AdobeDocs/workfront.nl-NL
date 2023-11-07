@@ -5,7 +5,9 @@ title: Abonnementscertificaten voor gebeurtenissen
 description: Abonnementscertificaten voor gebeurtenissen
 author: Becky
 feature: Workfront API
-source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+role: Developer
+exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -63,7 +65,7 @@ server {
 }
 ```
 
-Zie voor meer informatie de [NGiNX-documentatie voor ngx_http_ssl_module](http://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Zie de klasse [NGiNX-documentatie voor ngx_http_ssl_module](http://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -92,17 +94,21 @@ Zie voor meer informatie
 
 ## Toewijzing certificaat aan omgeving
 
-| WF-omgeving | Algemene naam certificaat | Certificaatonderwerp (DN) | | — | — | — | | Productie | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com| | Voorbeeld | *.preview.eventSubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventSubscriptions.workfront.com | | Sandbox 1 | *.sandbox.eventSubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventSubscriptions.workfront.com | | Sandbox 2 | *.sandbox.eventSubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventSubscriptions.workfront.com |
+| WF-omgeving | Algemene naam certificaat | Certificaatonderwerp (DN) |
+| -- | -- | -- |
+| Productie | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
+| Voorvertoning | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
+| Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 
 ## Certificaten downloaden
 
 Klik op de volgende koppelingen om de clientcertificaten te downloaden.
 
-* [Clientcertificaat - productieomgeving](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_production.crt)
+* [Clientcertificaat - Productieomgeving](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_production.crt)
 * [Clientcertificaat - Voorvertoningsomgeving](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_preview.crt)
 * [Clientcertificaat - Sandbox-omgeving](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_sandboxes.crt)
 
 >[!NOTE]
 >
 >U kunt hetzelfde clientcertificaat gebruiken voor beide Sandbox-omgevingen.
-

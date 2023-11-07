@@ -5,8 +5,9 @@ title: Abonnementspogingen voor gebeurtenissen opnieuw proberen
 description: Abonnementspogingen voor gebeurtenissen opnieuw proberen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -35,7 +36,7 @@ In het volgende stroomschema ziet u de strategie voor het genereren van berichtl
 
 De volgende uitleg komt overeen met de stappen in het stroomschema:
 
-1. Bericht kan niet worden afgeleverd.
+1. Bericht kan niet worden bezorgd.
 1. Foutgegevens voor berichtlevering worden geregistreerd.
 
    Alle ontbroken pogingen om een bericht te leveren worden geregistreerd zodat het zuiveren kan worden uitgevoerd om de worteloorzaak van een bepaalde mislukking of een reeks mislukkingen te bepalen.

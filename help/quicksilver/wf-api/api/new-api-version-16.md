@@ -5,8 +5,9 @@ title: Nieuwe functies in API-versie 16
 description: Adobe Workfront heeft API-versie 16 uitgebracht op 6 april 2022. API-versie 16 bevat de volgende wijzigingen ten opzichte van versie 15.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%

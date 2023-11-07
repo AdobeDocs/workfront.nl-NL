@@ -6,8 +6,9 @@ title: Een gebruiker deactiveren via de API
 description: Een gebruiker deactiveren via de API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Voor informatie over het gebruik van de Core API raadpleegt u [Basisbeginselen v
 
 Een gebruiker deactiveren via de API:
 
-1. Een API-sleutel genereren met behulp van de volgende API-aanvraag:
+1. Genereer een API-sleutel met behulp van de volgende API-aanvraag:
 
 ```
 <domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
@@ -48,4 +49,4 @@ Een gebruiker deactiveren via de API:
 1. Uit het antwoord zal blijken dat de **isActive** veldwaarde is gewijzigd van **true** tot **false** die aangeeft dat de gebruiker is gedeactiveerd:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre></pre>
+<pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

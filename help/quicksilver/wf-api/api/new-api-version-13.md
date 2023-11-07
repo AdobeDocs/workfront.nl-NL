@@ -5,8 +5,9 @@ title: Nieuwe functies in API-versie 13
 description: Adobe Workfront heeft API-versie 13 uitgebracht op 22 april 2021. API-versie 13 bevat de volgende wijzigingen ten opzichte van versie 12.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -86,7 +87,7 @@ Voor meer informatie over toegangsniveaus, zie [Hoe de toegangsniveaus werken](.
 
 ### BreadCrumb {#breadcrumb}
 
-Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Workfront-werkitem. Broodkruimels wijzen erop hoe een het werkpunt in de grotere structuur van Portfolio, Projecten, Projecten, en Taken past.
+Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Workfront-werkitem. Broodkruimels wijzen erop hoe een het werkpunt in de grotere structuur van Portfolio&#39;s, Projecten, Projecten, en Taken past.
 
 Voor meer informatie over broodkruimels, zie [Overzicht van Broodkruimels in de nieuwe Adobe Workfront-ervaring](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -177,7 +178,7 @@ Zie voor meer informatie over documentversies [Een nieuwe versie van een documen
     <ul> 
      <li> <p><b>externalIntegrationType</b> </p> <p>Toegevoegde mogelijke waarde:</p> 
       <ul> 
-       <li> <p>AEM (Adobe Experience Manager)</p> </li> 
+       <li> <p>AEM, Adobe Experience Manager</p> </li> 
       </ul> </li> 
     </ul> 
     <ul> 
@@ -240,7 +241,7 @@ De middelen JournalEntry voegde de vlag toe RAPPORTABLE.
 
 Adobe Workfront-beheerders of groepsbeheerders kunnen sjablonen maken om de lay-outelementen in Adobe Workfront aan te passen. Het object LayoutTemplate is specifiek voor Adobe Workfront Classic.
 
-Voor het object dat lay-outsjablonen in de nieuwe Adobe Workfront-ervaring vertegenwoordigt, raadpleegt u [UITemplate](#uitemplate)
+Ga voor het object dat lay-outsjablonen in de nieuwe Adobe Workfront-ervaring vertegenwoordigt naar [UITemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -272,7 +273,7 @@ Voor meer informatie over Gekoppelde mappen raadpleegt u [Documenten van externe
     <ul> 
      <li> <p><b>externalIntegrationType</b> </p> <p>Toegevoegde mogelijke waarde:</p> 
       <ul> 
-       <li> <p>AEM (Adobe Experience Manager)</p> </li> 
+       <li> <p>AEM, Adobe Experience Manager</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -330,7 +331,7 @@ Een ProofApproval-object vertegenwoordigt een goedkeuring die rechtstreeks is ve
    <td> <p>De volgende gebieden werden toegevoegd aan het middel ProofApproval.</p> 
     <ul> 
      <li> <p><b>ApproverStage</b> </p> </li> 
-     <li> <p><b>DecisionDate</b> </p> </li> 
+     <li> <p><b>Beslissingsdatum</b> </p> </li> 
      <li> <p><b>workflowTemplate</b> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -341,7 +342,7 @@ Een ProofApproval-object vertegenwoordigt een goedkeuring die rechtstreeks is ve
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een Project is dat aan het gebied van de Helpdesk is gepubliceerd om gebruikers toe te staan om Kwesties aan het voor te leggen.
 
-Voor meer informatie over de Queuges van het Verzoek, zie [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -458,7 +459,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
 
 Adobe Workfront-beheerders of groepsbeheerders kunnen sjablonen maken om de lay-outelementen in Adobe Workfront aan te passen. Het UITemplate-object is specifiek voor de nieuwe Adobe Workfront-ervaring.
 
-Voor het object dat lay-outsjablonen in Adobe Workfront Classic vertegenwoordigt, raadpleegt u [LayoutTemplate](#layouttemplate).
+Ga voor het object dat lay-outsjablonen in Adobe Workfront Classic vertegenwoordigt naar [LayoutTemplate](#layouttemplate).
 
 <table style="table-layout:auto"> 
  <col> 

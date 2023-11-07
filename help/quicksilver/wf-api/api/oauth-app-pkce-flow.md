@@ -5,8 +5,9 @@ title: PKCE-stroom gebruiken voor OAuth 2-toepassingen
 description: PKCE-stroom gebruiken voor OAuth 2-toepassingen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -51,7 +52,7 @@ Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth
 
 ## Proefsleutel maken voor Codeuitwisseling
 
-Net als bij de standaardstroom van de machtigingscode, begint uw app met het doorsturen van de browser van de gebruiker naar de machtigingsserver `/authorize` eindpunt. In deze instantie moet u echter ook een code-uitdaging doorgeven.
+Net als bij de standaardworkflow voor machtigingscode, begint uw app met het doorsturen van de browser van de gebruiker naar de machtigingsserver `/authorize` eindpunt. In deze instantie moet u echter ook een code-uitdaging doorgeven.
 
 Uw eerste stap is het produceren van een code verificateur en uitdaging.
 
@@ -106,13 +107,13 @@ Als u de standaard Server van de Vergunning van de Douane gebruikt, dan zou uw v
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
-Noteer de parameters die worden doorgegeven:
+Maak een notitie van de parameters die worden doorgegeven:
 
 * `client_id` komt overeen met de client-id van de OAuth2-toepassing die u in de toepassing hebt gemaakt tijdens het configureren van de toepassing.
 
   Zie Een OAuth2-webtoepassing van één pagina maken met PKCE in OAuth2-toepassingen maken voor Workfront-integratie voor instructies.
 
-* `response_type` is `code`, omdat de aanvraag het subsidietype voor machtigingscode gebruikt.
+* `response_type` is `code`, omdat de toepassing het subsidietype van de Code van de Toestemming gebruikt.
 
 * `redirect_uri` is de callback plaats dat de gebruikersagent aan samen met wordt geleid `code`. Dit moet één van redirect URls aanpassen die u specificeerde toen u uw toepassing OAuth2 creeerde.
 
@@ -141,7 +142,7 @@ Om de vergunningscode voor een toegangstoken te ruilen, ga het tot uw Server van
 >
 > In tegenstelling tot de regelmatige stroom van de Code van de Vergunning, vereist deze vraag niet de kopbal van de Vergunning met identiteitskaart van de Cliënt en geheim. Daarom is deze versie van de machtigingscode-stroom geschikt voor systeemeigen toepassingen, zoals mobiele toepassingen of toepassingen van één pagina die geen back-end hebben.
 
-Noteer de parameters die worden doorgegeven:
+Maak een notitie van de parameters die worden doorgegeven:
 
 * `grant_type` is `authorization_code`, omdat de app het subsidietype voor de machtigingscode gebruikt.
 

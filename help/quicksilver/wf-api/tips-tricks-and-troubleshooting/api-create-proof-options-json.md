@@ -5,8 +5,9 @@ title: Geavanceerde opties voor proefdrukken toevoegen met Adobe Workfront API
 description: Geavanceerde opties voor proefdrukken toevoegen met Adobe Workfront API
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -38,12 +39,12 @@ Voor een overzicht van de API van het BewijsHK, zie [Overzicht van PoofHQ](../..
 >* Proofs die zijn gemaakt in de API ProefHQ worden niet automatisch gekoppeld aan Workfront. Daarom raden we u aan proefdrukken te maken in de Workfront API voordat u ze bijwerkt met de API ProofHQ.
 >
 
-
 ### Een proefdruk maken met geavanceerde opties voor proefdrukken
 
-1. Een proefdruk maken met de opdracht `Document createProof` in de Workfront API.
+1. Een proef maken met de `Document createProof` in de Workfront API.
 
    >[!NOTE]
+   >
    Wanneer u de proefdruk maakt, stelt u `{}` als de waarde voor de `advancedProofingOptions` parameter.
 
 1. Nadat de proefdruk is gemaakt, gebruikt u de API ProofHQ om geavanceerde opties toe te voegen.
@@ -151,7 +152,9 @@ In deze sectie wordt beschreven hoe u een proefdruk maakt met geavanceerde optie
 U kunt proefdrukken maken met de Workfront API via de `Document createProof` handeling. Deze handeling accepteert de `advancedProofingOptions` parameter, die het waardetype van heeft `string`. Geavanceerde opties voor proefdrukken opnemen in uw `createProof` handeling, moet u de opties in `advancedProofingOptions` parameter in JSON-indeling.
 
 >[!NOTE]
+>
 Het kan moeilijk zijn om de gebieden te voorspellen om in uw advancedProofingOptions JSON te omvatten. U kunt de netwerkgegevens van uw organisatie willen onderzoeken terwijl het gebruiken van geavanceerd proef in Workfront, en uw JSON baseren op de gebieden en de waarden die algemeen door uw organisatie worden gebruikt.
+>
 Omdat deze velden moeilijk te voorspellen zijn, raden we u aan een proefdruk te maken met de Workfront API en deze vervolgens bij te werken met de ProofHQ-API. Zie voor meer informatie [Een proefdruk maken met de API&#39;s Workfront en ProofHQ (aanbevolen)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in dit artikel
 
 ### Voorbeeld

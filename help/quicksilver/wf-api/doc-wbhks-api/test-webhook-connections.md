@@ -6,8 +6,9 @@ title: Webhaak-verbindingen testen
 description: Webhaak-verbindingen testen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Voor het uitvoeren van de tests zijn de volgende voorwaarden vereist:
 
 Bij deze tests wordt er ook van uitgegaan dat de instantie WebHaak van het document is geregistreerd. (U kunt uw exemplaar in Workfront registreren onder Setup > Documenten > Aangepaste integratie.)
 
-**Test 1: Verstrek de dienst van Webhaak van het Document voor een gebruiker**
+**Testen 1: De Document Webhaak-service verlenen aan een gebruiker**
 
 Test URL van de Authentificatie en Symbolische Eindpunt URL voor op OAuth-Gebaseerde Leveranciers van Webhaken.
 
@@ -40,7 +41,7 @@ Test URL van de Authentificatie en Symbolische Eindpunt URL voor op OAuth-Gebase
 1. (Alleen OAuth-services) Nadat u de vorige stap hebt voltooid, wordt de OAuth2-verificatiepagina van uw service geladen in een pop-upvenster. (Opmerking: u wordt mogelijk eerst gevraagd u aan te melden bij uw service.) Via de verificatiepagina geeft u Workfront toegang tot de account van de gebruiker door op de knop Vertrouwd of Toestaan te klikken.
 1. Controleer of uw service is toegevoegd aan de vervolgkeuzelijst Documenten toevoegen. Vernieuw de browser als deze standaard niet wordt weergegeven.
 
-**Test 2: Een document koppelen aan Workfront Test de volgende eindpunten: /bestanden, /metadata**
+**Test 2: Een document koppelen aan Workfront Test de volgende eindpunten: /files, /metadata**
 
 1. Ga in Workfront naar de hoofdpagina Documenten door op de koppeling Documenten in de bovenste navigatiebalk te klikken.
 1. Selecteer de documentservice Webhaak onder Documenten toevoegen.
@@ -48,17 +49,17 @@ Test URL van de Authentificatie en Symbolische Eindpunt URL voor op OAuth-Gebase
 1. Controleer of u door de mapstructuur kunt navigeren.
 1. Een document selecteren en koppelen naar Workfront
 
-**Test 3: Naar een document navigeren in het inhoudsbeheersysteem**
+**Testen 3: naar een document navigeren in het inhoudsbeheersysteem**
 
-Test de volgende eindpunten: /metadata (in het bijzonder viewLink)
+Test de volgende eindpunten: /metadata (specifiek viewLink)
 
 1. Een document koppelen aan Workfront
 1. Selecteer het document en klik op de koppeling Openen.
 1. Controleer of het document op een nieuw tabblad wordt geopend.
 
-**Test 4: Naar een document in het inhoudsbeheersysteem navigeren (met aanmelding)**
+**Testen 4: naar een document navigeren in het inhoudsbeheersysteem (met aanmelding)**
 
-Test de volgende eindpunten: /metadata (in het bijzonder viewLink)
+Test de volgende eindpunten: /metadata (specifiek viewLink)
 
 1. Zorg ervoor dat u bent afgemeld bij het inhoudsbeheersysteem.
 1. Koppel een document aan Workfront.
@@ -66,15 +67,15 @@ Test de volgende eindpunten: /metadata (in het bijzonder viewLink)
 1. Controleer of het aanmeldingsscherm van het inhoudsbeheersysteem op een nieuw tabblad wordt geladen.
 1. Aanmelden en controleren of u naar het document bent gegaan
 
-**Test 5: Het document downloaden van het contentbeheersysteem**
+**Test 5: Download het document van het contentbeheersysteem**
 
-Test de volgende eindpunten (in het bijzonder de downloadkoppeling): /metadata 
+Test de volgende eindpunten (met name de downloadkoppeling): /metadata 
 
 1. Koppel een document aan Workfront.
 1. Selecteer het document en klik op de koppeling Downloaden.
 1. Controleer of het downloaden begint.
 
-**Test 6: Inhoud zoeken**
+**Testen 6: inhoud zoeken**
 
 Test de volgende eindpunten: /search
 
@@ -83,7 +84,7 @@ Test de volgende eindpunten: /search
 1. Voer een zoekopdracht uit vanuit het modaal.
 1. Controleer of de zoekresultaten correct zijn.
 
-**Test 7: Document van Workfront naar inhoudsbeheersysteem verzenden**
+**Testen 7: document vanuit Workfront naar contentbeheersysteem verzenden**
 
 Test de volgende eindpunten: /files, /uploadInit, /upload
 
@@ -91,29 +92,29 @@ Test de volgende eindpunten: /files, /uploadInit, /upload
 1. Een document vanaf uw computer uploaden naar Workfront
 1. Ga naar de pagina met documentdetails
 1. Selecteer in het vervolgkeuzemenu Documenthandelingen de documentservice onder Verzenden naar...
-1. Ga naar de gewenste doelmap en klik op de knop Opslaan.
+1. Ga naar de gewenste doelmap en klik op Opslaan.
 1. Controleer of het document naar de juiste locatie in het inhoudsbeheersysteem is geüpload.
 
-**Test 8: Miniaturen weergeven in Workfront**
+**Testen 8: Miniaturen weergeven in Workfront**
 
-Test de volgende eindpunten: /miniatuur
+Test de volgende eindpunten: /thumbnail
 
 1. Koppel een document aan Workfront.
 1. Selecteer het document in de lijst.
 1. Controleer of de miniatuur in het rechterdeelvenster wordt weergegeven.
 
-**Test 9: De inhoudbytes ophalen**
+**Testen 9: De bytes van de inhoud ophalen**
 
 Test de volgende eindpunten: /download
 
 1. Koppel een document aan Workfront.
 1. Ga naar de pagina met documentdetails.
-1. Het document naar Workfront verzenden door Documenthandelingen > Verzenden naar te selecteren.. > Workfront. Hiermee wordt een nieuwe documentversie in Workfront gemaakt.
+1. Het document naar Workfront verzenden door Documenthandelingen > Verzenden naar.. > Workfront te selecteren. Hiermee wordt een nieuwe documentversie in Workfront gemaakt.
 1. Download het document vanuit Workfront door op de koppeling Downloaden te klikken.
 
-**Test 10: Toegangstoken vernieuwen (alleen OAuth2 Webhaak-providers)**
+**Test 10: toegangstoken vernieuwen (alleen OAuth2 Webhaak-providers)**
 
-Test de volgende eindpunten: URL van token-eindpunt
+Test de volgende eindpunten: Token Endpoint URL
 
 1. Verricht de dienst van Webhaak van het Document voor een gebruiker
 1. Maak het toegangstoken van de gebruiker ongeldig door 1 te wachten op time-out, of 2) het manueel ongeldig te maken in het externe systeem.
@@ -121,4 +122,4 @@ Test de volgende eindpunten: URL van token-eindpunt
 
 >[!NOTE]
 >
->De optie Verzenden naar.. is niet beschikbaar voor gekoppelde documenten. Dit wordt door Workfront toegevoegd. U kunt het /download eindpunt testen door het eindpunt manueel te raken gebruikend een cliënt REST, zoals Postman. Alternatief, kan het /download eindpunt worden getest door een digitaal bewijs te produceren. Neem contact op met Workfront om digitale proefdrukken in te schakelen.
+>De optie Verzenden naar is momenteel niet beschikbaar voor gekoppelde documenten.. Dit wordt door Workfront toegevoegd. U kunt het /download eindpunt testen door het eindpunt manueel te raken gebruikend een cliënt REST, zoals Postman. Alternatief, kan het /download eindpunt worden getest door een digitaal bewijs te produceren. Neem contact op met Workfront om digitale proefdrukken in te schakelen.

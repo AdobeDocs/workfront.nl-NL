@@ -5,8 +5,9 @@ title: Basisbeginselen van API
 description: Basisbeginselen van API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Elk object in het systeem krijgt een unieke URI die bestaat uit het objecttype e
 
 Het objecttype is niet hoofdlettergevoelig en kan de afgekorte ObjCode (zoals proj) of de alternatieve objectnaam (project) zijn.
 
-Voor een lijst met geldige ObjCodes raadpleegt u  [API Explorer](../../wf-api/general/api-explorer.md).
+Zie voor een lijst met geldige ObjCodes  [API Explorer](../../wf-api/general/api-explorer.md).
 
 ### Bewerkingen
 
@@ -77,13 +78,13 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 retourneert een JSON-respons die vergelijkbaar is met het volgende:
 
 
-<pre>{<br>    "data": [<br>        {<br>            "percentComplete": 0<br>            "status": "CUR",<br>            "prioriteit": 2<br>            "naam": "Merk New Project",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
+<pre>{<br>    "data": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "prioriteit": 2,<br>            "name": "Brand New Project",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
 >
 >Wanneer het uitvoeren van een verzoek van de GET door uw browser adresbar, is het niet noodzakelijk om sessionID als deel van het verzoek te omvatten.
 
-De speciale veiligheid is toegevoegd rond PUT, POST, en DELETE verzoeken. Een aanvraag die schriftelijk in de database wordt ingevoerd of die uit de database wordt verwijderd, kan alleen worden uitgevoerd als de **sessionID=abc123** is opgenomen in de URI. De volgende voorbeelden tonen hoe dit op een verzoek van DELETE zou zoeken:
+De speciale veiligheid is toegevoegd rond PUT, POST, en DELETE verzoeken. Een aanvraag die schriftelijk naar de database schrijft of eruit verwijdert, kan alleen worden uitgevoerd als de **sessionID=abc123** is opgenomen in de URI. De volgende voorbeelden tonen hoe dit op een verzoek van DELETE zou zoeken:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
 
 ### Verificatie
@@ -94,7 +95,7 @@ Verificatie wordt uitgevoerd door een sessie-id door te geven die kan worden geg
 
 #### Koptekstverificatie aanvragen
 
-De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel om tegen te zijn [Cross-site Request-vervalsing (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen en niet interfererend met URI voor caching doeleinden.
+De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel dat u veilig bent tegen [Cross-site Request-vervalsing (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen en niet interfererend met URI voor caching doeleinden.
 
 Hieronder ziet u een voorbeeld van een aanvraagkoptekst:
 
@@ -122,17 +123,23 @@ De API gebruikt de zelfde op koekje-gebaseerde authentificatie die door Web UI a
 ## Aanmelden
 
 >[!IMPORTANT]
+>
 Workfront raadt niet langer het gebruik van het `/login` eindpunt of API-sleutels. Gebruik in plaats daarvan een van de volgende verificatiemethoden:
+>
 * Serververificatie met JWT
 * Gebruikersverificatie met OAuth2
 >
-Voor instructies voor het instellen van deze verificatiemethoden raadpleegt u [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Zie voor instructies voor het instellen van deze verificatiemethoden [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 Voor instructies over het gebruik van serververificatie in Workfront raadpleegt u [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md)
+>
 Voor instructies over het gebruik van gebruikersverificatie in Workfront raadpleegt u [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
+>
 De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
-Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Adobe Platform is geregistreerd, zie [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is geregistreerd, zie [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Met een geldige gebruikersnaam en wachtwoord kunt u de volgende aanvraag gebruiken om een sessie-id op te halen:
 
@@ -143,6 +150,7 @@ POST /attask/api/v15.0/login?username=admin&password=user
 Dit plaatst een koekje om toekomstige verzoeken voor authentiek te verklaren evenals een reactie JSON met onlangs gecreeerde sessionID, de userID van de aangemelde gebruiker, en andere zittingsattributen terug te keren.
 
 >[!NOTE]
+>
 Als u een aangewezen API-gebruiker hebt die ook beheerder is, wordt u door Workfront sterk aangeraden zich aan te melden met behulp van een API-sleutel.
 
 **API-sleutels genereren**
@@ -163,9 +171,9 @@ U kunt ook een API-sleutel ophalen die eerder voor een bepaalde gebruiker is geg
 PUT /attask/api/v15.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
-Vervolgens kunt u dit resultaat gebruiken om elke API-aanroep te verifiëren door &quot;apiKey&quot; als een aanvraagparameter met deze waarde toe te voegen in plaats van een sessionID of gebruikersnaam en wachtwoord. Dit is uit veiligheidsoogpunt gunstig.
+Vervolgens kunt u dit resultaat gebruiken om elke API-aanroep te verifiëren door &quot;apiKey&quot; als een parameter request met deze waarde toe te voegen in plaats van een sessionID of gebruikersnaam en wachtwoord. Dit is uit veiligheidsoogpunt gunstig.
 
-Het volgende verzoek is een voorbeeld van het ophalen van gegevens van een project met de apiKey:
+Het volgende verzoek is een voorbeeld van het ophalen van gegevens van een project met behulp van apiKey:
 
 ```
 GET /attask/api/v15.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
@@ -196,7 +204,7 @@ Een gebruiker afmelden:
 1. Navigeer naar het aanmeldingsscherm, maar meld u niet aan.
 1. Wijzig de URL in /attask/api/v15.0/project/search.\
    De pagina kan niet worden gevonden.
-1. Het woord vervangen *zoeken* met login?username=admin&amp;password=user, substitueert uw gebruikersbenaming en wachtwoord voor *beheerder* en *user\
+1. Het woord vervangen *zoeken* met login?username=admin&amp;password=user, substitueert uw gebruikersbenaming en wachtwoord voor *admin* en *user\
    *Deze sessie wordt in de browser opgeslagen als een cookie en hoeft niet opnieuw te worden vermeld in elke volgende GET-aanvraag.
 
 1. De URL opnieuw wijzigen in **/attask/api/v15.0/project/search**.
@@ -222,7 +230,7 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 retourneert een reactie die lijkt op het volgende:
 
-<pre>{<br>    "percentComplete": 0<br>    "status": "CUR",<br>    "prioriteit": 2<br>    "naam": "Merk New Project",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
+<pre>{<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "prioriteit": 2,<br>    "name": "Brand New Project",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
 
 
 U kunt veelvoudige voorwerpen in het zelfde verzoek terugwinnen door de parameter van het identiteitskaart- verzoek te specificeren en een komma-gescheiden lijst van identiteitskaart&#39;s te geven, zoals aangetoond in het volgende voorbeeld:
@@ -232,7 +240,7 @@ U kunt veelvoudige voorwerpen in het zelfde verzoek terugwinnen door de paramete
 GET /attask/api/v15.0/project?id=4c78...54d0,4c78...54d1
 ```
 
-Merk /attask/api/v15.0/project?id=.. verzoek is hetzelfde als het `/attask/api/v15.0/project/...` verzoek.
+Merk op /attask/api/v15.0/project?id=... verzoek is het zelfde als `/attask/api/v15.0/project/...` verzoek.
 
 #### Een object ophalen met de URI
 
@@ -269,19 +277,20 @@ De volgende tabel bevat een aantal opties die u kunt gebruiken met de Workfront 
 | lte | retourneert resultaten die een percentage voltooid hebben van minder dan of gelijk aan 50 | <pre>...percentComplete=50&amp;percentComplete_Mod=lte...</pre> |
 | isnull | retourneert resultaten als de beschrijving Null is | <pre>...description_Mod=is null...</pre> |
 | notnull | retourneert resultaten als de beschrijving niet null is | <pre>...description_Mod=notnull...</pre> |
-| contains | retourneert resultaten als de naam &quot;Workfront&quot; bevat | <pre>...name=Workfront&amp;name_Mod=contains....</pre> |
+| contains | retourneert resultaten als de naam &quot;Workfront&quot; bevat | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
 | Tussen | retourneert resultaten die de laatste 7 dagen een ingangsdatum hebben | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
+>
 Zoekverzoeken zijn hoofdlettergevoelig. Als er een fout optreedt, controleert u of  **_Mod** en **_Bereik** hebben de juiste hoofdletters en kleine letters.
 
 #### OR-instructies gebruiken
 
 U kunt een zoekopdracht verfraaien door een parameter toe te voegen die &quot;OR&quot; bevat, en een getal om het niveau van een filter of reeks filters aan te geven.
 
-Een OF verklaring keert slechts verslagen in de API vraag terug die aan de OF verklaring het filtreren criteria voldoen. Filters worden niet geïmpliceerd over OR-instructieniveaus.
+Een OF verklaring keert slechts verslagen in de API vraag terug die aan de OF verklaring het filtreren criteria voldoen. Filters worden niet geïmpliceerd over OR verklaringsniveaus.
 
 Als u bijvoorbeeld wilt filteren op
 
@@ -305,7 +314,7 @@ U voorkomt dit probleem door deze waarden in filterparameters met JSON-opmaak te
 
 Standaard zijn de gegevens die door een zoekopdracht worden geretourneerd, een JSON-array. Afhankelijk van uw gebruikscase kan het efficiënter zijn om het resultaat op te halen als een JSON-object dat met ID wordt geïndexeerd. Dit kan worden gedaan door de parameter van het kaartverzoek te gebruiken. De aanvraag 
 <pre>/attask/api/v15.0/task/search?map=true</pre>retourneert een reactie geïndexeerd door ID, vergelijkbaar met het volgende:
-<pre>{<br>    "data": {<br>        "4c9a97db000000f13ee4446b9aead9b": {<br>            "percentComplete": 0<br>            "status": "NEW",<br>            "naam": "eerste taak",<br>            "ID": "4c9a97db000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba60002024cd49e75bd43cf601": {<br>            "percentComplete": 0<br>            "status": "INP:A",<br>            "naam": "tweede taak",<br>            "ID": "4ca28ba60002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
+<pre>{<br>    "data": {<br>        "4c9a97db000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "first task",<br>            "ID": "4c9a97db000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "second task",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
 #### De veldverzoekparameter gebruiken
 
@@ -313,9 +322,10 @@ Als u een object ophaalt, wordt standaard alleen de meest gebruikte subset met v
 
 U kunt de parameter van het gebiedsverzoek gebruiken om een komma-gescheiden lijst van specifieke gebieden te specificeren is teruggekeerd. De aanvraag
 <pre>/attask/api/v15.0/task/search?fields=scheduledStartDate,priority</pre>retourneert een reactie die lijkt op het volgende:
-<pre>{<br>    "prioriteit": 2<br>    "naam": "eerste taak",<br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "SchedulStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
+<pre>{<br>    "prioriteit": 2,<br>    "name": "first task",<br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "scheduledStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
+>
 Deze veldnamen zijn hoofdlettergevoelig.
 
 Voor een lijst met mogelijke veldverwijzingen raadpleegt u de  [API Explorer](../../wf-api/general/api-explorer.md)
@@ -323,9 +333,9 @@ Voor een lijst met mogelijke veldverwijzingen raadpleegt u de  [API Explorer](.
 #### Zoeken naar geneste objecten
 
 U kunt zoeken naar geneste objecten. Standaard worden geneste objecten alleen met de naam en id geretourneerd. Als u bijvoorbeeld alle problemen samen met de eigenaar wilt ophalen, gebruikt u de volgende aanvraag:
-<pre>/attask/api/v15.0/issue/search?fields=owner</pre>Als u meer informatie nodig hebt, kunt u een genest veld aanvragen met de syntaxis van een dubbele punt. Met de volgende aanvraag wordt bijvoorbeeld naar alle problemen gezocht, samen met de naam, de id, de titel en het telefoonnummer van de eigenaar
+<pre>/attask/api/v15.0/issue/search?fields=owner</pre>Als u meer informatie nodig hebt, kunt u een genest veld aanvragen met de syntaxis van een dubbele punt. Met de volgende aanvraag wordt bijvoorbeeld naar alle problemen gezocht, samen met de naam, id, titel en telefoonnummer van de eigenaar
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>en retourneert het volgende: 
-<pre>{<br>    "naam": "een belangrijke kwestie",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "eigenaar": {<br>        "titel": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "naam": "Admin User",<br>        "ID": "4c76ed7a000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{<br>    "naam": "een belangrijk punt",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist";<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Geneste verzamelingen ophalen
 
@@ -342,9 +352,9 @@ Standaard worden alleen de naam en de id van elke taak geretourneerd, maar u kun
 
 U kunt aangepaste gegevensvelden ophalen met het voorvoegsel &quot;DE:&quot;. Als u bijvoorbeeld een project wilt aanvragen met de parameter &quot;CustomText&quot;, gebruikt u de volgende aanvraag:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>die worden geretourneerd
-<pre>{<br>    "naam": "project voor aangepaste gegevens",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "taak b" <br>}</pre>U kunt ook alle aangepaste gegevens voor een object ophalen door het veld parameterValues aan te vragen. Bijvoorbeeld, 
+<pre>{<br>    "name": "custom data project";<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "taak b" <br>}</pre>U kunt ook alle aangepaste gegevens voor een object ophalen door het veld parameterValues aan te vragen. Bijvoorbeeld, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>retourneert vergelijkbare gegevens naar het volgende:
-<pre>{<br>    "naam": "project voor aangepaste gegevens",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "taak b", <br>        "DE:CustomNumber": 1.4 <br>        "DE:CustomCheckBox": ["first", "second", "third"] <br>    } <br>}</pre>
+<pre>{<br>    "name": "custom data project";<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "taak b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBox": ["first", "second", "third"] <br>    } <br>}</pre>
 
 #### Benoemde query&#39;s gebruiken
 
@@ -353,7 +363,7 @@ Sommige objecttypen hebben benoemde zoekopdrachten die doorgaans worden uitgevoe
 
 #### Filter tellen gebruiken
 
-U kunt het aantal resultaten opgeven dat door een bepaalde zoekopdracht moet worden geretourneerd. Hierdoor kan de server de aanvraag sneller verwerken en bespaart u bandbreedte. De aanvraag
+U kunt opgeven hoeveel resultaten een bepaalde zoekopdracht moet opleveren. Hierdoor kan de server de aanvraag sneller verwerken en bespaart u bandbreedte. De aanvraag
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>retourneert het aantal resultaten in de volgende indeling:
 <pre>{<br>    "count": 3 <br>}</pre>Dit resultaat is veel kleiner gedownload dan wanneer alle objecten zijn verzonden. De filtersyntaxis is identiek aan de zoekopdracht.
 
@@ -361,8 +371,8 @@ U kunt het aantal resultaten opgeven dat door een bepaalde zoekopdracht moet wor
 
 U kunt een rapportverzoek uitvoeren, waar slechts het totaal van één of ander gebied met één of meerdere groeperingen wordt gewenst. Zoals in het volgende voorbeeld wordt getoond, is de rapportsyntaxis gelijk aan de syntaxis voor de SOAP API:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>dat het volgende resultaat retourneert
-<pre>{<br>    "Eerste project": { <br>        "sum_hours": 15 <br>    }, <br>     "Tweede project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Wanneer u de parameter $$ROLLUP=true toevoegt, wordt op elk groeperingsniveau een totaal opgenomen:
-<pre>{<br>    "Eerste project": { <br>        "sum_hours": 15 <br>    }, <br>    "Tweede project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
+<pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Wanneer u de parameter $$ROLLUP=true toevoegt, wordt op elk groeperingsniveau een totaal opgenomen:
+<pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>    "Second Project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
 ### Zoekresultaten sorteren in de API
 
@@ -444,13 +454,13 @@ Gebruik een sorteerparameter om ervoor te zorgen dat de resultaten correct worde
 U kunt een toegangsregel maken om te bepalen wie toegang heeft tot een object. Hieronder volgen voorbeelden van toegangsregels die u kunt instellen:
 
 Om een project te plaatsen zodat wordt het gedeeld slechts met een gebruiker met identiteitskaart &quot;abc123&quot;gebruik het volgende verzoek:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Alternatief, om slechts met een nieuwe persoon te delen en bestaande toestemmingen intact te houden:
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxx?method=put updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Alternatief, om slechts met een nieuwe persoon te delen en bestaande toestemmingen intact te houden:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>Om de bestaande toegangsregels terug te winnen:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
 ## Gedrag van POST
 
-POST voegt een nieuw object in. De syntaxis is identiek aan PUT, maar met een paar uitzonderingen. Omdat het nieuwe object nog niet bestaat, heeft het geen id. Daarom bevat de URI geen id.
+POST voegt een nieuw object in. De syntaxis is identiek aan PUT, maar met een paar uitzonderingen. Omdat het nieuwe object nog niet bestaat, heeft het geen id. Daarom bevat de URI de id niet.
 
 ### Een object maken
 
@@ -470,7 +480,7 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 U kunt documenten uploaden via de volgende API-URL:
 <pre>POST /attask/api/v15.0/upload</pre>De API verwacht dat het inhoudstype multipart/form-data is. De parameternaam voor het bestand moet uploadedFile zijn. De server retourneert de volgende JSON-gegevens:
 <pre>{<br>    "handle": "4c7c08fa000002ff924e298ee148df4"<br>}</pre>U kunt de greep en de post naar de volgende URL gebruiken wanneer u een Workfront-document maakt:
-<pre>POST /attask/api/v15.0/document?updates={<br>    naam: aFileName,<br>    greep: abc...123, (bestandshandgreep van uploaden)<br>    docObjCode: PROJ (of TASK, OPTASK, enz.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
+<pre>POST /attask/api/v15.0/document?updates={<br>    name: aFileName,<br>    handle: abc...123, (handle van de bestandsupload)<br>    docObjCode: PROJ (of TASK, OPTASK, enz.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
 ## Gedrag van PUT
 
@@ -481,19 +491,20 @@ De reactie voor een PUT is identiek aan een GET. In beide gevallen retourneert d
 ### Objecten bewerken
 
 Objecten worden altijd bijgewerkt door de id met behulp van de unieke URI van het object. Velden die moeten worden bijgewerkt, worden opgegeven als aanvraagparameters. Als u bijvoorbeeld de naam van een project wilt wijzigen, kunt u een aanvraag verzenden die vergelijkbaar is met het volgende:
-<pre>PUT /attask/api/v15.0/project/4c7...?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=New Project Name</pre>Aangezien voor de update een id is vereist, mislukt deze bewerking (zonder invoeging) als het object niet op de server bestaat.
+<pre>PUT /attask/api/v15.0/project/4c7...?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7..&amp;name=New Project Name</pre>Aangezien voor de update een id is vereist, mislukt deze bewerking (zonder invoeging) als het object niet op de server bestaat.
 
 ### JSON-bewerkingen opgeven
 
 Zoals in het volgende voorbeeld wordt getoond, kunt u de parameter van het updateverzoek gebruiken om de gebieden te specificeren die moeten worden bijgewerkt gebruikend syntaxis JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     naam: "Nieuwe projectnaam", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     naam: "Nieuwe projectnaam"; <br>     status: "CUR", <br>     ... <br>}</pre>
 
 ### Geneste updates maken
 
 Sommige objecten hebben privéverzamelingen die kunnen worden bijgewerkt. In het volgende voorbeeld ziet u hoe u de bestaande toewijzingen voor een bepaalde taak overschrijft:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    toewijzingen: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    Toewijzingen: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
+>
 Terwijl de updates aan het hoogste niveau worden gemaakt klein zijn, vervangen de updates aan een inzameling of een genesteld voorwerp volledig de bestaande inzameling. Als u één toewijzing op een taak wilt bewerken zonder de objecten te beïnvloeden, gebruikt u PUT op de toewijzing in plaats van op de taak.
 
 In het volgende voorbeeld wordt van een project een wachtrij voor een openbare helpdesk gemaakt. De bestaande wachtrijeigenschappen worden vervangen.
@@ -502,23 +513,23 @@ In het volgende voorbeeld wordt van een project een wachtrij voor een openbare h
 ### De parameter Handelingverzoek gebruiken
 
 Sommige objecten ondersteunen aanvullende acties die naast eenvoudige bewerkingen kunnen worden uitgevoerd. U kunt deze handelingen opgeven met de parameter voor actiedracht. In het volgende verzoek wordt bijvoorbeeld de tijdlijn voor een bepaald project opnieuw berekend:
-<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>of<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>of<br><br>PUT /attask/api/v15.0/project/4c7../calculateTimeline </pre>
 
 ### Objecten verplaatsen
 
 In het volgende voorbeeld ziet u de syntaxis voor het verplaatsen van een taak van het ene project naar het andere:
-<pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8..</pre>Hier ziet u een voorbeeld voor elk actietype: (?)
+<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8...</pre>Hier ziet u een voorbeeld voor elk handelingstype: (??)
 <pre>PUT /attask/api/v15.0/project/1234/acceptApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/retrieveApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Alleen voor de verplaatsingsactie zijn aanvullende kenmerken vereist om het project op te geven waar het werkitem moet worden verplaatst.
 
 Hieronder ziet u een voorbeeld van elk actietype: 
-<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}</pre>
+<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### Objecten delen
 
 In het volgende voorbeeld ziet u de syntaxis voor het delen van een project met een team:
 <pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>Wanneer u een object bewerkt, kunt u alle toegangsregels voor een object vervangen door een PUT uit te voeren en updates te verzenden, vergelijkbaar met het volgende voorbeeld:
 <pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',xxcore Handeling:'VIEW'}]}</pre>In het volgende voorbeeld ziet u de syntaxis voor het verplaatsen van een taak van het ene project naar het andere:
-<pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8..</pre>
+<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8...</pre>
 
 ## DELETE-gedrag
 
@@ -529,9 +540,10 @@ DELETE verwijdert een object. In elk geval, kan URI de parameter force=true omva
 
 Met een bulkupdateinstructie worden meerdere objecten tegelijkertijd bijgewerkt binnen één API-aanroep. Een bulk creeert API vraag wordt gebouwd gelijkaardig aan een normale updatevraag, zoals aangetoond in de volgende voorbeelden:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-xxxxxxxxxxxxxx</pre>wat resulteert in een rendement dat vergelijkbaar is met het volgende:
-<pre>gegevens: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    naam: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0<br>    scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    SchedulStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioriteit: 0<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    naam: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi<br>    scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    SchedulStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioriteit: 0<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>U kunt ook een bulkupdate uitvoeren die vergelijkbaar is met het volgende:
+<pre>gegevens: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    naam: "Test_Project_1",<br>    objCode: "PROJ"<br>    percentComplete: 0,<br>    SchedultionDate: "2014-08-28T11:00:00:000-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioriteit: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    naam: "Test_Project_2",<br>    objCode: "PROJ"<br>    percentComplete: 0usi,<br>    SchedultionDate: "2014-08-28T11:00:00:000-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioriteit: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>U kunt ook een bulkupdate uitvoeren die vergelijkbaar is met het volgende:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxx</pre>wat resulteert in een rendement dat vergelijkbaar is met het volgende:
-<pre>gegevens: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     naam: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0<br>     scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     SchedulStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioriteit: 0<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    naam: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0<br>    scheduledCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    SchedulStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioriteit: 0<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Als u alle bewerkingen in dezelfde transactie wilt uitvoeren, voegt u "atomic=true" toe aan uw batch-API-aanroep als een aanvraagparameter. Op deze manier worden alle bewerkingen teruggedraaid als een van de bewerkingen mislukt.
+<pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     naam: "Test_Project_1_Edit",<br>     objCode: "PROJ"<br>     percentComplete: 0,<br>     SchedultionDate: "2014-08-28T11:00:00:000-0400",<br>     scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioriteit: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    naam: "Test_Project_2_Edit",<br>    objCode: "PROJ"<br>    percentComplete: 0,<br>    SchedultionDate: "2014-08-28T11:00:00:000-0400",<br>    scheduledStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioriteit: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Als u alle bewerkingen in dezelfde transactie wilt uitvoeren, voegt u "atomic=true" toe aan uw batch-API-aanroep als een aanvraagparameter. Op deze manier worden alle bewerkingen teruggedraaid als een van de bewerkingen mislukt.
 
 >[!NOTE]
-Atoombatchbewerkingen kunnen alleen &quot;success&quot; retourneren: true&quot; of een fout.
+>
+Atoombatchbewerkingen kunnen alleen &#39;success: true&#39; of een fout retourneren.

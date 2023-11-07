@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nieuw in API-versie 12
+title: Nieuwe functies in API-versie 12
 description: Workfront heeft API-versie 12 uitgebracht op 12 november 2020. API-versie 12 bevat de volgende wijzigingen ten opzichte van versie 11
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 0%
 
 ---
 
-# Nieuw in API-versie 12
+# Nieuwe functies in API-versie 12
 
 Workfront heeft API-versie 12 uitgebracht op 12 november 2020. API-versie 12 bevat de volgende wijzigingen ten opzichte van versie 11
 
@@ -26,7 +27,7 @@ De volgende bronnen zijn nieuw in Workfront API versie 12.
 
 ### BreadCrumb {#breadcrumb}
 
-Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Adobe Workfront-werkitem. Broodkruimels wijzen erop hoe een het werkpunt in de grotere structuur van Portfolio, Projecten, Projecten, en Taken past.
+Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Adobe Workfront-werkitem. Broodkruimels wijzen erop hoe een het werkpunt in de grotere structuur van Portfolio&#39;s, Projecten, Projecten, en Taken past.
 
 Voor meer informatie over de Broodkruimels in Workfront raadpleegt u [Overzicht van Broodkruimels in de nieuwe Adobe Workfront-ervaring](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -301,7 +302,7 @@ Een ActivityLog-object is een volledige lijst met alle activiteiten die hebben p
    <td> <p>Bewerkingen</p> </td> 
    <td> <p>De volgende bewerking is verwijderd uit het object ActivityLog:</p> 
     <ul> 
-     <li> <p><strong>TOEVOEGEN</strong> </p> </li> 
+     <li> <p><strong>ADD</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -311,7 +312,7 @@ Een ActivityLog-object is een volledige lijst met alle activiteiten die hebben p
 
 Een object NoticeAttachment vertegenwoordigt een bestand dat aan een Workfront-aankondiging is gekoppeld.
 
-Voor meer informatie over aankondigingsbijlagen raadpleegt u [Aankondigingen verzenden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+Zie voor meer informatie over aankondigingsbijlagen [Aankondigingen verzenden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -346,14 +347,14 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>De volgende markeringen zijn verwijderd:</p> 
       <ul> 
-       <li> <p>DYNAMISCH,</p> </li> 
+       <li> <p>DYNAMISCH</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
      <li> <p><strong>groupID</strong> </p> <p>De volgende markeringen toegevoegd</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
-       <li> <p>DYNAMISCH,</p> </li> 
+       <li> <p>DYNAMISCH</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
      <li> <p><strong>workinspannt</strong> </p> <p>Dit veld is toegevoegd en geeft aan of een gebruiker een kleine, middelgrote of grote dagelijkse inspanning nodig heeft om een taak te voltooien. Mogelijke waarden zijn:</p> 
@@ -361,7 +362,7 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
        <li> <p>1 (klein)</p> </li> 
        <li> <p>2 (gemiddeld)</p> </li> 
        <li> <p>3 (Groot)</p> </li> 
-      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van werkprestaties</a>.</p> </li> 
+      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van de werkprestaties</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -394,7 +395,7 @@ Zie voor meer informatie over kalenderrapporten [Overzicht van kalenderrapporten
 
 Een object Company vertegenwoordigt een organisatie die bestaat uit een verzameling personen.
 
-Voor meer informatie over bedrijven raadpleegt u [Bedrijven maken en bewerken](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Zie voor meer informatie over bedrijven [Bedrijven maken en bewerken](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -419,7 +420,7 @@ Voor meer informatie over bedrijven raadpleegt u [Bedrijven maken en bewerken](.
 
 ### Klant {#customer}
 
-Een object Customer vertegenwoordigt een organisatie die een instantie van Workfront gebruikt.
+Een object van de Klant vertegenwoordigt een organisatie die een instantie van Workfront gebruikt.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -495,7 +496,7 @@ Zie voor meer informatie over documentversies [Een nieuwe versie van een documen
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>bewijsbeschikking</strong> </p> <p>Toegevoegd</p> </li> 
+     <li> <p style="font-weight: normal;"><strong>bewijsBesluit</strong> </p> <p>Toegevoegd</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -594,7 +595,7 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>De orde wijst op de positie van een taak of verhaal op de Agile backlog.</p> <p>In dit veld zijn de volgende markeringen verwijderd:
        <ul>
-        <li>DYNAMISCH,</li>
+        <li>DYNAMISCH</li>
         <li>LAZY_READ,</li>
         <li>NOT_GROUPABLE:</li>
        </ul></p> </li> 
@@ -659,7 +660,7 @@ Zie voor meer informatie over aangepaste velden [Een aangepast formulier maken o
 
 Een object Portfolio is een verzameling projecten die concurreren om dezelfde bronnen, meestal geld of mensen om deze te voltooien.
 
-Zie voor meer informatie over portfolio&#39;s [Portfolio-overzicht in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Zie voor meer informatie over portfolio&#39;s [Overzicht van Portfolio&#39;s in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -711,7 +712,7 @@ Een programmaobject is een subset van projecten binnen een portfolio, waarin ver
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een Project is dat aan het gebied van de Helpdesk is gepubliceerd om gebruikers toe te staan om Kwesties aan het voor te leggen.
 
-Voor meer informatie over de Queuges van het Verzoek, zie [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -762,7 +763,7 @@ Een voorwerp ScheduledReport vertegenwoordigt een rapport dat is gevormd om voor
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
+Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van het Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
 Voor meer informatie over Scorecard-vragen raadpleegt u [Een scorecard maken](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -797,7 +798,7 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
        <li> <p>1 (klein)</p> </li> 
        <li> <p>2 (gemiddeld)</p> </li> 
        <li> <p>3 (Groot)</p> </li> 
-      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van werkprestaties</a>.</p> </li> 
+      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van de werkprestaties</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -866,7 +867,7 @@ Voor meer informatie over de Taken van het Malplaatje, zie [Een sjabloontaak bew
        <li> <p>1 (klein)</p> </li> 
        <li> <p>2 (gemiddeld)</p> </li> 
        <li> <p>3 (Groot)</p> </li> 
-      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van werkprestaties</a>.</p> </li> 
+      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van de werkprestaties</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -876,7 +877,7 @@ Voor meer informatie over de Taken van het Malplaatje, zie [Een sjabloontaak bew
 
 Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaat om werkelijk gewerkte uren voor Taken, Projecten, en de Types van uren van overheaduren in te gaan.
 
-Voor meer informatie over Timesheets raadpleegt u [Overzicht van tijdbladen](../../timesheets/timesheets/timesheets-overview.md)
+Voor meer informatie over Timesheets, zie [Overzicht van tijdbladen](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -961,14 +962,14 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>De orde wijst op de positie van een taak of verhaal op de Agile backlog.</p> <p>In dit veld zijn de volgende markeringen verwijderd:</p> 
       <ul> 
-       <li> <p>DYNAMISCH,</p> </li> 
+       <li> <p>DYNAMISCH</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
      <li> <p><strong>groupID</strong> </p> <p>In dit veld zijn de volgende markeringen toegevoegd:</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
-       <li> <p>DYNAMISCH,</p> </li> 
+       <li> <p>DYNAMISCH</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
      <li> <p><strong>workinspannt</strong> </p> <p>Dit veld is toegevoegd en geeft aan of een gebruiker een kleine, middelgrote of grote dagelijkse inspanning nodig heeft om een taak te voltooien. Mogelijke waarden zijn:</p> 
@@ -976,7 +977,7 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
        <li> <p>1 (klein)</p> </li> 
        <li> <p>2 (gemiddeld)</p> </li> 
        <li> <p>3 (Groot)</p> </li> 
-      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van werkprestaties</a>.</p> </li> 
+      </ul> <p>Voor meer informatie over de Werkinspanning in Workfront raadpleegt u <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Overzicht van de werkprestaties</a>.</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 

@@ -5,8 +5,9 @@ title: Uitgaande berichtindeling voor gebeurtenisabonnementen
 description: Uitgaande berichtindeling voor gebeurtenisabonnementen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -23,18 +24,18 @@ De volgende veranderingen zullen in het uitgaande berichtformaat worden aangebra
 
 * De uitgaande berichten zullen oldState en newState voor een middel van Workfront omvatten.
 
-   Deze waarden geven de wijzigingen weer die in een object zijn aangebracht als gevolg van een gebeurtenis in Workfront.
+  Deze waarden geven de wijzigingen weer die in een object zijn aangebracht als gevolg van een gebeurtenis in Workfront.
 
 * Het metagegevensveld eventTime wordt toegevoegd aan alle uitgaande berichten.
 
-   Dit veld geeft in Nanoseconds en EpochSeconds de tijd aan waarop een gebeurtenis heeft plaatsgevonden. Gebruik eventTime wanneer het opdracht geven tot gebeurtenissen die door uw integratie worden verwerkt.
+  Dit veld geeft in Nanoseconds en EpochSeconds de tijd aan waarop een gebeurtenis heeft plaatsgevonden. Gebruik eventTime wanneer het opdracht geven tot gebeurtenissen die door uw integratie worden verwerkt.
 
 * De eigenaar:companyID referenced gebied op het middel van de NOOT zal worden verwijderd.
 * The currentVersion referenced objectOn the DOCU (Document) resource will be removed.
 
 Als u momenteel Workfront-gebeurtenisabonnementen gebruikt, moet u uw Workfront-integraties bijwerken voor de release 2017.3 om deze wijzigingen te kunnen verwerken.
 
-Zie voor meer informatie over gebeurtenisabonnementen [Event Subscription API](../../wf-api/general/event-subs-api.md).
+Zie voor meer informatie over gebeurtenisabonnementen [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md).
 
 ## Voorbeelden van oude en nieuwe berichtindelingen
 

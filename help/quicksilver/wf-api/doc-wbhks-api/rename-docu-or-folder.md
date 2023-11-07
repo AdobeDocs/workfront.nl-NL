@@ -6,8 +6,9 @@ title: Naam wijzigen van document of map (nog niet geïmplementeerd)
 description: De naam van een document of map wijzigen
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 1%
@@ -27,7 +28,7 @@ PUT /naam wijzigen
 
 | Naam  | Beschrijving |
 |---|---|
-| id | De document- of map-id waarvan de naam moet worden gewijzigd |
+| id | De naam van het document of de map moet worden gewijzigd |
 | name  | De nieuwe naam van het document of de map |
 
 
@@ -50,9 +51,9 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 retourneert
 
 ```
-{status: “success”
+{status: "success"
  }returns
  {
- status: “failure”, error: “Folder cannot be renamed because a folder with that name already exists.”
+ status: "failure", error: "Folder cannot be renamed because a folder with that name already exists."
  }
 ```

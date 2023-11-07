@@ -5,8 +5,9 @@ title: Veelgestelde vragen - Abonnementen voor gebeurtenissen
 description: Veelgestelde vragen - Abonnementen voor gebeurtenissen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%
@@ -34,11 +35,11 @@ Een abonnement kan ook andere kenmerken hebben, zoals een eigen unieke id en de 
 
 ## Kan ik selecteren welke gebeurtenissen naar een eindpunt worden verzonden dat op bepaalde criteria binnen een gebeurtenislading wordt gebaseerd?
 
-Filters voor gebeurtenisabonnementen bieden een manier om subs van gebeurtenissen op bepaalde criteria te sorteren. Men adviseert dat u filters op gebeurtenisabonnementen toepast aangezien het het aantal berichten kan beduidend verminderen dat een eindpunt moet verbruiken. Zie voor meer informatie [Filteren op abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md#event).
+Filters voor gebeurtenisabonnementen zijn een manier waarop subs van gebeurtenissen op opgegeven criteria kunnen worden gesorteerd. Men adviseert dat u filters op gebeurtenisabonnementen toepast aangezien het het aantal berichten kan beduidend verminderen dat een eindpunt moet verbruiken. Zie voor meer informatie [Filteren op abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md#event).
 
 ## Waarom retourneert de API een 409-conflictreactiecode?
 
-Als u een gebeurtenisabonnement probeert te maken en een antwoordcode wilt ontvangen: In 409 gevallen is het abonnement dat u probeerde te maken een duplicaat. Workfront staat het maken van dubbele abonnementen niet toe.
+Als u een gebeurtenisabonnement probeert te maken en een antwoordcode ontvangt: 409-conflict, is het abonnement dat u probeerde te maken een duplicaat. Workfront staat het maken van dubbele abonnementen niet toe.
 
 ## Wat zou ik moeten doen als mijn berichten niet aan mijn eindpunt worden geleverd?
 
@@ -61,9 +62,9 @@ Sommige van de volgende scenario&#39;s kunnen verantwoordelijk zijn:
 
    * Na een periode van de 100 berichtrespijtperiode, als een bepaalde URL (die met één of meerdere abonnementen kon worden geassocieerd) meer dan 70% van de tijd ontbreekt of als URL er niet in slaagt om na 2000 opeenvolgende pogingen te leveren, worden alle berichten die abonnementen met dat zelfde URL aanpassen niet geprobeerd voor levering. In plaats daarvan worden deze berichten direct in de wachtrij geplaatst voor een nieuwe poging.
 
-      Elke 10 minuten nadat een URL is uitgeschakeld, proberen we het volgende bericht te leveren dat wordt weergegeven voor verwerking. Als dat bericht slaagt, dan re-toelaten wij die URL en om het even welke passende abonnementen. Als dat bericht niet verzendt, dan stelt die tijdopnemer 10 minuten terug en wij proberen opnieuw nadat het verloopt.
+     Elke 10 minuten nadat een URL is uitgeschakeld, proberen we het volgende bericht te leveren dat wordt weergegeven voor verwerking. Als dat bericht slaagt, dan re-toelaten wij die URL en om het even welke passende abonnementen. Als dat bericht niet verzendt, dan stelt die tijdopnemer 10 minuten terug en wij proberen opnieuw nadat het verloopt.
 
-      Dit gedrag kan worden gezien als inconsistente of vertraagde leveringen, maar het volgt eenvoudig ons beleid voor hoe de berichten van het Abonnement van de Gebeurtenis worden behandeld.
+     Dit gedrag kan worden gezien als inconsistente of vertraagde leveringen, maar het volgt eenvoudig ons beleid voor hoe de berichten van het Abonnement van de Gebeurtenis worden behandeld.
 
    * Een URL voor een abonnement op een gebeurtenis wordt hard uitgeschakeld als aan een van de volgende voorwaarden wordt voldaan:
 
@@ -74,17 +75,17 @@ Sommige van de volgende scenario&#39;s kunnen verantwoordelijk zijn:
 
 Neem contact op met Workfront Support. Ga voor meer informatie over contact met ondersteuning naar [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-## Welke verschillende soorten authentificatie kan ik met de Abonnementen van de Gebeurtenis van Workfront gebruiken?
+## Welke verschillende verificatietypen kan ik gebruiken met Workfront Event Subscriptions?
 
-U kunt om het even welke authentificatie gebruiken die een dragertoken gebruikt. De **authToken** Het veld van een abonnement is een tekenreeks die een token vertegenwoordigt dat wordt gebruikt voor verificatie met de URL die is opgegeven in het dialoogvenster **url** veld. In theorie zou deze symbolische waarde om het even wat kunnen zijn zolang het bestemmingspunt zich van bewust is hoe te om zijn het coderen te behandelen, die is **utf-8**.
+U kunt om het even welke authentificatie gebruiken die een dragertoken gebruikt. De **authToken** Het veld van een abonnement is een tekenreeks die een token vertegenwoordigt dat wordt gebruikt voor verificatie met de URL die is opgegeven in het dialoogvenster **url** veld. In theorie zou deze symbolische waarde om het even wat kunnen zijn zolang het bestemmingspunt zich van bewust is hoe te om zijn het coderen te behandelen, wat is **utf-8**.
 
 ## Hoe lang moet het zijn voordat ik mijn gebeurtenislading van Workfront Event Abonnementen ontvang?
 
-Over het algemeen kunt u verwachten dat u binnen minder dan 5 seconden na de gegevenswijziging die wordt geregistreerd gebeurtenisleveringsverzoeken voor het abonnement op gebeurtenissen ontvangt. Gemiddeld worden webhaakmeldingen binnen 1 seconde ontvangen vanaf het moment dat de gegevens worden gewijzigd. Nochtans, kan de dienst berichten in zulke grote hoeveelheden ontvangen dat het ook langer zou kunnen duren.
+Over het algemeen kunt u verwachten dat u binnen minder dan 5 seconden na de gegevenswijziging die wordt geregistreerd, gebeurtenisleveringsverzoeken voor het abonnement op gebeurtenissen ontvangt. Gemiddeld worden webhaakmeldingen binnen 1 seconde ontvangen vanaf het moment dat de gegevens worden gewijzigd. Nochtans, kan de dienst berichten in zulke grote hoeveelheden ontvangen dat het ook langer zou kunnen duren.
 
 ## Aanvullende bronnen
 
-* **API-documentatie**: [Event Subscription API](../../wf-api/general/event-subs-api.md)
+* **API-documentatie**: [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md)
 
 * **Aanbevolen procedures**: [Aanbevolen werkwijzen voor abonnementen op gebeurtenissen](../../wf-api/general/event-sub-best-practice.md)
 

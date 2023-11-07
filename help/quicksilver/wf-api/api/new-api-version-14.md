@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nieuw in API-versie 14
+title: Nieuwe functies in API-versie 14
 description: Adobe Workfront heeft API-versie 14 uitgebracht op 9 september 2021. API-versie 14 heeft de volgende wijzigingen ten opzichte van versie 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
 
 ---
 
-# Nieuw in API-versie 14
+# Nieuwe functies in API-versie 14
 
 Adobe Workfront heeft API-versie 14 uitgebracht op 9 september 2021. API-versie 14 heeft de volgende wijzigingen ten opzichte van versie 14.
 
@@ -135,7 +136,7 @@ Het object CustomEnum helpt bij het omzetten van statuscodes in leesbare tekst.
 
 ### Klant (CUST) {#customer-cust}
 
-Een object Customer vertegenwoordigt een organisatie die een instantie van Workfront gebruikt.
+Een object van de Klant vertegenwoordigt een organisatie die een instantie van Workfront gebruikt.
 
 Dit is een intern object.
 
@@ -245,7 +246,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het gebied van de Desk van de Hulp is gepubliceerd om gebruikers toe te staan om kwesties aan het voor te leggen.
 
-Voor meer informatie over de Queuges van het Verzoek, zie [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -271,7 +272,7 @@ Het object Resource Allocation heeft de markering verwijderd **RAPPORTAGE**.
 
 Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaardigheid die een gebruiker zou kunnen opvullen, zoals Designer of Product Manager.
 
-Voor informatie over taakrollen raadpleegt u [Overzicht van taakrollen](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+Zie voor informatie over taakrollen [Overzicht van de taakrol](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

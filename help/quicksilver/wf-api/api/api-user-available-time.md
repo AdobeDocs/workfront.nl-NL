@@ -5,8 +5,9 @@ title: Gebruikers beschikbare tijd-API ophalen
 description: Gebruikers beschikbare tijd-API ophalen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
@@ -75,4 +76,4 @@ Het gebruikers beschikbare tijdeindpunt wint gegevens over de beschikbare tijd v
 ## Responsparameters
 
 * **AVL**: Werkelijke beschikbare uren. Array met getallen.
-* **PAVL**: Zuiver beschikbare uren voor het plannen die niet niet het niet-werkdagen of gebruikerstijd weg omvatten. Tekenreeks.
+* **PAVL**: Zuiver beschikbare uren voor het plannen die geen niet-werkdagen of gebruikerstijd weg omvatten. String.

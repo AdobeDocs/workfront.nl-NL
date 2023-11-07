@@ -5,8 +5,9 @@ title: Integraties bijwerken die standaard-API-versies gebruiken
 description: Integraties bijwerken die standaard-API-versies gebruiken
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%

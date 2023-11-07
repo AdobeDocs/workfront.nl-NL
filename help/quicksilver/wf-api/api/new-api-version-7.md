@@ -5,10 +5,11 @@ title: Nieuw in API-versie 7
 description: Verzamelingen
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 | dodeLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocMetadataLink
 
@@ -117,7 +118,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Zoeken |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Goedkeuring proef
 
@@ -128,7 +129,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Zoeken |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -144,7 +145,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Zoeken |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -156,7 +157,7 @@ ht-degree: 0%
 | isOwner  | user  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -174,7 +175,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | Zoeken |
 |   |   |   |   |   |   | Vervangen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -192,7 +193,7 @@ ht-degree: 0%
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -205,7 +206,7 @@ ht-degree: 0%
 | pageID  |   |   |   |   |   | Rapport |
 | url  |   |   |   |   |   | Zoeken |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,17 +216,17 @@ ht-degree: 0%
 
 ## Bijgewerkte objecten
 
-Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, verwijderingen hebben doorhaling, veranderingen in bestaand hebben een nota in bijlage na de lijst
+Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwijderingen zijn doorgehaald, wijzigingen in bestaande objecten hebben een gekoppelde notitie na de tabel
 
 ### UpdateBean
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden 
+<sup>1</sup> Wijzigingen in mogelijke waarden 
 
  
 
@@ -234,16 +235,16 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### AccessRule<sup>1</sup>
 
-¹ Gemarkeerd als te rapporteren
+<sup>1</sup> Gemarkeerd als te rapporteren
 
  
 
@@ -253,11 +254,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### Goedkeuringspad¹
+### Goedkeuringspad<sup>1</sup>
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
@@ -265,9 +266,9 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Te rapporteren vlag verwijderd
+<sup>1</sup> Te rapporteren vlag verwijderd
 
  
 
@@ -279,11 +280,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Datum van validatie toegevoegd
+<sup>1</sup> Datum van validatie toegevoegd
 
-² Niet_Filterbare vlag toegevoegd
+<sup>2</sup> Niet_filterbare vlag toegevoegd
 
  
 
@@ -291,13 +292,13 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnprojects¹ |   |   |
-|   |   |   |   | swapUsersOnProjecten¹ |   |   |
-|   |   |   |   | unassignUserFromprojects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnprojects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjecten<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromprojects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Extra veld includeIssues
+<sup>1</sup> IncludeIssues toegevoegd veld
 
  
 
@@ -305,11 +306,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden 
+<sup>1</sup> Wijzigingen in mogelijke waarden 
 
  
 
@@ -319,7 +320,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -329,7 +330,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -339,7 +340,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -350,9 +351,9 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | isPublic |  layoutTemplate | usergroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Gewijzigde PRECISION-validator voor 8 t/m 9
+<sup>1</sup> Gewijzigde PRECISION-validator voor 8-9
 
  
 
@@ -366,7 +367,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -374,11 +375,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
 
  
 
@@ -389,7 +390,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -402,7 +403,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -414,7 +415,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -424,7 +425,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -434,7 +435,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -446,7 +447,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -454,11 +455,11 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Type gewijzigd van Int in Double 
+<sup>1</sup> Tekst gewijzigd van Int in Double 
 
  
 
@@ -551,7 +552,7 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -563,6 +564,6 @@ Wijzigingen in bestaande objecten: de toevoegingen worden eenvoudig vermeld, ver
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Wijzigingen in mogelijke waarden
+<sup>1</sup> Wijzigingen in mogelijke waarden
