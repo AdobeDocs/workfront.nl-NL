@@ -7,7 +7,7 @@ description: Toewijzing is het proces om de output van een module, gestructureer
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 0%
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -72,19 +72,19 @@ De uitvoer van een module verkennen:
 
 >[!INFO]
 >
->**Voorbeeld:** In dit voorbeeld wordt de module getoond [!UICONTROL Email] > [!UICONTROL Watch emails]. U kunt zien dat het 1 verrichting uitvoerde die één enkele bundel produceerde die diverse punten zoals bevat `Date`, `Email ID (UID)`, `size`, enzovoort.
+>**Voorbeeld:** Dit voorbeeld toont de module [!UICONTROL Email] > [!UICONTROL Watch emails]. U kunt zien dat het 1 verrichting uitvoerde die één enkele bundel produceerde die diverse punten zoals bevat `Date`, `Email ID (UID)`, `size`, enzovoort.
 >
 >![](assets/watch-emails-350x298.png)
 
 >[!NOTE]
 >
->De output van modules tussen verpakt [!UICONTROL Iterator] en [!UICONTROL Aggregator] niet toegankelijk zijn buiten de [!UICONTROL Aggregator] module.
+>De output van modules tussen verpakt [!UICONTROL Iterator] en [!UICONTROL Aggregator] niet toegankelijk zijn buiten [!UICONTROL Aggregator] -module.
 
 ## Een item toewijzen
 
 Nadat u een opeenvolging van modules door twee of meer van hen te verbinden hebt gecreeerd, kan elke module waarden van punten verwerken die door de modules worden uitgevoerd die het voorafgaan.
 
-De items toewijzen aan de invoervelden van een module:
+Om de punten aan de inputgebieden van een module toe te wijzen:
 
 1. Klik op de module die de output van de voorafgaande module of modules zou moeten verwerken.
 1. Klik in het deelvenster Moduleinstellingen dat wordt weergegeven op een veld waar u de waarde wilt gebruiken van een item dat is uitgevoerd vanuit een of meer voorgaande modules.
@@ -102,7 +102,7 @@ Zie voor meer informatie [De instellingen van een module configureren in [!DNL A
 
 U kunt veelvoudige punten in een gebied in kaart brengen, hen combineren met literals (vaste waarden), en exploitanten en Functies in dienst nemen om complexe formules te bouwen:
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 U vindt de functies en operatoren in het deelvenster Toewijzing onder een van de tabbladen.
 
@@ -143,7 +143,7 @@ U kunt een [!UICONTROL collection] Typ item door de kleine zwarte rechthoek rech
 >
 >In de meeste gevallen wijst u de subitems van de verzameling toe in plaats van het item dat de gehele verzameling vertegenwoordigt.
 
-Voor meer informatie over verzamelingen raadpleegt u [Gegevenstypen item in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+Zie voor meer informatie over verzamelingen [Gegevenstypen item in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ## Arrays
 
@@ -161,7 +161,7 @@ Als u een array toewijst `Recipient name` item, wordt het als volgt in het veld 
 
 ![](assets/map-array-1st-element.png)
 
-Het getal tussen de vierkante haakjes is een index die bepaalt welk element van de array wordt gebruikt. Deze is standaard ingesteld op 1.
+Het getal tussen de vierkante haakjes is een index die bepaalt welk element van de array wordt gebruikt. De standaardwaarde is 1.
 
 ### Het n-de element van een array toewijzen
 
@@ -202,9 +202,9 @@ Hieronder volgt een gedetailleerde uitsplitsing van de formule:
 
 1. De vierde parameter is de opgegeven sleutelwaarde.
 
-Omdat `map()` functie retourneert een array (aangezien er meer elementen met de opgegeven sleutelwaarde kunnen zijn), is het nodig om de `get()` functie om het eerste element op te halen:
+Omdat de `map()` functie retourneert een array (aangezien er meer elementen met de opgegeven sleutelwaarde kunnen zijn), is het nodig om de `get()` functie om het eerste element op te halen:
 
-* De eerste parameter van de `get()` is het resultaat van de `map()` functie.
+* De eerste parameter van de `get()` functie is het resultaat van de `map()` functie.
 
 * De tweede parameter is de index van het element - één.
 
@@ -212,9 +212,9 @@ Voor meer informatie over de `map()` functie, zie [Arrayfuncties in [!DNL Adobe 
 
 Voor meer informatie over de `get()` functie, zie [Algemene functies in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
-## Elementen omzetten in een reeks bundels
+## Elementen omzetten in een reeks pakketten
 
-Arrays kunnen in een reeks bundels worden omgezet met behulp van de [!UICONTROL Iterator] module. Zie voor meer informatie [[!UICONTROL Iterator] module in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+Arrays kunnen in een reeks bundels worden omgezet met behulp van de [!UICONTROL Iterator] -module. Zie voor meer informatie [[!UICONTROL Iterator] module in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles-350x169.png)
 
@@ -226,7 +226,7 @@ In het deelvenster Toewijzing worden voor elke module alle uitvoeritems weergege
 
 #### Instant trigger
 
-1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het menu dat wordt weergegeven.
+1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het weergegeven menu.
 
    Als er geen webhooks in de wachtrij zijn, wacht de module tot een nieuwe webhaak wordt verwerkt.
 
@@ -240,8 +240,8 @@ In het deelvenster Toewijzing worden voor elke module alle uitvoeritems weergege
 
 #### Opiniepeilingtrigger
 
-1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het menu dat wordt weergegeven.
-1. Als er geen uitvoer is, klikt u op **[!UICONTROL Choose where to start]** en pas de instellingen aan.
+1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het weergegeven menu.
+1. Als er geen uitvoer is, klikt u **[!UICONTROL Choose where to start]** en pas de instellingen aan.
 1. Als er geen gebeurtenis moet worden verwerkt, maakt u er een en gaat u terug naar stap 2.
 
    De module Webhaak **[!UICONTROL Gmail]>[!UICONTROL Watch emails]** verzendt een e-mail naar de map die de module volgt.
@@ -260,9 +260,9 @@ U kunt kiezen om uit te voeren:
 
 * Alleen de enkele module
 
-Als u ervoor kiest alleen de enkele module uit te voeren:
+Als u ervoor kiest om alleen de enkele module uit te voeren:
 
-1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het menu dat wordt weergegeven..
+1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het menu dat wordt weergegeven.
 1. Geef voorbeeldwaarden op voor de invoeritems en klik vervolgens op **[!UICONTROL OK]** .
 1. Wanneer de module eindigt lopend, klik de bel boven de module om zijn volledige output te onderzoeken.
 
