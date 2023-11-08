@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Weergave: tijd- en datumverschillen berekenen"'
-description: 'U kunt het verschil berekenen tussen: BEWERK ME.'
+title: 'Weergave: tijd- en datumverschillen berekenen'
+description: Bouw een mening die het verschil tussen twee datumgebieden op een voorwerp of tussen een datumgebied op een voorwerp en een ander datumgebied op het oudervoorwerp toont.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,14 +106,14 @@ Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van ee
 
    * U kunt als volgt het verschil weergeven tussen de geplande uitvoeringsdatum van het project en die van de taak:
 
-      ```
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
-      ```
+     ```
+     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+     ```
 
    * U kunt als volgt het verschil weergeven tussen de geplande voltooiingsdatum van de bovenliggende taak en die van de taak:
 
-      ```
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
-      ```
+     ```
+     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+     ```
 
 1. Klikken **Opslaan** vervolgens **Weergave opslaan**.

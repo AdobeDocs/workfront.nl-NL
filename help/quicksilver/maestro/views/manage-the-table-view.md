@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2069'
 ht-degree: 0%
 
 ---
@@ -319,45 +319,55 @@ Een filter toevoegen aan een tabelweergave:
 
 1. (Optioneel) Klik op **Filters** en klik vervolgens op de knop **x** pictogram om een filter te verwijderen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### Groepen toevoegen {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+U kunt records groeperen aan de hand van vergelijkbare informatie wanneer u een groepering toepast op een weergave.
 
-You can group records by similar information when applying  a grouping to a view.
+Het toevoegen van groepen in de tabelweergave lijkt op het toevoegen van groepen aan de tijdlijnweergave.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+Overweeg het volgende:
 
-Consider the following:
+* U kunt groepen toepassen in de tabel- en tijdlijnweergave. De groepen van de tabelweergave zijn onafhankelijk van de groepen in de tijdlijnweergave van hetzelfde recordtype.
+* U kunt drie niveaus van groepering in een mening van Maestro toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
+&lt;!—* U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API. —deze nu controleren—>
+* De groepen zijn uniek voor de weergave die u selecteert. Op twee tabelweergaven van hetzelfde recordtype kunnen verschillende groepen worden toegepast. Twee gebruikers die naar dezelfde tabelweergave kijken, zien dezelfde groepering die momenteel wordt toegepast.
+* U kunt de groepen die u maakt voor een tabelweergave niet een naam geven.
+* Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
+* U kunt records bewerken die in een groep worden vermeld.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+Een groep toevoegen:
 
-To add a grouping:
+1. Een tijdlijnweergave maken voor een recordtype, zoals beschreven in het artikel [Recordweergaven beheren](../views/manage-record-views.md).
+1. Klikken **Groepering** in de rechterbovenhoek van de tijdlijnweergave.
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. Klik op een van de voorgestelde velden of klik op **Een ander veld kiezen**, zoek naar een ander veld en klik op het veld wanneer het in de lijst wordt weergegeven.
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >U kunt geen gekoppelde velden selecteren.
 
--->
+   De groepering wordt automatisch toegepast op de tabel en records worden weergegeven onder de scheidingslijn voor cijfergroepering.
+
+1. (Optioneel) Herhaal de bovenstaande stappen om maximaal drie groepen samen te voegen.
+
+   Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. (Optioneel) Binnen de **Records groeperen op** klikt u op **x** pictogram rechts van een veld dat is geselecteerd voor de groep om de groep te verwijderen
+
+   of
+
+   Klikken **Alles wissen** alle velden verwijderen.
+
+1. Klik buiten de **Records groeperen op** te sluiten.
+1. (Optioneel) Klik op **+ Nieuw &lt; Naam recordtype >** aan het einde van een groepering om nieuwe records toe te voegen, vernieuwt u de pagina om de nieuwe record aan de juiste groepering toe te voegen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Een sortering toevoegen {#sort-information}
 

@@ -1,13 +1,13 @@
 ---
 title: Adobe Maestro-releaseactiviteit
-description: Gebruik Maestro om aangepaste objecten, velden en werkruimten te maken.
+description: Adobe Maestro is momenteel beschikbaar voor het selecteren van Workfront-klanten. Lees dit artikel vaak voor meer informatie over de functies die onlangs voor Adobe Maestro zijn uitgebracht.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ De vrijgegeven functies worden weergegeven in de volgorde van hun release, met d
 Deze sectie bevat een overzicht van de functies en patches die zijn uitgebracht na de start van het gesloten bètaprogramma van Maestro op 22 mei 2023.
 
 De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma van Maestro hebben toegang tot alle functies in hun voorproef- en productieomgeving.
+
+## Week van 6 november 2023
+
+### Groeperen voor de tabelweergave
+
+Voorbeeld en productie: 7 november 2023
+
+U kunt nu records groeperen in de tabelweergave van een recordtypepagina. U kunt groeperen door drie unieke gebieden in de interface van Maestro <!--checking into this for now: and by four fields when using the API-->.
+
+Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
 
 ## Week van 30 oktober 2023
 

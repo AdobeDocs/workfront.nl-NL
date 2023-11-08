@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 0%
 
 Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in specificeren [!DNL Workfront] om te bepalen welke punten timesheets met kunnen vooraf invullen en welke punten gebruikers tijd aan registreren kunnen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->De punten waarvoor u tijd tijdens het tijdkader van de timesheet vertoning in timesheet door gebrek registreerde, hoewel zij niet aan de voorwaarden zouden kunnen voldoen die in dit artikel worden beschreven voor het vooraf invullen van timesheet.
+>Naast de punten die een timesheet volgens de voorwaarden vooraf invullen die in dit artikel worden beschreven, tonen de volgende punten ook op timesheets door gebrek:
+>* Punten waarvoor u tijd tijdens het tijdkader van timesheet registreerde
+>* Items die zijn vastgezet aan de tijdpagina
+>* Items die u zoekt en die u handmatig toevoegt aan de tijdpagina. Items die handmatig worden toegevoegd, worden standaard vastgezet.
 >
->Voor informatie over logboektijd, zie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 Alle wijzigingen die u aanbrengt in tijdbladen, zijn van invloed op alle tijdbladen die in de toekomst worden gemaakt.
