@@ -5,14 +5,19 @@ title: Subtaken beheren op tekengebieden
 description: Het gebruiken van subtaken op kaarten staat u toe om een ouder-kind verhouding tussen taken te vestigen en een hiërarchie van het werk tot stand te brengen.
 author: Lisa
 feature: Agile
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
+source-git-commit: 7a48179ad113c57fe6588a32de86aaf8836f586e
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Subtaken beheren op tekengebieden
+
+>[!IMPORTANT]
+>
+>Subtaken op kaarten zijn tijdelijk niet beschikbaar vanaf 7 november 2023.
 
 Het gebruiken van subtaken op kaarten staat u toe om een ouder-kind verhouding tussen taken te vestigen en een hiërarchie van het werk tot stand te brengen. Een subtaak die u toevoegt aan een kaart op een Workfront-board, wordt ook toegevoegd aan de taak in het Workfront-project. Voor meer informatie over subtaken en taken op het projectniveau, zie [Subtaken maken](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

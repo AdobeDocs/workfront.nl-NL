@@ -3,9 +3,10 @@ title: Verbeteringen van de kamers in het vierde kwartaal van 2023
 description: Verbeteringen van de kamers in het vierde kwartaal van 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 4a527328-df5d-446a-899c-a613131c7001
+source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,10 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 Zie voor meer informatie over hoe u zich vóór de driemaandelijkse release kunt aanmelden bij nieuwe functies in de raden van bestuur [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Subtaken zijn nu beschikbaar op Adobe Workfront-borden
+
+>[!NOTE]
+>
+>Deze functie is tijdelijk niet beschikbaar vanaf 7 november 2023. Deze pagina wordt bijgewerkt wanneer de functie beschikbaar is.
 
 Wanneer u een aangesloten kaart aan een raad voor een taak van Workfront toevoegt, worden om het even welke bestaande subtaken ingevoerd op de kaart. Wanneer u een subtaak maakt op een aangesloten kaart, wordt bovendien een subtaak toegevoegd aan de Workfront-taak.
 
