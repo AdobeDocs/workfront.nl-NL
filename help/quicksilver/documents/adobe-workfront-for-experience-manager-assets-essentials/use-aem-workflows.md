@@ -6,16 +6,14 @@ description: Workflows gebruiken in de integratie met Experience Manager Assets 
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
 
 # Workflows gebruiken in de Experience Manager Assets-integratie
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Een Workfront-beheerder kan workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
 
@@ -147,8 +145,6 @@ De workflow voor gekoppelde mappen bewerken:
 
 #### Elementen publiceren
 
-<div class="preview">
-
 De workflow voor het publiceren van elementen bewerken:
 
 1. Schakelen **Elementen automatisch publiceren** aan of uit naar wens.
@@ -159,4 +155,4 @@ De workflow voor het publiceren van elementen bewerken:
 
    Als u zich in de [!DNL Adobe Experience Manager area]worden de wijzigingen automatisch opgeslagen. <!--Do they though?-->
 
-</div>
+
