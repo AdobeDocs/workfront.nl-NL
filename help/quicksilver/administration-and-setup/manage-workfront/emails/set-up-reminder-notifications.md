@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -109,13 +109,13 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
       <td role="rowheader">Criteria</td> 
       <td> <p>Selecteer de criteria om de te plannen herinneringsmelding te kwalificeren. Herinneringsmeldingen worden alleen gepland als aan de geselecteerde criteria is voldaan.</p> <p>De volgende opties voor criteria zijn beschikbaar, afhankelijk van het objecttype dat u hebt geselecteerd in Stap 4:</p> 
        <ul> 
-        <li><strong>Onvolledig in huidige projecten:</strong> (Beschikbaar voor taak- en uitgifteherinneringen) De herinneringsmelding wordt alleen verzonden wanneer de objectstatus waaraan de herinneringsmelding is gekoppeld, niet voltooid is en de projectstatus Actief is.</li> 
-        <li><strong>Alles in huidige projecten:</strong>(Beschikbaar voor taak- en uitgifteherinneringen) De herinneringsmelding wordt alleen verzonden wanneer de objectstatus en de projectstatus waaraan de herinneringsmelding is gekoppeld Actief zijn.</li> 
-        <li><strong>Onvolledige projecten:</strong> (Beschikbaar voor herinneringen aan projecten) De herinneringsmelding wordt verzonden wanneer de status van het project slechts voltooid is.</li> 
-        <li><strong>Voltooide projecten:</strong> (Beschikbaar voor herinneringen aan het project) De herinneringsmelding wordt verzonden wanneer de status van het project Voltooid is.</li> 
-        <li><strong>Tijdbladen openen:</strong> (Beschikbaar voor herinneringen op het tijdschrift) Het herinneringsbericht zal worden verzonden wanneer de status van het tijdschrift Open is.</li> 
-        <li><strong>Verzonden tijdbladen:</strong> (Beschikbaar voor tijdlijnherinneringen) Het herinneringsbericht is gepland om te worden verzonden wanneer de timesheet status wordt voorgelegd.</li> 
-        <li><strong>Openingstijdschema of minder dan 40 uur per week:</strong> (Beschikbaar voor tijdlijnherinneringen) Het herinneringsbericht is gepland om worden verzonden wanneer de timesheet status Open is of wanneer timesheet minder dan 40 geregistreerde uren heeft.</li> 
+        <li><strong>Onvolledig in huidige projecten:</strong> <i>(Beschikbaar voor herinneringen voor taken en uitgaven)</i> De herinneringsmelding wordt alleen verzonden wanneer de objectstatus waaraan de herinneringsmelding is gekoppeld, niet Voltooid is en de projectstatus Huidig is.</li> 
+        <li><strong>Alles in huidige projecten:</strong> <i>(Beschikbaar voor herinneringen voor taken en uitgaven)</i> De herinneringsmelding wordt gepland om ongeacht de objecten status en slechts te worden verzonden wanneer de projectstatus waaraan de herinnering bericht wordt geassocieerd Huidig is.</li> 
+        <li><strong>Onvolledige projecten:</strong> <i>(Beschikbaar voor herinneringen aan projecten)</i> De herinneringsmelding wordt verzonden wanneer de status van het project om het even wat behalve Voltooid is.</li> 
+        <li><strong>Alle projecten:</strong> <i>(Beschikbaar voor herinneringen aan projecten)</i> De herinneringsmelding wordt verzonden ongeacht de projectstatus.</li> 
+        <li><strong>Tijdbladen openen:</strong> <i>(Beschikbaar voor herinneringen aan tijdbladen)</i> De melding voor de herinnering wordt verzonden wanneer de status van het tijdschrift Open is.</li> 
+        <li><strong>Verzonden tijdbladen:</strong> <i>(Beschikbaar voor herinneringen aan tijdbladen)</i> De herinneringsmelding zal worden verzonden wanneer de timesbladstatus wordt verzonden.</li> 
+        <li><strong>Openingstijdschema of minder dan 40 uur per week:</strong> <i>(Beschikbaar voor herinneringen aan tijdbladen)</i> Het herinneringsbericht zal worden verzonden wanneer de timesheet status Open is of wanneer timesheet minder dan 40 geregistreerde uren heeft.</li> 
         <li><strong>E-mailsjabloon:</strong> Selecteer in de vervolgkeuzelijst een e-mailsjabloon die u aan de herinnering wilt toevoegen.<br>Voor informatie over het bouwen van een e-mailsjabloon raadpleegt u <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">E-mailsjablonen configureren</a>.</li> 
        </ul> </td> 
      </tr> 

@@ -6,9 +6,9 @@ description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
     De taken van vertoningen die aan u in een lijst met klantgerichte filters, meningen, en groeperingen, evenals een knoop worden toegewezen om een nieuwe taak direct tot stand te brengen.
 
 * **Mijn problemen**\
-    Hiermee geeft u problemen weer die aan u zijn toegewezen in een tabel met aanpasbare filters, weergaven en groepen, alsmede een knop om een nieuwe uitgave rechtstreeks te maken.
+    Hiermee geeft u problemen weer die aan u zijn toegewezen in een tabel met aanpasbare filters, weergaven en groepen, alsmede een knop om een nieuwe uitgave rechtstreeks te maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig.
 
 * **Mijn verzoeken**\
     Toont alle verzoeken u hebt voorgelegd, een filter om open verzoeken slechts te tonen, en een knoop die de summiere ruit voor een verzoek opent.
