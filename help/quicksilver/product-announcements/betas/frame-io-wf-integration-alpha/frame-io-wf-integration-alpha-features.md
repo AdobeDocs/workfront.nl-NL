@@ -7,17 +7,15 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
+exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
+source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
-
-# Standaard Adobe Workfront- en Frame.io-integratie alfa: functies
-
-## Gebruik hoofdletters en kleine letters en functie testen
+# Standaard Adobe Workfront- en Frame.io-integratie alfa: functies en testen
 
 Met deze integratie willen we creatieve mensen in staat stellen om in hun keuze (CC of Frame.io) te blijven voor het maken van inhoud en collegiale toetsingen, terwijl we tegelijkertijd projectmanagers hebben die het werk coördineren en het formele evaluatieproces vanuit Workfront initialiseren en controleren. Dit kan worden bereikt door de beste van beide oplossingen te gebruiken: Workfront-goedkeuringen voor nieuwe documenten voor het beheer van goedkeuringen van inhoud, in combinatie met de mogelijkheden voor inhoudsrevisie die Frame.io biedt. De nieuwe goedkeuringen voor documenten en Frame.io vormen samen onze nieuwe complete ervaring voor het beoordelen en goedkeuren van inhoud. 
 
@@ -28,38 +26,39 @@ Ga voor meer informatie over de werking van de alfa en de manier waarop u kunt d
 >
 >Als u deze pagina&#39;s tegenkomt zonder dat uw bedrijf deelneemt aan dit alpha-programma, moet u de informatie hier zorgvuldig behandelen en contact opnemen met uw Workfront of Frame.io-beheerder voor meer informatie.
 
-<!--Initial setup and basic test scenario 
+## Basis testscenario
 
-As part of the alpha program, we've provisioned a new test Frame.io account for you and connected it to a new group "Frame.io alpha testing" in your existing Workfront Preview or Sandbox environment. To test the delivered functionality please log in to your Workfront Preview or Sandbox instance and  perform the following steps: 
+Om u toe te staan om de nieuwe eigenschappen van het alpha- programma gemakkelijk te testen, hebben wij een nieuw testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io alpha testing` in uw bestaande Workfront Preview- of Sandbox-omgeving.
 
-Coordinators: Within Workfront, create a project with the "Frame.io alpha testing" group assigned as project group 
+Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende stappen uit om de functionaliteit te testen:
 
-Coordinators: Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current" 
+1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io alpha testing` groep die als projectgroep wordt toegewezen.
 
-Creatives: Check your emails for an invite to the newly created Frame.io project 
+1. **Coördinatoren:** Wijs binnen Workfront uw creatieve items toe aan de taken waarvoor het project of frame is ingeschakeld en wijzig de projectstatus in &quot;Current&quot; (Huidig).
 
-Creatives: Click on the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your CC tool of choice 
+1. **Creatieve producten:** Controleer uw e-mails voor een uitnodiging tot het zojuist gemaakte Frame.io-project
 
-Creatives: Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame enabled tasks)  
+1. **Creatieve producten:** Klik op de knop &quot;Deelnemen aan project&quot; in de uitnodigings-e-mail om deel te nemen aan het Frame.io-project, bekijk de creatieve samenvatting in het project en start het maken van uw inhoud met het gereedschap Creative Cloud van keuze.
 
-Coordinators: Within Workfront, see the linked Frame.io assets in your project and assign reviewers / approvers (new document approvals: More help on this feature) 
+1. **Creatieve producten:** Upload uw gemaakte elementen naar Frame.io en voeg deze toe aan het gekoppelde Workfront-project (of aan toegewezen taken waarvoor Frame is ingeschakeld).
 
-Stakeholders: Withing Workfront, view your approval request in Workfront Home or Document Details and review the Frame connected document in the Frame.io Viewer. Leave a comment feedback 
+1. **Coördinatoren:** Zoek in Workfront naar de gekoppelde Frame.io-elementen in uw project en wijs revisoren/fiatteurs toe (voor meer informatie over het toewijzen van revisies/fiatteurs raadpleegt u [Extra fiatteurs of revisoren toevoegen aan een document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
-Coordinators: Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document in Workfront 
+1. **Belanghebbenden:** Bekijk in Workfront uw goedkeuringsaanvraag in Home- of Document Details en bekijk het document met Frame-verbinding in de Frame.io Viewer. Laat vervolgens een opmerking met feedback achter.
 
-Stakeholders: Make a decision from within the Frame.io Viewer 
+1. **Coördinatoren:** In Workfront kunt u de door de belanghebbende gemaakte opmerkingen weergeven in de sectie Updates van het document Frame.io.
 
-Creatives: Within Frame.io, notice the overall approval decision made for your assets 
+1. **Belanghebbenden:** Maak een beslissing vanuit de Frame.io Viewer.
 
-Creatives: Within Frame.io, Apply the requested changes by adding the updated version to the version stack of the connected asset 
+1. **Creatieve producten:** Merk in Frame.io het algemene goedkeuringsbesluit op dat voor uw elementen is genomen.
 
-Coordinators: Within Workfront, assign approvers / reviewers to the new version upload and monitor the progress until it reaches sign-off-->
+1. **Creatieve producten:** Pas in Frame.io de gewenste wijzigingen toe door de bijgewerkte versie toe te voegen aan de versiestapel van het gekoppelde element.
+
+1. **Coördinatoren:** Wijs in Workfront fiatteurs/revisoren toe aan de geüploade versie en controleer de voortgang totdat deze afmelding bereikt.
 
 ## Functieplannen
 
 Hieronder vindt u informatie over de gevallen van primair gebruik die we willen aanpakken en de kenmerken die we momenteel voor ogen hebben. <!--, along with documentation to get you started testing.-->
-
 
 ### Workfront-beheerders kunnen een verbinding instellen tussen Workfront-groepen en Frame.io-accounts
 
