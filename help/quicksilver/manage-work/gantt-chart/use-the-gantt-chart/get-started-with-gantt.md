@@ -2,126 +2,129 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Aan de slag met de [!UICONTROL Gantt] Diagram
-description: De Gantt-grafieken in Adobe Workfront geven een visuele weergave van een lijst met taken of projecten.
+description: De Gantt-grafieken in Adobe Workfront geven een visuele weergave van de tijdlijn van een lijst met taken of projecten.
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met de [!UICONTROL Gantt Chart]
 
-In [!DNL Adobe Workfront], er zijn twee [!UICONTROL Gantt charts] met vergelijkbare functionaliteit:
+De Gantt-grafieken in Adobe Workfront geven een visuele weergave van de tijdlijn van een lijst met taken of projecten.
 
-* De takenlijst [!UICONTROL Gantt Chart]: de vertoningeninformatie over taken op het projectniveau en is editable.
-* De projectlijst [!UICONTROL Gantt Chart]: geeft informatie weer over projecten en kan niet worden bewerkt.
+In [!DNL Adobe Workfront], er zijn twee [!UICONTROL Gantt Charts] met vergelijkbare functionaliteit:
 
-Hoewel ze er ongeveer hetzelfde uitzien, is de functionaliteit van elk model anders.
+* **De takenlijst[!UICONTROL Gantt Chart]**: geeft informatie weer over taken en de bijbehorende tijdlijn op projectniveau. Een soortgelijke [!UICONTROL Gantt Chart] geeft informatie over sjabloontaken weer op sjabloonniveau.
+* **De projectlijst[!UICONTROL Gantt Chart]**: geeft informatie weer over projecten en de bijbehorende tijdlijn.
 
-## Toegang krijgen tot [!UICONTROL Gantt Chart]
+Hoewel ze er ongeveer hetzelfde uitzien, is de functionaliteit van elke functie anders.
 
-De [!UICONTROL Gantt] grafieken in [!DNL Workfront]  een visuele weergave van een lijst met taken of projecten. U kunt de takenlijst weergeven [!UICONTROL Gantt Chart] rechtstreeks van de taaklijst op een project of van een taakrapport. U kunt de projectlijst weergeven [!UICONTROL Gantt Chart] in een projectlijst of een projectrapport.
+## Overwegingen bij de Gantt-grafiek
+
+* U kunt de informatie in het volgende document bewerken [!UICONTROL Gantt Chart]:
+   * Een takenlijst
+* U kunt de informatie in het volgende niet bewerken [!UICONTROL Gantt Charts]:
+   * Een sjabloontaaklijst
+   * Een projectlijst
+* Er is [!UICONTROL Gantt Chart] voor een lijst met sjablonen.
+* U kunt vormen welke informatie op beide takenlijst toont [!UICONTROL Gantt Chart] en de projectlijst [!UICONTROL Gantt Chart].
+* U kunt de kleuren of lettertypen waarin de [!UICONTROL Gantt chart] informatie wordt weergegeven.
+* Wanneer de informatie van taken wordt bijgewerkt, wordt het automatisch weerspiegeld in zowel de takenlijst [!UICONTROL Gantt Chart] en de projectlijst [!UICONTROL Gantt Chart].
+* Wanneer de informatie van de malplaatjetaken wordt bijgewerkt, wordt het automatisch weerspiegeld in de lijst van de malplaatjetaak [!UICONTROL Gantt Chart].
+
+## Toegang krijgen tot de [!UICONTROL Gantt Chart]
+
+De [!UICONTROL Gantt] grafieken in [!DNL Workfront]  een visuele weergave van een lijst met taken of projecten.
+
+U kunt de takenlijst weergeven [!UICONTROL Gantt Chart] rechtstreeks van de taaklijst op een project of van een taakrapport.
+
+U kunt de projectlijst weergeven [!UICONTROL Gantt Chart] in een projectlijst of een projectrapport.
 
 * [Takenlijst [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
 * [Projectlijst [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
 
 ### Takenlijst [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 
-De takenlijst [!UICONTROL Gantt Chart] is toegankelijk in de volgende gebieden:
+<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* Binnen een project
+* In a Project
 
-   * [!UICONTROL Tasks] gebied
-   * [!UICONTROL Subtasks] gebied
+   * [!UICONTROL Tasks] section
+   * [!UICONTROL Subtasks] section of a task
 
-* Binnen een sjabloon
+* In a [!UICONTROL Template]
 
-Toegang tot de takenlijst [!UICONTROL Gantt Chart], navigeert u naar een van de bovenstaande gebieden en klikt u op de knop [!UICONTROL Gantt Chart] pictogram.
+* In a [!UICONTROL Task] report-->
 
-![Klik op het pictogram Gantt-diagram](assets/click-gantt-chart-icon.png)
+Toegang krijgen tot de takenlijst [!UICONTROL Gantt Chart] van een project of een sjabloon:
+
+1. Ga naar een van de volgende gebieden:
+
+   * Een project, dan klik [!UICONTROL **Taken**] in het linkerdeelvenster.
+   * Een sjabloon en klik vervolgens op [!UICONTROL **Sjabloontaken**] in het linkerdeelvenster
+   * Een taak of malplaatjetaak, dan klik [!UICONTROL **Subtaken**] in het linkerdeelvenster.
+   * Een taakrapport
+
+1. Klik op de knop [!UICONTROL **Gantt**] pictogram ![](assets/gantt-icon-nwe.png) boven aan de takenlijst.
+
+   ![](assets/task-list-gantt.png)
+
+   De takenlijst [!UICONTROL Gantt Chart] wordt rechts van de takenlijst geopend.
+
+1. Om te vormen welke informatie u in de taak wilt tonen [!UICONTROL Gantt] grafiek, klik [!UICONTROL **Instellingen**] en schakel vervolgens een van de volgende opties in:
+
+   * [!UICONTROL Actual Dates]
+   * [!UICONTROL Assignments]
+   * [!UICONTROL Baseline]
+   * [!UICONTROL Commit Date]
+   * [!UICONTROL % Complete]
+   * [!UICONTROL Critical Path]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Milestone Lines]
+   * [!UICONTROL Predecessors]
+   * [!UICONTROL Progress Status]
+   * [!UICONTROL Projected Dates]
+
+1. Beginnen met het bewerken van de taken die in de volgende artikelen worden beschreven:
+
+   * [Vorm hoe de informatie op de Grafiek van Gantt toont](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
+   * [Informatie bijwerken in de Gantt-grafiek van de takenlijst](../use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ### Projectlijst [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 
-De projectlijst [!UICONTROL Gantt Chart] is toegankelijk in de volgende gebieden:
+<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* Binnen de [!UICONTROL Projects] gebied
-* Binnen een Portfolio
+* In the [!UICONTROL Projects] area
+* In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
+* In the [!UICONTROL Projects] section of a [!UICONTROL Program]
+* In a [!UICONTROL Project] report-->
 
-   * [!UICONTROL Projects] gebied
+Toegang krijgen tot de projectlijst [!UICONTROL Gantt Chart]:
 
-* Binnen een projectrapport
+1. Ga naar een van de volgende gebieden:
 
-   * Een project- of taakrapport
+   * De [!UICONTROL **Projecten**] gebied
+   * De [!UICONTROL **Projecten**] deel van [!UICONTROL Portfolio]
+   * De [!UICONTROL **Projecten**] deel van [!UICONTROL Program]
+   * A [!UICONTROL **Project**] verslag
 
-* Binnen een programma
+1. Klik op de knop [!UICONTROL **Gantt**] pictogram boven aan de projectlijst.
 
-   * In de [!UICONTROL Projects] gebied
+   ![](assets/project-list-gantt.png)
 
-Om toegang te krijgen tot [!UICONTROL project list Gantt Chart], navigeert u naar een van de bovenstaande gebieden en klikt u op de knop [!UICONTROL Gantt Chart] pictogram.
+   De projectlijst [!UICONTROL Gantt Chart] wordt geopend.
 
-![Klik op het pictogram Gantt-diagram](assets/click-gantt-chart-icon.png)
+1. Om te vormen welke informatie u in het project wilt tonen [!UICONTROL Gantt] grafiek, klik [!UICONTROL **Instellingen**] en schakel vervolgens een van de volgende opties in:
 
-## Configureer hoe informatie wordt weergegeven op het tabblad [!UICONTROL Gantt Chart]
-
-U kunt vormen welke informatie op beide takenlijst toont [!UICONTROL Gantt Chart] en de projectlijst [!UICONTROL Gantt Chart].\
-U kunt de kleuren of lettertypen waarin de [!UICONTROL Gantt chart] informatie wordt weergegeven.
-
-* [Takenlijst [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Projectlijst [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
-
-### Takenlijst [!UICONTROL Gantt Chart] {#task-list-gantt-chart-1}
-
-De volgende weergaveopties zijn beschikbaar in de takenlijst [!UICONTROL Gantt Chart]:
-
-* [!UICONTROL Actual Dates]
-* [!UICONTROL Assignments]
-* [!UICONTROL Baseline]
-* [!UICONTROL Commit Date]
-* [!UICONTROL % Complete]
-* [!UICONTROL Critical Path]
-* [!UICONTROL Milestone Diamonds]
-* [!UICONTROL Milestone Lines]
-* [!UICONTROL Predecessors]
-* [!UICONTROL Progress Status]
-* [!UICONTROL Projected dates]
-
-Voor gedetailleerde informatie over de hierboven vermelde weergaveopties raadpleegt u [Configureer hoe informatie wordt weergegeven op het tabblad [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-### Projectlijst [!UICONTROL Gantt Chart] {#project-list-gantt-chart-1}
-
-De volgende weergaveopties zijn beschikbaar in de projectlijst [!UICONTROL Gantt Chart]:
-
-* [!UICONTROL Actual Dates]
-* [!UICONTROL % Complete]
-* [!UICONTROL Milestone Diamonds]
-* [!UICONTROL Milestone Lines]
-* [!UICONTROL Predecessors]
-* [!UICONTROL Progress Status]
-* [!UICONTROL Projected Dates]
-
-Voor informatie over de hierboven vermelde weergaveopties raadpleegt u [Configureer hoe informatie wordt weergegeven op het tabblad [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-## Werk de [!UICONTROL Gantt Chart]
-
-Wanneer de informatie van de taaklijst wordt bijgewerkt, wordt het automatisch weerspiegeld in zowel de taaklijst [!UICONTROL Gantt Chart] en de projectlijst [!UICONTROL Gantt Chart].
-
-* [Takenlijst [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Projectlijst [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
-
-### Takenlijst [!UICONTROL Gantt Chart] {#task-list-gantt-chart-2}
-
-In een project kunt u de takenlijst bijwerken [!UICONTROL Gantt Chart] rechtstreeks van de [!UICONTROL Gantt chart] of uit de takenlijst. Zie voor meer informatie [Gegevens in de takenlijst bijwerken [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
-
-In een malplaatje, de taaklijst [!UICONTROL Gantt Chart] geeft de updates weer die zijn aangebracht in de takenlijst van de sjabloon. Dit [!UICONTROL Gantt chart] kan niet worden bewerkt.
-
-### Projectlijst [!UICONTROL Gantt Chart] {#project-list-gantt-chart-2}
-
-De [!UICONTROL project list Gantt Chart] geeft de updates weer die zijn aangebracht in de takenlijst van elk project. Dit [!UICONTROL Gantt chart] kan niet worden bewerkt.
-
-## Informatie weergeven op de [!UICONTROL Gantt Chart]
-
-De takenlijst [!UICONTROL Gantt Chart] en projectlijst [!UICONTROL Gantt Chart] informatie weergeven over taken en projecten. Zie voor meer informatie [Informatie weergeven in het dialoogvenster [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+   * [!UICONTROL Actual Dates]
+   * [!UICONTROL % Complete]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Milestone Lines]
+   * [!UICONTROL Predecessors]
+   * [!UICONTROL Progress Status]
+   * [!UICONTROL Projected Dates]

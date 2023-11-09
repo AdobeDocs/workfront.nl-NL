@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,7 @@ Een groep toevoegen in de tijdlijnweergave:
    Klikken **Alles wissen** alle velden verwijderen.
 
 1. Klik buiten de **Records groeperen op** te sluiten.
+1. (Optioneel) Klik op **Instellingen** vervolgens **Kleur** aan kleurcodenegroepen. Zie de klasse [De weergave-instellingen voor de tijdlijn bewerken](#edit-the-timeline-view-settings) in dit artikel.
 
 <!-- 
 

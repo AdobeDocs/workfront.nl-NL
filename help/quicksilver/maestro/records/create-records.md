@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt records maken in de tabelweergave van een pagina met recordtypen.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->en klik vervolgens op **Maestro** ![](assets/maestro-icon.png).
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture-and-fields/create-workspaces.md).
 1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture-and-fields/create-record-types.md).
 

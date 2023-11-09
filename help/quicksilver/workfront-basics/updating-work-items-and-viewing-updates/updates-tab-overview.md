@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -172,8 +172,11 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Tijdschema*</td> 
-   <td>Gebruiker, team</td> 
+   <td>Tijdschema</td> 
+   <td><p>Gebruiker, team</p>
+   <p><b>OPMERKING</b></p>
+   <p>De commentaren van de tijdspagina tonen in de sectie van Updates van de gebruiker die de commentaar en de sectie van Updates van hun Team van het Huis maakt.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Sjabloontaak</td> 
@@ -184,7 +187,7 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
    <td>Herhaling, team</td> 
   </tr> 
   <tr> 
-   <td>Iteratie*</td> 
+   <td>Iteratie</td> 
    <td>Team</td> 
   </tr>
 
@@ -198,7 +201,7 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
   </tr> 
  </tbody> 
 </table>
-* Deze zijn niet beschikbaar voor de nieuwe opmerkingervaring.
+
 
 <br>
 

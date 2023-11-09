@@ -2,26 +2,30 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Eigenaars en sponsors van projecten bijwerken
-description: Wanneer u een project in Adobe Workfront creeert, wordt u automatisch geplaatst als Eigenaar van het Project van het project. U kunt dit veld bijwerken met een andere gebruiker. U kunt ook het veld Projectsponsor van een project bijwerken.
+description: Als u een project maakt in Adobe Workfront, wordt u automatisch ingesteld als de eigenaar van het project. U kunt dit veld bijwerken met een andere gebruiker. U kunt ook het veld Projectsponsor van een project bijwerken.
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # Eigenaars en sponsors van projecten bijwerken
 
-Wanneer u een project in Adobe Workfront creeert, wordt u automatisch geplaatst als Eigenaar van het Project van het project. U kunt dit veld bijwerken met een andere gebruiker. U kunt ook het veld Projectsponsor van een project bijwerken.
+Als u een project maakt in Adobe Workfront, wordt u automatisch ingesteld als de eigenaar van het project. U kunt dit veld bijwerken met een andere gebruiker. U kunt ook het veld Projectsponsor van een project bijwerken.
 
 Voor informatie over eigenaars en sponsors van projecten raadpleegt u [Overzicht van eigenaars en sponsors van projecten](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
->U kunt een eigenaar en een sponsor voor een sjabloon identificeren. Wanneer u een project van dat malplaatje creeert, wordt de Eigenaar van het Malplaatje de Eigenaar van het Project en Sjabloonsponsor wordt de Sponsor van het Project. Voor informatie over het bewerken van sjablonen raadpleegt u [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>U kunt een eigenaar en een sponsor voor een sjabloon identificeren. Wanneer u een project van dat malplaatje creeert, wordt de Eigenaar van het Malplaatje de Eigenaar van het Project en Sjabloonsponsor wordt de Sponsor van het Project.
+>
+>Als het malplaatje geen Eigenaar heeft, wordt de gebruiker die het project van het teamplate leidt de Eigenaar van het Project.
+>
+>Zie voor informatie over het bewerken van sjablonen [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Toegangsvereisten
 
@@ -33,7 +37,7 @@ Voor informatie over eigenaars en sponsors van projecten raadpleegt u [Overzicht
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> <p>&nbsp;</p> </td> 
+   <td> <p>Any</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -64,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> <p> </p> </td> 
+   <td> <p>Alle</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -91,13 +95,13 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 
 1. Ga naar het project u wilt bijwerken.
 1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. Klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png) in de rechterbovenhoek van het gebied Projectdetails klikt u op **Overzicht**.
+1. Klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png) in de rechterbovenhoek van het gebied Projectdetails klikt u op  **Overzicht**.
 
 1. Geef de naam van een gebruiker voor de **Projecteigenaar** veld.
 
    Alleen actieve gebruikers kunnen worden opgegeven als eigenaars van projecten.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klikken  **Wijzigingen opslaan**.
 
    De eigenaar van het Project werkt in de projectkopbal en in het gebied van de Details van het Project bij.
 
@@ -113,13 +117,13 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 
 1. Ga naar het project dat u wilt bijwerken.
 1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. Klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png) in de rechterbovenhoek van het gebied Projectdetails klikt u op **Overzicht**.
+1. Klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png) in de rechterbovenhoek van het gebied Projectdetails klikt u op  **Overzicht**.
 
 1. Geef de naam van een gebruiker voor de **Projectsponsor** veld.
 
    Alleen actieve gebruikers kunnen worden opgegeven als projectsponsors.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klikken  **Wijzigingen opslaan**.
 
    De projectsponsor werkt bij in het gebied Projectdetails.
 

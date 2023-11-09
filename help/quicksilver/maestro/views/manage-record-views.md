@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel- en
 
 ## Weergaven maken of bewerken {#create-or-edit-views}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->en klik vervolgens op **Maestro** ![](assets/maestro-icon.png).
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture-and-fields/create-workspaces.md).
 1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture-and-fields/create-record-types.md).
 
