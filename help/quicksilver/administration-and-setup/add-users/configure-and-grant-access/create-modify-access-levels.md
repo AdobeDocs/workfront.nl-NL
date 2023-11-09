@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Aangepaste toegangsniveaus maken en wijzigen
 
-<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
 Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze op gebruikers toepassen. Als u met toegangsniveaus werkt, is het belangrijk dat u begrijpt hoe ze samenwerken met de objectmachtigingen die gebruikers verlenen wanneer ze objecten met elkaar delen. Voor meer informatie over toegangsniveaus, zie
 
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Huidig plan: Standaard
+   <td>Huidige abonnement: standaard
    <p>of</p>
    <p>Ouder plan: Plan</p></td> 
   </tr> 
@@ -159,16 +159,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Nooit toegang geven tot het hele project wanneer het wordt toegewezen aan een taak of kwestie</td> 
+      <td role="rowheader">Nooit toegang geven tot het hele project wanneer het aan een taak of kwestie wordt toegewezen</td> 
       <td> Verhindert gebruikers die aan taken of kwesties worden toegewezen om toestemmingen aan het ouderproject ook te krijgen, zelfs als de projecttoestemmingen dat toestaan.<p>Voor meer informatie over het vormen van de toestemmingen op een project, zie de sectie <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> in het artikel <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projecten bewerken</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Documenttoegang nooit overerven van projecten, taken, problemen, enzovoort...</td> 
+      <td role="rowheader">Documenttoegang nooit overerven van projecten, taken, problemen, enz..</td> 
       <td>Voorkomt dat documenten de machtigingen overnemen die zijn ingesteld voor het bovenliggende object.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alleen updates weergeven waarin ze zijn opgenomen in het gesprek</td> 
-      <td> <p>Laat gebruikers toe om slechts commentaren te zien waar hun naam of de naam van hun team is inbegrepen.</p> <p> <p><b>OPMERKING</b>: Zo voorkomt u dat gebruikers zich abonneren op objecten in Workfront. Zie voor meer informatie over abonnementen op objecten <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a>.</p> </p> </td> 
+      <td> <p>Laat gebruikers toe om slechts commentaren te zien waar hun naam of de naam van hun team is inbegrepen.</p> <p> <p><b>OPMERKING</b>: Hiermee voorkomt u dat gebruikers zich abonneren op objecten in Workfront. Zie voor meer informatie over abonnementen op objecten <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers nooit toestaan opmerkingen te verwijderen </td> 
@@ -204,7 +204,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Voor informatie over hoe een beheerder van Adobe een de toegangsniveau van de Beheerder van het Systeem aan een gebruikers toewijst, zie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Voor informatie over hoe een beheerder van de Adobe een de toegangsniveau van de Beheerder van het Systeem aan een gebruikers toewijst, zie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Standaard of Planner-gebruikers met beheerbare toegang tot functies {#planner-users}
 
