@@ -5,14 +5,17 @@ title: Workflows gebruiken in de integratie met Experience Manager Assets Essent
 description: Workflows gebruiken in de integratie met Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
 
 # Workflows gebruiken in de Experience Manager Assets-integratie
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Een Workfront-beheerder kan workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
 
@@ -41,7 +44,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong>Product</strong>
    </td>
-   <td><p>U moet Experience Manager Assets as a Cloud Service of Assets Essentials hebben, en u moet als gebruiker in de Admin Console aan het product worden toegevoegd.</p><p>U moet schrijftoegang hebben tot de opslagplaats in Adobe Experience Manager om gekoppelde mappen te maken.</p>&gt;
+   <td><p>U moet Experience Manager Assets hebben as a Cloud Service of Assets Essentials, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</p><p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -72,7 +75,7 @@ Voordat u begint,
 
 U kunt een werkschema aan een projectmalplaatje toevoegen. De workflow wordt toegepast op alle projecten die op basis van de sjabloon zijn gemaakt.
 
-1. <!-- main menu snippet??--> Een sjabloon openen door te klikken **Sjablonen** in het Hoofdmenu selecteert u de sjabloon in de lijst.
+1. Een sjabloon openen door te klikken **Sjablonen** in het Hoofdmenu selecteert u de sjabloon in de lijst.
 1. Klikken **Experience Manager Assets** in het linkernavigatievenster.
 
    >[!NOTE]
@@ -82,7 +85,7 @@ U kunt een werkschema aan een projectmalplaatje toevoegen. De workflow wordt toe
 1. In de **Een integratie selecteren voor het veld Automatische workflows**, selecteer de integratie met de werkschema&#39;s u voor projecten wilt gebruiken die van dit malplaatje worden gecreeerd.
 1. (Optioneel) Bewerk de workflowwaarden die u wilt toepassen op projecten die op basis van deze sjabloon zijn gemaakt.
 
-   Als u bijvoorbeeld een gekoppelde map wilt maken op een andere locatie dan de standaardwaarde, voert u de locatie van de gekoppelde map in.
+   Zie voor instructies over specifieke workflows [Werkstroomwaarden in een project bewerken](#edit-workflow-values-in-a-project) in dit artikel.
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
@@ -90,7 +93,7 @@ U kunt een werkschema aan een projectmalplaatje toevoegen. De workflow wordt toe
 
 ## Een workflow toevoegen aan een project
 
-U kunt een werkschema toevoegen wanneer het creëren van een project, of een werkschema toevoegen aan een bestaand project. In beide gevallen gebruikt u een projectsjabloon om de workflow toe te voegen.
+U kunt een workflow toevoegen wanneer u een project maakt of een workflow toevoegen aan een bestaand project. In beide gevallen gebruikt u een projectsjabloon om de workflow toe te voegen.
 
 ### Een workflow toevoegen bij het maken van een project
 
@@ -113,6 +116,8 @@ U kunt een werkschema toevoegen wanneer het creëren van een project, of een wer
 1. Wanneer het selecteren van een malplaatje voor het project, selecteer het malplaatje dat de werkschema&#39;s bevat u voor dit project wilt gebruiken.
 1. (Optioneel) Bewerk eventuele workflowwaarden voor het project, zoals beschreven in [Werkstroomwaarden in een project bewerken](#edit-workflow-values-in-a-project).
 
+   Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
+
 ### Werkstroomwaarden in een project bewerken
 
 U kunt werkstroomwaarden op projectniveau bewerken. Workflowwaarden op projectniveau overschrijven de waarden die zijn ingesteld in de projectsjabloon, die de standaardwaarden overschrijven die zijn ingesteld in de integratie van Adobe Experience Manager Assets.
@@ -123,19 +128,35 @@ Alle werkstroomwaarden vindt u in:
 * De sectie Adobe Experience Manager van de linkernavigatie.
 
 
-   >[!NOTE]
-   >
-   >Als deze gebieden niet zichtbaar zijn, heeft uw Workfront-beheerder Workflows voor uw organisatie niet ingeschakeld.
+  >[!NOTE]
+  >
+  >Als deze gebieden niet zichtbaar zijn, heeft uw Workfront-beheerder Workflows voor uw organisatie niet ingeschakeld.
 
 #### Gekoppelde mappen
 
 De workflow voor gekoppelde mappen bewerken:
 
-1. Schakelen tussen **[!UICONTROL Create Linked folder]** op.
-1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
-1. Klik op Opslaan als u het projectvenster Project maken of Bewerken gebruikt.
+1. Schakelen **[!UICONTROL Create Linked folder]** aan of uit naar wens.
+1. (Voorwaardelijk) Als u gekoppelde mappen inschakelt, kiest u een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
+1. Klikken **[!UICONTROL Save]** als u de [!UICONTROL Create Project] of [!UICONTROL Edit project] venster.
 
    of
 
-   Als u zich in het Adobe Experience Manager-gebied bevindt, worden de wijzigingen automatisch opgeslagen. <!--Do they though?-->
+   Als u zich in de [!DNL Adobe Experience Manager area]worden de wijzigingen automatisch opgeslagen. <!--Do they though?-->
 
+
+#### Elementen publiceren
+
+<div class="preview">
+
+De workflow voor het publiceren van elementen bewerken:
+
+1. Schakelen **Elementen automatisch publiceren** aan of uit naar wens.
+1. (Voorwaardelijk) Als u het publiceren toestaat, selecteer of u aan de publicatieservice, het merkportaal, of allebei wilt publiceren.
+1. Klikken **[!UICONTROL Save]** als u de [!UICONTROL Create Project] of [!UICONTROL Edit project] venster.
+
+   of
+
+   Als u zich in de [!DNL Adobe Experience Manager area]worden de wijzigingen automatisch opgeslagen. <!--Do they though?-->
+
+</div>

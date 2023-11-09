@@ -5,9 +5,9 @@ title: Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
 description: U kunt uw werk in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience 
 
 De standaardwerkschemawaarden die u in de integratie plaatst kunnen op de niveaus van het Malplaatje en van het Project worden met voeten getreden.
 
-### Een workflow instellen voor het maken van aan Adobe Experience Manager gekoppelde mappen
+De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie:
+
+* [Gekoppelde Adobe Experience Manager-mappen maken](#create-adobe-experience-manager-linked-folders)
+* [Elementen publiceren die naar Adobe Experience Manager-elementen worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Gekoppelde Adobe Experience Manager-mappen maken
 
 1. Schakelen tussen **[!UICONTROL Create Linked folder]** op.
 1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
    ![Navigatie naar gekoppelde mappen](assets/select-folder-aem-integration.png)
-1. De optie **Portfolio- en programmanamen toevoegen** automatisch namen van Portfolio&#39;s en programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
-1. Klikken **Opslaan** of ga naar de [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
+1. De optie **[!UICONTROL Append Portfolio and Program Names]** automatisch namen van Portfolio&#39;s en programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
+1. Klikken **[!UICONTROL Save]** of ga naar de [Elementen publiceren die naar Adobe Experience Manager-elementen worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel.
+
+### Elementen publiceren die naar Adobe Experience Manager-elementen worden verzonden
+
+1. Schakelen **[!UICONTROL Publish assets automatically]**.
+1. Schakel het vakje naast de locatie in waar u de elementen wilt publiceren die naar Adobe Experience Manager-elementen zijn verzonden. U kunt een van beide of beide opties inschakelen.
+1. (Voorwaardelijk) Als u de optie Brand Portal hebt ingeschakeld, selecteert u de Brand Portal waar u elementen wilt publiceren.
+1. Klikken **[!UICONTROL Save]** of ga naar de [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
 
 ## Gekoppelde mappen instellen (optioneel)
 
