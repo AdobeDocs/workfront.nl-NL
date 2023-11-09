@@ -1,19 +1,19 @@
 ---
 product-area: documents;setup
 navigation-topic: review-a-proof
-title: Instellingen voor proefdrukviewers configureren
-description: U kunt de volgende instellingen configureren voor zowel de webtestviewer als de Desktop Proofing Viewer - BEWERK ME.
+title: De instellingen voor de proefdrukviewer configureren
+description: U kunt instellingen configureren voor zowel de webtestviewer als de Desktop Proofing Viewer.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
-# Instellingen voor proefdrukviewers configureren
+# De instellingen voor de proefdrukviewer configureren
 
 U kunt de volgende instellingen configureren voor zowel de webtestviewer als de Desktop Proofing Viewer:
 
@@ -21,7 +21,7 @@ U kunt de volgende instellingen configureren voor zowel de webtestviewer als de 
 * Geeft aan of de markeringsgereedschappen boven in de proefdrukviewer worden weergegeven of in een vervolgkeuzemenu.
 * Welke e-mailberichten u als recensent op de proef ontvangt u open hebt.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the Desktop Proofing Viewer is the default viewer for all types of proofs (static and video, as well as interactive).</li>
   -->
 
@@ -33,7 +33,7 @@ U kunt de volgende instellingen configureren voor de Desktop Proofing Viewer:
 
 * Hoe wilt u dat koppelingen binnen website-inhoud worden geopend in de viewer.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the background color of the Desktop Proofing Viewer is the default near-black color or white.</li>
   -->
 
@@ -50,11 +50,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
 
-## Instellingen voor proefdrukviewers configureren
+## De instellingen voor de proefdrukviewer configureren
 
 De instellingen voor de proefdrukviewer configureren:
 
@@ -78,7 +78,7 @@ De instellingen voor de proefdrukviewer configureren:
    * Als u in Adobe Workfront een proefdruk maakt, gaat u naar een documentlijst met een proefdruk die u wilt bekijken, beweegt u de muisaanwijzer over het document en klikt u op **Proef openen**.
    * Als u Workfront Proof gebruikt, klikt u op de knop **Ga naar proefafdruk** pictogram voor de proefdruk in het dashboard of een lijst met weergaven ![](assets/go-to-proof-blue-icon.png).
 
-1. Als de linkerwerkbalk niet wordt weergegeven, klikt u op de knop **Menu** in de linkerbovenhoek van de Web Proofing Viewer.
+1. Als de linkerwerkbalk niet wordt weergegeven, klikt u op **Menu** in de linkerbovenhoek van de Web Proofing Viewer.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
@@ -88,21 +88,21 @@ De instellingen voor de proefdrukviewer configureren:
 
    Welke instellingen beschikbaar zijn, is afhankelijk van het type proefdruk dat u hebt geopend.
 
-   * **Markeringen tonen** (altijd beschikbaar in de Web Proofing Viewer en de Desktop Proofing Viewer): Dit zijn de opmerkingsmarkeringen die revisoren aan proefdrukken toevoegen wanneer ze de markeringsgereedschappen gebruiken. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
+   * **Markeringen tonen** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): dit zijn de opmerkingsmarkeringen die revisoren aan proefdrukken toevoegen wanneer ze de markeringsgereedschappen gebruiken. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
 
-      Deze instelling is van invloed op alle proefdrukken die u opent.
+     Deze instelling is van invloed op alle proefdrukken die u opent.
 
-   * **Punten tonen** (altijd beschikbaar in de Web Proofing Viewer en de Desktop Proofing Viewer): Dit zijn de genummerde punten die controleurs aan proeven toevoegen wanneer zij de prijsverhogingshulpmiddelen gebruiken. Ze geven aan waar en in welke volgorde de revisor opmerkingen heeft toegevoegd. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
+   * **Punten tonen** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): dit zijn de genummerde punten die revisoren aan proefdrukken toevoegen wanneer ze de markeringsgereedschappen gebruiken. Ze geven aan waar en in welke volgorde de revisor opmerkingen heeft toegevoegd. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
 
-      Deze instelling is van invloed op alle proefdrukken die u opent.
+     Deze instelling is van invloed op alle proefdrukken die u opent.
 
-   * **Uitgebreide markeringsgereedschappen gebruiken** (altijd beschikbaar in de Web Proofing Viewer en de Desktop Proofing Viewer): Standaard worden de opties voor het markeringsgereedschap boven in de proefdrukviewer weergegeven. U kunt deze configureren voor weergave in een verticaal menu dat alleen wordt geopend wanneer u erop klikt.
+   * **Uitgebreide markeringsgereedschappen gebruiken** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): standaard worden de opties voor het markeringsgereedschap boven in de testviewer weergegeven. U kunt deze configureren voor weergave in een verticaal menu dat alleen wordt geopend wanneer u erop klikt.
 
-      Deze instelling geldt voor alle proefdrukken die u opent.
+     Deze instelling geldt voor alle proefdrukken die u opent.
 
-   * **Stuur me e-mailberichten over** (altijd beschikbaar in de Web Proofing Viewer en de Desktop Proofing Viewer): Klik op een van de onderstaande opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Zie voor meer informatie [Kennisgevingen met betrekking tot opmerkingen ter staving en besluiten](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **Stuur me e-mailberichten over** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): klik op een van de onderstaande opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Zie voor meer informatie [Kennisgevingen met betrekking tot opmerkingen ter staving en besluiten](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -137,15 +137,15 @@ De instellingen voor de proefdrukviewer configureren:
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **Wanneer u klikt op hyperlinks in een proefdruk** (alleen beschikbaar in de Desktop Proofing Viewer): Selecteer een optie om op te geven wat er gebeurt in de Desktop Proofing Viewer wanneer u op een koppeling klikt die is ingesteld op openen in een nieuw browsertabblad of venster.
+   * **Wanneer u klikt op hyperlinks in een proefdruk** (alleen beschikbaar in de Desktop Proofing Viewer): selecteer een optie om op te geven wat er gebeurt in de Desktop Proofing Viewer wanneer u op een koppeling klikt die is ingesteld op openen in een nieuw browsertabblad of venster.
 
-      Deze instelling geldt voor alle interactieve proefdrukken die u opent.
+     Deze instelling geldt voor alle interactieve proefdrukken die u opent.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -164,12 +164,12 @@ De instellingen voor de proefdrukviewer configureren:
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **Cache wissen**: Hiermee wist u de cachegegevens van de browser die mogelijk worden opgeslagen met een interactieve proefdruk die u bekijkt. Hierdoor kan inhoud zoals pop-ups (die door cachegegevens van de browser kunnen worden geblokkeerd) worden weergegeven in de Desktop Proofing Viewer.
+   * **Cache wissen**: Wist de cachegegevens van de browser die mogelijk worden opgeslagen met een interactieve proefdruk die u bekijkt. Hierdoor kan inhoud zoals pop-ups (die door cachegegevens van de browser kunnen worden geblokkeerd) worden weergegeven in de Desktop Proofing Viewer.
 
-      De gegevens die gewist worden, zijn onder andere de HTTP-cache (zoals afbeeldingen die opnieuw worden gebruikt nadat de volgende pagina is vernieuwd) en de cache met gegevens over webopslag (zoals cookies en gegevens die gebruikers identificeren).
+     De gegevens die gewist worden, zijn onder andere de HTTP-cache (zoals afbeeldingen die opnieuw worden gebruikt nadat de volgende pagina is vernieuwd) en de cache met gegevens over de webopslag (zoals cookies en gegevens die gebruikers identificeren).
 
-      Deze instelling is alleen van invloed op de proefdruk die u hebt geopend.
+     Deze instelling is alleen van invloed op de proefdruk die u hebt geopend.

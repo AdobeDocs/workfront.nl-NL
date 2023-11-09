@@ -2,13 +2,13 @@
 title: Filters toepassen in uitgebreide analyse
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: De filters in het Verbeterde analysegebied helpen u zich op specifieke projecten of specifieke soorten gegevens concentreren. De typen filters die u gebruikt, kunnen u inzicht geven in - BEWERK ME.
+description: De filters in het Verbeterde analysegebied helpen u zich op specifieke projecten of specifieke soorten gegevens concentreren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Om deze taak te voltooien, moet u het volgende hebben:
   </tr> 
   <tr> 
    <td><b>Toegangsniveau*</b> </td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>U moet de toegang van de Mening tot Taken, Portfolio, en Gebruikers ook hebben om specifieke de filteropties van het projectgebied te zien.</p> <p>Opmerking: Als er beperkingen zijn geselecteerd in het gedeelte Aanvullende beperkingen instellen van het dialoogvenster Toegangsniveau bewerken, ziet u mogelijk niet alle informatie in de filters of op de pagina Uitgebreide analyse nadat het filter is toegepast. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven</p> <p>U moet de toegang van de Mening tot Taken, Portfolio's, en Gebruikers ook hebben om specifieke de filteropties van het projectgebied te zien.</p> <p>Opmerking: als er beperkingen zijn geselecteerd in de sectie Aanvullende beperkingen instellen van het dialoogvenster Toegangsniveau bewerken, ziet u mogelijk niet alle informatie in de filters of op de pagina Uitgebreide analyse nadat het filter is toegepast. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>Objectmachtigingen</b> </p> </td> 
@@ -64,7 +64,7 @@ Standaard worden in de visualisaties in het gedeelte Enhanced Analytics gegevens
 >[!TIP]
 >
 >U kunt ook met de toetsen op het toetsenbord naar een datumbereik in de kalenderwidget navigeren, deze openen en selecteren.\
->Zie voor meer informatie de [Sneltoetsen](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) in het artikel [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+>Zie de klasse [Sneltoetsen](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) in het artikel [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
 Een nieuw datumbereik selecteren:
 
@@ -87,8 +87,8 @@ U kunt filters toevoegen die op standaardprojectgebieden, de gebieden van de Vor
 
 >[!TIP]
 >
->U kunt ook met de toetsen op het toetsenbord naar een nieuw filter navigeren en dit filter toevoegen.\
->Zie voor meer informatie de [Sneltoetsen](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) in het artikel [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+>U kunt ook de toetsen op het toetsenbord gebruiken om naar een nieuw filter te navigeren en dit filter toe te voegen.\
+>Zie de klasse [Sneltoetsen](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) in het artikel [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
 * [Een projectveldfilter toevoegen](#add-a-project-field-filter)
 * [Een projectveldfilter toevoegen](#add-a-project-field-filter)
@@ -105,11 +105,11 @@ De volgende filtertypen voor projectvelden zijn beschikbaar:
 | **Programma** | Gegevens worden alleen weergegeven voor projecten in de geselecteerde programma&#39;s |
 | **Portfolio** | Gegevens worden alleen weergegeven voor projecten in de geselecteerde portfolio(s) |
 | **Voorwaarde** | De gegevens van vertoningen voor slechts projecten die onlangs de geselecteerde voorwaarde(n) hadden (op doel, bij risico, of in probleem) |
-| **Status** | Hiermee geeft u alleen gegevens weer voor projecten met de geselecteerde status (voltooid, huidig, in de wachtstand, geannuleerd, enzovoort) die het laatst zijn geselecteerd. |
+| **Status** | Hiermee geeft u alleen gegevens weer voor projecten met de meest recente geselecteerde status (voltooid, huidig, in de wachtstand, geannuleerd, enzovoort) |
 | **Sponsor** | Hiermee geeft u gegevens weer voor alleen projecten met de geselecteerde sponsor(en) |
 | **Projecteigenaar** | De gegevens van vertoningen voor slechts projecten met de geselecteerde projecteigenaar(s) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Aangepaste formulierfilters werken anders. Zie voor meer informatie [Een projectveldfilter toevoegen](#add-a-project-field-filter).
 
@@ -124,11 +124,11 @@ Een projectveldfilter toevoegen:
 
 1. Zoek de waarden waarvoor u gegevens wilt zien door ten minste 3 tekens tekst in te voeren in het dialoogvenster **Zoeken** selecteert u vervolgens elke waarde die u in het filter wilt opnemen.
 
-   Als u alle huidige waarden wilt selecteren, klikt u op **Alles selecteren**.
+   Klik op **Alles selecteren**.
 
    ![](assets/select-filter-value-350x251.png)
 
-1. Nadat u alle gewenste waarden hebt geselecteerd, klikt u op **Filter toepassen**.\
+1. Klik op **Filter toepassen**.\
    Het aantal projecten in de rechterbovenhoek van de pagina wordt bijgewerkt met de filters die u hebt toegepast.
 1. Herhaal deze stappen voor elk filter dat u wilt toevoegen.
 
@@ -141,11 +141,13 @@ Een projectveldfilter toevoegen:
    >   
    >   
    >   * Gebruik de pijlen in de linkerbenedenhoek om de volgende 50 projecten in die visualisatie te tonen.\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Gebruik de Soort door drop-down menu op een visualisatie om de projecten in een verschillende orde te bekijken.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Als u het datumbereik wilt aanpassen, raadpleegt u [Het filter voor het datumbereik wijzigen](#change-the-date-range-filter).
 
@@ -168,16 +170,16 @@ Een aangepast formulierfilter toevoegen:
    >Niet alle veldtypen Aangepast formulier kunnen aan een filter worden toegevoegd. Uitgebreide analyses ondersteunen momenteel alleen de hierboven vermelde veldtypen.
 
    * **Selectievakje**, **vervolgkeuzelijst**, of **keuzerondje**: Selecteer elke waarde in het geselecteerde veld die u in het filter wilt opnemen of klik op de knop **Alles selecteren** selectievakje.\
-      ![](assets/custom-form-filter-checkbox-350x255.png)
+     ![](assets/custom-form-filter-checkbox-350x255.png)
 
    * **Datum**: Gebruik de pijlen om naar een bepaalde maand te navigeren en selecteer vervolgens de datum in het geselecteerde veld die u in het filter wilt opnemen.\
-      ![](assets/custom-form-filter-date-350x348.png)
+     ![](assets/custom-form-filter-date-350x348.png)
 
    * **Tekst**: Voer de tekst in het geselecteerde veld in die u in het filter wilt opnemen.\
-      ![](assets/custom-form-filter-text-350x90.png)
+     ![](assets/custom-form-filter-text-350x90.png)
 
    * **Getal**: Voer het nummer in het geselecteerde veld in dat u in het filter wilt opnemen.\
-      ![](assets/custom-form-filter-number-350x93.png)
+     ![](assets/custom-form-filter-number-350x93.png)
 
 1. Nadat u de waarden hebt ingevoerd of geselecteerd waarvoor u wilt filteren, klikt u op **Filter toepassen**.
 
@@ -194,11 +196,13 @@ Een aangepast formulierfilter toevoegen:
    >   
    >   
    >   * Gebruik de pijlen in de linkerbenedenhoek om de volgende 50 projecten in die visualisatie te tonen.\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Gebruik de Soort door drop-down menu op een visualisatie om de projecten in een verschillende orde te bekijken.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Als u het datumbereik wilt aanpassen, raadpleegt u [Het filter voor het datumbereik wijzigen](#change-the-date-range-filter).
 
@@ -209,8 +213,8 @@ Een aangepast formulierfilter toevoegen:
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. Klik in de linkerbovenhoek van het scherm op **Filter toevoegen** Selecteer vervolgens de **Team** filter.
-1. Zoek de teams waarvoor u gegevens wilt zien door ten minste 3 tekens tekst in te voeren in het dialoogvenster **Zoeken** selecteert u vervolgens elk team dat u in het filter wilt opnemen. Als u alle teams wilt selecteren, klikt u op **Alles selecteren**.
+1. Klik in de linkerbovenhoek van het scherm op **Filter toevoegen** en selecteert u vervolgens de **Team** filter.
+1. Zoek de teams waarvoor u gegevens wilt zien door ten minste 3 tekens tekst in te voeren in het dialoogvenster **Zoeken** selecteert u vervolgens elk team dat u in het filter wilt opnemen. Om alle teams te selecteren, klik **Alles selecteren**.
 
    ![](assets/select-team-value-350x253.png)
 
@@ -219,7 +223,7 @@ Een aangepast formulierfilter toevoegen:
    >Alle teams zijn inbegrepen als filteropties, ongeacht uw toegangsniveau.
 
 
-1. Nadat u alle gewenste teams hebt geselecteerd, klikt u op **Filter toepassen**.
+1. Klik op **Filter toepassen**.
 
    Terwijl u filters toevoegt, worden de gegevens weergegeven in de onderstaande visualisaties.
 
@@ -232,7 +236,7 @@ U kunt op elk gewenst moment een filter verwijderen. Als u een filter verwijdert
 >[!TIP]
 >
 >U kunt ook toetsen op het toetsenbord gebruiken om naar een bestaand filter te navigeren en dit te verwijderen.\
->Zie voor meer informatie de [Sneltoetsen](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) in het artikel [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+>Zie de klasse [Sneltoetsen](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) in het artikel [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
 Een filter verwijderen:
 
@@ -241,7 +245,7 @@ Een filter verwijderen:
 
    of
 
-   Selecteer **Mensen** in het linkerdeelvenster.
+   Als u een filter Mensen wilt verwijderen, selecteert u **Mensen** in het linkerdeelvenster.
 
 1. Zoek het gewenste filter en klik op de knop **X** om het te verwijderen.
 

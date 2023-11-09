@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: basislijnvariatie voor Duur en Gepland werk in een taakweergave'
-description: Zie een voorbeeld van een mening die de van de Duur en Gepland Werk basislijninformatie toont.
+description: Bekijk de basislijnvariatie voor Duur en Gepland werk.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---

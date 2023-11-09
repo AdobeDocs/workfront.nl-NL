@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Proefinstellingen configureren in [!DNL Workfront Proof]
-description: U kunt een proef vormen u creeert of uitgeeft op om het even welke volgende manieren - BEWERK ME.
+description: U kunt een proefdruk configureren die u maakt of bewerkt.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ U kunt een proefstaat instellen om te vergrendelen wanneer de uiteindelijke fiat
 
 1. Voor een nieuw bewijs, onder **[!UICONTROL Proof settings]**, selecteert u **[!UICONTROL Lock proof when all required decisions are made]**.\
    of\
-   Voor een bestaand bewijs geldt het volgende: **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Lock the proof when all decisions are made]**.
+   Voor een bestaand bewijs geldt dat **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Lock the proof when all decisions are made]**.
 
 Voor informatie over beslissingen raadpleegt u [Beslissen op een bewijs in de professionele drukker](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ## Aanmelding vereist voor alle gebruikers die de proefafdruk controleren
 
-Een van de grote dingen over [!DNL Workfront Proof] is dat iedereen een bewijs kan bekijken, je hoeft niet over je eigen bewijs te beschikken [!DNL Workfront Proof] om dit te doen. Ontvangers ontvangen een e-mail met een persoonlijke URL die ze rechtstreeks naar de proefdrukpagina stuurt, zonder dat ze zich hoeven aan te melden [!DNL Workfront Proof].
+Een van de grote dingen over [!DNL Workfront Proof] is dat iedereen een bewijs kan bekijken, je hebt je eigen bewijs niet nodig [!DNL Workfront Proof] om dit te doen. Ontvangers ontvangen een e-mail met een persoonlijke URL die ze rechtstreeks naar de proefdrukpagina stuurt, zonder dat ze zich hoeven aan te melden [!DNL Workfront Proof].
 
 Nochtans, als u hogere niveaus van veiligheid voor uw overzicht en goedkeuringsproces vereist, kunt u login aan de proef gebruiken. Dit betekent dat alleen [!DNL Workfront Proof] gebruikers kunnen aan de proef worden toegevoegd. En ze moeten hun e-mail en wachtwoord invoeren voordat ze het kunnen openen.
 
@@ -50,7 +50,6 @@ Nochtans, als u hogere niveaus van veiligheid voor uw overzicht en goedkeuringsp
 >
 >* *Als iemand zich kan aanmelden bij de proefafdruk (wanneer de aanmelding is ingeschakeld), moet hij of zij aan de proefafdruk zijn toegevoegd.*
 >* *Als Aanmelding vereist is ingeschakeld, kunnen abonnementen niet worden ingeschakeld.*
-
 
 Meld u aan voor alle gebruikers die de proefdruk controleren:
 
@@ -60,7 +59,7 @@ Meld u aan voor alle gebruikers die de proefdruk controleren:
 
 1. Voor een nieuw bewijs, onder **[!UICONTROL Proof settings]**, selecteert u **[!UICONTROL Require login]**.\
    of\
-   Voor een bestaand bewijs geldt het volgende: **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Login required]**.
+   Voor een bestaand bewijs geldt dat **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Login required]**.
 
 ## Slechts één besluit vereisen voor het bewijs
 
@@ -74,7 +73,7 @@ Zelfs als u de rol van fiatteur of beoordelaar en fiatteur aan meerdere personen
 
 1. Voor een nieuw bewijs, onder **[!UICONTROL Workflow]**, selecteert u **[!UICONTROL Require only one decision for this stage]**.\
    of\
-   Voor een bestaand bewijs geldt het volgende: **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Only one decision required]**.
+   Voor een bestaand bewijs geldt dat **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Only one decision required]**.
 
 Voor informatie over beslissingen raadpleegt u [Beslissen op een bewijs in de professionele drukker](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
 
@@ -88,7 +87,7 @@ U kunt een elektronische handtekening opvragen van alle revisoren die een beslis
 
 1. Voor een nieuw bewijs, onder **[!UICONTROL Proof settings]**, selecteert u **[!UICONTROL Require decisions to be electronically signed]**.\
    of\
-   Voor een bestaand bewijs geldt het volgende: **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Require decisions to be electronically signed]**.
+   Voor een bestaand bewijs geldt dat **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Require decisions to be electronically signed]**.
 
 Voor informatie over beslissingen raadpleegt u [Opties voor goedkeuringsbeslissingen configureren in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 
@@ -102,7 +101,7 @@ U kunt de controleurs op een bewijs houden van het downloaden van het originele 
 
 1. Voor een nieuw bewijs, onder **[!UICONTROL Proof settings]**, deselecteren **[!UICONTROL Download original file]**.\
    of\
-   Voor een bestaand bewijs geldt het volgende: **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Download of original file]**.
+   Voor een bestaand bewijs geldt dat **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Download of original file]**.
 
 ## Andere gebruikers toestaan zich te abonneren op de proefdruk
 
@@ -130,4 +129,4 @@ Andere gebruikers toestaan zich op een bewijs te abonneren:
 
 1. Voor een nieuw bewijs, onder **[!UICONTROL Proof settings]**, deselecteren **[!UICONTROL Subscribe to proof via public URL or embed code]**.\
    of\
-   Voor een bestaand bewijs geldt het volgende: **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Subscription]**.
+   Voor een bestaand bewijs geldt dat **[!UICONTROL Settings]**, selecteert u **[!UICONTROL Subscription]**.

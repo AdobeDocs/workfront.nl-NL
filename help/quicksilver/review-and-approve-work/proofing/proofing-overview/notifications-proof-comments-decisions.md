@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: proofing-overview
 title: Kennisgevingen met betrekking tot opmerkingen ter staving en besluiten
-description: 'U kunt e-mailmeldingen ontvangen over opmerkingen en beslissingen die zijn gemaakt op proefdrukken waarop u werkt, op een van de volgende manieren: BEWERK ME.'
+description: U kunt e-mailmeldingen ontvangen over opmerkingen en beslissingen die zijn gemaakt op proefdrukken waaraan u werkt.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d6ded72c-a140-4c19-b1e0-60456804fc61
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt op een van de volgende manieren e-mailmeldingen ontvangen over opmerkinge
 * Ontvang een e-mail wanneer iemand een beslissing neemt.
 * Ontvang een e-mail wanneer iemand de definitieve beslissing neemt.
 * U ontvangt een beknopte e-mail per uur wanneer iemand reageert op een opmerking die u hebt toegevoegd of wanneer iemand een beslissing neemt in het voorgaande uur.
-* Ontvang een dagelijkse samenvatting per e-mail wanneer iemand een commentaar beantwoordt u hebt toegevoegd of een besluit tijdens de dag neemt.
+* Ontvang een dagelijkse samenvattingse-mail wanneer iemand op een commentaar antwoordt u hebt toegevoegd of een besluit tijdens de dag neemt.
 * Ontvang geen e-mails over opmerkingen of beslissingen.
 
 De instellingen die bepalen hoe u e-mailwaarschuwingen over proefdrukopmerkingen en -beslissingen ontvangt, zijn beschikbaar op de volgende plaatsen in Workfront:
@@ -56,4 +56,3 @@ De instellingen die bepalen hoe u e-mailwaarschuwingen over proefdrukopmerkingen
 >* [Het e-mailbericht voor de nieuwe versie](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
 >* [E-mailadres voor proefdrukken](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
 >* [De e-mail met bewijs](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-

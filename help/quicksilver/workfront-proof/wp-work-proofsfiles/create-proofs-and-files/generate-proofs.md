@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Proefdrukken genereren in [!DNL Workfront Proof]
-description: Met Workfront Proof kunt u proefdrukken maken van documenten of websites en deze proefdrukken delen met anderen. De volgende stappen beschrijven de diverse configuratieopties die beschikbaar zijn - BEWERK ME.
+description: Met Workfront Proof kunt u proefdrukken maken van documenten of websites en deze proefdrukken delen met anderen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. Voer een van de volgende handelingen uit om een nieuwe proefdruk te maken en de [!UICONTROL New Proof] pagina:
 
    * Klik op groen **[!UICONTROL New proof]** in de linkerbovenhoek van een pagina.
-   * In de **[!UICONTROL Dashboard]** in de **[!UICONTROL Overview]** klikt u op de knop **[!UICONTROL New proof]** koppeling.
+   * In de **[!UICONTROL Dashboard]** in het gebied **[!UICONTROL Overview]** klikt u op de knop **[!UICONTROL New proof]** koppeling.
 
    * Verzenden via Dropzone (Enterprise-functie).
    * De **[!UICONTROL New Proof]** wordt weergegeven.
@@ -37,7 +37,7 @@ ht-degree: 0%
    * Sleep een document van uw bestandssysteem naar het gebied voor slepen en neerzetten in het dialoogvenster **[!UICONTROL Add Files]** gebied.
    * Klik in het gebied voor slepen en neerzetten van het dialoogvenster **[!UICONTROL Add Files]** , bladert u naar het document dat u wilt uploaden en selecteert u het in het bestandssysteem op uw werkstation.
 
-      ![proefdruk_document_upload.png](assets/proof-document-upload-350x64.png)
+     ![proefdruk_document_upload.png](assets/proof-document-upload-350x64.png)
 
 1. Als u een of meer websites wilt controleren, geeft u de URL op van de website die u wilt controleren in het dialoogvenster **[!UICONTROL Add Files]** gebied, dan drukken **[!UICONTROL Enter]**.
 
@@ -73,17 +73,17 @@ ht-degree: 0%
 
       1. Schakel de optie in. **[!UICONTROL Combine all compatible files into single proof]**.
       1. In de **[!UICONTROL Proof name]** geeft u een nieuwe naam op voor de gecombineerde proefdruk.
-      1. In de **[!UICONTROL Add Files]** , wijzigt u de volgorde van de opgenomen bestanden door een bestand naar de gewenste volgorde te slepen. De volgorde van de bestanden is de paginavolgorde van de gecombineerde proefdruk. Voor meer informatie over het maken van gecombineerde proefdrukken raadpleegt u [Een proefdruk van meerdere pagina&#39;s maken](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+      1. In de **[!UICONTROL Add Files]** , wijzigt u de volgorde van de opgenomen bestanden door een bestand naar de gewenste volgorde te slepen. De volgorde van de bestanden is de paginavolgorde van de gecombineerde proefdruk. Zie voor meer informatie over het maken van gecombineerde proefdrukken [Een proefdruk van meerdere pagina&#39;s maken](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 1. (Optioneel) Als u een geautomatiseerde workflow wilt gebruiken die meerdere fasen omvat, kunt u de opdracht **[!UICONTROL Workflow]** selecteert u een van de volgende opties:
 
    * **Eenvoudig:** Schakel deze optie in om gebruikers aan te wijzen die toegang moeten hebben tot de proefdruk direct nadat deze is gemaakt. U kunt de proefdruk delen met meerdere gebruikers.
 
-      Zie &quot;Gebruikers aan een proef toevoegen&quot; in voor meer informatie over het delen van een proefdruk. [Een proefdruk delen binnen [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     Zie &quot;Gebruikers aan een proef toevoegen&quot; in voor meer informatie over het delen van een proefdruk. [Een proefdruk delen binnen [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Geautomatiseerd:** Selecteer deze optie om de controle en goedkeuring van inhoud te beheren wanneer u complexe revisieprocessen hebt of als u inhoud ter controle regelmatig naar dezelfde groepen personen verzendt. Met de geautomatiseerde workflow wordt de proefdruk verplaatst van het werkgebied naar het werkgebied tot de definitieve goedkeuring. De relevante gebruikers worden op elk moment dat zij een goedkeuring moeten verlenen, op de hoogte gebracht.
+   * **Automatisch:** Selecteer deze optie om de controle en goedkeuring van inhoud te beheren wanneer u complexe revisieprocessen hebt of als u inhoud ter controle regelmatig naar dezelfde groepen personen verzendt. Met de geautomatiseerde workflow wordt de proefdruk verplaatst van het werkgebied naar het werkgebied tot de definitieve goedkeuring. De relevante gebruikers worden op elk moment dat zij een goedkeuring moeten verlenen, op de hoogte gebracht.
 
-      Voor meer informatie over het creëren van een Geautomatiseerde Workflow, zie [Stel een proefdruk in met een geautomatiseerde workflow in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
+     Voor meer informatie over het creëren van een Geautomatiseerde Workflow, zie [Stel een proefdruk in met een geautomatiseerde workflow in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
 1. Geef op of u e-mailmeldingen en een aangepast bericht wilt verzenden naar de gebruikers die u in de vorige stap hebt geselecteerd:
 
@@ -99,7 +99,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">Aanmelding vereisen - proefdruk kan alleen worden gedeeld met andere gebruikers</td> 
-      <td> <p><strong>Aanmelding vereisen - proefdruk kan alleen worden gedeeld met andere gebruikers:</strong> Als deze optie is geselecteerd, alleen [!DNL Workfront Proof] gebruikers kunnen de proefdruk bekijken.</p> <p>Deze optie is standaard uitgeschakeld. iedereen met de URL kan de proefdruk bekijken.</p> <p>Wanneer deze optie is geselecteerd:</p> 
+      <td> <p><strong>Aanmelding vereisen - proefdruk kan alleen worden gedeeld met andere gebruikers:</strong> Als deze optie is geselecteerd, alleen [!DNL Workfront Proof] gebruikers kunnen de proefdruk bekijken.</p> <p>Deze optie is standaard uitgeschakeld. Iedereen met de URL kan de proefdruk bekijken.</p> <p>Wanneer deze optie is geselecteerd:</p> 
        <ul> 
         <li>Gebruikers kunnen zich alleen aanmelden bij de proefdruk als ze aan de proefdruk zijn toegevoegd.</li> 
         <li>Abonnementen kunnen niet worden ingeschakeld.</li> 
@@ -131,7 +131,7 @@ ht-degree: 0%
        <ul> 
         <li><strong>Abonnementsrol</strong>: De standaardproefdrukrol die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li> 
         <li><strong>Instellingen voor e-mailwaarschuwingen voor abonnees</strong>: De standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li> 
-        <li> <p><strong>Toegang tot bewijs via e-mailkoppeling vereist voor</strong>: Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie-kennisgeving</strong> (de abonnee ontvangt een koppeling naar de proef via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (De abonnee ontvangt een koppeling naar de proefdruk via e-mail en moet op de koppeling klikken om toegang te krijgen tot een proefdruk. het doel van deze optie is ervoor te zorgen dat de betrokkene een correct e - mailadres heeft ingevoerd waartoe hij toegang heeft ) .</p> <p>Opmerking: Als de proefdrukken de Geautomatiseerde Werkstroom hebben vastgemaakt zullen alle abonnementen bevestigings e-mail aan de bewijseigenaar produceren, zodat kunnen zij beslissen welk stadium de persoon aan zou moeten worden toegevoegd.</p> </li> 
+        <li> <p><strong>Toegang tot bewijs via e-mailkoppeling vereist voor</strong>: Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie</strong> (de abonnee ontvangt een koppeling naar de proef via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (Abonnees ontvangen een koppeling naar de proefdruk via e-mail en moeten op de koppeling klikken om toegang te krijgen tot een proefdruk. Deze optie heeft tot doel ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft).</p> <p>Opmerking: als de proefdrukken de automatische werkstroom hebben gekoppeld, worden alle abonnementen per e-mail met bevestiging verzonden naar de eigenaar van het bewijs, zodat ze kunnen beslissen in welk stadium de persoon moet worden toegevoegd.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -141,9 +141,9 @@ ht-degree: 0%
 
    Workfront begint met het genereren van een proefdruk van de geselecteerde documenten of websites. Afhankelijk van de bestandsgrootte en het type varieert de vertraging bij het uploaden van een document. Wees geduld, want het duurt langer om grotere bestanden te genereren. U kunt van de pagina weg navigeren en Workfront blijft uw bestand genereren. De maximale grootte voor het uploaden van bestanden is 4 GB.
 
-   Nadat de proefdruk is gegenereerd, klikt u op **[!UICONTROL Go to proof]** om het proefdrukprogramma te starten.
+   Klik op **[!UICONTROL Go to proof]** om het proefdrukprogramma te starten.
 
-   ![Screenshot_2018-05-16_08-59-34.png](assets/screenshot-2018-05-16-08-59-34-350x134.png)
+   ![Screen_2018-05-16_08-59-34.png](assets/screenshot-2018-05-16-08-59-34-350x134.png)
 
    Het document wordt weergegeven in het proefdrukprogramma.
 
@@ -162,7 +162,7 @@ Een proef voor een URL produceren:
 1. Voer een van de volgende handelingen uit om een nieuwe proefdruk te maken en de [!UICONTROL New Proof] pagina:
 
    * Klik op groen **[!UICONTROL New proof]** in de linkerbovenhoek van een pagina.
-   * In de **[!UICONTROL Dashboard]** in de **[!UICONTROL Overview]** klikt u op de knop **[!UICONTROL New proof]** koppeling.
+   * In de **[!UICONTROL Dashboard]** in het gebied **[!UICONTROL Overview]** klikt u op de knop **[!UICONTROL New proof]** koppeling.
 
    * Verzenden via Dropzone (Enterprise-functie).
 
@@ -195,11 +195,11 @@ Een proef voor een URL produceren:
     <tbody> 
      <tr> 
       <td role="rowheader">Schermopname vastleggen</td> 
-      <td>Hiermee maakt u een proefdruk van een statische afbeelding van de voorpagina van de URL.</td> 
+      <td>Maakt een proefdruk van een statische afbeelding van de voorpagina van de URL.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Interactief</td> 
-      <td> <p>Hiermee maakt u een proefdruk waarmee revisoren door de site kunnen navigeren, HTML5-afbeeldingen, Flash-elementen enzovoort kunnen bekijken.</p> <p>Als u een interactief bewijs wilt maken, moet de website worden gehost met een beveiligd protocol (https). Bovendien kunnen websites die niet in een iframe kunnen worden ingesloten, niet worden gegenereerd als een interactieve proefdruk (beperkingen voor het insluiten van iframes worden bepaald door de website die u wilt insluiten).</p> <p>Nadat de eerste proefdruk is gemaakt, kan deze instelling niet worden gewijzigd wanneer u volgende versies maakt.</p> <p>Zie voor meer informatie over interactieve proefdrukken <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Een proefdruk maken voor interactieve inhoud</a>.</p> </td> 
+      <td> <p>Hiermee maakt u een proefdruk waarmee revisoren door de site kunnen navigeren, HTML5-afbeeldingen, Flash-elementen enzovoort kunnen bekijken.</p> <p>Als u een interactief bewijs wilt maken, moet de website worden gehost met een beveiligd protocol (https). Bovendien kunnen websites die niet in een iframe kunnen worden ingesloten, niet worden gegenereerd als een interactieve proefdruk (beperkingen voor het insluiten van iframes worden bepaald door de website die u probeert in te sluiten).</p> <p>Nadat de eerste proefdruk is gemaakt, kan deze instelling niet worden gewijzigd wanneer u volgende versies maakt.</p> <p>Zie voor meer informatie over interactieve proefdrukken <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Een proefdruk maken voor interactieve inhoud</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Schermresolutie</td> 
@@ -207,7 +207,7 @@ Een proef voor een URL produceren:
      </tr> 
      <tr> 
       <td role="rowheader">Zoeken naar subpagina's</td> 
-      <td>(Deze optie is niet beschikbaar voor interactieve proefdrukken.) Selecteer deze optie om door pagina's van de website te navigeren. U kunt de website tot 2 niveaus diep van de hoofdpagina uitbreiden. Plaats de muis boven een pagina om de URL van de pagina weer te geven. Selecteer alleen de pagina's waarvan u een proefdruk wilt maken. Elke pagina die u selecteert, wordt standaard gemaakt als een afzonderlijke proefdruk. of de <strong>Combineren tot één proefdruk</strong> gebruiken om alle geselecteerde pagina's te combineren tot één proefdruk.</td> 
+      <td>(Deze optie is niet beschikbaar voor interactieve proefdrukken.) Selecteer deze optie om door pagina's van de website te navigeren. U kunt de website tot 2 niveaus diep van de hoofdpagina uitbreiden. Plaats de muis boven een pagina om de URL van de pagina weer te geven. Selecteer alleen de pagina's waarvan u een proefdruk wilt maken. Elke pagina die u selecteert, wordt standaard gemaakt als een afzonderlijke proefdruk of schakelt u de optie <strong>Combineren tot één proefdruk</strong> gebruiken om alle geselecteerde pagina's te combineren tot één proefdruk.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -226,7 +226,7 @@ Een proef voor een URL produceren:
 
 ## Een proefdruk maken voor interactieve inhoud {#generate-a-proof-for-interactive-content}
 
-Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Voor meer informatie over de verschillende beschikbare plannen raadpleegt u [Workfront-plannen](https://www.workfront.com/plans).
+Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Zie voor meer informatie over de verschillende beschikbare plannen [Workfront-plannen](https://www.workfront.com/plans).
 
 Zie voor meer informatie over interactieve inhoud [Overzicht van proefdrukken van interactieve inhoud](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
@@ -246,7 +246,7 @@ Zie voor informatie over het toevoegen van een interactieve URL-proefdruk  [Een 
 1. Voer een van de volgende handelingen uit om een nieuwe proefdruk te maken en de [!UICONTROL New Proof] pagina:
 
    * Klik op groen **[!UICONTROL New proof]** in de linkerbovenhoek van een pagina.
-   * In de **[!UICONTROL Dashboard]** in de **[!UICONTROL Overview]** klikt u op de knop **[!UICONTROL New proof]** koppeling.
+   * In de **[!UICONTROL Dashboard]** in het gebied **[!UICONTROL Overview]** klikt u op de knop **[!UICONTROL New proof]** koppeling.
 
    * Verzenden via Dropzone (Enterprise-functie).
 

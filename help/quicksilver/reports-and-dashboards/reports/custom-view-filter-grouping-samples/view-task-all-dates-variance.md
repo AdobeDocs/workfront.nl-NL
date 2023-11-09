@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: taak met variatie in Alle datums'
-description: Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze bepaalde weergave bevat de kolommen Variantie, die het verschil in dagen tussen de volgende datums berekenen - ME BEWERKEN.
+title: 'Weergeven: taak met variatie in Alle datums'
+description: Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze weergave bevat de kolommen Variantie, die het verschil in dagen tussen datums berekenen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
-# Weergave: taak met Alle datums variatie
+# Weergeven: taak met variatie Alle datums
 
 Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze weergave omvat *Variantie* kolommen, die het verschil in dagen tussen de volgende data berekenen:
 
@@ -54,7 +54,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr>   
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,12 +4,12 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Satellietrekeningen in [!DNL Workfront] Overzicht van proefdrukken
-description: Deze sectie bevat de volgende artikelen - BEWERK ME.
+description: Meer weten over satellietaccounts in Workfront Proof?
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 51bf041f-91c6-417c-b4cb-b67389a7127f
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%

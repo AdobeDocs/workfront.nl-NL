@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Inhoud weergeven in een proefdruk
-description: U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren - BEWERK ME.
+description: Leer hoe u inhoud in een proefdruk kunt weergeven.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -62,7 +62,7 @@ U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, i
     <tbody> 
      <tr> 
       <td role="rowheader">Eén weergave</td> 
-      <td>Hiermee geeft u slechts één pagina tegelijk weer. Klik op de miniatuur van de pagina die u wilt weergeven of druk op de pijltoetsen links en rechts om tussen pagina's te navigeren.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
+      <td>Hiermee geeft u slechts één pagina tegelijk weer. Klik op de miniatuur van de pagina die u wilt weergeven of druk op de pijltoetsen links en rechts om tussen de pagina's te navigeren.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Doorlopende weergave</td> 
@@ -77,7 +77,7 @@ U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, i
 
 ## Miniaturen gebruiken
 
-Het deelvenster met miniaturen wordt aan de linkerkant van de proefdrukviewer weergegeven. U kunt het gebied met miniaturen gebruiken om door de proefdruk te navigeren. Miniaturen zijn vooral handig wanneer een proefdruk meerdere pagina&#39;s bevat.
+Het deelvenster met miniaturen wordt aan de linkerkant van de proefdrukviewer weergegeven. In het gebied met miniaturen kunt u door de proefdruk navigeren. Miniaturen zijn vooral handig wanneer een proefdruk meerdere pagina&#39;s bevat.
 
 * [Het deelvenster Miniaturen verbergen en weergeven](#hide-and-display-the-thumbnails-panel)
 * [Zoomen en pannen in de miniatuurweergave](#zoom-and-pan-in-the-thumbnail-view)
@@ -139,17 +139,17 @@ U kunt het zoompercentage aanpassen wanneer u de proefdruk weergeeft. Als u een 
 
    * Klik op de knop **Zoomen** Klik vervolgens op de proefdruk om de proefdruk met een hoger zoomniveau weer te geven of sleep over een gedeelte van de proefdruk om alleen dat gedeelte weer te geven.
 
-      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
    * Klik op het huidige zoompercentage en klik op een nieuw zoompercentage of klik op **Aanpassen aan breedte**, **Aanpassen aan hoogte**, of **Aanpassen aan pagina**.
 
-      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
    * Klik op de knop **Plus** of **Min** pictogrammen om het zoompercentage te verhogen of te verlagen.
 
-      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Als u naar een bepaald gebied op de videoproefdruk moet pannen, klikt u op de knop **Pannen** en sleep de proefdruk naar wens.
+1. Als u naar een bepaald gebied op de videoproef wilt pannen, klikt u op **Pannen** en sleep de proefdruk naar wens.
 
    ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 

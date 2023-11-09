@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Problemen oplossen - beschadigd interfacefont in proefdrukviewer op Mac
-description: 'Als u ziet dat het interfacetype niet correct wordt weergegeven in de proefdrukviewer, kan dit worden veroorzaakt door een aantal problemen met de lettertypen op uw Mac-computer. Probeer de volgende oplossingen om het probleem op te lossen: BEWERK ME.'
+description: Problemen met beschadigd interfacefont oplossen in proefdrukviewer op Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,8 @@ De verouderde proefdrukviewer is gebaseerd op [!DNL Flash Player] en soms is er 
 1. Druk op Option (⌥ Alt) om het dialoogvenster [!UICONTROL Library] in de vervolgkeuzelijst.
 1. Houd Option ingedrukt en klik op de knop [!UICONTROL Library] map.
 1. Na de [!UICONTROL Library] map wordt geopend, ga naar [!UICONTROL Fonts] in.
-1. Alle fonts in het deelvenster [!UICONTROL Fonts] naar een andere map op uw bureaublad (maak geen andere map in de map Fonts).
-1. Met deze handeling worden al uw aangepaste lettertypen verborgen. de standaardsysteemlettertypen moeten op hun aparte locatie worden opgeslagen.
+1. Alle fonts in het deelvenster Verplaatsen [!UICONTROL Fonts] naar een andere map op uw bureaublad (maak geen andere map in de map Fonts).
+1. Met deze handeling worden al uw aangepaste lettertypen verborgen. De standaardsysteemlettertypen worden dan nog steeds op hun eigen locatie opgeslagen.
 1. Afsluiten en opnieuw starten [!DNL Safari].
 1. Open de proefdruk opnieuw.
 

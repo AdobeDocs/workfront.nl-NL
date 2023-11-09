@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Mappen maken in [!DNL Workfront Proof]
-description: 'U kunt submappen op een van de volgende manieren maken: BEWERK ME.'
+description: U kunt submappen maken in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ U kunt submappen op een van de volgende manieren maken:
 >
 >Wanneer u een nieuwe submap maakt, wordt de lijst Delen overgenomen van de bovenliggende map.
 
-### Submappen maken vanuit de [!UICONTROL Folder details] page {#creating-a-sub-folder-from-the-folder-details-page}
+### Een submap maken vanuit de [!UICONTROL Folder details] page {#creating-a-sub-folder-from-the-folder-details-page}
 
 Voor informatie over de [!UICONTROL Folder details] pagina, zie [Mappen en de inhoud ervan beheren in Workfront Proef](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
@@ -104,7 +104,7 @@ In deze sectie kunt u de volgende informatie toevoegen (en controleren) aan de m
 
 In deze sectie kunt u de details van uw cliënt invullen - dit zal u toestaan om de Mijn omslagpagina op cliënt/projectnaam te sorteren:
 
-* Naam klant (1)
+* Clientnaam (1)
 * Projectnaam (2)
 
 ![New_folder_page_-_client_details.png](assets/new-folder-page---client-details-350x74.png)
@@ -114,7 +114,7 @@ In deze sectie kunt u de details van uw cliënt invullen - dit zal u toestaan om
 In de [!UICONTROL Share] sectie die u kunt instellen:
 
 * Wijs een nieuwe eigenaar van de map (1) toe. De maker van de map blijft in de lijst en kan niet worden verwijderd. U kunt echter een andere gebruiker in uw account de eigenaar maken, die hem bewerkingsrechten geeft voor de map.
-* De map delen met andere [!DNL Workfront Proof] gebruikers door hun e-mailadres in te voeren (2) - houd er rekening mee dat mappen alleen kunnen worden gedeeld met personen die een eigen map hebben [!DNL Workfront Proof] logins.
+* De map delen met andere [!DNL Workfront Proof] gebruikers door hun e-mailadres in te voeren (2) - houd er rekening mee dat mappen alleen kunnen worden gedeeld met personen met een eigen [!DNL Workfront Proof] logins.
 * Stel de machtigingen in voor de personen met wie u de map deelt (3). Dit is handig als u privémappen wilt delen met gebruikers van uw account. U kunt bepalen of gebruikers [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) mag profiel items in de map maken, bewerken en verwijderen.
 * Verwijder een gebruiker uit de lijst voor gedeelde mappen door op het prullenbakpictogram (4) rechts van de gebruikersnaam te klikken.
 * Verwijder iedereen uit de lijst met gedeelde mappen door op het bovenste prullenbakpictogram (5) te klikken. U kunt de maker of eigenaar van de map niet verwijderen.

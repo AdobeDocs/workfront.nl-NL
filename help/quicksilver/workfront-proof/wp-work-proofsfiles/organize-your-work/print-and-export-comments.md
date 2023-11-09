@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Opmerkingen afdrukken en exporteren in [!DNL Workfront Proof]
-description: 'U kunt het overzicht met opmerkingen rechtstreeks openen vanuit de volgende gedeelten: BEWERK ME.'
+description: De samenvatting met opmerkingen is toegankelijk in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ U kunt het overzicht met opmerkingen van de proefdruk afdrukken door op het tabb
 
 U kunt het overzicht met opmerkingen van de proefdruk afdrukken door op het tabblad **[!UICONTROL Print]** in het deelvenster [!UICONTROL Proof actions] -menu.
 
-Om toegang te krijgen tot [!UICONTROL Comments Summary] pagina uit een lijstweergave:
+Als u toegang wilt krijgen tot [!UICONTROL Comments Summary] pagina uit een lijstweergave:
 
 1. Klik op de knop **[!UICONTROL Actions]** -menu. (3)
 1. Selecteren **[!UICONTROL Print comments]**. (4)

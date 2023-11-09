@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Documenten van externe toepassingen koppelen
-description: U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfront - BEWERK ME.
+description: U kunt documenten en mappen koppelen aan Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 5122914acd0ae0fdfb8a5ae7319075ce1072962e
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,19 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>U kunt proefdrukken die oorspronkelijk zijn gemaakt met de Workfront-proefdrukken, beschikbaar maken in Workfront. Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Voor meer informatie over de verschillende beschikbare plannen raadpleegt u <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</td> 
+   <td>U kunt proefdrukken die oorspronkelijk zijn gemaakt met de Workfront-proefdrukken, beschikbaar maken in Workfront. Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>U kunt documenten vanuit Experience Manager Assets Essentials koppelen aan Workfront. Zie voor meer informatie <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront DAM </td> 
+   <td role="rowheader">WORKFRONT DAM </td> 
    <td>Hiervoor is een extra aankoop vereist. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Andere documentproviders (via aangepaste documentintegratie)</td> 
-   <td> <p class="workfront_plans">Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Voor meer informatie over de verschillende beschikbare plannen raadpleegt u <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</p> </td> 
+   <td> <p class="workfront_plans">Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +133,7 @@ U kunt documenten vanuit een externe toepassing, zoals Google en Microsoft OneDr
 
    Hoewel u meerdere documenten kunt selecteren, worden alleen documenten die in de huidige weergave zijn geselecteerd, gekoppeld. Als u bijvoorbeeld een document selecteert en vervolgens naar een map gaat, wordt het oorspronkelijk geselecteerde document niet gekoppeld.
 
-1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op de knop **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
+1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ U kunt documenten vanuit een externe toepassing, zoals Google en Microsoft OneDr
 
 U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een document dat is gekoppeld aan Workfront.
 
-1. Ga naar de **Documenten** het gekoppelde document.
+1. Ga naar de **Documenten** Selecteer het gekoppelde document.
 
    >[!IMPORTANT]
    >
@@ -159,7 +159,7 @@ U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een documen
 
 1. Klikken **Nieuwe toevoegen** > **Versie** en klikt u op de externe documentprovider.
 
-   Als u bijvoorbeeld een nieuwe versie van een document van Dropbox wilt koppelen, klikt u op **Van Dropbox**.
+   Als u bijvoorbeeld een nieuwe versie van een document vanuit Dropbox wilt koppelen, klikt u op **Van Dropbox**.
 
    Externe providers die u al hebt geautoriseerd, worden boven aan de lijst weergegeven.
 
@@ -174,9 +174,9 @@ U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een documen
 
    Blader naar de documenten die u wilt koppelen en selecteer deze.
 
-   U kunt meerdere documenten selecteren; alleen documenten die in de huidige weergave zijn geselecteerd, worden echter gekoppeld. Als u bijvoorbeeld een document selecteert en vervolgens naar een map gaat, wordt het oorspronkelijk geselecteerde document niet gekoppeld.
+   U kunt meerdere documenten selecteren, maar alleen documenten die in de huidige weergave zijn geselecteerd, worden gekoppeld. Als u bijvoorbeeld een document selecteert en vervolgens naar een map gaat, wordt het oorspronkelijk geselecteerde document niet gekoppeld.
 
-1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op de knop **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
+1. (Voorwaardelijk) Als u een Workfront DAM-klant bent, klikt u op **Miniatuur** om bestanden als miniatuurafbeeldingen weer te geven.
 
    >[!NOTE]
    >
@@ -278,7 +278,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
 1. Ga naar het gebied in Workfront waar u de map wilt, en klik vervolgens op  **Documenten** ![](assets/document-icon.png) in het linkerdeelvenster.
 
-1. Klikken **Nieuwe toevoegen** klikt u vervolgens op de externe documentprovider vanwaar u een map wilt koppelen aan Workfront.
+1. Klikken **Nieuwe toevoegen** en klikt u vervolgens op de externe documentprovider vanwaar u een map wilt koppelen aan Workfront.
 1. (Voorwaardelijk) Als u de externe service nog niet hebt geautoriseerd, geeft u uw aanmeldingsgegevens voor de externe provider op en klikt u op **Aanmelden**.
 
    Externe providers die u al hebt geautoriseerd, worden boven aan de lijst weergegeven.
@@ -289,11 +289,11 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
    Typ de naam van de map waarnaar u wilt zoeken en druk op **Enter**.
 
-   U kunt meerdere mappen selecteren; alleen de mappen die in de huidige weergave zijn geselecteerd, worden echter gekoppeld. Als u bijvoorbeeld een map selecteert en vervolgens naar een map gaat, wordt de oorspronkelijk geselecteerde map niet gekoppeld.
+   U kunt meerdere mappen selecteren, maar alleen de mappen die in de huidige weergave zijn geselecteerd, worden gekoppeld. Als u bijvoorbeeld een map selecteert en vervolgens naar een map gaat, wordt de oorspronkelijk geselecteerde map niet gekoppeld.
 
    >[!NOTE]
    >
-   >Als u mappen koppelt vanaf Google Drive, kunt u alleen mappen koppelen die zich op uw persoonlijke schijf (Mijn schijf) en op de teamschijf bevinden. U kunt geen mappen van het gebied Gedeeld met mij koppelen.
+   >Wanneer u mappen koppelt vanaf Google Drive, kunt u alleen mappen koppelen die zich op uw persoonlijke schijf (Mijn schijf) en op de teamschijf bevinden. U kunt geen mappen van het gebied Gedeeld met mij koppelen.
 
 1. Klikken **Koppeling**.
 
@@ -319,7 +319,7 @@ U kunt een nieuwe map maken in een bestaande gekoppelde map. U kunt ook een ande
 
    >[!NOTE]
    >
-   >De volgende beperkingen gelden voor het slepen van een bestaande Workfront-map naar een gekoppelde map:
+   >De volgende beperkingen zijn van toepassing wanneer u een bestaande Workfront-map naar een gekoppelde map sleept:
    >
    >* De map die u sleept, kan nog niet worden gekoppeld en kan geen inhoud bevatten die al is gekoppeld.
    >* De map (inclusief de inhoud) die u sleept, mag niet groter zijn dan 50 MB.
@@ -328,7 +328,7 @@ U kunt een nieuwe map maken in een bestaande gekoppelde map. U kunt ook een ande
 
 Als u via Workfront een document aan een gekoppelde map toevoegt, wordt dit automatisch toegevoegd als een gekoppeld document.
 
-1. Selecteer de gekoppelde map waarin u het document wilt plaatsen en klik op **Nieuw toevoegen > Document** Blader naar het document en voeg het toe aan de map.
+1. Selecteer de gekoppelde map waarin u het document wilt plaatsen en klik op **Nieuw toevoegen > Document** Blader vervolgens naar het document en voeg het toe aan de map.
 
 
 
@@ -362,4 +362,4 @@ Als u wilt dat de naam overeenkomt in Workfront en in de externe toepassing, moe
 
 >[!IMPORTANT]
 >
->Wijzig de naam niet van een document in Workfront dat is gekoppeld aan Dropbox; hierdoor wordt het bestand in Workfront ontoegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw, zoals beschreven in [Documenten van externe toepassingen koppelen](#synchronizing-changes-made-on-a-linked-document).
+>Wijzig de naam van een document in Workfront dat is gekoppeld aan een Dropbox niet. Hierdoor is het bestand in Workfront niet toegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw, zoals beschreven in [Documenten van externe toepassingen koppelen](#synchronizing-changes-made-on-a-linked-document).

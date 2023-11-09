@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Werk bijwerken in Adobe Photoshop
-description: U kunt uw werk op de volgende gebieden bijwerken - BEWERK ME.
+description: U kunt uw werk bijwerken met de Adobe Workfront-insteekmodule.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 

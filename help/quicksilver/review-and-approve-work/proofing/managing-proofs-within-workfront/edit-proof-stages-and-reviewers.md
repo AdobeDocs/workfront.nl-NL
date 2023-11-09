@@ -2,13 +2,13 @@
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Proofingfasen en controleurs bewerken
-description: U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren - BEWERK ME.
+description: Leer proefdrukstadia en revisoren te bewerken.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Afzonderlijke revisor verwijderen</td> 
-      <td> <p>Selecteer <strong>Meer</strong> rechts van de naam van de controleur klikt u op <strong>Verwijderen</strong> in het vervolgkeuzemenu. Klikken <strong>Bevestigen</strong> in het vak dat wordt weergegeven om de controleur van de proefdruk te verwijderen.</p> </td> 
+      <td> <p>Selecteer de <strong>Meer</strong> rechts van de naam van de controleur klikt u op <strong>Verwijderen</strong> in het vervolgkeuzemenu. Klikken <strong>Bevestigen</strong> in het vak dat wordt weergegeven om de controleur van de proefdruk te verwijderen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Meerdere revisoren verwijderen</td> 
@@ -78,15 +78,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Bericht sturen naar alle revisoren</td> 
-      <td>Selecteer <strong>Meer</strong> in de rechterbovenhoek van de werkgebiedsectie en selecteert u vervolgens <strong>Alles berichten</strong>. Vorm uw bericht, dan uitgezocht <strong>Verzenden</strong>.</td> 
+      <td>Selecteer de <strong>Meer</strong> in de rechterbovenhoek van de werkgebiedsectie en selecteert u vervolgens <strong>Alles berichten</strong>. Vorm uw bericht, dan uitgezocht <strong>Verzenden</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een revisor toevoegen aan het werkgebied</td> 
-      <td>Selecteer <strong>Meer</strong> in de rechterbovenhoek van de werkgebiedsectie en selecteert u vervolgens <strong>Delen</strong>. Voeg de gebruiker toe en configureer zijn rol en e-mailwaarschuwingen en herhaal deze zo nodig. Als u klaar bent, klikt u op <strong>Delen</strong>.</td> 
+      <td>Selecteer de <strong>Meer</strong> in de rechterbovenhoek van de werkgebiedsectie en selecteert u vervolgens <strong>Delen</strong>. Voeg de gebruiker toe en configureer zijn rol en e-mailwaarschuwingen en herhaal deze zo nodig. Klik op <strong>Delen</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Het werkgebied verwijderen</td> 
-      <td> <p>Selecteer <strong>Meer</strong> in de rechterbovenhoek van de sectie Werkgebied selecteert u <strong>Verwijderen</strong> in.</p> <p>Opmerking: Als er slechts één werkgebied is, kan het werkgebied niet worden verwijderd.</p> </td> 
+      <td> <p>Selecteer de <strong>Meer</strong> in de rechterbovenhoek van de sectie Werkgebied selecteert u <strong>Verwijderen</strong> in het werkgebied.</p> <p>Opmerking: als er slechts één werkgebied is, kan het werkgebied niet worden verwijderd.</p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Kan niet aanmelden bij de [!DNL Workfront Proof] Mobiele app
-description: 'Wanneer u zich probeert aan te melden bij de Workfront Proof Mobile-app, retourneert deze functie: BEWERK ME.'
+description: Problemen met aanmelden bij de mobiele app Workfront Proof oplossen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Probleem
 
-Wanneer u zich aanmeldt bij de [!DNL Workfront Proof] De mobiele toepassing die wordt geretourneerd:
+Wanneer u zich probeert aan te melden bij de [!DNL Workfront Proof] De mobiele toepassing die wordt geretourneerd:
 
 &quot;Uw gebruikersnaam of wachtwoord is onjuist. Probeer het opnieuw.&quot;
 

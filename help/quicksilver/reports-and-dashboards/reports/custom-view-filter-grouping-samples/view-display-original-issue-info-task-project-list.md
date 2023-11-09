@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Weergave: oorspronkelijke informatie over taken en projecten weergeven'
-description: U kunt de volgende informatie van de originele kwestie op een mening van taak en projectlijsten tonen, nadat de kwestie is omgezet in de taken en de projecten in de lijst - BEWERK ME.
+title: 'Weergave: oorspronkelijke informatie weergeven over taken en projectlijsten'
+description: U kunt informatie van de originele kwestie op een mening van taak en projectlijsten tonen, nadat de kwestie in de taken en de projecten in de lijst is omgezet.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Weergave: toon originele uitgifteinformatie over taak en projectlijsten
+# Weergave: oorspronkelijke informatie weergeven over taken en projectlijsten
 
 U kunt de volgende informatie van de originele kwestie op een mening van taak en projectlijsten tonen, nadat de kwestie in de taken en de projecten in de lijst is omgezet:
 
@@ -26,7 +26,7 @@ Voor informatie over het creëren van een mening die de standaard rapportbouwer 
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Voor meer informatie over het opnemen van extra uitgifteinformatie over projecten en takenlijsten, zie ook [Weergave: het voortkomen uitgeeft details voor taken en projecten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Voor meer informatie over het opnemen van extra uitgifteinformatie over projecten en takenlijsten, zie ook [Weergave: details over de oorsprong van taken en projecten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

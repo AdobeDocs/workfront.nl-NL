@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile-app
-description: Download de [!DNL Workfront Proof] van de Apple App Store of de Google Store om overal waar u bent productief te zijn. De [!DNL Workfront Proof] De app heeft de volgende functies op de iPhone en iPod Touch - BEWERK ME.
+description: Meer informatie over de Workfront Proof mobile-app.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Download de [!DNL Workfront Proof] van de Apple App Store of de Google Store om 
 
 * Statische en audiovisuele proefdrukken weergeven, reviseren en goedkeuren
 * Opmerkingen weergeven, toevoegen en beantwoorden
-* Proefbestanden beheren via uw dashboard en weergaven
+* Proefbestanden beheren via het dashboard en de weergaven
 
-U hoeft geen gebruiker te zijn van [!DNL Workfront Proof] (d.w.z. over uw eigen aanmeldingsgegevens beschikken) om een proefdruk te bekijken en goed te keuren via de iOS-app. Als u de app downloadt naar uw iOS-apparaat en toegang hebt tot uw persoonlijke URL via uw iOS-e-mailtoepassing, kunt u de app onderweg controleren en goedkeuren.
+U hoeft geen gebruiker van [!DNL Workfront Proof] (d.w.z. over uw eigen aanmeldingsgegevens beschikken) om een proefdruk te bekijken en goed te keuren via de iOS-app. Als u de app downloadt naar uw iOS-apparaat en toegang hebt tot uw persoonlijke URL via uw iOS-e-mailtoepassing, kunt u de app onderweg controleren en goedkeuren.
 
 ## Apparaatvereisten
 
@@ -52,7 +52,7 @@ De [!DNL Workfront Proof] wordt automatisch gedetecteerd welk type apparaat u ge
 
 ## Aan de slag met de app
 
-U hoeft geen [!DNL Workfront Proof] gebruiken. Installeer de toepassing op uw apparaat en klik op een **[!UICONTROL Go To Proof]** in uw e-mailbericht. De app start automatisch en laadt de proefdruk.
+U hoeft geen [!DNL Workfront Proof] gebruiker om de app te gebruiken. Installeer de toepassing gewoon op uw apparaat en klik op een **[!UICONTROL Go To Proof]** in uw e-mailbericht. De app start automatisch en laadt de proefdruk.
 
 Als u een [!DNL Workfront Proof] kunt u zich aanmelden bij de app voordat u proefdrukken opent. Met de app kunt u door alle proefdrukken bladeren die met u worden gedeeld en kunt u gemakkelijk tussen de proefdrukken schakelen.
 
@@ -61,7 +61,7 @@ Als u een [!DNL Workfront Proof] kunt u zich aanmelden bij de app voordat u proe
 
    of
 
-   Gebruik Enige Sign-On, als het op uw wordt gevormd [!DNL Workfront Proof] account.
+   Gebruik Single Sign-On als deze op uw [!DNL Workfront Proof] account.
 
    U kunt de **[!UICONTROL Forgot password]** als u uw wachtwoord niet herinnert.
 
@@ -80,7 +80,7 @@ Standaard wordt in het dashboard de weergave Totaal aantal proefdrukken geopend.
 | **Recente weergave** | Omvat de proefdrukken die onlangs door u zijn betreden en die u hebt, toestemmingen om volgens uw profieltoestemmingen hebben te zien en die met u werden gedeeld. In deze weergave worden alleen de proefdrukken getoond die u zelf hebt geopend (via het dialoogvenster [!DNL Workfront Proof] Viewer of via de pagina Proefgegevens). |
 | **E-mailkoppeling** | Als u een proefdruk van uw e-mail wilt openen, opent u gewoon het e-mailbericht in uw e-mailprogramma en klikt u op de knop [!UICONTROL Go to proof] in het e-mailbericht (1) en u wordt doorgestuurd naar de proefdruk in het dialoogvenster [!DNL Workfront Proof] app. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Een statische proefdruk in de app controleren
 
@@ -92,7 +92,7 @@ Wanneer u een proefdruk opent in de mobiele app, kunt u het volgende doen:
 * Beslissen (3).
 * Ga naar het menu (4).
 * Schaal de proefdruk door het scherm te knijpen.
-   ![IMG_0223.png](assets/img-0223-350x541.png)
+  ![IMG_0223.png](assets/img-0223-350x541.png)
 
 ## Opmerkingen en antwoorden toevoegen
 
@@ -119,18 +119,18 @@ Wanneer u een proefdruk opent in de mobiele app, kunt u het volgende doen:
    * Tik op de knop [!UICONTROL callout] pictogram.
    * Tik op de opmerking zelf om de volledige opmerking en de antwoorden daarop weer te geven.
 
-      ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+     ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
 
    * Een handeling toepassen op een opmerking:
 
       1. Open een opmerking.
       1. Tik op **[!UICONTROL Reply]**.
-      1. Open de [!UICONTROL actions] aan de rechterkant van het tekstveld (1).
+      1. Open de [!UICONTROL actions] rechts van het tekstveld (1).
       1. Tikken **[!UICONTROL Add action]** (2)
 
          ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
 
-         Voor meer informatie over acties raadpleegt u [Handelingen gebruiken voor opmerkingen bij proefdrukken](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+         Zie voor meer informatie over handelingen [Handelingen gebruiken voor opmerkingen bij proefdrukken](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Markeringen toevoegen
 
@@ -140,7 +140,7 @@ U kunt een markering toevoegen (zoals een vak dat een gebied op de proefdruk mar
 
    ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
 
-1. Kiezen tussen de [!UICONTROL pan mode] , lid 2, [!UICONTROL rectangle tool] , lid 3, [!UICONTROL freehand drawing] , lid 4, [!UICONTROL arrow] (5).
+1. Kiezen tussen [!UICONTROL pan mode] , lid 2, [!UICONTROL rectangle tool] , lid 3, [!UICONTROL freehand drawing] , lid 4, [!UICONTROL arrow] (5).
 
    U kunt ook de lijnkleur van de markering (6) wijzigen.
 
@@ -173,8 +173,7 @@ U kunt een markering toevoegen (zoals een vak dat een gebied op de proefdruk mar
    >* Als u beslissingsredenen instelt, worden deze weergegeven op het tabblad [!UICONTROL Submit your decision] scherm dat u kunt kiezen.
 
 
-
-   Als u al een beslissing hebt ingediend en u wilt deze wijzigen of verwijderen, kunt u dat gemakkelijk doen. Na de indiening van een besluit wordt een nieuwe mogelijkheid geboden, **[!UICONTROL Remove my decision]** , lid 6, op de [!UICONTROL Submit your decision] scherm.
+   Als u al een beslissing hebt ingediend en u wilt deze wijzigen of verwijderen, kunt u dat gemakkelijk doen. Na de indiening van een besluit wordt een nieuwe optie **[!UICONTROL Remove my decision]** , lid 6, wordt weergegeven op de [!UICONTROL Submit your decision] scherm.
 
    ![remove_decisions.png](assets/remove-decision-350x543.png)
 

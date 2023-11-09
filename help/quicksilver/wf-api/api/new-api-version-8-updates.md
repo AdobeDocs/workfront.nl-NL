@@ -2,14 +2,14 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Updates voor API versie 8
-description: 'De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Zie Nieuwe functies in API-versie 8 voor informatie over de bronnen die nieuw zijn voor versie 8. Wijzigingen in een bron worden als volgt aangegeven: BEWERK ME.'
+description: Bekijk de updates voor API versie 8.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---

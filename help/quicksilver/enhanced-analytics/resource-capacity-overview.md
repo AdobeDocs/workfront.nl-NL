@@ -3,13 +3,13 @@ title: De visualisatie van de bronnencapaciteit bekijken in Verbeterde analyse
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: De capaciteitvisualisatie van het Middel toont of een team over, onder, of bij capaciteit is. Deze berekening is gebaseerd op - BEWERK ME.
+description: De capaciteitvisualisatie van het Middel toont of een team over, onder, of bij capaciteit is.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -55,11 +55,11 @@ Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de se
 
 De capaciteitvisualisatie van het Middel toont of een team over, onder, of bij capaciteit is. Deze berekening is gebaseerd op:
 
-* **Beschikbare capaciteit**: De totale hoeveelheid uren die een huisteam beschikbaar heeft om in de gefilterde periode te werken
+* **Beschikbare capaciteit**: Het totale aantal uren dat een huisteam beschikbaar heeft om in de gefilterde periode te werken
 
-   >[!NOTE]
-   >
-   >Als u naar een toekomstige periode kijkt, wordt de beschikbare capaciteit berekend op basis van de capaciteit van het team gedurende de laatste 7 dagen. Daarom wordt geen rekening gehouden met een geplande PTO.
+  >[!NOTE]
+  >
+  >Als u naar een toekomstige periode kijkt, wordt de beschikbare capaciteit berekend op basis van de capaciteit van het team gedurende de laatste 7 dagen. Daarom wordt geen rekening gehouden met een geplande PTO.
 
 * **Geplande capaciteit**: De totale hoeveelheid geplande arbeidsuren die tijdens de gefilterde periode van het team van herkomst wordt verwacht
 
@@ -69,21 +69,21 @@ Deze vergelijking van de geplande uren en de daadwerkelijke geplande uren van ee
 
 Voor de capaciteitvisualisatie van het Middel, kunt u de volgende details zien:
 
-* **Geplande capaciteit**: In lijn met een naam van het huisteam, vertegenwoordigt de blauwe cirkel het aantal geplande uren die aan het huisteam worden toegewezen.
+* **Geplande capaciteit**: In lijn met een naam van een huisteam, vertegenwoordigt de blauwe cirkel het aantal geplande uren die aan het huisteam worden toegewezen.
 
-   ![](assets/resource-capacity-blue-circle.png)
+  ![](assets/resource-capacity-blue-circle.png)
 
 * **Werkelijke capaciteit**: In lijn met een naam van het huisteam, vertegenwoordigt de verticale lijn het aantal uren beschikbaar voor het huisteam.
 
-   ![](assets/resource-capacity-vertical-line.png)
+  ![](assets/resource-capacity-vertical-line.png)
 
-* **Overcapaciteit**: Wanneer de horizontale lijn en de blauwe cirkel rechts van de verticale lijn worden weergegeven, werd aan het home team meer werk toegewezen dan ze in het aantal beschikbare uren kunnen voltooien. Dit betekent dat het team gedurende de gefilterde periode over capaciteit kan zijn. Het resterende aantal uren dat het team nodig heeft om te voltooien, wordt rechts van de blauwe cirkel weergegeven.
+* **Overcapaciteit**: Wanneer de horizontale lijn en de blauwe cirkel rechts van de verticale lijn worden weergegeven, is aan het home team meer werk toegewezen dan ze in het aantal beschikbare uren kunnen voltooien. Dit betekent dat het team gedurende de gefilterde periode over capaciteit kan zijn. Het resterende aantal uren dat het team nodig heeft om te voltooien, wordt rechts van de blauwe cirkel weergegeven.
 
-   ![](assets/resource-capacity-over-capacity.png)
+  ![](assets/resource-capacity-over-capacity.png)
 
-* **Minder capaciteit**: Wanneer de horizontale lijn en de blauwe cirkel links van de verticale lijn tonen, heeft het huisteam meer beschikbare uren dan het aantal geplande uren van het werk zij werden toegewezen. Dit betekent dat het team gedurende de gefilterde periode mogelijk onder de capaciteit is. Het extra aantal beschikbare uren voor het huisteam om het werk te voltooien toont links van de blauwe cirkel.
+* **Minder capaciteit**: Wanneer de horizontale lijn en de blauwe cirkel links van de verticale lijn worden weergegeven, heeft het huisteam meer beschikbare uren dan het aantal geplande werkuren dat zij hebben toegewezen. Dit betekent dat het team gedurende de gefilterde periode mogelijk onder de capaciteit is. Het extra aantal beschikbare uren voor het huisteam om het werk te voltooien toont links van de blauwe cirkel.
 
-   ![](assets/resource-capacity-under-capacity.png)
+  ![](assets/resource-capacity-under-capacity.png)
 
 Het over een rij bedekken toont het nauwkeurige aantal uren voor geplande capaciteit en beschikbare capaciteit, evenals het aantal uren het huisteam over of onder capaciteit is.
 
@@ -110,7 +110,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
 1. (Voorwaardelijk) als u uw filter van het Team niet hebt geplaatst, voeg de filter van het Team toe en selecteer elk team dat u gegevens voor wilt zien.
 
-   Voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -124,12 +124,12 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op de knop **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
 
    * **Diagram (PNG)**
    * **Gegevenstabel (XSLX)**
 
-1. Klik een naam van het huisteam om meer informatie in de capaciteitvisualisatie van het Team te zien.
+1. Klik een naam van het huisteam om meer informatie in de de capaciteitsvisualisatie van het Team te zien.
 
    Meer over de capaciteitvisualisatie van het Team leren, zie [De visualisatie van de teamcapaciteit bekijken in Verbeterde analyse](../enhanced-analytics/team-capacity-overview.md).
 

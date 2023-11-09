@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Opties voor goedkeuringsbeslissingen configureren in [!DNL Workfront Proof]
-description: Als [!DNL Workfront Proof] beheerder die een Uitgezochte of de uitgave van de Premie plan gebruikt, kunt u opties van het goedkeuringsbesluit op de volgende manieren voor alle proeven vormen die door worden gecreeerd [!DNL Workfront Proof] gebruikers in uw organisatie - BEWERK ME.
+description: U kunt opties voor goedkeuringsbesluiten voor alle proeven vormen die door worden gecreeerd [!DNL Workfront Proof] gebruikers in uw organisatie.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ In dit artikel wordt het volgende uitgelegd:
    * Als u een beslissing wilt verbergen, klikt u op **[!UICONTROL Hide]** rechts van de beslissing die u niet nodig hebt.
    * Als u de naam van een beslissing wilt wijzigen, klikt u op de naam van de beslissing, bewerkt u de beslissing en klikt u buiten het vak (of drukt u op Enter). [!DNL Workfront Proof] werkt de naam van het besluit op alle bestaande proefdrukken in uw systeem bij.
 
-      >[!IMPORTANT]
-      >
-      >Behoud de logica voor een besluit wanneer u het anders noemt. De standaardbeslissing &#39;Afgewezen&#39; kan bijvoorbeeld worden gewijzigd in &#39;Nieuwe versie vereist&#39;, maar niet in &#39;Verzenden naar printers&#39;.
+     >[!IMPORTANT]
+     >
+     >Behoud de logica voor een besluit wanneer u het anders noemt. De standaardbeslissing &#39;Afgewezen&#39; kan bijvoorbeeld worden gewijzigd in &#39;Nieuwe versie vereist&#39;, maar niet in &#39;Verzenden naar printers&#39;.
 
-      Als je terug wilt gaan naar de [!DNL Workfront Proof] standaardinstellingen, kunt u op Standaardinstellingen herstellen klikken.
+     Als je terug wilt gaan naar de [!DNL Workfront Proof] standaardinstellingen, kunt u op Standaardinstellingen herstellen klikken.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Standaard zijn er redenen voor alle besluitvormers op uw proefdrukken, maar u ku
 Afhankelijk van uw vereisten kunt u meerdere redenen selecteren of één keuzelijst maken. U kunt ook redenen verplicht stellen, wat betekent dat revisoren een reden moeten kiezen voordat ze hun beslissing op een bewijs kunnen bewaren.
    ![Redenen_instellen.png](assets/reasons-setup-350x121.png)
 
-1. In de **[!UICONTROL Reasons]** sectie, klikt u op **[!UICONTROL New reason]**.
+1. In de **[!UICONTROL Reasons]** sectie, klikken **[!UICONTROL New reason]**.
    ![New_reason.png](assets/new-reason-350x135.png)
 
 1. Typ een titel voor de sectie Redenen in het vak onder **[!UICONTROL Reason]**.
@@ -81,7 +81,7 @@ U kunt een bericht voor een postbeslissing maken om weer te geven nadat een cont
 1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Account Settings]**.
 
 1. Open de **[!UICONTROL Decisions]** tab.
-1. In de **[!UICONTROL Post decision message]** sectie, klikt u op **[!UICONTROL Edit]** aan het einde van de **[!UICONTROL Message]** rij.
+1. In de **[!UICONTROL Post decision message]** sectie, klikken **[!UICONTROL Edit]** aan het einde van de **[!UICONTROL Message]** rij.
 U kunt ook beslissen of u wilt dat het bericht aan alle besluitvormers wordt getoond of dat u het tot de Primaire besluitvormer wilt beperken.
    ![post_Decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 

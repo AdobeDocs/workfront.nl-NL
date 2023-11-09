@@ -2,13 +2,13 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Definitief
-description: De volgende functionaliteit is momenteel niet beschikbaar in Voorproef of Bèta, maar geeft aan het milieu van de Productie in R1 - BEWERK ME vrij.
+description: 2018.3 Release-activiteit
 author: Luke
 feature: Product Announcements
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De volgende functionaliteit is momenteel niet beschikbaar in Voorproef of Bèta,
 
 ## Goedkeuringsbesluiten nemen voor proefdrukken uit het gebied Mijn werk (Workfront)
 
-Wanneer een gebruiker u nu aan een proef toevoegt en of de rol van fiatteur of Revisor &amp; van de fiatteur (of van de stand-alone toepassing ProofHQ of door Geautomatiseerde Werkschema binnen Workfront te gebruiken) verleent, wordt het goedkeuringsverzoek getoond op het lusje van Goedkeuringen in uw Mijn Werkgebied. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen.
+Wanneer een gebruiker u nu aan een proef toevoegt en of de rol van fiatteur of Revisor &amp; van de fiatteur (of van de stand-alone toepassing ProofHQ of door Geautomatiseerde Werkschema binnen Workfront te gebruiken) verleent, wordt het goedkeuringsverzoek getoond op het lusje van Goedkeuringen in uw Mijn Werkgebied. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen over het bewijs.
 
 Voor informatie over hoe u gebruikers aan een proefdruk kunt toevoegen met behulp van Geautomatiseerde workflow raadpleegt u [Een proefdruk delen in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Een proefdruk delen in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
@@ -83,7 +83,7 @@ Zie de volgende informatie voor meer informatie:
 
 De Workfront Add-In voor Outlook 365 is nu beschikbaar. 
 
-Voor meer informatie over het gebruiken van toe:voegen-binnen, zie [Het gebruiken van de toe:voegen-binnen van Workfront met Vooruitzichten voor Bureau 365.](https://support.workfront.com/hc/en-us/sections/205046167)
+Voor meer informatie over het gebruiken van toe:voegen-binnen, zie [Het gebruiken van toe:voegen-binnen Workfront met Vooruitzichten voor Bureau 365.](https://support.workfront.com/hc/en-us/sections/205046167)
 
 ## Zoeken in de mobiele app (Workfront)
 
@@ -95,7 +95,7 @@ U kunt nu zoeken naar objecten in de mobiele app, net als in de webtoepassing. D
 
 Zie de sectie &quot;Zoeken in mobiele apparaten&quot; in voor meer informatie over de mobiele app in  
 
-## Verbeterde Help in de mobiele app: Tutorials (Workfront)
+## Verbeterde Help in de Mobile App: Tutorials (Workfront)
 
 Vanaf de mobiele release in april ziet u nieuwe zelfstudies die u door uw mobiele ervaring begeleiden. Wanneer u zich voor het eerst aanmeldt bij de mobiele app en u een functie voor het eerst gebruikt, wordt een korte zelfstudie weergegeven waarin wordt uitgelegd hoe de functie werkt. De zelfstudie wordt slechts eenmaal weergegeven, de eerste keer dat u een bepaalde functie gebruikt.
 
@@ -103,7 +103,7 @@ Zie voor meer informatie over de mobiele app.
 
 ## Zoeken in PDF-documenten (proefafdruk van hoofdletters/kleine letters)
 
-U kunt nu zoekopdrachten uitvoeren in PDF-documenten, Office-documenten en statische webpagina&#39;s.
+U kunt nu zoeken in PDF-documenten, Office-documenten en statische webpagina&#39;s.
 
 Zie voor meer informatie  [Inhoud zoeken in een proefdruk](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
@@ -119,14 +119,14 @@ ProofHQ Premium-accounts die zijn geïntegreerd met Workfront, bieden nu de volg
 U kunt nu de volgende aanvullende informatie opnemen in aangepaste weergaven:
 
 * **Gegevens op ontvangerniveau**\
-   U kunt douanemeningen vormen om de volgende kolommen met betrekking tot ontvanger-vlakke gegevens te omvatten: Rol, Positie, E-mailwaarschuwingen, Mijn Deadline, Datum Toegevoegd aan Bewijs, en Ontvanger Onderzoek.\
-   Zie voor meer informatie [Aangepaste weergaven maken en beheren in proefdrukken van Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  U kunt aangepaste weergaven configureren om de volgende kolommen op te nemen met betrekking tot gegevens op geadresseerdenniveau: Rol, Positie, E-mailwaarschuwingen, Mijn deadline, Datum toegevoegd aan proefafdruk en Zoeken op ontvangers.\
+  Zie voor meer informatie [Aangepaste weergaven maken en beheren in proefdrukken van Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Proofinggegevens**\
-   U kunt aangepaste weergaven configureren om de volgende kolommen op te nemen met betrekking tot proefdrukgegevens: Aantal opmerkingen (alle versies), Grootte op schijf, Type proef, Aantal bestanden per versie, Gegevens opmerkingsbijlage (grootte op schijf, bestandsnaam) en Filteren op submap.\
-   Zie voor meer informatie [Aangepaste weergaven maken en beheren in proefdrukken van Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  U kunt aangepaste weergaven zodanig configureren dat deze de volgende kolommen bevatten met betrekking tot proefdrukgegevens: Aantal opmerkingen (alle versies), Grootte op schijf, Type proef, Aantal bestanden per versie, Gegevens opmerkingsbijlage (grootte op schijf, bestandsnaam) en Filteren op submap.\
+  Zie voor meer informatie [Aangepaste weergaven maken en beheren in proefdrukken van Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Gegevens op werkgebiedniveau met betrekking tot geautomatiseerde werkstromen**\
-   U kunt aangepaste weergaven configureren om de volgende kolommen op te nemen die betrekking hebben op afzonderlijke fasen van geautomatiseerde workflows: SOCD-status, Deadlines werkgebied, naam actief werkgebied, naam volgende werkgebied, naam werkgebied en sjabloon.\
-   Zie voor meer informatie [Aangepaste weergaven maken en beheren in proefdrukken van Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  U kunt aangepaste weergaven zodanig configureren dat deze de volgende kolommen bevatten die betrekking hebben op afzonderlijke fasen van geautomatiseerde workflows: SOCD-status, Deadlines werkgebied, Naam actief werkgebied, Naam volgende werkgebied, Naam werkgebied en Sjabloon.\
+  Zie voor meer informatie [Aangepaste weergaven maken en beheren in proefdrukken van Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Verbeteringen in testrapporten (voorheen Analytics) (ProofHQ)
 

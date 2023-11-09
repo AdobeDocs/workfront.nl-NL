@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: '"Foutbericht op kalender: ''Deze kalender heeft de weergaverechten van een gedeactiveerde gebruiker.'''''
-description: U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren - BEWERK ME.
+title: '"Foutbericht op kalender: "Deze kalender heeft de weergaverechten van een gedeactiveerde gebruiker.""'
+description: Meer informatie over het foutbericht 'Deze kalender heeft de weergaverechten van een gedeactiveerde gebruiker'.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -62,7 +62,7 @@ De gebruiker die deze kalender heeft gemaakt (de oorspronkelijke eigenaar) is ee
 U kunt dit op de volgende manier oplossen:
 
 1. Kopieer de oorspronkelijke kalender. Wanneer u een kalender kopieert, wordt u de eigenaar van de kalender. De gekopieerde kalender moet alle informatie uit de oorspronkelijke kalender bevatten.\
-   Voor meer informatie over het kopiëren van een kalender raadpleegt u [Een kalenderrapport kopiëren](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
+   Zie voor meer informatie over het kopiëren van een kalender [Een kalenderrapport kopiëren](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
 
 1. Deel de gekopieerde kalender met dezelfde gebruikers als de oorspronkelijke kalender. Alle gebruikers moeten dezelfde informatie op de nieuwe kalender zien.
 1. (Optioneel en voorwaardelijk) Als u machtigingen hebt om de oorspronkelijke kalender te beheren, verwijdert u alle andere gebruikers met wie de kalender wordt gedeeld uit het gebied voor het delen van kalender. Dit voorkomt verwarring bij gebruikers die de verkeerde kalender proberen weer te geven.

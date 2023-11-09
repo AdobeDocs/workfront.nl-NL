@@ -3,13 +3,13 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: Verschillen tussen de webtestviewer en het overzicht van de Desktop Proofing Viewer
-description: 'Adobe Workfront biedt twee verschillende testviewers: BEWERK ME.'
+description: Leer de verschillen tussen de kijkers voor desktopcomputers en webproeven.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Adobe Workfront biedt twee verschillende testviewers:
 De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken om bepaalde typen inhoud te controleren:
 
 * **Interactieve webinhoud - URL**: Als u met een URL een proefdruk maakt voor webinhoud en u de inhoud interactief wilt controleren, moet u de Desktop Proofing Viewer gebruiken.
-* **Interactieve webinhoud - ZIP-bestand**: Als u met een ZIP-bestand een proefdruk maakt voor webinhoud, kunt u de webproefdrukviewer (met enkele beperkingen) of de Desktop Proofing Viewer gebruiken. Voor informatie over de beperkingen die het gebruik van de webproefdrukviewer voor interactieve inhoud met zich meebrengt, raadpleegt u [Proofing van interactieve inhoud instellen in webproefdrukviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Interactieve webinhoud - ZIP-bestand**: Als u een proefdruk maakt voor webinhoud met behulp van een ZIP-bestand, kunt u de webtestviewer (met enkele beperkingen) of de Desktop Proofing Viewer gebruiken. Voor informatie over de beperkingen die het gebruik van de webproefdrukviewer voor interactieve inhoud met zich meebrengt, raadpleegt u [Proofing van interactieve inhoud instellen in webproefdrukviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Statische en video-inhoud**: Als u een proef creeert die statische inhoud bevat, kunt u of de Web Proofing Kijker of de Kijker van het Proofing van de Desktop gebruiken.
+* **Statische en video-inhoud**: Als u een proefdruk maakt die statische inhoud bevat, kunt u de Web Proofing Viewer of de Desktop Proofing Viewer gebruiken.
 
 ## Statische proefdrukken
 
@@ -44,9 +44,9 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
 | Statische proefdruknavigator | ✓ | ✓&#42; |
 | Document zoeken | ✓ | ✓&#42; |
 | Opmerking op meerdere pagina&#39;s plaatsen | ✓ (beschikbaar in alle weergaven) | ✓&#42; (beschikbaar in alle weergaven) |
-| Geavanceerde sneltoetsen voor statische proefdrukken | ✓ (zie voor meer informatie [Sneltoetsen in de testviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(zie voor meer informatie [Sneltoetsen in de testviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Geavanceerde sneltoetsen voor statische proefdrukken | ✓ (zie voor meer informatie [Sneltoetsen in de conceptviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(zie voor meer informatie [Sneltoetsen in de conceptviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Deze functionaliteit werkt alleen als uw Workfront-beheerder de Desktop Proofing Viewer heeft geconfigureerd als de standaardviewer voor alle proefdrukken.
 
@@ -63,9 +63,9 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
 | modus Volledig scherm | ✓ | ✓&#42;  |
 | Bereikopmerkingen | ✓ | ✓&#42;  |
 | Videoproefdrukken herhalen (video&#39;s worden automatisch voltooid en gestart) | ✓ | ✓&#42;  |
-| Geavanceerde videosneltoetsen | ✓ (zie voor meer informatie [Sneltoetsen in de testviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Geavanceerde videosneltoetsen | ✓ (zie voor meer informatie [Sneltoetsen in de conceptviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Deze functionaliteit werkt alleen als de Desktop Proofing Viewer is geconfigureerd als de standaardviewer voor alle proefdrukken.
 
@@ -80,7 +80,7 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
 | Onbeveiligde (HTTP) sites controleren | Niet ondersteund | ✓ |
 | iFrame-beveiligde sites controleren (sites die zijn beveiligd tegen weergave binnen een iFrame) | Niet ondersteund | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Opmerkingen
 
@@ -107,7 +107,7 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Markeringsgereedschappen voor rechthoeken, pijl, lijn, vrije hand en markering voor hooglichten</p> </td> 
+   <td> <p>Markeringsgereedschappen voor rechthoeken, pijlen, lijnen, vrije hand en hooglichten</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -231,7 +231,7 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
 | Besluiten maken | ✓ | ✓ |
 | Besluiten aanpassen | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Proofs vergelijken
 
@@ -285,7 +285,7 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
    <td>Alleen beschikbaar in Workfront Proof (gepland voor de toekomst bij proefdrukken in Workfront)</td> 
   </tr> 
   <tr> 
-   <td>Proofdetails controleren </td> 
+   <td>Details van proefdrukken bekijken </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -373,7 +373,7 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
 |---|---|---|
 | Ingesloten code | Gepland voor de toekomst voor statische en native videoproefdrukken | Niet ondersteund  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Vertalingen
 

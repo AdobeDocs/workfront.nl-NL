@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Inhoud zoeken in een proefdruk
-description: 'U kunt snel tekst zoeken in een proefdruk die is gemaakt voor de volgende typen documenten: BEWERK ME.'
+description: Leer snel tekst te zoeken in een proefdruk.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Controleren</p> <p>Ouder plan: Controleren</p> </td> 
+   <td> <p>Huidige abonnement: revisie</p> <p>Ouder plan: revisie</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Inhoud zoeken in een proefdruk
 
 1. Open de proefdruk die u wilt zoeken.
-1. Klik op de werkbalk boven de proefdruk op de knop **Document zoeken** pictogram.
+1. Klik op de werkbalk boven de proefdruk op de knop **Document doorzoeken** pictogram.
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 

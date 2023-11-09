@@ -2,13 +2,13 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: De integratie met Experience Manager Assets Essentials configureren
-description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials - BEWERK ME.
+description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a6cb6d4780f2b1c3e77547caf7324e882d2dab4f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong>Configuraties op toegangsniveau</strong>
    </td>
-   <td>U moet een Workfront-beheerder zijn. Voor informatie over Workfront-beheerders raadpleegt u <strong>Volledige administratieve toegang verlenen aan een gebruiker</strong>.
+   <td>U moet een Workfront-beheerder zijn. Zie voor informatie over Workfront-beheerders <strong>Volledige administratieve toegang verlenen aan een gebruiker</strong>.
    </td>
   </tr>
 </table>
@@ -83,7 +83,7 @@ U moet het volgende hebben:
    <tr>
       <td><strong>Navigatie-URL</strong>
       </td>
-      <td>De navigatie-URL wordt automatisch door het systeem gevuld. Deze URL wordt gebruikt om via het hoofdmenu een koppeling te maken naar het Assets Essentials-exemplaar van uw organisatie, zodat u deze snel kunt openen.
+      <td>De navigatie-URL wordt automatisch door het systeem gevuld. Deze URL wordt gebruikt om aan de instantie van de Assets Essentials van uw organisatie van het Belangrijkste Menu voor snelle toegang te verbinden.
       </td>
    </tr>
    <tr>
@@ -101,7 +101,7 @@ U moet het volgende hebben:
 
 ## Metagegevens instellen (optioneel)
 
-Workfront-objectgegevens toewijzen aan middelenmediavelden in Experience Manager Assets. Metagegevens worden toegewezen wanneer een element voor het eerst vanuit Workfront wordt geduwd.
+Wijs Workfront-objectgegevens toe aan middelenmediavelden in Experience Manager Assets. Metagegevens worden toegewezen wanneer een element voor het eerst vanuit Workfront wordt geduwd.
 
 
 ### Vereisten
@@ -113,7 +113,7 @@ Voordat u begint, moet u
 
 +++ **Ondersteunde velden voor Workfront en Experience Manager Assets**
 
-**Trefwoord AEM**
+**AEM trefwoord**
 
 U kunt elk door Workfront ondersteund veld toewijzen aan een trefwoord in Experience Manager Assets Essentials.
 

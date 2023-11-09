@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Je betalingsmethode kiezen in [!DNL Workfront] Proef
-description: De volgende betalingsopties zijn beschikbaar - BEWERK ME.
+description: Meer weten over betalingen in Workfront Proof?
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ De volgende betalingsopties zijn beschikbaar:
 | creditcard | creditcard |
 | overschrijving |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 We accepteren geen controles
 
@@ -45,7 +45,6 @@ We accepteren geen controles
 
 
 
-
 Je volgende betalingsmethode wijzigen en je creditcardgegevens bijwerken:
 
 1. Klikken **[!UICONTROL Change payment details]** (1) boven aan de pagina\
@@ -55,7 +54,7 @@ Je volgende betalingsmethode wijzigen en je creditcardgegevens bijwerken:
 
 1. In de **[!UICONTROL Change payment details]** selecteert u de volgende betalingsmethode. (3)
 1. (Voorwaardelijk) Voer voor de creditcardbetalingen uw kaartgegevens in.\
-   Als u alleen de creditcardgegevens wilt wijzigen, vult u alleen de velden met de creditcardgegevens (4) met de nieuwe kaartgegevens in en slaat u de wijzigingen op (5). Je kunt je creditcardgegevens op elk gewenst moment wijzigen. De nieuwe kaart wordt gebruikt voor alle abonnementsbetalingen die onmiddellijk van kracht zijn.\
+   Als u alleen de creditcardgegevens wilt wijzigen, vult u alleen de velden met de creditcardgegevens (4) met de nieuwe kaartgegevens in en slaat u (5) de wijzigingen op. Je kunt je creditcardgegevens op elk gewenst moment wijzigen. De nieuwe kaart wordt gebruikt voor alle abonnementsbetalingen die onmiddellijk van kracht zijn.\
    Wij aanvaarden [!DNL Visa], [!DNL American Express] en [!DNL MasterCard].
 
 1. Klik op **[!UICONTROL Save]**. (4)\
@@ -68,7 +67,7 @@ Als u satellietrekeningen hebt, moet u uw creditcardgegevens en betalingsmethode
 1. Ga naar de [!UICONTROL Billing] pagina in uw rekening van de Hub.\
    Voor meer informatie over de Factureringspagina, zie [De [!DNL Workfront] Factureringspagina proefdrukken](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Open de [!UICONTROL accounts list] vervolgkeuzemenu. (1)
+1. Open de [!UICONTROL accounts list] vervolgkeuzelijst. (1)
 1. Kies de satellietrekening (2) die met de creditcard wordt geassocieerd u wilt bijwerken.
 1. Doorgaan met [Je betalingsmethode en creditcardgegevens wijzigen](#changing-your-payment-method-and-credit-card-details).\
    ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)

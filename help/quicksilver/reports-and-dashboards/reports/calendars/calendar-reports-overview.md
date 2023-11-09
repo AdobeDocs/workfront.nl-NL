@@ -3,13 +3,13 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Overzicht van kalenderrapporten
-description: 'Een kalenderrapport is eigenlijk een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt datumgegevens weergeven in een kalenderrapport voor de volgende objecten: BEWERK ME.'
+description: Een kalenderrapport is eigenlijk een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Een kalenderrapport is eigenlijk een dynamisch rapport dat een visuele vertegenw
 * Problemen
 * Projecten
 
-Uw mogelijkheden om toegang te krijgen tot kalenderrapporten in [!DNL Adobe Workfront] wordt bepaald door [!DNL Workfront] beheerder door uw toegangsniveau. Voor meer informatie over het toegangsniveau nodig om kalenderrapporten te bekijken, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Uw mogelijkheden om kalenderrapporten te openen in [!DNL Adobe Workfront] wordt bepaald door [!DNL Workfront] beheerder door uw toegangsniveau. Voor meer informatie over het toegangsniveau nodig om kalenderrapporten te bekijken, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Uw eigen kalenders maken
 
@@ -40,7 +40,7 @@ Bovendien kunnen gebruikers kalenders en toegangscalenders maken die met hen wor
 
 >[!NOTE]
 >
->U moet [!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport tot stand te brengen. Neem contact op met uw [!DNL Workfront] beheerder.
+>U moet [!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport te creëren. Neem contact op met uw [!DNL Workfront] beheerder.
 
 ## Items groeperen op datums
 

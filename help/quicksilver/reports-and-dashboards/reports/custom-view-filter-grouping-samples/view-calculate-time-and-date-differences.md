@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: tijd- en datumverschillen berekenen'
-description: Bouw een mening die het verschil tussen twee datumgebieden op een voorwerp of tussen een datumgebied op een voorwerp en een ander datumgebied op het oudervoorwerp toont.
+description: Leer tijd- en datumverschillen te berekenen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
