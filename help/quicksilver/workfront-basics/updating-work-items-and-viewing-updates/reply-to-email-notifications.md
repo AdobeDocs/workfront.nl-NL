@@ -6,7 +6,7 @@ description: U kunt reageren op Workfront-e-mailmeldingen die zijn gegenereerd v
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -19,12 +19,8 @@ Afhankelijk van de configuratie van uw e-mailberichten, ontvangt u mogelijk een 
 
 U kunt op de volgende manieren reageren op een update van een e-mailmelding:
 
-antwoord op de oorspronkelijke opmerking.
-
 * Gebruik de knop Opmerking in het e-mailbericht om terug te navigeren naar Workfront en de update te beantwoorden in het gedeelte Updates.
-* Reageren op het e-mailbericht dat u ontvangt. Uw antwoordbericht wordt toegevoegd als een Workfront
-
-
+* Reageren op het e-mailbericht dat u ontvangt. Uw antwoordbericht wordt toegevoegd als Workfront-antwoord op de oorspronkelijke opmerking.
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ U kunt reageren op Workfront-e-mailberichten die worden gegenereerd op basis van
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

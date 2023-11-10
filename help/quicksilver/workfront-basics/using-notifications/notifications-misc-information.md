@@ -6,9 +6,9 @@ description: In de volgende berichten wordt u gewaarschuwd voor activiteiten die
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
    <td><strong>Meteen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Er is een fout gevonden die mijn aandacht vereist</strong> </p> <p>De gebruiker die via e-mail op een opmerking antwoordt, ontvangt een e-mailbericht wanneer het antwoord niet is verzonden.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Failed to Process on] &lt;subject of="" original="" message=""&gt;</em></p> <p>Zie voor informatie over het gebruik van e-mail om opmerkingen te beantwoorden.<strong></strong></p> </td> 
+   <td> <p><strong>Er is een fout gevonden die mijn aandacht vereist</strong> </p> <p>De gebruiker die via e-mail op een opmerking antwoordt, ontvangt een e-mailbericht wanneer het antwoord niet is verzonden.</p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>[!UICONTROL Failed to Process on] &lt;subject of="" original="" message=""&gt;</em></p> <p>Zie voor informatie over het gebruik van e-mail om opmerkingen te beantwoorden <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">E-mailberichten beantwoorden</a>.</p> </td>
    <td> </td> 
    <td><strong>Meteen</strong> </td> 
   </tr> 

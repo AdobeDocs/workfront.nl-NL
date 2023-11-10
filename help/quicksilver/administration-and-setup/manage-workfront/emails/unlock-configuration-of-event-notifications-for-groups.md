@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Wanneer een beheerder een gebeurtenisbericht voor een groep vormt, beïnvloedt d
 >* Een Workfront-beheerder kan de configuratie voor een gebeurtenismelding ontgrendelen en opnieuw vergrendelen in zowel Adobe Workfront Classic als de nieuwe Adobe Workfront-ervaring. Maar een groepsbeheerder kan dat gebeurtenisbericht voor een groep slechts in de nieuwe ervaring van Adobe Workfront vormen. Groepbeheerders die Adobe Workfront Classic gebruiken, kunnen overschakelen naar de nieuwe Adobe Workfront-ervaring om ontgrendelde gebeurtenismeldingen voor een groep te configureren, en vervolgens terugschakelen naar Adobe Workfront Classic om de wijzigingen te zien.
 >* Subgroepen erven de configuraties van gebeurtenismeldingen op groepsniveau van de groepen op hoofdniveau erboven.
 >
-
 
 ## Toegangsvereisten
 
@@ -64,14 +63,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klikken **E-mail** > **Meldingen**.
 
 1. Zorg ervoor dat de **Gebeurtenismeldingen** is geopend.
-1. Klik op het pictogram rechts van het bericht om het over te schakelen naar het ontgrendelde ![](assets/lock-toggle-button.png) of vergrendeld ![](assets/unlock-toggle-button.png) positie.
+1. Klik op het pictogram rechts van het bericht om het naar de vergrendelde versie te verplaatsen ![Vergrendelingspictogram](assets/lock-toggle-button.png) of ontgrendeld ![Pictogram Ontgrendelen](assets/unlock-toggle-button.png) positie.
 
    of
 
-   Als u meerdere meldingen tegelijk wilt ontgrendelen of vergrendelen, selecteert u deze en klikt u op de knop Ontgrendelen ![](assets/unlock-icon-toolbar.png) of Vergrendelen ![](assets/lock-icon-locked-qs.png) in de werkbalk boven de lijst.
+   Als u meerdere meldingen tegelijk wilt ontgrendelen of vergrendelen, selecteert u deze en klikt u op de knop Ontgrendelen ![Pictogram Ontgrendelen](assets/unlock-icon-toolbar.png) of Vergrendelen ![Vergrendelingspictogram](assets/lock-icon-locked-qs.png) in de werkbalk boven de lijst.
 
 1. Klikken **Opslaan**.
 1. (Optioneel) Als u het gebeurtenisbericht voor een groep op hoofdniveau wilt configureren in plaats van deze taak over te laten aan de beheerder van de groep, kunt u een van de volgende handelingen uitvoeren:
 
-   * Verwijderen **Systeemgebeurtenismeldingen** in het zoekvak boven de lijst met meldingen zoekt u de naam van de groep op het hoogste niveau om de meldingen weer te geven en activeert of activeert u vervolgens de ontgrendelde berichten in de lijst die wordt weergegeven.
+   * Verwijderen **Systeemgebeurtenismeldingen** in het zoekvak boven de lijst met meldingen zoekt u de naam van de bovenste groep om de meldingen weer te geven. Vervolgens activeert of activeert u de ontgrendelde berichten in de lijst die wordt weergegeven.
    * Klikken **Groepen** in het linkermenu, dan klik de naam van de top-level groep. Klikken **Gebeurtenismeldingen** in het linkerdeelvenster, configureert u vervolgens de ontgrendelde gebeurtenismelding, zoals wordt uitgelegd in [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
