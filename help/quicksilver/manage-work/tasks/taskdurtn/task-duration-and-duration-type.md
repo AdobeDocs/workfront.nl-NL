@@ -6,10 +6,11 @@ title: Overzicht van het Type van Duur en van de Duur van de Taak
 description: De taakduur is het verschil tussen de Geplande Datum van Voltooiing en de Geplande Datum van het Begin van de taak. De Duur wijst op het tijdkader dat voor de taak beschikbaar is om te worden voltooid.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -40,11 +41,11 @@ Hieronder vindt u twee scenario&#39;s voor het berekenen van de duur in Adobe Wo
 
 * Als de taak aan meerdere gebruikers wordt toegewezen:
 
-   Workfront houdt rekening met het projectschema of met dat van de primaire ontvanger.
+  Workfront houdt rekening met het projectschema of met dat van de primaire ontvanger.
 
-   Uw Workfront-beheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan meerdere gebruikers wordt toegewezen. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Uw Workfront-beheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan meerdere gebruikers wordt toegewezen. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   De stappen zijn gelijkaardig aan het eerste scenario na begrip welk programma Workfront gebruikt om Duur te berekenen.
+  De stappen zijn gelijkaardig aan het eerste scenario na begrip welk programma Workfront gebruikt om Duur te berekenen.
 
 ## Eenheden van tijd voor de Duur van de Taak
 
@@ -65,7 +66,7 @@ Wanneer u de duur van taken in een lijst bijwerkt, kunt u de volgende afkortinge
 | Verstreken weken | EW |
 | Verstreken maanden | ET |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Voorbeeld:** Als u wilt erop wijzen dat de Duur van een taak 3 Verstreken Dag is, zou u &quot;3 ED&quot;op het gebied van de Duur in een taaklijst typen.  U kunt de aangewezen optie voor de Eenheid van de Duur van Tijd van het beschikbare drop-down menu ook selecteren wanneer het uitgeven van een taak of in de sectie van de Details van de Taak. Voor informatie over het bewerken van taken raadpleegt u [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -111,22 +112,22 @@ Met het type Duur kunt u de volgende vragen beantwoorden:
  <tbody> 
   <tr> 
    <th scope="col"> <p><strong>Berekende toewijzing</strong> </p> </th> 
-   <td scope="col"> <p>Berekent het toewijzingspercentage voor elke toegewezen persoon op een taak. </p> <p>Wanneer u dit Type van Duur kiest, kunt u individuele Duur en Geplande Uren voor de taak invoeren. Workfront deelt de geplande uren door het aantal uren binnen de Duur van de taak, dan door het aantal middelen die aan de taak worden toegewezen om de toewijzing voor elke toegewezen persoon te berekenen.</p> <p>Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Overzicht van het type duur: Berekende toewijzing</a>.</p> </td> 
+   <td scope="col"> <p>Berekent het toewijzingspercentage voor elke toegewezen persoon op een taak. </p> <p>Wanneer u dit Type van Duur kiest, kunt u individuele Duur en Geplande Uren voor de taak invoeren. Workfront deelt de geplande uren door het aantal uren binnen de Duur van de taak, dan door het aantal middelen die aan de taak worden toegewezen om de toewijzing voor elke toegewezen persoon te berekenen.</p> <p>Voor meer gedetailleerde informatie, zie <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Overzicht duur: berekende toewijzing</a>.</p> </td> 
    <td scope="col">De duur en de Geplande Uren veranderen niet wanneer het toevoegen van of het verwijderen van toegewezen aan de taak. </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>Berekend werk</strong> </p> </th> 
-   <td scope="col"> <p>Bepaalt de Geplande Uren (hoeveelheid inspanning) die voor de te voltooien taak wordt vereist.</p> <p>Normaal gebruikt wanneer de middelen die aan de taak worden toegewezen voor de volledige Duur van de taak worden toegewezen.</p> <p>Wanneer u dit Type van Duur kiest, hebt u de capaciteit om een individuele Duur voor de taak in te voeren. Workfront berekent de Geplande Uren voor de taak door het aantal dagen in de Duur met het aantal werkuren in het programma en met het aantal wijzers aan de taak te vermenigvuldigen. </p> <p>U kunt het toewijzingspercentage van elke toegewezen persoon handmatig wijzigen in de taak, waardoor de hoeveelheid geplande uren wordt verkort.</p> <p>Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Overzicht van het type duur: Berekend werk</a>.</p> </td> 
+   <td scope="col"> <p>Bepaalt de Geplande Uren (hoeveelheid inspanning) die voor de te voltooien taak wordt vereist.</p> <p>Normaal gebruikt wanneer de middelen die aan de taak worden toegewezen voor de volledige Duur van de taak worden toegewezen.</p> <p>Wanneer u dit Type van Duur kiest, hebt u de capaciteit om een individuele Duur voor de taak in te voeren. Workfront berekent de Geplande Uren voor de taak door het aantal dagen in de Duur met het aantal werkuren in het programma en met het aantal wijzers aan de taak te vermenigvuldigen. </p> <p>U kunt het toewijzingspercentage van elke toegewezen persoon handmatig wijzigen in de taak, waardoor de hoeveelheid geplande uren wordt verkort.</p> <p>Voor meer gedetailleerde informatie, zie <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Overzicht duur: berekend werk</a>.</p> </td> 
    <td scope="col"> <p>De geplande Uren stijgen wanneer de wijzers aan de taak worden toegevoegd. </p> <p>Geplande uren nemen af wanneer er toewijzingen uit de taak worden verwijderd.</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p>Inzet gedreven</p> </th> 
-   <td scope="col"> <p>Hiermee bepaalt u de geplande uren op basis van het aantal bronnen.</p> <p>Wanneer u dit Type van Duur kiest, hebt u de capaciteit om een individuele Duur voor de taak in te voeren. Workfront berekent de Geplande Uren voor de taak door het aantal dagen in de Duur met het aantal werkuren in het programma te vermenigvuldigen en dat te delen door het aantal wijzers aan de taak. </p> <p>U kunt het toewijzingspercentage van elke toegewezen persoon voor de taak handmatig wijzigen, maar het aantal geplande uren blijft ongewijzigd.</p> <p>Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Overzicht van het type duur: Inzet gedreven</a>.</p> </td> 
+   <td scope="col"> <p>Hiermee bepaalt u de geplande uren op basis van het aantal bronnen.</p> <p>Wanneer u dit Type van Duur kiest, hebt u de capaciteit om een individuele Duur voor de taak in te voeren. Workfront berekent de Geplande Uren voor de taak door het aantal dagen in de Duur met het aantal werkuren in het programma te vermenigvuldigen en dat te delen door het aantal wijzers aan de taak. </p> <p>U kunt het toewijzingspercentage van elke toegewezen persoon voor de taak handmatig wijzigen, maar het aantal geplande uren blijft ongewijzigd.</p> <p>Voor meer gedetailleerde informatie, zie <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Overzicht van het Duur Type: Door de inspanning gestuurde</a>.</p> </td> 
    <td scope="col"> <p>De geplande uren stijgen wanneer de wijzers van de taak worden verwijderd.</p> <p>Geplande uren nemen af wanneer er toewijzingen aan de taak worden toegevoegd. </p> <p>De Duur verandert niet, ongeacht veranderingen in het aantal aangewezen personen of hun programma. </p> <p>De duur is gelijk aan de geplande uren. De geplande duur is gelijk aan de geplande uren gedeeld door het aantal toegewezen personen.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p><strong>Eenvoudig</strong> </p> </th> 
-   <td scope="col"> <p>Bepaalt de Geplande Uren en de Duur (die het zelfde, voor dit Type van Duur) zijn gebaseerd op het aantal uren elke toegewezen persoon voor. </p> <p>Workfront berekent de geplande uren door de geplande toegewezen uren voor elke ontvanger op te tellen. </p> <p>U kunt de hoeveelheid uren waarvoor elke toegewezen persoon is toegewezen handmatig wijzigen en het aantal geplande uren en de hoeveelheid tijdsduur worden dienovereenkomstig aangepast. Als u een totaal aantal toegewezen uren kiest voor alle toegewezen personen, wordt dat aantal gelijkelijk over elke toegewezen persoon verdeeld.</p> <p>Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Overzicht van het type duur: Eenvoudig</a>.</p> </td> 
+   <th scope="col"> <p><strong>eenvoudig</strong> </p> </th> 
+   <td scope="col"> <p>Bepaalt de Geplande Uren en de Duur (die het zelfde zijn, voor dit Type van Duur) gebaseerd op het aantal uren elke toegewezen ontvanger wordt. </p> <p>Workfront berekent de geplande uren door de geplande toegewezen uren voor elke ontvanger op te tellen. </p> <p>U kunt de hoeveelheid uren waarvoor elke toegewezen persoon is toegewezen handmatig wijzigen en het aantal geplande uren en de hoeveelheid tijdsduur worden dienovereenkomstig aangepast. Als u een totaal aantal toegewezen uren kiest voor alle toegewezen personen, wordt dat aantal gelijkelijk over elke toegewezen persoon verdeeld.</p> <p>Voor meer gedetailleerde informatie, zie <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Overzicht van het type duur: Eenvoudig</a>.</p> </td> 
    <td scope="col"> <p>De uren worden gelijkmatig verdeeld over toegewezen uren als u een totaal aantal toegewezen uren kiest. Nochtans, als projectmanager, kunt u de uren voor elke toegewezen persoon manueel aanpassen. </p> <p>U kunt Geplande uren en Duur van een taak met het Eenvoudige Type van Duur inline of op het taakniveau uitgeven. </p> <p>Als een nieuw team aan een taak wordt toegewezen, wordt het Type van Duur automatisch geplaatst aan Eenvoudig en kan niet worden veranderd. De taakduur voor een flexibel team moet langer zijn dan 0 minuten.</p> </td> 
   </tr> 
  </tbody> 

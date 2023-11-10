@@ -2,21 +2,21 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Navigeren [!DNL Adobe Workfront]
-description: Lees deze artikelen om te begrijpen hoe u door Workfront kunt navigeren en Workfront-terminologie kunt leren.
+description: Lees deze artikelen om te begrijpen hoe u door Adobe Workfront kunt navigeren en Workfront-terminologie kunt leren.
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # Navigeren [!DNL Adobe Workfront]
 
-Lees deze artikelen om te begrijpen hoe u door Workfront kunt navigeren en Workfront-terminologie kunt leren.
+Lees deze artikelen om te begrijpen hoe u door Adobe Workfront kunt navigeren en Workfront-terminologie kunt leren.
 
 Deze sectie bevat de volgende subsecties en artikelen:
 

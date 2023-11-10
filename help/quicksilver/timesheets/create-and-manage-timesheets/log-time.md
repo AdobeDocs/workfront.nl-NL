@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3449'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ Om een punt uit timesheet te verwijderen dat manueel werd toegevoegd:
 
 U kunt project-specifieke tijd in Huis registreren.
 
-Voor algemene informatie over het gebruik van het gebied Home raadpleegt u [Het gebied Home gebruiken](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Zie de volgende secties voor algemene informatie over het gebruik van het gebied Home:
 
-U kunt als volgt de tijd vastleggen op een tijdelijk onderdeel in het gebied Home:
+* Ga voor informatie over het gebruik van het verouderde Home-gebied naar [Het gebied Home gebruiken](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Voor informatie over het gebruik van het nieuwe gebied Home raadpleegt u [Aan de slag met New Home in Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### De tijd van het logboek op een het werkpunt van het nieuwe gebied van het Huis
+
+1. Ga naar de **Home** gebied.
+1. Voeg een van de volgende widgets toe:
+
+   * Mijn taken
+   * Mijn problemen
+   * Mijn werk
+   * Mijn verzoeken
+1. Selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Samenvatting**
+
+   of
+
+   Klik op de knop **Samenvatting** pictogram ![](assets/open-summary-icon-in-home.png) uit een taak of een probleem in de widget Mijn werk.
+
+   Het deelvenster Samenvatting wordt rechts geopend.
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. Doorgaan met logtijd in het deelvenster Samenvatting, zoals wordt beschreven in [Overzicht van samenvattingen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### De tijd van het logboek op een het werkpunt van het erfenisHuis
 
 1. In de **Werklijst** selecteert u het item waar u de tijd wilt vastleggen.
 1. Klik in het rechterdeelvenster op **Logtijd**.
@@ -430,16 +454,16 @@ Om tijd in de sectie van Uren van een project, een taak, of een kwestie te regis
    * **Eigenaar:** Standaard wordt uw naam in dit veld weergegeven.\
      Als u de uren voor een andere gebruiker registreert, specificeer hun naam.
 
-   * **Uren**: Voer het aantal uren in voor het project, de taak of de uitgave.
    * **Uurtype**: Selecteer een Type van Uur van het drop-down menu, als het van getoond door gebrek verschillend is.
 
      Afhankelijk van welke uurtypes in uw systeem worden gevormd, zouden de opties hier kunnen variëren. Voor meer informatie over het vormen van uurtypes, zie [Bepaal uurtypes en beschikbaarheid voor timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Functie**: (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** instellen, selecteert u **Functie** in het keuzemenu. De rol die wordt opgegeven wanneer u aan het object bent toegewezen, wordt standaard weergegeven. Als u geen Rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **Uren**: Voer het aantal uren in voor het project, de taak of de uitgave.
 
-1. Klikken **Logboekuren**.
+1. Klikken **Logtijd**.
 
 ### Het deelvenster Samenvatting
 

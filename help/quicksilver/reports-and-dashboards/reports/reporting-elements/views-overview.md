@@ -7,7 +7,7 @@ description: U kunt het type gegevens aanpassen dat u in een lijst of rapport we
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -23,10 +23,10 @@ U kunt het type gegevens aanpassen dat u in een lijst of rapport weergeeft door 
 * U kunt bestaande weergaven aanpassen. Alle gebruikers die de weergaven kunnen bekijken, kunnen ook uw wijzigingen zien.
 * Uw Adobe Workfront-beheerder moet u toegang geven tot het bewerken van filters, weergaven en groepen om weergaven te kunnen maken.
 
-   Ga voor informatie over het verlenen van bewerkingstoegang naar [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Ga voor informatie over het verlenen van toegang tot bewerken naar [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Uw machtigingsniveau voor een weergave bepaalt hoe een weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie van de weergave op te slaan. Als u wijzigingen aanbrengt in een weergave die u met anderen hebt gedeeld, is dit ook van invloed op deze weergave.
-* U kunt een weergave die met u is gedeeld, alleen aanpassen als de gebruiker die deze heeft gedeeld, toegang tot Beheren heeft verleend. Voor informatie over het delen van een weergave raadpleegt u [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Uw machtigingsniveau voor een weergave bepaalt hoe een weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan, anders wordt u gevraagd een versie van de weergave op te slaan. Als u wijzigingen aanbrengt in een weergave die u met anderen hebt gedeeld, is dit ook van invloed op deze weergave.
+* U kunt een weergave die met u is gedeeld, alleen aanpassen als de gebruiker die deze heeft gedeeld, toegang tot Beheren heeft verleend. Zie voor informatie over het delen van een weergave [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 U kunt bestaande weergaven aanpassen, nieuwe weergaven maken op basis van bestaande weergaven of geheel nieuwe weergaven maken.
 
@@ -46,8 +46,11 @@ Hieronder vindt u typen weergaven die u kunt toepassen in lijsten of rapporten i
     <tr>
         <td><strong>Gantt-weergave</strong></td>
         <td>U kunt het op een lijst van taken in de sectie van Taken van een project, een lijst van projecten toepassen, of het toevoegen aan een taak of projectrapport. U kunt met vooraf gedefinieerde ingebouwde opties aanpassen welke informatie u in de Gantt-weergave bekijkt. Alle gebruikers met toegang tot weergavetaken of projecten kunnen deze weergeven in de Gantt-weergave. Zie voor meer informatie <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Aan de slag met de Gantt-grafiek</a>.</td>
-    </tr>
+       </tr>
 </table>
+
+<!--NOTE FOR MAYBE LATER: consider adding calendar and board views to this list of views (above)?! -->
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
