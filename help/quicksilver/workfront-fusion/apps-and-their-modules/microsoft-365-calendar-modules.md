@@ -9,7 +9,7 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Microsoft Office 365 Calendar]en deze verbinding maken met meerdere toepassingen en services van derden.
 
-Voor gebruik [!DNL Office 365 Calendar] with [!DNL Adobe Workfront Fusion]is het noodzakelijk [!DNL Office 365 Excel] account. U kunt er een maken op [www.office.com](http://www.office.com/).
+Voor gebruik [!DNL Office 365 Calendar] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!DNL Office 365 Excel] account. U kunt er een maken op [www.office.com](https://www.office.com/).
 
 Voor instructies over het aansluiten van uw Office 365-account op [!DNL Workfront Fusion], zie [Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -53,9 +53,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ Deze triggermodule haalt de details van een gebeurtenis op wanneer de gebeurteni
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar Group ID]</td> 
-   <td>Selecteer [!UICONTROL calendar group] die de kalender bevat waarin u gebeurtenissen wilt bekijken.</td> 
+   <td>Selecteer de [!UICONTROL calendar group] die de kalender bevat waarin u gebeurtenissen wilt bekijken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar]</td> 
@@ -150,7 +150,7 @@ In deze zoekmodule worden de details van een gebeurtenis opgehaald wanneer de ge
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar Group ID]</td> 
-   <td>Selecteer [!UICONTROL calendar group] die de kalender bevat waarin u gebeurtenissen wilt bekijken.</td> 
+   <td>Selecteer de [!UICONTROL calendar group] die de kalender bevat waarin u gebeurtenissen wilt bekijken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar]</td> 
@@ -221,11 +221,11 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>({date}T{time}</code>; bijvoorbeeld: <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>({date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL End date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>{date}T{time}</code>; bijvoorbeeld: <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>{date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reminder on]</td> 
@@ -249,9 +249,9 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
    <td> <p>Selecteer de gevoeligheid van deze gebeurtenis.</p> 
     <ul> 
      <li><strong>[!UICONTROL Normal]</strong> </li> 
-     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"bericht.</p> </li> 
-     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
-     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"bericht. </p> </li> 
+     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"- bericht.</p> </li> 
+     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"- bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
+     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"- bericht. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Location]</td> 
-   <td> <p>Voer de locatiedetails van de gebeurtenis in.</p> </td> 
+   <td> <p>Voer de locatie-informatie voor de gebeurtenis in.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Response requested]</td> 
@@ -320,11 +320,11 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>{date}T{time}</code>; bijvoorbeeld: <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>{date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL End date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>({date}T{time}</code>; bijvoorbeeld: <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>({date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reminder on]</td> 
@@ -348,9 +348,9 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
    <td> <p>Selecteer de gevoeligheid van deze gebeurtenis.</p> 
     <ul> 
      <li><strong>[!UICONTROL Normal]</strong> </li> 
-     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"bericht.</p> </li> 
-     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
-     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"bericht. </p> </li> 
+     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"- bericht.</p> </li> 
+     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"- bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
+     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"- bericht. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -363,7 +363,7 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Location]</td> 
-   <td> <p>Voer de locatiedetails van de gebeurtenis in.</p> </td> 
+   <td> <p>Voer de locatie-informatie voor de gebeurtenis in.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Response requested]</td> 
@@ -398,7 +398,7 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
 
 #### [!UICONTROL Delete an Event]
 
-Met deze actiemodule verwijdert u een bestaande gebeurtenis.
+Deze actiemodule verwijdert een bestaande gebeurtenis.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -439,7 +439,7 @@ Deze zoekmodule haalt een lijst op met alle kalenders van de geverifieerde gebru
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar Group ID]</td> 
-   <td>Selecteer [!UICONTROL calendar group] die de kalenders bevat die u wilt weergeven.</td> 
+   <td>Selecteer de [!UICONTROL calendar group] die de kalenders bevat die u wilt weergeven.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -561,7 +561,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> </td> 
+   <td> <p> Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 

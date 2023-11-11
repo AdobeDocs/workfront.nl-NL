@@ -4,12 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Workfront Proofing-modules
+title: Workfront Proefmodules
 description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL Workfront Proof]en deze verbinding maken met meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
@@ -55,9 +55,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -302,7 +302,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Require electronic signature]</td> 
-   <td>Selecteer of u wilt dat iedereen die een besluit neemt over een bewijs, een elektronische handtekening moet indienen.</td> 
+   <td>Selecteer of u wilt dat eenieder die een beslissing neemt over een bewijs, een elektronische handtekening indient.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Require login]</td> 
@@ -310,7 +310,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Voer de id in van de resolutie die u voor de proefdruk wilt gebruiken. Voor een lijst met resolutie-id's raadpleegt u de [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API-documentatie</a>.</td> 
+   <td>Voer de id in van de resolutie die u voor de proefdruk wilt gebruiken. Voor een lijst met resolutie-id's raadpleegt u de [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API-documentatie</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -404,7 +404,7 @@ Deze actiemodule leest gegevens uit één proefdruk in [!DNL Workfront Proof].
 
 U geeft de id van de proefdruk op en de gegevens die u uit de proefdruk wilt halen.
 
-De module retourneert de waarden van de velden die u kiest voor de proefdruk, samen met de typen velden. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert de waarden van de velden die u kiest voor de proefdruk en de typen velden. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 U moet voldoende rechten hebben om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze informatie op te halen.
 
@@ -519,7 +519,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Enable Subscriptions]</td> 
-   <td>Selecteer of personen die geen deelnemers zijn, zich mogen abonneren op de proefdruk.<br>Als u deze optie selecteert, kunt u ook de optie [!UICONTROL Default Role] voor abonnees, zoals beschreven in deze tabel.</td> 
+   <td>Selecteer of personen die geen deelnemers zijn, zich mogen abonneren op de proefdruk.<br>Als u deze optie selecteert, kunt u ook [!UICONTROL Default Role] voor abonnees, zoals beschreven in deze tabel.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Enable Subscriptions Validation]</td> 
@@ -592,7 +592,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 Deze zoekmodule zoekt naar records in een object in [!DNL Workfront Proof] die overeenkomen met de zoekquery die u opgeeft.
 
-De module retourneert de id van de proefdruk als deze naar een proefdruk zoekt. Of de gebruikers-id&#39;s, e-mails, namen, posities en e-mailaliassen van de ontvangers worden geretourneerd als deze naar ontvangers zoeken. U kunt deze informatie in volgende modules in het scenario toewijzen.
+De module retourneert de id van de proefdruk als deze op zoek is naar een proefdruk. Of de gebruikers-id&#39;s, e-mails, namen, posities en e-mailaliassen van de ontvangers worden geretourneerd als deze naar ontvangers zoeken. U kunt deze informatie in volgende modules in het scenario toewijzen.
 
 U moet voldoende rechten hebben om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze informatie op te halen.
 

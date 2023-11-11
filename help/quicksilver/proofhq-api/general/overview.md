@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De openbare interface is Volgzaam SOAP 1.1 met de steun van WSDL. Alle aanvrage
 
 ## API-versies
 
-Om compatibiliteit met bestaande clientintegratie te behouden, hebben we vanaf onze release 12.1 API-versies geïntroduceerd. Zie de  [API-updates](http://api.proofhq.com/new-updates) voor meer informatie. Als een methode of parameter geen versiegegevens heeft, betekent dit dat u dit als onderdeel van onze standaard-API zult vinden, raadpleegt u de sectie Aan de slag met de API hieronder.
+Om compatibiliteit met bestaande clientintegratie te behouden, hebben we vanaf onze release 12.1 API-versies geïntroduceerd. Zie de  [API-updates](https://api.proofhq.com/new-updates.html) voor meer informatie. Als een methode of parameter geen versiegegevens heeft, betekent dit dat u dit als onderdeel van onze standaard-API zult vinden, raadpleegt u de sectie Aan de slag met de API hieronder.
 
 ## Aan de slag met de API
 
@@ -54,6 +54,3 @@ Voor alle aanvragen wordt de volgende indeling voor envelop, koptekst en tekst g
     </soapenv:Envelope>
 ```
 
-## Veelgestelde vragen
-
-Voor een verzameling veelgestelde vragen gaat u naar [dit](http://api.proofhq.com/faqs) pagina.

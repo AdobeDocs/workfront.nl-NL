@@ -8,7 +8,7 @@ description: De Workfront Proof-beheerder kan persoonlijke branding instellen vo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Aanmelden
 
-1. Ga naar [de aanmeldingspagina](http://www.proofhq.com/login) (of op onze website op  [www.proofhq.com](http://www.proofhq.com/)).
+1. Ga naar [de aanmeldingspagina](https://www.proofhq.com/login) (of op onze website op  [www.proofhq.com](https://www.proofhq.com/)).
 
 1. Klik op de knop [!UICONTROL login] aan de rechterbovenhoek.
 1. Voer uw e-mailadres en wachtwoord in.\
@@ -46,7 +46,7 @@ Voor [!UICONTROL Enterprise] en [!UICONTROL Unlimited] plannen, bieden wij Singl
 
 Als u uw wachtwoord bent vergeten, kunt u [!DNL Workfront Proof] e-mail u een opnieuw ingesteld e-mailbericht.
 
-1. Ga naar [de aanmeldingspagina](http://www.proofhq.com/login) (of op onze website op  [www.proofhq.com](http://www.proofhq.com/)).
+1. Ga naar [de aanmeldingspagina](https://www.proofhq.com/login) (of op onze website op  [www.proofhq.com](https://www.proofhq.com/)).
 
 1. Klik op **[!UICONTROL Forgot password?]**
 1. Typ in het vak dat wordt weergegeven uw e-mailadres en klik vervolgens op **[!UICONTROL Get Link]**.

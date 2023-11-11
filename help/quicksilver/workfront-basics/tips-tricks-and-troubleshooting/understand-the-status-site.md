@@ -1,10 +1,10 @@
 ---
 title: De [!DNL Adobe Workfront] Statussite
-description: U kunt de gezondheid van de [!DNL Workfront] platform, met inbegrip van incidenten, geplande onderhoudsvensters en de huidige status van alle [!DNL Workfront] clusters door toegang te krijgen tot de [!DNL Workfront Status] site.
+description: U kunt de gezondheid van de [!DNL Workfront] platform, met inbegrip van incidenten, geplande onderhoudsvensters en de huidige status van alle [!DNL Workfront] clusters door toegang tot de [!DNL Workfront Status] site.
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Overzicht van de statussite
 
-U kunt de gezondheid van de [!DNL Workfront] platform, met inbegrip van incidenten, geplande onderhoudsvensters en de huidige status van alle [!DNL Workfront] clusters door toegang te krijgen tot de [!DNL Workfront Status] site.
+U kunt de gezondheid van de [!DNL Workfront] platform, met inbegrip van incidenten, geplande onderhoudsvensters en de huidige status van alle [!DNL Workfront] clusters door toegang tot de [!DNL Workfront Status] site.
 
 U hebt toegang tot de volgende informatie op de statussite:
 
 * Prestatiestatistieken van systemen in realtime
 * Geplande onderhoudsplanning
 * Informatie over waarborgen die worden gebruikt door [!DNL Workfront] om gebruikersgegevens te beschermen
-* Benoemde kwetsbaarheidsstatussen
+* Status van benoemde kwetsbaarheid
 
 ## Weergave [!DNL Adobe Workfront] statusupdates
 
@@ -32,18 +32,18 @@ U kunt statusupdates weergeven op de knop [!DNL Adobe] Statussite.
 
    of
 
-   Type [status.adobe.com](http://status.adobe.com/) in uw browser om toegang te krijgen tot de statussite.
+   Type [status.adobe.com](https://status.adobe.com/) in uw browser om toegang te krijgen tot de statussite.
 
 1. Selecteren **[!UICONTROL Experience Cloud]**.
 1. Omlaag schuiven en selecteren **[!UICONTROL Adobe Workfront]** uit de lijst met oplossingen.
 
 ## Abonneren of uw abonnement beheren
 
-Als u zich wilt abonneren op de statussite of uw abonnement wilt beheren nadat u zich al hebt geabonneerd:
+Abonneren op de statussite of uw abonnement beheren nadat u al hebt geabonneerd:
 
-1. Ga naar [status.adobe.com](http://status.adobe.com/).
+1. Ga naar [status.adobe.com](https://status.adobe.com/).
 1. Selecteer op de statusbalk de optie **[!UICONTROL Manage subscriptions]**.
-1. Als u een bestaande account hebt, meldt u zich aan bij de account. anders maakt u een nieuwe account.
+1. Als u een bestaande account hebt, meldt u zich aan bij de account. Anders maakt u een nieuwe account.
 1. Klik op de knop **[!UICONTROL Create subscriptions]** knop.
 1. Selecteren **[!UICONTROL Adobe Workfront]** onder de **[!UICONTROL Experience Cloud]** header, klik vervolgens op **[!UICONTROL Continue]**.
 1. Selecteer de voorkeuren voor het regionale en gebeurtenistype en klik op **[!UICONTROL Continue]**.

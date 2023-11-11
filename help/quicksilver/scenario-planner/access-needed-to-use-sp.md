@@ -7,7 +7,7 @@ description: Voor de functie Scenario Planner is een aparte licentie en aanvulle
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -22,7 +22,7 @@ De [!DNL Scenario Planner] vereist een aanvullende licentie. Voor informatie ove
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Zonder correcte toegang of toestemmingen, kunt u niet kunnen bekijken [!UICONTROL Scenarios] gebied van[!DNL  Adobe Workfront] noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
+Zonder correcte toegang of toestemmingen, kunt u niet [!UICONTROL Scenarios] gebied van[!DNL  Adobe Workfront] noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
 
 >[!IMPORTANT]
 >
@@ -55,7 +55,7 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
 -->
 
-* Uw organisatie moet een [!DNL Workfront] [!UICONTROL Business] of hoger [!DNL Workfront] plannen. Voor informatie over de [!DNL Workfront] plannen, zie [Workfront-plannen](http://workfront.com/plans).
+* Uw organisatie moet een [!DNL Workfront] [!UICONTROL Business] of hoger [!DNL Workfront] plannen. Voor informatie over de [!DNL Workfront] plannen, zie [Workfront-plannen](https://workfront.com/plans).
 * Uw organisatie moet een [!DNL Workfront Scenario Planner] naast een [!DNL Workfront] licentie. Neem contact op met uw [!DNL Workfront] Accountvertegenwoordiger voor meer informatie over [!DNL Workfront Scenario Planner] licenties.
 
 <!--drafted for P&P: 
@@ -78,9 +78,9 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
    * [!UICONTROL Work]
    * [!UICONTROL Review]
 
-   >[!NOTE]
-   >
-   >Gebruikers met een [!UICONTROL Request] of [!UICONTROL External] licentietype heeft geen toegang tot [!DNL Workfront Scenario Planner].
+  >[!NOTE]
+  >
+  >Gebruikers met een [!UICONTROL Request] of [!UICONTROL External] licentietype heeft geen toegang tot [!DNL Workfront Scenario Planner].
 
 <!--drafted - replace the note above with this at P&P release: 
   * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
@@ -88,11 +88,11 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
 * Uw [!DNL Workfront] beheerder moet u [!UICONTROL View] of [!UICONTROL Edit] toegang tot [!DNL Scenario Planner] in uw toegangsniveau.
 
-   Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * (Optioneel en aanbevolen) Als u financiële informatie voor uw plannen en initiatieven wilt bekijken of bijwerken, [!DNL Workfront] beheerder moet u ook toegang geven tot [!UICONTROL Financial Data] in uw toegangsniveau. Voor informatie over het verlenen van financiële gegevens in uw toegangsniveau, zie [Toegang tot financiële gegevens verlenen](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-   <!--this used to be true but not anymore:
+  <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
@@ -100,19 +100,19 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
 ## Toegang nodig om plannen en initiatieven te bekijken
 
-Naast de juiste licentie voor de [!DNL Workfront Scenario Planner], uw [!DNL Workfront] De beheerder moet u ook de volgende toegang en opstelling toewijzen zodat kunt u bekijken [!DNL Workfront Scenario Planner] en de informatie op dit gebied:
+Naast het verkrijgen van de juiste licentie voor de [!DNL Workfront Scenario Planner], uw [!DNL Workfront] De beheerder moet u ook de volgende toegang en opstelling toewijzen zodat kunt u bekijken [!DNL Workfront Scenario Planner] en de informatie op dit gebied:
 
 * Een toegangsniveau met minstens [!UICONTROL View] toegang tot [!DNL Scenario Planner].
 
-   Voor informatie over het toegangsniveau aan [!DNL Scenario Planner], zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Voor informatie over het toegangsniveau aan [!DNL Scenario Planner], zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * Een toegangsniveau met minstens [!UICONTROL View] toegang tot [!UICONTROL Financial Data] als u ook financiële informatie over het plan en de initiatieven moet bekijken. Enkele voorbeelden van financiële informatie zijn begrotingen, kosten, of baanrolpercentages.
 
-   Voor informatie over de [!UICONTROL Financial Data] toegangsniveau, zie [Toegang tot financiële gegevens verlenen](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Voor informatie over de [!UICONTROL Financial Data] toegangsniveau, zie [Toegang tot financiële gegevens verlenen](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-   >[!TIP]
-   >
-   >[!UICONTROL Requestors] en [!UICONTROL External] Gebruikers hebben geen toegang om de [!DNL Scenario Planner].
+  >[!TIP]
+  >
+  >[!UICONTROL Requestors] en [!UICONTROL External] Gebruikers hebben geen toegang om de [!DNL Scenario Planner].
 
 * De toestemmingen van de mening aan het plan. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie [Toestemmingen voor toegang tot plannen en initiatieven](#permissions-needed-to-access-plans-and-initiatives) in dit artikel.
 
@@ -122,19 +122,19 @@ Uw [!DNL Workfront] de beheerder moet u de volgende toegang toewijzen zodat u pl
 
 * A [!UICONTROL Plan] of [!UICONTROL Work] licentietype met toegang tot het dialoogvenster Bewerken [!DNL Scenario Planner] in uw toegangsniveau.
 
-   Alle andere licentietypen hebben geen toegang om plannen te beheren.
+  Alle andere licentietypen hebben geen toegang om plannen te beheren.
 
-   Voor informatie over het verlenen van toegang tot [!DNL Scenario Planner] van het Niveau van de Toegang, zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Voor informatie over het verlenen van toegang tot [!DNL Scenario Planner] in het toegangsniveau raadpleegt u [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * A [!UICONTROL Plan] licentietype met [!UICONTROL Edit] toegang tot [!UICONTROL Financial Data] in uw toegangsniveau, als u financiële informatie over het plan moet ook bijwerken.
 
-   Enkele voorbeelden van financiële informatie die u kunt bewerken zijn [!UICONTROL Budget], [!UICONTROL Planned Benefit], en [!UICONTROL Fixed Costs].
+  Enkele voorbeelden van financiële informatie die u kunt bewerken zijn [!UICONTROL Budget], [!UICONTROL Planned Benefit], en [!UICONTROL Fixed Costs].
 
-   >[!TIP]
-   >
-   >Alleen [!UICONTROL Plan] vergunninghouders [!UICONTROL Edit] toegang tot [!UICONTROL Financial Data].
+  >[!TIP]
+  >
+  >Alleen [!UICONTROL Plan] vergunninghouders [!UICONTROL Edit] toegang tot [!UICONTROL Financial Data].
 
-   Voor informatie over de [!UICONTROL Financial Data] toegangsniveau, zie [Toegang tot financiële gegevens verlenen](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Voor informatie over de [!UICONTROL Financial Data] toegangsniveau, zie [Toegang tot financiële gegevens verlenen](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Rechten beheren voor een abonnement dat u niet hebt gemaakt. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie [Toestemmingen voor toegang tot plannen en initiatieven](#permissions-needed-to-access-plans-and-initiatives) in dit artikel.
 

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Verificatie wordt uitgevoerd door een sessie-id door te geven die kan worden geg
 
 #### Koptekstverificatie aanvragen
 
-De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel dat u veilig bent tegen [Cross-site Request-vervalsing (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen en niet interfererend met URI voor caching doeleinden.
+De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel dat u veilig bent tegen [Cross-site Request-vervalsing (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen en niet interfererend met URI voor caching doeleinden.
 
 Hieronder ziet u een voorbeeld van een aanvraagkoptekst:
 

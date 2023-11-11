@@ -3,11 +3,11 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
 title: Merk de [!DNL Workfront Proof] site
-description: Als [!DNL Workfront Proof] beheerder, kunt u uw merk [!DNL Workfront Proof] om u en uw gebruikers een meer aangepaste ervaring te geven.
+description: Als [!DNL Workfront Proof] beheerder, u kunt uw merk merken [!DNL Workfront Proof] om u en uw gebruikers een meer aangepaste ervaring te geven.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >
 >Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront] Proef. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] beheerder, kunt u uw merk [!DNL Workfront Proof] om u en uw gebruikers een meer aangepaste ervaring te geven.
+Als [!DNL Workfront Proof] beheerder, u kunt uw merk merken [!DNL Workfront Proof] om u en uw gebruikers een meer aangepaste ervaring te geven.
 
 Op alle abonnementen is gratis een standaardbranding voor accounts beschikbaar.
 
@@ -33,12 +33,12 @@ Zie de volgende secties voor informatie over hoe u verschillende aspecten van de
 Om branding op uw rekening toe te laten:
 
 1. Aanmelden bij [!DNL Workfront Proof] als de [!DNL Workfront Proof] beheerder.
-1. Klikken **[!UICONTROL Account Settings]** in de rechterbovenhoek van het dialoogvenster [!DNL Workfront Proof] interface.
+1. Klikken **[!UICONTROL Account Settings]** in de rechterbovenhoek van het [!DNL Workfront Proof] interface.
 
    Voor meer informatie over de verschillende accountinstellingen die u kunt configureren, raadpleegt u [Accountinstellingen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Klik op de knop **[!UICONTROL Settings]** tab.
-1. In de **[!UICONTROL Branding]** sectie, klikt u op **[!UICONTROL Enable]**. (1)
+1. In de **[!UICONTROL Branding]** sectie, klikken **[!UICONTROL Enable]**. (1)
 
    ![Enable_branding.png](assets/enable-branding-350x177.png)
 
@@ -55,12 +55,12 @@ Om branding op uw rekening toe te laten:
 Om uw eigen merkafbeelding aan de [!UICONTROL proof loading] pagina van elke proefdruk die in uw account is gemaakt:
 
 1. Aanmelden bij [!DNL Workfront Proof] als de [!DNL Workfront Proof] beheerder.
-1. Klikken **[!UICONTROL Account Settings]** in de rechterbovenhoek van het dialoogvenster [!DNL Workfront Proof] interface.
+1. Klikken **[!UICONTROL Account Settings]** in de rechterbovenhoek van het [!DNL Workfront Proof] interface.
 
    Voor meer informatie over de verschillende accountinstellingen die u kunt configureren, raadpleegt u [Accountinstellingen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Klik op de knop **[!UICONTROL Settings]** tab.
-1. In de **[!UICONTROL Branding]** sectie, klikt u op **[!UICONTROL Setup]** naast **[!UICONTROL Proof branding]**. (1)
+1. In de **[!UICONTROL Branding]** sectie, klikken **[!UICONTROL Setup]** naast **[!UICONTROL Proof branding]**. (1)
 
    ![Proef_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
@@ -91,12 +91,12 @@ U kunt uw brandingafbeelding zodanig configureren dat deze wordt opgenomen in e-
 E-mailbranding instellen:
 
 1. Aanmelden bij [!DNL Workfront Proof] als de [!DNL Workfront Proof] beheerder.
-1. Klikken **[!UICONTROL Account Settings]** in de rechterbovenhoek van het dialoogvenster [!DNL Workfront Proof] interface.
+1. Klikken **[!UICONTROL Account Settings]** in de rechterbovenhoek van het [!DNL Workfront Proof] interface.
 
    Voor meer informatie over de verschillende accountinstellingen die u kunt configureren, raadpleegt u [Accountinstellingen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Klik op de knop **[!UICONTROL Settings]** tab.
-1. In de **[!UICONTROL Branding]** sectie, klikt u op **[!UICONTROL Edit]** naast de afbeelding van de e-mailtoepassing (1).
+1. In de **[!UICONTROL Branding]** sectie, klikken **[!UICONTROL Edit]** naast de afbeelding van de e-mailtoepassing (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. Selecteer de afbeelding die u wilt gebruiken voor het brandmerken van de e-mails. (2)
@@ -133,6 +133,6 @@ E-mailbranding instellen:
 
 ## Onderdrukking van knoppen en koppelingen via de API
 
-Als u een proef via [!DNL Workfront Proof] API, kunt u knopen en verbindingen onderdrukken en uw eigen douaneverbindingen tot stand brengen.
+Als u een proef via [!DNL Workfront Proof] API kunt u knoppen en koppelingen onderdrukken en uw eigen aangepaste koppelingen maken.
 
-Zie [[!DNL Workfront Proof] API](http://api.proofhq.com/) voor meer informatie .
+Zie [[!DNL Workfront Proof] API](https://api.proofhq.com/) voor meer informatie .

@@ -9,7 +9,7 @@ description: U kunt de module SOAP gebruiken om verbinding te maken met SOAP API
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,14 +61,14 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Met de [!UICONTROL SOAP] module
 
-De [!UICONTROL SOAP] -module bevindt zich momenteel in bètaversie en biedt geen ondersteuning voor:
+De [!UICONTROL SOAP] module is momenteel in bèta en biedt geen ondersteuning voor:
 
 * Elementen opnieuw definiëren
 * Beperkingen voor breukcijfers
 * Totaal aantal getalbeperkingen
 * Beperkingen voor witruimte
 * Meerdere onderdelen in invoer- en uitvoerberichten. Er worden slechts enkelvoudige berichten ondersteund
-* Aangepast XML-schema-elementen gedefinieerd met behulp van [[!UICONTROL SOAP] Codering](http://schemas.xmlsoap.org) schema&#39;s en elementen.
+* Aangepast XML-schema-elementen gedefinieerd met behulp van [[!UICONTROL SOAP] Codering](https://schemas.xmlsoap.org) schema&#39;s en elementen.
 
 >[!INFO]
 >
@@ -122,7 +122,7 @@ Als de [!UICONTROL SOAP] De module weigert om het WSDL-bestand te verwerken of v
 
    ![](assets/workaround-350x443.png)
 
-1. Open een nieuw venster of tabblad van een webbrowser.
+1. Open een nieuw webbrowservenster of tabblad.
 1. Plak de URL van WSDL in de adresbalk van de webbrowser en haal het XML-bestand op.
 
    De WSDL-URL eindigt gewoonlijk met `?wsdl`, maar niet noodzakelijk, bijvoorbeeld `http://voip.ms/api/v1/server.wsdl`.
@@ -134,10 +134,10 @@ Als de [!UICONTROL SOAP] De module weigert om het WSDL-bestand te verwerken of v
 
 1. Kopieer de URL vanaf de locatie `location` kenmerk.
 1. In [!DNL Workfront Fusion]plakken, plakt u de URL in het URL-veld van de HTTP-module.
-1. Open de [Online [!UICONTROL SOAP] Client](https://wsdlbrowser.com/) in een nieuw venster/tabblad van een webbrowser.
+1. Open de [Online [!UICONTROL SOAP] Client](https://wsdlbrowser.com/) in een nieuw webbrowservenster/tabblad.
 1. Plak de URL van WSDL in het veld WSDL URL.
 1. Klik op **[!UICONTROL Browse]**.
-1. Kiezen uit de lijst met functies naar links, bijvoorbeeld `getLanguages`.
+1. Kiezen uit de lijst met functies, bijvoorbeeld `getLanguages`.
 1. Kopieer de inhoud van de [!UICONTROL Request XML] tekstgebied.
 1. In [!UICONTROL Workfront Fusion]plakken, plakt u de gekopieerde inhoud in het URL-veld van de module.
 1. Geef waarden op voor de geselecteerde parameters door de vraagtekens te vervangen door werkelijke waarden:

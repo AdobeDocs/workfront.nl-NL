@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ U te hoeven om geen nieuwe identiteitskaart van de Zitting vóór elke vraag aan
 
 ## Wat is een bewijs/persoonlijke URL?
 
-**Team/Openbaar**: Elke proefversie heeft een unieke Team (Openbare) URL. Als deze optie is ingeschakeld, wordt de proefdruk geopend in de modus Alleen-lezen. U kunt het Team URL verkrijgen gebruikend [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) methode.
+**Team/Openbaar**: Elke proefversie heeft een unieke Team (Openbare) URL. Als deze optie is ingeschakeld, wordt de proefdruk geopend in de modus Alleen-lezen. U kunt het Team URL verkrijgen gebruikend [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) methode.
 
-**Persoonlijk**: Een persoonlijke URL is uniek voor elke revisor en proefversie. Als een proefset drie versies bevat en een revisor in alle versies aanwezig is, heeft de controleur drie unieke persoonlijke URL&#39;s. Een persoonlijke URL opent de proefversie met de reeds geïdentificeerde controleur en moet daarom veilig worden gehouden en niet worden gedeeld. Persoonlijke URLs kan worden verkregen door te roepen [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) methode en dan herhalend over elk  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) en de parameter &quot;proof_url&quot; ophalen.
+**Persoonlijk**: Een persoonlijke URL is uniek voor elke revisor en proefversie. Als een proefset drie versies bevat en een revisor in alle versies aanwezig is, heeft de controleur drie unieke persoonlijke URL&#39;s. Een persoonlijke URL opent de proefversie met de reeds geïdentificeerde controleur en moet daarom veilig worden gehouden en niet worden gedeeld. Persoonlijke URLs kan worden verkregen door te roepen [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) methode en dan herhalend over elk  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) en de parameter &quot;proof_url&quot; ophalen.
 
 ## >Hoe kan ik aangepaste parameters opnemen bij het openen van het minibewijs?
 
@@ -71,5 +71,5 @@ Bijvoorbeeld de miniproef-URL
 
 ## Hoe te om een Cliënt van de Dienst van het Web van Java tot stand te brengen?
 
-[Deze video](http://screencast.com/t/xsSNrqs5b) toont hoe u een cliënt van de Dienst van het Web van Java kunt tot stand brengen gebruikend Eclipse en de definitie van WSDL van het Bewijs van Workfront.
+[Deze video](https://screencast.com/t/xsSNrqs5b) toont hoe u een cliënt van de Dienst van het Web van Java kunt tot stand brengen gebruikend Eclipse en de definitie van WSDL van het Bewijs van Workfront.
 
