@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: deb63ca8c53719a98379bbd63caf686e2232b6b4
+source-git-commit: 0ca141d790df70894498d0bb35deb0e24db4e698
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
 
 ---
 
-# Projecten van een groep maken en wijzigen
+# De portfolio&#39;s van een groep maken en wijzigen
 
 Wanneer u een groep weergeeft die u beheert in het gebied Groepen, kunt u de bijbehorende portfolio&#39;s weergeven en ermee werken.
 
