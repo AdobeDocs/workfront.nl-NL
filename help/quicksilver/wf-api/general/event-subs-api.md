@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Sjabloon
 * Tijdschema
 * Gebruiker
+* Werkruimte
 
 Zie voor een lijst met velden die worden ondersteund door gebeurtenisabonnementsobjecten [Bronvelden voor abonnementen](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ De abonnementsbron bevat de volgende velden.
        <tr> 
         <td scope="col">Gebruiker</td> 
         <td scope="col">GEBRUIKER</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Werkruimte</td> 
+        <td scope="col">WERKRUIMTE</td> 
        </tr> 
       </tbody> 
      </table>
