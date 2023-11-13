@@ -8,25 +8,31 @@ description: Adobe Workfront Fusion biedt twee verschillende licenties die bepal
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 8c781894022661bee229a88556728659ff634310
+source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# Verouderd [!DNL Adobe Workfront Fusion] licenties
+# [!DNL Adobe Workfront Fusion] licenties
+
+[!DNL Workfront Fusion] heeft twee licentiemodellen, een nieuw op bewerkingen gebaseerd model en een model op basis van een oudere connector.
+
+## Operationeel licentiemodel (nieuw)
+
+De nieuwe [!DNL Workfront Fusion] het licentiemodel is gebaseerd op het aantal bewerkingen dat uw organisatie gebruikt. In dit model hebben alle organisaties toegang tot dezelfde functionaliteit.
+
+Zie voor meer informatie over wat als een operatie in het kader van het nieuwe licentiemodel wordt beschouwd [Bewerkingen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## Connectorgebaseerd licentiemodel (Verouderd)
 
 In de [!DNL Adobe Workfront Fusion] bestaand licentiemodel; [!DNL Fusion] biedt twee verschillende licenties die bepalen welke functionaliteit u kunt gebruiken. Uw organisatie koos één van deze vergunningen toen het kocht [!DNL Workfront Fusion].
-
->[!NOTE]
->
->Het nieuwe Fusion-licentiemodel is gebaseerd op het aantal bewerkingen dat uw organisatie gebruikt. In dit model hebben alle organisaties toegang tot dezelfde functionaliteit.
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
-Om te weten te komen welk type van [!DNL Workfront Fusion] licentie geven die uw organisatie heeft, neemt u contact op met [!DNL Workfront Fusion] beheerder.
+Om te weten te komen welk type van [!DNL Workfront Fusion] licentie heeft, neemt u contact op met uw [!DNL Workfront Fusion] beheerder.
 
 ## [!DNL Workfront Fusion for Work Automation]
 
@@ -38,7 +44,7 @@ Om te weten te komen welk type van [!DNL Workfront Fusion] licentie geven die uw
 
 A [!DNL Workfront Fusion for Work Automation] licentie biedt u de mogelijkheid om uw [!DNL Workfront] workflows. Met [!DNL Workfront Fusion for Work Automation]kunt u scenario&#39;s maken om de unieke werkprocessen van uw organisatie te automatiseren. Er zijn veel voordelen verbonden aan het automatiseren van uw [!DNL Workfront] processen.
 
-* Automatisering verloopt sneller en er is minder kans op fouten
+* Automatisering verloopt sneller en leidt tot fouten
 * Werkstromen die geen besluiten vereisen, of die besluiten hebben gebaseerd op eenvoudige logica zoals als/dan, zijn goede kandidaten voor automatisering
 * De automatisering kan specifieke behoeften in werkschema&#39;s richten die door uw organisatie worden gebruikt die niet direct in worden gericht [!DNL Workfront] product
 
@@ -79,11 +85,11 @@ Met de [!DNL Workfront Fusion for Work Automation] licentie hebt u toegang tot:
 
 ### Voordelen van [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
 
-A [!DNL Workfront Fusion for Work Automation and Integration] verleent u toegang tot alle functionaliteit van [!DNL Workfront Fusion for Work Automation] licentie. Bovendien kunt u met deze licentie andere apps en services gebruiken in uw scenario&#39;s. U kunt bijvoorbeeld [!DNL Workfront Fusion] om een proces te automatiseren dat de invoer [!DNL Jira] en zet ze vervolgens om in taken in [!DNL Workfront]. U kunt ook de opdracht [!UICONTROL HTTP] of [!UICONTROL SFTP] connectors voor vrijwel elke webservice, zelfs als [!DNL Workfront Fusion] heeft geen specifieke schakelaar voor het.
+A [!DNL Workfront Fusion for Work Automation and Integration] verleent u toegang tot alle functionaliteit van [!DNL Workfront Fusion for Work Automation] licentie. Bovendien kunt u met deze licentie andere apps en services gebruiken in uw scenario&#39;s. U kunt bijvoorbeeld [!DNL Workfront Fusion] om een proces te automatiseren dat de invoer [!DNL Jira] en zet ze vervolgens om in taken in [!DNL Workfront]. U kunt ook de opdracht [!UICONTROL HTTP] of [!UICONTROL SFTP] connectors om verbinding te maken met vrijwel elke webservice, zelfs als [!DNL Workfront Fusion] heeft geen specifieke schakelaar voor het.
 
 [!DNL Workfront Fusion for Work Automation and Integration] biedt uw organisatie veel voordelen.
 
-* [!DNL Workfront Fusion for Work Automation and Integration] omvat alle aan [!DNL Workfront Fusion for Work Automation]
+* [!DNL Workfront Fusion for Work Automation and Integration] omvat alle voordelen verbonden aan [!DNL Workfront Fusion for Work Automation]
 * Integratie vermindert de noodzaak om in en uit verschillende apps te springen wanneer een werkstroom wordt voltooid.
 * Gegevensoverdracht tussen toepassingen automatiseren is sneller en minder vatbaar voor fouten dan gegevens handmatig overbrengen
 
@@ -93,7 +99,7 @@ Voor een lijst van beschikbare specifieke schakelaars, zie [Apps en modules daar
 
 >[!IMPORTANT]
 >
->[!DNL Workfront Fusion] kan verbinding maken met bijna elke webservice. Als de app waarmee u wilt werken geen speciale connector heeft, kunt u de [!UICONTROL HTTP], [!UICONTROL SFTP], of [!UICONTROL JSON] om rechtstreeks verbinding te maken met de webservice.
+>[!DNL Workfront Fusion] kan verbinding maken met bijna elke webservice. Als de app waarmee u wilt werken geen speciale connector heeft, kunt u de opdracht [!UICONTROL HTTP], [!UICONTROL SFTP], of [!UICONTROL JSON] om rechtstreeks verbinding te maken met de webservice.
 
 ### Voorbeeld van [!DNL Workfront Fusion for Work Automation and Integration]
 
