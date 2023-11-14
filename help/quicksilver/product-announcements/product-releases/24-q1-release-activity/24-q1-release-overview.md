@@ -3,7 +3,7 @@ title: Overzicht eerste release 2024, kwartaal 2024
 description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -65,10 +65,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 9 november 2024, 2024<br /></p>
+                                <p>Voorvertoningsrelease: 9 november 2024, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle afnemers: 9 november. 2024</span></p>
+                                <p><span class="preview">Productie voor alle afnemers: 9 november. 2023</span></p>
                             </li>
                         </ul>
                     </td>
