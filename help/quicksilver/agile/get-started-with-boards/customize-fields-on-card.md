@@ -6,9 +6,9 @@ description: U kunt aanpassen welke velden op een kaart worden weergegeven door 
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Aangepaste velden zijn beschikbaar op verbonden kaarten. Ze zijn alleen zichtbaar in de volledige kaartweergave, niet in de versmalde weergave op het bord.
 
->[!NOTE]
->
->Wanneer u een aangepast veld aan uw kaarten toevoegt, zijn de gegevens op de kaart alleen-lezen.
+De gegevens op aangepaste velden kunnen op de kaart worden bewerkt, maar bepaalde aangepaste elementen kunnen alleen in het oorspronkelijke veld worden bewerkt en niet op de kaart.
 
 1. Een board openen en klikken [!UICONTROL **Configureren**] om het Configure paneel te openen.
 1. Uitbreiden [!UICONTROL **Kaarten**].
