@@ -9,14 +9,14 @@ description: U kunt Wederzijdse TLS gebruiken in uw Adobe Workfront Fusion HTTP-
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
-# Wederzijdse TLS gebruiken in HTTP-modules in [!DNL Adobe Workfront Fusion]
+# Gebruik wederzijds TLS in HTTP-modules in [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
@@ -34,9 +34,9 @@ Met wederzijdse TLS kan deze identiteitsbevestiging op beide manieren verlopen. 
 >
 >* **TLS**: Wanneer iemand &quot;MyGreatBank.com&quot; in een browser typt, willen ze er zeker van zijn dat ze naar Mijn Grote Bank gaan, niet een website die hun bankgegevens kan misbruiken of verkopen. Ze willen ook zeker weten dat hun bankrekeninggegevens gecodeerd zijn.
 >
->   Wanneer de browser (de client) verbinding maakt met MyGreatBank.com (de server), heeft TLS een certificaat van MyGreatBank.com nodig om de identiteit ervan te verifiëren. Het certificaat wordt geleverd door een certificeringsinstantie, zoals [!DNL DigiCert] of [!DNL Thawte]. Omdat de browser de certificeringsinstantie vertrouwt, is de verbinding mogelijk.
+>   Wanneer de browser (de client) verbinding maakt met MyGreatBank.com (de server), vereist TLS een certificaat van MyGreatBank.com om de identiteit ervan te verifiëren. Het certificaat wordt geleverd door een certificeringsinstantie, zoals [!DNL DigiCert] of [!DNL Thawte]. Omdat de browser de certificeringsinstantie vertrouwt, is de verbinding mogelijk.
 >
->* **Wederzijdse TLS**: MySoftware.com is een softwareclient die informatie nodig heeft van de MyGreatBank.com API. MyGreatBank staat alleen vertrouwde clients toe verbinding te maken met hun servers. Naast het regelmatig controleren van TLS de identiteit van MyGreatBank.com, controleert het proces van de TLS/certificate instantie ook het verzoek van MySoftware.com.
+>* **Wederzijdse TLS**: MySoftware.com is een softwareclient die informatie nodig heeft van de MyGreatBank.com API. MyGreatBank staat alleen vertrouwde clients toe verbinding te maken met hun servers. Naast de regelmatige controle van het TLS op de identiteit van MyGreatBank.com, verifieert het proces van de TLS/Certificate Authority dus ook het verzoek van MySoftware.com.
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -65,9 +65,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -101,7 +101,7 @@ U kunt de volgende koppelingen gebruiken om de openbare certificaten van Workfro
 >
 >* Dit zijn mTLS-certificaten die geen jokertekens bevatten.
 
-* [Downloaden [!DNL Workfront Fusion] Certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [Downloaden [!DNL Workfront Fusion] Certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
 * [Downloaden [!DNL Workfront Fusion] EU-certificaat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   Voor gebruik in de EU
