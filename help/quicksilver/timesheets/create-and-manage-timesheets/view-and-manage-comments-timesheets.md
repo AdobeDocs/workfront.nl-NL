@@ -6,9 +6,9 @@ description: U kunt commentaren op timesheets, de het werkpunten inbegrepen in t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ U kunt algemene opmerkingen maken over de tijdpagina.
 
 1. Klikken **Timesheets**.
 1. Ga naar de tijdpagina waarop u een opmerking wilt maken.
-1. Klikken **Updates** in het linkerpaneel, zorg ervoor **Opmerkingen** is geselecteerd en begint u een update in te voeren in het dialoogvenster **Nieuwe opmerking** doos.
+1. Klikken **Updates** in het linkerdeelvenster en klik vervolgens op de knop **Opmerkingen** tab.
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. Voer een update in het dialoogvenster **Nieuwe opmerking** doos.
 1. (Optioneel) Voeg personen of teams toe aan de **Tags toewijzen aan personen of teams** om anderen in uw update op te nemen. Zie voor meer informatie [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optioneel) Voeg RTF-opmaak toe aan uw opmerking. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) Selecteer de optie **Privé voor mijn bedrijf** als u wilt dat alleen personen van uw bedrijf de update kunnen bekijken.

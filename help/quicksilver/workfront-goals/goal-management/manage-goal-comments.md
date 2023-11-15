@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ U moet het volgende hebben voordat u kunt beginnen:
 
 * Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
 
-## De sectie Updates zoeken
+## Doelopmerkingen beheren
 
 U kunt commentaren aan doelstellingen in de sectie van Updates van een doelpagina toevoegen.
 
 U kunt reageren op of houden van een opmerking die u of anderen in dit gebied hebben toegevoegd.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) > **Doelen** in de rechterbovenhoek.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/lines-main-menu.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Doelen**.
 Hierdoor wordt de lijst met doelen geopend.
 1. Zoek het doel waaraan u opmerkingen wilt toevoegen en klik op de naam van het doel om de doelpagina te openen.
 1. Klikken  **Updates** in het linkerdeelvenster.
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. Klik op de knop **x** in het zoekveld om de zoekresultaten te wissen en terug te keren naar het volledige venster.
 1. Klik op de knop **Opmerkingen** in de linkerbovenhoek van het gebied Updates.
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 

@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3803'
 ht-degree: 0%
 
 ---
@@ -390,7 +390,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    1. Onder **Weer te geven tekst**, typt of plakt u de koppelingstekst.
    1. Klikken **Opslaan**.
 
-1. (Optioneel) Als u een afbeelding aan de update wilt koppelen, klikt u op de knop **Afbeelding toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en blader aan het beeld op uw computer, wanneer het gebruiken van de nieuwe het becommentariëren ervaring.
+1. (Optioneel) <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> Klik op de knop **Afbeelding toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en blader aan het beeld op uw computer, wanneer het gebruiken van de nieuwe het becommentariëren ervaring.
 
    >[!NOTE]
    >
@@ -408,6 +408,30 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 1. Klikken **Verzenden** om uw opmerking toe te voegen.
 
+<!-- for the search for comments - November 2023 release to Preview: 
+
+<div class="preview">
+
+## Search for an update
+
+>[!NOTE]
+>
+>This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+
+You can search for a comment or a reply in the Updates section of an object. 
+
+1. Go to the **Updates** section of an object.
+1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+
+</div>
+
+-->
 
 ## Updategegevens kopiëren
 

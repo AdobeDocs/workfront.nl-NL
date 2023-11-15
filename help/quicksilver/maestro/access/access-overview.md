@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro is een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. Je moet een Workfront-klant zijn om toegang te hebben tot Maestro.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >
@@ -36,6 +34,8 @@ Momenteel kunnen alle gebruikers in uw organisatie toegang hebben tot Maestro al
 >[!NOTE]
 >
 >Er zijn geen toegangsniveaus of toestemmingen verbonden aan gebruikers of de informatie in Maestro. Alle gebruikers die Maestro in hun omgeving hebben ingeschakeld, kunnen alle informatie die een andere gebruiker aan Maestro toevoegt, weergeven, bewerken en verwijderen.
+
+## Toegangsvereisten
 
 U moet de volgende toegang hebben tot Adobe Maestro:
 
@@ -71,18 +71,30 @@ U moet de volgende toegang hebben tot Adobe Maestro:
   </tr>
 
 <tr>
-   <td role="rowheader">Toegangsniveau</td>
+   <td role="rowheader"><p>Toegangsniveau</p></td>
    <td> <p>Alle</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
    <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/grant-access.md">Toegang verlenen tot Adobe Maestro</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
+
+<!--
+## Considerations about accessing Adobe Maestro
+
+* There are no access level restrictions for Adobe Maestro. 
+* There are only permissions associated with workspaces in Maestro.
+* Only Workfront administrators can create workspaces. 
+* All Workfront administrators have access to edit or delete existing workspaces, even when they are created by other users. 
+* For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
+
+   * [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md)
+   * [Grant access to Adobe Maestro](../access/grant-access.md)
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
