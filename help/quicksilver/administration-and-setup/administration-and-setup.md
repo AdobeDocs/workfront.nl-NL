@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Beheer en installatie
-description: In deze sectie vindt u de informatie die u nodig heeft om het Workfront-systeem te beheren.
+description: In deze sectie vindt u de informatie die u nodig hebt om het Workfront-systeem te beheren.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
