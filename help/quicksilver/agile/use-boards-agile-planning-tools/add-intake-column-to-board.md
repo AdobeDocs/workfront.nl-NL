@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![Filter builder](assets/intake-filter-dialog6.png)
 
-   Dit voorbeeld toont een filter voor taken van een specifiek project die in de status van [!UICONTROL New] of [!UICONTROL In Progress]en worden aan mij toegewezen.
+   Dit voorbeeld toont een filter voor taken van een specifiek project die in de status van [!UICONTROL New] of [!UICONTROL In Progress].
+
+   >[!NOTE]
+   >
+   >Het wordt geadviseerd om &quot;me&quot;(het programma geopende gebruiker) geen vervanging op een bordeelfilter te gebruiken, omdat het niet gegarandeerd is om taken of kwesties voor de het programma geopende gebruiker altijd te tonen. Nadat de raad opstelling met de correcte taken en de kwesties is, kunt u de raad filtreren om punten voor een specifieke toegewezen te tonen. Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
    Zie de sectie &quot;Een filter maken of bewerken in de standaardbuilder&quot; in het artikel voor meer informatie over het maken van een filter [Filters maken of bewerken in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -141,7 +145,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## De inlaatkolom gebruiken
 
 Kaarten in de inlaatkolom kunnen pas worden bewerkt als u ze naar andere boardkolommen verplaatst. U kunt op de kaart klikken om deze te openen in een alleen-lezen weergave of op ![Taak of probleem openen](assets/boards-launch-icon.png) om de taak of uitgave te openen in een nieuw browsertabblad.
-
 
 U kunt de volgorde van de items in de inlaatkolom handmatig wijzigen.
 
