@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -300,6 +300,7 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 >
 >  Bijvoorbeeld op **PROJ Project** de **setCondition** en **setConditionType** velden kunnen leeg blijven, maar de **setGroupID** en **setName** kolommen kunnen niet.
 >
+>* Bepaalde velden, waaronder **setResourceRevenue** en **setEnteredByID**, automatisch door het systeem worden gegenereerd. Als u gegevens voor deze velden in het werkblad invoert, wordt deze genegeerd tijdens het uploaden van het werkblad.
 
 ### Een record importeren  {#import-a-record}
 
