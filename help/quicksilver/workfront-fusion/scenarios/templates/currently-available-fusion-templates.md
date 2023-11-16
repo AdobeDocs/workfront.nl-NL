@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Klik op de knop **Sjablonen** pictogram ![](assets/fusion-template-icon.png) in 
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Workfront - Project maken van CSV
 
 Deze automatisering leidt tot nieuwe projecten in Workfront die van Naam, Portfolio, Status, Geplande Datum van het Begin, en de details van het Malplaatje worden gebaseerd die u in CSV specificeert.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Workfront - Opschoonverzoeken zonder nieuwe notities in de afgelopen 30 dagen
 
 Gebruik deze sjabloon om een notitie-update van 30 dagen toe te passen op uw verzoeken. Voor aanvragen die niet over 30 dagen zijn bijgewerkt, wordt de status gewijzigd en op 60 dagen gesloten.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Workfront - Wijzig de projectstatus in Voltooid met 100% voltooid.
 
 Deze automatisering werkt projecten aan Volledige status bij die alle taken bij 1005 volledig hebben. Projecten met open kwesties of open taken of projectgoedkeuringen zullen een update ontvangen, en wanneer opgelost, zullen de projecten aan Volledige status overgaan.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Workfront - Waarschuwing en poging tot sluiting van grootschalige projecten
 
 Gebruik dit scenario helpen de waarschuwing over en de sluiting van projecten automatiseren die aan het het verouderde projectbeleid van uw organisatie voldoen.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Workfront - Kopieer nieuwe notities en antwoorden van de bron op vraag/verzoek naar reeds omgezet project of taak
 
 Gebruik deze sjabloon om notities en antwoorden van een uitgave of verzoek te kopiëren naar een reeds omgezet project of taak.
 
@@ -57,6 +57,10 @@ Deze automatisering zoekt naar nieuwe projecten in portfolio&#39;s met aangepast
 ### Workfront - Goedgekeurd probleem converteren naar project
 
 Dit malplaatje zet Kwesties in Projecten om. U kunt deze aanpassen aan de normen van uw organisatie.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+Dit flexibele scenario kopieert documenten van kwesties of verzoeken aan eerder omgezette projecten of taken.
 
 ### Op maat gemaakte melding gebaseerd op veldwijziging
 
@@ -102,7 +106,7 @@ Deze sjablonen halen informatie op van een webservice en brengen die informatie 
 >
 > U moet een Workfront Fusion for Work Automation and Integration-licentie hebben om sjablonen in deze sectie te kunnen gebruiken.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Verbinding maken met JWT (JSON-webtoken)
 
 JWT-autorisatie voor een client-API instellen.
 
@@ -138,7 +142,7 @@ Deze sjablonen verbinden Workfront en SharePoint.
 >
 > U moet een Workfront Fusion for Work Automation and Integration-licentie hebben om sjablonen in deze sectie te kunnen gebruiken.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Wijzigingen in SharePoint-map controleren
 
 Met deze sjabloon kunt u zien of een SharePoint-map is gewijzigd.
 
