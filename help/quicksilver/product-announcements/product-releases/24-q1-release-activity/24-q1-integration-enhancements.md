@@ -3,9 +3,9 @@ title: Verbeteringen voor eerste kwartaal 2024-integratie
 description: Verbeteringen voor eerste kwartaal 2024-integratie
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 864ba63e448a070b3ae5413196cc2fdd316fb931
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,14 @@ ht-degree: 0%
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Typeahead-velden zijn nu beschikbaar in Adobe Experience Manager-integratie
+
+Om het gemakkelijker te maken om gebieden tussen Workfront en Adobe Experience Manager te verbinden, hebben wij steun voor typeahead gebieden in de meta-gegevensafbeelding toegevoegd. Nu kunt u typeahead-velden toewijzen aan corresponderende velden in Adobe Experience Manager.
+
+Als een gebruiker een andere waarde voor een veld in Workfront selecteert, wordt deze wijziging direct doorgevoerd in Adobe Experience Manager. Als een optie voor de veldwaarde wordt gewijzigd (bijvoorbeeld een team dat de naam wijzigt in een nieuwe naam), wordt deze wijziging ook doorgevoerd in Adobe Experience Manager.
+
+Voor informatie en instructies over het in kaart brengen van meta-gegevens in de integratie van Adobe Experience Manager, zie [Metagegevens instellen](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-metadata-optional).
 
 ## Elementen automatisch publiceren in Adobe Experience Manager
 

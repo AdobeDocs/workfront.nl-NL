@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
+source-git-commit: 594b8913c77239e1e0545d07010515313a0f6852
 workflow-type: tm+mt
-source-wordcount: '13401'
+source-wordcount: '13413'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 0%
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
       * Versie 2024 Q1 {#release-24-q1}
          * [Overzicht van de release 2024 Q1](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+         * [Verbeteringen voor documentbeheer in eerste kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
          * [Verbeteringen voor 2024 Q1-integratie](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
+         * [Verbeteringen voor stroom en meldingen bijwerken in eerste kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * Versie 2023 Q4 {#release-23-q4}
          * [Overzicht van de release 2023 Q4](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023 4e kwartaal Beheerderverbeteringen](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)

@@ -3,9 +3,9 @@ title: Overzicht eerste release 2024, kwartaal 2024
 description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
+source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Verbeteringen voor Adobe Workfront
 
+* [Verbeteringen voor documentbeheer](#document-management-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
+* [Verbeteringen voor stroom en meldingen bijwerken](#update-stream-and-notification-enhancements)
+
+### Verbeteringen voor documentbeheer
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een revisie markeren als voltooid</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om het duidelijker te maken wanneer een document is herzien en klaar voor de volgende goedkeuringsfase is, hebben wij een nieuw nieuwe <strong>Mijn revisie voltooien</strong> knop.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Documentrevisie en goedkeuringsstatus worden weergegeven in de documentkop</a></p><p>Om de controle en het goedkeuringsproces transparanter te maken, hebben wij de status aan de kopbal van de pagina van de Details van het Document toegevoegd.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 9 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+</table>
 
 ### Verbeteringen voor integratie
 
@@ -60,21 +117,91 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead-velden zijn nu beschikbaar in Adobe Experience Manager-integratie</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om het gemakkelijker te maken om gebieden tussen Workfront en Adobe Experience Manager te verbinden, hebben wij steun voor typeahead gebieden in de meta-gegevensafbeelding toegevoegd. Nu kunt u typeahead-velden toewijzen aan corresponderende velden in Adobe Experience Manager.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 7 december 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Elementen automatisch publiceren in Adobe Experience Manager</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben nog een workflow toegevoegd aan de Adobe Experience Manager-integratie. Nu kunt u instellen dat uw elementen automatisch worden gepubliceerd wanneer ze naar Adobe Experience Manager worden verzonden. De integratie kan worden geconfigureerd om te publiceren naar de Adobe Experience Manager-publicatieservice of naar een Adobe Experience Manager-portaalsite.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 9 november 2024, 2023<br /></p>
+                                <p>Voorvertoningsrelease: 9 november 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle afnemers: 9 november. 2023</span></p>
+                                <p><span class="preview">Productie voor alle afnemers: 9 november 2023</span></p>
                             </li>
                         </ul>
                     </td>
+                    </tr>
            </tbody>
         </table>
 
+### Verbeteringen voor stroom en meldingen bijwerken
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Een opmerking of gebruiker zoeken in de sectie Updates</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Als u snel informatie wilt zoeken in de sectie Updates van een object, kunt u nu naar een trefwoord zoeken vanuit een opmerking of naar een gebruiker die aan een opmerking is gekoppeld.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Een afbeelding kopiëren en plakken in een opmerking in de sectie Updates</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om context aan de inhoud van een bericht te verstrekken, kunt u beelden aan uw commentaren nu snel vastmaken door hen van uw computer te kopiëren en hen in een nieuwe update of een antwoord te kleven.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+</table>
 
 ## Aankondigingen
 
