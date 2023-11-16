@@ -7,9 +7,9 @@ description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Als u Fusie in de Adobe Verenigde Shell gebruikt, kunt u tot het Dev Hulpmiddel 
 
 >[!NOTE]
 >
->Alleen de **Live stream** gebied van Devtool is beschikbaar aan gebruikers in Verenigde Shell.
+>Alleen de **Live stream** en **Scenario-foutopsporing** de gebieden van Devtool zijn beschikbaar aan gebruikers in de Verenigde Ervaring. De **Gereedschappen** is momenteel niet beschikbaar in de Verenigde Ervaring.
 
 ### Toegang tot het gereedschap Apparaat in de klassieke taal [!DNL Fusion] ervaring
 
@@ -193,6 +193,10 @@ Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschie
 1. Bekijk aanvraagdetails door op de gewenste bewerking te klikken.
 
 ### Gereedschappen
+
+>[!NOTE]
+>
+>Dit gebied is momenteel niet beschikbaar aan gebruikers in de Adobe Verenigde Ervaring.
 
 De [!DNL Workfront Fusion] Het apparaat is uitgerust met gereedschappen waarmee u uw scenario gemakkelijker kunt instellen.
 
