@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -44,24 +44,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Gebruikers toestaan afbeeldingen toe te voegen in updates
 
-Standaard kunnen gebruikers geen afbeeldingen in updates toevoegen. Wanneer u deze voorkeur inschakelt, kunnen gebruikers afbeeldingen bijvoegen in updates. De voorkeur is van toepassing op alle updates in alle gebieden van uw [!DNL Workfront] -instantie.
+Standaard kunnen gebruikers geen afbeeldingen in updates toevoegen. Wanneer u deze voorkeur inschakelt, kunnen gebruikers afbeeldingen bijvoegen in updates. De voorkeur geldt voor alle updates in alle gebieden van uw [!DNL Workfront] -instantie.
 
 >[!NOTE]
 >
 >* Afbeeldingen die zijn opgeslagen in updates tellen mee voor de opslaglimiet van het document. Zie voor meer informatie [Documentopslaglimieten controleren](../../../documents/managing-documents/check-document-storage.md).
->* Afbeeldingen zijn alleen toegankelijk via de [!UICONTROL Updates] op een object en zijn niet beschikbaar op het tabblad [!UICONTROL Documents] tab.
+>* Afbeeldingen zijn toegankelijk via de [!UICONTROL Updates] op een object en zijn ook beschikbaar in het dialoogvenster [!UICONTROL Documents] gebied onder de [!UICONTROL Main Menu].
 >
-
-
-
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
-1. Selecteer **[!UICONTROL Preferences]** tab.
+1. Selecteer de **[!UICONTROL Preferences]** tab.
 
    ![Gebruikersvoorkeuren voor bijgewerkte feeds](assets/updatefeeds-preferences-350x137.png)
 
-1. Selecteer **[!UICONTROL Allow users to add images in updates]** selectievakje.
+1. Selecteer de **[!UICONTROL Allow users to add images in updates]** selectievakje.
 1. Selecteren **[!UICONTROL Save]**.
 
    Wanneer deze voorkeur wordt toegelaten, kunt u het op elk ogenblik onbruikbaar maken. Alle afbeeldingen die al in updates zijn geplaatst, blijven in het dialoogvenster [!UICONTROL Updates] gebied op het object.
