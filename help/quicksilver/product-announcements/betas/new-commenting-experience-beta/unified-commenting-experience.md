@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # Nieuwe ervaring met opmerkingen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten.  </span>
+
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel verwijst naar functies die tijdens de bètafase zijn uitgebracht voor de nieuwe opmerkingservaring.
+>De informatie in dit artikel verwijst naar functies die zijn vrijgegeven voor de nieuwe opmerkingervaring.
 >
->Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023.
+>Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023. Het bètaprogramma voor de nieuwe opmerkingervaring werd afgesloten met de release van oktober 2023.
 >
->De functies die tijdens de bètaperiode werden vrijgegeven, zijn aan alle klanten beschikbaar gesteld vanaf de vierde kwartaalrelease van 2023 (oktober 2023) en het bètaprogramma is afgesloten.
+>De in dit artikel beschreven functies werden in oktober 2023 aan alle klanten vrijgegeven, tenzij anders vermeld.
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1e kwartaal 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1e kwartaal 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogeli
 
 * Zowel de nieuwe als de oudere ervaring met opmerkingen voor de volgende objecten:
 
-      * Project
-      * Taak (inclusief artikelen)
-      * Uitgave
-      * Document
-      
-      >[!TIP]
-      >
-      >Gebruik de optie Nieuwe opmerkingen om de nieuwe opmerkingervaring (wanneer u deze inschakelt) of de oudere opmerkingervaring (wanneer u deze uitschakelt) weer te geven, zoals beschreven in deze sectie. De nieuwe ervaring met opmerkingen is de standaardinstelling.
-  
+   * Project
+   * Taak (inclusief artikelen)
+   * Probleem
+   * Document
+
+  >[!TIP]
+  >
+  >Met de optie Nieuwe opmerkingen geeft u de nieuwe opmerkingervaring (wanneer u deze inschakelt) of de oudere opmerkingervaring (wanneer u deze uitschakelt) weer, zoals in deze sectie wordt beschreven. De nieuwe ervaring met opmerkingen is de standaardinstelling.
+
    * Alleen de nieuwe opmerkingervaring voor de objecten hieronder. Er is geen optie om de oudere ervaring met opmerkingen in te schakelen voor deze objecten:
 
       * Goal

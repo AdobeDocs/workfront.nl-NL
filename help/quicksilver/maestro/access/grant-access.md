@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,29 +26,28 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+Alle gebruikers in uw organisatie kunnen toegang tot Maestro hebben, als de volgende eerste vereisten op zijn plaats zijn:
 
-Momenteel kunnen alle gebruikers in uw organisatie toegang hebben tot Maestro als aan de volgende voorwaarde is voldaan:
+<!--the first requisite will be removed when we go to GA-->
 
 * Uw organisatie is ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro.
+* Als systeembeheerder, moet u het gebied van Maestro aan het Belangrijkste Menu toevoegen gebruikend een lay-outmalplaatje.
 
-  Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod.
+  Maestro wordt standaard niet weergegeven in het hoofdmenu voor een gebruiker, inclusief systeembeheerders.
 
+  Zie voor meer informatie [Het hoofdmenu aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-Voor informatie over welke toegang u Maestro nodig hebt, raadpleegt u [Overzicht van Adobe Maestro-toegang](../access/access-overview.md).
+<!-- take out the note below when we release permissions-->
 
 >[!NOTE]
 >
 >Er zijn geen toegangsniveaus of toestemmingen verbonden aan gebruikers of de informatie in Maestro. Alle gebruikers die Maestro in hun omgeving hebben ingeschakeld, kunnen alle informatie die een andere gebruiker aan Maestro toevoegt, weergeven, bewerken en verwijderen.
 
-## Maestro inschakelen voor gebruikers in uw Workfront-instantie
+## Het gebied Maestro in het hoofdmenu delen met anderen
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-Nadat uw organisatie is ingeschreven voor het bètaprogramma van Maestro, kunt u het Maestro-gebied voor andere gebruikers toevoegen met een lay-outsjabloon.
-
-Het Maestro-gebied delen met een lay-outsjabloon:
+Nadat uw organisatie is ingeschreven voor het bètaprogramma van Maestro, kunt u het Maestro-gebied toevoegen aan het Hoofdmenu van alle gebruikers door een lay-outsjabloon te gebruiken.
 
 1. Aanmelden bij **Workfront** als Workfront-beheerder.
 
@@ -65,11 +64,16 @@ Het Maestro-gebied delen met een lay-outsjabloon:
    Gebruikers kunnen werkruimten, recordtypen, records en velden maken.
 
 <!--
+
 ## Share permissions to a workspace
+
+Only system administrators can access all workspaces in Maestro. As a system administrator, you must share a workspace with other users for them to view, manage, or contribute to it. 
+
+To share a workspace with others: 
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
-1. In the field provided, start typing the name of a user or a group, then click it when it displays in the list. 
+1. In the field provided, start typing the name of a user or a group (******ensure you can share with groups*******), then click it when it displays in the list. 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
     * Contribute
@@ -82,7 +86,7 @@ Het Maestro-gebied delen met een lay-outsjabloon:
 ## Remove permissions to a workspace
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********) add screen shot when UI is finalized and maybe edit the steps???****)
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
 1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
     
     The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
