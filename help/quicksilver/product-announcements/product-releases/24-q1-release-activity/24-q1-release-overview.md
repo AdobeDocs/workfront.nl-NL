@@ -3,9 +3,9 @@ title: Overzicht eerste release 2024, kwartaal 2024
 description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion-verbeteringen
 
-Er zijn op dit punt geen Workfront Fusion-updates beschikbaar. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het First Quarter 2023 releaseschema. Voor meer informatie over de nieuwste functies raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Verbeteringen in Workfront Scenario Planner
 
