@@ -8,9 +8,9 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ Een gebruiker heeft een van de volgende rollen in een organisatie:
 * **[!UICONTROL Accountant]**: Met een accountantrol kunnen gebruikers alleen licentiegegevens weergeven op het dashboard van de organisatie.
 * **[!UICONTROL App Developer]**: Functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
+Voor informatie over specifieke acties beschikbaar aan gebruikers in elke organisatierol, zie [Organisatie- en teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Gebruikers uitnodigen voor een organisatie
 
 Door gebrek, kan een organisatieeigenaar (of erkende gebruiker) een andere persoon uitnodigen om zich bij hun organisatie aan te sluiten.
@@ -145,7 +147,7 @@ Een gebruiker heeft één van de volgende rollen in elk van zijn teams:
 * **[!UICONTROL Team Operator]**: De [!UICONTROL operator] de rol staat gebruikers toe om uitvoeringsgegevens te zien en de &quot;Actieve&quot;status van scenario&#39;s te veranderen.
 * **[!UICONTROL Team Restricted Member]**: Functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
-Voor informatie over specifieke taken beschikbaar aan teamrollen, zie[Organisatie- en teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Voor informatie over specifieke acties beschikbaar aan gebruikers in elke teamrol, zie [Organisatie- en teamrollen](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Teambeheer
 
