@@ -6,9 +6,9 @@ description: U kunt aanpassen welke velden op een kaart worden weergegeven door 
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ De gegevens op aangepaste velden kunnen op de kaart worden bewerkt, maar bepaald
 >[!NOTE]
 >
 >Als u het aangepaste veld later in Workfront een andere naam geeft, moet u het veldlabel in het deelvenster Configureren bewerken, anders wordt het veld niet op de kaarten weergegeven.
+
+## Gearchiveerde kaarten weergeven of verbergen
+
+U moet een configuratie-instelling inschakelen om gearchiveerde kaarten op een bord weer te geven.
+
+1. Een board openen en klikken [!UICONTROL **Configureren**] om het Configure paneel te openen.
+1. Uitbreiden [!UICONTROL **Kaarten**].
+1. Inschakelen [!UICONTROL **Gearchiveerde kaarten op de kaart weergeven**].
+
+   Nu kunt u het bord filteren om kaarten weer te geven die zijn gearchiveerd. Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. Klikken [!UICONTROL **Configureren verbergen**] om het Configure paneel te sluiten.
+
+## Afvalfunctie van kaart configureren
+
+Als u kaarten na een bepaalde periode automatisch van het bord wilt verwijderen, raadpleegt u [Afvalfunctie van kaart configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
