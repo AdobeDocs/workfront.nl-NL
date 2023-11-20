@@ -8,9 +8,9 @@ description: Dit artikel bevat informatie over de toegang tot en machtigingen vo
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,6 @@ Dit artikel beschrijft de toegang en de functionaliteit beschikbaar aan de versc
 >Organisatierollen zijn gescheiden van teamrollen in [!DNL Workfront Fusion]. Voor meer informatie over organisatie en teamrollen, zie [Organisaties en teams](../organizations/organizations-and-teams.md).
 
 ## Toegangsvereisten
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
-&lt;## Toegangsvereisten
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
@@ -106,7 +102,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Organisaties verwijderen</p> </td> 
+   <td> <p>Organisatie verwijderen</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
@@ -122,7 +118,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
   <tr> 
    <td> <p>Organisatiegebruikers beheren</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
