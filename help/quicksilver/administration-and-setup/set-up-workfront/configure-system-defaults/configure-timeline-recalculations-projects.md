@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -50,19 +50,19 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 Als [!DNL Adobe Workfront] beheerder, kunt u vormen wanneer [!DNL Workfront] worden de projecttijdlijnen automatisch opnieuw berekend. [!DNL Workfront] U kunt projectchronologie of elke nacht opnieuw berekenen of wanneer het projectwerkingsgebied verandert, of allebei.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek, of de [!UICONTROL **Hoofdmenu**] pictogram ![](assets/lines-main-menu.png) in de linkerbovenhoek van [!DNL Workfront], indien beschikbaar, klikt u op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 
 1. In de **[!UICONTROL Timelines]** in- of uitschakelen van een van de instellingen hieronder. Beide instellingen zijn standaard ingeschakeld.
 
-   * **Elke avond:** [!DNL Workfront&#x200B;&#x200B;&#x200B;] herberekent alleen tijdlijnen &#39;s nachts voor projecten met de status [!UICONTROL Current] en zijn in de afgelopen drie maanden bijgewerkt.
+   * **Elke avond:** [!DNL Workfront&#x200B;&#x200B;&#x200B;] herberekent de tijdlijnen eenmaal om de 24 uur, &#39;s nachts, alleen voor projecten met de status [!UICONTROL Current] en die in de afgelopen drie maanden zijn bijgewerkt. Afhankelijk van de systeembelasting en andere factoren kan de herberekeningstijd meer dan 24 uur worden uitgesteld.
 
-      In dit geval: [!DNL Workfront] herberekent de tijdlijn voor alle projecten met een [!UICONTROL Update Type] van [!UICONTROL Automatic] of [!UICONTROL Automatic and On Change].
+     In dit geval: [!DNL Workfront] herberekent de tijdlijn voor alle projecten met een [!UICONTROL Update Type] van [!UICONTROL Automatic] of [!UICONTROL Automatic and On Change].
 
-   * **Wanneer het bereik van een project verandert**: Voor informatie over wat een verandering van het projectwerkingsgebied betekent, zie [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+   * **Wanneer het bereik van een project verandert**: Voor informatie over wat een wijziging van het projectbereik is, raadpleegt u [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-      In dit geval: [!DNL Workfront] herberekent de chronologie voor alle projecten die een Type van Update van hebben [!UICONTROL Automatic and On Change] of [!UICONTROL On Change Only].
+     In dit geval: [!DNL Workfront] herberekent de chronologie voor alle projecten die een Type van Update van hebben [!UICONTROL Automatic and On Change] of [!UICONTROL On Change Only].
 Voor informatie over de Types van projectupdate, zie [Overzicht van het type projectupdate](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Klik op **[!UICONTROL Save]**.

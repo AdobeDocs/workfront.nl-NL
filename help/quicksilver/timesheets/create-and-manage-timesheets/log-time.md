@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3449'
+source-wordcount: '3489'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ U kunt zich in Workfront aanmelden in de volgende gebieden:
 
 #### De tijd van het logboek op een timesheet {#log-time-on-a-timesheet}
 
-U kunt algemene uren of project-specifieke uren op een timesheet registreren.
+U kunt tijd aan de volgende punten in timesheet registreren:
+
+* Taken, problemen en projecten die vooraf zijn ingevuld, worden automatisch weergegeven op basis van de manier waarop uw Workfront-beheerder de voorkeuren voor de tijdpagina instelt. Voor informatie over hoe timesheets vooraf ingevuld zijn, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  Alleen de taken en problemen die aan u zijn toegewezen, worden vooraf ingevuld in uw overzicht. De taken en de kwesties die aan uw teams of baanrollen worden toegewezen bevolken automatisch niet uw timesheet.
+
+  Als u op het item klikt op het item dat aan uw teams is toegewezen, wordt het item aan u toegewezen en wordt het item in uw tijdspagina weergegeven.
+* Taken, problemen of projecten die u handmatig toevoegt.
+* Taken, kwesties, of projecten waarvoor u reeds tijd elders in Workfront registreerde.
+* Algemene tijd (vakantie, opleiding, overheadtijd).
 
 >[!NOTE]
 >
 >Gebruikers die een tijdlijnprofiel hebben toegewezen, kunnen het gedeelte Timesheets zien en de algemene uren van het logbestand. Nochtans, kunnen zij geen uren op om het even welke taken of kwesties registreren die aan hen worden toegewezen die op timesheet verschijnen.
 
-1. Klik op de knop [!UICONTROL **Hoofdmenu**] pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
+Aan logboektijd op een timesheet:
+
+1. Klik op de knop [!UICONTROL **Hoofdmenu**] pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/lines-main-menu.png) in de linkerbovenhoek van Workfront, indien beschikbaar.
 
 1. Klikken [!UICONTROL **Timesheets**]. Uw huidige timesheet wordt standaard weergegeven.
    ![Tijdschema](assets/timesheet-redesigned-nwe.png)
-
-   Het timesheet is vooraf bevolkt met punten die aan u tijdens het tijdkader van timesheet worden toegewezen. Voor informatie over hoe timesheets vooraf bevolkt zijn, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). Als u geen punt op timesheet ziet, kunt u het toevoegen.
-
-   >[!NOTE]
-   >
-   >In het tijdlijnvenster worden alleen items ingevuld die aan u zijn toegewezen. Het vult niet met punten vooraf die aan uw teams of baanrollen worden toegewezen.
-   >
-   >Als u op het item klikt op het item dat aan uw teams is toegewezen, wordt het item aan u toegewezen en wordt het item in uw tijdspagina weergegeven.
 
 
 1. (Optioneel) Klik op de knop **volledig scherm** pictogram ![](assets/full-screen.png) om timesheet op volledig-schermwijze te tonen, dan klik **afsluiten op volledig scherm** ![](assets/exit-full-screen.png) om terug te keren naar de tijdpagina.
