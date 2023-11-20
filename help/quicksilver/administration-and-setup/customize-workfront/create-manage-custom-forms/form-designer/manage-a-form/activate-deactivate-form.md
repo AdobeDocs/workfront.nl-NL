@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Een aangepast formulier deactiveren of opnieuw activeren
 
 U kunt een aangepast formulier opnieuw activeren of deactiveren. We raden u aan aangepaste formulieren te deactiveren in plaats van formulieren te verwijderen die u niet meer gebruikt om historische gegevens te behouden.
+
+>[!NOTE]
+>
+>Als een douaneformulier wordt gedeactiveerd maar nog deel van een rijonderwerp of de definitie van de verzoekrij uitmaakt, zal het aan nieuwe verzoeken worden vastgemaakt. Als u niet wilt dat het formulier op de aanvragen staat, moet u het handmatig uit de aanvraagwachtrij verwijderen.
 
 ## Toegangsvereisten
 
