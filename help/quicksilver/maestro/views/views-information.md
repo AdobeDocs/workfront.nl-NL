@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >

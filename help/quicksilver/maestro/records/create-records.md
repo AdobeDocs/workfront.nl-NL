@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >
@@ -83,6 +83,62 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -99,8 +155,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt records maken in de tabelweergave van een pagina met recordtypen.
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
-De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture-and-fields/create-workspaces.md).
-1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture-and-fields/create-record-types.md).
+De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture/create-record-types.md).
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
@@ -129,11 +185,11 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
 U kunt records uit andere toepassingen importeren door deze te koppelen aan Maestro-gekoppelde records.
 
-1. Maak een Maestro-recordtype, zoals beschreven in het dialoogvenster [Recordtypen maken](../architecture-and-fields/create-record-types.md).
+1. Maak een Maestro-recordtype, zoals beschreven in het dialoogvenster [Recordtypen maken](../architecture/create-record-types.md).
 
 1. Maak Maestro-records voor het recordtype dat u in de vorige stap hebt gemaakt. Zie de sectie [Records maken door deze handmatig toe te voegen aan een recordtype](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel.
 
-1. Maak een verbinding met een objecttype vanuit een externe toepassing voor het recordtype Maestro dat u hebt gemaakt. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
+1. Maak een verbinding met een objecttype vanuit een externe toepassing voor het recordtype Maestro dat u hebt gemaakt. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
 
 1. Voeg records uit de toepassing van een andere fabrikant toe aan de Maestro-records die u hierboven hebt gemaakt met behulp van het gekoppelde recordveld dat u in de vorige stap hebt gemaakt. Zie voor meer informatie [Connect-records](../records/connect-records.md).
 

@@ -1,20 +1,32 @@
 ---
-title: Records delen
-description: U kunt records met anderen delen om uw samenwerking te verbeteren.
+title: Recordtypen bewerken
+description: U kunt recordtypen bewerken nadat u deze hebt opgeslagen. Recordtypen zijn de objecttypen van Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# Records delen
+-->
+
+# Recordtypen bewerken
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,7 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-Als u met andere gebruikers wilt samenwerken, kunt u records met anderen delen.
-
-U kunt een Maestro-record op de volgende manieren delen:
-
-* Kopieer de koppeling van de pagina Details van een record vanuit uw browser wanneer de pagina is geopend.
-
-* Kopieer een koppeling naar de pagina Details van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In dit artikel wordt beschreven hoe u een koppeling naar de pagina Details van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Recordtypen zijn de objecttypen van Adobe Maestro. U kunt de weergave van recordtypen bewerken die u of iemand anders heeft gemaakt. Voor informatie over het maken van Maestro-recordtypen raadpleegt u [Recordtypen maken](../architecture/create-record-types.md).
 
 ## Toegangsvereisten
 
@@ -89,9 +83,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
+
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +130,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +150,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Recordkoppelingen delen vanuit de tabelweergave van het recordtype
+## Recordtypen bewerken
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
-   De werkruimte die u het laatst hebt geopend.
-1. Klik op een opnametype.
+   De laatst geopende werkruimte moet standaard worden geopend.
 
-   De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
+1. Houd de muisaanwijzer boven de kaart van een recordtype en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de recordtypekaart klikt u op **Weergave bijwerken**.
 
-   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik met de rechtermuisknop op een recordrij
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+
+1. Werk de volgende informatie bij in het vak Recordtype bijwerken:
+
+   * **Recordnaam**: Bewerk indien nodig de naam van het recordtype. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Weergave**: Bewerk de kleur en vorm van het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
+      * Selecteer een kleur om het recordtype te identificeren. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
+      * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
+
+     ![](assets/update-record-type-box.png)
+
+1. Klik buiten het vak Recordtype bijwerken om de wijzigingen op te slaan.
+1. (Optioneel) Klik op de kaart met het recordtype in de werkruimte om de pagina met het recordtype te openen.
+1. Klik op de knop **Meer** rechts van de naam van het recordtype klikt u op **Naam wijzigen** de naam van het recordtype wijzigen
 
    of
 
-   Houd de muisaanwijzer boven de naam van een record en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Koppeling kopiëren**.
+   Wijzig de naam van het recordtype in de koptekst.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-   De koppeling wordt naar het klembord gekopieerd.
-
-1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de pagina Details van de record geopend.
-
-   >[!TIP]
-   >
-   >De velden van de record op de pagina Details zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   U kunt de naam van een recordtype ook wijzigen in de koptekst van de pagina van het recordtype.

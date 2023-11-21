@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b7dcb97f5741a5c8b3710494e4cde25d6de9036e
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '13420'
+source-wordcount: '13427'
 ht-degree: 0%
 
 ---
@@ -1999,20 +1999,23 @@ ht-degree: 0%
    * [Overzicht van Adobe Maestro](maestro/maestro-overview.md)
    * [Adobe Maestro-releaseactiviteit](maestro/release-activity.md)
    * Adobe Maestro architectuur {#adobe-maestro-architecture}
-      * [Architectuurgegevens](maestro/architecture-and-fields/architecture-and-fields-information.md)
-      * [Werkruimten maken](maestro/architecture-and-fields/create-workspaces.md)
-      * [Overzicht van recordtypen en taxonomieën](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [Operationele recordtypen maken](maestro/architecture-and-fields/create-record-types.md)
-      * [Startrecordtypen voor taxonomie maken](maestro/architecture-and-fields/create-a-taxonomy.md)
-      * [Verbind recordtypen](maestro/architecture-and-fields/connect-record-types.md)
-      * [Velden maken](maestro/architecture-and-fields/create-fields.md)
-      * [Recordtypen bewerken](maestro/architecture-and-fields/edit-record-types.md)
-      * [Velden bewerken](maestro/architecture-and-fields/edit-fields.md)
-      * [Werkruimten verwijderen](maestro/architecture-and-fields/delete-workspaces.md)
-      * [Recordtypen verwijderen](maestro/architecture-and-fields/delete-record-types.md)
-      * [Velden verwijderen](maestro/architecture-and-fields/delete-fields.md)
-      * [Voorbeeld van het verbinden van recordtypen en records](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
-      * [Lijst met werkruimtemalplaatjes](maestro/architecture-and-fields/workspace-templates.md)
+      * [Architectuurgegevens](maestro/architecture/architecture-information.md)
+      * [Werkruimten maken](maestro/architecture/create-workspaces.md)
+      * [Overzicht van recordtypen en taxonomieën](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [Operationele recordtypen maken](maestro/architecture/create-record-types.md)
+      * [Startrecordtypen voor taxonomie maken](maestro/architecture/create-a-taxonomy.md)
+      * [Verbind recordtypen](maestro/architecture/connect-record-types.md)
+      * [Recordtypen bewerken](maestro/architecture/edit-record-types.md)
+      * [Werkruimten verwijderen](maestro/architecture/delete-workspaces.md)
+      * [Recordtypen verwijderen](maestro/architecture/delete-record-types.md)
+      * [Voorbeeld van het verbinden van recordtypen en records](maestro/architecture/example-connect-record-types-and-records.md)
+      * [Lijst met werkruimtemalplaatjes](maestro/architecture/workspace-templates.md)
+   * Adobe Maestro-velden {#adobe-maestro-fields}
+      * [Veldgegevens](maestro/fields/fields-information.md)
+      * [Overzicht van velden](maestro/fields/fields-overview.md)
+      * [Velden maken](maestro/fields/create-fields.md)
+      * [Velden bewerken](maestro/fields/edit-fields.md)
+      * [Velden verwijderen](maestro/fields/delete-fields.md)
    * Adobe Maestro-toegang {#adobe-maestro-access}
       * [Toegangsgegevens](maestro/access/access-information.md)
       * [Overzicht van toegang](maestro/access/access-overview.md)

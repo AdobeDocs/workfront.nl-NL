@@ -1,20 +1,20 @@
 ---
-title: Records delen
-description: U kunt records met anderen delen om uw samenwerking te verbeteren.
+title: Werkruimten verwijderen
+description: U kunt werkruimten verwijderen als deze niet meer relevant zijn.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Records delen
+# Werkruimten verwijderen
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-Als u met andere gebruikers wilt samenwerken, kunt u records met anderen delen.
+In Adobe Maestro, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Zie voor meer informatie [Werkruimten maken](../architecture/delete-workspaces.md).
 
-U kunt een Maestro-record op de volgende manieren delen:
+U kunt werkruimten verwijderen die niet meer relevant zijn.
 
-* Kopieer de koppeling van de pagina Details van een record vanuit uw browser wanneer de pagina is geopend.
-
-* Kopieer een koppeling naar de pagina Details van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In dit artikel wordt beschreven hoe u een koppeling naar de pagina Details van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+We raden u aan enkele of alle recordtypen en taxonomieën die aan de werkruimte zijn gekoppeld, opnieuw te maken die u in een andere werkruimte wilt verwijderen voordat u deze verwijdert.
 
 ## Toegangsvereisten
 
@@ -60,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het Adobe Maestro beta-programma. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -90,8 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +121,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +129,8 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +143,20 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Recordkoppelingen delen vanuit de tabelweergave van het recordtype
+## Overwegingen bij het verwijderen van werkruimten
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
+* U kunt elke werkruimte verwijderen die u of iemand in uw organisatie heeft gemaakt. <!--this will change with access levels and permissions-->
+* Wanneer u werkruimten verwijdert, worden ook alle recordtypen, taxonomieën en de bijbehorende velden verwijderd. <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
+* Verwijderde werkruimten en de gegevens in deze werkruimten kunnen niet worden hersteld.
 
-   De werkruimte die u het laatst hebt geopend.
-1. Klik op een opnametype.
+## Een werkruimte verwijderen
 
-   De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
-   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik met de rechtermuisknop op een recordrij
+   Hierdoor wordt de laatste werkruimte geopend die u hebt geopend.
 
-   of
+1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte die u wilt verwijderen.
+1. Klik op de knop **Meer** menu ![](assets/more-menu.png) naast de naam van de werkruimte klikt u op **Verwijderen**.
+1. Klikken **Verwijderen** ter bevestiging.
 
-   Houd de muisaanwijzer boven de naam van een record en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Koppeling kopiëren**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   De koppeling wordt naar het klembord gekopieerd.
-
-1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de pagina Details van de record geopend.
-
-   >[!TIP]
-   >
-   >De velden van de record op de pagina Details zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   De werkruimte wordt verwijderd en kan niet worden hersteld. Alle recordtypen, taxonomieën, de bijbehorende records en de bijbehorende velden worden ook verwijderd. <!--ensure this is right after closed beta-->

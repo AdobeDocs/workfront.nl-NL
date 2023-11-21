@@ -1,20 +1,32 @@
 ---
-title: Records delen
-description: U kunt records met anderen delen om uw samenwerking te verbeteren.
+title: Velden bewerken
+description: In Adobe Maestro, kunt u de gebiedsmontages voor gebieden uitgeven die reeds worden gecreeerd.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Records delen
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can edit the field settings for fields that are already created.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+
+# Velden bewerken
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,24 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-Als u met andere gebruikers wilt samenwerken, kunt u records met anderen delen.
+U kunt de veldinstellingen bewerken voor velden die al zijn gemaakt.
 
-U kunt een Maestro-record op de volgende manieren delen:
+Voor informatie over het maken van Adobe Maestro gebieden, zie [Velden maken](../fields/create-fields.md).
 
-* Kopieer de koppeling van de pagina Details van een record vanuit uw browser wanneer de pagina is geopend.
+In dit artikel wordt beschreven hoe u de instellingen voor Maestro-velden kunt bewerken. Voor informatie over het bewerken van veldwaarden voor Maestro-records raadpleegt u [Records bewerken](../records/edit-records.md).
 
-* Kopieer een koppeling naar de pagina Details van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
+## Overwegingen bij het bewerken van veldgegevens
 
-<!-- Update with this when we release permissions: 
+* U kunt velden bewerken die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt. <!--this will change with access levels/ permissions-->
+* U kunt een veld in de tabel met recordtypen bewerken.
+* U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
+* U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
+<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
+* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
+    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+    * The Options of a Single-select or a Multi-select field.
 -->
-
-In dit artikel wordt beschreven hoe u een koppeling naar de pagina Details van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## Toegangsvereisten
 
@@ -90,8 +101,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +146,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +166,36 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Recordkoppelingen delen vanuit de tabelweergave van het recordtype
+## Velden bewerken
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
-   De werkruimte die u het laatst hebt geopend.
-1. Klik op een opnametype.
+   De laatst geopende werkruimte moet standaard worden geopend.
 
-   De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt verwijderen.
 
-   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik met de rechtermuisknop op een recordrij
+   De werkruimte wordt geopend en de recordtypen en bijbehorende taxonomieën worden weergegeven.
+1. Klik op de kaart voor het recordtype of de taxonomie waarvan u de velden wilt bewerken.
+
+   Hierdoor wordt de pagina van het recordtype geopend.
+1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
+1. Houd de cursor boven de kolomkop van een veld dat u wilt bewerken, klik op de pijl omlaag na de veldnaam en klik vervolgens op **Veld bewerken**
 
    of
 
-   Houd de muisaanwijzer boven de naam van een record en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Koppeling kopiëren**.
+   Dubbelklik op de kolomkop voor het veld.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   De koppeling wordt naar het klembord gekopieerd.
+1. Werk informatie over het veld bij en klik op **Opslaan**.
 
-1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de pagina Details van de record geopend.
+   <!--insert screen shot when finalized-->
 
    >[!TIP]
    >
-   >De velden van de record op de pagina Details zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
+   >U kunt het veldtype niet bijwerken nadat het veld is opgeslagen.
 
 
-   <!--add there when it will be available: if they have access to this record-->
+1. (Voorwaardelijk) Klik voor gekoppelde recordvelden op **Opzoekvelden bewerken** en voeg of verwijder om het even welke gebieden van het verbonden verslagtype toe.
+
+   Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).

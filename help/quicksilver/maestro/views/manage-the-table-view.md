@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >
@@ -125,7 +125,7 @@ Het toevoegen van kolommen aan een weergave is hetzelfde als het toevoegen van v
 U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga naar een recordtypepagina en selecteer een **Tabel** in het keuzemenu Weergave.
-1. Beginnen met het toevoegen van velden (of kolommen), zoals beschreven in het artikel [Velden maken](../architecture-and-fields/create-fields.md).
+1. Beginnen met het toevoegen van velden (of kolommen), zoals beschreven in het artikel [Velden maken](../fields/create-fields.md).
 
    De kolommen die u toevoegt, zijn zichtbaar voor alle gebruikers die toegang hebben tot het recordtype en worden toegevoegd als nieuwe velden op de pagina Details van de records van het geselecteerde recordtype.
 
@@ -238,7 +238,7 @@ Een filter toevoegen aan een tabelweergave:
 
      >[!TIP]
      >
-     > U kunt geen gekoppelde velden selecteren. Zie voor meer informatie [Velden maken](../architecture-and-fields/create-fields.md).
+     > U kunt geen gekoppelde velden selecteren. Zie voor meer informatie [Velden maken](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Sorteren <!--ungrouped (add this when sorting for groupings will be available-->
 
    >[!TIP]
    >
-   > U kunt geen gekoppelde velden selecteren. Zie voor meer informatie [Velden maken](../architecture-and-fields/create-fields.md).
+   > U kunt geen gekoppelde velden selecteren. Zie voor meer informatie [Velden maken](../fields/create-fields.md).
 
 1. (Optioneel) In het dialoogvenster **Records sorteren op** klikt u op **x** pictogram rechts van een sorteerveld om de sortering te verwijderen
 

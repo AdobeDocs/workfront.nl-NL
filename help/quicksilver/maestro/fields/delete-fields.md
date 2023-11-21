@@ -1,20 +1,31 @@
 ---
-title: Records delen
-description: U kunt records met anderen delen om uw samenwerking te verbeteren.
+title: Velden verwijderen
+description: In Adobe Maestro, kunt u douanevelden schrappen die niet meer relevant zijn.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Records delen
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# Velden verwijderen
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,22 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-Als u met andere gebruikers wilt samenwerken, kunt u records met anderen delen.
+In Adobe Maestro, kunt u douanevelden tot stand brengen om informatie over verslagen op te slaan.
 
-U kunt een Maestro-record op de volgende manieren delen:
+Voor informatie over het maken van aangepaste velden in Maestro raadpleegt u [Velden maken](../fields/create-fields.md).
 
-* Kopieer de koppeling van de pagina Details van een record vanuit uw browser wanneer de pagina is geopend.
+U kunt Maestro-velden verwijderen die niet meer relevant zijn.
 
-* Kopieer een koppeling naar de pagina Details van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
+## Overwegingen bij het verwijderen van Maestro-velden:
 
-<!-- Update with this when we release permissions: 
+* U kunt velden verwijderen die u hebt gemaakt of velden die door andere gebruikers of het systeem zijn gemaakt. <!--this will change with access levels/ permissions-->
+* U kunt het veld Naam van een record niet verwijderen. <!--change this to say you can't delete the field selected to be the primary-->
+* U kunt een veld alleen verwijderen in de tabel met recordtypen.
+* Alle informatie die in het veld is opgeslagen, wordt verwijderd en kan niet worden hersteld.
+* Wanneer u een gekoppeld recordveld verwijdert, worden alle gekoppelde opzoekvelden ook verwijderd uit het recordtype waaruit u een koppeling maakt. De gekoppelde recordvelden van de recordtypen waarnaar u een koppeling maakt, worden niet verwijderd.
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In dit artikel wordt beschreven hoe u een koppeling naar de pagina Details van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+  Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Toegangsvereisten
 
@@ -90,8 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +143,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +151,7 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +164,23 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Recordkoppelingen delen vanuit de tabelweergave van het recordtype
+## Velden verwijderen
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-   De werkruimte die u het laatst hebt geopend.
-1. Klik op een opnametype.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
-   De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+   Hiermee opent u de laatst geopende werkruimte in Maestro.
+1. Klik op de kaart van een recordtype waarvan u de velden wilt verwijderen.
+1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
+1. Zoek het veld dat u wilt verwijderen in de kolomkoppen en houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag na de veldnaam.
 
-   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik met de rechtermuisknop op een recordrij
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   of
+1. Klikken **Verwijderen**. <!-- check this: they might replace it with **Delete field**-->
 
-   Houd de muisaanwijzer boven de naam van een record en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Koppeling kopiëren**.
+   <!--insert screen shot when finalized-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. Klikken **Verwijderen** ter bevestiging.
 
-   De koppeling wordt naar het klembord gekopieerd.
-
-1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de pagina Details van de record geopend.
-
-   >[!TIP]
-   >
-   >De velden van de record op de pagina Details zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Het veld wordt verwijderd, kan niet worden hersteld en kan niet meer aan records worden gekoppeld.

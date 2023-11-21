@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >
@@ -42,9 +42,9 @@ U kunt Adobe Maestro-records met elkaar of met objecten van andere toepassingen 
 
 U moet eerst twee recordtypen met elkaar verbinden of een recordtype verbinden met een objecttype vanuit een andere toepassing. Vervolgens kunt u de tabelweergave van het recordtype gebruiken om records met elkaar te verbinden of records met andere objecten te verbinden.
 
-Voor informatie over het verbinden van verslagtypes met elkaar of aan objecten types van andere toepassingen, zie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
+Voor informatie over het verbinden van verslagtypes met elkaar of aan objecten types van andere toepassingen, zie [Verbind recordtypen](../architecture/connect-record-types.md).
 
-Zie voor een voorbeeld van het verbinden van recordtypen [Voorbeeld van het verbinden van recordtypen en records](../architecture-and-fields/example-connect-record-types-and-records.md).
+Zie voor een voorbeeld van het verbinden van recordtypen [Voorbeeld van het verbinden van recordtypen en records](../architecture/example-connect-record-types-and-records.md).
 
 U kunt het volgende verbinden:
 
@@ -113,6 +113,61 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Workfront-objecten. U moet bijvoorbeeld eerst projecten, portfolio&#39;s, programma&#39;s, bedrijven of groepen maken in Workfront.
    * Maestro-werkruimten, recordtypen en records. Raadpleeg de volgende artikelen voor meer informatie:
 
-      * [Werkruimten maken](../architecture-and-fields/create-workspaces.md)
-      * [Recordtypen maken](../architecture-and-fields/create-record-types.md)
+      * [Werkruimten maken](../architecture/create-workspaces.md)
+      * [Recordtypen maken](../architecture/create-record-types.md)
       * [Records maken](../records/create-records.md)
 
-   * Verbindingen tussen recordtypen of tussen recordtypen en objecten uit andere toepassingen. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
+   * Verbindingen tussen recordtypen of tussen recordtypen en objecten uit andere toepassingen. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md)
 
 ### Connect Maestro-records
 
@@ -158,7 +213,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Selecteer een **Tabel** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
-1. Voeg een verbinding aan een ander verslag of objecten type van het geselecteerde verslagtype toe. Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
+1. Voeg een verbinding aan een ander verslag of objecten type van het geselecteerde verslagtype toe. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
 
    Er wordt een nieuwe kolom aan de tabel toegevoegd om het gekoppelde recordtype weer te geven.
 
@@ -216,7 +271,7 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
    * Bedrijf
    * Groep
 
-   Zie voor meer informatie [Verbind recordtypen](../architecture-and-fields/connect-record-types.md).
+   Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
 
    Er wordt een nieuwe kolom toegevoegd aan de tabel om het gekoppelde objecttype weer te geven.
 

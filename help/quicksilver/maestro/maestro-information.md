@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Als leider van marketingactiviteiten kunt u met Adobe Maestro de werkzaamheden i
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >
@@ -62,7 +62,8 @@ Lees de volgende artikelen voor een overzicht van de Adobe Maestro:
 
 De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven van de huidige Maestro-functies:
 
-* [Toegangsgegevens](../maestro/access/access-information.md): Informatie over de toegang die nodig is om Adobe Maestro te gebruiken.
-* [Architectuurgegevens](../maestro/architecture-and-fields/architecture-and-fields-information.md): Uitgebreide informatie over de architectuur van Adobe Maestro, met geleidelijke instructies over hoe u werkruimten, recordtypes, en gebieden creeert en beheert.
+* [Toegangsgegevens](../maestro/access/access-information.md): Informatie over de toegang en de toestemmingen nodig om Adobe Maestro te gebruiken.
+* [Architectuurgegevens](../maestro/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van Adobe Maestro, met geleidelijke instructies over hoe u werkruimten en verslagtypes tot stand kunt brengen en beheren.
+* [Veldgegevens](../maestro/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies over het maken van aangepaste velden voor Maestro-recordtypen.
 * [Registergegevens](../maestro/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
-* [Weergavegegevens](../maestro/views/views-information.md): Uitgebreide informatie over Maestro-weergaven en hoe deze te beheren.
+* [Weergavegegevens](../maestro/views/views-information.md): Uitgebreide informatie over Maestro-weergaven en hoe u deze kunt beheren bij het weergeven van records in een recordtype pagina.

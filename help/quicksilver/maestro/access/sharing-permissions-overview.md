@@ -4,9 +4,9 @@ description: U kunt machtigingen delen of verwijderen voor een door u gemaakte A
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Overzicht van het delen van machtigingen in Adobe Maestro
 
@@ -35,7 +37,7 @@ U kunt de volgende objecten delen in Maestro:
 
 * Werkruimten
 
-  Als u werkruimten deelt, worden alle recordtypen, records en velden gedeeld die zijn gekoppeld aan de werkruimten.
+  Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld.
 
 ## Overwegingen bij het delen van objecten in Maestro
 
@@ -54,9 +56,14 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Machtigingsniveau</b></p></td> 
+   <td> <p><b>Handelingen die u kunt uitvoeren</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Weergave</td> 
-   <td> <p>U kunt de volgende handelingen uitvoeren:</p> 
+   <td role="rowheader"><p>Weergave</p></td> 
+   <td> 
     <ul> 
      <li>De werkruimte weergeven</li> 
      <li>Alle recordtypen weergeven in de werkruimte</li> 
@@ -65,8 +72,8 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribute</td> 
-   <td> <p>U kunt de volgende handelingen uitvoeren:</p> 
+   <td role="rowheader"><p>Contribute</p></td> 
+   <td>  
     <ul> 
      <li>Alle acties inbegrepen met de toestemming van de Mening</li> 
      <li>Records toevoegen</li>
@@ -77,8 +84,8 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Beheren</td> 
-   <td> <p>U kunt de volgende handelingen uitvoeren:</p> 
+   <td role="rowheader"><p>Beheren</p></td> 
+   <td> 
     <ul> 
      <li>Alle handelingen die zijn inbegrepen bij de machtigingen Weergeven en Contribute</li> 
      <li>Recordtypen bewerken</li> 
@@ -90,7 +97,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-beheerders</td> 
+   <td role="rowheader"><p>Workfront-beheerders</p></td> 
    <td> <p>Dit is geen toestemming van Maestro.</p>
    <p> Alle Workfront-beheerders kunnen het volgende doen: </p>
    <ul><li>Werkruimten maken</li>
@@ -101,13 +108,15 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Een werkruimte delen
 
-Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang verlenen](../access/grant-access.md).
+Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang verlenen tot Adobe Maestro](../access/grant-access.md).
 
 ## Machtigingen verwijderen uit een werkruimte
 
-Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang verlenen](../access/grant-access.md).
+Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang verlenen tot Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 

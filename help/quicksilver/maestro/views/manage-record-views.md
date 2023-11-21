@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >
@@ -153,8 +153,8 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel- en
 ## Weergaven maken of bewerken {#create-or-edit-views}
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
-De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture-and-fields/create-workspaces.md).
-1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture-and-fields/create-record-types.md).
+De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture/create-record-types.md).
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
@@ -189,10 +189,10 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
 1. Van de **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek van het scherm, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner of the screen, if available,--> klikken **Maestro** ![](assets/maestro-icon.png).
 
-   De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture-and-fields/create-workspaces.md).
+   De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 1. Klik op een opnametype.
 
-   Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture-and-fields/create-record-types.md).
+   Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture/create-record-types.md).
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
@@ -208,8 +208,8 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
 
 1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the type selected display in the table view. 
 

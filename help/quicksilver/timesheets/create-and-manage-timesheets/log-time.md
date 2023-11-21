@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 0%
@@ -125,6 +125,7 @@ U kunt tijd aan de volgende punten in timesheet registreren:
   Alleen de taken en problemen die aan u zijn toegewezen, worden vooraf ingevuld in uw overzicht. De taken en de kwesties die aan uw teams of baanrollen worden toegewezen bevolken automatisch niet uw timesheet.
 
   Als u op het item klikt op het item dat aan uw teams is toegewezen, wordt het item aan u toegewezen en wordt het item in uw tijdspagina weergegeven.
+
 * Taken, problemen of projecten die u handmatig toevoegt.
 * Taken, kwesties, of projecten waarvoor u reeds tijd elders in Workfront registreerde.
 * Algemene tijd (vakantie, opleiding, overheadtijd).

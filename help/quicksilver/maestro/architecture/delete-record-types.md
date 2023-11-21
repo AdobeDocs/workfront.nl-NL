@@ -1,20 +1,31 @@
 ---
-title: Records delen
-description: U kunt records met anderen delen om uw samenwerking te verbeteren.
+title: Recordtypen verwijderen
+description: U kunt gegevenstypen van operationele records of taxonomirecords verwijderen wanneer deze niet meer relevant zijn.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# Records delen
+# Recordtypen verwijderen
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-Als u met andere gebruikers wilt samenwerken, kunt u records met anderen delen.
+U kunt gegevenstypen van operationele records of taxonomirecords verwijderen wanneer deze niet meer relevant zijn.
 
-U kunt een Maestro-record op de volgende manieren delen:
+Zie voor informatie over recordtypen en taxonomieën [Overzicht van recordtypen en taxonomieën](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* Kopieer de koppeling van de pagina Details van een record vanuit uw browser wanneer de pagina is geopend.
+We raden u aan de velden en records die zijn gekoppeld aan het recordtype of de taxonomie die u wilt verwijderen, opnieuw te maken op een ander recordtype voordat u ze verwijdert.
 
-* Kopieer een koppeling naar de pagina Details van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In dit artikel wordt beschreven hoe u een koppeling naar de pagina Details van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Toegangsvereisten
 
@@ -90,8 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Recordkoppelingen delen vanuit de tabelweergave van het recordtype
+## Overwegingen bij het verwijderen van recordtypen
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   De werkruimte die u het laatst hebt geopend.
-1. Klik op een opnametype.
+* U kunt elk recordtype of elke taxonomie verwijderen die u of iemand in uw organisatie heeft gemaakt. <!--this will change with access levels and permissions-->
+* Als u recordtypen verwijdert, wordt alle bijbehorende informatie verwijderd, inclusief velden en records van dat type.
+* U kunt verwijderde recordtypen of de bijbehorende gegevens niet herstellen.
 
-   De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+## Recordtypen verwijderen
 
-   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik met de rechtermuisknop op een recordrij
+Het verwijderen van gegevenstypen in een taxonomie is identiek aan het verwijderen van gegevenstypen in een operationeel record.
 
-   of
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
-   Houd de muisaanwijzer boven de naam van een record en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Koppeling kopiëren**.
+   De laatst geopende werkruimte moet standaard worden geopend.
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt verwijderen.
 
-   De koppeling wordt naar het klembord gekopieerd.
+   De werkruimte wordt geopend en de recordtypen en bijbehorende taxonomieën worden weergegeven.
+1. Klik op de kaart voor het recordtype of de taxonomie die u wilt verwijderen.
 
-1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de pagina Details van de record geopend.
+   Hierdoor wordt de pagina van het recordtype geopend.
+1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van het recordtype klikt u op **Verwijderen**.
+1. Klikken **Verwijderen** ter bevestiging.
 
-   >[!TIP]
-   >
-   >De velden van de record op de pagina Details zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Het geselecteerde recordtype of de geselecteerde taxonomie, samen met de velden en bijbehorende records, worden verwijderd.

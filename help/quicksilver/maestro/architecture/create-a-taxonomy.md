@@ -1,20 +1,20 @@
 ---
-title: Records delen
-description: U kunt records met anderen delen om uw samenwerking te verbeteren.
+title: Startrecordtypen voor taxonomie maken
+description: Taxonomieën zijn een type herbruikbare recordtypen die kenmerken vastleggen van een operationeel recordtype in Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Records delen
+# Startrecordtypen voor taxonomie maken
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-Als u met andere gebruikers wilt samenwerken, kunt u records met anderen delen.
+Taxonomieën zijn recordtypen die kenmerken vastleggen over gegevenstypen in Adobe Maestro.
 
-U kunt een Maestro-record op de volgende manieren delen:
+Campagne kan bijvoorbeeld een operationeel recordtype zijn. Hieronder vindt u taxonomieën die kenmerken vastleggen over het type campagnerecord: Regio, Publiek, Land.
 
-* Kopieer de koppeling van de pagina Details van een record vanuit uw browser wanneer de pagina is geopend.
-
-* Kopieer een koppeling naar de pagina Details van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In dit artikel wordt beschreven hoe u een koppeling naar de pagina Details van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Zie voor meer informatie over Maestro-recordtypen [Overzicht van recordtypen en taxonomieën](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Toegangsvereisten
 
@@ -52,7 +38,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe</p> </td>
    <td>
@@ -81,6 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">Lay-outsjabloon</td>
    <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/grant-access.md">Toegang verlenen tot Adobe Maestro</a>. </p>  
@@ -90,8 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Recordkoppelingen delen vanuit de tabelweergave van het recordtype
+## Overwegingen bij het maken van taxonomieën
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
+* U moet een werkruimte maken voordat u taxonomieën in de werkruimte kunt maken.
 
-   De werkruimte die u het laatst hebt geopend.
-1. Klik op een opnametype.
+  Zie voor informatie over werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+* U kunt een taxonomie recordtype tot stand brengen door één van het volgende te doen:
+   * U kunt deze automatisch maken wanneer u een werkruimte maakt met een sjabloon. Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
+   * Maak ze handmatig, helemaal opnieuw.
+   * U kunt ze handmatig maken door gegevens uit een externe lijst te plakken.
 
-   De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik met de rechtermuisknop op een recordrij
+* Alle nieuwe taxonomieën worden geleverd met de volgende velden:
 
-   of
+   * Naam <!--if there won't be any more fields, consider rephrasing this-->
 
-   Houd de muisaanwijzer boven de naam van een record en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Koppeling kopiëren**.
+  Bovendien kunt u aangepaste velden toevoegen aan taxonomieën. Zie voor meer informatie [Velden maken](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    Taxonomieën die worden gemaakt wanneer een werkruimtemalplaatje wordt gebruikt, hebben aanvullende velden.
 
-   De koppeling wordt naar het klembord gekopieerd.
+## Een taxonomie maken
 
-1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de pagina Details van de record geopend.
+Het maken van taxonomieën lijkt op het maken van een geheel nieuw operationeel recordtype of op basis van een werkruimtemalplaatje.
 
-   >[!TIP]
-   >
-   >De velden van de record op de pagina Details zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
+Zie de sectie Een geheel nieuw recordtype maken in het artikel voor meer informatie. [Recordtypen maken](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+Voor informatie over het automatisch creëren van taxonomieën wanneer het creëren van een werkruimte van een malplaatje, zie [Werkruimten maken](../architecture/create-workspaces.md).

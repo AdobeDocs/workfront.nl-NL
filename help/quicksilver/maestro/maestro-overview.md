@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op Adobe Maestro, een nieuw aanbod van Adobe.
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is.
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >[Bekijk een videodemonstratie van Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Zie voor meer informatie [Werkruimten maken](../maestro/architecture-and-fields/create-workspaces.md).
+  Zie voor meer informatie [Werkruimten maken](../maestro/architecture/create-workspaces.md).
 
 * **Recordtype**: Het hoofdobjecttype Maestro.
 
@@ -140,7 +140,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
   In Maestro, kunt u om het even welke verslagtypes tot stand brengen die aan de werkschema&#39;s van uw organisatie voldoen. Later kunt u bepalen hoe de recordtypen op elkaar betrekking hebben of hoe afhankelijk van het formulier is.
 
-  Zie voor meer informatie [Overzicht van de typen operationele registers en taxonomieën](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  Zie voor meer informatie [Overzicht van de typen operationele registers en taxonomieën](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro heeft de volgende recordtypen:
 
@@ -150,7 +150,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
      Bijvoorbeeld, Campagne, Activiteit, Programma kan operationele verslagtypes zijn.
 
-     Zie voor meer informatie [Recordtypen maken](../maestro/architecture-and-fields/create-record-types.md).
+     Zie voor meer informatie [Recordtypen maken](../maestro/architecture/create-record-types.md).
 
    * **Taxonomie**: Een recordtype waarmee kenmerken van een operationeel recordtype worden vastgelegd.
 
@@ -160,7 +160,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
      Bijvoorbeeld, de Publiek, het Gebied, of het Adres kunnen taxonomie-type verslagtypes zijn.
 
-     Zie voor meer informatie [Startrecordtypen voor taxonomie maken](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     Zie voor meer informatie [Startrecordtypen voor taxonomie maken](../maestro/architecture/create-a-taxonomy.md).
 
 * **Opnemen**: Een instantie van een Maestro-recordtype. Een record kan verwijzen naar een operationeel recordtype of naar een taxonomie.
 
@@ -183,7 +183,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
   Maestro wordt geleverd met een sjabloon voor de werkruimte Verkoop, Marketing en Productbeheer.
 
-  Zie voor meer informatie [Werkruimten maken](../maestro/architecture-and-fields/create-workspaces.md).
+  Zie voor meer informatie [Werkruimten maken](../maestro/architecture/create-workspaces.md).
 
 * **Velden**: Velden zijn kenmerken die u kunt toevoegen aan operationele of taxonomie recordtypen die informatie over het recordtype bevatten. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
    * Maestro-velden zijn volledig aanpasbaar en zijn alleen toegankelijk in Maestro. U hebt vanuit Workfront geen toegang tot Maestro-velden.
 
-  Zie voor meer informatie [Velden maken](../maestro/architecture-and-fields/create-fields.md)
+  Zie voor meer informatie [Velden maken](../maestro/fields/create-fields.md)
 
   Een nieuw operationeel recordtype is standaard gekoppeld aan de volgende vooraf gedefinieerde velden:
 
@@ -243,7 +243,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
   Zie de volgende artikelen voor informatie over het koppelen van recordtypen, records en gekoppelde velden:
 
-   * [Verbind recordtypen](../maestro/architecture-and-fields/connect-record-types.md)
+   * [Verbind recordtypen](../maestro/architecture/connect-record-types.md)
    * [Connect-records](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
