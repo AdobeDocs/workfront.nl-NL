@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -64,18 +64,21 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 * De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt, is oorspronkelijk verwijderd. Het is op 19 oktober 2023 weer opgenomen.
 * De optie &#39;Vraag om goedkeuring&#39; wanneer u personen een label geeft terwijl u een opmerking aan een document toevoegt.
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->Voor de objecten hieronder zijn alleen de opmerkingen en systeemupdates beschikbaar die beginnen op 1 januari 2019 in de nieuwe opmerkingervaring.
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->U kunt opmerkingen en systeemupdates over deze objecten vóór 1 januari 2019 weergeven wanneer u de sectie Updates in de huidige ervaring weergeeft:
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* Problemen
->* Projecten
->* Taken
->* Documenten
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-Zie de klasse [Nieuwe veelgestelde vragen over opmerkingen](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de nieuwe opmerkingervaring en de beschikbaarheid ervan op gebieden waar deze functies worden ondersteund:
 

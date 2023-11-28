@@ -4,9 +4,10 @@ description: U kunt machtigingen delen of verwijderen voor een door u gemaakte A
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -94,6 +95,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
      <li>Velden toevoegen</li> 
      <li>Velden verwijderen</li> 
      <li>Nieuwe verbindingen tussen recordtypen toevoegen</li> 
+     <li>De werkruimte delen met gebruikers en groepen</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang 
 Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang verlenen tot Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-

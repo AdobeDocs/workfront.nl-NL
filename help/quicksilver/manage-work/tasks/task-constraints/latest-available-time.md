@@ -2,19 +2,19 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Overzicht van taakbeperking: Laatste beschikbare tijd'''
+title: 'Overzicht van taakbeperking: nieuwste beschikbare tijd'
 description: De meest recente Beschikbare Tijd (LAT) is een type van de Beperking van de Taak in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Overzicht van taakbeperking: Laatste beschikbare tijd
+# Overzicht van taakbeperking: nieuwste beschikbare tijd
 
 De meest recente Beschikbare Tijd (LAT) is een type van de Beperking van de Taak in Adobe Workfront.
 
@@ -29,7 +29,7 @@ Voor informatie over hoe te om de Beperking van de Taak op een taak bij te werke
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>To update the Task Constraint to Latest Available Time:</p>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
@@ -56,19 +56,19 @@ In deze situatie:
 
 * **Laatste beschikbare tijd:** Het gebruiken van de Latest Beschikbare Beperking van de Tijd op de voorgangertaak geeft prioriteit aan flexibele beperking van de opvolger.
 
-   **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft de Meest recente Beschikbare Beperking van de Tijd en Taak B heeft zo spoedig mogelijk de beperking. In deze situatie is taak A zo dicht mogelijk bij de start van het project gepland.
+  **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft de Meest recente Beschikbare Beperking van de Tijd en Taak B heeft zo spoedig mogelijk de Beperking. In deze situatie is taak A zo dicht mogelijk bij de start van het project gepland.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **Zo laat mogelijk:** In dit scenario, geeft het gebruiken van zo laat mogelijk beperking op de voorgangertaak de prioriteit aan de voorgangertaak.
 
-   **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft de Zo laat mogelijk beperking en Taak B heeft zo snel mogelijk de beperking. In deze situatie is taak A zo dicht mogelijk bij het einde van het project gepland.
+  **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft de Zo laat mogelijke beperking en de Taak B heeft zo spoedig mogelijk de beperking. In deze situatie is taak A zo dicht mogelijk bij het einde van het project gepland.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
 <p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>

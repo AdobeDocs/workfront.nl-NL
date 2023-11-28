@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,11 @@ Voorbeeld en productie voor alle klanten: 19 oktober 2023.
 ### Week van 11 september 2023
 
 #### De nieuwe opmerkingervaring legt informatie vast vanaf 1 januari 2019
+
+>[!NOTE]
+>
+>Deze beperking werd opgeheven na 28 november 2023. Zie voor meer informatie [Overzicht eerste release 2024, kwartaal 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 Projecten, taken, problemen en documenten geven updates weer vanaf 1 januari 2019. Vóór deze verbetering werd de nieuwe opmerkingervaring alleen bijgewerkt vanaf juni 2022 voor deze objecten.
 
