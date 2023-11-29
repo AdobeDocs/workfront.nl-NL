@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ U kunt een record uit de volgende gebieden bewerken:
 
 ### Een record bewerken vanuit de tabelweergave van het recordtype
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> klik vervolgens op **Maestro** ![](assets/maestro-icon.png).
+1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
    De werkruimte die u het laatst hebt geopend.
 
@@ -201,10 +201,38 @@ U kunt een record uit de volgende gebieden bewerken:
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. (Voorwaardelijk) Van de **Weergave** in de rechterbovenhoek van de tabel selecteert u een **Tabel** weergeven. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen. Een opgeslagen indicator wordt kort in de rechterbovenhoek van de tabelweergave weergegeven om aan te geven dat de wijzigingen zijn opgeslagen.
+
+   >[!NOTE]
+   >
+   >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
+   >  
+   >  * Gekoppelde velden die zijn gemaakt door recordtypen te koppelen
+   >  * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
+
+
+1. (Optioneel) Kopieer een bestaande waarde van een veld en plak in een veld van hetzelfde type in een andere record. Klik vervolgens op **Enter** op uw toetsenbord om uw wijzigingen op te slaan.
+
+   >[!NOTE]
+   >
+   >Overweeg het volgende:
+   >
+   >* U kunt geen informatie kopiëren van een andere bron, behalve een Maestro-veld van hetzelfde type als het veld waarin u de informatie plakt.
+   >
+   >* U kunt geen veldwaarden kopiëren en plakken voor velden die worden weergegeven in het gebied Details van een record.
+   >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
+   ><ul>
+   >
+   > * Mensen
+   >
+   > * Systeemvelden
+   >
+   > * Gekoppelde velden die zijn gemaakt als gevolg van het verbinden van records
+
+   <!--take People out of the list above when they release this - this might be coming later-->
