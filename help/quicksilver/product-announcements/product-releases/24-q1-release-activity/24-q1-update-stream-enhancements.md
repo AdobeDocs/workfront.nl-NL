@@ -3,9 +3,10 @@ title: Verbeteringen voor stroom en meldingen bijwerken in eerste kwartaal 2024
 description: Verbeteringen voor stroom en meldingen bijwerken in eerste kwartaal 2024
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,11 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle updatestroom en berichtverhogingen die met Eerste Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## De nieuwe opmerkingervaring legt alle informatie vast voor projecten, taken, problemen en documenten
+
+Projecten, taken, problemen en documenten geven alle updates weer in het nieuwe ervaringsgebied voor opmerkingen, sinds het begin van uw Workfront-exemplaar. Vóór deze verbetering, registreerde de nieuwe opmerkingervaring slechts updates die met Januari 2019 voor deze voorwerpen begonnen.
 
 ## Een opmerking of gebruiker zoeken in de sectie Updates
 

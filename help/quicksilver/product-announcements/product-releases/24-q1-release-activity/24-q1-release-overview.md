@@ -3,13 +3,13 @@ title: Overzicht eerste release 2024, kwartaal 2024
 description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht eerste release 2024, kwartaal 2024
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Verbeteringen voor startpagina
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">De knoppen voor snelle actie voor Mijn werk zijn gewijzigd en alleen weergegeven bij mouseover</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om de prestaties te verbeteren, worden de knoppen voor snelle actie die beschikbaar zijn in de widget Mijn werk nu alleen weergegeven wanneer een tijdelijk item met de muis wordt aangeraakt.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 29 november 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 29 november 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Verbeteringen voor integratie
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">De nieuwe opmerkingervaring legt alle informatie vast voor projecten, taken, problemen en documenten</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Projecten, taken, problemen en documenten geven alle updates weer in het nieuwe ervaringsgebied voor opmerkingen, sinds het begin van uw Workfront-exemplaar.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 28 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor alle afnemers: 28 november 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Een opmerking of gebruiker zoeken in de sectie Updates</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Als u snel informatie wilt zoeken in de sectie Updates van een object, kunt u nu naar een trefwoord zoeken vanuit een opmerking of naar een gebruiker die aan een opmerking is gekoppeld.</p>

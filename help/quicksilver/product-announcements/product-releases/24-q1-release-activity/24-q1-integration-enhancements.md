@@ -3,7 +3,8 @@ title: Verbeteringen voor eerste kwartaal 2024-integratie
 description: Verbeteringen voor eerste kwartaal 2024-integratie
 author: Becky
 feature: Product Announcements
-source-git-commit: 864ba63e448a070b3ae5413196cc2fdd316fb931
+exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Typeahead-velden zijn nu beschikbaar in Adobe Experience Manager-integratie
 
@@ -31,7 +32,3 @@ We hebben nog een workflow toegevoegd aan de Adobe Experience Manager-integratie
 De workflow Automatisch publiceren kan worden ingeschakeld en geconfigureerd in de Adobe Experience Manager-integratie. Wanneer toegelaten, kan het werkschema op het projectmalplaatje of projectniveau worden uitgegeven.
 
 Zie voor meer informatie [Elementen publiceren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Workflows gebruiken in de Experience Manager Assets-integratie](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-

@@ -1,16 +1,11 @@
 ---
-content-type: overview;reference
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile-app voor tablets
 description: De [!DNL Workfront Proof] Met de tablet-app kunt u uw proefdrukken eenvoudig controleren en goedkeuren wanneer u onderweg bent. De app kan voor iedereen worden gedownload. U hoeft geen [!DNL Workfront Proof] gebruiker om proeven op uw tablet of uw telefoon te kunnen herzien.
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
-exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
+hide: true
+hidefromtoc: true
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -30,9 +25,9 @@ Gasten kunnen gewoon op de knop [!UICONTROL Go to proof] in het e-mailbericht da
 ## Apparaatvereisten
 
 * iOS-apparaten: iPad 3, iPad air, iPad mini
-* Android-apparaten: Android OS versie 4.4+, 5+; Samsung Galaxy Tab 3+ (10,1 inch)
+* Android-apparaten: Android OS versie 4.4+, 5+; Samsung Galaxy Tab 3+ (10.1&quot;)
 
-Deze app is speciaal ontworpen voor tablets. Als je wilt gebruiken [!DNL Workfront Proof] download de iOS-app op uw iPhone vanuit de iTunes Store.
+Deze app is speciaal ontworpen voor tablets. Als u wilt gebruiken [!DNL Workfront Proof] download de iOS-app op uw iPhone vanuit de iTunes Store.
 
 ## De app downloaden
 
@@ -55,21 +50,21 @@ De [!DNL Workfront Proof] De tablet-app geeft u toegang tot het dashboard met de
 
 1. Voer een van de volgende handelingen uit:
 
-   * Meld u aan met uw [!DNL Workfront Proof] referenties.
+   * Meld u aan met [!DNL Workfront Proof] referenties.
 
-      Als u een e-mail met een proefuitnodiging ontvangt en op uw mobiele apparaat opent, gaat u via de koppeling naar de proefdruk in de app. U hoeft geen gebruiker te zijn om proefdrukken te kunnen controleren; de app moet echter wel op uw apparaat zijn geïnstalleerd om deze te kunnen weergeven.
+     Als u een e-mail met een proefuitnodiging ontvangt en op uw mobiele apparaat opent, gaat u via de koppeling naar de proefdruk in de app. U hoeft geen gebruiker te zijn om proefdrukken te kunnen controleren. De app moet echter wel op uw apparaat zijn geïnstalleerd om deze te kunnen bekijken.
 
    * Als Single Sign-On is ingeschakeld in uw account, tikt u op die optie in het aanmeldingsscherm.
 
-      U gaat naar de aanmeldingspagina waarop u om uw e-mailadres wordt gevraagd. Nadat u uw e-mailadres hebt getypt, wordt u omgeleid naar de pagina van uw identiteitsprovider waar u zich met uw wachtwoord kunt aanmelden.
+     U gaat naar de aanmeldingspagina waarop u om uw e-mailadres wordt gevraagd. Nadat u uw e-mailadres hebt getypt, wordt u omgeleid naar de pagina van uw identiteitsprovider waar u zich met uw wachtwoord kunt aanmelden.
 
-      ![Aanmelden_scherm.png](assets/login-screen-350x261.png)
+     ![Aanmelden_scherm.png](assets/login-screen-350x261.png)
 
 ## Het dashboard
 
 Als u aangemeld wilt blijven bij uw [!DNL Workfront Proof] account:
 
-1. Inschakelen **[!UICONTROL Keep me logged in]** in het zijbalkmenu onder **[!UICONTROL Settings]**:
+1. Inschakelen **[!UICONTROL Keep me logged in]** in het zijbalkmenu **[!UICONTROL Settings]**:
 
 ![Keep_me_registered_in.gif](assets/keep-me-logged-in-350x446.gif)
 
@@ -79,7 +74,7 @@ Andere elementen van het dashboard zijn de zoekbalk waarmee u de account kunt do
 
 ![dashboard.png](assets/dashboard-350x298.png)
 
-## Uw werkbelasting beheren met behulp van dashboardweergaven
+## Uw werkbelasting beheren met dashboardweergaven
 
 Net als bij de dashboardgrafieken in onze webtoepassing wordt in de mobiele app een lijst weergegeven met proefdrukken die met u zijn gedeeld. Het welkomstbericht boven aan de pagina geeft u het totale aantal proefdrukken en het aantal proefdrukken dat we hieronder verdelen *Op tijd*, *Risico*, en *Te late proefdrukken*.
 
@@ -100,7 +95,7 @@ Een andere weergave die u wellicht nuttig vindt, is de weergave Recent. Deze too
    of
 
    Als u een proefdruk wilt openen vanuit een e-mailbericht, kunnen revisoren klikken op de knop **[!UICONTROL Go to proof]** koppeling in de melding.
-Als u een [!DNL Workfront Proof] -account kunt u zich aanmelden en toegang krijgen tot uw proefdrukken via het dashboard.
+Als u een [!DNL Workfront Proof] kunt u zich aanmelden en toegang krijgen tot uw proefdrukken via het dashboard.
 
    >[!NOTE]
    >
@@ -114,19 +109,19 @@ Als u een [!DNL Workfront Proof] -account kunt u zich aanmelden en toegang krijg
 
    * Als u naar een specifieke pagina van de proefdruk wilt gaan, veegt u zijdelings of gebruikt u de optie [!UICONTROL thumbnails] lijst.
 
-      U kunt ook de pijlen onder aan de pagina gebruiken of een specifiek paginanummer plaatsen.
+     U kunt ook de pijlen onder aan de pagina gebruiken of een specifiek paginanummer plaatsen.
 
    * Als u naar een andere versie van de proefdruk wilt gaan, gebruikt u het keuzemenu voor de versie boven aan de pagina.
    * Als u wilt inzoomen, knijpt u het scherm.
    * Als u wilt pannen, houdt u de afbeelding ingedrukt en verplaatst u deze totdat u de juiste positie hebt gevonden.
 
-      Het controleren van proefdrukken in de mobiele app is zo eenvoudig als het controleren van proefdrukken met de [!DNL Workfront Proof] Viewer. Hieronder zullen we nader kijken naar het toevoegen van opmerkingen en markeringen, het beheren van feedback en het nemen van beslissingen. We bespreken ook verschillende opties die beschikbaar zijn in de zijbalk van de app.
+     Het controleren van proefdrukken in de mobiele app is zo eenvoudig als het controleren van proefdrukken met de [!DNL Workfront Proof] Viewer. Hieronder zullen we nader kijken naar het toevoegen van opmerkingen en markeringen, het beheren van feedback en het nemen van beslissingen. We bespreken ook verschillende opties die beschikbaar zijn in de zijbalk van de app.
 
 ## Opmerkingen in de app
 
 In de onderstaande video ziet u de basisbeginselen van opmerkingen in de mobiele app. Hierin wordt getoond hoe u een opmerking kunt maken, hoe u een antwoord op een opmerking kunt plaatsen, hoe u verschillende markeringen kunt gebruiken en verwijderen en hoe u opmerkingen kunt bewerken en verwijderen.
 
-U kunt alleen opmerkingen bewerken en verwijderen als er geen reactie is geplaatst. Als u de [!UICONTROL trash] pictogram, is het mogelijk dat deze optie is uitgeschakeld door uw [!DNL Workfront Proof] beheerder.
+U kunt alleen opmerkingen bewerken en verwijderen als er geen reactie is geplaatst. Als u de [!UICONTROL trash] is uitgeschakeld door uw [!DNL Workfront Proof] beheerder.
 
 De app bevat drie weergaveopties voor opmerkingen. U kunt tussen hen schakelen door op de commentaarknoop te klikken.
 
@@ -151,15 +146,15 @@ Onderweg tekst controleren is echt in de buurt [!DNL Workfront Proof] tablet-app
    | **[!UICONTROL Delete]** | Doorstreept de tekst en voegt [DELETE] in het commentaarvak. |
    | **[!UICONTROL Insert after]** | Toevoegingen [INVOEGEN NA] in het commentaarvakje. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Optioneel) Als u tekst uit een ander document wilt plakken dat u op uw tablet hebt opgeslagen, tikt u op het opmerkingsvak en houdt u uw vinger ingedrukt totdat u een optie ziet waarmee u de uit het document gekopieerde tekst kunt plakken.
 
 ## Opmerkingen beheren in de mobiele app
 
-Nadat iedereen zijn commentaren en markeringen op het bewijs heeft verlaten, zeer vaak moet de bewijsmanager door terugkoppelen en beslissen welke veranderingen op de volgende versie van het bewijs zouden moeten worden toegepast. In [!DNL Workfront Proof] u kunt Acties op commentaren gebruiken om elke individuele commentaar te markeren en degenen te merken die zouden moeten worden gehandeld.
+Nadat iedereen zijn commentaren en markeringen op het bewijs heeft verlaten, zeer vaak moet de bewijsmanager door terugkoppelen gaan en beslissen welke veranderingen op de volgende versie van het bewijs zouden moeten worden toegepast. In [!DNL Workfront Proof] u kunt Acties op commentaren gebruiken om elke individuele commentaar te markeren en degenen te merken die zouden moeten worden gehandeld.
 
-Handelingen voor opmerkingen moeten in uw account worden ingesteld door de [!DNL Workfront Proof] en kan alleen op een proefdruk worden gebruikt door personen die bewerkingsrechten hebben.
+Handelingen voor opmerkingen moeten in uw account worden ingesteld door [!DNL Workfront Proof] en kan alleen op een proefdruk worden gebruikt door personen die bewerkingsrechten hebben.
 
 Wanneer u werkt aan het voorbereiden van de volgende versie van uw proefdruk, kunt u commentaren uitchecken aangezien u gaat. De opmerking wordt gemarkeerd als opgelost met een groen vinkje. Als u de opmerking opnieuw wilt openen, klikt u op de pijl onder aan het opmerkingsvak.
 
