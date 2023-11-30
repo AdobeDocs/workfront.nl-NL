@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ Om u toe te staan om de nieuwe eigenschappen van het alpha- programma gemakkelij
 
 Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende stappen uit om de functionaliteit te testen:
 
+>[!NOTE]
+>
+><span class="preview">Gemarkeerde tekst</span> Hieronder wordt verwezen naar functies die nog niet zijn geïmplementeerd voor tests, maar die in een latere versie worden opgenomen.
+>
+
 1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io alpha testing` groep die als projectgroep wordt toegewezen.
 
-1. **Coördinatoren:** Wijs binnen Workfront uw creatieve items toe aan de taken waarvoor het project of frame is ingeschakeld en wijzig de projectstatus in &quot;Current&quot; (Huidig).
+1. **Coördinatoren:** Wijs binnen Workfront uw creatieve projecten toe aan het project <span class="preview">Taken die geschikt zijn voor frames</span> en wijzig de projectstatus in &quot;Huidig&quot;.
 
 1. **Creatieve producten:** Controleer uw e-mails voor een uitnodiging tot het zojuist gemaakte Frame.io-project
 
 1. **Creatieve producten:** Klik op de knop &quot;Deelnemen aan project&quot; in de uitnodigings-e-mail om deel te nemen aan het Frame.io-project, bekijk de creatieve samenvatting in het project en start het maken van uw inhoud met het gereedschap Creative Cloud van keuze.
 
-1. **Creatieve producten:** Upload uw gemaakte elementen naar Frame.io en voeg deze toe aan het gekoppelde Workfront-project (of aan toegewezen taken waarvoor Frame is ingeschakeld).
+1. **Creatieve producten:** Uw gemaakte elementen uploaden naar Frame.io en deze toevoegen aan het gekoppelde Workfront-project <span class="preview">(of toegewezen taken waarvoor Frame is ingeschakeld).</span>
 
 1. **Coördinatoren:** Zoek in Workfront naar de gekoppelde Frame.io-elementen in uw project en wijs revisoren/fiatteurs toe (voor meer informatie over het toewijzen van revisies/fiatteurs raadpleegt u [Extra fiatteurs of revisoren toevoegen aan een document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
 1. **Belanghebbenden:** Bekijk in Workfront uw goedkeuringsaanvraag in Home- of Document Details en bekijk het document met Frame-verbinding in de Frame.io Viewer. Laat vervolgens een opmerking met feedback achter.
 
-1. **Coördinatoren:** In Workfront kunt u de door de belanghebbende gemaakte opmerkingen weergeven in de sectie Updates van het document Frame.io.
+1. <span class="preview">**Coördinatoren:** In Workfront kunt u de door de belanghebbende gemaakte opmerkingen weergeven in de sectie Updates van het document Frame.io.</span>
 
-1. **Belanghebbenden:** Maak een beslissing vanuit de Frame.io Viewer.
+1. <span class="preview">**Belanghebbenden:** Maak een beslissing vanuit de Frame.io Viewer.</span>
 
-1. **Creatieve producten:** Merk in Frame.io het algemene goedkeuringsbesluit op dat voor uw elementen is genomen.
+1. <span class="preview">**Creatieve producten:** Merk in Frame.io het algemene goedkeuringsbesluit op dat voor uw elementen is genomen.</span>
 
 1. **Creatieve producten:** Pas in Frame.io de gewenste wijzigingen toe door de bijgewerkte versie toe te voegen aan de versiestapel van het gekoppelde element.
 
