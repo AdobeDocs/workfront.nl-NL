@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead-velden zijn nu beschikbaar in Adobe Experience Manager-integratie</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om het gemakkelijker te maken om gebieden tussen Workfront en Adobe Experience Manager te verbinden, hebben wij steun voor typeahead gebieden in de meta-gegevensafbeelding toegevoegd. Nu kunt u typeahead-velden toewijzen aan corresponderende velden in Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead-velden zijn nu beschikbaar in Adobe Experience Manager-integratie</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om het gemakkelijker te maken om gebieden tussen Workfront en Adobe Experience Manager te verbinden, hebben wij steun voor typeahead gebieden in de meta-gegevensafbeelding toegevoegd. Nu kunt u typeahead-velden toewijzen aan corresponderende velden in Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -159,7 +159,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Voorvertoningsrelease: 16 november 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle afnemers: 7 december 2023</span></p>
+                                <p><span class="preview">Productie voor alle afnemers: 29 november 2023</span></p>
                             </li>
                         </ul>
                     </td>
