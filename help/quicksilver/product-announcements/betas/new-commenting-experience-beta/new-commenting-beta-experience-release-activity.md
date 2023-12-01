@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '1874'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 >
 >Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023.
 >
->De functies die tijdens de bètaperiode werden vrijgegeven, zijn aan alle klanten beschikbaar gesteld vanaf de vierde kwartaalrelease van 2023 (oktober 2023) en het bètaprogramma is afgesloten.
+>De functies die tijdens de bètaperiode werden vrijgegeven, zijn beschikbaar gesteld aan alle klanten vanaf de vierde kwartaalrelease van 2023 (oktober 2023), toen het bètaprogramma werd afgesloten.
 > 
 ><br>Raadpleeg de volgende artikelen voor meer informatie: </br>
 >
 >* Voor informatie over de functies die tijdens de bètaperiode van de nieuwe ervaring worden uitgebracht, raadpleegt u [Nieuwe ervaring met opmerkingen](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->* Raadpleeg de overzichtspagina van de huidige productrelease voor informatie over functies die worden vrijgegeven voor opmerkingen nadat het bètaprogramma voor nieuwe ervaringen met opmerkingen is gesloten.
+>* Zie de overzichtspagina van de huidige release voor informatie over functies die worden vrijgegeven voor opmerkingen nadat het bètaprogramma voor nieuwe ervaringen met opmerkingen is gesloten.
 
 <!--
  This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
@@ -55,48 +55,14 @@ For general information on the new commenting experience, including a list of fe
 
 -->
 
-## Nieuwe tijdlijn voor release met opmerkingervaring
+## Nieuwe locatie voor opmerkingervaring en tijdlijn van release
 
 De nieuwe ervaring met opmerkingen brengt een nieuw ontwerp aan in de sectie Updates van Workfront-objecten.
 
 Voor informatie over welke Workfront-objecten de sectie Updates weergeven, raadpleegt u [Overzicht van de sectie Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het vrijgeven van de nieuwe opmerkingservaring voor de productieomgeving. Naast de onderstaande mijlpalen zullen we de ervaring met opmerkingen verder verbeteren met kleinere verbeteringen.
+Voor informatie over de releasetijdlijn voor de nieuwe opmerkingervaring raadpleegt u [Nieuwe ervaring met opmerkingen](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Zie voor meer informatie over de functies die tijdens de bètaperiode zijn uitgebracht en het tijdstip waarop deze zijn uitgebracht de [Functies die tijdens de bètaperiode worden vrijgegeven](#features-released-during-the-beta-period) in dit artikel.
-
-Raadpleeg de overzichtspagina van de huidige release voor informatie over de functies die na het sluiten van de bètaperiode worden vrijgegeven voor de nieuwe opmerkingervaring.
-
-Hier volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring:
-
-* Met de release van 23.2 (6 april 2023):
-   * Het bètaprogramma voor opmerkingen starten voor problemen
-   * De nieuwe ervaring met opmerkingen opheffen voor doelen (als enige ervaring)
-* Met 23.3 release (20 juli 2023):
-   * Start het bètaprogramma voor opmerkingen voor projecten, taken en documenten.
-   * De nieuwe opmerkingervaring opheffen voor kaarten in het gebied Boards (als enige ervaring)
-* Tijdens de release van het vierde kwartaal van 2023 (beperkte release, alleen beschikbaar voor klanten die de snelle release kiezen):
-   * De nieuwe ervaring met opmerkingen opheffen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
-   * Werk het Bèta van de het becommentariëren ervaring voor projecten, taken, kwesties, en documenten bij om de standaardoptie te worden. Het label &quot;Bèta&quot; wordt verwijderd.
-* In de vierde release van 23.10 uur in 2023 (26 oktober 2023)
-   * Laat de nieuwe opmerkingervaring voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring) aan alle klanten los.
-   * Maak de nieuwe opmerkingervaring voor projecten, taken, kwesties, en documenten de standaardoptie.
-
-  >[!IMPORTANT]
-  >
-  >    Hiermee wordt de bètafase van de nieuwe opmerkingervaring afgesloten.
-
-   * Maak alle functies die voor de opmerkingervaring worden vrijgegeven vanaf deze datum onderdeel van de huidige gewone maandelijkse en driemaandelijkse releases.
-* Eind 2023:
-   * Houd de oudere ervaring met opmerkingen als een secundaire optie voor de volgende objecten: projecten, taken, problemen en documenten. De nieuwe ervaring met opmerkingen is de standaardoptie voor alle gebruikers.
-
-  >[!NOTE]
-  >
-  >    Herhalingen zullen de oudere ervaring met opmerkingen blijven gebruiken. De nieuwe ervaring met opmerkingen is niet beschikbaar voor herhalingen.
-
-* Eerste kwartaal 2024 (januari 2024):
-
-   * Verwijder de optie om terug te schakelen naar de oudere opmerkingstroom en maak de nieuwe opmerkingstroom de enige ervaring voor alle objecten, met uitzondering van herhalingen.
 
 ## Functies die tijdens de bètaperiode worden vrijgegeven
 
