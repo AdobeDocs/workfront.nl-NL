@@ -6,9 +6,9 @@ description: U kunt een voorvertoning weergeven van de weergave van een interact
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -54,9 +54,9 @@ Uw Adobe Workfront-beheerder heeft uw systeem zo geconfigureerd dat u interactie
 
 * In de webtestviewer kunt u interactieve inhoud weergeven zoals deze wordt weergegeven in de resoluties voor de verschillende apparaten. Maar de Web Proofing Viewer emuleert de inhoud niet met behulp van interfacespecificaties op deze apparaten, zoals knopkleur.
 
-   >[!NOTE]
-   >
-   >Uw Workfront-beheerder kan aangepaste apparaten configureren voor gebruikers in uw organisatie, zoals wordt beschreven in Aangepaste apparaten configureren voor interactieve proefdrukken in het artikel.
+  >[!NOTE]
+  >
+  >Uw Workfront-beheerder kan aangepaste apparaten configureren voor gebruikers in uw organisatie, zoals wordt beschreven in [Aangepaste apparaten configureren voor proefdrukken](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) in het artikel [Proofinginstellingen voor uw organisatie configureren](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Een proefdruk weergeven met een vooraf ingesteld apparaat of een vooraf ingestelde resolutie
 
@@ -94,6 +94,6 @@ Uw Adobe Workfront-beheerder heeft uw systeem zo geconfigureerd dat u interactie
    De aangepaste resolutie wordt op de volgende locaties weergegeven:
 
    * In de **Resolutie** onder in het midden van de viewer.\
-      ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * In om het even welke commentaren voegen de recensenten aan het bewijs toe. Elke opmerking bevat de schermresolutie die is geselecteerd toen de revisor de opmerking maakte.
