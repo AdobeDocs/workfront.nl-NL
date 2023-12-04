@@ -1,50 +1,59 @@
 ---
 content-type: overview
 navigation-topic: use-the-home-area
-title: Aan de slag met Home
-description: Er zijn twee manieren om uw werk in de [!UICONTROL Home] gebied, ofwel [!UICONTROL Work List] of de kalender.
-author: Lisa
+title: Aan de slag met [!UICONTROL Home]
+description: Er zijn twee manieren om uw werk in de [!UICONTROL Home] gebied, ofwel [!UICONTROL Work List] of de [!UICONTROL Calendar].
+author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met [!UICONTROL Home]
 
-Er zijn twee manieren om uw werk in de [!UICONTROL Home] gebied, ofwel [!UICONTROL Work List] of de kalender.
+In dit artikel wordt een overzicht van het huidige [!UICONTROL Home] gebied in [!DNL Adobe Workfront]. Voor informatie over het werken in het nieuwe [!UICONTROL Home], zie [Aan de slag met New Home in Adobe Workfront](../new-home/get-started-with-new-home.md).
+
+Er zijn twee manieren om uw werk in de huidige [!UICONTROL Home] gebied:
+
+* Van de [!UICONTROL Work List]
+* Van de [!UICONTROL Calendar].
 
 ## Werklijst
 
-De [!UICONTROL Work List] kunt u al uw toegewezen werk op één plaats bekijken:
+U kunt al uw toegewezen werk op één plaats bekijken, in [!UICONTROL Work List]:
 
 ![[!UICONTROL Work List] deelvensters](assets/worklist-and-right-panel-home.png)
 
-A. Gebruik het linkerdeelvenster om te filteren, sorteren en toegewezen werk te selecteren.
+De volgende secties in de huidige versie bekijken [!UICONTROL Home] gebied, zoals gemarkeerd in de bovenstaande afbeelding:
 
-B. Nadat u een tijdelijk item in het linkerdeelvenster hebt geselecteerd, gebruikt u het rechterdeelvenster om te communiceren met aangepaste velden, updates uit te voeren en de logtijd te bepalen.
+* **A**: Gebruik het linkerdeelvenster om te filteren, sorteren en toegewezen werk te selecteren.
+
+* **B**: Nadat u een tijdelijk item in het linkerdeelvenster hebt geselecteerd, gebruikt u het rechterdeelvenster om te communiceren met aangepaste velden, updates uit te voeren en de logtijd te wijzigen.
 
 Voor meer informatie over het gebruik van de [!UICONTROL Home Work List], zie de volgende artikelen:
 
 * [Items weergeven in het dialoogvenster [!UICONTROL Work List] in de [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [Werkitems maken op basis van de [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [Werkitems maken op basis van het tabblad [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
 ## Kalender
 
-Met de kalender kunt u uw werk visualiseren door te tonen wanneer de werkitems moeten worden geplaatst en u de tijd om deze te voltooien kunt blokkeren:
+U kunt uw werk visualiseren door te tonen wanneer de het werkpunten worden verwacht en u kunt tijd blokkeren om hen te voltooien, door uw werk in te herzien [!UICONTROL Calendar] in de [!UICONTROL Home] gebied:
 
 ![](assets/calendar-home-nwe-350x114.png)
 
-A. Gebruik de [!UICONTROL Calendar] om een visuele kaart te maken van het werk dat u moet voltooien. U klikt en sleept gewoon werkitems van het dialoogvenster [!UICONTROL Work List] Ga naar de agenda om de werktijd te blokkeren.
+De volgende secties in de huidige versie bekijken [!UICONTROL Home] gebied, zoals gemarkeerd in de bovenstaande afbeelding:
 
-B. Gebruik de synchronisatieoptie van de Kalender om met uw te synchroniseren [!DNL Outlook] kalender. Vergaderingen beheren en op één locatie werken.
+* **A**: Gebruik de [!UICONTROL Calendar] om een visuele kaart te maken van het werk dat u moet voltooien. U klikt en sleept gewoon werkitems van het dialoogvenster [!UICONTROL Work List] aan de [!UICONTROL Calendar] om de werktijd te blokkeren.
 
-C. Gebruik de [!UICONTROL Details] om een nieuw rechtervenster te openen waarin u meer informatie over het werkitem kunt bekijken.
+* **B**: Gebruik de [!UICONTROL Calendar]synchroniseert optie met uw [!DNL Outlook] kalender. Vergaderingen beheren en op één locatie werken.
 
-D. Gebruik de gewenste balk om bij te houden wanneer er werk aan u is toegewezen.
+* **C**: Gebruik de [!UICONTROL Details] om een nieuw rechtervenster te openen waarin u meer informatie over het werkitem kunt bekijken.
+
+* **D**: Gebruik de gewenste balk om bij te houden wanneer er werk aan u is toegewezen.
 
 Ga voor meer informatie over het gebruik van de startagenda naar [Gebruik de [!UICONTROL Home Calendar] weergave](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
@@ -54,7 +63,7 @@ De [!UICONTROL Home] is uw one-stop shop om taken, kwesties, en goedkeuringen te
 
 >[!NOTE]
 >
->De filter en sorteeropties worden opgeslagen in browser. Als u consequent dezelfde browser gebruikt op dezelfde computer (en de sitegegevens niet wist), veranderen de filters en de sortering niet, maar als u van browser of computer verandert, zijn de filters en de sortering verschillend.
+>De filter- en sorteeropties worden opgeslagen in de browser. Als u consequent dezelfde browser gebruikt op dezelfde computer (en de sitegegevens niet wist), veranderen de filters en de sortering niet, maar als u van browser of computer verandert, zijn de filters en de sortering verschillend.
 
 ### Groepeer vergelijkbare werkitems samen met de &#39;[!UICONTROL Group by]Optie &#39;
 
@@ -78,21 +87,21 @@ Hieronder ziet u voorbeelden van het filteren van items die u in Home bekijkt:
 
 * Filteren op itemtype en -status.
 
-   Als u bijvoorbeeld alle taken wilt weergeven, kunt u de opdracht [!UICONTROL Tasks] filter. Als u specifieker wilt zijn dan dit en alleen taken wilt weergeven die klaar zijn om aan te gaan werken, selecteert u de opdracht [!UICONTROL Ready to Start] filters onder de [!UICONTROL Tasks] filter.
+  Als u bijvoorbeeld alle taken wilt weergeven, kunt u de opdracht [!UICONTROL Tasks] filter. Als u specifieker wilt zijn dan dit en alleen taken wilt weergeven die klaar zijn om aan te gaan werken, selecteert u de opdracht [!UICONTROL Ready to Start] filters onder de [!UICONTROL Tasks] filter.
 
 * Alleen filteren op itemtype.
 
-   U kunt bijvoorbeeld [!UICONTROL Issues] om alle problemen in alle staten te bekijken ([!UICONTROL Working On] of [!UICONTROL Requested]), of [!UICONTROL Approvals] om alle het werkpunt, verzoek om toegang, timesheet, document, en proefdrukgoedkeuringen te zien.
+  U kunt bijvoorbeeld [!UICONTROL Issues] om alle problemen in alle staten te bekijken ([!UICONTROL Working On] of [!UICONTROL Requested]), of [!UICONTROL Approvals] om alle het werkpunt, verzoek om toegang, timesheet, document, en proefdrukgoedkeuringen te zien.
 
 * Alleen filteren op status.
 
-   U kunt bijvoorbeeld de opdracht [!UICONTROL Completed] om taken en kwesties te tonen die zijn voltooid. Dit omvat Persoonlijke taken maar omvat geen goedkeuringen.
+  U kunt bijvoorbeeld de opdracht [!UICONTROL Completed] om taken en kwesties te tonen die zijn voltooid. Dit omvat Persoonlijke taken maar omvat geen goedkeuringen.
 
 Ga voor meer informatie over het gebruik van filters naar [Items weergeven in het dialoogvenster [!UICONTROL Work List] in de [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-### Het werk van de toegang dat aan uw team wordt toegewezen
+### Het werk van de toegang aan uw team wordt toegewezen
 
 De [!UICONTROL Home] gebied heeft een permanente groepering gewijd aan teamverzoeken met een directe verbinding aan de de verzoekpagina van het team. Gebruik deze groepering aan mening en toegangsverzoeken voor om het even welke teams u bent.
 
@@ -118,17 +127,17 @@ Houd het werk bij dat u rechtstreeks ter goedkeuring hebt ingediend [!UICONTROL 
 
 ## Prioriteit geven aan wat belangrijk voor u is
 
-De [!UICONTROL Work List] staat u toe om werk te oppervlakten en voorrang te geven dat voor u met het [!UICONTROL My Priority Sort by] optie. Je kunt maximaal 20 objecten toevoegen aan je [!UICONTROL My Priority] lijst. Gebruik de [!UICONTROL More] om werkitems toe te voegen aan uw prioriteitslijst.
+De [!UICONTROL Work List] staat u toe om werk te oppervlakten en voorrang te geven dat voor u met het [!UICONTROL My Priority Sort by] -optie. Je kunt maximaal 20 objecten toevoegen aan je [!UICONTROL My Priority] lijst. Gebruik de [!UICONTROL More] om werkitems toe te voegen aan uw prioriteitslijst.
 
 >[!NOTE]
 >
 >Alle werkitems die zijn toegevoegd aan [!UICONTROL My Priority] zijn alleen voor u zichtbaar en niemand kan voorrang geven aan uw werk.
 
-Voor meer informatie over hoe te gebruiken [!UICONTROL My Priority], zie [Prioriteit geven aan werk in de [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+Voor meer informatie over hoe te gebruiken [!UICONTROL My Priority], zie [Prioriteit geven aan het werk in de [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
 
-## Klaar
+## Klaar maken
 
 Gebruik het rechterdeelvenster in [!UICONTROL Home] om uw werk bij te werken en te voltooien.
 
@@ -146,11 +155,11 @@ Als u een van de velden in dit gebied wilt bijwerken, klikt u gewoon op het veld
 
 ### Werk collega&#39;s bij met belangrijke informatie
 
-Snel en efficiënt communiceren met collega&#39;s van de [!UICONTROL Home] gebied. U stelt collega&#39;s vragen, informeert hen over recente updates, of antwoordt op directe commentaren. Bovendien kunt u anderen op de vooruitgang bijwerken u door maakt:
+Snel en efficiënt communiceren met collega&#39;s van de [!UICONTROL Home] gebied. U stelt collega&#39;s vragen, informeert hen over recente updates of beantwoordt directe commentaren. Bovendien kunt u anderen op de vooruitgang bijwerken u door maakt:
 
-* Het bijwerken van [!UICONTROL Commit Date]
+* De [!UICONTROL Commit Date]
 
-   <!--
+  <!--
   <note type="note">
   This is the only place you can update the Commit Date in Home.
   <br>

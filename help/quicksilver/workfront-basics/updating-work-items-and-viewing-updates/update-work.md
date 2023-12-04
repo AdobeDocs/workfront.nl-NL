@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * Vanuit het thuisgebied (voor taken en problemen)
    * Vanuit het deelvenster Samenvatting in een lijst met objecten of vanuit een tijdspad (voor taken en problemen)
 
-De informatie op deze pagina beschrijft hoe u commentaar kunt geven op Workfront-objecten en hoe u projecten, taken en problemen bijwerkt.
+In de informatie op deze pagina wordt beschreven hoe u opmerkingen kunt maken over Workfront-objecten en hoe u projecten, taken en problemen kunt bijwerken terwijl u opmerkingen toevoegt.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md). U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
 
@@ -156,13 +158,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Vragen of hoger voor problemen en documenten; controleren of hoger voor alle andere objecten</p> </td> 
+   <td> <p>Aanvragen of hoger voor problemen en documenten</p>
+   <p> Reviseren of hoger voor alle andere objecten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
    <td> <p>Toegang weergeven of bewerken voor het object waarop de update betrekking heeft</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -175,14 +178,29 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Een update toevoegen aan een werkitem
 
+Het toevoegen van een update aan een tijdelijk item hangt af van de versie van de sectie Updates die u gebruikt.
+
+U kunt updates toevoegen aan de volgende objecten:
+
+* Projecten
+* Taken
+* Problemen
+* Programma&#39;s
+* Portfolio&#39;s
+* Sjablonen
+* Sjabloontaken
+* Gebruikers
+* Timesheets
+* Teams
+* Doelen
+* Kaarten in het gebied van de kamers
+* Herhalingen
+
+### Een update toevoegen aan een werkitem in de sectie Oudere updates
+
 >[!IMPORTANT]
 >
 >De informatie op deze pagina beschrijft hoe u projecten, taken, en kwesties bijwerkt.
-
-
-Het toevoegen van een update aan een tijdelijk item hangt af van de versie van de sectie Updates die u gebruikt.
-
-### Een update toevoegen aan een werkitem in de sectie Oudere updates
 
 1. Ga naar het het werkpunt waarvoor u een update (zoals een project, een taak, of een kwestie) wilt verstrekken.
 1. Klik op de knop **Updates** sectie.
