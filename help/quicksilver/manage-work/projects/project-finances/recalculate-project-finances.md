@@ -6,9 +6,9 @@ description: De financiën worden berekend op een project aangezien de veranderi
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -78,16 +78,16 @@ Zie het artikel voor meer informatie over factureringssnelheden en inkomsten [Ov
 De belastingtarieven kunnen op de volgende niveaus veranderen:
 
 * Het systeemniveau (voor functies)\
-   Raadpleeg het artikel voor meer informatie over het maken van taakrollen met factureringssnelheden op systeemniveau [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Raadpleeg het artikel voor meer informatie over het maken van taakrollen met factureringssnelheden op systeemniveau [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Het gebruikersniveau\
-   Raadpleeg het artikel voor meer informatie over het wijzigen van de factureringssnelheidgegevens over gebruikers [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Raadpleeg het artikel voor meer informatie over het wijzigen van de factureringssnelheidgegevens over gebruikers [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Het niveau van het Bedrijf (voor baanrollen)\
-   Zie voor meer informatie [Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+  Zie voor meer informatie [Factureringstarieven voor de rol van de werknemer op bedrijfsniveau overschrijven](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Het projectniveau (voor functies)\
-   Raadpleeg het artikel voor meer informatie over het overschrijven van de roltarieven op projectniveau [Overzicht van het overschrijven van de Billing Rates van de Rol en het berekenen van Inkomsten op een project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Raadpleeg het artikel voor meer informatie over het overschrijven van de roltarieven op projectniveau [Overzicht van het overschrijven van de Billing Rates van de Rol en het berekenen van Inkomsten op een project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Bijvoorbeeld, verandert het het facturerings tarief van een gebruiker tijdens een project van $50 in $75 per uur en u wilt alle bestaande gegevens aan het oude tarief ($50 en uur) worden berekend. Wanneer de projectfinanciën echter opnieuw worden berekend, worden de inkomsten van taken die al over bestaande financiële gegevens beschikken aangepast aan de nieuwe factureringsgraad (van $75 per uur).
 
@@ -117,10 +117,10 @@ Raadpleeg het artikel voor meer informatie over het gebruik van meerdere oversch
 De kostentarieven kunnen op de volgende niveaus veranderen:
 
 * Systeemniveau (voor functies)\
-   Raadpleeg het artikel voor meer informatie over het maken van functies met kostensnelheden op systeemniveau [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Raadpleeg het artikel voor meer informatie over het maken van functies met kostensnelheden op systeemniveau [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Gebruikersniveau\
-   Raadpleeg het artikel voor meer informatie over het wijzigen van de kosteninformatie over gebruikers [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Raadpleeg het artikel voor meer informatie over het wijzigen van de kosteninformatie over gebruikers [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Wanneer de factureringstarieven op om het even welk hierboven vermeld niveau veranderen, kunt u bestaande die kosten bewaren die reeds op het project zijn berekend door de tijd te sluiten die op het project wordt geregistreerd en die aan het oude tarief wordt berekend in een facturerings verslag met een status van Factureerde. Raadpleeg het artikel voor meer informatie over het maken van factureringsrecords [Factureringsrecords maken](../../../manage-work/projects/project-finances/create-billing-records.md).
 
@@ -138,9 +138,9 @@ Als uw tarieven tijdens de levensduur van een project veranderen en u uw kosten 
 
 U kunt de financiën van projecten in Workfront van de projectpagina of van een projectlijst of rapport herberekenen.
 
-U kunt de financiën opnieuw berekenen terwijl u ze bulksgewijs bewerkt. Zie voor meer informatie de [De financiën in bulk manueel opnieuw berekenen in het Edit vakje van Projecten](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) in dit artikel.
+U kunt de financiën opnieuw berekenen terwijl u ze bulksgewijs bewerkt. Zie voor meer informatie de [De financiën handmatig opnieuw bulksgewijs berekenen](#manually-recalculate-finances-in-bulk) in dit artikel.
 
-1. Ga naar het project waar u financiën opnieuw wilt berekenen en klik op de knop **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam
+1. Ga naar het project waar u financiën opnieuw wilt berekenen en klik op de knop **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
@@ -154,14 +154,14 @@ U kunt de financiën opnieuw berekenen terwijl u ze bulksgewijs bewerkt. Zie voo
    >
    >Afhankelijk van de complexiteit van uw projecten raden we u aan geen groot aantal projecten te selecteren wanneer u de financiën in bulk herberekent voor optimale prestaties. Sommige dingen die een project te complex zouden kunnen maken zouden veelvoudige gebiedsdelen of taken of een groot aantal douanevelden kunnen zijn.
 
-1. Klikken **Herberekening van financiën**.
+1. Klikken **Herberekening van financiën**.
 
    Alle geplande kosten en inkomsten van het project worden opnieuw berekend met nieuwe informatie.
 
-   U zou een bevestiging bij de bovenkant van browser moeten ontvangen dat de financiën van het project met succes zijn herberekend.\
-   Bestaande kostenwaarden en sommige inkomstenwaarden die niet vergrendeld zijn, worden bijgewerkt om de nieuwe tarieven weer te geven.
+   U zou een bevestiging bij de bovenkant van browser moeten ontvangen dat de financiën van het project met succes zijn herberekend.
+Bestaande kostenwaarden en sommige inkomstenwaarden die niet vergrendeld zijn, worden bijgewerkt om de nieuwe tarieven weer te geven.
 
-## De financiën in bulk manueel opnieuw berekenen in het Edit vakje van Projecten {#manually-recalculate-finances-in-bulk-in-the-edit-projects-box}
+## De financiën handmatig opnieuw bulksgewijs berekenen{#manually-recalculate-finances-in-bulk}
 
 U kunt de financiën van verschillende projecten handmatig opnieuw berekenen door ze bulksgewijs te bewerken. Hierdoor worden de inkomsten van de projecten met terugwerkende kracht opnieuw berekend.
 
@@ -172,15 +172,19 @@ U kunt de financiën van verschillende projecten handmatig opnieuw berekenen doo
 De financiering van verschillende projecten handmatig herberekenen:
 
 1. Ga naar een lijst met projecten.
-1. Selecteer meerdere projecten in de lijst en klik op **Bewerken**.
+1. Selecteer meerdere projecten in de lijst en klik op de knop **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) boven aan de lijst.
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
    >Afhankelijk van de complexiteit van uw projecten raden we u aan geen groot aantal projecten te selecteren wanneer u deze in bulk bewerkt, zodat u optimale prestaties krijgt. Sommige dingen die een project te complex zouden kunnen maken zouden veelvoudige gebiedsdelen of taken of een groot aantal douanevelden kunnen zijn.
 
-1. Klikken **Instellingen** selecteert u vervolgens **Herberekening van kosten en opbrengsten**.
+1. Klikken **Herberekening van financiën**.
 
-1. Klikken **Wijzigingen opslaan**.
+   Alle geplande kosten en ontvangsten voor de geselecteerde projecten worden opnieuw berekend met nieuwe informatie.
+
+   U zou een bevestiging bij de bovenkant van browser moeten ontvangen dat de financiën van de projecten met succes zijn herberekend.
 
 ## Acties die een automatische herberekening van de financiën in gang zetten
 
@@ -188,7 +192,7 @@ De volgende acties leiden tot de financiële herberekening van projecten in Work
 
 * Taakstatus wijzigen
 * Een taak met uren verplaatsen naar een ander project
-* De status van het project wijzigen van Voltooid in een actieve status
+* De projectstatus wijzigen van Voltooid in een actieve status
 
 >[!NOTE]
 >
