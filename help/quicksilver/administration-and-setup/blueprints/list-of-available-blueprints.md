@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
+source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een 
 **[!UICONTROL Information Technology Organization Setup]**
 Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een het gebruiksgeval van de Technologie van de Informatie uit te breiden.
 
-[!BADGE Nieuw!]{type=Informative}**[!UICONTROL Inherited Instance Basics | Checklist]**
+**[!UICONTROL Inherited Instance Basics | Checklist]**
 Deze blauwdruk bevat een projectmalplaatje (of controlelijst) dat u met een korte lijst van vragen, middelen, en verbindingen voor een duidelijk inzicht in kunt herzien hoe uw instantie van Workfront is gevormd. Gebruik dit wanneer u onlangs een Workfront-exemplaar hebt geërfd en hulp nodig hebt bij het opstarten van het programma.
 
 **[!UICONTROL Integrated Campaign Execution]**
@@ -79,7 +79,7 @@ Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront professional services
 **[!UICONTROL New Hire Readiness]**
 Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront] de organisatie van de professionele diensten heeft jarenlang tijdens implementatieovereenkomsten met de teams van het Personeel gebruikt om de specialisten van HR en het huren van managers ertoe aan te zetten essentiële activiteiten te voltooien om de eerste dag van een nieuwe werknemer opmerkelijk te maken.
 
-[!BADGE Nieuw!]{type=Informative}**Offboarding | Gebruikersdashboard wordt verwijderd**
+**Offboarding | Gebruikersdashboard wordt verwijderd**
 
 Deze blauwdruk bevat één dashboard met 13 rapporten om u te helpen, de voorwerpen en de taken vinden opnieuw toewijzen of anders beheren verbonden aan een gebruiker die Workfront vertrekt. U kunt deze rapporten ook gebruiken voor een gebruiker die naar een nieuwe rol of groep gaat om zijn werk opnieuw toe te wijzen.
 
@@ -104,7 +104,7 @@ Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een 
 **[!UICONTROL Recruiting Process Tracking]**
 Deze blauwdruk bepaalt een controlelijst voor interne het aanwerven middelen om bedrijfsbelanghebbenden te helpen de vooruitgang van hoofdtelverzoeken volgen. Het is ontworpen ter ondersteuning van een beheerde looptijdniveau.
 
-[!BADGE Nieuw!]{type=Informative}**Voorbereiding van bronnenbeheer**
+**Voorbereiding van bronnenbeheer**
 
 Gebruik dit Malplaatje van Project en Rapport van de Gebruiker om u te verzekeren hebt de correcte montages en de informatie noodzakelijk om de nauwkeurige gegevens van het Beheer van het Middel te produceren.
 
@@ -126,11 +126,11 @@ Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront] de organisatie van d
 **[!UICONTROL System Administrator Maintenance Dashboard]**
 Deze blauwdruk bevat één dashboard om systeembeheerders te helpen het systeem regelmatig te onderhouden en op te schonen vanuit diverse problemen die zich in de loop der tijd zouden kunnen voordoen.
 
-[!BADGE Nieuw!]{type=Informative}**Waarderealisatie | Kernwaardedashboard**
+**Waarderealisatie | Kernwaardedashboard**
 
 Deze blauwdruk bevat één dashboard met 21 rapporten om u te helpen de Waarde van Workfront meten. Deze rapporten helpen u de voordelen van het Centraliseren van het Werk en het Beheren van de Processen van het Werk in meetbare waarden vertalen die u in tijd kunt volgen om betere resultaten te drijven.
 
-[!BADGE Nieuw!]{type=Informative}**Waarderealisatie | Het dashboard bekijken en goedkeuren**
+**Waarderealisatie | Het dashboard bekijken en goedkeuren**
 
 Deze blauwdruk bevat één dashboard met 7 rapporten om u te helpen de Waarde van Workfront realiseren. Met deze rapporten kunt u de waarden van Reviseren en goedkeuren omzetten in meetbare voordelen die u in de loop der tijd kunt bijhouden om betere resultaten te behalen.
 
