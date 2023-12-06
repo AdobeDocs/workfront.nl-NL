@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -34,9 +34,9 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
-   <p>Huidige abonnement: standaard</p>
+   <p>Nieuw abonnement: standaard</p>
    <p>of</p>
-   <p>Ouder plan: Plan</p></td> 
+   <p>Huidig plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 

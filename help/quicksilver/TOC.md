@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
+source-wordcount: '13775'
 ht-degree: 0%
 
 ---
@@ -2339,7 +2339,7 @@ ht-degree: 0%
       * [Een Anaplan-lijstitem maken op basis van een Adobe Workfront-campagneverzoek](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Een Anaplan-begrotingstoewijzing toepassen op een Adobe Workfront-campagneverzoek of -campagneproject](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
-   * [Workfront Proof](workfront-proof/workfront-proof.md)
+   * [Workfront Proof: artikelindex](workfront-proof/workfront-proof.md)
    * Aan de slag met Workfront Proof {#get-started-wf-proof}
       * [Aan de slag met Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Workflowvoorbeelden {#workflow-examples}

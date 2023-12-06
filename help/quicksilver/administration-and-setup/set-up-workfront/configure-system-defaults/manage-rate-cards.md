@@ -7,9 +7,10 @@ description: Met tariefkaarten kunt u meerdere factureringssnelheden per rol def
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -34,8 +35,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Ouder plan: [!UICONTROL Plan]</p>
-       <p>Huidig plan: [!UICONTROL Standard]</p></td> 
+   <td><p>Nieuw plan: [!UICONTROL Standard] </p>
+       <p>of</p> 
+       <p>Huidig plan: [!UICONTROL Plan] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 

@@ -3,20 +3,20 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront Proof
-description: Meer informatie over het gebruik van Workfront Proof.
+title: 'Workfront Proof: artikelindex'
+description: Leer hoe u het zelfstandige Workfront-product gebruikt.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
-# Workfront Proof
+# Workfront Proof: artikelindex
 
 >[!IMPORTANT]
 >
@@ -31,6 +31,5 @@ Deze sectie bevat de volgende subsecties:
 * [Meldingen en herinneringen controleren](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
 * [E-mailwaarschuwingen](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [Gebruikers en contactpersonen beheren in [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-* [[!DNL Workfront Proof] mobiel](../workfront-proof/wp-mobile/wp-mobile.md)
 * [[!DNL Workfront Proof] technologiehoek](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] integratie](../workfront-proof/wp-integrations/wp-integrations.md)

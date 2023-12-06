@@ -5,9 +5,9 @@ description: De bovenste navigatiebalk, die boven aan het scherm wordt weergegev
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Ga voor meer informatie over zoeken naar [Zoeken [!DNL Adobe Workfront]](../../w
 
 De **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) opent de [!UICONTROL Main Menu], waarmee u naar een ander gebied van Workfront kunt navigeren.
 
-De opties die beschikbaar zijn in het dialoogvenster [!UICONTROL Main Menu] afhankelijk zijn van:
+De opties die beschikbaar zijn in de [!UICONTROL Main Menu] afhankelijk zijn van:
 
-* **Layoutsjabloonconfiguraties**: Om te leren hoe een [!DNL Workfront] de beheerder kan [!UICONTROL Main Menu] van een lay-outsjabloon, zie [De [!UICONTROL Main Menu] een lay-outsjabloon gebruiken](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Layoutsjabloonconfiguraties**: Meer informatie over een [!DNL Workfront] de beheerder kan [!UICONTROL Main Menu] van een lay-outsjabloon, zie [De [!UICONTROL Main Menu] een lay-outsjabloon gebruiken](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 * **Licentietype**: De standaardconfiguraties voor verschillende licentietypen leren, raadpleegt u [De navigatie voor een gebruiker van een revisielicentie begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) of [De navigatie voor een [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
@@ -88,7 +88,7 @@ Met elk pictogram gaat u naar een ander gebied van het nieuwe [!DNL Adobe Workfr
    <td> 
     <ul> 
      <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Gebruik de [!UICONTROL Home] gebied</a></li> 
-     <li>[!UICONTROL Portfolios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio-beheer</a></li> 
+     <li>[!UICONTROL Portfolios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Beheer van Portfolio's</a></li> 
      <li>[!UICONTROL Programs]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Programma's maken en beheren </a></li> 
      <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projecten</a></li> 
      <li>[!UICONTROL Reports]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporten</a></li> 
@@ -107,7 +107,7 @@ Met elk pictogram gaat u naar een ander gebied van het nieuwe [!DNL Adobe Workfr
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Overzicht van uitgebreide analyses</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overzicht</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Overzicht van de functie Scenario Planner</a></li> 
-     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proef</a></li> 
+     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proef: artikelindex</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -121,11 +121,11 @@ Onder deze opties in het dialoogvenster [!UICONTROL Main Menu], hebt u toegang t
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Klikken <b>[!UICONTROL Setup]</b> neemt u naar [!UICONTROL Setup] gebied waar u verschillende aspecten van uw kunt vormen [!DNL Workfront] account. Afhankelijk van uw toegangsmontages, wat u kunt vormen kan beperkt zijn.</p> <p>Voor meer informatie over de [!UICONTROL Setup] gebied, zie <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Beheer en installatie</a>.</p> </td> 
+   <td> <p>Klikken <b>[!UICONTROL Setup]</b> neemt u naar [!UICONTROL Setup] gebied waar u verschillende aspecten van uw [!DNL Workfront] account. Afhankelijk van uw toegangsmontages, wat u kunt vormen kan beperkt zijn.</p> <p>Voor meer informatie over de [!UICONTROL Setup] gebied, zie <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Beheer en installatie</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Help]</p> </td> 
-   <td> <p>Klikken <b>[!UICONTROL Help]</b> neemt u [!DNL Adobe Experience League] waar u tot hulpartikelen kunt toegang hebben, opleiding vinden, een kaartje van de klantensteun voorleggen, etc.</p> <p>Voor meer informatie over [!DNL Experience League] of andere methoden om hulp te krijgen, raadpleegt u <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Je snelle gids voor hulp in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Klikken <b>[!UICONTROL Help]</b> neemt u [!DNL Adobe Experience League] waar u tot hulpartikelen kunt toegang hebben, opleiding vinden, een kaartje van de klantensteun voorleggen, etc.</p> <p>Voor meer informatie over [!DNL Experience League] of andere manieren om hulp te krijgen, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Je snelle gids voor hulp in Adobe Workfront</a>.</p> </td> 
   </tr>
 
 <tr> 

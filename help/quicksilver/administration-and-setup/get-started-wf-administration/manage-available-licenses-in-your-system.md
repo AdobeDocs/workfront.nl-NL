@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,11 +52,11 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
 1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
 
-   Voor meer informatie over de licenties die op deze pagina worden vermeld, raadpleegt u [Overzicht van licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Ga voor meer informatie over de licenties die op deze pagina worden vermeld naar [Overzicht van licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
-   >Bewijslicenties zijn alleen beschikbaar voor klanten die de betaalde Workfront Proof Add-on hebben aangeschaft naast hun Workfront-licentie. Voor informatie over deze invoegtoepassing raadpleegt u [Workfront Proof](../../workfront-proof/workfront-proof.md).
+   >Bewijslicenties zijn alleen beschikbaar voor klanten die de betaalde Workfront Proof Add-on hebben aangeschaft naast hun Workfront-licentie. Voor informatie over deze invoegtoepassing raadpleegt u [Workfront Proof: artikelindex](../../workfront-proof/workfront-proof.md).
 
 1. (Voorwaardelijk) Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep toevoegen** voegt u een Home-groep toe aan uw systeem, zoals wordt uitgelegd in de sectie [Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties](#add-or-remove-a-home-group-to-the-licenses-page) in dit artikel.
 
@@ -76,6 +76,7 @@ Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront
 >[!NOTE]
 >
 >Met Workfront kunt u meer licenties voor Workfront Goals toewijzen die u hebt aangeschaft. Als u echter meer licenties toewijst dan het Workfront Goals-contract toestaat, neemt een Workfront-accountmanager contact met u op om u te laten weten dat u uw contractnummer hebt overschreden.
+>
 
 <!--
 If an organization has other paid add-on products, their license information also displays here. If the organization doesn't have any paid add-on products, nothing displays here. (Drafted this because not sure this is accurate: Scenario Planner is an add-on product and its licenses are not displayed there.)
@@ -84,10 +85,11 @@ If an organization has other paid add-on products, their license information als
 >[!TIP]
 >
 >De gebruikers zonder administratieve toegang kunnen een rapport van de Groep gebruiken om vergunningstelling te bekijken. Maak op het tabblad Rapport een nieuw groepsrapport en voeg de volgende kolommen toe:>
->* Limiet licentietype: Arbeidslimiet
->* Limiet licentietype: Plannerlimiet
+>* Limiet voor licentietype: limiet voor werknemers
+>* Limiet licentietype: limiet planner
 >
 >Ga voor meer informatie over het maken van een rapport naar [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>
 
 ## Informatie weergeven over maandelijkse toegewezen bewijzen en documenten
 
@@ -99,13 +101,13 @@ Voor alle niet-betaalde Workfront-licenties geldt een beperking van het aantal b
 
 De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement dat u gebruikt. U kunt uw maandelijkse toewijzing bekijken in Opstelling > Vergunningen.
 
-Voor meer informatie over de beperkingen van bewijsvoering en beslissingen over documenten raadpleegt u [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Zie voor meer informatie over de beperkingen van bewijsmiddelen en beslissingen over documenten [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 ![](assets/monthly-decision-allotment.png)
 
 ## Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties {#add-or-remove-a-home-group-to-the-licenses-page}
 
-Een Business of Enterprise Workfront Plan is vereist om deze functie te kunnen gebruiken. Voor meer informatie over de verschillende beschikbare plannen raadpleegt u [Workfront-plannen.](https://www.workfront.com/plans)
+Een Business of Enterprise Workfront Plan is vereist om deze functie te kunnen gebruiken. Zie voor meer informatie over de verschillende beschikbare plannen [Workfront-plannen.](https://www.workfront.com/plans)
 
 Elke gebruiker kan aan slechts één Groep van het Huis worden toegewezen. Workfront biedt een aantal licenties voor groepen door te berekenen hoeveel licenties zijn toegewezen en momenteel worden gebruikt in elke Home Group.
 
@@ -116,7 +118,6 @@ Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep
 >* Om vergunningen met huisgroepen effectief te beheren, adviseren wij vestiging specifieke Groepen van het Huis voor bedrijfseenheden alvorens het maximum aantal vergunning bij te werken. Zie voor meer informatie [Overzicht van thuisgroepen](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
 >* U kunt alleen groepen op hoofdniveau toevoegen als thuisgroepen, niet als subgroepen. Als een gebruiker een subgroep heeft die als hun Groep van het Huis wordt toegewezen, wordt hun vergunning toegevoegd aan de vergunningstelling voor de top-level groep boven die subgroep.
 >
-
 
 Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties:
 

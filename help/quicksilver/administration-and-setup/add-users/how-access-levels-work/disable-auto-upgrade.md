@@ -9,10 +9,10 @@ description: Elke gebruiker moet een toegangsniveau hebben om zich aan te melden
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ U kunt de optie voor automatisch bijwerken uitschakelen in het installatiegebied
 >[!IMPORTANT]
 >
 >Wanneer de functie is uitgeschakeld, wordt niet-betaalde gebruikers die het toegewezen aantal beslissingen overschrijden, niet automatisch bijgewerkt.
-
 
 ## Toegangsvereisten
 
@@ -42,9 +41,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Huidige abonnement: standaard
+   <td>Nieuw abonnement: standaard
    <p>of</p>
-   <p>Ouder plan: Plan</p></td> 
+   <p>Huidig plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
