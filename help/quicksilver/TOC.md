@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 9d273023179c3f650b043be2de8f6bd15febf130
+source-git-commit: 27a4305826a6e9516d110c5bf7a82d2e465c58c8
 workflow-type: tm+mt
-source-wordcount: '13779'
+source-wordcount: '13776'
 ht-degree: 0%
 
 ---
@@ -833,7 +833,7 @@ ht-degree: 0%
       * [Pagina&#39;s vastzetten om uw werkruimte aan te passen](workfront-basics/the-new-workfront-experience/pin-pages.md)
       * [Aangepaste secties maken](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Adobe Workfront Help openen](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      * [Objecten in Adobe Workfront begrijpen](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+      * [[!DNL Adobe Workfront] overzicht van objecten](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [De navigatie voor een gebruiker van een werkvergunning begrijpen](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [De navigatie voor een gebruiker van een revisielicentie begrijpen](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Overzicht van de project-, taak- en emissiedata in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)

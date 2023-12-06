@@ -7,16 +7,16 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Overzicht van ondersteunde bestandstypen voor proefdrukken en grootten
 
-U kunt verschillende bestandstypen delen en reviseren met uw revisoren, zelfs als de software waarmee de bestanden zijn gemaakt (zoals Photoshop of Illustrator) niet op hun computer is geïnstalleerd. We ondersteunen statische bestanden, video, audio, webvastleggingen en interactieve bestandstypen van maximaal 4 GB.
+U kunt verschillende bestandstypen delen en reviseren met uw revisoren, zelfs als de software waarmee de bestanden zijn gemaakt (zoals Photoshop of Illustrator) niet op hun computer is geïnstalleerd. We ondersteunen statische, video-, audio- en webopnamen en interactieve bestandstypen van maximaal 4 GB.
 
 ## Bestandsgrootten
 
@@ -75,10 +75,10 @@ Workfront heeft de volgende limieten:
 * DCS - Kodak Digital Camera System
 * DCM - DICOM
 * DCX - Verfpenseel
-* DNG - digitaal negatief Adobe
+* DNG - Adobe digitaal negatief
 * DOC - Microsoft Word-document
 * DOCX - Microsoft Word-document 2007
-* DRW - DRaWing
+* DRW - DR-wijk
 * DWF - AutoDesk-vector
 * ECW - Verbeterde gecomprimeerde golflengte
 * EMF - Windows-metabestand
@@ -105,7 +105,7 @@ Workfront heeft de volgende limieten:
 * JPM - JPEG 2000 Deel 6
 * JPX - JPEG 2000 Deel 2
 * KDC - Kodak Digital Camera
-* Mac - MacPaint
+* MAC - MacPaint
 * MIF - MapInfo Interchange
 * MNG - Meerdere netwerkafbeeldingen
 * MO:DCA - Gemengd object: Documentinhoudarchitectuur
@@ -123,7 +123,7 @@ Workfront heeft de volgende limieten:
 * PCL6 - Printer Command Language
 * PCT - Macintosh Pict
 * PCX, verfpenseel
-* PDF - Adobe Portable-documentbestand
+* PDF - Portable Document-bestand Adoben
 * PGM - Portable Bitmap Utilities
 * PLT - HPGL Plotter
 * PNG - Portable Network Graphics
@@ -131,7 +131,7 @@ Workfront heeft de volgende limieten:
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-presentatie
 * PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * PSP - Verfshop Pro
 * PTK - PTOCA
 * RAS - SUN Raster
@@ -157,7 +157,7 @@ Workfront heeft de volgende limieten:
 * WBMP - Wireless Bitmap
 * WFX - WinFax
 * WMF - Windows-metabestand
-* WMZ - gecomprimeerd Windows-metabestand
+* WMZ - Gecomprimeerd Windows-metabestand
 * WPG - Vector WordPerfect-afbeelding
 * XBM - XBitMap
 * XLS - Microsoft Excel-werkblad
@@ -189,10 +189,10 @@ Workfront heeft de volgende limieten:
 * AIT - Adobe Illustrator-sjabloon
 * DOC - Microsoft Word-document
 * DOCX - Microsoft Word-document
-* PDF - Adobe Portable-documentbestand
+* PDF - Portable Document-bestand Adoben
 * PPT - PowerPoint-presentatie
 * PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * RTF, RTF, RTF-tekst
 * XLS - Microsoft Excel-werkblad
 * XLSX - Microsoft Excel-werkblad 2007
@@ -237,7 +237,7 @@ Workfront heeft de volgende limieten:
 
 ## Web Capture
 
-U kunt statische webpagina-proefdrukken maken. Zie voor meer informatie [Een statische proefdruk maken voor een website of andere webinhoud](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) en [Een statisch proefexemplaar van een website maken met Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+U kunt statische webpaginaproeven maken. Zie voor meer informatie [Een statische proefdruk maken voor een website of andere webinhoud](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) en [Een statisch proefexemplaar van een website maken met Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Bestanden overslaan
 
@@ -249,4 +249,4 @@ Zie voor meer informatie [Overzicht van proefdrukken van interactieve inhoud](..
 
 ## InDesign- en Quark-bestanden
 
-InDesign- en Quark-bestanden worden niet ondersteund, omdat het geen zelfstandige bestandstypen zijn en omdat ze verwijzen naar een groot aantal andere bestanden, zoals afbeeldingen en lettertypen. De uitvoer van deze bestandstypen is afhankelijk van de uitvoerinstellingen. We raden klanten aan InDesign- en Quark-bestanden op te slaan als een PDF en de PDF te uploaden.
+InDesign- en Quark-bestanden worden niet ondersteund, omdat het geen zelfstandige bestandstypen zijn en omdat er wordt verwezen naar een groot aantal andere bestanden, zoals afbeeldingen en lettertypen. De uitvoer van deze bestandstypen is afhankelijk van de uitvoerinstellingen. We raden klanten aan InDesign- en Quark-bestanden op te slaan als een PDF en de PDF te uploaden.

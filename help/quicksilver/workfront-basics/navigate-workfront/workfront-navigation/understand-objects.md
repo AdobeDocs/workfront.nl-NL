@@ -1,18 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: Objecten begrijpen in [!DNL Adobe Workfront]
-description: Objecten begrijpen in [!DNL Adobe Workfront]
+title: "[!DNL Adobe Workfront] overzicht van objecten"
+description: "De informatie die u weergeeft in [!DNL Adobe Workfront] wordt voorgesteld door voorwerpen die in [!DNL Workfront] database. De objecten zijn de drijvende kracht achter de informatie in [!DNL Workfront]. Meer informatie over deze objecten vindt u in dit artikel."
 feature: Get Started with Workfront
+author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: 0d167d78477b746d35209b315f0a7903b7269d1b
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '2015'
 ht-degree: 0%
 
 ---
 
-# Objecten begrijpen in [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront] overzicht van objecten
 
 <!--
 <***Linked to several articles, do not remove/ change. 
@@ -60,11 +61,13 @@ Voor een volledige lijst met objecten in [!DNL Workfront], zie de [API Explorer]
 
 ## Objectnamen aanpassen
 
-Als [!DNL Workfront] beheerder, kunt u objectnamen aanpassen in [!DNL Workfront] door een  [!UICONTROL Layout Template].
+Als [!DNL Workfront] beheerder, kunt u objectnamen aanpassen in [!DNL Workfront] door een [!UICONTROL Layout Template].
 
 Voor meer informatie over het aanpassen van objectnamen met een  [!UICONTROL Layout Template], zie [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Nadat u een lay-outmalplaatje aanpast en u het aan gebruikers toewijst, zien die gebruikers de aangepaste namen voor de voorwerpen. De gebruikers die aan het lay-outmalplaatje zijn toegewezen zien niet meer de standaardnamen voor de voorwerpen overal in de Webtoepassing.
+
+Als bijvoorbeeld het grotere werk in uw organisatie bekend staat als een &#39;Betrokkenheid&#39;, kunt u de naam &#39;[!UICONTROL Project]&quot; met &quot;Betrokkenheid&quot;. Uw [!DNL Workfront] interface toont &#39;Betrokkenheid&#39; in plaats van &#39;[!UICONTROL Project]&#39; overal waar de naam &#39;[!UICONTROL Project]&#39; weergegeven.
 
 >[!NOTE]
 >
@@ -100,7 +103,6 @@ Als [!DNL Workfront] beheerder, kunt u de namen van de volgende voorwerpen aanpa
   **[!UICONTROL Initiatives], [!UICONTROL scenarios], en [!UICONTROL plans] zijn alleen beschikbaar als uw bedrijf [!DNL Workfront Scenario Planner]. Voor informatie over de [!DNL Scenario Planner], zie [Aan de slag met de [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
 
 
-Als bijvoorbeeld het grotere werk in uw organisatie bekend staat als een &#39;Betrokkenheid&#39;, kunt u de naam &#39;[!UICONTROL Project]&quot; met &quot;Betrokkenheid&quot;. Uw [!DNL Workfront] interface toont &#39;Betrokkenheid&#39; in plaats van &#39;[!UICONTROL Project]&#39; overal waar de naam &#39;[!UICONTROL Project]&#39; weergegeven.
 
 Voor meer informatie over hoe u objectnamen kunt aanpassen met  [!UICONTROL Layout Templates], zie [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -138,7 +140,7 @@ Houd rekening met het volgende wanneer u objectnamen aanpast in [!DNL Workfront]
 
 * Er kunnen fouten optreden in het weergeven van systemen met een stilistische of grammaticale werking. Als u bijvoorbeeld de naam &#39;[!UICONTROL Issue]&#39; aan &quot;Verzoek&quot;en u ziet overal in het systeem de uitdrukking &quot;Een verzoek&quot;, dit functioneert zoals bedoeld en zou niet als insect moeten worden beschouwd.
 * Uw aangepaste namen voor de objecten kunnen niet worden vertaald. Alleen de [!DNL Workfront] de standaardnamen kunnen in de gesteunde talen worden vertaald. Voor meer informatie over talen die worden ondersteund in [!DNL Workfront], zie [Ondersteunde talen in [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md). De naamvelden van aangepaste objecten ondersteunen vreemde tekens, zodat u in elke taal terminologie kunt invoeren.
-* Wanneer u objectnamen aanpast met een  [!UICONTROL Layout Template], adviseren wij u uw  [!UICONTROL Layout Templates] rond uw bedrijfseenheden (teams of groepen).\
+* Wanneer u objectnamen aanpast met een  [!UICONTROL Layout Template], adviseren wij u uw  [!UICONTROL Layout Templates] op basis van uw bedrijfseenheden (teams of groepen).\
    Wij adviseren dat u namen gebruikt die duidelijk door de gebruikers van deze bedrijfseenheden worden begrepen, om verwarring te vermijden.
 * E-mailmeldingen en geleverde rapporten bevatten altijd objectnamen zoals gedefinieerd door  [!UICONTROL Layout Template] van de gebruiker die de e-mail genereert. Uw gebruikers moeten voorbereid zijn om objectnamen in hun e-mailberichten te zien die niet gerelateerd zijn aan hun groep of team, als ze e-mailmeldingen ontvangen van gebruikers in andere teams en groepen.\
    Als [!DNL Workfront] beheerder, raadt gebruikers aan de pictogrammen die aan elk object zijn gekoppeld, op te geven. De pictogrammen blijven consistent tussen verschillende objectnamen en zijn consistent met het standaardobject, zoals dat in de database wordt weergegeven. Voor een lijst van allen [!DNL Workfront] pictogrammen die aan objecten zijn gekoppeld, zie [Objectpictogrammen](#object-icons).
@@ -205,8 +207,6 @@ Voor meer informatie over het uitvoeren van standaard en geavanceerde zoekopdrac
 
 Kennis van de hiërarchie en de onderlinge afhankelijkheid van objecten is uiterst belangrijk voordat u rapporten gaat samenstellen in [!DNL Workfront]. Rapporten zijn objectspecifiek. U moet het correcte voorwerp voor uw rapport selecteren alvorens u de gegevens kunt tonen die u wilt.
 
-Afhankelijk van welk voorwerp u voor uw rapport selecteerde, kunt u tot slechts die voorwerpen toegang hebben die direct met het voorwerp van het rapport verbonden zijn.
-
 >[!IMPORTANT]
 >
 >U kunt alleen het object rapporteren dat u selecteert en de bovenliggende objecten in hetzelfde rapport. U kunt geen informatie over de kindvoorwerpen in een ouderobjecten rapport hebben. Bijvoorbeeld, kunt u projectinformatie in een taakrapport tonen, maar niet taakinformatie in een projectrapport.
@@ -215,13 +215,15 @@ U kunt alle objecten in de database rapporteren met de geopende API. Voor een vo
 
 >[!NOTE]
 >
->Als u de namen van uw voorwerpen gebruikend een lay-outmalplaatje hebt aangepast, zijn de namen voor het voorwerp in de rapportbouwer ook aangepast. Zorg ervoor u weet welke voorwerpen zijn aangepast en zoek de aangepaste naam in de rapportbouwer. Voor meer informatie over welke objecten aangepaste namen kunnen hebben in [!DNL Workfront], zie *[Objectnamen die kunnen worden aangepast met een  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-layout-template).*
->Als u de tekstmodus in uw rapporten gebruikt, zijn de namen van de objecten in tekstmodusexpressies de standaardnamen in [!DNL Workfront]en niet de aangepaste objectnamen. Voor meer informatie over het gebruiken van tekstwijze in rapporten, zie [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+> * Als u de namen van uw voorwerpen gebruikend een lay-outmalplaatje hebt aangepast, zijn de namen voor het voorwerp in de rapportbouwer ook aangepast. Zorg ervoor u weet welke voorwerpen zijn aangepast en zoek de aangepaste naam in de rapportbouwer. Voor meer informatie over welke objecten aangepaste namen kunnen hebben in [!DNL Workfront], zie [Objectnamen die kunnen worden aangepast met een  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-layout-template) in dit artikel.
+> * Als u de tekstmodus in uw rapporten gebruikt, zijn de namen van de objecten in tekstmodusexpressies de standaardnamen in [!DNL Workfront]en niet de aangepaste objectnamen. Voor meer informatie over het gebruiken van tekstwijze in rapporten, zie [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Ga voor meer informatie over het samenstellen van een rapport naar [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
 Zie voor meer informatie over onze API [API Explorer](../../../wf-api/general/api-explorer.md).
 
-U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rapportbouwer in [!DNL Workfront] webtoepassing:
+### Objecten beschikbaar voor rapporten
+
+U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rapportbouwer in [!DNL Workfront] webtoepassing. Ingesprongen opsommingstekens geven meer informatie over het object en vertegenwoordigen geen aanvullende objecten.
 
 * [!UICONTROL Project]
 * [!UICONTROL Task]
@@ -232,17 +234,12 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL Approval]
 * [!UICONTROL Approval Process]
 * [!UICONTROL Assignment]
-<!--this is no longer available: * [!UICONTROL Backlog Work Item]\
-   Displays tasks or issues on the agile backlog. For more information about the agile backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).-->
-
 * [!UICONTROL Baseline]
 * [!UICONTROL Baseline Task]
 * [!UICONTROL Billing Record]
 * [!UICONTROL Budgeted Hour]
-
-  Dit is het [!UICONTROL Budgeted Hours], zoals deze in de oudere, verouderde hulpmiddelen voor middelenbeheer worden weergegeven.
-
-  The &quot;Bud. Uren&quot; in het veld [!UICONTROL Budgeted Hour] het rapport verwijst naar de uren die in de begroting zijn opgenomen voor functies in het [!UICONTROL Resource Planner]. Zie voor meer informatie [Begrijpen [!UICONTROL Budgeted Labor Cost] en [!UICONTROL Budgeted Hours] voor projecten](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+   * Dit is het [!UICONTROL Budgeted Hours], zoals deze in de oudere, verouderde hulpmiddelen voor middelenbeheer worden weergegeven.
+   * The &quot;Bud. Uren&quot; in het veld [!UICONTROL Budgeted Hour] het rapport verwijst naar de uren die in de begroting zijn opgenomen voor functies in het [!UICONTROL Resource Planner]. Zie voor meer informatie [Begrijpen [!UICONTROL Budgeted Labor Cost] en [!UICONTROL Budgeted Hours] voor projecten](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Calendar Event]
 * [!UICONTROL Company]
@@ -250,8 +247,8 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL Dashboard]
 * [!UICONTROL Document]
 * [!UICONTROL Document Approval]
-* [!UICONTROL Document Version]\
-   U kunt informatie weergeven over de versie van het document, het document waaraan de versie is gekoppeld, wie de versie heeft gemaakt en de gebruiker die de proefdruk heeft gemaakt op de documentversie, als deze bestaat (Maker van proef).
+* [!UICONTROL Document Version]
+   * U kunt informatie weergeven over de versie van het document, het document waaraan de versie is gekoppeld, wie de versie heeft gemaakt en de gebruiker die de proefdruk heeft gemaakt op de documentversie, als deze bestaat (Maker van proef).
 * [!UICONTROL Email Template]
 * [!UICONTROL Expense]
 * [!UICONTROL Expense Type]
@@ -259,44 +256,31 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL Favorite]
 * [!UICONTROL Filter]
 * [!UICONTROL Goal]
-
-  U kunt een rapport voor strategische doelstellingen bouwen of u kunt op doel betrekking hebbende informatie in een projectrapport tonen wanneer de projecten met doelstellingen als doelactiviteiten worden geassocieerd. U kunt strategische doelen maken en alleen projecten verbinden als uw organisatie een [!DNL Workfront Goals] licentie. Voor informatie over [!DNL Workfront Goals], zie [[!DNL Workfront Goals] overzicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Voor informatie over het verbinden van projecten met strategische doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-
-  >[!TIP]
-  >
-  >U kunt niet over projectdoelstellingen rapporteren die met een [!UICONTROL Business Case]. Voor informatie over projectdoelstellingen versus strategische doelstellingen, zie [Verklarende woordenlijst [!DNL Adobe Workfront] terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   * U kunt een rapport voor strategische doelstellingen bouwen of u kunt op doel betrekking hebbende informatie in een projectrapport tonen wanneer de projecten met doelstellingen als doelactiviteiten worden geassocieerd. U kunt strategische doelen maken en alleen projecten verbinden als uw organisatie een [!DNL Workfront Goals] licentie. Voor informatie over [!DNL Workfront Goals], zie [[!DNL Workfront Goals] overzicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Voor informatie over het verbinden van projecten met strategische doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+*U kunt niet over projectdoelstellingen rapporteren die met een worden geassocieerd [!UICONTROL Business Case]. Voor informatie over projectdoelstellingen versus strategische doelstellingen, zie [Verklarende woordenlijst [!DNL Adobe Workfront] terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Group]
 * [!UICONTROL Grouping]
 * [!UICONTROL Hour Type]
 * [!UICONTROL Initiative]
-
-  U kunt alleen een rapport maken voor initiatieven die de onderliggende objecten van een plan zijn als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Zie voor informatie over initiatieven [Overzicht van initiatieven in het [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
-
+   * U kunt alleen een rapport maken voor initiatieven die de onderliggende objecten van een plan zijn als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Zie voor informatie over initiatieven [Overzicht van initiatieven in het [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
 * Rol initiatieftaak
-
-  U kunt een rapport voor de baanrollen verbonden aan de initiatieven in een plan slechts bouwen als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over het creëren van initiatieven en het associëren van hen met baanrollen, zie [Initiatieven maken en bewerken in het dialoogvenster [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
-
+   * U kunt een rapport voor de baanrollen verbonden aan de initiatieven in een plan slechts bouwen als uw bedrijf een [!DNL Workfront Scenario Planner] licentie. Voor informatie over het creëren van initiatieven en het associëren van hen met baanrollen, zie [Initiatieven maken en bewerken in het dialoogvenster [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]
 * [!UICONTROL Journal Entry]
-
-  U kunt de bijgehouden systeemupdates rapporteren in het dialoogvenster [!UICONTROL Updates] gebied met objecten zoals taken, projecten, problemen, enz. Zie voor meer informatie [Verslag over de [!UICONTROL Updates] gebied](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * U kunt de bijgehouden systeemupdates rapporteren in het dialoogvenster [!UICONTROL Updates] gebied met objecten zoals taken, projecten, problemen, enz. Zie voor meer informatie [Verslag over de [!UICONTROL Updates] gebied](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]
 * [!UICONTROL Milestone Path]
 * [!UICONTROL Note] of [!UICONTROL Updates]
-
-  >[!NOTE]
-  >
-  >U kunt opmerkingen rapporteren die door individuele gebruikers zijn toegevoegd.
+   * U kunt opmerkingen rapporteren die door individuele gebruikers zijn toegevoegd.
 
 * [!UICONTROL Parameter] (of [!UICONTROL Custom Field])
 * [!UICONTROL Parameter Group] (of [!UICONTROL Section Break])
-  <!--this is no longer in the UI: * [!UICONTROL Portal Profile] (this displays information that has been deprecated)-->
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
 * [!UICONTROL Project] ([!UICONTROL Financial Data])
@@ -305,10 +289,10 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
   >
   >Financiële informatie wordt ingevuld in [!UICONTROL Project] ([!UICONTROL Financial Data]) alleen worden gerapporteerd wanneer de gegevens die ermee verband houden jonger zijn dan 5 jaar. Als bijvoorbeeld in januari 2015 een functie werd toegewezen aan een taak en vandaag september 2021, dan is een financieel dossier zoals de [!UICONTROL Allocation Date] voor de rol job niet wordt gevuld in het dialoogvenster [!UICONTROL Project (Financial Data)] verslag.
 
-* [!UICONTROL Proof Approval]\
-   Hiermee kunt u verschillende informatie over de goedkeuring van het bewijs bekijken, zoals: het bewijs dat ter goedkeuring is ingediend, informatie over de [!UICONTROL Approver], informatie over de aanvrager (als de aanvrager een vergunning heeft [!DNL Workfront] gebruiker), versiegegevens, de proefdruk-id en de aanmaakdatum van de proefdruk.\
-   [!UICONTROL Proof Approval] rapporten bevatten alleen proefdrukken die beschikbaar zijn op de gebieden Mijn werk van gebruikers waar nog geen beslissingen zijn genomen.\
-   Goedkeuringen van proefdrukken worden toegewezen in [!DNL Workfront] zoals beschreven [Gebruikers aan een proefdruk toevoegen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Een proefdruk delen binnen [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+* [!UICONTROL Proof Approval]
+   * Hiermee kunt u verschillende informatie over de goedkeuring van het bewijs bekijken, zoals: het bewijs dat ter goedkeuring is ingediend, informatie over de [!UICONTROL Approver], informatie over de aanvrager (als de aanvrager een vergunning heeft [!DNL Workfront] gebruiker), versiegegevens, de proefdruk-id en de aanmaakdatum van de proefdruk.\
+      [!UICONTROL Proof Approval] rapporten bevatten alleen proefdrukken die beschikbaar zijn in Mijn werk-gebieden van gebruikers waar nog geen beslissingen zijn genomen.\
+   * Goedkeuringen van proefdrukken worden toegewezen in [!DNL Workfront] zoals beschreven [Gebruikers aan een proefdruk toevoegen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Een proefdruk delen binnen [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * [!UICONTROL Queue]
 * [!UICONTROL Queue Topic]
@@ -324,8 +308,7 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL Template]
 * [!UICONTROL Template Task]
 * [!UICONTROL Time Off]
-
-  U kunt melding maken van de time-out van een gebruiker, zoals deze door de gebruiker in het profiel wordt aangegeven.
+   * U kunt melding maken van de time-out van een gebruiker, zoals deze door de gebruiker in het profiel wordt aangegeven.
 
 * [!UICONTROL Timesheet]
 * [!UICONTROL Timesheet Profile]
@@ -333,11 +316,11 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL User Approval]
 * [!UICONTROL User Delegation]
 
-  U kunt rapporteren over gebruikers die zijn gedelegeerd om taken en problemen van anderen uit te voeren terwijl ze buiten het kantoor zijn. Dit rapport toont de gebruiker die uit het bureau evenals de gebruiker is die hun taken vervult terwijl zij uit zijn.
+   * U kunt rapporteren over gebruikers die zijn gedelegeerd om taken en problemen van anderen uit te voeren terwijl ze buiten het kantoor zijn. Dit rapport toont de gebruiker die uit het bureau evenals de gebruiker is die hun taken vervult terwijl zij uit zijn.
 
 * [!UICONTROL Users Decisions]
 
-  U kunt rapporteren hoeveel besluiten gebruikers hebben genomen op proefdrukken en documenten in de huidige maand.
+   * U kunt rapporteren hoeveel besluiten gebruikers hebben genomen op proefdrukken en documenten in de huidige maand.
 
 * [!UICONTROL View]
 * [!UICONTROL Work Item] (dit levert een rapport op voor taken en kwesties)
