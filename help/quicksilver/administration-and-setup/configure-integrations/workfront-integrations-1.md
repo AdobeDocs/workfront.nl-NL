@@ -4,21 +4,21 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: U kunt Adobe Workfront integreren met toepassingen van derden. Integraties kunnen het nut van Workfront uitbreiden en het aanpassen aan de behoeften van uw organisatie.
-author: Becky, Caroline
+description: U kunt Adobe Workfront integreren met toepassingen van derden en met andere toepassingen [!DNL Adobe] producten. Integraties kunnen het nut van Workfront uitbreiden en het aanpassen aan de behoeften van uw organisatie. Meer informatie over de verschillende typen integratie vindt u in dit artikel.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] integratie
 
-U kunt Adobe Workfront integreren met toepassingen van derden en met andere toepassingen [!DNL Adobe] producten. Integraties kunnen het nut van Workfront uitbreiden en het aanpassen aan de behoeften van uw organisatie.
+U kunt [!DNL Adobe Workfront] met toepassingen van derden en andere [!DNL Adobe] producten. Integraties kunnen het nut van Workfront uitbreiden en het aanpassen aan de behoeften van uw organisatie.
 
 De integratie voor [!DNL Workfront] vallen onder de volgende categorieën:
 
@@ -44,13 +44,13 @@ Volg de volgende workflow om aan de slag te gaan met ingebouwde (native) integra
 
 1. **Identificeer uw technologiebeheerder**
 
-   Identificeer de technologiebeheerder van uw organisatie voor de toepassing u met wilt integreren [!DNL Workfront]. Als u bijvoorbeeld wilt integreren met [!DNL Jira], moet u verbinding maken met de [!DNL Jira] beheer en betref hen bij om het even welke configuratiebehoeften binnen hun platform. U zou dit admin ook in om het even welk gesprek met moeten betrekken [!DNL Workfront] Klantenondersteuning.
+   Identificeer de technologiebeheerder van uw organisatie voor de toepassing u met wilt integreren [!DNL Workfront]. Als u bijvoorbeeld wilt integreren met [!DNL Jira], moet u verbinding maken met de [!DNL Jira] beheerder en betref hen in om het even welke configuratiebehoeften binnen hun platform. U zou deze beheerder ook in om het even welk gesprek met moeten betrekken [!DNL Workfront] Klantenondersteuning.
 
    Om uw beheerder te beginnen, zult u hen van de specifieke instructies voor die integratie moeten voorzien. Zie voor koppelingen naar deze instructies [Integratie zonder extra kosten beschikbaar](#integrations-available-at-no-additional-cost).
 
 1. **Inschakelen met [!DNL Workfront] Klantenondersteuning**
 
-   Als uw beheerder problemen heeft met de native integratie-instelling, kunt u contact opnemen met [!DNL Workfront] Klantenondersteuning voor hulp bij het begeleiden of oplossen van problemen. while [!DNL Workfront] Wij zullen de integratie niet voor u opzetten, wij zijn geëngageerd u alle noodzakelijke hulpmiddelen en middelen te geven u om het zelf te doen moet. U kunt rechtstreeks contact opnemen met de Klantenondersteuning of u kunt de uitgebreide bronartikelen verkennen om u te helpen uw integratie eenvoudig in te stellen.
+   Als uw beheerder om het even welke kwesties met de inheemse integratieopstelling heeft, kunt u met [!DNL Workfront] Klantenondersteuning voor hulp bij het begeleiden of oplossen van problemen. while [!DNL Workfront] Wij zullen de integratie niet voor u opzetten, wij zijn geëngageerd u alle noodzakelijke hulpmiddelen en middelen te geven u om het zelf te doen moet. U kunt rechtstreeks contact opnemen met de Klantenondersteuning of u kunt de uitgebreide bronartikelen verkennen om u te helpen uw integratie eenvoudig in te stellen.
 
    Raadpleeg voor meer informatie over het [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -60,7 +60,7 @@ Volg de volgende workflow om aan de slag te gaan met ingebouwde (native) integra
 
    >[!NOTE]
    >
-   >U moet de toegewezen contactpersoon van de Steun bij uw organisatie zijn om een steungeval voor te leggen. Nadat het geval wordt voorgelegd, kunt u uw technologieadmin voor het andere systeem aan het gesprek toevoegen. Ze kunnen niet rechtstreeks contact opnemen met de ondersteuning zelf.
+   >U moet de toegewezen contactpersoon van de Steun bij uw organisatie zijn om een steungeval voor te leggen. Nadat het geval wordt voorgelegd, kunt u uw technologiebeheerder voor het andere systeem aan het gesprek toevoegen. Ze kunnen niet rechtstreeks contact opnemen met ondersteuning.
 
 Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aan al uw bedrijfsbehoeften voldoet. Neem in dat geval contact op met uw accountmanager om een aangepaste integratie te bespreken.
 
@@ -130,7 +130,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     <ul> 
      <li>[!DNL G Suite] gebruikers moeten een [!DNL Workfront] licentie </li> 
      <li>[!DNL Workfront] de mening en het werk delend toestemmingen moeten per toegangsniveau worden geplaatst </li> 
-     <li> E-mailaccount met POP </li> 
+     <li> Gebruiker moet een POP-e-mailaccount hebben </li> 
      <li>[!DNL Workfront] aanvraaginstellingen moeten POP-instellingen bevatten </li> 
     </ul> </td> 
    <td> 
@@ -158,7 +158,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     </ul> <p>Zie voor meer informatie <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] plan of hoger</li> 
+     <li><p>Nieuw Workfront-abonnement: [!UICONTROL Select] [!DNL Workfront] plan of hoger</p><p>Huidig Workfront-abonnement: [!UICONTROL Pro] [!DNL Workfront] plan of hoger</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -234,7 +234,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
     </ul> <p>Zie voor meer informatie <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] plan of hoger</li> 
+     <li><p>Nieuw Workfront-abonnement: [!UICONTROL Select] [!DNL Workfront] plan of hoger</p><p>Huidig Workfront-abonnement: [!UICONTROL Pro] [!DNL Workfront] plan of hoger</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -289,18 +289,26 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
 
 * [!DNL Workfront Fusion]
 
+  [!DNL Adobe Workfront Fusion] Koppelt handelingen binnen en tussen apps en services om een scenario te maken dat uw gegevens automatisch overdraagt en transformeert. De toepassing heeft specifieke connectors voor veel apps, maar kan verbinding maken met elke toepassing met een openbare API.
+
   Zie voor meer informatie [[!DNL Adobe Workfront Fusion] overzicht](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  Zie voor meer informatie [Adobe Workfront voor Experience Manager Assets en Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
+Dankzij de integratie tussen Workfront en Experience Manager Assets of Assets Essentials kunnen organisaties de snelheid van de inhoud en de tijd-aan-markt verbeteren door het werk en het beheer van digitale middelen intrinsiek met elkaar te verbinden.
+
+Zie voor meer informatie [Overzicht van Adobe Workfront for Experience Manager Assets-integratie](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Partnerintegratie
 
-[!DNL Workfront] heeft een rijk partnerecosysteem dat tientallen integratie omvat die uw [!DNL Workfront] ervaring.
+[!DNL Workfront] heeft vele partnerintegratie verrijkt uw [!DNL Workfront] ervaring.
 
-Voorbeelden van bestaande partneraanbiedingen zijn integratie met [!DNL Salesforce.com], [!DNL Oracle Responsys], en [!DNL Microsoft Visual Studio]. Voor meer informatie over deze en andere opwindende integratie, zie [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Voorbeelden van bestaande partneraanbiedingen zijn integratie met [!DNL Salesforce.com], [!DNL Oracle Responsys], en [!DNL Microsoft Visual Studio].
+
+Voor meer informatie over deze en andere partnerintegratie, zie [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-De [!DNL Workfront] Met API kunt u uw [!DNL Workfront] gebruiken door onze openbare API te gebruiken. U kunt uw eigen integraties maken met behulp van onze open API. Voor een gedetailleerde lijst met beschikbare objecten in het dialoogvenster [!DNL Workfront] API, zie [!DNL Workfront] [API Explorer](../../wf-api/general/api-explorer.md).
+De [!DNL Workfront] Met API kunt u uw [!DNL Workfront] gebruiken door onze openbare API te gebruiken. U kunt uw eigen integraties maken met behulp van onze open API.
+
+Voor een gedetailleerde lijst met beschikbare objecten in het dialoogvenster [!DNL Workfront] API, zie [!DNL Workfront] [API Explorer](../../wf-api/general/api-explorer.md).

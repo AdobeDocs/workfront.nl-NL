@@ -3,14 +3,14 @@ title: Vorm [!DNL SharePoint] integratie
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: U kunt [!DNL Workfront] with [!DNL SharePoint] Online, die gebruikers de capaciteit verstrekken om aan te navigeren, te verbinden, en toe te voegen [!DNL SharePoint] documenten in Workfront. De opgegeven functionaliteit is vergelijkbaar met die van andere [!DNL Workfront] integratie, zoals Google Drive, Box en Dropbox.
-author: Becky, Caroline
+description: U kunt [!DNL Workfront] with [!DNL SharePoint] Online, die gebruikers de capaciteit verstrekken om aan te navigeren, te verbinden, en toe te voegen [!DNL SharePoint] documenten in Workfront. De opgegeven functionaliteit is vergelijkbaar met die van andere [!DNL Workfront] documentintegratie.
+author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3fafc4d782e518d774e981c2e37f9a5f1595edb1
+source-git-commit: 3cc1745b33d645d37248185b4163a39c1bead60e
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder. Voor informatie over [!DNL Workfront] beheerders, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td>U moet een [!DNL Workfront] beheerder. Voor informatie over [!DNL Workfront] beheerders, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-U moet over de benodigde toegang of machtigingen beschikken in [!DNL SharePoint] om uw organisatie te wijzigen of te vormen [!DNL SharePoint].
+U moet over de benodigde toegang of machtigingen beschikken in [!DNL SharePoint] om uw [!DNL SharePoint] integratie.
 
 ## Documenten koppelen via de nieuwe SharePoint-integratie
 
@@ -84,7 +84,7 @@ Voor instructies voor het koppelen van documenten via de nieuwe [!DNL SharePoint
 
 ### Documenten van SharePoint koppelen
 
-Voor instructies voor het koppelen van documenten van SharePoint via de nieuwe [!DNL SharePoint] integratie, zie [Een extern document koppelen aan [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+Voor instructies voor het koppelen van documenten van SharePoint via de nieuwe [!DNL SharePoint] integratie, zie [Een extern document koppelen aan [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
 
 ### Documenten naar SharePoint verzenden
 
@@ -115,16 +115,13 @@ De eerste keer dat een gebruiker een document toevoegt aan [!DNL Workfront] van 
 
 | Toegang | Reden |
 |---|---|
-| Volledige toegang tot uw bestanden | Toestaan [!DNL Workfront] om de bestanden van een gebruiker te openen om elementen te koppelen. Wanneer documenten worden verzonden van [!DNL Workfront] tot [!DNL SharePoint], [!DNL Workfront] vereist toegang om het element te maken. |
+| Volledige toegang tot uw bestanden | Toestaan [!DNL Workfront] om de bestanden van een gebruiker te openen en elementen te koppelen. Wanneer documenten worden verzonden van [!DNL Workfront] tot [!DNL SharePoint], [!DNL Workfront] vereist toegang om het element te maken. |
 | Items in alle siteverzamelingen lezen | Toestaan [!DNL Workfront] om elementen te lezen die gebruikersnavigatie mogelijk maken. |
-| Items in alle siteverzamelingen bewerken of verwijderen | Toestaan [!DNL Workfront] om activa in plaatsen en plaatsinzameling te creëren. Verwijderen wordt alleen gebruikt bij opschonen nadat de koppelingen zijn verbroken. |
+| Items in alle siteverzamelingen bewerken of verwijderen | Toestaan [!DNL Workfront] om activa in plaatsen en plaatsinzamelingen te creëren. Verwijderen wordt alleen gebruikt bij opschonen nadat de koppelingen zijn verbroken. |
 | Toegang behouden tot gegevens die u toegang hebt verleend aan | Toestaan [!DNL Workfront] om een vernieuwingstoken te produceren. |
 | Aanmelden en gebruikersprofiel lezen | Toestaan [!DNL Workfront] om het toegangstoken te gebruiken om namens de gebruiker te handelen, door de OAuth2 login stroom. |
 
-Deze toegang wordt verleend door de gebruiker de eerste keer zij de integratie gebruiken, en kan op elk ogenblik worden ingetrokken.
-
-Overweeg het volgende met betrekking tot toegang tot [!DNL SharePoint] via de [!DNL Workfront] [!DNL SharePoint] integratie:
-
+* Deze toegang wordt verleend door de gebruiker de eerste keer zij de integratie gebruiken, en kan op elk ogenblik worden ingetrokken.
 * De voor deze integratie aangevraagde machtigingen zijn **gedelegeerd** machtigingen.
 * [!DNL Workfront] vraagt om de minimumtoegang die wordt vereist om verrichtingen in de integratie uit te voeren.
 * Toegang tot het weergeven, bewerken of verwijderen van [!DNL Adobe Workfront] document gekoppeld aan [!DNL SharePoint] is gebaseerd op de toegang van de gebruiker tot [!DNL Workfront]. Elke navigatie, download of bewerking van een [!DNL SharePoint] bestand of map vereist toegang tot [!DNL SharePoint]en de toegang tot deze acties wordt geregeld door [!DNL SharePoint].
@@ -143,24 +140,25 @@ Als een element voor het eerst is geüpload naar [!DNL Workfront]en vervolgens v
 
 Om ervoor te zorgen dat uw gebruikers via de veroudering toegang hebben tot documenten die aan Workfront zijn gekoppeld [!DNL SharePoint] integratie, moet u toegang tot de erfenis opnieuw vormen [!DNL SharePoint] en de SharePoint Client Secret up-to-date houden.
 
-* [Toegang tot de nalatenschap opnieuw configureren [!DNL SharePoint] integratie](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
-* [Vorm het Geheim van de Cliënt voor verdere toegang tot de erfenis [!DNL SharePoint] integratie](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
+* [Toegang tot de nalatenschap opnieuw configureren [!DNL SharePoint] integratie](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Vorm het Geheim van de Cliënt voor verdere toegang tot de erfenis [!DNL SharePoint] integratie](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Toegang tot de nalatenschap opnieuw configureren [!DNL SharePoint] integratie
 
-Om ervoor te zorgen dat u toegang krijgt tot documenten die via de verouderde [!DNL SharePoint] Voer de volgende procedure uit, zonder dat uw gebruikers nieuwe documenten via die integratie kunnen koppelen.
+De nalatenschap opnieuw configureren [!DNL SharePoint] met integratie hebben uw gebruikers toegang tot documenten die via de verouderde [!DNL SharePoint] integratie, terwijl het ervoor zorgen dat uw gebruikers geen nieuwe documenten door die integratie kunnen verbinden.
 
 >[!NOTE]
 >
 > * De nalatenschap [!DNL SharePoint] integratie is gelabeld &quot;[!DNL SharePoint].&quot;
 > * De nieuwe [!DNL SharePoint] integratie is gelabeld &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].&quot;
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Setup]** ![Instellen](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteren **[!UICONTROL Documents]** in de linkernavigatie selecteert u vervolgens **[!UICONTROL Cloud Providers]**.
 1. Zorg ervoor dat de **[!DNL SharePoint]** en **[!UICONTROL [!DNL SharePoint] (Graph API)]** beide opties zijn ingeschakeld.
 1. Klik op **[!UICONTROL Save]**.
 1. Selecteren **[!UICONTROL Documents]** in de linkernavigatie selecteert u vervolgens **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Selecteer het vinkje links in de lijst voor alle bestaande integratie en selecteer vervolgens **[!UICONTROL Disable]**.
+   ![](assets/disable-old-sharepoint.png)
 
 
 ### Vorm het Geheim van de Cliënt voor verdere toegang tot de erfenis [!DNL SharePoint] integratie
@@ -175,13 +173,13 @@ Uw [!DNL SharePoint] Clientgeheim verloopt één keer per jaar. Om ervoor te zor
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. Een nieuw clientgeheim genereren zoals beschreven in [Een verlopen clientgeheim vervangen in een [!DNL SharePoint] Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. Een nieuw clientgeheim genereren zoals beschreven in [Een verlopen clientgeheim vervangen in een [!DNL SharePoint] Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopieer dit clientgeheim naar een beveiligde locatie.
 1. Aanmelden [!DNL Workfront] als beheerder.
-1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Klik op de knop [!DNL SharePoint] integratie die u wilt bijwerken, en klik dan **[!UICONTROL Edit]**.
-1. Voer het nieuwe clientgeheim in het dialoogvenster **[!UICONTROL Client Secret]** veld.
+1. Zoek de **Verbindingsinfo** sectie van het het uitgeven venster, dan ga het nieuwe Geheim van de Cliënt in **[!UICONTROL SharePoint Client Secret]** veld.
 1. Klik op **[!UICONTROL Save]**.
 
 <!--
@@ -467,7 +465,8 @@ Om een plaatsinzameling in te zien [!DNL Workfront]moet aan de volgende voorwaar
 
 * De gebruiker moet meningstoegang tot de plaatsinzameling in hebben [!DNL SharePoint].
 
-  Om dit te verifiëren in [!DNL SharePoint], ga naar [!DNL SharePoint]en open de siteverzameling > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+  Om dit te verifiëren in [!DNL SharePoint], controleert u de machtigingen van de siteverzameling in SharePoint.
+
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:

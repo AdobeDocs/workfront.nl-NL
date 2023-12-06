@@ -2,12 +2,13 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact opnemen met Klantenondersteuning
-description: Als Adobe Workfront-klant kunt u telefonisch contact opnemen met het klantenondersteuningsteam van Workfront of een ticket online verzenden.
+description: Als Adobe Workfront-klant kunt u telefonisch contact opnemen met het klantenondersteuningsteam van Workfront of een ticket online verzenden. Dit artikel bevat instructies voor het contact met de klantenondersteuning en voor het bekijken en beheren van uw ondersteuningsgevallen.
 feature: Get Started with Workfront
+author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 489c5b0fd1f4b50a2b479070064dda2ee09185f8
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -36,28 +37,32 @@ U kunt contact [!DNL Workfront Customer Support] 7 dagen per week, 24 uur per da
 
 U kunt een steunkaartje van zelfbediening voorleggen [!DNL Experience League] portaal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Alleen geoorloofde supportcontactpersonen (of geautoriseerde klanten) kunnen online ondersteuningstickets indienen.
+>Alleen geoorloofde supportcontactpersonen (of gebruikers met een ondersteuningsbevoegdheid) kunnen online ondersteuningstickets indienen.
 
 
 1. Van de [[!DNL Experience League]](https://experienceleague.adobe.com) website, klikken **[!UICONTROL Support]**  boven aan de pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   Vanuit de ondersteuningstartpagina kunt u eenvoudig naar uw open ondersteuningsgevallen navigeren, een nieuw geval registreren, de bovenste ondersteuningsartikelen weergeven of aanvullende leerbronnen openen.
+   De [!UICONTROL Support] pagina wordt geopend.
+
+   Van de [!UICONTROL Support] homepage, kunt u aan uw open steungevallen navigeren, een nieuw geval registreren, de bovenkant bekijken [!UICONTROL Support] artikelen of toegang tot aanvullende leerbronnen.
 
 1. Selecteer de optie om een kwestie te verzenden **[!UICONTROL Open a support case]** en klik vervolgens op **[!UICONTROL Sign]In**.
 
 1. Klikken **[!UICONTROL Open case]** in de linkerzijbalk.
 
+<!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
+-->
 
-   De [!UICONTROL case creation] pagina wordt geopend waar u uw productnaam kunt invoeren ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], enz.), titel van de zaak en beschrijving van de zaak.
+De [!UICONTROL case creation] pagina wordt geopend waar u uw productnaam kunt invoeren ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], enz.), titel van de zaak en beschrijving van de zaak.
 
-   >[!TIP]
-   >
-   >Wees zo beschrijvend mogelijk wanneer u het probleem beschrijft waarmee u wordt geconfronteerd om ons te helpen het het oplossen van problemenproces te versnellen.
+>[!TIP]
+>
+>Wees zo beschrijvend mogelijk wanneer u het probleem beschrijft waarmee u wordt geconfronteerd om ons te helpen het het oplossen van problemenproces te versnellen.
 
 
 1. Vul de gegevens in voor de volgende velden om ons meer specifieke details te geven:
@@ -69,29 +74,30 @@ U kunt een steunkaartje van zelfbediening voorleggen [!DNL Experience League] po
 
 1. Upload relevante bestanden en klik vervolgens op **[!UICONTROL Submit case]**.
 
-   De [!UICONTROL My cases] wordt weergegeven.
+   De zaak wordt ingediend en de [!UICONTROL My cases] wordt weergegeven.
 
-   ![](assets/all-cases-list-exl-support-portal.png)
-
-1. (Optioneel) Op de **[!UICONTROL My cases]** pagina, gevallen bekijken die uw organisatie heeft verzonden.
-
-   >[!TIP]
-   >
-   >U kunt ook naar de [!UICONTROL My cases] pagina door te klikken **[!UICONTROL My cases]** in de linkerzijbalk.
-
-1. Op de **[!UICONTROL My cases]** pagina, gebruik de opties bij de bovenkant van de pagina aan filter door **Product ([!DNL Experience Cloud] oplossing)** of geval **[!UICONTROL Status]** (Openen of Gesloten). U kunt ook de opdracht [!UICONTROL search] om te zoeken naar trefwoorden die betrekking hebben op uw ondersteuningsgevallen.
-
-1. Klik op de knop **Hoofdletternummer** om toegang te krijgen tot het bestand. De [!UICONTROL case] wordt geopend.
-
-1. In de [!UICONTROL case] bekijk, herzie de recentste commentaren met de toegewezen caseeigenaar en voeg om het even welke extra gehechtheid of reacties toe.
-
-1. Klikken **[!UICONTROL Escalate to management]** aan de rechterkant van de pagina onder **[!UICONTROL Case Detail]** om de zaak te laten escaleren.
-
-1. Klik op de knop **[!UICONTROL Close case]** om de kwestie te sluiten.
-
+   <!--
+   [](assets/all-cases-list-exl-support-portal.png)
+   -->
 
 Als u vragen hebt of problemen hebt met het indienen van een aanvraag, belt u het klantenondersteuningsteam.
 
+
+## Bekijk en beheer uw ondersteuningszaken
+
+1. Ga naar de **[!UICONTROL My cases]** pagina. Deze pagina wordt geopend wanneer u een kwestie verzendt, of u kunt het openen door te klikken **[!UICONTROL My cases]** in de linkernavigatie.
+
+1. (Optioneel) Gebruik de opties boven aan de pagina om te filteren op **Product ([!DNL Experience Cloud] oplossing)** of geval **[!UICONTROL Status]** ([!UICONTROL Open] of Clgespoeld). U kunt ook de opdracht [!UICONTROL search] om te zoeken naar trefwoorden die betrekking hebben op uw ondersteuningsgevallen.
+
+1. (Optioneel) Klik op de knop **Hoofdletternummer** om toegang te krijgen tot het bestand.
+
+   De weergave Hoofd-kleine letter wordt geopend.
+
+1. (Optioneel) Controleer in de weergave Case de meest recente opmerkingen met de toegewezen eigenaar van het geval en voeg aanvullende bijlagen of reacties toe.
+
+1. (Optioneel) Klik op **[!UICONTROL Escalate to management]** aan de rechterkant van de pagina onder **[!UICONTROL Case Detail].
+
+1. Klik op de knop **[!UICONTROL Close case]** om de kwestie te sluiten.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

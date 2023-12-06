@@ -3,21 +3,23 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Aan de slag met de Adobe Workfront-administratie
-description: U kunt de standaardinstellingen, tijdschema's en planningen van het Workfront-systeem, de organisatorische instellingen, de door het systeem bijgehouden updategegevens en testomgevingen voor uw organisatie configureren
-author: Caroline
+title: "Aan de slag met Adobe Workfront-beheer: artikelindex"
+description: In deze sectie vindt u informatie en instructies over de eerste installatie van Adobe Workfront en informatie die u als Workfront-beheerder nodig hebt.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met de Adobe Workfront-administratie
+# Aan de slag met Adobe Workfront-beheer: artikelindex
+
+In deze sectie vindt u informatie en instructies over de eerste installatie van Adobe Workfront en informatie die u als Workfront-beheerder nodig hebt.
 
 Deze sectie bevat de volgende artikelen:
 
