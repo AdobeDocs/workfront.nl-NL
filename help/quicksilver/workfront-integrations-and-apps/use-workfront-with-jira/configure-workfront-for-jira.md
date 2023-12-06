@@ -6,9 +6,9 @@ description: U kunt [!DNL Adobe Workfront for Jira] om uw [!DNL Jira] en [!DNL W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 9ff647ba4eca31e6d2d06a8c9b787badaf965477
+source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2256'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet het volgende hebben:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] abonnement]*</td> 
-   <td><p>Nieuw plan: [!UICONTROL Prime] of hoger</p>
+   <td><p>Nieuw abonnement: alle</p>
        <p>of</p>
        <p>Huidig plan: [!UICONTROL Pro] of hoger</p>
    </td> 

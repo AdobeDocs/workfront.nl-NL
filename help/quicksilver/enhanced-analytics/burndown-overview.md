@@ -7,9 +7,9 @@ description: De burndown visualisatie toont de onderbreking van een specifiek pr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -18,31 +18,38 @@ ht-degree: 0%
 
 De burndown visualisatie toont de onderbreking van een specifiek project in tijd en helpt u het verband tussen projectvoorwaarde, snelheid, en het blijven uren-of dagen begrijpen.
 
-![](assets/burndown-350x112.png)
+![Uitgebreid voorbeeld voor uitvouwen van analysemogelijkheden](assets/burndown120623.png)
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
-   <td> <p>Zakelijk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td>
+      <p>Nieuw abonnement: alle</p>
+      <p>of</p>
+      <p>Huidig abonnement: Zakelijk of hoger</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td>
+      <p>Nieuw abonnement: Licht of hoger</p>
+      <p>of</p>
+      <p>Huidig abonnement: Controleren of hoger</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,29 +58,29 @@ U moet het volgende hebben:
 
 ## Vereisten
 
-Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
 
 ## Begrijp de Burndown visualisatie
 
-De effen blauwe lijn toont de geplande snelheid vanaf de begindatum tot de geplande einddatum. Deze lijn past zich aan aangezien het werk wordt toegevoegd, verwijderd of bijgewerkt en het verandert in een onderbroken verticale lijn wanneer het project de geplande voltooiingsdatum bereikt.
+De effen blauwe lijn toont de geplande snelheid vanaf de begindatum tot de geplande einddatum. Deze lijn past zich aan aangezien het werk wordt toegevoegd, verwijderd of bijgewerkt, en het verandert in een onderbroken verticale lijn wanneer het project de geplande voltooiingsdatum bereikt.
 
-![](assets/burndown-planned-line.png)
+![Geplande snelheid](assets/burndown-planned-line.png)
 
 De daadwerkelijke lijn toont het aantal uren-of dagen-besteed aan het project in tijd. De kleur van deze lijn wijst op de voorwaarde van het project elke dag:
 
 * **Groen**: Het project is op doel.
 
-   ![](assets/burndown-green.png)
+  ![Op doel](assets/burndown-green.png)
 
 * **Oranje**: Het project loopt gevaar.
 
-   ![](assets/burndown-orange.png)
+  ![Risico](assets/burndown-orange.png)
 
 * **Rood**: Het project zit in de problemen.
 
-   ![](assets/burndown-red.png)
+  ![In moeilijkheden](assets/burndown-red.png)
 
-Voor meer informatie over deze projectvoorwaarden raadpleegt u [Overzicht van het type Projectvoorwaarde en Voorwaarde](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Zie voor meer informatie over deze projectvoorwaarden [Overzicht van het type Projectvoorwaarde en Voorwaarde](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 Wanneer de daadwerkelijke lijn verticaal omhoog beweegt, is het werk toegevoegd aan het project. Wanneer de lijn verticaal naar beneden beweegt, is het werk verwijderd of voor het project voltooid.
 
@@ -82,31 +89,32 @@ Onder de x as van de visualisatie, kunt u meer informatie over zien hoe de taken
 Door al deze informatie te bekijken in de Burndown-visualisatie kunt u beter bepalen:
 
 * De gezondheid van het afzonderlijke project in de loop van de tijd
-* De invloed van problemen die zich voordoen (of ongeplande werkzaamheden) op de geplande werkzaamheden.
-* Welke gebeurtenissen uw project voorbij de originele voltooiingsdatum verlengden.
+* De invloed van problemen die zich voordoen (of ongeplande werkzaamheden) op de geplande werkzaamheden
+* Welke gebeurtenissen uw project voorbij de originele voltooiingsdatum verlengden
 
 Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De Burndown-visualisatie weergeven
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
+{{step1-to-analytics}}
+
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datums selecteren](assets/filters-select-date-range-350x344.png)
 
    Voor informatie over het gebruik van het filter Datumbereik raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Voorwaardelijk) als u de reeks van projectgegevens moet beperken, selecteer en pas de filters toe die u wilt gebruiken.
 
-   Voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
-1. (Optioneel) Als u wilt inzoomen op een datumbereik, selecteert u een punt in de visualisatie voor het begin van het datumbereik en sleept u naar het einde van het datumbereik.
+1. (Optioneel) Als u wilt inzoomen op een datumbereik, selecteert u een punt in de visualisatie voor het begin van het datumbereik en sleept u het punt naar het einde van het datumbereik.
 
-   Alle andere visualisaties worden bijgewerkt naar hetzelfde datumbereik en er wordt een tijdframefilter gemaakt.
+   Alle andere visualisaties worden bijgewerkt naar hetzelfde datumbereik en er wordt automatisch een tijdframefilter gemaakt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tijdlijnfilter](assets/timeframe-filter-350x220.png)
 
 1. Voor het Vluchtplan of de visualisatie van de treemap van het Project, klik een project om meer informatie te bekijken.
 
@@ -116,12 +124,10 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
    >
    >Zie voor meer informatie over deze andere visualisaties:
    >
-   >   
-   >   
    >   * [Bekijk de visualisatie van het vliegplan in de uitgebreide analyse](../enhanced-analytics/flight-plan-overview.md)
    >   * [Bekijk de visie van de projectreemap in Verbeterde analyse](../enhanced-analytics/project-treemap-overview.md)
    >   * [De taken tijdens de visualisatie van de vlucht bekijken in Verbeterde analyse](../enhanced-analytics/tasks-in-flight-overview.md)
-
+   >
 
 1. (Optioneel) Wijzig de weergave van geplande uren in **duur**.
 
@@ -130,23 +136,23 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
    >[!NOTE]
    >
    >Selecteren **duur** Hiermee wijzigt u alle uren informatie in dagen.\
-   >![](assets/duration-burndown-350x112.png)\
-   >Zie de sectie over de weergave Duur in het gedeelte Verbeterde analyse voor meer informatie over de duur in het gedeelte Verbeterde analyse [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+   >![Duur opgeborgen](assets/duration-burndown-350x112.png)\
+   >Zie de sectie over de weergave Duur in het gedeelte Verbeterde analyse voor meer informatie over de duur in het gedeelte Verbeterde analyse. [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. Klik op een punt in de lijngrafiek.
 
-   De nauwkeurige datumvertoningen en verdere informatie over taken en uren-of dagen-voor de geselecteerde dagvertoningen hieronder.
+   De nauwkeurige datumvertoningen en verdere informatie over taken en uren-of dagen-voor de geselecteerde dag toont onder de grafiek.
 
-   ![](assets/burndown-task-and-hour-changes-350x121.png)
+   ![Details van opbranden](assets/burndown-task-and-hour-changes-350x121.png)
 
    >[!NOTE]
    >
    >Als de daadwerkelijke snelheid een vlakke lijn is die langs de x as (gealigneerd met 0 uren of 0 dagen) van visualisatie loopt, betekent dit dat geen geplande uren-of dagen-werden toegevoegd aan het project.\
    >Als de werkelijke snelheid een vlakke lijn boven de x-as is (in lijn met een aantal uren of dagen) die nooit omlaag gaat, betekent dit dat er geen taken zijn uitgevoerd binnen de gefilterde tijdsperiode.
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op de knop **Exporteren** pictogram ![](assets/export.png)in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exporteren** pictogram ![Exportpictogram](assets/export.png)in de rechterbovenhoek van de visualisatie en selecteer de exportindeling:
 
-   * **Diagram (PNG)**
-   * **Gegevenstabel (XSLX)**
+   * Diagram (PNG)
+   * Gegevenstabel (XSLX)
 
-1. (Optioneel) Als u meer informatie wilt over de voortgang van taken in het geselecteerde project, bekijkt u de taken in de visualisatie van de vlucht die onder de Burndown-visualisatie wordt weergegeven.
+1. (Optioneel) Als u meer informatie wilt over de voortgang van taken in het geselecteerde project, bekijkt u de taken in de visualisatie van de vlucht die onder de Burndown-visualisatie wordt weergegeven. Zie voor meer informatie [De taken tijdens de visualisatie van de vlucht bekijken in Verbeterde analyse](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
