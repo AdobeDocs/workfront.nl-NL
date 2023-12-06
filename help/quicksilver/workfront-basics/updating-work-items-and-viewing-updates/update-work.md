@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ U kunt updates toevoegen aan de volgende objecten:
 1. Klik op de knop **Updates** sectie.
 1. (Voorwaardelijk) Als deze optie is ingeschakeld, klikt u op de knop **Nieuwe opmerkingen** in de rechterbovenhoek van de sectie Updates om deze uit te schakelen en de ervaring voor oudere opmerkingen in te schakelen.
 1. Klikken **Een nieuwe update starten,** typ vervolgens de update.
-1. (Optioneel) Gebruik RTF-tekst of voeg emoties, koppelingen of afbeeldingen toe aan de update om de inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
+1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
 1. (Optioneel) Werk een van de volgende gegevens bij over het werkitem:
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ U kunt updates toevoegen aan de volgende objecten:
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
-1. (Optioneel) Gebruik RTF-tekst of voeg emoties, koppelingen of afbeeldingen toe aan de update om de inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
+1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ U kunt updates toevoegen aan de volgende objecten:
 
    >[!IMPORTANT]
    >
-   >Je kunt je opmerking alleen bewerken binnen 15 maanden na verzending.
+   >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden.
 
 1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers. Een indicator &quot;Bewerkt&quot; wordt toegevoegd links van de datumstempel die wordt weergegeven wanneer de opmerking is ingevoerd.
 
@@ -407,11 +407,15 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    1. Onder **Weer te geven tekst**, typt of plakt u de koppelingstekst.
    1. Klikken **Opslaan**.
 
-1. (Optioneel) <span class="preview">Als u een afbeelding aan uw update wilt koppelen, kopieert u een schermafbeelding van uw computer en plakt u deze in de opmerking </span>
+1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding aan de update te koppelen:
 
-   of
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   Klik op de knop **Afbeelding toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en bladert u naar de afbeelding op uw computer.
+   * <span class="preview">Kopieer een schermafbeelding van uw computer en plak deze in de opmerking </span>
+   * Klik op de knop **Afbeelding toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en bladert u naar de afbeelding op uw computer.
+
 
    >[!NOTE]
    >

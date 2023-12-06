@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: 'Kick-start scenario: Aangepaste velden met meerdere opties importeren in Workfront'
+title: 'Kick-start Scenario: aangepaste velden met meerdere opties importeren in Workfront'
 description: U kunt aangepaste velden met meerdere opties in Adobe Workfront importeren met de functie Kick-Start.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
+exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2131'
 ht-degree: 0%
 
 ---
 
-
-# Kick-Starts-scenario: Aangepaste velden met meerdere opties importeren in Workfront
+# Kick-startscenario: aangepaste velden met meerdere opties importeren in Workfront
 
 U kunt aangepaste velden met meerdere opties in Adobe Workfront importeren met de functie Kick-Start.
 
 Voorbeelden van aangepaste velden met meerdere opties zijn:
 
-* Vervolgkeuzelijst met meerdere selecties
+* Meerdere selecties opheffen
 * Vervolgkeuzelijst
 * Selectievakjes
 * Keuzerondjes
@@ -39,10 +39,9 @@ Deze velden kunnen soms veel (soms honderden) opties bevatten. Als u ze importee
 >1. Het Excel-werkblad uploaden naar Workfront
 
 
-
 ## Bestaande aangepaste gegevens exporteren uit Workfront (optionele stap)
 
-Als u niet bekend bent met de Workfront-databasestructuur of als u niet bekend bent met het bestand voor startende bestanden dat Workfront nodig heeft om informatie te importeren, raden we u aan eerst een bestand met startende informatie uit Workfront te exporteren, vergelijkbaar met de velden die u wilt importeren.
+Als u niet bekend bent met de Workfront-databasestructuur of als u niet bekend bent met het bestand voor startende bestanden dat Workfront nodig heeft voor het importeren van informatie, raden we u aan eerst een bestand met startpunten te exporteren uit Workfront met bestaande informatie, vergelijkbaar met de velden die u wilt importeren.
 
 Als u bijvoorbeeld aangepaste formulieren of aangepaste velden wilt importeren, moet u eerst een bestand met een beginnaam exporteren met bestaande aangepaste gegevens.
 
@@ -75,15 +74,15 @@ Bestaande gegevens exporteren uit Workfront:
 
 1. Onderzoek het gedownloade dossier en neem nota van de volgende details:
 
-   * Het bestand bevat verschillende bladen. Mogelijk hoeft u de informatie op elk blad niet op de hoogte te zijn, maar u gebruikt enkele bladen om uw gegevens te importeren. Neem de tijd om uzelf vertrouwd te maken met de inhoud en vooral met de indeling van de inhoud in elk vel.
+   * Het bestand bevat verschillende bladen. Mogelijk hoeft u de informatie op elk blad niet op de hoogte te zijn, maar u gebruikt een aantal bladen om uw gegevens te importeren. Neem de tijd om uzelf vertrouwd te maken met de inhoud en vooral met de indeling van de inhoud in elk vel.
    * Let vooral op de kolomnamen en de notatie waarin de gegevens in elke kolom worden weergegeven.
    * U mag de namen of de volgorde van de kolommen in geen van de bladen wijzigen. De kolomkoppen geven in elke rij de velden aan die u met uw gegevens moet invullen. Als de kolomkop vet wordt weergegeven, is dit een verplicht veld. U moet dus informatie in die kolom hebben.
+
    >[!IMPORTANT]
    >
    >Sommige kolomkoppen worden mogelijk niet vet weergegeven, maar zijn wel verplicht.
 
    * Houd het gedownloade bestand ter referentie en ga verder met de volgende sectie.
-
 
 ## De sjabloon Kick-start exporteren voor aangepaste gegevens
 
@@ -91,7 +90,7 @@ Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescan
 
 1. Klikken **Hoofdmenu > Instellen** in de rechterbovenhoek van de Workfront-interface.
 
-1. Breid uit **Systeem** links.
+1. Breid uit **Systeem** aan de linkerkant.
 
 1. Klikken **Gegevens importeren (Kick-start)**.
 
@@ -125,7 +124,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
    >
    >U moet de namen van de objecten en hun kenmerken schrijven in de indeling die wordt ondersteund door de Workfront-database.
    >
-   >Voor informatie over de betekenis van deze objecten raadpleegt u de [Workfront glossary](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Voor informatie over de betekenis van deze objecten raadpleegt u de [Verklarende woordenlijst [!DNL Adobe Workfront] terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
    >
    >Voor informatie over de namen van de objecten in de Workfront-database raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
    >
@@ -141,17 +140,17 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
    * De kolomkoppen in elk blad vertegenwoordigen kenmerken van de objecten die tijdens het importeren kunnen worden ingesteld. Alle kolomkoppen moeten in de zelfde orde blijven u hen vindt wanneer u het blad uitvoert en zij kunnen niet worden anders genoemd.
    * De kolomkoppen in vet zijn verplichte velden en moeten een waarde hebben.
 
-      >[!TIP]
-      >
-      >Sommige kolommen zijn vereist, maar niet vet. De `isNew` en `ID` kolommen worden niet vet weergegeven, maar zijn verplichte velden.
+     >[!TIP]
+     >
+     >Sommige kolommen zijn vereist, maar niet vet. Bijvoorbeeld de `isNew` en `ID` kolommen worden niet vet weergegeven, maar zijn verplichte velden.
 
-1. Selecteer `**PARAM Parameter`** werkblad en voeg informatie over de nieuwe aangepaste velden toe in de volgende vereiste kolommen:
+1. Selecteer de `**PARAM Parameter`** werkblad en voeg informatie over de nieuwe aangepaste velden toe in de volgende vereiste kolommen:
 
    * **`isNew`** = enter **`TRUE`** in deze kolom voor elke regel die een nieuw aangepast veld vertegenwoordigt. Dit geeft aan dat het veld nieuw is en niet bestaat in Workfront.
 
-      >[!TIP]
-      >
-      >    Als een regel een bestaand veld vertegenwoordigt dat al in Workfront voorkomt, voert u **`isNew`** = **`FALSE`**.
+     >[!TIP]
+     >
+     >    Als een regel een bestaand veld vertegenwoordigt dat al in Workfront voorkomt, voert u **`isNew`** = **`FALSE`**.
 
    * **`ID`** = moet een uniek getal zijn voor elke regel die een nieuw veld vertegenwoordigt. U kunt elk nummer gebruiken dat begint met 1, zolang elk nieuw veld een uniek nummer heeft.
    * **`setDataType`** = voor elke regel die een nieuw veld vertegenwoordigt, voert u het gegevenstype in dat het veld ondersteunt. Het gegevenstype moet worden ingevoerd zoals het in de database wordt weergegeven. Selecteer een van de volgende gegevenstypen:
@@ -159,50 +158,53 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
       * **`CURC`** voor Valuta
       * **`TEXT`** voor tekst
    * `**setDisplaySize**`= de weergavegrootte (&#39;**setDisplaySize**&#39;) voor meerdere opties is aangepaste velden altijd 0.
-   * **`setDisplayType`** = voor elke regel die een nieuw veld vertegenwoordigt, voert u het weergavetype van het veld in. Het weergavetype moet worden ingevoerd zoals het in de database wordt weergegeven.
+   * **`setDisplayType`** = voor elke lijn die een nieuw gebied vertegenwoordigt, ga het vertoningstype van het gebied in. Het weergavetype moet worden ingevoerd zoals het in de database wordt weergegeven.
 
-      Selecteer een van de volgende opties voor aangepaste velden met meerdere opties:
+     Selecteer een van de volgende opties voor aangepaste velden met meerdere opties:
 
       * **`MULT`** voor Vervolgkeuzelijst met meerdere selecties
       * **`SLCT`** voor Vervolgkeuzelijst
       * **`RDIO`** voor keuzerondjes
       * **`CHCK`** voor selectievakjes
-      >[!TIP]
-      >
-      >Als u de informatie over Gegevenstype en Weergavetype wilt vinden, raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md), breid de **Parameter** -object, en zoek deze kenmerken onder de **velden** tab.
+
+     >[!TIP]
+     >
+     >Als u de informatie over Gegevenstype en Weergavetype wilt vinden, raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md), breid de **Parameter** -object, en zoek deze kenmerken onder de **velden** tab.
 
    * **`setName`** = voert u de naam in van de aangepaste velden die u in Workfront wilt weergeven.
 
-      >[!INFO]
-      >
-      >We kunnen bijvoorbeeld twee aangepaste velden importeren, genaamd _Merk_, een veld voor het selectievakje, en _Media_, een veld voor keuzerondjes.
+     >[!INFO]
+     >
+     >We kunnen bijvoorbeeld twee aangepaste velden importeren, genaamd _Merk_, een veld voor het selectievakje, en _Media_, een veld voor keuzerondjes.
 
    * De **`setName`** en de **`setValue`** de kolommen bevatten gewoonlijk de zelfde informatie en zij zouden op de namen moeten wijzen die in de interface van Workfront voor uw nieuw gebied worden gewenst.
+
    De waarde van een veld is de naam die wordt weergegeven in rapporten, terwijl de naam wordt weergegeven in de aangepaste formulieren die aan objecten zijn gekoppeld.
 
    Zie voor meer informatie [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. Selecteer **`POPT Parameter Options`** Voeg in de volgende vereiste kolommen informatie toe over de opties van elk aangepast veld:
+1. Selecteer de **`POPT Parameter Options`** Voeg in de volgende vereiste kolommen informatie toe over de opties van elk aangepast veld:
 
    * **`isNew`** = enter **`TRUE`** in deze kolom voor elke regel die een nieuwe veldoptie vertegenwoordigt.
 
-      >[!TIP]
-      >
-      >    Als een lijn een bestaande optie vertegenwoordigt, zou u ingaan **`isNew`** = **`FALSE`**.
+     >[!TIP]
+     >
+     >    Als een lijn een bestaande optie vertegenwoordigt, zou u ingaan **`isNew`** = **`FALSE`**.
 
    * **`ID`** = moet een uniek getal zijn voor elke regel die een nieuwe optie vertegenwoordigt. U kunt elk nummer gebruiken dat begint met 1, zolang elke nieuwe optie een uniek nummer heeft.
    * **`setIsDefault`** = enter `TRUE` voor de opties die u standaard wilt weergeven, en `FALSE` voor alle andere opties, voor elk gebied.  Wij willen bijvoorbeeld _Nike_ de standaardoptie voor _Merk_ en _Afdrukken_ de standaardoptie voor _Media_.
 
-      >[!TIP]
-      >
-      >Er kan slechts één standaardoptie voor elk veld zijn.
+     >[!TIP]
+     >
+     >Er kan slechts één standaardoptie voor elk veld zijn.
 
    * **`setParameterID`** = de opties die overeenkomen met de _Merk_ aangepast veld bevat een **`setParameterID`** van 1, en de opties die overeenkomen met de _Media_ hebben een **`setParameterID`**van 2. De `PARAM` en `POPT` bladen verwijzen naar elkaar om aan te geven welke opties tot welk aangepast veld behoren.
    * **`setDisplayOrder`**= de kolom met de weergavevolgorde geeft de volgorde aan waarin de opties in het aangepaste veld worden weergegeven. U kunt beginnen met 1 en in oplopende volgorde verdergaan voor alle opties, ongeacht tot welke velden ze behoren. Het is belangrijk dat er voor elke optie unieke nummers zijn.
    * De **`setLabel`** en de `**setValue`** de kolommen bevatten gewoonlijk de zelfde informatie en zij zouden op de namen moeten wijzen die in Workfront UI worden gewenst. De waarde van een optie is de naam die in rapporten wordt weergegeven, terwijl het label in de aangepaste formulieren wordt weergegeven wanneer het aan een object is gekoppeld. Zie voor meer informatie [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
    * **`setIsHidden`** = enter `TRUE` als u een van de opties wilt verbergen.
+
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
@@ -211,7 +213,8 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
    * **`isNew`** = enter **`TRUE`** in deze kolom voor elke regel die een nieuw aangepast formulier vertegenwoordigt.
    * **`ID`** = voer een uniek nummer in voor elke regel die een nieuw formulier vertegenwoordigt. U kunt elk nummer gebruiken dat begint met 1, zolang elke nieuwe optie of regel een uniek nummer heeft.
    * **`setGroupID`** = voeg identiteitskaart van de Groep voor uw Groep van het Huis, of een andere groep in het systeem toe de waarvan leden u toegang tot dit formulier wilt hebben. Dit is een verplicht veld.
-   Als u de opdracht `ID` van een Groep, kunt u of een rapport van de Groep bouwen en toevoegen `ID` in Weergave of navigeer naar een groep en zoek de URL voor de groep. De groep-id staat in de URL van de pagina van de groep. Als de URL van de groep bijvoorbeeld `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, de groep-id is `575b000800467a6f66e747932c807464`.
+
+   Als u de opdracht `ID` van een Groep, kunt u of een rapport van de Groep en toevoegen `ID` in Weergave of navigeer naar een groep en zoek de URL voor de groep. De groep-id staat in de URL van de pagina van de groep. Als de URL van de groep bijvoorbeeld `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, de groep-id is `575b000800467a6f66e747932c807464`.
 
    * **`setCatObjCode` **= dit is de objectcode voor het objecttype waarvoor u het formulier wilt maken. Voer een code uit de volgende opties in:
       * **`CMPY`** voor Bedrijf
@@ -226,15 +229,14 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
       * **`ITRN`** voor herhaling
       * **`BILL`** voor factureringsrecords
       * **`GROUP`** voor groep
-      >[!NOTE]
-      >
-      >Voor formulieren met meerdere objecten voert u het eerste object in dat u zou selecteren bij het maken van een formulier in de gebruikersinterface. Stel bijvoorbeeld de `setCatObjCode` tot `TASK`, als u Taken selecteert in de interface van Workfront en vervolgens, uitgave, Portfolio, enz., maar u wilt niet dat het formulier beschikbaar is voor Projecten.
+
+     >[!NOTE]
+     >
+     >Voor formulieren met meerdere objecten voert u het eerste object in dat u zou selecteren bij het maken van een formulier in de gebruikersinterface. Stel bijvoorbeeld de `setCatObjCode` tot `TASK`, als u Taken selecteert in de interface van Workfront en vervolgens, uitgave, Portfolio, enz., maar u wilt niet dat het formulier beschikbaar is voor Projecten.
 
    * **`setName`** = dit is de naam van het aangepaste formulier zoals u het wilt weergeven in de Workfront-interface.
 
-      ![](assets/category-sheet-filled-out-kick-starts.png)
-
-
+     ![](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Sla het spreadsheet op als een .xls- of .xlsx-bestand op uw computer. Uw Excel-werkblad is ingevuld en kan nu worden geïmporteerd in Workfront.
 
@@ -263,7 +265,7 @@ Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als v
    >De nieuwe formulieren en de geïmporteerde velden hebben nog geen verbinding. Het formulier wordt geïmporteerd zonder aangepaste velden. U moet de velden handmatig toevoegen aan het nieuwe aangepaste formulier of aan een ander bestaand aangepast formulier.
 
 
-   Voor informatie over het toevoegen van velden aan aangepaste formulieren raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   Zie voor informatie over het toevoegen van velden aan aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
 1. (Voorwaardelijk) Als het importeren niet is gelukt, wordt een foutbericht weergegeven waarin het probleem is aangegeven. Probeer het veld, het blad en het rijnummer te identificeren waarin het probleem is opgetreden en corrigeer de gegevens in het Excel-bestand. Probeer het bestand vervolgens nog een keer te importeren.
 
