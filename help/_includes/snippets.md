@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6ad50604b74310659572d679f483afa0fc44491f
+source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
 workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 0%
@@ -45,21 +45,21 @@ ht-degree: 0%
 
 ## Stap 1 - klik alleen op Hoofdmenu {#step1-click-main-menu}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
 
 ## Stap 1 - klik dan het Belangrijkste Menu - {#step1-click-mm-then-click}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op
 
 ## Stap 1 - Klik op uw profielafbeelding - {#step1-click-profile-pic}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op uw gebruikersnaam naast de profielafbeelding. Of (indien beschikbaar), klik op de profielafbeelding in het bovenste navigatiegebied en klik vervolgens op **[!UICONTROL Workfront Profile]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op uw gebruikersnaam naast de profielafbeelding. Of (indien beschikbaar), klik op de profielafbeelding in het bovenste navigatiegebied en klik vervolgens op **[!UICONTROL Workfront Profile]**.
 
 <!-- Admin and Setup -->
 
 ## Stap 1 - het krijgen aan Opstelling {#step-1-to-setup}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](assets/gear-icon-setup.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
 
 
 ## Rechtergroep koppelen aan team {#right-group-team}
@@ -77,32 +77,32 @@ U kunt ervoor zorgen u de juiste groep met het team associeert door over het te 
 
 ## Stap 1 - Aan gebruikers worden {#step-1-to-users}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Users]** ![Gebruikers, pictogram](assets/users-icon-in-main-menu.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Users]** ![Gebruikers, pictogram](/help/_includes/assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
 
 ## Stap 1 - Aan boord gaan - {#step1-to-boards}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
 
 <!-- Blueprints -->
 
 ## Stap 1 - Aan blauwdrukken komen - {#step1-to-blueprints}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Blueprints]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Blueprints]**.
 
 <!-- Calendars -->
 
 ## Stap 1 - Aan kalenders komen - {#step1-to-calendars}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Calendars]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Calendars]**.
 
 <!-- Documents -->
 
 ## Stap 1 - Aan documenten worden onderworpen - {#step1-to-documents}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Documents]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Documents]**.
 
 ## gekoppelde mappen instellen {#setup-linked-folder}
 
@@ -114,7 +114,7 @@ Gekoppelde mappen instellen:
 
 1. Schakelen **Gekoppelde map ingeschakeld** op.
 1. Kies een mappad om aan te geven waar u alle gekoppelde mappen die aan deze integratie zijn gekoppeld, wilt laten wonen.
-   ![instelscherm gekoppelde mappen](assets/linked-folder-setup.png)
+   ![instelscherm gekoppelde mappen](/help/_includes/assets/linked-folder-setup.png)
 
    >[!NOTE]
    >
@@ -127,17 +127,17 @@ Gekoppelde mappen instellen:
 
 ## Stap 1 - Aan de slag - {#step1-to-home}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Home]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Home]**.
 
 ## Pictogram Start {#click-home}
 
-1. Klik op de knop [!UICONTROL Home] pictogram ![Startpictogram](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
+1. Klik op de knop [!UICONTROL Home] pictogram ![Startpictogram](/help/_includes/assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
 >[!NOTE]
 >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in de [!UICONTROL Home] pictogram in uw omgeving:
 >
 >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel wordt weergegeven.
->* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **[!UICONTROL Main Menu]** ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Home]**.
+>* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **[!UICONTROL Main Menu]** ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van de pagina of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Home]**.
 >
 
 <!-- Integrations -->
@@ -247,41 +247,41 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Stap 1 - Aan de slag met Maestro - {#step1-to-maestro}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Maestro]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Maestro]**.
 
 <!-- Manage Work -->
 
 ## Stap 1 - Portfolio&#39;s ophalen - {#step1-to-portfolios}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Portfolios]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Portfolios]**.
 
 ## Stap 1 - Aan Programma&#39;s worden - {#step1-to-programs}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Programs]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Programs]**.
 
 ## Stap 1 - Aan Projecten worden - {#step1-to-projects}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Projects]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Projects]**.
 
 ## Stap 1 - Aan Verzoeken worden - {#step1-to-requests}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Requests]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Requests]**.
 
 ## Stap 1 - Aan Malplaatjes worden - {#step1-to-templates}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Templates]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Templates]**.
 
 <!-- Mobile -->
 
 ## Mobiele proefdrukken - Meer menu {#mobile-proof-more-menu}
 
-1. Open de proefdruk van het document en selecteer de optie **[!UICONTROL More]** menu ![Het menu Meer](assets/mobile-verticalmoremenu-20x33.png) rechtsboven in het document. Selecteer vervolgens **[!UICONTROL More]**.
+1. Open de proefdruk van het document en selecteer de optie **[!UICONTROL More]** menu ![Het menu Meer](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) rechtsboven in het document. Selecteer vervolgens **[!UICONTROL More]**.
 
 <!-- My Updates -->
 
 ## Stap 1 - Aan Mijn Updates worden - {#step1-to-my-updates}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL My Updates]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL My Updates]**.
 
 <!-- Notifications -->
 
@@ -291,7 +291,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Stap 1 - Aan proef worden - {#step1-to-proofing}
 
-1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png)of (indien beschikbaar) klikt u op de knop **[!UICONTROL Main Menu]** in de linkerbovenhoek ![Hoofdmenu](assets/main-menu-icon-left-nav.png)en klik vervolgens op **[!UICONTROL Proofing]** om toegang te krijgen tot Workfront Proof.
+1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png)of (indien beschikbaar) klikt u op de knop **[!UICONTROL Main Menu]** in de linkerbovenhoek ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png)en klik vervolgens op **[!UICONTROL Proofing]** om toegang te krijgen tot Workfront Proof.
 
 ## Laatste DPV-versie {#latest-version}
 
@@ -303,21 +303,21 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Stap 1 - Aan Rapporten worden - {#step1-to-reports}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Reports]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Reports]**.
 
 ## Stap 1 - Getting to Dashboards - {#step1-to-dashboards}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Dashboards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Dashboards]**.
 
 ## Stap 1 - Aan Analyses worden onderworpen - {#step1-to-analytics}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Analytics]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Analytics]**.
 
 <!-- Resource Management -->
 
 ## Stap 1 - Aan de bron komen - {#step1-to-resourcing}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Resourcing]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Resourcing]**.
 
 <!-- Review and approve work -->
 
@@ -325,19 +325,19 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Stap 1 - Het krijgen van de Planner van het Scenario - {#step1-to-scenario-planner}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Scenarios]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Scenarios]**.
 
 <!-- Teams -->
 
 ## Stap 1 - Een team ophalen - {#step1-to-team}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Teams]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Teams]**.
 
 ## Gereed, knop voor een of meer statussen {#configure-done-button}
 
 Met de knop Gereed kunt u wijzigen welke status wordt toegepast op het werkitem. U kunt ook meerdere statussen instellen en de gebruiker de mogelijkheid geven om te kiezen welke status geschikt is.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Teams]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Teams]**.
 
 1. Klik op de knop **[!UICONTROL Switch team]** selecteert u vervolgens een nieuw team in het keuzemenu of zoekt u naar een team in de zoekbalk.
 1. Klik op de knop **[!UICONTROL More]** en klik vervolgens op **[!UICONTROL Edit]**.
@@ -375,11 +375,11 @@ Als u de wijzigingen in de functionaliteit van de knop Gereed zichtbaar wilt mak
 
 Om gebruikers met een Team van het Huis te associëren:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
 
 1. Klikken **[!UICONTROL Users]** en selecteert u vervolgens de gebruiker of gebruikers die u aan een Home Team wilt koppelen.
 1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.\
-   ![](assets/user-settings-nwe-350x291.png)
+   ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
 1. In de **[!UICONTROL Organization]** selecteert u de **[!UICONTROL Home Team]** veld. Begin de naam van het team te typen waarvan montages u met de gebruikers wilt associëren. Klik op de naam van het team wanneer deze wordt weergegeven in de lijst.
 
@@ -391,13 +391,13 @@ Alle teaminstellingen, inclusief de statussen die zijn gekoppeld aan de knop Ger
 
 ## Stap 1 - Het krijgen aan Chronologie - {#step1-to-timesheets}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Timesheets]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Timesheets]**.
 
 <!-- Workfront Goals -->
 
 ## Stap 1 - Doelen - {#step1-to-goals}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Goals]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Goals]**.
 
 <!-- Workfront Fusion -->
 
@@ -414,7 +414,7 @@ Alle teaminstellingen, inclusief de statussen die zijn gekoppeld aan de knop Ger
 1. Dit is een fragmentstap, de eerste van twee.
 1. Dit is een fragmentstap, de tweede van twee.
 
-![image](assets/adobecclogo.png)
+![image](/help/_includes/assets/adobecclogo.png)
 
 <!--
 
