@@ -6,9 +6,9 @@ description: U kunt taken naar verschillende projecten of naar verschillende bov
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,9 @@ U moet de volgende toegang hebben om de handelingen in dit artikel uit te voeren
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td> <p>Nieuw abonnement: standaard </p> 
+ <p>of</p>  
+<p>Huidig abonnement: Werk of hoger </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 

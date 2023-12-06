@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ U kunt een record uit de volgende gebieden bewerken:
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
 
 
-1. (Optioneel) Kopieer een bestaande waarde van een veld en plak in een veld van hetzelfde type in een andere record. Klik vervolgens op **Enter** op uw toetsenbord om uw wijzigingen op te slaan.
+1. (Optioneel) Kopieer een of meerdere bestaande waarden van een veld en plak deze in een veld van hetzelfde type in een andere record. Klik vervolgens op **Enter** op uw toetsenbord om uw wijzigingen op te slaan.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ U kunt een record uit de volgende gebieden bewerken:
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
    ><ul>
    >
-   > * Mensen
-   >
    > * Systeemvelden
-   >
-   > * Gekoppelde velden die zijn gemaakt als gevolg van het verbinden van records
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

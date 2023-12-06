@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Week van 4 december 2023
+
+### Informatie van het ene veld naar het andere kopiëren en plakken in de tabelweergave van Maestro voor recordvelden van het type Mensen en gekoppelde recordvelden
+
+Voorbeeld en productie: 5 december 2023
+
+U kunt nu informatie van het ene veld naar een ander veld van hetzelfde type kopiëren en plakken in een tabelweergave van het type Maestro-record. Deze functionaliteit wordt nu ondersteund voor de volgende typen velden:
+
+* Mensen
+* Gekoppelde recordvelden
+
+Overweeg het volgende:
+
+* Het kopiëren en plakken van veldwaarden van het ene veld naar het andere wordt ondersteund voor velden die meerdere waarden weergeven.
+
+* U kunt geen informatie kopiëren van een andere bron, behalve een Maestro-veld van hetzelfde type als het veld waarin u de informatie plakt.
+
+* U kunt geen veldwaarden kopiëren en plakken voor velden die worden weergegeven in het gebied Details van een record.
+
+Zie voor meer informatie [Records bewerken](../maestro/records/edit-records.md).
+
+Zie voor informatie over gekoppelde velden [Verbind recordtypen](../maestro/architecture/connect-record-types.md).
 
 ## Week van 27 november 2023
 

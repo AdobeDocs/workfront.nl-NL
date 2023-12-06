@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## Overwegingen bij het verbinden van recordtypen
+
+Overweeg het volgende:
 
 * U kunt de volgende entiteiten verbinden in Maestro:
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/dots-main-menu.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/lines-main-menu.png) in de linkerbovenhoek klikt u op **[!UICONTROL Maestro]**.
 
    De laatst geopende werkruimte moet standaard worden geopend.
 
