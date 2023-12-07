@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 9125e2f7dbff41625166dcd358bab44d7c1b971b
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
 -->
 
-Projecten vormen een grote hoeveelheid werk die in Adobe Workfront moet worden verricht.
+Projecten vormen een groot deel van het werk dat in Adobe Workfront moet worden verricht.
 
 ## Toegangsvereisten
 
@@ -62,12 +62,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw abonnement: standaard</p>
+        <p>of</p>
+        <p>Huidig plan: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau*</td> 
@@ -77,7 +79,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Wanneer u een project maakt, ontvangt u automatisch beheermachtigingen voor het project </p> <p> Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Wanneer u een project creeert, ontvangt u automatisch Manage toestemmingen aan het project.</p> <p> Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,114 +88,102 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Manieren om projecten te maken
 
-U kunt een project in Workfront tot stand brengen door één van de volgende methodes te gebruiken:
+U kunt een project in Workfront tot stand brengen gebruikend één van de volgende methodes:
 
 * Een geheel nieuw project maken zonder een sjabloon te gebruiken. In dit artikel wordt beschreven hoe u een geheel nieuw project kunt maken.
 
-* Kopieer een bestaand project.\
-   Voor meer informatie over het kopiëren van project, zie [Een project kopiëren](../../../manage-work/projects/manage-projects/copy-project.md).
+* Een bestaand project kopiëren.\
+  Voor meer informatie over het kopiëren van project, zie [Een project kopiëren](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Gebruik een sjabloon.\
-   Voor meer informatie over het gebruiken van een malplaatje om een nieuw project tot stand te brengen, zie [Een project maken met een sjabloon](../../../manage-work/projects/create-projects/create-project-from-template.md).
+  Voor meer informatie over het gebruiken van een malplaatje om een nieuw project tot stand te brengen, zie [Een project maken met een sjabloon](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 * Een project importeren uit Microsoft Project.\
-   Voor meer informatie over het invoeren van een project van het Project van MS, zie [Een project importeren uit een Microsoft-project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Voor meer informatie over het invoeren van een project van het Project van MS, zie [Een project importeren uit Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * Importeer een project met de functie voor het starten van een project.
 
-   Als beheerder van Workfront, kunt u projecten invoeren gebruikend een schop-begin.
+  Als beheerder van Workfront, kunt u projecten invoeren gebruikend een schop-begin.
 
-   Voor informatie over het importeren van gegevens met gebruik van de functie voor het starten in Workfront raadpleegt u [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md) .
+  Voor informatie over het importeren van gegevens met gebruik van de functie voor het starten in Workfront raadpleegt u [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Voor informatie over het invoeren van projecten gebruikend schoppen, zie [Kick-Starts-scenario: eenvoudige voorbereiding van project- en taakimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
+  Voor informatie over het invoeren van projecten gebruikend schoppen, zie [Kick-Starts-scenario: eenvoudig project en taak de invoervoorbereiding](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publiceer een initiatief van een scenario in de Planner van het Scenario van Adobe Workfront. Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Voor informatie over het creëren van projecten van het publiceren initiatieven, zie  [Werk of creeer projecten bij door initiatieven in de Planner van het Scenario te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publiceer een initiatief van een scenario in de Planner van het Scenario van Adobe Workfront. Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Voor informatie over het creëren van projecten van het publiceren initiatieven, zie  [Werk of creeer projecten door initiatieven in de Planner van het Scenario bij te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat
+Voordat u begint, moet u ervoor zorgen dat:
 
 * Uw systeem of groepsbeheerder liet &quot;toestaan gebruikers toe om projecten tot stand te brengen zonder een malplaatje&quot;voorkeur in het gebied van de Opstelling te gebruiken.
 
-   Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Nieuwe standaardinstellingen voor project
 
-Wanneer u een project maakt, past Workfront er een set standaardinstellingen op toe. De Modus Status, Groep of Planning is bijvoorbeeld vooraf ingesteld wanneer u een project maakt.
+Wanneer u een project maakt, past Workfront er een set standaardinstellingen op toe. De modi Status, Groep en Planning zijn bijvoorbeeld vooraf ingesteld wanneer u een project maakt.
 
 Overweeg het volgende:
 
-* Als beheerder van Workfront of een groepsbeheerder, kunt u de standaardmontages voor een nieuw project vormen wanneer het vormen van de Voorkeur van het Project voor uw instantie van Workfront of voor een groep.
+* Als beheerder van Workfront of een groepsbeheerder, kunt u de standaardmontages voor een nieuw project vormen wanneer het vormen van de Voorkeur van het Project voor uw volledige instantie van Workfront of voor een groep.
 * Workfront past de instellingen van de groep toe, indien aanwezig, voordat deze de instellingen toepast die door de Workfront-beheerder zijn ingesteld.
-* De standaardStatus van een nieuw project beantwoordt aan de status die door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project of door een groepbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor een groep wordt bepaald.
+* De standaardstatus van een nieuw project komt overeen met de status die is gedefinieerd door uw Workfront-beheerder in het gebied met projectvoorkeuren of door een groepsbeheerder (of Workfront-beheerder) in het gebied met projectvoorkeuren voor een groep.
 
-   >[!NOTE]
-   >
-   >Wij adviseren dat de standaardstatus voor een nieuw project Planning is. Aangezien u veranderingen in het nieuwe project aanbrengt, zorgt dit ervoor dat de berichten niet aan de gebruikers teweegbrengen die aan het project worden toegewezen.
-   >
-   >Voor meer informatie over vestiging de standaardstatus en andere standaardmontages voor een nieuw project, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) of [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+  >[!NOTE]
+  >
+  >Wij adviseren dat de standaardstatus voor een nieuw project Planning is. Aangezien u veranderingen in het nieuwe project aanbrengt, zorgt dit ervoor dat de berichten niet worden verzonden naar de gebruikers die aan het project worden toegewezen.
+  >
+  >Voor meer informatie over vestiging de standaardstatus en andere standaardmontages voor een nieuw project, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) of [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 * De volgende scenario&#39;s bestaan voor hoe Workfront de Groep en Status van een nieuw project bepaalt:
 
    * Als u een project van kras creeert, is de Groep van het project uw Groep van het Huis.
 
-      De status van het project is de standaardstatus in de projectvoorkeuren van uw thuisgroep, indien aanwezig, of van uw Workfront-instantie. U kunt de standaardstatus veranderen wanneer het creëren van het project in om het even welke status beschikbaar voor de Groep van het project.
+     De status van het project is de standaardstatus in de projectvoorkeuren van uw thuisgroep, indien aanwezig, of van uw Workfront-instantie. U kunt de standaardstatus veranderen wanneer het creëren van het project in om het even welke status beschikbaar voor de Groep van het project.
 
    * Als u een project gebruikend een malplaatje creeert, nemen de montages van het malplaatje belangrijkheid over de montages die door de Workfront of de groepsbeheerder worden gevestigd.
 
-      De Groep van het nieuwe project is de Groep van het malplaatje. Als het malplaatje niet met een Groep wordt geassocieerd, dan is de Groep van het project de Groep van het Huis van de gebruiker die tot het project leidt.
+     De Groep van het nieuwe project is de Groep van het malplaatje. Als het malplaatje niet met een Groep wordt geassocieerd, dan is de Groep van het project de Groep van het Huis van de gebruiker die tot het project leidt.
 
-      De standaardstatus van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project of door een groepsbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor de groep wordt bepaald. U kunt de standaardstatus veranderen wanneer het creëren van een project van een malplaatje, in om het even welke status van de Groep van het project dat of de Groep van het malplaatje, of de Groep van het Huis van de gebruiker is die tot het project leidt.
+     De standaardstatus van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project of door een groepsbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor de groep wordt bepaald. U kunt de standaardstatus veranderen wanneer het creëren van een project van een malplaatje, in om het even welke status van de Groep van het project dat of de Groep van het malplaatje, of de Groep van het Huis van de gebruiker is die tot het project leidt.
 
    * Als u een project creeert door een kwestie om te zetten, is de groep van een nieuw project de Groep van het bestaande project van de kwestie. Als de gebruiker die de kwestie omzet geen toegang tot het project van de kwestie heeft of als het project van de kwestie geen Groep heeft, is de Groep van het nieuwe project de Groep van het Huis van de gebruiker die de kwestie omzet.
 
-      De status van het nieuwe project komt overeen met de groepsstatus van de groep die is gekoppeld aan het project. Dit is ofwel de groep van het oorspronkelijke project ofwel de thuisgroep van de gebruiker die de uitgave omzet.
+     De statussen van het nieuwe project passen de groepsstatus van de groep aan het project aan, dat of de Groep van het oorspronkelijke project of de Groep van het Huis van de gebruiker is die de kwestie omzet.
 
-      Als u een malplaatje gebruikt wanneer u het project door de kwestie creeert om te zetten, verwijs naar het tweede scenario hierboven om te begrijpen welke Groep en welke Status Workfront op het nieuwe project van toepassing is.
+     Als u een malplaatje gebruikt wanneer u het project door de kwestie creeert om te zetten, verwijs naar het tweede scenario hierboven om te begrijpen welke Groep en welke Status Workfront op het nieuwe project van toepassing is.
 
 ## Een geheel nieuw project maken
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik op de knop **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Projecten** vervolgens uitvouwen **Nieuw project**.
+   * Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek Klikken **Projecten** vervolgens uitvouwen **Nieuw project**.
    * Naar een portfolio gaan en vervolgens uitvouwen **Nieuw project**.
-
-      >[!TIP]
-      >
-      >Wanneer u een project gebruikend een malplaatje van een portefeuille creeert, werkt het gebied van de Portfolio van het nieuwe project bij om de portefeuille te tonen u verkoos om het project van tot stand te brengen. Hiermee wordt het veld Portfolio in de sjabloon overschreven, als dit is opgegeven.
-
    * Naar een programma gaan en vervolgens uitvouwen **Nieuw project**.
-
-      >[!TIP]
-      >
-      >Wanneer u een project gebruikend een malplaatje van een programma creeert, werkt het gebied van het Programma van de nieuwe projecten bij om het Programma te tonen u verkoos om het project van tot stand te brengen. Het gebied van de Portfolio van het malplaatje werkt bij om de portefeuille van het programma te tonen u verkoos om het project van tot stand te brengen. Hiermee overschrijft u de velden Programma en Portfolio op de sjabloon, als deze zijn opgegeven.
-
    * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Zie voor meer informatie [Projecten van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-      >[!TIP]
-      >
-      >Wanneer u een project gebruikend een malplaatje van een groep creeert, de groep u het project van vertoningen op het gebied van de Groep van het nieuwe project creeert slechts wanneer het gebied van de Groep van het malplaatje niet wordt gespecificeerd. Als het gebied van de malplaatjegroep wordt gespecificeerd, is het gebied van de Groep van het nieuwe project dat van het malplaatje.
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Menu Nieuw project](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Klikken **Nieuw project** als u een geheel nieuw project wilt maken.
-1. Voer een naam in voor uw project. Druk op Enter om de naam op te slaan.
+1. Klikken **Nieuw project** in het menu om een geheel nieuw project te maken.
+1. Typ een naam voor het project. Druk op Enter om de naam op te slaan.
 
-   ![](assets/untitled-project-rename-new-project-nwe-350x127.png)
+   ![Geef een naam op voor het project](assets/rename-untitled-project.png)
 
    De kopbal van de projectpagina toont een snel overzicht van de huidige gezondheid en de vooruitgang van een project. De informatie in de projectkopbal verandert aangezien de projectinformatie wordt bijgewerkt.
 
-1. Klikken **Toevoegen starten** **Taken**.
+1. Klikken **Taken toevoegen starten**.
 
    of
 
-   Klikken **Nieuwe taak** om taken aan het project toe te voegen en middelen aan hen toe te wijzen.\
+   Klikken **Nieuwe taak** om taken aan het project toe te voegen en middelen aan hen toe te wijzen.
+
    Voor meer informatie over het toevoegen van taken aan een project, zie [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Bewerk de projectdetails door op de knop **Het menu Meer** en vervolgens **Bewerken** ![](assets/qs-edit-icon.png) naast de naam van het project.
+1. Bewerk de projectdetails door op de knop **Meer** en vervolgens **Bewerken** ![](assets/qs-edit-icon.png) naast de naam van het project.
 
    De **Project bewerken** wordt geopend.
 
-   Voor meer informatie over het bewerken van een project raadpleegt u [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Zie voor meer informatie over het bewerken van een project [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. (Optioneel) Nadat u de projectinstellingen hebt geconfigureerd en de taken hebt toegevoegd, kunt u de status van het project wijzigen in **Huidig**.
 

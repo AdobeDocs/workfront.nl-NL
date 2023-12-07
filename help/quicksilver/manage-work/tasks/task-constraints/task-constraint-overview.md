@@ -7,9 +7,9 @@ description: De beperkingen van de taak bepalen wanneer een taak op een project 
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Restrictietypen waarvoor gedefinieerde datums zijn vereist, beïnvloeden de voor
 
 >[!TIP]
 >
->U kunt overwegen een type beperking te gebruiken waarvoor geen specifieke datums zijn vereist als u een eerdere relatie tussen taken gebruikt.
+>U kunt overwegen een type beperking te gebruiken waarvoor geen specifieke datums zijn vereist als u voorgaande relaties tussen taken gebruikt.
 
 In de volgende tabel worden elke restrictie en de afkorting ervan weergegeven. Afkortingen worden gebruikt in taaklijsten en bij het maken van Kick-Start-importbestanden. Klik op de gekoppelde titel van elke taakbeperking voor meer informatie over dat type beperking.
 
@@ -45,66 +45,66 @@ In de volgende tabel worden elke restrictie en de afkorting ervan weergegeven. A
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Overzicht van taakbeperking: Zo snel mogelijk</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Overzicht van taakbeperking: zo snel mogelijk</a> </p> </td> 
    <td scope="col"> <p>ASAP</p> </td>
    <td scope="col"> <p>Plaatst de begintijd van de taak zo dicht mogelijk bij het begin van het project.</p> 
    <p>Het is de standaardbeperking als het project een Wijze van het Programma van de Datum van het Begin gebruikt en als de systeemstandaardbegindatum voor een nieuwe taak aan Gebaseerd op het Geplande Datum van het Project wordt geplaatst. </p>
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Overzicht van taakbeperking: Zo laat mogelijk </a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Overzicht van taakbeperking: zo laat mogelijk </a> </p> </td> 
    <td scope="col"> <p>ALAP</p> </td> 
    <td scope="col"> <p>Hiermee plaatst u de voltooiingstijd van de taak zo dicht mogelijk bij het einde van het project.</p> 
-   <p>Dit is de standaardbeperking wanneer de Wijze van het projectprogramma van de Datum van de Voltooiing is en het systeem of groepgebrek voor de Datum van het Begin van een taak wordt gebaseerd op de Geplande Datum van het Project. </p>
+   <p>Dit is de standaardbeperking wanneer de wijze van het projectprogramma van de Datum van de Voltooiing is en het systeem of groepgebrek voor de Datum van het Begin van een taak wordt geplaatst aan Gebaseerd op de Geplande Datum van het Project. </p>
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Overzicht van taakbeperking: Vroegst beschikbare tijd</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Overzicht van taakbeperking: vroegst beschikbare tijd</a> </p> </td> 
    <td scope="col"> <p>EAT</p> </td> 
  <td scope="col"> <p>Plan een taak om bij de vroegste beschikbare tijd te beginnen na het overwegen van om het even welke voorgangersverhoudingen.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Overzicht van taakbeperking: Laatste beschikbare tijd</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Overzicht van taakbeperking: nieuwste beschikbare tijd</a> </p> </td> 
    <td scope="col"> <p>LAT</p> </td> 
-   <td scope="col"> <p>Plan een taak om bij de recentste beschikbare tijd na het overwegen van voorganger-opvolgerrelaties in het project te beginnen.</p> </td>
+   <td scope="col"> <p>Plan een taak om bij de recentste beschikbare tijd te beginnen na het overwegen van voorganger-opvolgerrelaties in het project.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Overzicht van taakbeperking: Niet eerder starten dan</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Overzicht van taakbeperking: begin niet eerder dan</a> </p> </td> 
    <td scope="col"> <p>SNET</p> </td> 
    <td scope="col"> <p>Hiermee plant u een taak die moet worden gestart na de opgegeven datum.</p> 
    <p>Dit is de standaardbeperking als de Wijze van het projectprogramma van de Datum van het Begin is en als het systeem of de groep standaardDatum van het Begin voor een nieuwe taak aan Vandaag wordt geplaatst.   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Overzicht van taakbeperking: Niet later starten dan</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Overzicht van taakbeperking: begin uiterlijk op</a> </p> </td> 
    <td scope="col"> <p>SNLT</p> </td> 
    <td scope="col"> <p>Hiermee plant u een taak die moet worden gestart vóór de datum die u opgeeft.</p> 
-   <p>STThis is de standaardbeperking als de Wijze van het projectprogramma van de Datum van de Voltooiing en systeem of groepgebrek voor de Datum van het Begin van een taak vandaag is. 
+   <p>Dit is de standaardbeperking als de Wijze van het projectprogramma van de Datum van de Voltooiing is en als het systeem of groepgebrek voor de Datum van het Begin van een taak aan Vandaag wordt geplaatst. 
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Overzicht van taakbeperking: Niet eerder voltooien dan</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Overzicht van taakbeperking: voltooien niet eerder dan</a> </p> </td> 
    <td scope="col"> <p>FNET</p> </td>
    <td scope="col"> <p>Hiermee wordt een taak gepland die na de opgegeven datum moet worden voltooid.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Overzicht van taakbeperking: Niet later voltooien dan</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Overzicht van taakbeperking: uiterlijk voltooien</a> </p> </td> 
    <td scope="col"> <p>FNLT</p> </td> 
    <td scope="col"> <p>Hiermee wordt een taak gepland die moet worden voltooid vóór de datum die u opgeeft.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Overzicht van taakbeperking: Moet beginnen op</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Overzicht van taakbeperking: moet worden gestart</a> </p> </td> 
    <td scope="col"> <p>MSO</p> </td> 
    <td scope="col"> <p>Hiermee wordt een taak gepland die precies op een bepaalde datum moet beginnen.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Overzicht van taakbeperking: Moet worden voltooid op</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Overzicht van taakbeperking: moet voltooien op</a> </p> </td> 
    <td scope="col"> <p>MFO</p> </td> 
    <td scope="col"> <p>Hiermee plant u een taak die op een bepaalde datum moet eindigen.</p> </td>
   </tr> 
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Overzicht van taakbeperking: Vaste datums</a> </p> </td> 
    <td> <p>FIXT</p> </td> 
-   <td> <p>Hiermee wordt een taak gepland die op een bepaalde datum moet beginnen en eindigen.</p> </td> 
+   <td> <p>Hiermee wordt een taak gepland die op specifieke datums moet worden gestart en beëindigd.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +113,7 @@ In de volgende tabel worden elke restrictie en de afkorting ervan weergegeven. A
 
 Wanneer u nieuwe taken maakt, wordt automatisch een taakbeperking geselecteerd door Workfront.
 
-Workfront gebruikt twee variabelen om te beslissen welke de Beperking van de Taak door gebrek voor een nieuwe taak wordt geselecteerd:
+Workfront gebruikt twee variabelen om te beslissen welke Restrictie van de Taak door gebrek voor een nieuwe taak wordt geselecteerd:
 
 * De **Projectschema van** veld op het project.
 
@@ -121,7 +121,7 @@ Workfront gebruikt twee variabelen om te beslissen welke de Beperking van de Taa
 
 * De **Begindatum** door uw Workfront of groepsbeheerder ingestelde voorkeur in het dialoogvenster **Taken en problemen** gebied van **Instellen**.
 
-  Voor informatie over de Voorkeur van Taken &amp; van Kwesties, zie de &quot;Nieuwe sectie van de Standaardinstellingen van de Taak&quot;in [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Voor informatie over Taken &amp; de Voorkeur van Kwesties, zie [Nieuwe taakstandaardinstellingen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) sectie in [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 De volgende lijst toont de standaardBeperking van de Taak wanneer het kiezen van verschillende variabelen voor uw project en uw nieuwe taken:
 

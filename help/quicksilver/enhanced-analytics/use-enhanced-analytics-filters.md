@@ -6,7 +6,7 @@ description: Met de filters in het gedeelte Enhanced analytics van Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -28,9 +28,6 @@ Desgewenst kunt u filters toevoegen en verwijderen en behoudt Workfront de filte
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -50,15 +47,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td> 
   </tr>
   <tr> 
-   <td><b>Toegangsniveau*</b> </td> 
+   <td>Toegangsniveau* </td> 
    <td> <p>Toegang tot projecten weergeven</p> <p>U moet de toegang van de Mening tot Taken, Portfolio's, en Gebruikers ook hebben om specifieke de filteropties van het projectgebied te zien.</p> <p>Opmerking: als er beperkingen zijn geselecteerd in de sectie Aanvullende beperkingen instellen van het dialoogvenster Toegangsniveau bewerken, ziet u mogelijk niet alle informatie in de filters of op de pagina Uitgebreide analyse nadat het filter is toegepast. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Objectmachtigingen</b> </p> </td> 
+   <td> <p>Objectmachtigingen </p> </td> 
    <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
 ## Vereisten
 

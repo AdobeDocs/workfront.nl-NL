@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 
 De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien de Eerste Kwartaal 2024 versie zijn geplande versie van de Productie nadert.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het eerste kwartaal van 2024 in productie zijn), worden geel gemarkeerd.</span>
 
