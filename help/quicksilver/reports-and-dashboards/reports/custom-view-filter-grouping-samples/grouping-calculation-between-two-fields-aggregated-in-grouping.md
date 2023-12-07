@@ -3,12 +3,12 @@ content-type: reference
 product-area: reporting;projects
 keywords: berekend,aggregaten,geavanceerd,weergaven
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Groeperen: het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep.'
+title: 'Groeperen: het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep'
 description: U kunt tekstmodus in een kolom gebruiken om een berekening weer te geven tussen twee velden in de weergave van een rapport of lijst. Elke lijn toont de berekening voor elk voorwerp in het rapport of de lijst.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt tekstmodus in een kolom gebruiken om een berekening weer te geven tussen twee velden in de weergave van een rapport of lijst. Elke lijn toont de berekening voor elk voorwerp in het rapport of de lijst.
 
-Bijvoorbeeld, kunt u het verschil tussen Ware Uren en Geplande Uren in een derde kolom tonen genoemd het Saldo van het Werk voor elke taak in een taakrapport. Zie voor meer informatie over berekende gegevensexpressies [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Bijvoorbeeld, kunt u het verschil tussen Ware Uren en Geplande Uren in een derde kolom tonen genoemd het Saldo van het Werk voor elke taak in een taakrapport. Zie voor meer informatie over berekende gegevensexpressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 U kunt de geaggregeerde waarde van meerdere berekende weergaveitems in dezelfde kolom in een groep weergeven door een berekening toe te voegen aan de `aggregator` lijn van de kolom die de berekende waarde bevat. Bijvoorbeeld, kunt u (som van) de hoeveelheid uren van het Saldo van het Werk van alle taken in de groepering van het rapport of de lijst voor de kolom van het Saldo van het Werk samenvoegen. In dit artikel wordt beschreven hoe u dit kunt doen.
 
@@ -48,7 +48,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 ## Het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep
 
 1. Ga naar een taakrapport, klik **Handelingen rapporteren** > **Bewerken**.
-1. In de **Groepen** tabblad, klikt u op **Groepering toevoegen** en begint te typen **Projectnaam** in de **Uw rapport groeperen** > **Eerst** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+1. In de **Groepen** tabblad, klikt u op **Groepering toevoegen** en begint te typen **Projectnaam** in de **Uw rapport groeperen** > **Eerst door** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
 
 1. In de **Kolommen (weergave)** tabblad, klikt u op **Kolom toevoegen** en begint vervolgens met typen **Geplande uren** in de **Tonen in deze kolom** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3494'
 ht-degree: 0%
 
 ---
@@ -351,7 +351,7 @@ U kunt project-specifieke tijd in Huis registreren.
 Zie de volgende secties voor algemene informatie over het gebruik van het gebied Home:
 
 * Ga voor informatie over het gebruik van het verouderde Home-gebied naar [Het gebied Home gebruiken](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Voor informatie over het gebruik van het nieuwe gebied Home raadpleegt u [Aan de slag met New Home in Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Voor informatie over het gebruik van het nieuwe gebied Home raadpleegt u [Aan de slag met Nieuwe startpagina](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### De tijd van het logboek op een het werkpunt van het nieuwe gebied van het Huis
 

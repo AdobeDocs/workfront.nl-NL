@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Rapport: Budgeted Hour'''
-description: '"Rapport: Budgeted Hour'''
+title: "Verslag: Budgeted Hour"
+description: "Verslag: Budgeted Hour"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
 
-# Rapport: Budgeted Hour
+# Verslag: Budgeted Hour
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
@@ -56,7 +56,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,11 +85,11 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    en voert u de afrondingsexpressie in.
 
-   Hiermee wordt het aantal begrote uren uren afgerond op een aantal decimalen dat u opgeeft.
+   Hiermee wordt het aantal begrotingsuren afgerond op een aantal decimalen dat u opgeeft.
 
-   Zie het artikel voor informatie over het afronden van een getal in Workfront [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Zie het artikel voor informatie over het afronden van een getal in Workfront [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. (Optioneel) Klik op **Kolom toevoegen** om extra kolommen toe te voegen.
+1. (Optioneel) Klik op **Kolom toevoegen** extra kolommen toevoegen.
 1. (Optioneel) Om het rapport beter leesbaar te maken, raden we u aan een groep aan het rapport toe te voegen. Wij stellen de volgende groepering voor:
 
    Klik op de knop **Groepen** voert u een of meer van de volgende handelingen uit:
@@ -124,7 +124,7 @@ De volgende informatie is standaard beschikbaar in het rapport Boedgeted Hour:
   </tr> 
   <tr> 
    <td role="rowheader">Alloc. Datum</td> 
-   <td> <p>Dit is de toewijzingsdatum. Het is de eerste dag (een zondag) van de week waarvoor u de uren in de begroting heeft opgenomen.</p> <p>Tip:  <p>Als een week zich over twee maanden uitstrekt, produceert dit twee rijen in het rapport: één die met de eerste dag van de week (de zondag van de week die in de eerste maand is) overeenkomt, en een tweede die met de eerste dag van de tweede maand (en die om het even welke dag van de week zou kunnen zijn.)</p> <p>Als u bijvoorbeeld 8 uur begroot voor een gebruiker voor de week van 30 juni (zondag) - 6 juli (zaterdag), geven de twee rijen een toewijzingsdatum van 30 juni en 1 juli weer.</p> </p> </td> 
+   <td> <p>Dit is de toewijzingsdatum. Het is de eerste dag (een zondag) van de week waarvoor u de uren in de begroting heeft opgenomen.</p> <p>Tip:  <p>Als een week twee maanden omvat, genereert dit twee rijen in het rapport: een rij die overeenkomt met de eerste dag van de week (de zondag van de week die de eerste maand is) en een tweede rij die overeenkomt met de eerste dag van de tweede maand (en die een willekeurige dag van de week kan zijn).</p> <p>Als u bijvoorbeeld 8 uur begroot voor een gebruiker voor de week van 30 juni (zondag) - 6 juli (zaterdag), geven de twee rijen een toewijzingsdatum van 30 juni en 1 juli weer.</p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bud. Uren</td> 

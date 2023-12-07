@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
 
         Wanneer u in een berekend aangepast veld naar een verwant object verwijst, moet u namen en kenmerken van objecten scheiden met punten.
 
-        Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar van de Portfolio wilt weergeven in een berekend aangepast veld, typt u het volgende:
+        Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar van het Portfolio wilt weergeven in een berekend aangepast veld, typt u het volgende:
 
         `{project}.{porfolio}.{owner}`
 
@@ -281,7 +281,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
       >
       >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
       > 
-      >* Houd de muisaanwijzer boven een expressie in uw berekening om een beschrijving te bekijken, een voorbeeld van het gebruik ervan en een koppeling Meer informatie in het artikel [Berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Houd de muisaanwijzer boven een expressie in uw berekening om een beschrijving te bekijken, een voorbeeld van het gebruik ervan en een koppeling Meer informatie in het artikel [Overzicht van berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
       >  ![](assets/colors-fields-expressions.jpg)

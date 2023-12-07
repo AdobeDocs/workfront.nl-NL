@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt rapporten tot stand brengen gebruikend berekende douanegegevens. In de volgende artikelen wordt beschreven hoe:
 
-* [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+* [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
 * [Operatoren voor voorwaarde in berekende aangepaste expressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
 * [Overzicht van &quot;IF&quot;-instructies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)

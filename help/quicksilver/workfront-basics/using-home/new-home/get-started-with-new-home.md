@@ -1,43 +1,47 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Aan de slag met New Home in Adobe Workfront
-description: Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk.
+title: Aan de slag met nieuwe startpagina
+description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het beheer van uw werk. Deze flexibele ruimte kan worden aangepast om het werk te benadrukken dat voor u het belangrijkst is en uw taak, kwestie, verzoek, en goedkeuringsbeheer te stroomlijnen.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met New Home in Adobe Workfront
+# Aan de slag met de nieuwe startpagina
 
-Nieuwe startpagina is een krachtige nieuwe functie voor het beheer van uw werk. Deze flexibele ruimte kan worden aangepast om het werk te benadrukken dat voor u het belangrijkst is en uw taak, kwestie, verzoek, en goedkeuringsbeheer te stroomlijnen.
+De nieuwe Home-ervaring in Adobe Workfront is bedoeld om de huidige Home-ervaring te verbeteren en biedt een flexibelere manier om u te richten op het juiste werk.
 
-## Nieuwe startpagina aanpassen
+Het nieuwe Home-programma is een krachtige nieuwe functie voor het beheer van uw werk. U kunt deze flexibele ruimte aanpassen om het werk te benadrukken dat voor u het belangrijkst is en uw taak, kwestie, verzoek, en goedkeuringsbeheer te stroomlijnen.
 
-Het nieuwe huis wordt ontworpen om hoogst aanpasbaar te zijn, toestaand u om widgets te selecteren die uw belangrijkste werk volgen, het werkingsgebied van dat werk filtreren dat op wanneer het wordt gebaseerd, of zelfs een splash van kleur toevoegen.
+## De nieuwe startpagina aanpassen
+
+Het nieuwe Huis wordt ontworpen om hoogst aanpasbaar te zijn, toestaand u om widgets te selecteren die uw belangrijkste werk volgen, het werkingsgebied van dat werk filtreren dat op wanneer het wordt gebaseerd, en zelfs een splash van kleur toe te voegen.
 
 ### Widgets
 
-Widgets vormen de basis van New Home. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties. Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Widgets vormen de basis van het nieuwe startpunt. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties.
+
+Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of verwijderen van widgets [Widgets toevoegen, bewerken of verwijderen in Nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht van de informatie die ze weergeven:
 
 * **Mijn werk**\
-    Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken.
+    Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken. U kunt op de knop Aan een item werken klikken om het item te bewerken.
 
 * **Mijn projecten**\
-    De projecten van vertoningen die aan u in een lijst worden toegewezen die kunnen worden gesorteerd om slechts projecten te tonen u of alle projecten hebt u bent; standaardfilter, mening, en groeperingsopties; en een knoop om een nieuw project direct tot stand te brengen.
+    De projecten van vertoningen u of projecten bezit u in een lijst bent. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een project rechtstreeks vanuit de widget maken.
 
 * **Mijn taken**\
-    De taken van vertoningen die aan u in een lijst met klantgerichte filters, meningen, en groeperingen, evenals een knoop worden toegewezen om een nieuwe taak direct tot stand te brengen.
+    De taken van vertoningen die aan u in een lijst worden toegewezen. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een taak rechtstreeks vanuit de widget maken. U kunt uw taken ook delegeren terwijl u weg van het bureau bent.
 
 * **Mijn problemen**\
-    Hiermee geeft u problemen weer die aan u zijn toegewezen in een tabel met aanpasbare filters, weergaven en groepen, alsmede een knop om een nieuwe uitgave rechtstreeks te maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig.
+    Hiermee geeft u problemen weer die aan u zijn toegewezen in een lijst. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een uitgave rechtstreeks vanuit de widget maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig. U kunt uw kwesties ook delegeren terwijl u weg van het bureau bent.
 
 * **Mijn verzoeken**\
     Toont alle verzoeken u hebt voorgelegd, een filter om open verzoeken slechts te tonen, en een knoop die de summiere ruit voor een verzoek opent.
@@ -52,7 +56,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
     Toont alle goedkeuringen voor uw organisatie in een lijst met klantgerichte kolommen, evenals een onderzoeksbar die u toestaat om naar specifieke goedkeuringen te zoeken.
 
 * **Opmerkingen**\
-    Toont recente commentaardraden van over Workfront, gelijkaardig aan de Mijn pagina van Updates, evenals een antwoordknoop die u toestaat om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
+    Geeft recente commentaarthreads van over Workfront weer, net als de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
 
 * **To-dos**\
     Met deze unieke widget kunt u tekstitems toevoegen aan een persoonlijke controlelijst die u kunt bewerken.
@@ -65,7 +69,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
 
 <table border="1" class="inlineTable">
     <tr>
-        <td><b>Huidig licentietype</b></td>
+        <td><b>Nieuw type licentie</b></td>
         <td><b>Standaardwidgets</b></td>
     </tr>
     <tr>
@@ -88,7 +92,7 @@ Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het t
 
 <table border="1" class="inlineTable">
     <tr>
-        <td><b>Verouderd licentietype</b></td>
+        <td><b>Huidig licentietype</b></td>
         <td><b>Standaardwidgets</b></td>
     </tr>
     <tr>
@@ -123,28 +127,35 @@ U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kle
 
 **De kleur van de achtergrond voor thuis wijzigen:**
 
-1. Ga naar uw startpagina door op het Adobe Workfront-pictogram te klikken ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) boven aan het scherm als Home is ingesteld als uw openingspagina of door op het pictogram van het hoofdmenu te klikken ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) vervolgens klikken op **Home**.
+1. Ga naar uw startpagina door een van de volgende handelingen uit te voeren:
 
-1. Klik op de knop Aanpassen in de rechterbovenhoek van het scherm.
+   * Als Home is ingesteld als uw bestemmingspagina, klikt u op de knop **Adobe Workfront** pictogram ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) in de linkerbovenhoek van het scherm.
+   * Klik op de knop **Hoofdmenu** in de rechterbovenhoek van het scherm, of **Hoofdmenu** pictogram ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Home**.
+
+1. Klikken **Aanpassen** rechtsboven in het scherm.
 
    ![Knop Aanpassen](../new-home/assets/customize-button.png)
 
+   Het deelvenster Aanpassen wordt geopend.
+
 1. In de **Achtergrond** van de **Aanpassen** klikt u op de kleur die u voor de achtergrond Home wilt selecteren. U kunt ook op **Geen** om de achtergrond te verwijderen.
 
-## Huidige Home-ervaring herstellen
+## Terugkeren naar de huidige Home-ervaring
 
-Voor gebruikers die de voorkeur geven aan de bestaande Home-ervaring, kan New Home worden uitgeschakeld.
+Als u liever de bestaande Home-ervaring wilt gebruiken, kunt u de nieuwe Home-ervaring uitschakelen.
 
-**Ga terug naar de huidige Home-ervaring:**
+Ga terug naar de huidige Home-ervaring:
 
-1. Ga naar uw startpagina door op het Adobe Workfront-pictogram te klikken ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) boven aan het scherm als Home is ingesteld als uw openingspagina of door op het pictogram van het hoofdmenu te klikken ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) vervolgens klikken op **Home**.
+1. Ga naar uw startpagina door op de knop **Adobe Workfront** pictogram ![Adobe Workfront-pictogram](../new-home/assets/home-icon-30x29.png) in de linkerbovenhoek van het scherm als Home is ingesteld als de bestemmingspagina, of klik op de knop **Hoofdmenu** pictogram in de rechterbovenhoek ![](assets/dots-main-menu.png) of de **Hoofdmenu** pictogram ![Pictogram Hoofdmenu](../new-home/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Home**.
 
 1. Klik op de knop **Terug naar huidige startpunt** in de rechterbenedenhoek van de pagina.
 
    ![Terug naar huidige startknop](../new-home/assets/go-back-to-current-home-button.png)
 
-1. In het bevestigingsvenster dat wordt weergegeven, kunt u desgewenst een korte enquête houden over uw ervaring met New Home of op **Terug naar huidige startpagina** om uw beslissing af te ronden en terug te keren naar de huidige Home-ervaring.
+   Er wordt een bevestigingsvenster weergegeven.
+
+1. Neem een korte enquête over uw ervaring met het nieuwe Home of klik op **Terug naar huidige startpagina** om terug te keren naar de huidige Home-ervaring.
 
 >[!NOTE]
 >
-> Systeembeheerders kunnen Nieuwe startpagina als standaard uitschakelen voor hun gebruikers. Voor informatie over het wijzigen van de standaardervaring van het Huis voor gebruikers over een systeem, zie [Systeemvoorkeuren configureren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+> Systeembeheerders kunnen het nieuwe startpunt als standaard uitschakelen voor hun gebruikers. Voor informatie over het wijzigen van de standaardervaring van het Huis voor gebruikers over een systeem, zie [Systeemvoorkeuren configureren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

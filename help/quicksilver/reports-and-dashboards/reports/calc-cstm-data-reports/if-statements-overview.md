@@ -7,9 +7,9 @@ description: U kunt "IF"verklaringen in algemene programmeertalen gebruiken. In 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Overweeg het volgende voordat u een &quot;IF&quot;-instructie maakt:
 * Wij bevelen een basisbegrip van om het even welke algemene programmeertaal aan, maar wij vereisen het niet, voor deze gids.
 * We hebben een geavanceerd inzicht nodig in de syntaxis van de Workfront-tekstmodus. Dit helpt u bij het begrijpen van de terminologie van de Workfront API en bij het begrijpen van de syntaxis van aangepaste gegevens in deze specifieke indelingen.
 
-   Voor informatie over de Workfront API raadpleegt u [Basisbeginselen van API](../../../wf-api/general/api-basics.md).
+  Zie voor informatie over de Workfront API [Basisbeginselen van API](../../../wf-api/general/api-basics.md).
 
-   Voor informatie over het gebruik van de tekstmodus raadpleegt u [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Zie voor informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 * U kunt &quot;IF&quot;-instructies maken voor de volgende Workfront-elementen:
 
@@ -44,8 +44,8 @@ Overweeg het volgende voordat u een &quot;IF&quot;-instructie maakt:
 U kunt &#39;IF&#39;-instructies in Workfront maken met de volgende indeling:
 <pre>IF (Voorwaarde,Ware uitdrukking,Onjuiste uitdrukking)</pre>De componenten van een "IF"verklaring zijn:
 
-* **IF**= Dit is de door Workfront berekende gegevensexpressie voor &quot;function.&quot; Net als bij de SUM- en PROD-expressies vertelt dit het systeem eerst om de functie te begrijpen als een &#39;IF&#39;-instructie. Gebruik altijd hoofdletters voor &quot;IF&quot; in deze instructie.\
-   Voor een lijst met alle berekende gegevensexpressies raadpleegt u [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+* **IF**= Dit is de door Workfront berekende gegevensexpressie voor &quot;function.&quot; Net als bij de SUM- en PROD-expressies vertelt dit het systeem eerst om de functie te begrijpen als een &quot;IF&quot;-instructie. Gebruik altijd hoofdletters voor &quot;IF&quot; in deze instructie.\
+  Zie voor een lijst met alle berekende gegevensexpressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 * **Voorwaarde**= Dit is de voorwaarde waaraan de variabele Workfront moet voldoen en het is de basis voor deze vergelijking. Alles wat later in de vergelijking kan worden gespecificeerd hangt van de voorwaarde af. U kunt een aantal verwijzingen, vergelijkingen of wiskundige expressies gebruiken om een vergelijking te starten. Voorbeelden van voorwaarden zijn:
 
@@ -53,9 +53,9 @@ U kunt &#39;IF&#39;-instructies in Workfront maken met de volgende indeling:
    * Een status is gelijk aan een van de beschikbare statussen voor een opgegeven object.
    * Percentage voltooide taken is kleiner dan of groter dan een bepaald percentage.
 
-* **Condition-operator** = dit is de exploitant die u helpt de voorwaarde van uw &quot;IF&quot;verklaring bouwen. &#39;is gelijk aan&#39; of &#39;is groter dan&#39; zijn bijvoorbeeld voorwaarde-operatoren. Zie voor een lijst met voorwaardelijke operatoren die u kunt gebruiken in instructies [Operatoren voor voorwaarde in berekende aangepaste expressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+* **Condition-operator** = dit is de exploitant die u helpt de voorwaarde van uw &quot;IF&quot;verklaring bouwen. &#39;is gelijk aan&#39; of &#39;is groter dan&#39; zijn bijvoorbeeld voorwaarde-operatoren. Voor een lijst met voorwaardelijke operatoren die u kunt gebruiken in instructies, raadpleegt u [Operatoren voor voorwaarde in berekende aangepaste expressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **Waar*** Uitdrukking**= Dit is de variabele &quot;Waar&quot;, die de vergelijking vertelt welke indicator om te tonen zodra aan de criteria van de voorwaarde wordt voldaan (ware indicatoren).
+* **Waar*** Uitdrukking**= Dit is de variabele &quot;True&quot;, die de vergelijking vertelt welke indicator moet worden weergegeven wanneer aan de criteria van de voorwaarde is voldaan (ware indicatoren).
 
 * **Onjuiste uitdrukking**= Dit is de variabele &quot;False&quot;, die de vergelijking vertelt welke indicator moet worden weergegeven wanneer niet aan de criteria van de voorwaarde wordt voldaan (valse indicatoren).
 
@@ -65,7 +65,7 @@ In het volgende voorbeeld wordt de oorspronkelijke indeling van de instructie ge
 IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track","On Track")
 ```
 
-In de dagelijkse toespraak zou deze uitspraak betekenen dat: Als de Geprojecteerde Voltooiingsdatum van mijn voorwerp &quot;Groter dan&quot;de Geplande VoltooiingsDatum van mijn zelfde voorwerp is, dan toon de woorden &quot;van Spoor&quot;op dit gebied. Als dat niet het geval is, geeft u de woorden &quot;Op track&quot; weer.
+In alledaagse toespraken zou deze verklaring betekenen: Als de Geprojecteerde VoltooiingsDatum van mijn voorwerp &quot;Groter dan&quot;de Geplande VoltooiingsDatum van mijn zelfde voorwerp is, dan toon de woorden &quot;van Spoor&quot;op dit gebied. Als dat niet het geval is, geeft u de woorden &quot;Op track&quot; weer.
 
 ## Berekende velden samenstellen in aangepaste formulieren of aangepaste kolommen met de instructies &#39;IF&#39;
 
@@ -73,10 +73,10 @@ U kunt &#39;IF&#39;-instructies in een berekend veld opbouwen in een aangepast f
 
 Er is een verschil in de syntaxis u in een berekend douaneformulier tegenover een berekende douanekolom gebruikt. Raadpleeg de volgende voorbeelden:
 
-* [Enkele &quot;IF&quot;-instructies](#single-if-statements)
+* [Enkelvoudige &quot;IF&quot;-instructies](#single-if-statements)
 * [Meerdere &quot;IF&quot;-instructies](#multiple-if-statements)
 
-### Enkele &quot;IF&quot;-instructies {#single-if-statements}
+### Enkelvoudige &quot;IF&quot;-instructies {#single-if-statements}
 
 Hieronder volgen voorbeelden van een berekend aangepast veld en de bijbehorende kolom met behulp van de instructie &quot;IF&quot;:
 
@@ -106,9 +106,9 @@ Hieronder volgen voorbeelden van een berekend aangepast veld en de bijbehorende 
 
 * Berekend aangepast veld:
 
-   ```
-   IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track",IF({plannedCompletionDate}>{projectedCompletionDate},"Off Track","On Track"))
-   ```
+  ```
+  IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track",IF({plannedCompletionDate}>{projectedCompletionDate},"Off Track","On Track"))
+  ```
 
 * Berekende aangepaste kolom:
 
@@ -119,6 +119,6 @@ valueexpression=IF({"projectedCompletionDate"}>{"plannedCompletionDate"},"Off Tr
 In dit voorbeeld is hetzelfde bereikt door twee verschillende criteria te combineren.\
 U kunt deze opties verder verkennen door deze voorbeelden opnieuw samen te stellen in uw eigen omgeving.
 
-De beste manier om dit te leren is door met diverse gebieden en scenario&#39;s te experimenteren. U moet ook vertrouwd raken met de API Explorer, die de veldnamen onthult die kunnen worden gebruikt. Voor informatie over de API Explorer raadpleegt u [API Explorer](../../../wf-api/general/api-explorer.md).
+De beste manier om dit te leren is door met diverse gebieden en scenario&#39;s te experimenteren. U moet ook vertrouwd raken met de API Explorer, die de veldnamen onthult die kunnen worden gebruikt. Zie voor informatie over de API Explorer [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Zie voor meer informatie over de Workfront-syntaxis van berekende gegevensexpressies [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Zie voor meer informatie over de Workfront-syntaxis van berekende gegevensexpressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
    >
    >In dit voorbeeld: `SUB` is de expressie en de velden waarnaar wordt verwezen, zijn `actualRevenue` en `actualCost`.
 
-   Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de velden bevatten waarnaar u wilt verwijzen wanneer het aangepaste formulier aan een object is gekoppeld. Zie voor informatie over de beschikbare expressies [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de velden bevatten waarnaar u wilt verwijzen wanneer het aangepaste formulier aan een object is gekoppeld. Zie voor informatie over de beschikbare expressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Elk veld moet met accolades zijn omgeven, zoals in de sectie wordt uitgelegd [Syntaxis vereist in berekende aangepaste velden](#syntax-required-in-calculated-custom-fields) in dit artikel. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen.
 
@@ -138,7 +138,7 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
    >
    >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
    > 
-   >* Houd de muisaanwijzer boven een expressie in uw berekening om een beschrijving te bekijken, een voorbeeld van het gebruik ervan en een koppeling Meer informatie in het artikel [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Houd de muisaanwijzer boven een expressie in uw berekening om een beschrijving te bekijken, een voorbeeld van het gebruik ervan en een koppeling Meer informatie in het artikel [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
    >  ![](assets/colors-fields-expressions.jpg)
@@ -232,7 +232,7 @@ In het systeem worden alle aangepaste velden weergegeven waaruit u kunt kiezen w
 
 Wanneer u in een berekend aangepast veld naar een verwant object verwijst, moet u namen en kenmerken van objecten scheiden met punten.
 
-Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar van de Portfolio wilt weergeven in een berekend aangepast veld, typt u het volgende:
+Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar van het Portfolio wilt weergeven in een berekend aangepast veld, typt u het volgende:
 
 `{project}.{porfolio}.{owner}`
 

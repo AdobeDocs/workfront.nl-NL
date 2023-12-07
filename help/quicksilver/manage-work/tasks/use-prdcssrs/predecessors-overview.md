@@ -7,9 +7,9 @@ description: Een voorganger is de taak waarvan een andere taak (een opvolger of 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Een voorganger is de taak waarvan een andere taak (een opvolger of afhankelijke 
 
 Kennis van de functionaliteit van de voorganger is belangrijk voor het begrijpen van de tijdlijnen in uw projecten.
 
-De verhouding van de voorganger tussen taken bestaat zowel binnen één enkel project als over veelvoudige projecten.
+De voorgangersverhoudingen van de taak bestaan zowel tussen taken binnen één enkel project als tussen taken van verschillende projecten.
 
-In het geval van multi-project afhankelijkheid, kunt u dwars-project predecessors vestigen.
+In het geval van multi-project afhankelijkheid, kunt u dwars-project predecessors tussen taken van twee verschillende projecten vestigen.
 
-Of de voorganger- en opvolgertaken tot hetzelfde project of tot twee verschillende projecten behoren, de afhankelijkheden en de tijdlijnen worden op dezelfde manier berekend.
+Of de voorganger en opvolgertaken tot het zelfde project of tot twee verschillende projecten behoren, worden de gebiedsdelen en de chronologie van elk project berekend op de zelfde manier.
 
 Wanneer het op predecessors aankomt, wordt de projectchronologie beïnvloed door het volgende:
 
@@ -38,15 +38,19 @@ Wanneer het op predecessors aankomt, wordt de projectchronologie beïnvloed door
 * Lagwaarde en -type\
   Voor meer informatie over zowel afhankelijkheid als vertraging, zie [Voorbeelden van voorgangerswaarden in een takenlijst](#examples-of-predecessor-values-in-a-task-list).
 
-Bijvoorbeeld, als taak A een voorganger is om B in een eindstartverhouding te taken, en taak B heeft een taakbeperking van zo snel mogelijk, dan wijst Workfront taak B een geplande begindatum onmiddellijk na de geplande voltooiingsdatum van taak A toe, ongeacht of voorganger wordt afgedwongen of niet.
+  Bijvoorbeeld, als taak A een voorganger is om B in een eindstartverhouding te taken, en taak B heeft een taakbeperking van zo snel mogelijk, dan wijst Workfront taak B een geplande begindatum onmiddellijk na de geplande voltooiingsdatum van taak A toe, ongeacht of voorganger wordt afgedwongen of niet.
 
 Als u relaties met voorgangers wilt begrijpen, moet u begrijpen:
 
 * **Afhankelijkheidstypen:** De voorgangers worden verbonden door diverse gebiedstypes. Voor meer informatie over gebiedstypes, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Een voorganger afdwingen:** Wanneer u een voorganger afdwingt, kan de opvolgertaak pas worden gestart als de voorganger is voltooid. De opvolgertaak wordt weergegeven als onmiddellijk starten nadat de voorganger is voltooid.
+* **Een voorganger afdwingen:** Wanneer het afdwingen van een voorganger, kan de opvolgertaak absoluut niet beginnen tot voorganger voltooit. De opvolgertaak wordt weergegeven als onmiddellijk starten nadat de voorganger is voltooid.
 
-  Workfront staat niet toe dat het wordt gemarkeerd als Bezig of Voltooid totdat de voorganger is voltooid. Workfront staat echter toe dat er uren worden gerapporteerd over de taak.\
+  Wanneer de voorganger niet is voltooid (of is gestart) en niet wordt afgedwongen, kan de opvolgertaak worden gestart, maar is de projecttijdlijn nog steeds van invloed op de datums van zowel de voorganger als de opvolgertaken.
+
+  Met een afgedwongen voorganger staat Workfront niet toe dat de opvolgertaak wordt gemarkeerd als Bezig of Voltooid totdat de voorganger is voltooid.
+
+  Workfront staat echter toe dat er uren worden gerapporteerd over de taak.\
   Zie voor meer informatie over het afdwingen van voorgangers [Voorgangers afdwingen](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Labels:** U kunt vertragingen in uw gebiedsdelen bouwen die tot een vertraging leiden die na de voltooiing van een voorgangstaak en vóór de opvolgertaak moet voorkomen kan beginnen. Lags beïnvloeden de tijdlijn van het project.
@@ -104,7 +108,7 @@ Wanneer u predecessors in een lijst van taken bekijkt, zou u om het even welke v
 
   >[!NOTE]
   >
-  >De afgedwongen waarde (**e**) moet aan de Lag, niet aan predecessor worden toegevoegd.
+  >U moet de afgedwongen waarde toevoegen (**e**) aan de Lag, en niet aan de voorganger.
 
 * **4515:2** Het vorige taaknummer is 2. - Dit is een Einde aan Begin, niet afgedwongen afhankelijkheid met predecessor in het project met verwijzingsaantal **4515**.
 

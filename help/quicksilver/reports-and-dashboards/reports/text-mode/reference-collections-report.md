@@ -6,9 +6,9 @@ description: Referentieverzamelingen in een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 8b6324302a70319f387d1e09d1eb92fbdabf7e32
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2587'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Machtigingen beheren voor een weergave, filter of groep </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Machtigingen beheren voor een weergave, filter of groep </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,11 +54,11 @@ Een verzameling is een lijst met objecten die zijn gekoppeld aan een ander objec
 
 U hebt de volgende twee relaties tussen objecten in Workfront:
 
-* **Een één-op-één relatie**: Eén object kan tegelijkertijd aan één ander object worden gekoppeld.\
-   Een project kan bijvoorbeeld slechts aan één portfolio tegelijk worden gekoppeld.
+* **Een één-op-één relatie**: Eén object kan tegelijkertijd aan slechts één ander object worden gekoppeld.\
+  Een project kan bijvoorbeeld slechts aan één portfolio tegelijk worden gekoppeld.
 
 * **Een een-op-een-relatie**: Eén object kan tegelijkertijd aan meerdere andere objecten worden gekoppeld.\
-   Een project kan bijvoorbeeld meerdere taken hebben. In dit geval vormt de lijst met taken een verzameling voor het project.
+  Een project kan bijvoorbeeld meerdere taken hebben. In dit geval vormt de lijst met taken een verzameling voor het project.
 
 >[!IMPORTANT]
 >
@@ -79,11 +79,11 @@ Niet alle verzamelingen kunnen worden gerapporteerd.
 Als u wilt weten welke objecten aan een verzameling van andere objecten kunnen worden gekoppeld, moet u de API Explorer gebruiken.\
 Voor meer informatie over de API Verkenner- lijst, zie [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Om te weten te komen welke inzamelingen kunnen worden gemeld op:
+Om te weten te komen welke inzamelingen op kunnen worden gemeld:
 
 1. Ga naar de [API Explorer](../../../wf-api/general/api-explorer.md).
 1. Zoek het object van uw rapport.
-1. Selecteer **verzamelingen** tab.
+1. Selecteer de **verzamelingen** tab.
 
    >[!NOTE]
    >
@@ -138,12 +138,12 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 1. Klik op de knop **Hoofd** menu ![](assets/main-menu-icon.png)en klik vervolgens op **Rapporten**.
 1. Klikken **Nieuw rapport**.
 1. Selecteer het voorwerp van uw rapport.
-1. Navigeer weg van uw rapport, en het gebruiken van [API Explorer](../../../wf-api/general/api-explorer.md)bepaalt u welke verzamelingen beschikbaar zijn voor het object dat u voor het rapport hebt geselecteerd.
+1. Navigeer weg van uw rapport, en gebruikend [API Explorer](../../../wf-api/general/api-explorer.md)bepaalt u welke verzamelingen beschikbaar zijn voor het object dat u voor het rapport hebt geselecteerd.
 
    Zie de sectie voor meer informatie over het selecteren van het object van de verzameling [Verzamelingsobjecten en de bijbehorende velden zoeken in de API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.\
    Noteer de naam van het object voor de verzameling.
 
-1. Met de [API Explorer](../../../wf-api/general/api-explorer.md)Ga naar de lijst met velden voor het object dat u in de verzameling wilt weergeven.
+1. Met de [API Explorer](../../../wf-api/general/api-explorer.md), gaat u naar de lijst met velden voor het object dat u in de verzameling wilt weergeven.
 
    Zie de sectie voor meer informatie over het zoeken naar de velden van het object in de verzameling [Verzamelingsobjecten en de bijbehorende velden zoeken in de API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
 
@@ -171,7 +171,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 
    U kunt **taxiveld** with **valueexpression** Als u een aangepaste expressie wilt maken in de weergave.
 
-   Zie voor meer informatie over berekende aangepaste expressies [Berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Zie voor meer informatie over berekende aangepaste expressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Bijvoorbeeld, als u een lijst van de taken in een projectrapport wilt tonen. Deze verzameling gebruikt een `valuefield` lijn voor het van verwijzingen voorzien van de namen van de taken.
 
@@ -179,43 +179,43 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 
    * Gebruik de volgende code om uw kolom te bouwen:
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Project Tasks Names
-      listmethod=nested(tasks).lists
-      valuefield=name
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Project Tasks Names
+     listmethod=nested(tasks).lists
+     valuefield=name
+     ```
 
    * Gebruik de volgende code om een lijst van kwesties in het rapport te tonen:
 
-      ```
-      displayname=Project Issues Names
-      listdelimiter=<p>
-      listmethod=nested(issues).lists
-      textmode=true
-      type=iterate
-      valuefield=name
-      valueformat=HTML
-      ```
+     ```
+     displayname=Project Issues Names
+     listdelimiter=<p>
+     listmethod=nested(issues).lists
+     textmode=true
+     type=iterate
+     valuefield=name
+     valueformat=HTML
+     ```
 
-      U moet in een verzameling **kwesties** voor de **listmethod** lijn, in plaats van **opTasks** Dit is de databasenaam voor Issues. Voor informatie over wanneer te gebruiken **kwestie** en wanneer **opTask** wanneer wordt verwezen naar kwesties , zie [Gebruik &quot;opTask&quot; en &quot;issue&quot; bij het verwijzen naar problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     U moet in een verzameling **kwesties** voor de **listmethod** lijn, in plaats van **opTasks** Dit is de databasenaam voor Issues. Voor informatie over wanneer gebruiken **kwestie** en wanneer **opTask** wanneer wordt verwezen naar kwesties , zie [Gebruik &quot;opTask&quot; en &quot;issue&quot; bij het verwijzen naar problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
    * Als u een lijst van de taken in een projectrapport samen met hun primaire toegewezen wilt tonen, zou u een **valueexpression** regel voor het verwijzen naar de namen van de taken naast de namen van hun primaire toewijzingen in plaats van naar **taxiveld**.
 
-      Gebruik de volgende code om uw kolom te bouwen:
+     Gebruik de volgende code om uw kolom te bouwen:
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Tasks Names - Primary Assignee
-      listmethod=nested(tasks).lists
-      valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Tasks Names - Primary Assignee
+     listmethod=nested(tasks).lists
+     valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
+     ```
 
 1. De volgende kolomvertoningen in het projectrapport, die van alle taken in elk project naast hun primaire wijzers een lijst maken:
 
@@ -244,7 +244,7 @@ De regels in een tekstmodusweergave voor een verzameling worden in de volgende t
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>U kunt verschillende waarden gebruiken voor deze regel, maar we raden u aan <code style="font-weight: normal;">valueformat</code> voor een verzamellijst <strong>HTML.</strong></p>
+   <td> <p>U kunt verschillende waarden gebruiken voor deze regel, maar we raden u aan <code style="font-weight: normal;">valueformat</code> voor een verzamelingslijst <strong>HTML.</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -282,7 +282,7 @@ Overweeg de volgende beperkingen wanneer u een inzamelingsmening bouwt:
 * U kunt geen voorwaardelijke opmaak toepassen op een verzamelingsweergave.
 * U kunt van een object in een verzameling geen klikbare koppeling maken.
 * U kunt geen verzamelingsweergave van een andere verzameling maken.\
-   Bijvoorbeeld, kunt u niet alle toegewezen op elke taak in een projectrapport tonen. U kunt de primaire toegewezen persoon alleen weergeven voor elke taak in een projectweergave.
+  Bijvoorbeeld, kunt u niet alle wijzers op elke taak in een projectrapport tonen. U kunt de primaire toegewezen persoon alleen weergeven voor elke taak in een projectweergave.
 
 ### Verwijzing een inzameling in de Filter van een rapport {#reference-a-collection-in-the-filter-of-a-report}
 
@@ -295,13 +295,13 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 1. Klik op de knop **Hoofd** menu ![](assets/main-menu-icon.png)en klik vervolgens op **Rapporten**.
 1. Klikken **Nieuw rapport**.
 1. Selecteer het voorwerp van uw rapport.
-1. Navigeer weg van uw rapport, en het gebruiken van [API Explorer](../../../wf-api/general/api-explorer.md)bepaalt u welke verzamelingen beschikbaar zijn voor het object dat u voor het rapport hebt geselecteerd.
+1. Navigeer weg van uw rapport, en gebruikend [API Explorer](../../../wf-api/general/api-explorer.md)bepaalt u welke verzamelingen beschikbaar zijn voor het object dat u voor het rapport hebt geselecteerd.
 
    Zie de sectie voor meer informatie over het selecteren van het object van de verzameling [Verzamelingsobjecten en de bijbehorende velden zoeken in de API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
 
    Noteer de naam van het object voor de verzameling.
 
-1. Met de [API Explorer](../../../wf-api/general/api-explorer.md)Ga naar de lijst met velden voor het object dat u in de verzameling wilt weergeven.
+1. Met de [API Explorer](../../../wf-api/general/api-explorer.md), gaat u naar de lijst met velden voor het object dat u in de verzameling wilt weergeven.
 
    Zie de sectie voor meer informatie over het zoeken naar de velden van het object in de verzameling [Verzamelingsobjecten en de bijbehorende velden zoeken in de API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
 
@@ -323,7 +323,7 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 1. Vervangen **objectwaarde van collectie** met de waarde van het verzamelingsobject zoals deze wordt weergegeven in Workfront.
 1. Vervangen **waarde van de modifier** met een geldige optie.
 
-   Voor een lijst met wijzigingstoetsen raadpleegt u [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
+   Zie voor een lijst met wijzigingstoetsen [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
    Bijvoorbeeld, om een projectrapport te bouwen dat slechts projecten met taken toont die &quot;Marketing&quot;in hun naam hebben, gebruik de volgende code:
 
    ```
@@ -367,7 +367,7 @@ Een aangepaste prompt is een aangepast filter waarin de instructies worden gekop
 
 Zie de sectie voor meer informatie over het bouwen van een filterinstructie met een verzamelingsverwijzing [Verwijzing een inzameling in de Filter van een rapport](#reference-a-collection-in-the-filter-of-a-report) in dit artikel.
 
-Een verwijzing naar een inzameling in de douaneherinnering van een rapport toevoegen:
+Om een verwijzing naar een inzameling in de douaneherinnering van een rapport toe te voegen:
 
 1. Klik op de knop **Hoofd** menu ![](assets/main-menu-icon.png)en klik vervolgens op **Rapporten**.
 1. Klikken **Nieuw rapport**.
@@ -377,7 +377,7 @@ Een verwijzing naar een inzameling in de douaneherinnering van een rapport toevo
 1. Klikken **Prompts rapporteren**.
 1. Klikken **Vragen toevoegen**.
 1. Klikken **Aangepaste prompt**.
-1. Geef de naam van de vraag op in het dialoogvenster **Veld***naam** veld.
+1. Geef de naam van de vraag op in het dialoogvenster **Veld****naam** veld.
 
 1. Geef een **Itemlabel vervolgkeuzelijst**.
 1. Geef het volgende op in het dialoogvenster **Voorwaarde** veld:
@@ -395,7 +395,7 @@ Een verwijzing naar een inzameling in de douaneherinnering van een rapport toevo
 
 1. Vervangen **waarde van de modifier** met een geldige optie.
 
-   Voor een lijst met wijzigingstoetsen raadpleegt u  [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Zie voor een lijst met wijzigingstoetsen  [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Voorbeeld:** Bijvoorbeeld, om een projectrapport met een douaneherinnering te bouwen waar u slechts projecten wilt tonen die minstens één taak hebben die aan een specifieke gebruiker wordt toegewezen, gebruik hieronder de code:
 
@@ -418,7 +418,8 @@ Een verwijzing naar een inzameling in de douaneherinnering van een rapport toevo
    Dit produceert een rapport waar alle vermelde projecten minstens één kwestie hebben die aan de gebruiker wordt toegewezen de waarvan GUID 57cf1b7a00077c9f02f66cb09c8f86c is.
 
    >[!NOTE]
-   Let op: gebruik **kwesties** voor de naam van het verzamelingsobject. De API Explorer biedt momenteel geen naam voor verzamelingsobjecten voor problemen.
+   >
+   Let op: gebruik **kwesties** for the collection object name. De API Explorer biedt momenteel geen naam voor verzamelingsobjecten voor problemen.
 
 1. Klikken **Gereed**.
 1. (Optioneel) Ga door met het bewerken van het rapport.

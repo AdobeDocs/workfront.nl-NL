@@ -5,9 +5,9 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe [!DNL Adobe Workfront] gebruikt tijdzones om tijdvelden te berekenen voor objecten en tijden in andere gebieden, zoals e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1068'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De tijdzone voor de [!DNL Workfront] instantie wordt meestal ingesteld voor de l
 * De tijd die wordt getoond in e-mailberichten die worden gegenereerd door [!DNL Workfront]
 * De tijdzone voor nieuwe gebruikers (vóór de [!DNL Workfront] beheerder vormt een verschillende tijdzone voor hen die op waar worden gebaseerd zij)
 
-   Zie voor meer informatie over deze twee voorbeelden [Basisinformatie voor uw systeem configureren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  Zie voor meer informatie over deze twee voorbeelden [Basisinformatie voor uw systeem configureren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * Het begin of einde van een overschreven factureringspercentage voor een project. Zie voor meer informatie [De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
@@ -51,13 +51,13 @@ De tijdzone in uw gebruikersprofiel zou voor de plaats moeten worden gevormd waa
 -->
 * Tijdstippen voor een object waaraan u werkt, zoals begin- en eindtijd
 
-   Als gebruikers in meerdere tijdzones zijn toegewezen aan een object, [!DNL Workfront] converteert de objecten tijden voor iedereen betrokken, gebruikend de tijdzone die in elk gebruikersprofiel wordt gevormd.
+  Als gebruikers in meerdere tijdzones zijn toegewezen aan een object, [!DNL Workfront] converteert de objecten tijden voor iedereen betrokken, gebruikend de tijdzone die in elk gebruikersprofiel wordt gevormd.
 
-   **Voorbeeld:** In de Oost Standaardstreek van de Tijd (EST) waar u werkt, plaatst u een taak om bij 4:00 PM te beginnen en het toe te wijzen aan gebruikers die in de StandaardTijd van de Stille Oceaan (PST) streek werken. Voor die gebruikers wordt de begintijd weergegeven als 1:00 PM. Als het om 16:00 uur zou worden weergegeven, zouden ze er drie uur te laat aan beginnen te werken.
+  **Voorbeeld:** In de Oost Standaardstreek van de Tijd (EST) waar u werkt, plaatst u een taak om bij 4:00 PM te beginnen en het toe te wijzen aan gebruikers die in de StandaardTijd van de Stille Oceaan (PST) streek werken. Voor die gebruikers wordt de begintijd weergegeven als 1:00 PM. Als het om 16:00 uur zou worden weergegeven, zouden ze er drie uur te laat aan beginnen te werken.
 
-   Als de maker van het object het verschil tussen de tijdzones van de toewijzing niet opmerkt en de benodigde aanpassingen doorvoert bij het instellen van objecttijden, of als de toewijzen niet opmerken dat het verschil is, kan het moeilijk zijn om de timing goed te krijgen terwijl iedereen aan het object meewerkt.
+  Als de maker van het object het verschil tussen de tijdzones van de toewijzing niet opmerkt en de benodigde aanpassingen doorvoert bij het instellen van objecttijden, of als de toewijzen niet opmerken dat het verschil is, kan het moeilijk zijn om de timing goed te krijgen terwijl iedereen aan het object meewerkt.
 
-   **Voorbeeld:** U vormt een eendaagse taak om bij 9:00 AM EST te beginnen, vergeten dat sommige gebruikers op het taakwerk in de streek PST. Voor hen, de begintijd 6:00 AM. Omdat ze er pas 9:00 uur aan beginnen te werken (12 uur &#39;s middags), begint de taak en eindigt deze drie uur later.
+  **Voorbeeld:** U vormt een eendaagse taak om bij 9:00 AM EST te beginnen, vergeten dat sommige gebruikers op het taakwerk in de streek PST. Voor hen, de begintijd 6:00 AM. Omdat ze er pas 9:00 uur aan beginnen te werken (12 uur &#39;s middags), begint de taak en eindigt deze drie uur later.
 
 Voor informatie die uw tijdzone in uw gebruikersprofiel vormen, zie [Mijn instellingen configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
@@ -75,32 +75,32 @@ U kunt gebruikers helpen die gemakkelijker in verschillende tijdzones werken op 
 
 [!DNL Workfront] beheerders creëren afzonderlijke programma&#39;s voor elke tijdzone binnen uw organisatie om ervoor te zorgen dat het werk geschikt voor iedereen, waar zij zijn gepland. Zodra de beheerder de programma&#39;s creeert, kunnen zij met bepaalde projecten en gebruikers worden geassocieerd:
 
-* **[!UICONTROL Projects]**: Een projectmaker kan een programma voor een individueel project selecteren. Dit bepaalt het plannen van de taken in het project, dat op de werkuren wordt gebaseerd die voor de de tijdstreken van de ontvangers worden geplaatst.
+* **[!UICONTROL Projects]**: Een projectmaker kan een schema voor een afzonderlijk project selecteren. Dit bepaalt het plannen van de taken in het project, dat op de werkuren wordt gebaseerd die voor de de tijdstreken van de ontvangers worden geplaatst.
 * **[!UICONTROL Users]**: A [!DNL Workfront] beheerder (of iemand met [!UICONTROL Edit] (toegang tot gebruikers) kan een programma voor individuele gebruiker in het profiel van de gebruiker selecteren.
 
-   Dit programma kan van een projectprogramma verschillend zijn. Bijvoorbeeld, wanneer iemand een taak in het project creeert en nog niemand aan het heeft toegewezen, gebruikt de taak het projectprogramma. Wanneer een gebruiker aan de taak wordt toegewezen, gebruikt de taak het programma van die gebruiker.
+  Dit programma kan van een projectprogramma verschillend zijn. Bijvoorbeeld, wanneer iemand een taak in het project creeert en nog niemand aan het heeft toegewezen, gebruikt de taak het projectprogramma. Wanneer een gebruiker aan de taak wordt toegewezen, gebruikt de taak het programma van die gebruiker.
 
-   Als de veelvoudige gebruikers aan een taak worden toegewezen, gebruikt het systeem één van het volgende, zoals die in de systeembrede projectvoorkeur wordt gevormd:
+  Als de veelvoudige gebruikers aan een taak worden toegewezen, gebruikt het systeem één van het volgende, zoals die in de systeembrede projectvoorkeur wordt gevormd:
 
    * De tijdzone voor het programma van de primaire eigenaar van de taak
    * De tijdzone voor het programma van het project.
 
-   Hierdoor kunnen taakdatums veranderen.
+  Hierdoor kunnen taakdatums veranderen.
 
-   **Voorbeeld:** Een EST-gebruiker wordt toegewezen aan een eendaagse taak die om 9:00 uur PST wordt gepland, dat is 12.00 uur EST. Omdat de EST-gebruiker slechts twee werkuren voor de dag heeft, loopt de datum waarop de taak is voltooid met ongeveer zes uur door tot de volgende werkdag.
+  **Voorbeeld:** Een EST-gebruiker wordt toegewezen aan een eendaagse taak die om 9:00 uur PST wordt gepland, dat is 12.00 uur EST. Omdat de EST-gebruiker slechts twee werkuren voor de dag heeft, loopt de datum waarop de taak is voltooid met ongeveer zes uur door tot de volgende werkdag.
 
-   Voor informatie over de [!UICONTROL Project Preferences] gebied van [!UICONTROL Setup], zie [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Voor informatie over de [!UICONTROL Project Preferences] gebied van [!UICONTROL Setup], zie [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van beïnvloedt [!UICONTROL Planned Hours] in de [!UICONTROL Workload Balancer], zie [Gebruikerstoewijzingen beheren in het dialoogvenster [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van beïnvloedt [!UICONTROL Planned Hours] in de [!UICONTROL Workload Balancer], zie [Gebruikerstoewijzingen beheren in het dialoogvenster [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Berekende tijdvelden gebruiken in een aangepast formulier {#use-calculated-time-fields-in-a-custom-form}
 
 U kunt een reeks berekende douanevelden op een douaneformulier gebruiken om de huidige tijd voor gebruikers in uw organisatie, zoals een rij van luchthavenklokken te tonen die de tijd in veelvoudige steden tonen. U zou een gebied voor elk van de tijdstreken kunnen tot stand brengen waar uw gebruikers werken, elk die de tijd voor zijn tijdzone berekenen.
 
-Zie voor meer informatie [Berekende gegevens toevoegen aan een aangepast formulier](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)en de sectie [Berekende datum en tijd, aangepaste velden](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in het artikel [Berekende gegevensexpressies](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Zie voor meer informatie [Berekende gegevens toevoegen aan een aangepast formulier](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)en de sectie [Berekende datum en tijd, aangepaste velden](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in het artikel [Overzicht van berekende gegevensexpressies](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Gebruik tekstvelden in plaats van datumvelden in een aangepast formulier {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

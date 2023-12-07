@@ -7,9 +7,9 @@ description: U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ De voorbeelden in deze handleiding illustreren het gebruik van voorwaardelijke o
 
 Voor informatie over het verschil in syntaxis tussen de berekende douanegebieden en berekende douanegegevens in rapporten, zie [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
-Raadpleeg de API Explorer om de velden te zoeken waarnaar u wilt verwijzen in de berekende aangepaste expressies. Voor informatie over de API Explorer raadpleegt u [API Explorer](../../../wf-api/general/api-explorer.md).
+Raadpleeg de API Explorer om de velden te zoeken waarnaar u wilt verwijzen in de berekende aangepaste expressies. Zie voor informatie over de API Explorer [API Explorer](../../../wf-api/general/api-explorer.md).
 
 In Workfront kunt u de volgende voorwaardelijke modifiers gebruiken:
 
@@ -55,27 +55,27 @@ In Workfront kunt u de volgende voorwaardelijke modifiers gebruiken:
   <tr> 
    <td>Gelijk</td> 
    <td>= </td> 
-   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie gelijk is aan het tweede veld.</p> <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}={scheduledCompletionDate},"On Track","Off Track")</pre> </td> 
+   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie gelijk is aan het tweede veld.</p> <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}={plannedCompletionDate},"Op track","Buiten track")</pre> </td> 
   </tr> 
   <tr> 
    <td>Groter dan </td> 
    <td>&gt; </td> 
-   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van de instructie groter is dan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&gt;{scheduledCompletionDate},"Late",")</pre></td> 
+   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie groter is dan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late",")</pre></td> 
   </tr> 
   <tr> 
    <td>Groter dan of gelijk aan </td> 
    <td>&gt;= </td> 
-   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie groter dan of gelijk is aan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&gt;={scheduledCompletionDate},"Late","Early")</pre></td> 
+   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie groter dan of gelijk is aan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Te laat","Vroeg")</pre></td> 
   </tr> 
   <tr> 
    <td>Kleiner dan </td> 
    <td>&lt; </td> 
-   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie kleiner is dan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&lt;{scheduledCompletionDate},"Early",")</pre></td> 
+   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie kleiner is dan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Vroeg",")</pre></td> 
   </tr> 
   <tr> 
    <td>Kleiner dan of gelijk aan </td> 
    <td>&lt;= </td> 
-   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie kleiner dan of gelijk is aan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&lt;={scheduledCompletionDate},"Early","Late")</pre></td> 
+   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie kleiner dan of gelijk is aan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><pre>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Vroeg","Te laat")</pre></td> 
   </tr> 
   <tr> 
    <td>Is niet </td> 
@@ -90,17 +90,17 @@ In Workfront kunt u de volgende voorwaardelijke modifiers gebruiken:
      <li>IN </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>Voor informatie over deze gegevensexpressies en voor een volledige lijst raadpleegt u <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Berekende gegevensexpressies</a>. </p> </td> 
+    </ul> <p>Voor informatie over deze gegevensexpressies en voor een volledige lijst raadpleegt u <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Overzicht van berekende gegevensexpressies</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>of </td> 
    <td>|| </td> 
-   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie de eerste of de tweede waarde van uw instructie vindt. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten in of de Huidige of Planning status als "Actief"merkt: </p><pre>IF({status}="PLN"||{status}="CUR","Actief","Niet Actief")</pre> </td> 
+   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie de eerste of de tweede waarde van uw instructie vindt. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten in of de Huidige of Planning status als "Actief"merkt: </p><pre>IF({status}="PLN"||{status}="CUR","Actief","Niet actief")</pre> </td> 
   </tr> 
   <tr> 
    <td> en </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie een item vindt dat tegelijkertijd aan twee voorwaarden voldoet. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten vindt die in Huidige status zijn en een Voorwaarde van bij Risico hebben en hen als "Bemiddeling nodig"merken. </p><pre>IF({status}="CUR"&amp;{condition}="AR","Bemiddeling vereist",")</pre> </td> 
+   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie een item vindt dat tegelijkertijd aan twee voorwaarden voldoet. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten vindt die in Huidige status zijn en een Voorwaarde van bij Risico hebben en hen als "Bemiddeling nodig"merken. </p><pre>IF({status}="CUR"&amp;&amp;{condition}="AR","Bemiddeling vereist"")</pre> </td> 
   </tr> 
  </tbody> 
 </table>
