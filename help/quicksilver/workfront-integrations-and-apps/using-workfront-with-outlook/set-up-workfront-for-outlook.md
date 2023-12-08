@@ -2,20 +2,20 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Instellen [!DNL Adobe Workfront] for [!DNL Outlook]
-description: Adobe Workfront Fusion biedt integratie met Outlook. In dit artikel wordt beschreven hoe u deze integratie kunt gebruiken in uw eigen workflows.
+description: De [!DNL Adobe Workfront] [!DNL Outlook] met invoegtoepassing kunt u de toets uitvoeren [!DNL Workfront] taken rechtstreeks vanuit Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
 # Instellen [!DNL Adobe Workfront for Outlook]
 
-De [!DNL Adobe Workfront] [!DNL Outlook] met invoegtoepassing kunt u de volgende toets uitvoeren [!DNL Workfront] taken rechtstreeks vanuit Outlook:
+De [!DNL Adobe Workfront] [!DNL Outlook] Met invoegtoepassing kunt u de volgende toets uitvoeren [!DNL Workfront] taken rechtstreeks vanuit Outlook:
 
 * Werk een bestaand project, een bestaande taak of een bestaand probleem bij met informatie uit een e-mail. Zie voor meer informatie [Een bestaand object bijwerken vanuit een [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * Een [!DNL Workfront] aanvraag gebaseerd op een e-mailbericht binnen [!DNL Outlook]. Zie voor meer informatie [Een Adobe Workfront-aanvraag maken van een [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
@@ -41,12 +41,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
-  <tr>
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw abonnement: standaard </p>
- <p>of</p> 
-<p>Huidig plan: [!UICONTROL Work], [!UICONTROL Plan] </p> 
-  </td> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td> 
+   <p>Nieuw plan: [!UICONTROL Standard]</p> 
+   <p>Huidig plan:[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +70,7 @@ De [!DNL Workfront] invoegtoepassing voor [!DNL Outlook] wordt ondersteund in om
 
 ### Clientvereisten {#client-requirements}
 
-De volgende versies van [!DNL Outlook]:
+Workfront ondersteunt de volgende versies van [!DNL Outlook]:
 
 * [!DNL Outlook 2013] of hoger [!DNL Windows]
 *[!DNL  Outlook 2016] of hoger [!DNL Windows]
@@ -91,7 +90,7 @@ Bij het configureren van de client moet de gebruiker een van de volgende account
 
 Standaard wordt aan de vereisten van de mailserver voldaan wanneer u verbinding maakt met [!DNL Office 365] of [!DNL Outlook.com]. Als u echter verbinding hebt met een on-premise installatie van [!DNL Exchange Server]zijn de volgende voorschriften van toepassing:
 
-* Wij steunen allen [!DNL Exchange On-Premise] servers
+* Workfront ondersteunt alle [!DNL Exchange On-Premise] servers
 * [!DNL Exchange Web Services] (EWS) moet zijn ingeschakeld en moet beschikbaar zijn op internet.
 * De server moet een geldig verificatiecertificaat hebben voordat de server geldige id-tokens kan uitgeven. Nieuwe installaties van [!DNL Exchange Server] een standaardcertificaat voor verificatie opnemen.
 
@@ -103,11 +102,7 @@ Voor meer gedetailleerde informatie over ondersteunde omgevingen raadpleegt u de
 
 ## De invoegtoepassing installeren
 
-Voor meer informatie over het instellen van de [!DNL Workfront] invoegtoepassing voor [!DNL Outlook], zie [[!DNL Workfront] - Collectief werkbeheer.](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
-
-* [[!DNL Workfront] for [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] for [!DNL Outlook] op het web](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] for [!DNL Outlook] op [!DNL Windows] of [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
+U kunt de Workfront add-in voor Outlook ophalen vanuit de [Microsoft-winkel](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 

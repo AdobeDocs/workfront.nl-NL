@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,13 @@ Het Type van Duur van een taak identificeert het verband tussen het aantal midde
 
 ## Overzicht van taakduur
 
->[!NOTE]
->
->Wanneer rekening houdend met de tijd van de Primaire Ontvanger op een project, zouden de geplande data van de taak kunnen aanpassen, maar de Duur van de taak blijft het zelfde. Voor informatie over het in aanmerking nemen van de tijd van de Primaire Ontvanger wanneer het plannen van een project, zie  [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 Als de Ware Datum van het Begin en van de Werkelijke Voltooiing van de taak buiten het programma van het project, primaire toegewezen, of StandaardProgramma vallen, is de taakDuur nul.
 
 **Voorbeeld:** Als u een programma hebt dat bij 9:00 AM begint en bij 12:00 PM beëindigt en een taak die om bij 2:00 PM en eind bij 4:00 PM gepland is te beginnen, is de Duur van de taak nul.
 
-Hieronder vindt u twee scenario&#39;s voor het berekenen van de duur in Adobe Workfront.
+De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe Workfront:
 
-* Als de taak aan een gebruiker wordt toegewezen gebruikt Workfront één van de volgende programma&#39;s, in deze nauwkeurige orde om Duur te berekenen:
+* Als de taak aan een gebruiker Workfront wordt toegewezen, gebruikt één van de volgende programma&#39;s, in deze nauwkeurige orde om Duur te berekenen:
 
    1. Workfront houdt rekening met de planning van de gebruiker.
    1. Als de gebruiker niet met een programma wordt geassocieerd, houdt Workfront rekening met het programma van het project.
@@ -41,11 +37,15 @@ Hieronder vindt u twee scenario&#39;s voor het berekenen van de duur in Adobe Wo
 
 * Als de taak aan meerdere gebruikers wordt toegewezen:
 
-  Workfront houdt rekening met het projectschema of met dat van de primaire ontvanger.
+   1. Workfront houdt rekening met het projectschema of met dat van de primaire ontvanger.
 
   Uw Workfront-beheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan meerdere gebruikers wordt toegewezen. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   De stappen zijn gelijkaardig aan het eerste scenario na begrip welk programma Workfront gebruikt om Duur te berekenen.
+
+>[!NOTE]
+>
+>Wanneer rekening houdend met de tijd van de Primaire Ontvanger op een project, zouden de geplande data van de taak kunnen aanpassen, maar de Duur van de taak blijft het zelfde. Voor informatie over het in aanmerking nemen van de tijd van de Primaire Ontvanger wanneer het plannen van een project, zie  [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Eenheden van tijd voor de Duur van de Taak
 
@@ -94,7 +94,7 @@ Met het type Duur kunt u de volgende vragen beantwoorden:
 * Hoe groot is de baan?
 * Hoe lang duurt het nog?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## Definieer duurtypen
 
@@ -104,8 +104,8 @@ Met het type Duur kunt u de volgende vragen beantwoorden:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Duur </th> 
-   <th scope="col"> <p><strong>-functie</strong> </p> </th> 
+   <th scope="row"><p><strong>Duur</strong></p></th> 
+   <th scope="col"> <p><strong>Functie</strong> </p> </th> 
    <th scope="col"> <p><strong>De invloed van bronnen hierop</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -121,7 +121,7 @@ Met het type Duur kunt u de volgende vragen beantwoorden:
    <td scope="col"> <p>De geplande Uren stijgen wanneer de wijzers aan de taak worden toegevoegd. </p> <p>Geplande uren nemen af wanneer er toewijzingen uit de taak worden verwijderd.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>Inzet gedreven</p> </th> 
+   <th scope="col"> <p><strong>Inzet gedreven</strong></p> </th> 
    <td scope="col"> <p>Hiermee bepaalt u de geplande uren op basis van het aantal bronnen.</p> <p>Wanneer u dit Type van Duur kiest, hebt u de capaciteit om een individuele Duur voor de taak in te voeren. Workfront berekent de Geplande Uren voor de taak door het aantal dagen in de Duur met het aantal werkuren in het programma te vermenigvuldigen en dat te delen door het aantal wijzers aan de taak. </p> <p>U kunt het toewijzingspercentage van elke toegewezen persoon voor de taak handmatig wijzigen, maar het aantal geplande uren blijft ongewijzigd.</p> <p>Voor meer gedetailleerde informatie, zie <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Overzicht van het Duur Type: Door de inspanning gestuurde</a>.</p> </td> 
    <td scope="col"> <p>De geplande uren stijgen wanneer de wijzers van de taak worden verwijderd.</p> <p>Geplande uren nemen af wanneer er toewijzingen aan de taak worden toegevoegd. </p> <p>De Duur verandert niet, ongeacht veranderingen in het aantal aangewezen personen of hun programma. </p> <p>De duur is gelijk aan de geplande uren. De geplande duur is gelijk aan de geplande uren gedeeld door het aantal toegewezen personen.</p> </td> 
   </tr> 
