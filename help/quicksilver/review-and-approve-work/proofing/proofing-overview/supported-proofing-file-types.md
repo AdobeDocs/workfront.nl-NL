@@ -7,9 +7,9 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
+source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront heeft de volgende limieten:
 
 >[!NOTE]
 >
->Grotere bestanden nemen meer tijd in beslag om te uploaden en als uw verbinding niet stabiel is, kan de handeling worden beëindigd of verbroken.
+>Grotere bestanden nemen meer tijd in beslag om te uploaden. Als de verbinding niet stabiel is, kan de handeling worden beëindigd of verbroken.
 
 ## Statische bestanden
 

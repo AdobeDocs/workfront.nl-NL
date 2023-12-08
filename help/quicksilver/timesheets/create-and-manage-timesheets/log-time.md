@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3494'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
-   <li> Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul>
+   <td> <p>Nieuw plan:<ul><li>Licht of hoger aan logboek Algemene Uren in een timsheet</li></p>
+   <li> Norm of hoger om uren op een project, een taak of een kwestie te registreren</li></ul></p>
+   <p>of</p>
+   <p>Huidig plan:<ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li></p>
+   <li> Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
 * Uur-items die in factureringsrecords zijn opgenomen, worden grijs weergegeven en kunnen niet worden bewerkt in de tijdpagina. Zie voor meer informatie [Factureringsrecords maken](../../manage-work/projects/project-finances/create-billing-records.md).
 * De persoonlijke taken tonen niet in timesheet door gebrek. De persoonlijke taken tonen in timesheet slechts wanneer zij tijd het programma wordt geopend. Nadat u de tijd op een persoonlijke taak registreert, kunt u de taak aan timesheet vastzetten en het zal op timesheet blijven als het vastgezet blijft. Zie voor meer informatie [Werkitems maken vanuit het gebied Home](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Logtijd
+## Logtijd {#log-time-section}
 
 U kunt zich in Workfront aanmelden in de volgende gebieden:
 
@@ -136,7 +139,7 @@ U kunt tijd aan de volgende punten in timesheet registreren:
 
 Aan logboektijd op een timesheet:
 
-1. Klik op de knop [!UICONTROL **Hoofdmenu**] pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/lines-main-menu.png) in de linkerbovenhoek van Workfront, indien beschikbaar.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
 
 1. Klikken [!UICONTROL **Timesheets**]. Uw huidige timesheet wordt standaard weergegeven.
    ![Tijdschema](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Aan logboektijd op een timesheet:
 1. (Optioneel) Vouw de vervolgkeuzemenu&#39;s voor het filter, de weergave of de groepering uit om er een toe te passen of aan te passen en om de gewenste iteminformatie weer te geven.
 
 1. Selecteer een of meerdere items in de lijst en klik op **Toevoegen**.
+
+   Als u minder dan 50 punten in één keer hebt toegevoegd, worden de punten toegevoegd aan timesheet. De taken en de kwesties zijn vermeld onder de naam van het project.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Aan logboektijd op een timesheet:
 
    ![Vervolgkeuzemenu voor type uur](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   Afhankelijk van uw besturingssysteem of browser en wanneer u een standaard QWERTY-toetsenbord gebruikt, drukt u op de volgende toetsen om nog een rij toe te voegen:
@@ -231,7 +237,6 @@ Aan logboektijd op een timesheet:
    >   Afhankelijk van uw besturingssysteem of browser en wanneer u een standaard QWERTY-toetsenbord gebruikt, drukt u op de volgende toetsen om een rij te verwijderen:
    >   * Ctrl + Option + - voor Windows-computers
    >   * Cmd + Option + - voor Mac-computers
-
 
 1. Geef op hoeveel tijd u zich op een bepaalde dag in het tijdlijngedeelte van het tijdlijnvak wilt aanmelden en klik vervolgens buiten het uurvak om het uuritem op te slaan. De uren worden automatisch opgeslagen. De rij waarvoor u logboektijd wordt benadrukt in lichtblauw en de doos van de ureningang wordt geschetst in donkerblauw.
 
@@ -300,6 +305,8 @@ Aan logboektijd op een timesheet:
 
    ![enter-an-update-in-redesign-time-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
+1. (Optioneel) Ga terug naar de **Tijdschema** te sluiten of uw timesheet in te dienen.
+
    * **Sluiten**: Sluit de tijdpagina wanneer u klaar bent met het bijwerken. Deze optie is alleen beschikbaar wanneer uw tijdspagina niet aan een fiatteur is gekoppeld.
 
    * **Ter goedkeuring indienen:** Deze optie is beschikbaar slechts als er een fiatteur op timesheet is. Sla uw wijzigingen op en verzend deze ter goedkeuring. U kunt de tijdpagina openen nadat u deze hebt gesloten door op **Herstellen**, indien nog geen goedkeuring is verleend. Zie voor meer informatie [Een tijdschema ter goedkeuring indienen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
@@ -323,7 +330,7 @@ U kunt een uuringang of een punt (project, taak, of kwestie) uit een timesheet v
 
 Een uuringang uit een timesheet verwijderen:
 
-1. Ga naar timesheet en vind de uuringang u wilt verwijderen.
+1. Ga naar het timesheet en vind de uuringang u wilt verwijderen.
 1. Vervang de uren ingegaan met 0 of verwijder de uren en vervang hen met 0, dan druk binnengaan.
 
    De uren worden verwijderd en de tijdpagina wordt automatisch opgeslagen.

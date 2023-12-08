@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze op gebruikers toepassen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze op gebruikers toepassen. Als u met toegangsniveaus werkt, is het belangrijk dat u begrijpt hoe ze samenwerken met de objectmachtigingen die gebruikers verlenen wanneer ze objecten met elkaar delen. Voor meer informatie over toegangsniveaus, zie
+Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze op gebruikers toepassen. Als u met toegangsniveaus werkt, is het belangrijk dat u begrijpt hoe ze samenwerken met de objectmachtigingen die gebruikers verlenen wanneer ze objecten met elkaar delen. Voor meer informatie over toegangsniveaus, zie:
 
 * [Overzicht van nieuwe toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Wisselkoersen</td> 
-      <td> <p>Voeg nieuwe valuta toe in Workfront.</p> <p>Zonder deze toegang kan de gebruiker alleen een bestaande valuta toevoegen aan een project dat hij of zij maakt.</p> </td> 
+      <td> Voeg nieuwe valuta toe in Workfront. <p>Zonder deze toegang kan de gebruiker alleen een bestaande valuta toevoegen aan een project dat hij of zij maakt.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Uitgaven</td> 
@@ -118,13 +118,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Functies</td> 
-      <td> <p>Met deze toegang mag de gebruiker het volgende doen:</p> 
+      <td> Met deze toegang mag de gebruiker het volgende doen: 
        <ul> 
         <li>Bestaande taakrollen weergeven en bewerken</li> 
         <li>Nieuwe taakrollen toevoegen</li> 
         <li>Rolfacturering en kostentarieven bewerken</li> 
        </ul> 
-       <p>Voor belangrijke informatie over toegang tot financiële gegevens die beschikbaar is voor een gebruiker van de Norm of van de Planner met administratieve toegang tot baanrollen, zie <a href="#planner-users-with-administrative-access-to-job-roles">Standaard of Planner-gebruikers met beheerbare toegang tot functies</a>.</p>
+       <p>Voor belangrijke informatie over toegang tot financiële gegevens die beschikbaar is voor een gebruiker van de Norm of van de Planner met administratieve toegang tot baanrollen, zie <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standaard of Planner-gebruikers met beheerbare toegang tot functies</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets en uren</td> 
-      <td> <p>De beheerders van de groep kunnen timesheet profielen aan gebruikers in de groepen en subgroepen toewijzen zij leiden.</p> <p>Als deze optie niet is ingeschakeld, kunnen groepsbeheerders geen timesheet-profielen toewijzen aan andere gebruikers in de groepen en subgroepen die zij beheren, hoewel zij deze wel kunnen maken.</p> <p>Alle andere gebruikers met een Standard- of Plan-licentie kunnen alle uren en tijdbladen in Workfront bekijken.</p> <p>Als deze optie niet is ingeschakeld, kunnen gebruikers alleen uren weergeven op:</p> 
+      <td> De beheerders van de groep kunnen timesheet profielen aan gebruikers in de groepen en subgroepen toewijzen zij leiden. <p>Als deze optie niet is ingeschakeld, kunnen groepsbeheerders geen timesheet-profielen toewijzen aan andere gebruikers in de groepen en subgroepen die zij beheren, hoewel zij deze wel kunnen maken.</p> <p>Alle andere gebruikers met een Standard- of Plan-licentie kunnen alle uren en tijdbladen in Workfront bekijken.</p> <p>Als deze optie niet is ingeschakeld, kunnen gebruikers alleen uren weergeven op:</p> 
        <ul> 
         <li>Projecten, taken of problemen die zij beheren</li> 
         <li>Hun eigen tijdschema</li> 
@@ -168,11 +168,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Alleen updates weergeven waarin ze zijn opgenomen in het gesprek</td> 
-      <td> <p>Laat gebruikers toe om slechts commentaren te zien waar hun naam of de naam van hun team is inbegrepen.</p> <p> <p><b>OPMERKING</b>: Hiermee voorkomt u dat gebruikers zich abonneren op objecten in Workfront. Zie voor meer informatie over abonnementen op objecten <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a>.</p> </p> </td> 
+      <td> Laat gebruikers toe om slechts commentaren te zien waar hun naam of de naam van hun team is inbegrepen. <p> <p><b>OPMERKING</b>: Hiermee voorkomt u dat gebruikers zich abonneren op objecten in Workfront. Zie voor meer informatie over abonnementen op objecten <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonneren op objecten in Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers nooit toestaan opmerkingen te verwijderen </td> 
-      <td> <p>Hiermee voorkomt u dat gebruikers de opmerkingen die ze maken over items verwijderen. </p> <p><b>OPMERKING</b>: Niemand kan de opmerkingen van andere gebruikers verwijderen.</p> </td> 
+      <td> Hiermee voorkomt u dat gebruikers de opmerkingen die ze maken over items verwijderen.  <p><b>OPMERKING</b>: Niemand kan de opmerkingen van andere gebruikers verwijderen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alleen bedrijven, groepen en teams weergeven waartoe ze behoren</td> 
@@ -191,7 +191,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Voorwaardelijk en optioneel) Als uw Workfront-systeem is ingesteld voor gebruikers die tot meerdere bedrijven behoren, beperkt u de zichtbaarheid tot andere gebruikers op basis van het bedrijf waartoe zij behoren in de sectie **Personen in andere bedrijven mogen alleen gebruikers van**.
 
-   U kunt de gebruikers beperken om enkel gebruikers van hun eigen bedrijf of van het bedrijf te zien u als primair bedrijf aangewezen. Voor meer informatie over het primaire bedrijf raadpleegt u [Bedrijven maken en bewerken](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   U kunt de gebruikers beperken om enkel gebruikers van hun eigen bedrijf of van het bedrijf te zien u als primair bedrijf aangewezen. Het primaire bedrijf vertegenwoordigt doorgaans uw Workfront-account waar de meeste gebruikers werken. Voor meer informatie over het primaire bedrijf raadpleegt u [Bedrijven maken en bewerken](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >

@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Adobe Workfront-berichten
+title: Overzicht van meldingen
 description: Adobe Workfront verzendt e-mailmeldingen, meldingen in de app en meldingen op uw mobiele apparaat.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] meldingen
+# Overzicht van meldingen
 
 [!DNL Adobe Workfront] verzendt e-mailmeldingen, meldingen in de app en meldingen op uw mobiele apparaat.
 
 ## E-mailmeldingen
 
-[!DNL Workfront] stuurt een aantal e-mailmeldingen om gebruikers te waarschuwen voor activiteiten in Workfront en om nuttige informatie en koppelingen te verschaffen.
+[!DNL Workfront] stuurt e-mailmeldingen naar gebruikers met informatie over activiteiten in Workfront en voeg nuttige informatie en koppelingen toe.
 
 Als u de voorkeuren voor uw e-mailberichten wilt wijzigen, raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -39,11 +39,11 @@ U kunt de volgende e-mailmeldingen ontvangen van [!DNL Workfront]:
 
 ### Gebeurtenismeldingen
 
-Gebeurtenismeldingen zijn vooraf gedefinieerd in [!DNL Workfront]. Deze worden gewoonlijk geactiveerd door bepaalde gebeurtenissen.
+Gebeurtenismeldingen die gewoonlijk worden geactiveerd door bepaalde vooraf gedefinieerde gebeurtenissen, zoals het hebben van een taak die aan u is toegewezen of het krijgen van een antwoord op een opmerking die u hebt gemaakt.
 
-Nadat de gebeurtenismeldingen zijn geactiveerd door uw [!DNL Workfront] beheerder of groepsbeheerder, kunt u selecteren welke degenen u wilt ontvangen door uw uit te geven [!UICONTROL Notifications] in uw gebruikersprofiel. U kunt ook kiezen of u meldingen wilt ontvangen terwijl er gebeurtenissen plaatsvinden, of dat u gebeurtenissen wilt ontvangen die zijn samengevat in één e-mailoverzicht voor dagelijkse controlesamenvatting.
+Nadat gebeurtenismeldingen zijn geactiveerd in uw [!DNL Workfront] door uw [!DNL Workfront] beheerder of groepsbeheerder, kunt u selecteren welke degenen u wilt ontvangen door uw uit te geven [!UICONTROL Notifications] in uw gebruikersprofiel. U kunt ook kiezen of u meldingen wilt ontvangen terwijl er gebeurtenissen plaatsvinden, of dat u gebeurtenissen wilt ontvangen die zijn samengevat in één e-mailoverzicht voor dagelijkse controlesamenvatting.
 
-Afhankelijk van hoe [!DNL Workfront] de beheerder heeft gebeurtenisberichten voor uw gevormd [!DNL Workfront] systeem (zoals beschreven in [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)), ziet u wellicht alleen een subset van deze meldingen in uw instellingen.
+Afhankelijk van de manier waarop de [!DNL Workfront] de beheerder heeft gebeurtenisberichten voor uw gevormd [!DNL Workfront] systeem. Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 In de standaardstatus wordt aangegeven welke meldingen (dagelijks, direct of beide) standaard zijn ingeschakeld voor nieuwe gebruikers wanneer u de nieuwe gebruikers maakt.
 
@@ -56,6 +56,8 @@ Ga voor informatie over hoe u kunt kiezen welke gebeurtenismeldingen u wilt ontv
 >Gebeurtenismeldingen zijn de enige meldingen die kunnen worden geconfigureerd voor levering in dagelijkse samenvattingsupdates.
 
 ### Dagelijkse samenvattingsberichten
+
+Een dagelijkse overzichtsmelding is een e-mail die alle berichten van een bepaald type bevat die u in de 24 uur vóór e-mail hebt ontvangen.
 
 Voor een volledige lijst van welke e-mailberichten voor een dagelijkse samenvatting e-maillevering evenals informatie over alle categorieën voor e-mailberichten zijn toegelaten, zie [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -72,6 +74,10 @@ Bij het ontvangen van dagelijkse samenvattingsmeldingen moet u rekening houden m
 
   Voor de **[!UICONTROL Communication]** categorie, worden de meldingen gegroepeerd door het object waar de communicatie heeft plaatsgevonden.
 
+  >[!NOTE]
+  >
+  >Voor de categorie Communicatie kunt u afzonderlijke berichten selecteren die u direct wilt afleveren. Als u meldingen in een dagelijkse samenvatting wilt laten verzenden, moet u ze allemaal selecteren.
+
 * De dagelijkse samenvatting in de e-mail bevat gebeurtenissen die zijn opgetreden voor de acties op één bepaald gebied (zoals **Informatie over eigen projecten**) binnen 24 uur vóór de gekozen leveringstermijn.
 * De tijdzone voor de tijd die voor dagelijkse samenvattingslevering wordt geselecteerd past uw timezone aan, aangezien het op uw browser wordt gevormd.
 * De dagelijkse samenvattingse-mails hebben de naam van de sectie in de onderwerpregel en de datum waarop ze worden bezorgd.
@@ -85,13 +91,15 @@ Dagelijkse samenvattingse-mails voor de [!UICONTROL Communication] de categorie 
 
 De informatie wordt samengevat voor het voorwerp waar de mededeling voorkwam, en een totaal aantal communicatie berichten wordt getoond voor elk voorwerp.
 
-Zie voor meer informatie over het configureren van e-mailmeldingen [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Als u wilt reageren op de opmerking of deze wilt bekijken in Workfront:
 
-Voor instructies over het plaatsen van opmerkingen op [!UICONTROL Communication] e-mails, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Klik op de knop **[!UICONTROL Comment]** in de e-mail.
 
-Meer informatie over [!UICONTROL Communication] e-mails, zie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   De [!UICONTROL Updates] wordt het gebied van het object geopend, met de specifieke opmerking in blauw.
 
-Zie voor meer informatie over het inschakelen van dagelijkse samenvattingsmeldingen [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Er is een antwoordvenster geopend dat u kunt gebruiken om op de opmerking te reageren.
+
+Voor meer informatie over het configureren van e-mailmeldingen, waaronder het inschakelen van dagelijkse digest-meldingen, raadpleegt u [De instellingen voor e-mailmeldingen weergeven en wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) in [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Automatische herinneringen
 
@@ -120,7 +128,7 @@ Voor informatie over het inschakelen van automatische herinneringen raadpleegt u
 
 ### Herinneringsmeldingen
 
-A [!DNL Workfront] beheerder (of een gebruiker met een [!UICONTROL Planner] het toegangsniveau en administratieve toegang tot herinneringsberichten) kunnen herinneringsberichten over het naderen van termijnen ontwerpen en hen aan projecten, taken, kwesties, en timesheets bijvoegen. Voor meer informatie over hoe u de vereiste administratieve toegang kunt krijgen, zie [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] beheerder (of een gebruiker met een [!UICONTROL Planner] toegang tot niveau en administratieve toegang tot herinneringsberichten) kan herinneringsberichten over het naderen van termijnen ontwerpen en hen manueel associëren met projecten, taken, kwesties, en timesheets.
 
 >[!IMPORTANT]
 >
@@ -130,15 +138,19 @@ Herinneringsmeldingen worden verzonden vanaf het e-mailadres dat de [!DNL Workfr
 
 Voor informatie over het instellen en inschakelen van herinneringsmeldingen raadpleegt u [Herinneringsmeldingen instellen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+Voor informatie over hoe u de vereiste administratieve toegang kunt krijgen, zie [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
 ### Boekberichten
 
-[!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
+[!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. U kunt selecteren welke e-mails u wilt ontvangen in de voorkeursinstellingen voor de kamers.
 
-U kunt selecteren welke e-mails u wilt ontvangen in de voorkeursinstellingen voor de kamers. Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### Overige [!DNL Workfront] e-mail
 
-Er zijn andere e-mails die je ontvangt van [!DNL Workfront] die niet kunnen worden geconfigureerd. De volgende e-mails worden automatisch verzonden door [!DNL Workfront] wanneer aan deze voorwaarden is voldaan:
+Er zijn andere e-mails die je ontvangt van [!DNL Workfront] die niet kunnen worden geconfigureerd.
+
+De volgende e-mails worden automatisch verzonden door [!DNL Workfront] wanneer aan deze voorwaarden is voldaan:
 
 * Een item herstellen: wanneer de [!DNL Workfront] de beheerder herstelt een voorwerp van [!UICONTROL Recycle] Bak, er wordt een e-mail verzonden naar de [!DNL Workfront] beheerder.
 * Kan niet herstellen: Wanneer de [!DNL Workfront] beheerder probeert een object te herstellen vanuit de prullenbak en het terugzetten is mislukt. Er wordt een e-mail verzonden naar de [!DNL Workfront] beheerder.

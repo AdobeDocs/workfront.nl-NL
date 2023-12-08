@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor informatie en overwegingen over tekstwijze alvorens u begint, zie [Overzich
 
 Voor een volledige lijst van al onze te rapporteren gebieden en hun attributen, zie [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.
+Ga naar de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.
 
 ## Overwegingen bij de syntaxis van de tekstmodus
 
@@ -99,14 +99,14 @@ De volgende overeenkomsten bestaan tussen de syntaxis van de hieronder vermelde 
 
 ### Syntaxis voor weergaven en groepen
 
-Het kan zijn dat de coderegels vergelijkbaar zijn wanneer u weergaven en groepen maakt.
+De coderegels bij het samenstellen van weergaven en groepen zijn vergelijkbaar.
 
 Raadpleeg de volgende artikelen voor informatie over het maken van weergaven en groepen:
 
 * [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-De belangrijkste coderegel voor een weergave of groepering is de regel die het object aangeeft waarnaar wordt verwezen in de kolom van de weergave of de groepering. Afhankelijk van het feit of dit veld een directe verwijzing naar een Workfront-databaseveld of een berekening tussen verschillende velden is, kan de coderegel beginnen met `valuefield` of `valueexpression`
+De belangrijkste coderegel voor een weergave of groep is de regel die het object aangeeft waarnaar wordt verwezen in de kolom van de weergave of in de groep. Deze coderegel kan beginnen met `valuefield` of `valueexpression` op basis van of dit veld een directe verwijzing naar een Workfront-databaseveld of een berekening tussen verschillende velden is.
 
 De volgende tabel bevat een lijst met de meestvoorkomende regels voor codes in een weergave of groep:
 
@@ -216,13 +216,11 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
 
 #### `Valueformat` overzicht voor weergaven en groepen
 
-De tweede belangrijkste coderegel in een weergave of groep is de `valueformat=` lijn. Dit vertelt Workfront in welke notatie de waarde die u opgeeft in het dialoogvenster
-`valuefield` of expressielijnen voor waarden. Hoewel u verschillende indelingen kunt gebruiken voor de `valueformat` lijnen, adviseren wij altijd de volgende waarde te gebruiken wanneer het gebruiken
-`valueexpression`:
+De tweede belangrijkste coderegel in een weergave of groep is de `valueformat=` lijn. Dit vertelt Workfront in welke notatie de waarde die u opgeeft in het dialoogvenster `valuefield` of `valueexpression` lijnen. Hoewel u verschillende indelingen kunt gebruiken voor de `valueformat` lijnen, adviseren wij altijd de volgende waarde te gebruiken wanneer het gebruiken `valueexpression`:
 
 `valueformat=HTML`
 
-Voor extra `valueformats` waarden, zie ook de volgende artikelen:
+Voor extra `valueformat` waarden, zie ook de volgende artikelen:
 
 * [Datums opmaken in tekstmodusrapporten](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Getallen, valuta en percentagewaarden in tekstmodusrapporten opmaken](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
