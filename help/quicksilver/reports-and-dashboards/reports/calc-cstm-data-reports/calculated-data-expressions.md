@@ -7,7 +7,7 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 26aa5a1f9b0fd88c83d9967245d2a8149d39b607
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -56,21 +56,20 @@ Bijvoorbeeld:
 
 * In een aangepast veld gebruikt u op een aangepast formulier voor taken de volgende opties om de naam te genereren van het bovenliggende project van de taak waaraan het aangepaste formulier is gekoppeld:
 
-  ```
-  {project}.{name}
-  ```
+
+  ` {project}.{name}`
+
 
 * In een douanekolom in een rapport, zou u het volgende gebruiken om een de douanekolom van de Naam van het Project op een taakrapport toe te voegen:
 
-  ```
-  valuefield=project:name
-  ```
+
+  `valuefield=project:name`
+
 
   of
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >

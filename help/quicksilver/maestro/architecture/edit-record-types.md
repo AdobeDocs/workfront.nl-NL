@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -152,9 +152,9 @@ After permssions - replace the table with:
 
 ## Recordtypen bewerken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte moet standaard worden geopend.
+De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
 1. Houd de muisaanwijzer boven de kaart van een recordtype en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de recordtypekaart klikt u op **Weergave bijwerken**.
@@ -181,3 +181,4 @@ After permssions - replace the table with:
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    U kunt de naam van een recordtype ook wijzigen in de koptekst van de pagina van het recordtype.
+1. (Optioneel) Breid de pijl omlaag naar rechts uit van de naam van een recordtype en selecteer een ander recordtype dat u wilt bewerken.

@@ -5,13 +5,13 @@ keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
 title: Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon
 description: Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront beschikt over een Kick-Start-sjabloon die u kunt gebruiken om dit te doen, zoals wordt uitgelegd in Kick-Starts data importer.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2780'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>
+   <p> Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -56,23 +59,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt grote aantallen voorwerpen in Workfront invoeren gebruikend een Kick-Begin malplaatje. Houd echter rekening met de volgende beperkingen:
 
-* Als u gegevens op deze manier importeert, wordt er geen informatie bijgewerkt over records die al in Workfront bestaan
-* U kunt alleen nieuwe records en de bijbehorende gegevens importeren
+* Als u gegevens op deze manier importeert, wordt er geen informatie bijgewerkt over records die al in Workfront bestaan.
+* U kunt alleen nieuwe records en de bijbehorende gegevens importeren.
 * Er kunnen niet meer dan 2000 records tegelijk worden geïmporteerd om ervoor te zorgen dat er geen time-out optreedt bij het importeren
 
 ## Een Kick-startsjabloon exporteren als een spreadsheetbestand
 
-Wanneer u een malplaatje van het Kick-Begin uitvoert ontvangt u een leeg werkboek van het spreadsheet van Excel. In verdere procedures in dit artikel, zult u het werkboek met uw informatie bevolken en dan het terug in Workfront invoeren.
+Wanneer u een malplaatje van het Kick-Begin uitvoert ontvangt u een leeg werkboek van het spreadsheet van Excel. Nadat de spreadsheet aan uw computer wordt gedownload, kunt u het gebruiken om het met uw informatie te bevolken en dan het terug in Workfront invoeren.
 
 Een Kick-Start-sjabloon exporteren:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klikken **Systeem** > **Gegevens exporteren (Kick-start)**.
+<!--
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Klikken **Meer opties** Selecteer vervolgens de soorten gegevens die u wilt opnemen.
+1. Klikken **Systeem** > **Gegevens importeren (Kick-start)**.
 
-   Elke optie die u selecteert, vertegenwoordigt een verzameling meerdere tabbladen in het geëxporteerde werkblad. Als u bijvoorbeeld de optie Rapport selecteert, worden alle benodigde objecten voor het maken van een rapport opgenomen in het werkblad (weergaven, filters, groepen, rapporten).
+1. Selecteer de soorten informatie die u wilt opnemen.
+
+   Elke optie die u selecteert, vertegenwoordigt een verzameling meerdere tabbladen in het geëxporteerde werkblad. Als u bijvoorbeeld de optie **Rapport** alle benodigde objecten voor het maken van een rapport worden opgenomen in het spreadsheet (weergaven, filters, groepen, rapporten).
 
    U kunt alle hieronder vermelde objecttypen gebruiken om gegevens te importeren in Workfront. (De enige uitzondering is de optie Toegangsniveaus. Het gegevensblad van Niveaus van de Toegang in de uitvoer wordt verstrekt voor verwijzingsdoeleinden-het staat u toe om een toegangsniveau aan een nieuw gebruikersrekening door identiteitskaart toe te wijzen.)
 
@@ -93,22 +99,22 @@ Een Kick-Start-sjabloon exporteren:
      <tr> 
       <td scope="col"> <p>Dashboard</p> <p>Alle dashboards in het systeem zijn beschikbaar om te exporteren. U kunt maximaal 100 specifieke dashboards selecteren in één export.</p> </td> 
       <td scope="col">Exporteren als ZIP-bestand</td> 
-      <td scope="col"> <p>Parameter</p> <p>Parameteroptie</p> <p>Parametergroep</p> <p>Categorieparameter</p> <p>Categorie</p> <p>Rapport</p> <p>Sectie tabblad Portal</p> <p>Dashboard</p> <p>Voorkeuren</p> </td> 
+      <td scope="col"> <p>Parameter</p> <p>Beschrijvende tekst</p><p>Parameteroptie</p> <p>Parametergroep</p> <p>Categorieparameter</p> <p>Categorie</p> <p>Rapport</p> <p>Sectie tabblad Portal</p> <p>Dashboard</p> <p>Voorkeuren</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Rapport</p> <p>Alle rapporten in het systeem zijn beschikbaar om te exporteren. U kunt maximaal 100 specifieke rapporten selecteren in één exportbewerking.</p> </td> 
       <td scope="col">Exporteren als ZIP-bestand </td> 
-      <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Parameteroptie</p> <p scope="col">Parametergroep</p> <p scope="col">Categorieparameter</p> <p scope="col">Categorie</p> <p scope="col">Rapport</p> <p scope="col">Voorkeuren</p> </td> 
+      <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Beschrijvende tekst</p> <p scope="col">Parameteroptie</p> <p scope="col">Parametergroep</p> <p scope="col">Categorieparameter</p> <p scope="col">Categorie</p> <p scope="col">Rapport</p> <p scope="col">Voorkeuren</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Goedkeuring</p> </td> 
       <td scope="col"> <p>Exporteren als Excel-bestand</p> </td> 
-      <td scope="col"> <p>Stap fiatteur</p> <p>Goedkeuringsstap</p> <p>Goedkeuring</p> <p>Goedkeuringsproces</p> <p>Voorkeuren</p> </td> 
+      <td scope="col"> <p>Stage-fiatteur</p> <p>Goedkeuringsfase</p> <p>Goedkeuring</p> <p>Goedkeuringsproces</p> <p>Voorkeuren</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Aangepaste gegevens</p> </td> 
       <td scope="col"> <p>Exporteren als Excel-bestand</p> </td> 
-      <td scope="col"> <p>Parameter</p> <p>Parameteroptie</p> <p>Parametergroep</p> <p>Categorieparameter</p> <p>Categorie</p> <p>Voorkeuren</p> </td> 
+      <td scope="col"> <p>Parameter</p> <p>Beschrijvende tekst</p>  <p>Parameteroptie</p> <p>Parametergroep</p> <p>Categorieparameter</p> <p>Categorie</p> <p>Voorkeuren</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Type uitgave</p> </td> 
@@ -189,13 +195,33 @@ Een Kick-Start-sjabloon exporteren:
       <td>Functie</td> 
       <td>Exporteren als Excel-bestand</td> 
       <td> <p> Functie</p> <p>Voorkeuren </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Oudere bronnenpool</td> 
+      <td>Exporteren als Excel-bestand</td> 
+      <td> <p> Oudere bronnenpool</p> <p>Voorkeuren </p> </td> 
+     </tr>
+
+   <tr> 
       <td>Mijlpad</td> 
       <td> Exporteren als Excel-bestand</td> 
       <td> <p> Mijlsteen</p> <p>Mijlpad</p> <p>Voorkeuren </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Bron voor niet-arbeid</td> 
+      <td> Exporteren als Excel-bestand</td> 
+      <td> <p> Bron voor niet-arbeid</p> <p>Voorkeuren</p></td> 
+     </tr>
+
+   <tr> 
+      <td>Broncategorie voor niet-arbeid</td> 
+      <td> Exporteren als Excel-bestand</td> 
+      <td> <p> Broncategorie voor niet-arbeid</p> <p>Voorkeuren</p></td> 
+     </tr>
+
+   <tr> 
       <td>Opmerking</td> 
       <td>Exporteren als Excel-bestand</td> 
       <td> <p> Opmerking</p> <p>Voorkeuren </p> </td> 
@@ -216,11 +242,6 @@ Een Kick-Start-sjabloon exporteren:
       <td> <p> Bronschatting</p> <p>Voorkeuren </p> </td> 
      </tr> 
      <tr> 
-      <td>Bronpool</td> 
-      <td>Exporteren als Excel-bestand</td> 
-      <td> <p> Bronpool</p> <p>Voorkeuren </p> </td> 
-     </tr> 
-     <tr> 
       <td>Risico</td> 
       <td>Exporteren als Excel-bestand</td> 
       <td> <p> Risico</p> <p>Voorkeuren </p> </td> 
@@ -233,7 +254,7 @@ Een Kick-Start-sjabloon exporteren:
      <tr> 
       <td>Scorecard</td> 
       <td>Exporteren als Excel-bestand</td> 
-      <td> <p>Scorecard-vragen</p> <p>Scorecard-optie</p> <p>Scorecard</p> <p>Voorkeuren </p> </td> 
+      <td> <p>Scorecard-vraag</p> <p>Scorecard-optie</p> <p>Scorecard</p> <p>Voorkeuren </p> </td> 
      </tr> 
      <tr> 
       <td>Taak</td> 
@@ -269,17 +290,17 @@ Een Kick-Start-sjabloon exporteren:
    </table>
 
 1. Klikken **Downloaden**.
-1. Doorgaan met [De spreadsheetsjabloon vullen met uw gegevens](#populate-the-spreadsheet-template-with-your-data) om de sjabloon te vullen met uw gegevens.
+1. Doorgaan met [De spreadsheetsjabloon vullen met uw gegevens](#populate-the-spreadsheet-template-with-your-data) om de lege sjabloonspreadsheet te vullen met uw gegevens.
 
 ## De spreadsheetsjabloon vullen met uw gegevens {#populate-the-spreadsheet-template-with-your-data}
 
-* [Over de tabbladen (gegevensbladen) in het werkblad](#about-the-tabs-data-sheets-included-in-the-spreadsheet)
+* [Overzicht van de tabbladen (gegevensbladen) in het werkblad](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [Een record importeren](#import-a-record)
 * [Datums opnemen](#include-dates)
 * [Jokertekens gebruiken](#use-wildcards)
 * [Vervanging van kenmerknaam voor id&#39;s](#attribute-name-substitution-for-ids)
 
-### Over de tabbladen (gegevensbladen) in het werkblad {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
+### Overzicht van de tabbladen (gegevensbladen) in het werkblad
 
 >[!TIP]
 >
@@ -293,12 +314,13 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 >
 >Zorg voor het volgende om fouten te voorkomen:
 >
->* Verwijder of wijzig deze velden op geen enkele manier. Wijzig bijvoorbeeld hun volgorde of naam niet.
->* Vul elk veld met een kolomkop die vet wordt weergegeven. Deze vertegenwoordigen vereiste velden.
+>* Verwijder de lege eerste rij van een werkblad niet.
+>* Verwijder deze velden (kolomkoppen) op geen enkele manier en wijzig de volgorde ervan. Wijzig bijvoorbeeld hun volgorde of naam niet.
+>* Voeg waarden toe aan elk veld dat in de kolomkop vet wordt weergegeven. Deze vertegenwoordigen vereiste velden.
 >
->  Als een vereist veld echter een standaardwaarde bevat die is ingesteld in de systeemvoorkeuren, hoeft u deze waarde niet in te vullen.
+>     Als een vereist veld echter een standaardwaarde bevat die is ingesteld in de systeemvoorkeuren, hoeft u deze waarde niet in te vullen.
 >
->  Bijvoorbeeld op **PROJ Project** de **setCondition** en **setConditionType** velden kunnen leeg blijven, maar de **setGroupID** en **setName** kolommen kunnen niet.
+>     Bijvoorbeeld op **PROJ Project** de **setCondition** en **setConditionType** velden kunnen leeg blijven, maar de **setGroupID** en **setName** kolommen kunnen niet.
 >
 >* Bepaalde velden, waaronder **setResourceRevenue** en **setEnteredByID**, automatisch door het systeem worden gegenereerd. Als u gegevens voor deze velden in het werkblad invoert, wordt deze genegeerd tijdens het uploaden van het werkblad.
 
@@ -306,26 +328,30 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 
 Elke rij van het blad komt overeen met een uniek object.
 
-1. Voltooi de cel in het dialoogvenster **isNew** kolom:
+1. Gegevens toevoegen in het dialoogvenster **isNew** kolom:
 
-   * Als het object dat u importeert nieuw is, typt u **TRUE** de gegevens in de rij importeren.
-   * Als het object zich al in Workfront bevindt, **FALSE** moet in de kolom zijn om de rij te negeren.
+   * Als het object dat u importeert nieuw is, typt u **TRUE** de gegevens in de rij importeren. Deze waarde is hoofdlettergevoelig en moet altijd in hoofdletters staan
+   * Als het object zich al in Workfront bevindt, typt u **FALSE** in de **isNew** om de rij te negeren. Deze waarde is hoofdlettergevoelig en moet altijd in hoofdletters staan
 
       * Records die al in Workfront bestaan, worden niet bijgewerkt.
-      * Als u een sjabloon met gegevens hebt gedownload, worden bestaande objecten al gemarkeerd met **FALSE**.
+      * Als u een sjabloon hebt gedownload met gegevens uit Workfront, zijn bestaande objecten al gemarkeerd met **FALSE**.
       * Als u een lege sjabloon hebt gedownload, hoeft u geen nieuwe rijen voor bestaande objecten toe te voegen.
 
-1. Voltooi de cel in het dialoogvenster **ID** kolom op een van de volgende manieren:
+1. Gegevens toevoegen in het dialoogvenster **ID** kolom op een van de volgende manieren:
 
-   * Als het object dat u importeert nieuw is (en u typt **TRUE** in de **isNew** (kolom), typt u een willekeurig nummer voor de id. Dit nummer moet uniek zijn in het werkblad.
+   * Als het object dat u importeert nieuw is (en u typt **TRUE** in de **isNew** (kolom), typt u een willekeurig nummer voor de id. Dit nummer moet uniek zijn in het werkblad. Als u bijvoorbeeld drie objecten importeert, kunt u deze de id 1, 2 of 3 geven.
 
-   * Als het object al bestaat in Workfront (en **FALSE** bevindt zich in de **isNew** kolom), moet identiteitskaart de alpha-numerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
+   * Als het object al bestaat in Workfront (en **FALSE** bevindt zich in de **isNew** kolom), en u importeert nieuwe informatie over bestaande voorwerpen, moet identiteitskaart alfanumerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
 
-      * Records die al in Workfront bestaan, worden niet bijgewerkt.
-      * Als u een malplaatje met gegevens downloadde, bevatten de bestaande voorwerpen reeds GUID als identiteitskaart
-      * U kunt een nieuw object importeren op basis van een bestaand object door **FALSE** tot **TRUE** in de **isNew** kolom, wijzigt u de id en brengt u de benodigde gegevensaanpassingen aan voordat u gaat importeren.
+   >[!TIP]
+   >
+   > Om unieke GUID van een voorwerp in Workfront te weten te komen, kunt u een rapport voor dat voorwerp tot stand brengen en de kolom van identiteitskaart aan het rapport toevoegen. De waarde voor elk voorwerp in die kolom is GUID van de voorwerpen.
 
-     ![Voorbeeld-id voor een groep](assets/kick-start-group-example.png)
+   * Records die al in Workfront bestaan, worden niet bijgewerkt.
+   * Als u een malplaatje met gegevens downloadde, bevatten de bestaande voorwerpen reeds GUID als identiteitskaart
+   * U kunt een nieuw object importeren op basis van een bestaand object door **FALSE** tot **TRUE** in de **isNew** kolom, wijzigt u de id en brengt u de benodigde gegevensaanpassingen aan voordat u gaat importeren.
+
+   ![Voorbeeld-id voor een groep](assets/kick-start-group-example.png)
 
    * Wanneer u een project invoert, moet u op een identiteitskaart van de Groep wijzen.
 
@@ -341,7 +367,7 @@ Elke rij van het blad komt overeen met een uniek object.
 1. (Optioneel) Aangepaste gegevens toevoegen:
 
    * Maak een nieuwe kolom voor elk aangepast veld dat u wilt opnemen in het importproces.
-   * Geef elke nieuwe kolom voor het bijbehorende aangepaste veld de volgende naam: **DE:[Naam van aangepast veld zoals wordt weergegeven in Workfront]**.
+   * Geef elke nieuwe kolom voor het bijbehorende aangepaste veld de volgende naam: **DE:[Naam van het aangepaste veld zoals dit wordt weergegeven in Workfront]**. U kunt bijvoorbeeld het volgende aangepaste veld maken: &quot;DE: Afdelingen&quot;.
    * In de kolom **setCategorieID**, typ GUID van de bestaande douanevorm waarop dit douaneveld verblijft. Dit veld is vereist bij het importeren van aangepaste gegevens.
    * Als u meerdere gegevenswaarden in het aangepaste veld wilt toevoegen (zoals keuzerondjes, selectievakjes of lijsten), gebruikt u het verticale scheidingsteken voor aangepaste gegevens op de balk &quot;|&quot; in het tabblad Voorkeuren om de waarden van elkaar te scheiden.
 
@@ -353,13 +379,17 @@ Workfront kan de meeste datumnotaties verwerken. U moet er echter voor zorgen da
 
 >[!TIP]
 >
->De meeste mensen vinden het het gemakkelijkst om het formaat van MM/DD/YYYY (bijvoorbeeld: 07/10/2022) te gebruiken.
+>De populairste indeling is de indeling MM/DD/JJJJ.
+>
+>Bijvoorbeeld: 10-07-2023.
 
-Workfront accepteert ook tijdwaarden als onderdeel van de datum (bijvoorbeeld: 07/10/2022 01:30 of 07/10/2022 1:00 PM).
+Workfront accepteert ook tijdwaarden als onderdeel van de datum.
+
+Bijvoorbeeld: 07/10/2022 01:30 of 07/10/2022 1:00 PM.
 
 Als u een tijd in de datum weglaat, voert Workfront een van de volgende handelingen uit:
 
-* Gaat om 12:00 uur. Om het datumresultaat te zien u verwacht, moet de systeemtijdzone uw tijdzone aanpassen.
+* Veronderstelt dat de tijd 12:00 is. Om het datumresultaat te zien u verwacht, moet de systeemtijdzone uw tijdzone aanpassen.
 * Als het zich op een voorwerp bevindt dat met een programma wordt geassocieerd, verschuift de tijd aan de vroegste tijd dat het programma toestaat.
 
 >[!NOTE]
@@ -407,19 +437,19 @@ Hoewel het aan te raden is om waar mogelijk id&#39;s te gebruiken, is het soms l
 
 **Voorbeelden:**
 
-* **(importeren van project)**
+* **Projectimport**
 
   Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door **GROEP** blad, nota nemend van de respectieve Groep IDs, en het kleven van hen in de correcte cellen (**setGroupID** kolom) op de **PROJ Project** blad.
 
   Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
 
-  Om de Vervanging van de Naam van Attributen voor het hierboven beschreven voorbeeld te doen, verandert u **setGroupID** kolomkop naar **#setGroupID GROUP***name**. U kunt dan de groep van elk project door naam van verwijzingen voorzien.
+  Om de Vervanging van de Naam van Attributen voor het hierboven beschreven voorbeeld te doen, verandert u **setGroupID** kolomkop naar **#setGroupID GROUP name**. U kunt dan de groep van elk project door naam van verwijzingen voorzien.
 
   >[!NOTE]
   >
   >De optie om Vervanging van de Naam van Attributen te gebruiken is beperkt tot verwijzingen voor bestaande slechts verslagen. U kunt naamvervanging niet gebruiken voor objecten die u in dezelfde importbewerking maakt.
 
-* **(importeren door gebruiker)**
+* **Gebruikersimport**
 
   Vul bij het importeren van gebruikers de **setRoleID** uit een lijst met rollen in het **ROL** tab.
 
@@ -443,8 +473,7 @@ Nadat u de Excel-sjabloon met uw gegevens hebt gevuld, kunt u de Excel-sjabloon 
 
 Het importeren Kick-Start ondersteunt de volgende bestandstypen:
 
-* Op XML gebaseerde Excel (.xlsx)
-* Oudere Excel (.xls)
+* Excel (.xls of .xlsx)
 * Zipped-bestand (.ZIP) (dat alleen .xlsx- of .xls-bestanden bevat)
 
   >[!NOTE]
@@ -460,7 +489,9 @@ Het importeren Kick-Start ondersteunt de volgende bestandstypen:
 
 De sjabloonspreadsheetgegevens importeren in Workfront:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
+<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
 1. Klikken **Systeem** >**Gegevens importeren (Kick-start)**.
 
@@ -468,7 +499,7 @@ De sjabloonspreadsheetgegevens importeren in Workfront:
 
 1. Klikken **Uploaden.**
 
-   Als het Excel-bestand langer dan 5 minuten duurt om naar Workfront te uploaden, wordt de toepassing uitgerekt en kan het bestand niet worden geüpload.
+   Als het Excel-bestand langer dan 5 minuten duurt om naar Workfront te uploaden, worden de time-out van de toepassing en kan Workfront het bestand niet uploaden.
 
    Importeer de gegevens in kleinere batches met objecten.
 

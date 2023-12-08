@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ U kunt een record uit de volgende gebieden bewerken:
 
 1. Klikken **Wijzigingen opslaan**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Een record bewerken vanuit de tabelweergave van het recordtype
+### Een record bewerken vanuit de tabelweergave van een recordtype
 
 1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ U kunt een record uit de volgende gebieden bewerken:
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Gekoppelde velden die zijn gemaakt door recordtypen te koppelen
+   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
 
 
@@ -225,11 +225,12 @@ U kunt een record uit de volgende gebieden bewerken:
    >
    >* U kunt geen informatie kopiëren van een andere bron, behalve een Maestro-veld van hetzelfde type als het veld waarin u de informatie plakt.
    >
-   >* U kunt geen veldwaarden kopiëren en plakken voor velden die worden weergegeven in het gebied Details van een record.
+   >* U kunt geen veldwaarden kopiëren en plakken in het gebied Details van een record. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
-   ><ul>
    >
-   > * Systeemvelden
+   >
+   >    * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. U kunt gekoppelde recordvelden kopiëren en plakken. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+   >    * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
 
 
    <!--take People out of the list above when they release this - this might be coming later-->
