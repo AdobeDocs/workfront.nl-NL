@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 152159a27bf7253d292133d3406096d8f7049922
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 17%
+source-wordcount: '78'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ Deze sectie bevat de volgende subsecties:
 * [Woordenlijst met Adobe Workfront-terminologie](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Workfront-browservereisten](../workfront-basics/workfront-browser-requirements.md)
 * [Ondersteunde talen in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
-* [Navigeren door Adobe Workfront](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [Navigeren in Adobe Workfront: artikelindex](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Home](../workfront-basics/using-home/home.md)
 * [Werkonderdelen bijwerken en updates weergeven](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Werken met aangepaste formulieren](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)

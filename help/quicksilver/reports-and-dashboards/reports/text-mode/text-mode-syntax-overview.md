@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
 
 * U kunt jokertekens gebruiken in een `valueexpression` maar niet in een `valuefield` lijn.
 
-  Voor informatie over vervangingen, zie [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Voor informatie over vervangingen, zie [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` overzicht voor weergaven en groepen
@@ -285,4 +285,4 @@ U kunt de volgende elementen gebruiken om filters en aangepaste herinneringen op
      >
      >De schakelaars van de verklaring zijn case sensitive en altijd in hoofdletters. &quot;AND&quot; kan worden weggelaten in de tekstmodus.
 
-* Jokertekens om filters dynamischer te maken en ze aan te passen voor de huidige tijd of de gebruiker die is aangemeld. Voor informatie over vervangingen, zie [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Jokertekens om filters dynamischer te maken en ze aan te passen voor de huidige tijd of de gebruiker die is aangemeld. Voor informatie over vervangingen, zie [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

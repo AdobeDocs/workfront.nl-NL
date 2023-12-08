@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion biedt integratie met Outlook. In dit artikel
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ De [!DNL Adobe Workfront] [!DNL Outlook] met invoegtoepassing kunt u de volgende
 * Reageren op opmerkingen via de [!DNL Workfront] invoegtoepassing voor [!DNL Outlook]. Voor informatie over het beantwoorden van opmerkingen van Workfront voor [!DNL Outlook], zie [Reageren op een opmerking van [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
 * Maak nieuwe taken en uitgaven of maak deze op basis van bestaande e-mails (gebruik van de functie slepen en neerzetten). Zie voor meer informatie [Een [!DNL Outlook] e-mailen naar een project als taak of probleem](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
-U moet de opdracht [!DNL Workfront] toe:voegen-binnen aan uw [!DNL Outlook] account voordat u kunt gebruiken [!DNL Workfront for Outlook].
+U moet de opdracht [!DNL Workfront] invoegtoepassing in uw [!DNL Outlook] account voordat u kunt gebruiken [!DNL Workfront for Outlook].
 
 Als u de [!DNL Workfront] add-in met uw [!DNL Outlook] account, neem contact op met uw [!DNL Workfront] beheerder om ervoor te zorgen dat [!DNL Outlook] add-ins worden ingeschakeld voor uw organisatie.
 
-Voor informatie over hoe te om toe te laten [!DNL Outlook] integratie voor uw organisatie, zie [Inschakelen [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md).
+Voor informatie over hoe u de [!DNL Outlook] integratie voor uw organisatie, zie [Inschakelen [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md).
 
 ## Toegangsvereisten
 
@@ -41,9 +41,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+  <tr>
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw abonnement: standaard </p>
+ <p>of</p> 
+<p>Huidig plan: [!UICONTROL Work], [!UICONTROL Plan] </p> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!DNL Workfront] voordat u deze integratie kunt gebruiken.
+Uw [!DNL Workfront] beheerder moet inschakelen [!DNL Outlook for Office] with [!DNL Workfront] voordat u deze integratie kunt gebruiken.
 
 ## Systeemvereisten
 
@@ -68,7 +71,7 @@ De [!DNL Workfront] invoegtoepassing voor [!DNL Outlook] wordt ondersteund in om
 
 ### Clientvereisten {#client-requirements}
 
-Wij ondersteunen de volgende versies van [!DNL Outlook]:
+De volgende versies van [!DNL Outlook]:
 
 * [!DNL Outlook 2013] of hoger [!DNL Windows]
 *[!DNL  Outlook 2016] of hoger [!DNL Windows]
@@ -92,9 +95,9 @@ Standaard wordt aan de vereisten van de mailserver voldaan wanneer u verbinding 
 * [!DNL Exchange Web Services] (EWS) moet zijn ingeschakeld en moet beschikbaar zijn op internet.
 * De server moet een geldig verificatiecertificaat hebben voordat de server geldige id-tokens kan uitgeven. Nieuwe installaties van [!DNL Exchange Server] een standaardcertificaat voor verificatie opnemen.
 
-   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
+  <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
-* Om toegang te krijgen tot [!DNL Workfront] toe:voegen-binnen van [[!DNL Office] Winkel](https://store.office.com/), moeten uw servers van de cliënttoegang met kunnen communiceren  [https://store.office.com](https://store.office.com/).
+* Voor toegang tot [!DNL Workfront] toe:voegen-binnen van [[!DNL Office] Winkel](https://store.office.com/), moeten uw servers van de cliënttoegang met kunnen communiceren  [https://store.office.com](https://store.office.com/).
 
 Voor meer gedetailleerde informatie over ondersteunde omgevingen raadpleegt u de [[!DNL Microsoft Office 365] homepage](https://products.office.com/en-us/office-365-home).
 
@@ -136,13 +139,12 @@ Voor meer informatie over het instellen van de [!DNL Workfront] invoegtoepassing
 ## Aanmelden bij [!DNL Workfront] van [!DNL Outlook]
 
 1. In [!DNL Outlook]selecteert u een e-mailbericht en klikt u op de knop **[!DNL Workfront]** in de koptekst van de e-mail.
-1. Volg de aanwijzingen om u aan te melden [!DNL Workfront] het gebruiken van Verbeterde Authentificatie, OAuth 2.0, of uw Taal van de Prijsverhoging van de Veiligheid (SAML) URL.
+1. Volg de aanwijzingen voor aanmelden [!DNL Workfront] het gebruiken van Verbeterde Authentificatie, OAuth 2.0, of uw Taal van de Prijsverhoging van de Veiligheid (SAML) URL.
 
-   Voordat gebruikers zich kunnen aanmelden bij de [!DNL Workfront] add-in met gebruik van SAML, a [!DNL Workfront] de beheerder moet eerst toelaten [!DNL Office 365] toe:voegen-ins om het gebruiken van een oplossing van SAML 2.0 voor authentiek te verklaren. Zie de sectie voor meer informatie [Configureren [!DNL Adobe Workfront] met SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in het artikel [Configureren [!DNL Adobe Workfront] met SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+   Voordat gebruikers zich kunnen aanmelden bij de [!DNL Workfront] add-in met gebruik van SAML, a [!DNL Workfront] de beheerder moet eerst toelaten [!DNL Office 365] toe:voegen-ins om voor authentiek te verklaren gebruikend een oplossing SAML 2.0. Zie de sectie voor meer informatie [Configureren [!DNL Adobe Workfront] met SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in het artikel [Configureren [!DNL Adobe Workfront] met SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
    >[!NOTE]
    >
    >* Wanneer u wordt gevraagd het domein van uw [!DNL Workfront] -account, typt u deze notatie: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
    >* Verbeterde verificatie is pas beschikbaar na een [!DNL Workfront] de beheerder laat het voor deze integratie toe.
-
 

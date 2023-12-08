@@ -2,20 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Proofing
-description: Meer informatie over proefdrukken.
+title: "Proofing: artikelindex"
+description: Reviseer en becommentariëer in hetzelfde document waar de creatieve teams werken. Met Workfront Proofing, kunt u om terugkoppelen verzoeken, commentaren zien, en berichten voor hangende en voltooide goedkeuringen krijgen — allen terwijl het handhaven van een controletraject van commentaren en versies.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# Proofing
+# Proofing: artikelindex
+
+Reviseer en becommentariëer in hetzelfde document waar de creatieve teams werken. Met Workfront Proofing, kunt u om terugkoppelen verzoeken, commentaren zien, en berichten voor hangende en voltooide goedkeuringen krijgen — allen terwijl het handhaven van een controletraject van commentaren en versies.
 
 Deze sectie bevat de volgende subsecties:
 

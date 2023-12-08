@@ -3,14 +3,14 @@ title: Een goedkeuringsproces voor werkitems maken
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen vóór de objecten in het systeem evalueren.
+description: U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen vóór het voorwerp in het systeem evalueren.
 author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2202'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
-U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen vóór de objecten in het systeem evalueren.
+U kunt een goedkeuringsproces tot stand brengen dat de gebruikers aan een het werkpunt (project, taak, kwestie, malplaatje, of malplaatjetaak), een document, of een proef kunnen vastmaken. Een goedkeuringsproces zorgt ervoor dat de aangewezen wijzen op het voorwerp bepaalde veranderingen vóór het voorwerp in het systeem evalueren.
 
 Dit artikel beschrijft hoe te om een systeem-niveau of groep-vlakke globale goedkeuringsprocessen voor het werkpunten (project, taak, kwestie, malplaatje, of malplaatjetaak) tot stand te brengen.
 
@@ -52,7 +52,10 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td> <p>Nieuw abonnement: standaard </p>
+ <p>of</p> 
+<p>Huidig plan: Plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -66,7 +69,7 @@ U moet het volgende hebben:
 
 ## Een algemeen goedkeuringsproces op systeemniveau of groepsniveau voor werkitems maken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. (Voorwaardelijk) Als u een goedkeuringsproces op systeemniveau maakt, klikt u op **Processen** > **Goedkeuringen** in het linkerdeelvenster.
 
@@ -78,7 +81,7 @@ U moet het volgende hebben:
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. Klik op de knop **Goedkeuring van project**, **Taakgoedkeuringen**, of **Goedkeuring afgeven** , afhankelijk van het type goedkeuringsproces dat u wilt maken.
+1. Kies **Goedkeuring van project**, **Taakgoedkeuringen**, of **Goedkeuring afgeven** tab.
 
 1. Klikken **Nieuw goedkeuringsproces**.
 1. Geef de volgende informatie op in het vak dat wordt weergegeven:
@@ -89,15 +92,15 @@ U moet het volgende hebben:
     <tbody> 
      <tr> 
       <td role="rowheader">Naam goedkeuringsproces</td> 
-      <td>Typ een beschrijvende naam voor het goedkeuringsproces. Gebruikers zien deze naam wanneer ze het goedkeuringsproces op een object toepassen, zoals wordt beschreven in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Een nieuw of bestaand goedkeuringsproces koppelen aan werk</a>.</td> 
+      <td><p>Typ een beschrijvende naam voor het goedkeuringsproces. Gebruikers zien deze naam wanneer ze het goedkeuringsproces op een object toepassen, zoals wordt beschreven in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Een nieuw of bestaand goedkeuringsproces koppelen aan werk</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschrijving</td> 
-      <td>Typ een beschrijving van het goedkeuringsproces. Dit wordt weergegeven in het dialoogvenster <b>Goedkeuringen</b> in de <b>Instellen</b> naast de naam van het goedkeuringsproces.</td> 
+      <td><p>Typ een beschrijving van het goedkeuringsproces. Dit wordt weergegeven in het dialoogvenster <b>Goedkeuringen</b> in de <b>Instellen</b> naast de naam van het goedkeuringsproces.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Is actief</td> 
-      <td> <p>Houd deze optie ingeschakeld als u wilt dat andere gebruikers het goedkeuringsproces kunnen koppelen aan projecten, taken en problemen die zij maken. </p> <p>Deze optie is standaard ingeschakeld.</p> <p> Een goedkeuringsproces als inactief merken is nuttig wanneer uw organisatie niet meer het hoeft te gebruiken, maar u historische informatie over het gebruik wilt bewaren.</p> </td> 
+      <td> <p>Houd deze optie ingeschakeld als u wilt dat andere gebruikers het goedkeuringsproces kunnen koppelen aan projecten, taken en problemen die zij maken. </p> <p>Deze optie is standaard ingeschakeld.</p> <p> Tip: een goedkeuringsproces inactief markeren is handig wanneer uw organisatie het niet langer hoeft te gebruiken, maar u historische informatie over het gebruik ervan wilt behouden.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Dit goedkeuringsproces kan worden gebruikt door </td> 
@@ -145,7 +148,7 @@ U moet het volgende hebben:
 
    <p><b>OPMERKING</b>:
 
-   Als u een gebruiker, team of rol als fiatteur toevoegt, geeft u deze niet automatisch machtigingen voor het object dat aan die goedkeuring is gekoppeld. Ze ontvangen machtigingen voor het object wanneer de goedkeuringsstap wordt geactiveerd. Anders moeten de objecten met hen worden gedeeld voordat ze een goedkeuringsbesluit kunnen nemen. </p> <p>U kunt een persoon ook als fiatteur aanwijzen door de rol van het individu op te geven. U kunt bijvoorbeeld een projecteigenaar, projectsponsor, Portfolio-eigenaar, programmaeigenaar of -beheerder toewijzen als fiatteur. Deze opties worden automatisch weergegeven wanneer u begint te typen.</p>
+   Als u een gebruiker, team of rol als fiatteur toevoegt, geeft u deze niet automatisch machtigingen voor het object dat aan die goedkeuring is gekoppeld. Ze ontvangen machtigingen voor het object wanneer de goedkeuringsstap wordt geactiveerd. Anders moeten de objecten met hen worden gedeeld voordat ze een goedkeuringsbesluit kunnen nemen. </p> <p>U kunt een persoon ook als fiatteur aanwijzen door de rol van het individu op te geven. U kunt bijvoorbeeld een projecteigenaar, projectsponsor, eigenaar van Portfolio, programmaeigenaar of beheerder toewijzen als fiatteur. Deze opties worden automatisch weergegeven wanneer u begint te typen.</p>
 
    <p><b>BELANGRIJK</b>:  
        <ul> 
@@ -159,12 +162,12 @@ U moet het volgende hebben:
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>U kunt dit proces herhalen om meerdere fiatteurs toe te voegen aan het werkgebied. Eén fase kan een combinatie van gebruikers, teams en taakrollen als fiatteurs bevatten. Er is geen limiet voor het aantal fiatteurs dat u aan een werkgebied kunt toevoegen.</p> <p><b>BELANGRIJK</b>:  <p>Wanneer u baanrollen als fiatteurs toewijst, kunnen alle gebruikers verbonden aan die baanrol die ook op het projectteam is een besluit over de goedkeuring nemen. </p> <p>Wanneer u een team als fiatteur toewijst, kan om het even welke gebruiker in dat team een besluit over de goedkeuring nemen. </p> <p>Voor meer informatie over het projectteam, zie <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Overzicht van het projectteam</a>. Ga voor meer informatie over het goedkeuren van werk naar <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Goedkeuring van de werkzaamheden </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Slechts één besluit is vereist</td> 
-      <td> <p>(Wordt alleen weergegeven als u meerdere fiatteurs aan het werkgebied toevoegt) Selecteer deze optie als een van de fiatteurs in het werkgebied het werkitem tijdens dit werkgebied kan goedkeuren of afwijzen. Hierdoor kan het werkitem het werkgebied verlaten. </p> <p>Als deze optie niet is geselecteerd, moeten alle geïdentificeerde fiatteurs het werkgebied (in willekeurige volgorde) goedkeuren of afwijzen voordat het item het werkgebied verlaat. Als een van de fiatteurs het werkgebied afwijst, wordt het proces onderbroken en begint het opnieuw, zodat de vereiste wijzigingen kunnen worden aangebracht. Daarna kunnen de fiatteurs het werkgebied opnieuw goedkeuren of afwijzen.</p> <p>Wanneer een team als fiatteur wordt aangewezen, kan om het even welk lid van het team een stadium verlenen of verwerpen.</p> </td> 
+      <td role="rowheader">Slechts één besluit is vereist <br> <br>(Wordt alleen weergegeven als u meerdere fiatteurs aan het werkgebied toevoegt) </td> 
+      <td> <p>Selecteer deze optie als een van de fiatteurs in het werkgebied het werkitem tijdens dit werkgebied kan goedkeuren of afwijzen. Hierdoor kan het werkitem het werkgebied verlaten. </p> <p>Als deze optie niet is geselecteerd, moeten alle geïdentificeerde fiatteurs het werkgebied (in willekeurige volgorde) goedkeuren of afwijzen voordat het item het werkgebied verlaat. Als een van de fiatteurs het werkgebied afwijst, wordt het proces onderbroken en begint het opnieuw, zodat de vereiste wijzigingen kunnen worden aangebracht. Daarna kunnen de fiatteurs het werkgebied opnieuw goedkeuren of afwijzen.</p> <p>Wanneer een team als fiatteur wordt aangewezen, kan om het even welk lid van het team een stadium verlenen of verwerpen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Werkgebied toevoegen</p> </td> 
-      <td>(Optioneel) Voeg nog een werkgebied aan het pad toe met de opties die in de drie bovenstaande rijen worden beschreven. U kunt zo veel fasen aan het pad toevoegen als u nodig hebt.</td> 
+      <td><p>(Optioneel) Voeg nog een werkgebied aan het pad toe met de opties die in de drie bovenstaande rijen worden beschreven. U kunt zo veel fasen aan het pad toevoegen als u nodig hebt.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kiezen wat er gebeurt wanneer de goedkeuring wordt geweigerd</p> </td> 
@@ -197,7 +200,11 @@ Voor informatie over het bewerken van een goedkeuringsproces raadpleegt u [Een g
 
 ## Een goedkeuringsproces koppelen aan een tijdelijk onderdeel
 
-Wanneer u een goedkeuringsproces voor een het werkpunt (project, taak, of kwestie) wilt tot stand brengen, creeert u eerst het goedkeuringsproces, dan creeert het het werkpunt, en dan kunnen u en uw gebruikers het goedkeuringsproces met het het werkpunt associëren.
+Wanneer u een goedkeuringsproces voor een het werkpunt (project, taak, of kwestie) wilt tot stand brengen, u
+
+1. Maak eerst het goedkeuringsproces
+1. Het werkitem maken
+1. Het goedkeuringsproces koppelen aan het werkitem
 
 Voor instructies over het koppelen van een goedkeuringsproces aan een het werkpunt, zie [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

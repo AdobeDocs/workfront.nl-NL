@@ -7,9 +7,9 @@ description: Veelgestelde vragen over rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ Zie de artikelen voor informatie over het wijzigen van filters en groepen [Overz
 Het rapport of de kalender zouden een variabele van de vervangingsfilter kunnen hebben die aan de gebruiker richt die het programma wordt geopend. In dit geval, toont het rapport informatie die op de gebruiker wordt gebaseerd die het programma wordt geopend. Pas het filter aan om het jokerteken te verwijderen dat naar de aangemelde gebruiker wijst.\
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-Voor een volledige lijst van op gebruiker-gebaseerde variabelen van de vervangingsfilter, zie [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Voor een volledige lijst van op gebruiker-gebaseerde het filtervariabelen van de Zitter, zie [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Waarom lijken de gegevens in mijn verslag onvolledig?
 
@@ -119,7 +119,7 @@ Om alle taken of kwesties te zien die aan u worden toegewezen, of u de Eigenaar 
    >
    >Gebruik de **Toegewezen aan naam** , aangezien dit slechts voor de taken en kwesties filtert waarvoor u de Primaire Ontvanger, of Eigenaar bent.
 
-1. Selecteer **Gelijk** modifier.
+1. Selecteer de **Gelijk** modifier.
 1. Begin met typen *$$USER.ID* in het tekstvak en selecteer dit in de vervolgkeuzelijst die wordt weergegeven.\
    Dit zorgt ervoor dat u alle taken en kwesties ziet die aan de het programma geopende gebruiker worden toegewezen. U kunt het jokerteken vervangen door een specifieke gebruikersnaam.\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
@@ -130,18 +130,18 @@ Om alle taken of kwesties te zien die aan u worden toegewezen, of u de Eigenaar 
 
 ### Antwoord
 
-Eerst, zorg ervoor dat u de correcte toegang en de toestemmingen hebt om kwesties en taken aan een project toe te voegen. In dit geval dient u de **Problemen toevoegen** en **Taken toevoegen** koppelingen onder aan het dialoogvenster **Problemen** en **Taken** lijsten.
+Eerst, zorg ervoor dat u de correcte toegang en de toestemmingen hebt om kwesties en taken aan een project toe te voegen. In dit geval dient u de **Problemen toevoegen** en **Taken toevoegen** koppelingen onder aan **Problemen** en **Taken** lijsten.
 
 Er zijn echter een paar dingen die voorkomen dat deze koppelingen worden weergegeven:
 
 * Als u het snelle filter hebt toegepast op deze lijsten, worden de koppelingen niet weergegeven. Verwijder het snelle filter en de verbindingen zouden moeten tonen zodat kunt u kwesties en taken aan uw projecten toevoegen.\
-   Voor informatie over het snelle filter raadpleegt u [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+  Zie voor informatie over het snelle filter [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 * Als u een **Groepering** worden toegepast op deze lijsten, worden de koppelingen niet weergegeven. Verwijder de **Groepering** en de koppelingen moeten worden weergegeven, zodat u problemen en taken aan uw projecten kunt toevoegen.\
-   Voor informatie over het creëren van Groepen, zie [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Voor informatie over het creëren van Groepen, zie [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 * Als u een **Weergave** De koppelingen worden niet weergegeven op deze lijsten waarop een andere valuta dan de standaardvaluta voor het project is geselecteerd. Wijzig de **Weergave** tot **Oorspronkelijke valuta van het project** en de koppelingen moeten worden weergegeven, zodat u problemen en taken aan uw projecten kunt toevoegen.\
-   Voor meer informatie over het wijzigen van de valuta in je weergave raadpleegt u [Rapporten met financiële gegevens maken met unieke wisselkoersen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+  Voor meer informatie over het wijzigen van de valuta in je weergave raadpleegt u [Rapporten met financiële gegevens maken met unieke wisselkoersen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![](assets/nwe-project-original-currency-350x229.png)
 
@@ -163,11 +163,11 @@ Zie de sectie voor meer informatie over het vernieuwen van een dashboard in de c
 
 U kunt de eigenaar van een rapport niet wijzigen. Nochtans, kan de gebruiker die het rapport creeerde andere gebruikers toestaan om het rapport uit te geven. De manier u gebruikers kunt toestaan om een rapport uit te geven hangt van het type van gebruiker af u bent.
 
-* De beheerders van het systeem kunnen gebruikers met een vergunning van het Plan toestaan om rapporten uit te geven door de Edit optie in de rij van Rapporten te vormen om de toegang te omvatten om een rapport tot stand te brengen.\
-   Zie voor meer informatie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* De beheerders van het systeem kunnen gebruikers met een vergunning van het Plan toestaan om rapporten uit te geven door de Edit optie in de rij van Rapporten te vormen om de toegang te omvatten tot Create een rapport.\
+  Zie voor meer informatie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Eindgebruikers die toegang hebben tot het maken en delen van rapporten, kunnen afzonderlijke rapporten bewerken door deze te delen en andere gebruikers de machtiging Beheren te geven.\
-   Zie voor meer informatie [Een rapport delen in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Zie voor meer informatie [Een rapport delen in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 Als u toestemmingen hebt om een rapport te bekijken of te beheren, kunt u een exemplaar van het rapport ook maken, dat u dan de eigenaar van door gebrek zult zijn. Ga voor meer informatie over het kopiëren van een rapport naar [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
@@ -175,9 +175,9 @@ Als u toestemmingen hebt om een rapport te bekijken of te beheren, kunt u een ex
 
 ### Antwoord
 
-Soms is de eigenaar van het rapport ook de gebruiker die is opgegeven in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** in het verslag. Als de **Voer dit rapport uit met de toegangsrechten van:** gebruiker wordt gedeactiveerd, toont het rapport niet meer voor gebruikers die het rapport hebben dat met hen wordt gedeeld. Als dit gebeurt, kunt u het rapport weer toegankelijk maken door het **Voer dit Rapport uit met de toegangsrechten van:** leeg maken of een actieve gebruiker in het veld invoeren.
+Soms is de eigenaar van het rapport ook de gebruiker die is opgegeven in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** in het verslag. Als de **Voer dit rapport uit met de toegangsrechten van:** de gebruiker wordt gedeactiveerd, toont het rapport niet meer voor gebruikers die het rapport hebben dat met hen wordt gedeeld. Als dit gebeurt, kunt u het rapport weer toegankelijk maken door het **Voer dit Rapport uit met de toegangsrechten van:** leeg maken of een actieve gebruiker in het veld invoeren.
 
-Meer informatie over de **Voer dit Rapport uit met de toegangsrechten van:** veld, zie [Een rapport uitvoeren en leveren met de toegangsrechten van een andere gebruiker](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Voor informatie over het identificeren van alle rapporten die eigendom zijn van gedeactiveerde gebruikers raadpleegt u [Een rapport opstellen over rapportageactiviteiten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+Meer informatie over de **Voer dit Rapport uit met de toegangsrechten van:** veld, zie [Een rapport uitvoeren en leveren met de toegangsrechten van een andere gebruiker](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Voor informatie over het identificeren van alle rapporten die eigendom zijn van gedeactiveerde gebruikers, raadpleegt u [Een rapport opstellen over rapportageactiviteiten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 ## Hoe heb ik toegang tot een dashboard dat een rapport bevat dat door een geschrapte gebruiker wordt bezeten?
 
@@ -193,7 +193,7 @@ Ga voor meer informatie over de gevolgen van het verwijderen van een gebruiker n
 Als u de toegang van de Mening tot het rapport hebt, kunt u het volgende doen:
 
 1. Maak een kopie van het rapport.\
-   Om te leren hoe te om een exemplaar van een rapport tot stand te brengen, zie [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   Ga voor meer informatie over het maken van een kopie van een rapport naar [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 1. Werk het dashboard bij om het gekopieerde rapport op te nemen.\
    Ga voor meer informatie over het bewerken van een dashboard naar [Een dashboard bewerken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

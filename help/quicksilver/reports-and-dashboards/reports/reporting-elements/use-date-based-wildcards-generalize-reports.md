@@ -6,9 +6,9 @@ description: U kunt een rapport generaliseren door vervangingen in plaats van sp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als u bijvoorbeeld een rapport wilt maken waarin de taken worden weergegeven met
 
 Bijvoorbeeld in de afgelopen week, in het afgelopen jaar, in de komende twee weken, enz. Op deze manier maakt u het rapport één keer, maar omdat u een jokerteken in het filter gebruikt, geeft het elke keer dat iemand het leest andere resultaten omdat het zich aanpast aan de dag waarop het rapport wordt uitgevoerd.
 
-U kunt op datum gebaseerde vervangingen gebruiken wanneer het bouwen van de volgende rapporteringselementen:
+U kunt op datum-gebaseerde vervangingen gebruiken wanneer het bouwen van de volgende rapporteringselementen:
 
 * Filters
 * Aangepaste vragen
@@ -45,11 +45,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>De toestemmingen van het beheer aan een rapport om rapporteringselementen in een rapport uit te geven</p> <p>Machtigingen beheren voor een weergave of filter om deze te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten beheren aan een rapport om rapportelementen in een rapport te bewerken</p> <p>Machtigingen beheren voor een weergave of filter om deze te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ U moet een rapport maken voordat u jokertekenvariabelen eraan kunt toevoegen.
 
 Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Hoe kan ik-stappen
+## Procedure
 
 Om op datum-gebaseerde vervanging in een rapport op te nemen:
 
@@ -77,9 +77,9 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
 
    >[!TIP]
    >
-   >U moet altijd de **Gelijk** filtervariabele bij het werken met jokertekens in Adobe Workfront.
+   >U moet altijd de optie **Gelijk** filtervariabele bij het werken met jokertekens in Adobe Workfront.
 
-1. In de **Naam beginnen te typen...** vak, type: `$$TODAY` als u informatie over iets wilt tonen dat de zelfde dag voorkomt dat het rapport in werking wordt gesteld.
+1. In de **Naam typen...** vak, type: `$$TODAY` als u informatie over iets wilt tonen dat de zelfde dag voorkomt dat het rapport in werking wordt gesteld.
 
    of
 
@@ -90,7 +90,7 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
 1. (Optioneel) Als u informatie wilt weergeven die optreedt binnen een tijdsbestek na de datum waarop het rapport wordt uitgevoerd, typt u `$$TODAY+1w` om informatie in de volgende week weer te geven, of `$$TODAY+2m` om informatie in de komende twee maanden weer te geven. U kunt ook tijdframes voor kwartalen, uren, dagen of jaren aangeven.
 1. (Optioneel) Als u informatie wilt weergeven over iets dat zich heeft voorgedaan binnen een tijdsbestek vóór de datum waarop het rapport wordt uitgevoerd, typt u `$$TODAY-1w` om informatie van de vorige week weer te geven, of `$$TODAY-2m` om informatie van de voorafgaande twee maanden weer te geven. U kunt ook tijdframes voor kwartalen, uren, dagen of jaren aangeven.
 
-   Raadpleeg het artikel voor een volledige lijst met kenmerken, kwalificaties en operatoren die u kunt gebruiken in op datums gebaseerde jokertekens [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Raadpleeg het artikel voor een volledige lijst met kenmerken, kwalificaties en operatoren die u kunt gebruiken in op datums gebaseerde jokertekens [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
@@ -101,7 +101,7 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Filters maken of bewerken in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

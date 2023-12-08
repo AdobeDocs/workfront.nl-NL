@@ -5,9 +5,9 @@ description: De bovenste navigatiebalk, die boven aan het scherm wordt weergegev
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Onder deze opties in het dialoogvenster [!UICONTROL Main Menu], hebt u toegang t
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Klikken <b>[!UICONTROL Setup]</b> neemt u naar [!UICONTROL Setup] gebied waar u verschillende aspecten van uw [!DNL Workfront] account. Afhankelijk van uw toegangsmontages, wat u kunt vormen kan beperkt zijn.</p> <p>Voor meer informatie over de [!UICONTROL Setup] gebied, zie <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Beheer en installatie</a>.</p> </td> 
+   <td> <p>Klikken <b>[!UICONTROL Setup]</b> neemt u naar [!UICONTROL Setup] gebied waar u verschillende aspecten van uw [!DNL Workfront] account. Afhankelijk van uw toegangsmontages, wat u kunt vormen kan beperkt zijn.</p> <p>Voor meer informatie over de [!UICONTROL Setup] gebied, zie <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Beheer en instellingen: artikelindex</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Help]</p> </td> 

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '13777'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -392,7 +392,7 @@ ht-degree: 0%
          * [Standaard Adobe Workfront- en Frame.io-integratie alfa: overzicht](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Standaard Adobe Workfront- en Frame.io-integratie alfa: functies](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Beheer en installatie {#administration-and-setup}
-   * [Beheer en installatie](administration-and-setup/administration-and-setup.md)
+   * [Beheer en instellingen: artikelindex](administration-and-setup/administration-and-setup.md)
    * Aan de slag met het beheer {#get-started-administration}
       * [Aan de slag met beheer: artikelindex](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Doelstellingen voor de uitvoering definiëren](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -807,7 +807,7 @@ ht-degree: 0%
    * [Adobe Workfront-browservereisten](workfront-basics/workfront-browser-requirements.md)
    * [Ondersteunde talen in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
    * Navigeren door Adobe Workfront {#navigate}
-      * [Navigeren door Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [Navigeren in Adobe Workfront: artikelindex](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
          * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
          * [Zoeken in Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -973,7 +973,7 @@ ht-degree: 0%
    * [Agile](agile/agile.md)
    * [Overzicht van de raden](agile/boards-overview.md)
    * Aan de slag met borden in Adobe Workfront {#boards-in-workfront}
-      * [Aan de slag met borden in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Aan de slag met borden: artikelindex](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront Boards videodemonstraties](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Optie voor vroege deelname aan raden](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Het dashboard voor tekengebieden gebruiken](agile/get-started-with-boards/use-boards-page.md)
@@ -1516,7 +1516,7 @@ ht-degree: 0%
          * [Overzicht van groepen in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
          * [Groepen maken in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
          * [Bestaande groepen bewerken](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-         * [Variabelen van jokerfilter](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+         * [Overzicht van jokertekenfiltervariabelen](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [Gebruik op datum gebaseerde jokertekens om rapporten te generaliseren](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [Gebruik op gebruiker gebaseerde jokertekens om rapporten te generaliseren](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [Een filter, weergave of groep delen](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1785,7 +1785,7 @@ ht-degree: 0%
          * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Een document goedkeuren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Proofing {#proofing}
-      * [Proofing](review-and-approve-work/proofing/proofing.md)
+      * [Proofing: artikelindex](review-and-approve-work/proofing/proofing.md)
       * Proofingoverzicht {#proofing-overview}
          * [Proofingoverzicht](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Overzicht van machtigingsprofiel proefdrukken](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

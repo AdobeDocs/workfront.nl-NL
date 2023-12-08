@@ -4,9 +4,9 @@ description: De volgende belangrijke verbeteringen zijn aangebracht voor het beh
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ De reeks toestemmingen van de sectieonderbreking beschikbaar voor alle andere ob
 
 ![](assets/section-break-permissions-no-limited-edit.png)
 
-In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, gebruikt het systeem een algemene set machtigingen voor secties-einden die werken voor alle objecttypen. In plaats van de optie Beperkte bewerkingsmachtigingen te gebruiken, vervangt deze algemene set met name de optie Bewerken-machtiging door de optie Beperkte bewerkingsmachtigingen. De optie Bewerken is compatibel met alle objecttypen.
+In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, gebruikt het systeem een algemene set machtigingen voor secties-einden die werken voor alle objecttypen. Met name in plaats van de optie Beperkte bewerkingsmachtigingen te gebruiken, vervangt deze algemene set de optie Bewerken met machtiging door de optie Beperkte bewerkingsmachtigingen. De optie Bewerken is compatibel met alle objecttypen.
 
 Wanneer u een objecttype koppelt dat andere machtigingsopties gebruikt dan de andere objecttypen die al op een aangepast formulier voorkomen, wordt een bericht weergegeven waarin u kunt overschakelen naar de algemene set machtigingsopties voor het formulier. Deze wijziging is van toepassing op alle velden, zelfs als deze niet onder een sectie-einde vallen.
 
@@ -127,7 +127,7 @@ Wanneer dit voorkomt, kunt u één van het volgende doen:
 
 Zie voor instructies over het toevoegen van een berekend aangepast veld aan een aangepast formulier [Berekende gegevens toevoegen aan een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Voor meer informatie over variabelen zoals `$$OBJCODE`, zie [Variabelen van jokerfilter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Voor meer informatie over variabelen zoals `$$OBJCODE`, zie [Overzicht van jokertekenfiltervariabelen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Let op het verwijderen van een objecttype uit een aangepast formulier
 

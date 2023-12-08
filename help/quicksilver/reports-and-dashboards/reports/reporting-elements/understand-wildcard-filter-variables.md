@@ -7,14 +7,14 @@ description: Door vervangingen in filters te gebruiken, kunt u een generische ge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
 
-# Variabelen van jokerfilter
+# Overzicht van jokertekenfiltervariabelen
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -27,46 +27,48 @@ ht-degree: 0%
 </div>
 -->
 
-Adobe Workfront ondersteunt filtervariabelen of jokertekens bij het maken van de volgende elementen:
-
-* Filters in lijsten, rapporten en de Planner van het Middel
-
-   Raadpleeg het artikel voor informatie over Workfront-filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-
-* Geavanceerde zoekopdrachten
-
-   Zie de sectie voor informatie over geavanceerde zoekopdrachten [Geavanceerd zoeken gebruiken](../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search) in het artikel [Zoeken in Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
-
-* Berekende kolommen in weergaven
-* Voorwaardelijke opmaak in weergaven
-
-   Zie het artikel voor informatie over voorwaardelijke opmaak [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-
-* Berekende aangepaste velden
-
-   >[!NOTE]
-   >
-   >Variabelen van jokertekenfilters worden niet ondersteund wanneer wordt verwezen naar geneste verzamelingen in een berekende kolom.
-
-   Zie het artikel voor informatie over berekende aangepaste velden en kolommen [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
-
-Door vervangingen te gebruiken, kunt u een generische gebruiker of een datum in plaats van een specifieke gebruiker of een datum van verwijzingen voorzien. Op deze manier zijn de elementen die u maakt dynamisch en veranderen de resultaten afhankelijk van de context waarin ze worden gebruikt.
+Met jokertekens kunt u naar een algemene gebruiker of datum verwijzen in plaats van naar een specifieke gebruiker of datum. Op deze manier zijn de elementen die u maakt dynamisch. De resultaten veranderen afhankelijk van de context waarin ze worden gebruikt.
 
 Bijvoorbeeld, wint het filtreren voor $$USER.homeGroupID in een projectrapport slechts projecten verbonden aan de Groep van het Huis van de gebruiker terug die het programma wordt geopend.
 
-In Workfront kunt u op datum gebaseerde of op gebruiker gebaseerde filtervariabelen gebruiken.
+U kunt filtervariabelen, ook wel jokertekens genoemd, gebruiken wanneer u de volgende elementen maakt:
+
+<table>
+    <tr>
+        <td>Filters in lijsten, rapporten en de Planner van het Middel</td>
+        <td>Raadpleeg het artikel voor informatie over Workfront-filters <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Overzicht van filters in Adobe Workfront</a>.
+</td>
+    </tr>
+    <tr>
+        <td>Geavanceerde zoekopdrachten</td>
+        <td>Zie de sectie voor informatie over geavanceerde zoekopdrachten <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Geavanceerd zoeken gebruiken</a> in het artikel <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Zoeken in Adobe Workfront</a>.
+    </tr>
+    <tr>
+        <td>Berekende kolommen in weergaven</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Voorwaardelijke opmaak in weergaven</td>
+        <td>Zie het artikel voor informatie over voorwaardelijke opmaak <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Voorwaardelijke opmaak gebruiken in weergaven</a>.
+    </tr>
+    <tr>
+        <td>Berekende aangepaste velden</td>
+        <td>Variabelen van jokertekenfilters worden niet ondersteund wanneer wordt verwezen naar geneste verzamelingen in een berekende kolom.
+
+Zie het artikel voor informatie over berekende aangepaste velden en kolommen <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Berekende aangepaste velden versus berekende kolommen</a>.
+</td>
+    </tr>
+</table>
 
 ## Filtervariabelen voor jokertekens op basis van datum
 
-De op datum-gebaseerde vervangingsopties van Workfront kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt.
-
-Voor informatie over het toevoegen van een op datum gebaseerde vervanging aan een rapport, zie het artikel [Gebruik op datum gebaseerde jokertekens om rapporten te generaliseren](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum gebaseerde vervanging aan een rapport, zie het artikel [Gebruik op datum gebaseerde jokertekens om rapporten te generaliseren](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
 >Als u een datum- en tijdberekening maakt die geen tijdgedeelte bevat of die de jokertekens $$TODAY of $$NOW gebruikt, gebruikt het systeem de datum volgens de UTC-zone (Coordinated Universal Time), niet volgens uw lokale tijdzone. Dit kan tot een onverwacht datumresultaat leiden.
 
-Kies een van de volgende jokertekens op basis van datum:
+U kunt uit de volgende op datum-gebaseerde vervangingen kiezen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,12 +80,12 @@ Kies een van de volgende jokertekens op basis van datum:
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>Dit is vergelijkbaar met de jokerteken $$TODAY, maar inclusief de huidige datum en tijd. $$NOW is gelijk aan de huidige datum en tijd.</p> <p>Bijvoorbeeld, als u alle die uuringangen wilt tonen tot de huidige tijd worden verstrekt, kunt u dit doen door de volgende regel in een uurfilter te gebruiken: <em>Geplande begindatum minder dan $$NOW</em>.</p> <p>Opmerking: Dit jokerteken wordt niet ondersteund in de Resource Planner.</p> </td> 
+   <td> <p>Dit is vergelijkbaar met de jokerteken $$TODAY, maar inclusief de huidige datum en tijd. $$NOW is gelijk aan de huidige datum en tijd.</p> <p>Bijvoorbeeld, als u alle die uuringangen wilt tonen tot de huidige tijd worden verstrekt, kunt u dit doen door de volgende regel in een uurfilter te gebruiken: <em>Geplande begindatum minder dan $$NOW</em>.</p> <p>Opmerking: dit jokerteken wordt niet ondersteund in de functie voor middelenplanning.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-U kunt jokertekens combineren met de volgende elementen om verschillende tijdsperioden en verschillende tijdstippen (in de toekomst of in het verleden) aan te geven:
+U kunt de jokertekens hierboven combineren met het volgende om verschillende tijdsperioden en verschillende tijdpunten (in de toekomst of in het verleden) aan te geven:
 
 | Attributen |   |
 |---|---|
@@ -96,14 +98,14 @@ U kunt jokertekens combineren met de volgende elementen om verschillende tijdspe
 
 {style="table-layout:auto"}
 
-| **Kwalificaties** |  |
+| **Kwalificaties** | |
 |---|---|
 | **b** | begin van de week (zondag) |
 | **e** | einde van de week (zaterdag) |
 
 {style="table-layout:auto"}
 
-| **Operatoren** |  |
+| **Operatoren** | |
 |---|---|
 | **+** | waarde toevoegen aan jokertekenwaarde |
 | **-** | Waarde van jokerteken aftrekken van waarde |
@@ -116,11 +118,11 @@ Bijvoorbeeld de jokerteken `$$TODAYb+2w` verwijst naar &quot;2 weken vanaf het b
 
 >[!IMPORTANT]
 >
->Als een filter of een rapport een op gebruiker-gebaseerde variabele van de vervangingsfilter bevat tonen de resultaten altijd informatie die door de gebruiker wordt gefilterd die momenteel het programma wordt geopend. Wanneer u zulk een filter of rapport met een andere gebruiker deelt, wint het vervanging informatie voor de gebruiker terug die het rapport bekijken. De twee gebruikers zien verschillende resultaten.
+>Als een filter of een rapport een op gebruiker-gebaseerde variabele van de vervangingsfilter bevat, tonen de resultaten altijd informatie die door de gebruiker wordt gefilterd die momenteel het programma wordt geopend. Wanneer u zulk een filter of rapport met een andere gebruiker deelt, wint het vervanging informatie voor de gebruiker terug die het rapport bekijken. De twee gebruikers zien verschillende resultaten.
+>
+>Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [Gebruik op gebruiker gebaseerde jokertekens om rapporten te generaliseren](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [Gebruik op gebruiker gebaseerde jokertekens om rapporten te generaliseren](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
-
-Workfront biedt de volgende gebruikersvariabelen:
+U kunt uit de volgende op gebruiker-gebaseerde variabelen kiezen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,7 +132,7 @@ Workfront biedt de volgende gebruikersvariabelen:
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>De meest voorkomende op gebruikers gebaseerde variabele is $$USER.ID. Dit keert altijd identiteitskaart van de het programma geopende gebruiker terug. Dit is identiteitskaart die wordt gebruikt om te identificeren welke gebruiker elk voorwerp en hun werktaken creeerde.</p> <p>Wanneer gebruikt in rapporten, vermindert dit vervangingsaantal het aantal rapporten die u in uw systeem moet creëren. U kunt één rapport tot stand brengen en het met verscheidene gebruikers delen, en de resultaatverandering die op de gebruiker wordt gebaseerd die het programma wordt geopend en het rapport bekijkt.</p> <p>Bijvoorbeeld, om een rapport voor alle kwesties te bouwen die aan de gebruiker worden toegewezen die het programma wordt geopend, kunt u de volgende regel in een uitgevende filter gebruiken: <em>Toegewezen aan id is gelijk aan $$USER.ID</em>.</p> <p>Workfront gebruikt deze variabele in de volgende ingebouwde filters:</p> 
+    --> <p>De meest voorkomende op gebruikers gebaseerde variabele is $$USER.ID. Hiermee wordt altijd de id van de aangemelde gebruiker geretourneerd. Dit is identiteitskaart die wordt gebruikt om te identificeren welke gebruiker elk voorwerp en hun werktaken creeerde.</p> <p>Wanneer gebruikt in rapporten, vermindert dit vervangingsaantal het aantal rapporten die u in uw systeem moet creëren. U kunt één rapport tot stand brengen en het met verscheidene gebruikers delen, en de resultaatverandering die op de gebruiker wordt gebaseerd die het programma wordt geopend en het rapport bekijkt.</p> <p>Bijvoorbeeld, om een rapport voor alle kwesties te bouwen die aan de gebruiker worden toegewezen die het programma wordt geopend, kunt u de volgende regel in een uitgevende filter gebruiken: <em>Toegewezen aan id is gelijk aan $$USER.ID</em>.</p> <p>Workfront gebruikt deze variabele in de volgende ingebouwde filters:</p> 
     <ul> 
      <li>Mijn rapporten</li> 
      <li>Mijn projecten</li> 
@@ -194,16 +196,18 @@ Workfront biedt de volgende gebruikersvariabelen:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.roleID</strong> </p> </td> 
-   <td> <p>De $$USER.roleID-variabele verwijst naar de primaire rol van de aangemelde gebruiker. Met deze variabele kunt u taken of problemen rapporteren die zijn toegewezen aan een specifieke taakrol.</p> <p>Bijvoorbeeld, om alle taken te zien die aan de Primaire Rol van de het programma geopende gebruiker worden toegewezen, kunt u de volgende filterregel in een taakfilter gebruiken:</p> <p><em>Taak: Rol-id is gelijk aan $$USER.roleID.</em> </p> </td> 
+   <td> <p>De $$USER.roleID-variabele verwijst naar de primaire rol van de aangemelde gebruiker. Met deze variabele kunt u taken of problemen rapporteren die zijn toegewezen aan een specifieke taakrol.</p> <p>Bijvoorbeeld, om alle taken te zien die aan de Primaire Rol van de het programma geopende gebruiker worden toegewezen, kunt u de volgende filterregel in een taakfilter gebruiken:</p> <p><em>Taak: rol-id is gelijk aan $$USER.rolID.</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td role="rowheader">$$USER.roleIDs</td> 
-   <td> <p>De variabele $$USER.roleIDs verwijst naar alle baanrollen verbonden aan het programma geopende gebruiker. Gebruikend deze variabele, kunt u over taken of kwesties rapporteren die aan om het even welke baanrollen worden toegewezen verbonden aan het programma geopende gebruiker. </p> <p>Bijvoorbeeld, om alle taken te zien die aan om het even welke rollen worden toegewezen verbonden aan het programma geopende gebruiker, kunt u de volgende filterregel in een taakfilter gebruiken:</p> <p><i>Taak: Rol-id is gelijk aan $$USERID.roleIDs<br></i> </p> <p>Tip: De <i>Taak: Rol-id is gelijk aan $$USERID.roleIDs</i> filterregel bestaat in de ingebouwde filters Niet toegewezen Taken in Mijn Rol en Niet toegewezen Kwesties in Mijn Rol. </p> </td> 
+   <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
+   <td> <p>De variabele $$USER.roleIDs verwijst naar alle baanrollen verbonden aan het programma geopende gebruiker. Gebruikend deze variabele, kunt u over taken of kwesties rapporteren die aan om het even welke baanrollen worden toegewezen verbonden aan het programma geopende gebruiker. </p> <p>Bijvoorbeeld, om alle taken te zien die aan om het even welke rollen worden toegewezen verbonden aan het programma geopende gebruiker, kunt u de volgende filterregel in een taakfilter gebruiken:</p> <p><i>Taak: rol-id is gelijk aan $$USERID.rolIDs<br></i> </p> <p>Tip: De <i>Taak: rol-id is gelijk aan $$USERID.rolIDs</i> filterregel bestaat in de ingebouwde filters Niet toegewezen Taken in Mijn Rol en Niet toegewezen Kwesties in Mijn Rol. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Filtervariabelen van wilde kaarten op basis van object
+## Op objecten gebaseerde jokertekenfiltervariabelen
+
+U kunt uit de volgende op object gebaseerde jokertekens kiezen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -214,8 +218,8 @@ Workfront biedt de volgende gebruikersvariabelen:
    <td> 
     <div> 
      <p>De variabele $$OBJCODE verwijst naar het type van een object. </p> 
-     <p>Wanneer in een aangepast formulier de geselecteerde objecttypen van het formulier niet compatibel zijn met een veld waarnaar wordt verwezen in een berekend aangepast veld, kunt u met deze jokerkaart voorkomen dat dubbele formulieren voor deze objecttypen worden gemaakt.</p> 
-     <p>In het berekende aangepaste veld doet u dit door de jokertekens in een IF-expressie op te nemen, zodat de berekening verschillende waarden kan weergeven voor elk objecttype van het formulier. </p> 
+     <p>Wanneer in een aangepast formulier de geselecteerde objecttypen van het formulier niet compatibel zijn met een veld waarnaar wordt verwezen in een berekend aangepast veld, kunt u dit jokerteken gebruiken om te voorkomen dat dubbele formulieren voor deze objecttypen worden gemaakt.</p> 
+     <p>In het berekende aangepaste veld doet u dit door het jokerteken op te nemen in een IF-expressie, zodat de berekening verschillende waarden kan uitvoeren voor elk objecttype van het formulier. </p> 
      <p>Zie de sectie voor meer informatie en een voorbeeld <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten</a> in het artikel <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Berekende gegevens toevoegen aan een aangepast formulier</a>.</p> 
     </div> </td> 
   </tr> 

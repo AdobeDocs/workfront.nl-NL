@@ -6,9 +6,9 @@ description: U kunt een rapport generaliseren door vervangingen in plaats van sp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>De toestemmingen van het beheer aan een rapport om rapporteringselementen in een rapport uit te geven</p> <p>Machtigingen beheren voor een weergave of filter om deze te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten beheren aan een rapport om rapportelementen in een rapport te bewerken</p> <p>Machtigingen beheren voor een weergave of filter om deze te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U moet een rapport creëren alvorens u een vervangingsvariabele aan het kunt toevoegen.
 
-Voor instructies over het maken van rapporten raadpleegt u [Een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Zie voor instructies over het maken van rapporten [Een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Hoe kan ik-stappen
+## Procedure
 
 Om een op gebruiker-gebaseerde vervanging in een rapport op te nemen:
 
@@ -73,11 +73,11 @@ Om een op gebruiker-gebaseerde vervanging in een rapport op te nemen:
 
    >[!TIP]
    >
-   >U moet altijd de **Gelijk** filtervariabele bij het werken met jokertekens in Adobe Workfront.
+   >U moet altijd de optie **Gelijk** filtervariabele bij het werken met jokertekens in Adobe Workfront.
 
-1. In de **Naam beginnen te typen...** vak, type: `$$USER.ID` of `$$USER.name` als u het rapport informatie over de gebruiker wilt tonen die zich binnen, gebaseerd op hun naam aanmeldt. U kunt andere vervangingen opnemen die naar de het programma geopende Groep van de gebruiker, het Team, het Bedrijf, of andere informatie verwijzen.
+1. In de **Naam typen...** vak, type: `$$USER.ID` of `$$USER.name` als u het rapport informatie over de gebruiker wilt tonen die zich binnen, gebaseerd op hun naam aanmeldt. U kunt andere vervangingen opnemen die naar de het programma geopende Groep van de gebruiker, het Team, het Bedrijf, of andere informatie verwijzen.
 
-   Voor een volledige lijst van op gebruiker-gebaseerde vervangingen, zie [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Voor een volledige lijst van op gebruiker-gebaseerde vervangingen, zie [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
@@ -88,7 +88,7 @@ Om een op gebruiker-gebaseerde vervanging in een rapport op te nemen:
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Filters maken of bewerken in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

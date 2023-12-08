@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Deze sectie bevat de volgende artikelen:
 * [Gebeurtenismeldingen beschikbaar in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [E-mailonderwerpen aanpassen voor gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [Instellingen voor e-mailmeldingen wijzigen in gebruikersprofielen](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [Instellingen voor e-mailmeldingen van meerdere gebruikers wijzigen](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [Herinneringsmeldingen instellen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [Een herinneringsmelding aan een object koppelen](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [Automatische herinneringen instellen](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)

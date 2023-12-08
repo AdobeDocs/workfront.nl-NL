@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Beheer en installatie
-description: In deze sectie vindt u de informatie die u nodig hebt om het Workfront-systeem te beheren.
+title: "Beheer en setup: artikelindex"
+description: Zoek de informatie die u nodig hebt voor het beheer van het Workfront-systeem.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 24%
+source-wordcount: '73'
+ht-degree: 0%
 
 ---
 
-# Beheer en installatie
+# Beheer en instellingen: artikelindex
 
-Deze sectie bevat de volgende subsecties:
+Beheerders kunnen de gebruikerservaring in Workfront beheren en aanpassen. Ga als volgt te werk om aan de slag te gaan:
 
 * [Aan de slag met de Adobe Workfront-administratie](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--

@@ -6,9 +6,9 @@ description: Door gebrek, kunnen de gebruikers de voorwerpen in een rapport slec
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Als u een rapport met de toegangsrechten van een andere gebruiker in werking ste
 >[!TIP]
 >
 >U moet de opdracht **Voer dit rapport uit met de toegangsrechten van:** veld met een actieve gebruiker alleen als u het rapport wilt weergeven met de toegangsrechten van die gebruiker. Bijvoorbeeld, zou een werk-vergunning gebruiker geen toestemmingen kunnen hebben om alle punten in een rapport te zien dat door een plan-vergunning gebruiker of een Beheerder van het Systeem wordt gebouwd, tenzij het rapport met de toegangsrechten van een Planner of een Beheerder van het Systeem toont.\
-Als het rapport wordt gedeeld met gebruikers met vergelijkbare toegang als de gebruiker die is opgegeven in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** veld kunt u dit veld leeg laten.
+Als het rapport wordt gedeeld met gebruikers met vergelijkbare toegang als de gebruiker die in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** veld kunt u dit veld leeg laten.
 
 ## Toegangsvereisten
 
@@ -44,11 +44,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening aan een rapport (om het geleverde rapport te bekijken)</p> <p>Rechten beheren voor een rapport (om het rapport uit te voeren)</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemmingen aan een rapport (om het geleverde rapport te bekijken)</p> <p>Rechten beheren voor een rapport (om het rapport uit te voeren)</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,19 +74,22 @@ Een rapport uitvoeren met de toegangsrechten van een andere gebruiker:
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    Gebruikers met een lager toegangsniveau die rapporten mogen samenstellen, kunnen geen andere gebruiker dan henzelf selecteren voor de **Voer dit Rapport uit met de toegangsrechten van:** veld.
 
 1. Klikken **Gereed**.
 1. Klikken **Opslaan + Sluiten**.\
-   Het rapport wordt nu weergegeven voor alle gebruikers met wie het rapport wordt gedeeld alsof het is bekeken door de gebruiker die is opgegeven in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** veld.
+   Het rapport wordt nu weergegeven voor alle gebruikers met wie het rapport wordt gedeeld alsof het werd bekeken door de gebruiker die in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** veld.
 
 >[!IMPORTANT]
-Het ingaan van een andere gebruiker dan het programma geopende gebruiker voor **Voer dit rapport uit met de toegangsrechten van:** het gebied beïnvloedt de informatie die in het rapport wordt getoond als het rapport een filter bevat dat een vervanging gebruikt die naar de het programma geopende gebruiker verwijst. Het rapport wordt weergegeven op basis van de waarde die is opgegeven in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** in plaats van wat wordt gedefinieerd in het jokertekenfilter.
-Voor meer informatie over vervangingen voor gebruikersgebieden, zie de &quot;Op gebruiker-gebaseerde variabelen&quot;sectie in [Variabelen van jokerfilter](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+Het ingaan van een andere gebruiker dan het programma geopende gebruiker voor **Voer dit rapport uit met de toegangsrechten van:** het gebied beïnvloedt de informatie die in het rapport wordt getoond als het rapport een filter bevat dat een vervanging gebruikt die naar de het programma geopende gebruiker verwijst. Het rapport wordt weergegeven op basis van de waarde die in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** in plaats van wat wordt gedefinieerd in het jokertekenfilter.
+>
+Voor meer informatie over vervangingen voor gebruikersgebieden, zie de &quot;Op gebruiker gebaseerde variabelen&quot;sectie in [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Een rapport leveren met de toegangsrechten van een andere gebruiker
 
-U kunt rapporten instellen die als bijlage bij een e-mailbericht moeten worden bezorgd. U kunt opstelling deze geleverde rapporten aan vertoning aangezien zij voor gebruikers van een hoger toegangsniveau tonen, zodat kunnen alle gebruikers de zelfde informatie in de geleverde rapporten zien. De gebruikers die het rapport zullen zien dat in e-mail wordt geleverd moeten aan Send aan lijst van ontvangers binnen de rapportlevering worden toegevoegd. Raadpleeg het artikel voor meer informatie over het instellen van een rapport voor levering [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+U kunt rapporten instellen die als bijlage bij een e-mailbericht moeten worden bezorgd. U kunt opstelling deze geleverde rapporten aan vertoning aangezien zij voor gebruikers van een hoger toegangsniveau tonen, zodat kunnen alle gebruikers de zelfde informatie in de geleverde rapporten zien. De gebruikers die het rapport zullen zien dat in e-mail wordt geleverd moeten aan Send aan lijst van ontvangers binnen de rapportlevering worden toegevoegd. Raadpleeg het artikel voor meer informatie over het instellen van een rapport voor levering. [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Een rapport leveren met de toegangsrechten van een andere gebruiker:
 
@@ -101,9 +104,10 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
+   >
    Gebruikers met een lager toegangsniveau die rapporten mogen samenstellen, kunnen geen andere gebruiker dan henzelf selecteren voor de **Dit rapport leveren met de toegangsrechten van:** veld.
 
-1. Selecteer **Indeling** u wilt dat het rapport in de e-mail wordt weergegeven:
+1. Selecteer de **Indeling** u wilt dat het rapport in de e-mail wordt weergegeven:
 
    * HTML
    * PDF
@@ -121,7 +125,7 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
 In de volgende rapporten wordt een kolom Bron weergegeven waarin u informatie over het bovenliggende object kunt weergeven:
 
 * Problemen melden
-* Uur
+* Uur-rapporten
 * Documentrapporten
 
 Als de gebruikers geen toestemmingen aan het oudervoorwerp van een kwestie, een uur, of een document hebben, toont de Bronkolom van het rapport leeg, zelfs wanneer het rapport aan vertoning wordt gevormd, of met de toegangsrechten van een andere gebruiker moet worden geleverd.
@@ -130,24 +134,24 @@ Om informatie over het oudervoorwerp in het rapport te tonen, adviseren wij toev
 
 Bijvoorbeeld, kunt u om het even welke volgend aan een rapport met een Bronkolom toevoegen:
 
-* De kolommen van de Naam van het Project, van de Naam van de Taak, of van de Naam van de Uitgave aan een document of een uurrapport.
+* De kolommen van de Naam van het Project, van de Naam van de Taak, of van de Naam van de Uitgave aan een document of uurrapport.
 * De kolommen van de Naam van het Project of van de Naam van de Taak aan een probleemrapport.
-* Een kolom die expressies in tekstmodus gebruikt die naar alle drie objecten verwijzen. Hier volgt een voorbeeld van een uurrapport:
+* Een kolom die expressies in tekstmodus gebruikt die naar alle drie objecten verwijzen. Hieronder ziet u een voorbeeld van een uurrapport:
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   Voor informatie over de weergaven van de tekstmodus raadpleegt u [Een weergave bewerken in de tekstmodus](../text-mode/edit-text-mode-in-view.md).
+  Zie voor informatie over de weergaven van de tekstmodus [Een weergave bewerken in de tekstmodus](../text-mode/edit-text-mode-in-view.md).
