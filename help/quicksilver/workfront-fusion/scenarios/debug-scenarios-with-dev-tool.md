@@ -7,9 +7,9 @@ description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Foutopsporingsscenario&#39;s met de [!DNL Adobe Workfront Fusion] Devtool
 
 De [!DNL Adobe Workfront Fusion] Met Devtool kunt u scenario&#39;s begrijpen en problemen oplossen. Met het gereedschap Ontwikkelen voegt u een extra deelvenster toe aan het dialoogvenster [!DNL Chrome Developer Tools]. Gebruikend dit debugger paneel, kunt u alle handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en de details van elke uitgevoerde API vraag zien. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen.
+
+Voor een diepgaande videoanalyse van Fusion Devtool raadpleegt u [Devtool doorloopt](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## Toegangsvereisten
 
@@ -98,7 +100,7 @@ De [!DNL Workfront Fusion] De extensie Devtool wordt toegevoegd aan uw [!DNL Chr
 Als u de opdracht [!DNL Workfront Fusion] Ontwikkelen: u moet de opdracht [!DNL Workfront Fusion] Extensie Ontwikkelen voor uw [!DNL Chrome] browser, zoals beschreven in [De extensie Chrome Device installeren](#install-the-chrome-Devtool-extension).
 
 1. Open uw [!DNL Workfront Fusion] scenario.
-1. Open [!DNL Chrome Developer Tools]:
+1. Openen [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
     <col> 
