@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Snelle revisie inschakelen</p> </td> 
-      <td>Hiermee kunt u maandelijkse Workfront-releases voor uw organisatie inschakelen in plaats van driemaandelijkse releases.</p><p>Voor meer informatie over het snelle versieproces, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Snelle releases voor uw organisatie in- of uitschakelen</a>.</p></td> 
+      <td>Hiermee kunt u maandelijkse Workfront-releases voor uw organisatie inschakelen in plaats van driemaandelijkse releases.</p><p>Voor meer informatie over het snelle versieproces, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Snelle releases voor uw organisatie in- of uitschakelen</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Insluiten van <strong>Workfront</strong> in een iframe</p> </td> 
