@@ -7,7 +7,7 @@ description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
+source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Het gereedschap Ontwikkelen gebruiken in de klassieke [!DNL Fusion] ervaring, mo
 
 U kunt de [!DNL Workfront Fusion] Ontwikkelen naar [!DNL Chrome] via de [!UICONTROL [!DNL Chrome] Web Store].
 
-1. Klikken [deze koppeling](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) om naar de [!DNL Workfront Fusion] Ontwikkelen op de [!UICONTROL [!DNL Chrome] Web Store].
+1. Klikken [deze koppeling](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) om naar de [!DNL Workfront Fusion] Ontwikkelen op de [!UICONTROL [!DNL Chrome] Web Store].
 1. Klik op **[!UICONTROL Add to [!DNL Chrome]]**.
 1. Controleer de machtigingen in het venster dat wordt geopend. Als u akkoord gaat met de machtigingen, klikt u op **[!UICONTROL Add Extension]**.
 
