@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Een aangepast rapport maken
-description: Als u begrijpt hoe rapporten moeten worden gemaakt, kunt u toegang bieden tot de informatie die uw organisatie nodig heeft in Adobe Workfront. U kunt elk van de ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw eigen rapporten helemaal zelf samenstellen.
+description: U kunt toegang tot de informatie geven die uw organisatie nodig heeft binnen Adobe Workfront door rapporten te maken. U kunt alle ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw aangepaste rapporten helemaal zelf samenstellen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Een aangepast rapport maken
 
-U kunt toegang tot de informatie geven die uw organisatie nodig heeft binnen Adobe Workfront door rapporten te maken. U kunt alle ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw aangepaste rapporten helemaal zelf samenstellen.
+U kunt toegang tot de informatie verlenen die uw organisatie in Adobe Workfront nodig heeft door rapporten te maken. U kunt alle ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw aangepaste rapporten helemaal zelf samenstellen.
 
 Voor meer informatie over ingebouwde rapporten, zie [Ingebouwde Adobe Workfront-rapporten gebruiken](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
@@ -38,7 +38,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nieuw: Standaard </p>
+   of
+   <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -47,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>U zult beheertoestemmingen aan het rapport verkrijgen u creeert</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>U krijgt beheermachtigingen voor de rapporten die u maakt.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een rapport maken {#create-a-report}
 
-Om op een video van te letten hoe te om een rapport tot stand te brengen, zie dit [Een aangepast rapport maken](#Walk-thr) hieronder.
+{{step1-to-reports}}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Rapporten**.
 1. Klikken **Nieuw rapport** Selecteer vervolgens het objecttype dat u voor het rapport wilt gebruiken.
 
    De rapportbuilder laadt.
@@ -109,17 +110,17 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
 1. Een rapport maken zoals wordt beschreven in het dialoogvenster [Een rapport maken](#create-a-report) in dit artikel.
 1. Selecteer in de rapportbuilder de optie **Kolommen (weergave)** om de kolommen te identificeren die in het rapport moeten verschijnen.
-1. (Optioneel) Klik op **Een bestaande weergave toepassen** om een bestaande weergave te gebruiken.
+1. (Optioneel) Klik op **Een bestaande weergave toepassen** en klik op de naam van een weergave in het keuzemenu om een bestaande weergave te gebruiken.
 
-   Ga voor meer informatie over het maken van een nieuwe weergave naar [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Ga voor meer informatie over het maken van een weergave naar [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Optioneel) Als u een bestaande kolom wilt verwijderen, klikt u op de kolom die u wilt verwijderen en klikt u vervolgens op de knop **x** naast de huidige naam in de kolomkop.
 
 1. Als u een nieuwe kolom wilt toevoegen, klikt u **Kolom toevoegen**.
 
    of
 
-   Als u een bestaande kolom wilt wijzigen, selecteert u de kolom die u wilt wijzigen en klikt u op de (x) naast de huidige naam.
-
-1. Typ het veld dat u wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan de kolom toe te voegen.
+   Als u een bestaande kolom wilt wijzigen, klikt u op de kolom **Verwijderen** pictogram ![](assets/x-icon-circled.png) links van het huidige veld in het dialoogvenster **Tonen in dit kolomveld** in de upper-left hoek van de rapportbouwer, en begin een nieuw gebied te typen, dan het te klikken wanneer het in de lijst toont.
 
    Voor meer informatie over de gebieden u in de kolommen ziet, zie [Woordenlijst met Adobe Workfront-terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
    >
    >De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
    >
-   >* Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
+   >* Alle velden voor getallen en valuta&#39;s, met uitzondering van werkelijke uren (bijvoorbeeld geplande of werkelijke loonkosten, geplande of werkelijke kosten, geplande of werkelijke kosten, geplande of geplande uren) bevatten alleen de waarden voor de kindertaken en zelfstandige taken. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
    >* Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
    >* Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
 
@@ -193,7 +194,8 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
 
    of
 
-   Kies **Een bestaande groepering toepassen** om een bestaande groep te selecteren
+   Kies **Een bestaande groepering toepassen** om een bestaande groep te selecteren wanneer deze in de lijst wordt weergegeven.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Typ het veld dat u als groep wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan die groep toe te voegen.
@@ -210,7 +212,7 @@ Om op een video van te letten hoe te om een rapport tot stand te brengen, zie di
    >* Wanneer u groepen handmatig aanpast wanneer u een lijst weergeeft, onthoudt Workfront uw handmatige voorkeur totdat u zich afmeldt. Wanneer u zich weer aanmeldt, wordt de lijst weergegeven volgens deze instelling.
    >* De resultaten van een groepering tonen altijd uitgevouwen na de toegang tot hen van een grafiekelement.
 
-1. (Optioneel) U kunt een matrixgroepering maken om de resultaten in een rasterindeling weer te geven.
+1. (Optioneel) Klik op **Overschakelen naar matrixgroepering** om een matrixgroepering samen te stellen en de resultaten in een rasterindeling weer te geven.
 
    Voor meer informatie over het bouwen van een matrixrapport, zie [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
