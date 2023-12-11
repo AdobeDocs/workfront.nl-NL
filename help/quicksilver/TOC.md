@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13780'
 ht-degree: 0%
 
 ---
@@ -919,7 +919,7 @@ ht-degree: 0%
       * Gebruikersprofiel configureren {#configure-user-profile}
          * [Gebruikersprofiel configureren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [Mijn instellingen configureren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-         * [Persoonlijke tijd in Adobe Workfront configureren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+         * [Persoonlijke tijd uit configureren](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * Uw Adobe Workfront-account beheren {#manage-workfront-account}
          * [Uw Adobe Workfront-account beheren](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Aanmelden bij Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)

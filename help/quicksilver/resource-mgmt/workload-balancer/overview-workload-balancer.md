@@ -7,9 +7,9 @@ description: Nadat de projectmanagers het werk aan projecten plannen en taken cr
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Zie voor informatie over het maken en gebruiken van filters in Workload Balancer
      Voor meer informatie over het creëren van programma&#39;s, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * De time-outkalender laten bijwerken in hun profiel.\
-     Voor informatie over het bijwerken van de kalender van de Tijd van een gebruiker, zie [Persoonlijke tijd in Adobe Workfront configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Voor informatie over het bijwerken van de kalender van de Tijd van een gebruiker, zie [Persoonlijke tijd uit configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
