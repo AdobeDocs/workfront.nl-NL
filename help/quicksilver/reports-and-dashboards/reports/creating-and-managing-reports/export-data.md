@@ -6,9 +6,9 @@ description: Leer rapportgegevens exporteren
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront worden weergegeven en voor de manier waarop ze via handmatige export, een geleverd rapport of de API worden geëxporteerd.
 
+* **50.000 cellen:** Het maximumaantal cellen dat in een rapport wordt toegestaan uitvoeren voor de dossiers van Excel.
 * **50.000 rijen:** Het aantal rijen gegevens dat is toegestaan in een rapport dat wordt geëxporteerd voor bestanden met de indeling .pdf en Tab gescheiden.
 
    * Voor Excel .xls- dossiers, is deze grens **65.000 rijen**.
@@ -310,14 +311,14 @@ Koppelingen kunnen verwijzen naar elk object in Workfront dat koppelingen onders
 
 >[!TIP]
 >
->Indien de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden worden niet weergegeven in een geëxporteerd .pdf-bestand. U moet dan aanvullende coderegels invoeren in de tekstmodus.
+Indien de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden worden niet weergegeven in een geëxporteerd .pdf-bestand. U moet dan aanvullende coderegels invoeren in de tekstmodus.
 >
->Bijvoorbeeld, als u een douanegebied genoemd Open Q1 Projecten hebt die verbindingen bevatten, zou u de volgende code toevoegen:
+Bijvoorbeeld, als u een douanegebied genoemd Open Q1 Projecten hebt die verbindingen bevatten, zou u de volgende code toevoegen:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Wanneer u naar een Excel-indeling exporteert, worden alleen koppelingen naar objecten in Workfront in het geëxporteerde bestand opgenomen. Deze koppelingen worden alleen ondersteund op plaatsen waar u koppelingen in geëxporteerde Excel-documenten kunt toestaan, zoals rapportleveringen.
 
