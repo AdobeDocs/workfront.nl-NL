@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een revisie markeren als voltooid</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om het duidelijker te maken wanneer een document is herzien en klaar voor de volgende goedkeuringsfase is, hebben wij een nieuw nieuwe <strong>Mijn revisie voltooien</strong> knop.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Bijgewerkte statussen voor documentgoedkeuringen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om de status van de documentgoedkeuring duidelijker te maken, hebben wij beschikbare goedkeuringen van de documentstatus bijgewerkt. De goedkeuringsstatusaccounts zijn nu voltooid voor controleurs die hun revisie markeren, en voor gevallen waarin alleen revisoren maar geen fiatteurs zijn.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 7 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een revisie markeren als voltooid</a></p><p>Om het duidelijker te maken wanneer een document is herzien en klaar voor de volgende goedkeuringsfase is, hebben wij een nieuw nieuwe <strong>Mijn revisie voltooien</strong> knop.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>

@@ -4,9 +4,9 @@ description: Verbeteringen voor documentbeheer in eerste kwartaal 2024
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release Eerste kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Bijgewerkte statussen voor documentgoedkeuringen
+
+Om de status van de documentgoedkeuring duidelijker te maken, hebben wij beschikbare goedkeuringen van de documentstatus bijgewerkt. De goedkeuringsstatusaccounts zijn nu voltooid voor controleurs die hun revisie markeren, en voor gevallen waarin alleen revisoren maar geen fiatteurs zijn.
+
+Zie voor meer informatie over specifieke beschikbare statussen [Goedkeuringsstatus document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Documentrevisie en goedkeuringsstatus worden weergegeven in de documentkop
 
