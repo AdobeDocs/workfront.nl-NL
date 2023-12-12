@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 0%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 0%
       * [Tips, trucs en probleemoplossing voor goedkeuringen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Het aantal proef- en documentbeslissingen voor alle gebruikers weergeven](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
-   * [Timesheets](timesheets/timesheets-all.md)
+   * [Timesheets: artikelindex](timesheets/timesheets-all.md)
    * Details van tijdsplaat {#details}
-      * [Informatie over tijdbladen in Adobe Workfront](timesheets/timesheets/timesheets.md)
+      * [Tijdlijndetails: artikelindex](timesheets/timesheets/timesheets.md)
       * [Overzicht van tijdbladen](timesheets/timesheets/timesheets-overview.md)
       * [De lay-out Timesheet begrijpen](timesheets/timesheets/timesheet-layout.md)
-   * Tijdschema&#39;s maken en beheren in Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Tijdschema&#39;s maken en beheren in Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * Tijdschema&#39;s maken en beheren {#create-and-manage-timesheets-in-adobe-workfront}
+      * [Tijdschema&#39;s maken en beheren: artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Werkbladprofielen maken, bewerken en toewijzen](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Bepaal uurtypes en beschikbaarheid voor timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Een timesheet voor eenmalig gebruik maken](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 0%
       * [Tijdbladen handmatig genereren](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Een lijst met tijdbladen exporteren](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * Configureer hoe de tijd wordt vastgelegd {#configure-timesheet-preferences}
-      * [Configureer hoe de tijd wordt vastgelegd](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [Configureer hoe tijd wordt vastgelegd: artikelindex](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Configureer of de tijd uren of dagen is aangemeld](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * Tips, trucs en problemen met timesheets {#tips-tricks-troubleshooting-for-timesheets}
-      * [Tips, trucs en probleemoplossing](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [Tips, trucs en problemen oplossen: artikelindex](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [De begindag van de werkweek voor Timesheets corrigeren](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Voorkomen dat de actie Herberekening van de financiën gevolgen heeft voor de historische uren waarop de tarieven veranderen](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Hour-records bijhouden met de Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

@@ -7,9 +7,9 @@ description: U kunt tijdbladen gebruiken om de tijd te volgen die u aan werk, zo
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Voor meer gedetailleerde informatie over hoe te om tijd in Workfront te registre
 
 >[!TIP]
 >
->Als u een Workfront- of groepsbeheerder bent, kunt u tijdbladen maken en deze koppelen aan uw gebruikers. Voor informatie over het creëren van timesheets, zie [Tijdschema&#39;s maken en beheren](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Als u een Workfront- of groepsbeheerder bent, kunt u tijdbladen maken en deze koppelen aan uw gebruikers. Voor informatie over het creëren van timesheets, zie [Tijdschema&#39;s maken en beheren: artikelindex](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Begrijp projecttijd versus niet projecttijd

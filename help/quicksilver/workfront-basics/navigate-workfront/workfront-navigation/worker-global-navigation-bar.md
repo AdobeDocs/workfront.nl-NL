@@ -7,9 +7,9 @@ description: Het hoofdmenu verandert met het toegangsniveau u door uw bent toege
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ De volgende gebieden worden opgenomen in de standaardlayout van een [!UICONTROL 
 
 * **[!UICONTROL Requests]**: U kunt verzoeken verzenden en verzoeken controleren die u of uw teamleden hier hebben ingediend. Zie voor meer informatie [Verzoeken](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Timesheets]**: U kunt hier uw huidige, toekomstige of oude tijdbladen openen. Zie voor meer informatie [Timesheets](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Timesheets]**: U kunt hier uw huidige, toekomstige of oude tijdbladen openen. Zie voor meer informatie [Timesheets: artikelindex](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Documents]**: U kunt hier documenten uploaden of documenten reviseren die met u worden gedeeld. Zie voor meer informatie [Documenten](../../../documents/documents-overview.md).
 

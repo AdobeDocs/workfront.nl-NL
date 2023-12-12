@@ -7,9 +7,9 @@ description: De burndown visualisatie toont de onderbreking van een specifiek pr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td>
-      <p>Nieuw abonnement: alle</p>
+      <p>Nieuw: alle</p>
       <p>of</p>
-      <p>Huidig abonnement: Zakelijk of hoger</p></td>
+      <p>Huidig: Zakelijk of hoger</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td>
-      <p>Nieuw abonnement: Licht of hoger</p>
+      <p>Nieuw: Licht of hoger</p>
       <p>of</p>
-      <p>Huidig abonnement: Controleren of hoger</p>
+      <p>Huidig: Controleren of hoger</p>
    </td> 
   </tr> 
   <tr> 
