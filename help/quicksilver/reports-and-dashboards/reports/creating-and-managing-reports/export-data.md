@@ -315,10 +315,10 @@ Indien de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een a
 >
 Bijvoorbeeld, als u een douanegebied genoemd Open Q1 Projecten hebt die verbindingen bevatten, zou u de volgende code toevoegen:
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Wanneer u naar een Excel-indeling exporteert, worden alleen koppelingen naar objecten in Workfront in het geëxporteerde bestand opgenomen. Deze koppelingen worden alleen ondersteund op plaatsen waar u koppelingen in geëxporteerde Excel-documenten kunt toestaan, zoals rapportleveringen.
 
