@@ -6,9 +6,9 @@ description: Het bepalen van een Structuur van de Onderverdeling van het Werk (W
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Het doel van een project is tastbare resultaten te leveren aan interne en extern
 Projectproducten kunnen consumptiegoederen, intellectuele output (zoals rapporten) of diensten zijn. Bijvoorbeeld, als uw projectwerkingsgebied een huis moet bouwen, kunnen sommige te leveren punten omvatten:
 
 * architectuurplannen maken
-* afwerking
+* invullen van de afdruk
 * elektrisch werk
 * stichting
 * ontwerp
@@ -64,7 +64,7 @@ Om WBS- resultaten en te bepalen leverables in Workfront, adviseren wij u de vol
   Zie de artikelen voor informatie over taakafhankelijkheden [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) en [Een voorganger-relatie maken in de takenlijst](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Bepaal of op enig punt in de levensduur van het project goedkeuringen en beoordelingen nodig zijn. Goedkeuringsprocedures maken om aan deze behoefte te voldoen.\
-  Raadpleeg het artikel voor informatie over goedkeuringen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Raadpleeg het artikel voor meer informatie over goedkeuringen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Schatting van de werkschema&#39;s en planningsbeperkingen
 
@@ -108,7 +108,7 @@ In het begin van een belastingjaar of een kwartaal, kunt u uw middelen op een ho
 Raadpleeg het artikel voor informatie over het plannen van het gebruik van uw bronnen op een hoger niveau [Aan de slag met bronnenplanning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Wanneer u uw middelen in de context van de bouw van de Structuur van de Onderverdeling van het Werk van één project beheert, en ervoor zorgt dat elke taak aan het correcte middel wordt toegewezen, bent u bereid om uw middelen voor het werk te plannen dat moet worden gedaan.\
-Raadpleeg de artikelen in het dialoogvenster [De werklastbalans](../../../resource-mgmt/workload-balancer/workload-balancer.md) sectie.
+Raadpleeg de artikelen in het dialoogvenster [De werklastbalans: artikelindex](../../../resource-mgmt/workload-balancer/workload-balancer.md) sectie.
 
 ## Projectfinanciën schatten
 
@@ -120,7 +120,7 @@ Zie de sectie over de financiering van projecten voor meer informatie [Projectfi
 
 Door goedkeuringsprocessen in Workfront te maken, kunt u controlepunten voor het project instellen om de voortgang en mogelijke probleemgebieden te controleren. Door het goedkeuringsproces kunnen de Eigenaars van het Project ontdekken welke taken te laat en vroegtijdig zijn, controletrails bekijken die een lijst maken van die een taakstatus veranderden, en geschiedenissen van kwesties zien, met inbegrip van hoe de kwesties werden opgelost en toen zij werden gesloten. Bij het herzien van een project, kunnen de Eigenaars van het Project bepalen welke stappen om het projectplan te nemen en bij te werken, indien nodig.
 
-Raadpleeg het artikel voor informatie over goedkeuringen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+Raadpleeg het artikel voor meer informatie over goedkeuringen [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 ## WBS bekijken
 
@@ -138,11 +138,11 @@ Zodra u uw WBS voltooit, kunt u het in een taaklijst op het projectniveau of in 
 
 ### WBS in een takenlijst weergeven {#view-the-wbs-in-a-task-list}
 
-U kunt de taaklijst op projectniveau bekijken.
+U kunt de taaklijst op het projectniveau bekijken.
 
 1. Ga naar het project waarvoor u de Structuur van de Onderverdeling van het Werk wilt zien.
-1. Selecteer **Taken** tab.
-1. (Optioneel) Selecteer **Niets** in de **Groepering** vervolgkeuzemenu.
+1. Selecteer de **Taken** tab.
+1. (Optioneel) Selecteer **Niets** in de **Groepering** vervolgkeuzelijst.
 
    De structuur van de Onderverdeling van het Werk toont niet de inspringing van de taken in WBS.
 

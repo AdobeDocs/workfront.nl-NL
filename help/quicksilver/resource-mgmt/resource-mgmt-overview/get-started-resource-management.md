@@ -7,9 +7,9 @@ description: Met resourcebeheer kunt u uw systeem zodanig configureren dat het g
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ Met resourcebeheer kunt u uw systeem zodanig configureren dat het gebruik van uw
 
 Het Beheer van het middel verwijst naar alle activiteiten die door de beheerder van Adobe Workfront, de middelmanager, en de Eigenaar van het Project worden uitgevoerd om (de Planning van het Middel of van het Scenario) en programma (de Balancer van de Werkbelasting) de middelen van een organisatie te plannen en hen toe te wijzen aan het werk dat moet worden gedaan, rekening houdend met hun beschikbaarheid. Bovendien, verwijst het middelbeheer ook naar het bekijken van informatie over de geplande en daadwerkelijke middeltoewijzingen in een rapportmening (het rapport van het Gebruik).
 
-Workfront beschikt over verschillende gereedschappen waarmee u resources kunt beheren. Elk gereedschap heeft een afzonderlijk bereik. Op dit moment kunt u de volgende hulpprogramma&#39;s voor bronnenbeheer in Workfront gebruiken, afhankelijk van de fase van het bronnenbeheer waarin u zich bevindt:
+Workfront beschikt over verschillende gereedschapssets die worden gebruikt voor het beheer van bronnen. Elk gereedschap heeft een afzonderlijk bereik. Op dit moment kunt u de volgende hulpprogramma&#39;s voor bronnenbeheer in Workfront gebruiken, afhankelijk van de fase van het bronnenbeheer waarin u zich bevindt:
 
 * Om te plannen hoe de middelen op een hoger niveau worden toegewezen, alvorens het daadwerkelijke werk aan projecten begint, gebruik de volgende hulpmiddelen:
 
    * **De bronnenplanner**: U kunt de Planner van het Middel in de eerste fase van middelbeheer gebruiken om projecttijd voor uw middelen volgens hun geplande beschikbaarheid te begroten. Tijdens de planning van middelenfase, kunt u gebruikers in middelpools organiseren en veelvoudige middelpools aan een project toewijzen.
 
-      Voor meer informatie over de Planning van het Middel, zie de sectie [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Voor meer informatie over de Planning van het Middel, zie de sectie [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Scenario Planner**: Dit is een planning op hoger niveau van middelen die u toestaat om hen over veelvoudige initiatieven te beheren die zich over een één, drie, of vijf jaar plan kunnen uitstrekken en veelvoudige projecten omvatten. U kunt het beste scenario gebruiken om het beste uit hun beschikbaarheid en uw budget te halen.
 
-      De Scenario Planner vereist naast de Workfront-licentie een aparte licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+     De Scenario Planner vereist naast de Workfront-licentie een aparte licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
@@ -48,7 +48,7 @@ Workfront beschikt over verschillende gereedschappen waarmee u resources kunt be
 
    * **De werklastbalans**: Dit behoort tot een lagere fase van middelbeheer, waar u uw middelen aan het daadwerkelijke werk (taken en kwesties) kunt toewijzen die zij moeten voltooien, gebaseerd op de hoeveelheid uren nodig om hen en hun beschikbaarheid te voltooien. Met behulp van Workload Balancer kunt u gebruikers toewijzen aan daadwerkelijk werk dat momenteel niet is toegewezen aan of is toegewezen aan taakrollen.
 
-      Zie de sectie voor informatie over de Workfront Balancer [De werklastbalans](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Zie de sectie voor informatie over de Workfront Balancer [De werklastbalans: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -72,7 +72,7 @@ Workfront beschikt over verschillende gereedschappen waarmee u resources kunt be
 
    * **Gebruiksrapport**: Gebruik dit rapport om het gebruik van middelen voor projecten te bekijken. U kunt begrote, geplande, en daadwerkelijke toewijzingen voor uw projecten en hun effect op de kosten en de opbrengst van de projecten vergelijken.
 
-      Voor informatie over het gebruiksrapport raadpleegt u [Informatie over bronnengebruik weergeven](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+     Voor informatie over het gebruiksrapport raadpleegt u [Informatie over bronnengebruik weergeven](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## De componenten van het proces van het Beheer van het Middel
 
@@ -83,42 +83,42 @@ Workfront beschikt over verschillende gereedschappen waarmee u resources kunt be
 Het beheer van bronnen in Workfront omvat de volgende fasen:
 
 * **Configuratie**: Als systeembeheerder, middelmanager, of de Eigenaar van het Project moet u bepaalde gebieden en voorwerpen in uw instantie van Workfront vormen alvorens uw middelen te beheren. Raadpleeg voor meer informatie over de vereisten die nodig zijn om te beginnen met het beheren van bronnen in Workfront de [Vereisten voor een accuraat beheer van bronnen](#prerequisites-for-accurate-resource-management) in dit artikel.\
-   Naast het hebben van projecten met het werkpunten, moet u de volgende punten in Workfront vormen:
+  Naast het hebben van projecten met het werkpunten, moet u de volgende punten in Workfront vormen:
 
    * Gebruikers\
-      Raadpleeg het artikel voor meer informatie over het maken van gebruikers [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+     Raadpleeg het artikel voor meer informatie over het maken van gebruikers [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
    * Taken rollen\
-      Zie het artikel voor meer informatie over het maken van taakrollen [Taakrollen maken en beheren](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+     Zie het artikel voor meer informatie over het maken van taakrollen [Taakrollen maken en beheren](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
    * Planningen\
-      Raadpleeg het artikel voor meer informatie over het maken van planningen [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Raadpleeg het artikel voor meer informatie over het maken van planningen [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Projectvoorkeuren
 
-      >[!TIP]
-      >
-      >Slechts kan een systeem of groepsbeheerder de Voorkeur van het Project voor uw systeem of voor uw groep wijzigen.
+     >[!TIP]
+     >
+     >Slechts kan een systeem of groepsbeheerder de Voorkeur van het Project voor uw systeem of voor uw groep wijzigen.
 
-      Raadpleeg het artikel voor meer informatie over het definiëren van projectvoorkeuren [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     Raadpleeg het artikel voor meer informatie over het definiëren van projectvoorkeuren [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * Brongroepen
 
-      Zie voor meer informatie over het maken van bronnenpools [Brongroepen maken](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+     Zie voor meer informatie over het maken van bronnenpools [Brongroepen maken](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
    * Voorkeuren voor beheer van bronnen
 
-      Als systeem, moet u beslissen hoe Workfront gebruikersbeschikbaarheid op systeemniveau berekent, of gebruikend het programma van de gebruiker of het Standaard Programma van uw systeem.
+     Als systeem, moet u beslissen hoe Workfront gebruikersbeschikbaarheid op systeemniveau berekent, of gebruikend het programma van de gebruiker of het Standaard Programma van uw systeem.
 
-      Zie voor meer informatie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     Zie voor meer informatie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * **Brontoewijzing**: Als middelmanager, of een Eigenaar van het Project, kunt u toewijzing van middelen voor uw projecten bepalen evenals werk toewijzen. Voor deze stap, kunt u de schatting van de toewijzing van uw middelen beheren gebruikend de Planner van het Middel of de Planner van het Scenario, en het daadwerkelijke werk aan gebruikers in de Balancer van de Werkbelasting toewijzen.
 
-   Raadpleeg de volgende secties voor meer informatie over het plannen en toewijzen van resources:
+  Raadpleeg de volgende secties voor meer informatie over het plannen en toewijzen van resources:
 
    * [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
-   * [De werklastbalans](../../resource-mgmt/workload-balancer/workload-balancer.md)
+   * [De werklastbalans: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -126,7 +126,7 @@ Het beheer van bronnen in Workfront omvat de volgende fasen:
   For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
 -->
 
-* **Analyse**: Als middelmanager, de Eigenaar van het Project, of personenmanager, herzie het Rapport van het Gebruik om te begrijpen hoe de begrote en geplande toewijzingen van uw middelen in vergelijking met daadwerkelijke degenen. Gegevens controleren op uren, kosten of inkomsten. Voor informatie over het gebruiksrapport raadpleegt u [Informatie over bronnengebruik weergeven](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Analyse**: Als middelmanager, de Eigenaar van het Project, of personenmanager, herzie het Rapport van het Gebruik om te begrijpen hoe de begrote en geplande toewijzingen van uw middelen in vergelijking met daadwerkelijke degenen. Gegevens controleren op uren, kosten of inkomsten. Zie voor informatie over het gebruiksrapport: [Informatie over bronnengebruik weergeven](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Toegang die nodig is om bronnen te bekijken en te beheren met de tools voor resourcebeheer in Workfront
 
@@ -137,9 +137,9 @@ U moet een van de volgende gebruikers zijn en over de volgende toegang en machti
 * De systeembeheerder.
 * Een gebruiker met een licentie voor abonnementen.
 
-   Een gebruiker met een werkvergunning kan de Balancer van de Werklast van een project gebruiken en taken en toewijzingen beheren.
+  Een gebruiker met een werkvergunning kan de Balancer van de Werklast van een project gebruiken en taken en toewijzingen beheren.
 
-   Naast een werkvergunning of een hogere vergunning, moet u het volgende hebben om specifieke hulpmiddelen van het middelbeheer te gebruiken:
+  Naast een werkvergunning of een hogere vergunning, moet u het volgende hebben om specifieke hulpmiddelen van het middelbeheer te gebruiken:
 
    * Toegang tot bronnenbeheer bewerken (niet nodig voor het uitvoeren van toewijzingen in Workload Balancer)
    * Toegang tot financiële gegevens bewerken om kosteninformatie weer te geven in de functie voor middelenplanner
@@ -155,7 +155,7 @@ U moet een van de volgende gebruikers zijn en over de volgende toegang en machti
   >You do not have to be a Resource Manager to use the Resource Planner, Scenario Planner, or the Workload Balancer. 
 -->
 
-Raadpleeg het artikel voor informatie over de toegang die nodig is voor begrotingsmiddelen [Toegang tot begrotingsmiddelen](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Raadpleeg het artikel voor informatie over de toegang tot begrotingsmiddelen [Toegang tot begrotingsmiddelen](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 Voor informatie over de toegang nodig om middelen in de Balancer van de Werkbelasting te beheren, zie [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
@@ -166,8 +166,7 @@ U moet aan een reeks vereisten voldoen voordat u de hulpmiddelen voor resourcebe
 Raadpleeg de volgende bronnen voor informatie over de vereisten voor elk hulpprogramma voor resourcebeheer in Workfront:
 
 * De sectie &quot;Vereisten voor het werken in de Planner van het Middel&quot;in het artikel [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-
-<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
+  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * De sectie &quot;Aanbevolen werkwijzen voor het gebruik van de werklastbalans&quot; in het artikel [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Toegang tot begrotingsmiddelen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

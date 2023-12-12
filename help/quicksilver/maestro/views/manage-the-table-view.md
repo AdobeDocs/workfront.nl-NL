@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Een tabelweergave beheren:
 
 De kolomkoppen van een Maestro- lijstmening tonen gebieden verbonden aan de verslagen in de mening. Dezelfde velden die in de tabelweergave worden weergegeven, worden ook weergegeven in de sectie Details van een Maestro-record. Zie voor meer informatie [Records bewerken](../records/edit-records.md).
 
-<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
+<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
 Het toevoegen van kolommen aan een weergave is hetzelfde als het toevoegen van velden aan een recordtype.
 
@@ -128,21 +128,6 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 1. Beginnen met het toevoegen van velden (of kolommen), zoals beschreven in het artikel [Velden maken](../fields/create-fields.md).
 
    De kolommen die u toevoegt, zijn zichtbaar voor alle gebruikers die toegang hebben tot het recordtype en worden toegevoegd als nieuwe velden op de pagina Details van de records van het geselecteerde recordtype.
-
-<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
-
-    (******add screen shot*****)
-
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
-
-    >[!NOTE]
-    >
-    >    Only fields of the following types can be primary fields: 
-
-        * Single-line text
-        * Number
-        * Formula -->
-
 
 1. Voer een van de volgende handelingen uit om de kolommen in de tabel opnieuw te ordenen:
 
@@ -161,6 +146,27 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >* U kunt het veld Naam niet verbergen.
    >
    >* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk.
+
+   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+
+   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    (******add screen shot*****)
+
+    1. Click **Set field** to confirm. 
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
+    >[!NOTE]
+    >
+    >   * Only fields of the following types can be primary fields: 
+    >
+    >       * Single-line text
+    >       * Number
+    >       * Formula (********HIDE THIS FOR NOW???********)
+    >
+    >   * The primary field is always frozen.
+    >
+    >   * Changing the primary field in your table view affects the view for all other users who choose it.
+    
+    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
 
 1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 
@@ -213,12 +219,12 @@ U kunt tot 10.000 verslagen (of rijen) voor een verslagtype in Maestro hebben.
    >
    >U kunt rijen niet opnieuw rangschikken als u ten minste één sortering toepast op de tabelweergave.
 
-<!-- this is not possible right now:
+   <!-- this is not possible right now:
 
-1. To reorder the rows, click the row header, drag and drop it in the desired location. 
+    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
 
-    The changes you make to the row order are permanent and visible to all users who access the record type
--->
+        The changes you make to the row order are permanent and visible to all users who access the record type
+    -->
 
 ### Filters toevoegen {#add-filters}
 

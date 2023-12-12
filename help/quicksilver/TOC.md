@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
 workflow-type: tm+mt
-source-wordcount: '13781'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -1741,7 +1741,7 @@ ht-degree: 0%
       * [Hulpbronnengebruik](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Informatie over bronnengebruik weergeven](resource-mgmt/resource-utilization/view-utilization-information.md)
    * De werklastbalans {#the-workload-balancer}
-      * [De werklastbalans](resource-mgmt/workload-balancer/workload-balancer.md)
+      * [De werklastbalans: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
       * [Overzicht van de werklastbalans](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [De werklastbalans zoeken](resource-mgmt/workload-balancer/locate-workload-balancer.md)
