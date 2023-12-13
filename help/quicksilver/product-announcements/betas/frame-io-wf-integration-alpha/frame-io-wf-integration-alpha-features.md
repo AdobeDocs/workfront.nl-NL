@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende st
 
 1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io alpha testing` groep die als projectgroep wordt toegewezen.
 
-1. **Coördinatoren:** Wijs binnen Workfront uw creatieve projecten toe aan het project <span class="preview">Taken die geschikt zijn voor frames</span> en wijzig de projectstatus in &quot;Huidig&quot;.
+1. **Coördinatoren:** Wijs binnen Workfront uw creatieve projecten toe aan het project <span class="preview">of Voor frames ingeschakelde taken (subtaken kunnen niet worden gemarkeerd als Frame ingeschakeld)</span> en wijzig de projectstatus in &quot;Huidig&quot;.
 
 1. **Creatieve producten:** Controleer uw e-mails voor een uitnodiging tot het zojuist gemaakte Frame.io-project
 
@@ -60,6 +60,10 @@ Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende st
 1. **Creatieve producten:** Pas in Frame.io de gewenste wijzigingen toe door de bijgewerkte versie toe te voegen aan de versiestapel van het gekoppelde element.
 
 1. **Coördinatoren:** Wijs in Workfront fiatteurs/revisoren toe aan de geüploade versie en controleer de voortgang totdat deze afmelding bereikt.
+
+## Gedetailleerd testscenario
+
+Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer betrokken testscenario gecreeerd. Hier kunt u een handleiding voor dit gedetailleerde testscenario downloaden: [WF + Frame.io Gedetailleerde Analyse van het Scenario van de Test](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## Functieplannen
 
