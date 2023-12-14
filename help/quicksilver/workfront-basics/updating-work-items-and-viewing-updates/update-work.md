@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 0%
 
 ---
@@ -409,9 +409,8 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding aan de update te koppelen:
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">Sla de afbeelding op onze computer op en sleep deze naar het gebied Nieuwe opmerking.</span>
+     <span class="preview">Dit is niet beschikbaar in de productieomgeving voor de nieuwe opmerkingervaring. U kunt een afbeelding slepen en neerzetten in een opmerking in de oudere opmerkingervaring in Production. </span>
 
    * <span class="preview">Kopieer een schermafbeelding van uw computer en plak deze in de opmerking </span>
    * Klik op de knop **Afbeelding toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en bladert u naar de afbeelding op uw computer.
@@ -431,6 +430,11 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Wanneer iemand een afbeelding verwijdert die is gekoppeld aan een opmerking in het gebied Documenten, wordt deze ook uit de opmerking verwijderd.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding weer te geven in de bestaande update:
+
+   * Klik op de knop **Voorvertoning** pictogram <span class="preview">![](assets/previewimageicon-31x31.png)</span> op de miniatuur van de afbeelding om de afbeelding op volledige grootte te openen in een nieuw browsertabblad.
+   * Klik op de knop **Downloaden** pictogram ![](assets/downloadimageicon.png) op de miniatuur van de afbeelding om de afbeelding te downloaden.
 
 1. Klikken **Verzenden** om uw opmerking toe te voegen.
 

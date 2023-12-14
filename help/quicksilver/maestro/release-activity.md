@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Week van 18 december 2023
+
+### Het primaire veld bijwerken in een tabelweergave van een recordtype
+
+Voorbeeld en productie: 14 december 2023
+
+U kunt nu het veld kiezen dat u wilt weergeven in de eerste kolom van een Maestro-tabelweergave. Dit veld wordt nu een primair veld genoemd.
+
+Vóór deze verbetering, het gebied van de Naam van een verslag altijd getoond in de eerste kolom van de lijstmening en het kon niet in een andere positie worden geplaatst.
+
+Met deze verbetering, merk het volgende op:
+
+* De kolom of het veld Naam is standaard nog steeds de eerste kolom van een tabel.
+
+* U kunt elk veld van de volgende typen als primair veld kiezen en het veld Naam in de eerste kolom vervangen:
+
+   * Tekst met één regel
+
+   * Getal
+
+   * Formule
+
+     >[!NOTE]
+     >
+     >Formule-tekstvelden worden later vrijgegeven.
+
+* Het primaire veld van een tabelweergave wordt altijd bevroren en kan alleen worden verplaatst als u een ander veld instelt als primair veld.
+
+* U kunt het primaire veld wijzigen in een niet-primaire kolomkop.
+
+* Alle tabelweergaven van een recordtype hebben hetzelfde primaire veld dat u selecteert.
+
+Zie voor meer informatie [Tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## Week van 4 december 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -137,36 +137,44 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* Het veld Naam is altijd het eerste veld in de tabelweergave.
-   >
-   >* U kunt het veld Naam niet naar een andere positie verplaatsen.
-   >
-   >* U kunt het veld Naam niet verbergen.
-   >
-   >* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* Het veld Naam is altijd het eerste veld in de tabelweergave.
+     >
+     >* U kunt het veld Naam niet naar een andere positie verplaatsen.
+     >
+     >* U kunt het veld Naam niet verbergen.
+     >
+     >* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * Vervang het veld in de eerste kolom door een ander veld door het primaire veld te wijzigen. Ga voor meer informatie verder met stap 4. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (Optioneel) Houd de cursor boven een veldnaam in de kolomkop van een veld dat niet wordt weergegeven in de eerste kolom van de tabel, klik op de pijl omlaag rechts van de veldnaam en klik vervolgens op **Instellen als primair veld**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Klikken **Veld instellen** ter bevestiging.
+
+   Het veld wordt een primair veld, wat betekent dat het wordt weergegeven als de eerste kolom van de tabelweergave. Het vorige primaire veld gaat naar de tweede kolom.
+
+   >[!NOTE]
+   >
+   >   * Alleen velden van de volgende typen kunnen primaire velden zijn:
+   >
+   >       * Tekst met één regel
+   >       * Getal
+   >       * Formule
+   >
+   >         Formulervelden worden later vrijgegeven.
+   >
+   >   * Het primaire veld is altijd bevroren en kan niet worden verplaatst. U kunt een ander veld selecteren om een primair veld te vervangen als u het naar een andere positie wilt verplaatsen.
+   >
+   >   * Het wijzigen van het primaire veld in de tabelweergave heeft invloed op de weergave voor alle andere gebruikers die deze selecteren.
+   >
+   >   * Het wijzigen van het primaire veld in een tabelweergave heeft invloed op alle tabelweergaven.
+   >
+   >   * U kunt een primair veld niet verwijderen of verbergen.
 
 1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 

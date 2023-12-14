@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 0%
 # Overzicht van de sectie Updates
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. </span>
+
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
 
 >[!IMPORTANT]
 >
@@ -49,7 +56,7 @@ ht-degree: 0%
 
 De sectie Updates van een object toont systeemupdates en maximaal 200 van de meest recente updates die gebruikers hebben uitgevoerd in de afgelopen 90 dagen.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de volgende ervaring vinden voor de sectie Updates:
 
@@ -89,7 +96,7 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 
 ### Overzicht van de sectie Updates in de nieuwe opmerkingervaring
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -202,9 +209,6 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
  </tbody> 
 </table>
 
-
-<br>
-
 >[!NOTE]
 >
 >De reacties die aan systeemupdates worden toegevoegd rollen niet omhoog aan het oudervoorwerp. Alleen directe antwoorden op een onderliggend object en antwoorden die aan bestaande updates zijn toegevoegd, worden doorgegeven aan bovenliggende objecten.
@@ -213,7 +217,6 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
 >
 > Het is niet mogelijk te reageren op systeemupdates in de nieuwe opmerkingervaring. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## Beperkingen van de sectie Updates
 

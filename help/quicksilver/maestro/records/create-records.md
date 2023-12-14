@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ U kunt records maken in Maestro door een van de volgende handelingen uit te voer
 
 * Deze handmatig maken voor Maestro-recordtypen
 * Verbind hen met verslagen Maestro van derdetoepassingen.
+* Maak records door gegevens uit een externe lijst te kopiëren en te plakken.
+
+In dit artikel wordt beschreven hoe u Maestro-records kunt maken. Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
+
+* [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Toegangsvereisten
 
@@ -183,7 +189,7 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
 ## Records maken door deze vanuit een andere toepassing te verbinden
 
-U kunt records uit andere toepassingen importeren door deze te koppelen aan Maestro-gekoppelde records.
+U kunt records uit andere toepassingen importeren door deze te koppelen aan Maestro-gekoppelde records. Hierdoor wordt een Maestro-recordtype gemaakt voor het aangesloten object van de toepassing van derden. Records die u verbindt met de oorspronkelijke Maestro-records worden weergegeven in de tabelweergave van het type Maestro-record van een externe toepassing.
 
 1. Maak een Maestro-recordtype, zoals beschreven in het dialoogvenster [Recordtypen maken](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ U kunt records uit andere toepassingen importeren door deze te koppelen aan Maes
 
      Als u bijvoorbeeld een Maestro-recordtype verbindt met Workfront-projecten, wordt in dezelfde werkruimte een alleen-lezen recordtype gemaakt met de naam &quot;Workfront-projecten&quot;.
    * Alleen-lezen records in de pagina met recordtypen van derden. De records die u hebt geïmporteerd uit de toepassing van derden, blijven alleen-lezen en kunnen alleen in de oorspronkelijke toepassing worden bijgewerkt.
-
 
 ## Records maken door gegevens uit een externe lijst te kopiëren en te plakken
 

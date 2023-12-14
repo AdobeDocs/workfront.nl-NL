@@ -3,41 +3,25 @@ title: Overzicht van aangepaste formulieren
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: U kunt een aangepast formulier maken dat gebruikers aan een Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
-author: Caroline
+description: U kunt een aangepast formulier maken dat gebruikers aan een Adobe Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
 # Overzicht van aangepaste formulieren
 
-U kunt een aangepast formulier maken dat gebruikers aan een Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
+U kunt een aangepast formulier maken dat gebruikers aan een Adobe Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
 
-Een gebruiker kan bijvoorbeeld het volgende aangepaste formulier aan een project koppelen, zodat gebruikers van het project marketinginhoud voor het project kunnen aanvragen:
+Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de Inhoud van de Marketing&quot;aan een project vastmaken zodat de gebruikers op het project marketinginhoud voor het project kunnen verzoeken:
 
 ![](assets/see-image-details-page.png)
-
-## Aangepaste velden en widgets
-
-Workfront biedt veel ingebouwde velden voor elk objecttype. In een aangepast formulier kunt u extra velden maken die gebruikers vragen om informatie die uniek is voor hun werkstromen. Deze aangepaste velden vormen de bouwstenen van een aangepast formulier.
-
-In Workfront kunt u de volgende typen aangepaste velden toevoegen aan een aangepast formulier:
-
-* Tekstveld met één regel
-* Alineatekstveld
-* Tekstveld met opmaak
-* Vervolgkeuzelijst
-* Berekend
-* Datum
-* Selectievakjes
-* Keuzerondjes
-* Beschrijvende tekst
 
 ## Een aangepast formulier maken
 
@@ -46,13 +30,40 @@ Er zijn twee opties om een aangepast formulier te maken in [!DNL Workfront]. U k
 * [Verouderde aangepaste formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Ontwerper van formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
+## Aangepaste velden en widgets
+
+Workfront biedt veel ingebouwde velden voor elk objecttype.
+
+In een aangepast formulier kunt u extra velden maken die gebruikers vragen om informatie die uniek is voor hun werkstromen. Deze aangepaste velden vormen de bouwstenen van een aangepast formulier.
+
+In Workfront kunt u de volgende typen aangepaste velden toevoegen aan een aangepast formulier:
+
+* Tekstveld met één regel of tekst met één regel in de formulierontwerper
+* Alineatekstveld of Alineatekst in de formulierontwerper
+* Tekstveld met opmaak of Tekst met opmaak in de formulierontwerper
+* Vervolgkeuzelijst
+* Extern opzoeken - alleen beschikbaar in de formulierontwerper
+* Typeahead
+* Berekend
+* Datum- of datumveld in de formulierontwerper
+* Selectievakjes
+* Keuzerondjes
+* Beschrijvende tekst
+* Sectie-einde
+* Adobe XD
+* Afbeelding
+* PDF
+* Video
+
 ## Objecten waar gebruikers een aangepast formulier kunnen toevoegen
+
+Terwijl u een aangepast formulier maakt, kunt u het zo configureren dat het met meerdere objecttypen werkt.
 
 Gebruikers kunnen aangepaste formulieren koppelen aan de volgende objecttypen:
 
 * Project (inclusief bedrijfscase)
 * Taak
-* Probleem
+* Probleem (inclusief aanvraagwachtrij)
 * Bedrijf
 * Document
 * Gebruiker
@@ -60,7 +71,9 @@ Gebruikers kunnen aangepaste formulieren koppelen aan de volgende objecttypen:
 * Portfolio
 * Kosten
 * Groep
+* Iteratie
+* Factureringsrecord
 
-Zie voor instructies [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Zie voor meer informatie over het koppelen van aangepaste formulieren aan objecten [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Gebruikers die een aangepast formulier maken, kunnen het zo configureren dat het met meerdere objecttypen werkt.
+

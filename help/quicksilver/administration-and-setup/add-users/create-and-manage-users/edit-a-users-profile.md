@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als Adobe Workfront-beheerder kunt u nieuwe gebruikers maken en de profielen van bestaande gebruikers beheren.
-author: Courtney, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: a5596a2c734aa1d0f7927e37873761abd56e590b
+source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3396'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,7 @@ ht-degree: 0%
 >
 >Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Als Adobe Workfront-beheerder kunt u nieuwe gebruikers maken en de profielen van bestaande gebruikers beheren. Voor informatie over het maken van gebruikers raadpleegt u [Gebruikers toevoegen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-
-Gebruikers met een licentie voor abonnementen kunnen ook gebruikers maken en beheren. Voor informatie over de toegang nodig om gebruikers uit te geven, zie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Als Adobe Workfront-beheerder kunt u gebruikers maken en de profielen van bestaande gebruikers beheren. Voor informatie over het maken van gebruikers raadpleegt u [Gebruikers toevoegen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Toegangsvereisten
 
@@ -45,25 +43,35 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td> <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
      <li> <p>Het toegangsniveau voor systeembeheerders. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
-     <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+     <li> <p>De <b>Gebruikers</b> voorwerp in uw toegangsniveau dat aan wordt gevormd <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste een van de volgende twee <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+     <ul><li> Gebruikersbeheerder (alle gebruikers)</li>
+     <li>Gebruikersbeheerder (Groepgebruikers)</li></ul>
+     <p>Indien  <b>Gebruikersbeheerder (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder voor een groep zijn waar de gebruiker een lid is om de gebruiker te kunnen uitgeven.</p> 
+     <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>
+</table> 
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
 ## Een gebruikersprofiel bewerken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
-1. Selecteer de gebruiker en klik op het pictogram Bewerken ![](assets/edit-icon.png).
+{{step-1-to-users}}
 
-1. In de **Gebruiker bewerken** de doos die toont, om het even welke volgende informatie verandert, dan klik **Wijzigingen opslaan**:
+1. Selecteer de gebruiker en klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
+
+   Het vak Gebruiker bewerken wordt weergegeven.
+
+1. In de **Gebruiker bewerken** , wijzigt u de volgende gegevens en klikt u op **Wijzigingen opslaan** te allen tijde:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -73,18 +81,21 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader">Persoonlijke gegevens </td> 
       <td> 
        <ul> 
-        <li><b>Voornaam</b>, <b>Achternaam</b></li> 
-        <li> <p><b>E-mailadres:</b> Het e-mailadres van een gebruiker is ook zijn gebruikersnaam in Workfront. Dit veld is hoofdlettergevoelig en moet uniek zijn. Als een gebruiker drie keer probeert een niet-uniek e-mailadres toe te voegen binnen een venster van 10 minuten, wordt een reCAPTCHA-reactie weergegeven.</p> <p>Als u de e-maillijst van gewenste personen gebruikt en een e-maildomein invoert dat niet in de lijst voorkomt, ontvangt de gebruiker geen e-mailberichten. Voor meer informatie over de lijst van gewenste personen, zie <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Uw e-maillijst van gewenste personen configureren</a>.</p> </li> 
-        <li> <p><b>Wachtwoord opnieuw instellen</b>: Klik op deze koppeling om het wachtwoord van de gebruiker opnieuw in te stellen. U wordt om uw eigen wachtwoord gevraagd alvorens u het wachtwoord van een gebruiker kunt terugstellen.</p> <p>Als u het wachtwoord van een andere gebruiker opnieuw wilt instellen, moet u een Workfront-beheerder of een groepsbeheerder zijn.</p> <p><b>OPMERKING</b>:  
+        <li><p><b>Voornaam</b></p></li>
+        <li><p><b>Achternaam</b></p></li> 
+        <li> <p><b>E-mailadres:</b> Het e-mailadres van een gebruiker is ook zijn gebruikersnaam in Workfront. Dit veld is hoofdlettergevoelig en moet uniek zijn. Als een gebruiker drie keer probeert een niet-uniek e-mailadres toe te voegen binnen een venster van 10 minuten, wordt een reCAPTCHA-reactie weergegeven.</p> <p> Selecteer de <b>Ik ben geen robot</b> instellen voordat u verdergaat.</p><p>Als u de e-maillijst van gewenste personen gebruikt en een e-maildomein invoert dat niet in de lijst voorkomt, ontvangt de gebruiker geen e-mailberichten. Voor meer informatie over de lijst van gewenste personen, zie <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Uw e-maillijst van gewenste personen configureren</a>.</p> </li> 
+        <li> <p><b>Wachtwoord opnieuw instellen</b>: Klik op deze koppeling om het wachtwoord van de gebruiker opnieuw in te stellen. U moet uw eigen wachtwoord invoeren voordat u het wachtwoord van een andere gebruiker opnieuw kunt instellen.</p> <p>Als u het wachtwoord van een andere gebruiker opnieuw wilt instellen, moet u een Workfront-beheerder of een groepsbeheerder zijn.</p> <p><b>OPMERKING</b>:  
           <ul> 
-           <li> <p>Als u een groepsbeheerder bent, kunt u wachtwoorden slechts voor gebruikers in de groepen terugstellen waar u als dusdanig wordt aangewezen. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Deze instelling is standaard uitgeschakeld. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </li> 
+           <li> <p>Als u een groepsbeheerder bent, kunt u wachtwoorden slechts voor gebruikers in de groepen terugstellen waar u als beheerder wordt aangewezen. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Deze instelling is standaard uitgeschakeld. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </li> 
            <li> <p>U kunt het wachtwoord van een Workfront-beheerder niet opnieuw instellen.</p> </li> 
           </ul> </p> </li> 
         <li><b>&lt;sso configuration=""&gt; Gebruikersnaam</b>: Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld, wordt de SSO-gebruikersnaam in dit veld weergegeven. Het type SSO-configuratie dat voor uw Workfront-instantie is ingeschakeld, is zichtbaar in dit veld. </li> 
-        <li> <p><b>OnlyAllow &lt;sso configuration=""&gt; Verificatie</b>: Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld en alle gebruikers voor SSO heeft bijgewerkt, is dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw Workfront-instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Wanneer dit veld is geselecteerd, moet de gebruiker zich bij Workfront aanmelden met de SSO-gegevens. Als deze optie wordt uitgeschakeld, kunnen ze zich met hun Workfront-gegevens aanmelden bij Workfront.</p> <p>Voor meer informatie over het vormen van Workfront met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Overzicht van Single Sign-On in Adobe Workfront</a></p> <p>Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Gebruikers bijwerken voor eenmalige aanmelding</a>.</p> <p><b>OPMERKING</b>: Als u een groepsbeheerder bent, kunt u de opdracht &lt;sso configuration=""&gt; velden alleen voor gebruikers in de groepen waar u als zodanig bent aangewezen. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten.
+        <li> <p><b>OnlyAllow &lt;sso configuration=""&gt; Verificatie</b>: Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld en alle gebruikers voor SSO heeft bijgewerkt, is dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw Workfront-instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Wanneer dit veld is geselecteerd, moet de gebruiker zich bij Workfront aanmelden met de SSO-gegevens. Als deze optie wordt uitgeschakeld, kunnen ze zich met hun Workfront-gegevens aanmelden bij Workfront.</p> <p>Voor meer informatie over het vormen van Workfront met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Overzicht van Single Sign-On in Adobe Workfront</a></p> <p>Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Gebruikers bijwerken voor eenmalige aanmelding</a>.</p> 
+        <p><b>OPMERKING</b>:</p> 
+        <p> Als u een groepsbeheerder bent, kunt u het dialoogvenster &lt;sso configuration=""&gt; velden alleen voor gebruikers in de groepen waar u als zodanig bent aangewezen. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten.
         <p>Als u een groepsbeheerder bent en u de machtiging Gebruikersbeheer (Alle gebruikers) hebt ingeschakeld op uw toegangsniveau, kunt u de opdracht &lt;sso configuration=""&gt; voor alle gebruikers.</p> </li> 
-        <li><b>Taakgegevens:</b> Informatie over de taak, zoals de functie en het expertisegebied waarvoor de gebruiker verantwoordelijk is.</li> 
-        <li><p><b>Contactinfo</b>: Het telefoonnummer en het adres van de gebruiker.</p>
+        <li><b>Taakgegevens:</b> Informatie over de taak, zoals de functie (in het gedeelte <b>Titel</b> (in het veld) en op welk expertisegebied de gebruiker verantwoordelijk is (in het vak <b>Over</b> veld).</li> 
+        <li><p><b>Contactinfo</b>: Het telefoonnummer van de gebruiker (in het deelvenster <b>Telefoonnummer, Ext.</b>, en <b>Mobiel nummer</b> velden) en adres (in de <b>Adres, plaats, staat, postcode, land</b> velden ).</p>
         <p>Als de gebruiker voor Verenigd Gebruikersbeheer (UUM) of het Systeem van Adobe Identity Management (IMS) wordt toegelaten, <b>Land</b> in het gedeelte Contactinfo worden alleen landcodewaarden geaccepteerd (bijvoorbeeld VS, GB, IN).</p></li>
        </ul> </td> 
      </tr> 
@@ -93,15 +104,16 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td> 
        <ul> 
       <li> <p><b>Tijdzone:</b> De tijdzone van de gebruiker.</p> <p>Voor informatie over hoe u gebruikers kunt helpen in Workfront samen te werken in verschillende tijdzones raadpleegt u <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Werken in tijdzones</a>.</p> </li> 
-       <li><b>Landinstelling e-mail</b>: De e-maillandinstelling van de voorkeur van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails van Workfront.</li>
+       <li><b>Landinstelling e-mail</b>: De e-maillandinstelling van de voorkeur van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails die van Workfront naar deze gebruiker komen.</li>
 
    <li><b>E-mails ontvangen van deze testomgeving</b>: Schakel deze optie in als u e-mailmeldingen wilt ontvangen vanuit de omgeving waarin u momenteel bent aangemeld.
       <p><b>OPMERKING</b></p>
-      Deze optie is alleen beschikbaar in de omgeving van Voorvertoning en Sandbox. E-mailmeldingen zijn standaard ingeschakeld in de productieomgeving. 
+      <p>Deze optie is alleen beschikbaar in de omgeving van Voorvertoning en Sandbox. E-mailmeldingen zijn standaard ingeschakeld in de productieomgeving. </p>
       </li>
 
    <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van de taken van deze gebruiker.</li> 
-       <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruiker aan zichzelf toewijst, rechtstreeks op het tabblad Werken aan wordt weergegeven. Standaard wordt alles weergegeven dat aan een gebruiker is toegewezen op het tabblad Werkaanvraag.</li> 
+       <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruiker aan zichzelf toewijst, rechtstreeks wordt weergegeven in de lijst Werken aan in het gebied Start. Standaard wordt alles vermeld dat aan een gebruiker is toegewezen op de lijsten Ready to Start of Not Ready in het gebied Home.</li> 
+       <li><b>Automatisch proefdrukken genereren bij het uploaden van documenten</b>: Schakel deze optie in als u wilt dat de documenten die de gebruiker uploadt, direct een proefdruk genereren. Afhankelijk van uw Workfront-proefdruklicentie kan het totale aantal proefdrukken dat in uw systeem voor alle gebruikers kan worden gegenereerd, worden beïnvloed wanneer gebruikers proefdrukken genereren. </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -112,11 +124,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader">Toegang</td> 
       <td> 
        <ul> 
-      <li><b>Is actief:</b> Selecteer dit vakje om aan te geven dat de gebruiker actief is. Actieve gebruikers gebruiken een Workfront-licentie. Als u het vak wist, wordt de gebruiker gedeactiveerd.</li> 
+      <li><b>Is actief:</b> Selecteer dit vakje om aan te geven dat de gebruiker actief is. Actieve gebruikers gebruiken een Workfront-licentie. Als u de doos wist, wordt de gebruiker gedeactiveerd en wordt voorkomen dat deze zich aanmeldt bij Workfront.</li> 
        <li> <p><b>Toegangsniveau:</b> Selecteer het toegangsniveau dat u aan deze gebruiker wilt toewijzen.</p> 
-       <p>Wanneer u een toegangsniveau aan een gebruiker toewijst, kunt u een niveau gelijk aan of minder dan uw eigen toegangsniveau toewijzen. (Als uw toegangsniveau bijvoorbeeld Planner is, kunt u het toegangsniveau voor beheerders niet toewijzen.) U kunt echter geen toegangsniveau toewijzen dat standaard lager is dan uw eigen toegangsniveau als de Workfront-beheerder niet-standaardmachtigingen op het toegangsniveau heeft ingeschakeld die niet ook in uw eigen toegangsniveau zijn ingeschakeld (via de instellingen voor Fine-Tune, zoals beschreven in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>). </p> 
-       <p>Voor meer informatie over toegangsniveaus, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Toegang tot Adobe Workfront configureren</a>.</p><p> <b>Opmerking:</b> Als uw organisatie het nieuwe toegangsmodel (Norm/Licht/Medewerker) gebruikt, kunt u geen Standaard of Lichte gebruiker aan een niveau van de Toegang van de Medewerker opnieuw toewijzen als die gebruiker hun beslissingsgrens voor de maand reeds heeft bereikt. </p><p>Voor meer informatie over het nieuwe toegangsmodel, zie <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Overzicht van nieuwe toegangsniveaus</a>. </p><p>Voor informatie over de beslissingsgrenzen raadpleegt u <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers</a>.</p></li> 
-       <li> <p><b>Lay-outsjabloon</b>: Kies een lay-outsjabloon voor de gebruiker. Deze lay-outsjabloon heeft voorrang op elke lay-outsjabloon die is toegewezen aan de thuisgroep, het thuisteam of de primaire taakrol van de gebruiker. Zie voor meer informatie over de toewijzingsprioriteit van lay-outsjablonen de <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Lay-outsjablonen maken en beheren</a>.</p> <p><b>OPMERKING</b>:  <p>De lijst met sjablonen die u in dit veld hebt, is afhankelijk van uw toegang:</p> 
+       <p>Wanneer u een toegangsniveau aan een gebruiker toewijst, kunt u een niveau gelijk aan of lager dan uw eigen toegangsniveau toewijzen.</p>
+       <p>Bijvoorbeeld, als uw toegangsniveau Plan is, kunt u niet het de toegangsniveau van de Beheerder toewijzen. Nochtans, kunt u geen toegangsniveau toewijzen dat door gebrek lager is dan uw eigen toegangsniveau als de beheerder van Workfront niet-standaardtoestemmingen op het toegangsniveau heeft toegelaten die niet ook in uw eigen toegangsniveau worden toegelaten. </p>
+       <p>Bijvoorbeeld, als u een vergunning van het Plan zonder toegang hebt om taken te schrappen, kunt u niet iemand een vergunning van het Werk met toegang toewijzen om taken te schrappen, hoewel de vergunning van het Werk lager is dan de vergunning van het Plan. Zie voor meer informatie  <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> 
+       <p>Voor meer informatie over toegangsniveaus, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Toegang tot Adobe Workfront configureren</a>.</p>
+       <p> <b>OPMERKING:</b></p> 
+       <p> Als uw organisatie het nieuwe toegangsmodel (Norm/Licht/Medewerker) gebruikt, kunt u geen Standaard of Lichte gebruiker aan een niveau van de Toegang van de Medewerker opnieuw toewijzen als die gebruiker hun beslissingsgrens voor de maand reeds heeft bereikt. </p><p>Voor meer informatie over het nieuwe toegangsmodel, zie <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Overzicht van nieuwe toegangsniveaus</a>. </p><p>Voor informatie over de beslissingsgrenzen raadpleegt u <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers</a>.</p></li> 
+       <li> <p><b>Lay-outsjabloon</b>: Kies een lay-outsjabloon voor de gebruiker. Deze lay-outsjabloon heeft voorrang op elke lay-outsjabloon die aan de thuisgroep, het thuisteam of de primaire rol van de gebruiker is toegewezen. Zie voor meer informatie over de toewijzingsprioriteit van lay-outsjablonen de <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Lay-outsjablonen maken en beheren</a>.</p> <p><b>OPMERKING</b>:  <p>In de volgende lijst wordt beschreven hoe de lijst met sjablonen die u in dit veld hebt, afhankelijk is van uw toegang:</p> 
        <ul> 
        <li>Als beheerder van Workfront, kunt u alle systeem-niveau en groep-vlakke Malplaatjes van de Lay-out zien.</li> 
        <li>Als groepsbeheerder, kunt u systeem-vlakke lay-outmalplaatje, evenals die zien verbonden aan de groepen die u beheert.</li> 
@@ -129,12 +145,17 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td> 
        <ul> 
       <li><b>Bedrijf</b>: Het bedrijf van de gebruiker. Gebruikers kunnen slechts met één bedrijf worden geassocieerd. U moet een bedrijf creëren alvorens u het met een gebruiker kunt associëren. Alleen actieve bedrijven worden in de lijst weergegeven. Voor informatie over het creëren van bedrijven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Bedrijven maken en bewerken</a>.</li> 
-      <li><b>Rapporten aan:</b> Als u een bedrijf voor de gebruiker hebt opgegeven, kunt u in dit veld ook de directe manager van de gebruiker opgeven. Een gebruiker kan slechts één manager hebben.</li> 
-      <li><b>Directe rapporten:</b> Als u een bedrijf voor de gebruiker specificeerde, kunt u de directe rapporten van de gebruiker ook specificeren. Een gebruiker kan meerdere directe rapporten hebben.</li> 
-      <li><b>Thuisteam</b>: Geef het home team voor de gebruiker op. Gebruikers kunnen slechts één huisteam hebben.</li> 
-      <li><b>Andere teams</b>: Gebruikers kunnen tot meerdere teams behoren.</li> 
-      <li> <p><b>Thuisgroep:</b> Selecteer een geschikte groep om de gebruiker toe te wijzen. Hierdoor heeft de gebruiker toegang tot objecten die met de groep worden gedeeld.</p> <p>Dit is een verplicht veld. Elke gebruiker moet met een homegroep worden geassocieerd. Als u geen selecteert, wordt uw groep toegewezen als homegroep van de nieuwe gebruiker.</p> <p><b>OPMERKING</b>: U kunt een groep alleen aan een gebruiker toewijzen als u een Workfront-beheerder bent, u de beheerder van de groep bent of als de groep openbaar is.</p> </li> 
-      <li> <p><b>Overige groepen</b>: Gebruikers kunnen tot meerdere groepen behoren. U kunt een groep alleen aan een gebruiker toewijzen als u een Workfront-beheerder, de beheerder van de groep of de groep openbaar is.</p> <p><b>BELANGRIJK</b>: Het toevoegen van een gebruiker aan meer dan 100 groepen kan prestatieproblemen veroorzaken in elk gebied van Workfront dat de lijst met groepen laadt.</p> <p>Voor meer informatie over openbare groepen raadpleegt u <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Een groep maken</a>.</p> <p>Zie voor meer informatie over groepen <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> </li> 
+      <li><b>Rapporten aan:</b> Als u een bedrijf voor de gebruiker hebt opgegeven, kunt u in dit veld ook de directe manager van de gebruiker opgeven. Een gebruiker kan slechts één manager hebben. Dit veld wordt niet weergegeven als de gebruiker niet eerst aan een bedrijf is gekoppeld. </li> 
+      <li><b>Directe rapporten:</b> Als u een bedrijf voor de gebruiker specificeerde, kunt u de directe rapporten van de gebruiker ook specificeren. Een gebruiker kan meerdere directe rapporten hebben. Dit veld wordt niet weergegeven als de gebruiker niet eerst aan een bedrijf is gekoppeld.</li> 
+      <li><b>Thuisteam</b>: Geef het home team voor de gebruiker op. Gebruikers kunnen slechts één huisteam hebben. Het Team van het Huis is belangrijk wanneer het toewijzen van een lay-outmalplaatje of wanneer het bepalen van het Werk aan het knoop voor de taken en kwesties die aan de gebruiker worden toegewezen. </li> 
+      <li><b>Andere teams</b>: Gebruikers kunnen tot meerdere teams behoren. Een gebruiker kan werkitems bekijken die zijn toegewezen aan een van de teams in het thuisgebied. </li> 
+      <li> <p><b>Thuisgroep:</b> Selecteer een geschikte groep om de gebruiker toe te wijzen. Hierdoor heeft de gebruiker toegang tot objecten die met de groep worden gedeeld. U kunt lay-outsjablonen ook delen met de thuisgroep van de gebruiker.</p> <p>Dit is een verplicht veld. Elke gebruiker moet met een homegroep worden geassocieerd. Als u geen selecteert, wordt uw groep toegewezen als homegroep van de nieuwe gebruiker.</p> <p><b>OPMERKING</b>:</p> 
+      <p> U kunt een groep alleen aan een gebruiker toewijzen als een van de volgende situaties true is:</p>
+      <ul><li>u bent een Workfront-beheerder</li>
+      <li>u bent de beheerder van de groep</li>
+      <li>de groep is openbaar .</li></ul> 
+      <li> <p><b>Overige groepen</b>: Gebruikers kunnen tot meerdere groepen behoren. U kunt een groep alleen aan een gebruiker toewijzen als u een Workfront-beheerder, de beheerder van de groep of de groep openbaar is.</p> <p><b>BELANGRIJK</b>:</p> 
+      <p>Als u een gebruiker toevoegt aan meer dan 100 groepen, kunnen er prestatieproblemen optreden in elk gebied van Workfront dat de lijst met groepen laadt.</p> <p>Voor meer informatie over openbare groepen raadpleegt u <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Een groep maken</a>.</p> <p>Zie voor meer informatie over groepen <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -150,7 +171,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Voor meer informatie over het maken van planningen in Workfront raadpleegt u <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Een schema maken</a>.
 
-   De uitzonderingen van het programma en de onderbreking van het programma zouden ook de gebruikerscapaciteit kunnen beïnvloeden.
+   De uitzonderingen van het programma en de onderbreking zouden de capaciteit van de gebruiker kunnen ook beïnvloeden.
 
    Workfront berekent de beschikbaarheid van een gebruiker afhankelijk van de voorkeuren voor het beheer van bronnen in uw installatiegebied. Zie voor meer informatie <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a>.
 
@@ -158,8 +179,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.
    </li> 
-      <li> <b>Deactivering van schema</b>: Schakel dit selectievakje in als u wilt plannen dat deze gebruiker na een bepaalde periode wordt gedeactiveerd. </li> 
-       <li><b>Geplande datum van deactivering</b>: De datum waarna de gebruiker wordt gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Gebruikers plannen voor deactivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Een gebruiker deactiveren of opnieuw activeren</a>.</li> 
+      <li> <b>Deactivering van schema</b>: Schakel dit selectievakje in als u wilt plannen dat deze gebruiker op een bepaalde datum en op een bepaald tijdstip wordt gedeactiveerd. </li> 
+       <li><b>Geplande datum van deactivering</b>: De datum en tijd waarop de gebruiker wordt gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Gebruikers plannen voor deactivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Een gebruiker deactiveren of opnieuw activeren</a>.</li> 
        <li> <p><b>Primaire rol</b>: Dit is de primaire taakrol die de gebruiker in Workfront kan vervullen. Elke taak en kwestie waaraan de gebruiker wordt toegewezen wordt ook toegewezen aan deze baanrol. Functies zijn essentieel voor het beheer van hulpbronnen. U kunt dit gebied slechts bijwerken als u een vergunning van het Plan met administratieve gebruikerstoegang hebt, of als u een beheerder van Workfront bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> <p>Alleen actieve taakrollen worden in de lijst weergegeven. </p> </li> 
        <li>Als u een <b>Primaire rol</b>de <b>Percentage van de beschikbaarheid van VTE</b> wordt weergegeven. Geef op welk percentage van de tijd van de planning van de gebruiker aan deze taakrol wordt toegewezen. De standaardwaarde voor het Percentage van de Beschikbaarheid van VTE voor de Primaire Rol is 100%. </li> 
        <li> <p><b>Andere rollen</b>: Een gebruiker kan meerdere taakrollen hebben in Workfront. Functies zijn essentieel voor het beheer van hulpbronnen. Er is geen limiet voor het aantal taakrollen dat een gebruiker kan uitvoeren. Nochtans, adviseren wij om één gebruiker aan een bovenmatig groot aantal baanrollen niet toe te wijzen, omdat het middelbeheer voor deze gebruikers te complex zou kunnen worden.<p>Alleen actieve taakrollen worden in de lijst weergegeven. Voor meer informatie over baanrollen, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Taakrollen maken en beheren</a>.</p> <p>U kunt dit gebied slechts bijwerken als u een vergunning van het Plan met administratieve gebruikerstoegang hebt, of als u een beheerder van Workfront bent. <br>Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 

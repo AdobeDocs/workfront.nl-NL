@@ -5,12 +5,13 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d1fe7165932fb6f2aff3c8488bdb8e1dfae3b6d3
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
+
 
 # Toegang verlenen aan gebruikers
 
@@ -34,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,15 +46,15 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
 
 * Een Workfront-beheerder.
 
-   Zie voor meer informatie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Zie voor meer informatie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 * Een gebruiker met een standaardplanvergunning die ook toegang tot gebruikers heeft, zoals die in dit artikel wordt verklaard.
 
-   De gebruikers die beperkt zijn om slechts gebruikers van hun bedrijf of het primaire bedrijf te zien hebben toegang om slechts de gebruikers uit te geven zij kunnen zien. Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  De gebruikers die beperkt zijn om slechts gebruikers van hun bedrijf of het primaire bedrijf te zien hebben toegang om slechts de gebruikers uit te geven zij kunnen zien. Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Een gebruiker met een standaardplanvergunning die ook als manager van een andere gebruiker wordt gespecificeerd.
 
-   De gebruikers die Edit toegang tot gebruikers in hun toegangsniveau worden verleend kunnen gebruikers beheren die aan hen rapporteren. Voor informatie over het beheren van een gebruiker raadpleegt u [Het organigram weergeven](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  De gebruikers die Edit toegang tot gebruikers in hun toegangsniveau worden verleend kunnen gebruikers beheren die aan hen rapporteren. Voor informatie over het beheren van een gebruiker raadpleegt u [Het organigram weergeven](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 * Een gebruiker met een standaardlicentie voor abonnementen die een gebruiker heeft gemaakt, kan de gemaakte gebruiker deactiveren, verwijderen of bewerken. Voor informatie over het maken van nieuwe gebruikers raadpleegt u [Gebruikers toevoegen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -66,7 +67,7 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
 
    1. Uitschakelen **Contactgegevens weergeven** Klik vervolgens op de X om het dialoogvenster **Uw instellingen nauwkeurig afstellen** doos.
 
-1. Als u de mogelijkheid wilt wijzigen dat gebruikers met een abonnement toegang krijgen tot het bewerken van andere gebruikers, klikt u op het tandwielpictogram ![](assets/gear-icon-settings.png) op de **Bewerken** rechts van **Gebruikers** Selecteer vervolgens de mogelijkheden die u wilt bieden:
+1. Als u de mogelijkheid wilt wijzigen dat gebruikers met een abonnement toegang krijgen tot andere gebruikers, klikt u op het tandwielpictogram ![](assets/gear-icon-settings.png) op de **Bewerken** rechts van **Gebruikers** Selecteer vervolgens de mogelijkheden die u wilt bieden:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,10 +76,10 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
      <tr> 
       <td role="rowheader"><strong>Maken</strong> </td> 
       <td> <p>Hiermee kunnen gebruikers gebruikers maken.<br>Deze optie is standaard ingeschakeld.</p> 
-      &lt;!--
+      &lt;!—
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Zorg ervoor dat deze wijziging wordt aangebracht voordat u de 2 opmerkingen ongedaan maakt. Op 3/29 zegt het document-req dat dit afhankelijk is van onderzoeksresultaten.</p>
 
-       &lt;p>&lt;b>OPMERKING&lt;/b>: Dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.&lt;/p>
+       &lt;p>&lt;b>OPMERKING&lt;/b>: dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.&lt;/p>
        —>  &lt;/td>
    </tr> 
      <tr> 
@@ -111,8 +112,8 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
    >Als u groepbeheerders geen toegang tot alle leden van de groepen wilt verlenen die zij beheren, maak beide hierboven opties van Admin van de Gebruiker onbruikbaar. De beheerders van de groep zullen nog tot groepsleden kunnen toegang hebben die zij aan Workfront toevoegen, of die aan hen in Workfront rapporteren.
 
 1. (Optioneel) Als u de toegangsinstellingen wilt configureren voor andere objecten en gebieden in het toegangsniveau waaraan u werkt, gaat u verder met een van de artikelen in [Toegang tot Adobe Workfront configureren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [Toegang verlenen tot taken](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. Als u klaar bent, klikt u op **Opslaan**.
+1. Klik op **Opslaan**.
 
 ## Toegang tot gebruikers per licentietype
 
-Voor informatie over wat de gebruikers in elk toegangsniveau met gebruikers kunnen doen, zie de sectie [Gebruikers](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in het artikel [Beschikbare functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Zie de sectie voor informatie over wat gebruikers op elk toegangsniveau kunnen doen met gebruikers [Gebruikers](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in het artikel [Beschikbare functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).

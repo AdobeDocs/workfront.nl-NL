@@ -6,9 +6,9 @@ description: U maakt een Kanban- of Scrum agile-team in [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td> <p>Nieuw: [!UICONTROL Standard]</p> 
    of
    <p>Huidige: [!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>Toegang tot teams bewerken</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Neem contact op met uw [!DNL Workfront] beheerder.
@@ -68,7 +75,6 @@ Om te vormen hoe de verhalen voor uw agile team worden geschat:
 1. Selecteer het flexibele team dat u wilt beheren.
 1. Klik op de knop **[!UICONTROL More]** menu ![](assets/more-menu.png) selecteert u vervolgens **[!UICONTROL Edit]**.
 
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.\
    ![Team bewerken](assets/edit-team-settings-350x205.png)
 
 1. In de **[!UICONTROL Agile]** in de **[!UICONTROL Estimate Stories in]** selecteert u of u punten of uren wilt gebruiken voor het schatten van de grootte (werkbelasting) van artikelen. Als u Punten selecteert, geeft u op hoeveel uren gelijk zijn aan 1 punt. (De standaardwaarde is 1 punt = 8 uur.) Dit is het aantal geplande uren dat aan het artikel wordt toegevoegd.
@@ -89,8 +95,6 @@ U definieert de statussen die beschikbaar zijn voor de artikelkaart die is gekop
 
 1. Selecteer het flexibele team dat u wilt beheren.
 1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.
-
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
 
    ![Team bewerken](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ U kunt als volgt artikelkaarten configureren die aan het mobiele team zijn toege
 
 1. Selecteer het flexibele team dat u wilt beheren.
 1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.\
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
 
    ![Team bewerken](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ Om WIP voor uw team van Kanban te beperken:
 1. Selecteer het Kanban-team dat u wilt beheren.
 1. Klik op de knop **[!UICONTROL More]** menu ![](assets/more-menu.png)selecteert u vervolgens **[!UICONTROL Edit]**.
 
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
-
    ![Team bewerken](assets/edit-team-settings-350x205.png)
 
 1. In de **[!UICONTROL Agile]** in de **[!UICONTROL Methodology]** selecteert, zorgt u ervoor dat Kanban is geselecteerd.
@@ -193,8 +194,6 @@ U kunt verhalen van de achterstand vormen die automatisch aan de eerste kolom op
 1. Selecteer het Kanban-team dat u wilt beheren.
 1. Klik op de knop **[!UICONTROL More]** menu ![](assets/more-menu.png)selecteert u vervolgens **[!UICONTROL Edit]**.
 
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
-
    ![Team bewerken](assets/edit-team-settings-350x205.png)
 
 1. Selecteren **[!UICONTROL Automatically add next story from backlog]** om te vormen dat het volgende punt van de backlog automatisch aan wordt toegevoegd **[!UICONTROL New]** kolom wanneer een item uit het deelvenster **[!UICONTROL In Progress]** kolom.
@@ -215,8 +214,6 @@ U kunt kiezen hoe lang voltooide kaarten op de [!UICONTROL Kanban] bord. Taken d
 1. (Optioneel) Klik op de knop **[!UICONTROL Switch Teams]** pictogram ![Pictogram Teams wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw Kanban-team in het keuzemenu of zoek naar een team op de zoekbalk.
 1. Selecteer het Kanban-team.
 1. Klik op de knop **[!UICONTROL More]** menu ![](assets/more-menu.png) selecteert u vervolgens **[!UICONTROL Edit]**.
-
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
 
    ![Team bewerken](assets/edit-team-settings-350x205.png)
 
