@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
 >
 >De release van 23.3 bevatte de optie om uw organisatie te verplaatsen naar maandelijkse releases. Daarom heeft Workfront het nummeringsschema van releaseversies gewijzigd om rekening te houden met zowel het maandelijks- als driemaandelijkse releasespoor.
 >
->Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen zijn op de laatste donderdag van de maand, tenzij anders vermeld.
+>Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen zijn op de donderdag van de tweede volledige week van de maand, tenzij anders vermeld.
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
