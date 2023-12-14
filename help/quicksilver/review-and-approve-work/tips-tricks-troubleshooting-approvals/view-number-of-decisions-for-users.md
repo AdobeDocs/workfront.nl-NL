@@ -6,15 +6,17 @@ description: U kunt het aantal proef- en documentbeslissingen bekijken dat gebru
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 
 # Het aantal proef- en documentbeslissingen voor alle gebruikers weergeven
+
+{{highlighted-preview}}
 
 U kunt het aantal proef- en documentbeslissingen bekijken dat gebruikers in uw Workfront-exemplaar hebben genomen.
 
@@ -26,11 +28,17 @@ U kunt het aantal proef- en documentbeslissingen bekijken dat gebruikers in uw W
 
 Om het aantal besluiten voor een gebruiker te bekijken:
 
-1. Klik op de knop **Hoofdmenu** in de rechterbovenhoek van Adobe Workfront en klik vervolgens op **Gebruikers**.
+{{step-1-to-users}}
 
 1. Open de **Weergaven** en kies vervolgens het **Licenties** weergeven.
-
 1. De kolom zoeken **Besluiten deze maand** om het aantal besluiten te bekijken elke gebruiker in de maand heeft gemaakt.
+1. <span class="preview">Als u historische gegevens wilt weergeven, opent u het dialoogvenster **Weergaven** gebied en kies **Historische gebruikersweergave**.</span>
+1. <span class="preview">De kolom zoeken **Historische beslissingen van gebruikers** om het aantal besluiten te bekijken elke gebruiker in een maand heeft gemaakt. De gegevens gaan 12 maanden terug vanaf de huidige maand.</span>
+
+>[!NOTE]
+>
+><span class="preview">Als de Historische Mening van de Gebruiker niet beschikbaar is, dan kunt u een nieuwe mening tot stand brengen om de historische gegevens te tonen. Toevoegen **Historische beslissingen van gebruikers** als een kolom in de weergave. Voor informatie over het toevoegen van een kolom aan een mening, zie [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
 
 ## Besluiten weergeven in het gebied Rapportering
 
@@ -38,7 +46,12 @@ Om het aantal besluiten voor een gebruiker te bekijken:
 >
 >Dit rapport is van toepassing op gebruikers op zowel de nieuwe als oudere toegangsmodellen.
 
-1. Klik op de knop **Hoofdmenu** in de rechterbovenhoek van Adobe Workfront en klik vervolgens op **Rapporten**.
+{{step1-to-reports}}
+
 1. Klikken **Nieuw rapport** selecteert u vervolgens **Gebruikersbeslissingen**.
+1. De kolom zoeken **Besluiten deze maand** om het aantal besluiten te bekijken elke gebruiker in de maand heeft gemaakt.
+
+   <span class="preview">De gegevens gaan 12 maanden terug vanaf de huidige maand. De **Maand** en **Jaar** in de kolommen wordt aangegeven in welke maand de beslissingen zijn genomen . Maand 1 is Januari, maand 2 is Februari, etc.</span>
+
 1. Controleer het rapport en bewerk het indien nodig. Zie voor meer informatie [Een aangepast rapport maken](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
