@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
+source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Met deze integratie willen we creatieve mensen in staat stellen om in hun keuze 
 
 Ga voor meer informatie over de werking van de alfa en de manier waarop u kunt deelnemen naar [Adobe Workfront- en Frame.io-integratie alfa: overzicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
-
 >[!NOTE]
 >
 >Als u deze pagina&#39;s tegenkomt zonder dat uw bedrijf deelneemt aan dit alpha-programma, moet u de informatie hier zorgvuldig behandelen en contact opnemen met uw Workfront of Frame.io-beheerder voor meer informatie.
+>
 
 ## Basis testscenario
 
@@ -32,30 +32,32 @@ Om u toe te staan om de nieuwe eigenschappen van het alpha- programma gemakkelij
 
 Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende stappen uit om de functionaliteit te testen:
 
->[!NOTE]
->
-><span class="preview">Gemarkeerde tekst</span> Hieronder wordt verwezen naar functies die nog niet zijn geïmplementeerd voor tests, maar die in een latere versie worden opgenomen.
->
-
 1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io alpha testing` groep die als projectgroep wordt toegewezen.
 
-1. **Coördinatoren:** Wijs binnen Workfront uw creatieve projecten toe aan het project <span class="preview">of Voor frames ingeschakelde taken (subtaken kunnen niet worden gemarkeerd als Frame ingeschakeld)</span> en wijzig de projectstatus in &quot;Huidig&quot;.
+1. **Coördinatoren:** Markeer in Workfront de taken waarvoor creatief werk nodig is als &#39;frame-enabled&#39; (in taakdetails) en wijs uw creatieve projecten hieraan toe (wijs uzelf ook toe als u de hele workflow wilt testen).
+
+>[!NOTE]
+>
+>Subtaken kunnen niet worden gemarkeerd als Frame ingeschakeld.
+>
+
+1. **Coördinatoren:** Upload uw creatieve opdracht en verander de projectstatus in &quot;Huidige&quot;.
 
 1. **Creatieve producten:** Controleer uw e-mails voor een uitnodiging tot het zojuist gemaakte Frame.io-project
 
 1. **Creatieve producten:** Klik op de knop &quot;Deelnemen aan project&quot; in de uitnodigings-e-mail om deel te nemen aan het Frame.io-project, bekijk de creatieve samenvatting in het project en start het maken van uw inhoud met het gereedschap Creative Cloud van keuze.
 
-1. **Creatieve producten:** Uw gemaakte elementen uploaden naar Frame.io en deze toevoegen aan het gekoppelde Workfront-project <span class="preview">(of toegewezen taken waarvoor Frame is ingeschakeld).</span>
+1. **Creatieve producten:** Upload uw gecreeerde activa aan Frame.io en voeg hen aan het verbonden project van Workfront toe door één van de toegewezen Kader-Toegelaten taken te selecteren. Selecteer de optie om de taak als voltooid te markeren.
 
-1. **Coördinatoren:** Zoek in Workfront naar de gekoppelde Frame.io-elementen in uw project en wijs revisoren/fiatteurs toe (voor meer informatie over het toewijzen van revisies/fiatteurs raadpleegt u [Extra fiatteurs of revisoren toevoegen aan een document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
+1. **Coördinatoren:** Zoek in Workfront de gekoppelde Frame.io-elementen in de voor frames ingeschakelde taak en controleer of de status van de taak is gewijzigd in &quot;complete&quot;.
 
-1. **Belanghebbenden:** Bekijk in Workfront uw goedkeuringsaanvraag in Home- of Document Details en bekijk het document met Frame-verbinding in de Frame.io Viewer. Laat vervolgens een opmerking met feedback achter.
+1. **Coördinatoren:** Wijs revisoren/fiatteurs toe aan het gekoppelde Frame.io-element. Wijs uzelf ook als fiatteur toe als u de volledige workflow wilt testen. (Voor meer informatie over het toewijzen van beoordelingen/fiatteurs raadpleegt u [Extra fiatteurs of revisoren toevoegen aan een document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
-1. <span class="preview">**Coördinatoren:** In Workfront kunt u de door de belanghebbende gemaakte opmerkingen weergeven in de sectie Updates van het document Frame.io.</span>
+1. **Belanghebbenden:** Bekijk uw goedkeuringsaanvraag in Workfront in Home, Document Details of in het ontvangen e-mailbericht. Open de middelen in de Kijker Frame.io, geef een commentaar met terugkoppelen, en maak een besluit.
 
-1. <span class="preview">**Belanghebbenden:** Maak een beslissing vanuit de Frame.io Viewer.</span>
+1. **Coördinatoren:** In Workfront bekijkt u de opmerkingen die door de belanghebbende zijn gemaakt in de sectie Updates van het document dat is verbonden met Frame.io, en de beslissing in de sectie Goedkeuring of het samenvattingsvenster van het document.
 
-1. <span class="preview">**Creatieve producten:** Merk in Frame.io het algemene goedkeuringsbesluit op dat voor uw elementen is genomen.</span>
+1. **Creatieve producten:** Merk in Frame.io het algemene goedkeuringsbesluit op dat voor uw elementen is genomen.
 
 1. **Creatieve producten:** Pas in Frame.io de gewenste wijzigingen toe door de bijgewerkte versie toe te voegen aan de versiestapel van het gekoppelde element.
 
@@ -71,17 +73,14 @@ Hieronder vindt u informatie over de gevallen van primair gebruik die we willen 
 
 >[!NOTE]
 >
-><span class="preview">Gemarkeerde tekst</span> Hieronder wordt verwezen naar functies die nog niet zijn geïmplementeerd, maar die in een latere versie worden opgenomen.
->
 >Opsommingstekens onder een **&quot;Mogelijke verbeteringen in toekomstige versies&quot;** header kan al dan niet worden opgenomen in een toekomstige release , afhankelijk van alfafeedback en onze ontwikkelingsplannen .
 >
 
-
 ### Workfront-beheerders kunnen een verbinding instellen tussen Workfront-groepen en Frame.io-accounts
 
-* <span class="preview">Binnen Workfront kunt u een Workfront-groep verbinden met een Frame.io-account</span>
+* Binnen Workfront kunt u een Workfront-groep verbinden met een Frame.io-account
 
-* Er wordt een nieuw Frame.io-team gemaakt binnen Frame.io dat de verbonden Workfront-groep vertegenwoordigt
+* Er wordt een nieuw Frame.io-team gemaakt binnen Frame.io dat de verbonden Workfront-groep vertegenwoordigt (let er op dat deze functie alleen is ingeschakeld voor klanten die de integratie op Production gebruiken. Klanten die nog op Sandbox of Voorproef testen zullen de verbinding hebben die door het team van de Adobe wordt gevormd.)
 
 **Mogelijke verbeteringen in toekomstige versies:**
 
@@ -93,19 +92,17 @@ Hieronder vindt u informatie over de gevallen van primair gebruik die we willen 
 
 * Mogelijkheid om Workfront-projecten te markeren als Frame.io ingeschakeld door een Frame verbonden groep toe te wijzen
 
-* <span class="preview">Verbetering: de mogelijkheid om taken binnen Workfront-projecten als frametaken in te schakelen die op hun beurt taakmappen binnen Frame.io maken</span>
+* Mogelijkheid om taken binnen Workfront-projecten als frametaken in te schakelen die op hun beurt weer taakmappen binnen Frame.io maken
 
-* Wanneer een het projectstatus van Workfront aan Huidig wordt geplaatst, wordt een overeenkomstig verbonden project gecreeerd in Kader, worden de aan Workfront toegewezen gebruikers toegevoegd aan het project van het Kader, en een e-mailbericht wordt verzonden naar hen van Frame.io
+* Op basis van een Workfront-project is een aan het kader gekoppelde groep toegewezen en minstens één aan het kader ingeschakelde taak, wanneer de status van het Workfront-project is ingesteld op Huidig, wordt een bijbehorend verbonden project gemaakt in Frame, worden aan Workfront toegewezen gebruikers toegevoegd aan het Frame-project en wordt een e-mailbericht verzonden naar hen van Frame.io
 
-   * Alle leden van het Project van Workfront (gebruikers en teams) zullen als Medewerkers aan het project Frame.io (bij projectverwezenlijking en later) worden toegevoegd
-
-   * <span class="preview">Verandering: De gebruikers en de teams die aan Kader toegelaten taken van Workfront worden toegewezen zullen als Medewerkers aan het project Frame.io worden toegevoegd en (bij projectverwezenlijking en later) op de hoogte gebracht</span>
+   * De gebruikers en de teams die aan Kader toegelaten taken van Workfront worden toegewezen zullen als Medewerkers aan het project Frame.io worden toegevoegd en (op projectverwezenlijking en later) worden meegedeeld
 
 * De documenten (Creative Brief) die aan het project en Kader toegelaten taken worden toegevoegd zullen aan het project Frame.io (binnen respectieve het werkomslag) worden geduwd wanneer het project wordt gecreeerd (trekker: projectstatus die aan Huidig wordt geplaatst)
 
    * We raden u aan de hoeveelheid documenten die aan uw project wordt toegevoegd te beperken voordat u actief wordt aan uw creatieve instructies, om te voorkomen dat er meerdere onnodige documenten naar Frame.io worden verzonden
 
-* <span class="preview">Verbetering: gebruikers / teams die expliciet niet zijn toegewezen aan een voor frames ingeschakelde Workfront-taak worden verwijderd uit het Frame.io-project</span>
+   * Documenten/taken die na de aanvankelijke projectsynchronisatie worden toegevoegd zullen niet aan Frame.io worden geduwd, slechts gebruikers/teams
 
 **Mogelijke verbeteringen in toekomstige versies:**
 
@@ -121,9 +118,9 @@ Hieronder vindt u informatie over de gevallen van primair gebruik die we willen 
 
 * Nieuwe versie die wordt geüpload in Frame.io, maakt automatisch een nieuwe documentversie in Workfront op verbonden elementen
 
-* <span class="preview">Verbetering: mogelijkheid om de Workfront-taken waarnaar wordt verwezen, vanuit Frame.io als voltooid te markeren</span>
+* Mogelijkheid om de Workfront-taken waarnaar wordt verwezen vanuit Frame.io als voltooid te markeren
 
-* <span class="preview">Verbetering: als het verbonden Workfront-document wordt verwijderd, blijft het binnen Frame.io en kan het opnieuw worden verbonden met dezelfde of een andere projecttaak</span>
+* Als het verbonden Workfront-document wordt verwijderd, blijft het binnen Frame.io en kan het opnieuw worden verbonden met dezelfde of een andere projecttaak
 
 **Mogelijke verbeteringen in toekomstige versies:**
 
@@ -135,7 +132,7 @@ Hieronder vindt u informatie over de gevallen van primair gebruik die we willen 
 
 * Workfront-gebruikers en -teams kunnen worden toegevoegd aan nieuwe documentgoedkeuringen voor Frame.io-verbonden documenten
 
-* <span class="preview">Verbetering: wanneer een gebruiker/team wordt losgekoppeld van een voor frames geschikt document, verliest hij/zij ook zijn toegang tot het element in Frame.io Viewer</span>
+* Wanneer een gebruiker/team niet wordt gedeeld vanuit een voor frames geschikt document, verliest hij/zij ook zijn toegang tot het element in Frame.io Viewer
 
 **Mogelijke verbeteringen in toekomstige versies:**
 
@@ -151,12 +148,4 @@ Hieronder vindt u informatie over de gevallen van primair gebruik die we willen 
 
 * Mogelijkheid om de bestaande revisie- en opmerkingsmogelijkheden van de Frame.io Viewer te benutten die worden gesynchroniseerd met de Workfront Update Stream
 
-* <span class="preview">Mogelijkheid om een nieuw goedkeuringsbesluit voor een document te nemen vanuit de Frame.io Viewer</span>
-
-### Binnen Frame.io worden Creative Suite op de hoogte gesteld van de algemene beslissing die is genomen met betrekking tot het gekoppelde Frame.io-element
-
-* <span class="preview">Verbetering: de algehele status van documentgoedkeuring wordt weergegeven op het element in Frame.io</span>
-
-### Projectcoördinatoren kunnen definitieve middelen naar AEM sturen
-
-* <span class="preview">Verbetering: aan frames gekoppelde documenten, inclusief metagegevens, kunnen naar AEM worden verzonden met de bestaande Workfront + AEM Asset CS-connector</span>
+* Mogelijkheid om een nieuw goedkeuringsbesluit voor een document te nemen vanuit de Frame.io Viewer
