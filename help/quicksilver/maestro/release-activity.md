@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ Met deze verbetering, merk het volgende op:
 * Alle tabelweergaven van een recordtype hebben hetzelfde primaire veld dat u selecteert.
 
 Zie voor meer informatie [Tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Connect Maestro-records met Adobe Experience Manager (AEM)-middelen
+
+Voorvertoningsrelease: 14 december 2023
+
+Productieversie: 15 december 2023
+
+U kunt nu een verbinding tot stand brengen tussen Maestro-recordtypen en Adobe Experience Manager-middelen.
+
+Nadat u de verbinding tot stand hebt gebracht, is de volgende functionaliteit beschikbaar bij deze update:
+
+* Maestro-gebruikers kunnen AEM middelen, mappen of verzamelingen koppelen aan een Maestro-record vanuit een specifieke opslagplaats in AEM waartoe ze toegang hebben
+
+* Maestro-gebruikers kunnen alle verbonden middelen in Maestro bekijken nadat ze zijn verbonden met records.
+
+* Er wordt automatisch een Experience Manager Assets-recordtype gemaakt in Maestro nadat u de verbinding hebt gemaakt. Verbonden elementen zijn zichtbaar in de tabel- en tijdlijnweergaven van Maestro van dit nieuwe recordtype.
+
+* U kunt AEM elementgegevens in de Maestro-recordtabel weergeven waar u verbinding maakt.
+
+Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## Week van 4 december 2023
 

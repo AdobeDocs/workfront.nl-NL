@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -206,9 +206,9 @@ After permssions - replace the table with:
 
 ### Connect Maestro-records
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte moet standaard worden geopend.
+De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
@@ -254,33 +254,24 @@ After permssions - replace the table with:
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
 
-Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfront-objecttype, kunt u afzonderlijke Maestro-records verbinden met objecten in Workfront. U kunt ook velden van het Workfront-object verbinden met het Maestro-recordtype.
+Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfront-objecttype, kunt u afzonderlijke Maestro-records verbinden met objecten in Workfront. De Workfront-velden die u hebt verbonden, worden automatisch ingevuld in de Maestro-records waarvan u de objecten koppelt.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte moet standaard worden geopend.
+De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
-1. Selecteer een tabelweergave in het menu **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
-1. Voeg een nieuwe verbinding aan een objecten type van Workfront het geselecteerde verslagtype toe. Selecteer een van de volgende objecten onder de sectie Workfront:
+1. Selecteer een **Tabel** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 
-   * Project
-   * Portfolio
-   * Programma
-   * Bedrijf
-   * Groep
-
-   Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
-
-   Er wordt een nieuwe kolom toegevoegd aan de tabel om het gekoppelde objecttype weer te geven.
-
-1. Voeg afzonderlijke records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Zie voor meer informatie [Records maken](../../maestro/records/create-records.md).
-1. Ga in een record in de tabelweergave naar de kolom met het gekoppelde object en houd de cursor boven de cel die overeenkomt met de record die u wilt koppelen aan andere objecten uit Workfront. Klik vervolgens op de knop **+** pictogram. <!--change Workfront to other applications, when this will be possible-->
+1. (Optioneel) Voeg afzonderlijke records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Zie voor meer informatie [Records maken](../../maestro/records/create-records.md).
+1. (Voorwaardelijk) Als u het geselecteerde recordtype hebt verbonden met een Workfront-object, gaat u naar de kolom met het gekoppelde object en plaatst u de cursor boven de cel die overeenkomt met de record die u wilt koppelen aan objecten uit Workfront. Klik vervolgens op de knop **+** pictogram.
 
    De **Objecten verbinden** wordt weergegeven.
 
    ![](assets/connect-objects-box-to-select-projects.png)
+
+   Zie voor meer informatie over het verbinden van recordtypen met objecten uit een externe toepassing [Verbind recordtypen](../architecture/connect-record-types.md).
 
 1. Typ de naam van een Workfront-object in het zoekvak en selecteer het vervolgens wanneer het in de lijst wordt weergegeven
 
@@ -288,11 +279,11 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
 
    Selecteer de naam van een of meerdere objecten in het vak en klik op **Objecten verbinden** in de rechterbovenhoek van het vak Connect-objecten.
 
-   Aan Maestro wordt het volgende toegevoegd:
+   Het volgende wordt toegevoegd:
 
    * De geselecteerde Workfront-objecten worden toegevoegd aan het gekoppelde recordveld.
    * Er wordt een nieuw gekoppeld veld (of een opzoekveld) gemaakt voor elk gekoppeld veld dat u hebt geselecteerd bij het toevoegen van de velden aan de gekoppelde record.
-   * Een nieuw recordtype met de naam &quot;Workfront-object&quot; wordt gemaakt in dezelfde werkruimte als de Maestro-record waaruit u een koppeling maakt. De naam van het object maakt deel uit van de naam van dit recordtype. Als u bijvoorbeeld een koppeling naar Workfront-projecten maakt, maakt u het Workfront-projectrecordtype in Maestro.
+   * Er wordt een nieuw recordtype met de naam &quot;&lt; Naam van het Workfront-objecttype >&quot; gemaakt in dezelfde werkruimte als de Maestro-record waarvan u een koppeling maakt. De naam van het object maakt deel uit van de naam van dit recordtype. Als u bijvoorbeeld een koppeling naar een Workfront-project maakt, worden de **Project** recordtype in Maestro.
 
      Dit is een alleen-lezen recordtype en er worden Workfront-objecten weergegeven die zijn geselecteerd in het nieuwe gekoppelde objectveld dat u hebt gemaakt van de Maestro-record. De gekoppelde velden van het gekoppelde object worden ook weergegeven op de alleen-lezen gekoppelde Workfront-records.
 
@@ -307,7 +298,7 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
      >
      >* Als u de instelling Meerdere records toestaan hebt ingeschakeld, worden de waarden van de meerdere objecten gescheiden door komma&#39;s weergegeven of worden ze samengevoegd volgens de gekozen aggregator.
      >
-     >* Er wordt geen gekoppeld recordveld naar de gekoppelde Maestro-records gemaakt voor de gekoppelde Workfront-objecten.
+     >* Er wordt geen gekoppeld recordveld naar de Maestro-gekoppelde records gemaakt voor de gekoppelde Workfront-objecten in Workfront.
 
 
 1. (Optioneel) Sluit de pagina Type Maestro-record en ga naar de geselecteerde werkruimte.
@@ -318,7 +309,6 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
    >    * De records in de Workfront-recordtypepagina zijn alleen-lezen Workfront-objecten. De velden die zijn gekoppeld via het Workfront-recordtype, worden ook weergegeven als alleen-lezen kolommen en worden automatisch ingevuld wanneer ze in Workfront worden ingevuld.
    >    * U kunt Workfront-velden niet handmatig bijwerken in Maestro. Workfront-objectvelden moeten in Workfront worden ingevuld en de veldwaarden worden automatisch weergegeven in de Workfront-record in Maestro.
    >
-   >    * Als u het type Workfront-objectrecord wilt weergeven in de tijdlijnweergave, moet u ten minste twee datumvelden weergeven in de tabelweergave van de alleen-lezen Workfront-recordtype.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om de pagina met gegevens over Workfront-objectrecords te openen in Maestro:
 
@@ -351,4 +341,122 @@ Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en een Workfro
    >
    >  De velden die u toevoegt of verwijdert op de pagina met Workfront-objectrecordtypen, worden niet toegevoegd aan of verwijderd uit het Maestro-recordtype dat is gekoppeld aan het Workfront-objecttype. De velden zijn alleen zichtbaar op de pagina met alleen-lezen Workfront-recordtypen, zodat u ze in Maestro kunt bekijken.
 
-1. (Optioneel en voorwaardelijk) Als u ten minste twee datumvelden hebt toegevoegd aan het Workfront-object, klikt u op de knop **Weergave** vervolgkeuzemenu op de pagina met recordtypen voor Workfront-objecten en selecteer de **Tijdlijn** weergeven. De aan Workfront gekoppelde objecten worden in de tijdlijnweergave weergegeven.
+1. (Optioneel en voorwaardelijk) Als u ten minste twee datumvelden hebt toegevoegd aan het Workfront-object, klikt u op de knop **Weergave** vervolgkeuzemenu op de pagina met recordtypen voor Workfront-objecten en selecteer de **Tijdlijn** of **Weergave maken** om een tijdlijnweergave te maken.  Zie voor meer informatie [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+   De aan Workfront gekoppelde objecten worden in de tijdlijnweergave weergegeven.
+
+
+### Connect Maestro-records verbinden met Adobe Experience Manager-objecten
+
+<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+Nadat u een verbinding hebt gemaakt tussen een Maestro-recordtype en Adobe Experience Manager Assets, kunt u afzonderlijke Maestro-records verbinden met Experience Manager-elementen. De elementvelden die u vanaf Experience Manager Assets hebt verbonden toen u de verbinding maakte, worden automatisch ingevuld in het Maestro-recordtype waarvan u een koppeling hebt gemaakt.
+
+{{step1-to-maestro}}
+
+De laatst geopende werkruimte moet standaard worden geopend.
+
+1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
+1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
+1. Selecteer een **Tabel** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
+
+1. (Optioneel) Voeg afzonderlijke records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Zie voor meer informatie [Records maken](../../maestro/records/create-records.md).
+1. (Voorwaardelijk) Als u het geselecteerde recordtype hebt verbonden met Experience Manager Assets, gaat u naar de gekoppelde objectkolom en beweegt u de cursor over de cel die overeenkomt met de record die u vanuit de Experience Manager wilt koppelen met andere objecten. Klik vervolgens op de knop **+** pictogram.
+
+   De **Elementen selecteren** wordt weergegeven. <!--update screen shot with actual assets-->
+
+   ![](assets/select-assets-box-for-aem-record-connections.png)
+
+   Zie voor meer informatie over het verbinden van recordtypen met objecten uit een externe toepassing [Verbind recordtypen](../architecture/connect-record-types.md).
+
+1. Klik om een aantal van de volgende typen elementen te selecteren:
+
+   * Afbeeldingen
+   * Verzamelingen
+   * Mappen
+
+   U kunt meerdere elementen selecteren.
+
+   >[!IMPORTANT]
+   >
+   > U kunt alleen elementen verbinden die u in Experience Manager kunt bekijken.
+
+1. Klikken **Selecteren**.
+
+   Het volgende wordt toegevoegd:
+
+   * De geselecteerde elementen van de Experience Manager worden toegevoegd aan het gekoppelde recordveld.
+   * Er wordt een nieuw gekoppeld veld (of een opzoekveld) gemaakt voor elk gekoppeld veld dat u hebt geselecteerd bij het toevoegen van de velden aan de gekoppelde record.
+   * Een nieuw recordtype met de naam &quot;Experience Manager Assets&quot; wordt gemaakt in dezelfde werkruimte als de Maestro-record waaruit u een koppeling maakt.
+
+     Dit is een alleen-lezen recordtype en het geeft Experience Manager-objecten weer die zijn geselecteerd in het nieuwe gekoppelde objectveld dat u hebt gemaakt van de Maestro-record. De gekoppelde velden van het gekoppelde object worden ook weergegeven op de alleen-lezen gekoppelde Experience Manager-records.
+
+     >[!IMPORTANT]
+     >
+     > Het Experience Manager Assets-recordtype alleen-lezen wordt alleen gemaakt wanneer afzonderlijke elementen aan Maestro-records worden toegevoegd. Als u een verbinding maakt tussen een Maestro-recordtype en Experience Manager Assets, wordt het Experience Manager Assets-recordtype niet gemaakt.
+
+     Eventuele bestaande informatie uit de velden van de elementen van de Experience Manager wordt weergegeven in de gekoppelde of opzoekvelden.
+
+     >[!TIP]
+     >
+     >
+     >* Als u de instelling Meerdere records toestaan hebt ingeschakeld, worden de waarden van de meerdere objecten gescheiden door komma&#39;s weergegeven.
+     >
+     >* Er wordt geen gekoppeld recordveld naar de Maestro-gekoppelde records gemaakt voor de gekoppelde Experience Manager-elementen in de Experience Manager Assets-toepassing.
+
+
+1. (Optioneel) Sluit de pagina Type Maestro-record en ga naar de geselecteerde werkruimte.
+1. Klik op de kaart voor het Experience Manager Assets-recordtype. Het Experience Manager Assets-recordtype alleen-lezen moet worden geopend in de tabelweergave.
+
+   >[!NOTE]
+   >
+   >    * De records in de Experience Manager Assets-recordtypepagina zijn alleen-lezen elementen. De velden die zijn gekoppeld via het Experience Manager Assets-recordtype, worden ook weergegeven als alleen-lezen kolommen en worden automatisch gevuld wanneer ze in de Experience Manager worden ingevuld.
+   >    * U kunt de velden Experience Managers in Maestro niet handmatig bijwerken. De velden voor Experience Manager-elementen moeten in Experience Manager worden ingevuld en de veldwaarden worden automatisch weergegeven in de Experience Manager Assets-record in Maestro.
+   >
+
+1. (Optioneel) Ga naar het recordtype dat u vanuit Experience Manager Assets hebt gekoppeld en klik op de naam van een element in het gekoppelde recordveld. De details van de Experience Manager van de activa tonen in een pop-up venster. <!--update screen shot with hi-rez picture-->
+
+   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+
+   De volgende velden worden weergegeven voor een afbeeldingsbestand:
+
+   * Een miniatuur van de afbeelding
+   * De naam van het afbeeldingsbestand
+   * Dimensionen
+   * Grootte
+   * Beschrijving
+   * Het bestandspad in Experience Manager
+   * Het elementtype
+   * Gemaakt op
+   * Datum gewijzigd
+
+1. (Optioneel) Ga als volgt te werk om de pagina Experience Manager Assets-recordgegevens te openen in Maestro:
+
+   1. Ga naar de **Experience Manager Assets** Maestro-opnametype kaart in de werkruimte die u oorspronkelijk hebt geselecteerd en klik om de pagina met recordtypen te openen.
+De Experience Manager Assets Maestro-recordtype pagina is alleen-lezen.
+   1. Klik in de tabelweergave op de naam van een element
+
+      of
+
+      Houd de aanwijzer boven de naam van een element en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de elementnaam klikt u op **Weergave**.\
+      Hierdoor wordt de Maestro van het actief geopend **Details** pagina. Dit is een alleen-lezen pagina.
+1. (Optioneel) Voer een van de volgende handelingen uit om de pagina Details van de record voor Experience Manager-elementen te openen in de Experience Manager:
+
+   * Ga naar de pagina met het recordtype Maestro van de record waarvan u een koppeling maakt, klik op de naam van een element in het gekoppelde recordveld om het pop-upvenster te openen en klik vervolgens op de knop **Openen** pictogram ![](assets/open-asset-icon.png) om het element te openen.
+   * Ga naar de **Experience Manager Assets** Maestro-opnametype kaart in de werkruimte die u oorspronkelijk hebt geselecteerd en klik om de pagina met recordtypen te openen, klik op de naam van een element om het Maestro-bestand te openen **Details** pagina, en klik vervolgens op **Ga naar bron** rechtsboven in het scherm.
+
+     ![](assets/go-to-source-asset-maestro-details-page.png)
+   * Ga naar de **Experience Manager Assets** Maestro-opnametype kaart in de werkruimte die u oorspronkelijk hebt geselecteerd en klik op de kaart om de Experience Manager Assets-recordtypepagina te openen, houd de muisaanwijzer boven de naam van een element en klik op de knop **Meer** en klik vervolgens op **Ga naar bron**.
+
+     ![](assets/go-to-source-option-on-table-view.png)
+
+   Het element wordt geopend in Experience Manager Assets.
+
+1. (Optioneel) Klik op de knop **Velden toevoegen** pictogram ![](assets/add-fields-icon.png) in de rechterbovenhoek van de tabelweergave op de Experience Manager Assets-pagina met recordtypen om Experience Managers toe te voegen of te verwijderen.
+
+   >[!NOTE]
+   >
+   >  De velden die u toevoegt of verwijdert op de Experience Manager Assets-recordtypepagina, worden niet toegevoegd aan of verwijderd uit het Maestro-recordtype dat is gekoppeld aan het Experience Manager-element. De velden zijn alleen zichtbaar op de pagina met alleen-lezen Experience Manager Assets-recordtypen, zodat u ze in Maestro kunt bekijken.
+
+1. (Optioneel en voorwaardelijk) Als u ten minste twee datumvelden hebt toegevoegd aan het aan de Experience Manager gekoppelde element, klikt u op de knop **Weergave** vervolgkeuzemenu op de Experience Manager Assets-recordtypepagina en selecteer de **Tijdlijn** of **Weergave maken** om een tijdlijnweergave te maken.  Zie voor meer informatie [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+De aan Experience Manager Assets gekoppelde elementen worden weergegeven in de tijdlijnweergave.

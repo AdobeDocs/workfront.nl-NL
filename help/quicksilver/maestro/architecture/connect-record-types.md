@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>
    <p> Adobe</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Als u Maestro-recordtypen wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets nodig</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ Overweeg het volgende:
       * Bedrijven
       * Groepen
 
+   * Adobe Experience Manager Assets:
+
+      * Activa
+      * Mappen
+      * Verzamelingen
+
 * Nadat u een recordtype met een ander verslagtype of met een objecten type van een andere toepassing verbindt, bestaan de volgende scenario&#39;s:
 
    * Wanneer u twee recordtypen verbindt: Een Gekoppeld verslaggebied wordt gecreeerd op het verslagtype u van verbindt. Er wordt een vergelijkbaar veld voor gekoppelde records gemaakt op het recordtype waarmee u verbinding maakt.
@@ -230,12 +238,14 @@ Overweeg het volgende:
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave klikt u op de knop **Nieuwe verbinding** tab.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. In de **Recordtype** Selecteer een van de volgende opties in het veld: <!--is the field name spelled right? lowercase "t"?-->
 
-   * Een ander type operationeel record
-   * Een taxonomie
-   * Een Workfront Project, Portfolio, Programma, Bedrijf, of Groep.
+   * Een ander type bedrijfsrecord uit de geselecteerde werkruimte
+   * Een taxonomie in de geselecteerde werkruimte
+   * Een project, een Portfolio, een Programma, een Bedrijf, of een Groep van de sectie van de Types van Objecten van Workfront.
+   * Experience Manager Assets uit de sectie Toepassingen Adoben.
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ Overweeg het volgende:
    * **Meerdere records toestaan**: Selecteer deze optie om aan te geven dat gebruikers meerdere records mogen toevoegen wanneer het veld voor het gekoppelde recordtype wordt weergegeven op de oorspronkelijke records. Dit is standaard geselecteerd.
    * **Opzoekvelden selecteren**: Selecteer deze optie om velden van het geselecteerde recordtype toe te voegen. Dit is standaard geselecteerd.
 
+1. (Voorwaardelijk en optioneel) Als u een Workfront-object wilt verbinden, selecteert u een **Aangepast formulier** van de **Alleen projecten koppelen die aan deze criteria voldoen** sectie. <!--this needs to be updated for each object when they fix this UI.--> Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde Maestro-recordtype. U kunt meerdere formulieren selecteren.
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. (Voorwaardelijk) Als u verbinding wilt maken met Experience Manager Assets, selecteert u een opslagplaats in het menu **Experience Manager-opslagplaats** vervolgkeuzemenu in het dialoogvenster **Elementen koppelen van de volgende gegevensopslagruimte** sectie. Dit is een verplicht veld. Alleen repositories waartoe u toegang hebt in Experience Manager Assets-weergave in dit veld.
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. Klikken **Maken**.
 
-1. (Voorwaardelijk) Als u het Uitgezochte raadplegingsgebied dat in de vorige stap selecteerde, **Opzoekvelden toevoegen** wordt geopend.
+1. (Voorwaardelijk) Als u de optie **Opzoekveld selecteren** de instelling in de vorige stap **Opzoekvelden toevoegen** wordt geopend.
 
    Klik op de knop **+** pictogram om velden toe te voegen van de **Niet-geselecteerde velden** gebied.
 
@@ -274,6 +292,10 @@ Overweeg het volgende:
 1. (Optioneel en voorwaardelijk) Als u een getal, valuta, percentage of datumveld wilt koppelen, selecteert u ook een aggregatorwaarde. De waarden voor de gekoppelde velden worden gescheiden door komma&#39;s of als een geaggregeerde waarde weergegeven volgens de aggregator die u kiest, wanneer gebruikers meer dan één gekoppelde record selecteren in het veld voor gekoppelde records.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > Er zijn geen aggregators beschikbaar wanneer u recordtypen verbindt met Experience Manager Assets.
 
    Selecteer een van de volgende opties:
 

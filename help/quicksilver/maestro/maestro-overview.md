@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 0%
 
 ---
@@ -232,8 +232,12 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
    * Twee maestro-recordtypen
    * Een Maestro-recordtype en een Workfront-project-, programma-, portfolio-, bedrijf- of groepsobjecttype.
+   * Een Maestro-recordtype en een Adobe Experience Manager-middel, -map of -verzameling.
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     U moet een Adobe Experience Manager-licentie hebben om recordtypen te koppelen aan Experience Manager-objecten.
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   Nadat u een verbinding tussen de recordtypen tot stand hebt gebracht, kunt u afzonderlijke records van die typen met elkaar verbinden. De verbinding tussen de records wordt weergegeven als een gekoppeld recordveld.
 
@@ -273,15 +277,15 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 
 | Object Maestro | Limiet |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Aantal werkruimten voor één Workfront-instantie | 1,000 |
+| Aantal werkruimten voor één Workfront-instantie | 1.000 |
 | Aantal recordtypen voor één werkruimte | 1.000 (dit omvat taxonomieën voor de werkruimte, of voorwerpen die u van derdetoepassingen invoert) |
-| Aantal records voor één recordtype | 10,000 |
+| Aantal records voor één recordtype | 10.000 |
 | Aantal velden voor één recordtype of taxonomie | 500 |
 | Aantal tekens voor een tekstveld | 1.000 tekens |
-| Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1MB |
-| Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1.5MB |
+| Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1 MB |
+| Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
-| De grootte van CSV van het dossier van Excel u in een lijst kunt invoeren | 5MB |
+| De grootte van CSV van het dossier van Excel u in een lijst kunt invoeren | 5 MB |
 
 ## Maestro inschakelen voor gebruikers in uw Workfront-instantie
 
@@ -367,6 +371,7 @@ In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaa
 | Connect Maestro-records en -taxonomieën | ✓ |
 | Zoeken naar records in de tabelweergave | ✓ |   |
 | Connect Maestro-records naar Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven en -groepen | ✓ |                                 |                  |
+| Connect Maestro-records verbinden met Adobe Experience Manager-middelen, -mappen en -verzamelingen | ✓ |                                  |                 |
 | Detailpagina opnemen | ✓ |                                  |                  |
 | De lay-out van de pagina met recorddetails bijwerken |                               | ✓ |                  |
 | Werkruimtemachtigingen | | ✓ |  |
@@ -375,6 +380,8 @@ In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaa
 | De kleur en het pictogram van een record aanpassen | ✓ |                                  |                 |
 | Opmerkingen toevoegen aan records |                               | ✓ |                 |
 | RTF-opmaak voor alineasvelden | ✓ |                                  |                 |
+
+
 
 ## Maestro-releaseactiviteit
 
