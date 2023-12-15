@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '13810'
+source-wordcount: '13812'
 ht-degree: 0%
 
 ---
@@ -1634,7 +1634,7 @@ ht-degree: 0%
          * [Weergave: persoonlijke tijd van gebruiker uitgeschakeld](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
       * Bronnen voor tekstmodus {#text-mode}
-         * [Bronnen voor tekstmodus](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+         * [Tekstmodusbronnen: artikelindex](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [Overzicht van de tekstmodus](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
          * [Overzicht van syntaxis in tekstmodus](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)

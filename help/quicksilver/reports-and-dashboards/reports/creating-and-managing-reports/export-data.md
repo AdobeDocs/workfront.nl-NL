@@ -2,20 +2,32 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Gegevens exporteren
-description: Leer rapportgegevens exporteren
+description: U kunt Adobe Workfront-gegevens uit verschillende lijsten, rapporten, dashboards en zoekopdrachten exporteren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
+source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2206'
 ht-degree: 0%
 
 ---
 
 # Gegevens exporteren
 
+<!-- Audited: 12/2023 -->
+
 U kunt Adobe Workfront-gegevens uit verschillende lijsten, rapporten, dashboards en zoekopdrachten exporteren.
+
+Enkele redenen voor het exporteren van gegevens zijn:
+
+* U wilt een gedrukte kopie van uw gegevens aan iemand buiten Workfront verstrekken.
+* U wilt de resultaten van een rapport als gehechtheid naar een externe gebruiker verzenden.
+* U wilt een externe back-up van uw Workfront-gegevens maken.
+* Er geldt een limiet voor het weergeven van slechts 2.000 resultaten op één pagina in de Workfront-webtoepassing. Als uw rapport meer dan 2.000 produceert, kunt u het rapport naar om het even welke beschikbare formaten uitvoeren en alle resultaten in het rapport in één lijst bekijken.
+
+U kunt of een rapport manueel, van de interface van Workfront uitvoeren, of u kunt een levering voor een rapport plannen en dat rapport zal naar u op een recentere tijd worden verzonden. Voor meer informatie bij het plannen van geleverde rapporten, zie [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 De informatie in dit artikel is niet van toepassing op de volgende exporttransacties:
 
 * Gegevens uit grafiekrapporten exporteren.
@@ -29,15 +41,6 @@ De informatie in dit artikel is niet van toepassing op de volgende exporttransac
 * Informatie exporteren vanuit de bronnenplanner.
 
   Voor meer informatie over het uitvoeren van de informatie van de Planner van het Middel, zie &quot;Optie van de Uitvoer&quot;in [Overzicht van de navigatie in de bronnenplanner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-Enkele redenen voor het exporteren van gegevens zijn:
-
-* U wilt een gedrukte kopie van uw gegevens aan iemand buiten Workfront verstrekken.
-* U wilt de resultaten van een rapport als gehechtheid naar een externe gebruiker verzenden.
-* U wilt een externe back-up van uw Workfront-gegevens maken.
-* Er geldt een limiet voor het weergeven van slechts 2.000 resultaten op één pagina in de Workfront-webtoepassing. Als uw rapport meer dan 2.000 produceert, kunt u het rapport naar om het even welke hieronder-vermeld formaten uitvoeren en krijgen mening alle resultaten in het rapport in één lijst.
-
-U kunt of een rapport manueel, van de interface van Workfront uitvoeren, of u kunt een levering voor een rapport plannen en dat rapport zal naar u op een recentere tijd worden verzonden. Voor meer informatie bij het plannen van geleverde rapporten, zie [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Toegangsvereisten
 
@@ -55,29 +58,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td>
+    <p>Nieuw: Licht of hoger</p>
+    <p>of</p>
+    <p>Huidig: Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders voor exportrapporten weergeven of vergroten</p> <p>Toegang tot de objecten die u in een lijst weergeeft of vergroten om de lijst te exporteren</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Geef rapporten of meer toegang tot rapporten, dashboards en kalenders om rapporten te exporteren</p> <p>Toegang tot de objecten die u in een lijst weergeeft of vergroten om de lijst te exporteren</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De mening of hogere toestemmingen aan een rapport of een dashboard om het rapport of het dashboard uit te voeren</p> <p>Geef de objecten die u in een lijst weergeeft of hoger de machtigingen weer om de lijst te exporteren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De mening of hogere toestemmingen aan een rapport of een dashboard om het rapport of het dashboard uit te voeren</p> <p>Geef de objecten die u in een lijst weergeeft of hoger de machtigingen weer om de lijst te exporteren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
 ## Vereisten
 
 Het rapport moet worden gemaakt voordat u de gegevens kunt exporteren.
 
-Zie voor meer informatie over het maken van rapporten [Een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Zie voor meer informatie over het maken van rapporten [Een aangepast rapport maken](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) of [Een kopie van een rapport maken](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Exportindelingen en -beperkingen
-
-* [Exportindelingen](#export-formats)
-* [Exportlimieten](#export-limits)
 
 ### Exportindelingen {#export-formats}
 
@@ -105,7 +110,7 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
 
    * Voor Excel .xls- dossiers, is deze grens **65.000 rijen**.
    * Voor Excel .xlsx-bestanden is deze limiet **100.000 rijen**.
-   * Deze grenzen sluiten de kolomrubrieken, evenals rijen voor groepen in het rapport uit. Als een rapport bijvoorbeeld 6 groepen bevat en 50.000 rijen of gegevens, heeft het geëxporteerde bestand 50.000 rijen.
+   * Deze grenzen sluiten de kolomrubrieken, evenals rijen voor groepen in het rapport uit. Bijvoorbeeld, als u 6 groeperingen in een rapport hebt, en 50.000 rijen van gegevens, zal het uitgevoerde dossier 50.000 rijen hebben.
 
   >[!IMPORTANT]
   >
@@ -129,11 +134,11 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
    * Een export via een API-integratie.
    * Gegevens geëxporteerd via een trap-start.
 
-     Zie voor meer informatie over het exporteren van gegevens via het starten [Gegevens exporteren uit Adobe Workfront via Kick-start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+     Zie voor meer informatie over het exporteren van gegevens via het starten [Gegevens exporteren uit Adobe Workfront via Kick-start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >U kunt 50.000 rijen exporteren in een startbestand, hoewel u de gegevens alleen kunt exporteren naar een Excel-bestand. 
+     >U kunt 50.000 rijen exporteren in een startbestand, hoewel u de gegevens alleen kunt exporteren naar een Excel-bestand.
 
    * Gebruiksinformatie voor een project exporteren.
 
@@ -151,9 +156,6 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 
 ## Gegevens exporteren
 
-* [Gegevens exporteren uit een rapport of lijst](#export-data-from-a-report-or-list)
-* [Gegevens exporteren uit een dashboard](#export-data-from-a-dashboard)
-
 ### Gegevens exporteren uit een rapport of lijst {#export-data-from-a-report-or-list}
 
 1. Ga naar het rapport of de lijst die u wilt exporteren.
@@ -167,14 +169,17 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 
 1. Klikken **Exporteren** Selecteer vervolgens een indeling.
 
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
-   Als u een dashboardrapport wilt exporteren, hebt u een licentie voor het abonnement nodig.\
-   ![](assets/nwe-dashboard-export-note-350x271.png)
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)
+   -->
 
    of
 
-   Klik op de knop **Exporteren** pictogram ![](assets/export-icon-nwe.png)Selecteer vervolgens een indeling.
+   Klik op de knop **Exporteren** pictogram ![Exportpictogram](assets/export-icon-nwe.png)Selecteer vervolgens een indeling.
 
    Welke PDF-exportopties beschikbaar zijn, is afhankelijk van de landinstellingen in de Workfront-gebruikersinstellingen:
 
@@ -212,21 +217,18 @@ Ga voor meer informatie over het exporteren van gegevens van een dashboard naar 
 
 Of u nu een lijst met objecten of een rapport exporteert, het geëxporteerde bestand heeft een bestandsnaam en een titel. U kunt het geëxporteerde bestand op uw computer vinden door naar de bestandsnaam te verwijzen. De titel van het rapport geeft gebruikers een indicatie van wat het geëxporteerde bestand vertegenwoordigt wanneer u het met hen deelt.
 
-* [Bestandsnamen voor geëxporteerde lijsten](#file-names-for-exported-lists)
-* [Bestandsnamen voor geëxporteerde rapporten](#file-names-for-exported-reports)
-
 #### Bestandsnamen voor geëxporteerde lijsten {#file-names-for-exported-lists}
 
 Wanneer u een lijst met objecten exporteert, wordt het objecttype in het geëxporteerde bestand weergegeven in de bestandsnaam en in de titel van de lijst.
 
 Wanneer u een lijst met taken of problemen exporteert, worden de **Bestandsnaam** kan een van de volgende zijn:
 
-* Wanneer u de Lijsten van de Taak en van de Uitgave in een Project uitvoert:
+* Wanneer u taak en uitgiftenlijsten in een project uitvoert:
 
    * *The_project_name_Exported_Tasks*(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
    * *The_project_name_Exported_Issues*(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
 
-* Wanneer u de Lijsten van de Taak en van de Uitgave in een Taak (subtaken) uitvoert:
+* Wanneer u taak en uitgiftenlijsten in een taak (subtaken) uitvoert:
 
    * **The_project_name_the_task_name_Exported_Tasks**(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
    * **The_project_name_the_task_name_Exported_Issues**(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
@@ -245,19 +247,16 @@ Wanneer u een rapport exporteert, krijgt het geëxporteerde rapport de volgende 
 
 ### Titels {#titles}
 
-Wanneer u een lijst met objecten exporteert, heeft alleen het bestand in de indeling PDF een titel. Als u een lijst of een rapport naar Excel, Excel (.xlsx), of Door tabs afgebakende formaten uitvoert, heeft het dossier geen titel.
-
-* [Titels voor geëxporteerde lijsten](#titles-for-exported-lists)
-* [Titels voor geëxporteerde rapporten](#titles-for-exported-reports)
+Wanneer u een lijst met objecten exporteert, heeft alleen het bestand in de indeling PDF een titel. Als u een lijst of een rapport naar Excel, Excel (.xlsx), of Door tabs gescheiden formaten uitvoert, heeft het dossier geen titel.
 
 #### Titels voor geëxporteerde lijsten {#titles-for-exported-lists}
 
-Wanneer u de Lijsten van de Taak en van de Uitgave in een Project naar een dossier van de PDF uitvoert, is de titel van het uitgevoerde document één van het volgende:
+Wanneer u taak en uitgeeft lijsten in een project naar een dossier van PDF uitvoert, is de titel van het uitgevoerde document één van het volgende:
 
 * *Projectnaam - Geëxporteerde taken*
 * *Projectnaam - Geëxporteerde problemen*
 
-Wanneer u taak en uitgeeft lijsten in een Taak naar een dossier van PDF uitvoert, is de tegel van het uitgevoerde document één van het volgende:
+Wanneer u taak- en uitgavelijsten in een taak exporteert naar een PDF-bestand, is de tegel van het geëxporteerde document een van de volgende:
 
 * *Projectnaam - Taaknaam - Geëxporteerde taken*
 * *Projectnaam - Taaknaam - Geëxporteerde problemen*
@@ -272,7 +271,7 @@ De titel kan bijvoorbeeld als volgt zijn:
 
 Een rapport dat naar een PDF-bestand wordt geëxporteerd, heeft een titel.
 
-Als het rapport wordt uitgevoerd naar Excel, Excel (.xlsx) of het lusje afgebakende formaten, zal het uitgevoerde rapport geen titel hebben. De titel van het geëxporteerde bestand is de naam van het rapport zoals deze wordt weergegeven in de Workfront-webtoepassing.
+Als het rapport wordt uitgevoerd naar Excel, Excel (.xlsx) of Door tabs gescheiden formaten, zal het uitgevoerde rapport geen titel hebben. De titel van het geëxporteerde bestand is de naam van het rapport zoals deze wordt weergegeven in de Workfront-webtoepassing.
 
 Als het rapport een beschrijving heeft, wordt het opgenomen in het geëxporteerde bestand.
 
@@ -297,11 +296,11 @@ Wanneer u een project naar .pdf uitvoert, worden om het even welke subtaken geto
 
 U ontvangt altijd het standaardlusje van een rapport wanneer een rapport voor een levering wordt verzonden of gepland, tenzij het rapport een speciale mening heeft.
 
-Als uw rapport een speciale opmaak heeft in de webtoepassing, moet het rapport worden geleverd met de speciale opmaak wanneer de tabbladen Details en Matrix alleen worden geleverd voor .pdf- en Excel-bestanden.
+Als uw rapport speciale opmaak heeft in de webtoepassing, moet het rapport worden geleverd met de speciale opmaak wanneer de tabbladen Details en Matrix worden geleverd, alleen voor .pdf- en Excel-bestanden.
 
 >[!NOTE]
 >
-Als de gegevens die u exporteert gedeelde kolommen bevatten en u exporteert naar een indeling die is gescheiden door Excel of Tab, worden deze kolommen gescheiden in het geëxporteerde bestand.
+>Als de gegevens die u exporteert gedeelde kolommen bevatten en u exporteert naar een indeling die is gescheiden door Excel of Tab, worden deze kolommen gescheiden in het geëxporteerde bestand.
 
 Voor meer informatie over hoe te om het formatteren in een rapport aan te passen, zie [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -311,18 +310,22 @@ Koppelingen kunnen verwijzen naar elk object in Workfront dat koppelingen onders
 
 >[!TIP]
 >
-Indien de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden worden niet weergegeven in een geëxporteerd .pdf-bestand. U moet dan aanvullende coderegels invoeren in de tekstmodus.
+>Indien de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden worden niet weergegeven in een geëxporteerd .pdf-bestand. U moet dan aanvullende coderegels invoeren in de tekstmodus.
 >
-Bijvoorbeeld, als u een douanegebied genoemd Open Q1 Projecten hebt die verbindingen bevatten, zou u de volgende code toevoegen:
+>Bijvoorbeeld, als u een douanegebied genoemd Open Q1 Projecten hebt die verbindingen bevatten, zou u de volgende code toevoegen:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 Wanneer u naar een Excel-indeling exporteert, worden alleen koppelingen naar objecten in Workfront in het geëxporteerde bestand opgenomen. Deze koppelingen worden alleen ondersteund op plaatsen waar u koppelingen in geëxporteerde Excel-documenten kunt toestaan, zoals rapportleveringen.
 
 ## Branding {#branding}
+
+>[!IMPORTANT]
+>
+>Branding is alleen van toepassing op organisaties die nog niet aan boord zijn van Adobe Experience Cloud.
+>
+>Als uw organisatie is aangemeld bij Adobe Experience Cloud, is branding niet beschikbaar.
 
 Als uw Workfront-beheerder aangepaste branding heeft toegevoegd aan uw Workfront-instantie voor de algemene navigatiebalk, bevatten de geëxporteerde .pdf-bestanden ook uw persoonlijke logo.
 

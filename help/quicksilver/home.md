@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] documentatie'
 description: Documentatie voor [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Zie [Rapporten en dashboards](/help/quicksilver/reports-and-dashboards/reports-a
 
 Als u niet kunt bepalen hoe te om het rapport tot stand te brengen u in Workfront wenst, zou de oplossing u zoekt kunnen worden gevonden gebruikend de Wijze van de Tekst.
 
-Zie [Bronnen voor tekstmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+Zie [Tekstmodusbronnen: artikelindex](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
 ### De werklastbalans
 

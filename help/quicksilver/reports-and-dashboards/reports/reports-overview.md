@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 3%
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Deze sectie bevat de volgende subsecties:
 * [Rapporten maken en beheren](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [Berekende aangepaste gegevens in rapporten](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 * [Voorbeelden van aangepaste weergaven, filters en groeperingen](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [Bronnen voor tekstmodus](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+* [Tekstmodusbronnen: artikelindex](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [Overzicht van rapportgebruik](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Kalenders](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Tips, trucs en probleemoplossing voor rapporten](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
