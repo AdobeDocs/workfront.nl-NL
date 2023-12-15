@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Daarnaast kunt u de Gantt-grafiek gebruiken om een tijdlijn van uw werk te defin
 
 Deze sectie bevat de volgende subsecties:
 
-* [Projecten](../manage-work/projects/projects-overview.md)
+* [Projecten: artikelindex](../manage-work/projects/projects-overview.md)
 * [Taken](../manage-work/tasks/tasks-overview.md)
 * [Problemen](../manage-work/issues/issues-overview.md)
 * [De Gantt-grafiek](../manage-work/gantt-chart/the-gantt-chart.md)

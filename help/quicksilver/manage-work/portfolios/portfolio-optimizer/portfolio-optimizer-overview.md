@@ -7,9 +7,9 @@ description: De [!UICONTROL Portfolio Optimizer] is het instrument dat wordt geb
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Het doel van de [!UICONTROL portfolio optimizer] moet een interface bieden waarm
 
 De [!UICONTROL Portfolio Optimizer] U kunt u alleen helpen als u aan de volgende voorwaarden hebt voldaan:
 
-
-* De [!UICONTROL Business Cases] voor de projecten zijn voltooid. Zie de artikelen in de sectie voor meer informatie [Een bedrijfscase definiëren](../../projects/define-a-business-case/define-business-case.md).
-* Een portefeuille wordt bepaald in het gebied van het Overzicht van het Project van de sectie van de Details van het Project voor de projecten u wilt herzien
+* De [!UICONTROL Business Cases] voor de projecten zijn voltooid. Zie de artikelen in [Een bedrijfscase definiëren: artikelindex](../../projects/define-a-business-case/define-business-case.md).
+* Een portefeuille wordt bepaald in het gebied van het Overzicht van het Project van de sectie van de Details van het Project voor de projecten u wilt herzien.
 * U hebt de projectbegroting en het geplande voordeel voor de projecten aangegeven u wilt herzien. Vaste kosten en Vaste inkomsten zijn optioneel, maar geven een extra waarde. Zie voor meer informatie [De gebieden van de Projectfinanciën](../../projects/project-finances/project-finances-overview-1.md).
-
 
 Voor informatie over de locatie van de [!UICONTROL Portfolio Optimizer], zie [Zoek de [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
@@ -166,7 +164,7 @@ De volgende pictogrammen en opties zijn beschikbaar voor de [!UICONTROL Portfoli
   <tr> 
    <td>Pictogram in Portfolio optimaliseren</td> 
    <td>Naam</td> 
-   <td>-functie</td> 
+   <td>Functie</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 

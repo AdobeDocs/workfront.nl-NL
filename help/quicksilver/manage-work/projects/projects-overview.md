@@ -2,28 +2,30 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Projecten
+title: "Projecten: artikelindex"
 description: Meer informatie over projecten vindt u in de volgende secties.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 17ece62a-971d-4dc7-b9e3-ed79a3a4a157
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# Projecten
+# Projecten: artikelindex
 
-Deze sectie bevat de volgende subsecties:
+<!-- Audited: 12/2023 -->
 
-* [Een project plannen](../../manage-work/projects/planning-a-project/plan-project-overview.md)
-* [Projecten maken](../../manage-work/projects/create-projects/create-projects-overview.md)
-* [Werk aan een project bijwerken](../../manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
-* [Projecten beheren](../../manage-work/projects/manage-projects/manage-projects-overview.md)
-* [Projectsjablonen maken en beheren](../../manage-work/projects/create-and-manage-templates/create-manage-templates.md)
-* [Een bedrijfscase definiëren](../../manage-work/projects/define-a-business-case/define-business-case.md)
-* [Projectfinanciën](../../manage-work/projects/project-finances/project-finances-overview.md)
-* [Tips, trucs en probleemoplossing voor projecten](../../manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+Deze sectie bevat de artikelen in de volgende subsecties:
+
+* [Een project plannen: artikelindex](../../manage-work/projects/planning-a-project/plan-project-overview.md)
+* [Projecten maken: artikelindex](../../manage-work/projects/create-projects/create-projects-overview.md)
+* [Werk aan een project bij: artikelindex](../../manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+* [Projecten beheren: artikelindex](../../manage-work/projects/manage-projects/manage-projects-overview.md)
+* [Projectsjablonen maken en beheren: artikelindex](../../manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+* [Een bedrijfscase definiëren: artikelindex](../../manage-work/projects/define-a-business-case/define-business-case.md)
+* [Projectfinanciën: artikelindex](../../manage-work/projects/project-finances/project-finances-overview.md)
+* [Tips, trucs en problemen oplossen: artikelindex](../../manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)

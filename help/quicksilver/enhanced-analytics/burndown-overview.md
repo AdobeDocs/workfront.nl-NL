@@ -7,7 +7,7 @@ description: De burndown visualisatie toont de onderbreking van een specifiek pr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Bekijk de Burndown-visualisatie in de uitgebreide analyse
+
+<!-- Audited: 12/2023 -->
 
 De burndown visualisatie toont de onderbreking van een specifiek project in tijd en helpt u het verband tussen projectvoorwaarde, snelheid, en het blijven uren-of dagen begrijpen.
 

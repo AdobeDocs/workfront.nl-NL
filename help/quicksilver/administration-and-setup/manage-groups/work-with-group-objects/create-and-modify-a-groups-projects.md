@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Werken met een project</p> </td> 
-      <td> <p>Selecteer het project en bewerk vervolgens de werkbalkknoppen <img src="assets/edit-icon.png">, delen <img src="assets/share-icon.png">, of verwijder deze <img src="assets/delete.png">.</p> <p>Zie voor meer informatie over deze activiteiten <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Projecten beheren</a>.</p> </td> 
+      <td> <p>Selecteer het project en bewerk vervolgens de werkbalkknoppen <img src="assets/edit-icon.png">, delen <img src="assets/share-icon.png">, of verwijder deze <img src="assets/delete.png">.</p> <p>Zie voor meer informatie over deze activiteiten <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Projecten beheren: artikelindex</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Een nieuw project voor de groep maken</p> </td> 

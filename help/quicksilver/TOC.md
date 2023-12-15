@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '13796'
+source-wordcount: '13812'
 ht-degree: 0%
 
 ---
@@ -1132,9 +1132,9 @@ ht-degree: 0%
 * Werk beheren {#manage-work}
    * [Werk beheren](manage-work/manage-work.md)
    * Projecten {#projects}
-      * [Projecten](manage-work/projects/projects-overview.md)
+      * [Projecten: artikelindex](manage-work/projects/projects-overview.md)
       * Een project plannen {#plan-a-project}
-         * [Een project plannen](manage-work/projects/planning-a-project/plan-project-overview.md)
+         * [Een project plannen: artikelindex](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [Een projectoverzicht plannen](manage-work/projects/planning-a-project/plan-project.md)
          * [Structuur van werkverdeling in een project bepalen](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
          * [Overzicht van het projectteam](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1155,14 +1155,14 @@ ht-degree: 0%
          * [Overzicht van voortgang van project](manage-work/projects/planning-a-project/project-progress-status.md)
          * [Overzicht van de geplande begindatum van het project](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * Projecten maken {#create-projects}
-         * [Projecten maken](manage-work/projects/create-projects/create-projects-overview.md)
+         * [Projecten maken: artikelindex](manage-work/projects/create-projects/create-projects-overview.md)
          * [Een project maken](manage-work/projects/create-projects/create-project.md)
          * [Een project aanvragen](manage-work/projects/create-projects/request-project.md)
          * [Een project maken met een sjabloon](manage-work/projects/create-projects/create-project-from-template.md)
          * [Een project importeren uit Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Projectbasislijnen maken](manage-work/projects/create-projects/create-baselines.md)
       * Werk aan een project bijwerken {#update-work-on-a-project}
-         * [Werk aan een project bijwerken](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+         * [Werk aan een project bij: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Statussen toepassen op werk dat aan een groep is gekoppeld](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [Taakstatus bijwerken](manage-work/projects/updating-work-in-a-project/update-task-status.md)
          * [Uitgiftestatus bijwerken](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1173,7 +1173,7 @@ ht-degree: 0%
          * [Voorwaarde voor bijwerken voor taken en problemen](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [Voorwaarde voor bijwerken voor een project](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
       * Projecten beheren {#manage-projects}
-         * [Projecten beheren](manage-work/projects/manage-projects/manage-projects-overview.md)
+         * [Projecten beheren: artikelindex](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [Projecten bewerken](manage-work/projects/manage-projects/edit-projects.md)
          * [Een project kopiëren](manage-work/projects/manage-projects/copy-project.md)
          * [Een project opslaan als een sjabloon](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1195,7 +1195,7 @@ ht-degree: 0%
          * [Overzicht van projectmetriek](manage-work/projects/manage-projects/project-metrics.md)
          * [Overzicht van projectlimieten](manage-work/projects/manage-projects/project-maximums.md)
       * Projectsjablonen maken en beheren {#create-and-manage-project-templates}
-         * [Projectsjablonen maken en beheren](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+         * [Projectsjablonen maken en beheren: artikelindex](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Overzicht van de projectsjabloon](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [Een projectsjabloon maken](manage-work/projects/create-and-manage-templates/create-template.md)
          * [Projectsjablonen maken op basis van voorbeelden](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1212,7 +1212,7 @@ ht-degree: 0%
          * [Overzicht van start- en voltooiingsdagen in een sjabloon](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Overzicht van het koppelen van een sjabloon aan een project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Een bedrijfscase definiëren {#define-business-case}
-         * [Een bedrijfscase definiëren](manage-work/projects/define-a-business-case/define-business-case.md)
+         * [Een bedrijfscase definiëren: artikelindex](manage-work/projects/define-a-business-case/define-business-case.md)
          * [Overzicht van de gebieden van de bedrijfscase](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Een bedrijfscase maken voor een project](manage-work/projects/define-a-business-case/create-business-case.md)
          * [Een bedrijfscase goedkeuren](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1226,7 +1226,7 @@ ht-degree: 0%
          * [Risico&#39;s maken en bewerken voor projecten](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [De bedrijfscase van een project exporteren](manage-work/projects/define-a-business-case/export-business-case.md)
       * Projectfinanciën {#project-finances}
-         * [Projectfinanciën](manage-work/projects/project-finances/project-finances-overview.md)
+         * [Projectfinanciën: artikelindex](manage-work/projects/project-finances/project-finances-overview.md)
          * [De gebieden van de Projectfinanciën](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [Projectfinanciën opnieuw berekenen](manage-work/projects/project-finances/recalculate-project-finances.md)
          * [Projectfinanciën die in de basislijnen van projecten zijn opgenomen](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1255,7 +1255,7 @@ ht-degree: 0%
          * [Begrijpte arbeidskosten en begrotingsuren voor projecten begrijpen](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [Geplande loonkosten berekenen](manage-work/projects/project-finances/planned-labor-cost.md)
       * Tips, trucs en probleemoplossing voor projecten {#tips-tricks-troubleshooting-for-projects}
-         * [Tips, trucs en probleemoplossing voor projecten](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+         * [Tips, trucs en problemen oplossen: artikelindex](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [Veelgestelde vragen over projecten](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [De projectstatus verandert niet van Voltooid in Huidige](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [Voorbeeld van berekening - EAC berekenen als een roll-up van taken](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)

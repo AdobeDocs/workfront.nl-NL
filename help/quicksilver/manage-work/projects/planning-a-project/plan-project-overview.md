@@ -2,19 +2,19 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Een project plannen
+title: "Een project plannen: artikelindex"
 description: De volgende artikelen bevatten informatie over projecten, het Team van het Project, en hoe te om een project te plannen.
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# Een project plannen
+# Een project plannen: artikelindex
 
 Voor informatie over projectinformatie, ziet het Team van het Project, en hoe te om een project te plannen, de volgende artikelen:
 

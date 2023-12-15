@@ -6,9 +6,9 @@ description: Het bepalen van een Structuur van de Onderverdeling van het Werk (W
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Raadpleeg de artikelen in het dialoogvenster [De werklastbalans: artikelindex](.
 
 Workfront zal de geplande kosten voor elke taak en de totale kosten voor een project berekenen. De geplande kosten voor een taak omvatten alle uitgaven van de taak plus de kosten van de werknemer of de rol die aan de taak wordt toegewezen. Uurtarieven voor de taak, de rol, en de werknemer worden toegewezen tijdens taak, rol, en gebruikersverwezenlijking.
 
-Zie de sectie over de financiering van projecten voor meer informatie [Projectfinanciën](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Zie de sectie over de financiering van projecten voor meer informatie [Projectfinanciën: artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Goedkeuringspunten voor het project bepalen
 

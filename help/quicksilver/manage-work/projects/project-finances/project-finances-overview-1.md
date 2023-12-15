@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: Projectfinancieringvelden
+title: De gebieden van de Projectfinanciën
 description: Het bijhouden van de projectfinanciën is essentieel voor het beheer van uw projecten.
 author: Alina
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
 
-# Projectfinancieringvelden
+# De gebieden van de Projectfinanciën
 
 Het bijhouden van de projectfinanciën is essentieel voor het beheer van uw projecten.
 
@@ -25,7 +25,7 @@ U kunt uw financiën bijhouden op een aantal gebieden die begroting, kosten en i
 Zie ook de volgende artikelen voor meer informatie:
 
 * [Woordenlijst met Adobe Workfront-terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [Projectfinanciën](../../../manage-work/projects/project-finances/project-finances-overview.md)
+* [Projectfinanciën: artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md)
 * [Informatie beheren in het gebied Projectfinanciering](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 * [Taakfinanciën beheren in de sectie Taakdetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
@@ -60,21 +60,21 @@ In de volgende tabel worden enkele financiën weergegeven die u kunt bijhouden i
   </tr> 
   <tr> 
    <td> Kosten</td> 
-   <td>Voor informatie over trackingkosten raadpleegt u <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>.</td> 
+   <td>Zie voor informatie over trackingkosten <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Trackkosten</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
    <td>Begroting</td> 
-   <td> <p>Voor informatie over het in de begroting opnemen van een project, zie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Informatie beheren in het gebied Projectfinanciering</a>.</p> <p>Voor informatie over het in de begroting opnemen van middelen voor een project, zie <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Begrotingsmiddelen in het bedrijfscase</a>.</p> </td> 
+   <td> <p>Zie voor meer informatie over het budgetteren van een project <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Informatie beheren in het gebied Projectfinanciering</a>.</p> <p>Voor informatie over het in de begroting opnemen van middelen voor een project, zie <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Begrotingsmiddelen in het bedrijfscase</a>.</p> </td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Factureringsgegevens</td> 
-   <td>Voor informatie over het maken van factureringsrecords raadpleegt u <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Factureringsrecords maken</a>.</td> 
+   <td>Zie voor informatie over het maken van factureringsrecords <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Factureringsrecords maken</a>.</td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
@@ -123,14 +123,14 @@ In de volgende tabel worden enkele financiën weergegeven die u kunt bijhouden i
   </tr> 
   <tr> 
    <td>Raming bij voltooiing (EAC)</td> 
-   <td> Voor informatie over het berekenen van EAC raadpleegt u <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Schatting berekenen bij voltooiing (EAC)</a>. </td> 
+   <td> Zie voor informatie over het berekenen van EAC <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Schatting berekenen bij voltooiing (EAC)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Prestatie-index (SPI) plannen</td> 
-   <td>Voor informatie over het berekenen van SPI raadpleegt u <a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Prestatie-index (SPI) voor planning berekenen </a>.</td> 
+   <td>Voor informatie over het berekenen van de SPI raadpleegt u <a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Prestatie-index (SPI) voor planning berekenen </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -144,7 +144,7 @@ In de volgende tabel worden enkele financiën weergegeven die u kunt bijhouden i
   </tr> 
   <tr> 
    <td>Prestatie-index (CSI) voor kostenplanning</td> 
-   <td>Voor informatie over het berekenen van CSI raadpleegt u <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Kostenprestatie-index (CPI) berekenen</a>.</td> 
+   <td>Zie voor informatie over het berekenen van CSI <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Kostenprestatie-index (CPI) berekenen</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

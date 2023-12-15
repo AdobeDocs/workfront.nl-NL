@@ -7,9 +7,9 @@ description: Het hoofdmenu verandert met het toegangsniveau u door uw bent toege
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ De volgende gebieden worden opgenomen in de standaardlayout van een [!UICONTROL 
 
 * **[!UICONTROL Home]**: Taken en uitgaven die aan u zijn toegewezen, worden hier weergegeven. Dit is de standaardbestemmingspagina voor een Worker, echter, verschijnt het niet in [!UICONTROL Main Menu] tenzij een Workfront-beheerder deze in de lay-outsjabloon toevoegt.  Zie voor meer informatie [Aan de slag met [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Projects]**: Projecten die met u worden gedeeld, worden hier weergegeven. Zie voor meer informatie [Projecten](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Projects]**: Projecten die met u worden gedeeld, worden hier weergegeven. Zie voor meer informatie [Projecten: artikelindex](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL Reports]**: Rapporten die met u worden gedeeld, worden hier weergegeven. Zie voor meer informatie [Rapporten](../../../reports-and-dashboards/reports/reports-overview.md).
 

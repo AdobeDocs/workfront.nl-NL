@@ -1,23 +1,23 @@
 ---
-title: Overzicht van Portfolio-beheer
+title: Overzicht van het beheer van Portfolio's
 product-area: portfolios
 navigation-topic: portfolios-overview
-description: Portfolio of het Beheer van de Portfolio van het Project (PPM) is het proces om een lijst van projecten voorrang te geven en te beheren om specifieke bedrijfsdoelstellingen te bereiken. Een portefeuille is een inzameling van projecten met gemeenschappelijke bedrijfsdoelstellingen.
+description: Het beheer van Portfolio of het Portfolio van het Project (PPM) is het proces van het prioriteren en het beheren van een lijst van projecten om specifieke bedrijfsdoelstellingen te bereiken. Een portefeuille is een inzameling van projecten met gemeenschappelijke bedrijfsdoelstellingen.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
-# Overzicht van Portfolio-beheer
+# Overzicht van het beheer van Portfolio&#39;s
 
 ## Overzicht van Project Portfolio Management (PPM)
 
-Portfolio of het Beheer van de Portfolio van het Project (PPM) is het proces om een lijst van projecten voorrang te geven en te beheren om specifieke bedrijfsdoelstellingen te bereiken. Aldus, is een portefeuille een inzameling van projecten met gemeenschappelijke bedrijfsdoelstellingen. Het resultaat van een effectieve PPM-methodologie stelt uitvoerende organen in staat om:
+Het beheer van Portfolio of het Portfolio van het Project (PPM) is het proces van het prioriteren en het beheren van een lijst van projecten om specifieke bedrijfsdoelstellingen te bereiken. Aldus, is een portefeuille een inzameling van projecten met gemeenschappelijke bedrijfsdoelstellingen. Het resultaat van een effectieve PPM-methodologie stelt uitvoerende organen in staat om:
 
 * Alle projecten in een portfolio identificeren.
 * Begrijp het effect van elk project op middelen, kosten, en opbrengst.
@@ -34,7 +34,7 @@ Meestal gebruiken PPM-artsen de volgende stappen om PPM uit te voeren:
 
 ## Overzicht van de [!DNL Adobe Workfront] PPM-proces
 
-U kunt aan uw projecten voorrang geven en ervoor zorgen dat zij met uw bedrijfsdoelstellingen en vereisten gebruikend de hulpmiddelen van het Beheer van de Portfolio in worden gericht [!DNL Workfront].
+U kunt aan uw projecten voorrang geven en ervoor zorgen dat zij met uw bedrijfsdoelstellingen en vereisten gebruikend de hulpmiddelen van het Beheer van het Portfolio in worden gericht [!DNL Workfront].
 
 In het volgende diagram wordt het overzicht op hoog niveau van het PPM-proces in [!DNL Workfront]:
 
@@ -49,35 +49,35 @@ In het volgende diagram wordt het overzicht op hoog niveau van het PPM-proces in
 
 ### Projectaanvraag {#project-request}
 
-Het Beheer van de Portfolio van het project begint met een projectverzoek. In deze fase stelt een eigenaar van een project een projectverzoek in en legt het ter beoordeling voor aan een uitvoerend comité of de manager van de Portfolio. Dit is wanneer zij het BedrijfsGeval van het project voltooien en dan het ter goedkeuring voorleggen.
+Het Beheer van het Portfolio van het project begint met een projectverzoek. In deze fase creëert een projecteigenaar een projectverzoek en legt hij dit ter beoordeling voor aan een uitvoerend comité of de beheerder van de Portfolio. Dit is wanneer zij het BedrijfsGeval van het project voltooien en dan het ter goedkeuring voorleggen.
 
 Voor meer informatie over het creëren van een bedrijfsgeval en een projectverzoek, zie [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Projectbeoordeling {#project-review}
 
-Nadat u het projectverzoek indient, herziet de Manager van de Portfolio of een uitvoerend team het, en besluit of om hen goed te keuren. Als zij worden goedgekeurd, zullen zij voor een Portfolio van het bedrijfProject worden geselecteerd.
+Nadat u het projectverzoek indient, herziet de Manager van het Portfolio of een uitvoerend team het, en besluit of om hen goed te keuren. Als zij worden goedgekeurd, zullen zij voor een Portfolio van het Project van het bedrijf worden geselecteerd.
 
-Zie voor meer informatie over portfolio&#39;s [Overzicht van Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Voor meer informatie over het goedkeuren van een Bedrijfs Geval, zie [Een bedrijfscase goedkeuren](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Zie voor meer informatie over portfolio&#39;s [Overzicht van Portfolio&#39;s in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Voor meer informatie over het goedkeuren van een Bedrijfs Geval, zie [Een bedrijfscase goedkeuren](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Portfolio optimaliseren {#portfolio-optimization}
 
-Na het toevoegen van alle projecten aan de portefeuille, optimaliseert de Manager van de Portfolio en rangschikt hen volgens hun waarde, groepering, en voordeel aan de organisatie.
+Na het toevoegen van alle projecten aan de portefeuille, optimaliseert de Manager van het Portfolio en rangschikt hen volgens hun waarde, groepering, en voordeel aan de organisatie.
 
-Zie voor meer informatie over het optimaliseren van portfolio&#39;s [Projecten optimaliseren in Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+Zie voor meer informatie over het optimaliseren van portfolio&#39;s [Projecten optimaliseren in Portfolio optimaliseren](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ### Bronplanning {#resource-planning}
 
 Samen met het optimaliseren van de prestaties van de portefeuille en het prioriteren van het project, zorgt de Manager van het Middel ervoor dat de juiste middelen aan de projecten worden toegewezen. Zij beoordelen de beschikbaarheid en allocatie van de middelen met behulp van de hulpmiddelen voor hulpbronnenbeheer die beschikbaar zijn in [!DNL Workfront].
 
-Afhankelijk van de beschikbaarheid van de middelen, zou de Manager van Portfolio de projecten kunnen moeten opnieuw voorrang geven.
+Afhankelijk van de beschikbaarheid van de middelen, zou de Manager van het Portfolio aan de projecten kunnen moeten opnieuw voorrang geven.
 
 Voor meer informatie over het Beheer van het Middel, zie [Bronnen beheren](../../../resource-mgmt/manage-resources.md) sectie.
 
 ### Uitvoering van project {#project-execution}
 
-Na het ontvangen van de projectgoedkeuring van de Manager van Portfolio en de bevestiging van de middelen van de Manager van het Middel, als Eigenaar van het Project, kunt u het project in het statuut van plaatsen [!UICONTROL Current] en uw gebruikers kunnen het werk beginnen om het project te voltooien. Het wordt aanbevolen in deze fase een basislijn van het project vast te leggen, zodat er een referentiepunt voor het project in de oorspronkelijke staat aanwezig is.
+Na het ontvangen van de projectgoedkeuring van de Manager van het Portfolio en de bevestiging van de middelen van de Manager van het Middel, als Eigenaar van het Project, kunt u het project in het statuut van plaatsen [!UICONTROL Current] en uw gebruikers kunnen het werk beginnen om het project te voltooien. Aanbevolen wordt in deze fase een basislijn van het project vast te leggen, zodat er een referentiepunt voor het project in de oorspronkelijke staat aanwezig is.
 
-Voor meer informatie over het beheren van projecten in [!DNL Workfront], zie [Projecten beheren](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Voor meer informatie over het beheren van projecten in [!DNL Workfront], zie [Projecten beheren: artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 Voor meer informatie over het creëren van basislijnen op projecten, zie [Projectbasislijnen maken](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Projectpost {#project-postmortem}

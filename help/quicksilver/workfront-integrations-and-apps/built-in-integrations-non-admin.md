@@ -7,7 +7,7 @@ description: U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze int
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van ingebouwde Adobe Workfront-integratie
+
+<!-- Audited: 12/2023 -->
 
 U kunt [!DNL Adobe Workfront] met toepassingen van derden en andere [!DNL Adobe] producten. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve werknemer bent in de marketingindustrie, kunt u de opdracht [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] toepassingen om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
 
