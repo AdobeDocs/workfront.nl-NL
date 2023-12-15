@@ -7,7 +7,7 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van ondersteunde bestandstypen voor proefdrukken en grootten
+
+<!--Audited: 12/2023-->
 
 U kunt verschillende bestandstypen delen en reviseren met uw revisoren, zelfs als de software waarmee de bestanden zijn gemaakt (zoals Photoshop of Illustrator) niet op hun computer is geïnstalleerd. We ondersteunen statische, video-, audio- en webopnamen en interactieve bestandstypen van maximaal 4 GB.
 

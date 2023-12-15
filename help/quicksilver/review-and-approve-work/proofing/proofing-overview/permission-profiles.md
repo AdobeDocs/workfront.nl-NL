@@ -4,20 +4,24 @@ product-area: documents
 keywords: proef,toestemming
 navigation-topic: proofing-overview
 title: Overzicht van machtigingsprofiel proefdrukken
-description: Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle proefdrukken in uw account. Profielen met proefmachtigingen worden toegewezen aan gebruikers in hun gebruikersprofiel. Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie het overzicht van de Rollen van het Bewijs.
+description: Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle proefdrukken in uw account. Profielen met proefmachtigingen worden toegewezen aan gebruikers in hun gebruikersprofiel. Proefmachtigingsprofielen verschillen van proefdrukrollen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 9b60133c4cc20deb410f507854597f44d0607228
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
 # Overzicht van machtigingsprofiel proefdrukken
 
-Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle proefdrukken in uw account. Profielen met proefmachtigingen worden toegewezen aan gebruikers in hun gebruikersprofiel. Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [Overzicht van proefrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+<!--Audited: 12/2023-->
+
+Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle proefdrukken in uw account. Profielen met proefmachtigingen worden toegewezen aan gebruikers in hun gebruikersprofiel.
+
+Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [Overzicht van proefrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -29,10 +33,10 @@ Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.</p> </li>
-<li> <p>Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.</p> </li>
+<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the account settings and billing of those accounts from the hub account level.</p> </li>
+<li> <p>Billing Administrators and Administrators can delete users. This can only be done in Account settings.</p> </li>
 <li>When Billing Administrators and Administrators view proofs that are owned by other users in their account, they view them with the role of a Reviewer.</li>
-<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them.&nbsp;</li>
+<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them. </li>
 </ul>
 -->
 
@@ -42,11 +46,13 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
 
 <table>
   <tr>
-   <td colspan="5" ><strong>Eigen items</strong>
+   <td colspan="1" ><strong></strong>
+   </td>
+   <td colspan="4" ><strong>Eigen items</strong>
    </td>
    <td colspan="3" ><strong>Andere gebruikersitems</strong>
    </td>
-   <td><strong>Beheer</strong>
+   <td><strong>Beheerder</strong>
    </td>
   </tr>
   <tr>
@@ -70,7 +76,7 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
    </td>
   </tr>
   <tr>
-   <td>Beheer
+   <td>Beheerder
    </td>
    <td>x
    </td>
@@ -90,7 +96,7 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
    </td>
   </tr>
   <tr>
-   <td>Supervisor
+   <td>Toezichthouder
    </td>
    <td>x
    </td>
@@ -129,26 +135,6 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
    <td>
    </td>
   </tr>
-  <tr>
-   <td>Waarnemer
-   </td>
-   <td>
-   </td>
-   <td>x
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
 </table>
 
 ### Beheerder
@@ -161,7 +147,7 @@ Beheerders hebben toegang tot [Accountinstellingen](https://support.workfront.co
  <tbody> 
   <tr> 
    <td>Beheerders kunnen:</td> 
-   <td>Beheerders kunnen het volgende niet doen:</td> 
+   <td>Beheerders kunnen niet:</td> 
   </tr> 
   <tr> 
    <td> 
@@ -191,7 +177,7 @@ Beheerders hebben toegang tot [Accountinstellingen](https://support.workfront.co
 
 &#42;Alleen beschikbaar in het Workfront Proof-product.
 
-### Supervisor
+### Toezichthouder
 
 De toezichthouders hebben de volgende toestemmingen:
 
@@ -250,7 +236,7 @@ Managers hebben de volgende machtigingen:
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Proefbestanden en bestanden die door andere gebruikers in de organisatie zijn gemaakt, weergeven, bewerken of verwijderen. </p> <p>Bewerk de reacties op proefdrukken.</p> </li> 
+     <li> <p>Proefbestanden en bestanden die door andere gebruikers in de organisatie zijn gemaakt, weergeven, bewerken of verwijderen. </p> </li><li><p>Bewerk de reacties op proefdrukken.</p> </li> 
      <li> <p>De openbare of persoonlijke mappen van andere gebruikers verwijderen</p> </li> 
      <li> <p>Open de pagina Facturering of bewerk de factureringsdetails</p> </li> 
      <li> <p>Gebruikers toevoegen, bewerken of verwijderen</p> </li> 
@@ -270,15 +256,15 @@ Managers hebben de volgende machtigingen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot&nbsp;create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -286,7 +272,7 @@ Managers hebben de volgende machtigingen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs&nbsp;or replies.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs or replies.</p>
 -->
 
 <!--
@@ -294,7 +280,7 @@ Managers hebben de volgende machtigingen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access&nbsp;the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>&nbsp;and&nbsp;<a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a> and <a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -302,32 +288,31 @@ Managers hebben de volgende machtigingen:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the&nbsp;trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts. </p>
 -->
 
 
 ><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
+><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
 >-->
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
 >  -->
 >  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
 >  -->
-
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>
@@ -359,6 +344,6 @@ Managers hebben de volgende machtigingen:
 
 <!--
 <note type="note">
-&nbsp;Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
+ Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
 </note>
 -->

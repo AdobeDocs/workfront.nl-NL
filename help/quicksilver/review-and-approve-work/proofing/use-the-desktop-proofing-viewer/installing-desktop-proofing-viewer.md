@@ -6,14 +6,16 @@ description: De Desktop Proofing Viewer, die voornamelijk is ontworpen voor het 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # De Desktop Proofing Viewer installeren
+
+<!--Audited: 12/2023-->
 
 De Desktop Proofing Viewer, die voornamelijk is ontworpen voor het controleren van interactieve inhoud, is een toepassing die op uw lokale computer moet worden geïnstalleerd.
 
@@ -34,11 +36,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Nieuw: alle</p> <p>of</p> <p>Huidig: Pro of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Alle</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Alle</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ Als dit niet het geval is, kunt u de onderstaande stappen volgen.
 
 >[!NOTE]
 >
->Als de Desktop Proofing Viewer niet wordt gestart wanneer u een interactieve proefdruk opent, betekent dit waarschijnlijk dat uw Workfront- of Workfront Proof-beheerder de Desktop Proofing Viewer moet configureren als de standaardviewer voor interactieve proefdrukken, zoals beschreven in [Gebruikersinstelling voor het openen van niet-interactieve proefdrukken in de Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>Als de Desktop Proofing Viewer niet wordt gestart wanneer u een interactieve proefdruk opent, betekent dit waarschijnlijk dat uw Workfront- of Workfront Proof-beheerder de Desktop Proofing Viewer moet configureren als de standaardviewer voor interactieve proefdrukken, zoals beschreven in [Gebruikersinstelling voor het openen van niet-interactieve proefdrukken in de Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## De Desktop Proofing Viewer installeren in Windows
 

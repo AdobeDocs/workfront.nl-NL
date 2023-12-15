@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3564'
+source-wordcount: '3562'
 ht-degree: 0%
 
 ---
 
 # Logtijd
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw plan:<ul><li>Licht of hoger aan logboek Algemene Uren in een timsheet</li></p>
+   <td> <p>Nieuw:<ul><li>Licht of hoger aan logboek Algemene Uren in een timsheet</li></p>
    <li> Norm of hoger om uren op een project, een taak of een kwestie te registreren</li></ul></p>
    <p>of</p>
-   <p>Huidig plan:<ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li></p>
+   <p>Huidige:<ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li></p>
    <li> Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul></p>
    </td> 
   </tr> 

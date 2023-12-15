@@ -7,7 +7,7 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Een aangepast formulier toevoegen aan een object
+
+<!--Audited: 12/2023-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -24,7 +26,7 @@ U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een
 * Taken
 * Problemen
 * Bedrijven
-* Portfolio
+* Portfolio&#39;s
 * Programma&#39;s
 * Documenten
 * Gebruikers
@@ -46,10 +48,13 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
-  </tr> 
+<tr> 
+  <td role="rowheader">Adobe Workfront-licentie*</td> 
+  <td> <p>Nieuw: Medewerker of hoger </p>
+ <p>of</p> 
+<p>Huidig: Verzoek of hoger </p> 
+</td> 
+ </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang bewerken tot de objecten waarvoor u aangepaste formulieren beheert</p> <p><b>OPMERKING</b></p>
@@ -58,14 +63,14 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten beheren voor het object waarvoor u een aangepast formulier wilt toevoegen.</p> <p>Machtigingen voor het aangepaste formulier weergeven of hoger, met toestemming om <b>Koppelen aan aangepaste gegevens</b> objecten (projecten, taken en problemen). Zie voor meer informatie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>.</p> <p>Belangrijk: Als u geen licentie voor abonnementen hebt met beheerdersrechten voor de aangepaste Forms, moet u specifieke machtigingen hebben om ten minste het aangepaste formulier te kunnen bekijken, zoals beschreven in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>. Deze machtigingen moeten ook aan u worden verleend als het formulier in het hele systeem zichtbaar is. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor het object waarvoor u een aangepast formulier wilt toevoegen.</p> <p>Machtigingen voor het aangepaste formulier weergeven of hoger, met toestemming om <b>Koppelen aan aangepaste gegevens</b> objecten (projecten, taken en problemen). Zie voor meer informatie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>.</p> <p>Belangrijk: als u geen licentie voor abonnementen hebt met beheerdersrechten voor de aangepaste Forms, moet u specifieke machtigingen hebben om ten minste het aangepaste formulier te kunnen bekijken, zoals beschreven in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>. Deze machtigingen moeten ook aan u worden verleend als het formulier in het hele systeem zichtbaar is. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## Vereiste
+## Vereisten
 
 Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -104,7 +109,7 @@ U kunt op twee manieren een aangepast formulier aan een object toevoegen:
 
 U kunt maximaal 10 aangepaste formulieren toevoegen aan een bepaald object, zodat u velden ter beschikking kunt stellen van bepaalde gebruikers en niet van andere gebruikers, of u beter kunt voldoen aan de formuliervereisten van meerdere projecten.
 
-**Voorbeeld:** Als een bestaand project al een aangepast formulier heeft en er meer aangepaste velden nodig zijn die op een ander aangepast formulier voorkomen, kunt u een tweede formulier aan het project toevoegen met de aanvullende velden, in plaats van de velden toe te voegen aan het bestaande aangepaste formulier, als deze velden alleen voor dit ene project nodig zijn.
+**Voorbeeld:** Als een bestaand project al een aangepast formulier heeft en er meer aangepaste velden nodig zijn voor dit project, dat op een ander aangepast formulier staat, kunt u een tweede formulier aan het project toevoegen met de aanvullende velden in plaats van de velden toe te voegen aan het bestaande aangepaste formulier.
 
 ## Een aangepast formulier bulksgewijs aan meerdere objecten toevoegen
 
@@ -120,12 +125,17 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >Zie het artikel voor informatie over het bulksgewijs toevoegen van aangepaste formulieren aan projecten [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
-1. Navigeer naar een lijst met objecten.
+1. Blader naar een lijst met objecten.
 1. Selecteer meerdere objecten in de lijst.
 
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png)klikt u op de knop **Bewerken** pictogram  ![](assets/edit-icon.png)of klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
+1. Klik op de knop **Meer** menu ![](assets/more-icon.png)en klik vervolgens op de knop **Bewerken** pictogram  ![](assets/edit-icon.png).
+
+   of
+
+   Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
-1. Selecteer het formulier dat u wilt koppelen aan alle geselecteerde objecten in het dialoogvenster **Een selectie maken** vervolgkeuzemenu.
+1. in de **Een selectie maken** selecteert u het formulier dat u aan alle geselecteerde objecten wilt koppelen.
+
    >[!NOTE]
    >
    >Als u het formulier niet kunt vinden in het vervolgkeuzemenu, betekent dit dat aan ten minste een van de objecten het formulier al is gekoppeld. Bepaal welk object dat is en verwijder het uit de selectie voordat u het formulier aan de overige objecten kunt toevoegen.

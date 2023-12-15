@@ -5,9 +5,9 @@ title: Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
 description: U kunt uw werk in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] gekoppeld aan een organisatie-id in het dialoogvenster [!DNL Adobe Admin Consol]e. Zie voor meer informatie [Verschillen in beheer op basis van platforms ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] gekoppeld aan een organisatie-id in het dialoogvenster [!DNL Adobe Admin Console]. Zie voor meer informatie [Verschillen in beheer op basis van platforms ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## De integratiegegevens instellen
@@ -242,7 +242,7 @@ De standaardwerkschemawaarden die u in de integratie plaatst kunnen op de niveau
 De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie:
 
 * [Gekoppelde Adobe Experience Manager-mappen maken](#create-adobe-experience-manager-linked-folders)
-* [Elementen publiceren die naar Adobe Experience Manager-elementen worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Gekoppelde Adobe Experience Manager-mappen maken
 
@@ -250,9 +250,9 @@ De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie
 1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
    ![Navigatie naar gekoppelde mappen](assets/select-folder-aem-integration.png)
 1. De optie **[!UICONTROL Append Portfolio and Program Names]** automatisch namen van Portfolio&#39;s en programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
-1. Klikken **[!UICONTROL Save]** of ga naar de [Elementen publiceren die naar Adobe Experience Manager-elementen worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel.
+1. Klikken **[!UICONTROL Save]** of ga naar de [Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel.
 
-### Elementen publiceren die naar Adobe Experience Manager-elementen worden verzonden
+### Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden
 
 1. Schakelen **[!UICONTROL Publish assets automatically]**.
 1. Schakel het vakje naast de locatie in waar u de elementen wilt publiceren die naar Adobe Experience Manager-elementen zijn verzonden. U kunt een van beide of beide opties inschakelen.

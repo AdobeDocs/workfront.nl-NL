@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13810'
 ht-degree: 0%
 
 ---
@@ -1436,7 +1436,7 @@ ht-degree: 0%
          * [Bepaal de Types van Verzoek voor een project](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
       * Verzoeken maken {#create-requests}
          * [Verzoeken maken](manage-work/requests/create-requests/create-requests.md)
-         * [Adobe Workfront-aanvragen maken en verzenden](manage-work/requests/create-requests/create-submit-requests.md)
+         * [Aanvragen maken en verzenden](manage-work/requests/create-requests/create-submit-requests.md)
          * [Verzoeken maken op basis van concepten](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [Verzonden aanvragen zoeken](manage-work/requests/create-requests/locate-submitted-requests.md)
