@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 3361cf540b5a32cb4621b550b17253675ef43222
+source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13796'
 ht-degree: 0%
 
 ---
@@ -451,8 +451,8 @@ ht-degree: 0%
          * [Sandbox-omgeving voorvertonen](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Aangepaste vernieuwingssandbox-omgeving](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
          * [Objecten van de ene verplaatsen [!DNL Workfront] milieu aan een andere](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-   * Gebruikers toevoegen {#add-users}
-      * [Gebruikers aan Workfront toevoegen](administration-and-setup/add-users/add-users.md)
+   * Gebruikersbeheer {#add-users}
+      * [Gebruikersbeheer: artikelindex](administration-and-setup/add-users/add-users.md)
       * Gebruikers maken en beheren {#create-manage-users}
          * [Gebruikers beheren](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Gebruikers toevoegen](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -1111,7 +1111,7 @@ ht-degree: 0%
          * [Bewijs van een gekoppeld element met de verbeterde connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [Een gekoppeld element met de verbeterde connector weergeven of downloaden](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront voor Experience Manager Assets en Assets Essentials {#wf-aem-essentials}
-         * [Adobe Workfront voor Experience Manager Assets en Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Overzicht van Adobe Experience Manager Assets-integratie](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Elementen en mappen koppelen vanuit Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Toegewezen metagegevens voor Experience Manager Assets of Assets Essentials weergeven](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)

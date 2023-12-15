@@ -7,14 +7,16 @@ description: Met resourcebeheer kunt u uw systeem zodanig configureren dat het g
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Resource Management
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront beschikt over verschillende gereedschapssets die worden gebruikt voor 
 
    * **De bronnenplanner**: U kunt de Planner van het Middel in de eerste fase van middelbeheer gebruiken om projecttijd voor uw middelen volgens hun geplande beschikbaarheid te begroten. Tijdens de planning van middelenfase, kunt u gebruikers in middelpools organiseren en veelvoudige middelpools aan een project toewijzen.
 
-     Voor meer informatie over de Planning van het Middel, zie de sectie [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Voor meer informatie over de Planning van het Middel, zie [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Scenario Planner**: Dit is een planning op hoger niveau van middelen die u toestaat om hen over veelvoudige initiatieven te beheren die zich over een één, drie, of vijf jaar plan kunnen uitstrekken en veelvoudige projecten omvatten. U kunt het beste scenario gebruiken om het beste uit hun beschikbaarheid en uw budget te halen.
 
@@ -48,7 +50,7 @@ Workfront beschikt over verschillende gereedschapssets die worden gebruikt voor 
 
    * **De werklastbalans**: Dit behoort tot een lagere fase van middelbeheer, waar u uw middelen aan het daadwerkelijke werk (taken en kwesties) kunt toewijzen die zij moeten voltooien, gebaseerd op de hoeveelheid uren nodig om hen en hun beschikbaarheid te voltooien. Met behulp van Workload Balancer kunt u gebruikers toewijzen aan daadwerkelijk werk dat momenteel niet is toegewezen aan of is toegewezen aan taakrollen.
 
-     Zie de sectie voor informatie over de Workfront Balancer [De werklastbalans: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Voor informatie over de Workfront Balancer raadpleegt u [De werklastbalans: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ U moet aan een reeks vereisten voldoen voordat u de hulpmiddelen voor resourcebe
 
 Raadpleeg de volgende bronnen voor informatie over de vereisten voor elk hulpprogramma voor resourcebeheer in Workfront:
 
-* De sectie &quot;Vereisten voor het werken in de Planner van het Middel&quot;in het artikel [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* De sectie [Vereisten voor het werken in de Planner van het Middel](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) in het artikel [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* De sectie &quot;Aanbevolen werkwijzen voor het gebruik van de werklastbalans&quot; in het artikel [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* De sectie [Aanbevolen werkwijzen voor het gebruik van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) in het artikel [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Toegang tot begrotingsmiddelen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
