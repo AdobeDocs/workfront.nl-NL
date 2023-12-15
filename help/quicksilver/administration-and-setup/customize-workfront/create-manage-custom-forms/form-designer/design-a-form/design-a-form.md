@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
 workflow-type: tm+mt
-source-wordcount: '4918'
+source-wordcount: '4927'
 ht-degree: 0%
 
 ---
@@ -499,6 +499,10 @@ U voegt als volgt velden voor de typekop toe:
 ### Externe opzoekvelden toevoegen
 
 Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren.
+
+>[!NOTE]
+>
+>Externe opzoekfunctionaliteit is niet beschikbaar voor Document-objecten.
 
 Een externe zoekopdracht toevoegen:
 
