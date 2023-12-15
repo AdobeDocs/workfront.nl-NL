@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -140,13 +140,13 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
      >[!TIP]
      >
-     >* Het veld Naam is altijd het eerste veld in de tabelweergave.
+     >* Het veld Naam is standaard het eerste veld in de tabelweergave. Dit wordt beschouwd als een primair veld.
      >
-     >* U kunt het veld Naam niet naar een andere positie verplaatsen.
+     >* U kunt het veld Naam niet naar een andere positie verplaatsen, tenzij u een ander veld als primair veld aanwijst. Ga voor meer informatie verder met stap 4. <!--accurate?-->
      >
-     >* U kunt het veld Naam niet verbergen.
+     >* U kunt een primair veld niet verbergen of verwijderen.
      >
-     >* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk.
+     >* Het primaire veld is bevroren en maakt geen deel uit van de horizontale schuifbalk.
 
    * Vervang het veld in de eerste kolom door een ander veld door het primaire veld te wijzigen. Ga voor meer informatie verder met stap 4. <!--accurate?-->
 
@@ -197,11 +197,13 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik op de knop **zoeken** pictogram ![](assets/search-icon.png) en begint een sleutelwoord te typen verbonden aan om het even welk gebied van een verslag dat op het scherm toont. Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt blauw gemarkeerd.
+   1. Klik op de knop **zoeken** pictogram ![](assets/search-icon.png) en begint een sleutelwoord te typen verbonden aan om het even welk gebied van een verslag dat op het scherm toont. Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
 
       U kunt elk woord of speciaal teken gebruiken dat op het scherm zichtbaar is.
 
       U kunt geen trefwoorden gebruiken die zijn gekoppeld aan velden die zijn verborgen in de tabelweergave.
+
+      Als u op Enter op het toetsenbord drukt, gaat u naar het volgende gevonden veld.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 

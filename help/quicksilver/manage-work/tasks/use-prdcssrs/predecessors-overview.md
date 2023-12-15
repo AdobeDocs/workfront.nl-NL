@@ -7,7 +7,7 @@ description: Een voorganger is de taak waarvan een andere taak (een opvolger of 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van voorgangers van taken
+
+<!--Audited: 12/2023-->
 
 <!-- 
 

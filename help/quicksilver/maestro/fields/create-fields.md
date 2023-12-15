@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3158'
 ht-degree: 0%
 
 ---
@@ -170,9 +170,9 @@ After permssions - replace the table with:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte moet standaard worden geopend.
+De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit, rechts van de naam van een bestaande werkruimte, selecteer de werkruimte waarvan u recordtypen wilt maken en klik op het recordtype.
 

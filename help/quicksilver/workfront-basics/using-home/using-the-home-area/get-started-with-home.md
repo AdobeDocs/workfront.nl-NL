@@ -6,7 +6,7 @@ description: De [!UICONTROL Home] is uw one-stop shop om taken, kwesties, en goe
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Aan de slag met [!UICONTROL Home]
+
+<!--Audited: 12/2023-->
 
 In dit artikel wordt een overzicht van het huidige [!UICONTROL Home] gebied in [!DNL Adobe Workfront]. Voor informatie over het werken in het nieuwe [!UICONTROL Home], zie [Aan de slag met Nieuwe startpagina](../new-home/get-started-with-new-home.md).
 

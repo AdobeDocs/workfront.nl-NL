@@ -6,7 +6,7 @@ description: U kunt toegang tot de informatie geven die uw organisatie nodig hee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 
 # Een aangepast rapport maken
+
+<!--Audited: 12/2023-->
 
 U kunt toegang tot de informatie verlenen die uw organisatie in Adobe Workfront nodig heeft door rapporten te maken. U kunt alle ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw aangepaste rapporten helemaal zelf samenstellen.
 

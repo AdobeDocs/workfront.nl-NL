@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ U kunt Maestro-velden verwijderen die niet meer relevant zijn.
 
 ## Overwegingen bij het verwijderen van Maestro-velden:
 
+* U kunt een veld alleen verwijderen in de tabelweergave van het recordtype.
 * U kunt velden verwijderen die u hebt gemaakt of velden die door andere gebruikers of het systeem zijn gemaakt. <!--this will change with access levels/ permissions-->
-* U kunt het veld Naam van een record niet verwijderen. <!--change this to say you can't delete the field selected to be the primary-->
-* U kunt een veld alleen verwijderen in de tabel met recordtypen.
+* U kunt het primaire veld van een record niet verwijderen.
 * Alle informatie die in het veld is opgeslagen, wordt verwijderd en kan niet worden hersteld.
 * Wanneer u een gekoppeld recordveld verwijdert, worden alle gekoppelde opzoekvelden ook verwijderd uit het recordtype waaruit u een koppeling maakt. De gekoppelde recordvelden van de recordtypen waarnaar u een koppeling maakt, worden niet verwijderd.
 

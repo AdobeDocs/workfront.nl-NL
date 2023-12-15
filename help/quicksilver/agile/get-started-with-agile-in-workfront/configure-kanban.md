@@ -6,7 +6,7 @@ description: U maakt een Kanban- of Scrum agile-team in [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 0%
@@ -32,6 +32,8 @@ Dit artikel beschrijft hoe te om de montages voor een team te vormen Kanban. Nad
 Voor informatie over het vormen van een team van het Trommel, zie [Scrum configureren](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Toegangsvereisten
+
+<!--Audited: 12/2023-->
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 

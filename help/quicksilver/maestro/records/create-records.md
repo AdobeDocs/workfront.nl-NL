@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
    >[!NOTE]
    >
-   >  * Het veld Naam is geen verplicht veld. Wij raden u echter aan een naam voor de record toe te voegen, omdat het nuttig is om records te identificeren wanneer u records aan elkaar koppelt.
+   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u een Naam voor het verslag toevoegt aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar.
    >
    >  * Velden die naar andere recordtypen of berekende velden verwijzen, zijn alleen-lezen velden.
 

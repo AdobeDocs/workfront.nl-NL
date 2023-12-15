@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ Met deze verbetering, merk het volgende op:
 Zie voor meer informatie [Tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Connect Maestro-records met Adobe Experience Manager (AEM)-middelen
+### Connect Maestro-records met Adobe Experience Manager Assets
 
 Voorvertoningsrelease: 14 december 2023
 
 Productieversie: 15 december 2023
 
-U kunt nu een verbinding tot stand brengen tussen Maestro-recordtypen en Adobe Experience Manager-middelen.
+>[!IMPORTANT]
+>
+>Het exemplaar van Workfront van uw organisatie moet aan het Adobe Bedrijfsplatform of Adobe Admin Console worden bezet om Maestro- verslagen aan Adobe Experience Manager Assets te kunnen verbinden.
+>
+>Als u vragen hebt over instaptoegang tot de Adobe Admin Console, raadpleegt u de [Veelgestelde vragen over Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+U kunt nu een verbinding tot stand brengen tussen Maestro-recordtypen en Adobe Experience Manager Assets.
 
 Nadat u de verbinding tot stand hebt gebracht, is de volgende functionaliteit beschikbaar bij deze update:
 
-* Maestro-gebruikers kunnen AEM middelen, mappen of verzamelingen koppelen aan een Maestro-record vanuit een specifieke opslagplaats in AEM waartoe ze toegang hebben
+* U kunt Experience Managers en mappen koppelen aan een Maestro-record vanuit een specifieke opslagplaats in Experience Manager Assets waartoe ze toegang hebben. In dit proces kunt u elementvelden verbinden met Maestro-velden.
 
-* Maestro-gebruikers kunnen alle verbonden middelen in Maestro bekijken nadat ze zijn verbonden met records.
+* Maestro-gebruikers kunnen de naam van de verbonden elementen en de waarden van de verbonden velden in Maestro weergeven
 
-* Er wordt automatisch een Experience Manager Assets-recordtype gemaakt in Maestro nadat u de verbinding hebt gemaakt. Verbonden elementen zijn zichtbaar in de tabel- en tijdlijnweergaven van Maestro van dit nieuwe recordtype.
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* U kunt AEM elementgegevens in de Maestro-recordtabel weergeven waar u verbinding maakt.
+* U kunt op de elementnaam in de tabelweergave van de Maestro-record klikken vanuit het verbonden recordveld en een pop-upvenster weergeven met de elementminiatuur en verschillende toetsvelden. Vanuit het pop-upvenster kunt u naar de viewer voor middelen in Experience Manager navigeren en alle gegevens erover weergeven.
 
-Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/maestro/architecture/connect-record-types.md)
+Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Week van 4 december 2023
 
