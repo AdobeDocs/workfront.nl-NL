@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -296,6 +296,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
   Zie voor meer informatie [[!DNL Adobe Workfront Fusion] overzicht](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
+* [!DNL Anaplan] (Vereist [!DNL Workfront Fusion])
 
 Dankzij de integratie tussen Workfront en Experience Manager Assets of Assets Essentials kunnen organisaties de snelheid van de inhoud en de tijd-aan-markt verbeteren door het werk en het beheer van digitale middelen intrinsiek met elkaar te verbinden.
 

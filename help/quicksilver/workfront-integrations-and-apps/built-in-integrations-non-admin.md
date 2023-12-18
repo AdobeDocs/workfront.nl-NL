@@ -7,9 +7,9 @@ description: U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze int
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,6 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
     <ul> 
      <li>Nieuwe tickets maken in [!DNL Jira] op basis van taken en problemen in [!DNL Workfront]</li> 
      <li>Updates en status van gekoppelde taken synchroniseren tussen [!DNL Workfront] en [!DNL Jira] </li> 
-     <li>Werkt aan beide [!DNL Jira] Server en Jira Cloud </li> 
     </ul> </td> 
   </tr> 
   <tr> 
