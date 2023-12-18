@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,4 @@ Als Adobe Workfront-beheerder kunt u gebruikers toegang verlenen tot weergave- o
 
 * Voor informatie over hoe te om toegangsniveaus tot stand te brengen, zie [Toegang tot Adobe Workfront configureren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 * Voor informatie over hoe de gebruikers voorwerpen met elkaar kunnen delen, die de toestemmingen van de Mening en van de Edit op die voorwerpen verlenen, zie [Rechten verlenen en aanvragen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Voor informatie over de lijst van de Vereisten van de Toegang die in documentatieartikelen wordt gevonden, zie [Vereisten voor toegangsniveaus in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
