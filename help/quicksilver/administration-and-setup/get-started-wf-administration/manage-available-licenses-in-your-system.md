@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Beschikbare licenties in uw systeem beheren
 description: Als Adobe Workfront-beheerder hebt u toegang tot informatie over uw Workfront-account, waaronder het aantal licenties dat voor uw organisatie is aangeschaft en het aantal licenties dat momenteel in gebruik is.
-author: Caroline
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # Beschikbare licenties in uw systeem beheren
+
+<!-- Audited: 12/2023 -->
 
 Als Adobe Workfront-beheerder hebt u toegang tot informatie over uw Workfront-account, waaronder het aantal licenties dat voor uw organisatie is aangeschaft en het aantal licenties dat momenteel in gebruik is.
 
@@ -33,7 +35,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>
+    <p>Nieuw: Standaard</p>
+    <p>of</p>
+    <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -44,11 +49,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Licenties van uw organisatie bekijken
 
-Het aantal gebruikte licenties dat in gebruik is, wordt automatisch bijgewerkt wanneer u toegangsniveaus toewijst aan gebruikers die u aan Workfront toevoegt. Zie voor meer informatie [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Het aantal licenties dat in gebruik is, wordt automatisch bijgewerkt wanneer u toegangsniveaus toewijst aan gebruikers die u aan Workfront toevoegt. Zie voor meer informatie [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
 
@@ -62,16 +67,16 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
 ## Informatie weergeven over licenties voor Workfront-invoegtoepassingen
 
-In het onderstaande scherm: **5 van 10 Proefvergunningen** geeft aan dat deze organisatie over de betaalde invoegtoepassing Workfront Proof beschikt en momenteel 5 van de 10 door Workfront aangeschafte bewijzen licenties gebruikt.
+Als uw organisatie over de betaalde invoegtoepassing Workfront Proof beschikt, worden het aantal gebruikte licenties en het aantal beschikbare licenties weergegeven. Bijvoorbeeld: **5 van 10 Proefvergunningen** geeft aan dat de organisatie momenteel 5 van de 10 Workfront Proof-licenties gebruikt die zij hebben aangeschaft.
 
-![](assets/updated-licenses-page.png)
+![Licentie voor Workfront-invoegtoepassingen](assets/updated-licenses-page.png)
 
 Als uw organisatie Workfront Goals heeft aangeschaft, wordt de licentieinformatie voor dit product ook hier weergegeven. In dit geval kunt u de volgende informatie weergeven:
 
 * Het totale aantal licenties voor Workfront Goals dat uw bedrijf heeft aangeschaft
 * Het aantal licenties voor Workfront Goals dat aan gebruikers is gekoppeld. Dit is het aantal gebruikers aan wie minstens de toegang van de Mening tot Doelstellingen in hun toegangsniveau hebben verleend.
 
-Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../workfront-goals/goal-management/wf-goals-overview.md). Voor informatie over toegang tot Workfront-doelen raadpleegt u [Toegang tot Adobe Workfront-doelen verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../workfront-goals/goal-management/wf-goals-overview.md). Voor informatie over toegang tot Workfront-doelen raadpleegt u [Toegang tot Adobe Workfront-doelen verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -84,12 +89,12 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->De gebruikers zonder administratieve toegang kunnen een rapport van de Groep gebruiken om vergunningstelling te bekijken. Maak op het tabblad Rapport een nieuw groepsrapport en voeg de volgende kolommen toe:>
+>De gebruikers zonder administratieve toegang kunnen een rapport van de Groep gebruiken om vergunningstelling te bekijken. Maak op het tabblad Rapport een nieuw groepsrapport en voeg de volgende kolommen toe:
+>
 >* Limiet voor licentietype: limiet voor werknemers
 >* Limiet licentietype: limiet planner
 >
 >Ga voor meer informatie over het maken van een rapport naar [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
->
 
 ## Informatie weergeven over maandelijkse toegewezen bewijzen en documenten
 
@@ -103,11 +108,11 @@ De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonne
 
 Zie voor meer informatie over de beperkingen van bewijsmiddelen en beslissingen over documenten [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![](assets/monthly-decision-allotment.png)
+![Maandelijkse beslissingstoewijzing](assets/monthly-decision-allotment.png)
 
 ## Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties {#add-or-remove-a-home-group-to-the-licenses-page}
 
-Een Business of Enterprise Workfront Plan is vereist om deze functie te kunnen gebruiken. Zie voor meer informatie over de verschillende beschikbare plannen [Workfront-plannen.](https://www.workfront.com/plans)
+<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Elke gebruiker kan aan slechts één Groep van het Huis worden toegewezen. Workfront biedt een aantal licenties voor groepen door te berekenen hoeveel licenties zijn toegewezen en momenteel worden gebruikt in elke Home Group.
 
@@ -121,7 +126,7 @@ Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep
 
 Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
 
@@ -143,11 +148,11 @@ Als beheerder van Workfront, kunt u maximumvergunningstellingen voor de top-leve
 
 Standaard is het maximale aantal licenties ingesteld op N.v.t., wat betekent dat er geen limiet is.
 
-De beheerders van de groep kunnen het aantal vergunningen bekijken die in een Groep van het Huis worden toegewezen en worden gebruikt zij beheren. Zie voor meer informatie [Bekijk het aantal licenties dat is toegewezen en gebruikt in een groep in de nieuwe Adobe Workfront-ervaring](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+De beheerders van de groep kunnen het aantal vergunningen bekijken die in een Groep van het Huis worden toegewezen en worden gebruikt zij beheren. Zie voor meer informatie [Het aantal licenties weergeven dat is toegewezen en gebruikt in een groep](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 Het maximale aantal licenties voor een thuisgroep instellen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
 

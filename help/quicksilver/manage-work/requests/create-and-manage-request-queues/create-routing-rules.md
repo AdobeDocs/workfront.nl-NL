@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Verpletterende regels maken
+
+<!-- Audited: 12/2023 -->
 
 Verpletterend regelcontrole wat Adobe Workfront met kwesties doet wanneer zij aan een verzoekrij worden voorgelegd. Voor meer informatie over het creëren van de Queuten van het Verzoek, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -53,7 +55,7 @@ Het verpletteren van regels verzendt kwesties naar specifieke gebruikers of baan
 </table>
 -->
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +67,10 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+    <p>Nieuw: Standaard</p>
+    <p>of</p>
+    <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -75,19 +80,19 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p> Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder voor meer informatie over uw abonnement, type licentie of toegang
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
 ## Creeer een Verpletterende Regel
 
-1. Ga naar het project dat u de verpletterende regels voor uw verzoeken wilt toevoegen.
+1. Ga naar het project waarin u de verpletterende regels voor uw verzoeken wilt toevoegen.
 1. Klikken **Routeringsregels** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** vervolgens **Routeringsregels**.
-1. Klikken **Nieuwe verpletterende Regels** om de nieuwe regel toe te voegen.
-1. Specificeer de volgende informatie voor de Verpletterende Regel:
+1. Klikken **Nieuwe verpletterende Regel** om de nieuwe regel toe te voegen.
+1. Ga de volgende informatie voor de Verpletterende Regel in:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +102,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Naam</strong> </td> 
-      <td> <p>De naam van de verpletterende regel. U kunt de verpletterende regel zien als u toegang hebt om deze informatie over het project te zien.</p> </td> 
+      <td>De naam van de verpletterende regel. U kunt de verpletterende regel zien als u toegang hebt om deze informatie over het project te zien.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beschrijving</strong> </td> 
@@ -113,7 +118,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    <p><b>OPMERKING</b></p>
 
-   Nadat de kwestie wordt voorgelegd, kunt u zijn taken uitgeven en andere gebruikers, rollen, of teams toewijzen. Zie voor meer informatie  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Problemen toewijzen </a>.
+   Nadat de kwestie wordt voorgelegd, kunt u zijn taken uitgeven en andere gebruikers, rollen, of teams toewijzen. Zie voor meer informatie  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Problemen toewijzen</a>.
 
    </td> 
      </tr> 
@@ -130,7 +135,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    Wanneer u een kwestie aan een project leidt, ontvangen de gebruikers met toestemmingen op de kwestie de toestemmingen die op dat project worden geplaatst. Voor informatie over het plaatsen van toestemmingen op projecten, zie [Een project delen in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![](assets/new-routing-rule-box-nwe-350x419.png)
+   ![Het nieuwe Verpletterende vakje van de Regel](assets/new-routing-rule-box.png)
 
 1. Klikken **Opslaan**.
 
