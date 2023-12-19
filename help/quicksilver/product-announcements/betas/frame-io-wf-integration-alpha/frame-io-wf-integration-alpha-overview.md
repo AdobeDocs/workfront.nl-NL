@@ -8,7 +8,7 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Welkom bij het Workfront + Frame.io-integratieprogramma voor alfa! Als onderdeel
 Profiteer van het beste van beide werelden en zie hoe een gestroomlijnde ervaring tussen Frame.io en Workfront (inclusief goedkeuringen van nieuwe documenten) de levenscyclus van uw inhoud kan beïnvloeden van het opstarten tot het aftekenen en leveren van uw werk.
 
 
-Voor meer informatie over de geplande functies van de alfa en over de manier waarop u deze kunt testen, raadpleegt u [Standaard Adobe Workfront- en Frame.io-integratie alfa: functies](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+Voor meer informatie over de geplande functies van de alfa en over de manier waarop u deze kunt testen, raadpleegt u [Standaard Adobe Workfront- en Frame.io-integratie alfa: functies](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
 
 >[!NOTE]
 >
