@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De werklastbalans is een hulpprogramma voor het plannen van bronnen in Adobe Wor
 
 Raadpleeg de volgende artikelen voor informatie over wat de werklastbalans is, hoe u door de werkbalk kunt navigeren en hoe u werk eraan kunt toewijzen:
 
-* [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+* [Overzicht van werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
 * [De werklastbalans zoeken](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)
 * [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 0%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 0%
          * [Aangepaste statussen en prioriteitslabels maken](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Overzicht van statussen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [Alle projectstatussen weergeven](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [Projectstatussen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [Overzicht van de status van systeemprojecten](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [Alle taakstatussen weergeven](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [Taakstatussen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [Uitgiftestatussen weergeven](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -1744,7 +1744,7 @@ ht-degree: 0%
       * [Informatie over bronnengebruik weergeven](resource-mgmt/resource-utilization/view-utilization-information.md)
    * De werklastbalans {#the-workload-balancer}
       * [De werklastbalans: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
-      * [Overzicht van de werklastbalans](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+      * [Overzicht van werklastbalans](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [De werklastbalans zoeken](resource-mgmt/workload-balancer/locate-workload-balancer.md)
       * [Overzicht van het toewijzen van werk in de werklastverdeler](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
@@ -2003,7 +2003,7 @@ ht-degree: 0%
    * [Overzicht van Adobe Maestro](maestro/maestro-overview.md)
    * [Adobe Maestro-releaseactiviteit](maestro/release-activity.md)
    * Adobe Maestro architectuur {#adobe-maestro-architecture}
-      * [Architectuurgegevens](maestro/architecture/architecture-information.md)
+      * [Architectuur: artikelindex](maestro/architecture/architecture-information.md)
       * [Werkruimten maken](maestro/architecture/create-workspaces.md)
       * [Overzicht van recordtypen en taxonomieën](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [Operationele recordtypen maken](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 0%
       * [Voorbeeld van het verbinden van recordtypen en records](maestro/architecture/example-connect-record-types-and-records.md)
       * [Lijst met werkruimtemalplaatjes](maestro/architecture/workspace-templates.md)
    * Adobe Maestro-velden {#adobe-maestro-fields}
-      * [Veldgegevens](maestro/fields/fields-information.md)
+      * [Velden: artikelindex](maestro/fields/fields-information.md)
       * [Overzicht van velden](maestro/fields/fields-overview.md)
       * [Velden maken](maestro/fields/create-fields.md)
       * [Velden bewerken](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 0%
       * [Overzicht van toegang](maestro/access/access-overview.md)
       * [Toegang verlenen tot Adobe Maestro](maestro/access/grant-access.md)
    * Adobe Maestro records {#adobe-maestro-records}
-      * [Registergegevens](maestro/records/records-information.md)
+      * [Records: artikelindex](maestro/records/records-information.md)
       * [Records maken](maestro/records/create-records.md)
       * [Connect-records](maestro/records/connect-records.md)
       * [Records bewerken](maestro/records/edit-records.md)
       * [Records verwijderen](maestro/records/delete-records.md)
       * [Records delen](maestro/records/share-records.md)
+      * [Opnameopmerkingen beheren](maestro/records/manage-record-comments.md)
    * Adobe Maestro-weergaven {#adobe-maestro-views}
-      * [Weergavegegevens](maestro/views/views-information.md)
+      * [Weergaven: artikelindex](maestro/views/views-information.md)
       * [Recordweergaven beheren](maestro/views/manage-record-views.md)
       * [De tabelweergave beheren](maestro/views/manage-the-table-view.md)
       * [De tijdlijnweergave beheren](maestro/views/manage-the-timeline-view.md)

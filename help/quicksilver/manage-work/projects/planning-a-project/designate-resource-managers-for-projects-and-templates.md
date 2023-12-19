@@ -6,9 +6,9 @@ description: U kunt de Managers van het Middel voor een project aanwijzen om ero
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 >[!NOTE]
 >
->Resource Manager is geen functie. het is een gebied beschikbaar op een project of een malplaatje dat u manueel kunt bijwerken.
+>De Manager van het middel is geen baanrol; het is een gebied beschikbaar op een project of een malplaatje dat u manueel kunt bijwerken.
 
 * U kunt tot 30 gebruikers als Managers van het Middel voor een individueel project of een malplaatje aanwijzen.
 
@@ -124,7 +124,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 * Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
 
-  For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+  For information about the Workload Balancer, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
  -->
 
@@ -132,7 +132,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 * De gebruikers die u als Beheerders van het Middel op een project of een malplaatje aanwijst worden automatisch geen deel van het Team van het Project.
 
-   Voor informatie over projectteams, zie [Het projectteam beheren](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Voor informatie over projectteams, zie [Het projectteam beheren](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * U kunt de Managers van het Middel voor projecten of voor projectmalplaatjes aanwijzen. Wanneer u de Managers van het Middel op een projectmalplaatje aanwijst, om het even welke gebruikers u als Managers van het Middel op het malplaatje aanwijst worden automatisch de Managers van het Middel op om het even welke projecten die gebruikend dat malplaatje worden gecreeerd.
 * U kunt het gebied van de Manager van het Middel op de volgende gebieden bekijken:
@@ -152,11 +152,11 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
    * Om de Managers van het Middel aan veelvoudige projecten gelijktijdig toe te voegen, navigeer aan een lijst van projecten, selecteer de projecten waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **Bewerken**.
 
-      De bestaande Managers van het Middel worden niet verwijderd uit de projecten u uitgeeft; om het even welke gebruikers u op deze manier toevoegt worden als Managers van Middelen op het project naast om het even welke bestaande Managers van het Middel toegevoegd.
+     De bestaande Managers van het Middel worden niet verwijderd uit de projecten u uitgeeft; om het even welke gebruikers u op deze manier toevoegt worden toegevoegd als Managers van Middelen op het project naast om het even welke bestaande Managers van het Middel.
 
    * Om de Managers van het Middel aan een nieuw project toe te voegen, begin creërend een nieuw project.
 
-      Voor informatie over het creëren van een project, zie [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+     Voor informatie over het creëren van een project, zie [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
 1. In de **Overzicht** in het dialoogvenster Project bewerken klikt u in het dialoogvenster **Resource Manager** veld.
 1. Typ de naam van de gebruiker die u als middelmanager voor het project wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
@@ -167,7 +167,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 ## Bronbeheer toewijzen voor een sjabloon
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Sjablonen**.
 
@@ -177,7 +177,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
    * Om de Managers van het Middel aan veelvoudige malplaatjes gelijktijdig toe te voegen, ga naar een lijst van malplaatjes en selecteer de malplaatjes waar u één of meerdere Managers van het Middel wilt aanwijzen, dan klik **Bewerken**.
 
-      Bestaande Resource Managers worden niet verwijderd uit de sjablonen die u bewerkt; om het even welke gebruikers u op deze manier toevoegt worden als Managers van Middelen op het malplaatje naast om het even welke bestaande Managers van het Middel toegevoegd.
+     De bestaande Managers van het Middel worden niet verwijderd uit de malplaatjes u uitgeeft; om het even welke gebruikers u op deze manier toevoegt worden toegevoegd als Managers van Middelen op het malplaatje naast om het even welke bestaande Managers van het Middel.
 
    * Om de Managers van het Middel aan een nieuw malplaatje toe te voegen, klik **Nieuwe sjabloon** en klik vervolgens op de knop **Het menu Meer** naast de sjabloonnaam, en vervolgens **Bewerken.**
 

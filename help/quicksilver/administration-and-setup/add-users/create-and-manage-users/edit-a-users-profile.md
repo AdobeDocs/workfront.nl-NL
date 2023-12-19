@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van de taken van deze gebruiker.</li> 
        <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruiker aan zichzelf toewijst, rechtstreeks wordt weergegeven in de lijst Werken aan in het gebied Start. Standaard wordt alles vermeld dat aan een gebruiker is toegewezen op de lijsten Ready to Start of Not Ready in het gebied Home.</li> 
-       <li><b>Automatisch proefdrukken genereren bij het uploaden van documenten</b>: Schakel deze optie in als u wilt dat de documenten die de gebruiker uploadt, direct een proefdruk genereren. Afhankelijk van uw Workfront-proefdruklicentie kan het totale aantal proefdrukken dat in uw systeem voor alle gebruikers kan worden gegenereerd, worden beïnvloed wanneer gebruikers proefdrukken genereren. </li>
+       <li><b>Automatisch proefdrukken genereren bij het uploaden van documenten</b>: Schakel deze optie in als u wilt dat de documenten die de gebruiker uploadt, direct een proefdruk genereren. </li>
        </ul> </td> 
      </tr> 
      <tr> 

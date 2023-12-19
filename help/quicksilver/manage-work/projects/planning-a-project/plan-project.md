@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1400'
 ht-degree: 0%
 
 ---
@@ -152,4 +152,4 @@ Houd rekening met het volgende wanneer u taken definieert:
    * Voeg meer gebruikers aan een taak toe om ervoor te zorgen dat het tijdens de toegewezen tijd kan worden voltooid.
    * Wijs de taken opnieuw toe aan gebruikers die zonder andere beperkingen beschikbaar zijn.\
      Raadpleeg het artikel voor meer informatie over het plannen van uw projectbronnen [Resourceplanning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-     Voor meer informatie over het plannen van uw middelen om het werk aan een project te verwezenlijken, zie [Overzicht van de werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     Voor meer informatie over het plannen van uw middelen om het werk aan een project te verwezenlijken, zie [Overzicht van werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

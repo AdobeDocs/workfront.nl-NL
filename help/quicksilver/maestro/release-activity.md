@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Week van 18 december 2023
+## Week van 18 december 2024
+
+### Opmerkingen toevoegen aan records op de pagina Details
+
+Voorbeeld en productie voor alle klanten: 18 december 2023
+
+>[!NOTE]
+>
+>De volgende mogelijkheden zijn beschikbaar in Production met de release van januari 2024:
+>
+>* Zoeken naar opmerkingen
+>
+>* Afbeeldingen kopiëren en plakken
+>
+>* Afbeeldingen slepen en neerzetten
+>
+>Zie voor meer informatie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+U kunt nu met anderen samenwerken aan individuele verslagen door commentaren toe te voegen of anderen te antwoorden terwijl het bekijken van een verslag in de pagina van Details.
+
+De opmerkingervaring voor Maestro-records komt overeen met de nieuwe opmerkingervaring voor Workfront-objecten.
+
+Zie voor meer informatie [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## Week van 11 december 2023
 
 ### Het primaire veld bijwerken in een tabelweergave van een recordtype
 
@@ -102,7 +126,7 @@ Zie voor meer informatie [Tabelweergave beheren](/help/quicksilver/maestro/views
 
 Voorvertoningsrelease: 14 december 2023
 
-Productieversie: 15 december 2023
+Productie: gepland voor 15 december 2023
 
 >[!IMPORTANT]
 >

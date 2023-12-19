@@ -1,13 +1,13 @@
 ---
-title: Registergegevens
+title: "Records: artikelindex"
 description: Nadat u recordtypes in Adobe Maestro creeert kunt u individuele verslagen van die types tot stand brengen. In de volgende artikelen wordt beschreven hoe u records in Adobe Maestro kunt maken en beheren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ hide: yes
 ---
 -->
 
-# Registergegevens
+# Records: artikelindex
 
 >[!IMPORTANT]
 >
@@ -45,3 +45,4 @@ In de volgende artikelen wordt beschreven hoe u records in Adobe Maestro kunt ma
 * [Records verwijderen](../records/delete-records.md)
 * [Records delen](../records/share-records.md)
 * [Connect-records](../records/connect-records.md)
+* [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md)

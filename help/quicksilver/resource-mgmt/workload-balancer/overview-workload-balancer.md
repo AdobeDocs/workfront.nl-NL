@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Overzicht van de werklastbalans
+title: Overzicht van werklastbalans
 description: Nadat de projectmanagers het werk op projecten door taken te creëren plannen en nadat de middelmanagers de middelen van de baanrol aan projecten in de Planner van het Middel toewijzen, kunnen de projecteigenaars en teammanagers de Balancer van de Werkbelasting gebruiken om het werkpunten aan gebruikers toe te wijzen.
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
-# Overzicht van de werklastbalans
+# Overzicht van werklastbalans
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

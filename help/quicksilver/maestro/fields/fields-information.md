@@ -1,17 +1,18 @@
 ---
-title: Adobe Maestro-velden
+title: "Velden: artikelindex"
 description: U kunt nieuwe velden in Adobe Maestro toevoegen die de levenscyclus van uw organisatie weerspiegelen. Velden zijn kenmerken van recordtypen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# Veldinformatie
+# Velden: artikelindex
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ In de artikelen in de volgende secties wordt beschreven hoe u Maestro-velden kun
 * [Velden bewerken](../fields/edit-fields.md)
 * [Velden verwijderen](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

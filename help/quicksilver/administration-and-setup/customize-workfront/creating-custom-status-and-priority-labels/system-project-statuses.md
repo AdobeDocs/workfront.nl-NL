@@ -3,28 +3,28 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Systeemprojectstatussen
-description: Workfront heeft 9 ingebouwde status van systeemprojecten. De eerste 3 in de tabel hieronder zijn vereist. Dit betekent dat u de clips kunt ontgrendelen, hernoemen en opnieuw ordenen, maar dat u ze niet kunt verbergen of verwijderen. Het wijzigen van de projectstatus is doorgaans een handmatig proces. Soms wordt de status van een project echter automatisch gewijzigd, afhankelijk van andere factoren die zich in het systeem voordoen.
-author: Caroline
+title: Overzicht van de status van systeemprojecten
+description: Workfront heeft 9 ingebouwde status van systeemprojecten. De eerste 3 in de tabel hieronder zijn vereist. Dit betekent dat u de clips kunt ontgrendelen, hernoemen en opnieuw ordenen, maar dat u ze niet kunt verbergen of verwijderen. Het wijzigen van de projectstatus is doorgaans een handmatig proces. Soms wordt de status van een project echter automatisch gewijzigd, afhankelijk van andere activiteiten die in het systeem plaatsvinden.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
 
-# Systeemprojectstatussen
+# Overzicht van de status van systeemprojecten
 
 Workfront heeft 9 ingebouwde status van systeemprojecten.
 
 De eerste 3 in de tabel hieronder zijn vereist. Dit betekent dat u de clips kunt ontgrendelen, hernoemen en opnieuw ordenen, maar dat u ze niet kunt verbergen of verwijderen.
 
-Het wijzigen van de projectstatus is doorgaans een handmatig proces. Nochtans, zijn er sommige scenario&#39;s die in de volgende lijst worden geschetst wanneer een projectstatus automatisch, afhankelijk van andere factoren wordt veranderd die in het systeem gebeuren.
+Het wijzigen van de projectstatus is doorgaans een handmatig proces. Nochtans, zijn er sommige scenario&#39;s die in de volgende lijst worden geschetst wanneer een projectstatus automatisch, afhankelijk van andere activiteiten wordt veranderd die in het systeem gebeuren.
 
-De volgende projectstatussen worden geleverd bij uw Workfront-exemplaar:
+Workfront verschaft de volgende projectstatussen met uw Adobe Workfront-exemplaar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,19 +43,19 @@ De volgende projectstatussen worden geleverd bij uw Workfront-exemplaar:
  <tbody> 
   <tr> 
    <td>Planning (vereiste status)</td> 
-   <td> <p>De projectmanager plant de chronologie van het project, de taak van de taken, en de goedkeuringen. De projectmanager plaatst deze status manueel op een project.</p> <p><b>TIP</p> <p> Wij adviseren dat u de standaardstatus voor nieuwe projecten in Workfront aan Planning plaatst. Als beheerder van Workfront, kunt u de standaardstatus voor al uw nieuwe projecten op het gebied van Projecten van de Voorkeur van het Project veranderen.</p> </td> 
-   <td> <p>De gebruikers op het projectteam kunnen het project op hun lijsten van Projecten door gebrek (zonder een douanefilter), in het gebied van Projecten van Workfront zien. De taken en de kwesties die aan hen op het project worden toegewezen bevolken niet hun Lijst van het Werk. Alleen goedkeuringen en geaccepteerde werkitems worden weergegeven in de lijst Home Work.</p> <p>Er worden geen meldingen verzonden terwijl een project deze status heeft.</p> <p>Wij adviseren dat alle veranderingen die een update aan de chronologie van het project, of om het even welke veranderingen in taken en uitgiftetoewijzingen kunnen teweegbrengen, worden aangebracht terwijl het project in de status van de Planning is. Hierdoor wordt het aantal meldingen dat gebruikers ontvangen, tot een minimum beperkt.</p> <p>De tijdlijn van het project wordt niet automatisch berekend door het systeem.</p> </td> 
+   <td> <p>De projectmanager plant de chronologie van het project, de taak van de taken, en de goedkeuringen. De projectmanager plaatst deze status manueel op een project.</p> <p><b>TIP</p> <p> Wij adviseren dat u de standaardstatus voor nieuwe projecten in Workfront aan Planning plaatst. Als beheerder van Workfront, kunt u de standaardstatus voor al uw nieuwe projecten op het gebied van Projecten van de Voorkeur van het Project veranderen.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Projectvoorkeuren voor het hele systeem configureren</a>.</p></td> 
+   <td> <p>De gebruikers op het projectteam kunnen het project op hun lijsten van Projecten door gebrek (zonder een douanefilter), in het gebied van Projecten van Workfront zien. De taken en de kwesties die aan hen op het project worden toegewezen bevolken niet hun Lijst van het Werk. Alleen goedkeuringen en geaccepteerde werkitems worden weergegeven in de lijst Home Work.</p> <p>Er worden geen meldingen verzonden terwijl een project deze status heeft.</p> <p>Wij adviseren dat u alle veranderingen aanbrengt die een update aan de chronologie van het project, of om het even welke veranderingen in taken kunnen teweegbrengen en taken uitgeven terwijl het project in de status van de Planning is. Hierdoor wordt het aantal meldingen dat gebruikers ontvangen, tot een minimum beperkt.</p> <p>De tijdlijn van het project wordt niet automatisch berekend door het systeem.</p> </td> 
   </tr> 
   <tr> 
    <td>Huidige (vereiste status)</td> 
-   <td> <p>Gebruikers werken eraan. De projectmanager zou een project aan Huidig moeten draaien om aan te geven dat het is begonnen.</p> <p>Dit is de standaardstatus voor nieuwe projecten in Workfront.</p> <p><b>TIP</b></p>
+   <td> <p>Gebruikers werken aan taken en problemen in het project. De projectmanager zou een project aan Huidig moeten draaien om aan te geven dat het is begonnen.</p> <p>Dit is de standaardstatus voor nieuwe projecten in Workfront.</p> <p><b>TIP</b></p>
 
 <p> Als beheerder van Workfront, kunt u de standaardstatus voor nieuwe projecten op het gebied van Projecten van de Voorkeur van het Project veranderen. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p> </td> 
-   <td> <p>De gebruikers op het projectteam kunnen het project op hun lijsten van Projecten door gebrek (zonder een douanefilter), in het gebied van Projecten van Workfront zien. De taken en de kwesties die aan hen op het project worden toegewezen bevolken hun Lijst van het Werk. Ze kunnen beginnen met het accepteren van taken en problemen en ze verplaatsen naar de lijst Werken aan.</p> <p>Ook, op een Huidig project, worden alle berichten over chronologieveranderingen, taken, noodzakelijke acties, en goedkeuringen verzonden naar gebruikers op het projectteam.</p> <p>En de chronologie van het project wordt automatisch berekend door het systeem, als het Type van Update van het project aan Automatisch, bij Verandering, of Automatisch en bij Verandering wordt geplaatst.</p> <p>Tip: Het is een goed idee om projectplanaanpassingen tot een minimum te houden wanneer een project in deze status is zodat de gebruikers niet teveel berichten ontvangen.</p> </td> 
+   <td> <p>De gebruikers op het projectteam kunnen het project op hun lijsten van Projecten door gebrek (zonder een douanefilter), in het gebied van Projecten van Workfront zien. De taken en de kwesties die aan hen op het project worden toegewezen bevolken hun Lijst van het Werk. Ze kunnen beginnen met het accepteren van taken en problemen en ze verplaatsen naar de lijst Werken aan.</p> <p>Voor een Huidig project, worden alle berichten over chronologieveranderingen, taken, noodzakelijke acties, en goedkeuringen verzonden naar gebruikers op het projectteam.</p> <p>De chronologie van het project wordt automatisch berekend door het systeem, als het Type van Update van het project aan Automatisch, bij Verandering, of Automatisch en bij Verandering wordt geplaatst.</p> <p><b>TIP</b></p> <p> Het is een goed idee om de aanpassingen van het projectplan tot een minimum te houden wanneer een project in deze status is zodat de gebruikers niet teveel berichten ontvangen.</p> </td> 
   </tr> 
   <tr> 
    <td>Voltooid (vereiste status)</td> 
-   <td> <p> Het project is voltooid:</p> 
+   <td> <p> Alle taken en problemen met het project worden voltooid en het project is voltooid.</p> 
      <p>Als de Wijze van de Voltooiing van het project aan Handboek wordt geplaatst, verkiest de projectmanager deze status manueel om gebruikers op het projectteam te informeren ophouden werkend aan het project.</p> 
     <p>Als de Voltooiingswijze van het project aan Automatisch wordt geplaatst, merkt Workfront automatisch een project als Voltooid wanneer alle taken en kwesties in het project als Voltooid worden gemerkt. 
     <p><b>BELANGRIJK</b> </p>
@@ -75,7 +75,7 @@ De volgende projectstatussen worden geleverd bij uw Workfront-exemplaar:
   <tr> 
    <td>In de wachtstand</td> 
    <td>Het project is nog niet voltooid, maar vanwege enige vertraging moet het project tijdelijk worden opgeschort. De projectmanager verkiest om deze status te gebruiken om gebruikers in het projectteam te waarschuwen ophouden werkend aan het project, in de huidige tijd.</td> 
-   <td> <p>De gebruikers op het projectteam kunnen niet het project op hun lijsten van Projecten door gebrek (zonder een douanefilter), in het gebied van Projecten van Workfront zien. De taken en de kwesties die aan hen op het project worden toegewezen verdwijnen uit hun Lijst van het Werk. </p> <p>Goedkeuringsbesluiten kunnen niet worden toegekend aan taken of kwesties.</p> <p>Meldingen over tijdlijnwijzigingen, toewijzingen, benodigde acties en goedkeuringen worden niet verzonden naar gebruikers in het projectteam.</p> <p> <p><b>OPMERKING</b>: Wanneer u een project in de wachtstand plaatst, wordt de tijdlijn van het project niet gestopt. Het project kan nog steeds als Op Risico of In Problemen worden getoond, zelfs als niemand actief aan het project werkt. Het kan nodig zijn de datums van de resterende open taken handmatig aan te passen wanneer u het project weer terugzet op Current, zodat de voortgang van het project kan worden weergegeven.</p> </p> </td> 
+   <td> <p>De gebruikers op het projectteam kunnen niet het project op hun lijsten van Projecten door gebrek (zonder een douanefilter), in het gebied van Projecten van Workfront zien. De taken en de kwesties die aan hen op het project worden toegewezen verdwijnen uit hun Lijst van het Werk. </p> <p>Goedkeuringsbesluiten kunnen niet worden toegekend aan taken of kwesties.</p> <p>Meldingen over tijdlijnwijzigingen, toewijzingen, benodigde acties en goedkeuringen worden niet verzonden naar gebruikers in het projectteam.</p> <p> <p><b>OPMERKING</b></p>  <p>Wanneer u een project in de wachtstand plaatst, stopt de tijdlijn van het project niet. Het project kan nog steeds als Op Risico of In Problemen worden getoond, zelfs als niemand actief aan het project werkt. Het kan nodig zijn de datums van de resterende open taken handmatig aan te passen wanneer u het project weer terugzet op Current, zodat de voortgang van het project kan worden weergegeven.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Gevraagd</td> 
@@ -94,7 +94,7 @@ De volgende projectstatussen worden geleverd bij uw Workfront-exemplaar:
   </tr> 
   <tr> 
    <td>Idea</td> 
-   <td>De projectstatus wordt automatisch gemarkeerd als Idee wanneer u een projectverzoek indient. Voor meer informatie over het verzoeken van een project gebruikend een bedrijfscase, zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Gevraagde projecten controleren</a>.</td> 
+   <td>De projectstatus wordt automatisch gemarkeerd als Idea wanneer u een projectverzoek indient, alvorens u de BedrijfsGeval voltooit. Voor meer informatie over het verzoeken van een project gebruikend een bedrijfscase, zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Gevraagde projecten controleren</a>.</td> 
    <td> <p>De gebruikers op het projectteam kunnen niet het project op hun lijsten van Projecten door gebrek (zonder een douanefilter), in het gebied van Projecten van Workfront zien. De taken en de kwesties die aan hen op het project worden toegewezen bevolken niet hun Lijst van het Werk.</p> <p>Alle meldingen met betrekking tot het project, met uitzondering van meldingen over statuswijziging, worden niet naar gebruikers verzonden.</p> <p>De tijdlijn van het project wordt niet automatisch berekend door het systeem.</p> </td> 
   </tr> 
  </tbody> 

@@ -7,9 +7,9 @@ description: U kunt de taakverdeler gebruiken om middelen voor het werk te plann
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt de taakverdeler gebruiken om middelen voor het werk te plannen of hun bes
 U hebt op de volgende manieren toegang tot de taakverdelingsfunctie:
 
 * Van verschillende vooraf door Adobe Workfront gedefinieerde gebieden
-* Door het aan een douanesectie toe te voegen
+* Door deze aan een aangepaste sectie toe te voegen
 
 In dit artikel worden de gebieden beschreven waar u toegang kunt krijgen tot Workload Balancer.
 
@@ -32,12 +32,11 @@ In dit artikel worden de gebieden beschreven waar u toegang kunt krijgen tot Wor
 >
 >Raadpleeg de volgende artikelen voor informatie over de werklastbalans en hoe u deze kunt gebruiken voor het beheren en plannen van uw bronnen voor werk:
 >
->* [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+>* [Overzicht van werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 >* [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [Toewijzingen van gebruikers beheren in Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
-
 
 ## Toegangsvereisten
 
@@ -94,7 +93,7 @@ In de volgende secties ziet u waar u toegang kunt krijgen tot Workload Balancer 
    * **Niet toegewezen werk**: Geen niet-toegewezen werkitems.
    * **Toegewezen werk**: Alle actieve gebruikers in het systeem.
 
-      We raden u aan filters te gebruiken wanneer u gebruikers weergeeft in het gebied Toegewezen werk. Zie voor meer informatie [Gegevens in de werklastbalans filteren](../workload-balancer/filter-information-workload-balancer.md).
+     We raden u aan filters te gebruiken wanneer u gebruikers weergeeft in het gebied Toegewezen werk. Zie voor meer informatie [Gegevens in de werklastbalans filteren](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Toegang tot de werklastbalans voor een team
 
@@ -110,9 +109,9 @@ De pagina van uw Home Team wordt weergegeven.
    * **Niet toegewezen werk**: Items die aan het team zijn toegewezen en niet aan gebruikers zijn toegewezen.
    * **Toegewezen werk**: Alle leden van het team met al hun taken.
 
-      >[!TIP]
-      >
-      >De leden van het team zouden aan het werk ook kunnen worden toegewezen dat aan het team of aan het werk wordt toegewezen aan andere teams of rollen.
+     >[!TIP]
+     >
+     >De leden van het team zouden aan het werk ook kunnen worden toegewezen dat aan het team of aan het werk wordt toegewezen aan andere teams of rollen.
 
 
 
@@ -128,12 +127,12 @@ De pagina van uw Home Team wordt weergegeven.
 
    De taakverdeler van een project toont het volgende door informatie, door gebrek:
 
-   * **Niet toegewezen werk**: Punten van het project die aan baanrollen of teams worden toegewezen en niet aan gebruikers worden toegewezen.
+   * **Niet toegewezen werk**: Items van het project die zijn toegewezen aan taakrollen of teams en niet zijn toegewezen aan gebruikers.
    * **Toegewezen werk**: Gebruikers die zijn toegewezen aan items in het project.
 
-      >[!TIP]
-      >
-      >U kunt alle gebruikers in het systeem in plaats van slechts degenen op het project (in het Toegewezen gebied van het Werk) tonen door de Toon alle gebruikersoptie toe te laten. Zie voor meer informatie [Navigeren door werklastbalans](../workload-balancer/navigate-the-workload-balancer.md).
+     >[!TIP]
+     >
+     >U kunt alle gebruikers in het systeem in plaats van slechts degenen op het project (in het Toegewezen gebied van het Werk) tonen door de Toon alle gebruikersoptie toe te laten. Zie voor meer informatie [Navigeren door werklastbalans](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## De werklastbalans toevoegen aan een aangepaste sectie

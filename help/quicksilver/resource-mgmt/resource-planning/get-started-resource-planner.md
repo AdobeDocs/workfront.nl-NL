@@ -7,9 +7,9 @@ description: U kunt de toewijzing van uw middelen aan de projecten schatten en b
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: ec49a7d3adeb24c1b8df0ff5fafe650d18d92280
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ U kunt de Planner van het Middel gebruiken om de beschikbaarheid van gebruikers 
 >[!IMPORTANT]
 >
 >U kunt de functie Bronnen niet gebruiken om daadwerkelijk werk (taken en problemen) toe te wijzen aan gebruikers. U kunt slechts schatten hoeveel tijd nodig voor de gebruikers of baanrollen om een project te voltooien, ongeacht de taken en de kwesties zij aan worden toegewezen.\
->Als u daadwerkelijk werk aan gebruikers wilt toewijzen, moet u de werklastverdeling gebruiken. Zie voor meer informatie over de werklastbalans [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Als u daadwerkelijk werk aan gebruikers wilt toewijzen, moet u de werklastverdeling gebruiken. Zie voor meer informatie over de werklastbalans [Overzicht van werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 U kunt informatie in de Planner van het Middel bekijken gebruikend drie afzonderlijke meningen. U kunt elke weergave gebruiken om een van de volgende doelen te bereiken:
 
 * Om de tijd of de kosten van uw middelen voor het werk te begroeten dat moet worden verwezenlijkt gebruikend de meningen van het Project en van de Rol. Dit is het belangrijkste doel van de Planner van het Middel.\
-   Raadpleeg het artikel voor meer informatie over budgettering in de functie voor middelentoewijzing [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Raadpleeg het artikel voor meer informatie over budgettering in de functie voor middelentoewijzing [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * De volgende informatie weergeven in de weergave Gebruiker:
 
@@ -44,37 +44,37 @@ U kunt informatie in de Planner van het Middel bekijken gebruikend drie afzonder
    * de geplande tijd die nodig is om de werkzaamheden volgens het projectplan te voltooien.
    * de hoeveelheid tijd dat de gebruikers reeds het programma hebben geopend daadwerkelijke het werkpunten.
 
-   Raadpleeg het artikel voor meer informatie over het weergeven van Beschikbare, Geplande en Werkelijke uren of VTE voor gebruikers in de Resource Planner [Beschikbare, geplande en Werkelijke uren of FTE weergeven in de bronnenplanner bij gebruik van de gebruikersweergave](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Raadpleeg het artikel voor meer informatie over het weergeven van Beschikbare, Geplande en Werkelijke uren of VTE voor gebruikers in de Resource Planner [Beschikbare, geplande en Werkelijke uren of FTE weergeven in de bronnenplanner bij gebruik van de gebruikersweergave](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
 ## Overwegingen voor middelenplanner
 
 * U kunt de projecten waaraan u werkt prioriteren, en uw middelentoewijzing op basis van hun prioriteit begroten, om ervoor te zorgen dat u eerst middelen hebt toegewezen aan de belangrijkste projecten.
 
-   Voor informatie over het prioriteren van projecten in de Planner van het Middel, zie [Prioriteit geven aan projecten in de functie Bronnen](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Voor informatie over het prioriteren van projecten in de Planner van het Middel, zie [Prioriteit geven aan projecten in de functie Bronnen](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * U kunt uren, FTE, en kosteninformatie van de taken en de kwesties van projecten tonen.
 
-   >[!NOTE]
-   >
-   >De taken en de kwesties tonen niet in de Planner van het Middel. Nochtans, de uren, FTE, en kosteninformatie van de middeltoewijzingen op de taken tonen in de Planner van het Middel als totaal aantal voor het project.
+  >[!NOTE]
+  >
+  >De taken en de kwesties tonen niet in de Planner van het Middel. Nochtans, de uren, FTE, en kosteninformatie van de middeltoewijzingen op de taken tonen in de Planner van het Middel als totaal aantal voor het project.
 
 * Het uur, FTE, en kosteninformatie van oudertaken wordt uitgesloten van de projecten die in de Planner van het Middel tonen. Wij adviseren het toewijzen van middelen slechts aan kindtaken als u de tijd of de kosten van die middelen in de Planner van het Middel wilt beheren.
 
-   Zie de volgende artikelen voor informatie over bovenliggende taken:
+  Zie de volgende artikelen voor informatie over bovenliggende taken:
 
    * [Overzicht van taken](../../manage-work/tasks/task-information/tasks-overview.md)
    * [Subtaken maken](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
-   >[!TIP]
-   >
-   >Bovenliggende taken geven een totaal weer van de uren en kosten van de onderliggende taken. Daarom zouden de teluren, FTE, en de kosten van de kindertaken en de oudertaken deze bedragen tweemaal tellen. Daarom wordt de informatie van de oudertaak uitgesloten van de Planner van het Middel.
+  >[!TIP]
+  >
+  >Bovenliggende taken geven een totaal weer van de uren en kosten van de onderliggende taken. Daarom zouden de teluren, FTE, en de kosten van de kindertaken en de oudertaken deze bedragen tweemaal tellen. Dit is waarom de informatie van de oudertaak van de Planner van het Middel wordt uitgesloten.
 
 * U kunt niet de toewijzing van teams op de projecten beheren waarop zij taken of kwesties in de Planner van het Middel hebben.
 * U kunt middelen voor veelvoudige projecten in één keer begroten gebruikend de Planner van het Middel, of voor één enkel project gebruikend het gebied van de Begroting van het Middel van het BedrijfsGeval. De informatie u voor één project begroot toont ook in de Planner van het Middel.
 
-   Zie het artikel voor informatie over hoe u middelen voor één project kunt begroten [Begrotingsmiddelen in het bedrijfscase](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Zie het artikel voor informatie over hoe u middelen voor één project kunt begroten [Begrotingsmiddelen in het bedrijfscase](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Voor informatie over hoe u middelen in de Planner van het Middel voor veelvoudige projecten kunt begroten tegelijkertijd, zie de sectie &quot;de middelen van de Begroting in de Planner van het Middel&quot;in het artikel [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Voor informatie over hoe u middelen in de Planner van het Middel voor veelvoudige projecten kunt begroten tegelijkertijd, zie de sectie &quot;de middelen van de Begroting in de Planner van het Middel&quot;in het artikel [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Vereisten voor het werken in de Planner van het Middel {#prerequisites-for-working-in-the-resource-planner}
 
@@ -82,7 +82,7 @@ U kunt informatie in de Planner van het Middel bekijken gebruikend drie afzonder
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(<b>THIS SECTION IS LINKED TO ALL RES PLANNING ARTICLES. DO NOT RENAME OF DELETE THIS!</b> - do NOT ADD the variable here, because it might break this link!)</p>
 -->
 
-Om de Planner van het Middel voor het opnemen van uw middelen met succes te gebruiken, moet u eerst ervoor zorgen dat u, uw projecten, en uw taken aan een reeks voorwaarden voldoen. Deze eerste vereisten zijn verplicht om de juiste informatie in de Planner van het Middel te tonen en uw middelen nauwkeurig te beheren.
+Om de Planner van het Middel voor het opnemen van uw middelen met succes te gebruiken, moet u eerst ervoor zorgen dat u, uw projecten, en uw taken aan een reeks voorwaarden voldoen. Deze eerste vereisten zijn verplicht om de juiste informatie in de functie voor middelenbeheer weer te geven en uw bronnen nauwkeurig te beheren.
 
 >[!IMPORTANT]
 >
@@ -108,54 +108,55 @@ Zorg ervoor dat de volgende gebruikersinstellingen bestaan voordat u de functie 
 
 * U hebt de juiste toegang tot begrotingsmiddelen.
 
-   Raadpleeg het artikel voor informatie over de toegang die nodig is voor begrotingsmiddelen [Toegang tot begrotingsmiddelen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Raadpleeg het artikel voor informatie over de toegang tot begrotingsmiddelen [Toegang tot begrotingsmiddelen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * De gebruikers die aan taken worden toegewezen worden toegevoegd aan de middelgroepen verbonden aan het project.
 
-   Voor informatie over het toevoegen van gebruikers aan middelpools, zie [Brongroepen koppelen aan gebruikers](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Voor informatie over het toevoegen van gebruikers aan middelpools, zie [Brongroepen koppelen aan gebruikers](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
-   >[!NOTE]
-   >
-   >Wanneer gebruikers niet aan middelgroepen worden toegevoegd, kunnen de volgende scenario&#39;s bestaan:
-   >
-   >   
-   >   
-   >   * De gebruikers verschijnen niet in de Planner van het Middel hoewel zij aan taken op de projecten zouden kunnen worden toegewezen.
-   >   * Als de taken zij met Geplande Uren worden geassocieerd, verschijnen die uren niet voor het project in de Planner van het Middel, tenzij de gebruiker ook met een baanrol op die taken wordt geassocieerd.
-   >   * Als de gebruikers met een baanrol op een taak op het project worden geassocieerd, tonen de Geplande Uren in de Planner van het Middel voor de baanrol, maar de baanrol kan niet in de begroting worden opgenomen.
-
+  >[!NOTE]
+  >
+  >Wanneer gebruikers niet aan middelgroepen worden toegevoegd, kunnen de volgende scenario&#39;s bestaan:
+  >
+  >   
+  >   
+  >   * De gebruikers verschijnen niet in de Planner van het Middel hoewel zij aan taken op de projecten zouden kunnen worden toegewezen.
+  >   * Als de taken zij met Geplande Uren worden geassocieerd, verschijnen die uren niet voor het project in de Planner van het Middel, tenzij de gebruiker ook met een baanrol op die taken wordt geassocieerd.
+  >   * Als de gebruikers met een baanrol op een taak op het project worden geassocieerd, tonen de Geplande Uren in de Planner van het Middel voor de baanrol, maar de baanrol kan niet in de begroting worden opgenomen.
+  >   
+  >
 
 * Gebruikers die zijn toegewezen aan werk- en bronnenpools, moeten aan hun profiel planningen en taakrollen hebben gekoppeld.
 
-   Voor informatie over het associëren van Programma&#39;s en de Rollen van de Baan met gebruikers, zie [Gebruikersprofiel bewerken](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Voor informatie over het associëren van Programma&#39;s en de Rollen van de Baan met gebruikers, zie [Gebruikersprofiel bewerken](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   >[!NOTE]
-   >
-   >De gebruikers die niet met een Programma maar in de middelpool van het project worden geassocieerd kunnen niet in de Planner van het Middel worden begroot.
+  >[!NOTE]
+  >
+  >De gebruikers die niet met een Programma maar in de middelpool van het project worden geassocieerd kunnen niet in de Planner van het Middel worden begroot.
 
 * Voor nauwkeurige Beschikbare informatie van Uren, zorg ervoor dat de programma&#39;s verbonden aan uw gebruikers de planningsuitzonderingen en tijd van bijgewerkt hebben.
 
-   >[!NOTE]
-   >
-   >Als een gebruiker niet aan een Programma wordt geassocieerd, wordt het Standaard Programma van uw systeem van Workfront geassocieerd met de gebruiker door gebrek, ten behoeve van de Planner van het Middel.
+  >[!NOTE]
+  >
+  >Als een gebruiker niet aan een Programma wordt geassocieerd, wordt het Standaard Programma van uw systeem van Workfront geassocieerd met de gebruiker door gebrek, ten behoeve van de Planner van het Middel.
 
-   Raadpleeg het artikel voor informatie over het maken van schema&#39;s [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Raadpleeg het artikel voor informatie over het maken van schema&#39;s [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Als u uw middelen door Kosten wilt begroten, moet u de Rollen van de Baan met Kosten/Hr associëren. tarieven. De kosten verbonden aan de Rollen van de Baan die aan gebruikers in uw middelpool worden toegewezen worden gebruikt om de begrote Arbeidskosten en de Begrotende Kosten van het project te berekenen.\
-   Zie het artikel voor informatie over het koppelen van taakrollen aan snelheden [Taakrollen maken en beheren](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-   Raadpleeg het artikel voor informatie over het berekenen van budgettaire arbeidskosten [Begrijpte arbeidskosten en begrotingsuren voor projecten begrijpen](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-   Raadpleeg het artikel voor informatie over het berekenen van begrote kosten [Geraamde kosten berekenen](../../manage-work/projects/project-finances/budgeted-cost.md).
+  Zie het artikel voor informatie over het koppelen van taakrollen aan snelheden [Taakrollen maken en beheren](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+  Raadpleeg het artikel voor informatie over het berekenen van budgettaire arbeidskosten [Begrijpte arbeidskosten en begrotingsuren voor projecten begrijpen](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
+  Raadpleeg het artikel voor informatie over het berekenen van begrote kosten [Geraamde kosten berekenen](../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ### Voorwaarden voor projecten {#project-prerequisites}
 
 Zorg ervoor dat de volgende projectinstellingen aanwezig zijn voordat u de functie Bronnen gaat gebruiken:
 
-* Uw projecten worden geassocieerd met middelgroepen.\
-   Voor meer informatie over het toevoegen van middelpools aan projecten, zie [Brongroepen koppelen aan projecten en sjablonen](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+* Uw projecten zijn gekoppeld aan bronnenpools.\
+  Voor meer informatie over het toevoegen van middelpools aan projecten, zie [Brongroepen koppelen aan projecten en sjablonen](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
-   >[!IMPORTANT]
-   >
-   >Projecten zonder bronnenpools geven geen informatie over de geplande uren of toewijzingen weer in de bronnenplanner.
+  >[!IMPORTANT]
+  >
+  >Projecten zonder bronnenpools geven geen informatie over de geplande uren of toewijzingen weer in de bronnenplanner.
 
 ### Taken en vereisten voor problemen {#tasks-and-issues-prerequisites}
 
@@ -165,16 +166,16 @@ Zorg ervoor dat de volgende taak en probleeminstellingen aanwezig zijn voordat u
 
 * De taken of problemen met de projecten waarvoor u middelen in de begroting opneemt, worden aan een van deze entiteiten toegewezen:
 
-   * Gebruikers in de middelpools van het project die ook met de Rollen van de Baan worden geassocieerd
+   * Gebruikers in de bronnenpools van het project die ook zijn gekoppeld aan taakrollen
    * Taken rollen
 
-   >[!NOTE]
-   >
-   >De geplande uren van taken en kwesties die aan baanrollen worden toegewezen tonen in de Planner van het Middel, maar deze uren kunnen niet in de begroting worden opgenomen tenzij een gebruiker die met de baanrol wordt geassocieerd in een middelpool verbonden aan het project wordt vermeld.
+  >[!NOTE]
+  >
+  >De geplande uren van taken en kwesties die aan baanrollen worden toegewezen tonen in de Planner van het Middel, maar deze uren kunnen niet in de begroting worden opgenomen tenzij een gebruiker die met de baanrol wordt geassocieerd in een middelpool verbonden aan het project wordt vermeld.
 
 * U zou oudertaken aan gebruikers of rollen niet moeten toewijzen.
 
-   Om uurinformatie in de Planner van het Middel voor gebruikers of rollen te tonen verbonden aan oudertaken moet u hen aan de kindtaken ook toewijzen. De Planner van het Middel toont geen informatie van oudertaken.
+  Om uurinformatie in de Planner van het Middel voor gebruikers of rollen te tonen verbonden aan oudertaken moet u hen aan de kindtaken ook toewijzen. De Planner van het Middel toont geen informatie van oudertaken.
 
 * Taken en uitgaven hebben een waarde voor Geplande uren die groter is dan nul.
 * De taken en de kwesties hebben een waarde voor hun Duur die groter is dan nul.
@@ -252,7 +253,7 @@ U kunt beschikbaarheid, toewijzing, en geplande waarden in de Planner van het Mi
 
 Voor meer informatie over het veranderen van de informatie u in de Planner van het Middel toont, zie de sectie [Informatie weergeven per uur, VTE of Kosten](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) in het artikel [Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Raadpleeg het artikel voor meer informatie over hoe de uren en FTE voor gebruikers en rollen in Workfront worden berekend [Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Raadpleeg het artikel voor meer informatie over hoe de Uren en FTE voor gebruikers en rollen in Workfront worden berekend [Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Kosten berekenen in de bronnenplanner
 

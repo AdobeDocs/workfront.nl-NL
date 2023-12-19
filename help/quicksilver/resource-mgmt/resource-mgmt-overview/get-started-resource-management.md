@@ -7,9 +7,9 @@ description: Met resourcebeheer kunt u uw systeem zodanig configureren dat het g
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Het beheer van bronnen in Workfront omvat de volgende fasen:
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Analyse**: Als middelmanager, de Eigenaar van het Project, of personenmanager, herzie het Rapport van het Gebruik om te begrijpen hoe de begrote en geplande toewijzingen van uw middelen in vergelijking met daadwerkelijke degenen. Gegevens controleren op uren, kosten of inkomsten. Zie voor informatie over het gebruiksrapport: [Informatie over bronnengebruik weergeven](../../resource-mgmt/resource-utilization/view-utilization-information.md).
@@ -169,7 +169,7 @@ Raadpleeg de volgende bronnen voor informatie over de vereisten voor elk hulppro
 
 * De sectie [Vereisten voor het werken in de Planner van het Middel](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) in het artikel [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* De sectie [Aanbevolen werkwijzen voor het gebruik van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) in het artikel [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* De sectie [Aanbevolen werkwijzen voor het gebruik van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) in het artikel [Overzicht van werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Toegang tot begrotingsmiddelen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

@@ -1,40 +1,42 @@
 ---
 title: Opnameopmerkingen beheren
-description: U kunt samenwerken aan Adobe Maestro-records door updates toe te voegen en vragen of antwoorden te stellen in het gebied Opmerkingen van een record.
+description: U kunt samenwerken aan Adobe Maestro-records door opmerkingen of antwoorden toe te voegen in het gebied Opmerkingen van een record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # Opnameopmerkingen beheren
 
-U kunt samenwerken aan Adobe Maestro-records door updates toe te voegen en vragen of antwoorden te stellen in het gebied Opmerkingen van een record.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. </span>
+
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+U kunt samenwerken aan Adobe Maestro-records door opmerkingen of antwoorden toe te voegen in het gebied Opmerkingen van een record.
 
 ## Overwegingen bij opmerkingen in een record
 
 * U kunt opmerkingen en antwoorden toevoegen aan de operationele records en taxonomieën in Maestro, in de sectie Opmerkingen van een record.
 
-* Opmerkingen die zijn toegevoegd aan gekoppelde records, worden niet weergegeven op de records waarvan u een koppeling maakt. Bijvoorbeeld, als u op een Project opmerkt dat met een verslag van de Campagne verbonden is, toont de commentaarvertoningen slechts op het projectverslag in Maestro en niet op het campagneverslag waarvan u koppelt.
+* Opmerkingen die zijn toegevoegd aan gekoppelde records, worden niet weergegeven op de records waarvan u een koppeling maakt. Als u bijvoorbeeld een opmerking maakt over een Maestro-productrecord die is gekoppeld aan een campagnerecord, wordt de opmerking alleen weergegeven in de productrecord in Maestro en niet in de campagnerecord van waaruit u een koppeling maakt.
 
-* Opmerkingen die zijn toegevoegd aan gekoppelde objecten in andere toepassingen, worden niet weergegeven in Maestro.
-Opmerkingen die zijn toegevoegd aan gekoppelde objecten in Maestro, worden niet weergegeven in andere toepassingen.\
-  Bijvoorbeeld, tonen de commentaren die aan projecten in Workfront worden toegevoegd niet op het zelfde project verbonden aan een campagne in Maestro.
+* U kunt opmerkingen toevoegen aan Maestro-records die zijn gemaakt als gevolg van een verbinding tussen een Maestro-record en een object uit een andere toepassing.
 
-* U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen geen melding in de app of een e-mail over uw update. U kunt geen tags toewijzen aan teams in een Maestro-commentaar.
+  U kunt bijvoorbeeld opmerkingen plaatsen bij het projectmaestro-record nadat u Workfront-projecten hebt verbonden met Maestro-records. Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* Eigenaars van opmerkingen worden niet automatisch gelabeld in een update.
-  >
-  >* U kunt getagde gebruikers niet verwijderen uit een update wanneer u erop reageert.
+* Opmerkingen die zijn toegevoegd aan gekoppelde objecten in andere toepassingen, worden niet weergegeven in Maestro en opmerkingen die zijn toegevoegd aan gekoppelde objecten in Maestro worden niet weergegeven in andere toepassingen.
+
+  Bijvoorbeeld, tonen de commentaren die aan projecten in Workfront worden toegevoegd niet op het zelfde project verbonden aan een campagne in Maestro, en de commentaren die aan het project Maestro- verslag worden toegevoegd tonen niet in Workfront.
+
+* U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen geen melding in de app of een e-mail over uw update. <!--this might change??-->
 
 * U kunt een update aan verslagen van de volgende gebieden van Maestro toevoegen:
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### Opmerkingen over records beheren
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/dots-main-menu.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/lines-main-menu.png) in de linkerbovenhoek klikt u op **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte wordt standaard geopend.
+De laatst geopende werkruimte wordt standaard geopend.
 1. Kies een tabelweergave in het menu **Weergave** vervolgkeuzelijst.
 1. Klik op de naam van een record in de tabelweergave.
 
-   De record **Details** pagina wordt geopend.
+   De record **Details** pagina wordt geopend. Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >Opmerkingen van het lopende jaar worden niet in het datumstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
 
-1. (Optioneel en voorwaardelijk) Als u naar een bestaande opmerking wilt zoeken, typt u een trefwoord in het zoekvak rechtsboven in het dialoogvenster **Opmerkingen** gebied.
+1. <span class="preview">(Optioneel en voorwaardelijk) Als u naar een bestaande opmerking wilt zoeken, typt u een trefwoord in het zoekvak rechtsboven in het dialoogvenster **Opmerkingen** gebied.</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. (Optioneel) Klik op **Antwoord** of u begint een opmerking te typen in het dialoogvenster **Antwoord toevoegen...** om te reageren op een bestaande opmerking, volgt u stap 4-8 hierboven. <!--(**************accurate??***********)-->
 

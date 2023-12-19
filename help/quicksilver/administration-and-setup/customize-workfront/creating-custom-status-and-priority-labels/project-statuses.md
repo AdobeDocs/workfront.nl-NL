@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De gebruikers kunnen de status van een project specificeren zodat andere gebruik
 
 Workfront wordt geleverd met 9 statussen van systeemprojecten. U kunt de naam van deze statussen wijzigen, maar u kunt ze niet verwijderen.
 
-U kunt ook aangepaste projectstatussen toevoegen die voldoen aan de behoeften in uw organisatie.
+U kunt ook aangepaste projectstatussen toevoegen om aan de behoeften in uw organisatie te voldoen.
 
 Als beheerder van Workfront, vormt u de standaardstatus voor alle nieuwe projecten in het systeem. Zie voor instructies [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,10 +65,10 @@ Voor informatie over het bewerken van een systeemstatus en het maken van aangepa
 
    ![](assets/project-status.png)
 
-   Voor details over elk van de ingebouwde statussen van het systeemproject, zie [Systeemprojectstatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+   Voor details over elk van de ingebouwde statussen van het systeemproject, zie [Overzicht van de status van systeemprojecten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
 ## Aangepaste projectstatussen maken en systeemstatussen aanpassen
 
 Als Workfront-beheerder kunt u systeemprojectstatussen toevoegen aan Workfront. Als groepseigenaar kunt u een aangepaste status toevoegen die specifiek is voor één groep. Ga voor meer informatie over het maken van aangepaste statussen of het bewerken van de systeemstatussen naar [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Wanneer u een status van het douaneproject creeert, moet u de nieuwe status met een bestaande systeemstatus altijd gelijkstellen. U moet het gedrag van de systeemstatus begrijpen om te weten welke status geschikt is om uw aangepaste status met te vergelijken. Nadat u de status gelijk hebt geselecteerd, kan deze selectie niet meer worden gewijzigd. Voor meer informatie over de statussen van het systeemproject, zie [Systeemprojectstatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+Wanneer u een status van het douaneproject creeert, moet u de nieuwe status met een bestaande systeemstatus altijd gelijkstellen. U moet het gedrag van de systeemstatus begrijpen om te weten welke status geschikt is om uw aangepaste status met te vergelijken. Nadat u de status gelijk hebt geselecteerd, kan deze selectie niet meer worden gewijzigd. Voor meer informatie over de statussen van het systeemproject, zie [Overzicht van de status van systeemprojecten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

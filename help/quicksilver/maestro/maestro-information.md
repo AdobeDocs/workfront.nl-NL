@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Lees de volgende artikelen voor een overzicht van de Adobe Maestro:
 
 De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven van de huidige Maestro-functies:
 
-* [Toegangsgegevens](../maestro/access/access-information.md): Informatie over de toegang en de toestemmingen nodig om Adobe Maestro te gebruiken.
-* [Architectuurgegevens](../maestro/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van Adobe Maestro, met geleidelijke instructies over hoe u werkruimten en verslagtypes tot stand kunt brengen en beheren.
-* [Veldgegevens](../maestro/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies over het maken van aangepaste velden voor Maestro-recordtypen.
-* [Registergegevens](../maestro/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
-* [Weergavegegevens](../maestro/views/views-information.md): Uitgebreide informatie over Maestro-weergaven en hoe u deze kunt beheren bij het weergeven van records in een recordtype pagina.
+* [Toegang: artikelindex](../maestro/access/access-information.md): Informatie over de toegang en de toestemmingen nodig om Adobe Maestro te gebruiken.
+* [Architectuur: artikelindex](../maestro/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van Adobe Maestro, met geleidelijke instructies over hoe u werkruimten en verslagtypes tot stand kunt brengen en beheren.
+* [Velden: artikelindex](../maestro/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies over het maken van aangepaste velden voor Maestro-recordtypen.
+* [Records: artikelindex](../maestro/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
+* [Weergaven: artikelindex](../maestro/views/views-information.md): Uitgebreide informatie over Maestro-weergaven en hoe u deze kunt beheren bij het weergeven van records in een recordtype pagina.

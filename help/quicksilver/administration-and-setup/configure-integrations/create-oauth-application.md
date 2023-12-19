@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Als [!DNL Adobe Workfront] beheerder, kunt u toepassingen OAuth2 voor uw geval tot stand brengen van [!DNL Workfront], waarmee andere toepassingen toegang kunnen krijgen tot Workfront. Uw gebruikers kunnen deze andere toepassingen vervolgens toestemming geven om toegang te krijgen tot hun Workfront-gegevens. Op deze manier kunt u Workfront integreren met uw eigen toepassingen, inclusief uw eigen interne toepassingen.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
 
 # OAuth2-toepassingen maken voor [!DNL Workfront] integratie
 
-Als [!DNL Adobe Workfront] beheerder, kunt u toepassingen OAuth2 voor uw geval tot stand brengen van [!DNL Workfront]die andere toepassingen toegang geven tot [!DNL Workfront]. Uw gebruikers kunnen deze andere toepassingen dan toestemming geven om toegang te krijgen tot hun [!DNL Workfront] gegevens. Op deze manier kunt u integreren met toepassingen van uw keuze, inclusief uw eigen interne toepassingen.
+Als [!DNL Adobe Workfront] beheerder, kunt u toepassingen OAuth2 voor uw geval tot stand brengen van [!DNL Workfront], die andere toepassingen toegang geven tot [!DNL Workfront]. Uw gebruikers kunnen deze andere toepassingen dan toestemming geven om hun [!DNL Workfront] gegevens. Op deze manier kunt u integreren met toepassingen van uw keuze, inclusief uw eigen interne toepassingen.
 
 Wanneer u een [!UICONTROL OAuth2] toepassing, produceert u een identiteitskaart van de Cliënt en Geheime cliënt. Uw gebruikers kunnen de client-id vervolgens gebruiken in API-aanroepen om deze te integreren met de toepassing die u hebt gemaakt.
 
@@ -42,7 +43,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nieuw: [!UICONTROL Standard]</p>
+   of
+   <p>Huidige:[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -53,9 +56,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw [!DNL Workfront] beheerder.
 
-## Overzicht OAuth2
+## OAuth2-overzicht
 
-Stel dat een toepassing bepaalde specifieke informatie moet ophalen uit [!DNL Workfront]. Een toepassing die om informatie verzoekt wordt genoemd een cliënt. In dit voorbeeld is de naam van de client ClientApp. ClientApp heeft toegang tot de informatie van een bepaalde gebruiker nodig en moet daarom toegang hebben [!DNL Workfront] als die gebruiker. Als uw gebruiker ClientApp hun gebruikersnaam en wachtwoord geeft, kon ClientApp tot alle gegevens toegang hebben die de gebruiker kan toegang hebben. Dit is een beveiligingsrisico, omdat ClientApp slechts een kleine, specifieke verzameling informatie nodig heeft.
+Stel dat een toepassing bepaalde specifieke informatie moet ophalen uit [!DNL Workfront]. Een toepassing die om informatie verzoekt wordt genoemd een cliënt. In dit voorbeeld is de naam van de client ClientApp. ClientApp heeft toegang tot de informatie van een bepaalde gebruiker nodig en moet daarom toegang krijgen tot [!DNL Workfront] als die gebruiker. Als uw gebruiker ClientApp hun gebruikersnaam en wachtwoord geeft, kon ClientApp tot alle gegevens toegang hebben die de gebruiker kan toegang hebben. Dit is een beveiligingsrisico, omdat ClientApp slechts een kleine, specifieke verzameling informatie nodig heeft.
 
 Wanneer u een OAuth2-app voor ClientApp maakt, vertelt u [!DNL Workfront] dat ClientApp toegang heeft tot [!DNL Workfront], maar alleen als de gebruiker wiens account ClientApp benadert, toestemming geeft voor de toegang.
 
@@ -70,7 +73,7 @@ Wanneer u een OAuth2-toepassing maakt, kiest u het type toepassing dat het beste
  <thead> 
   <tr> 
    <th>Toepassingstype</th> 
-   <th>Meest geschikt voor</th> 
+   <th>Best voor</th> 
    <th>Verificatiemethode</th> 
   </tr> 
  </thead> 
@@ -86,7 +89,7 @@ Wanneer u een OAuth2-toepassing maakt, kiest u het type toepassing dat het beste
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webtoepassing met één pagina</p> </td> 
-   <td> <p>Meest geschikt voor mobiele toepassingen of webtoepassingen die uit één pagina bestaan</p> <p>Voorbeelden:</p> 
+   <td> <p>Meest geschikt voor mobiele of webtoepassingen met één pagina</p> <p>Voorbeelden:</p> 
     <ul> 
      <li> <p>[!DNL Javascript]</p> </li> 
      <li> <p>[!DNL Angular]</p> </li> 
@@ -112,7 +115,7 @@ Wanneer u een OAuth2-toepassing maakt, kiest u het type toepassing dat het beste
 
 >[!NOTE]
 >
->U kunt tot tien toepassingen OAuth2 in totaal tegelijkertijd hebben.
+>U kunt tot een totaal van tien Toepassingen OAuth2 in één keer hebben.
 
 * [Een OAuth2-toepassing maken met serververificatie (JWT-stroom)](#create-an-oauth2-application-using-server-authentication-jwt-flow)
 * [Een OAuth2-toepassing maken met gebruikersgegevens (doorloop machtigingscode)](#create-an-oauth2-application-using-user-credentials-authorization-code-flow)
@@ -120,11 +123,12 @@ Wanneer u een OAuth2-toepassing maakt, kiest u het type toepassing dat het beste
 
 ### Een OAuth2-toepassing maken met serververificatie (JWT-stroom) {#create-an-oauth2-application-using-server-authentication-jwt-flow}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth Applications]**.
-1. Klik op **[!UICONTROL Create app integration]**.
-1. Selecteer in het venster dat wordt weergegeven **[!UICONTROL Server Authentication]**.
+1. Klik in het linkernavigatievenster op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth2 Applications]**.
+1. Klikken **[!UICONTROL Create app integration]**.
+De **Nieuwe OAuth2-toepassing** wordt weergegeven.
+1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Server Authentication]**.
 1. Voer een naam in voor de nieuwe toepassing, bijvoorbeeld &quot;[!DNL Workfront] voor ClientApp.&quot;
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
@@ -139,10 +143,10 @@ Wanneer u een OAuth2-toepassing maakt, kiest u het type toepassing dat het beste
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b>BELANGRIJK</b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een nieuw Geheim van de Cliënt.</p> 
+      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b>BELANGRIJK</b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een Geheim van de Cliënt.</p> 
         <ol> 
          <li value="1"> <p>Klik op de knop <b>[!UICONTROL Delete]</b> pictogram <img src="assets/delete.png"> om het huidige Geheim van de Cliënt te schrappen.</p> </li> 
-         <li value="2"> <p>Klikken <b>[!UICONTROL Add client secret]</b> om een nieuw Geheime cliënt te produceren.</p> </li> 
+         <li value="2"> <p>Klikken <b>[!UICONTROL Add client secret]</b> om een nieuw Geheim van de Cliënt te produceren.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
@@ -170,10 +174,13 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
 
 ### Een OAuth2-toepassing maken met gebruikersgegevens (doorloop machtigingscode) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth Applications]**.
+{{step-1-to-setup}}
+
+1. Klik in het linkernavigatievenster op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth2 Applications]**.
 1. Klik op **[!UICONTROL Create app integration]**.
-1. Selecteer in het venster dat wordt weergegeven de optie **[!UICONTROL User Authentication]**.
+
+   De **Nieuwe OAuth2-toepassing** worden weergegeven.
+1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL User Authentication]**.
 1. Voer een naam in voor de nieuwe OAuth2-toepassing, bijvoorbeeld &quot;[!DNL Workfront] voor ClientApp.&quot;
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
@@ -188,10 +195,10 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b>BELANGRIJK</b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een nieuw Geheim van de Cliënt.</p> 
+      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b>BELANGRIJK</b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een Geheim van de Cliënt.</p> 
         <ol> 
          <li value="1"> <p>Klik op de knop <b>[!UICONTROL Delete]</b> pictogram <img src="assets/delete.png"> om het huidige Geheim van de Cliënt te schrappen.</p> </li> 
-         <li value="2"> <p>Klikken <b>[!UICONTROL Add client secret]</b> om een nieuw Geheime cliënt te produceren.</p> </li> 
+         <li value="2"> <p>Klikken <b>[!UICONTROL Add client secret]</b> om een nieuw Geheim van de Cliënt te produceren.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
@@ -204,7 +211,7 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
-      <td> <p>Selecteer de hoeveelheid tijd u een vernieuwingstoken wenst te bestaan alvorens het verloopt. Wanneer het verloopt, moeten uw gebruikers zich opnieuw aan de integratie aanmelden. Selecteren "[!UICONTROL No expiration]" als u niet wilt dat het token vernieuwen verloopt.</p> </td> 
+      <td> <p>Selecteer de hoeveelheid tijd dat u een vernieuwingstoken wilt bestaan alvorens het verloopt. Wanneer het verloopt, moeten uw gebruikers zich opnieuw aan de integratie aanmelden. Selecteren "[!UICONTROL No expiration]" als u niet wilt dat het token vernieuwen verloopt.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Vernieuwingstoken voor inactiviteit verlopen</td> 
@@ -212,7 +219,7 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Logo]</td> 
-      <td>U kunt een logo toevoegen om deze app identificeerbaarder te maken. </td> 
+      <td>U kunt een logo toevoegen om deze app beter te kunnen identificeren. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
@@ -235,10 +242,13 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
 
 ### Een OAuth2-webtoepassing met één pagina maken met PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth Applications]**.
+{{step-1-to-setup}}
+
+1. Klik in het linkernavigatievenster op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth2 Applications]**.
 1. Klik op **[!UICONTROL Create app integration]**.
-1. Selecteer in het venster dat wordt weergegeven de optie **[!UICONTROL Single-page web application]**.
+
+   De **Nieuwe OAuth2-toepassing** wordt weergegeven.
+1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Single Page Web Application]**.
 1. Voer een naam in voor de nieuwe [!UICONTROL OAuth2] , zoals &quot;[!DNL Workfront] voor ClientApp.&quot;
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
@@ -252,24 +262,24 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
       <td> <p>Dit veld wordt automatisch gegenereerd.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Redirect URLs]</td> 
+      <td role="rowheader">[!UICONTROL Redirect URls]</td> 
       <td>Gebruikers worden omgeleid naar dit pad nadat ze zijn geverifieerd met Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Refresh token rotation]</td> 
+      <td role="rowheader">[!UICONTROL Rotate refresh token everytime it is used]</td> 
       <td>Schakel deze optie in om een nieuw token voor vernieuwen uit te geven wanneer het token voor vernieuwen wordt gebruikt. Uw toepassing moet het nieuwe vernieuwingstoken opslaan na elke verfrissing.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
+      <td role="rowheader">[!UICONTROL Absolute expiration]</td> 
       <td> <p>Selecteer de hoeveelheid tijd u een vernieuwingstoken wenst te bestaan alvorens het verloopt. Wanneer het verloopt, moeten uw gebruikers zich opnieuw aan de integratie aanmelden. Selecteren "[!UICONTROL No expiration]" als u niet wilt dat het token vernieuwen verloopt.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Inactivity refresh token expiration]</td> 
+      <td role="rowheader">[!UICONTROL Inactivity expiration]</td> 
       <td> <p>Selecteer de hoeveelheid tijd waarna, als de gebruiker niet in uw systeem actief is geweest, verfrist hun token verloopt. </p> <p>Bijvoorbeeld, als de inactiviteit symbolische vervaldatum 6 maanden vernieuwt, en de gebruiker login niet zes maanden is, verfrist het token verloopt alhoewel de absolute verfrist symbolische vervaldatum voor langer kan worden geplaatst.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Logo]</td> 
-      <td>U kunt een logo toevoegen om deze app identificeerbaarder te maken. </td> 
+      <td>U kunt een logo toevoegen om deze app beter te kunnen identificeren. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
@@ -280,11 +290,25 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
       <td>Voer een beschrijving in voor de integratie.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL App Description URL]</td> 
-      <td>Dit kan een koppeling zijn naar een pagina "Over ons" of een pagina met meer informatie over de integratie.</td> 
+      <td role="rowheader">[!UICONTROL Developer name]</td> 
+      <td>Dit is de naam van de ontwikkelaar die de OAuth2-toepassing instelt.</td> 
      </tr> 
-    </tbody> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Developer email address]</td> 
+      <td>Dit is het e-mailadres van de ontwikkelaar die de OAuth2-toepassing instelt.</td> 
+     </tr> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Privacy policy UTL]</td> 
+      <td>Dit is de verbinding aan waar uw organisatie het privacybeleid opslaat.</td> 
+     </tr>
+
+
+   </tbody> 
    </table>
+
+   <!-- removed this from the table, and added "Developer name" and following rows:
+   [!UICONTROL App Description URL]</td> 
+      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
 
 1. Klik op **[!UICONTROL Save]**.
 

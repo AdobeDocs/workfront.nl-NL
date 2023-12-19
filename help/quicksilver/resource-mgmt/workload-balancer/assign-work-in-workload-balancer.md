@@ -6,9 +6,9 @@ description: Als middelmanager, kunt u de Balancer van de Werkbelasting van Adob
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Als middelmanager, kunt u de Balancer van de Werkbelasting van Adobe Workfront gebruiken om het werkpunten te bekijken die nog niet aan gebruikers zijn toegewezen evenals deze punten aan hen toe te wijzen.
 
-Zie voor algemene informatie over de werklastbalans [Overzicht van de werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Zie voor algemene informatie over de werklastbalans [Overzicht van werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 U kunt werkitems (taken en problemen) toewijzen aan gebruikers in andere gebieden van Workfront. Nochtans, door de Balancer van de Werklast te gebruiken kunt u de beschikbaarheid van gebruikers gemakkelijk begrijpen en duidelijk alle andere punten zien zij aan alvorens hen meer werk toe te wijzen worden toegewezen.
 

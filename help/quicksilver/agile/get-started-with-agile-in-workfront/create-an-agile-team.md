@@ -6,9 +6,9 @@ description: Met Adobe Workfront kunnen mobiele teams hun werk op een incremente
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Om het even welke gebruiker in de organisatie kan het agile team zien en alle ag
 
 * **[!UICONTROL Scrum]**: Teams hebben een achterstand op het werk die moet worden gedaan. Wanneer het team aan een specifiek segment van het werk klaar is te werken, wordt het werk verplaatst van de achterstand naar een herhaling. Voor meer gedetailleerde informatie over het beheren van een team van de Trommel, zie [Scrum in een mobiel team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* **[!UICONTROL Kanban]:** Teams verplaatsen het werk in de Kanban-weergave naar een vooraf bepaalde status. Standaardstatussen zijn: achterstand, in-process, en gereed. Voor meer gedetailleerde informatie over het beheren van een Kanban-team raadpleegt u [Kanban in een team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **[!UICONTROL Kanban]:** Teams verplaatsen het werk in de Kanban-weergave naar een vooraf bepaalde status. De standaardstatussen zijn: achterstand, in-proces, en gedaan. Voor meer gedetailleerde informatie over het beheren van een Kanban-team raadpleegt u [Kanban in een team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Toegangsvereisten
 
@@ -56,34 +56,34 @@ Zowel Scrum als Kanban agile methodologieën in [!DNL Workfront] Hiermee kunt u 
 
 Scrum en Kanban agile, methodologieën op het gebied van [!DNL Workfront] verschillen op de volgende manieren:
 
-### Voordelen van het gebruik van Kanban in [!DNL Workfront]
+### Voordelen van Kanban in [!DNL Workfront]
 
 De [!DNL Kanban] flexibele methodologie in [!DNL Workfront] kunt u artikelen gemakkelijker over een &#39;agile story&#39;-bord verplaatsen en de hoeveelheid werk die wordt uitgevoerd, beperken. Er zijn geen begin- en einddatums wanneer u de opdracht [!DNL Kanban] flexibele methodologie.
 
-De volgende functionaliteit ondersteunt deze methode:
+Deze methode wordt ondersteund door de volgende functionaliteit:
 
-* De achterstand weergeven op het tabblad [!DNL Kanban] &#39;agile story board&#39;.\
+* De achterstand weergeven op het tabblad [!DNL Kanban] agile verhaalbord.\
    Zie voor meer informatie [De achterstand toevoegen aan de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Configureer items op de achtergrond die automatisch moeten worden toegevoegd aan de [!UICONTROL Kanban] Een artikel opnieuw labelen wanneer andere items worden verplaatst naar een status die gelijk is aan Voltooien.\
    Zie de sectie voor meer informatie [Artikelen configureren die automatisch worden toegevoegd vanaf de achtergrond](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in het artikel [Kanban configureren](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configureer een WIP-limiet (Work In Progress) die moet worden weergegeven op het tabblad [!UICONTROL Kanban] &#39;agile story board&#39;.\
+* Configureer een WIP-limiet (Work In Progress) die moet worden weergegeven op het tabblad [!UICONTROL Kanban] agile verhaalbord.\
    Zie voor meer informatie [De WIP-limiet (work in progress) op de Kanban-board beheren](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Voordelen van het gebruik van Scrum in [!DNL Workfront]
 
-De methode voor de rol van de trommel in [!DNL Workfront] kunt u een set artikelen toevoegen aan een flexibele herhaling en een artikelbord voor die herhaling maken. De herhaling is gebaseerd op de begin- en einddatum die u definieert.
+De methode voor de rol van de trommel [!DNL Workfront] kunt u een set artikelen toevoegen aan een flexibele herhaling en een artikelbord voor die herhaling maken. De herhaling is gebaseerd op de begin- en einddatum die u definieert.
 
-De volgende functionaliteit ondersteunt deze methode:
+Deze methode wordt ondersteund door de volgende functionaliteit:
 
-* Inclusief problemen op het tabblad [!UICONTROL Scrum] artikelbord
+* Inclusief problemen op het tabblad [!UICONTROL Scrum] artikelenlijst
 * Inclusief problemen op de achtergrond van een bestandsteam
-* Subtaken kunnen worden weergegeven op het tabblad [!UICONTROL Scrum] artikelbord
+* Subtaken kunnen worden weergegeven op de [!UICONTROL Scrum] artikelenlijst
 * Een uitvouwdiagram weergeven om de voortgang tegen artikelen tijdens de herhaling te bekijken\
    Zie voor meer informatie [Overzicht van gile burndown-diagram](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-## Nieuw team maken
+## Een bestandsteam maken
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
 1. Klik op de knop **[!UICONTROL Switch Teams]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)en klik vervolgens op **[!UICONTROL Create New Team]**.
@@ -106,7 +106,7 @@ De volgende functionaliteit ondersteunt deze methode:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Typ de naam van een groep die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.</p> <p>Opmerking: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. Groepbeheerders kunnen naar [!UICONTROL Teams] gebied van de [!UICONTROL Main Menu] en klik op de knop [!UICONTROL Switch Teams] pijl <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.</p> </td> 
+      <td> <p>Typ de naam van een groep die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.</p> <p>Nota: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. Groepbeheerders kunnen naar [!UICONTROL Teams] gebied van de [!UICONTROL Main Menu] en klik op de knop [!UICONTROL Switch Teams] pijl <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
