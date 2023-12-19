@@ -2,18 +2,22 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Maken [!DNL Adobe Workfront] taken van [!DNL Microsoft] Teams
-description: U kunt persoonlijke taken in Adobe maken [!DNL Workfront] van Microsoft Teams als een teameigenaar heeft geïnstalleerd en geconfigureerd [!DNL Workfront] voor Microsoft Teams voor uw team, en u wordt geregistreerd in Workfront van Microsoft Teams.
+description: U kunt persoonlijke taken maken in de Adobe [!DNL Workfront] van Microsoft Teams als een teameigenaar heeft geïnstalleerd en geconfigureerd [!DNL Workfront] voor Microsoft Teams voor uw team, en u wordt geregistreerd in Workfront van Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # Maken [!DNL Adobe Workfront] taken van [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
 
 ## Toegangsvereisten
 
@@ -38,14 +42,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-U kunt persoonlijke taken maken in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgende voorwaarden is voldaan:
+U kunt in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgende voorwaarden is voldaan:
 
 * Een teameigenaar heeft geïnstalleerd en geconfigureerd [!DNL Workfront for Microsoft Teams] voor uw team.
 * U bent aangemeld [!DNL Workfront] van [!DNL Microsoft Teams].
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet langer [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams] integratie, moet u een Webbrowser buiten gebruiken [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams] integratie, moet u een Webbrowser buiten gebruiken [!DNL Internet Explorer].
 
 Voor informatie over installeren [!DNL Workfront for Microsoft Teams] en aanmelden bij [!UICONTROL Workfront] van [!DNL Microsoft Teams], zie [Installeren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -63,9 +67,9 @@ Voor informatie over installeren [!DNL Workfront for Microsoft Teams] en aanmeld
       * Begin met typen **[!DNL @workfront]** in de [!UICONTROL conversation] veld selecteert u vervolgens de [!DNL Workfront] beide kanalen die je wilt.
       * Doorgaan met typen **[!UICONTROL New task]** in de [!UICONTROL conversation] veld om een nieuwe taak te maken.
 
-         De [!UICONTROL New task] kaartweergaven in het dialoogvenster [!DNL Workfront] beide kanalen.
+        De [!UICONTROL New task] kaartweergaven in de [!DNL Workfront] beide kanalen.
 
-         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+        ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
 1. In de [!UICONTROL Workfront] beide kanalen, specificeer de volgende informatie op [!UICONTROL New task] kaart:
 
@@ -73,7 +77,7 @@ Voor informatie over installeren [!DNL Workfront for Microsoft Teams] en aanmeld
    * Taakbeschrijving in het dialoogvenster **[!UICONTROL Write the tasks's description]** veld.
    * De datum waarop de taak moet zijn voltooid door **[!UICONTROL Due Date]** veld.
 
-1. Klik op **[!UICONTROL Save].**
+1. Klikken **[!UICONTROL Save].**
 
    De nieuwe persoonlijke taak wordt gecreëerd in [!DNL Workfront]. A [!UICONTROL Reference Number] is toegewezen aan en zichtbaar op de knop [!UICONTROL new task] kaart.
 

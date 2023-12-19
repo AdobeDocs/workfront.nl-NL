@@ -2,20 +2,24 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Zoeken naar en delen [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]
-description: U kunt zoeken naar [!DNL Workfront] objecten in [!DNL Adobe WorkfrontWorkfront] kanaal in [!DNL Microsoft Teams] en deel deze items met leden van uw teams.
+description: U kunt zoeken naar [!DNL Workfront] items in alle [!DNL Adobe WorkfrontWorkfront] kanaal in [!DNL Microsoft Teams] en deel deze items met leden van uw teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
 # Zoeken naar en delen [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]
 
-U kunt zoeken naar [!DNL Workfront] objecten in [!DNL Adobe Workfront] kanaal in [!DNL Microsoft Teams] en deel deze items met leden van uw teams.
+>[!NOTE]
+>
+>De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+
+U kunt zoeken naar [!DNL Workfront] items in alle [!DNL Adobe Workfront] kanaal in [!DNL Microsoft Teams] en deel deze items met leden van uw teams.
 
 * [Voorwaarden voor delen [!DNL Workfront] objecten in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Zoeken naar en delen [!DNL Workfront] objecten in [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -52,7 +56,7 @@ Voor informatie over installeren [!UICONTROL Workfront for Microsoft Teams] en a
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet langer [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
 
 
 ## Zoeken naar en delen [!DNL Workfront] objecten in [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
@@ -62,9 +66,9 @@ U kunt het volgende zoeken: [!DNL Workfront] objecten van een [!DNL Microsoft Te
 * Projecten
 * Taken
 
-   >[!NOTE]
-   >
-   >U kunt niet zoeken naar persoonlijke taken.
+  >[!NOTE]
+  >
+  >U kunt niet zoeken naar persoonlijke taken.
 
 * Problemen
 
@@ -77,14 +81,14 @@ Als u naar een [!DNL Workfront] item van [!DNL Microsoft Teams] en delen met and
 
    * Klik op de knop [!DNL Workfront] pictogram onder het gespreksgebied.\
 
-      ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
+     ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
       Afhankelijk van uw instellingen wordt dit pictogram mogelijk weergegeven onder de **[!UICONTROL More]** in plaats daarvan.\
       ![more_icon.png](assets/more-icon-52x34.png)\
       De **[!UICONTROL Search]** wordt standaard weergegeven.
 
-   * Type *@[!DNL Workfront]* van om het even welk kanaal, selecteer Workfront en selecteer dan **[!UICONTROL Search].**
+   * Type *@[!DNL Workfront]* van om het even welk kanaal, selecteer Workfront en dan **[!UICONTROL Search].**
 
-      ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
+     ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
 1. In de [!UICONTROL search] opgegeven, typt u de naam of het referentienummer van een project, taak of uitgave en klikt u erop wanneer het in de lijst wordt weergegeven.\
    ![ms_teams_search_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\

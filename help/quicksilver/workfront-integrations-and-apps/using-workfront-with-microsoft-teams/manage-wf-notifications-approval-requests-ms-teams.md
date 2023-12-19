@@ -6,14 +6,18 @@ description: U kunt meldingen ontvangen van [!DNL Adobe Workfront] over items di
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
 
 # Beheren [!DNL Adobe Workfront] meldingen in [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
 
 U kunt meldingen ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
 

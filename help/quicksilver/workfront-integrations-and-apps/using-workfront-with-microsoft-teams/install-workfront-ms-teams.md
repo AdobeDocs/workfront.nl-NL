@@ -6,20 +6,24 @@ description: De [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandeling
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
 # Installeren [!DNL Adobe Workfront] voor Microsoft Teams
 
+>[!NOTE]
+>
+>De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+
 De [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandelingen uitvoeren in [!DNL Workfront] zonder uw [!DNL Microsoft Teams] chatkanalen.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet langer [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
 
 
 ## Toegangsvereisten
@@ -45,11 +49,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-U moet teameigenaar zijn in [!DNL Microsoft Teams] om te installeren [!DNL Workfront] for [!DNL Microsoft Teams].
+U moet teameigenaar zijn in [!DNL Microsoft Teams] installeren [!DNL Workfront] for [!DNL Microsoft Teams].
 
 ## Installeren [!DNL Workfront for Microsoft Teams]
 
-Als teameigenaar in [!DNL Microsoft Teams], kunt u de [!DNL Workfront for Microsoft Teams] app voor elk van uw teams, ofwel [!DNL Microsoft] Opslaan of een bestand van [!DNL Workfront].
+Als teameigenaar in [!DNL Microsoft Teams], kunt u de [!DNL Workfront for Microsoft Teams] app voor elk van uw teams, ofwel [!DNL Microsoft] Opslaan of van een bestand voorzien door [!DNL Workfront].
 
 * [Installeren [!DNL Workfront for Microsoft Teams] uit de Microsoft Store](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
 * [Installeren [!DNL Workfront for Microsoft Teams] uit een privébestand](#install-workfront-for-microsoft-teams-from-a-private-file)
@@ -82,7 +86,7 @@ Als teameigenaar in [!DNL Microsoft Teams], kunt u de [!DNL Workfront for Micros
 
       Voor informatie over zoeken naar [!DNL Workfront] objecten, zie [Zoeken naar en delen [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
-1. Klikken **[!UICONTROL Log in to [!DNL Workfront]]** toegang [!DNL Workfront from Microsoft Teams].
+1. Klikken **[!UICONTROL Log in to [!DNL Workfront]]** toegang tot [!DNL Workfront from Microsoft Teams].
 
    Voor informatie over aanmelden bij [!DNL Workfront], zie de [Aanmelden bij Workfront vanaf Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) in dit artikel.
 
@@ -99,7 +103,7 @@ Om te installeren [!DNL Workfront for Microsoft Teams] uit een privébestand:
 1. Klik op de knop **[!UICONTROL More]** pictogram voor het team waarvoor u wilt installeren [!DNL Workfront for Microsoft Teams].
 
 1. Klik op **[!UICONTROL Manage Team]**.
-1. Selecteer **[!UICONTROL Apps]** tab, en klik vervolgens op **[!UICONTROL Upload a custom app]** in de rechterbenedenhoek van het scherm.
+1. Selecteer de **[!UICONTROL Apps]** tab, en klik vervolgens op **[!UICONTROL Upload a custom app]** in de rechterbenedenhoek van het scherm.
 
 1. Blader naar het privébestand dat u op uw computer hebt opgeslagen en voer de installatiestappen uit [!DNL Workfront for Microsoft Teams].
 1. Wanneer de installatie is voltooid, verschijnt er een melding dat de installatie is gelukt in het kanaal Algemeen van het team dat u hebt geselecteerd. Alle leden van het team kunnen deze melding zien.
@@ -116,7 +120,7 @@ Om te installeren [!DNL Workfront for Microsoft Teams] uit een privébestand:
 
 Als [!DNL Microsoft Teams] teameigenaar, moet u de [!DNL Workfront for Microsoft Teams] app voor uw team voordat u of iemand anders in het team zich kan aanmelden bij [!DNL Workfront from Microsoft Teams].
 
-Wanneer u bent aangemeld bij [!DNL Workfront] van [!DNL Microsoft Teams], u kunt [!DNL Workfront] meldingen in de [!DNL Workfront] zowel kanaal als mogelijkheid om bepaalde handelingen uit te voeren in [!DNL Workfront] van [!DNL Microsoft Teams].
+Wanneer u bent aangemeld bij [!DNL Workfront] van [!DNL Microsoft Teams], u kunt [!DNL Workfront] meldingen in de [!DNL Workfront] zowel kanaal als functie kunnen bepaalde handelingen uitvoeren in [!DNL Workfront] van [!DNL Microsoft Teams].
 
 Voor informatie over het installeren van de [!DNL Workfront] app, zie de [Installeren [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) in dit artikel.
 
@@ -136,7 +140,7 @@ Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams]:
 
    Er wordt een nieuw browsertabblad geopend.
 
-1. Volg de aanwijzingen om u aan te melden [!DNL Workfront] het gebruiken van Verbeterde Authentificatie, OAuth 2.0, of uw Taal van de Prijsverhoging van de Veiligheid (SAML) URL.
+1. Volg de aanwijzingen voor aanmelden [!DNL Workfront] het gebruiken van Verbeterde Authentificatie, OAuth 2.0, of uw Taal van de Prijsverhoging van de Veiligheid (SAML) URL.
 
    >[!NOTE]
    >
@@ -144,7 +148,6 @@ Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams]:
    >* Verbeterde verificatie is pas beschikbaar na een [!DNL Workfront] de beheerder laat het voor deze integratie toe.
 
 
-
 1. Sluit het browsertabblad waar u zich hebt aangemeld en ga terug naar [!DNL Microsoft Teams].
 
-   Een bericht wordt weergegeven in het dialoogvenster [!DNL Workfront] chatten met het kanaal om te bevestigen dat u zich hebt aangemeld bij [!DNL Workfront] succesvol.
+   Een bericht wordt weergegeven in het dialoogvenster [!DNL Workfront] chatten naar om te bevestigen dat u zich hebt aangemeld bij [!DNL Workfront] succesvol.

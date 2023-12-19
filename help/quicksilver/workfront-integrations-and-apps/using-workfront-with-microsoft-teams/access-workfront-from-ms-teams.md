@@ -6,7 +6,7 @@ description: U hebt toegang tot [!DNL Adobe Workfront] van [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: ea7379df385f0ca8a11b35b95df9dd0927f21716
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -14,6 +14,10 @@ ht-degree: 0%
 ---
 
 # Toegang [!DNL Adobe Workfront] van [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
 
 U hebt toegang tot [!DNL Adobe Workfront] van [!DNL Microsoft Teams] en voert u meerdere handelingen uit in [!DNL Workfront] door opdrachten te typen in het dialoogvenster [!DNL Workfront] zowel kanaal als elk ander teamkanaal.
 
@@ -28,7 +32,7 @@ De opdrachten die u gebruikt van [!DNL Microsoft Teams] om deze handelingen uit 
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet langer [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
 
 ## Toegangsvereisten
 
@@ -53,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-U kunt persoonlijke taken maken in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgende voorwaarden is voldaan:
+U kunt in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgende voorwaarden is voldaan:
 
 * Een teameigenaar heeft geïnstalleerd en geconfigureerd [!DNL Workfront for Microsoft Teams] voor uw team.
 * U bent aangemeld [!DNL Workfront] van [!DNL Microsoft Teams].
@@ -65,7 +69,7 @@ U kunt persoonlijke taken maken in [!DNL Adobe Workfront] van [!DNL Microsoft Te
 
    ![teams_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png)
 
-1. Begin de naam van een project, een taak, of een kwestie te typen.
+1. Typ de naam van een project, taak of uitgave.
 
    Zie de sectie voor informatie over het zoeken naar objecten [Zoeken naar en delen [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
@@ -79,9 +83,9 @@ U kunt persoonlijke taken maken in [!DNL Adobe Workfront] van [!DNL Microsoft Te
 
    * Toegang [!DNL Workfront] rechtstreeks door een opdracht te typen in het dialoogvenster **[!UICONTROL Type your questions here]** veld.
 
-      Opdrachten zijn niet hoofdlettergevoelig.
+     Opdrachten zijn niet hoofdlettergevoelig.
 
-      De [!DNL Workfront] bot reageert op uw verzoek in de [!DNL Workfront] bot chatten kanaal.
+     De [!DNL Workfront] bot reageert op uw verzoek in de [!DNL Workfront] bot chatten kanaal.
 
 ## Toegang [!DNL Workfront] van een teamkanaal
 
@@ -94,14 +98,14 @@ U kunt persoonlijke taken maken in [!DNL Adobe Workfront] van [!DNL Microsoft Te
 1. Typ een van de volgende opdrachten om deze handelingen uit te voeren in Workfront.\
    Opdrachten zijn niet hoofdlettergevoelig:
 
-   * **[!UICONTROL Log in]** om u aan te melden bij [!DNL Workfront]
-   * **[!DNL Log out]** tot afmelden bij Workfront
+   * **[!UICONTROL Log in]** aan login aan [!DNL Workfront]
+   * **[!DNL Log out]** om zich af te melden bij Workfront
    * **[!DNL New task]** om een nieuwe persoonlijke taak te creëren
 
-      Voor informatie over het maken van nieuwe taken van [!DNL Microsoft Teams], zie [Maken [!DNL Adobe Workfront] taken van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Voor informatie over het maken van nieuwe taken van [!DNL Microsoft Teams], zie [Maken [!DNL Adobe Workfront] taken van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Help]** om een lijst met alle beschikbare opdrachten weer te geven.
 
-      De [!DNL Workfront] bot reageert op uw verzoek in de [!DNL Workfront] bot chatten kanaal.
+     De [!DNL Workfront] bot reageert op uw verzoek in de [!DNL Workfront] bot chatten kanaal.
 
 1. Ga naar de [!DNL Workfront] chatkanaal naar toegang [!DNL Workfront] en voltooi uw verzoek.

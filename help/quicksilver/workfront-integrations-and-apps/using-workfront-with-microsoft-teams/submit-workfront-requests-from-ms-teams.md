@@ -6,20 +6,24 @@ description: Nadat de eigenaar van uw team Adobe Workfront for Microsoft Teams h
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
 
 # Verzenden [!DNL Adobe Workfront] verzoeken van [!DNL Microsoft] Teams
 
-Nadat de eigenaar van uw team heeft geïnstalleerd [!DNL Adobe Workfront for Microsoft Teams], kunt u verzenden [!DNL Workfront] verzoeken van uw [!DNL Microsoft Teams] account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Voor informatie over installeren [!DNL Workfront for Microsoft Teams], zie [Installeren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>[!NOTE]
+>
+>De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+
+Nadat de eigenaar van uw team heeft geïnstalleerd [!DNL Adobe Workfront for Microsoft Teams], kunt u [!DNL Workfront] verzoeken van uw [!DNL Microsoft Teams] account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Voor informatie over installeren [!DNL Workfront for Microsoft Teams], zie [Installeren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet langer [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
 
 
 ## Toegangsvereisten
@@ -96,9 +100,9 @@ Uw [!DNL Microsoft Teams] teameigenaar moet installeren [!DNL Workfront] for [!D
 
    U kunt de volgende informatie over uw ingediende verzoeken bekijken in het dialoogvenster [!UICONTROL My submitted requests] gebied van de [!UICONTROL Requests] tab:
 
-   * **[!UICONTROL Subject]**: De naam van de aanvraag
+   * **[!UICONTROL Subject]**: De naam van het verzoek
    * **[!UICONTROL Reference number]**
-   * **[!UICONTROL Request type]**: De naam van de verzoekrij waar u het verzoek indiende
+   * **[!UICONTROL Request type]**: De naam van de aanvraagwachtrij waar u het verzoek hebt verzonden
    * **[!UICONTROL Status]**
    * **[!UICONTROL Submitted on]**: De datum waarop u het verzoek hebt ingediend
    * **[!UICONTROL Assigned to]**
