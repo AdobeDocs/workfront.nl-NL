@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2219'
 ht-degree: 0%
 
 ---
@@ -649,7 +649,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
 
 #### [!UICONTROL Make a custom API call]
 
-Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API
+Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>
