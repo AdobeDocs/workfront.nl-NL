@@ -5,18 +5,20 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: De beheerders van Adobe Workfront in een grote organisatie met vele afdelingen zouden niet alle afdelingen en groepen van de organisatie binnen die afdelingen kunnen willen beheren. In plaats daarvan, kunnen zij een groep voor elke afdeling en subgroepen binnen die groep tot stand brengen, elk geleid door een groepsbeheerder.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: 03667fbdd1b0d68b9ad2d2db4a1ed85b8136062b
+source-git-commit: 850e0801511177efc5189258acd9b88234cf59c9
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
 
 # Groepbeheerders
+
+<!-- Audited: 12/2023 -->
 
 De beheerders van Adobe Workfront in een grote organisatie met vele afdelingen zouden niet alle afdelingen en groepen van de organisatie binnen die afdelingen kunnen willen beheren. In plaats daarvan, kunnen zij een groep voor elke afdeling en subgroepen binnen die groep tot stand brengen, elk geleid door een groepsbeheerder.
 
@@ -40,18 +42,21 @@ Als u een beheerder van Workfront bent, adviseren wij dat u het volgende doet al
 * Let op het aantal groepen dat u in uw systeem hebt.
 * Bepaal of u het toegangsniveau van sommige beheerders van Workfront kunt veranderen en hen in plaats daarvan als groepsbeheerders aanwijzen.
 
-   Voor meer informatie over de mogelijkheden van groepsbeheerders, zie [Taken die door groepsbeheerders worden gedaan](#tasks-done-by-group-administrators).
+  Voor meer informatie over de mogelijkheden van groepsbeheerders, zie [Taken die door groepsbeheerders worden gedaan](#tasks-done-by-group-administrators) in dit artikel.
 
-* Bepaal of u groepsbeheerders als andere gebruikers wilt kunnen aanmelden, of wachtwoorden voor gebruikers in de groepen wilt terugstellen u beheert. Er is aanvullende toegang nodig om deze taken uit te voeren, zoals in [Toegang vereist voor groepbeheerders](#access-needed-for-group-administrators).
+* Bepaal of u groepsbeheerders als andere gebruikers wilt kunnen aanmelden, of wachtwoorden voor gebruikers in de groepen wilt terugstellen u beheert. Er is aanvullende toegang nodig om deze taken uit te voeren, zoals hieronder wordt uitgelegd [Toegang vereist voor groepbeheerders](#access-needed-for-group-administrators).
 * Voor een beter gebruikersbeheer kunt u groepen of subgroepen toewijzen in plaats van gebruikers aan de volgende objecten:
 
-   * Lay-outsjablonen
+   * Layoutsjablonen
    * Planningen
    * Tijdbladprofielen
 
 ## Toegang vereist voor groepbeheerders {#access-needed-for-group-administrators}
 
-Elke groepsbeheerder moet een licentie voor het abonnement hebben.
+Elke groepsbeheerder moet
+
+* Een planlicentie in het huidige prijsmodel en verpakkingsmodel
+* Een standaardlicentie in het nieuwe prijs- en verpakkingsmodel
 
 Wij adviseren dat de groepsbeheerders Edit toegang tot gebruikers hebben zodat zij de volgende taken kunnen uitvoeren:
 
@@ -60,31 +65,38 @@ Wij adviseren dat de groepsbeheerders Edit toegang tot gebruikers hebben zodat z
 
 >[!IMPORTANT]
 >
->Groepsbeheerders moeten een hogere toegang hebben dan degenen die zij beheren; anders, zullen zij geen lagere toegangsniveaus kunnen bekijken of wijzigen.
+>De beheerders van de groep moeten hogere toegang hebben dan zij leiden; anders, zullen zij niet lagere toegangsniveaus kunnen bekijken of wijzigen.
 >Voor instructies over het verlenen van deze toegang raadpleegt u [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Voor een groepsbeheerder die timesheet profielen aan gebruikers in hun groepen en subgroepen moet toewijzen, adviseren wij ook Administratieve toegang tot timesheets en uren. Voor instructies over het verlenen van deze toegang raadpleegt u [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Taken die door groepsbeheerders worden gedaan {#tasks-done-by-group-administrators}
 
-Als groepsbeheerder, kunt u de taken uitvoeren hieronder om de groepen te beheren die u controleert. Sommige hiervan zijn hetzelfde als de mogelijkheden die aan een Workfront-beheerder worden geboden.
+Als groepsbeheerder kunt u de hieronder beschreven taken uitvoeren om de groepen te beheren waarop u toezicht houdt. Sommige hiervan zijn hetzelfde als de mogelijkheden die aan een Workfront-beheerder worden geboden.
 
-* [Groepsleden beheren](#manage-group-members)
-* [Groepsobjecten beheren](#manage-group-objects)
-* [Groepvoorkeuren en -gereedschappen beheren](#manage-group-preferences-and-tools)
+>[!NOTE]
+>
+>In het nieuwe prijs en verpakkingsmodel, moet u een Primair plan of hoger hebben om het volgende uit te voeren:
+>
+> * Groepsgebeurtenismeldingen maken
+> * Groepsprojectvoorkeuren configureren
+> * Groepstaken en probleemvoorkeuren configureren
+> * Configuratie van voorkeuren voor subgroepen ontgrendelen
+> * Groeptimesheet en voorkeuren voor uren
+> * Timesheet en uurvoorkeur ontgrendelen
 
 ### Groepsleden beheren {#manage-group-members}
 
 * Subgroepen maken, bewerken en verwijderen binnen de groepen en subgroepen die u beheert. Zie voor instructies [Een subgroep maken](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 * Voeg om het even welke gebruikers toe voor wie u Edit toegang tot uw groepen en subgroups hebt. U kunt gebruikers ook toevoegen aan groepen en subgroepen door hun profielen te bewerken.
 
-   U kunt de velden in het profiel van een groepslid ook bijwerken als u de machtiging Gebruikersbeheer (Groepgebruikers) hebt ingeschakeld op uw toegangsniveau.
+  U kunt de velden in het profiel van een groepslid ook bijwerken als u de machtiging Gebruikersbeheer (Groepgebruikers) hebt ingeschakeld op uw toegangsniveau.
 
-   Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   >[!NOTE]
-   >
-   >Workfront-beheerders kunnen wijzigingen in groepslidmaatschappen die door een groepsbeheerder zijn aangebracht, negeren.
+  >[!NOTE]
+  >
+  >Workfront-beheerders kunnen wijzigingen in groepslidmaatschappen die door een groepsbeheerder zijn aangebracht, negeren.
 
 * Wachtwoorden voor gebruikers opnieuw instellen die lid zijn van de groepen die u beheert. Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 * Meld u aan als gebruikers die lid zijn van de groepen die u beheert. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -96,7 +108,7 @@ Als groepsbeheerder, kunt u de taken uitvoeren hieronder om de groepen te behere
 * Creeer groep-vlakke timesheet profielen, associeer hen met gebruikers en groepen u beheert, en produceer manueel timesheets. Zie voor meer informatie [Werkbladprofielen maken, bewerken en toewijzen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 * Zonder administratieve toegang tot goedkeuringsprocessen, creeer en geef goedkeuringsprocessen voor de groepen en subgroepen uit u beheert. Zie voor meer informatie [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-   Voor informatie over administratieve toegang tot goedkeuringsprocessen raadpleegt u [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Voor informatie over administratieve toegang tot goedkeuringsprocessen raadpleegt u [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Creeer programma&#39;s en associeer hen met een groep u leidt. Zie voor meer informatie [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 * Een team beheren dat is toegewezen aan een groep die u beheert, zonder lid te zijn van het team. Ook, creeer een teamrapport dat op het gebied van de Groep wordt gebaseerd om te identificeren aan welke groep een bepaald team wordt toegewezen. Zie voor meer informatie [Een team maken](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
@@ -104,7 +116,7 @@ Als groepsbeheerder, kunt u de taken uitvoeren hieronder om de groepen te behere
 
 ### Groepvoorkeuren en -gereedschappen beheren {#manage-group-preferences-and-tools}
 
-* Wanneer een projectvoorkeur, taak of uitgiftevoorkeur, of timesheets en urenvoorkeur voor groepen door het systeem wordt ontgrendeld, geef die voorkeur voor groepen uit u leidt. Deze voorkeuren zijn van invloed op project, taak en probleemgedrag. Raadpleeg de volgende secties voor meer informatie:
+* Wanneer een projectvoorkeur, taak of uitgiftevoorkeur, of timesheets en urenvoorkeur voor groepen door het systeem wordt ontgrendeld, geef die voorkeur voor groepen uit u leidt. Deze voorkeuren zijn van invloed op het project, de taak en het gedrag van problemen. Raadpleeg de volgende secties voor meer informatie:
 
    * [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)

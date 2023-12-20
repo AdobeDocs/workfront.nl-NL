@@ -7,14 +7,16 @@ description: U kunt een goedkeuringsproces tot stand brengen en het vastmaken aa
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # Overzicht van goedkeuringsproces
+
+<!-- Audited: 12/2023 -->
 
 U kunt een goedkeuringsproces tot stand brengen en het vastmaken aan een voorwerp om ervoor te zorgen dat de aangewezen gebruikers bepaalde veranderingen alvorens het voorwerp vordert herzien.
 
@@ -24,25 +26,24 @@ Dit is beschikbaar voor de volgende typen objecten in Adobe Workfront:
 * Document
 * Proef
 
+Dit artikel bevat algemene informatie over goedkeuringsprocessen die bij werkitems horen.
 Voor instructies over het maken van een goedkeuringsproces raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Dit artikel bevat algemene informatie over goedkeuringsprocessen die bij werkitems horen.
-
-## Typen goedkeuringsprocedures
+## Typen goedkeuringsprocedures voor werkonderdelen
 
 Als u een beheerder van Adobe Workfront, of een gebruiker met administratieve toegang tot goedkeuringsprocessen bent, kunt u de volgende goedkeuringsprocessen voor projecten, taken, en kwesties tot stand brengen:
 
 * **Een algemeen goedkeuringsproces op systeemniveau**: Gebruikers kunnen deze koppelen aan:
 
    * Een project, taak, of kwestie in de sectie van Goedkeuringen
-   * In het Edit vakje van het Project, het gebied van het Proces van de Goedkeuring van de Standaard van de Taak
-   * In de sectie van de Details van de Rij of van het Onderwerp van de Rij van een project, in de gebieden van het Proces van de StandaardGoedkeuring. Het project moet als verzoekrij worden toegelaten.
+   * In het Edit vakje van het Project in het gebied van het Proces van de Goedkeuring van de Standaard van de Taak
+   * In de sectie van de Details van de Rij of van het Onderwerp van de Rij van een project in de gebieden van het Proces van de StandaardGoedkeuring. Het project moet als verzoekrij worden toegelaten.
 
 * **Een algemeen goedkeuringsproces op groepsniveau**: Gebruikers kunnen deze aan het volgende koppelen:
 
    * Een project, taak of kwestie die tot de groep behoort die met het goedkeuringsproces in de sectie van Goedkeuringen wordt geassocieerd
-   * In het Edit vakje van het Project, het gebied van het Proces van de Goedkeuring van de Standaard van de Taak voor een project dat tot de groep behoort verbonden aan het goedkeuringsproces
-   * In de sectie van de Details van de Rij of van het Onderwerp van de Rij van een project, in de gebieden van het Proces van de StandaardGoedkeuring. Het project moet als verzoekrij worden toegelaten en moet tot de groep behoren verbonden aan het goedkeuringsproces.
+   * In het Edit vakje van het Project in het gebied van het Proces van de Goedkeuring van de Standaard van de Taak voor een project dat tot de groep behoort verbonden aan het goedkeuringsproces
+   * In de sectie van de Details van de Rij of van het Onderwerp van de Rij van een project in de gebieden van het Proces van de StandaardGoedkeuring. Het project moet als verzoekrij worden toegelaten en moet tot de groep behoren verbonden aan het goedkeuringsproces.
 
   Voor informatie over het maken van goedkeuringsproces op systeemniveau of op groepsniveau raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

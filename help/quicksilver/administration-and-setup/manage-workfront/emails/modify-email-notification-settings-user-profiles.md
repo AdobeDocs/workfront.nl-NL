@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Instellingen voor e-mailmeldingen van meerdere gebruikers wijzigen
+
+<!-- Audited: 12/2023 -->
 
 Als u een Adobe Workfront-beheerder bent of als u een Planner-toegangsniveau hebt waarmee u de instellingen van andere gebruikers kunt bewerken, kunt u de meldingsinstellingen voor meerdere gebruikers tegelijk configureren. Dit omvat het opgeven of gebruikers meldingen ontvangen wanneer gebeurtenissen plaatsvinden, of in één e-mail met dagelijkse controlesamenvatting, zoals beschreven in [Adobe Workfront-berichten](../../../workfront-basics/using-notifications/wf-notifications.md). Voor informatie over het toegangsniveau nodig om gebruikers uit te geven, zie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 

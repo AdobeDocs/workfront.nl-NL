@@ -6,14 +6,16 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
 
 # Een board maken of bewerken
+
+<!-- Audited: 12/2023 -->
 
 Van de [!UICONTROL boards] kunt u een nieuw board maken of een bestaand board bewerken.
 
@@ -29,6 +31,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw: Medewerker of hoger </p>
+ <p>of</p> 
+<p>Huidige: [!UICONTROL Request] of hoger </p> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
    <td> <p>[!UICONTROL Request] of hoger</p> </td> 
@@ -40,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een nieuw bord maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+{{step1-to-boards}}
 1. Klik op **[!UICONTROL Add board]**.
 
 1. Selecteer een sjabloon voor het bord.
@@ -86,7 +95,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een bestaand bord bewerken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+{{step1-to-boards}}
 1. Selecteer op het dashboard het board dat u wilt openen.
 1. Bewerk het bord naar wens. U kunt op de naam van het tekengebied klikken om de naam te wijzigen.
 

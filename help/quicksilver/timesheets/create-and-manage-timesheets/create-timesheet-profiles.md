@@ -6,9 +6,9 @@ description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugke
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,17 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Plan </p> </td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw: Standaard </p>
+ <p>of</p> 
+<p>Huidig: Plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet administratieve toegang tot Timesheets hebben. </p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p>  <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -63,16 +64,16 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 >
 >Als u wijzigingen in het tijdlijnprofiel wilt inschakelen in de huidige tijdbladen, moet u de bestaande tijdbladen verwijderen en vervolgens nieuwe tijdbladen genereren. Zie voor instructies [Tijdschema&#39;s in Adobe Workfront verwijderen](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) en [Tijdbladen handmatig genereren](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik op **Tijdschema en uren**.
+1. Als u een tijdlijnprofiel maakt of bewerkt voor gebruik op het hele systeem, klikt u op **Tijdschema en uren**.
 
    of
 
    Als u een tijdlijnprofiel voor een groep maakt of bewerkt, klikt u op **Groepen** en klikt u op de naam van de groep.
 
 1. Klikken **Tijdbladprofielen**.
-1. Klik op **Nieuw profiel**.
+1. Als u een nieuw tijdlijnprofiel wilt maken, klikt u op **Nieuw profiel**.
 
    of
 
@@ -81,7 +82,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    Het nieuwe of bestaande tijdbladprofiel wordt weergegeven.
 
 
-1. Op de **Details instellen** tab, typ een **Naam** en **Beschrijving** voor het tijdbladprofiel en de volgende informatie verstrekken:
+1. Op de **Details instellen** tab, typt u een **Naam** en **Beschrijving** voor het tijdbladprofiel en de volgende informatie verstrekken:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -94,25 +95,25 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
       <li> <p>Laat dit veld leeg als u een tijdbladprofiel op systeemniveau maakt.</p> <p>Om het even welke gebruiker die gebruikersrekeningen kan uitgeven kan een systeem-vlakke timesheet aan andere gebruikers vastmaken.</p> <p>Alleen een Workfront-beheerder kan een tijdbladprofiel op systeemniveau bewerken.</p> </li> 
       </ul> 
      <ul> 
-      <li> <p>Als u een timesheet-profiel maakt voor een groep die u beheert, moet u hier de groep identificeren.</p> <p>Hiermee wordt het tijdbladprofiel niet toegewezen aan de gebruikers in de groep. het staat slechts de beheerders van de groep toe om het timesheet profiel te wijzigen. In Stap 6 wijst u het profiel aan gebruikers toe.</p> <p><b>OPMERKING</b>
+      <li> <p>Als u een timesheet-profiel maakt voor een groep die u beheert, moet u hier de groep identificeren.</p> <p>Hiermee wordt het tijdlijnprofiel niet toegewezen aan de gebruikers in de groep. De beheerders van de groep kunnen het tijdbladprofiel alleen wijzigen. In Stap 6 wijst u het profiel aan gebruikers toe.</p>
 
-   Wanneer gebruikers buiten de groep timesheet-profielen aan andere gebruikers koppelen, kunnen ze dit tijdbladprofiel niet zien of koppelen.</p> </li>
-   </ul> </p> </td> 
+   <p><b>OPMERKING</b>: Wanneer gebruikers buiten de groep tijdlijnprofielen aan andere gebruikers koppelen, kunnen ze dit tijdbladprofiel niet zien of koppelen.</p> </li> 
+      </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tijdschema's maken</strong> </td> 
       <td> <p> <p>Geef op wanneer het tijdbladprofiel de tijdbladen moet genereren. Een timesheet kan worden geplaatst om automatisch op wekelijkse, bi-wekelijkse, halfmaandelijkse, of maandbasis te produceren. Selecteer de dag van de week waarop u het tijdspad wilt maken.</p>
       <p>Een wekelijkse timesheet begint op de datum het wordt geproduceerd. Als u bijvoorbeeld elke donderdag wekelijkse tijdbladen maakt, is de eerste dag van de week op het tijdsplaat donderdag.</p>
-      <p><b>OPMERKING</b></p>
 
-   <p>Workfront maakt altijd twee tijdbladen tegelijk: het eerste tijdspad bevat altijd de huidige datum en het tweede tijdspad begint wanneer het tijdkader van de eerste termijn eindigt.</p> </p> </td> 
+
+   <p><b>OPMERKING</b>: Workfront maakt altijd twee tijdbladen tegelijk: de eerste tijdpagina bevat altijd de huidige datum en de tweede tijdpagina begint wanneer het tijdframe van de eerste eindigt.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Fiatteurs</strong></p> </td> 
       <td> <p> <p>Approvers zijn gebruikers die timesheet voor de gebruikers goedkeuren verbonden aan timesheet. U kunt maximaal 7 gebruikers identificeren als fiatteurs op een timesheet. Het identificeren van veelvoudige gebruikers is nuttig om een fiatteur beschikbaar te verzekeren wanneer iemand uit het bureau is. Alle fiatteurs worden op de hoogte gesteld wanneer een gebruiker het tijdspad ter goedkeuring indient. Slechts één gebruiker wordt vereist om timesheet goed te keuren om het te worden goedgekeurd.</p> <p>Alleen gebruikers met beheerdersrechten voor tijdschriften kunnen worden ingesteld als fiatteurs. Voor meer informatie over administratieve rechten op tijdspagina raadpleegt u <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p>Gebruik het drop-down menu om fiatteur voor timesheet (als een fiatteur wordt vereist) te selecteren. U kunt uit de volgende opties selecteren:</p> 
       <ul> 
       <li><strong>Geen</strong>: Het tijdschema hoeft niet te worden goedgekeurd.</li> 
-      <li><strong>Hun manager</strong>: Dit is de standaardfiatteur, die door het systeem wordt geplaatst. In dit geval, keurt de gebruiker die als hun manager wordt aangewezen timesheet goed wanneer het ter goedkeuring wordt voorgelegd.</li> 
+      <li><strong>Hun manager</strong>: Dit is de standaardfiatteur, ingesteld door het systeem. In dit geval, keurt de gebruiker die als hun manager wordt aangewezen timesheet goed wanneer het ter goedkeuring wordt voorgelegd.</li> 
       <li><strong>Specifieke personen:</strong> U kunt specifieke gebruikers, door naam, als timesheet fiatteurs aanwijzen. U kunt veelvoudige fiatteurs op een timesheet hebben. In dat geval wordt het tijdspad, nadat een van de fiatteurs het tijdsplaat heeft goedgekeurd, als volgt gemarkeerd <strong>Gesloten</strong> en verdwijnt uit de lijst van goedkeuringen volgens het tijdschema van alle resterende fiatteurs.</li> 
        </ul> </p> </td> 
      </tr> 
@@ -134,9 +135,9 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
       <li>De managers van de eigenaars van de chronologie van chronologie kunnen voorleggen, terugroepen, heropenen en hun directe rapporten uitgeven.</li></ul>
       </ul>
 
-   <p><b>OPMERKING</b>
+   <p>
 
-   Nadat u een tijdspad ter goedkeuring hebt verzonden, kunt u de uren niet meer bewerken. Om een voorgelegde timesheet aan een editable staat terug te keren, wijs timesheet terug of hebben fiatteur de timesheet verwerpen. Zie voor meer informatie <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Een tijdschema ter goedkeuring indienen</a> en<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Een tijdschema goedkeuren</a>.</p> </p> </td>
+   <b>OPMERKING</b>: Nadat u een tijdspad ter goedkeuring hebt verzonden, kunt u de uren niet meer bewerken. Om een voorgelegde timesheet aan een editable staat terug te keren, wijs timesheet terug of hebben fiatteur de timesheet verwerpen. Zie voor meer informatie <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Een tijdschema ter goedkeuring indienen</a> en<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Een tijdschema goedkeuren</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Beschikbare uurtypen</strong> </td> 

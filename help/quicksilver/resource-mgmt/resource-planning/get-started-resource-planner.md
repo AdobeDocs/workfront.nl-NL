@@ -7,7 +7,7 @@ description: U kunt de toewijzing van uw middelen aan de projecten schatten en b
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van de bronnenplanner
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -40,9 +42,9 @@ U kunt informatie in de Planner van het Middel bekijken gebruikend drie afzonder
 
 * De volgende informatie weergeven in de weergave Gebruiker:
 
-   * de beschikbaarheid van uw gebruikers volgens hun schema
-   * de geplande tijd die nodig is om de werkzaamheden volgens het projectplan te voltooien.
-   * de hoeveelheid tijd dat de gebruikers reeds het programma hebben geopend daadwerkelijke het werkpunten.
+   * De beschikbaarheid van uw gebruikers volgens hun schema
+   * De geplande tijd die nodig is om de werkzaamheden volgens het projectplan te voltooien
+   * De hoeveelheid tijd dat de gebruikers reeds het programma hebben geopend daadwerkelijke het werkpunten
 
   Raadpleeg het artikel voor meer informatie over het weergeven van Beschikbare, Geplande en Werkelijke uren of VTE voor gebruikers in de Resource Planner [Beschikbare, geplande en Werkelijke uren of FTE weergeven in de bronnenplanner bij gebruik van de gebruikersweergave](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
