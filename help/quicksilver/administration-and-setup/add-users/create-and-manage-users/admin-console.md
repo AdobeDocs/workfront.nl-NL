@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
+source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ Workfront-gebruikers moeten worden toegevoegd aan de Adobe Admin Console. Een be
    >
    >Voor nieuwe gebruikers van de Adobe levert de Admin Console een e-mail om hen uit te nodigen om het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om tot om het even welke toepassing van de Adobe toegang te hebben.
    >
-   >Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
+   >Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd. Uw beheerder van de Adobe kan een andere persoon zijn dan uw beheerder van Workfront.
 
 ### Gebruikers maken in Workfront en ze goedkeuren voor de Adobe Admin Console
 
