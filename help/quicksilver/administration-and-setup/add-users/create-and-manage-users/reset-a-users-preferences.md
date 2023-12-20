@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als Adobe Workfront-beheerder kunt u de voorkeursinstellingen voor gebruikers in het Workfront-systeem opnieuw instellen of verwijderen. Individuele gebruikers kunnen ook hun eigen voorkeursinstellingen voor gebruikers opnieuw instellen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # Gebruikersvoorkeuren opnieuw instellen
+
+<!-- Audited: 12/2023 -->
 
 Als Adobe Workfront-beheerder kunt u de voorkeursinstellingen voor gebruikers in het Workfront-systeem opnieuw instellen of verwijderen.
 
@@ -35,11 +37,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,15 +64,15 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
  <tbody> 
   <tr> 
    <td>Weergaven</td> 
-   <td> <p> Teruggezet naar de systeemstandaard</p> <p>Bestaande weergaven worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
+   <td> <p> Teruggedraaid naar systeemstandaard</p> <p>Bestaande weergaven worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
   </tr> 
   <tr> 
    <td>Filters</td> 
-   <td> <p>Teruggezet naar de systeemstandaard</p> <p>Bestaande filters worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
+   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>Bestaande filters worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
   </tr> 
   <tr> 
    <td>Groepen</td> 
-   <td> <p>Teruggezet naar de systeemstandaard</p> <p>Bestaande groepen worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
+   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>Bestaande groepen worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
   </tr> 
   <tr> 
    <td>Lijst met recente items</td> 
@@ -80,7 +84,7 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
   </tr> 
   <tr> 
    <td>Gebruikersvoorkeuren</td> 
-   <td> <p>Teruggezet naar de systeemstandaard</p> <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem</p> </td> 
+   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem.</p> </td> 
   </tr> 
   <tr> 
    <td>Door gebruiker gedefinieerde aangepaste tabbladen</td> 
@@ -95,7 +99,7 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 
 ## Gebruikersvoorkeuren opnieuw instellen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Selecteren **Aanmelden als**.
 1. Typ de naam van de gebruiker wiens voorkeuren u wilt herstellen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
@@ -106,13 +110,10 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
    >
    >Dit is hoofdlettergevoelig. De U moet een hoofdletter hebben en de overige tekens moeten in kleine letters staan. Bijvoorbeeld:
    >
-   >
-   ```
-   >https://company_domain.my.workfront.com/resetUser
-   >```
+   >`https://company_domain.my.workfront.com/resetUser`
 
 1. Druk **Enter**.
-1. Als u alle gebruikersvoorkeuren opnieuw wilt instellen, selecteert u **Herstellen**.
+1. Als u alle gebruikersvoorkeuren wilt herstellen, selecteert u **Herstellen**.
 
    of
 
