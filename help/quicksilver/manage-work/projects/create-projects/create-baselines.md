@@ -6,14 +6,16 @@ description: Een basislijn is een projectmomentopname die zeer belangrijke stukk
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
 # Projectbasislijnen maken
+
+<!-- Audited: 12/2023 -->
 
 Een basislijn is een projectmomentopname die zeer belangrijke stukken van informatie inbegrepen in het aanvankelijke projectplan of op om het even welk bepaald ogenblik tijdens het leven van het project vertegenwoordigt.
 
@@ -65,7 +67,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+    <td><p>Nieuw: Standaard</p>
+        <p>of</p>
+        <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau*</td> 
@@ -74,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor het project of hoger om basislijnen weer te geven</p> <p>Rechten voor het project beheren om basislijnen te maken</p> <p> Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor het project of hoger om basislijnen weer te geven</p> <p>Rechten voor het project beheren om basislijnen te maken</p> <p> Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 >[!IMPORTANT]
 >
->Een basislijn neemt een momentopname van de naam, de data, en de financiële informatie van het project. De basislijn omvat niet de waarden van douanegebieden op het project. Voor informatie over financiële informatie die in de basislijn is opgenomen, raadpleegt u [Projectfinanciën opgenomen in de basislijnen van projecten](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Een basislijn neemt een momentopname van de naam, de data, en de financiële informatie van het project. De basislijn omvat niet de waarden van douanegebieden op het project. Voor informatie over financiële informatie die in de basislijn is opgenomen, zie [Projectfinanciën die in de basislijnen van projecten zijn opgenomen](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Een basislijn maken
 
@@ -98,11 +102,11 @@ U kunt op de volgende manieren een basislijn maken:
 
 * **Automatisch**: Uw Workfront-beheerder of groepsbeheerder stelt de projectvoorkeur voor Workfront in om automatisch een basislijn te maken wanneer een project Huidig wordt. Wanneer deze instelling is ingeschakeld, wordt een basislijn gemaakt wanneer de projectstatus Huidig wordt. Als deze instelling niet is ingeschakeld, moet u handmatig basislijnen maken.
 
-   Voor meer informatie over het vormen van projectvoorkeur en vestiging automatische basislijnverwezenlijking, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Voor meer informatie over het vormen van projectvoorkeur en vestiging automatische basislijnverwezenlijking, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!CAUTION]
-   >
-   >Als u deze instelling inschakelt, wordt automatisch een basislijn voor een project gemaakt wanneer de status van een project verandert in Huidig. De eerste gemaakte basislijn is de standaardbasislijn. Tijdens de levensduur van het project moet u handmatig alle andere basislijnen maken.
+  >[!CAUTION]
+  >
+  >Als u deze instelling inschakelt, wordt automatisch een basislijn voor een project gemaakt telkens wanneer de status van een project verandert in Huidig. De eerste gemaakte basislijn is de standaard. Tijdens de levensduur van het project moet u handmatig alle andere basislijnen maken.
 
 * **Handmatig**: U kunt nieuwe basislijnen voor het project tot stand brengen zoals nodig aangezien het project vordert. U kunt dan basislijnen vergelijken om te zien hoe het project in tijd vorderde.
 
@@ -115,7 +119,7 @@ Een basislijn maken:
 
    Klikken **Meer weergeven** en klik vervolgens op **Basislijnen**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![Sectie Basislijnen van project](assets/baselines-section-on-project-with-header.png)
 
 1. Klikken **Nieuwe basislijn.**
 1. Geef de naam voor de basislijn op.
@@ -132,11 +136,11 @@ Een basislijn maken:
    * % Voltooien van het project toen de basislijn werd gecreeerd
    * Standaardbasislijnindicator die aangeeft of een basislijn de standaardbasislijn van het project is
 
-      >[!TIP]
-      >
-      >U kunt geen informatie van om het even welke twee basislijnen tezelfdertijd in de zelfde mening of het rapport bekijken. U kunt informatie van een bepaalde basislijn en de Standaard basislijn slechts bekijken in het zelfde rapport. U kunt wijzigen welke basislijn u als Standaardbasislijn beschouwt wanneer tijdens het leven van het project.
+     >[!TIP]
+     >
+     >U kunt geen informatie van om het even welke twee basislijnen tezelfdertijd in de zelfde mening of het rapport bekijken. U kunt informatie van een bepaalde basislijn en de Standaard basislijn slechts bekijken in het zelfde rapport. U kunt wijzigen welke basislijn u als Standaardbasislijn beschouwt wanneer tijdens het leven van het project.
 
-1. (Optioneel) Klik op de vervolgkeuzepijl naast de weergave en klik vervolgens op **Weergave aanpassen** om velden aan uw weergave toe te voegen en aanvullende informatie tussen basislijnen te vergelijken.
+1. (Optioneel) Klik op de knop **Weergave** maakt u vervolgens een nieuwe weergave of bewerkt u de huidige weergave om velden toe te voegen aan de weergave en aanvullende informatie tussen de basislijnen te vergelijken. Zie voor meer informatie [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Creeer een Baseline of een rapport van de Taak van de Basislijn
 
@@ -148,6 +152,6 @@ Om basislijninformatie te bekijken, kunt u een rapport van de Taak van de Basisl
 
 Voor informatie over het creëren van een rapport, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Wij adviseren dat u een groepering van de Naam van het Project aan uw Baseline of rapport van de Basislijn toevoegt om het gemakkelijker te maken te lezen.
+Wij adviseren dat u een groepering van de Naam van het Project aan uw rapport van de Taak van de Basislijn of van de Basislijn toevoegt om het gemakkelijker te maken te lezen.
 
 Voor informatie over het maken van een groep raadpleegt u [Groepen maken in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

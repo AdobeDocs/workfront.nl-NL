@@ -3,30 +3,30 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Berekende aangepaste velden versus berekende kolommen
-description: Meer informatie over aangepaste gegevens in rapporten en dashboards
+description: Als u meerdere velden in Adobe Workfront wilt samenvoegen en die geaggregeerde waarde wilt weergeven in een nieuw veld, kunt u een berekend aangepast veld maken in een aangepast formulier of een berekende kolom in een weergave.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # Berekende aangepaste velden versus berekende kolommen
 
-Als u meerdere velden in Adobe Workfront wilt samenvoegen en die geaggregeerde waarde wilt weergeven in een nieuw veld, kunt u het volgende doen:
+Als u meerdere velden in Adobe Workfront wilt samenvoegen en die geaggregeerde waarde wilt weergeven in een nieuw veld, kunt u het volgende maken:
 
 * Een berekend aangepast veld in een aangepast formulier\
-  Zie de sectie voor meer informatie over het toevoegen van een berekend aangepast veld aan een aangepast formulier [Een berekend veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) in het artikel [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Zie de sectie voor meer informatie over het toevoegen van een berekend aangepast veld aan een aangepast formulier [Een berekend veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) in het artikel [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Een berekende kolom in een weergave\
-  Zie de sectie voor meer informatie over het gebruik van berekeningen in een weergave [Tekstmodus gebruiken in weergaven](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) in het artikel [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Zie de sectie voor meer informatie over het gebruik van berekeningen in een weergave [Tekstmodus gebruiken in weergaven](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in het artikel [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Hoewel u de tekstmodus gebruikt om zowel berekende velden als berekende kolommen samen te stellen, verschilt de syntaxis voor het samenstellen van deze velden. Raadpleeg de bovenstaande artikelen voor meer informatie over het bouwen van berekende velden en berekende kolommen. Zie de sectie voor informatie over de verschillende syntaxis die wordt gebruikt in berekende gegevensexpressies, zoals berekende aangepaste velden en kolommen [Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) in dit artikel.
+Hoewel u de tekstmodus gebruikt om zowel berekende velden als berekende kolommen samen te stellen, verschilt de syntaxis voor het samenstellen van deze velden. Raadpleeg de bovenstaande artikelen voor meer informatie over het bouwen van berekende velden en berekende kolommen. Zie de sectie voor informatie over de verschillende syntaxis die wordt gebruikt in berekende gegevensexpressies, zoals berekende aangepaste velden en kolommen [Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel.
 
-U kunt dezelfde berekeningen gebruiken in beide berekende velden en in een berekende kolom. Afhankelijk van wat uw doel voor deze berekeningen is, kunt u echter overwegen om het ene versus het andere te bouwen.
+U kunt dezelfde berekeningen gebruiken in beide berekende velden en in een berekende kolom. Afhankelijk van wat uw doel is voor deze berekeningen, kunt u echter overwegen om een voor een te bouwen.
 
 ## Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen
 
@@ -36,25 +36,19 @@ Bijvoorbeeld:
 
 * In een aangepast veld gebruikt u op een aangepast formulier voor taken de volgende opties om de naam te genereren van het bovenliggende project van de taak waaraan het aangepaste formulier is gekoppeld:
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * In een douanekolom in een rapport, zou u het volgende gebruiken om een de douanekolom van de Naam van het Project op een taakrapport toe te voegen:
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   of
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >Dezelfde syntaxis is van toepassing op alle rapportelementen in de tekstmodus waarvoor berekende expressies worden gebruikt: weergaven, filters, groepen en aanwijzingen.
+  >Dezelfde syntaxis is van toepassing op alle rapportelementen in de tekstmodus waarvoor berekende expressies worden gebruikt: weergaven, filters, groeperingen en aanwijzingen.
 
 De verschillen tussen de twee syntaxis zijn als volgt:
 
@@ -63,8 +57,8 @@ De verschillen tussen de twee syntaxis zijn als volgt:
  <col> 
  <tbody> 
   <tr> 
-   <td>Berekend aangepast veld</td> 
-   <td>Berekend aangepast rapporteringselement</td> 
+   <td><strong>Berekend aangepast veld</strong></td>
+   <td><strong>Berekend aangepast rapporteringselement</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Gebruik de naam van de velden zoals deze worden weergegeven in de Workfront-interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Voorbeeld van een veldnaam die in een berekend aangepast veld wordt gebruikt: <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ De verschillen tussen de twee syntaxis zijn als volgt:
   </tr> 
   <tr> 
    <td>De velden scheiden met punten</td> 
-   <td> <p>De velden scheiden met dubbele punten wanneer u ze in een <code>valuefield </code>line</p> <p>De velden van elkaar scheiden op punten wanneer u ze in een <code>valueexpression </code>lijn. </p> </td> 
+   <td> <p>De velden scheiden met dubbele punten wanneer u ze in een <code>valuefield</code>lijn.</p> <p>De velden van elkaar scheiden op punten wanneer u ze in een <code>valueexpression</code>lijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +90,7 @@ Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebrui
 * Bulk die meerdere objecten bewerkt wanneer **Aangepaste expressies opnieuw berekenen** is ingeschakeld
 * Een aangepast formulier bewerken wanneer **Vorige berekeningen bijwerken** is ingeschakeld voor het berekende aangepaste veld
 
-## Wanneer gebruikt u Berekende kolommen in een weergave
+## Wanneer moeten berekende kolommen in een weergave worden gebruikt
 
 * Wanneer u gegevens in real time op een rapport beschikbaar wilt zijn.
 
@@ -114,7 +108,7 @@ Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebrui
 
 Zie voor voorbeelden van berekende aangepaste velden [Berekende aangepaste gegevens in rapporten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Zie de volgende artikelen voor voorbeelden van berekende aangepaste kolommen in weergaven:
+Raadpleeg de volgende artikelen voor voorbeelden van berekende aangepaste kolommen in weergaven:
 
 * [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 0%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 0%
    * Details van tijdsplaat {#details}
       * [Tijdlijndetails: artikelindex](timesheets/timesheets/timesheets.md)
       * [Overzicht van tijdbladen](timesheets/timesheets/timesheets-overview.md)
-      * [De lay-out Timesheet begrijpen](timesheets/timesheets/timesheet-layout.md)
+      * [Overzicht van de tijdlijnindeling](timesheets/timesheets/timesheet-layout.md)
    * Tijdschema&#39;s maken en beheren {#create-and-manage-timesheets-in-adobe-workfront}
       * [Tijdschema&#39;s maken en beheren: artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Werkbladprofielen maken, bewerken en toewijzen](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Weergave: de kosten van overwerk berekenen in een tijdlijnweergave"'
+title: 'Weergave: de kosten van overwerk berekenen in een tijdlijnweergave'
 description: Overuren worden niet standaard berekend in Adobe Workfront, maar u kunt wel een rapport met een tijdlijnrapport maken dat overwerk berekent.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Raadpleeg het artikel voor informatie over het koppelen van gebruikers aan koste
 
 >[!NOTE]
 >
->Het gebied van Overwerk dat u aan een mening van de Chronologie in een lijst of een rapport kunt toevoegen toont de informatie die op het gebied van Overuren van timesheet wordt gevonden. Deze informatie wordt manueel bijgewerkt door een gebruiker met toegang om timesheet te wijzigen. Raadpleeg het artikel voor meer informatie over het veld Overtime in een tijdspagina [De lay-out Timesheet begrijpen](../../../timesheets/timesheets/timesheet-layout.md).
+>Het gebied van Overwerk dat u aan een mening van de Chronologie in een lijst of een rapport kunt toevoegen toont de informatie die op het gebied van Overuren van timesheet wordt gevonden. Deze informatie wordt manueel bijgewerkt door een gebruiker met toegang om timesheet te wijzigen. Raadpleeg het artikel voor meer informatie over het veld Overtime in een tijdspagina [Overzicht van de tijdlijnindeling](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ U voegt als volgt een berekende kolom Overuren toe aan een tijdlijnweergave:
 
    of
 
-   Selecteer **Kolommen (weergave)** in een rapport Timesheet.
+   Selecteer de **Kolommen (weergave)** in een rapport Timesheet.
 
 1. Klikken **Kolom toevoegen**.
 1. Klikken **Overschakelen naar tekstmodus**.
