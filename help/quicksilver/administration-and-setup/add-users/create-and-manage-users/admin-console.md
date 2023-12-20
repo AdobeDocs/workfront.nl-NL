@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail 
 
 ## Open het gebied voor gebruikers en beheerders van uw Production-instantie van Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. Van de [Adobe Admin Console-pagina](https://adminconsole.adobe.com/), selecteert u de **Producten** in de bovenste navigatiebalk en selecteer vervolgens de optie **Workfront** productegel.
+1. Van de [Adobe Admin Console-pagina](https://adminconsole.adobe.com/), selecteert u de **Producten** in de bovenste navigatiebalk en selecteer vervolgens **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. Selecteer in de lijst die wordt weergegeven de koppeling bovenaan.
 
    Dit is uw instantie van de Productie waar uw gebruikers werken.
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ Een gebruiker goedkeuren:
 
 {{step-1-to-users}}
 
-1. Selecteer de gebruiker en klik op de knop **o** re icon ![](assets/more-icon.png).
+1. Selecteer de gebruiker en klik op de knop **Meer** pictogram ![](assets/more-icon.png).
 
 1. Klik op **Goedkeuren** en klik vervolgens op **Verzenden**.
 
