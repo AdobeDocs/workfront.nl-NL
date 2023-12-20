@@ -6,9 +6,9 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ U kunt de volgende typen filters toepassen in Adobe Workfront:
 
 * Snelle filters in een lijst met objecten om een item te zoeken met een trefwoord. Dit zijn tijdelijke filters die u niet kunt opslaan voor toekomstig gebruik.
 
-   Voor informatie over snelle filters raadpleegt u [Het snelle filter toepassen op een lijst](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Zie voor informatie over snelle filters [Het snelle filter toepassen op een lijst](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * Permanente filters die u kunt opslaan en gebruiken in meerdere lijsten en rapporten. In dit artikel wordt beschreven hoe u een permanent filter kunt maken of een bestaand filter in een lijst of rapport kunt bewerken.
 
 * Filters in andere gebieden van Workfront, buiten lijsten en rapporten.
 
-   Voor een lijst met alle filters in Workfront en de gebieden waarop u deze kunt toepassen, raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor een lijst met alle filters in Workfront en de gebieden waarop u deze kunt toepassen, raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
 
@@ -43,11 +43,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td> <p>Nieuw: Medewerker of hoger</p>
+
+of
+
+<p>Huidig: Verzoek of hoger</p>
+
+<p><b>OPMERKING:</b></p>
+
+Als u een filter in een rapport wilt bewerken, hebt u de volgende licentie nodig:
+
+<p>Nieuw: Plan</p>
+
+of
+
+<p>Huidig: Standaard</p>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven en groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <ul><li><p>Toegang tot filters, weergaven en groepen bewerken</p></li></ul>
+    <p><b>OPMERKING:</b></p>
+   Om een filter in een rapport uit te geven, moet u de volgende configuratie van het toegangsniveau hebben, naast Edit toegang tot Filters, Weergaven, en Groepen:
+
+<ul><li><p>Toegang tot rapporten, dashboards en kalenders bewerken</p></li></ul>
+
+<p><b>OPMERKING:</b></p> <p> Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -79,7 +101,7 @@ U kunt filters tot stand brengen gebruikend de types van filterbouwers die in de
 <li> <p>Projecten</p> </li>
 <li> <p>Taken </p> </li>
 <li> <p>Problemen</p> </li>
-<li> <p>Portfolio</p> </li>
+<li> <p>Portfolio's</p> </li>
 <li> <p>Programma's</p> </li>
 <li> <p>Gebruikers</p> </li>
 <li> <p>Sjablonen</p> </li>
@@ -93,59 +115,58 @@ U kunt filters tot stand brengen gebruikend de types van filterbouwers die in de
 <ul>
 <li> <p>De lijst van Projecten in de Planner van het Scenario</p> <p>Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u <a href="../../../scenario-planner/scenario-planner-overview.md">Overzicht van de functie Scenario Planner</a>. </p> </li>
 </ul>
-<p>OPMERKING: Standaardbuilders voor filters zijn niet beschikbaar in rapporten.
+<p><b>OPMERKING:</b></p> <p>Standaardbuilders voor filters zijn niet beschikbaar in rapporten.
 </td>
 </tr>
 <tr>
-<td>Legacy builder</td>
+<td>Verouderde bouwer</td>
 <td>Alle objecten </td>
 <td>Lijsten en rapporten</td>
 </tr>
 </tbody>
 </table>
 
-Voor informatie over Workfront-objecten raadpleegt u [Objecten in Adobe Workfront begrijpen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Zie voor informatie over Workfront-objecten [Objecten in Adobe Workfront begrijpen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Houd rekening met het volgende wanneer u filters maakt met de verschillende interfaces:
+Houd rekening met het volgende wanneer u filters maakt met behulp van de verschillende interfaces:
 
 * U kunt de standaardbuilder vinden op dezelfde plaatsen als waar u de oudere filterinterface vindt voor de gebieden die in de bovenstaande tabel worden vermeld.
 * De standaard builder is de standaardeigenschap voor alle gebieden waar het beschikbaar is. Als u wilt overschakelen naar de verouderde filterontwikkelaar, klikt u op de knop **Meer** menu naast [!UICONTROL **Filters**] en selecteert u [!UICONTROL **Terug naar Oudere filters**].
 
-   ![Terug naar Oudere filters](assets/use-legacy-filters.png)
+  ![Terug naar Oudere filters](assets/use-legacy-filters.png)
 
 * Opgeslagen filters zijn beschikbaar in beide builders, ongeacht welke ervaring u gebruikte om ze oorspronkelijk te bouwen. Als u bijvoorbeeld een filter hebt gemaakt met de verouderde builder, kunt u dit ook vinden en wijzigen in de standaardbuilderinterface.
 
-   >[!TIP]
-   >
-   >Een filter &quot;Alle&quot; wordt niet opgenomen in de standaardbuilder omdat alle lijstitems worden weergegeven wanneer er geen filters worden toegepast. Klikken [!UICONTROL **Alles wissen**] rechtsboven in de builder om actieve filters te wissen en alle items weer te geven. Indien [!UICONTROL **Alles wissen**] worden grijs weergegeven, worden er geen filters toegepast.
+  >[!TIP]
+  >
+  >Een filter &quot;Alle&quot; wordt niet opgenomen in de standaardbuilder, omdat alle lijstitems worden weergegeven wanneer er geen filters worden toegepast. Klikken [!UICONTROL **Alles wissen**] rechtsboven in de builder actieve filters verwijderen en alle items weergeven. Indien [!UICONTROL **Alles wissen**] worden grijs weergegeven, worden er geen filters toegepast.
 
-* De standaard en erfenisbouwers hebben een lichtjes verschillende syntaxis wanneer het bouwen van veelvoudige-instructiefilters die EN en OF exploitanten combineren. Hierdoor kunnen deze filters anders worden weergegeven wanneer u van de ene naar de andere builder schakelt.
+* De standaard en erfenisbouwers hebben een lichtjes verschillende syntaxis wanneer het bouwen van veelvoudige-instructiefilters die EN en OF exploitanten combineren. Hierdoor kunnen deze filters anders worden weergegeven wanneer u overschakelt van de ene naar de andere builder.
 
-   >[!INFO]
-   >
-   >Het volgende scenario bestaat:
-   >
-   >1. Met de standaardbuilder kunt u een filter maken met de volgende syntaxis:
-   >
-   >   `(A OR B) AND C`
-   >
-   >1. Ga naar de verouderde builder en bewerk het filter met de syntaxis van de verouderde builder, zoals beschreven in de [Een filter maken of bewerken in de verouderde builder](#create-filter-in-legacy-builder) in dit artikel. In de syntaxis voor de verouderde builder worden de filterinstructies als volgt weergegeven:
-   >
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   >
-   >1. Wijzig het filter in de oudere interface.
-   >1. Ga terug naar de standaardbuilder. De filterinstructie wordt weergegeven volgens de logica die wordt ondersteund in de verouderde builder, zoals hierboven beschreven.
-
-   >
-   >   Het filter wordt als volgt weergegeven in de standaardbuilderinterface:
-   >  
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   > 
-   >   Dit gebeurt omdat het filter is gewijzigd in de oudere interface.
+  >[!INFO]
+  >
+  >Het volgende scenario bestaat:
+  >
+  >1. Met de standaardbuilder kunt u een filter maken met de volgende syntaxis:
+  >
+  >   `(A OR B) AND C`
+  >
+  >1. Ga naar de verouderde builder en bewerk het filter met de syntaxis van de verouderde builder, zoals beschreven in de [Een filter maken of bewerken in de verouderde builder](#create-filter-in-legacy-builder) in dit artikel. In de syntaxis voor de verouderde builder worden de filterinstructies als volgt weergegeven:
+  >
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  >
+  >1. Wijzig het filter in de oudere interface.
+  >1. Ga terug naar de standaardbuilder. De filterinstructie wordt weergegeven volgens de logica die wordt ondersteund in de verouderde builder, zoals hierboven beschreven.
+  >
+  >   Het filter wordt als volgt weergegeven in de standaardbuilderinterface:
+  >  
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  > 
+  >   Dit gebeurt omdat het filter is gewijzigd in de oudere interface.
 
 ## Een filter maken of bewerken in de standaardbuilder
 
@@ -175,7 +196,7 @@ Maak een filter met de standaardbuilderinterface:
    </tr>
    <tr>
    <td role="rowheader"><strong>Opgeslagen</strong></td>
-   <td>Filters die u zelf hebt gemaakt en opgeslagen. In deze lijst worden standaard opgeslagen filters weergegeven in de volgorde van de laatst opgeslagen filters, maar u kunt de filternamen slepen om de lijst handmatig opnieuw te ordenen.</td>
+   <td>Filters die u zelf hebt gemaakt en opgeslagen. In deze lijst worden standaard opgeslagen filters weergegeven in de volgorde van de laatst opgeslagen filters, maar u kunt de filternamen slepen om de lijst handmatig opnieuw te rangschikken.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Standaardwaarden systeem</strong></td>
@@ -190,12 +211,13 @@ Maak een filter met de standaardbuilderinterface:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klikken **Nieuw filter** om een geheel nieuw filter te maken.
+   * Klikken **Nieuw filter** een geheel nieuw filter maken.
    * Houd de muis boven een bestaand filter dat u kunt beheren en klik op de knop **Bewerken** pictogram ![Pictogram Bewerken](assets/edit-icon.png) om het te bewerken.
 
-      of
+     of
 
-      Houd de muisaanwijzer boven een bestaand filter dat u kunt weergeven, en klik op de knop **Meer** menu ![Het menu Meer](assets/more-icon-spectrum.png)en klik op **Dupliceren** om het bestaande filter te kopiëren en een kopie te bewerken.
+     Houd de muisaanwijzer boven een bestaand filter dat u kunt weergeven, en klik op de knop **Meer** menu ![Het menu Meer](assets/more-icon-spectrum.png)en klik op **Dupliceren** om het bestaande filter te kopiëren en een kopie te bewerken.
+
    ![Meer menuopties](assets/new-filters-more-menu-options-with-delete.png)
 
 1. (Voorwaardelijk) Afhankelijk van het feit of u objecten wilt zoeken die overeenkomen met alle instructies in een filtergroep of een van de instructies in een filtergroep, kunt u een van de volgende opties selecteren:
@@ -254,7 +276,7 @@ Maak een filter met de standaardbuilderinterface:
 
    >[!INFO]
    >
-   >Wanneer u filtert voor projecten die &quot;marketing&quot;in de naam bevatten die of niet volledig zijn en niet op greep zijn, kunt u de volgende veelvoudige filtergroepen gebruiken:
+   >Wanneer u filtert voor projecten die &quot;marketing&quot;in de naam bevatten die of niet volledig zijn en niet op Greep zijn, kunt u de volgende veelvoudige filtergroepen gebruiken:
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -266,7 +288,7 @@ Maak een filter met de standaardbuilderinterface:
 
    De interface van de tekstmodus wordt geopend.
 
-   ![Interface voor tekstmodus](assets/text-mode-interface-for-beta-filters-nwe.png)
+   ![Interface van de tekstmodus](assets/text-mode-interface-for-beta-filters-nwe.png)
 
    >[!TIP]
    >
@@ -294,7 +316,7 @@ Maak een filter met de standaardbuilderinterface:
    >
    >Geef het filter een naam, zodat u het later kunt vinden. Als u het filter geen naam geeft, wordt het filter Naamloos filter in het systeem genoemd.
 
-1. Selecteer een pictogram voor het nieuwe filter in het menu **Pictogram** vervolgkeuzemenu.
+1. Selecteer een pictogram voor het nieuwe filter in het menu **Pictogram** vervolgkeuzelijst.
 
    ![Een pictogram voor het filter selecteren](assets/new-filter-select-icon.png)
 
@@ -345,7 +367,7 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
    >[!TIP]
    >
-   >De rapportmaker moet ervoor zorgen dat filters worden bewerkt om de vervolgkeuzelijst Filter in een rapport te kunnen bekijken. Het filter Standaard rapporteren wordt standaard toegepast op een rapport. De filter Standaard van het Rapport kan worden aangepast slechts wanneer u het rapport uitgeeft.
+   >De rapportmaker moet ervoor zorgen dat filters worden bewerkt om de vervolgkeuzelijst Filter in een rapport te kunnen bekijken. Het filter Standaard rapporteren wordt standaard toegepast op een rapport. Het filter Standaard rapporteren kan alleen worden aangepast wanneer u het rapport bewerkt.
 
    ![Vervolgkeuzelijst Filter](assets/filter-drop-down-expanded-nwe.png)
 
@@ -362,28 +384,28 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
    * Wijzig bestaande filterregels door op de bestaande regel te klikken en een nieuwe optie te selecteren.
    * Filterregel toevoegen door te klikken **Een andere filterregel toevoegen** typt u eerst de naam van de optie waaraan u een regel wilt toevoegen in het dialoogvenster **Typ de veldnaam** en klikt u erop wanneer het wordt weergegeven in de vervolgkeuzelijst.
 
-      Velden die zijn gekoppeld aan het object van het filter worden weergegeven in het dialoogvenster **Typ de veldnaam** doos.
+     Velden die zijn gekoppeld aan het object van het filter worden weergegeven in het dialoogvenster **Typ de veldnaam** doos.
 
    * Klikken **EN** of **OF** wanneer u een nieuwe filterregel toevoegt.\
-      Wanneer het toevoegen van filterregels, gebruik de filterbepalingen om de voorwaarde van uw filter te vestigen. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Wanneer het toevoegen van filterregels, gebruik de filterbepalingen om de voorwaarde van uw filter te vestigen. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-      >[!NOTE]
-      >
-      >Wanneer u een groep EN verklaringen door veelvoudige OF verklaringen verbindt, moet u de gebieden herhalen die niet tussen OF verklaringen voor elke groep verklaringen veranderen.
-      >
-      >![Aangesloten filterinstructies](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >Wanneer u een filter voor taken bouwt die het woord &quot;marketing&quot;bevatten en in projecten met een status van Huidige of Planning zijn, moet u de volgende filterregels hebben:
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >Alhoewel taak: De naam bevat &quot;marketing&quot;verandert niet tussen de twee EN filtergroepen, het moet in de tweede groep worden herhaald.
+     >[!NOTE]
+     >
+     >Wanneer u een groep EN verklaringen door veelvoudige OF verklaringen verbindt, moet u de gebieden herhalen die niet tussen OF verklaringen voor elke groep verklaringen veranderen.
+     >
+     >![Aangesloten filterinstructies](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >
+     >Wanneer u een filter voor taken bouwt die het woord &quot;marketing&quot;bevatten en in projecten met een status van Huidige of Planning zijn, moet u de volgende filterregels hebben:
+     >
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Current`
+     >`OR`
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Planning`
+     >
+     >Hoewel de Taak: Naam bevat &quot;marketing&quot;verandert niet tussen de twee EN filtergroepen, moet het in de tweede groep worden herhaald.
 
    * Verwijder een bestaande filterregel door op het pictogram X te klikken.
 
@@ -395,13 +417,13 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
    of
 
-   Klikken **Opslaan als nieuw filter** om een nieuw filter te maken op basis van het geselecteerde filter.
+   Klikken **Opslaan als nieuw filter** om een nieuw filter te maken van het geselecteerde filter.
 
    Het nieuwe filter wordt weergegeven in de lijst met filters en wordt automatisch toegepast op de lijst of het rapport dat u hebt geselecteerd.
 
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
    * U kunt filters delen die u met andere gebruikers maakt, of deze in het hele systeem beschikbaar maken. Zie voor meer informatie [Een filter, weergave of groep delen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Verwijder filters die u niet meer in de lijst wilt weergeven. Zie voor meer informatie [Filters, weergaven en groepen verwijderen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Verwijder de filters die u niet meer in de lijst wilt weergeven. Zie voor meer informatie [Filters, weergaven en groepen verwijderen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 

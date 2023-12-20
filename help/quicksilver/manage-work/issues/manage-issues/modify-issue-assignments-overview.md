@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-issues
-title: Overzicht van uitgaven wijzigen
+title: Overzicht van het wijzigen van uitgaven
 description: U kunt problemen toewijzen aan of de toewijzing van problemen door gebruikers, teams of taakrollen ongedaan maken. U kunt meerdere bronnen tegelijk toewijzen, of slechts één bron. U kunt één probleem tegelijk toewijzen of meerdere uitgaven bulksgewijs.
 author: Alina
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
-# Overzicht van uitgaven wijzigen
+# Overzicht van het wijzigen van uitgaven
 
 U kunt problemen toewijzen aan of de toewijzing van problemen door gebruikers, teams of taakrollen ongedaan maken. U kunt meerdere bronnen tegelijk toewijzen, of slechts één bron. U kunt één probleem tegelijk toewijzen of meerdere uitgaven bulksgewijs.
 
@@ -26,7 +26,6 @@ U kunt problemen toewijzen aan of de toewijzing van problemen door gebruikers, t
 >
 >* Wijs het werkitem opnieuw toe aan actieve bronnen.
 >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
-
 
 Dit artikel bevat algemene informatie over het effect van het wijzigen van de toewijzing van kwesties. Raadpleeg de volgende artikelen voor informatie over het toewijzen van problemen:
 
@@ -46,7 +45,7 @@ Mogelijk wilt u de gebruikerstoewijzingen wijzigen om verschillende redenen, waa
 
 ## Overwegingen bij het verwijderen van toewijzingen uit problemen
 
-U kunt toewijzingen van één uitgave tegelijk verwijderen of u kunt toewijzingen van meerdere uitgaven bulksgewijs verwijderen.
+U kunt toewijzingen verwijderen uit één uitgave tegelijk of uit meerdere uitgaven in bulk.
 
 Voor meer informatie over het verwijderen van taken uit kwesties in bulk, zie [Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 

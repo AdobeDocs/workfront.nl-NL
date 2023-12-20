@@ -7,14 +7,20 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7e220e496aff2675910416bd86e3ddf7b9231afa
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
 # Overzicht van slimme toewijzingen
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
 
 Bij het beheren van taken en uitgaven kunt u slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien. De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt.
 
@@ -37,21 +43,25 @@ Houd rekening met het volgende wanneer u werkt met slimme toewijzingen:
 
 U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of problemen kunt toewijzen:
 
-* Een taak- of uitgiftenlijst of rapport
+* Een taak- of uitgiftenlijst of rapport <!--edit this to say just issue list or report and update screen shot - add new one-->
 
-   ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-task-list-nwe-350x280.png)
 
-* Een taak- of uitgiftekop
+<!--
+* <span class="preview">A task list or report (******insert shot here*****)</span>
+-->
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+* Een taak- of uitgiftekoptekst
+
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Het deelvenster Overzicht van taken of uitgaven
 
-   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
 * Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home
 
-   ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
 
 <!--removed for scheduling deprecation: 
@@ -67,27 +77,71 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 -->
 * Werklastverdeling
 
-   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criteria voor slimme toewijzingen
 
-De slimme taken tonen de hoogste 50 aanbevelingen die op een merkgebonden algoritme worden gebaseerd.
+<!--
+<div class="preview">
+
+Smart assignments work differently for tasks than for issues.  
+
+### Smart assignments criteria for tasks
+
+Task smart assignments work in two phases:  
+
+#### First phase of smart assignment calculation criteria for tasks 
+
+Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+
+* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
+For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+
+* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+
+#### Second phase of smart assignment calculation criteria for tasks
+
+If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+
+### Smart assignments criteria for tasks and issues 
+
+</div> 
+
+>[!NOTE]
+>
+><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
+
+-->
 
 De gebruikers worden geadviseerd in de slimme drop-down lijst van Toewijzingen die op een combinatie van de volgende criteria (die in orde van belangrijkst tot minst belangrijk worden vermeld) wordt gebaseerd:
 
-* Gebruikers die in de afgelopen 30 dagen aan andere werkitems zijn toegewezen door de gebruiker die de toewijzing maakt. De eerste 50 gebruikers die aan deze criteria voldoen, worden weergegeven. De gebruiker die het vaakst wordt toegewezen toont eerst.
+1. Gebruikers die in de afgelopen 30 dagen aan andere werkitems zijn toegewezen door de gebruiker die de toewijzing maakt. De eerste 50 gebruikers die aan deze criteria voldoen, worden weergegeven. De gebruiker die het vaakst wordt toegewezen toont eerst.
 
-   Als het het werkpunt aan een team of een rol wordt toegewezen, wordt de lijst van voorgestelde gebruikers gefiltreerd verder rekening houdend met de bestaande taken hieronder. In dit geval worden alleen de volgende gebruikers weergegeven in de lijst met suggesties:
+2. Als het het werkpunt aan een team of een rol wordt toegewezen, wordt de lijst van voorgestelde gebruikers gefiltreerd verder rekening houdend met de bestaande taken hieronder. In dit geval worden alleen de volgende gebruikers weergegeven in de lijst met suggesties:
 
    * Gebruikers van wie het Team van het Huis het team is dat aan het het werkpunt wordt toegewezen.
    * Gebruikers waarvan de primaire rol de rol is die aan het werkitem is toegewezen.
 
-      >[!TIP]
-      >
-      >* Indien <!--you're not part of any team and --> er is geen rol of team toegewezen aan de taak of uitgave, Workfront geeft alle gebruikers weer die de afgelopen 30 dagen zijn toegewezen, tot 50 gebruikers.
-      >* Als u geen taken in de afgelopen 30 dagen hebt gemaakt, slechts gebruikers die tot of het toegewezen team behoren of de rol hebben die aan het het werkpunt wordt toegewezen tonen in de slimme lijst van taken.
-
+>[!TIP]
+>
+>* Als er geen rol of team aan de taak of kwestie wordt toegewezen, toont Workfront alle gebruikers die voor de laatste 30 dagen, tot 50 gebruikers worden toegewezen.
+>
+>* Als u geen taken in de afgelopen 30 dagen hebt gemaakt, slechts gebruikers die tot of het toegewezen team behoren of de rol hebben die aan het het werkpunt wordt toegewezen tonen in de slimme lijst van taken.
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--

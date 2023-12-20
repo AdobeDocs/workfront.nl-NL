@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 Deze sectie bevat de volgende artikelen:
 
 * [Problemen maken](../../../manage-work/issues/manage-issues/create-issues.md)
-* [Overzicht van uitgaven wijzigen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Overzicht van het wijzigen van uitgaven](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md)
 * [Problemen weergeven](../../../manage-work/issues/manage-issues/view-issues.md)
 * [Problemen bewerken](../../../manage-work/issues/manage-issues/edit-issues.md)

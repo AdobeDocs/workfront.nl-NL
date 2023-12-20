@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
 workflow-type: tm+mt
-source-wordcount: '13834'
+source-wordcount: '13835'
 ht-degree: 0%
 
 ---
@@ -1381,7 +1381,7 @@ ht-degree: 0%
          * [Uitgaven kopiëren](manage-work/issues/manage-issues/copy-issues.md)
          * [Problemen verplaatsen](manage-work/issues/manage-issues/move-issues.md)
          * [Problemen verwijderen](manage-work/issues/manage-issues/delete-issues.md)
-         * [Overzicht van uitgaven wijzigen](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+         * [Overzicht van het wijzigen van uitgaven](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Uitgiftestatussen automatisch bijwerken in afwachting van feedback naar Bezig](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * De Gantt-grafiek {#the-gantt-chart}

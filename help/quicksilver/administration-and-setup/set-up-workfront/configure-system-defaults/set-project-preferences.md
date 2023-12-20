@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Projectvoorkeuren voor het hele systeem configureren
 description: Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle projecten vormen die door het systeem worden gecreeerd. Deze voorkeuren zijn van invloed op het project, de taak en het gedrag van problemen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -32,28 +32,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] plan</p></td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nieuw: [!UICONTROL Standard]</p>
+   of
+   <p>Huidige: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL System Administrator]</p> <p><b>OPMERKING</b>:</p><p>Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Projectvoorkeuren configureren voor de gehele organisatie
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]**.
 
-1. Ga op de pagina die wordt weergegeven verder met een van de vier onderstaande secties om voorkeuren te configureren voor [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], en [!UICONTROL Life after Death].
-1. Als u wilt dat alle groepen in de organisatie dezelfde projectvoorkeuren gebruiken, moet elke voorkeur zijn vergrendeld ![](assets/lock-toggle-button.png) (dit is de standaardwaarde).
+1. Op de **Projectvoorkeuren** pagina, ga verder met een van de vier onderstaande secties om voorkeuren voor [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], en [!UICONTROL Life after Death].
+1. Als u wilt dat alle groepen in de hele organisatie dezelfde projectvoorkeuren gebruiken, moet u ervoor zorgen dat elke voorkeur is vergrendeld ![](assets/lock-toggle-button.png) (dit is de standaardwaarde).
 
    >[!IMPORTANT]
    >
@@ -89,7 +92,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
          </ul>
         <p>Deze voorkeur is standaard ingeschakeld. </p> 
         <p><b>OPMERKING</b></p>
-        <p> Een groepsbeheerder kan deze voorkeur voor een groep wijzigen. Wanneer een gebruiker tot veelvoudige groepen met verschillende voorkeur behoort, zal de gebruiker een project zonder een malplaatje kunnen tot stand brengen als hun Groep van het Huis deze toegelaten voorkeur heeft.</p> 
+        <p> Een groepsbeheerder kan deze voorkeur voor een groep wijzigen. Wanneer een gebruiker tot veelvoudige groepen met verschillende voorkeur behoort, kan de gebruiker een project zonder een malplaatje tot stand brengen als hun Groep van het Huis deze toegelaten voorkeur heeft.</p> 
         </td> 
   </tr>
   <tr> 
@@ -112,7 +115,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
-   <td> <p>Met deze voorkeur kunnen gebruikers de [!UICONTROL Condition] van een project handmatig ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) of [!DNL Workfront] instellen [!UICONTROL Condition] (Voortgangsstatus) wordt automatisch gebaseerd op de voortgang van het project op de tijdlijn. Zie voor meer informatie over de voorwaarde van projecten <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overzicht van het type Projectvoorwaarde en Voorwaarde</a>.</p> </td> 
+   <td> <p>Met deze voorkeur kunnen gebruikers de [!UICONTROL Condition] van een project handmatig naar ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) of [!DNL Workfront] instellen [!UICONTROL Condition] (Voortgangsstatus) wordt automatisch gebaseerd op de voortgang van het project op de tijdlijn. Zie voor meer informatie over de voorwaarde van projecten <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overzicht van het type Projectvoorwaarde en Voorwaarde</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Create baselines automatically]</p> </td> 
@@ -130,7 +133,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
    <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Bepalen welke gegevens [!DNL Workfront] gebruikt voor het berekenen van [!UICONTROL Estimate at Completion] (EAC) die de geraamde totale kosten van een project vertegenwoordigt.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Calculate at project level]</strong>:EAC voor de oudertaak en het project wordt bepaald door binnen te gaan [!UICONTROL Actual Hours] of [!UICONTROL Actual Labor Cost] in de EAC-formules. Deze berekening omvat [!UICONTROL Actual Hours] of [!UICONTROL Costs and Expenses] rechtstreeks toegevoegd aan de bovenliggende taak of het bovenliggende project.</li> 
+     <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC voor de oudertaak en het project wordt bepaald door binnen te gaan [!UICONTROL Actual Hours] of [!UICONTROL Actual Labor Cost] in de EAC-formules. Deze berekening omvat [!UICONTROL Actual Hours] of [!UICONTROL Costs and Expenses] rechtstreeks toegevoegd aan de bovenliggende taak of het bovenliggende project.</li> 
      <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>: EAC voor de oudertaak en het project worden bepaald door EAC voor elke kindtaak samen te vatten. Deze berekening sluit uit [!UICONTROL Actual Hours] of [!UICONTROL Actual Costs and Expenses] rechtstreeks toegevoegd aan de bovenliggende taak of het bovenliggende project.</p> <p>De projectmanager kan dit het plaatsen op het projectniveau wijzigen, gebruikend [!UICONTROL Finance] gebied in [!UICONTROL Project Details].Zie voor meer informatie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Informatie beheren in het project [!UICONTROL Finance] gebied</a>.</p> </li> 
     </ul> <p>Voor meer informatie over hoe de EAC berekent, zie <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Berekenen [!UICONTROL Estimate At Completion] (EAC)</a>.</p> </td> 
   </tr> 
@@ -157,7 +160,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
    <td role="rowheader">[!UICONTROL User Time Off]</td> 
    <td> <p>Bepaal of de tijd van de Primaire Ontvanger van een taak de geplande data voor die taak op een project aanpast.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: Om het even welke tijd van gepland voor Primaire Assignee van een taak past de geplande data van de taak aan als de tijd van weg tijdens de duur van de taak voorkomt. Dit is de standaardinstelling. </p> <p>Bijvoorbeeld als een taak met een Beperking van [!UICONTROL As Soon As Possible] De eerste vergadering is gepland om op 1 juni te beginnen en op 3 juni af te sluiten. De eerste vergadering heeft op 2 juni de tijd om te vertrekken, en de geplande data van de taak worden op 1 juni tot en met 4 juni vastgesteld.</p> <p><b>BELANGRIJK</b>: De duur van de taak verandert niet wanneer u deze instelling selecteert. Alleen de geplande datums veranderen, afhankelijk van de Taakbeperking.</p> </li> 
+     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: Om het even welke tijd van gepland voor Primaire Assignee van een taak past de geplande data van de taak aan als de tijd van weg tijdens de duur van de taak voorkomt. Dit is de standaardinstelling. </p> <p>Bijvoorbeeld als een taak met een Beperking van [!UICONTROL As Soon As Possible] De eerste vergadering is gepland om op 1 juni te beginnen en op 3 juni af te sluiten. De eerste vergadering heeft op 2 juni de tijd om te vertrekken, en de geplande data van de taak worden op 1 juni tot en met 4 juni vastgesteld.</p> <p><b>BELANGRIJK</b>:</p> <p>De duur van de taak verandert niet wanneer u deze instelling selecteert. Alleen de geplande datums veranderen, afhankelijk van de Taakbeperking.</p> </li> 
      <li><strong>[!UICONTROL Ignore user time off in task durations]</strong>: De geplande data van elke taak voor een project blijven zoals oorspronkelijk gepland, zelfs als de primaire ontvanger van een taak tijd van tijd heeft tijdens zijn duur.</li> 
     </ul> <p>Houd rekening met het volgende wanneer u opties voor deze instelling selecteert:</p> 
     <ul> 
@@ -172,7 +175,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Project timelines will be automatically re-calculated]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Project timelines are automatically re-calculated]</p> </td> 
    <td> <p>Bepaal wanneer de tijdlijn van een project opnieuw wordt berekend. Zie voor informatie over het opnieuw berekenen van de projecttijdlijn <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projecttijdlijnen opnieuw berekenen</a>.</p> <p>De volgende opties zijn standaard ingeschakeld. U kunt een of meer van de volgende instellingen selecteren:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Every night]</strong>: Selecteer deze optie om de projecttijdlijnen elke avond opnieuw te berekenen. Wijzigingen die u aanbrengt in het project en die van invloed kunnen zijn op de tijdlijn, worden niet direct weergegeven. [!DNL Workfront​​​] herberekent alleen tijdlijnen 's nachts voor projecten waarbij aan beide volgende voorwaarden is voldaan:</p> <p> 
@@ -185,14 +188,14 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
         <li>Alleen wijzigen</li>
         <li>Alleen automatisch</li> 
       </ul>       
-    <b>TIP</b>
+    <b>TIP:</b>
     <p>Deze instelling is niet van invloed op projecten met alleen het updatetype Handmatig.</p>
     <li> <p><strong>Wanneer het bereik van een project verandert</strong>: Selecteer deze optie om de projecttijdlijnen onmiddellijk opnieuw te berekenen terwijl een wijziging in het projectbereik plaatsvindt. Voor informatie over wat een verandering van het projectwerkingsgebied betekent, zie <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projecttijdlijnen opnieuw berekenen</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL When multiple users are assigned to a task use the schedule of the]</p> </td> 
-   <td> <p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen; [!DNL Workfront] gebruikt het standaardschema van het systeem om de chronologie van de taken te berekenen.</p> <p>Als u veelvoudige gebruikers aan de zelfde taak in een project toewijst heeft toegewezen programma-en de gebruikers die aan de taken worden toegewezen hebben ook een programma dat aan hen wordt toegewezen—[!UICONTROL Workfront] gebruikt de volgende schema's:</p> 
+   <td> <p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen; [!DNL Workfront] gebruikt het standaardschema van het systeem om de chronologie van de taken te berekenen.</p> <p>Als u veelvoudige gebruikers aan de zelfde taak in een project toewijst en het project een toegewezen programma heeft en de gebruikers die aan de taken worden toegewezen ook een programma hebben dat aan hen wordt toegewezen, [!UICONTROL Workfront] gebruikt de volgende schema's:</p> 
     <ul> 
      <li><strong>[!UICONTROL Primary Assignment]</strong>: [!DNL Workfront] gebruikt het programma van de Primaire Taak op de taak om chronologie te berekenen.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] gebruikt het programma van het project om de chronologie van elke taak te berekenen.</li> 
@@ -205,12 +208,12 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
      <li><strong>[!UICONTROL Typical hours per work day]</strong>: Stel het aantal uren op een typische werkdag in voor de gebruikers die aan projecten gaan werken. De standaardwaarde is 8 uur.</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL Typical work days per week]</strong>: Stel de standaardwerkweek in voor de gebruikers die aan projecten gaan werken. De standaardwaarde is 5 dagen.</li> 
-    </ul> <p>Deze twee opties zetten dagen om in uren, of weken in dagen.</p> <p>Als u bijvoorbeeld een taak hebt met 8 geplande uren en de duur wordt berekend op basis van de geplande uren, [!DNL Workfront] zet die uren in dagen om om de Duur als dagen te tonen.</p> <p>Van de standaard [!UICONTROL work days per week] veld, [!DNL Workfront] berekent de FTE-waarde (Full Time Equivalent) voor uw systeem. Dit is wat [!DNL Workfront] wordt gebruikt bij het berekenen van toewijzingen voor gebruikers.</p> <p>Deze waarden worden gebruikt wanneer u projectchronologie, het in de begroting opnemen voor middelen, of het registreren tijd tegen projecten plant. </p> <p>Ze worden niet gebruikt wanneer u tijdbladen voor gebruikers in het systeem opstelt, zoals beschreven in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] voorkeuren voor tijdlijnen en uren</a>.</p> <p><b>OPMERKING</b>: [!DNL Workfront] beheerders kunnen niet ontgrendelen [!UICONTROL Timeline Calculations] voorkeuren.</p> </td> 
+     <li><strong>[!UICONTROL Typical work days per week]</strong>: Stel de standaardwerkweek in voor de gebruikers die aan projecten werken. De standaardwaarde is 5 dagen.</li> 
+    </ul> <p>Deze twee opties zetten dagen om in uren, of weken in dagen.</p> <p>Als u bijvoorbeeld een taak hebt met 8 geplande uren en de duur wordt berekend op basis van de geplande uren, [!DNL Workfront] zet die uren in dagen om om de Duur als dagen te tonen.</p> <p>Van de standaard [!UICONTROL work days per week] veld, [!DNL Workfront] berekent de FTE-waarde (Full Time Equivalent) voor uw systeem. Dit is wat [!DNL Workfront] wordt gebruikt bij het berekenen van toewijzingen voor gebruikers.</p> <p>Deze waarden worden gebruikt wanneer u projectchronologie, het in de begroting opnemen voor middelen, of het registreren tijd tegen projecten plant. </p> <p>Ze worden niet gebruikt wanneer u tijdbladen voor gebruikers in het systeem opstelt, zoals beschreven in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] voorkeuren voor tijdlijnen en uren</a>.</p> <p><b>OPMERKING</b>:</p> <p>[!DNL Workfront] beheerders kunnen niet ontgrendelen [!UICONTROL Timeline Calculations] voorkeuren.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aangepaste kwartalen inschakelen voor projecten</a>.</p>  <p><b>OPMERKING</b>: [!DNL Workfront] beheerders kunnen niet ontgrendelen [!UICONTROL Custom Quarters] voorkeuren.</p> </td> 
+   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aangepaste kwartalen inschakelen voor projecten</a>.</p>  <p><b>OPMERKING</b>: </p><p>[!DNL Workfront] beheerders kunnen niet ontgrendelen [!UICONTROL Custom Quarters] voorkeuren.</p> </td> 
   </tr> 
  </tbody> 
 </table>

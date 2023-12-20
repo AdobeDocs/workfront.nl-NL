@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Problemen toewijzen
 
-U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van problemen raadpleegt u [Overzicht van uitgaven wijzigen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van problemen raadpleegt u [Overzicht van het wijzigen van uitgaven](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie v
 
 Naast dit artikel raden we u aan de volgende artikelen te lezen voor meer informatie over het toewijzen van problemen:
 
-* [Overzicht van uitgaven wijzigen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Overzicht van het wijzigen van uitgaven](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Problemen bewerken](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waar u het probleem kopieert met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Toegang verlenen aan gebruikers</a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waar u het probleem kopieert en waar u problemen kunt toevoegen.</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Toegang verlenen aan gebruikers</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -122,7 +122,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 
    * (Voorwaardelijk) Klik op een van de namen in het dialoogvenster **Voorgestelde toewijzingen** list
    * Klikken **Toewijzen aan mij** om het aan zich toe te wijzen
-   * Klikken **Geavanceerd**
+   * Klikken **Geavanceerd**.
 
      Het maken van geavanceerde toewijzingen is vergelijkbaar voor taken en problemen. Voor informatie over hoe te om geavanceerde taken te maken, zie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
@@ -144,7 +144,7 @@ U kunt kwesties in een lijst of een rapport toewijzen wanneer om het even welke 
 
 Afhankelijk van welk veld zichtbaar is in de weergave, kunt u de volgende entiteiten aan de uitgave toewijzen:
 
-| Option | Toegewezen entiteiten |
+| Optie | Toegewezen entiteiten |
 |---|---|
 | **Toewijzen aan** | Eén gebruiker toewijzen |
 | **Toegewezen** | Eén gebruiker toewijzen |
@@ -172,7 +172,7 @@ Om kwesties in een lijst toe te wijzen:
    >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Voorwaardelijk) Klik, indien zichtbaar in het veld Toewijzingen, op de knop **Personenpictogram** ![](assets/teams.png) in de rechterbovenhoek van het toewijzingsvak om het vak Geavanceerde toewijzingen te openen en geavanceerde toewijzingen te maken. Zie voor meer informatie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Voorwaardelijk) Als deze optie zichtbaar is in het veld Toewijzingen, klikt u op de knop **Personenpictogram** ![](assets/teams.png) in de rechterbovenhoek van het toewijzingsvak om het vak Geavanceerde toewijzingen te openen en geavanceerde toewijzingen te maken. Zie voor meer informatie [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -195,7 +195,7 @@ Om kwesties in een lijst toe te wijzen:
    >Als een van de problemen al is toegewezen, worden de bronnen die u hier opgeeft, toegevoegd aan de problemen in plaats van de bestaande bronnen over de problemen te vervangen.
 
 1. (Optioneel) Selecteer het keuzerondje in het dialoogvenster **Eigenaar van uitgave** kolom om aan te geven welke bron de primaire ontvanger of de eigenaar van de uitgave is, wanneer u meer dan één bron aan de uitgave toewijst. Dit is niet beschikbaar voor teams.
-1. (Optioneel) Selecteer een rol die de gebruiker moet vervullen in de publicatie **Een rol kiezen** vervolgkeuzelijst in het dialoogvenster **Rol van de gemachtigde** wanneer u gebruikers toewijst aan uitgaven. Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Optioneel) Selecteer een rol die de gebruiker moet vervullen in de publicatie **Een rol kiezen** vervolgkeuzemenu in het dialoogvenster **Rol van de gemachtigde** wanneer u gebruikers toewijst aan uitgaven. Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle uitgaven wilt verwijderen, voert u een van de volgende handelingen uit:
 

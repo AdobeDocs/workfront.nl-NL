@@ -6,9 +6,9 @@ description: Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt gebruikerstoewijzingen aan veelvoudige kwesties gelijktijdig wijzigen. Z
 * [Problemen bewerken](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Voor algemene informatie over het toewijzen van problemen raadpleegt u [Overzicht van uitgaven wijzigen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Voor algemene informatie over het toewijzen van problemen raadpleegt u [Overzicht van het wijzigen van uitgaven](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       Het dialoogvenster Nieuw filter wordt weergegeven.
 
    1. Klikken **Voeg een filterregel toe.**
-   1. Als u voor een specifieke rol wilt filteren, vouwt u **Toewijzingsrollen,** klik vervolgens op **ID.**
+   1. Om voor een specifieke rol te filteren, breid uit **Toewijzingsrollen,** klik vervolgens op **ID.**
 
       of
 
@@ -98,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. Typ de naam van de gebruiker of rol waarvoor u wilt filteren en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klikken **Filter opslaan.**
 
-1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **Bewerken** pictogram ![](assets/qs-edit-icon.png).
+1. Selecteer de problemen waarvoor u toewijzingen wilt wijzigen en klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png).
 
    De **Problemen bewerken** worden weergegeven. De items die worden bewerkt, worden in de linkerbovenhoek van de pagina weergegeven.
 
@@ -113,29 +113,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       1. Begin de naam van een gebruiker, een rol, of een team te typen, dan het te selecteren wanneer het in de lijst toont. De toewijzing wordt toegevoegd en vervangt de huidige toewijzingen voor de geselecteerde uitgaven niet.
 
          >[!TIP]
+         >
          U kunt meerdere gebruikers, taakrollen of teams toewijzen. U kunt alleen actieve gebruikers, taakrollen en teams toewijzen.
+         >
          Als een gebruiker, een baanrol, of een team werd toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
+         >
          * Wijs het werkitem opnieuw toe aan actieve bronnen.
          * Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
 
-
          Informatie die algemeen is voor alle geselecteerde uitgaven, wordt weergegeven. Als bijvoorbeeld dezelfde gebruiker aan alle uitgaven is toegewezen, wordt die gebruiker in het dialoogvenster **Geadresseerde** kolom. Als er geen algemene informatie wordt weergegeven over de geselecteerde problemen.
+
    1. Afzonderlijke toewijzingen verwijderen:
 
       1. Klik op de knop **X-pictogram** naast de naam van de toegewezen persoon die u wilt verwijderen als de toegewezen persoon wordt weergegeven in de lijst Toewijzingen.
 
          of
 
-         (Voorwaardelijk) Als de toegewezen persoon die u wilt verwijderen niet wordt weergegeven in de sectie Toewijzingen omdat de toegewezen persoon is toegewezen aan slechts enkele van de problemen die u hebt geselecteerd, klikt u op **Toegewezen verwijderen** en typ de naam van de toegewezen persoon die u wilt verwijderen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+         (Voorwaardelijk) Als de toegewezen persoon die u wilt verwijderen niet wordt weergegeven in de sectie Toewijzingen omdat de toegewezen persoon is toegewezen aan slechts een aantal van de geselecteerde problemen, klikt u op **Toegewezen verwijderen** en typ de naam van de toegewezen persoon die u wilt verwijderen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 
       1. Klikken **Toegewezen verwijderen** opnieuw om een andere te verwijderen ontvanger toe te voegen.
+
    1. Alle bestaande toewijzingen verwijderen:
 
       1. Klikken **Alle bestaande toewijzingen verwijderen** en klik vervolgens op **Ja, alle toewijzingen verwijderen**.
 
          Hierdoor worden niet alleen algemene toewijzingen (toewijzingen die in het dialoogvenster Bewerken worden weergegeven), maar ook alle toewijzingen voor alle geselecteerde problemen verwijderd.
-
-
 
 1. (Optioneel) Wijzig een of meer van de volgende opties voor de toewijzingen die u hebt geselecteerd om aan de problemen te koppelen:
 

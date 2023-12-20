@@ -7,9 +7,9 @@ description: U kunt taken toewijzen aan of de toewijzing van taken door gebruike
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ U kunt taken toewijzen aan of de toewijzing van taken door gebruikers, teams of 
 >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
 >
 
-
 Dit artikel bevat algemene informatie over het effect van het wijzigen van taaktaken. Raadpleeg de volgende artikelen voor informatie over het toewijzen van taken:
 
 * Voor informatie over het toewijzen van taken raadpleegt u [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) en [Meerdere gebruikerstoewijzingen in een takenlijst wijzigen](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
@@ -36,18 +35,18 @@ Dit artikel bevat algemene informatie over het effect van het wijzigen van taakt
 * Voor informatie over het wijzigen van taken op veelvoudige taken in het Plannende gebied, zie &quot;veelvoudige gebruikerstoewijzingen aan taken in de Plannende gebieden wijzigen&quot;.
 * Voor informatie over het toewijzen van taken met behulp van Workload Balancer raadpleegt u [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Sommige informatie in dit artikel is ook van toepassing op toewijzingen aan kwesties. Voor meer informatie over het toewijzen van problemen, en extra overwegingen, zie [Overzicht van uitgaven wijzigen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Sommige informatie in dit artikel is ook van toepassing op toewijzingen aan kwesties. Voor meer informatie over het toewijzen van problemen, en extra overwegingen, zie [Overzicht van het wijzigen van uitgaven](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## Wanneer moet u gebruikerstoewijzingen wijzigen voor taken
 
-U kunt de gebruikerstaken voor taken om diverse redenen, met inbegrip van het volgende, willen wijzigen:
+U kunt de gebruikerstoewijzingen voor taken om diverse redenen, met inbegrip van het volgende, willen wijzigen:
 
 * Gebruikers nemen deel aan of verlaten uw team
 * Een gebruiker neemt een vakantie die zich voorbij taakvervaldata uitbreidt
 
-   >[!NOTE]
-   >
-   >Wanneer u gebruikers aan het werk toewijst, heeft de beschikbaarheid volgens hun planning invloed op de geplande en de verwachte taakdatum. Voor informatie over programma&#39;s, zie [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >[!NOTE]
+  >
+  >Wanneer u gebruikers aan het werk toewijst, heeft de beschikbaarheid volgens hun planning invloed op de geplande en de verwachte taakdatum. Voor informatie over programma&#39;s, zie [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Een specifieke rol of een gebruiker wordt geplaatst als ontvanger voor veelvoudige taken en u wilt snel alle punten wijzigen die aan een verschillende gebruiker of een rol moeten worden toegewezen
 
@@ -58,7 +57,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 * Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Taken of problemen worden doorgaans eerst toegewezen aan een of meer functies of aan een team. Wanneer de projecten klaar zijn om te beginnen, zouden zij ook aan gebruikers kunnen moeten worden toegewezen.\
-   Als een taak of een kwestie aan één of veelvoudige rollen wordt toegewezen en u dan ook een gebruiker toewijst, beslist Adobe Workfront welke baanrol aan de extra gebruiker (als om het even welk) te associëren volgens de volgende regels:
+  Als een taak of een kwestie aan één of veelvoudige rollen wordt toegewezen en u dan ook een gebruiker toewijst, beslist Adobe Workfront welke baanrol aan de extra gebruiker (als om het even welk) te associëren volgens de volgende regels:
 
    * Als er slechts één taakrol is toegewezen en deze overeenkomt met de primaire rol van de gebruiker, wordt de taak of kwestie alleen toegewezen aan de gebruiker die zijn primaire rol vervult.
    * Als er veelvoudige toegewezen rollen zijn en minstens één van de rollen de secundaire rollen van de gebruiker aanpast, dan wordt de taak of de kwestie toegewezen aan de gebruiker die één van hun Andere Rollen vervult — die Workfront willekeurig selecteert als er veelvoudige gelijken zijn — evenals om het even welke extra rollen die worden toegewezen.
@@ -72,11 +71,11 @@ Het verwijderen van gebruikers kan taakuren en toewijzingspercentages beïnvloed
 
 Wanneer u een gebruiker uit een taak met de volgende Types van Duur schrapt:
 
-* **Eenvoudig:** De geplande uren die aan die gebruiker worden toegewezen worden afgetrokken van het totaal van geplande uren van de taak.
+* **Eenvoudig:** De geplande uren die aan die gebruiker worden toegewezen worden afgetrokken van het totaal geplande aantal uren van de taak.
 
-   >[!IMPORTANT]
-   >
-   >Dit zou uw projectplan negatief kunnen beïnvloeden omdat het het totale geplande uren voor de taak en het project verandert.
+  >[!IMPORTANT]
+  >
+  >Dit zou uw projectplan negatief kunnen beïnvloeden omdat het het totale geplande uren voor de taak en het project verandert.
 
 * **Gedreven inspanning:** Het toewijzingspercentage verandert niet voor andere gebruikers.
 * **Berekende toewijzing:** De toewijzingspercentages van andere gebruikers worden zodanig aangepast dat het totaal gelijk is aan 100%.

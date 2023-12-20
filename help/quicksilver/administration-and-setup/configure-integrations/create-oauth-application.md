@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -298,7 +298,7 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
       <td>Dit is het e-mailadres van de ontwikkelaar die de OAuth2-toepassing instelt.</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL Privacy policy UTL]</td> 
+      <td role="rowheader">[!UICONTROL Privacy policy URL]</td> 
       <td>Dit is de verbinding aan waar uw organisatie het privacybeleid opslaat.</td> 
      </tr>
 

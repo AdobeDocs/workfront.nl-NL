@@ -6,9 +6,9 @@ description: U kunt een rapport of een lijst in Adobe Workfront bouwen door of d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de interface van de tekstwijze te gebruiken wanneer het creëren van de elementen die omhoog het rapport of de lijst maken. Met de standaardinterface kunt u verwijzen naar velden en hun kenmerken die gemakkelijk beschikbaar zijn in de Workfront-interface. In de tekstmodus kunt u verwijzen naar velden en kenmerken die mogelijk niet beschikbaar zijn in de standaardmodus, maar wel in de Workfront-database.
+U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de interface van de tekstwijze te gebruiken wanneer het creëren van de elementen die omhoog het rapport of de lijst maken.
+
+Met de standaardinterface kunt u verwijzen naar velden en hun kenmerken die gemakkelijk beschikbaar zijn in de Workfront-interface.
+
+In de tekstmodus kunt u verwijzen naar velden en kenmerken die mogelijk niet beschikbaar zijn in de standaardmodus, maar wel in de Workfront-database.
 
 Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.
 
@@ -74,9 +78,6 @@ Voor een volledige lijst van al onze te melden gebieden, zie [API Explorer](../.
 >
 >Niet alle velden die beschikbaar zijn via de API, zijn beschikbaar via de tekstmodusinterface. Als u het juiste veld in de code van de tekstmodus gebruikt en u niet de verwachte resultaten weergeeft, is het mogelijk dat het veld alleen via de API moet worden gemeld.
 
-* [Rapportelementen openen en tekstmodus bewerken](#access-reporting-elements-and-edit-text-mode)
-* [Algemene redenen voor het gebruik van de tekstmodus](#common-reasons-to-use-text-mode)
-
 ## Rapportelementen openen en tekstmodus bewerken {#access-reporting-elements-and-edit-text-mode}
 
 Toegang tot de interface van de tekstmodus is vergelijkbaar voor weergaven, groepen en filters wanneer u deze benadert vanuit een rapport of lijst.
@@ -95,13 +96,20 @@ Aangepaste vragen kunnen alleen in de tekstmodus worden bewerkt. U kunt tot heri
 
 Voor informatie over de toegang tot van de interface van de tekstwijze voor douaneherinneringen, zie [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
--->
+## Algemene redenen voor het gebruik van de tekstmodus {#common-reasons-to-use-text-mode}
+
+Buiten het creëren van douaneherinneringen die slechts gebruikend tekstwijze kunnen worden gevormd, adviseren wij dat u de rapportbouwer gebruikt om uw meningen, filters en groeperingen te bouwen. In sommige gevallen kunt u echter de tekstmodus gebruiken om uw rapporten en lijsten te verbeteren.
+
+Voor meer informatie over algemeen gebruik voor tekstwijze, zie [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+  -->
+
+<!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
+  -->
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
@@ -120,18 +128,18 @@ Voor informatie over de toegang tot van de interface van de tekstwijze voor doua
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
--->
+  <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
+  -->
 
 <!--
-<note type="tip">
-We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
-</note>
--->
+  <note type="tip">
+  We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
+  </note>
+  -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
+  -->
 
 <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
@@ -539,21 +547,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>De eerste groepering van het rapport heeft een groepsaantal van 0. Alle regels die verwijzen naar de eerste groep beginnen met groep.0.&lt;/code>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>De tweede groep van het rapport heeft een groepnummer van 1. Alle regels die verwijzen naar de tweede groep beginnen met &lt;code>group.1&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>De derde groep van het rapport heeft een groepnummer van 2. Alle regels die verwijzen naar de derde groep beginnen met &lt;code>group.2&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Alleen in de tekstmodus kunt u een groepnummer van 3 toevoegen voor een vierde groep. Alle regels die verwijzen naar de vierde groep beginnen met &lt;code>groep.3&lt;/code>.&lt;/em>&lt;/li>
-    —>
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+  -->
 
 <!--
    <note type="note">
@@ -585,11 +593,13 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
    -->
 
->[!TIP]
->
->Wanneer u groepen handmatig aanpast wanneer u een lijst weergeeft, onthoudt Workfront uw handmatige voorkeur totdat u zich afmeldt. Wanneer u zich weer aanmeldt, wordt de lijst weergegeven volgens deze instelling.
->
->De resultaten van een groepering tonen altijd uitgevouwen na de toegang tot hen van een grafiekelement.
+<!--
+   >[!TIP]
+   >
+   >When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >
+   >The results of a grouping always display expanded after accessing them from a chart element.
+   -->
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,8 +621,4 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## Algemene redenen voor het gebruik van de tekstmodus {#common-reasons-to-use-text-mode}
 
-Buiten het creëren van douaneherinneringen die slechts gebruikend tekstwijze kunnen worden gevormd, adviseren wij dat u de rapportbouwer gebruikt om uw meningen, filters en groeperingen te bouwen. In sommige gevallen kunt u echter de tekstmodus gebruiken om uw rapporten en lijsten te verbeteren.
-
-Voor meer informatie over algemeen gebruik voor tekstwijze, zie [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

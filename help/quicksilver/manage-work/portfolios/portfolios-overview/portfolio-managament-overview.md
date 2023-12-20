@@ -6,9 +6,9 @@ description: Het beheer van Portfolio of het Portfolio van het Project (PPM) is 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Voor meer informatie over het creëren van een bedrijfsgeval en een projectverzo
 
 ### Projectbeoordeling {#project-review}
 
-Nadat u het projectverzoek indient, herziet de Manager van het Portfolio of een uitvoerend team het, en besluit of om hen goed te keuren. Als zij worden goedgekeurd, zullen zij voor een Portfolio van het Project van het bedrijf worden geselecteerd.
+Nadat u het projectverzoek indient, herziet de Manager van het Portfolio of een uitvoerend team het, en besluit of om het project goed te keuren. Als zij het project goedkeuren, wordt het project geselecteerd voor een Portfolio van het bedrijfProject.
 
 Zie voor meer informatie over portfolio&#39;s [Overzicht van Portfolio&#39;s in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Voor meer informatie over het goedkeuren van een Bedrijfs Geval, zie [Een bedrijfscase goedkeuren](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -67,15 +67,15 @@ Zie voor meer informatie over het optimaliseren van portfolio&#39;s [Projecten o
 
 ### Bronplanning {#resource-planning}
 
-Samen met het optimaliseren van de prestaties van de portefeuille en het prioriteren van het project, zorgt de Manager van het Middel ervoor dat de juiste middelen aan de projecten worden toegewezen. Zij beoordelen de beschikbaarheid en allocatie van de middelen met behulp van de hulpmiddelen voor hulpbronnenbeheer die beschikbaar zijn in [!DNL Workfront].
+Samen met het optimaliseren van de prestaties van de portefeuille en het prioriteren van de projecten, zorgt de Manager van het Middel ervoor dat de juiste middelen aan de projecten worden toegewezen. Zij beoordelen de beschikbaarheid en allocatie van de middelen met behulp van de hulpmiddelen voor hulpbronnenbeheer die beschikbaar zijn in [!DNL Workfront].
 
-Afhankelijk van de beschikbaarheid van de middelen, zou de Manager van het Portfolio aan de projecten kunnen moeten opnieuw voorrang geven.
+Afhankelijk van de beschikbaarheid van de middelen, zou de Manager van het Portfolio de projecten kunnen moeten opnieuw voorrang geven.
 
 Voor meer informatie over het Beheer van het Middel, zie [Bronnen beheren](../../../resource-mgmt/manage-resources.md) sectie.
 
 ### Uitvoering van project {#project-execution}
 
-Na het ontvangen van de projectgoedkeuring van de Manager van het Portfolio en de bevestiging van de middelen van de Manager van het Middel, als Eigenaar van het Project, kunt u het project in het statuut van plaatsen [!UICONTROL Current] en uw gebruikers kunnen het werk beginnen om het project te voltooien. Aanbevolen wordt in deze fase een basislijn van het project vast te leggen, zodat er een referentiepunt voor het project in de oorspronkelijke staat aanwezig is.
+Na het ontvangen van de projectgoedkeuring van de Manager van het Portfolio en de bevestiging van de middelen van de Manager van het Middel, als Eigenaar van het Project, kunt u het project in het statuut van plaatsen [!UICONTROL Current] en uw gebruikers kunnen het werk beginnen om het project te voltooien. Wij adviseren dat u een basislijn van het project in deze fase vangt, om een verwijzingspunt voor het project, in zijn originele staat te hebben.
 
 Voor meer informatie over het beheren van projecten in [!DNL Workfront], zie [Projecten beheren: artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 Voor meer informatie over het creëren van basislijnen op projecten, zie [Projectbasislijnen maken](../../../manage-work/projects/create-projects/create-baselines.md).
