@@ -6,9 +6,9 @@ description: Overzicht van veelvoorkomende toepassingen voor de tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt uw rapporteringsmogelijkheden uitbreiden door tekstwijze in rapporten en 
 
 In dit artikel worden slechts een paar voorbeelden beschreven van de meest waarschijnlijke noodzaak om de tekstmodus te gebruiken voor het uitbreiden van de rapportage of het berekenen van aangepaste veldmogelijkheden in Adobe Workfront. Voor een uitgebreidere lijst met voorbeelden raadpleegt u:
 
-* [Voorbeelden van aangepaste weergaven, filters en groeperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Berekende aangepaste gegevens in rapporten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
 Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.

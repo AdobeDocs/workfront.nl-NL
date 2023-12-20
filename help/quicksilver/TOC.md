@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 0%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 0%
       * [Rapporten](reports-and-dashboards/reports/reports-overview.md)
       * Grondbeginselen van rapporten {#report-basics}
          * [Grondbeginselen van rapporten](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Aan de slag met rapporten in Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [Aan de slag met rapporten](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Standaardrapporten opslaan als nieuwe rapporten](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * Rapportelementen {#report-elements}
          * [Overzicht van rapportelementen](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 0%
          * [Voorbeeld van een berekend aangepast veld: een statustijdstempel weergeven in een aangepast formulier](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [Voorbeeld van een berekend aangepast veld: bewerkingsgeschiedenis van een veld weergeven](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * Voorbeelden van aangepaste weergaven, filters en groeperingen {#custom-view-samples}
-         * [Voorbeelden van aangepaste weergaven, filters en groeperingen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapporten of lijsten: gebruikers weergeven die zijn gekoppeld aan een object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filter: onvolledige voordecessors voor meerdere projecten weergeven](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [Filter: onvolledige opvolgers voor meerdere projecten weergeven](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)

@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Een filter bewerken in de tekstmodus
-description: "OPMERKING: voeg een sectie in dit artikel toe: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Ook, ontwerp dit gebied in het de overzichtsartikel van de Wijze van de Tekst) "
+description: '''OPMERKING: voeg een sectie in dit artikel toe: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Ook, stel dit gebied in het overzichtsartikel voor de tekstmodus in)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere filters creëren.
 
-Zie ook de sectie &#39;Voorbeelden van aangepaste filters&#39; in het artikel voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste weergaven, filters en groeperingen](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Zie ook de sectie &#39;Voorbeelden van aangepaste filters&#39; in het artikel voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Toegangsvereisten
 
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -60,7 +60,7 @@ Zie voor meer informatie:
 
 * [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Voorbeelden van aangepaste weergaven, filters en groeperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Tekstmodus in een filter bewerken
 
@@ -129,7 +129,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Een vervanging die u toestaat om de informatie in een filter te generaliseren en de huidige tijd of de gebruiker van verwijzingen te voorzien die het programma wordt geopend.</p> <p>Jokertekens zijn optioneel.</p> <p>Tip:   <p>We raden u aan om waar mogelijk jokertekens te gebruiken om uw filters dynamischer te maken en niet dezelfde filters te dupliceren voor elke gebruiker of vergelijkbare tijdframes.</p> <p>Voor informatie over filterjokertekens raadpleegt u <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabelen van jokerfilter</a>.</p> </p> </td> 
+      <td> <p>Een vervanging die u toestaat om de informatie in een filter te generaliseren en de huidige tijd of de gebruiker van verwijzingen te voorzien die het programma wordt geopend.</p> <p>Jokertekens zijn optioneel.</p> <p>Tip:   <p>We raden u aan jokertekens zoveel mogelijk te gebruiken om uw filters dynamischer te maken en niet dezelfde filters voor elke gebruiker of vergelijkbare tijdframes te dupliceren.</p> <p>Zie voor informatie over filterjokertekens <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabelen van jokerfilter</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>VOORBEELD</b></span></span> 
         <p>Om voor taken te filtreren die aan de gebruiker worden toegewezen die momenteel het programma wordt geopend, gebruik het volgende:</p> 
@@ -156,19 +156,26 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
 
       Elke regel van de nieuwe instructie moet worden voorafgegaan door &quot;OR:`<number>`:&quot;.
 
-      Voor informatie over het maken van &quot;OR&quot;-instructies in een filter raadpleegt u [Instructies &quot;OR&quot; maken in tekstmodusfilters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      Zie voor informatie over het maken van &quot;OR&quot;-instructies in een filter [Instructies OR maken in tekstmodusfilters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
 <!--WRITER - reformat note below -->
 
 >[!NOTE]
 >
 >U kunt meerdere &quot;OR&quot;-instructies in hetzelfde filter hebben. Telkens wanneer u een nieuwe &quot;OF&quot;verklaring hebt het aantal na &quot;OF:&quot;stijgt.
+>
 Om voor taken te filtreren die in een status van Bezig zijn of aan de het programma geopende gebruiker toegewezen zijn of zij hebben de Geplande Datum van Voltooiing vandaag, gebruik het volgende:
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. Klikken **Gereed** als u de wijzigingen wilt opslaan en het rapport of het filter wilt blijven bewerken.

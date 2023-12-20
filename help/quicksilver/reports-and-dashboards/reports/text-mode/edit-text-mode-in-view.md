@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Een weergave bewerken in de tekstmodus
-description: "OPMERKING: voeg een sectie in dit artikel toe: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Ook, ontwerp dit gebied in het overzichtsartikel van de Tekstmodus."
+description: '''OPMERKING: voeg een sectie toe in dit artikel: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Ook, stel dit gebied in het overzichtsartikel voor de tekstmodus in)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1639'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -58,7 +58,7 @@ Zie voor meer informatie:
 
 * [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Voorbeelden van aangepaste weergaven, filters en groeperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Tekstmodus in een weergave bewerken
 
@@ -83,7 +83,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
 
    of
 
-   Selecteer **Kolommen (weergave)** van de rapportbouwer, dan selecteer een kolom.
+   Selecteer de **Kolommen (weergave)** van de rapportbouwer, dan selecteer een kolom.
 
    >[!TIP]
    >
@@ -119,8 +119,8 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
        <ol> 
         <li value="1"> <p> Als de naam van het veld dat u weergeeft een woordgroep is in plaats van een enkel zelfstandig naamwoord, moet u de syntaxis van het hoofdlettergebruik gebruiken voor het <code>valuefield</code>. Voor de geplande begindatum van een taak is de code bijvoorbeeld: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Als u een aangepast veld wilt weergeven, <code>valuefield</code> waarde is de daadwerkelijke naam van het gebied, zoals u het in de interface ziet. Voor een aangepast veld met de naam "Meer informatie" is de code bijvoorbeeld:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Als u objecten wilt weergeven die verwant zijn aan andere objecten in een weergave, gebruikt u de opdracht <code>valuefield</code> coderegel de objectnamen en -kenmerken worden gescheiden door dubbele punten. </p> <p>Een kolom in een taakweergave die bijvoorbeeld de naam van de eigenaar van de Portfolio zou weergeven, heeft de volgende waarde voor de veldwaarde:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>Dit wijst erop dat van het voorwerp van het rapport (taak), u tot het volgende verwante voorwerp (project) kunt toegang hebben, van daar, kunt u tot het volgende verwante voorwerp van project (portefeuille) toegang hebben, dan de portefeuteigenaar (eigenaar) en toen hun naam (naam). </p> </li> 
-       </ol> <p>Zie de sectie voor informatie over hoe objecten met elkaar verbinden <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependentie en hiërarchie van objecten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten in Adobe Workfront begrijpen</a>.</p> <p>Opmerking: Als u een veld kiest in de tekstmodus dat niet geldig is in de standaardinterface, kunt u niet terugschakelen naar de standaardinterface in de kolom.</p> </td> 
+        <li value="3"> <p>Als u objecten wilt weergeven die verwant zijn aan andere objecten in een weergave, gebruikt u de opdracht <code>valuefield</code> coderegel de objectnamen en -kenmerken worden gescheiden door dubbele punten. </p> <p>Bijvoorbeeld, heeft een kolom in een taakmening die de naam van de Eigenaar van het Portfolio zou tonen de volgende waarde voor de waardegebiedlijn:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>Dit wijst erop dat van het voorwerp van het rapport (taak), u tot het volgende verwante voorwerp (project) kunt toegang hebben, van daar, kunt u tot het volgende verwante voorwerp van project (portefeuille) toegang hebben, dan de portefeuteigenaar (eigenaar) en toen hun naam (naam). </p> </li> 
+       </ol> <p>Zie de sectie voor informatie over hoe objecten met elkaar verbinden <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependentie en hiërarchie van objecten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten in Adobe Workfront begrijpen</a>.</p> <p>Opmerking: als u een veld kiest in de tekstmodus dat niet geldig is in de standaardinterface, kunt u niet terugschakelen naar de standaardinterface in de kolom.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueformat=</strong> </td> 
@@ -132,8 +132,8 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
        <ol> 
         <li value="1"> <p>Als u een veld in hoofdletters in een kolom wilt weergeven, gebruikt u:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>De <code>valuefield</code> van het object wordt gespeld zoals het wordt weergegeven in de API Explorer. </p> </li> 
         <li value="2">Als u meerdere items wilt toevoegen <code>valuefields</code> door ze samen te voegen , moet je ze met een punt scheiden .</li> 
-        <li value="3"> <p>Bijvoorbeeld, als u de naam van de Primaire Ontvanger van een taak wilt tonen gebruikend <code>valueexpression</code>gebruikt u:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
-        <li value="4"> <p>Als u een aangepast veld wilt gebruiken in een <code>valueexpression</code> regel die u voor de naam van het veld moet opgeven <code>DE:</code> om aan te geven dat het een aangepast veld is. De naam van het veld wordt gespeld zoals deze wordt weergegeven in de interface. </p> <p>Belangrijk: Wanneer u een aangepast veld gebruikt dat in een aangepaste formuliersectie is geplaatst waarvoor bepaalde gebruikers beperkte machtigingen hebben, is de berekening van de waarde-expressie leeg wanneer die gebruikers deze berekening in een rapport bekijken. Voor informatie over het aanpassen van machtigingen voor aangepaste formuliersecties raadpleegt u <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a></span>.</p> <p>Als u bijvoorbeeld een aangepast veld hebt met de naam "Naam ontwikkelaar" en u dit veld in hoofdletters wilt weergeven in een kolom, kunt u het volgende gebruiken <code>valueexpression</code> dit aan te geven:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>Wanneer u naar een aangepast Typeahead-tekstveld verwijst, gebruikt u de volgende expressie om naar de naam van het object te verwijzen dat is geselecteerd in een veld met de naam "Naam ontwikkelaar":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
+        <li value="3"> <p>Als u bijvoorbeeld de naam van de primaire ontvanger van een taak wilt weergeven met <code>valueexpression</code>gebruikt u:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
+        <li value="4"> <p>Als u een aangepast veld wilt gebruiken in een <code>valueexpression</code> regel die u voor de naam van het veld moet opgeven <code>DE:</code> om aan te geven dat het een aangepast veld is. De naam van het veld wordt gespeld zoals deze wordt weergegeven in de interface. </p> <p>Belangrijk: wanneer u een aangepast veld gebruikt dat in een aangepaste formuliersectie is geplaatst met beperkte machtigingen voor sommige gebruikers, is de berekening van de waarde-expressie leeg wanneer die gebruikers deze berekening in een rapport bekijken. Zie voor informatie over het aanpassen van machtigingen voor aangepaste formuliersecties <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a></span>.</p> <p>Als u bijvoorbeeld een aangepast veld hebt met de naam "Naam ontwikkelaar" en u dit veld in hoofdletters wilt weergeven in een kolom, kunt u het volgende gebruiken <code>valueexpression</code> dit aan te geven:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>Wanneer u naar een aangepast Typeahead-tekstveld verwijst, gebruikt u de volgende expressie om naar de naam van het object te verwijzen dat is geselecteerd in een veld met de naam "Naam ontwikkelaar":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -142,7 +142,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
      </tr> 
      <tr> 
       <td><strong>namekey= / name=</strong> </td> 
-      <td> <p>Deze regel definieert het kolomlabel. In dit geval wordt de verkorte waarde op basis van de sleutel gebruikt.</p> <p>Als u de kolomnaam wilt wijzigen, kunt u deze waarde wijzigen in: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> kunt u elke gewenste tekst voor de kolomnaam invoeren, terwijl<code>namekey</code> vereist u een sleutel ingaat die wordt gebruikt om de naam van een kolom te vertalen.</p> <p>Als u de kolomnaam wilt wijzigen, kunt u ook het dialoogvenster <code>displayname </code>regel, als er geen regel is.</p> </td> 
+      <td> <p>Deze regel definieert het kolomlabel. In dit geval wordt de verkorte waarde op basis van de sleutel gebruikt.</p> <p>Als u de kolomnaam wilt wijzigen, kunt u deze waarde wijzigen in: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> kunt u tekst voor de kolomnaam invoeren, terwijl<code>namekey</code> vereist u een sleutel ingaat die wordt gebruikt om de naam van een kolom te vertalen.</p> <p>Als u de kolomnaam wilt wijzigen, kunt u ook het dialoogvenster <code>displayname </code>regel, als er geen regel is.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>displayname =</strong> </td> 
@@ -158,7 +158,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
      </tr> 
      <tr> 
       <td><strong>usewidths=true</strong> </td> 
-      <td> <p>U moet deze regel gebruiken in aanvulling op de <code>width=</code> lijn bij het aanpassen van de breedte van een kolom. </p> </td> 
+      <td> <p>U moet deze regel gebruiken naast de <code>width=</code> lijn bij het aanpassen van de breedte van een kolom. </p> </td> 
      </tr> 
      <tr> 
       <td><strong>makeFieldEditable=</strong> </td> 
@@ -170,11 +170,11 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
      </tr> 
      <tr> 
       <td><strong>link.valueformat=</strong> </td> 
-      <td> <p>Deze regel alleen invoegen wanneer u het gereedschap <code>link.valuefield</code> lijn om een koppeling naar de waarde in een kolom toe te voegen. Met de koppeling wordt de detailpagina van het object geopend. Deze waarde moet overeenkomen met <code>valueformat=</code> regel en geeft de indeling aan die wordt gebruikt om de <code>valuefield</code>. </p> <p>Belangrijk: Wanneer u de tekstmodus bekijkt in een ingebouwde kolom die ook een koppeling bevat, ziet u een aantal regels die verwijzen naar de koppeling. Sommige van deze regels worden mogelijk niet meer ondersteund of zijn niet nodig wanneer u uw eigen aangepaste kolom maakt in de tekstmodus en de koppelingsinstructies eraan toevoegt. De regels die verplicht zijn bij het toevoegen van een gekoppelde waarde zijn<code> link.valuefield</code> en <code>link.valueformat</code>. </p> </td> 
+      <td> <p>Deze regel alleen invoegen wanneer u het gereedschap <code>link.valuefield</code> lijn om een koppeling naar de waarde in een kolom toe te voegen. Met de koppeling wordt de detailpagina van het object geopend. Deze waarde moet overeenkomen met <code>valueformat=</code> regel en geeft de indeling aan die wordt gebruikt om de <code>valuefield</code>. </p> <p>Belangrijk: wanneer u de tekstmodus bekijkt in een ingebouwde kolom die ook een koppeling bevat, ziet u een aantal regels die verwijzen naar de koppeling. Sommige van deze regels worden mogelijk niet meer ondersteund of zijn niet nodig wanneer u uw eigen aangepaste kolom maakt in de tekstmodus en de koppelingsinstructies eraan toevoegt. De regels die verplicht zijn bij het toevoegen van een gekoppelde waarde zijn<code> link.valuefield</code> en <code>link.valueformat</code>. </p> </td> 
      </tr> 
      <tr> 
       <td><strong>aggregator.function=</strong> </td> 
-      <td> <p>Dit verwijst naar de manier waarop de waarden van elke kolom worden samengevat. Er zijn meerdere regels waarmee wordt begonnen <code>aggregator.</code> en ze verwijzen allemaal naar de aggregator die de resultaten van de kolom samenvat. </p> <p>Als algemene regel geldt dat de <code>aggregator.</code> lijnen komen overeen met die van het kolomobject. </p> 
+      <td> <p>Dit verwijst naar hoe de waarden van elke kolom worden samengevat. Er zijn meerdere regels waarmee wordt begonnen <code>aggregator.</code> en ze verwijzen allemaal naar de aggregator die de resultaten van de kolom samenvat. </p> <p>Als algemene regel geldt dat de <code>aggregator.</code> lijnen komen overeen met die van het kolomobject. </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>">
         <span class="autonumber"><span><b>Voorbeeld: </b></span></span> 
         <p>De Geplande kolom van Uren in een taakrapport dat door Som wordt samengevat kan als het volgende kijken: </p> 

@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Tekstmodus in een groep bewerken
-description: '"OPMERKING: alle FVG-artikelen gelijk maken voor bewerking in tekstmodus)'''
+description: 'OPMERKING: alle FVG-artikelen gelijk maken voor bewerking in tekstmodus)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om groepen in een rapport te bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om groepen in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -62,7 +62,7 @@ Zie voor meer informatie:
 
 * [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Voorbeelden van aangepaste weergaven, filters en groeperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Tekstmodus in een groep bewerken
 
@@ -86,6 +86,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
 1. Klikken **Groepering toevoegen** om de groepen toe te voegen, klikt u vervolgens op **Overschakelen naar tekstmodus** in de rechterbovenhoek van de builder.
 
    >[!TIP]
+   >
    U kunt maximaal drie groepen toevoegen in de standaardinterface. U kunt een vierde groep alleen met behulp van de tekstmodus toevoegen en u kunt in Workfront niet meer dan vier niveaus groeperen.
 
 1. Typ de naam van een veld waarop u wilt groeperen.
@@ -111,6 +112,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
    ```
 
    >[!IMPORTANT]
+   >
    De vetgedrukte regels zijn verplicht.
 
    <!--
@@ -146,6 +148,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
    -->
 
    >[!TIP]
+   >
    De belangrijkste lijnen in een tekstwijze groeperen zijn gelijkaardig aan de lijnen die worden vereist om tekst-wijze meningen te bouwen.
 
    <!--
@@ -166,7 +169,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
     <tbody> 
      <tr> 
       <td><strong>groep.&lt;number&gt;.</strong> </td> 
-      <td> <p>Elke coderegel wordt voorafgegaan door deze tekst. De coderegels die naar hetzelfde veld verwijzen dat in de groep is geselecteerd, worden als volgt genummerd met hetzelfde nummer:</p> 
+      <td> <p>Elke regel code wordt voorafgegaan door deze tekst. De coderegels die naar hetzelfde veld verwijzen dat in de groep is geselecteerd, worden als volgt genummerd met hetzelfde nummer:</p> 
        <ul> 
         <li>De eerste groepering van het rapport heeft een groepsaantal van 0. Alle regels die verwijzen naar de eerste groep beginnen met <code>group.0</code>.</li> 
         <li>De tweede groep van het rapport heeft een groepnummer van 1. Alle regels die verwijzen naar de tweede groep beginnen met <em><code>group.1</code></em>.</li> 
@@ -180,8 +183,8 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
        <ol> 
         <li value="1"> <p> Als de naam van het veld dat u weergeeft een woordgroep is in plaats van een enkel zelfstandig naamwoord, moet u de syntaxis van het hoofdlettergebruik gebruiken voor het <code>valuefield</code>. Voor de geplande begindatum van een taak is de code bijvoorbeeld:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Als u een aangepast veld wilt weergeven, <code>valuefield</code> waarde is de daadwerkelijke naam van het gebied, zoals u het in de interface ziet. Voor een aangepast veld met de naam "Meer informatie" is de code bijvoorbeeld:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Als u door voorwerpen wilt groeperen die met andere voorwerpen verwant zijn gebruikend <code>valuefield</code> coderegel de objectnamen en -kenmerken worden gescheiden door dubbele punten.</p> <p>Een groepering op naam Portfolio voor een takenlijst heeft bijvoorbeeld de volgende waarde voor de regel valueField:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dit wijst erop dat van het voorwerp van het rapport (taak), u tot het volgende verwante voorwerp (project) kunt toegang hebben; vanaf dat punt hebt u toegang tot het volgende gerelateerde object van het project (portfolio); dan de naam van het portfolio (naam).</p> </li> 
-       </ol> <p>Zie de sectie voor informatie over hoe objecten met elkaar verbinden <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependentie en hiërarchie van objecten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten in Adobe Workfront begrijpen</a>.</p> <p>Opmerking: Als u een veld kiest in de tekstmodus dat niet geldig is in de standaardinterface en u overschakelt naar de standaardinterface, wordt de groepering verwijderd.</p> </td> 
+        <li value="3"> <p>Als u door voorwerpen wilt groeperen die met andere voorwerpen verwant zijn gebruikend <code>valuefield</code> coderegel de objectnamen en -kenmerken worden gescheiden door dubbele punten.</p> <p>Bijvoorbeeld, heeft een groepering door de Naam van het Portfolio voor een taaklijst de volgende waarde voor de waardegebiedlijn:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dit wijst erop dat van het voorwerp van het rapport (taak), u tot het volgende verwante voorwerp (project) kunt toegang hebben; van daar, kunt u tot het volgende verwante voorwerp van project (portefeuille) toegang hebben; dan de portefeuillenaam (naam).</p> </li> 
+       </ol> <p>Zie de sectie voor informatie over hoe objecten met elkaar verbinden <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependentie en hiërarchie van objecten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten in Adobe Workfront begrijpen</a>.</p> <p>Opmerking: als u in de tekstmodus een veld kiest dat niet geldig is in de standaardinterface en u overschakelt naar de standaardinterface, wordt de groepering verwijderd.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueformat=</strong> </td> 
@@ -192,7 +195,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
       <td> <p>U kunt deze regel toevoegen ter vervanging <code>valuefield</code>, als u de lijst wilt groeperen met een berekening tussen verschillende velden.</p> <p>U moet de <code>valuefield</code> van de objecten tussen accolades telkens wanneer u deze gebruikt in een <code>valueexpression</code>.</p> <p>De volgende scenario's bestaan:</p> 
        <ol> 
         <li value="1"> <p>Als u de naam van een groep in hoofdletters wilt weergeven, gebruikt u:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>De <code>valuefield</code> van het object wordt gespeld zoals het wordt weergegeven in de API Explorer.</p> </li> 
-        <li value="2">Als u meerdere items wilt toevoegen <code>valuefields</code> door ze in een <code>valueexpression </code>regel, moet u ze met een punt scheiden.<p>Als u bijvoorbeeld de naam van het portfolio in hoofdletters wilt weergeven in een takenlijst, gebruikt u de volgende code in het dialoogvenster <code>valueexpression</code> regel:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Als u een aangepast veld wilt gebruiken in een <code>valueexpression</code> regel die u voor de naam van het veld moet opgeven <code>DE:</code> om aan te geven dat het een aangepast veld is. De naam van het veld wordt gespeld zoals deze wordt weergegeven in de interface.</p><p>Belangrijk: <span>Wanneer u een aangepast veld gebruikt dat is geplaatst in een aangepaste formuliersectie waarvoor bepaalde gebruikers beperkte machtigingen hebben, wordt de berekening van de waarde <code>valueexpression </code>is leeg wanneer deze gebruikers deze berekening in een rapport bekijken. Voor informatie over het aanpassen van machtigingen voor aangepaste formuliersecties raadpleegt u</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a></span>.</p><p>Als u bijvoorbeeld een aangepast veld hebt met de naam "Naam ontwikkelaar" en u dit veld door dit veld wilt groeperen en in hoofdletters wilt weergeven, kunt u het volgende gebruiken <code>valueexpression</code> dit aan te geven:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Wanneer u naar een aangepast Typeahead-tekstveld verwijst, gebruikt u de volgende expressie om naar de naam van het object te verwijzen dat is geselecteerd in een veld met de naam "Naam ontwikkelaar":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">Als u meerdere items wilt toevoegen <code>valuefields</code> door ze in een <code>valueexpression </code>regel, moet u ze met een punt scheiden.<p>Als u bijvoorbeeld de naam van het portfolio in hoofdletters wilt weergeven in een takenlijst, gebruikt u de volgende code in het dialoogvenster <code>valueexpression</code> regel:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Als u een aangepast veld wilt gebruiken in een <code>valueexpression</code> regel die u voor de naam van het veld moet opgeven <code>DE:</code> om aan te geven dat het een aangepast veld is. De naam van het veld wordt gespeld zoals deze wordt weergegeven in de interface.</p><p>Belangrijk: <span>Wanneer u een aangepast veld gebruikt dat is geplaatst in een aangepaste formuliersectie waarvoor bepaalde gebruikers beperkte machtigingen hebben, wordt de berekening van de waarde <code>valueexpression </code>is leeg wanneer deze gebruikers deze berekening in een rapport bekijken. Zie voor informatie over het aanpassen van machtigingen voor aangepaste formuliersecties</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a></span>.</p><p>Als u bijvoorbeeld een aangepast veld hebt met de naam "Naam ontwikkelaar" en u dit veld door dit veld wilt groeperen en in hoofdletters wilt weergeven, kunt u het volgende gebruiken: <code>valueexpression</code> dit aan te geven:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Wanneer u naar een aangepast Typeahead-tekstveld verwijst, gebruikt u de volgende expressie om naar de naam van het object te verwijzen dat is geselecteerd in een veld met de naam "Naam ontwikkelaar":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -219,16 +222,16 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
    group.0.iscollapsed=false
    ```
 
-   als u wilt dat de groep wordt weergegeven met de resultaten uitgevouwen
+   als u wilt dat de groep wordt weergegeven met de resultaten uitgebreid
 
    <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report) </p>   
      -->
 
    >[!TIP]
+   >   
    * Wanneer u groepen handmatig aanpast wanneer u een lijst weergeeft, onthoudt Workfront uw handmatige voorkeur totdat u zich afmeldt. Wanneer u zich weer aanmeldt, wordt de lijst weergegeven volgens deze instelling.
    * De resultaten van een groepering tonen altijd uitgevouwen na de toegang tot hen van een grafiekelement.
-
 
 1. Klikken **Gereed** als u de wijzigingen wilt opslaan en de groepering of het rapport wilt blijven bewerken.
 1. Klikken **Groepering opslaan** in een lijst of **Opslaan + Sluiten** om uw rapport op te slaan.

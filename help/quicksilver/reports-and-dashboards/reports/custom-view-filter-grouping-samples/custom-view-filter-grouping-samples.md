@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Voorbeelden van aangepaste weergaven, filters en groeperingen
-description: Voorbeeldweergave, Filter en GroeperingVoor inhoudsopgave geschikt artikel". Ik zag niet veel waarde in het organiseren van dit door voorwerpen.)"
-author: Lisa and Nolan
+title: "Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex"
+description: Deze sectie bevat voorbeelden van aangepaste weergaven, filters en groepen die u kunt gebruiken in uw Adobe Workfront-account.
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Voorbeelden van aangepaste weergaven, filters en groeperingen
+# Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

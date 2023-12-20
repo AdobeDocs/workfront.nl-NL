@@ -7,9 +7,9 @@ description: U kunt filters in Adobe Workfront gebruiken om de hoeveelheid infor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1841'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Hieronder vindt u typen filters die u kunt gebruiken in Workfront:
 
 Met snelle filters kunt u met een trefwoord zoeken naar een item op het scherm. Nadat u de pagina vernieuwt, wordt het tijdelijke filter Snel gewist. U kunt geen tijdelijke filters opslaan om opnieuw te gebruiken.
 
-Voor informatie over snelle filters raadpleegt u [Het snelle filter toepassen op een lijst](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+Zie voor informatie over snelle filters [Het snelle filter toepassen op een lijst](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 ## Permanente Workfront-filters voor lijsten en rapporten
 
@@ -70,63 +70,63 @@ Zie de volgende artikelen voor meer informatie over filters in lijsten en rappor
 U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende gebieden van Workfront:
 
 * Home\
-   Zie voor meer informatie de [De werklijst filteren](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) in het artikel [Items weergeven in de werklijst in het gebied Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Zie voor meer informatie de [De werklijst filteren](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) in het artikel [Items weergeven in de werklijst in het gebied Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Verzoeken. U kunt filters niet aanpassen in het gebied Verzoeken.
 
-   Zie voor meer informatie [Verzonden aanvragen zoeken](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+  Zie voor meer informatie [Verzonden aanvragen zoeken](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 * Resource Planner\
-   Zie het artikel voor meer informatie [Gegevens filteren in de bronnenplanner](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Zie het artikel voor meer informatie [Gegevens filteren in de bronnenplanner](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Gebruiksrapport
 
-   Zie de sectie [Informatie over filtergebruik](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) in het artikel [Informatie over bronnengebruik weergeven](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Zie de sectie [Informatie over filtergebruik](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) in het artikel [Informatie over bronnengebruik weergeven](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Werklastverdeling
 
-   Zie voor meer informatie [Gegevens in de werklastbalans filteren](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+  Zie voor meer informatie [Gegevens in de werklastbalans filteren](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 * Gebied Analyse
 
-   Zie voor meer informatie [Filters toepassen in uitgebreide analyse](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
+  Zie voor meer informatie [Filters toepassen in uitgebreide analyse](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Blauwdrukgebied
 
-   Zie voor meer informatie [Een blauwdruk installeren](../../../administration-and-setup/blueprints/blueprints-install.md).
+  Zie voor meer informatie [Een blauwdruk installeren](../../../administration-and-setup/blueprints/blueprints-install.md).
 
 * Scenario Planner
 
-   Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
-   >[!TIP]
-   >
-   >U kunt filters niet aanpassen in de Planner van het Scenario.
+  >[!TIP]
+  >
+  >U kunt filters niet aanpassen in de Planner van het Scenario.
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
   -->
 
-   U kunt ingebouwde filters voor plannen, initiatieven, of projecten gebruiken en u kunt projectfilters in de Planner van het Scenario aanpassen.
+  U kunt ingebouwde filters voor plannen, initiatieven, of projecten gebruiken en u kunt projectfilters in de Planner van het Scenario aanpassen.
 
-   Raadpleeg de volgende artikelen voor meer informatie:
+  Raadpleeg de volgende artikelen voor meer informatie:
 
    * [Abonnementen maken en bewerken in Scenario Planner](../../../scenario-planner/create-and-edit-plans.md)
-   * [Werk of creeer projecten bij door initiatieven in de Planner van het Scenario te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md)
-   * [Projecten importeren naar plannen in het scenario Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
+   * [Werk of creeer projecten door initiatieven in de Planner van het Scenario bij te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md)
+   * [Projecten importeren naar plannen in de Scenario-planner](../../../scenario-planner/import-projects-to-plans.md)
 
 * Doelen
 
-   Voor doelen is een extra licentie vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  Voor doelen is een extra licentie vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-   U kunt ingebouwde het filtreren criteria gebruiken maar u kunt geen douanefilters aan hergebruik voor het gebied van Doelen bouwen.
+  U kunt ingebouwde het filtreren criteria gebruiken maar u kunt geen douanefilters aan hergebruik voor het gebied van Doelen bouwen.
 
-   Zie voor meer informatie [Gegevens filteren in Adobe Workfront Goals](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  Zie voor meer informatie [Gegevens filteren in Adobe Workfront Goals](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 * Borden
 
-   U kunt ingebouwde filters toepassen maar u kunt geen aangepaste filters maken voor hergebruik in het gebied Boards.
+  U kunt ingebouwde filters toepassen maar u kunt geen aangepaste filters maken voor hergebruik in het gebied Boards.
 
-   Zie voor meer informatie [Filteren en zoeken in een board](../../../agile/get-started-with-boards/filter-search-in-board.md).
+  Zie voor meer informatie [Filteren en zoeken in een board](../../../agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Overzicht van filters in lijsten en rapporten
 
@@ -143,7 +143,7 @@ Wanneer u werkt met lijsten en rapporten, kunt u informatie op het scherm filter
 >Zie het artikel voor informatie over het bewerken van een rapport [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Raadpleeg het artikel voor informatie over Workfront-lijsten [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
-Zie het artikel voor informatie over Workfront-rapporten [Aan de slag met rapporten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Zie het artikel voor informatie over Workfront-rapporten [Aan de slag met rapporten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Houd rekening met het volgende wanneer u werkt met filters in lijsten of rapporten:
 
@@ -151,15 +151,15 @@ Houd rekening met het volgende wanneer u werkt met filters in lijsten of rapport
 
 * Uw Workfront-beheerder moet u toegang tot filters, weergaven en groepen geven om permanente filters te maken.
 
-   Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Het niveau van machtigingen voor een filter bepaalt hoe filters worden opgeslagen. Als u het filter oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie van het filter op te slaan die u wijzigt.
 
-   >[!TIP]
-   >
-   >Houd er rekening mee dat de wijzigingen ook van invloed zijn op filters die u met anderen hebt gedeeld.
+  >[!TIP]
+  >
+  >Houd er rekening mee dat de wijzigingen ook van invloed zijn op filters die u met anderen hebt gedeeld.
 
-* U kunt een filter dat met u werd gedeeld aanpassen slechts als de gebruiker die het deelde u toegang leidde verleende. Voor informatie over het delen van een filter raadpleegt u [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* U kunt een filter dat met u werd gedeeld aanpassen slechts als de gebruiker die het deelde u toegang leidde verleende. Zie voor informatie over het delen van een filter [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Elementen van een filter
 
@@ -185,7 +185,7 @@ Een filter bevat de volgende elementen:
   </tr> 
   <tr> 
    <td><strong>Veld</strong></td> 
-   <td> <p>Het kenmerk van het object waarop u filtert. </p> <p>U kunt bijvoorbeeld filteren op Portfolio Name of Project Owner. In dit geval zijn Naam en Eigenaar velden van de objecten Portfolio en Project. </p> </td> 
+   <td> <p>Het kenmerk van het object waarop u filtert. </p> <p>U kunt bijvoorbeeld filteren op Naam Portfolio of Projecteigenaar. In dit geval zijn Naam en Eigenaar velden van het Portfolio en de projectobjecten. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Waarde</strong></p> </td> 
@@ -206,15 +206,15 @@ Een filter bevat de volgende elementen:
 
 Workfront heeft twee filteroperatoren die elke filterinstructie verbinden:
 
-* **EN**: Wanneer u twee filterinstructies met de operator AND samenvoegt, geeft u aan dat u aan beide filterinstructies tegelijk wilt voldoen.
+* **EN**: Wanneer u twee filterinstructies samenvoegt met de operator AND, geeft u aan dat u aan beide filterinstructies tegelijk wilt voldoen.
 
-   Standaard worden de instructies in een filter samengevoegd met de operator AND.
+  Standaard worden de instructies in een filter samengevoegd met de operator AND.
 
-* **OF**: Wanneer u twee filterinstructies door de operator OR samenvoegt, geeft u aan dat aan een van beide instructies moet worden voldaan.
+* **OF**: Wanneer u twee filterinstructies samenvoegt door de operator OR, geeft u aan dat aan een van beide instructies moet worden voldaan.
 
-   >[!TIP]
-   >
-   >Wanneer het veranderen van uw EN verklaringen in OF verklaringen, zou het aantal punten in uw rapport moeten stijgen.
+  >[!TIP]
+  >
+  >Wanneer het veranderen van uw EN verklaringen in OF verklaringen, zou het aantal punten in uw rapport moeten stijgen.
 
 ## Filteropties {#filter-modifiers}
 

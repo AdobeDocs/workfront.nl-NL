@@ -5,7 +5,7 @@ title: Overzicht van de project-, taak- en uitgiftedatums in [!DNL Adobe Workfro
 description: Overzicht van de project-, taak- en uitgiftedatums in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 0%
@@ -23,9 +23,9 @@ Dit artikel bevat definities voor de meest voorkomende datums die worden geassoc
 Zie de volgende artikelen voor informatie over rapporten en lijsten:
 
 * [Aan de slag met lijsten in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
-* [Aan de slag met rapporten in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Aan de slag met rapporten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
-Voor meer informatie over project, taak, en de gebieden van de kwestie, zie [Verklarende woordenlijst [!DNL Adobe Workfront] terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Zie voor meer informatie over project-, taak- en probleemgebieden [Verklarende woordenlijst [!DNL Adobe Workfront] terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## [!UICONTROL Planned Start Date]
 
@@ -118,7 +118,7 @@ De [!UICONTROL Commit Date] Dit is de datum waarop een gebruiker die aan een taa
 
 ## [!UICONTROL Projected Start Date]
 
-De [!UICONTROL Projected Start Date] is een datum in real time van wanneer het project, de taak, of de kwestie en houdt rekening met alle vertragingen. Dit is een nauwkeurigere Datum van het Begin voor het project, de taak, of de kwestie dan [!UICONTROL Planned Start Date]. De [!UICONTROL Planned Start Date] geen rekening houdt met vertragingen of achterstallige data.
+De [!UICONTROL Projected Start Date] is een datum in real time van wanneer het project, de taak, of de kwestie en houdt rekening met alle vertragingen. Dit is een nauwkeurigere Begindatum voor het project, de taak of de uitgave dan de [!UICONTROL Planned Start Date]. De [!UICONTROL Planned Start Date] geen rekening houdt met vertragingen of achterstallige data.
 
 Wanneer u voor het eerst een project plant, [!UICONTROL Planned Start Date] en de [!UICONTROL Projected Start Date] van de taken en van het project identiek zijn. Aangezien vertragingen kunnen gebeuren of de taken vroeger zouden kunnen worden voltooid, [!UICONTROL Projected Start Date] kan anders worden dan de [!UICONTROL Planned Start Date].
 
