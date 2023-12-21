@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
       De [!UICONTROL **Kaarten die worden toegevoegd**] de teller laat zien hoeveel kaarten er op het bord staan . Bijvoorbeeld, als u een project met 100 taken en kwesties selecteert, toont teller 100. Als u een gebruikerstaak toevoegt en die persoon aan 5 taken op het project wordt toegewezen, toont de teller 5.
 
-   1. (Optioneel) Selecteer [!UICONTROL **Inclusief voltooid werk**] ingevulde kaarten aan boord te nemen.
+   1. (Optioneel) Selecteer [!UICONTROL **Voltooid werk opnemen als gearchiveerde kaarten**] om voltooide taken en kwesties als gearchiveerde kaarten aan de raad van bestuur te onderwerpen.
 
       >[!NOTE]
       >
-      >Als deze optie niet is geselecteerd en kaarten in andere statussen als voltooid zijn gemarkeerd, vallen ze van het bord en worden ze niet meer weergegeven.
+      >Gearchiveerde kaarten worden standaard niet op het bord weergegeven. Als u gearchiveerde kaarten wilt weergeven, moet u een configuratie-instelling inschakelen en vervolgens het bord filteren om gearchiveerde kaarten weer te geven. Zie voor meer informatie [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) en [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >Als deze optie niet is geselecteerd, worden voltooide kaarten op het moment van het maken van het bord niet op het bord weergegeven. Kaarten die later als volledig zijn gemarkeerd, blijven in de kolom Voltooid op het bord en worden alleen gearchiveerd als u de kaart hebt uitgeschakeld. Zie voor meer informatie [Afvalfunctie van kaart configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Optioneel) Klik op [!UICONTROL **Geavanceerde filters gebruiken**] om extra filteropties weer te geven.
 
