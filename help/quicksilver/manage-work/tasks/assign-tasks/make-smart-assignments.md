@@ -6,20 +6,18 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Slimme toewijzingen maken
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten.</span>
+
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien. De slimme taken zijn suggesties voor gebruikers die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. Zie voor informatie over slimme toewijzingen [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -60,24 +58,21 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen kunt maken in Workfront.
 
-1. Ga naar de volgende gebieden en klik op **Toewijzingen** of **Deze toewijzen aan** veld:   
+1. Ga naar de volgende gebieden en klik op **Toewijzingen** of **Deze toewijzen aan** veld:
 
    * Een taak- of uitgiftenlijst of rapport
    * Een taak- of uitgiftekoptekst
    * Het deelvenster Overzicht van taken of uitgaven
    * Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home
-   * Een taak of kwestie in de het plannen of gebieden van het Programma
    * Een taak of probleem in het werklastevenwicht
 
-1. Plaats de cursor in het toewijzingsveld en wacht twee seconden. De **Voorgestelde toewijzingen** of de **Hier volgen enkele aanbevelingen** weergegeven.
+1. Plaats de cursor in het toewijzingsveld en wacht twee seconden.
 
-   <!--check the casing for "assignments" should be lower case in task lists??-->
+   <span class="preview">De **Voorgestelde toewijzingen** weergegeven.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
 
-   <!--replace the last sentence above with this when we release smarter assignments:
-   The **Suggested assignments** list displays. 
-   NOTE (********and add preview tags for the note*****)
-   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
-   -->
+   >[!TIP]
+   >
+   >   De lijstkoptekst wordt weergegeven **Hier volgen enkele aanbevelingen** in plaats van **Voorgestelde toewijzingen** in een lijst met uitgaven.
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -85,7 +80,9 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
 
    Zie de sectie &#39;Suggesties voor slimme toewijzingen zoeken&#39; in het artikel voor meer informatie over waar de slimme toewijzingen worden weergegeven [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. Selecteer de gebruiker in de lijst met aanbevelingen door op de gewenste naam te klikken. Klikken **Toewijzen aan mij** Wijst het werkitem toe aan uzelf.
+1. Selecteer de gebruiker in de lijst met aanbevelingen door op de gewenste naam te klikken.
+
+1. (Optioneel) Klik op **Toewijzen aan mij** om het werkitem aan uzelf toe te wijzen.
 
    >[!TIP]
    >

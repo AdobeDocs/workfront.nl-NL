@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ De opmerkingervaring voor Maestro-records komt overeen met de nieuwe opmerkinger
 
 Zie voor meer informatie [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Maestro-connector (bèta) voor Adobe Workfront Fusion
+
+Voorbeeld en productie: 21 december 2023
+
+Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met Maestro. Met de nieuwe Adobe Maestro Fusion verbinding kunt u:
+
+* Records maken, lezen, bijwerken en verwijderen
+
+* Een lijst met records ophalen op recordtype
+
+* Een lijst met recordtypen verwijderen of ophalen
+
+* Zoeken in records
+
+* Een API-aanroep maken
+
+* Een scenario activeren wanneer er een wijziging wordt aangebracht in Maestro
+
+Zie voor meer informatie [Adobe Maestro-modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Week van 11 december 2023
 
 ### Het primaire veld bijwerken in een tabelweergave van een recordtype
@@ -126,7 +146,7 @@ Zie voor meer informatie [Tabelweergave beheren](/help/quicksilver/maestro/views
 
 Voorvertoningsrelease: 14 december 2023
 
-Productie: gepland voor 15 december 2023
+Productieversie: 21 december 2023
 
 >[!IMPORTANT]
 >
