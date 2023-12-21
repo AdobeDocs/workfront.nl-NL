@@ -6,7 +6,7 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -149,24 +149,24 @@ Houd rekening met het volgende wanneer u filters maakt met behulp van de verschi
   >
   >1. Met de standaardbuilder kunt u een filter maken met de volgende syntaxis:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Ga naar de verouderde builder en bewerk het filter met de syntaxis van de verouderde builder, zoals beschreven in de [Een filter maken of bewerken in de verouderde builder](#create-filter-in-legacy-builder) in dit artikel. In de syntaxis voor de verouderde builder worden de filterinstructies als volgt weergegeven:
+  >1. Ga naar de verouderde builder en bewerk het filter met de syntaxis van de verouderde builder, zoals beschreven in de sectie [Een filter maken of bewerken in de verouderde builder](#create-filter-in-legacy-builder) in dit artikel. In de syntaxis voor de verouderde builder worden de filterinstructies als volgt weergegeven:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Wijzig het filter in de oudere interface.
   >1. Ga terug naar de standaardbuilder. De filterinstructie wordt weergegeven volgens de logica die wordt ondersteund in de verouderde builder, zoals hierboven beschreven.
   >
-  >   Het filter wordt als volgt weergegeven in de standaardbuilderinterface:
+  >      Het filter wordt als volgt weergegeven in de standaardbuilderinterface:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   Dit gebeurt omdat het filter is gewijzigd in de oudere interface.
+  >      Dit gebeurt omdat het filter is gewijzigd in de oudere interface.
 
 ## Een filter maken of bewerken in de standaardbuilder
 

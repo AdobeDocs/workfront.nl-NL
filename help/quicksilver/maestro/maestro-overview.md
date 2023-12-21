@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,44 @@ Hieronder volgen enkele van de belangrijkste mogelijkheden van Maestro:
 * Oplossen van het probleem van het beheer van de werkzaamheden in alle stadia en voor alle belanghebbenden die aan het werkproces deelnemen.
 * Pas uw workflows volledig aan, van het bepalen van welke objecttypen (of recordtypen) uw organisatie gebruikt om te configureren hoe deze objecten aan elkaar zijn gekoppeld.
 * Koppeling maken naar objecttypen van andere systemen en zo een samenhangend kader creëren voor al uw processen.
+
+## Functies die momenteel beschikbaar zijn in Maestro
+
+In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn in Maestro, en een tijdlijn voor de beschikbaarheid ervan. De lijst bevat niet alle functies.
+
+| Functie | Nu beschikbaar | Binnenkort beschikbaar | Onderzoek |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+| Werkruimten maken | ✓ |                                  |                  |
+| Operationele recordtypen maken | ✓ |                                  |                  |
+| taxonomieën maken | ✓ |                                  |                  |
+| Afzonderlijke records en taxonomieën maken | ✓ |                                  |                  |
+| Aangepaste recordvelden maken | ✓ |                                  |                  |
+| Recordtypen en velden importeren met een Excel- of CSV-bestand | ✓ |                                  |                  |
+| Koppelingsrecords | ✓ |                                  |                  |
+| Records in een tabel weergeven | ✓ |                                  |                  |
+| Records in een tijdlijn weergeven | ✓ |                                  |                  |
+| Filterrecords | ✓ |                                  |                  |
+| Groeprecords in de tijdlijnweergave | ✓ |                                  |                  |
+| Groeprecords in de tabelweergave | ✓ |                                 |                  |
+| Records sorteren in de tabelweergave | ✓ |                                 |                  |
+| Records sorteren in de tijdlijnweergave |                               | ✓ |                  |
+| Groepen sorteren in de tabelweergave |                               | ✓ |                  |
+| Groepen sorteren in de tijdlijnweergave |                               | ✓ |                  |
+| Werkruimten verbinden |                               | ✓ |                  |
+| Connect Maestro-records en -taxonomieën | ✓ |
+| Zoeken naar records in de tabelweergave | ✓ |   |
+| Connect Maestro-records naar Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven en -groepen | ✓ |                                 |                  |
+| Connect Maestro-records naar Adobe Experience Manager-middelen | ✓ |                                  |                 |
+| Detailpagina opnemen | ✓ |                                  |                  |
+| De lay-out van de pagina met recorddetails bijwerken |                               | ✓ |                  |
+| Werkruimtemachtigingen | | ✓ |  |
+| Verzoeken verzenden |                               |                                  | ✓ |
+| Creatief overzicht |                               |                                  | ✓ |
+| De kleur en het pictogram van een record aanpassen | ✓ |                                  |                 |
+| Opmerkingen toevoegen aan records | ✓ |                                  |                 |
+| RTF-opmaak voor alineasvelden | ✓ |                                  |                 |
+| Maestro Modules voor Adobe Workfront Fusion | ✓ |                                  |                 |
+| Informatie van het ene veld naar het andere kopiëren en plakken | ✓ |                                  |                 |
 
 ## Toegang vereist voor gebruik van Maestro tijdens het gesloten bètaprogramma
 
@@ -344,44 +382,6 @@ Ga als volgt te werk om Maestro te vinden:
    1. Een tijdlijnweergave maken vanuit de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 
    1. Pas de tijdlijnweergave aan door Filters, Groepen of Instellingen bij te werken.
-
-## Functies die momenteel beschikbaar zijn in Maestro
-
-In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn in Maestro, en een tijdlijn voor de beschikbaarheid ervan. De lijst bevat niet alle functies.
-
-| Functie | Nu beschikbaar | Binnenkort beschikbaar | Onderzoek |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| Werkruimten maken | ✓ |                                  |                  |
-| Operationele recordtypen maken | ✓ |                                  |                  |
-| taxonomieën maken | ✓ |                                  |                  |
-| Afzonderlijke records en taxonomieën maken | ✓ |                                  |                  |
-| Aangepaste recordvelden maken | ✓ |                                  |                  |
-| Recordtypen en velden importeren met een Excel- of CSV-bestand | ✓ |                                  |                  |
-| Koppelingsrecords | ✓ |                                  |                  |
-| Records in een tabel weergeven | ✓ |                                  |                  |
-| Records in een tijdlijn weergeven | ✓ |                                  |                  |
-| Filterrecords | ✓ |                                  |                  |
-| Groeprecords in de tijdlijnweergave | ✓ |                                  |                  |
-| Groeprecords in de tabelweergave | ✓ |                                 |                  |
-| Records sorteren in de tabelweergave | ✓ |                                 |                  |
-| Records sorteren in de tijdlijnweergave |                               | ✓ |                  |
-| Groepen sorteren in de tabelweergave |                               | ✓ |                  |
-| Groepen sorteren in de tijdlijnweergave |                               | ✓ |                  |
-| Werkruimten verbinden |                               | ✓ |                  |
-| Connect Maestro-records en -taxonomieën | ✓ |
-| Zoeken naar records in de tabelweergave | ✓ |   |
-| Connect Maestro-records naar Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven en -groepen | ✓ |                                 |                  |
-| Connect Maestro-records verbinden met Adobe Experience Manager-middelen, -mappen en -verzamelingen | ✓ |                                  |                 |
-| Detailpagina opnemen | ✓ |                                  |                  |
-| De lay-out van de pagina met recorddetails bijwerken |                               | ✓ |                  |
-| Werkruimtemachtigingen | | ✓ |  |
-| Verzoeken verzenden |                               |                                  | ✓ |
-| Creatief overzicht |                               |                                  | ✓ |
-| De kleur en het pictogram van een record aanpassen | ✓ |                                  |                 |
-| Opmerkingen toevoegen aan records |                               | ✓ |                 |
-| RTF-opmaak voor alineasvelden | ✓ |                                  |                 |
-
-
 
 ## Maestro-releaseactiviteit
 

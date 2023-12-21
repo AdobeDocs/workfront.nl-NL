@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2870'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,13 @@ Zie voor meer informatie [Opnameopmerkingen beheren](/help/quicksilver/maestro/r
 
 ### Maestro-connector (bèta) voor Adobe Workfront Fusion
 
-Voorbeeld en productie: 21 december 2023
+Productie: 21 december 2023
+
+>[!IMPORTANT]
+>
+>Uw organisatie moet Adobe Workfront Fusion aanschaffen om verbindingen met Maestro te kunnen maken.
+>
+>Zie voor meer informatie [Adobe Workfront Fusion-overzicht](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met Maestro. Met de nieuwe Adobe Maestro Fusion verbinding kunt u:
 

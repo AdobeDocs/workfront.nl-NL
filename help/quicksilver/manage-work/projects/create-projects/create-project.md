@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,11 @@ Overweeg het volgende:
      Als u een malplaatje gebruikt wanneer u het project door de kwestie creeert om te zetten, verwijs naar het tweede scenario hierboven om te begrijpen welke Groep en welke Status Workfront op het nieuwe project van toepassing is.
 
 ## Een geheel nieuw project maken
+
+>[!NOTE]
+>
+>Als u een project gebruikend een malplaatje creeert, adviseren wij dat u ook het artikel ziet [Een project maken met een sjabloon](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
 
 1. Voer een van de volgende handelingen uit:
 

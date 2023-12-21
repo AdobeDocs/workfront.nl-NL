@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzi
 ## Overwegingen bij het maken en beheren van lay-outsjablonen
 
 * Gebruikers kunnen een aantal onderdelen van hun eigen indeling aanpassen. Wanneer u een lay-outmalplaatje verandert, voegen uw veranderingen met om het even welke aanpassingen samen zij, zonder hen te beschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon.
-* Uw oudere lay-outsjablonen die in Adobe Workfront Classic zijn gemaakt, zijn automatisch beschikbaar in uw exemplaar van de nieuwe Adobe Workfront-ervaring sinds ze begin februari 2019 zijn gemigreerd. Indelingssjablonen die na die tijd in Adobe Workfront Classic zijn gemaakt, zijn gemigreerd in april 2020. We raden u aan deze lay-outsjablonen bij te werken in de nieuwe Adobe Workfront-ervaring om de nieuwe functionaliteit te benutten en ze in die omgeving nog nuttiger te maken.
 * Beheerders en gebruikers met een licentie voor abonnementen die andere gebruikers kunnen bewerken, kunnen lay-outsjablonen op systeemniveau en op groepsniveau toevoegen aan de gebruikers die ze kunnen beheren tijdens het bewerken van hun profiel.
 * Groepbeheerders kunnen geen lay-outsjablonen toewijzen aan taakrollen of teams.
 
 Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## Een lay-outsjabloon maken of wijzigen
 

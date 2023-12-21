@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 
 1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave om nieuwe velden toe te voegen.
-1. In de **Nieuw veld** selecteert u een van de volgende veldtypen:
+1. In de **Nieuw veld** tabblad, zoekt u naar een veldtype in het dialoogvenster **Veldtype** of selecteer een van de volgende veldtypen:
 
    * [Tekst met één regel](#single-line-text)
    * [Alinea](#paragraph)
