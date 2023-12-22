@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
     <tbody> 
      <tr> 
       <td role="rowheader">Taken</td> 
-      <td> <p>In Huis, beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van een taak wanneer een gebruiker de taak klikt. En in een takenlijst beïnvloedt dit het deelvenster Samenvatting dat aan de rechterkant van de pagina wordt weergegeven wanneer een gebruiker een taak selecteert en vervolgens op het pictogram Samenvatting openen klikt <img src="assets/summary-panel-icon.png">.</p> <p>U kunt bijvoorbeeld bepalen welke velden gebruikers zien in het gebied Details wanneer gebruikers taken selecteren in Home:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>En wanneer zij een taak in het Overzicht selecteren:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>In Huis, beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van een taak wanneer een gebruiker de taak klikt. En in een takenlijst beïnvloedt dit het deelvenster Samenvatting dat rechts op de pagina wordt weergegeven wanneer een gebruiker een taak selecteert en vervolgens op het pictogram Samenvatting openen klikt <img src="assets/summary-panel-icon.png">.</p> <p>U kunt bijvoorbeeld bepalen welke velden gebruikers zien in het gebied Details wanneer gebruikers taken selecteren in Home:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>En wanneer zij een taak in het Overzicht selecteren:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problemen</td> 
@@ -101,7 +101,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Voorwaardelijk) Als de optie **Knop primaire handeling instellen** wordt weergegeven (als u **Taken** of **Problemen** in de lijst links), klikt u op de primaire handeling (**Gereed** of **Status**) die u beschikbaar wilt maken voor gebruikers in het gebied Home en in het deelvenster Samenvatting wanneer zij een taak of een probleem bekijken.
+1. (Voorwaardelijk) Als de optie **Knop voor primaire handeling instellen** wordt weergegeven (als u **Taken** of **Problemen** in de lijst links), klikt u op de primaire handeling (**Gereed** of **Status**) die u beschikbaar wilt maken voor gebruikers in het gebied Home en in het deelvenster Samenvatting wanneer zij een taak of een probleem bekijken.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -109,7 +109,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. Herhaal stap 3-6 om het gebied Home en het deelvenster Samenvatting aan te passen voor andere objecttypen.
+1. Herhaal stap 3-6 om het gebied Home en het deelvenster Samenvatting aan te passen voor alle andere objecttypen.
 1. Klikken **Algemene instellingen** Schakel vervolgens in of uit bij de linkerbenedenhoek een van de volgende opties voor Adobe Workfront-objecten in Home en Summary:
 
    <table style="table-layout:auto"> 
@@ -134,8 +134,8 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
        <ul>
         <li>Geplande afsluitdatum</li>
         <li>Vastlegdatum</li>
-        <li><p>Verzenddatum</p></li>
-       </ul><p><b>OPMERKING</b>: Wanneer deze optie is ingeschakeld, worden de tijdelijke items die achterstallig worden, verplaatst naar de laatste groep in de lijst met thuiswerk, die alleen op datum is gebaseerd, en niet op tijd.</p></td> 
+        <li>Verzenddatum</li>
+       </ul><p><b>OPMERKING</b>: Wanneer deze optie is ingeschakeld, worden werkitems die achterstallig zijn geworden, verplaatst naar de laatste groep in de lijst Home Work, die alleen op datum is gebaseerd, niet op tijd.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -144,6 +144,6 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **Opslaan**.
+   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
 
-Voor meer informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

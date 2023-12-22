@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Verbeteringen voor borden
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Dynamische borden archiveren voltooide kaarten wanneer de raad wordt gecreeerd</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Wanneer u een dynamisch board maakt, kunt u voltooide taken en problemen in het board opnemen. Voor projecten met grote aantallen voltooide taken en kwesties, zou de dynamische raad prestatieskwesties kunnen hebben. Wanneer u nu een dynamisch bord maakt en voltooide werkzaamheden opneemt, worden de taken en problemen als gearchiveerde kaarten op het bord geplaatst.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 21 december 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen</a></p><p>Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De knoppen voor snelle actie voor Mijn werk zijn gewijzigd en alleen weergegeven bij mouseover</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de prestaties te verbeteren, worden de knoppen voor snelle actie die beschikbaar zijn in de widget Mijn werk nu alleen weergegeven wanneer een tijdelijk item met de muis wordt aangeraakt.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -228,6 +280,44 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                             </li>
                             <li>
                                 <p><span class="preview">Productie voor alle afnemers: 9 november 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### Projectverbeteringen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-gestuurde slimme toewijzingen</a></p><p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is overal in Workfront van toepassing waar u een taak toewijst (taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel).</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
                             </li>
                         </ul>
                     </td>

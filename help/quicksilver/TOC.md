@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 0%
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
       * Versie 2024 Q1 {#release-24-q1}
          * [Overzicht van de release 2024 Q1](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-         * [Verbeteringen voor eerste kwartaal 2024-beheer](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
-         * [Verbeteringen voor documentbeheer in eerste kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [2024 Q1 Beheerdersverbeteringen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+         * [2024 Q1 Verbeteringen in documentbeheer](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [Verbeteringen aan de KW1-kaarten 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+         * [2024 Q1 Home-verbeteringen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
          * [Verbeteringen voor 2024 Q1-integratie](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [Verbeteringen voor stroom en meldingen bijwerken in eerste kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-         * [Verbeteringen startpunt eerste kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [2024 Q1 Projectverbeteringen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [2024 Q1 Update stroom en berichtverhogingen](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * Versie 2023 Q4 {#release-23-q4}
          * [Overzicht van de release 2023 Q4](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023 4e kwartaal Beheerderverbeteringen](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 0%
          * [Het linkerdeelvenster aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [De weergave Details aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Home en overzicht aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Nieuwe startpagina aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Vastgezette pagina&#39;s aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Filters, weergaven, groepen aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [De terminologie van de gebruikersinterface aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
