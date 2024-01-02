@@ -6,14 +6,16 @@ description: Met Adobe Workfront kunnen mobiele teams hun werk op een incremente
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
 # Een bestandsteam maken
+
+<!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] stelt flexibele teams in staat hun werk op een incrementele, georganiseerde manier te voltooien.
 
@@ -41,7 +43,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Plan] een nieuw elegante team op te richten ; [!UICONTROL Work] of hoger om een team om te zetten in een flexibel team</p> </td> 
+   <td> <p>Nieuw: Standaard</p>
+   Huidige: 
+   <ul><li><p>[!UICONTROL Plan] om een nieuw team te creëren</p></li> 
+   <li><p>[!UICONTROL Work] of hoger om een team om te zetten in een flexibel team</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +90,15 @@ Deze methode wordt ondersteund door de volgende functionaliteit:
 
 ## Een bestandsteam maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
-1. Klik op de knop **[!UICONTROL Switch Teams]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)en klik vervolgens op **[!UICONTROL Create New Team]**.
+{{step1-to-team}}
+
+1. Klik op de knop **[!UICONTROL Switch Teams]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)en klik vervolgens op **[!UICONTROL Create new team]**.
 
    ![Selecteer Nieuw team maken.](assets/create-new-team-350x198.png)
 
-1. Geef de volgende informatie op over de [!UICONTROL New Team] dialoogvenster:
+   Het vak Nieuw team wordt weergegeven.
+
+1. Geef de volgende informatie op:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,10 +111,17 @@ Deze methode wordt ondersteund door de volgende functionaliteit:
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL This is an Agile Team]</strong> </td> 
       <td>Selecteer deze optie om dit nieuwe team te vormen om een flexibel team te worden.</td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
+      <td>Selecteer deze optie om dit team te activeren. Inactieve teams zijn niet zichtbaar voor andere gebruikers om toe te wijzen aan het werk. </td> 
+     </tr>
+
+
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Typ de naam van een groep die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.</p> <p>Nota: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. Groepbeheerders kunnen naar [!UICONTROL Teams] gebied van de [!UICONTROL Main Menu] en klik op de knop [!UICONTROL Switch Teams] pijl <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.</p> </td> 
+      <td> <p>Typ de naam van een groep die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.</p> <p><b>OPMERKING</b></p> <p> Wanneer een team aan een groep of subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het team te zijn. Groepbeheerders kunnen naar [!UICONTROL Teams] gebied van de [!UICONTROL Main Menu] en klik op de knop [!UICONTROL Switch Teams] pijl <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
@@ -145,7 +160,9 @@ U kunt een bestaand team omzetten in een flexibel team:
 
 1. Klikken **Wijzigingen opslaan.**
 
-   Raadpleeg de volgende artikelen voor informatie over het configureren van een Agile-team:
+   Het team wordt opgeslagen als een Agile-team. U kunt het nieuwe team als Trommel of een team vormen Kanban wanneer u het team uitgeeft.
+
+   Raadpleeg de volgende artikelen voor meer informatie:
 
    * [Configureren [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [Configureren [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

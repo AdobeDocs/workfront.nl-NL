@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Week van 18 december 2024
+## Week van 25 december 2023
+
+### Zoeken in de tijdlijnweergave
+
+Voorbeeld en productie: 27 december 2023
+
+U kunt nu naar een trefwoord zoeken om snel een record in de tijdlijnweergave te zoeken. U kunt trefwoorden en speciale tekens uit alle velden die op het scherm zichtbaar zijn, gebruiken om een record te zoeken. Zie voor meer informatie [De tijdlijnweergave beheren](../maestro/views/manage-the-timeline-view.md).
+
+## Week van 18 december 2023
 
 ### Opmerkingen toevoegen aan records op de pagina Details
 
@@ -331,7 +339,7 @@ Zie voor meer informatie [De tijdlijnweergave beheren](../maestro/views/manage-t
 
 Voorbeeld en productie: 9 oktober 2023
 
-U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweergave. U kunt trefwoorden en speciale tekens gebruiken in alle velden die zichtbaar zijn op het scherm om een record te zoeken. Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
+U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweergave. U kunt trefwoorden en speciale tekens uit alle velden die op het scherm zichtbaar zijn, gebruiken om een record te zoeken. Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
 
 ## Week van 18 september 2023
 

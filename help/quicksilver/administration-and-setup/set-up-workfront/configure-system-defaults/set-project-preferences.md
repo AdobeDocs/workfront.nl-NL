@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Projectvoorkeuren voor het hele systeem configureren
+
+<!--Audited: 12/2023-->
 
 Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle projecten vormen die door het systeem worden gecreeerd. Deze voorkeuren zijn van invloed op het project, de taak en het gedrag van problemen.
 

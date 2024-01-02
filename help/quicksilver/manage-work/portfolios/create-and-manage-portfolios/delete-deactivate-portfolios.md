@@ -6,14 +6,16 @@ description: Portfolio's zijn verzamelingen van projecten of programma's in Adob
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Portefeuilles verwijderen en deactiveren
+
+<!--Audited: 01/2024-->
 
 Portfolio&#39;s zijn collecties van projecten of programma&#39;s in [!DNL Adobe Workfront]. U kunt een portfolio verwijderen of deactiveren als u vindt dat dit niet relevant is voor uw systeem.
 
@@ -33,11 +35,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nieuw: [!UICONTROL Standard] </p>
+   <p>Huidige: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p> <p><b>OPMERKING</b></p> <p> Als u geen toegang hebt, raadpleegt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -72,14 +75,14 @@ Wanneer u een portfolio deactiveert, kunt u het nog steeds openen via het dialoo
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront].
 
-1. Klik op **[!UICONTROL Portfolios]** .
+1. Klikken **[!UICONTROL Portfolios]** .
 1. Klik op de naam van het portfolio.
-1. Klik op het menu Meer ![](assets/more-icon.png) rechts van de naam van het portfolio klikt u op **[!UICONTROL Deactivate Portfolio]**.
+1. Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de naam van het portfolio klikt u op **[!UICONTROL Deactivate Portfolio]**.
 
 ## Een portfolio verwijderen
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
-1. Klik op **[!UICONTROL Portfolios]** .
+1. Klikken **[!UICONTROL Portfolios]** .
 1. Selecteer het portfolio en klik op **[!UICONTROL Delete]**&#x200B; de [!UICONTROL Delete] pictogram ![](assets/delete.png).
 1. Klik in het vak dat wordt weergegeven op **[!UICONTROL Yes, Delete It]** ter bevestiging.

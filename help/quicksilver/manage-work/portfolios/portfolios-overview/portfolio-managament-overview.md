@@ -6,7 +6,7 @@ description: Het beheer van Portfolio of het Portfolio van het Project (PPM) is 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van het beheer van Portfolio&#39;s
+
+<!--Audited: 12/2023-->
 
 ## Overzicht van Project Portfolio Management (PPM)
 
