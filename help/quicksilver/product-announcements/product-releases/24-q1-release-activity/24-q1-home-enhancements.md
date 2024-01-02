@@ -4,9 +4,9 @@ description: Verbeteringen startpunt eerste kwartaal 2024
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,17 @@ Op deze pagina worden alle thuisverbeteringen beschreven die zijn aangebracht me
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen
+<!--
 
-Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).
+## Administrator controls for new Home using layout templates
 
-Houd er rekening mee dat de sjablonen voor de lay-out van de beheerder de aanpassing van individuele gebruikers overschrijven. Wanneer wijzigingen in een lay-outsjabloon worden opgeslagen, worden de nieuwe startpagina van gebruikers gewijzigd zodat deze overeenkomt met de lay-outsjabloon en worden hun bestaande widgetselecties onder aan de pagina geplaatst. Widgets die door de beheerder zijn geselecteerd, kunnen door een gebruiker worden verplaatst, maar kunnen niet worden verwijderd.
+Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
 
-Zie voor meer informatie [Nieuwe startpagina aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
+
+For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+
+-->
 
 ## De knoppen voor snelle actie voor Mijn werk zijn gewijzigd en alleen weergegeven bij mouseover
 

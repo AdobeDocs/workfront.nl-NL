@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
+source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -205,24 +205,24 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                         </p>
                     </td>
                  </tr>
-                 <tr>
+<!--                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen</a></p><p>Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 21 december 2023</p>
+                                <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 24.1</p>
+                                <p>Production for fast release: With the 24.1 release</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                                <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">De knoppen voor snelle actie voor Mijn werk zijn gewijzigd en alleen weergegeven bij mouseover</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de prestaties te verbeteren, worden de knoppen voor snelle actie die beschikbaar zijn in de widget Mijn werk nu alleen weergegeven wanneer een tijdelijk item met de muis wordt aangeraakt.</p>
