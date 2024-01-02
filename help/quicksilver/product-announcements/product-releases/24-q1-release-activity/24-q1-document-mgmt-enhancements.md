@@ -4,9 +4,9 @@ description: Verbeteringen voor documentbeheer in eerste kwartaal 2024
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwar
 
 ## Bijgewerkte statussen voor documentgoedkeuringen
 
+>[!NOTE]
+>
+>Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.
+
 Om de status van de documentgoedkeuring duidelijker te maken, hebben wij beschikbare goedkeuringen van de documentstatus bijgewerkt. De goedkeuringsstatusaccounts zijn nu voltooid voor controleurs die hun revisie markeren, en voor gevallen waarin alleen revisoren maar geen fiatteurs zijn.
 
 Zie voor meer informatie over specifieke beschikbare statussen [Goedkeuringsstatus document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Documentrevisie en goedkeuringsstatus worden weergegeven in de documentkop
 
+>[!NOTE]
+>
+>Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.
+
 Om de controle en het goedkeuringsproces transparanter te maken, hebben wij de status aan de kopbal van de pagina van de Details van het Document toegevoegd. U kunt nu in één oogopslag zien welke goedkeuringsbeslissing op het document is genomen, of of het document nog wordt gecontroleerd.
 
 Zie voor informatie over specifieke statussen [Goedkeuringsstatus document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Een revisie markeren als voltooid
+
+>[!NOTE]
+>
+>Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.
 
 Om het duidelijker te maken wanneer een document is herzien en klaar voor de volgende goedkeuringsfase is, hebben wij een nieuw nieuwe **Mijn revisie voltooien** knop. Wanneer een gebruiker die is ingesteld als revisor een document heeft gereviseerd, kan hij of zij nu op de knop **Mijn revisie voltooien** om in Workfront vast te leggen dat de revisie is voltooid.
 

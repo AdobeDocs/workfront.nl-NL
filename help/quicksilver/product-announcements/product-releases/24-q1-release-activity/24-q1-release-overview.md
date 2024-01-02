@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                                 <p>Productie voor driemaandelijkse release: met 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -163,6 +164,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                                 <p>Productie voor driemaandelijkse release: met 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +183,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                                 <p>Productie voor driemaandelijkse release: met 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
                     </td>
                 </tr>                
            </tbody>
