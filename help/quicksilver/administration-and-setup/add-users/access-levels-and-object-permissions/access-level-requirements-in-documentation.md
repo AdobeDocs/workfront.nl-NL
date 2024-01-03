@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Workfront-documentatie bevat een tabel met uitleg over de vereisten voor toegang en machtigingen die nodig zijn voor die procedure. Deze lijst van de Vereisten van Toegang staat u toe om te begrijpen of u een bepaalde actie in Workfront kunt uitvoeren, of waarom u niet zou kunnen. Dit artikel verklaart elk element van de lijst van de Vereisten van de Toegang, en verstrekt het oplossen van problemenuiteinden en verbindingen aan meer diepgaande informatie.
 
 Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel afwezig is, zijn er geen vereisten van dat type voor die actie.
+
+Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. Meer informatie en koppelingen naar informatie vindt u in het dialoogvenster [De tabel met toegangseisen](#the-access-requirements-table) van dit artikel.
 
 >[!NOTE]
 >
@@ -37,7 +39,7 @@ Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel 
    <td role="rowheader">Adobe Workfront-plan</td> 
    <td> Adobe Workfront-plannen verwijzen naar de functies die uw organisatie heeft aangeschaft. De meeste Workfront-functionaliteit is beschikbaar in alle plannen, met een paar uitzonderingen, meestal in verband met strategische planning en bedrijfscontroles. 
    <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-plan uw organisatie gebruikt, inclusief of uw organisatie zich onder het nieuwe of huidige pakketmodel bevindt.</li>
-   <li>Ga voor instructies over hoe een Workfront-beheerder het Workfront-plan van uw organisatie kan vinden naar <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Het cluster- en Workfront-plan van uw organisatie weergeven</a>.</li></ul> </td> 
+   <li>Voor instructies over hoe een Workfront-beheerder het Workfront-plan van uw organisatie kan vinden, raadpleegt u <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Het cluster- en Workfront-plan van uw organisatie weergeven</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -53,8 +55,20 @@ Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel 
       </p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront biedt een aantal producten die naast Workfront kunnen worden aangeschaft.
+   <p>Artikelen die procedures beschrijven die binnen deze aanvullende producten worden uitgevoerd, vermelden hier het vereiste product.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets of Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront-doelen</li>
+   <li>Workfront Scenario Planner</li>
+   </ul>
+   <p>Neem contact op met uw Workfront-beheerder als u wilt weten of uw organisatie een van deze extra producten heeft aangeschaft.</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Toegangsniveau</td> 
-   <td> Toegangsniveaus zijn sets machtigingen voor handelingen die u kunt uitvoeren in Workfront, ingesteld door uw Workfront-beheerder. <p>Workfront beschikt over ingebouwde toegangsniveaus die overeenkomen met Workfront-licenties, maar uw Workfront-beheerder kan meer toegangsniveaus maken om de benodigde machtigingssets in uw organisatie nauwkeuriger te weerspiegelen.</p>
+   <td> Toegangsniveaus zijn sets machtigingen voor handelingen die u kunt uitvoeren in Workfront, ingesteld door uw Workfront-beheerder. <p>Workfront heeft ingebouwde toegangsniveaus die aan de vergunningen van Workfront beantwoorden, maar uw beheerder van Workfront kan tot meer toegangsniveaus leiden om toestemmingsreeksen nauwkeuriger te weerspiegelen nodig in uw organisatie.</p>
    <ul>
     <li>Adobe Workfront gaat over naar een nieuw prijs- en verpakkingsmodel. Voor informatie over toegangsniveaus voor elk model zie:
    <ul>
