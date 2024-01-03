@@ -7,9 +7,9 @@ description: Een voorganger is de taak waarvan een andere taak (een opvolger of 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Als u relaties met voorgangers wilt begrijpen, moet u begrijpen:
 
 * **Labels:** U kunt vertragingen in uw gebiedsdelen bouwen die tot een vertraging leiden die na de voltooiing van een voorgangstaak en vóór de opvolgertaak moet voorkomen kan beginnen. Lags beïnvloeden de tijdlijn van het project.
 
-  Zie voor meer informatie over type lag [Overzicht van labeltypen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Zie voor meer informatie over type lag [Overzicht van typen labels](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Relaties van voorgangers maken
 

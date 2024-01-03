@@ -6,9 +6,9 @@ description: Een voorganger voor meerdere projecten is een taak waarvan een ande
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    * **Type afhankelijkheid:** Selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedstypes, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
 
-   * **Lag:** Geef de hoeveelheid tijd op die moet verstrijken na de voltooiing van een afgedwongen voorganger totdat de afhankelijke taak kan beginnen. Zie voor meer informatie over de verschillende typen vertragingen [Overzicht van labeltypen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Lag:** Geef de hoeveelheid tijd op die moet verstrijken na de voltooiing van een afgedwongen voorganger totdat de afhankelijke taak kan beginnen. Zie voor meer informatie over de verschillende typen vertragingen [Overzicht van typen labels](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
    * **Afgedwongen:** Als deze optie is geselecteerd, kan de afhankelijkheidsrelatie tussen de twee taken niet worden omzeild door gebruikers die taken vroeg beginnen. Bijvoorbeeld, als u een verband tussen Taak A en Taak B afdwingt, kan de Taak B niet worden begonnen tot Taak A volledig is. Voor meer informatie over het afdwingen van predecessors raadpleegt u [Voorgangers afdwingen](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 

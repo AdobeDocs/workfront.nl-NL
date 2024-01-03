@@ -2,23 +2,25 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Overzicht van labeltypen
+title: Overzicht van typen labels
 description: Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorganger moet overgaan tot de afhankelijke taak (Positieve Lag) kan beginnen, of de hoeveelheid tijd dat een afhankelijke taak kon beginnen alvorens voorganger (Negatieve Lag) begint.
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
-# Overzicht van labeltypen
+# Overzicht van typen labels
+
+<!-- Audited: 01/2024 -->
 
 Lag is de hoeveelheid tijd die na de Geplande Voltooiing van een voorganger moet overgaan tot de afhankelijke taak (Positieve Lag) kan beginnen, of de hoeveelheid tijd die een afhankelijke taak kon beginnen alvorens voorganger (Negatieve Lag) begint.
 
-De geplande, voorspelde en geschatte data van de vervolgtaken worden berekend met inachtneming van de vertraging en de geplande, voorspelde en geraamde aanvangsdata (Voltooiing) van de voorgaande taken.
+De geplande, voorspelde en geschatte datums van de vervolgtaken worden berekend met inachtneming van de vertraging en de geplande, voorspelde en geschatte begindatums (Voltooiing) van de voorgaande taken.
 
 ## Toegangsvereisten
 
@@ -64,7 +66,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -72,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Lag- en labeltypen aangeven voor taken
 
 U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
-
-* [Wijs op de Types van Lag in de Predecessors sectie van een taak](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [Wijs op de Types van Lag in een taaklijst](#indicate-lag-types-in-a-task-list)
 
 ### Wijs op de Types van Lag in de Predecessors sectie van een taak {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -106,13 +107,13 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
    * **Dag van de week**
    * **Dag van de week (niet nul)**
 
-     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de sectie [Overzicht van typen labels](#lag-types-overview) in dit artikel.
+     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de sectie [Laagtypen](#lag-types) in dit artikel.
 
 1. Klikken **Opslaan**.
 
 ### Wijs op de Types van Lag in een taaklijst  {#indicate-lag-types-in-a-task-list}
 
-1. Ga naar een takenlijst en selecteer de **Standaard** Weergeven vanuit de **Weergave** vervolgkeuzelijst.
+1. Ga naar een takenlijst en selecteer de **Standaard** weergeven.
 
 1. Klik in het dialoogvenster **Predecessors** kolom die overeenkomt met de taak waarvoor u een voorganger en een hoeveelheid vertraging wilt opgeven.
 1. Voer het volgende in zonder spaties:
@@ -125,15 +126,15 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
    * ofwel **+** voor een positieve vertraging of een **-** voor een negatieve vertraging
 
    * de omvang van de vertraging
-   * De afkorting voor het Laagtype dat u wilt gebruiken.
+   * de afkorting voor het gewenste Laagtype
 
-     Zie de sectie voor meer informatie over de afkortingen voor Lagtypen [Overzicht van typen labels](#lag-types-overview) in dit artikel.
+     Zie de sectie voor meer informatie over de afkortingen voor Lagtypen [Laagtypen](#lag-types) in dit artikel.
 
-   Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, voert u  `1fs+2d` in de kolom Voorgangers.
+   Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, voert u `1fs+2d` in de kolom Voorgangers.
 
-1. Klik op Enter op het toetsenbord om de wijzigingen in uw taak op te slaan.
+1. Druk op Enter op het toetsenbord om de wijzigingen in uw taak op te slaan.
 
-## Overzicht van typen labels {#lag-types-overview}
+## Laagtypen {#lag-types}
 
 Een voorbeeld van een taak die een vertragingstijd zou vereisen zou bomen in aantal kunnen zaaien. Als het versnipperde hout moet drogen voordat het kan worden geknipt, zou er een vertraging optreden tussen het kappen van de bomen en het zaaien ervan in de bomen.
 
@@ -159,7 +160,7 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
   </tr> 
   <tr> 
    <td> <p>Percentage (p of pe)</p> </td> 
-   <td> <p>De vertraging wordt uitgedrukt als percentage van de geschatte tijd om de voorganger te voltooien. </p> <p>Bijvoorbeeld, als er een eind-begin gebiedsdeel met een vertraging van 20% op een predecessor 10-dagtaak is, zal het systeem berekenen hoeveel dagen 20% van de duur vertegenwoordigen van de voorgangerstaak en dat als vertraging gebruiken. In dit geval duurt het twee dagen nadat de taak is voltooid. </p>
+   <td> <p>De vertraging wordt uitgedrukt als percentage van de geschatte tijd om de voorganger te voltooien. </p> <p>Bijvoorbeeld, als er een eind-begin gebiedsdeel met een vertraging van 20% op een predecessor 10-dagtaak is, zal het systeem berekenen hoeveel dagen 20% van de de taakduur van de voorganger vertegenwoordigen en dat als vertraging gebruiken. In dit geval duurt het twee dagen nadat de taak is voltooid. </p>
 
 <p><b>OPMERKING</b></p> De maximale vervallimiet voor procenten is 2000%.</p> </td> 
   </tr> 
@@ -193,7 +194,7 @@ Als de Datum van het Begin van de opvolger wordt berekend om een bepaalde Dinsda
  </tbody> 
 </table>
 
-## Overzicht van negatieve labels
+## Negatieve tag
 
 U kunt een negatieve Lag gebruiken om op de behoefte of de capaciteit te wijzen voor de taak om te beginnen alvorens de voorgangertaak die beëindigt.
 

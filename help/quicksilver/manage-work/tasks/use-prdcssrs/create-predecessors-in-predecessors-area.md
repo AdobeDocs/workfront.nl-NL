@@ -6,7 +6,7 @@ description: U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -75,11 +75,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Selecteer een **Type afhankelijkheid**.
 
-   Voor informatie over de Types van Afhankelijkheid van de taak, zie a [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor informatie over de types van taakafhankelijkheid, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. Geef een **Lag** bedrag in dagen.
 
-   Voor informatie over de Types van Lag, zie &#x200B; [Overzicht van labeltypen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Voor informatie over de Types van Lag, zie &#x200B; [Overzicht van typen labels](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 1. Selecteren **Afgedwongen** als u de voorafgaande verhouding tussen de twee taken wilt afdwingen.
 

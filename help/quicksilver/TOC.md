@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 0%
 
 ---
@@ -1351,7 +1351,7 @@ ht-degree: 0%
          * [Predecessors voor meerdere projecten maken](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
          * [Overzicht van typen taakafhankelijkheid](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
          * [Voorgangers afdwingen](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-         * [Overzicht van labeltypen](manage-work/tasks/use-prdcssrs/lag-types.md)
+         * [Overzicht van typen labels](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [Overzicht van taakafhankelijkheidslus](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
       * Tips, trucs en probleemoplossing voor taken {#tips-tricks-and-troubleshooting-for-tasks}
          * [Tips, trucs en probleemoplossing voor taken](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
@@ -1762,7 +1762,7 @@ ht-degree: 0%
       * [Werk de werkitems in de werklastbalans bij met de samenvatting](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Werk beoordelen en goedkeuren {#review-and-approve-work}
    * [Werk beoordelen en goedkeuren](review-and-approve-work/review-and-approve-work.md)
-   * [Alfa-programma - Goedkeuringen document](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Programma Alpha - Goedkeuringen document](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](review-and-approve-work/proof-doc-decision-limits.md)
    * Goedkeuring van werkzaamheden {#work-approvals}
       * [Goedkeuring van werkzaamheden](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2156,7 +2156,7 @@ ht-degree: 0%
       * [Adobe Acrobat Sign-modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Adobe Creative Cloud-bibliotheekmodules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic-modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
-      * [Adobe Experience Manager-middelenmodules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Adobe Experience Manager Assets-modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms-module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizer-modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Maestro-modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
