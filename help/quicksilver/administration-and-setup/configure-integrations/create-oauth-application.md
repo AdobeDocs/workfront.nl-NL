@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1795'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
@@ -128,7 +128,7 @@ Wanneer u een OAuth2-toepassing maakt, kiest u het type toepassing dat het beste
 1. Klik in het linkernavigatievenster op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth2 Applications]**.
 1. Klikken **[!UICONTROL Create app integration]**.
 De **Nieuwe OAuth2-toepassing** wordt weergegeven.
-1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Server Authentication]**.
+1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Machine to Machine Application]**.
 1. Voer een naam in voor de nieuwe toepassing, bijvoorbeeld &quot;[!DNL Workfront] voor ClientApp.&quot;
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
@@ -180,7 +180,7 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
 1. Klik op **[!UICONTROL Create app integration]**.
 
    De **Nieuwe OAuth2-toepassing** worden weergegeven.
-1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL User Authentication]**.
+1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Web Application]**.
 1. Voer een naam in voor de nieuwe OAuth2-toepassing, bijvoorbeeld &quot;[!DNL Workfront] voor ClientApp.&quot;
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
@@ -262,11 +262,11 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
       <td> <p>Dit veld wordt automatisch gegenereerd.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Redirect URls]</td> 
+      <td role="rowheader">[!UICONTROL Redirect URLs]</td> 
       <td>Gebruikers worden omgeleid naar dit pad nadat ze zijn geverifieerd met Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Rotate refresh token everytime it is used]</td> 
+      <td role="rowheader">[!UICONTROL Rotate refresh token every time it is used]</td> 
       <td>Schakel deze optie in om een nieuw token voor vernieuwen uit te geven wanneer het token voor vernieuwen wordt gebruikt. Uw toepassing moet het nieuwe vernieuwingstoken opslaan na elke verfrissing.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
