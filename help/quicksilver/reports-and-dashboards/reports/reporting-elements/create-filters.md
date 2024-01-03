@@ -6,9 +6,9 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2456'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ U kunt de volgende typen filters toepassen in Adobe Workfront:
 
   Zie voor informatie over snelle filters [Het snelle filter toepassen op een lijst](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Permanente filters die u kunt opslaan en gebruiken in meerdere lijsten en rapporten. In dit artikel wordt beschreven hoe u een permanent filter kunt maken of een bestaand filter in een lijst of rapport kunt bewerken.
+* Permanente filters die u kunt opslaan en meerdere keren kunt gebruiken in meerdere lijsten en rapporten. In dit artikel wordt beschreven hoe u een permanent filter kunt maken of een bestaand filter in een lijst of rapport kunt bewerken.
 
 * Filters in andere gebieden van Workfront, buiten lijsten en rapporten.
 
@@ -202,7 +202,7 @@ Maak een filter met de standaardbuilderinterface:
    </tr>
    <tr>
    <td role="rowheader"><strong>Standaardwaarden systeem</strong></td>
-   <td>De standaardfilters van het systeem van Workfront, evenals filters die de beheerder van Workfront aan uw lijst van filters, of op het systeemniveau of in uw lay-outmalplaatje toevoegde.</td>
+   <td>De standaardfilters van het systeem van Workfront, en filters die de beheerder van Workfront aan uw lijst van filters, of op het systeemniveau of in uw lay-outmalplaatje toevoegde.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Gedeeld met mij</strong></td>
@@ -263,14 +263,14 @@ Maak een filter met de standaardbuilderinterface:
    >
    >Afhankelijk van de optie die u hebt geselecteerd, kunt u meerdere waarden selecteren.
 
-1. Klikken **Filter toevoegen** om een ander veld te selecteren en nieuwe filtercriteria toe te voegen aan de filterinstructie.
+1. Klikken **Filter toevoegen** om een ander gebied te selecteren voeg een het filtreren criteria aan de filterverklaring toe.
 1. (Optioneel) Klik op de knop **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png) om bestaande filterinstructies te verwijderen.
 
    of
 
    Klikken **Alles wissen** alle filtercriteria te wissen.
 
-1. (Optioneel) Klik op **Filtergroep toevoegen** om een andere reeks filtercriteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
+1. (Optioneel) Klik op **Filtergroep toevoegen** om een andere reeks filtercriteria toe te voegen. De standaardoperator tussen de sets is **EN**. Klik op de operator om deze te wijzigen in **OF**.
 
    >[!TIP]
    >
@@ -294,7 +294,7 @@ Maak een filter met de standaardbuilderinterface:
 
    >[!TIP]
    >
-   >We raden u aan zoveel mogelijk van het filter te maken met de standaardbuilderinterface en alleen tekstmodus te gebruiken wanneer u wijzigingen moet aanbrengen in het filter die alleen worden ondersteund in de tekstmodus.
+   >We raden u aan zoveel mogelijk van het filter te maken met de standaardbuilderinterface en alleen tekstmodus te gebruiken wanneer u de filters moet wijzigen die alleen in de tekstmodus worden ondersteund.
 
    Zie voor meer informatie over het maken van een filter met de interface van de tekstmodus [Een filter bewerken in de tekstmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -329,7 +329,7 @@ Maak een filter met de standaardbuilderinterface:
    >Klikken **Annuleren** neemt u altijd terug naar het filtergebied.
 
 1. Klikken **Opslaan**. Het filter wordt opgeslagen in de lijst Opgeslagen en wordt toegepast op de lijst met items.
-1. (Optioneel) Als u een filter naar de lijst Favorieten wilt verplaatsen, beweegt u de muisaanwijzer over een willekeurig filter in de filterlade en klikt u op het pictogram Favoriet ![Pictogram Favoriet](assets/favorites-icon-small.png).
+1. (Optioneel) Als u een filter wilt verplaatsen naar de lijst met favorieten, beweegt u de muisaanwijzer over een filter in de filterlade en klikt u op de knop **Favoriet** pictogram ![Pictogram Favoriet](assets/favorites-icon-small.png).
 
    of
 
@@ -388,7 +388,7 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
      Velden die zijn gekoppeld aan het object van het filter worden weergegeven in het dialoogvenster **Typ de veldnaam** doos.
 
-   * Klikken **EN** of **OF** wanneer u een nieuwe filterregel toevoegt.\
+   * Klikken **EN** of **OF** bij het toevoegen van een filterregel.\
      Wanneer het toevoegen van filterregels, gebruik de filterbepalingen om de voorwaarde van uw filter te vestigen. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -415,11 +415,11 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
    Zie voor meer informatie over het maken van een filter met de interface van de tekstmodus [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klikken **Filter opslaan** om een nieuw filter te maken of het geselecteerde filter te vervangen door uw wijzigingen.
+1. Klikken **Filter opslaan** om een filter te maken of het geselecteerde filter te vervangen door uw wijzigingen.
 
    of
 
-   Klikken **Opslaan als nieuw filter** om een nieuw filter te maken van het geselecteerde filter.
+   Klikken **Opslaan als nieuw filter** om een filter te maken van het geselecteerde filter.
 
    Het nieuwe filter wordt weergegeven in de lijst met filters en wordt automatisch toegepast op de lijst of het rapport dat u hebt geselecteerd.
 
