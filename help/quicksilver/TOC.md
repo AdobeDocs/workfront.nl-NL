@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '13838'
+source-wordcount: '13844'
 ht-degree: 0%
 
 ---
@@ -1265,7 +1265,7 @@ ht-degree: 0%
          * [Voorbeeld van berekening - EAC berekenen als een roll-up van taken](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [Berekeningsvoorbeeld - berekening EAC op projectniveau](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * Taken {#tasks}
-      * [Taken](manage-work/tasks/tasks-overview.md)
+      * [Taken: artikelindex](manage-work/tasks/tasks-overview.md)
       * Taakgegevens {#task-information}
          * [Taakgegevens](manage-work/tasks/task-information/task-information.md)
          * [Overzicht van taken](manage-work/tasks/task-information/tasks-overview.md)
@@ -1479,7 +1479,7 @@ ht-degree: 0%
       * [Tips, trucs en probleemoplossing voor teams en groepen](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Gebruikersnaam al in gebruik](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapportage {#reporting}
-   * [Rapportage](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [Rapporten en dashboards: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Canvas melden {#reporting-canvas}
       * [Canvas melden](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * Rapporten beheren {#manage-reports}

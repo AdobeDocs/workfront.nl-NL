@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] documentatie'
 description: Documentatie voor [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Zie [Documenten](/help/quicksilver/documents/documents-overview.md).
 
 Gebruik rapporten en dashboards om bestaande informatie in een gemakkelijk te lezen formaat te tonen en het met alle belanghebbenden te delen.
 
-Zie [Rapporten en dashboards](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+Zie [Rapporten en dashboards: artikelindex](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
 #### Rapportage tekstmodus
 

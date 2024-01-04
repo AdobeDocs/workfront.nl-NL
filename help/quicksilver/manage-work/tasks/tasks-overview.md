@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Taken
+title: "Taken: artikelindex"
 description: Taken zijn kleinere werkitems in Adobe Workfront die bijdragen aan de voltooiing van een project. Meer informatie over het beheren van taken vindt u in de volgende artikelen.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '83'
+ht-degree: 0%
 
 ---
 
-# Taken
+# Taken: artikelindex
 
-Deze sectie bevat de volgende subsecties:
+<!--Audited: 01/2024-->
+
+Taken zijn kleinere werkitems in Adobe Workfront die bijdragen aan de voltooiing van een project. Leer informatie over het beheren van taken in de artikelen in de volgende subsecties:
 
 * [Taakgegevens](../../manage-work/tasks/task-information/task-information.md)
 * [Taken maken](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)

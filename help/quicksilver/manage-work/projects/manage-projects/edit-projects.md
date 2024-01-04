@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '7330'
+source-wordcount: '7452'
 ht-degree: 0%
 
 ---
 
 # Projecten bewerken
+
+<!--Audited: 01/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -30,41 +32,11 @@ ht-degree: 0%
 </div>
 -->
 
-U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak nodig. Wij adviseren dat u projecten na hun statusveranderingen in Huidig minimaal uitgeeft, om verwarring te vermijden door berichten over de veranderingen naar het volledige projectteam te verzenden. Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de status van de Planning is. Voor informatie over het projectteam, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak nodig. Wij adviseren dat u projecten na hun statusveranderingen in Huidig minimaal uitgeeft, om verwarring te vermijden door berichten over de veranderingen naar het volledige projectteam te verzenden.
+
+Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de status van de Planning is. Voor informatie over het projectteam, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
-
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-     <p>Manage permissions to a project </p> 
-     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,17 +48,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nieuw: Standaard </p> 
+   of
+   <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot projecten, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Toegang verlenen tot projecten</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot projecten, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Toegang verlenen tot projecten</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> 
-    <p>Rechten voor een project beheren </p> 
-    <p> Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+     <p>Rechten voor een project beheren </p> 
+     <p> Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +73,7 @@ Er zijn enkele beperkingen die kunnen voorkomen dat u projecten kunt bewerken.
 
 Houd rekening met het volgende wanneer u projecten bewerkt:
 
-* U kunt geen projecten uitgeven die in een Proces van de Goedkeuring, behalve registrerentijd zijn.
+* U kunt geen projecten uitgeven die in een Proces van de Goedkeuring zijn, behalve registrerentijd en het veranderen van de Status.
 * U kunt documenten of malplaatjes aan een project vastmaken dat een status van Voltooid heeft, Dead, of in Hangende Goedkeuring slechts als uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het instellen van projectvoorkeuren raadpleegt u [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * U kunt de volgende informatie over een project alleen bewerken in de status Dead of Voltooid:
 
@@ -110,20 +84,25 @@ Houd rekening met het volgende wanneer u projecten bewerkt:
 
 Door een project uit te geven kunt u informatie en montages voor het project, evenals taken en kwesties op het project wijzigen.
 
-Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatus door hun staat in het malplaatje kunnen worden gewijzigd waarvan het project werd gecreeerd. Zie voor informatie over het bewerken van sjablonen [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatus door hun staat in het malplaatje kunnen worden gewijzigd waarvan het project werd gecreeerd.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Projecten**.
+Zie voor informatie over het bewerken van sjablonen [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+Voor informatie over het creëren van een project van een malplaatje, zie [Een project maken met een sjabloon](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+{{step1-to-projects}}
+
 1. (Optioneel) Klik op **Projecten waar ik aan sta** of **Projecten die ik heb** in de hoger-juiste hoek om projecten te tonen waar u de eigenaar of de projecten bent waar u deel van het projectteam uitmaakt.
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
-
-1. Klik de naam van het project u wilt uitgeven om de projectpagina te openen.
 
    >[!NOTE]
    >
    >Als u een groepsbeheerder bent, kunt u de projecten van uw groep in het gebied van Groepen evenals in het gebied van Projecten zien en uitgeven. Zie voor meer informatie [Projecten van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. (Optioneel) Als u de beperkte informatie over een project wilt bewerken, klikt u op **Projectdetails** in het linkerdeelvenster.
+1. Klik de naam van het project u wilt uitgeven om de projectpagina te openen.
+
+1. (Optioneel) Als u de beperkte informatie over een project wilt bewerken, klikt u op **Projectdetails** in het linkerdeelvenster. Ga naar stap 5 als u alle informatie over het project wilt bewerken. <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -133,7 +112,7 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
-   1. (Optioneel) Klik op de knop **Alles samenvouwen** om alle gebieden samen te vouwen.
+   1. (Optioneel) Klik op de knop **Alles samenvouwen** pictogram ![](assets/collapse-icon.png)  in de rechterbovenhoek alle gebieden samenvouwen.
    1. (Optioneel en voorwaardelijk) Klik op het pictogram **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Raadpleeg de volgende artikelen voor meer informatie over het bewerken van informatie op het tabblad Projectdetails:
 
@@ -158,7 +137,9 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 
    of
 
-   Van een lijst van projecten, selecteer een project, dan klik **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
+   Van een lijst van projecten, selecteer één of veelvoudige projecten, dan klik **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
+
+   Zie de sectie voor meer informatie over het bulksgewijs bewerken van projecten [Projecten bulksgewijs bewerken](#edit-projects-in-bulk) in dit artikel.
 
    De **Project bewerken** wordt geopend.
 
@@ -172,7 +153,7 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
    >
    >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Voorwaardelijk) Als u op de knop **Meer** en vervolgens **Bewerken** kunt u gegevens in de volgende gebieden in het linkervenster bijwerken:
+1. (Voorwaardelijk) Als u op de knop **Meer** en vervolgens **Bewerken** gegevens bijwerken in een van de volgende gebieden die in het linkerdeelvenster worden vermeld:
 
    * [Projectnaam](#project-name)
    * [Overzicht](#overview)
@@ -208,96 +189,102 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
 1. Werk de volgende informatie over het project bij:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Beschrijving</strong> </td> 
-      <td> <p>Voeg aanvullende informatie toe over het project.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Status</strong> </td> 
-      <td> <p>Selecteer de status van het project. U kunt een project niet markeren voltooid voordat alle taken en problemen zijn voltooid. Voor informatie over projectstatussen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Heb toegang tot de lijst van de statussen van het systeemproject</a></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Prioriteit</strong> </td> 
-      <td> <p> <p>Dit is enkel een visuele vlag voor u die u toestaat om aan uw projecten voorrang te geven.</p> <p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor meer informatie over het uitgeven van prioriteiten, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Prioriteiten maken en aanpassen</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>Geef een webkoppeling op die betrekking heeft op informatie over dit project.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Type voorwaarde</strong> </td> 
-      <td> <p>Selecteer een van de volgende Condition Types: 
-       <ul> 
-       <li><strong>Handmatig:</strong> De eigenaar van het project stelt de voorwaarde handmatig in op het project.</li> 
-       <li><strong>Voortgangsstatus:</strong> Workfront stelt de voorwaarde automatisch in op basis van de status van voortgang van taken op het kritieke pad. Voor meer informatie over het begrijpen van de Status van de Voortgang, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang taak</a>.</li> 
-       </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> selecteert het gebrek voor hoe de voorwaarde van de projecten voor uw systeem wordt berekend <span>of uw groep</span>. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>. </p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Voorwaarde</strong> </td> 
-      <td> <p> <p>(Wordt alleen weergegeven nadat u <strong>Handmatig</strong> voor de <strong>Type voorwaarde</strong>): Selecteer een voorwaarde om aan te geven hoe het project verloopt. </p> <p>Voor informatie hoe de projectvoorwaarden automatisch of manueel kunnen worden geplaatst, zie <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overzicht van het type Projectvoorwaarde en Voorwaarde</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Planningsmodus</strong> </td> 
-      <td> <p>Geef op of het project gepland is vanaf de begindatum of vanaf de einddatum. Deze selectie bepaalt de geplande data van de taken betreffende het project. 
-       <ul> 
-       <li><strong>Begindatum</strong>: De eerste taak van het project heeft de zelfde Geplande Datum van het Begin zoals het project door gebrek. Voor informatie over de taak Geplande Datum van het Begin, zie <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overzicht van de geplande startdatum van de taak</a>. De projecttijdlijn berekent vanaf de begindatum en de einddatum van het project wordt door het systeem berekend op basis van de duur van alle taken. </li> 
-       <li><strong>Voltooiingsdatum</strong>: De laatste taak van het project heeft dezelfde geplande uitvoeringsdatum als het project. De projecttijdlijn berekent vanaf de afsluitende datum en de begindatum van het project wordt door het systeem berekend door de duur van alle taken af te trekken van de afsluitende datum van het project. </li> 
-       </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> Hiermee selecteert u de standaardinstelling voor de planningsmodus voor uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Geplande begindatum en -tijd</strong> </td> 
-      <td> <p> <p>Geef de datum op waarop u <strong>Schema vanaf begindatum</strong>. <br></p> <p>Dit is een alleen-lezen veld wanneer u <strong>Planning vanaf voltooiing</strong>.<br></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Geplande voltooiing Datum en tijd</strong> </td> 
-      <td> <p>Geef de datum op waarop u <strong>Planning vanaf voltooiing</strong>. </p> <p>Dit is een alleen-lezen veld wanneer u <strong>Schema vanaf begindatum</strong>.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat het in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie voor meer informatie over het maken van portfolio's <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Een portfolio maken </a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Programma</strong></td> 
-      <td> <p>Als u een Portfolio voor het project selecteerde, specificeer een Programma voor het project. Sommige Portfolio's hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Ga voor meer informatie over het maken van programma's naar <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Een programma maken</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Groep</strong></td> 
-      <td> <p> <p>Geef de naam op van de groep die aan het project is gekoppeld. </p>Dit is een verplicht veld. U kunt geen project hebben dat niet aan een groep wordt geassocieerd. </p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> Door gebrek, wordt één van de volgende groepen automatisch geassocieerd met een project wanneer het wordt gecreeerd, tenzij u een verschillende groep specificeert:</p> 
-       <ul> 
-       <li> <p><span>Wanneer het project van het gebied van Projecten wordt gecreeerd, wordt de Groep van het Huis van de projectschepper geassocieerd met het project.</span> </p> <p>Dit is ook waar wanneer het project van de sectie van Projecten in een portefeuille of een programma wordt gecreeerd.</p> </li> 
-       <li> <p>Wanneer het project van de belangrijkste pagina van een groep in het gebied van de Opstelling wordt gecreeerd, wordt die groep geassocieerd met het project.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-       <p><b>NOTITIES</b></p>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>Beschrijving</strong> </td> 
+         <td> <p>Voeg aanvullende informatie toe over het project.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Status</strong> </td> 
+         <td> <p>Selecteer de status van het project. U kunt een project niet markeren voltooid voordat alle taken en problemen zijn voltooid. Voor informatie over projectstatussen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Heb toegang tot de lijst van de statussen van het systeemproject</a></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Prioriteit</strong> </td> 
+         <td> <p> <p>Dit is enkel een visuele vlag voor u die u toestaat om aan uw projecten voorrang te geven.</p> <p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor meer informatie over het uitgeven van prioriteiten, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Prioriteiten maken en aanpassen</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>URL</strong> </td> 
+         <td> <p>Geef een webkoppeling op die betrekking heeft op informatie over dit project.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Type voorwaarde</strong> </td> 
+         <td> <p>Selecteer een van de volgende Condition Types: 
+         <ul> 
+         <li><strong>Handmatig:</strong> De eigenaar van het project stelt de voorwaarde handmatig in op het project.</li> 
+         <li><strong>Voortgangsstatus:</strong> Workfront stelt de voorwaarde automatisch in op basis van de status van voortgang van taken op het kritieke pad. Voor meer informatie over het begrijpen van de Status van de Voortgang, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang taak</a>.</li> 
+         </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> selecteert het gebrek voor hoe de voorwaarde van de projecten voor uw systeem wordt berekend <span>of uw groep</span>. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>. </p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Voorwaarde</strong> </td> 
+         <td> <p> <p>(Wordt alleen weergegeven nadat u <strong>Handmatig</strong> voor de <strong>Type voorwaarde</strong>): Selecteer een voorwaarde om aan te geven hoe het project verloopt. </p> <p>Voor informatie hoe de projectvoorwaarden automatisch of manueel kunnen worden geplaatst, zie <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overzicht van het type Projectvoorwaarde en Voorwaarde</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Planningsmodus</strong> </td> 
+         <td> <p>Geef op of het project gepland is vanaf de begindatum of vanaf de einddatum. Deze selectie bepaalt de geplande data van de taken betreffende het project. 
+         <ul> 
+         <li><strong>Begindatum</strong>: De eerste taak van het project heeft de zelfde Geplande Datum van het Begin zoals het project door gebrek. Voor informatie over de taak Geplande Datum van het Begin, zie <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overzicht van de geplande startdatum van de taak</a>. De projecttijdlijn berekent vanaf de begindatum en de einddatum van het project wordt door het systeem berekend op basis van de duur van alle taken. </li> 
+         <li><strong>Voltooiingsdatum</strong>: De laatste taak van het project heeft dezelfde geplande uitvoeringsdatum als het project. De projecttijdlijn berekent vanaf de afsluitende datum en de begindatum van het project wordt door het systeem berekend door de duur van alle taken af te trekken van de afsluitende datum van het project. </li> 
+         </ul><p>Uw Workfront-beheerder<span> of een groepsbeheerder</span> Hiermee selecteert u de standaardinstelling voor de planningsmodus voor uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Geplande begindatum en -tijd</strong> </td> 
+         <td> <p> <p>Geef de datum op waarop u <strong>Schema vanaf begindatum</strong>. <br></p> <p>Dit is een alleen-lezen veld wanneer u <strong>Planning vanaf voltooiing</strong>.<br></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Geplande voltooiing Datum en tijd</strong> </td> 
+         <td> <p>Geef de datum op waarop u <strong>Planning vanaf voltooiing</strong>. </p> <p>Dit is een alleen-lezen veld wanneer u <strong>Schema vanaf begindatum</strong>.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Portfolio</strong></td> 
+         <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat het in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie voor meer informatie over het maken van portfolio's <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Een portfolio maken </a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Programma</strong></td> 
+         <td> <p>Als u een Portfolio voor het project selecteerde, specificeer een Programma voor het project. Sommige Portfolio's hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Ga voor meer informatie over het maken van programma's naar <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Een programma maken</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Groep</strong></td> 
+         <td> <p> <p>Geef de naam op van de groep die aan het project is gekoppeld. </p>Dit is een verplicht veld. U kunt geen project hebben dat niet aan een groep wordt geassocieerd. </p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> Door gebrek, wordt één van de volgende groepen automatisch geassocieerd met een project wanneer het wordt gecreeerd, tenzij u een verschillende groep specificeert:</p> 
+         <ul> 
+         <li> <p><span>Wanneer het project van het gebied van Projecten wordt gecreeerd, wordt de Groep van het Huis van de projectschepper geassocieerd met het project.</span> </p> <p>Dit is ook waar wanneer het project van de sectie van Projecten in een portefeuille of een programma wordt gecreeerd.</p> </li> 
+         <li> <p>Wanneer het project van de belangrijkste pagina van een groep in het gebied van de Opstelling wordt gecreeerd, wordt die groep geassocieerd met het project.</p> </li> 
+         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+         <p><b>NOTITIES</b></p>
 
-   <ul>
-      <li><p>Als het project, of zijn taken of kwesties met een groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de Groep van het project de Status van het project, de taken, of de kwesties kunnen veroorzaken om te veranderen om de nieuwe groep aan te passen.</p></li>
-      <li><p>Als het project, of zijn taken of kwesties reeds met een groep-vlakke goedkeuringsproces gebruikend groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de groep een conflict tussen de goedkeuringsstatussen van de vorige groep en die op het systeemniveau kunnen tot stand brengen.</p>
-      <p>U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep bijwerkt.</p>
-      <p>Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Goedkeuringsprocessen op groepsniveau</a>.</p>
-      <p>Voor informatie over het creëren van een groep-vlakke douanestatus, zie <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Een groepsstatus maken of bewerken</a></p></li></ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Bedrijf</strong> </td> 
-      <td> <p>Geef een bedrijf op dat aan het project is gekoppeld. U moet een bedrijf tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve bedrijven kunnen met een project worden geassocieerd. Voor informatie over het creëren van bedrijven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Bedrijven maken en bewerken</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Projecteigenaar</strong> </td> 
-      <td> <p>Begin de naam van een gebruiker te typen om hen aan het project toe te voegen, dan het te selecteren wanneer het in de lijst toont. De gebruiker wordt toegevoegd aan het projectteam en krijgt automatisch beheermachtigingen voor het project. De gebruiker die als de eigenaar van het Project wordt aangewezen moet een actieve gebruiker van Workfront zijn.</p>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Projectsponsor</strong> </td> 
-      <td> <p>Begin de naam van een gebruiker te typen om hen aan het project toe te voegen, dan het te selecteren wanneer het in de lijst toont. De gebruiker wordt toegevoegd aan het projectteam en krijgt automatisch de toestemmingen van de Mening aan het project. De gebruiker die is aangewezen als projectsponsor moet een actieve Workfront-gebruiker zijn.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Resource Manager</strong> </td> 
-      <td> <p> Begin de namen van gebruikers te typen om hen aan het project toe te voegen, dan hen te selecteren wanneer zij in de lijst tonen. De gebruikers worden toegevoegd aan het projectteam en krijgen automatisch beheermachtigingen voor het project en kunnen bronnen toewijzen aan de taken en problemen van het project. De gebruikers handhaven leiden toestemmingen op het project zelfs wanneer zij uit het gebied van de Manager van het Middel worden verwijderd. U kunt meerdere Resource Manager opgeven.<br></p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+       &lt;ul>
+       &lt;li>&lt;p>Als het project, of zijn taken of kwesties met een groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de Groep van het project de Status van het project, de taken, of de kwesties kunnen veroorzaken om te veranderen om de nieuwe groep aan te passen.&lt;/p>&lt;/li>
+       &lt;li>&lt;p>Als het project, of zijn taken of kwesties reeds met een groep-vlakke goedkeuringsproces gebruikend groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de groep een conflict tussen de goedkeuringsstatussen van de vorige groep en die op het systeemniveau kunnen tot stand brengen.&lt;/p>
+       &lt;p>U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep bijwerkt.&lt;/p>
+       &lt;p>Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>groep-vlakke goedkeuringsprocessen&lt;/a>.&lt;/p>
+       &lt;p>Zie &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Groepsstatus maken of bewerken voor&lt;/a> informatie over het maken van een aangepaste status op groepsniveau&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
+   </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Bedrijf</strong> </td> 
+         <td> <p>Geef een bedrijf op dat aan het project is gekoppeld. U moet een bedrijf tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve bedrijven kunnen met een project worden geassocieerd. Voor informatie over het creëren van bedrijven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Bedrijven maken en bewerken</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Projecteigenaar</strong> </td> 
+         <td> <p>Begin de naam van een gebruiker te typen om hen aan het project toe te voegen, dan het te selecteren wanneer het in de lijst toont. De gebruiker wordt toegevoegd aan het projectteam en krijgt automatisch beheermachtigingen voor het project. De gebruiker die als de eigenaar van het Project wordt aangewezen moet een actieve gebruiker van Workfront zijn.</p>
+         </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Projectsponsor</strong> </td> 
+         <td> <p>Begin de naam van een gebruiker te typen om hen aan het project toe te voegen, dan het te selecteren wanneer het in de lijst toont. De gebruiker wordt toegevoegd aan het projectteam en krijgt automatisch de toestemmingen van de Mening aan het project. De gebruiker die is aangewezen als projectsponsor moet een actieve Workfront-gebruiker zijn.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Resource Manager</strong> </td> 
+         <td> <p> Begin de namen van gebruikers te typen om hen aan het project toe te voegen, dan hen te selecteren wanneer zij in de lijst tonen. De gebruikers worden toegevoegd aan het projectteam en krijgen automatisch beheermachtigingen voor het project en kunnen bronnen toewijzen aan de taken en problemen van het project. De gebruikers handhaven leiden toestemmingen op het project zelfs wanneer zij uit het gebied van de Manager van het Middel worden verwijderd. U kunt meerdere Resource Manager opgeven.<br></p> </td> 
+      </tr>
+
+   <tr> 
+         <td role="rowheader"><strong>Geconverteerde initiator van uitgave</strong> </td> 
+         <td> <p> Standaard wordt in dit veld automatisch de naam ingevuld van de gebruiker die de uitgave heeft gemaakt waarvan het project is omgezet. U kunt deze naam bijwerken met de naam van een andere gebruiker in Workfront. <br></p> </td> 
+      </tr>
+
+   </tbody> 
+      </table>
 
    >[!TIP]
    >
@@ -307,7 +294,7 @@ Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatu
    >
    >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
+1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen
 
    of
 
@@ -333,8 +320,7 @@ Raadpleeg de volgende artikelen voor informatie over aangepaste toegang tot form
 * [Een aangepast formulier delen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [Een sectie-einde toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
-Informatie bewerken op aangepaste formulieren:
-
+Informatie over aangepaste formulieren bewerken tijdens het bewerken van een project:
 
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
@@ -388,7 +374,7 @@ Velden bewerken in het gebied Financiën:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Begroting</strong> </td> 
-      <td> <p>Geef een budget voor het project op.<br></p> </td> 
+      <td> Geef een budget voor het project op. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Prestatiesindexmethode</strong> </td> 
@@ -512,7 +498,9 @@ Velden bewerken in het gebied Financiën:
        <td> <p> <p>Selecteer een van de volgende opties:</p> 
        <ul> 
        <li> <p>Selecteren <strong>Nee</strong> om alle project-specifieke uurtypes op het project ter beschikking te stellen. (Dit is de standaardselectie)</p> <p>of</p> </li> 
-       <li>Selecteren <strong>Ja</strong> om slechts een ondergroep van de project-specifieke uurtypes beschikbaar te maken op het project, dan selecteer de uurtypes u beschikbaar wilt maken. (Houd Shift ingedrukt als u meerdere uurtypen wilt selecteren.)</li> 
+       <li>Selecteren <strong>Ja</strong> om slechts een ondergroep van de project-specifieke uurtypes beschikbaar te maken op het project, dan selecteer de uurtypes u van beschikbaar wilt maken van het <b>Uurtypen</b> veld.</li> 
+       <p><b>TIP</b></p>
+       <p>De <b>Uurtypen</b> veld kan niet worden bewerkt wanneer u <b>Nee</b>.</p> 
        <p>Als u deze optie selecteert, worden alleen de uurstypen die u selecteert, beschikbaar gemaakt om te selecteren wanneer u zich aanmeldt in uren voor het project (of voor taken en problemen binnen het project). U moet minstens één uurtype selecteren; als u deze optie selecteert en u geen uurtypes selecteert, worden alle uurtypes ter beschikking gesteld op het project.</p> </ul>
 
    <p>De selectie van het type van zelfde uur moet op het individuele gebruikersniveau worden gemaakt opdat de gebruiker deze uurtypeopties op het project ziet. Voor meer informatie over het bepalen van uurtypes op het gebruikersniveau, zie <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Logtijd</a>. </p> </p> </td> 
@@ -558,7 +546,7 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
 
 1. In de **Standaardgoedkeuringsproces taak** selecteert u het proces voor taakgoedkeuring dat u aan alle nieuwe taken wilt koppelen wanneer u deze aan het project toevoegt.
 
-   Uw beheerder van Workfront (of een gebruiker met administratieve toegang tot de processen van de Goedkeuring) moet een systeem-vlakke goedkeuringsproces voor een taak tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor informatie over het maken van goedkeuringsprocessen raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Voor informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   Uw beheerder van Workfront (of een gebruiker met administratieve toegang tot de processen van de Goedkeuring) moet een systeem-niveau of groep-vlakke goedkeuringsproces voor een taak tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor informatie over het maken van goedkeuringsprocessen raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Voor informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    Bij projecten voor het bewerken van grote hoeveelheden bestaan de volgende scenario&#39;s:
 
@@ -654,11 +642,11 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
       <td><p>Selecteren uit <strong>Weergave</strong>, <strong>Contribute</strong>, of <strong>Beheren</strong> toegang tot het verzoek. Wanneer het project ook een verzoekrij is en een gebruiker een verzoek aan het project voorlegt, worden zij deze toegang tot het verzoek verleend zij voorlegden. Voor informatie over vestiging een project als verzoekrij, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Een aanvraagwachtrij maken</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Personen van hetzelfde bedrijf nemen dezelfde machtigingen over voor alle aanvragen</strong></td> 
+      <td role="rowheader"><strong>De mensen van het zelfde bedrijf zullen de zelfde toestemmingen voor alle verzoeken erven.</strong></td> 
       <td><p>Selecteer dit gebied als u mensen van het zelfde bedrijf de zelfde toegang tot alle verzoeken op het project wilt hebben, of zij hen of niet voorlegden.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Wanneer iemand toegang krijgt tot dit project: geef hem toegang tot ...</strong></td> 
+      <td role="rowheader"><strong>Wanneer iemand toegang krijgt tot dit project: geef de standaardtoegang aan voor ...</strong></td> 
       <td><p>Selecteer de toegangsopties die gebruikers in het project moeten hebben, als het project met hen wordt gedeeld. Selecteer de specifieke opties voor hun toegang als ze zijn aangewezen als <strong>Viewers</strong>, <strong>Medewerkers</strong>, of <strong>Managers</strong> wanneer het project met hen wordt gedeeld. </p><p>De <strong>Verwijderen</strong> toegang tot <strong>Beheren</strong> Het toestemmingsniveau bepaalt of de gebruikers het project zelf kunnen schrappen. Gebruikers met <strong>Beheren</strong> de toegang tot het project kan taken en kwesties binnen het project schrappen ongeacht of deze optie wordt geselecteerd, als zij <strong>Beheren</strong> machtigingen voor de taken en uitgaven. </p></td> 
      </tr> 
     </tbody> 
@@ -677,6 +665,7 @@ Uw systeem of groepsbeheerder kan de gebieden aanpassen u in de projectkopbal zi
 De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 
 * Projectnaam
+* Percentage voltooid
 * Projecteigenaar
 * Geplande voltooiing Datum en tijd
 
@@ -731,8 +720,8 @@ Houd rekening met het volgende wanneer u projecten bulksgewijs bewerkt:
 
 Projecten in bulk bewerken:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
-1. Klikken **Projecten**.
+{{step1-to-projects}}
+
 1. Selecteer meerdere projecten in de lijst.
 1. Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
 De **Projecten bewerken** wordt geopend.
