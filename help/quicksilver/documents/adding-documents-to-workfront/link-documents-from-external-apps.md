@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -61,19 +61,21 @@ Documenten die zijn gekoppeld aan een externe cloud, kunt u op dezelfde manier c
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p> Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td>
+   <td> <p> Alle</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td>
+   <td><p>Nieuw: Medewerker of hoger</p>
+    <p>of</p>
+    <p>Huidig: Verzoek of hoger</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 

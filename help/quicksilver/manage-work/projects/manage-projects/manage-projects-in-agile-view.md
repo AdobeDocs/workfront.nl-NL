@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Een project beheren in de Google View
-description: Vereiste plannen, licentietypen en toegang tot Adobe Workfront Plan Team, Pro, Business, of Enterprise Workfront License Type Review, Work, of Plan Machtigingen in het toegangsmodel Toegang bewerken en de mogelijkheid om rapporten, dashboards en kalenders te maken
-author: Alina
+description: U kunt flexibele functionaliteit voor uw project gebruiken zonder de administratieve uitdagingen die agile praktijken typisch begeleiden (zoals het beheren van een teamachterstand of het creëren van herhalingen).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 
 Net als bij standaardweergaven in Workfront kunt u bestaande flexibele weergaven aanpassen of nieuwe, volledig nieuwe weergaven maken. In tegenstelling tot standaardweergaven kunt u geen nieuwe, flexibele weergaven maken op basis van bestaande, flexibele weergaven.
 
-Zie de sectie Een flexibele weergave maken of aanpassen in het artikel voor meer informatie over het maken en aanpassen van flexibele weergaven. [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Voor meer informatie over het maken en aanpassen van flexibele weergaven raadpleegt u de [Een eenvoudige weergave maken of aanpassen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in het artikel [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Een bestaande Google-weergave delen
 

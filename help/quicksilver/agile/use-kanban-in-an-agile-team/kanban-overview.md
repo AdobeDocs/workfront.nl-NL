@@ -7,16 +7,20 @@ description: Lees dit artikel om beter te begrijpen hoe het Kanban-bord werkt.
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Kanban-overzicht
 
+<!-- Audited: 01/2024 -->
+
 In de volgende secties kunt u beter begrijpen hoe de [!UICONTROL Kanban] boordfuncties.
+
+Voor een beschrijving van de K[!UICONTROL anban] methodologie, zie [Een bestandsteam maken](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 Als u geïnteresseerd bent in migreren vanuit een &#39;agile&#39;-team [!UICONTROL Kanban] aan boord [!DNL Workfront] [!UICONTROL Boards], zie [Gegraveerd team migreren [!UICONTROL Kanban] kaarten naar [!DNL Workfront] borden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
@@ -30,7 +34,7 @@ De [!UICONTROL Kanban] de raad van bestuur bestaat uit de volgende elementen :
 
 Zie voor meer informatie [De status van artikelen op het tabblad [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-De status van het artikel kan voor het project worden aangepast door de flexibele weergave te wijzigen, zoals wordt beschreven in de sectie [[!UICONTROL Create or customize an Agile view]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Overzicht van weergaven in [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+De status van het artikel kan voor het project worden aangepast door de flexibele weergave te wijzigen, zoals wordt beschreven in de sectie [[!UICONTROL Create or customize an Agile view]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Weergaven maken of bewerken in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >
@@ -56,7 +60,7 @@ U kunt de volgende acties uitvoeren wanneer u de Kanban-board gebruikt:
 * [Artikelgegevens bewerken](../../agile/use-kanban-in-an-agile-team/edit-story-information.md)
 * [Filteren op gebruiker op de knop [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
 * [De WIP-limiet (work in progress) beheren voor de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
-* [Artikelen opnieuw ordenen op het tabblad [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
+* [Artikelen opnieuw ordenen op de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
 * [De status van artikelen op het tabblad [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
 * [Markeringen gebruiken voor artikelen op de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
 * [De achterstand toevoegen aan de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
