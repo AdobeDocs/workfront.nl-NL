@@ -6,9 +6,9 @@ description: U kunt uw rapporten verbeteren door een grafiek toe te voegen. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor informatie over hoe te om een Mening tot stand te brengen, zie [Overzicht v
 Zie voor meer informatie over groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 Als uw rapport teveel punten toont, wordt een grafiek niet gecreeerd. In dit geval, moet u ook een Filter aan het rapport toevoegen om het aantal resultaten in uw rapport te verminderen.\
-Zie voor meer informatie over filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Zie voor meer informatie over filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
 
@@ -42,11 +42,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,10 +69,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* Groepen in tekstmodus worden niet ondersteund in grafieken. Voor meer informatie over tekst-wijze groeperingen, zie [Tekstmodus in een groep bewerken](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Als u één groepering toevoegt die één metrisch vertegenwoordigt, tonen alle grafieken behalve een cirkeldiagram elk resultaat in de groepering als de zelfde kleur.
 
-
    Zie voor meer informatie over groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Selecteer **Diagram** tab.
+1. Selecteer de **Diagram** tab.
 1. Klik op een diagramtype om dit te selecteren.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
@@ -83,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Cirkeldiagram](#pie-chart)
    * [Lijndiagram](#line-chart)
    * [Grijsgrafiek](#gauge-chart)
-   * [Bubbelgrafiek](#bubble-chart)
+   * [Bubble-grafiek](#bubble-chart)
 
 1. Klikken **Opslaan + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -98,25 +97,24 @@ Als u een **Kolom** diagram naar uw rapport:
    Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 
 1. (Optioneel) Selecteer **Tonen in 3D** om het diagram weer te geven in een driedimensionale weergave.
-1. (Optioneel) **Kolommen groeperen**: Selecteer deze optie om te bepalen hoe u de kolommen wilt groeperen.\
+1. (Optioneel) **Kolommen groeperen**: Selecteer deze optie als u wilt definiëren hoe de kolommen moeten worden gegroepeerd.\
    Selecteer een van de volgende opties:
 
    * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde kolommen worden weergegeven:\
-      **- Naast elkaar**
-
-      **- Gestapeld**
-      **- Gestapeld naar 100%**
+     **- Naast elkaar**
+     **- Gestapeld**
+     **- Gestapeld naar 100%**
 
    * Selecteer de groepering die u in de grafiek wilt omvatten.
    * (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van de kolommen aan te passen.\
-      Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
+     Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 
 1. (Optioneel) Selecteer **Combinatietabel** om een extra waarde in de grafiek op te nemen, evenals hoe u de informatie wilt worden samengevat.\
    Overweeg de volgende opties:
 
    * **Plot op secundaire as**: Selecteer deze optie om de gegevens aan de rechterkant van het diagram te plotten.
-   * **Type diagram**: Selecteer of u deze extra waarde als lijn of derde kolom wilt tonen.\
-      ![](assets/qs-column-chart-350x163.png)
+   * **Type diagram**: Selecteer of u deze extra waarde wilt weergeven als een regel of als een derde kolom.\
+     ![](assets/qs-column-chart-350x163.png)
 
 1. Klikken **Opslaan + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -131,18 +129,17 @@ Als u een **Balk** diagram naar uw rapport:
    Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 
 1. (Optioneel) Selecteer **Tonen in 3D** om het diagram weer te geven in een driedimensionale weergave.
-1. (Optioneel) Groepenbalken**: Selecteer deze optie als u wilt definiëren hoe de balken moeten worden gegroepeerd.\
+1. (Optioneel) Groepenbalken**: selecteer deze optie om te bepalen hoe de balken moeten worden gegroepeerd.\
    Selecteer een van de volgende opties:
 
    * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde balken worden weergegeven:\
-      **- Naast elkaar**
-
-      **- Gestapeld**
-      **- Gestapeld naar 100%**
+     **- Naast elkaar**
+     **- Gestapeld**
+     **- Gestapeld naar 100%**
 
    * Selecteer de groepering die u in de grafiek wilt omvatten.
    * (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van uw kolommen aan te passen.\
-      Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
+     Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 
 1. (Optioneel) Selecteer **Combinatietabel** om een extra waarde in de grafiek op te nemen, evenals hoe u de informatie wilt worden samengevat.\
    ![](assets/qs-bar-chart-350x167.png)
@@ -164,8 +161,8 @@ Als u een **Schijf** diagram naar uw rapport:
 1. In de **Resultaten weergeven als** in het veld selecteert u hoe de resultaten in het diagram moeten worden weergegeven. Overweeg de volgende opties:
 
    * **Percentage**: De grafiekresultaten worden weergegeven als een percentage.
-   * **Getallen**: De grafiekresultaten worden weergegeven als een getal.\
-      ![](assets/qs-pie-chart-350x171.png)
+   * **Getallen**: De grafiekresultaten worden als een getal weergegeven.\
+     ![](assets/qs-pie-chart-350x171.png)
 
 1. Klikken **Opslaan + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -185,8 +182,8 @@ Als u een **Lijn** diagram naar uw rapport:
    Houd rekening met de volgende opties:
 
    * Selecteer de waarde die u in het diagram wilt opnemen en hoe u de informatie wilt samenvatten.
-   * Selecteer **Plot op secundaire as** veld voor het plotten van de gegevens aan de rechterkant van het diagram.\
-      ![](assets/qs-line-chart-350x172.png)
+   * Selecteer de **Plot op secundaire as** veld voor het plotten van de gegevens aan de rechterkant van het diagram.\
+     ![](assets/qs-line-chart-350x172.png)
 
 1. Klikken **Opslaan + Sluiten** om de grafiek en het rapport te bewaren.
 
@@ -202,7 +199,7 @@ Als u een **Gage** diagram naar uw rapport:
 1. In de **Indicatoren** selecteert u in het veld Groeperen dat u in het diagram wilt opnemen. De groepering wordt vertegenwoordigd door de indicatorlijn op de grafiek.\
    Als u een Groepering hebt die twee punten bevat, worden twee indicatoren getoond op de grafiek.\
    Bijvoorbeeld, als u een Groepering van de Status van het Project hebt, en er twee projectstatussen (Huidige en Op Greep) zijn, bevat uw Grafiek twee meters. Zij zullen wijzen op het aantal projecten dat in die status verkeert.\
-   (Optioneel) Selecteer **Totaal** in de **Indicatoren** veld voor het weergeven van het totaal van de objecten die zijn geselecteerd in het dialoogvenster **Waarden** veld.
+   (Optioneel) Selecteer **Totaal** in de **Indicatoren** veld voor het weergeven van het totaal van de objecten die in het dialoogvenster **Waarden** veld.
 
 1. In de **Waardebereik** geeft u het waardebereik en de kleur op die de waarden vertegenwoordigen die in het Gage-overzicht moeten worden weergegeven.
 1. (Optioneel) Klik op **Nog een waardebereik toevoegen** om extra waardewaaiers aan de grafiek toe te voegen.\
@@ -210,9 +207,9 @@ Als u een **Gage** diagram naar uw rapport:
 
 1. Klikken **Opslaan + Sluiten** om de grafiek en het rapport te bewaren.
 
-### Bubbelgrafiek {#bubble-chart}
+### Bubble-grafiek {#bubble-chart}
 
-U kunt maximaal drie velden van één object weergeven in een **Bubble** grafiek. Dit betekent u tot vier gegevenspunten in een bel grafiek kunt tonen. Elke entiteit met drie bijbehorende velden wordt weergegeven als een cirkel die twee van de velden binnen haar locatie binnen de X- en Y-as uitdrukt. Het derde veld wordt weergegeven door de grootte van de cirkel.
+U kunt maximaal drie velden van één object weergeven in een **Bubble** grafiek. Dit betekent u tot vier gegevenspunten in een borstelgrafiek kunt tonen. Elke entiteit met drie bijbehorende velden wordt weergegeven als een cirkel die twee van de velden binnen haar locatie binnen de X- en Y-as uitdrukt. Het derde veld wordt weergegeven door de grootte van de cirkel.
 
 Als u een **Bubble** diagram naar uw rapport:
 
@@ -222,14 +219,14 @@ Als u een **Bubble** diagram naar uw rapport:
 
    >[!NOTE]
    >
-   >Zorg ervoor dat u ten minste één kolom hebt die is samengevat zodat dit veld actief is.\
+   >Zorg ervoor dat u ten minste één kolom hebt die is samengevat om dit veld actief te maken.\
    >Voor meer informatie over het samenvatten van de informatie in een rapportkolom, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. In de **Bubbelgrootte** selecteert u de waarden die u wilt vertegenwoordigen door de grootte van de bellen in het diagram. De waarden komen uit het standpunt van het verslag. Geef op hoe de gegevens moeten worden samengevat.
 
    >[!NOTE]
    >
-   >Zorg ervoor dat u ten minste één kolom hebt die is samengevat zodat dit veld actief is.\
+   >Zorg ervoor dat u ten minste één kolom hebt die is samengevat om dit veld actief te maken.\
    >Voor meer informatie over het samenvatten van de informatie in een rapportkolom, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. In de **Luchtbellen** selecteert u in het veld Groeperen dat u in het diagram wilt opnemen. De groepering wordt vertegenwoordigd door de plaatsing van de bellen op de grafiek.
@@ -280,7 +277,7 @@ U kunt slechts één kleur kiezen voor velden die worden weergegeven in de weerg
 
 Grafiekkleuren aanpassen:
 
-1. Tijdens het maken van een rapport gaat u naar **Diagram** in de rapportbuilder.
+1. Tijdens het maken van een rapport gaat u naar de **Diagram** in de rapportbuilder.
 1. Selecteer een grafiektype om aan uw rapport toe te voegen.\
    Voor meer informatie over het toevoegen van een grafiek aan uw rapport, zie [Een diagram toevoegen aan een rapport](#add-a-chart-to-a-report).
 
@@ -292,7 +289,7 @@ Grafiekkleuren aanpassen:
    >
    >U kunt aangepaste kleuren koppelen aan elk veld dat u kunt groeperen en aan bepaalde velden die in een weergave kunnen worden weergegeven, inclusief aangepaste velden. De aangepaste velden of aangepaste opties voor de velden die u kiest in het dialoogvenster Aangepaste kleur, zijn hoofdlettergevoelig.
 
-1. U kunt de volgende opties selecteren:
+1. U kunt een van de volgende opties selecteren:
 
    * **Eén kleur gebruiken**: Alle elementen van het diagram worden in de geselecteerde kleur weergegeven.
 
@@ -300,17 +297,17 @@ Grafiekkleuren aanpassen:
       1. (Optioneel) Geef een hexadecimale kleurwaarde op voor de kleur in plaats van een kleur te selecteren uit de beschikbare kleurvoorbeelden\
          of\
          Klik op de kleurkiezer die wordt weergegeven nadat u op de hexadecimale code hebt geklikt en selecteer een andere kleur.
-   * **Kleur toevoegen**: Ga verder met het toevoegen van aangepaste kleuren voor alle andere mogelijke opties van het geselecteerde veld.
+
+   * **Kleur toevoegen**: Ga door met het toevoegen van aangepaste kleuren voor alle andere mogelijke opties van het geselecteerde veld.
    * **Alles verwijderen**: Selecteer deze optie als u alle kleuren en opties van het hierboven geselecteerde veld wilt verwijderen.
    * **Geavanceerde opties**: Kies een van de volgende opties:
 
       * **Geen waarde**: Selecteer dit veld en een aangepaste kleur om de kolom van het diagram weer te geven waarin items met de naam &quot;geen waarde&quot; worden gegroepeerd. Dit zijn items die niet kunnen worden gegroepeerd met een van de opties van het veld dat in de groep is geselecteerd.
       * **Alle andere waarden**: Selecteer dit veld en een aangepaste kleur om alle andere diagramelementen weer te geven waarvan de opties hierboven niet zijn geselecteerd.
 
-         >[!NOTE]
-         >
-         >De kleuren die u het laatst hebt gebruikt, worden boven in het dialoogvenster Aangepaste kleuren weergegeven. Wanneer u de muis over een kleur beweegt die onlangs is gebruikt, wordt de naam van het gebied verbonden aan het getoond.
-
+        >[!NOTE]
+        >
+        >De kleuren die u het laatst hebt gebruikt, worden boven in het dialoogvenster Aangepaste kleuren weergegeven. Wanneer u de muis over een kleur beweegt die onlangs is gebruikt, wordt de naam van het gebied verbonden aan het getoond.
 
 1. Klik op de X rechtsboven in het dialoogvenster Aangepaste kleuren om het dialoogvenster Aangepaste kleuren te sluiten. De kleuren die u hebt geselecteerd, worden automatisch opgeslagen.
 1. Klikken **Opslaan + Sluiten** om de grafiek te bewaren en het rapport in werking te stellen.

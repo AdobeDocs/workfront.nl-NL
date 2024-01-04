@@ -6,9 +6,9 @@ description: Navigeren binnen een portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >
      >Als u alleen specifieke projecten wilt zien, kunt u overwegen een projectfilter te maken in het dialoogvenster **[!UICONTROL Filter]** vervolgkeuzemenu boven aan de lijst met projecten om het aantal weergegeven projecten te verminderen.
 
-     Zie voor meer informatie over het maken van filters [Overzicht van filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Zie voor meer informatie over het maken van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Klikken **[!UICONTROL Programs]** in het linkerdeelvenster om programma&#39;s in het portfolio te maken of bestaande programma&#39;s te beheren.\

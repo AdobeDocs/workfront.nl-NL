@@ -6,9 +6,9 @@ description: U kunt toegang tot de informatie geven die uw organisatie nodig hee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Als u klikt **Filterregel toevoegen** typt u het veld dat u als filter wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan dat filter toe te voegen.\
    Gebruik filtermodifiers om het filter te maken. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   Zie voor meer informatie over het maken van nieuwe filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor meer informatie over het maken van nieuwe filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) U kunt desgewenst een filter maken in de tekstmodus door op **Overschakelen naar tekstmodus**.
 

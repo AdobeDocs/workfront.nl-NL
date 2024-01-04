@@ -6,9 +6,9 @@ description: Overzicht van levering rapporteren
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -43,35 +43,36 @@ Er zijn verscheidene groottegrenzen die beïnvloeden hoe de rapporten in Workfro
 
 * **Bestandsgrootte van 5 MB:** Maximale bestandsgrootte voor elk geëxporteerd rapport dat is gepland voor levering. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport. 
 
-   >[!NOTE]
-   >
-   >Excel .xlsx-bestanden die groter zijn dan 5MB, genereren geen e-mail. U kunt het rapport handmatig naar deze indeling exporteren. Voor informatie over het exporteren van rapporten raadpleegt u [Gegevens exporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >[!NOTE]
+  >
+  >Excel .xlsx-bestanden die groter zijn dan 5MB, genereren geen e-mail. U kunt het rapport handmatig naar deze indeling exporteren. Voor informatie over het exporteren van rapporten raadpleegt u [Gegevens exporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50.000 rijen:** Het aantal rijen gegevens dat is toegestaan in een rapport dat wordt geëxporteerd voor bestanden met de indeling .pdf en Tab gescheiden.
 
-   Voor Excel .xls- dossiers, is deze grens **65.000 rijen**.
+  Voor Excel .xls- dossiers, is deze grens **65.000 rijen**.
 
-   Voor Excel .xlsx-bestanden is deze limiet **100.000 rijen**.
+  Voor Excel .xlsx-bestanden is deze limiet **100.000 rijen**.
 
-   Deze grenzen sluiten de kolomrubrieken, evenals rijen voor groepen in het rapport uit. Als een rapport bijvoorbeeld 6 groepen bevat en 50.000 rijen of gegevens, heeft het geëxporteerde bestand 50.000 rijen.
+  Deze grenzen sluiten de kolomrubrieken, evenals rijen voor groepen in het rapport uit. Bijvoorbeeld, als u 6 groeperingen in een rapport hebt, en 50.000 rijen van gegevens, zal het uitgevoerde dossier 50.000 rijen hebben.
 
-   Als uw rapport meer punten dan deze grenzen heeft, ontvangt u een fout dat de uitvoer en de levering van het rapport niet succesvol zijn. Verlaag het aantal items dat u op het scherm ziet tot een getal dat kleiner is dan of gelijk is aan deze limiet om de resultaten te kunnen leveren. Als u alle gegevens wilt exporteren, is het raadzaam filters te gebruiken om kleinere hoeveelheden gegevens te verkrijgen en vervolgens meerdere exportbewerkingen uit te voeren. Zie voor meer informatie [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Als uw rapport meer punten dan deze grenzen heeft, ontvangt u een fout dat de uitvoer en de levering van het rapport niet succesvol zijn. Verlaag het aantal items dat u op het scherm ziet tot een getal dat kleiner is dan of gelijk is aan deze limiet om de resultaten te kunnen leveren. Als u alle gegevens wilt exporteren, is het raadzaam filters te gebruiken om kleinere hoeveelheden gegevens te verkrijgen en vervolgens meerdere exportbewerkingen uit te voeren. Zie voor meer informatie [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-   Deze grenswaarden gelden voor:
+  Deze grenswaarden gelden voor:
 
    * Een handmatige export van een rapport.
    * Een gepland rapport.
-   * Een export via een API-integratie. 
+   * Een export via een API-integratie.
    * Gegevens geëxporteerd via een trap-start.
 
-      Raadpleeg het artikel voor meer informatie over het exporteren van gegevens via het starten [Gegevens exporteren uit Adobe Workfront via Kick-start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Raadpleeg het artikel voor meer informatie over het exporteren van gegevens via het starten [Gegevens exporteren uit Adobe Workfront via Kick-start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-      >[!NOTE]
-      U kunt 50.000 rijen exporteren in een startbestand, maar alleen naar een Excel-bestand. 
+     >[!NOTE]
+     >
+     U kunt 50.000 rijen exporteren in een startbestand, maar alleen naar een Excel-bestand. 
 
    * Gebruiksinformatie voor een project exporteren.
 
-      Voor meer informatie over het uitvoeren van gebruiksinformatie voor een project, zie [Overzicht van het verslag over het gebruik van hulpbronnen](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Voor meer informatie over het uitvoeren van gebruiksinformatie voor een project, zie [Overzicht van het verslag over het gebruik van hulpbronnen](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65.530 hyperlinks:** Dit is een door Excel opgelegde limiet voor documenten die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend wanneer ze handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen. 
 * **256 kolommen**: Dit is een door Excel opgelegde limiet voor documenten die meer dan 256 kolommen bevatten. Deze documenten kunnen niet handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen. 
@@ -88,13 +89,13 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
 -->
 
-Wanneer u een rapport in een e-mail ontvangt, komen het tijdstempel en de tijdnotatie in het rapport mogelijk niet overeen met die in Workfront als u het rapport in Workfront tegelijk met de levering wilt bekijken. 
+Wanneer u een rapport in een e-mail ontvangt, komen het tijdstempel en de tijdnotatie in het rapport mogelijk niet overeen met die in Workfront als u het rapport tegelijkertijd in Workfront moest bekijken. 
 
 Overweeg het volgende: 
 
 * Wanneer u een rapport weergeeft in de browser, komen het tijdstempel en de notatie in het rapport overeen met de landinstelling en de tijdzone van de browser, zoals gedefinieerd in de instellingen van de browser.
 * Wanneer het rapport in een e-mail wordt geleverd, wordt het rapport geleverd met de tijdstempel en notatie die overeenkomen met de landinstelling en tijdzone van de gebruiker zoals deze zijn opgegeven in uw Workfront-profiel.\
-   Raadpleeg het artikel voor meer informatie over de landinstelling en tijdzone van de gebruiker in Workfront [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Raadpleeg het artikel voor meer informatie over de landinstelling en tijdzone van de gebruiker in Workfront [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Rapporten met een speciale weergave {#reports-with-a-special-view}
 
@@ -109,6 +110,7 @@ De volgende opmerkingen worden beschouwd als speciale weergaven:
 * Rapporten met een Grafiek als standaardlusje
 
 >[!NOTE]
+>
 Als er ook een lusje van de Matrijs op het rapport naast het standaardlusje met een speciale mening is, wordt het rapport geleverd aangezien het op het lusje van de Matrijs toont.
 
 Raadpleeg het artikel voor meer informatie over het toepassen van een speciale weergave op een rapport [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -136,6 +138,7 @@ Als u het geleverde rapport opmaakt als een PDF- of HTML-bestand, krijgt het rap
 Rapporten die gepland zijn voor levering in Excel, Excel (.xlsx), of formaat TSV hebben geen titel.
 
 >[!NOTE]
+>
 Als het rapport een beschrijving heeft, wordt het opgenomen in het geëxporteerde bestand als het bestand is opgemaakt als een PDF- of HTML-bestand.
 
 ### Tijdstempels {#timestamps}
@@ -178,14 +181,14 @@ De naam van het rapport in het e-mailbericht is ook een koppeling.
 U kunt zien of een rapport is gevormd om te worden geleverd door het volgende te creëren:
 
 * **Een weergave** voor het object Report in een lijst of een rapport voor rapporten: Maak een weergave in een lijst met rapporten of in een rapport voor rapporten en voeg de volgende kolom toe aan de weergave:\
-   *Geplande rapportnaam.\
-   *The de namen van alle leveringen die voor dat rapport worden gepland zijn vermeld in de kolom in een bulleted lijst.\
-   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+  *Geplande rapportnaam.\
+  *The de namen van alle leveringen die voor dat rapport worden gepland zijn vermeld in de kolom in een bulleted lijst.\
+  ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
 * **Een filter** voor het object Report: maak een filter op een lijst met rapporten of in een rapport over rapporten met de volgende instructie: *Gepland rapport-id is niet leeg*.\
-   Hiermee worden alleen rapporten weergegeven die in uw lijst of rapport zijn gepland.\
-   ![](assets/qs-scheduled-report-filter-350x101.png)\
-   Voor meer informatie over het maken van rapporten raadpleegt u [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Voor informatie over het maken van een rapport over rapporten raadpleegt u [Een rapport opstellen over rapportageactiviteiten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Hiermee worden alleen rapporten weergegeven die in uw lijst of rapport zijn gepland.\
+  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  Zie voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Voor informatie over het maken van een rapport over rapporten raadpleegt u [Een rapport opstellen over rapportageactiviteiten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>

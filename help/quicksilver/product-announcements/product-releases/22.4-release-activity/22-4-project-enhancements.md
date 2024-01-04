@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Wanneer u nu een gebruiker aan een van deze velden toevoegt in de gebieden Bewer
 
 Zie voor meer informatie [Projecten bewerken](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-OPMERKING: Extra gebruikersgebieden voor projecten, taken, en kwesties zullen met deze functionaliteit in toekomstige versies worden bijgewerkt.
+NOTA: De extra gebruikersgebieden voor projecten, taken, en kwesties zullen met deze functionaliteit in toekomstige versies worden bijgewerkt.
 
 [Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
@@ -66,17 +66,17 @@ Eerder veroorzaakten de tijdmontages in berekeningen verwarring wanneer zij in d
 
 Zie voor meer informatie [Werken in tijdzones](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
-## Verbeteringen voor aangepaste formulieren: Adobe XD en het snelle filter
+## Aangepaste formulierverbeteringen: Adobe XD en het snelfilter
 
 Op basis van uw feedback hebben we de volgende verbeteringen geïntroduceerd om uw ervaring bij het beheren van aangepaste formulieren te verbeteren:
 
 * Voeg een Adobe XD-bestand toe om een aangepast formulier visueel en informatief te maken. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken het XD bestand vanuit het formulier bekijken en ermee werken.
 
-   Zie voor meer informatie [Een afbeelding of andere middelenwidget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Zie voor meer informatie [Een afbeelding of andere middelenwidget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Met het snelle filter kunt u gemakkelijk items zoeken in de gemoderniseerde lijst met aangepaste formulieren en velden. Geniet ook van een verbeterde look and feel tijdens het beheren van uw formulieren en velden.
 
-   Zie voor meer informatie over het snelle filter [Het snelle filter toepassen op een lijst](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Zie voor meer informatie over het snelle filter [Het snelle filter toepassen op een lijst](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 [Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
@@ -118,15 +118,15 @@ Met deze Openbare bètaversie krijgen gebruikers de gelegenheid om feedback rech
 
 * Ervaring voor nieuwe groepen en weergaven (ook wel Kolommen genoemd)
 
-   We gaan werken aan de nieuwe ervaring voor groepen en weergaven (ook wel kolommen genoemd). Deze ervaring is dus consistent met de nieuwe filterervaring en bevat enkele van de geweldige functies die de nieuwe filters bieden.
+  We gaan werken aan de nieuwe ervaring voor groepen en weergaven (ook wel kolommen genoemd). Deze ervaring is dus consistent met de nieuwe filterervaring en bevat enkele van de geweldige functies die de nieuwe filters bieden.
 
 * Nieuwe filters implementeren in andere gebieden van Adobe Workfront
 
-   We zullen samenwerken met teams over het hele product om de nieuwe filterervaring op andere gebieden in Workfront te implementeren.
+  We zullen samenwerken met teams over het hele product om de nieuwe filterervaring op andere gebieden in Workfront te implementeren.
 
 
 We willen u hierbij een meerwaarde bieden, zodat we ook in de toekomst resultaten zullen boeken als de nieuwe ervaringen en andere gebieden klaar zijn. Blijf op de hoogte voor spannender updates.
 
-Zie voor meer informatie [Overzicht van filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [Filters maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Zie voor meer informatie [Overzicht van filters](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [Filters maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 [Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3412391/)

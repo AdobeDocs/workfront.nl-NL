@@ -5,9 +5,9 @@ description: De de vertoningsinformatie van de Grafiek van Gantt van de taaklijs
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Om taken in een project van een lijst van projecten te bekijken:
 
    Een lijst met projecten wordt weergegeven.
 
-1. Klik op de knop **[!UICONTROL Gantt chart]** pictogram ![](assets/gantt-icon-nwe.png) in de rechterbovenhoek van het scherm.
+1. Klik op de knop **[!UICONTROL Gantt chart]** pictogram ![](assets/gantt-icon-nwe.png) rechtsboven in het scherm.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -117,15 +117,15 @@ U kunt de tijdsperiode aanpassen die wordt weergegeven op het tabblad [!UICONTRO
 
 1. Selecteer een tijdkader uit de volgende beschikbare opties:
 
-   * **[!UICONTROL Fit All]**: Met deze optie geeft u de tijdlijn van het gehele project weer.
-   * **[!UICONTROL All Projects]**: Deze optie is beschikbaar slechts in de grafiek van Gantt van de Lijst van het Project.
+   * **[!UICONTROL Fit All]**: Met deze optie wordt de tijdlijn van het gehele project weergegeven.
+   * **[!UICONTROL All Projects]**: Deze optie is alleen beschikbaar in het Gantt-diagram van de Projectlijst.
    * **[!UICONTROL Year]**
    * **[!UICONTROL Quarter]**
    * **[!UICONTROL Month]**
    * **[!UICONTROL Week]**
    * **[!UICONTROL Day]**
 
-1. (Optioneel) Selecteer een gedetailleerder tijdkader, zoals [!UICONTROL Week] of [!UICONTROL Day]en klik en sleep de horizontale schuifbalk onder aan het dialoogvenster  [!UICONTROL Gantt Chart] naar rechts verplaatsen op de tijdlijn van het project.\
+1. (Optioneel) Selecteer een gedetailleerder tijdkader, zoals [!UICONTROL Week] of [!UICONTROL Day]en klik en sleep de horizontale schuifbalk onder aan het dialoogvenster  [!UICONTROL Gantt Chart] om op de tijdlijn van het project van links naar rechts te gaan.\
    Een tijdlijnmomentopname van het dialoogvenster [!UICONTROL Gantt] vertoningen om het volledige project te tonen.
 
    >[!TIP]
@@ -150,13 +150,13 @@ Filters en groeperingen die u op de lijst toepast worden weerspiegeld op zowel d
 
 * Filters\
    U kunt een filter op de lijst toepassen om de informatie te controleren die in [!UICONTROL Gantt Chart].\
-   Voor informatie over het toepassen van een filter raadpleegt u  [Overzicht van filters in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor informatie over het toepassen van een filter  [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Groepen\
    Groepen die u op de lijst toepast, worden weerspiegeld in de [!UICONTROL Gantt Chart].\
    Voor informatie over het toepassen van een Groepering, zie  [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Weergaven worden niet weerspiegeld in het dialoogvenster [!UICONTROL Gantt Chart]. Wanneer u echter de [!UICONTROL Gantt Chart] (zoals beschreven in  [Exporteer de [!UICONTROL Gantt Chart] naar PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)), wordt de takenlijst naast de [!UICONTROL Gantt chart], waarbij de huidige weergave wordt toegepast op de lijst.
+Weergaven worden niet weerspiegeld in het dialoogvenster [!UICONTROL Gantt Chart]. Wanneer u echter de [!UICONTROL Gantt Chart] (zoals beschreven in  [Exporteer de [!UICONTROL Gantt Chart] naar PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)), wordt de takenlijst geëxporteerd naast de opdracht [!UICONTROL Gantt chart], waarbij de huidige weergave wordt toegepast op de lijst.
 
 ## Weergaveopties configureren
 

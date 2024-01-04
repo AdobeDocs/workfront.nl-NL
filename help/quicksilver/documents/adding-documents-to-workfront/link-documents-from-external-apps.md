@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Documenten van externe toepassingen koppelen
-description: U kunt documenten en mappen koppelen aan Adobe Workfront.
+description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # Documenten van externe toepassingen koppelen
+
+<!-- Audited: 01/2024 -->
 
 U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfront:
 
@@ -36,7 +38,7 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>U kunt proefdrukken die oorspronkelijk zijn gemaakt met de Workfront-proefdrukken, beschikbaar maken in Workfront. Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</td> 
+   <td>U kunt proefdrukken die oorspronkelijk zijn gemaakt met de Workfront-proefdrukken, beschikbaar maken in Workfront. Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Andere documentproviders (via aangepaste documentintegratie)</td> 
-   <td> <p class="workfront_plans">Voor het gebruik van deze functie is een Pro Workfront-abonnement of hoger vereist. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</p> </td> 
+   <td> <p class="workfront_plans">Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -94,12 +96,6 @@ De volgende uitzonderingen zijn van toepassing:
 ## Een document van een externe toepassing koppelen aan Workfront
 
 U kunt bestaande documenten koppelen aan een externe cloud provider. Dit geldt ook voor gedeelde documenten.
-
-* [Vereisten](#prerequisites)
-* [Een extern document koppelen aan Workfront](#link-an-external-document-to-workfront)
-* [Een nieuwe versie van een gekoppeld document toevoegen](#add-a-new-version-of-a-linked-document)
-* [Workfront Proefdocumenten koppelen](#link-workfront-proof-documents)
-* [Een Google-document maken vanuit Workfront](#create-a-google-document-from-within-workfront)
 
 ### Vereisten {#prerequisites}
 
@@ -190,7 +186,7 @@ U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een documen
    >
    >Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
 
-Voor informatie over het toevoegen van een nieuwe versie van een document dat u vanuit uw bestandssysteem naar Workfront hebt geüpload, raadpleegt u [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Voor informatie over het toevoegen van een nieuwe versie van een document dat u vanuit uw bestandssysteem naar Workfront hebt geüpload, raadpleegt u [Documenten toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Workfront Proefdocumenten koppelen {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ U kunt alleen proefdrukken koppelen waarvoor u toegang tot Weergave hebt in Work
    >
    >De opties in dit menu kunnen variëren afhankelijk van welke externe providers in uw omgeving zijn geconfigureerd.
 
-1. In de **Koppeling** proefdrukken **van** Het vak Workfront-proef dat wordt weergegeven, typt u de naam van de proefdruk die u in Workfront beschikbaar wilt maken.
+1. In de **Proefdrukken van Workfront koppelen** Voer in het vak dat wordt weergegeven de naam in van de proefdruk die u in Workfront wilt aanbieden.
 
    De lijst wordt gefilterd terwijl u typt.
 
@@ -223,9 +219,7 @@ U kunt een nieuw Google-document maken vanuit Workfront. U kunt geen nieuwe docu
 
 1. Ga naar de **Documenten** in Workfront waar u het document wilt plaatsen.
 1. Klikken **Nieuwe toevoegen** > **Google-bestand** Selecteer vervolgens het type Google-document dat u wilt maken.
-
-1. Selecteer het type Google-document dat u wilt maken.
-1. Als de **Google Drive-account toevoegen** wordt weergegeven, klikt u op **Googe-station autoriseren**.
+1. Als de **Google Drive-account toevoegen** wordt weergegeven, klikt u op **Google Drive autoriseren**.
 
    Een Google-document wordt toegevoegd aan de **Documenten** tab.
 
@@ -233,7 +227,7 @@ U kunt een nieuw Google-document maken vanuit Workfront. U kunt geen nieuwe docu
    >
    > Mijn Drive en Gedeeld met mij geven twee verschillende resultaten. Als u geen bestand kunt vinden in Mijn station, checkt u de map Gedeeld met mij in.
 
-## Een document van Workfront bijwerken en koppelen aan een externe cloud provider
+## Een document uploaden en koppelen van Workfront naar een externe cloud provider
 
 U kunt een document van Workfront uploaden en koppelen aan een externe cloud provider. Hiermee wordt de opslag van het document verplaatst van Workfront naar de externe cloudprovider. Wanneer het document wordt gewijzigd in de externe toepassing, wordt het automatisch bijgewerkt in Workfront.
 
@@ -256,11 +250,7 @@ Gebruikers zonder Workfront-toegang kunnen het document in de externe toepassing
 
 ## Mappen koppelen
 
-Wanneer u een map koppelt tussen Workfront en een externe cloud provider, worden de map en alle inhoud ervan gekoppeld. Als gebruikers zonder Workfront-toegang bestanden toevoegen, verwijderen en wijzigen uit de externe documenttoepassing, worden de wijzigingen gesynchroniseerd met Workfront. In de volgende secties wordt beschreven hoe u mappen en submappen kunt koppelen:
-
-* [Rechten voor maptoegang](#folder-access-rights)
-* [Een of meer externe mappen koppelen](#link-one-or-more-external-folders)
-* [Submappen toevoegen aan een gekoppelde map](#add-subfolders-to-a-linked-folder)
+Wanneer u een map koppelt tussen Workfront en een externe cloud provider, worden de map en alle inhoud ervan gekoppeld. Als gebruikers zonder Workfront-toegang bestanden toevoegen, verwijderen en wijzigen uit de externe documenttoepassing, worden de wijzigingen gesynchroniseerd met Workfront.
 
 ### Rechten voor maptoegang {#folder-access-rights}
 
@@ -330,8 +320,6 @@ Als u via Workfront een document aan een gekoppelde map toevoegt, wordt dit auto
 
 1. Selecteer de gekoppelde map waarin u het document wilt plaatsen en klik op **Nieuw toevoegen > Document** Blader vervolgens naar het document en voeg het toe aan de map.
 
-
-
    of
 
    In de **Documenten** in het gewenste gebied voor het document sleept u het document naar een gekoppelde map.
@@ -340,10 +328,11 @@ Als u via Workfront een document aan een gekoppelde map toevoegt, wordt dit auto
 
 >[!NOTE]
 >
-> * De documentopties zijn niet beschikbaar wanneer het document wordt verplaatst. Nadat het document naar Experience Manager Assets is verplaatst, is het niet meer zichtbaar in de documentlijst in Workfront.
+> * De documentopties zijn niet beschikbaar wanneer het document wordt verplaatst.
 >
-> * Handelingen of bewerkingen die u tijdens het verplaatsen in het document aanbrengt, worden niet in het document in Experience Manager Assets weergegeven en gaan daarom verloren.
-
+> * Nadat een document naar Experience Manager Assets is verplaatst, is het niet meer zichtbaar in de documentlijst in Workfront.
+>
+> * Handelingen of bewerkingen die u tijdens het verplaatsen op een document aanbrengt, worden niet in het document in Experience Manager Assets weergegeven en gaan daarom verloren.
 
 ## Een gekoppeld document of een gekoppelde map verwijderen
 
@@ -362,4 +351,4 @@ Als u wilt dat de naam overeenkomt in Workfront en in de externe toepassing, moe
 
 >[!IMPORTANT]
 >
->Wijzig de naam van een document in Workfront dat is gekoppeld aan een Dropbox niet. Hierdoor is het bestand in Workfront niet toegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw, zoals beschreven in [Documenten van externe toepassingen koppelen](#synchronizing-changes-made-on-a-linked-document).
+>Wijzig de naam van een document in Workfront dat is gekoppeld aan een Dropbox niet. Hierdoor is het bestand in Workfront niet toegankelijk. Wijzig in plaats daarvan de naam van het bestand in Dropbox en synchroniseer het bestand opnieuw.

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '13841'
+source-wordcount: '13838'
 ht-degree: 0%
 
 ---
@@ -1512,7 +1512,7 @@ ht-degree: 0%
       * Rapportelementen {#report-elements}
          * [Overzicht van rapportelementen](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [Elementen rapporteren: filters, weergaven en groepen](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-         * [Overzicht van filters in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+         * [Overzicht van filters](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
          * [Filters maken of bewerken in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-filters.md)
          * [Filter- en voorwaardenmodificatoren](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
          * [Overzicht van weergaven in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/views-overview.md)

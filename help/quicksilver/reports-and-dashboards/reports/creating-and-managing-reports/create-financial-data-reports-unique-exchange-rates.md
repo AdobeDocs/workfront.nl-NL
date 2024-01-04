@@ -6,9 +6,9 @@ description: Als er in Adobe Workfront meerdere wisselkoersen zijn geconfigureer
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,14 +63,15 @@ Voordat u alternatieve valuta&#39;s kunt weergeven zoals in deze sectie wordt be
 Financiële waarden tussen valuta&#39;s omzetten bij het werken met rapporten:
 
 1. Ga naar het rapport waar u financiële waarden wilt omzetten in een andere valuta.
-1. Klik op de knop **Weergave** vervolgkeuzelijst, klikt u op **Valuta wijzigen** Selecteer vervolgens een van de volgende valuta&#39;s waarin u de financiële waarden wilt weergeven:
+1. Klik op de knop **Weergave** vervolgkeuzelijst, klikken **Valuta wijzigen** Selecteer vervolgens een van de volgende valuta&#39;s waarin u de financiële waarden wilt weergeven:
 
    * Oorspronkelijke valuta van het project
-   * Overige valuta&#39;s
+   * Alle overige valuta&#39;s
 
-      >[!TIP]
-      >
-      >U kunt alleen valuta&#39;s kiezen die eerder in Setup zijn geselecteerd.
+     >[!TIP]
+     >
+     >U kunt alleen valuta&#39;s kiezen die eerder in Setup zijn geselecteerd.
+
    Met deze optie kunt u snel financiële waarden in een rapport omzetten tussen rentewaarden.
 
    ![Valuta wijzigen](assets/qs-change-currency-2022-350x257.png)
@@ -119,11 +120,11 @@ Twee projecten met aangepaste valuta&#39;s weergeven in een rapport:
 
 1. In de **Filters** tab, filter toevoegen voor **Projectnaam** en selecteert u de twee projecten met de verschillende valuta&#39;s.
 
-   Voor informatie over het maken van een filter raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het maken van een filter raadpleegt u [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klikken **Opslaan + Sluiten**.
 
-   Het totaal van de **Werkelijke kosten** wordt in de Groepering weergegeven met de standaardvaluta van het systeem, ongeacht de valuta van de projecten in het rapport.
+   Het totaal van **Werkelijke kosten** wordt in de Groepering weergegeven met behulp van de standaardvaluta van het systeem, ongeacht de valuta van de projecten in het rapport.
 
    ![Valuta weergegeven in groep](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
@@ -161,7 +162,7 @@ Een financieel veld in een rapport online bewerken:
 
    >[!NOTE]
    >
-   >Als de standaardvaluta niet wordt weergegeven voor een lijst in een ander gebied, kunt u de weergave bewerken om de standaardvaluta weer te geven.\
+   >Als de standaardvaluta niet wordt weergegeven voor een lijst in een ander gebied, kunt u de weergave bewerken en de standaardvaluta weergeven.\
    >Zie de sectie in dit artikel voor informatie over het wijzigen van de valuta in een weergave [Financiële waarden toepassen op een rapport](#apply-financial-values-to-a-report).
 
 1. Klikken **Handelingen rapporteren** selecteert u vervolgens **Bewerken**.

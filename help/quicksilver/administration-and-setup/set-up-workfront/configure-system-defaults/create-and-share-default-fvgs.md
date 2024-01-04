@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 75c4abfa9aebf1d07a851486391291cddc94f1a9
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Voer een van de volgende handelingen uit, afhankelijk van het feit of u een filter, weergave of groep maakt of bewerkt:
 
-   * Klik op **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
+   * Klikken **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
 
-   * Klik op **[!UICONTROL Interface]>** **[!UICONTROL Views]**.
+   * Klikken **[!UICONTROL Interface]>** **[!UICONTROL Views]**.
 
-   * Klik op **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
+   * Klikken **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
 
 1. Als u een filter, weergave of groep maakt, klikt u op **[!UICONTROL Add Filter]**, **[!UICONTROL Add View]**, of **[!UICONTROL Add Grouping]** Selecteer vervolgens het objecttype waaraan u het nieuwe filter, de nieuwe weergave of de nieuwe groep wilt koppelen.
 
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Zie een van de volgende artikelen voor informatie over beschikbare opties:
 
-   * [Overzicht van filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [Overzicht van weergaven in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Overzicht van groepen in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -121,7 +121,7 @@ In deze stappen wordt uitgelegd hoe u filters, weergaven en groepen beschikbaar 
 
 1. Klik op **[!UICONTROL Save]**.
 
-   Gebruikers die u hebt opgegeven, kunnen nu het standaardfilter, de standaardweergave of de standaardgroep zien wanneer ze het objecttype bekijken waaraan u het hebt gekoppeld.
+   Gebruikers die u hebt opgegeven, kunnen het standaardfilter, de standaardweergave of -groep nu zien wanneer ze het objecttype bekijken waaraan u het hebt gekoppeld.
 
 ## Filters, weergaven en groepen verwijderen
 
@@ -129,15 +129,15 @@ In deze stappen wordt uitgelegd hoe u filters, weergaven en groepen beschikbaar 
 
 1. Voer een van de volgende handelingen uit, afhankelijk van het feit of u een filter, weergave of groep verwijdert:
 
-   * Klik op **[!UICONTROL Interface]** > **[!UICONTROL Filters]**
+   * Klikken **[!UICONTROL Interface]** > **[!UICONTROL Filters]**
 
-   * Klik op **[!UICONTROL Interface]** > **[!UICONTROL Views]**
+   * Klikken **[!UICONTROL Interface]** > **[!UICONTROL Views]**
 
-   * Klik op **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
+   * Klikken **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
 
 1. Selecteer een of meer items in de lijst en klik op de knop **[!UICONTROL Delete]** pictogram ![Pictogram Verwijderen](assets/delete.png).
 1. Zie een van de volgende artikelen voor gedetailleerde informatie over het configureren van een filter, weergave of groepering.
 
-   * [Overzicht van filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [Overzicht van weergaven in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Overzicht van groepen in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

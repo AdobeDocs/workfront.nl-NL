@@ -6,9 +6,9 @@ description: U kunt filters, weergaven en groeperingen delen die u kunt bekijken
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsobjecten wanneer zij toegangsniveaus toewijzen. Ga voor meer informatie over het verlenen van toegang tot objecten naar [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen ook verlenen om specifieke voorwerpen te bekijken of uit te geven die u creeerde of toegang om hebt te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen ook verlenen om specifieke voorwerpen te bekijken of uit te geven die u creeerde of toegang om hebt te delen. Zie voor meer informatie over toegangsniveaus en machtigingen [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 U kunt filters, weergaven en groeperingen delen die u kunt bekijken met andere gebruikers.
 
@@ -32,7 +32,7 @@ Wanneer een filter, weergave of groep met u wordt gedeeld, kunt u dat filter, di
 
 Zie de volgende artikelen voor informatie over het maken van een filter, weergave of groepering:
 
-* [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -54,7 +54,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen weergeven of vergroten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -98,7 +98,7 @@ Een filter delen met de standaardbuilderinterface:
    </tr>
    <tr>
    <td role="rowheader"><strong>Opgeslagen</strong></td>
-   <td>Filters die u zelf hebt gemaakt en opgeslagen. In deze lijst worden standaard opgeslagen filters weergegeven in de volgorde van de laatst opgeslagen filters, maar u kunt de filternamen slepen om de lijst handmatig opnieuw te ordenen.</td>
+   <td>Filters die u zelf hebt gemaakt en opgeslagen. In deze lijst worden standaard opgeslagen filters weergegeven in de volgorde van de laatst opgeslagen filters, maar u kunt de filternamen slepen om de lijst handmatig opnieuw te rangschikken.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Standaardwaarden systeem</strong></td>
@@ -127,18 +127,19 @@ Een filter delen met de standaardbuilderinterface:
 
    ![Filter delen, vak](assets/new-filters-share-filter.png)
 
-1. (Optioneel) Klik op de pijl naar rechts naast de naam van een entiteit om de machtigingen voor het filter te bewerken en schakel vervolgens de optie **Weergave** of **Beheren** optie. **Weergave** is de standaardwaarde.
+1. (Optioneel) Klik op de pijl naar rechts naast de naam van een entiteit om de machtigingen voor het filter te bewerken en schakel vervolgens de optie **Weergave** of **Beheren** -optie. **Weergave** is de standaardwaarde.
 
    ![Machtigingen delen](assets/new-filters-sharing-permissions.png)
 
 1. (Optioneel) Schakel de aanvullende machtigingen voor een entiteit in of uit door een van de volgende handelingen uit te voeren:
 
-   1. Klikken **Weergave** en schakelt u de **Delen** optie. Deze optie is standaard ingeschakeld.
-   1. Klikken **Beheren** en schakelt u **Delen** of de **Verwijderen** optie. Deze zijn standaard ingeschakeld.
+   1. Klikken **Weergave** en schakelt u de **Delen** -optie. Deze optie is standaard ingeschakeld.
+   1. Klikken **Beheren** en schakelt u **Delen** of de **Verwijderen** -optie. Deze zijn standaard ingeschakeld.
 
       >[!NOTE]
       >
       >Als u de optie Beheren inschakelt met de optie Verwijderen, kunnen deze gebruikers het filter van alle gebruikers verwijderen, ook al hebben zij geen eigenaar van het filter.
+
    >[!TIP]
    >
    >Gebruikers kunnen geen hogere machtigingen ontvangen dan hun toegangsniveau. Als zij geen toegang tot Edit filters in hun toegangsniveau hebben, kunnen zij geen toestemmingen ontvangen om een filter te beheren. Workfront schakelt de optie Beheren voor deze gebruikers uit en de optie is grijs.
@@ -158,7 +159,7 @@ Een filter delen met de standaardbuilderinterface:
 Het delen van filters, weergaven en groepen in de oudere interface is identiek.
 
 1. Ga naar een lijst met objecten of een rapport.
-1. (Voorwaardelijk) Klik in een lijst op de knop **Filter**, **Weergave**, of **Groepering** klikt u op de knop **Meer** pictogram ![Meer pictogram](assets/more-icon.png)vervolgens **Delen**.
+1. (Voorwaardelijk) Klik in een lijst op de knop **Filter**, **Weergave**, of **Groepering** klikt u op het pictogram en plaatst u de aanwijzer op het filter, de weergave of de groep die u wilt delen **Meer** pictogram ![Meer pictogram](assets/more-icon.png)vervolgens **Delen**.
 
    Klik in een rapport op de knop **Filter**, **Weergave**, of **Groepering** selecteert u vervolgens het filter, de weergave of de groep die u wilt delen.
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,6 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 >* Verplaats het onder een actieve groep. Zie de sectie voor meer informatie [Een subgroep maken, verplaatsen, weergeven, bewerken, kopiëren, hernoemen, exporteren of verwijderen](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) in het artikel [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 
-
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Selecteer in het linkerdeelvenster de optie **Groepen**.
@@ -80,24 +79,24 @@ Overweeg het volgende over een groep die u door onbruikbaar te maken is Actieve 
 
 * Als u een groep deactiveert, worden ook alle onderliggende subgroepen gedeactiveerd. Dit geldt ook voor subgroepen die u toevoegt nadat u de toepassing hebt gedeactiveerd.
 
-   Voor informatie over het opnieuw activeren van een subgroep in deze situatie, zie [Subgroepen opnieuw activeren onder een niet-actieve bovenliggende groep](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in dit artikel.
+  Voor informatie over het opnieuw activeren van een subgroep in deze situatie, zie [Subgroepen opnieuw activeren onder een niet-actieve bovenliggende groep](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in dit artikel.
 
 * Wanneer u naar het gebied van Groepen in Opstelling gaat, kunt u slechts actieve groepen in de lijst zien omdat Actief de standaardfilter is ![](assets/filter-nwepng.png) daarvoor. Als u alle groepen wilt zien die u beheert, inclusief de niet-actieve groepen, kunt u het filter Alles gebruiken. U kunt ook het filter Inactief gebruiken om alleen de inactieve filters weer te geven.
 
-   Zie voor meer informatie over filters in lijsten [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Zie voor meer informatie over filters in lijsten [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Als u een groep deactiveert, verandert het volgende niet:
 
    * De groepskoppelingen naar objecten. Gekoppelde objecten blijven functioneren zoals voorheen, zonder wijzigingen.
 
-      Als een project bijvoorbeeld is gekoppeld aan een groep die u deactiveert, blijft het project de voorkeuren en status van de groep gebruiken zonder wijzigingen.
+     Als een project bijvoorbeeld is gekoppeld aan een groep die u deactiveert, blijft het project de voorkeuren en status van de groep gebruiken zonder wijzigingen.
 
    * Uw capaciteit om een nieuw voorwerp, zoals een goedkeuring, een team, of een bedrijf, van binnen de pagina van de groep in opstelling tot stand te brengen. Standaard is het nieuwe object gekoppeld aan de inactieve groep.
    * Uw capaciteit, als beheerder, om de groep in filters en rapportering te vinden.
 
-      U kunt het in groepstype-vooruit gebieden ook vinden waar u de montages van de groep in het gebied van de Opstelling zou kunnen willen beheren. Dit zijn onder andere de gebieden Voorkeuren, Gebeurtenismeldingen en Systeemlicenties.
+     U kunt het in groepstype-vooruit gebieden ook vinden waar u de montages van de groep in het gebied van de Opstelling zou kunnen willen beheren. Dit zijn onder andere de gebieden Voorkeuren, Gebeurtenismeldingen en Systeemlicenties.
 
-      Bijvoorbeeld, als u naar Opstelling > de Voorkeur van het Project > Projecten gaat en het type-vooruit gebied boven de opties daar ontruimt, kunt u nog een inactieve groep vinden en zijn projectvoorkeur vormen.
+     Bijvoorbeeld, als u naar Opstelling > de Voorkeur van het Project > Projecten gaat en het type-vooruit gebied boven de opties daar ontruimt, kunt u nog een inactieve groep vinden en zijn projectvoorkeur vormen.
 
 ## Subgroepen opnieuw activeren onder een niet-actieve bovenliggende groep {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 
@@ -105,8 +104,8 @@ Als u een groep deactiveert, worden ook alle onderliggende subgroepen gedeactive
 
 * Verplaats de subgroep onder een actieve groep. Schakel vervolgens de optie Is actief in voor de verplaatste groep, zoals in de sectie wordt uitgelegd [Een groep deactiveren of opnieuw activeren](#View) in dit artikel.
 
-   Voor instructies over het verplaatsen van een groep raadpleegt u [Een groep verplaatsen](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+  Voor instructies over het verplaatsen van een groep raadpleegt u [Een groep verplaatsen](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
 
-* Verwijder de subgroep uit de bovenliggende groep (die van de subgroep een groep op hoofdniveau maakt). Schakel vervolgens de optie Is actief in voor de verplaatste groep, zoals in de sectie wordt uitgelegd [Een groep deactiveren of opnieuw activeren](#View) in dit artikel.
+* Verwijder de subgroep uit de bovenliggende groep (die van de subgroep een bovenste groep maakt). Schakel vervolgens de optie Is actief in voor de verplaatste groep, zoals in de sectie wordt uitgelegd [Een groep deactiveren of opnieuw activeren](#View) in dit artikel.
 
-   Zie de sectie voor instructies over het verwijderen van een subgroep uit de bovenliggende groep [Een subgroep verwijderen uit de bovenliggende groep en deze maken tot een groep op hoofdniveau](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Zie de sectie voor instructies over het verwijderen van een subgroep uit de bovenliggende groep [Een subgroep verwijderen uit de bovenliggende groep en deze maken tot een groep op hoofdniveau](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).

@@ -5,9 +5,10 @@ title: Projecten waarop ik het filter actief heb, inclusief onverwachte resultat
 description: Lees dit artikel om de Projecten problemen op te lossen ik ben op filter met inbegrip van onverwachte resultaten.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
+exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -49,6 +50,6 @@ De [!UICONTROL **Projecten waar ik aan sta**] filter omvat projecten die de gebr
 
    OF
 
-1. Probeer een vergelijkbaar filter, zoals [!UICONTROL **Projecten die ik heb**], die alleen projecten bevat die specifiek aan u zijn toegewezen.
+1. Probeer een vergelijkbaar filter te gebruiken, zoals [!UICONTROL **Projecten die ik heb**], die alleen projecten bevat die specifiek aan u zijn toegewezen.
 
-Voor meer informatie over het gebruik van filters in [!DNL Workfront], zie [Overzicht van filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+Voor meer informatie over het gebruik van filters in [!DNL Workfront], zie [Overzicht van filters](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om op te geve
 
 ![](assets/filter-view-grouping-layout-templates.png)
 
-Voor meer informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -46,12 +46,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Besturingselementen voor filters-, weergave- en groeperingslijsten aanpassen:
+## Besturingselementen voor filters, weergave en groeperingslijsten aanpassen:
 
 1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Klik op de pijl omlaag ![](assets/down-arrow-blue.png) krachtens **Aanpassen wat gebruikers zien** en klik vervolgens op **Lijsten** in het vervolgkeuzemenu dat wordt weergegeven.
@@ -79,7 +79,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    De standaardwaarden die u kiest, bepalen welke gebruikers voor Filter, Weergave en Groeperen in lijsten in Workfront worden weergegeven wanneer de lay-outsjabloon aan hen wordt toegewezen. Als u deze gebreken niet verandert, zien de gebruikers alle lijsten als volgt:
 
    * **Filters**: Alles
-   * **Weergave**: Norm (indien van toepassing); sommige lijsten hebben deze weergave niet)
+   * **Weergave**: Norm (indien van toepassing; sommige lijsten hebben dit standpunt niet)
    * **Groepering**: Niets
 
    U kunt de opties Alles, Standaard en Niets verbergen nadat u verschillende standaardinstellingen hebt geselecteerd (zie Stap 5), maar deze opties kunnen niet worden verwijderd.
@@ -104,7 +104,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
         <ol> 
          <li value="1"> Klikken <strong>Filter toevoegen</strong>, <strong>Weergave toevoegen</strong>, of <strong>Groepering toevoegen</strong> onder aan de lijst Filter, Weergave of Groepering. In het vakje dat toont, begin de naam van een bestaand controle van de douanelijst te typen die eerder voor uw organisatie wordt gecreeerd, dan klik de naam wanneer het verschijnt.</li> 
          <li value="2"> Als u de nieuwe controle van de douanelijst als standaardfilter, mening, of groepering voor het lay-outmalplaatje wilt plaatsen, klik <strong>Instellen als standaard</strong>. </li> 
-         <li value="3"> <p>Klikken <strong>Toevoegen</strong> als u klaar bent.</p> <p><b>OPMERKING</b>: <p>Gebruikers kunnen aangepaste lijstbesturingselementen toevoegen aan hun eigen lijsten. Als u aangepaste besturingselementen voor lijsten toevoegt aan een lay-outsjabloon, worden uw besturingselementen voor lijsten toegevoegd en worden de elementen onder aan het deelvenster geplaatst. die u hebt, vervangt ze niet.</p> <p>Dit is ook waar als u de gebruiker aan een nieuw lay-outmalplaatje toewijst dat de controles van de douanelijst heeft. </p> <p>Voor informatie over het aanpassen van lijstcontroles, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Overzicht van filters in Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Overzicht van weergaven in Adobe Workfront</a>, en <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Overzicht van groepen in Adobe Workfront</a>.</p> </p> </li> 
+         <li value="3"> <p>Klikken <strong>Toevoegen</strong> als u klaar bent.</p> <p><b>OPMERKING</b>: <p>Gebruikers kunnen aangepaste lijstbesturingselementen toevoegen aan hun eigen lijsten. Als u besturingselementen voor aangepaste lijsten toevoegt aan een lay-outsjabloon, worden de besturingselementen voor lijsten toegevoegd en worden de besturingselementen onder aan het deelvenster geplaatst. De besturingselementen worden niet door u vervangen.</p> <p>Dit is ook waar als u de gebruiker aan een nieuw lay-outmalplaatje toewijst dat de controles van de douanelijst heeft. </p> <p>Voor informatie over het aanpassen van lijstcontroles, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Overzicht van filters</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Overzicht van weergaven in Adobe Workfront</a>, en <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Overzicht van groepen in Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 
@@ -114,7 +114,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **Opslaan**.
+   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
 
    >[!TIP]
    >

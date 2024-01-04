@@ -6,9 +6,9 @@ description: Complexe tekstmodusfilters maken met EXISTS-instructies
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel vereist een grondig inzicht in de Adobe Workfront API en de rapportinterface voor de tekstmodus. Voor informatie over de Workfront API raadpleegt u [Basisbeginselen van API](../../../wf-api/general/api-basics.md).\
->Voor informatie over het gebruik van de tekstmodus raadpleegt u [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+>Dit artikel vereist een grondig inzicht in de Adobe Workfront API en de rapportinterface voor de tekstmodus. Zie voor informatie over de Workfront API [Basisbeginselen van API](../../../wf-api/general/api-basics.md).\
+>Zie voor informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Overzicht van objectrelaties in Workfront
 
@@ -34,13 +34,13 @@ Alle objecten zijn gekoppeld aan andere objecten in de Workfront-database.
 
 Als u de hiërarchie en de onderlinge afhankelijkheid van objecten begrijpt, kunt u beter achterhalen naar welke objecten in rapporten kan worden verwezen.
 
-Voor informatie over welke objecten zich in Workfront bevinden en over hun hiërarchie en onderlinge afhankelijkheid raadpleegt u [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Zie voor informatie over welke objecten zich in Workfront bevinden en over hun hiërarchie en onderlinge afhankelijkheid [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Wanneer u filters maakt, kunt u naar andere objecten verwijzen die met het object van het filter zijn verbonden binnen maximaal twee relatieniveaus met behulp van de standaardrapportinterface.
 
 U kunt bijvoorbeeld naar de Portfolio-id in een emissiefilter verwijzen om alleen problemen weer te geven voor projecten die zijn gekoppeld aan een bepaald portfolio met behulp van de standaardinterface. In dit geval is de portfolio 2 niveaus verwijderd van emissies.
 
-Nochtans, kunt u niet de Eigenaar van de Portfolio in een uitgevende filter van verwijzingen voorzien gebruikend de standaardinterface om slechts kwesties van projecten te tonen verbonden aan portefeuilles waar de eigenaar een specifieke gebruiker is. U moet de tekstmodus gebruiken om toegang te krijgen tot het veld Naam eigenaar van Portfolio. Dit veld bevindt zich op drie niveaus van de problemen.
+U kunt echter niet verwijzen naar de eigenaar van het Portfolio in een emissiefilter met de standaardinterface om alleen problemen weer te geven van projecten die zijn gekoppeld aan portfolio&#39;s waarbij de eigenaar een specifieke gebruiker is. U moet de tekstmodus gebruiken om toegang te krijgen tot het veld Naam eigenaar Portfolio, dat drie niveaus verwijderd is van problemen.
 
 ![issue_to_portfolio_owner_sraight_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
@@ -61,7 +61,7 @@ Houd rekening met het volgende wanneer u filters maakt die meerdere niveaus in d
 
    * Maak filters die meerdere niveaus omspannen.
    * Maak filters die zoeken naar objecten die ontbreken.\
-      Bijvoorbeeld, wanneer het bouwen van een gebruikersrapport, kunt u voor gebruikers filtreren die geen tijd voor een bepaalde periode hebben geregistreerd.
+     Bijvoorbeeld, wanneer het bouwen van een gebruikersrapport, kunt u voor gebruikers filtreren die geen tijd voor een bepaalde periode hebben geregistreerd.
 
 Houd rekening met de volgende regels wanneer u EXISTS-instructies in een filter gebruikt:
 
@@ -77,12 +77,12 @@ Houd rekening met de volgende regels wanneer u EXISTS-instructies in een filter 
    * De instructie na het gelijkteken verwijst naar het object waarvan u verwijst (het oorspronkelijke object).
 
 * U moet de objectcode van het object Koppelen gebruiken om uw instructies te verbinden.\
-   U kunt de objectcode van alle objecten vinden in de API Explorer.\
-   Voor informatie over de API Explorer raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
+  U kunt de objectcode van alle objecten vinden in de API Explorer.\
+  Voor informatie over de API Explorer raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Wanneer een object Koppelen ontbreekt omdat het origineel en de doelobjecten rechtstreeks met elkaar zijn verbonden, kunt u de objectcode van het doelobject gebruiken in plaats van het object Koppelen.
 * U kunt naar meerdere velden (doelvelden) op hetzelfde object (doelobject) verwijzen. In dat geval moet u de regels verbinden die naar de velden verwijzen door AND.\
-   Voor een voorbeeld van het filtreren voor meer dan één gebied dat tot het Voorwerp van het Doel behoort, zie [Voorbeeld 4: Filteren op meerdere velden: taken door de Naam van de Eigenaar van de Portfolio en identiteitskaart van het Scorecard van de Uitlijning van de Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in dit artikel.
+  Voor een voorbeeld van het filtreren voor meer dan één gebied dat tot het Voorwerp van het Doel behoort, zie [Voorbeeld 4: Filteren op meerdere velden: taken op basis van de naam van de eigenaar van het Portfolio en de ID van het scorebord voor uitlijning van het Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in dit artikel.
 
 * De enige bepaling die voor een EXISTS verklaring wordt gesteund is NOTEXISTS.
 
@@ -104,7 +104,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om filters in een rapport te bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om filters in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -121,18 +121,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***[This information is somewhat duplicated from the section below: Create Text-Mode Filters for Missing Objects])</p>
 -->
 
-U kunt een filter maken dat naar objecten verwijst op meerdere niveaus van de objecthiërarchie waarin het filterobject bestaat. U kunt bijvoorbeeld een filter voor uitgaven maken voor problemen die zich voordoen in projecten die niet aan een bepaalde eigenaar van Portfolio zijn gekoppeld.
+U kunt een filter maken dat naar objecten verwijst op meerdere niveaus van de objecthiërarchie waarin het filterobject bestaat. U kunt bijvoorbeeld een filter voor uitgaven maken voor problemen die zich voordoen in projecten die niet aan een bepaalde eigenaar van het Portfolio zijn gekoppeld.
 
 U moet altijd een EXISTS verklaring en de interface van de tekstwijze gebruiken om dit filter te bouwen.
 
-Zie voor voorbeelden van filters de [Voorbeeld 1: Filteren op uitgaven op naam van Portfolio-eigenaar](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
+Zie voor voorbeelden van filters de [Voorbeeld 1: Filter voor uitgaven op naam van eigenaar Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
 
 Een filter maken dat zich uitstrekt over meerdere niveaus in de objecthiërarchie:
 
 1. Identificeer het voorwerp van uw filter. Dit object wordt het oorspronkelijke object genoemd.\
    Bijvoorbeeld Issue.
 1. Identificeer het veld waarop u wilt filteren. Wij verwijzen naar dit voorwerp als het Gebied van het Doel dat tot een Voorwerp van het Doel behoort.\
-   Bijvoorbeeld het veld ownerID (Doelveld) dat tot Portfolio (Doelobject) behoort.
+   Bijvoorbeeld het veld ownerID (Doelveld) dat tot een Portfolio behoort (doelobject).
 1. (Voorwaardelijk) als het Oorspronkelijke Voorwerp (Uitgave) en het Gebied van het Doel (ownerID) niet direct met elkaar worden verbonden, moet u een derde voorwerp vinden, een Verbonden Voorwerp (Project) dat hen verbindt. Het object Koppelen moet ten minste één veld hebben waarnaar wordt verwezen op de tabbladen Velden of Verwijzingen van het oorspronkelijke object (het veld Koppelen dat wordt weergegeven op het oorspronkelijke object) en het moet ook een koppelingsveld hebben met het doelobject dat wordt weergegeven op de tabbladen Velden of Verwijzingen van het object Koppelen. Het koppelingsveld naar het doelobject dat wordt weergegeven op het koppelingsobject (of het koppelingsveld dat wordt weergegeven op het koppelingsobject) moet overeenkomen met het doelveld.\
    Bijvoorbeeld, (Project) identiteitskaart (het Gebied van de Verbinding die op het Oorspronkelijke Voorwerp wordt getoond) van Kwesties (Origineel Voorwerp) van verwijzingen wordt voorzien. (Portfolio) ownerID (het Gebied van de Verbinding met het Voorwerp van het Doel) wordt getoond op het lusje van Gebieden van het Project (het Verbonden Voorwerp). Portfolio ownerID is ook een veld op het doelobject (Portfolio). Het koppelingsveld op het koppelingsobject komt overeen met het doelveld.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
@@ -143,7 +143,7 @@ Een filter maken dat zich uitstrekt over meerdere niveaus in de objecthiërarchi
 
 1. Maak een filter voor het oorspronkelijke object.\
    Maak bijvoorbeeld een filter Uitgave.\
-   Voor informatie over het maken van filters raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor informatie over het maken van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klikken **Overschakelen naar tekstmodus**.
 1. Plak het volgende voorbeeld van de formule in de tekstmodus-interface van het nieuwe filter en vervang de voorgestelde tekst door de juiste objecten en velden:
@@ -154,7 +154,7 @@ Een filter maken dat zich uitstrekt over meerdere niveaus in de objecthiërarchi
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-   Voor een voorbeeld met de velden die we hierboven hebben aangegeven, raadpleegt u de [Voorbeeld 1: Filteren op uitgaven op naam van Portfolio-eigenaar](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
+   Zie voor een voorbeeld met de velden die we hierboven hebben aangegeven de [Voorbeeld 1: Filter voor uitgaven op naam van eigenaar Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
 
 1. Klikken **Filter opslaan**.
 
@@ -170,7 +170,7 @@ U moet altijd een *BESTAAT* en de interface van de tekstwijze om dit filter te b
 
 Zie de volgende secties in dit artikel voor voorbeelden van filters voor ontbrekende objecten:
 
-* [Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet worden weergegeven in aangepaste formulieren](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+* [Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet in aangepaste formulieren voorkomen](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 * [Voorbeeld 3: Filter voor ontbrekende objecten: gebruikers die de tijd gedurende een bepaalde periode niet hebben geregistreerd](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
 
 Een filter maken dat naar ontbrekende objecten verwijst:
@@ -187,7 +187,7 @@ Een filter maken dat naar ontbrekende objecten verwijst:
 
 1. Maak een filter voor het oorspronkelijke object.\
    Maak bijvoorbeeld een parameterfilter.\
-   Voor informatie over het maken van filters raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor informatie over het maken van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klikken **Overschakelen naar tekstmodus**.
 1. (Voorwaardelijk) Als u filtert voor objecten die ontbreken, plakt u het volgende voorbeeld van de formule in de tekstmodusinterface van het nieuwe filter en vervangt u de voorgestelde tekst door de juiste objecten en velden:
@@ -200,25 +200,25 @@ Een filter maken dat naar ontbrekende objecten verwijst:
    EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Zie voor een voorbeeld van rapportage over aangepaste velden die niet zijn gekoppeld aan Aangepaste Forms de [Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet worden weergegeven in aangepaste formulieren](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in dit artikel.
+   Zie voor een voorbeeld van rapportage over aangepaste velden die niet zijn gekoppeld aan Aangepaste Forms de [Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet in aangepaste formulieren voorkomen](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in dit artikel.
 
 1. Klikken **Filter opslaan**.
 
 ## Voorbeelden van tekstmodusfilters die meerdere niveaus in de objecthiërarchie beslaan
 
-* [Voorbeeld 1: Filteren op uitgaven op naam van Portfolio-eigenaar](#example-1-filter-for-issues-by-portfolio-owner-name)
-* [Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet worden weergegeven in aangepaste formulieren](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+* [Voorbeeld 1: Filter voor uitgaven op naam van eigenaar Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name)
+* [Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet in aangepaste formulieren voorkomen](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 * [Voorbeeld 3: Filter voor ontbrekende objecten: gebruikers die de tijd gedurende een bepaalde periode niet hebben geregistreerd](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
-* [Voorbeeld 4: Filteren op meerdere velden: taken door de Naam van de Eigenaar van de Portfolio en identiteitskaart van het Scorecard van de Uitlijning van de Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+* [Voorbeeld 4: Filteren op meerdere velden: taken op basis van de naam van de eigenaar van het Portfolio en de ID van het scorebord voor uitlijning van het Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
 
-### Voorbeeld 1: Filteren op uitgaven op naam van Portfolio-eigenaar {#example-1-filter-for-issues-by-portfolio-owner-name}
+### Voorbeeld 1: Filter voor uitgaven op naam van eigenaar Portfolio {#example-1-filter-for-issues-by-portfolio-owner-name}
 
 Met de interface van de tekstmodus kunt u een filter maken voor een lijst met uitgaven om alleen problemen weer te geven die zich voordoen in projecten die zijn gekoppeld aan een portfolio waarvan de eigenaar een specifieke gebruiker is.
 
-Om kwesties door de Naam van de Eigenaar van de Portfolio te filtreren:
+Om kwesties door de Naam van de Eigenaar van het Portfolio te filtreren:
 
 1. Maak een filter Uitgave.\
-   Voor informatie over het maken van filters raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor informatie over het maken van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klikken **Overschakelen naar tekstmodus**.
 1. Raadpleeg de volgende algemene code:
@@ -232,23 +232,21 @@ Om kwesties door de Naam van de Eigenaar van de Portfolio te filtreren:
    ```
 
 1. Plak de volgende code in de **Filterregels instellen voor uw rapport** gebied ter vervanging van de bovenstaande algemene code:
-
    <pre>BESTAAT:A:$$OBJCODE=PROJ<br>BESTAAT:A:ID=FIELD:projectID<br>BESTAAT:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
 
    >[!NOTE]
    >
-   >* Het oorspronkelijke object is het object van het rapport: Probleem
+   >* Het oorspronkelijke object is het object van het rapport: Issue
    >* Het doelobject is Portfolio.
    >* Het object Linking is Project.
    >* Het doelveld en het koppelingsveld naar het doelobject waarnaar vanuit het koppelingsobject wordt verwezen, zijn ownerID.
    >* De objectcode van het object Koppelen hier is PROJ.
    >* Het verbindingsgebied dat op het Originele Voorwerp wordt getoond is projectID en het Verbindende Gebied is identiteitskaart
 
-
 1. Vervang de waarde van het Gebied van het Doel (ownerID) in de laatste verklaring met een Gebruiker - identiteitskaart van uw milieu.
 1. Klikken **Filter opslaan**.
 
-### Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet worden weergegeven in aangepaste formulieren {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
+### Voorbeeld 2: Filter voor ontbrekende objecten: aangepaste velden die niet in aangepaste formulieren voorkomen {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
 Met behulp van de interface van de tekstmodus kunt u een filter maken om aangepaste velden (parameters) weer te geven die niet zijn gekoppeld aan Aangepaste Forms (categorieën). Dit filter koppelt Parameters aan Categorieën, die door een ander voorwerp, de Parameter van de Categorie worden verbonden. Omdat de twee gebieden niet direct met elkaar worden verbonden en omdat u voor ontbrekende informatie filtreert moet u een EXISTS verklaring gebruiken.
 
@@ -259,7 +257,7 @@ Met behulp van de interface van de tekstmodus kunt u een filter maken om aangepa
 Filteren voor aangepaste velden die niet zijn gekoppeld aan een aangepast formulier:
 
 1. Maak een parameter of een filter Aangepast veld.\
-   Voor informatie over het maken van filters raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor informatie over het maken van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klikken **Overschakelen naar tekstmodus**.
 1. Raadpleeg de volgende algemene code:
@@ -273,7 +271,6 @@ Filteren voor aangepaste velden die niet zijn gekoppeld aan een aangepast formul
    ```
 
 1. Plak de volgende code in de **Filterregels instellen voor uw rapport** gebied ter vervanging van de bovenstaande algemene code:
-
    <pre>BESTAAT:A:$$OBJCODE=CTGYPA<br>BESTAAT:A:parameterID=FIELD:ID<br>BESTAAT:A:$$EXISTSMOD=NOTEXISTS</pre>
 
    >[!NOTE]
@@ -285,7 +282,6 @@ Filteren voor aangepaste velden die niet zijn gekoppeld aan een aangepast formul
    >* Het koppelingsveld naar het doelobject is parameterID omdat parameterID bestaat in zowel de tabel met gekoppelde objecten als de tabel met doelobjecten.
    >* Het koppelingsveld dat op het oorspronkelijke object wordt weergegeven, is een id (van de categorieparameter).
 
-
 1. Klikken **Filter opslaan**.
 
 ### Voorbeeld 3: Filter voor ontbrekende objecten: gebruikers die de tijd gedurende een bepaalde periode niet hebben geregistreerd {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
@@ -295,7 +291,7 @@ Gebruikend de interface van de tekstwijze, kunt u een filter aan meningsGebruike
 Hiermee filtert u voor gebruikers die zich vorige week niet hebben aangemeld:
 
 1. Maak een gebruikersfilter.\
-   Voor informatie over het maken van filters raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor informatie over het maken van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klikken **Overschakelen naar tekstmodus**.
 1. Raadpleeg de volgende algemene code:
@@ -316,19 +312,18 @@ Hiermee filtert u voor gebruikers die zich vorige week niet hebben aangemeld:
 
    >[!NOTE]
    >
-   >* Het oorspronkelijke object is het object van het rapport: Gebruiker.
+   >* Het originele voorwerp is het voorwerp van het rapport: Gebruiker.
    >* Het doelobject is Uur.
    >* In dit voorbeeld hebt u geen koppelingsobject nodig omdat Gebruikers en uren rechtstreeks zijn verbonden in de Workfront-database.
-   >* Aangezien er geen gekoppeld object is, moet u de objectcode van het doelobject gebruiken: UUR.
-   >* Het koppelingsveld naar het doelobject is ownerID (dat wordt weergegeven op het oorspronkelijke object). het object Koppelen ontbreekt).
-   >* Het koppelingsveld dat op het oorspronkelijke object wordt weergegeven, is een id (van het uur) (die wordt weergegeven op het doelobject). het koppelingsobject ontbreekt.)
-   >* De bestaande:A:entryDate-instructie verwijst naar velden die het doelobject (Uur) definiëren en dezelfde syntaxis gebruiken als in een gewone filterinstructie. Dit zorgt ervoor dat u slechts die gebruikers toont die geen tijd voor een specifieke periode, in dit geval, de vorige week registreerden.
+   >* Omdat er geen Verbonden Voorwerp is, moet u de Code van Objecten van het Voorwerp van het Doel gebruiken: UUR.
+   >* Het koppelingsveld naar het doelobject is ownerID (die wordt weergegeven op het oorspronkelijke object; het koppelingsobject ontbreekt).
+   >* Het koppelingsveld dat op het oorspronkelijke object wordt weergegeven, is een id (van het uur) (die wordt weergegeven op het doelobject; het koppelingsobject ontbreekt.)
+   >* DE BESTAANDE:A:entryDate-instructie verwijst naar velden die het doelobject (Uur) definiëren en dezelfde syntaxis gebruiken als in een gewone filterinstructie. Dit zorgt ervoor dat u slechts die gebruikers toont die geen tijd voor een specifieke periode, in dit geval, de vorige week registreerden.
    >* De bepaling NOTEXISTS wijst erop dat wij punten (Uren) zoeken die niet voor het voorwerp van het rapport (Gebruikers) bestaan.
-
 
 1. Klikken **Filter opslaan**.
 
-### Voorbeeld 4: Filteren op meerdere velden: taken door de Naam van de Eigenaar van de Portfolio en identiteitskaart van het Scorecard van de Uitlijning van de Portfolio {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
+### Voorbeeld 4: Filteren op meerdere velden: taken op basis van de naam van de eigenaar van het Portfolio en de ID van het scorebord voor uitlijning van het Portfolio {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
 Met de interface van de tekstmodus kunt u een filter maken dat naar meer dan één veld in het doelobject verwijst. In dit geval moeten de filterinstructies die verwijzen naar de doelvelden, via AND worden verbonden.
 
@@ -337,10 +332,10 @@ U kunt bijvoorbeeld een takenlijst filteren om alleen taken weer te geven die aa
 * Ze bevinden zich op een project dat is gekoppeld aan een portfolio waarvan de eigenaar een specifieke gebruiker is.
 * Zij zijn op een project verbonden aan een portefeuille de waarvan projecten niet met een specifieke groeperingsscorecard worden geassocieerd.
 
-Om taken door de Naam van de Eigenaar van de Portfolio en identiteitskaart van het Scorecard van de Uitlijning van de Portfolio te filtreren:
+Om taken door de Naam van de Eigenaar van het Portfolio en identiteitskaart van het Scorecard van de Uitlijning van het Portfolio te filtreren:
 
 1. Maak een taakfilter.\
-   Voor informatie over het maken van filters raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor informatie over het maken van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klikken **Overschakelen naar tekstmodus**.
 1. Plak de volgende code in de **Filterregels instellen voor uw rapport** gebied:
@@ -348,15 +343,14 @@ Om taken door de Naam van de Eigenaar van de Portfolio en identiteitskaart van h
 
    >[!NOTE]
    >
-   >* Het oorspronkelijke object is het object van het filter: Taak.
+   >* Het oorspronkelijke object is het object van het filter Taak.
    >* Het doelobject is Portfolio.
    >* Het eerste doelveld is ownerID.
    >* Het tweede doelveld is de ID van het uitlijningsscorebord.
    >* Het object Linking is Project.
    >* De objectcode van het object Koppelen is PROJ.
-   >* Het veld Koppelen aan het doelobject is de id (van de Portfolio).
+   >* Het veld Koppelen aan het doelobject is de id (van het Portfolio).
    >* Het verbindingsgebied dat op het Originele Voorwerp wordt getoond is projectID.
    >* Vervang de ownerID door een gebruikersnaam uit uw omgeving.
-
 
 1. Klikken **Filter opslaan**.

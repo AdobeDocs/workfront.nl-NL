@@ -6,9 +6,9 @@ description: We raden u ten zeerste aan filters te gebruiken in Workload Balance
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2455'
+source-wordcount: '2452'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Als middelmanager, kunt u de Balancer van de Werkbelasting gebruiken om de werkb
 >
 >Wanneer u een nieuw filter opslaat en toepast, navigeert u vervolgens weg van Workload Balancer, blijft het filter behouden, zelfs nadat u zich hebt afgemeld en weer hebt aangemeld.
 
-
-Dit artikel bevat informatie over filters in Workload Balancer. Voor informatie over filters in Workfront raadpleegt u [Overzicht van filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Dit artikel bevat informatie over filters in Workload Balancer. Voor informatie over filters in Workfront raadpleegt u [Overzicht van filters](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
 

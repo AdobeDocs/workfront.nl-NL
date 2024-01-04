@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2686'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ Het rapport Dagboekingang bevat systeemupdates van het gebied Updates van projec
 >Het rapport van de Ingang van het Dagboek bevat slechts systeemupdates van het gebied van Updates van voorwerpen. Als u opmerkingen wilt rapporteren die nog in het gedeelte Updates staan, moet u het notitierapport gebruiken.\
 >Voor meer informatie over het rapport van de Nota, zie [Alle updates in een notitierapport weergeven](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
 
-Het rapport Dagboekingang kan tonen:
+Het rapport van de Ingang van het Dagboek kan tonen:
 
 * Aantal statuswijzigingen
 * Wanneer een taak of kwestie werd geschrapt
 * De manier waarop waarden in belangrijke aangepaste velden zijn gewijzigd tijdens de levenscyclus van een project
-* Welke belangrijke data zijn veranderd in de loop van de levenscyclus van een project
+* Welke belangrijke data zijn veranderd tijdens de levenscyclus van een project
 * Als de eigenaar van een project is gewijzigd
 
 ## Toegangsvereisten
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -64,11 +64,11 @@ Voordat u de in dit artikel beschreven handelingen kunt uitvoeren, moet u het vo
 
 * Alle velden waarvoor je een melding wilt maken, worden bijgehouden in Workfront. U kunt alleen gegevens rapporteren in het gebied Updates dat wordt bijgehouden.
 
-   Ga voor meer informatie over het toevoegen van velden die Workfront moet bijhouden naar [Systeemupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Ga voor meer informatie over het toevoegen van velden die Workfront moet bijhouden naar [Systeemupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * Voor aangepaste velden waarvoor u een rapport wilt opstellen, geldt de instelling **Wijzigingen in velden weergeven in updateffeeds** ingeschakeld.
 
-   Zie de sectie voor meer informatie over het inschakelen van deze instelling voor een aangepast veld [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in het artikel [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Zie de sectie voor meer informatie over het inschakelen van deze instelling voor een aangepast veld [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in het artikel [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Overzicht van het Dagboekingrapport
 
@@ -148,7 +148,7 @@ Zie de desbetreffende sectie voor meer informatie over het instellen van de weer
 
 U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen:
 
-* Hoeveel statusveranderingen werden aangebracht op een project, een taak, of een kwestie
+* Hoeveel statuswijzigingen zijn aangebracht in een project, taak of uitgave
 
 * Wat was de vorige status vóór de wijziging
 * Wie de status heeft gewijzigd
@@ -165,7 +165,7 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
 >[!TIP]
 >
 >Als u het verschil in dagen tussen voorwaardenveranderingen wilt vergelijken, kunt u Verbeterde analysemogelijkheden gebruiken.\
->Ga voor meer informatie over verbeterde analysemogelijkheden naar [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Ga voor meer informatie over Verbeterde analysemogelijkheden naar [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
 1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
@@ -206,14 +206,14 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
       <td> <p style="font-weight: bold;">Oude tekstwaarde</p> </td> 
       <td> <p>De sleutel voor de vorige status. Hier volgen de statussleutels voor de standaardstatus van een project:</p> 
        <ul> 
-        <li> <p> <strong>CUR</strong>: Huidig</p> </li> 
-        <li> <p><strong>DED</strong>: Dead</p> </li> 
+        <li> <p> <strong>CUR</strong>: Huidige</p> </li> 
+        <li> <p><strong>DED</strong>: dood</p> </li> 
         <li> <p><strong>ONH</strong>: In de wachtstand</p> </li> 
         <li> <p><strong>PLN</strong>: Planning</p> </li> 
         <li> <p><strong>CPL</strong>: Voltooid</p> </li> 
         <li> <p><strong>REQ</strong>: Gevraagd</p> </li> 
-        <li> <p><strong>APR</strong>: Goedgekeurd</p> </li> 
-        <li> <p><strong>REJ</strong>: Geweigerd</p> </li> 
+        <li> <p><strong>APR</strong>: goedgekeurd</p> </li> 
+        <li> <p><strong>REJ</strong>: Afgewezen</p> </li> 
         <li> <p><strong>IDA</strong>: Idea</p> </li> 
        </ul> <p>Als uw organisatie aangepaste statussen heeft ingesteld, worden mogelijk andere statussleutels in deze kolom weergegeven. Neem contact op met uw Workfront-beheerder of groepsbeheerder voor meer informatie over de aangepaste status die gerelateerd is aan een statussleutel.</p> </td> 
      </tr> 
@@ -250,7 +250,7 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
    >
    >Als u wijzigingen in de voorwaarde wilt rapporteren, kunt u in plaats daarvan de filterregel toevoegen **Veldnaam** > **Gelijk** > **Voorwaarde**.
 
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -330,9 +330,10 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
    * **Type wijzigen** > **Gelijk** > **Verwijderen**
    * **Project-id** > **Gelijk** > **`<project>`**
 
-      <!--WRITER check link; this png file has spaces
+     <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -432,14 +433,15 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    * **Itemveldnaam journaal** > **Bevat** > **DE**
 
-      >[!TIP]
-      >
-      >Als u dit rapport wilt beperken tot specifieke aangepaste velden, voegt u de filterregel toe **Itemveldnaam journaal** > **Gelijk** > **`<custom field>`**.
+     >[!TIP]
+     >
+     >Als u dit rapport wilt beperken tot specifieke aangepaste velden, voegt u de filterregel toe **Itemveldnaam journaal** > **Gelijk** > **`<custom field>`**.
 
    * **Project-id** > **Gelijk** > **`<project>`**
 
-      ![](assets/qs-custom-form-changes-filter-350x92.png)
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     ![](assets/qs-custom-form-changes-filter-350x92.png)
+
+   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -514,7 +516,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nieuwe datumwaarde</p> </td> 
-      <td> <p>De huidige waarde voor de geplande afsluitdatum.</p> </td> 
+      <td> <p>De huidige waarde voor de Geplande Voltooiingsdatum.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Projectnaam</p> <p>(Optioneel)</p> </td> 
@@ -540,7 +542,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -587,7 +589,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Veldnaam</p> </td> 
-      <td>De naam van het desbetreffende veld. De <strong>ownerID</strong> wordt weergegeven in deze kolom.</td> 
+      <td>De naam van het desbetreffende veld. De <strong>ownerID</strong> in deze kolom.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Type wijzigen</p> </td> 
@@ -627,8 +629,9 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
    * **Veldnaam** > **Gelijk** > **ownerID**
    * **Project-id** > **Gelijk** > **`<project name>`**
 
-      ![](assets/qs-owner-changes-filter-350x94.png)
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     ![](assets/qs-owner-changes-filter-350x94.png)
+
+   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 

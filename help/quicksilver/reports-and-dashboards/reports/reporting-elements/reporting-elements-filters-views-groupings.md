@@ -1,14 +1,14 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: '"Rapportelementen: filters, weergaven en groeperingen'''
+title: 'Elementen rapporteren: filters, weergaven en groepen'
 description: De belangrijkste elementen die elke lijst en het rapport in Workfront moeten hebben zijn een filter, een mening, en een groepering. Elk element verstrekt verschillende informatie binnen om het even welk rapport.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ Houd rekening met het volgende wanneer u werkt met filters, weergaven en groepen
 * Rapporten in Workfront zijn specifiek voor één object. U moet uw belangrijkste voorwerp voor een rapport bepalen alvorens u het rapport kunt bouwen. Alle rapportelementen zijn dus objectspecifiek.
 * Uw Workfront-beheerder moet u toegang verlenen tot filters, weergaven en groeperingen op uw toegangsniveau om deze in lijsten en rapporten te kunnen weergeven of bewerken.
 
-   Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Uw beheerder van Workfront moet u toegang tot rapporten, dashboards, en kalenders in uw toegangsniveau verlenen om rapporten te kunnen bekijken of uitgeven.
 
-   Voor informatie over het verlenen van toegang tot rapporten, dashboards, en kalenders, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Voor informatie over het verlenen van toegang tot rapporten, dashboards, en kalenders, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Als u een filter, weergave of groepering voor een rapport of lijst selecteert, behoudt Workfront deze selectie voor de lijsten van dat object zelfs nadat u zich hebt afgemeld of de browser hebt gesloten. Als u bijvoorbeeld een specifieke weergave voor een taakrapport selecteert, wordt die selectie weergegeven voor andere takenlijsten, zoals de takenlijst van een project.
 
 ## Filters
 
-Het filter bepaalt de resultaten die in een rapport worden weergegeven. Doorgaans worden de resultaten van algemeen tot specifiek beperkt. Het werkt als een zeef die slechts de informatie graaft die u nodig hebt en die informatie terugbrengt naar uw rapport.
+Het filter controleert de resultaten die in een rapport verschijnen, typisch versmalend resultaten van algemeen aan specifiek. Het werkt als een zeef die slechts de informatie graaft die u nodig hebt en die informatie terugbrengt naar uw rapport.
 
 Bijvoorbeeld, als u slechts taken wilt zien die aan de het programma geopende gebruiker worden toegewezen, kunt u een filter tot stand brengen getiteld &quot;Mijn Taken,&quot;bepaalt de criteria die voor de filter moeten worden vervuld en het rapport in werking stellen om slechts taken te bekijken die aan de het programma geopende gebruiker worden toegewezen.
 
@@ -54,7 +54,7 @@ Enkele kenmerken van filters zijn:
 * Workfront biedt standaard een aantal filters voor verschillende objecten.
 * U kunt filters aanpassen die u bezit of beheert.
 
-   Zie het artikel voor meer informatie over filters [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Zie het artikel voor meer informatie over filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ![Filterpictogram](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
@@ -69,7 +69,7 @@ Enkele weergavekenmerken zijn:
 * U kunt extra meningen van het drop-down gebied van de Mening toepassen na het runnen van een rapport.
 * De extra meningen vervangen tijdelijk de mening die wanneer het creëren van het rapport wordt bepaald; nochtans, wordt de standaardmening getoond de volgende tijd u aan het rapport terugkeert.
 
-   Raadpleeg het artikel voor meer informatie over weergaven [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Raadpleeg het artikel voor meer informatie over weergaven [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Groepen
 
@@ -83,20 +83,20 @@ Enkele kenmerken van groepen zijn:
 * Groepen geven een geaggregeerde waarde in de resultaten weer. &#x200B;
 * Groepen bepalen de as in grafieken.
 * Groepen bepalen de headeridentificatie in matrixrapporten.\
-   Raadpleeg het artikel voor meer informatie over matrixrapporten [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  Raadpleeg het artikel voor meer informatie over matrixrapporten [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * De hulp van groeperingen bouwt de Samenvatting tabel van een rapport, die de samengevoegde waarden van het rapport verstrekt.
 * Workfront biedt standaard een aantal groepen voor verschillende objecten.
 * U kunt groepen aanpassen die u hebt of beheert.
 
-   Zie voor meer informatie over groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Zie voor meer informatie over groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-## Overige rapportageelementen
+## Overige rapporteringselementen
 
 Naast filters, meningen, en groeperingen, kon u de volgende elementen aan een rapport ook toevoegen:
 
 * **Vragen**: Een open filter dat kan worden aangepast en verschillend worden toegepast telkens als u een rapport in werking stelt.\
-   Raadpleeg het artikel voor meer informatie over aanwijzingen [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Raadpleeg het artikel voor meer informatie over aanwijzingen [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Diagram**: U kunt uw rapporten verbeteren door een grafiek aan hen toe te voegen en de informatie op een visuele manier te tonen.\
-   Raadpleeg het artikel voor meer informatie over grafieken in rapporten [Een diagram toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **Diagram**: U kunt uw rapporten verbeteren door er een grafiek aan toe te voegen en de informatie op een visuele manier weer te geven.\
+  Raadpleeg het artikel voor meer informatie over grafieken in rapporten [Een diagram toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

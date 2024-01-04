@@ -6,9 +6,9 @@ description: Filters en herinneringen zijn gelijkaardig in die zin dat zij alleb
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Filters en herinneringen zijn gelijkaardig in die zin dat zij allebei de hoeveelheid informatie beperken die u in een rapport toont.
 
-U bouwt een filter wanneer u de informatie die in het rapport wordt getoond door de zelfde criteria wilt worden gefiltreerd telkens als u het rapport in werking stelt. Filters worden één keer gemaakt en zijn hard gecodeerd in het rapport. Raadpleeg het artikel voor meer informatie over het maken van filters. [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+U bouwt een filter wanneer u de informatie die in het rapport wordt getoond door de zelfde criteria wilt worden gefiltreerd telkens als u het rapport in werking stelt. Filters worden één keer gemaakt en zijn hard gecodeerd in het rapport. Raadpleeg het artikel voor meer informatie over het maken van filters. [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 De herinnering is open filters die kunnen worden aangepast en verschillend worden toegepast telkens als u een rapport in werking stelt.
 
@@ -53,11 +53,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,27 +89,28 @@ Voor instructies over het maken van een rapport raadpleegt u [Een rapport maken]
 
    Nochtans, blijft de herinnering zo flexibel zoals een regelmatige herinnering omdat u van verscheidene vooraf bepaalde verklaringen kunt kiezen, in tegenstelling tot het hebben van enkel één hard - gecodeerde filter in het rapport.
 
-   Geef de volgende informatie op voor de aangepaste prompt: De voorwaarde van een aangepaste prompt kan alleen worden bewerkt in de tekstmodus. Hierdoor kunnen meerdere voorwaarden op één veld worden toegepast.
+   Geef de volgende informatie op voor de aangepaste prompt: de voorwaarde van een aangepaste prompt kan alleen worden bewerkt in de tekstmodus. Hierdoor kunnen meerdere voorwaarden op één veld worden toegepast.
 
    * **Veldnaam:** Dit is de naam van de herinnering, aangezien u het ziet alvorens u het rapport in werking stelt.
    * **Label:** Dit is de naam van één van de opties binnen de herinnering aangezien u het ziet alvorens u het rapport in werking stelt.
    * **Voorwaarde:** Voer een voorwaarde in die de vraag definieert.
 
-   Gebruik dezelfde syntaxis als u zou gebruiken bij het invoeren van een tekstmodusfilter en sluit u uw instructies aan op &quot;&amp;&quot;. Voor meer informatie over het bewerken van een filter in de tekstmodus raadpleegt u [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Gebruik dezelfde syntaxis als u zou gebruiken bij het invoeren van een tekstmodusfilter en sluit u uw instructies aan op &quot;&amp;&quot;. Zie voor meer informatie over het bewerken van een filter in de tekstmodus [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-   De **Voorwaarde** het gebied van de douaneherinnering voor de volgende scenario&#39;s zou als dit kunnen kijken:
+   Bijvoorbeeld de **Voorwaarde** het gebied van de douaneherinnering voor de volgende scenario&#39;s zou als dit kunnen kijken:
 
-   * alle taken voor toekomstige projecten waarbij de projectstatus Idea, Requested, Planed en Current is:
+   * alle taken met betrekking tot toekomstige projecten waarbij de projectstatus Idea, Requested, Planed en Current is:
 
-      ```
-      project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
-      ```
+     ```
+     project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+     ```
 
    * alle taken in voltooide (vroegere) projecten waar de projectstatus wordt voltooid of Dead:
 
-      ```
-      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
-      ```
+     ```
+     project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+     ```
+
    Voor meer informatie over de bepalingen van de tekstwijze, zie [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
@@ -129,7 +130,7 @@ Om een rapport met een herinnering in werking te stellen:
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. Kies een voorwaarde voor één of alle herinneringen die op worden getoond **Vragen** tab.\
+1. Kies een voorwaarde voor één of alle herinneringen die op **Vragen** tab.\
    (Optioneel) U kunt de vragen leeg laten en het rapport niet filteren op basis van de voorwaarden voor de vraag.
 
 1. Klikken **Rapport uitvoeren**.\
@@ -150,7 +151,7 @@ Hieronder volgt een beperking voor het delen van rapporten die worden gevraagd d
 
 * Wanneer u een rapport openbaar deelt kunnen de gebruikers niet het rapport in werking stellen door de herinnering toe te passen, tenzij zij de geloofsbrieven van Workfront en login eerst hebben om het rapport in Workfront te bekijken.
 
-   Zie het artikel voor meer informatie over het delen van rapporten [Een rapport delen in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Zie het artikel voor meer informatie over het delen van rapporten [Een rapport delen in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * Wanneer u een veroorzaakt rapport voor levering plant, omvat het rapport in de e-mailgehechtheid de gegevens van het rapport genummerd. Wanneer de gebruiker de verbinding in e-mail klikt om tot het rapport toegang te hebben, moeten zij login eerst om het rapport te bekijken en de herinnering zelf in werking te stellen.
 
-   Voor informatie over het plannen van een geleverd rapport, zie [Plan een automatische levering van rapporten](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Voor informatie over het plannen van een geleverd rapport, zie [Plan een automatische levering van rapporten](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

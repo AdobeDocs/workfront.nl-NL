@@ -7,9 +7,9 @@ description: Veelgestelde vragen over rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Als ik een rapport met een grafiek stel, zie ik de foutmelding &quot;Wow daar...
 
 Deze fout betekent dat uw grafiek tot 618 verschillende resultaten-voor voorbeeld, meer dan 618 bars in een staafgrafiek bevat. Als u het weergaveprobleem wilt verhelpen, moet u de resultaten verfijnen door het huidige filter en de selecties te wijzigen.
 
-Zie de artikelen voor informatie over het wijzigen van filters en groepen [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Zie de artikelen voor informatie over het wijzigen van filters en groepen [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Waarom zie ik mijn taken (of kwesties) wanneer ik tot het zelfde rapport (of kalender) toegang heb zoals mijn medewerker en zij hun taken in plaats daarvan zien?
 

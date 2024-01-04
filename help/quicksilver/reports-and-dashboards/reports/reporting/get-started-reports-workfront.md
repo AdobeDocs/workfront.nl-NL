@@ -7,9 +7,9 @@ description: Rapporten geven inzicht in wat er met gebruikers en het werk gebeur
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Rapporten zijn een combinatie van de volgende drie elementen in Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <li>Bepaalt de hoeveelheid informatie die in een rapport wordt weergegeven.</li> <li>Zie voor informatie over filters <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Overzicht van filters in Adobe Workfront</a>.</li> <li>Voor informatie over filtermodifiers, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- en voorwaardenmodificatoren</a>.</li> <li>U kunt filteren door vervangingen te gebruiken, om uw filters algemener te maken en hen meer flexibiliteit van gebruik te geven.</li> <li>Voor informatie over het gebruiken van vervangingskaarten in filters, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabelen van jokerfilter</a>.</li> </td> 
+   <td> <li>Bepaalt de hoeveelheid informatie die in een rapport wordt weergegeven.</li> <li>Zie voor informatie over filters <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Overzicht van filters</a>.</li> <li>Voor informatie over filtermodifiers, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- en voorwaardenmodificatoren</a>.</li> <li>U kunt filteren door vervangingen te gebruiken, om uw filters algemener te maken en hen meer flexibiliteit van gebruik te geven.</li> <li>Voor informatie over het gebruiken van vervangingskaarten in filters, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabelen van jokerfilter</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

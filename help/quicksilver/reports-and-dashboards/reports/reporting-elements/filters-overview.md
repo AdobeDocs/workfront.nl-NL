@@ -2,19 +2,21 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Overzicht van filters in Adobe Workfront
+title: Overzicht van filters
 description: U kunt filters in Adobe Workfront gebruiken om de hoeveelheid informatie te verminderen u op het scherm in lijsten, rapporten, of andere gebieden toont.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
 
-# Overzicht van filters in Adobe Workfront
+# Overzicht van filters
+
+<!-- Audited: 01/2024 -->
 
 U kunt filters in Adobe Workfront gebruiken om de hoeveelheid informatie te verminderen u op het scherm in lijsten, rapporten, of andere gebieden toont.
 
@@ -57,7 +59,7 @@ Zie voor informatie over snelle filters [Het snelle filter toepassen op een lijs
 
 U kunt permanente filters gebruiken die u, anderen, of Workfront in lijsten of rapporten van voorwerpen worden gecreeerd.
 
-Voor informatie over objecten in Workfront en voor welke objecten u rapporten kunt maken, raadpleegt u [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor informatie over objecten in Workfront en voor welke objecten u rapporten kunt maken, raadpleegt u [Overzicht van Adobe Workfront-objecten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Zie de volgende artikelen voor meer informatie over filters in lijsten en rapporten:
 
@@ -70,7 +72,7 @@ Zie de volgende artikelen voor meer informatie over filters in lijsten en rappor
 U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende gebieden van Workfront:
 
 * Home\
-  Zie voor meer informatie de [De werklijst filteren](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) in het artikel [Items weergeven in de werklijst in het gebied Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Zie voor meer informatie de [De werklijst filteren](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) in het artikel [Items weergeven in de werklijst in het gebied Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Verzoeken. U kunt filters niet aanpassen in het gebied Verzoeken.
 
   Zie voor meer informatie [Verzonden aanvragen zoeken](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -80,7 +82,7 @@ U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende 
 
 * Gebruiksrapport
 
-  Zie de sectie [Informatie over filtergebruik](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) in het artikel [Informatie over bronnengebruik weergeven](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Zie de sectie [Informatie over filtergebruik](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) in het artikel [Informatie over bronnengebruik weergeven](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Werklastverdeling
 
@@ -130,7 +132,7 @@ U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende 
 
 ## Overzicht van filters in lijsten en rapporten
 
-Wanneer u werkt met lijsten en rapporten, kunt u informatie op het scherm filteren door de volgende typen filters te gebruiken:
+Wanneer u werkt met lijsten en rapporten, kunt u informatie op het scherm filteren met de volgende typen filters:
 
 * ingebouwde filters
 * nieuwe filters die u of anderen zelf maken
@@ -142,8 +144,9 @@ Wanneer u werkt met lijsten en rapporten, kunt u informatie op het scherm filter
 >Wanneer het creëren van of het uitgeven van filters in rapporten, moet u het rapport uitgeven opdat de nieuwe filter de standaardfilter voor het rapport wordt. Wanneer u enkel de filter, buiten de rapportbouwer uitgeeft, wordt de standaardfilter van het rapport niet bijgewerkt.\
 >Zie het artikel voor informatie over het bewerken van een rapport [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Raadpleeg het artikel voor informatie over Workfront-lijsten [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
-Zie het artikel voor informatie over Workfront-rapporten [Aan de slag met rapporten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Zie voor informatie over Workfront-lijsten [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+Zie voor informatie over Workfront-rapporten [Aan de slag met rapporten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Houd rekening met het volgende wanneer u werkt met filters in lijsten of rapporten:
 
@@ -151,13 +154,13 @@ Houd rekening met het volgende wanneer u werkt met filters in lijsten of rapport
 
 * Uw Workfront-beheerder moet u toegang tot filters, weergaven en groepen geven om permanente filters te maken.
 
-  Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Zie voor meer informatie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Het niveau van machtigingen voor een filter bepaalt hoe filters worden opgeslagen. Als u het filter oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie van het filter op te slaan die u wijzigt.
+* Het niveau van machtigingen voor een filter bepaalt hoe filters worden opgeslagen. Als u het filter oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. Anders wordt u gevraagd een nieuwe versie op te slaan van het filter dat u wijzigt.
 
   >[!TIP]
   >
-  >Houd er rekening mee dat de wijzigingen ook van invloed zijn op filters die u met anderen hebt gedeeld.
+  >Houd er rekening mee dat als u wijzigingen aanbrengt in een filter dat u met anderen hebt gedeeld, de wijzigingen ook van invloed zijn op deze filters.
 
 * U kunt een filter dat met u werd gedeeld aanpassen slechts als de gebruiker die het deelde u toegang leidde verleende. Zie voor informatie over het delen van een filter [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -181,14 +184,14 @@ Een filter bevat de volgende elementen:
  <tbody> 
   <tr> 
    <td><strong>Object</strong></td> 
-   <td> <p>Het Workfront-databaseobject van het filter. Ga voor informatie over welke objecten in Workfront worden gemeld naar <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten in Adobe Workfront begrijpen</a>. </p> <p>Projecten, taken, problemen, gebruikers en documenten kunnen bijvoorbeeld het voorwerp van een filter zijn. </p> </td> 
+   <td> <p>Het Workfront-databaseobject van het filter. Ga voor informatie over welke objecten in Workfront worden gemeld naar <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Overzicht van Adobe Workfront-objecten</a>. </p> <p>Projecten, taken, problemen, gebruikers of documenten kunnen bijvoorbeeld het voorwerp van een filter zijn. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Veld</strong></td> 
    <td> <p>Het kenmerk van het object waarop u filtert. </p> <p>U kunt bijvoorbeeld filteren op Naam Portfolio of Projecteigenaar. In dit geval zijn Naam en Eigenaar velden van het Portfolio en de projectobjecten. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Waarde</strong></p> </td> 
+   <td><strong>Waarde</strong></td> 
    <td>De werkelijke naam van het veld in Workfront. Bijvoorbeeld, kan Volledig de waarde van een gebied van de Status van het Project zijn. </td> 
   </tr> 
   <tr> 
@@ -241,14 +244,13 @@ Voor informatie over het creëren van een filter gebruikend de standaard of erfe
 
 ## Filters maken met de interface voor tekstmodus
 
-U kunt filters bouwen gebruikend de interface van de tekstwijze. Wij adviseren om de meeste filterverklaringen te bouwen gebruikend de standaard of bèta builder interface, en de code van de filter slechts als definitieve stap uit te geven. Het wordt niet aanbevolen een geheel nieuw filter te maken met alleen de interface van de tekstmodus.
+U kunt filters bouwen gebruikend de interface van de tekstwijze. Wij adviseren om de meeste filterverklaringen te bouwen gebruikend de standaard of erfenis bouwerinterface, en de code van de filter slechts als definitieve stap uit te geven. Het wordt niet aanbevolen een geheel nieuw filter te maken met alleen de interface van de tekstmodus.
 
 Zie voor meer informatie over het maken van een filter met de interface van de tekstmodus [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## Filters maken voor complexe velden
 
-* [Filters maken voor velden waarvan de waarden komma&#39;s bevatten](#create-filters-for-fields-whose-values-contain-commas)
-* [Filters maken waarvan de waarden een aangepast veld met meerdere selecties zijn](#create-filters-for-whose-values-are-a-multi-select-custom-field)
+U kunt filters maken voor complexe velden, zoals velden waarvan de waarden komma&#39;s en velden bevatten waarvan de waarden een aangepast veld met meerdere selecties zijn.
 
 ### Filters maken voor velden waarvan de waarden komma&#39;s bevatten {#create-filters-for-fields-whose-values-contain-commas}
 
@@ -270,7 +272,7 @@ Als u een filter wilt bouwen dat slechts projecten zou vinden waar de derde opti
 
 `DE:check_Mod=in`
 
-Deze syntaxis zorgt ervoor dat de waarden als één optie samen worden gelezen. Als u de schuine streep weglaat, leest Workfront de komma als &#39;OF&#39;. In dat geval worden alleen de projecten geselecteerd die de eerste of de tweede optie hebben.
+Deze syntaxis zorgt ervoor dat de waarden als één optie samen worden gelezen. Als u de schuine streep weglaat, leest Workfront de komma als OF. In dat geval worden alleen de projecten geselecteerd die de eerste of de tweede optie hebben.
 
 Deze syntaxis is ook van toepassing bij het samenstellen van vragen. Voor meer informatie over het gebruiken van herinneringen, zie [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

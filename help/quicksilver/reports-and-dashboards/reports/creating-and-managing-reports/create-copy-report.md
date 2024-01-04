@@ -7,9 +7,9 @@ description: U kunt een kopie maken van elk rapport waartoe u toegang hebt. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Ga als volgt te werk als u een kopie wilt maken van een rapport waarvan u de eigenaar bent:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Rapporten** vervolgens **Alle rapporten**.
 1. Open een rapport.
@@ -72,7 +72,7 @@ Ga als volgt te werk als u een kopie wilt maken van een rapport waarvan u de eig
    >
    >Als u de titel deselecteert voordat u de nieuwe naam typt, selecteert u de rapporttitel, verwijdert u de naam en voert u de nieuwe naam in.
 
-1. (Optioneel) Als u de nieuwe versie van het rapport wilt delen met andere gebruikers, klikt u op **Handelingen rapporteren** vervolgens **Delen**.
+1. (Optioneel) Klik op **Handelingen rapporteren** vervolgens **Delen**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Ga als volgt te werk als u een kopie wilt maken van een rapport waarvan u de eig
 
 Als u een exemplaar van een standaardrapport wilt tot stand brengen, doe het volgende:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Rapporten** vervolgens **Alle rapporten**.
 1. Klik op de naam van een standaardrapport om het te openen.
@@ -103,8 +103,8 @@ Als u een exemplaar van een standaardrapport wilt tot stand brengen, doe het vol
 1. Breng om het even welke wijzigingen aan u in de volgende lusjes van het rapport moet aanbrengen:
 
    * **Kolommen (weergave)**: Raadpleeg het artikel voor meer informatie over het aanpassen van weergaven [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-   * **Groepen**: Raadpleeg het artikel voor meer informatie over het aanpassen van groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filters**: Raadpleeg het artikel voor meer informatie over het aanpassen van filters. [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Groepen**: Raadpleeg het artikel voor meer informatie over het aanpassen van groepen. [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   * **Filters**: Raadpleeg het artikel voor meer informatie over het aanpassen van filters. [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
    * **Diagram**: Voor meer informatie over het aanpassen van een rapportgrafiek, zie het artikel [Een diagram toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. Klik in de rechterbovenhoek op **Rapportinstellingen**.
@@ -114,4 +114,4 @@ Als u een exemplaar van een standaardrapport wilt tot stand brengen, doe het vol
 
    ![](assets/nwe-save-as-new-report-350x220.png)
 
-1. (Optioneel) Als u de nieuwe versie van het rapport wilt delen met andere gebruikers, klikt u op **Handelingen rapporteren** vervolgens **Delen**.
+1. (Optioneel) Klik op **Handelingen rapporteren** vervolgens **Delen**.

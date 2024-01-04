@@ -6,9 +6,9 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt de volgende typen filters toepassen in Adobe Workfront:
 
 * Filters in andere gebieden van Workfront, buiten lijsten en rapporten.
 
-  Voor een lijst met alle filters in Workfront en de gebieden waarop u deze kunt toepassen, raadpleegt u [Overzicht van filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor een lijst met alle filters in Workfront en de gebieden waarop u deze kunt toepassen, raadpleegt u [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
 
@@ -241,7 +241,7 @@ Maak een filter met de standaardbuilderinterface:
 
    ![Opnemen als alle of een echt vervolgkeuzemenu](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Zie voor meer informatie over filteroperatoren [Overzicht van filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Zie voor meer informatie over filteroperatoren [Overzicht van filters](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik op het vervolgkeuzemenu met velden om een lijst weer te geven met onlangs gebruikte velden en stel velden voor waarop u wilt filteren. De voorgestelde velden worden momenteel weergegeven in de lijst waarop u filtert.
 
