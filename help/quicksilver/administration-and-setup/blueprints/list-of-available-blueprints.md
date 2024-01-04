@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront professional services
 **[!UICONTROL New Hire Readiness]**
 Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront] de organisatie van de professionele diensten heeft jarenlang tijdens implementatieovereenkomsten met de teams van het Personeel gebruikt om de specialisten van HR en het huren van managers ertoe aan te zetten essentiële activiteiten te voltooien om de eerste dag van een nieuwe werknemer opmerkelijk te maken.
 
-**Offboarding | Gebruikersdashboard wordt verwijderd**
+**Offboarding | Het dashboard van de Gebruiker scheiden**
 
 Deze blauwdruk bevat één dashboard met 13 rapporten om u te helpen, de voorwerpen en de taken vinden opnieuw toewijzen of anders beheren verbonden aan een gebruiker die Workfront vertrekt. U kunt deze rapporten ook gebruiken voor een gebruiker die naar een nieuwe rol of groep gaat om zijn werk opnieuw toe te wijzen.
 
@@ -129,6 +129,10 @@ Deze blauwdruk bevat één dashboard om systeembeheerders te helpen het systeem 
 **Waarderealisatie | Kernwaardedashboard**
 
 Deze blauwdruk bevat één dashboard met 21 rapporten om u te helpen de Waarde van Workfront meten. Deze rapporten helpen u de voordelen van het Centraliseren van het Werk en het Beheren van de Processen van het Werk in meetbare waarden vertalen die u in tijd kunt volgen om betere resultaten te drijven.
+
+[!BADGE Nieuw!]{type=Informative}**Waarderealisatie | Klantgericht servicedashboard leveren**
+
+Deze blauwdruk bevat één dashboard met 8 rapporten om u te helpen de voordelen van Workfront realiseren. Deze rapporten worden ontworpen om u te helpen uw cliënt-onder ogen ziende diensten in meetbare waarde omzetten die u in tijd kunt volgen om betere resultaten te drijven.
 
 **Waarderealisatie | Het dashboard bekijken en goedkeuren**
 
