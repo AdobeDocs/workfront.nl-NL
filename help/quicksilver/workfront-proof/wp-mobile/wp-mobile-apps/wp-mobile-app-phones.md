@@ -3,9 +3,10 @@ title: Workfront Proof mobile-app
 description: Meer informatie over de Workfront Proof mobile-app.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,6 @@ Vereist iOS 7.0 of hoger. Android 4.0 en hoger. Compatibel met iPhone, iPad en i
 >[!IMPORTANT]
 >
 >De Workfront Proof mobile-app wordt niet meer ondersteund en is ongewijzigd beschikbaar.  Eventuele problemen in de app worden niet opgelost.
-
-
-Download onze [!DNL Workfront Proof] Mobiele toepassing rechtstreeks vanuit de [Apple App Store](https://itunes.apple.com/us/app/workfront-proof/id1030372728?mt=8) of de [Google Play Store](https://play.google.com/store/apps/details?id=com.proofhq.tabletapp).
 
 Voor iOS-apparaten moet u de vorige [!DNL Workfront Proof] voor iOS-apparaten voordat u de nieuwe app installeert.
 
@@ -119,7 +117,7 @@ Wanneer u een proefdruk opent in de mobiele app, kunt u het volgende doen:
    * Een handeling toepassen op een opmerking:
 
       1. Open een opmerking.
-      1. Tik op **[!UICONTROL Reply]**.
+      1. Tikken **[!UICONTROL Reply]**.
       1. Open de [!UICONTROL actions] rechts van het tekstveld (1).
       1. Tikken **[!UICONTROL Add action]** (2)
 

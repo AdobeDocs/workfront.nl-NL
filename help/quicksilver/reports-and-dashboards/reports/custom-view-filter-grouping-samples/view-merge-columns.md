@@ -7,14 +7,16 @@ description: U kunt de informatie die in veelvoudige afzonderlijke kolommen word
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom
+
+<!-- Audited: 1/2024 -->
 
 U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond samenvoegen en het tonen in één gedeelde kolom.
 
@@ -32,8 +34,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td> <p> Huidige: 
+   <ul>
+   <li>Verzoek om een weergave te wijzigen</li> 
+   <li>Plan om een rapport te wijzigen</li>
+   </ul>
+     </p>
+     <p> Nieuw: 
+   <ul>
+   <li>Medewerker om een weergave te wijzigen</li> 
+   <li>Standaard voor het wijzigen van een rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -77,7 +90,7 @@ U kunt de gegevens van meerdere afzonderlijke kolommen samenvoegen en deze weerg
 >
 >Deze benadering wordt aanbevolen wanneer u twee kolommen samenvoegt die nooit een waarde voor dezelfde record tegelijk kunnen weergeven. Bijvoorbeeld, in een rapport van het Punt van het Werk, kunnen de kolommen van de Naam van de Uitgave en van de Naam van de Taak zonder een lijnonderbreking tussen hen worden samengevoegd omdat een Punt van het Werk nooit een Naam van de Uitgave en een Naam van de Taak tezelfdertijd kan hebben. Een werkitem kan een probleem of een taak in Workfront zijn.
 
-Dit doet u als volgt:
+Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
 1. Als u de tekstmodus voor een weergave gebruikt, voegt u de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
 

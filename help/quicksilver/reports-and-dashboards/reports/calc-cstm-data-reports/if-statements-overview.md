@@ -7,7 +7,7 @@ description: U kunt "IF"verklaringen in algemene programmeertalen gebruiken. In 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van &quot;IF&quot;-instructies
+
+<!-- Audited: 1/2024 -->
 
 U kunt &quot;IF&quot;verklaringen in algemene programmeertalen gebruiken. In Adobe Workfront kunt u met &#39;IF&#39;-instructies gegevensvelden vergelijken, opmaken en ordenen voor zowel rapportage- als aangepaste gegevensdoeleinden. Bovendien leidt het wiskundig denken over &#39;IF&#39;-instructies tot een beter conceptueel begrip, aangezien variabelen voor expressies veel worden gebruikt.
 
@@ -44,10 +46,10 @@ Overweeg het volgende voordat u een &quot;IF&quot;-instructie maakt:
 U kunt &#39;IF&#39;-instructies in Workfront maken met de volgende indeling:
 <pre>IF (Voorwaarde,Ware uitdrukking,Onjuiste uitdrukking)</pre>De componenten van een "IF"verklaring zijn:
 
-* **IF**= Dit is de door Workfront berekende gegevensexpressie voor &quot;function.&quot; Net als bij de SUM- en PROD-expressies vertelt dit het systeem eerst om de functie te begrijpen als een &quot;IF&quot;-instructie. Gebruik altijd hoofdletters voor &quot;IF&quot; in deze instructie.\
+* **IF** = Dit is de door Workfront berekende gegevensexpressie voor &quot;function.&quot; Net als bij de SUM- en PROD-expressies vertelt dit het systeem eerst om de functie te begrijpen als een &quot;IF&quot;-instructie. Gebruik altijd hoofdletters voor &quot;IF&quot; in deze instructie.\
   Zie voor een lijst met alle berekende gegevensexpressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Voorwaarde**= Dit is de voorwaarde waaraan de variabele Workfront moet voldoen en het is de basis voor deze vergelijking. Alles wat later in de vergelijking kan worden gespecificeerd hangt van de voorwaarde af. U kunt een aantal verwijzingen, vergelijkingen of wiskundige expressies gebruiken om een vergelijking te starten. Voorbeelden van voorwaarden zijn:
+* **Voorwaarde** = Dit is de voorwaarde waaraan de variabele Workfront moet voldoen en het is de basis voor deze vergelijking. Alles wat later in de vergelijking kan worden gespecificeerd hangt van de voorwaarde af. U kunt een aantal verwijzingen, vergelijkingen of wiskundige expressies gebruiken om een vergelijking te starten. Voorbeelden van voorwaarden zijn:
 
    * Een datum is groter dan een andere datum op een opgegeven object.
    * Een status is gelijk aan een van de beschikbare statussen voor een opgegeven object.
@@ -55,9 +57,9 @@ U kunt &#39;IF&#39;-instructies in Workfront maken met de volgende indeling:
 
 * **Condition-operator** = dit is de exploitant die u helpt de voorwaarde van uw &quot;IF&quot;verklaring bouwen. &#39;is gelijk aan&#39; of &#39;is groter dan&#39; zijn bijvoorbeeld voorwaarde-operatoren. Voor een lijst met voorwaardelijke operatoren die u kunt gebruiken in instructies, raadpleegt u [Operatoren voor voorwaarde in berekende aangepaste expressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **Waar*** Uitdrukking**= Dit is de variabele &quot;True&quot;, die de vergelijking vertelt welke indicator moet worden weergegeven wanneer aan de criteria van de voorwaarde is voldaan (ware indicatoren).
+* **Waar*** Uitdrukking** = Dit is de variabele &quot;True&quot;, die de vergelijking vertelt welke indicator moet worden weergegeven wanneer aan de criteria van de voorwaarde is voldaan (ware indicatoren).
 
-* **Onjuiste uitdrukking**= Dit is de variabele &quot;False&quot;, die de vergelijking vertelt welke indicator moet worden weergegeven wanneer niet aan de criteria van de voorwaarde wordt voldaan (valse indicatoren).
+* **Onjuiste uitdrukking** = Dit is de variabele &quot;False&quot;, die de vergelijking vertelt welke indicator moet worden weergegeven wanneer niet aan de criteria van de voorwaarde wordt voldaan (valse indicatoren).
 
 In het volgende voorbeeld wordt de oorspronkelijke indeling van de instructie gebruikt om een eenvoudige gegevensexpressie voor de instructie &#39;IF&#39; te schrijven. De expressie vergelijkt twee verschillende datumvelden in Workfront, gevolgd door een Waar/Onwaar-resultaat als een gegevenstekenreeks:
 

@@ -7,9 +7,9 @@ description: Via e-mailberichten die zijn gegenereerd door Workfront Proof worde
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ Via e-mailmeldingen worden medewerkers op de hoogte gebracht van recente activit
 
 U kunt e-mailmeldingen instellen voor revisoren in de volgende gebieden:
 
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Proefdruk standalone</td> 
+  </tr> 
+</table>
+
+E-mailmeldingen voor controleurs kunnen worden ingesteld op de pagina Nieuwe proefdruk. [!UICONTROL New version] pagina, en beheerd in [!UICONTROL Workflow] van de [!UICONTROL Proof details] pagina. Zie voor meer informatie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * De pagina Nieuwe proefdruk
 * De [!UICONTROL New version] page
 * De [!UICONTROL Workflow] van de [!UICONTROL Proof details] pagina.
 
 Zie voor meer informatie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Proofinggegevens beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+Elke gebruiker kan ook zijn eigen instellingen voor e-mailwaarschuwingen instellen die automatisch worden toegepast wanneer een proefdruk met hen wordt gedeeld als de medewerkers hun voorkeuren hebben of als accountbeheerders hun aanbeveling over de frequentie van waarschuwingen hebben. Dit kan als proefgebrek op de pagina&#39;s van gebruikersdetails worden geplaatst.
 
 Elke gebruiker kan ook zijn eigen instellingen voor e-mailwaarschuwingen instellen die automatisch worden toegepast wanneer een proefdruk met hem wordt gedeeld. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

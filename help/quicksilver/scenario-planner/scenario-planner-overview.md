@@ -7,7 +7,7 @@ description: De Scenario Planner vereist naast de Adobe Workfront-licentie een a
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # De [!DNL Scenario Planner] overzicht
+
+<!-- Audited: 1/2024 -->
 
 De [!DNL Scenario Planner] naast de [!DNL Adobe Workfront] licentie.
 Voor informatie over de toegang die nodig is om de [!DNL Workfront Scenario Planner], zie [Toegang nodig om de [!DNL Scenario Planner]](access-needed-to-use-sp.md).
@@ -38,45 +40,45 @@ Voor informatie over het beginnen met [!DNL Workfront Scenario Planner], zie [Aa
 
 De volgende functionaliteit is momenteel opgenomen in de [!DNL Workfront Scenario Planner]:
 
-* Geef aan welke toegang uw gebruikers moeten hebben tot de [!DNL Workfront Scenario Planner].
+* Geef aan welke toegang uw gebruikers moeten hebben tot de [!DNL Workfront Scenario Planner]
 
-   Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-* Stel plannen in om de belangrijkste initiatieven binnen uw organisatie aan te geven en om het aanbod van personele middelen en budget voor uw plannen te definiëren.
+* Maak plannen om de belangrijkste initiatieven binnen uw organisatie aan te geven en de levering van personele middelen en het budget voor uw plannen te definiëren
 
-   Voor informatie over het maken van plannen raadpleegt u [Plannen maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+  Voor informatie over het maken van plannen raadpleegt u [Plannen maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-* Voeg initiatieven toe aan uw plannen om de verschillende activiteiten aan te geven die uiteindelijk uw plannen zullen verwezenlijken en de vraag naar personele middelen en kosten voor uw initiatieven bepalen.
+* Voeg initiatieven toe aan uw plannen om de diverse activiteiten te wijzen die uiteindelijk uw plannen zullen bereiken en de vraag naar personele middelen en kosten voor uw initiatieven bepalen
 
-   Voor informatie over het maken van initiatieven raadpleegt u [Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+  Zie voor informatie over het maken van initiatieven [Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-* Wanneer er mensen of begrotingsconflicten zijn tussen uw initiatieven, los de conflicten op door vraaginformatie over de initiatieven bij te werken, prioriteiten te wijzigen of leveringsinformatie over het plan bij te werken.
+* Wanneer er mensen of begrotingsconflicten zijn tussen uw initiatieven, los de conflicten op door vraaginformatie over de initiatieven bij te werken, prioriteiten te wijzigen of leveringsinformatie op het plan bij te werken
 
-   Voor informatie over het oplossen van conflicten tussen initiatieven, zie [Initiatiefconflicten oplossen in de [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+  Voor informatie over het oplossen van conflicten tussen initiatieven, zie [Initiatiefconflicten oplossen in de [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-* Creeer veelvoudige scenario&#39;s van uw plan en vergelijk hen om het beste resultaat voor het verwezenlijken van het plan te identificeren.
+* Creeer veelvoudige scenario&#39;s van uw plan en vergelijk hen om het beste resultaat voor het verwezenlijken van het plan te identificeren
 
-   Voor informatie over het creëren van en het vergelijken van scenario&#39;s, zie [Plan-scenario&#39;s maken en vergelijken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+  Voor informatie over het creëren van en het vergelijken van scenario&#39;s, zie [Plan-scenario&#39;s maken en vergelijken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
-* Importeer projecten in een plan om nieuwe initiatieven te ontwikkelen.
+* Projecten importeren in een plan om nieuwe initiatieven te maken
 
-   De volgende projectinformatie wordt ingevoerd in het plan en wordt initiatiefinformatie:
+  De volgende projectinformatie wordt ingevoerd in het plan en wordt initiatiefinformatie:
 
    * Projectnaam
    * De rollen van de baan verbonden aan taken en kwesties op het project
    * Taakrollen FTE geconverteerd van de geplande uren die zijn toegewezen aan de rollen in het project
    * De roluren van de baan uren wanneer het plan opstelling is om uren in plaats van FTEs te gebruiken
 
-   Voor informatie over het invoeren van projecten in een plan, zie [Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Voor informatie over het invoeren van projecten in een plan, zie [Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Publiceer een scenario om projecten tot stand te brengen of bij te werken verbonden aan de initiatieven in het scenario.
+* Publiceer een scenario om projecten tot stand te brengen of bij te werken verbonden aan de initiatieven in het scenario
 
-   Voor informatie over het publiceren scenario&#39;s, zie [Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  Voor informatie over het publiceren scenario&#39;s, zie [Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-* Deel een plan met andere gebruikers voor betere samenwerking.
+* Deel een plan met andere gebruikers voor betere samenwerking
 
-   Zie voor meer informatie [Een abonnement delen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+  Zie voor meer informatie [Een abonnement delen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
 
-* Schat of pas maandelijks de vereiste baanrollen of Vaste kosteninformatie, voor elke maand van de duur van een initiatief aan.
+* Schatting of aanpassing van de vereiste functies of informatie over vaste kosten maandelijks, voor elke maand van de duur van een initiatief
 
-   Voor informatie over het schatten van middelen voor initiatieven, zie [Initiatiefconflicten oplossen in de [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+  Voor informatie over het schatten van middelen voor initiatieven, zie [Initiatiefconflicten oplossen in de [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).

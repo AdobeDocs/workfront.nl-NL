@@ -7,7 +7,7 @@ description: U kunt een projecteigenaar en een projectsponsor voor een project a
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van eigenaars en sponsors van projecten
+
+<!-- Audited: 1/2024 -->
 
 U kunt een projecteigenaar en een projectsponsor voor een project aanwijzen.
 
@@ -36,24 +38,25 @@ Het veld Projecteigenaar kan het volgende gebruiken:
 * U kunt de Eigenaars van het Project als urenfiatteur voor het project aanwijzen.
 * U kunt de Eigenaar van het Project als generische fiatteur aanwijzen wanneer het bepalen van project, taak, of goedkeuringsprocessen. Voor informatie over goedkeuringen raadpleegt u [Een goedkeuringsproces bewerken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Wanneer u een goedkeuring toewijst aan de Eigenaar van het Project en niemand als eigenaar van een project wordt aangewezen, wordt de goedkeuring opnieuw toegewezen aan de belangrijkste beheerder van Workfront zoals die in de sectie van de Info van de Klant in het gebied van de Opstelling wordt vermeld. Zie voor meer informatie [Basisinformatie voor uw systeem configureren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >[!IMPORTANT]
+  >
+  >Wanneer u een goedkeuring toewijst aan de Eigenaar van het Project en niemand als eigenaar van een project wordt aangewezen, wordt de goedkeuring opnieuw toegewezen aan de belangrijkste beheerder van Workfront zoals die in de sectie van de Info van de Klant in het gebied van de Opstelling wordt vermeld. Zie voor meer informatie [Basisinformatie voor uw systeem configureren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
 * U kunt bepaalde berichten inschakelen die alleen aan de eigenaar van het project worden bezorgd.
 
-   Zie de sectie voor meer informatie over e-mailmeldingen [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) in het artikel [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Zie de sectie voor meer informatie over e-mailmeldingen [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) in het artikel [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * U kunt het veld Projecteigenaar in een rapport of lijst weergeven.
 
-   U kunt het veld Projecteigenaar ook weergeven in een weergave, groep of vraag.
+  U kunt het veld Projecteigenaar ook weergeven in een weergave, groep of vraag.
 
-   U kunt bijvoorbeeld de volgende expressie in de tekstmodus naar een filter kopiëren om projecten weer te geven die eigendom zijn van de aangemelde gebruiker: 
+  U kunt bijvoorbeeld de volgende expressie in de tekstmodus naar een filter kopiëren om projecten weer te geven die eigendom zijn van de aangemelde gebruiker: 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 Zie het artikel voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -82,23 +85,23 @@ Houd rekening met het volgende wanneer u een projectsponsor toewijst:
 * U kunt slechts één projectsponsor aanwijzen.
 * U kunt de Projectsponsor aanwijzen als een generieke fiatteur wanneer het bepalen van project, taak, of goedkeuringsprocessen. Voor informatie over goedkeuringen raadpleegt u [Een goedkeuringsproces bewerken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Wanneer u een goedkeuring toewijst aan de projectsponsor en niemand als sponsor van een project is aangewezen, wordt de goedkeuring opnieuw toegewezen aan de eigenaar van het project. Als niemand als eigenaar van het project wordt aangewezen, wordt de goedkeuring toegewezen aan de beheerder van Workfront.
+  >[!IMPORTANT]
+  >
+  >Wanneer u een goedkeuring toewijst aan de projectsponsor en niemand als sponsor van een project is aangewezen, wordt de goedkeuring opnieuw toegewezen aan de eigenaar van het project. Als niemand als eigenaar van het project wordt aangewezen, wordt de goedkeuring toegewezen aan de beheerder van Workfront.
 
 * U kunt het veld Projectsponsor in een rapport of lijst weergeven.
 
-   U kunt het veld Projectsponsor ook weergeven in een weergave, groep of vraag.
+  U kunt het veld Projectsponsor ook weergeven in een weergave, groep of vraag.
 
-   U kunt bijvoorbeeld de volgende expressie in de tekstmodus naar een filter kopiëren om projecten weer te geven die worden gesponsord door de aangemelde gebruiker:
+  U kunt bijvoorbeeld de volgende expressie in de tekstmodus naar een filter kopiëren om projecten weer te geven die worden gesponsord door de aangemelde gebruiker:
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   Zie het artikel voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Zie het artikel voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

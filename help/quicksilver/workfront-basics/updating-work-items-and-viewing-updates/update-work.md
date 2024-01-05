@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4189'
 ht-degree: 0%
 
 ---
@@ -113,38 +113,7 @@ Zie voor meer informatie over opmerkingen over kaarten in het gebied Boards [Een
 
 ## Toegangsvereisten
 
-<!--
-drafted for P&P release:
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Current license: Contributor or higher for issues and documents: Light or higher for all other objects</p> 
-   Or
-   <p>Legacy  license: Request or higher for issues and documents; Review or higher for all other objects</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or Edit access for the object the update is on</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -159,14 +128,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Aanvragen of hoger voor problemen en documenten</p>
-   <p> Reviseren of hoger voor alle andere objecten</p> </td> 
+   <td> 
+   <p>Huidig: Verzoek of hoger voor uitgaven en documenten; Controleren of hoger voor alle andere objecten</p>
+   <p>Nieuw: Medewerker of hoger voor uitgaven en documenten: licht of hoger voor alle andere objecten</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
    <td> <p>Toegang weergeven of bewerken voor het object waarop de update betrekking heeft</p> <p><b>OPMERKING</b>
 
-Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -174,6 +145,7 @@ Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende bep
   </tr> 
  </tbody> 
 </table>
+
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 

@@ -3,16 +3,19 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
 description: U kunt uw werk in [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
 
 # Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,7 +48,8 @@ U moet het volgende hebben:
   <tr>
    <td><strong>[!DNL Adobe Workfront] licenties*</strong>
    </td>
-   <td>[!UICONTROL Plan]
+   <td>Huidige: [!UICONTROL Plan] <br>
+   Nieuw: [!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -81,7 +85,8 @@ Voordat u begint,
 
 ## De integratiegegevens instellen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** in de rechterbovenhoek van Adobe Workfront en klik vervolgens op **[!UICONTROL Setup]** .
+{{step-1-to-setup}}
+
 1. Selecteren **[!UICONTROL Documents]** in het linkerdeelvenster selecteert u vervolgens **[!UICONTROL [!DNL Experience Manager] Integration]**.
 
    >[!NOTE]

@@ -6,7 +6,7 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -50,6 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een nieuw bord maken
 
 {{step1-to-boards}}
+
 1. Klik op **[!UICONTROL Add board]**.
 
 1. Selecteer een sjabloon voor het bord.
@@ -98,6 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een bestaand bord bewerken
 
 {{step1-to-boards}}
+
 1. Selecteer op het dashboard het board dat u wilt openen.
 1. Bewerk het bord naar wens. U kunt op de naam van het tekengebied klikken om de naam te wijzigen.
 

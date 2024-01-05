@@ -7,20 +7,22 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # Taken maken in een project
 
-U kunt taken in een project slechts tot stand brengen nadat u het project creeerde.
+<!-- Audited: 1/2024 -->
+
+U kunt taken in een project slechts tot stand brengen nadat u het project creeert.
 
 Bijvoorbeeld, na het creëren van een project, zou u taken kunnen willen toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
-Voor informatie over het creëren van persoonlijke taken die niet in een project zijn, zie de &quot;Create een persoonlijke taak&quot;sectie in het artikel [Werkitems maken vanuit het gebied Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Voor informatie over het creëren van persoonlijke taken die niet in een project zijn, zie [Een persoonlijke taak maken](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) in het artikel [Werkitems maken vanuit het gebied Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken ook op de volgende manieren maken:
 
@@ -28,35 +30,6 @@ In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken oo
 * Door taken van het ene project naar het andere te verplaatsen. Zie voor meer informatie [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Toegangsvereisten
-
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,26 +41,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td><p>Huidig: Werk of hoger</p> 
+   of
+   <p>Nieuw: Standaard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot taken raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Toegang verlenen tot taken</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot taken raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Toegang verlenen tot taken</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Voor informatie over taaktoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Een taak delen </a>. </p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Zie voor informatie over taakmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Een taak delen </a>. </p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
 ## Taken maken in een project
 
-1. Ga naar het project waar u een taak wilt creëren.
+1. Ga naar het project waar u een taak wilt tot stand brengen.
 1. Klikken **Taken** in het linkerdeelvenster.
-1. (Voorwaardelijk) Als u de takenlijst momenteel in een flexibele weergave bekijkt, klikt u op de knop **Lijstweergave** pictogram ![](assets/list-view-in-agile-view-for-tasks.png) in de rechterbovenhoek om de takenlijst weer te geven.
+1. (Voorwaardelijk) Als u de takenlijst momenteel in een wendbare mening bekijkt, klik **Lijstweergave** pictogram ![](assets/list-view-in-agile-view-for-tasks.png) in de rechterbovenhoek om de takenlijst weer te geven.
 1. (Optioneel) Klik op de knop **Abonnementsmodus** pictogram ![](assets/nwe-plan-mode-icon-task-list.png) en selecteert u **Handmatig opslaan** Selecteer vervolgens een van de **Standaard** of **Tijdlijnplanning**. Hiermee schakelt u het **Automatisch opslaan** Deze optie is standaard ingeschakeld.
 
    ![Handmatig opslaan selecteren](assets/manual-save-option.png)
@@ -98,8 +74,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Maak een nieuwe taak door een van de volgende handelingen uit te voeren:
 
-   * Klikken **Nieuwe taak** boven aan de takenlijst
-   * Klikken **Meer taken toevoegen** onder aan de takenlijst
+   * Klikken **Nieuwe taak** boven aan de takenlijst.
+   * Klikken **Meer taken toevoegen** onder aan de takenlijst.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
@@ -109,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
       of
 
-      Als u alle velden voor de taak wilt bijwerken, klikt u op **Meer opties** om de **Taak maken** doos.
+      Klik op **Meer opties** om de **Taak maken** doos.
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 
@@ -149,13 +125,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Voorwaardelijk) Voer een van de volgende handelingen uit:
 
-   * Als u hebt geklikt **Nieuwe taak** in stap 5 klikt u op **Taak maken** om uw wijzigingen op te slaan en de nieuwe taak toe te voegen aan uw project.
+   * Als u klikt **Nieuwe taak** in stap 5 klikt u op **Taak maken** om uw wijzigingen op te slaan en de nieuwe taak toe te voegen aan uw project.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
-   * Als u hebt geklikt **Meer taken toevoegen** Voer in stap 5 de volgende handelingen uit:
+   * Als u klikt **Meer taken toevoegen** Voer in stap 5 de volgende handelingen uit:
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
@@ -166,9 +142,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
          Dit maakt van de nieuwe taak een kind of subtaak van de vorige taak.
 
-         Voor meer informatie over kindertaken raadpleegt u [Overzicht van taken](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Zie voor meer informatie over kindertaken [Overzicht van taken](../../../manage-work/tasks/task-information/tasks-overview.md).
 
-      1. (Voorwaardelijk) Als u de optie **Automatisch opslaan** optie na het indrukken **Meer taken toevoegen** kunt u het volgende doen:
+      1. (Voorwaardelijk) Als u de optie **Automatisch opslaan** optie na drukken **Meer taken toevoegen** kunt u het volgende doen:
 
          * Klikken **Ongedaan maken** op elk moment om de laatste wijziging om te keren, of **Annuleren** om alle wijzigingen in de takenlijst om te keren.
          * Als u eerder hebt geklikt **Ongedaan maken**, klikt u op **Opnieuw** om de laatste geannuleerde wijziging opnieuw toe te passen.

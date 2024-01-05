@@ -9,7 +9,7 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 0%
@@ -353,7 +353,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Method]</td> 
-   <td>Stel de handeling in voor de API-aanroep. Voor beschikbare acties raadpleegt u de <a href="http://api.proofhq.com/">Proefversie van API-documentatie</a>.</td> 
+   <td>Stel de handeling in voor de API-aanroep. Voor beschikbare acties raadpleegt u de <a href="https://api.proofhq.com/">Proefversie van API-documentatie</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
