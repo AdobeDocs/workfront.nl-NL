@@ -1,5 +1,5 @@
 ---
-title: Vereisten voor toegangsniveaus
+title: Toegangsvereisten in Workfront-documentatie
 content-type: reference
 product-area: system-administration
 keywords: toegang,niveau,systeem,beheerder,planner,worker,revisor,aanvrager,extern,gebruiker
@@ -8,16 +8,14 @@ description: Workfront-documentatie bevat een tabel met uitleg over de toegang e
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
+source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Vereisten voor toegangsniveaus in Workfront-documentatie
+# Toegangsvereisten in Workfront-documentatie
 
 Workfront-documentatie bevat een tabel met uitleg over de vereisten voor toegang en machtigingen die nodig zijn voor die procedure. Deze lijst van de Vereisten van Toegang staat u toe om te begrijpen of u een bepaalde actie in Workfront kunt uitvoeren, of waarom u niet zou kunnen. Dit artikel verklaart elk element van de lijst van de Vereisten van de Toegang, en verstrekt het oplossen van problemenuiteinden en verbindingen aan meer diepgaande informatie.
 
@@ -50,7 +48,7 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <ul>
    <li>Nieuw: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Overzicht van nieuwe licenties</a></li>
    <li>Huidige: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van licenties</a></li></ul></li>
-   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.
+   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.
    </ul>
       </p> </td> 
   </tr> 
@@ -75,27 +73,20 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <li>Nieuw: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Overzicht van nieuwe toegangsniveaus</a></li>
    <li>Huidige: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Overzicht van toegangsniveaus</a></li></ul></li>
     <li>Neem contact op met uw Workfront-beheerder voor meer informatie over uw toegangsniveau</li>
-    <li>Als u Workfront-beheerder bent, raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Toegang tot Adobe Workfront configureren</a> voor meer informatie over het verlenen van toegang tot specifieke voorwerpen op het toegangsniveau.</li>  
-   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</li>
+    <li>Als u Workfront-beheerder bent, raadpleegt u <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Toegang tot Adobe Workfront configureren</a> voor meer informatie over het verlenen van toegang tot specifieke voorwerpen op het toegangsniveau.</li>  
+   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</li>
     </td>
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td><p>Objectmachtigingen hebben betrekking op de toegang die u hebt tot afzonderlijke Workfront-objecten wanneer u deze maakt of wanneer deze met u worden gedeeld. Bijvoorbeeld, moet u de toegang van de Mening tot een specifiek project hebben om het project te bekijken, zelfs als uw toegangsniveau u toestaat om projecten te bekijken. In deze sectie van de tabel met toegangsvereisten worden alle specifieke objectmachtigingen beschreven die u nodig hebt om de handeling in het artikel uit te voeren.</p>
-   <p>Voor informatie over het aanvragen van aanvullende toegang tot een object raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p></td> 
+   <p>Voor informatie over het aanvragen van aanvullende toegang tot een object raadpleegt u <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p><p>Zie voor informatie over het delen van een object <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Een object delen</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td>Workfront biedt een aantal producten die naast Workfront kunnen worden aangeschaft.
-   <p>Artikelen die procedures beschrijven die binnen deze aanvullende producten worden uitgevoerd, vermelden hier het vereiste product.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets of Assets Essentials </li>
-   <li>Workfront Fusion *</li>
-   <li>Workfront-doelstellingen *</li>
-   <li>Workfront Scenario Planner *</li>
-   </ul>
-   <p>* Bij Workfront Ultimate-abonnement inbegrepen
-   <p>Neem contact op met de Workfront-beheerder als u wilt weten of uw organisatie een van deze extra producten heeft aangeschaft of of uw organisatie zich op het Workfront Ultimate-plan bevindt.</p></td> 
+   <td role="rowheader">Lay-outsjabloon</td> 
+   <td><p>De malplaatjes van de lay-out controleren wat u in uw Belangrijkste Menu kunt zien, en door uw beheerder van Workfront gevormd. Deze regel verwijst naar specifieke gebieden van Workfront die moeten worden opgenomen in het hoofdmenu om de handeling uit te voeren.</p><p>In het algemeen geldt dat als een artikel u opdraagt om op een gebied in het hoofdmenu te klikken, en dat gebied niet zichtbaar is in uw hoofdmenu, u contact opneemt met uw Workfront-beheerder om te bepalen of dat gebied voor u beschikbaar kan worden gemaakt.</p><p>
+   Voor informatie over hoe een Beheerder van Workfront het Belangrijkste Menu kan vormen, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Het hoofdmenu aanpassen met een lay-outsjabloon</a>.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
