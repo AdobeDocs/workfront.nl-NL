@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -43,10 +43,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## De betreffende instellingen
 

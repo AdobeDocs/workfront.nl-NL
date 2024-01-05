@@ -6,9 +6,9 @@ description: U kunt een filter in een lijst of rapport uitgeven gebruikend tekst
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere filters creëren.
 
-Zie ook de sectie &#39;Voorbeelden van aangepaste filters&#39; in het artikel voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Zie ook de sectie voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste filters](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) in het artikel [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Toegangsvereisten
 
@@ -34,27 +34,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
     <p>of</p>
     <p>Huidig: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om rapportelementen in een rapport te bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot filters, weergaven en groepen bewerken</p> <p>Toegang tot rapporten, dashboards en kalenders bewerken om rapportelementen in een rapport te bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten beheren voor een rapport om filters in een rapport te bewerken</p> <p>Machtigingen voor een filter beheren om het te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
+   <td> <p>Rechten beheren voor een rapport om filters in een rapport te bewerken</p> <p>Machtigingen voor een filter beheren om het te bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 

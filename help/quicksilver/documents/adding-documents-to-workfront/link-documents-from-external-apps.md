@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td>
+   <td role="rowheader">Adobe Workfront-plan</td>
    <td> <p> Alle</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td>
+   <td role="rowheader">Adobe Workfront-licentie</td>
    <td><p>Nieuw: Medewerker of hoger</p>
     <p>of</p>
     <p>Huidig: Verzoek of hoger</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Documentopslag
 

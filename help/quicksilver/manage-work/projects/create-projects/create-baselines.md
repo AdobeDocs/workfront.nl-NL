@@ -6,9 +6,9 @@ description: Een basislijn is een projectmomentopname die zeer belangrijke stukk
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -62,28 +62,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
     <td><p>Nieuw: Standaard</p>
         <p>of</p>
         <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
-   Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot projecten, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Toegang verlenen tot projecten</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor het project of hoger om basislijnen weer te geven</p> <p>Rechten voor het project beheren om basislijnen te maken</p> <p> Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor het project of hoger om basislijnen weer te geven</p> <p>Rechten voor het project beheren om basislijnen te maken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het werken met basislijnen
 

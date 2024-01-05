@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <p>Huidige: [!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder. Voor informatie over [!DNL Workfront] beheerders, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ondersteunde integratie
 

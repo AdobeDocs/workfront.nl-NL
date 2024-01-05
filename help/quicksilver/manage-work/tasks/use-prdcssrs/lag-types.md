@@ -7,9 +7,9 @@ description: Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorg
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -61,27 +61,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
        <p>of</p>
        <p>Huidig: Plan </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Lag- en labeltypen aangeven voor taken
 
