@@ -6,9 +6,9 @@ description: Het delegeren van goedkeuringsverzoeken staat u toe om een andere g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # Goedkeuringsaanvraag delegeren
 
 U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. U kunt taken delegeren en taken uitgeven of u kunt goedkeuringsverzoeken delegeren. Dit artikel beschrijft hoe te om goedkeuringsverzoeken te delegeren. Voor informatie over het delegeren van taak en uitgiftetaken, zie [Taak beheren en taken delegeren](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+U kunt de volgende typen goedkeuringen delegeren, ongeacht hoe de goedkeuring aan u is toegewezen (of deze rechtstreeks aan u zijn toegewezen, aan een team u lid van, of aan uw baanrol):
+
+* Projectgoedkeuringen
+* Taken goedkeuren
+* Goedkeuring afgeven
+
+U kunt geen timesheet-, document- of proefdrukgoedkeuringen delegeren.
 
 >[!NOTE]
 >
@@ -83,7 +91,7 @@ U kunt de volgende typen goedkeuringen delegeren, ongeacht hoe de goedkeuring aa
 * Taken goedkeuren
 * Goedkeuring afgeven
 
-U kunt geen timesheet- en documentgoedkeuringen delegeren. 
+U kunt geen timesheet-, document- of proefdrukgoedkeuringen delegeren.
 
 Overweeg het volgende wanneer het delegeren van goedkeuringen:
 

@@ -6,9 +6,9 @@ description: U kunt documenten toevoegen aan projecten, taken of problemen in me
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Een document toevoegen:
 1. Ga naar het project, de taak, of de kwestie waar u een nieuw document wilt toevoegen.
 1. Klik op de knop **Documenten** en klikt u op de knop **Nieuwe toevoegen** vervolgkeuzelijst.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. Voer afhankelijk van het type document dat u wilt toevoegen een van de volgende handelingen uit:
 
@@ -98,7 +98,7 @@ Een document toevoegen:
         <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Een document aanvragen</strong>.</li> 
         <li value="2">In de <strong>Wie vraagt u het bij</strong> typt u de naam van de gebruiker van wie u het document aanvraagt.</li> 
         <li value="3">In de <strong>Vertel ze wat je vraagt</strong> typt u de naam van het document.</li> 
-        <li value="4"> <p>Klikken <strong>Aanvraag verzenden</strong>.</p> <p>Uw verzoek wordt weergegeven op het tabblad Documenten.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Zie voor meer informatie over het aanvragen van documenten <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Een document aanvragen</a>.</p> </li> 
+        <li value="4"> <p>Klikken <strong>Aanvraag verzenden</strong>.</p> <p>Uw verzoek wordt weergegeven op het tabblad Documenten.</p> <p>Zie voor meer informatie over het aanvragen van documenten <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Een document aanvragen</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
