@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: b2409ceb7358d92ca1941bd849cb6ffd76f0763e
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Aan de slag met de nieuwe startpagina
 
 <!--Audited: 12/2023-->
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 De nieuwe Home-ervaring in Adobe Workfront is bedoeld om de huidige Home-ervaring te verbeteren en biedt een flexibelere manier om u te richten op het juiste werk.
 
@@ -56,6 +58,9 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
 
 * **Alle goedkeuringen**\
     Toont alle goedkeuringen voor uw organisatie in een lijst met klantgerichte kolommen, evenals een onderzoeksbar die u toestaat om naar specifieke goedkeuringen te zoeken.
+
+* <span class="preview">**Goedkeuringen in behandeling**</span>\
+    <span class="preview">De goedkeuringen van vertoningen die aan een document op een project worden toegewezen u bezit. Hier kunt u de goedkeuringsstatus weergeven en gebruikers herinneren aan onvolledige beoordelingen en goedkeuringen. <span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></span>
 
 * **Opmerkingen**\
     Geeft recente commentaarthreads van over Workfront weer, net als de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
