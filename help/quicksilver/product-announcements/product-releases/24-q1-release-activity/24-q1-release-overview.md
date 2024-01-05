@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe widget voor goedkeuringen in behandeling beschikbaar</a></p><p><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd. </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 3 januari 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen</a></p><p>Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).</p>
                     </td>

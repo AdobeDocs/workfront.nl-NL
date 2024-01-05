@@ -4,9 +4,9 @@ description: Verbeteringen startpunt eerste kwartaal 2024
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Op deze pagina worden alle thuisverbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Nieuwe widget voor goedkeuringen in behandeling beschikbaar
+
+Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd. Hier ziet u een lijst met gebruikers die zijn toegewezen aan het goedkeuren of reviseren van documenten over projecten die u hebt, de status van hun controle of goedkeuring bekijken en revisoren en fiatteurs eraan herinneren de revisie of goedkeuring te voltooien.
+
+Ga voor meer informatie over Home-widgets naar [Aan de slag met de nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen
 
