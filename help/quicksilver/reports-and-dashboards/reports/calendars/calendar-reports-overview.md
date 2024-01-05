@@ -3,44 +3,48 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Overzicht van kalenderrapporten
-description: Een kalenderrapport is eigenlijk een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt.
+description: Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt datuminformatie in een kalenderrapport weergeven voor taken, problemen en projecten.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Overzicht van kalenderrapporten
 
-Een kalenderrapport is eigenlijk een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt datumgegevens in een kalenderrapport weergeven voor de volgende objecten:
+<!-- Audited: 01/2024 -->
+
+Een kalenderrapport is eigenlijk een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt datumgegevens in een kalenderrapport weergeven voor de volgende objecten:
 
 * Taken
 * Problemen
 * Projecten
 
-Uw mogelijkheden om kalenderrapporten te openen in [!DNL Adobe Workfront] wordt bepaald door [!DNL Workfront] beheerder door uw toegangsniveau. Voor meer informatie over het toegangsniveau nodig om kalenderrapporten te bekijken, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Uw mogelijkheden om kalenderrapporten te openen in [!DNL Adobe Workfront] wordt bepaald door uw toegangsniveau. Voor meer informatie over de toegang nodig om kalenderrapporten te bekijken, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Uw eigen kalenders maken
 
-[!UICONTROL Workfront] maakt automatisch een persoonlijke standaardkalender wanneer:
+[!DNL Workfront] maakt automatisch uw persoonlijke standaardkalender wanneer:
 
-* Een pas gecreëerde gebruiker die geen toegang tot andere kalenders heeft bezoekt de pagina van het kalenderrapport voor het eerst\
-   OF
-* Een gebruiker verwijdert handmatig alle kalenders en heeft geen toegang tot andere kalenders
+* U bent een nieuwe gebruiker die geen toegang tot andere kalenders heeft en u bezoekt de pagina van het kalenderrapport voor het eerst
 
->[!NOTE]
->
->De persoonlijke kalender wordt niet gecreeerd als de gebruiker toegang tot andere kalenders, zoals een systeem-brede gedeelde kalender of kalenders heeft die specifiek met de gebruiker worden gedeeld.
+  OF
 
-Bovendien kunnen gebruikers kalenders en toegangscalenders maken die met hen worden gedeeld door andere gebruikers. Er is geen limiet aan het aantal kalenders waartoe een gebruiker in Workfront toegang kan hebben.
+* U verwijdert handmatig alle kalenders en hebt geen toegang tot andere kalenders
 
 >[!NOTE]
 >
->U moet [!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport te creëren. Neem contact op met uw [!DNL Workfront] beheerder.
+>De persoonlijke kalender wordt niet gecreeerd als u toegang tot andere kalenders, zoals een systeem-brede gedeelde kalender of kalenders hebt die specifiek met u worden gedeeld.
+
+Bovendien kunt u kalenders en toegangskalenders tot stand brengen die met u door andere gebruikers worden gedeeld. Er is geen limiet voor het aantal kalenders waartoe u toegang kunt hebben [!DNL Workfront].
+
+>[!NOTE]
+>
+>U moet [!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport te creëren. Neem contact op met uw [!DNL Workfront] beheerder voor meer informatie.
 
 ## Items groeperen op datums
 

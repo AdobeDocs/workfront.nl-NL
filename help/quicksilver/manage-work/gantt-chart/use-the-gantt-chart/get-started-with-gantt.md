@@ -6,14 +6,16 @@ description: De Gantt-grafieken in Adobe Workfront geven een visuele weergave va
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met de [!UICONTROL Gantt Chart]
+
+<!-- Audited: 01/2024 -->
 
 De Gantt-grafieken in Adobe Workfront geven een visuele weergave van de tijdlijn van een lijst met taken of projecten.
 
@@ -35,7 +37,7 @@ Hoewel ze er ongeveer hetzelfde uitzien, is de functionaliteit van elke functie 
 * U kunt vormen welke informatie op beide takenlijst toont [!UICONTROL Gantt Chart] en de projectlijst [!UICONTROL Gantt Chart].
 * U kunt de kleuren of lettertypen waarin de [!UICONTROL Gantt chart] informatie wordt weergegeven.
 * Wanneer de informatie van taken wordt bijgewerkt, wordt het automatisch weerspiegeld in zowel de takenlijst [!UICONTROL Gantt Chart] en de projectlijst [!UICONTROL Gantt Chart].
-* Wanneer de informatie van de malplaatjetaken wordt bijgewerkt, wordt het automatisch weerspiegeld in de lijst van de malplaatjetaak [!UICONTROL Gantt Chart].
+* Wanneer de informatie van malplaatjetaken wordt bijgewerkt, wordt het automatisch weerspiegeld in de lijst van de malplaatjetaak [!UICONTROL Gantt Chart].
 
 ## Toegang krijgen tot de [!UICONTROL Gantt Chart]
 
@@ -44,9 +46,6 @@ De [!UICONTROL Gantt] grafieken in [!DNL Workfront]  een visuele weergave van ee
 U kunt de takenlijst weergeven [!UICONTROL Gantt Chart] rechtstreeks van de taaklijst op een project of van een taakrapport.
 
 U kunt de projectlijst weergeven [!UICONTROL Gantt Chart] in een projectlijst of een projectrapport.
-
-* [Takenlijst [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Projectlijst [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
 
 ### Takenlijst [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 

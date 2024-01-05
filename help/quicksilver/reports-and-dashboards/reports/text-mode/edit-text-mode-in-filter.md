@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Een filter bewerken in de tekstmodus
-description: '''OPMERKING: voeg een sectie in dit artikel toe: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Ook, stel dit gebied in het overzichtsartikel voor de tekstmodus in)'
+description: U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere filters creëren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
 # Een filter bewerken in de tekstmodus
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere filters creëren.
 
-Zie ook de sectie &#39;Voorbeelden van aangepaste filters&#39; in het artikel voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Zie ook de sectie &#39;Voorbeelden van aangepaste filters&#39; in het artikel voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Toegangsvereisten
 
@@ -37,7 +39,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nieuw: Standaard</p>
+    <p>of</p>
+    <p>Huidig: Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -45,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten beheren voor een rapport om filters in een rapport te bewerken</p> <p>Machtigingen voor een filter beheren om het te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor een rapport om filters in een rapport te bewerken</p> <p>Machtigingen voor een filter beheren om het te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-Voordat u de tekstmodus in een rapport of lijst gaat gebruiken, moet u altijd op de hoogte zijn van de syntaxis in de tekstmodus van Workfront.
+Voordat u de tekstmodus in een rapport of lijst gaat gebruiken, moet u altijd op de hoogte zijn van de syntaxis van de Workfront-tekstmodus.
 
 Zie voor meer informatie:
 
@@ -77,11 +81,11 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
 1. Voer een van de volgende handelingen uit:
 
    1. Ga naar het rapport en klik op **Handelingen rapporteren** > **Bewerken** > **Filters** tab.
-   1. Ga vanuit de lijst naar de **Filter** vervolgkeuzelijst, houdt u de muis boven het filter dat u wilt wijzigen en klikt u op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
+   1. Ga vanuit de lijst naar de **Filter** , plaatst u de aanwijzer boven het filter dat u wilt wijzigen en klikt u op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
 
       De filterbuilder wordt geopend.
 
-1. Klikken **Filterregel toevoegen** om de voorwaarden van het filter toe te voegen, klikt u op **Overschakelen naar tekstmodus** in de rechterbovenhoek van de builder.
+1. Klikken **Filterregel toevoegen** om de voorwaarden van het filter toe te voegen, klikt u op **Tekstmodus** of **Overschakelen naar tekstmodus** aan de rechterkant van de bouwer.
 1. Voeg filterinstructies toe in de tekstmodus. Elke filterinstructie kan de volgende regels en aanvullende informatie bevatten:
 
    <table style="table-layout:auto"> 
@@ -99,7 +103,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
    Wanneer het filtreren voor statussen, moet u de drie-lettercode van de status en niet de naam gebruiken.</p> </td>
    </tr> 
      <tr> 
-      <td> <p>De bepaling van de gebiedsnaam en wat de bepaling aan evenaart. Dit geeft aan op welke voorwaarden het veld waarop u filtert, moet voldoen.</p> <p>Deze regel is verplicht.</p> </td> 
+      <td> <p>De bepaling van de gebiedsnaam en wat de bepaling evenaart. Dit geeft aan op welke voorwaarden het veld waarop u filtert, moet voldoen.</p> <p>Deze regel is verplicht.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Als u wilt aangeven dat de status van de taken waarvoor u filtert, gelijk moet zijn aan In uitvoering, gebruikt u de volgende regel naast de bovenstaande regel:</p> <p><code>status_Mod=in</code> </p> <p>Als de bepaling een waaier is, zijn er twee lijnen om op de bepaling te wijzen.</p> 
        <div> <span class="autonumber"><span><b>VOORBEELD </b></span></span> 
         <p>Dit is een filter van de tekstwijze die taken zoekt die lopend zijn, die een Geplande Datum van de Voltooiing binnen de huidige maand hebben, en aan een gebruiker met een specifieke GUID toegewezen zijn:</p> 
@@ -129,7 +133,7 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Een vervanging die u toestaat om de informatie in een filter te generaliseren en de huidige tijd of de gebruiker van verwijzingen te voorzien die het programma wordt geopend.</p> <p>Jokertekens zijn optioneel.</p> <p>Tip:   <p>We raden u aan jokertekens zoveel mogelijk te gebruiken om uw filters dynamischer te maken en niet dezelfde filters voor elke gebruiker of vergelijkbare tijdframes te dupliceren.</p> <p>Zie voor informatie over filterjokertekens <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabelen van jokerfilter</a>.</p> </p> </td> 
+      <td> <p>Een vervanging, die u toestaat om de informatie in een filter te generaliseren en de huidige tijd of de gebruiker van verwijzingen te voorzien die het programma wordt geopend.</p> <p>Jokertekens zijn optioneel.</p> <p>Tip:   <p>We raden u aan jokertekens zoveel mogelijk te gebruiken om uw filters dynamischer te maken en niet dezelfde filters voor elke gebruiker of vergelijkbare tijdframes te dupliceren.</p> <p>Zie voor informatie over filterjokertekens <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Overzicht van jokertekenfiltervariabelen</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>VOORBEELD</b></span></span> 
         <p>Om voor taken te filtreren die aan de gebruiker worden toegewezen die momenteel het programma wordt geopend, gebruik het volgende:</p> 
@@ -144,41 +148,30 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
 
    1. Een nieuwe coderegel toevoegen en OF typen:1: gevolgd door het object of het kenmerk waarop u wilt filteren en de waarde waarmee u het wilt vergelijken. Gebruik de volgende regel om te verwijzen naar taken in een status behalve Nieuw:
 
-      ```
-      OR:1:status=NEW
-      ```
+      `OR:1:status=NEW`
 
    1. Een tweede regel toevoegen en tekst OR:1: gevolgd door het object, de modifier en de modifier-code. Als u de modifier wilt definiëren voor de coderegel die verwijst naar alle taakstatussen behalve Nieuw, gebruikt u de volgende wijzigingregel:
 
-      ```
-      OR:1:status_Mod=notin
-      ```
+      `OR:1:status_Mod=notin`
 
       Elke regel van de nieuwe instructie moet worden voorafgegaan door &quot;OR:`<number>`:&quot;.
 
       Zie voor informatie over het maken van &quot;OR&quot;-instructies in een filter [Instructies OR maken in tekstmodusfilters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
-<!--WRITER - reformat note below -->
+      >[!NOTE]
+      >
+      >U kunt meerdere &quot;OR&quot;-instructies in hetzelfde filter hebben. Telkens wanneer u een nieuwe &quot;OF&quot;verklaring hebt, stijgt het aantal na &quot;OF:&quot;.
+      >
+      >Om voor taken te filtreren die in een status van Bezig zijn of aan de het programma geopende gebruiker toegewezen zijn of zij hebben de Geplande Datum van Voltooiing vandaag, gebruik het volgende:
+      >
+      >`status=INP`
+      >`status_Mod=in`
+      >`OR:1:assignedToID=$$USER.ID`
+      >`OR:1:assignedToID_Mod=in`
+      >`OR:2:plannedCompletionDate=$$TODAY`
+      >`OR:2:plannedCompletionDate_Mod=eq`
 
->[!NOTE]
->
->U kunt meerdere &quot;OR&quot;-instructies in hetzelfde filter hebben. Telkens wanneer u een nieuwe &quot;OF&quot;verklaring hebt het aantal na &quot;OF:&quot;stijgt.
->
-Om voor taken te filtreren die in een status van Bezig zijn of aan de het programma geopende gebruiker toegewezen zijn of zij hebben de Geplande Datum van Voltooiing vandaag, gebruik het volgende:
->
-`status=INP`
->
-`status_Mod=in`
->
-`OR:1:assignedToID=$$USER.ID`
->
-`OR:1:assignedToID_Mod=in`
->
-`OR:2:plannedCompletionDate=$$TODAY`
->
-`OR:2:plannedCompletionDate_Mod=eq`
-
-1. Klikken **Gereed** als u de wijzigingen wilt opslaan en het rapport of het filter wilt blijven bewerken.
+1. Klikken **Tekstmodus afsluiten** of **Gereed** om de wijzigingen in de tekstmodus op te slaan en het rapport of het filter te blijven bewerken.
 1. Klikken **Opslaan + Sluiten** om uw rapport op te slaan of **Filter opslaan** om het filter in de lijst op te slaan.
 
 
