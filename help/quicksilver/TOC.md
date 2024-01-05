@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
 workflow-type: tm+mt
-source-wordcount: '13844'
+source-wordcount: '13843'
 ht-degree: 0%
 
 ---
@@ -480,7 +480,7 @@ ht-degree: 0%
          * [Toegang tot objecten en gebieden met nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Beschikbare functionaliteit voor elk objecttype voor nieuwe toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Schakel de optie voor automatische upgrade voor niet-betaalde gebruikers uit in het nieuwe licentieplan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-         * [Vereisten voor toegangsniveaus in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+         * [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * Hoe de toegangsniveaus werken {#legacy-access-levels}
          * [Hoe de toegangsniveaus werken](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [Overzicht van toegang](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
