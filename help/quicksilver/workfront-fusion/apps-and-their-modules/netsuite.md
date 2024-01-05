@@ -9,9 +9,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -92,7 +92,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL NetSuite] account aan Workfront Fusion, zie<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Verbinding maken met [!DNL NetSuite] in een Workfront Fusion NetSuite-module</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL NetSuite] account aan Workfront Fusion, zie <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Verbinding maken met [!DNL NetSuite] in een Workfront Fusion NetSuite-module</a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -100,7 +100,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -108,7 +108,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
