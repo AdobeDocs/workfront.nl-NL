@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li>Documentaanvraag<br></li>
         <li>Documentgoedkeuring</li>
         <li>Kalender</li>
-       </ul><p>Deze optie is standaard ingeschakeld.</p> <p><b>Belangrijk</b>: Het toegangsniveau voor externe gebruikers is niet beschikbaar in uw Workfront-instantie als deze optie is uitgeschakeld. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Ingebouwde toegangsniveaus in Workfront</a>.</p> </td> 
+       </ul><p>Deze optie is standaard ingeschakeld.</p> <p><b>Belangrijk</b>: Het toegangsniveau voor externe gebruikers is niet beschikbaar in uw Workfront-instantie als deze optie is uitgeschakeld. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Ingebouwde toegangsniveaus</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Externe gebruikers verplichten zich met een wachtwoord te registreren</td> 

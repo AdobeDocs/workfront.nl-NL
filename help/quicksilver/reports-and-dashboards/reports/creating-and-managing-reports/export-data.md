@@ -6,9 +6,9 @@ description: U kunt Adobe Workfront-gegevens uit verschillende lijsten, rapporte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
@@ -53,28 +53,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
     <p>Nieuw: Licht of hoger</p>
     <p>of</p>
     <p>Huidig: Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Geef rapporten of meer toegang tot rapporten, dashboards en kalenders om rapporten te exporteren</p> <p>Toegang tot de objecten die u in een lijst weergeeft of vergroten om de lijst te exporteren</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Geef rapporten of meer toegang tot rapporten, dashboards en kalenders om rapporten te exporteren</p> <p>Toegang tot de objecten die u in een lijst weergeeft of vergroten om de lijst te exporteren</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De mening of hogere toestemmingen aan een rapport of een dashboard om het rapport of het dashboard uit te voeren</p> <p>Geef de objecten die u in een lijst weergeeft of hoger de machtigingen weer om de lijst te exporteren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
+   <td> <p>De mening of hogere toestemmingen aan een rapport of een dashboard om het rapport of het dashboard uit te voeren</p> <p>Geef de objecten die u in een lijst weergeeft of hoger de machtigingen weer om de lijst te exporteren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 

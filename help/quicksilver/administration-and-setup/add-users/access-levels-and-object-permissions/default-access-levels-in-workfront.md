@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
-title: Ingebouwde toegangsniveaus in Adobe Workfront
+title: Ingebouwde toegangsniveaus
 description: Elk van de zes huidige ingebouwde toegangsniveaus wordt ontworpen voor een bepaald type van gebruiker, met inbegrip van de Beheerder van het Systeem, de Planner, de Arbeider, de Recensent, de Aanvrager, en Externe Gebruiker. Met deze toegangsniveaus kunt u bepalen welke gebruikers in het systeem kunnen bewerken en weergeven. Als u een aangepast toegangsniveau nodig hebt, kunt u een ingebouwd toegangsniveau kopiëren en dit wijzigen op basis van de hoeveelheid toegang die u voor de verschillende Workfront-objecttypen wilt toestaan.
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
 
-# Ingebouwde toegangsniveaus in Adobe Workfront
+# Ingebouwde toegangsniveaus
 
 <!--Audited: 01/2024-->
 
@@ -60,8 +60,7 @@ Als u een douanepanager, de Arbeider, de Vraag, of het toegangsniveau van de Rec
 >
 >U kunt de toegangsniveaus van de Systeembeheerder of de externe gebruiker niet wijzigen.
 
-
-Voor informatie bij het creëren van een niveau van de douanetoegang of het wijzigen van één van de ingebouwde toegangsniveaus, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Voor informatie bij het creëren van een niveau van de douanetoegang of het wijzigen van één van de ingebouwde toegangsniveaus, zie [Aangepaste toegangsniveaus maken en wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +86,7 @@ Het toegangsniveau van de Planner is ook gekoppeld aan de licentie voor abonneme
 * Iedereen die verantwoordelijk is voor het plannen, maken en beheren van taken, projecten, portfolio&#39;s en programma&#39;s
 * Iedereen die verantwoordelijk is voor het toewijzen van werk (taken en problemen) aan andere gebruikers
 * Gebruikers die rapporten maken en die tijdbladen, werkitems en documenten goedkeuren
-* Gebruikers die toegang tot alle gebieden in het hoofdmenu nodig hebben ![](assets/main-menu-icon.png)
+* Gebruikers die toegang tot alle gebieden in het hoofdmenu nodig hebben ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar
 
 U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Planner maken en de mate van toegang bepalen die het toestaat voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -159,7 +158,7 @@ Een belanghebbende met dit toegangsniveau kan zich bijvoorbeeld aanmelden bij Wo
 Gebruikers met het toegangsniveau van de Revisor:
 
 * Kan geen werkitems toewijzen of tijdbladen goedkeuren
-* Kan de gebieden Verzoeken en Documenten openen in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar.
+* Kan de gebieden Verzoeken en Documenten openen in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
 U kunt een aangepaste versie van het ingebouwde toegangsniveau van Reviewer maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -321,8 +320,8 @@ Workfront-gebruikers kunnen taken toewijzen aan externe gebruikers, ook al kunne
 Gebruikers met het toegangsniveau voor externe gebruikers:
 
 * Alleen documenten en kalenderrapporten weergeven die met hen worden gedeeld
-* Zie gebruikers die documenten en kalenderrapporten met hen delen
-* De documenten goedkeuren die met hen worden gedeeld
+* Zie de gebruikers die documenten en kalenderrapporten met hen delen
+* Kan de met hen gedeelde documenten goedkeuren
 
 U kunt dit toegangsniveau niet wijzigen.
 

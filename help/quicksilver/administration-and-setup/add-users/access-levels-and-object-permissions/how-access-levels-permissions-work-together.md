@@ -10,9 +10,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Voor de gebruikers die aan het worden toegewezen, bepaalt een toegangsniveau wat
 * Projecten
 * Taken
 * Problemen
-* Portfolio
+* Portfolio&#39;s
 * Rapporten, dashboards en Kalenders
 * Filters, Weergaven en Groepen
 * Documenten
@@ -68,7 +68,7 @@ In een douanetoegangsniveau, kunt u de montages voor deze voorwerpen en gebieden
 >
 >Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers. Als u een toegangsniveau wilt aanpassen, kopieert u het standaardtoegangsniveau en wijzigt u de kopie. (U kunt dit voor elk toegangsniveau behalve de Beheerder van het Systeem en Externe Gebruiker doen.)
 
-Voor een gedetailleerde uitleg van elk van de standaardtoegangsniveaus raadpleegt u [Ingebouwde toegangsniveaus in Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Voor een gedetailleerde uitleg van elk van de standaardtoegangsniveaus raadpleegt u [Ingebouwde toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 Voor instructies over het toewijzen van een toegangsniveau aan een gebruiker, zie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -79,17 +79,17 @@ Wanneer een gebruiker een object deelt met iemand in het systeem, kan hij of zij
 * **Weergave**: Met dit machtigingsniveau kan de ontvanger het object op een van de volgende manieren delen:
 
    * In het hele systeem, zodat alle gebruikers het kunnen zien (niet beschikbaar voor alle objecten)
-   * Met externe gebruikers die geen Workfront-licentie hebben (niet beschikbaar voor alle objecten)
+   * Met externe gebruikers zonder Workfront-licentie (niet beschikbaar voor alle objecten)
    * Met een e-mailadres (alleen beschikbaar voor documenten)
 
 * **Contribute**: (niet beschikbaar voor alle objecten)
 * **Beheren**: Wanneer iemand een object deelt, worden de rechten van de ontvanger op het object bepaald door een combinatie van het toegangsniveau van de ontvanger en de machtigingen voor het object die door de deler zijn verleend. De laagste toegangsgraad beschikbaar in die combinatie is wat bepaalt wat de ontvanger met het voorwerp kan doen.
 
-   >[!INFO]
-   >
-   >**Voorbeeld:** Als het de toegangsniveau van de ontvanger project het uitgeven niet toestaat, kan die persoon geen project uitgeven of schrappen zelfs als de aandeelhouder toestemmingen verleende om het te beheren.
-   >
-   >Of, als het de toegangsniveau van de ontvanger project het uitgeven toestaat, maar aandeelhouder verleende mening-slechts toestemmingen aan een project, kan de gebruiker niet het project uitgeven of schrappen.
+  >[!INFO]
+  >
+  >**Voorbeeld:** Als het de toegangsniveau van de ontvanger project het uitgeven niet toestaat, kan die persoon geen project uitgeven of schrappen zelfs als de aandeelhouder toestemmingen verleende om het te beheren.
+  >
+  >Of, als het de toegangsniveau van de ontvanger project het uitgeven toestaat, maar aandeelhouder verleende mening-slechts toestemmingen aan een project, kan de gebruiker niet het project uitgeven of schrappen.
 
 In de volgende tabel wordt de algemene toegang van een gebruiker tot objecten (gedefinieerd door het toegangsniveau van de gebruiker) tot machtigingen voor een specifiek gezamenlijk object vergeleken:
 
@@ -129,7 +129,6 @@ In de volgende tabel wordt de algemene toegang van een gebruiker tot objecten (g
 >* Als een gebruiker een object deelt met bepaalde machtigingen en dat object onderliggende objecten eronder heeft, erft de ontvanger dezelfde machtigingen voor die onderliggende objecten.
 >* Als een toegangsniveau gebruikers beperkt om bepaalde voorwerpen te schrappen, houdt dit hen niet van het schrappen van kindvoorwerpen die in die voorwerpen bevat zijn.
 >
-
 
 ## Meer voorbeeldscenario&#39;s
 

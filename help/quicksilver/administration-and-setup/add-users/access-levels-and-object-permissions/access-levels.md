@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Als Adobe Workfront-beheerder kunt u gebruikers toegang verlenen tot weergave- o
 
 * [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [Overzicht van licenties](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [Ingebouwde toegangsniveaus in Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [Ingebouwde toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
 * [De toegangsniveaus en licenties van uw gebruikers weergeven](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
 * [Toegang tot objecten en gebieden per licentietype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)

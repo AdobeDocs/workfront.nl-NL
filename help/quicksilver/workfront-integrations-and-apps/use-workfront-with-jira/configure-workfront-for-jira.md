@@ -6,9 +6,9 @@ description: U kunt [!DNL Adobe Workfront for Jira] om uw [!DNL Jira] en [!DNL W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2205'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] abonnement]*</td> 
+   <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]</td> 
    <td><p>Nieuw: alle</p>
        <p>of</p>
        <p>Huidige: [!UICONTROL Pro] of hoger</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td><p>Nieuw: [!UICONTROL Standard] </p>
        <p>of</p> 
        <p>Huidige: [!UICONTROL Plan] </p>
@@ -54,13 +54,13 @@ U moet het volgende hebben:
    <td> <p>Toegang tot systeembeheerder</p> <p>Belangrijk: wij adviseren dat u afzonderlijke rekeningen van de systeembeheerder in [!DNL Jira] en [!DNL Workfront] om aan deze integratie te wijden, eerder dan het gebruiken van bestaande degenen die aan gebruikers zouden kunnen worden vastgemaakt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder. Voor informatie over [!DNL Workfront] beheerders, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 

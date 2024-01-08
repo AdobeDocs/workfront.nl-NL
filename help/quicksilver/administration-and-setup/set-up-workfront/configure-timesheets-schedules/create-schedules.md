@@ -3,32 +3,31 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Een schema maken
-description: U kunt de werkweken van uw gebruikers bepalen door programma's te gebruiken. U kunt een programma met een gebruiker of een project associëren. Dit maakt [!DNL Workfront] om tijdlijnen en de beschikbaarheid van de gebruiker te berekenen.
-author: Caroline
+description: U kunt de werkweken van uw gebruikers bepalen met programma's. U kunt een programma met een gebruiker of een project associëren. Dit maakt [!DNL Workfront] om tijdlijnen en de beschikbaarheid van de gebruiker te berekenen.
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
 # Een schema maken
 
+<!--Audited: 01/2024-->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
-Als [!DNL Adobe Workfront] beheerder, kunt u uw werkweek bepalen door programma&#39;s te gebruiken. U kunt een programma met een gebruiker of een project associëren. Dit maakt [!DNL Workfront] om tijdlijnen en de beschikbaarheid van de gebruiker te berekenen.
+Als [!DNL Adobe Workfront] beheerder, kunt u uw werkweek met programma&#39;s bepalen. U kunt een programma met een gebruiker of een project associëren. Dit maakt [!DNL Workfront] om tijdlijnen en de beschikbaarheid van de gebruiker te berekenen.
 
 Wanneer u gebruikers hebt die in verschillende tijdzones werken, zorgt het creëren van een programma in elk van de tijdzones en het associëren van het met die gebruikers ervoor dat hun werk binnen wordt geregistreerd [!DNL Workfront] in real time en dat hun beschikbaarheid altijd nauwkeurig is afhankelijk van wanneer zij werken.
 
-Raadpleeg de volgende artikelen voor informatie over het koppelen van programma&#39;s aan gebruikers en projecten:
-
-* [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
-* [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md)
+Voor informatie over het associëren van programma&#39;s met gebruikers en projecten, zie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) en [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 De beheerders van de groep kunnen ook programma&#39;s tot stand brengen die met de groepen worden geassocieerd zij leiden. Zie voor meer informatie [De schema&#39;s van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
@@ -45,50 +44,55 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nieuw: [!UICONTROL Standard]</p>
+       <p>of</p>
+       <p>Huidige: [!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td>U moet een [!DNL Workfront] beheerder. </td> 
   </tr> 
  </tbody> 
 </table>
 
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Een schema maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Klik op **[!UICONTROL Schedules]**.
 1. Klik op **[!UICONTROL New Schedule]**.
-1. Geef een naam voor het schema op.
+1. Voer een naam in voor het schema.
 1. (Optioneel) Selecteer **[!UICONTROL Default Schedule]** om dit schema als uw gebrek te identificeren.
 
-   U kunt meer dan één schema hebben in [!DNL Workfront], maar u kunt slechts één standaardschema hebben.
+   U moet ten minste één schema hebben in [!DNL Workfront]. Als u slechts één hebt, wordt het aangewezen als standaardprogramma.
 
-   U moet ten minste één schema hebben in [!DNL Workfront]. Als u slechts één hebt, wordt dat aangewezen als standaardprogramma.
+   U kunt meer dan één programma hebben, maar u kunt slechts één standaardprogramma hebben.
 
    >[!NOTE]
    >
    >U kunt geen programma als standaardprogramma aanwijzen als u een groepsbeheerder bent. Alleen een [!DNL Workfront] de beheerder kan een programma als gebrek voor het systeem aanwijzen.
 
-   ![](assets/new-schedule.png)
+   ![Nieuwe planning](assets/new-schedule.png)
 
-1. In de **[!UICONTROL Schedule]** selecteert u een dagelijks schema door de blauwe omtrek over uurblokken te slepen om deze te markeren.
+1. Op de **[!UICONTROL Schedule]** selecteert u een dagelijks schema door de blauwe omtrek over uurblokken te slepen om deze te markeren.
 
    We raden u aan 8 blokken van een uur te selecteren over een periode van 9 uur. Dit is geschikt voor lunch of andere onderbrekingen.
 
-   ![](assets/new-schedule-with-exceptions.png)
+   ![Tijdblokken volgens schema](assets/new-schedule-with-exceptions.png)
 
-1. Op de **[!UICONTROL Details]** geeft u de volgende informatie op:
+1. Op de **[!UICONTROL Details]** voert u de volgende gegevens in:
 
    <table style="table-layout:auto">
     <tr>
      <td>[!UICONTROL Group with Administration Access]</td>
-     <td><p>Wijs op de groep waarvan de beheerders de toestemming hebben om dit programma uit te geven.</p>
+     <td><p>Selecteer de groep waarvan de beheerders machtigingen hebben om dit schema te bewerken.</p>
      <p><b>BELANGRIJK</b>:</p>
       <ul>
        <li>
@@ -105,18 +109,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tr>
     <tr>
      <td>[!UICONTROL Groups with View Access]</td>
-     <td><p>Groepen selecteren met [!UICONTROL View] toegang tot welke dit programma zichtbaar is aan.</p>
+     <td><p>Groepen selecteren met [!UICONTROL View] toegang die dit programma kan zien.</p>
      <p>Alleen de gebruikers in de groepen die u hier opgeeft, kunnen het schema in het keuzemenu vinden wanneer zij het aan gebruikers of projecten toewijzen.</p></tr>
     <tr>
      <td>[!UICONTROL Time Zone]</td>
-     <td><p>Selecteer de tijdzone voor uw programma.</p>
-     <p>Als u het programma met een gebruiker associeert, adviseren wij dat de Tijdzone van het programma dat van de gebruiker aanpast.Voor informatie over de tijdzones van de gebruiker, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bewerk het profiel van een gebruiker.
+     <td><p>Selecteer de tijdzone voor het programma.</p>
+     <p>Als u het programma met een gebruiker associeert, adviseren wij dat de tijdzone van het programma dat van de gebruiker aanpast. Voor informatie over de tijdzones van de gebruiker raadpleegt u <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bewerk het gebruikersprofiel.
      </td>
     </tr>
    </table>
 
 
-1. Op de **[!UICONTROL Exceptions]** , geeft u de uitzonderingen op het schema op.
+1. Op de **[!UICONTROL Exceptions]** , geeft u eventuele uitzonderingen op het schema op.
 
    Uitzonderingen zijn volledige of halve dagen die van de planning moeten worden uitgesloten, zoals feestdagen of bedrijfsgebeurtenissen.
 
@@ -126,11 +130,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Volledige of gedeeltelijke dagen kunnen van het werkschema worden uitgesloten. Klik op de datum om deze als een uitzondering te selecteren en selecteer vervolgens de knop **[!UICONTROL All day]** veld om aan te geven of de uitzondering een volledige dag is of niet.
 
-   ![](assets/schedule-adding-an-all-day-exception.png)
+   ![Alle dag uitzondering](assets/schedule-adding-an-all-day-exception.png)
 
-1. Geef de begin- en eindtijd op voor de uitzonderingen van een gedeeltelijke dag.
+1. Ga de begin en eindtijd voor de gedeeltelijke daguitzonderingen in.
 
-   ![gedeeltelijke-dag-uitzondering-op-planningen.png](assets/partial-day-exception-on-schedules.png)
+   ![Uitzondering voor gedeeltelijke dag](assets/partial-day-exception-on-schedules.png)
 
 1. Klikken **[!UICONTROL Save]** en klik vervolgens op **[!UICONTROL Save]Wijzigingen**.
 

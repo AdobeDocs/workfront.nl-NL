@@ -7,9 +7,9 @@ description: Het is belangrijk om in Adobe Workfront aan te geven wanneer goedge
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -45,24 +45,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td> <p>Nieuw: Standaard (om uw persoonlijke tijd uit te stellen)</p>
         <p>of</p>
         <p>Huidig: Werk of hoger (om uw persoonlijke tijd uit te configureren)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td>[!UICONTROL Manager] with [!UICONTROL Edit User] toegang (om wijzigingen aan te brengen in de tijdkalender van andere gebruikers)<br>
    <strong>OPMERKING:</strong> Als een manager de persoonlijke tijd van een andere gebruiker van kalender uitgeeft, worden alle ingangen getoond in de tijdzone van de gebruiker en niet de tijdzone van de manager.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Persoonlijke tijd uit configureren [!DNL Workfront]
 

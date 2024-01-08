@@ -7,18 +7,21 @@ description: Een taak is een het werkpunt binnen een project. Het is een eindige
 author: Alina
 feature: Work Management
 exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
 # Overzicht van taken
 
+<!-- Audited: 01/2024 -->
+
 Een taak is een het werkpunt binnen een project. Het is een eindige hoeveelheid werk kleiner dan het project.
 
-Taken kunnen worden toegewezen aan gebruikers die moeten worden voltooid. Wanneer alle taken in een project worden voltooid, kan de projectStatus worden duidelijk Voltooid.\
+Taken kunnen worden toegewezen aan gebruikers die moeten worden voltooid. Wanneer alle taken in een project worden voltooid, kan de projectStatus worden duidelijk Voltooid.
+
 Voor meer informatie over projecten in Adobe Workfront raadpleegt u [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
 Hieronder ziet u taaktypen in een project:
@@ -39,9 +42,9 @@ Voor meer informatie over de Summiere Wijze van de Voltooiing van projecten, zie
 
 ## Overzicht van Subtaken of kindtaken
 
-Subtaken of kindtaken zijn taken die onder een oudertaak worden vermeld. Ze beïnvloeden doorgaans de update en de resolutie van de bovenliggende taak.
+Subtaken of kindtaken zijn taken die onder een oudertaak worden vermeld. Ze beïnvloeden doorgaans het bijwerken en de resolutie van de bovenliggende taak.
 
-Zie voor meer informatie over bovenliggende taken [Overzicht van bovenliggende taken](#overview-of-parent-tasks).
+Zie voor meer informatie over bovenliggende taken [Overzicht van bovenliggende taken](#overview-of-parent-tasks) in dit artikel.
 
 Voor meer informatie over het creëren van een kindtaak, zie [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
@@ -49,7 +52,7 @@ Voor meer informatie over het creëren van een kindtaak, zie [Taken maken in een
 
 Taken op hoofdniveau zijn een soort werktaken die een bovenliggende of zelfstandige taak zonder bovenliggende of onderliggende taken kunnen zijn. U kunt taken op hoofdniveau bijwerken en voltooien zonder de update of resolutie van andere taken te beïnvloeden.
 
-## Overzicht van werktaken
+## Overzicht van de werktaken
 
 De werktaken zijn taken die geen kinderen of subtaken van hun hebben, of taken die niet onder een andere ouder vermeld zijn.
 

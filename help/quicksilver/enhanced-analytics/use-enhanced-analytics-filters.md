@@ -6,9 +6,9 @@ description: Met de filters in het gedeelte Enhanced analytics van Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td>
       <p>Nieuw: alle</p>
       <p>of</p>
       <p>Huidig: Zakelijk of hoger</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
       <p>Nieuw: Licht of hoger</p>
       <p>of</p>
@@ -49,17 +49,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td> 
   </tr>
   <tr> 
-   <td>Toegangsniveau* </td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>U moet de toegang van de Mening tot Taken, Portfolio's, en Gebruikers ook hebben om specifieke de filteropties van het projectgebied te zien.</p> <p>Opmerking: als er beperkingen zijn geselecteerd in de sectie Aanvullende beperkingen instellen van het dialoogvenster Toegangsniveau bewerken, ziet u mogelijk niet alle informatie in de filters of op de pagina Uitgebreide analyse nadat het filter is toegepast. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven</p> <p>U moet de toegang van de Mening tot Taken, Portfolio's, en Gebruikers ook hebben om specifieke de filteropties van het projectgebied te zien.</p> <p>Opmerking: als er beperkingen zijn geselecteerd in het dialoogvenster <strong>Aanvullende beperkingen instellen</strong> in het dialoogvenster Toegangsniveau bewerken worden mogelijk niet alle gegevens in de filters of op de pagina Uitgebreide analyse weergegeven nadat het filter is toegepast.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Weergave</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 

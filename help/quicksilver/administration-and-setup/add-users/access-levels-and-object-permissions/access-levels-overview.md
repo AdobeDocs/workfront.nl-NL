@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking 
   </tr> 
   <tr> 
    <td><strong>Ingebouwde toegangsniveaus</strong></td> 
-   <td> <p>Voor meer informatie over de 6 ingebouwde toegangsniveaus die in het beeld hierboven worden getoond, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Ingebouwde toegangsniveaus in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Voor meer informatie over de 6 ingebouwde toegangsniveaus die in het beeld hierboven worden getoond, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Ingebouwde toegangsniveaus</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Toegangsniveaus toewijzen</strong></td> 
