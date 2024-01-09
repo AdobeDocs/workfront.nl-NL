@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5038'
+source-wordcount: '5369'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Nadat WebHaak wordt gecreeerd, kunt u het adres van het eindpunt bekijken dat de
 
 Zie de sectie voor meer informatie [Voorbeelden van gebeurtenistaken](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in de [!DNL Workfront] Help-artikel [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md).
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ Zorg ervoor dat u het minimale aantal invoervelden opgeeft. Als u bijvoorbeeld e
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ Zorg ervoor dat u het minimale aantal invoervelden opgeeft. Als u bijvoorbeeld e
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -532,7 +532,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Selecteer de actie u de module wilt uitvoeren.</p> <p>Afhankelijk van de [!UICONTROL Record Type] en [!UICONTROL Action] kiest u. Voor sommige combinaties van deze twee instellingen is mogelijk alleen een record-id vereist, terwijl voor andere (zoals Project voor de <strong>[!UICONTROL Record Type]</strong> en [!UICONTROL Attach Template] voor de <strong>[!UICONTROL Action]</strong>) aanvullende informatie vereist (zoals een object-id en een sjabloon-id).</p> <p>Zie voor meer informatie over afzonderlijke velden de <a href="http://developer.workfront.com/">Workfront-documentatie voor ontwikkelaars</a>. </p> 
+   <td> <p>Selecteer de actie u de module wilt uitvoeren.</p> <p>Afhankelijk van de [!UICONTROL Record Type] en [!UICONTROL Action] kiest u. Voor sommige combinaties van deze twee instellingen is mogelijk alleen een record-id vereist, terwijl voor andere (zoals Project voor de <strong>[!UICONTROL Record Type]</strong> en [!UICONTROL Attach Template] voor de <strong>[!UICONTROL Action]</strong>) aanvullende informatie vereist (zoals een object-id en een sjabloon-id).</p> <p>Zie voor meer informatie over afzonderlijke velden de <a href="http://developer.workfront.com/">Workfront-documentatie voor ontwikkelaars</a>. <p><strong>Opmerking</strong>: De site met ontwikkelaarsdocumentatie bevat alleen informatie via API-versie 14, maar bevat nog steeds waardevolle informatie voor API-aanroepen. </p> 
     <ol> 
      <li value="1"> <p>Selecteer het recordtype in de linkernavigatie op het tabblad [!DNL Workfront] pagina met ontwikkelaarsdocumentatie. De volgende typen hebben hun eigen pagina's:</p> 
       <ul> 
@@ -577,7 +577,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt gebruiken in [[!DNL Workfront] objecttypen beschikbaar voor elk [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
