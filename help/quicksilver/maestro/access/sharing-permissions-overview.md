@@ -1,13 +1,13 @@
 ---
 title: Overzicht van het delen van machtigingen in Adobe Maestro
-description: U kunt machtigingen delen of verwijderen voor een door u gemaakte Adobe Maestro-werkruimte.
+description: U kunt machtigingen delen of verwijderen in een Adobe Maestro-werkruimte of -weergave.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,15 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
-U kunt machtigingen delen of verwijderen voor een door u gemaakte Adobe Maestro-werkruimte.
+U kunt machtigingen delen of verwijderen in een Adobe Maestro-werkruimte of -weergave.
+
+In dit artikel worden de machtigingsniveaus voor Maestro-objecten beschreven.
+
+Zie de volgende artikelen voor informatie over het delen van werkruimten of weergaven:
+
+* [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Een weergave delen](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objecten die u kunt delen in Adobe Maestro
 
@@ -48,6 +56,8 @@ U kunt de volgende objecten delen in Maestro:
 
    * Nieuw prijsmodel: standaardlicentie
    * Huidig prijsmodel: Arbeidslicentie of hoger
+
+  Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Systeembeheerders kunnen werkruimten beheren en delen die andere gebruikers hebben gemaakt.
 * Als u geen systeembeheerder bent, kunt u aan werkruimten bijdragen die door anderen worden gecreeerd als zij met u worden gedeeld.
 * U kunt werkruimten niet bulksgewijs delen.
@@ -58,44 +68,91 @@ U kunt de volgende objecten delen in Maestro:
 
 ## Machtigingen delen voor Maestro-objecten
 
-In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt selecteren bij het delen van een Maestro-werkruimte of -weergave:
+De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt selecteren bij het delen van een Maestro-werkruimte of -weergave en welke functionaliteit elk niveau toestaat.
 
+### Werkruimtemachtigingen
+
+|        | Beheren | Contribute | Weergave |
+|--------|--------|------------|-------|
+| Bewerken | ✓ |            |       |
+| Delen | ✓ |            |       |
+| Verwijderen | ✓ |            |       |
+| Weergave | ✓ | ✓ | ✓ |
+
+### Machtigingen voor recordtype
+
+De toestemmingen van het Type van verslag worden geërft wanneer u toestemmingen aan de werkruimte verleent.
+
+|        | Beheren | Contribute | Weergave |
+|--------|--------|------------|-------|
+| Maken | ✓ |            |       |
+| Verwijderen | ✓ |            |       |
+| Bewerken | ✓ |            |       |
+| Weergave | ✓ | ✓ | ✓ |
+
+### Machtigingen opnemen
+
+De toestemmingen van het verslag worden geërft wanneer u toestemmingen aan de werkruimte verleent.
+
+|        | Beheren | Contribute | Weergave |
+|--------|--------|------------|-------|
+| Maken | ✓ |            |       |
+| Verwijderen | ✓ | ✓ |       |
+| Bewerken | ✓ | ✓ |       |
+| Weergave | ✓ | ✓ | ✓ |
+
+### Veldmachtigingen
+
+De toestemmingen van het gebied worden geërft wanneer u toestemmingen aan de werkruimte verleent.
+De volgende machtigingen verwijzen naar de velden zelf en niet naar de waarden die aan elk veld zijn gekoppeld. Als u veldwaarden wilt bewerken, moet u over machtigingen beschikken om records te bewerken.
+
+|        | Beheren | Contribute | Weergave |
+|--------|--------|------------|-------|
+| Maken | ✓ |            |       |
+| Verwijderen | ✓ |            |       |
+| Bewerken | ✓ |            |       |
+| Weergave | ✓ | ✓ | ✓ |
+
+
+### Machtigingen weergeven
+
+U moet afzonderlijke machtigingen verlenen om weergaven op te nemen. Het verlenen van toestemmingen aan de werkruimte verleent geen toestemmingen aan de verslagmeningen in de werkruimte.
+
+|        | Beheren | Weergave |
+|--------|--------|-------|
+| Bewerken | ✓ |       |
+| Verwijderen | ✓ |       |
+| Weergave | ✓ | ✓ |
+| Toepassen | ✓ | ✓ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><p><b>Nieuw: standaardlicentie</b></p> <p><b>Huidig: Worker- of hogere licentie</b></p></strong>
-   </td>
-   <td><strong>Rechten beheren</strong>
-   </td>
-   <td><strong>Contribute-machtigingen</strong>
-   </td>
-   <td><strong>Machtigingen weergeven</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Maken</strong>
-   </td>
-   <td rowspan="5" ><strong>Werkruimte</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
    <td>
    </td>
    <td>
+   </td>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
+   </td>
+   <td><strong>Manage permissions</strong>
+   </td>
+   <td><strong>Contribute permissions</strong>
+   </td>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Verwijderen</strong>
+   <td><strong>Create</strong>
+   </td>
+   <td rowspan="5" ><strong>Workspace</strong>
    </td>
    <td>✓
    </td>
@@ -107,7 +164,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Delen</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -119,7 +176,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Bewerken</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -131,21 +188,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Weergave</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Maken/verwijderen</strong>
-   </td>
-   <td rowspan="3" ><strong>Recordtype*</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -157,19 +200,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Bewerken</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Weergave</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -181,9 +212,47 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Maken/verwijderen</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Opnemen*</strong>
+   <td rowspan="3" ><strong>Record Type*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record*</strong>
    </td>
    <td>✓
    </td>
@@ -195,7 +264,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Bewerken</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -207,7 +276,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Weergave</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -220,21 +289,9 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
   </tr>
   <tr>
    <tr>
-   <td><strong>Maken</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>Weergave</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Verwijderen</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -246,7 +303,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Delen</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -258,7 +315,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Bewerken</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -270,7 +327,19 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Weergave</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -283,9 +352,9 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
   </tr>
 
 <tr>
-   <td><strong>Maken/verwijderen</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Velden*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
    <td>✓
    </td>
@@ -297,7 +366,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Bewerken</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -309,7 +378,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
    </td>
   </tr>
   <tr>
-   <td><strong>Weergave</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -325,11 +394,7 @@ In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt se
 
 </table>
 
-*Recordtypen, records en velden nemen machtigingen over van de werkruimte.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Zie voor algemene informatie over toegang tot Maestro [Overzicht van het delen van machtigingen in Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Zie voor informatie over het delen van werkruimten [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md).
-
-Zie voor informatie over het delen van weergaven [Een weergave delen](/help/quicksilver/maestro/access/share-views.md)
 

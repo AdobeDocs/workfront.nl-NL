@@ -4,9 +4,9 @@ description: In Adobe Maestro, kunt u formuleringsgebieden tot stand brengen die
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * Formulervelden verwijzen naar velden die tot hetzelfde recordtype behoren. U kunt niet naar velden van andere recordtypen verwijzen wanneer u een formuleringsveld maakt. <!--is this still accurate??-->
 * U kunt het veldtype van een veld Formule niet wijzigen nadat u het hebt opgeslagen.
 * U kunt de berekening van een formuleringsgebied bijwerken nadat u het bewaart, en de resultaten van de berekeningsupdate automatisch voor alle verslagen van het zelfde type.
-* U kunt opzoekvelden van gekoppelde recordtypen niet gebruiken.
 * U moet de velden toevoegen waarnaar u verwijst in formules zoals deze worden weergegeven in de Maestro-interface.
+* Het gebruik van opzoekvelden van gekoppelde recordtypen in een formule is op een latere datum beschikbaar.
 
 ## Ondersteunde formules
 

@@ -4,9 +4,9 @@ description: U kunt een weergave delen met anderen om ervoor te zorgen dat u kun
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -83,14 +83,14 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
 
 >[!NOTE]
 >
->Systeembeheerders kunnen geen weergaven weergeven of delen die ze zelf niet hebben gemaakt.
+>Systeembeheerders kunnen geen weergaven weergeven of delen die ze zelf niet hebben gemaakt. Ze kunnen alleen weergaven weergeven of delen die met hen worden gedeeld.
 
 
-Een werkruimte delen met anderen:
+Een weergave delen met anderen:
 
 {{step1-to-maestro}}
 
-1. Open de werkruimte die u wilt delen en klik op een opnametype-kaart.
+1. Open de werkruimte waarvan u de weergave wilt delen en klik vervolgens op een opnametype-kaart.
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
@@ -98,7 +98,7 @@ Een werkruimte delen met anderen:
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. In de **Toegang tot werkruimte verlenen aan** , typt u de naam van een gebruiker of groep en klikt u erop wanneer deze in de lijst wordt weergegeven.
+1. In de **Toegang tot weergave verlenen aan** , typt u de naam van een gebruiker of groep en klikt u erop wanneer deze in de lijst wordt weergegeven.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ Een werkruimte delen met anderen:
 
 {{step1-to-maestro}}
 
-1. Open de werkruimte die u wilt delen en klik op een opnametype-kaart.
+1. Open de werkruimte waarvan u de weergave wilt delen en klik vervolgens op een opnametype-kaart.
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
 1. Houd de muisaanwijzer boven de weergave die u wilt delen in het keuzemenu Weergave en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Delen**.
 
-1. Zoek de gebruiker of groep die u wilt verwijderen en klik vervolgens op **Verwijderen**.
+1. Zoek de gebruiker of groep die u wilt verwijderen en klik vervolgens op **Verwijderen** in het vervolgkeuzemenu voor machtigingen rechts van de naam van de gebruiker of groep.
 
 1. Klikken **Opslaan**.
 
