@@ -7,9 +7,9 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ De taak slimme toewijzingsberekening werkt in twee fasen.
 
 #### Eerste fase van berekening van slimme toewijzing voor taken
 
-In de eerste fase van het berekenen van slimme toewijzingen, berekent Workfront een gelijkheidsscore voor elke taak. Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de toewijzingen worden vermeld, wordt rekening gehouden met het volgende:
+In de eerste fase van het berekenen van slimme toewijzingen, berekent Workfront een gelijkheidsscore voor elke taak.
+
+>[!NOTE]
+>
+>De eerste fase van de berekening van de slimme toewijzingen is niet van toepassing op de volgende taakgebieden:
+>
+>* Bulktoewijzingen in Workload Balancer.
+>* Aangesloten kaarten op borden.
+
+
+Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de toewijzingen worden vermeld, wordt rekening gehouden met het volgende:
 
 * Een score van 100% wordt gegeven aan een bestaande taak waar de taak, het project, en de portefeuillenamen identiek aan de taak zijn u probeert toe te wijzen. De project- en portfolionamen van de taak van een bestaande toewijzing moeten ook overeenkomen met het project en de portfolio van de taak die u wilt toewijzen.
 
@@ -115,7 +125,7 @@ Zie de sectie voor meer informatie [Criteria voor slimme toewijzingen voor taken
 
 >[!NOTE]
 >
-><span class="preview">De volgende criteria zijn alleen van toepassing op taken wanneer de eerste fase van de berekening van de intelligente taak geen overeenkomsten heeft gevonden. zie de sectie [Eerste fase van berekening van slimme toewijzing voor taken](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen. </span>
+><span class="preview">De volgende criteria zijn alleen van toepassing op taken wanneer de eerste fase van de berekening van de intelligente taak geen overeenkomsten heeft gevonden. Zie de sectie [Eerste fase van berekening van slimme toewijzing voor taken](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen. </span>
 
 De gebruikers worden geadviseerd in de slimme drop-down lijst van Toewijzingen die op een combinatie van de volgende criteria (die in orde van belangrijkst tot minst belangrijk worden vermeld) wordt gebaseerd:
 

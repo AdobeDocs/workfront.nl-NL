@@ -6,14 +6,16 @@ description: U hebt toegang tot [!DNL Adobe Workfront] van [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # Toegang [!DNL Adobe Workfront] van [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p>
+   <p>Huidige: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+*Neem contact op met uw [!DNL Workfront] beheerder.
+
+*Raadpleeg voor meer informatie over Workfront-toegangsvereisten [Overzicht van toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -63,6 +68,8 @@ U kunt in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgen
 * U bent aangemeld [!DNL Workfront] van [!DNL Microsoft Teams].
 
 ## Toegang [!DNL Workfront] van de [!DNL Workfront] chatkanaal
+
+U moet zijn aangemeld bij Workfront.
 
 1. Open de **[!DNL Workfront]** bot chatten kanaal.
 1. Klik op de knop **[!DNL Workfront]** onder het tekstveld om het zoekvak weer te geven.
@@ -89,6 +96,8 @@ U kunt in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgen
 
 ## Toegang [!DNL Workfront] van een teamkanaal
 
+U moet zijn aangemeld bij Workfront.
+
 1. Een teamkanaal openen en tekst typen **@[!DNL Workfront]** selecteert u vervolgens **[!DNL Workfront].**
 
 1. Klikken **[!UICONTROL Search]** om naar een project, een taak, of een kwestie te zoeken.
@@ -102,7 +111,7 @@ U kunt in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgen
    * **[!DNL Log out]** om zich af te melden bij Workfront
    * **[!DNL New task]** om een nieuwe persoonlijke taak te creëren
 
-     Voor informatie over het maken van nieuwe taken van [!DNL Microsoft Teams], zie [Maken [!DNL Adobe Workfront] taken van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Voor informatie over het maken van taken van [!DNL Microsoft Teams], zie [Maken [!DNL Adobe Workfront] taken van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Help]** om een lijst met alle beschikbare opdrachten weer te geven.
 

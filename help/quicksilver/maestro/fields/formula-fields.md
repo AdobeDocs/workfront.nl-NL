@@ -4,9 +4,9 @@ description: In Adobe Maestro, kunt u formuleringsgebieden tot stand brengen die
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## Ondersteunde formules
 
-Wij steunen alle formules van de berekende velden van Workfront. Zie voor meer informatie [Overzicht van berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+In Maestro-formulevelden worden alle expressies van de berekende Workfront-velden ondersteund. Zie voor meer informatie [Overzicht van berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Daarnaast ondersteunen we de volgende expressies voor Maestro-formuleringsvelden:
 
@@ -179,7 +179,7 @@ Daarnaast ondersteunen we de volgende expressies voor Maestro-formuleringsvelden
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Retourneert een samengevoegde tekenreeks met scheidingsteken.</p> <p>De expressie wordt als volgt opgemaakt:
 
-    ARRAYJOIN(delimiter,array)
+<code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Daarnaast ondersteunen we de volgende expressies voor Maestro-formuleringsvelden
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Retourneert een array met unieke waarden.</p> <p>De expressie wordt als volgt opgemaakt:
 
-    ARRAYUNIQUE(array)
+<code>ARRAYUNIQUE(array)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Retourneert de id van een record.</p> <p>De expressie wordt als volgt opgemaakt:
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Daarnaast ondersteunen we de volgende expressies voor Maestro-formuleringsvelden
    <td><strong>SETTIMEZON</strong> </td> 
    <td> <p>Stelt de tijdzone van een datum en tijd in op een specifieke tijdzone.</p> <p>De expressie wordt als volgt opgemaakt:
 
-    SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Daarnaast ondersteunen we de volgende expressies voor Maestro-formuleringsvelden
    <td><strong>WEEKOFYYEAR</strong> </td> 
    <td> <p>Retourneert het weekgetal in een jaar. U kunt ook aangeven op welke dag de week begint (gebruik 1 voor zondag of 2 voor maandag). Als u dit opgeeft, beginnen weken standaard op zondag.</p> <p>De expressie wordt als volgt opgemaakt:
 
-    WEEKOFYEAR(datum,2)
-    of
-    WEEKOFYEAR(datum)
+<code>WEEKOFYEAR(datum,2)</code>
+of
+<code>WEEKOFYEAR(datum)</code>
 </p>
    </td></tr>
 

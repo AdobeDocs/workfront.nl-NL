@@ -3,9 +3,9 @@ title: Verbeteringen van het eerste kwartaal 2024-project
 description: Verbeteringen van projecten in het eerste kwartaal van 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwar
 
 ## AI-gestuurde slimme toewijzingen
 
-We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is overal in Workfront van toepassing waar u een taak toewijst (taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel).
+We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.
 
 Nu, bekijkt het algoritme de volgende informatie wanneer het slimme taken voorstelt:
 
