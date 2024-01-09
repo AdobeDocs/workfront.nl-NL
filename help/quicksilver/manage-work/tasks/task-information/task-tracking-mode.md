@@ -7,18 +7,20 @@ description: U kunt de instelling van de modus Tekstspatiëring van een taak aan
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de modus Taken bijhouden
 
+<!-- Audited: 01/2024 -->
+
 U kunt de instelling van de modus Tekstspatiëring van een taak aanpassen wanneer u een taak maakt of bewerkt om te bepalen hoe en wanneer de voortgangsstatusindicatoren van een taak worden weergegeven. Adobe Workfront geeft voortgangsstatusvlaggen weer wanneer u bepaalde instellingen configureert voor het bijhouden van de voortgang van taken.
 
-Voor meer informatie over de Status van de Voortgang van taken, zie [Overzicht van status voortgang van taak](../../../manage-work/tasks/task-information/task-progress-status.md).
+Voor meer informatie over de Voortgang van taken, zie [Overzicht van status voortgang taak](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -52,7 +54,7 @@ Als deze optie is geselecteerd, gebruikt Workfront het programma Procent voltooi
 
 ### Veronderstellen op tijd {#assume-on-time}
 
-Workfront gaat ervan uit dat een taak op tijd wordt voltooid, ongeacht de huidige voltooiingsstatus. Als dit niet het geval is, neemt Workfront automatisch de geplande voltooiingsdatum van de volgende werkdag over. U moet nog aangeven wanneer de taak is voltooid. Gebruik deze optie als gebruikers hun taken niet regelmatig bijwerken.
+Workfront gaat ervan uit dat een taak op tijd wordt voltooid, ongeacht de huidige voltooiingsstatus. Als de taak niet op tijd (op de Geplande VoltooiingsDatum) wordt voltooid, dan neemt Workfront automatisch een Geplande VoltooiingsDatum van de volgende werkdag over. U moet nog aangeven wanneer de taak is voltooid. Gebruik deze optie als gebruikers hun taken niet regelmatig bijwerken.
 
 ### Te late waarschuwingen negeren {#ignore-late-warnings}
 
@@ -71,8 +73,8 @@ De volgende uitzonderingen bestaan:
 >
 >Als u wilt dat taken automatisch worden voltooid, markeert u de taak Voltooien wanneer de projecttijd opnieuw wordt berekend. Als het Type van Update van het project aan Automatisch of Automatisch en bij Verandering wordt geplaatst, wordt de projectchronologie dagelijks berekend. Voor informatie over tijdlijnherberekeningen van projecten raadpleegt u [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->De tijd van de datum van daadwerkelijke voltooiing is middernacht van de dag wanneer de chronologie automatisch wordt berekend. De tijd die wordt gebruikt om deze tijdstempel te genereren is de Tijd&amp;Zone van uw systeem zoals gedefinieerd door uw Workfront-beheerder in het gedeelte Klantgegevens van Setup. Voor informatie over het plaatsen van de Tijdzone van uw systeem, zie [Basisinformatie voor uw systeem configureren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>De tijd van de datum van daadwerkelijke voltooiing is middernacht van de dag wanneer de chronologie automatisch wordt berekend. De tijd die wordt gebruikt om deze tijdstempel te genereren is de tijdzone van uw systeem zoals die door uw Workfront-beheerder in het gedeelte Klantgegevens van Setup is gedefinieerd. Voor informatie over het plaatsen van de tijdzone van uw systeem, zie [Basisinformatie voor uw systeem configureren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Voorganger {#predecessor}
 
-Workfront raamt de voorspelde voltooiingsdatum van een taak op basis van zijn eerdere relatie. De status van de voortgang van een taak wordt bepaald op basis van deze schatting. Bijvoorbeeld, heeft Taak B een Duur van 1 Dag en is gepland om twee dagen na zijn voorganger, Taak A te voltooien, die vijf dagen zou moeten nemen. Een gebruiker werkt dan Taak B aan 50% volledig bij, maar predecessor, Taak A, is nog niet begonnen. Workfront chedules afhankelijke Taak B zes dagen na de begindatum van de voorgangertaak, die 5 dagen voor Taak A en 1 dag voor Taak B toestaat.
+Workfront raamt de voorspelde voltooiingsdatum van een taak op basis van zijn eerdere relatie. De status van de voortgang van een taak wordt bepaald op basis van deze schatting. Bijvoorbeeld, heeft Taak B een Duur van 1 Dag en is gepland om twee dagen na zijn voorganger, Taak A te voltooien, die vijf dagen zou moeten nemen. Een gebruiker werkt dan Taak B aan 50% volledig bij, maar predecessor, Taak A, is nog niet begonnen. Workfront plant afhankelijke Taak B zes dagen na de begindatum van de voorgangertaak, die 5 dagen voor Taak A en 1 dag voor Taak B toestaat.
