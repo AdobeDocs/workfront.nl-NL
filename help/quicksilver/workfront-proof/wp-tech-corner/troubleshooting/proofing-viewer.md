@@ -8,9 +8,9 @@ description: Als de inhoud van uw proefdrukken niet wordt geladen en u alleen ee
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ In de Proefweergave laden we de tegels - fragmenten van de pagina&#39;s. Als dez
 
 ## Insteekmodules controleren
 
-Als uw browser en [!DNL Flash Player] de insteekmodule is bijgewerkt en uw netwerk blokkeert niet de verbindingen aan [!DNL Workfront Proof] er kan iets in uw browser zijn dat het bekijken van de proefdrukken beïnvloedt. Er zijn momenteel meerdere plug-ins en extensies beschikbaar in uw browser. Sommige van deze plug-ins veroorzaken een conflict of veroorzaken een conflict met andere plug-ins.
+Als uw browser bijgewerkt is en uw netwerk blokkeert niet de verbindingen aan [!DNL Workfront Proof]kan er iets in uw browser zijn dat invloed heeft op het weergeven van de proefdrukken. Er zijn vaak meerdere plug-ins en extensies beschikbaar in uw browser. Sommige van deze plug-ins kunnen problemen veroorzaken of een conflict veroorzaken met andere plug-ins.
 
-De beste praktijken moeten alle onbekende toe:voegen-ons verwijderen en slechts degenen houden die u gebruikt en die u vertrouwt. Elke browser moet u opties bieden om de plug-ins en extensies te controleren, te wijzigen of te verwijderen. Ons [!DNL Workfront Proof] Viewer is gebaseerd op [!DNL Flash] en gebruiken JavaScript om de viewer te laden, zodat u vooral de insteekmodules wilt raadplegen die deze kunnen beïnvloeden.
+De beste praktijken moeten alle onbekende toe:voegen-ons verwijderen en slechts degenen houden die u gebruikt en die u vertrouwt. Elke browser moet u opties bieden om de plug-ins en extensies te controleren, te wijzigen of te verwijderen. We gebruiken JavaScript om de [!DNL Workfront Proof] de viewer, zodat u vooral de plug-ins wilt bekijken die dat kunnen beïnvloeden.
 
-Als er om het even welke bepaalde toe:voegen-op interfereert met het laden van de proeven kunt u proberen de details in de console van browser te controleren.
+Als er om het even welke bepaalde toe:voegen-op interfereert met het laden van de proeven, kunt u proberen controlerend de details in de console van browser.
 
 ![Browserconsole](assets/proofview-4.png)
 
@@ -101,8 +101,8 @@ Als u problemen hebt met het bekijken van de proefdrukken:
 
 ## Instellingen voor gemengde inhoud controleren
 
-Alle verbindingen met [!DNL Workfront Proof] zijn via HTTPS. In de [!DNL Workfront Proof] Viewer we laden de tegels via HTTP en de gegevens worden beveiligd met de tokens. Dit leidt tot Gemengde Inhoud die sommige browsers of veiligheidsoplossingen (door gebrek of volgens handconfiguratie) kunnen blokkeren.
+Alle verbindingen met [!DNL Workfront Proof] zijn via HTTPS. In de [!DNL Workfront Proof] Viewer we laden de tegels via HTTP en de gegevens worden beveiligd met de tokens. Dit leidt tot Gemengde Inhoud die sommige browsers of veiligheidsoplossingen (door gebrek of door handconfiguratie) kunnen blokkeren.
 
-Als dit de reden is waarom de proeven niet op uw computer openen (u zou de relevante alarm in de console van browser moeten kunnen zien) dergelijke verbindingen voor machtigen [!DNL Workfront Proof] of wijzig de instellingen om passief gemengde inhoud op uw computer toe te staan. De gemengde inhoud kan door uw browser, AV software, netwerkconfiguratie enz. worden geblokkeerd - om de nauwkeurige oorzaak te bepalen gelieve in contact met uw team/netwerkbeheerders van IT te krijgen. Ze moeten ook de gemengde inhoud op uw computer kunnen inschakelen.
+Als dit de reden is waarom de proeven niet op uw computer openen (u zou de relevante alarm in de console van browser moeten kunnen zien), dergelijke verbindingen voor toestaan [!DNL Workfront Proof] of wijzig de instellingen om passief gemengde inhoud op uw computer toe te staan. De gemengde inhoud kan door uw browser, software AV, of netwerkconfiguratie worden geblokkeerd om de nauwkeurige oorzaak te bepalen. U moet contact opnemen met uw IT-team/netwerkbeheerders. Ze moeten ook de gemengde inhoud op uw computer kunnen inschakelen.
 
 
