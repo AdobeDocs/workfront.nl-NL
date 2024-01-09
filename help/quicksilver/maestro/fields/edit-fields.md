@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Maestro-velden kunt b
 
 ## Overwegingen bij het bewerken van veldgegevens
 
-* U kunt velden bewerken die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt. <!--this will change with access levels/ permissions-->
+* U kunt velden bewerken die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt. <!--this will change with access levels/ permissions - take out, it's in the table!-->
 * U kunt een veld in de tabel met recordtypen bewerken.
 * U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
 * U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
@@ -94,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/grant-access.md">Toegang verlenen tot Adobe Maestro</a>. </p>  
+   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -141,7 +141,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

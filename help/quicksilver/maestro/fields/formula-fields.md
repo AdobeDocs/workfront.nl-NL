@@ -4,16 +4,19 @@ description: In Adobe Maestro, kunt u formuleringsgebieden tot stand brengen die
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
+
+# Overzicht van formuliervelden
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -26,7 +29,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Overzicht van formuliervelden
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -81,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/grant-access.md">Toegang verlenen tot Adobe Maestro</a>. </p>  
+   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -151,11 +154,64 @@ After permssions - replace the table with:
 * Formulervelden verwijzen naar velden die tot hetzelfde recordtype behoren. U kunt niet naar velden van andere recordtypen verwijzen wanneer u een formuleringsveld maakt. <!--is this still accurate??-->
 * U kunt het veldtype van een veld Formule niet wijzigen nadat u het hebt opgeslagen.
 * U kunt de berekening van een formuleringsgebied bijwerken nadat u het bewaart, en de resultaten van de berekeningsupdate automatisch voor alle verslagen van het zelfde type.
+* U kunt opzoekvelden van gekoppelde recordtypen niet gebruiken.
+* U moet de velden toevoegen waarnaar u verwijst in formules zoals deze worden weergegeven in de Maestro-interface.
+
+## Ondersteunde formules
+
+Wij steunen alle formules van de berekende velden van Workfront. Zie voor meer informatie [Overzicht van berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+Daarnaast ondersteunen we de volgende expressies voor Maestro-formuleringsvelden:
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Uitdrukking</th> 
+   <th>Uitleg en voorbeeld</th> 
+  </tr> 
+ </thead> 
+ <tbody>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+<tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>Retourneert een samengevoegde tekenreeks met scheidingsteken.</p> <p>De expressie wordt als volgt opgemaakt:
 
--->
+    ARRAYJOIN(delimiter,array)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td> <p>Retourneert een array met unieke waarden.</p> <p>De expressie wordt als volgt opgemaakt:
+
+    ARRAYUNIQUE(array)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>SETTIMEZON</strong> </td> 
+   <td> <p>Stelt de tijdzone van een datum en tijd in op een specifieke tijdzone.</p> <p>De expressie wordt als volgt opgemaakt:
+
+    SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>WEEKOFYYEAR</strong> </td> 
+   <td> <p>Retourneert het weekgetal in een jaar. U kunt ook aangeven op welke dag de week begint (gebruik 1 voor zondag of 2 voor maandag). Als u dit opgeeft, beginnen weken standaard op zondag.</p> <p>De expressie wordt als volgt opgemaakt:
+
+    WEEKOFYEAR(datum,2)
+    of
+    WEEKOFYEAR(datum)
+</p>
+   </td></tr>
+
+</table>
+
+
+
+
+

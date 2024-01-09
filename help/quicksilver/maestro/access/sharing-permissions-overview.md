@@ -1,26 +1,24 @@
 ---
 title: Overzicht van het delen van machtigingen in Adobe Maestro
-description: U kunt machtigingen delen of verwijderen voor een door u gemaakte Adobe Maestro-werkruimte. Alleen Workfront-beheerders kunnen werkruimten maken en delen.
+description: U kunt machtigingen delen of verwijderen voor een door u gemaakte Adobe Maestro-werkruimte.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
-<!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+<!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!-- *********add to TOC****************-->
 
 # Overzicht van het delen van machtigingen in Adobe Maestro
-
-U kunt machtigingen delen of verwijderen voor een door u gemaakte Adobe Maestro-werkruimte. Alleen Workfront-beheerders kunnen werkruimten maken en delen.
 
 >[!IMPORTANT]
 >
@@ -32,92 +30,306 @@ U kunt machtigingen delen of verwijderen voor een door u gemaakte Adobe Maestro-
 >
 >Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
 
+U kunt machtigingen delen of verwijderen voor een door u gemaakte Adobe Maestro-werkruimte.
+
 ## Objecten die u kunt delen in Adobe Maestro
 
 U kunt de volgende objecten delen in Maestro:
 
 * Werkruimten
 
-  Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld.
+  Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld. Weergaven worden niet gedeeld.
+
+* Weergaven
 
 ## Overwegingen bij het delen van objecten in Maestro
 
-* Alleen Workfront-beheerders kunnen een werkruimte delen.
-* Alle Workfront-beheerders kunnen werkruimten openen en delen die andere gebruikers hebben gemaakt.
+* U moet over de volgende licentie beschikken om werkruimten te maken in Maestro:
+
+   * Nieuw prijsmodel: standaardlicentie
+   * Huidig prijsmodel: Arbeidslicentie of hoger
+* Systeembeheerders kunnen werkruimten beheren en delen die andere gebruikers hebben gemaakt.
+* Als u geen systeembeheerder bent, kunt u aan werkruimten bijdragen die door anderen worden gecreeerd als zij met u worden gedeeld.
 * U kunt werkruimten niet bulksgewijs delen.
 * U kunt een werkruimte delen met de volgende entiteiten:
    * Gebruikers
    * Groepen
+* Andere gebruikers, waaronder Systeembeheerders, hebben alleen toegang tot weergaven die ze hebben gemaakt of die met hen zijn gedeeld.
 
 ## Machtigingen delen voor Maestro-objecten
 
-In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt selecteren bij het delen van een Maestro-werkruimte:
+In de volgende tabel wordt het niveau van machtigingen weergegeven dat u kunt selecteren bij het delen van een Maestro-werkruimte of -weergave:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
- <tr> 
-   <td role="rowheader"><p><b>Machtigingsniveau</b></p></td> 
-   <td> <p><b>Handelingen die u kunt uitvoeren</b></p> 
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Weergave</p></td> 
-   <td> 
-    <ul> 
-     <li>De werkruimte weergeven</li> 
-     <li>Alle recordtypen weergeven in de werkruimte</li> 
-     <li>Alle records in een recordtype weergeven</li> 
-     <li>Alle velden in een recordtype weergeven</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Contribute</p></td> 
-   <td>  
-    <ul> 
-     <li>Alle acties inbegrepen met de toestemming van de Mening</li> 
-     <li>Records toevoegen</li>
-     <li>Records maken</li> 
-     <li>Records verwijderen</li>  
-     <li>Records bewerken</li>
-     <li>Veldinstellingen bewerken</li>
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Beheren</p></td> 
-   <td> 
-    <ul> 
-     <li>Alle handelingen die zijn inbegrepen bij de machtigingen Weergeven en Contribute</li> 
-     <li>Recordtypen bewerken</li> 
-     <li>Recordtypen maken</li> 
-     <li>Recordtypen verwijderen</li> 
-     <li>Velden toevoegen</li> 
-     <li>Velden verwijderen</li> 
-     <li>Nieuwe verbindingen tussen recordtypen toevoegen</li> 
-     <li>De werkruimte delen met gebruikers en groepen</li> 
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Workfront-beheerders</p></td> 
-   <td> <p>Dit is geen toestemming van Maestro.</p>
-   <p> Alle Workfront-beheerders kunnen het volgende doen: </p>
-   <ul><li>Werkruimten maken</li>
-    <li> Bestaande werkruimten beheren, zelfs als deze zelf niet zijn gemaakt. </li> 
-    <li>Alle informatie in een werkruimte beheren (recordtypen, records, velden)
-    </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+
+
+</td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td><p><b>Nieuw: standaardlicentie</b></p> <p><b>Huidig: Worker- of hogere licentie</b></p></strong>
+   </td>
+   <td><strong>Rechten beheren</strong>
+   </td>
+   <td><strong>Contribute-machtigingen</strong>
+   </td>
+   <td><strong>Machtigingen weergeven</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Maken</strong>
+   </td>
+   <td rowspan="5" ><strong>Werkruimte</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Verwijderen</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Delen</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Bewerken</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Weergave</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Maken/verwijderen</strong>
+   </td>
+   <td rowspan="3" ><strong>Recordtype*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Bewerken</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Weergave</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Maken/verwijderen</strong>
+   </td>
+   <td rowspan="3" ><strong>Opnemen*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Bewerken</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Weergave</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <tr>
+   <td><strong>Maken</strong>
+   </td>
+   <td rowspan="5" ><strong>Weergave</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Verwijderen</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Delen</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Bewerken</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Weergave</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>✓
+   </td>
+  </tr>
+
+<tr>
+   <td><strong>Maken/verwijderen</strong>
+   </td>
+   <td rowspan="3" ><strong>Velden*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Bewerken</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Weergave</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+
+
+
 </table>
 
-<!-- the following sections are hidden in the links below - ensure they are visible-->
+*Recordtypen, records en velden nemen machtigingen over van de werkruimte.
 
-## Een werkruimte delen
+Zie voor algemene informatie over toegang tot Maestro [Overzicht van het delen van machtigingen in Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang verlenen tot Adobe Maestro](../access/grant-access.md).
+Zie voor informatie over het delen van werkruimten [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md).
 
-## Machtigingen verwijderen uit een werkruimte
+Zie voor informatie over het delen van weergaven [Een weergave delen](/help/quicksilver/maestro/access/share-views.md)
 
-Voor informatie over het delen van een Maestro-werkruimte raadpleegt u [Toegang verlenen tot Adobe Maestro](../access/grant-access.md).
-
-<!--This is currently not possible: ## Request permissions to objects -->

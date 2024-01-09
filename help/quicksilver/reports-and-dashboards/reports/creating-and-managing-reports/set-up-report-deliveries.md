@@ -6,9 +6,9 @@ description: Overzicht van levering rapporteren
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Overweeg het volgende:
 
 Als u een speciale weergave toepast op een rapport, wordt de speciale weergave weergegeven op het tabblad Details van het rapport in Workfront.
 
-Wanneer u de levering plant van een rapport dat een speciale mening heeft, wordt het standaardlusje van Details geleverd in de gehechtheid van verzonden e-mail, in plaats van de speciale mening.
+Wanneer u de levering plant van een rapport dat een speciale mening heeft, wordt het lusje van Details geleverd in de gehechtheid van verzonden e-mail, in plaats van de speciale mening.
 
 De volgende opmerkingen worden beschouwd als speciale weergaven:
 
