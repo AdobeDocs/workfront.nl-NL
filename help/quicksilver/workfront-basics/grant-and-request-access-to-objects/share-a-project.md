@@ -6,14 +6,16 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
 
 # Een project delen in Adobe Workfront
+
+<!-- Audited: 1/2024 -->
 
 Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprojecten wanneer u uw toegangsniveau toewijst. Zie voor meer informatie [Toegang verlenen tot projecten](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -27,24 +29,24 @@ Naast de onderstaande overwegingen, zie ook [Overzicht van het delen van machtig
 
 * Door gebrek, heeft de schepper van een project toestemmingen om het project te beheren en ook aangewezen als Eigenaar van het Project. Als het project aan een andere eigenaar wordt toegewezen, heeft die gebruiker ook toestemmingen om het project te beheren. Wanneer de projectmaker (of eigenaar) het project met andere gebruikers deelt, verlenen zij bepaalde toestemmingen aan die gebruikers om te controleren wat zij kunnen doen aangezien zij aan het project werken.
 
-   Als de eigenaar van een project echter geen Planner-licentie heeft, hebben deze geen volledige toegang om het project te beheren. Slechts kan een gebruiker met een vergunning van het Plan toestemmingen hebben om een project te beheren. Zie voor meer informatie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Als de eigenaar van een project echter geen Planner-licentie heeft, hebben deze geen volledige toegang om het project te beheren. Slechts kan een gebruiker met een vergunning van het Plan toestemmingen hebben om een project te beheren. Zie voor meer informatie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * U kunt projecten afzonderlijk delen, maar u kunt ook verschillende projecten tegelijk delen. Projecten delen is hetzelfde als andere objecten delen. Ga voor meer informatie over het delen van objecten in Workfront naar [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* U kunt de volgende toestemmingen aan een project verlenen: 
+* U kunt de volgende toestemmingen aan een project verlenen:
 
    * Weergave
    * Beheren
    * Contribute
 
-      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * Wanneer u een project deelt, erven alle taken, kwesties, en de documenten de zelfde toestemmingen, tenzij anders gespecificeerd.
 
-   Voor informatie over het beheren van de toegang tot taken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie [](../../manage-work/projects/manage-projects/edit-projects.md#access) in het artikel [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
+  Voor informatie over het beheren van de toegang tot taken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie [](../../manage-work/projects/manage-projects/edit-projects.md#access) in het artikel [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
 
-   De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Zie voor meer informatie over het beperken van overerfde machtigingen voor documenten [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Zie voor meer informatie over het beperken van overerfde machtigingen voor documenten [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* U kunt geërfte toestemmingen uit een project verwijderen zodat de kindvoorwerpen hen niet zullen erven. Voor meer informatie over het verwijderen van erfrechten uit objecten raadpleegt u  [Rechten van objecten verwijderen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* U kunt geërfte toestemmingen uit een project verwijderen zodat de kindvoorwerpen hen niet zullen erven. Voor meer informatie over het verwijderen van erfrechten uit objecten raadpleegt u [Rechten van objecten verwijderen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Manieren om een project te delen {#ways-to-share-a-project}
 
@@ -53,29 +55,29 @@ U kunt een project op de volgende manieren delen:
 * Handmatig door een van de volgende handelingen uit te voeren:
 
    * Gebruikers toevoegen aan het projectteam. Wanneer u gebruikers aan het projectteam toevoegt, verkrijgen zij automatisch de toestemmingen van de Mening aan het project.\
-      Voor meer informatie over het toevoegen van gebruikers aan een projectteam, zie de &quot;Toevoegende Gebruikers aan een Team van het Project&quot;sectie in [Overzicht van het projectteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * De projecten afzonderlijk of in bulk delen bij gebruik van de **Delen** optie.
+     Voor meer informatie over het toevoegen van gebruikers aan een projectteam, zie de &quot;Toevoegende Gebruikers aan een Team van het Project&quot;sectie in [Overzicht van het projectteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
+   * De projecten afzonderlijk of in bulk delen bij gebruik van de **Delen** -optie.
 
-      Het delen van een project is vergelijkbaar met het delen van alle andere objecten in Adobe Workfront.
+     Het delen van een project is vergelijkbaar met het delen van alle andere objecten in Adobe Workfront.
 
-      Voor informatie over het delen van objecten in Workfront raadpleegt u [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Voor informatie over het delen van objecten in Workfront raadpleegt u [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Automatisch, door één van het volgende te doen:
 
    * Een project plaatsen in een **Portfolio** of **Programma** dat al met anderen wordt gedeeld. Gebruikers krijgen dezelfde machtigingen voor het project als voor het portfolio of programma.\
-      Voor informatie over het toevoegen van een project aan een **Portfolio**, zie [Projecten toevoegen aan een portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-      Voor informatie over het toevoegen van een project aan een **Programma**, zie [Een project toevoegen aan een programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+     Voor informatie over het toevoegen van een project aan een **Portfolio**, zie [Projecten toevoegen aan een portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     Voor informatie over het toevoegen van een project aan een **Programma**, zie [Een project toevoegen aan een programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-      Voor informatie over het bekijken van geërfte toestemmingen op een voorwerp, zie [Overerfde machtigingen voor objecten weergeven](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Voor informatie over het bekijken van geërfte toestemmingen op een voorwerp, zie [Overerfde machtigingen voor objecten weergeven](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
    * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen. Voor informatie over het delen van projecten van malplaatjes, zie [Een sjabloon delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Bepaal het malplaatje van de projecttoegang.
 
-      Om het malplaatje van de projecttoegang te bepalen, zie [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Om het malplaatje van de projecttoegang te bepalen, zie [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-      >[!TIP]
-      >
-      >Wanneer het vastmaken van of het bewaren van een malplaatje, kunt u de het Delen van het Project van het Malplaatje regels ontruimen.
+     >[!TIP]
+     >
+     >Wanneer het vastmaken van of het bewaren van een malplaatje, kunt u de het Delen van het Project van het Malplaatje regels ontruimen.
 
    * Een project bewerken en de opdracht **Wanneer iemand toegang krijgt tot dit project** instellen. Zie voor meer informatie [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -226,7 +228,7 @@ De volgende lijst maakt een lijst van de toestemmingen die de gebruikers kunnen 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Delen op systeemniveau</p> </td> 
+   <td> <p>Delen in het hele systeem</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p>✓</p> </td> 
@@ -292,7 +294,7 @@ De volgende lijst maakt een lijst van de toestemmingen die de gebruikers kunnen 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Sjabloon bijvoegen</p> </td> 
+   <td> <p>Sjabloon koppelen</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 

@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Taakrollen maken en beheren
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -35,7 +37,9 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>Huidige: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -48,10 +52,12 @@ U moet het volgende hebben:
 
 ## Een taakrol maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+Een taakrol maken:
+
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op &#x200B; **[!UICONTROL Job Roles].**
-1. Klik op **[!UICONTROL New Job Role].**
+1. Klikken **[!UICONTROL New Job Role].**
 1. Configureer het volgende:
 
    <table style="table-layout:auto"> 

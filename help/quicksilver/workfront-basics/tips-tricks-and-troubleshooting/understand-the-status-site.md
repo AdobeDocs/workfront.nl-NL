@@ -4,14 +4,16 @@ description: U kunt de gezondheid van de [!DNL Workfront] platform, met inbegrip
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # De [!DNL Adobe Workfront] Statussite
+
+<!-- Audited: 1/2024 -->
 
 ## Overzicht van de statussite
 
@@ -28,11 +30,7 @@ U hebt toegang tot de volgende informatie op de statussite:
 
 U kunt statusupdates weergeven op de knop [!DNL Adobe] Statussite.
 
-1. Ga naar [[!DNL https://one.workfront.com]](https://one.workfront.com/)en klik vervolgens op **[!UICONTROL Status]** in de **[!UICONTROL Support]** in de rechterbenedenhoek van de pagina.
-
-   of
-
-   Type [status.adobe.com](https://status.adobe.com/) in uw browser om toegang te krijgen tot de statussite.
+1. Type [status.adobe.com](https://status.adobe.com/) in uw browser om toegang te krijgen tot de statussite.
 
 1. Selecteren **[!UICONTROL Experience Cloud]**.
 1. Omlaag schuiven en selecteren **[!UICONTROL Adobe Workfront]** uit de lijst met oplossingen.
@@ -43,6 +41,7 @@ Abonneren op de statussite of uw abonnement beheren nadat u al hebt geabonneerd:
 
 1. Ga naar [status.adobe.com](https://status.adobe.com/).
 1. Selecteer op de statusbalk de optie **[!UICONTROL Manage subscriptions]**.
+   ![](assets/manage-subs.png)
 1. Als u een bestaande account hebt, meldt u zich aan bij de account. Anders maakt u een nieuwe account.
 1. Klik op de knop **[!UICONTROL Create subscriptions]** knop.
 1. Selecteren **[!UICONTROL Adobe Workfront]** onder de **[!UICONTROL Experience Cloud]** header, klik vervolgens op **[!UICONTROL Continue]**.
@@ -50,10 +49,6 @@ Abonneren op de statussite of uw abonnement beheren nadat u al hebt geabonneerd:
 1. Klikken **[!UICONTROL Done]** om uw abonnement te bevestigen.
 
 ## Benoemde kwetsbaarheden begrijpen
-
-* [Wat is een benoemde kwetsbaarheid?](#what-is-a-named-vulnerability)
-* [Hoe kan ik benoemde kwetsbaarheden weergeven die zijn geïdentificeerd door [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [Waarom is dit belangrijk?](#why-is-this-important)
 
 ### Wat is een benoemde kwetsbaarheid? {#what-is-a-named-vulnerability}
 

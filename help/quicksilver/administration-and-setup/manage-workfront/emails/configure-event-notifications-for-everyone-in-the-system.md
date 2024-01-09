@@ -1,18 +1,20 @@
 ---
 title: Gebeurtenismeldingen configureren voor iedereen in het systeem
 description: Gebeurtenismeldingen activeren e-mails naar gebruikers wanneer een bepaalde gebeurtenis plaatsvindt. Als Adobe Workfront-beheerder of gebruiker met een Planner-toegangsniveau kunt u een gebeurtenismelding configureren voor alle gebruikers in het systeem. Configuratie van een gebeurtenismelding bestaat uit het activeren of deactiveren ervan.
-author: Caroline, Lisa
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a5cad262eff029be443457cbd8dddf4c65789b35
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # Gebeurtenismeldingen configureren voor iedereen in het systeem
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -44,7 +46,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td> <p>Nieuw: Standaard</p>
+ <p>of</p> 
+<p>Huidig: Plan</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -57,13 +62,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Gebeurtenismeldingen configureren voor alle gebruikers
 
-U moet meldingen inschakelen in het gedeelte Setup van Workfront voordat gebruikers deze in hun profielen kunnen in- of uitschakelen.
+U moet meldingen inschakelen in het gedeelte Setup van Workfront voordat gebruikers de meldingen in hun afzonderlijke profielen kunnen in- of uitschakelen.
 
 >[!TIP]
 >
 >U kunt geen berichten voor de Doelen van Workfront van het gebied van de Opstelling activeren. Gebruikers kunnen deze meldingen alleen activeren in hun profielen. Gebruikers met een abonnement kunnen deze activeren voor andere gebruikers. Voor informatie over het inschakelen van Workfront Goals-meldingen voor gebruikers raadpleegt u [Meldingen: Doelstellingen](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **E-mail** > **Meldingen**.
 
@@ -71,7 +76,7 @@ U moet meldingen inschakelen in het gedeelte Setup van Workfront voordat gebruik
 
 
 1. Zorg ervoor dat de **Gebeurtenismeldingen** is geopend.
-1. Klik op de schakelaar links van de naam van de gebeurtenis om deze in of uit te schakelen.
+1. Schakel de schakelaar links van de naam van de gebeurtenis in of uit.
 
    Zie de standaardmeldingsstatus voor een gebeurtenis [Gebeurtenismeldingen](../../../workfront-basics/using-notifications/event-notifications.md).
 

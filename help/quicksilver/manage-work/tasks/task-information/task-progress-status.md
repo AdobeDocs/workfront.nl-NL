@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Overzicht van status voortgang van taak
+title: Overzicht van status voortgang taak
 description: Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vooruitgang van de taak over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikelOverzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project.
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
 
 ---
 
-# Overzicht van status voortgang van taak
+# Overzicht van status voortgang taak
+
+<!-- Audited: 1/2024 -->
 
 Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vooruitgang van de taak over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [Overzicht van het type Projectvoorwaarde en Voorwaarde](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -38,7 +40,7 @@ De volgende criteria bepalen de Voortgangsstatus van een taak:
  <tbody> 
   <tr valign="top"> 
    <td scope="col"> <p> </p> <p><strong>Op tijd</strong> </p> </td> 
-   <td scope="col"> <p>Een taak wordt overwogen <strong>Op tijd</strong> wanneer alle geplande datums overeenkomen met de geprojecteerde datums. Deze status van de voortgang kan er ook toe leiden dat het project op schema ligt en dat de geplande data vóór de geplande data liggen.</p> <p>Voor meer informatie over Geprojecteerde Datums, zie <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overzicht van de geplande afsluitdatum voor projecten, taken en problemen</a>.</p> <p>Raadpleeg de volgende artikelen voor meer informatie over de geplande voltooiingsdatum voor taken:</p> 
+   <td scope="col"> <p>Een taak wordt overwogen <strong>Op tijd</strong> wanneer alle geplande datums overeenkomen met de verwachte datums. Deze status van de voortgang kan er ook toe leiden dat het project op schema ligt en dat de geplande data vóór de geplande data liggen.</p> <p>Voor meer informatie over Geprojecteerde Datums, zie <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overzicht van de geplande afsluitdatum voor projecten, taken en problemen</a>.</p> <p>Raadpleeg de volgende artikelen voor meer informatie over de geplande voltooiingsdatum voor taken:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overzicht van de geplande startdatum van de taak</a> </p> </li> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overzicht van de geplande voltooiing van de taak</a> </p> </li> 
@@ -46,7 +48,7 @@ De volgende criteria bepalen de Voortgangsstatus van een taak:
   </tr> 
   <tr> 
    <td><p></p> <p><strong>Risico</strong> </p> </td> 
-   <td><p>Een taak wordt overwogen <strong>Risico</strong> wanneer de geraamde Voltooiingsdatum later is dan de geplande Voltooiingsdatum en later dan de verwachte Voltooiingsdatum. Dit kan gebeuren wanneer een taak een beperking heeft van <strong>Moet worden voltooid op</strong> of <strong>Moet beginnen op</strong> maar het percentage voltooid of de voorgaande relaties van de taak laten zien dat het niet op de opgegeven datums kan worden voltooid of gestart. </p><p> Taakbeperking instellen op <strong>Moet worden voltooid op</strong> stelt de geplande voltooiingsdatum handmatig in op een bepaalde datum. In dit geval komt de voorspelde Voltooiingsdatum overeen met de geplande Voltooiingsdatum. In het geval van deze beperking, analyseert Workfront de taak om te berekenen wanneer het zal eindigen gebaseerd op het voltooide percentage. Deze berekening wordt opgeslagen als de geschatte vervaldatum. Als de geschatte vervaldatum na de verwachte afsluitende datum ligt, bestaat het risico dat de taak te laat wordt uitgevoerd. </p> <p> Taakbeperking instellen op <strong>Moet beginnen op</strong> Hiermee wordt de geplande begindatum handmatig ingesteld op een specifieke datum. De voorspelde begindatum komt in dit geval overeen met de geplande begindatum. In het geval van deze beperking, analyseert Workfront de taak om te berekenen wanneer het op zijn vroegere verhoudingen zal beginnen. Deze berekening wordt opgeslagen als de geschatte begindatum. Als er een gedwongen voorganger is die de taak niet op de gespecificeerde Datum van het Begin toelaat te beginnen, dan kan de Geschatte Datum van het Begin na de Verwachte Datum van de Voltooiing zijn. De taak dreigt te worden vertraagd. </p> <p>Opmerking: Gewoonlijk komen de geschatte datums overeen met de geprojecteerde datums, behalve wanneer <strong>Moet beginnen op</strong> of <strong>Moet worden voltooid op</strong> worden gebruikt. In deze gevallen blijven de geschatte datums berekenen op basis van het percentage complete en andere factoren (eerdere relaties), terwijl de voorspelde datums moeten overeenkomen met de geplande datums die handmatig zijn ingesteld.</p> </td> 
+   <td><p>Een taak wordt overwogen <strong>Risico</strong> wanneer de geraamde Voltooiingsdatum later is dan de geplande Voltooiingsdatum en later dan de verwachte Voltooiingsdatum. Dit kan gebeuren wanneer een taak een beperking heeft van <strong>Moet worden voltooid op</strong> of <strong>Moet beginnen op</strong> maar het percentage voltooid of de voorgaande relaties van de taak laten zien dat het niet op de opgegeven datums kan worden voltooid of gestart. </p><p> Taakbeperking instellen op <strong>Moet worden voltooid op</strong> Hiermee stelt u de geplande voltooiingsdatum handmatig in op een bepaalde datum. In dit geval komt de voorspelde Voltooiingsdatum overeen met de geplande Voltooiingsdatum. In het geval van deze beperking, analyseert Workfront de taak om te berekenen wanneer het zal eindigen gebaseerd op het voltooide percentage. Deze berekening wordt opgeslagen als de geschatte vervaldatum. Als de geschatte vervaldatum na de verwachte afsluitende datum ligt, bestaat het risico dat de taak te laat wordt uitgevoerd. </p> <p> Taakbeperking instellen op <strong>Moet beginnen op</strong> Hiermee wordt de geplande begindatum handmatig ingesteld op een specifieke datum. De voorspelde begindatum komt in dit geval overeen met de geplande begindatum. In het geval van deze beperking, analyseert Workfront de taak om te berekenen wanneer het op zijn vroegere verhoudingen zal beginnen. Deze berekening wordt opgeslagen als de geschatte begindatum. Als er een gedwongen voorganger is die de taak niet op de gespecificeerde Datum van het Begin toelaat te beginnen, dan kan de Geschatte Datum van het Begin na de Verwachte Datum van de Voltooiing zijn. De taak dreigt te worden vertraagd. </p> <p>Opmerking: Gewoonlijk komen de geschatte datums overeen met de geprojecteerde datums, behalve wanneer <strong>Moet beginnen op</strong> of <strong>Moet worden voltooid op</strong> worden gebruikt. In deze gevallen blijven de geschatte datums berekenen op basis van het percentage complete en andere factoren (eerdere relaties), terwijl de voorspelde datums moeten overeenkomen met de geplande datums die handmatig zijn ingesteld.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Achter</strong> </p> </td> 

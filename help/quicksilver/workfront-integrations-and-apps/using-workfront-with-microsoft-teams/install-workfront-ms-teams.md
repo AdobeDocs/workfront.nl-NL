@@ -6,18 +6,21 @@ description: De [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandeling
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
 
 # Installeren [!DNL Adobe Workfront] voor Microsoft Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
+
 
 De [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandelingen uitvoeren in [!DNL Workfront] zonder uw [!DNL Microsoft Teams] chatkanalen.
 
@@ -40,7 +43,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td><p>Nieuw: Standaard</p>
+    <p>Huidige: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,9 +58,6 @@ U moet teameigenaar zijn in [!DNL Microsoft Teams] installeren [!DNL Workfront] 
 ## Installeren [!DNL Workfront for Microsoft Teams]
 
 Als teameigenaar in [!DNL Microsoft Teams], kunt u de [!DNL Workfront for Microsoft Teams] app voor elk van uw teams, ofwel [!DNL Microsoft] Opslaan of van een bestand voorzien door [!DNL Workfront].
-
-* [Installeren [!DNL Workfront for Microsoft Teams] uit de Microsoft Store](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [Installeren [!DNL Workfront for Microsoft Teams] uit een privébestand](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### Installeren [!DNL Workfront for Microsoft Teams] van de [!DNL Microsoft] Winkel
 

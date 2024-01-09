@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
 # Herinneringsmeldingen instellen
 
-Herinneringsberichten sturen e-mails naar ontvangers op basis van opgegeven criteria. Als Adobe Workfront-beheerder of een gebruiker met een Planner-toegangsniveau en beheertoegang tot herinneringsberichten, kunt u herinneringsberichten handmatig koppelen aan uw werkitems, zoals projecten, taken, problemen en tijdbladen.
+<!-- Audited: 1/2024 -->
+
+Herinneringsberichten sturen e-mails naar ontvangers op basis van opgegeven criteria. U kunt herinneringsberichten met uw het werkpunten, zoals projecten, taken, kwesties, en timesheets manueel associëren.
 
 <!--
 DRAFTED IN FLARE:
@@ -39,7 +41,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td> <p>Nieuw: Standaard </p>
+ <p>of</p> 
+<p>Huidig: Plan</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -52,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Het e-mailadres voor de herinnering aanpassen
 
-U kunt de herinneringsmelding aanpassen met een aangepaste e-mail die een aangepast e-mailonderwerp en een aangepaste tekst bevat. De hoofdtekst van de e-mail kan aangepaste HTML bevatten.
+U kunt het onderwerp, de tekst en de HTML aanpassen in het e-mailbericht voor herinneringen.
 
 U kunt ook het standaard-e-mailbericht gebruiken dat bij de herinneringsmelding wordt geleverd. In het standaard-e-mailbericht wordt de naam van het herinneringsbericht gebruikt als het e-mailonderwerp en de objectnaam in de e-mailhoofdtekst, inclusief de gebeurtenis die het bericht heeft geactiveerd.
 
@@ -62,7 +67,7 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
 
 ## Een herinneringsmelding maken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **E-mail** > **Meldingen** > **Herinneringsmeldingen**.
 
@@ -144,10 +149,12 @@ Als een herinnering bijvoorbeeld is ingesteld om een uur na de geplande Voltooii
 
 Een herinnering handmatig activeren:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Systeem** > **Diagnostiek** linksonder in Workfront.
 
 1. Klikken **Herinneringsmeldingen verzenden** en wacht op de bevestiging boven aan het scherm dat ze zijn verzonden.
 
    De gebruikers die in het herinneringsbericht zijn aangewezen, ontvangen een e-mail.
+
+![](assets/reminder-test.png)
