@@ -7,9 +7,9 @@ description: Met een lay-outsjabloon kunt u configureren wat gebruikers zien wan
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>Als u een standaardfilter of groep voor een specifieke widget instelt met een lay-outsjabloon, wordt dit mogelijk niet onmiddellijk van kracht vanwege bestaande gebruikersvoorkeuren. Als u het nieuwe filter of de nieuwe groep direct wilt toepassen, moet u of de gebruiker zijn gebruikersvoorkeuren mogelijk opnieuw instellen door &#39;/resetUser&#39; toe te voegen aan het einde van de URL.
 
 1. Blijf het lay-outmalplaatje aanpassen.
 

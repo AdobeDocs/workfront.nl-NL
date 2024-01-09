@@ -6,9 +6,9 @@ description: Gebruikers toestaan een uitgave per e-mail te verzenden naar een aa
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: ca3c28174dca24f14a75869bdc209569d8d8d1a0
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ De volgende eerste vereisten worden vereist om een project te vormen om gebruike
 Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen:
 
 * Gebruikers die problemen naar dit account e-mailen, moeten actieve gebruikers zijn met een licentie voor Workfront.
-* Externe gebruikers kunnen geen problemen per e-mail verzenden naar een aanvraagwachtrij omdat zij geen toegang hebben om problemen te maken.
 * Gebruikers die problemen naar deze account e-mailen, moeten beschikken over de machtiging Uitgave toevoegen voor het project.
-* De e-mails die afkomstig zijn van het e-mailadres dat is gekoppeld aan een actieve Workfront-gebruiker, zijn de enige e-mails die u kunt versturen naar het project.
+* Externe gebruikers kunnen geen problemen per e-mail verzenden naar een aanvraagwachtrij omdat zij geen toegang hebben om problemen te maken.
+* Alleen e-mails die afkomstig zijn van een e-mailadres dat is gekoppeld aan een actieve Workfront-gebruiker, mogen problemen verzenden naar het project. E-mails die via een e-mailbericht dat niet aan een Workfront-account is gekoppeld naar een actieve Workfront-gebruiker worden doorgestuurd, kunnen geen problemen in het kader van het project veroorzaken, omdat het e-mailadres van de oorspronkelijke afzender aan een actief Workfront-account moet worden gekoppeld.
 * Het project is opstelling als Rij van het Verzoek.
 * De e-mailaccount die aan het project is gekoppeld, is niet gekoppeld aan een Workfront-gebruikersaccount.
 
@@ -74,15 +74,14 @@ Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen
 >
 >Houd rekening met het volgende wanneer u instellingen voor e-mailwachtrijen inschakelt:
 >
->* Workfront staat één unieke e-mail per aanvraagwachtrij toe voor alle clusters. Als u ervoor kiest om uw aanvraagwachtrij uit te schakelen, behoudt u het e-mailadres dat u hebt gemaakt zolang dit zich nog in het vak E-mailadres invoegen bevindt. Als u ervoor kiest het gebruik van de inname-e-mail te beëindigen, moet u deze verwijderen uit het veld E-mailbericht innemen, zodat deze beschikbaar is voor toekomstig gebruik.
+>* Workfront staat één unieke e-mail per aanvraagwachtrij toe voor alle clusters. Als u ervoor kiest om uw aanvraagwachtrij uit te schakelen, behoudt u het e-mailadres dat u hebt gemaakt zolang dit zich nog in het vak E-mailadres invoegen bevindt. Als u ervoor kiest het gebruik van de inname-e-mail te beëindigen, moet u deze verwijderen uit het veld E-mailbericht innemen, zodat deze later kan worden gebruikt.
 >
 >* Als de verzoekrij veelvoudige rijonderwerpen of onderwerpgroepen heeft, zal Workfront willekeurig het rijonderwerp selecteren dat de e-mailverzoeken zullen gaan naar, makend geëmailde verzoeken moeilijk te beheren.
-   >Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
-
+>Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
 1. Klikken **Wachtrij** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** eerst.
-1. In de **Type wachtrij** gebied selecteren **Publiceren als wachtrij voor Help-aanvragen**.
+1. In de **Type wachtrij** gebied, selecteren **Publiceren als wachtrij voor Help-aanvragen**.
 
 1. Omlaag schuiven naar de **E-mailwachtrijinstellingen** gebied, selecteert u vervolgens **Aanvraag via e-mail inschakelen**.
 
@@ -95,7 +94,6 @@ Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen
    >* Dit e-mailadres kan niet uit de prullenbak worden teruggekregen als het project dat de verzoekrij bevat wordt geschrapt.
    >
    >* Omdat dit e-mailadres uniek moet zijn, is het mogelijk niet meer beschikbaar als het wordt verwijderd.
-
    <!--
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
