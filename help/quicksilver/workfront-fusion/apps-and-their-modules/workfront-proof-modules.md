@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2688'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,58 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Verbinden [!DNL Workfront Proof] tot [!DNL Workfront Fusion]
+
+U kunt een verbinding maken met uw [!DNL Workfront Proof] rechtstreeks vanuit een [!DNL Workfront Fusion] -module.
+
+1. In alle [!DNL Workfront Fusion] module, klikt u op [!UICONTROL **Toevoegen**] naast de [!UICONTROL Connection] field
+
+2. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[!UICONTROL Connection name]</p>
+                </td>
+                <td>Geef een naam op voor de verbinding</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL connections.environmentType]</td>
+                <td>Selecteer of dit een productieomgeving of een niet-productieomgeving zoals Voorvertoning of Sandbox is.</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL connections.authenticationType]</td>
+                <td>Selecteer of dit een serviceaccount of een persoonlijke account is.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Email / Username]</td>
+                <td>Voer de gebruikersnaam in voor uw [!DNL Workfront Proof] account.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Password]</td>
+                <td>Voer het wachtwoord voor uw [!DNL Workfront Proof] account.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Tenant name]</td>
+                <td><strong>Opmerking</strong>: Klanten die BYOK niet gebruiken, moeten dit veld leeg laten. <p>Voer de id van de huurder voor dit account in. Neem contact op met Customer Support van Workfront als je hulp nodig hebt bij het zoeken naar je huurnummer.</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL Domain Extension]</td>
+                <td>Voer de extensie in voor de URL waarmee u toegang krijgt tot uw account. <p>Voorbeeld: <code>com</code> of <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Production, Preview, or Custom Environment]</td>
+                <td>Selecteer een verbinding met een productie-, voorvertoning- of aangepaste omgeving.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. Klikken [!UICONTROL **Doorgaan**] om de verbinding te bewaren en aan de module terug te keren
 
 ## [!DNL Workfront Proof] modules en hun velden
 
