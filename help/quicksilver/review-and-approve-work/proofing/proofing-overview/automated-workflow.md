@@ -3,22 +3,24 @@ content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Geautomatiseerd workflowoverzicht
-description: Met geautomatiseerde workflows kunt u een reeks opeenvolgende of parallelle revisiefasen maken, afhankelijkheden tussen deze fasen tot stand brengen en de zichtbaarheid ervan tot bepaalde gebruikers beperken. Als uw revisieproces verschillende stadia kent, wordt uw proefdruk automatisch door de stappen verplaatst en worden de desbetreffende revisoren en fiatteurs onderweg op de hoogte gebracht. Zie Een geavanceerde proefdruk maken met een geautomatiseerde workflow voor informatie over het instellen van een geautomatiseerde workflow.
+description: Met geautomatiseerde workflows kunt u een reeks opeenvolgende of parallelle revisiefasen maken, afhankelijkheden tussen deze fasen tot stand brengen en de zichtbaarheid ervan tot bepaalde gebruikers beperken. Als uw revisieproces verschillende stadia kent, wordt uw proefdruk automatisch door de stappen verplaatst en worden de desbetreffende revisoren en fiatteurs onderweg op de hoogte gebracht.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
 # Geautomatiseerd workflowoverzicht
 
+<!-- Audited: 01/2024 -->
+
 Met geautomatiseerde workflows kunt u een reeks opeenvolgende of parallelle revisiefasen maken, afhankelijkheden tussen deze fasen tot stand brengen en de zichtbaarheid ervan tot bepaalde gebruikers beperken. Als uw revisieproces verschillende stadia kent, wordt uw proefdruk automatisch door de stappen verplaatst en worden de desbetreffende revisoren en fiatteurs onderweg op de hoogte gebracht. Voor informatie over het instellen van een geautomatiseerde workflow raadpleegt u [Een geavanceerde proefdruk maken met een geautomatiseerde workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Voorbeelden:**  Geautomatiseerde workflows helpen u complexe processen voor het controleren van proefdrukken te beheren, zoals
+**Voorbeelden:**  Met geautomatiseerde workflows kunt u complexe proefdrukcontroleprocessen beheren, zoals:
 
 * Wanneer verschillende groepen of revisoren de inhoud in een bepaalde volgorde moeten reviseren
 * Wanneer er afhankelijkheden zijn tussen de activiteiten van gebruikers terwijl zij de inhoud controleren
@@ -36,7 +38,7 @@ De fasen kunnen manueel worden gesloten, evenals wanneer het volgende stadium be
 
 U kunt een primaire besluitvormer voor een stadium benoemen. Het besluit van deze persoon maakt alle andere besluiten voor het stadium onnodig.
 
-U kunt er ook voor kiezen om alleen een beslissing van een e voor een werkgebied verplicht te stellen. Wanneer u dit doet, wordt het revisieproces voor het werkgebied gemarkeerd als voltooid nadat een van de ontvangers zijn beslissing over het werkgebied heeft genomen.
+U kunt er ook voor kiezen slechts één beslissing voor een werkgebied te vereisen. Wanneer u dit doet, wordt het revisieproces voor het werkgebied gemarkeerd als voltooid nadat een van de ontvangers zijn beslissing over het werkgebied heeft genomen.
 
 U kunt alle revisoren op de hoogte stellen van hun uitnodiging om de inhoud te controleren wanneer het revisieproces begint. U kunt elke revisor alleen een melding laten sturen wanneer het werkgebied wordt geactiveerd.
 
@@ -46,17 +48,17 @@ Standaard zijn opmerkingen die door revisoren in alle stadia worden achtergelate
 
 Als u wilt voorkomen dat bepaalde groepen revisoren de opmerkingen van andere revisoren zien, kunt u privéstadia maken.
 
-Privéstadia zijn alleen zichtbaar voor revisoren die aan deze fasen zijn toegevoegd. Ze zijn ook zichtbaar voor gebruikers die bewerkingsrechten hebben op de proefdrukken of bewerkingsrechten voor alle items die zijn gemaakt in de Adobe Workfront-account van uw organisatie (Supervisor en hoger of gebruikers met aangepaste profielen voor wie het bewerken van informatie van anderen is ingeschakeld).
+Privéstadia zijn alleen zichtbaar voor revisoren die aan deze fasen zijn toegevoegd. Ze zijn ook zichtbaar voor gebruikers die bewerkingsrechten hebben voor de proefdrukken of bewerkingsrechten voor alle items die zijn gemaakt in de Adobe Workfront-account van uw organisatie (Supervisor en hoger, of gebruikers met aangepaste profielen voor wie het bewerken van informatie van anderen is ingeschakeld).
 
 Opmerkingen die zijn toegevoegd door particuliere deelnemers aan het werkgebied, worden niet opgenomen in e-mailmeldingen en samenvattingen van opmerkingen over proefdrukken die zijn aangevraagd door iedereen die niet het recht heeft deze te bekijken.
 
 ## Workflowdiagram
 
-Het Diagram van het Werkschema is een visuele vertegenwoordiging van het overzichtsproces van uw bewijs. U ziet hier de volgorde van de fasen en de afhankelijkheden tussen de verschillende stadia terwijl u de details van een proefdruk maakt of bekijkt. Elke privéfase wordt weergegeven met een sleutelsymbool.
+Het werkstroomdiagram is een visuele weergave van het controleproces van uw proefdrukken. U ziet hier de volgorde van de fasen en de afhankelijkheden tussen de verschillende stadia terwijl u de details van een proefdruk maakt of bekijkt. Elke privéfase wordt weergegeven met een sleutelsymbool.
 
 ![intro-to-aw-example-diagram.png](assets/intro-to-aw-example-diagram-350x199.png)
 
-In live proefdrukken worden werkgebiedafhankelijkheden weergegeven met een onderbroken grijze lijn voor inactieve stadia of een effen zwarte lijn voor actieve stadia. De fasen worden groen weergegeven als het goedkeuringsproces binnen de opgegeven termijn is voltooid. Fasen die hun deadlines naderen, worden in oranje weergegeven en fases die hun deadline overschrijden worden in rood weergegeven.
+In live proefdrukken worden werkgebiedafhankelijkheden weergegeven met een onderbroken grijze lijn voor inactieve stadia of een effen zwarte lijn voor actieve stadia. De fasen worden groen weergegeven als het goedkeuringsproces binnen de opgegeven termijn is voltooid. De stadia die hun deadlines naderen tonen in oranje en de stadia voorbij hun deadlines tonen in rood.
 
 ![workflow_2.png](assets/workflow-2-350x183.png)
 
