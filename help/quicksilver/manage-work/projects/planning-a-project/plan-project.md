@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Een projectoverzicht plannen
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 Een project is een groot werkitem in Adobe Workfront. U kunt een project in taken verdelen die kleinere het werkpunten, zoals taken zijn. Taken kunnen worden toegewezen aan gebruikers of teams die verantwoordelijk kunnen zijn voor de voltooiing ervan. Wanneer alle gebruikers hun taken voltooien, wordt het project ook volledig.
@@ -58,7 +60,7 @@ U kunt een project van een Datum van het Begin plannen, of u kunt het van de Dat
 
 ### Het projectschema definiëren {#define-the-project-schedule}
 
-U moet een programma bepalen en het associëren met het project, evenals met de gebruikers die voor de voltooiing van de taken op het project verantwoordelijk zijn.
+U moet een programma bepalen en het associëren met het project, en met de gebruikers die voor de voltooiing van de taken op het project verantwoordelijk zijn.
 
 U kunt het volgende definiëren in een schema:
 
@@ -104,7 +106,7 @@ Houd rekening met het volgende wanneer u de tijdlijn van het project samenstelt:
 
   U hebt bijvoorbeeld een project om een appartementengebouw te bouwen. Een van uw doelstellingen is het loodsen en een ander is het leggen van de basis. Een van uw leidinggevende taken is het verbinden met de hoofdwaterlijn van de stad en dit moet gebeuren voordat de basis gelegd wordt. De meeste andere leidinggevende taken kunnen echter pas worden uitgevoerd nadat de basis is gelegd. In dit geval kunt u beter predecessors gebruiken om te begrijpen wanneer één doel kan beginnen nadat de voorwaarde is voltooid.
 
-  Wanneer u oudertaken gebruikt om doelstellingen te organiseren, kunt u één taak voor elk belangrijk doel tot stand brengen, en subtaken toevoegen wanneer u aan het stadium van het breken van belangrijke doelstellingen in individuele taken komt. Hierdoor blijven de taken die deel uitmaken van het doel dat binnen het project is georganiseerd, behouden.
+  Wanneer u oudertaken gebruikt om doelstellingen te organiseren, kunt u één taak voor elk belangrijk doel tot stand brengen, en subtaken toevoegen wanneer u aan het stadium van het breken van belangrijke doelstellingen in individuele taken krijgt. Hierdoor blijven de taken die deel uitmaken van het doel dat binnen het project is georganiseerd, behouden.
 
   Voor meer informatie over taakvoorgangers raadpleegt u [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 0%
 # Overzicht van Adobe Maestro
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaa
 | Connect Maestro-records naar Adobe Experience Manager-middelen | ✓ |                                  |                 |
 | Detailpagina opnemen | ✓ |                                  |                  |
 | De lay-out van de pagina met recorddetails bijwerken |                               | ✓ |                  |
-| Werkruimten delen | | ✓ |  |
-| Weergaven delen | | ✓ |  |
+| Werkruimten delen | ✓ | |  |
+| Weergaven delen | ✓ | |  |
 | Verzoeken verzenden |                               |                                  | ✓ |
 | Creatief overzicht |                               |                                  | ✓ |
 | De kleur en het pictogram van een record aanpassen | ✓ |                                  |                 |
@@ -92,15 +88,11 @@ In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaa
 | Maestro Modules voor Adobe Workfront Fusion | ✓ |                                  |                 |
 | Informatie van het ene veld naar het andere kopiëren en plakken | ✓ |                                  |                 |
 
-## Toegang vereist voor gebruik van Maestro tijdens het gesloten bètaprogramma
+## Maestro inschakelen voor gebruikers in uw Workfront-instantie
 
->[!IMPORTANT]
->
->Er zijn momenteel geen toegangsniveaus of machtigingen die zijn gekoppeld aan gebruikers of de gegevens in Maestro. Alle gebruikers kunnen alle informatie die door andere gebruikers aan Maestro is toegevoegd, weergeven, bewerken en verwijderen.
+Uw organisatie moet zich inschrijven bij het gesloten bètaprogramma van de Adobe Maestro voordat u toegang krijgt tot Maestro. Neem contact op met uw accountvertegenwoordiger voor informatie over inschrijving in het bètaprogramma.
 
-Voor meer informatie over de toegang die nodig is om Maestro te gebruiken, raadpleegt u [Overzicht van Adobe Maestro-toegang](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Ga voor meer informatie over het verlenen van toegang tot en het mogelijk maken van gebruik van Maestro naar [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro-terminologie
 
@@ -185,7 +177,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
    * Maestro-velden zijn volledig aanpasbaar en zijn alleen toegankelijk in Maestro. U hebt vanuit Workfront geen toegang tot Maestro-velden.
 
-  Zie voor meer informatie [Velden maken](../maestro/fields/create-fields.md)
+  Zie voor meer informatie [Velden maken](../maestro/fields/create-fields.md).
 
   Een nieuw operationeel recordtype is standaard gekoppeld aan de volgende vooraf gedefinieerde velden:
 
@@ -208,6 +200,7 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
    * Percentage
    * Valuta
    * Selectievakje
+   * Formule
    * Mensen
    * Gemaakt door
    * Aanmaakdatum
@@ -272,12 +265,6 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
 | De grootte van CSV van het dossier van Excel u in een lijst kunt invoeren | 5 MB |
-
-## Maestro inschakelen voor gebruikers in uw Workfront-instantie
-
-Uw organisatie moet zich inschrijven bij het gesloten bètaprogramma van de Adobe Maestro voordat u toegang krijgt tot Maestro. Neem contact op met uw accountvertegenwoordiger voor informatie over inschrijving in het bètaprogramma.
-
-Ga voor meer informatie over het verlenen van toegang tot en het mogelijk maken van gebruik van Maestro naar [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro zoeken
 

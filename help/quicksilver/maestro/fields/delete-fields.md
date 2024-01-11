@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Delete fields
 description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
 hidefromtoc: yes
 hide: yes
@@ -46,13 +46,13 @@ U kunt Maestro-velden verwijderen die niet meer relevant zijn.
 ## Overwegingen bij het verwijderen van Maestro-velden:
 
 * U kunt een veld alleen verwijderen in de tabelweergave van het recordtype.
-* U kunt velden verwijderen die u hebt gemaakt of velden die door andere gebruikers of het systeem zijn gemaakt. <!--this will change to: take this out with permissions - it's in the table! -->
 * U kunt het primaire veld van een record niet verwijderen.
 * Alle informatie die in het veld is opgeslagen, wordt verwijderd en kan niet worden hersteld.
 * Wanneer u een gekoppeld recordveld verwijdert, worden alle gekoppelde opzoekvelden ook verwijderd uit het recordtype waaruit u een koppeling maakt. De gekoppelde recordvelden van de recordtypen waarnaar u een koppeling maakt, worden niet verwijderd.
 
   Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
-  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
+
+<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Toegangsvereisten
 
@@ -60,9 +60,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -85,72 +90,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 
 <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Machtigingen</p></td>
+   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
  </tbody>
 </table>
 
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -168,9 +125,9 @@ After permssions - replace the table with:
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Hiermee opent u de laatst geopende werkruimte in Maestro.
+Hiermee opent u de laatst geopende werkruimte in Maestro.
 1. Klik op de kaart van een recordtype waarvan u de velden wilt verwijderen.
 1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 1. Zoek het veld dat u wilt verwijderen in de kolomkoppen en houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag na de veldnaam.

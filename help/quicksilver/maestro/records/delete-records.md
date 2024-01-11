@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
    <p> Adobe</p> </td>
    <td>
@@ -52,80 +57,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie</p>
+   </td>
    <td>
    <p>Alle</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro </p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Machtigingen</p></td>
+   <td> <p>Contribute of hoger machtigingen voor een werkruimte</a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
 
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,9 +115,10 @@ U kunt een record uit de volgende gebieden verwijderen:
 
 ### Een record verwijderen van de pagina Details van de record
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op Maestro.
+{{step1-to-maestro}}
 
-   De werkruimte die u als laatste opent.
+De werkruimte die u als laatste opent.
+
 1. Klik op een recordtype.
 
    De pagina met recordtypen wordt geopend.
@@ -179,9 +139,10 @@ De record wordt verwijderd en kan niet worden hersteld.
 
 ### Een record verwijderen uit de tabelweergave van het recordtype
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, als deze beschikbaar is, klikt u op **Maestro**.
+{{step1-to-maestro}}
 
-   De werkruimte die u het laatst hebt geopend.
+De werkruimte die u het laatst hebt geopend.
+
 1. Klik op een recordtype.
 
    De pagina met recordtypen wordt geopend.
@@ -194,7 +155,7 @@ De record wordt verwijderd en kan niet worden hersteld.
 
    De record wordt verwijderd en kan niet worden hersteld.
 
-<!--1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+1. (Optioneel) Gebruik de volgende sneltoetsen om een record ongedaan te maken of opnieuw te verwijderen:
 
-   * **Undo**: CTRL/CMD + Z
-   * **Redo**: CTRL/CMD + Shift + Z-->
+   * **Ongedaan maken**: CTRL/CMD + Z
+   * **Opnieuw**: CTRL/CMD + Shift + Z

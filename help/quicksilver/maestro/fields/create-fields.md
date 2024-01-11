@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -63,9 +63,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,73 +93,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 
 <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+   <td> <p>Er is geen toegangsniveaucontrole voor Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Machtigingen</p></td>
+   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -199,7 +156,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
    * [Percentage](#percentage)
    * [Valuta](#currency)
    * [Selectievakje](#checkbox)
-     <!--* [Formula](#formula)-->
+   * [Formule](#formula)
    * [Mensen](#people)
    * [Gemaakt door](#created-by)
    * [Aanmaakdatum](#created-date)
@@ -408,35 +365,34 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
 
    Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de bijbehorende waarden kunnen aan records worden gekoppeld.
 
-<!--
+### Formule
 
-### Formula
+Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
+Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
- 
-    ![](assets/new-formula-field-with-list-of-expressions.png)
+1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Formule** veldtype.
 
-1. Add the following information in the **New field** tab:
+   ![](assets/new-formula-field-with-list-of-expressions.png)
 
-   * **Name**: Enter a name for the new field.
-   * **Description**: Add information about the new field.
-   * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
-  
-1. Click the selected expression to reveal the definition and view its formatting. 
+1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+
+   * **Naam**: Voer een naam in voor het nieuwe veld.
+   * **Beschrijving**: Voeg informatie toe over het nieuwe veld.
+   * **Formule**: Typ ten minste één teken om toegang te krijgen tot een expressie en selecteer het teken wanneer het in de lijst wordt weergegeven.
+
+1. Klik op de geselecteerde expressie om de definitie weer te geven en de opmaak weer te geven.
 
    ![](assets/description-of-formula-expression.png)
 
-1. Add field names as they display in Maestro interface to reference them in a formula. 
+   Ga voor meer informatie over welke expressies worden ondersteund naar [Overzicht van formuliervelden](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Click **Create**.
+1. Voeg veldnamen toe zoals deze worden weergegeven in de Maestro-interface om ernaar te verwijzen in een formule.
 
-     The new formula field is added as a column to the record type and its values can be associated with records.
+1. Klikken **Maken**.
 
--->
+   Het nieuwe formuleveld wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
+
 
 ### Mensen
 

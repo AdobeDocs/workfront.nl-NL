@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,9 @@ Dit artikel bevat een overzicht van de functies die zijn uitgebracht na de start
 
 De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma Maestro hebben toegang tot alle functies in hun productieomgeving.
 
-<!--
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
--->
+>Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving. De Maestro-mogelijkheden zijn sinds januari 2024 tijdelijk verwijderd uit de voorvertoning- en sandboxomgeving. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
 
 Dit artikel bevat een overzicht van de functies en patches die zijn uitgebracht na de start van het gesloten bètaprogramma van Maestro op 22 mei 2023.
 
@@ -42,83 +40,80 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
-<!--## Week of January 15, 2024
+## Week van 15 januari 2024
 
-### Maestro capabilities are removed from the Preview and Sandbox environments 
+### Maestro-mogelijkheden worden verwijderd uit de voorvertoning- en sandboxomgevingen
 
-Preview and sandbox: <***Date here****> 
+Voorbeeld en sandbox: 11 januari 2024
 
-The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+Het Maestro-gebied en alle Maestro-mogelijkheden zijn tijdelijk verwijderd uit de voorvertoning- en sandboxomgeving. Maestro wordt op een latere datum aan deze omgevingen toegevoegd, die we in de opmerkingen bij de releaseactiviteit zullen vermelden.
 
-(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
+### Maestro-machtigingen voor werkruimten en weergaven
 
-### Maestro permissions for workspaces and views
+Productie: 11 januari 2024
 
-Production: <****date here****>
+Voorbeeld: te bepalen
 
-Preview: To be determined
+U kunt nu een werkruimte of een weergave delen met gebruikers en groepen. U kunt hun machtigingen instellen op verschillende niveaus, afhankelijk van de informatie die ze nodig hebben om te bekijken of te bewerken.
 
-You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+Wanneer u een werkruimte deelt, hebben gebruikers machtigingen voor de recordtypen, records en velden in die ruimte.
 
-When you share a workspace, users have permissions to the record types, records, and fields in that space.
+Als u een werkruimte deelt, ontvangen gebruikers geen machtigingen voor delen voor de weergaven die zijn gekoppeld aan de recordtypen van de werkruimte. U moet afzonderlijke machtigingen verlenen aan weergaven.
 
-When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
+Hieronder vindt u de machtigingsniveaus voor Maestro-werkruimten:
 
-The following are the permissions levels for Maestro workspaces:  
+* Weergave: gebruikers kunnen werkruimten weergeven die met hen worden gedeeld. Ze kunnen ook recordtypen en records vanuit de gedeelde werkruimte weergeven.
 
-* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* Contribute: gebruikers kunnen records maken, bewerken of verwijderen in de werkruimte die met hen wordt gedeeld.  Ze kunnen geen recordtypen of werkruimten maken of bewerken die met hen worden gedeeld.
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
+* Beheren: gebruikers kunnen werkruimten, recordtypen, records en velden in werkruimten maken, bewerken en verwijderen die met hen worden gedeeld.
 
-* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
+Hier volgen de machtigingsniveaus voor recordweergaven:
 
-The following are the permissions levels for record type views:
+* Weergave: gebruikers kunnen de weergave selecteren in het vervolgkeuzemenu Weergave van een pagina met recordtypen.
+* Beheren: gebruikers kunnen de weergave bewerken, delen en verwijderen.
 
-* View: Users can select the view from the View drop-down menu of a record type.
-* Manage: Users can edit, share, and delete the view. 
+Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md) en [Overzicht van het delen van machtigingen in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+### Nieuw type formulierveld
 
-### New Formula field type (title) 
+Productie: 11 januari 2024
 
-Production: <*******date**********> 
+Voorbeeld: te bepalen
 
-Preview: To be determined 
+U kunt nu een Formule-type veld toevoegen aan een recordtype.
 
-You can now add a Formula type field to a record type.  
+Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+U kunt opzoekvelden van gekoppelde recordtypen niet gebruiken in een berekening van een formule. Deze functionaliteit is later beschikbaar.
 
-You cannot use lookup fields from linked record types in a formula calculation.  
+Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+### Handelingen ongedaan maken/opnieuw uitvoeren bij het beheren van records in de tabelweergave
 
-### Undo/ Redo actions when managing records in the table view
+Productie: 11 januari 2024
 
-Production: <****Date******>
-Preview: To be determined
+Voorbeeld: te bepalen
 
-You can now undo or redo your changes when performing the following actions in the table view:  
+U kunt uw wijzigingen nu ongedaan maken of opnieuw uitvoeren wanneer u de volgende handelingen uitvoert in de tabelweergave:
 
-* Copy/ paste data 
-* Edit record 
-* Add record 
-* Delete record 
+* Gegevens kopiëren/plakken
+* Record bewerken
+* Record toevoegen
+* Record verwijderen
 
-You can use the following keystrokes to undo or redo actions: 
+U kunt de volgende toetsaanslagen gebruiken om handelingen ongedaan te maken of opnieuw uit te voeren:
 
-* Undo: CTRL + Z 
-* Redo: CTRL + Shift+Z 
+* Ongedaan maken: CTRL/ CMD + Z
+* Opnieuw: CTRL/ CMD + Shift+Z
 
-For more information, see the following articles:  
+Raadpleeg de volgende artikelen voor meer informatie:
 
-* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+* [Records bewerken](/help/quicksilver/maestro/records/edit-records.md)
 
-* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+* [Records verwijderen](/help/quicksilver/maestro/records/delete-records.md)
 
-* Create records (/help/quicksilver/maestro/records/create-records.md) 
-
--->
+* [Records maken](/help/quicksilver/maestro/records/create-records.md)
 
 ## Week van 25 december 2023
 
