@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -28,24 +28,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td> <p>Nieuw: Medewerker of hoger </p>
  <p>of</p> 
 <p>Huidige: [!UICONTROL Request] of hoger </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een nieuw bord maken
 
@@ -64,6 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Voer de stappen van de installatiewizard uit als u alleen een dynamisch board wilt gebruiken:
 
+   1. Typ een naam voor het tekengebied en klik op [!UICONTROL **Volgende**].
    1. Zoeken naar en selecteren [!DNL Workfront] [!UICONTROL **Projecten**] taken en kwesties op de agenda te zetten.
    1. Zoeken naar en selecteren [!UICONTROL **Toewijzingen**] taken en kwesties op de agenda te zetten.
 
@@ -71,13 +68,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
       De [!UICONTROL **Kaarten die worden toegevoegd**] de teller laat zien hoeveel kaarten er op het bord staan . Bijvoorbeeld, als u een project met 100 taken en kwesties selecteert, toont teller 100. Als u een gebruikerstaak toevoegt en die persoon aan 5 taken op het project wordt toegewezen, toont de teller 5.
 
-   1. (Optioneel) Selecteer [!UICONTROL **Voltooid werk opnemen als gearchiveerde kaarten**] om voltooide taken en kwesties als gearchiveerde kaarten aan de raad van bestuur te onderwerpen.
+   1. (Optioneel) Selecteer [!UICONTROL **Voltooide kaarten niet archiveren**] om voltooide taken en kwesties op de raad als zichtbare kaarten in de Voltooide kolom te brengen. Als deze optie niet is geselecteerd, worden voltooide kaarten op het moment van het maken van het bord als gearchiveerde kaarten op het bord geplaatst.
 
       >[!NOTE]
       >
       >Gearchiveerde kaarten worden standaard niet op het bord weergegeven. Als u gearchiveerde kaarten wilt weergeven, moet u een configuratie-instelling inschakelen en vervolgens het bord filteren om gearchiveerde kaarten weer te geven. Zie voor meer informatie [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) en [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >Als deze optie niet is geselecteerd, worden voltooide kaarten op het moment van het maken van het bord niet op het bord weergegeven. Kaarten die later als volledig zijn gemarkeerd, blijven in de kolom Voltooid op het bord en worden alleen gearchiveerd als u de kaart hebt uitgeschakeld. Zie voor meer informatie [Afvalfunctie van kaart configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Optioneel) Klik op [!UICONTROL **Geavanceerde filters gebruiken**] om extra filteropties weer te geven.
 
