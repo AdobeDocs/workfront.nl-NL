@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -179,5 +179,5 @@ De werkruimte die u het laatst hebt geopend.
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om het bewerken of kopiëren en plakken van recordgegevens ongedaan te maken of opnieuw uit te voeren:
 
-   * **Ongedaan maken**: CTRL/CMD + Z
-   * **Opnieuw**: CTRL/CMD + Shift + Z
+   * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
+   * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren

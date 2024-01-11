@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3390'
 ht-degree: 0%
 
 ---
@@ -118,12 +118,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## geheel nieuwe velden maken {#create-fields-from-scratch}
 
@@ -388,6 +382,11 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maest
    Ga voor meer informatie over welke expressies worden ondersteund naar [Overzicht van formuliervelden](/help/quicksilver/maestro/fields/formula-fields.md)
 
 1. Voeg veldnamen toe zoals deze worden weergegeven in de Maestro-interface om ernaar te verwijzen in een formule.
+
+   >[!NOTE]
+   >
+   >    U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Adobe Maestro-releaseactiviteit](/help/quicksilver/maestro/release-activity.md).
+
 
 1. Klikken **Maken**.
 

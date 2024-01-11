@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tr>
 <tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,8 +71,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 
 <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader">Configuratie op toegangsniveau</td>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Machtigingen</p></td>
+   <td> <p>Rechten voor de weergave beheren</p>  
 </td>
   </tr>
 
@@ -84,71 +90,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 ## Overwegingen bij het werken met Maestro-weergaven
 
 * Weergaven in Maestro zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
-* Weergaven die u maakt, zijn zichtbaar voor iedereen die het gebied Maestro opent. <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-  <!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
 * Het bouwen van meningen voor operationele verslagtypes is identiek aan het bouwen van meningen voor taxonomie verslagtypes.
-* Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die toegang hebben tot het Maestro-gebied.
+* Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
 * De volgende elementen zijn uniek voor elke weergave in Maestro:
 
    * Filter
@@ -163,14 +110,13 @@ When we release permissions to views:
   >
   > Omdat Maestro zich momenteel in een bètastatus bevindt, zijn sommige weergave-elementen mogelijk niet beschikbaar voor beide weergaven.
 
-
 In dit artikel wordt de volgende informatie over Maestro-weergaven beschreven:
 
 * [Een weergave maken en bewerken](#create-or-edit-record-views)
 * [Een weergave verwijderen](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-  <!--* [Share a view](#share-views) - not possible yet-->
+* [Een weergave delen](#share-a-view)
 
 ## Gelijkaardigheden en verschillen tussen de tabel- en tijdlijnweergaven
 
@@ -200,7 +146,9 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel- en
 
 ## Weergaven maken of bewerken {#create-or-edit-views}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+
 De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture/create-record-types.md).
 
@@ -249,6 +197,11 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 1. Klikken **Verwijderen** ter bevestiging. <!--ensure there is not another saving step here?!-->
 
    De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het Maestro-gebied en kan niet worden hersteld.
+
+## Een weergave delen
+
+Zie voor informatie over het delen van weergaven [Een weergave delen](/help/quicksilver/maestro/access/share-views.md).
+
 
 <!--not possible yet - August 30, 2023: 
 

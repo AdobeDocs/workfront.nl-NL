@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
-<tbody>
-<td>
-   <p> Adobe</p> 
-   </td>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Als u Maestro-records wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het exemplaar van Workfront van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p></td>
+   <p> Adobe Workfront</p> 
+   <p>Als u Maestro-records wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het exemplaar van Workfront van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
@@ -97,95 +102,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
-   <td><p>Willekeurig, om Maestro-records te maken</p> 
-<p>Werk of hoger om projecten in Workfront weer te geven</p>
-  <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Overzicht van Adobe Workfront-licenties</a>.</p> 
+   <td>
+   <p>Alle</p> 
   </td>
   </tr>
-  <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Willekeurig, om Maestro-records te maken</p>
-<p>De mening of hogere toegang tot Projecten, Portfolio's, Programma's</p> 
-<p>Extra toegang tot Groepen en Bedrijven, wanneer het bekijken van groepen of bedrijven de gebruikers behoren niet tot</p>   
+
+<tr>
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Objectmachtigingen</p></td>
-   <td> <p>Machtigingen weergeven voor de objecten die u wilt koppelen aan Maestro-records  
+   <td role="rowheader"><p>Machtigingen</p></td>
+   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p></td>
+   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+</td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Connect-records
 
@@ -198,8 +144,8 @@ After permssions - replace the table with:
 
   De waarden van de verbonden gebieden van de verbonden verslagen bevolken het verslag Maestro dat u van automatisch van de werkruimte van Maestro verbindt u of van de derdetoepassing vormt.
 
-* Iedereen met toegang tot Maestro kan de verbindingen zien die u tussen Maestro verslagen of tussen Maestro verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten weergeven, ongeacht hun machtigingen voor de externe toepassingen waarmee u verbinding maakt.
-* U kunt de verbindingen van anderen weergeven en bewerken. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Iedereen met toegang tot de Maestro- en beheermachtigingen voor de werkruimte kan de verbindingen zien die u maakt tussen Maestro-records of tussen Maestro-records en andere toepassingsobjecten. Ze kunnen verbonden records en objecten weergeven, ongeacht hun machtigingen voor de externe toepassingen waarmee u verbinding maakt. <!--check with PM-->
+* U kunt de verbindingen van alle anderen weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte waar de verbonden records zich bevinden.
 * U kunt één Maestro-record verbinden met een of meerdere objecten vanuit een andere toepassing.
 * Als u Maestro-records wilt koppelen aan andere records of objecten, moet u over het volgende beschikken:
 

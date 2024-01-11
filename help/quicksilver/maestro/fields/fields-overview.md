@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ U kunt nieuwe velden in Adobe Maestro toevoegen die de levenscyclus van uw organ
 
 * Workfront-velden zijn alleen toegankelijk vanuit Maestro wanneer u Maestro-recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt vanuit Workfront-objecten. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
 
-* U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt. <!--this will change with access/ permissions-->
+* U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe het veld behoort.
 
 * U kunt maximaal 500 velden hebben voor één recordtype.
 

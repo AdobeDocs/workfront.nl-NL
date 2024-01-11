@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2314'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 
 <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Alle</p>  
+   <td role="rowheader">Configuratie op toegangsniveau</td>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>Machtigingen</p></td>
+   <td> <p>Rechten voor de weergave beheren</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">Lay-outsjabloon</td>
    <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
@@ -82,63 +94,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## Een tabelweergave beheren {#manage-a-table-view}
 
@@ -212,8 +167,6 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >       * Getal
    >       * Formule
    >
-   >         Formulervelden worden later vrijgegeven.
-   >
    >   * Het primaire veld is altijd bevroren en kan niet worden verplaatst. U kunt een ander veld selecteren om een primair veld te vervangen als u het naar een andere positie wilt verplaatsen.
    >
    >   * Het wijzigen van het primaire veld in de tabelweergave heeft invloed op de weergave voor alle andere gebruikers die deze selecteren.
@@ -267,7 +220,7 @@ U kunt tot 10.000 verslagen (of rijen) voor een verslagtype in Maestro hebben.
 1. Ga naar een recordtypepagina en selecteer een **Tabel** in het keuzemenu Weergave.
 1. Records (of rijen) toevoegen, zoals wordt beschreven in het artikel [Records maken](../records/create-records.md).
 
-   De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers die toegang hebben tot Maestro. <!--this will change with permissions-->
+   De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
 1. (Optioneel) Selecteer een of meerdere records in een rij en sleep vervolgens de records **handgreep** pictogram ![](assets/handle-icon.png) links van de recordnaam om de rijen opnieuw te ordenen.
 

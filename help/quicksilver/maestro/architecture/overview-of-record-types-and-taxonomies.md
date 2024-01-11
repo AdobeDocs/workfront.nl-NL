@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ In Maestro, kunt u de types van douaneverslag tot stand brengen die aan de behoe
    * [Type operationeel record](#operational-record-type): Een recordtype dat strategische plannen, initiatieven of gepland werk vertegenwoordigt. Campagne, Activiteit, Tactiek, Opportunity kunnen bijvoorbeeld operationele recordtypen zijn.
    * [Taxonomie](#taxonomy): Typen opnemen die kenmerken vastleggen over een operationeel recordtype. Regio, Adres, Publiek kunnen bijvoorbeeld taxonomieën zijn.
 
-* Wanneer u een recordtype maakt, kan iedereen in uw organisatie het recordtype weergeven, bewerken of verwijderen. <!--this will change with access levels and permissions-->
+* Wanneer u een recordtype maakt, kunnen alleen u en de personen die u toegangsrechten tot de werkruimte geven, het recordtype weergeven.
 * U moet een werkruimte maken voordat u recordtypen voor de werkruimte kunt maken.
 * U kunt in één werkruimte in totaal 1.000 typen operationele records en taxonomieën hebben. Dit omvat recordtypen of taxonomieën die u helemaal zelf maakt of die u van andere systemen importeert.
 
