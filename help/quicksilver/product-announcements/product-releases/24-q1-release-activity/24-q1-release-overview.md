@@ -4,16 +4,16 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # Overzicht eerste release 2024, kwartaal 2024
 
-Deze pagina biedt informatie over functionaliteit die is opgenomen in de release van het eerste kwartaal van 2024 die gepland is voor januari 2024.
+Deze pagina biedt informatie over functionaliteit die is opgenomen in de release van het eerste kwartaal van 2024 die gepland is voor de week van 15 januari 2024.
 
 De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien de Eerste Kwartaal 2024 versie zijn geplande versie van de Productie nadert.
 
@@ -60,7 +60,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Besluiten over bewijzen/documenten die nu beschikbaar zijn voor de voorafgaande twaalf maanden</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>De gebruikersBesluiten rapporten voor zowel nieuwe als erfenislicentietypen tonen nu het aantal besluiten voor de huidige maand evenals de voorafgaande 12 maanden.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Besluiten over bewijzen/documenten die nu beschikbaar zijn voor de voorafgaande twaalf maanden</a></p><p>De gebruikersBesluiten rapporten voor zowel nieuwe als erfenislicentietypen tonen nu het aantal besluiten voor de huidige maand evenals de voorafgaande 12 maanden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -208,7 +208,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe widget voor goedkeuringen in behandeling beschikbaar</a></p><p><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe widget voor goedkeuringen in behandeling beschikbaar</a></p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -357,7 +357,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                                 <p>Productie voor snelle release: met de release van 24.1</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.1 release</p>
+                                <p>Productie voor alle klanten: met de release van 24.4 (april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Afbeelding slepen en neerzetten in een opmerking in de sectie Updates</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Afbeelding slepen en neerzetten in een opmerking in de sectie Updates</a></p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
