@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt bepalen welke secties van een aangepast formulier moeten worden weergegeven of overgeslagen op basis van de keuzes die een gebruiker maakt bij het invullen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -56,26 +56,23 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 * U kunt geen logica overslaan toevoegen aan een widget of sectie-einde. U kunt het alleen toevoegen aan een veld met meerdere keuzen (keuzerondjes, vervolgkeuzelijst of selectievakjes).
 
-* U kunt zowel weergavelogica als logica overslaan aan een aangepast veld toevoegen. Dit geldt voor alle volgende zaken in het aangepaste veld:
+* U kunt zowel weergavelogica als logica overslaan aan een aangepast veld toevoegen als het volgende geldt voor het aangepaste veld:
 
    * Het is een meerkeuzeveld (keuzerondjes, vervolgkeuzelijst of selectievakjes)
    * Voorafgegaan door een veld met meerdere keuzen
    * Het wordt gevolgd door een ander aangepast veld
 
 * Wanneer u formulieren kopieert met logica voor weergave of overslaan, wordt de logica gekopieerd naar het nieuwe aangepaste formulier.
-* Houd rekening met het volgende wanneer u een weergavelogische regel voor een aangepast formulier maakt
+* Wanneer u objecten bulksgewijs bewerkt, worden alle aangepaste velden weergegeven in het vak Objecten bewerken, inclusief de overgeslagen of verborgen velden.
+* Houd rekening met het volgende wanneer u een weergaveregel voor een aangepast formulier maakt:
 
    * Aangepaste velden die niet zijn opgenomen in een logische weergave-instructie, worden standaard weergegeven op een aangepast formulier.
    * U kunt logische instructies voor weergave op meerdere velden maken.
-
-* Wanneer u objecten bulksgewijs bewerkt, worden alle aangepaste velden weergegeven in het vak Objecten bewerken, inclusief de overgeslagen of verborgen velden.
+   * Als voor alle velden onder een sectie-einde een weergavelogica is toegepast en alle velden zijn verborgen als gevolg van de logica, wordt de volledige sectie verborgen op het aangepaste formulier.
 
 ## Een voorbeeld van een aangepast formulier maken met weergave en logica overslaan
 
 De beste manier om te leren hoe te om vertoning toe te voegen en logica aan een douaneformulier over te slaan is door het praktische voorbeeld dat in de twee volgende secties wordt verklaard:
-
-* [Logica weergeven](#display-logic)
-* [Logica overslaan](#skip-logic)
 
 ### Logica weergeven {#display-logic}
 
