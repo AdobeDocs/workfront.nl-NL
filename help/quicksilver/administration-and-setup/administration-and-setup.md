@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: "Beheer en setup: artikelindex"
-description: Zoek de informatie die u nodig hebt voor het beheer van het Workfront-systeem.
+description: Vind de informatie die u nodig hebt om het Workfront-systeem te beheren.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
