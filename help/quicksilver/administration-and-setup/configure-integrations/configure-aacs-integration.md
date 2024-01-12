@@ -6,9 +6,9 @@ description: U kunt uw werk in [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan*</strong>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenties*</strong>
+   <td><strong>[!DNL Adobe Workfront] licenties</strong>
    </td>
    <td>Huidige: [!UICONTROL Plan] <br>
    Nieuw: [!UICONTROL Standard]
@@ -67,13 +67,12 @@ U moet het volgende hebben:
   <tr>
    <td>Configuraties op toegangsniveau*
    </td>
-   <td>U moet een [!DNL Workfront] beheerder. Voor informatie over [!DNL Workfront] beheerders, zie <strong>Volledige administratieve toegang verlenen aan een gebruiker</strong>.
+   <td>U moet een [!DNL Workfront] beheerder.
    </td>
   </tr>
 </table>
 
-
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Vereisten
