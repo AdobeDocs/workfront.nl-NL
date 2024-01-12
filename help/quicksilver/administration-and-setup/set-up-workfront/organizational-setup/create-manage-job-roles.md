@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Taakrollen maken en beheren
 description: Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen creëren die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Een taakrol maken:
       <td>
         <p>Selecteer een valuta die aan deze taakrol is gekoppeld. Dit is de valuta die [!DNL Workfront] gebruik voor het berekenen van de kosten en opbrengsten die met deze functie samenhangen. </p> 
         <p><span>Dit is anders dan de [!UICONTROL Base Currency] door uw [!DNL Workfront] beheerder in de [!UICONTROL Setup] en kan verschillen van de valuta die aan een project is gekoppeld.</span> </p> 
-        <p>Tip: alleen valuta's beschikbaar in de [!UICONTROL Exchange Rates] in uw systeem beschikbaar zijn in dit veld.</p> 
+        <p>Tip: alleen valuta's beschikbaar in de [!UICONTROL Exchange Rates] in uw systeem beschikbaar zijn in dit veld. Als u slechts één valuta hebt ingesteld, wordt dit veld niet weergegeven.</p> 
        <p><span>Voor informatie over het instellen van de [!UICONTROL Base Currency] in [!DNL Workfront], zie</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wisselkoersen instellen</a>.</p> <p><span>Voor informatie over het wijzigen van de valuta van een project raadpleegt u</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">De projectvaluta wijzigen</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

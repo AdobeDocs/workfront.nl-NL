@@ -1,7 +1,7 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -318,6 +318,10 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 ## Stap 1 - Aan de bron komen - {#step1-to-resourcing}
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Resourcing]**.
+
+## Stap 1 - Aan het gebruiksrapport worden onderworpen - {#step1-to-utilization-report}
+
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Resourcing]** vervolgens [!UICONTROL **Gebruik**] in het linkerdeelvenster.
 
 <!-- Review and approve work -->
 
