@@ -7,9 +7,9 @@ description: Het hoofdmenu verandert met het toegangsniveau u door uw bent toege
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ De volgende gebieden worden opgenomen in de standaardlayout van een [!UICONTROL 
 
 * **[!UICONTROL Dashboards]**: Dashboards die met u worden gedeeld tonen hier. Zie voor meer informatie [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Calendars]**: Kalenders die met u worden gedeeld, worden hier weergegeven. Zie voor meer informatie [Kalenders](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Calendars]**: Kalenders die met u worden gedeeld, worden hier weergegeven. Zie voor meer informatie [Kalenders: artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL Teams]**: De taken en de kwesties die aan uw teams worden toegewezen tonen op dit gebied. Als Worker ben je de enige [!DNL Workfront] gebruiker die de [!UICONTROL Teams] gebied standaard.
 

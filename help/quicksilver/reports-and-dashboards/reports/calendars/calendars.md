@@ -2,22 +2,26 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: Kalenders
-description: Bekijk deze artikelen om inzicht te krijgen in kalenderrapporten in Adobe Workfront.
+title: "Kalenders: artikelindex"
+description: Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt datuminformatie in een kalenderrapport weergeven voor projecten, taken en problemen. Bekijk deze artikelen om inzicht te krijgen in kalenderrapporten in Adobe Workfront.
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# Kalenders
+# Kalenders: artikelindex
 
-Deze sectie bevat de volgende artikelen:
+<!--Audited: 01/2024-->
+
+Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt datuminformatie in een kalenderrapport weergeven voor projecten, taken en problemen.
+
+Lees de volgende artikelen om meer inzicht te krijgen in kalenderrapporten in Adobe Workfront:
 
 * [Overzicht van kalenderrapporten](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Aangepaste datumvelden gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

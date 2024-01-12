@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '3404'
 ht-degree: 0%
@@ -40,7 +40,7 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
-## Week van 15 januari 2024
+## Week van 8 januari 2024
 
 ### Maestro-mogelijkheden worden verwijderd uit de voorvertoning- en sandboxomgevingen
 

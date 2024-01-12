@@ -6,9 +6,9 @@ description: Het doel van het dashboard is om snel toegang tot informatie te bie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ Het doel van het dashboard is om snel toegang tot informatie te bieden. In Adobe
 
 * Rapporten
 
-   Voor meer informatie over het maken van rapporten raadpleegt u [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Zie voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Kalenders
 
-   Voor meer informatie over het maken van kalenders raadpleegt u [Kalenders](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Zie voor meer informatie over het maken van kalenders [Kalenders: artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Externe pagina&#39;s
 
-   Ga voor meer informatie over het maken van externe pagina&#39;s naar [Een externe webpagina insluiten in een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Ga voor meer informatie over het maken van externe pagina&#39;s naar [Een externe webpagina insluiten in een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Nadat u deze items hebt gemaakt en deze aan een dashboard hebt toegevoegd, kunt u het dashboard bewerken om er meer items aan toe te voegen, er bestaande items uit te verwijderen of de dashboardgegevens te bewerken.
 
@@ -53,7 +53,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -68,7 +68,7 @@ U moet het volgende hebben:
 
 U moet een dashboard maken voordat u het kunt bewerken.
 
-Voor informatie over het maken van dashboards raadpleegt u [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Zie voor informatie over het maken van dashboards [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Een dashboard bewerken
 
@@ -90,7 +90,7 @@ Voor informatie over het maken van dashboards raadpleegt u [Een dashboard maken]
 
    >[!NOTE]
    >
-   >Wanneer het zoeken naar een punt, keert het onderzoek om het even welke 2000 onlangs gecreeerd rapporten terug. Rapportnamen die Unicode-tekens bevatten, worden niet geretourneerd in zoekresultaten. U kunt het beste Unicode-tekens niet opnemen bij het benoemen van objecten in Workfront door namen te typen in plaats van namen van een andere bron te kopiëren en te plakken.
+   >Wanneer het zoeken naar een punt, keert het onderzoek om het even welke 2000 onlangs gecreeerd rapporten terug. Rapportnamen met Unicode-tekens worden niet geretourneerd in zoekresultaten. U kunt het beste Unicode-tekens niet opnemen bij het benoemen van objecten in Workfront door namen te typen in plaats van namen van een andere bron te kopiëren en te plakken.
 
 1. (Optioneel) Selecteer een nieuwe indeling voor het dashboard door op een keuzerondje te klikken dat overeenkomt met de gewenste indeling.
 1. (Optioneel) Plaats de muisaanwijzer op de naam van een bestaand rapport en klik op het pictogram van de prullenbak om het rapport van het dashboard te verwijderen.

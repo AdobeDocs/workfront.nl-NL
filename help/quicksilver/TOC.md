@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 0%
          * [Begrijp hoe te om rapporten op een dashboard te organiseren](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Rapportgebruik weergeven](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * Kalenders {#calendars}
-         * [Kalenders](reports-and-dashboards/reports/calendars/calendars.md)
+         * [Kalenders: artikelindex](reports-and-dashboards/reports/calendars/calendars.md)
          * [Overzicht van kalenderrapporten](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [Aangepaste datumvelden gebruiken in een kalenderrapport](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [Geplande datums gebruiken in een kalenderrapport](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 0%
       * [Verbind recordtypen](maestro/architecture/connect-record-types.md)
       * [Recordtypen bewerken](maestro/architecture/edit-record-types.md)
       * [Werkruimten verwijderen](maestro/architecture/delete-workspaces.md)
+      * [Werkruimten bewerken](maestro/architecture/edit-workspaces.md)
       * [Recordtypen verwijderen](maestro/architecture/delete-record-types.md)
       * [Voorbeeld van het verbinden van recordtypen en records](maestro/architecture/example-connect-record-types-and-records.md)
       * [Lijst met werkruimtemalplaatjes](maestro/architecture/workspace-templates.md)
@@ -2029,8 +2030,8 @@ ht-degree: 0%
       * [Toegangsgegevens](maestro/access/access-information.md)
       * [Overzicht van toegang](maestro/access/access-overview.md)
       * [Overzicht van het delen van machtigingen in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-      * [Een werkruimte delen](maestro/access/share-workspaces.md)
-      * [Een weergave delen](maestro/access/share-views.md)
+      * [Werkruimten delen](maestro/access/share-workspaces.md)
+      * [Weergaven delen](maestro/access/share-views.md)
    * Adobe Maestro records {#adobe-maestro-records}
       * [Records: artikelindex](maestro/records/records-information.md)
       * [Records maken](maestro/records/create-records.md)

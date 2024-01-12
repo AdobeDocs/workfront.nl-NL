@@ -6,9 +6,9 @@ description: U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -36,27 +36,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nieuw: Standaard </p><p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot taken en projecten bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een voorganger maken
 
@@ -69,6 +69,22 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 1. Selecteer de taak die u als afhankelijke taak wilt aanwijzen.
 1. Klik in het dialoogvenster **Predecessors** kolom.
 1. Typ het taakaantal dat u als voorganger van de geselecteerde taak wilt aanwijzen, dan druk **Enter**.
+
+   >[!TIP]
+   >
+   >Ga als volgt te werk om een voorganger voor meerdere projecten toe te voegen:
+   >
+   >1. Klik op de knop **Abonnementsmodus** pictogram en kies **Automatisch opslaan**.
+   >
+   >1. Typ het referentienummer van het project van de voorganger gevolgd door een dubbele punt en het nummer van de taak. Bijvoorbeeld: 765021:12. Dit wijst erop dat het Aantal van de Verwijzing van het project van de voorganger 765021 is en voorganger taaantal 12 op het project is.
+   >
+   >1. Voeg het gebiedstype voor deze voorganger toe. Zie voor meer informatie [Predecessors voor meerdere projecten maken](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >
+   >Druk **Enter**.
+   >
+   >**BELANGRIJK**
+   >
+   >U kunt geen voorganger voor meerdere projecten toevoegen wanneer de taaklijst wordt weergegeven in de modus Handmatig opslaan.
 
    Het voorgangspictogram wordt groen als de voorganger de markering Voltooid heeft. Dit wijst erop dat de afhankelijke taak klaar voor het werk is.
 
@@ -86,7 +102,7 @@ U kunt snel details over de voorganger bekijken in de takenlijst.
 
    De volgende details worden weergegeven:
 
-   **Naam voorganger:** De naam van de voorganger waarnaar wordt verwezen. Het taaknummer van de voorganger wordt opgenomen. Klik op de naam van de taak om deze te openen. In het bovenstaande voorbeeld is de voorganger Productie/Uitvoering/Levering.
+   **Naam voorganger:** De naam van de voorganger waarnaar wordt verwezen. Het taaknummer van de voorganger wordt opgenomen. Klik op de taaknaam om deze te openen. In het bovenstaande voorbeeld is de voorganger Productie/Uitvoering/Levering.
 
    **Projectnaam:** De naam van het project waar de voorganger verblijft. Het project wordt geïdentificeerd als het huidige project als predecessor tot de zelfde projecten zoals de taak, of als dwars project behoort, als predecessor tot een verschillend project behoort. In het bovenstaande voorbeeld is de projectnaam Digital Asset Production (Integrated) - Project. Voor meer informatie over predecessors voor meerdere projecten raadpleegt u [Predecessors voor meerdere projecten maken](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
@@ -96,7 +112,7 @@ U kunt snel details over de voorganger bekijken in de takenlijst.
 
    **Geplande start:** De geplande begindatum van de voorgaande taak.
 
-   **Gepland einde:** De geplande voltooiingsdatum van de voorgangstaak.
+   **Gepland uiteinde:** De geplande voltooiingsdatum van de voorgangstaak.
 
    **Aantal voorgangers:** Het aantal voordecessors voor de voorganger waarnaar wordt verwezen. In het bovenstaande voorbeeld heeft de voorganger waarnaar wordt verwezen 1 voorganger.
 

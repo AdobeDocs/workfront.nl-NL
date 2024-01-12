@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ In dit artikel worden de machtigingsniveaus voor Maestro-objecten beschreven.
 
 Zie de volgende artikelen voor informatie over het delen van werkruimten of weergaven:
 
-* [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Werkruimten delen](/help/quicksilver/maestro/access/share-workspaces.md)
 
-* [Een weergave delen](/help/quicksilver/maestro/access/share-views.md)
+* [Weergaven delen](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objecten die u kunt delen in Adobe Maestro
 
@@ -53,7 +53,7 @@ U kunt de volgende objecten delen in Maestro:
 * U moet over de volgende licentie beschikken om werkruimten te maken in Maestro:
 
    * Nieuw prijsmodel: standaardlicentie
-   * Huidig prijsmodel: Arbeidslicentie of hoger
+   * Huidige prijsmodel: licentie voor abonnementen.
 
   Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Systeembeheerders kunnen werkruimten beheren en delen die andere gebruikers hebben gemaakt.
