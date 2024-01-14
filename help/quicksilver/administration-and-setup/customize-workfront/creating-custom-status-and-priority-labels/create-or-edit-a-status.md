@@ -4,22 +4,24 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: Als beheerder van Adobe Workfront, kunt u douanestatus voor projecten, taken, en kwesties tot stand brengen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: f3785c66b979cc95bf1d2d2ccacbdeefe0ef0967
+source-git-commit: 69c1b92526d3607b8ed21ce29c118de08c33a0ee
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # Een status maken of bewerken
 
+<!-- Audited: 1/2024 -->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-Als beheerder van Adobe Workfront, kunt u douanestatus voor projecten, taken, en kwesties tot stand brengen. Dit kan voor gebruikers door het volledige systeem van Workfront of voor specifieke groepen of subgroepen zijn. Voor meer informatie over statussen raadpleegt u [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Als beheerder van Adobe Workfront, kunt u douanestatus voor projecten, taken, en kwesties tot stand brengen. Dit kan voor gebruikers door het volledige systeem van Workfront, of voor specifieke groepen of subgroepen zijn. Zie voor meer informatie over statussen [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 >[!NOTE]
 >
@@ -39,14 +41,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>
+     <p>Nieuw: Standaard</p>
+     <p>of</p>
+     <p>Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepaste status maken of bewerken
 
@@ -54,13 +62,13 @@ U kunt een aangepaste status toevoegen voor gebruik door uw volledige organisati
 
 Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vormen zodat alle groepen in het systeem het kunnen gebruiken zonder het uit te geven. Of u kunt het vormen zodat de groepsbeheerders het voor hun groepen kunnen wijzigen, zoals die in wordt verklaard [Een groepsstatus maken of bewerken](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
 
 1. Klik in het linkerdeelvenster op **Projectvoorkeuren** > **Statussen**.
 
 1. (Voorwaardelijk) Als u een status maakt of bewerkt voor gebruik op het hele systeem, moet u ervoor zorgen dat **Systeemstatussen** is geselecteerd in het vak in de rechterbovenhoek.
 
-   ![](assets/system-statuses-in-upper-rt-corner.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    of
 
@@ -70,7 +78,7 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
 1. Selecteer de tab van het objecttype (**Project**, **Taken**, of **Problemen**) die u aan de status wilt koppelen.
 
-1. Als u een nieuwe status maakt, klikt u op **Een nieuwe status toevoegen**.
+1. Als u een nieuwe status maakt, klikt u **Een nieuwe status toevoegen**.
 
    of
 
@@ -106,7 +114,7 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
      </tr> 
      <tr> 
       <td role="rowheader">Status verbergen</td> 
-      <td> <p>(Alleen status van project en taak)</p> <p>Schakel deze optie in als u de status wilt verbergen voor gebruikers. Wanneer deze is uitgeschakeld (de standaardinstelling), kunnen alle gebruikers in het systeem de status gebruiken.</p> <p>U kunt de status van een probleem verbergen door alle vier de typen problemen uit te schakelen (Foutenrapport, Wijzigingsvolgorde, Uitgave, Verzoek).</p> </td> 
+      <td> <p>(Alleen status van project en taak)</p> <p>Schakel deze optie in als u de status wilt verbergen voor gebruikers. Wanneer deze optie is uitgeschakeld (de standaardinstelling), kunnen alle gebruikers in het systeem de status gebruiken.</p> <p>U kunt de status van een probleem verbergen door deze optie uit te schakelen voor alle vier de typen uitgaven (Foutenrapport, Wijzigingsvolgorde, Uitgave, Verzoek).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vergrendelen voor alle groepen</td> 
@@ -122,7 +130,7 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
        <li>Een gebruiker begint een goedkeuringsproces uit te geven dat een ontgrendelde status gebruikt. In een bericht wordt de gebruiker gewaarschuwd voor de ontgrendelde status, zodat deze kan beoordelen of het een goed idee is om de status opnieuw te vergrendelen of te vervangen.</li>
        <li>Een goedkeuringsproces op systeemniveau met een niet-vergrendelde status is gekoppeld aan een object en de status is verwijderd voor de groep die aan het object is toegewezen. Wanneer een groepslid naar de sectie van Goedkeuringen voor het voorwerp gaat, verklaart een bericht dat het goedkeuringsproces niet voor het voorwerp kan worden in werking gesteld.</li>
        </ul>
-       <p>Voor meer informatie over het vergrendelen van statussen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Vergrendelde en ontgrendelde statussen op systeemniveau</a>.</p>
+       <p>Zie voor meer informatie over het vergrendelen van statussen <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Vergrendelde en ontgrendelde statussen op systeemniveau</a>.</p>
        </div>
       </td>
      </tr> 
@@ -131,6 +139,6 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
 1. Klikken **Opslaan**.
 
-   Voor instructies over het instellen van deze status als standaardstatus raadpleegt u [Aangepaste statussen gebruiken als standaardstatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Zie voor instructies over het instellen van deze status als standaardstatus [Aangepaste statussen gebruiken als standaardstatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Voor informatie over het opnieuw ordenen van groepsstatussen raadpleegt u [Statussen op systeemniveau en groepen opnieuw ordenen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Zie voor informatie over het opnieuw ordenen van groepsstatussen [Statussen op systeemniveau en groepen opnieuw ordenen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

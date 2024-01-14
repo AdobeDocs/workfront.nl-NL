@@ -6,14 +6,16 @@ description: De [!UICONTROL boards] In het dashboard ziet u de lijst met borden 
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
 
 # Het dashboard voor tekengebieden gebruiken
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,25 +47,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td> 
+   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
+   <p>of</p>
+   <p>Huidige: [!UICONTROL Request] of hoger</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Filterborden en werkstromen {#filter-boards}
 
 U kunt het dashboard van Borden filtreren om actieve, gearchiveerde, of alle borden of werkstromen te tonen.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
 1. Klikken [!UICONTROL **Filter**] in het gebied Boards of het gebied Workstreams en selecteer **[!UICONTROL All]**, **[!UICONTROL Active]**, of **[!UICONTROL Archived]**.
 
    Wanneer een ander filter dan het gebrek op het dashboard wordt toegepast, wordt een indicator getoond op het filterpictogram ![Filter toegepast op dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Sorteerborden
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
 1. Als u de lijst met gebieden wilt sorteren, klikt u op [!UICONTROL **Sorteren**]. De standaardsorteeroptie voor de pagina is: **[!UICONTROL Date modified]**. U kunt de pagina ook op het bord sorteren **[!UICONTROL Name]**.
 
    Selecteren **[!UICONTROL Reverse order]** om de platen in omgekeerde volgorde te sorteren, gewijzigd of naam. Wanneer de pijl op het sorteerpictogram omhoog wijst, wordt de omgekeerde volgorde toegepast. Wanneer de pijl omlaag wijst, wordt de standaardvolgorde toegepast.
@@ -74,7 +81,7 @@ U kunt het dashboard van Borden filtreren om actieve, gearchiveerde, of alle bor
 
 U kunt in het gebied Boards naar een specifieke board zoeken, of in het gebied Workstreams naar een specifieke workstream zoeken.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
 1. Klikken [!UICONTROL **Zoeken**] en typ een zoekterm. Druk vervolgens op Enter.
 
    Alle tekengebieden of werkstromen die de zoekterm in de titel bevatten, worden weergegeven.
@@ -93,7 +100,7 @@ Als u een board of een workstream archiveert, wordt deze naar het archief verzon
 >
 >Wanneer u een werkstroom archiveert, worden alle borden gearchiveerd.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
 1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op het bord of de werkstroom en selecteer **[!UICONTROL Archive]**.
 
    In een werkstroom bevindt het menu zich rechts, naast het [!UICONTROL **Werkstroom weergeven**] knop.
@@ -114,7 +121,7 @@ Als u een werkstroom verwijdert, worden ook alle borden in de werkstroom verwijd
 >
 >U kunt alleen de gebieden en werkstromen verwijderen die u hebt gemaakt, niet de gebieden en werkstromen waaraan u bent toegevoegd.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
 1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op het bord of de werkstroom en selecteer **[!UICONTROL Delete]**.
 
    In een werkstroom bevindt het menu zich rechts, naast het [!UICONTROL **Werkstroom weergeven**] knop.

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 0%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 0%
          * [Rapporten verbergen](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * E-mails {#emails}
          * [E-mails](administration-and-setup/manage-workfront/emails/emails.md)
-         * [E-mailmeldingen](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [E-mailmeldingen: artikelindex](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Gebeurtenismeldingen configureren](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [Beschikbare gebeurtenismelding](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [Beschikbare gebeurtenismeldingen](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Gebeurtenismeldingen voor alle groepen ontgrendelen](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [Gebeurtenismeldingsregels](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [Instellingen voor e-mailmeldingen van gebruikers wijzigen](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 0%
    * Groepen beheren {#manage-groups}
       * [Groepen beheren](administration-and-setup/manage-groups/manage-groups.md)
       * Groepen {#groups}
-         * [Overzicht van groepen](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [Groepen](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [Groepen: artikelindex](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [Overzicht van groepen](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [Overzicht subgroepen](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [Overzicht van thuisgroepen](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * Groepen maken en beheren {#create-manage-groups}
