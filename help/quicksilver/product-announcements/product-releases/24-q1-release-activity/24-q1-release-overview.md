@@ -4,7 +4,7 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Metagegevens toewijzen in Experience Manager Assets Essentials gebruikt nu <code>xcm:keywords</code> in plaats van <code>dc:subject</code></a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de as a Cloud Service integratie van Experience Manager Assets. Wanneer u nu meerdere tekstvelden met één regel toewijst aan één veld in Experience Manager Assets, gebruiken beide services de opdracht <code>xcm:keywords</code> veld.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Metagegevens toewijzen in Experience Manager Assets Essentials gebruikt nu <code>xcm:keywords</code> in plaats van <code>dc:subject</code></a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de as a Cloud Service integratie van Experience Manager Assets. Wanneer u nu meerdere tekstvelden met één regel toewijst aan één veld in Experience Manager Assets, gebruiken beide services de opdracht <code>xcm:keywords</code> veld.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
