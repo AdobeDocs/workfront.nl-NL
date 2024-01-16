@@ -6,7 +6,7 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
 source-wordcount: '2450'
 ht-degree: 0%
@@ -55,11 +55,11 @@ of
 
 Als u een filter in een rapport wilt bewerken, hebt u de volgende licentie nodig:
 
-<p>Nieuw: Plan</p>
+<p>Nieuw: Standaard</p>
 
 of
 
-<p>Huidig: Standaard</p>
+<p>Huidig: Plan</p>
 
 </td> 
   </tr> 

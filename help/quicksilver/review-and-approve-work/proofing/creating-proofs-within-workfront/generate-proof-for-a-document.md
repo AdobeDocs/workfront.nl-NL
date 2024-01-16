@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Een proefdruk maken voor een document
-description: U kunt een proef voor een document produceren op het tijdstip u het aan Workfront uploadt.
+description: U kunt een proef voor een document produceren op het tijdstip u het aan Workfront uploadt. U kunt ook een proefdruk genereren voor een document dat al in Adobe Workfront is geüpload of voor een nieuwe versie van een proefdruk die al in Workfront is gemaakt.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,10 +109,10 @@ Met slepen en neerzetten kunt u een nieuwe proefdruk of nieuwe proefdrukversie g
     <tbody> 
      <tr> 
       <td role="rowheader">Eenvoudige proefdruk</td> 
-      <td>Met deze optie maakt u een proefdruk zonder workflow en past u de standaardproefdrukinstellingen toe. U kunt de standaardproefmontages bijwerken of een werkschema toevoegen nadat u de proef hebt gecreeerd. Voor meer informatie over proefdrukinstellingen raadpleegt u <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Proefdrukinstellingen bewerken</a>.</td> 
+      <td>Met deze optie maakt u een proefdruk zonder workflow en past u de standaardproefdrukinstellingen toe. U kunt de standaardproefmontages bijwerken of een werkschema toevoegen nadat u de proef hebt gecreeerd. Zie voor meer informatie over proefdrukinstellingen <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Proefdrukinstellingen bewerken</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Geavanceerde proefdruk</td> 
+      <td role="rowheader">Geavanceerd proefdrukken</td> 
       <td> <p>Met deze optie kunt u een basisworkflow of een geavanceerde workflow configureren en proefdrukinstellingen wijzigen voor de proefdruk die u maakt. Zie voor meer informatie </p> 
        <ul> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Een geavanceerde proefdruk maken met een standaardworkflow</a> </p> </li> 

@@ -3,18 +3,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Proefrollen beheren in [!DNL Workfront Proof]
-description: De rollen van het bewijs laten u toe om toestemmingen aan gebruikers te verlenen die door het toestemmingsprofiel worden beperkt dat op hun gebruikersprofiel wordt gevormd. (Zie Proefprofielen voor machtigingen in voor meer informatie over machtigingsprofielen [!DNL Workfront Proof].)
+description: De rollen van het bewijs laten u toe om toestemmingen aan gebruikers te verlenen die door het toestemmingsprofiel worden beperkt dat op hun gebruikersprofiel wordt gevormd.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
 
 # Proefrollen beheren in [!DNL Workfront Proof]
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -46,7 +48,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
 Raadpleeg de volgende artikelen voor meer informatie:
 
 * [Handelingen gebruiken voor opmerkingen bij proefdrukken](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
-* [Een proef delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
+* [Een proefexemplaar delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
 
 ### Alleen-lezen
 
@@ -140,7 +142,7 @@ Zie voor meer informatie [Mappen delen in [!DNL Workfront Proof]](../../../workf
 
 >[!NOTE]
 >
->Deze rol kan alleen worden toegewezen aan gebruikers van [!DNL Workfront Proof]
+>Deze rol kan alleen aan gebruikers van [!DNL Workfront Proof].
 
 ### Moderator {#moderator}
 
@@ -171,15 +173,11 @@ Deze rol stelt de persoon in staat de bewijsopmerkingen te beheren en te matigen
 
 >[!NOTE]
 >
->Deze rol kan alleen worden toegewezen aan gebruikers van [!DNL Workfront Proof].
+>Deze rol kan alleen aan gebruikers van [!DNL Workfront Proof].
 
 ## Proefdrukrollen toewijzen
 
 U kunt proefdrukrollen toewijzen bij het maken van nieuwe proefdrukken, het maken van nieuwe versies van bestaande proefdrukken of op bestaande proefdrukken.
-
-* [Nieuwe proefdrukken](#new-proofs)
-* [Nieuwe versies](#new-versions)
-* [Bestaande proefdrukken](#existing-proofs)
 
 ### Nieuwe proefdrukken {#new-proofs}
 
@@ -189,7 +187,7 @@ Proefdrukrollen kunnen worden toegewezen aan revisoren op de [!UICONTROL New pro
 
 ### Nieuwe versies {#new-versions}
 
-Als u een nieuwe versie van een proefdruk maakt, worden de controleurs van de vorige versie automatisch weergegeven (met dezelfde rol als de vorige versie).
+Wanneer u een nieuwe versie van een proefdruk maakt, worden de controleurs van de vorige versie automatisch weergegeven (met dezelfde rol als de vorige versie).
 
 U kunt de proefdrukrollen die zijn toegepast op controleurs bewerken bij het maken van de nieuwe versie (1).
 
@@ -197,9 +195,9 @@ U kunt de proefdrukrollen die zijn toegepast op controleurs bewerken bij het mak
 
 ### Bestaande proefdrukken {#existing-proofs}
 
-Als u de rol van een persoon op een bestaande proefdruk wilt wijzigen, kunt u dat doen op de knop [!UICONTROL Proof details] pagina door inlinebewerking van hun rol in de werkstroomsectie (1):
+Als u de rol van een persoon op een bestaande proefdruk wilt wijzigen, kunt u dat doen op de knop [!UICONTROL Proof details] pagina door inlinebewerking van hun rol in de workflowsectie (1).
 
-![Proef_Roles_-_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
+![Proef_Roles_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
 ## Rollen controleren in de Proefweergave
 
@@ -221,9 +219,6 @@ Zie voor meer informatie [Persoonlijke instellingen in [!DNL Workfront Proof]](.
 
 Maker en eigenaar hebben volledige bewerkingsrechten op de proefdruk.
 
-* [Maker](#creators)
-* [Eigenaars](#owners)
-
 ### Maker {#creators}
 
 De maker van het bewijs is de persoon die het bewijs in eerste instantie uploadt. De maker van de proefdruk wordt automatisch weergegeven in de lijst met personen voor de proefdruk (in de standaardrol).
@@ -234,14 +229,14 @@ De maker van de proefdruk kan niet worden gewijzigd of uit een proefdruk worden 
 
 ### Eigenaars {#owners}
 
-Standaard is de maker ook de eigenaar van het bewijs; de maker kan echter iemand anders de eigenaar van de proef maken bij het maken van de proef (op de [!UICONTROL New proof] pagina).
+Standaard is de maker ook de eigenaar van de proefdruk, maar de maker kan iemand anders de eigenaar van de proefdruk maken bij het maken van de proefdruk (op het tabblad [!UICONTROL New proof] pagina).
 
 De eigenaar wijzigen op de pagina Nieuwe proefdruk:
 
-1. Klik op de wijzigingskoppeling die naast de naam van de maker wordt weergegeven.
+1. Klik op de koppeling voor de wijziging die naast de naam van de maker wordt weergegeven.
 1. Selecteer de nieuwe eigenaar in het keuzemenu. (2)
 
-![Proef_rollen_-_new_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
+![Proef_rollen_nieuw_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 
 Zodra het bewijs is gecreeerd, is het nog mogelijk om de eigenaar te veranderen. Iedereen met bewerkingsrechten op de proefdruk kan de proefdrukeigenaar via de [!UICONTROL Proof details] pagina (zie hieronder).
 
@@ -249,9 +244,9 @@ De mogelijkheid om de eigenaar van een proefdruk te wijzigen is vooral handig va
 
 De eigenaar van het bewijs wijzigen via de [!UICONTROL Proof details] pagina:
 
-* Klik op het menu Handelingen naast de naam van de persoon die u wilt maken.
-* Selecteren [!UICONTROL Make owner] in het keuzemenu.
-* U kunt ook in de [!UICONTROL Owner] naast de proefdrukafbeelding en kies in het vervolgkeuzemenu de nieuwe eigenaar.
+* Klik op het menu Handelingen naast de naam van de persoon die u de eigenaar wilt maken.
+* Selecteren [!UICONTROL **Eigenaar maken**] in het keuzemenu.
+* U kunt ook in het dialoogvenster [!UICONTROL **Eigenaar**] naast de proefdrukafbeelding en kies in het vervolgkeuzemenu de nieuwe eigenaar.
 
 Zodra dit wordt gedaan, zal het woord &quot;Eigenaar&quot;naast de naam van die persoon worden getoond.
 
@@ -263,9 +258,5 @@ Zodra dit wordt gedaan, zal het woord &quot;Eigenaar&quot;naast de naam van die 
 >* Er zijn geen aangepaste velden op de [!UICONTROL New proof] pagina.
 >* De proefdruk is niet toegewezen aan een map.
 >* Er zijn geen codes toegepast op de proefdruk.
->
-
-
-
 
 Bewijs tijdelijk delegeren binnen [!DNL Workfront Proof], zie [Aanwijzing van eigenaars van tijdelijke bewijzen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
