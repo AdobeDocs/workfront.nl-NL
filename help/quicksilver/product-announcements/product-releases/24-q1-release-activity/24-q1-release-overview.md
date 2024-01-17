@@ -4,20 +4,18 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Overzicht eerste release 2024, kwartaal 2024
 
-Deze pagina biedt informatie over functionaliteit die is opgenomen in de release van het eerste kwartaal van 2024 die gepland is voor de week van 15 januari 2024.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release Eerste kwartaal 2024. Deze verbeteringen zullen naar verwachting beschikbaar komen in de productieomgeving voor alle klanten met de release 24.1 op 18 en 19 januari 2024.
 
-De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien de Eerste Kwartaal 2024 versie zijn geplande versie van de Productie nadert.
-
-De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om hier een opname op aanvraag te bekijken](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het eerste kwartaal van 2024 in productie zijn), worden geel gemarkeerd.</span>
 
@@ -352,9 +350,10 @@ De webinar met release 24.1 vindt plaats op 11 januari 2024. U kunt [register vo
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 21 december 2023</p>
+                                <p>OPMERKING: deze functie blijft in Voorvertoning tot de release 24.4.</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 24.1</p>
+                                <p>Productie voor snelle release: met de release van 24.2 (februari 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor alle klanten: met de release van 24.4 (april 2024)</p>
