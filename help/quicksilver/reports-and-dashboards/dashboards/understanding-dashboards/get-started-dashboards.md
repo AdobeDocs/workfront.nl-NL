@@ -7,14 +7,16 @@ description: Het doel van een dashboard is om snel toegang tot informatie te ver
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met dashboards
+
+<!-- Audited: 1/2024 -->
 
 Het doel van een dashboard is snel toegang tot informatie te verlenen die uit veelvoudige rapporten komt. Eerst, kunt u informatie in rapporten verzamelen en u kunt veelvoudige rapporten op dashboards dan plaatsen om de informatie gemakkelijker te maken om toegang te hebben.
 
@@ -29,25 +31,25 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-abonnement*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront-plan</strong></p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-licentie*</strong></p> </td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td> <p><strong>Adobe Workfront-licentie</strong></p> </td> 
+   <td> <p>Nieuw: Medewerker of hoger</p><p>of</p><p>Huidig: Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Toegangsniveau*</strong> </td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td><strong>Toegangsniveau</strong> </td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven of vergroten</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Objectmachtigingen</strong> </p> </td> 
-   <td> <p>Machtigingen weergeven voor het dashboard</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.<br>Zie voor meer informatie over machtigingen voor dashboards <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Rapporten, dashboards en kalenders delen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor het dashboard</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objecten die u kunt toevoegen aan een dashboard
 
@@ -80,12 +82,12 @@ U kunt een dashboard op de volgende manieren met gebruikers delen:
 * Druk een gedrukt exemplaar van hen om met gebruikers te delen.\
   Zie voor meer informatie over het afdrukken van dashboards [Een dashboard afdrukken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exporteer ze als een .pdf-bestand zodat u ze via e-mail aan gebruikers kunt verzenden.\
-  Zie voor meer informatie over het exporteren van een dashboard naar een .pdf-bestand [Een dashboard exporteren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* Exporteer ze als een PDF-bestand, zodat u ze via e-mail aan gebruikers kunt verzenden.\
+  Ga voor meer informatie over het exporteren van een dashboard naar een PDF-bestand naar [Een dashboard exporteren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Wanneer u een dashboard met gebruikers deelt, worden alle rapporten, kalenders, en externe pagina&#39;s die op het dashboard zijn ook gedeeld met de zelfde gebruikers door gebrek.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Als een gebruiker wordt geschrapt, zijn om het even welke dashboards die zij hebben gecreeerd niet meer toegankelijk. Zie voor meer informatie [Gebruikers verwijderen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ Wanneer u een dashboard met gebruikers deelt, worden alle rapporten, kalenders, 
 
 U kunt een dashboard op de volgende manieren weergeven:
 
-* Open de sectie waarin deze is geplaatst en open het dashboard op de sectie.\
+* Open de aangepaste sectie waar het dashboard is geplaatst.\
   Zie voor meer informatie over het plaatsen van dashboards op aangepaste secties [Linkernavigatie in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Zoek en heb manueel toegang tot het wanneer u het vindt.
+* Zoek naar en heb manueel toegang tot het dashboard.
 
 ## Een dashboard openen
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-icon.png)en klik vervolgens op **Dashboards**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
 1. Houd de cursor boven de linkerzijbalk en selecteer een van de volgende opties:
 
    * **Mijn dashboards**: Dashboards die u hebt gemaakt, worden hier weergegeven.
@@ -110,7 +112,7 @@ U kunt een dashboard op de volgende manieren weergeven:
      >Als u geen Edit toegang tot Rapporten, Dashboards, en Kalenders in uw toegangsniveau hebt, kunt u geen dashboards tot stand brengen. In dit geval is de lijst Mijn dashboards leeg.
 
    * **Gedeelde dashboards**: De dashboards die door andere gebruikers worden gecreeerd en met u worden gedeeld zijn hier vermeld.
-   * **Alle dashboards**: Hier worden zowel de dashboards van uw gebruiker als die van andere gebruikers die met u worden gedeeld, weergegeven.
+   * **Alle dashboards**: Hier worden zowel de dashboards als de dashboards weergegeven die andere gebruikers met u hebben gedeeld.
 
    ![Dashboardgebied](assets/dashboards-area.png)
 

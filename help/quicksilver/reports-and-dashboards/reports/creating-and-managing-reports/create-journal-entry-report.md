@@ -1,13 +1,13 @@
 ---
 title: Rapport over het gebied Updates
-description: Rapport over het gebied Updates
+description: Het rapport Dagboekingang bevat systeemupdates van het gebied Updates van projecten, taken, problemen en andere objecten die voorheen alleen beschikbaar waren via de Adobe Workfront API. Hoewel dit een geavanceerd rapport is dat is bedoeld voor specifieke gebruiksgevallen, maakt het verteerbaardere formaat het voor u gemakkelijker om over projectactiviteit en systeemupdates binnen Workfront te rapporteren.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -38,25 +38,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard </p><p>of </p><p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening aan de voorwerpen die de dagboekingangen bevatten u in het rapport toont</p> <p>Nadat u het rapport hebt gemaakt, ontvangt u beheerdersmachtigingen voor het rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening aan de voorwerpen die de dagboekingangen bevatten u in het rapport toont</p> <p>Nadat u het rapport hebt gemaakt, ontvangt u beheerdersmachtigingen voor het rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -68,7 +68,7 @@ Voordat u de in dit artikel beschreven handelingen kunt uitvoeren, moet u het vo
 
 * Voor aangepaste velden waarvoor u een rapport wilt opstellen, geldt de instelling **Wijzigingen in velden weergeven in updateffeeds** ingeschakeld.
 
-  Zie de sectie voor meer informatie over het inschakelen van deze instelling voor een aangepast veld [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in het artikel [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Zie voor meer informatie over het inschakelen van deze instelling voor een aangepast veld [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Overzicht van het Dagboekingrapport
 
@@ -127,7 +127,7 @@ De standaardmening voor dit rapport bevat de volgende kolommen:
  </tbody> 
 </table>
 
-Om de informatie in dit rapport te organiseren, kunt u het ingebouwde groeperende Project gebruiken. De groepering van het Project geeft u een primaire groepering van de Naam van het Project en een secundaire groepering van de Datum van de Ingang. U kunt deze bestaande groepering tijdens rapportverwezenlijking toepassen, of u kunt het toepassen wanneer het bekijken van het rapport.
+Om de informatie in dit rapport te organiseren, kunt u de ingebouwde groepering gebruiken genoemd Project. De groepering van het Project geeft u een primaire groepering van de Naam van het Project en een secundaire groepering van de Datum van de Ingang. U kunt deze bestaande groepering tijdens rapportverwezenlijking toepassen, of u kunt het toepassen wanneer het bekijken van het rapport.
 
 Zie de desbetreffende sectie voor meer informatie over het instellen van de weergaven, filters en groepen die u voor uw rapport wilt gebruiken:
 
@@ -167,7 +167,7 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
 >Als u het verschil in dagen tussen voorwaardenveranderingen wilt vergelijken, kunt u Verbeterde analysemogelijkheden gebruiken.\
 >Ga voor meer informatie over Verbeterde analysemogelijkheden naar [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
 1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen:
 
 Zo ziet u wanneer een taak of uitgave is verwijderd:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
 1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
 
    Voor meer informatie bij het toevoegen van kolommen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens het volgende toe:
+1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens de volgende filters toe:
 
    * **Type wijzigen** > **Gelijk** > **Verwijderen**
    * **Project-id** > **Gelijk** > **`<project>`**
@@ -365,7 +365,7 @@ U kunt belangrijke gebiedsveranderingen tijdens de loop van het project volgen. 
 
 Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gewijzigd:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
 1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    Voor meer informatie bij het toevoegen van kolommen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens het volgende toe:
+1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens de volgende filters toe:
 
    * **Itemveldnaam journaal** > **Bevat** > **DE**
 
@@ -467,7 +467,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
 U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Geplande Datum van de Voltooiing in de loop van het leven van een project verandert.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
 1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
 
 U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel keer het project eigenaar-of projectmanager-verandert over de cursus van het leven van een project.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
 1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Werkitems maken vanuit het gebied Home
-description: Werkitems maken vanuit het gebied Home
-author: Lisa
+description: U kunt werkitems maken op basis van de [!UICONTROL Home] gebied. U kunt persoonlijke taken voor uzelf maken, werk aanvragen bij andere gebruikers of taken toevoegen aan specifieke projecten.
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt een persoonlijke taak maken die alleen voor u beschikbaar is in het dialoogvenster [!UICONTROL Home] gebied:
 
 1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **[!UICONTROL Home]**.
-1. Klik op **[!UICONTROL New Task]** > **[!UICONTROL Personal]**.
+1. Klikken **[!UICONTROL New Task]** > **[!UICONTROL Personal]**.
 
    ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 
