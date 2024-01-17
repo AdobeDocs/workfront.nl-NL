@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Werk de werkitems in de werklastbalans bij met de samenvatting
 description: U kunt het deelvenster Samenvatting openen in Workload Balancer om de werkitems in de toegewezen en niet-toegewezen werkgebieden bij te werken.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%

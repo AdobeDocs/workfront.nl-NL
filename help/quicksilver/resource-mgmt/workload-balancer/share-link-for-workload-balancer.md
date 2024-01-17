@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: De werklastbalans delen met een koppeling
 description: U kunt de werklastbalans delen met andere gebruikers die mogelijk niet over het gebied Bronnen beschikken. Zie Navigeren in Workload Balancer voor informatie over het gebruik van Workload Balancer.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -61,11 +61,11 @@ Wanneer u een koppeling naar de werklastbalans deelt met andere gebruikers, word
 
 * Het toegewezen werkgebied van het Werklastevenwicht.
 * Project, taak en gebruikersinformatie. Dit omvat de informatie van de gebruikerstoewijzing.
-* De informatie wordt weergegeven op basis van het geselecteerde filter.
+* De informatie wordt weergegeven volgens het geselecteerde filter.
 
-   >[!IMPORTANT]
-   >
-   >Als u de filters verwijdert nadat u de koppeling hebt gedeeld, krijgen de gebruikers die de werklastbalans via de koppeling bekijken een waarschuwing dat de filters zijn verwijderd. Alle gebruikers worden weergegeven in het gebied Toegewezen werk. Dit is de standaardweergave voor werklastbalans.
+  >[!IMPORTANT]
+  >
+  >Als u de filters verwijdert nadat u de koppeling hebt gedeeld, krijgen de gebruikers die de werklastbalans via de koppeling bekijken een waarschuwing dat de filters zijn verwijderd. Alle gebruikers worden weergegeven in het gebied Toegewezen werk. Dit is de standaardweergave voor werklastbalans.
 
 * Het aantal eerder geselecteerde weken.
 
@@ -81,11 +81,11 @@ De volgende opties zijn beschikbaar voor de gebruiker die de werklastbalans weer
 * Het pictogram Instellingen
 * Pictogram Toewijzingen weergeven
 
-   Voor informatie over het gebruik van deze opties raadpleegt u [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Zie voor informatie over het gebruik van deze opties [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * Pictogram Roltoewijzingen weergeven
 
-   Dit is beschikbaar slechts voor de Balancer van de Werkbelasting van een project.
+  Dit is beschikbaar slechts voor de Balancer van de Werkbelasting van een project.
 
 De gebruiker die de gedeelde koppeling ontvangt, kan het volgende niet doen in Workload Balancer vanuit deze koppeling:
 
@@ -112,11 +112,11 @@ U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekij
    * Werk de selectie van de tijdperiode bij.
    * Klikken **Dag, week**, of **Maand** om dagelijkse, wekelijkse of maandelijkse informatie weer te geven.
 
-      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+     ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Pas filters op de Niet toegewezen en Toegewezen gebieden van het Werk toe.
 
-      Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [Gegevens in de werklastbalans filteren](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [Gegevens in de werklastbalans filteren](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 1. Klik op de knop **koppelingspictogram** ![](assets/wb-shearable-link-icon-small.png).
 
@@ -127,8 +127,8 @@ U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekij
    * Plak het in een e-mail, chatbericht of een andere toepassing en deel het bericht met andere gebruikers.
    * Voeg het aan een douanesectie als externe pagina toe, voeg de douanesectie aan het profiel van een gebruiker, of aan een Malplaatje van de Lay-out toe, dan deel het Malplaatje van de Lay-out met gebruikers, teams, baanrollen, of groepen.
 
-      Voor informatie over het maken van een externe pagina raadpleegt u [Een externe webpagina insluiten in een dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Voor informatie over het toevoegen van aangepaste secties aan een lay-outsjabloon raadpleegt u [Het linkerdeelvenster aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Voor informatie over het maken van een externe pagina raadpleegt u [Een externe webpagina insluiten in een dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Voor informatie over het toevoegen van aangepaste secties aan een lay-outsjabloon raadpleegt u [Het linkerdeelvenster aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
-      >[!IMPORTANT]
-      >
-      >Wanneer u werklastbalans toevoegt aan de aangepaste sectie van een object, wordt de informatie in Workload Balancer niet gefilterd door het object. In Workload Balancer wordt de informatie weergegeven die door de oorspronkelijk toegepaste filters is gefilterd.
+     >[!IMPORTANT]
+     >
+     >Wanneer u werklastbalans toevoegt aan de aangepaste sectie van een object, wordt de informatie in Workload Balancer niet gefilterd door het object. In Workload Balancer wordt de informatie weergegeven die door de oorspronkelijk toegepaste filters is gefilterd.

@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Overzicht van groepen
+
+<!-- Audited: 01/2024 -->
 
 Een Workfront-beheerder kan groepen gebruikers maken die overeenkomen met de afdelingsstructuur. Groepen zijn vergelijkbaar met maar verschillen van teams en bedrijven.
 
@@ -28,7 +30,7 @@ U kunt maximaal 14 niveaus subgroepen maken onder één groep. Zie voor meer inf
 
 ## Groepen gebruiken om gebruikers te organiseren
 
-Als Workfront-beheerder of groepsbeheerder kunt u gebruikers koppelen aan groepen en subgroepen. Als u een groep openbaar maakt, kunnen gebruikers met een Planner-licentie er gebruikers aan koppelen. Voor meer informatie over groepsbeheerders en openbare groepen, zie [Een groep maken](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Als Workfront-beheerder of groepsbeheerder kunt u gebruikers koppelen aan groepen en subgroepen. Als u een groep openbaar maakt, kunnen gebruikers met een Standard (nieuw) of Plan (huidig) vergunning gebruikers met het associëren. Voor meer informatie over groepsbeheerders en openbare groepen, zie [Een groep maken](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Wanneer u een gebruiker creeert, adviseren wij dat u die gebruiker aan de aangewezen Groep van het Huis en andere groepen toevoegt die de gebruiker zou moeten binnen werken. Een gebruiker kan slechts één Home Group hebben, maar kan in meerdere andere groepen zijn.
 

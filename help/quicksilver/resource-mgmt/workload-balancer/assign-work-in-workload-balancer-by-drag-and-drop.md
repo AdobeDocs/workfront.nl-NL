@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Werk toewijzen in Workload Balancer door slepen en neerzetten
 description: U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer door werkitems naar de juiste gebruikers te slepen en neer te zetten.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer door werkitems naar de juiste gebruikers te slepen en neer te zetten.
 
-Voor algemene informatie over het toewijzen van werk aan gebruikers die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Zie voor algemene informatie over het toewijzen van werk aan gebruikers met behulp van Workload Balancer [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Toegangsvereisten
 
@@ -74,7 +74,7 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
    Ga naar de **Toegewezen werk** en vouw de naam van een gebruiker uit om de aan hen toegewezen het werkpunten te bekijken, als u hun punten opnieuw wilt toewijzen.
 
-1. (Voorwaardelijk) Klik in de taakverdeler van een project op de knop **Alle gebruikers tonen** pictogram ![](assets/show-all-users-icon-project-workload-balancer.png) om alle Workfront-gebruikers weer te geven.
+1. (Voorwaardelijk) Klik in de taakverdeler van een project op de knop **Alle gebruikers tonen** pictogram ![](assets/show-all-users-icon-project-workload-balancer.png) alle Workfront-gebruikers weergeven.
 
    Alle gebruikers die toegang hebben tot de weergave worden dan weergegeven.
 
@@ -87,7 +87,6 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
    >
    >* De optie Alle gebruikers weergeven is alleen beschikbaar in Workload Balancer van een project.
    >* Gebruik filters om alleen de gebruikers weer te geven die voor u van belang zijn. Gebruik bijvoorbeeld een filter om alleen gebruikers van uw teams of groepen weer te geven.
-
 
 
 
@@ -108,17 +107,16 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
    >[!TIP]
    >
    >* Als u Groep door Project op het gebied van Montages toeliet, toont de toegewezen taak onder het overeenkomstige project. Als de instelling is uitgeschakeld, wordt de toegewezen taak weergegeven in het gebruikersgebied.
-      >
-      >
-      >     Het item wordt weergegeven volgens de criteria voor werklastbalans voor het sorteren van werkitems. Zie voor meer informatie [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >
+   >
+   >     Het item wordt weergegeven volgens de criteria voor werklastbalans voor het sorteren van werkitems. Zie voor meer informatie [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
    >* Als u toeliet toon alle gebruikers in de Balancer van de Werkbelasting van een project en toewees punten aan gebruikers die niet eerder aan punten op het project werden toegewezen, worden de gebruikers toegevoegd aan het Team van het Project. Zie voor meer informatie [Projectteam beheren](../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 
-
 1. (Optioneel) Klik op de balk van een tijdelijk item onder de naam van een gebruiker in het gebied Toegewezen werk en sleep het item vervolgens over het gebied Niet toegewezen werk om de toewijzing ongedaan te maken. Het punt is unassigned van de gebruiker, maar het zou nog aan een baanrol kunnen worden toegewezen waarin het in het Unassigned gebied van het Werk toont. Als het punt aan een andere gebruiker wordt toegewezen, blijft het in het Toegewezen gebied van het Werk onder de naam van de gebruiker die nog wordt toegewezen.
-1. (Optioneel) Klik op de knop **Toewijzingspictogram tonen** ![](assets/show-allocations-icon-small.png)klikt u op de knop **Het menu Meer** ![](assets/qs-more-menu.png) > **Toewijzingen bewerken**.
+1. (Optioneel) Klik op de knop **Toewijzingspictogram tonen** ![](assets/show-allocations-icon-small.png)en klik vervolgens op de knop **Het menu Meer** ![](assets/qs-more-menu.png) > **Toewijzingen bewerken**.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

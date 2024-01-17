@@ -3,11 +3,11 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Handmatig werk toewijzen met Workload Balancer
 description: Met de Adobe Workfront Workload Balancer kunt u handmatig werkitems toewijzen aan gebruikers.
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met de Adobe Workfront Workload Balancer kunt u handmatig werkitems toewijzen aan gebruikers.
 
-Voor algemene informatie over het toewijzen van werk aan gebruikers die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Zie voor algemene informatie over het toewijzen van werk aan gebruikers met behulp van Workload Balancer [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## Werk handmatig toewijzen in Workload Balancer
+## Handmatig werk toewijzen in Workload Balancer
 
 U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of items die aan gebruikers in de werklastbalans zijn toegewezen, opnieuw toewijzen.
 
@@ -81,8 +81,8 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
    >
    >U kunt ook de volgende sneltoetsen gebruiken om taken of problemen toe te wijzen:
    >
-   >* In Windows: CTRL+klik op de taak of de uitgiftebalk.
-   >* In Mac: CMD+klik op de taak- of uitgavenbalk.
+   >* In Windows: CTRL + klik de taak of de uitgiftebar.
+   >* In Mac: CMD + klik op de taak of de uitgiftebalk.
 
 1. Voer een van de volgende handelingen uit:
 
@@ -124,9 +124,9 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
 
    * Klikken **Geavanceerd** om toegang te krijgen tot Geavanceerde toewijzingen.
 
-     Voor meer informatie over het maken van Geavanceerde Taken, zie [Geavanceerde toewijzingen maken](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Voor meer informatie over het maken van Geavanceerde Toewijzingen, zie [Geavanceerde toewijzingen maken](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Optioneel) Klik op de knop **Toewijzingspictogram tonen** ![](assets/show-allocations-icon-small.png)klikt u op de knop **Het menu Meer** ![](assets/qs-more-menu.png) > **Toewijzingen bewerken**.
+1. (Optioneel) Klik op de knop **Toewijzingspictogram tonen** ![](assets/show-allocations-icon-small.png)en klik vervolgens op de knop **Het menu Meer** ![](assets/qs-more-menu.png) > **Toewijzingen bewerken**.
 
    of
 

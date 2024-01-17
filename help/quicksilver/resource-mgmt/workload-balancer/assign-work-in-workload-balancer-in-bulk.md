@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Werk in bulk toewijzen met Werklastverdeling
 description: Met de Adobe Workfront Workload Balancer kunt u handmatig werkitems toewijzen aan gebruikers.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Met de Adobe Workfront Workload Balancer kunt u handmatig werkitems toewijzen aan gebruikers.
 
-Voor algemene informatie over het toewijzen van werk aan gebruikers die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Zie voor algemene informatie over het toewijzen van werk aan gebruikers met behulp van Workload Balancer [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Toegangsvereisten
 
@@ -67,10 +67,10 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 * U kunt gebruikerstoewijzingen voor veelvoudige taken en kwesties over één of meerdere projecten snel beheren. Wijzigingen in toewijzingen zijn direct zichtbaar in Workload Balancer.
 * U kunt geen middelen aan het werkpunten toewijzen die, of aan punten worden voltooid die op een voltooid project zijn.
-* U kunt het volgende doen wanneer u gebruikers in bulk toewijst:
+* U kunt het volgende doen wanneer het toewijzen van gebruikers in bulk:
 
    * Wijs een gebruiker aan alle werkpunten toe die momenteel aan een baanrol worden toegewezen.
-   * Gebruikerstoewijzingen tussen gebruikers vervangen.
+   * Gebruikerstoewijzingen vervangen tussen gebruikers.
    * Wijs een gebruiker van al zijn het werkpunten weg.
 
 **VOORBEELDEN**
@@ -92,7 +92,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 1. (Voorwaardelijk) Als u de werklastbalans opent vanuit het brongebied of voor een team, vouwt u de **Project: Naam** vervolgkeuzemenu en gebruik de filteropties om het project of de projecten te selecteren waarvoor u toewijzingen wilt maken. U kunt projecten op Naam (dit is de standaardoptie) of door Status selecteren.
 
-Voor informatie over Workfront-filtermodifiers raadpleegt u [Filters en voorwaardelijke modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Zie voor informatie over Workfront-filtermodifiers [Filters en voorwaardelijke modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ Voor informatie over Workfront-filtermodifiers raadpleegt u [Filters en voorwaar
 
 1. (Optioneel) Klik op **Projecttaken selecteren** om de taak of taken te selecteren waarvoor u toewijzingen wilt maken, en vervolgens in het dialoogvenster **Taak: Naam** vervolgkeuzemenu, selecteert taken op Naam (dit is de standaardoptie) of Status en gebruikt de filteropties om naar specifieke taken te zoeken.
 
-Voor informatie over Workfront-filtermodifiers raadpleegt u [Filters en voorwaardelijke modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Zie voor informatie over Workfront-filtermodifiers [Filters en voorwaardelijke modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Voor informatie over Workfront-filtermodifiers raadpleegt u [Filters en voorwaar
 
    * [Gebruiker toewijzen](#assign-user)
    * [Gebruiker vervangen](#replace-user)
-   * [Gebruiker verwijderen](#unassign-user)
+   * [Gebruiker vrijgeven](#unassign-user)
 
    >[!TIP]
    >
@@ -157,9 +157,11 @@ Om een gebruiker aan werkpunten toe te wijzen die eerder aan baanrollen worden t
    * **Voorgestelde toewijzingen**: Gebruikers die de geselecteerde rol kunnen vervullen en die voldoen aan de criteria voor slimme toewijzingen. Zie voor meer informatie [Overzicht van slimme toewijzingen](../../manage-work/tasks/assign-tasks/smart-assignments.md).
    * **Overige toewijzingen**: Alle gebruikers in het systeem die de geselecteerde rol kunnen vervullen.
 
-      >[!TIP]
-      >
-      >Alleen de eerste 50 gebruikers worden vermeld in het gebied Overige toewijzingen.
+     >[!TIP]
+     >
+     >Alleen de eerste 50 gebruikers worden vermeld in het gebied Overige toewijzingen.
+
+
    Na het selecteren van een gebruiker, toont Workfront een nota over het aantal punten waar de gebruiker u specificeerde zal worden toegewezen en welke baanrol zij zullen vervangen.
 
    >[!TIP]
@@ -193,7 +195,7 @@ Een gebruiker vervangen door een andere gebruiker:
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. In de **Gebruiker die moet toewijzen** Klik op de vervolgkeuzepijl om een keuze te maken in een lijst met voorgestelde gebruikers of om een andere gebruikersnaam te typen. De gebruikers die in de lijst door gebrek worden vermeld passen de criteria voor Slimme Toewijzingen aan. Zie voor meer informatie [Overzicht van slimme toewijzingen](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In de **Gebruiker die moet toewijzen** Klik op de vervolgkeuzepijl om een keuze te maken in een lijst met voorgestelde gebruikers of om een andere gebruikersnaam te typen. Gebruikers die standaard in de lijst worden vermeld, komen overeen met de criteria voor slimme toewijzingen. Zie voor meer informatie [Overzicht van slimme toewijzingen](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront geeft een notitie weer over het aantal items waar de momenteel toegewezen gebruiker de tweede gebruiker vervangt en welke rollen deze zal vervangen.
 
@@ -205,7 +207,7 @@ Een gebruiker vervangen door een andere gebruiker:
 
    Je ontvangt een bevestiging over hoeveel tijdelijke objecten de oorspronkelijke gebruikerstoewijzing hebben vervangen door de geselecteerde tweede gebruiker.
 
-### Gebruiker verwijderen {#unassign-user}
+### Gebruiker vrijgeven {#unassign-user}
 
 U kunt een gebruiker van alle het werkpunten ongedaan maken die de gebruiker aan in de geselecteerde projecten wordt toegewezen.
 
