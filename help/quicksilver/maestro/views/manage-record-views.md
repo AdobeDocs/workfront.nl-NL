@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel- en
 | Rijen kopiëren uit een externe lijst en deze in een tabel plakken | ✓ |               |
 | Records in een tijdlijn weergeven |            | ✓ |
 | Filterrecords | ✓ | ✓ |
-| Groepsrecords |           | ✓ |
+| Groepsrecords | ✓ | ✓ |
 | Records sorteren | ✓ |              |
 | Kleurcoderecords |           | ✓ |
 | Kleurcodegroepen |           | ✓ |
-| Zoeken in records | ✓ | ✓ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| Specifieke records zoeken | ✓ | ✓ |
+| Weergave delen | ✓ | ✓ |
+| Open de pagina Details van de record vanuit de weergave | ✓ | ✓ |
 
 ## Weergaven maken of bewerken {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
    Standaard krijgt Maestro de naam van de weergave &quot;Tabel &lt; nummer >&quot; of &quot;Tijdlijn &lt; nummer >&quot;. Het getal is een automatisch gegenereerde toename.
 
 1. (Optioneel) Als u de naam van een weergave wilt wijzigen nadat deze is gemaakt, klikt u op de vervolgkeuzelijst Weergave en vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Naam wijzigen** om de weergavenaam bij te werken. <!--ensure there is not another saving step here?!-->
-1. (Optioneel) Raadpleeg de volgende artikelen voor meer informatie om een weergave te beheren:
+1. (Optioneel) Raadpleeg de volgende artikelen voor informatie over het beheren van een bepaald weergavetype:
 
    * [De tabelweergave beheren](../views/manage-the-table-view.md)
    * [De tijdlijnweergave beheren](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Weergaven verwijderen
 
@@ -202,6 +197,7 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
 Zie voor informatie over het delen van weergaven [Weergaven delen](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

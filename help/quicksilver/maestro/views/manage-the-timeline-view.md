@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
 >
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
+>Zie voor meer informatie [Overzicht van Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Maestro.
 
@@ -129,7 +129,12 @@ Een tijdlijnweergave beheren:
 
    ![](assets/timeline-view-example.png)
 
-   De records die zijn gekoppeld aan het geselecteerde recordtype, worden standaard als balken in een tijdlijn weergegeven en in chronologische volgorde gesorteerd.
+   De records die zijn gekoppeld aan het geselecteerde recordtype, worden standaard als balken in een tijdlijn weergegeven en gesorteerd in chronologische volgorde van hun begindatum.
+
+   >[!TIP]
+   >
+   >    Het sorteren van de records in de tijdlijn is niet zichtbaar in de compacte weergave.
+
 
 1. Voer een van de volgende handelingen uit om door de tijdlijn te navigeren:
 
@@ -165,8 +170,8 @@ Een tijdlijnweergave beheren:
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)
    * [Groepering](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [Instellingen](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Filters toevoegen
 

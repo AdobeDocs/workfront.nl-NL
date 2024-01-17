@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 0%
 
 ---
@@ -204,7 +204,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
       U kunt geen trefwoorden gebruiken die zijn gekoppeld aan velden die zijn verborgen in de tabelweergave.
 
-   1. Druk op Enter op het toetsenbord om naar het volgende gevonden veld te gaan.
+   1. Druk **Enter** op uw toetsenbord om naar het volgende gevonden veld te gaan.
 
    1. (Optioneel) Als er meer dan één overeenkomst is, klikt u op de pijl-omhoog of -omlaag rechts van het trefwoord Zoeken om alle overeenkomende items in de tabel te zoeken.
 
@@ -279,7 +279,7 @@ Een filter toevoegen aan een tabelweergave:
         </thead>
         <tbody>
         <tr>
-            <td>Enkele regel, alinea </td>
+            <td>Enkele regel, alinea, formule </td>
             <td><p>Bevat</p>
             <p>Bevat niet</p>
             <p>Is</p>
@@ -296,7 +296,7 @@ Een filter toevoegen aan een tabelweergave:
             <p>Is niet leeg</p></td>
         </tr>
         <tr>
-            <td>Meerdere selecties</td>
+            <td>Meerdere selecties, personen</td>
             <td><p>Heeft een van de</p>
             <p>Bevat alle</p>
             <p>Is exact</p>
@@ -305,7 +305,7 @@ Een filter toevoegen aan een tabelweergave:
             <p>Is niet leeg</p></td>
         </tr>
         <tr>
-            <td>Numeriek, percentage, valuta</td>
+            <td>Getal, percentage, valuta</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

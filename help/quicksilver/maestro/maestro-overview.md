@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,11 @@ Hieronder volgen enkele van de belangrijkste mogelijkheden van Maestro:
 * Pas uw workflows volledig aan, van het bepalen van welke objecttypen (of recordtypen) uw organisatie gebruikt om te configureren hoe deze objecten aan elkaar zijn gekoppeld.
 * Koppeling maken naar objecttypen van andere systemen en zo een samenhangend kader creëren voor al uw processen.
 
-## Functies die momenteel beschikbaar zijn in Maestro
+## Momenteel beschikbare Maestro-functies
 
 In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn in Maestro, en een tijdlijn voor de beschikbaarheid ervan. De lijst bevat niet alle functies.
+
+Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadpleegt u [Maestro-releaseactiviteit](/help/quicksilver/maestro/release-activity.md).
 
 | Functie | Nu beschikbaar | Binnenkort beschikbaar | Onderzoek |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Hier volgen de belangrijkste Maestro-objecten en -concepten:
 
 * **Gekoppelde velden** (of opzoekvelden): Nadat u de verbinding tussen twee recordtypen tot stand hebt gebracht en u afzonderlijke records aan elkaar koppelt, kunt u verwijzen naar de velden van de gekoppelde records in de record waarmee u verbinding maakt.
 
+  Als u bijvoorbeeld een Maestro-campagne aansluit op een Workfront-project, kunt u het veld Projecteigenaar van gekoppelde projecten weergeven in de Maestro-campagnebestanden.
+
   ![](assets/add-lookup-fields-modal.png)
 
   Zie de volgende artikelen voor informatie over het koppelen van recordtypen, records en gekoppelde velden:
@@ -268,7 +272,7 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 
 ## Maestro zoeken
 
-Zorg ervoor dat uw organisatie toegang tot Maestro heeft ontvangen en dat uw systeem of groepsbeheerder het gebied Maestro aan uw Hoofdmenu heeft toegevoegd.
+Zorg ervoor dat uw organisatie toegang tot Maestro heeft ontvangen en dat uw systeem of groepsbeheerder het gebied Maestro aan uw Hoofdmenu heeft toegevoegd. Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md) .
 
 Ga als volgt te werk om Maestro te vinden:
 

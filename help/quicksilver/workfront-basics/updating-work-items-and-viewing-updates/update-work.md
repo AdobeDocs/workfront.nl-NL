@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding aan de update te koppelen:
 
-   * <span class="preview">Sla de afbeelding op onze computer op en sleep deze naar het gebied Nieuwe opmerking.</span>
-     <span class="preview">Dit is niet beschikbaar in de productieomgeving voor de nieuwe opmerkingervaring. U kunt een afbeelding slepen en neerzetten in een opmerking in de oudere opmerkingervaring in Production. </span>
-
-   * <span class="preview">Kopieer een schermafbeelding van uw computer en plak deze in de opmerking </span>
+   * Sla de afbeelding op onze computer op en sleep deze naar het gebied Nieuwe opmerking.
+   * Kopieer een schermafbeelding van uw computer en plak deze vervolgens in de opmerking. Dit is niet beschikbaar in de oudere ervaring met opmerkingen.
    * Klik op de knop **Afbeelding toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en bladert u naar de afbeelding op uw computer.
 
 
@@ -392,7 +390,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen in het gedeelte Voorkeuren voor feeds bijwerken van het gebied Workfront Interface voordat u de pictogrammen Afbeelding of Bijlage toevoegen kunt zien. Zie voor meer informatie [Voorkeuren voor gebruikersupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* De maximale bestandsgrootte voor afbeeldingen is 7 MB. Ondersteunde bestandstypen zijn .jpg, .gif en .png.
    >* Afbeeldingen zijn toegankelijk vanuit de sectie Updates van een object en zijn ook beschikbaar in het gebied Documenten onder het hoofdmenu.
-   >* <span class="preview">U kunt de afbeelding plakken door met de rechtermuisknop in de nieuwe opmerking te klikken of door op CTRL + V voor Windows (of CMD + V voor Mac) op het toetsenbord te drukken.</span>
+   >* U kunt de afbeelding plakken door met de rechtermuisknop op de nieuwe opmerking te klikken of door op CTRL + V voor Windows (of  V voor Mac) te drukken op het toetsenbord.
    >* U kunt een update verzenden met een afbeelding en geen tekst.
    >* Wanneer u een opmerking verwijdert die een afbeelding bevat, zijn de volgende scenario&#39;s afhankelijk van de ervaring die u kiest:
    >
@@ -404,12 +402,10 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding weer te geven in de bestaande update:
 
-   * Klik op de knop **Voorvertoning** pictogram <span class="preview">![](assets/previewimageicon-31x31.png)</span> op de miniatuur van de afbeelding om de afbeelding op volledige grootte te openen in een nieuw browsertabblad.
+   * Klik op de knop **Voorvertoning** pictogram ![](assets/previewimageicon-31x31.png) op de miniatuur van de afbeelding om de afbeelding op volledige grootte te openen in een nieuw browsertabblad.
    * Klik op de knop **Downloaden** pictogram ![](assets/downloadimageicon.png) op de miniatuur van de afbeelding om de afbeelding te downloaden.
 
 1. Klikken **Verzenden** om uw opmerking toe te voegen.
-
-<div class="preview">
 
 ## Zoeken naar een update
 
@@ -422,7 +418,11 @@ U kunt een opmerking of antwoord zoeken in de sectie Updates van een object.
 1. Ga naar de **Updates** van een object.
 1. Een trefwoord beginnen te typen <!--or a user's name --> in de **Zoeken** in de rechterbovenhoek van het dialoogvenster **Opmerkingen** tab.
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   U kunt alleen zoeken naar woorden die bij de tekst van een opmerking of antwoord horen. U kunt niet zoeken naar namen van gebruikers of teams die in een update zijn getagd.
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ U kunt een opmerking of antwoord zoeken in de sectie Updates van een object.
    Workfront zoekt naar de volledige updatestream van het object, buiten de opmerkingen die op het scherm zichtbaar zijn.
 
 1. Klik op de knop **x** in het zoekveld om de zoekresultaten te wissen en terug te keren naar alle opmerkingen.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

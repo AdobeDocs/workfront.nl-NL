@@ -4,9 +4,9 @@ description: U kunt samenwerken aan Adobe Maestro-records door opmerkingen of an
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 U kunt samenwerken aan Adobe Maestro-records door opmerkingen of antwoorden toe te voegen in het gebied Opmerkingen van een record.
 
@@ -144,9 +144,9 @@ De laatst geopende werkruimte wordt standaard geopend.
    >
    >Opmerkingen van het lopende jaar worden niet in het datumstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
 
-1. <span class="preview">(Optioneel en voorwaardelijk) Als u naar een bestaande opmerking wilt zoeken, typt u een trefwoord in het zoekvak rechtsboven in het dialoogvenster **Opmerkingen** gebied.</span>
+1. (Optioneel en voorwaardelijk) Als u naar een bestaande opmerking wilt zoeken, typt u een trefwoord in het zoekvak rechtsboven in het dialoogvenster **Opmerkingen** gebied.
 
-   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
+   ![](assets/search-box-for-comments-area.png)
 
 1. (Optioneel) Klik op **Antwoord** of u begint een opmerking te typen in het dialoogvenster **Antwoord toevoegen...** om te reageren op een bestaande opmerking, volgt u stap 4-8 hierboven. <!--(**************accurate??***********)-->
 
