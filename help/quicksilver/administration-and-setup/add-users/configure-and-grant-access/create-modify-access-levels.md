@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Alleen bedrijven, groepen en teams weergeven waartoe ze behoren</td> 
-      <td>Staat gebruikers toe om punten slechts met bedrijven, groepen, en teams te bekijken en te delen zij tot behoren.</td> 
+      <td>Staat gebruikers toe om punten slechts met bedrijven, groepen, en teams te bekijken en te delen zij tot behoren.<p><strong>OPMERKING</strong>: Gebruikers met een licentie kunnen geen bedrijven weergeven waartoe ze niet behoren, zelfs niet als deze optie is geselecteerd.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zichtbaarheid van geplande uren of werkelijke uren nooit toestaan</td> 
