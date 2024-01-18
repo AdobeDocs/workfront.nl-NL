@@ -4,9 +4,9 @@ description: Overzicht eerste release 2024, kwartaal 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
+source-git-commit: 2a825387d0a17b459d3c1204ef57c09bae754452
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,11 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
+* [Verbeteringen voor borden](#boards-enhancements)
 * [Verbeteringen voor documentbeheer](#document-management-enhancements)
+* [Verbeteringen voor startpagina](#home-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
+* [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor stroom en meldingen bijwerken](#update-stream-and-notification-enhancements)
 
 ### Beheerdersverbeteringen
@@ -58,7 +61,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Besluiten over bewijzen/documenten die nu beschikbaar zijn voor de voorafgaande twaalf maanden</a></p><p>De gebruikersBesluiten rapporten voor zowel nieuwe als erfenislicentietypen tonen nu het aantal besluiten voor de huidige maand evenals de voorafgaande 12 maanden.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Besluiten over bewijzen/documenten die nu beschikbaar zijn voor de voorafgaande twaalf maanden</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>De gebruikersBesluiten rapporten voor zowel nieuwe als erfenislicentietypen tonen nu het aantal besluiten voor de huidige maand evenals de voorafgaande 12 maanden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -206,7 +209,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe widget voor goedkeuringen in behandeling beschikbaar</a></p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe widget voor goedkeuringen in behandeling beschikbaar</a></p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -225,7 +228,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen</a></p><p>Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Beheerdersbesturingselementen voor nieuwe startpagina met lay-outsjablonen</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjablonen gebruiken. Tot de aanpassingsopties behoren het selecteren van verplichte widgets en hun positie, het kiezen van een achtergrond en widgetspecifieke opties voor het kiezen van beschikbare filters en groepen (en het instellen van standaardwaarden).</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -382,7 +385,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Afbeelding slepen en neerzetten in een opmerking in de sectie Updates</a></p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Afbeelding slepen en neerzetten in een opmerking in de sectie Updates</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -415,7 +418,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Een opmerking of gebruiker zoeken in de sectie Updates</a></p><p>Als u snel informatie wilt zoeken in de sectie Updates van een object, kunt u nu naar een trefwoord zoeken vanuit een opmerking of naar een gebruiker die aan een opmerking is gekoppeld.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Een opmerking of gebruiker zoeken in de sectie Updates</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Als u snel informatie wilt zoeken in de sectie Updates van een object, kunt u nu naar een trefwoord zoeken vanuit een opmerking of naar een gebruiker die aan een opmerking is gekoppeld.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -433,7 +436,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Een afbeelding kopiëren en plakken in een opmerking in de sectie Updates</a></p><p>Om context aan de inhoud van een bericht te verstrekken, kunt u beelden aan uw commentaren nu snel vastmaken door hen van uw computer te kopiëren en hen in een nieuwe update of een antwoord te kleven.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Een afbeelding kopiëren en plakken in een opmerking in de sectie Updates</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om context aan de inhoud van een bericht te verstrekken, kunt u beelden aan uw commentaren nu snel vastmaken door hen van uw computer te kopiëren en hen in een nieuwe update of een antwoord te kleven.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
