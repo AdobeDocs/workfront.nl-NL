@@ -4,10 +4,11 @@ description: 22.1 Verbeteringen voor beheerders
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.1 raadpleegt u [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Documentdownloads zijn aangemeld in het gebied Updates
 
@@ -34,9 +35,9 @@ Om uw gebruikers te helpen het downloaden van documenten volgen die zij in Workf
 >
 >We raden u aan deze functie te testen in Voorvertoning op een nieuw geüpload document.
 
-Ga voor informatie over hoe Workfront automatische updates van objecten registreert [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Ga voor meer informatie over hoe Workfront automatische updates van objecten registreert [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-## Toegang verlenen aan teams die toegangsniveaus gebruiken
+## Toegang verlenen aan teams die gebruikmaken van toegangsniveaus
 
 Een nieuwe sectie in het gebied van de Niveaus van de Toegang geeft u meer korrelige controles voor het beheren van de toegang van uw gebruikers tot teams. Nu kunt u bepalen wie teams kan maken, bewerken en weergeven.
 
@@ -131,7 +132,7 @@ Eerder moest u meldingen een voor een ontgrendelen en opnieuw vergrendelen. Work
 
 Zie voor meer informatie [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-## Voor groepsbeheerders: Eenvoudiger een vervangingsgroep te selecteren wanneer u een groep verwijdert
+## Voor groepsbeheerders: eenvoudiger om een vervangingsgroep te selecteren wanneer u een groep verwijdert
 
 Wanneer u een groep verwijdert, kunt u met twee verbeteringen in het vak Groep verwijderen de vervangingsgroep selecteren die u wilt behouden voor de gebruikers, werkitems en subgroepen van de verwijderde groep:
 

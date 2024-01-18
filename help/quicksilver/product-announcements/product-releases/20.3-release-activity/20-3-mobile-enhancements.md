@@ -2,20 +2,21 @@
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Integratie en mobiele verbeteringen
-description: Deze pagina beschrijft alle integratie en mobiele verbeteringen die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+description: Deze pagina beschrijft alle integratie en mobiele verbeteringen die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f9f7dad59a107daea5eae1da4b3f59230da8df88
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # 20.3 Integratie en mobiele verbeteringen
 
-Deze pagina beschrijft alle integratie en mobiele verbeteringen die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+Deze pagina beschrijft alle integratie en mobiele verbeteringen die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
 Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
@@ -51,5 +52,5 @@ Opdrachten vastzetten
 
 U kunt de speldfunctie gebruiken om toegang te krijgen tot opgeslagen opdrachten van de virtuele assistent en tot punten vanuit uw webbrowser.
 
-Voor meer informatie over beide functies raadpleegt u [Virtuele assistent voor Adobe Workfront Mobile-app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+Zie voor meer informatie over deze functies [Virtuele assistent voor Adobe Workfront Mobile-app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 

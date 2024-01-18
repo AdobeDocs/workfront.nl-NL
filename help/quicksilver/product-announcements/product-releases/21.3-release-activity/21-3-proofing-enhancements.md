@@ -3,20 +3,21 @@ title: 21.3 Verbeterde proefdrukken
 description: 21.3 Verbeterde proefdrukken
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalogr
 exl-id: cad1ebc1-0477-4a05-a8c0-6cdfacbdc976
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 # 21.3 Verbeterde proefdrukken
 
-Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de versie 21.3 in de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
+Op deze pagina vindt u een beschrijving van alle verbeteringen die u hebt aangebracht in de versie 21.3 voor de voorbeeldomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.3 raadpleegt u [21.3 Overzicht van de release](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.3 [21.3 Overzicht van de release](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Mogelijkheid verwijderen om een nieuw document of een proefversie te maken in een gekoppelde map
 

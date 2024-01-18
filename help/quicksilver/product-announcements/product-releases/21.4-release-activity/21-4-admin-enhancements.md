@@ -4,10 +4,11 @@ description: 21.4 Verbeteringen voor beheerders
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -18,15 +19,15 @@ Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebrach
 
 Voor een lijst van alle veranderingen beschikbaar met versie 21.4, zie [21.4 Overzicht van de release](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## Voor beheerders: Zie welke groepen aan een goedkeuringsproces worden geassocieerd
+## Voor beheerders: zie welke groepen aan een goedkeuringsproces worden geassocieerd
 
 Om u te helpen te weten komen welke groepen met de goedkeuringsprocessen in uw systeem worden geassocieerd, hebben wij een kolom van de Naam van de Groep aan de Standaardmening op de pagina van Goedkeuringen in Opstelling toegevoegd. Nu kunt u deze gegevens weergeven zonder dat u een aangepaste weergave hoeft te maken.
 
 Voor informatie over goedkeuringsprocessen raadpleegt u [Overzicht van goedkeuringsproces](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-Voor informatie over het beheren van de processen van de groepsgoedkeuring, zie [Goedkeuringsprocessen op groepsniveau](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Voor informatie over het beheren van groepsgoedkeuringsprocessen raadpleegt u [Goedkeuringsprocessen op groepsniveau](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
-## Nieuw voor beheerders: De groepen kunnen hun eigen timesheet en uurvoorkeur vormen
+## Nieuw voor beheerders: de groepen kunnen hun eigen timesheet en uurvoorkeur vormen
 
 >[!NOTE]
 >
@@ -40,11 +41,11 @@ Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoo
 
 Voor informatie over hoe een groepsbeheerder ontgrendelde taken en voorkeuren voor de afgifte van een groep configureert, raadpleegt u [Voorkeuren voor tijdschriften en uren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-## Nieuw voor Workfront-beheerders: Layoutsjablonen configureren voor gebruikers met automatische provisioning in de nieuwe Workfront-ervaring
+## Nieuw voor Workfront-beheerders: lay-outsjablonen configureren voor gebruikers met automatische provisioning in de nieuwe Workfront-ervaring
 
 Nu kunt u lay-outmalplaatjes in de nieuwe ervaring van Workfront voor auto-provisioned gebruikers vormen. In het vervolgkeuzemenu Workfront-gebruikerskenmerken waarin u gebruikerskenmerken toewijst (Setup > Systeem > Single Sign-On), is een nieuw menu-item &quot;NWE Layout Template&quot; nu beschikbaar voor het maken van deze configuratie. Eerder, kon u lay-outmalplaatjes voor auto-provisioned gebruikers slechts in Workfront Klassiek vormen.
 
-Voor instructies over het toewijzen van gebruikerskenmerken raadpleegt u [Kenmerken van gebruikers toewijzen en nieuwe gebruikers automatisch instellen](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Zie voor instructies over het toewijzen van gebruikerskenmerken [Kenmerken van gebruikers toewijzen en nieuwe gebruikers automatisch instellen](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## In het nieuwe veld worden de groepen weergegeven waartoe uw gebruikers behoren
 
@@ -70,7 +71,7 @@ Merk op dat het gebruiken van deze voorkeur niet de projecten maakt die van het 
 
 Zie voor meer informatie [Een blauwdruk configureren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-## Nieuw voor groepsbeheerders: Onlangs verwijderde en herstelde items van een groep weergeven en beheren
+## Nieuw voor groepsbeheerders: onlangs verwijderde en herstelde items van een groep weergeven en beheren
 
 >[!NOTE]
 >
@@ -80,7 +81,7 @@ We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op
 
 Zie voor meer informatie [Onlangs verwijderde items van een groep weergeven en beheren](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) en [Onlangs herstelde items van een groep weergeven en beheren](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
-## Nieuw voor groepsbeheerders: Groepsvoorkeuren zijn nu van invloed op groepssjablonen
+## Nieuw voor groepsbeheerders: groepsvoorkeuren zijn nu van invloed op groepssjablonen
 
 Het is nu gemakkelijker om ervoor te zorgen dat de projectmalplaatjes van uw groep aan de behoeften van uw groep voldoen. Wanneer u een nieuw projectmalplaatje aan een groep op het tijdstip toewijst dat u het creeert, erft het malplaatje de volgende montages van het project en de taakvoorkeur van de groep:
 
@@ -103,33 +104,33 @@ Als u een malplaatje of malplaatjetaak zonder een groep-voor voorbeeld, van de b
 
 Voor meer informatie, zie de sectie hoe de voorkeur op malplaatjes en malplaatjetaken in het artikel van toepassing is [De projectsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Nieuw voor beheerders: Controleren welke aangepaste formulieren een aangepast veld gebruiken
+## Nieuw voor beheerders: zoek op welke aangepaste formulieren een aangepast veld gebruiken
 
 Het is nu eenvoudiger om een aangepast veld te wijzigen in een aangepast formulier. Met één klik in het aangepaste formulier kunt u meer informatie vinden over andere aangepaste formulieren die ook het veld gebruiken. Het is belangrijk om te beoordelen of die formulieren aanpassingen nodig hebben om correct te blijven werken nadat u de wijziging hebt aangebracht.
 
 Zie voor meer informatie [Alle aangepaste formulieren weergeven die een bepaald aangepast veld of een bepaalde aangepaste widget gebruiken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
-## Nieuw voor groepsbeheerders: Projecten, taken en uitgaven voor een groep vergrendelen en ontgrendelen
+## Nieuw voor groepsbeheerders: Project, taak en uitgiftevoorkeuren voor een groep vergrendelen en ontgrendelen
 
 Nu kunt u ervoor zorgen dat iedereen in de subgroepen onder uw groep dezelfde voorkeursinstellingen gebruikt, of u kunt deze gebruikers toestaan een voorkeursinstelling te configureren voor hun unieke workflows.
 
 * Nadat een beheerder van Workfront een voorkeur op systeemniveau ontgrendelt, kunt u het voor alle subgroepen onder uw groep vormen en dan sluiten. Hoewel u de vergrendelde voorkeur nog steeds kunt aanpassen, kunnen beheerders van lagere subgroepen dit niet doen voor hun groepen.
 
-   Omgekeerd kunt u een voorkeur voor uw groep ontgrendelen. Dit staat subgroepbeheerders toe om het voor hun unieke project, taak, of de behoeften van het probleemwerkschema te vormen.
+  Omgekeerd kunt u een voorkeur voor uw groep ontgrendelen. Dit staat subgroepbeheerders toe om het voor hun unieke project, taak, of de behoeften van het probleemwerkschema te vormen.
 
-   Zie voor meer informatie [Een project, taak of uitgiftevoorkeur voor subgroepen vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Zie voor meer informatie [Een project, taak of uitgave van subgroepen vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Als u een Workfront-beheerder bent, hoeft u niet naar het gebied Groepen te gaan om de voorkeuren van een subgroep te configureren. In het gedeelte met voorkeuren voor het hoofdproject, de voorkeuren voor Taken en problemen of Tijdschema&#39;s en Uren kunt u het zoekvak boven aan de pagina gebruiken om de subgroep te zoeken en de voorkeuren te configureren.
 
-   Zie voor meer informatie [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Zie voor meer informatie [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-## Nieuw voor groepsbeheerders: Sjablonen maken en bewerken in het gebied Groepen
+## Nieuw voor groepsbeheerders: sjablonen maken en bewerken in het gebied Groepen
 
 >[!NOTE]
 >
 >Deze functie is alleen beschikbaar in de nieuwe Workfront-ervaring.
 
-We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op één locatie te beheren. Nu kunt u met de malplaatjes van een groep van het gebied van Groepen in Opstelling bekijken en werken. Hierdoor hoeft u niet naar het gebied Sjablonen te gaan om de sjablonen van een groep te beheren. En het houdt de lijst van groepsmalplaatjes u aan werkt gescheiden van andere door het systeem.
+We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op één locatie te beheren. Nu kunt u met de malplaatjes van een groep van het gebied van Groepen in Opstelling bekijken en werken. Hierdoor hoeft u niet naar het gebied Sjablonen te gaan om de sjablonen van een groep te beheren. En het houdt de lijst van groepsmalplaatjes u aan werkt gescheiden van de anderen door het systeem.
 
 Zie voor meer informatie [De projectsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
@@ -139,7 +140,7 @@ Zie voor meer informatie [De projectsjablonen van een groep maken en wijzigen](.
 >
 >Deze functie is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring.
 
-Het is nu gemakkelijker om informatie in de sectie van Details voor een voorwerp te verstrekken: Typ en sla de gegevens op in één aangepast veld of in één uitbreidbaar gebied (zoals Overzicht en Financiën), zelfs als de vereiste velden in andere aangepaste formulieren op het object nog niet zijn ingevuld.
+Het is nu gemakkelijker om informatie in de sectie Details voor een voorwerp te verstrekken: Type en sparen informatie in één enkel douanegebied of uitbreidbaar gebied (zoals Overzicht en Financiën), zelfs als de vereiste gebieden in andere douaneformulieren op het voorwerp nog niet worden ingevuld.
 
 Eerder, toen u informatie in één douaneformulier of uitbreidbaar gebied voor een voorwerp inging, gingen alle douaneformulieren in bijlage aan het voorwerp op bewerkingswijze en al hun vereiste gebieden moesten worden voltooid alvorens u uw veranderingen kon bewaren. Dit was een probleem als u een vereist veld niet kon voltooien omdat het voor een andere gebruiker was bedoeld.
 
@@ -163,7 +164,7 @@ Eerder was deze functionaliteit alleen beschikbaar voor groepen op hoofdniveau.
 
 Zie voor meer informatie [Groepsstatussen beheren](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-## Nieuw voor Workfront-beheerders: Migreren van lay-outsjablonen van Workfront Classic naar de nieuwe Workfront-ervaring op uw eigen computer
+## Nieuw voor Workfront-beheerders: Migreer lay-outsjablonen van Workfront Classic naar uw nieuwe Workfront-ervaring
 
 >[!NOTE]
 >

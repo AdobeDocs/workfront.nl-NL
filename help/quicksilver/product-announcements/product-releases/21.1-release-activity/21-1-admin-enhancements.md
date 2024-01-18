@@ -6,10 +6,11 @@ title: 21.1 Beheerderverbeteringen
 description: Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 raadpleegt u [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Introduceer nieuwe het Niveau van de Toegang plaatsen voor het kopiëren van projecten
 
@@ -62,7 +63,7 @@ Adobe Workfront-beheerders kunnen groepsbeheerders nu meer autonomie geven door 
 
 Zie voor meer informatie [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van beheerders in de nieuwe Workfront-ervaring, deel 2: Projectinstelling](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) leerpad op Workfront One.
+Deze functie is nu opgenomen in het dialoogvenster [De Grondbeginselen van de beheerder in de nieuwe ervaring van Workfront, Deel 2: De Opstelling van het Project](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) leerpad op Workfront One.
 
 ## Instellingen voor toegangsniveaus voor portfolio&#39;s en programma&#39;s afzonderlijk configureren
 
@@ -134,11 +135,11 @@ Als u een Beheerder van de Groep bent, is het gemakkelijk om met de projecten en
 
 * Klik Projecten in het linkermenu om de projecten van de groep te zien en nieuwe degenen voor de groep tot stand te brengen. Als een geselecteerd project met u is gedeeld, kunt u de knopen in de toolbar gebruiken om het uit te geven, uit te voeren, te kopiëren, of te schrappen.
 
-   Zie voor meer informatie [Projecten van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  Zie voor meer informatie [Projecten van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Klik op Goedkeuringen in het linkermenu om alle goedkeuringsprocessen voor de groep weer te geven en te beheren.
 
-   Zie voor meer informatie [Goedkeuringsprocessen op groepsniveau](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+  Zie voor meer informatie [Goedkeuringsprocessen op groepsniveau](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 Deze functionaliteit is ook beschikbaar voor Workfront-beheerders.
 

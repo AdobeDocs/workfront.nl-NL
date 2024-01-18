@@ -4,10 +4,11 @@ description: 20.4 Verbeteringen op het gebied van mobiele en integratie
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -54,11 +55,11 @@ Zie voor meer informatie
 
 ## Hulp bij de opdrachten van de virtuele assistent van Workfront Mobile
 
-In de mobiele app kunt u de virtuele assistent vragen u te helpen met opdrachten door te zeggen:
+In de mobiele app kunt u de virtuele assistent vragen om u te helpen met opdrachten door het volgende te zeggen:
 
-* &quot;Wat kan ik doen?&quot;
+* Wat kan ik doen?
 * &quot;Help me met opdrachten.&quot;
 
 Deze bevelen tonen een lijst van de verschillende dingen u de medewerker kunt vragen over.
 
-Voor een lijst met bestaande opdrachten raadpleegt u [Virtuele assistent voor Adobe Workfront Mobile-app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+Zie voor een lijst met bestaande opdrachten [Virtuele assistent voor Adobe Workfront Mobile-app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

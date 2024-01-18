@@ -6,38 +6,39 @@ title: 21.2 Beheerdersverbeteringen
 description: Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
 
 # 21.2 Beheerdersverbeteringen
 
-Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Voor beheerders: Bekijk de gegevens in het auditlogboek over veel meer gebieden in Workfront
+## Voor beheerders: bekijk de informatie van het Logboek van de Controle over vele meer gebieden in Workfront
 
 In het gebied Auditlogboeken, kunt u veranderingen in meer gebieden door Workfront nu volgen en problemen oplossen. Het systeem genereert nu auditlogitems wanneer een gebruiker een van de volgende handelingen uitvoert:
 
 * Hiermee maakt, wijzigt, verwijdert of deelt u een aangepast formulier
-* Hiermee maakt, wijzigt, verwijdert of deelt u een aangepast veld
-* Hiermee maakt, wijzigt of verwijdert u een aangepaste sectie
+* Maakt, wijzigt, verwijdert of deelt een aangepast veld
+* Maakt, wijzigt of verwijdert een aangepaste sectie
 * Maakt, wijzigt of verwijdert een wisselkoers
 * Hiermee wordt een taakrol gemaakt, gewijzigd of verwijderd
 * Hiermee maakt, wijzigt of verwijdert u een prioriteit
-* Hiermee maakt, wijzigt of verwijdert u een ernst
-* Hiermee wordt een voorwaarde gemaakt, gewijzigd of verwijderd
+* Maakt, wijzigt of verwijdert een ernst
+* Maakt, wijzigt of verwijdert een voorwaarde
 * Hiermee wijzigt u een projectvoorkeur of maakt of verwijdert u een aangepast kwartaal
 * Een taak wijzigen en een voorkeur voor een uitgave opgeven
 
 Zie voor meer informatie [Controlelogboeken](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Admin Fundamentals voor de nieuwe ervaring van Workfront, Deel 2: Projectinstelling](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) leerpad op Workfront One.
+Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van het beheer voor de nieuwe ervaring van Workfront, Deel 2: de Opstelling van het Project](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) leerpad op Workfront One.
 
-## Voor groepsbeheerders: Verbeterde besturingselementen voor het verplaatsen van subgroepen en een bijgewerkte werkbalk
+## Voor groepsbeheerders: verbeterde besturingselementen voor het verplaatsen van subgroepen en een bijgewerkte werkbalk
 
 >[!NOTE]
 >
@@ -47,7 +48,7 @@ We hebben de volgende verbeteringen aangebracht in het gebied Subgroepen in Setu
 
 * Om u een snelle manier te geven om de groepen te reorganiseren u beheert, hebben wij een &quot;Add subgroups&quot;toolbarknoop toegevoegd die u toestaat om nieuwe subgroepen tot stand te brengen en bestaande te bewegen.
 
-   Zie voor meer informatie [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Zie voor meer informatie [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 * De werkbalk in het gebied Subgroepen zorgt er nu voor dat lijsten consistent zijn met andere gemoderniseerde lijsten in de nieuwe Workfront-ervaring. Als u groepen selecteert, vertegenwoordigen pictogrammen de beschikbare functies op de werkbalk.
 
@@ -61,7 +62,7 @@ De labels voor de twee keuzerondjes zijn opgesplitst, zodat ze niet zo lang zijn
 
 Voor informatie over de voorkeur Timesheets &amp; van Uren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## Voor groepsbeheerders: Verbeteringen weergeven in het gebied Groepen
+## Voor groepsbeheerders: lijstverbeteringen in het gebied Groepen
 
 >[!NOTE]
 >
@@ -76,7 +77,7 @@ Voor informatie over de gemoderniseerde lijsten in Workfront raadpleegt u [De we
 
 Voor informatie over het gebied Groepen raadpleegt u [Groepen beheren](../../../administration-and-setup/manage-groups/manage-groups.md).
 
-## Voor groepsbeheerders: Programma&#39;s maken en bewerken vanuit het gebied Groepen in Setup
+## Voor groepsbeheerders: programma&#39;s maken en bewerken vanuit het gebied Groepen in Instellen
 
 >[!NOTE]
 >
@@ -86,7 +87,7 @@ We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op
 
 Zie voor meer informatie [De programma&#39;s van een groep maken, wijzigen en weergeven](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
-## Voor beheerders: Vernieuwde koppen in het gedeelte Setup
+## Voor beheerders: vernieuwde kopteksten in het gedeelte Instellen
 
 >[!NOTE]
 >
@@ -98,11 +99,11 @@ Om beheerders in het gebied van de Opstelling beter te oriënteren en consistent
 * Hiërarchiegegevens boven de naam van elke subpagina (bijvoorbeeld op de pagina voor één groep)
 * Moderne lettertypestijlen en -grootten
 
-   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 Voor meer informatie over het gebied van de Opstelling, zie [Beheer en installatie](../../../administration-and-setup/administration-and-setup.md).
 
-## Voor groepsbeheerders: Meer groepsobjecten van de pagina Groepen weergeven en beheren
+## Voor groepsbeheerders: meer groepsobjecten weergeven en beheren op de pagina Groepen
 
 >[!NOTE]
 >
@@ -116,9 +117,9 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [Projecten van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
 * [De teams van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
 
-## Nieuw voor groepsbeheerders: Taakbladprofielen voor groepen toewijzen
+## Nieuw voor groepsbeheerders: Tijdpaginaprofielen voor groepen toewijzen
 
-Nu is het gemakkelijker om timesheet-profielen te beheren voor een groep die u beheert. U kunt niet alleen timesheet-profielen maken, u kunt deze toewijzen aan uw groepen of aan individuele leden van uw groepen. Dit geldt ook als de optie Timesheets &amp; hours niet is ingeschakeld in uw toegangsniveau.
+Nu is het gemakkelijker om timesheet profielen voor een groep te beheren u beheert. U kunt niet alleen timesheet-profielen maken, u kunt deze toewijzen aan uw groepen of aan individuele leden van uw groepen. Dit geldt ook als de optie Timesheets &amp; hours niet is ingeschakeld in uw toegangsniveau.
 
 Tot nu toe was het inschakelen van de optie Timesheets en uren vereist om de tijdbladprofielen toe te wijzen. Maar dit zou niet ideaal voor elke groepsbeheerder kunnen zijn omdat het mening verleent en toegang tot alle timesheet en ureninformatie in het systeem uitgeeft. Als u dit toegangsniveau niet nodig hebt, kunt u nu tijdbladprofielen voor uw groepen beheren.
 
@@ -126,7 +127,7 @@ Zie voor meer informatie [Werkbladprofielen maken, bewerken en toewijzen](../../
 
 Voor informatie over de optie Timesheets &amp; hours in een toegangsniveau raadpleegt u [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-## Voor beheerders: Stel de filters, weergave en groepering in die gebruikers in objectlijsten zien
+## Voor beheerders: stel de filters, weergave en groepering in die gebruikers in objectlijsten zien
 
 Met een lay-outsjabloon in de nieuwe Workfront-ervaring kunt u nu de standaardfilters, -weergave en -groepering instellen die gebruikers in objectlijsten in Workfront zien.
 
@@ -138,7 +139,7 @@ Zie voor meer informatie [Filters, weergaven en groepen aanpassen met een lay-ou
 
 Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van beheerders in de nieuwe Workfront-ervaring, deel 3: Controle- en interfaceervaring](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) leerpad op Workfront One.
 
-## Nieuw voor beheerders: Maak een lijst met de rapporten die momenteel een aangepast veld gebruiken
+## Nieuw voor beheerders: maak een lijst met de rapporten die momenteel een aangepast veld gebruiken
 
 >[!NOTE]
 >
@@ -152,7 +153,7 @@ Eerder, zonder deze kolom, moest u manueel een rapport creëren gebruikend tekst
 
 Voor meer informatie, [Alle rapporten weergeven die een bepaald aangepast veld of een bepaalde widget gebruiken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 
-## Voor groepsbeheerders: Een groep en de bijbehorende objecten op één plaats weergeven en beheren
+## Voor groepsbeheerders: een groep en de bijbehorende objecten op één plaats weergeven en beheren
 
 >[!NOTE]
 >
@@ -169,7 +170,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [De profielen van een groep maken en beheren](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [Subgroepleden weergeven en beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 
-## Nieuw voor beheerders: Meer tekstopmaakopties beschikbaar in aangepaste formuliervelden
+## Nieuw voor beheerders: meer tekstopmaakopties beschikbaar in aangepaste formuliervelden
 
 Wanneer gebruikers in aangepaste formuliervelden typen die opmaak toestaan, kunnen ze de tekst nu ordenen met opsommingstekens, nummering, hyperlinks en blokaanhalingstekens, naast vet, cursief en onderstrepen.
 

@@ -3,18 +3,19 @@ title: 2.1 Verbeterde proefdrukken
 description: 2.1 Verbeterde proefdrukken
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # 2.1 Verbeterde proefdrukken
 
-Op deze pagina vindt u een beschrijving van alle verbeteringen die u hebt aangebracht in de versie 22.1 voor de voorbeeldomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving
+Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 22.1 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,18 +25,17 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.1 raadpleegt u [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbeterde mogelijkheden voor proefdrukken voor revisoren en aanvragers
 
 >[!NOTE]
 >
->Uitgegeven aan EMEA-klanten met geïntegreerde proefdrukken die vóór 6 juli 2021 zijn gemaakt. Deze functionaliteit komt voor Voorproef in een gefaseerde implementatie die 13 Januari en 17 beëindigt voor de volgende klanten: >
+>Uitgegeven aan EMEA-klanten met geïntegreerde proefdrukken die vóór 6 juli 2021 zijn gemaakt. Deze functionaliteit komt voor Voorvertoning in een gefaseerde uitrol die begint op 13 januari en eindigt op 17 januari voor de volgende klanten: >
 >* EMEA-klanten met zowel geïntegreerde als standalone proefdrukken
 >* EMEA-klanten met geïntegreerde proefdrukken gemaakt na 6 juli 2021
 >* Alle Amerikaanse klanten
 >
-
 
 Voor een meer geïntegreerde ervaring tussen Workfront en Proof hebben we verschillende verbeteringen aangebracht op het gebied van mogelijkheden voor het testen van bestanden voor revisoren en aanvragers:
 
@@ -56,7 +56,7 @@ We hebben het voor gebruikers eenvoudiger gemaakt om proefdrukken elektronisch t
 
 >[!IMPORTANT]
 >
->Als u een proefdruk elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. Voor meer informatie over het toelaten van SSO, zie [Single Sign On configureren voor Workfront Proof-gebruikers](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Als u een proefdruk elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. Voor meer informatie over het toelaten van SSO, zie [Single Sign-On configureren voor Workfront Proof-gebruikers](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
 Eerder moesten gebruikers Workfront Proof-gegevens gebruiken. Deze zijn anders dan hun Workfront-gegevens.
 

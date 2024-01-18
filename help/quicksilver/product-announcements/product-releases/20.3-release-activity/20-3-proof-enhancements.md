@@ -2,20 +2,21 @@
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Verbeterde proefdrukken
-description: Op deze pagina vindt u een overzicht van alle verbeteringen die zijn aangebracht in de versie 20.3 in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+description: Op deze pagina vindt u een overzicht van alle verbeteringen die zijn aangebracht in de versie 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
 # 20.3 Verbeterde proefdrukken
 
-Op deze pagina vindt u een overzicht van alle verbeteringen die zijn aangebracht in de versie 20.3 in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+Op deze pagina vindt u een overzicht van alle verbeteringen die zijn aangebracht in de versie 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
 Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 

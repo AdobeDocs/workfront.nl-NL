@@ -4,10 +4,11 @@ description: 22.2 Beheerdersverbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-de week van 4 april 2022. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 raadpleegt u [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+4 april 2022. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Een aangepast formulier configureren om met meerdere objecttypen te werken
 
@@ -37,10 +38,9 @@ Zie de sectie voor meer informatie [Een aangepast formulier maken](../../../admi
 >[!NOTE]
 >
 >* Op het moment dat deze functie voor het eerst in de voorbeeldweergave werd geïntroduceerd, konden we tijdelijk geen aangepast formulier voor meerdere objecten kopiëren. Die mogelijkheid werd op 24 maart ingeschakeld. Voor informatie over het kopiëren van een aangepast formulier raadpleegt u [Een aangepast formulier kopiëren om een nieuw formulier te maken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* In een berekend aangepast veld zijn sommige velden waarnaar u verwijst mogelijk niet compatibel met objecttypen die zijn geconfigureerd voor het formulier. Onze oplossing is een jokerkaart waarmee de berekening verschillende waarden kan uitvoeren, afhankelijk van het object waaraan het formulier is gekoppeld. Op 24 maart hebben we de jodenkaart toegevoegd. Zie de sectie voor meer informatie over het gebruik ervan. [Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) in het artikel [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>* In een berekend aangepast veld zijn sommige velden waarnaar u verwijst mogelijk niet compatibel met objecttypen die zijn geconfigureerd voor het formulier. Onze oplossing is een jokerkaart waarmee de berekening verschillende waarden kan uitvoeren, afhankelijk van het object waaraan het formulier is gekoppeld. Op 24 maart hebben we de wilde kaart toegevoegd. Zie de sectie voor meer informatie over het gebruik ervan. [Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) in het artikel [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 >* Voor sectie-einden in aangepaste formulieren hebben we een set algemene weergave- en bewerkingsmachtigingen gemaakt die werken voor alle objecttypen die u kunt configureren voor een formulier. In één scenario, ontdekten wij dat één van deze toestemmingen, Beperkte Edit, fouten op een vorm kon veroorzaken. Dit werd vastgesteld op 24 maart. Zie voor meer informatie over sectie-einden [Een sectie-einde toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
-
 
 ## De blauwdrukcatalogus is beschikbaar voor alle gebruikers en beheerders kunnen aanvragen toestaan
 
@@ -58,7 +58,7 @@ Eerder waren aangepaste formulieren volledig gebaseerd op tekst.
 
 >[!NOTE]
 >
->In de nieuwe Adobe Workfront zijn gebieden zichtbaar die nog niet zijn gemoderniseerd, zoals het vak dat wordt weergegeven wanneer u items in bulk bewerkt, worden aangepaste formulierafbeeldingen niet weergegeven. Ze worden weergegeven als we deze gebieden blijven bijwerken.
+>In de nieuwe Adobe Workfront zijn gebieden zichtbaar die nog niet zijn gemoderniseerd, zoals het vak dat wordt weergegeven wanneer u items in bulk bewerkt, worden aangepaste formulierafbeeldingen niet weergegeven. Ze zullen worden weergegeven wanneer we deze gebieden blijven bijwerken.
 
 Zie voor meer informatie [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
@@ -97,7 +97,7 @@ Eerder was het niet mogelijk om een groep te deactiveren.
 
 Zie voor meer informatie [Een groep deactiveren of opnieuw activeren](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
-## Verbeteringen in de historie van blauwdrukken
+## Verbeteringen in de historie van de blauwdrukinstallatie
 
 Wanneer u een blauwdruk installeert, toont een bericht nu de specifieke voorwerpen (zoals rollen, teams, of groepen) die met succes met de blauwdruk en om het even welke voorwerpen werden geïnstalleerd die om niet konden installeren. U kunt ook de lijst met geïnstalleerde objecten weergeven op de pagina Vervagingsdetails door op Details weergeven te klikken naast een specifieke installatie in de tabel met installatiegeschiedenis.
 

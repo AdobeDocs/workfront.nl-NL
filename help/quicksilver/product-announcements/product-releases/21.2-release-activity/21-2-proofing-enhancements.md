@@ -5,18 +5,19 @@ navigation-topic: 2021-2-release-activity
 title: 21.2 Verbeterde proefdrukken
 description: Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # 21.2 Verbeterde proefdrukken
 
-Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Beslissing van het bewijs is nu zichtbaar in de lijst Documenten
 
@@ -44,7 +45,7 @@ Voor informatie over bruikbare proefdrukken hebben we de volgende velden toegevo
 
 Deze gebieden maken geen deel uit van het standaardrapport. U moet ze toevoegen als u ze wilt zien.
 
-Deze functie is nu opgenomen in het dialoogvenster [Proefsysteeminstellingen, deel 2: Workflowbeheer](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) leerpad op Workfront One.
+Deze functie is nu opgenomen in het dialoogvenster [Proefsysteeminstellingen, Deel 2: Workflowbeheer](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) leerpad op Workfront One.
 
 ## De bestaande proefdrukworkflow overnemen bij het genereren van een nieuwe versie
 
