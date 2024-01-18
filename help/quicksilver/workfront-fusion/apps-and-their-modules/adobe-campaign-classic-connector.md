@@ -9,9 +9,9 @@ description: Met de [!DNL Adobe Campaign Classic] modules, kunt u beginnen [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,9 +61,62 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Verbinden [!DNL Adobe Campaign Classic] tot [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>We raden u ten zeerste aan een server-naar-server verbinding te maken. Adobe Campaign heeft hun API bijgewerkt zodat alleen server-naar-server verbindingen worden geaccepteerd. Als u verbinding maakt met Campagne versie 8 of hoger, kunt u **moet** Maak een server-naar-server verbinding.
+>
+>Voor meer informatie over de nieuwe verbindingsvereisten van de Campagne, zie [Migratie van technische operatoren van campagnes naar Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) in de Campagne documentatie.
+
 1. In alle [!DNL Adobe Campaign Classic] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
-1. Voer de basis-URL in die u gebruikt om verbinding te maken met uw [!DNL Adobe Campaign Classic] -instantie.
-1. Voer uw gebruikersnaam en wachtwoord in.
+1. Vul de volgende velden in:
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection type]</td>
+          <td>
+            <p>Selecteer of u een basisverbinding of een server-aan-server verbinding creeert.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Voer een naam in voor deze verbinding.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Base URL]</td>
+          <td>Voer de basis-URL in waarmee u verbinding maakt met uw [!DNL Adobe Campaign Classic] -instantie.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Username]</td>
+          <td>Voer uw Adobe Campaign-gebruikersnaam in als u een basisverbinding maakt.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Password]</td>
+          <td>Als u een basisverbinding maakt, voert u uw Adobe Campaign-wachtwoord in.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Als u een server-aan-server verbinding creeert, ga uw [!DNL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Als u een server-aan-server verbinding creeert, ga uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.
+        </tr>
+   </tbody>
+    </table>
 1. Klikken **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug naar de module te gaan.
 
 ## [!DNL Adobe Campaign Classic] modules en hun velden
@@ -148,7 +201,7 @@ Deze actiemodule maakt een nieuwe record in [!DNL Adobe Campaign Classic].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields]</td> 
-   <td> Voor elk aangepast veld dat u aan de nieuwe record wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en voert u de naam en waarde van het veld in of wijst u deze toe. </td> 
+   <td> Voor elk aangepast veld dat u aan de nieuwe record wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en voert u de naam en de waarde van het veld in of wijst u deze toe. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -217,7 +270,7 @@ Met deze actiemodule verwijdert u één record uit [!DNL Adobe Campaign Classic]
 
 Deze actiemodule voert een geselecteerde handeling uit op een object in het dialoogvenster [!DNL Adobe Campaign Classic] API.
 
-Voor informatie over specifieke acties en velden raadpleegt u [[!DNL Adobe Campaign] - API-documentatie](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
+Zie voor informatie over specifieke acties en velden [[!DNL Adobe Campaign] - API-documentatie](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -296,7 +349,7 @@ Deze actiemodule abonneert een gebruiker aan of unsubscribes een gebruiker van e
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recipient email address] </td> 
-   <td>Voer het e-mailadres in of wijs het e-mailadres toe van de gebruiker die u wilt abonneren op of zich niet meer wilt abonneren op de informatieservice.</td> 
+   <td>Voer het e-mailadres in of wijs het e-mailadres toe van de gebruiker die u wilt abonneren op de informatieservice of het abonnement opzeggen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -327,7 +380,7 @@ Deze actiemodule werkt één record bij in [!DNL Adobe Campaign Classic].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields]</td> 
-   <td> Voor elk aangepast veld dat u wilt bijwerken, klikt u op <b>[!UICONTROL Add item]</b> en voert u de naam en waarde van het veld in of wijst u deze toe. </td> 
+   <td> Klik voor elk aangepast veld dat u wilt bijwerken op <b>[!UICONTROL Add item]</b> en voert u de naam en de waarde van het veld in of wijst u deze toe. </td> 
   </tr> 
  </tbody> 
 </table>
