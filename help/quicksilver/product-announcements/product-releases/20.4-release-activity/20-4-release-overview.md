@@ -5,10 +5,11 @@ title: 20.4 - releaseoverzicht
 description: De release van 20,4 werd in de week van 9 november 2020 beschikbaar gesteld in de productieomgeving. Raadpleeg de Workfront-statussite voor specifieke releasedatums en -tijden voor elke cluster.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3694'
 ht-degree: 0%
 
 ---
@@ -54,11 +55,11 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: Bepalen hoe een aangepast veld wordt gedeeld</a> </p> <p>Om u meer controle over te geven wie, douanegebieden uitgeven kan schrappen en gebruiken u creeert, hebben wij de capaciteit toegevoegd om precies te vormen hoe u hen gedeeld wilt.</p> <p>Tot nu toe, toen u een douanegebied creeerde, was het editable door iedereen in het systeem. Dit is nog steeds de standaardstatus van een aangepast veld, maar u kunt het delen van een aangepast veld nu beperken tot bepaalde gebruikers, rollen, teams, groepen en bedrijven. En u kunt bepalen of uw ontvangers het aangepaste veld kunnen beheren of alleen kunnen weergeven.</p> <p>Om deze ervaring vertrouwd te maken voor u, hebben we de gebruikersinterface voor deze mogelijkheid zo ontworpen dat deze vergelijkbaar is met andere objectgebieden die door Workfront worden gedeeld.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: bepalen hoe een aangepast veld wordt gedeeld</a> </p> <p>Om u meer controle over te geven wie, douanegebieden uitgeven kan schrappen en gebruiken u creeert, hebben wij de capaciteit toegevoegd om precies te vormen hoe u hen gedeeld wilt.</p> <p>Tot nu toe, toen u een douanegebied creeerde, was het editable door iedereen in het systeem. Dit is nog steeds de standaardstatus van een aangepast veld, maar u kunt het delen van een aangepast veld nu beperken tot bepaalde gebruikers, rollen, teams, groepen en bedrijven. En u kunt bepalen of uw ontvangers het aangepaste veld kunnen beheren of alleen kunnen weergeven.</p> <p>Om deze ervaring vertrouwd te maken voor u, hebben we de gebruikersinterface voor deze mogelijkheid zo ontworpen dat deze vergelijkbaar is met andere objectgebieden die door Workfront worden gedeeld.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 15 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new7" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: Standaarddeling van aangepaste formulieren</a> </p> <p>We hebben gestandaardiseerd delen voor Aangepaste Forms, zodat u hetzelfde proces voor het delen van Workfront-objecten kunt gebruiken dat u al kent. En dankzij de nieuwe ervaring voor delen hebt u meer controle over wie aangepaste Forms die u maakt, kan bewerken, verwijderen en gebruiken. U kunt het delen voor een Vorm van de Douane tot bepaalde gebruikers, rollen, teams, groepen, en bedrijven beperken. En u kunt bepalen of deze ontvangers het aangepaste formulier kunnen weergeven of beheren.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new7" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: gestandaardiseerd delen van aangepaste formulieren</a> </p> <p>We hebben gestandaardiseerd delen voor Aangepaste Forms, zodat u hetzelfde proces voor het delen van Workfront-objecten kunt gebruiken dat u al kent. En dankzij de nieuwe ervaring voor delen hebt u meer controle over wie aangepaste Forms die u maakt, kan bewerken, verwijderen en gebruiken. U kunt het delen voor een Vorm van de Douane tot bepaalde gebruikers, rollen, teams, groepen, en bedrijven beperken. En u kunt bepalen of deze ontvangers het aangepaste formulier kunnen weergeven of beheren.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 15 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -66,15 +67,15 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new8" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: De beheerders voor een groep die aan een bedrijf wordt toegewezen kunnen het bedrijf beheren</a> </p> <p>Wij hebben het voor een Beheerder van de Groep gemakkelijk gemaakt om een bedrijf te beheren dat met hun groep in Workfront wordt geassocieerd. De toegang om het bedrijf te leiden is automatisch beschikbaar wanneer de vereniging wordt gemaakt. Dit is vooral belangrijk wanneer de Beheerder van de Groep geen administratieve toegang tot bedrijven heeft.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new8" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: beheerders voor een groep die aan een bedrijf wordt toegewezen kunnen het bedrijf beheren</a> </p> <p>Wij hebben het voor een Beheerder van de Groep gemakkelijk gemaakt om een bedrijf te beheren dat met hun groep in Workfront wordt geassocieerd. De toegang om het bedrijf te leiden is automatisch beschikbaar wanneer de vereniging wordt gemaakt. Dit is vooral belangrijk wanneer de Beheerder van de Groep geen administratieve toegang tot bedrijven heeft.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: Verbeteringen voor e-mailmeldingen</a> </p> <p>Nu, met één enkele klik, kunt u een gebeurtenis e-mailbericht in Opstelling toelaten of onbruikbaar maken. Klik op de aan/uit-schakelaar naast de naam van het bericht.</p> <p>U ziet ook dat onze moderne stijl nu de ervaring verbetert met het configureren van gebeurtenismeldingen in het gebied E-mailmeldingen.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: verbeteringen voor e-mailmeldingen</a> </p> <p>Nu, met één enkele klik, kunt u een gebeurtenis e-mailbericht in Opstelling toelaten of onbruikbaar maken. Klik op de aan/uit-schakelaar naast de naam van het bericht.</p> <p>U ziet ook dat onze moderne stijl nu de ervaring verbetert met het configureren van gebeurtenismeldingen in het gebied E-mailmeldingen.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: Portefeuilles, programma's, en bedrijven met groepen associëren</a> </p> <p>Wanneer Workfront-beheerders een portfolio, programma of bedrijf maken of bewerken, kunnen ze dit toewijzen aan een groep. Met groepen die aan deze voorwerpen worden toegewezen, is het gemakkelijk om de verantwoordelijkheden van uw groep voor hen te identificeren. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: portfolio's, programma's en bedrijven aan groepen koppelen</a> </p> <p>Wanneer Workfront-beheerders een portfolio, programma of bedrijf maken of bewerken, kunnen ze dit toewijzen aan een groep. Met groepen die aan deze voorwerpen worden toegewezen, is het gemakkelijk om de verantwoordelijkheden van uw groep voor hen te identificeren. </p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 september 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -107,7 +108,7 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#project" class="MCXref xref" xrefformat="{para}">Op projectstatus gebaseerde kleuren voor werkitems in Workload Balancer</a> </p> <p>Voor een betere zichtbaarheid en een betere aanpassing van uw ervaring in Workload Balancer kunt u nu de kleuren van de projecten en hun werkitems aanpassen aan de status van de projecten. De kleuren komen overeen met de status van een project op groepsniveau of op systeemniveau. De weergegeven kleuren kunnen zowel overeenkomen met de status van het systeem als met die van het aangepaste project.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#project" class="MCXref xref" xrefformat="{para}">Op projectstatus gebaseerde kleuren voor werkitems in werklastverdeling</a> </p> <p>Voor een betere zichtbaarheid en een betere aanpassing van uw ervaring in Workload Balancer kunt u nu de kleuren van de projecten en hun werkitems aanpassen aan de status van de projecten. De kleuren komen overeen met projectstatussen op groepsniveau of op systeemniveau. De weergegeven kleuren kunnen zowel overeenkomen met de status van het systeem als met die van het aangepaste project.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -119,7 +120,7 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 september 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Een nieuw ingebouwd filter voor de werklastbalans: Gebruikers van projecten</a> </p> <p>Om uw filterervaring in de Balancer van de Werkbelasting efficiënter te maken, hebben wij een nieuw ingebouwd filter in het Toegewezen het gebied van het Werk toegevoegd. U kunt de Gebruikers op projectfilter nu toepassen die gebruikers toont die aan taken en kwesties in de projecten worden toegewezen u specificeert.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">Een nieuw ingebouwd filter voor het evenwicht van de Werklast: Gebruikers op projecten</a> </p> <p>Om uw filterervaring in de Balancer van de Werkbelasting efficiënter te maken, hebben wij een nieuw ingebouwd filter in het Toegewezen het gebied van het Werk toegevoegd. U kunt de Gebruikers op projectfilter nu toepassen die gebruikers toont die aan taken en kwesties in de projecten worden toegewezen u specificeert.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 september 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -135,11 +136,11 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 29 augustus 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#show" class="MCXref xref" xrefformat="{para}">Voltooid werk tonen of verbergen in Workload Balancer</a> </p> <p>Met een nieuwe instelling kunt u nu voltooide werkitems weergeven of verbergen in Workload Balancer. De instelling wordt standaard ingeschakeld en voltooide werkitems die overeenkomen met de filtercriteria en het geselecteerde tijdkader in het werklastevenwicht. </p> <p>Vóór deze verbetering, voltooide het werkpunten altijd getoond in de Balancer van de Werkbelasting.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#show" class="MCXref xref" xrefformat="{para}">Voltooid werk tonen of verbergen in werklastbalans</a> </p> <p>Met een nieuwe instelling kunt u nu voltooide werkitems weergeven of verbergen in Workload Balancer. De instelling wordt standaard ingeschakeld en voltooide werkitems die overeenkomen met de filtercriteria en het geselecteerde tijdkader in het werklastevenwicht. </p> <p>Vóór deze verbetering, voltooide het werkpunten altijd getoond in de Balancer van de Werkbelasting.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 21 augustus 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#usabilit" class="MCXref xref" xrefformat="{para}">Verbeteringen in bruikbaarheid van werklastbalans</a> </p> <p>Voor een gestroomlijnde en gebruiksvriendelijke ervaring wanneer u uw bronnen beheert in Workload Balancer, zijn nu verschillende gebruiksverbeteringen beschikbaar.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#usabilit" class="MCXref xref" xrefformat="{para}">Verbeteringen van de bruikbaarheid van de werklastbalans</a> </p> <p>Voor een gestroomlijnde en gebruiksvriendelijke ervaring wanneer u uw bronnen beheert in Workload Balancer, zijn nu verschillende gebruiksverbeteringen beschikbaar.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 21 augustus 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -156,8 +157,8 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#export" class="MCXref xref" xrefformat="{para}">De douaneformulieren van de uitvoer en overzichtsinformatie van de sectie van Details van een project, een taak, of een kwestie</a> </p> <p>U kunt de aangepaste formuliergegevens nu exporteren naar een .pdf-bestand. U kunt aangepaste formulieren exporteren uit projecten, taken of problemen wanneer u het formulier opent in de sectie Details van de objecten. </p> <p>Naast het exporteren van de aangepaste formulieren met projecten, taken en uitgaven, kunt u nu ook het gedeelte Overzicht naar uw geëxporteerde PDF opnemen.</p> </td> 
-   <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 15 oktober 2020 (het gedeelte Overzicht werd op 3 november 2020 geëxporteerd)</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#export" class="MCXref xref" xrefformat="{para}">Aangepaste formulieren en overzichtsgegevens exporteren vanuit de sectie Details van een project, taak of uitgave</a> </p> <p>U kunt de aangepaste formuliergegevens nu exporteren naar een .pdf-bestand. U kunt aangepaste formulieren exporteren uit projecten, taken of problemen wanneer u het formulier opent in de sectie Details van de objecten. </p> <p>Naast het exporteren van de aangepaste formulieren met projecten, taken en uitgaven, kunt u nu ook het gedeelte Overzicht naar uw geëxporteerde PDF opnemen.</p> </td> 
+   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 15 oktober 2020 (het gedeelte Overzicht is op 3 november 2020 toegevoegd)</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#quickly" class="MCXref xref" xrefformat="{para}">Snel een herhaling toevoegen</a> </p> <p>Om de ervaring van het creëren van een herhaling te vereenvoudigen, hebben wij een nieuwe knoop toegevoegd die u toestaat om een herhaling van het iteratietabblad toe te voegen. Hier kunt u een herhaling maken en vervolgens taken en problemen toevoegen.</p> <p>U kunt nog steeds een herhaling op de tag backlog maken zoals voorheen.</p> </td> 
@@ -227,7 +228,7 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 18 september 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md#document" class="MCXref xref" xrefformat="{para}">De goedkeuringsknoppen voor documenten zijn beschikbaar in de Proofingviewer</a> </p> <p>Als u wilt uitlijnen op de proefdrukervaring in Classic, zijn de knoppen voor documentgoedkeuring nu beschikbaar in de Proofing Viewer in de nieuwe Adobe Workfront-ervaring.</p> <p>Eerder kon u een document alleen goedkeuren in het gebied Documentdetails.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md#document" class="MCXref xref" xrefformat="{para}">De goedkeuringsknoppen voor documenten zijn beschikbaar in de proefdrukweergave</a> </p> <p>Als u wilt uitlijnen op de proefdrukervaring in Classic, zijn de knoppen voor documentgoedkeuring nu beschikbaar in de Proofing Viewer in de nieuwe Adobe Workfront-ervaring.</p> <p>Eerder kon u een document alleen goedkeuren in het gebied Documentdetails.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bèta Preview-release: 9 september 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
  </tbody> 
@@ -277,11 +278,11 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 15 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Nieuwe e-mailmeldingen voor teams</a> </p> <p>Er zijn twee nieuwe e-mailmeldingen toegevoegd voor teams: wanneer één enkele voorganger van een taak die aan uw team wordt toegewezen wordt voltooid en wanneer alle voorgangers van een taak die aan uw team wordt toegewezen wordt voltooid.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Nieuwe e-mailmeldingen voor teams</a> </p> <p>We hebben twee nieuwe e-mailmeldingen toegevoegd voor teams: wanneer één voorganger van een taak die aan uw team is toegewezen, is voltooid en wanneer alle voorgangers van een taak die aan uw team is toegewezen, zijn voltooid.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 15 oktober 2020</p> <p>Productieversie: met de release van 20.4</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuwe API-objecten die updates voor gebeurtenisabonnementen activeren</a> </p> <p>Er zijn twee nieuwe API-objecten, documentVersion en proofApproval, gemaakt en geconfigureerd om abonnementsupdates voor gebeurtenissen te activeren wanneer een document wordt versioneerd of goedgekeurd. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuwe API-objecten die updates voor abonnementen voor gebeurtenissen activeren</a> </p> <p>Er zijn twee nieuwe API-objecten, documentVersion en proofApproval, gemaakt en geconfigureerd om abonnementsupdates voor gebeurtenissen te activeren wanneer een document wordt versioneerd of goedgekeurd. </p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 11 september 2020</p> <p>Productieversie: met de 20.4-release in productie</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -309,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuw in API-versie 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
 
 Zie voor meer informatie over API-versies [API-versieschema en ondersteuningsschema](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -321,29 +322,29 @@ Zie voor meer informatie over API-versies [API-versieschema en ondersteuningssch
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 zijn gemaakt, raadpleegt u [Workfront-onderhoudsupdates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 zijn gemaakt, zie [Workfront-onderhoudsupdates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Aankondigingen
 
-* [Flash-afleiding](#flash-deprecation)
+* [Afgekeurde Flash](#flash-deprecation)
 * [20.4 Release-webinar](#20-4-release-webinar)
-* [Wijziging in de release Voorvertoning](#change-in-preview-release-cadence)
+* [Wijzigen in de release Voorvertoning](#change-in-preview-release-cadence)
 * [Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 
-### Flash-afleiding {#flash-deprecation}
+### Afgekeurde Flash {#flash-deprecation}
 
-Eind 2020 voltooien Adobe en alle grote browsers de afgekeurde Adobe Flash-technologie, wat betekent dat deze tools niet meer werken.
+Eind 2020 voltooien Adobe en alle grote browsers de afgekeurde technologie van de Flash van de Adobe, wat betekent dat deze hulpmiddelen zullen ophouden werkend.
 
-Workfront wil u helpen bij de overgang naar de nieuwere technologie door een reeks nieuwe oplossingen te bieden die niet afhankelijk zijn van Flash. Lees meer over vervangingsoplossingen voor elk specifiek op Flash gebaseerd hulpmiddel in het volgende artikel: [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Workfront wil u helpen bij de overgang naar de nieuwere technologie door een reeks nieuwe oplossingen te bieden die niet afhankelijk zijn van Flash. Lees meer over vervangingsoplossingen voor elk specifiek op Flash-gebaseerd hulpmiddel in het volgende artikel: [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
-Alle op Flash gebaseerde gereedschappen worden op 19 november 2020 uit alle producten verwijderd. Wij adviseren dat u begint de nieuwe hulpmiddelen te gebruiken en de hulpmiddelen van de Flash vóór dan, om de veiligheid van uw instantie te verhogen. Als u wilt dat wij de hulpmiddelen van de Flash vóór 19 november onbruikbaar maken, kunt u de Steun van de Klant contacteren.
+Alle op Flash-gebaseerde hulpmiddelen zullen uit alle producten op 19 November 2020 worden verwijderd. Wij adviseren dat u begint de nieuwe hulpmiddelen te gebruiken en de hulpmiddelen van de Flash vóór dan, om de veiligheid van uw instantie te verhogen. Als u wilt dat wij de hulpmiddelen van de Flash vóór 19 November onbruikbaar maken, kunt u de Steun van de Klant contacteren.
 
 ### 20.4 Release-webinar {#20-4-release-webinar}
 
 De Workfront 20.4 Release Webinar wordt woensdag 28 oktober 2020 om 11.00 uur EDT gepresenteerd. Registreren voor webinar [hier](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
-### Wijziging in de release Voorvertoning {#change-in-preview-release-cadence}
+### Wijzigen in de release Voorvertoning {#change-in-preview-release-cadence}
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 

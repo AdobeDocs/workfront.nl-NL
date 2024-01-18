@@ -4,17 +4,18 @@ description: projectupdates tijdens de releaseperiode van 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # 22.3 Projectverbeteringen
 
-Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 gaat u naar [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Delegatie van werkzaamheden buiten het kantoor
 
@@ -79,7 +80,7 @@ Voor meer informatie, zie de sectie &quot;bouw de berekening voor uw berekend do
 
 Om ervoor te zorgen dat uw gegevens voor het goedkeuren van uw werk accuraat zijn, hebben we een wijziging aangebracht in de manier waarop goedkeuringsgegevens worden vastgelegd voor een onderdeel wanneer er een goedkeuringsproces met meerdere rollen aan het onderdeel is gekoppeld.
 
-Sommige goedkeuringsprocessen vereisen goedkeuring van twee verschillende rollen, en twee verschillende fiatteurs zouden één van die rollen in gemeenschappelijk kunnen hebben. Nu wanneer dit gebeurt, nadat de goedkeuringsbesluiten zijn genomen, registreert Workfront elke fiatteur en zijn respectieve rol verbonden aan het goedkeuringsproces.
+Sommige goedkeuringsprocessen vereisen goedkeuring van twee verschillende rollen, en twee verschillende fiatteurs zouden één van die rollen in gemeenschappelijk kunnen hebben. Wanneer dit gebeurt, registreert Workfront, nadat de goedkeuringsbesluiten zijn genomen, elke fiatteur en zijn respectieve rol verbonden aan het goedkeuringsproces.
 
 Vóór deze wijziging werden beide goedkeuringen vastgelegd voor de tweede gebruiker omdat deze een van de goedkeuringsrollen deelde met de eerste fiatteur. In dit geval heeft de tweede fiatteur de informatie van de eerste fiatteur overschreven.
 
@@ -144,7 +145,7 @@ Voor meer informatie over het delen van mappen raadpleegt u [Een documentmap op 
 
 >[!NOTE]
 >
->Deze functie wordt verwijderd uit Voorvertoning op 9 januari 2023. Zie voor meer informatie de [23.1 Overzicht van de release pagina](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Deze functie wordt verwijderd uit Voorvertoning op 9 januari 2023. Zie de klasse [23.1 Overzicht van de release pagina](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >
@@ -175,7 +176,7 @@ De volgende functies zijn in deze release opgenomen:
 
 * Mogelijkheid om de naam van het Campagneobject te wijzigen via de lay-outsjabloon
 
-   Systeem- en groepsbeheerders van Workfront kunnen het gebied Campagnes (bèta) toevoegen in het Hoofdmenu van een lay-outsjabloon. Dit maakt het beschikbaar voor alle gebruikers die aan het malplaatje worden toegewezen. Iedereen in Workfront kan een campagne maken nadat deze beschikbaar is.
+  Systeem- en groepsbeheerders van Workfront kunnen het gebied Campagnes (bèta) toevoegen in het Hoofdmenu van een lay-outsjabloon. Dit maakt het beschikbaar voor alle gebruikers die aan het malplaatje worden toegewezen. Iedereen in Workfront kan een campagne maken nadat deze beschikbaar is.
 
 
 

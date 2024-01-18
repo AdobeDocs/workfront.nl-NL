@@ -1,26 +1,27 @@
 ---
-title: 23.1 Verbeteringen op het gebied van project- en hulpbronnenbeheer
-description: 23.1 Verbeteringen op het gebied van project- en hulpbronnenbeheer
+title: 23.1 Verbeteringen op het gebied van project- en bronnenbeheer
+description: 23.1 Verbeteringen op het gebied van project- en bronnenbeheer
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
-source-git-commit: 682320deee696bf02b11e6119300e285c34bf4a6
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
-# 23.1 Verbeteringen op het gebied van project- en hulpbronnenbeheer
+# 23.1 Verbeteringen op het gebied van project- en bronnenbeheer
 
 Op deze pagina worden alle verbeteringen in het project- en hulpbronnenbeheer beschreven die zijn aangebracht met de versie 23.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 16 januari 2023.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 raadpleegt u [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## Secundaire taakrollen toegevoegd aan de lijst Andere toewijzingen bij het bulksgewijs toewijzen van items in Workload Balancer
+## Secundaire taakrollen toegevoegd aan de lijst Andere toewijzingen bij het toewijzen van items in Workload Balancer
 
-Wanneer gebruikers in de werklastbalans in bulk worden toegewezen nadat een taakrol is geselecteerd in het veld Roltoewijzing, wordt in de lijst met gebruikers die in de lijst Andere toewijzingen staan in het veld &quot;Gebruiker toewijzen&quot; nu alle taakrollen weergegeven die aan elke gebruiker onder hun naam zijn gekoppeld. Vóór deze verbetering, slechts de primaire rol van de gebruiker getoond.
+Wanneer gebruikers in de werklastbalans in bulk worden toegewezen nadat een taakrol is geselecteerd in het veld Roltoewijzing, wordt in de lijst met gebruikers die in de lijst Andere toewijzingen staan in het veld &quot;Gebruiker toewijzen&quot; nu alle taakrollen weergegeven die aan elke gebruiker onder hun naam zijn gekoppeld. Voorafgaand aan deze verbetering, slechts de primaire rol van de gebruiker getoond.
 
 Zie voor meer informatie [Werk in bulk toewijzen met Werklastverdeling](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 

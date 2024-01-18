@@ -4,17 +4,18 @@ description: rapportage van updates tijdens de releaseperiode van 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
 
 # 22.3 Verbeterde rapportage
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 22.3 voor Voorvertoning. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 gaat u naar [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 22.3 voor Voorvertoning. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Verwijdering en toevoeging van budgetteringsvelden voor bronnen in lijsten en rapporten
 
@@ -22,7 +23,7 @@ Om de informatie over het budgetteren van bronnen uit de functie Resource Planne
 
 * Begrote uren voor bronnenplanner
 
-   Omdat ze verwezen naar afgekeurde hulpmiddelen die in vorige versies uit Workfront zijn verwijderd, hebben we de volgende velden voor het budgetteren van bronnen uit lijsten en rapporten verwijderd:
+  Omdat ze verwezen naar afgekeurde hulpmiddelen die in vorige versies uit Workfront zijn verwijderd, hebben we de volgende velden voor het budgetteren van bronnen uit lijsten en rapporten verwijderd:
 
 
 De volgende velden voor het budgetteren van bronnen zijn verwijderd uit lijsten en rapporten omdat ze verwijzen naar verouderde gereedschappen die in eerdere versies uit Workfront zijn verwijderd:

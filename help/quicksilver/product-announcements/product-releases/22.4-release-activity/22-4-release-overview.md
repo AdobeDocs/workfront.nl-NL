@@ -4,10 +4,11 @@ description: 22.4 releaseoverzicht
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3271'
 ht-degree: 0%
 
 ---
@@ -55,23 +56,23 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
    </td> 
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
      <li> <p>Productieversie: 15 september 2022</p> </li> 
     </ul>  </td>
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migratie naar Adobe Unified Experience</a> </p>
-                        <p>Als uw organisatie aan de Adobe Admin Console is geregistreerd, zal uw Workfront instantie aan de Adobe Verenigde Ervaring met de 22.4 versie worden gemigreerd.</p>
+                        <p>Als uw organisatie aan de Adobe Admin Console is geregistreerd, zal uw instantie van Workfront naar de Adobe Verenigde Ervaring met de 22.4 versie worden gemigreerd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4 <span style="color: #ff0000;">Deze migratie is uitgesteld tot Q1-Q2 van 2023. </span></p>
+                                <p>Productieversie: met de release van 22.4 <span style="color: #ff0000;">Deze migratie is uitgesteld tot Q1-Q2 van 2023. </span></p>
                             </li>
                         </ul>
                     </td>
@@ -86,10 +87,10 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 25 augustus 2022<br /></p>
+                                <p>Voorvertoningsrelease: 25 augustus 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -104,10 +105,10 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 8 september 2022<br /></p>
+                                <p>Voorvertoningsrelease: 8 september 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -122,10 +123,10 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 25 augustus 2022<br /></p>
+                                <p>Voorvertoningsrelease: 25 augustus 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -139,7 +140,7 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
                     <td><b>Beschikbaar op deze data:</b>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juli 2022 <br /></p>
+                                <p>Voorvertoningsrelease: 22 juli 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: 28 juli 2022</p>
@@ -154,10 +155,10 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
     <td><b>Beschikbaar op deze data:</b>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: Tijdens de 22.3-releasetijdsperiode <br /></p>
+                                <p>Voorvertoning release: tijdens de releaseperiode van 22.3 <br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td> 
@@ -189,7 +190,7 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
      <li> <p>Voorvertoning release: 9 september 2022 <br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.4</p> </li> 
+     <li> <p>Productieversie: met de release van 22.4</p> </li> 
      </td>
   </tr>                
 <tr data-mc-conditions=""> 
@@ -197,12 +198,12 @@ Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de relea
 </a></p> 
 <p>Om u veel meer flexibiliteit in de manier te geven u taken en kwesties beheert, hebben wij het mogelijk gemaakt om veelvoudige teams aan een taak of een kwestie toe te wijzen. Eerder kon slechts één team worden toegewezen aan een taak of uitgave.
 
-Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balancer in het gebied Teams.</p>
+Opmerking: deze functionaliteit is momenteel niet beschikbaar in Workload Balancer in het gebied Teams.</p>
 </td> 
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
      <li> <p>Voorvertoning release: 2 september 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.4</p> </li> 
+     <li> <p>Productieversie: met de release van 22.4</p> </li> 
     </ul> 
     </td>
   </tr>
@@ -216,10 +217,10 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                     <td><b>Beschikbaar op deze data:</b>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 25 augustus 2022</p>
+                                <p>Voorvertoningsrelease: 25 augustus 2022</p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -243,10 +244,10 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                     <td><b>Beschikbaar op deze data:</b>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 18 augustus 2022</p>
+                                <p>Voorvertoningsrelease: 18 augustus 2022</p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -281,7 +282,7 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                     <td><b>Beschikbaar op deze data:</b>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 21 juli 2022<br /></p>
+                                <p>Voorvertoningsrelease: 21 juli 2022<br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: 4 augustus 2022 </p>
@@ -308,7 +309,7 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 4 augustus 2022 <br /></p>
+                                <p>Voorvertoningsrelease: 4 augustus 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: 11 augustus 2022</p>
@@ -347,11 +348,11 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 8 september 2022<br /></p>
+                                <p>Voorvertoningsrelease: 8 september 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 15 september 2022</p>
-                                <p>Productieversie voor alle klanten: Met de release van 22.4</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 15 september 2022</p>
+                                <p>Productieversie voor alle klanten: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -367,11 +368,11 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 8 september 2022<br /></p>
+                                <p>Voorvertoningsrelease: 8 september 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 15 september 2022</p>
-                                <p>Productieversie voor alle klanten: Met de release van 22.4</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 15 september 2022</p>
+                                <p>Productieversie voor alle klanten: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -389,7 +390,7 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                                 <p>Voorvertoning release: 9 september 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -404,11 +405,11 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 17 augustus 2022<br /></p>
+                                <p>Voorvertoningsrelease: 17 augustus 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 25 augustus 2022</p>
-                                <p>Productieversie voor alle klanten: Met de release van 22.4</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 25 augustus 2022</p>
+                                <p>Productieversie voor alle klanten: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -425,11 +426,11 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 4 augustus 2022<br /></p>
+                                <p>Voorvertoningsrelease: 4 augustus 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 11 augustus 2022</p>
-                                <p>Productieversie voor alle klanten: Met de release van 22.4</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 11 augustus 2022</p>
+                                <p>Productieversie voor alle klanten: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -444,11 +445,11 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juli 2022 <br /></p>
+                                <p>Voorvertoningsrelease: 22 juli 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Productieversie voor vroegtijdige opt-in: 28 juli 2022</p>
-                                <p>Productieversie voor alle klanten: Met de release van 22.4</p>
+                                <p>Productieversie voor alle klanten: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -465,11 +466,11 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 22 juli 2022 <br /></p>
+                                <p>Voorvertoningsrelease: 22 juli 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Productieversie voor vroegtijdige opt-in: 28 juli 2022</p>
-                                <p>Productieversie voor alle klanten: Met de release van 22.4</p>
+                                <p>Productieversie voor alle klanten: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -503,10 +504,10 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 8 september 2022<br /></p>
+                                <p>Voorvertoningsrelease: 8 september 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -530,10 +531,10 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 8 september 2022<br /></p>
+                                <p>Voorvertoningsrelease: 8 september 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -557,10 +558,10 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 25 augustus 2022<br /></p>
+                                <p>Voorvertoningsrelease: 25 augustus 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 22.4</p>
+                                <p>Productieversie: met de release van 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -604,12 +605,12 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for InDesign</a> <span style="color: #ff0000;"> Nieuw in productie!</span> </p>
-                        <p>Deze insteekmodule is nu beschikbaar voor installatie in InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden. </p>
+                        <p>Deze insteekmodule is nu beschikbaar voor installatie in het InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: 6 oktober 2022</p>
@@ -628,7 +629,7 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 6 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 6 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: 26 oktober 2022</p>
@@ -639,13 +640,13 @@ Opmerking: Deze functionaliteit is momenteel niet beschikbaar in Workload Balanc
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Metagegevens naar bovenliggende programma's en portfolio-objecten verplaatsen</a></p>
-                        <p>Wanneer een element voor het eerst naar Experience Manager Assets of Assets Essentials wordt verzonden, worden nu ook metagegevens verzonden die zijn geconfigureerd om te worden toegewezen voor bovenliggende programma's en portfolio-objecten.</p>
+                        <p>Wanneer een element nu voor het eerst naar Experience Manager Assets of Assets Essentials wordt verzonden, worden alle metagegevens die zijn geconfigureerd voor toewijzing voor bovenliggende programma's en portfolio-objecten ook verzonden.</p>
                         <p>Eerder werden alleen de gegevens van het bovenliggende project verzonden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 6 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 6 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: 26 oktober 2022</p>
@@ -675,8 +676,8 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3.</
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Uitgebreide teambeschrijving&lt;/a>&lt;/p>
-    &lt;p>In het gebied van Teams, kunt u de volledige teambeschrijving nu bekijken door de beschrijving te klikken om het in een pop-up te tonen. U kunt op URL&#39;s in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Uitgebreide teambeschrijving&lt;/a>&lt;/p>
+    &lt;p>In het gebied van Teams, kunt u de volledige teambeschrijving nu bekijken door de beschrijving te klikken om het in een pop-up te tonen. {para} U kunt op URL&#39;s in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).&lt;/p>
     &lt;p>Eerder was het schuiven door de beschrijving in een smal gebied de enige manier om alle inhoud te zien.&lt;/p>
 <p>Deze verbetering van de beschrijving is van toepassing op zowel mobiele als niet-flexibele teams.</p>
                     </td>
@@ -727,9 +728,9 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 14 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuw in API-versie 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
+Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
 
-Voor informatie over API-versies raadpleegt u [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Zie voor informatie over API-versies [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
@@ -741,7 +742,7 @@ De webinar met release 22.4 vindt donderdag 22 september 2022 om 9.00 uur PDT pl
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Zie voor meer informatie de [Pagina met updates van trainingsreleases](https://one.workfront.com/s/training-release-updates).
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Zie de klasse [Pagina met updates van trainingsreleases](https://one.workfront.com/s/training-release-updates).
 
 ### Functionaliteit die wordt verwijderd met de 22.4-release
 
@@ -758,7 +759,7 @@ De volgende functies worden verwijderd bij de release van 22.4 naar Production:
 
 >[!NOTE]
 >
->De schrapping van de Planner van het Middel is uitgesteld tot kort na de versie 22.4.
+>De schrapping van de Planner van het Middel is uitgesteld tot snel na de versie 22.4.
 
 De werklastbalans vervangt de bronnenplanner.
 
@@ -770,6 +771,6 @@ De volgende functie wordt verwijderd in november 2022:
 
 * Het SHARE-gebeurtenistype in de API voor gebeurtenisabonnementen.
 
-   Met dit gebeurtenistype konden klanten controleren wanneer machtigingen voor objecten werden bijgewerkt.
+  Met dit gebeurtenistype konden klanten controleren wanneer machtigingen voor objecten werden bijgewerkt.
 
-   Zie voor meer informatie over abonnementen op gebeurtenissen en andere gebeurtenistypen die worden ondersteund [Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Zie voor meer informatie over abonnementen op gebeurtenissen en andere gebeurtenistypen die worden ondersteund [API voor abonnementen voor gebeurtenissen](/help/quicksilver/wf-api/general/event-subs-api.md)

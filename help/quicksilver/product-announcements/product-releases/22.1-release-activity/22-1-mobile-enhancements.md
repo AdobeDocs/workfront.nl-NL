@@ -4,10 +4,11 @@ description: 22.1 Verbeteringen voor mobiele apparaten
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: dc7dc0c2-768b-4331-acea-b9978574d948
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.1 raadpleegt u [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbeteringen voor proefdrukfunctionaliteit in mobiele app
 

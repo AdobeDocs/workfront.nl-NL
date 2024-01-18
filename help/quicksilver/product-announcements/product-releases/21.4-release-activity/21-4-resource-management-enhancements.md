@@ -4,10 +4,11 @@ description: 21.4 Verbeteringen in het beheer van hulpbronnen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Voor informatie over het toewijzen van werkitems in de werklastbalans raadpleegt
 
 In het kader van onze inspanningen om planning te vervangen en van het belangrijkste hulpmiddel voor het toewijzen van bronnen in Workload Balancer Workfront te maken, hebben we de Workfront Balancer tot de standaardoptie voor alle nieuwe gebruikers gemaakt. Momenteel, is het plannen de standaardoptie. Deze wijziging is van toepassing op alle gebieden waar u toegang hebt tot de planning, waaronder het gebied Bronnen (in de nieuwe Adobe Workfront-ervaring) of het gebied Mensen (in Adobe Workfront Classic), en op project- en teamniveau.
 
-## Nieuwe filterervaring in Workload Balancer
+## Nieuwe filterervaring in werklastverdeling
 
 >[!NOTE]
 >

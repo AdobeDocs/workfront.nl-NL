@@ -2,20 +2,21 @@
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Verbeteringen voor mobiele apparaten
-description: Op deze pagina worden alle verbeteringen beschreven die in de versie 20.3 van Agile zijn aangebracht in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+description: Op deze pagina worden alle verbeteringen beschreven die in de versie 20.3 van Agile zijn aangebracht in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
 # 20.3 Verbeteringen voor mobiele apparaten
 
-Op deze pagina worden alle verbeteringen beschreven die in de versie 20.3 van Agile zijn aangebracht in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+Op deze pagina worden alle verbeteringen beschreven die in de versie 20.3 van Agile zijn aangebracht in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
 Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 

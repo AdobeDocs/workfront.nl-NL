@@ -4,10 +4,11 @@ description: 22.1 Verzoeken verbeterd
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -24,9 +25,9 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.1 raadpleegt u [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## De verbetering van de interface voor gebruikers die geen toegang hebben om verzoeken tot stand te brengen
+## De verbetering van de interface voor gebruikers die geen toegang hebben om verzoeken te creëren
 
 Om de ervaring van gebruikers te verbeteren wanneer het werken met verzoeken, hebben wij een verbetering aan de interface geïntroduceerd die aan de het programma geopende gebruiker erop wijst dat zij geen toegang hebben om verzoeken tot stand te brengen. Met deze verbetering, wordt de Nieuwe verzoekknoop verduisterd voor gebruikers zonder toegang om kwesties tot stand te brengen. Als u de muisaanwijzer boven de grijze knop houdt, wordt knopinfo weergegeven waarin wordt uitgelegd dat de Workfront-beheerder de toegang van de huidige gebruiker heeft beperkt om aanvragen te maken.
 

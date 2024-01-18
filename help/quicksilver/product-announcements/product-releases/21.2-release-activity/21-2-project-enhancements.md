@@ -6,17 +6,18 @@ title: 21.2 Projectverbeteringen
 description: Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
 
 # 21.2 Projectverbeteringen
 
-Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nieuwe interface voor het maken en bewerken van terugkerende taken
 
@@ -28,7 +29,7 @@ Als deel van het herontwerp van de Nieuwe en geef Taakdozen uit, hebben wij de c
 
 Zie voor meer informatie [Herhalende taken maken](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van de Planner voor de nieuwe Workfront-ervaring, Deel 2: Een project plannen](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) leerpad op Workfront One.
+Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van de planning voor de nieuwe Workfront-ervaring, Deel 2: Een project plannen](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) leerpad op Workfront One.
 
 ## Nieuwe knoppen beschikbaar in de koptekst Projecten
 
@@ -92,7 +93,7 @@ Raadpleeg de volgende artikelen voor informatie over het bewerken van projecten 
 
 Voor een betere ervaring bij het invullen van een aangepast formulier hebben we de manier verbeterd waarop lange aangepaste veldlabels worden weergegeven. Wanneer er voldoende horizontale ruimte is om deze in hun geheel weer te geven, worden deze labels niet meer afgekapt.
 
-Voor informatie over het invullen van aangepaste formulieren raadpleegt u [Gegevens bewerken in aangepaste formuliervelden](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Zie voor informatie over het invullen van aangepaste formulieren [Gegevens bewerken in aangepaste formuliervelden](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## De primaire contactpersoon van een probleem is nu zichtbaar in het gebied Projectdetails
 
@@ -132,7 +133,7 @@ Gebruikers kunnen nu in aangepaste velden tekstopmaak, zoals vette letters, lijs
 
 Eerder in Workfront Classic was tekstopmaak alleen zichtbaar in de lijsten Project, Taak en Uur.
 
-Voor informatie over het opmaken van tekst in een aangepast veld raadpleegt u [Een aangepast formulier maken](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Zie voor informatie over het opmaken van tekst in een aangepast veld [Een aangepast formulier maken](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
 Voor informatie over het weergeven van informatie in lijsten raadpleegt u [Aan de slag met lijsten](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 
@@ -155,7 +156,7 @@ Naast een bijgewerkte look and feel zijn de volgende wijzigingen ook beschikbaar
 * We hebben de velden Duur, Duur en Geplande uren toegevoegd aan de sectie Toewijzingen om consistentie te garanderen bij het bijwerken van toewijzingen voor verschillende soorten tijdsduur en de tijd of duur die ze aan de taak besteden.
 * We hebben de functionaliteit voor opmerkingen verwijderd uit het taakscherm Bewerken om redundantie te voorkomen in de sectie Updates.
 
-Voor informatie over het nieuwe Edit vakje van de Taak, zie [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Zie voor informatie over het nieuwe vak Taak bewerken [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Nieuw taakvak
 

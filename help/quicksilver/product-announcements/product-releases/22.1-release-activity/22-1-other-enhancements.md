@@ -4,10 +4,11 @@ description: 22.1 Andere verbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 761ad16f-0c6e-48c7-a3d3-49ebfa1694e5
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.1 raadpleegt u [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Standaard oplopende volgorde voor geplande voltooiing Datum en mogelijkheid om te groeperen op geplande begindatum in de thuiswerklijst
 
@@ -69,7 +70,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 Met een modernere en intuïtievere werkbalk kunt u gebruikers in een gebruikerslijst gemakkelijker beheren. Met de werkbalkknoppen kunt u snel mensen aan Workfront toevoegen, ze eraan herinneren zich te registreren en hun profielen te beheren. U kunt ook een gebruikerslijst exporteren.
 
-Voor meer informatie over deze acties raadpleegt u [Gebruikers maken en beheren](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md).
+Zie voor meer informatie over deze handelingen [Gebruikers maken en beheren](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md).
 
 ## Bijgewerkt menu Help
 

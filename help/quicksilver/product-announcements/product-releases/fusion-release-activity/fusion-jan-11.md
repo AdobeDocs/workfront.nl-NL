@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-releaseactiviteit: Week van 11 januari 2021"'
+title: 'Workfront Fusion release activity: Week van 11 januari 2021'
 description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 11 januari 2021 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2439e2a7-9404-433a-bd71-a7776042d8a0
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -20,11 +21,11 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 11 januari 2021 zijn aangebracht.
 
-Voor een lijst met alle recente wijzigingen raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
 
-## Breedte-connector en modules nu beschikbaar
+## Breid-connector en modules nu beschikbaar
 
 U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Widen-account. Met de modules van de Breedte, kunt u:
 
@@ -35,7 +36,7 @@ U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Widen-account
 * Een lijst met elementen in een verzameling ophalen
 * Voer een aangepaste API-aanroep uit.
 
-Zie voor meer informatie [Breidingsmodules](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+Zie voor meer informatie [Breedte-modules](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
 ## Dataredog-aansluiting en -modules zijn nu beschikbaar
 
@@ -63,7 +64,7 @@ Met de Cvent-modules kunt u:
 
 Voor informatie over de beschikbare modules van de Gebeurtenis, zie [Cilummodules](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
-## Microsoft Dynamics 365 connector en modules nu beschikbaar
+## Microsoft Dynamics 365-connector en -modules nu beschikbaar
 
 U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Microsoft Dynamics 365-account. Met de modules Microsoft Dynamics 365 kunt u:
 
@@ -117,25 +118,25 @@ Om u te helpen formules in uw modules aanpassen en vereenvoudigen, hebben wij en
 
 * De
 
-   ```
-   omit
-   ```
+  ```
+  omit
+  ```
 
-   Functie is een algemene functie die de opgegeven sleutels van het object weglaat en de rest retourneert.
+  Functie is een algemene functie die de opgegeven sleutels van het object weglaat en de rest retourneert.
 * De
 
-   ```
-   pick
-   ```
+  ```
+  pick
+  ```
 
-   Functie is een algemene functie die alleen de opgegeven toetsen van het object selecteert.
+  Functie is een algemene functie die alleen de opgegeven toetsen van het object selecteert.
 * De
 
-   ```
-   escapeMarkdown
-   ```
+  ```
+  escapeMarkdown
+  ```
 
-   Deze functie is een tekenreeksfunctie die alle tags Markdown in een tekst kan negeren.
+  Deze functie is een tekenreeksfunctie die alle tags Markdown in een tekst verwijdert.
 
 Zie voor meer informatie over de functie Weglaten en Selecteren [Algemene functies in Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 

@@ -4,17 +4,18 @@ description: andere updates tijdens de releaseperiode van 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 88d4c34e-9a3a-489d-ac97-2d81903104d8
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # 22.3 Andere verbeteringen
 
-Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 gaat u naar [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Bijgewerkte tijdbladen
 
@@ -24,7 +25,7 @@ We blijven uw ervaring verbeteren en bijwerken wanneer we met tijdbladen werken.
 
 * De functionaliteit Automatisch opslaan om uw geregistreerde uren en urenopmerkingen automatisch op te slaan als u deze tweede keer toevoegt.
 
-* Een intuïtievere paginalay-out die overeenkomt met andere objectpagina&#39;s. We hebben bijvoorbeeld een linkerdeelvenster toegevoegd aan de tijdlijn. De tijdlijnupdates worden nu weergegeven in de sectie Updates in het linkerdeelvenster. U kunt een timesheet van de timesheet pagina ook schrappen evenals timesheet aan uw lijst van Favorieten toevoegen.
+* Een intuïtievere pagina-indeling die overeenkomt met andere objectpagina&#39;s. We hebben bijvoorbeeld een linkerdeelvenster toegevoegd aan de tijdlijn. De tijdlijnupdates worden nu weergegeven in de sectie Updates in het linkerdeelvenster. U kunt een timesheet van de timesheet pagina ook schrappen evenals timesheet aan uw lijst van Favorieten toevoegen.
 
 * Een betere ervaring wanneer het zoeken naar en het toevoegen van projecten, taken, of kwesties aan timesheet. Dit komt overeen met de ervaring in alle andere lijsten in Workfront.
 
@@ -49,7 +50,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 We hebben verschillende verbeteringen aangebracht in het linkernavigatievenster in Adobe Workfront.
 
-* De vormgeving van het linkernavigatievenster is aangepast aan de ontwerpstandaarden van Adobe, waaronder kleuren en lettertypen.
+* De vormgeving van het linkernavigatievenster is aangepast aan de ontwerpstandaarden van de Adobe, waaronder kleuren en lettertypen.
 
 * De koppeling &#39;Aangepaste sectie toevoegen&#39; onder aan het deelvenster heeft de naam &#39;Dashboard toevoegen&#39; gekregen om de functie beter uit te leggen.
 

@@ -4,10 +4,11 @@ description: 22.1 Verbeteringen in het beheer van hulpbronnen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.1 raadpleegt u [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbeteringen aan het paneel van Montages en capaciteit aan kleur-code projecten en hun taken in de Balancer van de Werkbelasting
 

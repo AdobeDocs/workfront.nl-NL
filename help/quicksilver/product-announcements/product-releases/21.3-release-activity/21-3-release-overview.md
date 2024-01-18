@@ -6,10 +6,11 @@ title: 21.3 Overzicht van de release
 description: Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront Classic als de nieuwe Adobe Workfront-ervaring die is opgenomen in de release 21.3 om u te helpen productiviteit en samenwerking te ontgrendelen. [Eén regel in de handel brengen voor de release]
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -85,11 +86,11 @@ For specific release dates and times for each cluster, see the
    <td><strong>Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 22 april 2021 (met release 21.2)<br></p> <p>Productieversie: met 21.3 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuw voor groepsbeheerders: Statussen maken en beheren voor een groep op elk niveau</a> </p> <p>Om het voor alle niveaus van een organisatie gemakkelijker te maken om hun werkschema's onafhankelijk te beheren en te controleren, hebben wij de capaciteit geïntroduceerd om statussen voor subgroepen tot stand te brengen en te beheren. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuw voor groepsbeheerders: statussen voor een groep op elk niveau maken en beheren</a> </p> <p>Om het voor alle niveaus van een organisatie gemakkelijker te maken om hun werkschema's onafhankelijk te beheren en te controleren, hebben wij de capaciteit geïntroduceerd om statussen voor subgroepen tot stand te brengen en te beheren. </p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 3 juni 2021<br></p> <p>Productieversie: met 21.3 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: Een aangepast formulier voor een factureringsrecord maken</a> </p> <p>Nu kunt u de manier verbeteren waarop gebruikers factureringsgegevens vastleggen door een aangepast factureringsformulier te maken. Gebruikers kunnen het aangepaste formulier aan een factureringsrecord koppelen, het invullen en rapporten uitvoeren die de informatie in het formulier bevatten.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: een aangepast formulier voor factureringsrecords maken</a> </p> <p>Nu kunt u de manier verbeteren waarop gebruikers factureringsgegevens vastleggen door een aangepast factureringsformulier te maken. Gebruikers kunnen het aangepaste formulier aan een factureringsrecord koppelen, het invullen en rapporten uitvoeren die de informatie in het formulier bevatten.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Voorvertoningsrelease: 20 mei 2021<br></p> <p>Productieversie: met 21.3 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -167,7 +168,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Rollen niet meer deactiveren</a> </p> <p>Om u de zelfde ervaring aan te bieden zoals met gebruikers, teams, en bedrijven, hebben wij een nieuwe eigenschap geïntroduceerd die u toestaat om rollen te deactiveren u niet meer gebruikt. Wanneer u een rol deactiveert, is deze niet meer beschikbaar voor selectie in typekopvelden voor het toewijzen en delen van objecten. Gedactiveerde rollen worden nog steeds weergegeven in zoekvelden en filteropties.</p> <p>De taken en de kwesties die aan een gedeactiveerde rol evenals goedkeuringsprocessen of het verpletteren van regels worden toegewezen blijven aan deze rollen worden toegewezen. U moet deze objecten bijwerken als u de niet-actieve rol wilt vervangen door een actieve rol als ze nog niet zijn voltooid.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Rollen niet meer deactiveren</a> </p> <p>Om u de zelfde ervaring aan te bieden zoals met gebruikers, teams, en bedrijven, hebben wij een nieuwe eigenschap geïntroduceerd die u toestaat om rollen te deactiveren u niet meer gebruikt. Wanneer u een rol deactiveert, is deze niet meer beschikbaar voor selectie in typeahead-velden voor het toewijzen en delen van objecten. Gedactiveerde rollen worden nog steeds weergegeven in zoekvelden en filteropties.</p> <p>De taken en de kwesties die aan een gedeactiveerde rol evenals goedkeuringsprocessen of het verpletteren van regels worden toegewezen blijven aan deze rollen worden toegewezen. U moet deze objecten bijwerken als u de niet-actieve rol wilt vervangen door een actieve rol als ze nog niet zijn voltooid.</p> </td> 
    <td> <p><strong>Beschikbaar op deze data:</strong> </p> <p>Voorvertoningsrelease: 27 mei 2021<br></p> <p>Productieversie: 10 juni 2021</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -210,7 +211,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#users" class="MCXref xref" xrefformat="{para}">Gebruikers die aan een proefdruk zijn toegevoegd, hebben automatisch toegang tot een document verkregen via Weergave</a> </p> <p>Gebruikers met de optie Revisor of Alleen-lezen geselecteerd als hun proefdrukrol krijgen automatisch toegang tot het document als ze er nog geen hadden.</p> <p>Eerder moesten gebruikers met de bovengenoemde proefrollen toegang tot documenten aanvragen toen zij aan de proefdruk werden toegevoegd.</p> </td> 
-   <td><strong>Beschikbaar op deze data: Voorvertoning release: 20 mei 2021 Productieversie: 17 juni 2021 Beschikbaar in de volgende omgevingen: De nieuwe Adobe Workfront-ervaring</strong>Adobe Workfront Classic </td> 
+   <td><strong>Beschikbaar op deze datums: Voorvertoningsrelease: 20 mei 2021 Productieversie: 17 juni 2021 Beschikbaar in deze omgevingen: De nieuwe Adobe Workfront-ervaring</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,12 +227,12 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">Nieuwe ontwerpinstellingen voor mobiele apps</a> </p> <p>Er zijn verschillende verbeteringen toegevoegd aan het thuisgebied van de mobiele app van Adobe Workfront, waaronder: een herontworpen widgets voor werkitems en een groter zoekvak helpen u snel te vinden wat u nodig hebt; de navigatiebalk voor home, virtuele assistent, snelle taak, meldingen en gebruikersprofiel zweeft nu over het thuisgebied en is gemakkelijk toegankelijk; en het menu Mijn werk schuift horizontaal en toont de volgende items: Projecten, Taken &amp; Kwesties, Verzoeken, Goedkeuringen, en Tijdopnamen. Er worden maximaal drie kaarten voor het geselecteerde item weergegeven onder het menu.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">Nieuwe ontwerpinstellingen voor mobiele apps</a> </p> <p>Er zijn verschillende verbeteringen toegevoegd aan het thuisgebied van de mobiele app van Adobe Workfront, waaronder: een herontworpen werkitemwidgets en een groter zoekvak helpen u snel te vinden wat u nodig hebt; de navigatiebalk voor home, virtuele assistent, snelle taak, meldingen en gebruikersprofiel zweeft nu over het thuisgebied voor eenvoudige toegang; en het menu Mijn werk schuift horizontaal en toont de volgende items: Projecten, Taken en problemen, Verzoeken, Goedkeuringen en Tijdlijnen ets. Er worden maximaal drie kaarten voor het geselecteerde item weergegeven onder het menu.</p> </td> 
    <td> <p><strong>Beschikbaar op deze data:</strong> </p> <p>Voorvertoning release: n.v.t.<br></p> <p>Productieversie: met 21.3 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>iOS</p> <p>Android</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Gebeurtenisabonnementfilters</a> </p> <p>Filters voor gebeurtenisabonnementen zijn nu ingeschakeld in voorvertoningsomgevingen. Filteren met gebeurtenisabonnementen kan worden gebruikt om ervoor te zorgen dat u alleen relevante berichten ontvangt. Het creëren van filters voor uw abonnementen kan het aantal berichten beduidend verminderen dat uw eindpunt moet verbruiken. </p> </td> 
-   <td><strong>Beschikbaar op deze data: Voorvertoning release: 20 mei 2021 Productieversie: 3 juni 2021 Beschikbaar in de volgende omgevingen: De nieuwe Adobe Workfront-ervaring</strong>Adobe Workfront Classic </td> 
+   <td><strong>Beschikbaar op deze datums: Voorvertoningsrelease: 20 mei 2021 Productieversie: 3 juni 2021 Beschikbaar in deze omgevingen: De nieuwe Adobe Workfront-ervaring</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +253,7 @@ Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadenc
 
 ## Verbeteringen in Workfront Proof
 
-Nieuwe functies in Workfront Proof zijn nu beschikbaar. Zie voor meer informatie [Workfront Proof-releaseactiviteit: Week van 17 mei 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+Nieuwe functies in Workfront Proof zijn nu beschikbaar. Zie voor meer informatie [Workfront Proefreleaseactiviteit: week van 17 mei 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
 
 ## Verbeteringen voor Workfront-doelen
 
@@ -268,10 +269,10 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 We hebben een paar achterwaartse updates gemaakt voor de Workfront for Jira integratie. Controleer of de volgende IP-adressen in het dialoogvenster [De lijst van gewenste personen van uw firewall configureren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) het artikel is toegevoegd aan uw lijst van gewenste personen voor binnenkomende en uitgaande verbindingen:
 
-* 34.213.36.118
-* 35.160.0.242
-* 3.209.27.146
-* 18.205.251.4
+* 34 213 36 118
+* 35 160 0 242
+* 3 209 27 146
+* 18 205 251,4
 
 Deze adressen werden eerder vermeld als noodzakelijk voor andere gebieden van Workfront, maar zijn nu ook noodzakelijk voor de integratie van Jira.
 
@@ -307,4 +308,4 @@ De Workfront 21.3 Release Webinar werd gepresenteerd op 16 juni 2021. U kunt de 
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over ondersteunde browsers raadpleegt u [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).
+Zie voor meer informatie over ondersteunde browsers [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).

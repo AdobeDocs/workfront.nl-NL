@@ -4,23 +4,24 @@ description: 21.1 Verbeteringen voor mobiele apparaten
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # 21.1 Verbeteringen voor mobiele apparaten
 
-Op deze pagina worden alle verbeteringen op het gebied van mobiele apparaten beschreven die bij de release 21.1 worden geleverd. Deze verbeteringen worden beschikbaar gesteld in de mobiele winkels van 15 februari 2021.
+Op deze pagina worden alle verbeteringen op het gebied van mobiele apparaten beschreven die bij de release 21.1 worden geleverd. Deze verbeteringen worden in de week van 15 februari 2021 beschikbaar gesteld in de mobiele winkels.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 raadpleegt u [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Nieuwe breadcrubs in de Adobe Workfront-app
 
-We hebben de breedbandnavigatie toegevoegd aan de mobiele app van Workfront. Nu, kunt u deze eigenschap gebruiken om aan de punten van het ouderwerk binnen een project te navigeren.
+We hebben de breedbandnavigatie toegevoegd aan de mobiele app van Workfront. U kunt deze functie nu gebruiken om naar bovenliggende werkitems in een project te navigeren.
 
 ## RTF-tekst wordt ondersteund in aangepaste formulieren op de Workfront-app
 

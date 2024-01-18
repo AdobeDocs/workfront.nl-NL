@@ -4,11 +4,12 @@ description: Workfront Fusion release activity:&nbsp;Week van 30 augustus 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 988349f9-aa12-4017-9032-be4d0078959e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 30 augustus 2021 zijn aangebracht.
 
-Voor een lijst met alle recente wijzigingen raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
 
@@ -30,7 +31,7 @@ Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u 
    Het gebeurtenisfilter biedt momenteel de volgende bewerkingen:
 
    * Gelijk: Trigger een scenario slechts wanneer een gebeurtenis de voorwaarden van de filter aanpast. U kunt bijvoorbeeld een filter instellen dat alleen een scenario activeert als de gebeurtenis in een bepaald project plaatsvindt.
-   * Niet gelijk: Trigger een scenario slechts als een gebeurtenis niet de voorwaarden van de filter aanpast. U kunt bijvoorbeeld een filter maken dat alleen een scenario activeert als de uitgave waarin een gebeurtenis plaatsvindt, geen status Gesloten heeft.
+   * Niet gelijk: activeer een scenario alleen als een gebeurtenis niet voldoet aan de voorwaarden van het filter. U kunt bijvoorbeeld een filter maken dat alleen een scenario activeert als de uitgave waarin een gebeurtenis plaatsvindt, geen status Gesloten heeft.
 
    Eerder, zou de module van het Horloge verslagen alle verslagen terugwinnen. Gebruikers kunnen alleen filteren door later filters in het scenario in te stellen.
 

@@ -4,10 +4,11 @@ description: 21.4 Verbeteringen voor mobiele apparaten
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: cbc013eb-aecc-405b-91b8-ce45f2ea10dc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar met versie 21.4, zie [21.4 Ove
 
 >[!NOTE]
 >
->Deze functie is over het algemeen beschikbaar in de Apple App Store en Google Play Store in de week van 4 oktober 2021.
+>Deze functie is over het algemeen beschikbaar in de Apple App Store en de Google Play Store in de week van 4 oktober 2021.
 
 De mobiele app van Adobe Workfront geeft nu alle proefdrukgoedkeuringen weer die aan u zijn toegewezen, in uw lijst met goedkeuringen in Mijn werk. U kunt een proefdrukdocument rechtstreeks in de app bekijken en er een beslissing over nemen.
 

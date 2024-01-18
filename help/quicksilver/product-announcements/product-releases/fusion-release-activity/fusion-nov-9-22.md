@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-releaseactiviteit: Week van 7 november 2022"'
+title: "Workfront Fusion release activity: Week 7 november 2022"
 description: Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 7 november 2022 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 802db851-39bb-4f40-8a66-ecb8c8b3ced6
-source-git-commit: 9aaba3062bc5d1166c37821a6a3216f7f1d965b1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion-releaseactiviteit: Week van 7 november 2022
+# Workfront Fusion release activity: Week 7 november 2022
 
 **Optimalisatie webshwachtrij**
 

@@ -4,10 +4,11 @@ description: 22.4 Beheerdersverbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -110,7 +111,7 @@ Zie voor meer informatie [Berekende gegevens toevoegen aan een aangepast formuli
 
 OPMERKING: Deze migratie is uitgesteld tot Q1-Q2 van 2023. Alle betrokken klanten zullen op dat moment op de hoogte worden gesteld.
 
-Als uw organisatie aan de Adobe Admin Console is geregistreerd, zal uw Workfront instantie aan de Adobe Verenigde Ervaring met de 22.4 versie worden gemigreerd.
+Als uw organisatie aan de Adobe Admin Console is geregistreerd, zal uw instantie van Workfront naar de Adobe Verenigde Ervaring met de 22.4 versie worden gemigreerd.
 
 De Adobe Verenigde Ervaring omvat:
 

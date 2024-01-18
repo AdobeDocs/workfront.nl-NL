@@ -4,10 +4,11 @@ description: 22.2&nbsp;Projectverbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-de week van 4 april 2022. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 raadpleegt u [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+4 april 2022. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Adobe Workfront Boards zijn nu beschikbaar!
 
@@ -47,22 +48,22 @@ De volgende aanvullende verbeteringen zijn nu beschikbaar voor Workfront Boards:
 
 * Labelkaarten op borden
 
-   U kunt nu kaarten op uw bord indelen met gekleurde tags. Met tags kunt u snel kaarten identificeren. U kunt uw board zelfs sorteren op basis van toegepaste tags.
+  U kunt nu kaarten op uw bord indelen met gekleurde tags. Met tags kunt u snel kaarten identificeren. U kunt uw board zelfs sorteren op basis van toegepaste tags.
 
 * Kaarten beheren aan boord
 
-   We hebben de volgende functies toegevoegd om u te helpen kaarten op uw bord te beheren:
+  We hebben de volgende functies toegevoegd om u te helpen kaarten op uw bord te beheren:
 
-   * Een kaart kopiëren: Maak een kopie van een bestaande kaart op uw bord.
-   * Een kaart verplaatsen: Verplaats kaarten snel naar de boven- of onderkant van een kaart met de nieuwe opties Boven aan kolom en Onder aan kolommenu.
+   * Kopieer een kaart: maak een kopie van een bestaande kaart op uw bord.
+   * Verplaats een kaart: verplaats kaarten snel naar de boven- of onderkant van een kaart met de nieuwe opties Boven aan kolom en Onder aan kolommenu.
 
 * Zoeken in borden
 
-   We hebben een zoekbalk toegevoegd om u te helpen alle kaarten op uw bord te doorzoeken.
+  We hebben een zoekbalk toegevoegd om u te helpen alle kaarten op uw bord te doorzoeken.
 
 * Vervaldatum instellen voor een kaart in de kamers
 
-   U kunt nu een vervaldatum instellen voor afzonderlijke kaarten op uw bord.
+  U kunt nu een vervaldatum instellen voor afzonderlijke kaarten op uw bord.
 
 Zie voor meer informatie [Aan de slag met borden in Adobe Workfront](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
@@ -104,7 +105,7 @@ Wij hebben een nieuw Meer menu in projectlijsten en rapporten toegevoegd om u to
 * Herberekening van financiën
 * Aangepaste expressies opnieuw berekenen
 * Voor één project:
-* Sjabloon bijvoegen
+* Sjabloon koppelen
 * Exporteren naar MS-project
 * Abonneren
 
@@ -114,7 +115,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [Projectfinanciën opnieuw berekenen](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Gegevens bewerken in aangepaste formuliervelden](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Een sjabloon aan een project koppelen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
-* [Een project exporteren naar een Microsoft-project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [Een project exporteren naar Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Abonneren op objecten in Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Houd gebruikers op het dashboard, de lijst, of het rapport na het omzetten van kwestie in project

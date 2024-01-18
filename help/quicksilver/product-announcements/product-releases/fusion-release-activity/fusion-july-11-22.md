@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-releaseactiviteit: Week van 11 juli 2022"'
+title: "Workfront Fusion release activity: Week van 11 juli 2022"
 description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 11 juli 2022 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 19d4610a-670a-49e7-b276-f670de867910
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 11 juli 2022 zijn aangebracht.
 
-Voor een lijst met alle recente wijzigingen raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
 
@@ -32,7 +33,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw Figma-a
 
 * Opmerkingen in een bestand plaatsen of verwijderen
 
-* Opmerkingen weergeven over een bestand, de geschiedenis van de bestandsversie, projectbestanden of projecten.
+* Hiermee geeft u opmerkingen weer over een bestand, de geschiedenis van de bestandsversie, projectbestanden of projecten.
 
 * Een bestand, afbeelding, stijl of component ophalen
 

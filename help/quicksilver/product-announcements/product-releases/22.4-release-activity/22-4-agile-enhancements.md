@@ -4,10 +4,11 @@ description: 22.4 Verbeteringen voor mobiele apparaten
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: 87d0b668185c4185646bfa1622eb37337844bcbc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Voor een lijst van alle veranderingen beschikbaar met versie 22.4, zie [22.4 Ove
 
 ## Inlaatkolom beschikbaar op de platen
 
-OPMERKING: Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
+OPMERKING: deze functie is alleen beschikbaar via de vroege functie-insteekmodule voor Workfront Boards.
 
 U kunt nu een inlaatkolom aan een board toevoegen. In deze kolom worden taken en uitgaven automatisch naar het Klembord opgehaald wanneer deze in Workfront worden toegevoegd, op basis van filters die u definieert.
 
@@ -34,7 +35,7 @@ Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksil
 
 ## Bijgewerkt filterdeelvenster in tekengebieden
 
-OPMERKING: Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
+OPMERKING: deze functie is alleen beschikbaar via de vroege functie-insteekmodule voor Workfront Boards.
 
 De filter en onderzoekspictogrammen op een bord zijn verplaatst links van het scherm. Wanneer u op het filterpictogram klikt, wordt links een deelvenster geopend waarin alle filteropties worden weergegeven. Eerder werden de filters weergegeven in een vervolgkeuzelijst aan de rechterkant van het bord.
 

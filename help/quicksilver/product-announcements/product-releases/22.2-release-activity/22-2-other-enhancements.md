@@ -4,10 +4,11 @@ description: 22.2 Andere verbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -22,21 +23,21 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-de week van 4 april 2022.
+4 april 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 raadpleegt u [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbeteringen aan de bovenste navigatiebalk
 
 We hebben verschillende verbeteringen aangebracht in de bovenste navigatiebalk van Adobe Workfront.
 
 * Favorieten en Recenten hebben nu aparte pictogrammen in de bovenste navigatiebalk. Op elk scherm wordt nog steeds dezelfde inhoud weergegeven (pagina&#39;s die u als favorieten hebt gemarkeerd en pagina&#39;s die u onlangs hebt bezocht). U kunt op dezelfde manier favoriete pagina&#39;s toevoegen en verwijderen.
-* De vormgeving van zowel de punten als het hoofdmenu is aangepast aan de Adobe-ontwerpstandaarden, waaronder kleuren en lettertypen. De manier waarop u pinnen toevoegt en verwijdert, en de gebieden waartoe u toegang hebt in het hoofdmenu, zijn niet gewijzigd.
+* De vormgeving van zowel de punten als het hoofdmenu is aangepast aan de ontwerpstandaarden van de Adobe, waaronder kleuren en lettertypen. De manier waarop u pinnen toevoegt en verwijdert, en de gebieden waartoe u toegang hebt in het hoofdmenu, zijn niet gewijzigd.
 * De pictogrammen aan de rechterkant van de bovenste navigatiebalk zijn opnieuw gerangschikt om intuïtiever te zijn. De pictogramvolgorde is: Help-koppeling, meldingen, favorieten, verlopen, zoeken, hoofdmenu.
 
 Zie voor meer informatie [Overzicht van de bovenste navigatiebalk](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
-## Opnieuw ontworpen timesbladlijsten
+## Opnieuw ontworpen timesheet-lijsten
 
 Om uw gebruik van Workfront in overeenstemming te brengen met de nieuwe Adobe Workfront ervaring, hebben wij de timesheet lijsten in het gebied van Chronologie opnieuw ontworpen. U kunt dezelfde functionaliteit verwachten in de timesheet-lijst, alleen met een schonere, gestroomlijndere gebruikerservaring.
 

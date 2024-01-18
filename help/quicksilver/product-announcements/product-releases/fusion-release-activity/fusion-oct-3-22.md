@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-releaseactiviteit: 3 oktober 2022"'
+title: "Workfront Fusion release activity: Week van 3 oktober 2022"
 description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 3 oktober 2022 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: e1519f60-7e6d-4f8e-8ad1-7c3cb1143a7f
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion-releaseactiviteit: Week van 3 oktober 2022
+# Workfront Fusion release activity: Week van 3 oktober 2022
 
 ## Nieuwe operatoren en functionaliteit beschikbaar voor gebeurtenisfilters in Workfront > de module Gebeurtenissen controleren
 

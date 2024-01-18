@@ -5,10 +5,11 @@ title: Webinars met R1-release
 description: Deze webinars waren geconcentreerd op functionaliteit inbegrepen in de R1 versie.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Deze webinars waren geconcentreerd op functionaliteit inbegrepen in de R1 versie. 
 
-De R1 versie is momenteel beschikbaar om in Voorproef te testen; R1-releases in de productieomgeving op 26 april 2017.
+De R1 versie is momenteel beschikbaar om in Voorproef te testen; R1 versies aan het milieu van de Productie op 26 April, 2017.
 
 Als u meer gedetailleerde informatie wilt bekijken over de functionaliteit die in de webinars wordt beschreven, raadpleegt u de [Overzicht van de release van R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) pagina.
 
@@ -49,7 +50,7 @@ Dit gedeelte van webinar bevat de volgende onderwerpen:
 * Bijgewerkt project, Taak, en Kwestie goedkeurt
 * Een bestaand algemeen goedkeuringsproces wijzigen
 * Te bijwerken objecten configureren die in afwachting zijn van goedkeuring
-* Taken of problemen bewerken die in afwachting zijn van goedkeuring
+* Taken of problemen bewerken die in behandeling zijn
 * De status van een project wijzigen
 * Verbeterde methode voor het koppelen van bestanden
 * Verbeteringen in de milestone-weergave

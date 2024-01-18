@@ -4,11 +4,12 @@ description: Workfront Fusion release activity:&nbsp;Week van 15 februari 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d4bac9f7-500a-40c1-bb44-7726830ae154
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 15 februari 2021 zijn aangebracht.
 
-Voor een lijst met alle recente wijzigingen raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
 
@@ -33,7 +34,7 @@ Eerder hebben gebruikers hun eigen instellingen voor e-mailmeldingen ingesteld.
 >
 >De fusie past de montages van het organisatiebericht op het teamniveau voor elk team in de organisatie toe. Werk de instellingen voor e-mailmeldingen op teamniveau bij om ervoor te zorgen dat uw teams profiteren van de nieuwe meldingsmogelijkheden.
 
-Zie voor meer informatie [Adobe Workfront Fusion-organisaties en -teams](../../../workfront-fusion/organizations/organizations-and-teams.md).
+Zie voor meer informatie [Adobe Workfront Fusion organisaties en teams](../../../workfront-fusion/organizations/organizations-and-teams.md).
 
 ## Selecteer API-versie in de Workfront > Aangepaste API-aanroepmodule
 

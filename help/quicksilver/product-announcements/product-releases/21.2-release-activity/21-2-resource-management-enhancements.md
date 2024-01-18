@@ -3,20 +3,21 @@ content-type: release-notes
 keywords: notities,driemaandelijks,bijwerken,release
 navigation-topic: 2021-2-release-activity
 title: 21.2 Verbeteringen in het beheer van hulpbronnen
-description: Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
+description: Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
 
 # 21.2 Verbeteringen in het beheer van hulpbronnen
 
-Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Maand-vlakke mening in de Balancer van de Werkbelasting
 

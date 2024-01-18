@@ -4,10 +4,11 @@ description: 22.2 Verbeteringen in het beheer van hulpbronnen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5f11c43c-3aa8-4135-b6bf-07b9993e63d9
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,9 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-de week van 4 april 2022.
+4 april 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 raadpleegt u [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbeteringen voor de navigatie van Workload Balancer
 
@@ -52,7 +53,7 @@ Beschikbare uren gebruiker = (standaardplanninguren - Uitzonderingen) &#42; FTE 
 
 Vóór deze update gebruikte Workfront de volgende formule om de beschikbaarheid van de gebruiker te berekenen toen het standaardschema werd geselecteerd:
 
-Beschikbare uren gebruiker = (Standaardplanninguren - (Uitzonderingen schema + Verkeerde uren)) &#42; FTE-waarde gebruiker
+Beschikbare uren gebruiker = (Standaardplanninguren - (Uitzonderingen schema + Uittijd)) &#42; FTE-waarde gebruiker
 
 Zie voor meer informatie [Voorkeuren voor beheer van bronnen configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

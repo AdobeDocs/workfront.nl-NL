@@ -4,10 +4,11 @@ description: Updates weergeven en voelen tijdens de releaseperiode van 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
-source-git-commit: 53cc430dc5fce8f3d0b570c661ec93dd566c7ab9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Zie voor meer informatie [Beschikbare licenties in uw systeem beheren](/help/qui
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 juli 2022; Productieversie: 18 augustus 2022
+>Preview-release: 21 juli 2022; Production-release: 18 augustus 2022
 
 In het gebied Aangepaste Forms hebben lijsten nu het modernere uiterlijk dat in de meeste andere lijsten in Workfront wordt gevonden. Deze update voegt het snelle filter toe, waarmee u alleen de aangepaste formulieren kunt weergeven die u nodig hebt om te reviseren, te bewerken of te delen.
 
@@ -36,11 +37,11 @@ In het gebied Aangepaste Forms hebben lijsten nu het modernere uiterlijk dat in 
 
 De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk, zodat u objecten snel kunt beheren in Adobe Workfront.
 
-### Voorvertoning release: 28 juli 2022; Productieversie: met 22.4 release
+### Voorvertoningsrelease: 28 juli 2022; Productieversie: met 22.4-release
 
-Lijst met onderwerpgroepen van de projectwachtrij
+Lijst met onderwerpgroepen van de wachtrij van projecten
 
-### Voorvertoning release: 21 juli 2022; Productieversie: met 22.4 release
+### Voorvertoningsrelease: 21 juli 2022; Productieversie: met 22.4-release
 
 Lijst met uitgifteuren
 
@@ -60,4 +61,4 @@ Lijst met projectbasislijnen
 
 Lijst met projectrisico&#39;s
 
-Lijst met onderwerpgroepen van de projectwachtrij
+Lijst met onderwerpgroepen van de wachtrij van projecten

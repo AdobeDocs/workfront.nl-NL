@@ -4,10 +4,11 @@ description: 23.1 Verbeteringen aan mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f0e21f9b2846c5665474903a2910ce9f41cdf810
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in de versie 23.1 van Agile zijn aangebracht voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 16 januari 2023.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 raadpleegt u [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Scrumplanning voor Workfront Boards
 
@@ -96,7 +97,7 @@ Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksil
 >
 >Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
 
-U kunt nu een koppeling naar een specifieke kaart naar een andere gebruiker van een kaart verzenden. De persoon moet toegang hebben tot het bord voordat hij of zij de koppeling kan openen.
+U kunt nu een koppeling naar een specifieke kaart naar een andere gebruiker van een kaart verzenden. De persoon moet toegang hebben tot het bord voordat hij de koppeling kan openen.
 
 Wanneer u een kaart op een bord opent, ziet de browser URL er als volgt uit:
 
@@ -108,7 +109,7 @@ U kunt de volledige URL kopiëren en naar iemand anders verzenden. Ze zullen rec
 
 Eerder waren er koppelingen beschikbaar naar borden, maar niet naar specifieke kaarten.
 
-Voor informatie over kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) en [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Zie voor informatie over kaarten [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) en [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filteren op verbinding aan boord
 

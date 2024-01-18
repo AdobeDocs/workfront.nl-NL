@@ -6,17 +6,18 @@ title: 21. 2 Verbeterde rapportering
 description: Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.2 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
 # 21. 2 Verbeterde rapportering
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.2 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.2 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Uren bewerken in projecten en rapporten beperken
 
@@ -41,7 +42,7 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Een nieuw pictogram voor beperkte toegang
 * Andere kleine ontwerpwijzigingen
 
-Voor meer informatie over toewijzingen in lijsten raadpleegt u [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md).
+Zie voor meer informatie over toewijzingen in lijsten [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -69,11 +70,11 @@ Voor informatie over bijgewerkte lijsten raadpleegt u de [Het verschil tussen de
 
 Het nieuwe rapport van de Ingang van het Dagboek geeft u grotere controleerbaarheid door u toe te staan om aan systeemupdates, met inbegrip van te boren:
 
-* De veranderingen van de status op een project, een taak, of een kwestie
+* Statuswijzigingen voor een project, taak of uitgave
 * Verwijderde taken of problemen
 * Waarden in aangepaste velden
 * Geplande afsluitdatums
-* Wijzigingen in eigenaar project
+* Wijzigingen in eigenaar van project
 
 U kunt dit rapport bijvoorbeeld zo instellen dat activiteit wordt weergegeven rondom een specifiek aangepast veld, inclusief het project voor het aangepaste veld, op het moment dat een waarde werd ingevoerd, wat die waarde was, op het moment dat het veld werd bijgewerkt, wat de vorige waarde was, wat de nieuwe waarde was, welke gebruikers deze handelingen hebben voltooid, enzovoort.
 

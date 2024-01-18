@@ -3,9 +3,11 @@ title: Vierde kwartaal 2023 Andere verbeteringen
 description: Vierde kwartaal 2023 Andere verbeteringen
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,4 +23,3 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 Medewerkers/aanvragers beter informeren over de functies die beschikbaar zijn met een betaald Workfront-licentietype, kunnen nu alle opties zien die beschikbaar zijn in het hoofdmenu. Opties die niet beschikbaar zijn voor contribuanten worden grijs weergegeven.
 
 Zie voor meer informatie over het hoofdmenu [Overzicht van de bovenste navigatiebalk](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
-

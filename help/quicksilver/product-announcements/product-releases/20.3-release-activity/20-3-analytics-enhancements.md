@@ -2,20 +2,21 @@
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 Verbeterde analysemogelijkheden
-description: Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+description: Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
 # 20.3 Verbeterde analysemogelijkheden
 
-Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
 Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 

@@ -6,17 +6,18 @@ title: 21.2 Andere verbeteringen
 description: Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # 21.2 Andere verbeteringen
 
-Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## We zijn nu officieel Adobe Workfront
 
@@ -28,15 +29,15 @@ De meest prominente gebieden in de Adobe Workfront-toepassing en onze klantgeric
 
 * Aanmeldingsscherm, Navigatie boven, Proofing
 * Layout Templates UI, Main Menu, Custom Forms Export (alleen beschikbaar in de nieuwe Adobe Workfront-ervaring)
-* Workfront mobiele app (iOS en Android)
+* Workfront Mobile-app (iOS en Android)
 
 Gebieden die binnenkort worden bijgewerkt
 
 * Apps voor bureaublad en mobiele apparaten controleren
 * PDF exporteert voor lijsten en rapporten
-* Pictogram voor favicon op het tabblad van de browser
+* Pictogram voor favicon op het tabblad browser
 
-**Later bijwerken gebieden**
+**Gebieden die later worden bijgewerkt**
 
 * E-mailmeldingen
 
@@ -77,13 +78,13 @@ Ga voor meer informatie over de nieuwe objectkoppen in de nieuwe Workfront-ervar
 
 Workfront slaat nu objectstatussen op een nieuwe manier op.
 
-Deze wijzigingen hebben geen invloed op de manier waarop verzoeken om statuszoekopdrachten worden gedaan. API-aanvragen die een zoekopdracht naar objectstatus bevatten, retourneren echter een onvolledige lijst met groepsstatussen.
+Deze wijzigingen hebben geen invloed op de manier waarop verzoeken om statuszoekopdrachten worden gedaan. API-aanvragen met een zoekopdracht naar objectstatus retourneren echter een onvolledige lijst met groepsstatussen.
 
-Zie voor meer informatie [Core API-wijzigingen: Antwoorden van statuszoekacties](../../../wf-api/api/api-changes-search.md) .
+Zie voor meer informatie [Core API-wijzigingen: antwoorden op statuszoekopdrachten](../../../wf-api/api/api-changes-search.md) .
 
 ## Betalingen voor abonnementen voor gebeurtenissen bijgewerkt met alle velden die eindigen op de id
 
-Alle payloads met abonnementen voor gebeurtenissen bevatten nu elk veld dat eindigt op &#39;ID&#39;.
+Alle payloads met abonnementsabonnementen voor gebeurtenissen bevatten nu elk veld dat eindigt op &#39;ID&#39;.
 
 Het is belangrijk om op te merken dat elk voorwerp zijn eigen unieke reeks bijbehorende gebieden heeft, die een unieke reeks bijbehorende gebieden omvat die in identiteitskaart beëindigen. Dit betekent dat elke lading alle bijbehorende gebieden van dat voorwerp bevat die in identiteitskaart eindigen, elk voorwerp een verschillende reeks gebieden heeft die in identiteitskaart eindigen.
 

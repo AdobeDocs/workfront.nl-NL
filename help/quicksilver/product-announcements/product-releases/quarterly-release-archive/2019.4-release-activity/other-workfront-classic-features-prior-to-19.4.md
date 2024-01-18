@@ -5,10 +5,11 @@ title: Andere Klassieke Workfront-functies die vóór de release van 2019.4 naar
 description: De volgende functies waren vóór de release 2019.4 beschikbaar voor de Classic Production-omgeving van Workfront.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---

@@ -4,10 +4,11 @@ description: 21.4 Projectverbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar met versie 21.4, zie [21.4 Ove
 
 Op het tabblad Updates van een object kunt u nu afbeeldingen toevoegen door op het pictogram Afbeelding op de werkbalk te klikken. U kunt ook een afbeelding naar het updategebied slepen. De Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen voordat u het afbeeldingspictogram kunt zien.
 
-U kunt afbeeldingen zowel in updates als in reacties toevoegen. Een afbeeldingsminiatuur in de update geeft aan dat ontvangers een voorvertoning van de afbeelding in de browser kunnen bekijken of deze kunnen downloaden, en uit e-mail- en in-app-meldingen blijkt dat afbeeldingen aan de update zijn gekoppeld.
+U kunt afbeeldingen zowel in updates als in reacties toevoegen. Een afbeeldingsminiatuur in de update geeft aan dat ontvangers een voorvertoning van de afbeelding in de browser kunnen bekijken of deze kunnen downloaden, en uit e-mail- en in-app-meldingen blijkt dat de afbeeldingen aan de update zijn gekoppeld.
 
 Eerder was de enige manier om een afbeelding te delen in Workfront dat u deze aan een object koppelde als een document. Afbeeldingen die zijn toegevoegd op het tabblad Updates, zijn alleen beschikbaar op dat tabblad en niet op het tabblad Documenten.
 
@@ -36,13 +37,13 @@ We hebben het algoritme verbeterd dat wordt gebruikt bij het maken van slimme to
 
 Voorafgaand aan deze verbetering, bezat Workfront de taken op de oudertaken en andere gebruikersattributen met betrekking tot die taken wanneer het adviseren van gebruikers.
 
-Voor informatie over slimme toewijzingen raadpleegt u [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Zie voor informatie over slimme toewijzingen [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Nieuwe ervaring bij het maken van een project op basis van een sjabloon
 
 Om uw gebruik van Workfront in overeenstemming te brengen met de nieuwe ervaring van Workfront, hebben wij de interface voor het creëren van een project van malplaatje opnieuw ontworpen. De functionaliteit voor het maken van een project met een sjabloon is niet gewijzigd. Nochtans, omvatten sommige verbeteringen van deze onlangs opnieuw ontworpen interface het volgende:
 
-* Sjablooninformatie voorvertonen voordat u deze koppelt
+* Sjabloongegevens voorvertonen voordat u deze koppelt
 * Voeg malplaatjes aan een lijst van favorieten tijdens het proces van de projectverwezenlijking toe
 
 Wij hebben de interface voor het creëren van het project bijgewerkt zowel wanneer u het van de Projecten evenals van het gebied van Malplaatjes creeert.
@@ -57,7 +58,7 @@ Ter informatie: [Een project maken met een sjabloon](../../../manage-work/projec
 
 Om uw gebruik van Workfront in overeenstemming te brengen met de nieuwe ervaring van Workfront, hebben wij de interface voor het vastmaken van een malplaatje aan een project opnieuw ontworpen. De functionaliteit voor het koppelen van een sjabloon is niet gewijzigd. Nochtans, zijn er sommige verbeteringen van deze onlangs opnieuw ontworpen interface die het volgende omvatten:
 
-* Sjablooninformatie voorvertonen voordat u deze koppelt
+* Sjabloongegevens voorvertonen voordat u deze koppelt
 * Sjablonen toevoegen aan een lijst met favorieten tijdens het bijlageproces
 * Alle opties voor het beheer van sjabloon- en projectinstellingen in één doorlopende pagina weergeven
 
@@ -69,7 +70,7 @@ Voor een schonere en meer gestroomlijnde gebruikerservaring, hebben wij de waard
 
 Naast de gebieden van de Duur in de de Details van de Taak, geeft Taken en Nieuwe Taakdozen uit, werken wij ook de volgende gebieden bij om deze ervaring aan te passen:
 
-* Veld Duur bij geavanceerde toewijzingen
+* Veld voor duur bij het maken van geavanceerde toewijzingen
 * Het veld Vertraging niveaus bij het maken of bewerken van een taak
 * Frequentieveld bij het maken van een terugkerende taak (binnenkort beschikbaar)
 * Veld labelen bij het toevoegen van een voorganger (binnenkort beschikbaar)
@@ -94,7 +95,7 @@ Het weergeven en selecteren van opties voor selectievakjes en keuzerondjes in aa
 
 Dit hangt af van de positie van de velden in het aangepaste formulier. Als u een ander veld in dezelfde rij plaatst met het selectievakje of keuzerondje, hebben de opties mogelijk slechts voldoende horizontale ruimte om in één kolom weer te geven.
 
-Voor informatie over het invullen van een aangepast formulier raadpleegt u [Gegevens bewerken in aangepaste formuliervelden](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Zie voor informatie over het invullen van een aangepast formulier [Gegevens bewerken in aangepaste formuliervelden](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 Zie de secties voor informatie over het maken van een selectievakje of keuzerondje in een aangepast formulier [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) en [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) in het artikel [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

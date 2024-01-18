@@ -1,19 +1,20 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Archief met driemaandelijkse release
-description: Archief met driemaandelijkse release
+title: Archief met kwartaalrelease
+description: Archief met kwartaalrelease
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 159a5bd0-e0f4-4670-8143-dfc24a7caf81
-source-git-commit: 112d9b86d57c636ceed62b0787d914afcad94832
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-# Archief met driemaandelijkse release
+# Archief met kwartaalrelease
 
 * [20.4 - releaseoverzicht](/help/quicksilver/product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
 * [20.3 - releaseoverzicht](/help/quicksilver/product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md)

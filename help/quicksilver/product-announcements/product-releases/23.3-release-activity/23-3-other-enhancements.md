@@ -3,9 +3,11 @@ title: 23.3 Andere verbeteringen
 description: 23.3 Andere verbeteringen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -21,10 +23,10 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiec
 Thuis heeft een belangrijke update ontvangen om gebruikers van alle typen beter in staat te stellen Workfront te gebruiken voor hun specifieke behoeften. De nieuwe ervaring van het Huis biedt visuele en inhoudaanpassingen voor uw Homepage aan, die de flexibiliteit verstrekt om slechts de informatie te tonen die voor uw werk het meest relevant is. Met Nieuwe startpagina kunt u:
 
 * Maak een keuze uit een array van productiviteitswidgets die de informatie bevatten die voor u het belangrijkst is, compleet met relevante gereedschappen die u rechtstreeks vanuit bepaalde widgets kunt openen
-* De vormgeving en lay-out van uw startpagina aanpassen; U kunt uw Home aanpassen met een kleurrijke banner of door widgets op het dynamische canvas te verplaatsen en de grootte ervan te wijzigen als u dat passend acht
+* De vormgeving en lay-out van uw startpagina aanpassen; uw startpagina aanpassen met een kleurrijke banner of door widgets op het dynamische canvas te verplaatsen en de grootte ervan aan te passen aan uw wensen
 * De informatie van de filter widget wordt gebaseerd op wanneer het werk, creeer douane aan-doe lijsten, en meer!
 
-New Home is een belangrijke nieuwe functie die we graag verder willen ontwikkelen en verbeteren. Deel uw ervaring met de functie Nieuwe startpagina via de feedbackknop in de app.
+New Home is een belangrijke nieuwe functie die we graag verder willen ontwikkelen en verbeteren. Deel uw ervaring met de functie Nieuwe introductiepagina via de feedbackknop in de app.
 
 Nieuwe introductiepagina is de standaardervaring voor alle gebruikers bij de release. U kunt er echter voor kiezen om terug te keren naar de bestaande Home-ervaring terwijl we de mogelijkheden van de website blijven ontwikkelen.
 
@@ -34,7 +36,7 @@ Zie voor meer informatie [Aan de slag met New Home in Adobe Workfront](/help/qui
 
 ## Nieuwe ervaring met opmerkingen voor extra objecten
 
-De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kort na de release 23.3 in Production: sjabloontaken, sjablonen, tijdbladen, teams, gebruikers, programma&#39;s, portfolio&#39;s.
+De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kort na de release 23.3 to Production: sjabloontaken, sjablonen, tijdbladen, teams, gebruikers, programma&#39;s, portfolio&#39;s.
 
 Dit is de enige opmerkingervaring voor deze objecten, aangezien de oudere opmerkingervaring wordt verwijderd.
 

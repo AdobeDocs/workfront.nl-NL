@@ -4,25 +4,26 @@ description: Updates weergeven en voelen tijdens het tijdsbestek van de release 
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
+recommendations: noDisplay, noCatalog
+exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
-
 
 # Updates weergeven en voelen tijdens het tijdsbestek van de release van 23.2
 
 Op deze pagina vindt u een beschrijving van kleine updates van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 23.2 zijn gemaakt. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 23.2 raadpleegt u [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 23.2 [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Updates voor de vormgeving van de lijst Concepten op het gebied Verzoeken
 
 >[!NOTE]
 >
->Voorvertoning release: 4 april 2023; Planned Production release: 20 april 2023
+>Voorvertoningsrelease: 4 april 2023; Planned Production release: 20 april 2023
 
 We hebben de lijst Concepten op het gebied van verzoeken bijgewerkt om deze in overeenstemming te brengen met recentere lijsten in Workfront.
 Enkele updates omvatten het volgende:
@@ -37,7 +38,7 @@ Zie voor meer informatie [Verzoeken maken op basis van concepten](/help/quicksil
 
 >[!NOTE]
 >
->Voorvertoning release: 9 februari 2023; Planned Production release: 2 maart 2023
+>Voorvertoningsrelease: 9 februari 2023; Planned Production release: 2 maart 2023
 
 Aanvullende gebruikersgegevens worden nu weergegeven wanneer u gebruikers toevoegt in de volgende gebieden:
 
@@ -47,7 +48,7 @@ Aanvullende gebruikersgegevens worden nu weergegeven wanneer u gebruikers toevoe
 * Dialoogvenster Herhaling bewerken
 * Teamdialoogvenster maken
 * Teampagina bewerken
-* Dialoogvenster Abonneren
+* Het dialoogvenster Abonneren
 * Dialoogvenster Leden toevoegen groeperen
 
 Wanneer u nu een gebruiker toevoegt aan de bovenstaande gebieden, naast de gebruikersnaam en avatar, worden ook de primaire rol en de e-mail van de gebruiker weergegeven. Zo kunt u beter onderscheid maken tussen meerdere gebruikers met dezelfde of vergelijkbare namen.
@@ -56,17 +57,17 @@ Voor meer informatie, en om een videodemonstratie van een gelijkaardige eigensch
 
 ## Versiepictogram van document is bijgewerkt in Documentdetails
 
-We hebben het uiterlijk van het pictogram Documentversie bijgewerkt. Het pictogram geeft nu een rode stipnotatie weer wanneer u in een oudere versie werkt en een aanwijsapparaat dat &quot;Oudere versie&quot; aangeeft.
+We hebben de vormgeving van het pictogram Documentversie bijgewerkt. Het pictogram geeft nu een rode stipnotatie weer wanneer u in een oudere versie werkt en een aanwijsapparaat dat &quot;Oudere versie&quot; aangeeft.
 
 ## Nieuwe ervaring bij het kopiëren van een of meerdere sjabloontaken
 
 >[!NOTE]
 >
->Voorvertoning release: 16 februari 2023; Planned Production release: 2 maart 2023
+>Voorvertoningsrelease: 16 februari 2023; Planned Production release: 2 maart 2023
 
 Om uw gebruik van Adobe Workfront overal in de toepassing verenigbaar te maken, hebben wij de interface wanneer het kopiëren van of het bewegen van een malplaatjetaak opnieuw ontworpen. Dit is momenteel beschikbaar wanneer het kopiëren van een malplaatjetaak op het taakniveau of het kopiëren van een taak of veelvoudige taken in een lijst.
 
-Enkele verbeteringen zijn:
+Enkele verbeteringen zijn onder meer:
 
 * Alle informatie die u moet bijwerken voordat u de sjabloontaak kopieert of verplaatst, wordt op één doorlopende pagina weergegeven.
 * Workfront controleert of u onmiddellijk toegang hebt tot de doelsjabloon nadat u de sjabloon hebt gekozen. Voorafgaand aan deze verbetering, een waarschuwingsbericht erop wijst die dat u niet de correcte toegang hebt getoond nadat u het exemplaar of de beweging bevestigde, die in extra stappen resulteerde en de actie niet werd toegestaan.

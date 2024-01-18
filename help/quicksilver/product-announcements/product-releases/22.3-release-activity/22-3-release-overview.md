@@ -4,17 +4,18 @@ description: 22.3 Overzicht van de release
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3220'
 ht-degree: 0%
 
 ---
 
 # 22.3 Overzicht van de release
 
-Deze pagina bevat informatie over functionaliteit die is opgenomen in de release 22.3. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige functies zijn ook beschikbaar in Adobe Workfront Classic. echter [Workfront Classic wordt in maart 2022 stopgezet](https://one.workfront.com/s/new-workfront-experience), gevolgd door de einddatum voor Workfront Classic in juli 2022.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.3. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige functies zijn ook beschikbaar in Adobe Workfront Classic, maar [Workfront Classic wordt in maart 2022 stopgezet](https://one.workfront.com/s/new-workfront-experience), gevolgd door de einddatum voor Workfront Classic in juli 2022.
 
 Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving.
 
@@ -24,7 +25,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor beheer van bronnen](#resource-management-enhancements)
 * [Verbeteringen rapporteren](#reporting-enhancements)
-* [Verbeterde integratie](#integration-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -44,8 +45,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
     </td>
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -58,7 +59,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    </td> 
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
      <li> <p>Productieversie: 15 september 2022</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -75,8 +76,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    </td> 
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 1 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 1 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -88,8 +89,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    </td> 
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -101,8 +102,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
     </td> 
     <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 9 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 9 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -115,8 +116,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
     </ul> </td> 
     <td>
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
    </td>
@@ -124,13 +125,13 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Besturing voor het maken van een leeg project</a></p></p> <p>Als systeem of groepsbeheerder, kunt u nu controleren of de gebruikers lege projecten kunnen tot stand brengen, zonder een malplaatje te gebruiken. Wij hebben nieuw het plaatsen in het gebied van de Voorkeur van het Project van Opstelling geïntroduceerd die u toestaat om het creëren van lege projecten op de volgende gebieden onbruikbaar te maken:</p> 
    <ul>
-   <li><p>Van de Nieuwe optie van het Project in een lijst van projecten</p></li>
+   <li><p>Uit de optie Nieuw project in een lijst met projecten</p></li>
    <li><p>Wanneer het omzetten van een kwestie in een project van de uitgiftepagina</p></li>
    </ul>
    <p>Het nieuwe plaatsen is "staat gebruikers toe om projecten tot stand te brengen zonder een malplaatje te gebruiken"en het wordt toegelaten door gebrek.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 19 mei 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 19 mei 2022<br></p> </li> 
      <li> <p>Productieversie: met de release van 22.3 </p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -141,7 +142,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Een groep deactiveren op de pagina Groepen</a> </p> <p>Onlangs hebben we de mogelijkheid toegevoegd om groepen te deactiveren en opnieuw te activeren. Om die actie sneller en gemakkelijker te maken, hebben wij het aan de pagina van een groep toegevoegd. Nadat u op de naam van een groep hebt geklikt om naar de bijbehorende pagina te gaan, kunt u het menu Meer selecteren <img src="assets/more-icon.png"> naast de naam van de groep selecteert u Deactiveren of Opnieuw activeren.</p> <p>Eerder kon u een groep alleen deactiveren of opnieuw activeren met het selectievakje Is actief op de pagina Details. </p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 14 april 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 14 april 2022<br></p> </li> 
      <li> <p>Productieversie: met de release van 22.3 </p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -152,7 +153,7 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Video's toevoegen aan aangepaste formulieren</a> </p> <p>Nu kunt u een nieuwe wijze van informatie, visuele interesse, en creativiteit aan een douaneformulier verstrekken door een video toe te voegen. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken de video op elk gewenst moment afspelen.</p> <p>Eerder kon u alleen op tekst gebaseerde velden en afbeeldingen aan een aangepast formulier toevoegen.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 14 april 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 14 april 2022<br></p> </li> 
      <li> <p>Productieversie: met de release van 22.3 </p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -177,8 +178,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    <p>Voorafgaand aan deze verbetering, kon u goedkeuringen slechts delegeren.</p></td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 9 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 9 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -189,8 +190,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 9 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 9 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -201,8 +202,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    <p>Naast een bijgewerkte gebruikersinterface die de rest van de nieuwe ervaring van Workfront aanpast, hebben wij ook de capaciteit toegevoegd om een kwestie in lege projecten van een lijst of een rapport om te zetten.</p></td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -212,8 +213,8 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Slimme tags toepassen in de updatestream</a></p> <p>De codering van gebruikers in de updatestream is verbeterd wanneer u een nieuwe update maakt of op een bestaande update reageert. Wanneer u nu een gebruiker codeert om deze in een update op te nemen, naast zijn of haar naam en avatar, geven we ook zijn of haar primaire rol en e-mail weer. Zo kunt u beter onderscheid maken tussen meerdere gebruikers met dezelfde of vergelijkbare namen.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 19 mei 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 19 mei 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -223,23 +224,23 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe syntaxis voor berekeningen in aangepaste velden</a> </p> <p>Ter voorbereiding op toekomstige verbeteringen die u helpen berekeningen toe te voegen aan aangepaste formulieren, hebben we de syntaxis gestandaardiseerd voor velden waarnaar wordt verwezen en die u toevoegt aan een berekening. Het is eenvoudig om deze nieuwe syntaxis te gebruiken omdat het systeem het voor u ingaat wanneer u begint de naam van een gebied te typen en dan het te selecteren.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 5 mei 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 5 mei 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Houd nauwkeurige informatie wanneer twee gebruikers met een gemeenschappelijke rol bij een goedkeuringsproces betrokken zijn</a> </p> <p>Om ervoor te zorgen dat uw gegevens voor het goedkeuren van uw werk accuraat zijn, hebben we een wijziging aangebracht in de manier waarop goedkeuringsgegevens worden vastgelegd voor een onderdeel wanneer er een goedkeuringsproces met meerdere rollen aan het onderdeel is gekoppeld.</p> <p>Sommige goedkeuringsprocessen vereisen goedkeuring van twee verschillende rollen, en twee verschillende fiatteurs zouden één van die rollen in gemeenschappelijk kunnen hebben. Nu wanneer dit gebeurt, nadat de goedkeuringsbesluiten zijn genomen, registreert Workfront elke fiatteur en zijn respectieve rol verbonden aan het goedkeuringsproces.</p> <p>Vóór deze wijziging werden beide goedkeuringen vastgelegd voor de tweede gebruiker omdat deze een van de goedkeuringsrollen deelde met de eerste fiatteur. In dit geval heeft de tweede fiatteur de informatie van de eerste fiatteur overschreven.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Houd nauwkeurige informatie wanneer twee gebruikers met een gemeenschappelijke rol bij een goedkeuringsproces betrokken zijn</a> </p> <p>Om ervoor te zorgen dat uw gegevens voor het goedkeuren van uw werk accuraat zijn, hebben we een wijziging aangebracht in de manier waarop goedkeuringsgegevens worden vastgelegd voor een onderdeel wanneer er een goedkeuringsproces met meerdere rollen aan het onderdeel is gekoppeld.</p> <p>Sommige goedkeuringsprocessen vereisen goedkeuring van twee verschillende rollen, en twee verschillende fiatteurs zouden één van die rollen in gemeenschappelijk kunnen hebben. Wanneer dit gebeurt, registreert Workfront, nadat de goedkeuringsbesluiten zijn genomen, elke fiatteur en zijn respectieve rol verbonden aan het goedkeuringsproces.</p> <p>Vóór deze wijziging werden beide goedkeuringen vastgelegd voor de tweede gebruiker omdat deze een van de goedkeuringsrollen deelde met de eerste fiatteur. In dit geval heeft de tweede fiatteur de informatie van de eerste fiatteur overschreven.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 21 april 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 21 april 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic werd in maart 2022 stopgezet</a>, gevolgd door de einddatum van de levenscyclus voor Workfront Classic in juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic werd in maart 2022 stopgezet</a>, gevolgd door de einddatum voor Workfront Classic in juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -272,24 +273,24 @@ Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de pr
     </ul> </td> 
    <td><strong>Beschikbaar op deze data:</strong> 
     <ul> 
-     <li> <p>Voorvertoning release: 10 februari 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 10 februari 2022<br></p> </li> 
      <li> <p>Productieversie: 21 april 2022 </p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic werd in maart 2022 stopgezet</a>, gevolgd door de einddatum van de levenscyclus voor Workfront Classic in juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic werd in maart 2022 stopgezet</a>, gevolgd door de einddatum voor Workfront Classic in juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Alleen mappen delen in de bovenste vijf niveaus van een mappenhiërarchie</a> (Deze koppeling verwijst naar de opmerkingen bij de release 20.2, toen deze functie voor het eerst werd geïntroduceerd in Voorvertoning.)</p> <p>Voor de beste prestaties voor gebruikers die mappen delen, beperken we het delen momenteel tot de bovenste vijf niveaus in een mappenhiërarchie van een object.</p> <p>Elke map op het zesde niveau of erft de configuraties voor delen van de map direct erboven.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> 
     <ul> 
-     <li> <p>Voorvertoning release: 10 februari 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 10 februari 2022<br></p> </li> 
      <li> <p>Productieversie: met de release van 22.2 <span style="color: #ff0000; font-weight: bold;">Deze functie is tijdelijk niet beschikbaar. Deze pagina wordt bijgewerkt wanneer de functie beschikbaar is in Production.</span></p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wordt in maart 2022 stopgezet</a>, gevolgd door de einddatum van de levenscyclus voor Workfront Classic in juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic wordt in maart 2022 stopgezet</a>, gevolgd door de einddatum voor Workfront Classic in juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -304,7 +305,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
                     <td><span class="bold">Beschikbaar op deze data:</span>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 22.4<br /><span style="color: #ff0000; font-weight: bold;">Deze functie wordt verwijderd uit Voorvertoning op 9 januari 2023. Zie voor meer informatie de <a href="../23.1-release-activity/23-1-release-overview.md">23.1 Overzicht van de release pagina.</a> </span></p>
+                                <p>Voorvertoning release: gedurende de gehele releaseperiode van 22.4<br /><span style="color: #ff0000; font-weight: bold;">Deze functie wordt verwijderd uit Voorvertoning op 9 januari 2023. Zie de klasse <a href="../23.1-release-activity/23-1-release-overview.md">23.1 Overzicht van de release pagina.</a> </span></p>
                             </li>
                             <li>
                                 <p>Productieversie: TBD</p>
@@ -329,7 +330,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Voorkeuren voor sorteren en bruikbaarheidsverbeteringen in Workload Balancer</a> </p> <p>Om uw ervaring te verbeteren wanneer het gebruiken van de Balancer van de Werklast, hebben wij de volgende verhogingen geïntroduceerd, met inbegrip van verbeterde sortering in de Unsigned and Assigned secties, een nieuwe blik en een nieuw gevoel voor projectbars, een bijgewerkt, gemakkelijker te lezen ontwerp voor Geprojecteerde Datums, en meer.</p> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
      <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -354,7 +355,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
 </a> </p> <p>Om de informatie van de middelbegroting van de Planner van het Middel te weerspiegelen, hebben wij een nieuw Geprogrammeerd gebied van het Puren van het Middel aan lijsten en rapporten toegevoegd. Verschillende velden zijn uit lijsten en rapporten verwijderd omdat ze verwezen naar verouderde gereedschappen die in eerdere versies uit Workfront zijn verwijderd.</p> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 23 juni 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 23 juni 2022<br></p> </li> 
      <li> <p>Productieversie: 23 juni 2022</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -364,7 +365,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
  </tbody> 
 </table>
 
-### Verbeterde integratie {#integration-enhancements}
+### Verbeteringen voor integratie {#integration-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -376,10 +377,10 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Integratie Adobe Workfront voor Experience Manager Assets</a> </p> <p>We zijn blij te kunnen aankondigen dat de Adobe Workfront Experience Manager Assets-integratie nu beschikbaar is voor Cloud Service.</p>
-   <p>We hebben ook nieuwe functionaliteit geïntroduceerd voor zowel Cloud Service als Assets Essentials.</p> </td> 
+   <p>Wij hebben ook nieuwe functionaliteit voor zowel Cloud Service als Assets Essentials geïntroduceerd.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: N.v.t.<br></p> </li> 
+     <li> <p>Voorvertoning release: n.v.t.<br></p> </li> 
      <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -387,10 +388,10 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Meerdere bestanden combineren in één proefdruk in de Creative Cloud-plug-in</a> </p> <p>U kunt nu externe bestanden uploaden met de inhoud die u hebt gemaakt in de Adobe Workfront for Creative Cloud plug-in om proefdrukken met meerdere bestanden te maken in Workfront. Externe bestanden worden weergegeven als extra proefdrukpagina's in Workfront. Met deze verbetering hebben we ook de vormgeving van de proefdrukervaring bijgewerkt.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Meerdere bestanden combineren in één proefdruk in de insteekmodule Creative Cloud</a> </p> <p>U kunt nu externe bestanden uploaden met de inhoud die u hebt gemaakt in de insteekmodule Adobe Workfront for Creative Cloud om proefdrukken met meerdere bestanden te maken in Workfront. Externe bestanden worden weergegeven als extra proefdrukpagina's in Workfront. Met deze verbetering hebben we ook de vormgeving van de proefdrukervaring bijgewerkt.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: N.v.t.<br></p> </li> 
+     <li> <p>Voorvertoning release: n.v.t.<br></p> </li> 
      <li> <p>Productieversie: TBD</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -403,7 +404,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
    <p>Workfront-beheerders kunnen de integratie van SharePoint en oudere SharePoint afzonderlijk in- en uitschakelen op basis van de behoeften van hun organisatie.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
      <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
@@ -428,8 +429,8 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
    <p>U kunt ook andere proefdrukgebruikers voorzien van codes in opmerkingen en antwoorden. Iedereen die u een tag aanbrengt, ontvangt een e-mailmelding.</p>
     <ul> 
-     <li> <p>Voorvertoning release: N.v.t.<br></p> </li> 
-     <li> <p>Productieversie: Beschikbaar in de Apple App Store en Google Play Store van medio tot eind juli 2022.</p> </li> 
+     <li> <p>Voorvertoning release: n.v.t.<br></p> </li> 
+     <li> <p>Productieversie: beschikbaar in de Apple App Store en Google Play Store in juli 2022.</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -452,8 +453,8 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Bijgewerkte tijdbladen</a> </p> <p>We blijven uw ervaring verbeteren en bijwerken wanneer we met tijdbladen werken. </p> </td>
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 2 juni 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 2 juni 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -463,8 +464,8 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De blik-en-voelen updates tijdens het 22.3 versietijdschema</a> </p> <p>Kleine updates van het uiterlijk van verschillende onderdelen van de toepassing worden uitgevoerd binnen de releaseperiode van 22.3. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.</p> </td>
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: De hele releaseperiode van 22.3<br></p> </li> 
-     <li> <p>Productieversie: Minimaal 2 weken na de release naar Voorvertoning (tenzij anders aangegeven)</p> </li> 
+     <li> <p>Voorvertoning release: gedurende de gehele releaseperiode van 22.3<br></p> </li> 
+     <li> <p>Productieversie: minimaal 2 weken na publicatie voor Voorbeeld (tenzij anders vermeld)</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -474,8 +475,8 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatisch vernieuwen van token-rotatie inschakelen in uw aangepaste OAuth2-toepassingen</a></p> <p>Om u meer controle over de veiligheid van uw douaneOAuth2 toepassingen toe te staan, hebben wij aan optie toegevoegd om symbolenomwenteling toe te laten verfrissen. Wanneer deze optie wordt toegelaten, telkens als een vernieuwingstoken wordt gebruikt, creeert uw toepassing automatisch en verzendt nieuw verfrist teken, en maakt oude onbruikbaar.</p> <p>Uw toepassing moet het nieuwe vernieuwingstoken opslaan na elke verfrissing. Workfront slaat dit token voor vernieuwen niet op.</p> <p>Eerder, vernieuw tokens verliepen na een vastgestelde hoeveelheid tijd die in de douane OAuth2 toepassingsmontages wordt gevormd.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 5 mei 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 5 mei 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -485,8 +486,8 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3. Z
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">PKCE gebruiken in uw aangepaste OAuth2-integratie voor webtoepassingen van één pagina</a></p> <p>U kunt nu webtoepassingen van één pagina maken in uw aangepaste integratie met PKCE. PKCE is een veilige autorisatiestroom die goed werkt bij dynamisch vernieuwende toepassingen zoals mobiele apps, maar waardevol is voor alle OAuth2-clients. In plaats van een statisch clientgeheim gebruikt PKCE een dynamisch gegenereerde tekenreeks, waardoor het risico van een gelekt clientgeheim wordt verwijderd.</p> <p>Eerder, gebruikten de beschikbare opties voor douane OAuth2 toepassingen of de naam en het wachtwoord van een gebruiker, of een cliëntgeheim.</p> </td> 
    <td> <p><b>Beschikbaar op deze data:</b> </p> 
     <ul> 
-     <li> <p>Voorvertoning release: 5 mei 2022<br></p> </li> 
-     <li> <p>Productieversie: Met de release van 22.3</p> </li> 
+     <li> <p>Voorvertoningsrelease: 5 mei 2022<br></p> </li> 
+     <li> <p>Productieversie: met de release van 22.3</p> </li> 
     </ul> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> 
     <ul> 
      <li> <p>De nieuwe Adobe Workfront-ervaring </p> </li> 
@@ -527,15 +528,15 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 14 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuw in API-versie 14](../../../wf-api/api/new-api-version-14.md).
+Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 14](../../../wf-api/api/new-api-version-14.md).
 
-Voor informatie over API-versies raadpleegt u [API-versieschema en ondersteuningsschema](../../../wf-api/api/api-version-support-schedule.md).
+Zie voor informatie over API-versies [API-versieschema en ondersteuningsschema](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Workfront-onderhoudsupdates
 
 Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 zijn gemaakt, raadpleegt u [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## 22.3 Release Webinar
+## 22.3 Release-webinar
 
 De release van 22.3 webinar werd gepresenteerd op 23 juni 2022. U kunt de opname weergeven [hier](https://webinars.on24.com/adobe_workfront/whatsnew223?partnerref=WF1).
 <!--
@@ -564,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Zie voor meer informatie de [Pagina met updates van trainingsreleases](https://one.workfront.com/s/training-release-updates).
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Zie de klasse [Pagina met updates van trainingsreleases](https://one.workfront.com/s/training-release-updates).
 
 ## Functionaliteit wordt niet meer ondersteund
 
@@ -572,4 +573,4 @@ Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en ha
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over ondersteunde browsers raadpleegt u [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).
+Zie voor meer informatie over ondersteunde browsers [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).

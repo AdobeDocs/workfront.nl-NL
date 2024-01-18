@@ -4,10 +4,11 @@ description: 22.2 Verbeteringen voor startpagina
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 18ff9c45-f8f0-467c-b232-91e863f16cb8
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,9 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-de week van 4 april 2022.
+4 april 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 raadpleegt u [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbeteringen aan filters in de Lijst van het Werk van het Huis
 

@@ -5,10 +5,11 @@ title: R1 Voorvertoning 5
 description: Deze pagina beschrijft alle veranderingen beschikbaar in het milieu van de Voorproef met R1 Voorproef 5 versie. De functionaliteit op deze pagina is op 16 maart 2017 beschikbaar gesteld in de voorvertoningsomgeving.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---

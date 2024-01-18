@@ -3,24 +3,25 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-releaseactiviteit: Week van 16 november 2020"'
+title: "Workfront Fusion release activity: Week van 16 november 2020"
 description: Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 16 november 2020 zijn aangebracht.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9221a69e-2482-478b-95a9-f62dd28538d6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion-releaseactiviteit: week van 16 november 2020
+# Workfront Fusion release activity: Week van 16 november 2020
 
 Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 16 november 2020 zijn aangebracht.
 
-Voor een lijst met alle recente wijzigingen raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
 
@@ -46,7 +47,7 @@ Voor meer informatie over scenario-uitvoering, zie [Uitvoering, cycli en fasen v
 
 Om scenario&#39;s gemakkelijker te maken bouwen, hebben wij sommige toetsenbordkortere weg toegevoegd:
 
-* Ctrl/Cmd+Shift+Enter: Een scenario eenmaal uitvoeren
+* Ctrl/Cmd+Shift+Enter: een scenario eenmaal uitvoeren
 * Ctrl/Cmd + Shift + S: Een scenario opslaan
 
 Zie voor meer informatie over het ontwikkelen van scenario&#39;s voor Workfront Fusion 2.0 [Een scenario maken in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).

@@ -4,10 +4,11 @@ description: 23.1 Verbeteringen voor mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5fb7236c-c1fa-4a9a-9b4e-67a28dbaf6d2
-source-git-commit: 97db4e7bb5c1428c9a2d20b1ec80734b73ba8b4a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 23.1 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 16 januari 2023.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 raadpleegt u [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Borden zijn nu beschikbaar in de mobiele app
 

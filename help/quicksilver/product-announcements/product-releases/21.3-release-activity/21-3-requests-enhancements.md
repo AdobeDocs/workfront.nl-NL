@@ -4,10 +4,11 @@ description: 21.3 Verzoeken verbeterd
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e3cdb642-83f5-4dc0-a4da-1f9378ab3914
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.3 van het dialoogvenster Voorvertoning. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.3 raadpleegt u [21.3 Overzicht van de release](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.3 [21.3 Overzicht van de release](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Verzoeken zoeken zoeken op recente paden of door te zoeken met een trefwoord
 

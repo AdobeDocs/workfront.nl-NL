@@ -1,21 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Functionaliteit beschikbaar gesteld in Voorvertoning in 2016
-description: De volgende functies zijn beschikbaar gesteld in de voorvertoningsomgeving in 2016. Deze eigenschappen zijn gepland om aan het productiemilieu met R1 versie vrij te geven.
+title: In 2016 in Voorvertoning beschikbaar gestelde functionaliteit
+description: De volgende functies zijn beschikbaar gesteld in de voorvertoningsomgeving in 2016. Deze eigenschappen zijn gepland om aan het productiemilieu met de R1 versie vrij te geven.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-# Functionaliteit beschikbaar gesteld in Voorvertoning in 2016
+# In 2016 in Voorvertoning beschikbaar gestelde functionaliteit
 
-De volgende functies zijn beschikbaar gesteld in de voorvertoningsomgeving in 2016. Deze eigenschappen zijn gepland om aan het productiemilieu met R1 versie vrij te geven.
+De volgende functies zijn beschikbaar gesteld in de voorvertoningsomgeving in 2016. Deze eigenschappen zijn gepland om aan het productiemilieu met de R1 versie vrij te geven.
 
 ## Verbeteringen in bronnenplanning
 
@@ -43,11 +44,11 @@ Schaduwen van gebruikerstoewijzing op de tijdlijn van de planning wanneer het pl
 
 Eerder werd de toewijzingsschaduw standaard weergegeven en kon deze niet worden uitgeschakeld.
 
-Voor meer informatie over hoe te om gebruikerstoewijzingsopties toe te laten, zie &quot;gebruikerstoewijzingen in de Plannende gebieden beheren&quot;.
+Voor meer informatie over hoe te om de opties van de gebruikerstoewijzing toe te laten, zie &quot;gebruikerstoewijzingen in de Plannende gebieden beheren&quot;.
 
 ## Het Malplaatje van de lay-out bepaalt of de Nieuwe of Oudere Kalender in het Mijn Gebied van het Werk toont
 
-**Voorvertoning sandbox: 7 december 2016; Vroege toegang: 14 dec. 2016** 
+**Voorvertoning sandbox: 7 december 2016; Vroege toegang: 14 december 2016** 
 
 De nieuwe kalender wordt standaard weergegeven in het gebied Mijn werk wanneer geen lay-outsjabloon wordt toegepast.
 
@@ -70,11 +71,11 @@ U kunt Workfront van Vooruitzichten voor Bureau 365 gebruiken, zoals die in de v
 
 ## Kolommen in een lijst opnieuw rangschikken met Slepen en neerzetten
 
-**Vroege toegang: 20 feb. 2016**
+**Vroege toegang: 20 februari 2016**
 
 U kunt de volgorde van kolommen in een lijst wijzigen door een kolom van de ene locatie te slepen en in een andere plaats neer te zetten.
 
-Dit is vooral handig wanneer u het Gantt-diagram en de lijstweergave tegelijk bekijkt en de kolom die u wilt weergeven, niet links op de pagina wordt weergegeven. 
+Dit is vooral handig wanneer u het Gantt-diagram en de lijstweergave tegelijk bekijkt en de kolom die u wilt weergeven, niet aan de linkerkant van de pagina wordt weergegeven. 
 
 Zie voor meer informatie [Kolombreedte en -volgorde wijzigen](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
@@ -86,7 +87,7 @@ Zie voor meer informatie over dashboards [Een dashboard maken](../../../../repor
 
 ## Toegang tot aangepaste Forms beheren
 
-**Voorvertoning sandbox: 23 jan. 2016**
+**Voorvertoning sandbox: 23 januari 2016**
 
 U kunt nu bepalen wie toegang heeft tot een aangepast formulier door toegang te verlenen aan individuele gebruikers, teams, rollen, groepen of bedrijven. 
 
@@ -96,6 +97,6 @@ Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../../..
 
 ## Integratie met Adobe Creative Cloud
 
-**Invoegtoepassing beschikbaar voor downloaden: April 2016**
+**Invoegtoepassing beschikbaar voor downloaden: april 2016**
 
-De extensie Workfront voor Adobe Creative Cloud is ontworpen om u in staat te stellen elementen die u in de Creative Cloud maakt, op te slaan en te exporteren naar Workfront. Hierdoor kunt u het goedkeurings- en controleproces versnellen.
+De extensie Workfront voor Adobe Creative Cloud is ontworpen om u in staat te stellen elementen die u in het Creative Cloud maakt, op te slaan en te exporteren naar Workfront. Hierdoor kunt u het goedkeurings- en controleproces versnellen.

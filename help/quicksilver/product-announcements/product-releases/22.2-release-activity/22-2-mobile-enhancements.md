@@ -4,10 +4,11 @@ description: 22.2 Verbeteringen voor mobiele apparaten
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 72761545-9781-4a66-8672-2ff6a15cce9f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,9 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-de week van 4 april 2022.
+4 april 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 raadpleegt u [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Tekeningen en opmerkingen over proefdocumenten in de mobiele app
 

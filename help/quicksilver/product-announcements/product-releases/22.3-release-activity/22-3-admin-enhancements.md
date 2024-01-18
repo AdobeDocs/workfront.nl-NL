@@ -4,17 +4,18 @@ description: 22.3 Verbeteringen voor beheerders
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
 
 # 22.3 Verbeteringen voor beheerders
 
-Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de week van 11 juli 2022. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 gaat u naar [22.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de week van 11 juli 2022. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Adobe Workfront integreren met JumpSeat
 
@@ -86,7 +87,7 @@ Zie voor meer informatie [Objectkoppen aanpassen met een lay-outsjabloon](/help/
 
 Als systeem of groepsbeheerder, kunt u nu controleren of de gebruikers lege projecten kunnen tot stand brengen, zonder een malplaatje te gebruiken. Wij hebben nieuw het plaatsen in het gebied van de Voorkeur van het Project van Opstelling geïntroduceerd die u toestaat om het creëren van lege projecten op de volgende gebieden onbruikbaar te maken:
 
-* Van de Nieuwe optie van het Project in een lijst van projecten
+* Uit de optie Nieuw project in een lijst met projecten
 
 * Wanneer het omzetten van een kwestie in een project van de uitgiftepagina
 

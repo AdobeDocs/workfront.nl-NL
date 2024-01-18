@@ -4,10 +4,11 @@ description: 21.3 Projectverbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1df4ccdb-5b74-414c-a622-b0a5ed30a8c4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.3 raadpleegt u [21.3 Overzicht van de release](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.3 [21.3 Overzicht van de release](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Een sjabloon koppelen aan een groep
 
@@ -155,5 +156,5 @@ We hebben het eenvoudiger gemaakt om een aangepast formulier toe te voegen dat i
 
 Eerder, toen u een aangepast formulier aan een object toevoegde, ging de pagina naar de bewerkingsmodus en moest u alle vereiste velden op het formulier invullen voordat u het naar het object kon opslaan. Dit was lastig toen het formulier bestemd was om door een andere gebruiker te worden ingevuld, of wanneer u nog niet wist wat u een vereist veld op het formulier moest plaatsen.
 
-Voor informatie over het toevoegen van een aangepast formulier aan een object raadpleegt u [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Zie voor informatie over het toevoegen van een aangepast formulier aan een object [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

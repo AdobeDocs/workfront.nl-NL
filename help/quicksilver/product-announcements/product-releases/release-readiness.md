@@ -5,8 +5,9 @@ title: Voorbereiden op een [!DNL Adobe Workfront] vrijgeven
 description: Volg deze tips om uw organisatie voor elke nieuwe Workfront-release probleemloos bij te werken.
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -96,7 +97,7 @@ Voor meer informatie over de [!UICONTROL Preview Sandbox] milieu, zie [De [!DNL 
 
 ### De releasewebinar bijwonen
 
-[!DNL Workfront] gastheren een Verlenen Webinar kort voor sommige versies. Hier, de [!DNL Workfront] het productteam verklaart en toont nieuwe eigenschappen en functionaliteit, en kan vragen van die het bijwonen beantwoorden.
+[!DNL Workfront] gastheren een Verlenen Webinar kort voor sommige versies. Hier, [!DNL Workfront] het productteam verklaart en toont nieuwe eigenschappen en functionaliteit, en kan vragen van die het bijwonen beantwoorden.
 
 Release-webinars worden aangekondigd via de [!DNL Workfront] Aankondigingscentrum. Registratiekoppelingen vindt u op de overzichtspagina van de release.
 
@@ -115,7 +116,7 @@ Neem bovendien contact op met de ondersteuning van Workfront als er een probleem
 U kunt de informatie en functies bepalen die het nuttigst zijn voor uw gebruikers. U kunt de timing van de informatieversie ook controleren en u kunt misschien bepalen welke nieuwe eigenschappen uw gebruikers zien.
 
 * [Release-informatie doorgeven aan uw gebruikers](#communicate-release-information-to-your-users)
-* [Overweeg het gebruiken van lay-outmalplaatjes om eigenschapbeschikbaarheid te controleren](#consider-using-layout-templates-to-control-feature-availability)
+* [Gebruik lay-outsjablonen om de beschikbaarheid van functies te beheren](#consider-using-layout-templates-to-control-feature-availability)
 
 ### Release-informatie doorgeven aan uw gebruikers
 
@@ -131,11 +132,11 @@ U kunt de balans kiezen tussen [!DNL Workfront] bronnen (zoals documentatie, rel
 
 In tijd, zult u de mededeling erkennen die voor uw organisatie het meest effectief is. We raden u aan uw processen te documenteren, het succes te beoordelen en uw communicatie voor de volgende release te verfijnen.
 
-### Overweeg het gebruiken van lay-outmalplaatjes om eigenschapbeschikbaarheid te controleren
+### Gebruik lay-outsjablonen om de beschikbaarheid van functies te beheren
 
 Wanneer het verzamelen van informatie over de versie, kunt u besluiten dat uw gebruikers niet voor een nieuwe eigenschap klaar zijn. In dit geval kunt u lay-outsjablonen gebruiken om te beperken wat uw gebruikers zien, zodat ze de nieuwe functie niet kunnen tegenkomen en gebruiken. Wanneer uw gebruikers over voldoende communicatie en training voor de nieuwe functie beschikken, kunt u de lay-outsjabloon bijwerken en de functie beschikbaar maken.
 
-Voor informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Zie voor informatie over lay-outsjablonen [Lay-outsjablonen maken en beheren](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Een [!DNL Workfront] project om releasewerkzaamheden bij te houden
 

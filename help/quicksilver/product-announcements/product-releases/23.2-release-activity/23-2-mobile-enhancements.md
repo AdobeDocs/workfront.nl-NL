@@ -4,9 +4,11 @@ description: 23.2 Verbeteringen voor mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -24,7 +26,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiec
 >Deze functies zijn over het algemeen beschikbaar in de Apple App Store en Google Play Store in de week van 13 maart. De algemene aanmeldingsverbeteringen zijn begin april beschikbaar.
 
 
-Biometrische aanmelding is nu een optie voor een snellere aanmelding bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.
+Biometrische aanmelding is nu een optie waarmee u zich sneller kunt aanmelden bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.
 
 Zie voor meer informatie [Aanmelden bij [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 

@@ -4,10 +4,11 @@ description: 22.1 Projectverbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.1 raadpleegt u [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## De standaardoptie voor voorgangers wijzigen bij het kopiëren of verplaatsen van taken
 
@@ -64,7 +65,7 @@ Zie voor meer informatie [Overzicht van documenten](../../../documents/managing-
 
 Om ervoor te zorgen dat uw gebruik van Workfront aansluit bij de nieuwe Adobe Workfront-ervaring, hebben we de interface bij het kopiëren van een taak opnieuw ontworpen. Dit is momenteel beschikbaar wanneer het kopiëren van een taak op het taakniveau of het kopiëren van een taak of veelvoudige taken in een lijst.
 
-Enkele verbeteringen zijn:
+Enkele verbeteringen zijn onder meer:
 
 * Alle informatie die u moet bijwerken voordat u de taak kopieert, wordt op één doorlopende pagina weergegeven.
 * Workfront controleert of u toegang tot het bestemmingsproject onmiddellijk na het kiezen van het project hebt. Voorafgaand aan deze verbetering, een waarschuwingsbericht erop wijst die dat u niet de correcte toegang hebt getoond nadat u het exemplaar bevestigde, dat in extra stappen resulteerde en het exemplaar niet werd toegestaan.
@@ -133,9 +134,9 @@ Zie de volgende informatie voor meer informatie
 
 ## De mogelijkheid beperken om documenten toe te voegen aan een sjabloon die u deelt
 
-Soms voegen mensen documenten aan een projectmalplaatje toe die denken dat zij hen aan een project toevoegen. Nu kunt u helpen voorkomen dit-wanneer u een malplaatje met de toegang van de Mening deelt, kunt u nieuwe geavanceerde het plaatsen onbruikbaar maken toevoegt Documenten. Hierdoor kunnen ontvangers geen documenten aan de sjabloon toevoegen.
+Soms voegen mensen documenten aan een projectmalplaatje toe die denken dat zij hen aan een project toevoegen. Nu kunt u helpen voorkomen dit-wanneer u een malplaatje met de toegang van de Mening deelt, kunt u het nieuwe geavanceerde plaatsen onbruikbaar maken toevoegt Documenten. Hierdoor kunnen ontvangers geen documenten aan de sjabloon toevoegen.
 
-Voor instructies over het delen van een sjabloon raadpleegt u [Projectsjablonen delen](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+Zie voor instructies over het delen van een sjabloon [Projectsjablonen delen](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 Zie de sectie in het artikel voor informatie over de nieuwe geavanceerde instelling Documenten toevoegen [Een sjabloon delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 

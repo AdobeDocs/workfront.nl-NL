@@ -4,9 +4,11 @@ description: 23.2 Verbeteringen in het beheer van hulpbronnen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+recommendations: noDisplay, noCatalog
+exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -21,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiec
 
 >[!NOTE]
 >
->Voorvertoning release: 16 februari 2023; Planned Production release: 2 maart 2023
+>Voorvertoningsrelease: 16 februari 2023; Planned Production release: 2 maart 2023
 
 Om middelmanagers toe te staan om de beschikbaarheid van hun gebruikers nauwkeurig te berekenen en rekenschap te geven voor de tijd die de gebruikers aan daadwerkelijke, projectgerelateerde werk wijden, introduceren wij het concept van de Tijd van het Werk aan Adobe Workfront.
 

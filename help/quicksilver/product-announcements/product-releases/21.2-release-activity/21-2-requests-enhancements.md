@@ -6,17 +6,18 @@ title: 21.2 Verzoeken verbeterd
 description: Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 van het dialoogvenster Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # 21.2 Verzoeken verbeterd
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 van het dialoogvenster Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 van het dialoogvenster Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Bepaal welk type toewijzingen u op een nieuw verzoek maakt
 
@@ -96,7 +97,7 @@ Zie voor meer informatie [Een aanvraagwachtrij maken](../../../manage-work/reque
 Om consistentie met de nieuwe ervaring van Workfront te brengen en efficiency voor u te creëren wanneer het voorleggen van verzoeken, hebben wij het Nieuwe vakje van het Verzoek op het gebied van Verzoeken opnieuw ontworpen. Hieronder volgen enkele verbeteringen:
 
 * Een bestaande gebruikersinterface met de rest van de nieuwe Workfront-ervaring
-* Het gebied Nieuwe verzoeken is geëlimineerd voor een eenvoudigere en intuïtievere ervaring
+* Het gebied Nieuwe verzoeken is verwijderd voor een eenvoudigere en intuïtievere ervaring
 * Een nieuwe, efficiëntere manier om documenten aan uw verzoeken bij te voegen
 
 De capaciteit om een verbinding aan de verzoekrij, onderwerpgroep, of rijonderwerp te delen aangezien u het verzoek ingaat.

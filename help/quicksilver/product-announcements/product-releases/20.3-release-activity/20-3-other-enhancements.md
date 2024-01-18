@@ -2,20 +2,21 @@
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 andere verbeteringen
-description: Deze pagina beschrijft alle andere verbeteringen die zijn aangebracht met de versie 20.3 voor de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+description: Deze pagina beschrijft alle andere verbeteringen die zijn aangebracht met de versie 20.3 voor de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
 
 # 20.3 andere verbeteringen
 
-Deze pagina beschrijft alle andere verbeteringen die zijn aangebracht met de versie 20.3 voor de productieomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving in de week van 10 augustus 2020.
+Deze pagina beschrijft alle andere verbeteringen die zijn aangebracht met de versie 20.3 voor de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
 Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
@@ -71,7 +72,7 @@ Om uw dagelijkse werk met kalenders beter te visualiseren en te beheren, zijn de
 
 Eerder kon u uw kalender alleen beheren met geplande, geplande datums die niet beschikbaar waren.
 
-Zie voor meer informatie [Aangepaste datumvelden gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (of als u Workfront Classic gebruikt, raadpleegt u [Aangepaste datumvelden gebruiken in een kalenderrapport](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Zie voor meer informatie [Aangepaste datumvelden gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (of als u Workfront Classic gebruikt, zie [Aangepaste datumvelden gebruiken in een kalenderrapport](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
 
 ## E-mailwijzigingen
 
@@ -98,7 +99,7 @@ Er is nu ook een koppeling naar de gebruikersdetails waarmee de volgende gebruik
 * E-mailadres
 * Profielafbeelding
 
-## Nieuw voor beheerders: Merk Workfront voor specifieke groepen, teams, baanrollen, en gebruikers
+## Nieuw voor beheerders: merk Workfront voor specifieke groepen, teams, taakrollen en gebruikers
 
 >[!NOTE]
 >
@@ -116,21 +117,21 @@ Om ervoor te zorgen dat de Beheerders van de Groep niet per ongeluk goedkeurings
 
 Zie voor meer informatie [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Voor beheerders: Met de pagina Nieuwe groepen kunt u gemakkelijker groepen maken en beheren
+## Voor beheerders: met de pagina Nieuwe groepen kunt u gemakkelijker groepen maken en beheren
 
 Groepbeheerders kunnen groepen eenvoudiger beheren nu alles wat ze nodig hebben zich op de nieuwe pagina Groepen bevindt. Het is niet meer noodzakelijk om tussen diverse bedekkingsvakjes en de pagina&#39;s van de Opstelling te navigeren om groepen tot stand te brengen en te wijzigen.
 
 Dit zijn de belangrijkste hooglichten:
 
-* Groepdetails: De mening en geeft basisinformatie over de groep, zoals de naam van de groep, beschrijving, de namen van de Beheerders van de Groep uit, en of de groep openbaar of privé is.
-* Lijst met groepsleden: Alle groepsleden weergeven en de nieuwe werkbalk gebruiken om snel lidmaatschap toe te voegen, te verwijderen, te exporteren, te activeren en te deactiveren. U kunt de profielen van leden ook bewerken en hen sturen Update commentaren.
-* Veld Groepbeheerder in koptekst: Wanneer u een groep bekijkt u beheert, wijs snel of unassign een groepslid als beheerder van de groep toe. U kunt dit in de lijst van groepsleden ook doen gebruikend de nieuwe kolom van de Rol van de Groep.
-* Lijst met subgroepen: U kunt de subgroepen in een groep die u beheert, weergeven, bewerken, kopiëren, exporteren en verwijderen.
-* Statuslijst: De status van uw groep weergeven en beheren.
+* De Details van de groep: De mening en geeft basisinformatie over de groep, zoals de naam, de beschrijving van de groep, de namen van de Beheerders van de Groep uit, en of de groep openbaar of privé is.
+* Lijst met groepsleden: alle groepsleden weergeven en de nieuwe werkbalk gebruiken om snel lidmaatschap toe te voegen, te verwijderen, te exporteren, te activeren en te deactiveren. U kunt de profielen van leden ook bewerken en hen sturen Update commentaren.
+* Het gebied van de Beheerder van de groep in de kopbal: Wanneer u een groep bekijkt beheert, wijs snel of unassign een groepslid als beheerder van de groep toe. U kunt dit in de lijst van groepsleden ook doen gebruikend de nieuwe kolom van de Rol van de Groep.
+* Lijst met subgroepen: de subgroepen in een groep die u beheert, weergeven, bewerken, kopiëren, exporteren en verwijderen.
+* Statuslijst: de status van uw groep weergeven en beheren.
 
 Zie voor meer informatie [Een groep maken](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-## Nieuw voor beheerders: Tot 14 niveaus subgroepen maken
+## Nieuw voor beheerders: maximaal 14 niveaus subgroepen maken
 
 Om het gemakkelijker te maken om uw groepen van Workfront te organiseren om uw organisatiehiërarchie aan te passen, hebben wij de niveaus van subgroepen verhoogd u binnen een groep van 3 tot 14 kunt tot stand brengen.
 
@@ -163,7 +164,7 @@ Voor informatie over het gebied Klantgegevens raadpleegt u [Basisinformatie voor
 
 Het base64Encoding-veld is een optioneel veld dat wordt gebruikt om Base64-codering van gebeurtenisabonnementsladingen in te schakelen. Als een verzoek wordt gemaakt gebruikend base64Encoding gebied dat aan waar wordt geplaatst, dan worden de newState en oldState voorwerpen in de lading geleverd als Base64 het coderen koorden. Deze functie kan nuttig zijn als uw netwerk op een dergelijke manier wordt gevormd dat het geen speciale karakters in de Abonnementen van de Gebeurtenis zal toestaan.
 
-Zie voor meer informatie [Event Subscription API](../../../wf-api/general/event-subs-api.md).
+Zie voor meer informatie [API voor abonnementen voor gebeurtenissen](../../../wf-api/general/event-subs-api.md).
 
 ## De mogelijkheid om dubbele gebeurtenisabonnementen te maken is verwijderd
 

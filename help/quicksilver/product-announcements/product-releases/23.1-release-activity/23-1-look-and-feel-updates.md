@@ -4,10 +4,11 @@ description: Updates weergeven en voelen tijdens de releaseperiode van 23.1
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
-source-git-commit: 89d7b526cecb441700baca98092aefd319a1d72a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -16,13 +17,13 @@ ht-degree: 0%
 
 Op deze pagina worden kleine updates beschreven van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 23.1 zijn gemaakt. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 raadpleegt u [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Bijgewerkte lijsten in de Opstelling > het gebied van de Interface
 
 >[!NOTE]
 >
->Voorvertoning release: 1 december 2022; Planned Production release: 15 december 2022
+>Preview-release: 1 december 2022; Planned Production release: 15 december 2022
 
 De pagina&#39;s Filters, Weergaven en Groeperingen onder Setup > Interface hebben nu de modernere vormgeving die u in de meeste andere lijsten in Workfront kunt vinden.
 
@@ -30,7 +31,7 @@ De pagina&#39;s Filters, Weergaven en Groeperingen onder Setup > Interface hebbe
 
 >[!NOTE]
 >
->Voorvertoning release: 8 december 2022; Planned Production release: Met de release van 23.1
+>Voorvertoningsrelease: 8 december 2022; geplande productierelease: met 23.1 release
 
 Als onderdeel van het bijwerken van de vormgeving van Workfront, hebben we het vak Sjabloon bewerken opnieuw ontworpen. U kunt het nieuwe vak Sjabloon bewerken openen vanuit een afzonderlijke sjabloon of vanuit een sjabloonlijst.
 
@@ -48,19 +49,19 @@ Zie voor meer informatie [Projectsjablonen bewerken](/help/quicksilver/manage-wo
 
 >[!NOTE]
 >
->Voorvertoning release: n.v.t. Planned Production release: 14 november 2022.
+>Voorvertoningsrelease: n.v.t.; Geplande productieresectie: 14 november 2022.
 
 Om een consistentere ervaring in Jira te creëren, hebben we de Workfront for Jira-integratie bijgewerkt. Het uiterlijk van de Workfront voor de integratie van Jira komt nu overeen met het uiterlijk van Jira.
 
 De functionaliteit van de Workfront for Jira-integratie is ongewijzigd gebleven.
 
-Voor meer informatie over de integratie van Workfront for Jira raadpleegt u [Adobe Workfront voor Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+Zie voor meer informatie over de integratie van Workfront for Jira [Adobe Workfront voor Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
 ## Selectie van slimme gebruikers tijdens het bijwerken van gebruikersvelden
 
 >[!NOTE]
 >
->Voorvertoning release: 27 oktober 2022; Planned Production release: 10 november 2022.
+>Voorvertoningsrelease: 27 oktober 2022; Planned Production release: 10 november 2022.
 >
 >Nadat deze gebieden in Productie op 10 november worden bijgewerkt, zullen alle resterende gebruikersgebieden door Workfront direct in Productie als deel van wekelijkse flarden worden bijgewerkt.
 
@@ -88,7 +89,7 @@ Voor meer informatie, en om een videodemonstratie van een gelijkaardige eigensch
 
 >[!NOTE]
 >
->Voorvertoning release: 20 oktober 2022; Planned Production release: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
+>Voorvertoningsrelease: 20 oktober 2022; Planned Production release: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
 De pagina Meldingen heeft nu een modern uiterlijk, in lijn met andere delen van Workfront.
 
@@ -104,9 +105,9 @@ Ga voor informatie over het gebruik van de nieuwe filters naar [Filters maken of
 
 De lijsten die hier worden weergegeven, bieden naast de standaardfilterbuilder ook de bètafilterervaring.
 
-#### Voorvertoning release: 13 oktober 2022; Planned Production release: 27 oktober 2022
+#### Voorvertoningsrelease: 13 oktober 2022; Planned Production release: 27 oktober 2022
 
-* Portfolio
+* Portfolio&#39;s
 
 * Programma&#39;s
 
@@ -114,7 +115,7 @@ De lijsten die hier worden weergegeven, bieden naast de standaardfilterbuilder o
 
 * Projectrisico&#39;s
 
-* Basislijnen project
+* Basislijnen van project
 
 * Projecturen
 

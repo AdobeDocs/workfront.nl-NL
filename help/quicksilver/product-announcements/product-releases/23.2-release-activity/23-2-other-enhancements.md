@@ -4,10 +4,11 @@ description: 23.2 Andere verbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,9 @@ Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht 
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Nieuw bij de Workfront for Creative Cloud-plug-ins
+## Nieuw bij de Workfront for Creative Cloud plug-ins
 
-De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud plugins:
+De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud-plug-ins:
 
 * De insteekmodule waarschuwt u nu wanneer een taak een voorganger heeft
 * Koreaans is nu een ondersteunde taal
@@ -64,7 +65,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 ## Netto nieuwe klanten die aan Adobe Verenigde Ervaring moeten worden bezeten
 
-Midden tot eind maart 2023, zullen de nieuwe klanten beginnen aan de Adobe Verenigde Ervaring te worden ingezien. De nieuwe klanten zullen geval voor geval worden behandeld aangezien zij aan het Adobe Bedrijfs Platform worden bezeten.
+Midden tot eind maart 2023, zullen de nieuwe klanten beginnen aan de Adobe Verenigde Ervaring te worden ingezien. Nieuwe klanten worden per geval behandeld aangezien zij aan het Bedrijfs Platform van de Adobe worden geregistreerd.
 
 De migratie van bestaande klanten aan de Verenigde Ervaring is uitgesteld aan later in 2023. Alle betrokken klanten zullen op dat moment op de hoogte worden gesteld.
 
@@ -78,6 +79,6 @@ Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksi
 
 [Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
-## De kijker van het proef opent in een nieuw lusje voor gebruikers op de Verenigde Ervaring
+## De proefdrukviewer wordt geopend op een nieuw tabblad voor gebruikers met de Unified Experience
 
 Vanwege een technische vereiste met de Unified Experience, wordt de proefdrukviewer nu gestart in een nieuw browsertabblad.

@@ -3,9 +3,11 @@ title: 23.3 Verbeteringen in de mobiele apparaten
 description: 23.3 Verbeteringen in de mobiele apparaten
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -28,7 +30,7 @@ De Gelijke Mening van een project omvat nu extra functionaliteit aan filter, gro
 
 Terwijl u zich in de raad van bestuur bevindt, kunt u ervoor kiezen om over te schakelen naar de oude Google View.
 
-Zie voor meer informatie [Een project beheren in de Google-weergave](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Zie voor meer informatie [Een project beheren in de Google View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 [Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
@@ -50,7 +52,7 @@ U kunt nu al uw borden en werkstromen in donkere modus weergeven. De nieuwe inst
 
 >[!NOTE]
 >
->Als het exemplaar van Workfront van uw organisatie aan de Adobe verenigde Ervaring is genegeerd, kunt u donkere themamondopmaak voor alle Adobe Experience Cloud door uw voorkeurenmenu (uw profielbeeld) toelaten, en u zult geen afzonderlijke donkere wijzeoptie voor Workfront Boards zien.
+>Als het exemplaar van Workfront van uw organisatie aan de Adobe Verenigde Ervaring is genegeerd, kunt u donkere thema het formatteren voor al Adobe Experience Cloud door uw voorkeurenmenu (uw profielbeeld) toelaten, en u zult geen afzonderlijke donkere wijzeoptie voor Workfront Boards zien.
 
 Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
@@ -108,7 +110,7 @@ Zie voor meer informatie [Een board maken of bewerken](/help/quicksilver/agile/g
 >
 >Deze functie is alleen beschikbaar via de vroege functie opt-in voor Workfront Boards.
 
-Er is nu een nieuwe sjabloon, dynamisch bord, beschikbaar voor zelfstandige borden. Deze sjabloon is niet beschikbaar voor tekengebieden in een werkstroom.
+Er is nu een nieuwe sjabloon, dynamisch bord, beschikbaar voor zelfstandige borden. Deze sjabloon is niet beschikbaar voor tekengebieden binnen een werkstroom.
 
 Met het dynamische bord kunt u een kaart automatisch vullen met kaarten die zijn gebaseerd op een Workfront-project. Met filters worden kaarten op basis van hun status toegevoegd aan kolommen.
 

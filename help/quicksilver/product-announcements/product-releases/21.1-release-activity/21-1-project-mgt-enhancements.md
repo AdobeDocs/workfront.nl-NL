@@ -2,23 +2,24 @@
 content-type: release-notes
 keywords: notities,driemaandelijks,bijwerken
 navigation-topic: product-releases
-title: 21.1 Verbeteringen in projectbeheer
+title: 21.1 Verbeteringen op het gebied van projectbeheer
 description: Op deze pagina worden alle verbeteringen in Projectbeheer beschreven die zijn aangebracht met de release 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
 
-# 21.1 Verbeteringen in projectbeheer
+# 21.1 Verbeteringen op het gebied van projectbeheer
 
 Op deze pagina worden alle verbeteringen in Projectbeheer beschreven die zijn aangebracht met de release 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 raadpleegt u [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Exporteren is nu beschikbaar in de sectie Metriek van een project
 
@@ -26,7 +27,7 @@ Als u de status en voortgang van een project gemakkelijker wilt delen, kunt u nu
 
 Zie voor meer informatie [Overzicht van projectmetriek](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van de Planner voor de nieuwe Workfront-ervaring, Deel 3: Een project beheren](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) leerpad op Workfront One.
+Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van de Planner voor de nieuwe Workfront-ervaring, deel 3: Een project beheren](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) leerpad op Workfront One.
 
 ## Probleempercentage bijwerken voltooid wanneer het project of de taak is omgezet vanuit de uitgave-update
 
@@ -70,12 +71,12 @@ Voor informatie over het bepalen van Nieuwe Gebieden van de Uitgave voor een pro
 
 >[!NOTE]
 >
->Verwijderd uit de vrijgave; blijft in Voorvertoning en wordt vrijgegeven voor productie met 21.2.
+>Verwijderd uit release; blijft in Voorbeeld en wordt vrijgegeven voor productie met 21.2.
 
 Om consistentie met de nieuwe ervaring van Workfront te brengen en efficiency voor u te creëren wanneer het voorleggen van verzoeken, hebben wij het Nieuwe vakje van het Verzoek op het gebied van Verzoeken opnieuw ontworpen. Hieronder volgen enkele verbeteringen:
 
 * Een bestaande gebruikersinterface met de rest van de nieuwe Workfront-ervaring
-* Het gebied Nieuwe verzoeken is geëlimineerd voor een eenvoudigere en intuïtievere ervaring
+* Het gebied Nieuwe verzoeken is verwijderd voor een eenvoudigere en intuïtievere ervaring
 * Een nieuwe, efficiëntere manier om documenten aan uw verzoeken bij te voegen
 
 De capaciteit om een verbinding aan de verzoekrij, onderwerpgroep, of rijonderwerp te delen aangezien u het verzoek ingaat.
@@ -86,7 +87,7 @@ Voor informatie over het verzenden van verzoeken raadpleegt u [Workfront-aanvrag
 
 >[!NOTE]
 >
->Verwijderd uit de vrijgave; blijft in Voorvertoning en wordt vrijgegeven voor productie met 21.2.
+>Verwijderd uit release; blijft in Voorbeeld en wordt vrijgegeven voor productie met 21.2.
 
 Wij hebben het nu mogelijk gemaakt om een verbinding aan een verzoekrij, een onderwerpgroep, of een rijonderwerp te delen aangezien u een verzoek creeert.
 
@@ -112,6 +113,6 @@ Voorheen kon informatie voor taak, kwestie, en projectgoedkeuring delegaties sle
 
 * Wie deze goedkeuringen heeft gedelegeerd aan een andere gebruiker
 * Welke gebruiker deze goedkeuringen heeft gedelegeerd
-* Begin- en einddatum van deze delegaties
+* De begin- en einddatum van deze delegaties
 
 Zie voor meer informatie [Een gebruikersdelegatierapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).

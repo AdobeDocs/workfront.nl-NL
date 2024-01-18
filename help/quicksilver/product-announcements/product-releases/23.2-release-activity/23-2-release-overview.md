@@ -4,10 +4,11 @@ description: 23.2 releaseoverzicht
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -16,13 +17,13 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 23.1. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.2 op 6 en 7 april 2023.
 
-Voor tips over het voorbereiden van de volgende release gaat u naar [Een driemaandelijkse Adobe Workfront-release voorbereiden](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
+Zie voor tips over het voorbereiden van de volgende release [Een driemaandelijkse Adobe Workfront-release voorbereiden](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
 ## Wbinar vrijgeven
 
 In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe Summit om de volgende Workfront-sessies te bekijken:
 
-[Effectieve ervaringen: Van het maken van inhoud tot personalisatie](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) op 21 maart 2023 nieuwe manieren te leren om inhoud te maken, te beheren en aan te passen, en effectieve ervaringen met grotere efficiëntie te bieden. Deze sessie wordt live gestreamd voor een virtueel publiek.
+[Belangrijke ervaringen: van content maken tot personalisatie](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) op 21 maart 2023 nieuwe manieren te leren om inhoud te maken, te beheren en aan te passen, en effectieve ervaringen met grotere efficiëntie te bieden. Deze sessie wordt live gestreamd voor een virtueel publiek.
 
 [De toekomst van Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) op 23 maart 2023 om de visie op Workfront en zijn plaats in het ecosysteem van de Adobe te zien en een blik op de toekomstige routekaart te werpen. Deze sessie wordt opgenomen en later beschikbaar als on-demand-inhoud.
 
@@ -62,7 +63,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
                                  <p>Productieversie: 30 maart 2023</p>
@@ -76,20 +77,20 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                         <p>De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken.</p>
                         <p>Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om 
                         <ul>
-                        <li><strong>Een veld kopiëren</strong>: U kunt bestaande velden nu kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.</li>
+                        <li><strong>Een veld kopiëren</strong>: U kunt nu bestaande velden kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.</li>
                         <li><strong>Standaardsectie gebruiken</strong>: Als de maker van het formulier geen sectie boven aan het formulier heeft toegevoegd, wordt nu een sectie Standaard weergegeven op het canvas, zodat gebruikers de machtigingen kunnen aanpassen voor velden waaraan geen aangepaste sectie is toegewezen. </li>
-                        <li><strong>De grootte voor beschrijvende tekst wijzigen</strong>: U kunt nu kleine, middelgrote of grote formaten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden. <span style="color: #ff0000;"> Het wijzigen van de grootte van de beschrijvende tekst is tijdelijk uitgesteld, maar komt binnenkort.</span></li> 
+                        <li><strong>De grootte voor beschrijvende tekst wijzigen</strong>: U kunt nu kleine, middelgrote of grote grootten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden. <span style="color: #ff0000;"> Het wijzigen van de grootte van de beschrijvende tekst is tijdelijk uitgesteld, maar komt binnenkort.</span></li> 
                         </ul>
                         </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 9 maart 2023</p>
+                                <p>Voorvertoningsrelease: 9 maart 2023</p>
                             </li>
                             <li>
-                                 <p>Productieversie: Met de release van 23.2<br />
-                                 <span style="color: #ff0000;">De bètaversie van de formulierontwerper is tijdelijk uitgeschakeld in Voorvertoning en Productie van 24 mei tot 21 juli 2023.</span></p>
+                                 <p>Productieversie: met de release van 23.2<br />
+                                 <span style="color: #ff0000;">De bètaversie van de ontwerper van het formulier is tijdelijk uitgeschakeld in Preview en Production van 24 mei tot 21 juli 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -102,10 +103,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 9 februari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 9 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie: Met de release van 23.2</p>
+                                 <p>Productieversie: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -137,10 +138,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 23 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 23 maart 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.2</p>
+                                <p>Productieversie: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -148,7 +149,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Interferingfunctionaliteit beschikbaar in Adobe Workfront Boards</a></p>
-                        <p>Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-functionaliteit gebruiken. Deze functies zijn:
+                        <p>Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-functionaliteit gebruiken. Deze functies zijn onder andere:
                         <ul>
                         <li>Workstreams voor het groeperen van aan hetzelfde team gerelateerde borden en het samenwerken aan het werk</li>
                         <li>Een lijst met kaarten, of de achterstand van het werk, met de optie om bronnen te gebruiken om kaarten aan de taken en kwesties van Workfront te verbinden</li>
@@ -159,10 +160,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 17 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 17 maart 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.2</p>
+                                <p>Productieversie: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -175,10 +176,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 17 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 17 maart 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.2</p>
+                                <p>Productieversie: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -191,10 +192,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 17 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 17 maart 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.2</p>
+                                <p>Productieversie: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -207,10 +208,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 2 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 2 maart 2023<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.2</p>
+                                <p>Productieversie: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -223,11 +224,11 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 23 februari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 23 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 2 maart 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 2 maart 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -240,11 +241,11 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 16 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -257,11 +258,11 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 16 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -274,29 +275,29 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 16 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 23 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Schattingsveld op verbonden kaarten verwijst naar het veld Artikelpunten op Workfront-objecten</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Schattingsveld op verbonden kaarten naar veld Artikelpunten op Workfront-objecten</a></p>
                         <p>Het veld Schatting op verbonden kaarten in Workfront-boards verwijst nu naar het veld Artikelpunten voor het bijbehorende Workfront-object. </p>
                         <p>Het veld Nieuwe artikelpunten is een bewerkbaar, gratis formulierveld dat u kunt toevoegen aan een weergave in een lijst of rapport voor taken of problemen. Het is niet gebonden aan geplande uren of teamtaken.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 26 januari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 26 januari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: Deze functie is uitgesteld en wordt op 9 februari uitgebracht. <span style="color: #ff0000;">Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                                 <p>Productieversie voor vroege opt-in: deze functie is uitgesteld en wordt op 9 februari uitgebracht. <span style="color: #ff0000;">Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -309,11 +310,11 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 26 januari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 26 januari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie voor vroege opt-in: 2 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.2</p>
+                                 <p>Productieversie voor vroegtijdige opt-in: 2 februari 2023 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.2</p>
                             </li>
                         </ul>
                     </td>
@@ -345,10 +346,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 9 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 9 maart 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Productieversie: Vanaf 23 maart wordt dit in een gefaseerde uitrol vrijgegeven die na 11 mei 2023 zal worden voltooid</span></p>
+                                 <p><span class="preview">Productieversie: Vanaf 23 maart wordt dit product vrijgegeven voor productie in een gefaseerde uitrol die na 11 mei 2023 zal worden voltooid</span></p>
                             </li>
                         </ul>
                     </td>
@@ -361,10 +362,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 2 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 2 maart 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Productieversie: Met de release van 23.2</span></p>
+                                 <p><span class="preview">Productieversie: met de release van 23.2</span></p>
                             </li>
                         </ul>
                     </td>
@@ -377,7 +378,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 16 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Productieversie: 2 maart 2023 (buiten de cyclus)</span></p>
@@ -413,7 +414,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 16 februari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 16 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Productieversie: 2 maart 2023 (buiten de cyclus)</span></p>
@@ -453,7 +454,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                                 <p>Voorvertoning release:n.v.t.<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: Met de release van 23.2</span></p>
+                                <p><span class="preview">Productieversie: met de release van 23.2</span></p>
                             </li>
                         </ul>
                     </td>
@@ -480,16 +481,16 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrische aanmelding en kaartverzamelingen in de mobiele app</span></a>
-                        <p>Biometrische aanmelding is nu een optie voor een snellere aanmelding bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.</p>
+                        <p>Biometrische aanmelding is nu een optie waarmee u zich sneller kunt aanmelden bij de mobiele app. Zodra biometrische verificatie is ingesteld na een eerste aanmelding, kunnen gebruikers zich snel opnieuw aanmelden bij de app met een eenmalige wachtwoordherverificatie. Bovendien, zullen er een aantal blik-en-voelen verbeteringen aan de algemene login ervaring die in een recentere update aankomt.</p>
                         <p>Borden-verzamelingen worden nu ook ondersteund in de mobiele app, zodat mobiele gebruikers verzamelingen kunnen bekijken waartoe ze toegang hebben in de desktopversie van hun lijst met mobiele borden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
-                                 <p>Productieversie: Beschikbaar in de Apple App Store en Google Play Store op 13 maart 2023</p>
+                                 <p>Productieversie: beschikbaar in de Apple App Store en Google Play Store op 13 maart 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -515,8 +516,8 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuw bij de Workfront for Creative Cloud-plug-ins</a>
-                        <p>De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud plugins:
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuw bij de Workfront for Creative Cloud plug-ins</a>
+                        <p>De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud-plug-ins:
                         <ul>
                         <li>De insteekmodule waarschuwt u nu wanneer een taak een voorganger heeft</li>
                         <li>Koreaans is nu een ondersteunde taal</li>
@@ -525,7 +526,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Productieversie: 23 maart 2023 </span></p>
@@ -542,10 +543,10 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 20 maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: 20 maart 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Productieversie: Met de release van 23.2 </span></p>
+                                 <p><span class="preview">Productieversie: met de release van 23.2 </span></p>
                             </li>
                         </ul>
                     </td>
@@ -564,27 +565,27 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Medio maart 2023</p>
+                                <p>Productieversie: medio-eind maart 2023</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De kijker van het proef opent in een nieuw lusje voor gebruikers op de Verenigde Ervaring</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De proefdrukviewer wordt geopend op een nieuw tabblad voor gebruikers met de Unified Experience</a></p>
                         <p>De kijker van het proef opent nu in een nieuw lusje voor gebruikers op de Verenigde Ervaring.
                         </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Medio maart 2023</p>
+                                <p>Productieversie: medio-eind maart 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -597,7 +598,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
                                  <p>Productieversie: 6 februari 2023</p>
@@ -616,7 +617,7 @@ In plaats van een releasewebinar nodigen we u uit zich te registreren voor Adobe
                                 <p>Voorvertoning release: gedurende de gehele releaseperiode van 23.2<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: Minimaal 2 weken na de release naar Voorvertoning (tenzij anders aangegeven)</span></p>
+                                <p><span class="preview">Productieversie: minimaal 2 weken na publicatie voor Voorbeeld (tenzij anders vermeld)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -648,7 +649,7 @@ API versie 16 wordt vrijgegeven met de release 22.3. Voor API versie 16 hebben w
 
 Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
-Voor informatie over API-versies raadpleegt u [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Zie voor informatie over API-versies [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 

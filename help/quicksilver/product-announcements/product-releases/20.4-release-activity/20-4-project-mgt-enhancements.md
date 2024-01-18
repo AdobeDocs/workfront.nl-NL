@@ -4,10 +4,11 @@ description: 20.4 Verbeteringen in projectbeheer
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Deze pagina beschrijft alle verbeteringen in projectbeheer die zijn aangebracht 
 
 Voor een lijst van alle veranderingen beschikbaar met versie 20.4, zie [20.4 - releaseoverzicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Nieuw voor beheerders: Bepalen hoe een aangepast veld wordt gedeeld
+## Nieuw voor beheerders: bepalen hoe een aangepast veld wordt gedeeld
 
 Om u meer controle over te geven wie, douanegebieden uitgeven kan schrappen en gebruiken u creeert, hebben wij de capaciteit toegevoegd om precies te vormen hoe u hen gedeeld wilt.
 
@@ -28,13 +29,13 @@ Om deze ervaring vertrouwd te maken voor u, hebben we de gebruikersinterface voo
 
 Zie voor meer informatie [Delen voor aangepaste velden en widgets configureren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
-## Nieuw voor beheerders: Standaarddeling van aangepaste formulieren
+## Nieuw voor beheerders: gestandaardiseerd delen van aangepaste formulieren
 
 We hebben gestandaardiseerd delen voor Aangepaste Forms, zodat u hetzelfde proces voor het delen van Workfront-objecten kunt gebruiken dat u al kent. En dankzij de nieuwe ervaring voor delen hebt u meer controle over wie aangepaste Forms die u maakt, kan bewerken, verwijderen en gebruiken. U kunt het delen voor een Vorm van de Douane tot bepaalde gebruikers, rollen, teams, groepen, en bedrijven beperken. En u kunt bepalen of deze ontvangers het aangepaste formulier kunnen weergeven of beheren.
 
 Zie voor meer informatie [Een aangepast formulier delen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 
-## De douaneformulieren van de uitvoer en overzichtsinformatie van de sectie van Details van een project, een taak, of een kwestie
+## Aangepaste formulieren en overzichtsgegevens exporteren vanuit de sectie Details van een project, taak of uitgave
 
 U kunt de aangepaste formuliergegevens nu exporteren naar een .pdf-bestand. U kunt aangepaste formulieren exporteren uit projecten, taken of problemen wanneer u het formulier opent in de sectie Details van de objecten.
 
@@ -76,7 +77,7 @@ Zie voor meer informatie [Overzicht van Business Leader](../../../administration
 
 Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van beheerders, deel 1 leerpad](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront One.
 
-## Nieuw voor beheerders: Portefeuilles, programma&#39;s, en bedrijven met groepen associëren
+## Nieuw voor beheerders: portfolio&#39;s, programma&#39;s en bedrijven aan groepen koppelen
 
 Wanneer Workfront-beheerders een portfolio, programma of bedrijf maken of bewerken, kunnen ze dit toewijzen aan een groep. Met groepen die aan deze voorwerpen worden toegewezen, is het gemakkelijk om de verantwoordelijkheden van uw groep voor hen te identificeren.
 
@@ -86,7 +87,7 @@ Zie de sectie &quot;Een groep koppelen aan een object&quot; in het artikel voor 
 
 Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van beheerders, deel 1 leerpad](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) op Workfront One.
 
-## Nieuw voor beheerders: De beheerders voor een groep die aan een bedrijf wordt toegewezen kunnen het bedrijf beheren
+## Nieuw voor beheerders: beheerders voor een groep die aan een bedrijf wordt toegewezen kunnen het bedrijf beheren
 
 Wij hebben het voor een Beheerder van de Groep gemakkelijk gemaakt om een bedrijf te beheren dat met hun groep in Workfront wordt geassocieerd. De toegang om het bedrijf te leiden is automatisch beschikbaar wanneer de vereniging wordt gemaakt. Dit is vooral belangrijk wanneer de Beheerder van de Groep geen administratieve toegang tot bedrijven heeft.
 
@@ -100,7 +101,7 @@ Deze functie is nu opgenomen in het dialoogvenster [Grondbeginselen van beheerde
 
 Gebruikers kunnen de knop Werk aan het werkitem vervangen door een knop Start waarmee de status en de werkelijke begindatum van het werkitem automatisch worden bijgewerkt om vast te leggen hoe de datum en tijd waarop het werk begint, worden vastgelegd.
 
-Bijgewerkt op 24 september: Nadat u op Start hebt geklikt of op Start hebt geklikt, kunt u nu terugkeren naar uw keuze en aangeven dat u wellicht niet klaar bent om aan een tijdelijk item te werken door op Ongedaan maken te klikken. Het het werkpunt keert terug naar een status van Nieuw en de Datum van het Vastleggen en de Ware Datum van het Begin worden geschrapt. De optie Ongedaan maken wordt gedurende zeer korte tijd weergegeven en wordt gewist nadat u van de pagina weg navigeert of de pagina vernieuwt.
+Bijgewerkt op 24 september: Na het klikken van de taak van het Begin of de kwestie van het Begin, hebt u nu de optie om uw keus terug te keren en erop te wijzen dat u niet bereid zou kunnen zijn om aan een het werkpunt te beginnen werken door te klikken ongedaan maken. Het het werkpunt keert terug naar een status van Nieuw en de Datum van het Vastleggen en de Ware Datum van het Begin worden geschrapt. De optie Ongedaan maken wordt gedurende zeer korte tijd weergegeven en wordt gewist nadat u van de pagina weg navigeert of de pagina vernieuwt.
 
 Voor meer informatie bij het vormen van deze optie, zie [De knop Aan de werkbalk vervangen door de knop Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 

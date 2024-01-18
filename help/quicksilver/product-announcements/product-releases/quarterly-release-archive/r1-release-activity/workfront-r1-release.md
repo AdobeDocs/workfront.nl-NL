@@ -5,10 +5,11 @@ title: De Workfront R1-release
 description: HOUD IEDEREEN BETROKKEN EN EFFICIËNTE Workfront geeft drie keer per jaar nieuwe productfunctionaliteit aan alle productlijnen (Versie 1, Versie 2, en Versie 3.) In de eerste release van het jaar 2017 (R1,) bieden verschillende verbeteringen aan de kernfunctionaliteit in Workfront, ProofHQ en Workfront DAM kenniswerkers de mogelijkheid productiever te zijn, zich te engageren en minder tijd te besteden aan het beheren van werk, en meer dingen gedaan te krijgen.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -21,17 +22,17 @@ Workfront brengt nieuwe productfunctionaliteit drie keer per jaar op alle produc
 
 ## WAT IS NIEUW IN DE NIEUWSTE RELEASE?
 
-* [Workfront-VERBETERINGEN](#workfront-enhancements)
+* [WORKFRONT-VERBETERINGEN](#workfront-enhancements)
 * [PROOFHQ-VERBETERINGEN](#proofhq-enhancements)
-* [Workfront DAM-VERBETERINGEN](#workfront-dam-enhancements)
+* [WORKFRONT DAM-VERBETERINGEN](#workfront-dam-enhancements)
 
-## Workfront-VERBETERINGEN {#workfront-enhancements}
+## WORKFRONT-VERBETERINGEN {#workfront-enhancements}
 
 ![Outlook_365_Integratie_1.png](assets/outlook-365-integration-1-350x212.png)\
 **Werk rechtstreeks vanuit uw e-mail beheren**
 Dankzij de rechtstreekse integratie in Outlook 365 kunt u dubbel werk elimineren terwijl u Workfront rechtstreeks vanuit Outlook 365 bijwerkt. E-mails converteren naar taken, e-mailgesprekken en bijlagen verzenden als updates en reageren op opmerkingen - zonder Outlook te verlaten.
 
-Zie voor meer informatie:  [Functionaliteit beschikbaar gesteld in Voorvertoning in 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+Zie voor meer informatie:  [In 2016 in Voorvertoning beschikbaar gestelde functionaliteit](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
 **Projecten op schema houden en budget houden**
@@ -74,14 +75,14 @@ Zie voor meer informatie:  [R1 Definitief](../../../../product-announcements/pr
 **Voorvertoning HQ proefdrukken**
 Met proofingHQ kunt u nu nieuwe functies testen in een voorvertoningsomgeving voordat u de functie aan al uw gebruikers loslaat.
 
-## Workfront DAM-VERBETERINGEN {#workfront-dam-enhancements}
+## WORKFRONT DAM-VERBETERINGEN {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)\
 **DAM Ingesloten koppelingen**
 Voor marketing teams die een betere manier nodig hebben om, het gebruik van digitale activa aan externe platforms te beheren te publiceren en te volgen, verstrekt de ingebedde verbindingseigenschap de controle u het proces moet beheren om de juiste inhoud op de juiste tijd te delen.
 
 **DAM-vereiste metagegevensvelden**
-De categorisering van digitale elementen verbeteren met de vereiste metagegevensvelden, waarmee u de elementen beter kunt delen.
+De categorisering van digitale elementen verbeteren met de vereiste metagegevensvelden, zodat u beter kunt bepalen hoe elementen worden gedeeld.
 
 **Houd iedereen betrokken en efficiënt met Workfront.**
 Workfront is een oplossing voor bedrijfswerkbeheer waarmee moderne kenniswerkers en managers:

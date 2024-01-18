@@ -4,8 +4,9 @@ description: 22.4 Andere verbeteringen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -20,9 +21,9 @@ Voor een lijst van alle veranderingen beschikbaar met versie 22.4, zie [22.4 Ove
 
 ## Adobe Workfront for InDesign
 
-Deze insteekmodule is nu beschikbaar voor installatie in InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden.
+Deze insteekmodule is nu beschikbaar voor installatie in het InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden.
 
-Voor meer informatie over de plug-in raadpleegt u [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Zie voor meer informatie over de plug-in [[!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 [Download Adobe Workfront for InDesign vandaag nog op de markt](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
@@ -40,7 +41,7 @@ Zie voor meer informatie [De as a Cloud Service integratie met Experience Manage
 
 ## Metagegevens naar bovenliggende programma&#39;s en portfolio-objecten verplaatsen
 
-Wanneer een element voor het eerst naar Experience Manager Assets of Assets Essentials wordt verzonden, worden nu ook metagegevens verzonden die zijn geconfigureerd om te worden toegewezen voor bovenliggende programma&#39;s en portfolio-objecten.
+Wanneer een element nu voor het eerst naar Experience Manager Assets of Assets Essentials wordt verzonden, worden alle metagegevens die zijn geconfigureerd voor toewijzing voor bovenliggende programma&#39;s en portfolio-objecten ook verzonden.
 
 Eerder werden alleen de gegevens van het bovenliggende project verzonden.
 
@@ -86,6 +87,6 @@ De volgende functies zijn in deze release opgenomen:
 
 * Mogelijkheid om de naam van het Campagneobject te wijzigen via de lay-outsjabloon
 
-   Systeem- en groepsbeheerders van Workfront kunnen het gebied Campagnes (bèta) toevoegen in het Hoofdmenu van een lay-outsjabloon. Dit maakt het beschikbaar voor alle gebruikers die aan het malplaatje worden toegewezen. Iedereen in Workfront kan een campagne maken nadat deze beschikbaar is.
+  Systeem- en groepsbeheerders van Workfront kunnen het gebied Campagnes (bèta) toevoegen in het Hoofdmenu van een lay-outsjabloon. Dit maakt het beschikbaar voor alle gebruikers die aan het malplaatje worden toegewezen. Iedereen in Workfront kan een campagne maken nadat deze beschikbaar is.
 
 

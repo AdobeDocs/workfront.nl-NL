@@ -3,14 +3,16 @@ title: 23.3 Verbeterde proefdrukken
 description: 23.3 Verbeterde proefdrukken
 author: Lisa
 feature: Product Announcements
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+recommendations: noDisplay, noCatalog
+exl-id: ae82359b-563a-47bd-aefa-973da5daaf79
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Proof 23.3 releaseactiviteit: Week van 17 juli 2023
+# Adobe Workfront Proof 23.3 releaseactiviteit: week van 17 juli 2023
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht met de versie 23.3 voor Adobe Workfront Proof voor de voorvertoningsomgeving op 22 juli 2023.
 

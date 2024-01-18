@@ -6,10 +6,11 @@ title: 21.1 Andere verbeteringen
 description: Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 raadpleegt u [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Updates voor vereisten voor mislukte abonnementen voor gebeurtenissen
 
@@ -40,7 +41,7 @@ We vervangen de e-mailoptie POP voor aanvraagwachtrijen door een nieuw Workfront
 
 Deze wijzigingen kunt u testen in Voorvertoning.
 
-E-mail wordt automatisch uitgeschakeld in alle voorvertoningsomgevingen. Ga voor testdoeleinden naar [Verzending van e-mails vanuit de voorbeeldsandbox-omgeving inschakelen](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+E-mail wordt automatisch uitgeschakeld in alle voorvertoningsomgevingen. Als u e-mail wilt inschakelen voor testdoeleinden, raadpleegt u [Verzending van e-mails vanuit de voorbeeldsandbox-omgeving inschakelen](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 Zie voor meer informatie [Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
@@ -60,8 +61,8 @@ Zie voor meer informatie [Voorkeuren voor tijdpagina&#39;s en uren configureren]
 
 Wij hebben de volgende verbeteringen toegevoegd wanneer u een Project, een Taak, of een Uitgave aan een Chronologie toevoegt:
 
-* Filters: We hebben filters toegevoegd voor Projecten en problemen. Klik op Meer opties om deze filters weer te geven. Eerder, slechts hadden de Taken beschikbaar filtreren.
-* Weergaven: We hebben opties voor weergave en groeperen toegevoegd aan de zoekpagina.
+* Filters: we hebben filters toegevoegd voor Projecten en problemen. Klik op Meer opties om deze filters weer te geven. Eerder, slechts hadden de Taken beschikbaar filtreren.
+* Weergaven: We hebben weergave- en groeperingsopties toegevoegd aan de zoekpagina.
 
 Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -69,8 +70,8 @@ Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timeshe
 
 U kunt het vak voor overuren nu verbergen om verwarring onder de gebruikers te voorkomen als u overuren in Workfront niet bijhoudt. U kunt de overloopdoos voor een enig-gebruik timesheet of in het Profiel van de Tijdopnemer verbergen:
 
-* Tijdschema voor eenmalig gebruik: Wanneer u ervoor kiest om de overloopdoos in een individueel timesheet te verbergen, is het verborgen slechts voor dat timesheet. Zie voor meer informatie [Een timesheet voor eenmalig gebruik maken](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Tijdbladprofiel: Wanneer u ervoor kiest om het vak voor overwerk te verbergen in het tijdbladprofiel, wordt het vak voor overwerk niet weergegeven in alle toekomstige tijdbladen die worden gemaakt voor de gebruiker(s) die aan dat profiel is toegewezen. Zie voor meer informatie [Werkbladprofielen maken, bewerken en toewijzen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Tijdsoverzicht voor eenmalig gebruik: wanneer u ervoor kiest om het vak voor overuren te verbergen in een afzonderlijk tijdblad, wordt dit alleen voor dat tijdsplaat verborgen. Zie voor meer informatie [Een timesheet voor eenmalig gebruik maken](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Tijdbladprofiel: wanneer u ervoor kiest het vak voor overwerk te verbergen in het tijdbladprofiel, wordt het vak voor overwerk niet weergegeven in alle toekomstige tijdbladen die worden gemaakt voor de gebruiker(s) die aan dat profiel is toegewezen. Zie voor meer informatie [Werkbladprofielen maken, bewerken en toewijzen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Eerder kon u het vak voor overwerk niet verbergen op tijdbladen.
 
@@ -82,7 +83,7 @@ Alle afgekapte items worden nu gegroepeerd vóór het project met de tekst &quot
 
 Eerder moest u op de ellips klikken om afgekapte objecten weer te geven in een vervolgkeuzemenu.
 
-Als u alle items in de broodkruimel wilt weergeven, klikt u op Meer aan het begin van de broodkruimel om de items uit te vouwen. Nadat u de selectie hebt uitgevouwen, kunt u op &quot;Minder&quot; klikken om de items weer samen te vouwen.
+Als u alle items in de broodkruimel wilt weergeven, klikt u op Meer aan het begin van de broodkruimel om de items uit te vouwen. Nadat u de selectie hebt uitgevouwen, kunt u op Minder klikken om de items weer samen te vouwen.
 
 ## Nieuwe look en feel voor de navigatie door middel van ademkruimels
 

@@ -6,17 +6,18 @@ title: 21.2 Verbeteringen voor mobiele apparaten
 description: Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met versie 21.2, zie 21.2 Overzicht van de Versie.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
 # 21.2 Verbeteringen voor mobiele apparaten
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 raadpleegt u [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Opmerkingen bij tijdpagina
 

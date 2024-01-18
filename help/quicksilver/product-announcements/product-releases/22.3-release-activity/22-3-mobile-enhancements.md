@@ -4,17 +4,18 @@ description: mobiele updates tijdens de releaseperiode van 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # 22.3 Verbeteringen voor mobiele apparaten
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 22.3 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 gaat u naar [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 22.3 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Verbeteringen voor proefdrukken in de mobiele app
 

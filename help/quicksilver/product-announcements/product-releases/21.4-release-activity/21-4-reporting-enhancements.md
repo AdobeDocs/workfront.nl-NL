@@ -4,10 +4,11 @@ description: 21.4 Verbeterde rapportage
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Een nieuw pictogram voor beperkte toegang
 * Andere kleine ontwerpwijzigingen
 
-Voor meer informatie over toewijzingen in lijsten raadpleegt u [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md).
+Zie voor meer informatie over toewijzingen in lijsten [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 

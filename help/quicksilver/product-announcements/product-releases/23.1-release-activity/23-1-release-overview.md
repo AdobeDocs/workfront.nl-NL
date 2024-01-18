@@ -4,10 +4,11 @@ description: 23.1 release, overzicht
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -50,18 +51,18 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secundaire taakrollen toegevoegd aan de lijst Andere toewijzingen bij het bulksgewijs toewijzen van items in Workload Balancer</a></p>
-                        <p>Wanneer gebruikers in de werklastbalans in bulk worden toegewezen nadat een taakrol is geselecteerd in het veld Roltoewijzing, wordt in de lijst met gebruikers die in de lijst Andere toewijzingen staan in het veld "Gebruiker toewijzen" nu alle taakrollen weergegeven die aan elke gebruiker onder hun naam zijn gekoppeld. Vóór deze verbetering, slechts de primaire rol van de gebruiker getoond.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secundaire taakrollen toegevoegd aan de lijst Andere toewijzingen bij het toewijzen van items in Workload Balancer</a></p>
+                        <p>Wanneer gebruikers in de werklastbalans in bulk worden toegewezen nadat een taakrol is geselecteerd in het veld Roltoewijzing, wordt in de lijst met gebruikers die in de lijst Andere toewijzingen staan in het veld "Gebruiker toewijzen" nu alle taakrollen weergegeven die aan elke gebruiker onder hun naam zijn gekoppeld. Voorafgaand aan deze verbetering, slechts de primaire rol van de gebruiker getoond.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 5 januari 2023<br /></p>
+                                <p>Voorvertoningsrelease: 5 januari 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: Met de release van 23.1</span></p>
+                                <p><span class="preview">Productieversie: met 23.1 release</span></p>
                             </li>
                         </ul>
                     </td>
@@ -77,10 +78,10 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 20 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 20 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: 27 oktober 2022 (buiten de cyclus)</span></p>
+                                <p><span class="preview">Productie: 27 oktober 2022 (buiten de cyclus)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -95,10 +96,10 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 13 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 13 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.1</p>
+                                <p>Productieversie: met 23.1 release</p>
                             </li>
                         </ul>
                     </td>
@@ -142,7 +143,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                             </li>
                             <li>
                                 <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
-                                <p>Productieversie voor alle klanten: Snel volgen na de release van 23.1</p>
+                                <p>Productieversie voor alle klanten: snel volgen na de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -157,11 +158,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 1 december 2022<br /></p>
+                                <p>Voorvertoningsrelease: 1 december 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: Niet beschikbaar</p> 
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroege opt-in: niet beschikbaar</p> 
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -176,11 +177,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 1 december 2022<br /><span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.1.</span></p>
+                                <p>Voorvertoningsrelease: 1 december 2022<br /><span style="color: #ff0000;"> Deze functie is verwijderd uit Voorvertoning en wordt niet vrijgegeven met 23.1.</span></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: Niet beschikbaar</p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroege opt-in: niet beschikbaar</p>
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -195,11 +196,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 17 november 2022<br /></p>
+                                <p>Voorvertoningsrelease: 17 november 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 1 december 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 1 december 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -214,11 +215,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 10 november 2022<br /></p>
+                                <p>Voorvertoningsrelease: 10 november 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 17 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 17 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -233,11 +234,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 10 november 2022<br /></p>
+                                <p>Voorvertoningsrelease: 10 november 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 17 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 17 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -245,7 +246,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                     <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Koppelbare kaarten zijn nu beschikbaar op borden</a></p>
-                        <p>U kunt nu een koppeling naar een specifieke kaart naar een andere gebruiker van een kaart verzenden. De persoon moet toegang hebben tot het bord voordat hij of zij de koppeling kan openen.</p>
+                        <p>U kunt nu een koppeling naar een specifieke kaart naar een andere gebruiker van een kaart verzenden. De persoon moet toegang hebben tot het bord voordat hij de koppeling kan openen.</p>
                         <!-- <p>When you open a card on a board, the browser URL looks like this: https://<Workfront-URL>/boards/<board-id>/card/<card-id>.</p> -->
                         <p>U kunt de volledige URL kopiëren en naar iemand anders verzenden. Ze zullen rechtstreeks naar de open kaart gaan wanneer ze de link openen.</p>
                         <p>Eerder waren er koppelingen beschikbaar naar borden, maar niet naar specifieke kaarten.</p>
@@ -255,11 +256,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 10 november 2022<br /></p>
+                                <p>Voorvertoningsrelease: 10 november 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 17 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 17 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -274,11 +275,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 27 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 27 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 3 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 3 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -294,11 +295,11 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 27 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 27 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie voor vroege opt-in: 3 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
-                                <p>Productieversie voor alle klanten: Met de release van 23.1</p>
+                                <p>Productieversie voor vroegtijdige opt-in: 3 november 2022 <span style="color: #ff0000;"> Deze functie is op deze datum alleen beschikbaar in Production via de vroege functie-optie voor Workfront Boards.</span></p>
+                                <p>Productieversie voor alle klanten: met de release van 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -333,7 +334,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                                 <p>Voorvertoning release:n.v.t.<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: Beschikbaar in Apple App Store en Google Play Store medio-eind januari 2023</span></p>
+                                <p><span class="preview">Productieversie: beschikbaar in de Apple App Store en Google Play Store medio-eind januari 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +361,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Introductie van de toevoeging van Illustrator aan de Adobe Workfront voor ontwerp- en video-insteekmodules</a><span style="color: #ff0000;"> Nieuw in productie!</span></p>
-                        <p>We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign plugin is uitgebreid met Adobe Illustrator.</p>
+                        <p>We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign-insteekmodule is uitgebreid met Adobe Illustrator.</p>
                         <p>De bijgewerkte plug-in Adobe Workfront for design and video biedt nu ondersteuning voor Illustrator, InDesign, Premiere Pro en After Effects.  </p>
                         <p>Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u zich altijd aanmelden zonder uw favoriete Creative Cloud-toepassing te verlaten.</p>
                         <p>Beheerders kunnen ook een pakket maken met de plug-ins van de Admin Console en dit pakket implementeren voor gebruikers op een beheerde of zelfbeheerde manier.</p>
@@ -370,7 +371,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: N.v.t.<br /></p>
+                                <p>Voorvertoning release: n.v.t.<br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: <span class="preview">12 december 2022</span></p>
@@ -389,7 +390,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: februari/maart 2023<br /></p>
+                                <p>Voorvertoningsrelease: februari/maart 2023<br /></p>
                             </li>
                             <li>
                                 <p>Productieversie: februari/maart 2023</p>
@@ -408,10 +409,10 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 1 december 2022<br /></p>
+                                <p>Voorvertoningsrelease: 1 december 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: Met de release van 23.1</p>
+                                <p>Productieversie: met 23.1 release</p>
                             </li>
                         </ul>
                     </td>
@@ -420,8 +421,8 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Introductie van Adobe Workfront voor ontwerp en video</a></p>
-                        <p>We zijn erg blij dat we de uitbreiding van onze Adobe Workfront for InDesign plugin naar Adobe Premiere Pro en After Effects aankondigen. De naam van de plug-in wordt gewijzigd in Adobe Workfront voor ontwerp en video.</p>
-                        <p>De bijgewerkte plug-in Adobe Workfront for design and video biedt nu ondersteuning voor InDesign, Premiere Pro en After Effects, en binnenkort ook voor Illustrator.</p>
+                        <p>We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign-insteekmodule is uitgebreid met Adobe Premiere Pro en After Effects. De naam van de plug-in wordt gewijzigd in Adobe Workfront voor ontwerp en video.</p>
+                        <p>De bijgewerkte plug-in Adobe Workfront for design en video biedt nu ondersteuning voor InDesign, Premiere Pro en After Effects, en binnenkort ook voor Illustrator.</p>
                         <p>Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u zich altijd aanmelden zonder uw favoriete Creative Cloud-toepassing te verlaten. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -453,7 +454,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hoe te om tot de hulp van Workfront, voor klanten op de Adobe toegang te hebben verenigde Ervaring</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hoe te om tot de hulp van Workfront, voor klanten op de Adobe Verenigde Ervaring toegang te hebben</a></p>
                         <p>Als uw organisatie aan de Adobe Admin Console en de Adobe Verenigde Ervaring voor Workfront is geregistreerd, omvat de de navigatiebar van Workfront niet meer een verbinding voor "Hulp."</p>
                         <p>U kunt Workfront Help op Adobe Experience League openen via het hoofdmenu links op de navigatiebalk van Workfront of via het vraagtekenpictogram in het bovenste navigatiegebied.</p>
                     </td>
@@ -462,10 +463,10 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                         </p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 27 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 27 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Productieversie: 3 november 2022 <span style="color: #ff0000;"> Deze eigenschap is slechts op klanten van toepassing die aan de Adobe Verenigde Ervaring voor Workfront worden bezet.</span></p>
+                                <p>Productieversie: 3 november 2022 <span style="color: #ff0000;"> Deze eigenschap is slechts op klanten van toepassing die aan de Adobe Verenigde Ervaring voor Workfront worden gehouden.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -484,10 +485,10 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [reg
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoning release: 13 oktober 2022<br /></p>
+                                <p>Voorvertoningsrelease: 13 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie: 27 oktober 2022 (buiten de cyclus)</span></p>
+                                <p><span class="preview">Productie: 27 oktober 2022 (buiten de cyclus)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -517,9 +518,9 @@ Nieuwe functies die beschikbaar zijn in de Workfront Goals release met 23.1 rele
 
 Voor API versie 15 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuw in API-versie 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
 
-Voor informatie over API-versies raadpleegt u [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Zie voor informatie over API-versies [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
@@ -552,7 +553,7 @@ Sommige functies voor lijstbeheer gaan naar Instellingen > Interface > Filters/W
 
 #### **Workfront-extensie voor Illustrator en InDesign**
 
-Wij vervangen de [Workfront-extensie voor Illustrator en InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) met bijgewerkte Creative Cloud-plug-ins. Vanaf eind 2022, zal deze uitbreiding niet meer beschikbaar in de Uitwisseling van de Adobe zijn te installeren.
+Wij vervangen de [Workfront-extensie voor Illustrator en InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) met bijgewerkte Creative Cloud plug-ins. Vanaf eind 2022, zal deze uitbreiding niet meer beschikbaar in de Uitwisseling van de Adobe zijn te installeren.
 
 De functionaliteit in deze extensie en diverse verbeteringen zijn beschikbaar in de bijgewerkte Adobe Workfront for Creative Cloud Plugins:
 * [Adobe Workfront voor Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
@@ -584,6 +585,6 @@ De werklastbalans vervangt de bronnenplanner.
 
 Met dit gebeurtenistype konden klanten controleren wanneer machtigingen voor objecten werden bijgewerkt.
 
-Zie voor meer informatie over abonnementen op gebeurtenissen en andere gebeurtenistypen die worden ondersteund [Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md)
+Zie voor meer informatie over abonnementen op gebeurtenissen en andere gebeurtenistypen die worden ondersteund [API voor abonnementen voor gebeurtenissen](/help/quicksilver/wf-api/general/event-subs-api.md)
 
 

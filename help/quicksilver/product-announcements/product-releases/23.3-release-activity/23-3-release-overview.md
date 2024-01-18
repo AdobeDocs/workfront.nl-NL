@@ -3,10 +3,11 @@ title: 23.3 releaseoverzicht
 description: 23.3 releaseoverzicht
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -452,8 +453,8 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [register voor webinar o
                 </tr>-->
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatisch gekoppelde mappen maken met Adobe Experience Manager Assets bij het maken van een project</a></p>
-                        <p>Met de nieuwe workflow voor het maken van gekoppelde mappen voor de Adobe Experience Manager-integratie kunt u de integratie configureren met een pad naar een map Adobe Experience Manager Assets. Wanneer de integratie aan een projectmalplaatje wordt toegevoegd, zullen om het even welke projecten die van het malplaatje worden gecreeerd automatisch tot een verbonden subfolder in Experience Manager Assets in de gespecificeerde omslag leiden. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatisch gekoppelde mappen naar Adobe Experience Manager Assets maken wanneer u een project maakt</a></p>
+                        <p>Met de nieuwe workflow voor het maken van een gekoppelde map voor de Adobe Experience Manager-integratie kunt u de integratie configureren met een pad naar een Adobe Experience Manager Assets-map. Wanneer de integratie aan een projectmalplaatje wordt toegevoegd, zullen om het even welke projecten die van het malplaatje worden gecreeerd automatisch tot een verbonden subfolder in Experience Manager Assets in de gespecificeerde omslag leiden. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>

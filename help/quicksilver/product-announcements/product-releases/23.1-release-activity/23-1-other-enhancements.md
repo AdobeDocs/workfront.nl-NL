@@ -4,10 +4,11 @@ description: 23.1 Andere verbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -16,11 +17,11 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 23.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 16 januari 2023.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 raadpleegt u [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Introductie van de toevoeging van Illustrator aan de Adobe Workfront voor ontwerp- en video-insteekmodules
 
-We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign plugin is uitgebreid met Adobe Illustrator.
+We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign-insteekmodule is uitgebreid met Adobe Illustrator.
 
 De bijgewerkte plug-in Adobe Workfront for design en video biedt nu ondersteuning voor InDesign, Illustrator, Premiere Pro en After Effects.
 
@@ -40,7 +41,7 @@ In Workfront is het volgende beschikbaar voordat de verbeterde filters algemeen 
 
 * Algemene filterinstellingsmogelijkheden worden toegevoegd aan de pagina voor filterinstellingen
 * De mogelijkheid om standaardfilters van het systeem toe te voegen en te verwijderen wordt toegevoegd aan lay-outsjablonen
-* Besturingselementen voor lijsten worden afgekeurd
+* Besturingselementen voor lijsten worden vervangen
 
 Deze functies verhelpen problemen met betrekking tot beheerde filterlijsten die niet correct worden weergegeven in de openbare bètafilters.
 
@@ -58,21 +59,21 @@ Zie voor meer informatie [Standaardfilters, weergaven en groepen maken, bewerken
 
 ## Introductie van Adobe Workfront voor ontwerp en video
 
-We zijn erg blij dat we de uitbreiding van onze Adobe Workfront for InDesign plugin naar Adobe Premiere Pro en After Effects aankondigen. De naam van de plug-in wordt gewijzigd in Adobe Workfront voor ontwerp en video.
+We zijn erg blij om aan te kondigen dat onze Adobe Workfront for InDesign-insteekmodule is uitgebreid met Adobe Premiere Pro en After Effects. De naam van de plug-in wordt gewijzigd in Adobe Workfront voor ontwerp en video.
 
-De bijgewerkte plug-in Adobe Workfront for design and video biedt nu ondersteuning voor InDesign, Premiere Pro en After Effects, en binnenkort ook voor Illustrator.
+De bijgewerkte plug-in Adobe Workfront for design en video biedt nu ondersteuning voor InDesign, Premiere Pro en After Effects, en binnenkort ook voor Illustrator.
 
 Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega&#39;s in het gedeelte Updates en kunt u zich altijd aanmelden zonder uw favoriete Creative Cloud-toepassing te verlaten.
 
-Downloaden [Adobe Workfront voor ontwerp en video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) op de markt.
+Downloaden [Adobe Workfront voor ontwerp en video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) op de markt vandaag.
 
 Beheerders kunnen ook [een pakket maken met de plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) van de Admin Console en opstellen aan gebruikers of op een beheerde of zelf-beheerde manier.
 
-## Hoe te om tot de hulp van Workfront, voor klanten op de Adobe toegang te hebben verenigde Ervaring
+## Hoe te om tot de hulp van Workfront, voor klanten op de Adobe Verenigde Ervaring toegang te hebben
 
 >[!NOTE]
 >
->Deze eigenschap is slechts op klanten van toepassing die aan de Adobe Verenigde Ervaring voor Workfront worden bezet.
+>Deze eigenschap is slechts op klanten van toepassing die aan de Adobe Verenigde Ervaring voor Workfront worden gehouden.
 
 Als uw organisatie aan de Adobe Admin Console en de Adobe Verenigde Ervaring voor Workfront is geregistreerd, omvat de de navigatiebar van Workfront niet meer een verbinding voor &quot;Hulp.&quot;
 

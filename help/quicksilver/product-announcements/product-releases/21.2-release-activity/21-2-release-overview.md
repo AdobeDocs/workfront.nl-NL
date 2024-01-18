@@ -6,10 +6,11 @@ title: 21.2 Overzicht van de release
 description: De release van 21.2 is in de week van 10 mei 2021 beschikbaar gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '5474'
+source-wordcount: '5544'
 ht-degree: 0%
 
 ---
@@ -53,7 +54,7 @@ For specific release dates and times for each cluster, see the
 * [Verbeteringen voor beheer van bronnen](#resource-management-enhancements)
 * [Verbeteringen rapporteren](#reporting-enhancements)
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
-* [Verbeterde integratie](#integration-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 * [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 
@@ -85,11 +86,11 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for3" class="MCXref xref" xrefformat="{para}">Voor beheerders: Bekijk de gegevens in het auditlogboek over veel meer gebieden in Workfront</a> </p> <p>In het gebied Auditlogboeken, kunt u veranderingen in meer gebieden door Workfront nu volgen en problemen oplossen. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for3" class="MCXref xref" xrefformat="{para}">Voor beheerders: bekijk de informatie van het Logboek van de Controle over vele meer gebieden in Workfront</a> </p> <p>In het gebied Auditlogboeken, kunt u veranderingen in meer gebieden door Workfront nu volgen en problemen oplossen. </p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 22 april 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: Verbeterde besturingselementen voor het verplaatsen van subgroepen en een bijgewerkte werkbalk</a> </p> <p>We hebben de volgende verbeteringen aangebracht in het gebied Subgroepen in Setup.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: verbeterde besturingselementen voor het verplaatsen van subgroepen en een bijgewerkte werkbalk</a> </p> <p>We hebben de volgende verbeteringen aangebracht in het gebied Subgroepen in Setup.</p> 
     <ul> 
      <li> <p>Om u een snelle manier te geven om de groepen te reorganiseren u beheert, hebben wij een "Add subgroups"toolbarknoop toegevoegd die u toestaat om nieuwe subgroepen tot stand te brengen en bestaande te bewegen.</p> </li> 
      <li> <p>De werkbalk in het gebied Subgroepen zorgt er nu voor dat lijsten consistent zijn met andere gemoderniseerde lijsten in de nieuwe Workfront-ervaring. Als u groepen selecteert, vertegenwoordigen pictogrammen de beschikbare functies op de werkbalk.</p> </li> 
@@ -101,7 +102,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 22 april 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: Verbeteringen weergeven in het gebied Groepen</a> </p> <p>Twee verbeteringen in het gebied van Groepen in Opstelling maken lijsten verenigbaar met andere gemoderniseerde lijsten in de nieuwe ervaring van Workfront:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: lijstverbeteringen in het gebied Groepen</a> </p> <p>Twee verbeteringen in het gebied van Groepen in Opstelling maken lijsten verenigbaar met andere gemoderniseerde lijsten in de nieuwe ervaring van Workfront:</p> 
     <ul> 
      <li> <p>Als u groepen selecteert, vertegenwoordigen pictogrammen de beschikbare functies op de werkbalk.</p> </li> 
      <li> <p>In de lijst met groepen, kolommen, sorteren en hiërarchie hebt u de nieuwere vormgeving en het gevoel dat u in andere lijsten gewend bent. Standaard worden in lijsten ook maximaal 2000 items op één pagina weergegeven in plaats van 100.</p> </li> 
@@ -109,35 +110,35 @@ For specific release dates and times for each cluster, see the
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 april 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for2" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: Programma's maken en bewerken vanuit het gebied Groepen in Setup</a> </p> <p>We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op één locatie te beheren. Nu kunt u met de programma's van een groep van het gebied van Groepen in Opstelling bekijken en werken. Hierdoor hoeft u niet naar het gebied Programma's te gaan om de programma's van uw groep te beheren. En het houdt de lijst van groepsprogramma's u met werkt gescheiden van de andere programma's in het systeem.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for2" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: programma's maken en bewerken vanuit het gebied Groepen in Instellen</a> </p> <p>We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op één locatie te beheren. Nu kunt u met de programma's van een groep van het gebied van Groepen in Opstelling bekijken en werken. Hierdoor hoeft u niet naar het gebied Programma's te gaan om de programma's van uw groep te beheren. En het houdt de lijst van groepsprogramma's u met werkt gescheiden van de andere programma's in het systeem.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 april 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for5" class="MCXref xref" xrefformat="{para}">Voor beheerders: Vernieuwde koppen in het gedeelte Setup</a> </p> <p>Om beheerders in het gebied van de Opstelling beter te oriënteren en consistentie door Workfront te handhaven, hebben wij de kopballen van de Opstelling met diverse updates bijgewerkt, met inbegrip van een grote kleurrijke badge die elke pagina en subpage van de Opstelling, evenals gemoderniseerde doopvontstijlen en grootten merken.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for5" class="MCXref xref" xrefformat="{para}">Voor beheerders: vernieuwde kopteksten in het gedeelte Instellen</a> </p> <p>Om beheerders in het gebied van de Opstelling beter te oriënteren en consistentie door Workfront te handhaven, hebben wij de kopballen van de Opstelling met diverse updates bijgewerkt, met inbegrip van een grote kleurrijke badge die elke pagina en subpage van de Opstelling, evenals gemoderniseerde doopvontstijlen en grootten merken.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 1 april 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for6" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: Meer groepsobjecten van de pagina Groepen weergeven en beheren</a> </p> <p>We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op één locatie te beheren. Nu kunt u met de bedrijven van uw groep, de teams, en de portefeuilles van het gebied van Groepen in Opstelling bekijken en werken. Dit bewaart u van het moeten naar de diverse pagina's van de Opstelling voor deze voorwerpen gaan om hen voor uw groep te beheren. Het houdt de lijst met groepsobjecten die je bekijkt gescheiden van die van de andere groepen in het systeem.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for6" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: meer groepsobjecten weergeven en beheren op de pagina Groepen</a> </p> <p>We maken het nog steeds eenvoudiger om uw groepen en de bijbehorende objecten op één locatie te beheren. Nu kunt u met de bedrijven van uw groep, de teams, en de portefeuilles van het gebied van Groepen in Opstelling bekijken en werken. Dit bewaart u van het moeten naar de diverse pagina's van de Opstelling voor deze voorwerpen gaan om hen voor uw groep te beheren. Het houdt de lijst met groepsobjecten die je bekijkt gescheiden van die van de andere groepen in het systeem.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 maart 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuw voor groepsbeheerders: Taakbladprofielen voor groepen toewijzen</a> </p> <p>Nu is het gemakkelijker om timesheet-profielen te beheren voor een groep die u beheert. U kunt niet alleen timesheet-profielen maken, u kunt deze toewijzen aan uw groepen of aan individuele leden van uw groepen. Dit geldt ook als de optie Timesheets &amp; hours niet is ingeschakeld in uw toegangsniveau.</p> <p>Tot nu toe was het inschakelen van de optie Timesheets en uren vereist om de tijdbladprofielen toe te wijzen. Maar dit zou niet ideaal voor elke groepsbeheerder kunnen zijn omdat het mening verleent en toegang tot alle timesheet en ureninformatie in het systeem uitgeeft. Als u dit toegangsniveau niet nodig hebt, kunt u nu tijdbladprofielen voor uw groepen beheren.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuw voor groepsbeheerders: Tijdpaginaprofielen voor groepen toewijzen</a> </p> <p>Nu is het gemakkelijker om timesheet profielen voor een groep te beheren u beheert. U kunt niet alleen timesheet-profielen maken, u kunt deze toewijzen aan uw groepen of aan individuele leden van uw groepen. Dit geldt ook als de optie Timesheets &amp; hours niet is ingeschakeld in uw toegangsniveau.</p> <p>Tot nu toe was het inschakelen van de optie Timesheets en uren vereist om de tijdbladprofielen toe te wijzen. Maar dit zou niet ideaal voor elke groepsbeheerder kunnen zijn omdat het mening verleent en toegang tot alle timesheet en ureninformatie in het systeem uitgeeft. Als u dit toegangsniveau niet nodig hebt, kunt u nu tijdbladprofielen voor uw groepen beheren.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 11 maart 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for7" class="MCXref xref" xrefformat="{para}">Voor beheerders: Stel de filters, weergave en groepering in die gebruikers in objectlijsten zien</a><span class="uitext" style="color: #dc143c;"></span> </p> <p>Met een lay-outsjabloon in de nieuwe Workfront-ervaring kunt u nu de standaardfilters, -weergave en -groepering instellen die gebruikers in objectlijsten in Workfront zien.</p> <p>Bijvoorbeeld, in plaats van het verlaten van de de lijstcontrole van de Filter die aan allen wordt geplaatst, kunt u het in Mijn Team van het Huis veranderen. Op deze manier worden alleen de objecten opgenomen die zijn gekoppeld aan het team van de gebruiker wanneer een gebruiker een lijst met objecten weergeeft.</p> <p>Eerder, konden deze gebreken niet worden aangepast, zodat werden zij altijd geplaatst als allen voor Filters, Norm voor Weergaven, en niets voor Groepen. Een extra voordeel van de nieuwe functionaliteit is dat u deze drie instellingen kunt verbergen voor uw gebruikers als zij ze niet nodig hebben.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for7" class="MCXref xref" xrefformat="{para}">Voor beheerders: stel de filters, weergave en groepering in die gebruikers in objectlijsten zien</a><span class="uitext" style="color: #dc143c;"></span> </p> <p>Met een lay-outsjabloon in de nieuwe Workfront-ervaring kunt u nu de standaardfilters, -weergave en -groepering instellen die gebruikers in objectlijsten in Workfront zien.</p> <p>Bijvoorbeeld, in plaats van het verlaten van de de lijstcontrole van de Filter die aan allen wordt geplaatst, kunt u het in Mijn Team van het Huis veranderen. Op deze manier worden alleen de objecten opgenomen die zijn gekoppeld aan het team van de gebruiker wanneer een gebruiker een lijst met objecten weergeeft.</p> <p>Eerder, konden deze gebreken niet worden aangepast, zodat werden zij altijd geplaatst als allen voor Filters, Norm voor Weergaven, en niets voor Groepen. Een extra voordeel van de nieuwe functionaliteit is dat u deze drie instellingen kunt verbergen voor uw gebruikers als zij ze niet nodig hebben.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 11 maart 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: Maak een lijst met de rapporten die momenteel een aangepast veld gebruiken</a> </p> <p>Wanneer u een aangepast veld moet bewerken of verwijderen dat mogelijk al is geïmplementeerd in sommige Workfront-rapporten, is het belangrijk te beoordelen of die rapporten aanpassingen nodig hebben om correct te blijven werken nadat u de wijziging hebt aangebracht. Nu, met de nieuwe mening van de Gevolgen van het Gebied van de Douane in het gebied van Forms van de Douane in Opstelling, kunt u gemakkelijk weten welke rapporten het gebied gebruiken.</p> <p>Zonder deze mening, moest u een rapport in werking stellen om te weten te komen welke douanevelden in rapporten werden gebruikt. Dit was moeilijk en vervelend als uw organisatie veel aangepaste velden gebruikt.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: maak een lijst met de rapporten die momenteel een aangepast veld gebruiken</a> </p> <p>Wanneer u een aangepast veld moet bewerken of verwijderen dat mogelijk al is geïmplementeerd in sommige Workfront-rapporten, is het belangrijk te beoordelen of die rapporten aanpassingen nodig hebben om correct te blijven werken nadat u de wijziging hebt aangebracht. Nu, met de nieuwe mening van de Gevolgen van het Gebied van de Douane in het gebied van de Forms van de Douane in Opstelling, kunt u gemakkelijk weten welke rapporten het gebied gebruiken.</p> <p>Zonder deze mening, moest u een rapport in werking stellen om te weten te komen welke douanevelden in rapporten werden gebruikt. Dit was moeilijk en vervelend als uw organisatie veel aangepaste velden gebruikt.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 18 februari 2021<br></p> <p>Productieversie: 4 maart 2021</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for8" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: Een groep en de bijbehorende objecten op één plaats weergeven en beheren</a> </p> <p>Nu is het gemakkelijker om een groep te beheren wanneer u een groep in het gebied van Groepen in Opstelling bekijkt. Met het nieuwe menu Meer kunt u de groep snel bewerken, kopiëren of verwijderen zonder terug te gaan naar de pagina Groepen.</p> <p>Ook, kunt u met de lay-outmalplaatjes van uw groep, programma's, timesheet profielen, en subgroup leden van de pagina van de groep bekijken en werken. Dit bewaart u van het moeten naar de diverse pagina's van de Opstelling voor deze voorwerpen gaan om hen voor uw groep te beheren. En het houdt de lijst van de voorwerpen van uw groep gescheiden van die van de andere groepen in het systeem.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for8" class="MCXref xref" xrefformat="{para}">Voor groepsbeheerders: een groep en de bijbehorende objecten op één plaats weergeven en beheren</a> </p> <p>Nu is het gemakkelijker om een groep te beheren wanneer u een groep in het gebied van Groepen in Opstelling bekijkt. Met het nieuwe menu Meer kunt u de groep snel bewerken, kopiëren of verwijderen zonder terug te gaan naar de pagina Groepen.</p> <p>Ook, kunt u met de lay-outmalplaatjes van uw groep, programma's, timesheet profielen, en subgroup leden van de pagina van de groep bekijken en werken. Dit bewaart u van het moeten naar de diverse pagina's van de Opstelling voor deze voorwerpen gaan om hen voor uw groep te beheren. En het houdt de lijst van de voorwerpen van uw groep gescheiden van die van de andere groepen in het systeem.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 18 februari 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: Meer tekstopmaakopties beschikbaar in aangepaste formuliervelden</a> </p> <p>Wanneer gebruikers in aangepaste formuliervelden typen die opmaak toestaan, kunnen ze de tekst nu ordenen met opsommingstekens, nummering, hyperlinks en blokaanhalingstekens, naast vet, cursief en onderstrepen.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nieuw voor beheerders: meer tekstopmaakopties beschikbaar in aangepaste formuliervelden</a> </p> <p>Wanneer gebruikers in aangepaste formuliervelden typen die opmaak toestaan, kunnen ze de tekst nu ordenen met opsommingstekens, nummering, hyperlinks en blokaanhalingstekens, naast vet, cursief en onderstrepen.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 18 februari 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -305,7 +306,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 8 april 2021<br></p> <p>Productieversie: met de release van 21.2 <span class="uitext" style="color: #dc143c;">(Tijdelijk uit productie genomen op 20 mei 2021)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md#report" class="MCXref xref" xrefformat="{para}">Rapport over systeemupdates</a> </p> <p>Het nieuwe rapport van de Ingang van het Dagboek geeft u grotere controleerbaarheid door u toe te staan om aan systeemupdates, met inbegrip van te boren: statuswijzigingen voor een project, taak of uitgave; verwijderde taken en problemen; waarden in aangepaste velden; en meer.</p> <p>Eerder kon u alleen via de Workfront API rapporteren over systeemupdates.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md#report" class="MCXref xref" xrefformat="{para}">Rapport over systeemupdates</a> </p> <p>Het nieuwe rapport van de Ingang van het Dagboek geeft u grotere controleerbaarheid door u toe te staan om aan systeemupdates, met inbegrip van: statusveranderingen op een project, een taak, of een kwestie, geschrapte taken en kwesties, waarden op douanevelden, en meer te boren.</p> <p>Eerder kon u alleen via de Workfront API rapporteren over systeemupdates.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 18 februari 2021<br></p> <p>Productieversie: 4 maart 2021</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -331,12 +332,12 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md#carry" class="MCXref xref" xrefformat="{para}">De bestaande proefdrukworkflow overnemen bij het genereren van een nieuwe versie</a> </p> <p>De bestaande proefdrukworkflow wordt nu toegepast op nieuwe versies die u maakt, ongeacht de methode waarin deze worden gegenereerd.</p> <p>Eerder was er een klein verschil in de manier waarop de proefdrukworkflow werd overgedragen, afhankelijk van waar u deze in Workfront hebt gegenereerd.</p> </td> 
-   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 11 maart 2021<br></p> <p>Productieversie: met de release van 21.2<span class="uitext" style="color: #dc143c;"> (Verwijderd uit de voorproef- en productieomgeving; deze functie wordt niet vrijgegeven bij de release van 21.2)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 11 maart 2021<br></p> <p>Productieversie: met de release van 21.2<span class="uitext" style="color: #dc143c;"> (Verwijderd uit de voorproef- en productieomgeving; deze functie wordt niet vrijgegeven met versie 21.2)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Verbeterde integratie {#integration-enhancements}
+### Verbeteringen voor integratie {#integration-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -347,7 +348,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Introductie van Adobe Workfront for XD</a> </p> <p>We zijn erg blij om de introductie van onze nieuwe insteekmodule aan te kondigen: Adobe Workfront for XD. Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u proefdrukken voor revisie verzenden, allemaal zonder XD te verlaten. Ga naar de Adobe XD Marketplace om de insteekmodule vandaag te downloaden.</p> </td> 
+   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Introductie van Adobe Workfront for XD</a> </p> <p>We zijn blij dat we de introductie van onze nieuwe insteekmodule Adobe Workfront for XD aankondigen. Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega's in het gedeelte Updates en kunt u proefdrukken voor revisie verzenden, allemaal zonder XD te verlaten. Ga naar de Adobe XD Marketplace om de insteekmodule vandaag te downloaden.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Beta Preview-release: 27 april 2021<br></p> <p>Productieversie: 27 april 2021</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -390,11 +391,11 @@ For specific release dates and times for each cluster, see the
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 februari 2021<br></p> <p>Productieversie: 10 maart 2021</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Updates voor reacties op zoekacties naar objectstatus</a> </p> <p>Workfront slaat nu objectstatussen op een nieuwe manier op. </p> <p>Deze wijzigingen hebben geen invloed op de manier waarop verzoeken om statuszoekopdrachten worden gedaan. API-aanvragen die een zoekopdracht naar objectstatus bevatten, retourneren echter een onvolledige lijst met groepsstatussen.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Updates voor reacties op zoekacties naar objectstatus</a> </p> <p>Workfront slaat nu objectstatussen op een nieuwe manier op. </p> <p>Deze wijzigingen hebben geen invloed op de manier waarop verzoeken om statuszoekopdrachten worden gedaan. API-aanvragen met een zoekopdracht naar objectstatus retourneren echter een onvolledige lijst met groepsstatussen.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 maart 2021<br></p> <p>Productieversie: TBD</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Betalingen voor abonnementen voor gebeurtenissen bijgewerkt met alle velden die eindigen op de id</a> </p> <p> </p> <p>Alle payloads met abonnementen voor gebeurtenissen bevatten nu elk veld dat eindigt op 'ID'. </p> <p>Het is belangrijk om op te merken dat elk voorwerp zijn eigen unieke reeks bijbehorende gebieden heeft, die een unieke reeks bijbehorende gebieden omvat die in identiteitskaart beëindigen. Dit betekent dat elke lading alle bijbehorende gebieden van dat voorwerp bevat die in identiteitskaart eindigen, elk voorwerp een verschillende reeks gebieden heeft die in identiteitskaart eindigen.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Betalingen voor abonnementen voor gebeurtenissen bijgewerkt met alle velden die eindigen op de id</a> </p> <p> </p> <p>Alle payloads met abonnementsabonnementen voor gebeurtenissen bevatten nu elk veld dat eindigt op 'ID'. </p> <p>Het is belangrijk om op te merken dat elk voorwerp zijn eigen unieke reeks bijbehorende gebieden heeft, die een unieke reeks bijbehorende gebieden omvat die in identiteitskaart beëindigen. Dit betekent dat elke lading alle bijbehorende gebieden van dat voorwerp bevat die in identiteitskaart eindigen, elk voorwerp een verschillende reeks gebieden heeft die in identiteitskaart eindigen.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 maart 2021<br></p> <p>Productieversie: met de release van 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +421,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md#save" class="MCXref xref" xrefformat="{para}">Aanvragen opslaan als concepten in de mobiele app van Workfront</a> </p> <p>U kunt gedeeltelijk ingevulde aanvragen nu opslaan als concepten in de mobiele app. Er is een nieuwe sectie Concepten toegevoegd aan het gebied Aanvraag, zodat u gemakkelijk uw concepten kunt vinden.</p> </td> 
-   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 februari 2021<br></p> <p>Production release: iOS: 27 april 2021; Android: met de release 21.2</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>iOS mobiele app</p> <p>Android-app voor mobiele apparaten</p> </td> 
+   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 25 februari 2021<br></p> <p>Productieversie: iOS: 27 april 2021; Android: met 21.2 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>iOS mobiele app</p> <p>Android-app voor mobiele apparaten</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -451,7 +452,7 @@ Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functie
 
 ## Uit productie genomen functies
 
-### Terugdraaiacties van functies: De bestaande proefdrukworkflow overnemen bij het genereren van een nieuwe versie
+### Terugdraaien van functies: de bestaande proefdrukworkflow overnemen bij het genereren van een nieuwe versie
 
 Vanwege feedback van klanten **Workfront verwijdert deze wijziging uit voorvertoningsomgevingen op 30 maart 2021 en uit productieomgevingen op 31 maart 2021**.
 
@@ -469,6 +470,6 @@ Vergelijkbare functionaliteit voor het eenvoudig kopiëren van bestaande workflo
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over ondersteunde browsers raadpleegt u [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).
+Zie voor meer informatie over ondersteunde browsers [Adobe Workfront-browservereisten](../../../workfront-basics/workfront-browser-requirements.md).
 
  

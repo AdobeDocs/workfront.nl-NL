@@ -6,10 +6,11 @@ title: 21.1 - releaseoverzicht
 description: De 21.1-release is in de productieomgeving beschikbaar gesteld in de week van .
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3635'
+source-wordcount: '3658'
 ht-degree: 0%
 
 ---
@@ -65,7 +66,7 @@ For specific release dates and times for each cluster, see the
 * [Verbeteringen voor beheer van bronnen](#resource-management-enhancements)
 * [Verbeteringen voor projectbeheer](#project-management-enhancements)
 * [Verbeterde analysemogelijkheden](#enhanced-analytics-improvements)
-* [Verbeterde integratie](#integration-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -121,7 +122,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur3" class="MCXref xref" xrefformat="{para}">Gebeurtenismeldingen configureren voor groepen</a> <span style="color: #dc143c; font-weight: bold;">Nieuw in Voorvertoning.</span></p> <p>Workfront-beheerders kunnen groepsbeheerders nu meer autonomie geven door ze in staat te stellen gebeurtenismeldingen voor hun groepen op hoofdniveau te configureren. Subgroepen nemen configuraties van gebeurtenismeldingen over van hun bovenliggende hoofdgroep.</p> <p>Eerder waren gebeurtenismeldingen alleen configureerbaar door een Workfront-beheerder op systeemniveau, wat betekent dat alle groepen dezelfde set gebeurtenismeldingen moesten gebruiken.</p> </td> 
-   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 22 januari 2021</p> <p>Productieversie: met 21.1 release <span style="color: #dc143c; font-weight: bold;">(In eerste instantie alleen beschikbaar in productie voor klanten op cluster 4 als onderdeel van een gefaseerde uitrol; binnenkort beschikbaar voor andere clusters)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 22 januari 2021</p> <p>Productieversie: met 21.1 release <span style="color: #dc143c; font-weight: bold;">(In eerste instantie alleen beschikbaar in Productie voor klanten op Cluster 4 als onderdeel van een gefaseerde uitrol; kort daarna beschikbaar voor andere clusters)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#view" class="MCXref xref" xrefformat="{para}">Het aantal licenties weergeven dat in een groep is gebruikt en toegewezen</a> </p> <p>Om te bepalen hoe goed uw vergunningen worden verdeeld, kunt u nu het aantal vergunningen bekijken die in een groep en om het even welke subgroepen onder het worden gebruikt.</p> <p>Als u een top-level groep beheert, kunt u zowel het aantal vergunningen bekijken die in een groep (en zijn subgroepen) worden gebruikt als het maximumaantal vergunningen dat voor de groep wordt toegewezen.</p> </td> 
@@ -141,7 +142,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md#workload" class="MCXref xref" xrefformat="{para}">Werklastverdeling voor projecten</a> </p> <p>De werklastbalans is nu beschikbaar in een project. Nu, hebt u een optie te selecteren tussen het gebruiken van de Balancer van de Werkbelasting of het Plannende hulpmiddel om uw projectmiddelen te beheren.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md#workload" class="MCXref xref" xrefformat="{para}">Werklastverdeling voor projecten</a> </p> <p>De werklastbalans is nu beschikbaar in een project. Nu, hebt u een optie om tussen het gebruiken van de Balancer van de Werkbelasting of het Plannende hulpmiddel te selecteren om uw projectmiddelen te beheren.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 17 december 2020</p> <p>Productieversie: met 21.1 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -175,11 +176,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuwe ervaring bij het indienen van aanvragen op het gebied van verzoeken</a> </p> <p>Om consistentie met de nieuwe ervaring van Workfront te brengen en efficiency voor u te creëren wanneer het voorleggen van verzoeken, hebben wij het Nieuwe vakje van het Verzoek op het gebied van Verzoeken opnieuw ontworpen.</p> </td> 
-   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 13 januari 2021</p> <p>Productieversie: met 21.1 release <span style="color: #dc143c; font-weight: bold;">(Verwijderd uit de release; blijft in Voorvertoning en wordt vrijgegeven voor productie (21.2)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
+   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 13 januari 2021</p> <p>Productieversie: met 21.1 release <span style="color: #dc143c; font-weight: bold;">(Verwijderd uit release; blijft in Voorbeeld en wordt vrijgegeven voor productie met 21.2)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Een koppeling naar een aanvraagwachtrij delen bij het verzenden van een aanvraag</a> </p> <p>Wij hebben het nu mogelijk gemaakt om een verbinding aan een verzoekrij, een onderwerpgroep, of een rijonderwerp te delen aangezien u een verzoek creeert.</p> <p>Alvorens u een nieuw verzoek voorlegt, kunt u een verbinding aan de verzoekrij, onderwerpgroep, of rijonderwerp van het verzoek kopiëren en het met andere gebruikers delen, of het inbedden in een dashboard.</p> </td> 
-   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 13 januari 2021</p> <p>Productieversie: met 21.1 release <span style="color: #dc143c; font-weight: bold;">(Verwijderd uit de release; blijft in Voorvertoning en wordt vrijgegeven voor productie (21.2)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
+   <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 13 januari 2021</p> <p>Productieversie: met 21.1 release <span style="color: #dc143c; font-weight: bold;">(Verwijderd uit release; blijft in Voorbeeld en wordt vrijgegeven voor productie met 21.2)</span></p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Nieuwe lijst Verzendverzoeken</a> </p> <p>Om u toe te staan om uw Voorgelegde Verzoeken op een gemakkelijkere, consistentere manier te beheren, hebben wij de Verzoeken verwijderd ik en Alle Gebieden van Verzoeken op het gebied van Verzoeken en hen vervangen met een nieuwe Voorgelegde lijst. De lijst heeft een vertrouwde blik en voelt dat alle andere lijsten in het systeem aanpast, toestaand u om voor verschillende categorieën voorgelegde verzoeken en snel onderzoek naar een verzoek te filtreren dat moeilijk zou kunnen zijn te vinden.</p> </td> 
@@ -194,7 +195,7 @@ For specific release dates and times for each cluster, see the
     <ul> 
      <li> <p>Wie deze goedkeuringen heeft gedelegeerd aan een andere gebruiker</p> </li> 
      <li> <p>Welke gebruiker deze goedkeuringen heeft gedelegeerd</p> </li> 
-     <li> <p>Begin- en einddatum van deze delegaties</p> </li> 
+     <li> <p>De begin- en einddatum van deze delegaties</p> </li> 
     </ul> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 17 december 2020</p> <p>Productieversie: 21 januari 2021</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
@@ -216,17 +217,17 @@ For specific release dates and times for each cluster, see the
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 28 januari 2021</p> <p>Productieversie: met 21.1 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring (voorheen beschikbaar)</p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#enhanced" class="MCXref xref" xrefformat="{para}">Verbeterde analyses worden nu standaard weergegeven</a> </p> <p>Opmerking: Deze wijziging is alleen van toepassing op gebruikers die onlangs zijn toegevoegd aan lay-outsjablonen. Deze wijziging heeft ook geen invloed op gebruikers die zijn toegewezen aan een aangepaste lay-outsjabloon.</p> <p>In het standaardmalplaatje van de Lay-out, wordt het gebied van Analytics nu toegelaten door gebrek, wat betekent de gebruikers die aan dit Malplaatje van Lay-out worden toegewezen nu het gebied van Analytics in de Globale Bar van de Navigatie in de Klassiek van Workfront en het Belangrijkste Menu in de nieuwe ervaring van Workfront zien.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#enhanced" class="MCXref xref" xrefformat="{para}">Verbeterde analyses worden nu standaard weergegeven</a> </p> <p>Opmerking: deze wijziging is alleen van toepassing op gebruikers die onlangs zijn toegevoegd aan lay-outsjablonen. Deze wijziging heeft ook geen invloed op gebruikers die zijn toegewezen aan een aangepaste lay-outsjabloon.</p> <p>In het standaardmalplaatje van de Lay-out, wordt het gebied van Analytics nu toegelaten door gebrek, wat betekent de gebruikers die aan dit Malplaatje van Lay-out worden toegewezen nu het gebied van Analytics in de Globale Bar van de Navigatie in de Klassiek van Workfront en het Belangrijkste Menu in de nieuwe ervaring van Workfront zien.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 6 november 2020</p> <p>Productieversie: 3 december 2020</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#availab" class="MCXref xref" xrefformat="{para}">Verbeterde analyses beschikbaar voor alle clusters</a> </p> <p>Uitgebreide analyses zijn beschikbaar voor alle Workfront-clusters, inclusief klanten met Cluster 6.</p> <p>Eerder was de uitgebreide analyse niet beschikbaar met het Google Cloud Platform, waardoor klanten met Cluster 6 geen toegang kregen tot het gebied Analytics. Zakelijke en Enterprise-klanten met Cluster 6 hebben nu toegang tot het gebied Analytics.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#availab" class="MCXref xref" xrefformat="{para}">Verbeterde analyses beschikbaar voor alle clusters</a> </p> <p>Uitgebreide analyses zijn beschikbaar voor alle Workfront-clusters, inclusief klanten met Cluster 6.</p> <p>Eerder was de uitgebreide analyse niet beschikbaar in het Google Cloud Platform, waardoor klanten met Cluster 6 geen toegang kregen tot het gebied Analytics. Zakelijke en Enterprise-klanten met Cluster 6 hebben nu toegang tot het gebied Analytics.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: 20 november 2020</p> <p>Productieversie: 3 december 2020</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Verbeterde integratie {#integration-enhancements}
+### Verbeteringen voor integratie {#integration-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -254,7 +255,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Datums en omgevingen vrijgeven</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuwe breadcrubs in de Adobe Workfront-app</a> </p> <p>We hebben de breedbandnavigatie toegevoegd aan de mobiele app van Workfront. Nu, kunt u deze eigenschap gebruiken om aan de punten van het ouderwerk binnen een project te navigeren.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nieuwe breadcrubs in de Adobe Workfront-app</a> </p> <p>We hebben de breedbandnavigatie toegevoegd aan de mobiele app van Workfront. U kunt deze functie nu gebruiken om naar bovenliggende werkitems in een project te navigeren.</p> </td> 
    <td><strong>Beschikbaar op deze data:</strong> <p>Bètavoorvertoning: n.v.t.</p> <p>Productieversie: met 21.1 release</p> <p><strong>Beschikbaar in deze omgevingen:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -336,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuw in API-versie 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
 
 Zie voor meer informatie over API-versies [API-versieschema en ondersteuningsschema](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -355,9 +356,9 @@ Voor informatie over de onderhoudsupdates die tijdens versie 21.1 zijn gemaakt, 
 * [Nieuwe IP-adressen voor Workfront-e-mailberichten met de release 21.1](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
 * [Lijst van gewenste personen van extra IP adressen voor de Abonnementen van de Gebeurtenis](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
 * [Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
-* [Flash-afleiding](#flash-deprecation)
+* [Afgekeurde Flash](#flash-deprecation)
 * [21.1 Release-webinar](#21-1-release-webinar)
-* [Wijziging in de release Voorvertoning](#change-in-preview-release-cadence)
+* [Wijzigen in de release Voorvertoning](#change-in-preview-release-cadence)
 * [Workfront One](#workfront-one)
 
 ### Nieuwe IP-adressen voor Workfront-e-mailberichten met de release 21.1 {#new-ip-addresses-for-workfront-email-with-the-21-1-release}
@@ -372,7 +373,7 @@ Ga naar Setup > System > Customer Info als u wilt weten in welke cluster u zich 
 
 In een inspanning om de succesvolle levering van het Abonnement van de Gebeurtenis te verhogen, voegen wij 4 nieuwe IP adressen met de 21.1 release van de Productie in het eerste kwartaal van 2021 toe. U moet deze IP adressen aan uw lijst van gewenste personen vóór Februari 2021 toevoegen om uw gebruikers te verzekeren blijven de Abonnementen van de Gebeurtenis ontvangen.
 
-Neem contact op met uw interne IT- en/of beveiligingsafdeling voor hulp bij het toevoegen van de nieuwe IP&#39;s in het artikel. [Event Subscription API](../../../wf-api/general/event-subs-api.md).
+Neem contact op met uw interne IT- en/of beveiligingsafdeling voor hulp bij het toevoegen van de nieuwe IP&#39;s in het artikel. [API voor abonnementen voor gebeurtenissen](../../../wf-api/general/event-subs-api.md).
 
 ### Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -383,17 +384,17 @@ Als uw organisatie een firewall gebruikt, moet u de volgende extra domeinen aan 
 
 Zie voor meer informatie [De lijst van gewenste personen van uw firewall configureren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-### Flash-afleiding {#flash-deprecation}
+### Afgekeurde Flash {#flash-deprecation}
 
-Alle op Flash gebaseerde gereedschappen zijn op 19 november 2020 uit alle producten verwijderd.
+Alle op Flash-gebaseerde hulpmiddelen werden verwijderd uit alle producten op 19 November 2020.
 
-Lees meer over vervangingsoplossingen voor elk specifiek op Flash gebaseerd hulpmiddel in het volgende artikel: [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Lees meer over vervangingsoplossingen voor elk specifiek op Flash-gebaseerd hulpmiddel in het volgende artikel: [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### 21.1 Release-webinar {#21-1-release-webinar}
 
 De Workfront 21.1 Release Webinar wordt op 3 februari om 11:00 uur EDT / 16:00 uur BST gepresenteerd. Registreren voor webinar [hier](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
 
-### Wijziging in de release Voorvertoning {#change-in-preview-release-cadence}
+### Wijzigen in de release Voorvertoning {#change-in-preview-release-cadence}
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 

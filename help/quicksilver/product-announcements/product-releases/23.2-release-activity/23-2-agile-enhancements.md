@@ -4,16 +4,18 @@ description: 23.2 Verbeteringen aan mobiele apparaten
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+recommendations: noDisplay, noCatalog
+exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # 23.2 Verbeteringen aan mobiele apparaten
 
-Deze pagina bevat een beschrijving van alle verbeteringen in de voorvertoningsomgeving die zijn aangebracht met de release 23.2. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
+Deze pagina bevat een beschrijving van alle verbeteringen in de voorvertoningsomgeving die zijn aangebracht in de versie 23.2. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
@@ -25,7 +27,7 @@ Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](
 
 ## Interferingfunctionaliteit beschikbaar in Adobe Workfront Boards
 
-Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-functionaliteit gebruiken. Deze functies zijn:
+Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-functionaliteit gebruiken. Deze functies zijn onder andere:
 
 * Workstreams voor het groeperen van aan hetzelfde team gerelateerde borden en het samenwerken aan het werk
 * Een lijst met kaarten, of de achterstand van het werk, met de optie om bronnen te gebruiken om kaarten aan de taken en kwesties van Workfront te verbinden
@@ -70,7 +72,7 @@ Zie voor meer informatie [Bestaande taken of problemen aan een board toevoegen](
 
 U kunt nu uren aanmelden op verbonden kaarten, net als bij een taak of uitgave. U moet de correcte toestemmingen aan de taak of de kwestie hebben om de tijd te registreren.
 
-De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet **Uren** in het Configure gebied onder Kaarten.
+De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet inschakelen **Uren** in het Configure gebied onder Kaarten.
 
 Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -116,7 +118,7 @@ Zie voor meer informatie [Verzamelingen beheren](/help/quicksilver/agile/use-boa
 
 [Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
-## Schattingsveld op verbonden kaarten verwijst naar het veld Artikelpunten op Workfront-objecten
+## Schattingsveld op verbonden kaarten naar veld Artikelpunten op Workfront-objecten
 
 >[!NOTE]
 >

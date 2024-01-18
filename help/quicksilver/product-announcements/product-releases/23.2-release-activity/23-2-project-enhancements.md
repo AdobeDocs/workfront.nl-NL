@@ -4,10 +4,11 @@ description: 23.2 Projectverbeteringen
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
-source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Naast een bijgewerkt uiterlijk van de interface zijn de volgende wijzigingen ook
 
 * U kunt uw Malplaatje van de Lay-out aanpassen en op die aanpassingen in de pagina van Details van een project, evenals in Edit Project (wanneer het uitgeven van één project) en Edit Projecten (wanneer het uitgeven van veelvoudige projecten) dozen wijzen.
 
-* Duidelijke indicatoren wanneer de waarden van elk gebied tussen de geselecteerde projecten verschillend zijn: een &quot;Meerdere waarden&quot;indicatorvertoningen voor gebieden de waarvan waarden niet tussen de geselecteerde projecten aanpassen.
+* Duidelijke indicatoren wanneer de waarden van elk gebied tussen de geselecteerde projecten verschillend zijn: de vertoningen van een &quot;Veelvoudige waarden&quot;indicator voor gebieden de waarvan waarden niet tussen de geselecteerde projecten aanpassen.
 
 * Vermelding welke aangepaste formulieren al zijn bijgevoegd bij de geselecteerde projecten en het aantal projecten met een bepaalde vorm dat al is bijgevoegd.
 
@@ -56,7 +57,7 @@ Zie voor meer informatie [Filters maken of bewerken in Adobe Workfront](/help/qu
 
 >[!NOTE]
 >
->Voorvertoning release: 16 februari 2023; Planned Production release: 2 maart 2023
+>Voorvertoningsrelease: 16 februari 2023; Planned Production release: 2 maart 2023
 
 Nu, hebt u de optie om de uren te kopiëren die op het begrotingsgebied van het Middel van het BedrijfsGeval of de Planner van het Middel worden begroot wanneer u een project kopieert. Voorafgaand aan deze verhoging, werden de uren die voor het project werden begroot niet overgebracht naar het gekopieerde project.
 
