@@ -6,7 +6,7 @@ description: Soms kunnen er conflicten optreden tussen taakplanningen in een pro
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -55,14 +55,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar een taak waarvoor u een Leveling Vertraging wilt toevoegen.
 1. Klik op de knop **Meer pictogram** rechts van de taaknaam klikt u op **Bewerken**.
 
-   ![](assets/qs-task-edit-icon-highlighted-350x154.png)
-
 1. Klikken **Instellingen**.
 
    ![](assets/leveling-delay-edit-task-nwe-350x345.png)
 
-1. Geef de **Vertraging Niveaus**, in uren, kies dan een eenheid van tijd.\
-   Dit is de tijd dat de bron wordt vertraagd bij het starten van de taak vanwege bronconflicten.
+1. Geef de **Vertraging Niveaus** kiest u een tijdseenheid in uren.\
+   Dit is de tijd dat de bron wordt vertraagd bij het starten van de taak als gevolg van bronconflicten.
 
    Maak een keuze uit de volgende opties voor tijdseenheden:
 

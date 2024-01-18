@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Om een kwestie op een taak of een project tot stand te brengen:
 1. (Optioneel) Als u het probleem voor een taak wilt registreren, gaat u naar de **Taken** en klikt u op de naam van een taak.
 1. Klik op de knop **Problemen** sectie.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   De lijst met projectproblemen wordt weergegeven
 
-1. Klikken **Nieuw probleem**.
+1. Klikken **Nieuw probleem** boven aan de lijst met uitgaven.
 Het vak Nieuwe uitgave wordt weergegeven.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ Inline uitgaven maken:
 
 1. Ga naar een project waar u de kwestie wilt tot stand brengen.
 1. (Optioneel) Als u het probleem voor een taak wilt registreren, gaat u naar de **Taken** en klikt u op de naam van een taak.
-1. Klik op de knop **Problemen** sectie.
-1. Klikken **Meer problemen toevoegen**.
+1. Klik op de knop **Problemen** in het linkerdeelvenster.
+1. Klikken **Meer problemen toevoegen** onder aan de lijst met uitgaven.
 
    Er wordt een nieuwe regel gemaakt in de lijst met problemen in de sectie Problemen.
 

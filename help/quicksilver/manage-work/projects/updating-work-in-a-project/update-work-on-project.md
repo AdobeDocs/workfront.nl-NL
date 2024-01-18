@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Werk aan een project bij: artikelindex
+
+<!--Audited: 01/2024-->
 
 Als u de status en de voortgang van een project wilt bijwerken, moet u de status en de voortgang van de taken bijwerken. Dat rolt uiteindelijk omhoog om de vooruitgang op het project te tonen.
 

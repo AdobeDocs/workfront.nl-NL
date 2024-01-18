@@ -6,9 +6,9 @@ description: Een uitgave converteren naar een project in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ U kunt een kwestie in een leeg project omzetten of een kwestie omzetten in een p
    * Voer een van de volgende handelingen uit om een uitgave om te zetten in een project met behulp van een sjabloon:
 
       * Klik op de naam van een uitgave en klik vervolgens op de knop [!UICONTROL **Meer**] menu ![](assets/more-icon.png) rechts van de naam van de uitgave
-
-        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
 
         of
 

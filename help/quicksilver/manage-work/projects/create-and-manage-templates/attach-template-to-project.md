@@ -6,7 +6,7 @@ description: U kunt een malplaatje aan een project of tijdens de aanvankelijke c
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
@@ -37,11 +37,11 @@ U moet over de volgende opties beschikken om de in dit artikel beschreven stappe
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken </p> <p>Voor informatie over projecttoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Toegang verlenen tot projecten</a>.</p> <p>Toegang tot sjablonen weergeven</p> <p>Zie voor informatie over sjabloonmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Een sjabloon delen</a>. </p> <p>Voor informatie over malplaatjetoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Toegang tot sjablonen verlenen</a>.</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten bewerken </p> <p>Voor informatie over projecttoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Toegang verlenen tot projecten</a>.</p> <p>Toegang tot sjablonen weergeven</p> <p>Zie voor informatie over sjabloonmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Een sjabloon delen</a>. </p> <p>Voor informatie over malplaatjetoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Toegang tot sjablonen verlenen</a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>. </p> <p>Machtigingen voor de sjabloon weergeven of hoger</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> <p>Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>. </p> <p>Machtigingen voor de sjabloon weergeven of hoger</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
-1. Klikken **Sjabloon bijvoegen**.
+1. Klikken **Sjabloon koppelen**.
 
    Het vak Sjabloon koppelen wordt weergegeven.
 
@@ -117,7 +117,7 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
 
    ![](assets/attach-template-large-box-nwe-350x262.png)
 
-1. Werk de informatie in de volgende secties bij voordat u de sjabloon koppelt (of klik op **Sjabloon bijvoegen** te allen tijde):
+1. Werk de informatie in de volgende secties bij voordat u de sjabloon koppelt (of klik op **Sjabloon koppelen** te allen tijde):
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
      </tr> 
      <tr> 
       <td role="rowheader">Selecteer de projecttaak u als voorganger voor de taken in dit malplaatje wilt.</td> 
-      <td> <p>Klik op het veld om een lijst met projecttaken weer te geven. Selecteer welke projecttaak u gebeëindigd wilt alvorens de malplaatjetaken kunnen beginnen. Alternatief, kunt u deze stap en opstellingsverhoudingen binnen het project overslaan nadat het malplaatje in bijlage is. </p> <p> Selecteer <strong>Type afhankelijkheid</strong>, <strong>Lag</strong> en of de voorganger <strong>Afgedwongen</strong> of niet. </p> </td> 
+      <td> <p>Klik het gebied om een lijst van projecttaken te tonen. Selecteer welke projecttaak u gebeëindigd wilt alvorens de malplaatjetaken kunnen beginnen. Alternatief, kunt u deze stap en opstellingsverhoudingen binnen het project overslaan nadat het malplaatje in bijlage is. </p> <p> Selecteer de <strong>Type afhankelijkheid</strong>, <strong>Lag</strong> en of de voorganger <strong>Afgedwongen</strong> of niet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selecteer de projecttaak die u als ouder van de taken in dit malplaatje wilt.</td> 
@@ -143,7 +143,7 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
      </tr> 
      <tr> 
       <td role="rowheader">De onderstaande geselecteerde items worden overgebracht naar het project. Schakel de opties uit die u wilt uitsluiten.</td> 
-      <td> <p>Schakel de selectievakjes uit naast de gegevens die u uit de sjabloon wilt verwijderen voordat u deze aan het project koppelt. Deze informatie wordt niet overgebracht van het malplaatje aan het project. Voor meer informatie over elk veld raadpleegt u <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Overzicht van het koppelen van een sjabloon aan een project</a>. </p> <p>Belangrijk: Als u de <strong>Wachtrij instellen eigenschappen en problemen</strong> doos, beschrijven de Details van de Rij van het malplaatje die van het project. In dit geval, worden de Verpletterende Regels, de Onderwerpen van de Rij, en de Groepen van het Onderwerp van het malplaatje toegevoegd aan die van het project. <br>Als het project opstelling als verzoekrij is en het malplaatje u aan het project vastmaakt niet opstelling als verzoekrij, wordt de rijinformatie van het project verwijderd als u het verlaten <strong>Wachtrijeigenschappen en instellingen voor problemen</strong> ingeschakeld. <br>Als u de optie <strong>Eigenschappen van wachtrij en Uitgave instellen</strong> doos, worden alle montages van de Opstelling van de Rij van het project bewaard en geen montages van de Opstelling van de Rij van het malplaatje zijn in bijlage. </p> </td> 
+      <td> <p>Schakel de selectievakjes uit naast de gegevens die u uit de sjabloon wilt verwijderen voordat u deze aan het project koppelt. Deze informatie wordt niet overgebracht van het malplaatje aan het project. Zie voor meer informatie over elk veld <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Overzicht van het koppelen van een sjabloon aan een project</a>. </p> <p>Belangrijk: als u de optie <strong>Wachtrij instellen eigenschappen en problemen</strong> doos, beschrijven de Details van de Rij van het malplaatje die van het project. In dit geval, worden de Verpletterende Regels, de Onderwerpen van de Rij, en de Groepen van het Onderwerp van het malplaatje toegevoegd aan die van het project. <br>Als het project opstelling als verzoekrij is en het malplaatje u aan het project vastmaakt niet opstelling als verzoekrij, wordt de rijinformatie van het project verwijderd als u het verlaten <strong>Wachtrijeigenschappen en instellingen voor problemen</strong> ingeschakeld. <br>Als u de optie <strong>Eigenschappen van wachtrij en Uitgave instellen</strong> doos, worden alle montages van de Opstelling van de Rij van het project bewaard en geen montages van de Opstelling van de Rij van het malplaatje zijn in bijlage. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Aangepaste Forms-sectie</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -161,7 +161,6 @@ U kunt een malplaatje aan een project in Workfront van de projectpagina of van e
    >
    >* Deze stap is verplicht wanneer de aangepaste formulieren op de sjabloon verplichte velden bevatten die leeg zijn.
    >* Als de gebieden van de malplaatjedouane vormen reeds op het project bestaan en informatie bevatten, behouden zij de informatie reeds over het project. U kunt deze niet bewerken tijdens het koppelen van de sjabloon.
-
 
 1. Klikken **Sjabloon bijvoegen.**
 1. Klikken **Bijlage annuleren** om het koppelen van de sjabloon te stoppen.
@@ -196,6 +195,4 @@ Om te begrijpen welke malplaatje op een project wordt toegepast:
 
    ![](assets/nwe-template-info-on-project-350x356.png)
 
- 
 
- 

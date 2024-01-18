@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Zakelijke hoofddoelen maken
-description: Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van de Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
+description: Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van het Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # Zakelijke hoofddoelen maken
 
-Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van de Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
+Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen tot stand brengen om de doelstellingen van een project te bepalen. De doelstellingen van het bedrijfscase worden gebruikt om aan de Manager van het Portfolio of de Sponsor van het Project mee te delen het doel van het voltooien van een project.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
 
 * De doelstellingen zijn geen verplichte sectie in het BedrijfsGeval van een project.
 
-   Een project kan een score ontvangen die in Optimizer van de Portfolio moet worden voorrang gegeven, zelfs als de sectie van Doelen van het BedrijfsGeval niet wordt bepaald.
+  Een project kan een score ontvangen die in Optimizer van het Portfolio moet worden voorrang gegeven, zelfs als de sectie van Doelen van het BedrijfsGeval niet wordt bepaald.
 
-   Voor meer informatie over de Portfolio Optimizer score, zie [Pas een scorecard op een project toe en produceer een Score van de Uitlijning](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Voor meer informatie over de score Portfolio optimaliseren raadpleegt u [Pas een scorecard op een project toe en produceer een Score van de Uitlijning](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Je kunt geen melding maken van zakelijke doelen.
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -77,10 +77,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. In de **Doelen** sectie, klikt u op **Doelen bewerken**.
+1. In de **Doelen** sectie, klikken **Doelen bewerken**.
 
 1. Geef uw doelen op.
- In de **Belang** selecteert u het niveau van belangrijkheid:
+In de **Belang** selecteert u het niveau van belangrijkheid:
 
    * Hoogste
    * Hoog
@@ -88,9 +88,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Laag
    * Laagste
 
-      ![](assets/g1-350x76.png)
+     ![](assets/g1-350x76.png)
 
-      U kunt de niveaus van het Belang van doelstellingen niet aanpassen.
+     U kunt de niveaus van het Belang van doelstellingen niet aanpassen.
 
 1. (Optioneel) Klik op **Nog een doel toevoegen** en herhaal Stap 5 en Stap 6.
 1. Klikken **Opslaan**.

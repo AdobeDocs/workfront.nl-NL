@@ -6,9 +6,9 @@ description: De voorwaarde van een project is een vlag die op het wordt geplaats
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -23,43 +23,6 @@ De Adobe Workfront-beheerder kan aangepaste voorwaarden voor uw omgeving maken, 
 
 ## Toegangsvereisten
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td><p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   
-   For the current licenses:
-  <p>Standard</p>
-   
-   For legacy licenses:
-   <ul><li><p>Plan</p>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -67,27 +30,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+
+Voor de nieuwe vergunningen:
+<p>Standaard</p>
+
+Voor huidige licenties:
+<ul><li><p>Plan</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Toegang tot taken en problemen bewerken </p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor taken en uitgaven om hun voorwaarde weer te geven</p>
+   <p>Machtigingen beheren voor taken en uitgaven om de voorwaarde bij te werken</p>
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## De voorwaarde automatisch instellen
 
@@ -104,11 +74,11 @@ Voor informatie over projectvoorwaarden en hoe zij gebaseerd op de Status van de
 Als u het Type van Voorwaarde van uw project aan Handboek in plaats van de Status van de Voortgang plaatst, kunt u de Voorwaarde van een project manueel bijwerken.
 
 1. Ga naar het project waarvoor u de Voorwaarde wilt bijwerken.
-1. Klik op de knop **Projectdetails** sectie.
-
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+1. Klik op de knop **Projectdetails** in het linkerdeelvenster.
 
 1. Zorg ervoor dat de **Type voorwaarde** veld is ingesteld op **Handmatig**.
+
+   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
 
 1. In de **Voorwaarde** in het veld selecteert u uit de volgende opties de optie die aansluit bij uw inzicht in de vraag of het bijbehorende werk vloeiend verloopt of dat er vertraging optreedt:
 
@@ -122,4 +92,4 @@ Als u het Type van Voorwaarde van uw project aan Handboek in plaats van de Statu
    >
    >De voorwaarden kunnen voor uw milieu worden aangepast, zodat kunt u meer dan drie opties voor Voorwaarde in uw milieu vinden. De namen van de Voorwaarden kunnen verschillen van de hierboven vermelde. Voor informatie over het aanpassen van Voorwaarden in Workfront raadpleegt u [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-1. Klikken **Opslaan**.click **Wijzigingen opslaan**.
+1. Klikken **Wijzigingen opslaan**.

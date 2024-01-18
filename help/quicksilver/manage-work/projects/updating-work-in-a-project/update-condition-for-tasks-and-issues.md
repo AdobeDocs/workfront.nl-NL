@@ -6,9 +6,9 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -25,46 +25,6 @@ De Adobe Workfront-beheerder kan aangepaste voorwaarden voor uw omgeving maken, 
 
 ## Toegangsvereisten {#access-requirements}
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   
-   For the current licenses:
-   <ul><li><p>Standard for tasks</p></li>
-   <li><p>Contributor or higher for issues</p></li></ul>
-
-
-   For legacy licenses:
-   <ul><li><p>Work or higher for tasks</p></li>
-   <li><p>Request or higher for issues</p></li></ul>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -72,31 +32,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger voor taken</p>
-   <p>Aanvraag of hoger voor problemen</p>
+   <td>
+
+Voor de nieuwe vergunningen:
+<ul><li><p>Standaard voor taken</p></li>
+   <li><p>Medewerker of hoger voor problemen</p></li></ul>
+
+
+Voor huidige licenties:
+<ul><li><p>Werk of hoger voor taken</p></li>
+   <li><p>Aanvraag of hoger voor problemen</p></li></ul>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Toegang tot taken en problemen bewerken </p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Toegang tot taken en problemen bewerken </p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Machtigingen weergeven voor taken en uitgaven om hun voorwaarde weer te geven</p>
    <p>Machtigingen beheren voor taken en uitgaven om de voorwaarde bij te werken</p>
-    <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## De voorwaarde van taken en problemen opzoeken
 
@@ -104,7 +70,7 @@ De voorwaarden worden weergegeven als een vlag die is gekoppeld aan taken of pro
 
 U kunt de voorwaarde van taken en kwesties op de volgende gebieden de plaats bepalen:
 
-* Het gebied van de Updates van de taak en van de kwestie, binnen van een update, wanneer u aan de taak of de kwestie wordt toegewezen.
+* Het gebied van de Updates van de taak en van de kwestie, binnen van een update, wanneer u aan de taak of de kwestie wordt toegewezen. Dit wordt niet ondersteund in de nieuwe ervaring met opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 * Hiermee worden rapporten en lijsten weergegeven wanneer u het veld Voorwaarde weergeeft in een weergave of Groepering.
 
 >[!NOTE]
@@ -113,11 +79,11 @@ U kunt de voorwaarde van taken en kwesties op de volgende gebieden de plaats bep
 
 ## De voorwaarde automatisch bijwerken door de status bij te werken
 
-Wanneer u een taak of kwestie toewijst en u klikt **eraan werken** , Start Taak of Start Uitgave of werk de status van de taak bij. De voorwaarde van de taak of uitgave wordt automatisch gewijzigd in de standaardvoorwaarde die is gekoppeld aan **Vloeiend gaan**.
+Wanneer u een taak of kwestie toewijst en u klikt **eraan werken** , Start Taak of Start Uitgave of werk de status van de taak bij. De voorwaarde van de taak of uitgave wordt automatisch gewijzigd in de standaardvoorwaarde die is gekoppeld aan **Vloeiend**.
 
 Zie de artikelen voor informatie over het gebruik van een aangepaste voorwaarde als een standaardvoorwaarde  [Een aangepaste voorwaarde instellen als standaard voor taken en problemen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) en [Een aangepaste voorwaarde instellen als standaard voor projecten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
-Voor informatie over het wijzigen van de taakstatus raadpleegt u [Taakstatus bijwerken](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
+Zie voor informatie over het wijzigen van de taakstatus [Taakstatus bijwerken](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
 Voor informatie over het wijzigen van de status van de uitgave raadpleegt u [Uitgiftestatus bijwerken](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
 
@@ -127,31 +93,30 @@ Voor informatie over het plaatsen van het Werk aan het knoop aan een Taak van he
 
 U moet aan een taak of de kwestie worden toegewezen of het hebben leidt toestemmingen aan het om de Voorwaarde op het te kunnen plaatsen.
 
-Het bijwerken van de voorwaarde van een taak of kwestie verschilt afhankelijk van of u aan het wordt toegewezen of niet:
+U kunt de Voorwaarde van een taak of kwestie in een taak of een uitgiftenrapport of een lijst manueel bijwerken wanneer u het gebied van de Voorwaarde in de mening toont.
 
-* U kunt de Voorwaarde op het lusje van Updates of in een lijst van taken of kwesties bijwerken als u aan hen wordt toegewezen.
-* U kunt de voorwaarde alleen bijwerken in een lijst met taken of problemen als u deze niet hebt toegewezen, maar over beheermachtigingen beschikt. In dit geval kunt u de voorwaarde niet bijwerken op het tabblad Update van de taak of uitgave.
 
-De voorwaarde van een taak of een kwestie manueel plaatsen:
+<!--old Condition update - in the commenting stream: 
+Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:
 
-1. Ga naar een taak of kwestie aan u wordt toegewezen waarvoor u de Voorwaarde wilt plaatsen die.
+* If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-   of
+De voorwaarde van een taak of een kwestie manueel bijwerken:
 
-   Ga naar een lijst met taken of problemen waarvoor u beheerdersmachtigingen hebt, maar die niet aan u zijn toegewezen.
+1. Ga naar een lijst met taken of problemen waarvoor u beheerdersmachtigingen hebt. Zorg ervoor dat **Voorwaarde** wordt weergegeven in de lijstweergave.
 
-1. Wijzig de voorwaarde van de uitgave of taak als volgt:
+1. Werk de **Voorwaarde** van de kwestie of de taak gealigneerd, door de bestaande voorwaarde te tweemaal te klikken en een nieuwe waarde van het drop-down menu te selecteren.
 
-   * Als u aan de taak of de kwestie bent toegewezen en beheerderstoestemmingen aan het hebt, op **Updates** tabblad, klikt u op **Een nieuwe update starten**, selecteert u de **Voorwaarde** die het beste aansluit bij de uitvoering van de taak, typt u de reden voor het wijzigen van de voorwaarde in het dialoogvenster **Een nieuwe update starten** gebied (optioneel) en klik vervolgens op **Bijwerken**.
+   ![](assets/condition-drop-down-values-in-task-list.png)
 
-      ![](assets/change-condition-update-comment-350x141.png)
+   >[!NOTE]
+   >
+   >De voorwaarden kunnen voor uw milieu worden aangepast, zodat kunt u meer dan drie opties voor Voorwaarde in uw milieu vinden. De namen van de Voorwaarden kunnen verschillen van de hierboven vermelde. Voor informatie over het aanpassen van Voorwaarden in Workfront raadpleegt u [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      >[!NOTE]
-      >
-      >De voorwaarden kunnen voor uw milieu worden aangepast, zodat kunt u meer dan drie opties voor Voorwaarde in uw milieu vinden. De namen van de Voorwaarden kunnen verschillen van de hierboven vermelde. Voor informatie over het aanpassen van Voorwaarden in Workfront raadpleegt u [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Druk **Enter** op uw toetsenbord of klik buiten het veld Voorwaarde om de nieuwe taak of uitgave op te slaan.
 
-      <!--   
+   <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->

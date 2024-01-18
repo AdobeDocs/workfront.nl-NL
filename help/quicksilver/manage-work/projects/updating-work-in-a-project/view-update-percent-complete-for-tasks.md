@@ -6,49 +6,20 @@ description: U kunt het percentage van voltooiing van een taak bijwerken om de v
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Percentage van voltooiing weergeven en bijwerken voor taken
 
+<!--Audited:01/2024-->
+
 U kunt het percentage van voltooiing van een taak bijwerken om de vooruitgang aan te geven die u op de taak hebt gemaakt om het te voltooien.
 
 ## Toegangsvereisten
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 U moet de volgende toegang hebben om taken handmatig bij te werken:
 
@@ -57,27 +28,28 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td> <p>Nieuwe licentie: standaard</p> 
+   of
+   <p>Huidige licentie: werken of hoger</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken bewerken</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taak beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor de taak beheren</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Gebieden waar u het percentage van voltooiing van een taak kunt bijwerken
@@ -89,15 +61,16 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
 * **In de milestone-weergave**: U kunt het percentage bijwerken voltooide van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport. Zie voor meer informatie [De milestone-weergave gebruiken](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Terwijl u de taak bijwerkt**: U kunt de optie voor het percentage van een taak bijwerken wanneer u een update aan de taak toevoegt.
+<!--only in legacy commenting: 
+* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
 
   >[!IMPORTANT]
   >
-  >Deze optie wordt alleen weergegeven nadat u de optie Percentage tonen hebt ingeschakeld.\
-  >Ga als volgt te werk om het percentage van de volledige updatebalk voor taken in te schakelen:
+  >This option displays only after you enable the Show Percent Complete option.  
+  >To enable the percent complete update bar for tasks, do the following:   
   >
-  >1. Ga naar de **Hoofd** menu>uw naam>**Meer** pictogram naast uw naam >**Bewerken** > selecteren **Percentage volledig tonen bij updatestatus**.\
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
 * **In de taakkoptekst**: U kunt het percentage van een taak bijwerken in de taakkoptekst. Zie voor meer informatie [Taken bewerken](../../tasks/manage-tasks/edit-tasks.md).
 
@@ -125,7 +98,7 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
    of
 
-   Klik en sleep de **Percentage voltooid** bar aan het noodzakelijke aantal om te wijzen op hoeveel van de taak u voltooide.
+   Klik en sleep de **Percentage voltooid** bar aan het noodzakelijke aantal om erop te wijzen hoeveel van de taak u, indien beschikbaar voltooide.
 
    >[!NOTE]
    >
@@ -133,4 +106,6 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
 
 1. Druk op Enter op het toetsenbord om het volledige percentage op te slaan.
+
+Het percentage Voltooien van het project wordt ook automatisch bijgewerkt.
 

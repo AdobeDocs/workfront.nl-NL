@@ -6,9 +6,9 @@ description: U kunt een prioriteit voor een kwestie bepalen om te wijzen op hoe 
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## Overzicht van de prioriteiten
+## Overzicht van de prioriteiten van de problematiek
 
 Aan elk prioritair label is een nummer gekoppeld dat niet kan worden gewijzigd.
 
@@ -97,13 +97,11 @@ Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overe
 ## De prioriteit van een probleem bijwerken {#update-the-priority-of-an-issue}
 
 1. Ga naar de kwestie waarvan prioriteit u wilt wijzigen.
-1. Klikken **Probleemdetails** in het linkerdeelvenster.
-
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+1. Klikken **Probleemdetails** in het linkerdeelvenster.
 
    De **Overzicht** sectie moet standaard worden weergegeven.
 
-1. Klik op de knop **Prioriteit** in het **Basisinformatie** gebied.
+1. Klik op de knop **Prioriteit** in het veld **Basisinformatie** gebied.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
@@ -111,4 +109,4 @@ Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overe
 
    Afhankelijk van hoe uw Workfront-beheerder Prioriteiten heeft geconfigureerd in uw systeem, kunnen de opties variëren.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klikken **Wijzigingen opslaan**.

@@ -6,9 +6,9 @@ description: U kunt de status van een taak bijwerken om anderen te informeren ov
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -23,37 +23,6 @@ U kunt taakstatussen handmatig bijwerken of u kunt Workfront toestaan deze autom
 
 ## Toegangsvereisten
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 U moet de volgende toegang hebben om taken handmatig bij te werken:
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td> <p>Nieuw: Standaard</p> 
+   of
+   <p>Huidig: Werk of hoger</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken bewerken</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taak beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor de taak beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het bijwerken van de status van taken
 
@@ -94,20 +64,54 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Taakstatus handmatig bijwerken
 
-Wanneer u een taakstatus bijwerkt, kunt u ook een uitleg over de nieuwe status typen en andere taakgegevens wijzigen, zoals de vervaldatum.
+U kunt de taakstatus in de volgende gebieden van Workfront bijwerken:
 
-1. Ga naar een taak waaraan u wordt toegewezen waarvoor u de status wilt bijwerken.
+* De taakkopbal op de taakpagina.
+* Het taakvak Bewerken wanneer u een taak bewerkt.
+* De sectie Taakdetails op de taakpagina.
+* In een taaklijst of rapport, wanneer het gebied van de Status in de mening zichtbaar is.
+* In het paneel Overzicht van de taak.
+
+De taakstatus in de taakkoptekst handmatig bijwerken:
+
+1. Ga naar een taak waarvoor u de status wilt bijwerken.
 1. Klik op de knop **Status** in de taakkopbal en selecteer een nieuwe status.
-1. (Optioneel) Voer een van de volgende handelingen uit om aanvullende informatie over de update op te geven en klik vervolgens op **Bijwerken** of als de taak **Voltooid** status, klik op **Gereed:**
+1. Om een visuele aanwijzing van taakvoltooiing te verstrekken, sleep of klik de bel onder tweemaal **Percentage voltooid** in de takenkoptekst
 
-   * Als u een notitie over de update wilt toevoegen, gaat u naar de **Updates** gebied en klik **Een nieuwe update starten** Typ uw notitie.
+   of
 
-   * Als u bepaalde gebruikers op de hoogte wilt stellen van de update, typt u hun namen in het dialoogvenster **Waarschuwen** wordt weergegeven wanneer u een notitie over de update typt. Zie voor meer informatie [Andere tags toepassen op updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Klik op **Voorwaarde selecteren** aan de rechterzijde **Waarschuwen** (deze worden weergegeven wanneer u een opmerking over de update typt) en selecteer vervolgens de voorwaarde die het best overeenkomt met de huidige toestand van de taak.
+   Klik binnen de bel in de kopbal van de taak om een percentage in te gaan.
 
-   * Als u de taakdatum vastleggen wilt bijwerken, vouwt u de opdracht **Vastlegdatum** en selecteer een nieuwe datum vastleggen.
-   * Om een visuele aanwijzing van taakvoltooiing te verstrekken, sleep de bel onder Percentage Voltooid of klik het tweemaal om een percentagewaarde in te gaan.\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. (Optioneel) Voer een van de volgende handelingen uit om aanvullende informatie over de update op te geven:
+
+   * Als u een notitie over de update wilt toevoegen, gaat u naar de **Updates** sectie en klik op **Nieuwe opmerking** Typ vervolgens een notitie.
+
+     ![](assets/add-update-to-task.png)
+
+   * Als u bepaalde gebruikers op de hoogte wilt stellen van de update, typt u hun namen in het dialoogvenster **Tags toewijzen aan personen of teams** wordt weergegeven wanneer u een opmerking typt. Zie voor meer informatie [Andere tags toepassen op updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Als u de taakdatum vastleggen wilt bijwerken, klikt u op **Taakdetails** en bewerkt u vervolgens de **Vastlegdatum** veld. Zie voor meer informatie [Taken bewerken](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  Alleen taaktoewijzing kan de datum vastleggen bijwerken.
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Taakstatus automatisch bijwerken
 
@@ -123,9 +127,9 @@ Workfront werkt de bestaande status van een taak automatisch bij naar een andere
  <col> 
  <tbody> 
   <tr> 
-   <td>Handeling</td> 
-   <td>Oorspronkelijke status</td> 
-   <td>Nieuwe status</td> 
+   <td><b>Handeling</b></td> 
+   <td><b>Oorspronkelijke status</b></td> 
+   <td><b>Nieuwe status</b></td> 
   </tr> 
   <tr> 
    <td>Het taakpercentage bijwerken tot 100%</td> 

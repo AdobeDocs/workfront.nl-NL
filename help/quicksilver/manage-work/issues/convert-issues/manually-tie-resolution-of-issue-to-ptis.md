@@ -6,9 +6,9 @@ description: U kunt de resolutie van een kwestie aan de resolutie van een projec
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen, taken, projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen, taken, projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -58,16 +58,15 @@ Voordat u begint, moet u:
 
 * Heb een kwestie waarvan u aan de oplossing van een andere kwestie, een taak, of een project wilt verbinden
 
-* Heb een extra kwestie, een taak, of een project
+* Heb een extra kwestie, taak, of project
 
 ## De oplossing van een kwestie voor de oplossing van een andere kwestie, een andere taak, of een ander project
 
-1. Navigeer naar een probleem waarvan u de resolutie wilt koppelen aan de oplossing van een ander probleem of een taak of project.
-1. Klik op de knop **Probleemdetails** > **Overzicht** gebied.
+1. Navigeer naar een kwestie waarvan u aan de resolutie van een andere kwestie of aan de resolutie van een taak of een project wilt verbinden.
+1. Klik op de knop **Probleemdetails** in het linkerpaneel, dan breid uit **Overzicht** gebied.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Ga naar de **Overzicht** in het gebied **Probleemdetails** sectie.
 1. Klik op de knop **Opgelost door** en selecteer een van de volgende typen oplossende objecten:
 
    * **Project**
@@ -79,7 +78,6 @@ Voordat u begint, moet u:
    * **Project oplossen**
    * **Taak oplossen**
    * **Probleem oplossen**
-
 
 1. Begin de naam van een specifiek project, een taak, of een kwestie in te typen **Project oplossen**, **Taak**, of **Probleem** en klikt u erop wanneer deze in de lijst wordt weergegeven.
 
