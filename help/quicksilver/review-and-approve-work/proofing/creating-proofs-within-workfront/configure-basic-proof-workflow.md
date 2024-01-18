@@ -6,9 +6,9 @@ description: Met een basisworkflow kunt u meerdere revisoren een proefdruk laten
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td>
+   <p>Nieuw: alle</p>
+    <p>Huidig abonnement: Pro of hoger</p>
+   <p>Verouderd abonnement: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+    <p>Huidig: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Houd de cursor boven een bestaand document en klik vervolgens op de knop **Proef maken** > **Geavanceerde proefdruk** en doorwerkt u de onderstaande secties.
+   Houd de cursor boven een bestaand document en klik vervolgens op de knop **Proef maken** > **Geavanceerd proefdrukken** en doorwerkt u de onderstaande secties.
 
 ## De workflow configureren en revisoren toevoegen
 
@@ -82,11 +87,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <thead> 
      <tr> 
       <th> <p> </p> </th> 
-      <th> <p><strong>Een proefdruk weergeven</strong> </p> </th> 
+      <th> <p><strong>Een proefafdruk weergeven</strong> </p> </th> 
       <th> <p><strong>Markeringen toevoegen</strong> </p> </th> 
       <th> <p><strong>Opmerkingen toevoegen</strong> </p> </th> 
       <th> <p><strong>Eigen opmerkingen bewerken als er geen reacties zijn</strong> </p> </th> 
-      <th> <p><strong>Beslissing geven</strong> </p> </th> 
+      <th> <p><strong>Beslissingen nemen</strong> </p> </th> 
       <th> <p><strong>Opmerkingen van anderen verwijderen</strong> </p> </th> 
       <th>Opmerkingen oplossen</th> 
       <th>Handelingen toepassen op opmerkingen</th> 
@@ -198,7 +203,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </table>
 
 1. De gebruikers op nieuwe plannen van Workfront kunnen auteur of moderatorrollen aan om het even welke gebruikers in het systeem verlenen. De gebruikers op erfenisplannen kunnen auteur of moderatorrollen aan om het even welke gebruiker met een proefvergunning in het systeem verlenen.
-1. (Optioneel) Selecteer, terwijl de vervolgkeuzelijst nog steeds is geopend, aanvullende machtigingen onder aan het menu:
+1. (Optioneel) Selecteer, terwijl de vervolgkeuzelijst nog steeds is geopend, aanvullende machtigingen die onder aan het menu beschikbaar zijn:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -214,7 +219,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Proef delen door labels toe te wijzen</td> 
-      <td> <p>Hiermee kan de controleur een Workfront-gebruiker aan de proefdruk toevoegen, zoals wordt uitgelegd in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tags toewijzen aan gebruikers om een proefdruk te delen</a>.</p> <p>Opmerking:  <p>Als deze twee opties niet beschikbaar (grijs weergegeven) zijn, beschikt de gebruiker al over een machtigingsprofiel waarmee opmerkingen kunnen worden opgelost, handelingen kunnen worden toegepast op opmerkingen en een gebruiker kan worden gelabeld. </p> <p>Als de opties niet worden weergegeven, is de persoon die u hebt toegevoegd geen houder van een Workfront-licentie.</p> </p> </td> 
+      <td> <p>Hiermee kan de controleur een Workfront-gebruiker aan de proefdruk toevoegen, zoals wordt uitgelegd in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Gebruikers een proef laten delen</a>.</p> <p>Opmerking:  <p>Als deze twee opties niet beschikbaar (grijs weergegeven) zijn, beschikt de gebruiker al over een machtigingsprofiel waarmee opmerkingen kunnen worden opgelost, handelingen kunnen worden toegepast op opmerkingen en een gebruiker kan worden gelabeld. </p> <p>Als de opties niet worden weergegeven, is de persoon die u hebt toegevoegd geen houder van een Workfront-licentie.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -324,8 +329,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li><strong>Instellingen voor e-mailwaarschuwingen voor abonnees:</strong> De standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li>
        </ul><p>
         <ul>
-         <li><strong>Bewijs van toegang via e-mailkoppeling vereist voor:</strong> Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie-kennisgeving</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail en moet op de koppeling klikken om toegang te krijgen tot een proefdruk. Deze optie heeft tot doel ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft).</li>
-        </ul><p>Opmerking:  Als de proefdrukken de Geautomatiseerde Werkstroom in bijlage hebben alle abonnementen zullen bevestigingse-mail aan de bewijseigenaars produceren, zodat kunnen zij beslissen welk stadium de persoon aan zou moeten worden toegevoegd.<br></p></p></td> 
+         <li><strong>Bewijs van toegang via e-mailkoppeling vereist voor:</strong> Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail en moet op de koppeling klikken om toegang te krijgen tot een proefdruk. Deze optie heeft tot doel ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft).</li>
+        </ul><p>Opmerking: als de proefdrukken de automatische werkstroom hebben gekoppeld, worden alle abonnementen per e-mail verzonden met een bevestiging aan de eigenaar van de proefdrukken, zodat deze kan beslissen in welk stadium de persoon moet worden toegevoegd.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -334,7 +339,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Workfront begint met het genereren van een proefdruk van de geselecteerde documenten of websites. Afhankelijk van de bestandsgrootte en het type kan de vertraging bij het uploaden van een document variëren. Wees geduld, want het duurt langer om grotere bestanden te genereren. U kunt van de pagina weg navigeren en Workfront blijft uw bestand genereren. De maximale grootte voor het uploaden van bestanden is 4 GB.
 
-1. Nadat de proefdruk is gegenereerd, klikt u op **Proef openen** om de proefdrukviewer te starten.
+1. Klik op **Proef openen** om de proefdrukviewer te starten.
 
    ![](assets/open-proof-350x132.png)
 

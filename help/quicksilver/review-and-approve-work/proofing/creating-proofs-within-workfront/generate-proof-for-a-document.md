@@ -6,9 +6,9 @@ description: U kunt een proef voor een document produceren op het tijdstip u het
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> 
+   <p>Nieuw: alle </p>
+   <p>Huidig: Pro of hoger</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Nieuw: Standaard</p>
+   <p>Huidig: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -45,19 +49,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een document uploaden en een proefdruk maken
 
 1. Ga naar het project, de taak, of de kwestie waar u een nieuwe proef wilt tot stand brengen.
-1. Klik op de knop **Documenten** tab.
+1. Klik op de knop **Documenten** tab.
 1. Klik op Documenten ![](assets/document-icon.png) in het linkerdeelvenster.
-1. Klikken **Nieuwe toevoegen** en klik vervolgens op **Proef** in het menu dat wordt weergegeven.
+1. Klikken **Nieuwe toevoegen** en klik vervolgens op **Proef** in het menu dat wordt weergegeven.
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een document uploaden en een nieuwe versie van een proefdruk maken
 
 1. Ga naar het project, de taak, of de kwestie waar u een nieuwe versie van een bestaand bewijs wilt tot stand brengen.
-1. Klik op de knop **Documenten** tab.
+1. Klik op de knop **Documenten** tab.
 1. Selecteer het document waaraan u een nieuwe versie wilt toevoegen.
-1. Klikken **Nieuwe toevoegen** > **Versie** > **Proef**.
+1. Klikken **Nieuwe toevoegen** > **Versie** > **Proef**.
 1. In de **Nieuwe proefversie** pagina die wordt weergegeven, kunt u
 
    * [Een geavanceerde proefdruk maken met een standaardworkflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
