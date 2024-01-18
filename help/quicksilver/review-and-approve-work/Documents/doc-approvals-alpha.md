@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alfa-programma - Goedkeuringen document
+title: Programma Alpha - Goedkeuringen document
 description: We zijn blij dat we de start van ons Alpha-programma voor documentgoedkeuring aankondigen. Hier vindt u informatie over de nieuwste release van de Alpha en een korte videodemo om u aan de slag te krijgen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
-# Alfa-programma - Goedkeuringen document
+# Programma Alpha - Goedkeuringen document
 
 We zijn blij dat we de start van ons Alpha-programma voor documentgoedkeuring aankondigen. Hier vindt u informatie over de nieuwste release van de Alpha en een korte videodemo om u aan de slag te krijgen.
 
@@ -25,6 +25,20 @@ We zijn blij dat we de start van ons Alpha-programma voor documentgoedkeuring aa
 Als u wilt deelnemen aan deze release van Alpha, moet u controleren of u door het productteam bent toegevoegd aan de Alpha in Voorvertoning. Als dat niet het geval is, neemt u contact op met uw Customer Success of accountmanager en vraagt u om een nieuwe account.
 
 ## Laatste release
+
+## Release van de Alpha 6 - januari 2024
+
+In deze release van de zesde Alpha hebben we het volgende:
+
+* Verbeterde ervaring met het toevoegen van deelnemers met een nieuwe pop-up om te helpen voorkomen dat mensen per ongeluk worden toegevoegd en ze op de hoogte worden gesteld
+* Er is een nieuwe widget &quot;In behandeling&quot; toegevoegd met alle openstaande goedkeuringen voor projecten die u hebt, inclusief de mogelijkheid om alle goedkeuringen, hun status en de mogelijkheid weer te geven aan iedereen die nog geen beslissing heeft genomen
+* Er is een nieuwe actie Mijn revisie voltooien toegevoegd voor alle revisoren. Deze actie kan worden gebruikt om aan te geven dat ze de stap hebben uitgevoerd
+
+Bekijk de volledige video die hieronder doorloopt:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _Eerdere versies_
 
 ### Release van de Alpha 5 - september 2023
 
@@ -36,11 +50,7 @@ In deze vijfde release van de Alpha hebben we het volgende:
 * De mogelijkheid toegevoegd om externe fiatteurs toe te voegen
 * De weergave voor externe fiatteurs is verbeterd voor het weergeven, downloaden en toevoegen van opmerkingen aan een document
 
-Bekijk de volledige video die hieronder doorloopt:
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _Eerdere versies_
+Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Release van de Alpha 4 - mei 2023
 
@@ -48,15 +58,13 @@ In deze release van de 4de Alpha hebben we, voordat we de productie voor slechts
 
 We zijn enthousiast over deze mijlpaal en kijken uit naar nog veel meer.
 
-Bekijk de volledige video die hieronder doorloopt:
-
-Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3420094/){target=_blank}
+Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Release 3 van de Alpha - maart 2023
 
 In deze release van de derde Alpha hebben we uw feedback verwerkt door succesberichten te introduceren die worden weergegeven wanneer acties worden voltooid, zoals het toevoegen of verwijderen van fiatteurs en revisoren. Bovendien biedt deze release uitgebreide zichtbaarheid van goedkeuringen die in behandeling zijn en die nu kunnen worden weergegeven op de pagina&#39;s Home en Mijn updates, zodat gebruikers eenvoudig documenten rechtstreeks vanaf deze pagina&#39;s kunnen goedkeuren.
 
-Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3417854/){target=_blank}
+Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Release 2 van Alpha - januari 2023
 
