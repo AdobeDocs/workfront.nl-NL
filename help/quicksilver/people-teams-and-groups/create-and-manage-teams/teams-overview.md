@@ -7,14 +7,16 @@ description: Het doel van een team in Adobe Workfront is de levensechte dynamiek
 author: Lisa
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Teams overzicht
+
+<!-- Audited: 01/2024 -->
 
 Het doel van een team in [!DNL Adobe Workfront] moet de dynamische realiteit van de functionele werkgroepen op de werkplek weerspiegelen.
 
@@ -26,10 +28,10 @@ A [!DNL Workfront Team] verschilt van een projectteam. [!DNL Workfront] de teams
 
 ## Teamontwerp
 
-Teams worden doorgaans gemaakt door een [!DNL Workfront] beheerder, maar een gebruiker met aangewezen toegang kan teams eveneens tot stand brengen. Zodra een team wordt gecreeerd, kan de Manager van het Project een volledig team aan een taak in plaats van het beslissen over een individu of baanrol toewijzen.
+Teams worden doorgaans gemaakt door een [!DNL Workfront] beheerder, maar een gebruiker met aangewezen toegang kan teams eveneens tot stand brengen. Zodra een team wordt gecreeerd, kan de Manager van het Project een volledig team aan een taak in plaats van het beslissen over een individu of baanrol toewijzen. Zie voor meer informatie [Een team maken](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Teamtoewijzingen
 
 Een Projectmanager weet niet altijd welk individu een opdracht-eenvoudig zal voltooien dat een bepaalde het werkeenheid of een team werk van die specifieke aard voltooit.
 
-De leden van een toegewezen team kunnen ook naar [!UICONTROL Teams] > [!UICONTROL Team] Het gebied van verzoeken en zie de taken die aan hun team worden toegewezen. Ze kunnen de impact van een taak beoordelen en vrijwilligers om eraan te werken.
+De leden van een toegewezen team kunnen ook naar [!UICONTROL Teams] > [!UICONTROL Team] Het gebied van verzoeken en zie de taken die aan hun team worden toegewezen. Ze kunnen de impact van een taak beoordelen en vrijwilligers om eraan te werken. Zie voor meer informatie [Overzicht van teamverzoeken](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).

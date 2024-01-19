@@ -7,25 +7,20 @@ description: Lees dit artikel voor meer informatie over de [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Aanmelden met vroege functies voor [!DNL Adobe Workfront] [!UICONTROL Boards]
 
-Alle gebruikers hebben toegang tot boeken met ad-hockaarten en kaarten die zijn aangesloten en we zijn erg blij dat er extra functies voor borden worden geopend, zodat u vanaf juli 2022 vroegtijdig kunt kiezen voor de functie.
+De vroege eigenschapopt-in voor [!DNL Adobe Workfront] [!UICONTROL Boards] is in juli 2022 van start gegaan.
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] zijn flexibele hulpmiddelen die teamsamenwerking toestaan door toegang tot een gedeelde raad te verlenen die kolommen en kaarten bevat.
 
 Zie voor algemene informatie over borden [[!UICONTROL Boards] overzicht](/help/quicksilver/agile/boards-overview.md).
-
-## Releaseplanning
-
-* Aanmelden voor vroege functie bij voorvertoning: 22 juli 2022
-* Officiële release: 28 juli 2022
 
 ## Functies
 
@@ -138,8 +133,8 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
    <td>Vrijgegeven</td>
   </tr>
   <tr>
-   <td>Subtaken importeren als controlelijstitems op kaarten</td>
-   <td>Geplant</td>
+   <td>Subtaken importeren op kaarten</td>
+   <td>Vrijgegeven</td>
   </tr>
   <tr>
    <td>Weergave van velden op een kaart aanpassen</td>
@@ -163,7 +158,7 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
   </tr>
   <tr>
    <td>Verouderde Kanbankkaarten migreren naar raden van bestuur</td>
-   <td>Deze functie is beschikbaar in Production op 18 mei 2023 en maakt geen deel uit van de vroege opt-in.</td>
+   <td>Deze functie is beschikbaar in Production op 18 mei 2023 en maakt geen deel uit van de vroege opt-in voor onderdelen.</td>
   </tr>
   <tr>
    <td>Dynamische borden maken</td>
@@ -198,7 +193,8 @@ Vroege functies voor borden zijn beschikbaar voor alle organisaties. Betrokkenhe
 
 Alleen [!DNL Workfront] beheerders kunnen zich aanmelden bij de eerste functies voor raden van bestuur. Wanneer een [!DNL Workfront] de beheerder laat vroege eigenschappen toe, alle gebruikers in de organisatie worden gekozen binnen.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Klikken ![Aanmelden met vroege functies](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) boven aan het dashboardscherm.
 1. Klik op **[!UICONTROL Enable]**.
 1. Begin met het gebruik van de vroege functies van borden.
@@ -228,6 +224,7 @@ De [!DNL Workfront] de beheerder kan de optie Boven verbergen voor de [!UICONTRO
 
 Alleen [!DNL Workfront] beheerders kunnen ervoor kiezen om functies in een vroeg stadium niet meer te ontvangen. Indien een [!DNL Workfront] de beheerder maakt de vroege eigenschappen onbruikbaar, alle gebruikers in de organisatie uit worden gekozen.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Klikken ![Aanmelden met vroege functie ingeschakeld](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) boven aan het dashboardscherm.
 1. Klik op **[!UICONTROL Disable]**.
