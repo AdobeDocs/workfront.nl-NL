@@ -5,9 +5,9 @@ title: Overzicht van objectkoppen
 description: U kunt in één oogopslag informatie bekijken over objecten in [!DNL Adobe Workfront] wanneer u de koptekst ervan bekijkt. De informatie in een kopbal kan de eigenaar van het voorwerp, de status, of het volledige percentage omvatten.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Bijvoorbeeld, om tot de kopbal van een project toegang te hebben:
 
 De volgende headers zijn beschikbaar in Home:
 
-* Taak: Voor meer informatie over hoe u deze kopbal kunt gebruiken, zie [Overzicht van de taakkoptekst](#task-header-overview) in dit artikel.
-* Probleem: Voor meer informatie over hoe u deze kopbal kunt gebruiken, zie [Overzicht van de koptekst van uitgave](#issue-header-overview) in dit artikel.
+* Taak: voor meer informatie over hoe u deze kopbal kunt gebruiken, zie [Overzicht van de taakkoptekst](#task-header-overview) in dit artikel.
+* Probleem: raadpleeg voor meer informatie over het gebruik van deze header de [Overzicht van de koptekst van uitgave](#issue-header-overview) in dit artikel.
 
 ## Aanpasbare koppen
 
@@ -105,7 +105,7 @@ De projectheader toont de volgende informatie, door gebrek:
   </tr> 
   <tr> 
    <td role="rowheader">De [!UICONTROL Approvals] gebied</td> 
-   <td> <p>Wanneer u een van de fiatteurs bent, gebruikt u de volgende pictogrammen om de goedkeuringen voor het project te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Als u geen fiatteur bent, klikt u op de knop [!UICONTROL More] pictogram <img src="assets/more-icon-for-approvals-area.png"> om informatie over de huidige goedkeuringsstap te bekijken.</p> <p>Voor meer informatie over goedkeuringen raadpleegt u <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Overzicht van goedkeuringsproces</a>.</p> </td> 
+   <td> <p>Wanneer u een van de fiatteurs bent, gebruikt u de volgende pictogrammen om de goedkeuringen voor het project te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Als u geen fiatteur bent, klikt u op [!UICONTROL More] pictogram <img src="assets/more-icon-for-approvals-area.png"> om informatie over de huidige goedkeuringsstap te bekijken.</p> <p>Zie voor meer informatie over goedkeuringen <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Overzicht van goedkeuringsproces</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,7 +148,7 @@ De taakkopbal omvat standaard de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td>U kunt het taakpercentage van de koptekst bewerken.</td> 
+   <td>U kunt het taakpercentage dat is voltooid in de koptekst bewerken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
@@ -160,7 +160,7 @@ De taakkopbal omvat standaard de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>U kunt de taak bewerken [!UICONTROL Planned Completion Date] <span>en tijd</span> in de koptekst.</p> <p>Tip: Let erop dat de [!UICONTROL Commit Date] is niet zichtbaar in de koptekst. U kunt deze weergeven op het tabblad [!UICONTROL Details] pagina.</p> </td> 
+   <td> <p>U kunt de taak bewerken [!UICONTROL Planned Completion Date] <span>en tijd</span> in de koptekst.</p> <p>Tip: de [!UICONTROL Commit Date] is niet zichtbaar in de koptekst. U kunt deze weergeven op het tabblad [!UICONTROL Details] pagina.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -168,7 +168,7 @@ De taakkopbal omvat standaard de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">De [!UICONTROL Approvals] gebied</td> 
-   <td> <p>Als u een van de fiatteurs bent, gebruikt u de volgende pictogrammen om de goedkeuringen voor de taak te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Als u geen fiatteur bent, klikt u op de knop [!UICONTROL More] pictogram <img src="assets/more-icon-for-approvals-area.png"> om informatie over de huidige goedkeuringsstap te bekijken.</p> <p>Voor meer informatie over goedkeuringen raadpleegt u <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Overzicht van goedkeuringsproces</a>.</p> </td> 
+   <td> <p>Als u een van de fiatteurs bent, gebruikt u de volgende pictogrammen om de goedkeuringen voor de taak te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Als u geen fiatteur bent, klikt u op [!UICONTROL More] pictogram <img src="assets/more-icon-for-approvals-area.png"> om informatie over de huidige goedkeuringsstap te bekijken.</p> <p>Zie voor meer informatie over goedkeuringen <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Overzicht van goedkeuringsproces</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,7 +223,7 @@ De uitgiftheader bevat standaard de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>U kunt de uitgave bewerken [!UICONTROL Planned Completion Date] <span>en tijd</span> in de koptekst.</p> <p>Tip: Let erop dat de [!UICONTROL Commit Date] is niet zichtbaar in de koptekst. U kunt deze weergeven op het tabblad [!UICONTROL Details] pagina.</p> </td> 
+   <td> <p>U kunt de uitgave bewerken [!UICONTROL Planned Completion Date] <span>en tijd</span> in de koptekst.</p> <p>Tip: de [!UICONTROL Commit Date] is niet zichtbaar in de koptekst. U kunt deze weergeven op het tabblad [!UICONTROL Details] pagina.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -231,7 +231,7 @@ De uitgiftheader bevat standaard de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">De [!UICONTROL Approvals] gebied</td> 
-   <td> <p>Als u een van de fiatteurs bent, gebruikt u de volgende pictogrammen om de goedkeuringen voor de uitgave te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Als u geen fiatteur bent, klikt u op de knop [!UICONTROL More] pictogram <img src="assets/more-icon-for-approvals-area.png"> om informatie over de huidige goedkeuringsstap te bekijken.</p> <p>Voor meer informatie over goedkeuringen raadpleegt u <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Overzicht van goedkeuringsproces</a>.</p> </td> 
+   <td> <p>Als u een van de fiatteurs bent, gebruikt u de volgende pictogrammen om de goedkeuringen voor de uitgave te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Als u geen fiatteur bent, klikt u op [!UICONTROL More] pictogram <img src="assets/more-icon-for-approvals-area.png"> om informatie over de huidige goedkeuringsstap te bekijken.</p> <p>Zie voor meer informatie over goedkeuringen <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Overzicht van goedkeuringsproces</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -253,8 +253,8 @@ De programmakoptekst bevat de volgende informatie:
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Broodkruimel met de naam van de Portfolio</td> 
-   <td> <p>U hebt toegang tot de [!UICONTROL Portfolio] van de koptekst van de [!UICONTROL Program]. Wanneer u op de naam van het bovenliggende object klikt, wordt dat bovenliggende object geopend.</p> <p>Zie voor meer informatie <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Overzicht van Broodkruimels</a>.</p> </td> 
+   <td role="rowheader">Broodkruimel met de naam van het Portfolio</td> 
+   <td> <p>U hebt toegang tot [!UICONTROL Portfolio] van de koptekst van de [!UICONTROL Program]. Wanneer u op de naam van het bovenliggende object klikt, wordt dat bovenliggende object geopend.</p> <p>Zie voor meer informatie <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Overzicht van Broodkruimels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object, pictogram </td> 
@@ -278,7 +278,7 @@ De programmakoptekst bevat de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td> <p>U kunt de [!UICONTROL Percent Complete] van het programma in de koptekst. Deze informatie wordt bijgewerkt op basis van de projecten in het programma.</p> <p>Tip: Standaard is het percentage van voltooiing van het programma een gemiddelde van de procentuele volledige waarden van de projecten in een [!UICONTROL Current] of [!UICONTROL Approved Status] die tot het programma behoren.</p> </td> 
+   <td> <p>U kunt de [!UICONTROL Percent Complete] van het programma in de koptekst. Deze informatie wordt bijgewerkt op basis van de projecten in het programma.</p> <p>Tip: Standaard is het percentage dat het programma heeft voltooid een gemiddelde van de percentages van de volledige waarden van de projecten in een [!UICONTROL Current] of [!UICONTROL Approved Status] die tot het programma behoren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -295,7 +295,7 @@ De programmakoptekst bevat de volgende informatie:
  </tbody> 
 </table>
 
-## Overzicht van Portfolio-koptekst {#portfolio-header-overview}
+## Overzicht van koptekst van Portfolio {#portfolio-header-overview}
 
 ![](assets/portfolio-header-350x19.png)
 
@@ -443,7 +443,7 @@ De kopbal van de malplaatjetaak toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
-   <td>U kunt de [!UICONTROL Assignments] van de sjabloontaak in de koptekst.</td> 
+   <td>U kunt de [!UICONTROL Assignments] van de sjabloontaak in de kop.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Completion Day]</td> 
@@ -470,7 +470,7 @@ De koptekst van de factureringsrecord bevat de volgende informatie:
  <tbody> 
   <tr> 
    <td role="rowheader">Broodkruimel naar bovenliggende objecten</td> 
-   <td> <p>De bovenliggende objecten van de factureringsrecord worden in de breadcrumb weergegeven. Wanneer u op de naam van een bovenliggend object klikt, wordt dat bovenliggende object geopend.</p> <p>Zie voor meer informatie <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Overzicht van Broodkruimels</a>.</p> </td> 
+   <td> <p>De bovenliggende objecten van de factureringsrecord worden weergegeven in de breadcrumb. Wanneer u op de naam van een bovenliggend object klikt, wordt dat bovenliggende object geopend.</p> <p>Zie voor meer informatie <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Overzicht van Broodkruimels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object, pictogram </td> 
@@ -593,7 +593,7 @@ De teamkopbal toont de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Profielen van teamleden</td> 
-   <td>De profielfoto's van de teamleden. Plaats de muis boven een afbeelding om de naam van de gebruiker weer te geven.</td> 
+   <td>De profielafbeeldingen van de teamleden. Plaats de muis boven een afbeelding om de naam van de gebruiker weer te geven.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Beschrijving</td> 
@@ -739,7 +739,7 @@ In de koptekst van het document wordt de volgende informatie weergegeven:
   </tr> 
   <tr> 
    <td role="rowheader">De goedkeuring [!UICONTROL Decision] gebied</td> 
-   <td> <p>Wanneer het document zich in een goedkeuringsstap bevindt, wordt [!UICONTROL Decisions] wordt weergegeven in de rechterbovenhoek van de koptekst van Document.</p> <p>Gebruik de volgende pictogrammen om de goedkeuringen voor het document te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Voor meer informatie over goedkeuringsbesluiten raadpleegt u <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Goedkeuring van de werkzaamheden </a>.</p> </td> 
+   <td> De [!UICONTROL Decisions] wordt in de rechterbovenhoek van de koptekst van het document weergegeven. Dit gebied verschilt op basis van de goedkeuringsfase en of u een fiatteur, revisor of geen van beide bent. <ul><li> <p>Als u een fiatteur bent, kunt u de volgende pictogrammen gebruiken om de goedkeuringen voor het document te beheren:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Zie voor meer informatie over goedkeuringsbesluiten <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Goedkeuring van de werkzaamheden</a>.</li><li><p>Als u een revisor bent, kunt u op de knop Mijn revisie voltooien klikken om aan te geven dat u het document hebt gereviseerd.</p><p>Zie voor meer informatie over het reviseren van een document <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Een document reviseren</a>.</p></li><li>Anders wordt in dit gebied de huidige revisie- en goedkeuringsstatus voor het document weergegeven.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -803,7 +803,7 @@ De plankopbal toont de volgende informatie:
  <tbody> 
   <tr> 
    <td role="rowheader">Terug naar plannen</td> 
-   <td>Als u op deze koppeling klikt, gaat u naar de [!UICONTROL Plans] lijst.</td> 
+   <td>Klik op deze koppeling om naar de [!UICONTROL Plans] lijst.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object, pictogram </td> 
@@ -827,7 +827,7 @@ De plankopbal toont de volgende informatie:
     <ul> 
      <li> <p><strong>[!UICONTROL Show conflicts]</strong>: Als u op deze schakeloptie klikt, worden conflicten in de initiatieven weergegeven of verborgen.</p> </li> 
      <li> <p><strong>[!UICONTROL Compare scenarios]</strong>: Als u op deze koppeling klikt, ziet u een vergelijking naast elkaar van de scenario's die u hebt gemaakt.</p> </li> 
-     <li> <p><strong>[!UICONTROL Scenario selection]</strong>: In dit drop-down menu, kunt u een scenario kopiëren of selecteren om een verschillend scenario te bekijken.</p> </li> 
+     <li> <p><strong>[!UICONTROL Scenario selection]</strong>: In dit vervolgkeuzemenu kunt u een scenario kopiëren of selecteren om een ander scenario weer te geven.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -858,7 +858,7 @@ De plankopbal toont de volgende informatie:
 
 ![](assets/goal-header.png)
 
-U kunt strategische doelen maken wanneer uw bedrijf toegang heeft tot Workfront-doelen. Meer informatie over [!DNL Workfront Goals], zie [Aan de slag met [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+U kunt strategische doelen maken wanneer uw bedrijf toegang heeft tot Workfront-doelen. Voor meer informatie over [!DNL Workfront Goals], zie [Aan de slag met [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 De doelkopbal toont de volgende informatie:
 

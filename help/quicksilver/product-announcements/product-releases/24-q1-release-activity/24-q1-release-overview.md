@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Bijgewerkte statussen voor documentgoedkeuringen</a></p><p>Om de status van de documentgoedkeuring duidelijker te maken, hebben wij beschikbare goedkeuringen van de documentstatus bijgewerkt. De goedkeuringsstatusaccounts zijn nu voltooid voor controleurs die hun revisie markeren, en voor gevallen waarin alleen revisoren maar geen fiatteurs zijn.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Bijgewerkte statussen voor documentgoedkeuringen</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de status van de documentgoedkeuring duidelijker te maken, hebben wij beschikbare goedkeuringen van de documentstatus bijgewerkt. De goedkeuringsstatusaccounts zijn nu voltooid voor controleurs die hun revisie markeren, en voor gevallen waarin alleen revisoren maar geen fiatteurs zijn.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een revisie markeren als voltooid</a></p><p>Om het duidelijker te maken wanneer een document is herzien en klaar voor de volgende goedkeuringsfase is, hebben wij een nieuw nieuwe <strong>Mijn revisie voltooien</strong> knop.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een revisie markeren als voltooid</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om het duidelijker te maken wanneer een document is herzien en klaar voor de volgende goedkeuringsfase is, hebben wij een nieuw nieuwe <strong>Mijn revisie voltooien</strong> knop.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Documentrevisie en goedkeuringsstatus worden weergegeven in de documentkop</a></p><p>Om de controle en het goedkeuringsproces transparanter te maken, hebben wij de status aan de kopbal van de pagina van de Details van het Document toegevoegd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Documentrevisie en goedkeuringsstatus worden weergegeven in de documentkop</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de controle en het goedkeuringsproces transparanter te maken, hebben wij de status aan de kopbal van de pagina van de Details van het Document toegevoegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -210,7 +210,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe widget voor goedkeuringen in behandeling beschikbaar</a></p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe widget voor goedkeuringen in behandeling beschikbaar</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om het voor u gemakkelijker te maken om de status van goedkeuringen en overzichten op projecten te zien u bezit, hebben wij een nieuwe Hangende widget voor Goedkeuringen aan Huis toegevoegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>

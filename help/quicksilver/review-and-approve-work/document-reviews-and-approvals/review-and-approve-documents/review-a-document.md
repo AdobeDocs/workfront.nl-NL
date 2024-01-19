@@ -6,16 +6,14 @@ description: Als controleur kunt u een voorvertoning weergeven van een document 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Een document reviseren
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 Als controleur kunt u een document bekijken dat ter controle aan u is voorgelegd. In tegenstelling tot een goedkeuring, neemt u geen besluit. In plaats daarvan bevestigt u dat u het element hebt gecontroleerd.
 
@@ -72,7 +70,7 @@ Add once functionality is added
    Klikken **Downloaden** om een lokale kopie van het document naar het apparaat te downloaden.
 
 1. (Optioneel) Nadat u het document hebt gereviseerd, kunt u een opmerking voor de aanvrager achterlaten in de **Updates** sectie. Zie voor meer informatie over opmerkingen [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. <span class="preview">Als u wilt opnemen dat de revisie is voltooid, klikt u op **Volledige revisie**.</span>
+1. Als u wilt opnemen dat de revisie is voltooid, klikt u op **Volledige revisie**.
 
 ## Een document reviseren vanuit het venster Documentoverzicht
 
@@ -93,4 +91,4 @@ Add once functionality is added
 1. (Optioneel) Nadat u het document hebt gereviseerd, kunt u een opmerking voor de aanvrager achterlaten in de **Updates** sectie. Zie voor meer informatie over opmerkingen [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optioneel) U kunt ook een bepaalde versie van het document voorvertonen of downloaden door omlaag te schuiven naar de **Versies** in het deelvenster Documentsamenvatting en klik vervolgens op het pictogram Meer ![](../assets/more-icon.png) naast de versie die u wilt bekijken en selecteren **Downloaden** of **Voorvertoning**.
-1. <span class="preview"> Als u wilt opnemen dat de revisie is voltooid, klikt u op **Volledige revisie**.</span>
+1. Als u wilt opnemen dat de revisie is voltooid, klikt u op **Volledige revisie**.

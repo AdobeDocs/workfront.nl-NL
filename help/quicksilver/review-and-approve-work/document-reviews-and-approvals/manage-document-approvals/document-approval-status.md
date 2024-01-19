@@ -6,17 +6,14 @@ description: Documentgoedkeuringsstatussen worden vermeld en uitgelegd
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Goedkeuringsstatus document
-
-<span class="preview">De informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
-
 
 U vindt de goedkeuringsstatus van een document in de koptekst van het document.
 
