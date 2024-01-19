@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -352,7 +352,7 @@ Standaard worden alleen de naam en de id van elke taak geretourneerd, maar u kun
 
 U kunt aangepaste gegevensvelden ophalen met het voorvoegsel &quot;DE:&quot;. Als u bijvoorbeeld een project wilt aanvragen met de parameter &quot;CustomText&quot;, gebruikt u de volgende aanvraag:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>die worden geretourneerd
-<pre>{<br>    "name": "custom data project";<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "taak b" <br>}</pre>U kunt ook alle aangepaste gegevens voor een object ophalen door het veld parameterValues aan te vragen. Bijvoorbeeld, 
+<pre>{<br>    "name": "custom data project";<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "taak b" <br>}</pre>U kunt ook alle aangepaste gegevens voor een object ophalen door het veld parameterValues aan te vragen. Bijvoorbeeld: 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>retourneert vergelijkbare gegevens naar het volgende:
 <pre>{<br>    "name": "custom data project";<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "taak b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBox": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -361,11 +361,11 @@ U kunt aangepaste gegevensvelden ophalen met het voorvoegsel &quot;DE:&quot;. Al
 Sommige objecttypen hebben benoemde zoekopdrachten die doorgaans worden uitgevoerd en die beschikbaar zijn door de naam van de query aan het einde van het objecttype URI toe te voegen. Met de volgende aanvraag worden bijvoorbeeld de werkitems (taken en problemen) opgehaald waaraan de gebruiker momenteel is toegewezen:
 <pre>/attask/api/v15.0/work/myWork</pre>Benoemde query's ondersteunen het aanvragen van de parameter fields om extra velden op te halen. Sommige benoemde query's accepteren ook extra filters. Zie het tabblad Handeling voor het object in [API Explorer] (../../wf-api/general/api-explorer.md) voor een lijst met toegestane benoemde query's voor een object.
 
-#### Filter tellen gebruiken
+#### Gebruiken `Count`
 
-U kunt opgeven hoeveel resultaten een bepaalde zoekopdracht moet opleveren. Hierdoor kan de server de aanvraag sneller verwerken en bespaart u bandbreedte. De aanvraag
+U kunt `count` om het aantal resultaten te retourneren dat overeenkomt met uw query. Dit kan handig zijn wanneer u de gegevens in de resultaten niet nodig hebt. Door alleen het aantal te retourneren, kan de server de aanvraag sneller verwerken en bandbreedte opslaan. De aanvraag
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>retourneert het aantal resultaten in de volgende indeling:
-<pre>{<br>    "count": 3 <br>}</pre>Dit resultaat is veel kleiner gedownload dan wanneer alle objecten zijn verzonden. De filtersyntaxis is identiek aan de zoekopdracht.
+<pre>{<br>    "count": 3 <br>}</pre>Het retourneren van een telling is een veel kleinere gegevensoverdracht dan wanneer alle objecten worden geretourneerd. De syntaxis is identiek aan de zoekopdracht.
 
 ### Een rapport aanvragen
 
@@ -409,7 +409,7 @@ Om optimale prestaties te verzekeren, toont de volgende lijst de beperkingen die
   </tr> 
   <tr> 
    <td>Max. aantal resultaten</td> 
-   <td>2,000</td> 
+   <td>2.000</td> 
    <td>Het queryfilter (d.w.z. $$LIMIT) kan maximaal 2000 resultaten retourneren. Zie "Gepagineerde reacties" voor meer informatie.</td> 
   </tr> 
   <tr> 
@@ -419,12 +419,12 @@ Om optimale prestaties te verzekeren, toont de volgende lijst de beperkingen die
   </tr> 
   <tr> 
    <td>Max. aantal objecten</td> 
-   <td>50,000</td> 
+   <td>50.000</td> 
    <td>De resultaatset mag geen 50000 primaire en secundaire objecten bevatten.</td> 
   </tr> 
   <tr> 
    <td>Max. aantal velden</td> 
-   <td nowrap>1,000,000</td> 
+   <td nowrap>1.000.000</td> 
    <td>Als de resultaatset minder dan 50000 objecten is, kunnen de resultaten maximaal 1000.000 velden bevatten.</td> 
   </tr> 
   <tr> 
