@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Gebruikersprofielen bulksgewijs bewerken
 description: Als Adobe Workfront-beheerder kunt u gebruikersaccounts bulksgewijs bewerken.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn gegaan. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Voor instructies over het bewerken van het profiel van een gebruiker in de Adobe Admin Console raadpleegt u de sectie &quot;Gebruikersgegevens bewerken&quot; in het artikel [Gebruikers voor uploaden van bulken](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) of neem contact op met uw Adobe Admin Console-beheerder.
+>Voor instructies over het bewerken van een gebruikersprofiel in de Adobe Admin Console raadpleegt u de sectie &quot;Gebruikersgegevens bewerken&quot; in het artikel [Gebruikers voor uploaden van bulken](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) of neem contact op met uw Adobe Admin Console-beheerder.
 >
->Voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console, raadpleegt u [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Je kunt gebruikersaccounts bulksgewijs bewerken. Bij gebruikers die bulkbewerkingen uitvoeren, worden alleen de velden die u specifiek selecteert, bijgewerkt met dezelfde gegevens voor alle geselecteerde gebruikers. Alle andere velden die u niet selecteert, blijven gelijk voor elke afzonderlijke gebruiker, zelfs als deze voor elke gebruiker anders zijn.
 
@@ -32,7 +32,6 @@ Je kunt gebruikersaccounts bulksgewijs bewerken. Bij gebruikers die bulkbewerkin
 >* U kunt het gedeelte Persoonlijke gegevens van gebruikersprofielen niet in bulk bewerken, omdat deze gegevens uniek moeten zijn voor elke gebruiker.
 >* Om de nauwkeurigheid van gegevens en optimale prestaties te garanderen, raden we u aan niet meer dan 2000 gebruikers tegelijk te selecteren voor een bulkbewerking.
 >
-
 
 ## Toegangsvereisten
 
@@ -54,7 +53,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau van de Beheerder van het Systeem. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
      <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -79,8 +78,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <ul> 
         <li><b>Tijdzone:</b> De tijdzone van de gebruikers.</li> 
         <li><b>Landinstelling</b>: De voorkeurslandinstelling van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails van Workfront.</li> 
-        <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procent volledige balk wilt weergeven in de updatestroom van taken voor alle gebruikers.</li> 
-        <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u alles wat de gebruikers aan zichzelf toewijzen, rechtstreeks op het tabblad Werken aan wilt weergeven. Standaard wordt alles weergegeven dat aan een gebruiker is toegewezen op het tabblad Werkaanvraag.</li> 
+        <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van alle taken van gebruikers wanneer u de oudere opmerkingervaring gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.</li> 
+        <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruikers aan zichzelf toewijzen, rechtstreeks op het tabblad Werken aan wordt weergegeven. Standaard wordt alles weergegeven dat aan een gebruiker is toegewezen op het tabblad Werkaanvraag.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -130,8 +129,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
           <li>U bent Workfront-beheerder.</li> 
           <li>U bent de beheerder van die groep.</li> 
           <li> <p>De groep is openbaar. </p> 
-          <p>Zie voor meer informatie over openbare groepen <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Een groep maken</a>.</p> 
-          <p>Voor meer informatie over groepen raadpleegt u <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> 
+          <p>Voor meer informatie over openbare groepen raadpleegt u <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Een groep maken</a>.</p> 
+          <p>Zie voor meer informatie over groepen <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Overzicht van groepen</a>.</p> 
           </li> 
          </ul> 
          </li> 
@@ -143,7 +142,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <ul>
 
    <li>
-       <b>Tijdstip van werk</b>: Geeft het percentage aan van de FTE-tijd (Full Time Equivalent) dat de gebruiker beschikbaar is voor werkelijk werk, exclusief overhead. De Tijd van het werk moet een decimaal aantal tot 1 zijn, en het kan niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.
+       <b>Tijdstip</b>: Geeft het percentage aan van de FTE-tijd (Full Time Equivalent) dat de gebruiker beschikbaar is voor werkelijk werk, exclusief overhead. De Tijd van het werk moet een decimaal aantal tot 1 zijn, en het kan niet 0 zijn. Een beschikbaarheid van 20% voor werkelijk werk zou bijvoorbeeld 0,2 zijn.
 
    Het gebrek van het gebied is 1, erop wijzend dat een gebruiker hun volledige VTE op werkelijk besteedt, project-verwant werk.
 
@@ -170,8 +169,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <li>Als Andere Rollen een Beschikbaarheid van 0% FTE hebben, tonen zij niet in de Planner van het Middel, tenzij de gebruikers aan taken in deze rollen worden toegewezen.</li> 
        <li> <p>De som van alle Percentages van VTE Beschikbaarheid voor alle rollen moet 100% gelijk zijn. Elk percentage van FTE Beschikbaarheid berekent de Beschikbare Uren voor elke rol per gebruiker in de Planner van het Middel. De beschikbare uren voor elke rol per gebruiker hangt van de beschikbare tijd voor de gebruiker af.</p> <p>De beschikbare tijd voor de gebruiker wordt door Workfront berekend afhankelijk van de methode die door de beheerder van Workfront is geselecteerd om FTE in de Voorkeur van het Beheer van het Middel te berekenen.</p> <p>Voor meer informatie over het berekenen van beschikbaarheid voor de gebruiker, zie <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p> <p>Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </li> 
        </ul> </p> </li> 
-       <li> <p><b>Schema</b>: Koppel een programma aan de gebruikers. Het programma van de gebruikers berekent de chronologie van de taken de gebruikers worden toegewezen aan.</p> <p>Een beheerder van Workfront of een groepsbeheerder moet een programma tot stand brengen alvorens het met gebruikers kan worden geassocieerd.</p> <p>Selecteer een systeem- of groepsschema om dit aan de geselecteerde gebruikers toe te wijzen.</p> <p>Voor meer informatie over systeem-niveau en groepsprogramma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p><b>BELANGRIJK</b>: Workfront gebruikt het programma van een gebruiker slechts wanneer de Calculate Beschikbaarheid van het Middel Gebruikend het plaatsen aan het Programma van de Gebruiker wordt geplaatst. Voor informatie over hoe de Berekende Beschikbaarheid van het Middel die het plaatsen gebruikt beïnvloedt welk programma voor het Beheer van het Middel wordt gebruikt, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </li> 
-       <li> <p><b>Tijdbladprofiel</b>: Koppel een tijdbladprofiel aan de gebruikers. Dit zorgt ervoor dat timesheets automatisch voor de gebruikers produceren.</p> 
+       <li> <p><b>Schema</b>: Koppel een programma aan de gebruikers. Het programma van de gebruikers berekent de chronologie van de taken de gebruikers worden toegewezen aan.</p> <p>Een beheerder van Workfront of een groepsbeheerder moet een programma tot stand brengen alvorens het met gebruikers kan worden geassocieerd.</p> <p>Selecteer een systeem- of groepsschema om dit aan de geselecteerde gebruikers toe te wijzen.</p> <p>Voor meer informatie over systeem-niveau en groepsprogramma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p><b>BELANGRIJK</b>: Workfront gebruikt het programma van een gebruiker slechts wanneer het Berekende Gebruik van de Beschikbaarheid van het Middel plaatsen aan het Programma van de Gebruiker wordt geplaatst. Voor informatie over hoe de Berekende Beschikbaarheid van het Middel die het plaatsen gebruikt beïnvloedt welk programma voor het Beheer van het Middel wordt gebruikt, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voorkeuren voor beheer van bronnen configureren</a>.</p> </li> 
+       <li> <p><b>Tijdbladprofiel</b>: Koppel een tijdlijnprofiel aan de gebruikers. Dit zorgt ervoor dat timesheets automatisch voor de gebruikers produceren.</p> 
        <p><b>OPMERKING</b>:  
        <ul> 
        <li>De lijst met tijdlijnprofielen die beschikbaar zijn in dit veld, is afhankelijk van uw toegang:
@@ -183,7 +182,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <li>Als u een groepsbeheerder bent, moeten alle gebruikers u uitgeeft lid van een groep zijn die u beheert.</li> 
        </ul> </p> </li> 
        <li><b>Standaarduurtype</b>: Selecteer het standaarduurtype voor de gebruikers. Dit is het uurtype dat door gebrek wordt gebruikt wanneer de gebruikers tijd registreren.</li> 
-       <li> <p><b>Beschikbare uurtypen</b>: Selecteer de uurtypen die voor de gebruiker beschikbaar zouden moeten zijn. Deze uurtypen zijn overal zichtbaar in Workfront waar de gebruikers de tijd kunnen registreren. Een gebruiker kan de uurtypes slechts zien die op het projectniveau evenals het gebruikersniveau worden toegelaten.</p> 
+       <li> <p><b>Beschikbare uurtypen</b>: Selecteer de uurtypen die beschikbaar moeten zijn voor de gebruiker. Deze uurtypen zijn overal zichtbaar in Workfront waar de gebruikers de tijd kunnen registreren. Een gebruiker kan de uurtypes slechts zien die op het projectniveau evenals het gebruikersniveau worden toegelaten.</p> 
        <p>Voor meer informatie over welke uurtypes aan gebruikers beschikbaar zijn, zie <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Bepaal uurtypes en beschikbaarheid voor timesheets</a>.</p> 
        </li> 
        <li> <b>FTE</b>: Dit is het voltijdequivalent van de gebruiker. Workfront gebruikt dit aantal om de beschikbaarheid van de gebruiker te berekenen die op het StandaardProgramma wordt gebaseerd slechts wanneer de Voorkeur van het Beheer van het Middel op het systeemniveau aan het StandaardProgramma wordt geplaatst.
@@ -208,8 +207,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <p>Voor meer informatie over middelpools, zie <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Overzicht van bronnenpools </a>.</p> </li> 
        <li><b>Kosten per uur</b>: De hoeveelheid kosten per uur voor de gebruiker. </li> 
        <li><b>Facturering per uur</b>: De hoeveelheid facturering per uur voor de gebruiker.</li> 
-       <li><b>Aangepaste Forms</b>: Koppel een bestaand aangepast gebruikersformulier aan de gebruikers. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het maken van aangepaste formulieren raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</li> 
-       <li><b>Opmerking</b>: Voer een opmerking in het veld in dat wordt weergegeven. Alle geselecteerde gebruikers ontvangen zowel een melding in de app als een e-mailbericht met uw opmerking. De opmerking wordt weergegeven op het tabblad Updates van het gebruikersprofiel.</li> 
+       <li><b>Aangepaste Forms</b>: Koppel een bestaand aangepast gebruikersformulier aan de gebruikers. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie voor informatie over het maken van aangepaste formulieren <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</li> 
+       <li><b>Opmerking</b>: Voer een opmerking in het opgegeven veld in. Alle geselecteerde gebruikers ontvangen zowel een melding in de app als een e-mailbericht met uw opmerking. De opmerking wordt weergegeven op het tabblad Updates van het gebruikersprofiel.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 

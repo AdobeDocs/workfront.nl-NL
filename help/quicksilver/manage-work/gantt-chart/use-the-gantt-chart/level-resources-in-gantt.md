@@ -6,9 +6,9 @@ description: Informatie over hoe te om middelen in de Grafiek van Gantt te nivel
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Overweeg het volgende wanneer het nivelleren van middelen op een project:
 * Wanneer meerdere gebruikers aan dezelfde taak zijn toegewezen, wordt nivelleren geannuleerd.
 * Voorwaarden voor het type **[!UICONTROL Task Constraint]** zal voorrang krijgen boven het niveau van de middelen. Als **[!UICONTROL Fixed Dates]** is geselecteerd als de [!UICONTROL Task Constraint]De taakdatums blijven ongewijzigd.
 * Eerdere relaties hebben voorrang op bronnenniveau.
-* **[!UICONTROL Resource Leveling]** moet worden ingesteld op **[!UICONTROL Manual]** voor het project om het niveau van de [!UICONTROL Gantt chart]. Als u beheerdersmachtigingen hebt voor het project, kunt u het systeem automatisch bronnen laten nivelleren door deze instelling aan te passen op het project en **[!UICONTROL Automatic]** in plaats van **[!UICONTROL Manual]** in de **[!UICONTROL Edit Project]** doos.
+* **[!UICONTROL Resource Leveling]** moet worden ingesteld op **[!UICONTROL Manual]** voor het project om de nivellering in de [!UICONTROL Gantt chart]. Als u beheerdersmachtigingen hebt voor het project, kunt u het systeem automatisch bronnen laten nivelleren door deze instelling aan te passen op het project en **[!UICONTROL Automatic]** in plaats van **[!UICONTROL Manual]** in de **[!UICONTROL Edit Project]** doos.
 
-   ![](assets/resource-leveling-mode-350x177.png)
+  ![](assets/resource-leveling-mode-350x177.png)
 
 * Als projecteigenaar, of de taak toegewezen, kunt u een nivellerende vertraging voor een taak introduceren om erop te wijzen dat er een grote kans is dat de taak extra tijd zou kunnen vereisen. Voor informatie over het toevoegen van een niveauvertraging aan een taak, zie [Vertraging taakniveaus bijwerken](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -73,7 +73,7 @@ Overweeg het volgende wanneer het nivelleren van middelen op een project:
 U kunt de Lijst van de Taak gebruiken [!UICONTROL Gantt Chart] om uw bronnen op peil te houden.
 
 1. Ga naar het project u wilt vlakken.
-1. In de **[!UICONTROL Tasks]** gebied, klikt u op **[!UICONTROL Gantt chart]** pictogram.
+1. In de **[!UICONTROL Tasks]** gebied, klik **[!UICONTROL Gantt chart]** pictogram.
 
    Alle wijzigingen worden automatisch opgeslagen wanneer de **[!UICONTROL Autosave]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
@@ -85,7 +85,7 @@ U kunt de Lijst van de Taak gebruiken [!UICONTROL Gantt Chart] om uw bronnen op 
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Klik op de knop **[!UICONTROL Level Resources]** vervolgkeuzemenu.
+1. Klik op de knop **[!UICONTROL Level Resources]** vervolgkeuzelijst.
 
    ![Level_resources.png](assets/level-resouces.png)
 
@@ -104,12 +104,11 @@ U kunt de Lijst van de Taak gebruiken [!UICONTROL Gantt Chart] om uw bronnen op 
    >
    >U kunt de volgende sneltoetsen gebruiken om wijzigingen in het dialoogvenster [!UICONTROL Gantt Chart]:
    >
-   >* [!DNL Mac]: Gebruiken [!UICONTROL Command + Z] om ongedaan te maken en [!UICONTROL Command + Shift + Z] om opnieuw uit te voeren.
-   >* Windows: Gebruiken [!UICONTROL Ctrl + Z] om ongedaan te maken en [!UICONTROL Ctrl + Y] om opnieuw uit te voeren.
+   >* [!DNL Mac]: Gebruik [!UICONTROL Command + Z] om ongedaan te maken en [!UICONTROL Command + Shift + Z] opnieuw uitvoeren.
+   >* Windows: gebruiken [!UICONTROL Ctrl + Z] om ongedaan te maken en [!UICONTROL Ctrl + Y] opnieuw uitvoeren.
 
 
-
-1. Klikken **[!UICONTROL Save]** in de rechterbovenhoek van het dialoogvenster [!UICONTROL Gantt chart].
+1. Klikken **[!UICONTROL Save]** in de rechterbovenhoek van het [!UICONTROL Gantt chart].
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -120,7 +119,7 @@ U kunt de Lijst van de Taak gebruiken [!UICONTROL Gantt Chart] om uw bronnen op 
 <p>To manually add a Leveling Delay to a task:</p>
 <ol>
 <li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p> <p> <img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p>  </li>
 <li value="3">Click <strong>Settings</strong>.<br></li>
 <li value="4">Specify the <strong>Leveling Delay</strong>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
 <li value="5">Click <strong>Save Changes</strong>. </li>

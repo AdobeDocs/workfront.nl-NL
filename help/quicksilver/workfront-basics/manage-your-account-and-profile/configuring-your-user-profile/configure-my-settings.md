@@ -6,9 +6,9 @@ description: Uw [!DNL Adobe Workfront] bevat informatie over uzelf (bijvoorbeeld
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2913'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,9 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
-   <td>Schakel dit selectievakje in om een percentagebalk weer te geven in het dialoogvenster [!UICONTROL update status] takenveld, zodat u het percentage van een taak dat is voltooid, kunt bijwerken terwijl u een taakupdate invoert.</td> 
+   <td>Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Updates van uw taken wanneer u de oudere opmerkingervaring gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 

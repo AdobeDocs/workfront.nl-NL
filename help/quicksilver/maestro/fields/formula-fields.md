@@ -4,9 +4,9 @@ description: In Adobe Maestro, kunt u formuleringsgebieden tot stand brengen die
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Daarnaast ondersteunen we de volgende expressies voor Maestro-formuleringsvelden
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Retourneert de id van een record.</p> <p>De expressie wordt als volgt opgemaakt:
+   <td> <p>Retourneert de id van een record. Elke record heeft een unieke id.</p> <p>De expressie wordt als volgt opgemaakt:
 
 <code>{ID}</code>
 </p>

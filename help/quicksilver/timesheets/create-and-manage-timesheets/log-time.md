@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3493'
+source-wordcount: '3520'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ Zie de volgende secties voor algemene informatie over het gebruik van het gebied
 
 #### De tijd van het logboek op een het werkpunt van het nieuwe gebied van het Huis
 
+U kunt de tijd aan om het even welke voorwerpen in om het even welke widgets registreren gebruikend het Summiere paneel. Zie voor meer informatie de [Het deelvenster Samenvatting](#summary-panel) in dit artikel.
+
+Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn werk:
+
 1. Ga naar de **Home** gebied.
-1. Voeg een van de volgende widgets toe:
+1. Voeg de **Mijn werk** widget naar uw startpagina.
+1. Selecteer een taak, kwestie, of verzoek in een lijst, dan klik **eraan werken**
+1. Houd de muis boven de taak of uitgave waarvoor u een logboek wilt bijhouden en klik vervolgens op de knop **Logtijd** pictogram ![](assets/log-time-icon-in-new-home.png) rechts van de taakinformatie.
 
-   * Mijn taken
-   * Mijn problemen
-   * Mijn werk
-   * Mijn verzoeken
-1. Selecteer een taak, kwestie, of verzoek in een lijst, dan klik **Samenvatting**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   of
-
-   Klik op de knop **Samenvatting** pictogram ![](assets/open-summary-icon-in-home.png) uit een taak of een probleem in de widget Mijn werk.
-
-   Het deelvenster Samenvatting wordt rechts geopend.
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Doorgaan met logtijd in het deelvenster Samenvatting, zoals wordt beschreven in [Overzicht van samenvattingen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. Klikken **Logtijd**.
 
 #### De tijd van het logboek op een het werkpunt van het erfenisHuis
 

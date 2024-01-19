@@ -6,9 +6,9 @@ description: U kunt een taak van een project aan een ander project kopiëren, of
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
 
 1. Zoek naar een taak in je Workfront-systeem.
 1. Klik op de naam van de taak om deze te openen.
-1. Klik op de knop **Meer** vervolgkeuzemenu ![](assets/qs-more-menu.png) naast de naam van de taak klikt u op **Kopiëren** **tot**.
+1. Klik op de knop **Meer** vervolgkeuzemenu ![](assets/qs-more-menu.png) naast de naam van de taak klikt u op **Kopiëren naar**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 

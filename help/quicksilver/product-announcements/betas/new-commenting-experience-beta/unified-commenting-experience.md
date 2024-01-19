@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
 
 # Nieuwe ervaring met opmerkingen
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ De nieuwe ervaringen met opmerkingen bevatten onder andere de volgende verbeteri
 * Real-time indicator wanneer nieuwe opmerkingen worden toegevoegd aan een object
 * Opmerkingen bewerken na verzending
 
-De volgende functies zijn verwijderd uit de nieuwe ervaring:
+De volgende functies zijn verwijderd of worden vervangen door de nieuwe ervaring:
 
 * Opmerkingen maken over een systeemupdate
-* De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen
+* Mogelijkheid om status, voorwaarde, datum en percentage volledig uit te geven terwijl het becommentariëren over taken en kwesties
 * Aangepast formulier bewerken
 * De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt, is oorspronkelijk verwijderd. Het is op 19 oktober 2023 weer opgenomen.
 * De optie &#39;Vraag om goedkeuring&#39; wanneer u personen een label geeft terwijl u een opmerking aan een document toevoegt.
+* De instelling &#39;Percentage voltooide updates tonen bij bewerking&#39; in het profielvak van een gebruiker wordt verwijderd. De functionaliteit van het bijwerken van het percentage voltooide taken of uitgaven is verwijderd.
+* Het bericht voor de Eigenaar van het Project in het gebied van Updates dat de ontvanger van een taak of een kwestie uitgeeft begaan datum <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
