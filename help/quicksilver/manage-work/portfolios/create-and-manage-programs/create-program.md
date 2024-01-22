@@ -6,14 +6,16 @@ description: Een programma vertegenwoordigt een inzameling van projecten die een
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 # Een programma maken
+
+<!-- Audited: 1/2024 -->
 
 Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden. Programma&#39;s kunnen niet buiten een portfolio bestaan.
 
@@ -27,28 +29,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] of hoger</p> </td> 
+   <td> <p>Nieuw: alle</p><p>of</p><p>Huidige: [!UICONTROL Business] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nieuw: [!UICONTROL Standard] </p><p>of </p><p>Huidige: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio en programma's </p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's en programma's </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Nadat u een programma hebt gemaakt, hebt u [!UICONTROL Manage] rechten, standaard</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Nadat u een programma hebt gemaakt, hebt u [!UICONTROL Manage] standaardmachtigingen.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Een programma maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
 
 1. Voer een van de volgende handelingen uit.
 
@@ -56,17 +59,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
       1. Klikken **[!UICONTROL Programs]** in het hoofdmenu.
       1. Klik op **[!UICONTROL New Program]**.
-      1. Typ in het vak dat wordt weergegeven de naam van een bestaande Portfolio in het dialoogvenster **[!UICONTROL Select Portfolio]** veld.
+      1. Typ in het vak dat wordt weergegeven de naam van een bestaand Portfolio in het dialoogvenster **[!UICONTROL Select Portfolio]** veld.
       1. Typ de naam van het nieuwe programma in het dialoogvenster **[!UICONTROL Name]** veld.
       1. Klik op **[!UICONTROL Save]**.
    * Een programma maken op basis van de [!UICONTROL Portfolios] gebied:
 
-      1. Klikken **[!UICONTROL Portfolios]** in de [!UICONTROL Main Menu]en klikt u op een portfolio.
+      1. Klikken **[!UICONTROL Portfolios]** in de [!UICONTROL Main Menu]Open vervolgens een portfolio.
       1. Klik in het linkerdeelvenster op **[!UICONTROL Programs]**.
-      1. Klik op de knop **[!UICONTROL New Program]** vervolgkeuzemenu, dan **[!UICONTROL New Program]**.
+      1. Klik op de knop **[!UICONTROL New Program]** vervolgkeuzelijst, vervolgens **[!UICONTROL New Program]**.
 
 
-1. Geef de naam voor het programma op in het dialoogvenster **[!UICONTROL Untitled Program]** veld.
+1. (Voorwaardelijk) Als u het programma vanuit een portfolio hebt gemaakt, geeft u de naam voor het programma op in het dialoogvenster **[!UICONTROL Untitled Program]** veld.
 
    De naam mag maximaal 255 tekens bevatten.
 
@@ -78,9 +81,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klikken **[!UICONTROL Program Details]** in het linkerdeelvenster.
 1. Dubbelklik op een veld om de gegevens in het dialoogvenster **[!UICONTROL Overview]** gebied.
-1. Geef de volgende informatie op:
 
-   <table style="table-layout:auto"> 
+U kunt de volgende informatie opgeven:
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
@@ -96,7 +100,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>Typ de naam van de gebruiker die u als Programmabeheerder wilt gebruiken en klik vervolgens op de naam van de gebruiker wanneer deze in de vervolgkeuzelijst wordt weergegeven. Dit is hetzelfde als [!UICONTROL Program Owner]. </p> <p>Tip: U kunt de Programmamanager ook bijwerken in de programmaheader. </p> </td> 
+      <td> <p>Typ de naam van de gebruiker die u als Programmabeheerder wilt gebruiken en klik vervolgens op de naam van de gebruiker wanneer deze in de vervolgkeuzelijst wordt weergegeven. Dit is hetzelfde als [!UICONTROL Program Owner]. </p> <p>Tip: u kunt de Programmamanager ook bijwerken in de programmaheader. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Group] </td> 
@@ -114,7 +118,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >U moet aangepaste formulieren voor programma&#39;s hebben die u aan programma&#39;s kunt toevoegen.
 
-1. (Optioneel) Dubbelklik op een veld om de gegevens in het aangepaste formulier bij te werken.
+1. (Optioneel en voorwaardelijk) Als u een aangepast formulier toevoegt, klikt u op een veld in het aangepaste formulier om de gegevens in dat veld bij te werken.
+1. Klik op **[!UICONTROL Save Changes]**.
 1. Klikken **[!UICONTROL Projects]** in het linkerpaneel, dan **[!UICONTROL Add Projects]** projecten aan het programma toe te voegen.
 
    Voor informatie over het toevoegen van projecten aan programma&#39;s, zie [Een project toevoegen aan een programma](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
@@ -126,7 +131,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overzicht van de programmakoptekst
 
-In de koptekst vindt u beperkte informatie over het programma.
+In de koptekst vindt u informatie over het programma.
 
 De volgende informatie wordt weergegeven in de koptekst van een programma:
 
@@ -136,7 +141,7 @@ De volgende informatie wordt weergegeven in de koptekst van een programma:
  <tbody> 
   <tr> 
    <td role="rowheader">Koptekstgegevens</td> 
-   <td> <p><strong>Notities</strong> </p> </td> 
+   <td> <strong>Notities</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Broodkruimel met de naam van het portfolio</td> 
@@ -148,7 +153,7 @@ De volgende informatie wordt weergegeven in de koptekst van een programma:
   </tr> 
   <tr> 
    <td role="rowheader">Naam van het objecttype en activeringsstatus</td> 
-   <td>Het woord "Programma" wordt in een groene omtrek weergegeven wanneer u een programma bekijkt. Het woord "[!UICONTROL Deactivated]" wordt naast de afbeelding weergegeven en de omtrek is grijs als het programma niet is gemarkeerd als [!UICONTROL Active]. </td> 
+   <td>Het woord "Programma" wordt weergegeven met een oranje pictogram wanneer u een programma bekijkt. Het woord "[!UICONTROL Deactivated]" wordt naast de afbeelding weergegeven en de omtrek is grijs als het programma niet is gemarkeerd als [!UICONTROL Active]. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Het actiegebied van het programma </td> 
@@ -166,7 +171,7 @@ De volgende informatie wordt weergegeven in de koptekst van een programma:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td> <p>U kunt de [!UICONTROL Percent Complete] van het programma in de koptekst. Deze informatie wordt bijgewerkt op basis van de projecten in het programma. Standaard is het percentage van voltooiing van het programma een gemiddelde van de procentuele volledige waarden van de projecten in een [!UICONTROL Current] en [!UICONTROL Approved] status die bij het programma horen.</p> </td> 
+   <td> <p>U kunt de [!UICONTROL Percent Complete] van het programma in de koptekst. Deze informatie wordt bijgewerkt op basis van de projecten in het programma. Standaard is het percentage van voltooiing van het programma een gemiddelde van de procentuele volledige waarden van de projecten in een [!UICONTROL Current] of [!UICONTROL Approved] status die bij het programma horen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -174,7 +179,7 @@ De volgende informatie wordt weergegeven in de koptekst van een programma:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td>U kunt het percentage van voltooiing van het programma niet bewerken in de koptekst. Het percentage van voltooiing van het programma is een gemiddelde van het percentage voltooide projecten in de kopbal. De hier vertegenwoordigde projecten zijn projecten met een status van [!UICONTROL Current] en [!UICONTROL Approved]. </td> 
+   <td>U kunt de geplande voltooiingsdatum van het programma niet bewerken in de koptekst.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 
