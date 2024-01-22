@@ -6,9 +6,9 @@ description: Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Toegang verlenen tot objecten in het gebied Home
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van Adobe Workfront.
+1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
 
    >[!NOTE]
    >
@@ -93,19 +93,35 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
 
+1. (Voorwaardelijk) Ga als volgt te werk vanuit het verouderde gebied Start:
 
-1. In de **Werklijst** selecteert u de toegangsaanvraag die u wilt beheren.\
+   1. In de **Werklijst** selecteert u de toegangsaanvraag die u in het dialoogvenster **Goedkeuringen** sectie.
+
    ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
-1. Klik in de rechterbovenhoek op de knop voor toegang tot subsidies.\
-   Afhankelijk van het type gevraagde toegang, verandert de knoopnaam. Als de aanvrager bijvoorbeeld om toegang tot de weergave vraagt, wordt op de knop **Toegang tot subsidieweergave**.\
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+   Het verzoek wordt rechts van de Werklijst weergegeven.
 
-1. (Optioneel) Als u een ander toegangsniveau wilt toekennen dan gevraagd, klikt u op de pijl naast de knop voor toegang tot de subsidie en selecteert u de nieuwe toegang.\
-   Er verschijnt een bericht dat bevestigt dat toegang is verleend.\
-   OF\
-   Klikken **Negeren** om toegang te weigeren.\
-   Er verschijnt een bericht dat bevestigt dat toegang is genegeerd.
+   1. Klik in de rechterbovenhoek op de knop voor toegang tot subsidies.\
+      Afhankelijk van het type gevraagde toegang, verandert de knoopnaam. Als de aanvrager bijvoorbeeld om toegang tot de weergave vraagt, wordt op de knop **Toegang tot subsidieweergave**.\
+      ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+
+   1. (Optioneel) Als u een ander toegangsniveau wilt toekennen dan gevraagd, klikt u op de pijl naast de knop voor toegang tot verlenen en selecteert u de nieuwe toegang. Klik vervolgens op **Subsidie &lt; machtigingsniveau > Toegang >**.\
+      Er wordt een bericht weergegeven waarin wordt bevestigd dat toegang is verleend.
+
+   1. (Optioneel) Klik op **Negeren** om toegang te weigeren.\
+      Er verschijnt een bericht dat bevestigt dat toegang is genegeerd.
+
+1. (Voorwaardelijk) Ga als volgt te werk vanuit het nieuwe gebied Home:
+
+   1. Ga naar de **In afwachting van mijn goedkeuring** widget en zoek de aanvraag voor meer toegang en klik vervolgens op **Toegang verlenen**.
+
+      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+
+   1. (Optioneel) Als u een ander toegangsniveau wilt toekennen dan gevraagd, klikt u op het keuzemenu links van de knop Toegang verlenen en selecteert u de nieuwe toegang. Klik vervolgens op **Toegang verlenen**.
+
+      Het toegangsverzoek wordt verleend en het verdwijnt uit de lijst van goedkeuringsverzoeken.
+
+   1. (Optioneel) Klik op **Negeren** om toegang te weigeren. Het toegangsverzoek wordt niet verleend en het verzoek verdwijnt uit de lijst van goedkeuringsverzoeken.
 
 ## E-mailmeldingen voor verzoeken configureren
 

@@ -7,9 +7,9 @@ description: In dit artikel wordt de lay-out van tijdbladen in Adobe Workfront b
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -121,9 +121,9 @@ U kunt meerdere uurvermeldingen voor hetzelfde werkitem voor verschillende uurst
 
 ![Het gebied van updates in het linkertimesheet paneel](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-U kunt commentaren op een timesheet maken om met uw timesheet fiatteurs of andere gebruikers in de sectie van Updates in het linkerpaneel te communiceren.
+U kunt commentaren op een timesheet maken om met uw timesheet fiatteurs of andere gebruikers in de sectie van Updates in het linkerpaneel van timesheet te communiceren.
 
-Eventuele opmerkingen die zijn gemaakt op de tijdlijnweergave in dit gebied, onder aan het tijdlijnoverzicht. Dit gebied wordt onder de tijdlijn en boven de voettekst van het tijdblad weergegeven. Zie voor meer informatie [Opmerkingen weergeven en beheren op een tijdblad](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Alle opmerkingen die zijn gemaakt op de tijdlijnweergave in dit gebied.
 
 ## Het deelvenster Samenvatting
 

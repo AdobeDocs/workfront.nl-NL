@@ -5,9 +5,9 @@ title: Overzicht van de project-, taak- en uitgiftedatums in [!DNL Adobe Workfro
 description: Overzicht van de project-, taak- en uitgiftedatums in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ U kunt handmatig aangeven wanneer een taak of een probleem is voltooid, of [!UIC
 * Het project, de taak, of de veranderingen van de uitgiftestatus in [!UICONTROL Complete], [!UICONTROL Closed], of [!UICONTROL Resolved].
 * De taak of het projectpercentage voltooid is 100%.
 
-De [!UICONTROL Actual Completion Date] van een project samenvalt met de datum waarop de eerste taak van het project is voltooid.
+De [!UICONTROL Actual Completion Date] van een project samenvalt met de datum waarop u de laatste taak van het project hebt voltooid.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ De [!UICONTROL Commit Date] Dit is de datum waarop een gebruiker die aan een taa
 >
 >Het wijzigen van [!UICONTROL Commit Date] de [!UICONTROL Projected Completion Date] maar niet de [!UICONTROL Planned Completion Date] van een taak of een kwestie. De projectmanager kan de veranderingen gebruiken een toegewezen persoon op [!UICONTROL Commit Date] om de [!UICONTROL Planned Completion Date] van een taak of een kwestie.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Projected Start Date]
 
 De [!UICONTROL Projected Start Date] is een datum in real time van wanneer het project, de taak, of de kwestie en houdt rekening met alle vertragingen. Dit is een nauwkeurigere Begindatum voor het project, de taak of de uitgave dan de [!UICONTROL Planned Start Date]. De [!UICONTROL Planned Start Date] geen rekening houdt met vertragingen of achterstallige data.
@@ -132,7 +128,7 @@ Zie voor meer informatie [Overzicht van het project [!UICONTROL Projected Start 
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL rojected Completion Date]
+## [!UICONTROL Projected Completion Date]
 
 De [!UICONTROL Projected Completion Date] is een real-time, berekende indicator van wanneer het project, de taak, of de kwestie zullen worden voltooid. Wanneer het project, de taak, of de kwestie zoals Voltooid duidelijk zijn, [!UICONTROL Projected Completion Date] wijzigingen in de datum van de [!UICONTROL Actual Completion Date].
 
@@ -146,24 +142,28 @@ Zie voor meer informatie [Overzicht van de [!UICONTROL Projected Completion Date
 
 Wanneer u tijd voor projecten, taken, en kwesties registreert om erop te wijzen hoeveel daadwerkelijke tijd (in uren) u het werken aan het project, de taak, of de kwestie doorbrengt, wordt de tijd u registreert [!UICONTROL Actual Hours] van het project, de taak of de uitgave.
 
-De datum waarvoor u de tijd registreert is [!UICONTROL Hour Entry Date] veld op de uurvermelding.
+De datum waarvoor u de tijd registreert is [!UICONTROL Hour Entry Date] veld op de uurvermelding. Sommige uurlijsten en rapporten tonen de Datum van de Ingang van het Uur als Datum.
 
 >[!TIP]
 >
 >De [!UICONTROL Hour Entry Date] is anders dan de [!UICONTROL Entry Date] in die zin is het niet de datum waarop het uurlogboek werd gecreeerd, maar eerder de datum waaraan u associeerde uren wilt.
 
-U kunt zich aanmelden in het dialoogvenster [!UICONTROL project], [!UICONTROL task], of [!UICONTROL issue Updates] of in de [!UICONTROL Hours] deel . Wanneer het registreren tijd in [!UICONTROL Hours] in de sectie kunt u handmatig de datum van het Uur-item opgeven en de gebruiker tot waar de uren horen.
+U kunt de tijd in de volgende gebieden van Workfront registreren en bekijken:
 
-Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* De tijd van het logboek en van de mening in [!UICONTROL project], [!UICONTROL task], of [!UICONTROL issue Updates] of in de [!UICONTROL Hours] sectie. Wanneer het registreren tijd in [!UICONTROL Hours] in de sectie kunt u handmatig de datum van het Uur-item opgeven en de gebruiker tot waar de uren horen.
 
->[!TIP]
->
->Wij adviseren registrerentijd op het werken taken en kwesties, eerder dan oudertaken of projecten. De tijd die op de het werk taken wordt geregistreerd rolt omhoog aan de oudertaken en het project als [!UICONTROL Actual Hours] voor de bovenliggende taken en het project. De tijd die op kwesties wordt geregistreerd rolt omhoog aan het project als [!UICONTROL Actual Hours] voor het project.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >Wij adviseren registrerentijd op het werken taken en kwesties, eerder dan oudertaken of projecten. De tijd die op de het werk taken wordt geregistreerd rolt omhoog aan de oudertaken en het project als [!UICONTROL Actual Hours] voor de bovenliggende taken en het project. De tijd die op kwesties wordt geregistreerd rolt omhoog aan het project als [!UICONTROL Actual Hours] voor het project.
 
-U kunt de [!UICONTROL Hour Entry Dates] in uurrapporten en lijsten.
+* Logtijd in de updatestroom van een taak of kwestie.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* De weergave [!UICONTROL Hour Entry Dates] in uurrapporten en lijsten.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)
