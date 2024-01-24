@@ -6,9 +6,9 @@ description: Een programma vertegenwoordigt een inzameling van projecten die een
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nieuw: alle</p><p>of</p><p>Huidige: [!UICONTROL Business] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td> <p>Nieuw: [!UICONTROL Standard] </p><p>of </p><p>Huidige: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>[!UICONTROL Edit] toegang tot Portfolio's en programma's </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ De volgende informatie wordt weergegeven in de koptekst van een programma:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td>U kunt de geplande voltooiingsdatum van het programma niet bewerken in de koptekst.  </td> 
+   <td>U kunt de geplande voltooiingsdatum van het programma niet bewerken in de koptekst. Deze informatie wordt bijgewerkt op basis van de projecten in het programma. De geplande uitvoeringsdatum van het laatste project in het programma wordt de geplande uitvoeringsdatum van het programma.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 

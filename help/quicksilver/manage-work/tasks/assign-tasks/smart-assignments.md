@@ -7,9 +7,9 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* Een taak of uitgiftekopbal op het gebied van Taken
+* <span class="preview">Een taakkoptekst in het veld Toewijzingen</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* Een uitgiftekop in het veld Toewijzingen
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * Het deelvenster Overzicht van taken of uitgaven in het gebied Toewijzingen
 
@@ -70,14 +74,17 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 ## Criteria voor slimme toewijzingen
 
-
 <div class="preview">
 
 Slimme toewijzingen werken anders voor taken dan voor problemen.
 
 ### Slimme toewijzingscriteria voor taken
 
-De taak slimme toewijzingsberekening werkt in twee fasen.
+De taak slimme toewijzingsberekening werkt in twee fasen die twee verschillende algoritmen gebruiken.
+
+Afhankelijk van welk algoritme de slimme taak vindt, worden de taken vermeld onder twee afzonderlijke secties in het gebied van Taken. Zie voor meer informatie [Slimme toewijzingen maken](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### Eerste fase van berekening van slimme toewijzing voor taken
 
@@ -111,6 +118,8 @@ Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de 
 
   Bijvoorbeeld, als Rick eerder vandaag aan een gelijkaardige taak werd toegewezen en Jennifer twee dagen geleden aan een gelijkaardige taak werd toegewezen, toont Rick eerst.
 
+* In deze fase geïdentificeerde toewijzingen worden vermeld in de **Voorgestelde toewijzingen** in het veld Toewijzingen.
+
 * Als er geen gelijken gebruikend deze berekening zijn, begint de tweede fase van slimme taken die gebruikend een verschillend algoritme wordt berekend.
 
 #### Tweede fase van berekening van slimme toewijzing voor taken
@@ -119,6 +128,8 @@ Als de eerste stap van taak slimme taken geen gelijken heeft gevonden, berekent 
 
 Zie de sectie voor meer informatie [Criteria voor slimme toewijzingen voor taken en problemen](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
 
+In deze fase geïdentificeerde toewijzingen worden vermeld in de **Resultaten** in het veld Toewijzingen. <!--update this to "Other assignments"-->
+
 ### Criteria voor slimme toewijzingen voor taken en problemen
 
 </div>
@@ -126,6 +137,8 @@ Zie de sectie voor meer informatie [Criteria voor slimme toewijzingen voor taken
 >[!NOTE]
 >
 ><span class="preview">De volgende criteria zijn alleen van toepassing op taken wanneer de eerste fase van de berekening van de intelligente taak geen overeenkomsten heeft gevonden. Zie de sectie [Eerste fase van berekening van slimme toewijzing voor taken](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 De gebruikers worden geadviseerd in de slimme drop-down lijst van Toewijzingen die op een combinatie van de volgende criteria (die in orde van belangrijkst tot minst belangrijk worden vermeld) wordt gebaseerd:
 

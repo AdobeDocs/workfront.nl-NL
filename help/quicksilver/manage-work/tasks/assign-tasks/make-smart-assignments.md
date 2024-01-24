@@ -6,20 +6,27 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Slimme toewijzingen maken
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten.</span>
 
 <span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien. De slimme taken zijn suggesties voor gebruikers die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. Zie voor informatie over slimme toewijzingen [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien.
+
+De slimme taken zijn suggesties voor gebruikers die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt.
+
+<span class="preview">Er zijn twee aparte algoritmen in Workfront voor taken en problemen. </span>
+Zie voor informatie over slimme toewijzingen [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Toegangsvereisten
 
@@ -76,9 +83,16 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   De gebruikers die in deze lijst worden getoond zijn de slimme toewijzingssuggesties voor de taak of de kwestie.
+   Voor problemen worden de suggesties voor slimme toewijzingen weergegeven in het dialoogvenster **Voorgestelde toewijzingen** gebied.
 
-   Zie de sectie &#39;Suggesties voor slimme toewijzingen zoeken&#39; in het artikel voor meer informatie over waar de slimme toewijzingen worden weergegeven [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Voor taken worden de slimme toewijzingen weergegeven in de volgende secties, afhankelijk van de fase van de berekening van het algoritme waarin de toewijzingen zijn geïdentificeerd:
+
+   * **Voorgestelde toewijzingen**: Toewijzingen die zijn geïdentificeerd in de eerste fase van de algoritmeberekening van de slimme toewijzing van de taak.
+   * <span class="preview">**Resultaten**: Toewijzingen die zijn geïdentificeerd in de tweede fase van de algoritmeberekening van de slim-toewijzing van de taak. Deze sectie is niet beschikbaar voor problemen. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   Zie voor meer informatie [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. Selecteer de gebruiker in de lijst met aanbevelingen door op de gewenste naam te klikken.
 
