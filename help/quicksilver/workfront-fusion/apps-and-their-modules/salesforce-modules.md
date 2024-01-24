@@ -9,9 +9,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Salesforce] modules
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Salesforce]en deze verbinding maken met meerdere toepassingen en services van derden.
+
+Voor een video-introductie van de Salesforce-connector raadpleegt u:
+
+* [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -49,7 +53,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -57,9 +61,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -144,7 +148,7 @@ Voor deze module is extra installatie vereist:
 1. Plaats een regelnaam, evaluatiecriteria, en regelcriteria, dan klik **[!UICONTROL Save]** en **[!UICONTROL Next]**.
 
 1. Klik op **[!UICONTROL Done]**.
-1. Klik in de nieuwe workflowregel op **[!UICONTROL Edit]**..
+1. Klik op de regel Nieuw workflow **[!UICONTROL Edit]**..
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Add Workflow Action]** de optie **[!UICONTROL New Outbound Message]**.
 
 1. Geef een naam, beschrijving, URL van eindpunt en velden op die u wilt opnemen in het nieuwe uitgaande bericht en klik vervolgens op **[!UICONTROL Save]**.
@@ -266,7 +270,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr>
     <td>[!UICONTROL Record Fields]</td>
-    <td>Selecteer de velden die de module moet lezen. U moet ten minste één veld selecteren.</td>
+    <td>Selecteer de velden die u in de module wilt lezen. U moet ten minste één veld selecteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL ID]</td>
@@ -295,7 +299,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Selecteer het type van [!DNL Salesforce] record die u wilt verwijderen uit de module.</p> </td> 
+   <td> <p>Selecteer het type van [!DNL Salesforce] record die u wilt verwijderen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
@@ -310,12 +314,12 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het make
 
 De module retourneert het volgende:
 
-* **[!UICONTROL Status Code]** (nummer): Dit wijst op het succes of de mislukking van uw HTTP- verzoek. Dit zijn standaardcodes die u kunt opzoeken op internet.
-* **[!UICONTROL Headers]** (object): Een meer gedetailleerde context voor de reactie/statuscode die niet op het outputlichaam betrekking heeft. Niet alle kopteksten in een antwoordkoptekst zijn reactiekoppen. Sommige koppen zijn daarom niet altijd even handig.
+* **[!UICONTROL Status Code]** (getal): Dit geeft aan of uw HTTP-aanvraag is geslaagd of mislukt. Dit zijn standaardcodes die u kunt opzoeken op internet.
+* **[!UICONTROL Headers]** (object): een gedetailleerdere context voor de respons-/statuscode die geen betrekking heeft op de hoofdtekst van de uitvoer. Niet alle kopteksten in een antwoordkoptekst zijn reactiekoppen. Sommige koppen zijn daarom niet altijd even handig.
 
   De antwoordheaders zijn afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module.
 
-* **[!UICONTROL Body]** (object): Afhankelijk van de HTTP-aanvraag die u hebt gekozen tijdens het configureren van de module, ontvangt u mogelijk gegevens terug. Deze gegevens, zoals de gegevens van een [!UICONTROL GET] request, bevindt zich in dit object.
+* **[!UICONTROL Body]** (object): afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module, ontvangt u mogelijk gegevens terug. Deze gegevens, zoals de gegevens van een [!UICONTROL GET] request, bevindt zich in dit object.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -378,7 +382,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 Deze actiemodule uploadt een bestand en koppelt het aan een record die u opgeeft, of uploadt een document.
 
-De module retourneert de id van de bijlage of het document en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert de id van de bijlage of het document en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -415,7 +419,7 @@ Deze actiemodule downloadt een document of bijlage uit een record.
 
 U geeft de id van de record op en het gewenste type download.
 
-De module retourneert de id van de bijlage of het document en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert de id van de bijlage of het document en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -504,11 +508,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Type] </p> </td> 
-   <td> <p>Als u het type Eenvoudige zoekopdracht hebt geselecteerd, kiest u het type van [!DNL Salesforce] record waarnaar u wilt zoeken in de module.</p> </td> 
+   <td> <p>Als u het eenvoudige zoektype hebt geselecteerd, kiest u het type van [!DNL Salesforce] record waarnaar u wilt zoeken in de module.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Query] / [!UICONTROL SOSL Query] / [!UICONTROL SOQL Query]</td> 
-   <td> <p>Voer de query in waarop u wilt zoeken.</p> <p>Zie voor meer informatie over SOSL <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> in de [!DNL Salesforce] documentatie.</p> <p>Zie voor meer informatie over SOQL <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> in de [!DNL Salesforce] documentatie.</p> <p>Opmerking: De waarde van de parameter <code>RETURNING </code>beïnvloedt de output van de module. Als u <code>LIMIT</code>, [!DNL Fusion] negeert de instellingen in het dialoogvenster [!UICONTROL Maximal count of records] veld. Als u geen limiet instelt, voegt Fusion de waarde in [!UICONTROL LIMIT = Maximal count of records].</p> </td> 
+   <td> <p>Voer de query in waarop u wilt zoeken.</p> <p>Zie voor meer informatie over SOSL <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> in de [!DNL Salesforce] documentatie.</p> <p>Zie voor meer informatie over SOQL <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> in de [!DNL Salesforce] documentatie.</p> <p>Opmerking: de waarde van de parameter <code>RETURNING </code>beïnvloedt de output van de module. Als u <code>LIMIT</code>, [!DNL Fusion] de instellingen in het dialoogvenster [!UICONTROL Maximal count of records] veld. Als u geen limiet instelt, voegt Fusion de waarde in [!UICONTROL LIMIT = Maximal count of records].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximal count of records]</td> 

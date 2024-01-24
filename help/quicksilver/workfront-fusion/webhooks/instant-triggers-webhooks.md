@@ -7,9 +7,9 @@ description: Veel services bieden websites voor het direct verzenden van melding
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ Veel services bieden websites voor het direct verzenden van meldingen wanneer zi
 ![](assets/instant-350x256.png)
 
 Als de service geen webhaken biedt, moet u opiniepeilingtriggers gebruiken om de service regelmatig te bekijken.
+
+Ga voor een video-introductie over websites in Workfront Fusion naar:
+
+* [Introductie tot webhaken](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Tussenliggende webhaken](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -41,7 +46,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
@@ -49,9 +54,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -75,7 +80,7 @@ Alle berichten van binnenkomende webhooks worden opgeslagen in de wachtrij van d
    >
    >Binnenkomende websitegegevens worden altijd in de wachtrij opgeslagen, ongeacht hoe u de optie hebt ingesteld [!UICONTROL Data] is vertrouwelijk (zie [Het deelvenster met scenario-instellingen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)). Zodra de gegevens in een scenario worden verwerkt, worden ze permanent uit het systeem verwijderd.
 
-## Instant triggers plannen
+## Instant-triggers plannen
 
 Als uw scenario een onmiddellijke trekker bevat, kunt u het scenario plannen om onmiddellijk te lopen:
 
@@ -96,7 +101,7 @@ In dit geval wordt uw scenario onmiddellijk uitgevoerd wanneer [!DNL Workfront F
 >
 
 
-Als u een andere instelling voor het schema gebruikt dan [!UICONTROL Immediately], wordt het scenario uitgevoerd met de opgegeven intervallen. Aangezien verscheidene webhooks in de rij tijdens het interval kunnen worden verzameld, wordt het geadviseerd om te plaatsen [[!UICONTROL Maximum number of cycles]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) naar een hogere waarde dan standaard 1 om meer webhaken in één scenario uit te voeren:
+Als u een andere instelling voor het schema gebruikt dan [!UICONTROL Immediately], wordt het scenario uitgevoerd met de opgegeven intervallen. Aangezien verscheidene webhooks in de rij tijdens het interval kunnen worden verzameld, wordt het geadviseerd om het [[!UICONTROL Maximum number of cycles]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) naar een hogere waarde dan standaard 1 om meer webhaken in één scenario uit te voeren:
 
 1. Klik op de knop [!UICONTROL Scenario settings] pictogram ![](assets/gear-icon-settings.png) onder aan uw scenario.
 1. In de **[!UICONTROL Scenario settings]** tekstvak dat wordt weergegeven, typt u een getal in het vak **[!UICONTROL Max number of cycles]** om op het aantal websites van de rij te wijzen die u wilt in werking stellen telkens als u het scenario uitvoert.
@@ -122,11 +127,11 @@ Wanneer er een fout in uw scenario met een onmiddellijke trekker is, het scenari
 
 Als een fout tijdens de scenariouitvoering voorkomt, wordt webhaak terug geplaatst in de rij tijdens de het terugschroeven van prijzenfase van de instant trekker. In een dergelijke situatie kunt u het scenario oplossen en opnieuw uitvoeren. Zie voor meer informatie [Terugdraaien](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) in het artikel [Uitvoering van scenario&#39;s, cycli en fasen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-Als er een module van de Reactie van Webhaak in uw scenario is, wordt de fout verzonden naar de reactie Webhaak. De WebHaak reactiemodule wordt altijd als laatste uitgevoerd (in het geval waarin [!UICONTROL Auto commit] (in de Scenario-instellingen is deze optie niet ingeschakeld). Zie voor meer informatie [Reageren op webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) in het artikel [Webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+Als er een module van de Reactie van de Webhaak in uw scenario is, wordt de fout verzonden naar de reactie van de Webhaak. De WebHaak reactiemodule wordt altijd als laatste uitgevoerd (in het geval waarin [!UICONTROL Auto commit] (in de Scenario-instellingen is deze optie niet ingeschakeld). Zie voor meer informatie [Reageren op webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) in het artikel [Webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 
 ## Aangepaste webhaken
 
-U kunt uw eigen webhaken maken. Zie voor meer informatie [Webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+U kunt uw eigen websites maken. Zie voor meer informatie [Webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 
 ## Webhaak-deactivering
 

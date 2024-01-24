@@ -5,21 +5,25 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Adobe Experience Manager-middelenmodules
-description: Met de [!DNL Adobe Experience Manager Assets] connector voor [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] mappen en elementen maken, uploaden en bijwerken en kopiëren of verplaatsen.
+title: Adobe Experience Manager Assets-modules
+description: Met de [!DNL Adobe Experience Manager Assets] connector voor [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] mappen en elementen opslaan, maken, uploaden en bijwerken, en kopiëren of verplaatsen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] modules
 
-Met de [!DNL Adobe Experience Manager Assets] connector voor [!DNL Adobe Workfront Fusion], kunt u een scenario beginnen dat op gebeurtenissen in uw [!DNL Adobe Experience Manager Assets] mappen en elementen maken, uploaden en bijwerken en kopiëren of verplaatsen.
+Met de [!DNL Adobe Experience Manager Assets] connector voor [!DNL Adobe Workfront Fusion], kunt u een scenario beginnen dat op gebeurtenissen in uw [!DNL Adobe Experience Manager Assets] mappen en elementen opslaan, maken, uploaden en bijwerken, en kopiëren of verplaatsen.
+
+Voor een inleiding aan de schakelaar van Adobe Experience Manager Assets, zie:
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -40,7 +44,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -48,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -62,7 +66,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Vereisten
 
-* U moet beschikken over een [!DNL Adobe Experience Manager Assets] account om deze modules te gebruiken.
+* U moet een [!DNL Adobe Experience Manager Assets] account om deze modules te gebruiken.
 * U moet instellen [!UICONTROL Server-to-server] stroom in de [!DNL Adobe Developer console].
 
   Voor instructies over het instellen [!UICONTROL Server-to-server] stroom in de [!DNL Adobe Developer console], zie [Toegangstokens genereren voor server-side API&#39;s](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
@@ -117,23 +121,23 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Voer de client-id in die is gegenereerd in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
+                  <td>Voer de client-id in die in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Voer het clientgeheim in dat is gegenereerd in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
+                  <td>Voer het clientgeheim in dat in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Voer de id van de technische rekening in. Dit is de "[!UICONTROL id]" in het JSON-bestand met clientreferenties.</td>
+                  <td>Voer de id van de technische rekening in. Dit is de "[!UICONTROL id]".</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Voer de id van uw organisatie in. Dit is de "[!UICONTROL org]" in het JSON-bestand met clientreferenties.</td>
+                  <td class="">Voer de id van uw organisatie in. Dit is de "[!UICONTROL org]".</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
-                  <td>Voer de meta-bereiken in die zijn gegenereerd in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
+                  <td>Voer de meta-bereiken in die in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Private key]</td>
@@ -201,7 +205,7 @@ Deze actiemodule kopieert een map of middel naar een andere locatie in uw Adobe 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination path]</td> 
-   <td>Selecteer of wijs de weg aan de plaats voor de nieuwe omslag of de activa toe.</td> 
+   <td>Selecteer of wijs het pad toe aan de locatie voor de nieuwe map of het nieuwe element.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name of copied folder] / [!UICONTROL asset]</td> 

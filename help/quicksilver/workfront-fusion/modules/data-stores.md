@@ -8,9 +8,9 @@ description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoud
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ De modules van de gegevensopslag laten u toe om de volgende acties op verslagen 
 
 Voor informatie bij het gebruiken van de modules van de gegevensopslag, zie [[!UICONTROL Data store] modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
+Ga voor een video-introductie over gegevensopslag in Workfront Fusion naar:
+
+* [Gegevensopslag](https://video.tv.adobe.com/v/3427029/){target=_blank}
+
 ## Toegangsvereisten
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
@@ -50,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -58,9 +62,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -85,9 +89,9 @@ Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensops
 >
 >Zie voor meer informatie [Maximum aantal winkels bereikt fout](#maximum-stores-reached-error) in dit artikel.
 
-1. Meld u aan bij uw [!DNL Workfront Fusion] account.
+1. Aanmelden bij uw [!DNL Workfront Fusion] account.
 1. Klikken **[!UICONTROL Data stores]** in het linkernavigatievenster.
-1. Klikken **[!UICONTROL Add data store]** in de rechterbovenhoek van het scherm.
+1. Klikken **[!UICONTROL Add data store]** rechtsboven in het scherm.
 1. Voer instellingen in voor de nieuwe gegevensopslag.
 
    Een bolle titel op een veld in een [!DNL Workfront Fusion] een vereiste instelling.
@@ -105,13 +109,13 @@ Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensops
       <td> <p>Een gegevensstructuur is een lijst van de kolommen voor een lijst. Deze lijst geeft de kolomnaam en het gegevenstype aan.</p> <p>Voer een van de volgende handelingen uit:</p> 
        <ul> 
         <li style="font-weight: bold;">Selecteer een gegevensstructuur die al is gemaakt</li> 
-        <li> <p style="font-weight: bold;">Een nieuwe gegevensstructuur toevoegen</p> <p>Klikken <strong>[!UICONTROL Add]</strong> om een nieuwe gegevensstructuur te maken.</p> <p>Zie voor meer informatie de <a href="#set-up-the-data-structure" class="MCXref xref">De gegevensstructuur instellen</a> in dit artikel.</p> </li> 
+        <li> <p style="font-weight: bold;">Een nieuwe gegevensstructuur toevoegen</p> <p>Klikken <strong>[!UICONTROL Add]</strong> om een nieuwe gegevensstructuur te maken.</p> <p>Zie de klasse <a href="#set-up-the-data-structure" class="MCXref xref">De gegevensstructuur instellen</a> in dit artikel.</p> </li> 
         <li style="font-weight: bold;"> <p>Het veld leeg laten</p> <p style="font-weight: normal;">Als u geen gegevensstructuur selecteert of toevoegt, zal het gegevensbestand slechts de primaire sleutel bevatten. Een dergelijk databasetype is handig als u alleen sleutels wilt opslaan en alleen wilt weten of een bepaalde sleutel al dan niet bestaat in de database.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Data storage size in MB]</p> </td> 
-      <td> <p>Wijs de grootte voor de gegevensopslag toe vanuit uw totale interne gegevensopslag.</p> <p> De standaardwaarde is 10 MB. Als u minder dan 10 MB aan niet toegewezen ruimte van de Opslag van Gegevens van uw 500 MB toewijzing hebt, is de standaardgrootte de hoeveelheid niet toegewezen opslag.  <p>Opmerking: De gereserveerde hoeveelheid kan op elk gewenst moment worden gewijzigd.</p>  </td> 
+      <td> <p>Wijs de grootte voor de gegevensopslag toe vanuit uw totale interne gegevensopslag.</p> <p> De standaardwaarde is 10 MB. Als u minder dan 10 MB aan niet toegewezen ruimte van de Opslag van Gegevens van uw 500 MB toewijzing hebt, is de standaardgrootte de hoeveelheid niet toegewezen opslag.  <p>Opmerking: het gereserveerde bedrag kan op elk gewenst moment worden gewijzigd.</p>  </td> 
      </tr> 
     </tbody> 
    </table>

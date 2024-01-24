@@ -9,9 +9,9 @@ description: De [!DNL Adobe Workfront Fusion Frame].io modules enable you to mon
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Frame.io] modules
 
 De [!DNL Adobe Workfront Fusion] [!DNL Frame.io] kunt u elementen en opmerkingen in uw [!DNL Frame.io] account.
+
+Voor een videoinleiding aan de Schakelaar Frame.io, zie:
+
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -39,7 +43,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -47,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,14 +77,14 @@ U kunt verbinding maken met [!DNL Frame.io] het gebruiken van een API teken, of 
 
 ### Verbinden met [!DNL Frame.io] API-token gebruiken
 
-Als u verbinding wilt maken met uw [!DNL Frame.io] account aan [!DNL Workfront Fusion] met behulp van een API-token moet u de API-token in uw [!DNL Frame.io] en voeg deze in bij de [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Create a connection] .
+Als u verbinding wilt maken met uw [!DNL Frame.io] account aan [!DNL Workfront Fusion] met behulp van een API-token moet u de API-token in uw [!DNL Frame.io] en voeg deze in bij de [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Create a connection] in.
 
-1. Meld u aan bij uw [!DNL Frame.io] account.
+1. Aanmelden bij uw [!DNL Frame.io] account.
 1. Ga naar de **[!UICONTROL Tokens]** pagina in de [!DNL Frame.io] Ontwikkelaar.
 1. Klik op **[!UICONTROL New]**.
 1. Voer de naam van het token in, selecteer het bereik dat u wilt gebruiken en klik op **[!UICONTROL Create]**.
 1. Kopieer de opgegeven token.
-1. Ga naar [!DNL Workfront Fusion] en opent u de [!DNL Frame.io] module **[!UICONTROL Create a connection]** .
+1. Ga naar [!DNL Workfront Fusion] en opent u de [!DNL Frame.io] module **[!UICONTROL Create a connection]** in.
 1. In de **[!UICONTROL Connection type]** veld, selecteren **[!DNL Frame.io]**.
 1. Voer de token die u in stap 5 hebt gekopieerd, in naar de **[!UICONTROL Your [!DNL Frame.io] API Key]** veld en klik op **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
 
@@ -90,12 +94,12 @@ De verbinding is tot stand gebracht. U kunt doorgaan met het instellen van de mo
 
 U kunt een verbinding maken met [!DNL Frame.io] gebruik van OAuth 2.0 PKCE met een optionele client-id. Als u een client-id wilt opnemen in uw verbinding, moet u een OAuth 2.0-app maken in uw [!DNL Frame.io] account.
 
-* [Verbinden met [!DNL Frame.io] het gebruiken van OAuth 2.0 PKCE (zonder identiteitskaart van de Cliënt)](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
+* [Verbinden met [!DNL Frame.io] gebruiken van OAuth 2.0 PKCE (zonder Cliënt ID)](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
 * [Verbinden met [!DNL Frame.io] gebruiken van OAuth 2.0 PKCE (met identiteitskaart van de Cliënt)](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
-#### Verbinden met [!DNL Frame.io] het gebruiken van OAuth 2.0 PKCE (zonder identiteitskaart van de Cliënt)
+#### Verbinden met [!DNL Frame.io] gebruiken van OAuth 2.0 PKCE (zonder Cliënt ID)
 
-1. Ga naar [!DNL Workfront Fusion] en opent u de [!DNL Frame.io] module **[!UICONTROL Create a connection]** .
+1. Ga naar [!DNL Workfront Fusion] en opent u de [!DNL Frame.io] module **[!UICONTROL Create a connection]** in.
 1. In de **[!UICONTROL Connection type]** veld, selecteren **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]**.
 1. Voer een naam in voor de nieuwe verbinding in het dialoogvenster **[!UICONTROL Connection name]** veld.
 1. Klikken **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
@@ -104,7 +108,7 @@ De verbinding is tot stand gebracht. U kunt doorgaan met het instellen van de mo
 
 #### Verbinden met [!DNL Frame.io] gebruiken van OAuth 2.0 PKCE (met identiteitskaart van de Cliënt)
 
-1. Een OAuth 2.0-app maken in [!DNL Frame.io]. Zie voor instructies de [!DNL Frame.io] documentatie over [!UICONTROL OAuth 2.0 Code Authorization Flow].
+1. Een OAuth 2.0-app maken in [!DNL Frame.io]. Voor instructies raadpleegt u de [!DNL Frame.io] documentatie over [!UICONTROL OAuth 2.0 Code Authorization Flow].
 
    >[!IMPORTANT]
    >
@@ -120,11 +124,11 @@ De verbinding is tot stand gebracht. U kunt doorgaan met het instellen van de mo
 
 
 1. Kopieer de opgegeven `client_id`.
-1. Ga naar [!DNL Workfront Fusion] en opent u de [!DNL Frame.io] module **[!UICONTROL Create a connection]** .
+1. Ga naar [!DNL Workfront Fusion] en opent u de [!DNL Frame.io] module **[!UICONTROL Create a connection]** in.
 1. In de **[!UICONTROL Connection type]** veld, selecteren **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]**.
 1. Voer een naam in voor de nieuwe verbinding in het dialoogvenster **[!UICONTROL Connection name]** veld.
 1. Klik op **[!UICONTROL Show advanced settings]**.
-1. Voer de `client_id` u hebt in stap 2 naar de **[!UICONTROL Client ID]** veld.
+1. Voer de `client_id` u hebt in stap 2 gekopieerd naar de **[!UICONTROL Client ID]** veld.
 1. Klikken **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
 
 De verbinding is tot stand gebracht. U kunt doorgaan met het instellen van de module.
@@ -697,7 +701,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Een pad invoeren ten opzichte van <code>https://api.frame.io</code>. Voorbeeld: <code> /v2/teams</code></p> <p>Opmerking: Voor de lijst met beschikbare eindpunten raadpleegt u de [!DNL Frame.io] API-referentie.</p> </td> 
+   <td> <p>Een pad invoeren ten opzichte van <code>https://api.frame.io</code>. Voorbeeld: <code> /v2/teams</code></p> <p>Opmerking: raadpleeg voor de lijst met beschikbare eindpunten de [!DNL Frame.io] API-referentie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 

@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Marketo] modules
 
 In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Marketo]en deze verbinding maken met meerdere toepassingen en services van derden.
+
+Ga voor een video-introductie over de Marketo-connector naar:
+
+* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -51,9 +55,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +73,7 @@ Te gebruiken [!DNL Marketo] modules, moet u een [!DNL Marketo] account.
 
 ## Verbinden [!DNL Marketo] naar Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
-U kunt een verbinding maken met uw [!DNL Marketo] account rechtstreeks van binnen [!DNL Marketo] module.
+U kunt een verbinding maken met uw [!DNL Marketo] account rechtstreeks van binnenuit [!DNL Marketo] -module.
 
 1. In alle [!DNL Marketo] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
 1. Voer uw [!DNL Marketo] account of [!DNL Marketo] [!UICONTROL Munchkin] ID. Dit is het unieke deel van Basis URL of Eindpunt dat aan uw rekening wordt toegewezen, dat u gebruikt om tot toegang te hebben [!DNL Marketo] via [!UICONTROL REST] API. Zie voor instructies over de locatie van dit [Basis-URL](https://developers.marketo.com/rest-api/base-url/) in de [!DNL Marketo] documentatie.
@@ -183,7 +187,7 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het make
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
@@ -247,11 +251,11 @@ Deze actiemodule maakt een nieuwe record in [!DNL Marketo]
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Costs]</td> 
-   <td>Als u een Programma creeert, voeg om het even welke kosten toe.</td> 
+   <td>Als u een programma maakt, voegt u de gewenste kosten toe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tags]</td> 
-   <td>Voeg tags toe als u een programma maakt</td> 
+   <td>Als u een programma maakt, voegt u codes toe</td> 
   </tr> 
  </tbody> 
 </table>
@@ -303,11 +307,11 @@ Deze actiemodule werkt een bestaande record bij met behulp van de bijbehorende i
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Costs]</td> 
-   <td>Als u een Programma bijwerkt, voeg om het even welke kosten toe.</td> 
+   <td>Als u een programma bijwerkt, voegt u de kosten toe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tags]</td> 
-   <td>Voeg tags toe als u een programma bijwerkt</td> 
+   <td>Als u een programma bijwerkt, voegt u codes toe</td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,7 +456,7 @@ Deze actiemodule plant een bestaande campagne voor een bepaalde datum.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campaign ID]</td> 
-   <td>Ga of kaart identiteitskaart van de campagne in die u wilt plannen.</td> 
+   <td>Voer de id in van de campagne die u wilt plannen of wijs deze toe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Schedule for Date]</p> </td> 
@@ -556,7 +560,7 @@ Deze zoekmodule haalt een lijst op met records die voldoen aan specifieke zoekcr
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Values]</td> 
-   <td>Voor elke waarde waarnaar u wilt zoeken, klikt u op <b>[!UICONTROL Add item]</b> en voer de waarde in.</td> 
+   <td>Klik voor elke waarde waarnaar u wilt zoeken op <b>[!UICONTROL Add item]</b> en voer de waarde in.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output]</td> 
