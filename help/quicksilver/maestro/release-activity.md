@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
-<!--
-## Week of January 22, 2024
+## Week van 22 januari 2024
 
-### New History section displays system activity for Maestro records (title) 
+### De nieuwe sectie van de Geschiedenis toont systeemactiviteit voor Maestro- verslagen
 
-Production: < date > 
+Productie: 25 januari 2024
 
-Preview: To be determined 
+Voorbeeld: te bepalen
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+Om de controlemogelijkheden te verbeteren, hebben wij een nieuwe sectie in het juiste paneel van een verslag geïntroduceerd waar u veranderingen kunt herzien die aan het verslag worden aangebracht dat door het systeem wordt geregistreerd.
 
-Maestro records the following information in the new History section:  
+Maestro registreert de volgende informatie in de nieuwe sectie van de Geschiedenis:
 
-* Any field changes 
+* Alle veldwijzigingen
 
-* The full name of the user who made the change 
+* De oude en nieuwe waarden van velden, wanneer de waarden worden gewijzigd
 
-* A date and time stamp of when the change occurred. 
+* De volledige naam van de gebruiker die de wijziging heeft aangebracht
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* Een datum- en tijdstempel van wanneer de wijziging heeft plaatsgevonden.
 
--->
+Zie voor meer informatie [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### Nieuw label voor nieuwe recordkoppeling
+
+Productie: 25 januari 2024
+
+Voorbeeld: te bepalen
+
+Om consistentie te creëren wanneer het creëren van verslagen, hebben wij opnieuw geëtiketteerd + Nieuwe verbinding voor het creëren van verslagen aan &quot;+ Nieuwe verslag&quot;.  Vóór deze update bevatte de koppeling de naam van het recordtype. De nieuwe koppeling is nu beschikbaar wanneer u operationele en taxonomiebestanden maakt. Zie voor meer informatie [Records maken](/help/quicksilver/maestro/records/create-records.md).
 
 ## Week van 8 januari 2024
 

@@ -1,12 +1,12 @@
 ---
 title: Opnameopmerkingen beheren
-description: U kunt samenwerken aan Adobe Maestro-records door opmerkingen of antwoorden toe te voegen in het gebied Opmerkingen van een record.
+description: U kunt aan Adobe Maestro verslagen samenwerken, door commentaren of antwoorden in het juiste paneel van een verslag toe te voegen. U kunt ook andere wijzigingen bekijken die in de record zijn aangebracht en door het systeem in dit gebied zijn opgenomen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # Opnameopmerkingen beheren
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-U kunt samenwerken aan Adobe Maestro-records door opmerkingen of antwoorden toe te voegen in het gebied Opmerkingen van een record.
+U kunt aan Adobe Maestro verslagen samenwerken, door commentaren of antwoorden in het juiste paneel van een verslag toe te voegen. U kunt ook andere wijzigingen bekijken die in de record zijn aangebracht en door het systeem in dit gebied zijn opgenomen.
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
-The right panel of a record displays the following sections:
+* **Opmerkingen**: Hiermee geeft u opmerkingen en antwoorden weer die gebruikers aan records toevoegen.
+* **Historie**: Hiermee geeft u door het systeem opgenomen wijzigingen weer die gebruikers in de recordvelden aanbrengen. Zie voor meer informatie [Overzicht van de sectie Historie](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>In het rechterdeelvenster worden zowel voor de werkstaten als voor de taxonomieverslagen weergegeven.
+
 
 ## Overwegingen bij opmerkingen in een record
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen geen melding in de app of een e-mail over uw update. <!--this might change??-->
 
-* U kunt een update aan verslagen van de volgende gebieden van Maestro toevoegen:
+* U kunt een update aan verslagen toevoegen en de geschiedenis van veranderingen van de volgende gebieden van Maestro herzien:
 
-   * Van de pagina van Details.
+   * Van de pagina van Details van een verslag of taxonomie.
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ De laatst geopende werkruimte wordt standaard geopend.
 
    De record **Details** pagina wordt geopend. Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 
+1. (Voorwaardelijk) Als het rechterdeelvenster niet standaard wordt geopend, klikt u op de knop **Opmerkingen tonen** ![](assets/show-comments-icon.png) in de rechterbovenhoek om de sectie Opmerkingen te openen.
+
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ De laatst geopende werkruimte wordt standaard geopend.
 1. (Optioneel) Klik op de knop **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik op een van de volgende opties om informatie van een opmerking te kopiëren:
 
    * **Koppeling kopiëren**: Hiermee wordt een koppeling naar de opmerking naar het klembord gekopieerd.
-   * **Platte tekst kopiëren** t: hiermee wordt de tekst van de opmerking naar het klembord gekopieerd.
+   * **Platte tekst kopiëren**: Hiermee wordt de tekst van de opmerking naar het klembord gekopieerd.
    * **Offerteantwoord**: Hiermee kopieert u de inhoud van uw opmerking naar een nieuw antwoord. Afbeeldingen worden niet opgenomen in het gekopieerde antwoord.
 
    Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) Klik op de knop **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking klikt u op **Verwijderen** om de opmerking te verwijderen.
+1. (Optioneel) Klik op de knop **Opmerkingen verbergen** pictogram ![](assets/hide-comments-icon.png) om het rechterdeelvenster te sluiten.
 
-<!--
-## History section overview
+## Overzicht van de sectie Historie
 
-*********also update the screen shot above for the Comments section ******
+U kunt de wijzigingen die in de record zijn aangebracht, bekijken in de sectie Historie van het rechterdeelvenster van een operationeel record of taxonomie.
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+Zie voor meer informatie [Overzicht van de sectie Historie](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->

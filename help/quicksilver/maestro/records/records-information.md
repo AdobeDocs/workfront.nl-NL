@@ -1,13 +1,13 @@
 ---
 title: "Records: artikelindex"
-description: Nadat u recordtypes in Adobe Maestro creeert kunt u individuele verslagen van die types tot stand brengen. In de volgende artikelen wordt beschreven hoe u records in Adobe Maestro kunt maken en beheren.
+description: Nadat u recordtypes in Adobe Maestro creeert kunt u individuele verslagen van die types tot stand brengen. In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ hide: yes
 
 Nadat u recordtypes in Adobe Maestro creeert, kunt u individuele verslagen van die types tot stand brengen.
 
-In de volgende artikelen wordt beschreven hoe u records in Adobe Maestro kunt maken en beheren:
+In de volgende artikelen wordt beschreven hoe u records en hun gegevens kunt maken en beheren in Adobe Maestro:
 
 * [Records maken](../records/create-records.md)
 * [Records bewerken](../records/edit-records.md)
@@ -46,3 +46,4 @@ In de volgende artikelen wordt beschreven hoe u records in Adobe Maestro kunt ma
 * [Records delen](../records/share-records.md)
 * [Connect-records](../records/connect-records.md)
 * [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [Overzicht van de sectie Historie](/help/quicksilver/maestro/records/history-section-overview.md)

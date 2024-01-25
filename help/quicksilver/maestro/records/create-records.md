@@ -1,13 +1,13 @@
 ---
 title: Records maken
-description: In Adobe Maestro is een record een instantie van een recordtype. U moet recordtypen maken voordat u afzonderlijke records kunt maken.
+description: In Adobe Maestro is een record een instantie van een recordtype. U moet recordtypen maken voordat u afzonderlijke records kunt maken. Het maken van taxonomieverslagen is identiek aan het maken van operationele verslagen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt de volgende typen records hebben:
 * **Operationele gegevens**: Deze vertegenwoordigen werkgerelateerde objecten. Voor een operationeel record met de naam &#39;Campagne&#39; kunt u bijvoorbeeld records met een naam als &#39;Maandelijkse nieuwsbrief&#39; of &#39;Zomerverkoop&#39; hebben genoemd.
 * **Taxonomische gegevens**: Ze vertegenwoordigen kenmerken die aan operationele records kunnen worden gekoppeld. Voor een taxonomie-recordtype met de naam &#39;Kanaal&#39; kunt u bijvoorbeeld taxonomieën als &#39;E-mail&#39;, &#39;Sociale media&#39; of &#39;Advertising&#39; een naam geven.
 
-Het creëren van operationele verslagen is identiek aan het creëren van taxonomieverslagen, of taxonomieën.
+Het maken van operationele records is hetzelfde als het maken van taxonomierecords.
 
 U kunt records maken in Maestro door een van de volgende handelingen uit te voeren:
 
@@ -120,7 +120,7 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
 1. (Voorwaardelijk) Als de pagina met recordtypen niet wordt geopend in de tabelweergave, klikt u op de knop **Weergave** en selecteert u een bestaande **Tabelweergave** ![](assets/table-view-icon.png) of klik op **Weergave maken > Tabel** een tabelweergave maken.
 
-1. Klik op **Nieuw &lt; Naam recordtype >** in de laatste rij van de tabel
+1. Klik op **Nieuwe record** in de laatste rij van de tabel
 
    of
 
