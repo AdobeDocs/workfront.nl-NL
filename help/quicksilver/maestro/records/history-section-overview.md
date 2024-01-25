@@ -4,9 +4,9 @@ description: U kunt de wijzigingen controleren die in de record zijn aangebracht
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ U kunt de wijzigingen bekijken die zijn aangebracht in recordvelden in de sectie
 
    * Meerdere selecties
    * Gekoppelde recordvelden
-   * Gekoppelde (opzoekbare) velden
    * Mensen
 
   Als de wijziging alleen waarden aan het veld toevoegt, wordt de oude waarde niet weergegeven en wordt alleen de nieuwe veldwaarde weergegeven.
@@ -80,5 +79,14 @@ U kunt de wijzigingen bekijken die zijn aangebracht in recordvelden in de sectie
 * In velden van het type selectievakje wordt de oude waarde nooit doorgehaald weergegeven. Als het veld wordt bewerkt, wordt alleen het huidige frame weergegeven op het moment dat de wijziging is aangebracht.
 
   Zie voor meer informatie over Maestro-velden [Velden maken](/help/quicksilver/maestro/fields/create-fields.md).
+
+* Wijzigingen in velden van de volgende typen worden niet weergegeven in de sectie Historie:
+
+   * Gekoppelde (opzoekbare) velden
+   * Formule
+   * Gemaakt door
+   * Gemaakt op datum
+   * Laatst gewijzigd door
+   * Laatst gewijzigd
 
 * Als een veld uit het systeem wordt verwijderd, blijven de in dat veld aangebrachte updates in de sectie Historie staan. Er zijn geen aanwijzingen dat het veld is verwijderd in de sectie Historie van een record.

@@ -3,21 +3,25 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Proefdrukken maken
-description: Leer hoe u proefdrukken maakt.
+description: In Adobe Workfront kunt u proefdrukken van documenten maken. In Adobe Workfront kunt u proefdrukken van documenten maken. U kunt proefdrukken maken voor documenten, interactieve inhoud en websites. Leer hoe u proefdrukken maakt in de volgende artikelen.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# Proefdrukken maken
+# Proefdrukken maken: artikelindex
 
-Deze sectie bevat de volgende artikelen:
+<!--Audited: 01/2024-->
+
+In Adobe Workfront kunt u proefdrukken van documenten maken. U kunt proefdrukken maken voor documenten, interactieve inhoud en websites.
+
+Leer hoe u proefdrukken maakt in de volgende artikelen:
 
 * [Een geavanceerde proefdruk maken met een standaardworkflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [Een geavanceerde proefdruk maken met een geautomatiseerde workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

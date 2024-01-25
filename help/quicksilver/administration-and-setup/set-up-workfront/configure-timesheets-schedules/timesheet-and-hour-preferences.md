@@ -4,18 +4,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Voorkeuren voor tijdpagina's en uren configureren
 description: Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in specificeren [!DNL Workfront] om te bepalen welke punten timesheets met kunnen vooraf invullen en welke punten gebruikers tijd aan registreren kunnen.
-author: Courtney and Alina
+author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Voorkeuren voor tijdpagina&#39;s en uren configureren
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -23,7 +25,8 @@ Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in
 
 >[!IMPORTANT]
 >
->Naast de punten die een timesheet volgens de voorwaarden vooraf invullen die in dit artikel worden beschreven, tonen de volgende punten ook op timesheets door gebrek:
+>Naast de punten die een timesheet volgens de voorwaarden vooraf invullen die in dit artikel worden beschreven, tonen de volgende punten ook op timesheets, door gebrek:
+>
 >* Punten waarvoor u tijd tijdens het tijdkader van timesheet registreerde
 >* Items die zijn vastgezet aan de tijdpagina
 >* Items die u zoekt en die u handmatig toevoegt aan de tijdpagina. Items die handmatig worden toegevoegd, worden standaard vastgezet.
@@ -48,24 +51,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Huidige:[!UICONTROL Plan]</p>
+   of
+   <p>Nieuw: Standaard</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+   <td> <p>U moet een [!DNL Workfront] beheerder.</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Voorkeuren voor tijdbladen en uren instellen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik op **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
+1. Klikken **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
 
-1. Op de pagina die wordt weergegeven, in het dialoogvenster **[!UICONTROL General preferences]** configureren, configureert u een van de volgende opties:
+   De pagina Voorkeuren tijdbladen en uren wordt weergegeven.
+
+1. (Optioneel) In het dialoogvenster **Voorkeuren voor systeemtijdbladen en -uren** in het zoekvak typt u de naam van een groep en selecteert u deze wanneer de groep in de lijst wordt weergegeven.
+
+   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+
+   De pagina met voorkeuren voor tijdbladen en uren wordt bijgewerkt met de voorkeuren voor de groep die u hebt geselecteerd. Voorkeuren op systeemniveau moeten zijn ontgrendeld om voorkeuren op groepsniveau te kunnen wijzigen. Zie de sectie voor meer informatie [Tijdschema en uurvoorkeuren voor groepen ontgrendelen](#unlock-timesheet-and-hour-preferences-for-groups) in dit artikel.
+
+1. In de **[!UICONTROL General preferences]** configureren, configureert u een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,7 +104,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Restrict timesheet editing to owners and admins]</td> 
+      <td role="rowheader">[!UICONTROL Restrict timesheet editing to owners and administrators]</td> 
       <td> <p>Bewerken beperken tot eigenaars van tijdbladen en [!DNL Workfront] beheerders. Als deze optie is uitgeschakeld, kunt u tijdbladen ook bewerken door:</p> 
        <ul> 
         <li> <p>Gebruikers met beheerbare toegang tot timesheets en uren op hun toegangsniveau</p> </li> 
@@ -99,7 +113,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Restrict hour editing to owners and admins]</td> 
+      <td role="rowheader">[!UICONTROL Restrict hour editing to owners and administrators]</td> 
       <td>Bewerken beperken tot de gebruiker die de uren en [!DNL Workfront] beheerders. Deze instelling is van toepassing op de [!UICONTROL Hours] in een project of in een rapport van Uren.</td> 
      </tr> 
     </tbody> 
@@ -109,15 +123,15 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
 
    <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Log time directly on projects]</td>
+        <td>[!UICONTROL Directly on projects]</td>
         <td>Staat gebruikers toe om tijd op het project (zowel op [!UICONTROL Updates] (en tijdblad). Als de gebruikers geen tijd op het projectniveau registreren, zouden deze opties ongecontroleerd moeten blijven.</td>
     </tr>
     <tr>
-        <td>De tijd van het logboek op projecten die volledig zijn</td>
+        <td>[!UICONTROL On projects that are complete]</td>
         <td>Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat zij hebben uitgevoerd voor projecten in het dialoogvenster [!UICONTROL Complete] status.</td>
     </tr>
     <tr>
-        <td>De tijd van het programma van de logboeken op projecten die dood zijn</td>
+        <td>[!UICONTROL On projects that are dead]</td>
         <td>Wanneer deze optie is ingeschakeld, kunnen gebruikers uren aanmelden bij projecten met een [!UICONTROL Dead] status.</td>
     </tr>
    </table>
@@ -130,14 +144,16 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Work that is within] &lt;number of weeks&gt; [!UICONTROL of the timesheet's work range]</td> 
-      <td> <p>Bepaalt het aantal weken vóór en na de datumwaaier van timesheet die data van taken en kwesties bevat die aan de gebruiker worden toegewezen. De standaardinstelling is 1 week en u kunt dit bereik uitbreiden tot 4 weken. Dit betekent dat het tijdschema vooraf gevuld is met taken en kwesties die data tussen vier weken vóór de datumwaaier van timesheet hebben tot vier weken na de datumwaaier van timesheet, als u 4 weken voor uw waaier selecteert. </p> </td> 
+      <td> <p>Bepaalt het aantal weken vóór en na de datumwaaier van timesheet die data van taken en kwesties bevat die aan de gebruiker worden toegewezen.</p> 
+      <p>De standaardinstelling is 1 week en u kunt dit bereik uitbreiden tot 4 weken.</p> 
+      <p>Dit betekent dat het tijdschema vooraf gevuld is met taken en kwesties die data tussen vier weken vóór de datumwaaier van timesheet hebben tot vier weken na de datumwaaier van timesheet, als u 4 weken voor uw waaier selecteert. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Tasks & Issues that have been completed]</td> 
+      <td role="rowheader">[!UICONTROL Tasks and issues that have been completed]</td> 
       <td>Als de veelvoudige middelen typisch aan één enkele taak worden toegewezen, adviseren wij dit het plaatsen. Dit betekent wanneer één middel tijd tegen de taak registreert en het als volledig merkt, kunnen de andere middelen die aan de taak worden toegewezen nog de taak of de kwestie in hun timesheet vinden, om hun uren te registreren.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Tasks & Issues that have Planned Dates in timesheet's date range]</td> 
+      <td role="rowheader">[!UICONTROL Tasks and issues that have Planned Dates in timesheet's date range]</td> 
       <td> <p>Wanneer geselecteerd, omvat timesheet taken en kwesties die of een Geplande Datum van het Begin of een Datum van de Voltooiing hebben die binnen de datumwaaier van timesheet valt.</p> </td> 
      </tr> 
      <tr> 
@@ -154,7 +170,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL When deleting projects]</td> 
+      <td role="rowheader"> Bij het verwijderen van projecten</td> 
       <td> 
        <ul> 
         <li><strong>[!UICONTROL Keep logged time already added to timesheets as general time]</strong>: Als dit project op een later tijdstip wordt hersteld, blijft de tijd op het tijdspad staan.</li> 
@@ -162,10 +178,10 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL When deleting tasks or issues]</td> 
+      <td role="rowheader">Bij het verwijderen van taken of problemen</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Move any logged time to the project where the task or issue resides]</strong>: Als deze taak of uitgave later wordt hersteld, blijft de tijd op het project.<br></li> 
+        <li><strong>[!UICONTROL Move any logged time to the project]</strong> waar de taak of uitgave zich bevindt: Als deze taak of uitgave later wordt hersteld, blijft de tijd op het project.<br></li> 
         <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: Als deze taak of uitgave later wordt hersteld, wordt de geregistreerde tijd hersteld aan de taak of de kwestie.</p> <p>Zie voor meer informatie over deze opties <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] op uren dat een object wordt verwijderd en hersteld</a>.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -176,7 +192,7 @@ Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij 
 
 ## Tijdschema en uurvoorkeuren voor groepen ontgrendelen
 
-De groepen in uw organisatie zouden een timesheet of een uurvoorkeur kunnen vereisen die verschillend voor hun unieke werkschema&#39;s wordt gevormd. U kunt de voorkeur voor alle groepen door de organisatie ontgrendelen zodat zij het op hun kunnen vormen.
+De groepen in uw organisatie zouden timesheets of de voorkeur van het uur kunnen nodig hebben verschillend voor hun unieke werkschema&#39;s wordt gevormd die. U kunt de voorkeur voor alle groepen door de organisatie ontgrendelen zodat zij het op hun kunnen vormen.
 
 Wanneer een voorkeur wordt ontgrendeld en een groepsbeheerder het wijzigt, beïnvloedt het timesheet eigenaars als de groep hun Groep van het Huis is.
 
@@ -188,17 +204,19 @@ Voor informatie over hoe een groepsbeheerder timesheet en uurvoorkeur voor een g
 
 Een projectvoorkeur ontgrendelen zodat groepen deze kunnen configureren:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Timesheets & Hours]** en klik vervolgens op **[!UICONTROL Preferences]**.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u wilt dat groepsbeheerders een voorkeur voor hun groepen kunnen vormen, ontgrendel het ![](assets/unlock-toggle-button.png).
-   * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het gesloten is (dit is het gebrek).
+   * Als u wilt dat groepsbeheerders een voorkeur voor hun groepen kunnen vormen, klik **ontgrendelen** schakelen ![](assets/unlock-toggle-button.png) om het te ontgrendelen.
+   * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het de knevel gesloten is ![](assets/locked-preference-toggle.png) (dit is de standaardwaarde).
 
      >[!IMPORTANT]
      >
-     >Wij adviseren dat u met de beheerders en de gebruikers in groepen door het systeem communiceert om ervoor te zorgen dat alle behoeften rekenschap worden gegeven op de manier u een gesloten voorkeur vormt. Wanneer u het sluit, wordt uw configuratie voor het geërft door alle groepen in het systeem. En als de voorkeur voor om het even welke periode is ontgrendeld, vervangt uw configuratie die die groepsbeheerders zouden kunnen hebben gemaakt.
+     >Wij adviseren dat u met de beheerders en de gebruikers in groepen door het systeem communiceert om ervoor te zorgen dat alle behoeften rekenschap worden gegeven op de manier u een gesloten voorkeur vormt.
+     >
+     >Wanneer u het sluit, wordt uw configuratie voor het geërft door alle groepen in het systeem. En als de voorkeur voor om het even welke periode is ontgrendeld, vervangt uw configuratie die die groepsbeheerders zouden kunnen hebben gemaakt.
 
 1. Klik op **[!UICONTROL Save]**.

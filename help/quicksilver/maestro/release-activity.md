@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
 source-wordcount: '3564'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Maestro registreert de volgende informatie in de nieuwe sectie van de Geschieden
 
 * Een datum- en tijdstempel van wanneer de wijziging heeft plaatsgevonden.
 
-Zie voor meer informatie [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
+Zie voor meer informatie [Overzicht van de sectie Historie](/help/quicksilver/maestro/records/history-section-overview.md).
 
 ### Nieuw label voor nieuwe recordkoppeling
 

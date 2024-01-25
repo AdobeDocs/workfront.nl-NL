@@ -6,19 +6,20 @@ description: Met de extensie Workfront kunt u digitale inhoud die u opslaat en m
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 147a5b5d508e1ea01d18d981f9157439a643cf55
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '3056'
+source-wordcount: '3076'
 ht-degree: 0%
 
 ---
 
 # De extensie Workfront voor Illustrator en InDesign gebruiken
 
+<!--Audited: 01/2024-->
+
 >[!IMPORTANT]
 >
->We vervangen de extensie Workfront voor Illustrator en InDesign door [bijgewerkte Creative Cloud-plug-ins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Vanaf eind 2022 wordt deze extensie niet meer ondersteund en is deze ongewijzigd beschikbaar.
-
+>We vervangen de Workfront-extensie voor Illustrator en InDesign door [bijgewerkte Creative Cloud-insteekmodules](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Vanaf eind 2022 wordt deze extensie niet meer ondersteund en is deze ongewijzigd beschikbaar.
 
 Met de extensie Workfront kunt u digitale inhoud die u opslaat en maakt in Adobe Illustrator en Adobe InDesign exporteren naar Workfront. Hierdoor wordt het reviseren en goedkeuren van documenten versneld.
 
@@ -28,9 +29,9 @@ De extensie Workfront wordt ondersteund voor Adobe Creative Cloud 2017 en hoger 
 * Illustrator
 * Photoshop
 
-   >[!NOTE]
-   >
-   >We raden u aan de nieuwe [Adobe Workfront voor Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) insteekmodule.
+  >[!NOTE]
+  >
+  >We raden u aan de nieuwe [Adobe Workfront voor Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) insteekmodule.
 
 ## Toegangsvereisten
 
@@ -42,11 +43,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro of hoger</p> </td> 
+   <td> <p>Huidig: Pro of hoger</p>
+   of
+   <p>Nieuw: Willekeurig abonnement</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td> <p>Huidig: Werk of hoger</p>
+   of
+   <p>Nieuw: Standaard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -54,31 +59,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Bewerk de toegang tot het object waarmee u wilt communiceren.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Bewerk de toegang tot het object waarmee u wilt communiceren.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aanmelden bij Workfront Extension vanuit Illustrator of InDesign {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 
 Wanneer u zich bij Workfront aanmeldt vanuit een van de ondersteunde Adobe-toepassingen, wordt u aangemeld bij alle ondersteunde Adobe-toepassingen.
 
-1. Ga naar de toepassing van de Adobe waar u de uitbreiding van Workfront wilt gebruiken.
+1. Ga naar de Adobe toepassing waar u de uitbreiding van Workfront wilt gebruiken.
 
    Voor een lijst met ondersteunde indelingen voor elke ondersteunde toepassing raadpleegt u [Ondersteunde geëxporteerde bestandsindelingen](#supported-exported-file-formats) in dit artikel.
 
 1. Klikken **Venster** > **Extensies** > Workfront.
 
-1. (Optioneel) Sleep het Workfront-deelvenster naar de positie waar u het wilt weergeven in de Adobe-toepassing.
+1. (Optioneel) Sleep het Workfront-deelvenster naar de positie waar u het wilt weergeven in de toepassing Adobe.
 1. Volg de aanwijzingen om u aan te melden bij Workfront.
 
    >[!NOTE]
    >
    >* Workfront maakt verbinding met Adobe Creative Cloud met behulp van OAuth 2.0, een veilige standaard die door de meeste webgebaseerde integraties wordt gebruikt voor de verificatie en autorisatie van gebruikers.
-   >* Wanneer u wordt gevraagd om het dialoogvenster [domein of host] van uw Workfront-account typt u deze notatie: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
-
+   >* Wanneer u wordt gevraagd om het dialoogvenster [domein of host] van uw Workfront-account typt u de volgende notatie:`yourCompany'sDomain.my.workfront.com`. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
 
    Een lijst van het werkpunten die aan u worden toegewezen toont als het project een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
 
@@ -95,7 +99,7 @@ Houd rekening met het volgende wanneer u een bestand uploadt of exporteert uit A
 * Het bestand wordt geüpload naar het gebied Documenten voor het Workfront-object dat u selecteert.
 * U kunt een document niet exporteren naar het gebied Documenten in het hoofdmenu ![](assets/main-menu-icon.png) uit een Adobe Creative Cloud-toepassing.
 
-In dit gedeelte wordt het volgende uitgelegd:
+In de volgende secties wordt het volgende uitgelegd:
 
 * [Een bestand uploaden](#upload-a-file)
 * [Een bestand exporteren dat momenteel is geopend in Illustrator of InDesign](#export-a-file-currently-open-in-illustrator-or-indesign)
@@ -105,15 +109,15 @@ In dit gedeelte wordt het volgende uitgelegd:
 
 U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe Creative Cloud-toepassing te verlaten.
 
-1. Als de Workfront-extensie niet wordt weergegeven wanneer u de Adobe Creative Cloud-toepassing opent, klikt u op **Venster** > **Extensies** > Workfront.
+1. Als de Workfront-extensie niet wordt weergegeven wanneer u de Adobe Creative Cloud-toepassing opent, klikt u op **Venster** > **Extensies** > **Workfront**.
 
-   Een lijst van het werkpunten die aan u worden toegewezen toont als het project een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
+   Een lijst van het werkpunten die aan u worden toegewezen toont als het project in een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
 
    Persoonlijke taken worden onder **Geen project**.
 
 1. Klik op de naam van het project, de taak of de uitgave waarnaar u het bestand wilt uploaden.
 
-   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het werkitem niet in de lijst wordt weergegeven, drukt u op **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
+   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het het werkpunt niet in de lijst verschijnt, druk **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
 
 1. Klikken **Selecteren** in de rechterbenedenhoek van de extensie Workfront.
 1. In de **Klik om opmaak te selecteren** klikt u op de indeling waarin u het bestand wilt opslaan in Workfront.
@@ -123,15 +127,15 @@ U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe C
 1. (Voorwaardelijk) Als het werkitem waarnaar u het bestand wilt uploaden documentmappen bevat, selecteert u een documentmap in het dialoogvenster **Klik om een documentmap te selecteren** veld, klik vervolgens op **Selecteren**.
 
 1. Klikken **Een lokaal bestand uploaden**.
-1. In de **Bestand openen** het bestand in uw bestandssysteem te zoeken en vervolgens op **Openen**.
+1. In de **Bestand openen** , zoekt u het bestand in uw bestandssysteem en klikt u vervolgens op **Openen**.
 
-1. (Optioneel) Typ een nieuwe naam voor het bestand. 
+1. (Optioneel) Typ een nieuwe naam voor het bestand.
 
    ![](assets/rename-file-uploading.png)
 
 1. Klikken **Uploaden**.
 
-   In Workfront wordt het document nu vermeld in het gebied Documenten voor het project, de taak of de uitgave die u hebt opgegeven.  
+   In Workfront wordt het document nu vermeld in het gebied Documenten voor het project, de taak of de uitgave die u hebt geselecteerd.
 
 1. (Optioneel) Klik op de naam van het document om de pagina Documentdetails te openen in Workfront.
 
@@ -139,16 +143,16 @@ U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe C
 
 ### Een bestand exporteren dat momenteel is geopend in Illustrator of InDesign {#export-a-file-currently-open-in-illustrator-or-indesign}
 
-1. Open in een ondersteunde Adobe Creative Cloud-toepassing een bestand dat u naar Workfront wilt exporteren. 
-1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > Workfront.
+1. Open in een ondersteunde Adobe Creative Cloud-toepassing een bestand dat u naar Workfront wilt exporteren.
+1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > **Workfront**.
 
-   Een lijst van het werkpunten die aan u worden toegewezen toont als het project een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
+   Een lijst van het werkpunten die aan u worden toegewezen toont als het project in een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
 
    Persoonlijke taken worden onder **Geen project**.
 
 1. Klik op de naam van het project, de taak of de uitgave waarnaar u het bestand wilt exporteren.
 
-   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het werkitem niet in de lijst wordt weergegeven, drukt u op **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
+   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het het werkpunt niet in de lijst verschijnt, druk **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
 
 1. In de **Klik om opmaak te selecteren** klikt u op de indeling waarin u het bestand wilt opslaan in Workfront.
 
@@ -159,7 +163,7 @@ U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe C
 
    ![](assets/rename-doc-exporting.png)
 
-1. Klikken **Exporteren**. 
+1. Klikken **Exporteren**.
 
    Er wordt een bericht weergegeven om te bevestigen dat het document is geëxporteerd naar Workfront.
 
@@ -173,8 +177,8 @@ U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe C
 
 ### Een nieuwe versie van een bestand uploaden vanuit Illustrator of InDesign {#upload-a-new-version-of-a-file-from-illustrator-or-indesign}
 
-1. Als u een bestand waaraan u werkt in een ondersteunde Adobe-toepassing wilt exporteren als een nieuwe versie van een bestand in Workfront, opent u het bestand in de Adobe-toepassing. 
-1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > Workfront.
+1. Als u een bestand waaraan u werkt in een ondersteunde Adobe-toepassing wilt exporteren als een nieuwe versie van een bestand in Workfront, opent u het bestand in de Adobe-toepassing.
+1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > **Workfront**.
 
    Een lijst van het werkpunten die aan u worden toegewezen toont als het project een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
 
@@ -182,11 +186,10 @@ U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe C
 
 1. Klik op de naam van het project, de taak of de uitgave waar het bestaande document wordt weergegeven.
 
-   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het werkitem niet in de lijst wordt weergegeven, drukt u op **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
+   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het het werkpunt niet in de lijst verschijnt, druk **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
 
-   Alle documenten die naar projecten, taken of uitgaven worden geüpload, worden in een lijst weergegeven, ongeacht of ze vanuit de Adobe-toepassing zijn geüpload.
+   Alle documenten die naar projecten, taken of uitgaven worden geüpload, worden in een lijst weergegeven, ongeacht of ze vanuit de toepassing Adobe zijn geüpload.
 
-1.  
 1. In de **Klik om opmaak te selecteren** klikt u op de indeling waarin u het bestand wilt opslaan in Workfront.
 
    Dit is vereist als u een bestand exporteert dat is geopend in de Adobe-toepassing. Voor een lijst met ondersteunde indelingen voor elke ondersteunde toepassing raadpleegt u [Ondersteunde geëxporteerde bestandsindelingen](#supported-exported-file-formats) in dit artikel.
@@ -197,7 +200,7 @@ U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe C
 
    Als u een bestand van uw computerbestandssysteem wilt uploaden als een nieuwe versie van het Workfront-document dat u hebt geselecteerd, klikt u op **Een lokaal bestand uploaden**, zoekt u het bestand in het vak dat wordt weergegeven, klikt u op **Openen** en klik vervolgens op **Uploaden**.
 
-1. (Optioneel) Klik op de naam van het document om de nieuwe versie weer te geven in Workfront. 
+1. (Optioneel) Klik op de naam van het document om de nieuwe versie weer te geven in Workfront.
 
    >[!NOTE]
    >
@@ -206,12 +209,12 @@ U kunt uw bestanden uploaden naar een project, taak of uitgave zonder uw Adobe C
    >
    >![](assets/doc-name-cant-be-changed.png)
 
-## Opmerkingen maken over een Workfront-document van Illustrator of InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
+## Opmerkingen maken over een Workfront-document vanuit Illustrator of InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
-U kunt opmerkingen rechtstreeks toevoegen aan een Workfront-document in een Adobe-toepassing. In Workfront worden uw opmerkingen weergegeven in het gedeelte Updates van het document en in het gedeelte Updates van het Workfront-item waar het document is opgeslagen. 
+U kunt opmerkingen rechtstreeks toevoegen aan een Workfront-document in een Adobe-toepassing. In Workfront worden uw opmerkingen weergegeven in het gedeelte Updates van het document en in het gedeelte Updates van het Workfront-item waar het document is opgeslagen.
 
 1. Open een van de ondersteunde Adobe-toepassingen.
-1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > Workfront.
+1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > **Workfront**.
 
    Een lijst van het werkpunten die aan u worden toegewezen toont als het project een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
 
@@ -219,22 +222,22 @@ U kunt opmerkingen rechtstreeks toevoegen aan een Workfront-document in een Adob
 
 1. Klik op het project, de taak of het probleem waarbij het bestaande document wordt weergegeven.
 
-   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het werkitem niet in de lijst wordt weergegeven, drukt u op **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
+   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het het werkpunt niet in de lijst verschijnt, druk **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
 
 1. Klik op de naam van het bestaande document en klik vervolgens op **Selecteren** in de rechterbenedenhoek van de extensie Workfront.
-1. Klik op de knop **Opmerking** typt u de update in het vak dat wordt weergegeven.
+1. Klik op de knop **Opmerking** en typt u de update in het vak.
 
 1. (Optioneel) Als u andere Workfront-gebruikers of -teams wilt opnemen in de opmerking, typt u de naam van een gebruiker of een team in het deelvenster **Personen of teams op de hoogte stellen** klikt u op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
-1. (Optioneel) Selecteer **Goedkeuringsaanvraag indienen**.
+1. (Optioneel) Selecteer **Goedkeuringsaanvraag indienen**.
 1. Klikken **Bijwerken**.
 
    Er wordt een update gepost op het tabblad Updates van het document. Workfront-gebruikers die u in de opmerking opneemt, ontvangen een melding in de app en ontvangen, afhankelijk van de configuratie van Workfront, mogelijk ook een e-mailmelding.
 
-   Ga voor meer informatie over berichten in Workfront naar [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md). 
+   Ga voor meer informatie over berichten in Workfront naar [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-   Voor meer informatie over het ontvangen van e-mailberichten raadpleegt u [Adobe Workfront-berichten](../../workfront-basics/using-notifications/wf-notifications.md).
+   Zie voor meer informatie over het ontvangen van e-mailmeldingen [Adobe Workfront-berichten](../../workfront-basics/using-notifications/wf-notifications.md).
 
-## Illustrator of InDesign om goedkeuring van een document vragen
+## Illustrator of InDesign verzoeken om goedkeuring van een document
 
 U kunt een Workfront-documentgoedkeuring rechtstreeks aanvragen bij een Adobe-toepassing.
 
@@ -246,14 +249,14 @@ U kunt de volgende entiteiten om goedkeuring van een document verzoeken:
 U kunt op de volgende manieren goedkeuring aanvragen voor een document van een Adobe-toepassing:
 
 * Door een fiatteur aan het document te koppelen.
-* Door opmerkingen toe te voegen aan een document, meldt u de persoon wanneer u een opmerking maakt. en ze als fiatteur aan het document koppelen.
+* Door opmerkingen toe te voegen aan een document, meldt u de persoon wanneer u een opmerking maakt en voegt u deze als fiatteur toe aan het document.
 
-   Voor informatie over het aanvragen van een goedkeuring bij het plaatsen van opmerkingen over een document raadpleegt u [Opmerkingen maken over een Workfront-document van Illustrator of InDesign](#comment-on-a-workfront-document-from-illustrator-or-indesign) in dit artikel.
+  Zie de sectie voor informatie over het aanvragen van een goedkeuring bij het plaatsen van opmerkingen over een document [Opmerkingen maken over een Workfront-document vanuit Illustrator of InDesign](#comment-on-a-workfront-document-from-illustrator-or-indesign) in dit artikel.
 
-Om een goedkeuring op een document van een Adobe- aanvraag te verzoeken:
+Om een goedkeuring op een document van een aanvraag van de Adobe aan te vragen:
 
 1. Open een van de ondersteunde Adobe-toepassingen.
-1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > Workfront.
+1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > **Workfront**.
 
    Een lijst van het werkpunten die aan u worden toegewezen toont als het project een huidige status is. Meld u aan bij Workfront als een lijst niet wordt weergegeven.
 
@@ -261,7 +264,7 @@ Om een goedkeuring op een document van een Adobe- aanvraag te verzoeken:
 
 1. Klik op het project, de taak of het probleem waarbij het bestaande document wordt weergegeven en klik vervolgens op de naam van het bestaande document.
 
-   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het werkitem niet in de lijst wordt weergegeven, drukt u op **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
+   U kunt hier naar zoeken door de naam te typen in het dialoogvenster **Zoeken** en selecteren **Project**, **Taak**, of **Probleem** in het keuzemenu rechts van de **Zoeken** doos. Als de naam van het het werkpunt niet in de lijst verschijnt, druk **Enter** om te zoeken in alle Workfront-objecten die je kunt bekijken.
 
 1. Klik op de naam van het bestaande document en klik vervolgens op **Selecteren** in de rechterbenedenhoek van de extensie Workfront.
 1. Klik op de knop **Goedkeuring** tab.
@@ -269,7 +272,7 @@ Om een goedkeuring op een document van een Adobe- aanvraag te verzoeken:
 
    * Typ de naam van een fiatteur en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven.
 
-      ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * Typ het e-mailadres van een externe gebruiker.
 
@@ -302,9 +305,9 @@ Als uw organisatie automatische werkstroomsjablonen gebruikt, kunt u een proefdr
    Sommige indelingen zijn niet beschikbaar nadat u de proefdrukfunctionaliteit hebt ingeschakeld in de volgende stap. Zie voor meer informatie [Ondersteunde geëxporteerde bestandsindelingen](#supported-exported-file-formats) in dit artikel.
 
 1. Klikken **Uploaden als een nieuwe proefdruk** om het mogelijk te maken.
-1. Selecteer **Workflowsjabloon** u wilt dat personen het document reviseren.
+1. Selecteer de **Workflowsjabloon** u wilt dat personen het document reviseren.
 
-   Uw Workfront-beheerder stelt de automatische workflowsjablonen in, zoals beschreven in . Zie de beheerder als u vragen hebt.
+   Uw Workfront-beheerder stelt automatische workflowsjablonen in, zoals beschreven in [Geautomatiseerde workflowsjablonen maken en beheren](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). Zie de beheerder als u vragen hebt.
 
    1. Minstens één toevoegen **Nieuwe ontvanger** in elk stadium in het malplaatje van het Werkschema.
 
@@ -326,7 +329,7 @@ Als uw organisatie automatische werkstroomsjablonen gebruikt, kunt u een proefdr
 
    Als u geen andere sjabloon selecteert, blijft de sjabloon die voor de eerdere versie is geselecteerd, van kracht. Als u de sjabloon voor de eerdere versie hebt gewijzigd, zijn de wijzigingen ook van kracht voor de nieuwe versie.
 
-   Uw Workfront-beheerder stelt de automatische workflowsjablonen in, zoals beschreven in . Zie de beheerder als u vragen hebt.
+   Uw Workfront-beheerder stelt automatische workflowsjablonen in, zoals beschreven in [Geautomatiseerde workflowsjablonen maken en beheren](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). Zie de beheerder als u vragen hebt.
 
    1. Minstens één toevoegen **Nieuwe ontvanger** in elk stadium in het malplaatje van het Werkschema.
 
@@ -341,13 +344,13 @@ Als uw organisatie automatische werkstroomsjablonen gebruikt, kunt u een proefdr
 
 ## Afmelden bij Workfront-extensie
 
-1. Klik in de toepassing Adobe op **Venster** > **Extensies** > Workfront.
+1. Klik in de toepassing Adobe op **Venster** > **Extensies** > **Workfront**.
 
 1. Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van het deelvenster.
 
-1. (Optioneel) Klik op **Feedback** om een korte enquête te openen en Workfront je feedback over Workfront for Adobe Creative Cloud te sturen. 
+1. (Optioneel) Klik op **Feedback** om een korte enquête te openen en Workfront je feedback over Workfront for Adobe Creative Cloud te sturen.
 1. Klikken **Afmelden**.\
-   Het aanmeldingsscherm wordt weergegeven. Voor informatie over het aanmelden raadpleegt u [Aanmelden bij Workfront Extension vanuit Illustrator of InDesign](#log-in-to-workfront-extension-from-illustrator-or-indesign) in dit artikel.
+   Het aanmeldingsscherm wordt weergegeven. Voor informatie over het aanmelden, zie [Aanmelden bij Workfront Extension vanuit Illustrator of InDesign](#log-in-to-workfront-extension-from-illustrator-or-indesign) in dit artikel.
 
 ## Ondersteunde geëxporteerde bestandsindelingen {#supported-exported-file-formats}
 
@@ -359,14 +362,14 @@ Als uw organisatie automatische werkstroomsjablonen gebruikt, kunt u een proefdr
 Workfront ondersteunt de volgende bestandsindelingen voor het exporteren van een bestand van InDesign naar Workfront:
 
 * EPS - Encapsulated PostScript
-* ePub - Vaste indeling van elektronische publicatie
-* ePub - Opnieuw te publiceren elektronische publicatie &#42;
+* EPUB - Vaste indeling van elektronische publicatie
+* EPUB - Opnieuw te publiceren elektronische publicatie &#42;
 * HTML - HyperText Markup Language
 * IDML - InDesign Markup Language &#42;
 * JPG, JPEG - Joint Photographic Experts Group
-* PDF - Adobe Portable-documentbestand
+* PDF - Portable Document-bestand Adoben
 * PNG - Portable Network Graphics
-* SWF - Flash Player &#42;
+* SWF - FLASH PLAYER &#42;
 * XML - Extensible Markup Language &#42;
 
 &#42; Deze bestandsindeling is niet beschikbaar als **Een nieuwe proefdruk uploaden** is ingeschakeld (zie voor informatie over deze optie [Een proefdruk van Illustrator of InDesign genereren](#generate-a-proof-from-illustrator-or-indesign) in dit artikel). Als deze bestandsindeling al is geselecteerd voordat u deze inschakelt **Een nieuwe proefdruk uploaden** wordt de bestandsindeling gewijzigd in PDF. U kunt een andere indeling selecteren in de lijst.
@@ -379,7 +382,7 @@ Workfront ondersteunt de volgende bestandsindelingen voor het exporteren van een
 * JPG, JPEG - Joint Photographic Experts Group
 * PNG - Portable Network Graphics
 * PSD - Photoshop-document
-* SWF - Flash Player &#42;
+* SWF - FLASH PLAYER &#42;
 * TIFF - Tagged Image File Format
 
 &#42; Deze bestandsindeling is niet beschikbaar als **Een nieuwe proefdruk uploaden** is ingeschakeld (zie voor informatie over deze optie [Een proefdruk van Illustrator of InDesign genereren](#generate-a-proof-from-illustrator-or-indesign) in dit artikel). Als deze bestandsindeling al is geselecteerd voordat u deze inschakelt **Een nieuwe proefdruk uploaden** wijzigt het systeem de bestandsindeling in PNG. U kunt een andere indeling selecteren in de lijst.
