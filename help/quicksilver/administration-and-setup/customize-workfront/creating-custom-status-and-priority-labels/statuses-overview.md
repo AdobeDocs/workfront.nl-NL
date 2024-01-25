@@ -5,18 +5,20 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Overzicht van statussen
 description: Om te weten te komen wat de huidige staat van ontwikkeling voor een project, een taak, of een kwestie is, kan een gebruiker zijn status bekijken.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # Overzicht van statussen
+
+<!-- Audited: 01/2024 -->
 
 Om te weten te komen wat de huidige staat van ontwikkeling voor een project, een taak, of een kwestie is, kan een gebruiker zijn status bekijken.
 
@@ -26,11 +28,11 @@ Bijvoorbeeld, in dit project, wijst de statusPlanning erop dat de manager van he
 
 Het wijzigen van de status van een project, taak of uitgave is meestal een handmatig proces. Er zijn echter momenten waarop de status van een uitgave automatisch wordt gewijzigd, afhankelijk van andere factoren die zich in het systeem voordoen.
 
-Workfront wordt geleverd met 9 projectstatussen, 3 taakstatussen en 10 uitgavestatussen. Zie de volgende artikelen voor meer informatie hierover:
+Adobe Workfront wordt geleverd met 9 projectstatussen, 3 taakstatussen en 10 uitgavestatussen. Zie de volgende artikelen voor meer informatie hierover:
 
 * [Heb toegang tot de lijst van de statussen van het systeemproject](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [De lijst met taakstatussen van het systeem openen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-* [Toegang krijgen tot de lijst met systeemuitgiftestatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+* [Toegang krijgen tot de lijst met systeemuitgiftestatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## Aangepaste statussen
 
