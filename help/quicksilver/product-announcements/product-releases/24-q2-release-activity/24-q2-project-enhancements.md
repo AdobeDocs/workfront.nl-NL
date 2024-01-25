@@ -1,21 +1,21 @@
 ---
-title: Verbeteringen van het eerste kwartaal 2024-project
-description: Verbeteringen van projecten in het eerste kwartaal van 2024
-author: Nolan
+title: Verbeteringen van projecten in het tweede kwartaal van 2024
+description: Verbeteringen van projecten in het tweede kwartaal van 2024
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Verbeteringen van het eerste kwartaal 2024-project
+# Verbeteringen van projecten in het tweede kwartaal van 2024
 
-Deze pagina beschrijft alle projectverhogingen die met Eerste Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
+Deze pagina beschrijft alle projectverhogingen die met de Tweede Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Meer relevante slimme toewijzingen
 
