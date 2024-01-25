@@ -7,7 +7,7 @@ description: De burndown visualisatie toont de onderbreking van een specifiek pr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Weergave</p> </td> 
+   <td> <p>Weergave</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 ## Vereisten
 
-Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Begrijp de Burndown visualisatie
 
@@ -152,7 +152,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
    >Als de daadwerkelijke snelheid een vlakke lijn is die langs de x as (gealigneerd met 0 uren of 0 dagen) van visualisatie loopt, betekent dit dat geen geplande uren-of dagen-werden toegevoegd aan het project.\
    >Als de werkelijke snelheid een vlakke lijn boven de x-as is (in lijn met een aantal uren of dagen) die nooit omlaag gaat, betekent dit dat er geen taken zijn uitgevoerd binnen de gefilterde tijdsperiode.
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exporteren** pictogram ![Exportpictogram](assets/export.png)in de rechterbovenhoek van de visualisatie en selecteer de exportindeling:
+1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exporteren** pictogram ![Exportpictogram](assets/export.png) in de rechterbovenhoek van de visualisatie en selecteer de exportindeling:
 
    * Diagram (PNG)
    * Gegevenstabel (XSLX)

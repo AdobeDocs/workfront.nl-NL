@@ -7,47 +7,56 @@ description: De de capaciteitsvisualisatie van het Team toont de totale hoeveelh
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
 
 # De visualisatie van de teamcapaciteit bekijken in Verbeterde analyse
 
+<!-- Audited: 01/2024 -->
+
 De de capaciteitsvisualisatie van het Team toont de totale hoeveelheid capaciteit een huisteam heeft, of zij of onderverdeeld zijn, en hoe dynamisch de capaciteit in tijd is.
 
-![](assets/team-capacity-350x110.png)
+![Teamcapaciteit](assets/team-capacity.png)
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
-   <td> <p>Zakelijk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>
+      <p>Nieuw: alle</p>
+      <p>of</p>
+      <p>Huidig: Zakelijk of hoger</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Overzicht van Adobe Workfront-licenties</td>
+   <td>
+      <p>Nieuw: Licht of hoger</p>
+      <p>of</p>
+      <p>Huidig: Controleren of hoger</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Toegang tot projecten weergeven</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td>Weergave </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -57,23 +66,23 @@ Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de se
 
 De de capaciteitsvisualisatie van het Team toont het volume van het werk dat aan het huisteam op een bepaalde dag wordt toegewezen.
 
-* **Branden**: Wanneer de donkerdere blauwe vulkleur boven de stippellijn ligt, wordt aan het thuisteam meer werkuren toegewezen dan ze kunnen voltooien in het aantal uren dat het team beschikbaar is om te werken. Dit wijst erop dat het team oververdeeld is en zou burnout kunnen naderen.
+* **Doordrukken**: Wanneer de donkerdere blauwe vulkleur zich boven de stippellijn bevindt, heeft het huisteam meer werkuren toegewezen aan hen dan zij kunnen voltooien in het aantal uren dat het team beschikbaar is om te werken. Dit wijst erop dat het team oververdeeld is en zou burnout kunnen naderen.
 
-   ![](assets/team-capacity-over-capacity.png)
+  ![Overcapaciteit](assets/team-capacity-over-capacity.png)
 
 * **Onbetwist**: Wanneer de donkerdere blauwe vulkleur onder de stippellijn ligt, heeft het home team meer werkuren dan de hoeveelheid werk die aan hen is toegewezen. Dit wijst erop dat het team onderverdeeld is en kan onbetwist zijn.
 
-   ![](assets/team-capacity-under-capacity.png)
+  ![Minder capaciteit](assets/team-capacity-under-capacity.png)
 
-* **Balans**: Wanneer de lichtere of transparantere blauwe vulkleur net boven, net onder, of bij de stippellijn is, heeft het huisteam een hoeveelheid werkuren toegewezen aan hen die zij binnen hun beschikbare werkuren zouden moeten kunnen voltooien. Dit wijst erop dat de werklast van het team evenwichtiger is.
+* **Balans**: Wanneer de lichtere of meer transparante blauwe vulkleur zich net boven, net onder of op de stippellijn bevindt, krijgt het huisteam een hoeveelheid werkuren toegewezen die ze binnen hun beschikbare werkuren moeten kunnen voltooien. Dit wijst erop dat de werklast van het team evenwichtiger is.
 
-   ![](assets/team-capacity-at-capacity.png)
+  ![Op capaciteit](assets/team-capacity-at-capacity.png)
 
 Als u de muis boven een punt in de visualisatie houdt, ziet u de volgende details voor een bepaalde dag:
 
 * **Geplande uren**: Dit is het aantal geplande werkuren dat het team moet voltooien.
 * **Beschikbare uren**: Dit is het aantal werkuren dat het team beschikbaar is om te werken.
-* **Capaciteit**: Naast een capaciteitspercentage worden ook de benamingen At capacity, Under capacity of Over capaciteit weergegeven.
+* **Capaciteit**: Naast een capaciteitspercentage worden ook de capaciteitsaanduidingen Op capaciteit, Onder capaciteit of Overcapaciteit weergegeven.
 
 Aan de hand van deze informatie kunt u bepalen:
 
@@ -86,20 +95,21 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
 ## De visualisatie van de teamcapaciteit weergeven
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
+{{step1-to-analytics}}
+
 1. Selecteer in het linkerdeelvenster de optie **Mensen**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Personen selecteren](assets/people-area-cropped-qs-350x276.png)
 
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Filter datumbereik](assets/filters-select-date-range-350x344.png)
 
    Voor informatie over het gebruik van het filter Datumbereik raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Voorwaardelijk) als u uw filter van het Team niet hebt geplaatst, voeg de filter van het Team toe en selecteer elk team dat u gegevens voor wilt zien.
 
-   Voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -113,14 +123,14 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    Alle andere visualisaties worden bijgewerkt naar hetzelfde datumbereik en er wordt een tijdframefilter gemaakt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tijdlijnfilter](assets/timeframe-filter-350x220.png)
 
 1. Houd de muisaanwijzer over een punt op de gespecificeerde lijn om de geplande uren en geplande uren voor de opgegeven datum te zien, alsmede het capaciteitspercentage en of het huisteam op dat moment over, onder of op capaciteit beschikte.
 
-   ![](assets/team-capacity-capacity-pop-up-350x351.png)
+   ![Pop-up Teamcapaciteit](assets/team-capacity-capacity-pop-up-350x351.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op de knop **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exporteren** pictogram ![Exportpictogram](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
 
-   * **Diagram (PNG)**
-   * **Gegevenstabel (XSLX)**
+   * Diagram (PNG)
+   * Gegevenstabel (XSLX)
 
