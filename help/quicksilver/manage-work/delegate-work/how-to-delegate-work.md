@@ -6,24 +6,27 @@ description: U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
 
 # Taak beheren en taken delegeren
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent.
 
-U kunt taken delegeren en taken uitgeven of u kunt goedkeuringen delegeren. In dit artikel wordt beschreven hoe taken kunnen worden gedelegeerd en hoe taken kunnen worden uitgegeven.
+U kunt taken delegeren en taken uitgeven, of u kunt goedkeuringen delegeren. In dit artikel wordt beschreven hoe taken kunnen worden gedelegeerd en hoe taken kunnen worden uitgegeven.
 
 Voor algemene informatie over het delegeren van werk, zie [Overzicht van werkzaamheden delegeren](../../manage-work/delegate-work/delegate-work-overview.md).
 
@@ -35,10 +38,10 @@ Voor algemene informatie over het delegeren van werk, zie [Overzicht van werkzaa
 >* De toestemmingen moeten binnen hun toegangsniveaus werken, en soms zouden hun toegangsniveaus lager kunnen zijn dan van u.
 >
 >   
->   Bijvoorbeeld, als een gebruiker slechts de toegang van de Mening tot taken op hun toegangsniveau heeft en u hebt leiden toestemmingen op de taken u aan hen delegeert, ontvangen zij leiden toestemmingen aan de taken u aan hen delegeert. Ze kunnen echter niet dezelfde handelingen uitvoeren als u met betrekking tot gedelegeerde taken. Zij moeten om Edit toegang tot Taken van de systeembeheerder verzoeken om taken in uw afwezigheid bij te werken.
+>   Bijvoorbeeld, als een gebruiker slechts de toegang van de Mening tot taken op hun toegangsniveau heeft en u hebt leiden toestemmingen op de taken u aan hen delegeert, ontvangen zij leiden toestemmingen aan de taken u aan hen delegeert. Ze kunnen echter niet dezelfde handelingen uitvoeren als u met betrekking tot gedelegeerde taken. Om taken in uw afwezigheid bij te werken, moeten zij Edit toegang tot Taken van de systeembeheerder verzoeken.
 >
 >   
->   Voor informatie over hoe een kan uw toegangsniveau wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   Voor informatie over hoe een systeembeheerder uw toegangsniveau kan wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* Voor punten die na de delegatie reeds begonnen worden toegewezen, kan het tot één uur duren nadat het punt werd toegewezen voor [!DNL Workfront] om de onlangs-toegewezen punten met de afgevaardigde te delen.
 
@@ -50,31 +53,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>Controleren of hoger</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: Medewerker of hoger</p><p>of</p><p>Huidig: Controleren of hoger</p>
 
 >[!NOTE]
 >
->Hoewel u aan het werk kunt worden toegewezen wanneer u een vergunning van het Verzoek hebt, kunt u uw werk niet aan anderen delegeren. [!DNL Workfront] adviseert niet het toewijzen van werk aan het Overzicht of van het Verzoek gebruikers.
+>Hoewel u aan het werk kunt worden toegewezen wanneer u een vergunning van het Verzoek hebt, kunt u uw werk niet aan anderen delegeren. [!DNL Workfront] adviseert niet het toewijzen van werk aan Overzicht, Verzoek, of de gebruikers van de Medewerker.
 
 </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Geef toegang tot Taken en Kwesties uit als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en problemen bewerken 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>De toestemmingen van de mening of hoger aan de taken of de kwesties die u aan wordt toegewezen</p> 
-    <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -92,7 +96,7 @@ Voordat u de in dit artikel beschreven activiteiten kunt uitvoeren, moet u het v
 
 Alvorens het werk aan anderen te delegeren, adviseren wij dat u hen bereikt en hen op de hoogte brengt dat zij als afgevaardigden op uw het werkpunten zullen worden aangewezen. Vraag om hun mondelinge goedkeuring alvorens werk te delegeren om ervoor te zorgen zij de tijd nodig hebben om het werk te voltooien terwijl u uit het bureau bent.
 
-Voor algemene informatie over het delegeren van taken en kwesties, zie [Overzicht van taken en problemen delegeren](delegate-work.md).
+Voor algemene informatie over het delegeren van taken en kwesties, zie [Overzicht van taken en problemen delegeren](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 Uw taken en problemen delegeren aan anderen:
 
@@ -102,9 +106,9 @@ Uw taken en problemen delegeren aan anderen:
 
 1. In de [!UICONTROL **Taken en problemen delegeren**] kunt u het volgende bijwerken:
 
-   * [!UICONTROL **Uw taken en problemen delegeren aan**]: Typ de naam van een gebruiker waaraan u uw taken en uitgaven wilt delegeren en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven. U kunt slechts één gebruiker selecteren.\
+   * [!UICONTROL **Uw taken en problemen delegeren aan**]: Typ de naam van een gebruiker waaraan u uw taken en uitgaven wilt delegeren en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven. U kunt slechts één gebruiker selecteren.
 
-     De gebruiker die u als afgevaardigde selecteert ontvangt de zelfde toestemmingen zoals uw toestemmingen op de taken en de kwesties u aan hen delegeert. Zie voor meer informatie [Taak- en probleemoverzicht delegeren](delegate-work-overview.md).
+     De gebruiker die u als afgevaardigde selecteert ontvangt de zelfde toestemmingen zoals uw toestemmingen op de taken en de kwesties u aan hen delegeert.
 
    * [!UICONTROL **Begindatum**]: Selecteer een datum in de kalender waarop de delegatie van uw werkitems moet beginnen.
 
@@ -118,7 +122,7 @@ Uw taken en problemen delegeren aan anderen:
 
      >[!TIP]
      >
-     >Als u geen einddatum selecteert, wordt de delegatie alleen voor de huidige dag ingeschakeld.
+     >Als u het veld Einddatum leeg laat en de optie Geen einddatum is niet geselecteerd, wordt de delegatie alleen voor de huidige dag ingesteld.
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -128,14 +132,14 @@ Uw taken en problemen delegeren aan anderen:
 
    * Uw werk wordt gedelegeerd aan de opgegeven gebruiker. Eventuele onvolledige taken of problemen die datums hebben binnen de door u geselecteerde tijd (inclusief de nieuw toegewezen taken nadat de delegatie is ingeschakeld) worden gedelegeerd.
 
-   >[!TIP]
-   >
-   >   Voltooide werkitems met datums binnen de tijdsperiode van de delegatie worden niet gedelegeerd.
+     >[!TIP]
+     >
+     >   Voltooide werkitems met datums binnen de tijdsperiode van de delegatie worden niet gedelegeerd.
 
 
    * U ontvangt een bericht in de hoger-juiste hoek van het scherm om te bevestigen dat u de delegatie van uw werk aan een andere gebruiker hebt toegelaten. De naam van de afgevaardigde gebruiker toont in het bevestigingsbericht.
 
-   * Een aanwijzing dat uw taken en problemen zijn gedelegeerd aan andere gebruikers die op de meeste gebieden worden weergegeven waar u toewijzingen kunt zien in [!DNL Workfront]. Voor meer informatie over welke gebieden de namen van afgevaardigden niet omvatten, zie [Taak- en probleemoverzicht delegeren](delegate-work-overview.md).
+   * Een aanwijzing dat uw taken en problemen zijn gedelegeerd aan andere gebruikers die op de meeste gebieden worden weergegeven waar u toewijzingen kunt zien in [!DNL Workfront]. Voor meer informatie over welke gebieden de namen van afgevaardigden niet omvatten, zie [Overzicht van werkzaamheden delegeren](delegate-work-overview.md).
 
    * De [!UICONTROL **Delegeren**] in de [!UICONTROL Home] gebied verandert in [!UICONTROL **Delegatie bewerken**] aan te geven dat er een delegatie bestaat .
    <!--
@@ -151,9 +155,6 @@ Uw taken en problemen delegeren aan anderen:
    * De gebruiker u als uw afgevaardigde selecteerde ontvangt een e-mail over de delegatie, als hun gebeurtenisberichten worden toegelaten.
 
      Voor informatie over het inschakelen van persoonlijke e-mailmeldingen raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## Delegatie bewerken of stoppen
 
@@ -201,9 +202,9 @@ U hebt toegang tot [!UICONTROL Assignments] in de volgende gebieden:
 
 * De taak- of uitgiftekop
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   De [!UICONTROL Assignments] in de taak of geeft de koptekst van de uitgave aan [!UICONTROL Assignments and delegations].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * De [!UICONTROL Workload Balancer] bij het handmatig toewijzen van taken of problemen
 

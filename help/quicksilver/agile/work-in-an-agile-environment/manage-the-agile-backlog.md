@@ -6,9 +6,9 @@ description: Taken en problemen kunnen worden toegewezen aan een flexibel team e
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
+source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -37,33 +37,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Worker] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Artikelen op de achtergrond maken en beheren
 
 * [Artikelen opnieuw ordenen](#reorder-stories)
-* [[!UICONTROL Break] verhalen omlaag](#break-down-stories)
+* [[!UICONTROL Break down] verhalen](#break-down-stories)
 * [Artikelen bewerken](#edit-stories)
-* [Nieuwe artikelen maken op de achtergrond](#create-new-stories-on-the-backlog)
-* [Artikelen van de achtergrond verplaatsen naar een herhaling of Kanban-bord](#move-stories-from-the-backlog-to-an-iteration-or-kanban-board)
 
 ### Artikelen opnieuw ordenen {#reorder-stories}
 
@@ -91,7 +89,6 @@ Omdat de grootte van artikelen in een backlog varieert, kunnen gebruikers deze o
 >* Artikelen kunnen alleen worden opgesplitst als ze aan een project zijn gekoppeld.
 
 
-
 Een artikel onderbreken:
 
 1. Ga naar de achtergrond die het artikel bevat dat u wilt onderbreken.
@@ -105,7 +102,7 @@ Een artikel onderbreken:
 
 ### Artikelen bewerken {#edit-stories}
 
-U kunt artikelen rechtstreeks vanuit het dialoogvenster [!UICONTROL Stories] of [!UICONTROL Issues] tabs op de Backlog omdat u taken of problemen in een project bulksgewijs zou bewerken, zoals beschreven in [Taken bulksgewijs bewerken](../../manage-work/tasks/manage-tasks/edit-tasks.md#editing-tasks-in-bulk) in [Taken bewerken](../../manage-work/tasks/manage-tasks/edit-tasks.md) en [Problemen bewerken](../../manage-work/issues/manage-issues/edit-issues.md#bulk-editing-issues) in [Problemen bewerken](../../manage-work/issues/manage-issues/edit-issues.md).
+U kunt artikelen rechtstreeks vanuit het dialoogvenster [!UICONTROL Stories] of [!UICONTROL Issues] tabs op de Backlog omdat u taken of problemen in een project bulksgewijs zou bewerken, zoals beschreven in [Taken bulksgewijs bewerken](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Taken bewerken](../../manage-work/tasks/manage-tasks/edit-tasks.md), en [Problemen bewerken](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Nieuwe artikelen maken op de achtergrond {#create-new-stories-on-the-backlog}
 
@@ -116,13 +113,13 @@ U kunt nieuwe artikelen op de achtergrond maken door het artikel rechtstreeks va
 
 ### Een artikel maken op basis van de historie {#create-a-story-from-the-backlog}
 
-Wanneer u een artikel maakt op basis van de achterstand, wordt het artikel gemaakt als een taak of uitgave in een project. U kunt geen artikel maken op basis van de achterstand als een uitgave.
+Wanneer u een artikel maakt op basis van de achterstand, wordt het artikel gemaakt als een taak of uitgave in een project. U kunt geen artikel maken op basis van de achterstand.
 
 Een artikel maken op basis van de historie:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Teams]**.
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
+1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team in de zoekbalk en selecteer het team wanneer het wordt weergegeven.
 
 1. Selecteren **[!UICONTROL Backlog]** in het linkerdeelvenster.
 1. Voer een van de volgende handelingen uit, afhankelijk van of u een taak of een uitgave wilt maken:
@@ -161,7 +158,7 @@ Een artikel maken op basis van de historie:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
-      <td>(Optioneel) Typ de naam van de bovenliggende taak waarop dit artikel is ondergeschikt en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.</td>
+      <td>(Optioneel) Typ de naam van de bovenliggende taak waaraan dit artikel is gekoppeld, en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
@@ -176,26 +173,31 @@ Een artikel maken op basis van de historie:
 
 U kunt een taak of een kwestie aan een agile team toewijzen. Nadat deze is toegewezen, wordt de taak of uitgave weergegeven als een nieuw artikel op de teamachterstand.
 
-Om een taak of een kwestie aan een flexibel team toe te wijzen:
+Om een taak of een kwestie aan een agile team toe te wijzen:
 
-1. Ga naar het Project dat de taak bevat die u wilt opnieuw toewijzen.
+1. Ga naar het Project dat de taak bevat die u wilt toewijzen.
 1. Selecteer de taak of het probleem in de lijst.
 1. Klik op **[!UICONTROL Edit]**.
 1. Klik op **[!UICONTROL Assignments]**.
 1. (Optioneel) Verwijder eventuele bestaande toewijzingen.
 1. Klik op **[!UICONTROL Add Assignee]**.
-1. Typ de naam van het bestandsteam dat u wilt toewijzen aan de taak of uitgave en klik vervolgens op de teamnaam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+1. Typ de naam van het bestandsteam dat u wilt toewijzen aan de taak of uitgave en klik vervolgens op de naam van het team wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 1. Klik op **[!UICONTROL Save Changes]**.\
    De taak of kwestie is nu beschikbaar op de teamachterstand.
 
-## Artikelen van de achtergrond verplaatsen naar een herhaling of een toetsenbord {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## Artikelen naar of van de achtergrond verplaatsen
 
+{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+
+* [Artikelen van de achtergrond verplaatsen naar een herhaling of een toetsenbord](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Bestaande artikelen naar de achtergrond verplaatsen](#move-existing-stories-to-the-backlog)
 * [Artikelen exporteren uit de logbestandweergave](#export-stories-from-the-backlog)
 
+### Artikelen van de achtergrond verplaatsen naar een herhaling of een toetsenbord
+
 1. Ga naar de achtergrond van het agile team.
 1. Selecteer de artikelen die u naar een herhalings- of Kanban-bord wilt verplaatsen en klik op **[!UICONTROL More]** > **[!UICONTROL Move to]**.\
-   Als u het artikel naar een [!UICONTROL Kanban] de [!UICONTROL Move Story to the Kanban] De kaart wordt weergegeven.\
+   Als u het artikel naar een [!UICONTROL Kanban] de [!UICONTROL Move Story to the Kanban] Het toetsenbord wordt weergegeven.\
    Als u het artikel naar een herhaling verplaatst, wordt het [!UICONTROL Move Story to an Iteration] wordt weergegeven.\
    ![Het dialoogvenster Artikel verplaatsen](assets/agile-backlog-addtoiteration.png)
 

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 0%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 0%
       * [Tips, trucs en probleemoplossing voor &#39;agile&#39;](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Aangepaste statussen die niet worden weergegeven op het Klembord voor artikelen](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documenten {#documents}
-   * [Documenten](documents/documents-overview.md)
+   * [Documenten: artikelindex](documents/documents-overview.md)
    * Nieuwe documenten toevoegen aan Adobe Workfront {#add-new-documents-to-workfront}
       * [Nieuwe documenten toevoegen aan Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 0%
          * [Mijlpalen koppelen aan taken](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Een taak omzetten in een project](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * Taakbeperkingen {#task-constraints}
-         * [Taakbeperkingen](manage-work/tasks/task-constraints/task-constraints.md)
+         * [Taakbeperkingen: artikelindex](manage-work/tasks/task-constraints/task-constraints.md)
          * [Overzicht van taakbeperking](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [Overzicht van taakbeperking: begin uiterlijk op](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [Overzicht van taakbeperking: begin niet eerder dan](manage-work/tasks/task-constraints/start-no-earlier-than.md)

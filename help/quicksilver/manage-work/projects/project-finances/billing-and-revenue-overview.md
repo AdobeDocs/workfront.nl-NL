@@ -7,14 +7,16 @@ description: Als projectmanager, kunt u het factureren tarieven gebruiken om opb
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
 
 # Overzicht van facturering en inkomsten
+
+<!-- Audited: 1/2024 -->
 
 {{highlighted-preview}}
 
@@ -26,7 +28,7 @@ In dit artikel worden de ontvangsten voor het bijhouden van projecten beschreven
 
 Houd rekening met het volgende wanneer u met factureringssnelheden werkt:
 
-* U hebt een licentie voor abonnementen met de optie Toegang tot financiële gegevens bewerken nodig om de factureringssnelheden te beheren.\
+* U hebt een abonnement- of standaardlicentie met Edit-toegang tot financiële gegevens nodig om de factureringssnelheden te beheren.\
   Voor meer informatie over het verlenen van toegang tot Financiële Gegevens, zie [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Factureringstarieven zijn inkomstenbedragen per werkeenheid die verband houden met functies of gebruikers.
@@ -45,7 +47,7 @@ Houd rekening met het volgende wanneer u met factureringssnelheden werkt:
 
 >[!IMPORTANT]
 >
->De tarieven die de opbrengst berekenen behoren tot de gebruiker die de tijd of aan hun baanrollen registreert.
+>De tarieven die de opbrengst berekenen behoren tot de gebruiker die de tijd registreert, of tot hun baanrollen.
 
 * [Factureringstarieven gebruiker](#user-billing-rates)
 * [Factureringstarieven voor functies](#job-role-billing-rates)
@@ -54,7 +56,7 @@ Houd rekening met het volgende wanneer u met factureringssnelheden werkt:
 
 ### Factureringstarieven gebruiker {#user-billing-rates}
 
-Als gebruikersbeheerder, wanneer u een gebruiker creeert, kunt u hen met datum daadwerkelijke het Factureren Tarieven associëren door waarden voor het Factureren per de gebieden van Uur en de data voor de tarieven te specificeren.
+Als gebruikersbeheerder, wanneer u een gebruiker creeert, kunt u hen met datum-efficiënte het Factureren Tarieven associëren door waarden voor het Factureren per de gebieden van Uur en de data voor de tarieven te specificeren.
 
 Raadpleeg het artikel voor meer informatie over het maken van gebruikers [Gebruikers toevoegen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -62,13 +64,13 @@ Raadpleeg het artikel voor meer informatie over het maken van gebruikers [Gebrui
 
 ### Factureringstarieven voor functies {#job-role-billing-rates}
 
-Als beheerder van Adobe Workfront, wanneer u een baanrol creeert, kunt u het associëren met datum efficiënte het Factureren Tarieven door waarden voor het Factureren per de gebieden van Uur en de data voor de tarieven te specificeren.
+Als beheerder van Adobe Workfront, wanneer u een baanrol creeert, kunt u het met datum-efficiënte het Factureren Tarieven associëren door waarden voor het Factureren per de gebieden van Uur en de data voor de tarieven te specificeren.
 
 U kunt de waarde van de factureringssnelheid van een taakrol definiëren met de basisvaluta van uw Workfront-systeem of met een andere aangepaste valuta.
 
 Raadpleeg het artikel voor meer informatie over het maken van functies en het overschrijven van de valuta [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Kosten en factureringssnelheden voor functies bewerken](assets/edit-job-role-multiple-billing-rates.png)
+![Kosten en factureringssnelheden voor functies bewerken](assets/edit-job-role-multiple-billing-rates-new.png)
 
 ### Vaste factureringstarieven voor projecten of taken {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -109,22 +111,22 @@ De volgende lijst toont de soorten opbrengst verbonden aan taken, kwesties, en p
  <tbody> 
   <tr> 
    <td role="rowheader">Geplande inkomsten</td> 
-   <td> <p>Voor taken, is dit de opbrengst verbonden aan de Geplande Uren van taken. De geplande uren van alle taken lopen tot en met de geplande uren van het project om bij te dragen tot de berekening van het geplande projectuur. </p> <p>Voor meer informatie over Geplande Uren in Workfront, zie <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Overzicht van geplande uren</a>. </p> <p>Workfront berekent de geplande inkomsten voor taken aan de hand van de volgende formule:</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>OPMERKING</strong></br> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> <p>Workfront berekent de geplande inkomsten voor projecten aan de hand van de volgende formule:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <td> <p>Voor taken, is dit de opbrengst verbonden aan de Geplande Uren van taken. De geplande uren van alle taken lopen tot en met de geplande uren van het project om bij te dragen tot de berekening van het geplande projectuur. </p> <p>Voor meer informatie over Geplande Uren in Workfront, zie <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Overzicht van geplande uren</a>. </p> <ul><li><p>Workfront berekent de geplande inkomsten voor taken aan de hand van de volgende formule:</p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>OPMERKING</strong></br> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele datumeffectieve wijzigingen van de frequentie.</p> </li><li><p>Workfront berekent de geplande inkomsten voor projecten aan de hand van de volgende formule:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>OPMERKING</b>
 
-<p>De geplande ontvangsten van het project die in het gebied van de Details van het Project en in projectverslagen worden getoond verschillen van de geplande opbrengst die in het rapport van het Gebruik toont. </p> <p>De geplande ontvangsten in het gebied Projectdetails weerspiegelen de taakontvangsten die verband houden met de geplande uren van de taak en de vaste opbrengsten van het project. De geplande inkomsten in het gebruiksrapport geven de geplande inkomsten weer die alleen verband houden met de geplande uren uit de taakopdrachten voor het project. </p> 
+<p>De geplande ontvangsten van het project die in het gebied van de Details van het Project en in projectverslagen worden getoond verschillen van de geplande opbrengst die in het rapport van het Gebruik toont. </p></li></ul> <p>De geplande ontvangsten in het gebied Projectdetails weerspiegelen de taakontvangsten die verband houden met de geplande uren van de taak en de vaste opbrengsten van het project. De geplande inkomsten in het gebruiksrapport geven de geplande inkomsten weer die alleen verband houden met de geplande uren uit de taakopdrachten voor het project. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p>Als het project 1 taak met 10 uren heeft, die aan een Consultant met $20 uurtarief wordt toegewezen, en het project heeft $100 Vaste Inkomsten, toont het rapport van het Gebruik $200 voor Geplande Inkomsten (de Geplande Inkomsten verbonden aan de uren op de taak). In de sectie Projectdetails wordt $300 weergegeven (de geplande inkomsten uit de taak en de vaste inkomsten voor het project.) </p> 
      </div> </p> <p>De Geplande Inkomsten van de taak wordt berekend gebruikend de het facturerings uurtarieven van de gebruikers of baanrollen die aan de taken worden toegewezen. Het type inkomsten van de taken is van invloed op het percentage (gebruiker of rol) dat wordt gebruikt voor de berekening van de geplande inkomsten. Raadpleeg de volgende secties in dit artikel voor meer informatie:</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Overzicht van de types van taakontvangsten</a> </p> </li> 
      <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">Berekeningen van opbrengsten voor taken die zijn gebaseerd op gebruikers- en roltoewijzingen</a> </p> </li> 
-    </ul> <p>Zie voor meer informatie over de berekeningen van de geplande inkomsten in het gebruiksrapport: <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informatie over bronnengebruik weergeven </a>. </p> </td> 
+    </ul> <p>Zie voor meer informatie over de berekeningen van de geplande inkomsten in het gebruiksrapport: <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informatie over bronnengebruik weergeven</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Werkelijke ontvangsten*</td> 
-   <td> <p>Wordt gekoppeld aan de werkelijke uren van taken, problemen en projecten. </p> <p>In het algemeen berekent Workfront de werkelijke inkomsten aan de hand van de volgende formule:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>OPMERKING</strong></br> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> <p>Zie voor informatie over de berekeningen van de werkelijke inkomsten in het gebruiksrapport: <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informatie over bronnengebruik weergeven </a>. </p> <p><b>TIP</b>
+   <td> <p>De inkomsten in verband met de werkelijke uren van taken, kwesties en projecten. </p> <p>In het algemeen berekent Workfront de werkelijke inkomsten aan de hand van de volgende formule:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>OPMERKING</strong></br> Bij de facturering per uur in de formule wordt rekening gehouden met eventuele datumeffectieve wijzigingen van de frequentie.</p> <p>Zie voor informatie over de berekeningen van de werkelijke inkomsten in het gebruiksrapport: <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Informatie over bronnengebruik weergeven</a>. </p> <p><b>TIP</b>
 
 U kunt de werkelijke inkomsten niet bekijken op het niveau van de uitgave, maar de inkomsten die verband houden met de Werkelijke uren voor de kwesties dragen bij tot de daadwerkelijke inkomsten van het project. </p> </td>
 </tr> 
@@ -246,7 +248,7 @@ Houd rekening met het volgende wanneer u de inkomsten voor een taak berekent:
 
 Er is een hiërarchie waarvan het tarief in opbrengstberekeningen wordt gebruikt die op taaktaken worden gebaseerd.
 
-Als uw Workfront-beheerder het **Taken handmatig toewijzen aan uurwaarden** het plaatsen in het gebied van de Voorkeur van Timesheets &amp; van Uren, en de gebruiker het registreren tijd op het project selecteert een verschillende rol aan vennoot met deze tijd, berekent de Ware Opbrengst van de taak of het project altijd gebaseerd op de rol verbonden aan de uuringang. Zie het artikel voor informatie over het inschakelen van logboektijd voor een specifieke taakrol [Voorkeuren voor tijdpagina&#39;s en uren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Als uw Workfront-beheerder het **Taken handmatig toewijzen aan uurwaarden** het plaatsen in het gebied van de Voorkeur van Timesheets &amp; van Uren, en de gebruiker het registreren tijd op het project selecteert een verschillende rol aan vennoot met deze tijd, berekent de Ware Opbrengst van de taak of het project altijd gebaseerd op de rol verbonden aan de uuringang. Zie het artikel voor informatie over het inschakelen van logboektijd voor een specifieke taakrol [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 De volgende scenario&#39;s zijn van toepassing wanneer het berekenen van taakopbrengst die op het Type van Ontvangsten en de aard van de taakopdracht wordt gebaseerd:
 
@@ -266,7 +268,7 @@ De volgende scenario&#39;s zijn van toepassing wanneer het berekenen van taakopb
     </tr> 
     <tr> 
      <td role="rowheader">Facturering per uur voor geplande ontvangsten</td> 
-     <td>$0.00</td> 
+     <td>$ 0,00</td> 
      <td> Als een gebruiker een factureringstarief in hun profiel heeft, dan wordt dat tarief gebruikt om Geplande Inkomsten te berekenen. Anders wordt het factureringspercentage van het systeem voor de primaire functie gebruikt. <br><p><b>OPMERKING</b>  De gebruiker kan aan de taak met één van hun secundaire baanrollen worden toegewezen, maar het tarief van de primaire baanrol wordt hier gebruikt.</p><p>Als de rol van de gebruiker tijdens de taak is veranderd, worden de correcte tarieven toegepast wanneer de projectfinanciën worden herberekend.</p></td> 
      <td><p><span class="preview">Als een tariefkaart aan het project wordt vastgemaakt, dan wordt de Geplande Inkomsten berekend gebaseerd op de baanrol van de tariefkaart.</span></p> <p><span class="preview">De factureringstarieven kunnen op projectniveau worden overschreven.</span></p></td> 
     </tr> 
@@ -303,7 +305,7 @@ De volgende scenario&#39;s zijn van toepassing wanneer het berekenen van taakopb
     </tr> 
     <tr> 
      <td role="rowheader">Facturering per uur voor geplande ontvangsten</td> 
-     <td>$0.00</td> 
+     <td>$ 0,00</td> 
      <td><p>Workfront bekijkt de taakrol die de gebruiker vervult bij het berekenen van de geplande inkomsten. <br>Als de gebruiker niet met om het even welke rol op de taak wordt geassocieerd, is de Opbrengst $0.00.</p> <p><strong>OPMERKING</strong><br>Als de rol van de gebruiker tijdens de taak is veranderd, worden de correcte tarieven toegepast wanneer de projectfinanciën worden herberekend.</p> </td> 
      <td><p><span class="preview">Als een tariefkaart aan het project wordt vastgemaakt, dan wordt de Geplande Inkomsten berekend gebaseerd op de baanrol van de tariefkaart.</span></p> <p><span class="preview">De factureringstarieven kunnen op projectniveau worden overschreven.</span></p></td> 
     </tr> 
