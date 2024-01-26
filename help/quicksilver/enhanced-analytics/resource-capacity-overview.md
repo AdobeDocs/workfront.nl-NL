@@ -3,20 +3,20 @@ title: De visualisatie van de bronnencapaciteit bekijken in Verbeterde analyse
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: De capaciteitvisualisatie van het Middel toont of een team over, onder, of bij capaciteit is.
+description: U kunt beoordelen of een team over, onder, of bij capaciteit wanneer het bekijken van de Verbeterde grafiek van de het middelcapaciteit van de Analyse in Adobe Workfront is.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # De visualisatie van de bronnencapaciteit bekijken in Verbeterde analyse
 
-De capaciteitvisualisatie van het Middel toont of een team over, onder, of bij capaciteit is.
+U kunt beoordelen of een team over, onder, of bij capaciteit wanneer het bekijken van de Verbeterde grafiek van de het middelcapaciteit van de Analyse in Adobe Workfront is.
 
 ## Toegangsvereisten
 
@@ -27,33 +27,38 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
-   <td> <p>Zakelijk of hoger</p> </td> 
+   <td>Adobe Workfront-plan</a>*</td> 
+   <td> <p>Huidig: Zakelijk of hoger</p>
+   of
+   <p>Nieuw: alle</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td>Adobe Workfront-licentie*</td> 
+   <td> <p>Huidig: Controleren of hoger</p>
+   of
+   <p>Nieuw: Standaard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemming weergeven voor een project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
 Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Begrijp de capaciteit van het Middel visualisatie
+## Begrijp de grafiek van de capaciteit van het Middel
 
-De capaciteitvisualisatie van het Middel toont of een team over, onder, of bij capaciteit is. Deze berekening is gebaseerd op:
+Het capaciteitsplan van het Middel toont of een team over, onder, of bij capaciteit is. Deze berekening is gebaseerd op:
 
 * **Beschikbare capaciteit**: Het totale aantal uren dat een huisteam beschikbaar heeft om in de gefilterde periode te werken
 
