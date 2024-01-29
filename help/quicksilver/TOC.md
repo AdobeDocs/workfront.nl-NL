@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '13885'
+source-wordcount: '13886'
 ht-degree: 0%
 
 ---
@@ -2044,6 +2044,7 @@ ht-degree: 0%
       * [Records delen](maestro/records/share-records.md)
       * [Opnameopmerkingen beheren](maestro/records/manage-record-comments.md)
       * [Overzicht van de sectie Historie](maestro/records/history-section-overview.md)
+      * [Miniaturen toevoegen aan records](maestro/records/add-thumbnails-to-records.md)
    * Adobe Maestro-weergaven {#adobe-maestro-views}
       * [Weergaven: artikelindex](maestro/views/views-information.md)
       * [Recordweergaven beheren](maestro/views/manage-record-views.md)
@@ -2320,7 +2321,7 @@ ht-degree: 0%
       * [Aanvullende informatie weergeven over Adobe Workfront for Outlook en afmelden](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Outlook inschakelen voor Office voor gebruik met Adobe Workfront en SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
    * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
-      * [Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
+      * [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Overzicht van Adobe-werkfronten voor Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Adobe Workfront for Microsoft Teams installeren](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Adobe Workfront benaderen vanuit Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)

@@ -7,16 +7,20 @@ description: U kunt beoordelen of een team over, onder, of bij capaciteit wannee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # De visualisatie van de bronnencapaciteit bekijken in Verbeterde analyse
 
+<!--Audited: 01/2024-->
+
 U kunt beoordelen of een team over, onder, of bij capaciteit wanneer het bekijken van de Verbeterde grafiek van de het middelcapaciteit van de Analyse in Adobe Workfront is.
+
+De teams die in de middelvisualisatie worden geïllustreerd verwijzen naar het huisteam van gebruikers die aan het werk tijdens de gespecificeerde periode worden toegewezen.
 
 ## Toegangsvereisten
 
@@ -56,9 +60,9 @@ U moet het volgende hebben:
 
 Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Begrijp de grafiek van de capaciteit van het Middel
+## Begrijp de capaciteit van het Middel visualisatie
 
-Het capaciteitsplan van het Middel toont of een team over, onder, of bij capaciteit is. Deze berekening is gebaseerd op:
+De capaciteitvisualisatie van het Middel toont of een team over, onder, of bij capaciteit is. Deze berekening is gebaseerd op:
 
 * **Beschikbare capaciteit**: Het totale aantal uren dat een huisteam beschikbaar heeft om in de gefilterde periode te werken
 
@@ -90,24 +94,25 @@ Voor de capaciteitvisualisatie van het Middel, kunt u de volgende details zien:
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Het over een rij bedekken toont het nauwkeurige aantal uren voor geplande capaciteit en beschikbare capaciteit, evenals het aantal uren het huisteam over of onder capaciteit is.
+Het over de rij van een team hangen toont het nauwkeurige aantal uren voor geplande capaciteit en beschikbare capaciteit, evenals het aantal uren het huisteam over of onder capaciteit is.
 
 Aan de hand van deze informatie kunt u bepalen:
 
-* Als het huisteam werd oververdeeld of onderverdeeld.
-* Wat de grootste projecten waren, was dat het thuisteam zich daarop richtte.
-* Welke huisteams beschikbaar voor het werk zijn.
+* Als het team wordt oververdeeld of onderverdeeld.
+* Wat de grootste projecten zijn is dat het huisteam zich op concentreert.
+* Welke teams beschikbaar voor het werk zijn.
 
 Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De visualisatie van de bronnencapaciteit weergeven
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
+{{step1-to-analytics}}
+
 1. Selecteer in het linkerdeelvenster de optie **Mensen**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
+1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik rechtsboven in het diagram.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,7 +130,15 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Houd de muisaanwijzer boven de teamlijn van het thuisteam om te zien hoeveel uren er nog gepland zijn, hoeveel uren het thuisteam gepland heeft om te voltooien en hoeveel uren er zijn gewerkt, met het label over, onder of op capaciteit.
+1. Houd de muisaanwijzer boven de lijn van het huisteam om het volgende weer te geven:
+
+   * Hoeveel uren zijn nog te plannen
+   * De hoeveelheid uren die het huisteam heeft gepland om te voltooien
+   * Het totale aantal gewerkte uren. Het totale aantal gewerkte uren zou de volgende etiketten kunnen hebben:
+
+      * Boven
+      * Onder
+      * Op capaciteit.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 

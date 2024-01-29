@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als beheerder van Adobe Workfront, kunt u gebruiker-veranderingen volgen die in het systeem tijdens de afgelopen 90 dagen worden teweeggebracht gebruikend controlelogboeken.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
 
 # Controlelogboeken
+
+<!--Audited: 01/2024-->
 
 Als beheerder van Adobe Workfront, kunt u gebruiker-veranderingen volgen die in het systeem tijdens de afgelopen 90 dagen worden teweeggebracht gebruikend de hieronder beschreven controlelogboeken.
 
@@ -43,7 +45,7 @@ De volgende gebieden worden geregistreerd in elke ingang van het controlelogboek
   </tr> 
   <tr> 
    <td role="rowheader">Handeling</td> 
-   <td> Handeling die door de gebruiker wordt uitgevoerd, zoals Wijzigen, Maken en Verwijderen. </td> 
+   <td> Handelingen die door de gebruiker worden uitgevoerd, zoals Wijzigen, Maken en Verwijderen. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object</td> 
@@ -60,7 +62,7 @@ De volgende gebieden worden geregistreerd in elke ingang van het controlelogboek
  </tbody> 
 </table>
 
-## De types van controlelogboek en de acties die hen teweegbrengen
+## Controlelogbestandstypen en de acties die deze activeren
 
 * [Toegangsniveau](#access-level)
 * [Bedrijf](#company)
@@ -73,7 +75,7 @@ De volgende gebieden worden geregistreerd in elke ingang van het controlelogboek
 * [Taken rollen](#job-roles)
 * [Aanmeldingspoging](#login-attempt)
 * [Prioriteit](#priority)
-* [Projectvoorkeuren](#project-preferences)
+* [Projectvoorkeur](#project-preference)
 * [Ernst](#severity)
 * [Status](#status)
 * [Voorkeuren voor taken en problemen](#tasks-issues-preferences)
@@ -88,13 +90,13 @@ Het systeem produceert een het logboekingang van het Niveau van de Toegang wanne
 * Wijzigt een toegangsniveau:
 
    * Hiermee wordt het licentietype gewijzigd
-   * De toestemmingen van veranderingen in Projecten, Taken, Kwesties, Portfolio, Programma&#39;s, Rapporten, Documenten, Gebruikers, of Malplaatjes
+   * De toestemmingen van veranderingen in Projecten, Taken, Kwesties, Portfolio&#39;s, Programma&#39;s, Rapporten, Documenten, Gebruikers, of Malplaatjes
 
-      >[!NOTE]
-      >
-      >Het systeem registreert geen toestemmingsveranderingen in Financiële Gegevens of binnen de volgende toegangstypes: Weergeven en bewerken.
-      >
-      >Als een gebruiker bijvoorbeeld het toegangstype Planner wijzigt van Weergave in Bewerken, wordt de informatie in het vervolgkeuzemenu Instellingen nauwkeurig instellen niet weergegeven op het systeem.
+     >[!NOTE]
+     >
+     >Het systeem registreert geen toestemmingsveranderingen in Financiële Gegevens of binnen de volgende toegangstypes: Mening en geeft uit.
+     >
+     >Als een gebruiker bijvoorbeeld het toegangstype Planner wijzigt van Weergave in Bewerken, geeft het systeem geen informatie weer die in het vervolgkeuzemenu Instellingen nauwkeurig instellen staat.
 
 ### Bedrijf {#company}
 
@@ -103,23 +105,23 @@ Het systeem produceert een ingang van het de controlelogboek van het Bedrijf wan
 * Creeert een bedrijf
 * Wijzigt een bedrijf:
 
-   * Naam wijzigen
+   * Wijzigt de naam
    * Leden toevoegen of verwijderen
    * Hiermee wordt de waarde in het veld Groep toegevoegd, bewerkt of verwijderd
    * Voegt een tarief van het bedrijf voor een baanrol toe of geeft uit
    * Hiermee verwijdert u een factureringstarief voor een functie
    * Hiermee stelt u het in als het primaire bedrijf voor de organisatie
-   * Een aangepast formulier koppelen of verwijderen
+   * Hiermee voegt u een aangepast formulier toe of verwijdert u dit
 
 * Een bedrijf verwijderen
 
-Voor meer informatie over statussen raadpleegt u [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Zie voor meer informatie over statussen [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Voorwaarde {#condition}
 
 Het systeem produceert een ingang van het de controlelogboek van de Voorwaarde wanneer een gebruiker één van de volgende acties doet:
 
-* Hiermee wordt een voorwaarde gemaakt
+* Maakt een voorwaarde
 * Hiermee wijzigt u een voorwaarde:
 
    * De naam wijzigen
@@ -134,7 +136,7 @@ Voor meer informatie over het vormen van baanrollen, zie [Een aangepaste voorwaa
 
 ### Aangepast veld {#custom-field}
 
-Het systeem produceert een ingang van het de controlelogboek van het Gebied van de Douane wanneer een gebruiker één van de volgende acties doet:
+Het systeem genereert een controlelogbestandvermelding Aangepast veld wanneer een gebruiker een van de volgende handelingen uitvoert:
 
 * Hiermee maakt u een aangepast veld
 * Hiermee wijzigt u een aangepast veld:
@@ -142,11 +144,11 @@ Het systeem produceert een ingang van het de controlelogboek van het Gebied van 
    * De naam, het label, de instructies of de indeling wijzigen
    * Hiermee wordt het weergavetype gewijzigd
 
-      Dit is alleen beschikbaar als het veld een van de volgende typen is: enkele regel, alinea, vervolgkeuzelijst, selectievakje, keuzerondje
+     Dit is alleen beschikbaar als het veld een van de volgende typen is: één regel, alinea, vervolgkeuzelijst, selectievakje, keuzerondje
 
    * De veldgrootte wijzigen
 
-      Dit is alleen beschikbaar als het veld een van de volgende typen is: één regel, alinea, tekst met opmaak
+     Dit is alleen beschikbaar als het veld een van de volgende typen is: één regel, alinea, tekst met opmaak
 
    * Hiermee voegt u een veldkeuze toe, verwijdert of verbergt u deze
    * Hiermee bewerkt u een label of waarde voor een veldkeuze
@@ -172,15 +174,15 @@ Het systeem genereert een aangepaste Forms-controlelogbestandvermelding wanneer 
    * Een veld wijzigen in vereist of niet vereist
    * Hiermee wordt een berekening in een aangepast veld gewijzigd
    * Hiermee verbergt of geeft u de formule weer die is gekoppeld aan een berekend veld in de aanwijstekst
-   * Hiermee schakelt u het bijwerken van vorige berekeningen in of uit
+   * Hiermee schakelt u vorige berekeningen bijwerken in of uit
    * Hiermee voegt u logica of weergavelogica over het overslaan of wijzigen
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
 * Hiermee verwijdert u een aangepast formulier
-* Een aangepast formulier delen
+* Hiermee deelt u een aangepast formulier
 
 ### Aangepaste sectie {#custom-section}
 
@@ -213,7 +215,7 @@ Het systeem produceert een ingang van het de controlelogboek van de Groep wannee
 
 * Hiermee wordt een groep gemaakt
 * Hiermee wordt een groep verwijderd
-* Hiermee wijzigt u een groep:
+* Een groep wijzigen:
 
    * Gebruikers toevoegen of verwijderen
    * Subgroepen toevoegen of verwijderen
@@ -265,7 +267,7 @@ Het systeem produceert een ingang van het Prioritair controlelogboek wanneer een
 
 Voor meer informatie over het vormen van prioriteiten, zie [Prioriteiten maken en aanpassen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### Projectvoorkeuren {#project-preferences}
+### Projectvoorkeur {#project-preference}
 
 Het systeem produceert een ingang van het de controlelogboek van de Voorkeur van het Project wanneer een gebruiker één van de volgende acties doet:
 
@@ -305,15 +307,15 @@ Het systeem produceert een ingang van het de controlelogboek van de Status wanne
 * Maakt een status op systeem- of groepsniveau
 * Wijzigt een status op systeem- of groepsniveau:
 
-   * Naam wijzigen
+   * Wijzigt de naam
    * Maakt van het tot een standaardstatus
    * Hiermee vergrendelt of ontgrendelt u het
    * Hiermee verbergt of verbergt u deze
-   * De kleur of beschrijving wijzigen
+   * Hiermee wijzigt u de kleur of beschrijving
 
 * Hiermee wordt een status op systeem- of groepsniveau verwijderd
 
-Voor meer informatie over statussen raadpleegt u [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Zie voor meer informatie over statussen [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Voorkeuren voor taken en problemen {#tasks-issues-preferences}
 
@@ -331,15 +333,15 @@ Het systeem produceert een ingang van het de controlelogboek van de Gebruiker wa
 
 * Hiermee wordt een gebruiker gemaakt
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
   
   -->
 
-   >[!NOTE]
-   >
-   >Dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+  >[!NOTE]
+  >
+  >Dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
 
 * Hiermee wordt een gebruiker verwijderd
 * Hiermee wijzigt u het toegangsniveau, het bedrijf, het team of de groep van een gebruiker
