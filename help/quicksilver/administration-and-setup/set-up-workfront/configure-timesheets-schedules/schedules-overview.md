@@ -6,11 +6,11 @@ keywords: gebruiker,plannen
 navigation-topic: configure-timesheets-and-schedules
 title: Overzicht van schema's
 description: U kunt uw werkweek definiëren met behulp van schema's. U kunt een programma met een gebruiker of een project associëren. Dit maakt [!DNL Adobe Workfront] om tijdlijnen en de beschikbaarheid van de gebruiker te berekenen. Zie Een schema maken voor instructies.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Overzicht van schema&#39;s
 
+<!-- Audited: 1/2024 -->
+
 U kunt uw werkweek bepalen gebruikend programma&#39;s en een programma associëren met een gebruiker of een project. Dit maakt [!DNL Adobe Workfront] om tijdlijnen en de beschikbaarheid van de gebruiker te berekenen. Zie voor instructies [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Houd rekening met het volgende wanneer u werkt met planningen in Workfront:
 
 * De [!DNL Workfront] de beheerder identificeert de uren van verrichting voor de organisatie in een programma.
 
-  Op dezelfde manier kan een groepsbeheerder de bedrijfsuren van een programma identificeren dat door een groep wordt beheerd die zij leiden.
-
-  Voor meer informatie over groepsbeheerders, zie [Groepbeheerders](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  Op dezelfde manier kan een groepsbeheerder de bedrijfsuren van een programma identificeren dat door een groep wordt beheerd die zij leiden. Voor meer informatie over groepsbeheerders, zie [Groepbeheerders](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   Een schema kan bijvoorbeeld als volgt worden gedefinieerd: maandag tot en met vrijdag, 08.00 tot 17.00 uur, met een pauze voor de lunch.
 

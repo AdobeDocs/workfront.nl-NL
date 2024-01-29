@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1782'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
-   <td> <p>Bepaalt het verband tussen het aantal middelen (en hun toewijzingspercentage) en de duur of de totale inspanning voor de taak. Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">De Duur van de taak en de Types van Duur</a></p> </td> 
+   <td> <p>Bepaalt het verband tussen het aantal middelen (en hun toewijzingspercentage) en de duur of de totale inspanning voor de taak. Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duur en duur van taak: artikelindex</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
@@ -271,7 +271,7 @@ Een taak of een uitgiftevoorkeur vergrendelen of ontgrendelen zodat groepen deze
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues]**.
+1. Klikken **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues]**.
 
 1. Voer een van de volgende handelingen uit:
 

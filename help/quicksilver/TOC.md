@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
 workflow-type: tm+mt
-source-wordcount: '13886'
+source-wordcount: '13888'
 ht-degree: 0%
 
 ---
@@ -1337,7 +1337,7 @@ ht-degree: 0%
          * [Overzicht van taakbeperking: zo laat mogelijk](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [Werk de Beperking van de Taak van een taak bij](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
       * De Duur van de taak en de Types van Duur {#task-duration-and-duration-types}
-         * [De Duur van de taak en de Types van Duur](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+         * [Duur en duur van taak: artikelindex](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [Overzicht van het Type van Duur en van de Duur van de Taak](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [Overzicht duur: berekende toewijzing](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [Overzicht van het Duur Type: Door de inspanning gestuurde](manage-work/tasks/taskdurtn/effort-driven.md)

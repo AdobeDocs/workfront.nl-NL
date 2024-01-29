@@ -7,7 +7,7 @@ description: De voorspelde Voltooiingsdatum is een real-time, berekende indicato
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Overzicht van de geplande afsluitdatum voor projecten, taken en problemen
+
+<!-- Audited: 1/2024 -->
 
 De voorspelde Voltooiingsdatum is een real-time, berekende indicator van wanneer het project, de taak, of de kwestie zullen worden voltooid. Als het project, de taak of de uitgave is gemarkeerd als Voltooid, verandert de Geprojecteerde Voltooiingsdatum in de datum van de Werkelijke Voltooiingsdatum.
 

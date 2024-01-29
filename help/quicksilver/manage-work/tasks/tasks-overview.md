@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Taken zijn kleinere werkitems in Adobe Workfront die bijdragen aan de voltooiing
 * [Taken toewijzen](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [Taken beheren](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [Taakbeperkingen](../../manage-work/tasks/task-constraints/task-constraints.md)
-* [De Duur van de taak en de Types van Duur](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+* [Duur en duur van taak: artikelindex](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
 * [Voorlopers voor taken gebruiken](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [Tips, trucs en probleemoplossing voor taken](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

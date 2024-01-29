@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
 description: De beheerder van Adobe Workfront bepaalt welk toegangsniveau elke gebruiker zou moeten hebben. Dat toegangsniveau bepaalt wat de gebruikers kunnen zien en met objecten types en gebieden in het systeem doen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ De beheerder van Adobe Workfront bepaalt welk toegangsniveau elke gebruiker zou 
 
 Gebruikers krijgen ook toegang tot afzonderlijke objecten wanneer andere gebruikers bepaalde machtigingen voor die objecten delen en verlenen.
 
-Zo, worden de activiteiten een gebruiker met een voorwerp kan doen bepaald door een combinatie van hun toegangsniveau en de toestemmingen die aan hen voor dat project worden gegeven.
 
 ![](assets/security-model-hierachy.png)
 
