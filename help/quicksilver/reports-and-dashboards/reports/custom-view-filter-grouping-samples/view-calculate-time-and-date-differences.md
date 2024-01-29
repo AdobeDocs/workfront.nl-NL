@@ -7,14 +7,16 @@ description: Leer tijd- en datumverschillen te berekenen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Weergave: tijd- en datumverschillen berekenen
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 U kunt het verschil tussen het volgende berekenen:
 
 * Het tijd- en datumverschil tussen twee datumvelden op hetzelfde object
-* Het tijd- en datumverschil tussen het veld op een object en een ander veld op het bovenliggende object
+* Het tijd- en datumverschil tussen een veld op een object en een ander veld op het bovenliggende object
 
 >[!TIP]
 >
@@ -38,34 +40,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
-   <p>Plan om een rapport te wijzigen</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: </p><ul><li><p>Medewerker om een weergave te wijzigen </p></li><li>
+   <p>Standaard voor het wijzigen van een rapport</p></li></ul><p>of</p><p>Huidige:</p><ul><li><p>Verzoek om een weergave te wijzigen </p></li><li>
+   <p>Plan om een rapport te wijzigen</p> </li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Het tijd- en datumverschil berekenen tussen twee datumvelden op hetzelfde object
 
 U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum en de Werkelijke Voltooiingsdatum van een taak.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-350x92.png)
+![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
@@ -80,7 +81,12 @@ U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum e
 1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
 
    ```
-   displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
+    displayname=Planned-Actual Completion Date
+    linkedname=direct
+    querysort=plannedCompletionDate
+    textmode=true
+    valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)
+    valueformat=HTML
    ```
 
 1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
@@ -90,7 +96,7 @@ U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum e
 Voor een lijst met objecten en hun bovenliggende elementen raadpleegt u de sectie &#39;Interdependentie en hiërarchie van objecten begrijpen&#39; in [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van een taak en de Geplande Datum van Voltooiing van zijn oudertaak, of van het project berekenen dat de taak is.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-350x184.png)
+![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
@@ -107,13 +113,18 @@ Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van ee
    * U kunt als volgt het verschil weergeven tussen de geplande uitvoeringsdatum van het project en die van de taak:
 
      ```
-     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+      displayname=Project Planned Completion - Task Planned Completion (Days)
+      textmode=true
+      valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      valueformat=HTML
      ```
 
    * U kunt als volgt het verschil weergeven tussen de geplande voltooiingsdatum van de bovenliggende taak en die van de taak:
 
      ```
-     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      textmode=true<br>valueformat=HTML
+      displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
 1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
