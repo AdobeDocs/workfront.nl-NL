@@ -7,14 +7,16 @@ description: De de activiteitenvisualisatie van het Project toont een gezamenlij
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # De visualisatie van projectactiviteit weergeven in Verbeterde analyse
+
+<!-- Audited: 12/2023 -->
 
 De de activiteitenvisualisatie van het Project toont een gezamenlijke mening van activiteiten op het projectniveau-de activiteiten van elke persoon toegewezen aan project-die tijdens een specifiek tijdkader gebeurde. U kunt uw focus beperken om de activiteiten binnen een project te begrijpen, of u kunt projectactiviteiten vergelijken met andere projecten in Adobe Workfront.
 
@@ -22,10 +24,6 @@ De de activiteitenvisualisatie van het Project toont een gezamenlijke mening van
 >
 >De activiteit door teamvisualisatie gedraagt zich gelijkaardig aan deze visualisatie, maar de Activiteit door teamvisualisatie toont huisteamactiviteit voor alle projecten.\
 >Voor informatie over de Activiteit door teamvisualisatie, zie [De activiteit per teamvisualisatie bekijken in Uitgebreide analyse](../enhanced-analytics/activity-by-team-overview.md).
-
-<!--WRITER bad link; there is no Activity by Team.png
-[![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
--->
 
 ## Toegangsvereisten
 
@@ -36,25 +34,29 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a></td> 
    <td> <p>Zakelijk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a></td> 
+   <td>   <p>Nieuw:</p> 
+   <ul><li>Licht of hoger</li></ul>
+   <p>Huidige:</p>
+   <ul><li>Controleren of hoger</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Weergave</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -64,17 +66,17 @@ Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de se
 
 Projectactiviteiten worden in verschillende kleuren weergegeven om een overzicht te geven van specifieke gebeurtenissen in een project over een bepaalde periode:
 
-* **Gebruikers aangemeld**: De paarse dozen tonen dat de mensen die aan het project worden toegewezen het programma opende op die dag het programma. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
+* **Gebruikers die zijn aangemeld**: De paarse dozen tonen dat de mensen die aan het project worden toegewezen op die dag het programma werden geopend. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
 
-   ![](assets/project-activity-users-logged-in.png)
+  ![](assets/project-activity-users-logged-in.png)
 
 * **Wijziging taakstatus**: Roze dozen tonen dat mensen de status van een taak voor het project op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
 
-   ![](assets/project-activity-task-status-changes.png)
+  ![](assets/project-activity-task-status-changes.png)
 
-* **Voltooide taken**: Blauwe vakken laten zien dat mensen een taak voor het project hebben uitgevoerd. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
+* **Voltooide taken**: Blauwe vakken tonen aan dat mensen een taak voor het project hebben uitgevoerd. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
 
-   ![](assets/project-activity-tasks-completed.png)
+  ![](assets/project-activity-tasks-completed.png)
 
 Als u de muisaanwijzer boven een vak houdt, wordt exact aangegeven hoe vaak de handeling op een bepaalde dag is voltooid. U kunt een project selecteren om een verdeling van deze activiteiten door elke individuele medewerker op het project te zien.
 
@@ -101,7 +103,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
 1. (Voorwaardelijk) als u de reeks van projectgegevens moet beperken, selecteer en pas de filters toe die u wilt gebruiken.
 
-   Voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -111,7 +113,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optioneel) Als u de sortering van de projecten wilt wijzigen, klikt u op de knop **Sorteren op** selecteert u vervolgens een nieuwe sorteeroptie:
+1. (Optioneel) Als u de sortering van de projecten wilt wijzigen, klikt u op de knop **Sorteren op** en selecteert u vervolgens een nieuwe sorteeroptie:
 
    * **A - Z**
    * **Z - A**
@@ -134,7 +136,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op de knop **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
 
    * **Diagram (PNG)**
    * **Gegevenstabel (XSLX)**

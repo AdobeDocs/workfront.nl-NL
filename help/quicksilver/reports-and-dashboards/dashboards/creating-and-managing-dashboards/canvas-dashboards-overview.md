@@ -6,7 +6,7 @@ description: U kunt Canvasdashboards tot stand brengen die het Melden van de vis
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: da55003a14851d7894693fb95bff866c20938849
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 # Overzicht van dashboards van canvas
 
+<!-- Audited: 12/2023 -->
+
 Canvasdashboards, een functie die momenteel wordt ontwikkeld voor dashboards, biedt een nieuwe optie voor het bouwen van effectieve dashboards in Workfront. De dashboards van het canvas zullen het Melden van de visualisaties van het Canvas toe om met bestaande rapporten gemakkelijk worden omvat, die verhoogde flexibiliteit evenals nieuwe lay-outopties verstrekken.
 
-Deze functie is in ontwikkeling en biedt nog geen ondersteuning voor:
+Deze functie is in ontwikkeling en ondersteunt nog niet:
 * externe pagina&#39;s
 * kalenderintegratie
 * gemelde rapporten
@@ -39,7 +41,7 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 
 1. Klik op de knop **Aanpassen wat gebruikers zien** vervolgkeuzemenu, en klik vervolgens op **Dashboards**.
 
-1. In de **Deelvenster Links** de lijst die hieronder wordt weergegeven, klikt u op de knop ![](assets/delete-secondary-nav-item.png) pictogram naast **Canvasdashboards**. Het pictogram verandert in ![](assets/add-secondary-nav-item.png) om aan te tonen dat deze nu zichtbaar is in het linkerdeelvenster van het deelvenster Dahboards.
+1. In de **Deelvenster Links** de lijst die hieronder wordt weergegeven, klikt u op ![](assets/delete-secondary-nav-item.png) pictogram naast **Canvasdashboards**. Het pictogram verandert in ![](assets/add-secondary-nav-item.png) om aan te tonen dat deze nu zichtbaar is in het linkerdeelvenster van het dashboard.
 
 1. Klikken **Opslaan** onder aan het scherm.
 

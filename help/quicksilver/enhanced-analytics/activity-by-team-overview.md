@@ -7,14 +7,16 @@ description: De activiteit door teamvisualisatie toont activiteiten die tijdens 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
 # De activiteit per teamvisualisatie bekijken in Uitgebreide analyse
+
+<!-- Audited: 12/2023 -->
 
 De activiteit door teamvisualisatie toont activiteiten die tijdens een specifiek tijdkader voor een huisteam gebeuren, toestaand u om te begrijpen hoe de verschillende huisteams hun tijd in Adobe Workfront besteedden. Afhankelijk van de manier waarop uw team in Workfront is ingesteld, kan deze visualisatie u verschillende inzichten geven en verschillende vragen beantwoorden.
 
@@ -23,7 +25,7 @@ De activiteit door teamvisualisatie toont activiteiten die tijdens een specifiek
 >De activiteitenvisualisatie van het Project is gelijkaardig aan deze visualisatie, maar het toont activiteit die op mensen wordt gebaseerd die aan projecten eerder dan aan mensen worden toegewezen aan een huisteam wordt toegewezen.\
 >Voor informatie over de activiteit van het Project visualisatie, zie [De visualisatie van projectactiviteit weergeven in Verbeterde analyse](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png)
+![](assets/activity-by-team-350x113.png){width="700"}
 
 ## Toegangsvereisten
 
@@ -34,25 +36,30 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a></td> 
    <td> <p>Zakelijk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a></td> 
+   <td>
+      <p>Nieuw:</p> 
+         <ul><li>Licht of hoger</li></ul>
+      <p>Huidige:</p>
+         <ul><li>Controleren of hoger</li></ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Weergave</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -62,17 +69,17 @@ Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de se
 
 De verschillende activiteiten worden in verschillende kleuren weergegeven om een overzicht te geven van specifieke gebeurtenissen tijdens de gefilterde periode:
 
-* **Gebruikers aangemeld**: Paarse dozen laten zien dat mensen in het huisteam zich op die dag hebben aangemeld. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
+* **Gebruikers die zijn aangemeld**: Purple boxes laten zien dat mensen in het team van de woning zich op die dag hebben aangemeld. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
 
-   ![](assets/project-activity-users-logged-in.png)
+  ![](assets/project-activity-users-logged-in.png)
 
-* **Wijziging taakstatus**: Roze dozen tonen dat de mensen op het huisteam de status van een taak op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
+* **Wijziging taakstatus**: Roze vakjes tonen aan dat de mensen op het huisteam de status van een taak op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
 
-   ![](assets/project-activity-task-status-changes.png)
+  ![](assets/project-activity-task-status-changes.png)
 
-* **Voltooide taken**: Blauwe dozen laten zien dat mensen in het team van huis die dag een taak hebben voltooid. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
+* **Voltooide taken**: Blauwe dozen laten zien dat de mensen in het huisteam op die dag een taak hebben voltooid. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
 
-   ![](assets/project-activity-tasks-completed.png)
+  ![](assets/project-activity-tasks-completed.png)
 
 Als u de muisaanwijzer boven een vak houdt, wordt exact aangegeven hoe vaak de handeling op een bepaalde dag is voltooid. U kunt een team selecteren om een onderbreking van deze activiteiten door elke persoon op het huisteam te zien.
 
@@ -99,7 +106,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
 1. (Voorwaardelijk) als u uw filter van het Team niet hebt geplaatst, voeg de filter van het Team toe en selecteer elk team dat u gegevens voor wilt zien.
 
-   Voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -131,7 +138,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op het pictogram Exporteren ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Optioneel) Klik op het pictogram Exporteren om de visualisatiegegevens te exporteren ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
 
    * **Diagram (PNG)**
    * **Gegevenstabel (XSLX)**

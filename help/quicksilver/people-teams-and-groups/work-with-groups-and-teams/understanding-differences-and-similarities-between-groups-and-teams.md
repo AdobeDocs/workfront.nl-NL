@@ -7,14 +7,16 @@ description: Groepen en teams zijn verzamelingen van gebruikers in Adobe Workfro
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Groepen versus teams in [!DNL Adobe Workfront]
+
+<!-- Audited: 12/2023 -->
 
 Groepen en teams zijn verzamelingen van gebruikers in [!DNL Adobe Workfront].
 
@@ -49,7 +51,7 @@ De volgende tabel illustreert verschillen en overeenkomsten tussen groepen en te
 | Objecten delen | ✓ | ✓ |
 | Een taak toewijzen |  | ✓ |
 | Een probleem toewijzen |  | ✓ |
-| Koppelen aan een project | ✓ |  |
+| Een project koppelen | ✓ |  |
 | Aanwijzen als fiatteur in een goedkeuringsproces |  | ✓ |
 | Meldingen worden voor alle leden tegelijk geactiveerd |  | ✓ |
 | Coderen in een opmerking |  | ✓ |
