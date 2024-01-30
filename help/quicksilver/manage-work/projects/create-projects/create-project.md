@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot projecten bewerken</p> </td> 
   </tr> 
   <tr> 

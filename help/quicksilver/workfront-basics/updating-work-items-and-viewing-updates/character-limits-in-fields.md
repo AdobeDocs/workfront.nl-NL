@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Tekenbeperkingen in velden
 description: Bepaalde velden in Adobe Workfront beperken het aantal tekens dat in het veld kan worden opgenomen. Workfront indexeert inhoud zodat deze later kan worden doorzocht. Er wordt een tekenlimiet opgelegd om de prestaties van het Workfront-systeem van hoge kwaliteit te waarborgen.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 3%
 
 ---
@@ -36,29 +36,29 @@ Workfront- of groepsbeheerders kunnen de tekenlimieten in velden niet wijzigen.
  <tbody> 
   <tr> 
    <td>Tekstveld met opmaak in een aangepast formulier</td> 
-   <td>15,000</td> 
+   <td>15.000</td> 
   </tr> 
   <tr> 
    <td> <p>Statusupdate</p> </td> 
-   <td> <p>15,000</p>
+   <td> <p>15.000</p>
    <p> 4.000 bij gebruik van de API</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Bijwerken</p> </td> 
-   <td> <p>15,000</p> 
+   <td> <p>15.000</p> 
    <p> 4.000 bij gebruik van de API</p></td> 
   </tr> 
   <tr> 
    <td> <p>Beschrijving (documenten, taken, emissies, portfolio's, programma's en projecten)</p> </td> 
-   <td> <p>4,000</p> </td> 
+   <td> <p>4.000</p> </td> 
   </tr> 
   <tr> 
    <td>Beschrijving in een aangepast formulier</td> 
-   <td>4,000</td> 
+   <td>4.000</td> 
   </tr> 
   <tr> 
    <td> <p>Alinea met aangepaste gegevens of tekst met één regel </p> </td> 
-   <td> <p>2,000</p> </td> 
+   <td> <p>2.000</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Beschrijving in de Report Builder</p> </td> 
