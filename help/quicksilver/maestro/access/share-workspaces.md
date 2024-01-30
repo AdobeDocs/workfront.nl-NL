@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Werkruimten delen
+
+{{maestro-important-intro}}
 
 U kunt een werkruimte delen met anderen om ervoor te zorgen dat u kunt samenwerken wanneer u in Adobe Workfront Maestro werkt.
 
@@ -104,6 +106,8 @@ Een werkruimte delen met anderen:
    * Beheren
 
      Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Klikken **Koppeling kopiëren** om een koppeling naar de werkruimte naar het klembord te kopiëren.
+1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
 1. Klikken **Opslaan**.
 
 

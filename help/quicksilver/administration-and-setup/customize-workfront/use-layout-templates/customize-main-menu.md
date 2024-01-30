@@ -8,18 +8,20 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Het hoofdmenu aanpassen met een lay-outsjabloon
 
-Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de opties te configureren die gebruikers zien wanneer ze het Hoofdmenu in Workfront openen:
+<!--Audited: 01/2024-->
 
-![Opties hoofdmenu](assets/main-menu-with-blueprints-no-branding.png)
+Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de opties te configureren die gebruikers zien wanneer ze het Hoofdmenu in Workfront openen.
+
+![Opties voor Hoofdmenu](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -44,31 +46,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
-   <td>Plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td><p>Huidig:Plan</p>
+   of
+   <p>Nieuw: Standaard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.</p>
+    <p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Het hoofdmenu aanpassen
 
 1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klikken **Hoofdmenu instellen** in de rechterbovenhoek.
+1. Klikken **Hoofdmenu instellen** rechtsboven in de sjabloon.
 
-   In het vak Hoofdmenu dat wordt weergegeven, ziet u de items die momenteel actief zijn in het hoofdmenu voor de sjabloon, plus de items die beschikbaar zijn om toe te voegen. Hier volgen alle mogelijke items die kunnen worden toegevoegd:
-
+   Het vak Hoofdmenu wordt geopend en u kunt de gebieden zien die momenteel worden weergegeven in het hoofdmenu voor de sjabloon, plus de items die beschikbaar zijn om toe te voegen. Hieronder vindt u alle mogelijke items die u kunt toevoegen:
    * Home
 
      >[!TIP]
      >
-     >Standaard wordt Home weergegeven als Mijn updates voor gebruikers die een revisie-licentie hebben, tenzij ze een lay-outsjabloon hebben die is gekoppeld aan hun profiel dat het gebied Mijn updates bevat in het hoofdmenu.
+     >Door gebrek, toont het pictogram van het Huis in het Belangrijkste Menu het Mijn gebied van Updates voor revisie-vergunning gebruikers (in het huidige vergunningsplan), tenzij zij een lay-outmalplaatje verbonden aan hun profiel hebben dat het Mijn gebied van Updates in het Belangrijkste Menu, naast het gebied van het Huis omvat.
 
-   * Portfolio
+   * Portfolio&#39;s
    * Programma&#39;s
    * Projecten
    * Rapporten
@@ -79,14 +85,14 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
      >[!NOTE]
      >
-     >De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Gebruikers
 
      >[!NOTE]
      >
-     >Alleen gebruikers met een abonnement kunnen gebruikers zien ![](assets/users-icon-in-main-menu.png) in het hoofdmenu.
+     >Alleen gebruikers met een licentie voor het abonnement (in het huidige licentiemodel) of gebruikers met een standaardlicentie (in het nieuwe licentiemodel) kunnen het gebruikersgebied zien ![](assets/users-icon-in-main-menu.png) in het hoofdmenu.
 
    * Verzoeken
    * Timesheets
@@ -98,7 +104,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
      >[!NOTE]
      >
-     >Hiervoor is een aanvullende licentie vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Voor doelen is een extra licentie vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mijn updates
    * Borden
@@ -118,10 +124,10 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **Opslaan**.
+   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
 
    >[!TIP]
    >
    >U kunt op elk gewenst moment op Opslaan klikken om de voortgang op te slaan en de sjabloon later blijven wijzigen.
 
-Voor meer informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

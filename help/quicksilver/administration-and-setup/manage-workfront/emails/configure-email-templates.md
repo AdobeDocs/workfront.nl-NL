@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -37,27 +37,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td><p>Huidig: Plan</p>
+   of
+   <p>Nieuw: Standaard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
    <td> <p>Systeembeheerder</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Een nieuwe e-mailsjabloon maken {#create-a-new-email-template}
+*Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+## Een e-mailsjabloon maken {#create-an-email-template}
+
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **E-mail** > **Meldingen**> **E-mailsjablonen**.
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klikken **Nieuwe e-mailsjabloon**.
 
-1. In de **Nieuwe e-mailsjabloon** Geef de volgende informatie op in het vak dat wordt weergegeven:
+1. In de **Nieuwe e-mailsjabloon** de volgende gegevens op:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td>Titel van de e-mailsjabloon (vereist).</td> 
+      <td>Voeg een titel toe voor de e-mailsjabloon. Dit is een verplicht veld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objecttype</td> 
-      <td>Geef het objecttype op waarmee u de sjabloon wilt koppelen (verplicht; standaard wordt dit ingesteld op 'Issue').</td> 
-     </tr>
+      <td>Geef het objecttype op waarmee u de sjabloon wilt koppelen. Kies een van de volgende objecten:
+      <ul>
+      <li>Project</li>
+      <li>Taak</li>
+      <li>Probleem</li>
+      <li>Tijdschema</li> </ul>
+
+   Dit is een verplicht veld en wordt standaard ingesteld op Project.</td>
+   </tr>
      <tr> 
       <td role="rowheader">Beschrijving</td> 
-      <td>Beschrijving van de sjabloon.</td> 
+      <td>Voeg meer informatie toe over de e-mailsjabloon, het doel en het beoogde publiek.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Onderwerp </td> 
-      <td>Onderwerp dat wordt getoond wanneer het e-mailbericht wordt verzonden (vereist).</td> 
+      <td>Voeg de tekst toe die wordt weergegeven in de onderwerpregel van de e-mail wanneer het e-mailbericht dat door de sjabloon wordt gegenereerd, wordt verzonden. Dit is een verplicht veld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lichaam </td> 
-      <td> <p>Inhoud die wordt weergegeven wanneer het e-mailbericht wordt verzonden.</p> <p>U kunt HTML-opmaak gebruiken voor de e-mailinhoud, zoals beschreven in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-opmaak toevoegen aan een e-mailsjabloon</a> in dit artikel.</p> </td> 
+      <td> <p>Voeg de tekst voor de inhoud van het e-mailbericht toe.</p> <p>U kunt HTML-opmaak gebruiken voor de e-mailinhoud, zoals beschreven in de sectie <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-opmaak toevoegen aan een e-mailsjabloon</a> in dit artikel.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ De hoofdtekst van de e-mail voor een melding waarin de taakontvanger wordt gewaa
 
 Voer een van de volgende handelingen uit om de waarde &quot;jokerteken&quot; voor een object op te halen:
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* Raadpleeg de API Explorer en selecteer de namen van uw objecten op het tabblad Velden van een willekeurig object. Zie voor meer informatie over de API Explorer [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Gebruik de waarde &quot;valueField&quot; die u vindt in een weergave in de tekstmodus van een rapport. Zie voor meer informatie over waarden voor de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Gebruik de `valuefield` waarde u binnen een mening van de tekstwijze van een rapport vindt. Zie voor meer informatie over waarden voor de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  De waarde &#39;kop&#39; kan de naam van het object zijn, zoals u wilt dat het in de hoofdtekst van de e-mail wordt weergegeven.
+De `heading` De waarde kan de naam van het object zijn, zoals u deze in de hoofdtekst van de e-mail wilt weergeven.
 
 ### Koppelen naar aangepaste velden met HTML {#link-to-custom-fields-with-html}
 
-U kunt koppelingen naar gebruikers en aangepaste velden opnemen met de **$$** jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan het voorwerp. Ze moeten aan beide zijden van de verwijzing naar databasekenmerken aanwezig zijn.
+U kunt koppelingen naar gebruikers en aangepaste velden opnemen met de `$$` jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan het voorwerp. Ze moeten aan beide zijden van de verwijzing naar databasekenmerken aanwezig zijn.
 
 Als u bijvoorbeeld de volgende tekst toevoegt als HTML, wordt de voornaam van de toegewezen gebruiker toegevoegd aan het herinneringsbericht dat aan een taak is gekoppeld:
 

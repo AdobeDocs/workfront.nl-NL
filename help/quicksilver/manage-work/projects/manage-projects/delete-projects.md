@@ -2,84 +2,57 @@
 title: Projecten verwijderen
 product-area: projects
 navigation-topic: manage-projects
-description: U kunt een project schrappen als het project en zijn gegevens niet meer nodig zijn.
+description: U kunt een project schrappen als het project en zijn gegevens niet meer nodig zijn. Als alternatief voor het schrappen van een project, adviseren wij het uitgeven van het project en het veranderen van de status in Voltooid of Dead. Dit verwijdert alle huidige taken met betrekking tot het project van de de taaklijst van een gebruiker, maar bewaart alle gegevens verbonden aan het project.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+recommendations: noDisplay, noCatalog
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Projecten verwijderen
 
+<!--Audited: 01/2024-->
+
 U kunt een project schrappen als het project en zijn gegevens niet meer nodig zijn.
 
 Als alternatief voor het schrappen van een project, adviseren wij het uitgeven van het project en het veranderen van de status in Voltooid of Dead. Dit verwijdert alle huidige taken met betrekking tot het project van de de taaklijst van een gebruiker, maar bewaart alle gegevens verbonden aan het project.
 
+U kunt een project in een projectlijst of op het projectniveau schrappen.
+
 ## Toegangsvereisten
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Adobe Workfront-plan</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
+   <td> <p>Adobe Workfront-licentie*</p> </td> 
+   <td> <p>Huidige licentie: abonnement </p> 
+   of
+   <p>Nieuwe licentie: standaard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken met de mogelijkheid projecten te maken en te verwijderen</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Bewerk toegang tot projecten, taken, problemen met de mogelijkheid projecten, taken en problemen te verwijderen</p> <p><b>OPMERKING</b></p>
-
-<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>U kunt machtigingen voor het project, taken en problemen in het project beheren met de mogelijkheid om het project, de taken en problemen te verwijderen. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>Bewerk toegang tot projecten, taken, problemen met de mogelijkheid projecten, taken en problemen te verwijderen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
-U kunt een project in een projectlijst of op het projectniveau schrappen.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Begrijp het proces om projecten te schrappen
 
@@ -125,7 +98,7 @@ U kunt een project in een projectlijst of op het projectniveau schrappen.
 
      U kunt geen project schrappen dat de Verslagen van het Factureren met een status van Gevonden heeft. Zie voor meer informatie [Factureringsrecords maken](../../projects/project-finances/create-billing-records.md).
 
-* Afhankelijk van hoe uw beheerder van Workfront het Project, de Taak, of de Voorkeur van de Schrapping van de Uitgave in de Voorkeur van de Tijdopname &amp; van het Uur van uw instantie van Workfront vormt, worden de uren geregistreerd voor de taken, de kwesties, of het project behandeld op één van de volgende manieren wanneer het schrappen van het project:
+* Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van de Taak, of van de Schrapping van de Uitgave in de Voorkeur van de Tijdopname &amp; van Uren van uw instantie van Workfront vormt, worden de uren geregistreerd voor de taken, de kwesties, of het project behandeld op één van de volgende manieren wanneer het schrappen van het project:
 
    * De uren blijven op timesheet als algemene tijd.
    * De uren worden verwijderd en worden hersteld als het project ooit wordt hersteld.
@@ -138,7 +111,7 @@ U kunt een project in een projectlijst of op het projectniveau schrappen.
    * Als het project u schrapt met het enige gepubliceerde initiatief van een plan verbonden is, wordt de aanwijzing dat het plan is gepubliceerd ook verwijderd.
    * Als u een geschrapt project terugkrijgt, wordt het project teruggekregen, maar zijn verbinding aan het initiatief wordt niet hersteld en het gebied van de Planner van het Scenario niet meer toont in de Details van het Project.
 
-     De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
      Voor informatie over projecten die verband houden met initiatieven in het Scenario Planner raadpleegt u [Werk of creeer projecten door initiatieven in de Planner van het Scenario bij te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -166,7 +139,7 @@ U kunt projecten uit een lijst van projecten schrappen.
 ## Een project op projectniveau verwijderen
 
 1. Ga naar het project u wilt schrappen.
-1. Klik op de knop **Meer** pictogram ![](assets/qs-more-menu.png)en klik vervolgens op **Project verwijderen**.
+1. Klik op de knop **Meer** pictogram ![](assets/qs-more-menu.png) rechts van de projectnaam klikt u op **Project verwijderen**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -248,6 +248,18 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 ## Stap 1 - Aan de slag met Maestro - {#step1-to-maestro}
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Maestro]**.
+
+## Belangrijke intro van Maestro - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
+>
+>Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
+>
+>Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
+>
+>Zie voor meer informatie over Maestro [Overzicht van Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

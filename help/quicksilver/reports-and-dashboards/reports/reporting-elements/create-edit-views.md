@@ -2,11 +2,11 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Weergaven maken of bewerken in Adobe Workfront
-description: U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. U kunt verschillende typen weergaven gebruiken in Adobe Workfront.
+description: U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Weergaven maken of bewerken in Adobe Workfront
 
-U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. U kunt verschillende typen weergaven gebruiken in Adobe Workfront.
+U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 
 In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Zie voor meer informatie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te maken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te maken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -61,17 +61,17 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
 
 1. Klik op de knop **Weergave** vervolgkeuzemenu in een lijst waarin u een weergave wilt maken of aanpassen.
 1. (Optioneel) Als u een bestaande weergave wilt aanpassen, selecteert u de standaardweergave die u wilt aanpassen.\
-   De standaardmeningen zijn beschikbaar op om het even welk type van lijst in Workfront, zoals een rapport, een projectlijst, of een taaklijst.
+   De standaardmeningen zijn beschikbaar op om het even welk type van lijst in Workfront, zoals een rapport, een projectlijst, of taaklijst.
 1. Klik op de knop **Weergave** vervolgkeuzemenu en vervolgens op **Weergave aanpassen** of **Nieuwe weergave**.\
    De **Weergave aanpassen** wordt weergegeven.
 
 1. In de **Kolomvoorvertoning** in, voert u een van de volgende handelingen uit:
 
-   * Wijzig de waarde van een kolom door op de kolomtitel te klikken en vervolgens een nieuw veld te selecteren.
+   * Wijzig de waarde van om het even welke kolom door de kolomtitel te klikken en dan een nieuw gebied te selecteren.
    * Een kolom toevoegen door te klikken op **Kolom toevoegen** typt u eerst de naam van de kolom die u wilt toevoegen en klikt u erop wanneer deze kolom in de vervolgkeuzelijst wordt weergegeven.
    * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
 
-      * (Optioneel) In het dialoogvenster **Kolominstellingen** gebied, klikt u op **Deze kolom samenvatten met** selecteert u een van de beschikbare opties voor het samenvatten van de gegevens. Wanneer u deze optie kiest, wordt de informatie in uw kolom samengevoegd in de groepen van het rapport.\
+      * (Optioneel) In het dialoogvenster **Kolominstellingen** gebied, klik **Deze kolom samenvatten met** selecteert u een van de beschikbare opties voor het samenvatten van de gegevens. Wanneer u deze optie kiest, wordt de informatie in uw kolom samengevoegd in de groepen van het rapport.\
         Voor datumvelden kunt u de waarden als volgt samenvatten:
 
          * Maximum
@@ -87,11 +87,11 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
 
         >[!NOTE]
         >
-        >De volgende uitzonderingen gelden voor bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
+        >De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
         >   
         >   * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
-        >   * Werkelijke uren tellen de waarden voor de hoofdouder en de standalone taken samen; zij tellen niet de aantallen voor de ouders van oudertaken of de kindtaken samen.
-        >   * Aangepaste gegevensvelden voor getal- en valutawaarden voegen alle taken samen: ouders, kinderen, ouders van ouders en zelfstandige taken.
+        >   * Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
+        >   * Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
         >   
         >
 
@@ -122,7 +122,7 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
          </tbody> 
         </table>
 
-        Zie het artikel voor meer informatie over het voorwaardelijk opmaken van weergaven in rapporten [Voorwaardelijke opmaak gebruiken in tekstmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Zie het artikel voor meer informatie over de voorwaardelijke opmaak van weergaven in rapporten [Voorwaardelijke opmaak gebruiken in tekstmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Voorwaardelijk) Als u hebt geklikt **Geavanceerde opties**, klikt u op **Gereed**.
 
@@ -134,26 +134,26 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
    >
    >De **Opslaan als nieuwe weergave** is de enige beschikbare optie wanneer u een ingebouwde weergave van Workfront aanpast.
 
-   Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. anders, wordt u ertoe aangezet om een versie te bewaren. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
+   Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie op te slaan. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
 
 ### Een eenvoudige weergave maken of aanpassen {#create-or-customize-an-agile-view}
 
-U kunt een nieuwe Google-weergave maken of een bestaande, flexibele weergave aanpassen die u eerder hebt gemaakt.
+U kunt een flexibele weergave maken of een bestaande, flexibele weergave aanpassen die u eerder hebt gemaakt.
 
 >[!IMPORTANT]
 >
->Gelijke weergaven zijn alleen beschikbaar wanneer u een project weergeeft.
+>Gegraveerde weergaven zijn alleen beschikbaar wanneer u een project weergeeft.
 
-Raadpleeg het artikel voor meer informatie over de Google-weergaven [Een project beheren in de Google-weergave](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Raadpleeg het artikel voor meer informatie over de Google-weergaven [Een project beheren in de Google View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 >[!NOTE]
 >
->Deze procedure is alleen van toepassing op de oudere versie van de Agile, niet op de bestuursweergave van een project.
+>Deze procedure is alleen van toepassing op de oudere Agile-weergave, niet op de bestuursweergave van een project.
 
 U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
 1. Ga naar de lijst met taken in een project.
-1. Klik op de knop **Raad** pictogram ![Pictogram bord](assets/board-icon-for-agile-view.png)en klik vervolgens op **Oudere pagina gebruiken** in de weergave aan boord.
+1. Klik op de knop **Raad** pictogram ![Bordebord, pictogram](assets/board-icon-for-agile-view.png)en klik vervolgens op **Oudere pagina gebruiken** in de mening van de raad.
 
 1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
 
@@ -238,7 +238,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
    * Artikelnaam met een koppeling die rechtstreeks naar de taak verwijst
    * De projectnaam met een verbinding direct aan het project\
-     Deze koppeling wordt alleen weergegeven wanneer de schakelweergave op een herhaling wordt gebruikt. wordt niet weergegeven wanneer u een mobiele weergave gebruikt voor een project.
+     Deze koppeling wordt alleen weergegeven wanneer de Tegelweergave op een herhaling wordt gebruikt. De koppeling wordt niet weergegeven wanneer u een flexibele weergave op een project gebruikt.
    * De taakbeschrijving
    * Huidige verplichting
    * Het percentage voltooide bewerkingen weergeven en bewerken door het percentage aan te passen dat is voltooid of door het aantal punten of uren aan te passen dat is voltooid
@@ -247,6 +247,6 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
    U kunt aanvullende gegevens (inclusief aangepaste gegevens) weergeven op artikelkaarten. U wilt mogelijk om een aantal redenen extra velden weergeven op artikelkaarten. Bijvoorbeeld, zou u identiteitskaart van de Klant kunnen willen tonen als u aan verhalen voor veelvoudige klanten binnen het project werkt, of u zou de Datum van het Begin van de Taak kunnen willen tonen.
 
 1. Klikken **Opslaan**.\
-   Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. anders, wordt u ertoe aangezet om een versie te bewaren. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
+   Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie op te slaan. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
 
-1. (Optioneel) Klik op de knop **Lijst** om terug te keren naar de takenlijst.
+1. (Optioneel) Klik op de knop **Lijst** pictogram om terug te keren naar de takenlijst.

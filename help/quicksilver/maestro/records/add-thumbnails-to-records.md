@@ -4,7 +4,7 @@ description: U kunt recordgegevens bewerken in Adobe Maestro en elke record kopp
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen voor een werkruimte weergeven of vergroten </p>  
-   <p>Machtigingen voor de tabelweergave weergeven of vergroten </p> 
+   <td> <p>Contribute of hoger machtigingen voor een werkruimte </p>  
+   <p>Contribute of hoger rechten voor de tabelweergave </p> 
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>

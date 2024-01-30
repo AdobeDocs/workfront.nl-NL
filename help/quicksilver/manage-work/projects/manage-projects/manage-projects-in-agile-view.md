@@ -6,37 +6,14 @@ description: U kunt flexibele functionaliteit voor uw project gebruiken zonder d
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Een project beheren in de Google View
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 U kunt flexibele functionaliteit voor uw project gebruiken zonder de administratieve uitdagingen die agile praktijken typisch begeleiden (zoals het beheren van een teamachterstand of het creëren van herhalingen).
 
@@ -51,30 +28,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td> <p>Huidig: Controleren of hoger</p> 
+   <p>Nieuw: Medewerker of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
    <td> <p>Toegang tot de volgende gebieden bewerken:</p> 
     <ul> 
      <li> <p>Projecten</p> </li> 
      <li> <p>Rapporten, dashboards, kalenders</p> </li> 
      <li> <p>Filters, weergaven, groepen</p> </li> 
-    </ul> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor het project</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor het project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Agile-projecten begrijpen
 
@@ -111,7 +89,9 @@ Er zijn sommige verschillen wanneer het gebruiken van flexibele meningen op een 
 * Taken die geen bovenliggende taak of subtaak hebben, worden altijd weergegeven als één artikelkaart op de artikelkaart.\
   Deze taken worden bijvoorbeeld als volgt weergegeven in de projectenlijstweergave:
 
-  ![Agile projectlijst - taken zonder ouder of subtaken](assets/agile-project-single-list-nwe.png) Deze taken worden als volgt weergegeven in de schakelweergave van het project:
+  ![Agile projectlijst - taken zonder ouder of subtaken](assets/agile-project-single-list-nwe.png)
+
+  Deze taken worden als volgt weergegeven in de schakelweergave van het project:
 
   ![Projectweergave - taken zonder bovenliggende of subtaken](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 ## Een project weergeven in de Google-weergave
 
 1. Ga naar het project u in een flexibele mening, op of de taaklijst of de lijst van de kwestie wilt bekijken.
-1. Klik op de knop **Raad** pictogram ![Bordebord, pictogram](assets/board-icon-for-agile-view.png).
+1. Klik op de knop **Boekhouding** pictogram ![Bordebord, pictogram](assets/board-icon-for-agile-view.png).
 
    De boardweergave van het project wordt standaard weergegeven.
 
@@ -210,7 +190,9 @@ Voor meer informatie over het maken en aanpassen van flexibele weergaven raadple
 >
 >Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.
 
-Voor informatie over hoe u een Tegelweergave kunt delen, raadpleegt u [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+U kunt een door u gemaakte apparaatweergave delen, net zoals u andere weergaven of filters of groepen deelt.
+
+Zie voor meer informatie [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Een bestaande geanimeerde weergave verwijderen
 
@@ -218,4 +200,6 @@ Voor informatie over hoe u een Tegelweergave kunt delen, raadpleegt u [Een filte
 >
 >Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.
 
-Zie de sectie &quot;Een weergave verwijderen&quot; in het artikel voor informatie over het verwijderen van een weergave [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+U kunt een Google-weergave verwijderen op dezelfde manier als andere weergaven, filters of groepen worden verwijderd.
+
+Zie de klasse [Filters, weergaven en groepen verwijderen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

@@ -4,9 +4,9 @@ description: U kunt een weergave delen met anderen om ervoor te zorgen dat u kun
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Weergaven delen
+
+{{maestro-important-intro}}
 
 U kunt een weergave delen met anderen om ervoor te zorgen dat u kunt samenwerken wanneer u in Adobe Workfront Maestro werkt.
 
@@ -107,6 +109,8 @@ Een weergave delen met anderen:
    * Beheren
 
      Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Klikken **Koppeling kopiëren** om een koppeling naar de weergave naar het klembord te kopiëren.
+1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 1. Klikken **Opslaan**.
 
 

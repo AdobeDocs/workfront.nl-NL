@@ -4,20 +4,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: In een aangepast formulier kunt u een berekend aangepast veld maken waarmee berekeningen worden gegenereerd. Hiertoe maakt u een instructie die gegevensexpressies en de namen van bestaande velden gebruikt. Dit kunnen aangepaste velden, berekende aangepaste gegevensvelden en ingebouwde Workfront-velden zijn. Deze verklaring berekent de gegevens u ingaat en toont het resultaat in het nieuwe berekende douaneveld.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # Berekende gegevens toevoegen aan een aangepast formulier met de oudere formulierbuilder
 
+<!--Audited: 01/2024-->
+
 In een aangepast formulier kunt u een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
+
+Hiertoe maakt u een instructie die gegevensexpressies en de namen van bestaande velden gebruikt. Dit kunnen aangepaste velden, berekende aangepaste gegevensvelden en ingebouwde Adobe Workfront-velden zijn.
+
+Deze verklaring berekent de gegevens u ingaat en toont het resultaat in het nieuwe berekende douaneveld.
 
 Een berekend aangepast veld kan het volgende bevatten:
 
@@ -48,35 +54,39 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td><p>Huidig: Plan</p>
+   of
+   <p>Nieuw: Standaard</p>
+   </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of configuratie op toegangsniveau u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Een berekend veld toevoegen aan een aangepast formulier {#add-a-calculated-field-to-a-custom-form}
 
-U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u al hebt gemaakt.
+U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u al hebt gemaakt in de expressie van een berekend aangepast veld.
 
 >[!IMPORTANT]
 >
->Voordat u een nieuw berekend aangepast veld maakt, moet u de bestaande velden identificeren die u wilt opnemen, zodat u zeker weet dat de gegevens die nodig zijn voor de berekening aanwezig zijn in Workfront.
+>Voordat u een berekend aangepast veld maakt, identificeert u de bestaande velden die u wilt opnemen, zodat u zeker weet dat de gegevens die nodig zijn voor de berekening aanwezig zijn in Workfront.
 
 1. Beginnen met het maken of bewerken van een aangepast formulier, zoals beschreven in [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Op de **Veld toevoegen** tabblad, klikt u op **Berekend**.
 
-   In het weergavegebied rechts ziet u het veld *12345*. Dit is slechts een indicator om u eraan te herinneren dat het veld een berekend aangepast veld is terwijl u het aangepaste formulier maakt of bewerkt. Wanneer het formulier aan een object is gekoppeld en gebruikers het invullen, zien ze het resultaat van de berekening in het veld, nooit de waarde *12345* -indicator.
+   In het weergavegebied rechts ziet u in het veld een vulwaarde van 12345. Dit is een indicator om u eraan te herinneren dat het veld een berekend aangepast veld is terwijl u het aangepaste formulier maakt of bewerkt. Wanneer het formulier aan een object is gekoppeld en gebruikers het invullen, zien ze in het veld het resultaat van de berekening en niet de waarde 12345.
 
 1. Geef de volgende informatie op voor het berekende veld:
 
@@ -88,29 +98,44 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td>Typ een label voor het veld. Dit is wat gebruikers zien wanneer ze het aangepaste formulier gebruiken. Het veld <b>Naam</b>, die automatisch invult, wordt door Workfront in rapporten genoemd.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" id="instructions">Instructies</td> 
-      <td> Standaard wordt de formule die u voor het veld maakt hier opgeslagen. U kunt tekst toevoegen voor aanvullende informatie over het veld en de formule in het veld. Dit kan op twee manieren nuttig zijn: 
-       <ul> 
-        <li> <p>Als herinnering aan wat de formule is en hoe het werkt. Dit is vooral handig als u dit berekende aangepaste veld wilt gebruiken op meerdere formulieren.</p> </li> 
-        <li> <p>Als knopinfo kunnen gebruikers zien wanneer ze de muisaanwijzer op het veld plaatsen. U voegt hier alle tekst toe die u in de knopinfo wilt zien.</p> <p>Als u niet wilt dat zij de formule in tooltip zien, wat voor hen verwarrend zou kunnen zijn, kunt u het verbergen. Zie de tabelrij "Formule weergeven in instructies" in de sectie voor instructies <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">De berekening maken voor het berekende aangepaste veld</a> in dit artikel.</p> </li> 
-       </ul> <p>Zie voor informatie over het gebruik van hetzelfde berekende aangepaste veld op een nieuw formulier <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier</a>.</p> </td> 
+      <td>Typ een label voor het veld. Dit zien gebruikers wanneer ze het aangepaste formulier gebruiken. Het veld <b>Naam</b>In rapporten wordt door Workfront naar dit item verwezen. Dit vult automatisch in en komt overeen met het label. Dit is een verplicht veld.</td> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Naam</td> 
+   <td>Standaard is de naam van een veld gelijk aan de naam van het veld. U kunt de naam van een veld echter wijzigen zodat deze anders is dan de naam van een veld. Het veld <b>Naam</b> Workfront verwijst hiernaar in rapporten. Dit is een verplicht veld.</td> 
+   </tr>
+
+   <tr> 
+     <td role="rowheader" id="instructions">Instructies</td> 
+      <td> <p>Voeg tekst toe voor aanvullende informatie over het veld en de formule in het veld.</p>
+      <p>U kunt hier ook de formule plakken die wordt gebruikt in de berekening van het aangepaste veld. In dit geval raden we u aan eerst de berekening van het aangepaste veld bij te werken en vervolgens de laatste expressie uit het veld Berekening te kopiëren en deze in het veld Instructies te plakken. </p>
+
+
+   Dit kan op de volgende manieren nuttig zijn:
+   <ul> 
+      <li> <p>Als herinnering aan wat de formule is en hoe het werkt. Dit is vooral handig als u dit berekende aangepaste veld wilt gebruiken op meerdere formulieren.</p> </li> 
+       <li> <p>Als knopinfo kunnen gebruikers zien wanneer ze de muisaanwijzer op het veld plaatsen. U kunt hier alle tekst toevoegen die u in de knopinfo wilt zien.</p> </li> 
+       </ul>
+       <p>Als u niet wilt dat gebruikers de formule in tooltip zien, die voor hen verwarrend zou kunnen zijn, voeg het niet aan het gebied van Instructies toe. Gebruik in plaats daarvan de instelling "Weergaveformule in instructies" om de formule weer te geven of te verbergen, zoals verder wordt beschreven in dit artikel. <a href="#build-the-calculation-for-your-calculated-custom-field">De berekening maken voor het berekende aangepaste veld</a> in dit artikel.</p>
+
+   <p>Zie voor informatie over het gebruik van hetzelfde berekende aangepaste veld op een nieuw formulier <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier</a>.</p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Indeling</td> 
-      <td> <p>De indeling waarin u de resultaten van het veld wilt opslaan en weergeven.</p> <p>Als het veld wordt gebruikt in wiskundige berekeningen, moet u altijd een <strong>Getal</strong> of <strong>Valuta</strong> gebruiken. Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</p> 
-      <p><b>BELANGRIJK</b>: Voordat u een indeling kiest, moet u rekening houden met de juiste indeling voor het nieuwe veld. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p> </td> 
+      <td> <p>De indeling waarin u de resultaten van het veld wilt opslaan en weergeven.</p> <p>Als u het veld wilt gebruiken in wiskundige berekeningen, moet u altijd een <strong>Getal</strong> of <strong>Valuta</strong> gebruiken. Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</p> 
+      <p><b>BELANGRIJK</b>: <p>Voordat u een indeling kiest, moet u rekening houden met de juiste indeling voor het nieuwe veld. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Doorgaan naar [De berekening maken voor het berekende aangepaste veld](#build-the-calculation-for-your-calculated-custom-field) in dit artikel.
+1. De aangepaste veldgegevens blijven bijwerken, zoals wordt beschreven in de sectie [De berekening maken voor het berekende aangepaste veld](#build-the-calculation-for-your-calculated-custom-field) in dit artikel.
 
 ## De berekening maken voor het berekende aangepaste veld {#build-the-calculation-for-your-calculated-custom-field}
 
-1. Beginnen met het maken van het berekende aangepaste veld, zoals wordt uitgelegd in de sectie [Een berekend veld toevoegen aan een aangepast formulier](#add-a-calculated-field-to-a-custom-form) in dit artikel.
+1. Beginnen met het maken van het berekende aangepaste veld, zoals beschreven in de sectie [Een berekend veld toevoegen aan een aangepast formulier](#add-a-calculated-field-to-a-custom-form) in dit artikel.
 
 1. Klikken **Maximaliseren** om de **Rekeneditor** en maak uw berekening.
 
@@ -124,11 +149,18 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
 
    Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de velden bevatten waarnaar u wilt verwijzen wanneer het aangepaste formulier aan een object is gekoppeld. Zie voor informatie over de beschikbare expressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   Elk veld moet met accolades zijn omgeven, zoals in de sectie wordt uitgelegd [Syntaxis vereist in berekende aangepaste velden](#syntax-required-in-calculated-custom-fields) in dit artikel. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen.
+   Elk veld moet tussen accolades staan, zoals in de sectie wordt uitgelegd [Syntaxis vereist in berekende aangepaste velden](#syntax-required-in-calculated-custom-fields) in dit artikel. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen.
 
-   In een berekening kunt u naar elk type aangepast veld verwijzen, met uitzondering van twee: Tekstveld met opmaaktype en beschrijvende tekst. Zie voor informatie over de aangepaste veldtypen [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+   >[!NOTE]
+   >
+   >   In een berekening kunt u niet verwijzen naar velden van de volgende typen: 
+   >   
+   >   * Tekstveld met opmaak
+   >   * Beschrijvende tekst.
+   >   
+   >   Zie voor informatie over de aangepaste veldtypen [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-1. Klik in het grote tekstvak en klik vervolgens op **Expressies** en **Velden** die beschikbaar zijn om deze aan uw berekening toe te voegen.
+1. Klik in het grote tekstvak in het vak Rekeningeditor en klik vervolgens op Zoeken of Uitvouwen en klik op een optie in het menu **Expressies** en **Velden** aan de rechterkant van het tekstvak. Dit voegt ze toe aan de berekening.
 
    U kunt ook een expressie of veld in het grote tekstvak typen en deze selecteren wanneer deze wordt weergegeven. Elk item wordt weergegeven met een &#39;F&#39; voor een veld of een &#39;E&#39; voor een expressie.
 
@@ -144,7 +176,7 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
    >  ![](assets/colors-fields-expressions.jpg)
    >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak ervan weer te geven.
    >  ![](assets/error-help.png)
-   >* Geef een voorvertoning van de resultaten weer in het gebied onder de berekening.
+   >* In de **Voorvertoning op een bestaand object** onder de berekening, typt u de naam van een Workfront-object en selecteert u het object wanneer het in de lijst wordt weergegeven. Zo kunt u zien hoe het veld eruitziet wanneer het formulier aan het object wordt gekoppeld.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Verwijzingsexpressies in een lange berekening met behulp van de regelnummers die aan de linkerkant worden weergegeven.
@@ -153,7 +185,7 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
 
    >[!NOTE]
    >
-   >In het weergavegebied rechts ziet u het veld *12345.* Dit is slechts een indicator om u eraan te herinneren dat het veld een berekend aangepast veld is terwijl u het aangepaste formulier maakt of bewerkt. Wanneer het formulier aan een object is gekoppeld en gebruikers het invullen, zien ze het resultaat van de berekening in het veld, nooit de waarde *12345* -indicator.
+   >In het weergavegebied rechts ziet u in het veld een vulwaarde van 12345. Dit is een indicator om u eraan te herinneren dat het veld een berekend aangepast veld is terwijl u het aangepaste formulier maakt of bewerkt. Wanneer het formulier aan een object is gekoppeld en gebruikers het invullen, zien ze in het veld het resultaat van de berekening en niet de waarde 12345.
 
 1. (Optioneel) Gebruik een van de volgende opties om het berekende aangepaste veld verder te configureren:
 
@@ -196,29 +228,29 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
 
 ## Syntaxis vereist in berekende aangepaste velden
 
-Voor elk veld moet de hieronder beschreven syntaxis worden gebruikt, met accolades rond elke veldnaam. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen. Als u gegevens onjuist invoert in een berekening, verschijnt er een waarschuwing. U kunt het formulier alleen opslaan als u de berekening bewerkt en geldige velden en een geldige berekende expressie opgeeft.
+Voor elk veld dat wordt gebruikt in een aangepast berekend veld, moet de hieronder beschreven syntaxis worden gebruikt, met accolades rond elke veldnaam. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen. Als u gegevens onjuist invoert in een berekening, verschijnt er een waarschuwing. U kunt het formulier alleen opslaan als u de berekening bewerkt en geldige velden en een geldige berekende expressie opgeeft.
 
 >[!NOTE]
 >
->Het systeem doet momenteel alleen suggesties wanneer u de naam begint te typen van een veld waarnaar u wilt verwijzen voor een object waaraan het aangepaste formulier wordt gekoppeld, niet voor het bovenliggende object van het object.
+>Momenteel doet het systeem alleen suggesties wanneer u de naam typt van een veld waarnaar u wilt verwijzen op een object waaraan het aangepaste formulier wordt gekoppeld, niet op het bovenliggende element van het object.
 
 ### Namen van ronde velden met accolades
 
-* Als u wilt dat de berekening naar een ingebouwd veld verwijst, moet de naam van het veld tussen accolades staan.
+* Als u wilt dat de berekening naar een ingebouwd veld verwijst, moet de naam van het veld tussen accolades staan en moet deze zijn opgemaakt zoals deze in de Workfront-database wordt weergegeven. U kunt de naam van de velden niet gebruiken zoals deze worden weergegeven in de Workfront-interface.
 
 Bijvoorbeeld: `{actualRevenue}`
 
-Veldnamen zijn hoofdlettergevoelig en moeten in de berekening precies worden weergegeven hoe ze in het Workfront-systeem worden weergegeven.
+Veldnamen zijn hoofdlettergevoelig en moeten worden weergegeven in de indeling voor camelgevallen, zoals ze worden weergegeven in het Workfront-systeem.
 
-* Als u wilt dat de berekening naar een aangepast veld verwijst, moet de naam van het veld tussen accolades staan en door `DE:` tussen de haakjes.
+* Als u wilt dat de berekening naar een aangepast veld verwijst, moet de naam van het veld tussen accolades staan en door `DE:` tussen de haakjes. Aangepaste velden zijn hoofdlettergevoelig en moeten worden opgemaakt zoals ze in de Workfront-interface worden weergegeven.
 
 Bijvoorbeeld: `{DE:Profit}`
 
 In het systeem worden alle aangepaste velden weergegeven waaruit u kunt kiezen wanneer u typt `DE:`.
 
-* Als u wilt dat de berekening verwijst naar een veld dat gegevens uit het veld *parent* Als het aangepaste formulier aan een object is gekoppeld, moet u de veldnaam ook tussen accolades en het objecttype van het bovenliggende object plaatsen.
+* Als u wilt dat de berekening verwijst naar een veld dat gegevens van het bovenliggende object trekt wanneer het aangepaste formulier aan een object is gekoppeld, moet u de veldnaam voorafgaan aan het objecttype van het bovenliggende object, ook tussen accolades.
 
-  Als het aangepaste formulier bijvoorbeeld is geconfigureerd voor taken en u wilt dat het veld de werkelijke inkomsten van het bovenliggende object berekent wanneer het formulier aan een taak is gekoppeld, moet u aangeven `Project` als het objecttype van het veld:
+  Als het aangepaste formulier bijvoorbeeld is geconfigureerd voor taken en u wilt dat het veld de werkelijke inkomsten van het bovenliggende object berekent wanneer het formulier aan een taak is gekoppeld, moet u aangeven `project` als het objecttype van het veld:
 
   `{project}.{actualRevenue}`
 
@@ -226,7 +258,7 @@ In het systeem worden alle aangepaste velden weergegeven waaruit u kunt kiezen w
 
   `{project}.{DE:profit}`
 
-  Als u niet zeker bent wat het objecttype van het oudervoorwerp zal zijn omdat de douane voor voor veelvoudige objecten types wordt gevormd, kunt u de variabele van de vervangingsfilter gebruiken `$$OBJCODE` om de berekening voor elk van de mogelijke typen te laten werken. Zie voor meer informatie [Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten](#calculated-custom-fields-in-multi-object-custom-forms) in dit artikel.
+  Als u niet zeker weet wat het objecttype van het bovenliggende object is omdat het aangepaste formulier is geconfigureerd voor meerdere objecttypen, kunt u de variabele jokertekenfilter gebruiken `$$OBJCODE` om de berekening voor elk van de mogelijke typen te laten werken. Zie voor meer informatie [Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten](#calculated-custom-fields-in-multi-object-custom-forms) in dit artikel.
 
 ### Afzonderlijke items met perioden
 
@@ -236,11 +268,16 @@ Als u bijvoorbeeld in een aangepast taaktype formulier de naam van de eigenaar v
 
 `{project}.{porfolio}.{owner}`
 
-Dit zou het volgende bepalen: Van het voorwerp van het douaneformulier (een taak), kunt u tot het volgende voorwerp met betrekking tot de taak (een project) toegang hebben. Van daar, kunt u tot het volgende verwante voorwerp aan het project (een portefeuille) toegang hebben, dan het volgende verwante voorwerp aan de portefeuille (de eigenaar).
+Dit systeem wint de informatie in de volgende stappen (in deze orde) terug:
+
+1. Van het object van het aangepaste formulier (een taak), daarna
+1. Heb toegang tot de ouder van de taak, of een ander verwant voorwerp (project), dan
+1. Heb toegang tot de ouder, of een ander verwant voorwerp van het project (een portefeuille), en dan
+1. Open het volgende gerelateerde object naar het portfolio (de eigenaar van het portfolio).
 
 ### Naamsyntaxis voor het verwijzen naar een aangepast veld
 
-Wanneer u in een berekend aangepast veld naar een ander aangepast veld verwijst, moet u de naam van het veld invoeren zoals dit wordt weergegeven in de gebruikersinterface van Workfront.
+Wanneer u in een berekend aangepast veld naar een ander aangepast veld verwijst, moet u de naam van het veld invoeren die in de Workfront-interface wordt weergegeven.
 
 Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast veld met de naam Executive sponsor, typt u het volgende:
 
@@ -248,12 +285,11 @@ Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast v
 
 >[!NOTE]
 >
->De syntaxis voor een veld met een typekop is iets anders dan voor andere typen velden, omdat u deze moet toevoegen `:name` aan het einde.
+>De syntaxis voor een Typeahead-veld is anders dan voor andere typen velden, omdat u het veld moet toevoegen `:name` aan het einde.
 >
 >Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast tekstveld met de naam &quot;Executive sponsor&quot;, typt u:
 >
 >`{DE:Executive sponsor:name}`
-
 
 ## Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten {#calculated-custom-fields-in-multi-object-custom-forms}
 
@@ -294,4 +330,4 @@ Berekende aangepaste velden op een object worden automatisch opnieuw berekend wa
 
   >[!NOTE]
   >
-  ><div>In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en bewaard door Coordinated Universal Time (UTC), niet door de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd op basis van de afzonderlijke tijdzones van elke gebruiker.</div>
+  ><div>In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en opgeslagen volgens de Coordinated Universal Time (UTC), niet volgens de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd op basis van de afzonderlijke tijdzones van elke gebruiker.</div>

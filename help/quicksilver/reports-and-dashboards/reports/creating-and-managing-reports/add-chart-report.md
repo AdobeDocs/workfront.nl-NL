@@ -6,22 +6,29 @@ description: U kunt uw rapporten verbeteren door een grafiek toe te voegen. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # Een diagram toevoegen aan een rapport
 
+<!--Audited: 01/2024-->
+
 U kunt uw rapporten verbeteren door een grafiek toe te voegen. U kunt grafieken toevoegen aan bestaande rapporten of aan rapporten die u creeert.
 
-Alvorens u een grafiek aan een rapport toevoegt, zou u een Mening en een Groepering voor het rapport moeten tot stand brengen. De meeste grafieken kunnen niet worden toegevoegd tenzij de informatie in het rapport wordt gegroepeerd. Het enige diagram dat zonder groepering kan worden toegevoegd, is een diagramdiagram.\
-Voor informatie over hoe te om een Mening tot stand te brengen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+Alvorens u een grafiek aan een rapport toevoegt, zou u een Mening en een Groepering voor het rapport moeten tot stand brengen.
+
+U kunt geen grafieken aan de meeste rapporten toevoegen tenzij u eerst de informatie in het rapport groepeert. Het enige diagram dat zonder groepering kan worden toegevoegd, is een diagramdiagram.
+
+Zie voor informatie over weergaven [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 Zie voor meer informatie over groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Als uw rapport teveel punten toont, wordt een grafiek niet gecreeerd. In dit geval, moet u ook een Filter aan het rapport toevoegen om het aantal resultaten in uw rapport te verminderen.\
+Als uw rapport teveel punten toont, wordt een grafiek niet gecreeerd. In dit geval, moet u ook een Filter aan het rapport toevoegen om het aantal resultaten in uw rapport te verminderen.
+
 Zie voor meer informatie over filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
@@ -33,33 +40,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Huidig: Plan </p>
+   of
+   <p>Nieuw: Standaard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een diagram toevoegen aan een rapport
 
 1. Ga naar een bestaand rapport of maak een nieuw rapport. Voor meer informatie over het creëren van een nieuw rapport, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Voorwaardelijk) Als u naar een bestaand rapport ging, klik **Handelingen rapporteren** > **Bewerken**.
 
-1. Zorg ervoor dat de **Kolommen (weergave)** is bijgewerkt om aan de vereisten van het rapport te voldoen.\
-   Voor informatie over om de Mening voor het rapport tot stand te brengen of te wijzigen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Zorg ervoor dat de **Kolommen (weergave)** tabblad is bijgewerkt om de informatie weer te geven die u in een diagram wilt weergeven in het rapport.
+
+   Voor informatie over om de Mening voor het rapport tot stand te brengen of te wijzigen, zie [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Klik op de knop **Groepen** en voegt u een groepering toe.
 
@@ -69,13 +79,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* Groepen in tekstmodus worden niet ondersteund in grafieken. Voor meer informatie over tekst-wijze groeperingen, zie [Tekstmodus in een groep bewerken](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Als u één groepering toevoegt die één metrisch vertegenwoordigt, tonen alle grafieken behalve een cirkeldiagram elk resultaat in de groepering als de zelfde kleur.
 
-   Zie voor meer informatie over groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie over het maken van groepen raadpleegt u [Groepen maken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Selecteer de **Diagram** tab.
 1. Klik op een diagramtype om dit te selecteren.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. U kunt de volgende typen grafieken toevoegen aan een Adobe Workfront-rapport:
+1. Selecteer een van de volgende typen grafieken:
 
    * [Kolomdiagram](#column-chart)
    * [Staafdiagram](#bar-chart)
@@ -100,12 +110,13 @@ Als u een **Kolom** diagram naar uw rapport:
 1. (Optioneel) **Kolommen groeperen**: Selecteer deze optie als u wilt definiëren hoe de kolommen moeten worden gegroepeerd.\
    Selecteer een van de volgende opties:
 
-   * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde kolommen worden weergegeven:\
-     **- Naast elkaar**
-     **- Gestapeld**
-     **- Gestapeld naar 100%**
+   * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde kolommen worden weergegeven:
 
-   * Selecteer de groepering die u in de grafiek wilt omvatten.
+      * **Naast elkaar**
+      * **Gestapeld**
+      * **Gestapeld naar 100%**
+
+   * Selecteer de groepering die u in de grafiek van wilt omvatten van **Gegevens groeperen op** vervolgkeuzelijst.
    * (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van de kolommen aan te passen.\
      Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ Als u een **Balk** diagram naar uw rapport:
    Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 
 1. (Optioneel) Selecteer **Tonen in 3D** om het diagram weer te geven in een driedimensionale weergave.
-1. (Optioneel) Groepenbalken**: selecteer deze optie om te bepalen hoe de balken moeten worden gegroepeerd.\
+1. (Optioneel) Selecteer **Groepsbalken** om te bepalen hoe u de bars wilt worden gegroepeerd.\
    Selecteer een van de volgende opties:
 
-   * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde balken worden weergegeven:\
-     **- Naast elkaar**
-     **- Gestapeld**
-     **- Gestapeld naar 100%**
+   * Klik op een van de volgende opties om te selecteren hoe de gegroepeerde balken worden weergegeven:
 
-   * Selecteer de groepering die u in de grafiek wilt omvatten.
+      * **Naast elkaar**
+      * **Gestapeld**
+      * **Gestapeld naar 100%**
+
+   * Selecteer hoe u de informatie in het diagram wilt groeperen vanuit het dialoogvenster **Gegevens groeperen op** vervolgkeuzelijst.
    * (Optioneel) Selecteer **Aangepaste kleuren** om de kleuren van uw kolommen aan te passen.\
      Voor meer informatie over het aanpassen van grafiekkleuren raadpleegt u [Grafiekkleuren aanpassen](#customize-chart-colors).
 

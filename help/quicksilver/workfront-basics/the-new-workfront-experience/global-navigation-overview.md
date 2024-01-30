@@ -1,26 +1,32 @@
 ---
 content-type: overview
 title: Overzicht van de bovenste navigatiebalk
-description: De bovenste navigatiebalk, die boven aan het scherm wordt weergegeven in het nieuwe [!DNL Adobe Workfront] beleving—biedt u de mogelijkheid om gemakkelijk naar andere delen van het platform te zoeken en ernaar te navigeren.
+description: De bovenste navigatiebalk, die boven aan het scherm wordt weergegeven in [!DNL Adobe Workfront] — kunt u gemakkelijk naar andere delen van het platform zoeken en navigeren.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de bovenste navigatiebalk
 
-De bovenste navigatiebalk, die boven aan het scherm wordt weergegeven in [!DNL Adobe Workfront] kunt u gemakkelijk zoeken naar en navigeren naar andere gebieden van het platform.
+<!--Audited: 01/2024-->
+
+De bovenste navigatiebalk, die boven aan het scherm wordt weergegeven in [!DNL Adobe Workfront] — kunt u gemakkelijk naar andere delen van het platform zoeken en navigeren.
 
 ![Bovenste navigatiebalk](assets/global-navigation-bar.png)
 
 ## [!UICONTROL Home] pictogram
 
-De **[!UICONTROL Home]** pictogram ![](assets/home-icon.png) neemt u naar [!UICONTROL Home] pagina, de standaardbestemmingspagina. Ga voor meer informatie over Home naar [Gebruik de [!UICONTROL Home] gebied](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+De **[!UICONTROL Home]** pictogram ![](assets/home-icon.png) neemt u naar [!UICONTROL Home] pagina, de standaardbestemmingspagina.
+
+Standaard wordt met het pictogram Startpagina het gebied Home geopend. Zie voor meer informatie over Home [Gebruik de [!UICONTROL Home] gebied](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+
+Uw Workfront-beheerder kan het Home-pictogram aanpassen om een andere pagina te openen door een lay-outsjabloon te maken en deze aan u toe te wijzen. Zie voor meer informatie [De landingspagina aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## Vastgezette pagina&#39;s
 
@@ -36,11 +42,17 @@ Ga voor meer informatie over het menu Help naar [Toegang [!DNL Adobe Workfront] 
 
 Het vak met de blauwe nummering ![](assets/notifications-icon.png) in de rechterbovenhoek van het scherm wordt een lijst met meldingen geopend.
 
-Voor meer informatie over meldingen raadpleegt u [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+U hebt toegang tot het volgende via het menu Meldingen:
+
+* **Meldingen**: Dit zijn waarschuwingen die door Workfront worden gegenereerd wanneer aan bepaalde voorwaarden is voldaan om u te informeren over informatie die u mogelijk aandacht behoeft.
+
+* **Aankondigingen**: Mededelingen die door uw Workfront-beheerder zijn verzonden over belangrijke onderwerpen.
+
+Voor meer informatie over meldingen en aankondigingen raadpleegt u [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## [!UICONTROL Favorites] menu
 
-De **[!UICONTROL Favorites]** pictogram ![Favorieten](assets/favorites-icon-62x55.png) Hiermee opent u een lijst met pagina&#39;s in het systeem die u hebt bevoordeeld. U kunt de pagina toevoegen waarop u momenteel in dit menu werkt.
+De **[!UICONTROL Favorites]** pictogram ![Favorieten](assets/favorites-icon-62x55.png) Hiermee opent u een lijst met pagina&#39;s in het systeem die u als favorieten hebt gemarkeerd. U kunt de pagina toevoegen waarop u momenteel in dit menu werkt.
 
 Ga voor meer informatie over favorieten naar [Favorieten weergeven en beheren](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
@@ -64,7 +76,7 @@ Ga voor meer informatie over zoeken naar [Zoeken [!DNL Adobe Workfront]](../../w
 >
 > Als uw organisatie is aangemeld bij [!DNL Adobe Experience Cloud], zie [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-De **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) opent de [!UICONTROL Main Menu], waarmee u naar een ander gebied van Workfront kunt navigeren.
+De **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) opent de [!UICONTROL Main Menu], vanaf waar u naar een ander gebied van Workfront kunt navigeren.
 
 De opties die beschikbaar zijn in de [!UICONTROL Main Menu] afhankelijk zijn van:
 
@@ -74,7 +86,9 @@ De opties die beschikbaar zijn in de [!UICONTROL Main Menu] afhankelijk zijn van
 
 ![Opties in het hoofdmenu](assets/main-menu-options-350x481.png)
 
-Met elk pictogram gaat u naar een ander gebied van het nieuwe [!DNL Adobe Workfront] ervaring. Zie voor meer informatie over elk gebied:
+Met elk pictogram gaat u naar een ander gebied van Workfront.
+
+Zie voor meer informatie over elk gebied:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
@@ -113,7 +127,7 @@ Met elk pictogram gaat u naar een ander gebied van het nieuwe [!DNL Adobe Workfr
  </tbody> 
 </table>
 
-Onder deze opties in het dialoogvenster [!UICONTROL Main Menu], hebt u toegang tot:
+In het onderste gedeelte van het hoofdmenu hebt u toegang tot:
 
 <table style="table-layout:auto"> 
  <col> 
