@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 0%
 
 ---
@@ -498,7 +498,7 @@ U voegt als volgt velden voor de typekop toe:
 
 ### Externe opzoekvelden toevoegen
 
-Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren.
+Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren. Het externe opzoekveld is ook beschikbaar in lijsten en rapporten.
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">Basis-API-URL</td> 
       <td><p>Typ of plak de URL voor de API.</p><p>De API-URL moet een JSON-inhoud retourneren van de opties die u wilt weergeven in het vervolgkeuzemenu. U kunt het veld JSON-pad gebruiken om de specifieke waarden van de geretourneerde JSON-waarden te selecteren die vervolgkeuzemogelijkheden moeten zijn.</p><p>Wanneer u de API-URL invoert, kunt u optioneel de volgende waarden in de URL doorgeven:</p>
       <ul><li>$$QUERY - Dit vertegenwoordigt de onderzoekstekst die de eindgebruiker op het gebied typt en u toestaat om vraag het filtreren voor uw eind uit te voeren - gebruikers. (De gebruiker zoekt naar de waarde in de vervolgkeuzelijst.)</li>
-      <li>$$HOST - Dit staat voor de huidige Workfront-host en kan worden gebruikt om API-aanroepen naar de Workfront API te maken. Wanneer dit jokerteken wordt gebruikt, wordt de authentificatie behandeld en de gebruikers te hoeven niet om authentificatiekopballen te verzenden. (Gebruikers kunnen bijvoorbeeld zoeken naar taken met de basis-URL "$$HOST/attask/api/task/search", waardoor ze zoektaken kunnen uitvoeren en waarden kunnen selecteren uit een geretourneerde lijst met taken.)</li>
-      <li>{fieldName} - Waar fieldName een aangepast of native veld in Workfront is. Op deze manier kunt u trapsgewijze dropdown-optiefilters implementeren wanneer u de waarde van een al geselecteerd veld doorgeeft aan het veld Externe opzoeken om opties omlaag te filteren. (Het veld Regio bestaat bijvoorbeeld al op het formulier en u versmalt een lijst met landen van de API naar landen die zich in een specifieke regio bevinden.)</li>
+      <li><p>$$HOST - Dit staat voor de huidige Workfront-host en kan worden gebruikt om API-aanroepen naar de Workfront API te maken. Wanneer dit jokerteken wordt gebruikt, wordt de authentificatie behandeld en de gebruikers te hoeven niet om authentificatiekopballen te verzenden. (Gebruikers kunnen bijvoorbeeld taken zoeken met de basis-URL <code>$$HOST/attask/api/task/search</code> en het zal het zoeken taken en het selecteren van waarden van een teruggekeerde lijst van taken toestaan.)<p>
+      <p>Als de API u van verwijzingen voorziet het toestaat, kunt u bepalingen in uw onderzoeksvraag ook omvatten om te identificeren hoe het onderzoek zou moeten werken. U kunt bijvoorbeeld het volgende gebruiken als basis-API-URL om mensen toe te staan te zoeken naar Workfront-projecten die specifieke tekst bevatten: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Meer informatie over de zoekopties van Workfront vindt u in <a href="/help/quicksilver/wf-api/general/api-basics.md">API-basisbeginselen</a>.</p></li>
+      <li><p>{fieldName} - Waar fieldName een aangepast of native veld in Workfront is. Op deze manier kunt u trapsgewijze dropdown-optiefilters implementeren wanneer u de waarde van een al geselecteerd veld doorgeeft aan het veld Externe opzoeken om opties omlaag te filteren. (Het veld Regio bestaat bijvoorbeeld al op het formulier en u versmalt een lijst met landen van de API naar landen die zich in een specifieke regio bevinden.)</p>
+      <p>Voor een extern opzoekveld dat afhankelijk is van andere velden (met de opdracht {fieldName} (syntaxis), zijn de opties die door de API worden geretourneerd beperkt tot de opties die overeenkomen met tekenreeksen of waarden die in de andere velden zijn ingevoerd. (Deze functionaliteit wordt niet ondersteund in lijsten en rapporten.)</p></li>
       <li>{referenceObject}.{fieldName} - Waar het veld deel uitmaakt van een object. Deze syntaxis is vergelijkbaar met aangepaste expressies. (bijvoorbeeld portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>OPMERKING:</strong> Controleer de documentatie voor de API u met voor de specifieke vragen werkt u kunt bepalen.</p></td>
      </tr>
@@ -585,12 +587,11 @@ Een externe zoekopdracht toevoegen:
 >
 >De volgende punten zijn technische beperkingen van de vraag aan externe API:
 >
->* Maximumaantal opties: 200 (alleen de eerste 200 opties van de geretourneerde JSON worden weergegeven)
+>* Maximumaantal opties: 2000 (alleen de eerste 2000 unieke opties van de geretourneerde JSON worden weergegeven)
 >* Time-out: 3 seconden
 >* Aantal pogingen: 3
 >* Wacht een tijd tussen pogingen: 500 ms
 >* Verwachte reactiestatus: 2xx
->* Gebruikers kunnen de geselecteerde waarde zien (en de waarde bewerken) in Workfront-lijsten en -rapporten, maar het vervolgkeuzemenu wordt niet weergegeven met opties uit de externe API.
 
 ### Afbeeldingen, PDF en video&#39;s toevoegen
 
