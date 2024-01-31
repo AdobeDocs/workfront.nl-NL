@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outmalplaatje toevoegen. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het Maestro-gebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/maestro/access/access-overview.md">Overzicht van toegang</a>. </p> 
 </td>
   </tr>
  </tbody>

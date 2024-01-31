@@ -6,7 +6,7 @@ description: In dit artikel wordt beschreven hoe u doelen kunt vinden en beheren
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -109,17 +116,20 @@ You must have the following to perform the activities described in this article:
      <p>Machtigingen beheren om het te bewerken</p> 
      <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Lay-outsjabloon</p></td> 
+   <td> 
+    <div> 
+     <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
-
-## Vereisten
-
-U moet het volgende hebben voordat u kunt beginnen:
-
-* Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
 
 ## Toegang tot Workfront-doelen
 
@@ -160,7 +170,6 @@ U moet tot een individueel doel toegang hebben om de volgende acties uit te voer
 * Deze uitlijnen op een ander doel
 * Resultaten of activiteiten converteren naar andere doelen
 * Bijwerken
-
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -199,6 +208,6 @@ De vertoningen van de Lijst van het Goal door gebrek.
 De doelpagina wordt weergegeven.
    ![](assets/goal-page-unshimmed.png)
 1. Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de doelnaam om het doel verder te bewerken of te delen.
-1. Klikken **Goederendetails** in het linkerpaneel om informatie over het doel uit te geven. Zie voor meer informatie [Doelen bijwerken in de sectie Gooddetails in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
+1. Klikken **Doelgegevens** in het linkerpaneel om informatie over het doel uit te geven. Zie voor meer informatie [Doelen bijwerken in de sectie Gooddetails in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
 
 

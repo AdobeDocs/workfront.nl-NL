@@ -4,9 +4,9 @@ description: U kunt recordgegevens bewerken in Adobe Maestro en elke record kopp
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
    <td> <p>Contribute of hoger machtigingen voor een werkruimte </p>  
-   <p>Contribute of hoger rechten voor de tabelweergave </p> 
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td>  <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het Maestro-gebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/maestro/access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## Overwegingen bij het opnemen van miniaturen
 
@@ -96,14 +94,14 @@ Als u visueel onderscheid wilt maken tussen records in een tabelweergave, kunt u
 Overweeg het volgende:
 
 * U kunt alleen afbeeldingsbestanden als miniaturen toevoegen.
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * U kunt een miniatuurafbeelding toevoegen aan afzonderlijke records in de tabelweergave.
+* Miniaturen horen bij de recordgegevens en worden weergegeven in weergaven waar records worden weergegeven. Miniaturen worden bijvoorbeeld naast recordgegevens weergegeven in de volgende gebieden:
+
+   * Het primaire veld van een record in de tabelweergave
+   * De recordbalk in de tijdlijnweergave.
 * U kunt geen recordminiaturen toevoegen vanaf de pagina Details van de record of in de tijdlijnweergave.
-* De miniatuurafbeelding wordt altijd links van het primaire veld van elke record weergegeven, ongeacht het veldtype.
-
-  Velden met één regel tekst, cijfers of formules kunnen worden aangewezen als primaire velden.
-Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* Miniaturen worden niet weergegeven op de pagina Details van de record.
 
 ## Een miniatuur toevoegen aan een record
 
@@ -131,10 +129,11 @@ Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/vi
 1. (Optioneel) Gebruik het gereedschap Grootte wijzigen om de afbeelding uit te snijden en de grootte ervan te wijzigen.
 1. Klikken **Afbeelding gebruiken** om de afbeelding als een miniatuur toe te voegen.
 Hiermee sluit u het dialoogvenster **Recordminiatuur** doos.
-1. Klik op Velden in de rechterbovenhoek van de tabelweergave.
+1. (Voorwaardelijk) Als u ten minste Contribute-machtigingen voor de tabelweergave hebt, klikt u op **Velden** rechtsboven in de tabelweergave.
 1. Selecteer de **Miniatuur** schakelen om de miniatuur weer te geven. Deze optie is standaard uitgeschakeld.
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    De miniatuur wordt links van de waarde van het primaire veld weergegeven.
+1. (Optioneel en voorwaardelijk) Als u geen Contribute- of hogere machtigingen voor de weergave hebt, selecteert u een nieuwe weergave in het menu **Weergave** of maak een weergave.
 1. (Optioneel) Als u de miniatuur wilt verwijderen, plaatst u de cursor boven het primaire veld en klikt u op de knop **Meer** menu ![](assets/more-menu.png)> **Miniatuur** > de **Verwijderen** pictogram ![](assets/remove-image-icon.png)en klik vervolgens op **Wijzigingen opslaan**.

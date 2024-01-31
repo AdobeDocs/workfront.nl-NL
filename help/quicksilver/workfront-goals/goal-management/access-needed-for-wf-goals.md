@@ -7,9 +7,9 @@ description: Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan bepaalde vo
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4298659c6eaf7c0370d8d88454e54aeba70f48cf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarde
 
 * Uw organisatie moet de juiste licentie voor Workfront Goals aanschaffen. Zie de sectie [Toegang verkrijgen tot Workfront Goals organisatie](#obtain-workfront-goals-organization-access)in dit artikel.
 
-* Wijs het juiste type Workfront-licentie toe. Voor informatie over het toewijzen van licentietypen en toegangsniveaus raadpleegt u de sectie [Licentietypen en instellingen op toegangsniveau bijwerken](#update-license-types-and-access-level-settings) in dit artikel.
+* Wijs het juiste type Workfront-licentie toe. Zie de sectie voor informatie over het toewijzen van licentietypen en toegangsniveaus [Licentietypen en instellingen op toegangsniveau bijwerken](#update-license-types-and-access-level-settings) in dit artikel.
 
 >[!NOTE]
 >
@@ -33,11 +33,15 @@ Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarde
 
 * Wijs u het Malplaatje van de Lay-out toe dat het gebied van Doelen in het Belangrijkste Menu omvat.
 
-   Zie de sectie voor meer informatie [Workfront-doelen toevoegen aan een lay-outsjabloon](#add-workfront-goals-to-a-layout-template) in dit artikel.
+  >[!NOTE]
+  >
+  >Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat.
+
+  Zie de sectie [Workfront-doelen toevoegen aan een lay-outsjabloon](#add-workfront-goals-to-a-layout-template) in dit artikel.
 
 * Als u doelstellingen moet wijzigen die u niet zelf creeerde, moet de doelschepper de doelstellingen met u delen en u geeft beheertoestemmingen aan hen.
 
-   Zie de sectie [Individuele doelstellingen delen met andere gebruikers](#share-individual-goals-with-other-users) in dit artikel.
+  Zie de sectie [Individuele doelstellingen delen met andere gebruikers](#share-individual-goals-with-other-users) in dit artikel.
 
 ## Toegang verkrijgen tot Workfront Goals organisatie {#obtain-workfront-goals-organization-access}
 
@@ -96,7 +100,7 @@ Zie de volgende artikelen voor informatie over het bijwerken van de Lay-outsjabl
 
 * [Lay-outsjablonen maken en beheren](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
 * [Het hoofdmenu aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-* [Vastgezette pagina&#39;s aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [De landingspagina aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Gebruikers toewijzen aan een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
@@ -106,4 +110,4 @@ Door gebrek, kunnen alle gebruikers die minstens de toegang van de Mening tot Do
 
 Om het even welke gebruiker met Edit toegang tot Doelen kan doelstellingen tot stand brengen en zij krijgen automatisch Manage toegang tot de doelstellingen zij creëren. Als zij de doelstellingen van andere gebruikers moeten uitgeven, moet iemand met Manage toestemmingen aan die doelstellingen met hen delen de doelstellingen zij niet creeerden.
 
-Voor informatie over het delen van doelstellingen met gebruikers en het geven van hen leidt toestemmingen, zie [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Voor informatie over het delen van doelstellingen met gebruikers en het geven van hen leidt toestemmingen [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

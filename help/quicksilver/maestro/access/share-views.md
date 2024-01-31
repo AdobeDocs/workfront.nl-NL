@@ -4,15 +4,13 @@ description: U kunt een weergave delen met anderen om ervoor te zorgen dat u kun
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
 
-
-<!--*****************ADD TO TOC AND MINITOC WHEN RELEASING*********************-->
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
@@ -73,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outmalplaatje toevoegen. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het Maestro-gebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/maestro/access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -113,9 +111,7 @@ Een weergave delen met anderen:
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 1. Klikken **Opslaan**.
 
-
 ## Machtigingen verwijderen uit een weergave
-
 
 {{step1-to-maestro}}
 

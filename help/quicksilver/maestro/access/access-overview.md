@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,7 @@ U moet de volgende instellingen hebben om Adobe Maestro te kunnen gebruiken:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in het Belangrijkste Menu aan uw lay-outmalplaatje toevoegen.</p> 
-   <p>Zie voor meer informatie <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Het hoofdmenu aanpassen met een lay-outsjabloon</a>. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het Maestro-gebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/maestro/access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
  </tbody>
