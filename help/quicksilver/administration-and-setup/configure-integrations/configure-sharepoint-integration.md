@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >De nieuwe [!DNL SharePoint] de integratie werd vrijgegeven voor de productie met de release van 22.3 (juli 2022). Hoewel uw gebruikers nog steeds toegang hebben tot documenten die via de verouderde [!DNL SharePoint] integratie moeten zij de nieuwe [!DNL SharePoint] integratie om documenten uit SharePoint te koppelen.
 >
->* De nieuwe integratie van SharePoint vereist geen configuratie door een beheerder, en kan opstelling door individuele gebruikers zijn. Voor een vloeiende overgang naar de nieuwe SharePoint-integratie moet een Workfront-beheerder echter kleine wijzigingen aanbrengen in het gedeelte Workfront Setup.
+>* Voor de nieuwe SharePoint-integratie is mogelijk geen configuratie van een beheerder vereist en deze kan door individuele gebruikers worden ingesteld. Voor een vloeiende overgang naar de nieuwe SharePoint-integratie moet een Workfront-beheerder echter kleine wijzigingen aanbrengen in het gedeelte Workfront Setup.
 >
 >    Zie voor meer informatie en instructies [De verouderde SharePoint-integratie configureren voor permanente toegang tot documenten](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in dit artikel.
 >    
@@ -72,13 +72,15 @@ U moet over de benodigde toegang of machtigingen beschikken in [!DNL SharePoint]
 
 Individuele gebruikers kunnen documenten koppelen via de nieuwe [!DNL SharePoint] integratie. Voor de integratie is geen beheerdersconfiguratie vereist. In plaats daarvan meldt de gebruiker zich aan bij hun [!DNL Microsoft] account bij koppelen van een document, waardoor de integratie toegang heeft tot documenten die beschikbaar zijn in de [!DNL SharePoint].
 
-De eerste keer dat een gebruiker verbinding maakt met de [!DNL Workfront] [!DNL SharePoint] integratie in hun [!DNL SharePoint] -account, kunnen ze alle machtigingen zien die [!DNL Workfront] gebruik bij interactie met hun [!UICONTROL SharePoint] account. Leesmachtigingen toestaan [!DNL Workfront] bestanden weergeven en openen op [!DNL SharePoint]en schrijfmachtigingen geeft de gebruiker de mogelijkheid bestanden te uploaden naar [!DNL SharePoint].
+De eerste keer dat een gebruiker verbinding maakt met de [!DNL Workfront] [!DNL SharePoint] integratie in hun [!DNL SharePoint] -account, kunnen ze alle machtigingen zien die [!DNL Workfront] gebruik bij interactie met hun [!UICONTROL SharePoint] of in staat zijn om machtigingen aan te vragen van hun Microsoft-beheerder. Leesmachtigingen toestaan [!DNL Workfront] bestanden weergeven en openen op [!DNL SharePoint]en schrijfmachtigingen geeft de gebruiker de mogelijkheid bestanden te uploaden naar [!DNL SharePoint].
 
 ![Sharepoint-machtigingen](assets/sharepoint-permissions.png)
 
 Voor instructies voor het koppelen van documenten via de nieuwe [!DNL SharePoint] integratie, zie [Een extern document koppelen aan [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
+>
+>* Afhankelijk van de Microsoft-configuratie van de organisatie kunnen gebruikers de pagina &quot;Goedkeuring vereist&quot; zien in plaats van de pagina &quot;Machtigingen aangevraagd&quot;. In dit geval kunnen de gebruikers deze pagina gebruiken om aan te vragen dat de beheerder van Microsoft van de organisatie toestemmingen aan de integratie van SharePoint verleent.
 >
 >* A [!DNL SharePoint] integratie kan verbinding maken met één [!DNL SharePoint] -instantie. Daarom kan een gebruiker een integratie instellen voor één [!DNL SharePoint], maar kan geen integratie instellen op een tweede [!DNL SharePoint], zelfs als ze over machtigingen beschikken voor en documenten hebben op de tweede [!DNL SharePoint].
 >
@@ -113,7 +115,13 @@ Een document naar SharePoint verzenden:
 
 ### Toegang en machtigingen
 
-De eerste keer dat een gebruiker een document toevoegt aan [!DNL Workfront] van [!DNL SharePoint], worden zij geleid aan het scherm dat om de volgende toestemmingen verzoekt:
+De eerste keer dat een gebruiker een document toevoegt aan [!DNL Workfront] van [!DNL SharePoint], worden ze doorgestuurd naar de pagina met aangevraagde machtigingen, waar ze hun SharePoint-integratie machtigingen kunnen verlenen.
+
+>[!NOTE]
+>
+>Afhankelijk van de Microsoft-configuratie van de organisatie kunnen gebruikers de pagina &quot;Goedkeuring vereist&quot; zien in plaats van de pagina &quot;Machtigingen aangevraagd&quot;. In dit geval kunnen de gebruikers deze pagina gebruiken om aan te vragen dat de beheerder van Microsoft van de organisatie toestemmingen aan de integratie van SharePoint verleent.
+
+De volgende machtigingen worden aangevraagd:
 
 | Toegang | Reden |
 |---|---|
