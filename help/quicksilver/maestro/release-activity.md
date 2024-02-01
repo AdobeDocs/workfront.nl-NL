@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3730'
 ht-degree: 0%
 
 ---
 
 # Adobe Maestro-releaseactiviteit
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Dit artikel bevat een overzicht van de functies die zijn uitgebracht na de start van het gesloten bètaprogramma van Maestro op 22 mei 2023.
 
@@ -60,17 +52,26 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [Werkruimten delen](/help/quicksilver/maestro/access/share-workspaces.md)
 * [Weergaven delen](/help/quicksilver/maestro/access/share-views.md)
 
-<!--
-### Add thumbnails to records 
+### Miniaturen toevoegen aan records
 
-Production: < date > 
+Productie: 1 februari 2024
 
-Preview: To be determined  
+Voorbeeld: te bepalen
 
-You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+U kunt nu afzonderlijke miniaturen aan elke record toevoegen om ze in een weergave te onderscheiden. In de tabelweergave kunt u afbeeldingsbestanden toevoegen die u eerder als miniaturen op uw computer hebt opgeslagen. De miniaturen kunnen uniek zijn voor elke record en worden weergegeven in de tabel- en tijdlijnweergaven van de recordtypepagina.
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+Zie voor meer informatie [Miniaturen toevoegen aan records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+### Gekoppelde recordtypekaarten verwijderen
+
+Productie: 1 februari 2024
+
+Voorbeeld: te bepalen
+
+Om verwarring te voorkomen en uw workflow te vereenvoudigen, hebben we de kaarten met recordtypen verwijderd die zijn gemaakt doordat Maestro-records werden verbonden met objecten uit toepassingen van derden in een werkruimte. <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+
+Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Week van 22 januari 2024
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ hide: yes
 
 Als leider van marketingactiviteiten kunt u met Adobe Maestro de werkzaamheden in de hele marketinglevenscyclus voor al uw teams organiseren.
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 U kunt deze pagina gebruiken als beginpunt voor alle Adobe Maestro-documentatie.
 

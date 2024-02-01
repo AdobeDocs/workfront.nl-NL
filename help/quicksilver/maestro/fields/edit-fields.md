@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ recommendations: noDisplay, noCatalog
 
 # Velden bewerken
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 U kunt de veldinstellingen bewerken voor velden die al zijn gemaakt.
 

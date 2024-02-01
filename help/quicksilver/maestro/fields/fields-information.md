@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Als leider van marketingactiviteiten kunt u met Adobe Maestro de werkzaamheden in de hele marketinglevenscyclus voor al uw teams organiseren. In Maestro, kunt u de architectuur van uw werkschema&#39;s volledig aanpassen, met inbegrip van het toevoegen van douanevelden voor alle types van douaneverslag u creeert.
 

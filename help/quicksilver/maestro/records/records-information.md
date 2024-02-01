@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,17 @@ hide: yes
 
 # Records: artikelindex
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Nadat u recordtypes in Adobe Maestro creeert, kunt u individuele verslagen van die types tot stand brengen.
 
 In de volgende artikelen wordt beschreven hoe u records en hun gegevens kunt maken en beheren in Adobe Maestro:
 
-* [Records maken](../records/create-records.md)
-* [Records bewerken](../records/edit-records.md)
-* [Records verwijderen](../records/delete-records.md)
-* [Records delen](../records/share-records.md)
-* [Connect-records](../records/connect-records.md)
+* [Records maken](/help/quicksilver/maestro/records/create-records.md)
+* [Records bewerken](/help/quicksilver/maestro/records/edit-records.md)
+* [Records verwijderen](/help/quicksilver/maestro/records/delete-records.md)
+* [Records delen](/help/quicksilver/maestro/records/share-records.md)
+* [Connect-records](/help/quicksilver/maestro/records/connect-records.md)
 * [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Overzicht van de sectie Historie](/help/quicksilver/maestro/records/history-section-overview.md)
-
-<!--* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)-->
+* [Miniaturen toevoegen aan records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)

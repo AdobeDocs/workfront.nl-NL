@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Maestro.
 
@@ -265,6 +257,12 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 1. Klikken **Stijl van balk** in het linkerdeelvenster om aan te geven welke velden u op de recordbalken wilt weergeven.
 
    Het veld Naam is standaard geselecteerd. <!--adjust this when the primary field is released??-->
+
+1. (Optioneel en voorwaardelijk) Als u miniaturen aan records hebt toegevoegd, selecteert u de optie Miniatuur om de afbeelding weer te geven die aan records is gekoppeld in de recordbalk.
+
+   >[!NOTE]
+   >
+   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de tijdlijnweergave. Zie voor meer informatie [Miniaturen toevoegen aan records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Klikken **Veld toevoegen** om maximaal vier velden aan de recordbalken toe te voegen.
 1. Klik in het dialoogvenster **Zoeken in velden** en klik op het veld dat u wilt toevoegen.

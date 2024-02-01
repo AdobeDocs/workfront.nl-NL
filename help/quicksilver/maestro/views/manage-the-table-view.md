@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '2316'
+source-wordcount: '2298'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 U kunt records en de bijbehorende velden in een tabelweergave weergeven wanneer u de pagina met recordtypen opent in Adobe Maestro.
 
@@ -222,8 +214,9 @@ U kunt tot 10.000 verslagen (of rijen) voor een verslagtype in Maestro hebben.
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
-   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
-        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. (Optioneel) Voeg een miniatuur toe aan elke record en klik vervolgens op **Velden** in de rechterbovenhoek van de tabel en selecteer de schakeloptie voor het veld Miniatuur om deze links van het primaire veld weer te geven. Deze optie is standaard uitgeschakeld.
+
+   Zie voor meer informatie [Miniaturen toevoegen aan records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Optioneel) Selecteer een of meerdere records in een rij en sleep vervolgens de records **handgreep** pictogram ![](assets/handle-icon.png) links van de recordnaam om de rijen opnieuw te ordenen.
 

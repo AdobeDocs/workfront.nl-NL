@@ -4,9 +4,9 @@ description: U kunt recordgegevens bewerken in Adobe Maestro en elke record kopp
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,7 @@ ht-degree: 0%
 
 # Miniaturen toevoegen aan records
 
->[!IMPORTANT]
->
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
->
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
->
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
->
->Zie voor meer informatie [Overzicht van Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 U kunt records koppelen aan unieke miniaturen in Adobe Maestro, zodat ze gemakkelijk herkenbaar zijn.
 
