@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 4888113d57fa083eb4b5e639ed8edb1072b00df3
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Als beheerder van het Productprofiel van Workfront (de beheerder van het Systeem
 
 ### Wat verwacht u op de migratiedag
 
-* **De migratie van gebruikers begint om middernacht van het gastcentrum van Workfront Datacenter van de klant. **
+* **De migratie van gebruikers begint om middernacht van het Workfront Datacenter dat als host fungeert voor de klant.**
 
 * **Adobe migreert eerst automatisch Workfront-beheerders.** Wanneer Workfront-beheerders worden gemigreerd naar Adobe Identity, krijgen zij de rol van beheerder van het productprofiel van de Adobe (Workfront System Administrator) toegewezen. Bestaande rollen die een gebruiker vóór de migratie kan hebben, worden niet beïnvloed.
 
