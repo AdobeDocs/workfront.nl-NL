@@ -7,9 +7,9 @@ description: U kunt tijdbladen gebruiken om de tijd te volgen die u aan werk, zo
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Al uw timesheets evenals timesheets hebt u toegang tot vertoning door gebrek. Vo
 
 1. Klik op de knop **Datumbereik** van een tijdschema om het te openen.
 
-   Elk timesheet toont alle taken, kwesties, en projecten die u tijd voor hebt geregistreerd. Een timesheet toont ook tot 45 taken, kwesties, of projecten die aan u met data binnen het tijdkader van timesheet worden toegewezen, maar waarvoor u geen tijd nog zou kunnen geregistreerd hebben.
+   Elk timesheet toont alle taken, kwesties, en projecten die u tijd voor hebt geregistreerd. Een timesheet toont ook tot 45 taken en kwesties die aan u met data binnen het tijdkader van timesheet worden toegewezen, maar waarvoor u niet tijd nog zou kunnen geregistreerd hebben. De 45 meest recente bijgewerkte items zijn geselecteerd voor weergave in de tijdlijn.
 
    Zie voor meer informatie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

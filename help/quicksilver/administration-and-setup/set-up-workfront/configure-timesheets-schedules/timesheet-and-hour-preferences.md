@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in
 >* Items die zijn vastgezet aan de tijdpagina
 >* Items die u zoekt en die u handmatig toevoegt aan de tijdpagina. Items die handmatig worden toegevoegd, worden standaard vastgezet.
 >
->Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md) en [Overzicht van tijdschriften](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
 
 
