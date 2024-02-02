@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,10 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       Alle objecten worden op het bord weergegeven als verbonden kaarten.
 
       De [!UICONTROL **Kaarten die worden toegevoegd**] de teller laat zien hoeveel kaarten er op het bord staan . Bijvoorbeeld, als u een project met 100 taken en kwesties selecteert, toont teller 100. Als u een gebruikerstaak toevoegt en die persoon aan 5 taken op het project wordt toegewezen, toont de teller 5.
+
+      >[!NOTE]
+      >
+      >Als u meer dan 1.000 kaarten op het bord hebt, zal de prestaties van het bord worden beïnvloed.
 
    1. (Optioneel) Selecteer [!UICONTROL **Voltooide kaarten niet archiveren**] om voltooide taken en kwesties op de raad als zichtbare kaarten in de Voltooide kolom te brengen. Als deze optie niet is geselecteerd, worden voltooide kaarten op het moment van het maken van het bord als gearchiveerde kaarten op het bord geplaatst.
 
