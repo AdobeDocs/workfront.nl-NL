@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ De volgende tabel illustreert enkele overeenkomsten en verschillen tussen de typ
 | Ze vertegenwoordigen kenmerken van werkgerelateerde objecten |                         | ✓ |
 | U kunt helemaal zelf maken | ✓ | ✓ |
 | U kunt een Excel- of CSV-bestand importeren | ✓ |                      |
-| U kunt het recordtype verbinden met een object vanuit een externe toepassing | ✓ |                      |
+| U kunt het recordtype vanuit een andere toepassing verbinden met een object | ✓ |                      |
 | U kunt verbinding maken met andere Maestro-recordtypen | ✓ |                    |
 | U kunt de bijbehorende records in een tabelweergave bekijken | ✓ | ✓ |
 | U kunt de bijbehorende records weergeven in een tijdlijnweergave | ✓ | ✓ |

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,13 @@ author: Alina
 
 Met Adobe Maestro kunt u volledig aanpasbare werkruimten ontwerpen die recordtypen bevatten die in uw organisatie nodig zijn. Een manier om aan te geven hoe individuele recordtypen op elkaar betrekking hebben, is ze met elkaar te verbinden. Bovendien kunt u Maestro-recordtypen verbinden met objecttypen van andere toepassingen om de gebruikerservaring te verbeteren en de focus in één toepassing te houden.
 
-U kunt het volgende verbinden:
-
-* Operationele registratietypen van Maestro
-* Maestro-taxonomieën
-* Operationele registratietypen en taxonomieën van Maestro
-* Operationele recordtypen en taxonomieën van Maestro met objecttypen van andere toepassingen.
+U kunt Maestro-recordtypen met elkaar verbinden, of Maestro-recordtypen met objecttypen van andere toepassingen.
 
 Op deze manier kunt u velden van het gekoppelde record of objecttype weergeven op een andere Maestro-record.
 
 In dit artikel wordt beschreven hoe u twee Maestro-recordtypen of een Maestro-recordtype kunt verbinden met een object uit een andere toepassing.
 
-Nadat de verbinding tussen record- of objecttypen tot stand is gebracht, kunt u afzonderlijke records met elkaar verbinden.
+Nadat u de verbinding tussen records of objecttypen tot stand hebt gebracht, kunt u afzonderlijke records met elkaar verbinden.
 
 Zie voor meer informatie over het verbinden van een Maestro-record met een object vanuit een andere toepassing [Connect-records](../records/connect-records.md).
 
@@ -99,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
    <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.
 </td>
   </tr>
  </tbody>
@@ -119,8 +114,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het verbinden van recordtypen
 
-Overweeg het volgende:
-
 * U kunt de volgende entiteiten verbinden in Maestro:
 
    * Twee typen operationeel record
@@ -130,7 +123,7 @@ Overweeg het volgende:
 
   Alle typen bedrijfsrecords en taxonomieën moeten tot dezelfde werkruimte behoren.
 
-* U kunt de volgende objecten vanuit de volgende toepassingen verbinden met Maestro-recordtypen:
+* U kunt de volgende objecttypen vanuit de volgende toepassingen verbinden met Maestro-recordtypen:
 
    * Adobe Workfront:
 
@@ -151,31 +144,31 @@ Overweeg het volgende:
      >
      >Als u vragen hebt over instaptoegang tot de Adobe Admin Console, raadpleegt u de [Veelgestelde vragen over Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
+* Nadat u afzonderlijke records voor een recordtype hebt gemaakt, kunt u de records waarmee u verbinding maakt, selecteren in het veld voor het gekoppelde recordtype. Zie voor meer informatie [Connect-records](../records/connect-records.md).
+
 * Nadat u een recordtype met een ander verslagtype of met een objecten type van een andere toepassing verbindt, bestaan de volgende scenario&#39;s:
 
    * **Wanneer u twee recordtypen verbindt**: Een gekoppeld recordveld wordt gemaakt op het recordtype waarmee u verbinding maakt. Er wordt een vergelijkbaar gekoppeld recordveld gemaakt voor het recordtype waarmee u verbinding maakt.
 
      Als u bijvoorbeeld het recordtype ‘Campagne’ aansluit op het recordtype ‘Product’, wordt een gekoppeld recordveld met de naam ‘Gekoppeld product’ gemaakt op het recordtype ‘Campagne’ en wordt een gekoppeld recordtype met de naam ‘Campagne’ gemaakt op het recordtype ‘Product’.
 
-   * **Wanneer u een recordtype verbindt met een objecttype van een andere toepassing**: Een gekoppeld recordveld wordt gemaakt op het recordtype waarmee u verbinding maakt. Er wordt automatisch geen gekoppeld recordveld gemaakt voor het toepassingsobject van een derde.
+   * **Wanneer u een recordtype verbindt met een objecttype van een andere toepassing**: Een gekoppeld recordveld wordt gemaakt op het recordtype waarmee u verbinding maakt. Er wordt automatisch geen gekoppeld recordveld gemaakt op het objecttype van de andere toepassing.
 
-     Een nieuw recordtype met het kenmerk Alleen-lezen van Maestro wordt alleen voor het toepassingsobject van derden gemaakt wanneer de feitelijke objecten met de Maestro-records zijn verbonden.
+     Een nieuw recordtype met het kenmerk Alleen-lezen van Maestro wordt alleen voor het object van de andere toepassing gemaakt wanneer de feitelijke objecten met de Maestro-records zijn verbonden.
 
      Zie voor meer informatie [Connect-records](../records/connect-records.md).
 
-   * **Wanneer u opzoekvelden toevoegt van de record of het object waarmee u verbinding maakt**: Gekoppelde velden worden toegevoegd aan de record waarvan u verbinding maakt en geven informatie weer uit de opzoekvelden die u hebt geselecteerd voor de records waarvan u een koppeling maakt. De recordvelden zijn altijd alleen-lezen en worden automatisch gevuld met de waarden van het externe object.
+   * **Wanneer u opzoekvelden toevoegt van de record of het object waarmee u verbinding maakt**: U kunt velden van het object van de andere toepassing verbinden met het recordtype Maestro. Dit zijn gekoppelde of opzoekvelden. Gekoppelde velden geven automatisch informatie van verbonden records of objecten weer wanneer u de records of de objecten verbindt. De gekoppelde opzoekvelden zijn altijd alleen-lezen en worden automatisch gevuld met de waarden van de verbonden records of objecten.
 
-     Als u bijvoorbeeld het recordtype &#39;Campaign&#39; (Maestro) verbindt met een Workfront-project en u het veld Geplande voltooiingsdatum van het project wilt overbrengen naar de Maestro-record, wordt automatisch een gekoppeld veld genaamd Geplande voltooiingsdatum (van project) gemaakt voor de record waarvan u een koppeling maakt.
+     Als u bijvoorbeeld het recordtype ‘Campaign’ van Maestro koppelt aan een Workfront-project en u selecteert om het veld Geplande afsluitdatum van het project over te brengen naar de Maestro-record, wordt automatisch een gekoppeld veld genaamd Geplande voltooiingsdatum (van project) gemaakt voor de campagne. U kunt dit gekoppelde veld niet handmatig bewerken. In het veld Geplande afsluitdatum (van project) wordt de geplande uitvoeringsdatum van de gekoppelde projecten weergegeven.
 
      >[!IMPORTANT]
      >
-     >    Iedereen met Weergave of hogere machtigingen voor de werkruimte kan de informatie in de gekoppelde velden weergeven, ongeacht de machtigingen of het toegangsniveau in de toepassing van de gekoppelde objecttypen door derden.
+     >    Iedereen met Weergave of hogere machtigingen voor de werkruimte kan de informatie in de gekoppelde velden weergeven, ongeacht de machtigingen of het toegangsniveau in de toepassing van de gekoppelde objecttypen.
 
 * Gekoppelde recordvelden worden voorafgegaan door een relatiepictogram ![](assets/relationship-field-icon.png).
 
   Gekoppelde velden worden voorafgegaan door een pictogram dat het veldtype aangeeft. Bijvoorbeeld pictogrammen die aangeven dat een veld een getal, alinea of datum is.
-
-* Nadat u afzonderlijke records voor een recordtype hebt gemaakt, kunt u de records waarmee u verbinding maakt, selecteren in het veld voor het gekoppelde recordtype. Zie voor meer informatie [Connect-records](../records/connect-records.md).
 
 ## Verbind recordtypen
 
@@ -191,15 +184,15 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. In de **Recordtype** veld, zoek naar een recordtype of selecteer een van de volgende opties: <!--is the field name spelled right? lowercase "t"?-->
+1. In de **Recordtype** veld, zoek naar een recordtype of selecteer een van de volgende opties:
 
-   * Een ander type bedrijfsrecord of een taxonomie in de werkruimte die u hebt geselecteerd
+   * Een ander type bedrijfsrecord of een taxonomie uit het gedeelte van de werkruimte dat u hebt geselecteerd
 
      >[!TIP]
      >
      >Alleen recordtypen en taxonomieën in de werkruimte die u hebt geselecteerd, zijn beschikbaar voor verbinding.
      > 
-     >Als de geselecteerde werkruimte geen andere recordtypen bevat, wordt de naam van de werkruimte niet weergegeven.
+     >Als de geselecteerde werkruimte geen andere recordtypen bevat, wordt de sectie Werkruimte niet weergegeven.
 
    * A **Project, Portfolio, Programma, Bedrijf**, of **Groep** van de **Workfront-objecttypen** sectie.
    * **Experience Manager Assets** van de **Adobe-toepassingen** sectie.
@@ -209,7 +202,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. Werk de volgende gegevens bij:
 
-   * **Naam**: De naam van het verbonden veld, zoals deze wordt weergegeven in de tabelweergave of op de pagina Details van het oorspronkelijke recordtype. Hiermee maakt u de gekoppelde recordkolom in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordveld voor de oorspronkelijke records. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Naam**: De naam van het verbonden veld, zoals deze wordt weergegeven in de tabelweergave of op de pagina Details van het oorspronkelijke recordtype. Hiermee maakt u de gekoppelde recordkolom in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordveld voor de oorspronkelijke records.
 
    >[!TIP]
    >
@@ -217,11 +210,15 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    * **Beschrijving**: Aanvullende informatie over het verbonden recordveld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Meerdere records toestaan**: Selecteer deze optie om aan te geven dat gebruikers meerdere records mogen toevoegen wanneer het veld voor het gekoppelde recordtype wordt weergegeven op de oorspronkelijke records. Dit is standaard geselecteerd.
-   * **Opzoekvelden selecteren**: Selecteer deze optie om velden van het geselecteerde recordtype toe te voegen. De opzoekvelden zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt.  Dit is standaard geselecteerd.
+   * **Opzoekvelden selecteren**: Selecteer deze optie om velden van het geselecteerde recordtype toe te voegen. De opzoekvelden zijn velden die zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt. Als u deze koppelt, wordt informatie weergegeven uit de record of het object waarnaar u een koppeling maakt in de record waarvan u een koppeling wilt maken. Dit is standaard geselecteerd.
 
-1. (Voorwaardelijk en optioneel) Als u een Workfront-object wilt verbinden, selecteert u een **Aangepast formulier** van de **Alleen projecten koppelen die aan deze criteria voldoen** sectie. <!--this needs to be updated for each object when they fix this UI.--> Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde Maestro-recordtype. U kunt meerdere formulieren selecteren.
+1. (Voorwaardelijk en optioneel) Als u een Workfront-object wilt verbinden, selecteert u een **Aangepast formulier** van de **Alleen objecten koppelen die aan deze criteria voldoen** sectie. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde Maestro-recordtype. U kunt meerdere formulieren selecteren.
 
    ![](assets/workfront-project-connection-selection.png)
+
+   >[!NOTE]
+   >
+   > U moet in Workfront aangepaste formulieren maken voor de geselecteerde objecten voordat ze in deze lijst worden weergegeven.
 
 1. (Voorwaardelijk) Als u verbinding wilt maken met Experience Manager Assets, selecteert u een opslagplaats in het menu **Experience Manager-opslagplaats** vervolgkeuzemenu in het dialoogvenster **Elementen koppelen van de volgende gegevensopslagruimte** sectie. Dit is een verplicht veld. Alleen repositories waartoe u toegang hebt in Experience Manager Assets-weergave in dit veld.
 
@@ -239,9 +236,11 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
+   De waarden voor de verbonden velden worden automatisch ingevuld nadat u records of objecten hebt gekoppeld.
+
    >[!IMPORTANT]
    >
-   >    Iedereen met Weergave of hogere machtigingen voor de werkruimte kan de informatie in de gekoppelde velden weergeven, ongeacht de machtigingen of het toegangsniveau in de toepassing van de gekoppelde objecttypen door derden.
+   >    Iedereen met Weergave of hogere machtigingen voor de werkruimte kan de informatie in de gekoppelde velden weergeven, ongeacht de machtigingen of het toegangsniveau in de toepassing van de gekoppelde objecttypen.
 
 
 1. (Optioneel) Klik op **Overslaan** en voeg geen velden toe uit de gekoppelde record of het gekoppelde object. De **Naam** van de gekoppelde record is het enige zichtbare veld in de tabelweergave van de oorspronkelijke record.
@@ -281,9 +280,11 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    * Een gekoppeld recordveld op het recordtype waarvan u een koppeling maakt. In het gekoppelde recordveld worden afzonderlijke records van het gekoppelde recordtype weergegeven nadat u ze handmatig hebt toegevoegd. Zie voor informatie over het toevoegen van records [Connect-records](/help/quicksilver/maestro/records/connect-records.md). De naam van het gekoppelde recordveld is de naam die u in stap 6 hebt geselecteerd. <!--accurate-->
 
-   * Een gekoppeld veld (of velden) waarin informatie uit de velden van het gekoppelde recordtype wordt weergegeven nadat u de records handmatig hebt toegevoegd in het gekoppelde recordveld. De gekoppelde velden worden alleen gemaakt wanneer de **Opzoekvelden selecteren** Deze instelling wordt geselecteerd bij het maken van de verbinding. De gekoppelde velden krijgen een naam volgens dit patroon:
+   * Een gekoppeld veld (of gekoppelde velden) waarin informatie uit de velden van de gekoppelde record of objecttypen wordt weergegeven nadat u de records of objecten handmatig hebt toegevoegd in het gekoppelde recordveld. De gekoppelde velden worden alleen gemaakt wanneer de **Opzoekvelden selecteren** Deze instelling wordt geselecteerd bij het maken van de verbinding. De gekoppelde velden krijgen automatisch een naam op basis van dit patroon:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
+
+     Bijvoorbeeld, als u een type van het verslagverslag van de Campagne met een verslagtype van het Programma koppelde en het Programma verbonden verslaggebied &quot;Informatie van het Programma&quot;noemt, dan uitgezocht om het gebied van de Begroting van het Programma in de de lijstmening van de Campagne ook te tonen, wordt het verbonden gebied automatisch genoemd `Budget (from Program information)` in de tabel van de campagne .
 
    * Wanneer u Maestro-recordtypen aan elkaar koppelt, wordt ook een gekoppeld recordveld toegevoegd aan het recordtype waarnaar u een koppeling maakt. De naam van het gekoppelde recordveld in het gekoppelde recordtype is de naam van het recordtype dat u koppelt.
 
@@ -291,9 +292,9 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
      >[!TIP]
      >
-     > Een gekoppeld recordveld naar het recordtype waarvan u een koppeling maakt, wordt niet gemaakt voor objecten van een externe toepassing.
+     > Er wordt geen gekoppeld recordveld gemaakt voor objecten van een andere toepassing naar het recordtype waarvan u een koppeling maakt in Maestro.
 
-1. (Optioneel) Klik in het oorspronkelijke recordtype of in de tabelweergave van het gekoppelde recordtype op de pijl omlaag in de koptekst van de gekoppelde recordvelden en klik vervolgens op een van de volgende opties:
+1. (Optioneel en voorwaardelijk) Klik in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordtype op de pijl omlaag in de koptekst van de gekoppelde recordvelden en klik vervolgens op een van de volgende opties:
 
    * **Veld bewerken**: U kunt het dialoogvenster **Naam** en de **Beschrijving** informatie over het veld.
    * **Opzoekvelden bewerken**: Voeg de velden van een gekoppelde record toe of verwijder deze.
@@ -304,14 +305,10 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    >[!NOTE]
    >
-   > U kunt de opzoekvelden niet toevoegen van de record die u koppelt aan het gekoppelde recordtype dat een object aangeeft in een toepassing van een derde.
+   > U kunt geen opzoekvelden toevoegen die behoren tot Maestro-recordtypen die u vanuit een andere toepassing koppelt aan objecttypen.
    >
-   > U kunt bijvoorbeeld het opzoekveld van een Maestro-object ‘Campagne’ niet toevoegen vanuit het veld ‘Campagne’ voor gekoppelde records dat wordt weergegeven in het recordtype Maestro-project wanneer u een koppeling naar Workfront-projecten tot stand brengt.
+   > U kunt bijvoorbeeld het opzoekveld Campagnestatus niet toevoegen aan een Workfront-project waarnaar u vanuit de campagnes een koppeling maakt.
 
-1. (Optioneel) Klik op de pijl omlaag in de koptekst van het gekoppelde recordveld in het recordtype waarvan u een koppeling maakt, en klik vervolgens op **Verwijderen**.
+1. (Optioneel) Klik op de pijl omlaag in de koptekst van een gekoppeld recordveld of de koptekst van een opzoekveld in het recordtype waarvan u een koppeling maakt, en klik vervolgens op **Verwijderen**.
 
-   Het recordveld en eventuele aanvullende gekoppelde opzoekvelden worden verwijderd en de velden en hun gegevens kunnen niet worden hersteld.
-
-   >[!TIP]
-   >
-   >    Het gekoppelde recordveld in het recordtype waarnaar u koppelt, wordt niet verwijderd. <!-- is this still accurate?! -->
+   Het recordveld of het opzoekveld wordt verwijderd. Als u een recordveld verwijdert, worden alle opzoekvelden die aan de gekoppelde record zijn gekoppeld, ook verwijderd.

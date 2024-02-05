@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Taxonomieën zijn recordtypen die kenmerken vastleggen over gegevenstypen in Adobe Maestro.
+De types van taxonomieverslag vangen attributen over operationele verslagtypes in Adobe Maestro.
 
 Campagne kan bijvoorbeeld een operationeel recordtype zijn. Hieronder vindt u taxonomieën die kenmerken vastleggen over het type campagnerecord: Regio, Publiek, Land.
 
@@ -91,19 +91,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het maken van taxonomieën
 
-* U moet een werkruimte maken voordat u taxonomieën in de werkruimte kunt maken.
+* U moet een werkruimte maken voordat u recordtypen voor taxonomieën in de werkruimte kunt maken.
 
   Zie voor informatie over werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 * U kunt een taxonomie recordtype tot stand brengen door één van het volgende te doen:
    * U kunt deze automatisch maken wanneer u een werkruimte maakt met een sjabloon. Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
    * Maak ze handmatig, helemaal opnieuw.
-   * U kunt ze handmatig maken door gegevens uit een externe lijst te plakken.
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* Alle nieuwe taxonomieën worden geleverd met de volgende velden:
+* Alle nieuw gecreëerde types van taxonomiverslag komen met de volgende gebieden:
 
    * Naam <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
   >[!NOTE]
   >
-  >    Taxonomieën die worden gemaakt wanneer een werkruimtemalplaatje wordt gebruikt, hebben aanvullende velden.
+  >    De recordtypes van taxonomie die worden gecreeerd wanneer het gebruiken van een werkruimtesjabloon hebben extra gebieden.
 
-## Een taxonomie maken
+## Een recordtype voor de taxonomie maken
 
-Het maken van taxonomieën lijkt op het maken van een geheel nieuw operationeel recordtype of op basis van een werkruimtemalplaatje.
+Het maken van gegevenstypen voor taxonomieën is vergelijkbaar met het maken van geheel nieuwe, operationele recordtypen of een werkruimtemalplaatje.
 
 Zie de sectie Een geheel nieuw recordtype maken in het artikel voor meer informatie. [Recordtypen maken](../architecture/create-record-types.md).
 

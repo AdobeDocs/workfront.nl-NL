@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Als u Maestro-recordtypen wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
@@ -98,16 +98,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het maken van recordtypen
 
-* U kunt recordtypen in een werkruimte maken door een van de volgende handelingen uit te voeren:
+* U kunt recordtypen in een werkruimte op de volgende manieren maken:
 
    * Automatisch:
       * Wanneer u een werkruimte maakt met een sjabloon.
 
         Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
       * Wanneer u ze importeert met een Excel- of CSV-bestand. Dit is niet beschikbaar voor gegevenstypen van taxonomie.
-      * Wanneer u een verbinding maakt met objecttypen vanuit een andere toepassing, wanneer u velden toevoegt aan een recordtype. Hiermee maakt u in Maestro een alleen-lezen recordtype dat is verbonden met objecttypen uit de oorspronkelijke toepassing.
-
-     Voor informatie over het verbinden van objecten types met verslagen Maestro, zie [Connect-records](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Handmatig:
 
       * Van nul.
@@ -126,9 +126,9 @@ In dit artikel wordt beschreven hoe u nieuwe operationele recordtypen kunt maken
 
 Zie voor meer informatie over taxonomieën [Een taxonomie maken](../architecture/create-a-taxonomy.md).
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte moet standaard worden geopend.
+De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
 1. Klikken **Recordtype toevoegen**.
@@ -138,14 +138,14 @@ Zie voor meer informatie over taxonomieën [Een taxonomie maken](../architecture
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. Selecteer de volgende gegevens:
+1. Werk de volgende gegevens bij:
 
-   * **Recordnaam**: Vervang &quot;Naamloos type operationeel record&quot; door de naam van het toekomstige recordtype. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Naam recordtype**: Vervang &quot;Naamloos type operationeel record&quot; door de naam van het toekomstige recordtype.
    * **Weergave**: Definieer de kleur en vorm van het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
       * Selecteer een kleur voor het nieuwe recordtype. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
-1. Klik buiten de **Recordtype toevoegen** om de record op te slaan.
+1. Klik buiten de **Recordtype toevoegen** het recordtype op.
 
    De kaart met recordtype wordt toegevoegd aan de werkruimte die u hebt geselecteerd.
 Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
@@ -171,8 +171,11 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
 
    Klik op de knop **Meer** pictogram ![](assets/more-menu.png) rechts van de naam van het recordtype en klik op **Naam wijzigen** om de naam te wijzigen.
 
-1. (Optioneel) Klik op **+ Nieuw &lt; naam recordtype >** records van het geselecteerde recordtype toevoegen. Zie voor meer informatie [Records maken](../records/create-records.md).
-1. (Optioneel) Klik op de knop **+** in de rechterbovenhoek van de tabel om meer velden aan het recordtype toe te voegen. Zie voor meer informatie [Velden maken](../fields/create-fields.md).
+1. (Optioneel) Klik op **+ Nieuwe record** records van het geselecteerde recordtype toevoegen. Zie voor meer informatie [Records maken](../records/create-records.md).
+1. (Optioneel) Klik op de knop **+** in de rechterbovenhoek van de tabel om meer velden aan het recordtype toe te voegen.
+
+   Zie voor meer informatie over het maken van velden [Velden maken](../fields/create-fields.md).
+
 1. (Optioneel) Klik op de pijl die naar links wijst links van de naam van het recordtype om terug te gaan naar de geselecteerde werkruimte.
 
    Op de kaart met recordtype wordt het aantal velden en verbindingen weergegeven dat het recordtype bevat.
@@ -184,7 +187,7 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
    * [Records maken](../records/create-records.md)
    * [Recordtypen verwijderen](../architecture/delete-record-types.md)
    * [Recordtypen bewerken](../architecture/edit-record-types.md)
-   * [Recordweergaven beheren in Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [Recordweergaven beheren](../views/manage-record-views.md)
 
 ## Recordtypen maken door een Excel- of CSV-bestand te importeren
 
@@ -202,9 +205,9 @@ Houd rekening met het volgende wanneer u recordtypen importeert met een Excel- o
 
 Recordtypen importeren met een Excel-bestand:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> klik vervolgens op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte moet standaard worden geopend.
+De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
 1. Klikken **Recordtype toevoegen**.
@@ -250,20 +253,21 @@ Recordtypen importeren met een Excel-bestand:
 
    Iedereen met toegang tot Maestro kan nu de geïmporteerde recordtypen en hun informatie bekijken en bewerken. <!--this will change with permissions-->
 
-## Verbind verslagtypes met objecten types van een andere toepassing
+<!--## Connect record types with object types from another application
 
-U kunt recordtypen importeren wanneer u een verbinding maakt tussen een Maestro-recordtype en een objecttype uit een andere toepassing. Hierdoor wordt in Maestro een alleen-lezen recordtype gemaakt dat overeenkomt met het objecttype in de externe toepassing.
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-U kunt bijvoorbeeld recordtypen maken door Maestro-recordtypen aan te sluiten op Workfront-projecten. Hierdoor wordt het Workfront-projectobjecttype geïmporteerd in Maestro als een alleen-lezen recordtype. Standaard krijgt het recordtype de naam &quot;Workfront Project&quot;. <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-U kunt de volgende objecten importeren uit de volgende toepassingen:
+* From Workfront:
 
-* Uit Workfront:
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * Projecten
-   * Portfolio&#39;s
-   * Programma&#39;s
-   * Bedrijf
-   * Groep
-
-Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

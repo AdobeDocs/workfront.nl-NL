@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het maken van operationele records is hetzelfde als het maken van taxonomierecor
 U kunt records maken in Maestro door een van de volgende handelingen uit te voeren:
 
 * Deze handmatig maken voor Maestro-recordtypen
-* Verbind hen met verslagen Maestro van derdetoepassingen.
+* Verbind hen met verslagen Maestro van andere toepassingen.
 * Maak records door gegevens uit een externe lijst te kopiëren en te plakken.
 
 In dit artikel wordt beschreven hoe u Maestro-records kunt maken. Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
@@ -139,22 +139,21 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
 ## Records maken door deze vanuit een andere toepassing te verbinden
 
-U kunt records uit andere toepassingen importeren door deze te koppelen aan Maestro-gekoppelde records. Hierdoor wordt een Maestro-recordtype gemaakt voor het aangesloten object van de toepassing van derden. Records die u verbindt met de oorspronkelijke Maestro-records worden weergegeven in de tabelweergave van het type Maestro-record van een externe toepassing.
+U kunt records uit andere toepassingen importeren door deze te koppelen aan Maestro-gekoppelde records. Hierdoor wordt een Maestro-recordtype gemaakt voor het gekoppelde object van de andere toepassing.
 
 1. Maak een Maestro-recordtype, zoals beschreven in het dialoogvenster [Recordtypen maken](../architecture/create-record-types.md).
 
 1. Maak Maestro-records voor het recordtype dat u in de vorige stap hebt gemaakt. Zie de sectie [Records maken door deze handmatig toe te voegen aan een recordtype](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel.
 
-1. Maak een verbinding met een objecttype vanuit een externe toepassing voor het recordtype Maestro dat u hebt gemaakt. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+1. Maak een verbinding met een objecttype vanuit een andere toepassing voor het Maestro-recordtype dat u hebt gemaakt. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
 
-1. Voeg records uit de toepassing van een andere fabrikant toe aan de Maestro-records die u hierboven hebt gemaakt met behulp van het gekoppelde recordveld dat u in de vorige stap hebt gemaakt. Zie voor meer informatie [Connect-records](../records/connect-records.md).
+1. Voeg records uit een andere toepassing toe aan de Maestro-records die u hierboven hebt gemaakt met het gekoppelde recordveld dat u in de vorige stap hebt gemaakt. Zie voor meer informatie [Connect-records](../records/connect-records.md).
 
    De volgende items worden gemaakt in Maestro:
 
-   * Een alleen-lezen maestro-recordtype dat verwijst naar het recordtype van derden waarnaar u in het verbonden recordveld hebt gekoppeld.
+   * Een alleen-lezen maestro-recordtype dat verwijst naar het recordtype van de andere toepassing waarnaar u in het verbonden recordveld hebt gekoppeld.
 
-     Als u bijvoorbeeld een Maestro-recordtype verbindt met Workfront-projecten, wordt in dezelfde werkruimte een alleen-lezen recordtype gemaakt met de naam &quot;Workfront-projecten&quot;.
-   * Alleen-lezen records in de pagina met recordtypen van derden. De records die u hebt geïmporteerd uit de toepassing van derden, blijven alleen-lezen en kunnen alleen in de oorspronkelijke toepassing worden bijgewerkt.
+     Als u bijvoorbeeld een Maestro-recordtype verbindt met een Workfront-project, wordt in dezelfde werkruimte een alleen-lezen recordtype gemaakt met de naam &quot;Workfront-project&quot;. U kunt tot de read-only Workfront verslagtypes van de lijstmening van de verslagen toegang hebben Maestro u van verbindt.
 
 ## Records maken door gegevens uit een externe lijst te kopiëren en te plakken
 
@@ -178,7 +177,7 @@ U kunt records uit andere toepassingen importeren door deze te koppelen aan Maes
    >
    > Zorg ervoor dat u de gewenste velden hebt die al in Maestro zijn gemaakt en dat de gegevens op uw blad in de juiste indeling worden weergegeven die overeenkomt met die van elk veld in Maestro.
 
-1. Selecteer in de toepassing van derden meerdere rijen en kolommen en plak de informatie in de tabelweergave met recordtype, te beginnen met de eerste nieuwe record.
+1. In een andere toepassing selecteert u meerdere rijen en kolommen en plakt u de gegevens in de tabelweergave van het recordtype, te beginnen met de eerste nieuwe record.
 
    De volgende informatie wordt geïmporteerd in Maestro:
 
