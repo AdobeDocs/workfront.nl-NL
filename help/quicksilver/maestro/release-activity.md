@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3933'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,54 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
+## Week van 5 februari 2024
+
+### Rechten wijzigen op basis van licentietypen
+
+Productie: 6 februari 2024
+
+Voorbeeld: te bepalen
+
+We hebben machtigingsniveaus gewijzigd om rekening te houden met de licentietypen van gebruikers. Vóór deze verbetering, waren er geen verschillen in werkruimtemachtigingen die op de licentietypes van de gebruikers worden gebaseerd.
+
+De volgende machtigingen werken nu in combinatie met het licentietype van de gebruiker:
+
+* Gebruikers met een licentie voor abonnementen (of standaardlicenties in het nieuwe licentiemodel) kunnen werkruimten, recordtypen en records maken en beheren.
+
+* Gebruikers met een werkvergunning (of licht in het nieuwe licentiemodel) kunnen een werkruimte weergeven en hieraan een bijdrage leveren die met hen wordt gedeeld, en de recordtypen en -records van die werkruimte.  Gebruikers met een werkvergunning (of een lichte licentie) kunnen ook records maken, bewerken en verwijderen in werkruimten waar ze toegang tot Contribute hebben.
+
+* Gebruikers met een licentie voor revisie of aanvrager (of Medewerker in het nieuwe licentiemodel) kunnen alleen de werkruimten weergeven die met hen worden gedeeld, alsmede de recordtypen en records van die werkruimten. Ze kunnen geen recordtypen of records maken, bewerken of verwijderen.
+
+Voor informatie over het nieuwe licentiemodel raadpleegt u [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+Zie voor informatie over de verbinding tussen licentietype en machtigingen in Maestro [Overzicht van licentietype in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
+<!--
+### New look-and-feel of the Rich-Text toolbar for record fields
+
+Production: February 7, 2024 
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
+
+For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+
+Production: February 8, 2024 
+
+Preview: To be determined 
+
+We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
+ 
+For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+
+The improvements are now available when updating fields in the table view of a record type.  
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+
+-->
 
 ## Week van 29 januari 2024
 

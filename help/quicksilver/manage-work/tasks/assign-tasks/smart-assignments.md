@@ -7,7 +7,7 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten.</span>
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 
 Bij het beheren van taken en uitgaven kunt u slimme toewijzingen gebruiken om te bepalen wie de beste bron is om het werk te voltooien. De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. De slimme taken kunnen gebruikers, baanrollen, of teams zijn.

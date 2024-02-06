@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '13888'
+source-wordcount: '13894'
 ht-degree: 0%
 
 ---
@@ -2033,6 +2033,7 @@ ht-degree: 0%
       * [Toegangsgegevens](maestro/access/access-information.md)
       * [Overzicht van toegang](maestro/access/access-overview.md)
       * [Overzicht van het delen van machtigingen in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Overzicht van licentietype in Adobe Maestro](maestro/access/license-type-overview.md)
       * [Werkruimten delen](maestro/access/share-workspaces.md)
       * [Weergaven delen](maestro/access/share-views.md)
    * Adobe Maestro records {#adobe-maestro-records}

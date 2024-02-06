@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ U moet de volgende instellingen hebben om Adobe Maestro te kunnen gebruiken:
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
    <p>Alle</p>
-   Gebruikers moeten beschikken over de volgende licentie om werkruimten te maken: 
-   <ul><li><p>Nieuw: Standaard</p> </li>
-   <li><p>Huidig: Worker of hoger</p> </li></ul>
+   <p>Als u werkruimten wilt maken, hebt u de volgende licentie nodig:</p>
+   <ul>
+   <li>
+   Nieuw: Standaard
+   </li>
+   <li>
+   Huidig: Worker of hoger
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ U moet de volgende instellingen hebben om Adobe Maestro te kunnen gebruiken:
 <tr>
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
-   <p>Contribute of hoger machtigingen voor werkruimten en weergaven die u niet hebt gemaakt voor het bewerken, verwijderen en delen ervan</p>
+   <p>Draag of hoger toestemmingen aan werkruimten en meningen bij die u niet creeerde om, hen uit te geven te schrappen en te delen, en recordtypes en verslagen tot stand te brengen, uit te geven of te schrappen.</p>
     <p>Systeembeheerders kunnen werkruimten en weergaven beheren die ze niet hebben gemaakt </p>
    <p>Zie voor informatie over het delen van machtigingen voor Maestro-objecten  
    <a href="../access/sharing-permissions-overview.md">Overzicht van het delen van machtigingen in Adobe Maestro</a> 
@@ -109,10 +115,16 @@ Er zijn geen toegangscontroles voor Maestro.
 
 Gebruikers met elk type licentie hebben toegang tot Maestro.
 
+Voor informatie over het verlenen van toegang in Workfront raadpleegt u [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## Rechten verlenen
 
 U moet gebruikers die geen toestemmingen van de Beheerders van het Systeem aan werkruimten en meningen geven u creeert opdat zij tot hen toegang hebben.
 
 Zie voor meer informatie [Overzicht van gedeelde machtigingen in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Het Adobe Workfront-licentietype werkt in combinatie met uw Maestro-machtigingen en geeft u toegang tot Maestro-objecten, -content of -beheer.
+
+Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor voorwerpen Maestro beïnvloeden, zie [Overzicht van licentietype in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

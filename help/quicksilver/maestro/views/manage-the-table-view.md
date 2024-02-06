@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -166,6 +166,8 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >   * Het wijzigen van het primaire veld in een tabelweergave heeft invloed op alle tabelweergaven.
    >
    >   * U kunt een primair veld niet verwijderen of verbergen.
+   >
+   >   * De waarde in het primaire veld is altijd gekoppeld aan de pagina Details van de record.
 
 1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 
@@ -214,7 +216,7 @@ U kunt tot 10.000 verslagen (of rijen) voor een verslagtype in Maestro hebben.
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
-1. (Optioneel) Voeg een miniatuur toe aan elke record en klik vervolgens op **Velden** in de rechterbovenhoek van de tabel en selecteer de schakeloptie voor het veld Miniatuur om deze links van het primaire veld weer te geven. Deze optie is standaard uitgeschakeld.
+1. (Optioneel) Voeg een miniatuur toe aan elke record en klik op **Velden** in de rechterbovenhoek van de tabel selecteert u vervolgens de schakeloptie voor de **Miniatuur** veld dat links van het primaire veld wordt weergegeven. Deze optie is standaard uitgeschakeld.
 
    Zie voor meer informatie [Miniaturen toevoegen aan records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 

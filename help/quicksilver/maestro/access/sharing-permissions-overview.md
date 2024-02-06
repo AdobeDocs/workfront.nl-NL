@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,9 @@ U kunt de volgende objecten delen in Maestro:
 
 ## Overwegingen bij het delen van objecten in Maestro
 
-* U moet over de volgende licentie beschikken om werkruimten te maken in Maestro:
+* Het Adobe Workfront-licentietype werkt in combinatie met uw Maestro-machtigingen en geeft u toegang tot Maestro-objecten, -content of -beheer.
 
-   * Nieuw prijsmodel: standaardlicentie
-   * Huidige prijsmodel: licentie voor abonnementen.
-
-  Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+  Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor voorwerpen Maestro beïnvloeden, zie [Overzicht van licentietype in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systeembeheerders kunnen werkruimten beheren en delen die andere gebruikers hebben gemaakt.
 * Als u geen systeembeheerder bent, kunt u aan werkruimten bijdragen die door anderen worden gecreeerd als zij met u worden gedeeld.
 * U kunt werkruimten niet bulksgewijs delen.
@@ -60,6 +57,13 @@ U kunt de volgende objecten delen in Maestro:
 ## Machtigingen delen voor Maestro-objecten
 
 De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt selecteren bij het delen van een Maestro-werkruimte of -weergave en welke functionaliteit elk niveau toestaat.
+
+>[!IMPORTANT]
+>
+>Niet alle gebruikers kunnen de hieronder beschreven toestemmingsniveaus hebben. De individuele vergunning van gebruikers bepaalt welk niveau van toestemmingen zij voor voorwerpen kunnen ontvangen Maestro.
+>
+>Zie voor meer informatie [Overzicht van licentietype in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### Werkruimtemachtigingen
 
