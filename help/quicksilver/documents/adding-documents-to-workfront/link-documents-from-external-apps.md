@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -232,6 +232,10 @@ U kunt een nieuw Google-document maken vanuit Workfront. U kunt geen nieuwe docu
 ## Een document uploaden en koppelen van Workfront naar een externe cloud provider
 
 U kunt een document van Workfront uploaden en koppelen aan een externe cloud provider. Hiermee wordt de opslag van het document verplaatst van Workfront naar de externe cloudprovider. Wanneer het document wordt gewijzigd in de externe toepassing, wordt het automatisch bijgewerkt in Workfront.
+
+>[!NOTE]
+>
+>Door een element naar een externe documentprovider te verzenden, maakt u een nieuwe versie van het element.
 
 Gebruikers zonder Workfront-toegang kunnen het document in de externe toepassing zien als zij toegang hebben tot de toepassing.
 
