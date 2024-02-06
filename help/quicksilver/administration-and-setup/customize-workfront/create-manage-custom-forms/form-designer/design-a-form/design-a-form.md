@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
 source-wordcount: '5096'
 ht-degree: 0%
@@ -198,8 +198,8 @@ Een tekstveld toevoegen:
     <td>Indeling</td>
     <td><p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p> <p><b>OPMERKING</b>:   
     <ul> 
-    <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.<br></li> 
-    <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li> 
+    <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.</li> 
+    <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Tekst met één regel</li>
@@ -316,7 +316,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <td> <p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p> <p><b>OPMERKING</b>:   
      <ul> 
     <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.<br></li> 
-    <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li> 
+    <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li>
      </ul></p></td> 
      <td><ul>
     <li>Keuzerondjes</li>

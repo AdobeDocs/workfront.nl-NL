@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,8 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
      <tr> 
       <td role="rowheader">Indeling</td> 
       <td> <p>De indeling waarin u de resultaten van het veld wilt opslaan en weergeven.</p> <p>Als u het veld wilt gebruiken in wiskundige berekeningen, moet u altijd een <strong>Getal</strong> of <strong>Valuta</strong> gebruiken. Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</p> 
-      <p><b>BELANGRIJK</b>: <p>Voordat u een indeling kiest, moet u rekening houden met de juiste indeling voor het nieuwe veld. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p> </td> 
+      <p><b>BELANGRIJK</b>: <p>Voordat u een indeling kiest, moet u rekening houden met de juiste indeling voor het nieuwe veld. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p>
+      <p><strong>OPMERKING:</strong> Berekende velden met de notatie Valuta mogen geen aanhalingstekens bevatten. (Gebruik bijvoorbeeld 800.00 en niet "800.00.") Het gebruik van aanhalingstekens kan onverwachte gevolgen hebben als gevolg van verschillen in de taalopmaak voor valutatypen.</p></td> 
      </tr> 
     </tbody> 
    </table>
