@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Het gebruik van sessiegegevens inschakelen bij het maken van externe pagina-URL's</td> 
-      <td> <p>Hiermee kunnen gebruikers de sessie-id-informatie van een site gebruiken wanneer ze een externe pagina aan een dashboard toevoegen.</p> <p>Ga voor meer informatie over het toevoegen van externe pagina's aan een dashboard naar <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Een externe webpagina insluiten in een dashboard</a>.</p> </td> 
+      <td> <p>Hiermee kunnen gebruikers de sessie-id-informatie van een site gebruiken wanneer ze een externe pagina aan een dashboard toevoegen.</p> <p>Deze optie is standaard onveilig en uitgeschakeld. Aanbevolen wordt OAuth voor integratie te gebruiken.</p> <p>Ga voor meer informatie over het toevoegen van externe pagina's aan een dashboard naar <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Een externe webpagina insluiten in een dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Laat mensen Workfront mobiele toepassingen gebruiken en de <strong>Workfront</strong> Outlook Add-in</td> 

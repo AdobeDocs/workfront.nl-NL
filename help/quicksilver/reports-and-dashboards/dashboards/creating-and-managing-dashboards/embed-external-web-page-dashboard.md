@@ -6,9 +6,9 @@ description: U kunt een externe webpagina in een dashboard insluiten om toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,11 @@ U moet zijn aangemeld bij de opgegeven website om de externe pagina weer te geve
         Uw Workfront-beheerder kan uw systeemvoorkeuren zodanig configureren dat sessiegegevens uit beveiligingsoverwegingen niet kunnen worden gebruikt in externe pagina&#39;s. In dit geval wordt de externe pagina niet op het dashboard geladen.\
         Zie voor meer informatie over de voorkeuren voor systeembeveiliging [Systeembeveiligingsvoorkeuren configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >Het gebruik van de SessionID is onveilig en wordt niet aangeraden.
+     >
 
    * **Hoogte**: Typ een getal groter dan 0 om de ruimte te definiëren die de externe pagina inneemt op het dashboard. De standaardhoogte is 500.
 

@@ -6,9 +6,9 @@ description: Wanneer u een document (DOCX, PDF, XLSX, AI) voor proef indient, ve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Wanneer u een document (DOCX, PDF, XLSX, AI) voor proef indient, verwerkt Adobe 
 
 Elke pagina van uw document wordt als een miniatuurafbeelding weergegeven in de conceptviewer. Wanneer u op een miniatuur klikt, kunt u met 100%, 200% en 400% inzoomen op een bitmapversie van die pagina. Voor proefdrukken met een hoogte of breedte van meer dan 800 mm bedraagt het maximale zoomniveau 200%.
 
-De kleuren in het document worden weergegeven in sRGB met kleurconversie uit de nieuwste Adobe-bibliotheek. De proefdrukviewer ondersteunt ICC-profielen (International Color Consortium) die in het document zijn ingesloten.
+De kleuren in het document worden weergegeven in sRGB met kleurconversie uit de meest recente Adobe-bibliotheek. De proefdrukviewer ondersteunt ICC-profielen (International Color Consortium) die in het document zijn ingesloten.
 
 Alle lettertypetekst wordt in de bijbehorende laag geëxtraheerd zolang u de juiste bestandsextensie gebruikt wanneer u het document naar het systeem uploadt. Tekst die als afbeeldingen of curven is opgenomen, wordt niet weergegeven.
 
@@ -32,10 +32,10 @@ Alle lettertypetekst wordt in de bijbehorende laag geëxtraheerd zolang u de jui
 * Omdat PDF-bestanden het meest gestandaardiseerd en betrouwbaar zijn, raden we u aan documenten om te zetten in deze indeling voordat u ze uploadt.
 * Gebruik de meest recente versie van uw software om uw originele documenten te maken.
 * Als u niet zeker weet welke instellingen u moet gebruiken bij het opslaan of exporteren van uw documenten in de toepassing waarin u deze hebt gemaakt, gebruikt u de standaardinstellingen. 
-* Zorg ervoor dat u alle lettertypen die u in een document in het document gebruikt, insluit. Als u aangepaste lettertypen gebruikt, worden deze lettertypen in uw document alleen weergegeven op de computers waarop ze zijn geïnstalleerd.
+* Zorg ervoor dat u alle lettertypen die u in een document in het document gebruikt, insluit. Als u aangepaste lettertypen gebruikt, worden deze lettertypen in uw document alleen weergegeven op de computers waarop ze zijn geïnstalleerd. Omdat aangepaste lettertypen echter niet zijn opgenomen in het proefdruksysteem, kunnen er geen aangepaste lettertypen worden gebruikt bij het genereren van het bestand, zelfs niet wanneer deze zijn ingesloten.
 * Plaats indien mogelijk alle tekstelementen in de bovenste lagen van het ontwerp. Op deze manier zorgt u ervoor dat de tekst kan worden uitgepakt en geselecteerd in het gereedschap Tekstannotatie.
 * Plaats alle afbeeldingen en elementen van uw document erin. Als u deze koppelt vanuit externe bronnen, zoals een ander bestand op uw computer, worden ze niet weergegeven in de proefdruk die u maakt.
-* Maak uw document met de aanbevolen standaarden voor het type en optimaliseer het voordat u het uploadt. Zo wordt het document geopend in de proefdrukviewer en in alle andere toepassingen en platforms.
+* Maak uw document met de aanbevolen standaarden voor het type en optimaliseer het voordat u het uploadt. Hierdoor wordt het document met succes geopend in de proefdrukviewer en in alle andere toepassingen en platforms.
 * Voer in uw ontwerpsoftware de &quot;preflight&quot;-opties uit om te zien of er waarschuwingen worden gegenereerd in uw document. Deze opties zijn in de meeste toepassingen beschikbaar als uitvoervoorbeeld, afdrukproductie, enzovoort. Raadpleeg de documentatie bij de toepassing voor meer informatie.
 * Zorg ervoor dat de kleurinstellingen in het hele document consistent zijn.
 * Als uw document is beveiligd tegen handelingen zoals het kopiëren van bestanden, is het mogelijk dat de inhoud van het document niet kan worden geopend met het gereedschap Proofing.
@@ -44,9 +44,9 @@ Alle lettertypetekst wordt in de bijbehorende laag geëxtraheerd zolang u de jui
 
 Doorgaans duurt de verwerking enkele seconden per pagina. Nochtans, kunnen diverse factoren dit, zoals netwerkverkeer/bandbreedte, lokale verbindingssnelheden, en internationale verbindingssnelheden (voor gebruikers buiten de V.S.) verlengen. Het volgende kan ook van invloed zijn op de verwerkingstijd:
 
-* Voor statische documenten en afbeeldingen: het aantal pagina&#39;s, de pagina-afmetingen, het tekstvolume, de complexiteit van afbeeldingen en objecten (elementen zoals meerdere vectorelementen, lagen, transparanties).
+* Voor statische documenten en afbeeldingen: aantal pagina&#39;s, afmetingen van pagina&#39;s, tekstvolume, complexiteit van afbeeldingen en objecten (elementen zoals meerdere vectorelementen, lagen, transparanties).
 * Voor video&#39;s: lange duur, grote afmetingen en gebruikte codecs.
-* Voor webvastleggingen: laadtijden en pagina-afmetingen van webpagina&#39;s.
+* Voor webvastleggingen: laadtijden en afmetingen van de pagina.
 
 ## Processtappen
 

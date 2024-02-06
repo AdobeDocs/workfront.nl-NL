@@ -6,9 +6,9 @@ description: U kunt filters, weergaven en groeperingen delen die u kunt bekijken
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,7 @@ Een filter delen met de standaardbuilderinterface:
 
    Het dialoogvenster Filter delen wordt weergegeven.
 
-1. De optie **Systeembrede weergave** instellen. Dit geeft iedereen in Workfront toestemming om het filter te bekijken.
-
-   >[!IMPORTANT]
-   >
-   >Wees voorzichtig met deze instelling. Door veel filters voor alle gebruikers toe te voegen, wordt de filterervaring overzichtelijk en worden filters moeilijker te vinden.
-
-   Of typ de namen van gebruikers, teams, rollen, groepen of bedrijven waarmee u wilt delen in de **Toegang verlenen aan** veld.
+1. Begin de namen van gebruikers, teams, rollen, groepen, of bedrijven te typen u met in wilt delen **Toegang verlenen aan** veld.
 
    ![Filter delen, vak](assets/new-filters-share-filter.png)
 

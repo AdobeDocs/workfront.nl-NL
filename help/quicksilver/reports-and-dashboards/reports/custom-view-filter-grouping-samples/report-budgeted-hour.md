@@ -7,9 +7,9 @@ description: "Verslag: Budgeted Hour"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 0%
 # Verslag: Budgeted Hour
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 Wanneer u de informatie van het BoedgetedUur met andere gebruikers wilt delen die geen toegang tot de Planner van het Middel hebben, kunt u dit doen door een Boedgeted rapport van het Uur te bouwen. U kunt het rapport dan met hen delen.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->De begrotingsuren worden bijgewerkt elk uur in het gegevensbestand van Adobe Workfront. Het verfrissen van het rapport verfrist noodzakelijk niet de uurinformatie in het. U kunt de tijd bekijken die sinds de laatste update in de hoger-juiste hoek van elk Boekgeted rapport van het Uur is verlopen. Als u het rapport vernieuwt, wordt de informatie in het rapport alleen vernieuwd als er meer dan een uur is verstreken sinds de laatste update.
+>De begrote Uren worden normaal elk uur bijgewerkt (zelden, kan het een maximum van drie uren) in het gegevensbestand van Adobe Workfront vergen. Het verfrissen van het rapport verfrist noodzakelijk niet de uurinformatie in het. U kunt de tijd bekijken die sinds de laatste update in de hoger-juiste hoek van elk Boekgeted rapport van het Uur is verlopen. Als u het rapport vernieuwt, wordt de informatie in het rapport alleen vernieuwd als er meer dan een uur is verstreken sinds de laatste update.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
