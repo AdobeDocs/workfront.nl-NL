@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,9 @@ Zie voor meer informatie over het delen van objecten [Overzicht van het delen va
 
 Wanneer een [!DNL Workfront] de beheerder wijst een groep aan een bedrijf toe, de groepsbeheerders voor de groepsaanwinst [!UICONTROL Manage] toegang tot het bedrijf in [!UICONTROL Setup]. Hieronder valt ook de toegang tot [!UICONTROL Companies] pagina in [!UICONTROL Setup], waar zij de met hun groep verbonden onderneming kunnen zien en beheren.
 
-Met deze toegang [!UICONTROL Companies] pagina, kan een groepsbeheerder een groep aan een bedrijf toewijzen, maar het moet een bedrijf zijn dat de groepsbeheerder creeerde. Als het de toegangsniveau van de groepsbeheerder niet met administratieve toegang tot bedrijven wordt gevormd, [!UICONTROL Group] Het gebied wordt vereist wanneer de groepsbeheerder tot bedrijf-het is bolded titel wijst op dit:
+Met deze toegang [!UICONTROL Companies] pagina, kan een groepsbeheerder een groep aan een bedrijf toewijzen, maar het moet een bedrijf zijn dat de groepsbeheerder creeerde. Als het de toegangsniveau van de groepsbeheerder niet met administratieve toegang tot bedrijven wordt gevormd, [!UICONTROL Group] het gebied wordt vereist wanneer de groepsbeheerder bedrijf-zijn bolded titel leidt wijst op dit:
 
-![](assets/manage-company-group-field-req.jpg)
+![Bedrijf bewerken](assets/group-admin-add-company.png)
 
 Voor informatie over hoe de gebruikers administratieve toegang tot bedrijven in hun toegangsniveau verkrijgen, zie [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
