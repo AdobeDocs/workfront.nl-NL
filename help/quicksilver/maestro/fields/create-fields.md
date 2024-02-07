@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3339'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 >
 >* De inhoud van een alinea-veld kan maximaal 1000 tekens bevatten.
 >
->* U kunt RTF-opmaak gebruiken om de inhoud van alineasvelden te verbeteren wanneer deze worden weergegeven in de tabelweergave of op de pagina Details van een record.
+>* U kunt RTF-opmaak gebruiken om de inhoud van alineasvelden te verbeteren wanneer deze worden weergegeven in de tabelweergave of op de pagina Details van een record. Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
 1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Alinea** veldtype.
 
@@ -377,7 +377,9 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maest
 
    >[!NOTE]
    >
-   >    U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Adobe Maestro-releaseactiviteit](/help/quicksilver/maestro/release-activity.md).
+   > * U kunt geen multiselect-tekstvelden toevoegen aan een formule.
+   >
+   > * U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Adobe Maestro-releaseactiviteit](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klikken **Maken**.
