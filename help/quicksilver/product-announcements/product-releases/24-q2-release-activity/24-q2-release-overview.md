@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a7df266715acc1e1b054b625effbd777273021d3
+source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 ## Verbeteringen voor Adobe Workfront
 
-<!-- * [Administrator enhancements](#administrator-enhancements)-->
+* [Beheerdersverbeteringen](#administrator-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 
-<!--
-### Administrator enhancements
+### Beheerdersverbeteringen
 
 <table>
             <col style="width: 50%;" />
@@ -45,41 +44,32 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Functie</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.
-
-Icons on a field in the form designer canvas indicate that logic is configured on that field, or that the field is used in logic rules configured on other fields.
-
-For more information, see [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu bestaande weergave bewerken, logica overslaan en nieuwe logica toevoegen aan aangepaste formulieren in de bètaversie van de formulierontwerper. Met een eenvoudig te gebruiken logicaontwikkelaar kunt u definiëren welke velden worden weergegeven of overgeslagen op basis van selecties in het formulier.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: January 25, 2024<br /></p>
+                                <p>Voorvertoningsrelease: 8 februari 2024<br /></p>
                             </li>
                             <li>
-                                <p>Fast release to Production: With the 24.2 release (February 15, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Quarterly release to Production: With the 24.4 release April 2024</p>
+                                <p><span class="preview">Productie voor alle klanten: met de release van 24.2 (15 februari 2024)</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-    -->
 
 ### Projectverbeteringen
 
@@ -110,11 +100,47 @@ For more information, see [Add display logic and skip logic with the form design
                                 <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor alle klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
                             </li>
                         </ul>
                     </td>
                     </tr>
+           </tbody>
+        </table>
+
+### Andere verbeteringen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het tweede kwartaal van 2024</a></p><p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het tweede kwartaal van 2024. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: gedurende de gehele releaseperiode van het tweede kwartaal van 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie: bekijk de opmerkingen bij de release voor specifieke datums</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+        </table>   
            </tbody>
         </table>
 

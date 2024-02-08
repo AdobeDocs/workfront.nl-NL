@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar met de Vierde Versie van het K
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 1 november 2023; Productieversie voor alle klanten: 1 november
+>Voorvertoningsrelease: 1 november 2023; Productieversie voor alle klanten: 1 november 2023
 
 Het e-mailsjabloon voor meldingen voor documentgoedkeuring is bijgewerkt zodat het beter aansluit bij andere e-mailsjablonen voor Adoben en het document helderder en bruikbaarder wordt.
 
@@ -31,7 +31,7 @@ Het e-mailsjabloon voor meldingen voor documentgoedkeuring is bijgewerkt zodat h
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 12 oktober 2023; Productieversie voor alle klanten: TBD
+>Voorvertoningsrelease: 12 oktober 2023; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor driemaandelijkse release: met de release van 24.4 (april 2024)
 
 Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.
 
