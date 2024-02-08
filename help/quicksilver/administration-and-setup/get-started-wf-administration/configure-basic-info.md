@@ -4,18 +4,20 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Basisinformatie voor uw systeem configureren
 description: Als onderdeel van het configureren van uw Adobe Workfront-systeem kunt u gegevens over uw organisatie beheren in het gedeelte Basisinformatie van de pagina Klantgegevens.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
 # Basisinformatie voor uw systeem configureren
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>-->
 
@@ -34,11 +36,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +54,7 @@ De klant vertegenwoordigt de Workfront-instantie voor uw organisatie. De opties 
 
 De pagina Klantgegevens openen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Systeem** > **Klantgegevens**.
 
@@ -59,19 +64,19 @@ De pagina Klantgegevens openen:
 
    * **Basisinformatie**
 
-      Voor informatie over het configureren van basisinformatie in Workfront raadpleegt u [Basisinformatie configureren](#configure-basic-info).
+     Voor informatie over het configureren van basisinformatie in Workfront raadpleegt u [Basisinformatie configureren](#configure-basic-info).
 
    * **Instellingen API-sleutel**
 
-      Voor informatie over API-sleutelinstellingen raadpleegt u [API-sleutels beheren](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     Zie voor informatie over API-sleutelinstellingen [API-sleutels beheren](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **IP Lijst van gewenste personen**
+   * **IP LIJST VAN GEWENSTE PERSONEN**
 
-      Voor informatie over het toevoegen van de IP adressen aan uw lijst van gewenste personen voor waar uw gebruikers tot Workfront kunnen toegang hebben, zie [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Voor informatie over het toevoegen van de IP adressen aan uw lijst van gewenste personen voor waar uw gebruikers tot Workfront kunnen toegang hebben, zie [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **Licentie**
 
-      Voor informatie over licenties raadpleegt u [Beschikbare licenties in uw systeem beheren](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Voor informatie over licenties raadpleegt u [Beschikbare licenties in uw systeem beheren](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Basisinformatie configureren {#configure-basic-info}
 
@@ -79,11 +84,11 @@ Binnen het gebied Basisinformatie van uw pagina van de Info van de Klant, worden
 
 U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens configureren:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Systeem** > **Klantgegevens**.
 
-1. In de **Basisinformatie** aan de bovenkant van **Klantgegevens** op Workfront de volgende informatie over je exemplaar vindt:
+1. In de **Basisinformatie** sectie boven aan het dialoogvenster **Klantgegevens** op de pagina vindt u de volgende informatie over uw exemplaar bij Workfront:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,11 +104,11 @@ U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens conf
      </tr> 
      <tr> 
       <td role="rowheader">E-mailadres beheerder</td> 
-      <td> <p>Het e-mailadres van uw Workfront-beheerder. U kunt dit veld bewerken zodat het overeenkomt met het e-mailadres van een van uw Workfront-beheerders. De gebruiker die aan dit e-mailadres is gekoppeld, wordt beschouwd als de belangrijkste Workfront-beheerder van uw Workfront-systeem. Alle communicatie van Workfront voor de hele site wordt naar dit e-mailadres gestuurd. Het is dus belangrijk dat u dit adres bijwerkt.</p> <p><b>OPMERKING</b>: U kunt het toegangsniveau van de gebruiker die aan de beheermail is gekoppeld, niet deactiveren, verwijderen of wijzigen.</p> </td> 
+      <td> <p>Het e-mailadres van uw Workfront-beheerder. U kunt dit veld bewerken zodat het overeenkomt met het e-mailadres van een van uw Workfront-beheerders. De gebruiker die aan dit e-mailadres is gekoppeld, wordt beschouwd als de belangrijkste Workfront-beheerder van uw Workfront-systeem. Alle communicatie van Workfront voor de hele site wordt naar dit e-mailadres gestuurd. Het is dus belangrijk dat u dit adres bijwerkt.</p> <p><b>OPMERKING</b>: U kunt het toegangsniveau van de gebruiker die is gekoppeld aan de beheermail niet deactiveren, verwijderen of wijzigen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Domein</td> 
-      <td> <p>Het domein wordt ingesteld door Workfront wanneer uw account wordt gemaakt.</p> <p>Het domein identificeert uw unieke subdomein van de URL die u gebruikt om toegang te krijgen tot Workfront.<p>Als aan uw organisatie bijvoorbeeld het domein 'mijnbedrijf' is toegewezen, is de URL die u gebruikt om toegang te krijgen tot Workfront <i>https://mycompany.my.workfront.com.</i></p><p>U kunt het domein niet zelf bewerken. Als je je domein wilt wijzigen, kun je contact opnemen met Customer Support van Workfront. Ga voor meer informatie over het contact opnemen met de klantenondersteuning van Workfront naar <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact opnemen met Klantenondersteuning</a>.</p> </td> 
+      <td> <p>Het domein wordt ingesteld door Workfront wanneer uw account wordt gemaakt.</p> <p>Het domein identificeert uw unieke subdomein van de URL die u gebruikt om toegang te krijgen tot Workfront.<p>Als aan uw organisatie bijvoorbeeld het domein 'mijnbedrijf' is toegewezen, is de URL die u gebruikt voor toegang tot Workfront <i>https://mycompany.my.workfront.com.</i></p><p>U kunt het domein niet zelf bewerken. Als je je domein wilt wijzigen, kun je contact opnemen met Customer Support van Workfront. Ga voor meer informatie over het contact opnemen met de klantenondersteuning van Workfront naar <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact opnemen met Klantenondersteuning</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tijdzone</td> 

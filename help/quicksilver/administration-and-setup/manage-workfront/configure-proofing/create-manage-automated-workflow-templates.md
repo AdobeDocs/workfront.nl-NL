@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2056'
 ht-degree: 0%
 
 ---
 
 # Geautomatiseerde workflowsjablonen maken en beheren
+
+<!-- Audited: 2/2024 -->
 
 Als beheerder van Adobe Workfront, als het proces van het inhoudsherzicht van uw organisatie vaak wordt herhaald of de inhoud vaak door de zelfde mensen wordt herzien, kunt u Geautomatiseerde malplaatjes van het Werkschema tot stand brengen die die recensenten met proefrollen en berichtmontages bevatten die u specificeert. Een Geautomatiseerde malplaatje van het Werkschema kan eenvoudig met slechts één of twee recensenten of complex met vele stadia en gebiedsdelen zijn.
 
@@ -26,7 +28,7 @@ U kunt op elk gewenst moment eenvoudig elke automatische werkstroomsjabloon wijz
 Overweeg het volgende wanneer u een Geautomatiseerde malplaatje van het Werkschema gebruikt:
 
 1. De instellingen van een automatische werkstroomsjabloon bepalen wat u kunt doen met de geautomatiseerde workflow voor een proefdruk. Als de knop Een werkgebied toevoegen bijvoorbeeld is uitgeschakeld in de sjabloon, is deze niet zichtbaar wanneer u werkt met de instellingen voor Geautomatiseerde workflow voor de proefdruk.
-1. Wanneer een persoon wordt toegevoegd aan een werkgebied in een Geautomatiseerde malplaatje van het Werkschema, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd een revisor toe te voegen.
+1. Wanneer een persoon wordt toegevoegd aan een werkgebied in een Geautomatiseerde malplaatje van het Werkschema, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd er een toe te voegen.
 1. Uw vermogen om een Geautomatiseerde malplaatje van het Werkschema te wijzigen hangt van de malplaatjemontages af die door de beheerder van Workfront worden gevormd, zoals die in wordt beschreven. Als de mogelijkheid om de sjabloon te wijzigen is uitgeschakeld, kan alleen de eigenaar van de sjabloon deze wijzigen.
 
 Voor informatie over geautomatiseerde workflows raadpleegt u [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
@@ -40,29 +42,30 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Premium of Selecteren</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Nieuw: alle</p><p>Huidig: Pro of hoger</p><p>Verouderd: Premium of Selecteren</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>Huidig: Werk of Plan</p> <p>Verouderd: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Beheerder moet zijn geselecteerd in het machtigingsprofiel voor proefdrukken. Zie voor meer informatie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">De proefdruktoegang van een gebruiker configureren</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Beheerder moet zijn geselecteerd in het machtigingsprofiel voor proefdrukken. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een automatische werkstroomsjabloon maken
 
-1. Vanuit Workfront klikt u op het hoofdmenu ![](assets/main-menu-icon.png)en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om toegang te krijgen tot Workfront Proof.
+{{step1-to-proofing}}
+
 1. Klikken **Workflows** in het linkerdeelvenster.
 1. Op de **Workflow** tabblad, klikt u op **Nieuw** > **Nieuwe sjabloon**.
 
-1. In de **Details** de volgende informatie op:
+1. In de **Details** de volgende informatie op te geven:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -86,10 +89,9 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader">Toestaan</td> 
-      <td> <p>U kunt de werkgebiedactiviteiten selecteren die beschikbaar zijn voor de persoon die proefdrukken maakt met de sjabloon.</p> <!--
-        <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
-          <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
-         --></p>
+      <td> <p>U kunt de werkgebiedactiviteiten selecteren die beschikbaar zijn voor de persoon die proefdrukken maakt met de sjabloon.</p> 
+      <p><b>WAARSCHUWING</b>: Als u niet de opties selecteert Een werkgebied toevoegen en Personen toevoegen aan fases, kunnen noch de sjablooneigenaar noch de eigenaar van een proefdruk met deze sjabloon een werkgebied toevoegen of de proefdruk delen. 
+      </p>
       </td> 
      </tr> 
     </tbody> 
@@ -116,7 +118,7 @@ U moet het volgende hebben:
       <td> <p>Geef op hoe de deadline moet worden berekend:</p> 
        <ul> 
         <li> <p><strong>Maken van proefafdruk</strong>: In de vervolgkeuzelijst onder <strong>Deadline (+ werkdagen)</strong>Selecteer het aantal werkdagen dat u wilt toevoegen aan de aanmaakdatum van de proefdruk om automatisch een deadline voor de proefdruk in te stellen.</p> </li> 
-        <li><strong>Wanneer werkgebied wordt gestart</strong>: In de vervolgkeuzelijst onder <strong>Deadline (+ werkdagen)</strong>selecteert u het aantal werkdagen dat u wilt toevoegen aan de activeringsdatum van het werkgebied om automatisch een deadline voor de proefdruk in te stellen.</li> 
+        <li><strong>Wanneer het werkgebied wordt gestart</strong>: In de vervolgkeuzelijst onder <strong>Deadline (+ werkdagen)</strong>selecteert u het aantal werkdagen dat u wilt toevoegen aan de activeringsdatum van het werkgebied om automatisch een deadline voor de proefdruk in te stellen.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -133,18 +135,16 @@ U moet het volgende hebben:
      </tr> 
      <tr> 
       <td role="rowheader">Privéstadium</td> 
-      <td>Hiermee verbergt u opmerkingen en beslissingen van personen die niet aan het werkgebied zijn toegevoegd of die geen Workfront-beheerder zijn&lt;!&gt;— GETEKEND IN FLARE: Supervisors en hoger
-
-       -->. Zie &lt;a href=&quot;../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md&quot; class=&quot;MCXref xref&quot;>Geautomatiseerd workflowoverzicht voor&lt;/a> meer informatie.&lt;/td>
-   </tr> 
+      <td>Hiermee verbergt u opmerkingen en beslissingen van personen die niet aan het werkgebied zijn toegevoegd of die geen Workfront-beheerder zijn. Zie voor meer informatie <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Geautomatiseerd workflowoverzicht</a>.</td> 
+     </tr> 
      <tr> 
-      <td role="rowheader">Het verwijderen van dit werkgebied niet toestaan</td> 
+      <td role="rowheader">Dit werkgebied niet verwijderen</td> 
       <td> <p>Maakt het werkgebied verplicht.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Als de proefdrukken die deze sjabloon zullen gebruiken altijd naar dezelfde personen in het werkgebied worden verzonden, voegt u ze hier toe zodat gebruikers ze niet telkens hoeven toe te voegen wanneer ze een proefdruk maken.
+1. Als de proefdrukken die deze sjabloon zullen gebruiken altijd naar dezelfde personen in het werkgebied worden verzonden, voegt u ze hier toe zodat gebruikers ze niet hoeven toe te voegen telkens wanneer ze een proefdruk maken.
 
    Elke persoon kiezen **Rol** op de proefdrukken die deze sjabloon en de **E-mailwaarschuwingen** u wilt dat de gebruiker deze sjabloon ontvangt wanneer hij of zij aan proefdrukken werkt.
 
@@ -172,10 +172,11 @@ U moet het volgende hebben:
 
 Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzigen. Uw wijzigingen worden automatisch opgeslagen wanneer u ze aanbrengt.
 
-1. Vanuit Workfront klikt u op het hoofdmenu ![](assets/main-menu-icon.png)en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om toegang te krijgen tot Workfront Proof.
+{{step1-to-proofing}}
+
 1. Klikken **Workflows** in het linkerdeelvenster.
 1. In de **Workflowsjablonen** Klik op de sjabloon die u wilt wijzigen.
-1. In de **Details** de volgende informatie op:
+1. In de **Details** de volgende informatie op te geven:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,12 +200,12 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
      </tr> 
      <tr> 
       <td role="rowheader">Toestaan</td> 
-      <td> <p>Selecteer de werkgebiedactiviteiten die beschikbaar moeten zijn voor diegenen die proefdrukken maken met de sjabloon. </p> <p><b>WAARSCHUWING</b>: Als u niet de opties selecteert voeg een stadium toe en voeg mensen aan stadia toe, noch zal de malplaatjeeigenaar noch de eigenaar van om het even welke proef gebruikend dit malplaatje een stadium kunnen toevoegen of de proef delen.</p> </td> 
+      <td> <p>Selecteer de werkgebiedactiviteiten die beschikbaar moeten zijn voor diegenen die proefdrukken maken met de sjabloon. </p> <p><b>WAARSCHUWING</b>: Als u niet de opties selecteert Een werkgebied toevoegen en Personen toevoegen aan fases, kunnen noch de sjablooneigenaar noch de eigenaar van een proefdruk met deze sjabloon een werkgebied toevoegen of de proefdruk delen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. In de **Workflow** de naam van een werkgebied wijzigen en de instellingen van het werkgebied uitbreiden ![](assets/arrow-button.png) eventueel noodzakelijke wijzigingen aan te brengen:
+1. In de **Workflow** de naam van een werkgebied wijzigen en de instellingen ervan uitbreiden ![](assets/arrow-button.png) eventueel noodzakelijke wijzigingen aan te brengen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -240,7 +241,7 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
      </tr> 
      <tr> 
       <td role="rowheader">Meer <img src="assets/more-icon.png"></td> 
-      <td>Revisoren toevoegen aan het werkgebied of het werkgebied verwijderen.<p>Als elk van uw proefdrukken naar dezelfde personen in een bepaald werkgebied wordt verzonden, kunt u hun namen hier opgeven, zodat u ze niet telkens opnieuw hoeft toe te voegen wanneer u een proefdruk maakt. Typ en selecteer de naam van een gebruiker die u aan het werkgebied wilt toevoegen en voeg vervolgens de naam van de gebruiker toe <strong>Rol</strong> op het bewijs en <strong>E-mailwaarschuwingen</strong> de gewenste instellingen voor de gebruiker. Voor informatie over het proefdrukken van rollen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Standaardproofingrollen configureren</a>. Zie de sectie voor informatie over e-mailwaarschuwingen voor proefdrukken <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Standaardwaarden voor proefdrukken voor een gebruiker configureren</a> in het artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Instellingen voor e-mailmeldingen configureren in Workfront Proof</a>.</p><p>U kunt zoveel gebruikers toevoegen als u wilt in een werkgebied</p><p>Tip: U kunt de namen van revisoren slepen en neerzetten tussen de fasen in het stappendiagram. De beschikbare stadia worden in blauw gemarkeerd.</p></td> 
+      <td>Revisoren toevoegen aan het werkgebied of het werkgebied verwijderen.<p>Als elk van uw proefdrukken naar dezelfde personen in een bepaald werkgebied wordt verzonden, kunt u hun namen hier opgeven, zodat u ze niet telkens opnieuw hoeft toe te voegen wanneer u een proefdruk maakt. Typ en selecteer de naam van een gebruiker die u aan het werkgebied wilt toevoegen en voeg vervolgens de naam van de gebruiker toe <strong>Rol</strong> op het bewijs en <strong>E-mailwaarschuwingen</strong> de gewenste instellingen voor de gebruiker. Voor informatie over het proefdrukken van rollen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Standaardproofingrollen configureren</a>. Zie de sectie voor informatie over e-mailwaarschuwingen voor proefdrukken <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Standaardwaarden voor proefdrukken voor een gebruiker configureren</a> in het artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Instellingen voor e-mailmeldingen configureren in Workfront Proof</a>.</p><p>U kunt zoveel gebruikers toevoegen als u wilt in een werkgebied</p><p>Tip: u kunt de namen van revisoren slepen en neerzetten tussen de stappen in het stappendiagram. De beschikbare stadia worden in blauw gemarkeerd.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -259,16 +260,17 @@ Als Workfront-beheerder kunt u alle sjablonen voor geautomatiseerde workflow in 
 
 Een automatische sjabloongroep voor werkstromen maken:
 
-1. Vanuit Workfront klikt u op het hoofdmenu ![](assets/main-menu-icon.png)en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om toegang te krijgen tot Workfront Proof.
+{{step1-to-proofing}}
+
 1. Klikken **Workflows** in het linkerdeelvenster.
 1. Op de **Workflow** tabblad, klikt u op **Nieuw** > **Nieuwe sjabloongroep**.
-1. Typ een beschrijvende naam voor de nieuwe sjabloongroep en druk op **Enter**.
+1. Typ een beschrijvende naam voor de nieuwe sjabloongroep en druk vervolgens op **Enter**.
 
 U kunt de sjablonen tussen groepen verplaatsen door te slepen en neer te zetten.
 
 ## Geautomatiseerde workflowsjablonen beheren
 
-1. Vanuit Workfront klikt u op het hoofdmenu ![](assets/main-menu-icon.png)en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om toegang te krijgen tot Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klik in het linkerdeelvenster van Workfront Proof op **Workflows**.
 1. Op de **Workflows** Voer een van de volgende handelingen uit op de pagina die wordt weergegeven:

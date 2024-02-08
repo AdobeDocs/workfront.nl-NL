@@ -7,14 +7,16 @@ description: De volledige waarde van Percentage van een project wordt berekend g
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 31533bd7ee1890a8343d32770d623d5d9a6007d2
+source-git-commit: 816fd70642ffb7b24095602ce160421aa947e2a6
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Overzicht van projectpercentage voltooid
+
+<!-- Audited 01/2024 -->
 
 De volledige waarde van Percentage van een project wordt berekend gebaseerd op of de Duur of Geplande Uren van taken in het project. Uw beheerder van Adobe Workfront of een groepsbeheerder bepaalt welke waarde in rekening wordt gebracht wanneer het berekenen van percent volledig in uw systeem wanneer zij informatie in het gebied van de Voorkeur van het Project vormen.
 
@@ -32,11 +34,7 @@ De belangrijkste taken zijn de oudertaken en de standalone taken die geen kinder
 
 ## Hoe Workfront het percentage voltooit berekent
 
-* [Het percentage van de voltooiing bijwerken op een taak](#update-the-percent-complete-on-a-task)
-* [Hoe Workfront Percentage voltooide op een bovenliggende taak berekent](#how-workfront-calculates-percent-complete-on-a-parent-task)
-* [Hoe Workfront het percentage voltooide projecten berekent](#how-workfront-calculates-percent-complete-on-a-project)
-
-### Het percentage van de voltooiing bijwerken op een taak {#update-the-percent-complete-on-a-task}
+### Het percentage van een taak bijwerken voltooid {#update-the-percent-complete-on-a-task}
 
 U kunt het percentage van een taak handmatig wijzigen. Dit is geen berekening.
 
@@ -52,21 +50,21 @@ Overweeg de volgende scenario&#39;s:
 
 * Als het systeem het percentage voltooide op Geplande Uren berekent, wordt het voltooide van de oudertaak berekend gebruikend de volgende formule:
 
-   `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
 
-   De totale geplande uren van de ouder vertegenwoordigen de som van alle Geplande Uren van elk van de kinderen.
+  De totale geplande uren van de ouder vertegenwoordigen de som van alle Geplande Uren van elk van de kinderen.
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Als het systeem het volledige percentage op de Duur baseert berekent, wordt het voltooide percentage van de oudertaak berekend gebruikend de volgende formule:
 
-   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!IMPORTANT]
-   >
-   >De totale Duur van de Ouderlijke Taak is het totaal van alle duur van de kindtaken. Bijvoorbeeld, heeft een oudertaak met twee kinderen die een respectieve Duur van 1 Dag en 2 Dagen hebben een Totale Duur van 3 Dagen, zelfs wanneer de twee kinderen op de zelfde dag kunnen beginnen.
+  >[!IMPORTANT]
+  >
+  >De totale Duur van de Ouderlijke Taak is het totaal van alle duur van de kindtaken. Bijvoorbeeld, heeft een oudertaak met twee kinderen die een respectieve Duur van 1 Dag en 2 Dagen hebben een Totale Duur van 3 Dagen, zelfs wanneer de twee kinderen op de zelfde dag kunnen beginnen.
 
 
 ### Hoe Workfront het percentage voltooide projecten berekent {#how-workfront-calculates-percent-complete-on-a-project}
@@ -75,29 +73,29 @@ Afhankelijk van wat uw Workfront of groepsbeheerder in de Voorkeur van het Proje
 
 * Als het systeem het volledige percentage op Geplande Uren berekent, wordt het volledige projectpercentage berekend gebruikend de volgende formule:
 
-   `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
+  `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
 
-   De totale geplande uren van het project zijn de som van de geplande uren van alle hoofdtaken van het project.
+  De totale geplande uren van het project zijn de som van de geplande uren van alle hoofdtaken van het project.
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
-   >[!NOTE]
-   >
-   >Taak 1 of Taak 2 kan oudertaken of standalone taken slechts zijn. De geplande uren en het Percentage voltooide kindertaken worden niet gebruikt in deze berekening.
+  >[!NOTE]
+  >
+  >Taak 1 of Taak 2 kan oudertaken of standalone taken slechts zijn. De geplande uren en het Percentage voltooide kindertaken worden niet gebruikt in deze berekening.
 
 * Als het systeem het volledige percentage op de Duur baseert berekent, wordt het volledige projectpercentage berekend gebruikend de volgende formule:
 
-   `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
+  `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
 
-   >[!IMPORTANT]
-   >
-   >De duur van het Project is het totaal van alle duur van de belangrijkste taken die een volledig percentage tonen. Bijvoorbeeld, zal een project met een standalone taak met een Duur van 2 Dagen en een oudertaak met een Duur van 5 Dagen die het werk hebben voltooid aan hen een Totale Duur van 7 Dagen hebben, zelfs als de twee taken op de zelfde dag kunnen beginnen.
+  >[!IMPORTANT]
+  >
+  >De duur van het Project is het totaal van alle duur van de belangrijkste taken die een volledig percentage tonen. Bijvoorbeeld, zal een project met een standalone taak met een Duur van 2 Dagen en een oudertaak met een Duur van 5 Dagen die het werk hebben voltooid aan hen een Totale Duur van 7 Dagen hebben, zelfs als de twee taken op de zelfde dag kunnen beginnen.
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!NOTE]
-   >
-   >Taak 1 of Taak 2 kan oudertaken of standalone taken slechts zijn. De Duur en Percentage Voltooien van kindtaken worden niet gebruikt in deze berekening.
+  >[!NOTE]
+  >
+  >Taak 1 of Taak 2 kan oudertaken of standalone taken slechts zijn. De Duur en Percentage Voltooien van kindtaken worden niet gebruikt in deze berekening.
 
 ## Voorbeeld van Percentage voltooid op een project dat Duur gebruikt
 

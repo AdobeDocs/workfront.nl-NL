@@ -5,18 +5,20 @@ keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
 title: Gegevens exporteren uit Adobe Workfront via Kick-start
 description: Als Adobe Workfront-beheerder kunt u de Kick-Starts-gegevensexportfunctie gebruiken om gegevens uit Workfront te exporteren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # Gegevens exporteren uit Adobe Workfront via Kick-start
+
+<!-- Audited: 2/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -40,14 +42,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voordelen en nadelen van het gebruik van de startfunctie voor het exporteren van gegevens
 
@@ -55,7 +63,7 @@ Er zijn twee manieren om gegevens te exporteren in Workfront:
 
 * Gegevens uit een rapport of lijst exporteren
 
-   Voor meer informatie over het uitvoeren van gegevens uit een rapport of een lijst, zie [Gegevens exporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Voor meer informatie over het uitvoeren van gegevens uit een rapport of een lijst, zie [Gegevens exporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Gegevens exporteren via een startprocedure
 
@@ -74,7 +82,7 @@ In de volgende tabel worden de voor- en nadelen van elke methode weergegeven:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Gegevens exporteren uit een lijstweergave</strong> </p> <p>Voor meer informatie over het exporteren van gegevens uit een lijst raadpleegt u <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Gegevens exporteren</a></p> </td> 
+   <td> <p><strong>Gegevens exporteren uit een lijstweergave</strong> </p> <p>Zie voor meer informatie over het exporteren van gegevens uit een lijst <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Gegevens exporteren</a></p> </td> 
    <td> <p>Ja</p> <p>Zowel eigen Workfront-velden als aangepaste velden die aan de objecten zijn gekoppeld, worden geëxporteerd.</p> </td> 
    <td> <p>Nee</p> </td> 
   </tr> 
@@ -95,11 +103,67 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
 ## Gegevens exporteren via de startprocedure
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Systeem** > **Kick-start,** klik vervolgens op **Gegevens exporteren.**
 
-1. Selecteer het object dat u wilt exporteren.
+1. Selecteer het object dat u wilt exporteren. Standaard worden de volgende objecten onder **Wat moet u opnemen?**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><strong>Object</strong> </p> </th> 
+      <th> <p><strong>Geëxporteerde bladen van het Excel-bestand</strong> </p> </th> 
+      <th> <p> <strong>Exportindeling</strong></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Sectie tabblad Portal<br>Dashboard<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> ZIP</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top">Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Voorkeuren</td> 
+      <td scope="col" valign="top"> ZIP </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Goedkeuring</p> </td> 
+      <td scope="col" valign="top"> <p>Stap fiatteur<br>Goedkeuringsstap<br>Goedkeuring<br>Goedkeuringsproces<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Aangepaste gegevens</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Type uitgave</p> </td> 
+      <td valign="top"> <p>Type uitgave<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Uurtype</p> </td> 
+      <td valign="top"> <p>Uurtype<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Team</p> </td> 
+      <td valign="top"> Teamlid<br>Team<br>Voorkeuren </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Gebruiker</p> </td> 
+      <td valign="top"> <p>Gebruiker<br>Voorkeuren</p> </td> 
+      <td valign="top"> <p> Excel</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 1. Klikken **Meer opties** om de volledige lijst met objecten weer te geven.
 
    Alle objecten die hier worden vermeld, kunnen ook worden gebruikt om gegevens te importeren in Workfront.
@@ -272,117 +336,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    U kunt meerdere objecten tegelijk exporteren.
 
-   Standaard worden de volgende objecten onder de **Wat moet u opnemen?** label (voordat u klikt) **Meer opties**):
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong>Object</strong> </p> </th> 
-      <th> <p><strong>Geëxporteerde bladen van het Excel-bestand</strong> </p> </th> 
-      <th> <p> <strong>Exportindeling</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Sectie tabblad Portal<br>Dashboard<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Voorkeuren</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Goedkeuring</p> </td> 
-      <td scope="col" valign="top"> <p>Stap fiatteur<br>Goedkeuringsstap<br>Goedkeuring<br>Goedkeuringsproces<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Aangepaste gegevens</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Type uitgave</p> </td> 
-      <td valign="top"> <p>Type uitgave<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Uurtype</p> </td> 
-      <td valign="top"> <p>Uurtype<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Teamlid<br>Team<br>Voorkeuren </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Gebruiker</p> </td> 
-      <td valign="top"> <p>Gebruiker<br>Voorkeuren</p> </td> 
-      <td valign="top"> <p> Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong></strong> </p> </th> 
-      <th> <p><strong>Geëxporteerde bladen van het Excel-bestand</strong> </p> </th> 
-      <th> <p> <strong>Exportindeling</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Sectie tabblad Portal<br>Dashboard<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Voorkeuren</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Goedkeuring</p> </td> 
-      <td scope="col" valign="top"> <p>Stap fiatteur<br>Goedkeuringsstap<br>Goedkeuring<br>Goedkeuringsproces<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Aangepaste gegevens</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Type uitgave</p> </td> 
-      <td valign="top"> <p>Type uitgave<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Uurtype</p> </td> 
-      <td valign="top"> <p>Uurtype<br>Voorkeuren</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Teamlid<br>Team<br>Voorkeuren </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Gebruiker</p> </td> 
-      <td valign="top"> <p>Gebruiker<br>Voorkeuren</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
 
 1. (Aanbevolen) Analyseer de geëxporteerde gegevens om ervoor te zorgen dat alle informatie die u verwacht te zien, is geëxporteerd.
 

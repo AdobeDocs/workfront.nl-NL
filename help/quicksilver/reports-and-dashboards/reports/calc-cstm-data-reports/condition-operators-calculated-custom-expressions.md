@@ -7,7 +7,7 @@ description: U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Operatoren voor voorwaarde in berekende aangepaste velden
 
-U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het samenstellen van berekende aangepaste gegevens in Adobe Workfront wanneer u de tekstmodus gebruikt.
+<!-- Audited: 2/2024 -->
 
-Voor informatie over het gebruik van de tekstmodus in Workfront raadpleegt u [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het samenstellen van berekende aangepaste gegevens in Adobe Workfront wanneer u de tekstmodus gebruikt. Voor informatie over het gebruik van de tekstmodus in Workfront raadpleegt u [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Met Condition-operatoren of modifiers kunt u een voorwaardeninstructie maken door bestaande Workfront-velden in instructies te verbinden en een nieuw veld te genereren. Voorwaarde-operatoren worden vooral gebruikt om de voorwaarde van een &quot;IF&quot;-instructie op te bouwen.
 

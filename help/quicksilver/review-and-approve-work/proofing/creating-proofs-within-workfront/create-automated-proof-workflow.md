@@ -6,16 +6,18 @@ description: Met een geautomatiseerde workflow kunt u het controleproces eenvoud
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
 
 # Een geavanceerde proefdruk maken met een geautomatiseerde workflow
 
-Met een geautomatiseerde workflow kunt u het controleproces eenvoudiger beheren als uw proces complex is of als u inhoud ter controle regelmatig naar dezelfde personen verzendt. De proefdruk gaat van stadium aan stadium en Adobe Workfront brengt elke gebruiker op de hoogte wanneer het hun beurt is om het te herzien. Voor meer informatie over Geautomatiseerde werkschema&#39;s, zie [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+<!-- Audited: 2/2024 -->
+
+Met een geautomatiseerde workflow kunt u het controleproces eenvoudiger beheren als uw proces complex is of als u inhoud ter controle regelmatig naar dezelfde personen verzendt. De proefdruk gaat van stadium aan stadium en Adobe Workfront brengt elke gebruiker op de hoogte wanneer het hun beurt is om het te herzien. Zie voor meer informatie over geautomatiseerde workflows [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Toegangsvereisten
 
@@ -26,25 +28,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Nieuw: alle</p><p>Huidig abonnement: Pro of hoger</p><p>Verouderd abonnement: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een geavanceerde proefdruk maken met een geautomatiseerde workflow
 
@@ -53,11 +55,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Houd de cursor boven een bestaand document en klik vervolgens op de knop **Proef maken** > **Geavanceerde proefdruk** en doorwerkt u de onderstaande secties.
+   Houd de cursor boven een bestaand document en klik vervolgens op de knop **Proef maken** > **Geavanceerd proefdrukken** en doorwerkt u de onderstaande secties.
 
 ## De proefdrukfasen configureren
 
-1. Kies in de sectie Type workflow de optie **Geautomatiseerd**.
+1. Kies in de sectie Type workflow de optie **Automatisch**.
 1. (Optioneel) Als u een automatische workflowsjabloon wilt gebruiken die uw Workfront-beheerder heeft gemaakt en met u heeft gedeeld, klikt u op **Sjabloon toevoegen** selecteert u de sjabloon in het vak dat wordt weergegeven en klikt u vervolgens op **Sjabloon toevoegen**.
 
    >[!NOTE]
@@ -65,12 +67,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >Overweeg het volgende wanneer u een Geautomatiseerde malplaatje van het Werkschema gebruikt:
    >   
    >* De instellingen van een automatische werkstroomsjabloon bepalen wat u kunt doen met de geautomatiseerde workflow voor een proefdruk. Als de knop Een werkgebied toevoegen bijvoorbeeld is uitgeschakeld in de sjabloon, is deze niet zichtbaar wanneer u werkt met de instellingen voor Geautomatiseerde workflow voor de proefdruk.
-   >* Wanneer een persoon wordt toegevoegd aan een werkgebied in een Geautomatiseerde malplaatje van het Werkschema, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd een revisor toe te voegen.
+   >* Wanneer een persoon wordt toegevoegd aan een werkgebied in een Geautomatiseerde malplaatje van het Werkschema, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd er een toe te voegen.
    >* Uw vermogen om een Geautomatiseerde malplaatje van het Werkschema te wijzigen hangt van de malplaatjemontages af die door de beheerder van Workfront worden gevormd, zoals die in wordt beschreven. Als de mogelijkheid om de sjabloon te wijzigen is uitgeschakeld, kan alleen de eigenaar van de sjabloon deze wijzigen.
 
 1. Configureer de eerste fase van de geautomatiseerde workflow:
 
-   1. (Optioneel) Als u een naam wilt maken voor het eerste werkgebied, klikt u op **Fase 1** Typ de naam.
+   1. (Optioneel) Als u een naam wilt maken voor het eerste werkgebied, klikt u op **Fase 1** Typ vervolgens de naam.
    1. In de **Ontvangers** voegt u revisoren toe aan het werkgebied.
 
       >[!NOTE]
@@ -101,8 +103,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
          <td role="rowheader">Tijdslimiet voor werkgebied instellen</td>
          <td><p>Als u een deadline voor het werkgebied wilt instellen, klikt u op een optie in het dialoogvenster <strong>Deadline-opties</strong> vervolgkeuzelijst. Vervolgens, onder <strong>Deadline</strong>Voer een van de volgende handelingen uit:</p>
           <ul>
-           <li>Als u <strong>Specifieke datum instellen</strong>: Selecteer de gewenste datum en tijd van de deadline.</li>
-           <li>Als u <strong>Berekenen vanaf de activeringsdatum van het werkgebied</strong>: Selecteer het aantal werkdagen dat u aan de activeringsdatum van het werkgebied wilt toevoegen om de deadline te bepalen.</li>
+           <li>Als u <strong>Specifieke datum instellen</strong>: Selecteer de gewenste datum en tijd voor de deadline.</li>
+           <li>Als u <strong>Berekenen vanaf activeringsdatum van werkgebied</strong>: Selecteer het aantal werkdagen dat u aan de activeringsdatum van het werkgebied wilt toevoegen om de deadline te bepalen.</li>
           </ul></td>
         </tr>
         <tr>
@@ -110,16 +112,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
          <td>Geef op wanneer het werkgebied kan worden vergrendeld. </td>
         </tr>
         <tr>
-         <td role="rowheader">Primaire beslissingsrechten overdragen aan</td>
+         <td role="rowheader">Rechten van primaire beslissingen overdragen aan</td>
          <td><p>Selecteer de primaire beslisser in het werkgebied (alleen beschikbaar nadat u ten minste één persoon aan het werkgebied hebt toegevoegd die de rol van fiatteur of hoger heeft). Als u een primaire beslisser selecteert, wordt de <strong>Slechts één besluit vereist</strong> is uitgeschakeld in dit werkgebied.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Voor deze fase slechts één besluit vereisen</td>
-         <td>Beëindigt het hele herzieningsproces wanneer een van de besluitvormers een besluit neemt.<p>Deze optie is niet beschikbaar als u een gebruiker hebt aangewezen in het dialoogvenster <strong>Primaire beslisser</strong>vervolgkeuzemenu.</p></td>
+         <td>Beëindigt het hele herzieningsproces wanneer een van de besluitvormers een besluit neemt.<p>Deze optie is niet beschikbaar als u een gebruiker hebt aangewezen in het dialoogvenster <strong>Primaire beslisser</strong>vervolgkeuzelijst.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Dit stadium privé maken</td>
-         <td>Hiermee kunnen alleen de volgende personen opmerkingen en beslissingen in deze fase bekijken: Supervisors, Workfront-beheerders en Workfront Proof-beheerders</td>
+         <td>Hiermee kunnen alleen de volgende personen opmerkingen en beslissingen weergeven die tijdens dit werkgebied zijn gemaakt: toezichthouders, Workfront-beheerders en Workfront Proof-beheerders</td>
         </tr>
        </tbody>
       </table>
@@ -212,7 +214,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li><strong>Instellingen voor e-mailwaarschuwingen voor abonnees:</strong> De standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li>
        </ul><p>
         <ul>
-         <li><strong>Bewijs van toegang via e-mailkoppeling vereist voor:</strong> Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie-kennisgeving</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail en moet op de koppeling klikken om toegang te krijgen tot een proefdruk. Deze optie heeft tot doel ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft).</li>
+         <li><strong>Bewijs van toegang via e-mailkoppeling vereist voor:</strong> Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail en moet op de koppeling klikken om toegang te krijgen tot een proefdruk. Deze optie heeft tot doel ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft).</li>
         </ul><p><strong>Opmerking:</strong> Als de proefdrukken de Geautomatiseerde Werkstroom in bijlage hebben alle abonnementen zullen bevestigingse-mail aan de bewijseigenaars produceren, zodat kunnen zij beslissen welk stadium de persoon aan zou moeten worden toegevoegd.<br></p></p></td> 
      </tr> 
     </tbody> 
@@ -222,7 +224,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Workfront begint met het genereren van een proefdruk van de geselecteerde documenten of websites. Afhankelijk van de bestandsgrootte en het type kan de vertraging bij het uploaden van een document variëren. Wees geduld, want het duurt langer om grotere bestanden te genereren. U kunt van de pagina weg navigeren en Workfront blijft uw bestand genereren. De maximale grootte voor het uploaden van bestanden is 4 GB.
 
-1. Nadat de proefdruk is gegenereerd, klikt u op **Proef openen** om de proefdrukviewer te starten.
+1. Klik op **Proef openen** om de proefdrukviewer te starten.
 
    ![](assets/open-proof-350x132.png)
 
