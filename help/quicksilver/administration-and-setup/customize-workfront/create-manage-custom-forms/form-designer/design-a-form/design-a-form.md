@@ -3,14 +3,14 @@ title: Een formulier ontwerpen met de formulierontwerper
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: U kunt een aangepast formulier ontwerpen met de formulierontwerper.
-author: Courtney
+description: U kunt een aangepast formulier ontwerpen met de formulierontwerper. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
 workflow-type: tm+mt
-source-wordcount: '5096'
+source-wordcount: '5075'
 ht-degree: 0%
 
 ---
@@ -28,28 +28,28 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw abonnement: standaard</p>
+   <p>Nieuw: Standaard</p>
    <p>of</p>
-   <p>Huidig plan: Plan</p></td> 
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast formulier ontwerpen starten
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
 
@@ -678,7 +678,7 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
 
    Klikken **Opslaan en sluiten**.
 
-#### **Een videowidget toevoegen aan een aangepast formulier vanuit het gebied Documenten**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Een videowidget toevoegen aan een aangepast formulier vanuit het gebied Documenten{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >

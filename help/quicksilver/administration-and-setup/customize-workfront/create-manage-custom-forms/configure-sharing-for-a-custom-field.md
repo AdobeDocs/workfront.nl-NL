@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Delen voor aangepaste velden en widgets configureren met de oudere formulierbuilder
 description: Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
 # Delen voor aangepaste velden en widgets configureren met de oudere formulierbuilder
+
+{{highlighted-preview}}
 
 Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 
@@ -30,35 +32,38 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Delen voor een aangepast veld of een aangepaste widget configureren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
 1. Als u het delen voor een aangepast veld of een aangepaste widget configureert in de Workfront-instantie van uw organisatie, gaat u als volgt te werk:
 
-   1. Klik op de knop **Velden** tab.
-   1. Selecteer het punt u het delen voor wilt vormen, dan klik **Delen**.
+   1. Klikken **Velden** het gebied Velden openen.
+   1. Selecteer het punt u het delen voor wilt vormen, dan klik **Delen** <span class="preview">of ![Pictogram Delen](assets/share-icon.png).</span>
 
    Of voer de volgende handelingen uit als u het delen configureert voor een aangepast veld of een aangepaste widget in een bestaand aangepast formulier:
 
-   1. Selecteer het aangepaste formulier en klik op **Bewerken**.
+   1. Selecteer het aangepaste formulier en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
    1. Selecteer in het formulierbewerkingsgebied aan de rechterkant het item waarvoor u het delen wilt configureren.
    1. Klik in het linkerdeelvenster op **Veld delen**.
 

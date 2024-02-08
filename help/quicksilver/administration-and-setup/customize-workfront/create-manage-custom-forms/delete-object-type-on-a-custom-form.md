@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Objecttypen verwijderen op een aangepast formulier
 description: Op een bestaand aangepast formulier kunt u objecttypen verwijderen die aan het formulier zijn gekoppeld. Nadat u dit hebt gedaan, kunnen gebruikers het formulier niet meer koppelen aan objecten van dat type.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Objecttypen verwijderen op een aangepast formulier
+
+{{highlighted-preview}}
 
 Op een bestaand aangepast formulier kunt u objecttypen verwijderen die aan het formulier zijn gekoppeld. Nadat u dit hebt gedaan, kunnen gebruikers het formulier niet meer koppelen aan objecten van dat type.
 
@@ -28,21 +30,24 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objecttypen verwijderen op een aangepast formulier
 
@@ -56,13 +61,13 @@ Een aangepast formulier moet ten minste één objecttype hebben.
 >
 >Over het algemeen raden we u aan om het aantal keren dat u een aangepast formulier bewerkt dat al in gebruik is, te minimaliseren. Er is geen meldingssysteem om mensen die het aangepaste formulier gebruiken te waarschuwen voor uw wijzigingen.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
-1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken**.
+1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
 1. Klik op de X op een van de **Objecttypen** die u uit het formulier wilt verwijderen, klikt u op **Verwijderen** in het waarschuwingsbericht dat wordt weergegeven.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Optioneel) Herhaal de vorige stap voor elk ander objecttype dat u uit het formulier wilt verwijderen.
-1. Klikken **Gereed** en klik vervolgens op **Sluiten en opslaan**.
+1. Klikken **Gereed** en klik vervolgens op **Opslaan en sluiten**.

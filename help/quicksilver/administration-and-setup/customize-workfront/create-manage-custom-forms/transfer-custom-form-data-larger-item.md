@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Wanneer het werk dat in een het werkpunt wordt bepaald te groot wordt, kunt u het in een groter het werkpunt omzetten.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # Aangepaste formuliergegevens overbrengen bij de conversie van een object
+
+{{highlighted-preview}}
 
 Afhankelijk van de bedrijfsbehoeften van uw organisatie, zou het werk dat in een taak of een kwestie wordt bepaald te groot kunnen worden om binnen de taak of de kwestie te leiden. In dit geval kunt u ze omzetten in een groter werkitem:
 
@@ -35,29 +37,33 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Eerste: extra objecten toevoegen aan het aangepaste formulier
+## Ten eerste: extra objecten toevoegen aan het aangepaste formulier
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms**.
-1. Zoek het formulier dat u nodig hebt en klik op **Bewerken**.
+1. Zoek het formulier dat u nodig hebt en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
 1. Voeg boven aan het formulier het object toe waarnaar u de taak of uitgave wilt converteren.
+
    >[!INFO]
    >
    >**Voorbeeld**: Selecteer Project als u de aangepaste formuliergegevens naar een project wilt overbrengen.

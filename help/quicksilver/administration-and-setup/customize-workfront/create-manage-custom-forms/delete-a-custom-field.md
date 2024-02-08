@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Een aangepast veld of aangepaste widget uit het systeem verwijderen
 description: Om de systeemprestaties te verbeteren en formulieren gemakkelijker te gebruiken voor gebruikers, kunt u aangepaste velden en widgets van uw systeem verwijderen wanneer deze niet meer worden gebruikt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -36,28 +36,31 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Voor informatie over hoe de beheerders van Workfront deze toegang verlenen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast veld of aangepaste widget uit het systeem verwijderen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms.**
-1. Klik op de knop **Velden** tab.
+1. Klikken **Velden** het gebied Velden openen.
 1. Selecteer het aangepaste veld of de aangepaste widget en klik vervolgens op **Verwijderen**.
 1. Als u zeker weet dat u het item permanent wilt verwijderen en (in het geval van een aangepast veld) alle bijbehorende gegevens op de objecten waar het is gekoppeld, klikt u op **Ja, verwijderen**.
 

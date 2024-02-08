@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt objecttypen toevoegen aan of verwijderen uit aangepaste formulieren met de formulierontwerper.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Objecttypen toevoegen aan of verwijderen uit een bestaand aangepast formulier met de formulierontwerper
+
+{{highlighted-preview}}
 
 U kunt objecttypen toevoegen aan of verwijderen uit een bestaand aangepast formulier met de formulierontwerper.
 
@@ -28,24 +30,24 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw abonnement: standaard</p>
+   <p>Nieuw: Standaard</p>
    <p>of</p>
-   <p>Huidig plan: Plan</p></td> 
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td><p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p></td> 
+   <td><p>Administratieve toegang tot aangepaste formulieren</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objecttypen toevoegen aan een bestaand aangepast formulier
 
@@ -58,13 +60,13 @@ U kunt aanvullende objecttypen aan het formulier toevoegen zodat het aan meerder
 >Zie voor meer informatie [Hoe meerdere objecttypen de machtigingen voor secties kunnen beïnvloeden](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
 
    In de weergave die wordt weergegeven, kunt u alle aangepaste formulieren bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, met welk objecttype het werkt en of het actief is.
 
-1. Selecteer het aangepaste formulier waaraan u extra objecttypen wilt toevoegen en klik vervolgens op **Bewerken**.
+1. Selecteer het aangepaste formulier waaraan u extra objecttypen wilt toevoegen en klik vervolgens op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
 
 1. Klik boven aan het formulier op het plusteken + na **Objecttypen** Selecteer vervolgens de gewenste tekst in het menu dat wordt weergegeven. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
@@ -88,13 +90,13 @@ U kunt objecttypen verwijderen uit een bestaand aangepast formulier. Een aangepa
 
 Een objecttype verwijderen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
-1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken**.
-1. Klik op de X op een van de **Objecttypen** die u uit het formulier wilt verwijderen, klikt u op **Verwijderen** in het waarschuwingsbericht dat wordt weergegeven.
+1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
+1. Klik op de X op een van de **Objecttypen** die u uit het formulier wilt verwijderen.
 
    ![](assets/delete-object-types.png)
 
 1. (Optioneel) Herhaal de vorige stap voor elk ander objecttype dat u uit het formulier wilt verwijderen.
-1. Klikken **Gereed** en klik vervolgens op **Sluiten en opslaan**.
+1. Klikken **Gereed** en klik vervolgens op **Opslaan en sluiten**.

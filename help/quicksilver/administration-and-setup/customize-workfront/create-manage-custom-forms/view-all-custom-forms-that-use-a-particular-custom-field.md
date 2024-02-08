@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Alle aangepaste formulieren weergeven die een bepaald aangepast veld of een bepaalde aangepaste widget gebruiken
 description: U kunt zien welke aangepaste formulieren een aangepast veld of een aangepaste widget gebruiken die u wilt wijzigen of verwijderen. Het is belangrijk om te beoordelen of die douaneformulieren aanpassingen nodig zullen hebben om behoorlijk te blijven werken of nuttig te blijven nadat u het gebied of widget verandert of schrapt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,29 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ontdek welke aangepaste formulieren een bepaald aangepast veld of een bepaalde aangepaste widget gebruiken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Open de **Velden** tabblad, zoekt u het veld of de widget in het dialoogvenster **Naam** kolom, bekijk dan de **Forms** kolom om te zien welke aangepaste formulieren het veld of de widget gebruiken.
+1. Klikken **Velden**, zoekt u het veld of de widget in het dialoogvenster **Naam** kolom, bekijk dan de **Forms** kolom om te zien welke aangepaste formulieren het veld of de widget gebruiken.
 1. (Optioneel) Klik op de naam van een van deze aangepaste formulieren om naar het formulier te gaan en te overwegen welke wijzigingen u daar moet aanbrengen als u het veld of de widget wijzigt.

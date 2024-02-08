@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Een aangepast formulier maken of bewerken met de verouderde formulierbuilder
 
 <!--Audited: 01/2024-->
+
+{{highlighted-preview}}
 
 U kunt een nieuw aangepast formulier maken of bewerken. Beide taken worden in dit artikel uitgelegd.
 
@@ -34,23 +36,23 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
+   <p>of</p>
    <p>Huidig: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Voor informatie over hoe de beheerders van Workfront deze toegang verlenen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast formulier maken
 
@@ -110,7 +112,7 @@ U kunt een aangepast formulier op elk gewenst moment na het maken bewerken.
 
    Aangepaste formulieren worden weergegeven in een lijst. U kunt alle aangepaste formulieren en aangepaste velden bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, welke objecten eraan zijn gekoppeld en of het actief is.
 
-1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken**.
+1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
 1. (Optioneel) Als u de titel en beschrijving van het aangepaste formulier wilt wijzigen, klikt u op de knop **Formulierinstellingen** en typt u vervolgens een **Formuliertitel** en **Beschrijving**.
 
 1. (Optioneel) Als u meer objecttypen aan het formulier wilt toevoegen zodat het aan meer objecten kan worden gekoppeld, klikt u op het plusteken + na **Objecttypen** Selecteer vervolgens de gewenste tekst in het menu dat wordt weergegeven.

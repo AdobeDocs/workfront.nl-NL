@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt toegang voor een douaneformulier vormen om te controleren wie-persoon, rol, groep, team, bedrijf-kan bekijken, delen, en het uitgeven.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier delen
+
+{{highlighted-preview}}
 
 U kunt toegang voor een douaneformulier vormen om te controleren wie-persoon, rol, groep, team, bedrijf-kan bekijken, delen, en het uitgeven.
 
@@ -28,21 +30,24 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Voor informatie over hoe de beheerders van Workfront deze toegang verlenen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegang tot aangepaste formulieren {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ Op een object waaraan het aangepaste formulier nog niet is gekoppeld, kan een ge
 
 In plaats van een aangepast formulier in de standaard deelstatus te laten (beschreven in [Toegang tot aangepaste formulieren](#access-to-custom-forms) in dit artikel), kunt u specifieke niveaus van toegang tot het formulier voor bepaalde gebruikers, baanrollen, groepen, teams, en bedrijven vormen.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Selecteer het aangepaste formulier en klik op **Delen**.
+1. Selecteer het aangepaste formulier en klik op **Delen** <span class="preview">of ![Pictogram Delen](assets/share-icon.png).</span>
 1. In het vak dat wordt weergegeven, onder **Aangepaste formuliertoegang verlenen aan** typt u de naam van de gebruiker, het team, de taakrol, de groep of het bedrijf waarmee u het aangepaste formulier wilt delen. Druk vervolgens op **Enter** wanneer de naam wordt weergegeven.
 1. Als u de toegang wilt aanpassen voor de gebruiker, het team, de taakrol, de groep of het bedrijf dat u net hebt toegevoegd, klikt u op het vervolgkeuzemenu rechts van de naam en configureert u vervolgens een van de volgende beschikbare opties en een van de geavanceerde instellingen:
 
@@ -106,10 +111,10 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
 
 ## Toegang tot een aangepast formulier verwijderen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Selecteer het aangepaste formulier en klik op **Delen**.
+1. Selecteer het aangepaste formulier en klik op **Delen** <span class="preview">of ![Pictogram Delen](assets/share-icon.png).</span>
 1. Klik in het vak dat wordt weergegeven op de X rechts van de naam van de gebruiker, het team, de rol, de groep of het bedrijf waartoe u geen speciale toegang meer wilt hebben.
 1. (Optioneel) Herhaal de vorige stap naar voor andere namen die u wilt verwijderen.
 1. Klikken **Opslaan**.
