@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -65,22 +65,29 @@ We hebben de vormgeving van de werkbalk RTF bijgewerkt wanneer u een veld van he
 
 Zie voor meer informatie  [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### Verbeterde ervaring bij het bewerken van de velden Enkel selecteren, Meerdere personen en bij het toevoegen van verbonden objecten
 
-Production: February 8, 2024 
+Productie: 8 februari 2024
 
-Preview: To be determined 
+Voorbeeld: te bepalen
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+De ervaring met het toevoegen van opties of objecten voor de volgende veldtypen is verbeterd en opnieuw ontworpen:
 
-The improvements are now available when updating fields in the table view of a record type.  
+* Enkel selecteren
+* Meerdere selecties
+* Mensen
+* Verbonden recordvelden (wanneer u Maestro-recordtypen of Workfront-objecten verbindt)
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+Met de nieuwe verbetering wordt eerst een kleinere, meer responsieve doos weergegeven.
 
--->
+Voor verbonden velden kunt u ze op een van de volgende manieren toevoegen:
+
+* Objecten toevoegen aan het verbonden veld door ze te zoeken en te selecteren in een lijst in de tabelweergave en het veld inline te bewerken
+* Klik om het grotere Connect-objectvak te openen, waarin u naast meer informatie over de items ook alle itemnamen kunt weergeven.
+
+De verbeteringen zijn nu beschikbaar wanneer u velden in de tabelweergave van een recordtype bijwerkt.
+
+Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Week van 29 januari 2024
 

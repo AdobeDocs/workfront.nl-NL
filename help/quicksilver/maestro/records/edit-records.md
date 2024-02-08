@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,8 @@ De werkruimte die u het laatst hebt geopend.
    * Een genummerde lijst toevoegen
 
    ![](assets/rich-text-toolbar-on-paragraph-field.png)
+
+1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen. A **Opgeslagen** de indicator wordt kort weergegeven in de rechterbovenhoek van de tabelweergave om aan te geven dat de wijzigingen zijn opgeslagen.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om gegevens van het ene veld naar het andere te kopiëren en te plakken:

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2379'
 ht-degree: 0%
 
 ---
@@ -163,15 +163,19 @@ De laatst geopende werkruimte moet standaard worden geopend.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Selecteer een **Tabel** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 1. (Optioneel) Voeg records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Zie voor meer informatie [Records maken](../../maestro/records/create-records.md).
-1. Van een verslag in de lijstmening wordt vermeld, ga naar de verbonden verslagkolom en klik binnen het verbonden verslaggebied, dan klik **+** pictogram.
+1. (Voorwaardelijk) Nadat u het geselecteerde recordtype met een ander recordtype hebt verbonden, ga naar de verbonden verslagkolom en klik de cel die met het verslag beantwoordt dat u met andere verslagen wilt verbinden.
+
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Voer een van de volgende handelingen uit:
+
+   * Klik in de lijst op de naam van een verbonden record om deze aan de geselecteerde record toe te voegen. De record wordt automatisch toegevoegd.
+   * Typ de naam van een record en klik erop wanneer deze in de lijst wordt weergegeven. De record wordt automatisch toegevoegd.
+   * Klikken **Alles bekijken** alle records weergeven.
+
+1. (Voorwaardelijk) Als u hebt geklikt **Alles selecteren** in de vorige stap **Objecten verbinden** wordt weergegeven.
 
    ![](assets/connected-objects-table-for-records.png)
-
-   >[!TIP]
-   >
-   >    U kunt de pagina Details van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om records van het aangesloten record- of objecttype toe te voegen.
-
-   De **Objecten verbinden** wordt weergegeven.
 
 1. Typ de naam van een record in het zoekvak en selecteer de naam wanneer de record in de lijst wordt weergegeven
 
@@ -179,10 +183,14 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    Selecteer de naam van een of meerdere records in het vak en klik op **Objecten verbinden** in de rechterbovenhoek van het vak Connect-objecten.
 
+   >[!TIP]
+   >
+   >    U kunt de pagina Details van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om records van het aangesloten record- of objecttype toe te voegen.
+
    Het volgende wordt toegevoegd:
 
    * De gekoppelde records worden weergegeven in het gekoppelde recordveld van de record die u in stap 6 hebt geselecteerd. <!--accurate?-->
-   * De gekoppelde velden worden gevuld met de informatie uit de gekoppelde records.
+   * De gekoppelde velden worden gevuld met de informatie uit de gekoppelde records als u gekoppelde opzoekvelden hebt toegevoegd toen u de recordtypen aansloot.
 
    Wanneer u de gekoppelde records bijwerkt, worden de gekoppelde velden bijgewerkt voor de records die u automatisch koppelt. U kunt gekoppelde velden niet handmatig bewerken.
 
@@ -221,17 +229,19 @@ De laatst geopende werkruimte moet standaard worden geopend.
 1. Selecteer een **Tabel** van de **Weergave** vervolgkeuzelijst.
 
 1. Klikken **Nieuwe record**  om afzonderlijke records toe te voegen aan het geselecteerde recordtype. Zie voor meer informatie [Records maken](../../maestro/records/create-records.md).
-1. (Voorwaardelijk) Als u het geselecteerde recordtype hebt verbonden met een Workfront-object, gaat u naar de kolom met het gekoppelde object en plaatst u de cursor boven de cel die overeenkomt met de record die u wilt koppelen aan objecten uit Workfront. Klik vervolgens op de knop **+** pictogram.
+1. (Voorwaardelijk) Nadat u het geselecteerde recordtype hebt verbonden met een Workfront-objecttype, gaat u naar de gekoppelde objectkolom en dubbelklikt u op de cel die overeenkomt met de record die u wilt koppelen aan objecten uit Workfront.
 
-   De **Objecten verbinden** wordt weergegeven.
+   ![](assets/connect-projects-smaller-box-in-table-view.png)
+
+1. Voer een van de volgende handelingen uit:
+
+   * Klik op een object in de lijst om het toe te voegen aan de geselecteerde record. Objecten worden in alfabetische volgorde weergegeven. Het object wordt automatisch toegevoegd.
+   * Typ de naam van een object en klik erop wanneer het wordt weergegeven in de lijst. Het object wordt automatisch toegevoegd.
+   * Klikken **Alles bekijken** om alle objecten weer te geven die u ten minste gemachtigd bent te bekijken.
+
+1. (Voorwaardelijk) Als u hebt geklikt **Alles bekijken** in de vorige stap **Objecten verbinden** wordt weergegeven.
 
    ![](assets/connect-objects-box-to-select-projects.png)
-
-   >[!TIP]
-   >
-   >    U kunt de pagina Details van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om objecten van het type verbonden object toe te voegen.
-
-   Voor meer informatie over het verbinden van verslagtypes met voorwerpen van een andere toepassing, zie [Verbind recordtypen](../architecture/connect-record-types.md).
 
 1. Typ de naam van een Workfront-object in het zoekvak en selecteer het vervolgens wanneer het in de lijst wordt weergegeven
 
@@ -249,6 +259,12 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    * De geselecteerde Workfront-objecten worden toegevoegd aan het gekoppelde recordveld.
    * Als u deze hebt toegevoegd toen u het recordtype verbond met Workfront, worden de gekoppelde velden (of de opzoekvelden) van de Workfront-objecten automatisch gevuld met informatie van Workfront.
+
+   >[!TIP]
+   >
+   >U kunt de pagina Details van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om objecten van het type verbonden object toe te voegen.
+
+   Voor meer informatie over het verbinden van verslagtypes met voorwerpen van een andere toepassing, zie [Verbind recordtypen](../architecture/connect-record-types.md).
 
 1. (Optioneel) Klik op de naam van een Workfront-object dat is verbonden met een Maestro-record in het gekoppelde veld van een tabelweergave of vanuit het gekoppelde veld van het dialoogvenster **Details** pagina van het verslag-Maestro.
 
@@ -298,7 +314,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 1. Selecteer een **Tabel** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 
 1. (Optioneel) Klik op **Nieuwe record** om nieuwe records toe te voegen aan het geselecteerde recordtype. Zie voor meer informatie [Records maken](../../maestro/records/create-records.md).
-1. (Voorwaardelijk) Als u het geselecteerde recordtype hebt verbonden met Experience Manager Assets, gaat u naar de gekoppelde objectkolom en beweegt u de cursor over de cel die overeenkomt met de record die u vanuit de Experience Manager wilt koppelen met andere objecten. Klik vervolgens op de knop **+** pictogram.
+1. (Voorwaardelijk) Nadat u het geselecteerde recordtype met Experience Manager Assets hebt verbonden, ga naar de verbonden objecten kolom en beweegt over de cel die met het verslag beantwoordt dat u met andere voorwerpen van Experience Manager wilt verbinden, dan klik **+** pictogram.
 
    >[!TIP]
    >

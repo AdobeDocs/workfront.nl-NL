@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ Dit doet u als volgt:
    >    Gekoppelde recordvelden worden voorafgegaan door het relatiepictogram ![](assets/relationship-field-icon.png).
 
 1. Van de **Campagne** recordtype, maak een campagne door een nieuwe rij toe te voegen in de lijst van het type van verslagpagina van de Campagne.
-1. Klik op de knop **+** pictogram in  **Productinformatie** kolom van de nieuwe campagne . De **Objecten verbinden** wordt weergegeven. De naam van het recordtype waarnaar u een koppeling maakt (Product) wordt in de linkerbovenhoek van het vak weergegeven.
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Dubbelklik in het dialoogvenster  **Productinformatie** kolom van de nieuwe campagne .
 
-1. Selecteer de productrecords die u wilt koppelen aan de Campagne-records en klik vervolgens op **Objecten verbinden**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Voer een van de volgende handelingen uit:
+
+   * Klik in de lijst op de naam van een verbonden product om dit aan de geselecteerde record toe te voegen. Het product wordt automatisch toegevoegd.
+   * Typ de naam van een product en klik erop wanneer het in de lijst wordt weergegeven. Het product wordt automatisch toegevoegd.
+   * Klikken **Alles bekijken** om alle producten weer te geven.
+
+1. (Voorwaardelijk) Als u hebt geklikt **Alles selecteren** in de vorige stap **Objecten verbinden** wordt weergegeven.
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. Typ de naam van een product in het zoekvak en selecteer het product wanneer het in de lijst wordt weergegeven
+
+   of
+
+   Selecteer de productrecords die u wilt koppelen aan de Campagne-records en klik vervolgens op **Objecten verbinden**.
+
+   >[!TIP]
+   >
+   >    U kunt de pagina Details van een campagne openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om producten van het type productrecord toe te voegen.
 
    De volgende kolommen worden bevolkt in de lijst van het het verslagtype van de Campagne:
    * De **Productinformatie** wordt voor de campagnerecord gevuld met de geselecteerde producten.
@@ -142,13 +161,32 @@ Dit doet u als volgt:
    >    Gekoppelde objectvelden worden voorafgegaan door het relatiepictogram ![](assets/relationship-field-icon.png).
 
 1. Van de **Campagne** een tabelweergave met recordtype maken, een campagne maken door een nieuwe rij in de tabel toe te voegen.
-1. Klik op de knop **+** pictogram in  **Projectinformatie** kolom van de nieuwe campagne . De **Objecten verbinden** wordt weergegeven. De naam van het objecttype waarnaar u koppelt (Workfront Project) wordt in de linkerbovenhoek van het vak weergegeven.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. Dubbelklik in het dialoogvenster  **Projectinformatie** kolom van de nieuwe campagne .
 
-1. Selecteer het project of de projecten u met de verslagen van de Campagne wilt verbinden, dan klik **Objecten verbinden**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   Het volgende wordt toegevoegd aan de geselecteerde werkruimte:
+1. Voer een van de volgende handelingen uit:
+
+   * Klik in de lijst op de naam van een project om het toe te voegen aan de geselecteerde record. Het project wordt automatisch toegevoegd.
+   * Typ de naam van een project en klik erop wanneer het in de lijst wordt weergegeven. Het project wordt automatisch toegevoegd.
+   * Klikken **Alles bekijken** om alle projecten weer te geven.
+
+1. (Voorwaardelijk) Als u hebt geklikt **Alles selecteren** in de vorige stap **Objecten verbinden** wordt weergegeven.
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. Typ de naam van een project in het zoekvak en selecteer het vervolgens wanneer het in de lijst wordt weergegeven
+
+   of
+
+   Selecteer de projectverslagen u met de verslagen van de Campagne wilt verbinden, dan klik **Objecten verbinden**.
+
+   >[!TIP]
+   >
+   >    U kunt de pagina Details van een Campagne openen, het verbonden projectgebied vinden en klikken **+** pictogram in het gebied om projecten van het aangesloten verslagtype van het Product toe te voegen.
+
+   Hiermee voegt u het volgende toe aan de geselecteerde werkruimte:
 
    * In de lijst van het type van verslag van de Campagne:
       * De **Projectinformatie** wordt voor de campagnerecord gevuld met de geselecteerde projecten.
@@ -165,7 +203,7 @@ Dit doet u als volgt:
    Hierdoor wordt het alleen-lezen Maestro-project geopend **Details** pagina.
 Informatie over het project controleren. Alleen geselecteerde projectvelden worden weergegeven op de pagina Details.
 
-1. Klik op Ga naar bron in de rechterbovenhoek van het scherm om het project in Workfront te openen, als u minstens weergavemachtigingen voor het project hebt.
+1. Klikken **Ga naar bron** in de hoger-juiste hoek van het scherm om het project in Workfront te openen, als u minstens de toestemmingen van de Mening aan het project hebt.
 1. (Optioneel) Werk informatie over het project in Workfront bij als u hiervoor gemachtigd bent.
 
 1. Houd de muisaanwijzer in de tabelweergave Campagne boven de **Projectinformatie** veldkoptekst en klik op de pijl omlaag gericht en klik vervolgens op **Opzoekvelden bewerken.**
