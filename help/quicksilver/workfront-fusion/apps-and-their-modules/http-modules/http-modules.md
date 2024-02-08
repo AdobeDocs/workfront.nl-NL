@@ -9,9 +9,9 @@ description: De [!DNL Adobe Workfront Fusion] De HTTP-toepassing biedt verschill
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,16 @@ De [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] app biedt verschillende modul
 De juiste keuze van de module is afhankelijk van het verificatie-/verificatiemechanisme waartoe de bron waartoe u toegang wilt hebben, behoort. Hieronder volgen voorbeelden van modules
 
 * Voer een verzoek in:universele module hoofdzakelijk bedoeld voor middelen die geen enkele vorm van authentificatie/vergunning gebruiken
-* Voer een verzoek van de Auth van de Basis:voor middelen die [!DNL HTTP] Basisverificatie (BA)
-* Voer een OAuth 2.0 verzoek in: voor middelen die OAuth 2.0 vergunningsprotocol gebruiken
-* Voer een verzoek van de Auteur van het Certificaat van de Cliënt in: voor middelen die vergunningsprotocol gebruiken dat een cliënt-zijcertificaat vereist.
-* Een aanvraag voor een API-sleutelautorisatie indienen: voor bronnen die gebruik maken van API-sleutels voor autorisatie.
+* Voer een basisverzoek van de Auth:voor middelen die aanwenden [!DNL HTTP] Basisverificatie (BA)
+* Maak een OAuth 2.0 verzoek: voor middelen die OAuth 2.0 vergunningsprotocol gebruiken
+* Maak een verzoek van de Auteur van het Certificaat van de Cliënt: voor middelen die vergunningsprotocol gebruiken dat een cliënt-zijcertificaat vereist.
+* Maak een aanvraag voor een API-sleutelautorisatie: voor bronnen die API-sleutels gebruiken voor autorisatie.
+
+>[!NOTE]
+>
+>Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>
+>Zie voor meer informatie [Adobe Authenticator-module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Aanvraagmodules
 

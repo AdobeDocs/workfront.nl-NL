@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: HTTP &gt; Een OAuth 2.0-aanvraagmodule maken
+title: HTTP &gt; een OAuth 2.0-aanvraagmodule maken
 description: Om een [!DNL Adobe Workfront Fusion] HTTP(S) verzoek aan servers die een vergunning OAuth 2.0 vereisen, moet u eerst een verbinding OAuth tot stand brengen. [!DNL Adobe Workfront Fusion] zorgt ervoor dat alle vraag die met deze verbinding wordt gemaakt de aangewezen vergunningskopballen heeft en automatisch bijbehorende tokens verfrist wanneer vereist.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1937'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,12 @@ Andere stromen, zoals de Stroom van de Referenties van het Wachtwoord van de Eig
 
 Voor meer informatie over OAuth 2.0 authentificatie, zie [OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749).
 
+>[!NOTE]
+>
+>Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>
+>Zie voor meer informatie [Adobe Authenticator-module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Toegangsvereisten
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
@@ -52,7 +58,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -60,9 +66,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
@@ -100,7 +106,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    >
    >**Voorbeeld:** Yahoo-adressen:
    >
-   >* URI autoriseren:
+   >* URI toestaan:
    >
    >`https://api.login.yahoo.com/oauth2/request_auth`
    >
@@ -136,7 +142,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope separator] </td> 
-      <td> <p>Selecteer door welk bereik de bovenstaande gegevens moeten worden gescheiden. U kunt deze informatie in de bepaalde de ontwikkelaar (API) documentatie van de dienst vinden.</p> <p>Waarschuwing: Als het scheidingsteken niet correct is ingesteld, [!DNL Workfront Fusion] kan geen verbinding maken en er is een ongeldige bereikfout opgetreden.</p> </td> 
+      <td> <p>Selecteer door welk bereik de bovenstaande gegevens moeten worden gescheiden. U kunt deze informatie in de bepaalde de ontwikkelaar (API) documentatie van de dienst vinden.</p> <p>Waarschuwing: als het scheidingsteken niet correct is ingesteld, [!DNL Workfront Fusion] kan geen verbinding maken en er is een ongeldige bereikfout opgetreden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client ID] </td> 
@@ -199,14 +205,14 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
       <td> <p>Voeg om het even welke parameters toe die u in de symbolische vraag wilt omvatten. De volgende standaardparameters worden altijd automatisch opgenomen en hoeven niet te worden toegevoegd.</p> <p>Standaardparameters:</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL grant_type]</strong>: <code>refresh_token</code></p> </li> 
-        <li> <p><strong>[!UICONTROL refresh_token]</strong>: Het meest recente vernieuwingstoken dat door de dienst wordt verkregen u met verbindt</p> </li> 
+        <li> <p><strong>[!UICONTROL refresh_token]</strong>: De meest recente vernieuwingstoken die door de dienst wordt verkregen u met verbindt</p> </li> 
         <li> <p><strong>[!UICONTROL client_id]</strong>: De client-id die u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</p> </li> 
         <li> <p><strong>[!UICONTROL client_secret]</strong>: Het clientgeheim dat u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</p> </li> 
        </ul> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] verzendt automatisch de opgegeven client-id en verzendt het geheim door de <code>[!UICONTROL client_secret_post]</code> methode. Daarom zijn deze parameters automatisch inbegrepen als deel van het symbolische verzoeklichaam. </p> <p>Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Custom Headers]</p> </td> 
-      <td> <p>Geef aanvullende sleutels en waarden op die u in de koptekst van [!UICONTROL Token] en R[!UICONTROL efresh Token] stappen.</p> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] biedt niet automatisch ondersteuning voor de <code>[!UICONTROL client_secret_basic]</code> methode. Als de dienst die u verbindt om Cliënt te verwachten - identiteitskaart en Geheim om in één enkel koord worden gecombineerd en dan base64 die in de kopbal van de Vergunning wordt gecodeerd, dan zou u die kopbal en zeer belangrijke waarde hier moeten toevoegen.</p> <p> Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
+      <td> <p>Geef aanvullende sleutels en waarden op die u in de koptekst van [!UICONTROL Token] en R[!UICONTROL efresh Token] stappen.</p> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] biedt niet automatisch ondersteuning voor <code>[!UICONTROL client_secret_basic]</code> methode. Als de dienst die u verbindt om Cliënt te verwachten - identiteitskaart en Geheim om in één enkel koord worden gecombineerd en dan base64 die in de kopbal van de Vergunning wordt gecodeerd, dan zou u die kopbal en zeer belangrijke waarde hier moeten toevoegen.</p> <p> Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Token placement]</p> </td> 
@@ -231,7 +237,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 In het volgende voorbeeld wordt getoond hoe u de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0] request module to connect to [!DNL Google].
 
 1. Zorg ervoor dat u een project, gevormde montages OAuth hebt gecreeerd, en uw geloofsbrieven zoals die in worden beschreven geproduceerd [Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken](../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
-1. Open de [!UICONTROL HTTP] >[!UICONTROL Make an OAuth 2.0 request] module.
+1. Open de [!UICONTROL HTTP] >[!UICONTROL Make an OAuth 2.0 request] -module.
 1. Klikken **[!UICONTROL Add]** naast het verbindingsvak.
 1. Voer de volgende waarden in:
 
@@ -273,7 +279,7 @@ In het volgende voorbeeld wordt getoond hoe u de [!UICONTROL HTTP] > [!UICONTROL
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Authorize parameters]</p> </td> 
-      <td> <p>Toevoegen <code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>sleutelwaardepaar.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>Opmerking: Als u verificatieproblemen ondervindt, bijvoorbeeld bij het vernieuwen van token, kunt u het volgende toevoegen: <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>sleutelwaardepaar.</p> </td> 
+      <td> <p>Toevoegen <code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>sleutelwaardepaar.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>Opmerking: als u problemen ondervindt met verificatie, bijvoorbeeld bij het vernieuwen van token, kunt u het volgende proberen: <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>sleutelwaardepaar.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -303,7 +309,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor informatie over het instellen van een verbinding raadpleegt u <a href="#creating-a-connection-for-an-oauth-request" class="MCXref xref">Verbinding maken voor een OAuth-verzoek</a> in dit artikel.</p> </td> 
+   <td> <p>Zie voor informatie over het instellen van een verbinding <a href="#creating-a-connection-for-an-oauth-request" class="MCXref xref">Verbinding maken voor een OAuth-verzoek</a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Evaluate all states as errors (except for 2xx and 3xx]) </td> 
@@ -381,7 +387,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Use Mutual TLS]</td> 
-   <td> <p>Schakel deze optie in om Wederzijdse TLS te gebruiken in de HTTP-aanvraag.</p> <p>Voor meer informatie over wederzijdse TLS raadpleegt u <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Wederzijdse TLS gebruiken in HTTP-modules in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Schakel deze optie in om Wederzijdse TLS te gebruiken in de HTTP-aanvraag.</p> <p>Zie voor meer informatie over wederzijdse TLS <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Gebruik wederzijds TLS in HTTP-modules in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

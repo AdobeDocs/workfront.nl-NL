@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: HTTP &gt; Een module voor basisautorisatieverzoeken maken
+title: HTTP &gt; een standaardaanvraagmodule voor autorisatie maken
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 0%
 # [!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request] module
 
 Dit [!DNL Adobe Workfront Fusion] laat u toe om een HTTP- verzoek met de basisvergunning van HTTP te vormen en het voor te leggen aan een server. De ontvangen HTTP-respons wordt vervolgens opgenomen in de uitvoerbundel.
+
+>[!NOTE]
+>
+>Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>
+>Zie voor meer informatie [Adobe Authenticator-module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Toegangsvereisten
 
@@ -39,7 +45,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -47,9 +53,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,7 +79,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Credentials]</td> 
-   <td> <p>Selecteer de sleutel die uw basisauthentificatiegeloofsbrieven bevat, of klik <strong>[!UICONTROL Add]</strong> om uw referenties aan een nieuwe sleutel toe te voegen. </p> <p>Opmerking: U kunt meer geloofsbrieven toevoegen om tussen elke verbinding gemakkelijk te schakelen.</p> </td> 
+   <td> <p>Selecteer de sleutel die uw basisauthentificatiegeloofsbrieven bevat, of klik <strong>[!UICONTROL Add]</strong> om uw referenties aan een nieuwe sleutel toe te voegen. </p> <p>Opmerking: u kunt meer referenties toevoegen om gemakkelijk tussen elke verbinding te kunnen schakelen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Evaluate all states as errors (except for 2xx and 3xx )] </td> 
@@ -100,7 +106,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
    <td> <p>De hoofdtekst van HTTP is de gegevensbytes die in een HTTP- transactiebericht onmiddellijk na de kopballen worden overgebracht als er om het even welk zijn om worden gebruikt.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Het type Raw-hoofdtekst is over het algemeen geschikt voor de meeste HTTP-hoofdtekstaanvragen, zelfs in situaties waarin in de documentatie van de ontwikkelaar geen gegevens zijn opgegeven die moeten worden verzonden.</p> <p>Geef een vorm op voor het parseren van de gegevens in het dialoogvenster [!UICONTROL Content type] veld.</p> <p>Ondanks het geselecteerde inhoudstype, worden de gegevens ingevoerd in om het even welk formaat dat door de ontwikkelaarsdocumentatie wordt bepaald of wordt vereist.</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dit type body is ingesteld op [!UICONTROL POST] gegevens gebruiken <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>Voor <code>[!UICONTROL application/x-www-form-urlencoded]</code>, is de hoofdtekst van het HTTP-bericht dat naar de server wordt verzonden, in wezen één queryreeks. De toetsen en waarden worden gecodeerd in sleutelwaardeparen, gescheiden door <code>&amp;</code> en met een <code>=</code> tussen de toets en de waarde. </p> <p>Voor binaire gegevens, gebruik <code>multipart/form-data</code> in plaats daarvan.</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dit lichaamstype is: [!UICONTROL POST] gegevens gebruiken <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>Voor <code>[!UICONTROL application/x-www-form-urlencoded]</code>, is de hoofdtekst van het HTTP-bericht dat naar de server wordt verzonden, in wezen één queryreeks. De toetsen en waarden worden gecodeerd in sleutelwaardeparen, gescheiden door <code>&amp;</code> en met <code>=</code> tussen de toets en de waarde. </p> <p>Voor binaire gegevens, gebruik <code>multipart/form-data</code> in plaats daarvan.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>Voorbeeld: </b></span></span> 
        <p>Voorbeeld van de resulterende HTTP-aanvraagindeling:</p> 
@@ -151,7 +157,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Use Mutual TLS]</td> 
-   <td> <p>Schakel deze optie in om Wederzijdse TLS te gebruiken in de HTTP-aanvraag.</p> <p>Voor meer informatie over wederzijdse TLS raadpleegt u <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Wederzijdse TLS gebruiken in HTTP-modules in  </a>.</p> </td> 
+   <td> <p>Schakel deze optie in om Wederzijdse TLS te gebruiken in de HTTP-aanvraag.</p> <p>Zie voor meer informatie over wederzijdse TLS <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Gebruik wederzijds TLS in HTTP-modules in  </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
