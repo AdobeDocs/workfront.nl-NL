@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: U kunt een aangepast formulier ontwerpen dat gebruikers aan een Workfront-object kunnen koppelen. Gebruikers die aan het object werken, kunnen het aangepaste formulier invullen om informatie over het object te geven.
-author: Courtney / Lisa
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: e34a0b3bf5e2c4dc794a7d7c85245bb4d11842be
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Er is een nieuwe knop boven aan zowel de nieuwe formulierontwerper als de veroud
 
 ## Nieuwe functionaliteit beschikbaar bij de formulierontwerper
 
-Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
+Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om:
 
 * **Een veld kopiëren**: U kunt nu bestaande velden kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.
 
@@ -47,34 +47,15 @@ Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
 
 De volgende opties zijn momenteel niet beschikbaar in de formulierontwerper, maar worden binnenkort toegevoegd:
 
-* Logica weergeven/overslaan
-
 * Filteren voor velden van typekop
 
 >[!IMPORTANT]
 >
->De bestaande configuraties voor logica- en typerefilters worden niet beïnvloed wanneer u met de nieuwe formulierontwerper werkt.
-
-### Logica weergeven/overslaan
-
-Hoewel u bij het ontwerpen van een nieuw aangepast formulier nog geen weergave-/overvullogica kunt toevoegen, kunt u bestaande weergave-/overvullogica weergeven voor formulieren die zijn gemaakt in de oudere formulierbuilder.
-
-Pictogrammen op een veld in de formulierontwerper geven aan dat logica wordt toegepast op het veld.
-
-De ![Logica voor doelveld weergeven](assets/display-logic-bottom-left.png) linksonder betekent dat het veld het doelveld voor de weergavelogica is (als een specifieke selectie op het formulier wordt gemaakt, wordt dit veld weergegeven). De ![Pictogram voor weergavelogica definiëren](assets/display-logic-bottom-right.png) pictogram rechtsonder betekent dat het veld wordt gebruikt om weergavelogica te definiëren (een specifieke selectie of waarde in dit veld geeft het doelveld weer).
-
-De ![Logica voor doelveld overslaan](assets/skip-logic-bottom-left.png) pictogram linksonder betekent dat het veld het doelveld is voor de logica van overslaan (als een specifieke selectie is aangebracht op het formulier, slaat het formulier over naar dit veld). De ![Logicopictogram overslaan definiëren](assets/skip-logic-bottom-right.png) pictogram rechtsonder betekent dat het veld wordt gebruikt om logica overslaan te definiëren (een specifieke selectie of waarde in dit veld slaat andere velden over en gaat rechtstreeks naar het doelveld).
-
-![Logische pictogrammen](assets/logic-icons-3.png)
-
-Als u een veld selecteert waarop logica is toegepast, worden de bestaande logische regels in de veldinstellingen weergegeven.
-
-![Logische regels](assets/form-designer-view-only-logic.png)
+>De bestaande configuraties voor typeahead-filters worden niet beïnvloed wanneer u met de nieuwe formulierontwerper werkt.
 
 ## Functionaliteit verwijderd van de formulierontwerper
 
-De volgende functionaliteit is verwijderd uit de formulierontwerper:
-
+De volgende functionaliteit is uit de formulierontwerper verwijderd:
 
 * Formulierinstellingen, Formulier delen, tabbladen voor delen van velden
 
@@ -84,9 +65,10 @@ De volgende functionaliteit is verwijderd uit de formulierontwerper:
 
   >[!NOTE]
   >
-  >U kunt het delen van formulieren en velden besturen via Instellen > Aangepaste Forms > Forms of het tabblad Velden.
+  >U kunt het delen van formulieren en velden besturen via Instellen > Aangepaste Forms > Forms of het gebied Velden.
 
 * Wijzigingen in veld bijhouden in updateffeeds
+
   >[!NOTE]
   >
   >U vindt dit in Setup > Interface > feeds bijwerken
