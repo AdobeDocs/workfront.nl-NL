@@ -2,29 +2,35 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)
-description: Als uw organisatie aan het Adobe Bedrijfs Platform is geregistreerd, gebruiken uw gebruikers het Adobe Bedrijfs Platform om tot Adobe Workfront toegang te hebben. Dit betekent dat het gebruikersbeheer grotendeels door Adobe Admin Console wordt gedaan, en dat Enige Sign-On (SSO) door het Adobe Bedrijfs Platform eerder dan door Workfront wordt behandeld. Als Adobe Workfront-beheerder verschillen uw beheerverantwoordelijkheden en -procedures afhankelijk van het feit of uw organisatie is aangemeld bij het Adobe Business Platform. Dit artikel bevat een lijst met de procedures die verschillend moeten worden afgehandeld en koppelingen naar instructies voor zowel Workfront als Adobe Admin Console.
+title: Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)
+description: Als uw organisatie is aangemeld bij het Adobe Business Platform, gebruiken uw gebruikers het Adobe Business Platform om toegang te krijgen tot Adobe Workfront. Dit betekent dat gebruikersbeheer grotendeels via de Adobe Admin Console wordt uitgevoerd en dat Single Sign-On (SSO) wordt afgehandeld via het Adobe Business Platform in plaats van via Workfront. Als Adobe Workfront-beheerder verschillen uw beheerverantwoordelijkheden en -procedures afhankelijk van het feit of uw organisatie is aangemeld bij het Adobe Business Platform. Dit artikel bevat een lijst met de procedures die verschillend moeten worden afgehandeld en koppelingen naar instructies voor zowel Workfront als Adobe Admin Console.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
-# Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)
+# Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)
 
-Als uw organisatie aan het Adobe Bedrijfs Platform is geregistreerd, gebruiken uw gebruikers het Adobe Bedrijfs Platform om tot Adobe Workfront toegang te hebben. Dit betekent dat:
+Als uw organisatie is aangemeld bij het Adobe Business Platform, gebruiken uw gebruikers het Adobe Business Platform om toegang te krijgen tot Adobe Workfront. Dit betekent dat:
 
-* Gebruikersbeheer wordt grotendeels uitgevoerd via de Adobe Admin Console
-* Single Sign-On (SSO) wordt afgehandeld door het Adobe Business Platform in plaats van via Workfront
+* Systeembeheerders worden gemaakt via de Adobe Admin Console
+* Single Sign-On (SSO) wordt afgehandeld via het Adobe Business Platform in plaats van via Workfront
 
-Als Adobe Workfront-beheerder verschillen uw beheerverantwoordelijkheden en -procedures afhankelijk van het feit of uw organisatie is aangemeld bij het Adobe Business Platform. Dit artikel bevat een lijst met de procedures die verschillend moeten worden afgehandeld en koppelingen naar instructies voor zowel Workfront als Adobe Admin Console.
+Als Adobe Workfront-beheerder verschillen uw beheerverantwoordelijkheden en -procedures afhankelijk van het feit of uw organisatie is aangemeld bij het Adobe Business Platform. Dit artikel bevat een overzicht van de procedures die verschillend worden afgehandeld en koppelingen naar instructies voor zowel Workfront als Adobe Admin Console.
 
 ## Gebruikers
+
+
+
+>[!NOTE]
+>
+>We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +39,8 @@ Als Adobe Workfront-beheerder verschillen uw beheerverantwoordelijkheden en -pro
  <thead> 
   <tr> 
    <th>Handeling</th> 
-   <th>Voor instructies in Workfront raadpleegt u</th> 
-   <th>Voor instructies in de Adobe Admin-console raadpleegt u</th> 
+   <th>Zie voor instructies in Workfront</th> 
+   <th>Voor instructies in de Adobe Admin console, zie</th> 
   </tr> 
  </thead> 
  <tbody> <!--
@@ -106,7 +112,7 @@ Als Adobe Workfront-beheerder verschillen uw beheerverantwoordelijkheden en -pro
    <td> 
     <ul> 
      <li> <p>De sectie "Gebruikers definitief verwijderen" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Mapgebruikers beheren</a>
-     </p><p>Opmerking: Een gebruiker verwijderen uit het dialoogvenster [!DNL Adobe Admin Console] deactiveert de gebruiker in [!DNL Workfront], maar ze worden niet verwijderd [!DNL Workfront].</p> </li> 
+     </p><p>Opmerking: een gebruiker verwijderen uit het dialoogvenster [!DNL Adobe Admin Console] deactiveert de gebruiker in [!DNL Workfront], maar ze worden niet verwijderd [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -158,15 +164,15 @@ Als Adobe Workfront-beheerder verschillen uw beheerverantwoordelijkheden en -pro
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>De sectie "De digitale handtekening in de SAML-reactie heeft niet gevalideerd..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Probleemoplossing Federated ID</a></p> </li> 
+     <li> <p>De sectie "De digitale handtekening in de SAML-respons heeft niet gevalideerd..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Probleemoplossing Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## SSO (Single Sign-On)
+## SSO (eenmalige aanmelding)
 
-Omdat het Van Bedrijfs Adobe Platform Enige Sign-On (SSO) voor gebruikers controleert, worden de volgende acties en de functionaliteit automatisch behandeld door het Van Bedrijfs Adobe Platform. Als uw organisatie nog niet aan het Adobe Bedrijfs Platform is geregistreerd, moet u deze acties in Workfront uitvoeren.
+Omdat het Bedrijfs Platform van de Adobe Enige Sign-On (SSO) voor gebruikers controleert, worden de volgende acties en de functionaliteit automatisch behandeld door het Bedrijfs Platform van de Adobe. Als uw organisatie nog niet is aangemeld bij het Adobe Business Platform, moet u deze handelingen uitvoeren in Workfront.
 
 
 * [Adobe Workfront configureren met SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -175,4 +181,4 @@ Omdat het Van Bedrijfs Adobe Platform Enige Sign-On (SSO) voor gebruikers contro
 * [SAML 2.0-metagegevens bijwerken in uw identiteitsprovider](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [Gebruikers bijwerken voor eenmalige aanmelding](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [Wachtwoordbeleid voor verificatie configureren](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Beveiligingsvoorkeuren voor het systeem configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [Systeembeveiligingsvoorkeuren configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

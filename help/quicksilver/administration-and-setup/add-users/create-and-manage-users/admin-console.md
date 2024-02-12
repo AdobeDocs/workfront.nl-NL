@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 >
 >Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is geregistreerd, zie [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Als beheerder van een Adobe kunt u Adobe Workfront-gebruikers en -systeembeheerders maken met de Adobe Admin Console. De console is een centrale plaats voor het beheren van de rechten van de Adobe over uw organisatie. Zie de klasse [Overzicht van Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+Als beheerder van een Adobe kunt u Adobe Workfront-systeembeheerders maken met de Adobe Admin Console. De console is een centrale plaats voor het beheren van de rechten van de Adobe over uw organisatie. Zie de klasse [Overzicht van Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+
+>[!NOTE]
+>
+>We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
 ## Toegangsvereisten
 
@@ -116,9 +120,33 @@ Voordat u de Admin Console voor Workfront gaat gebruiken, ontvangt u een e-mail 
    * [Gebruikers in Workfront maken met de Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console)
    * [Systeembeheerders in Workfront maken met de Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
+## Systeembeheerders in Workfront maken met de Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
+
+Het toegangsniveau van de Beheerder van het Systeem wordt verleend slechts op de Adobe Admin Console. U kunt geen beheerdersrechten verlenen of verwijderen vanuit Workfront.
+
+U moet een gebruiker aan uw instantie van de Productie van Workfront toevoegen alvorens u tot de gebruiker een het systeembeheerder van Workfront kunt maken.
+
+1. Ga naar de gebruiker en het admin gebied in de Admin Console, zoals die in de sectie wordt beschreven [Open het gebied voor gebruikers en beheerders van uw Production-instantie van Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in dit artikel.
+1. Selecteer de **Admins** boven de lijst met gebruikers.
+1. Selecteren **Admin toevoegen**.
+1. In de **Beheerders van productprofielen toevoegen** Voer de e-mailadressen of namen in van de beheerders die u wilt toevoegen en selecteer **Opslaan**.
+
+   ![](assets/add-admin-1.png)
+
+   De systeembeheerders worden in Workfront gemaakt.
+
+   >[!IMPORTANT]
+   >
+   >Breng geen wijzigingen aan in het productprofiel zelf.
+
+
 ## Gebruikers in Workfront maken met de Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}
 
-Workfront-gebruikers moeten worden toegevoegd aan de Adobe Admin Console. Een beheerder kan de gebruiker rechtstreeks in de Adobe Admin Console maken. Groepbeheerders maken gebruikers in Workfront, die vervolgens ter goedkeuring worden verzonden. Na goedkeuring wordt de gebruiker toegevoegd aan de Adobe Admin Console.
+>[!NOTE]
+>
+>We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
 * [Gebruikers rechtstreeks in Workfront maken in de Adobe Admin Console](#create-users-in-workfront-directly-in-the-adobe-admin-console)
 * [Gebruikers maken in Workfront en ze goedkeuren voor de Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
@@ -179,26 +207,6 @@ Een gebruiker goedkeuren:
 
 
 
-## Systeembeheerders in Workfront maken met de Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
-
-<!--Audited: 12/2023-->
-
-Het toegangsniveau van de Beheerder van het Systeem wordt verleend slechts op de Adobe Admin Console. U kunt geen beheerdersrechten verlenen of verwijderen vanuit Workfront.
-
-U moet een gebruiker aan uw instantie van de Productie van Workfront toevoegen alvorens u tot de gebruiker een het systeembeheerder van Workfront kunt maken. Zie de sectie voor instructies [Gebruikers in Workfront maken met de Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console) in dit artikel.
-
-1. Ga naar de gebruiker en het admin gebied in de Admin Console, zoals die in de sectie wordt beschreven [Open het gebied voor gebruikers en beheerders van uw Production-instantie van Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in dit artikel.
-1. Selecteer de **Admins** boven de lijst met gebruikers.
-1. Selecteren **Admin toevoegen**.
-1. In de **Beheerders van productprofielen toevoegen** Voer de e-mailadressen of namen in van de beheerders die u wilt toevoegen en selecteer **Opslaan**.
-
-   ![](assets/add-admin-1.png)
-
-   De systeembeheerders worden in Workfront gemaakt.
-
-   >[!IMPORTANT]
-   >
-   >Breng geen wijzigingen aan in het productprofiel zelf.
 
 
 
