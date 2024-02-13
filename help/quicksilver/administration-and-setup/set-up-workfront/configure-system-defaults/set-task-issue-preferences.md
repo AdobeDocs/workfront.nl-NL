@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 1. Ga op de pagina die wordt weergegeven verder met een van de vijf onderstaande secties om instellingen te configureren voor [!UICONTROL New Task Defaults], [!UICONTROL Issues], [!UICONTROL Deletion], [!UICONTROL Actual Dates], en [!UICONTROL Access]:
 
-* [[!UICONTROL New Task Defaults]](#new-task-defaults)
-* [[!UICONTROL Issues]](#issues)
-* [[!UICONTROL Deletion]](#deletion)
-* [[!UICONTROL Actual Dates]](#actual-dates)
-* [[!UICONTROL Delegation]](#delegation)
+   * [[!UICONTROL New Task Defaults]](#new-task-defaults)
+   * [[!UICONTROL Issues]](#issues)
+   * [[!UICONTROL Deletion]](#deletion)
+   * [[!UICONTROL Actual Dates]](#actual-dates)
+   * [[!UICONTROL Delegation]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">eraan werken</a> </li>
+  —&gt;
 
 * [[!UICONTROL Access]](#access)
 
@@ -97,7 +97,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     <td> <p>Berekent geplande en daadwerkelijke kostenramingen voor een taak. Wanneer ingesteld op <strong>[!UICONTROL No Cost]</strong>de geplande uren en de werkelijk geregistreerde uren geen geplande of werkelijke kostenraming voor de taak opleveren en de werkzaamheden voor de taak dragen niet bij tot de kosten op projectniveau.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Problemen {#issues}
 
@@ -181,7 +181,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Delegatie
 
@@ -192,7 +192,7 @@ Wanneer deze instelling is ingeschakeld, kunnen gebruikers het volgende zien:
 * De [!UICONTROL Delegate] in hun [!UICONTROL Home] gebied. Zij kunnen goedkeuringen delegeren, of taak en taken van hier uitgeven.
 * Een indicatie dat een taak of kwestie aan een andere gebruiker in wordt gedelegeerd [!UICONTROL Assignments and delegations] in de taak- of uitgiftekop.
 
-Als u de optie [!UICONTROL Allow users to delegate their tasks & issues] de delegaties die momenteel op de agenda staan , zullen worden stopgezet en de gedelegeerde gebruikers zullen via e - mail op de hoogte worden gesteld van het feit dat de delegatie is gestopt .
+  Als u de optie [!UICONTROL Allow users to delegate their tasks & issues] de delegaties die momenteel op de agenda staan , zullen worden stopgezet en de gedelegeerde gebruikers zullen via e - mail op de hoogte worden gesteld van het feit dat de delegatie is gestopt .
 
 Raadpleeg de volgende artikelen voor informatie over het delegeren van werk aan anderen:
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. Klik op **[!UICONTROL Save]**.
 
