@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '5075'
+source-wordcount: '5105'
 ht-degree: 0%
 
 ---
@@ -499,6 +499,8 @@ U voegt als volgt velden voor de typekop toe:
 ### Externe opzoekvelden toevoegen
 
 Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren. Het externe opzoekveld is ook beschikbaar in lijsten en rapporten.
+
+Zie voor voorbeelden van het gebruik van het veld External Lookup om dezelfde instantie van Workfront of een openbare API aan te roepen [Voorbeelden van het veld Externe opzoeken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
