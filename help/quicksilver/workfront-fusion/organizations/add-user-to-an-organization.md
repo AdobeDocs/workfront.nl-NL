@@ -7,9 +7,9 @@ description: U kunt gebruikers toevoegen aan organisaties in Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Voor instructies over het toevoegen van een gebruiker in de[!DNL  Adobe Admin Console], zie de sectie &quot;Gebruikersdetails bewerken&quot; in het artikel [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) of neem contact op met uw [!UICONTROL Adobe Admin Console] Beheerder.
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Op Platform gebaseerde beheerverschillen (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
 ## Toegangsvereisten
 
@@ -72,23 +72,27 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Gebruikers aan een organisatie toevoegen
 
-<p>De procedure om een gebruiker aan uw organisatie van de Fusie toe te voegen verschilt gebaseerd op of uw organisatie aan het Adobe Bedrijfs Platform is genegeerd. </p>
+
+<!--
+<p>The procedure to add a user to your Fusion organization differs based on whether your organization has been onboarded to the Adobe Business Platform. </p>
 <ul>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Voeg een gebruiker aan een organisatie toe die aan het Adobe Bedrijfs Platform is bezeten</a> </p> </li>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Een gebruiker toevoegen aan een organisatie die niet is aangemeld bij de Adobe Business Console</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Add a user to an organization that has not been onboarded to the Adobe Business Console</a> </p> </li>
 </ul>
 <div>
-<p><strong>Voeg een gebruiker aan een organisatie toe die aan het Adobe Bedrijfs Platform is bezeten</strong></p>
-<p>Als uw organisatie aan het Adobe Bedrijfs Platform is geregistreerd, moet u deze actie door Adobe Admin Console uitvoeren.</p>
-<p>Voor instructies voor het toevoegen van een gebruiker in de Adobe Admin Console:</p>
+<p><strong>Add a user to an organization that has been onboarded to the Adobe Business Platform</strong></p>
+<p>If your organization has been onboarded to the Adobe Business Platform, you must perform this action through the Adobe Admin Console.</p>
+<p>For instructions on adding a user in the Adobe Admin Console:</p>
 <ul>
-<li> <p>Zie <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Gebruikers in Workfront maken met de Adobe Admin Console</a></p> </li>
-<li> <p>Zie de sectie Gebruikers toevoegen in het artikel <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Gebruikers individueel beheren</a></p> </li>
-<li> <p>Neem contact op met uw Adobe Admin Console-beheerder.</p> </li>
+<li> <p>See <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a></p> </li>
+<li> <p>See the section "Add users" in the article <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li>
+<li> <p>Contact your Adobe Admin Console Administrator.</p> </li>
 </ul>
-<p>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Adobe Platform is geregistreerd, zie <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)</a>.</p>
+<p>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">Platform-based administration differences (Adobe Workfront/Adobe Business Platform)</a>.</p>
 </div>
-<p><strong>Een gebruiker toevoegen aan een organisatie die niet is aangemeld bij de Adobe Business Console</strong></p>
+<p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
+
+-->
 
 Als u gebruikers wilt toevoegen aan de organisatie, moet u een beheerder zijn bij de organisatie waaraan u gebruikers wilt toevoegen. Voor informatie over rollen, zie [Organisatiefuncties in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 

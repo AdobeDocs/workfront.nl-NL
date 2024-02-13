@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,17 @@ Wanneer een gebruiker uw organisatie verlaat, kunt u die gebruiker uit Adobe Wor
 
 >[!IMPORTANT]
 >
->* Als u een gebruiker uit het systeem verwijdert, wordt ook de informatie verwijderd die is gekoppeld aan de gebruiker die u mogelijk wilt behouden. We raden u aan gebruikers te deactiveren in plaats van ze te verwijderen. Zie voor meer informatie [Een gebruiker deactiveren of opnieuw activeren](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
->* De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>Als u een gebruiker uit het systeem verwijdert, wordt ook de informatie verwijderd die is gekoppeld aan de gebruiker die u mogelijk wilt behouden. We raden u aan gebruikers te deactiveren in plaats van ze te verwijderen. Zie voor meer informatie [Een gebruiker deactiveren of opnieuw activeren](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+<!--
+>* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Een gebruiker verwijderen uit het dialoogvenster [!DNL Adobe Admin Console] deactiveert de gebruiker in [!DNL Workfront], maar ze worden niet verwijderd [!DNL Workfront].
+>Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  Zie de sectie &quot;Gebruikers definitief verwijderen&quot; in het artikel voor instructies over het verwijderen van een gebruiker in de Adobe Admin Console [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) of neem contact op met uw Adobe Admin Console-beheerder.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
+-->
 
 ## Toegangsvereisten
 

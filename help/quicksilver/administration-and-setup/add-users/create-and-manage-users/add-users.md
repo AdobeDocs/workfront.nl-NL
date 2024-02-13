@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u systeembeheerders maken via de Adobe Admin Console.
 >
->Voor instructies over het maken van systeembeheerders in de Adobe Admin Console raadpleegt u [Gebruikers beheren in de Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Voor instructies over het maken van systeembeheerders in de Adobe Admin Console raadpleegt u [Systeembeheerders beheren in de Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >De beheerders van de groep in organisaties die aan Adobe Admin Console zijn genegeerd kunnen deze procedure gebruiken om gebruikers tot stand te brengen en de gebruiker voor admin goedkeuring voor te leggen.
 >

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '3381'
+source-wordcount: '3279'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,16 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
+<!--
+
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Voor instructies over het bewerken van een gebruikersprofiel in de Adobe Admin Console raadpleegt u de sectie &quot;Gebruikersgegevens bewerken&quot; in het artikel [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) of neem contact op met uw Adobe Admin Console-beheerder.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 Als Adobe Workfront-beheerder kunt u gebruikers maken en de profielen van bestaande gebruikers beheren. Voor informatie over het maken van gebruikers raadpleegt u [Gebruikers toevoegen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 

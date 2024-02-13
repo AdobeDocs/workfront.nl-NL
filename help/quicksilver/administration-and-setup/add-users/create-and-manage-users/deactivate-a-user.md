@@ -8,22 +8,26 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
 # Een gebruiker deactiveren of opnieuw activeren
 
+<!--
+
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn gegaan. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Zie de sectie &quot;Gebruikers verwijderen&quot; in het artikel voor instructies voor het deactiveren van een gebruiker in de Adobe Admin Console [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) of neem contact op met uw Adobe Admin Console-beheerder.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->Voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console, raadpleegt u [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+-->
 
 Uw gebruikers kunnen de organisatie verlaten en u zou hen uit Adobe Workfront kunnen moeten verwijderen. Zij zouden niet actief in het systeem moeten blijven omdat dit tot verwarring voor andere gebruikers wanneer het toevoegen van hen aan updates of het toewijzen van hen het werk zou leiden. Wanneer u een gebruiker deactiveert, zien andere gebruikers niet langer hun naam wanneer zij naar mensen in het systeem zoeken.
 
@@ -33,9 +37,9 @@ U kunt een gebruiker op elk gewenst moment opnieuw activeren.
 
 >[!IMPORTANT]
 >
->Wij adviseren dat u gebruikers deactiveert die de organisatie hebben verlaten eerder dan hen te schrappen. Als een gebruiker wordt verwijderd, gaat alle geschiedenis in Workfront die aan die gebruiker is gekoppeld, verloren. Hieronder vallen hun werktoewijzingen, hun koppeling met notities, uren, documenten en alle andere objecten die ze ooit hebben gemaakt.
+>Wij adviseren dat u gebruikers deactiveert die de organisatie hebben verlaten eerder dan hen te schrappen. Als een gebruiker wordt verwijderd, gaat alle aan die gebruiker gekoppelde geschiedenis in Workfront verloren. Hieronder vallen hun werktoewijzingen, hun koppeling met notities, uren, documenten en alle andere objecten die ze ooit hebben gemaakt.
 >
->Als u een gebruiker in Workfront deactiveert, worden de gebruikerslicenties zowel voor Workfront als voor digitale proefdrukken verwijderd. Bovendien kan aan de gebruiker geen werk meer worden toegewezen. Wanneer een gebruiker wordt gedeactiveerd, wordt de Workfront-licentie en -proeflicentie van die gebruiker beschikbaar voor gebruik door een andere gebruiker; alle andere informatie in het profiel van de gedeactiveerde gebruiker ongewijzigd blijft.
+>Als u een gebruiker in Workfront deactiveert, worden de gebruikerslicenties zowel voor Workfront als voor digitale proefdrukken verwijderd. Bovendien kan aan de gebruiker geen werk meer worden toegewezen. Wanneer een gebruiker wordt gedeactiveerd, wordt de Workfront-licentie en -proeflicentie van die gebruiker beschikbaar voor gebruik door een andere gebruiker. Alle andere informatie in het profiel van de gedeactiveerde gebruiker blijft ongewijzigd.
 >
 >Voor meer informatie over de gevolgen van verwijderen en die van het deactiveren van gebruikers, zie [Gebruikers verwijderen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -59,7 +63,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau van de Beheerder van het Systeem. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
      <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -84,7 +88,7 @@ Een gebruiker plannen voor deactivering:
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
-1. Selecteer de naam van de gebruiker.
+1. Selecteer de gebruikersnaam.
 
    of
 
@@ -92,7 +96,7 @@ Een gebruiker plannen voor deactivering:
 
 1. Klik op het pictogram Bewerken ![](assets/edit-icon.png).
 1. Klik in het vak Gebruiker bewerken dat wordt weergegeven op **Bronplanning** om naar dat gebied te gaan.
-1. De optie **Deactivering van schema** optie.
+1. De optie **Deactivering van schema** -optie.
 
 1. Geef in de kalender die wordt weergegeven de datum en tijd voor de **Geplande datum van deactivering**.
 
@@ -100,7 +104,6 @@ Een gebruiker plannen voor deactivering:
    >
    >* In het tijdvak kunt u alleen stappen van een heel uur selecteren, geen minuten.
    >* Als u een tijd selecteert voor de huidige dag die voorbij is, zal Workfront de deactivering voor de volgende dag om 12:00 plannen. De geselecteerde tijd komt overeen met de tijdzone van de computer van de gebruiker die de deactivering plant.
-
 
 1. Klikken **Wijzigingen opslaan**.
 
@@ -114,14 +117,14 @@ Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering he
 
 1. Selecteer een gebruiker, klik het Meer pictogram ![](assets/more-icon.png)en klik vervolgens op **Activeren**.
 
-1. Nieuwe toewijzen **Toegangsniveau** in het vervolgkeuzemenu.
+1. Een nieuwe waarde toewijzen **Toegangsniveau** in het vervolgkeuzemenu.
 
 ### Bewijseffect wanneer u een gebruiker opnieuw activeert
 
 Gedeactiveerde gebruikers verliezen hun toegewezen standaardproofingrol en hun proefdruklicentie (als u op een Workfront Premium Legacy Plan bent). Als u ervoor kiest de gebruiker opnieuw te activeren, moet u:
 
 * Wijs de licentie opnieuw toe (als u een Workfront Premium Legacy Plan gebruikt). Ga voor meer informatie over Workfront-proefdrukplannen naar [Toegang tot proefdrukfunctionaliteit in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Controleer of ze de juiste proefdrukrol hebben. De opnieuw geactiveerde proefdrukgebruikers worden toegewezen wat als standaardproefdrukrol voor nieuwe gebruikers wordt gespecificeerd. Zie [Standaardproofingrollen configureren](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) voor meer informatie .
+* Controleer of ze de juiste proefdrukrol hebben. De opnieuw geactiveerde proefdrukgebruikers worden toegewezen wat als standaardproefrol voor nieuwe gebruikers wordt gespecificeerd. Zie [Standaardproofingrollen configureren](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) voor meer informatie .
 
 ## Informatie over het deactiveren van Workfront-beheerders en gebruikers van planningslicenties
 
@@ -130,11 +133,11 @@ Alvorens u een beheerder van Workfront of een gebruiker met een vergunning van h
 Deze objecten en activiteiten kunnen het volgende omvatten:
 
 * Taken of problemen die aan de gebruiker zijn toegewezen
-* Projecten die eigendom zijn van de gebruiker
-* Rapporten die zijn ingesteld om te worden uitgevoerd met de toegangsrechten van de gebruiker
-* Sjablonen die eigendom zijn van de gebruiker
+* Projecten van de gebruiker
+* Rapporten die zijn ingesteld voor gebruik met de toegangsrechten van de gebruiker
+* Sjablonen van de gebruiker
 * Projecten en sjablonen waarop de gebruiker is ingesteld als middelmanager
-* De rij die van het verzoek regels verplettert waarop de de beheerder van Workfront of gebruiker van de vergunning van het Plan de StandaardOntvanger is
+* De rij die van het verzoek regels verplettert waarop de de beheerder van Workfront of gebruiker van de vergunning van het Plan Default Assignee is
 * Goedkeuringsprocessen met een werkgebied waarin de gebruiker is opgenomen (met name als dit de enige fiatteur in het werkgebied was)
 * Tijdschema&#39;s waarin de gebruiker als fiatteur wordt vermeld
 * Tijdlijnprofielen waarin de gebruiker als fiatteur wordt vermeld
