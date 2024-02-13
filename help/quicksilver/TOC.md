@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '13940'
+source-wordcount: '13942'
 ht-degree: 0%
 
 ---
@@ -874,7 +874,7 @@ ht-degree: 0%
          * [De startagenda weergeven](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Het gebied Mijn updates gebruiken](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Werkonderdelen bijwerken en updates weergeven {#update-work-items-view-updates}
-      * [Werkonderdelen bijwerken en updates weergeven](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+      * [Werkitems bijwerken en updates weergeven: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Overzicht van de sectie Updates](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Werk bijwerken](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Tekenbeperkingen in velden](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)

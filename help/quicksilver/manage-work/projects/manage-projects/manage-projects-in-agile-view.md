@@ -6,9 +6,9 @@ description: U kunt flexibele functionaliteit voor uw project gebruiken zonder d
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ Er zijn sommige verschillen wanneer het gebruiken van flexibele meningen op een 
 
 ### Verschillen bij gebruik van de functie Gelijk voor een project in plaats van voor een herhaling {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Taken en subtaken volgen verschillende weergaveregels op de Artikelraad](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [Backlogs en iteraties worden niet gebruikt](#backlogs-and-iterations-are-not-used)
+* [Taken en subtaken volgen verschillende weergaveregels in een projectwaaier en op de artikelboard van een herhaling](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [Backlogs en herhalingen worden niet gebruikt in de weergave Geniet](#backlogs-and-iterations-are-not-used)
 * [De taakvolgorde blijft behouden in de weergave Gelijk en kan niet opnieuw worden geordend](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [Taken worden alleen in geplande uren gemeten](#tasks-are-measured-only-in-planned-hours)
-* [Het gangbare team wordt niet gebruikt](#the-agile-team-is-not-used)
+* [De taken worden gemeten slechts in Geplande Uren op een projectlijst](#tasks-are-measured-only-in-planned-hours)
+* [Het gangbare team wordt niet gebruikt in een flexibele weergave](#the-agile-team-is-not-used)
 * [Elke gebruiker op het project kan het project in een verschillende mening van de Gelijkheid bekijken](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### Taken en subtaken volgen verschillende weergaveregels op de Artikelraad {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### Taken en subtaken volgen verschillende weergaveregels in een projectwaaier en op de artikelboard van een herhaling {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* Taken die geen bovenliggende taak of subtaak hebben, worden altijd weergegeven als één artikelkaart op de artikelkaart.\
+* Taken die geen bovenliggende taak of subtaak hebben, worden altijd als één artikelkaart weergegeven in de artikelboard van de weergave Gelijk.\
   Deze taken worden bijvoorbeeld als volgt weergegeven in de projectenlijstweergave:
 
   ![Agile projectlijst - taken zonder ouder of subtaken](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ Er zijn sommige verschillen wanneer het gebruiken van flexibele meningen op een 
 
   ![Projectweergave - taken zonder bovenliggende of subtaken](assets/agile-project-singlecard-nwe.png)
 
-* De taken van de ouder die subtaken hebben worden altijd getoond in **Artikelen** kolom van het artikelbord. Subtaken worden weergegeven in de werkbalk van de bovenliggende taak.\
+* De taken van de ouder die subtaken hebben worden altijd getoond in **Artikelen** in de artikellijst van de weergave Gelijk. Subtaken worden weergegeven in de werkbalk van de bovenliggende taak.\
   Deze taken worden bijvoorbeeld als volgt weergegeven in de projectenlijstweergave:
 
   ![Agile projectlijst - taken met ouders en subtaken](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ Er zijn sommige verschillen wanneer het gebruiken van flexibele meningen op een 
   ![Een flexibele projectweergave - taken met ouders en subtaken](assets/agile-project-parent-nwe.png)
 
 * Subtaken op het tweede niveau (subtaken van subtaken) worden weergegeven als een hangende grijze kaart van de directe bovenliggende taak.
-* Subtaken op derde niveau (subtaken van subtaken van subtaken) worden nooit weergegeven op de artikelkaart.
+* Subtaken op derde niveau (subtaken van subtaken van subtaken) worden nooit weergegeven in de weergave Gelijk.
 
-#### Backlogs en iteraties worden niet gebruikt {#backlogs-and-iterations-are-not-used}
+#### Backlogs en herhalingen worden niet gebruikt in de weergave Geniet {#backlogs-and-iterations-are-not-used}
 
 Wanneer het bekijken van een project in een veranderlijke mening, worden de volgende flexibele componenten niet gebruikt:
 
@@ -119,13 +119,13 @@ De volgorde waarin taken in een project worden weergegeven, blijft behouden wann
 
 U kunt taken in het project niet opnieuw rangschikken wanneer het bekijken van het project in een flexibele mening. Omdat het wijzigen van de taakorde andere taken kan beïnvloeden die gebiedsdelen zouden kunnen hebben, moet u het project in een standaardmening bekijken om taakorde te wijzigen.
 
-#### Taken worden alleen in geplande uren gemeten {#tasks-are-measured-only-in-planned-hours}
+#### De taken worden gemeten slechts in Geplande Uren op een projectlijst {#tasks-are-measured-only-in-planned-hours}
 
 De taken op een project worden altijd gemeten in Geplande Uren.
 
 In een herhaling kunnen taken (artikelen) in uren of punten worden gemeten.
 
-#### Het gangbare team wordt niet gebruikt {#the-agile-team-is-not-used}
+#### Het gangbare team wordt niet gebruikt in een flexibele weergave {#the-agile-team-is-not-used}
 
 Omdat de mobiele teams het werk op herhalingen voltooien die aan hen worden toegewezen, worden de mobiele teams niet gebruikt wanneer het bekijken van een project in een agile mening.
 
@@ -137,7 +137,7 @@ In tegenstelling tot een mobiele herhaling kunnen gebruikers in een project de A
 
 In een flexibele herhaling, wordt de informatie die op het agile verhaalbord (zoals statuskolommen beschikbaar) beschikbaar is bepaald op het teamniveau.
 
-Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvoudige weergave maken of aanpassen](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvoudige weergave maken of aanpassen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Een project weergeven in de Google-weergave
 

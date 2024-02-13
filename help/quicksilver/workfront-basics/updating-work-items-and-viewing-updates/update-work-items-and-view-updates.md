@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Werkonderdelen bijwerken en updates weergeven
-description: U kunt de sectie Updates van de meeste voorwerpen gebruiken om commentaren, antwoorden toe te voegen, of systeem-bijgehouden updates over veranderingen te volgen die op het voorwerp plaatsvinden.
+title: "Werkitems bijwerken en updates weergeven: artikelindex"
+description: U kunt de sectie Updates van de meeste voorwerpen gebruiken om commentaren en antwoorden toe te voegen, of systeem-bijgehouden updates over veranderingen te volgen die op het voorwerp plaatsvinden.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Werkonderdelen bijwerken en updates weergeven
+# Werkitems bijwerken en updates weergeven: artikelindex
 
-U kunt de sectie Updates van de meeste voorwerpen gebruiken om commentaren, antwoorden toe te voegen, of systeem-bijgehouden updates over veranderingen te volgen die op het voorwerp plaatsvinden.
+<!-- Audited: 02/2024 -->
+
+U kunt de sectie Updates van de meeste voorwerpen gebruiken om commentaren en antwoorden toe te voegen, of systeem-bijgehouden updates over veranderingen te volgen die op het voorwerp plaatsvinden.
 
 Deze sectie bevat de volgende artikelen:
 

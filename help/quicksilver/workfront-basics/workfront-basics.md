@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 16%
+source-wordcount: '82'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ Deze sectie bevat de volgende subsecties:
 * [Ondersteunde talen in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
 * [Navigeren in Adobe Workfront: artikelindex](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Home](../workfront-basics/using-home/home.md)
-* [Werkonderdelen bijwerken en updates weergeven](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [Werkitems bijwerken en updates weergeven: artikelindex](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Werken met aangepaste formulieren](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [Meldingen gebruiken: artikelindex](../workfront-basics/using-notifications/use-notifications.md)
 * [Rechten verlenen en aanvragen voor objecten](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)

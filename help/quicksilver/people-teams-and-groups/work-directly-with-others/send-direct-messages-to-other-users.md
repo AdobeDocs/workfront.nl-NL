@@ -7,16 +7,16 @@ description: Met Adobe Workfront kunt u snel en eenvoudig berichten verzenden di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 # Directe berichten verzenden naar andere gebruikers
 
-[!DNL Adobe Workfront] laat u toe om berichten snel en gemakkelijk te verzenden die met om het even welk werkpunt direct aan andere geen verband houden [!DNL Workfront] gebruikers. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven in het dialoogvenster [!UICONTROL Updates] op de homepage van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor meer informatie over updates raadpleegt u [Werkonderdelen bijwerken en updates weergeven](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] laat u toe om berichten snel en gemakkelijk te verzenden die met om het even welk werkpunt direct aan andere geen verband houden [!DNL Workfront] gebruikers. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven in het dialoogvenster [!UICONTROL Updates] op de homepage van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor meer informatie over updates raadpleegt u [Werkitems bijwerken en updates weergeven: artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 De gebruiker u verzendt het bericht om de volgende types van berichten te ontvangen wanneer u een bericht verzendt zoals die in deze sectie wordt beschreven:
 
