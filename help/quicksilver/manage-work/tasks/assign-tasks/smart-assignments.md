@@ -7,9 +7,9 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home in het gebied Toewijzingen, wanneer u een taak opent of een uitgave afgeeft
+* <span class="preview">Het gebied van Toewijzingen in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home wanneer u een taak opent of een uitgave afgeeft
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ Als de eerste stap van taak slimme taken geen gelijken heeft gevonden, berekent 
 
 Zie de sectie voor meer informatie [Criteria voor slimme toewijzingen voor taken en problemen](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
 
-In deze fase geïdentificeerde toewijzingen worden vermeld in de **Resultaten** in het veld Toewijzingen. <!--update this to "Other assignments"-->
+In deze fase geïdentificeerde toewijzingen worden vermeld in de **Overige toewijzingen** in het veld Toewijzingen voor taken. <!--update this to "Other assignments"-->
 
 ### Criteria voor slimme toewijzingen voor taken en problemen
 

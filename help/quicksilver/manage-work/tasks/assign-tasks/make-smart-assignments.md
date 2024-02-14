@@ -2,20 +2,20 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Slimme toewijzingen maken
-description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien. De slimme taken zijn suggesties voor gebruikers die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. Zie Overzicht slimme toewijzingen voor informatie over slimme toewijzingen.
+description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien. De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. Zie Overzicht slimme toewijzingen voor informatie over slimme toewijzingen.
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
 # Slimme toewijzingen maken
 
-<!--update "Results" to "Other assignments" with Prod-->
+<!--Audited: 02/2024-->
 
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten.</span>
 
@@ -23,10 +23,11 @@ ht-degree: 0%
 
 U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien.
 
-De slimme taken zijn suggesties voor gebruikers die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt.
+De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst. Workfront baseert zijn suggesties op een algoritme dat de meest aangewezen bron voor de baan bepaalt.
 
 <span class="preview">Er zijn twee aparte algoritmen in Workfront voor taken en problemen. </span>
-Zie voor informatie over slimme toewijzingen [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+Zie voor meer informatie over de criteria die worden gebruikt bij het bepalen van slimme toewijzingen [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Toegangsvereisten
 
@@ -37,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
@@ -47,19 +48,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en problemen bewerken</p> <p>Toegang tot projecten weergeven of vergroten</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en problemen bewerken</p> <p>Toegang tot projecten weergeven of vergroten</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute of hoger met de mogelijkheid om taken en uitgaven toe te wijzen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute of hoger met de mogelijkheid om taken en uitgaven toe te wijzen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Slimme toewijzingen maken
 
@@ -70,6 +69,7 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    * Een taak- of uitgiftenlijst of rapport
    * Een taak- of uitgiftekoptekst
    * Het deelvenster Overzicht van taken of uitgaven
+   * <span class="preview">Een nieuwe Taak of het Nieuwe vakje van de Uitgave, aangezien u een nieuwe taak of een kwestie aan een project toevoegt</span>
    * Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home
    * Een taak of probleem in het werklastevenwicht
 
@@ -88,11 +88,11 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    Voor taken worden de slimme toewijzingen weergegeven in de volgende secties, afhankelijk van de fase van de berekening van het algoritme waarin de toewijzingen zijn geïdentificeerd:
 
    * **Voorgestelde toewijzingen**: Toewijzingen die zijn geïdentificeerd in de eerste fase van de algoritmeberekening van de slimme toewijzing van de taak.
-   * <span class="preview">**Resultaten**: Toewijzingen die zijn geïdentificeerd in de tweede fase van de algoritmeberekening van de slim-toewijzing van de taak. Deze sectie is niet beschikbaar voor problemen. </span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Overige toewijzingen**: Toewijzingen die zijn geïdentificeerd in de tweede fase van de algoritmeberekening van de slim-toewijzing van de taak. Deze sectie is niet beschikbaar voor problemen. </span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 
-   Zie voor meer informatie [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Zie voor meer informatie [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 1. Selecteer de gebruiker in de lijst met aanbevelingen door op de gewenste naam te klikken.
 
@@ -102,7 +102,7 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    >
    >Als er geen suggesties zijn, wordt de lijst met suggesties niet geopend.
 
-1. (Optioneel) Als u een van de aanbevolen gebruikers in de lijst met slimme toewijzingen niet wilt gebruiken, typt u de naam van de gewenste gebruiker en selecteert u de naam wanneer deze in de lijst wordt weergegeven.
+1. (Optioneel) Als u een van de aanbevolen gebruikers in de lijst met slimme toewijzingen niet wilt gebruiken, typt u de naam van de gewenste bron en selecteert u de naam wanneer deze in de lijst wordt weergegeven.
 1. Klikken **Enter** om de toewijzing te maken.
 
    De geselecteerde gebruiker wordt toegewezen aan de taak of uitgave.
