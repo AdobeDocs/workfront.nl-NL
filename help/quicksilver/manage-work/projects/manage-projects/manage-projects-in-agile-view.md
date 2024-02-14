@@ -6,14 +6,16 @@ description: U kunt flexibele functionaliteit voor uw project gebruiken zonder d
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Een project beheren in de Google View
+
+<!-- Audited: 2/2024 -->
 
 U kunt flexibele functionaliteit voor uw project gebruiken zonder de administratieve uitdagingen die agile praktijken typisch begeleiden (zoals het beheren van een teamachterstand of het creëren van herhalingen).
 
@@ -32,7 +34,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Huidig: Controleren of hoger</p> 
    <p>Nieuw: Medewerker of hoger</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Agile-projecten begrijpen
 
@@ -162,7 +164,7 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 
    De volgende keer dat u op de knop **Agile** pictogram.
 
-   Voor informatie over het maken van een nieuwe, flexibele weergave raadpleegt u [Eenvoudige weergaven maken en aanpassen](#create-and-customize-agile-views).
+   Voor informatie over het maken van een nieuwe, flexibele weergave raadpleegt u [Eenvoudige weergaven maken en aanpassen](#create-and-customize-agile-views), hieronder.
 
    Het project wordt weergegeven in de aangepaste, flexibele weergave.
 
@@ -170,7 +172,7 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 
    Als de taken zich in een status bevinden die niet wordt weergegeven op de &#39;agile story board&#39;, wordt de taak zelf niet weergegeven op de &#39;agile story board&#39; (de Percent Complete van deze taken draagt echter nog steeds bij aan de Percent Complete van alle bovenliggende taken en de Percent Complete van het algemene project).
 
-   Als u statussen wilt toevoegen aan de bestandsweergave, maakt u een nieuwe, flexibele weergave of past u een bestaande, flexibele weergave aan, zoals wordt beschreven in de sectie Een flexibele weergave maken of aanpassen in het artikel [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Als u statussen wilt toevoegen aan de stapelweergave, maakt u een nieuwe, flexibele weergave of past u een bestaande, flexibele weergave aan, zoals beschreven in [Eenvoudige weergaven maken en aanpassen](#create-and-customize-agile-views), hieronder.
 
 1. (Optioneel) Als u wilt terugkeren naar de lijstweergave, klikt u op de knop **Lijst** pictogram.
 
@@ -180,7 +182,7 @@ Voor informatie over het aanpassen van een Tegelweergave raadpleegt u [Een eenvo
 >
 >Deze sectie is alleen van toepassing op de oudere Agile-weergave, niet op de weergave in de kaart van een project.
 
-Net als bij standaardweergaven in Workfront kunt u bestaande flexibele weergaven aanpassen of nieuwe, volledig nieuwe weergaven maken. In tegenstelling tot standaardweergaven kunt u geen nieuwe, flexibele weergaven maken op basis van bestaande, flexibele weergaven.
+Net als bij standaardweergaven in Workfront kunt u bestaande flexibele weergaven aanpassen of nieuwe, flexibele weergaven maken. In tegenstelling tot standaardweergaven kunt u geen nieuwe, flexibele weergaven maken op basis van bestaande, flexibele weergaven.
 
 Voor meer informatie over het maken en aanpassen van flexibele weergaven raadpleegt u de [Een eenvoudige weergave maken of aanpassen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in het artikel [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
