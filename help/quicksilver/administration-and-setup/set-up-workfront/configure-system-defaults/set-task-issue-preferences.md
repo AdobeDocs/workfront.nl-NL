@@ -70,7 +70,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">eraan werken</a> </li>
-  —&gt;
+  -->
 
 * [[!UICONTROL Access]](#access)
 
