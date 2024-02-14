@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als Workfront-beheerder kunt u een gebruiker deactiveren of opnieuw activeren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
 # Een gebruiker deactiveren of opnieuw activeren
+
+<!--Audited 2/2024-->
 
 <!--
 
@@ -29,7 +31,7 @@ ht-degree: 0%
 
 -->
 
-Uw gebruikers kunnen de organisatie verlaten en u zou hen uit Adobe Workfront kunnen moeten verwijderen. Zij zouden niet actief in het systeem moeten blijven omdat dit tot verwarring voor andere gebruikers wanneer het toevoegen van hen aan updates of het toewijzen van hen het werk zou leiden. Wanneer u een gebruiker deactiveert, zien andere gebruikers niet langer hun naam wanneer zij naar mensen in het systeem zoeken.
+Als een gebruiker de organisatie verlaat, moet u deze mogelijk uit Adobe Workfront verwijderen. Ze moeten niet actief blijven in het systeem, omdat dit verwarring zou veroorzaken voor andere gebruikers wanneer ze aan updates worden toegevoegd of deze aan updates worden toegewezen. Wanneer u een gebruiker deactiveert, zien andere gebruikers niet langer hun naam wanneer zij naar mensen in het systeem zoeken.
 
 De beheerders kunnen inactieve gebruikers in het gebied van de Opstelling zien.
 
@@ -57,7 +59,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Plan </p>   </td> 
+   <td>  <p>Nieuw: Standaard </p> <p>of </p><p>Huidig: Plan </p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -70,23 +72,29 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
+## Vereisten
+
+Voordat u een Workfront-beheerder of een gebruiker van een Standard- of Plan-licentie deactiveert, moet u de objecten en activiteiten aan een andere gebruiker koppelen.
+
+Zie voor meer informatie [Informatie over het deactiveren van Workfront-beheerders en gebruikers van planningslicenties](#about-deactivating-workfront-administrators-and-plan-license-users) in dit artikel.
+
 ## Een gebruiker deactiveren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
-1. Selecteer een gebruiker, klik het Meer pictogram ![](assets/more-icon.png)en klik vervolgens op **Deactiveren**.
+1. Selecteer een gebruiker en klik op de knop **Meer** pictogram ![](assets/more-icon.png)en klik vervolgens op **Deactiveren**.
 
 1. Klikken **Deactiveren** in het vak dat wordt weergegeven.
 
 ## Gebruikers plannen voor deactivering
 
-Als manager, zou u gebruikers voor deactivering kunnen willen merken alvorens zij werkelijk uw organisatie verlaten. Als u bijvoorbeeld werkt met een gebruiker die contractueel gebonden is, bevinden deze zich gedurende een beperkte periode in uw systeem en kent u de beëindigingsdatum. U kunt ze plannen om op die datum gedeactiveerd te worden.
+Als manager, kunt u gebruikers voor deactivering willen merken alvorens zij eigenlijk uw organisatie verlaten. Als u bijvoorbeeld werkt met een gebruiker die contractueel gebonden is, bevinden deze zich gedurende een beperkte periode in uw systeem en kent u de beëindigingsdatum. U kunt ze plannen om op die datum gedeactiveerd te worden.
 
 Workfront-beheerders en gebruikers van een abonnement kunnen de datum van deactivering in hun gebruikersprofiel zien.
 
 Een gebruiker plannen voor deactivering:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
 1. Selecteer de gebruikersnaam.
 
@@ -107,17 +115,17 @@ Een gebruiker plannen voor deactivering:
 
 1. Klikken **Wijzigingen opslaan**.
 
-   De gebruiker wordt soms na de geselecteerde tijd gedeactiveerd op de geselecteerde dag. Als u meerdere gebruikers hebt geselecteerd om bulksgewijs te deactiveren, worden alle geselecteerde gebruikers soms na de geselecteerde tijd op de geselecteerde dag gedeactiveerd.
+   De gebruiker wordt op de geselecteerde dag ergens na de geselecteerde tijd gedeactiveerd. Als u meerdere gebruikers hebt geselecteerd om bulksgewijs te deactiveren, worden alle geselecteerde gebruikers op de geselecteerde dag gedeactiveerd ergens na de geselecteerde tijd.
 
 Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering hebt gepland, om op de hoogte te houden van welke gebruikers om te worden gedeactiveerd. Er is geen bevestiging dat de deactivering heeft plaatsgevonden nadat de gebruikers waren gedeactiveerd.
 
 ## Een gebruiker opnieuw activeren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
 1. Selecteer een gebruiker, klik het Meer pictogram ![](assets/more-icon.png)en klik vervolgens op **Activeren**.
 
-1. Een nieuwe waarde toewijzen **Toegangsniveau** in het vervolgkeuzemenu.
+1. Een nieuwe waarde toewijzen **Toegangsniveau** in het vervolgkeuzemenu klikt u vervolgens op **Opnieuw activeren**.
 
 ### Bewijseffect wanneer u een gebruiker opnieuw activeert
 
@@ -126,7 +134,7 @@ Gedeactiveerde gebruikers verliezen hun toegewezen standaardproofingrol en hun p
 * Wijs de licentie opnieuw toe (als u een Workfront Premium Legacy Plan gebruikt). Ga voor meer informatie over Workfront-proefdrukplannen naar [Toegang tot proefdrukfunctionaliteit in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 * Controleer of ze de juiste proefdrukrol hebben. De opnieuw geactiveerde proefdrukgebruikers worden toegewezen wat als standaardproefrol voor nieuwe gebruikers wordt gespecificeerd. Zie [Standaardproofingrollen configureren](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) voor meer informatie .
 
-## Informatie over het deactiveren van Workfront-beheerders en gebruikers van planningslicenties
+## Informatie over het deactiveren van Workfront-beheerders en gebruikers van een Standard- of Plan-licentie
 
 Alvorens u een beheerder van Workfront of een gebruiker met een vergunning van het Plan deactiveert, is het belangrijk om op de voorwerpen en de activiteiten van Workfront te controleren die die persoon impliceren, dan hen te associëren met een andere beheerder van Workfront of de vergunningsgebruiker van het Plan zonodig.
 

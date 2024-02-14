@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Gebruikers toevoegen
 description: Als Workfront-beheerder of een gebruiker met volledige beheertoegang kunt u gebruikers toevoegen in Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
 
 # Gebruikers toevoegen
+
+<!--Audited 2/2024-->
 
 >[!IMPORTANT]
 >
@@ -50,7 +52,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Nieuw: Standaard</p><p>of</p><p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -62,6 +64,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -89,7 +93,7 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
 
 ## Een nieuwe gebruiker maken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
 1. Klikken **Nieuwe gebruiker > Nieuwe gebruiker** om een gebruiker toe te voegen die nog niet aan Workfront is toegevoegd.
 
@@ -110,21 +114,17 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
 
    >[!NOTE]
    >
-   >Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld, is de optie Alleen toestaan &lt;sso configuration=&quot;&quot;> Het verificatieveld is verborgen als u de e-mailuitnodiging uitschakelt. De federatie-id of &lt;sso configuration=&quot;&quot;> Het veld Gebruikersnaam blijft zichtbaar.
-
-   >[!NOTE]
+   >* Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld, is de optie Alleen toestaan &lt;sso configuration=&quot;&quot;> Het verificatieveld is verborgen als u de e-mailuitnodiging uitschakelt. De federatie-id of &lt;sso configuration=&quot;&quot;> Het veld Gebruikersnaam blijft zichtbaar.
    >
-   Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
-   >
-   De nieuwe gebruikers van de Adobe worden toegevoegd aan de Admin Console, en de Admin Console levert een e-mail om hen uit te nodigen om het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om tot om het even welk systeem van de Adobe toegang te hebben.
+   * Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
    >
    Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
 
-1. Klikken **Deze gebruiker toevoegen**.
+1. Klikken **Deze persoon toevoegen**.
 
    of
 
-   Klikken **Personen gebruiker toevoegen en een andere gebruiker starten** om de nieuwe gebruiker op te slaan en een andere gebruiker toe te voegen.
+   Klikken **Persoon toevoegen en een andere starten** om de nieuwe gebruiker op te slaan en een andere gebruiker toe te voegen.
 
    >[!NOTE]
    >
@@ -145,17 +145,17 @@ Wanneer u op deze manier een gebruiker maakt, wordt alle informatie van de oorsp
 
 Nieuwe gebruiker maken door een bestaande gebruiker te kopiëren:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 1. Selecteer de gebruiker die u wilt kopiëren en klik op het pictogram Kopiëren ![](assets/copy-icon.png).
-1. In de **Nieuwe gebruiker** de velden die beschikbaar zijn voor de nieuwe gebruiker bewerken.
+1. In de **Gebruiker kopiëren** de velden die beschikbaar zijn voor de nieuwe gebruiker bewerken.
 
    Voor informatie over alle gebieden verbonden aan een gebruiker, zie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Klikken **Deze gebruiker toevoegen**.
+1. Klikken **Deze persoon toevoegen**.
 
    of
 
-   Klikken **Personen gebruiker toevoegen en een andere gebruiker starten** om de nieuwe gebruiker op te slaan en een andere gebruiker toe te voegen.
+   Klikken **Persoon toevoegen en een andere starten** om de nieuwe gebruiker op te slaan en een andere gebruiker toe te voegen.
 
 Hiermee maakt u in Workfront een nieuwe account voor de gebruiker.
 
@@ -164,7 +164,5 @@ Als u de optie hebt geselecteerd om een uitnodiging naar de gebruiker te verzend
 >[!NOTE]
 >
 Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
->
-De nieuwe gebruikers van de Adobe worden toegevoegd aan de Admin Console, en de Admin Console levert een e-mail om hen uit te nodigen om het registratieproces te voltooien. Alle gebruikers moeten het registratieproces voltooien om tot om het even welk systeem van de Adobe toegang te hebben.
 >
 Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
