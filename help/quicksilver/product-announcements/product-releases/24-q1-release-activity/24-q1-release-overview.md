@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -357,7 +357,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [register voor webinar om
                                 <p>OPMERKING: deze functie blijft in Voorvertoning tot de release 24.4.</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de release van 24.2 (februari 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor alle klanten: met de release van 24.4 (april 2024)</p>

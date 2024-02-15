@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,43 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             </tbody>
         </table>
 
+### Verbeteringen voor startpagina
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen</a></p><p>Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 2 januari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Projectverbeteringen
 
 <table>
@@ -89,6 +126,24 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 13 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante slimme toewijzingen</a></p><p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -97,7 +152,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>

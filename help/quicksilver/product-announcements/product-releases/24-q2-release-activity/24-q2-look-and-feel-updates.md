@@ -4,9 +4,9 @@ description: De blik-en-voelen updates tijdens het Tweede Kwartaal 2024 de tijdk
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2024 releasetijdschema werden gemaakt.
 
 Voor een lijst met alle wijzigingen die beschikbaar zijn in de release van het tweede kwartaal van 2024 raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Zoeken naar updates voor twee e-mailsjablonen
+
+>[!NOTE]
+>
+>Release voor alle klanten: met de 24.2-release (15 februari 2024)
+
+De e-mailsjablonen voor het toevoegen van een fiatteur aan een middel en voor het toevoegen van een gebruiker aan een board zijn bijgewerkt zodat deze beter aansluiten op andere e-mailsjablonen voor Adoben en de duidelijkheid en bruikbaarheid verbeteren.
 
 ## Nieuwe look-and-feel updates voor tabbladen in het gebied Aangepaste Forms
 
