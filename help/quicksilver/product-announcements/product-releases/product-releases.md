@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 12%
@@ -64,7 +64,7 @@ Voor informatie over hoe u uw organisatie kunt helpen probleemloos aan te passen
   <tr> 
    <td> <p>Uitzettingen in 2021</p> 
     <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md" class="MCXref xref" xrefformat="{para}">21.4 Overzicht van de release</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md" class="MCXref xref" xrefformat="{para}">21.4 Overzicht van de release</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md" class="MCXref xref" xrefformat="{para}">21.3 Overzicht van de release</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md" class="MCXref xref" xrefformat="{para}">21.2 Overzicht van de release</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md" class="MCXref xref" xrefformat="{para}">21.1 - releaseoverzicht</a> </p> </li> 
@@ -78,13 +78,13 @@ Voor informatie over hoe u uw organisatie kunt helpen probleemloos aan te passen
   <tr> 
    <td> <p>Uitzettingen in 2020</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 - releaseoverzicht</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 - releaseoverzicht</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">Overzicht van de release 2020.2</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">Overzicht van de release 2020.1</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 - releaseoverzicht</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 - releaseoverzicht</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">Overzicht van de release 2020.2</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md" class="MCXref xref" xrefformat="{para}">Overzicht van de release 2020.1</a> </li> </li> 
     </ul> <p>Uitzettingen in 2019</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Overzicht van releaseactiviteiten 2019.3</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Overzicht van releaseactiviteiten 2019.2</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md" class="MCXref xref" xrefformat="{para}">2019.1 releaseactiviteit</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Overzicht van releaseactiviteiten 2019.3</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Overzicht van releaseactiviteiten 2019.2</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md" class="MCXref xref" xrefformat="{para}">2019.1 releaseactiviteit</a> </li> </li> 
     </ul> <p>Eerdere versies</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.3 releaseactiviteit</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.2 releaseactiviteit</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.1 releaseactiviteit</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.3 releaseactiviteit</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.2 releaseactiviteit</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.3 releaseactiviteit</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.2 releaseactiviteit</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.1 releaseactiviteit</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.3 releaseactiviteit</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.2 releaseactiviteit</a> </li> </li> 
     </ul> </td> 
    <td> 
     <ul> 

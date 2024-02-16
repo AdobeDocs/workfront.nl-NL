@@ -8,7 +8,7 @@ author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Deze sectie bevat de volgende artikelen over hoe u toestemming aan voorwerpen ku
 * [Een sjabloon delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
 * [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Financiële machtigingen delen op een object](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
-* [Een portfolio delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)
+* [Een portfolio delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
 * [Een programma delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
 * [Een document delen](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [Een documentmap delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)

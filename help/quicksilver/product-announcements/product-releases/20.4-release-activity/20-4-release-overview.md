@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3694'
 ht-degree: 0%
@@ -290,7 +290,7 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
 
 ## Verbeteringen in Workfront Scenario Planner
 
-De meeste nieuwe functies die beschikbaar zijn in de release van Workfront Scenario Planner met 20.4. Voor informatie over deze nieuwe functies die nu beschikbaar zijn in Voorbeeld, raadpleegt u [Workfront Scenario Planner met 20.4 release - 14 oktober 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md).
+De meeste nieuwe functies die beschikbaar zijn in de release van Workfront Scenario Planner met 20.4. Voor informatie over deze nieuwe functies die nu beschikbaar zijn in Voorbeeld, raadpleegt u [Workfront Scenario Planner met 20.4 release - 14 oktober 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
 
 ## Verbeteringen voor Workfront-doelen
 

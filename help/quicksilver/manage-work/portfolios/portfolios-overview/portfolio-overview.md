@@ -7,7 +7,7 @@ description: Een Portfolio is een inzameling van projecten die verenigende eigen
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U moet de volgende toegang hebben om portfolio&#39;s te maken en te beheren:
 * [!UICONTROL View] machtigingen op een Portfolio om het te kunnen zien
 
 Voor informatie over toegang tot Portfolio&#39;s raadpleegt u [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-Zie voor informatie over machtigingen voor Portfolio&#39;s [Een portfolio delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+Zie voor informatie over machtigingen voor Portfolio&#39;s [Een portfolio delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 Voor informatie over het gebruiken van Programma&#39;s, zie [Een programma maken](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 

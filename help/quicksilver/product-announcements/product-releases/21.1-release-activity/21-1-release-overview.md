@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ Voor informatie over de onderhoudsupdates die tijdens versie 21.1 zijn gemaakt, 
 
 In een inspanning om succesvolle e-maillevering te verhogen, voegen wij nieuwe IP adressen met de 21.1 release van de Productie voor clusters 1, 2, 3, 4, en 5 toe.
 
-Voor details over welke IP adressen u voor uw cluster moet toevoegen, zie [Nieuwe IP-adressen voor Adobe Workfront-e-mailberichten met de release 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+Voor details over welke IP adressen u voor uw cluster moet toevoegen, zie [Nieuwe IP-adressen voor Adobe Workfront-e-mailberichten met de release 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 Ga naar Setup > System > Customer Info als u wilt weten in welke cluster u zich bevindt.
 
