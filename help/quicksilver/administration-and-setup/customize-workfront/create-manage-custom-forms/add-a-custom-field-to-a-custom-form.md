@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
 
 # Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder
+
+<!-- Audited: 02/2024 -->
 
 Wanneer u aan een aangepast formulier werkt, kunt u een nieuw aangepast veld maken en dit toevoegen aan een aangepast formulier.
 
@@ -36,30 +38,33 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Administratieve toegang tot aangepaste formulieren </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Een aangepast veld toevoegen aan een aangepast formulier
+## Een aangepast veld toevoegen aan een aangepast formulier {#add-custom-field-to-custom-form}
 
 1. Beginnen met het maken of bewerken van een aangepast formulier, zoals beschreven in [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Open de **Veld toevoegen** tab.
+1. Selecteer de **Veld toevoegen** tab.
 
-   ![](assets/add-a-field.jpg)
+   ![Een veldtabblad toevoegen](assets/add-a-field.jpg)
 
-1. Met **Nieuw veld** ![](assets/new-field.jpg) Selecteer een van de onderstaande veldtypen:
+1. Met **Nieuw veld** ![Pictogram Nieuw veld](assets/new-field.jpg) Selecteer een van de volgende veldtypen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Tekstveld met opmaak</td> 
-      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokopties. Dit is beschikbaar in Home, het gebied van Updates, lijsten, en het gebied van Details voor de voorwerpen van Workfront. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Voor informatie over toegang tot dit veld via de API raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Opslag van rijke tekstvelden in de API</a>.</p> <p><b>OPMERKING</b>: Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-toepassingen (beschikbaar in komende versies). </p> </td> 
+      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokopties. Dit is beschikbaar in Home, het gebied van Updates, lijsten, en het gebied van Details voor de voorwerpen van Workfront. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Voor informatie over toegang tot dit veld via de API raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Opslag van rijke tekstvelden in de API</a>.</p> <p><b>OPMERKING</b>: Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-toepassingen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vervolgkeuzelijst</td> 
@@ -150,7 +155,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
       <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
       <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#Add" class="MCXref xref">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
+      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#add-a-custom-field-to-a-custom-form">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instructies</td> 
@@ -196,7 +201,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
         <li>Ze behoren tot een of meer groepen die u opgeeft</li> 
         <li>Ze zijn gekoppeld aan een rol of functie die u opgeeft</li> 
         <li>Zij behoren tot dezelfde groep als de persoon die het veld gebruikt</li> 
-       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Zie de sectie voor informatie over het maken van een filter in de tekstmodus <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Tekstmodus in een filter bewerken</a> in het artikel <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Overzicht van de tekstmodus</a>. </p> <p><b>OPMERKING</b>:   
+       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Zie voor informatie over het maken van een filter in de tekstmodus <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p>
+       <p><b>OPMERKING</b>:   
         <ul> 
          <li>Als u een bestaand aangepast formulier bewerkt en u voegt een filter toe aan een Typeahead-veld, worden er geen objecten (buiten het bereik van het filter) verwijderd die gebruikers al met het veld hebben toegevoegd.</li> 
          <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een Typeahead-veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
@@ -220,15 +226,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <p><b>OPMERKING</b>: Deze optie is niet beschikbaar voor:</p> 
       <ul> 
       <li>Aangepaste formulieren die zijn gekoppeld aan de volgende objecttypen: Kosten, Bedrijf, Iteratie, Factureringsrecord en Groep.</li> 
-      <li>De volgende veldtypen: Berekende , Omschrijvende tekst en Sectie-einde</li> 
+      <li>De volgende veldtypen: Berekend, Omschrijvende tekst en Sectie-einde</li> 
       </ul>
       <p><b>BELANGRIJK</b>: Wanneer u een objecttype selecteert of deselecteert, heeft dit invloed op alle aangepaste formulieren die zijn gekoppeld aan het geselecteerde objecttype en die dit veld bevatten. Als u bijvoorbeeld hier een objecttype uitschakelt en het aangepaste formulier opslaat, worden de waardewijzigingen van het veld niet meer bijgehouden voor dat objecttype in een aangepast formulier dat het veld bevat.</p>
        <p>Nadat u hier een objecttype voor een veld hebt geselecteerd en het aangepaste formulier hebt opgeslagen, wordt het veld weergegeven op het tabblad Aangepaste velden in het gebied feeds bijwerken in Setup.</p> 
        <p>Omgekeerd geldt dat als dit veld wordt verwijderd in het gedeelte feeds bijwerken in Setup, het objecttype voor deze instelling wordt uitgeschakeld voor alle aangepaste formulieren die zijn gekoppeld aan het objecttype en die dit veld bevatten.</p> 
-       <p>Zie de sectie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Velden toevoegen die Workfront moet bijhouden</a> in het artikel <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Systeemupdates configureren</a>.</p> </td> 
+       <p>Zie de sectie voor meer informatie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Velden toevoegen die Workfront moet bijhouden</a> in het artikel <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Systeemupdates configureren</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Logica toevoegen</td> 
+      <td role="rowheader">Logica toevoegen</td>
       <td>Geef op welke velden op het formulier moeten worden weergegeven, op basis van selecties die gebruikers in bestaande velden maken. Zie voor meer informatie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Weergavelogica toevoegen en logica overslaan naar een aangepast formulier</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >* Als u overschakelt op Keuzerondjes, behoudt Workfront de eventueel door een gebruiker in het veld ingevoerde waarden totdat de gebruiker gegevens in een willekeurig deel van het formulier wijzigt en opslaat. Op dit punt worden alle waarden die zijn geselecteerd in het veld Meerdere selectietypen vervangen door de geselecteerde waarde voor Keuzerondje.
    >* Als u overschakelt naar een vervolgkeuzelijst met één keuze, behoudt Workfront de eventuele multi-select waarden die een gebruiker in het veld heeft ingevoerd, totdat de gebruiker de waarden in het veld wijzigt en opslaat. Op dit punt worden alle waarden die zijn geselecteerd in het veld Meerdere selecties vervangen door de geselecteerde vervolgkeuzelijst.
 
-1. (Optioneel) Herhaal stap 2-6 om andere aangepaste velden toe te voegen.
+1. (Optioneel) Herhaal stap 3-5 om meer aangepaste velden toe te voegen.
 
    of
 
-   Voeg velden toe die al voor uw organisatie zijn gemaakt, zoals wordt uitgelegd in [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   Voeg velden toe die al voor uw organisatie zijn gemaakt, zoals wordt uitgelegd in [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >

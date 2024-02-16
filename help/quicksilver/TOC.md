@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '13946'
+source-wordcount: '13950'
 ht-degree: 0%
 
 ---
@@ -566,7 +566,7 @@ ht-degree: 0%
                * [De verouderde aangepaste formulierbuilder gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
                * [Een aangepast formulier maken of bewerken met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
                * [Een aangepast formulier kopiëren om een nieuw formulier te maken met de verouderde builder](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-               * [Een aangepast veld toevoegen](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [Een aangepast veld toevoegen met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
                * [Een afbeeldings- of andere middelenwidget toevoegen aan een aangepast formulier met de verouderde builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
                * [Een sectie-einde toevoegen met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
                * [Berekende gegevens toevoegen met de oudere builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
