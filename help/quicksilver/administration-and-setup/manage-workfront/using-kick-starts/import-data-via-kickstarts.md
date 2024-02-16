@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>:</p> 
-   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td>U moet een Workfront-beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Beperkingen
 
@@ -200,27 +201,9 @@ Een Kick-Start-sjabloon exporteren:
      </tr>
 
    <tr> 
-      <td>Oudere bronnenpool</td> 
-      <td>Exporteren als Excel-bestand</td> 
-      <td> <p> Oudere bronnenpool</p> <p>Voorkeuren </p> </td> 
-     </tr>
-
-   <tr> 
       <td>Mijlpad</td> 
       <td> Exporteren als Excel-bestand</td> 
       <td> <p> Mijlsteen</p> <p>Mijlpad</p> <p>Voorkeuren </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>Bron voor niet-arbeid</td> 
-      <td> Exporteren als Excel-bestand</td> 
-      <td> <p> Bron voor niet-arbeid</p> <p>Voorkeuren</p></td> 
-     </tr>
-
-   <tr> 
-      <td>Broncategorie voor niet-arbeid</td> 
-      <td> Exporteren als Excel-bestand</td> 
-      <td> <p> Broncategorie voor niet-arbeid</p> <p>Voorkeuren</p></td> 
      </tr>
 
    <tr> 
@@ -471,7 +454,7 @@ Hoewel het aan te raden is om waar mogelijk id&#39;s te gebruiken, is het soms l
 
 ## De spreadsheetgegevens importeren in Workfront
 
-Nadat u de Excel-sjabloon met uw gegevens hebt gevuld, kunt u de Excel-sjabloon uploaden naar Workfront.
+Nadat u de Excel-sjabloon met uw gegevens hebt gevuld, kunt u de bijbehorende gegevens uploaden naar Workfront.
 
 Het importeren Kick-Start ondersteunt de volgende bestandstypen:
 
@@ -485,17 +468,17 @@ Het importeren Kick-Start ondersteunt de volgende bestandstypen:
   >* Rapporten
   >* Documenten
   >* Avatars
-  >* Eigenschappenbestanden weergeven, filteren of groeperen.
+  >* Eigenschapbestanden weergeven, filteren of groeperen
   >
   >Wanneer u een gecomprimeerd importbestand gebruikt, moet het ZIP-bestand dezelfde naam hebben als het XSL- of XLS-bestand en moeten alle bestanden op hetzelfde structuurniveau staan (geen mappen).
 
 De sjabloonspreadsheetgegevens importeren in Workfront:
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Klikken **Systeem** >**Gegevens importeren (Kick-start)**.
+{{step-1-to-setup}}
+
+1. Klikken **Systeem** > **Gegevens importeren (Kick-start)**.
 
 1. In de **Gegevens uploaden met werkblad Kick-Start** sectie, klikken **Bestand kiezen** Blader vervolgens naar de gevulde spreadsheet en selecteer deze.
 
