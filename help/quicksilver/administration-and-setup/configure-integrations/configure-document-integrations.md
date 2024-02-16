@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 0%
@@ -195,7 +195,7 @@ Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikba
 
 Voor informatie over hoe gebruikers kunnen gebruiken [!DNL Workfront DAM], zie [Documenten beheren met [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-Voor informatie over hoe de gebruikers het proef kunnen gebruiken, zie [Proefdrukken maken](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+Voor informatie over hoe de gebruikers het proef kunnen gebruiken, zie [Proefdrukken maken](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
 Voor informatie over hoe de gebruikers de integratie van het derdedocument kunnen gebruiken nadat u hen hebt gevormd, zie [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

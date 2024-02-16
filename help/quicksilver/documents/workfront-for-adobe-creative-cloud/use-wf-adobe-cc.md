@@ -6,7 +6,7 @@ description: Met de extensie Workfront kunt u digitale inhoud die u opslaat en m
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Om een goedkeuring op een document van een aanvraag van de Adobe aan te vragen:
 
 ## Een proefdruk van Illustrator of InDesign genereren {#generate-a-proof-from-illustrator-or-indesign}
 
-Als uw organisatie automatische werkstroomsjablonen gebruikt, kunt u een proefdruk genereren voor een document dat u maakt in een Adobe-toepassing zonder de toepassing te verlaten. Voor informatie over het maken van proefdrukken raadpleegt u [Proefdrukken maken](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). Voor informatie over Geautomatiseerde malplaatjes van het Werkschema, zie [Geautomatiseerde werkstroomsjablonen](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Geautomatiseerd workflowoverzicht](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Als uw organisatie automatische werkstroomsjablonen gebruikt, kunt u een proefdruk genereren voor een document dat u maakt in een Adobe-toepassing zonder de toepassing te verlaten. Voor informatie over het maken van proefdrukken raadpleegt u [Proefdrukken maken](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Voor informatie over Geautomatiseerde malplaatjes van het Werkschema, zie [Geautomatiseerde werkstroomsjablonen](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Geautomatiseerd workflowoverzicht](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Open een van de ondersteunde Adobe-toepassingen.
 1. Als de Workfront-extensie niet wordt weergegeven, klikt u op **Venster** > **Extensies** > Workfront.

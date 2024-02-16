@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Er zijn momenteel drie opties voor proefdrukken in Workfront:
 
 Voor informatie over het verlenen en intrekken van de toegang van een gebruiker tot het maken en bekijken van proefdrukken in Workfront gaat u naar [De proefdruktoegang van een gebruiker configureren](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Genereer statische of interactieve proefdrukken op externe URL&#39;s en documenten. Zie voor meer informatie [Proefdrukken maken](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* Genereer statische of interactieve proefdrukken op externe URL&#39;s en documenten. Zie voor meer informatie [Proefdrukken maken](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Inclusief geautomatiseerde workflows op proefdrukken. Zie voor meer informatie [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Stel toegangs- en abonnementsinstellingen in voor proefdrukken. Zie voor meer informatie [Toegang- en abonnementsinstellingen configureren voor een proefdruk](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Wijs aangepaste proefdrukrechtenprofielen toe wanneer u proefdrukmogelijkheden inschakelt voor een gebruiker in Workfront. Zie voor meer informatie [Proofing voor een gebruiker inschakelen en uitschakelen (alleen oudere plannen)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [De proefdruktoegang van een gebruiker configureren](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

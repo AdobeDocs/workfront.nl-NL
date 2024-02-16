@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 0%
@@ -678,7 +678,7 @@ ht-degree: 0%
          * [API-sleutels beheren](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [Privacybeleid](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Overzicht van uitgebreide verificatie](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [De meta-gegevens van SAML 2.0 van de update in uw IDP wanneer het gebruiken van verbeterde authentificatie](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+         * [De meta-gegevens van SAML 2.0 van de update in uw IDP wanneer het gebruiken van verbeterde authentificatie](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * Wisselkoersen {#exchange-rates}
          * [Wisselkoersen](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [Wisselkoersen instellen](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1049,7 +1049,7 @@ ht-degree: 0%
          * [Overzicht van de voltooiingsstatus](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [Het formaat en de onderdrukkingsgrafiek samenvouwen](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [Gegevens in het burndown-diagram synchroniseren](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [Een alternatief teamschema gebruiken voor burndown-grafieken](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+         * [Een alternatief teamschema gebruiken voor burndown-grafieken](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
       * Herhalingen {#iterations}
          * [Herhalingen](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Overzicht van herhalingen](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1081,7 +1081,7 @@ ht-degree: 0%
 * Documenten {#documents}
    * [Documenten: artikelindex](documents/documents-overview.md)
    * Nieuwe documenten toevoegen aan Adobe Workfront {#add-new-documents-to-workfront}
-      * [Nieuwe documenten toevoegen aan Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+      * [Nieuwe documenten toevoegen aan Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [Documenten van externe toepassingen koppelen](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Koppelingen tussen Adobe Workfront en externe opslagproviders van documenten verwijderen](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 0%
       * [Adobe Workfront DAM inschakelen](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [Documenten beheren met Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
       * [Adobe Workfront-licenties voor roltypen versus Adobe Workfront DAM-roltypen](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Help voor Adobe Workfront DAM openen](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+      * [Help voor Adobe Workfront DAM openen](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront- en Experience Manager Assets-integratie {#wf-aem-integrations}
       * [Workfront- en Experience Manager Assets-integratie](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront for Experience Manager Enhanced Connector {#wf-aem-enhanced-connector}
@@ -1815,11 +1815,11 @@ ht-degree: 0%
          * [Voortgang van proefdrukken en statusoverzicht](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Verschillen tussen de webtestviewer en het overzicht van de Desktop Proofing Viewer](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Proefdrukken maken {#create-proofs}
-         * [Proefdrukken maken](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+         * [Proefdrukken maken](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Standaardwaarden voor persoonlijke proefdrukken configureren](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Een proefdruk van meerdere pagina&#39;s maken](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Een interactieve proefdruk maken voor een website of andere webinhoud](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-         * [Een proef maken voor interactieve inhoud in een ZIP-bestand](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+         * [Een proef maken voor interactieve inhoud in een ZIP-bestand](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
          * [Een statische proefdruk maken voor een website of andere webinhoud](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [Een proefdruk maken voor een document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [Een geavanceerde proefdruk maken met een standaardworkflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2091,7 +2091,7 @@ ht-degree: 0%
       * [Connect Adobe Workfront Fusion naar een webservice die API-tokenverificatie gebruikt](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
       * [Connect Adobe Workfront Fusion voor Google Services met bijgewerkte beveiligingsmaatregelen](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
       * [Adobe Workfront Fusion met Google Services verbinden met behulp van een aangepaste OAuth-client](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-      * [Roep de MS Graph REST API via Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+      * [Roep de MS Graph REST API via Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Toetsen in Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
       * [Een webhaak ontvangen van een webservice](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
    * Fouten in Adobe Workfront Fusion {#errors-in-fusion}

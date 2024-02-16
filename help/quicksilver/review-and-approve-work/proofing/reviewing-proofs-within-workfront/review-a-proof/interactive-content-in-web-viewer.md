@@ -6,9 +6,9 @@ description: We raden u aan alle interactieve inhoud te controleren met de Deskt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De webproefdrukviewer heeft de volgende beperkingen:
 
    Zie voor meer informatie [Informatie over het voorbereiden van interactieve inhoud in een ZIP-bestand voor proefdrukken](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Overzicht van proefdrukken van interactieve inhoud](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-   Zie ook [Een proef maken voor interactieve inhoud in een ZIP-bestand](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+   Zie ook [Een proef maken voor interactieve inhoud in een ZIP-bestand](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 1. Klikken **Opmerking toevoegen**.
 

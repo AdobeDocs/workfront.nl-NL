@@ -7,7 +7,7 @@ description: De burndown grafiek verstrekt een visuele vertegenwoordiging van ho
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 373f2522b85196d6395f189ae6cfe03449cac61a
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Het burndown-diagram geeft een visuele weergave van hoe verhalen door de herhaling gaan. De daadwerkelijke burndown tarief wordt gemeten tegen het ideale burndown tarief voor de iteratiechronologie.
 
-De burndown grafiek past zich op de geselecteerde dag aan. De huidige dag is de standaarddag. Wanneer een vorige dag wordt geselecteerd, alle gegevens in de burdown grafiek en alle waarden in [!UICONTROL completion status] de sectie boven het burndown diagram wordt opnieuw berekend om de gegevens te vertegenwoordigen aangezien het aan het eind van de geselecteerde dag was. (U kunt de afgelopen dagen of de huidige dag selecteren. u kunt in de toekomst geen dagen selecteren.)
+De burndown grafiek past zich op de geselecteerde dag aan. De huidige dag is de standaarddag. Wanneer een vorige dag wordt geselecteerd, alle gegevens in de burdown grafiek en alle waarden in [!UICONTROL completion status] de sectie boven het burndown diagram wordt opnieuw berekend om de gegevens te vertegenwoordigen aangezien het aan het eind van de geselecteerde dag was. (U kunt dagen of de huidige dag selecteren; u kunt geen dagen in de toekomst selecteren.)
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -56,7 +56,7 @@ Het burndown-diagram bevat de volgende visuele indicatoren:
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
-   <td> <p>Op het moment dat het werk wordt afgebrand, wordt een groene of rode stip weergegeven met de werkelijke afbraaksnelheid. (Wanneer de werkelijke afbraaksnelheid op die dag rood is, is de punt rood; als de daadwerkelijke burndown rate op die dag groen is, is de punt groen.)</p> <p>Het werk wordt verbrand wanneer om het even welk van het volgende voorkomt:</p> 
+   <td> <p>Op het moment dat het werk wordt afgebrand, wordt een groene of rode stip weergegeven met de werkelijke afbraaksnelheid. (Wanneer de daadwerkelijke burndown tarief op die dag rood is, is de punt rood; wanneer het daadwerkelijke burndown tarief op die dag groen is, is de punt groen.)</p> <p>Het werk wordt verbrand wanneer om het even welk van het volgende voorkomt:</p> 
     <ul> 
      <li> De [!UICONTROL Percent Complete] is groter geworden.<br>[!UICONTROL Percent Complete] wordt verhoogd wanneer: 
       <ul> 
@@ -73,13 +73,13 @@ Het burndown-diagram bevat de volgende visuele indicatoren:
 
 Het standaardschema gedefinieerd in [!DNL Workfront] heeft invloed op het burndown - diagram doordat dagen uit (weekends en feestdagen) van de uitbarsting worden uitgesloten. Het burdown grafiek gebruikt het standaardprogramma om werkdagen (zoals die in  [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-Flexibele teams kunnen teamspecifieke niet-werkdagen opnemen door een alternatief schema te definiëren (zoals beschreven in het artikel) [Een alternatief teamschema gebruiken voor burndown-grafieken](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)). Dit afwisselende programma wordt dan weerspiegeld in de burndown grafiek van om het even welke herhaling die aan het team wordt toegewezen. Het afwisselende programma beïnvloedt slechts de burndown grafiek.
+Flexibele teams kunnen teamspecifieke niet-werkdagen opnemen door een alternatief schema te definiëren (zoals beschreven in het artikel) [Een alternatief teamschema gebruiken voor burndown-grafieken](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Dit afwisselende programma wordt dan weerspiegeld in de burndown grafiek van om het even welke herhaling die aan het team wordt toegewezen. Het afwisselende programma beïnvloedt slechts de burndown grafiek.
 
 Dagen worden alleen in de uitbouwgrafiek weergegeven als:
 
 * Het werk werd eerder een dag weg het programma geopend. (De dag waarop het werk werd geregistreerd wordt getoond.)
 
-   Wanneer het werk wordt het programma geopend op een dag weg:
+  Wanneer het werk wordt het programma geopend op een dag weg:
 
    * Om het even welk geregistreerd werk is niet inbegrepen wanneer het berekenen van de ideale inbraak omdat het team niet gepland is om het even welk werk te doen.
    * De ideale afbraaklijnen (de effen blauwe lijn en de onderbroken blauwe lijn) worden als plat weergegeven in het afbraakdiagram voor elke dag waarop het werk is uitgevoerd of op de dag waarop u de afbraakgrafiek weergeeft (als u de grafiek op een willekeurige dag weergeeft).
@@ -88,8 +88,8 @@ Dagen worden alleen in de uitbouwgrafiek weergegeven als:
 * U bekijkt de burndown grafiek op een dag weg. (De dag die u bekijkt wordt getoond op de burndown grafiek.)
 * U voltooit het totale resterende werk voor de herhaling op een vrije dag.
 
-   Wanneer een gebruiker het totale resterende werk voor de herhaling op een vrije dag voltooit, [!UICONTROL Estimated Completion] in het veld wordt de datum weergegeven waarop de herhaling is voltooid.
+  Wanneer een gebruiker het totale resterende werk voor de herhaling op een vrije dag voltooit, [!UICONTROL Estimated Completion] in het veld wordt de datum weergegeven waarop de herhaling is voltooid.
 
-   Als u bij het plannen van de herhaling de einddatum van de herhaling instelt voor een niet-werkdag en de herhaling wordt bijgehouden om op tijd te eindigen, wordt de [!UICONTROL Estimated Completion] De datum wordt ingesteld voor de laatste werkdag voorafgaand aan de einddatum van de herhaling die u instelt (omdat het werk volgens de planning niet op werkdagen moet worden gebrand).
+  Als u bij het plannen van de herhaling de einddatum van de herhaling instelt voor een niet-werkdag en de herhaling wordt bijgehouden om op tijd te eindigen, wordt de [!UICONTROL Estimated Completion] De datum wordt ingesteld voor de laatste werkdag voorafgaand aan de einddatum van de herhaling die u instelt (omdat het werk volgens de planning niet op werkdagen moet worden gebrand).
 
-   De einddatum voor de herhaling wordt opgegeven wanneer de herhaling wordt gepland, zoals beschreven in het artikel [Een herhaling maken](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  De einddatum voor de herhaling wordt opgegeven wanneer de herhaling wordt gepland, zoals beschreven in het artikel [Een herhaling maken](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

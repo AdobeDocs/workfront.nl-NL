@@ -9,7 +9,7 @@ description: Om een [!DNL Adobe Workfront Fusion] HTTP(S) verzoek aan servers di
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '1937'
 ht-degree: 0%
@@ -289,7 +289,7 @@ In het volgende voorbeeld wordt getoond hoe u de [!UICONTROL HTTP] > [!UICONTROL
 
 ### Instructies voor verbinding maken met [!DNL Microsoft Graph API] via de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module
 
-Voor instructies over [!DNL Microsoft Graph API], zie [Roep de [!DNL MS Graph REST API] via de [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+Voor instructies over [!DNL Microsoft Graph API], zie [Roep de [!DNL MS Graph REST API] via de [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## OAuth 2.0 opstelling van de verzoekmodule
 

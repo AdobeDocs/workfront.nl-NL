@@ -8,9 +8,9 @@ description: Een proefdruk is een statisch, audio- of videobestand dat in de con
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ U kunt proefdrukken maken op basis van statische bestanden, audiobestanden en vi
 
 ### Antwoord
 
-Wanneer u een bestand uploadt naar [!DNL Workfront Proof], slaat het systeem het bestand op in uw [!DNL Workfront Proof] account. Wanneer u het deelt, [!DNL Workfront Proof] Hiermee verzendt u een e-mail naar de ontvangers met een koppeling waarop ze kunnen klikken om het bestand te downloaden. U kunt elk gewenst bestandstype delen.
+Wanneer u een bestand uploadt naar [!DNL Workfront Proof], slaat het systeem het bestand in uw [!DNL Workfront Proof] account. Wanneer u het deelt, [!DNL Workfront Proof] Hiermee verzendt u een e-mail naar de ontvangers met een koppeling waarop ze kunnen klikken om het bestand te downloaden. U kunt elk gewenst bestandstype delen.
 
-Wanneer u een proefdruk maakt op basis van een bestand waarnaar u hebt geüpload [!DNL Workfront Proof]kunt u het bestand ter controle beschikbaar stellen in de conceptviewer. Revisoren ontvangen een e-mail met een koppeling naar de proefdruk. Wanneer ze de proefdruk openen, zien ze de proefdruk en kunnen ze opmerkingen toevoegen en besluiten nemen. U kunt proeven tot stand brengen gebruikend dossiers van de lijst van gesteunde dossiertypes. U kunt ook proefdrukken maken met behulp van URL&#39;s voor websites en andere webinhoud.
+Wanneer u een proefdruk maakt van een bestand waarnaar u hebt geüpload [!DNL Workfront Proof]kunt u het bestand ter controle beschikbaar stellen in de conceptviewer. Revisoren ontvangen een e-mail met een koppeling naar de proefdruk. Wanneer ze de proefdruk openen, zien ze de proefdruk en kunnen ze opmerkingen toevoegen en besluiten nemen. U kunt proeven tot stand brengen gebruikend dossiers van de lijst van gesteunde dossiertypes. U kunt ook proefdrukken maken met behulp van URL&#39;s voor websites en andere webinhoud.
 
 Voor een volledige lijst met ondersteunde bestandstypen raadpleegt u [Overzicht van ondersteunde bestandstypen voor proefdrukken en grootten](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
 
@@ -73,7 +73,7 @@ Het combineren van meerdere bestanden tot één proefdruk is een functie die bes
 
 Ja, u kunt proefdrukken maken van websites en andere webinhoud. Wanneer u een URL toevoegt om een proefdruk te maken, kunt u opgeven of u een statische proefdruk of een interactieve proefdruk wilt:
 
-* In een interactieve proefdruk kunnen revisoren navigeren en communiceren zoals ze gewoonlijk doen met de website of andere webinhoud, zoals advertenties met streaming video of audio, [!DNL Flash] elementen in een advertentie, HTML-animaties en interactieve banners. Zie voor meer informatie [Een proef maken voor interactieve inhoud in een ZIP-bestand](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+* In een interactieve proefdruk kunnen revisoren navigeren en communiceren zoals ze gewoonlijk doen met de website of andere webinhoud, zoals advertenties met streaming video of audio, [!DNL Flash] elementen in een advertentie, HTML-animaties en interactieve banners. Zie voor meer informatie [Een proef maken voor interactieve inhoud in een ZIP-bestand](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 * Voor een statisch bewijs, [!DNL Workfront] Hiermee maakt u een set schermafbeeldingen van de pagina&#39;s en subpagina&#39;s die u opgeeft. Hyperlinks bevinden zich in de proefdruk, zodat u kunt testen of ze naar de juiste bestemming leiden. Zie voor meer informatie [Een statische proefdruk maken voor een website of andere webinhoud](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
 U kunt meerdere URL&#39;s tegelijk toevoegen als u deze scheidt met een spatie. Combinatie is alleen beschikbaar op [!UICONTROL Enterprise] en [!UICONTROL Unlimited] editieplannen.
@@ -94,9 +94,9 @@ Door een proefdruk te delen, hebben revisoren toegang tot de proefdrukproef, zod
 
 ### Antwoord
 
-Als u een proefdruk maakt, kunt u revisoren toevoegen in het dialoogvenster [!UICONTROL Workflow] van de [!UICONTROL New Proof] pagina. Wanneer de proefdruk gereed is, [!DNL Workfront Proof] stuurt een e-mail naar de controleurs met daarin een koppeling naar de proefdruk.
+Als u een proefdruk maakt, kunt u revisoren toevoegen in het dialoogvenster [!UICONTROL Workflow] van de [!UICONTROL New Proof] pagina. Wanneer de proef klaar is, [!DNL Workfront Proof] stuurt een e-mail naar de controleurs met daarin een koppeling naar de proefdruk.
 
-Als u over voldoende rechten voor een proefdruk beschikt, kunt u de proefdrukviewer, uw [!UICONTROL Dashboard]of een van de lijstweergaven om revisoren toe te voegen aan een bestaande proefdruk (zie [Een proef delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) and [Manage Items on the [!UICONTROL Views] Pagina in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+Als u over voldoende rechten voor een proefdruk beschikt, kunt u de proefdrukviewer, uw [!UICONTROL Dashboard]of een van de lijstweergaven om revisoren toe te voegen aan een bestaande proefdruk (zie [Een proefexemplaar delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) and [Manage Items on the [!UICONTROL Views] Pagina in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 Het toevoegen van revisoren is de meest gebruikelijke manier om proefdrukken te delen. Zie voor meer informatie over andere beschikbare opties:
 
@@ -129,7 +129,7 @@ U kunt ook een deadline voor een bestaande proefdruk instellen of bijwerken met 
 
 ### Antwoord
 
-Revisoren vragen vaak om wijzigingen in hun opmerkingen op een proefdruk en willen graag een nieuwe versie van de proefdruk zien. U kunt nieuwe versies van een proefdruk maken. [!DNL Workfront Proof] onthoudt de instellingen van de proefdruk van de vorige versie. U kunt deze instellingen nog steeds bewerken als u revisoren voor de proefdruk wilt toevoegen of verwijderen.
+Revisoren vragen vaak om wijzigingen in hun opmerkingen op een proefdruk en willen een nieuwe versie van de proefdruk. U kunt nieuwe versies van een proefdruk maken. [!DNL Workfront Proof] onthoudt de instellingen van de proefdruk van de vorige versie. U kunt deze instellingen nog steeds bewerken als u revisoren voor de proefdruk wilt toevoegen of verwijderen.
 
 U moet elke versie delen met de specifieke controleurs die deze moeten bekijken. Als u bijvoorbeeld alleen versie 3 deelt met een revisor, kan die persoon geen versies 1 en 2 zien. De toezichthouders en de Beheerders in uw rekening zien alle projecten in de rekening, zodat kunnen zij alle versies van de proef zien en uitgeven.
 

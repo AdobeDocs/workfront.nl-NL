@@ -6,9 +6,9 @@ description: Herhalingen vormen een sleutelcomponent voor de ploegen van de Trom
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Gebruik de [!UICONTROL Add Iteration] gebruiken om snel een herhaling te maken e
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>Voer de datum in waarop de herhaling moet worden beëindigd. [!DNL Workfront] beveelt aan een einddatum in te stellen die niet langer mag zijn dan vier weken vanaf de begindatum.</p><p>Tip: Kies een werkdag als einddatum. In de uitbouwgrafiek worden slechts werkdagen gebruikt voor de berekeningen.<br>Door gebrek, gebruikt de burndown grafiek het standaardprogramma om werkdagen (zoals die in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>). Of, om team-specifieke niet-werkdagen op te nemen, kunnen de bestandsteams verkiezen om een afwisselend programma (zoals die in "het Bepalen van een Afwisselend Plan van het Team voor de Grafieken van de Onderbreking"wordt beschreven in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Een bestandsteam maken</a>).</p></td> 
+      <td><p>Voer de datum in waarop de herhaling moet worden beëindigd. [!DNL Workfront] beveelt aan een einddatum in te stellen die niet langer mag zijn dan vier weken vanaf de begindatum.</p><p>Tip: kies een werkdag als einddatum. In de uitbouwgrafiek worden slechts werkdagen gebruikt voor de berekeningen.<br>Door gebrek, gebruikt de burndown grafiek het standaardprogramma om werkdagen (zoals die in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>). Of, om team-specifieke niet-werkdagen op te nemen, kunnen de bestandsteams verkiezen om een afwisselend programma (zoals die in "het Bepalen van een Afwisselend Plan van het Team voor de Grafieken van de Doordrukking"wordt beschreven in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Een bestandsteam maken</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
@@ -88,7 +88,7 @@ Gebruik de [!UICONTROL Add Iteration] gebruiken om snel een herhaling te maken e
 
 ## Een herhaling plannen op de [!UICONTROL Backlog] tab
 
-Gebruik de [!UICONTROL Plan Iteration] gebruiken om een herhaling te maken met taken op uw achterstand.
+Gebruik de [!UICONTROL Plan Iteration] gebruiken om een herhaling te maken met gebruik van taken op uw achterstand.
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
 
@@ -112,7 +112,7 @@ Gebruik de [!UICONTROL Plan Iteration] gebruiken om een herhaling te maken met t
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>Geef de datum op waarop de herhaling moet worden beëindigd. [!DNL Workfront] beveelt aan een einddatum in te stellen die niet langer mag zijn dan vier weken vanaf de begindatum.</p><p>Tip: Kies een werkdag als einddatum. In de uitbouwgrafiek worden slechts werkdagen gebruikt voor de berekeningen.<br>Door gebrek, gebruikt de burndown grafiek het standaardprogramma om werkdagen (zoals die in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>). Of, om team-specifieke niet-werkdagen op te nemen, kunnen de flexibele teams verkiezen om een afwisselend programma (zoals beschreven in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md" class="MCXref xref">Een alternatief teamschema gebruiken voor burndown-grafieken</a>).</p></td> 
+      <td><p>Geef de datum op waarop de herhaling moet worden beëindigd. [!DNL Workfront] beveelt aan een einddatum in te stellen die niet langer mag zijn dan vier weken vanaf de begindatum.</p><p>Tip: kies een werkdag als einddatum. In de uitbouwgrafiek worden slechts werkdagen gebruikt voor de berekeningen.<br>Door gebrek, gebruikt de burndown grafiek het standaardprogramma om werkdagen (zoals die in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>). Of, om team-specifieke niet-werkdagen op te nemen, kunnen de flexibele teams verkiezen om een afwisselend programma (zoals beschreven in <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Een alternatief teamschema gebruiken voor burndown-grafieken</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -129,19 +129,19 @@ Gebruik de [!UICONTROL Plan Iteration] gebruiken om een herhaling te maken met t
     </tbody> 
    </table>
 
-1. (Optioneel) Selecteer artikelen om deze nu aan de herhaling toe te voegen. U kunt deze stap ook overslaan en op een later tijdstip artikelen aan een herhaling toevoegen. De verhalen boven aan de achterstand hebben een hogere prioriteit. Artikelen worden groen gemarkeerd als ze in de hoedanigheid passen; indien dit niet het geval is , worden zij in het rood gemarkeerd .\
+1. (Optioneel) Selecteer artikelen om deze nu aan de herhaling toe te voegen. U kunt deze stap ook overslaan en op een later tijdstip artikelen aan een herhaling toevoegen. De verhalen boven aan de achterstand hebben een hogere prioriteit. Artikelen worden groen gemarkeerd als ze in de capaciteit passen; ze worden rood gemarkeerd als ze dat niet doen.\
    U kunt zowel taken als uitgaven toevoegen aan één herhaling:
 
    * **Taken toevoegen aan de herhaling:** Op de **[!UICONTROL Backlog]** zorgt u ervoor dat de **[!UICONTROL Stories]** is geselecteerd (dit tabblad is standaard geselecteerd bij weergave van de achterstand). Selecteer de artikelen die u aan de herhaling wilt toevoegen.\
 
-      Wanneer u taken aan een herhaling toevoegt, wordt de begindatum van de taak berekend zoals beschreven in [[!UICONTROL Understand] hoe de datums van de taakaanvang wanneer toegevoegd aan een herhaling worden berekend](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+     Wanneer u taken aan een herhaling toevoegt, wordt de begindatum van de taak berekend zoals beschreven in [[!UICONTROL Understand] hoe de datums van de taakaanvang wanneer toegevoegd aan een herhaling worden berekend](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
    * **Uitgaven toevoegen aan de herhaling:** Op de **[!UICONTROL Backlog]** klikt u op de knop **[!UICONTROL Issues]** tab. Selecteer de kwesties u aan de herhaling wilt toevoegen.
 
 1. Klik op **[!UICONTROL Save].**
 De herhaling wordt gemaakt.
 
-1. (Optioneel) Als u artikelen wilt toevoegen aan een bestaande herhaling, raadpleegt u [Artikelen toevoegen aan een bestaande herhaling](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. (Optioneel) Als u artikelen wilt toevoegen aan een bestaande versie, raadpleegt u [Artikelen toevoegen aan een bestaande herhaling](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Begrijp hoe de datums van de taakbegin wanneer toegevoegd aan een herhaling worden berekend {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
