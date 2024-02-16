@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '5105'
+source-wordcount: '5171'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,7 @@ Een tekstveld toevoegen:
     <ul> 
     <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.</li> 
     <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li>
+    <li>De tekenlimiet voor nummervelden is 16. U kunt ook een tekstveld gebruiken om getallen in te voeren en de limiet te vermijden.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Tekst met één regel</li>
@@ -317,6 +318,7 @@ Keuzerondjes en selectievakjes toevoegen:
      <ul> 
     <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.<br></li> 
     <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li>
+    <li>De tekenlimiet voor nummervelden is 16. U kunt ook een tekstveld gebruiken om getallen in te voeren en de limiet te vermijden.</li>
      </ul></p></td> 
      <td><ul>
     <li>Keuzerondjes</li>
@@ -537,7 +539,9 @@ Een externe zoekopdracht toevoegen:
       <td><p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p>
       <p><strong>OPMERKING:</strong></p>
       <ul><li>U kunt het indelingstype wijzigen nadat het formulier is opgeslagen, met één beperking: alle bestaande waarden op objecten moeten kunnen worden omgezet in het nieuwe type. (Als het indelingstype bijvoorbeeld Tekst is en een object de waarde "abc" opslaat, kunt u het veld niet converteren. Er treedt dan een fout op die het systeem niet kan converteren naar getal/valuta.) Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.</li>
-      <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li></ul></td>
+      <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li>
+      <li>De tekenlimiet voor nummervelden is 16. U kunt ook een tekstveld gebruiken om getallen in te voeren en de limiet te vermijden.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Basis-API-URL</td> 

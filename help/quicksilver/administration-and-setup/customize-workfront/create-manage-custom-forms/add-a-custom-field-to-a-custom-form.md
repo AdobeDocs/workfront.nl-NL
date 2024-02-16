@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder
 description: Wanneer u aan een aangepast formulier werkt, kunt u een nieuw aangepast veld maken en dit toevoegen aan een aangepast formulier. U kunt ook een aangepast veld toevoegen dat al aan een ander aangepast formulier is toegevoegd.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 0%
 
 ---
@@ -164,6 +164,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    <p><strong>Voorbeeld:</strong> Als u een numerieke waarde opslaat voor een veld met de tekstopmaak op ten minste één object en de notatie later wijzigt in Getal of Valuta, treedt er geen fout op. </p>
       <p>Als u echter een alfanumerieke waarde opslaat in een veld met tekstindeling op ten minste één object en vervolgens probeert de indeling te wijzigen in Getal of Valuta, treedt er een fout op omdat de opgeslagen alfanumerieke waarde niet compatibel is met de notatie Getal of Valuta. </p>
+
+   <p><strong>Opmerking:</strong> De tekenlimiet voor nummervelden is 16. U kunt ook een tekstveld gebruiken om getallen in te voeren en de limiet te vermijden.</p>
 
    </td> 
      </tr> 

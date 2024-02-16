@@ -9,7 +9,7 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -102,7 +102,7 @@ U kunt een verbinding maken met uw [!DNL Workfront Proof] rechtstreeks vanuit ee
                 <td>Voer het wachtwoord voor uw [!DNL Workfront Proof] account.</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Tenant name]</td>
+                <td  role="rowheader">[!UICONTROL Tenant ID]</td>
                 <td><strong>Opmerking</strong>: Klanten die BYOK niet gebruiken, moeten dit veld leeg laten. <p>Voer de id van de huurder voor dit account in. Neem contact op met Customer Support van Workfront als je hulp nodig hebt bij het zoeken naar je huurnummer.</p></td>
             </tr>
             <tr>
