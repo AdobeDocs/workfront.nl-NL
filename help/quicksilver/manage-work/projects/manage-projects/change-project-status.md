@@ -2,51 +2,30 @@
 product-area: projects
 navigation-topic: manage-projects
 title: De status van een project wijzigen
-description: U kunt de status van een project handmatig wijzigen.
+description: U kunt de status van een project desgewenst handmatig bijwerken naar een andere status. U kunt de Status van een project aan een status manueel bijwerken die Volledige slechts vergelijkt wanneer de Wijze van de Voltooiing van het project aan Handboek wordt geplaatst.
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # De status van een project wijzigen
 
-U kunt de status van een project handmatig wijzigen.
+<!--Audited: 02/2024-->
+
+U kunt de status van een project desgewenst handmatig bijwerken naar een andere status.
+
+U kunt de Status van een project aan een status manueel bijwerken die Volledige slechts vergelijkt wanneer de Wijze van de Voltooiing van het project aan Handboek wordt geplaatst.
+
+Anders markeert Adobe Workfront automatisch het project als voltooid wanneer alle taken en problemen van het project zijn voltooid en goedgekeurd.
+
+Voor meer informatie over de Wijze van de Voltooiing van het project, zie [Projecten bewerken](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ## Toegangsvereisten
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,25 +34,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nieuw: Standaard </p> 
+   of
+   <p>Huidig: Plan </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het bijwerken naar specifieke statussen
 
