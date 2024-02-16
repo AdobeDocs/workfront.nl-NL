@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,19 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a></p>
                         <p>U kunt nu bestaande weergave bewerken, logica overslaan en nieuwe logica toevoegen aan aangepaste formulieren in de bètaversie van de formulierontwerper. Met een eenvoudig te gebruiken logicaontwikkelaar kunt u definiëren welke velden worden weergegeven of overgeslagen op basis van selecties in het formulier.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 8 februari 2024<br /></p>
+                                <p>Voorvertoningsrelease: 8 februari 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle klanten: met de release van 24.2 (15 februari 2024)</span></p>
+                                <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor alle afnemers: TBD</p>
                             </li>
                         </ul>
                     </td>
