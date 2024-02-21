@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: d177f884a8754d0ced3d9c5d6f44c1b4964f1629
+source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
 workflow-type: tm+mt
-source-wordcount: '5087'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
    <td> <p>Probleem</p> </td> 
    <td> <p>Toewijzing van probleem</p> </td> 
    <td> <p>Gebruiker waaraan de uitgave is toegewezen</p> </td> 
-   <td> <p>Ik ben toegewezen aan een probleem.</p> <p>De uitgever ontvangt alleen een e-mailkennisgeving als de status van het project Actief is en de status van de uitgave niet Gesloten is of iets dat overeenkomt met Gesloten.</p> <p>Gebruikers met een licentie voor revisie of aanvragen ontvangen geen melding.</p> </td> 
+   <td> <p>Ik ben toegewezen aan een probleem.</p> <p>De uitgever ontvangt alleen een e-mailkennisgeving als de status van het project Actief is en de status van de uitgave niet Gesloten is of iets dat overeenkomt met Gesloten.</p> <p>Gebruikers met een licentie voor licht, contribuant, revisie of aanvraag ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
    <td> <p>Taak</p> </td> 
    <td> <p>Taaktoewijzing</p> </td> 
    <td> <p>Gebruiker die taak is toegewezen aan</p> </td> 
-   <td> <p>Ik ben ingesteld als de primaire ontvanger van een taak.</p> <p>De taakontvanger ontvangt een e-mailbericht als hij of zij de primaire ontvanger van de taak is, tenzij de ontvanger de gebruiker is die de taak heeft uitgevoerd.</p> <p>Er wordt een melding verzonden als de projectstatus Huidig is en de taak niet is gemarkeerd als Voltooid.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Ik ben ingesteld als de primaire ontvanger van een taak.</p> <p>De taakontvanger ontvangt een e-mailbericht als hij of zij de primaire ontvanger van de taak is, tenzij de ontvanger de gebruiker is die de taak heeft uitgevoerd.</p> <p>Er wordt een melding verzonden als de projectstatus Huidig is en de taak niet is gemarkeerd als Voltooid.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -131,14 +131,14 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
    <td> <p>Tijdschema</p> </td> 
    <td> <p>Tijdschema opnieuw geopend</p> </td> 
    <td> <p>Gebruiker tot wie timesheet behoort</p> </td> 
-   <td> <p>Mijn tijdspagina wordt opnieuw geopend.</p> <p>De eigenaar van de tijdpagina ontvangt een e-mailbericht wanneer de tijdpagina opnieuw wordt geopend, tenzij de gebruiker die de tijdpagina opnieuw heeft geopend ook de eigenaar van de tijdpagina is.</p> <p>Er wordt alleen een e-mailmelding verzonden als de status van het tijdschrift Open is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Mijn tijdspagina wordt opnieuw geopend.</p> <p>De eigenaar van de tijdpagina ontvangt een e-mailbericht wanneer de tijdpagina opnieuw wordt geopend, tenzij de gebruiker die de tijdpagina opnieuw heeft geopend ook de eigenaar van de tijdpagina is.</p> <p>Er wordt alleen een e-mailmelding verzonden als de status van het tijdschrift Open is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tijdschema</p> </td> 
    <td> <p>Tijdschema afwijzen</p> </td> 
    <td> <p>Gebruiker tot wie timesheet behoort</p> </td> 
-   <td> <p>Mijn tijdschema wordt verworpen.</p> <p>De eigenaar van de tijdpagina ontvangt een e-mailbericht wanneer de tijdpagina wordt afgewezen, tenzij de gebruiker die de tijdpagina heeft afgewezen ook de eigenaar is.</p> <p>Er wordt alleen een e-mailmelding verzonden als de status van het tijdschrift is geweigerd.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Mijn tijdschema wordt verworpen.</p> <p>De eigenaar van de tijdpagina ontvangt een e-mailbericht wanneer de tijdpagina wordt afgewezen, tenzij de gebruiker die de tijdpagina heeft afgewezen ook de eigenaar is.</p> <p>Er wordt alleen een e-mailmelding verzonden als de status van het tijdschrift is geweigerd.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -152,14 +152,14 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
    <td> <p>Toewijzing</p> </td> 
    <td> <p>Aanvraag voor tijdelijk object</p> </td> 
    <td> <p>Teamleden voor wie het punt wordt gevraagd</p> </td> 
-   <td> <p>Mijn team krijgt een nieuwe werkaanvraag.</p> <p>De Leden van het team ontvangen een e-mailbericht wanneer het team een nieuw het werkverzoek ontvangt. (De gebruiker die het verzoek heeft ingediend, ontvangt geen melding als hij of zij lid is van het team.)</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment dat het werkverzoek wordt gedaan en de status Werkverzoek Nieuw is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Mijn team krijgt een nieuwe werkaanvraag.</p> <p>De Leden van het team ontvangen een e-mailbericht wanneer het team een nieuw het werkverzoek ontvangt. (De gebruiker die het verzoek heeft ingediend, ontvangt geen melding als hij of zij lid is van het team.)</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment dat het werkverzoek wordt gedaan en de status Werkverzoek Nieuw is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Toewijzing</p> </td> 
    <td> <p>Aanvraag voor tijdelijk object</p> </td> 
    <td> <p>Gebruiker voor wie het werkitem is aangevraagd</p> </td> 
-   <td> <p>Ik krijg een nieuw verzoek om werk.</p> <p>De ontvanger van het werkitem ontvangt een e-mailbericht, tenzij de gebruiker die het verzoek indient ook de ontvanger is. </p> <p>Er wordt geen melding verzonden als de taakstatus Voltooid is of als de uitgiftestatus is gesloten.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment van de aanvraag.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Ik krijg een nieuw verzoek om werk.</p> <p>De ontvanger van het werkitem ontvangt een e-mailbericht, tenzij de gebruiker die het verzoek indient ook de ontvanger is. </p> <p>Er wordt geen melding verzonden als de taakstatus Voltooid is of als de uitgiftestatus is gesloten.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment van de aanvraag.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
  </tbody> 
@@ -441,35 +441,35 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
    <td>Taak</td> 
    <td>Alle vorige taken voltooid</td> 
    <td>De leden van het team die aan afhankelijke taken worden toegewezen</td> 
-   <td> <p>Alle voorgangers van de taken van het team worden voltooid.</p> <p>De taakwijzers (alle leden van het team) ontvangen een e-mailbericht.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Alle voorgangers van de taken van het team worden voltooid.</p> <p>De taakwijzers (alle leden van het team) ontvangen een e-mailbericht.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td>Inactief</td> 
   </tr> 
   <tr> 
    <td> <p>Taak</p> </td> 
    <td> <p>Alle vorige taken voltooid</p> </td> 
    <td> <p>Gebruiker toegewezen aan afhankelijke taken</p> </td> 
-   <td> <p>Alle voorgangers van mijn taken zijn voltooid.</p> <p>De toegewezen taak ontvangt een e-mailbericht.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Alle voorgangers van mijn taken zijn voltooid.</p> <p>De toegewezen taak ontvangt een e-mailbericht.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Probleem</p> </td> 
    <td> <p>Goedkeuringsbesluit</p> </td> 
    <td> <p>Gebruiker waaraan de uitgave is toegewezen</p> </td> 
-   <td> <p>Een kwestie die ik heb opgelost, wordt goedgekeurd of verworpen.</p> <p>De ontvanger van een afgifte ontvangt een e-mailkennisgeving wanneer een goedkeuringsbesluit wordt genomen (goedgekeurd of afgewezen).</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een kwestie die ik heb opgelost, wordt goedgekeurd of verworpen.</p> <p>De ontvanger van een afgifte ontvangt een e-mailkennisgeving wanneer een goedkeuringsbesluit wordt genomen (goedgekeurd of afgewezen).</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak</p> </td> 
    <td> <p>Goedkeuringsbesluit</p> </td> 
    <td> <p>Gebruiker waaraan de taak is toegewezen</p> </td> 
-   <td> <p>Een taak die ik heb voltooid, wordt goedgekeurd of verworpen.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak wordt goedgekeurd of afgewezen.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een taak die ik heb voltooid, wordt goedgekeurd of verworpen.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak wordt goedgekeurd of afgewezen.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Probleem</p> </td> 
    <td> <p>Probleem opgelost</p> </td> 
    <td> <p>Gebruiker waaraan de uitgave is toegewezen</p> </td> 
-   <td> <p>Een probleem waaraan ik ben toegewezen, is voltooid.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een probleem waaraan ik ben toegewezen, is voltooid.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
    <td> <p>Probleem</p> </td> 
    <td> <p>Status van uitgave wijzigen</p> </td> 
    <td> <p>Gebruiker waaraan de uitgave is toegewezen</p> </td> 
-   <td> <p>De status verandert op een van mijn werkitems.</p> <p>De ontvanger van de uitgave ontvangt een e-mailbericht wanneer de status verandert, tenzij de gebruiker die de status heeft gewijzigd ook de ontvanger is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>De status verandert op een van mijn werkitems.</p> <p>De ontvanger van de uitgave ontvangt een e-mailbericht wanneer de status verandert, tenzij de gebruiker die de status heeft gewijzigd ook de ontvanger is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
@@ -497,14 +497,14 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
    <td> <p>Taak</p> </td> 
    <td> <p>Taak voltooien</p> </td> 
    <td> <p>Gebruiker waaraan de taak is toegewezen</p> </td> 
-   <td> <p>Een taak waaraan ik ben toegewezen, is voltooid.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak is voltooid. Meldingen worden niet verzonden wanneer een persoonlijke taak is voltooid.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een licentie voor een revisie of aanvrager ontvangen geen melding.</p> </td> 
+   <td> <p>Een taak waaraan ik ben toegewezen, is voltooid.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de taak is voltooid. Meldingen worden niet verzonden wanneer een persoonlijke taak is voltooid.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een licentie voor licht, medewerker, revisie of aanvrager ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak</p> </td> 
    <td> <p>Taak voltooien</p> </td> 
    <td> <p>Gebruiker toegewezen aan afhankelijke taak</p> </td> 
-   <td> <p>Een voorganger van een van mijn taken is voltooid.</p> <p>De toegewezen taak ontvangt een e-mailbericht wanneer een van de voorgangers van hun taak is voltooid.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een voorganger van een van mijn taken is voltooid.</p> <p>De toegewezen taak ontvangt een e-mailbericht wanneer een van de voorgangers van hun taak is voltooid.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
    <td> <p>Taak</p> </td> 
    <td> <p>Wijziging taakstatus</p> </td> 
    <td> <p>Gebruiker waaraan de taak is toegewezen</p> </td> 
-   <td> <p>De status verandert op een taak waaraan ik ben toegewezen.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de status van de taak verandert, tenzij de gebruiker die de status heeft gewijzigd ook de ontvanger is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding. </p> </td> 
+   <td> <p>De status verandert op een taak waaraan ik ben toegewezen.</p> <p>De taakontvanger ontvangt een e-mailbericht wanneer de status van de taak verandert, tenzij de gebruiker die de status heeft gewijzigd ook de ontvanger is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding. </p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
  </tbody> 
@@ -644,14 +644,14 @@ Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-b
    <td> <p>Document</p> </td> 
    <td> <p>Document toevoegen</p> </td> 
    <td> <p>Projecteigenaar</p> </td> 
-   <td> <p>Een document wordt toegevoegd aan een project dat ik bezit.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer een document aan het project wordt toegevoegd, tenzij de gebruiker die het document heeft toegevoegd ook de eigenaar van het project is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en het document niet Privé is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een document wordt toegevoegd aan een project dat ik bezit.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer een document aan het project wordt toegevoegd, tenzij de gebruiker die het document heeft toegevoegd ook de eigenaar van het project is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en het document niet Privé is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Probleem</p> </td> 
    <td> <p>Probleem toevoegen</p> </td> 
    <td> <p>Projecteigenaar</p> </td> 
-   <td> <p>Een kwestie wordt toegevoegd aan een project ik bezit.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer een uitgave aan het project wordt toegevoegd.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een kwestie wordt toegevoegd aan een project ik bezit.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer een uitgave aan het project wordt toegevoegd.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-b
    <td> <p>Probleem</p> </td> 
    <td> <p>Probleem opgelost</p> </td> 
    <td> <p>Projecteigenaar</p> </td> 
-   <td> <p>Er is een probleem met een project dat ik heb.</p> <p>De eigenaar van het project ontvangt een e-mailbericht.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Er is een probleem met een project dat ik heb.</p> <p>De eigenaar van het project ontvangt een e-mailbericht.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -714,7 +714,7 @@ Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-b
    <td> <p>Probleem</p> </td> 
    <td> <p>Niet-toegewezen probleem toevoegen</p> </td> 
    <td> <p>Projecteigenaar</p> </td> 
-   <td> <p>Een niet toegewezen kwestie wordt toegevoegd aan een project I bezit.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer een niet-toegewezen uitgave aan het project wordt toegevoegd.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een niet toegewezen kwestie wordt toegevoegd aan een project I bezit.</p> <p>De eigenaar van het project ontvangt een e-mailbericht wanneer een niet-toegewezen uitgave aan het project wordt toegevoegd.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig of Planning is.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
  </tbody> 
@@ -878,7 +878,7 @@ Zie ook [Meldingen: Diverse informatie](../../../workfront-basics/using-notifica
    <td> <p>Projectgebruiker</p> </td> 
    <td> <p>Projectgebruiker toevoegen</p> </td> 
    <td> <p>Eigenaar van resource</p> </td> 
-   <td> <p>Een van mijn mensen is toegevoegd aan een project.</p> <p>Een manager ontvangt een e-mailbericht wanneer een van zijn of haar directe rapporten aan een project wordt toegevoegd.</p> <p>Gebruikers met een Revisielicentie ontvangen geen melding.</p> </td> 
+   <td> <p>Een van mijn mensen is toegevoegd aan een project.</p> <p>Een manager ontvangt een e-mailbericht wanneer een van zijn of haar directe rapporten aan een project wordt toegevoegd.</p> <p>Gebruikers met een licentie voor licht of revisie ontvangen geen melding.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
