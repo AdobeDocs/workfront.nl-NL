@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: E-mailberichten beantwoorden
 description: U kunt reageren op Workfront-e-mailmeldingen die zijn gegenereerd vanuit opmerkingen die zijn gemaakt voor projecten, taken, problemen en andere objecten, om reacties toe te voegen op de oorspronkelijke opmerkingen die zijn gemaakt in de Adobe Workfront-toepassing.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,11 @@ U kunt op de volgende manieren reageren op een update van een e-mailmelding:
 * Gebruik de knop Opmerking in het e-mailbericht om terug te navigeren naar Workfront en de update te beantwoorden in het gedeelte Updates.
 * Reageren op het e-mailbericht dat u ontvangt. Uw antwoordbericht wordt toegevoegd als Workfront-antwoord op de oorspronkelijke opmerking.
 
+<!--
 >[!NOTE]
 >
->Beantwoorden op updates via e-mail is niet beschikbaar voor omgevingen op cluster 6.
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 U kunt reageren op Workfront-e-mailberichten die worden gegenereerd op basis van opmerkingen die zijn gemaakt voor de volgende objecten:
 
