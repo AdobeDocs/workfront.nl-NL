@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 0%
@@ -275,12 +275,12 @@ ht-degree: 0%
             * [20.3 Integratie en mobiele verbeteringen](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 andere verbeteringen](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * 20.2 release {#release-20-2}
-            * [Overzicht van de release 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [Verbeteringen voor mobiele apparaten van 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [2020.2 andere verbeteringen](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [2020.2 Projectverbeteringen](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [2020.2 Verbeteringen voor proefdrukken](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [2020.2 Verbeteringen voor bronnenbeheer: de werklastbalans](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [Overzicht van de release 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [Verbeteringen voor mobiele apparaten van 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2 andere verbeteringen](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [2020.2 Projectverbeteringen](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [2020.2 Verbeteringen voor proefdrukken](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [2020.2 Verbeteringen voor bronnenbeheer: de werklastbalans](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * 20.1-release {#release-20-1}
             * [Overzicht van de release 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [2020.1 List enhancements](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 0%
             * [2020.1 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Andere Klassieke Workfront-functies die vóór de release van 2020.1 naar Production zijn uitgebracht](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * release 2019.4 {#release-19-4}
-            * [Overzicht van de release 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [2019.4 List enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [2019.4 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [2019.4 andere verbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [2019.4 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [Andere Klassieke Workfront-functies die vóór de release van 2019.4 naar Production zijn uitgebracht](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [Overzicht van de release 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [2019.4 List enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [2019.4 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [2019.4 andere verbeteringen](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [2019.4 Verbeteringen in het beheer van hulpbronnen](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [Andere Klassieke Workfront-functies die vóór de release van 2019.4 naar Production zijn uitgebracht](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * release 2019.3 {#release-19-3}
             * [Overzicht van releaseactiviteiten 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3 Verbeteringen voor middelenplanning](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
