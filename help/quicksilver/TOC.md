@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
+source-git-commit: 58fd8895bf7d6ff81ef7a916d2092c0507c1cc5d
 workflow-type: tm+mt
-source-wordcount: '13950'
+source-wordcount: '13954'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,10 @@ ht-degree: 0%
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
       * Versie 2024 Q2 {#release-24-q2}
          * [2024 Overzicht van de Q2-release](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
-         * [Verbeteringen van het Q2-project in 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
          * [2024 Q2 Beheerverbeteringen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024 Q2 Home-verbeteringen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
+         * [Verbeteringen van het Q2-project in 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [2024 Q2 Overige verbeteringen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md)
          * [Updates weergeven en weergeven tijdens de releaseperiode van 2024 Q2](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Versie 2024 Q1 {#release-24-q1}
          * [Overzicht van de release 2024 Q1](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
@@ -656,7 +657,7 @@ ht-degree: 0%
          * [E-mails](administration-and-setup/manage-workfront/emails/emails.md)
          * [E-mailmeldingen: artikelindex](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Gebeurtenismeldingen configureren](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [Beschikbare gebeurtenismeldingen](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [Typen gebeurtenismeldingen](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Gebeurtenismeldingen voor alle groepen ontgrendelen](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [Gebeurtenismeldingsregels](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [Instellingen voor e-mailmeldingen van gebruikers wijzigen](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

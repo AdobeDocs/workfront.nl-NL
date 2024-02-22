@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
+* [Verbeteringen voor startpagina](#home-enhancements)
 * [Projectverbeteringen](#project-enhancements)
+* [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
 
@@ -52,6 +54,22 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         </p>
                     </td>
                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a></p>
@@ -66,7 +84,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor alle afnemers: TBD</p>
+                                <p>Productie voor driemaandelijkse release: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -162,7 +180,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                             </li>
                         </ul>
                     </td>
-                    </tr>
+                 </tr>
            </tbody>
         </table>
 
@@ -180,6 +198,42 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 22 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 22 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
