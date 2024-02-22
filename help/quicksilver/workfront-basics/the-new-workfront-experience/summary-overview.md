@@ -3,10 +3,11 @@ content-type: overview
 title: Overzicht van samenvattingen
 description: U kunt het deelvenster Samenvatting gebruiken om de gegevens van het werkitem rechtstreeks vanuit een lijst met taakproblemen, documenten of andere gebieden van [!DNL Adobe Workfront] die taken en problemen weergeven.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -68,9 +69,9 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
 
 In dit artikel wordt beschreven hoe u het dialoogvenster [!UICONTROL Summary] voor taken en problemen in lijsten.
 
-Voor informatie over de toegang tot [!UICONTROL Summary] in de [!UICONTROL Workload Balancer], zie [Werk-items bij in het dialoogvenster [!UICONTROL Workload Balancer] met de [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Voor informatie over de toegang tot van [!UICONTROL Summary] in de [!UICONTROL Workload Balancer], zie [Werk-items bij in het dialoogvenster [!UICONTROL Workload Balancer] met de [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Voor informatie over de toegang tot [!UICONTROL Summary] voor documenten, zie [[!UICONTROL Summary] voor documentoverzicht](../../documents/managing-documents/summary-for-documents.md).
+Voor informatie over de toegang tot van [!UICONTROL Summary] voor documenten, zie [[!UICONTROL Summary] voor documentoverzicht](../../documents/managing-documents/summary-for-documents.md).
 
 ## Toegangsvereisten
 
@@ -90,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL View] of betere toegang tot Taken, Kwesties, Documenten</p> <p>[!UICONTROL View] of betere toegang tot objecten waarvoor u documenten wilt bekijken.' [!UICONTROL Summary]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] of betere toegang tot Taken, Kwesties, Documenten</p> <p>[!UICONTROL View] of betere toegang tot objecten waarvoor u documenten wilt bekijken.' [!UICONTROL Summary]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -101,7 +102,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw [!DNL Workfront] beheerder.
 
-## De weergave van [!UICONTROL Summary] in een lijst met taken of problemen
+## De weergave [!UICONTROL Summary] in een lijst met taken of problemen
 
 1. Ga naar een taak of kwestie en selecteer een punt in de lijst.
 1. Klik op de knop **[!UICONTROL Summary]** pictogram ![](assets/qs-summary-in-new-toolbar-small.png)
@@ -116,7 +117,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >U kunt slechts één taak of één uitgave tegelijk selecteren om hun details in te zien in de [!UICONTROL Summary] deelvenster.
 
-   ![Het deelvenster Samenvatting](assets/summary-panel-for-task.png)
+   ![Het deelvenster Samenvatting](assets/summary-panel-for-task-new-comments.png)
 
 1. (Optioneel) Als u het dialoogvenster [!UICONTROL Summary] voert u een van de volgende handelingen uit:
 
@@ -126,29 +127,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      Klik op de knop **X** in de rechterbovenhoek van het dialoogvenster [!UICONTROL Summary] deelvenster.
 
-   * In de [!UICONTROL Submitted] van de [!UICONTROL Requests] gebied, klikt u op **[!UICONTROL Close Summary]** pictogram ![](assets/close-summary-with-text-nwe.png)
+   * In de [!UICONTROL Submitted] van de [!UICONTROL Requests] gebied, klik **[!UICONTROL Close Summary]** pictogram ![](assets/close-summary-with-text-nwe.png)
 
      of
 
-     Klik op de knop **X** in de rechterbovenhoek van het deelvenster Overzicht.
+     Klik op de knop **X** in de rechterbovenhoek van het deelvenster Samenvatting.
 
 ## [!UICONTROL Percent Complete]
 
 Gebruik de voortgangsbalk boven aan het dialoogvenster [!UICONTROL Summary] om het percentage bij te werken volledig voor de taak of kwestie die u hebt geselecteerd. Voer een getal in of sleep de balk naar het juiste percentage.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![Percentage voltooid in deelvenster Samenvatting](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
 Gebruik de [!UICONTROL Updates] van de [!UICONTROL Summary] om recente updates weer te geven en updates uit te voeren over de taak of uitgave die u hebt geselecteerd. Klikken **[!UICONTROL See all]** om rechtstreeks naar de [!UICONTROL Updates] op de taak.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documents]
 
-Gebruik de [!UICONTROL Documents] van de [!UICONTROL Summary] als u documenten wilt bekijken die zijn gekoppeld aan de geselecteerde taak of uitgave. Klik op de miniatuur om een documentvoorbeeld te openen. Ga rechtstreeks naar de [!UICONTROL Documents] op de taak of uitgave klikt u op de knop **[!UICONTROL Documents]** titel.
+Gebruik de [!UICONTROL Documents] van de [!UICONTROL Summary] als u documenten wilt bekijken die zijn gekoppeld aan de geselecteerde taak of uitgave. Klik op de miniatuur om een documentvoorbeeld te openen. Ga rechtstreeks naar de [!UICONTROL Documents] op de taak of uitgave klikt u op **[!UICONTROL Documents]** titel.
 
-![](assets/summary-overview-documents-350x84.png)
+![Sectie Documenten in deelvenster Samenvatting](assets/summary-documents-section.png)
 
 ## [!UICONTROL Details]
 
@@ -158,15 +159,15 @@ Gebruik de [!UICONTROL Details] van de [!UICONTROL Summary] als u de details van
 >
 >De velden in deze sectie zijn dezelfde velden die in het rechterdeelvenster van Home worden weergegeven. U kunt deze velden aanpassen [Aanpassen [!UICONTROL Home] en [!UICONTROL Summary] een lay-outsjabloon gebruiken](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![Sectie Details in het deelvenster Samenvatting](assets/summary-details-section.png)
 
 ## [!UICONTROL Subtasks]
 
-Deze sectie is alleen beschikbaar voor taken. Gebruik de [!UICONTROL Subtasks] van de [!UICONTROL Summary] om weer te geven [!UICONTROL New], [!UICONTROL In Progress], en [!UICONTROL Closed] subtaken op de taak u selecteerde. Klik op de knop **[!UICONTROL Status]** vervolgkeuzemenu voor het schakelen tussen statussen. Ga rechtstreeks naar de [!UICONTROL Subtasks] klikt u op de knop **[!UICONTROL Subtasks]**&#x200B; titel.
+Deze sectie is alleen beschikbaar voor taken. Gebruik de [!UICONTROL Subtasks] van de [!UICONTROL Summary] aan mening [!UICONTROL New], [!UICONTROL In Progress], en [!UICONTROL Closed] subtaken voor de taak u selecteerde. Klik op de knop **[!UICONTROL Status]** vervolgkeuzemenu voor het schakelen tussen statussen. Ga rechtstreeks naar de [!UICONTROL Subtasks] klikt u op de knop **[!UICONTROL Subtasks]**&#x200B; titel.
 
 Als u geen subtaken aan de taak hebt toegevoegd, klikt u op **[!UICONTROL Add one here]** om rechtstreeks naar de [!UICONTROL Subtasks] op de taak.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![Sectie Subtaken in het deelvenster Samenvatting](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Hours]
 
@@ -176,12 +177,12 @@ Het aantal uren in de [!UICONTROL Summary] geeft de uren weer die u zich aanmeld
 
 Als er geen plannen zijn [!UICONTROL hours] op de taak of de kwestie en u hebt het programma geopend, toont de urenbar rood.
 
-![](assets/summary-overview-hours-350x96.png)
+![Sectie Uren in deelvenster Samenvatting](assets/summary-hours-section.png)
 
 ## Goedkeuringen
 
 Gebruik de [!UICONTROL Approvals] van de [!UICONTROL Summary] om goedkeuringen weer te geven die zijn gekoppeld aan de geselecteerde taak of uitgave. Als u geen goedkeuring hebt toegevoegd, selecteert u een bestaande goedkeuring in het keuzemenu of klikt u op **[!UICONTROL Create single-use approval process]** om rechtstreeks naar de [!UICONTROL Approvals] op de taak of uitgave.
 
-Ga rechtstreeks naar de [!UICONTROL Approvals] op de taak of uitgave klikt u op de knop **[!UICONTROL Approvals]** titel.
+Ga rechtstreeks naar de [!UICONTROL Approvals] op de taak of uitgave klikt u op **[!UICONTROL Approvals]** titel.
 
-![](assets/summary-overview-approvals-350x122.png)
+![Sectie Goedkeuring in deelvenster Samenvatting](assets/summary-approvals-section.png)

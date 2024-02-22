@@ -3,9 +3,9 @@ navigation-topic: the-new-workfront-experience
 title: Pagina's vastzetten om uw werkruimte aan te passen
 description: U kunt uw belangrijkste werk vastzetten [!DNL Adobe Workfront] voor meer zichtbaarheid, betere organisatie en snellere toegang. Vastgezette pagina's zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 U kunt uw belangrijkste werk vastzetten in [!DNL Adobe Workfront] voor meer zichtbaarheid, betere organisatie en snellere toegang. Vastgezette pagina&#39;s zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
 
-U kunt aan een lay-outmalplaatje toewijzen dat pagina&#39;s reeds vastgezet (zoals die in wordt beschreven [Vastgezette pagina&#39;s aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Deze vooraf gedefinieerde punten kunnen niet worden hernoemd of verwijderd. Alle pagina&#39;s die u vastzet, worden rechts van de vooraf gedefinieerde punten weergegeven.
+U kunt aan een lay-outmalplaatje toewijzen dat pagina&#39;s reeds vastgezet (zoals die in wordt beschreven [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Deze vooraf gedefinieerde punten kunnen niet worden hernoemd of verwijderd. Alle pagina&#39;s die u vastzet, worden rechts van de vooraf gedefinieerde punten weergegeven.
 
 ## Toegangsvereisten
 

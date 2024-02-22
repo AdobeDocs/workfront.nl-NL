@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 0%
 >De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates van Workfront-objecten. Deze ervaring is niet beschikbaar wanneer u de objecten vanuit de volgende gebieden opent:
 >
 > * Home
-> * Samenvattingspaneel in lijsten
 > * Samenvattingspaneel in tijdbladen
 > * Het deelvenster Overzicht in het deelvenster Werklastverdeling
 
@@ -50,7 +49,7 @@ ht-degree: 0%
 
 De sectie Updates van een object toont systeemupdates en maximaal 200 van de meest recente updates die gebruikers hebben uitgevoerd in de afgelopen 90 dagen.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+![Sectie Updates](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de volgende ervaring vinden voor de sectie Updates:
 
@@ -90,7 +89,7 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 
 ### Overzicht van de sectie Updates in de nieuwe opmerkingervaring
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+![Sectie Updates](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 >[!NOTE]
 >
@@ -102,6 +101,7 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 
    * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 
 * De volgende objecten hebben geen tabblad Systeemactiviteit:
 
