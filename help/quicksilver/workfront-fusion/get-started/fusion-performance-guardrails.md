@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] naast een [!DNL Adobe Workfront license].
 
 Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront Fusion] is ontworpen voor hoge prestaties. Omdat langdurige scenario&#39;s het tempo van uw werk kunnen vertragen, hebben wij ontworpen [!DNL Workfront Fusion] met prestatiebestendige instructies die de uitvoeringstijd, gegevensgrootte en andere scenario-parameters beperken. [!DNL Workfront Fusion] ontwerpers dienen zich bewust te zijn van deze waarborgen en deze op te nemen in hun ontwerppraktijken.
+
+## Browsers
+
+Workfront Fusion ondersteunt alleen op Chrome gebaseerde browsers.
 
 ## Scenarios
 
