@@ -7,14 +7,16 @@ description: Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst w
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 9e05e0162386a2724b83051d05a53a9a2d7c7ab5
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
 # Overzicht van documenten
+
+{{highlighted-preview}}
 
 Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst werken met belangrijke informatie.
 
@@ -38,7 +40,7 @@ U moet het volgende hebben:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -81,15 +83,23 @@ Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het documen
 
 ## Updates
 
-In de sectie Updates kunt u een update lezen van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Voor meer informatie over updates raadpleegt u [Opmerking over een proefdruk](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+In de sectie Updates kunt u een update lezen van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Zie voor meer informatie over updates [Opmerking over een proefdruk](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
+<div class="preview">
+
+Voorbeeld van updates in de voorvertoningsomgeving:
+![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-section-new-comments.png)
+
+</div>
+
+Voorbeeld van updates in de productieomgeving:
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Goedkeuringen
 
 Gebruik de sectie Goedkeuringen om goedkeuring van een document te vragen. U kunt iemand ook herinneren aan een goedkeuring, de goedkeuring opnieuw voorleggen en de vorige beslissing annuleren, of de goedkeuring schrappen. fiatteurs van documenten kunnen de samenvatting gebruiken om een beslissing te nemen.
 
-Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. Voor meer informatie over goedkeuringen raadpleegt u
+Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. Zie voor meer informatie over goedkeuringen
 
 * [Goedkeuring van de werkzaamheden](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)

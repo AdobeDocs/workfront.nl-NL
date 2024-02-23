@@ -6,14 +6,16 @@ description: U kunt het deelvenster Samenvatting openen in Workload Balancer om 
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Werk de werkitems in de werklastbalans bij met de samenvatting
+
+{{highlighted-preview}}
 
 U kunt het paneel Overzicht van een taak of een kwestie gebruiken om belangrijke informatie voor dat punt bij te werken. in het werklastevenwicht.
 
@@ -68,11 +70,11 @@ U moet het volgende hebben:
 
    Ga naar de **Toegewezen werk** , een gebruiker uitvouwen en een tijdelijk item zoeken.
 
-1. Klik op de balk van een taak of uitgave om het deelvenster Samenvatting aan de rechterkant te openen
+1. Klik op de balk van een taak of uitgave om het deelvenster Samenvatting aan de rechterkant te openen.
 
    of
 
-   Klikken **Samenvatting openen** pictogram ![](assets/summary-panel-icon.png)klikt u vervolgens op de balk van een taak of uitgave om het deelvenster Overzicht te openen
+   Klikken **Samenvatting openen** pictogram ![](assets/summary-panel-icon.png)en klikt u vervolgens op de balk van een taak of uitgave om het deelvenster Samenvatting te openen.
 
    of
 
@@ -80,7 +82,15 @@ U moet het volgende hebben:
 
    Het deelvenster Samenvatting wordt aan de rechterkant geopend.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Voorbeeld van het deelvenster Samenvatting in de voorvertoningsomgeving:
+   ![Het deelvenster Samenvatting](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   Voorbeeld van het deelvenster Samenvatting in de productieomgeving:
+   ![Het deelvenster Samenvatting](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Wijzig een aantal gebieden voor het het werkpunt, ga een update in, of u navigeert van hier aan andere gebieden van Workfront om documenten of andere informatie aan het het werkpunt toe te voegen.
 
