@@ -7,15 +7,17 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
 
 
 # Overzicht van de sectie Updates
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,14 +44,25 @@ ht-degree: 0%
 >De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates van Workfront-objecten. Deze ervaring is niet beschikbaar wanneer u de objecten vanuit de volgende gebieden opent:
 >
 > * Home
+> * Samenvattingspaneel in lijsten
 > * Samenvattingspaneel in tijdbladen
 > * Het deelvenster Overzicht in het deelvenster Werklastverdeling
+>
+><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving.</span>
 
 ## Overzicht van de sectie Updates
 
 De sectie Updates van een object toont systeemupdates en maximaal 200 van de meest recente updates die gebruikers hebben uitgevoerd in de afgelopen 90 dagen.
 
+<div class="preview">
+
+Voorbeeld van de sectie Updates in de voorvertoningsomgeving:
 ![Sectie Updates](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+
+</div>
+
+Voorbeeld van de sectie Updates in de productieomgeving:
+![Sectie Updates](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de volgende ervaring vinden voor de sectie Updates:
 
@@ -89,19 +102,25 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 
 ### Overzicht van de sectie Updates in de nieuwe opmerkingervaring
 
+<div class="preview">
+
+Voorbeeld van de sectie Updates in de voorvertoningsomgeving:
 ![Sectie Updates](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+
+</div>
+
+Voorbeeld van de sectie Updates in de productieomgeving:
+![Sectie Updates](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
 >De nieuwe ervaring met opmerkingen is niet beschikbaar voor herhalingen.
 
-
 * In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
-
 
    * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+   * <span class="preview">**Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * De volgende objecten hebben geen tabblad Systeemactiviteit:
 

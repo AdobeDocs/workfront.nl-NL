@@ -5,14 +5,16 @@ description: U kunt het deelvenster Samenvatting gebruiken om de gegevens van he
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Summary] overzicht
+
+{{highlighted-preview}}
 
 U kunt de [!UICONTROL Summary] om de gegevens van het werkitem rechtstreeks vanuit een lijst met taakproblemen, documenten of andere gebieden van [!DNL Adobe Workfront] die taken en problemen weergeven.
 
@@ -117,7 +119,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >U kunt slechts één taak of één uitgave tegelijk selecteren om hun details in te zien in de [!UICONTROL Summary] deelvenster.
 
+   <div class="preview">
+
+   Voorbeeld van het deelvenster Samenvatting in de voorvertoningsomgeving:
    ![Het deelvenster Samenvatting](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Voorbeeld van het deelvenster Samenvatting in de productieomgeving:
+   ![Het deelvenster Samenvatting](assets/summary-panel-for-task.png)
 
 1. (Optioneel) Als u het dialoogvenster [!UICONTROL Summary] voert u een van de volgende handelingen uit:
 
@@ -143,7 +153,15 @@ Gebruik de voortgangsbalk boven aan het dialoogvenster [!UICONTROL Summary] om h
 
 Gebruik de [!UICONTROL Updates] van de [!UICONTROL Summary] om recente updates weer te geven en updates uit te voeren over de taak of uitgave die u hebt geselecteerd. Klikken **[!UICONTROL See all]** om rechtstreeks naar de [!UICONTROL Updates] op de taak.
 
+<div class="preview">
+
+Voorbeeld van updates in de voorvertoningsomgeving:
 ![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-section.png)
+
+</div>
+
+Voorbeeld van updates in de productieomgeving:
+![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documents]
 
