@@ -6,9 +6,9 @@ description: We raden u ten zeerste aan filters te gebruiken in Workload Balance
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2452'
+source-wordcount: '2488'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als middelmanager, kunt u de Balancer van de Werkbelasting gebruiken om de werkb
 >
 >We raden u ten zeerste aan filters te gebruiken in Workload Balancer om werkitems efficiënt te zoeken en u te concentreren op de gebruikers of items die u beheert. Hierdoor kunt u de juiste informatie weergeven voordat u de toewijzingen van uw bronnen gaat beheren.
 >
->Wanneer u een nieuw filter opslaat en toepast, navigeert u vervolgens weg van Workload Balancer, blijft het filter behouden, zelfs nadat u zich hebt afgemeld en weer hebt aangemeld.
+>Wanneer u een nieuw filter opslaat en toepast, navigeert u weg van de Werklastbalans, blijft het filter behouden, zelfs nadat u zich hebt afgemeld en weer hebt aangemeld.
 
 Dit artikel bevat informatie over filters in Workload Balancer. Voor informatie over filters in Workfront raadpleegt u [Overzicht van filters](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -205,6 +205,10 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
       > Wanneer u werkobjecten uit een bepaald portfolio wilt weergeven, kunt u het volgende filter toepassen: &quot;Naam van Portfolio bevat marketing.&quot; Dit toont het werkpunten die tot om het even welke portefeuille behoren die &quot;marketing&quot;in de naam bevat.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >Om projecten in een status van Op Greep uit te sluiten, moet u het volgende filter toepassen: &quot;Project: De status is niet gelijk aan Op Greep.&quot; Dit verhindert het werkpunten op de projecten van de Greep in de Balancer van de Werklast te tonen.
 
    1. (Optioneel) Klik op de knop **Verwijderen** pictogram ![](assets/delete.png) om filtercriteria te verwijderen.
 
