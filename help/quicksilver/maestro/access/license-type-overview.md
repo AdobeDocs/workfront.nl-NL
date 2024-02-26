@@ -4,7 +4,7 @@ description: Uw toegang tot Adobe Maestro hangt van uw vergunningstype, naast uw
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -43,8 +43,8 @@ In de volgende tabel wordt de relatie beschreven tussen het licentietype van een
 | Licentietype | Machtigingen voor Maestro-objecten |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nieuw: Standaard <br> of <br>Huidig: Plan | Gebruikers kunnen werkruimten, recordtypen en records maken en beheren. |
-| Nieuw: Licht <br> of <br>Huidige: werk en revisie | Gebruikers kunnen een werkruimte die met hen wordt gedeeld, en de recordtypen en records vanuit die werkruimte, toevoegen en weergeven.  Gebruikers kunnen records maken, bewerken en verwijderen in de werkruimten waar zij Contribute-machtigingen hebben. |
-| Nieuw: Medewerker <br> of <br>Huidig: Aanvrager | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes en verslagen van die werkruimten worden gedeeld. Gebruikers kunnen geen recordtypen of records maken, bewerken of verwijderen. |
+| Nieuw: Licht <br> of <br>Huidig: Werk | Gebruikers kunnen een werkruimte die met hen wordt gedeeld, en de recordtypen en records vanuit die werkruimte, toevoegen en weergeven.  Gebruikers kunnen records maken, bewerken en verwijderen in de werkruimten waar zij Contribute-machtigingen hebben. |
+| Nieuw: Medewerker <br> of <br>Huidige: revisor of aanvrager | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes en verslagen van die werkruimten worden gedeeld. Gebruikers kunnen geen recordtypen of records maken, bewerken of verwijderen. |
 
 
 
