@@ -9,14 +9,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
 
-# Kick-Starts-scenario: eenvoudige voorbereiding van project- en taakimport
+# Kick-Starts-scenario: eenvoudig project en taak de invoervoorbereiding
 
 Beschrijft in detail de beschikbare montages en de controles voor een basisProject en de Invoer van de Taak gebruikend de methode van het Begin van de Kick.
 
@@ -42,7 +42,7 @@ In dit scenario wordt ervan uitgegaan dat gebruikers al in Adobe Workfront zijn 
    | Groep | Marketing |
    | Bedrijf | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Voer het Systeem van u uit.
 
@@ -53,7 +53,7 @@ In dit scenario wordt ervan uitgegaan dat gebruikers al in Adobe Workfront zijn 
    | Groep | Marketing |
    | Bedrijf | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Documentbeheersysteem implementeren.
 
@@ -64,7 +64,7 @@ In dit scenario wordt ervan uitgegaan dat gebruikers al in Adobe Workfront zijn 
    | Groep | IT |
    | Bedrijf | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Nieuw kalendersysteem implementeren.
 
@@ -75,7 +75,7 @@ In dit scenario wordt ervan uitgegaan dat gebruikers al in Adobe Workfront zijn 
    | Groep | IT |
    | Bedrijf | *YourCompany* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ### Takenlijst {#task-list}
 
@@ -85,7 +85,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
 
 >[!NOTE]
 >
->De instructies in dit scenario zijn niet zo expliciet als de stapsgewijze instructies in [Kick-start-scenario: Bedrijf, Groep, Rol, en Gebruiker Kick-Begint Voorbereiding](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). De veronderstelling is u reeds hebt geleerd om waarden van het Bedrijf en de Bladen van de Groep op te zoeken en te kopiëren, zodat zullen deze stappen worden vermeld, maar niet specifiek geschetst.
+>De instructies in dit scenario zijn niet zo expliciet als de stapsgewijze instructies in [Kick-start Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). De veronderstelling is u reeds hebt geleerd om waarden van het Bedrijf en de Bladen van de Groep op te zoeken en te kopiëren, zodat zullen deze stappen worden vermeld, maar niet specifiek geschetst.
 
 1. Configureren.
 1. Importeer gebruikers.
@@ -112,7 +112,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
      </tr> 
      <tr> 
       <td role="rowheader">Percentage voltooid</td> 
-      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Documenten: 100%</p> <p>Kalender: 100%</p> </td> 
+      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Kalender: 100%</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -145,7 +145,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
      </tr> 
      <tr> 
       <td role="rowheader">Percentage voltooid</td> 
-      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Documenten: 100%</p> <p>Kalender: 100%</p> </td> 
+      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Kalender: 100%</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -178,7 +178,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
      </tr> 
      <tr> 
       <td role="rowheader">Percentage voltooid</td> 
-      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Documenten: 100%</p> <p>Kalender: 25%</p> </td> 
+      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Kalender: 25%</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -203,7 +203,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
      </tr> 
      <tr> 
       <td role="rowheader">Percentage voltooid</td> 
-      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Documenten: 50%</p> <p>Kalender: 100%</p> </td> 
+      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 50%</p> <p>Kalender: 100%</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -228,7 +228,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
      </tr> 
      <tr> 
       <td role="rowheader">Percentage voltooid</td> 
-      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Documenten: 50%</p> <p>Kalender: 0%</p> </td> 
+      <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 50%</p> <p>Kalender: 0%</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -238,7 +238,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
    | Prood | 1, 6, 7 |
    |---|---|
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Treingebruikers.
 
@@ -264,7 +264,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
      </tr> 
      <tr> 
       <td role="rowheader">Percentage voltooid</td> 
-      <td> <p>Workfront: 0%</p> <p>HR: 0%</p> <p>Documenten: 0%</p> <p>Kalender: 0%</p> </td> 
+      <td> <p>Workfront: 0%</p> <p>HR: 0%</p> <p>Docs: 0%</p> <p>Kalender: 0%</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -278,12 +278,7 @@ Ga naar de Kick-Starts pagina. Selecteer het Bedrijf, de Groep, het Project, de 
 Open het Workfront.xlsx-bestand dat u net hebt gedownload. Ga naar het PROJ-projectblad.
 
 ![](assets/im2-350x14.png)\
-Tenzij u reeds projecten in Workfront hebt gecreeerd, zou het leeg moeten zijn.\
-![](assets/im3-350x37.png)
-
->[!NOTE]
->
->U kunt overwegen om het gereedschap Deelvensters bevriezen van het werkblad te gebruiken en/of overbodige kolommen te verbergen of te verwijderen om het werkblad gebruiksvriendelijker te maken. Zorg er echter voor dat u de kolommen of kolommen die u later wilt gebruiken, niet verwijdert.
+Tenzij u reeds projecten in Workfront hebt gecreeerd, zou het leeg moeten zijn.
 
 ![](assets/im10-350x42.png)
 
@@ -297,11 +292,11 @@ Voer een unieke id in elke rij in voor de kolom Id. Gewoonlijk werken gehele get
 Voer de namen van elk project in de kolom setName in.
 * **Projectschema instellen**
 
-   Voer de id in van het programma dat u wilt gebruiken in het veld setScheduleID
+  Voer de id in van het programma dat u wilt gebruiken in het veld setScheduleID
 
 * **De geplande begindatum van het project instellen**
 
-   Voer de datum en de tijd in de kolom setPlannedStartDate in met de tijd en de datum waarop het project moet worden gestart. Als het project leeg wordt gelaten, importeert Workfront het met de datum van de huidige dag en een tijdstempel van middernacht van die dag volgens de tijdzone van de browser.
+  Voer de datum en de tijd in de kolom setPlannedStartDate in met de tijd en de datum waarop het project moet worden gestart. Als het project leeg wordt gelaten, importeert Workfront het met de datum van de huidige dag en een tijdstempel van middernacht van die dag volgens de tijdzone van de browser.
 
 * **Taaknummers instellen**
 De waarden van de input in de setTaskNumber kolom om de orde te controleren de taken in het projectplan zullen verschijnen.
@@ -314,7 +309,7 @@ Vul desgewenst andere gegevens in, zoals een beschrijving of de huidige status. 
 
 >[!NOTE]
 >
->Acceptabele waarden voor Status- en Prioriteitsvelden kunnen worden gevonden door de status en voorkeuren voor de prioriteit van elk object in het gedeelte Workflow Setup van Workfront te bekijken.
+>Acceptabele waarden voor de velden Status en Prioriteit kunnen worden gevonden door de status en voorkeuren voor de prioriteit van elk object in het gedeelte Workflow Setup van Workfront te bekijken.
 
 ## Gegevens invoertaak
 
@@ -339,7 +334,7 @@ Voer in elke rij een unieke id in voor de kolom Id.
 * **Namen instellen**
 Voer de taaknamen in de kolom setName in.
 * **Project-id bevestigen**
-Voer de id in die u instelt voor het Workfront-project implementeren; Controleer het PROJ-projectblad om te controleren of dit de juiste id is.
+Voer de id in die u instelt voor het Workfront-project Implementeren. Controleer het PROJ-projectblad om te controleren of deze de juiste id heeft.
 * **Gebruikers instellen**
 Ga naar het Gebruikersblad van de Gebruiker omhoog identiteitskaart voor de gebruiker te zoeken die aan elke taak wordt toegewezen en deze waarden in de respectieve cellen in de setAssignedToID kolom in te voeren.
 * **Taakrelaties identificeren**
@@ -347,33 +342,33 @@ Voor de taken 2 tot en met 5 voert u een 1 in de kolom setParentID in. Voer voor
 * **Duur instellen**
 Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voor de taak in te voeren in het veld setDuration. Voer vervolgens de tijdseenheid in het veld setDurationUnit in.
 
-   |  | Acceptabele waarde |
-   |---|---|
-   | Minuten | M |
-   | Uren | H |
-   | Dagen | D |
-   | Weken | W |
-   | Maanden | T |
+  |   | Acceptabele waarde |
+  |---|---|
+  | Minuten | M |
+  | Uren | H |
+  | Dagen | D |
+  | Weken | W |
+  | Maanden | T |
 
-   Minuten kunnen ook worden weergegeven als fractie van een uur (bijv. minuten = 5 uur)
+  Minuten kunnen ook worden weergegeven als fractie van een uur (bijv. minuten = 5 uur)
 
 * Stel de hoeveelheid inspanning voor elke taak in het veld setWorkRequired in. Voer vervolgens de werkeenheid in het veld setWorkUnit in. Als de waarde Vereist werk van de duur verschillend is, zult u ook A in het setDurationType gebied moeten invoeren.
 
-   | Duur | Acceptabele waarde |
-   |---|---|
-   | Berekende toewijzing | A |
-   | Berekend werk | W |
-   | Inzet gedreven | D |
-   | Eenvoudig | S |
+  | Duur | Acceptabele waarde |
+  |---|---|
+  | Berekende toewijzing | A |
+  | Berekend werk | W |
+  | Inzet gedreven | D |
+  | eenvoudig | S |
 
 * Voer de gehele numerieke representatie in van het percentage dat is voltooid in het veld setPercentComplete voor elke taak. Deze waarde mag het percentagesymbool (%) niet bevatten.
 * Voeg desgewenst een beschrijving en andere details toe voor elke taak die u maakt.
 
-   ![](assets/im5-350x35.png)
+  ![](assets/im5-350x35.png)
 
 * De kolommen setPlannedStartDate en setTaskConstraint worden niet gebruikt om de chronologie van dit project uit te bouwen omdat wij op predecessor verhoudingen vertrouwen. In plaats daarvan kunt u een datum invoeren voor elke taak. Als u dit doet, zeker ben u ook een geldige taakbeperking in de setTaskConstraint kolom verstrekt. Controleer de Taakbeperking en verwante artikelen voor details over geldige waarden voor dit gebied.
 
-   In het geval van dit scenario, is de gemakkelijkste manier om de taken voor de andere projecten uit te bouwen u invoert de taken kopieert u enkel bepaalde en hen kleeft hieronder, die op rij 12 beginnen. Dan zult u:
+  In het geval van dit scenario, is de gemakkelijkste manier om de taken voor de andere projecten uit te bouwen u invoert de taken kopieert u enkel bepaalde en hen kleeft hieronder, die op rij 12 beginnen. Dan zult u:
 
    1. De waarden in de kolom Id opnieuw nummeren.
    1. Werk de setProjectID-kolom bij naar de waarde die u instelt voor het volgende project.
@@ -383,4 +378,4 @@ Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voo
 
 * **Het Excel-bestand importeren**
 
-   Volg de aanwijzingen in [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Volg de aanwijzingen in [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
