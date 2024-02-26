@@ -6,14 +6,16 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
 
 # Doelopmerkingen beheren in Adobe Workfront-doelen
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -99,6 +101,14 @@ Hierdoor wordt de lijst met doelen geopend.
 1. Klikken  **Updates** in het linkerdeelvenster.
 1. (Optioneel) Typ een trefwoord om een bestaande opmerking te zoeken <!--or a user's name--> in de **Zoeken** in de rechterbovenhoek van het dialoogvenster **Opmerkingen** tab.
 
+   <div class="preview">
+
+   Voorbeeld in de voorvertoningsomgeving:
+   ![Zoeken naar opmerkingen](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   Voorbeeld in de productieomgeving:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    Het trefwoord <!--or user--> u hebt gezocht naar wordt benadrukt en de commentaren die het bevatten tonen bij de bovenkant van de sectie van Updates.
@@ -107,15 +117,22 @@ Hierdoor wordt de lijst met doelen geopend.
 
    >[!NOTE]
    >
-   >   U moet zoeken naar een woord dat is opgenomen in een opmerking of antwoord. U kunt niet zoeken naar een gecodeerde gebruiker of team.
+   >U moet zoeken naar een woord dat is opgenomen in een opmerking of antwoord. U kunt niet zoeken naar een gecodeerde gebruiker of team.
 
+   Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-
-1. Klik op de knop **x** in het zoekveld om de zoekresultaten te wissen en terug te keren naar het volledige venster.
+1. Klik op de knop **x** in het zoekveld om de zoekresultaten te wissen en terug te keren naar de volledige update.
 1. Klik op de knop **Opmerkingen** in de linkerbovenhoek van het gebied Updates.
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 
+   <div class="preview">
+
+   Nieuw commentaarvak in de voorvertoningsomgeving:
+   ![Nieuw opmerkingenvenster](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Voorbeeld van een nieuw commentaarvak in de productieomgeving:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -140,7 +157,7 @@ Hierdoor wordt de lijst met doelen geopend.
    >Als een andere gebruiker een opmerking verzendt naar hetzelfde item dat u bijwerkt, wordt er een rode lijn weergegeven met de indicator &quot;Nieuw&quot; om u op de hoogte te brengen van de nieuwere opmerkingen en wordt onder in het scherm een blauwe melding weergegeven die het aantal nieuwe opmerkingen aangeeft.
    >
    >De indicator wordt alleen weergegeven nadat de opmerking op het item is verzonden, en niet wanneer de opmerking nog steeds wordt samengesteld.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op **Meer** menu ![](assets/more-icon.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
 1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers.
@@ -172,4 +189,6 @@ U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quo
 1. (Optioneel) Klik op de knop **leuk** pictogram![](assets/like-icon.png) als u een opmerking wilt toevoegen die iemand anders heeft toegevoegd. Het pictogram wordt bijgewerkt met het aantal ‘like’.
 
 1. (Optioneel) Klik op de knop **Systeemactiviteit** om updates weer te geven die zijn geregistreerd door het systeem. Wanneer een doel wordt bijgewerkt, genereert Workfront een notitie over die update en geeft deze weer op het tabblad Systeemactiviteit. Workfront registreert ook een systeemupdate wanneer een resultaat, een activiteit, of een project aan het doel wordt toegevoegd of wanneer het wordt bijgewerkt. <!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">(Optioneel) Klik op de knop **Alles** -tabblad om zowel opmerkingen over de gebruikersactiviteit als opmerkingen over de systeemactiviteit op één plaats weer te geven. Als u wilt reageren op een opmerking op het tabblad Alles, klikt u **Reageren in opmerkingen** om de opmerking te openen op het tabblad Opmerkingen. U kunt niet reageren op het tabblad Alles.</span>
 
