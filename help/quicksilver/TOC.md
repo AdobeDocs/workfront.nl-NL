@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
 workflow-type: tm+mt
-source-wordcount: '13955'
+source-wordcount: '13959'
 ht-degree: 0%
 
 ---
@@ -2060,6 +2060,7 @@ ht-degree: 0%
       * [De tijdlijnweergave beheren](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
+   * [Sjabloon voor Fusion Access Table](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
    * Aan de slag met Adobe Workfront Fusion {#get-started-with-workfront-fusion}
       * [Aan de slag met Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion-overzicht](workfront-fusion/get-started/workfront-fusion-overview.md)
