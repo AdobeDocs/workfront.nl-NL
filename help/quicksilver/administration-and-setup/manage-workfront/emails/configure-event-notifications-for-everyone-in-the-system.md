@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ U moet eerst opgeven welke meldingen alle gebruikers moeten ontvangen in het ged
 
 Nadat meldingen zijn geactiveerd in het gedeelte Setup en worden weergegeven op de pagina&#39;s met gebruikersprofielen, kunnen afzonderlijke gebruikers of een andere gebruiker met een licentie voor het abonnement de geactiveerde meldingen ook configureren in een gebruikersprofiel om te bepalen welke meldingen specifieke gebruikers ontvangen en hoe vaak. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Ga voor een lijst met alle gebeurtenismeldingen die u kunt activeren en deactiveren naar [Gebeurtenismeldingen beschikbaar in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Ga voor een lijst met alle gebeurtenismeldingen die u kunt activeren en deactiveren naar [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Voor informatie over het ontgrendelen van een gebeurtenisbericht zodat de groepsbeheerders het voor hun groepen kunnen vormen, zie [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) en [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 

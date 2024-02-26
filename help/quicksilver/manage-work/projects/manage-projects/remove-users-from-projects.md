@@ -6,18 +6,18 @@ description: U kunt gebruikers uit een project verwijderen wanneer zij niet meer
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 301c86152340a184345bd39cec77fdcf28258196
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Gebruikers uit projecten verwijderen
 
-U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [Gebeurtenismeldingen beschikbaar in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Zie voor meer informatie over het projectteam [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ Wanneer een gebruiker uit een project wordt verwijderd, zouden om het even welke
 
 * **Als het item niet is voltooid wanneer de gebruiker wordt verwijderd:** Het punt wordt opnieuw toegewezen aan een baanrol als een baanrol reeds werd toegewezen, of het wordt toegewezen aan de baanrol de gebruiker op het punt vervulde. Als het item of de gebruiker geen taakrol heeft toegewezen, moet u het item handmatig opnieuw toewijzen.
 * **Als het item is voltooid wanneer de gebruiker wordt verwijderd:** De naam van de verwijderde gebruiker blijft op het item staan.
-* **Als de verwijderde gebruiker ook de maker van een project is:** Het project wordt niet verwijderd uit hun **Projecten waar ik aan sta** in het gebied Projecten. Het project wordt verwijderd uit de lijsten voor alle andere gebruikers die voor dat project door het Ingevoerde door gebied filtreren.
+* **Als de verwijderde gebruiker ook de maker van een project is:** Het project wordt niet verwijderd uit hun **Projecten waar ik aan sta** lijst in het gebied Projecten. Het project wordt verwijderd uit de lijsten voor alle andere gebruikers die voor dat project door het Ingegaan door gebied filtreren.
 * **Als de gebruiker de eigenaar of sponsor van het project is:** De gebruiker blijft in zijn rol als sponsor of eigenaar van het project.
 
 ## Verwijder gebruikers uit een project en het Team van het Project

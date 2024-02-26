@@ -6,9 +6,9 @@ description: Door uw tijdspagina ter goedkeuring in te dienen, krijgt uw manager
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De toegang van de mening of hoger tot Taken en Kwesties</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot of hoger weergeven voor Taken en problemen</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ### Een tijdschema ter goedkeuring indienen
 
-Nadat een fiatteur wordt geplaatst (zoals die in de sectie wordt beschreven [Goedkeuraars voor tijdlijnen aanwijzen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in het artikel [Een tijdschema goedkeuren](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), de **Sluiten** verandert de knop onder aan de tijdpagina in een **Ter goedkeuring verzenden** knop.
+Nadat een fiatteur wordt geplaatst (zoals beschreven in de sectie [Goedkeuraars voor tijdlijnen aanwijzen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in het artikel [Een tijdschema goedkeuren](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), **Sluiten** verandert de knop onder aan de tijdpagina in een **Ter goedkeuring verzenden** knop.
 
 Een tijdschema ter goedkeuring indienen:
 
@@ -65,7 +65,7 @@ Een tijdschema ter goedkeuring indienen:
 
    De **Ter goedkeuring verzenden** wordt vervangen door **Goedkeuren**, **Afwijzen**, en **Herstellen** knoppen. De status van de tijdlijn verandert in **Verzonden**.
 
-   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet fiatteur de timesheet die in wordt vermeld **Goedkeuringen** gebied op **Home** pagina. De volgende dingen kunnen voorkomen:
+   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet fiatteur de timesheet die in wordt vermeld **Goedkeuringen** gebied op het **Home** pagina. De volgende dingen kunnen zich voordoen:
 
    * Indien zij het goedkeuren, **Herstellen** knop verandert in **Opnieuw openen** en de statusupdates van het tijdsplaat **Openen**.
    * Als zij het afwijzen, **Ter goedkeuring verzenden** wordt vervangen door de knop **Herstellen** en de statusupdates voor het tijdsplaat worden bijgewerkt naar **Geweigerd**.
@@ -76,13 +76,13 @@ Een tijdschema ter goedkeuring indienen:
 
 U kunt de status van een tijdblad bekijken nadat u het hebt verzonden.
 
-Als de beheerder van Workfront de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker heeft toegelaten, wordt u op de hoogte gebracht nadat timesheet wordt goedgekeurd of verworpen. Voor informatie over het inschakelen van gebeurtenismeldingen raadpleegt u [Gebeurtenismeldingen beschikbaar in Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Als de beheerder van Workfront de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker heeft toegelaten, wordt u op de hoogte gebracht nadat timesheet wordt goedgekeurd of verworpen. Zie voor informatie over het inschakelen van gebeurtenismeldingen [Typen gebeurtenismeldingen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Zonder deze berichten, kunt u over de status van uw voorgelegde chronologie in het gebied van de Chronologie van Workfront leren.
 
 U kunt als volgt de status van een tijdblad weergeven:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 1. Klikken **Timesheets**. De **Alles** is standaard geselecteerd.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
@@ -91,15 +91,16 @@ U kunt als volgt de status van een tijdblad weergeven:
 
    * Selecteren **Goedkeuringen van mijn tijdsplaat** in de rechterbovenhoek van de pagina om alleen de door u goedgekeurde tijdbladen weer te geven
 
-      of
+     of
 
-      Selecteren **Mijn tijdbladen** om alleen uw tijdbladen weer te geven.
+     Selecteren **Mijn tijdbladen** om alleen uw tijdbladen weer te geven.
 
-      Dit past Mijn Goedkeuringen Timesheet of de Mijn filters Timesheet op de lijst van timesheets toe.
+     Dit past Mijn Goedkeuringen Timesheet of de Mijn filters Timesheet op de lijst van timesheets toe.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen, of creeer nieuwe. Voor informatie over het maken of bijwerken van filters raadpleegt u [Filters maken of bewerken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen, of creeer nieuwe. Zie voor informatie over het maken of bijwerken van filters [Filters maken of bewerken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >De Mijn Goedkeuringen Timesheet en Mijn opties Timesheets tonen niet bij de bovenkant van timesheet lijst of in de lijst van filters als uw beheerder van Workfront of een groepsbeheerder de Mijn Goedkeuringen Timesheet en de Mijn filters van Timesheets van of de Controles van de Lijst in het gebied van de Opstelling of van uw Malplaatje van de Lay-out verwijderde. Zie de volgende artikelen voor meer informatie:
@@ -107,7 +108,8 @@ U kunt als volgt de status van een tijdblad weergeven:
    >   
    >   
    >   * [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-
+   >   
+   >
 
 1. (Voorwaardelijk) Als u **Mijn tijdbladen** ervoor te zorgen dat de **Standaard** wordt toegepast en ziet u de **Status** kolom.
 
@@ -118,12 +120,12 @@ U kunt als volgt de status van een tijdblad weergeven:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Open</td> 
+      <td role="rowheader">Openen</td> 
       <td> <p>Uw timesheet is momenteel open en u kunt tijd registreren. </p> <p>Er wordt een teruggeroepen tijdlijnvenster weergegeven met de status Open. Zie voor meer informatie de <a href="#recall-a-timesheet" class="MCXref xref">Een tijdblad terugdraaien</a> in dit artikel. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verzonden</td> 
-      <td>U hebt uw tijdschema ter goedkeuring ingediend, maar het is nog niet goedgekeurd. U kunt een verzonden tijdsplaat herinneren om het te blijven uitgeven. Zie voor meer informatie de <a href="#recall-a-timesheet" class="MCXref xref">Een tijdblad terugdraaien</a> in dit artikel. </td> 
+      <td>U hebt uw tijdschema ter goedkeuring ingediend, maar het is nog niet goedgekeurd. U kunt een voorgelegde tijdkaart herinneren om het verder uit te geven. Zie voor meer informatie de <a href="#recall-a-timesheet" class="MCXref xref">Een tijdblad terugdraaien</a> in dit artikel. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gesloten</td> 
@@ -146,10 +148,10 @@ U kunt zich een overzicht herinneren dat reeds ter goedkeuring is voorgelegd. Al
 
 U kunt als volgt een tijdschema weergeven:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
 
 1. Klikken **Timesheets**.
-1. Klikken **Mijn tijdbladen** in de rechterbovenhoek van het scherm of selecteer **Mijn tijdbladen** van de **Filter** ![](assets/filter-nwepng.png) vervolgkeuzemenu.
+1. Klikken **Mijn tijdbladen** in de rechterbovenhoek van het scherm of selecteer **Mijn tijdbladen** van de **Filter** ![](assets/filter-nwepng.png) vervolgkeuzelijst.
 1. Klik het tijdkader voor een timesheet met een status van **Verzonden**.
 1. Klikken **Herstellen**.
 

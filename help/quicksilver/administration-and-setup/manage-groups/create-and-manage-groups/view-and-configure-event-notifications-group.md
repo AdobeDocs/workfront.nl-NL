@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Het vormen van een gebeurtenisbericht voor een groep beïnvloedt gebruikers voor
 
 Voor informatie over hoe een Workfront-beheerder een gebeurtenismelding ontgrendelt, raadpleegt u [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Voor informatie over de standaardmeldingsinstelling voor een gebeurtenis raadpleegt u [Gebeurtenismeldingen beschikbaar in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor informatie over de standaardmeldingsinstelling voor een gebeurtenis raadpleegt u [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## De gebeurtenismeldingen van een groep weergeven en configureren
 
-1. (Voorwaardelijk en optioneel) Als u Workfront-beheerder bent en u zich al op de pagina E-mailmeldingen bevindt (Setup > E-mail > Meldingen), kunt u het volgende doen en vervolgens stap 6 overslaan: Verwijderen **Systeemgebeurtenismeldingen** typ in het vak boven de lijst de naam van de groep in het vak en klik vervolgens op de naam wanneer deze wordt weergegeven.
+1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent en u zich al op de pagina E-mailmeldingen bevindt (Setup > E-mail > Meldingen), kunt u het volgende doen en verdergaan met stap 6: Verwijderen **Systeemgebeurtenismeldingen** typ in het vak boven de lijst de naam van de groep in het vak en klik vervolgens op de naam wanneer deze wordt weergegeven.
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
@@ -63,7 +63,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    In de lijst die wordt weergegeven, **Actief** in de linkerkolom wordt aangegeven welke meldingen actief (blauw) en inactief (grijs) zijn voor de groep.
 
-1. Een ontgrendelde gebeurtenismelding activeren of deactiveren: Klik op de knop in het dialoogvenster <strong>Actief</strong> te activeren kolom <img src="assets/email-notification-enabled-unlocked.png"> of deactiveren <img src="assets/email-notification-disabled-unlocked.png"> het.
+1. U activeert of deactiveert een ontgrendelde gebeurtenismelding door op de knop in het dialoogvenster <strong>Actief</strong> te activeren kolom <img src="assets/email-notification-enabled-unlocked.png"> of deactiveren <img src="assets/email-notification-disabled-unlocked.png"> het.
 
    >[!INFO]
    >
@@ -72,7 +72,6 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >* Als een knop in het dialoogvenster <strong>Actief</strong> de kolom is grijs en niet gedimd <img src="assets/email-notification-disabled-unlocked.png">, de gebeurtenis wordt gemeld <strong>gedeactiveerd voor alle gebruikers en</strong> groepsbeheerders kunnen deze activeren voor hun groepen.
    >* Als een knop in het dialoogvenster <strong>Actief</strong> kolom is blauw en is grijs <img src="assets/email-notification-enabled-locked.png">, wordt het gebeurtenisbericht geactiveerd voor alle gebruikers en groepsbeheerders kunnen het niet deactiveren of de e-mailonderwerpregel van het bericht voor hun groepen bewerken.
    >* Als een knop in het dialoogvenster <strong>Actief</strong> kolom is blauw en niet gedimd <img src="assets/email-notification-enabled-unlocked.png">, de gebeurtenis wordt gemeld <strong>geactiveerd voor alle gebruikers en</strong> groepsbeheerders kunnen deze voor hun groepen deactiveren.
-
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ De gebruikers worden ook automatisch toegevoegd aan het projectteam wanneer zij 
 
 Als de gebruikers die geen rol op het project vervullen over bepaalde updates of veranderingen tijdens het leven van het project op de hoogte willen worden gebracht, kunt u hen aan het projectteam manueel toevoegen.
 
-Voor meer informatie over welke berichten voor gebruikers op het projectteam kunnen worden toegelaten, zie [Gebeurtenismeldingen beschikbaar in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor meer informatie over welke berichten voor gebruikers op het projectteam kunnen worden toegelaten, zie [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
