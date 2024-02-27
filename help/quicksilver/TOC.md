@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
 workflow-type: tm+mt
-source-wordcount: '13959'
+source-wordcount: '13967'
 ht-degree: 0%
 
 ---
@@ -940,8 +940,9 @@ ht-degree: 0%
          * [Uw Adobe Workfront-account beheren](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Aanmelden bij Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Afmelden bij Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [E-mailuitnodigingen ontvangen en een wachtwoord voor Adobe Workfront maken](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [Het wachtwoord van een gebruiker opnieuw instellen met uitgebreide verificatie](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [E-mailuitnodigingen ontvangen en een wachtwoord voor Adobe Workfront maken](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [Een account maken in [!DNL Adobe Workfront] als externe gebruiker](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [Wachtwoord opnieuw instellen](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * Mobiele apps {#mobile-apps}
       * [Mobiele apps](workfront-basics/mobile-apps/mobile-apps.md)
