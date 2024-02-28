@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5492'
+source-wordcount: '5502'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ De module retourneert alle standaardvelden die aan de record zijn gekoppeld, sam
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclusief gebeurtenissen die in dit verband worden gemaakt</td> 
-      <td>Schakel deze optie in om gebeurtenissen uit te sluiten die zijn gemaakt of bijgewerkt met dezelfde connector die deze triggermodule gebruikt. Dit kan situaties verhinderen waar een scenario zich zou teweegbrengen, veroorzakend het om in een eindeloze lijn te herhalen.</td> 
+      <td>Schakel deze optie in om gebeurtenissen uit te sluiten die zijn gemaakt of bijgewerkt met dezelfde connector die deze triggermodule gebruikt. Dit kan situaties verhinderen waar een scenario zich zou teweegbrengen, veroorzakend het om in een eindeloze lijn te herhalen.<p><b>OPMERKING</b>Deze optie is niet opgenomen in het recordtype Toewijzing.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
