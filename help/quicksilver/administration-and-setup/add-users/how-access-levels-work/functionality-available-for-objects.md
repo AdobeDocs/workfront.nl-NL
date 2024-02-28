@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
-Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of inschakelen via een toegangsniveau.
+Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of inschakelen met behulp van een toegangsniveau.
 
 ## Projecten
 
@@ -50,7 +50,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Risico&#39;s beheren | ✓ |   |   |   |
 | Financiering beheren | ✓ |   |   |   |
 | Kosten toevoegen/bewerken | ✓ |   |   |   |
-| Sjablonen koppelen | ✓ |   |   |   |
+| Sjablonen bijvoegen | ✓ |   |   |   |
 | Opslaan als sjabloon | ✓ |   |   |   |
 | Een bedrijfscase toevoegen/bewerken | ✓ |   |   |   |
 | Projectdetails bewerken | ✓ |   |   |   |
@@ -85,7 +85,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Een aangepast formulier bijvoegen | ✓ |   |   |   |
 | Aangepaste velden bewerken | ✓ |   |   |   |
 | Een goedkeuringsproces maken | ✓ |   |   |   |
-| Een taak goedkeuren | ✓ | ✓ |   |   |
+| Een taak goedkeuren | ✓ | ✓ | ✓ |   |
 | Financiën bewerken | ✓ |   |   |   |
 | Kosten toevoegen/bewerken | ✓ |   |   |   |
 | Financiering weergeven | ✓ | ✓ |   |   |
@@ -123,7 +123,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 &#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-## Portfolio
+## Portfolio&#39;s
 
 Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot portfolio&#39;s hebben.
 
@@ -227,8 +227,8 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 | Documenten goedkeuren | ✓ | ✓ | ✓ | ✓ |
 | Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ |   |
 | Aangepaste velden bewerken | ✓ | ✓ | ✓ |   |
-| Verplaatsen naar (object) | ✓ | ✓ | ✓ |   |
-| Verzenden naar (integratie) | ✓ | ✓ | ✓ |   |
+| Naar (object) | ✓ | ✓ | ✓ |   |
+| Naar (integratie) | ✓ | ✓ | ✓ |   |
 | Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ |   |
 | Nieuwe versie uploaden | ✓ | ✓ | ✓ |   |
 | Een versie verwijderen | ✓ | ✓ | ✓ |   |
@@ -329,7 +329,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 | Projectprioriteiten weergeven in de functie voor middelenplanner | ✓&#42; |   |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel | ✓&#42; | ✓&#42; |   |   |
 | Brongroepen weergeven | ✓&#42; | ✓&#42; |   |   |
-| De middelen van de begroting in de hulpmiddelen van de Planning van het Middel&#42;&#42; | ✓ |   |   |   |
+| De middelen van de begroting in de hulpmiddelen van de Planning van Middelen&#42;&#42; | ✓ |   |   |   |
 | Bronnenpools koppelen aan projecten, sjablonen en gebruikers | ✓ |   |   |   |
 
 {style="table-layout:auto"}
@@ -359,7 +359,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 
 &#42; Gebruikers die financiële gegevens in een plan of initiatief willen bekijken, hebben toegang tot financiële gegevens nodig. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-## Gebied Workfront-doelen
+## Gebied met Workfront-doelen
 
 <!-- ask Alina about this section -->
 
