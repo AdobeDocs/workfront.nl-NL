@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Deze sectie bevat de volgende artikelen:
 * [Een scenario plannen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)
 * [Een scenario activeren of deactiveren in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
 * [Een filter toevoegen aan een scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
+* [Een module genereren met behulp van AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
 * [Foutopsporingsscenario&#39;s met de [!DNL Adobe Workfront Fusion] DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
 * [Scenario-sjablonen](../../workfront-fusion/scenarios/templates/fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] voorbeeld: Connect-e-mail, [!UICONTROL Text Parser], en [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
