@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
+source-git-commit: 8510cd13b941d2a3d679e3b99f5ea96c591ee0d8
 workflow-type: tm+mt
-source-wordcount: '13971'
+source-wordcount: '13982'
 ht-degree: 0%
 
 ---
@@ -1788,18 +1788,20 @@ ht-degree: 0%
       * [Goedkeuringsaanvraag delegeren](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Recentere ingediende goedkeuringen](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Documentrevisies en -goedkeuringen {#document-reviews-and-approvals}
-      * [Documentrevisies en -goedkeuringen](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * Documentcontrole en -goedkeuring {#document-reviews-and-approvals}
+      * [Documentcontrole en -goedkeuring](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Overzicht van documentgoedkeuringen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * Documentgoedkeuringen beheren {#manage-document-approvals}
-         * [Documentgoedkeuringen beheren](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+      * Documenten controleren {#review-and-approve-documents}
+         * [Documenten controleren: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [Workfront en Frame.io verbinden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
+         * [Frame.io-element toevoegen aan een verbonden Workfront-project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * [Documenten goedkeuren]{#approve-documents}
+         * [Documenten goedkeuren: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [Een documentgoedkeuring maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Extra revisoren of fiatteurs toevoegen aan een document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [fiatteurs of revisoren uit een document verwijderen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Goedkeuringsstatus document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * Documenten beoordelen en goedkeuren {#review-and-approve-documents}
-         * [Documenten beoordelen en goedkeuren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
-         * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Een document goedkeuren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Proofing {#proofing}
       * [Proofing: artikelindex](review-and-approve-work/proofing/proofing.md)

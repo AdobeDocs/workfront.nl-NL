@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,6 @@ Als u Goedkeuringen voor nieuwe documenten wilt inschakelen in uw productieomgev
 
 ## Goedkeuringen van nieuwe documenten gebruiken
 
-Raadpleeg de artikelen in de lijst voor gebruikers die documentgoedkeuringen willen maken of beheren [Documentgoedkeuringen beheren](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+Raadpleeg de artikelen in de lijst voor gebruikers die documentgoedkeuringen willen maken of beheren [Documenten goedkeuren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in [Documenten beoordelen en goedkeuren](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).
+Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in [Documenten controleren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
