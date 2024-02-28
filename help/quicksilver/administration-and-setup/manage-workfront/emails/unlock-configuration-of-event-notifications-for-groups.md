@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen
 description: Als u een Adobe Workfront-beheerder bent, kunt u de mogelijkheid voor groepsbeheerders ontgrendelen of opnieuw vergrendelen om een gebeurtenismelding te configureren voor groepen op hoofdniveau die zij beheren. Configuratie van een gebeurtenismelding bestaat uit het activeren of deactiveren ervan.
-author: Lisa, Caroline
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%

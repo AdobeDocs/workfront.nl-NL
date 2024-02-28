@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2288'
 ht-degree: 0%
 
 ---
@@ -264,10 +264,6 @@ Een filter toevoegen aan een tabelweergave:
 
      In de onderstaande tabel worden de beschikbare wijzigingstoetsen voor elk veldtype weergegeven.
 
-     >[!TIP]
-     >
-     > U kunt geen gekoppelde velden selecteren. Zie voor meer informatie [Velden maken](../fields/create-fields.md).
-
      <table>
         <thead>
         <tr>
@@ -370,15 +366,11 @@ Overweeg het volgende:
 Een groep toevoegen:
 
 1. Een tijdlijnweergave maken voor een recordtype, zoals beschreven in het artikel [Recordweergaven beheren](../views/manage-record-views.md).
-1. Klikken **Groepering** in de rechterbovenhoek van de tijdlijnweergave.
+1. Klikken **Groepering** rechtsboven in de tabelweergave.
 
-   ![](assets/grouping-ui-table-view.png)
+   ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Klik op een van de voorgestelde velden of klik op **Een ander veld kiezen**, zoek naar een ander veld en klik op het veld wanneer het in de lijst wordt weergegeven.
-
-   >[!TIP]
-   >
-   >U kunt geen gekoppelde velden selecteren.
 
    De groepering wordt automatisch toegepast op de tabel en records worden weergegeven onder de scheidingslijn voor cijfergroepering.
 
@@ -428,6 +420,7 @@ Sorteren <!--ungrouped (add this when sorting for groupings will be available-->
    of
 
    Houd de muis boven de naam van een kolom in de tabelweergave en klik op de pijl omlaag rechts van de kolomkopnaam en klik vervolgens op **Sorteren op dit veld**. Het veld wordt als een sorteerselectie toegevoegd in het pictogram Sorteren rechtsboven in de tabelweergave.
+
 1. In de **Records sorteren op** klikt u op een van de voorgestelde velden of op **Een ander veld kiezen** en zoek naar een ander veld. Klik vervolgens op het veld wanneer het wordt weergegeven in de lijst.
 
    De sortering wordt automatisch toegepast op de tabelweergave en records worden gesorteerd op de geselecteerde criteria.
@@ -437,10 +430,6 @@ Sorteren <!--ungrouped (add this when sorting for groupings will be available-->
 1. (Optioneel) Herhaal bovenstaande stappen om te sorteren op extra velden.
 
    Het aantal velden dat u sorteert, wordt links van het pictogram Sorteren in de rechterbovenhoek van de werkbalk weergegeven. U kunt alleen velden kiezen die in de kolommen van de tabelweergave worden weergegeven.
-
-   >[!TIP]
-   >
-   > U kunt geen gekoppelde velden selecteren. Zie voor meer informatie [Velden maken](../fields/create-fields.md).
 
 1. (Optioneel) In het dialoogvenster **Records sorteren op** klikt u op **x** pictogram rechts van een sorteerveld om de sortering te verwijderen
 

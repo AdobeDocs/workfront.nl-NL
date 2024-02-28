@@ -5,11 +5,11 @@ keywords: wijzigen,e-mail,melding,instellingen,bulk,bulkbewerking,configureren,m
 navigation-topic: emails-administration
 title: Instellingen voor e-mailmeldingen van meerdere gebruikers wijzigen
 description: Dit artikel bevat informatie voor de Workfront of groepsbeheerders over hoe ze de e-mailmeldingen van andere gebruikers kunnen bijwerken.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

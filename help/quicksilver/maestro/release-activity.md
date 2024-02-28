@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >[!IMPORTANT]
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
+
+## Week van 26 februari 2024
+
+### Filteren, sorteren en groeperen op gekoppelde records of opzoekvelden
+
+Productie: 28 februari 2024
+
+Voorbeeld: te bepalen
+
+U kunt nu filteren, sorteren, en groeperen door verbonden verslagen of hun raadplegingsgebieden. Dankzij deze verbetering kunt u uw gegevens op efficiënte wijze ordenen en visualiseren in zowel de tabel- als de tijdlijnweergave.
+
+Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md) en [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Week van 5 februari 2024
 
@@ -124,7 +136,7 @@ Productie: 1 februari 2024
 
 Voorbeeld: te bepalen
 
-Om verwarring te vermijden en het beheer van werkruimten te vereenvoudigen, hebben wij auto-geproduceerde, klaar-slechts verslagtypekaarten voor verbonden niet-Maestro voorwerpen uit een werkruimte verwijderd.
+Om verwarring te voorkomen en het beheer van werkruimten te vereenvoudigen, hebben wij auto-geproduceerde, read-only verslagtypekaarten voor verbonden niet-Maestro voorwerpen uit een werkruimte verwijderd.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).

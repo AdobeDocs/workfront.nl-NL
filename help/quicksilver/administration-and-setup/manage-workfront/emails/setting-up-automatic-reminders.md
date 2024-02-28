@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Automatische herinneringen instellen
 description: Automatische herinneringen instellen
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klikken **E-mail** >**Automatische herinneringen**.
 
-1. In de **Een late melding verzenden naar** selecteert u een van de volgende opties:
+1. In de **Een laattijdige melding verzenden naar** selecteert u een van de volgende opties:
 
    <table>
     <tr>
         <td>De gebruiker "Toegewezen aan"</td>
-        <td>Selecteer deze optie als u wilt dat de gebruiker die aan een taak of kwestie wordt toegewezen een laat bericht over zijn het werkpunt ontvangt.</td>
+        <td>Selecteer deze optie als u wilt dat de gebruiker die aan een taak of kwestie wordt toegewezen een laat bericht over zijn het werkpunt ontvangt dat laat is.</td>
         <td></td>
     </tr>
     <tr>

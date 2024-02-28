@@ -2,13 +2,13 @@
 navigation-topic: notifications
 title: E-mailonderwerpen aanpassen voor gebeurtenismeldingen
 description: U kunt de onderwerpregel van de e-mails die worden geactiveerd door gebeurtenismeldingen aanpassen.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Sommige gebeurtenismeldingen hebben meerdere onderwerpregel&#39;s, wat betekent 
 >* Commentaar van het Punt van het werk aan de Deelnemers van de draad
 >* Opmerking voor werkitem om item toe te wijzen
 >
-
 
 ## Toegangsvereisten
 
@@ -77,13 +76,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Sommige gebeurtenismeldingen hebben meerdere onderwerpregel&#39;s, afhankelijk van de objecten die ze activeren.
 
-&#39;Iemand neemt me bijvoorbeeld op in een update die is gericht&#39;, heeft twee verschillende onderwerpregel: ten eerste voor taken, uitgaven, sjabloontaken en documenten (ook wel een &quot;referenceObject&quot; genoemd) en ten tweede voor objecten waarmee gebruikers opmerkingen kunnen maken, zoals een portfolio, programma, enzovoort (ook wel een &quot;topReferenceObject&quot; genoemd).
+&#39;Iemand neemt mij bijvoorbeeld op in een gestuurde update&#39; heeft twee verschillende onderwerpregel: ten eerste voor taken, uitgaven, sjabloontaken en documenten (ook wel &#39;referenceObject&#39; genoemd) en ten tweede voor objecten waarmee gebruikers opmerkingen kunnen maken, zoals een portfolio, programma, enzovoort (ook wel &#39;topReferenceObject&#39; genoemd).
 
 ![](assets/Ev-not-mult-subj-lines.png)
 
-Als een gebruiker in een gesprek over de taak, de kwestie, de malplaatjetaak, of het document inbegrepen is, zal een e-mail met de eerste onderwerpregel produceren. De onderwerpregel bevat &quot;referenceObject:name&quot; en het systeem definieert het object en geeft de juiste naam weer in het onderwerpveld. De onderwerpregel van de e-mail ziet er ongeveer als volgt uit: &quot;Commentaar op taak 123 op project ABC.&quot;
+Als een gebruiker in een gesprek over de taak, de kwestie, de malplaatjetaak, of het document inbegrepen is, zal een e-mail met de eerste onderwerpregel produceren. De onderwerpregel bevat &quot;referenceObject:name&quot; en het systeem definieert het object en geeft de juiste naam weer in het onderwerpveld. De e-mailonderwerpregel zou er ongeveer als volgt uitzien: &quot;Opmerking bij taak 123 op project ABC.&quot;
 
-Als toegevoegd aan een projectgesprek zal een e-mail met het tweede onderwerp produceren. Hier bevat de onderwerpregel &quot;topReferenceObject:name&quot; en Workfront identificeert opnieuw welk object werd genoemd en retourneert die objectnaam in plaats van &quot;topReferenceObject:name&quot; in het onderwerp. De onderwerpregel van de e-mail ziet er ongeveer als volgt uit: &quot;Commentaar op project ABC.&quot;
+Als toegevoegd aan een projectgesprek zal een e-mail met het tweede onderwerp produceren. Hier bevat de onderwerpregel &quot;topReferenceObject:name&quot; en Workfront identificeert opnieuw welk object werd genoemd en retourneert die objectnaam in plaats van &quot;topReferenceObject:name&quot; in het onderwerp. De onderwerpregel van de e-mail ziet er ongeveer als volgt uit: &quot;Opmerking over project ABC.&quot;
 
 Als u de onderwerpregel van de e-mail wilt bewerken en aanvullende velden wilt toevoegen aan de onderwerpregel, raadpleegt u [E-mailonderwerpregel aanpassen voor gebeurtenismeldingen](#customize-email-subject-lines-for-event-notifications) in dit artikel.
 
@@ -91,7 +90,7 @@ Als u de onderwerpregel van de e-mail wilt bewerken en aanvullende velden wilt t
 
 Sommige gebeurtenismeldingen hebben ook meerdere e-mailonderwerpen om de verschillende acties te beschrijven die op de objecten worden uitgevoerd.
 
-Het aanvragen van een document om toe te voegen aan een uitgave is bijvoorbeeld een gebeurtenis die twee verschillende e-mails kan activeren: één voor wanneer het document wordt toegevoegd, en één voor wanneer het document wordt uitgegeven.
+Het aanvragen van een document om aan een uitgave toe te voegen, is bijvoorbeeld een gebeurtenis die twee verschillende e-mails kan activeren: een gebeurtenis die aangeeft wanneer het document wordt toegevoegd en een gebeurtenis die aangeeft wanneer het document wordt bewerkt.
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
