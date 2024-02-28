@@ -6,9 +6,9 @@ description: Begroting en planning van projectmiddelen
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Zorg ervoor dat u het volgende doet terwijl u de planning voor uw projecten in A
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [Resourceplanning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Bronnen plannen:artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Aan de slag met de functie Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * Plan uw bronnen of wijs deze toe aan taken en problemen. Wanneer u uw middelen aan taken en kwesties toewijst kunt u gebruikers, teams, of rollen aan specifieke het werkpunten associëren die hen verantwoordelijk maken voor de voltooiing van deze punten. Zie voor meer informatie [Overzicht van werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

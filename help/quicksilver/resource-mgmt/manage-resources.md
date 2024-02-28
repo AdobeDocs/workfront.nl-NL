@@ -8,9 +8,9 @@ author: Alina
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,6 @@ ht-degree: 0%
 Deze sectie bevat de volgende subsecties:
 
 * [Bronbeheer](../resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-* [Resourceplanning in Adobe Workfront](../resource-mgmt/resource-planning/resource-planning-overview.md)
+* [Bronnen plannen: artikelindex](../resource-mgmt/resource-planning/resource-planning-overview.md)
 * [Hulpbronnengebruik](../resource-mgmt/resource-utilization/resource-utilization.md)
 * [De werklastbalans: artikelindex](../resource-mgmt/workload-balancer/workload-balancer.md)

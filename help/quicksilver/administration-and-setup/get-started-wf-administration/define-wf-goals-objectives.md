@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ U kunt dit bereiken in Workfront door het volgende te vormen:
 
 * Ontwikkel een proces voor de levering van de diensten en gebruik Workfront om taken te beheren verbonden aan om het even welke dag of wekelijkse verantwoordelijkheden.
 * Gebruik de hulpmiddelen van het Beheer van het Middel om de toewijzing van middelen aan taken te bekijken zodat kunt u beter begrijpen hoe te om productiviteit en kwaliteit van levering te verbeteren.\
-  Voor meer informatie over de Planning van het Middel, zie [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Voor meer informatie over de Planning van het Middel, zie [Bronnen plannen: artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Succescriteria definiëren
 

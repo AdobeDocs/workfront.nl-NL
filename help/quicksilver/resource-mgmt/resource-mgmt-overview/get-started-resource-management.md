@@ -7,9 +7,9 @@ description: Met resourcebeheer kunt u uw systeem zodanig configureren dat het g
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Workfront beschikt over verschillende gereedschapssets die worden gebruikt voor 
 
    * **De bronnenplanner**: U kunt de Planner van het Middel in de eerste fase van middelbeheer gebruiken om projecttijd voor uw middelen volgens hun geplande beschikbaarheid te begroten. Tijdens de planning van middelenfase, kunt u gebruikers in middelpools organiseren en veelvoudige middelpools aan een project toewijzen.
 
-     Voor meer informatie over de Planning van het Middel, zie [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Voor meer informatie over de Planning van het Middel, zie [Bronnen plannen: artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Scenario Planner**: Dit is een planning op hoger niveau van middelen die u toestaat om hen over veelvoudige initiatieven te beheren die zich over een één, drie, of vijf jaar plan kunnen uitstrekken en veelvoudige projecten omvatten. U kunt het beste scenario gebruiken om het beste uit hun beschikbaarheid en uw budget te halen.
 
@@ -118,7 +118,7 @@ Het beheer van bronnen in Workfront omvat de volgende fasen:
 
   Raadpleeg de volgende secties voor meer informatie over het plannen en toewijzen van resources:
 
-   * [Resourceplanning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Bronnen plannen: artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
    * [De werklastbalans: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md)
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Terwijl het op het baanrolniveau kan beginnen, uiteindelijk is het Beheer van Mi
 Deze sectie bevat de volgende artikelen en subsecties:
 
 * [Aan de slag met Resource Management](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-* [Resourceplanning in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
+* [Bronnen plannen: artikelindex](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [De werklastbalans: artikelindex](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [Resourcegebruik](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
 * [Adobe Workfront Scenario Planner](/help/quicksilver/scenario-planner/scenario-planning.md)
