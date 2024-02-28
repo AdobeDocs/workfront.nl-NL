@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -409,6 +409,8 @@ Houd rekening met het volgende wanneer u records in de tabelweergave sorteert:
 * Het sorteren dat u maakt, blijft behouden wanneer u wegnavigeert.
 
 * U kunt sorteren op zoveel velden als u ziet in de tabelweergave van een recordtype.
+
+* Gekoppelde velden kunnen alleen worden gesorteerd als er enkele waarden zijn of als er meerdere geselecteerde waarden zijn geselecteerd met de optie Overzicht (som, gemiddelde, max, min).
 
 * Als u sorteercriteria verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en wordt dezelfde weergave gebruikt als u.
 
