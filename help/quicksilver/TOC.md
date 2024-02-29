@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 4adb7fa30f9c1c921727d1a5930318f59ed8af9e
+source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
 workflow-type: tm+mt
 source-wordcount: '13989'
 ht-degree: 0%
@@ -1797,7 +1797,7 @@ ht-degree: 0%
          * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Workfront en Frame.io verbinden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
          * [Frame.io-element toevoegen aan een verbonden Workfront-project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * [Documenten goedkeuren]{#approve-documents}
+      * Documenten goedkeuren {#approve-documents}
          * [Documenten goedkeuren: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [Een documentgoedkeuring maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Extra revisoren of fiatteurs toevoegen aan een document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
