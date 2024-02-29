@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Native velden voor Workfront kunnen nu worden toegevoegd aan aangepaste formulieren. Met dit nieuwe veldtype kunt u gegevens op een logische manier ordenen en presenteren aan uw gebruikers, zonder dat u bestaande gegevens opnieuw hoeft te maken in aangepaste velden.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 29 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Kenmerktoewijzing is nu beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS</a></p>
                         <p>[!BADGE in productie ]{type=Informative}</p><p>Systeembeheerders van Workfront kunnen nu gebruikerskenmerktoewijzingen instellen voor organisaties die zijn gemigreerd naar Adobe IMS. Op deze manier kunnen gebruikersgegevens door de SSO-provider (Single Sign-On) van de organisatie naar Workfront worden doorgegeven, zodat de gegevens van de gebruiker niet in zowel Workfront als de SSO-provider hoeven te worden ingevoerd.</p>
                     </td>
@@ -73,7 +92,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>U kunt nu bestaande weergave bewerken, logica overslaan en nieuwe logica toevoegen aan aangepaste formulieren in de bètaversie van de formulierontwerper. Met een eenvoudig te gebruiken logicaontwikkelaar kunt u definiëren welke velden worden weergegeven of overgeslagen op basis van selecties in het formulier.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -111,7 +130,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen</a></p><p>Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p><p>Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -148,7 +167,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p><p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -203,7 +222,33 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>De nieuwe opmerkingervaring is als volgt verbeterd:</p>
+                        <ul>
+                            <li>
+                                <p>U kunt op de naam van een opmerking klikken om de naam, de rol en het e-mailadres van de persoon of persoon weer te geven in een informatievak. Deze informatie kan u helpen de correcte gebruiker identificeren, als u meer dan één gebruiker met de zelfde naam hebt. Wanneer u in het informatievak op de naam van de aanvrager klikt, wordt het gebruikersprofiel van deze persoon geopend.</p>
+                            </li>
+                            <li>
+                                <p>Uw gebruikersnaam wordt gemarkeerd in opmerkingen waarop u bent gelabeld wanneer u wordt vermeld in de tekst van de opmerking.</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 29 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen</a></p><p>Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -221,7 +266,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting</a></p><p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
