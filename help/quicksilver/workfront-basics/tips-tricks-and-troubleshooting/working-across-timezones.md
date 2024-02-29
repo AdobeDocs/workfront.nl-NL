@@ -5,7 +5,7 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe [!DNL Adobe Workfront] gebruikt tijdzones om tijdvelden te berekenen voor objecten en tijden in andere gebieden, zoals e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Werken in tijdzones
+
+<!-- Audited: 2/2024 -->
 
 Het kan nuttig zijn om te begrijpen hoe [!DNL Adobe Workfront] gebruikt tijdzones om het volgende te berekenen:
 

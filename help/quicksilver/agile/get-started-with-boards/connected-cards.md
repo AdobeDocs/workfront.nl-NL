@@ -6,14 +6,16 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
 
 # Gekoppelde kaarten op borden gebruiken
+
+<!-- Audited: 2/2024 -->
 
 U kunt een kaart toevoegen aan uw board die is aangesloten op bestaande taken en problemen in [!DNL Workfront].
 
@@ -39,31 +41,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td>
+   <p>Nieuw: Medewerker of hoger</p>
+   <p>of</p>
+   <p>Huidig: Verzoek of hoger</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td>
-   <td><p>[!UICONTROL View] of betere toegang tot taken en problemen</p></td>
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td>
+   <td><p>Toegang tot taken en problemen weergeven of vergroten</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Objectmachtigingen</strong></td>
-   <td><p>[!UICONTROL View] of hogere machtigingen voor de Workfront-taak of -uitgave</p></td>
+   <td><p>Machtigingen weergeven of hoger voor de Workfront-taak of -uitgave</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangesloten kaart toevoegen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Boards]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Boards]**.
 1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klik op **[!UICONTROL Add card]>[!UICONTROL Connected card]**.
+1. Klikken **[!UICONTROL Add card]>[!UICONTROL Connected card]**.
 1. Kies een project en kies vervolgens een taak of uitgave die u als kaart aan de kaart wilt toevoegen.
 
    U kunt meerdere objecten selecteren en deze worden allemaal als aparte kaarten toegevoegd.

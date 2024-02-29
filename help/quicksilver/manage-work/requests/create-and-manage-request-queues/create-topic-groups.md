@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # Onderwerpgroepen maken
+
+<!-- Audited: 2/2024 -->
 
 De Groepen van het onderwerp worden geassocieerd met de Queues van het Verzoek. Zij staan u toe om uw Vragen van het Verzoek in veelvoudige categorieën, afhankelijk van de aard van de verzoeken te lagen.
 
@@ -28,25 +30,29 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie</p> </td> 
+   <td>   
+      <p>Nieuw: Standaard</p>
+      <p>of</p> 
+      <p>Huidig: Plan</p>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p> Rechten voor het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder als u wilt weten welk plan, licentietype of toegang u hebt
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overzicht van onderwerpgroepen
 
@@ -56,7 +62,7 @@ Voor meer informatie over hoe te om de Queuten van het Verzoek tot stand te bren
 
 >[!TIP]
 >
->* U kunt tot 10 rijen van de Groepen van het Onderwerp binnen een Rij van het Verzoek tot stand brengen.
+>* U kunt tot 10 rijen van Onderwerpgroepen binnen een Rij van het Verzoek tot stand brengen.
 >* Er is geen grens aan het aantal Onderwerpen van de Rij die met een onderwerpgroep kunnen worden geassocieerd.
 >* Onderwerpgroepen zijn een te rapporteren object.
 >
@@ -79,7 +85,7 @@ Een onderwerpgroep maken:
 
    * **Naam**: De naam is zichtbaar voor gebruikers die aanvragen naar deze aanvraagwachtrij verzenden.
    * **Beschrijving**: De beschrijving toont wanneer de gebruikers de onderwerpgroep in het proces selecteren om een nieuw verzoek voor te leggen.
-   * **Toevoegen aan onderwerpgroep**: U kunt de nieuwe Groep van het Onderwerp aan een bestaande Groep van het Onderwerp toevoegen, of u kunt het direct aan het project toevoegen dat als Rij van het Verzoek van de Hulp wordt gepubliceerd.
+   * **Toevoegen aan onderwerpgroep**: U kunt de nieuwe Groep van het Onderwerp aan een bestaande Groep van het Onderwerp toevoegen, of u kunt het rechtstreeks aan het project toevoegen dat als Rij van het Verzoek van de Hulp wordt gepubliceerd.
 
 1. Klikken **Opslaan**.\
    Dit leidt tot een nieuwe Groep van het Onderwerp in uw Rij van het Verzoek. U kunt nu extra categorieën selecteren in het eerste vervolgkeuzemenu onder Wachtrij aanvragen.\

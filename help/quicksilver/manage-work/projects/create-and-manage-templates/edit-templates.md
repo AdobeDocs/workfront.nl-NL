@@ -6,22 +6,18 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in projectpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4710'
 ht-degree: 0%
 
 ---
 
 # Projectsjablonen bewerken
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 U kunt projectmalplaatjes uitgeven om op veranderingen in projectprocessen en montages te wijzen. Nadat u de veranderingen op een malplaatje bijwerkt en bewaart, zijn de nieuwe veranderingen zichtbaar in nieuwe projecten wanneer de projecten gebruikend het malplaatje worden gecreeerd. De wijzigingen die u aanbrengt in de sjabloon, weerspiegelen niet het project dat momenteel die sjabloon gebruikt.
 
@@ -34,16 +30,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td>
+      <p>Nieuw: Standaard</p>
+      <p>of</p>
+      <p>Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot sjablonen bewerken</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot sjablonen raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Toegang tot sjablonen verlenen</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -51,12 +51,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <ul> 
      <li> <p>Contribute-machtigingen voor een sjabloon om deze te bewerken op het tabblad Sjabloondetails</p> </li> 
      <li> <p>Rechten voor een sjabloon beheren om deze te bewerken in het vak Sjabloon bewerken</p> </li> 
-    </ul> <p> Zie voor informatie over sjabloonmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Een sjabloon delen</a>. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een sjabloon bewerken {#edit-a-template}
 
