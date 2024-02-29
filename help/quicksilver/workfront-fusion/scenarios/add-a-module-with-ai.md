@@ -6,9 +6,9 @@ title: Een module genereren met behulp van AI
 description: U kunt een tekstherinnering ingaan om een module tot stand te brengen van HTTP die aan de herinnering wordt gevormd.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
+source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Een module genereren met behulp van AI
 
 <!--DO NOT DELETE - linked through CSH-->
+
+>[!IMPORTANT]
+>
+>Omdat deze functie nog in de beginfase van de ontwikkeling is, is deze alleen beschikbaar voor interne Workfront-gebruikers.
 
 U kunt AI gebruiken om een tekstherinnering in te gaan die beschrijft wat u een module nodig hebt te doen. De fusie zal dan een module van HTTP produceren die met het correcte eindpunt van gewenste API zal verbinden.
 
