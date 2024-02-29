@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -101,9 +101,9 @@ Ga voor meer informatie over de functies die beschikbaar zijn in de nieuwe opmer
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
 1. Klikken **Updates** en klik vervolgens op de knop **Opmerkingen** voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren.
 
->[!NOTE]
->
-><span class="preview">Als u wilt reageren op een opmerking op het tabblad Alles, klikt u **Reageren in opmerkingen** om de opmerking te openen op het tabblad Opmerkingen. U kunt niet reageren op het tabblad Alles.</span>
+   >[!NOTE]
+   >
+   ><span class="preview">Als u wilt reageren op een opmerking op het tabblad Alles, klikt u **Reageren in opmerkingen** om de opmerking te openen op het tabblad Opmerkingen. U kunt niet reageren op het tabblad Alles.</span>
 
 1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** in de rechterbovenhoek van de opmerking waarop u wilt reageren, klikt u op **Offerteantwoord**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
 1. Klikken **Antwoord**.

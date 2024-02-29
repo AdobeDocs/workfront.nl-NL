@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,8 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
    De namen van de getagde entiteiten worden naast hun avatars (maximaal twee entiteiten) weergegeven. Als er meerdere entiteiten zijn gelabeld, wordt de naam van de eerste entiteit weergegeven, plus het aantal extra entiteiten dat is gelabeld.
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <span class="preview">Wanneer u gelabeld bent in de opmerkingstekst, wordt uw gebruikersnaam in die opmerkingen gemarkeerd.</span>
 
    Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
