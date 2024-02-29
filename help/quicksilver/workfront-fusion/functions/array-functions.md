@@ -8,9 +8,9 @@ description: De volgende arrayfuncties zijn beschikbaar in het Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -44,9 +44,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -128,23 +128,23 @@ Retourneert een nieuwe array die alleen geselecteerde items bevat.
 
 ## [!UICONTROL sort (array; [order]; [key])]
 
-Hiermee worden waarden van een array gesorteerd. De geldige waarden van de `order` parameter zijn:
+Sorteert waarden van een array. De geldige waarden van de `order` parameter zijn:
 
 * `asc`
 
-  (standaard) - oplopende volgorde: 1, 2, 3, ... voor type Number. A, B, C, a, b, c, ... voor tekst
+  (standaardwaarde) - oplopende volgorde: 1, 2, 3, ... voor het type Number. A, B, C, a, b, c... voor tekst
 
 * `desc`
 
-  aflopende volgorde: ..., 3, 2, 1 voor type Number. ..., c, b, a, C, B, A voor tekst.
+  Aflopende volgorde: ..., 3, 2, 1 voor type Number. ..., c, b, a, C, B, A voor tekst.
 
 * `asc ci`
 
-  hoofdlettergevoelig, oplopende volgorde: A, a, B, b, C, c, ... voor tekst.
+  niet-hoofdlettergevoelige oplopende volgorde: A, a, B, b, C, c, ... voor tekst.
 
 * `desc ci`
 
-  niet-hoofdlettergevoelig, aflopende volgorde: ..., C, c, B, b, A, a voor tekst.
+  niet-hoofdlettergevoelige aflopende volgorde: ..., C, c, B, b, A, a voor tekst.
 
 Gebruik de `key` parameter voor toegang tot eigenschappen in complexe objecten.
 
@@ -168,7 +168,7 @@ Het eerste item in een array is index 1.
 >
 >* `sort(Contacts[];asc ci;name)`
 >
->    Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in niet-hoofdlettergevoelige oplopende volgorde
+>    Hiermee wordt een array van contactpersonen gesorteerd op de eigenschap &quot;name&quot; in hoofdlettergevoelige oplopende volgorde
 >
 >* `sort(Emails[];sender.name)`
 >
@@ -180,9 +180,9 @@ Geeft het verschil tussen twee arrays.
 
 Voer een van de volgende waarden in voor de `mode` parameter.
 
-* `classic`: Hiermee wordt een nieuwe array geretourneerd die alle elementen bevat van `array1` die niet bestaan in `array2`.
+* `classic`: Retourneert een nieuwe array die alle elementen van `array1` die niet bestaan in `array2`.
 
-* `symmetric`: Retourneert een array met elementen die niet hetzelfde zijn voor beide arrays.
+* `symmetric`: Retourneert een array met elementen die niet voor beide arrays hetzelfde zijn.
 
   Met andere woorden, de functie retourneert een array die alle elementen van `array1` die niet bestaan in `array2`en alle elementen van `array2` die niet bestaan in `array1`.
 
@@ -211,3 +211,23 @@ Voer een van de volgende waarden in voor de `mode` parameter.
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Retourneert `[1,2,6,7]`
+
+## toArray
+
+Deze functie converteert een verzameling naar een array van sleutelwaardeparen.
+
+>[!INFO]
+>
+>**Voorbeelden:**
+>
+>Gezien de collectie
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>De functie
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Retourneert de array van sleutelwaardeparen
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`

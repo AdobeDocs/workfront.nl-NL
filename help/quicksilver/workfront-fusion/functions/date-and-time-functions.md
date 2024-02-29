@@ -8,9 +8,9 @@ description: De volgende datum- en tijdfuncties zijn beschikbaar in het Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -44,9 +44,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,7 +74,7 @@ Zie voor meer informatie [Datum](../../workfront-fusion/mapping/item-data-types.
   <tr> 
    <th>Parameter</th> 
    <th>Verwacht gegevenstype* </th> 
-   <th>Wat het doet</th> 
+   <th>Wat doet het?</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -91,7 +91,7 @@ Zie voor meer informatie [Datum](../../workfront-fusion/mapping/item-data-types.
   <tr> 
    <td>[!UICONTROL timezone] </td> 
    <td>Tekst </td> 
-   <td> <p>(Optioneel) Hier kunt u opgeven welke tijdzone wordt gebruikt voor de conversie. </p> <p>Zie de kolom "TZ-databasenaam" in Wikipedia voor de lijst met erkende tijdzones <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Lijst met de tijdzones van de tz-database</a>. Alleen de waarden in deze kolom worden door de functie herkend als een geldige tijdzone. Eventuele andere waarden worden genegeerd en in plaats daarvan wordt de tijdzone van de scenario's gebruikt die in het profiel is opgegeven. Zie voor meer informatie het artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Profielinstellingen wijzigen in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Als u deze parameter weglaat, wordt de tijdzone van Scenario's toegepast die in uw montages van het Profiel wordt gespecificeerd. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Optioneel) Hiermee kunt u de tijdzone opgeven die wordt gebruikt voor de conversie. </p> <p>Zie de kolom "TZ-databasenaam" in Wikipedia voor de lijst met erkende tijdzones <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Lijst met de tijdzones van de tz-database</a>. Alleen de waarden in deze kolom worden door de functie herkend als een geldige tijdzone. Eventuele andere waarden worden genegeerd en in plaats daarvan wordt de tijdzone van de scenario's gebruikt die in het profiel is opgegeven. Zie voor meer informatie het artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Profielinstellingen wijzigen in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Als u deze parameter weglaat, wordt de tijdzone van Scenario's toegepast die in uw montages van het Profiel wordt gespecificeerd. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ De tweede kolom geeft het verwachte type aan. Wanneer een ander type is opgegeve
   <tr> 
    <th>Parameter</th> 
    <th>Verwacht gegevenstype* </th> 
-   <th>Wat het doet</th> 
+   <th>Wat doet het?</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -157,7 +157,7 @@ De tweede kolom geeft het verwachte type aan. Wanneer een ander type is opgegeve
   <tr> 
    <td>[!UICONTROL timezone] </td> 
    <td>Tekst </td> 
-   <td> <p>(Optioneel) Hier kunt u opgeven welke tijdzone wordt gebruikt voor de conversie. </p> <p>Zie de kolom "TZ-databasenaam" in Wikipedia voor de lijst met erkende tijdzones <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Lijst met de tijdzones van de tz-database</a>. Alleen de waarden in deze kolom worden door de functie herkend als een geldige tijdzone. Eventuele andere waarden worden genegeerd en in plaats daarvan wordt de tijdzone van de scenario's gebruikt die in het profiel is opgegeven. Zie voor meer informatie het artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Profielinstellingen wijzigen in Adobe Workfront Fusion</a>.</p> <p>Als u deze parameter weglaat, wordt de tijdzone van Scenario's toegepast die in uw montages van het Profiel wordt gespecificeerd.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Optioneel) Hiermee kunt u de tijdzone opgeven die wordt gebruikt voor de conversie. </p> <p>Zie de kolom "TZ-databasenaam" in Wikipedia voor de lijst met erkende tijdzones <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Lijst met de tijdzones van de tz-database</a>. Alleen de waarden in deze kolom worden door de functie herkend als een geldige tijdzone. Eventuele andere waarden worden genegeerd en in plaats daarvan wordt de tijdzone van de scenario's gebruikt die in het profiel is opgegeven. Zie voor meer informatie het artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Profielinstellingen wijzigen in Adobe Workfront Fusion</a>.</p> <p>Als u deze parameter weglaat, wordt de tijdzone van Scenario's toegepast die in uw montages van het Profiel wordt gespecificeerd.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,7 +186,7 @@ Deze functie converteert een tekstreeks naar een datum op basis van de notatie e
 >
 >* `parseDate(1482940986;X)`
 >
->  Retourneert 2016-12-28T16:03:06.000Z
+>   Retourneert 2016-12-28T16:03:06.000Z
 
 ## [!UICONTROL addDays (date; number)] {#adddays-date-number}
 
@@ -290,7 +290,7 @@ Deze functie retourneert een nieuwe datum met de seconden die in parameters word
 
 Geef een getal op tussen 0 en 59. Als het getal zich buiten dat bereik bevindt, retourneert de functie een seconde vanaf de vorige minuut (voor een negatief getal) of een volgende minuut (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u gebruikt[!UICONTROL  addSeconds], zoals hierboven beschreven in de sectie [addSeconds (date; getal)](#addseconds-date-number).
+Als u een getal buiten het bereik moet opgeven, raden we u aan[!UICONTROL  addSeconds], zoals hierboven beschreven in de sectie [addSeconds (date; number)](#addseconds-date-number).
 
 >[!INFO]
 >
@@ -310,7 +310,7 @@ Deze functie retourneert een nieuwe datum met de minuten die in parameters zijn 
 
 Geef een getal op tussen 0 en 59. Als het getal zich buiten dat bereik bevindt, retourneert de functie een minuut vanaf het vorige uur (voor een negatief getal) of het volgende uur (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addMinutes, zoals hierboven beschreven in gebruikt [addMinutes (date; getal)](#addminutes-date-number).
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addMinutes, zoals hierboven beschreven in gebruikt [addMinutes (date; number)](#addminutes-date-number).
 
 >[!INFO]
 >
@@ -330,7 +330,7 @@ Deze functie retourneert een nieuwe datum met het uur dat in parameters is opgeg
 
 Geef een getal op tussen 0 en 23. Als het getal zich buiten dit bereik bevindt, retourneert de functie een uur vanaf de vorige dag (voor een negatief getal) of volgende dag (voor een positief getal).
 
-Als u een getal buiten het bereik moet opgeven, raden we u aan addHours te gebruiken, zoals hierboven beschreven in [addHours (date; getal)](#addhours-date-number).
+Als u een getal buiten het bereik moet opgeven, raden we u aan addHours te gebruiken, zoals hierboven beschreven in [addHours (date; number)](#addhours-date-number).
 
 >[!INFO]
 >
@@ -350,7 +350,7 @@ Deze functie retourneert een nieuwe datum met de dag die in parameters wordt opg
 
 U kunt deze functie gebruiken om de dag van de week in te stellen, met zondag als 1 en zaterdag als 7. Als u een getal tussen 1 en 7 opgeeft, valt de resulterende datum binnen de huidige week (zondag tot zaterdag). Als het getal zich buiten dat bereik bevindt, retourneert de functie een dag vanaf de vorige week (voor een negatief getal) of volgende week (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addDays, zoals hierboven beschreven in gebruikt [addDays (date; getal)](#adddays-date-number).
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addDays, zoals hierboven beschreven in gebruikt [addDays (date; number)](#adddays-date-number).
 
 >[!INFO]
 >
@@ -485,7 +485,7 @@ De formule bevat de volgende items:
   </tr> 
   <tr> 
    <td><code>2.dow</code> </td> 
-   <td> <p> dag van de week:</p> 
+   <td> <p> weekdag:</p> 
     <ul> 
      <li><code>1</code> voor maandag</li> 
      <li><code>2</code> voor dinsdag</li> 
@@ -503,7 +503,7 @@ De formule bevat de volgende items:
  </tbody> 
 </table>
 
-Als u slechts één specifiek geval wilt berekenen, bijvoorbeeld elke tweede woensdag, kunt u de items vervangen `1.n` en `2.dow` in de formule met de corresponderende getallen. Voor de tweede woensdag in de huidige maand, zou u de volgende waarden gebruiken:
+Als u slechts één specifiek geval wilt berekenen, bijvoorbeeld elke tweede woensdag, kunt u de items vervangen `1.n` en `2.dow` in de formule met de overeenkomstige getallen. Voor de tweede woensdag in de huidige maand, zou u de volgende waarden gebruiken:
 
 * `1.n` = `2`
 * `1.dow` = `3`
@@ -514,7 +514,7 @@ Als u slechts één specifiek geval wilt berekenen, bijvoorbeeld elke tweede woe
 ### Uitleg:
 
 * `setDate(now;1)` retourneert eerste van huidige maand
-* `formatDate(....;E)` retourneert de dag van de week (1, 2, ... 6)
+* `formatDate(....;E)` retourneert dag van de week (1, 2, ... 6)
 
 ## Hoe te om dagen tussen data te berekenen
 
@@ -530,7 +530,7 @@ Een mogelijkheid is om de volgende expressie te gebruiken:
 >
 >* Waarden van `D1`en `D2` Dit zijn waarden van het type Date. Als het waarden van het type String zijn (bijvoorbeeld 20.10.2018), gebruikt u de opdracht `parseDate()` om deze om te zetten in waarden van het type Date.
 >
->* De `round()` functie wordt gebruikt voor gevallen waarin een van de data valt binnen de zomertijd en de andere niet. In deze gevallen is het verschil in uren één uur minder of meer. U kunt het door 24 voor een niet-geheel resultaat verdelen. Je verliest een uurtje spaargeld. Rond afgevlakt het zodat u geen percentage hebt
+>* De `round()` functie wordt gebruikt voor gevallen waarin een van de data binnen de zomertijdperiode valt en de andere niet. In deze gevallen is het verschil in uren één uur minder of meer. U kunt het door 24 voor een niet-geheel resultaat verdelen. Je verliest een uurtje spaargeld. Rond afgevlakt het zodat u geen percentage hebt
 
 ### Laatste dag/milliseconde van maand berekenen
 
