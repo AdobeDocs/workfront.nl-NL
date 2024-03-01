@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Dropbox-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario's, kunt u werkschema's automatiseren die Dropbox gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten. Dit staat u toe om activiteiten zoals controle, het zoeken, het terugwinnen van, het lijst maken van, het creëren van, en het uitgeven van dossiers en omslagen in uw Dropbox te automatiseren.
+title: Dropbox
+description: In een [!DNL Adobe Workfront Fusion] scenario's, kunt u werkschema's automatiseren die Dropbox gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten. Dit staat u toe om activiteiten zoals controle, het zoeken, het terugwinnen van, het een lijst maken van, het creëren van, en het uitgeven van dossiers en omslagen in uw Dropbox te automatiseren.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,14 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Vereisten
 
-Te gebruiken [!DNL Dropbox] modules, moet u een [!DNL Dropbox] account.
+* Te gebruiken [!DNL Dropbox] modules, moet u een [!DNL Dropbox] account.
+
+>[!IMPORTANT]
+>
+>Dropbox moet toepassingen met meer dan 50 gebruikers goedkeuren.
+>
+>Voor meer informatie, zoek naar &quot;Goedkeuring van de Productie&quot;in de Dropbox ontwikkelaarsgids.
+
 
 ## [!DNL Dropbox] modules en hun velden
 
@@ -186,7 +193,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Bestandspad / Bestand</p> </td> 
-   <td> <p style="font-weight: bold;">Bestandspad</p> <p>Voer het doelpad in of wijs het toe aan het bestand.</p> <p style="font-weight: bold;">Bestand</p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p style="font-weight: bold;">Bestandspad</p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p style="font-weight: bold;">Bestand</p> <p>Selecteer het bestand in het menu.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -276,7 +283,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Bestandspad / Bestand</p> </td> 
-   <td> <p style="font-weight: bold;">Bestandspad</p> <p>Voer het doelpad in of wijs het toe aan het bestand.</p> <p style="font-weight: bold;">Bestand</p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p style="font-weight: bold;">Bestandspad</p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p style="font-weight: bold;">Bestand</p> <p>Selecteer het bestand in het menu.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Limiet</p> </td> 
@@ -320,7 +327,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Source File]</p> </td> 
-   <td> <p>Voer het bestand in dat u aan het bestand wilt toevoegen of wijs het bestand toe [!DNL Dropbox] hierboven geselecteerde map.</p> <p style="font-weight: bold;">[!UICONTROL File name]</p> <p>Voer de bestandsnaam in of wijs deze toe, inclusief de bestandsextensie.</p> <p style="font-weight: bold;">[!UICONTROL File data]</p> <p>Voer de bestandsgegevens in of wijs deze toe (van vorige modules zoals [!UICONTROL Google Drive] &gt;[!UICONTROL Get a File)].</p> <p>Opmerking: De maximale grootte van het geüploade bestand is 150 MB.</p> </td> 
+   <td> <p>Voer het bestand in dat u aan het bestand wilt toevoegen of wijs het bestand toe [!DNL Dropbox] hierboven geselecteerde map.</p> <p style="font-weight: bold;">[!UICONTROL File name]</p> <p>Voer de bestandsnaam in of wijs deze toe, inclusief de bestandsextensie.</p> <p style="font-weight: bold;">[!UICONTROL File data]</p> <p>Voer de bestandsgegevens in of wijs deze toe (van vorige modules zoals [!UICONTROL Google Drive] &gt;[!UICONTROL Get a File)].</p> <p>Opmerking: de maximale grootte van het geüploade bestand is 150 MB.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Overwrite an existing file]</td> 
@@ -419,7 +426,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL File Path / File]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>Voer het doelpad in of wijs het toe aan het bestand.</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>Selecteer het bestand in het menu.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Requested Visibility]</p> </td> 
@@ -431,7 +438,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Link's Access Level]</p> </td> 
-   <td> <p>Stel de machtigingen voor de ontvanger van de koppeling in.</p> <p><strong>[!UICONTROL Viewer]</strong> Gebruikers die de koppeling gebruiken, kunnen de inhoud weergeven en opmerkingen maken.</p> <p><strong>[!UICONTROL Editor]</strong> Gebruikers die de koppeling gebruiken, kunnen de inhoud bewerken, weergeven en opmerkingen plaatsen.</p> <p><strong>[!UICONTROL Max]</strong> Gebruikers die de koppeling gebruiken, ontvangen het maximale toegangsniveau waarop u de koppeling kunt instellen.</p> </td> 
+   <td> <p>Stel de machtigingen voor de ontvanger van de koppeling in.</p> <p><strong>[!UICONTROL Viewer]</strong> Gebruikers die de koppeling gebruiken, kunnen de inhoud weergeven en opmerkingen plaatsen.</p> <p><strong>[!UICONTROL Editor]</strong> Gebruikers die de koppeling gebruiken, kunnen de inhoud bewerken, weergeven en opmerkingen plaatsen.</p> <p><strong>[!UICONTROL Max]</strong> Gebruikers die de koppeling gebruiken, ontvangen het maximale toegangsniveau waarop u de koppeling kunt instellen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -460,7 +467,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL File Path] / [!UICONTROL File]</p> </td> 
-   <td> <p><strong>[!UICONTROL File Path]</strong> </p> <p>Voer het doelpad in of wijs het toe aan het bestand.</p> <p><strong>[!UICONTROL File]</strong> </p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p><strong>[!UICONTROL File Path]</strong> </p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p><strong>[!UICONTROL File]</strong> </p> <p>Selecteer het bestand in het menu.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Revision]</p> </td> 
@@ -571,7 +578,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL File Path] / [!UICONTROL File]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>Voer het doelpad in of wijs het toe aan het bestand.</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>Selecteer het bestand in het menu.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -594,7 +601,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Een pad invoeren ten opzichte van een pad invoeren ten opzichte van <code>https://api.dropboxapi.com</code>. Bijvoorbeeld: <code>/2/files/list_folder</code></p> <p>Opmerking: Voor de lijst met beschikbare eindpunten raadpleegt u de <a href="https://www.dropbox.com/developers/documentation/http/documentation">Dropbox API v2-documentatie</a>.</p> </td> 
+   <td> <p>Een pad invoeren ten opzichte van een pad invoeren ten opzichte van <code>https://api.dropboxapi.com</code>. Bijvoorbeeld: <code>/2/files/list_folder</code></p> <p>Opmerking: raadpleeg de <a href="https://www.dropbox.com/developers/documentation/http/documentation">Dropbox API v2-documentatie</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Method]</p> </td> 
