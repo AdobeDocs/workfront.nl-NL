@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Toegang tot objecten en gebieden met nieuwe licenties
+
+<!-- Audited: 2/2024 -->
 
 In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
 
@@ -57,7 +59,7 @@ In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave
         <td>Geen toegang</td>
     </tr>
     <tr>
-        <td>Portfolio</td>
+        <td>Portfolio's</td>
         <td>Bewerken</td>
         <td>Weergave</td>
         <td>Geen toegang</td>

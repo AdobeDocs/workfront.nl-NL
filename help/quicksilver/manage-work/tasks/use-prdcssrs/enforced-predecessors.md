@@ -2,20 +2,22 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: Voorgangers afdwingen
-description: Predecessors zijn taken waarvan andere taken afhankelijk zijn voor voltooiing. Relaties van vorige versies zijn van invloed op de Start- en Voltooiingsdatums van de taken en hebben uiteindelijk invloed op de tijdlijn van het project.
+description: Predecessors zijn taken waarvan andere taken afhankelijk zijn voor voltooiing. Relaties van vorige versies zijn van invloed op de start- en voltooiingsdatums van de taken en hebben uiteindelijk invloed op de tijdlijn van het project.
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # Voorgangers afdwingen
 
-Predecessors zijn taken waarvan andere taken afhankelijk zijn voor voltooiing. Relaties van vorige versies zijn van invloed op de Start- en Voltooiingsdatums van de taken en hebben uiteindelijk invloed op de tijdlijn van het project.
+<!-- Audited: 2/2024 -->
+
+Predecessors zijn taken waarvan andere taken afhankelijk zijn voor voltooiing. Relaties van vorige versies zijn van invloed op de start- en voltooiingsdatums van de taken en hebben uiteindelijk invloed op de tijdlijn van het project.
 
 Voor informatie over predecessors raadpleegt u [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -42,25 +44,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+      <p>Nieuw: Standaard</p> 
+      <p>OF</p>
+      <p>Huidig: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td><p>Rechten voor de taken en het project beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een voorganger op taakniveau afdwingen
 
@@ -72,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De standaardwaarde **Type afhankelijkheid** is **Voltooien**.
 
-1. Selecteer **Afgedwongen** om de voorganger af te dwingen.
+1. Selecteer de **Afgedwongen** om de voorganger af te dwingen.
 1. Klikken **Opslaan**.
 
 ## Een voorganger afdwingen in een takenlijst

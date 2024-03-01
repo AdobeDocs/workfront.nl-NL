@@ -7,14 +7,16 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Gebruik de [!DNL Adobe Workfront] mobiele app
+# Gebruik de [!DNL Adobe Workfront] mobiele app: artikelindex
+
+<!-- Audited: 2/2024 -->
 
 Versnel de betrokkenheid en stroomlijnt het werk voor teams en individuen in uw organisatie door [!DNL Adobe Workfront's] mobiele app, beschikbaar op elk iOS- of Android-apparaat. Met de app kunt u:
 
@@ -38,7 +40,7 @@ In de mobiele app kunt u werkitems voltooien en informatie weergeven zoals u dat
 
 >[!NOTE]
 >
->De [!DNL Adobe Workfront] mobiele app vervangt de [!DNL Workfront Proof] app, die niet meer wordt ondersteund en die volledig wordt verwijderd met de release van 23.10 in oktober. [!DNL Workfront] klanten moeten nu de [!DNL Adobe Workfront] mobiele app voor het uitvoeren van proefversies en goedkeuringen.
+>De [!DNL Adobe Workfront] mobiele app heeft de [!DNL Workfront Proof] app. [!DNL Workfront] klanten moeten nu de [!DNL Adobe Workfront] mobiele app voor het uitvoeren van proefversies en goedkeuringen.
 
 Voor meer informatie over de [!DNL Adobe Workfront] mobiele app, bekijk de volgende artikelen:
 
