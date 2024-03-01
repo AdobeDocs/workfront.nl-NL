@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ De sandbox Aangepast vernieuwen bevat de werkelijke productiegegevens. Deze word
 >[!NOTE]
 >
 >* U kunt niet plannen verfrist zich voor de huidige dag. Als vandaag bijvoorbeeld 1 juni is, is 2 juni de vroegste dag waarop u kunt plannen om te vernieuwen.
->* Gepland verfrist zich komt om 12:00 AM op de bepaalde datum voor, die op timezone van de gebruiker wordt gebaseerd die het verzoek indiende.
+>* De geplande vernieuwing vindt ergens in de nacht plaats, op basis van de cluster van de gebruiker (clusters in de VS ververversen &#39;s nachts in de VS). De specifieke tijd is onvoorspelbaar toe te schrijven aan andere klanten in de rij en hoeveel gegevens worden verfrist. Als de rij vele grote klanten heeft, verfrist zich kan niet tot later die dag, of de volgende dag lopen.
 >* Uw aangepaste vernieuwingssandbox heeft altijd dezelfde productfuncties als uw productieomgeving. Wanneer u de aangepaste vernieuwingssandbox vernieuwt, blijft de branding echter alleen behouden voor de achtergrondkleur van het aanmeldingsscherm. Het aanmeldingsscherm en de navigatiebalklogo&#39;s zijn ingesteld op [!DNL Workfront] De standaardwaarden en brandingafbeeldingen die u vóór het vernieuwen hebt gewijzigd, worden niet weergegeven.
 >
 
@@ -86,7 +86,7 @@ Ga als volgt te werk om uw aangepaste vernieuwingssandbox te openen:
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klik op **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
+1. Klikken **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
 1. In de **[!UICONTROL Test Environment]** sectie, klikken **[!UICONTROL Sandbox 1]** of **[!UICONTROL Sandbox 2]**.
 
