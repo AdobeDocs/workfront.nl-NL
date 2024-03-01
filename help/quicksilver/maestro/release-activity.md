@@ -1,32 +1,32 @@
 ---
-title: Adobe Maestro-releaseactiviteit
-description: Adobe Maestro is momenteel beschikbaar voor het selecteren van Workfront-klanten. Lees dit artikel vaak voor meer informatie over de functies die onlangs voor Adobe Maestro zijn uitgebracht.
+title: Release-activiteit Adobe Workfront-planningsmogelijkheden
+description: Adobe Workfront-planningsmogelijkheden zijn momenteel beschikbaar voor het selecteren van Workfront-klanten. Lees dit artikel vaak voor meer informatie over de functies die onlangs zijn uitgebracht voor de planningsmogelijkheden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Adobe Maestro-releaseactiviteit
+# Release-activiteit Adobe Workfront-planningsmogelijkheden
 
 {{maestro-important-intro}}
 
-Dit artikel bevat een overzicht van de functies die zijn uitgebracht na de start van het gesloten bètaprogramma van Maestro op 22 mei 2023.
+Dit artikel bevat een overzicht van de functies die zijn vrijgegeven na de start van het bètaprogramma voor Adobe Workfront-planningsmogelijkheden dat op 22 mei 2023 is afgesloten.
 
-De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma Maestro hebben toegang tot alle functies in hun productieomgeving.
+De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het gesloten bètaprogramma voor planningsmogelijkheden hebben toegang tot alle functies in hun productieomgeving.
 
 >[!IMPORTANT]
 >
->Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving. De Maestro-mogelijkheden zijn sinds januari 2024 tijdelijk verwijderd uit de voorvertoning- en sandboxomgeving. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
+>Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving. De planningsmogelijkheden zijn sinds januari 2024 tijdelijk verwijderd uit de voorvertoning- en sandboxomgevingen. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
 
-Dit artikel bevat een overzicht van de functies en patches die zijn uitgebracht na de start van het gesloten bètaprogramma van Maestro op 22 mei 2023.
+Dit artikel bevat een overzicht van de functies en patches die zijn uitgebracht nadat de Adobe Workfront-planningsmogelijkheden op 22 mei 2023 zijn afgesloten met het bètaprogramma.
 
-De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het afgesloten bètaprogramma van Maestro hebben toegang tot alle functies in hun voorproef- en productieomgeving.
+De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het gesloten bètaprogramma voor planningsmogelijkheden hebben toegang tot alle functies in hun voorproef- en productieomgeving.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ De volgende machtigingen werken nu in combinatie met het licentietype van de geb
 
 Voor informatie over het nieuwe licentiemodel raadpleegt u [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Zie voor informatie over de verbinding tussen licentietype en machtigingen in Maestro [Overzicht van licentietype in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nieuwe weergave van de Rich Text-werkbalk voor recordvelden
@@ -88,7 +88,7 @@ De ervaring met het toevoegen van opties of objecten voor de volgende veldtypen 
 * Enkel selecteren
 * Meerdere selecties
 * Mensen
-* Verbonden recordvelden (wanneer u Maestro-recordtypen of Workfront-objecten verbindt)
+* Verbonden recordvelden (wanneer verbinding wordt gemaakt met planningsmogelijkheden, recordtypen of Workfront-objecten)
 
 Met de nieuwe verbetering wordt eerst een kleinere, meer responsieve doos weergegeven.
 
@@ -136,14 +136,14 @@ Productie: 1 februari 2024
 
 Voorbeeld: te bepalen
 
-Om verwarring te voorkomen en het beheer van werkruimten te vereenvoudigen, hebben wij auto-geproduceerde, read-only verslagtypekaarten voor verbonden niet-Maestro voorwerpen uit een werkruimte verwijderd.
+Om verwarring te voorkomen en het beheer van werkruimten te vereenvoudigen, hebben wij auto-geproduceerde, read-only verslagtypekaarten voor verbonden externe voorwerpen uit een werkruimte verwijderd.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Week van 22 januari 2024
 
-### De nieuwe sectie van de Geschiedenis toont systeemactiviteit voor Maestro- verslagen
+### De nieuwe sectie van de Geschiedenis toont systeemactiviteit voor de verslagen van planningsmogelijkheden
 
 Productie: 25 januari 2024
 
@@ -151,7 +151,7 @@ Voorbeeld: te bepalen
 
 Om de controlemogelijkheden te verbeteren, hebben wij een nieuwe sectie in het juiste paneel van een verslag geïntroduceerd waar u veranderingen kunt herzien die aan het verslag worden aangebracht dat door het systeem wordt geregistreerd.
 
-Maestro registreert de volgende informatie in de nieuwe sectie van de Geschiedenis:
+De volgende informatie wordt opgenomen in de nieuwe sectie Historie:
 
 * Alle veldwijzigingen
 
@@ -173,13 +173,13 @@ Om consistentie te creëren wanneer het creëren van verslagen, hebben wij opnie
 
 ## Week van 8 januari 2024
 
-### Maestro-mogelijkheden worden verwijderd uit de voorvertoning- en sandboxomgevingen
+### De planningsmogelijkheden worden verwijderd uit de voorvertoning- en sandboxomgevingen
 
 Voorbeeld en sandbox: 11 januari 2024
 
-Het Maestro-gebied en alle Maestro-mogelijkheden zijn tijdelijk verwijderd uit de voorvertoning- en sandboxomgeving. Maestro wordt op een latere datum aan deze omgevingen toegevoegd, die we in de opmerkingen bij de releaseactiviteit zullen vermelden.
+De planningsmogelijkheden van Adobe Workfront zijn tijdelijk verwijderd uit de voorvertoning- en sandboxomgeving. Ze worden later aan deze omgevingen toegevoegd. Deze gegevens worden in de notities bij de releaseactiviteit weergegeven.
 
-### Maestro-machtigingen voor werkruimten en weergaven
+### Machtigingen voor planningsmogelijkheden voor werkruimten en weergaven
 
 Productie: 11 januari 2024
 
@@ -191,7 +191,7 @@ Wanneer u een werkruimte deelt, hebben gebruikers machtigingen voor de recordtyp
 
 Als u een werkruimte deelt, ontvangen gebruikers geen machtigingen voor delen voor de weergaven die zijn gekoppeld aan de recordtypen van de werkruimte. U moet afzonderlijke machtigingen verlenen aan weergaven.
 
-Hieronder vindt u de machtigingsniveaus voor Maestro-werkruimten:
+Hier volgen de machtigingsniveaus voor werkruimten:
 
 * Weergave: gebruikers kunnen werkruimten weergeven die met hen worden gedeeld. Ze kunnen ook recordtypen en records vanuit de gedeelde werkruimte weergeven.
 
@@ -274,21 +274,21 @@ Voorbeeld en productie voor alle klanten: 18 december 2023
 
 U kunt nu met anderen samenwerken aan individuele verslagen door commentaren toe te voegen of anderen te antwoorden terwijl het bekijken van een verslag in de pagina van Details.
 
-De opmerkingervaring voor Maestro-records komt overeen met de nieuwe opmerkingervaring voor Workfront-objecten.
+De opmerkingervaring voor planningsmogelijkheden komt overeen met de nieuwe opmerkingervaring voor Workfront-objecten.
 
 Zie voor meer informatie [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Maestro-connector (bèta) voor Adobe Workfront Fusion
+### Verbinding met planningsmogelijkheden (bèta) voor Adobe Workfront Fusion
 
 Productie: 21 december 2023
 
 >[!IMPORTANT]
 >
->Uw organisatie moet Adobe Workfront Fusion aanschaffen om verbindingen met Maestro te kunnen maken.
+>Uw organisatie moet Adobe Workfront Fusion aanschaffen om verbindingen te kunnen maken met de planningsmogelijkheden van Adobe Workfront.
 >
 >Zie voor meer informatie [Adobe Workfront Fusion-overzicht](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met Maestro. Met de nieuwe Adobe Maestro Fusion verbinding kunt u:
+Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met de planningsmogelijkheden. Met de nieuwe Fusion-verbinding kunt u:
 
 * Records maken, lezen, bijwerken en verwijderen
 
@@ -300,7 +300,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met Maestro. M
 
 * Een API-aanroep maken
 
-* Een scenario activeren wanneer er een wijziging wordt aangebracht in Maestro
+* Een scenario activeren wanneer een wijziging wordt aangebracht in de planningsmogelijkheden
 
 Zie voor meer informatie [Adobe Maestro-modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Zie voor meer informatie [Adobe Maestro-modules](/help/quicksilver/workfront-fus
 
 Voorbeeld en productie: 14 december 2023
 
-U kunt nu het veld kiezen dat u wilt weergeven in de eerste kolom van een Maestro-tabelweergave. Dit veld wordt nu een primair veld genoemd.
+U kunt nu het veld kiezen dat u wilt weergeven in de eerste kolom van een tabelweergave. Dit veld wordt nu een primair veld genoemd.
 
 Vóór deze verbetering, het gebied van de Naam van een verslag altijd getoond in de eerste kolom van de lijstmening en het kon niet in een andere positie worden geplaatst.
 
@@ -332,10 +332,9 @@ Met deze verbetering, merk het volgende op:
 
 * Alle tabelweergaven van een recordtype hebben hetzelfde primaire veld dat u selecteert.
 
-Zie voor meer informatie [Tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
+Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Connect Maestro-records met Adobe Experience Manager Assets
+### Connect-planningscapaciteitenrecords met Adobe Experience Manager Assets
 
 Voorvertoningsrelease: 14 december 2023
 
@@ -343,34 +342,33 @@ Productieversie: 21 december 2023
 
 >[!IMPORTANT]
 >
->Het exemplaar van Workfront van uw organisatie moet aan het Adobe Bedrijfsplatform of Adobe Admin Console worden bezet om Maestro- verslagen aan Adobe Experience Manager Assets te kunnen verbinden.
+>Het exemplaar van Workfront van uw organisatie moet aan het Adobe Bedrijfsplatform of Adobe Admin Console worden bezet om Adobe Workfront planningsmogensverslagen aan Adobe Experience Manager Assets te kunnen verbinden.
 >
 >Als u vragen hebt over instaptoegang tot de Adobe Admin Console, raadpleegt u de [Veelgestelde vragen over Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-U kunt nu een verbinding tot stand brengen tussen Maestro-recordtypen en Adobe Experience Manager Assets.
+U kunt nu een verbinding tot stand brengen tussen de recordtypen voor Adobe Workfront-planningsmogelijkheden en Adobe Experience Manager Assets.
 
 Nadat u de verbinding tot stand hebt gebracht, is de volgende functionaliteit beschikbaar bij deze update:
 
-* U kunt Experience Managers en mappen koppelen aan een Maestro-record vanuit een specifieke opslagplaats in Experience Manager Assets waartoe ze toegang hebben. In dit proces kunt u elementvelden verbinden met Maestro-velden.
+* U kunt Experience Manager-elementen en -mappen koppelen aan een planningscapaciteitenrecord vanuit een specifieke opslagplaats in Experience Manager Assets waartoe ze toegang hebben. In dit proces kunt u elementvelden verbinden met de planningscapaciteitvelden.
 
-* Maestro-gebruikers kunnen de naam van de verbonden elementen en de waarden van de verbonden velden in Maestro weergeven
+* Gebruikers van planningsmogelijkheden kunnen de naam van de verbonden middelen en de waarden van de verbonden velden in de planningsmogelijkheden weergeven.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* U kunt op de elementnaam in de tabelweergave van de Maestro-record klikken vanuit het verbonden recordveld en een pop-upvenster weergeven met de elementminiatuur en verschillende toetsvelden. Vanuit het pop-upvenster kunt u naar de viewer voor middelen in Experience Manager navigeren en alle gegevens erover weergeven.
+* U kunt op de naam van het element in de tabelweergave van de record met planningsmogelijkheden klikken vanuit het verbonden recordveld en een pop-upvenster weergeven met de elementminiatuur en verschillende toetsvelden. Vanuit het pop-upvenster kunt u naar de viewer voor middelen in Experience Manager navigeren en alle gegevens erover weergeven.
 
 Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Week van 4 december 2023
 
-### Informatie van het ene veld naar het andere kopiëren en plakken in de tabelweergave van Maestro voor recordvelden van het type Mensen en gekoppelde recordvelden
+### Informatie van het ene veld naar het andere kopiëren en plakken in de tabelweergave voor planningsmogelijkheden voor Personen en gekoppelde recordvelden
 
 Voorbeeld en productie: 5 december 2023
 
-U kunt nu informatie van het ene veld naar een ander veld van hetzelfde type kopiëren en plakken in een tabelweergave van het type Maestro-record. Deze functionaliteit wordt nu ondersteund voor de volgende typen velden:
+U kunt nu informatie van het ene veld naar een ander veld van hetzelfde type kopiëren en plakken in een tabelweergave met recordtype. Deze functionaliteit wordt nu ondersteund voor de volgende typen velden:
 
 * Mensen
 * Gekoppelde recordvelden
@@ -379,7 +377,7 @@ Overweeg het volgende:
 
 * Het kopiëren en plakken van veldwaarden van het ene veld naar het andere wordt ondersteund voor velden die meerdere waarden weergeven.
 
-* U kunt geen informatie kopiëren van een andere bron, behalve een Maestro-veld van hetzelfde type als het veld waarin u de informatie plakt.
+* U kunt geen informatie uit een andere bron kopiëren, behalve een veld met planningsmogelijkheden van hetzelfde type als het veld waarin u de informatie plakt.
 
 * U kunt geen veldwaarden kopiëren en plakken voor velden die worden weergegeven in het gebied Details van een record.
 
@@ -389,15 +387,15 @@ Zie voor informatie over gekoppelde velden [Verbind recordtypen](../maestro/arch
 
 ## Week van 27 november 2023
 
-### Informatie van het ene veld naar het andere kopiëren en plakken in de tabel Maestro-weergave
+### Informatie van het ene veld naar het andere kopiëren en plakken in de tabelweergave van de planningscapaciteit
 
 Voorbeeld en productie: 28 november 2023
 
-U kunt nu informatie van het ene veld naar een ander veld van hetzelfde type kopiëren en plakken in een tabelweergave van het type Maestro-record.
+U kunt informatie van één gebied aan een ander gebied van het zelfde type nu kopiëren en kleven in een het type van planningsvermogen lijstmening.
 
 Overweeg het volgende:
 
-* U kunt geen informatie kopiëren van een andere bron, behalve een Maestro-veld van hetzelfde type als het veld waarin u de informatie plakt.
+* U kunt geen informatie uit een andere bron kopiëren, behalve een veld met planningsmogelijkheden van hetzelfde type als het veld waarin u de informatie plakt.
 
 * U kunt geen veldwaarden kopiëren en plakken voor velden die worden weergegeven in het gebied Details van een record.
 
@@ -417,7 +415,7 @@ Zie voor meer informatie [Records bewerken](../maestro/records/edit-records.md).
 
 Voorbeeld en productie: 7 november 2023
 
-U kunt nu records groeperen in de tabelweergave van een recordtypepagina. U kunt groeperen door drie unieke gebieden in de interface van Maestro <!--checking into this for now: and by four fields when using the API-->.
+U kunt nu records groeperen in de tabelweergave van een recordtypepagina. U kunt door drie unieke gebieden in de planningscapaciteitinterface groeperen<!--checking into this for now: and by four fields when using the API-->.
 
 Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-
 
 Voorbeeld en productie: 30 oktober 2023
 
-De volgende veldtypen zijn geïntroduceerd voor Maestro-records:
+We hebben de volgende veldtypen geïntroduceerd voor Adobe Workfront-planningscapaciteitsrecords:
 
 * Gemaakt door
 
@@ -441,11 +439,11 @@ De veldwaarden van de velden die van deze veldtypen zijn gemaakt, zijn alleen-le
 
 Zie voor meer informatie [Velden maken](../maestro/fields/create-fields.md).
 
-### Navigeren naar Workfront-objecten vanuit een Maestro-record
+### Navigeren naar Workfront-objecten vanuit een record met planningsmogelijkheden
 
 Voorbeeld en productie: 31 oktober 2023
 
-U kunt nu de Workfront-objectpagina&#39;s openen vanuit de volgende gebieden in Maestro:
+U kunt de Workfront-objectpagina&#39;s nu vanuit de volgende gebieden openen in de planningsmogelijkheden:
 
 * De alleen-lezen gekoppelde Workfront-objectrecordtabelweergave
 
@@ -475,7 +473,7 @@ Zie voor meer informatie [Records maken](../maestro/records/connect-records.md).
 
 Voorbeeld en productie: 16 oktober 2023
 
-U kunt nu een veld van het type Mensen toevoegen aan Maestro-recordtypen. U kunt velden van het type Mensen gebruiken om bestaande gebruikers aan een record te koppelen. Zie voor meer informatie [Velden maken](../maestro/fields/create-fields.md).
+U kunt nu een veld van het type Mensen toevoegen aan recordtypen voor planningsmogelijkheden. U kunt velden van het type Mensen gebruiken om bestaande gebruikers aan een record te koppelen. Zie voor meer informatie [Velden maken](../maestro/fields/create-fields.md).
 
 ### RTF-indeling voor alineasvelden
 
@@ -530,21 +528,21 @@ U kunt nu een of meerdere rijen (of records) opnieuw rangschikken in de tabelwee
 
 ## Week van 4 september 2023
 
-### Connect Maestro-records met Workfront-bedrijven en -groepen
+### Verbind planningsmogensverslagen met Workfront bedrijven en groepen
 
 Voorbeeld en productie: 5 september 2023
 
-U kunt nu een Maestro-record verbinden met Workfront-bedrijven en -groepen. U moet eerst een verbinding maken tussen een Maestro-recordtype en de objecttypen van Workfront-bedrijven en -groepen. Vervolgens kunt u één Maestro-record van het geselecteerde recordtype verbinden met afzonderlijke Workfront-bedrijven en -groepen.
+U kunt nu een overzicht van de planningscapaciteit verbinden met Workfront-bedrijven en -groepen. U moet eerst een verbinding tot stand brengen tussen een type van het planningsvermogen verslag en de bedrijven van Workfront en de groepen objecten types. Vervolgens kunt u één planningscapaciteitenrecord van het geselecteerde recordtype verbinden met afzonderlijke Workfront-bedrijven en -groepen.
 
 Overweeg het volgende:
 
-* U moet een verbinding tussen Maestro- verslagtypes en het de objecten van het Bedrijf van Workfront en van de Groep types voor elke Werkruimte tot stand brengen.
+* U moet een verbinding tussen de types van planningsmotionverslag en het de objecten van het Bedrijf en van de Groep van Workfront voor elke Werkruimte tot stand brengen.
 
 * U kunt geen gegevenstypen voor taxonomie verbinden met Workfront-objecttypen.
 
-* U kunt meerdere Maestro-records verbinden met hetzelfde Workfront-bedrijf of dezelfde-groep en meerdere bedrijven of groepen koppelen aan hetzelfde Maestro-record.
+* U kunt veelvoudige verslagen van het planningsvermogen met het zelfde bedrijf of de groep van Workfront verbinden, en veelvoudige bedrijven of groepen aan het zelfde verslag van het planningsvermogen.
 
-* U kunt bedrijven of groepen niet bewerken in Maestro. Alle wijzigingen van het bedrijf of de groep die in Workfront zijn uitgevoerd, zijn zichtbaar in Maestro, wanneer de aan Maestro gekoppelde records worden gecontroleerd.
+* U kunt bedrijven of groepen in de planningsmogelijkheden niet bewerken. Alle bedrijf of groepsveranderingen die in Workfront worden uitgevoerd zijn zichtbaar in de planningsmogelijkheden, wanneer het herzien van de planningsmogelijkheden verbonden verslagen.
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
@@ -571,15 +569,15 @@ Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-
 
 ## Week van 21 augustus 2023
 
-### Connect Maestro-records koppelen aan programma&#39;s en portfolio&#39;s
+### Gegevens over planningsmogelijkheden van Connect Adobe Workfront koppelen aan programma&#39;s en portfolio&#39;s
 
 Voorbeeld en productie: 24 augustus 2023
 
-U kunt nu een Maestro-record verbinden met Workfront-programma&#39;s en -portfolio&#39;s. U moet een verbinding maken tussen een Maestro-recordtype en een programma of portfolio waarmee een verbonden veld wordt gemaakt. Vervolgens kunt u alle Maestro-records van alle andere recordtypen in dezelfde werkruimte verbinden met specifieke programma&#39;s en portfolio&#39;s die een recordtype Workfront Program (alleen-lezen) of Workfront Portfolio maken in dezelfde werkruimte. Overweeg het volgende:
+U kunt nu een record met planningsmogelijkheden verbinden met Workfront-programma&#39;s en -portfolio&#39;s. U moet een verbinding tot stand brengen tussen een type van het verslag van planningsmogelijkheden en een programma of een portefeuille die tot een verbonden gebied leidt. Vervolgens kunt u alle records met planningsmogelijkheden van alle andere recordtypen in dezelfde werkruimte verbinden met specifieke programma&#39;s en portfolio&#39;s die een recordtype Workfront Program (alleen-lezen) of Workfront Portfolio maken in dezelfde werkruimte. Overweeg het volgende:
 
 * Workfront-connectorrecordtypen zijn uniek voor elke werkruimte.
-* U kunt meerdere Maestro-records verbinden met hetzelfde Workfront-programma of -portfolio en meerdere programma&#39;s en portfolio&#39;s koppelen aan hetzelfde Maestro-record.
-* U kunt geen programma&#39;s en portfolio&#39;s bewerken in Maestro. Alle programma- en portfoliowijzigingen die in Workfront zijn uitgevoerd, zijn zichtbaar in Maestro bij het controleren van de gekoppelde records.
+* U kunt meerdere records met planningsmogelijkheden verbinden met hetzelfde Workfront-programma of -portfolio en meerdere programma&#39;s en portfolio&#39;s met dezelfde record met planningsmogelijkheden.
+* U kunt programma&#39;s en portfolio&#39;s niet bewerken in de planningsmogelijkheden. Alle programma- en portfoliowijzigingen die in Workfront worden uitgevoerd, worden weergegeven in de planningsmogelijkheden bij het controleren van de gekoppelde records.
 
 ### Nieuwe sorteerfunctionaliteit voor de tabelweergave
 
@@ -608,13 +606,13 @@ De tijdlijnweergave is als volgt verbeterd:
 
 ### Kolommen opnieuw ordenen in de tabelweergave
 
-U kunt de kolommen nu opnieuw ordenen in de tabelweergave Maestro. Houd rekening met het volgende wanneer u de kolommen opnieuw ordent:
+U kunt de kolommen nu opnieuw ordenen in de tabelweergave. Houd rekening met het volgende wanneer u de kolommen opnieuw ordent:
 
 * Het veld Naam is altijd het eerste veld in de tabelweergave van een pagina met recordtypen
 
 * U kunt het veld Naam niet naar een andere positie verplaatsen
 
-* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk.
+* Het veld Naam is bevroren en maakt geen deel uit van de horizontale schuifbalk
 
 ### Horizontaal schuiven voor tijdlijnweergave
 
@@ -650,7 +648,7 @@ U kunt nu een aangepast pictogram selecteren voor een recordtype en een aangepas
 
 Voorbeeld en productie: 13 juli 2023
 
-U kunt nu een veldtype van het Selectievakje aan de recordtypes van Maestro toevoegen. U kunt een veld van het type Selectievakje gebruiken om één optie voor het selectievakje aan een record toe te voegen. U kunt dit veld gebruiken om een specifiek kenmerk of een specifieke status voor die specifieke record aan te geven. U kunt deze bijvoorbeeld gebruiken als vlag voor het bijhouden van voltooiing, goedkeuring of een ander binair kenmerk voor elke record.
+U kunt nu een veldtype van Checkbox aan de types van het planningsmogensverslag toevoegen. U kunt een veld van het type Selectievakje gebruiken om één optie voor het selectievakje aan een record toe te voegen. U kunt dit veld gebruiken om een specifiek kenmerk of een specifieke status voor die specifieke record aan te geven. U kunt deze bijvoorbeeld gebruiken als vlag voor het bijhouden van voltooiing, goedkeuring of een ander binair kenmerk voor elke record.
 
 ## Week van 26 juni 2023
 
@@ -664,19 +662,19 @@ We hebben de mogelijkheid ingeschakeld om het contextafhankelijke menu te active
 
 ### Recordveldnamen zijn uniek
 
-We hebben nu de eis ingevoerd dat de veldnamen van een Maestro-recordtype unieke namen moeten hebben. Velden die tot verschillende recordtypen behoren, hoeven geen unieke naam te hebben.
+We hebben nu de eis ingevoerd dat de veldnamen van een recordtype voor planningscapaciteit unieke namen moeten hebben. Velden die tot verschillende recordtypen behoren, hoeven geen unieke naam te hebben.
 
 ## Week van 5 juni 2023
 
-### Connect Maestro-records met Workfront-projecten
+### Connect Adobe Workfront-planningsmogelijkheden registreren met Workfront-projecten
 
 Voorbeeld en productie: 5 juni 2023
 
-U kunt nu een Maestro-record verbinden met Workfront-projecten. U moet een verbindingstype van Maestro tot stand brengen verslag om de verbinding tussen Maestro verslagen en de projecten van Workfront te vestigen. Dan, kunt u om het even welke verslagen Maestro van alle andere verslagtypes met het schakelaarverslag verbinden gebruikend het gebied van de Verhouding. Overweeg het volgende:
+U kunt nu een record met planningsmogelijkheden verbinden met Workfront-projecten. U moet een type van het verslag van de schakelaarplanningsmogelijkheden tot stand brengen om de verbinding tussen de verslagen van de planningsmogelijkheden en de projecten van Workfront te vestigen. Dan, kunt u om het even welke verslagen van planningsmogelijkheden van alle andere verslagtypes met het schakelaarverslag verbinden gebruikend het gebied van de Verhouding. Overweeg het volgende:
 
 * U moet een type van schakelaarverslag voor Workfront voor elke Werkruimte hebben.
-* U kunt veelvoudige verslagen Maestro met het zelfde project van Workfront verbinden, en veelvoudige projecten aan het zelfde verslag Maestro.
-* U kunt geen projecten bewerken in Maestro. Alle projectwijzigingen die in Workfront worden uitgevoerd, zijn zichtbaar in Maestro wanneer de gekoppelde records worden gecontroleerd.
+* U kunt veelvoudige verslagen van planningsmogelijkheden met het zelfde Workfront project verbinden, en veelvoudige projecten aan het zelfde verslag van planningsmogelijkheden.
+* U kunt geen projecten in planningsmogelijkheden uitgeven. Alle projectveranderingen die in Workfront worden uitgevoerd zijn zichtbaar in planningsmogelijkheden, wanneer het herzien van de verbonden verslagen.
 
 ## Week van 29 mei 2023
 

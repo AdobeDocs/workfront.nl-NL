@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '3339'
+source-wordcount: '3341'
 ht-degree: 0%
 
 ---
@@ -379,7 +379,7 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maest
    >
    > * U kunt geen multiselect-tekstvelden toevoegen aan een formule.
    >
-   > * U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Adobe Maestro-releaseactiviteit](/help/quicksilver/maestro/release-activity.md).
+   > * U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Release-activiteit Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klikken **Maken**.

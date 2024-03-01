@@ -1,7 +1,7 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2193'
 ht-degree: 0%
 
 ---
@@ -253,13 +253,13 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel verwijst naar Adobe Maestro, een nieuw aanbod van Adobe Workfront.
+>De informatie in dit artikel heeft betrekking op de planningsmogelijkheden van Adobe Workfront, een nieuwe aanbieding van Adobe Workfront.
 >
->Adobe Maestro maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om Maestro-mogelijkheden te kunnen gebruiken.
+>Momenteel maken de planningsmogelijkheden deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
 >
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Maestro.
+>Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor de planningsmogelijkheden.
 >
->Zie voor meer informatie over Maestro [Overzicht van Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+>Voor meer informatie over planningsmogelijkheden, zie [Overzicht van Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

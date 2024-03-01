@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
+source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
 workflow-type: tm+mt
-source-wordcount: '13992'
+source-wordcount: '13996'
 ht-degree: 0%
 
 ---
@@ -2018,8 +2018,8 @@ ht-degree: 0%
       * [Meldingen voor Adobe Workfront-doelen inschakelen](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
    * [Adobe Maestro-informatie](maestro/maestro-information.md)
-   * [Overzicht van Adobe Maestro](maestro/maestro-overview.md)
-   * [Adobe Maestro-releaseactiviteit](maestro/release-activity.md)
+   * [Overzicht van Adobe Workfront-planningsmogelijkheden](maestro/maestro-overview.md)
+   * [Release-activiteit Adobe Workfront-planningsmogelijkheden](maestro/release-activity.md)
    * Adobe Maestro architectuur {#adobe-maestro-architecture}
       * [Architectuur: artikelindex](maestro/architecture/architecture-information.md)
       * [Werkruimten maken](maestro/architecture/create-workspaces.md)
