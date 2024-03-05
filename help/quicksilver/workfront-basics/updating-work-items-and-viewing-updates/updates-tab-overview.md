@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Voorbeeld van de sectie Updates in de productieomgeving:
 * In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
 
    * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. <span class="preview">Eventuele reacties op de systeemactiviteitenrecords in de oudere opmerkingervaring worden op het tabblad Systeemactiviteit als alleen-lezen ingevuld.</span> Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * De volgende objecten hebben geen tabblad Systeemactiviteit <span class="preview">of het tabblad Alles</span>:

@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4279'
 ht-degree: 0%
 
 ---
@@ -322,7 +322,7 @@ U kunt updates toevoegen aan de volgende objecten:
 
    >[!TIP]
    >
-   >U kunt geen opmerking toevoegen aan een systeemupdate.
+   >U kunt geen opmerking toevoegen aan een systeemupdate. <span class="preview">Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring worden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only.</span>
 
 1. <span class="preview">(Optioneel) Klik op de knop **Alles** -tabblad om zowel opmerkingen over de gebruikersactiviteit als opmerkingen over de systeemactiviteit op één plaats weer te geven. Dit is een alleen-weergeven tabblad.</span>
 
