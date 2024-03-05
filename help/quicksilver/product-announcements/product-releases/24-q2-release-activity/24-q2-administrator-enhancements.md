@@ -4,9 +4,9 @@ description: Tweede kwartaal 2024 Verbeteringen voor beheerders
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Deze pagina beschrijft alle beheerderverhogingen die met de Tweede Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 26 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: 24.4 (april 2024)
+
+De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (selecteren, premier of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.
+
+Voor meer informatie over de integratie JumpSeat raadpleegt u [De integratie met JumpSeat configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper
 

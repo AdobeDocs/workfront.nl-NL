@@ -7,9 +7,9 @@ description: Met een lay-outsjabloon kunt u configureren wat gebruikers zien wan
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,14 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       <p>Selecteer welke widgets in de werkruimten van de gebruikers aanwezig zullen zijn, hun positie, en kies een achtergrond. Hoewel gebruikers de geselecteerde widgets niet kunnen verwijderen, kunnen ze deze wel verplaatsen, de grootte ervan wijzigen en extra widgets toevoegen.</p>
       <p>Dit tabblad functioneert in feite als een kleine nieuwe werkruimte Home. Het kan daarom worden aangepast volgens de stappen die worden beschreven in <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Widgets toevoegen, bewerken of verwijderen in nieuwe startpagina</a>. Selecteer widgets en rangschik de werkruimte zoals u deze voor gebruikers wilt weergeven.</p>
       <p>Voer de volgende stappen uit om de achtergrond te wijzigen <b>Achtergrondaanpassing</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Aan de slag met Nieuwe startpagina</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>Alleen het verplaatsen of vergroten of verkleinen van widgets in de Lay-outsjabloon leidt ertoe dat de nieuwe startpagina&#39;s van gebruikers hun lay-out niet bijwerken. Als u echter een widget toevoegt of verwijdert, wordt de pagina&#39;s van de gebruiker bijgewerkt.
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Widget-instellingen</td> 
@@ -93,18 +100,24 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       </ul>
       <p>Nadat u de widget hebt geselecteerd die u wilt bewerken, worden de beschikbare opties rechts weergegeven. Deze opties omvatten <b>Filters</b>, <b>Kolommen</b>, en <b>Groepen</b>. U kunt:</p>
       <ul>
-        <li><b>Selecteer welke filters, kolommen of groepen beschikbaar zijn voor gebruikers:</b><p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Niet-geselecteerde opties worden niet weergegeven voor gebruikers.</li></p>
-        <li><b>Stel een standaardfilter of -groep in voor de widget:</b><p>Houd de muis boven een optie en er verschijnt een knop waarmee u die optie als de standaardinstelling voor gebruikers kunt instellen. De huidige standaardinstelling heeft rechts een blauwe standaardbadge.</li></p>
-        <li><b>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties:</b><p>Klik op de knop met het plusteken onder aan elke lijst om een optie aan die lijst toe te voegen. Merk op dat alleen bestaande filters, velden (voor kolommen) of groepen op deze manier kunnen worden toegevoegd.</li></p>
+      <li><p><b>Selecteer welke filters, kolommen of groepen beschikbaar zijn voor gebruikers:</b></p>
+      <p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Niet-geselecteerde opties worden niet weergegeven voor gebruikers.</li></p>
+      <li><p><b>Stel een standaardfilter of -groep in voor de widget:</b></p>
+      <p>Houd de muis boven een optie en er verschijnt een knop waarmee u die optie als de standaardinstelling voor gebruikers kunt instellen. De huidige standaardinstelling heeft rechts een blauwe standaardbadge.</li></p>
+      <li><p><b>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties:</b></p>
+      <p>Klik op de knop met het plusteken onder aan elke lijst om een optie aan die lijst toe te voegen. Merk op dat alleen bestaande filters, velden (voor kolommen) of groepen op deze manier kunnen worden toegevoegd.</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Als u een standaardfilter of groep voor een specifieke widget instelt met een lay-outsjabloon, wordt dit mogelijk niet onmiddellijk van kracht vanwege bestaande gebruikersvoorkeuren. Als u het nieuwe filter of de nieuwe groep direct wilt toepassen, moet u of de gebruiker zijn gebruikersvoorkeuren mogelijk opnieuw instellen door &#39;/resetUser&#39; toe te voegen aan het einde van de URL.
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Blijf het lay-outmalplaatje aanpassen.
 

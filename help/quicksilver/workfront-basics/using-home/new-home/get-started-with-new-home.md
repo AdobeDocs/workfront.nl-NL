@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
 * **Alle goedkeuringen**\
     Toont alle goedkeuringen voor uw organisatie in een lijst met klantgerichte kolommen, evenals een onderzoeksbar die u toestaat om naar specifieke goedkeuringen te zoeken.
 
-* **Goedkeuringen in behandeling**&lt;\
+* **Goedkeuringen in behandeling**\
     De goedkeuringen van vertoningen die aan een document op een project worden toegewezen u bezit. Hier kunt u de goedkeuringsstatus weergeven en gebruikers herinneren aan onvolledige beoordelingen en goedkeuringen. <span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span>
 
 * **Opmerkingen**\
