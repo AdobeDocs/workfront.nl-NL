@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 0%
@@ -264,7 +264,7 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Aantal werkruimten voor één Workfront-instantie | 1.000 |
 | Aantal recordtypen voor één werkruimte | 1.000 (inclusief taxonomieën voor de werkruimte of objecten die u uit andere toepassingen importeert) |
-| Aantal records voor één recordtype | 10.000 |
+| Aantal records voor één recordtype | 50.000 |
 | Aantal velden voor één recordtype of taxonomie | 500 |
 | Aantal tekens voor een tekstveld | 1.000 tekens |
 | Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1 MB |
