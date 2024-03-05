@@ -4,9 +4,9 @@ description: 'Tweede kwartaal 2024: Verbeteringen op gebied van updatestroom en 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,16 @@ De nieuwe opmerkingervaring is als volgt verbeterd:
 * Uw gebruikersnaam wordt gemarkeerd in opmerkingen waarop u bent gelabeld wanneer u wordt vermeld in de tekst van de opmerking.
 
 Zie voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+## Het tabblad Systeemactiviteit van de nieuwe opmerkingervaring ondersteunt alleen-lezen opmerkingen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+
+Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring worden nu op het tabblad Systeemactiviteit van de nieuwe opmerkingervaring alleen-lezen weergegeven. U kunt niet reageren op de records met systeemactiviteiten in de nieuwe opmerkingervaring.
+
+Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen
 
