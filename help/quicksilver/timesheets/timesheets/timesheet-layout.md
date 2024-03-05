@@ -7,9 +7,9 @@ description: In dit artikel wordt de lay-out van tijdbladen in Adobe Workfront b
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -137,6 +137,14 @@ Alle opmerkingen die zijn gemaakt op de tijdlijnweergave in dit gebied.
 
 ## Het deelvenster Samenvatting
 
+<div class="preview">
+
+Voorbeeld in de voorvertoningsomgeving:
+![Het deelvenster Samenvatting](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+Voorbeeld in de productieomgeving:
 ![Het deelvenster Samenvatting](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 U kunt het deelvenster Samenvatting openen voor taken of problemen die in een tijdblad worden weergegeven. Hier kunt u opmerkingen maken over taken en problemen, of de gegevens van deze taken en problemen bijwerken. Zie voor meer informatie [Overzicht van samenvattingen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
