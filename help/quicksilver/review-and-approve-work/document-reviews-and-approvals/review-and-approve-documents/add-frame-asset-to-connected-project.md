@@ -5,9 +5,9 @@ title: Frame.io-element toevoegen aan een verbonden Workfront-project
 description: Creatieve personen kunnen elementen toevoegen die moeten worden gecontroleerd aan Frame.io en deze naar Workfront verzenden voor formele controle en goedkeuring.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 4edb4f8d0c309c77fbdf96eba056c9e763c799be
+source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 ## Vereisten
 
 * Er moet een Workfront-groep zijn verbonden met een Frame.io-team.
-* U moet een project hebben van Workfront dat met een project Frame.io wordt verbonden en als gebruiker aan een kader-toegelaten taak worden toegevoegd.
+* U moet een Workfront project hebben dat met een project Frame.io wordt verbonden en als gebruiker aan een taak van Workfront worden toegevoegd die voor Frame.io wordt toegelaten.
 
 Zie voor meer informatie [Connect Workfront en Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 

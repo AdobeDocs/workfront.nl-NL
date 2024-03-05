@@ -5,9 +5,9 @@ title: Workfront en Frame.io verbinden
 description: Workfront gebruikt Frame.io in het revisie- en goedkeuringsproces om mensen te ontmoeten waar ze willen werken. Het projectbeheer en goedkeuringsproces worden beheerd in Workfront en het controleproces wordt uitgevoerd in Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f50d102eb9c44abb9780c378c41c108b124077c4
+source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -15,18 +15,16 @@ ht-degree: 0%
 
 # Workfront en Frame.io verbinden
 
-Workfront gebruikt Frame.io in het revisie- en goedkeuringsproces om mensen te ontmoeten waar ze willen werken. Het projectbeheer en goedkeuringsproces worden beheerd in Workfront en het controleproces wordt uitgevoerd in Frame.io. U moet alle volgende secties voltooien om de integratie te voltooien:
+Workfront gebruikt Frame.io in het revisie- en goedkeuringsproces om mensen te ontmoeten waar ze willen werken. Het projectbeheer en goedkeuringsproces worden beheerd in Workfront en het revisieproces wordt voltooid in Frame.io. U moet alle volgende secties voltooien om de integratie te voltooien:
 
 * [Een Workfront-groep verbinden met een Frame.io-team](#connect-a-workfront-group-to-a-frameio-team)
 * [Een Workfront-project maken en een verbonden groep toevoegen](#create-a-workfront-project-and-add-a-connected-group)
 
->[!IMPORTANT]
->
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
-* Uw organisatie moet handmatig zijn ingeschakeld om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Zie voor meer informatie [Standaard Adobe Workfront- en Frame.io-integratie alfa: overzicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* Uw organisatie moet handmatig zijn ingeschakeld om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Zie voor meer informatie [Standaard Adobe Workfront- en Frame.io-integratie alfa: overzicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 
 ## Een Workfront-groep verbinden met een Frame.io-team
@@ -43,16 +41,16 @@ We zijn in mei bezig deze functie actief te verbeteren voor algemene beschikbaar
 {{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Groepen**.
-1. Kies en bestaande groep of klik op **Groep maken**.
+1. Kies een bestaande groep of klik op **Groep maken**.
 1. Klik in het linkerdeelvenster op **Verbinding maken met Frame.io**.
    ![](assets/connect-frame-group.png)
 1. Voer het API-ontwikkelaarstoken in.
 1. Klikken **Verbinding starten**.
-1. (Voorwaardelijk) Selecteer een Frame.io-account.
+1. (Voorwaardelijk) Als u de beheerder bent van meer dan één Frame.io-account, selecteert u de account die u wilt gebruiken.
 
 ## Een Workfront-project maken en een verbonden groep toevoegen
 
-Zodra u een Groep van Workfront met een team Frame.io hebt verbonden, moet u een project met die verbonden groep tot stand brengen.
+Nadat u een Groep van Workfront met een team Frame.io hebt verbonden, moet u een project met die verbonden groep tot stand brengen.
 
 ### Vereisten
 
@@ -81,7 +79,7 @@ Zodra u een Groep van Workfront met een team Frame.io hebt verbonden, moet u een
 
 >[!NOTE]
 >
->Subtaken worden momenteel niet ondersteund.
+>Subtaken worden momenteel niet gesteund in verbonden projecten Frame.io.
 
 
 1. Creeer de taken u in Frame.io moet bevolken
@@ -92,9 +90,10 @@ Zodra u een Groep van Workfront met een team Frame.io hebt verbonden, moet u een
 
    >[!IMPORTANT]
    >
-   >U moet de met Frame.io verbonden groep toevoegen om dit douaneformulier op de taken te zien.
+   >Dit formulier wordt alleen weergegeven als er een verbonden Frame.io-groep is toegewezen in het gebied Projectdetails. Zie voor meer informatie [Een Workfront-project maken en een verbonden groep toevoegen](#create-a-workfront-project-and-add-a-connected-group) in dit artikel.
 
-1. Schakel het selectievakje in en kies **Actief**.
+
+1. De optie **De integratiestatus van deze taak** selectievakje en kies **Actief**.
    ![](assets/frame-custom-form.png)
 
 1. Klikken **Wijzigingen opslaan**. Er wordt een pictogram Frame.io weergegeven naast de projectnaam.
@@ -111,6 +110,12 @@ Het project is nog niet verbonden, moet u aan de volgende sectie verdergaan om d
 
 ### Het project inschakelen in Frame.io
 
-1. De status wijzigen vanuit **Planning** tot **Huidig** of een aangepaste status die gelijk is aan de huidige status. Dit voltooit de integratie en produceert het project, de taken, en om het even welke documenten in Frame.io.
+1. De projectstatus wijzigen vanuit **Planning** tot **Huidig** of een aangepaste status die gelijk is aan de huidige status. Dit voltooit de integratie en produceert het project, de taken, en om het even welke documenten in Frame.io.
 
 Het pictogram Frame.io naast de projectnaam wordt paars het signaleren van de integratie succesvol. De gebruikers ontvangen een e-mail uitnodigend hen aan het Frame.io project.
+
+>[!IMPORTANT]
+>
+>Zodra het project voor Frame.io wordt aangesloten, worden de veranderingen die aan de projectgroep worden aangebracht niet weerspiegeld in Frame.io.
+
+
