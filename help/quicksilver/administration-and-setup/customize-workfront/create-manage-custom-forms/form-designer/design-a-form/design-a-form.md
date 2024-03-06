@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
 workflow-type: tm+mt
-source-wordcount: '5171'
+source-wordcount: '5592'
 ht-degree: 0%
 
 ---
 
 # Een formulier ontwerpen met de formulierontwerper
+
+{{highlighted-preview}}
 
 U kunt een aangepast formulier ontwerpen met de formulierontwerper. U kunt aangepaste formulieren aan verschillende Workfront-objecten koppelen om gegevens over die objecten vast te leggen.
 
@@ -80,7 +82,9 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    * [Berekende velden toevoegen](#add-calculated-fields)
    * [Keuzerondjes, groep selectievakjes en vervolgkeuzelijsten toevoegen](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Velden voor typekop en datum toevoegen](#add-typeahead-and-date-fields)
+   * [Externe opzoekvelden toevoegen](#add-external-lookup-fields)
    * [Afbeeldingen, PDF en video&#39;s toevoegen](#add-images-pdfs-and-videos)
+   * [Native Workfront-velden toevoegen](#add-workfront-native-fields)
    * [Adobe XD-bestanden toevoegen](#add-adobe-xd-files)
 
 ## Nieuwe of bestaande velden toevoegen aan uw aangepaste formulier
@@ -645,7 +649,7 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd.</p> <p>Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> <p><b>BELANGRIJK</b>: Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in de widget hebben gebruikt. Als u dat doet, herkent het systeem de widget niet meer waar er nu naar kan worden verwezen in andere gebieden van Workfront. </p> <p>Elke widgetnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. </p> </td> 
+      <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd.</p> <p>Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> <p><b>BELANGRIJK</b>: Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem de widget niet meer waar er nu naar kan worden verwezen in andere gebieden van Workfront. </p> <p>Elke widgetnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -699,6 +703,55 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
    of
 
    Klikken **Opslaan en sluiten**.
+
+<div class="preview">
+
+### Native Workfront-velden toevoegen
+
+U kunt eigen Workfront-velden toevoegen aan uw aangepaste formulieren. Wanneer het aangepaste formulier aan een object is gekoppeld, wordt het veld gevuld met de objectgegevens. Het veld Beschrijving op een aangepast formulier dat aan een project is gekoppeld, wordt bijvoorbeeld toegevoegd aan de projectbeschrijving. (Het veld mag &quot;N.v.t.&quot; weergeven als er geen gegevens beschikbaar zijn.)
+
+1. Op de linkerkant van het scherm, vind **Oorspronkelijk veld** en sleep het naar een sectie op het canvas.
+1. Configureer rechts in het scherm de opties voor het aangepaste veld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Naam</td> 
+      <td> <p>(Vereist) Met deze naam geeft het systeem het veld aan.</p><p> Wanneer u het veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
+      <p><b>BELANGRIJK</b>:
+      <ul> 
+      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem niet langer het veld waar er nu naar kan worden verwezen in andere gebieden van Workfront.</p> </li>
+      <li> <p>Elke veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt.</p> </li>
+      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instructies</td> 
+      <td> <p>Typ eventuele aanvullende informatie over het veld. Wanneer gebruikers het aangepaste formulier invullen, kunnen ze de muisaanwijzer boven het pictogram van het vraagteken plaatsen om knopinfo weer te geven met de informatie die u hier typt.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Referentieveld</td> 
+      <td><p>(Vereist) Selecteer een eigen Workfront-veld.<p><p>Alleen native velden voor de objecten van het formulier zijn beschikbaar. Als bijvoorbeeld de lijst Objecttypen boven aan de formulierontwerper Project weergeeft, kunt u native velden selecteren voor projecten, maar niet voor velden die specifiek zijn voor taken.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Grootte</td> 
+      <td>(Optioneel) Wijzig desgewenst de weergavegrootte van het veld.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+
+   of
+
+   Klikken **Opslaan en sluiten**.
+
+</div>
 
 ### Adobe XD-bestanden toevoegen
 
