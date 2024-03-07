@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2394'
 ht-degree: 0%
 
 ---
@@ -622,6 +622,10 @@ Voor elk promotieobject een van de volgende `actions`  wordt ingesteld:
   <tr> 
    <td>GEBRUIKELIJK</td> 
    <td><p>Wanneer een corresponderende record wordt gevonden in de doelomgeving, wordt de actie ingesteld op USEEXISTING en een <code>targetId</code> wordt ook vastgelegd in de <code>translationmap</code>.</p><p>Wanneer deze handeling is ingesteld in het dialoogvenster <code>translationmap</code> die aan de <code>/install</code> eindpunt, zal de installatieservice niet het verslag tot stand brengen. Het zal echter gebruikmaken van de <code>targetId</code> opgenomen in het kaartitem voor andere objecten die mogelijk een verwijzing naar deze record bevatten.</p><p>Een standaardgroep kan bijvoorbeeld worden gevonden in de doelomgeving waarin een pakket wordt geïmplementeerd. Het is niet mogelijk om twee "Standaard verslagen van de Groep"te hebben, zodat zal de installatieservice GUID voor de bestaande groep in een andere acties van de objecten tot stand brengen die een verwijzing naar de "StandaardGroep"omvatten, zoals een project, een vorm, of een andere entiteit die met deze groep verwant is.</p><p><b>Opmerking:</b> <ul><li><p>Wanneer de USEEXISTING-actie wordt toegewezen, wordt de bestaande record in de doelomgeving niet gewijzigd. </p><p>Als bijvoorbeeld de beschrijving van de standaardgroep is gewijzigd in de sandbox waarin het pakket is gemaakt en de beschrijvingswaarde in de doelomgeving afwijkt, blijft de waarde ongewijzigd na een installatie met deze <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>OVERSCHRIJVEN</td> 
+   <td><p>Deze handeling wordt niet automatisch ingesteld.</p><p>Met deze actie kunt u een object bijwerken dat in de doelomgeving bestaat. Het biedt de mogelijkheid om een handmatige overschrijving uit te voeren van een toegewezen CREATE- of USEEXISTING-handeling voordat de handeling wordt uitgevoerd <code>/install</code> vraag.<ul><li>Een gebruiker kan een object bijwerken in de testomgeving en vervolgens de actie OVERSCHRIJVEN gebruiken om dat object bij te werken in de doelomgeving.</p></li><li><p>Als de gebruiker eerst één promotiepakket installeert en vervolgens een nieuw (of bijgewerkt) pakket in de toekomst wijzigingen bevat in objecten in het eerste pakket, kan de gebruiker met OVERSCHRIJVEN eerder geïnstalleerde objecten vervangen (overschrijven). </p></li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
