@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '5592'
+source-wordcount: '5620'
 ht-degree: 0%
 
 ---
@@ -511,6 +511,8 @@ Zie voor voorbeelden van het gebruik van het veld External Lookup om dezelfde in
 >[!NOTE]
 >
 >Externe opzoekfunctionaliteit is niet beschikbaar voor Document- of gebruikersobjecten.
+>
+>Externe opzoekvelden van aangepaste formulieren worden momenteel niet ondersteund in dashboards. U kunt de veldwaarde niet inline bewerken en deze wordt mogelijk niet correct weergegeven in een dashboard.
 
 Een externe zoekopdracht toevoegen:
 
