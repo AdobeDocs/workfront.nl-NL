@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '4603'
+source-wordcount: '4316'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,6 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 
 ## 4 maart 2024
 
-### Opnamedetails in één oogopslag weergeven in de tabelweergave
-
-Productie: 7 maart 2024
-
-Voorbeeld: te bepalen
-
-Om het gemakkelijker te maken om extra informatie over verslagen te bekijken wanneer het gebruiken van de lijstmening, hebben wij een nieuw paneel geïntroduceerd dat een snelle mening van de details van het verslag toont. Hier volgt een aantal informatie uit dit deelvenster:
-
-* relevante recorddetails in een oogopslag
-
-* mogelijkheid om recordgegevens te wijzigen
-
-* een koppeling om de pagina Details van de record te openen
-
-Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
-
 ### Rijhoogte wijzigen in de tabelweergave
 
 Productie: 7 maart 2024
@@ -66,37 +50,79 @@ U kunt de rijhoogte bijwerken naar een van de volgende formaten:
 
 Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-### Nieuw ontwerp met tabs voor recordweergaven
+<!--
+## Week of March 11, 2024
 
-Productie: 7 maart 2024
+### At-a-glance record details display in the table view
 
-Voorbeeld: te bepalen
+Production: March 14, 2024
 
-Voor een betere navigatie en gebruiksvriendelijkheid hebben we de weergave van recordweergaven opnieuw ontworpen. De weergaven worden nu horizontaal weergegeven als tabbladen op de pagina met recordtypen, zodat u er gemakkelijk doorheen kunt navigeren. Voorafgaand aan deze verbetering, worden de meningen getoond in het drop-down menu van de Mening.
+Preview: To be determined 
 
-Weergaven worden chronologisch weergegeven op de toegevoegde datum van links naar rechts. De gedeelde meningen tonen ook in chronologische orde van wanneer zij werden gedeeld.
+To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
 
-Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/maestro/views/manage-record-views.md).
+* relevant record details at a glance 
 
-### Dynamisch ontwerp van een recordweergave
+* ability to modify record information 
 
-Productie: 7 maart 2024 Voorbeeld: nog te bepalen
+* a link to open the record's Details page 
 
-We hebben de weergave van de weergaven op de pagina met recordtypen bijgewerkt. De nieuwe weergaven reageren dynamisch en passen zich snel aan de grootte van het scherm aan. De labels van de werkbalkopties zijn verborgen, zodat de werkbalk gemakkelijker op kleinere schermen kan worden gebruikt.
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
-Raadpleeg de volgende artikelen voor meer informatie:
-* [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md)
-* [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+### New tabbed design for record views 
 
-### Nieuwe kalenderweergave voor records
+Production: March 14, 2024 
 
-Productie: 7 maart 2024
+Preview: To be determined 
 
-Voorbeeld: te bepalen
+For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
 
-U kunt nu records weergeven in een kalenderweergave. U moet ten minste twee datumvelden op een recordtype hebben om de kalenderweergave te kunnen maken.
+Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
 
-Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+
+### Dynamic design of a record view
+
+Production: March 14, 2024
+Preview: To be determined 
+
+We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+
+For more information, see the following articles: 
+* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
+* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### New calendar view for records
+
+Production: March 14, 2024 
+
+Preview: To be determined 
+
+You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+
+For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+
+### Allow System Administrators to manage all shared views 
+
+Production: < date > 
+
+Preview: To be determined 
+
+To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
+
+For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+### Unauthorized page when sharing a view without permissions
+
+ Production: < date > 
+
+Preview: To be determined 
+
+ When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
+
+ For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+-->
 
 ## Week van 26 februari 2024
 

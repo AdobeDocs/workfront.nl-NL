@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Een tabelweergave beheren:
 1. Een tabelweergave maken, zoals wordt beschreven in het artikel [Recordweergaven beheren](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. (Optioneel) Klik op **Rijhoogte** Selecteer vervolgens een van de volgende opties om de hoogte van de tabelrijen te wijzigen:
+   * Kort
+   * Normaal
+   * Lang
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Kolommen (of velden)](#add-columns-or-fields)

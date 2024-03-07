@@ -1,13 +1,13 @@
 ---
 title: Recordweergaven beheren
-description: U kunt records in een tabel- of tijdlijnweergave weergeven wanneer u Adobe Maestro gebruikt.
+description: U kunt records weergeven in een tabel-, tijdlijn- of kalenderweergave wanneer u de Adobe Workfront-planningsmogelijkheden gebruikt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nadat u een recordtype hebt geselecteerd in Adobe Maestro, kunt u alle records van dat type weergeven in de volgende weergaven:
+Nadat u een recordtype hebt geselecteerd in het gedeelte met planningsmogelijkheden van Adobe Workfront, kunt u alle records van dat type weergeven in de volgende weergaven:
 
 * Tabel
 
   Zie voor meer informatie [De tabelweergave beheren](../views/manage-the-table-view.md).
+
 * Tijdlijn
 
   Zie voor meer informatie [De tijdlijnweergave beheren](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## Toegangsvereisten
 
@@ -46,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planningsmogelijkheden van Workfront</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
-## Overwegingen bij het werken met Maestro-weergaven
+## Overwegingen bij het werken met recordweergaven
 
-* Weergaven in Maestro zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
+* Weergaven in het gedeelte met Workfront-planningsmogelijkheden zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
 * Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
 * Het bouwen van meningen voor operationele verslagtypes is identiek aan het bouwen van meningen voor taxonomie verslagtypes.
 * Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
-* De volgende elementen zijn uniek voor elke weergave in Maestro:
+* De volgende elementen zijn uniek voor elke recordweergave:
 
    * Filter
    * Groepering
@@ -100,7 +105,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
   >[!NOTE]
   >
-  > Omdat Maestro zich momenteel in een bètastatus bevindt, zijn sommige weergave-elementen mogelijk niet beschikbaar voor beide weergaven.
+  > Omdat de Adobe Workfront-planningsmogelijkheden zich momenteel in een bètastatus bevinden, zijn sommige weergave-elementen mogelijk niet beschikbaar voor alle weergaven.
 
 In dit artikel wordt de volgende informatie over Maestro-weergaven beschreven:
 
@@ -111,6 +116,8 @@ In dit artikel wordt de volgende informatie over Maestro-weergaven beschreven:
 * [Een weergave delen](#share-a-view)
 
 ## Gelijkaardigheden en verschillen tussen de tabel- en tijdlijnweergaven
+
+<!-- should we include Calendar here or remove this section???-->
 
 In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel- en tijdlijnweergaven in Maestro weergegeven:
 
@@ -180,7 +187,7 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
    Of klik op **Volgende**, bij het maken van een tijdlijn <!--or calendar--> weergeven.
 
-   Standaard krijgt Maestro de naam van de weergave &quot;Tabel &lt; nummer >&quot; of &quot;Tijdlijn &lt; nummer >&quot;. Het getal is een automatisch gegenereerde toename.
+   Standaard krijgt de weergave in Workfront de naam &quot;Tabel &lt; nummer >&quot; of &quot;Tijdlijn &lt; nummer >&quot;, <!--or "Calendar < number >"-->. Het getal is een automatisch gegenereerde toename.
 
 1. (Voorwaardelijk) Selecteer de begin- en einddatum voor de records die in de tijdlijn worden weergegeven <!--or calendar--> weergeven en vervolgens op **Maken**.
 1. (Optioneel) Als u de naam van een weergave wilt wijzigen nadat deze is gemaakt, klikt u op de vervolgkeuzelijst Weergave en vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Naam wijzigen** om de weergavenaam bij te werken. <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 1. Klik op het vervolgkeuzemenu Weergave, houd de muisaanwijzer boven een van de weergaven in de lijst en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Verwijderen**.
 1. Klikken **Verwijderen** ter bevestiging. <!--ensure there is not another saving step here?!-->
 
-   De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het Maestro-gebied en kan niet worden hersteld.
+   De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het recordgebied en kan niet worden hersteld.
 
 ## Een weergave delen
 
