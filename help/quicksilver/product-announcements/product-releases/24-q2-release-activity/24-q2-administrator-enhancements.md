@@ -4,9 +4,9 @@ description: Tweede kwartaal 2024 Verbeteringen voor beheerders
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Native velden die worden gebruikt in aangepaste formulieren, worden beschikbaar 
 
 Deze functie is alleen beschikbaar in de bètaversie van de formulierontwerper, niet in de verouderde formulierbuilder.
 
-De artikelen van het Experience League voor deze functie zullen tegen 7 maart worden bijgewerkt.
+Zie voor meer informatie [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Kenmerktoewijzing is nu beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS
 
@@ -55,7 +57,7 @@ Systeembeheerders van Workfront kunnen nu gebruikerskenmerktoewijzingen instelle
 
 Eerder was deze functionaliteit alleen beschikbaar voor organisaties die nog niet waren aangemeld bij Adobe IMS.
 
-Voor instructies bij het vormen attributenafbeelding, zie **Gebruikerskenmerken toewijzen in de verenigde Adobe** in het artikel [Kenmerken van gebruikers toewijzen en nieuwe gebruikers automatisch instellen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Voor instructies bij het vormen attributenafbeelding, zie [Gebruikerskenmerken toewijzen in de verenigde Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in het artikel **Kenmerken van gebruikers toewijzen en nieuwe gebruikers automatisch instellen**.
 
 ## Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper
 

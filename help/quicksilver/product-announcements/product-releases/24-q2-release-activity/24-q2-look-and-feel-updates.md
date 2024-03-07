@@ -4,9 +4,9 @@ description: De blik-en-voelen updates tijdens het Tweede Kwartaal 2024 de tijdk
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De e-mailsjablonen voor het toevoegen van een fiatteur aan een middel en voor he
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 8 februari 2024; productie voor snelle release: met de release van 24.3 (maart 2024); productie voor driemaandelijkse release: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 8 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor driemaandelijkse release: met de release van 24.4 (april 2024)
 
 We hebben de tabbladen voor Forms, Fields en secties in het gebied Setup > Custom Forms bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront. U hebt nu toegang tot de drie gebieden via het navigatiemenu links. Filters, weergaven en groepen zijn nog steeds beschikbaar voor de lijsten. Het bijgewerkte ontwerp is van toepassing op aangepaste formulieren, velden en secties die zijn gemaakt in zowel de nieuwe formulierontwerper als de oudere formulierontwerper.
 

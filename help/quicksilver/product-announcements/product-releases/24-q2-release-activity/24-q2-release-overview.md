@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen</a></p>
                         <p>De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (selecteren, premier of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -76,7 +76,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper</a></p>
                         <p>Native velden voor Workfront kunnen nu worden toegevoegd aan aangepaste formulieren. Met dit nieuwe veldtype kunt u gegevens op een logische manier ordenen en presenteren aan uw gebruikers, zonder dat u bestaande gegevens opnieuw hoeft te maken in aangepaste velden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -194,7 +194,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 13 februari 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
@@ -212,7 +212,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
@@ -241,8 +241,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
-                        <p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan de <b>Nieuwe update toevoegen</b> snelle actieknop in Mijn Werk, Mijn Projecten, Mijn Taken, en Mijn Kwesties widgets in nieuw Huis.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets</a></p>
+                        <p>We hebben nu de nieuwe functionaliteit voor opmerkingen toegevoegd aan de knop Snelle actie toevoegen in Mijn werk, Mijn projecten, Mijn taken en Mijn problemen in de nieuwe widgets Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -260,7 +260,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p><p>De nieuwe opmerkingervaring is als volgt verbeterd:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen</a></p><p>De nieuwe opmerkingervaring is als volgt verbeterd:</p>
                         <ul>
                             <li>
                                 <p>U kunt op de naam van een opmerking klikken om de naam, de rol en het e-mailadres van de persoon of persoon weer te geven in een informatievak. Deze informatie kan u helpen de correcte gebruiker identificeren, als u meer dan één gebruiker met de zelfde naam hebt. Wanneer u in het informatievak op de naam van de aanvrager klikt, wordt het gebruikersprofiel van deze persoon geopend.</p>
@@ -294,7 +294,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 22 februari 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
@@ -312,7 +312,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 22 februari 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
@@ -330,7 +330,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 22 februari 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>

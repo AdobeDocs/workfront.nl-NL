@@ -4,9 +4,9 @@ description: 'Tweede kwartaal 2024: Verbeteringen op gebied van updatestroom en 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/wor
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
 
 De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.
 
