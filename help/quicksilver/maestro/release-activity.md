@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '4258'
+source-wordcount: '4603'
 ht-degree: 0%
 
 ---
@@ -32,59 +32,71 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
-<!--
-## Week of March 4, 2024
+## 4 maart 2024
 
-### Change row height in the table view
+### Opnamedetails in één oogopslag weergeven in de tabelweergave
 
-Production: March 7, 2024 
+Productie: 7 maart 2024
 
-Preview: To be determined 
+Voorbeeld: te bepalen
 
-You now have an option to modify the height of a row when displaying records in the table view.
+Om het gemakkelijker te maken om extra informatie over verslagen te bekijken wanneer het gebruiken van de lijstmening, hebben wij een nieuw paneel geïntroduceerd dat een snelle mening van de details van het verslag toont. Hier volgt een aantal informatie uit dit deelvenster:
 
-You can update the row height to one of the following sizes:  
+* relevante recorddetails in een oogopslag
 
-* Short 
-* Medium
-* Tall.  
+* mogelijkheid om recordgegevens te wijzigen
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+* een koppeling om de pagina Details van de record te openen
 
-### New tabbed design for record views 
+Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
-Production: March 7, 2024 
+### Rijhoogte wijzigen in de tabelweergave
 
-Preview: To be determined 
+Productie: 7 maart 2024
 
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+Voorbeeld: te bepalen
 
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+U hebt nu een optie om de hoogte van een rij te wijzigen wanneer u records weergeeft in de tabelweergave.
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+U kunt de rijhoogte bijwerken naar een van de volgende formaten:
 
-### Dynamic design of a record view
+* Kort
+* Normaal
+* Lang.
 
-Production: March 7, 2024
-Preview: To be determined 
+Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+### Nieuw ontwerp met tabs voor recordweergaven
 
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Productie: 7 maart 2024
 
-### New calendar view for records
+Voorbeeld: te bepalen
 
-Production: March 7, 2024 
+Voor een betere navigatie en gebruiksvriendelijkheid hebben we de weergave van recordweergaven opnieuw ontworpen. De weergaven worden nu horizontaal weergegeven als tabbladen op de pagina met recordtypen, zodat u er gemakkelijk doorheen kunt navigeren. Voorafgaand aan deze verbetering, worden de meningen getoond in het drop-down menu van de Mening.
 
-Preview: To be determined 
+Weergaven worden chronologisch weergegeven op de toegevoegde datum van links naar rechts. De gedeelde meningen tonen ook in chronologische orde van wanneer zij werden gedeeld.
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/maestro/views/manage-record-views.md).
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### Dynamisch ontwerp van een recordweergave
 
--->
+Productie: 7 maart 2024 Voorbeeld: nog te bepalen
+
+We hebben de weergave van de weergaven op de pagina met recordtypen bijgewerkt. De nieuwe weergaven reageren dynamisch en passen zich snel aan de grootte van het scherm aan. De labels van de werkbalkopties zijn verborgen, zodat de werkbalk gemakkelijker op kleinere schermen kan worden gebruikt.
+
+Raadpleeg de volgende artikelen voor meer informatie:
+* [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### Nieuwe kalenderweergave voor records
+
+Productie: 7 maart 2024
+
+Voorbeeld: te bepalen
+
+U kunt nu records weergeven in een kalenderweergave. U moet ten minste twee datumvelden op een recordtype hebben om de kalenderweergave te kunnen maken.
+
+Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Week van 26 februari 2024
 

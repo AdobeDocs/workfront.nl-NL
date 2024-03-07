@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -141,9 +141,28 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel- en
 
 
 De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+
 1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture/create-record-types.md).
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. Klik op de knop **Weergave** en selecteert u een bestaande **Tabelweergave** ![](assets/table-view-icon.png) of klik op **Weergave maken > Tabel** een tabelweergave maken
 
@@ -157,15 +176,20 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
    >
    >    Als u een tijdlijnweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders wordt de optie Tijdlijn grijs weergegeven.
 
-1. (Optioneel) Werk de naam van de weergave bij en klik vervolgens op **Maken** opslaan.
+1. (Optioneel) Werk de naam van de weergave bij en klik vervolgens op **Maken** een tabelweergave opslaan
+
+   Of klik op **Volgende**, bij het maken van een tijdlijn <!--or calendar--> weergeven.
 
    Standaard krijgt Maestro de naam van de weergave &quot;Tabel &lt; nummer >&quot; of &quot;Tijdlijn &lt; nummer >&quot;. Het getal is een automatisch gegenereerde toename.
 
+1. (Voorwaardelijk) Selecteer de begin- en einddatum voor de records die in de tijdlijn worden weergegeven <!--or calendar--> weergeven en vervolgens op **Maken**.
 1. (Optioneel) Als u de naam van een weergave wilt wijzigen nadat deze is gemaakt, klikt u op de vervolgkeuzelijst Weergave en vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Naam wijzigen** om de weergavenaam bij te werken. <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Optioneel) Raadpleeg de volgende artikelen voor informatie over het beheren van een bepaald weergavetype:
 
    * [De tabelweergave beheren](../views/manage-the-table-view.md)
    * [De tijdlijnweergave beheren](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## Weergaven verwijderen
@@ -180,6 +204,7 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. Klik op het vervolgkeuzemenu Weergave, houd de muisaanwijzer boven een van de weergaven in de lijst en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Verwijderen**.
 1. Klikken **Verwijderen** ter bevestiging. <!--ensure there is not another saving step here?!-->
 
