@@ -5,7 +5,7 @@ title: Workfront en Frame.io verbinden
 description: Workfront gebruikt Frame.io in het revisie- en goedkeuringsproces om mensen te ontmoeten waar ze willen werken. Het projectbeheer en goedkeuringsproces worden beheerd in Workfront en het controleproces wordt uitgevoerd in Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,12 +15,16 @@ ht-degree: 0%
 
 # Workfront en Frame.io verbinden
 
+>[!IMPORTANT]
+>
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 Workfront gebruikt Frame.io in het revisie- en goedkeuringsproces om mensen te ontmoeten waar ze willen werken. Het projectbeheer en goedkeuringsproces worden beheerd in Workfront en het revisieproces wordt voltooid in Frame.io. U moet alle volgende secties voltooien om de integratie te voltooien:
 
 * [Een Workfront-groep verbinden met een Frame.io-team](#connect-a-workfront-group-to-a-frameio-team)
 * [Een Workfront-project maken en een verbonden groep toevoegen](#create-a-workfront-project-and-add-a-connected-group)
 
-De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 
 ## Toegangsvereisten
 

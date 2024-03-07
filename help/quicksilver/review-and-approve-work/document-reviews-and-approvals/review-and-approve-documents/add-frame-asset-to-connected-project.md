@@ -5,7 +5,7 @@ title: Frame.io-element toevoegen aan een verbonden Workfront-project
 description: Creatieve personen kunnen elementen toevoegen die moeten worden gecontroleerd aan Frame.io en deze naar Workfront verzenden voor formele controle en goedkeuring.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Frame.io-element toevoegen aan een verbonden Workfront-project
 
-Creatieve personen kunnen elementen toevoegen die moeten worden gecontroleerd aan Frame.io en deze naar Workfront verzenden voor formele controle en goedkeuring.
-
 >[!IMPORTANT]
 >
 >De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+Creatieve personen kunnen elementen toevoegen die moeten worden gecontroleerd aan Frame.io en deze naar Workfront verzenden voor formele controle en goedkeuring.
 
 ## Toegangsvereisten
 
