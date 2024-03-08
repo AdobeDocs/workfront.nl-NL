@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de drie typen Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
+Uw organisatie heeft een aantal licenties aangeschaft bij de aankoop van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de twee typen Workfront-licenties wanneer u een toegangsniveau aan de gebruiker toewijst.
 
 ## Hoe nieuwe Workfront-licenties en nieuwe toegangsniveaus aan elkaar zijn gekoppeld
 
-De drie soorten nieuwe Workfront-licenties bieden verschillende toegangsniveaus tot Workfront. Elk toegangsniveau is in bijlage aan één van deze vergunningen.
+De twee soorten nieuwe Workfront-licenties bieden verschillende toegangsniveaus tot Workfront. Elk toegangsniveau is in bijlage aan één van deze vergunningen.
 
 In plaats van een licentie toe te wijzen aan een gebruiker, wijst u de gebruiker het toegangsniveau toe dat aan die licentie is gekoppeld.
 
