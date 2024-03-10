@@ -1,13 +1,13 @@
 ---
 title: Records bewerken
-description: U kunt recordgegevens bewerken in Adobe Maestro. U moet recordtypen maken voordat u records kunt maken en bewerken.
+description: U kunt recordgegevens bewerken in de planningsmogelijkheden van Adobe Workfront. U moet recordtypen maken voordat u records kunt maken en bewerken.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-U kunt de recordgegevens in Adobe Maestro bewerken door de waarden te bewerken van de velden die aan de records zijn gekoppeld.
+U kunt recordgegevens in Adobe Workfront-planningsmogelijkheden bewerken door de waarden te bewerken van de velden die aan de records zijn gekoppeld.
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
 
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor Maestro </p>  
+   <td> <p>Er zijn geen toegangsbesturingselementen voor Adobe Workfront-planningsmogelijkheden </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt een record uit de volgende gebieden bewerken:
 
-* [Via de pagina Details van een record](#edit-a-record-from-the-records-details-page)
 * [Vanuit de tabelweergave van een recordtype](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### Een record bewerken vanaf de pagina Details van de record
-
-{{step1-to-maestro}}
-
-De werkruimte die u als laatste opent.
-
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
-1. Voer een van de volgende handelingen uit:
-
-   * Van een **Tabel** Klik op de naam van een record.
-   * Van de **Tabel** weergegeven, plaatst u de muisaanwijzer op de naam van een record en klikt u op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * Klik in een tijdlijnweergave op een recordbalk.
-
-   De record **Details** pagina wordt geopend.
-
-1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Bewerken**
-
-   of
-
-   Klik in een bewerkbaar veld op de pagina Details om de gegevens te bewerken.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. Klikken **Wijzigingen opslaan**. <!--logged a bug for this - this needs to be "Save"-->
+* [Via de pagina Details van een record](#edit-a-record-from-the-records-details-page)
 
 ### Een record bewerken vanuit de tabelweergave van een recordtype
 
@@ -144,7 +117,7 @@ De werkruimte die u het laatst hebt geopend.
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** in de rechterbovenhoek van de tabel selecteert u een **Tabel** weergeven. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. (Voorwaardelijk) Van de **Weergave** vervolgkeuzemenu <!--tab--> in de rechterbovenhoek van de tabel selecteert u een **Tabel** weergeven. Dit moet de standaardweergave zijn, tenzij u het recordtype in een ander type weergave hebt bekeken toen u het als laatste opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
@@ -171,6 +144,16 @@ De werkruimte die u het laatst hebt geopend.
 
 1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen. A **Opgeslagen** de indicator wordt kort weergegeven in de rechterbovenhoek van de tabelweergave om aan te geven dat de wijzigingen zijn opgeslagen.
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. (Optioneel) Voer een van de volgende handelingen uit om gegevens van het ene veld naar het andere te kopiëren en te plakken:
 
@@ -204,3 +187,33 @@ De werkruimte die u het laatst hebt geopend.
    >    U kunt de sneltoetsen meerdere malen achter elkaar gebruiken om meerdere wijzigingen ongedaan te maken.
 
 1. (Optioneel) Voeg een miniatuur toe aan een record. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### Een record bewerken vanaf de pagina Details van de record
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+De werkruimte die u als laatste opent.
+
+1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+1. Voer een van de volgende handelingen uit:
+
+   * Van een **Tabel** Klik op de naam van een record.
+   * Van de **Tabel** weergegeven, plaatst u de muisaanwijzer op de naam van een record en klikt u op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * Klik in een tijdlijnweergave op een recordbalk.
+
+   De record **Details** pagina wordt geopend.
+
+1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Bewerken**
+
+   of
+
+   Klik in een bewerkbaar veld op de pagina Details om de gegevens te bewerken.
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. Klikken **Wijzigingen opslaan**. <!--logged a bug for this - this needs to be "Save"-->

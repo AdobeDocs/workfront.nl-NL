@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 0%
 
 ---
@@ -253,8 +253,8 @@ Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **Kalenderweergave**: Hiermee geeft u records weer met ten minste twee datumvelden in een kalenderindeling.
+     ![](assets/calendar-view-example.png)
 
 
 Zie voor meer informatie [Recordweergaven beheren](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ U kunt als volgt de planningsmogelijkheden zoeken:
 
    1. Klik op de naam van een recordtype om de recordpagina te openen. De recordpagina wordt standaard in de tabelweergave geopend.
 
-   1. Pas de tabelweergave aan door een van de volgende handelingen uit te voeren:
+      U kunt ook een tijdlijn of een kalenderweergave maken.
 
-      * Voeg meer velden toe aan het recordtype door op de knop **+** in de rechterbovenhoek. De kolommen in de weergave zijn velden die zijn gekoppeld aan het recordtype.
-      * Records toevoegen door op de knop **+** in de linkerbenedenhoek. De rijen in de weergave zijn unieke records van het geselecteerde recordtype.
-      * Klikken **Filters** om de informatie te filteren u op de verslagtypepagina toont.
+   1. Voeg in de tabelweergave records toe door rijen toe te voegen
 
-   1. Klik op de naam van een record om meer informatie weer te geven op de pagina Details van de record.
+      of
 
-   1. Een tijdlijnweergave maken vanuit de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
-
-   1. Pas de tijdlijnweergave aan door Filters, Groepen of Instellingen bij te werken.
+      Voeg recordvelden toe door kolommen toe te voegen.
 
 ## Release-activiteit Adobe Workfront-planningsmogelijkheden
 

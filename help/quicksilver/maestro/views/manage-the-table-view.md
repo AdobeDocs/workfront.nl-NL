@@ -1,13 +1,13 @@
 ---
 title: De tabelweergave beheren
-description: U kunt records en de bijbehorende velden in een tabelweergave weergeven wanneer u de pagina met recordtypen opent in Adobe Maestro.
+description: U kunt records en de bijbehorende velden in een tabelweergave weergeven als u de pagina met recordtypen opent in de planningsmogelijkheden van Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-U kunt records en de bijbehorende velden in een tabelweergave weergeven wanneer u de pagina met recordtypen opent in Adobe Maestro.
+U kunt records en de bijbehorende velden in een tabelweergave weergeven als u de pagina met recordtypen opent in de planningsmogelijkheden van Adobe Workfront.
 
-Voor informatie over Maestro-weergaven en hoe deze te beheren, raadpleegt u [Recordweergaven beheren](../views/manage-record-views.md).
+Voor informatie over verslagmeningen en hoe te om hen te beheren, zie [Recordweergaven beheren](../views/manage-record-views.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro </p>  
+   <td> <p>Er zijn geen besturingselementen voor toegangsniveaus voor de planningsmogelijkheden van Adobe-personeel </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Een tabelweergave beheren:
 
 ### Kolommen (of velden) toevoegen {#add-columns}
 
-De kolomkoppen van een Maestro- lijstmening tonen gebieden verbonden aan de verslagen in de mening. Dezelfde velden die in de tabelweergave worden weergegeven, worden ook weergegeven in de sectie Details van een Maestro-record. Zie voor meer informatie [Records bewerken](../records/edit-records.md).
+In de kolomkoppen van een tabelweergave worden de velden weergegeven die zijn gekoppeld aan de records in de weergave. Dezelfde velden die in de tabelweergave worden weergegeven, worden ook weergegeven in de sectie Details van een record. Zie voor meer informatie [Records bewerken](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Het toevoegen van kolommen aan een weergave is hetzelfde als het toevoegen van v
 U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga naar een recordtypepagina en selecteer een **Tabel** in het keuzemenu Weergave.
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Beginnen met het toevoegen van velden (of kolommen), zoals beschreven in het artikel [Velden maken](../fields/create-fields.md).
 
    De kolommen die u toevoegt, zijn zichtbaar voor alle gebruikers die toegang hebben tot het recordtype en worden toegevoegd als nieuwe velden op de pagina Details van de records van het geselecteerde recordtype.
@@ -212,11 +214,13 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 ### Rijen (of records) toevoegen {#add-rows}
 
-De rijen van een Maestro- lijstmening tonen individuele verslagen van het geselecteerde verslagtype.
+De rijen van een lijstmening tonen individuele verslagen van het geselecteerde verslagtype.
 
-U kunt tot 10.000 verslagen (of rijen) voor een verslagtype in Maestro hebben.
+U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
 1. Ga naar een recordtypepagina en selecteer een **Tabel** in het keuzemenu Weergave.
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Records (of rijen) toevoegen, zoals wordt beschreven in het artikel [Records maken](../records/create-records.md).
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
@@ -359,7 +363,7 @@ Het toevoegen van groepen in de tabelweergave lijkt op het toevoegen van groepen
 Overweeg het volgende:
 
 * U kunt groepen toepassen in de tabel- en tijdlijnweergave. De groepen van de tabelweergave zijn onafhankelijk van de groepen in de tijdlijnweergave van hetzelfde recordtype.
-* U kunt drie niveaus van groepering in een mening van Maestro toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
+* U kunt 3 niveaus van groepering in een mening toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
 &lt;!—* U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API. —deze nu controleren—>
 * De groepen zijn uniek voor de weergave die u selecteert. Op twee tabelweergaven van hetzelfde recordtype kunnen verschillende groepen worden toegepast. Twee gebruikers die naar dezelfde tabelweergave kijken, zien dezelfde groepering die momenteel wordt toegepast.
 * U kunt de groepen die u maakt voor een tabelweergave niet een naam geven.

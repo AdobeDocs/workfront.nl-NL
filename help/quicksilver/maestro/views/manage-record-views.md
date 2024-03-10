@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Nadat u een recordtype hebt geselecteerd in het gedeelte met planningsmogelijkhe
 
   Zie voor meer informatie [De tijdlijnweergave beheren](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* Kalender
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Toegangsvereisten
 
@@ -107,7 +107,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   >
   > Omdat de Adobe Workfront-planningsmogelijkheden zich momenteel in een bètastatus bevinden, zijn sommige weergave-elementen mogelijk niet beschikbaar voor alle weergaven.
 
-In dit artikel wordt de volgende informatie over Maestro-weergaven beschreven:
+In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 * [Een weergave maken en bewerken](#create-or-edit-record-views)
 * [Een weergave verwijderen](#delete-views)
@@ -115,32 +115,32 @@ In dit artikel wordt de volgende informatie over Maestro-weergaven beschreven:
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Een weergave delen](#share-a-view)
 
-## Gelijkaardigheden en verschillen tussen de tabel- en tijdlijnweergaven
+## Gelijksoortigheid en verschillen tussen recordweergaven
 
-<!-- should we include Calendar here or remove this section???-->
-
-In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel- en tijdlijnweergaven in Maestro weergegeven:
+In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, tijdlijn- en kalenderweergave weergegeven:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Functie | Tabelweergave | Tijdlijnweergave |
-|-----------------------------------------------------------------------|------------|---------------|
-| Records in een lijst of tabel weergeven | ✓ |              |
-| Alle velden standaard weergeven als kolommen in de tabel | ✓ |              |
-| Velden (of kolommen) verbergen of weergeven | ✓ |               |
-| Veldwaarden bewerken voor elke record | ✓ |               |
-| Records toevoegen als nieuwe rijen in de weergave | ✓ |               |
-| Velden toevoegen als nieuwe kolommen in de weergave | ✓ |               |
-| Rijen kopiëren uit een externe lijst en deze in een tabel plakken | ✓ |               |
-| Records in een tijdlijn weergeven |            | ✓ |
-| Filterrecords | ✓ | ✓ |
+| Functie | Tabelweergave | Tijdlijnweergave | Kalenderweergave |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Records in een lijst of tabel weergeven | ✓ |              | |
+| Alle velden standaard weergeven als kolommen in de tabel | ✓ |              |    |
+| Velden (of kolommen) verbergen of weergeven | ✓ |               |    |
+| Veldwaarden bewerken voor elke record | ✓ |               |             |
+| Records toevoegen als nieuwe rijen in de weergave | ✓ |               |        |
+| Velden toevoegen als nieuwe kolommen in de weergave | ✓ |               |         |
+| Rijen kopiëren uit een externe lijst en deze in een tabel plakken | ✓ |               |          |
+| Records in een tijdlijn weergeven |            | ✓ |             |
+| Filterrecords | ✓ | ✓ |           |
+| Records weergeven op een kalender |           |              | ✓ |
 | Groepsrecords | ✓ | ✓ |
 | Records sorteren | ✓ |              |
-| Kleurcoderecords |           | ✓ |
+| Kleurcoderecords |           | ✓ | ✓ |
 | Kleurcodegroepen |           | ✓ |
 | Specifieke records zoeken | ✓ | ✓ |
-| Weergave delen | ✓ | ✓ |
-| Open de pagina Details van de record vanuit de weergave | ✓ | ✓ |
+| Weergave delen | ✓ | ✓ | ✓ |
+| Open de pagina Details van de record vanuit de weergave | ✓ | ✓ |    |
+
 
 ## Weergaven maken of bewerken {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Klik op de knop **Weergave** en selecteert u een bestaande **Tabelweergave** ![](assets/table-view-icon.png) of klik op **Weergave maken > Tabel** een tabelweergave maken
 
    of
 
-   Bestaande selecteren **Tijdlijnweergave** ![](assets/timeline-view-icon.png) weergeven of klikken **Weergave maken > Tijdlijn** om een tijdlijnweergave te maken.
+   Bestaande selecteren **Tijdlijnweergave** ![](assets/timeline-view-icon.png) of klik op **Weergave maken > Tijdlijn** om een tijdlijnweergave te maken.
+
+   of
+
+   Bestaande selecteren **Kalenderweergave** ![](assets/calendar-view-icon.png) of klik op **Weergave maken > Kalender** om een kalenderweergave te maken.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    Als u een tijdlijnweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders wordt de optie Tijdlijn grijs weergegeven.
+   >    Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders worden de tijdlijn of de kalenderopties gedimd weergegeven.
 
-1. (Optioneel) Werk de naam van de weergave bij en klik vervolgens op **Maken** een tabelweergave opslaan
+1. (Voorwaardelijk) Klik **Volgende**, wanneer u een tijdlijn- of kalenderweergave maakt.
 
-   Of klik op **Volgende**, bij het maken van een tijdlijn <!--or calendar--> weergeven.
+   Standaard geeft Workfront de weergave een van de volgende namen:
 
-   Standaard krijgt de weergave in Workfront de naam &quot;Tabel &lt; nummer >&quot; of &quot;Tijdlijn &lt; nummer >&quot;, <!--or "Calendar < number >"-->. Het getal is een automatisch gegenereerde toename.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (Voorwaardelijk) Selecteer de begin- en einddatum voor de records die in de tijdlijn worden weergegeven <!--or calendar--> weergeven en vervolgens op **Maken**.
+   Het getal is een automatisch gegenereerde toename.
+
+1. (Voorwaardelijk) Selecteer **Start** en **Einddata** voor de records die worden weergegeven in de tijdlijn of de kalenderweergave.
+1. Klikken **Maken**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Optioneel) Als u de naam van een weergave wilt wijzigen nadat deze is gemaakt, klikt u op de vervolgkeuzelijst Weergave en vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Naam wijzigen** om de weergavenaam bij te werken. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Optioneel) Raadpleeg de volgende artikelen voor informatie over het beheren van een bepaald weergavetype:
 
    * [De tabelweergave beheren](../views/manage-the-table-view.md)
    * [De tijdlijnweergave beheren](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Weergaven verwijderen
@@ -211,7 +224,7 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Klik op het vervolgkeuzemenu Weergave, houd de muisaanwijzer boven een van de weergaven in de lijst en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Verwijderen**.
 1. Klikken **Verwijderen** ter bevestiging. <!--ensure there is not another saving step here?!-->
 

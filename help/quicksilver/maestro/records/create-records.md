@@ -1,13 +1,13 @@
 ---
 title: Records maken
-description: In Adobe Maestro is een record een instantie van een recordtype. U moet recordtypen maken voordat u afzonderlijke records kunt maken. Het maken van taxonomieverslagen is identiek aan het maken van operationele verslagen.
+description: Wanneer u de planningsmogelijkheden van Adobe Workfront gebruikt, is een record een instantie van een recordtype. U moet recordtypen maken voordat u afzonderlijke records kunt maken. Het maken van taxonomieverslagen is identiek aan het maken van operationele verslagen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In Adobe Maestro is een record een instantie van een recordtype.
+In Adobe Workfront-planningsmogelijkheden is een record een instantie van een recordtype.
 
 U kunt de volgende typen records hebben:
 
@@ -27,13 +27,13 @@ U kunt de volgende typen records hebben:
 
 Het maken van operationele records is hetzelfde als het maken van taxonomierecords.
 
-U kunt records maken in Maestro door een van de volgende handelingen uit te voeren:
+U kunt records maken door een van de volgende handelingen uit te voeren:
 
-* Deze handmatig maken voor Maestro-recordtypen
-* Verbind hen met verslagen Maestro van andere toepassingen.
+* Deze handmatig maken voor recordtypen
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * Maak records door gegevens uit een externe lijst te kopiëren en te plakken.
 
-In dit artikel wordt beschreven hoe u Maestro-records kunt maken. Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
+In dit artikel wordt beschreven hoe u records kunt maken. Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
 
 * [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor Maestro </p>  
+   <td> <p>Er zijn geen toegangsbesturingselementen voor Adobe Workfront-planningsmogelijkheden </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
 1. Ga door met het toevoegen van informatie over elke rij en klik vervolgens op **Enter** op uw toetsenbord om uw wijzigingen op te slaan.
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records ongedaan te maken of opnieuw toe te voegen:
 
    * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren
 
-## Records maken door deze vanuit een andere toepassing te verbinden
+<!-- this is not possible anymore: 
 
-U kunt records uit andere toepassingen importeren door deze te koppelen aan Maestro-gekoppelde records. Hierdoor wordt een Maestro-recordtype gemaakt voor het gekoppelde object van de andere toepassing.
+## Create records by connecting them from another application
 
-1. Maak een Maestro-recordtype, zoals beschreven in het dialoogvenster [Recordtypen maken](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. Maak Maestro-records voor het recordtype dat u in de vorige stap hebt gemaakt. Zie de sectie [Records maken door deze handmatig toe te voegen aan een recordtype](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel.
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. Maak een verbinding met een objecttype vanuit een andere toepassing voor het Maestro-recordtype dat u hebt gemaakt. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Voeg records uit een andere toepassing toe aan de Maestro-records die u hierboven hebt gemaakt met het gekoppelde recordveld dat u in de vorige stap hebt gemaakt. Zie voor meer informatie [Connect-records](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   De volgende items worden gemaakt in Maestro:
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * Een alleen-lezen maestro-recordtype dat verwijst naar het recordtype van de andere toepassing waarnaar u in het verbonden recordveld hebt gekoppeld.
+    The following items are created in Maestro:
 
-     Als u bijvoorbeeld een Maestro-recordtype verbindt met een Workfront-project, wordt in dezelfde werkruimte een alleen-lezen recordtype gemaakt met de naam &quot;Workfront-project&quot;. U kunt tot de read-only Workfront verslagtypes van de lijstmening van de verslagen toegang hebben Maestro u van verbindt.
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## Records maken door gegevens uit een externe lijst te kopiëren en te plakken
 

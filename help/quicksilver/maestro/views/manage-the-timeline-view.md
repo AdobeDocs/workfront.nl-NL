@@ -1,13 +1,13 @@
 ---
 title: De tijdlijnweergave beheren
-description: U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Maestro.
+description: U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Workfront-planningsmogelijkheden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Maestro.
+U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Workfront-planningsmogelijkheden.
 
-Voor informatie over Maestro-weergaven raadpleegt u [Recordweergaven beheren in Adobe Maestro](../views/manage-record-views.md).
+Voor informatie over recordweergaven raadpleegt u [Recordweergaven beheren](../views/manage-record-views.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro </p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planningsmogelijkheden van Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -103,17 +103,6 @@ Overweeg het volgende:
    * Wanneer de begin- of einddatum geen waarde hebben
    * Wanneer de begindatum na de einddatum ligt
 
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
-
 Een tijdlijnweergave beheren:
 
 1. Ga naar de pagina met recordtypen waarvoor u de tijdlijn wilt weergeven.
@@ -132,7 +121,7 @@ Een tijdlijnweergave beheren:
 
    * Klik op de pictogrammen links en rechts of gebruik de horizontale schuifbalk om naar voren en naar achteren in de tijdlijn te gaan.
    * Klikken **Vandaag** om de tijdlijn te centreren op de datum van vandaag.
-   * Selecteer een van de volgende opties in het vervolgkeuzemenu voor de tijd om de tijdstappen bij te werken:
+   * Selecteer een van de volgende opties in het vervolgkeuzemenu voor het tijdframe om de tijdtoename bij te werken:
 
       * Jaar
       * Kwart
@@ -196,7 +185,7 @@ Het toevoegen van groepen in de tijdlijnweergave lijkt op het toevoegen van groe
 Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergave:
 
 * U kunt groepen toepassen in de tabel- en tijdlijnweergave. De groepen van de tabelweergave zijn onafhankelijk van de groepen in de tijdlijnweergave van hetzelfde recordtype.
-* U kunt drie niveaus van groepering in een mening van Maestro toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
+* U kunt 3 niveaus van groepering in een mening toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
 * U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API.
 * De groepen zijn uniek voor de weergave die u selecteert. In twee tijdlijnweergaven van hetzelfde recordtype kunnen verschillende groeperingen worden toegepast. Twee gebruikers die naar dezelfde tijdlijnweergave kijken, zien dezelfde groepering die op dat moment wordt toegepast.
 * U kunt de groepen die u maakt voor een tijdlijnweergave niet een naam geven.
@@ -218,6 +207,8 @@ Een groep toevoegen in de tijdlijnweergave:
 1. (Optioneel) Herhaal de bovenstaande stappen om maximaal drie groepen samen te voegen.
 
    Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

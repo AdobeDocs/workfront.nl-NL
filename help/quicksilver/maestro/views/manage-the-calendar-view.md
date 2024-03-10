@@ -4,9 +4,9 @@ description: U kunt records en de bijbehorende velden weergeven in een kalenderw
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 U kunt records en de bijbehorende velden weergeven in een kalenderweergave, vanaf de pagina met recordtypen.
 
-Voor informatie over Maestro-weergaven en hoe deze te beheren, raadpleegt u [Recordweergaven beheren](../views/manage-record-views.md).
+Ga voor informatie over de planningsmogelijkheden van Adobe Workfront en hoe u deze kunt beheren naar [Recordweergaven beheren](../views/manage-record-views.md).
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro </p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planningsmogelijkheden van Adobe Workfront  </p>  
 </td>
   </tr>
 
@@ -94,9 +94,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Overweeg het volgende:
 
 * U kunt alleen een kalenderweergave maken wanneer u ten minste twee datumvelden hebt die zijn gekoppeld aan een recordtype. Wanneer u een of geen datumvelden hebt gekoppeld aan een recordtype, wordt de optie voor de kalenderweergave grijs weergegeven.
-* De volgende scenario&#39;s:
+* De volgende scenario&#39;s bestaan:
 
-   * Als de begin- en einddatum geen waarden hebben, worden de records niet weergegeven in de kalender
+   * Wanneer zowel de begin- als einddatum geen waarden hebben, worden de records niet weergegeven in de kalender
    * Als de begin- of einddatum geen waarde hebben, wordt de record weergegeven als een eendaagse gebeurtenis
    * Wanneer de begindatum na de einddatum ligt, wordt de record niet weergegeven in de kalender.
 
@@ -107,7 +107,7 @@ Een kalenderweergave beheren:
 
    ![](assets/calendar-view-example.png)
 
-   De records die zijn gekoppeld aan het geselecteerde recordtype, worden in een kalender weergegeven als balken.
+   De records die zijn gekoppeld aan het geselecteerde recordtype, worden in een kalender weergegeven als balken. De kleur van de balken komt overeen met de kleur van het recordpictogram.
 
 1. Voer een van de volgende handelingen uit om door de kalender te navigeren:
 
