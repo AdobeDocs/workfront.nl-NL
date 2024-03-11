@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
            </tbody>
         </table>
+
+### Verbeteringen voor integratie
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie</a></p><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span><p>We hebben geneste mappenstructuren toegevoegd aan de workflow voor aan Adobe Experience Manager gekoppelde mappen, zodat uw Adobe Experience Manager-mappen nauwkeuriger op uw behoeften kunnen worden afgestemd.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 11 maart 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Driemaandelijkse release naar Production: 14 maart 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### Projectverbeteringen
 
