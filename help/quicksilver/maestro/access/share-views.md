@@ -4,9 +4,9 @@ description: U kunt een weergave met anderen delen om samenwerking te garanderen
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -109,3 +109,13 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
 1. Klikken **Koppeling kopiëren** om een koppeling naar de weergave naar het klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 1. Klikken **Opslaan**.
+
+## Machtigingen verwijderen uit een weergave
+
+{{step1-to-maestro}}
+
+1. Open de werkruimte waarvan u de weergave wilt delen en klik op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
+1. Houd de muisaanwijzer boven de weergave die u wilt delen in het keuzemenu Weergave en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Delen**.
+1. Zoek de gebruiker of groep wat u wilt verwijderen en klik vervolgens op **Verwijderen** in het vervolgkeuzemenu voor machtigingen rechts van de naam van de gebruiker of groep.
+1. Klikken **Opslaan**.
+De gebruiker of de gebruikers die tot de verwijderde groep behoren, hebben geen toegang meer tot de weergave. Er is geen bericht voor de gebruikers die uit de toegang tot van de mening zijn verwijderd.

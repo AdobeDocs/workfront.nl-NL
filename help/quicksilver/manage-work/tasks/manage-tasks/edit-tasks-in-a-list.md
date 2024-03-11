@@ -6,9 +6,9 @@ description: U kunt de taakgegevens in een takenlijst bewerken door de velden in
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2848'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -59,9 +59,9 @@ Houd rekening met het volgende wanneer u taken in een lijst bewerkt:
    * Percentage voltooid
    * Aangepaste formuliergegevens
 
-      >[!NOTE]
-      >
-      >U kunt een taakaangepast veld alleen in een lijst bewerken als u machtigingen hebt om het veld bij te werken.
+     >[!NOTE]
+     >
+     >U kunt een taakaangepast veld alleen in een lijst bewerken als u machtigingen hebt om het veld bij te werken.
 
    * Logboekuren
    * Toewijzingen wijzigen
@@ -74,13 +74,15 @@ Houd rekening met het volgende wanneer u taken in een lijst bewerkt:
    * De subtakensectie van het project
    * Een taakrapport
 
-      >[!NOTE]
-      >
-      >Standaard slaat Workfront uw wijzigingen in taken automatisch op in de sectie Subtaken of in een taakrapport.
+     >[!NOTE]
+     >
+     >Standaard slaat Workfront uw wijzigingen in taken automatisch op in de sectie Subtaken of in een taakrapport.
 
 * U kunt bepalen wanneer Workfront de wijzigingen opslaat die u in de taken in een lijst aanbrengt. De wijzigingen kunnen automatisch worden opgeslagen of u kunt ze handmatig opslaan.
 
-   Voor informatie over het configureren wanneer Workfront wijzigingen opslaat die u in taken in een lijst aanbrengt, raadpleegt u de [Selecteer een optie voor opslaan wanneer u taken in een lijst bewerkt](#select-a-save-option-when-editing-tasks-in-a-list) in dit artikel.
+  Voor informatie over het configureren wanneer Workfront wijzigingen opslaat die u in taken in een lijst aanbrengt, raadpleegt u de [Selecteer een optie voor opslaan wanneer u taken in een lijst bewerkt](#select-a-save-option-when-editing-tasks-in-a-list) in dit artikel.
+
+* Andere gebruikers moeten hun pagina&#39;s vernieuwen voordat ze de updates die u voor een taak maakt, kunnen bekijken.
 
 ## Selecteer een optie voor opslaan wanneer u taken in een lijst bewerkt {#select-a-save-option-when-editing-tasks-in-a-list}
 
@@ -88,7 +90,7 @@ U kunt bepalen waar de wijzigingen die u in taken in een lijst aanbrengt, automa
 
 >[!IMPORTANT]
 >
->Afhankelijk van of u de taken automatisch of manueel opslaat, zou u de informatie van iemand anders kunnen beschrijven aangezien u taken in een lijst uitgeeft. Voor informatie over hoe Workfront wijzigingen opslaat in taken die u tegelijkertijd met andere gebruikers aanbrengt, raadpleegt u [Overzicht van het opslaan van gelijktijdige wijzigingen in een takenlijst](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
+>Afhankelijk van of u de taken automatisch of manueel opslaat, zou u de informatie van iemand anders kunnen beschrijven aangezien u taken in een lijst uitgeeft. Zie voor meer informatie over hoe Workfront wijzigingen opslaat in taken die u tegelijkertijd met andere gebruikers aanbrengt [Overzicht van het opslaan van gelijktijdige wijzigingen in een takenlijst](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
 
 Wanneer u uw veranderingen in een lijst voor een project opslaat dat of Automatisch of bij Verandering als Type van Update wordt geselecteerd, werkt Workfront de projectchronologie, samen met alle in-project en dwars-projectgebiedsdelen bij. De berekeningen van de Chronologie kunnen lange tijd vergen als het project groot is of als er veel gebiedsdelen zijn. Sommige methoden voor het bewerken van een takenlijst zijn mogelijk sneller dan andere, afhankelijk van de methode die u selecteert om uw wijzigingen op te slaan.
 
@@ -96,11 +98,11 @@ U kunt bepalen wanneer Workfront de wijzigingen opslaat die u in de taken in een
 
 * Workfront kan de wijzigingen na elke update automatisch laten opslaan.
 
-   Zie de sectie [Taken in een lijst bewerken en wijzigingen automatisch opslaan](#edit-tasks-in-a-list-and-automatically-save-changes) in dit artikel.
+  Zie de sectie [Taken in een lijst bewerken en wijzigingen automatisch opslaan](#edit-tasks-in-a-list-and-automatically-save-changes) in dit artikel.
 
 * Met de knop Opslaan kunt u zelf bepalen wanneer u meerdere wijzigingen tegelijk toepast.
 
-   Zie de sectie [Taken in een lijst bewerken en wijzigingen handmatig opslaan](#edit-tasks-in-a-list-and-manually-save-changes) in dit artikel.
+  Zie de sectie [Taken in een lijst bewerken en wijzigingen handmatig opslaan](#edit-tasks-in-a-list-and-manually-save-changes) in dit artikel.
 
 ### Taken in een lijst bewerken en wijzigingen automatisch opslaan {#edit-tasks-in-a-list-and-automatically-save-changes}
 
@@ -117,7 +119,7 @@ Houd rekening met het volgende wanneer u uw takenlijst automatisch opslaat:
 Taken in een lijst bewerken en wijzigingen automatisch opslaan:
 
 1. Ga naar het project en klik vervolgens op de knop **Taken** sectie.
-1. Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) boven aan de lijst en zorg ervoor dat **Automatisch opslaan** is geselecteerd.
+1. Klik op de knop **Menu van de overzichtsmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) boven aan de lijst en zorg ervoor dat de **Automatisch opslaan** is geselecteerd.
 
    ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -194,7 +196,6 @@ U kunt wijzigingen die u aanbrengt in taken in een lijst handmatig opslaan. Als 
 >* Er gelden geen beperkingen voor het aantal wijzigingen dat u kunt terugdraaien. U kunt ze allemaal een voor een omkeren totdat u de oorspronkelijke staat van de taken bereikt.
 >
 
-
 Houd rekening met het volgende wanneer u wijzigingen handmatig opslaat in een takenlijst:
 
 * Als u wijzigingen in de takenlijst handmatig wilt opslaan, hebt u machtigingen nodig om zowel de taken als het project te beheren.
@@ -208,7 +209,7 @@ Houd rekening met het volgende wanneer u wijzigingen handmatig opslaat in een ta
 * Geef de taken in bulk uit. Het pictogram Bewerken is uitgeschakeld wanneer u meerdere taken selecteert.
 * Workfront activeert alleen meldingen over de wijzigingen die u in de taken aanbrengt nadat u de wijzigingen hebt opgeslagen.
 
-Er zijn twee manieren om wijzigingen in taken in een lijst handmatig op te slaan. Deze twee manieren worden hieronder beschreven.
+U kunt wijzigingen in taken in een lijst op twee manieren handmatig opslaan. Deze twee manieren worden hieronder beschreven.
 
 * [Wijzigingen handmatig opslaan in een takenlijst wanneer u de optie Handmatig opslaan kiest](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [Wijzigingen handmatig opslaan in een takenlijst wanneer u de optie Tijdlijnplanning handmatig opslaan selecteert](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
@@ -299,7 +300,7 @@ Het opslaan van uw veranderingen en alle projectgebiedsdelen is sneller. Dit is 
 
 Houd rekening met het volgende wanneer u de optie Tijdlijnplanning handmatig opslaan gebruikt in een takenlijst:
 
-* U kunt de optie Handmatig tijdlijnplanning opslaan niet toepassen op projecten met meer dan 2000 taken.
+* U kunt de optie voor het handmatig opslaan van tijdlijnplanning niet toepassen op projecten met meer dan 2000 taken.
 * U kunt geen aangepaste weergave, filter of groep toepassen op de takenlijst. De vervolgkeuzemenu&#39;s Weergave, Filter en Groeperen en het pictogram Gegraveerde weergave zijn uitgeschakeld. De weergave die standaard wordt toegepast, bevat een beperkt aantal velden.
 * De chronologie van het project en alle in-projectgebiedsdelen worden automatisch berekend na elke verandering wanneer het Type van projectupdate Automatisch of Automatisch en bij Verandering is.
 * De dwars-projectgebiedsdelen worden berekend nadat u sparen klikt, wanneer het Type van projectupdate Automatisch of Automatisch en op Verandering is. Voor informatie over het Type van projectupdate, zie [Selecteer het Type van projectupdate](../../../manage-work/projects/manage-projects/select-project-update-type.md).
@@ -331,11 +332,11 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
       * Toewijzingen
       * Status
       * Percentage voltooid
-   * Het pictogram voor de flexibele weergave wordt verwijderd.
+
+   * Het pictogram van de Gegraveerde weergave wordt verwijderd.
    * Er wordt een werkbalkinstelling weergegeven met opties voor het ongedaan maken, opnieuw uitvoeren en opslaan van de wijzigingen.
 
-      ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
-
+     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Bewerk elk veld dat u gemachtigd bent om handmatig bij te werken.
 
@@ -398,7 +399,7 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
 
    De lijst van taken op de projectvertoningen.
 
-1. Klik op het menu Meer ![](assets/more-icon-task-list.png) na de naam van de taak klikt u op **Samenvatting openen**. Selecteer de taak die u wilt bewerken en klik op de knop **Pictogram Samenvatting openen** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de rechterbovenhoek van de lijst.
+1. Klik op het menu Meer ![](assets/more-icon-task-list.png) na de naam van de taak klikt u op **Samenvatting openen**. Selecteer de taak die u wilt bewerken en klik op de knop **Pictogram Samenvatting openen** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) rechtsboven in de lijst.
 
    De **Samenvatting** wordt geopend.
 
@@ -413,14 +414,14 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
 1. (Optioneel) Typ een update voor de taak in het dialoogvenster **Updates** gebied.
 1. Klik op een van de volgende pictogrammen of gebieden om naar de taak te gaan en gegevens op taakniveau te bewerken:
 
-   | Documenten | Klikken **Klik hier om toe te voegen** om documenten aan de taak toe te voegen. |
+   | Documenten | Klikken **Klik hier voor toevoegen** om documenten aan de taak toe te voegen. |
    |---|---|
    | Details | Klik om informatie over de taak bij te werken. |
    | Aangepaste Forms | Klik om aangepaste Forms toe te voegen of te verwijderen of om informatie bij te werken op de formulieren. |
    | Uren | Klik om de uren te registreren. |
    | Goedkeuringen | Klik om taakgoedkeuringen toe te voegen. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klik op de knop Vorige in uw browser om terug te keren naar de takenlijst wanneer u klaar bent met het bijwerken van de taak.
 
@@ -445,9 +446,9 @@ U kunt meerdere taken tegelijk bewerken. Zorg ervoor dat u beheermachtigingen vo
 
 1. Geef de informatie op die u wilt wijzigen voor alle geselecteerde taken.
 
-   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakduur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders **Duur** wordt niet gevuld.
+   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakduur wilt bewerken, moeten de geselecteerde taken dezelfde taakbeperking hebben; anders moet de **Duur** wordt niet gevuld.
 
-   Voor meer informatie over het bewerken van een taak raadpleegt u [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   Zie voor meer informatie over het bewerken van een taak [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >

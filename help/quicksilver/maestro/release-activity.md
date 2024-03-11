@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Voorbeeld: te bepalen
 
 We hebben machtigingsniveaus gewijzigd om rekening te houden met de licentietypen van gebruikers. Vóór deze verbetering, waren er geen verschillen in werkruimtemachtigingen die op de licentietypes van de gebruikers worden gebaseerd.
 
-De volgende machtigingen werken nu in combinatie met het licentietype van de gebruiker:
+Hieronder ziet u de hoogste niveaus van machtigingen die gebruikers kunnen ontvangen op basis van het type licentie van de gebruiker:
 
 * Gebruikers met een licentie voor abonnementen (of standaardlicenties in het nieuwe licentiemodel) kunnen werkruimten, recordtypen en records maken en beheren.
 
@@ -156,7 +156,7 @@ De volgende machtigingen werken nu in combinatie met het licentietype van de geb
 
 Voor informatie over het nieuwe licentiemodel raadpleegt u [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype bij gebruik van de Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nieuwe weergave van de Rich Text-werkbalk voor recordvelden

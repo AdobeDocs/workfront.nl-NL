@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3729'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Houd rekening met het volgende wanneer u taken bewerkt:
    * Logtijd
    * Bestaande uitgaven bewerken
    * Een aangepast formulier bijvoegen
+
+* Andere gebruikers moeten hun pagina&#39;s vernieuwen voordat ze de updates die u voor een taak maakt, kunnen bekijken.
 
 ## Een taak in een lijst bewerken
 
@@ -437,7 +439,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    <p>De verstreken tijd is een eenheid van tijd voor de Duur van een taak. Dit is de tijd tussen de Geplande Datum van het Begin en de Geplande Datum van de Voltooiing van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen.
 
-   De regelmatige tijd houdt rekening met vakantie, weekends, en tijd weg en sluit hen van de Duur van de taak uit. Voor meer informatie over taakduur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>. </p>
+   De regelmatige tijd houdt rekening met vakantie, weekends, en onderbreking en sluit hen van de Duur van de taak uit. Voor meer informatie over taakduur raadpleegt u <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overzicht van het Type van Duur en van de Duur van de Taak</a>. </p>
    </div> 
    </div> </td> 
    </tr> 
