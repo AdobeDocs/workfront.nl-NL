@@ -6,9 +6,9 @@ description: U kunt uw werk in [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Als Workfront-beheerder kunt u workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
 
-De standaardwerkschemawaarden die u in de integratie plaatst kunnen op de niveaus van het Malplaatje en van het Project worden met voeten getreden.
+Workflows worden ingeschakeld en geconfigureerd voor de Adobe Experience Manager als geheel. Deze werkschema&#39;s kunnen dan op projectmalplaatjes worden toegepast, en op het malplaatje of projectniveau worden aangepast of worden aangepast.
 
 De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie:
 
@@ -255,6 +257,46 @@ De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie
    ![Navigatie naar gekoppelde mappen](assets/select-folder-aem-integration.png)
 1. De optie **[!UICONTROL Append Portfolio and Program Names]** automatisch namen van Portfolio&#39;s en programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
 1. Klikken **[!UICONTROL Save]** of ga naar de [Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel.
+
+In de omgeving van de voorvertoningssandbox
+
+<div class="preview">
+
+1. Schakelen tussen **[!UICONTROL Create Linked folder]** op.
+1. Voer een naam in voor de gekoppelde map die u maakt.
+1. (Voorwaardelijk) Schakel de optie **Standaardmapstructuur** als u wilt dat deze gekoppelde map de standaardmap is voor projecten die zijn gemaakt met sjablonen die gebruikmaken van deze integratie. U kunt een of meer standaardmappen selecteren.
+1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
+1. (Voorwaardelijk) Ga als volgt te werk om een mapstructuur (geneste mappen) aan deze integratie toe te voegen:
+
+   1. Klik op de knop **Map toevoegen** pictogram ![Map toevoegen](assets/add-folder-aem.png).
+   1. In de **Type naam** in het veld selecteert u de naam van de map:
+
+      * **Naam**: Typ een naam voor de map.
+      * **Objectgegevens**: Selecteer de bron voor de mapnaam, zoals de naam van het project.
+
+      >[!NOTE]
+      >
+      >* Mapnamen moeten uit minder dan 100 tekens bestaan.
+      >* De volgende tekens worden uit mapnamen verwijderd:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. Als u een geneste map wilt toevoegen aan de mappenstructuur, klikt u op het menu met drie punten naast de map waarin u een geneste map wilt maken en selecteert u **Map toevoegen**. Vul de velden in zoals wordt beschreven in Stap de vorige stap.
+   1. Als u een map wilt koppelen aan Workfront, selecteert u de map en klikt u op de knop **Gekoppelde map maken**   pictogram ![Map koppelen](assets/link-folder.png).
+   1. (Optioneel) Als u een map wilt bewerken, selecteert u de map en klikt u op de knop **Map bewerken** pictogram ![Pictogram Bewerken](assets/edit-icon.png).
+   1. (Optioneel) Als u een map wilt verwijderen, selecteert u de map en klikt u op **Map verwijderen** pictogram ![Map verwijderen](assets/delete-folder.png).
+1. (Voorwaardelijk) Klik op **+ Mappenstructuur toevoegen** en volg de stappen in Stap 5.
+
+1. Klikken **[!UICONTROL Save]** of ga naar de [Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel.
+
+>[!NOTE]
+>
+>* Met deze integratie worden niet meer dan 100 mappen gemaakt, ongeacht het aantal mappenstructuren dat is gemaakt. Dankzij de integratie met 4 mapstructuren kunnen bijvoorbeeld maximaal 100 mappen worden gemaakt, niet 400 mappen.
+>* De eerste map in de mappenstructuur wordt automatisch gemarkeerd als gekoppeld aan Workfront. Als u deze map niet wilt koppelen, kunt u deze ontkoppelen.
+>* Als er geen mapstructuur is opgegeven, wordt de hoofdmap de gekoppelde map.
+
+
+</div>
 
 ### Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden
 

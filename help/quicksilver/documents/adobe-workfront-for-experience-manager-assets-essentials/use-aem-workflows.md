@@ -6,14 +6,16 @@ description: Workflows gebruiken in de integratie met Experience Manager Assets 
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
 # Workflows gebruiken in de Experience Manager Assets-integratie
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Een Workfront-beheerder kan workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
 
@@ -107,6 +109,10 @@ U kunt een workflow toevoegen wanneer u een project maakt of een workflow toevoe
 
 ### Een workflow toevoegen aan een bestaand project
 
+>[!NOTE]
+>
+>De werkschema&#39;s die lopen wanneer een project (zoals verbonden omslagverwezenlijking) wordt gecreeerd lopen niet wanneer het malplaatje aan een bestaand project in bijlage is. Zij lopen slechts wanneer een project van een malplaatje wordt gecreeerd.
+
 1. Begin een malplaatje aan het project toe te voegen.
 
    Zie voor instructies [Een sjabloon aan een project koppelen](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -116,9 +122,11 @@ U kunt een workflow toevoegen wanneer u een project maakt of een workflow toevoe
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
+
+
 ### Werkstroomwaarden in een project bewerken
 
-U kunt werkstroomwaarden op projectniveau bewerken. Workflowwaarden op projectniveau overschrijven de waarden die zijn ingesteld in de projectsjabloon, die de standaardwaarden overschrijven die zijn ingesteld in de integratie van Adobe Experience Manager Assets.
+U kunt werkstroomwaarden op projectniveau bewerken. Workflowwaarden op projectniveau overschrijven de waarden die zijn ingesteld op de projectsjabloon, die de standaardwaarden overschrijven die zijn ingesteld in de Adobe Experience Manager Assets-integratie.
 
 Alle werkstroomwaarden vindt u in:
 
@@ -130,9 +138,17 @@ Alle werkstroomwaarden vindt u in:
   >
   >Als deze gebieden niet zichtbaar zijn, heeft uw Workfront-beheerder Workflows voor uw organisatie niet ingeschakeld.
 
+
+
 #### Gekoppelde mappen
 
+>[!NOTE]
+>
+>Omdat gekoppelde mappen worden gemaakt wanneer het project wordt gemaakt, is het bewerken van de gekoppelde mapworkflow voor een bestaand project niet effectief. Deze waarden bewerken wanneer u projectfuncties maakt zoals u had verwacht.
+
 De workflow voor gekoppelde mappen bewerken:
+
+In de productieomgeving:
 
 1. Schakelen **[!UICONTROL Create Linked folder]** aan of uit naar wens.
 1. (Voorwaardelijk) Als u gekoppelde mappen inschakelt, kiest u een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
@@ -142,6 +158,31 @@ De workflow voor gekoppelde mappen bewerken:
 
    Als u zich in de [!DNL Adobe Experience Manager area]worden de wijzigingen automatisch opgeslagen. <!--Do they though?-->
 
+In de omgeving van de voorvertoningssandbox:
+
+<div class="preview">
+
+1. Schakelen tussen **[!UICONTROL Create Linked folder]** aan of uit naar wens. Als u dit inschakelt, kunt u de configuratie van de gekoppelde map bewerken.
+
+   Zie voor meer informatie over de configuratie van de gekoppelde map [Gekoppelde Adobe Experience Manager-mappen maken](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in het artikel [Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Optioneel) Als u de mappenstructuur alleen wilt samenstellen als bepaalde waarden aanwezig zijn op een aangepast formulier dat is gekoppeld aan het project, klikt u op de knop **Filter toepassen** voor die mapstructuur selecteert u het aangepaste formulier dat het veld, het veld en de veldwaarde bevat. Als het veld op het aangepaste formulier dat is gekoppeld aan het nieuwe project de gekozen waarde bevat, wordt de mapstructuur gemaakt.
+1. (Optioneel) Bij het configureren van mapnamen kunt u een van de volgende opties kiezen:
+
+   * **Naam**: Typ een naam voor de map.
+
+   * **Objectgegevens**: Selecteer de bron voor de mapnaam, zoals de naam van het project.
+
+   * **Aangepaste formuliergegevens**: Selecteer de aangepaste formuliergegevens die u als mapnaam wilt gebruiken.
+
+     Het gebruik van aangepaste formuliergegevens voor mapnamen is alleen beschikbaar op sjabloonniveau en kan niet worden geconfigureerd op integratieniveau.
+
+     Als een omslagnaam aan douanegegevens wordt geplaatst die niet op de douane voor in bijlage aan het project bestaan, zal willekeurige identiteitskaart als omslagnaam worden toegewezen.
+
+1. Klik op **[!UICONTROL Save]**.
+
+</div>
+
 
 #### Elementen publiceren
 
@@ -149,10 +190,4 @@ De workflow voor het publiceren van elementen bewerken:
 
 1. Schakelen **Elementen automatisch publiceren** aan of uit naar wens.
 1. (Voorwaardelijk) Als u het publiceren toestaat, selecteer of u aan de publicatieservice, het merkportaal, of allebei wilt publiceren.
-1. Klikken **[!UICONTROL Save]** als u de [!UICONTROL Create Project] of [!UICONTROL Edit project] venster.
-
-   of
-
-   Als u zich in de [!DNL Adobe Experience Manager area]worden de wijzigingen automatisch opgeslagen. <!--Do they though?-->
-
-
+1. Klik op **[!UICONTROL Save]**.

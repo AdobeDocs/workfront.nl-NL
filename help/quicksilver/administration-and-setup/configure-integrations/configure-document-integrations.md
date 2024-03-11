@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 0%
@@ -87,6 +87,7 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
    * [!UICONTROL Google Drive]
 
      <!--Quip-->
+
   >[!TIP]
   >
   >U kunt documenten die zijn gekoppeld van een externe cloud provider op dezelfde manier controleren en goedkeuren als documenten die rechtstreeks zijn geüpload naar [!DNL Workfront].

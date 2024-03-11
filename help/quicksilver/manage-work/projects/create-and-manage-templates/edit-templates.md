@@ -6,7 +6,7 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in projectpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 0%
@@ -1116,3 +1116,4 @@ Een sjabloon deactiveren:
 1. (Optioneel) Klik op de knop **Meer** ![](assets/qs-more-icon-on-an-object.png) naast de sjabloonnaam en klik vervolgens op **Activeren**.
 
    Het malplaatje is nu actief en kan aan projecten worden vastgemaakt of worden gebruikt om projecten tot stand te brengen.
+
