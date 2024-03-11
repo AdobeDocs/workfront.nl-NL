@@ -7,9 +7,9 @@ description: Met proefdrukrollen kunt u machtigingen verlenen voor afzonderlijke
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Een proefdruk weergeven</strong> </p> </th> 
+   <th> <p><strong>Een proefafdruk weergeven</strong> </p> </th> 
    <th> <p><strong>Markeringen toevoegen</strong> </p> </th> 
    <th> <p><strong>Opmerkingen toevoegen</strong> </p> </th> 
    <th> <p><strong>Eigen opmerkingen bewerken als er geen reacties zijn</strong> </p> </th> 
-   <th> <p><strong>Beslissing geven</strong> </p> </th> 
+   <th> <p><strong>Beslissingen nemen</strong> </p> </th> 
    <th> <p><strong>Opmerkingen van anderen verwijderen</strong> </p> </th> 
    <th>Opmerkingen oplossen</th> 
    <th>Handelingen toepassen op opmerkingen</th> 
@@ -75,7 +75,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td> </td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -91,7 +91,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -107,7 +107,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -123,7 +123,7 @@ Bepaalde proefdrukrollen geven een revisor bewerkingsrechten op de proefdruk (ze
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
