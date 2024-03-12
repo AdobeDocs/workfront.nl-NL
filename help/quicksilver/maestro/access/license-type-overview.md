@@ -4,9 +4,9 @@ description: De toegang tot de planningsmogelijkheden van Adobe Workfront is afh
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Een gebruiker met een lager licentietype heeft beperkte machtigingen voor object
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Voor informatie over machtigingen voor objecten in Workfront-planningsmogelijkheden raadpleegt u [Overzicht van het delen van machtigingen in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Voor informatie over machtigingen voor objecten in Workfront-planningsmogelijkheden raadpleegt u [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## De relatie tussen Workfront-licentietypen en Workfront-machtigingen voor planningsmogelijkheden
 

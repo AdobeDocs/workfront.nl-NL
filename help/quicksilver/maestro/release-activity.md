@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Productie: 28 februari 2024
 Voorbeeld: te bepalen
 
 U kunt nu filteren, sorteren, en groeperen door verbonden verslagen of hun raadplegingsgebieden. Dankzij deze verbetering kunt u uw gegevens op efficiënte wijze ordenen en visualiseren in zowel de tabel- als de tijdlijnweergave.
+
+U kunt niet filteren, sorteren, of groeperen door raadplegingsgebieden die verbindingen met veelvoudige verslagen toestaan.
 
 Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md) en [De tijdlijnweergave beheren](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Hier volgen de machtigingsniveaus voor recordweergaven:
 * Weergave: gebruikers kunnen de weergave selecteren in het vervolgkeuzemenu Weergave van een pagina met recordtypen.
 * Beheren: gebruikers kunnen de weergave bewerken, delen en verwijderen.
 
-Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md) en [Overzicht van het delen van machtigingen in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md) en [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](../maestro/access/sharing-permissions-overview.md).
 
 ### Nieuw type formulierveld
 

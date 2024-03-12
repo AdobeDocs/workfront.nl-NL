@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
 
    * Twee types van het planningsvermogen verslag.
    * Een recordtype voor planningscapaciteit en een Workfront-project-, programma-, portfolio-, bedrijf- of groepsobjecttype.
-   * Een recordtype voor planningsmogelijkheden en een Adobe Experience Manager-middel, -map of -verzameling.
+   * Een recordtype voor planningsmogelijkheden en een Adobe Experience Manager-middel of -map.
 
      U moet een Adobe Experience Manager-licentie hebben om recordtypen te koppelen aan Experience Manager-objecten.
 

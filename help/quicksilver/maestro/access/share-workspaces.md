@@ -1,13 +1,13 @@
 ---
 title: Werkruimten delen
-description: U kunt een werkruimte delen met anderen om ervoor te zorgen dat u kunt samenwerken wanneer u in Adobe Workfront Maestro werkt.
+description: U kunt een werkruimte met anderen delen om samenwerking te verzekeren wanneer het werken in de planningsmogelijkheden van Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-U kunt een werkruimte delen met anderen om ervoor te zorgen dat u kunt samenwerken wanneer u in Adobe Workfront Maestro werkt.
+U kunt een werkruimte met anderen delen om samenwerking te verzekeren wanneer het werken in de planningsmogelijkheden van Adobe Workfront.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -57,13 +57,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> Er zijn geen toegangscontroles voor Adobe Maestro</p>  
+   <td> Er zijn geen toegangsbesturingselementen voor Adobe Workfront-planningsmogelijkheden</p>  
 </td>
   </tr>
 
@@ -105,7 +107,7 @@ Een werkruimte delen met anderen:
    * Contribute
    * Beheren
 
-     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Maestro](../access/sharing-permissions-overview.md).
+     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](../access/sharing-permissions-overview.md).
 1. Klikken **Koppeling kopiëren** om een koppeling naar de werkruimte naar het klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
 1. Klikken **Opslaan**.

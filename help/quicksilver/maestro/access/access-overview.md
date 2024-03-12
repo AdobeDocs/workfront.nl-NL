@@ -1,13 +1,13 @@
 ---
 title: Overzicht van toegang
-description: Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Adobe Maestro-mogelijkheden.
+description: Er gelden beperkingen voor licenties en deelmachtigingen om planningsmogelijkheden voor Adobe Workfront te gebruiken.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Adobe Maestro-mogelijkheden.
+Er gelden beperkingen voor licenties en deelmachtigingen om Adobe Workfront-planningsmogelijkheden te gebruiken.
 
 ## Toegangsvereisten
 
-U moet de volgende instellingen hebben om Adobe Maestro te kunnen gebruiken:
+U moet de volgende instellingen hebben om de planningsmogelijkheden in Adobe Workfront te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col>
@@ -40,7 +40,7 @@ U moet de volgende instellingen hebben om Adobe Maestro te kunnen gebruiken:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. </p>
    </td>
   </tr>
   <tr>
@@ -66,16 +66,17 @@ U moet de volgende instellingen hebben om Adobe Maestro te kunnen gebruiken:
   </tr>
   <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen besturingselementen voor toegangsniveaus voor Maestro-objecten</p>  
+   <td> <p>Er zijn geen besturingselementen voor toegangsniveaus voor het plannen van mogelijkheden-objecten</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
    <p>Draag of hoger toestemmingen aan werkruimten en meningen bij die u niet creeerde om, hen uit te geven te schrappen en te delen, en recordtypes en verslagen tot stand te brengen, uit te geven of te schrappen.</p>
-    <p>Systeembeheerders kunnen werkruimten en weergaven beheren die ze niet hebben gemaakt </p>
-   <p>Zie voor informatie over het delen van machtigingen voor Maestro-objecten  
-   <a href="../access/sharing-permissions-overview.md">Overzicht van het delen van machtigingen in Adobe Maestro</a> 
+    <p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p>
+    <p>Systeembeheerders kunnen geen weergaven beheren die ze niet hebben gemaakt. </p>
+   <p>Voor informatie over het delen van toestemmingen voor de voorwerpen van planningsmogelijkheden, zie  
+   <a href="../access/sharing-permissions-overview.md">Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden</a> 
   </td>
   </tr>
 <tr>
@@ -93,7 +94,7 @@ U moet de volgende instellingen hebben om Adobe Maestro te kunnen gebruiken:
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-Nadat uw organisatie is ingeschreven voor het bètaprogramma van Maestro, kunt u het Maestro-gebied toevoegen aan het Hoofdmenu van alle gebruikers door een lay-outsjabloon te gebruiken.
+Nadat uw organisatie is ingeschreven voor het bètaprogramma voor Workfront-planningsmogelijkheden, kunt u het Maestro-gebied toevoegen aan het Hoofdmenu van alle gebruikers met een lay-outsjabloon.
 
 1. Aanmelden bij **Workfront** als Workfront-beheerder.
 
@@ -101,7 +102,7 @@ Nadat uw organisatie is ingeschreven voor het bètaprogramma van Maestro, kunt u
 
    Zie voor meer informatie [Het hoofdmenu aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Wijs het lay-outmalplaatje aan de gebruikers toe die u toegang tot Maestro wilt hebben.
+1. Wijs het lay-outmalplaatje aan de gebruikers toe die u toegang tot de Workfront planningsmogelijkheden wilt hebben.
 
    Zie voor meer informatie [Gebruikers toewijzen aan een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -111,20 +112,20 @@ Nadat uw organisatie is ingeschreven voor het bètaprogramma van Maestro, kunt u
 
 ## Toegang verlenen
 
-Er zijn geen toegangscontroles voor Maestro.
+Er zijn geen toegangscontroles voor de planningsmogelijkheden in Workfront.
 
-Gebruikers met elk type licentie hebben toegang tot Maestro.
+Gebruikers met elk type licentie hebben toegang tot Workfront-planningsmogelijkheden.
 
 Voor informatie over het verlenen van toegang in Workfront raadpleegt u [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Rechten verlenen
 
-U moet gebruikers die geen toestemmingen van de Beheerders van het Systeem aan werkruimten en meningen geven u creeert opdat zij tot hen toegang hebben.
+U moet gebruikers machtigingen geven aan werkruimten en weergaven die u maakt, zodat ze deze kunnen openen.
 
-Zie voor meer informatie [Overzicht van gedeelde machtigingen in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Zie voor meer informatie [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-Het Adobe Workfront-licentietype werkt in combinatie met uw Maestro-machtigingen en geeft u toegang tot Maestro-objecten, -content of -beheer.
+Uw Adobe Workfront-licentietype werkt in combinatie met uw machtigingen voor planningsmogelijkheden om u toegang te geven tot objecten met planningsmogelijkheden, om bij te dragen of om deze te beheren.
 
-Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor voorwerpen Maestro beïnvloeden, zie [Overzicht van licentietype bij gebruik van de Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/license-type-overview.md).
+Voor informatie over hoe de licentietypes toestemmingsniveaus voor de planningsobjecten van mogelijkheden beïnvloeden, zie [Overzicht van licentietype bij gebruik van de Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

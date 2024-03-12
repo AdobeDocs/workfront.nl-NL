@@ -1,13 +1,13 @@
 ---
-title: Overzicht van het delen van machtigingen in Adobe Maestro
+title: Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden
 description: U kunt machtigingen delen of verwijderen in een Adobe Maestro-werkruimte of -weergave.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# Overzicht van het delen van machtigingen in Adobe Maestro
+# Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden
 
 {{maestro-important-intro}}
 
-U kunt machtigingen delen of verwijderen in een Adobe Maestro-werkruimte of -weergave.
+U kunt machtigingen delen of verwijderen naar een werkruimte of weergave wanneer u de planningsmogelijkheden in Adobe Workfront gebruikt.
 
-In dit artikel worden de machtigingsniveaus voor Maestro-objecten beschreven.
+In dit artikel worden de machtigingsniveaus voor objecten met planningsmogelijkheden beschreven.
 
 Zie de volgende artikelen voor informatie over het delen van werkruimten of weergaven:
 
@@ -30,9 +30,9 @@ Zie de volgende artikelen voor informatie over het delen van werkruimten of weer
 
 * [Weergaven delen](/help/quicksilver/maestro/access/share-views.md)
 
-## Objecten die u kunt delen in Adobe Maestro
+## Objecten die u kunt delen in Adobe Workfront-planningsmogelijkheden
 
-U kunt de volgende objecten delen in Maestro:
+U kunt de volgende objecten delen:
 
 * Werkruimten
 
@@ -40,27 +40,27 @@ U kunt de volgende objecten delen in Maestro:
 
 * Weergaven
 
-## Overwegingen bij het delen van objecten in Maestro
+## Overwegingen over het delen van objecten in planningsmogelijkheden van Adobe Workfront
 
-* Het Adobe Workfront-licentietype werkt in combinatie met uw Maestro-machtigingen en geeft u toegang tot Maestro-objecten, -content of -beheer.
+* Het Adobe Workfront-licentietype werkt in combinatie met uw machtigingen om u toegang te geven tot het weergeven, bijdragen of beheren van objecten wanneer u planningsmogelijkheden gebruikt.
 
-  Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor voorwerpen Maestro beïnvloeden, zie [Overzicht van licentietype bij gebruik van de Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/license-type-overview.md).
+  Voor informatie over hoe de licentietypes toestemmingsniveaus voor de planningsobjecten van mogelijkheden beïnvloeden, zie [Overzicht van licentietype bij gebruik van de Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systeembeheerders kunnen werkruimten beheren en delen die andere gebruikers hebben gemaakt.
 * Als u geen systeembeheerder bent, kunt u aan werkruimten bijdragen die door anderen worden gecreeerd als zij met u worden gedeeld.
 * U kunt werkruimten niet bulksgewijs delen.
-* U kunt een werkruimte delen met de volgende entiteiten:
+* U kunt een werkruimte of een weergave delen met de volgende entiteiten:
    * Gebruikers
    * Groepen
-* Andere gebruikers, waaronder Systeembeheerders, hebben alleen toegang tot weergaven die ze hebben gemaakt of die met hen zijn gedeeld.
+* Andere gebruikers, waaronder Systeembeheerders, hebben alleen toegang tot weergaven die ze hebben gemaakt of die met hen zijn gedeeld. <!--System administrators can only be given permissions to Manage a view.-->
 * U kunt een koppeling naar een werkruimte of naar een weergave vanuit een pagina met recordtypen delen met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte of de pagina met recordtypen die wordt weergegeven in de geselecteerde weergave.
 
-## Machtigingen delen voor Maestro-objecten
+## Machtigingen delen voor objecten met Adobe Workfront-planningsmogelijkheden
 
-De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt selecteren bij het delen van een Maestro-werkruimte of -weergave en welke functionaliteit elk niveau toestaat.
+De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt selecteren bij het delen van een werkruimte of weergave en welke functionaliteit op elk niveau is toegestaan.
 
 >[!IMPORTANT]
 >
->Niet alle gebruikers kunnen de hieronder beschreven toestemmingsniveaus hebben. De individuele vergunning van gebruikers bepaalt welk niveau van toestemmingen zij voor voorwerpen kunnen ontvangen Maestro.
+>Niet alle gebruikers kunnen de hieronder beschreven toestemmingsniveaus hebben. De individuele vergunning van gebruikers bepaalt welk niveau van toestemmingen zij voor de voorwerpen van planningsmogelijkheden kunnen ontvangen.
 >
 >Zie voor meer informatie [Overzicht van licentietype bij gebruik van de Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/license-type-overview.md).
 

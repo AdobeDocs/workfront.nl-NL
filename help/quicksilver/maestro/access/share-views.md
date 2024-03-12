@@ -4,9 +4,9 @@ description: U kunt een weergave met anderen delen om samenwerking te garanderen
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Objectmachtigingen</p></td>
-   <td> <p>Rechten beheren voor een weergave</p>  
+   <td> <p>Rechten beheren voor een weergave</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
 >
 >Systeembeheerders kunnen geen weergaven weergeven of delen die ze zelf niet hebben gemaakt. Ze kunnen alleen weergaven openen of delen die met hen worden gedeeld.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
    * Weergave
    * Beheren
 
-     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Maestro](../access/sharing-permissions-overview.md).
+     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](../access/sharing-permissions-overview.md).
 1. Klikken **Koppeling kopiëren** om een koppeling naar de weergave naar het klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 1. Klikken **Opslaan**.

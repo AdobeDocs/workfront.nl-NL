@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 
   Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](../views/manage-the-table-view.md).
 
+* U kunt filteren door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
+
 ### Groepering toevoegen
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergav
 * De groepen zijn uniek voor de weergave die u selecteert. In twee tijdlijnweergaven van hetzelfde recordtype kunnen verschillende groeperingen worden toegepast. Twee gebruikers die naar dezelfde tijdlijnweergave kijken, zien dezelfde groepering die op dat moment wordt toegepast.
 * U kunt de groepen die u maakt voor een tijdlijnweergave niet een naam geven.
 * Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
+* U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
 
 Een groep toevoegen in de tijdlijnweergave:
 
