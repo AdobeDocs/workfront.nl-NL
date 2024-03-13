@@ -4,16 +4,16 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Een pakket voor milieubescherming installeren
-description: Het milieu bevorderend vermogen is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. Leer hoe u een milieupromotiepakket in een nieuwe omgeving installeert.
+description: Het milieu bevorderend vermogen is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. Leer hoe u een milieupromotiepakket in een doelomgeving installeert.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d710e6dbb93cdec530ed8513bd96f5e7381f93c0
+source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,32 @@ ht-degree: 0%
 
 Deze pagina is in opbouw
 
+
+
+1. Ga naar de omgeving waarin u het pakket wilt installeren. Dit is de omgeving waarin u objecten kopieert **tot**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
+1. Selecteren **Systeem** in de linkernavigatie selecteert u vervolgens **Milieubevordering**.
+1. Selecteer het pakket in de weergegeven lijst.
+1. Klik op **Installeren** rechtsboven in het scherm.
+1. Wijs elk object in het pakket toe aan het corresponderende object in de doelomgeving.
+
+   Zie voor meer informatie [Toewijzing](#mapping) in dit artikel
+
+
+## Toewijzing
+
+Elk objecttype wordt weergegeven in de linkernavigatie en op een kaart. De kaart geeft objecten van dat type weer en geeft aan of deze objecten in de doelomgeving aanwezig zijn. U kunt bepalen hoe deze objecten naar de doelomgeving worden verplaatst.
+
+* Nieuw maken: het object bevindt zich in de doelomgeving
+* Bestaande gebruiken: het object in het pakket is niet geïnstalleerd en het object dat al in de doelomgeving bestond, blijft ongewijzigd.
+* Overschrijven: het object in het pakket vervangt het bestaande object in de doelomgeving.
+* Niet gebruiken:
+
+Standaardwaarden zijn `Create new` als het object niet bestaat in de doelomgeving, en `Use existing` als het object wel bestaat in de doelomgeving. U kunt terugkeren naar de standaardtoewijzing door op **Standaardtoewijzing herstellen**.
+
+Als u Niet gebruiken selecteert, wordt een foutbericht weergegeven waarin wordt aangegeven hoe deze keuze van invloed is op andere objecten of velden.
+
 <!--
-
-## Mapping
-
-<!--How does one get to the mapping page?--
-
-<!--Also show how to tell you're installing it in the right place (note 3 on slide 3)--
-
-Each object in the package is shown in the left navigation, and as a card on the page.
-
-Each card displays the object and its <!--fields? properties? sub-objects>--. You can determine how these <!--???--s will move to the new environment. 
-
-* Create new <!--does this mean you can have multiples?--
-* Use existing
-* Overwrite existing
-* Do not use
-
-You can revert to the default mapping by clicking **Reset to default mapping**.
-
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
-If you select Create new, you will need to change the value <!--of what?--
-
 ## Collisions
 
 A collision occurs when <!--???--.
