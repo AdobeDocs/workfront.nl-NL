@@ -4,9 +4,9 @@ description: De blik-en-voelen updates tijdens het Tweede Kwartaal 2024 de tijdk
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,5 @@ We hebben de tabbladen voor Forms, Fields en secties in het gebied Setup > Custo
 
 Zie voor meer informatie [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) en [Een aangepast formulier maken of bewerken met de verouderde formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Indicator voor handmatig aangepaste toewijzingen in de werklastbalans
 
->[!NOTE]
->
->Voorvertoningsrelease: 12 oktober 2023; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor driemaandelijkse release: met de release van 24.4 (april 2024)
-
-Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.
-
-Zie voor meer informatie [Toewijzingen van gebruikers beheren in Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

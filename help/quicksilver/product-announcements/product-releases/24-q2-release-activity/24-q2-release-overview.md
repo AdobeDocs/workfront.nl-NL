@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor startpagina](#home-enhancements)
 * [Projectverbeteringen](#project-enhancements)
+* [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
 * [Verbeteringen voor stroom en meldingen bijwerken](#update-stream-and-notification-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -186,21 +187,20 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie</a></p><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span><p>We hebben geneste mappenstructuren toegevoegd aan de workflow voor aan Adobe Experience Manager gekoppelde mappen, zodat uw Adobe Experience Manager-mappen nauwkeuriger op uw behoeften kunnen worden afgestemd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben geneste mappenstructuren toegevoegd aan de workflow voor aan Adobe Experience Manager gekoppelde mappen, zodat uw Adobe Experience Manager-mappen nauwkeuriger op uw behoeften kunnen worden afgestemd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 11 maart 2024</p>
                             </li>
-                             <li> <p><span class="preview">Driemaandelijkse release naar Production: 14 maart 2024</span></p>
+                             <li> <p><span class="preview">Productieversie voor alle klanten: 14 maart 2024</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### Projectverbeteringen
 
@@ -247,6 +247,43 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                             </li>
                             <li>
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Verbeteringen voor hulpbronnenbeheer
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicator voor handmatig aangepaste toewijzingen in de werklastbalans</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p><p>Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 12 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>

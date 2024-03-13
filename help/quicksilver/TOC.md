@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '14023'
+source-wordcount: '14032'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 0%
          * [2024 Q2 Home-verbeteringen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [Verbeteringen in de 2024 Q2-integratie](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [Verbeteringen van het Q2-project in 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [Verbeteringen voor 2024 Q2-hulpbronnenbeheer](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024 Q2 Update stream verbeteringen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Updates weergeven en weergeven tijdens de releaseperiode van 2024 Q2](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Versie 2024 Q1 {#release-24-q1}
@@ -395,6 +396,7 @@ ht-degree: 0%
    * Bètaprogramma&#39;s {#beta}
       * [Bètaprogramma&#39;s](product-announcements/betas/betas.md)
       * bèta van canvasdashboards {#canvas-dashboards-beta}
+         * [bètagegevens van dashboards op canvas](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Overzicht van de bètaversie van Canvas rapporteren](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Bèta Canvas-dashboards: releaseactiviteit](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nieuwe bètaervaring met opmerkingen {#new-commenting-experience-beta}
