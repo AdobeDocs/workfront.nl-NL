@@ -6,16 +6,14 @@ description: Workflows gebruiken in de integratie met Experience Manager Assets 
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
 
 # Workflows gebruiken in de Experience Manager Assets-integratie
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience Manager as a Cloud Service. Een Workfront-beheerder kan workflows configureren in Workfront en deze vervolgens toewijzen aan projectsjablonen. Wanneer een Project wordt gecreeerd gebruikend een Malplaatje van het Project waaraan een werkschema wordt toegewezen, worden de acties die in het werkschema worden bepaald teweeggebracht.
 
@@ -130,7 +128,7 @@ U kunt werkstroomwaarden op projectniveau bewerken. Workflowwaarden op projectni
 
 Alle werkstroomwaarden vindt u in:
 
-* De sectie Workflows van het Create project of geeft projectvenster uit.
+* De sectie Workflows of Gekoppelde mappen van het projectvenster Maken of Bewerken.
 * De sectie Adobe Experience Manager van de linkernavigatie.
 
 
@@ -148,19 +146,6 @@ Alle werkstroomwaarden vindt u in:
 
 De workflow voor gekoppelde mappen bewerken:
 
-In de productieomgeving:
-
-1. Schakelen **[!UICONTROL Create Linked folder]** aan of uit naar wens.
-1. (Voorwaardelijk) Als u gekoppelde mappen inschakelt, kiest u een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
-1. Klikken **[!UICONTROL Save]** als u de [!UICONTROL Create Project] of [!UICONTROL Edit project] venster.
-
-   of
-
-   Als u zich in de [!DNL Adobe Experience Manager area]worden de wijzigingen automatisch opgeslagen. <!--Do they though?-->
-
-In de omgeving van de voorvertoningssandbox:
-
-<div class="preview">
 
 1. Schakelen tussen **[!UICONTROL Create Linked folder]** aan of uit naar wens. Als u dit inschakelt, kunt u de configuratie van de gekoppelde map bewerken.
 
@@ -179,10 +164,8 @@ In de omgeving van de voorvertoningssandbox:
 
      Als een omslagnaam aan douanegegevens wordt geplaatst die niet op de douane voor in bijlage aan het project bestaan, zal willekeurige identiteitskaart als omslagnaam worden toegewezen.
 
+1. Als u de mappenstructuur wilt weergeven, klikt u op de knop **Voorvertoning** ![Pictogram Voorvertoning](assets/preview-icon.png) pictogram
 1. Klik op **[!UICONTROL Save]**.
-
-</div>
-
 
 #### Elementen publiceren
 

@@ -6,9 +6,9 @@ description: U kunt uw werk in [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ De volgende workflows zijn beschikbaar in de Adobe Experience Manager-integratie
 ### Gekoppelde Adobe Experience Manager-mappen maken
 
 1. Schakelen tussen **[!UICONTROL Create Linked folder]** op.
-1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
-   ![Navigatie naar gekoppelde mappen](assets/select-folder-aem-integration.png)
-1. De optie **[!UICONTROL Append Portfolio and Program Names]** automatisch namen van Portfolio&#39;s en programma&#39;s opnemen aan het einde van de naam van de gekoppelde map.
-1. Klikken **[!UICONTROL Save]** of ga naar de [Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel.
-
-In de omgeving van de voorvertoningssandbox
-
-<div class="preview">
-
-1. Schakelen tussen **[!UICONTROL Create Linked folder]** op.
 1. Voer een naam in voor de gekoppelde map die u maakt.
 1. (Voorwaardelijk) Schakel de optie **Standaardmapstructuur** als u wilt dat deze gekoppelde map de standaardmap is voor projecten die zijn gemaakt met sjablonen die gebruikmaken van deze integratie. U kunt een of meer standaardmappen selecteren.
 1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
@@ -295,8 +284,6 @@ In de omgeving van de voorvertoningssandbox
 >* De eerste map in de mappenstructuur wordt automatisch gemarkeerd als gekoppeld aan Workfront. Als u deze map niet wilt koppelen, kunt u deze ontkoppelen.
 >* Als er geen mapstructuur is opgegeven, wordt de hoofdmap de gekoppelde map.
 
-
-</div>
 
 ### Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden
 

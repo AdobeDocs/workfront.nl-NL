@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 0%
 
 ---
@@ -252,14 +252,13 @@ Voor informatie over het creëren van een project van een malplaatje, zie [Een p
          <li> <p>Wanneer het project van de belangrijkste pagina van een groep in het gebied van de Opstelling wordt gecreeerd, wordt die groep geassocieerd met het project.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>NOTITIES</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>Als het project, of zijn taken of kwesties met een groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de Groep van het project de Status van het project, de taken, of de kwesties kunnen veroorzaken om te veranderen om de nieuwe groep aan te passen.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>Als het project, of zijn taken of kwesties reeds met een groep-vlakke goedkeuringsproces gebruikend groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de groep een conflict tussen de goedkeuringsstatussen van de vorige groep en die op het systeemniveau kunnen tot stand brengen.&lt;/p>
-       &lt;p>U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep bijwerkt.&lt;/p>
-       &lt;p>Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>groep-vlakke goedkeuringsprocessen&lt;/a>.&lt;/p>
-       &lt;p>Zie &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Groepsstatus maken of bewerken voor&lt;/a> informatie over het maken van een aangepaste status op groepsniveau&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>Als het project, of zijn taken of kwesties met een groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de Groep van het project de Status van het project, de taken, of de kwesties kunnen veroorzaken om te veranderen om de nieuwe groep aan te passen.</p></li>
+         <li><p>Als het project, of zijn taken of kwesties reeds met een groep-vlakke goedkeuringsproces gebruikend groep-vlakke douanestatus worden geassocieerd, zou het veranderen van de groep een conflict tussen de goedkeuringsstatussen van de vorige groep en die op het systeemniveau kunnen tot stand brengen.</p>
+         <p>U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep bijwerkt.</p>
+         <p>Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Goedkeuringsprocessen op groepsniveau</a>.</p>
+         <p>Voor informatie over het creëren van een groep-vlakke douanestatus, zie <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Een groepsstatus maken of bewerken</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>Bedrijf</strong> </td> 
          <td> <p>Geef een bedrijf op dat aan het project is gekoppeld. U moet een bedrijf tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve bedrijven kunnen met een project worden geassocieerd. Voor informatie over het creëren van bedrijven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Bedrijven maken en bewerken</a>.</p> </td> 
@@ -653,6 +652,22 @@ Zie de sectie voor informatie over de invloed van deze instellingen op het maken
    </table>
 
 1. Klikken **Opslaan**.
+
+### Gekoppelde mappen
+
+De functionaliteit van een gekoppelde map maakt automatisch mappen in Adobe Experience Manager Assets en verbindt deze met Workfront.
+
+Deze sectie wordt alleen weergegeven als alle volgende opties van toepassing zijn:
+
+* Uw organisatie is gemigreerd naar de Adobe Admin Console
+* Uw organisatie heeft integratie met Adobe Experience Manager ingeschakeld en geconfigureerd
+* Het malplaatje dat wordt gebruikt om dit project tot stand te brengen heeft toegelaten en verbonden omslagen gevormd.
+
+Voor instructies over het bewerken van gekoppelde mappen raadpleegt u [Werkstroomwaarden in een project bewerken](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in het artikel Workflows gebruiken in de Experience Manager Assets-integratie.
+
+>[!NOTE]
+>
+>Omdat gekoppelde mappen worden gemaakt wanneer het project wordt gemaakt, is het bewerken van de gekoppelde mapworkflow voor een bestaand project niet effectief. Deze waarden bewerken wanneer u projectfuncties maakt zoals u had verwacht.
 
 ## Een project bewerken in de projectheader (beperkt)
 
