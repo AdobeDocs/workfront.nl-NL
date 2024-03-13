@@ -12,23 +12,21 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '1886'
 ht-degree: 0%
 
 ---
 
-# Objecten van de ene verplaatsen [!DNL Workfront] milieu aan een andere
+# Objecten verplaatsen tussen [!DNL Workfront] omgevingen die de [!DNL Workfront] Omgevingspromotie-API
 
-<!-- 
-TO DO
+Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. U kunt deze objecten verplaatsen met de Workfront API, zoals beschreven in dit artikel.
 
-Overview of value
-Check for any code changes
-Fix {}
-Add to tocs
--->
+Zie voor instructies over het verplaatsen van objecten tussen omgevingen die de Workfront-toepassing gebruiken:
+
+* [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 ## Toegangsvereisten
 
@@ -65,66 +63,7 @@ Het Create eindpunt van het Pakket van de Bevordering veronderstelt dat u reeds 
 
 Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. Het ondersteunt niet de mogelijkheid om transactieobjecten te verplaatsen (met beperkte uitzonderingen).
 
-* [Werkobjecten](#work-objects)
-* [Objecten rapporteren](#reporting-objects)
-* [Aangepaste gegevensobjecten](#custom-data-objects)
-* [Organisatie-objecten](#organization-objects)
-* [Andere configuratieobjecten](#other-configuration-objects)
-
-
-### Werkobjecten
-
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
-| --- | --- |
-| Project (PROJ) | Project<br>Taak<br>Toewijzing<br>Voorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
-| Sjabloon (TMPL) | Sjabloon<br>Sjabloontaak<br>Toewijzing sjabloontaak<br>Sjabloontaakvoorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
-
-### Objecten rapporteren
-
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
-| --- | --- |
-| Lay-outsjabloon (UITMPL) | Lay-outsjabloon<br>Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Kalender (CALEND) | Kalender<br>Kalender, sectie |
-| Externe pagina (EXTSEC) | Externe pagina |
-| Rapport (PTLSEC) | Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Filter (UIFT) | Filter<br>Parameter |
-| Groeperen (UIGB) | Groepering<br>Parameter |
-| Weergave (UIVW) | Weergave<br>Parameter |
-
-### Aangepaste gegevensobjecten
-
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
-| --- | --- |
-| Categorie (CTGY) | Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica<br>Groep |
-| Parameter (PARAM) | Parameter<br>Parameteroptie |
-| Parametergroep (PGRP) | Parametergroep |
-
-### Organisatie-objecten
-
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
-| --- | --- |
-| Groep (GROEP) | Groep <br>Subgroepen (maximaal 5 niveaus) *<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
-| Rol (ROLE) | Rol |
-| Team (TEAM) | Team<br>Groep |
-| Bedrijf (CMPY) | Bedrijf<br>Overschrijvingssnelheid<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameter <br>Categorieweergavelogica<br>Groep |
-| Portfolio (HAVEN) | Portfolio<br>Programma<br>Groep<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
-| Programma (PRGM) | Programma<br>Portfolio<br>Groep<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
-
-### Andere configuratieobjecten
-
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
-| --- | --- |
-| Goedkeuringsproces (ARVPRC) | Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Rol<br>Team<br>Groep |
-| Schema (SCHED) | Schema<br>Onwerkdag<br>Groep |
-| Mijlpad (MPATH) | Mijlpad<br>Mijlsteen |
-| Tijdbladprofiel (TSPRO) | Tijdbladprofiel<br>Uurtype |
-| Uurtype (URT) | Uurtype |
-| Type kosten (EXPTYP) | Type uitgave |
-| Type risico (RSKTYP) | Type risico |
-| Bronpool (RSPL) | Bronpool |
-
-\* Momenteel niet beschikbaar
+Voor een lijst met promoteerbare objecten en de bijbehorende promoteerbare subobjecten raadpleegt u [Ondersteunde objecten voor milieubescherming](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het artikel [Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Verificatie
 
@@ -435,38 +374,7 @@ De bewerkbare kenmerken zijn:
 1. description (string)
 1. status (tekenreeks met validatie van waarden)
 
-De statusopties zijn:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>VERZAMELING</td> 
-   <td><p>Deze status wordt automatisch toegewezen tijdens het samenstellen van objecten.</p><p>Deze status kan niet rechtstreeks door een klant worden ingesteld.</p></td> 
-  </tr> 
-  <tr> 
-   <td>CONCEPT</td> 
-   <td><p>Deze status wordt toegewezen aan het einde van een assemblageproces of bij het maken van een leeg promotiepakket.</p><p>Het is mogelijk dat een klant het promotiepakket terugbrengt naar deze status.</p><p>In deze status kan het promotiepakket niet in een omgeving worden geïnstalleerd.</p></td> 
-  </tr> 
-  <tr> 
-   <td>TESTS</td> 
-   <td><p>Met deze status kan een promotiepakket worden geïnstalleerd in elke voorvertoning of aangepaste vernieuwingssandbox. In deze status kan het pakket niet in Production worden geïnstalleerd.</p></td> 
-  </tr> 
-  <tr> 
-   <td>ACTIEF</td> 
-   <td><p>Met deze status kan een promotiepakket worden geïnstalleerd in elke omgeving, inclusief Productie.</p><p>Wanneer de pakketstatus is ingesteld op ACTIEF, wordt de instelling <code>publishedAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p></td> 
-  </tr> 
-  <tr> 
-   <td>UITGESCHAKELD</td> 
-   <td><p>Deze status wordt gebruikt om eerder gebruikte promotiepakketten te verbergen die in de toekomst niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakket zich in deze status bevindt, kan het niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakketstatus wordt ingesteld op DISABLED, wordt de <code>retiredAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p><p>Het gebruik van deze status wordt aanbevolen tijdens het gebruik van de<code>DELETE /package</code> eindpunt omdat het terugwinnbaar is en de installatiegeschiedenis voor om het even welke plaatsingen wordt behouden die met dit pakket worden gemaakt.</p></td> 
-  </tr> 
-  <tr> 
-   <td>ASSEMBLING_FAILED</td> 
-   <td><p>Het promotiepakket wordt automatisch in deze status geplaatst als de ASSEMBLING-fase mislukt.</p><p>Als u het pakket wilt terugplaatsen naar het ASSEMBLING-stadium, moet u het extractieproces opnieuw starten.</p></td> 
-  </tr> 
-  </tbody> 
-</table>
+Zie voor een gedetailleerde beschrijving van de beschikbare statussen [Status van milieubescherming](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikel [Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
