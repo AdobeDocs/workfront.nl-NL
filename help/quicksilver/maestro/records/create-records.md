@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
 1. (Voorwaardelijk) Als de pagina met recordtypen niet wordt geopend in de tabelweergave, klikt u op de knop **Weergave** en selecteert u een bestaande **Tabelweergave** ![](assets/table-view-icon.png) of klik op **Weergave maken > Tabel** een tabelweergave maken.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. Klik op **Nieuwe record** in de laatste rij van de tabel
 
    of
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Records maken door gegevens uit een externe lijst te kopiëren en te plakken
 
-1. Start in Maestro records in de tabelweergave, zoals wordt beschreven in de sectie [Records maken door deze handmatig toe te voegen aan een recordtype](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel.
+1. Beginnen met het maken van records in de tabelweergave, zoals beschreven in de sectie [Records maken door deze handmatig toe te voegen aan een recordtype](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel.
 
-   Zorg ervoor dat de tabel Maestro de kolommen (of de velden) bevat die u wilt vullen met de nieuwe recordgegevens.
+   Zorg ervoor dat de tabelweergave de kolommen (of de velden) bevat die u wilt vullen met de nieuwe recordgegevens.
 
 1. Klikken **Nieuw &lt; Naam recordtype >** in de laatste rij van de tabel om zoveel nieuwe rijen aan de tabel toe te voegen als u wilt dat de nieuwe records worden gemaakt.
 
    Voeg bijvoorbeeld 10 rijen toe aan de tabelweergave als u de gegevens voor 10 nieuwe records uit een andere toepassing wilt plakken.
 
-1. Maak in een andere toepassing een lijst met records die u wilt importeren in Maestro.
+1. Maak in een andere toepassing een lijst met records die u wilt importeren.
 
    U kunt bijvoorbeeld een Excel-werkblad gebruiken om uw lijst te maken.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > De kolommen in de lijst moeten informatie bevatten voor de bestaande velden die u in Maestro hebt.
+   > De kolommen in de lijst moeten informatie bevatten voor de bestaande velden die u in Workfront hebt.
    >
-   > Zorg ervoor dat u de gewenste velden hebt die al in Maestro zijn gemaakt en dat de gegevens op uw blad in de juiste indeling worden weergegeven die overeenkomt met die van elk veld in Maestro.
+   > Zorg ervoor dat de gewenste velden al in Workfront zijn gemaakt en dat de gegevens op uw blad in de juiste indeling worden weergegeven die overeenkomt met die van elk veld in Workfront.
 
 1. In een andere toepassing selecteert u meerdere rijen en kolommen en plakt u de gegevens in de tabelweergave van het recordtype, te beginnen met de eerste nieuwe record.
 
-   De volgende informatie wordt geïmporteerd in Maestro:
+   De volgende informatie wordt geïmporteerd in het gedeelte Workfront-planningsmogelijkheden:
 
    * De rijen bevatten de nieuwe records
    * De kolommen vullen informatie voor de gebieden van de verslagen.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-U kunt records verwijderen die niet meer relevant zijn voor de Adobe Maestro.
+U kunt records verwijderen die niet meer relevant zijn voor de planningsmogelijkheden van Adobe Workfront.
 
 ## Toegangsvereisten
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro </p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planningsmogelijkheden van Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Als de verwijderde records zijn gekoppeld aan andere records, worden de gekoppelde records niet verwijderd, maar worden de gegevens uit de verwijderde record ook verwijderd.
 * U kunt records in bulk niet verwijderen. <!--this will probably change-->
 * U kunt records niet verwijderen uit de tijdlijnweergave.
-* U kunt geen recordtype verwijderen dat is gekoppeld vanuit een andere toepassing. Als u bijvoorbeeld een Maestro-record koppelt aan een Workfront-object, kunt u het Workfront-object niet verwijderen van de Workfront-objectrecordpagina.
 
 ## Records verwijderen
 
@@ -132,12 +131,16 @@ De werkruimte die u het laatst hebt geopend.
 1. Klik op een recordtype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de linkerbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
-1. Klik met de rechtermuisknop op een recordrij en klik vervolgens op **Verwijderen**.
+1. Voer een van de volgende handelingen uit:
+
+   * Klik met de rechtermuisknop op een recordrij en klik vervolgens op **Verwijderen**.
+   * Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Verwijderen**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    De record wordt verwijderd en kan niet worden hersteld.
 

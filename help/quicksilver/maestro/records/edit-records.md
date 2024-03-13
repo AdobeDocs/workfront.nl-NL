@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -117,9 +117,11 @@ De werkruimte die u het laatst hebt geopend.
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** vervolgkeuzemenu <!--tab--> in de rechterbovenhoek van de tabel selecteert u een **Tabel** weergeven. Dit moet de standaardweergave zijn, tenzij u het recordtype in een ander type weergave hebt bekeken toen u het als laatste opende.
+1. (Voorwaardelijk) Van de **Weergave** in de linkerbovenhoek van de tabel selecteert u een **Tabel** weergeven. Dit moet de standaardweergave zijn, tenzij u het recordtype in een ander type weergave hebt bekeken toen u het als laatste opende.
 
-   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ De werkruimte die u het laatst hebt geopend.
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
-   >  * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
+   >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
 1. (Optioneel en voorwaardelijk) Als u een veld van het type Alinea bewerkt, gebruikt u het volgende **RTF** opmaakopties:
 
@@ -147,12 +149,12 @@ De werkruimte die u het laatst hebt geopend.
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. (Optioneel) Voer een van de volgende handelingen uit om gegevens van het ene veld naar het andere te kopiëren en te plakken:
@@ -168,7 +170,7 @@ De werkruimte die u het laatst hebt geopend.
    >* Gebruik de volgende sneltoetsen voor het kopiëren en plakken van gegevens:
    >   * Kopie: CTRL + C ( ⌘ + C voor Mac)
    >   * Plakken: CTRL + V ( ⌘ + V voor Mac)
-   >* U kunt geen informatie kopiëren van een andere bron, behalve een Maestro-veld van hetzelfde type als het veld waarin u de informatie plakt.
+   >* U kunt geen informatie uit een andere bron kopiëren, behalve een recordveld van hetzelfde type als het veld waarin u de informatie plakt.
    >
    >* U kunt geen veldwaarden kopiëren en plakken in het gebied Details van een record. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
@@ -191,7 +193,7 @@ De werkruimte die u het laatst hebt geopend.
 
 ### Een record bewerken vanaf de pagina Details van de record
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ De werkruimte die u als laatste opent.
 
    of
 
-   Klik in een bewerkbaar veld op de pagina Details om de gegevens te bewerken.
+   Klik in een bewerkbaar veld op de pagina Details om de gegevens te bewerken. <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Klikken **Wijzigingen opslaan**. <!--logged a bug for this - this needs to be "Save"-->
+1. Klikken **Wijzigingen opslaan**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

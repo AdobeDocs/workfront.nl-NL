@@ -6,9 +6,9 @@ description: U kunt updates aan een document toevoegen of erop reageren om met m
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U moet het volgende hebben:
 1. Ga naar het object dat het document bevat en selecteer **Documenten** in het linkerdeelvenster.
 1. Zoek het gewenste document en voer een van de volgende handelingen uit:
 
-   * Klik op het document in de lijst en klik op de knop **Samenvatting openen** pictogram ![](assets/qs-summary-in-new-toolbar-small.png) in de rechterbovenhoek klikt u op **Een nieuwe update starten** of klik op **Antwoord** om een antwoord op een bestaande opmerking toe te voegen. Voor informatie over de samenvatting raadpleegt u [Overzicht van documenten](../../documents/managing-documents/summary-for-documents.md).
+   * Klik op het document in de lijst en klik op de knop **Samenvatting openen** pictogram ![](assets/qs-summary-in-new-toolbar-small.png) in de rechterbovenhoek, voeg dan een nieuwe commentaar toe, of klik **Antwoord** om een antwoord op een bestaande opmerking toe te voegen. Voor informatie over de samenvatting raadpleegt u [Overzicht van documenten](../../documents/managing-documents/summary-for-documents.md).
    * Houd de cursor boven het document en klik op **Documentdetails** vervolgens **Updates** in het linkerdeelvenster.
 Ga voor meer informatie over het toevoegen van updates aan objecten naar [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

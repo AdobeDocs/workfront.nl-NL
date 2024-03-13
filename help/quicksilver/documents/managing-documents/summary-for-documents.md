@@ -7,16 +7,16 @@ description: Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst w
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # Overzicht van documenten
 
-{{highlighted-preview}}
+<span class="preview">De op deze pagina gemarkeerde informatie is alleen beschikbaar in de voorvertoningsomgeving.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst werken met belangrijke informatie.
 
@@ -67,7 +67,7 @@ In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en commu
 * [Overzicht](#overview)
 * [Aangepaste Forms](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### Overzicht {#overview}
 
@@ -79,7 +79,7 @@ Vouw de sectie Overzicht uit om een miniatuur van een afbeelding weer te geven o
 
 Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Zie voor meer informatie [Een aangepast formulier toevoegen aan of bewerken in een document](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## Updates
 
@@ -87,13 +87,10 @@ In de sectie Updates kunt u een update lezen van iemand die in het document of d
 
 <div class="preview">
 
-Voorbeeld van updates in de voorvertoningsomgeving:
 ![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-Voorbeeld van updates in de productieomgeving:
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Goedkeuringen
 
@@ -104,7 +101,7 @@ Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. 
 * [Goedkeuring van de werkzaamheden](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## Versies
 
@@ -116,4 +113,4 @@ In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald do
 * Ga naar Documentdetails
 * Een proefdruk of document verwijderen
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

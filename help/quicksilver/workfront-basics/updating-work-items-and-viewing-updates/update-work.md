@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4249'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * Samenvattingspaneel in tijdbladen
 > * Het deelvenster Overzicht in het deelvenster Werklastverdeling
 >
-><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving.</span>
+><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ U kunt updates toevoegen aan de volgende objecten:
 
    <div class="preview">
 
-   Nieuw commentaarvak in de voorvertoningsomgeving:
    ![Nieuw opmerkingenvenster](assets/comment-box-all-tabs.png)
 
    </div>
 
-   Voorbeeld van een nieuw commentaarvak in de productieomgeving:
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ U kunt een opmerking of antwoord zoeken in de sectie Updates van een object.
 
    <div class="preview">
 
-   Voorbeeld van zoeken in de voorvertoningsomgeving:
    ![Zoeken in updates](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   Voorbeeld van zoeken in de productieomgeving:
-   ![](assets/search-field-in-updates-tab.png)
 
    Het trefwoord <!--or user--> u hebt gezocht naar wordt benadrukt en de commentaren die het bevatten tonen bij de bovenkant van de sectie van Updates.
 

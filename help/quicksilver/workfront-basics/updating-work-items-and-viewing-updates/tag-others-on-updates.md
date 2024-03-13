@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * Samenvattingspaneel in tijdbladen
 > * Het deelvenster Overzicht in het deelvenster Werklastverdeling
 >
-><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving.</span>
+><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving.</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 U kunt gebruikers tags toewijzen wanneer u een update uitvoert naar een object als u de aandacht wilt vestigen op een object dat ze anders wellicht niet volgen.
 
@@ -133,13 +133,9 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
 
    <div class="preview">
 
-   Voorbeeld van labelen in de voorvertoningsomgeving:
    ![Tags toewijzen aan een gebruiker](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   Voorbeeld van codering in de productieomgeving:
-   ![](assets/tag-others-unified-commenting.png)
 
 1. (Optioneel) Schakel de optie **Privé voor mijn bedrijf** in de rechterbenedenhoek van het updatevak. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf. De **Privé voor mijn bedrijf** Deze optie is alleen beschikbaar wanneer een bedrijf is opgegeven in uw Workfront-profiel.
 
@@ -161,7 +157,7 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">Wanneer u gelabeld bent in de opmerkingstekst, wordt uw gebruikersnaam in die opmerkingen gemarkeerd.</span>
+   <span class="preview">Wanneer u in de opmerkingstekst bent gelabeld, wordt uw naam gemarkeerd in die opmerkingen.</span>
 
    Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # Door het systeem bijgehouden updates
 
-{{highlighted-preview}}
+<span class="preview">De op deze pagina gemarkeerde informatie is alleen beschikbaar in de voorvertoningsomgeving.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Hieronder ziet u de verschillen tussen de nieuwe en de oudere opmerkingervaring:
 
-   * Wanneer u de nieuwe opmerkingervaring gebruikt, worden gebruikersupdates weergegeven op het tabblad Opmerkingen en worden systeemupdates weergegeven op het tabblad Systeemactiviteit.
+   * Wanneer u de nieuwe opmerkingervaring gebruikt, worden gebruikersupdates weergegeven op het tabblad Opmerkingen en worden systeemupdates weergegeven in de Systeemactiviteit <span class="preview">en de</span> tabs.
 
      Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   * <span class="preview">Als gebruikers de nieuwe opmerkingervaring gebruiken, kunnen ze geen opmerkingen toevoegen aan een systeemupdate. Antwoorden die in de oudere opmerkingervaring aan de systeemactiviteitenrecords zijn toegevoegd, worden echter op het tabblad Systeemactiviteit als alleen-lezen ingevuld in de nieuwe opmerkingervaring.</span>
+   * <span class="preview">Als u de nieuwe opmerkingervaring gebruikt, kunt u geen opmerkingen toevoegen aan een systeemupdate. Antwoorden die in de oudere opmerkingervaring aan de systeemactiviteitenrecords zijn toegevoegd, worden echter op het tabblad Systeemactiviteit als alleen-lezen ingevuld in de nieuwe opmerkingervaring.</span>
    * Als u de oudere opmerkingervaring gebruikt, worden het systeem en de gebruikersupdates in één doorlopende feed weergegeven.
 
    * Als gebruikers de oudere opmerkingervaring gebruiken, kunnen ze systeemupdates standaard bekijken of ze kunnen ervoor kiezen deze niet weer te geven. Het is niet mogelijk systeemupdates uit te schakelen wanneer u de nieuwe opmerkingervaring gebruikt.
