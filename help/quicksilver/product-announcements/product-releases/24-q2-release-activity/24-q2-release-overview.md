@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,23 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 14 maart 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (selecteren, premier of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -77,7 +93,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>Native velden voor Workfront kunnen nu worden toegevoegd aan aangepaste formulieren. Met dit nieuwe veldtype kunt u gegevens op een logische manier ordenen en presenteren aan uw gebruikers, zonder dat u bestaande gegevens opnieuw hoeft te maken in aangepaste velden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -187,7 +203,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben geneste mappenstructuren toegevoegd aan de workflow voor aan Adobe Experience Manager gekoppelde mappen, zodat uw Adobe Experience Manager-mappen nauwkeuriger op uw behoeften kunnen worden afgestemd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben geneste mappenstructuren toegevoegd aan de workflow voor aan Adobe Experience Manager gekoppelde mappen om ervoor te zorgen dat uw Adobe Experience Manager-mappen nauwkeuriger op uw behoeften zijn afgestemd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -220,7 +236,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p><p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -238,7 +255,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante slimme toewijzingen</a></p><p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante slimme toewijzingen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -312,7 +330,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>We hebben nu de nieuwe functionaliteit voor opmerkingen toegevoegd aan de knop Snelle actie toevoegen in Mijn werk, Mijn projecten, Mijn taken en Mijn problemen in de nieuwe widgets Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -331,7 +349,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen</a></p><p>De nieuwe opmerkingervaring is als volgt verbeterd:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>De nieuwe opmerkingervaring is als volgt verbeterd:</p>
                         <ul>
                             <li>
                                 <p>U kunt op de naam van een opmerking klikken om de naam, de rol en het e-mailadres van de persoon of persoon weer te geven in een informatievak. Deze informatie kan u helpen de correcte gebruiker identificeren, als u meer dan één gebruiker met de zelfde naam hebt. Wanneer u in het informatievak op de naam van de aanvrager klikt, wordt het gebruikersprofiel van deze persoon geopend.</p>
@@ -357,7 +376,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Het tabblad Systeemactiviteit van de nieuwe opmerkingervaring ondersteunt alleen-lezen opmerkingen</a></p><p>Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring worden nu op het tabblad Systeemactiviteit van de nieuwe opmerkingervaring alleen-lezen weergegeven. U kunt niet reageren op de records met systeemactiviteiten in de nieuwe opmerkingervaring.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Het tabblad Systeemactiviteit van de nieuwe opmerkingervaring ondersteunt alleen-lezen opmerkingen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring worden nu op het tabblad Systeemactiviteit van de nieuwe opmerkingervaring alleen-lezen weergegeven. U kunt niet reageren op de records met systeemactiviteiten in de nieuwe opmerkingervaring.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -375,7 +395,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen</a></p><p>Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -393,7 +414,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting</a></p><p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -430,7 +452,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het tweede kwartaal van 2024</a></p><p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het tweede kwartaal van 2024. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het tweede kwartaal van 2024</a></p>
+                        <p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het tweede kwartaal van 2024. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>

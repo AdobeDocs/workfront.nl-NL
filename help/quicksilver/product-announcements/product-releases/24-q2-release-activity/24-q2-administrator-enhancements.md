@@ -4,9 +4,9 @@ description: Tweede kwartaal 2024 Verbeteringen voor beheerders
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Deze pagina beschrijft alle beheerderverhogingen die met de Tweede Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 14 maart 2024; Productie voor alle klanten: 24.4 (april 2024)
+
+Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker. De geavanceerde eigenschappen zijn beschikbaar op de pagina&#39;s van de Details van het Bedrijf en van de Details van de Gebruiker, niet op Edit Bedrijf en geef de dialogen van de Gebruiker uit. Het aangepaste formulier moet in de nieuwe formulierontwerper worden gemaakt om deze veldtypen te kunnen gebruiken.
+
+Zie voor meer informatie over aangepaste formuliervelden [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen
 
