@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
 workflow-type: tm+mt
 source-wordcount: '1886'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. U kunt deze objecten verplaatsen met de Workfront API, zoals beschreven in dit artikel.
 
-Zie voor instructies over het verplaatsen van objecten tussen omgevingen die de Workfront-toepassing gebruiken:
+Voor instructies over het verplaatsen van objecten tussen omgevingen met de Workfront-toepassing raadpleegt u:
 
 * [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)

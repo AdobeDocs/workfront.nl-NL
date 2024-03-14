@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Elk objecttype wordt weergegeven in de linkernavigatie en op een kaart. De kaart
 
 * Nieuw maken: het object bevindt zich in de doelomgeving
 * Bestaande gebruiken: het object in het pakket is niet geïnstalleerd en het object dat al in de doelomgeving bestond, blijft ongewijzigd.
-* Overschrijven: het object in het pakket vervangt het bestaande object in de doelomgeving.
+* Overschrijven: (momenteel niet beschikbaar) Het object in het pakket vervangt het bestaande object in de doelomgeving.
 * Niet gebruiken:Als u Niet gebruiken selecteert, wordt een foutbericht weergegeven waarin wordt aangegeven hoe deze keuze van invloed is op andere objecten of velden.
 
 Standaardwaarden zijn `Create new` als het object niet bestaat in de doelomgeving, en `Use existing` als het object wel bestaat in de doelomgeving. U kunt terugkeren naar de standaardtoewijzing door op **Standaardtoewijzing herstellen**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
