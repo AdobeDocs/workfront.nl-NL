@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
 # Een pakket voor milieubescherming installeren
-
-Deze pagina is in opbouw
-
 
 
 1. Ga naar de omgeving waarin u het pakket wilt installeren. Dit is de omgeving waarin u objecten kopieert **tot**.
@@ -41,11 +38,11 @@ Elk objecttype wordt weergegeven in de linkernavigatie en op een kaart. De kaart
 * Nieuw maken: het object bevindt zich in de doelomgeving
 * Bestaande gebruiken: het object in het pakket is niet geïnstalleerd en het object dat al in de doelomgeving bestond, blijft ongewijzigd.
 * Overschrijven: het object in het pakket vervangt het bestaande object in de doelomgeving.
-* Niet gebruiken:
+* Niet gebruiken:Als u Niet gebruiken selecteert, wordt een foutbericht weergegeven waarin wordt aangegeven hoe deze keuze van invloed is op andere objecten of velden.
 
 Standaardwaarden zijn `Create new` als het object niet bestaat in de doelomgeving, en `Use existing` als het object wel bestaat in de doelomgeving. U kunt terugkeren naar de standaardtoewijzing door op **Standaardtoewijzing herstellen**.
 
-Als u Niet gebruiken selecteert, wordt een foutbericht weergegeven waarin wordt aangegeven hoe deze keuze van invloed is op andere objecten of velden.
+
 
 <!--
 ## Collisions
