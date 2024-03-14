@@ -4,9 +4,9 @@ description: U kunt een weergave met anderen delen om samenwerking te garanderen
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
 >[!NOTE]
 >
 >Systeembeheerders kunnen geen weergaven weergeven of delen die ze zelf niet hebben gemaakt. Ze kunnen alleen weergaven openen of delen die met hen worden gedeeld.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>Systeembeheerders kunnen alleen beheermachtigingen voor een weergave hebben.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. Vanuit het vervolgkeuzemenu Weergave <!--tab-->Houd de muisaanwijzer boven de weergave die u wilt delen en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Delen**.
+1. Houd de muisaanwijzer boven de weergave die u wilt delen op het tabblad Weergave en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Delen**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -153,18 +153,17 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. Klikken **+ Weergave** om een nieuwe weergave toe te voegen.
+1. Selecteer een van de volgende typen weergaven:
 
-    * Table
-    * Timeline
-    * Calendar
+   * Tabel
+   * Tijdlijn
+   * Kalender
 
-    A new tab is created with the selected view. 
+   Er wordt een nieuw tabblad gemaakt met de geselecteerde weergave.
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   Afhankelijk van de breedte van het scherm kunnen aanvullende weergaven worden weergegeven in het dialoogvenster **Meer** menu ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 >Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
 >
 
-1. Klik op de knop **Weergave** en selecteert u een bestaande **Tabelweergave** ![](assets/table-view-icon.png) of klik op **Weergave maken > Tabel** een tabelweergave maken
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   of
-
-   Bestaande selecteren **Tijdlijnweergave** ![](assets/timeline-view-icon.png) of klik op **Weergave maken > Tijdlijn** om een tijdlijnweergave te maken.
-
-   of
-
-   Bestaande selecteren **Kalenderweergave** ![](assets/calendar-view-icon.png) of klik op **Weergave maken > Kalender** om een kalenderweergave te maken.
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders worden de tijdlijn of de kalenderopties gedimd weergegeven.
+>[!NOTE]
+>
+>    Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders worden de tijdlijn of de kalenderopties gedimd weergegeven.
 
 1. (Voorwaardelijk) Klik **Volgende**, wanneer u een tijdlijn- of kalenderweergave maakt.
 
@@ -202,12 +191,16 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 1. (Voorwaardelijk) Selecteer **Start** en **Einddata** voor de records die worden weergegeven in de tijdlijn of de kalenderweergave.
 1. Klikken **Maken**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   De weergave wordt weergegeven als een nieuw tabblad. De weergaven worden in chronologische volgorde weergegeven vanaf het moment waarop ze zijn gemaakt of met u zijn gedeeld.
+1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-caret-down-icon-views.png) naast de laatste weergave om alle weergaven voor het geselecteerde recordtype weer te geven.
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (Optioneel) Als u de naam van een weergave wilt wijzigen nadat deze is gemaakt, klikt u op de vervolgkeuzelijst Weergave en vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Naam wijzigen** om de weergavenaam bij te werken. <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   Aanvullende weergaven worden weergegeven onder de **Meer** na het laatste weergavetabblad. Het getal naast de **Meer** wordt het aantal extra weergaven weergegeven.
+1. (Optioneel) Als u de naam van een weergave wilt wijzigen nadat deze is gemaakt, klikt u op de vervolgkeuzelijst Weergave en vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Naam wijzigen** de weergavenaam bijwerken
+
+   of
+
+   Dubbelklik op de weergavenaam en typ de nieuwe naam.  <!--ensure there is not another saving step here?!-->
+
 1. (Optioneel) Raadpleeg de volgende artikelen voor informatie over het beheren van een bepaald weergavetype:
 
    * [De tabelweergave beheren](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. Houd de muis boven een van de namen van de weergave op het tabblad Weergave en klik vervolgens op **Meer** ![](assets/more-menu.png) links van de weergavenaam klikt u op **Verwijderen**.
+Eerst moet u mogelijk op **Meer** links van de laatste tab om de weergave te zoeken die u wilt verwijderen.
 
-1. Klik op het vervolgkeuzemenu Weergave, houd de muisaanwijzer boven een van de weergaven in de lijst en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Verwijderen**.
 1. Klikken **Verwijderen** ter bevestiging. <!--ensure there is not another saving step here?!-->
 
    De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het recordgebied en kan niet worden hersteld.

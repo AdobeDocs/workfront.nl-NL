@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,9 @@ De werkruimte die u het laatst hebt geopend.
    * Klik met de rechtermuisknop op een recordrij en klik vervolgens op **Verwijderen**.
    * Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Verwijderen**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * Klik op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) om het vak Details te openen en klik op **Meer** ![](assets/more-menu.png) rechts van de naam van de record, vervolgens **Verwijderen**.
 
    De record wordt verwijderd en kan niet worden hersteld.
 

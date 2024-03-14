@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -117,11 +117,9 @@ De werkruimte die u het laatst hebt geopend.
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** in de linkerbovenhoek van de tabel selecteert u een **Tabel** weergeven. Dit moet de standaardweergave zijn, tenzij u het recordtype in een ander type weergave hebt bekeken toen u het als laatste opende.
+1. (Voorwaardelijk) klik het lusje van een lijstmening of klik **+ Weergave** een tabelweergave maken. De tabelweergave moet de standaardweergave zijn, tenzij u het recordtype in een ander type weergave hebt bekeken toen u het voor het laatst opende.
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
+   De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ De werkruimte die u het laatst hebt geopend.
 1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen. A **Opgeslagen** de indicator wordt kort weergegeven in de rechterbovenhoek van de tabelweergave om aan te geven dat de wijzigingen zijn opgeslagen.
 
+1. (Optioneel) Klik op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam, of klik op een recordnaam. De **Details** wordt in de tabel geopend.
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen als het veld Naam een primair veld is.
+
+1. Beginnen met het bewerken van de veldgegevens in het dialoogvenster **Details** doos. Workfront slaat uw wijzigingen automatisch op.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het **Details** om de record te openen **Details** op een nieuw tabblad. Doorgaan met het bewerken van de record zoals beschreven in [Een record bewerken vanaf de pagina Details van de record](#edit-a-record-from-the-records-details-page) in dit artikel.
+
 
 1. (Optioneel) Voer een van de volgende handelingen uit om gegevens van het ene veld naar het andere te kopiëren en te plakken:
 
@@ -193,7 +191,9 @@ De werkruimte die u het laatst hebt geopend.
 
 ### Een record bewerken vanaf de pagina Details van de record
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+U kunt een record bewerken in het vak Details van een tabelweergave of op de pagina Details.
+
+Voor informatie over het bewerken van records in het vak Details raadpleegt u de [Een record bewerken vanuit de tabelweergave van een recordtype](#edit-a-record-from-the-table-view-of-a-record-type) in dit artikel.
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ De werkruimte die u als laatste opent.
 
    of
 
-   Klik in een bewerkbaar veld op de pagina Details om de gegevens te bewerken. <!--Your changes are saved automatically.-->
+   Klik in een bewerkbaar veld op de pagina Details om de gegevens te bewerken.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Klikken **Wijzigingen opslaan**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. Klikken **Wijzigingen opslaan**.
