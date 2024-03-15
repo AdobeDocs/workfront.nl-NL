@@ -6,9 +6,9 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ De taak Geplande Uren wordt gelijkelijk verdeeld tussen alle dagen binnen de Duu
 
 >[!CAUTION]
 >
->De werklastbalans geeft slechts 1000 geplande uren per werkonderdeel en maximaal 1000 dagen van de duur van een onderdeel weer. De toewijzingen in de weergave Werklastbalans zijn nul nadat de limiet van 1000 uur of 1000 dagen is bereikt. Wij adviseren het verdelen van taken in kleinere subtaken om voor een groter aantal Geplande Uren of voor Duur van meer dan 1000 dagen aan te passen.
+>De werklastbalans geeft slechts 1000 geplande uren per werkitem per gebruiker weer, en maximaal 1000 dagen van de duur van een onderdeel. De toewijzingen in de weergave Werklastbalans zijn nul nadat de limiet van 1000 uur of 1000 dagen is bereikt. Wij adviseren het verdelen van taken in kleinere subtaken om een groter aantal Geplande Uren of voor Duur van meer dan 1000 dagen aan te passen.
 
 Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse toewijzingen opzoekt voor taken of problemen in de werklastbalans:
 

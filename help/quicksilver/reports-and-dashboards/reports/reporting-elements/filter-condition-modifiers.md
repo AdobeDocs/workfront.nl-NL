@@ -6,9 +6,9 @@ description: Met de filter- en voorwaardemodities kunt u filters maken en voorwa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ U kunt de volgende voorwaardelijke wijzigingstoetsen in filters en voorwaardelij
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>Dit is het <i>hoofdlettergevoelig</i> optie van <strong>eq</strong>. Het geeft alleen een exacte overeenkomst met de gezochte waarde.</p> <p>Als u bijvoorbeeld zoekt naar een taak met een specifieke naam, <code>task name cieq test</code> zoekt taken waarbij de naam <code>Test</code>, <code>TEST</code>, of <code>Test</code>, maar er wordt geen taak met de naam gevonden <code>test 123.</code></p> <p>Deze optie kan alleen worden gebruikt in tekstmodusfilters. Zie voor meer informatie over de tekstmodus in filters <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p> </td> 
+   <td> <p>Dit is het <i>hoofdlettergevoelig</i> optie van <strong>eq</strong>. Het geeft alleen een exacte overeenkomst met de gezochte waarde.</p> <p>Als u bijvoorbeeld zoekt naar een taak met een specifieke naam, <code>task name cieq test</code> zoekt taken waarbij de naam <code>Test</code>, <code>TEST</code>, of <code>Test</code>, maar er wordt geen taak met de naam gevonden <code>test 123.</code></p> <p>Wanneer u naar een status zoekt, wordt <strong>cieq</strong> modifier wordt niet ondersteund. U zou de case sensitive bepaling moeten gebruiken, <strong>eq</strong>om naar een status te zoeken.</p> <p>Deze optie kan alleen worden gebruikt in tekstmodusfilters. Zie voor meer informatie over de tekstmodus in filters <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 

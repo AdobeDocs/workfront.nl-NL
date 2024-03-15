@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Tekstveld met opmaak</td> 
-      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokopties. Dit is beschikbaar in Home, het gebied van Updates, lijsten, en het gebied van Details voor de voorwerpen van Workfront. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Voor informatie over toegang tot dit veld via de API raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Opslag van rijke tekstvelden in de API</a>.</p> <p><b>OPMERKING</b>: Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-toepassingen. </p> </td> 
+      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokopties. Dit is beschikbaar in Home, het gebied van Updates, lijsten, en het gebied van Details voor de voorwerpen van Workfront. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.</p> <p>Voor informatie over toegang tot dit veld via de API raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Opslag van rijke tekstvelden in de API</a>.</p> <p><b>OPMERKING</b>: Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-toepassingen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vervolgkeuzelijst</td> 
@@ -225,7 +225,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       <td><p>Klik op de vervolgkeuzelijst en selecteer de objecttypen waarin u de waardewijzigingen van het veld automatisch wilt bijhouden.</p> 
       <p><b>OPMERKING</b>: Deze optie is niet beschikbaar voor:</p> 
       <ul> 
-      <li>Aangepaste formulieren die zijn gekoppeld aan de volgende objecttypen: Kosten, Bedrijf, Iteratie, Factureringsrecord en Groep.</li> 
+      <li>Aangepaste formulieren die zijn gekoppeld aan de volgende objecttypen: Kosten, Bedrijf, Iteratie, Factureringsrecord, Document en Groep.</li> 
       <li>De volgende veldtypen: Berekend, Omschrijvende tekst en Sectie-einde</li> 
       </ul>
       <p><b>BELANGRIJK</b>: Wanneer u een objecttype selecteert of deselecteert, heeft dit invloed op alle aangepaste formulieren die zijn gekoppeld aan het geselecteerde objecttype en die dit veld bevatten. Als u bijvoorbeeld hier een objecttype uitschakelt en het aangepaste formulier opslaat, worden de waardewijzigingen van het veld niet meer bijgehouden voor dat objecttype in een aangepast formulier dat het veld bevat.</p>

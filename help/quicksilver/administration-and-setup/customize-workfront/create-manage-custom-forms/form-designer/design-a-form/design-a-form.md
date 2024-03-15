@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,9 @@ U kunt verschillende tekstvelden toevoegen aan een aangepast formulier.
 * **Alineatekstveld**: Hiermee kunnen gebruikers meerdere tekstregels in het veld typen.
 * **Tekstveld met opmaak**: Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.
 
-  Zie Opslag van rijke tekstvelden in de API voor informatie over toegang tot dit veld via de API.
+  Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.
+
+  Voor informatie over toegang tot dit veld via de API raadpleegt u [Opslag van rijke tekstvelden in de API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
