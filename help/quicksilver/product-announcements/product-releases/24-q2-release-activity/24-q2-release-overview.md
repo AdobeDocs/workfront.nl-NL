@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -246,6 +247,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                             </li>
                             <li>
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
+                                <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
@@ -255,7 +257,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante slimme toewijzingen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante slimme toewijzingen</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -265,6 +268,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                             </li>
                             <li>
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
+                                <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
