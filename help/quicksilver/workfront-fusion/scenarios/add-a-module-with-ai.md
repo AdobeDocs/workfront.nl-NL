@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 5623ca255478757c58605d05f2f24e56b21a5d78
+source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,9 @@ Zoals met om het even wat die van AI wordt geproduceerd, adviseren wij dat u de 
 
 De Fusion AI kan momenteel modules genereren die verbinding maken met de volgende toepassingen:
 
+* Adobe Firefly
+* Azure OpenAI
+* Microsoft Graph
 * Adobe Maestro
 * Adobe Analytics
 * Adobe PDF Services
