@@ -9,7 +9,7 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5502'
 ht-degree: 0%
@@ -72,7 +72,7 @@ De [!DNL Workfront] -connector gebruikt OAuth 2.0 om verbinding te maken met [!D
 
 U kunt een verbinding maken met uw [!DNL Workfront] rechtstreeks vanuit een [!DNL Workfront Fusion] -module.
 
-1. Klik in een willekeurige Adobe Authenticator-module op **Toevoegen** naast het veld Verbinding.
+1. Klik in een willekeurige Adobe Workfront-module op **Toevoegen** naast het veld Verbinding.
 1. Vul de volgende velden in:
 
    <table style="table-layout:auto"> 

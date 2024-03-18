@@ -8,16 +8,16 @@ title: Adobe Photoshop-modules
 description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-scenario starten op basis van gebeurtenissen in uw Adobe Photoshop-account, overeenkomsten en andere records maken, lezen of bijwerken, records zoeken aan de hand van criteria die u hebt ingesteld en documenten uploaden.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 0ea4ac4c4579d09dafeed47946ae9c7caf906cfe
+source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Adobe Photoshop]en deze verbinding maken met meerdere toepassingen en services van derden. [!DNL Adobe Photoshop] met modules kunt u records maken, lezen, bijwerken of verwijderen, alle records van een bepaald type weergeven, zoekrecords weergeven op basis van criteria die u opgeeft, of een aangepaste API-aanroep naar de [!DNL Adobe Photoshop] API.
+In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Adobe Photoshop]en deze verbinding maken met meerdere toepassingen en services van derden.
 
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken](../../workfront-fusion/scenarios/create-a-scenario.md).
