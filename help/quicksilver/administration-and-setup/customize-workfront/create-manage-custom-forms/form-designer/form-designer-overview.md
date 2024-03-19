@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Met de nieuwe formulierontwerper kunt u een aangepast formulier ontwerpen dat ge
 
 De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Voorbeeld van formulierontwerper](assets/form-designer-example.png)
 
 ## Toegang tot de nieuwe formulierontwerper
 
@@ -41,17 +41,7 @@ Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om:
 
   >[!NOTE]
   >
-  >De standaardsectie is niet zichtbaar binnen objecten als het formulier eenmaal aan het object is gekoppeld.
-
-## Functionaliteit binnenkort beschikbaar
-
-De volgende opties zijn momenteel niet beschikbaar in de formulierontwerper, maar worden binnenkort toegevoegd:
-
-* Filteren voor velden van typekop
-
->[!IMPORTANT]
->
->De bestaande configuraties voor typeahead-filters worden niet beïnvloed wanneer u met de nieuwe formulierontwerper werkt.
+  >De sectie Standaard is niet zichtbaar binnen objecten als het formulier eenmaal aan het object is gekoppeld.
 
 ## Functionaliteit verwijderd van de formulierontwerper
 

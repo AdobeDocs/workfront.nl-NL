@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 0%
 
 ---
@@ -415,7 +415,7 @@ U kunt datum- en tekstvelden toevoegen aan een aangepast formulier.
 
 +++
 
-U voegt als volgt velden voor de typekop toe:
+U voegt als volgt velden voor typekop en datum toe:
 
 1. Zoek aan de linkerkant van het scherm een van de volgende velden en sleep deze naar een sectie op het canvas.
 
@@ -482,6 +482,25 @@ U voegt als volgt velden voor de typekop toe:
          <td><ul>
     <li>Typeahead</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Filter toevoegen</td>
+      <td><p>Voeg een filter toe voor een objecttype om de objecten te beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. </p> <p>U kunt bijvoorbeeld een veld zo instellen dat gebruikersnamen alleen kunnen worden geselecteerd als ze aan de volgende criteria voldoen:</p> 
+       <ul> 
+        <li>Ze behoren tot een of meer groepen die u opgeeft</li> 
+        <li>Ze zijn gekoppeld aan een rol of functie die u opgeeft</li> 
+        <li>Zij behoren tot dezelfde groep als de persoon die het veld gebruikt</li> 
+       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Zie voor informatie over het maken van een filter in de tekstmodus <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Een filter bewerken in de tekstmodus</a>.</p>
+       <p><b>OPMERKING</b>:
+       <ul> 
+        <li>Als u een bestaand aangepast formulier bewerkt en u voegt een filter toe aan een Typeahead-veld, worden er geen objecten (buiten het bereik van het filter) verwijderd die gebruikers al met het veld hebben toegevoegd.</li> 
+        <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een Typeahead-veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Typeahead</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Een vereist veld maken</td> 
