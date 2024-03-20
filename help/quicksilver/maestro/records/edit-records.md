@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Overwegingen bij het bewerken van records
 
 * U kunt records bewerken die u hebt gemaakt of records die door anderen zijn gemaakt, als u machtigingen hebt gekregen voor de werkruimte.
-* U kunt recordvelden bewerken vanaf de pagina Details van een record of vanuit de tabelweergave van een recordtype.
-* U kunt recordgegevens uit de tijdlijnweergave niet bewerken.
+* U kunt recordvelden uit de volgende gebieden bewerken:
+
+   * Het vak Details van een record uit een recordweergave.
+   * De pagina Details van een record.
+   * Inline, in een lijstmening.
+
 * De volgende typen velden worden automatisch bijgewerkt en u kunt de waarden ervan niet handmatig bewerken:
    * Gekoppelde velden uit andere records
    * Formuliervelden
@@ -107,7 +111,7 @@ U kunt een record uit de volgende gebieden bewerken:
 * [Vanuit de tabelweergave van een recordtype](#edit-a-record-from-the-table-view-of-a-record-type)
 * [Via de pagina Details van een record](#edit-a-record-from-the-records-details-page)
 
-### Een record bewerken vanuit de tabelweergave van een recordtype
+### Een record inline bewerken in de tabelweergave van een recordtype
 
 {#step1-to-maestro}
 
@@ -145,15 +149,6 @@ De werkruimte die u het laatst hebt geopend.
 1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Zie voor meer informatie [Connect-records](/help/quicksilver/maestro/records/connect-records.md).
 1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen. A **Opgeslagen** de indicator wordt kort weergegeven in de rechterbovenhoek van de tabelweergave om aan te geven dat de wijzigingen zijn opgeslagen.
 
-1. (Optioneel) Klik op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam, of klik op een recordnaam. De **Details** wordt in de tabel geopend.
-
-   >[!TIP]
-   >
-   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen als het veld Naam een primair veld is.
-
-1. Beginnen met het bewerken van de veldgegevens in het dialoogvenster **Details** doos. Workfront slaat uw wijzigingen automatisch op.
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het **Details** om de record te openen **Details** op een nieuw tabblad. Doorgaan met het bewerken van de record zoals beschreven in [Een record bewerken vanaf de pagina Details van de record](#edit-a-record-from-the-records-details-page) in dit artikel.
-
 
 1. (Optioneel) Voer een van de volgende handelingen uit om gegevens van het ene veld naar het andere te kopiëren en te plakken:
 
@@ -188,27 +183,61 @@ De werkruimte die u het laatst hebt geopend.
 
 1. (Optioneel) Voeg een miniatuur toe aan een record. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
+### Een record uit het vak Details van de record bewerken in een weergave
 
-### Een record bewerken vanaf de pagina Details van de record
-
-U kunt een record bewerken in het vak Details van een tabelweergave of op de pagina Details.
-
-Voor informatie over het bewerken van records in het vak Details raadpleegt u de [Een record bewerken vanuit de tabelweergave van een recordtype](#edit-a-record-from-the-table-view-of-a-record-type) in dit artikel.
+U kunt een record bewerken in het vak Details van elke weergave.
 
 {{step1-to-maestro}}
 
 De werkruimte die u als laatste opent.
 
 1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+
+1. Klik op een opnametype.
+
+   De pagina met recordtypen wordt geopend.
+
+1. Klik vanuit een weergave van een willekeurig type op de naam van een record
+
+   of
+
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam, of klik op een recordnaam. De **Details** wordt geopend in de weergave.
+
+   ![](assets/details-box.png)
+
+   >[!TIP]
+   >
+   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
+
+1. Beginnen met het bewerken van de veldgegevens in het dialoogvenster **Details** doos. Workfront slaat uw wijzigingen automatisch op.
+
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het **Details** om de record te openen **Details** op een nieuw tabblad. Doorgaan met het bewerken van de record zoals beschreven in [Een record bewerken vanaf de pagina Details van de record](#edit-a-record-from-the-records-details-page) in dit artikel.
+
+### Een record bewerken vanaf de pagina Details van de record
+
+U kunt een record bewerken op de pagina Details.
+
+{{step1-to-maestro}}
+
+De werkruimte die u als laatste opent.
+
+1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+
+1. Klik op een opnametype.
+
+   De pagina met recordtypen wordt geopend.
+
 1. Voer een van de volgende handelingen uit:
 
-   * Van een **Tabel** Klik op de naam van een record.
+   * Open vanuit elke weergave het vak Details, zoals wordt beschreven in het dialoogvenster [Een record uit het vak Details van de record bewerken in een weergave](#edit-a-record-from-the-records-details-box-in-a-view)in dit artikel. Klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het **Details** om de record te openen **Details** op een nieuw tabblad.
+
    * Van de **Tabel** weergegeven, plaatst u de muisaanwijzer op de naam van een record en klikt u op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
 
      ![](assets/contextual-menu-for-record-row.png)
-   * Klik in een tijdlijnweergave op een recordbalk.
 
-   De record **Details** pagina wordt geopend.
+     De record **Details** pagina wordt geopend.
+
+     ![](assets/details-page.png)
 
 1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Bewerken**
 

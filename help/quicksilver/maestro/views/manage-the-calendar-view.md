@@ -4,9 +4,9 @@ description: U kunt records en de bijbehorende velden weergeven in een kalenderw
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ Een kalenderweergave beheren:
    * Selecteer een van de volgende opties in het vervolgkeuzemenu voor de tijd om de tijdstappen bij te werken:
 
       * Maand
+1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
+   * [Filters](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Filters toevoegen
+
+U kunt de hoeveelheid informatie die op het scherm wordt weergegeven verminderen door filters te gebruiken.
+
+Houd rekening met het volgende wanneer u werkt met filters in de kalenderweergave:
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* De filters die u voor een kalenderweergave maakt, werken onafhankelijk van de filters in een andere weergave die op hetzelfde recordtype is toegepast.
+
+* De filters zijn uniek voor de weergave die u selecteert. Op twee kalenderweergaven van hetzelfde recordtype kunnen verschillende filters worden toegepast.
+
+* Twee gebruikers die naar dezelfde kalenderweergave kijken, zien hetzelfde filter dat op dat moment wordt toegepast.
+
+* U kunt de filters die u maakt voor een kalenderweergave niet een naam geven.
+
+* Als u filters verwijdert, worden deze verwijderd van iedereen die hetzelfde recordtype als u benadert en die dezelfde weergave als u weergeeft.
+
+* Het toevoegen van filters in de kalenderweergave is hetzelfde als het toevoegen van filters in de tabelweergave.
+
+  Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* U kunt filteren door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.

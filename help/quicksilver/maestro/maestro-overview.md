@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadple
 | taxonomieën maken | ✓ |                                  |                  |
 | Afzonderlijke records en taxonomieën maken | ✓ |                                  |                  |
 | Aangepaste recordvelden maken | ✓ |                                  |                  |
-| Recordtypen en velden importeren met een Excel- of CSV-bestand | ✓ |                                  |                  |
+| Recordtypen en velden importeren met een Excel- of CSV-bestand* | ✓ |                                  |                  |
 | Koppelingsrecords | ✓ |                                  |                  |
 | Records in een tabel weergeven | ✓ |                                  |                  |
 | Records in een tijdlijn weergeven | ✓ |                                  |                  |
@@ -275,7 +275,12 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1 MB |
 | Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
-| De grootte van CSV van het dossier van Excel u in een lijst kunt invoeren | 5 MB |
+| Grootte CSV-bestand dat u kunt importeren* | 5 MB |
+
+>[!IMPORTANT]
+>
+>*Deze functionaliteit is tijdelijk uitgeschakeld en zal later beschikbaar zijn
+
 
 ## Adobe Workfront-planningsmogelijkheden zoeken
 

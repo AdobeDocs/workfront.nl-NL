@@ -1,13 +1,13 @@
 ---
 title: Operationele recordtypen maken
-description: Recordtypen zijn de objecttypen van Adobe Maestro. In Maestro, kunt u de types van douaneverslag tot stand brengen die de het werkpunten nodig in de levenscyclus van uw organisatie illustreren.
+description: Recordtypen zijn de objecttypen van Adobe Workfront-planning. In Workfront planning, kunt u de types van douaneverslag tot stand brengen die de het werkpunten nodig in de levenscyclus van uw organisatie illustreren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Recordtypen zijn de objecttypen van Adobe Maestro. In Maestro, kunt u de types van douaneverslag tot stand brengen die de werk-verwante punten nodig in de levenscyclus van uw organisatie illustreren.
+Recordtypen zijn de objecttypen van Adobe Workfront-planning. In Workfront planning, kunt u de types van douaneverslag tot stand brengen die de werk-verwante punten nodig in de levenscyclus van uw organisatie illustreren.
 
 De types van verslag kunnen één van het volgende zijn:
 
 * **Typen operationele record**
 * **Taxonomieën**
 
-Zie voor meer informatie over Maestro-recordtypen [Overzicht van recordtypen en taxonomieën](../architecture/overview-of-record-types-and-taxonomies.md).
+Zie voor meer informatie over recordtypen [Overzicht van recordtypen en taxonomieën](../architecture/overview-of-record-types-and-taxonomies.md).
 
 Het creëren van operationele verslagtypes is gelijkaardig aan het creëren van taxonomie verslagtypes. In dit artikel wordt beschreven hoe u operationele recordtypen maakt.
 
@@ -45,12 +45,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
 <td>
    <p> Product</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Huidig: Plan</p>
+   of
+   <p>Nieuw: Standaard </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
         Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
       * Wanneer u ze importeert met een Excel- of CSV-bestand. Dit is niet beschikbaar voor gegevenstypen van taxonomie.
+
+        >[!IMPORTANT]
+        >
+        >Deze functie is sinds 21 maart 2024 tijdelijk uitgeschakeld. De functie wordt later ingeschakeld.
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Recordtypen maken met een werkruimtemalplaatje
 
-U kunt automatisch recordtypen maken wanneer u een werkruimte maakt met behulp van een sjabloon. Elke Maestro-sjabloon bevat voorbeelden van operationele en taxonomierecordtypen.
+U kunt automatisch recordtypen maken wanneer u een werkruimte maakt met een Workfront-planningssjabloon. Elk malplaatje bevat steekproef operationele en taxonomie verslagtypes.
 
 Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
 
 ## Recordtypen maken door een Excel- of CSV-bestand te importeren
 
+>[!IMPORTANT]
+>
+>Deze functie is sinds 21 maart 2024 tijdelijk uitgeschakeld. De functie wordt later ingeschakeld.
+
+
 Houd rekening met het volgende wanneer u recordtypen importeert met een Excel- of CSV-bestand:
 
-* Elk blad van het Excel-bestand wordt een recordtype in Maestro.
+* Elk blad van het Excel-bestand wordt een recordtype.
 * De kolommen van elk blad worden de gebieden verbonden aan elk verslagtype.
 * Velden zijn uniek voor hun respectievelijke recordtypen.
 * Elke rij in elk blad wordt een unieke record die is gekoppeld aan het respectievelijke recordtype.
 * Elk blad van het Excel-bestand mag het volgende niet overschrijden:
-   * 10.000 rijen
+   * 50.000 rijen
    * 500 kolommen
 * Het Excel-bestand mag niet groter zijn dan 5 MB.
 * Lege bladen worden niet ondersteund.
@@ -222,7 +234,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    Het vak Voorbeeld en bewerking wordt weergegeven met de volgende informatie:
 
-   * De namen van de bladen of van de toekomstige recordtypen worden weergegeven in het linkerdeelvenster. Maestro selecteert standaard een pictogram en een kleur voor elk nieuw recordtype.
+   * De namen van de bladen of van de toekomstige recordtypen worden weergegeven in het linkerdeelvenster. Workfront planning selecteert standaard een pictogram en een kleur voor elk nieuw recordtype.
    * Het eerste blad of recordtype wordt geselecteerd en de namen van de bijbehorende velden worden als kolomkoppen weergegeven. Het type van elk gebied wordt geselecteerd door gebrek.
    * Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
 
@@ -243,7 +255,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. Klikken **Importeren** als u klaar bent om uw bestand te importeren.
 
-   De volgende informatie wordt ingevoerd in Maestro:
+   De volgende informatie wordt geïmporteerd in Workfront-planning:
 
    * Nieuwe recordtypen
    * Nieuwe velden die zijn gekoppeld aan elk recordtype
@@ -251,7 +263,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    U kunt velden en records op de recordtypepagina&#39;s gaan beheren.
 
-   Iedereen met toegang tot Maestro kan nu de geïmporteerde recordtypen en hun informatie bekijken en bewerken. <!--this will change with permissions-->
+   Iedereen met toegang tot de planning van Workfront kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

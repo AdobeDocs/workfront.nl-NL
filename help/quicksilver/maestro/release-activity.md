@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >[!IMPORTANT]
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
+
+## Week van 18 maart 2024
+
+### Filters beschikbaar in de kalenderweergave
+
+Productie: 19 maart 2024
+
+Voorbeeld: te bepalen
+
+U kunt nu informatie filteren in de kalenderweergave. Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### Het vak Details toegevoegd aan de tijdlijn- en kalenderweergave
+
+Productie: 19 maart 2024
+
+Voorbeeld: te bepalen
+
+U hebt nu toegang tot het vak Details van een record vanuit de tijdlijn- en de kalenderweergave. U kunt records in het vak Details bewerken in de tijdlijn- en de kalenderweergave.
+
+In het vak Details kunt u de pagina Details van de record openen.
+
+Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
+
+### Het recordtype Excel-importeren wordt tijdelijk uitgeschakeld
+
+Productie: 21 maart 2024
+
+Voorbeeld: te bepalen
+
+Het importeren van recordtypen via een Excel- of CSV-bestand wordt tijdelijk uitgeschakeld. Deze functionaliteit is later beschikbaar.
 
 ## Week van 11 maart 2024
 

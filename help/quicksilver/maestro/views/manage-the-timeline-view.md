@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* De filters die u voor de tijdlijnweergave maakt, werken onafhankelijk van de filters in de tabelweergave wanneer deze worden toegepast op hetzelfde recordtype.
+* De filters die u voor een tijdlijnweergave maakt, werken onafhankelijk van de filters in een andere weergave die op hetzelfde recordtype is toegepast.
 
-* De filters zijn uniek voor de weergave die u selecteert. Op twee tijdlijnweergaven van hetzelfde recordtype kunnen verschillende filters worden toegepast. Twee gebruikers die naar dezelfde tijdlijnweergave kijken, zien hetzelfde filter dat op dat moment wordt toegepast.
+* De filters zijn uniek voor de weergave die u selecteert. Op twee tijdlijnweergaven van hetzelfde recordtype kunnen verschillende filters worden toegepast.
+
+* Twee gebruikers die naar dezelfde tijdlijnweergave kijken, zien hetzelfde filter dat op dat moment wordt toegepast.
 
 * U kunt de filters die u maakt voor een tijdlijnweergave niet een naam geven.
 

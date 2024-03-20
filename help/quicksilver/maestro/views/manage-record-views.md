@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 | Velden toevoegen als nieuwe kolommen in de weergave | ✓ |               |         |
 | Rijen kopiëren uit een externe lijst en deze in een tabel plakken | ✓ |               |          |
 | Records in een tijdlijn weergeven |            | ✓ |             |
-| Filterrecords | ✓ | ✓ |           |
+| Filterrecords | ✓ | ✓ | ✓ |
 | Records weergeven op een kalender |           |              | ✓ |
 | Groepsrecords | ✓ | ✓ |
 | Records sorteren | ✓ |              |
