@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Met verschillende nieuwe functies in Workfront Boards kunt u de agile-scrum-func
 
 De naam van verzamelingen is gewijzigd in werkstromen. Met werkstromen kunt u gegevens op verschillende manieren visualiseren. U kunt punten op kaarten in een lijst, op een raad, of op een herhaling tonen. Kaarten in een werkstroom kunnen ook worden gedeeld door meerdere borden. U kunt workflows eenvoudig vereenvoudigen met behulp van kaarten en borden in een workstream.
 
-Zie voor meer informatie [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), en [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). De tweede twee artikelen zijn pas beschikbaar in Main nadat ik mijn vertakking heb gepubliceerd.
+Zie voor meer informatie [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), en [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3417059/){target=_blank}
 

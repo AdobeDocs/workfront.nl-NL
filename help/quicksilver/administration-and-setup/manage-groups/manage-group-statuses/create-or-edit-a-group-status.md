@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Een groepsstatus maken of bewerken
 description: Als groepsbeheerder kunt u aangepaste statussen maken voor een groep die u beheert. Dit helpt de behoefte aan tientallen bedrijfs-brede douanestatus elimineren en staat meer autonomie in uw groepshiërarchieën toe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 027d636e8256c6a12d552af736884f6f27886114
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze
 
 >[!NOTE]
 >
->De de groepsstatussen van de douane kunnen niet op een project worden getoond wanneer het bekijken van het project in een flexibele mening. Alleen standaard- en aangepaste vergrendelde statussen zijn zichtbaar wanneer een project in een flexibele weergave wordt weergegeven. Voor informatie over het aanpassen van een flexibele mening voor een project, zie de sectie [Een eenvoudige weergave maken of aanpassen](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in het artikel [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+>De de groepsstatussen van de douane kunnen niet op een project worden getoond wanneer het bekijken van het project in een flexibele mening. Alleen standaard- en aangepaste vergrendelde statussen zijn zichtbaar wanneer een project in een flexibele weergave wordt weergegeven. Voor informatie over het aanpassen van een flexibele mening voor een project, zie de sectie [Een eenvoudige weergave maken of aanpassen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in het artikel [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-Voor algemene informatie over statussen raadpleegt u [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Zie voor algemene informatie over statussen [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Toegangsvereisten
 
@@ -69,16 +69,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    * Vergrendelde statussen die tot de groepen boven de subgroep behoren.
    * Ontgrendelde statussen die bij het maken van de subgroep behoorden tot de groepen boven de subgroep.
 
-      Nadat een subgroep is gemaakt, worden ontgrendelde statussen die in de bovenstaande groepen zijn gemaakt, niet opgenomen in de statuslijst van de subgroep. Nochtans, als iemand één van hen later sluit, wordt het dan inbegrepen in de de statuslijst van subgroup. Zie voor meer informatie [Hoe groepen statussen overerven](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
-
+     Nadat een subgroep is gemaakt, worden ontgrendelde statussen die in de bovenstaande groepen zijn gemaakt, niet opgenomen in de statuslijst van de subgroep. Nochtans, als iemand één van hen later sluit, wordt het dan inbegrepen in de de statuslijst van subgroup. Zie voor meer informatie [Hoe groepen statussen overerven](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
 1. Selecteer de tab van het objecttype (**Project**, **Taken**, of **Problemen**) die u aan de status wilt koppelen.
 
-1. (Voorwaardelijk) Als de status een uitgiftestatus is, moet u ervoor zorgen dat **Master lijst** is geselecteerd.
+1. (Voorwaardelijk) Als de status een uitgiftestatus is, zorg ervoor dat **Stramienlijst** is geselecteerd.
 
    ![](assets/master-list.png)
 
-   Voor informatie over het aanpassen van de andere uitgiftetypen (Bug Report, Change Order, Issue, Request) raadpleegt u [Standaardtypen voor problemen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+   Voor informatie over het aanpassen van de andere uitgiftetypen (Bug Report, Change Order, Issue, Request) raadpleegt u [Standaardobjecttypen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
 1. (Voorwaardelijk) Als u een nieuwe status wilt maken, klikt u op **Een nieuwe status toevoegen**.
 
@@ -94,7 +93,6 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >* U beheert de groep waarvoor de status is gemaakt
    >* Een Workfront-beheerder heeft de status op systeemniveau ontgrendeld
    >* Een groepsbeheerder van een groep boven uw groep ontgrendelde de status
-
    >      
    >      
    >Wanneer u een bestaande status bewerkt, kunt u alleen de naam, beschrijving en kleur van die status wijzigen.
@@ -113,7 +111,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader">Statusnaam</td> 
-      <td> <p>Typ een naam voor de status. Dit is een verplicht veld.</p> <p>Wanneer u een statusnaam maakt, moet u er rekening mee houden dat anderen in het systeem een status met dezelfde naam kunnen maken. We raden u aan een unieke naam te gebruiken om verwarring te voorkomen bij het selecteren van statussen in Workfront.</p> </td> 
+      <td> <p>Typ een naam voor de status. Dit is een verplicht veld.</p> <p>Wanneer u een statusnaam maakt, moet u er rekening mee houden dat anderen in het systeem een status met dezelfde naam kunnen maken. We raden u aan een unieke naam te gebruiken om verwarring te voorkomen bij het selecteren van statussen in Workfront.</p><p>Als er dubbele statussen bestaan, moet de groepsbeheerder de namen bijwerken om ze van elkaar te onderscheiden. De enige unieke indicator in het systeem is de status Key.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschrijving</td> 
@@ -141,7 +139,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <p>Als u deze optie ingeschakeld laat, kunnen de gebruikers in uw groep en de subgroepen de status zien en gebruiken en kunnen groepsbeheerders de status niet aanpassen voor lagere subgroepen.</p> 
        <p>Als deze optie is uitgeschakeld, kunnen groepsbeheerders de status voor lagere subgroepen aanpassen.</p> 
        <p><b>OPMERKING</b>: U kunt zowel vergrendelde als ontgrendelde statussen gebruiken in een goedkeuringsproces voor groepen. Als u een proces van de groepsgoedkeuring met een ontgrendelde groepsstatus creeert, kunnen de gebruikers het goedkeuringsproces aan om het even welk project, taak, of kwestie vastmaken die met de groep wordt geassocieerd.</p> 
-       <p>Voor meer informatie over het vergrendelen van statussen raadpleegt u <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Vergrendelde en ontgrendelde groepsstatussen</a>.</p> 
+       <p>Zie voor meer informatie over het vergrendelen van statussen <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Vergrendelde en ontgrendelde groepsstatussen</a>.</p> 
        </td> 
      </tr>
     </tbody> 
@@ -151,7 +149,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    De status is nu beschikbaar voor alle projecten die aan uw groep of subgroep zijn gekoppeld. Als u deze hebt vergrendeld, kunt u deze gebruiken door lagere subgroepen.
 
-   U kunt de status configureren als standaardstatus voor de groep. Zie voor meer informatie [Een aangepaste status als standaardstatus voor een groep gebruiken](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+   U kunt de status zo configureren dat deze een standaardstatus voor de groep is. Zie voor meer informatie [Een aangepaste status als standaardstatus voor een groep gebruiken](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
 ## Een aangepaste status maken voor meerdere groepen
 
@@ -165,7 +163,7 @@ Als u een groepsbeheerder (of een beheerder van Workfront) bent, kunt u een doua
 
    ![](assets/hover-click-edit.jpg)
 
-1. De optie **Status verbergen** die wordt weergegeven.
+1. De optie **Status verbergen** weergegeven.
 
    ![](assets/hide-group-status.png)
 
