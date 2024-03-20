@@ -4,9 +4,9 @@ description: 'Tweede kwartaal 2024: Verbeteringen op gebied van updatestroom en 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ De nieuwe opmerkingervaring is als volgt verbeterd:
 
 Zie voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke functie begint om 2:47)
+
 ## Het tabblad Systeemactiviteit van de nieuwe opmerkingervaring ondersteunt alleen-lezen opmerkingen
 
 >[!NOTE]
@@ -49,6 +51,8 @@ Zie voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/upd
 Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring worden nu op het tabblad Systeemactiviteit van de nieuwe opmerkingervaring alleen-lezen weergegeven. U kunt niet reageren op de records met systeemactiviteiten in de nieuwe opmerkingervaring.
 
 Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke eigenschap begint om 2:00 in de video.)
 
 ## Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen
 
@@ -62,6 +66,8 @@ Het tabblad Alles is een alleen-weergeven tabblad. U kunt niet reageren op opmer
 
 Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke functie begint bij 0:31 in de video.)
+
 ## Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting
 
 >[!NOTE]
@@ -71,3 +77,5 @@ Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/wor
 De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.
 
 Zie voor meer informatie [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427991/){target=_blank}

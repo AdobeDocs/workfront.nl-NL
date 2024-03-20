@@ -7,9 +7,9 @@ description: Door vervangingen in filters te gebruiken, kunt u een generische ge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,8 @@ U kunt de jokertekens hierboven combineren met het volgende om verschillende tij
 
 | **Kwalificaties** | |
 |---|---|
-| **b** | begin van de week (zondag) |
-| **e** | einde van de week (zaterdag) |
+| **b** | begin van de periode (zonder een opgegeven kenmerk, standaard ingesteld op begin van de week: zondag) |
+| **e** | Einde van de periode (zonder een opgegeven kenmerk, standaardwaarde tot einde van de week: zaterdag) |
 
 {style="table-layout:auto"}
 

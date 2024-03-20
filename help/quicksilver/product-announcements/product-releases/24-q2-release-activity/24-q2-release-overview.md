@@ -4,9 +4,9 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van het tweede kwartaal van 2024. Deze verbeteringen zullen naar verwachting in het hele kwartaal beschikbaar komen in de productieomgeving.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+In plaats van een webinar met release nodigen we u uit om [register voor Adobe Summit](https://summit.adobe.com/na/) om de volgende Workfront-sessies te bekijken:
+
+[De toekomst van Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) op 26 maart 2024 om een blik te werpen op de toekomst van strategische planning en workflow. Leer hoe het team van Workfront van plan is om bedrijfsmogelijkheden over de volledige marketing levenscyclus-allen met een AI-eerste benadering te richten om werk te automatiseren, gebruikerservaring te vereenvoudigen, en productiviteit te verhogen.
+
+[Het onthullen van de Kalenders van de Marketing en Hulpmiddelen voor de Planning van de Campagne van begin tot eind](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) op 23 maart 2023 voor meer informatie over nieuwe productmogelijkheden die zijn ontworpen om uw organisatie in staat te stellen de operationele levenscycli van begin tot eind te beheren en te visualiseren.
 
 <span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het tweede kwartaal van 2024 in productie waren) worden geel gemarkeerd.</span>
 
