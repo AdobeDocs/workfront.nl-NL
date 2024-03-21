@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
+source-git-commit: 610469811a937fde70a938af829b156e69cca391
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 Elk objecttype wordt weergegeven in de linkernavigatie en op een kaart. De kaart geeft objecten van dat type weer en geeft aan of deze objecten in de doelomgeving aanwezig zijn. U kunt bepalen hoe deze objecten naar de doelomgeving worden verplaatst.
 
-* Nieuw maken: het object bevindt zich in de doelomgeving
+* Nieuw maken: maak een nieuw object in de doelomgeving. Als het object bestaat in de doelomgeving, kunt u een nieuw object met een nieuwe naam maken. Als het niet bestaat in de doelomgeving, kunt u het object maken met een nieuwe naam of met de naam die het object in het pakket heeft.
 * Bestaande gebruiken: het object in het pakket is niet geïnstalleerd en het object dat al in de doelomgeving bestond, blijft ongewijzigd.
 * Overschrijven: (momenteel niet beschikbaar) Het object in het pakket vervangt het bestaande object in de doelomgeving.
-* Niet gebruiken:Als u Niet gebruiken selecteert, wordt een foutbericht weergegeven waarin wordt aangegeven hoe deze keuze van invloed is op andere objecten of velden.
+* Niet gebruiken: het object in het pakket is niet geïnstalleerd in de doelomgeving. Als u Niet gebruiken selecteert, wordt een foutbericht weergegeven waarin wordt aangegeven hoe deze keuze van invloed is op andere objecten of velden.
 
 Standaardwaarden zijn `Create new` als het object niet bestaat in de doelomgeving, en `Use existing` als het object wel bestaat in de doelomgeving. U kunt terugkeren naar de standaardtoewijzing door op **Standaardtoewijzing herstellen**.
 
