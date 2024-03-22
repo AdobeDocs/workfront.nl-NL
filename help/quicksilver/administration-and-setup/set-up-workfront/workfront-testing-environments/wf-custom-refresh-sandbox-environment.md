@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ Voor meer informatie over het configureren [!DNL Workfront] met SSO, zie [Overzi
 
 ## Beoogd gebruik en beschikbaarheid
 
-[!DNL Workfront] Aangepaste Sandbox-omgevingen voor vernieuwen zijn niet bedoeld voor prestatie- of laadtests. Gebruik in plaats daarvan deze omgevingen om de functionaliteit van functies te valideren met de bestaande workflows van uw organisatie.
+* [!DNL Workfront] Aangepaste Sandbox-omgevingen voor vernieuwen zijn niet bedoeld voor prestatie- of laadtests. Gebruik in plaats daarvan deze omgevingen om de functionaliteit van functies te valideren met de bestaande workflows van uw organisatie.
 
-[!DNL Workfront] Aangepaste Sandbox-omgevingen voor vernieuwen zijn altijd beschikbaar. Elke storing in een aangepaste Sandbox-omgeving voor het vernieuwen van Workfront tijdens normale kantooruren is een eerste prioriteit onmiddellijk nadat eventuele productiekwesties zijn opgelost. Elke storing in een aangepaste sandbox van Workfront Vernieuwen tijdens weekends (zaterdag en zondag) wordt opgelost, zodat de omgeving op maandag voor kantooruren wordt gebruikt.
+* [!DNL Workfront] Aangepaste Sandbox-omgevingen voor vernieuwen zijn altijd beschikbaar. Elke storing in een aangepaste Sandbox-omgeving voor het vernieuwen van Workfront tijdens normale kantooruren is een eerste prioriteit onmiddellijk nadat eventuele productiekwesties zijn opgelost. Elke storing in een aangepaste sandbox van Workfront Vernieuwen tijdens weekends (zaterdag en zondag) wordt opgelost, zodat de omgeving op maandag voor kantooruren wordt gebruikt.
+
+* Proofing is niet beschikbaar in de aangepaste Sandbox-omgeving voor vernieuwen.
