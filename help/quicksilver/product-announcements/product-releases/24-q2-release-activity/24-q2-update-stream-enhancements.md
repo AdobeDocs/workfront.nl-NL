@@ -4,9 +4,9 @@ description: 'Tweede kwartaal 2024: Verbeteringen op gebied van updatestroom en 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring wo
 
 Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke eigenschap begint om 2:00 in de video.)
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke functie begint om 2:00 uur)
 
 ## Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen
 
@@ -66,7 +66,7 @@ Het tabblad Alles is een alleen-weergeven tabblad. U kunt niet reageren op opmer
 
 Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke functie begint bij 0:31 in de video.)
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke functie begint om 0:31)
 
 ## Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting
 

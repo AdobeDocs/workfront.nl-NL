@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
     Geeft recente commentaarthreads van over Workfront weer, net als de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
 
 * **To-dos**\
-    Met deze unieke widget kunt u tekstitems toevoegen aan een persoonlijke controlelijst die u kunt bewerken.
+    Met deze unieke widget kunt u items toevoegen aan een persoonlijke controlelijst die u kunt bewerken. To-dos worden bijgehouden als taken in uw persoonlijke project, en blijven tot twee weken na voltooiing.
 
   >[!NOTE]
   >
