@@ -9,9 +9,9 @@ description: Met de [!DNL Adobe Campaign] modules, kunt u beginnen [!DNL Adobe W
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
+source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,13 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Vereisten
+
+U moet de Fusion IP-adressen toevoegen aan [!DNL Adobe Campaign].
+
+* Voor instructies bij het toevoegen van IP adressen aan uw lijst van gewenste personen van de Campagne, zie [IP adressen toevoegen aan de lijst van gewenste personen](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in de documentatie van Adobe Campaign.
+* Voor een lijst van IP adressen om aan de lijst van gewenste personen toe te voegen, zie [IP Adressen om tot de Fusie van Adobe Workfront toegang te hebben](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
 
 ## Verbinden [!DNL Adobe Campaign] tot [!DNL Adobe Workfront Fusion]
 
