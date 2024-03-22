@@ -8,9 +8,9 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
+source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,14 @@ Een team maken:
 >Zie voor meer informatie [Toegang tot uw berichten](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 De opties voor e-mailmeldingen worden ingesteld op teamniveau.
+
+>[!NOTE]
+>
+>Als uw organisatie aan Verenigde Shell is bewogen, ontvangt u berichten door het gebied van de Berichten van de Adobe. U moet de Verenigde ervaring van Shell gebruiken om berichten op het gebied van de Berichten van de Adobe te kunnen zien.
+>
+>Om de Verenigde Ervaring van Shell, met inbegrip van het gebied van de Berichten van de Adobe te gebruiken, klik de Uitgezochte Nieuwe Fusie UI in Verenigde knoop van de Ervaring dichtbij de bovenkant van de pagina. Deze knoop is slechts beschikbaar als uw organisatie aan Verenigde Shell heeft bewogen.
+>
+>Voor meer informatie bij de plaats bepalen van berichten in Verenigde Shell, zie [Toegang tot uw berichten](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
 
 1. Klik in het linkernavigatievenster op **[!UICONTROL Team]**
 1. Selecteer de **[!UICONTROL Notification Options]** tab.
