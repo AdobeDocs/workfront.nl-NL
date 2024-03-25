@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Als u wilt deelnemen aan deze release van Alpha, moet u controleren of u door he
 
 ## Laatste release
 
+## Release 7 van de Alpha - maart 2024
+
+In deze versie van de zevende Alpha hebben we het volgende:
+
+* U hebt de mogelijkheid toegevoegd om deadlines voor uw documentgoedkeuringen te maken.
+* Introduceerde de Malplaatjes van de Goedkeuring die nu kunnen worden gecreeerd en op uw goedkeuringen worden toegepast om opstellingstijd te besparen.
+* De widget goedkeuringen is nu bijgewerkt en bevat nu meerdere prestatie-indicatoren met een gedetailleerde lijst, zodat u verder kunt gaan.
+
+Bekijk de volledige video die hieronder doorloopt:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _Eerdere versies_
+
 ## Release van de Alpha 6 - januari 2024
 
 In deze release van de zesde Alpha hebben we het volgende:
@@ -37,8 +51,6 @@ In deze release van de zesde Alpha hebben we het volgende:
 Bekijk de volledige video die hieronder doorloopt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _Eerdere versies_
 
 ### Release van de Alpha 5 - september 2023
 
