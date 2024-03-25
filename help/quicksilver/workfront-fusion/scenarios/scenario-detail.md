@@ -7,16 +7,16 @@ description: Scenario-details in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Scenario-details in [!DNL Adobe Workfront Fusion]
 
-De pagina met scenariodetails is de startpagina van een bepaald scenario. Het verleent toegang tot specifieke informatie voor het scenario dat op de pagina wordt vertegenwoordigd.
+De pagina met de details van het scenario is de startpagina van een specifiek scenario. Het verleent toegang tot specifieke informatie voor het scenario dat op de pagina wordt vertegenwoordigd.
 
 Het verleent u ook toegang tot [De scenario-editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), waar u het scenario kunt bewerken.
 
@@ -43,9 +43,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -77,7 +77,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (tab) </td> 
-      <td> <p>Open dit lusje om een geschiedenis van het scenario, met inbegrip van om het even welke het uitgeven van het scenario te zien. </p> <p>De [!UICONTROL History] tab geeft ook de geschiedenis van de uitvoering van elk scenario weer, waaronder:</p> 
+      <td> <p>Open dit lusje om een geschiedenis van het scenario, met inbegrip van om het even welke het uitgeven van het scenario te zien. </p> <p>De [!UICONTROL History] tab geeft ook de geschiedenis van de uitvoering van elk scenario weer, met inbegrip van het volgende:</p> 
        <ul> 
         <li>Status van elke uitvoering (geslaagd of fout)</li> 
         <li>Runtimeduur</li> 
@@ -117,7 +117,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Currently running]</td> 
-      <td>In dit gebied wordt informatie weergegeven over de uitvoering die momenteel wordt uitgevoerd.</td> 
+      <td>Dit gebied bevat informatie over de uitvoering die momenteel wordt uitgevoerd.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL History] (gebied)</p> <p> </p> </td> 
@@ -133,6 +133,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
       <td>Deze grafiek staat u toe om de hoeveelheid gegevensoverdracht en verrichtingen te bekijken die door de looppas van het scenario in worden gebruikt [!UICONTROL line] grafiek.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Processing banner]</p>  </td> 
+      <td>Als uw scenario onlangs heeft uitgevoerd, kunt u een banner zien die leest:<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>Dit wordt weergegeven terwijl de uitvoeringsgegevens naar opslag worden geschreven. De verwerking vindt onmiddellijk plaats nadat het scenario wordt uitgevoerd. en mag niet langer duren dan een paar minuten. Details van de uitvoering van het scenario zijn mogelijk niet zichtbaar terwijl de uitvoering wordt verwerkt.</td> 
      </tr> 
     </tbody> 
    </table>

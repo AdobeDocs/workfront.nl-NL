@@ -7,9 +7,9 @@ description: U kunt informatie over alle looppas voor een scenario tonen, of u k
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>  
@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,8 +73,6 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
    ![](assets/open-history-tab-350x202.png)
 
-   C
-
    U kunt ook klikken om een volledige paginaweergave van deze gegevens te bekijken. In de weergave van de volledige pagina kunt u de geschiedenis filteren om bepaalde uitvoeringen weer te geven.
 
    De volgende details zijn vermeld voor elke uitvoering van het scenario:
@@ -85,6 +83,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
    * Aantal **[!UICONTROL Operations]**
    * Grootte van **[!UICONTROL Data Transfer]**
    * Koppeling naar **[!UICONTROL Details]**
+
+>[!NOTE]
+>
+>De scenario-historie geeft een **Verwerking** badge naast scenario&#39;s die onlangs hebben uitgevoerd, terwijl de uitvoeringsdetails aan opslag worden geschreven. De verwerking vindt onmiddellijk plaats nadat het scenario wordt uitgevoerd. en mag niet langer duren dan een paar minuten. Details van de uitvoering van het scenario zijn mogelijk niet zichtbaar terwijl de uitvoering wordt verwerkt.
 
 ### De de uitvoeringshistorie van het scenario van de mening op de [!UICONTROL History] tab
 
@@ -99,11 +101,13 @@ De [!UICONTROL History] tabblad geeft meer details dan beschikbaar zijn op het t
 1. Klik op de knop **[!UICONTROL History]** tab bij de linkerbovenhoek van de pagina
 1. (Optioneel) Klik op de knop **[!UICONTROL Details]** koppeling.
 
-   Zie voor meer informatie over verwerkingsbundels [Uitvoeringsstroom van scenario&#39;s in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   Zie voor meer informatie over verwerkingsbundels [Uitvoeringsstroom scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
    >[!NOTE]
    >
-   >De [!UICONTROL details] de koppeling is alleen zichtbaar als er details beschikbaar zijn.
+   >* De [!UICONTROL details] de koppeling is alleen zichtbaar als er gegevens beschikbaar zijn voor de uitvoering.
+   >
+   >* De scenario-historie geeft een **Verwerkingsgeschiedenis** badge naast scenario&#39;s die onlangs hebben uitgevoerd, terwijl de uitvoeringsdetails aan opslag worden geschreven. De verwerking vindt onmiddellijk plaats nadat het scenario wordt uitgevoerd. en mag niet langer duren dan een paar minuten. Details van de uitvoering van het scenario zijn mogelijk niet zichtbaar terwijl de uitvoering wordt verwerkt.
 
 ## De uitvoeringshistorie van het scenario filteren
 
@@ -122,7 +126,7 @@ U kunt de geschiedenis van de uitvoering van het scenario sorteren.
 
 1. Open de geschiedenis van de volledige pagina voor een scenario zoals die in wordt beschreven [De de uitvoeringshistorie van het scenario van de mening op de [!UICONTROL History] tab](#view-scenario-execution-history-on-the-history-tab) in dit artikel.
 1. Klik op de knop [!UICONTROL Sort] in de koptekst van de kolom waarop u wilt filteren.
-1. Optioneel: Als u de sorteervolgorde wilt omkeren, klikt u op de knop [!UICONTROL Sort] weer.
+1. Optioneel: als u de sorteervolgorde wilt omkeren, klikt u op de knop [!UICONTROL Sort] weer.
 
 ## Alle uitvoeringen van een scenario doorzoeken
 
@@ -137,7 +141,7 @@ U kunt de geschiedenis van de uitvoering van het scenario sorteren.
 
    of
 
-   Type **Ctrl+Shift+F** (Windows) of **Cmd+Shift+F** (Mac) De [!UICONTROL Search in history] wordt geopend.
+   Type **Ctrl+Shift+F** (Windows) of **Cmd+Shift+F** (Mac) [!UICONTROL Search in history] wordt geopend.
 
 1. (Optioneel) Als u wilt zoeken naar uitvoeringen die specifieke tekst bevatten, voert u de tekst in op de zoekbalk van het dialoogvenster **[!UICONTROL Search in history]** venster.
 
