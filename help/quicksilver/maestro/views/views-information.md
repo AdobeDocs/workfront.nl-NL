@@ -1,13 +1,13 @@
 ---
 title: "Weergaven: artikelindex"
-description: U kunt Adobe Maestro-records weergeven in een tabel- of tijdlijnweergave. In de volgende artikelen wordt beschreven hoe u Adobe Maestro-recordweergaven kunt maken en beheren.
+description: U kunt Adobe Workfront-planningsrecords weergeven in een tabel-, tijdlijn- of kalenderweergave. In de volgende artikelen wordt beschreven hoe u Adobe Workfront-planningsrecordweergaven kunt maken en beheren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-U kunt Adobe Maestro-records weergeven in een tabel- of tijdlijnweergave.
+U kunt Adobe Workfront-planningsrecords weergeven in een tabel-, tijdlijn- of kalenderweergave.
 
-In de volgende artikelen wordt beschreven hoe u recordweergaven kunt maken en beheren in Adobe Maestro:
+In de volgende artikelen wordt beschreven hoe u recordweergaven kunt maken en beheren in Adobe Workfront-planning:
 
 * [Recordweergaven beheren](../views/manage-record-views.md)
 * [De tabelweergave beheren](../views/manage-the-table-view.md)

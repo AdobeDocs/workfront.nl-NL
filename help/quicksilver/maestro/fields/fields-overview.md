@@ -1,13 +1,13 @@
 ---
 title: Overzicht van veld
-description: U kunt nieuwe velden in Adobe Maestro toevoegen die de levenscyclus van uw organisatie weerspiegelen. Velden zijn kenmerken van recordtypen.
+description: U kunt nieuwe gebieden in de planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ hide: yes
 
 {{maestro-important-intro}}
 
-U kunt nieuwe velden in Adobe Maestro toevoegen die de levenscyclus van uw organisatie weerspiegelen. Velden zijn kenmerken van recordtypen.
+U kunt nieuwe gebieden in de planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
 
 
-## Overwegingen over Maestro-velden
+## Overwegingen bij het plannen van Adobe Workfront-velden
 
 * U kunt alleen velden maken vanuit de tabelweergave van een recordtypepagina. Velden worden als kolommen weergegeven in de tabelweergave. Alle velden die aan een recordtype zijn gekoppeld, worden ook weergegeven op de pagina Details van elke record van dat type.
 
@@ -56,42 +56,36 @@ U kunt nieuwe velden in Adobe Maestro toevoegen die de levenscyclus van uw organ
 
         In dit artikel wordt beschreven hoe u handmatig velden kunt maken.
 
-      * Door recordtypen aan te sluiten. U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen van Maestro, of een recordtype en een objecttype vanuit andere toepassingen.
+      * Door recordtypen aan te sluiten. U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Zie voor meer informatie over het verbinden van Maestro-recordtypen [Verbind recordtypen](../architecture/connect-record-types.md).
+        Voor meer informatie over het verbinden van verslagtypes, zie [Verbind recordtypen](../architecture/connect-record-types.md).
 
       * Door recordtypen te importeren met een Excel- of CSV-bestand. Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
    * Automatisch:
 
-      * Standaard elke keer dat u een recordtype maakt.
+     Hieronder vindt u standaardvelden die standaard worden gemaakt voor elk nieuw recordtype:
 
-        Hieronder vindt u standaardvelden die standaard worden gemaakt voor elk nieuw type operationeel record:
+      * Naam
+      * Beschrijving
+      * Begindatum
+      * Einddatum
+      * Status. De standaardwaarden voor recordstatussen zijn:
+         * Ontwikkeling
+         * Geplant
+         * Actief
+         * Voltooid
+         * In de wachtstand
 
-         * Naam
-         * Beschrijving
-         * Begindatum
-         * Einddatum
-         * Status. De standaardwaarden voor recordstatussen zijn:
-            * Ontwikkeling
-            * Geplant
-            * Actief
-            * Voltooid
-            * In de wachtstand
+        U kunt meer waarden toevoegen of de naam van de bestaande waarden wijzigen.
 
-           U kunt meer waarden toevoegen of de naam van de bestaande waarden wijzigen.
+     Workfront planning leidt tot gebieden voor verslagtypes wanneer u een werkruimte van een malplaatje creeert. Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
 
-        Hier volgen de standaardvelden die standaard worden gemaakt voor elk nieuw type taxonomy-record:
+* Workfront-planningsvelden zijn niet toegankelijk vanuit Workfront.
 
-         * Naam <!--will more be added? If not, consider rephrasing this bullet-->
-
-      * Wanneer u een werkruimte maakt op basis van een sjabloon. Maestro creeert gebieden voor operationele verslagtypes en taxonomieën wanneer u een werkruimte van een malplaatje creeert. Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
-
-* Maestro-velden zijn niet toegankelijk vanuit Workfront.
-
-* Workfront-velden zijn alleen toegankelijk vanuit Maestro wanneer u Maestro-recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt vanuit Workfront-objecten. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+* Workfront-velden zijn alleen toegankelijk vanuit Workfront-planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
 
 * U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe het veld behoort.
 
@@ -99,4 +93,4 @@ U kunt nieuwe velden in Adobe Maestro toevoegen die de levenscyclus van uw organ
 
 * Veldnamen kunnen maximaal 250 tekens bevatten.
 
-* Wanneer u een operationeel recordtype, taxonomie of werkruimte verwijdert, worden alle bijbehorende velden en de waarden van de velden ook verwijderd en kunnen deze niet worden hersteld. <!-- this might change with a possible recycle bin solution?!-->
+* Wanneer u een recordtype of werkruimte verwijdert, worden ook alle bijbehorende velden en de waarden van de velden verwijderd en kunnen deze niet worden hersteld. <!-- this might change with a possible recycle bin solution?!-->

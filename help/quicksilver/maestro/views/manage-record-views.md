@@ -1,13 +1,13 @@
 ---
 title: Recordweergaven beheren
-description: U kunt records weergeven in een tabel-, tijdlijn- of kalenderweergave wanneer u de Adobe Workfront-planningsmogelijkheden gebruikt.
+description: U kunt records in een tabel-, tijdlijn- of kalenderweergave weergeven wanneer u Adobe Workfront-planning gebruikt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nadat u een recordtype hebt geselecteerd in het gedeelte met planningsmogelijkheden van Adobe Workfront, kunt u alle records van dat type weergeven in de volgende weergaven:
+Nadat u een recordtype hebt geselecteerd in het planningsgebied van Adobe Workfront, kunt u alle records van dat type weergeven in de volgende weergaven:
 
 * Tabel
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planningsmogelijkheden van Workfront</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied Maestro in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw systeembeheerder moet het gebied van de Planning in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het werken met recordweergaven
 
-* Weergaven in het gedeelte met Workfront-planningsmogelijkheden zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
+* Weergaven in Workfront-planning zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
 * Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
-* Het bouwen van meningen voor operationele verslagtypes is identiek aan het bouwen van meningen voor taxonomie verslagtypes.
 * Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
 * De volgende elementen zijn uniek voor elke recordweergave:
 
@@ -101,19 +100,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  Wanneer u bijvoorbeeld een filter maakt in een tabelweergave, zijn de filterresultaten alleen zichtbaar in de geselecteerde weergave en niet in alle weergaven die worden vermeld in het vervolgkeuzemenu Weergave.
+  Wanneer u bijvoorbeeld een filter maakt in een tabelweergave, zijn de filterresultaten alleen zichtbaar in de geselecteerde weergave en niet in alle weergaven die aan het recordtype zijn gekoppeld.
 
   >[!NOTE]
   >
-  > Omdat de Adobe Workfront-planningsmogelijkheden zich momenteel in een bètastatus bevinden, zijn sommige weergave-elementen mogelijk niet beschikbaar voor alle weergaven.
+  > Aangezien Adobe Workfront-planning zich momenteel in een bètastatus bevindt, zijn bepaalde weergave-elementen mogelijk niet voor alle weergaven beschikbaar.
 
 In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 * [Een weergave maken en bewerken](#create-or-edit-record-views)
 * [Een weergave verwijderen](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [Een weergave dupliceren](#duplicate-views)
 * [Een weergave delen](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Gelijksoortigheid en verschillen tussen recordweergaven
 
@@ -233,20 +232,30 @@ Zie voor informatie over het delen van weergaven [Weergaven delen](/help/quicksi
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## Een weergave dupliceren
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+Als u meerdere versies van een weergave wilt behouden en kleine wijzigingen wilt aanbrengen tussen de versies, kunt u een weergave dupliceren.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+Als u een weergave dupliceert, worden identieke kopieën van een bestaande weergave gemaakt.
 
-    By default, all the records of the type selected display in the table view. 
+De machtigingen voor delen van de oorspronkelijke weergave worden niet overgedragen naar de gedupliceerde weergave.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+De werkruimte die u het laatst hebt geopend, wordt standaard geopend.
+
+Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+
+1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture/create-record-types.md).
+
+   Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
+
+1. Houd de muisaanwijzer boven het tabblad van de weergave die u wilt dupliceren en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Dupliceren**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)`. Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
+

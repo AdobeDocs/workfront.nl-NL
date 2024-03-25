@@ -1,13 +1,13 @@
 ---
 title: Velden bewerken
-description: In Adobe Maestro, kunt u de gebiedsmontages voor gebieden uitgeven die reeds worden gecreeerd.
+description: In Adobe Workfront planning, kunt u de gebiedsmontages voor gebieden uitgeven die reeds worden gecreeerd.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-U kunt de veldinstellingen bewerken voor velden die al zijn gemaakt.
+U kunt de veldinstellingen bewerken voor velden die al zijn gemaakt in Adobe Workfront-planning.
 
-Voor informatie over het maken van Adobe Maestro gebieden, zie [Velden maken](../fields/create-fields.md).
+Voor informatie over het maken van Adobe Workfront-planningsvelden raadpleegt u [Velden maken](../fields/create-fields.md).
 
-In dit artikel wordt beschreven hoe u de instellingen voor Maestro-velden kunt bewerken. Voor informatie over het bewerken van veldwaarden voor Maestro-records raadpleegt u [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
+In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het bewerken van veldwaarden voor records raadpleegt u [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Overwegingen bij het bewerken van veldgegevens
 
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor Maestro</p>  
+   <td> <p>Er zijn geen toegangscontroles voor de planning van Workfront</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Velden bewerken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-workfront.png) in de rechterbovenhoek van Workfront, of in de **Hoofdmenu** pictogram ![](assets/main-menu-shell.png)  in de linkerbovenhoek, indien beschikbaar, klikt u op **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   De laatst geopende werkruimte moet standaard worden geopend.
+    De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt verwijderen.
 
-   De werkruimte wordt geopend en de recordtypen en bijbehorende taxonomieën worden weergegeven.
-1. Klik op de kaart voor het recordtype of de taxonomie waarvan u de velden wilt bewerken.
+   De werkruimte wordt geopend en de recordtypen die eraan zijn gekoppeld, worden weergegeven.
+1. Klik op de kaart voor het recordtype waarvan u de velden wilt bewerken.
 
    Hierdoor wordt de pagina van het recordtype geopend.
 1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.

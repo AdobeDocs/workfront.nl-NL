@@ -1,13 +1,13 @@
 ---
 title: Records maken
-description: Wanneer u de planningsmogelijkheden van Adobe Workfront gebruikt, is een record een instantie van een recordtype. U moet recordtypen maken voordat u afzonderlijke records kunt maken. Het maken van taxonomieverslagen is identiek aan het maken van operationele verslagen.
+description: Wanneer u Adobe Workfront-planning gebruikt, is een record een instantie van een recordtype.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In Adobe Workfront-planningsmogelijkheden is een record een instantie van een recordtype.
-
-U kunt de volgende typen records hebben:
-
-* **Operationele gegevens**: Deze vertegenwoordigen werkgerelateerde objecten. Voor een operationeel record met de naam &#39;Campagne&#39; kunt u bijvoorbeeld records met een naam als &#39;Maandelijkse nieuwsbrief&#39; of &#39;Zomerverkoop&#39; hebben genoemd.
-* **Taxonomische gegevens**: Ze vertegenwoordigen kenmerken die aan operationele records kunnen worden gekoppeld. Voor een taxonomie-recordtype met de naam &#39;Kanaal&#39; kunt u bijvoorbeeld taxonomieën als &#39;E-mail&#39;, &#39;Sociale media&#39; of &#39;Advertising&#39; een naam geven.
-
-Het maken van operationele records is hetzelfde als het maken van taxonomierecords.
+In Adobe Workfront-planning is een record een instantie van een recordtype.
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
 * Deze handmatig maken voor recordtypen
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * Maak records door gegevens uit een externe lijst te kopiëren en te plakken.
 
 In dit artikel wordt beschreven hoe u records kunt maken. Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
@@ -57,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsbesturingselementen voor Adobe Workfront-planningsmogelijkheden </p>  
+   <td> <p>Er zijn geen toegangscontroles voor de planning van Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. In een andere toepassing selecteert u meerdere rijen en kolommen en plakt u de gegevens in de tabelweergave van het recordtype, te beginnen met de eerste nieuwe record.
 
-   De volgende informatie wordt geïmporteerd in het gedeelte Workfront-planningsmogelijkheden:
+   De volgende informatie wordt geïmporteerd in het planningsgebied van Workfront:
 
    * De rijen bevatten de nieuwe records
    * De kolommen vullen informatie voor de gebieden van de verslagen.

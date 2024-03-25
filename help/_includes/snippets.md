@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -247,19 +247,19 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Stap 1 - Aan de slag met Maestro - {#step1-to-maestro}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Maestro]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Planning]**.
 
 ## Belangrijke intro van Maestro - {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op de planningsmogelijkheden van Adobe Workfront, een nieuwe aanbieding van Adobe Workfront.
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
 >
->Momenteel maken de planningsmogelijkheden deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>Workfront-planning maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
 >
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor de planningsmogelijkheden.
+>Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Workfront-planning.
 >
->Voor meer informatie over planningsmogelijkheden, zie [Overzicht van Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/maestro-overview.md).
+>Zie voor meer informatie [Overzicht van Adobe Workfront-planning](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

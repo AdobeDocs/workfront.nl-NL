@@ -1,13 +1,13 @@
 ---
-title: "Informatie over Adobe Workfront-planningsmogelijkheden: artikelindex"
-description: Als leider van marketingbewerkingen kunt u planningsmogelijkheden voor Adobe Workfront gebruiken om werk in de hele marketinglevenscyclus voor al uw teams te organiseren. De artikelen in deze sectie beschrijven hoe u de planningsmogelijkheden kunt vormen en hoe u hen als deel van uw verrichtingen van het campagnebeheer kunt beginnen te gebruiken.
+title: "Adobe Workfront planning information: article index"
+description: Als leider van marketingbewerkingen kunt u Adobe Workfront-planning gebruiken om werk in de hele marketinglevenscyclus voor al uw teams te organiseren. De artikelen in deze sectie beschrijven hoe u de planningsmogelijkheden kunt vormen en hoe u hen als deel van uw verrichtingen van het campagnebeheer kunt beginnen te gebruiken.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: 7b468f507a373f4a99dfacee96bb0798e27cfb96
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -30,35 +30,36 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-Als leider van marketingbewerkingen kunt u planningsmogelijkheden voor Adobe Workfront gebruiken om werk in de hele marketinglevenscyclus voor al uw teams te organiseren.
+Als leider van marketingbewerkingen kunt u Adobe Workfront-planning gebruiken om werk in de hele marketinglevenscyclus voor al uw teams te organiseren.
 
 {{maestro-important-intro}}
 
-U kunt deze pagina gebruiken als beginpunt voor alle documentatie met betrekking tot de planningsmogelijkheden van Workfront.
+U kunt deze pagina gebruiken als beginpunt voor alle documentatie met betrekking tot de planning van Adobe Workfront.
 
-In de artikelen in de volgende secties wordt beschreven hoe u de Workfront-planningsfunctie kunt configureren en gebruiken.
+In de artikelen in de volgende secties wordt beschreven hoe u Workfront kunt configureren en gebruiken.
 
 >[!IMPORTANT]
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
-## Algemeen overzicht van de planningsmogelijkheden van Adobe Workfront
+## Algemeen overzicht van Adobe Workfront-planning
 
 Ga naar de volgende artikelen voor een overzicht van de nieuwe planningsmogelijkheden van Workfront:
 
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
-* [Overzicht van Adobe Workfront-planningsmogelijkheden](maestro-overview.md): Een overzicht op hoog niveau van de planningsmogelijkheden van Adobe Workfront, inclusief de terminologie en concepten die uniek zijn voor deze oplossing. Wij adviseren dat u uw reis met de nieuwe planningsmogelijkheden hier begint.
-* [Release-activiteit Adobe Workfront-planningsmogelijkheden](../maestro/release-activity.md): Een lijst met alle functies die zijn vrijgegeven sinds de start van het bètaprogramma voor Adobe Workfront-planningsmogelijkheden op 22 mei 2023 werd afgesloten met exacte releasedatums en een kort overzicht van elke functie.
-* [Adobe Maestro-modules voor Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 
-## Architectuur en functionaliteit van Workfront-planningsmogelijkheden
+* [Overzicht van Adobe Workfront-planning](maestro-overview.md): Een overzicht op hoog niveau van Adobe Workfront-planning, inclusief de terminologie en concepten die uniek zijn voor deze oplossing. We raden je aan je reis te beginnen met Workfront planning hier.
+* [Adobe Workfront-planningsvrijgave](../maestro/release-activity.md): Een lijst met alle functies die zijn vrijgegeven sinds de start van het Adobe Workfront-programma voor het sluiten van het bètaprogramma, op 22 mei 2023, met exacte releasedatums en een kort overzicht van elke functie.
+* Adobe Maestro-modules voor Workfront Fusion
 
-De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven van de functies die momenteel beschikbaar zijn voor Workfront-planningsmogelijkheden:
+## Workfront-planningsarchitectuur en -functionaliteit
 
-* [Toegang: artikelindex](../maestro/access/access-information.md): Informatie over de toegang en de toestemmingen nodig om het gebied van planningsmogelijkheden te gebruiken.
-* [Architectuur: artikelindex](../maestro/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van de Workfront-planningsmogelijkheden, met stapsgewijze instructies over hoe u werkruimten en recordtypen kunt maken en beheren.
-* [Velden: artikelindex](../maestro/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies over het maken van aangepaste velden voor recordtypen.
+De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven van de functies die momenteel beschikbaar zijn voor Workfront-planning:
+
+* [Toegang: artikelindex](../maestro/access/access-information.md): Informatie over de toegang en machtigingen die nodig zijn om Workfront-planning te gebruiken.
+* [Architectuur: artikelindex](../maestro/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van de planning van Workfront, met geleidelijke instructies over hoe u werkruimten en recordtypes tot stand kunt brengen en beheren.
+* [Velden: artikelindex](../maestro/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies voor het maken van aangepaste velden voor recordtypen.
 * [Records: artikelindex](../maestro/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
-* [Weergaven: artikelindex](../maestro/views/views-information.md): Uitgebreide informatie over recordweergaven en hoe u deze kunt beheren wanneer u een pagina met recordtypen weergeeft.
+* [Weergaven: artikelindex](../maestro/views/views-information.md): Uitgebreide informatie over recordweergaven en hoe u deze kunt beheren bij het weergeven van een pagina met recordtypen.

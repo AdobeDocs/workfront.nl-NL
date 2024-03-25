@@ -1,18 +1,18 @@
 ---
-title: Overzicht van Adobe Workfront-planningsmogelijkheden
-description: Adobe Workfront-planningsmogelijkheden zijn een nieuw aanbod van Adobe Workfront. U kunt volledig-klantgerichte werkruimten tot stand brengen om werkschema's te bepalen die aan de behoeften van elke organisatorische eenheid in uw onderneming voldoen.
+title: Overzicht van Adobe Workfront-planning
+description: Adobe Workfront Planning is een nieuw aanbod van Adobe Workfront. U kunt volledig-klantgerichte werkruimten tot stand brengen om werkschema's te bepalen die aan de behoeften van elke organisatorische eenheid in uw onderneming voldoen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
 
-# Overzicht van Adobe Workfront-planningsmogelijkheden
+# Overzicht van Adobe Workfront-planning
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,21 +22,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel heeft betrekking op de planningsmogelijkheden van Adobe Workfront, een nieuwe aanbieding van Adobe Workfront.
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
 >
->Momenteel maken de planningsmogelijkheden deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>Adobe Workfront-planning maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
 >
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor de planningsmogelijkheden.
->[Bekijk een videodemonstratie van de planningsmogelijkheden van Adobe Workfront.](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Workfront-planning.
 
-## Inleiding tot Adobe Workfront-planningsmogelijkheden
+<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-Adobe Workfront-planningsmogelijkheden zijn een nieuw aanbod van Adobe Workfront. Het doel van de planningsmogelijkheden is om uitgebreide zichtbaarheid in de operationele details van een organisatie te ontsluiten, en kritieke bedrijfsvragen in elke fase van de levenscyclus van het werkbeheer te beantwoorden.
+## Inleiding tot Adobe Workfront-planning
+
+Adobe Workfront Planning is een nieuw aanbod van Adobe Workfront. Het doel van de planning van Workfront is om uitgebreide zichtbaarheid in de operationele details van een organisatie te ontsluiten, en kritieke bedrijfsvragen in elke fase van de levenscyclus van het werkbeheer te beantwoorden.
 
 Teams en leiderschap hebben duidelijke antwoorden nodig op vragen als:
 
 * Hoeveel campagnes voeren we in EMEA voor het vierde kwartaal?
-* Hebben we publiek overlappingen tussen gelijktijdige campagnes?
+* Hebben we publiek overlappingen tussen gezamenlijke campagnes?
 * Hoe goed doen de bewustmakingsprogramma&#39;s op dit moment?
 * Hoe zien de middelen eruit voor een bepaalde campagne? Welke daarvan moeten nog worden goedgekeurd?
 
@@ -48,18 +49,16 @@ Hieronder vindt u een aantal van de belangrijkste mogelijkheden:
 * Pas uw workflows volledig aan, van het bepalen van welke objecttypen (of recordtypen) uw organisatie gebruikt om te configureren hoe deze objecten aan elkaar zijn gekoppeld.
 * Koppeling maken naar objecttypen van andere systemen en zo een samenhangend kader creëren voor al uw processen.
 
-## Functies voor Adobe Workfront-planning zijn momenteel beschikbaar
+## Momenteel beschikbare planningsfuncties voor Adobe Workfront
 
-In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zullen zijn in de planningsmogelijkheden en een tijdlijn voor de beschikbaarheid ervan. De lijst bevat niet alle functies.
+In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn in de Workfront-planning en een tijdlijn voor de beschikbaarheid ervan. De lijst bevat niet alle functies.
 
-Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadpleegt u [Release-activiteit Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/release-activity.md).
+Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadpleegt u [Adobe Workfront-planningsvrijgave](/help/quicksilver/maestro/release-activity.md).
 
 | Functie | Nu beschikbaar | Binnenkort beschikbaar | Onderzoek |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Werkruimten maken | ✓ |                                  |                  |
-| Operationele recordtypen maken | ✓ |                                  |                  |
-| taxonomieën maken | ✓ |                                  |                  |
-| Afzonderlijke records en taxonomieën maken | ✓ |                                  |                  |
+| Recordtypen maken | ✓ |                                  |                  |
 | Aangepaste recordvelden maken | ✓ |                                  |                  |
 | Recordtypen en velden importeren met een Excel- of CSV-bestand* | ✓ |                                  |                  |
 | Koppelingsrecords | ✓ |                                  |                  |
@@ -74,15 +73,15 @@ Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadple
 | Groepen sorteren in de tabelweergave |                               | ✓ |                  |
 | Groepen sorteren in de tijdlijnweergave |                               | ✓ |                  |
 | Werkruimten verbinden |                               | ✓ |                  |
-| Opdrachten en taxonomieën voor Connect-planningsmogelijkheden | ✓ |
 | Zoeken naar records in de tabelweergave | ✓ |   |
 | Zoeken naar records in de tijdlijnweergave | ✓ |   |
-| Logopnamen van planningsmogelijkheden koppelen aan Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven, -groepen | ✓ |                                 |                  |
-| Opdrachten met planningsmogelijkheden verbinden met Adobe Experience Manager-middelen | ✓ |                                  |                 |
-| Detailpagina opnemen | ✓ |                                  |                  |
+| Connect Workfront-planningsrecords koppelen aan Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven en -groepen | ✓ |                                 |                  |
+| Workfront-planningsrecords verbinden met Adobe Experience Manager-middelen | ✓ |                                  |                 |
+| Pagina Opnamedetails | ✓ |                                  |                  |
 | De lay-out van de pagina met recorddetails bijwerken |                               | ✓ |                  |
 | Werkruimten delen | ✓ | |  |
 | Weergaven delen | ✓ | |  |
+| Weergaven dupliceren | ✓ | |  |
 | Verzoeken verzenden |                               |                                  | ✓ |
 | Creatief overzicht |                               |                                  | ✓ |
 | De kleur en het pictogram van een record aanpassen | ✓ |                                  |                 |
@@ -93,21 +92,21 @@ Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadple
 | Adobe Workfront-planningsmodules voor Adobe Workfront Fusion | ✓ |                                  |                 |
 | Informatie van het ene veld naar het andere kopiëren en plakken | ✓ |                                  |                 |
 
-## Adobe Workfront-planningsmogelijkheden inschakelen voor gebruikers in uw Workfront-exemplaar
+## Adobe Workfront-planning inschakelen voor gebruikers in uw Workfront-exemplaar
 
-Uw organisatie moet zich aanmelden bij het bètaprogramma voor Adobe Workfront-planningsmogelijkheden voordat u toegang hebt tot de planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor informatie over inschrijving in het bètaprogramma.
+Uw organisatie moet zich inschrijven bij de Adobe Workfront planning closed beta programma alvorens u tot de planningsmogelijkheden kunt toegang hebben. Neem contact op met uw accountvertegenwoordiger voor informatie over inschrijving in het bètaprogramma.
 
-Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de planningsmogelijkheden te gebruiken, zie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md).
+Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de planning van Workfront te gebruiken, zie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md).
 
-## terminologie voor Adobe Workfront-planningsmogelijkheden
+## Adobe Workfront-planningterminologie
 
-Hoewel de planningsmogelijkheden deel van Workfront uitmaken, komt het met merkgebonden concepten en terminologie. Zorg ervoor dat u bekend bent met de concepten van planningsmogelijkheden voordat u begint met het instellen van planningsmogelijkheden voor uw organisatie.
+Hoewel Workfront-planning deel uitmaakt van Workfront, wordt het geleverd met eigen concepten en terminologie. Zorg ervoor dat u bekend bent met de nieuwe concepten voordat u begint met het instellen van Workfront-planning voor uw organisatie.
 
-Het kader voor de planningsmogelijkheden is volledig aanpasbaar. U kunt alle recordtypen, hun kenmerken en alle bijbehorende velden maken op basis van de exacte behoeften van uw organisatie.
+Het raamwerk voor Workfront-planning is volledig aanpasbaar. U kunt alle recordtypen, hun kenmerken en alle bijbehorende velden maken op basis van de exacte behoeften van uw organisatie.
 
-Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
+Hier volgen de belangrijkste planningsobjecten en -concepten van Workfront:
 
-* **Werkruimte**: Een verzameling recordtypen en taxonomieën die de operationele levenscyclus van een bepaalde organisatie bepalen. Een werkruimte is het werkkader van een organisatorische eenheid.
+* **Werkruimte**: Een verzameling recordtypen die de operationele levenscyclus van een bepaalde organisatie definiëren. Een werkruimte is het werkkader van een organisatorische eenheid.
 
   Eén Workfront-instantie kan maximaal 1000 werkruimten hebben.
 
@@ -115,64 +114,39 @@ Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
 
   Zie voor meer informatie [Werkruimten maken](../maestro/architecture/create-workspaces.md).
 
-* **Recordtype**: Het objecttype met de belangrijkste planningsmogelijkheden.
+* **Recordtype**: Het objecttype of Workfront-planning.
 
-  In tegenstelling tot Workfront waar de objecttypen vooraf zijn gedefinieerd, kunt u in de planningsmogelijkheden zelf objecttypen maken.
+  In tegenstelling tot Workfront, waar de objecttypen vooraf zijn gedefinieerd, kunt u in Workfront-planning uw eigen objecttypen maken.
 
   In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.
 
-  In de planningsmogelijkheden, kunt u om het even welke verslagtypes tot stand brengen die aan de werkschema&#39;s van uw organisatie voldoen. Later kunt u bepalen hoe de recordtypen op elkaar betrekking hebben of hoe afhankelijk van het formulier is.
+  In Workfront planning, kunt u om het even welke verslagtypes tot stand brengen die aan de werkschema&#39;s van uw organisatie voldoen. Later kunt u bepalen hoe de recordtypen op elkaar betrekking hebben of hoe afhankelijk van het formulier is.
 
-  Zie voor meer informatie [Overzicht van de typen operationele registers en taxonomieën](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
+  Zie voor meer informatie [Overzicht van recordtypen](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  De planningsmogelijkheden hebben de volgende recordtypen:
-
-   * **Type operationeel record**: Een recordtype dat strategische plannen, initiatieven of uitgevoerd werk vertegenwoordigt.
-
-     ![](assets/operational-record-type-blank.png)
-
-     Bijvoorbeeld, Campagne, Activiteit, Programma kan operationele verslagtypes zijn.
-
-     Zie voor meer informatie [Recordtypen maken](../maestro/architecture/create-record-types.md).
-
-   * **Taxonomie**: Een recordtype waarmee kenmerken van een operationeel recordtype worden vastgelegd.
-
-     ![](assets/taxonomy-record-type-blank.png)
-
-     Hoewel het creëren van taxonomieën met het creëren van operationele verslagtypes identiek is, maken de planningsmogelijkheden onderscheid tussen een operationeel verslagtype en een type van taxonomiverslag. Het doel van taxonomieën is het verbeteren van de types van operationele verslagen. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
-
-     Bijvoorbeeld, de Publiek, het Gebied, of het Adres kunnen taxonomie-type verslagtypes zijn.
-
-     Zie voor meer informatie [Startrecordtypen voor taxonomie maken](../maestro/architecture/create-a-taxonomy.md).
-
-* **Opnemen**: Een instantie van een opnametype voor planningscapaciteit. Een record kan verwijzen naar een operationeel recordtype of naar een taxonomie.
+* **Opnemen**: Een instantie van een recordtype.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
-  ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
 
   Nadat u een recordtype aan een werkruimte hebt toegevoegd, kunt u records van dat type op de pagina van het recordtype toevoegen.
 
-  &quot;Campagne&quot; kan bijvoorbeeld een operationeel recordtype zijn en &quot;Zomercampagne voor EMEA&quot; is een record van het type Campagne-record.
-
-  of
-
-  &quot;Region&quot; is een soort taxonomie-record, terwijl &quot;Americas-Latin America&quot; of &quot;EMEA-Central Europe&quot; taxonomie-records zijn.
+  &#39;Campagne&#39; kan bijvoorbeeld een recordtype zijn en &#39;Zomercampagne voor EMEA&#39; is een record van het type Campagne-record.
 
   Zie voor meer informatie [Records maken](../maestro/records/create-records.md).
 
-* **Werkruimtemalplaatje**: U kunt een werkruimte maken met vooraf gedefinieerde sjablonen. U kunt de vooraf gedefinieerde recordtypen, taxonomieën en velden in een sjabloon gebruiken, maar u kunt ook uw eigen recordtypen toevoegen.
+* **Werkruimtemalplaatje**: U kunt een werkruimte maken met vooraf gedefinieerde sjablonen. U kunt de vooraf gedefinieerde recordtypen en -velden gebruiken die in een sjabloon voorkomen, of u kunt uw eigen recordtypen toevoegen.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront-planningsmogelijkheden worden geleverd met een sjabloon voor verkoop, marketing en productbeheer.
+  Bij Adobe Workfront-planning wordt een sjabloon voor de werkruimte Verkoop, Marketing en Productbeheer weergegeven.
 
   Zie voor meer informatie [Werkruimten maken](../maestro/architecture/create-workspaces.md).
 
-* **Velden**: Velden zijn kenmerken die u kunt toevoegen aan operationele of taxonomie recordtypen die informatie over het recordtype bevatten. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **Velden**: Velden zijn kenmerken die u kunt toevoegen aan recordtypen. Velden bevatten informatie over het recordtype. <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Overwegingen bij het plannen van capaciteitsgebieden:
+  Overwegingen bij recordvelden:
 
    * De velden die u voor een recordtype toevoegt, worden automatisch gekoppeld aan alle records van dat type en kunnen worden gebruikt om gegevens over die records vast te leggen.
 
@@ -180,19 +154,17 @@ Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
 
    * Velden zijn uniek voor een recordtype en worden niet van het ene naar het andere recordtype overgedragen.
 
-   * De gebieden van het planningsvermogen zijn volledig aanpasbaar en zijn toegankelijk slechts in de planningsmogelijkheden. U hebt vanuit Workfront geen toegang tot velden voor planningsmogelijkheden.
+   * Velden zijn volledig aanpasbaar en zijn alleen toegankelijk in Workfront-planning. U hebt vanuit Workfront geen toegang tot Workfront-planningsvelden.
 
   Zie voor meer informatie [Velden maken](../maestro/fields/create-fields.md).
 
-  Een nieuw operationeel recordtype is standaard gekoppeld aan de volgende vooraf gedefinieerde velden:
+  Een nieuw recordtype is standaard gekoppeld aan de volgende vooraf gedefinieerde velden:
 
    * Naam
    * Beschrijving
    * Begindatum
    * Einddatum
    * Status
-
-  Een nieuw taxonomie- verslagtype wordt geassocieerd met een gebied van de Naam, door gebrek.
 
   U kunt aangepaste velden maken van de volgende typen:
 
@@ -212,11 +184,11 @@ Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
    * Laatst gewijzigd door
    * Laatst gewijzigd
 
-* **Gekoppelde recordtypen**, **Gekoppelde records**, en **Gekoppelde recordvelden**: U kunt een verbinding maken tussen de volgende entiteiten:
+* **Gekoppelde recordtypen**, **Gekoppelde records**, en **Gekoppelde recordvelden**: In Workfront kunt u een verbinding maken tussen de volgende entiteiten:
 
-   * Twee types van het planningsvermogen verslag.
-   * Een recordtype voor planningscapaciteit en een Workfront-project-, programma-, portfolio-, bedrijf- of groepsobjecttype.
-   * Een recordtype voor planningsmogelijkheden en een Adobe Experience Manager-middel of -map.
+   * Twee recordtypen.
+   * Een recordtype en een Workfront-type project, -programma, -portfolio, -bedrijf of -groepsobject.
+   * Een recordtype en een Adobe Experience Manager-middel of -map.
 
      U moet een Adobe Experience Manager-licentie hebben om recordtypen te koppelen aan Experience Manager-objecten.
 
@@ -227,7 +199,7 @@ Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
 
 * **Gekoppelde velden** (of opzoekvelden): Nadat u de verbinding tussen twee recordtypen tot stand hebt gebracht en u afzonderlijke records aan elkaar koppelt, kunt u verwijzen naar de velden van de gekoppelde records in de record waarmee u verbinding maakt.
 
-  Bijvoorbeeld, als u een planningscapaciteitscampagne met een project van Workfront verbindt, kunt u het gebied van de Eigenaar van het Project van verbonden projecten op de campagneverslagen van het planningsvermogen tonen.
+  Bijvoorbeeld, als u een type van het verslagverslag van de Campagne met een de objecten van het Project van Workfront type verbindt, kunt u het gebied van de Eigenaar van het Project van verbonden projecten op de campagneverslagen tonen.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -261,14 +233,14 @@ Hier volgen de belangrijkste objecten en concepten van planningsmogelijkheden:
 Zie voor meer informatie [Recordweergaven beheren](../maestro/views/manage-record-views.md).
 
 
-## Objectbeperkingen voor Adobe Workfront-planningsmogelijkheden
+## Beperkingen van Adobe Workfront-planningsobjecten
 
-In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken in de planningsmogelijkheden. De beperkingen zijn aan verandering onderhevig naarmate we de volgende ontwikkelingsfasen ingaan.
+In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken in Workfront-planning. De beperkingen zijn aan verandering onderhevig naarmate we de volgende ontwikkelingsfasen ingaan.
 
-| Object met Adobe Workfront-planningsmogelijkheden | Limiet |
+| Adobe Workfront-planningsobject | Limiet |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Aantal werkruimten voor één Workfront-instantie | 1.000 |
-| Aantal recordtypen voor één werkruimte | 1.000 (inclusief taxonomieën voor de werkruimte of objecten die u uit andere toepassingen importeert) |
+| Aantal recordtypen voor één werkruimte | 1.000 (dit omvat recordtypen van alle secties en die die wanneer het gebruiken van een werkruimtesjabloon worden gecreeerd) |
 | Aantal records voor één recordtype | 50.000 |
 | Aantal velden voor één recordtype of taxonomie | 500 |
 | Aantal tekens voor een tekstveld | 1.000 tekens |
@@ -279,20 +251,20 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 
 >[!IMPORTANT]
 >
->*Deze functionaliteit is tijdelijk uitgeschakeld en zal later beschikbaar zijn
+>*Deze functie is tijdelijk uitgeschakeld en is later beschikbaar.
 
 
-## Adobe Workfront-planningsmogelijkheden zoeken
+## Adobe Workfront-planning zoeken
 
-Zorg ervoor dat uw organisatie toegang tot de planningsmogelijkheden heeft ontvangen en dat uw systeem of groepsbeheerder het gebied met planningsmogelijkheden aan uw Hoofdmenu heeft toegevoegd. Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md).
+Zorg ervoor dat uw organisatie toegang tot de planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md).
 
-U kunt als volgt de planningsmogelijkheden zoeken:
+Workfront-planning zoeken:
 
 1. Meld u aan bij Adobe Workfront.
 
 1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of klik op de knop **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, indien beschikbaar.
 
-1. Klikken **Maestro** ![](assets/maestro-icon.png).
+1. Klikken **Planning** ![](assets/maestro-icon.png).
 
    Het gebied Werkruimten wordt geopend.
 
@@ -300,11 +272,11 @@ U kunt als volgt de planningsmogelijkheden zoeken:
 
    1. Maak een werkruimte helemaal opnieuw of gebruik een sjabloon.
 
+   1. Voeg secties toe aan de nieuwe werkruimte.
+   1. Wijzig de naam van de bestaande secties in de nieuwe werkruimte.
    1. Voeg recordtypen toe aan de nieuwe werkruimte.
 
-   1. Voeg taxonomieën toe aan de nieuwe werkruimten.
-
-   1. Klik op de naam van een recordtype om de recordpagina te openen. De recordpagina wordt standaard in de tabelweergave geopend.
+   1. Klik op de naam van een recordtype om de pagina van het recordtype te openen. De pagina met recordtypen wordt standaard in de tabelweergave geopend.
 
       U kunt ook een tijdlijn of een kalenderweergave maken.
 
@@ -314,7 +286,9 @@ U kunt als volgt de planningsmogelijkheden zoeken:
 
       Voeg recordvelden toe door kolommen toe te voegen.
 
-## Release-activiteit Adobe Workfront-planningsmogelijkheden
+## Adobe Workfront-planningsvrijgave
 
-Wij geven regelmatig nieuwe eigenschappen aan de planningsmogelijkheden vrij. Voor een actuele lijst met vrijgegeven functies raadpleegt u [Release-activiteit Adobe Workfront-planningsmogelijkheden](../maestro/release-activity.md).
+We geven regelmatig nieuwe functies voor Workfront-planning vrij.
+
+Voor een actuele lijst met vrijgegeven functies raadpleegt u [Adobe Workfront-planningsvrijgave](../maestro/release-activity.md).
 

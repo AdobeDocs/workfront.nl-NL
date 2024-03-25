@@ -1,13 +1,13 @@
 ---
 title: Startrecordtypen voor taxonomie maken
-description: Taxonomieën zijn een type herbruikbare recordtypen die kenmerken vastleggen van een operationeel recordtype in Adobe Workfront Maestro.
+description: Wanneer u een sjabloon gebruikt om een werkruimte te maken, worden recordtypen gemaakt in de secties Operationele records en Belastingen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,16 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-De types van taxonomieverslag vangen attributen over operationele verslagtypes in Adobe Maestro.
+Wanneer u een sjabloon gebruikt om een werkruimte te maken, worden recordtypen gemaakt in de volgende secties:
+
+* Operationele recordtypen
+* Taxonomieën
+
+De recordtypen in de sectie Taxonomies van een werkruimte leggen kenmerken vast over recordtypen in de sectie Typen operationele records van dezelfde werkruimte.
 
 Campagne kan bijvoorbeeld een operationeel recordtype zijn. Hieronder vindt u taxonomieën die kenmerken vastleggen over het type campagnerecord: Regio, Publiek, Land.
 
-Zie voor meer informatie over Maestro-recordtypen [Overzicht van recordtypen en taxonomieën](../architecture/overview-of-record-types-and-taxonomies.md).
+Zie voor meer informatie over recordtypen [Overzicht van recordtypen](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Toegangsvereisten
 
@@ -39,11 +44,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Als u Maestro-recordtypen wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Als u recordtypen wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het maken van taxonomieën
 
-* U moet een werkruimte maken voordat u recordtypen voor taxonomieën in de werkruimte kunt maken.
+* U moet een werkruimte maken met behulp van een sjabloon voordat u recordtypen kunt maken in de sectie Taxonomies van de werkruimte.
 
   Zie voor informatie over werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
-* U kunt een taxonomie recordtype tot stand brengen door één van het volgende te doen:
+* U kunt een recordtype maken in de sectie Taxonomies van een werkruimte door een van de volgende handelingen uit te voeren:
    * U kunt deze automatisch maken wanneer u een werkruimte maakt met een sjabloon. Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
-   * Maak ze handmatig, helemaal opnieuw.
+   * U kunt ze handmatig maken in de sectie Taxonomies van een werkruimte.
 
-* Alle nieuw gecreëerde types van taxonomiverslag komen met de volgende gebieden:
+* Alle nieuwe taxonomieën hebben standaard de volgende velden:
 
-   * Naam <!--if there won't be any more fields, consider rephrasing this-->
+   * Naam
+   * Beschrijving
+   * Begindatum
+   * Einddatum
+   * Status
 
   Bovendien kunt u aangepaste velden toevoegen aan taxonomieën. Zie voor meer informatie [Velden maken](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een recordtype voor de taxonomie maken
 
-Het maken van gegevenstypen voor taxonomieën is vergelijkbaar met het maken van geheel nieuwe, operationele recordtypen of een werkruimtemalplaatje.
+Het maken van taxonomie-recordtypen lijkt op het maken van recordtypen.
 
-Zie de sectie Een geheel nieuw recordtype maken in het artikel voor meer informatie. [Recordtypen maken](../architecture/create-record-types.md).
-
-Voor informatie over het automatisch creëren van taxonomieën wanneer het creëren van een werkruimte van een malplaatje, zie [Werkruimten maken](../architecture/create-workspaces.md).
+Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).

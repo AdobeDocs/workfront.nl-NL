@@ -1,16 +1,16 @@
 ---
 title: Weergaven delen
-description: U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u de planningsmogelijkheden van Adobe Workfront gebruikt.
+description: U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u Adobe Workfront-planning gebruikt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live-->
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u werkt met records in Adobe Workfront-planningsmogelijkheden.
+U kunt een weergave met anderen delen om ervoor te zorgen dat u kunt samenwerken wanneer u werkt met records in de Adobe Workfront-planning.
 
 Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers.
 
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront-planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> Er zijn geen toegangsbesturingselementen voor Adobe Workfront-planningsmogelijkheden</p>  
+   <td> Er zijn geen toegangscontroles voor de planning van Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het Maestro-gebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/maestro/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/maestro/access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -106,7 +106,7 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
    * Weergave
    * Beheren
 
-     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](../access/sharing-permissions-overview.md).
+     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Workfront-planning](../access/sharing-permissions-overview.md).
 
      <!--System administrators always receive Manage permissions to views shared with them.-->
 

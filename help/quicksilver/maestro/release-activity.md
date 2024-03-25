@@ -1,18 +1,18 @@
 ---
-title: Release-activiteit Adobe Workfront-planningsmogelijkheden
+title: Adobe Workfront-planningsvrijgave
 description: Adobe Workfront-planningsmogelijkheden zijn momenteel beschikbaar voor het selecteren van Workfront-klanten. Lees dit artikel vaak voor meer informatie over de functies die onlangs zijn uitgebracht voor de planningsmogelijkheden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Release-activiteit Adobe Workfront-planningsmogelijkheden
+# Adobe Workfront-planningsvrijgave
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >[!IMPORTANT]
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
+
+## Week van 25 maart 2024
+
+### Nieuwe flexibele organisatie van recordtypen voor werkruimten
+
+Productie: 25 maart 2024
+
+Voorbeeld: te bepalen
+
+Om efficiëntie voor u te creëren bij het instellen van werkruimten, hebben we de manier gewijzigd waarop u recordtypen in een werkruimte indeelt. Enkele verbeteringen zijn onder meer:
+
+* Maak in elke werkruimte maximaal 50 secties met recordtypen. Bestaande secties met betrekking tot het operationeel record en taxonomieën blijven in de bestaande werkruimten staan.
+
+* Pas alle nieuwe werkruimten en de bijbehorende nieuwe secties volledig aan aan uw processen en de behoeften van uw organisatie.
+
+* Verplaats recordtypen dynamisch binnen een werkruimte door ze naar de gewenste positie te slepen, ook in verschillende secties.
+
+Zie voor meer informatie [Recordtypen maken](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### Weergaven dupliceren
+
+Productie: 25 maart 2024
+
+Voorbeeld: te bepalen
+
+Als u tijd wilt besparen en consistentie wilt behouden, kunt u nu een bestaande weergave dupliceren waartoe u toegang hebt.
+
+Als u een weergave dupliceert, wordt dezelfde weergave gemaakt en worden dezelfde filters, sorteercriteria en groepen gebruikt. Als u een weergave dupliceert, blijven de machtigingen van de oorspronkelijke weergave niet behouden.
+
+Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### De naam van het Maestro-gebied in het hoofdmenu is gewijzigd in Planning
+
+Productie: maart 2024
+
+Voorbeeld: te bepalen
+
+We hebben de naam van het Maestro-gebied in het hoofdmenu gewijzigd in Planning.
+
+Voor een overzicht van Adobe Workfront-planning raadpleegt u [Overzicht van Adobe Workfront-planning](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Week van 18 maart 2024
 
@@ -207,7 +247,7 @@ Hieronder ziet u de hoogste niveaus van machtigingen die gebruikers kunnen ontva
 
 Voor informatie over het nieuwe licentiemodel raadpleegt u [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype bij gebruik van de Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/access/license-type-overview.md).
+Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype bij gebruik van Adobe Workfront-planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nieuwe weergave van de Rich Text-werkbalk voor recordvelden

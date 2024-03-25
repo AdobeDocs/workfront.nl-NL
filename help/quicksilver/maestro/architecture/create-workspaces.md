@@ -1,13 +1,13 @@
 ---
 title: Werkruimten maken
-description: Een werkruimte is een inzameling van operationele verslagtypes en taxonomieën die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Maestro.
+description: Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront-planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen.
+In Adobe Workfront planning, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen.
 
-Een werkruimte is een inzameling van operationele verslagtypes en taxonomieën die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Maestro.
+Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront-planning.
 
 ## Toegangsvereisten
 
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe-werknemers. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -54,13 +54,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
    <p>Nieuw: Standaard</p>
+   of
    <p>Huidig: Plan</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Adobe Workfront</p>
 </td>
   </tr>
 
@@ -72,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>U moet het gebied Maestro aan uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>U moet het gebied van de Planning aan uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 
@@ -81,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -95,9 +96,9 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 ## Overwegingen over werkruimten
 
 * U kunt werkruimten voor specifieke organisatorische eenheden binnen uw organisatie tot stand brengen, om de unieke manier aan te passen elke eenheid werkt.
-* De recordtypen en taxonomieën die een werkruimte bevat, moeten de levenscyclus van het werk van een organisatie weerspiegelen.
-* Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken. Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md).
-* U kunt maximaal 1.000 werkruimten in uw organisatie hebben.
+* De recordtypen die een werkruimte bevat, moeten de levenscyclus van een organisatie weerspiegelen.
+* Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken. Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md). Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
+* U kunt maximaal 1.000 werkruimten gebruiken in het Workfront-exemplaar van uw organisatie.
 * Werkruimten bevatten recordtypen die uniek zijn voor elke werkruimte. <!--this might change-->
 
 ## Een werkruimte maken
@@ -110,7 +111,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Hiermee opent u het gedeelte Werkruimten van Maestro.
+   Hiermee opent u het gedeelte Workspaces van Workfront-planning.
 1. (Optioneel en voorwaardelijk) Klik op **Voorvertoning** binnen een van de volgende vooraf gedefinieerde werkruimtjablonen:
 
    * Marketing management
@@ -121,7 +122,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Voor informatie over Maestro werkruimtemalplaatjes, zie [Lijst met werkruimtemalplaatjes](../architecture/workspace-templates.md).
+   Voor informatie over Workfront-sjablonen voor planningswerkruimten raadpleegt u [Lijst met werkruimtemalplaatjes](../architecture/workspace-templates.md).
 
 1. Klikken **Sjabloon gebruiken** om de werkruimte te maken op basis van de geselecteerde sjabloon
 
@@ -131,8 +132,8 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    Er wordt een werkruimte gemaakt voor de volgende typen werkruimten:
 
-   * Een lege werkruimte waarin u recordtypen handmatig kunt toevoegen.
-   * Een werkruimte met voorbeeldrecordtypen die u verder kunt aanpassen.
+   * Een lege werkruimte waarin u recordtypen handmatig kunt toevoegen wanneer u een werkruimte maakt.
+   * Een werkruimte die is gevuld met voorbeeldrecordtypen die u verder kunt aanpassen wanneer u een van de sjablonen gebruikt.
 
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter
 
@@ -140,10 +141,30 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    Klik op de knop **Meer** menu ![](assets/more-menu.png)rechts van de naam van de werkruimte in de koptekst klikt u op **Naam wijzigen**.
 
+1. (Optioneel en voorwaardelijk) Als de werkruimte al secties heeft, klikt u op **Sectie toevoegen** om een nieuwe sectie aan een werkruimte toe te voegen. Een sectie kan verschillende recordtypen bevatten.
+
+1. (Optioneel en voorwaardelijk) Als u de werkruimte hebt gemaakt op basis van een sjabloon, klikt u binnen de naam van het **Operationele recordtypen** of **Taxonomieën** secties
+
+   of
+
+   Houd de naam van een sectie boven en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Naam wijzigen** om de naam van de sectie te wijzigen.
+
+   >[!TIP]
+   >
+   >U kunt de naam van elke sectie vanuit elke werkruimte wijzigen, zelfs als u de sectie hebt gemaakt.
+
+1. (Optioneel) Voer een van de volgende handelingen uit om de locatie van een sectie te wijzigen:
+
+   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **grijpen** pictogram ![](assets/grab-icon.png)en sleep deze vervolgens naar de rechterkant.
+   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Omhoog verplaatsen** of **Omlaag verplaatsen**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
+
+1. (Optioneel) Voer een van de volgende handelingen uit om een nieuwe sectie toe te voegen:
+
+   * Klikken **Sectie toevoegen** onder aan de werkruimte.
+   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Sectie toevoegen hierboven** of **Sectie toevoegen hieronder**.
+
 1. (Optioneel) Klik op **Recordtype toevoegen** om recordtypen toe te voegen aan de werkruimte.
 
    Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
-1. (Optioneel) Klik op **taxonomie toevoegen** om taxonomieën toe te voegen aan de werkruimte.
 
-   Zie voor meer informatie [taxonomieën maken](../architecture/create-a-taxonomy.md).

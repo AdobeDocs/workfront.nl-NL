@@ -1,16 +1,16 @@
 ---
 title: Overzicht van de sectie Historie
-description: U kunt de wijzigingen controleren die in de record zijn aangebracht en die door het systeem zijn opgenomen in het rechterdeelvenster van een record in Adobe Maestro.
+description: U kunt de wijzigingen controleren die in de record zijn aangebracht en door het systeem zijn opgenomen in het rechterdeelvenster van een record in Adobe Workfront-planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van de sectie Historie
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-U kunt aan Adobe Maestro verslagen samenwerken, door commentaren of antwoorden in het juiste paneel van een verslag toe te voegen. U kunt ook andere wijzigingen bekijken die in de record zijn aangebracht en door het systeem in dit gebied zijn opgenomen.
+U kunt aan Adobe Workfront planningsverslagen samenwerken, door commentaren of antwoorden in het juiste paneel van een verslag toe te voegen. U kunt ook andere wijzigingen bekijken die in de record zijn aangebracht en door het systeem in dit gebied zijn opgenomen.
 
 In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
-* **Opmerkingen**: Hiermee geeft u opmerkingen en antwoorden weer die gebruikers aan records toevoegen. Zie voor meer informatie over het beheren van opmerkingen in Maestro-records [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **Opmerkingen**: Hiermee geeft u opmerkingen en antwoorden weer die gebruikers aan records toevoegen. Voor meer informatie over het beheren van commentaren in de planningsverslagen van Workfront, zie [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **Historie**: Hiermee geeft u door het systeem opgenomen wijzigingen weer die gebruikers in de recordvelden aanbrengen.
 
 ## De sectie Historie van een record zoeken
@@ -46,11 +46,11 @@ De laatst geopende werkruimte wordt standaard geopend.
 
 ## Overwegingen bij de sectie Historie
 
-U kunt de wijzigingen bekijken die zijn aangebracht in recordvelden in de sectie Historie van het rechterdeelvenster van een operationele record of de pagina Details van een taxonomie.
+U kunt de wijzigingen die zijn aangebracht in recordvelden, bekijken in de sectie Historie van het rechterdeelvenster van de pagina Details van een record.
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro registreert de volgende informatie in de sectie Historie:
+* Workfront Planning registreert de volgende informatie in de sectie van het Geschiedenis:
 
    * Alle veldwijzigingen
 
@@ -80,7 +80,7 @@ U kunt de wijzigingen bekijken die zijn aangebracht in recordvelden in de sectie
 
 * In velden van het type selectievakje wordt de oude waarde nooit doorgehaald weergegeven. Als het veld wordt bewerkt, wordt alleen het huidige frame weergegeven op het moment dat de wijziging is aangebracht.
 
-  Zie voor meer informatie over Maestro-velden [Velden maken](/help/quicksilver/maestro/fields/create-fields.md).
+  Zie voor meer informatie over Workfront-planningsvelden [Velden maken](/help/quicksilver/maestro/fields/create-fields.md).
 
 * Wijzigingen in velden van de volgende typen worden niet weergegeven in de sectie Historie:
 

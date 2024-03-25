@@ -1,35 +1,27 @@
 ---
-title: Operationele recordtypen maken
+title: Recordtypen maken
 description: Recordtypen zijn de objecttypen van Adobe Workfront-planning. In Workfront planning, kunt u de types van douaneverslag tot stand brengen die de het werkpunten nodig in de levenscyclus van uw organisatie illustreren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Operationele recordtypen maken
+# Recordtypen maken
 
 {{maestro-important-intro}}
 
 Recordtypen zijn de objecttypen van Adobe Workfront-planning. In Workfront planning, kunt u de types van douaneverslag tot stand brengen die de werk-verwante punten nodig in de levenscyclus van uw organisatie illustreren.
-
 De types van verslag kunnen één van het volgende zijn:
 
-* **Typen operationele record**
-* **Taxonomieën**
-
-Zie voor meer informatie over recordtypen [Overzicht van recordtypen en taxonomieën](../architecture/overview-of-record-types-and-taxonomies.md).
-
-Het creëren van operationele verslagtypes is gelijkaardig aan het creëren van taxonomie verslagtypes. In dit artikel wordt beschreven hoe u operationele recordtypen maakt.
-
-Voor informatie over het maken van taxonomieën raadpleegt u [Startrecordtypen voor taxonomie maken](../architecture/create-a-taxonomy.md).
+Zie voor meer informatie over recordtypen [Overzicht van recordtypen](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Toegangsvereisten
 
@@ -75,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * Wanneer u een werkruimte maakt met een sjabloon.
 
         Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
-      * Wanneer u ze importeert met een Excel- of CSV-bestand. Dit is niet beschikbaar voor gegevenstypen van taxonomie.
+
+      * Wanneer u ze importeert met een Excel- of CSV-bestand.
 
         >[!IMPORTANT]
         >
         >Deze functie is sinds 21 maart 2024 tijdelijk uitgeschakeld. De functie wordt later ingeschakeld.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Handmatig:
 
       * Van nul.
 
+        In dit artikel wordt beschreven hoe u vanaf het begin generieke recordtypen maakt in een werkruimte die u zelf hebt gemaakt.
+
+* U kunt recordtypen binnen een sectie en van de ene sectie van een werkruimte naar de andere verplaatsen. U kunt recordtypen niet van de ene werkruimte naar de andere verplaatsen.
+
 ## Recordtypen maken met een werkruimtemalplaatje
 
-U kunt automatisch recordtypen maken wanneer u een werkruimte maakt met een Workfront-planningssjabloon. Elk malplaatje bevat steekproef operationele en taxonomie verslagtypes.
+U kunt automatisch recordtypen maken wanneer u een werkruimte maakt met een Workfront-planningssjabloon. Elke sjabloon bevat voorbeeldrecordtypen.
+
+Wanneer u een werkruimte maakt op basis van een sjabloon, worden de recordtypen gegroepeerd in de volgende secties:
+
+* Typen operationele record
+* Taxonomieën
+
+U kunt recordtypen handmatig toevoegen in zowel de secties Typen operationele records als Taxonomies.
 
 Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Voor informatie over welke recordtypen in elke sjabloon worden opgenomen, raadpl
 
 ## Een geheel nieuw recordtype maken
 
-In dit artikel wordt beschreven hoe u nieuwe operationele recordtypen kunt maken. Het maken van volledig operationele recordtypen is vergelijkbaar met het maken van taxonomieën.
-
-Zie voor meer informatie over taxonomieën [Een taxonomie maken](../architecture/create-a-taxonomy.md).
+In dit artikel wordt beschreven hoe u geheel nieuwe recordtypen kunt maken.
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
 1. Klikken **Recordtype toevoegen**.
-1. (Voorwaardelijk) Als u een operationeel recordtype maakt, klikt u **Van kras**. Deze optie is niet beschikbaar bij het maken van taxonomieën.
+1. (Voorwaardelijk) Als u een operationeel recordtype maakt, klikt u **Van kras**.
 
    Het vak Recordtype toevoegen wordt geopend.
 
@@ -165,8 +167,6 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
    Standaard worden de volgende velden weergegeven in de tabelkolommen van een operationeel recordtype:
 
    * Naam
-
-     Het veld Naam is het enige veld dat automatisch wordt gemaakt voor taxonomieën.
    * Beschrijving
    * Begindatum
    * Einddatum
@@ -196,6 +196,10 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
    * [Recordtypen bewerken](../architecture/edit-record-types.md)
    * [Recordweergaven beheren](../views/manage-record-views.md)
 
+1. (Optioneel) Klik in de werkruimte om een recordtype op een gewenste plaats te slepen en neer te zetten of om het naar een andere sectie te verplaatsen.
+
+   De wijzigingen worden automatisch opgeslagen nadat u de geselecteerde recordtypekaart hebt neergezet.
+
 ## Recordtypen maken door een Excel- of CSV-bestand te importeren
 
 >[!IMPORTANT]
@@ -223,12 +227,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
 1. Klikken **Recordtype toevoegen**.
-1. (Voorwaardelijk) Als u een operationeel recordtype maakt, klikt u **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    Deze optie is niet beschikbaar wanneer u recordtypen voor taxonomieën maakt.
-
+1. Klikken **Excel/CSV**.
 1. Sleep en zet een Excel- of CSV-bestand neer dat eerder op uw computer is opgeslagen, of klik op **Een CSV- of Excel-bestand selecteren** om er een te zoeken.
 1. Klikken **Uw gegevens bekijken**.
 
@@ -267,9 +266,9 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

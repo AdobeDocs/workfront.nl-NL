@@ -1,13 +1,13 @@
 ---
 title: Lijst met werkruimtemalplaatjes
-description: Een werkruimte is een inzameling van operationele verslagtypes en taxonomieën die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. Maestro wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen, taxonomieën en velden wanneer u uw werkruimte maakt.
+description: Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. Bij Adobe Workfront-planning wordt een set sjablonen geleverd waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,21 @@ role: User
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, is een werkruimte een inzameling van operationele verslagtypes en taxonomieën die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team.
+In Adobe Workfront planning, is een werkruimte een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team.
 
-Maestro wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen, taxonomieën en velden wanneer u uw werkruimte maakt. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+Bij Workfront-planning wordt een set sjablonen geleverd waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 
-In dit artikel worden de werkruimtesjablonen beschreven die beschikbaar zijn in Maestro.
+In dit artikel worden de werkruimtemalplaatjes beschreven die beschikbaar zijn in Adobe Workfront-planning.
 
-## Overwegingen over Maestro-sjablonen
+## Overwegingen over Adobe Workfront-planningssjablonen
 
-* Elke sjabloon wordt geleverd met een set operationele recordtypen en taxonomieën. Zie voor meer informatie [Overzicht van recordtypen en taxonomieën](../architecture/overview-of-record-types-and-taxonomies.md).
-* Elk operationeel recordtype en elke taxonomie wordt geleverd met een reeks velden. Sommige van deze velden zijn verbindingen met andere Maestro-recordtypen.
-* U kunt elke sjabloon aanpassen.
+* Elke sjabloon wordt geleverd met een set recordtypen. Zie voor meer informatie [Overzicht van recordtypen](../architecture/overview-of-record-types-and-taxonomies.md).
+* De recordtypen in elke sjabloon zijn ingedeeld in de volgende secties:
+
+   * Operationele recordtypen
+   * Taxonomieën
+* Elk recordtype wordt geleverd met een set velden. Sommige van deze velden zijn verbindingen met andere Workfront-recordtypen.
+* U kunt elke sjabloon aanpassen en meer recordtypen en velden toevoegen aan de bestaande recordtypen.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -92,9 +96,9 @@ You must have the following:
 
 -->
 
-## Sjablonen voor de werkruimte Maestro
+## Sjablonen voor de Workfront-planningswerkruimte
 
-Hieronder vindt u sjablonen voor werkruimten in Maestro en het aantal velden dat deze bevatten:
+Hieronder vindt u sjablonen voor werkruimten in Workfront-planning en het aantal velden dat deze bevatten:
 
 * **Marketing management**: U kunt al uw marketingcampagnes beheren wanneer u deze sjabloon gebruikt. De sjabloon wordt geleverd met het volgende:
 

@@ -1,20 +1,20 @@
 ---
 title: Verbind recordtypen
-description: Een manier om aan te geven hoe individuele recordtypen op elkaar betrekking hebben, is ze met elkaar te verbinden. Bovendien kunt u Maestro-recordtypen verbinden met objecttypen van andere toepassingen om de gebruikerservaring te verbeteren en de focus in één toepassing te houden.
+description: Een manier om aan te geven hoe individuele recordtypen op elkaar betrekking hebben, is ze met elkaar te verbinden. Bovendien kunt u Adobe Workfront-planningrecordtypen verbinden met objecttypen van andere toepassingen om de gebruikerservaring te verbeteren en de focus in één toepassing te houden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Met Adobe Maestro kunt u volledig aanpasbare werkruimten ontwerpen die recordtypen bevatten die in uw organisatie nodig zijn. Een manier om aan te geven hoe individuele recordtypen op elkaar betrekking hebben, is ze met elkaar te verbinden. Bovendien kunt u Maestro-recordtypen verbinden met objecttypen van andere toepassingen om de gebruikerservaring te verbeteren en de focus in één toepassing te houden.
+Met Adobe Workfront-planning kunt u volledig aanpasbare werkruimten ontwerpen die recordtypen bevatten die in uw organisatie nodig zijn. Een manier om aan te geven hoe individuele recordtypen op elkaar betrekking hebben, is ze met elkaar te verbinden. Bovendien kunt u Workfront-planningrecordtypen verbinden met objecttypen van andere toepassingen om de gebruikerservaring te verbeteren en de focus in één toepassing te houden.
 
-U kunt Maestro-recordtypen met elkaar verbinden, of Maestro-recordtypen met objecttypen van andere toepassingen.
+U kunt recordtypen met elkaar verbinden of typen opnemen met objecttypen van andere toepassingen.
 
-Op deze manier kunt u velden van het gekoppelde record of objecttype weergeven op een andere Maestro-record.
+Op deze manier kunt u velden van het gekoppelde record of objecttype weergeven in een Workfront-planningsrecord.
 
-In dit artikel wordt beschreven hoe u twee Maestro-recordtypen of een Maestro-recordtype kunt verbinden met een object uit een andere toepassing.
+In dit artikel wordt beschreven hoe u twee recordtypen in Workfront-planning of een recordtype kunt verbinden met een object uit een andere toepassing.
 
 Nadat u de verbinding tussen records of objecttypen tot stand hebt gebracht, kunt u afzonderlijke records met elkaar verbinden.
 
-Zie voor meer informatie over het verbinden van een Maestro-record met een object vanuit een andere toepassing [Connect-records](../records/connect-records.md).
+Voor informatie over het verbinden van een Workfront planningsverslag met een voorwerp van een andere toepassing, zie [Connect-records](../records/connect-records.md).
 
 Zie voor een voorbeeld van het verbinden van recordtypen [Voorbeeld van het verbinden van recordtypen en records](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Als u Maestro-recordtypen wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Als u Adobe Workfront-planningsrecordtypen wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het verbinden van recordtypen
 
-* U kunt de volgende entiteiten verbinden in Maestro:
+* U kunt de volgende entiteiten verbinden in Adobe Workfront-planning:
 
-   * Twee typen operationeel record
-   * Twee taxonomieën
-   * Een operationeel recordtype en een taxonomie
-   * Een operationeel recordtype of een taxonomie en een objecttype van een andere toepassing.
+   * Twee recordtypen
 
-  Alle typen bedrijfsrecords en taxonomieën moeten tot dezelfde werkruimte behoren.
+     De recordtypen moeten tot dezelfde werkruimte behoren.
+   * Een recordtype en een objecttype uit een andere toepassing.
 
-* U kunt de volgende objecttypen vanuit de volgende toepassingen verbinden met Maestro-recordtypen:
+* U kunt de volgende objecttypen verbinden vanuit de volgende toepassingen met Workfront-planningrecordtypen:
 
    * Adobe Workfront:
 
@@ -140,7 +138,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      >[!IMPORTANT]
      >
-     >U moet een Adobe Experience Manager Assets-licentie hebben en het Workfront-exemplaar van uw organisatie moet zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console om Maestro-records te kunnen verbinden met Adobe Experience Manager Assets.
+     >U moet een Adobe Experience Manager Assets-licentie hebben en het Workfront-exemplaar van uw organisatie moet zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console om Workfront-planningsrecords te verbinden met Adobe Experience Manager Assets.
      >
      >Als u vragen hebt over instaptoegang tot de Adobe Admin Console, raadpleegt u de [Veelgestelde vragen over Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * **Wanneer u een recordtype verbindt met een objecttype van een andere toepassing**: Een gekoppeld recordveld wordt gemaakt op het recordtype waarmee u verbinding maakt. Er wordt automatisch geen gekoppeld recordveld gemaakt op het objecttype van de andere toepassing.
 
-     Een nieuw recordtype met het kenmerk Alleen-lezen van Maestro wordt alleen voor het object van de andere toepassing gemaakt wanneer de feitelijke objecten met de Maestro-records zijn verbonden.
+     Een nieuw Workfront-type voor alleen-lezen-records voor planning wordt alleen voor het object van de andere toepassing gemaakt wanneer de werkelijke objecten zijn verbonden met Workfront-planningsrecords.
 
      Zie voor meer informatie [Connect-records](../records/connect-records.md).
 
-   * **Wanneer u opzoekvelden toevoegt van de record of het object waarmee u verbinding maakt**: U kunt velden van het object van de andere toepassing verbinden met het recordtype Maestro. Dit zijn gekoppelde of opzoekvelden. Gekoppelde velden geven automatisch informatie van verbonden records of objecten weer wanneer u de records of de objecten verbindt. De gekoppelde opzoekvelden zijn altijd alleen-lezen en worden automatisch gevuld met de waarden van de verbonden records of objecten.
+   * **Wanneer u opzoekvelden toevoegt van de record of het object waarmee u verbinding maakt**: U kunt velden van het object van de andere toepassing verbinden met het type Workfront-planningsrecord. Dit zijn gekoppelde of opzoekvelden. Gekoppelde velden geven automatisch informatie van verbonden records of objecten weer wanneer u de records of de objecten verbindt. De gekoppelde opzoekvelden zijn altijd alleen-lezen en worden automatisch gevuld met de waarden van de verbonden records of objecten.
 
-     Als u bijvoorbeeld het recordtype ‘Campaign’ van Maestro koppelt aan een Workfront-project en u selecteert om het veld Geplande afsluitdatum van het project over te brengen naar de Maestro-record, wordt automatisch een gekoppeld veld genaamd Geplande voltooiingsdatum (van project) gemaakt voor de campagne. U kunt dit gekoppelde veld niet handmatig bewerken. In het veld Geplande afsluitdatum (van project) wordt de geplande uitvoeringsdatum van de gekoppelde projecten weergegeven.
+     Als u bijvoorbeeld het recordtype ‘Campagne’ koppelt aan een Workfront-project en u selecteert om het veld Geplande afsluitdatum van het project over te brengen naar de Workfront-planningsrecord, wordt automatisch een gekoppeld veld genaamd Geplande voltooiingsdatum (van project) gemaakt voor de campagne. U kunt dit gekoppelde veld niet handmatig bewerken. In het veld Geplande afsluitdatum (van project) wordt de geplande uitvoeringsdatum van de gekoppelde projecten weergegeven.
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. In de **Recordtype** veld, zoek naar een recordtype of selecteer een van de volgende opties:
 
-   * Een ander type bedrijfsrecord of een taxonomie uit het gedeelte van de werkruimte dat u hebt geselecteerd
+   * Een ander recordtype uit het gedeelte van de werkruimte dat u hebt geselecteerd
 
      >[!TIP]
      >
-     >Alleen recordtypen en taxonomieën in de werkruimte die u hebt geselecteerd, zijn beschikbaar voor verbinding.
+     >Alleen recordtypen uit de geselecteerde werkruimte zijn beschikbaar voor verbinding.
      > 
      >Als de geselecteerde werkruimte geen andere recordtypen bevat, wordt de sectie Werkruimte niet weergegeven.
 
@@ -212,7 +210,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
    * **Meerdere records toestaan**: Selecteer deze optie om aan te geven dat gebruikers meerdere records mogen toevoegen wanneer het veld voor het gekoppelde recordtype wordt weergegeven op de oorspronkelijke records. Dit is standaard geselecteerd.
    * **Opzoekvelden selecteren**: Selecteer deze optie om velden van het geselecteerde recordtype toe te voegen. De opzoekvelden zijn velden die zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt. Als u deze koppelt, wordt informatie weergegeven uit de record of het object waarnaar u een koppeling maakt in de record waarvan u een koppeling wilt maken. Dit is standaard geselecteerd.
 
-1. (Voorwaardelijk en optioneel) Als u een Workfront-object wilt verbinden, selecteert u een **Aangepast formulier** van de **Alleen objecten koppelen die aan deze criteria voldoen** sectie. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde Maestro-recordtype. U kunt meerdere formulieren selecteren.
+1. (Voorwaardelijk en optioneel) Als u een Workfront-object wilt verbinden, selecteert u een **Aangepast formulier** van de **Alleen objecten koppelen die aan deze criteria voldoen** sectie. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde recordtype. U kunt meerdere formulieren selecteren.
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
      Bijvoorbeeld, als u een type van het verslagverslag van de Campagne met een verslagtype van het Programma koppelde en het Programma verbonden verslaggebied &quot;Informatie van het Programma&quot;noemt, dan uitgezocht om het gebied van de Begroting van het Programma in de de lijstmening van de Campagne ook te tonen, wordt het verbonden gebied automatisch genoemd `Budget (from Program information)` in de tabel van de campagne .
 
-   * Wanneer u Maestro-recordtypen aan elkaar koppelt, wordt ook een gekoppeld recordveld toegevoegd aan het recordtype waarnaar u een koppeling maakt. De naam van het gekoppelde recordveld in het gekoppelde recordtype is de naam van het recordtype dat u koppelt.
+   * Wanneer u recordtypen aan elkaar koppelt, wordt ook een gekoppeld recordveld toegevoegd aan het recordtype waarnaar u een koppeling maakt. De naam van het gekoppelde recordveld in het gekoppelde recordtype is de naam van het recordtype dat u koppelt.
 
      Als u bijvoorbeeld het recordtype &quot;Product&quot; koppelt aan het recordtype &quot;Campagne&quot; en u het verbonden veld van de campagne &quot;Gekoppeld product&quot; een naam geeft, wordt een veld &quot;Campagne&quot; met gekoppelde records gemaakt voor het recordtype product.
 
      >[!TIP]
      >
-     > Er wordt geen gekoppeld recordveld gemaakt voor objecten van een andere toepassing naar het recordtype waarvan u een koppeling maakt in Maestro.
+     > Er wordt geen gekoppeld recordveld gemaakt voor objecten van een andere toepassing naar het recordtype dat u via Workfront-planning koppelt.
 
 1. (Optioneel en voorwaardelijk) Klik in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordtype op de pijl omlaag in de koptekst van de gekoppelde recordvelden en klik vervolgens op een van de volgende opties:
 
@@ -305,7 +303,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    >[!NOTE]
    >
-   > U kunt geen opzoekvelden toevoegen die behoren tot Maestro-recordtypen die u vanuit een andere toepassing koppelt aan objecttypen.
+   > U kunt geen opzoekvelden toevoegen die behoren tot recordtypen die u vanuit een andere toepassing koppelt aan objecttypen.
    >
    > U kunt bijvoorbeeld het opzoekveld Campagnestatus niet toevoegen aan een Workfront-project waarnaar u vanuit de campagnes een koppeling maakt.
 

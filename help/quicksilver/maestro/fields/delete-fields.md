@@ -1,13 +1,13 @@
 ---
 title: Velden verwijderen
-description: In Adobe Maestro, kunt u douanevelden schrappen die niet meer relevant zijn.
+description: In Adobe Workfront-planning kunt u aangepaste velden verwijderen die niet meer van toepassing zijn.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, kunt u douanevelden tot stand brengen om informatie over verslagen op te slaan.
+In Adobe Workfront planning, kunt u douanevelden tot stand brengen om informatie over verslagen op te slaan.
 
-Voor informatie over het maken van aangepaste velden in Maestro raadpleegt u [Velden maken](../fields/create-fields.md).
+Voor informatie over het maken van aangepaste velden in Workfront-planning raadpleegt u [Velden maken](../fields/create-fields.md).
 
-U kunt Maestro-velden verwijderen die niet meer relevant zijn.
+U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
 
-## Overwegingen bij het verwijderen van Maestro-velden:
+## Overwegingen bij het verwijderen van Workfront-planningsvelden:
 
 * U kunt een veld alleen verwijderen in de tabelweergave van het recordtype.
 * U kunt het primaire veld van een record niet verwijderen.
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor Maestro</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-maestro}}
 
-Hiermee opent u de laatst geopende werkruimte in Maestro.
+Hierdoor wordt de laatst geopende werkruimte geopend in Workfront-planning.
 1. Klik op de kaart van een recordtype waarvan u de velden wilt verwijderen.
 1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 1. Zoek het veld dat u wilt verwijderen in de kolomkoppen en houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag na de veldnaam.

@@ -1,13 +1,13 @@
 ---
 title: Velden maken
-description: In Adobe Maestro, kunt u douanevelden voor elk soort van operationeel verslagtype of taxonomie tot stand brengen. U kunt het veld vervolgens koppelen aan Maestro-records.
+description: Bij Adobe Workfront-planning kunt u aangepaste velden maken voor elk type record. U kunt het veld vervolgens koppelen aan Workfront-planningsrecords.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, kunt u douanevelden voor operationele verslagtypes of taxonomieën tot stand brengen. U kunt de velden vervolgens koppelen aan Maestro-records om de recordgegevens te verbeteren.
+In Adobe Workfront planning, kunt u douanevelden voor verslagtypes tot stand brengen. U kunt de velden vervolgens koppelen aan Workfront-planningsrecords om recordgegevens te verbeteren.
 
 U moet recordtypen maken voordat u velden kunt maken die u hieraan wilt koppelen. Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma van de Adobe Maestro. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er is geen toegangsniveaucontrole voor Maestro</p>  
+   <td> <p>Er is geen toegangsbeheer voor Workfront-planning</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het Maestro-gebied aan uw lay-outsjabloon toevoegen. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="../access/access-overview.md">Overzicht van toegang</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maest
 
    Ga voor meer informatie over welke expressies worden ondersteund naar [Overzicht van formuliervelden](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Voeg veldnamen toe zoals deze worden weergegeven in de Maestro-interface om ernaar te verwijzen in een formule.
+1. Voeg veldnamen toe zoals deze worden weergegeven in de Workfront-planningsinterface om ernaar te verwijzen in een formule.
 
    >[!NOTE]
    >
    > * U kunt geen multiselect-tekstvelden toevoegen aan een formule.
    >
-   > * U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Release-activiteit Adobe Workfront-planningsmogelijkheden](/help/quicksilver/maestro/release-activity.md).
+   > * U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Adobe Workfront-planningsvrijgave](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klikken **Maken**.
@@ -513,7 +513,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
 U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen van Maestro, of een recordtype en een objecttype vanuit andere toepassingen.
 
-Voor informatie over het verbinden van Marestro- recordtypes, zie [Verbind recordtypen](../architecture/connect-record-types.md)
+Voor informatie over het verbinden van de types van het planningsverslag van Workfront zie [Verbind recordtypen](../architecture/connect-record-types.md)
 
 ## Velden maken door recordtypen te importeren met een Excel- en CSV-bestand
 
@@ -521,10 +521,10 @@ Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types
 
 ## Velden maken door een recordtype te maken
 
-Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe recordtype zijn gekoppeld, standaard gemaakt. Zie voor meer informatie [Operationele recordtypen maken](../architecture/create-record-types.md).
+Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe recordtype zijn gekoppeld, standaard gemaakt. Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
 ## Velden maken door een werkruimte te maken van een sjabloon
 
-Maestro creeert gebieden voor operationele verslagtypes en taxonomieën wanneer u een werkruimte van een malplaatje creeert.
+Adobe Workfront planning leidt tot gebieden voor verslagtypes wanneer u een werkruimte van een malplaatje creeert.
 
-Zie voor meer informatie [Operationele werkruimten maken](../architecture/create-workspaces.md).
+Zie voor meer informatie [Werkruimten maken](/help/quicksilver/maestro/architecture/create-workspaces.md).
