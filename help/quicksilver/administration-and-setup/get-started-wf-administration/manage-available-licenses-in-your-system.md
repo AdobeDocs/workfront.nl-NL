@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,11 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
    >
    >Bewijslicenties zijn alleen beschikbaar voor klanten die de betaalde Workfront Proof Add-on hebben aangeschaft naast hun Workfront-licentie. Voor informatie over deze invoegtoepassing raadpleegt u [Workfront Proof: artikelindex](../../workfront-proof/workfront-proof.md).
 
-1. (Voorwaardelijk) Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep toevoegen** voegt u een Home-groep toe aan uw systeem, zoals wordt uitgelegd in de sectie [Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties](#add-or-remove-a-home-group-to-the-licenses-page) in dit artikel.
+1. (Voorwaardelijk) Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep toevoegen** voegt u een thuisgroep toe aan uw systeem, zoals wordt uitgelegd in de sectie [Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties](#add-or-remove-a-home-group-to-the-licenses-page) in dit artikel.
+
+   >[!NOTE]
+   >
+   >Voor de nieuwe plannen, staat het Uitgezochte plan beheerders niet toe om vergunningen door de Groep van het Huis te bekijken. U kunt alleen het totale aantal gebruikte licenties zien. Met de Premier- en Ultimate-plannen kunt u het maximumaantal licenties per thuisgroep instellen.
 
 ## Informatie weergeven over licenties voor Workfront-invoegtoepassingen
 
