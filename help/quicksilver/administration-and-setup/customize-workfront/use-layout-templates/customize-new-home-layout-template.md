@@ -7,9 +7,10 @@ description: Met een lay-outsjabloon kunt u configureren wat gebruikers zien wan
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -101,7 +102,14 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       <p>Nadat u de widget hebt geselecteerd die u wilt bewerken, worden de beschikbare opties rechts weergegeven. Deze opties omvatten <b>Filters</b>, <b>Kolommen</b>, en <b>Groepen</b>. U kunt:</p>
       <ul>
       <li><p><b>Selecteer welke filters, kolommen of groepen beschikbaar zijn voor gebruikers:</b></p>
-      <p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Niet-geselecteerde opties worden niet weergegeven voor gebruikers.</li></p>
+      <p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Niet-geselecteerde opties worden niet weergegeven voor gebruikers.</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>Gebruikers moeten toegang tot Maken hebben voor weergaven om kolomconfiguraties op de juiste wijze op hun widgets toe te passen.
+
+</p>
       <li><p><b>Stel een standaardfilter of -groep in voor de widget:</b></p>
       <p>Houd de muis boven een optie en er verschijnt een knop waarmee u die optie als de standaardinstelling voor gebruikers kunt instellen. De huidige standaardinstelling heeft rechts een blauwe standaardbadge.</li></p>
       <li><p><b>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties:</b></p>
@@ -124,4 +132,3 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    of
 
    Als u klaar bent met aanpassen, klikt u op **Opslaan** in de linkerbenedenhoek.
-

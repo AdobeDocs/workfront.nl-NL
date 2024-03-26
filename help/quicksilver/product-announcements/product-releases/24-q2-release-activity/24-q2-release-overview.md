@@ -4,7 +4,8 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -20,7 +21,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
 
 [De toekomst van Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) op 26 maart 2024 om een blik te werpen op de toekomst van strategische planning en workflow. Leer hoe het team van Workfront van plan is om bedrijfsmogelijkheden over de volledige marketing levenscyclus-allen met een AI-eerste benadering te richten om werk te automatiseren, gebruikerservaring te vereenvoudigen, en productiviteit te verhogen.
 
-[Het onthullen van de Kalenders van de Marketing en Hulpmiddelen voor de Planning van de Campagne van begin tot eind](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) op 23 maart 2023 voor meer informatie over nieuwe productmogelijkheden die zijn ontworpen om uw organisatie in staat te stellen de operationele levenscycli van begin tot eind te beheren en te visualiseren.
+[Het onthullen van de Kalenders van de Marketing en Hulpmiddelen voor de Planning van de Campagne van begin tot eind](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) op 28 maart 2024 voor meer informatie over nieuwe productmogelijkheden die zijn ontworpen om uw organisatie in staat te stellen de operationele levenscycli van begin tot eind te beheren en te visualiseren.
 
 <span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het tweede kwartaal van 2024 in productie waren) worden geel gemarkeerd.</span>
 
