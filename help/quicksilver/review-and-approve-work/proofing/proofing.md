@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Reviseer en becommentariëer in hetzelfde document waar de creatieve teams werken. Met Workfront Proofing, kunt u om terugkoppelen verzoeken, commentaren zien, en berichten voor hangende en voltooide goedkeuringen krijgen — allen terwijl het handhaven van een controletraject van commentaren en versies.
+Reviseer en becommentariëer in hetzelfde document waar de creatieve teams werken. Met Proofing, kunt u om terugkoppelen verzoeken, commentaren zien, en berichten voor hangende en voltooide goedkeuringen krijgen — allen terwijl het handhaven van een controletraject van commentaren en versies.
 
 Deze sectie bevat de volgende subsecties:
 

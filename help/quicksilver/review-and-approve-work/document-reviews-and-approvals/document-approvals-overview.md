@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,10 @@ Als u Goedkeuringen voor nieuwe documenten wilt inschakelen in uw productieomgev
 Raadpleeg de artikelen in de lijst voor gebruikers die documentgoedkeuringen willen maken of beheren [Documenten goedkeuren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
 Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in [Documenten controleren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+
+De goedkeuringen voor nieuwe documenten worden niet ondersteund in het huidige rapportagegereedschap. De widget Alle goedkeuringen beschikbaar in nieuwe dashboards van het Huis en van het Canvas verstrekt de volgende details over de Goedkeuringen van Nieuw Document:
+
+* Goedkeuring bij besluit
+* Gemiddelde goedkeuringstijd
+* Goedkeuringen in behandeling
+* Achterstallige betalingen

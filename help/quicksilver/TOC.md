@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ab281b92279d429f13a17326cdb0adca4e219daf
+source-git-commit: 9171a7696feaebe8efddf126200d319fe7c84d52
 workflow-type: tm+mt
-source-wordcount: '14047'
+source-wordcount: '14061'
 ht-degree: 0%
 
 ---
@@ -1810,6 +1810,7 @@ ht-degree: 0%
          * [Een documentgoedkeuring maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Extra revisoren of fiatteurs toevoegen aan een document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [fiatteurs of revisoren uit een document verwijderen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Een goedkeuringssjabloon maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Goedkeuringsstatus document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [Een document goedkeuren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Proofing {#proofing}
@@ -1923,6 +1924,7 @@ ht-degree: 0%
          * [Het veld Profiel voor proefdrukmachtiging in bulk bewerken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Delen van proefdrukken via openbare URL of insluitcode uitschakelen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Veelgestelde vragen: proefdrukken in Adobe Workfront - VS naar EMEA-migratie](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+         * [Documentnaam gewijzigd na uploaden en bevat een ongeldig teken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
    * Tips, trucs en probleemoplossing voor goedkeuringen {#ttt-approvals}
       * [Tips, trucs en probleemoplossing voor goedkeuringen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Het aantal proef- en documentbeslissingen voor alle gebruikers weergeven](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
