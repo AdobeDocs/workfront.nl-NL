@@ -4,9 +4,10 @@ description: 'Tweede kwartaal 2024: Verbeteringen op gebied van updatestroom en 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Op deze pagina worden alle verbeteringen in de updatestroom en de meldingen beschreven die zijn aangebracht met de release Tweede kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## De toegang tot het gebied met oudere opmerkingen is verwijderd
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 1 april 2024; Productie voor alle klanten: met de release van 24.4 (april 2024)
+
+We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten. Door deze wijziging kunt u niet meer terugkeren naar de oudere opmerkingervaring.
+
+Zie voor meer informatie [Nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets
 

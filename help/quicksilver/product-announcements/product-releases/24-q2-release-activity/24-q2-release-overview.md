@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 876991bab19d065257802a903adf432e420fcc44
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
+* [Verbeteringen voor documentbeheer](#document-management-enhancements)
 * [Verbeteringen voor startpagina](#home-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
@@ -64,7 +65,23 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">De logica voor het weergeven en overslaan is nu beschikbaar in de voorbeeldmodus van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Met de aangepaste bètaformulierontwerper kunt u nu de logica voor weergave testen en logica in de voorbeeldmodus overslaan. Eerder werden alle velden in de voorvertoning weergegeven, zelfs toen de logica werd toegepast.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 28 maart 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden</a></p>
                         <p>Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -154,7 +171,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
             </tbody>
         </table>
 
-### Verbeteringen voor startpagina
+### Verbeteringen voor documentbeheer
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p><p>Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een deadline toevoegen aan documentrevisies en -goedkeuringen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt nu een deadline opgeven voor gebruikers of teams die zijn toegewezen om een document te bekijken of goed te keuren. Revisoren en fiatteurs ontvangen 72 uur en vervolgens 24 uur voor de opgegeven deadline e-mailmeldingen. De deadline wordt ook weerspiegeld in de widget Goedkeuringen in het nieuwe gebied Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 2 januari 2024</p>
+                                <p>Voorvertoningsrelease: 28 maart 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### Verbeteringen voor integratie
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Functie</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuringssjablonen maken en gebruiken</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>U kunt goedkeuringssjablonen nu maken in het gedeelte Instellen om het beoordelings- en goedkeuringsproces te stroomlijnen. Met goedkeuringssjablonen kunt u het beoordelings- en goedkeuringsproces herhaalbaarder maken door
+                        <ul>
+                            <li>
+                                <p>Revisoren en fiatteurs toevoegen</p>
+                            </li>
+                            <li>
+                                <p>Een tijdframe instellen</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatums</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>We hebben geneste mappenstructuren toegevoegd aan de workflow voor aan Adobe Experience Manager gekoppelde mappen om ervoor te zorgen dat uw Adobe Experience Manager-mappen nauwkeuriger op uw behoeften zijn afgestemd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 11 maart 2024</p>
+                                <p>Voorvertoningsrelease: 28 maart 2024</p>
                             </li>
-                             <li> <p><span class="preview">Productieversie voor alle klanten: 14 maart 2024</span></p>
-                             </li>
+                            <li>
+                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Informatie over al uw goedkeuringen tegelijk weergeven</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, hebben wij de volgende belangrijke prestatiesindicatoren aan Al widget van Goedkeuringen toegevoegd:
+                        <ul>
+                            <li>
+                                <p>Goedkeuring bij besluit</p>
+                            </li>
+                            <li>
+                                <p>Gemiddelde goedkeuringstijd</p>
+                            </li>
+                            <li>
+                                <p>Goedkeuringen in behandeling</p>
+                            </li>
+                            <li>
+                                <p>Achterstallige betalingen</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 28 maart 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">De toegang tot het gebied met oudere opmerkingen is verwijderd</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 1 april 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor alle klanten: met de release van 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>

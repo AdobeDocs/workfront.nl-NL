@@ -4,9 +4,10 @@ description: Tweede kwartaal 2024 Verbeteringen voor beheerders
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Deze pagina beschrijft alle beheerderverhogingen die met de Tweede Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## De logica voor het weergeven en overslaan is nu beschikbaar in de voorbeeldmodus van de formulierontwerper
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: 24.4 (april 2024)
+
+Met de aangepaste bètaformulierontwerper kunt u nu de logica voor weergave testen en logica in de voorbeeldmodus overslaan. Eerder werden alle velden in de voorvertoning weergegeven, zelfs toen de logica werd toegepast.
+
+Zie voor meer informatie over het weergeven van een voorbeeld van een aangepast formulier in de formulierontwerper [Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden
 

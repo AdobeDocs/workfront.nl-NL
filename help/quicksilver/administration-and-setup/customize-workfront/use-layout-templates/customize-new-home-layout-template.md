@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -101,13 +101,13 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
       </ul>
       <p>Nadat u de widget hebt geselecteerd die u wilt bewerken, worden de beschikbare opties rechts weergegeven. Deze opties omvatten <b>Filters</b>, <b>Kolommen</b>, en <b>Groepen</b>. U kunt:</p>
       <ul>
-      <li><p><b>Selecteer welke filters, kolommen of groepen beschikbaar zijn voor gebruikers:</b></p>
-      <p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Niet-geselecteerde opties worden niet weergegeven voor gebruikers.</li></p>     
-    <p>
+      <li><p><b>Selecteer en bestel filters, kolommen of groepen die beschikbaar zijn voor gebruikers:</b></p>
+      <p>Schakel het vakje naast alle opties in de lijst in die gebruikers mogen gebruiken. Niet-geselecteerde opties worden niet weergegeven voor gebruikers. Met de opties voor slepen en neerzetten in de lijst kunt u een volgorde instellen.</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->Gebruikers moeten toegang tot Maken hebben voor weergaven om kolomconfiguraties op de juiste wijze op hun widgets toe te passen.
+>Gebruikers moeten ten minste toegang tot weergaven maken hebben om de configuratie van de beheerderskolom correct toe te passen op hun nieuwe startpagina&#39;s.
 
 </p>
       <li><p><b>Stel een standaardfilter of -groep in voor de widget:</b></p>
