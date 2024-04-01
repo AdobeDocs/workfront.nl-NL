@@ -1,29 +1,31 @@
 ---
-title: Overzicht van licentietype bij gebruik van Adobe Workfront-planning
-description: Uw toegang tot Adobe Workfront-planning hangt af van het type licentie, naast uw machtigingen voor objecten.
+title: Overzicht van licentietype bij gebruik van Adobe Workfront Planning
+description: De toegang tot Adobe Workfront Planning is afhankelijk van het type licentie en van de machtigingen tot objecten.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront planning. -->
-<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
+<!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
-# Overzicht van licentietype bij gebruik van Adobe Workfront-planning
+# Overzicht van licentietype bij gebruik van Adobe Workfront Planning
 
 {{maestro-important-intro}}
 
-Het Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-planningsmachtigingen en geeft u toegang tot de werkruimten of weergaven die u wilt weergeven, bijdragen of beheren. <!--add more objects here when we can grant other object-specific permissions-->
+Uw Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-planningsbevoegdheden en geeft u toegang tot werkruimten, werkruimten of werkruimten. <!--add more objects here when we can grant other object-specific permissions-->
 
-In dit artikel worden de typen benodigde licenties en de toegang voor objecten beschreven op basis van elk type licentie.
+Gebruikers met alle licentietypen kunnen de Workfront-planningsweergaven weergeven, maken, bewerken of beheren.
 
-Een gebruiker met een lager licentietype heeft beperkte machtigingen voor objecten bij het gebruik van Workfront-planningsmogelijkheden.
+In dit artikel worden de typen licenties beschreven die nodig zijn in Workfront, en de machtigingen die zijn verleend aan objecten in Workfront Planning op basis van elk type licentie.
+
+Een gebruiker met een lager licentietype heeft machtigingen beperkt tot objecten bij het gebruik van Workfront-planningsmogelijkheden.
 
 >[!INFO]
 >
@@ -34,11 +36,11 @@ Een gebruiker met een lager licentietype heeft beperkte machtigingen voor object
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Voor informatie over machtigingen voor objecten in Workfront-planning raadpleegt u [Overzicht van het delen van machtigingen in Adobe Workfront-planning](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## De relatie tussen Workfront-licentietypen en Workfront-planningsmachtigingen
 
-In de volgende tabel wordt de relatie beschreven tussen het licentietype van een gebruiker en het niveau van de machtigingen die u aan deze gebruiker kunt verlenen op basis van die licentie:
+In de volgende tabel wordt de relatie beschreven tussen het licentietype van een gebruiker in Adobe Workfront en het niveau van de machtigingen die u aan deze gebruikers kunt verlenen voor Adobe Workfront-planningsobjecten op basis van die licentie:
 
 
 | Adobe Workfront-licentietype | Machtigingen toegestaan in Adobe Workfront-planning |

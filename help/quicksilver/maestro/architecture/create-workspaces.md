@@ -1,13 +1,13 @@
 ---
 title: Werkruimten maken
-description: Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront-planning.
+description: Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning. Recordtypen worden ingedeeld in secties in een werkruimte.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen.
+In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen.
 
-Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront-planning.
+Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning.
 
 ## Toegangsvereisten
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Adobe Workfront</p>
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 * U kunt werkruimten voor specifieke organisatorische eenheden binnen uw organisatie tot stand brengen, om de unieke manier aan te passen elke eenheid werkt.
 * De recordtypen die een werkruimte bevat, moeten de levenscyclus van een organisatie weerspiegelen.
 * Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken. Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md). Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
-* U kunt maximaal 1.000 werkruimten gebruiken in het Workfront-exemplaar van uw organisatie.
-* Werkruimten bevatten recordtypen die uniek zijn voor elke werkruimte. <!--this might change-->
+* U kunt het volgende hebben:
+
+   * Tot 50 secties in één werkruimte.
+   * Maximaal 1.000 recordtypen uit alle secties in één werkruimte. Alle recordtypen zijn uniek voor elke werkruimte. <!--this might change-->
+   * Tot 1.000 werkruimten in de Workfront-instantie van uw organisatie.
+
 
 ## Een werkruimte maken
 
@@ -111,7 +115,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Hiermee opent u het gedeelte Workspaces van Workfront-planning.
+   Hiermee opent u het gedeelte Workspaces van Workfront Planning.
 1. (Optioneel en voorwaardelijk) Klik op **Voorvertoning** binnen een van de volgende vooraf gedefinieerde werkruimtjablonen:
 
    * Marketing management
@@ -122,7 +126,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Voor informatie over Workfront-sjablonen voor planningswerkruimten raadpleegt u [Lijst met werkruimtemalplaatjes](../architecture/workspace-templates.md).
+   Voor informatie over de sjablonen van de Workfront Planning-werkruimte raadpleegt u [Lijst met werkruimtemalplaatjes](../architecture/workspace-templates.md).
 
 1. Klikken **Sjabloon gebruiken** om de werkruimte te maken op basis van de geselecteerde sjabloon
 
@@ -140,8 +144,6 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
    of
 
    Klik op de knop **Meer** menu ![](assets/more-menu.png)rechts van de naam van de werkruimte in de koptekst klikt u op **Naam wijzigen**.
-
-1. (Optioneel en voorwaardelijk) Als de werkruimte al secties heeft, klikt u op **Sectie toevoegen** om een nieuwe sectie aan een werkruimte toe te voegen. Een sectie kan verschillende recordtypen bevatten.
 
 1. (Optioneel en voorwaardelijk) Als u de werkruimte hebt gemaakt op basis van een sjabloon, klikt u binnen de naam van het **Operationele recordtypen** of **Taxonomieën** secties
 
@@ -163,8 +165,13 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
    * Klikken **Sectie toevoegen** onder aan de werkruimte.
    * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Sectie toevoegen hierboven** of **Sectie toevoegen hieronder**.
 
-1. (Optioneel) Klik op **Recordtype toevoegen** om recordtypen toe te voegen aan de werkruimte.
+1. (Optioneel) Klik op **Recordtype toevoegen** om recordtypen toe te voegen aan de werkruimte in een willekeurige sectie.
 
    Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
+1. (Optioneel) Ga als volgt te werk om een sectie te verwijderen:
 
+   1. Houd de cursor boven de naam van een sectie en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Verwijderen**. <!--add screen shot when UI is final?-->
+   1. Selecteer een nieuwe sectie om alle recordtypen naar de sectie te verplaatsen en klik vervolgens op **Verwijderen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Alle recordtypen worden naar de selectiesectie verplaatst en de sectie wordt verwijderd.

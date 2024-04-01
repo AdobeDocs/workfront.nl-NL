@@ -1,24 +1,25 @@
 ---
 title: Recordtypen maken
-description: Recordtypen zijn de objecttypen van Adobe Workfront-planning. In Workfront planning, kunt u de types van douaneverslag tot stand brengen die de het werkpunten nodig in de levenscyclus van uw organisatie illustreren.
+description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die de het werkpunten nodig in de levenscyclus van uw organisatie illustreren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # Recordtypen maken
 
 {{maestro-important-intro}}
 
-Recordtypen zijn de objecttypen van Adobe Workfront-planning. In Workfront planning, kunt u de types van douaneverslag tot stand brengen die de werk-verwante punten nodig in de levenscyclus van uw organisatie illustreren.
+Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die de werk-verwante punten nodig in de levenscyclus van uw organisatie illustreren.
 De types van verslag kunnen één van het volgende zijn:
 
 Zie voor meer informatie over recordtypen [Overzicht van recordtypen](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -42,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -105,14 +106,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         >
         >Deze functie is sinds 21 maart 2024 tijdelijk uitgeschakeld. De functie wordt later ingeschakeld.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Handmatig:
 
       * Van nul.
 
-        In dit artikel wordt beschreven hoe u vanaf het begin generieke recordtypen maakt in een werkruimte die u zelf hebt gemaakt.
+        In dit artikel wordt beschreven hoe u geheel nieuwe recordtypen maakt.
 
 * U kunt recordtypen binnen een sectie en van de ene sectie van een werkruimte naar de andere verplaatsen. U kunt recordtypen niet van de ene werkruimte naar de andere verplaatsen.
 
@@ -133,17 +134,14 @@ Voor informatie over welke recordtypen in elke sjabloon worden opgenomen, raadpl
 
 ## Een geheel nieuw recordtype maken
 
-In dit artikel wordt beschreven hoe u geheel nieuwe recordtypen kunt maken.
-
 {{step1-to-maestro}}
 
 De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
+1. (Optioneel) Klik op **Sectie toevoegen** om een nieuwe sectie aan de werkruimte toe te voegen.
 1. Klikken **Recordtype toevoegen**.
-1. (Voorwaardelijk) Als u een operationeel recordtype maakt, klikt u **Van kras**.
-
-   Het vak Recordtype toevoegen wordt geopend.
+1. (Voorwaardelijk) Wanneer u recordtypen maakt door een Excel- of CSV-bestand te importeren, klikt u op **Van kras**. Anders wordt de **Recordtype toevoegen** wordt geopend.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. Klik buiten de **Recordtype toevoegen** het recordtype op.
 
-   De kaart met recordtype wordt toegevoegd aan de werkruimte die u hebt geselecteerd.
+   De recordtypekaart wordt toegevoegd aan de sectie en de werkruimte die u hebt geselecteerd.
 Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
 1. (Optioneel) Klik op de kaart met het recordtype om de pagina met het recordtype te openen.
 
    ![](assets/operational-record-type-blank.png)
 
    De pagina met recordtypen wordt standaard in de tabelweergave weergegeven. De kolommen van de lijst zijn gebieden verbonden aan het nieuwe verslagtype. Elke rij is een unieke record die u moet toevoegen.
+
+   >[!TIP]
+   >
+   >    Als u een recordtype uit een Excel- of CSV-bestand importeert, worden records ook geïmporteerd.
 
    Standaard worden de volgende velden weergegeven in de tabelkolommen van een operationeel recordtype:
 
@@ -183,7 +185,7 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
 
    Zie voor meer informatie over het maken van velden [Velden maken](../fields/create-fields.md).
 
-1. (Optioneel) Klik op de pijl die naar links wijst links van de naam van het recordtype om terug te gaan naar de geselecteerde werkruimte.
+1. (Optioneel) Klik op de pijl die naar links wijst links van de naam van het recordtype in de koptekst om terug te gaan naar de geselecteerde werkruimte.
 
    Op de kaart met recordtype wordt het aantal velden en verbindingen weergegeven dat het recordtype bevat.
 
@@ -196,16 +198,15 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
    * [Recordtypen bewerken](../architecture/edit-record-types.md)
    * [Recordweergaven beheren](../views/manage-record-views.md)
 
-1. (Optioneel) Klik in de werkruimte om een recordtype op een gewenste plaats te slepen en neer te zetten of om het naar een andere sectie te verplaatsen.
+1. (Optioneel) Klik in de werkruimte op een recordtypekaart en houd deze ingedrukt om het recordtype op een gewenste plaats te slepen of naar een andere sectie te verplaatsen.
 
-   De wijzigingen worden automatisch opgeslagen nadat u de geselecteerde recordtypekaart hebt neergezet.
+   De wijzigingen worden automatisch opgeslagen.
 
 ## Recordtypen maken door een Excel- of CSV-bestand te importeren
 
 >[!IMPORTANT]
 >
 >Deze functie is sinds 21 maart 2024 tijdelijk uitgeschakeld. De functie wordt later ingeschakeld.
-
 
 Houd rekening met het volgende wanneer u recordtypen importeert met een Excel- of CSV-bestand:
 
@@ -233,7 +234,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    Het vak Voorbeeld en bewerking wordt weergegeven met de volgende informatie:
 
-   * De namen van de bladen of van de toekomstige recordtypen worden weergegeven in het linkerdeelvenster. Workfront planning selecteert standaard een pictogram en een kleur voor elk nieuw recordtype.
+   * De namen van de bladen of van de toekomstige recordtypen worden weergegeven in het linkerdeelvenster. Workfront Planning selecteert standaard een pictogram en een kleur voor elk nieuw recordtype.
    * Het eerste blad of recordtype wordt geselecteerd en de namen van de bijbehorende velden worden als kolomkoppen weergegeven. Het type van elk gebied wordt geselecteerd door gebrek.
    * Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
 
@@ -254,7 +255,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. Klikken **Importeren** als u klaar bent om uw bestand te importeren.
 
-   De volgende informatie wordt geïmporteerd in Workfront-planning:
+   De volgende informatie wordt geïmporteerd in Workfront Planning:
 
    * Nieuwe recordtypen
    * Nieuwe velden die zijn gekoppeld aan elk recordtype
@@ -262,13 +263,13 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    U kunt velden en records op de recordtypepagina&#39;s gaan beheren.
 
-   Iedereen met toegang tot de planning van Workfront kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven. <!--this will change with permissions-->
+   Iedereen met toegang tot de Planning van Workfront kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

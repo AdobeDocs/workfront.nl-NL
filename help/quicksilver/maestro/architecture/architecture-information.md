@@ -1,11 +1,11 @@
 ---
 title: "Architectuur: artikelindex"
-description: In de volgende artikelen wordt beschreven hoe u de architectuur van Adobe Workfront-planning kunt configureren. Als onderdeel van deze configuratie leert u hoe u werkruimten, recordtypen en aangepaste velden maakt om de workflows die u wilt beheren in Workfront-planning in kaart te brengen.
+description: De volgende artikelen beschrijven hoe u de architectuur van de Planning van Adobe Workfront kunt vormen. Als onderdeel van deze configuratie leert u hoe u werkruimten, recordtypen en aangepaste velden maakt om de workflows die u wilt beheren in Workfront Planning in kaart te brengen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -30,13 +30,13 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Als leider van marketingbewerkingen kunt u Adobe Workfront-planning gebruiken om werk in de hele marketinglevenscyclus voor al uw teams te organiseren.
+Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren.
 
-Met Workfront-planning kunt u uw workflows volledig aanpassen, van het bepalen van welke objecttypen (of recordtypen) uw organisatie gebruikt tot het configureren van hoe deze objecten aan elkaar zijn gekoppeld.
+Met de Planning van Workfront, kunt u uw werkschema&#39;s volledig aanpassen, van het bepalen van welke objecten (of verslagtypes) uw organisatie gebruikt aan het vormen hoe deze voorwerpen met elkaar verbinden.
 
-Workfront-planning kan ook worden gekoppeld aan objecttypen van andere systemen, waardoor een samenhangend kader voor al uw processen ontstaat.
+Ook, kan de Planning van Workfront met objecten types van andere systemen verbinden, die tot een samenhangend kader voor al uw processen leiden.
 
-De artikelen in de volgende secties beschrijven hoe u de Adobe Workfront planningswerkruimten kunt vormen, de recordtypes bepalen die de bouwstenen van die werkruimten zijn, en beginnen zijn mogelijkheden te gebruiken:
+De artikelen in de volgende secties beschrijven hoe u de werkruimten van de Planning van Adobe Workfront kunt vormen, de verslagtypes bepalen die de bouwstenen van die werkruimten zijn, en beginnen zijn mogelijkheden te gebruiken:
 
 * [Werkruimten maken](../architecture/create-workspaces.md)
 * [Lijst met werkruimtemalplaatjes](../architecture/workspace-templates.md)

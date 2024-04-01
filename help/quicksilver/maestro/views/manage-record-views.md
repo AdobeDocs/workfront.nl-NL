@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nadat u een recordtype hebt geselecteerd in het planningsgebied van Adobe Workfront, kunt u alle records van dat type weergeven in de volgende weergaven:
+Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Planning, kunt u alle records van dat type weergeven in de volgende weergaven:
 
 * Tabel
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
    <td>
    <p>Alle</p> 
+   <p>Systeembeheerders hebben alleen toegang tot de weergaven die ze hebben gemaakt of die met hen worden gedeeld. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Workfront</p>  
 </td>
   </tr>
 
@@ -89,7 +90,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het werken met recordweergaven
 
-* Weergaven in Workfront-planning zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
+* Weergaven in Workfront Planning zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
 * Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
 * Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
 * De volgende elementen zijn uniek voor elke recordweergave:
@@ -104,7 +105,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
   >[!NOTE]
   >
-  > Aangezien Adobe Workfront-planning zich momenteel in een bètastatus bevindt, zijn bepaalde weergave-elementen mogelijk niet voor alle weergaven beschikbaar.
+  > Omdat Adobe Workfront Planning momenteel in een bètastaat is, zijn sommige meningselementen niet beschikbaar aan alle meningen.
 
 In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
@@ -138,7 +139,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 | Kleurcodegroepen |           | ✓ |
 | Specifieke records zoeken | ✓ | ✓ |
 | Weergave delen | ✓ | ✓ | ✓ |
-| Open de pagina Details van de record vanuit de weergave | ✓ | ✓ |    |
+| De recordpagina openen vanuit de weergave | ✓ | ✓ |    |
 
 
 ## Weergaven maken of bewerken {#create-or-edit-views}

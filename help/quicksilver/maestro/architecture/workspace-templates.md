@@ -1,11 +1,11 @@
 ---
 title: Lijst met werkruimtemalplaatjes
-description: Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. Bij Adobe Workfront-planning wordt een set sjablonen geleverd waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt.
+description: Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. Adobe Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -29,11 +29,11 @@ role: User
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, is een werkruimte een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team.
+In de Planning van Adobe Workfront, is een werkruimte een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team.
 
-Bij Workfront-planning wordt een set sjablonen geleverd waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Zie voor informatie over het maken van werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 
-In dit artikel worden de werkruimtemalplaatjes beschreven die beschikbaar zijn in Adobe Workfront-planning.
+Dit artikel beschrijft de werkruimtemalplaatjes beschikbaar in de Planning van Adobe Workfront.
 
 ## Overwegingen over Adobe Workfront-planningssjablonen
 
@@ -42,7 +42,7 @@ In dit artikel worden de werkruimtemalplaatjes beschreven die beschikbaar zijn i
 
    * Operationele recordtypen
    * Taxonomieën
-* Elk recordtype wordt geleverd met een set velden. Sommige van deze velden zijn verbindingen met andere Workfront-recordtypen.
+* Elk recordtype wordt geleverd met een set velden. Sommige van deze velden zijn verbindingen met andere recordtypen voor Workfront Planning.
 * U kunt elke sjabloon aanpassen en meer recordtypen en velden toevoegen aan de bestaande recordtypen.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -96,7 +96,7 @@ You must have the following:
 
 -->
 
-## Sjablonen voor de Workfront-planningswerkruimte
+## Sjablonen voor de werkruimte Workfront Planning
 
 Hieronder vindt u sjablonen voor werkruimten in Workfront-planning en het aantal velden dat deze bevatten:
 

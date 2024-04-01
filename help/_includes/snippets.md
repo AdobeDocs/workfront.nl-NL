@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 0%
@@ -255,11 +255,11 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
 >
->Workfront-planning maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>Workfront Planning maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
 >
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Workfront-planning.
+>Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Workfront Planning.
 >
->Zie voor meer informatie [Overzicht van Adobe Workfront-planning](/help/quicksilver/maestro/maestro-overview.md).
+>Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

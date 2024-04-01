@@ -1,13 +1,13 @@
 ---
 title: Records bewerken
-description: U kunt recordgegevens bewerken in Adobe Workfront-planning. U moet recordtypen maken voordat u records kunt maken en bewerken.
+description: U kunt recordgegevens bewerken in Adobe Workfront Planning. U moet recordtypen maken voordat u records kunt maken en bewerken.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-U kunt recordgegevens bewerken in Adobe Workfront-planning door de waarden te bewerken van de velden die aan de records zijn gekoppeld.
+U kunt recordgegevens bewerken in Adobe Workfront Planning door de waarden te bewerken van de velden die aan de records zijn gekoppeld.
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
 
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor de planning van Adobe Workfront</p>  
+   <td> <p>Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * U kunt records bewerken die u hebt gemaakt of records die door anderen zijn gemaakt, als u machtigingen hebt gekregen voor de werkruimte.
 * U kunt recordvelden uit de volgende gebieden bewerken:
 
-   * Het vak Details van een record uit een recordweergave.
-   * De pagina Details van een record.
+   * Het vak van de record in een recordweergave
+   * De recordpagina
    * Inline, in een lijstmening.
 
 * De volgende typen velden worden automatisch bijgewerkt en u kunt de waarden ervan niet handmatig bewerken:
@@ -109,7 +109,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt een record uit de volgende gebieden bewerken:
 
 * [Vanuit de tabelweergave van een recordtype](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Via de pagina Details van een record](#edit-a-record-from-the-records-details-page)
+* [Vanuit het vak van de record in een weergave](#edit-a-record-from-the-records-box-in-a-view)
+* [Van de recordpagina](#edit-a-record-from-the-records-page)
 
 ### Een record inline bewerken in de tabelweergave van een recordtype
 
@@ -165,7 +166,7 @@ De werkruimte die u het laatst hebt geopend.
    >   * Plakken: CTRL + V ( ⌘ + V voor Mac)
    >* U kunt geen informatie uit een andere bron kopiëren, behalve een recordveld van hetzelfde type als het veld waarin u de informatie plakt.
    >
-   >* U kunt geen veldwaarden kopiëren en plakken in het gebied Details van een record. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
+   >* U kunt geen veldwaarden kopiëren en plakken op de recordpagina. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
    >
    >
@@ -183,9 +184,7 @@ De werkruimte die u het laatst hebt geopend.
 
 1. (Optioneel) Voeg een miniatuur toe aan een record. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Een record uit het vak Details van de record bewerken in een weergave
-
-U kunt een record bewerken in het vak Details van elke weergave.
+### Een record uit het vak van de record bewerken in een weergave
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ De werkruimte die u als laatste opent.
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam, of klik op een recordnaam. De **Details** wordt geopend in de weergave.
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam, of klik op een recordnaam. Het vak van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ De werkruimte die u als laatste opent.
    >
    >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
-1. Beginnen met het bewerken van de veldgegevens in het dialoogvenster **Details** doos. Workfront slaat uw wijzigingen automatisch op.
+1. Bewerk de veldinformatie in het vak van de record. Workfront slaat uw wijzigingen automatisch op.
 
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het **Details** om de record te openen **Details** op een nieuw tabblad. Doorgaan met het bewerken van de record zoals beschreven in [Een record bewerken vanaf de pagina Details van de record](#edit-a-record-from-the-records-details-page) in dit artikel.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het vak van de record om de pagina van de record te openen op een nieuw tabblad. Doorgaan met het bewerken van de record zoals beschreven in [Een record op de recordpagina bewerken](#edit-a-record-from-the-records-page) in dit artikel.
 
-### Een record bewerken vanaf de pagina Details van de record
-
-U kunt een record bewerken op de pagina Details.
+### Een record op de recordpagina bewerken
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ De werkruimte die u als laatste opent.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Open vanuit elke weergave het vak Details, zoals wordt beschreven in het dialoogvenster [Een record uit het vak Details van de record bewerken in een weergave](#edit-a-record-from-the-records-details-box-in-a-view)in dit artikel. Klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het **Details** om de record te openen **Details** op een nieuw tabblad.
+   * Vanuit om het even welke mening, heb toegang tot de doos van het verslag, zoals die in [Een record uit het vak van de record bewerken in een weergave](#edit-a-record-from-the-records-box-in-a-view) in dit artikel. Klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het recordvak om de pagina van de record op een nieuw tabblad te openen.
 
    * Van de **Tabel** weergegeven, plaatst u de muisaanwijzer op de naam van een record en klikt u op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     De record **Details** pagina wordt geopend.
+     De recordpagina wordt geopend.
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ De werkruimte die u als laatste opent.
 
    of
 
-   Klik in een bewerkbaar veld op de pagina Details om de gegevens te bewerken.
+   Klik binnen een bewerkbaar veld op de recordpagina om de informatie te bewerken.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 

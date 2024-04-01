@@ -1,13 +1,13 @@
 ---
 title: Records delen
-description: U kunt records met anderen delen om uw samenwerking te verbeteren.
+description: U kunt records met anderen delen om de samenwerking te verbeteren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ Als u met andere gebruikers wilt samenwerken, kunt u records met anderen delen.
 
 U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 
-* Kopieer de koppeling van de pagina Details van een record vanuit uw browser wanneer de pagina is geopend.
+* Kopieer de koppeling van de recordpagina vanuit uw browser wanneer de pagina is geopend.
 
-* Kopieer een koppeling naar de pagina Details van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
+* Kopieer een koppeling naar de pagina van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
 
 * U kunt alle records in een werkruimte delen met andere gebruikers door de werkruimte te delen. Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/maestro/access/share-workspaces.md).
 
-In dit artikel wordt beschreven hoe u een koppeling naar de pagina Details van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
+In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ De werkruimte die u het laatst hebt geopend.
 
    De koppeling wordt naar het klembord gekopieerd.
 
-1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de pagina Details van de record geopend.
+1. Plak de koppeling in een e-mail- of chatvenster om deze met andere gebruikers te delen. Wanneer gebruikers de koppeling ontvangen, wordt de recordpagina geopend.
 
    >[!TIP]
    >
-   >De velden van de record op de pagina Details zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
+   >De velden op de recordpagina zijn dezelfde velden die beschikbaar zijn in de tabelweergave van de record.
 
 
    <!--add there when it will be available: if they have access to this record-->

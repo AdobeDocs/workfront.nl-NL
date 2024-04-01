@@ -1,11 +1,11 @@
 ---
 title: Overzicht van recordtypen
-description: Recordtypen zijn de bouwstenen van een Adobe Workfront-planningswerkruimte.
+description: Recordtypen zijn de bouwstenen van een Adobe Workfront-werkruimte voor planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In tegenstelling tot Workfront waar de objecttypen vooraf zijn gedefinieerd, kunt u in Adobe Workfront-planning uw eigen objecttypen maken. In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.
+In tegenstelling tot Workfront waar de objecttypen vooraf zijn gedefinieerd, kunt u in Adobe Workfront Planning uw eigen objecttypen maken. In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.
 
-Workfront-planningsobjecttypen worden &#39;recordtypen&#39; genoemd en u kunt ze allemaal maken en aanpassen. Recordtypen zijn de bouwstenen van een Workfront-planningswerkruimte. Zie voor informatie over werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
+Workfront Planning-objecttypen worden &#39;recordtypen&#39; genoemd en u kunt ze allemaal maken en aanpassen. Recordtypen zijn de bouwstenen van een Workfront-werkruimte voor planning. Zie voor informatie over werkruimten [Werkruimten maken](../architecture/create-workspaces.md).
 
 ## Overzicht van recordtypen
 
-In Workfront-planning kunt u aangepaste recordtypen maken die aan de behoeften van uw organisatie voldoen.
+In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die aan de behoeften van uw organisatie voldoen.
 
 * Wanneer u een werkruimte maakt op basis van een sjabloon, worden recordtypen gemaakt in de volgende werkruimtesecties:
 

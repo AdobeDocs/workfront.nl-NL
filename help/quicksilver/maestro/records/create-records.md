@@ -1,13 +1,13 @@
 ---
 title: Records maken
-description: Wanneer u Adobe Workfront-planning gebruikt, is een record een instantie van een recordtype.
+description: Wanneer u Adobe Workfront Planning gebruikt, is een record een instantie van een recordtype.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In Adobe Workfront-planning is een record een instantie van een recordtype.
+In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype.
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor de planning van Adobe Workfront </p>  
+   <td> <p>Er zijn geen toegangscontroles voor de Planning van Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
    of
 
-   Klik op de naam van de nieuwe record of op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van de recordnaam. De **Details** wordt in de tabel geopend.
+   Klik op de naam van de nieuwe record of op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van de recordnaam. Het vak met de gedetailleerde informatie van de record wordt in de tabel geopend.
 
    >[!TIP]
    >
    >U hebt alleen toegang tot het vak Details vanuit het naamveld van de record wanneer het veld Naam een primair veld is.
 
-1. Bewerk de recordgegevens in het vak Details. Workfront slaat uw wijzigingen automatisch op.
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het vak Details om de record te openen **Details** op een nieuw tabblad. Ga door met het bewerken van de record op de pagina Details.
+1. Bewerk de gegevens van de record in het vak van de record. Workfront slaat uw wijzigingen automatisch op.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het vak van de record om de pagina van de record te openen op een nieuw tabblad. Ga door met het bewerken van de record op de recordpagina.
 
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records ongedaan te maken of opnieuw toe te voegen:

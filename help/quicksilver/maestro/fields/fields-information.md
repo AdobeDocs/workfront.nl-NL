@@ -1,11 +1,11 @@
 ---
 title: "Velden: artikelindex"
-description: U kunt nieuwe gebieden in de planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
+description: U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Als leider van marketingbewerkingen kunt u Adobe Workfront-planning gebruiken om werk in de hele marketinglevenscyclus voor al uw teams te organiseren. In Workfront planning, kunt u de architectuur van uw werkschema&#39;s volledig aanpassen, met inbegrip van het toevoegen van douanevelden voor alle types van douaneverslag u creeert.
+Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren. In de Planning van Workfront, kunt u de architectuur van uw werkschema&#39;s volledig aanpassen, met inbegrip van het toevoegen van douanevelden voor alle types van douaneverslag u creeert.
 
-In de artikelen in de volgende secties wordt beschreven hoe u Workfront-planningsvelden kunt maken en configureren:
+De artikelen in de volgende secties beschrijven hoe u de gebieden van de Planning van Workfront kunt tot stand brengen en vormen:
 
 * [Overzicht van veld](../fields/fields-overview.md)
 * [Velden maken](../fields/create-fields.md)

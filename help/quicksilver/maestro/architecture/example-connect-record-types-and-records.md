@@ -1,13 +1,13 @@
 ---
 title: Voorbeeld van het verbinden van recordtypen en records
-description: In dit artikel wordt een voorbeeld beschreven van hoe u een verbinding kunt maken tussen een Adobe Maestro-recordtype en een Workfront-projectobjecttype. Het beschrijft ook hoe u een verslag van Maestro met aan een individueel project kunt verbinden.
+description: In dit artikel wordt een voorbeeld beschreven van hoe u een verbinding kunt maken tussen een recordtype voor Adobe Workfornt Planning en een Workfront-projectobjecttype. Het beschrijft ook hoe u een verslag van de Planning van Workfront met een individueel project kunt verbinden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,22 @@ ht-degree: 0%
 
 In dit artikel wordt een voorbeeld van het volgende beschreven:
 
-* Hoe te om een verbinding tussen twee de recordtypes van Maestro en twee verslagen tot stand te brengen Maestro.
+* Hoe te om een verbinding tussen twee het verslagtypes van de Planning van Workfront en twee verslagen tot stand te brengen.
 
-* Hoe te om een verbinding tussen een Adobe te creëren Maestro verslagtype en een het projectobjecten type van Workfront, evenals een verbinding tussen een verslag Maestro en een project.
+* Hoe te om een verbinding tussen een het verslagtype van de Planning van Workfront en een het projectobjecten van Workfront, evenals een verbinding tussen een verslag en een project tot stand te brengen.
 
 Zie ook de volgende artikelen voor meer informatie:
 
 * [Verbind recordtypen](../architecture/connect-record-types.md)
 * [Connect-records](../records/connect-records.md)
 
-## Twee Maestro-recordtypen en -records verbinden (voorbeeld)
+## Twee Workfront-recordtypen en -records verbinden (voorbeeld)
 
 U hebt bijvoorbeeld een recordtype met de naam Campaign als oorspronkelijk recordtype.
 
 U hebt ook een ander recordtype, Product genaamd, dat een valutaveld heeft, Budget.
 
-U wilt een gebied op het verslagtype van Campagne tot stand brengen waar u de waarden van het gebied van de Begroting op het verslagtypeProduct kunt tonen.
+U wilt een gebied op het verslagtype van Campagne tot stand brengen waar u de waarden van het gebied van de Begroting van het verslagtype Product kunt tonen.
 
 Dit doet u als volgt:
 
@@ -42,9 +42,9 @@ Dit doet u als volgt:
 1. Voeg bijvoorbeeld de volgende informatie toe:
 
    * **Recordtype**: Product <!--did they change the casing here?-->
-   * **Naam**: Productinformatie. Dit is de naam van het gekoppelde recordveld.
-   * **Beschrijving**: Dit zijn de producten waaraan ik mijn campagnes wil koppelen.
-   * **Meerdere records toestaan**: Als u deze optie ingeschakeld laat, kunnen gebruikers meerdere records selecteren wanneer het veld voor het gekoppelde recordtype (Productinformatie) in de oorspronkelijke records (campagnes) wordt weergegeven. In ons geval kunnen ze meerdere producten selecteren die op één campagne moeten worden aangesloten.
+   * **Naam**: Geef het nieuwe veld een naam. Bijvoorbeeld &quot;Productinformatie.&quot; Dit is de naam van het gekoppelde recordveld.
+   * **Beschrijving**: Voeg een beschrijving toe voor het nieuwe veld. Bijvoorbeeld, &quot;Dit zijn de Producten die ik mijn campagnes verbonden aan wil.&quot; De beschrijving van het veld wordt weergegeven wanneer u de muisaanwijzer op het veld in de kolomkop plaatst.
+   * **Meerdere records toestaan**: Als u deze optie ingeschakeld laat, kunnen gebruikers meerdere records selecteren wanneer het veld voor het gekoppelde recordtype (Productinformatie) in de oorspronkelijke records (campagnes) wordt weergegeven. In ons geval kunnen gebruikers meerdere producten selecteren voor verbinding met één campagne.
    * **Opzoekvelden selecteren**: Als u deze optie ingeschakeld laat, worden de **Opzoekvelden toevoegen** wordt geopend als u productvelden wilt koppelen aan het type Campagne-record. U kunt op **Overslaan** om deze stap over te slaan en productvelden later toe te voegen.
 
    ![](assets/new-connection-with-product-record-type.png)
@@ -57,16 +57,16 @@ Dit doet u als volgt:
    >
    >    Als u de begroting van alle geselecteerde producten als één totaal aantal wilt bekijken, selecteer **SUM** in het vervolgkeuzemenu rechts van de veldnaam. Wanneer gebruikers meerdere producten selecteren in het dialoogvenster **Productinformatie** gekoppeld recordveld, **Begroting (op basis van productinformatie)** worden alle begrotingswaarden bij elkaar opgeteld en wordt het totaal weergegeven. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Als u **Geen**, in plaats van **SUM** De afzonderlijke begrotingen worden gescheiden door komma&#39;s.
+   > Als u **Geen**, in plaats van **SUM** De afzonderlijke budgetten van de geselecteerde producten worden gescheiden door komma&#39;s.
 
    Hiermee worden de volgende velden gegenereerd:
 
-   * In de de lijstmening van het verslag van de Campagne en op de pagina van Details van een campagne:
+   * In de de lijstmening van het verslag van de Campagne en in de verslagpagina van de Campagne van een campagne:
 
-      * **Productinformatie** (het gekoppelde recordveld): hiermee worden de naam of namen van de producten weergegeven.
+      * **Productinformatie** (het gekoppelde recordveld): hiermee worden de naam of namen van de producten weergegeven wanneer u deze toevoegt.
       * **Begroting (op basis van productinformatie)** (het daaraan gekoppelde veld): Hiermee worden de budgetten van de op het gebied van productinformatie geselecteerde producten weergegeven.
 
-   * In de de lijstmening van het Productverslag en op de pagina van Details van een product:
+   * In de tabelweergave met productrecord en op de pagina met productrecords van een product:
 
       * **Campagne**: Dit geeft aan dat het recordtype Product is gekoppeld vanuit het recordtype Campagne.
 
@@ -88,7 +88,7 @@ Dit doet u als volgt:
    * Typ de naam van een product en klik erop wanneer het in de lijst wordt weergegeven. Het product wordt automatisch toegevoegd.
    * Klikken **Alles bekijken** om alle producten weer te geven.
 
-1. (Voorwaardelijk) Als u hebt geklikt **Alles selecteren** in de vorige stap **Objecten verbinden** wordt weergegeven.
+1. (Voorwaardelijk) Als u hebt geklikt **Alles bekijken** in de vorige stap **Objecten verbinden** wordt weergegeven.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -100,7 +100,7 @@ Dit doet u als volgt:
 
    >[!TIP]
    >
-   >    U kunt de pagina Details van een campagne openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om producten van het type productrecord toe te voegen.
+   >    U kunt de verslagpagina van een Campagne openen, het verbonden verslaggebied vinden en klikken **+** in het veld om producten van het type productrecord toe te voegen.
 
    De volgende kolommen worden bevolkt in de lijst van het het verslagtype van de Campagne:
    * De **Productinformatie** wordt voor de campagnerecord gevuld met de geselecteerde producten.
@@ -110,18 +110,18 @@ Dit doet u als volgt:
 
    >[!TIP]
    >
-   >Wanneer u geen aggregator selecteert voor de meerdere waarden, worden alle waarden gescheiden door komma&#39;s weergegeven.
+   >Wanneer u geen aggregator selecteert voor de meerdere waarden, worden alle waarden van de geselecteerde producten weergegeven, gescheiden door komma&#39;s.
 
 1. Als u de **Campagne** veld van de **Product** de lijstmening, herhaalt stappen 5-7 die van de het verslagtype van het Product lijstmening beginnen en campagneinformatie selecteren. Hiermee werkt u ook het veld Productinformatie in de tabel met recordtypen voor campagne bij. <!--ensure the step numbers remain correct-->
 
 
-## Een Maestro-recordtype verbinden met een Workfront-projectobjecttype en een record verbinden met afzonderlijke projecten
+## Een Workfront-planningrecordtype verbinden met een Workfront-projectobjecttype en een record verbinden met afzonderlijke projecten
 
 U hebt bijvoorbeeld een recordtype met de naam Campaign als oorspronkelijk recordtype.
 
 U hebt ook projecten in Workfront met een gebied genoemd &quot;Geplande Inkomsten.&quot;
 
-U wilt een verbindingsgebied op het verslagtype van Campagne tot stand brengen waar u de waarden van het Geplande gebied van Inkomsten van de projecten in Workfront kunt tonen die met campagnes in Maestro worden verbonden.
+U wilt een verbindingsgebied op het verslagtype van Campagne tot stand brengen waar u de waarden van het Geplande gebied van Inkomsten van de projecten in Workfront kunt tonen die met campagnes in de Planning van Workfront worden verbonden.
 
 Dit doet u als volgt:
 
@@ -130,11 +130,11 @@ Dit doet u als volgt:
 1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave om een nieuw veld toe te voegen, klikt u vervolgens op **Nieuwe verbinding** en klik vervolgens op **Project** in de **Workfront-objecttypen** sectie.
 1. Voeg bijvoorbeeld de volgende informatie toe:
 
-   * **Recordtype**: Workfront-project (van de subsectie Workfront)
-   * **Naam**: Projectinformatie. Dit is een voorbeeld van de naam van het veld voor gekoppelde objecten.
-   * **Beschrijving**: Dit zijn de projecten waaraan ik mijn campagnes wil koppelen. Dit is een voorbeeld van de beschrijving van het gekoppelde recordveld.
+   * **Recordtype**: Project (van de subsectie Workfront)
+   * **Naam**: Geef het nieuwe veld een naam, bijvoorbeeld &quot;Projectinformatie&quot;.
+   * **Beschrijving**: Voeg een beschrijving toe voor het nieuwe veld. Bijvoorbeeld: &quot;Dit zijn de projecten waaraan ik mijn campagnes wil koppelen.&quot; De beschrijving wordt weergegeven in de tabelweergave terwijl u de muisaanwijzer op de veldnaam in de kolomkop plaatst.
    * 
-      * **Meerdere records toestaan**: Als u deze optie geselecteerd verlaat, staat dit gebruikers toe om veelvoudige projecten te selecteren wanneer het verbonden gebied van het projecttype (de informatie van het Project) op de originele verslagen (Campagnes) toont.
+      * **Meerdere records toestaan**: Als u deze optie ingeschakeld laat, kunnen gebruikers meerdere projecten selecteren wanneer het veld voor het gekoppelde projecttype (projectinformatie) wordt weergegeven in de oorspronkelijke records (campagnes).
    * **Opzoekvelden selecteren**: Als u deze optie ingeschakeld laat, worden de **Opzoekvelden toevoegen** wordt nu geopend, zodat u de projectvelden kunt koppelen aan het type Campagne-record. U kunt op **Overslaan** om deze stap over te slaan en later projectvelden toe te voegen.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
@@ -151,7 +151,7 @@ Dit doet u als volgt:
 
    Hiermee worden de volgende velden gegenereerd:
 
-   * In de de lijstmening van het verslag van de Campagne en op de pagina van Details van een campagne:
+   * In de de lijstmening van het verslag van de Campagne en in de de verslagpagina van de Campagne:
 
       * **Projectinformatie** (het veld voor het gekoppelde object): hiermee worden de naam of namen van de projecten weergegeven.
       * **Geplande inkomsten (uit projectinformatie)** (het daaraan gekoppelde veld): Hierin worden de geplande opbrengsten van de geselecteerde projecten in het veld Projectinformatie weergegeven.
@@ -172,7 +172,7 @@ Dit doet u als volgt:
    * Typ de naam van een project en klik erop wanneer het in de lijst wordt weergegeven. Het project wordt automatisch toegevoegd.
    * Klikken **Alles bekijken** om alle projecten weer te geven.
 
-1. (Voorwaardelijk) Als u hebt geklikt **Alles selecteren** in de vorige stap **Objecten verbinden** wordt weergegeven.
+1. (Voorwaardelijk) Als u hebt geklikt **Alles bekijken** in de vorige stap **Objecten verbinden** wordt weergegeven.
 
    ![](assets/connect-projects-larger-box.png)
 
@@ -184,7 +184,7 @@ Dit doet u als volgt:
 
    >[!TIP]
    >
-   >    U kunt de pagina Details van een Campagne openen, het verbonden projectgebied vinden en klikken **+** pictogram in het gebied om projecten van het aangesloten verslagtype van het Product toe te voegen.
+   >    U kunt de pagina van een Campagne openen, het verbonden projectgebied vinden en klikken **+** pictogram in het gebied om projecten van het aangesloten verslagtype van het Product toe te voegen.
 
    Hiermee voegt u het volgende toe aan de geselecteerde werkruimte:
 
@@ -200,15 +200,15 @@ Dit doet u als volgt:
 
 1. Klik de naam van een project op het verbonden verslaggebied.
 
-   Hierdoor wordt het alleen-lezen Maestro-project geopend **Details** pagina.
-Informatie over het project controleren. Alleen geselecteerde projectvelden worden weergegeven op de pagina Details.
+   Dit opent de read-only pagina van het Project van de Planning van Woekfront.
+Informatie over het project controleren. Alleen geselecteerde projectvelden worden weergegeven op de pagina van de record.
 
 1. Klikken **Ga naar bron** in de hoger-juiste hoek van het scherm om het project in Workfront te openen, als u minstens de toestemmingen van de Mening aan het project hebt.
 1. (Optioneel) Werk informatie over het project in Workfront bij als u hiervoor gemachtigd bent.
 
-1. Houd de muisaanwijzer in de tabelweergave Campagne boven de **Projectinformatie** veldkoptekst en klik op de pijl omlaag gericht en klik vervolgens op **Opzoekvelden bewerken.**
-1. Klik op de knop **+** pictogram voor de projectvelden die u wilt toevoegen aan de Workfront Project Maestro-record in het dialoogvenster **Niet-geselecteerde velden** sectie.
-1. Klik op de knop **-** pictogram voor de projectvelden die u uit de Workfront Project Maestro-record wilt verwijderen in het dialoogvenster **Geselecteerde velden** sectie.
+1. (Optioneel) Houd de muisaanwijzer in de tabelweergave Campagne boven de **Projectinformatie** veldkoptekst en klik op de pijl omlaag gericht en klik vervolgens op **Opzoekvelden bewerken.**
+1. Klik op de knop **+** pictogram voor om het even welke projectgebieden u aan het verslag van de Planning van Workfront van het Project in wilt toevoegen **Niet-geselecteerde velden** sectie.
+1. Klik op de knop **-** pictogram voor om het even welke projectgebieden u uit het verslag van de Planning van het Project van Workfront in wilt verwijderen **Geselecteerde velden** sectie.
 1. Klikken **Opslaan**.
 
    Er worden extra gekoppelde velden toegevoegd aan het type Campagne-record.

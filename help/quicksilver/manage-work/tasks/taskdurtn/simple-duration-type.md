@@ -2,14 +2,14 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Overzicht van het type Duur: Eenvoudig'''
+title: 'Overzicht van het type duur: eenvoudig'
 description: Het eenvoudige Type van Duur is een Type van Duur dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie Overzicht van het Type van Duur en van de Duur van de Taak.
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1efd7c0270fe1396345cfa6e5499e8f998297d61
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,19 @@ Uw Workfront of een groepsbeheerder kan het standaardtype Duur van uw systeem of
 
 De volgende dingen komen voor wanneer een taak een Type van Duur van Eenvoudig heeft:
 
-* De managers van het project kunnen zowel de Duur als de Geplande Uren van een taak wijzigen wanneer het wijzigen van hoe die uren onder toegewezen moeten worden verdeeld.
+* De managers van het project kunnen zowel de Duur als de Geplande Uren van een taak wijzigen wanneer het wijzigen van hoe die uren onder toegewezen personen zouden moeten worden verdeeld.
 
-   Zie voor meer informatie [Werk de Geplande Uren en Duur van een taak met het Eenvoudige Type van Duur bij](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  Zie voor meer informatie [Werk de Geplande Uren en Duur van een taak met het Eenvoudige Type van Duur bij](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
 
-   >[!IMPORTANT]
-   >
-   >Wanneer u eerst een taak creeert en het Eenvoudige Type van Duur aan het toewijst en geen Duur specificeert, berekent Workfront de Duur van de taak die op de hoeveelheid Geplande Uren wordt gebaseerd u voor de taak specificeert. Als u manueel de Duur van een Eenvoudige taak van de Duur wijzigt, houdt Workfront op aanpassend de Geplande Uren aan de Duur omdat het veronderstelt u hen manueel wilt bepalen zelf.
+  >[!IMPORTANT]
+  >
+  >Wanneer u eerst een taak creeert en het Eenvoudige Type van Duur aan het toewijst en geen Duur specificeert, berekent Workfront de Duur van de taak die op de hoeveelheid Geplande Uren wordt gebaseerd u voor de taak specificeert. Als u manueel de Duur van een Eenvoudige taak van de Duur wijzigt, houdt Workfront op aanpassend de Geplande Uren aan de Duur omdat het veronderstelt u hen manueel wilt bepalen zelf.
+  >
+  >Workfront berekent de duur van taken waarvan de duur niet handmatig is gewijzigd met de volgende formule:
+  >
+  > `Task Duration = Task Planned Hours / Typical hours per work day`
+  >
+  >Uw Workfront-beheerder definieert de `Typical hours per work day` in het gebied van de Voorkeur van het Project van de Opstelling van uw instantie.
 
 * Het toewijzingspercentage is verborgen en de toewijzingstijden kunnen worden bewerkt.
 * Alle nieuwe klanten hebben het systeem-vlakke Type van Duur dat aan Eenvoudig wordt geplaatst.

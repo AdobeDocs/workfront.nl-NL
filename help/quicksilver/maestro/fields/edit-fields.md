@@ -1,13 +1,13 @@
 ---
 title: Velden bewerken
-description: In Adobe Workfront planning, kunt u de gebiedsmontages voor gebieden uitgeven die reeds worden gecreeerd.
+description: In de Planning van Adobe Workfront, kunt u de gebiedsmontages voor gebieden uitgeven die reeds worden gecreeerd.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,11 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # Velden bewerken
 
 {{maestro-important-intro}}
 
-U kunt de veldinstellingen bewerken voor velden die al zijn gemaakt in Adobe Workfront-planning.
+U kunt de gebiedsmontages voor gebieden uitgeven die reeds in de Planning van Adobe Workfront worden gecreeerd.
 
 Voor informatie over het maken van Adobe Workfront-planningsvelden raadpleegt u [Velden maken](../fields/create-fields.md).
 
@@ -40,7 +39,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
 
 * U kunt velden bewerken die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe de velden behoren.
 * U kunt een veld in de tabel met recordtypen bewerken.
-* U kunt een veld op de pagina Details van een record of in de tijdlijnweergave niet bewerken.
+* U kunt een veld op de recordpagina of in de tijdlijnweergave niet bewerken.
 * U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
 * U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangscontroles voor de planning van Workfront</p>  
+   <td> <p>Er zijn geen toegangscontroles voor de Planning van Workfront</p>  
 </td>
   </tr>
 

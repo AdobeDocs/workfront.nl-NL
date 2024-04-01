@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-U kunt records verwijderen die niet meer relevant zijn voor Adobe Workfront-planning.
+U kunt records verwijderen die niet meer relevant zijn in Adobe Workfront Planning.
 
 ## Toegangsvereisten
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Adobe Workfront </p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt een record uit de volgende gebieden verwijderen:
 
-* [Via de pagina Details van een record](#delete-a-record-from-the-records-details-page)
+* [Van de recordpagina](#delete-a-record-from-the-records-page)
 * [Vanuit de tabelweergave van een recordtype](#delete-a-record-from-the-record-type-table-view)
 
-### Een record verwijderen van de pagina Details van de record
+### Een record verwijderen van de recordpagina
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ De werkruimte die u als laatste opent.
      ![](assets/contextual-menu-for-record-row.png)
    * Klik in een tijdlijnweergave op een recordbalk.
 
-   De record **Details** pagina wordt geopend.
+   De recordpagina wordt geopend.
 
 1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Verwijderen** vervolgens **Verwijderen** nogmaals ter bevestiging.
 
@@ -141,7 +141,7 @@ De werkruimte die u het laatst hebt geopend.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Klik op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) om het vak Details te openen en klik op **Meer** ![](assets/more-menu.png) rechts van de naam van de record, vervolgens **Verwijderen**.
+   * Klik op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) om het vak met de gedetailleerde informatie van de record te openen en klik op **Meer** ![](assets/more-menu.png) rechts van de naam van de record, vervolgens **Verwijderen**.
 
    De record wordt verwijderd en kan niet worden hersteld.
 

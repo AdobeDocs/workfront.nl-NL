@@ -1,22 +1,22 @@
 ---
-title: Adobe Workfront-planningsvrijgave
+title: Adobe Workfront Planning Release-activiteit
 description: Adobe Workfront-planningsmogelijkheden zijn momenteel beschikbaar voor het selecteren van Workfront-klanten. Lees dit artikel vaak voor meer informatie over de functies die onlangs zijn uitgebracht voor de planningsmogelijkheden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront-planningsvrijgave
+# Adobe Workfront Planning Release-activiteit
 
 {{maestro-important-intro}}
 
-Dit artikel bevat een overzicht van de functies die zijn vrijgegeven na de start van het bètaprogramma voor Adobe Workfront-planningsmogelijkheden dat op 22 mei 2023 is afgesloten.
+Dit artikel bevat een overzicht van de functies die zijn uitgebracht nadat het bètaprogramma voor planningsmogelijkheden van Adobe Workfront op 22 mei 2023 was afgesloten.
 
 De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het gesloten bètaprogramma voor planningsmogelijkheden hebben toegang tot alle functies in hun productieomgeving.
 
@@ -24,7 +24,7 @@ De vrijgegeven functies worden weergegeven in de volgorde van hun release, met d
 >
 >Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving. De planningsmogelijkheden zijn sinds januari 2024 tijdelijk verwijderd uit de voorvertoning- en sandboxomgevingen. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
 
-Dit artikel bevat een overzicht van de functies en patches die zijn uitgebracht nadat de Adobe Workfront-planningsmogelijkheden op 22 mei 2023 zijn afgesloten met het bètaprogramma.
+Dit artikel bevat een overzicht van de functies en patches die zijn uitgebracht na de start van het bètaprogramma voor planningsmogelijkheden van Adobe Workfront, dat op 22 mei 2023 is afgesloten.
 
 De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het gesloten bètaprogramma voor planningsmogelijkheden hebben toegang tot alle functies in hun voorproef- en productieomgeving.
 
@@ -64,13 +64,23 @@ Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/maestro/vie
 
 ### De naam van het Maestro-gebied in het hoofdmenu is gewijzigd in Planning
 
-Productie: maart 2024
+Productie: 27 maart 2024
 
 Voorbeeld: te bepalen
 
 We hebben de naam van het Maestro-gebied in het hoofdmenu gewijzigd in Planning.
 
-Voor een overzicht van Adobe Workfront-planning raadpleegt u [Overzicht van Adobe Workfront-planning](/help/quicksilver/maestro/maestro-overview.md).
+Voor een overzicht van de Planning van Adobe Workfront, zie [Overzicht van Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+
+### Nieuwe ervaring bij het verwijderen van een recordtype
+
+Productie: 27 maart 2024
+
+Voorbeeld: te bepalen
+
+Het bevestigingsvak is opnieuw ontworpen wanneer een recordtype wordt verwijderd. Het verwijderen van een recordtype is niet van invloed, omdat hiermee ook alle records, de velden, de gegevens in de velden en de weergaven van het recordtype worden verwijderd. Verwijderde recordtypen en de verwijderde gegevens ervan kunnen niet worden hersteld.
+
+Daarom wilden wij ervoor zorgen dat de intent van de gebruiker correct is wanneer het schrappen van een verslagtype, zodat hebben wij een extra stap toegevoegd bij het bevestigen van de schrapping. Zie voor meer informatie [Recordtypen verwijderen](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## Week van 18 maart 2024
 
@@ -82,15 +92,15 @@ Voorbeeld: te bepalen
 
 U kunt nu informatie filteren in de kalenderweergave. Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Het vak Details toegevoegd aan de tijdlijn- en kalenderweergave
+### Kader met recorddetails toegevoegd aan de tijdlijn- en kalenderweergave
 
 Productie: 19 maart 2024
 
 Voorbeeld: te bepalen
 
-U hebt nu toegang tot het vak Details van een record vanuit de tijdlijn- en de kalenderweergave. U kunt records in het vak Details bewerken in de tijdlijn- en de kalenderweergave.
+U kunt nu een vak openen met recorddetails uit de tijdlijn- en de kalenderweergave. U kunt records in het vak van de record bewerken in de tijdlijn- en de kalenderweergave.
 
-In het vak Details kunt u de pagina Details van de record openen.
+Vanuit het vak van de record kunt u de recordpagina openen in een nieuw browsertabblad.
 
 Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Om het gemakkelijker te maken om extra informatie over verslagen te bekijken wan
 
 * Mogelijkheid om recordgegevens te wijzigen
 
-* Een koppeling om de pagina Details van de record te openen
+* Een koppeling om de recordpagina te openen
 
 Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ Hieronder ziet u de hoogste niveaus van machtigingen die gebruikers kunnen ontva
 
 Voor informatie over het nieuwe licentiemodel raadpleegt u [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype bij gebruik van Adobe Workfront-planning](/help/quicksilver/maestro/access/license-type-overview.md).
+Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nieuwe weergave van de Rich Text-werkbalk voor recordvelden
@@ -360,7 +370,7 @@ Om consistentie te creëren wanneer het creëren van verslagen, hebben wij opnie
 
 Voorbeeld en sandbox: 11 januari 2024
 
-De planningsmogelijkheden van Adobe Workfront zijn tijdelijk verwijderd uit de voorvertoning- en sandboxomgeving. Ze worden later aan deze omgevingen toegevoegd. Deze gegevens worden in de notities bij de releaseactiviteit weergegeven.
+De planningsmogelijkheden van Adobe Workfront zijn tijdelijk verwijderd uit de voorvertoning- en sandboxomgevingen. Ze worden later aan deze omgevingen toegevoegd. Deze gegevens worden in de notities bij de releaseactiviteit weergegeven.
 
 ### Machtigingen voor planningsmogelijkheden voor werkruimten en weergaven
 
@@ -387,7 +397,7 @@ Hier volgen de machtigingsniveaus voor recordweergaven:
 * Weergave: gebruikers kunnen de weergave selecteren in het vervolgkeuzemenu Weergave van een pagina met recordtypen.
 * Beheren: gebruikers kunnen de weergave bewerken, delen en verwijderen.
 
-Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md) en [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](../maestro/access/sharing-permissions-overview.md).
+Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md) en [Overzicht van het delen van machtigingen in de planningsmogelijkheden van Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
 
 ### Nieuw type formulierveld
 
@@ -439,7 +449,7 @@ U kunt nu naar een trefwoord zoeken om snel een record in de tijdlijnweergave te
 
 ## Week van 18 december 2023
 
-### Opmerkingen toevoegen aan records op de pagina Details
+### Opmerkingen toevoegen aan records van de recordpagina
 
 Voorbeeld en productie voor alle klanten: 18 december 2023
 
@@ -455,7 +465,7 @@ Voorbeeld en productie voor alle klanten: 18 december 2023
 >
 >Zie voor meer informatie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-U kunt nu met anderen samenwerken aan individuele verslagen door commentaren toe te voegen of anderen te antwoorden terwijl het bekijken van een verslag in de pagina van Details.
+U kunt nu met anderen samenwerken aan afzonderlijke records door opmerkingen toe te voegen of anderen te antwoorden terwijl u de pagina van een record bekijkt.
 
 De opmerkingervaring voor planningsmogelijkheden komt overeen met de nieuwe opmerkingervaring voor Workfront-objecten.
 
@@ -525,11 +535,11 @@ Productieversie: 21 december 2023
 
 >[!IMPORTANT]
 >
->Het exemplaar van Workfront van uw organisatie moet aan het Adobe Bedrijfsplatform of Adobe Admin Console worden bezet om Adobe Workfront planningsmogensverslagen aan Adobe Experience Manager Assets te kunnen verbinden.
+>Het exemplaar van Workfront van uw organisatie moet aan het Adobe Bedrijfsplatform of Adobe Admin Console worden bezet om de verslagen van de Mogelijkheden van de Planning van Adobe Workfront aan Adobe Experience Manager Assets te kunnen verbinden.
 >
 >Als u vragen hebt over instaptoegang tot de Adobe Admin Console, raadpleegt u de [Veelgestelde vragen over Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-U kunt nu een verbinding tot stand brengen tussen de recordtypen voor Adobe Workfront-planningsmogelijkheden en Adobe Experience Manager Assets.
+U kunt nu een verbinding tot stand brengen tussen de recordtypen van Adobe Workfront Planning capabilities en Adobe Experience Manager Assets.
 
 Nadat u de verbinding tot stand hebt gebracht, is de volgende functionaliteit beschikbaar bij deze update:
 
@@ -608,7 +618,7 @@ Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-
 
 Voorbeeld en productie: 30 oktober 2023
 
-We hebben de volgende veldtypen geïntroduceerd voor Adobe Workfront-planningscapaciteitsrecords:
+We hebben de volgende veldtypen geïntroduceerd voor Adobe Workfront Planning capabilities records:
 
 * Gemaakt door
 
@@ -630,7 +640,7 @@ U kunt de Workfront-objectpagina&#39;s nu vanuit de volgende gebieden openen in 
 
 * De alleen-lezen gekoppelde Workfront-objectrecordtabelweergave
 
-* De alleen-lezen Workfront-objectrecordpagina Details
+* De Workfront-recordpagina met alleen-lezen objecten
 
 Zie voor meer informatie [Connect-records](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ U kunt nu een veld van het type Mensen toevoegen aan recordtypen voor planningsm
 
 Voorbeeld en productie: 16 oktober 2023
 
-We hebben besturingselementen voor RTF-opmaak toegevoegd voor velden van het type Alinea. U kunt de alineasvelden opmaken met RTF-tekst in de tabelweergave van een recordtype of op de pagina Details van een record. Zie voor meer informatie [Records bewerken](../maestro/records/edit-records.md).
+We hebben besturingselementen voor RTF-opmaak toegevoegd voor velden van het type Alinea. U kunt de alineasvelden opmaken met RTF-tekst in de tabelweergave van een recordtype of op de recordpagina. Zie voor meer informatie [Records bewerken](../maestro/records/edit-records.md).
 
 
 ### Kleurcodering opnemen en groeperen voor de tijdlijnweergave
@@ -752,7 +762,7 @@ Zie voor meer informatie [De tabelweergave beheren](../maestro/views/manage-the-
 
 ## Week van 21 augustus 2023
 
-### Gegevens over planningsmogelijkheden van Connect Adobe Workfront koppelen aan programma&#39;s en portfolio&#39;s
+### Opnamen van planningsmogelijkheden van Connect Adobe Workfront verbinden met programma&#39;s en portfolio&#39;s
 
 Voorbeeld en productie: 24 augustus 2023
 
@@ -839,7 +849,7 @@ U kunt nu een veldtype van Checkbox aan de types van het planningsmogensverslag 
 
 Voorbeeld en productie: 28 juni 2023
 
-We hebben de mogelijkheid ingeschakeld om het contextafhankelijke menu te activeren door met de rechtermuisknop ergens in een recordrij te klikken wanneer de records in de tabelweergave of een recordtype worden weergegeven. U kunt nu snel een koppeling naar de pagina Details van de record weergeven, verwijderen of kopiëren wanneer u het contextmenu opent vanuit een willekeurige locatie in de tabelweergave van een recordtype. Voorafgaand aan deze verbetering, was het contextafhankelijke menu toegankelijk slechts van het Meer menu in de kolom van de Naam van een verslag.
+We hebben de mogelijkheid ingeschakeld om het contextafhankelijke menu te activeren door met de rechtermuisknop ergens in een recordrij te klikken wanneer de records in de tabelweergave of een recordtype worden weergegeven. U kunt nu snel een koppeling naar de pagina van de record weergeven, verwijderen of kopiëren wanneer u het contextmenu opent vanuit een willekeurige locatie in de tabelweergave van een recordtype. Voorafgaand aan deze verbetering, was het contextafhankelijke menu toegankelijk slechts van het Meer menu in de kolom van de Naam van een verslag.
 
 ## Week van 19 juni 2023
 
@@ -849,7 +859,7 @@ We hebben nu de eis ingevoerd dat de veldnamen van een recordtype voor plannings
 
 ## Week van 5 juni 2023
 
-### Connect Adobe Workfront-planningsmogelijkheden registreren met Workfront-projecten
+### Connect Adobe Workfront Planning capabilities records met Workfront-projecten
 
 Voorbeeld en productie: 5 juni 2023
 

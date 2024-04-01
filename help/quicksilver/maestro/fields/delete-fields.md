@@ -1,11 +1,11 @@
 ---
 title: Velden verwijderen
-description: In Adobe Workfront-planning kunt u aangepaste velden verwijderen die niet meer van toepassing zijn.
+description: In de Planning van Adobe Workfront, kunt u douanegebieden schrappen die niet meer relevant zijn.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -29,9 +29,9 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, kunt u douanevelden tot stand brengen om informatie over verslagen op te slaan.
+In de Planning van Adobe Workfront, kunt u douanevelden tot stand brengen om informatie over verslagen op te slaan.
 
-Voor informatie over het maken van aangepaste velden in Workfront-planning raadpleegt u [Velden maken](../fields/create-fields.md).
+Voor informatie over het creëren van douanevelden in de Planning van Workfront, zie [Velden maken](../fields/create-fields.md).
 
 U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
 
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-maestro}}
 
-Hierdoor wordt de laatst geopende werkruimte geopend in Workfront-planning.
+Dit opent de laatste-betreden werkruimte in de Planning van Workfront.
 1. Klik op de kaart van een recordtype waarvan u de velden wilt verwijderen.
 1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
 1. Zoek het veld dat u wilt verwijderen in de kolomkoppen en houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag na de veldnaam.

@@ -1,13 +1,13 @@
 ---
 title: Velden maken
-description: Bij Adobe Workfront-planning kunt u aangepaste velden maken voor elk type record. U kunt het veld vervolgens koppelen aan Workfront-planningsrecords.
+description: In de Planning van Adobe Workfront, kunt u douanevelden voor elk type van verslag tot stand brengen. U kunt het gebied met de verslagen van de Planning van Workfront dan associëren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, kunt u douanevelden voor verslagtypes tot stand brengen. U kunt de velden vervolgens koppelen aan Workfront-planningsrecords om recordgegevens te verbeteren.
+In Adobe Workfront Planning kunt u aangepaste velden maken voor recordtypen. U kunt de gebieden met de verslagen van de Planning van Workfront dan associëren om verslaginformatie te verbeteren.
 
 U moet recordtypen maken voordat u velden kunt maken die u hieraan wilt koppelen. Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> <p>Er is geen toegangsbeheer voor Workfront-planning</p>  
+   <td> <p>Er is geen toegangsniveaucontrole voor de Planning van Workfront</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Datumnotatie**: Het type datumnotatie dat u in dit veld wilt weergeven. <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
    ![](assets/number-field-type.png)
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record.
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina.
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Precisie**: Het aantal decimalen dat u voor het veld wilt opnemen. U kunt maximaal 6 decimalen weergeven.
    * **Negatieve getallen toestaan**: Selecteer deze optie als u negatieve getallen in dit veld wilt toestaan. Deze optie is standaard uitgeschakeld.
@@ -300,7 +300,7 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
    ![](assets/percentage-field-type.png)
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record.
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina.
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Precisie**: Het aantal decimalen dat u voor het veld wilt opnemen. U kunt maximaal 6 decimalen weergeven.
    * **Negatieve getallen toestaan**: Selecteer deze optie als u negatieve percentagewaarden in dit veld wilt toestaan. Deze optie is standaard uitgeschakeld.
@@ -322,7 +322,7 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
    ![](assets/currency-field-type.png)
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Valuta**: Het type valuta dat u in dit veld wilt weergeven. Dit is een lijst van valuta&#39;s volgens de Internationale Organisatie voor Normalisatie (ISO).
    * **Precisie**: Het aantal decimalen dat u voor het veld wilt opnemen. U kunt maximaal 6 decimalen weergeven.
@@ -345,7 +345,7 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
    ![](assets/checkbox-field-type.png)
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. Klikken **Maken**.
 
@@ -379,7 +379,7 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maest
    >
    > * U kunt geen multiselect-tekstvelden toevoegen aan een formule.
    >
-   > * U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Adobe Workfront-planningsvrijgave](/help/quicksilver/maestro/release-activity.md).
+   > * U kunt geen velden van gekoppelde records toevoegen aan een formule. Deze functionaliteit wordt later vrijgegeven. Voor meer informatie over nieuwe versies, zie [Adobe Workfront Planning Release-activiteit](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klikken **Maken**.
@@ -396,7 +396,7 @@ U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job ro
    ![](assets/people-field-type.png)
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record.
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina.
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Meerdere waarden toestaan**: Selecteer deze optie als u wilt toestaan dat gebruikers meer dan één gebruiker toevoegen in dit veld. Deze optie is standaard uitgeschakeld.
 
@@ -418,7 +418,7 @@ U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heef
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 
 1. Klikken **Maken**.
@@ -438,7 +438,7 @@ Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop een record is ge
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Datumnotatie**: Kies een van de volgende indelingen:
 
@@ -469,7 +469,7 @@ U kunt de Laatst gewijzigd op veldtype gebruiken om de gebruiker die de record h
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 
 1. Klikken **Maken**.
@@ -489,7 +489,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
 1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Datumnotatie**: Kies een van de volgende indelingen:
 
@@ -513,7 +513,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
 U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen van Maestro, of een recordtype en een objecttype vanuit andere toepassingen.
 
-Voor informatie over het verbinden van de types van het planningsverslag van Workfront zie [Verbind recordtypen](../architecture/connect-record-types.md)
+Voor informatie over het verbinden van de registratietypen van de Planning van Workfront, zie [Verbind recordtypen](../architecture/connect-record-types.md)
 
 ## Velden maken door recordtypen te importeren met een Excel- en CSV-bestand
 
@@ -525,6 +525,6 @@ Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe 
 
 ## Velden maken door een werkruimte te maken van een sjabloon
 
-Adobe Workfront planning leidt tot gebieden voor verslagtypes wanneer u een werkruimte van een malplaatje creeert.
+Adobe Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon.
 
 Zie voor meer informatie [Werkruimten maken](/help/quicksilver/maestro/architecture/create-workspaces.md).

@@ -1,11 +1,11 @@
 ---
 title: Overzicht van formuliervelden
-description: In Adobe Workfront planning, kunt u formuleringsgebieden tot stand brengen die functies en bestaande gebieden gebruiken om een nieuwe douanewaarde te berekenen.
+description: In de Planning van Adobe Workfront, kunt u formulengebieden tot stand brengen die functies en bestaande gebieden gebruiken om een nieuwe douanewaarde te berekenen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-U kunt aangepaste velden maken in Adobe Workfront-planning door te verwijzen naar bestaande velden en deze aan te sluiten met een formule. U kunt dit doen door een aangepast Formule-type gebied tot stand te brengen.
+U kunt aangepaste velden maken in Adobe Workfront Planning door naar bestaande velden te verwijzen en deze met een formule te verbinden. U kunt dit doen door een aangepast Formule-type gebied tot stand te brengen.
 
 Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -102,14 +102,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Formulervelden verwijzen naar velden die tot hetzelfde recordtype behoren. U kunt niet naar velden van andere recordtypen verwijzen wanneer u een formuleringsveld maakt. <!--is this still accurate??-->
 * U kunt het veldtype van een veld Formule niet wijzigen nadat u het hebt opgeslagen.
 * U kunt de berekening van een formuleringsgebied bijwerken nadat u het bewaart, en de resultaten van de berekeningsupdate automatisch voor alle verslagen van het zelfde type.
-* U moet de velden waarnaar u verwijst, toevoegen in formules zoals deze worden weergegeven in de Workfront-planningsinterface.
+* U moet de gebieden toevoegen u in formules van verwijzingen voorziet aangezien zij in de interface van de Planning van Workfront tonen.
 * Het gebruik van opzoekvelden van gekoppelde recordtypen in een formule is op een latere datum beschikbaar.
 
 ## Ondersteunde formules
 
-In de velden voor Adobe Workfront-planningsformules worden alle expressies van de berekende Workfront-velden ondersteund. Zie voor meer informatie [Overzicht van berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+In velden van de Adobe Workfront-planningsformule worden alle expressies van de berekende Workfront-velden ondersteund. Zie voor meer informatie [Overzicht van berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Daarnaast ondersteunen we de volgende expressies voor Workfront-planningsformuleringsvelden:
+Daarnaast ondersteunen we de volgende expressies voor velden van de Workfront-planningsformule:
 
 <table style="table-layout:auto"> 
  <col> 

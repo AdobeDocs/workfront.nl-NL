@@ -1,11 +1,11 @@
 ---
 title: "Records: artikelindex"
-description: Nadat u recordtypen hebt gemaakt in de Adobe Workfront-planning, kunt u afzonderlijke records van die typen maken. In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Workfront-planning.
+description: Nadat u recordtypes in de Planning van Adobe Workfront creeert kunt u individuele verslagen van die types tot stand brengen. In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Nadat u recordtypen hebt gemaakt in de Adobe Workfront-planning, kunt u afzonderlijke records van die typen maken.
+Nadat u recordtypes in de Planning van Adobe Workfront creeert, kunt u individuele verslagen van die types tot stand brengen.
 
-In de volgende artikelen wordt beschreven hoe u records en hun gegevens kunt maken en beheren in Adobe Workfront-planning:
+In de volgende artikelen wordt beschreven hoe u records en de bijbehorende informatie kunt maken en beheren in Adobe Workfront Planning:
 
 * [Records maken](/help/quicksilver/maestro/records/create-records.md)
 * [Records bewerken](/help/quicksilver/maestro/records/edit-records.md)

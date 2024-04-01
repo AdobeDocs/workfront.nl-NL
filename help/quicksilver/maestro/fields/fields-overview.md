@@ -1,13 +1,13 @@
 ---
 title: Overzicht van veld
-description: U kunt nieuwe gebieden in de planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
+description: U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-U kunt nieuwe gebieden in de planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
+U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de levenscyclus van uw organisatie wijzen. Velden zijn kenmerken van recordtypen.
 
 
-## Overwegingen bij het plannen van Adobe Workfront-velden
+## Overwegingen over de gebieden van de Planning van Adobe Workfront
 
-* U kunt alleen velden maken vanuit de tabelweergave van een recordtypepagina. Velden worden als kolommen weergegeven in de tabelweergave. Alle velden die aan een recordtype zijn gekoppeld, worden ook weergegeven op de pagina Details van elke record van dat type.
+* U kunt alleen velden maken vanuit de tabelweergave van een recordtypepagina. Velden worden als kolommen weergegeven in de tabelweergave. Alle velden die aan een recordtype zijn gekoppeld, worden ook op de recordpagina weergegeven.
 
   Voor informatie over het beheren van lijstkolommen (of verslaggebieden), zie [De tabelweergave beheren](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ U kunt nieuwe gebieden in de planning van Adobe Workfront toevoegen die op de le
 
    * Handmatig:
 
-      * Door kolommen toe te voegen in de tabelweergave van een pagina met recordtypen. De kolommen van de lijst zijn de gebieden verbonden aan het verslagtype. Dit zijn dezelfde velden die worden weergegeven op de pagina Details van een record.
+      * Door kolommen toe te voegen in de tabelweergave van een pagina met recordtypen. De kolommen van de lijst zijn de gebieden verbonden aan het verslagtype. Het zijn dezelfde velden die op de pagina van een record worden weergegeven.
 
-        U kunt geen velden maken op de pagina Details van een record.
-
-        In dit artikel wordt beschreven hoe u handmatig velden kunt maken.
+        U kunt geen velden maken van de recordpagina.
 
       * Door recordtypen aan te sluiten. U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
 
@@ -81,11 +79,11 @@ U kunt nieuwe gebieden in de planning van Adobe Workfront toevoegen die op de le
 
         U kunt meer waarden toevoegen of de naam van de bestaande waarden wijzigen.
 
-     Workfront planning leidt tot gebieden voor verslagtypes wanneer u een werkruimte van een malplaatje creeert. Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
+     Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon. Zie voor meer informatie [Werkruimten maken](../architecture/create-workspaces.md).
 
-* Workfront-planningsvelden zijn niet toegankelijk vanuit Workfront.
+* De gebieden van de Planning van Workfront zijn niet toegankelijk van Workfront.
 
-* Workfront-velden zijn alleen toegankelijk vanuit Workfront-planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+* Workfront-velden zijn alleen toegankelijk vanuit Workfront Planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
 
 * U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe het veld behoort.
 

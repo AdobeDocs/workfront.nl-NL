@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Zie voor een voorbeeld van het verbinden van recordtypen [Voorbeeld van het verb
 U kunt het volgende verbinden:
 
 * Adobe Workfront-planningsrecords
-* Adobe Workfront-planningsrecords met objecten uit andere toepassingen.
+* Adobe Workfront Planning registreert met voorwerpen van andere toepassingen.
 
   U kunt records verbinden met objecten van de onderstaande typen vanuit de volgende toepassingen:
 
@@ -77,12 +77,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Als u Adobe Workfront-planningsrecords wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p>
+   <p>Als u Adobe Workfront Planning-records wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het afgesloten bètaprogramma voor Adobe Workfront-planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
    </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van Workfront</p>  
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ### Overwegingen bij het verbinden van records
 
-* Nadat u recordtypes verbindt, tonen de verbonden verslagtypes als verbonden verslaggebieden in de lijst van de verslagtypes zij van en op de pagina van Details van de verslagen worden verbonden zij van en verbonden.
+* Nadat u recordtypen hebt verbonden, worden de verbonden recordtypen weergegeven als gekoppelde recordvelden in de tabel met de recordtypen waarvan ze zijn gekoppeld en op de recordpagina&#39;s.
 * U kunt records en objecten van de gekoppelde record- en objecttypen bladeren en deze toevoegen vanuit de gekoppelde recordvelden.
 * U kunt velden van de gekoppelde recordtypen toevoegen aan de tabel van het recordtype waarvan u een koppeling maakt.
 * U kunt de waarden van gekoppelde velden niet handmatig bijwerken in de records waarvan u een koppeling maakt.
 
   De waarden van de gekoppelde velden van de gekoppelde records vullen de Workfront-planningsrecord die u automatisch koppelt vanuit de oorspronkelijke record of het oorspronkelijke object.
 
-* Iedereen met toegang tot Workfront-plannings- en weergavemachtigingen of hogere machtigingen voor de werkruimte kan de verbindingen zien die u maakt tussen records of tussen records en objecten van andere toepassingen. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
+* Iedereen met toegang tot de Planning van Workfront en Mening of hogere toestemmingen aan de werkruimte kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
 * U kunt de verbindingen van alle anderen weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte waar de verbonden records zich bevinden.
 * U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing.
 * Als u records wilt koppelen aan andere records of objecten, moet u over het volgende beschikken:
@@ -183,7 +183,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    >[!TIP]
    >
-   >    U kunt de pagina Details van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om records van het aangesloten record- of objecttype toe te voegen.
+   >    U kunt de pagina van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om records van het aangesloten record- of objecttype toe te voegen.
 
    Het volgende wordt toegevoegd:
 
@@ -215,7 +215,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
 >[!NOTE]
 >
->U kunt Workfront-objecten niet verbinden met Workfront-planningsrecords van Workfront.
+>U kunt Workfront-objecten niet verbinden met Workfront Planning-records van Workfront.
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    >[!TIP]
    >
-   >U kunt de pagina Details van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om objecten van het type verbonden object toe te voegen.
+   >U kunt de pagina van een record openen, het gekoppelde recordveld zoeken en op de knop **+** in het veld om objecten van het type verbonden object toe te voegen.
 
    Voor meer informatie over het verbinden van verslagtypes met voorwerpen van een andere toepassing, zie [Verbind recordtypen](../architecture/connect-record-types.md).
 
-1. (Optioneel) Klik op de naam van een Workfront-object dat is verbonden met een Workfront-planningsrecord in het gekoppelde veld van een tabelweergave of in het gekoppelde veld van het dialoogvenster **Details** pagina van de record.
+1. (Optioneel) Klik op de naam van een Workfront-object dat is verbonden met een Workfront-planningsrecord in het gekoppelde veld van een tabelweergave of vanuit het gekoppelde veld op de recordpagina.
 
-   Hierdoor wordt de alleen-lezen Workfront-planning geopend **Details** pagina voor het gekoppelde Workfront-object. De velden die u als opzoekvelden hebt geselecteerd toen u het recordtype koppelde aan het Workfront-object, worden weergegeven op de pagina Details van de Workfront-planningsrecord.
+   Hierdoor wordt de pagina met alleen-lezen Workfront-planningsrecords geopend voor het gekoppelde Workfront-object. De velden die u als opzoekvelden hebt geselecteerd toen u het recordtype koppelde aan de weergave van het Workfront-object op de recordpagina Workfront Planning.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
    >
    >* Er wordt geen gekoppeld recordveld gemaakt voor de gekoppelde Workfront-objecten in Workfront.
 
-1. (Optioneel) Als u het gekoppelde Workfront-object in Workfront wilt openen, klikt u op **Ga naar bron** in de rechterbovenhoek van de pagina Details van het Workfront-object.
+1. (Optioneel) Als u het gekoppelde Workfront-object in Workfront wilt openen, klikt u op **Ga naar bron** in de rechterbovenhoek van de recordpagina van het Workfront-object.
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -288,7 +288,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    Workfront-objectvelden verwijderen uit het dialoogvenster **Geselecteerde velden** gebied.
 
-   Hiermee voegt u gekoppelde velden toe aan of verwijdert u deze uit de Workfront-planningsrecords. De informatie die aan de verwijderde velden is gekoppeld, blijft in Workfront.
+   Hiermee voegt u gekoppelde velden toe aan of verwijdert u deze uit de planningsrecords van Workfront. De informatie die aan de verwijderde velden is gekoppeld, blijft in Workfront.
 
 
 ### Workfront-planningsrecords verbinden met Adobe Experience Manager-objecten
@@ -297,7 +297,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 >[!IMPORTANT]
 >
->U moet een Adobe Experience Manager Assets-licentie hebben en het Workfront-exemplaar van uw organisatie moet zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console om Workfront-planningsrecords te kunnen verbinden met Adobe Experience Manager Assets.
+>U moet een Adobe Experience Manager Assets-licentie hebben en het Workfront-exemplaar van uw organisatie moet zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console om Workfront Planning-records te kunnen verbinden met Adobe Experience Manager Assets.
 >
 >Als u vragen hebt over instaptoegang tot de Adobe Admin Console, raadpleegt u de [Veelgestelde vragen over Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    >[!TIP]
    >
-   >  U kunt toevoegen klik op **+** op het gekoppelde objectveld op de pagina Details van de record om elementen aan de record te koppelen.
+   >  U kunt toevoegen klik op **+** op het gekoppelde objectveld in de recordpagina om elementen aan de record te koppelen.
 
    De **Elementen selecteren** wordt weergegeven. <!--we might change this to Connect assets-->
 
@@ -331,7 +331,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
    >[!IMPORTANT]
    >
-   > U kunt alleen elementen verbinden die u in Experience Manager kunt bekijken. Zodra verbonden, kunnen alle planningsgebruikers van Workfront de activa in de planning van Workfront bekijken, ongeacht hun toegang in Experience Manager Assets.
+   > U kunt alleen elementen verbinden die u in Experience Manager kunt bekijken. Zodra verbonden, kunnen alle gebruikers van de Planning van Workfront de activa in de Planning van Workfront, ongeacht hun toegang in Experience Manager Assets bekijken.
 
 1. Klikken **Selecteren**. <!-- we might change this to Connect-->
 
@@ -346,7 +346,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
      >
      >* Als u de instelling Meerdere records toestaan hebt ingeschakeld, worden de waarden van de meerdere objecten gescheiden door komma&#39;s of samengevoegd volgens de gekozen aggregator weergegeven.
      >
-     >* Er wordt geen gekoppeld recordveld voor de gekoppelde Experience Manager-elementen in de Experience Manager Assets-toepassing gemaakt voor de Workfront-planningsgekoppelde records.
+     >* Een gekoppeld recordveld naar de aan Workfront Planning gekoppelde records wordt niet gemaakt voor de gekoppelde Experience Manager-elementen in de Experience Manager Assets-toepassing.
 
 1. (Optioneel) Ga naar het recordtype dat u vanuit Experience Manager Assets hebt gekoppeld en klik op de naam van een element in het gekoppelde recordveld. De details van de Experience Manager van de activa tonen in een pop-up venster. <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
    * Gemaakt op
    * Datum gewijzigd
 
-1. (Optioneel) Als u de pagina Details van record voor Experience Manager-elementen in de Experience Manager wilt openen, gaat u naar de pagina met recordtypen van de record waarvan u een koppeling maakt, klikt u op de naam van een element in het gekoppelde recordveld om het pop-upvenster te openen en klikt u vervolgens op de knop **Openen** pictogram ![](assets/open-asset-icon.png) om het element te openen.
+1. (Optioneel) Als u de recordpagina met Experience Manager-elementen in Experience Manager wilt openen, gaat u naar de pagina met recordtypen van de record waarvan u een koppeling maakt, klikt u op de naam van een element in het gekoppelde recordveld om het pop-upvenster te openen en klikt u vervolgens op de knop **Openen** pictogram ![](assets/open-asset-icon.png) om het element te openen.
 
    Hiermee opent u de Experience Manager-asset in Adobe Experience Manager Assets.
 

@@ -1,11 +1,11 @@
 ---
 title: "Weergaven: artikelindex"
-description: U kunt Adobe Workfront-planningsrecords weergeven in een tabel-, tijdlijn- of kalenderweergave. In de volgende artikelen wordt beschreven hoe u Adobe Workfront-planningsrecordweergaven kunt maken en beheren.
+description: U kunt Adobe Workfront-planningsrecords weergeven in een tabel-, tijdlijn- of kalenderweergave. In de volgende artikelen wordt beschreven hoe u recordweergaven voor Adobe Workfront Planning kunt maken en beheren.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
@@ -32,7 +32,7 @@ hide: yes
 
 U kunt Adobe Workfront-planningsrecords weergeven in een tabel-, tijdlijn- of kalenderweergave.
 
-In de volgende artikelen wordt beschreven hoe u recordweergaven kunt maken en beheren in Adobe Workfront-planning:
+In de volgende artikelen wordt beschreven hoe u recordweergaven kunt maken en beheren in Adobe Workfront Planning:
 
 * [Recordweergaven beheren](../views/manage-record-views.md)
 * [De tabelweergave beheren](../views/manage-the-table-view.md)
