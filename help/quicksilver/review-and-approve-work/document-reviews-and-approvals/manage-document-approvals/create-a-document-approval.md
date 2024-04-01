@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Een documentgoedkeuring maken
+title: Een documentrevisie of goedkeuringsaanvraag maken
 description: U kunt goedkeuring aanvragen bij andere gebruikers voor een document in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6a02a7bdb21e79a6b91f81e71b42968d6262cd05
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
-# Een aanvraag voor documentgoedkeuring maken
+# Een documentrevisie of goedkeuringsaanvraag maken
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 U kunt goedkeuring aanvragen bij andere gebruikers of teams voor een document in Adobe Workfront, of ze vragen een document te bekijken zonder het goed te keuren.
 
@@ -50,17 +52,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## Een documentgoedkeuring maken van de documentpagina
+## Een documentrevisie of goedkeuringsaanvraag maken op de documentpagina
 
-1. Ga naar de documentpagina door op de naam van het document te klikken en selecteer vervolgens de versie van het document waarvoor u goedkeuring wilt maken in het versiemkeuzemenu. De meest recente versie wordt standaard geselecteerd.
+1. Houd de muis boven het document en klik vervolgens op Documentdetails.
+   ![](assets/doc-details.png)
 
-1. Selecteren **Goedkeuringen** in het linkerdeelvenster.
 
-1. Om een fiatteur toe te voegen, zorg ervoor dat **Fiatteur** Selectievakje is ingeschakeld en typ vervolgens in het vak **Revisoren** tekstvak. U kunt Workfront-gebruikers of -teams op naam toevoegen. Als u een controleur wilt toevoegen, schakelt u de optie **Fiatteur** Schakel het selectievakje in voordat u gaat typen.
+1. Selecteer bij de documentnaam de versie van het document waarvoor u een goedkeuring wilt maken in het vervolgkeuzemenu. De meest recente versie wordt standaard geselecteerd.
+
+1. Klikken **Goedkeuringen** in het linkerdeelvenster.
+
+1. <span class="preview">(Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.</span>
+
+1. Als u een fiatteur wilt toevoegen, klikt u op de knop **Fiatteur** en begint te typen in een gebruiker- of teamnaam.
+
+1. Als u een revisor wilt toevoegen, klikt u op de knop **Revisor** Schakel het selectievakje in en typ een gebruiker- of teamnaam.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
-## Een documentgoedkeuring maken in het deelvenster Documentoverzicht
+## Een documentrevisie of goedkeuringsaanvraag maken in het deelvenster Documentoverzicht
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
 
@@ -68,7 +80,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Selecteer de versie van het document waarvoor u goedkeuring wilt maken in het vervolgkeuzemenu Versie. De meest recente versie wordt standaard geselecteerd.
 
-1. Omlaag schuiven naar de **Goedkeuringen** in het deelvenster Documentoverzicht. Om een fiatteur toe te voegen, zorg ervoor dat **Fiatteur** Selectievakje is ingeschakeld en typ vervolgens in het vak **Revisoren** tekstvak. U kunt Workfront-gebruikers of -teams op naam toevoegen. Als u een controleur wilt toevoegen, schakelt u de optie **Fiatteur** Schakel het selectievakje in voordat u gaat typen.
+1. Omlaag schuiven naar de **Goedkeuringen** in het deelvenster Documentsamenvatting en klik vervolgens op **Toevoegen**.
+
+![](assets/doc-summary-add-approvers.png)
+
+1. <span class="preview">(Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.</span>
+
+1. Als u een fiatteur wilt toevoegen, klikt u op de knop **Fiatteur** en begint te typen in een gebruiker- of teamnaam.
+
+1. Als u een revisor wilt toevoegen, klikt u op de knop **Revisor** Schakel het selectievakje in en typ een gebruiker- of teamnaam.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
