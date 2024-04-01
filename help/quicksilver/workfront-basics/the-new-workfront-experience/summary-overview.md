@@ -5,16 +5,20 @@ description: U kunt het deelvenster Samenvatting gebruiken om de gegevens van he
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Summary] overzicht
 
-{{preview-and-fast-release}}
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in Production voor klanten die snelle releases hebben ingeschakeld. </span>
+
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 U kunt de [!UICONTROL Summary] om de gegevens van het werkitem rechtstreeks vanuit een lijst met taakproblemen, documenten of andere gebieden van [!DNL Adobe Workfront] die taken en problemen weergeven.
 
@@ -36,6 +40,9 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
   <tr> 
    <td>Taken in de [!UICONTROL Unassigned] en [!UICONTROL Assigned] Werkgebieden van de [!UICONTROL Workload Balancer]</td> 
   </tr> 
+   <tr> 
+   <td>Taken in een [!UICONTROL Timesheet]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemen</td> 
   </tr> 
@@ -53,7 +60,12 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
   <tr data-mc-conditions=""> 
    <td>Problemen in de [!UICONTROL Submitted] van de [!UICONTROL Requests] gebied</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>Problemen in een [!UICONTROL Timesheet]</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>Documenten</td> 
   </tr> 
   <tr data-mc-conditions=""> 

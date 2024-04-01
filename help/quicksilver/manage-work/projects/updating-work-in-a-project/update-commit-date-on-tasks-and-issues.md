@@ -6,12 +6,13 @@ description: U kunt de datum van Vastleggen van een taak of een kwestie manueel 
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
+
 
 # Datums vastleggen bijwerken voor taken en problemen
 
@@ -88,8 +89,11 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * Als u het gebied van de Updates van de erfenis gebruikt, wordt de Eigenaar van het Project op de hoogte gebracht dat u een nieuwe Datum van de Vastlegging voor de taak of de kwestie hebt voorgesteld en kan, op dit ogenblik, de Geplande Datum van de Voltooiing van de taak of de kwestie bijwerken om de Vastleggingsdatum aan te passen u stelde. Deze functionaliteit wordt niet ondersteund in de nieuwe opmerkingervaring. Zie voor meer informatie [De nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * In de meldingen in de app ontvangt de eigenaar van het project een melding dat u een nieuwe datum voor vastleggen hebt voorgesteld voor de taak of uitgave.
+   * De eigenaar van het project wordt in de sectie Updates op de hoogte gesteld van het feit dat u een nieuwe Vastlegdatum hebt voorgesteld en zij kunnen, op dit moment, de Geplande Voltooiingsdatum van de taak of kwestie bijwerken om de Vastleggingsdatum aan te passen u voorstelde. Deze functionaliteit wordt niet ondersteund in de nieuwe opmerkingervaring. Zie voor meer informatie [De nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     Zie de sectie voor informatie over de meldingen en updates die door deze wijziging worden geactiveerd [Meldingen en updates die worden geactiveerd door het wijzigen van de Vastlegdatum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in het artikel [Overzicht van datum vastleggen](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Voor informatie over de berichten en updates die door deze verandering teweeggebracht worden, zie de sectie &quot;Meldingen en updates teweeggebracht door het veranderen van de Datum van het Vastleggen&quot;in het artikel [Overzicht van datum vastleggen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

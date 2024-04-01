@@ -6,9 +6,9 @@ description: U kunt commentaren op timesheets, de het werkpunten inbegrepen in t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,16 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 
    Uw opmerking wordt weergegeven in het dialoogvenster [!UICONTROL Updates] op het tabblad Opmerkingen.
 
-1. (Optioneel) Klik op de knop **Systeemactiviteit** om door het systeem gegenereerde updates te controleren.
+1. (Optioneel) Klik op de knop **Systeemactiviteit** tabblad om door het systeem gegenereerde updates te controleren
+
+   of
+
+   Klik op de knop **Alles** om de systeemactiviteit en gebruikerscommentaren in chronologische volgorde te bekijken.
+
+   >[!TIP]
+   >
+   >   Het tabblad Alles is een alleen-lezen tabblad en u kunt niet reageren op opmerkingen van dat tabblad.
+
 
    Zie voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ U kunt alleen opmerkingen maken over taken en problemen in een tijdsplaat. U kun
 1. Klikken [!UICONTROL **Timesheets**].
 1. Ga naar de tijdpagina waarop u een opmerking wilt maken en klik op [!UICONTROL **Tijdschema**] in het linkerdeelvenster.
 1. Klik op de rij van een taak of een probleem en klik vervolgens op [!UICONTROL **Samenvatting openen**].
-1. Een update typen in het dialoogvenster [!UICONTROL **Updates**] in het deelvenster Samenvatting klikt u op [!UICONTROL **Bijwerken**].
+1. Een update typen in het dialoogvenster [!UICONTROL **Updates**] in het deelvenster Samenvatting klikt u op [!UICONTROL **Verzenden**].
 De update wordt weergegeven in de sectie Updates van de taak en uitgave.
 1. (Optioneel) Klik op [!UICONTROL **Samenvatting sluiten**] om het deelvenster Samenvatting te sluiten.
 

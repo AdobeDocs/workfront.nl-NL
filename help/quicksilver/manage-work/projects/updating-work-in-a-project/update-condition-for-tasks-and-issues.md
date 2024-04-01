@@ -6,9 +6,9 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,7 @@ Voor huidige licenties:
 
 De voorwaarden worden weergegeven als een vlag die is gekoppeld aan taken of problemen. Ze kunnen ook worden gekoppeld aan een getal dat in rapporten kan worden weergegeven in plaats van aan het label. Zie voor meer informatie over het koppelen van voorwaarden aan getallen [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-U kunt de voorwaarde van taken en kwesties op de volgende gebieden de plaats bepalen:
-
-* Het gebied van de Updates van de taak en van de kwestie, binnen van een update, wanneer u aan de taak of de kwestie wordt toegewezen. Dit wordt niet ondersteund in de nieuwe ervaring met opmerkingen. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-* Hiermee worden rapporten en lijsten weergegeven wanneer u het veld Voorwaarde weergeeft in een weergave of Groepering.
+U kunt de Voorwaarde van taken en kwesties in rapporten en lijsten de plaats bepalen wanneer u het gebied van de Voorwaarde in een Mening of Groepering toont.
 
 >[!NOTE]
 >

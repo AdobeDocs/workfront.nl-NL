@@ -9,16 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # Door het systeem bijgehouden updates
 
-{{preview-and-fast-release}}
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -92,12 +96,16 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+     <span class="preview">Voor een lijst met objecten die niet over de tabbladen Systeemactiviteit of Alle beschikken, raadpleegt u [Overzicht van de sectie Bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+
    * <span class="preview">Als u de nieuwe opmerkingervaring gebruikt, kunt u geen opmerkingen toevoegen aan een systeemupdate. Antwoorden die in de oudere opmerkingervaring aan de systeemactiviteitenrecords zijn toegevoegd, worden echter op het tabblad Systeemactiviteit als alleen-lezen ingevuld in de nieuwe opmerkingervaring.</span>
    * Als u de oudere opmerkingervaring gebruikt, worden het systeem en de gebruikersupdates in één doorlopende feed weergegeven.
 
    * Als gebruikers de oudere opmerkingervaring gebruiken, kunnen ze systeemupdates standaard bekijken of ze kunnen ervoor kiezen deze niet weer te geven. Het is niet mogelijk systeemupdates uit te schakelen wanneer u de nieuwe opmerkingervaring gebruikt.
 
      Zie de sectie voor informatie over het uitschakelen van de weergave van systeemupdates [Systeemupdates in- of uitschakelen](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in het artikel [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   * <span class="preview">De oudere opmerkingervaring is uitgeschakeld in de voorvertoningsomgeving. Zie voor meer informatie [Tweede kwartaal 2024: Verbeteringen op gebied van updatestroom en meldingen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 
 * Workfront registreert door het systeem bijgehouden updates voor de volgende objecten, maar er is geen optie om de weergave ervan uit te schakelen:
 

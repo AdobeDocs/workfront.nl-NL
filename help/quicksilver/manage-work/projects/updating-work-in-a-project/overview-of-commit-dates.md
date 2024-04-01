@@ -7,16 +7,14 @@ description: De datum van het Vastleggen is de datum waaraan een gebruiker aan t
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
 
 # Overzicht van datum vastleggen
-
-{{preview-and-fast-release}}
 
 De datum van het Vastleggen is de datum waaraan een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien. Dit is anders dan de geplande afsluitende datum, aangezien het een realistischere schatting is van de afwerkingsdatum die alleen door de met het werk belaste gebruiker wordt gegeven. Voor informatie over de Geplande Datum van Voltooiing, zie [Overzicht van de geplande voltooiing van de taak](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ Wanneer een taak of uitgifteontvanger een Datum selecteert die van het Vastlegge
 
 Als u de datum Vastleggen voor een taak of uitgave instelt, worden de volgende wijzigingen doorgevoerd:
 
-* De datum van het Vastleggen vult in de Stroom van de Update van de taak of de kwestie.
+* De verandering van de Datum van het Vastleggen bevolkt in de Activiteit van het Systeem en de Alle lusjes van de sectie van de Update van de taak of de kwestie.
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   De verandering van de Vastlegdatum toont op het gebied van Updates van de taak of de kwestie wanneer de beheerder van Workfront deze update in het gebied van de Eisen van Updates in Opstelling toelaat. Zie voor meer informatie [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  Als een projecteigenaar de wijziging niet wil accepteren, raden we hem aan om een opmerking terug te sturen naar de gebruiker die een nieuwe datum voorstelt via het tabblad Opmerkingen in de sectie Updates, om hem te vragen om de datum Vastleggen te wijzigen in de oorspronkelijk geplande datum of een nieuwe datum te selecteren. Als een eigenaar van het project de wijziging accepteert, kunnen de geplande voltooiingsdatum handmatig worden aangepast aan de datum die wordt aangeboden door de gebruiker die aan het item is toegewezen door de taak of de uitgave te bewerken.
+
+  U moet toegang hebben om de taak of de uitgave te beheren om hen uit te geven.
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * De geplande datum van voltooiing van de taak of uitgifte is op dezelfde datum vastgesteld, omdat de taak nu nauwkeuriger aangeeft wanneer deze waarschijnlijk zal worden voltooid.
 
@@ -67,27 +80,10 @@ Als u de datum Vastleggen voor een taak of uitgave instelt, worden de volgende w
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Als de eigenaar van het project gebruikmaakt van de oudere opmerkingervaring, wordt op het tabblad Updates gemeld of deze wijziging van invloed is op de tijdlijn van het project. De eigenaar krijgt de gelegenheid om de geplande voltooiingsdatum van de taak in hetzelfde gebied bij te werken.
 
-  Deze functionaliteit wordt niet ondersteund in de nieuwe opmerkingervaring. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  De eigenaar van het project krijgt geen kans om de geplande afsluitdatum van een uitgave bij te werken, aangezien de uitgiftedatums geen invloed hebben op de projecttijdlijn.
 
-  Als een projecteigenaar de wijziging niet wil accepteren, raden we de gebruiker aan een nieuwe datum voor te stellen om hem te vragen de datum voor vastleggen te wijzigen in de oorspronkelijk geplande datum of een nieuwe datum te selecteren. Als een projecteigenaar de wijziging accepteert, kunnen deze handmatig de geplande Voltooiingsdatum aanpassen aan de datum van vastleggen die wordt aangeboden door de gebruiker die aan het item is toegewezen. U kunt ook op **Geplande datum instellen op: &lt; datum >** in het gedeelte Updates waarin automatisch de Geplande Voltooiingsdatum wordt ingesteld op de nieuwe Vastlegdatum.
-
-  U moet toegang hebben om de taak en het project te beheren om deze wijziging te accepteren.
-
-  >[!NOTE]
-  >
-  >Als u wilt zien hoe de tijdlijn van het project wordt beïnvloed door het accepteren van het wijzigen van de geplande Voltooiingsdatum van de taak, klikt u op **Tijdlijn project**. Hierdoor wordt de takenlijst geopend waar u de datumwijzigingen en de projecttijdlijn kunt evalueren.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* De eigenaar van het Project wordt op de hoogte gesteld in het gebied van Meldingen dat een taak datum begaan veranderde.
+* De eigenaar van het Project wordt op de hoogte gesteld in het gebied Meldingen dat een taak of uitgifte datum vastlegt.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 

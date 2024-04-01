@@ -6,9 +6,9 @@ description: U kunt het percentage van voltooiing van een taak bijwerken om de v
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,16 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 * **In de taakkoptekst**: U kunt het percentage van een taak bijwerken in de taakkoptekst. Zie voor meer informatie [Taken bewerken](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **In het deelvenster Samenvatting van een taak**: U kunt het percentage van een taak dat is voltooid boven in het deelvenster Overzicht bijwerken wanneer u de taak in de volgende gebieden weergeeft:
+
+   * Taaklijst of rapport
+   * Tijdschema
+   * Werklastverdeling
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  Zie voor meer informatie [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## Overwegingen bij het bijwerken van het percentage voltooide taken
