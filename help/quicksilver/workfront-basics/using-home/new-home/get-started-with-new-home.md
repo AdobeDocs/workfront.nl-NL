@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,6 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
 
 * **Alle goedkeuringen**\
         <span class="preview"> Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen.</span> <span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span>
-
-* **Goedkeuringen in behandeling**\
-    De goedkeuringen van vertoningen die aan een document op een project worden toegewezen u bezit. Hier kunt u de goedkeuringsstatus weergeven en gebruikers herinneren aan onvolledige beoordelingen en goedkeuringen. <span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span>
 
 * **Opmerkingen**\
     Geeft recente commentaarthreads van over Workfront weer, net als de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.

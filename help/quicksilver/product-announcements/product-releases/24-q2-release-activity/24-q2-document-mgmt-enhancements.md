@@ -4,9 +4,10 @@ description: Verbeteringen in documentbeheer, tweede kwartaal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,10 @@ ht-degree: 0%
 Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release van het tweede kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het tweede kwartaal van 2024.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>De functies die op deze pagina worden vermeld, maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
 
 ## Een deadline toevoegen aan documentrevisies en -goedkeuringen
 
@@ -47,10 +52,6 @@ U kunt goedkeuringssjablonen toepassen vanuit het gebied Documenten wanneer u ee
 >[!NOTE]
 >
 >Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: met de release van 24.4 (april 2024)
-
->[!IMPORTANT]
->
->Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.
 
 Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, hebben wij de volgende belangrijke prestatiesindicatoren aan Al widget van Goedkeuringen toegevoegd:
 
