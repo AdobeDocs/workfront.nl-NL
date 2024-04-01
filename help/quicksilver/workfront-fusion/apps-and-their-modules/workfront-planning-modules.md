@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ Deze triggermodule start een scenario wanneer een record, recordtype of werkruim
       <td role="rowheader">[!UICONTROL Object type]</td>
       <td>Selecteer of u records, recordtypen of werkruimten wilt bekijken.</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[!UICONTROL Events filters]</p> </td> 
+      <td> <p>U kunt filters instellen om alleen te controleren op records die voldoen aan de criteria die u selecteert.</p> <p>Voer voor elk filter het veld in dat door het filter moet worden geëvalueerd, de operator en de waarde die door het filter moet worden toegestaan. U kunt meer dan één filter gebruiken door EN regels toe te voegen.</p> <p>Opmerking: u kunt filters niet bewerken in bestaande [!DNL Workfront] webhaken. Verschillende filters instellen voor [!DNL Workfront] -gebeurtenisabonnementen, verwijder de huidige webhaak en maak een nieuwe.</p> <p>Zie voor meer informatie over gebeurtenisfilters <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Abonnementsfilters voor gebeurtenissen in het dialoogvenster [!DNL Workfront] &gt; [!UICONTROL Watch Events] modules</a> in het Workfront-moduleartikel.</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objects to watch]</td>
       <td>Selecteer of u op nieuw wilt letten. bijgewerkte, nieuwe en bijgewerkte of verwijderde records.</td>
