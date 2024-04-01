@@ -7,9 +7,10 @@ description: U kunt bepalen welke secties van een aangepast formulier moeten wor
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ De logica van de vertoning bepaalt welke douanevelden op de vorm verschijnen wan
 
 >[!NOTE]
 >
->De logica voor weergave is tijdelijk niet beschikbaar wanneer u een voorbeeld van het formulier bekijkt in de formulierontwerper.
+><span class="preview">De logica voor weergave is alleen beschikbaar wanneer u een voorbeeld van het formulier bekijkt in de ontwerpomgeving van het formulier.</span>
 
 ## Logica voor overslaan toevoegen aan een aangepast formulier
 
@@ -158,4 +159,4 @@ De logica Overslaan definieert aangepaste formuliervelden die worden overgeslage
 
 >[!NOTE]
 >
->Logica voor overslaan is tijdelijk niet beschikbaar wanneer u een voorbeeld van het formulier weergeeft in de formulierontwerper.
+><span class="preview">De logica voor overslaan is alleen beschikbaar wanneer u een voorbeeld van het formulier weergeeft in de formulierontwerper in de voorbeeldomgeving.</span>
