@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
+source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
 workflow-type: tm+mt
-source-wordcount: '5867'
+source-wordcount: '5942'
 ht-degree: 0%
 
 ---
@@ -736,6 +736,47 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
 ### Native Workfront-velden toevoegen
 
 U kunt eigen Workfront-velden toevoegen aan uw aangepaste formulieren. Wanneer het aangepaste formulier aan een object is gekoppeld, wordt het veld gevuld met de objectgegevens. Het veld Beschrijving op een aangepast formulier dat aan een project is gekoppeld, wordt bijvoorbeeld toegevoegd aan de projectbeschrijving. (Het veld mag &quot;N.v.t.&quot; weergeven als er geen gegevens beschikbaar zijn.)
+
++++ **Uitvouwen om de lijst met ondersteunde native velden weer te geven**
+
+* Werkelijke afsluitdatum
+* Werkelijke duur
+* Werkelijke uren
+* Werkelijke begindatum
+* Bedrijf
+* Voorwaarde
+* Type voorwaarde
+* Beschrijving
+* Duur
+* Duur
+* Duur-eenheid
+* Ingevoerd door
+* Invoerdatum
+* Groep
+* Laatst bijgewerkt op
+* Datum laatste update
+* Naam
+* Eigenaar
+* Geplande afsluitdatum
+* Geplande duur
+* Geplande uren
+* Geplande begindatum
+* Portfolio
+* Prioriteit
+* Programma
+* Geprojecteerde afsluitdatum
+* Geprojecteerde tijdsminuten
+* Geprojecteerde begindatum
+* Referentienummer
+* Planningsmodus
+* Ernst
+* Sponsor
+* Status
+* Artikelpunten
+* Sjabloon
+* URL
+
++++
 
 1. Op de linkerkant van het scherm, vind **Oorspronkelijk veld** en sleep het naar een sectie op het canvas.
 1. Configureer rechts in het scherm de opties voor het aangepaste veld:
