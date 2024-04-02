@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
+<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
@@ -113,7 +113,7 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 
    * Herhalingen
 
-     Er is geen optie om de nieuwe opmerkingervaring voor herhalingen in te schakelen.
+     Er is geen optie om de nieuwe opmerkingervaring voor herhalingen in te schakelen. Zie voor meer informatie [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 ### Overzicht van de sectie Updates in de nieuwe opmerkingervaring
 

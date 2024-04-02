@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d2539f19a3c6c1e15e33c622e463b3a0875fcf2e
+source-git-commit: ca65f2720204a9616a849036834e2bf40a60150c
 workflow-type: tm+mt
 source-wordcount: '14076'
 ht-degree: 0%
@@ -1069,7 +1069,7 @@ ht-degree: 0%
          * [Artikelen toevoegen aan een bestaande herhaling](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Een herhaling weergeven](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Een herhaling verwijderen](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-         * [Herhalingsupdates beheren](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+         * [Herhalingsopmerkingen beheren](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
       * Schuifbord {#scrum-board}
          * [Schuifbord](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Overzicht van het tekengebied](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)

@@ -8,7 +8,7 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -25,4 +25,4 @@ Deze sectie bevat de volgende artikelen:
 * [Artikelen toevoegen aan een bestaande herhaling](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [Een herhaling weergeven](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [Een herhaling verwijderen](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-* [Herhalingsupdates beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+* [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)

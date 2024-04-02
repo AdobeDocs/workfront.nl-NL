@@ -7,16 +7,20 @@ description: De datum van het Vastleggen is de datum waaraan een gebruiker aan t
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
 
 # Overzicht van datum vastleggen
 
-De datum van het Vastleggen is de datum waaraan een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien. Dit is anders dan de geplande afsluitende datum, aangezien het een realistischere schatting is van de afwerkingsdatum die alleen door de met het werk belaste gebruiker wordt gegeven. Voor informatie over de Geplande Datum van Voltooiing, zie [Overzicht van de geplande voltooiing van de taak](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+De datum van het Vastleggen is de datum waaraan een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien.
+
+Dit is anders dan de geplande afsluitende datum van een taak of uitgifte, aangezien het een realistischere schatting is van de afsluitende datum die alleen door de met het werk belaste gebruiker wordt gegeven.
+
+Voor informatie over de Geplande Datum van Voltooiing, zie [Overzicht van de geplande voltooiing van de taak](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Overzicht van datum vastleggen
 
@@ -29,6 +33,7 @@ Houd rekening met het volgende wanneer u werkt met datums toewijzen:
 
    * Laat Workfront de Vastlegdatum plaatsen om de bestaande Geplande Datum van Voltooiing van de taak of de kwestie te passen door het Werk aan het, Uitgave van het Begin, of Taak van het Begin op de taak of de kwestie te klikken. Voor informatie over het vervangen van het Werk aan het knoop door een knoop van het Begin, zie  [De knop Aan de werkbalk vervangen door de knop Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Stel handmatig de datum voor vastleggen in op basis van het tijdstip waarop de taak of uitgave mogelijk is voltooid. Dit is uw schatting en uw verplichting, als toegewezen, aan de Projectleider dat u de taak of de kwestie tegen een bepaalde datum zult hebben voltooid.
+Zie voor meer informatie [Datums vastleggen bijwerken voor taken en problemen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ Houd rekening met het volgende wanneer u werkt met datums toewijzen:
 >* Elke andere aangewezen persoon
 >* Een andere gebruiker met machtigingen voor de taak.
 >
->Zie de sectie voor meer informatie over de Taakeigenaar [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in het artikel [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Voor meer informatie over de Taakeigenaar, zie [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Meldingen en updates die worden geactiveerd door het wijzigen van de Vastlegdatum {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-Wanneer een taak of uitgifteontvanger een Datum selecteert die van het Vastleggen verschilt dan de Geplande Datum van de Voltooiing die door de Eigenaar van het Project wordt geplaatst, zijn er een aantal berichten en updates die de Eigenaar van het Project en andere gebruikers van deze verandering waarschuwen.
+Wanneer een taak of een uitgave wordt toegewezen manueel een Datum van het Vastleggen in een datum verandert die verschillend is dan de Geplande Datum van de Voltooiing die door de Eigenaar van het Project wordt geplaatst, zijn er een aantal berichten en updates die de Eigenaar van het Project en andere gebruikers van deze verandering waarschuwen.
 
 >[!NOTE]
 >
 >Wijzigingen in de datum van vastleggen veranderen niet automatisch de geplande datums en wijzigingen in de geplande datums veranderen niet automatisch de datum van vastleggen.
 
-Als u de datum Vastleggen voor een taak of uitgave instelt, worden de volgende wijzigingen doorgevoerd:
+Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de volgende wijzigingen doorgevoerd:
 
 * De verandering van de Datum van het Vastleggen bevolkt in de Activiteit van het Systeem en de Alle lusjes van de sectie van de Update van de taak of de kwestie.
 
@@ -80,9 +85,6 @@ Als u de datum Vastleggen voor een taak of uitgave instelt, worden de volgende w
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * De eigenaar van het Project wordt op de hoogte gesteld in het gebied Meldingen dat een taak of uitgifte datum vastlegt.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ Als u de datum Vastleggen voor een taak of uitgave instelt, worden de volgende w
   >[!TIP]
   >
   >Het bericht dat de Datum van het Vastleggen is veranderd wordt verzonden naar de Eigenaar van het Project slechts wanneer de beheerder van Workfront het tonen van de Datum van het Vastleggen in het gebied van de Eigendommen van Updates in Opstelling toelaat. Zie voor meer informatie [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie  [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

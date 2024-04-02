@@ -6,16 +6,16 @@ description: We raden u aan sjablonen die u niet meer gebruikt, te deactiveren i
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # Projectsjablonen verwijderen
 
-We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Voor informatie over het deactiveren van een sjabloon raadpleegt u [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Zie voor informatie over het deactiveren van een sjabloon [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot sjablonen bewerken die toegang tot Verwijderen bevatten</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot sjablonen bewerken die toegang tot Verwijderen bevatten</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -59,7 +59,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een sjabloon verwijderen
 
-1. Van de **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Sjablonen**. Hiermee wordt een lijst met sjablonen geopend
+{{step1-to-templates}}
+
+Hiermee wordt een lijst met sjablonen geopend
 
 1. Selecteer de sjabloon die u wilt verwijderen door op het selectievakje links van de sjabloonnaam te klikken en klik vervolgens op **Verwijderen > Ja, verwijderen** om de schrapping te bevestigen.
 

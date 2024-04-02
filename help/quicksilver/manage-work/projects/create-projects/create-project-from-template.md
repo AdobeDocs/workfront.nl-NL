@@ -6,9 +6,9 @@ description: U kunt sjablonen als een framework gebruiken om projecten te maken 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,10 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 ## Creeer een project van een malplaatje in het gebied van Projecten
 
 U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of van het gebied van Projecten van een portefeuille of een programma tot stand brengen.
+
+>[!NOTE]
+>
+>Uw systeem of groepsbeheerder zou uw interface kunnen wijzigen gebruikend een lay-outmalplaatje. In dit geval kunnen sommige namen van de secties en gebieden waarnaar in de volgende stappen wordt verwezen, anders zijn in uw exemplaar van Workfront.
 
 1. Voer een van de volgende handelingen uit:
 
