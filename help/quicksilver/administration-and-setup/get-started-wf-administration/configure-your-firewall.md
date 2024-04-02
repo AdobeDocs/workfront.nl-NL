@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1199551f9ffb802a5691f6986cd855064a921d08
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,6 @@ Zie de sectie voor meer informatie [Het cluster- en Workfront-plan van uw organi
 * [IP adressen om verbeterde authentificatie toe te staan](#ip-addresses-to-allow-for-enhanced-authentication)
 * [IP-adressen die moeten worden toegevoegd voor toegang tot Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [IP adressen om voor het gebruiken van Workfront voor Jira toe te voegen](#ip-addresses-to-add-for-using-workfront-for-jira)
-* [IP-adressen die moeten worden toegevoegd voor gebruik van Workfront Ascent](#ip-addresses-to-add-for-using-workfront-ascent)
 * [URL&#39;s die moeten worden toegevoegd voor alle clusters Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### IP-adressen voor clusters 1, 2, 3, 5, 7, 8 en 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -431,38 +430,6 @@ Het domein jira.workfront.com moet ook toegankelijk zijn vanaf uw bedrijfsserver
      <li>35 160 0 242 </li> 
      <li>3 209 27 146</li> 
      <li>18 205 251,4</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### IP-adressen die moeten worden toegevoegd voor gebruik van Workfront Ascent {#ip-addresses-to-add-for-using-workfront-ascent}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Toegang tot Workfront-trainingsbronnen via Workfront Ascent</td> 
-   <td> 
-    <ul> 
-     <li>18 223 140,34</li> 
-     <li>3.13.223,30</li> 
-     <li>3.13.19.112</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">E-mailberichten van Workfront Ascent ontvangen</td> 
-   <td> 
-    <ul> 
-     <li>23 251 227,75</li> 
-     <li>23 251 227,76</li> 
-     <li>23 251 227,77</li> 
-     <li>23 251 227,78</li> 
-     <li>23 251 227,79</li> 
-     <li>23 251 227 80</li> 
-     <li>23 251 227,81</li> 
-     <li>23 251 227,82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

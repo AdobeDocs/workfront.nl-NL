@@ -5,9 +5,9 @@ title: De [!DNL Adobe Workfront] Gemeenschap
 description: TheAdobe [!DNL Workfront] Community is een online groep van meer dan 10.000 [!DNL Workfront] gebruikers. Door de gemeenschap kunt u bijgewerkt op productversies blijven, over klantengebeurtenissen leren, en met andere gebruikers over spreken [!DNL Workfront] producten en diensten. U zult antwoorden aan vragen vinden en verbindingen met andere vestigen [!DNL Workfront] klanten.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ TheAdobe [!DNL Workfront] Community is een online groep van meer dan 10.000 [!DN
 
 ### Contactpersoon geautoriseerde ondersteuning {#authorized-support-contact}
 
-Als u een geautoriseerd contact van de Steun (ASC) bent, hebt u login geloofsbrieven voor [!UICONTROL Help Desk], [!UICONTROL Innovation Lab], en [!DNL Workfront] [!UICONTROL Ascent]. U kunt dezelfde gegevens gebruiken om u aan te melden bij de [!DNL Workfront] Gemeenschap. In dit geval laat u het subdomein leeg.
+Als u een geautoriseerde contactpersoon voor ondersteuning (ASC) bent, hebt u aanmeldingsgegevens voor de [!UICONTROL Help Desk], en [!UICONTROL Innovation Lab]. U kunt dezelfde gegevens gebruiken om u aan te melden bij de [!DNL Workfront] Gemeenschap. In dit geval laat u het subdomein leeg.
 
 ![community_4.png](assets/community-4-350x129.png)
 
@@ -44,16 +44,14 @@ Als u geen contactpersoon voor geautoriseerde ondersteuning bent, kunt u zich aa
 
 Als uw bedrijf SSO gebruikt, moet u bereiken aan [!DNL Workfront] Klantenondersteuning via telefoon om een account aan te vragen. Als u geen ticket kunt verzenden of geen live chat kunt beginnen, neemt u contact op met uw geautoriseerde [!DNL Workfront] Neem contact op met Customer Support.
 
-Als u al een account hebt ingesteld in de Ascent Training, kunt u dezelfde gegevens gebruiken voor toegang tot de communautaire site (in dit geval het subdomein leeg laten).
-
 Als u uw wachtwoord voor de Community-site niet onthoudt, kunt u het beste contact opnemen met [!DNL Workfront Customer Support] en ze kunnen je helpen.
 
 ## Veelgestelde vragen
 
 * [Wat is mijn subdomein?](#what-s-my-subdomain)
-* [Ik ben mijn gebruikersnaam of wachtwoord vergeten. Hoe kan ik mijn gebruikersnaam of wachtwoord opnieuw instellen?](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
+* [Mijn gebruikersnaam of wachtwoord vergeten. Hoe kan ik mijn gebruikersnaam of wachtwoord opnieuw instellen?](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
 
-### Wat is URL voor [!DNL Workfront] Community?
+### Wat is URL voor [!DNL Workfront] Communautair?
 
 De [!DNL Workfront] De Gemeenschap is beschikbaar op [!DNL Adobe Experience League] website op de volgende URL:  [[!DNL Workfront] Gemeenschap](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
@@ -63,6 +61,6 @@ Als u niet bekend bent met het subdomein, kunt u het gemakkelijk vinden. Als u b
 
 ![community_5.png](assets/community-5-350x175.png)
 
-### Ik ben mijn gebruikersnaam of wachtwoord vergeten. Hoe kan ik mijn gebruikersnaam of wachtwoord opnieuw instellen? {#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password}
+### Mijn gebruikersnaam of wachtwoord vergeten. Hoe kan ik mijn gebruikersnaam of wachtwoord opnieuw instellen? {#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password}
 
 Als u uw gebruikersnaam of wachtwoord bent vergeten, neemt u contact op met de technische ondersteuning en een vertegenwoordiger om uw gegevens opnieuw in te stellen.

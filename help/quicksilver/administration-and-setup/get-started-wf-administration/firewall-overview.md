@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Geef uw netwerkbeheerder de volgende informatie:
  <tbody> 
   <tr> 
    <td role="rowheader">Specifieke IP-adressen en -domeinen die zijn toegestaan</td> 
-   <td> <p>Het artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">De lijst van gewenste personen van uw firewall configureren</a> bevat de lijst van IP adressen en domeinen die uw organisatie aan zijn lijst van gewenste personen moet toevoegen. </p> <p>Uw netwerkbeheerder heeft mogelijk geen toegang tot het artikel "Uw firewall configureren". In dat geval moet u het aan hen verstrekken. We raden u niet aan een papieren kopie af te drukken. Met een digitale kopie kan uw netwerkbeheerder de adressen kopiëren en plakken. Dit is sneller en nauwkeuriger dan het typen van een gedrukte kopie.</p> </td> 
+   <td> <p>Het artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">De lijst van gewenste personen van uw firewall configureren</a> bevat de lijst van IP adressen en domeinen die uw organisatie aan zijn lijst van gewenste personen moet toevoegen. </p> <p>Uw netwerkbeheerder heeft mogelijk geen toegang tot het artikel "lijst van gewenste personen van uw firewall configureren". In dat geval moet u het aan hen verstrekken. We raden u niet aan een papieren kopie af te drukken. Met een digitale kopie kan uw netwerkbeheerder de adressen kopiëren en plakken. Dit is sneller en nauwkeuriger dan het typen van een gedrukte kopie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uw cluster</td> 
-   <td>Als u de cluster van uw organisatie wilt opzoeken, raadpleegt u <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Het cluster- en Workfront-plan van uw organisatie weergeven</a></td> 
+   <td>Als u de cluster van uw organisatie wilt opzoeken, raadpleegt u <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Het cluster- en Workfront-plan van uw organisatie weergeven</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Je Workfront-abonnement</td> 
@@ -75,7 +75,7 @@ Geef uw netwerkbeheerder de volgende informatie:
    <td role="rowheader">Adobe Workfront-integratie</td> 
    <td>Stel uw netwerkbeheerder op de hoogte als u een van de volgende methoden gebruikt:
     <ul>
-     <li><p><p>Workfront voor Jira</p></p></li>
+     <li><p>Workfront voor Jira</p></li>
      <li><p>Workfront for G Suite</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
@@ -84,11 +84,10 @@ Geef uw netwerkbeheerder de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Aanvullende functionaliteit</td> 
-   <td> <p>Stel uw netwerkbeheerder op de hoogte als u een van de volgende twee methoden gebruikt:</p> 
+   <td> <p>Stel uw netwerkbeheerder op de hoogte als u het volgende gebruikt:</p> 
     <ul> 
      <li> <p>Een Workfront-teststation</p> </li> 
-     <li> <p>Workfront Ascent</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Geef uw netwerkbeheerder de volgende informatie:
 
 ### Het cluster- en Workfront-plan van uw organisatie weergeven {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
 
 1. Klikken **Systeem** in het linkerdeelvenster
 1. Selecteer **Klantgegevens**.
