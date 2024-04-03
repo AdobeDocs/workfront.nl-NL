@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
+source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
 workflow-type: tm+mt
-source-wordcount: '5942'
+source-wordcount: '6079'
 ht-degree: 0%
 
 ---
@@ -739,42 +739,48 @@ U kunt eigen Workfront-velden toevoegen aan uw aangepaste formulieren. Wanneer h
 
 +++ **Uitvouwen om de lijst met ondersteunde native velden weer te geven**
 
-* Werkelijke afsluitdatum
-* Werkelijke duur
-* Werkelijke uren
-* Werkelijke begindatum
-* Bedrijf
-* Voorwaarde
-* Type voorwaarde
-* Beschrijving
-* Duur
-* Duur
-* Duur-eenheid
-* Ingevoerd door
-* Invoerdatum
-* Groep
-* Laatst bijgewerkt op
-* Datum laatste update
-* Naam
-* Eigenaar
-* Geplande afsluitdatum
-* Geplande duur
-* Geplande uren
-* Geplande begindatum
-* Portfolio
-* Prioriteit
-* Programma
-* Geprojecteerde afsluitdatum
-* Geprojecteerde tijdsminuten
-* Geprojecteerde begindatum
-* Referentienummer
-* Planningsmodus
-* Ernst
-* Sponsor
-* Status
-* Artikelpunten
-* Sjabloon
-* URL
+Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Workfront-objecten in een aangepast formulier.
+
+| Veldnaam | Project | Taak | Probleem | Sjabloon | Sjabloontaak | Portfolio | Programma | Groep |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Werkelijke afsluitdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Werkelijke duur | ✓ |   |   |   |   |   |   |   |
+| Werkelijke uren | ✓ |   | ✓ |   |   |   |   |   |
+| Werkelijke begindatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Bedrijf | ✓ |   |   | ✓ |   |   |   |   |
+| Voorwaarde | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Type voorwaarde | ✓ |   |   | ✓ |   |   |   |   |
+| Beschrijving | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Duur |   | ✓ |   |   | ✓ |   |   |   |
+| Duur |   | ✓ |   |   | ✓ |   |   |   |
+| Duur-eenheid |   | ✓ |   |   | ✓ |   |   |   |
+| Ingevoerd door | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Invoerdatum | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Groep | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Laatst bijgewerkt op | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Datum laatste update | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Naam | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Eigenaar | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Geplande afsluitdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Geplande duur | ✓ |   |   | ✓ |   |   |   |   |
+| Geplande uren | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Geplande begindatum | ✓ |   |   |   |   |   |   |   |
+| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Prioriteit | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Programma | ✓ |   |   | ✓ |   |   |   |   |
+| Geprojecteerde afsluitdatum | ✓ | ✓ |   |   |   |   |   |   |
+| Geprojecteerde tijdsminuten |   | ✓ |   |   |   |   |   |   |
+| Geprojecteerde begindatum | ✓ | ✓ |   |   |   |   |   |   |
+| Referentienummer | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Planningsmodus | ✓ |   |   | ✓ |   |   |   |   |
+| Ernst |   |   | ✓ |   |   |   |   |   |
+| Sponsor | ✓ |   |   | ✓ |   |   |   |   |
+| Status | ✓ | ✓ |   |   |   |   |   |   |
+| Artikelpunten |   | ✓ |   |   |   |   |   |   |
+| Sjabloon | ✓ |   |   |   |   |   |   |   |
+| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
+
+{style="table-layout:auto"}
 
 +++
 
