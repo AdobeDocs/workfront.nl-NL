@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Herhalingen
-description: Lees deze artikelen voor meer informatie over het gebruik van herhalingen.
+description: De volgende artikelen beschrijven hoe u herhalingen kunt gebruiken wanneer u in een omgeving Scrum werkt.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
 # Herhalingen
 
-Deze sectie bevat de volgende artikelen:
+In de volgende artikelen wordt beschreven hoe u herhalingen kunt gebruiken wanneer u in een Scrum-omgeving in Adobe Workfront werkt:
 
 * [Overzicht van herhalingen](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [Een herhaling maken](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)

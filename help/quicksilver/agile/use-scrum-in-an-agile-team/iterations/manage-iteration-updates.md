@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Herhalingsopmerkingen beheren
-description: U kunt updates aan een herhaling toevoegen om met anderen in Adobe Workfront samen te werken.
+description: U kunt updates aan een herhaling toevoegen wanneer het werken in een milieu van de Trommel om met anderen in Adobe Workfront samen te werken.
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
 
 # Herhalingsopmerkingen beheren
 
-U kunt updates aan een herhaling toevoegen om met anderen in Adobe Workfront samen te werken.
+U kunt updates aan een herhaling toevoegen wanneer het werken in een milieu van de Trommel, om met anderen in Adobe Workfront samen te werken.
 
 ## Updates beheren voor een herhaling
 

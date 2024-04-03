@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ Zie voor informatie over opmerkingen over doelen [Doelopmerkingen beheren in Ado
 
 Zie voor meer informatie over opmerkingen over kaarten in het gebied Boards [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md).
 
+Zie voor informatie over opmerkingen over herhalingen [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## Toegangsvereisten
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
@@ -172,6 +176,8 @@ U kunt updates toevoegen aan de volgende objecten:
 * Doelen
 * Kaarten in het gebied van de kamers
 * Herhalingen
+
+<!--info for April 11: hide the section below completely:-->
 
 ### Een update toevoegen aan een werkitem in de sectie Oudere updates
 
@@ -232,6 +238,8 @@ U kunt updates toevoegen aan de volgende objecten:
    >Als uw Workfront-beheerder de instelling Nooit toestaan dat gebruikers opmerkingen verwijderen selecteert in uw toegangsniveau, kunt u een opmerking niet ongedaan maken. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. Als u wilt reageren op een update, raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### Een update aan een tijdelijk item toevoegen met de nieuwe opmerkingervaring
 
@@ -463,6 +471,8 @@ U kunt een update op verschillende manieren kopiëren. Nadat u een koppeling heb
 
 Het kopiëren van een update is afhankelijk van de manier waarop u opmerkingen maakt.
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### Een update kopiëren in de nieuwe opmerkingervaring
 
 Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ Met de antwoordoptie Citaat kopieert u de oorspronkelijke opmerking naar een nie
 
 1. Voeg je update toe en klik op **Verzenden** om de opmerking toe te voegen.
 
-### Een update kopiëren in de oudere opmerkingervaring
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### Een update kopiëren in de oudere opmerkingervaring
 
 * [De update kopiëren](#copy-the-update)
 * [De koppeling voor de verbinding met de verbinding kopiëren](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Geen enkele Workfront-gebruiker (inclusief de Workfront-beheerder) kan updates v
 
 -->
 
-
-
-## Systeemupdates in- of uitschakelen
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->Het is niet mogelijk systeemupdates uit te schakelen wanneer u de nieuwe opmerkingervaring gebruikt.
->De informatie in deze sectie verwijst slechts naar functionaliteit beschikbaar in de sectie van erfenisUpdates. &lt;!—verwijder deze sectie wanneer wij erfenis uit het systeem verwijderen->
->Ga voor meer informatie over systeemupdates in de nieuwe opmerkingervaring naar [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## Systeemupdates controleren
 
 In de sectie Updates van een Workfront-object worden twee soorten gegevens weergegeven:
 
-* **Gebruikers: updates:** De updates van de gebruiker zijn commentaren die u en andere gebruikers in uw systeem ingaan. <!--October 2023 - new screen shot -->
+* **Gebruikers: updates:** De updates van de gebruiker zijn commentaren die u en andere gebruikers in uw systeem ingaan. De gebruikersupdates worden weergegeven in de tabbladen Opmerkingen en Alle van de sectie Updates.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Systeemupdates:** Bij systeemupdates worden het verwijderen van elementen vastgelegd, versies toegevoegd of verwijderd, een goedkeuringsaanvraag bijgevoegd of verwijderd, en eventuele wijzigingen die in de documenten op het object zijn aangebracht. <!--October 2023 - new screen shot -->
+* **Systeemupdates:** Bij systeemupdates worden taken of problemen verwijderd, documentversies toegevoegd of verwijderd, een goedkeuringsaanvraag bijgevoegd of verwijderd, en eventuele bewerkingen of wijzigingen die in het object zijn aangebracht. De updates van het systeem tonen in de Activiteit van het Systeem en de Alle lusjes van de sectie van Updates.
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Afhankelijk van uw Workfront-licentie zijn systeemupdates mogelijk standaard ingeschakeld. Workfront-beheerders kunnen bepalen wat wordt bijgehouden in systeemupdates, zoals wordt uitgelegd in [Door het systeem bijgehouden updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). U kunt ook systeemupdates of -activiteiten uitfilteren, zodat alleen gebruikersupdates voor alle objecten worden weergegeven.
+  Workfront-beheerders kunnen bepalen wat wordt bijgehouden in systeemupdates, zoals wordt uitgelegd in [Door het systeem bijgehouden updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). U kunt ook systeemupdates of -activiteiten uitfilteren, zodat alleen gebruikersupdates voor alle objecten worden weergegeven.
 
   De volgende objecten hebben geen door het systeem gegenereerde updates:
 
@@ -653,19 +651,6 @@ In de sectie Updates van een Workfront-object worden twee soorten gegevens weerg
    * Sjabloon
    * Sjabloontaak
 
-Zo schakelt u systeemupdates in of uit:
-
-1. Klik op de knop **Updates** op een object.
-1. Klikken **Systeemupdates tonen** om de schakelaar links (gehandicapt) of juist (toegelaten) te schuiven.
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   Deze optie is overal in Workfront blijvend en blijft in de positie staan die u selecteert, zelfs als u zich afmeldt bij Workfront.
-
-   >[!TIP]
-   >
-   >   Objecten die geen systeemupdates opnemen, beschikken niet over de optie Systeemupdates tonen in het gebied Updates.
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+Zie voor meer informatie over systeemupdates in de sectie Updates [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Overzicht van datum vastleggen
-description: De datum van het Vastleggen is de datum waaraan een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien. Dit is anders dan de geplande afsluitende datum, aangezien het een realistischere schatting is van de afwerkingsdatum die alleen door de met het werk belaste gebruiker wordt gegeven. Voor informatie over de Geplande Datum van de Voltooiing, zie Overzicht van de taak Geplande Datum van de Voltooiing.
+description: De datum van het Vastleggen is de datum waaraan een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien. Dit is anders dan de geplande afsluitende datum, aangezien het een realistischere schatting is van de afwerkingsdatum die wordt gegeven door de gebruiker die rechtstreeks met het werk is belast.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---

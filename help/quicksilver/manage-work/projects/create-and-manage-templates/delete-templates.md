@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Projectsjablonen verwijderen
-description: We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Voor informatie over het deactiveren van een malplaatje, zie projectmalplaatjes uitgeven.
+description: We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden.
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

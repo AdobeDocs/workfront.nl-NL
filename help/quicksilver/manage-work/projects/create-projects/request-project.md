@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Een project aanvragen
-description: U kunt verzoeken dat een project wordt goedgekeurd voordat u eraan gaat werken. We raden u aan een Business Case-case voor een nieuw project te maken, zodat u een aantal van de belangrijkste punten die u wilt bereiken, kunt omschrijven door het te voltooien, en uw arbeids- en kostenbudget aan uw management te presenteren. Het invullen van de bedrijfscase en het ter goedkeuring voorleggen van het project voltooit de formele aanvraag voor het project. Na het voorleggen van het bedrijfscase voor goedkeuring wordt de status van het project Gevraagd.
+description: U kunt verzoeken dat een project wordt goedgekeurd voordat u eraan gaat werken. Wij adviseren het bouwen van een BedrijfsGeval voor een nieuw project zodat u enkele belangrijkste punten kunt schetsen u door het te voltooien wilt bereiken, en aan uw managementteam uw arbeids en uitgavenbegroting presenteren. Het invullen van de bedrijfscase en het ter goedkeuring voorleggen van het project voltooit de formele aanvraag voor het project. Na het voorleggen van het bedrijfscase voor goedkeuring wordt de status van het project Gevraagd.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---

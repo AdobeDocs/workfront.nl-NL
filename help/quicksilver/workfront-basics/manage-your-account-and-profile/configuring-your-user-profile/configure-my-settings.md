@@ -6,9 +6,9 @@ description: Uw [!DNL Adobe Workfront] bevat informatie over uzelf (bijvoorbeeld
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: a750d2707699e1d4783d950807138a74baf78715
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Mijn instellingen configureren
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -344,8 +346,8 @@ In deze subsectie kunt u de volgende opties wijzigen:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
    <td>Selecteer deze optie als u een procent volledige balk wilt weergeven in het gedeelte Updates van uw taken wanneer u de oudere opmerkingervaring gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.
-
-</td> 
+  <p><span class="preview">Deze optie is verwijderd uit de voorvertoningsomgeving.</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 

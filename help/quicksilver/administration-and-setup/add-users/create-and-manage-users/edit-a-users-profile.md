@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3334'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <p>Deze optie is alleen beschikbaar in de omgeving van Voorvertoning en Sandbox. E-mailmeldingen zijn standaard ingeschakeld in de productieomgeving. </p>
       </li>
 
-   <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van de taken van deze gebruiker wanneer u de oudere opmerkingervaring gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.</li> 
+   <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van de taken van deze gebruiker wanneer u de oudere opmerkingervaring gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.
+      <p><span class="preview">Deze optie is verwijderd uit de voorvertoningsomgeving.</span></p>
+
+   </li> 
        <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruiker aan zichzelf toewijst, rechtstreeks wordt weergegeven in de lijst Werken aan in het gebied Start. Standaard wordt alles vermeld dat aan een gebruiker is toegewezen op de lijsten Ready to Start of Not Ready in het gebied Home.</li> 
        <li><b>Automatisch proefdrukken genereren bij het uploaden van documenten</b>: Schakel deze optie in als u wilt dat de documenten die de gebruiker uploadt, direct een proefdruk genereren. </li>
        </ul> </td> 

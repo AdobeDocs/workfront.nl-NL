@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten.  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ De nieuwe ervaringen met opmerkingen bevatten onder andere de volgende verbeteri
 
 De volgende functies zijn verwijderd of worden vervangen door de nieuwe ervaring:
 
-* Opmerkingen maken over een systeemupdate
+* Opmerking over een systeemupdate. Opmerkingen die in het verleden aan de systeemupdates zijn toegevoegd, zijn geïmporteerd als alleen-lezen opmerkingen op het nieuwe tabblad Systeemactiviteit.
 * Mogelijkheid om status, voorwaarde, datum en percentage volledig uit te geven terwijl het becommentariëren over taken en kwesties
-* Aangepast formulier bewerken
+* Het aangepaste formulier bewerken
 * De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt, is oorspronkelijk verwijderd. Het is op 19 oktober 2023 weer opgenomen.
 * De optie &#39;Vraag om goedkeuring&#39; wanneer u personen een label geeft terwijl u een opmerking aan een document toevoegt.
 * De instelling &#39;Percentage voltooide updates tonen bij bewerking&#39; in het profielvak van een gebruiker wordt verwijderd. De functionaliteit van het bijwerken van het percentage voltooide taken of uitgaven is verwijderd.
-* Het bericht voor de Eigenaar van het Project in het gebied van Updates dat de ontvanger van een taak of een kwestie uitgeeft begaan datum <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* De capaciteit voor de Eigenaar van het Project om de Geplande Datum van Voltooiing van een taak te veranderen wanneer de Datum van het Vastleggen van wordt veranderd van de sectie van Updates. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ Hier volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring
   >
   >    Herhalingen zullen de oudere ervaring met opmerkingen blijven gebruiken. De nieuwe ervaring met opmerkingen is niet beschikbaar voor herhalingen.
 
-* Tweede kwartaal 2024 (april 2024):
+* Met de tweede release van 2024 (11 april 2024):
 
    * Verwijder de optie om terug te schakelen naar de oudere opmerkingstroom en maak de nieuwe opmerkingstroom de enige ervaring voor alle objecten, met uitzondering van herhalingen.
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 
-&lt;!—BELANGRIJK: wanneer we de oude ervaring hebben gewist, verplaatst u een versie hiervan naar het werkartikel Bijwerken of het overzicht van de sectie Bijwerken — om te zeggen dat de ervaring anders is voor alle toepassingen behalve voor herhalingen—>
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 De nieuwe ervaring met opmerkingen is momenteel beschikbaar voor alle klanten en voor alle omgevingen.
 
@@ -563,25 +573,25 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogeli
    * Probleem
    * Document
 
-  >[!TIP]
-  >
-  >Met de optie Nieuwe opmerkingen geeft u de nieuwe opmerkingervaring (wanneer u deze inschakelt) of de oudere opmerkingervaring (wanneer u deze uitschakelt) weer, zoals in deze sectie wordt beschreven. De nieuwe ervaring met opmerkingen is de standaardinstelling.
-
-   * Alleen de nieuwe opmerkingervaring voor de objecten hieronder. Er is geen optie om de oudere ervaring met opmerkingen in te schakelen voor deze objecten:
-
-      * Goal
-
      >[!NOTE]
      >
-     >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * Kaart aan boord
-      * Team
-      * Sjabloon
-      * Sjabloontaak
-      * Tijdschema
-      * Programma
-      * Portfolio
-      * Gebruiker
+     ><span class="preview">De oudere opmerkingervaring is verwijderd uit de voorvertoningsomgeving sinds 1 april 2024. </span>
+
+* Alleen de nieuwe opmerkingervaring voor de objecten hieronder. Er is geen optie om de oudere ervaring met opmerkingen in te schakelen voor deze objecten:
+
+   * Goal
+
+  >[!NOTE]
+  >
+  >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Kaart aan boord
+   * Team
+   * Sjabloon
+   * Sjabloontaak
+   * Tijdschema
+   * Programma
+   * Portfolio
+   * Gebruiker
 
 * Alleen de oudere ervaring met opmerkingen voor de volgende objecten:
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 U kunt als volgt de optie voor het maken van opmerkingen inschakelen voor projecten, taken, problemen en documenten:
 
-1. Ga naar een object waarvoor u de nieuwe opmerkingervaring wilt activeren en klik vervolgens op **Updates** in het linkerdeelvenster.
+1. (Voorwaardelijk) Ga in de productieomgeving naar een object waarvoor u de nieuwe opmerkingervaring wilt activeren en klik vervolgens op **Updates** in het linkerdeelvenster.
 1. (Voorwaardelijk) Als deze is uitgeschakeld, schakelt u de optie **Nieuwe opmerkingen** in de rechterbovenhoek van het gedeelte Updates om dit in te schakelen. Deze moet standaard zijn ingeschakeld.
+   <span class="preview">De optie Nieuwe opmerkingen is verwijderd uit de voorvertoningsomgeving.</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 
