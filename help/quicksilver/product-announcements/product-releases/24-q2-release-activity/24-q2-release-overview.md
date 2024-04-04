@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -265,6 +265,44 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
             </tbody>
 </table>
+
+### Verbeteringen voor startpagina
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <p>Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 2 januari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Projectverbeteringen
 
