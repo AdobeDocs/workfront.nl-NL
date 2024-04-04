@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 1 april 2024; Productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 1 april 2024; Productie voor alle klanten: met de release van 24.4 (11 april 2024)
 
-We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten. Door deze wijziging kunt u niet meer terugkeren naar de oudere opmerkingervaring.
+We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten. Door deze wijziging kunt u niet meer terugkeren naar de oudere opmerkingervaring. Bovendien hebben we de instelling &#39;Percentage voltooide updates tonen bij bijwerken&#39; verwijderd uit het profiel van een gebruiker.
 
 Zie voor meer informatie [Nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -32,7 +32,7 @@ Zie voor meer informatie [Nieuwe ervaring met opmerkingen](/help/quicksilver/pro
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 1 maart 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 1 maart 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024)
 
 De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan de **Nieuwe update toevoegen** snelle actieknop in Mijn Werk, Mijn Projecten, Mijn Taken, en Mijn Kwesties widgets in nieuw Huis.
 
@@ -42,7 +42,7 @@ Zie voor meer informatie [Aan de slag met de nieuwe startpagina](/help/quicksilv
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 29 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 29 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024)
 
 De nieuwe opmerkingervaring is als volgt verbeterd:
 
@@ -57,7 +57,7 @@ Zie voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/upd
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024)
 
 Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring worden nu op het tabblad Systeemactiviteit van de nieuwe opmerkingervaring alleen-lezen weergegeven. U kunt niet reageren op de records met systeemactiviteiten in de nieuwe opmerkingervaring.
 
@@ -69,7 +69,7 @@ Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/wor
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024)
 
 Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.
 
@@ -83,7 +83,7 @@ Zie voor meer informatie [Overzicht van de sectie Updates](/help/quicksilver/wor
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 22 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024)
 
 De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.
 

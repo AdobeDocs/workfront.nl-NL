@@ -4,9 +4,10 @@ description: Verbeteringen voor startpagina tweede kwartaal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: df78f09c-7855-4538-abda-421a7a4bc225
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 2 januari 2024; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 2 januari 2024; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024)
 
 Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.
 

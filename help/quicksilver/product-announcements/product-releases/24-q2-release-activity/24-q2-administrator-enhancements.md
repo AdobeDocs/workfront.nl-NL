@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 30a10e240b0f418f7ba49cd2e70e6f3d33956cd6
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: 24.4 (april 2024)
+>Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: 24.4 (11 april 2024)
 
 Met de aangepaste bètaformulierontwerper kunt u nu de logica voor weergave testen en logica in de voorbeeldmodus overslaan. Eerder werden alle velden in de voorvertoning weergegeven, zelfs toen de logica werd toegepast.
 
@@ -32,7 +32,7 @@ Zie voor meer informatie over het weergeven van een voorbeeld van een aangepast 
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 14 maart 2024; Productie voor alle klanten: 24.4 (april 2024)
+>Voorvertoningsrelease: 14 maart 2024; Productie voor alle klanten: 24.4 (11 april 2024)
 
 Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker. De geavanceerde eigenschappen zijn beschikbaar op de pagina&#39;s van de Details van het Bedrijf en van de Details van de Gebruiker, niet op Edit Bedrijf en geef de dialogen van de Gebruiker uit. Het aangepaste formulier moet in de nieuwe formulierontwerper worden gemaakt om deze veldtypen te kunnen gebruiken.
 
@@ -42,7 +42,7 @@ Zie voor meer informatie over aangepaste formuliervelden [Een formulier ontwerpe
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 26 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: 24.4 (april 2024)
+>Voorvertoningsrelease: 26 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: 24.4 (11 april 2024)
 
 De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (selecteren, premier of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.
 
@@ -52,7 +52,7 @@ Voor meer informatie over de integratie JumpSeat raadpleegt u [De integratie met
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 29 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: 24.4 (april 2024)
+>Voorvertoningsrelease: 29 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: 24.4 (11 april 2024)
 
 Native velden voor Workfront kunnen nu worden toegevoegd aan aangepaste formulieren. Met dit nieuwe veldtype kunt u gegevens op een logische manier ordenen en presenteren aan uw gebruikers, zonder dat u bestaande gegevens opnieuw hoeft te maken in aangepaste velden.
 

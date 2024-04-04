@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
->| <ul><li>24.2 (15 februari 2024)</li><li>24.3 (14 maart 2024)</li><li>24.4 (11 april 2024)</li></ul> | <ul><li>24.4 (april 2024)</li></ul> |
+>| <ul><li>24.2 (15 februari 2024)</li><li>24.3 (14 maart 2024)</li><li>24.4 (11 april 2024)</li></ul> | <ul><li>24.4 (11 april 2024)</li></ul> |
 >
 >Zie voor meer informatie over het snelle releaseproces [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -65,7 +65,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">De logica voor het weergeven en overslaan is nu beschikbaar in de voorbeeldmodus van de formulierontwerper</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">De logica voor het weergeven en overslaan is nu beschikbaar in de voorbeeldmodus van de formulierontwerper</a></p>
                         <p>Met de aangepaste bètaformulierontwerper kunt u nu de logica voor weergave testen en logica in de voorbeeldmodus overslaan. Eerder werden alle velden in de voorvertoning weergegeven, zelfs toen de logica werd toegepast.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -74,7 +74,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Voorvertoningsrelease: 28 maart 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor klanten: met de release van 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -90,7 +90,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Voorvertoningsrelease: 14 maart 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor klanten: met de release van 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -109,7 +109,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -128,7 +128,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -173,6 +173,10 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
 
 ### Verbeteringen voor documentbeheer
 
+>[!IMPORTANT]
+>
+>De functies in **Verbeteringen voor documentbeheer** maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
+
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -189,7 +193,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een deadline toevoegen aan documentrevisies en -goedkeuringen</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een deadline toevoegen aan documentrevisies en -goedkeuringen</a></p>
                         <p>U kunt nu een deadline opgeven voor gebruikers of teams die zijn toegewezen om een document te bekijken of goed te keuren. Revisoren en fiatteurs ontvangen 72 uur en vervolgens 24 uur voor de opgegeven deadline e-mailmeldingen. De deadline wordt ook weerspiegeld in de widget Goedkeuringen in het nieuwe gebied Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -198,14 +202,14 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Voorvertoningsrelease: 28 maart 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor klanten: met de release van 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuringssjablonen maken en gebruiken</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuringssjablonen maken en gebruiken</a></p>
                         <p>U kunt goedkeuringssjablonen nu maken in het gedeelte Instellen om het beoordelings- en goedkeuringsproces te stroomlijnen. Met goedkeuringssjablonen kunt u het beoordelings- en goedkeuringsproces herhaalbaarder maken door
                         <ul>
                             <li>
@@ -223,14 +227,14 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Voorvertoningsrelease: 28 maart 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor klanten: met de release van 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Informatie over al uw goedkeuringen tegelijk weergeven</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Informatie over al uw goedkeuringen tegelijk weergeven</a></p>
                         <p>Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, hebben wij de volgende belangrijke prestatiesindicatoren aan Al widget van Goedkeuringen toegevoegd:
                         <ul>
                             <li>
@@ -254,10 +258,9 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Voorvertoningsrelease: 28 maart 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor klanten: met de release van 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">Deze functie maakt deel uit van een gefaseerde release en is momenteel alleen beschikbaar voor specifieke klanten.</span></p>
                     </td>
                 </tr>
             </tbody>
@@ -295,7 +298,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +319,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -353,7 +356,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -379,8 +382,8 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">De toegang tot het gebied met oudere opmerkingen is verwijderd</a><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
-                        <p>We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">De toegang tot het gebied met oudere opmerkingen is verwijderd</a></p>
+                        <p>We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten. Door deze wijziging kunt u niet meer terugkeren naar de oudere opmerkingervaring. Bovendien hebben we de instelling 'Percentage voltooide updates tonen bij bijwerken' verwijderd uit het profiel van een gebruiker.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -388,7 +391,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Voorvertoningsrelease: 1 april 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor alle klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor alle klanten: met de release van 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -407,7 +410,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -434,7 +437,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -453,7 +456,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -472,7 +475,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -491,7 +494,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +543,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het First Quarter 2023 releaseschema. Voor meer informatie over de nieuwste functies raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het schema voor de release van het tweede kwartaal van 2024. Voor meer informatie over de nieuwste functies raadpleegt u [Adobe Workfront Fusion-releaseactiviteit](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -564,7 +567,7 @@ Zie voor informatie over API-versies [API-versieschema en ondersteuningsschema](
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 zijn gemaakt, raadpleegt u [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2024 versie worden gemaakt, zie [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training-updates
 

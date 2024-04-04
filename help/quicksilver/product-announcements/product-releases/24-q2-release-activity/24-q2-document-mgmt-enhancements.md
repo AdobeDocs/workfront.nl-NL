@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: met 24.4 release (11 april 2024)
 
 U kunt nu een deadline opgeven voor gebruikers of teams die zijn toegewezen om een document te bekijken of goed te keuren. Revisoren en fiatteurs ontvangen 72 uur en vervolgens 24 uur voor de opgegeven deadline e-mailmeldingen. De deadline wordt ook weerspiegeld in de widget Goedkeuringen in het nieuwe gebied Home.
 
@@ -36,7 +36,7 @@ Zie voor meer informatie [Een documentrevisie of goedkeuringsaanvraag maken](/he
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: met 24.4 release (11 april 2024)
 
 U kunt goedkeuringssjablonen nu maken in het gedeelte Instellen om het beoordelings- en goedkeuringsproces te stroomlijnen. Met goedkeuringssjablonen kunt u het beoordelings- en goedkeuringsproces herhaalbaarder maken door
 
@@ -51,7 +51,7 @@ Zie voor meer informatie [Een goedkeuringssjabloon maken](/help/quicksilver/revi
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 28 maart 2024; Productie voor alle klanten: met 24.4 release (11 april 2024)
 
 Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, hebben wij de volgende belangrijke prestatiesindicatoren aan Al widget van Goedkeuringen toegevoegd:
 

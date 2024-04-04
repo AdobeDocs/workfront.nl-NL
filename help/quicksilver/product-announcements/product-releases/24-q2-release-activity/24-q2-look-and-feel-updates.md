@@ -4,9 +4,10 @@ description: De blik-en-voelen updates tijdens het Tweede Kwartaal 2024 de tijdk
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,8 @@ De e-mailsjablonen voor het toevoegen van een fiatteur aan een middel en voor he
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 8 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor driemaandelijkse release: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 8 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor driemaandelijkse release: met de release van 24.4 (11 april 2024)
 
 We hebben de tabbladen voor Forms, Fields en secties in het gebied Setup > Custom Forms bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront. U hebt nu toegang tot de drie gebieden via het navigatiemenu links. Filters, weergaven en groepen zijn nog steeds beschikbaar voor de lijsten. Het bijgewerkte ontwerp is van toepassing op aangepaste formulieren, velden en secties die zijn gemaakt in zowel de nieuwe formulierontwerper als de oudere formulierontwerper.
 
 Zie voor meer informatie [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) en [Een aangepast formulier maken of bewerken met de verouderde formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-
-

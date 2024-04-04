@@ -4,9 +4,10 @@ description: Verbeteringen voor middelenbeheer in het tweede kwartaal van 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 12 oktober 2023; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor driemaandelijkse release: met de release van 24.4 (april 2024)
+>Voorvertoningsrelease: 12 oktober 2023; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor driemaandelijkse release: met de release van 24.4 (11 april 2024)
 
 Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.
 
