@@ -6,14 +6,16 @@ description: U kunt updates van een werkitem weergeven en toevoegen in het dialo
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Werk een tijdelijk onderdeel bij of bewerk het onderdeel in het dialoogvenster [!UICONTROL Home] gebied
+
+<!--Audited: April 2024-->
 
 U kunt updates van een werkitem weergeven en toevoegen in het dialoogvenster [!UICONTROL Home] gebied in [!DNL Adobe Workfront]. U kunt andere gegevens met betrekking tot het het werkpunt ook uitgeven als u toegang hebt om het uit te geven.
 
@@ -28,35 +30,38 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
+   <td> <p>Nieuw: Standaard</p>
+   of
+
+<p>Huidige: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Taken en Kwesties</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
+   <td> <p>[!UICONTROL Edit] toegang tot taken en problemen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+*Neem contact op met uw [!DNL Workfront] beheerder. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Updates van een tijdelijk item weergeven
 
 U kunt updates weergeven voor elk werkitem in het dialoogvenster [!UICONTROL Work List]:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **[!UICONTROL Home]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/lines-main-menu.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **[!UICONTROL Home]**.
 1. In de **[!UICONTROL Work List]** selecteert u het item waar u updates wilt weergeven.\
    Updates worden weergegeven in het rechterdeelvenster.
 
-1. (Optioneel) Schakel **[!UICONTROL Show System Updates]** naar Uit.
+1. (Optioneel) Als u systeemupdates wilt filteren zodat alleen gebruikersupdates worden weergegeven, schakelt u **[!UICONTROL Show System Updates]** naar Uit.
 
    ![](assets/show-system-updates-home-350x114.png)
 
@@ -64,9 +69,9 @@ U kunt updates weergeven voor elk werkitem in het dialoogvenster [!UICONTROL Wor
 
 U kunt updates opgeven voor elk werkitem in het dialoogvenster [!UICONTROL Work] Lijst:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **[!UICONTROL Home]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/lines-main-menu.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **[!UICONTROL Home]**.
 1. In de **[!UICONTROL Work List]** selecteert u het item waar u een update wilt opgeven.
-1. Klik in het rechterdeelvenster op **[!UICONTROL Update]** om een tekstveld weer te geven.
+1. Klik in het rechterdeelvenster op **[!UICONTROL Update]** een tekstveld weergeven.
 
    ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
 
@@ -74,7 +79,7 @@ U kunt updates opgeven voor elk werkitem in het dialoogvenster [!UICONTROL Work]
 1. (Optioneel) Geef een of meer van de volgende gegevens op:\
    **[!UICONTROL Commit Date]:** Selecteer een datum in de datumkiezer wanneer u toezegt het werkitem te voltooien.\
    **[!UICONTROL How's it going?]:** Selecteer een nieuwe voorwaarde voor de taak of kwestie. Voor meer informatie over taak en probleemvoorwaarden raadpleegt u [Voorwaarde voor bijwerken voor taken en problemen](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Status]:** Selecteer een nieuwe status voor de taak of uitgave. Voor meer informatie over taakstatussen raadpleegt u [Taakstatus bijwerken](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Voor meer informatie over uitgiftestatussen raadpleegt u [Toegang krijgen tot de lijst met systeemuitgiftestatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
+   **[!UICONTROL Status]:** Selecteer een nieuwe status voor de taak of uitgave. Zie voor meer informatie over taakstatussen [Taakstatus bijwerken](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Zie voor meer informatie over uitgiftestatussen [Toegang krijgen tot de lijst met systeemuitgiftestatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
    **[!UICONTROL Completion Bar]:** Geef het percentage op van het werk dat is voltooid door de voortgangsbalk naar het gewenste percentage te verschuiven. U kunt ook dubbelklikken op de voltooiingsbalk en het percentage invoeren dat is voltooid.
 
 1. Klik op **[!UICONTROL Update]**.
@@ -83,7 +88,7 @@ U kunt updates opgeven voor elk werkitem in het dialoogvenster [!UICONTROL Work]
 
 U kunt elk veld op elk werkitem bewerken dat u kunt bewerken.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **[!UICONTROL Home]**.
+1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek, of de **Hoofdmenu** ![](assets/lines-main-menu.png) in de linkerbovenhoek, indien beschikbaar, klikt u op **[!UICONTROL Home]**.
 1. In de **[!UICONTROL Work List]** selecteert u het item dat u wilt bewerken.\
    Alle velden die u kunt bekijken, worden weergegeven in het rechterdeelvenster.
 

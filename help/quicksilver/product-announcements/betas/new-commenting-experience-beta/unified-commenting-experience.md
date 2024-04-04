@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ De volgende functies zijn verwijderd of worden vervangen door de nieuwe ervaring
 * Opmerking over een systeemupdate. Opmerkingen die in het verleden aan de systeemupdates zijn toegevoegd, zijn geïmporteerd als alleen-lezen opmerkingen op het nieuwe tabblad Systeemactiviteit.
 * Mogelijkheid om Status, Voorwaarde, Datum vastleggen en Percentage van voltooiing te bewerken tijdens het plaatsen van opmerkingen over taken en problemen.
 
-  Als alternatief raden we u aan deze velden toe te voegen in het deelvenster Overzicht van taken en problemen, zodat u ze gemakkelijk kunt openen vanuit lijsten, rapporten, Home, Workfront Balancer of een tijdspagina.
+  Als alternatief raden we u aan deze velden toe te voegen in het deelvenster Overzicht van taken en problemen, zodat u ze gemakkelijk kunt openen vanuit lijsten, Home, Workfront Balancer of een tijdspagina.
 * Het aangepaste formulier bewerken
 * De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt, is oorspronkelijk verwijderd. Het is op 19 oktober 2023 weer opgenomen.
 * De optie &#39;Vraag om goedkeuring&#39; wanneer u personen een label geeft terwijl u een opmerking aan een document toevoegt.

@@ -5,22 +5,38 @@ description: U kunt het deelvenster Samenvatting gebruiken om de gegevens van he
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Summary] overzicht
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in Production voor klanten die snelle releases hebben ingeschakeld. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-U kunt de [!UICONTROL Summary] om de gegevens van het werkitem rechtstreeks vanuit een lijst met taakproblemen, documenten of andere gebieden van [!DNL Adobe Workfront] die taken en problemen weergeven.
+U kunt de [!UICONTROL Summary] om de gegevens van het werkitem rechtstreeks vanuit een lijst met taken, problemen, documenten of andere gebieden van [!DNL Adobe Workfront] die taken en problemen weergeven.
+
+Uw Workfront of groepsbeheerder kan de gebieden en velden wijzigen die worden weergegeven in het deelvenster Samenvatting. Ze kunnen maximaal 16 velden toevoegen aan het deelvenster Samenvatting.
+
+>[!IMPORTANT]
+>
+>U wordt aangeraden velden toe te voegen die u regelmatig moet bijwerken naar het deelvenster Overzicht, zodat u deze gemakkelijk kunt openen en bijwerken zonder de hoofdpagina van het object te openen.
+>
+>U kunt bijvoorbeeld de volgende veelbijgewerkte velden toevoegen aan de deelvensters Overzicht van taken en uitgaven:
+>
+>* Status
+>* Percentage voltooid
+>* Vastlegdatum
+>* Geplande afsluitdatum
+>* Voorwaarde
+
+
 
 In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summary] paneel:
 
@@ -28,7 +44,7 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Taken</td> 
+   <td><b>Taken</b></td> 
   </tr> 
   <tr> 
    <td> <p>Taaklijsten binnen een</p> 
@@ -44,7 +60,7 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
    <td>Taken in een [!UICONTROL Timesheet]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemen</td> 
+   <td><b>Problemen</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Uitgiftenlijsten binnen een</p> 
@@ -66,7 +82,7 @@ In de volgende tabel worden de gebieden weergegeven waar u de [!UICONTROL Summar
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>Documenten</td> 
+   <td><b>Documenten</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Documents] gebied</td> 
@@ -96,25 +112,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td> <p>Nieuw: Medewerker of hoger</p>
+   of
+   <p>Huidige:[!UICONTROL Request] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL View] of betere toegang tot Taken, Kwesties, Documenten</p> <p>[!UICONTROL View] of betere toegang tot objecten waarvoor u documenten wilt bekijken.' [!UICONTROL Summary]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
+   <td> <p>[!UICONTROL View] of betere toegang tot Taken, Kwesties, Documenten</p> <p>[!UICONTROL View] of betere toegang tot objecten waarvoor u documenten wilt bekijken [!UICONTROL Summary]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL View] of hogere machtigingen voor een taak, uitgave of document</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] of hogere machtigingen voor een taak, uitgave of document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+*Neem contact op met uw [!DNL Workfront] beheerder. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## De weergave [!UICONTROL Summary] in een lijst met taken of problemen
 
@@ -131,11 +149,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >U kunt slechts één taak of één uitgave tegelijk selecteren om hun details in te zien in de [!UICONTROL Summary] deelvenster.
 
-   <div class="preview">
-
    ![Het deelvenster Samenvatting](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (Optioneel) Als u het dialoogvenster [!UICONTROL Summary] voert u een van de volgende handelingen uit:
 
@@ -155,17 +169,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Gebruik de voortgangsbalk boven aan het dialoogvenster [!UICONTROL Summary] om het percentage bij te werken volledig voor de taak of kwestie die u hebt geselecteerd. Voer een getal in of sleep de balk naar het juiste percentage.
 
-<span class="preview">![Percentage voltooid in deelvenster Samenvatting](assets/summary-overview-percent-complete.png)</span>
+![Percentage voltooid in deelvenster Samenvatting](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
 Gebruik de [!UICONTROL Updates] van de [!UICONTROL Summary] om recente updates weer te geven en updates uit te voeren over de taak of uitgave die u hebt geselecteerd. Klikken **[!UICONTROL See all]** om rechtstreeks naar de [!UICONTROL Updates] op de taak.
 
-<div class="preview">
-
 ![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL Documents]
 

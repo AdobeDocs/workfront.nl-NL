@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in Production voor klanten die snelle releases hebben ingeschakeld. </span>
 
@@ -33,6 +30,8 @@ ht-degree: 0%
 <span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de volgende ervaring vinden voor de sectie Updates:
 
@@ -133,7 +132,7 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
    * Sjabloontaak
    * Ad-hockaart
 
+     Voor meer informatie over updates op kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * De volgende objecten hebben geen <span class="preview">Alle tabbladen:</span>
 
    * Doelen
+
+     Voor meer informatie over updates over doelstellingen, zie [Doelopmerkingen beheren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -189,7 +202,7 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
  <thead> 
   <tr> 
    <th><strong>Object waar de oorspronkelijke update is toegevoegd</strong> </th> 
-   <th> <p><strong>Hoger gerangschikt object waar de oorspronkelijke update ook wordt weergegeven</strong> </p> </th> 
+   <th> <p><strong>Hogere rangschikkingsobjecten waarin de oorspronkelijke update ook wordt weergegeven</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -248,6 +261,8 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >De reacties die aan systeemupdates worden toegevoegd rollen niet omhoog aan het oudervoorwerp. Alleen directe antwoorden op een onderliggend object en antwoorden die aan bestaande updates zijn toegevoegd, worden doorgegeven aan bovenliggende objecten.
@@ -267,16 +282,14 @@ Houd rekening met het volgende wanneer u updates voor gebruikers en teams bekijk
 
 * U kunt geen nieuwe opmerkingen toevoegen in de sectie Updates van een team.
 
-* U kunt een antwoord toevoegen aan een update die u in een team weergeeft. De antwoordvertoningen in de sectie van Updates van het team evenals de sectie van Updates van het voorwerp het tot behoort.
-
 * De sectie Updates voor teams wordt gevuld met updates die worden ingevoerd voor de volgende objecten:
 
    * Gebruikers
-   * Timesheets*
    * Artikelen
-   * Herhalingen*
+   * Timesheets
+   * Herhalingen
 
-  *Deze zijn niet beschikbaar voor de nieuwe opmerkingervaring.
+* U kunt een antwoord toevoegen aan een update die u in een team weergeeft. De antwoordvertoningen in de sectie van Updates van het team evenals de sectie van Updates van het voorwerp het tot behoort.
 
 * In de sectie Updates voor gebruikers en teams kunt u de updates weergeven die in de afgelopen 90 dagen zijn ingevoerd.
 

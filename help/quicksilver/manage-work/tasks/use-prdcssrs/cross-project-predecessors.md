@@ -6,7 +6,7 @@ description: Een voorganger voor meerdere projecten is een taak waarvan een ande
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 1. In de **Taken** in het veld typt u de naam van de taak die u als voorganger voor de huidige taak wilt uitvoeren.
 1. Geef de volgende informatie op voor het definiëren van de relatie tussen de voorganger en de afhankelijke taak:
 
-   * **Type afhankelijkheid:** Selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedstypes, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Type afhankelijkheid:** Selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedstypes, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **Lag:** Geef de hoeveelheid tijd op die moet verstrijken na de voltooiing van een afgedwongen voorganger totdat de afhankelijke taak kan beginnen. Zie voor meer informatie over de verschillende typen vertragingen [Overzicht van typen labels](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

@@ -6,9 +6,9 @@ description: U kunt de [!UICONTROL My Updates] om snel de goedkeuringen te bekij
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -36,25 +36,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td> <p>Nieuw: Medewerker of hoger</p>
+   of   
+   <p>Huidige: [!UICONTROL Request] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>De toegang van de mening of hoger tot om het even welke voorwerpen waarvoor u in een gesprek wordt geëtiketteerd of een goedkeuring moet oplossen (Projecten, Taken, Kwesties, Documenten)</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
+   <td> <p>De toegang van de mening of hoger tot om het even welke voorwerpen waarvoor u in een gesprek wordt geëtiketteerd of een goedkeuring moet oplossen (Projecten, Taken, Kwesties, Documenten)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL View] toestemmingen of hoger aan projecten, taken, kwesties, documenten waar u in een gesprek wordt geëtiketteerd of een goedkeuring moet oplossen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] toestemmingen of hoger aan projecten, taken, kwesties, documenten waar u in een gesprek wordt geëtiketteerd of een goedkeuring moet oplossen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+*Neem contact op met uw [!DNL Workfront] beheerder. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -64,7 +66,7 @@ U moet het volgende hebben voordat u begint:
 
 * Gebruikers met een revisielicentie kunnen de [!UICONTROL My Updates] gebied in hun [!UICONTROL Main Menu] standaard.
 
-## Toegang krijgen tot [!UICONTROL My Updates] gebied
+## Toegang krijgen tot de [!UICONTROL My Updates] gebied
 
 1. Klikken **[!UICONTROL My Updates]** in de **[!UICONTROL Main Menu]**.
 
@@ -72,7 +74,7 @@ U moet het volgende hebben voordat u begint:
 
    De [!UICONTROL My Updates] wordt geopend.
 
-   De goedkeuringen en verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder Mijn Updates.
+   De goedkeuringen en verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn updates**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
@@ -84,7 +86,7 @@ U moet het volgende hebben voordat u begint:
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optioneel) Breid de **[!UICONTROL Filter]** vervolgkeuzemenu ![](assets/filter-nwepng.png) in de rechterbovenhoek van het dialoogvenster **[!UICONTROL My Updates]** en selecteer een van de volgende opties:
+1. (Optioneel) Breid de **[!UICONTROL Filter]** vervolgkeuzemenu ![](assets/filter-nwepng.png) in de rechterbovenhoek van het **[!UICONTROL My Updates]** en selecteer een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -98,7 +100,7 @@ U moet het volgende hebben voordat u begint:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Delegated Approvals]</strong></td> 
-      <td>Goedkeuringen die door een andere gebruiker aan u zijn gedelegeerd. </td> 
+      <td>Goedkeuringen die u van een andere gebruiker hebt ontvangen. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL My Approvals]</strong></td> 
@@ -128,11 +130,11 @@ U moet het volgende hebben voordat u begint:
       >Als u geen commentaar aan uw besluit wilt toevoegen, kunt u klikken **[!UICONTROL Approve]**, **[!UICONTROL Reject]**, of **[!UICONTROL Changes]** en het goedkeuringsbesluit onmiddellijk worden genomen.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >
+      >Ga voor meer informatie over het goedkeuren van werk naar [Goedkeuring van de werkzaamheden](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-      Ga voor meer informatie over het goedkeuren van werk naar [Goedkeuring van de werkzaamheden](../../../review-and-approve-work/manage-approvals/approving-work.md).
-
-1. Klikken **[!UICONTROL Grant access]** om het aan u voorgelegde toegangsverzoek te verlenen
+1. Klikken **[!UICONTROL Grant access]** om het aan u voorgelegde verzoek om toegang te verlenen
 
    of
 
@@ -150,9 +152,9 @@ U moet het volgende hebben voordat u begint:
    >
    >De eerste 50 vermeldingen worden standaard weergegeven.
 
-1. (Optioneel) Klik op **[!UICONTROL Show More Updates]** om meer opmerkingen te bekijken.
+1. (Optioneel) Klik op **[!UICONTROL Show More Updates]** om meer opmerkingen weer te geven.
 1. (Optioneel) Klik op **[!UICONTROL Reply]** om op een opmerking te reageren, voert u uw reactie in en klikt u op **[!UICONTROL Reply]** opnieuw.
 
-   Voor meer informatie over het bijwerken van items raadpleegt u [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Zie voor meer informatie over het bijwerken van items [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om de [!UICONTROL My Updates] naar de bovenste navigatie.
