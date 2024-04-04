@@ -4,7 +4,7 @@ description: U kunt de lay-out van de recorddoos en de pagina in de Planning van
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 De werkruimte die u als laatste opent.
 
 1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
-
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
