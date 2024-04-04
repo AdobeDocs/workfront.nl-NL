@@ -7,7 +7,7 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 
      Er is geen optie om de nieuwe opmerkingervaring voor herhalingen in te schakelen. Zie voor meer informatie [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+<!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
 ### Overzicht van de sectie Updates in de nieuwe opmerkingervaring
 
@@ -159,8 +159,6 @@ Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de vol
 <!-- info for April 11: hide the entire section below: -->
 
 ### Overzicht van de sectie Updates van oudere versies
-
-<!--when we remove legacy, make this section an "Iterations-only" section-->
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 

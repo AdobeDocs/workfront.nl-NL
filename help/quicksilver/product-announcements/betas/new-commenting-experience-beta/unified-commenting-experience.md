@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,14 @@ De nieuwe ervaringen met opmerkingen bevatten onder andere de volgende verbeteri
 De volgende functies zijn verwijderd of worden vervangen door de nieuwe ervaring:
 
 * Opmerking over een systeemupdate. Opmerkingen die in het verleden aan de systeemupdates zijn toegevoegd, zijn geïmporteerd als alleen-lezen opmerkingen op het nieuwe tabblad Systeemactiviteit.
-* Mogelijkheid om status, voorwaarde, datum en percentage volledig uit te geven terwijl het becommentariëren over taken en kwesties
+* Mogelijkheid om Status, Voorwaarde, Datum vastleggen en Percentage van voltooiing te bewerken tijdens het plaatsen van opmerkingen over taken en problemen.
+
+  Als alternatief raden we u aan deze velden toe te voegen in het deelvenster Overzicht van taken en problemen, zodat u ze gemakkelijk kunt openen vanuit lijsten, rapporten, Home, Workfront Balancer of een tijdspagina.
 * Het aangepaste formulier bewerken
 * De informatie &quot;namens &lt; gebruikersnaam >&quot; wanneer een Workfront of groepsbeheerder zich aanmeldt als een andere gebruiker en namens deze een opmerking toevoegt, is oorspronkelijk verwijderd. Het is op 19 oktober 2023 weer opgenomen.
 * De optie &#39;Vraag om goedkeuring&#39; wanneer u personen een label geeft terwijl u een opmerking aan een document toevoegt.
 * De instelling &#39;Percentage voltooide updates tonen bij bewerking&#39; in het profielvak van een gebruiker wordt verwijderd. De functionaliteit van het bijwerken van het percentage voltooide taken of uitgaven is verwijderd.
-* De capaciteit voor de Eigenaar van het Project om de Geplande Datum van Voltooiing van een taak te veranderen wanneer de Datum van het Vastleggen van wordt veranderd van de sectie van Updates. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -460,7 +462,7 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    </td>
   </tr>
   <tr>
-   <td>De mogelijkheid om de status, voorwaarde en datum toe te wijzen tijdens het plaatsen van opmerkingen 
+   <td>Mogelijkheid om Status, Voorwaarde, Datum vastleggen tijdens opmerkingen te bewerken 
    </td>
    <td>✓ 
    </td>
@@ -499,6 +501,21 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Capaciteit voor de Eigenaar van het Project om de Geplande Datum van Voltooiing van een taak te veranderen wanneer de Datum van het Vastleggen van wordt veranderd van de sectie van Updates
+   </td>
+   <td> ✓
+   </td>
+   <td> Kan later worden vrijgegeven
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>

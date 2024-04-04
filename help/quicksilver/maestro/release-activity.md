@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
-<!--
-## Week of April 1, 2024
+## Week van 1 april 2024
 
-### Reorder the fields on the records page
+### De velden op recordpagina&#39;s opnieuw ordenen
 
-Production: April 4, 2024 
+Productie: 4 april 2024
 
-Preview: To be determined 
+Voorbeeld: te bepalen
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+Als Workspace Manager kunt u nu de velden in de recordpagina of het recordvak opnieuw rangschikken. Als u de volgorde van de velden bijwerkt, verandert de volgorde van velden in alle records van hetzelfde type, voor iedereen die de recordpagina of het recordvak weergeeft.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### Omslagafbeelding toevoegen om pagina&#39;s op te nemen
 
-Production: April 4, 2024 
+Productie: 4 april 2024
 
-Preview: To be determined 
+Voorbeeld: te bepalen
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+Terwijl u recordpagina&#39;s beheert, kunt u nu een omslagafbeelding op een recordpagina of in een recordvak toevoegen, verplaatsen en vervangen om de presentatie en betrokkenheid van belanghebbenden van de record te verrijken. Omslagafbeeldingen zijn zichtbaar voor alle gebruikers die de records weergeven.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Week van 25 maart 2024
 

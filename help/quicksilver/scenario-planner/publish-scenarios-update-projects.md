@@ -2,21 +2,21 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: publiceren,plannen,projecten,scenario,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Werk of creeer projecten bij door initiatieven in de Planner van het Scenario te publiceren
+title: Werk of creeer projecten door initiatieven in de Planner van het Scenario bij te publiceren
 description: U kunt projecten van bestaande initiatieven tot stand brengen evenals projecten bijwerken eerder verbonden aan initiatieven door scenario's in de Planner van het Scenario van Adobe Workfront te publiceren.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1608'
 ht-degree: 0%
 
 ---
 
 # Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]
 
-Een scenario publiceren vanuit de [!DNL Adobe Workfront Scenario Planner] verwezenlijkt het volgende:
+Een scenario publiceren vanuit het dialoogvenster [!DNL Adobe Workfront Scenario Planner] verwezenlijkt het volgende:
 
 * Creeert projecten van de initiatieven op het scenario en verbindt hen samen.
 * Werkt projecten bij die al gekoppeld zijn aan initiatieven over het scenario met informatie uit het gekoppelde initiatief. Projecten kunnen ook aan initiatieven worden gekoppeld wanneer u ze in een plan importeert. Zie voor meer informatie [Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
@@ -39,7 +39,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td>Product </td> 
-   <td> <p>U moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] voor toegang tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Toegang nodig om de [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>U moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Toegang nodig om de [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p></p> <p>Toegangsniveau*</p> </td> 
@@ -71,6 +71,7 @@ Voor meer informatie over de toegang tot de [!DNL Workfront Scenario Planner], z
 Voordat u begint:
 
 * U moet een abonnement maken en opslaan voordat u er initiatieven van kunt publiceren.
+* Toestaan de gebruikers om projecten tot stand te brengen zonder een malplaatje te gebruiken dat moet worden toegelaten in uw gebied van de Voorkeur van het Project van de Opstelling. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Overwegingen bij het publiceren van initiatieven voor projecten
 
@@ -78,19 +79,19 @@ Voordat u begint:
 * Eén initiatief kan slechts aan één project worden gekoppeld.
 * Eén project kan aan meerdere initiatieven worden gekoppeld wanneer de initiatieven tot verschillende plannen behoren.
 
-   >[!TIP]
-   >
-   >Wanneer een project op veelvoudige plannen bestaat en u informatie aan het project van alle plannen publiceert, publiceert het recentste publiceren overschrijft het bestaande [!DNL Scenario Planner] informatie over het project.
+  >[!TIP]
+  >
+  >Wanneer een project op veelvoudige plannen bestaat en u informatie aan het project van alle plannen publiceert, publiceert het recentste publiceren overschrijft het bestaande [!DNL Scenario Planner] informatie over het project.
 
 * Als er initiatieven in het kader van het plan worden genomen door projecten in het plan te importeren, worden de gekoppelde projecten door de publicatie van het initiatief ook bijgewerkt met informatie over initiatieven.
 
-   >[!TIP]
-   >
-   >U kunt het zelfde project in veelvoudige plannen invoeren. Publiceren kan de initiatiefinformatie over een project overschrijven die aan meerdere initiatieven is gekoppeld.
+  >[!TIP]
+  >
+  >U kunt het zelfde project in veelvoudige plannen invoeren. Publiceren kan de initiatiefinformatie over een project overschrijven die aan meerdere initiatieven is gekoppeld.
 
-   Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Wijzigingen in het project worden niet doorgevoerd in het gekoppelde initiatief.
+* Wijzigingen die in het project worden aangebracht, worden niet doorgevoerd in het gekoppelde initiatief.
 
 
 
@@ -117,7 +118,7 @@ Voordat u begint:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Shared with me]</td> 
-      <td> <p>Hier worden de plannen weergegeven die u niet hebt gemaakt, maar met u hebt gedeeld.</p> <p>Belangrijk: U moet [!UICONTROL Manage] machtigingen voor plannen die met u worden gedeeld om deze te kunnen publiceren. </p> </td> 
+      <td> <p>Hier worden de plannen weergegeven die u niet hebt gemaakt, maar met u hebt gedeeld.</p> <p>Belangrijk: u moet [!UICONTROL Manage] machtigingen voor plannen die met u worden gedeeld om deze te kunnen publiceren. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -135,7 +136,7 @@ Voordat u begint:
 
 1. (Optioneel) Werk de initiatieven van een bestaand of een nieuw plan bij of maak nieuwe.
 
-   Voor informatie over het maken van initiatieven raadpleegt u [Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Zie voor informatie over het maken van initiatieven [Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Klik op **[!UICONTROL Save plan]**.
 1. Selecteer het scenario u van het **[!UICONTROL Initial scenario]** vervolgkeuzemenu en vervolgens op **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png) in de rechterbovenhoek.
@@ -144,7 +145,7 @@ Voordat u begint:
 
    Klikken **[!UICONTROL Compare scenarios]** Houd de muisaanwijzer boven de scenario-kaart die u wilt publiceren en klik vervolgens op **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png).
 
-   De [!UICONTROL Publish initiatives] wordt weergegeven met een lijst van alle initiatieven in het scenario. Als een van de initiatieven eerder is gepubliceerd, wordt het projectpictogram weergegeven ![](assets/project-icon-sp.png) worden weergegeven na hun naam en de **[!UICONTROL Last published]** De datum wordt in de lijst ingevuld.
+   De [!UICONTROL Publish initiatives] wordt weergegeven met een lijst van alle initiatieven in het scenario. Als een van de initiatieven eerder is gepubliceerd, wordt het projectpictogram weergegeven ![](assets/project-icon-sp.png) worden weergegeven na hun naam en de **[!UICONTROL Last published]** datum wordt ingevuld in de lijst.
 
    >[!TIP]
    >
@@ -160,7 +161,7 @@ Voordat u begint:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL All]</td> 
-      <td>Hiermee geeft u alle initiatieven van het geselecteerde scenario weer. </td> 
+      <td>Toont alle initiatieven van het geselecteerde scenario. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Published]</td> 
@@ -176,7 +177,7 @@ Voordat u begint:
    ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
 1. (Optioneel) Klik op de knop **[!UICONTROL Search]** pictogram ![](assets/search-icon.png) en typ de naam van een initiatief om het snel in de lijst te vinden.
-1. Selecteer een of meerdere initiatieven om er projecten van te publiceren en te maken of bij te werken, en klik vervolgens op **[!UICONTROL Publish initiatives]**.
+1. Selecteer een of meerdere initiatieven om projecten te publiceren en te maken of bij te werken, en klik vervolgens op **[!UICONTROL Publish initiatives]**.
 
    Dit leidt tot een nieuw project van elke geselecteerde initiatieven of werkt de bestaande verwante projecten bij, als de gepubliceerde initiatieven reeds met een project verbonden waren.
 
@@ -189,21 +190,21 @@ Voordat u begint:
    * Als u een initiatief hebt gepubliceerd, klikt u op **[!UICONTROL See associated project]** het project te openen dat is gemaakt of bijgewerkt op basis van het initiatief.
    * Als u meerdere initiatieven hebt gepubliceerd, klikt u op **[!UICONTROL See associated projects]** een lijst op te stellen van projecten die zijn gepubliceerd op basis van initiatieven . [!DNL Workfront] past de [!DNL Scenario Planner] Projecten filteren standaard naar de lijst met projecten. De projecten die het laatst zijn gepubliceerd, worden boven aan de lijst weergegeven.
 
-      ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Ga naar de volgende gebieden om initiatiefinformatie over het project te bekijken:
 
-   * **De [!UICONTROL Updates] sectie**: Er wordt een update gepubliceerd die aangeeft dat het project is gemaakt of bijgewerkt op basis van het initiatief. De update bevat de naam van het initiatief dat het project heeft gemaakt of bijgewerkt en de gekoppelde naam van het plan dat het initiatief bevat. U kunt op de naam van het abonnement in de update klikken om het abonnement te openen in het dialoogvenster [!DNL Scenario Planner].
+   * **De [!UICONTROL Updates] sectie**: Er wordt een update gepubliceerd om aan te geven dat het project is gemaakt of bijgewerkt op basis van het initiatief. De update bevat de naam van het initiatief dat het project heeft gemaakt of bijgewerkt en de gekoppelde naam van het plan dat het initiatief bevat. U kunt op de naam van het abonnement in de update klikken om het abonnement te openen in het dialoogvenster [!DNL Scenario Planner].
 
-      ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **De [!UICONTROL Overview] gebied van de [!UICONTROL Project Details] sectie**: Een nieuwe [!DNL Scenario Planner] op dit gebied wordt een gedeelte gemaakt dat informatie bevat van het gekoppelde initiatief.
 
-      ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![](assets/scenario-planner-on-project-details-350x135.png)
 
-      De volgende informatie over het initiatief wordt gepubliceerd in het [!DNL Scenario Planner] gebied van de [!UICONTROL Project Details] sectie:
+     De volgende informatie over het initiatief wordt gepubliceerd in het [!DNL Scenario Planner] gebied van de [!UICONTROL Project Details] sectie:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -233,34 +234,35 @@ Voordat u begint:
          </ul> 
       <p><b>TIP</b>
 
-      Als het aantal functies per maand in het initiatief verschilt, wordt in dit veld het maximale aantal rollen weergegeven dat nodig is voor het initiatief. Bijvoorbeeld, als u 1 Consultant voor Januari en 2 voor Februari nodig hebt, toont de kolom 2FTE en de overeenkomstige hoeveelheid uren voor 2 FTEs voor alle maanden.</p> </td>
-      </tr> 
+     Als het aantal functies per maand in het initiatief verschilt, wordt in dit veld het maximale aantal rollen weergegeven dat nodig is voor het initiatief. Bijvoorbeeld, als u 1 Consultant voor Januari en 2 voor Februari nodig hebt, toont de kolom 2FTE en de overeenkomstige hoeveelheid uren voor 2 FTEs voor alle maanden.</p> </td>
+     </tr> 
       </tbody> 
      </table>
 
-      >[!NOTE]
-      >
-      >Alle gebruikers met [!UICONTROL View] de toegang tot het project kan zien [!DNL Scenario Planner] in de [!UICONTROL Overview] gebied. U kunt bepalen of dit gebied wordt weergegeven in het dialoogvenster [!UICONTROL Details] door een lay-outsjabloon te gebruiken. Als gebruikers geen lay-outmalplaatje hebben verbonden aan hen, toont dit gebied door gebrek.
-      >
-      >   
-      >   
-      >   * Voor informatie over het toevoegen of verwijderen van gebieden in het dialoogvenster [!UICONTROL Details] sectie met een lay-outsjabloon, zie [De [!UICONTROL Details] weergeven met een lay-outsjabloon](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-      >   * Voor meer informatie over het weergeven van informatie in het dialoogvenster [!UICONTROL Overview] gebied van de [!UICONTROL Project Details], zie [[!UICONTROL Manage] informatie in het project [!UICONTROL Overview] gebied](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >[!NOTE]
+     >
+     >Alle gebruikers met [!UICONTROL View] de toegang tot het project kan zien [!DNL Scenario Planner] in de [!UICONTROL Overview] gebied. U kunt bepalen of dit gebied wordt weergegeven in het dialoogvenster [!UICONTROL Details] met een lay-outsjabloon. Als gebruikers geen lay-outmalplaatje hebben verbonden aan hen, toont dit gebied door gebrek.
+     >
+     >   
+     >   
+     >   * Voor informatie over het toevoegen of verwijderen van gebieden in het dialoogvenster [!UICONTROL Details] sectie met een lay-outsjabloon, zie [De [!UICONTROL Details] weergeven met een lay-outsjabloon](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+     >   * Voor meer informatie over het weergeven van informatie in het dialoogvenster [!UICONTROL Overview] gebied van de [!UICONTROL Project Details], zie [[!UICONTROL Manage] informatie in het project [!UICONTROL Overview] gebied](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   
+     >
 
+   * **De [!UICONTROL Role Allocation] in het deelvenster [!UICONTROL Workload Balancer] of de takenlijst van het project** Betreft: Informatie over de toewijzing van rol aan het initiatief vult op dit gebied, naast de toewijzing van rol aan het project.
 
-   * **De [!UICONTROL Role Allocation] in het deelvenster [!UICONTROL Workload Balancer] of de takenlijst van het project**: Informatie over de roltoewijzing op het initiatief wordt op dit gebied ingevuld, naast de toewijzing van de rol aan het project.
+     Zie voor meer informatie [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-      Zie voor meer informatie [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+     ![](assets/role-allocation-panel-350x174.png)
 
-      ![](assets/role-allocation-panel-350x174.png)
+     Wijzigingen in de data of middelen van het project hebben geen invloed op het desbetreffende initiatief of op de gebieden van het project die initiatiefinformatie bevatten.
 
-      Wijzigingen in de data of middelen van het project hebben geen invloed op het desbetreffende initiatief of op de gebieden van het project die initiatiefinformatie bevatten.
+   * **De [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case] van het project**: Een nieuwe optie voor het beheer van projectbronnen met [!DNL Scenario Planner] informatie wordt toegevoegd in het [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case] van het project.
 
-   * **De [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case] van het project**: Een nieuwe optie voor het beheren van projectmiddelen die [!DNL Scenario Planner] informatie wordt toegevoegd in het [!UICONTROL Resource Budgeting] gebied van de [!UICONTROL Business Case] van het project.
+     Zie voor meer informatie [Begrotingsmiddelen in de [!UICONTROL Business Case] met de [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-      Zie voor meer informatie [Begrotingsmiddelen in de [!UICONTROL Business Case] met de [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
-
-      ![](assets/sp-in-business-case-selected-350x110.png)
+     ![](assets/sp-in-business-case-selected-350x110.png)
 
 1. (Optioneel) Bekijk de volgende informatie in het dialoogvenster [!DNL Scenario Planner] nadat u een scenario hebt gepubliceerd:
 
@@ -269,18 +271,18 @@ Voordat u begint:
    * De [!UICONTROL Go to Publish] de optie wordt uit alle andere scenario&#39;s verwijderd nadat ten minste één initiatief uit een scenario is gepubliceerd.
    * Naast de projectpictogrammen van de gepubliceerde initiatieven in het plan wordt een groene indicator weergegeven.
 
-      ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * Een groene &quot;Gepubliceerde&quot;indicatorvertoningen bij de bovenkant van het scenario en op de scenario kaart en het Gepubliceerde gebied wordt bevolkt op de scenario kaart die op het aantal initiatieven in het scenario wijst die zijn gepubliceerd.
 
-      ![](assets/published-scenario-highlighted-350x632.png)
+     ![](assets/published-scenario-highlighted-350x632.png)
 
-      >[!TIP]
-      >
-      >Als alle projecten die uit de initiatieven van het scenario worden gepubliceerd, worden geschrapt, wordt de aanwijzing dat het scenario is gepubliceerd geschrapt. Zie voor meer informatie [Projecten verwijderen](../manage-work/projects/manage-projects/delete-projects.md).
+     >[!TIP]
+     >
+     >Als alle projecten die uit de initiatieven van het scenario worden gepubliceerd, worden geschrapt, wordt de aanwijzing dat het scenario is gepubliceerd geschrapt. Zie voor meer informatie [Projecten verwijderen](../manage-work/projects/manage-projects/delete-projects.md).
 
 1. (Optioneel) Werk de informatie over het initiatief bij en herhaal het hierboven beschreven proces om het initiatief opnieuw te publiceren en actualiseer de initiatiefinformatie over het gekoppelde project.
 
-   Voor informatie over het bewerken van initiatieven raadpleegt u [Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Zie voor informatie over het bewerken van initiatieven [Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 

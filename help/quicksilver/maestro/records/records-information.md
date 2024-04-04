@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -40,3 +40,4 @@ In de volgende artikelen wordt beschreven hoe u records en de bijbehorende infor
 * [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Overzicht van de sectie Historie](/help/quicksilver/maestro/records/history-section-overview.md)
 * [Miniaturen toevoegen aan records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [De recordpagina beheren](/help/quicksilver/maestro/records/manage-the-record-page.md)
