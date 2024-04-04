@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -46,14 +47,14 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Werkobjecten
 
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
 | Project (PROJ) | Project<br>Taak<br>Toewijzing<br>Voorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
 | Sjabloon (TMPL) | Sjabloon<br>Sjabloontaak<br>Toewijzing sjabloontaak<br>Sjabloontaakvoorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
 
 ### Objecten rapporteren
 
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
 | Lay-outsjabloon (UITMPL) | Lay-outsjabloon<br>Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
 | Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
@@ -66,7 +67,7 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Aangepaste gegevensobjecten
 
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
 | Categorie (CTGY) | Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica<br>Groep |
 | Parameter (PARAM) | Parameter<br>Parameteroptie |
@@ -74,7 +75,7 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Organisatie-objecten
 
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
 | Groep (GROEP) | Groep <br>Subgroepen (maximaal 5 niveaus) *<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
 | Rol (ROLE) | Rol |
@@ -85,7 +86,7 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 
 ### Andere configuratieobjecten
 
-| Promoteerbaar object | Opgenomen promoteerbare subobjecten |
+| Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
 | Goedkeuringsproces (ARVPRC) | Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Rol<br>Team<br>Groep |
 | Schema (SCHED) | Schema<br>Onwerkdag<br>Groep |
@@ -135,5 +136,3 @@ Deze statussen zijn onder andere:
   </tr> 
   </tbody> 
 </table>
-
-

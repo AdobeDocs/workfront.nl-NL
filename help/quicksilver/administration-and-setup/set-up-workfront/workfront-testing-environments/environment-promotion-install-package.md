@@ -11,17 +11,21 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 610469811a937fde70a938af829b156e69cca391
+exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # Een pakket voor milieubescherming installeren
 
+>[!NOTE]
+>
+>Als u een pakket wilt installeren, moet u zijn aangemeld bij de omgeving waarin u het pakket wilt installeren. Dit is de omgeving waarin u objecten kopieert **tot**.
 
-1. Ga naar de omgeving waarin u het pakket wilt installeren. Dit is de omgeving waarin u objecten kopieert **tot**.
+1. Ga naar de omgeving waarin u het pakket wilt installeren.
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteren **Systeem** in de linkernavigatie selecteert u vervolgens **Milieubevordering**.
 1. Selecteer het pakket in de weergegeven lijst.
