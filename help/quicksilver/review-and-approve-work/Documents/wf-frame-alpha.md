@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,21 @@ ht-degree: 0%
 
 We zijn blij dat we de start van ons Alpha-programma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste release van de Alpha en een korte videodemo om u aan de slag te krijgen.
 
-## Laatste release
+## Alpha Release-updates in Frame.io - maart 2024
 
-## Release van Alpha - maart 2024
+In deze release van de Alpha hebben we:
+
+### Meerdere elementen van Frame.io toevoegen aan Workfront
+
+U kunt nu maximaal 10 elementen van Frame.io naar Workfront tegelijk toevoegen. U kunt verkiezen om aan de Documenten van het Project van Workfront of aan een specifieke projecttaak toe te voegen.
+
+### Verbeterde ervaring bij het toevoegen van een Frame.io-element aan Workfront
+
+De menu-items voor het toevoegen van een element aan Workfront zijn bijgewerkt, zodat u de taken die aan u zijn toegewezen, de taakhiërarchie en de taakstatus beter kunt zien.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Updates van de release van de Alpha in Workfront - maart 2024
 
 In deze release van de Alpha hebben we:
 
@@ -64,7 +76,7 @@ Als deze optie eenmaal is vergrendeld, kan een persoon die reviseert en/of goedk
 
 Wanneer een nieuwe documentversie wordt geüpload, kan de volgende revisieronde worden uitgeschakeld terwijl eerdere revisies vergrendeld blijven.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## Feedback verzenden
