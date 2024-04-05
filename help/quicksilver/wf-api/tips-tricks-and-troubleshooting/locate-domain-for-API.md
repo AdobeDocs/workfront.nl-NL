@@ -6,7 +6,7 @@ description: Zoek uw domein voor gebruik in de Adobe Workfront API
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 8487f8d4b1651df268720806cfe07fa271a7b87d
+source-git-commit: 1f45298f6bff0b633ce2cd5f3bedd098904eba9d
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -33,3 +33,4 @@ Ga als volgt te werk om uw domein te zoeken:
    Uw domein wordt vermeld op het recht van het scherm.
 
    ![Domein](assets/domain.png)
+
