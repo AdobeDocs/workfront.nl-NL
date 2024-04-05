@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '14095'
+source-wordcount: '14102'
 ht-degree: 0%
 
 ---
@@ -2698,6 +2698,7 @@ ht-degree: 0%
       * [Categorie](wf-api/wf-objects/category.md)
    * Tips, trucs en probleemoplossing voor de Adobe Workfront API {#tips-troubleshooting-apis}
       * [Tips, trucs en probleemoplossing voor de Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+      * [Domeinindeling voor Adobe Workfront API-aanroepen](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
       * [API-fout: &quot;De externe server heeft een fout geretourneerd: (400) Onjuiste aanvraag&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [Duplicaten die worden geretourneerd tijdens een grote gepagineerde zoekopdracht](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [Zoekresultaten sorteren in de API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
