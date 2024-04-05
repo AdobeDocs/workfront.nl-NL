@@ -8,9 +8,10 @@ title: Adobe Workfront Boards-modules
 description: U kunt de Adobe Workfront Boards-connector gebruiken om uw processen in Workfront Boards te automatiseren en deze aan te sluiten op apps en services van derden.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2144'
 ht-degree: 0%
 
 ---
@@ -476,6 +477,54 @@ Deze actiemodule maakt een nieuw label en wijst er een kleur aan toe.
   <tr> 
    <td>[!UICONTROL Tag Color]</td> 
    <td>Selecteer de kleur voor deze tag.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Opmerkingen
+
+#### Een opmerking maken
+
+Deze actiemodule heeft een opmerking gemaakt op de opgegeven kaart.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw [!DNL Workfront] app voor [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Verbinding maken met Workfront-kaarten</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Voer de id in van de kaart waaraan u een opmerking wilt toevoegen of wijs deze toe.<p>U kunt de kaart-id in de URL vinden wanneer u de kaart in Workfront bekijkt.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comment]</td> 
+   <td>Voer de tekst in van de opmerking die u wilt toevoegen of wijs deze toe.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Opmerkingen van creditcard lezen
+
+Deze actiemodule wint de commentaren van de gespecificeerde kaart terug.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw [!DNL Workfront] app voor [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Verbinding maken met Workfront-kaarten</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Voer de id in van de kaart waarvoor u de opmerkingen wilt ophalen of wijs deze toe.<p>U kunt de kaart-id in de URL vinden wanneer u de kaart in Workfront bekijkt.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>Voer het maximumaantal opmerkingen in dat de module in één uitvoeringscyclus mag retourneren.</p></td> 
   </tr> 
  </tbody> 
 </table>
