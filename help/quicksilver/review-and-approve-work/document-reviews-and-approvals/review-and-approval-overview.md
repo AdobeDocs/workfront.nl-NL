@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7e970f4f707937a62f68c191a7cbd5dfa26e471c
+source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Zie voor meer informatie over Frame.io [Aan de slag met Frame.io](https://suppor
 
 ## Starten en plannen van werkzaamheden in Workfront
 
-De beheerder van Workfront laat de integratie tussen Workfront en Frame.io toe door de standaardrekening Frame.io in het gebied van de Opstelling te vormen en dan gebruikers Frame.io in Workfront aan te wijzen. Op die manier kan de coördinator met behulp van Workfront-projecten en formele evaluatie en goedkeuring werkzaamheden plannen en op gang brengen.
+De beheerder van Workfront laat de integratie tussen Workfront en Frame.io toe door de standaardrekening Frame.io in het gebied van de Opstelling te vormen en dan gebruikers Frame.io in Workfront aan te wijzen. Hierdoor kan de coördinator werkzaamheden plannen en initiëren met behulp van Workfront-projecten en formele evaluatie- en goedkeuringswerkstromen.
 
 ### Een standaard Frame.io-account configureren
 
-Workfront-beheerders starten de integratie met Workfront en Frame.io door een standaard Frame.io-account toe te voegen in het gedeelte Setup van Workfront. Zodra een standaardrekening Frame.io opstelling is, leidt de integratie tot verbonden projecten tussen Workfront en Frame.io.
+Workfront-beheerders starten de integratie met Workfront en Frame.io door een standaard Frame.io-account toe te voegen in het gedeelte Setup van Workfront. Zodra een standaardrekening Frame.io opstelling is, hebben om het even welke projecten die in Workfront worden gecreeerd een spiegelproject dat in Frame.io wordt gecreeerd.
 
 Zie voor meer informatie [].
 
@@ -42,11 +42,11 @@ Wanneer een gebruiker duidelijk als gebruiker Frame.io in Workfront is en aan ee
 
 * Ze worden als deelnemer toegevoegd aan Frame.io
 * Ze kunnen elementen van Frame.io naar Workfront sturen voor formele controle en goedkeuring
+* Ze kunnen informatie uit Workfront bekijken in de one-way sync-map
 
 >[!TIP]
 >
 >We raden gebruikers aan die regelmatig met creatieve gereedschappen werken, middelen te uploaden om deze te beoordelen en goed te keuren als gebruikers van Frame.io.
-
 
 Zie voor meer informatie [].
 
@@ -86,26 +86,26 @@ Zie voor meer informatie over het controleren van elementen in Frame.io
 
 Als een creatief bedrijf eenmaal een voltooid middel van Frame.io naar Workfront verzendt, kan de projectcoördinator het formele beoordelings- en goedkeuringsproces in Workfront starten.
 
-Nadat de goedkeuring is gemaakt, gaan gebruikers terug naar Frame.io om opmerkingen over het element te plaatsen en het element op te halen. Zij kunnen een goedkeuringsbesluit in de kijker Frame.io ook nemen.
+Nadat de goedkeuring is gemaakt, gaan gebruikers terug naar Frame.io om opmerkingen over het element te plaatsen en het element te markeren. Zij kunnen een goedkeuringsbesluit in de kijker Frame.io ook nemen.
 
 ### In Workfront formele beoordelingen en goedkeuringen starten
 
 Projectcoördinatoren kunnen eenmalige beoordelingen en goedkeuringen of herbruikbare goedkeuringssjablonen maken in het gedeelte Setup van Workfront. Alle controle- en goedkeuringsactiviteiten die in Frame.io worden uitgevoerd, worden ook in Workfront geregistreerd.
 
+#### Revisoren en fiatteurs toevoegen
+
 De projectcoördinatoren kunnen revisoren, fiatteurs of een combinatie van beide toewijzen:
 
-* **Revisoren** U kunt opmerkingen plaatsen over elementen en markeringen maken. Als ze klaar zijn, kunnen ze de revisie als voltooid markeren. <!--example of when to add reviewers-->
-* **Fiatteurs** kan opmerkingen plaatsen over opmaakelementen. Zij moeten een besluit nemen om het goedkeuringsproces vooruit te helpen.
+* **Revisoren** kan opmerkingen maken over elementen en deze markeren. Als ze klaar zijn, kunnen ze de revisie als voltooid markeren. <!--example of when to add reviewers-->
+* **Fiatteurs** kan opmerkingen maken over elementen en deze markeren. Zij moeten een besluit nemen om het goedkeuringsproces vooruit te helpen.
 
 
+#### Een revisie- en goedkeuringswerkstroom maken
 
-Alle opmerkingen die in Frame.io worden gemaakt, worden weergegeven op het tabblad Updates in Workfront. Reacties in Workfront worden niet weergegeven in Frame.io.
-
-Opmerkingen met de markering Alleen team worden niet weergegeven op het tabblad Workfront-updates.
-
-Revisoren en fiatteurs kunnen worden toegevoegd aan sjablonen voor eenmalig gebruik of goedkeuring:
+Revisoren en fiatteurs kunnen worden toegevoegd aan een workflow voor eenmalig gebruik, een goedkeuringswerkstroom of een goedkeuringssjabloon:
 
 <!--can also assign teams and set deadline-->
+E-mail - deadline e-mails 72, 24 en op deadline.
 
 * **Goedkeuring voor eenmalig gebruik**: Goedkeuringstermijnen instellen
 
@@ -123,31 +123,34 @@ In het gedeelte Workfront Setup kunnen gebruikers met een standaardlicentie herb
 
 ### Elementen goedkeuren in Frame.io
 
-Met Frame.io verbonden betrokkenen kunnen gegevens bekijken en goedkeuren in de Frame.io-viewer met opmerkingen die worden gesynchroniseerd met de updatestream van Workfront, beslissingen enzovoort.
+Belanghebbenden kunnen verbonden elementen controleren en goedkeuren met de viewer Frame.io.
+
+#### De viewer Frame.io openen
+
+Gebruikers kunnen op de volgende manieren toegang krijgen tot de viewer Frame.io:
+
+* De wachtende goedkeuringswidget in het nieuwe Workfront Home-gebied
+* Workfront-e-mailberichten.
+
+Gebruikers van externe werknemers wordt gevraagd een Frame.io-aanmeldingsnaam te maken om elementen te controleren en goed te keuren.
+
+#### Opmerkingen maken over elementen en deze opwaarderen
+
+Alle opmerkingen die in de viewer Frame.io worden gemaakt, worden ook opgenomen op het tabblad Workfront Update. Reacties die zijn gemaakt in Workfront, worden niet weergegeven in Frame.io. Opmerkingen met de markering Alleen team worden niet weergegeven op het tabblad Workfront-updates.
+
+#### Beslissingen nemen
+
+De fiatteurs moeten een van de volgende besluiten nemen:
+
+* Goedkeuren: Dit
+* Goedkeuren met wijzigingen
+* Werking vereist
+
+Revisoren kunnen hun volledige revisie markeren in de viewers Frame.io.
 
 <!-- include screenshot from frame.io-->
 
-Als u uitsluitend in Frame werkt, kunt u via e-mail op de hoogte worden gesteld van een aanvraag.
 
-Als u alleen in Workfront werkt, kunt u thuis de goedkeuringswidget gebruiken.
-
-u kunt tot Frame.io kijker van toegang hebben wanneer u werkt
-
-**Elementen van Frame.io goedkeuren**
-de wijze van kennisgeving
-
-een besluit nemen - goedkeuren , goedkeuren met wijzigingen , werk nodig maken
-
-**Middelen van Workfront goedkeuren**
-de wijze van kennisgeving
-
-Home in afwachting van mijn goedkeuringswidget
-
-E-mail - deadline e-mails 72, 24 en op deadline.
-
-Externe WF-gebruikers wordt gevraagd om een aanmelding voor een frame te maken
-
-Als het element geen verbonden kader is, kunnen zij duimnagel in WF bekijken en commentaarstroom gebruiken. Besluiten tot herziening en goedkeuring kunnen worden genomen.
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
 
