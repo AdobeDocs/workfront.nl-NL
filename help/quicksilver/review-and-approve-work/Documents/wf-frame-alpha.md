@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha-programma - Workfront + Frame.io
-description: We zijn blij dat we de start van ons Alpha-programma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste release van de Alpha en een korte videodemo om u aan de slag te krijgen.
+title: Bèta-programma - Workfront + Frame.io
+description: We zijn erg blij dat we de start van ons bètaprogramma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# Alpha-programma - Workfront + Frame.io
+# Bèta-programma - Workfront + Frame.io
 
-We zijn blij dat we de start van ons Alpha-programma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste release van de Alpha en een korte videodemo om u aan de slag te krijgen.
+We zijn erg blij dat we de start van ons bètaprogramma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
 
-## Alpha Release-updates in Frame.io - maart 2024
+## Bètaversie wordt bijgewerkt in Frame.io - maart 2024
 
-In deze release van de Alpha hebben we:
+In deze bètaversie hebben we:
 
 ### Meerdere elementen van Frame.io toevoegen aan Workfront
 
@@ -34,9 +34,9 @@ De menu-items voor het toevoegen van een element aan Workfront zijn bijgewerkt, 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Updates van de release van de Alpha in Workfront - maart 2024
+## Bètaversie-updates in Workfront - maart 2024
 
-In deze release van de Alpha hebben we:
+In deze bètaversie hebben we:
 
 ### Een deadline toevoegen aan documentrevisies en -goedkeuringen
 

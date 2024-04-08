@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '14102'
 ht-degree: 0%
@@ -1788,7 +1788,7 @@ ht-degree: 0%
 * Werk beoordelen en goedkeuren {#review-and-approve-work}
    * [Werk beoordelen en goedkeuren](review-and-approve-work/review-and-approve-work.md)
    * [Programma Alpha - Goedkeuringen document](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Alpha-programma - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
+   * [Bèta-programma - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](review-and-approve-work/proof-doc-decision-limits.md)
    * Goedkeuring van werkzaamheden {#work-approvals}
       * [Goedkeuring van werkzaamheden](review-and-approve-work/manage-approvals/manage-approvals.md)
