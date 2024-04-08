@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Deze automatisering zoekt naar nieuwe projecten in portfolio&#39;s met aangepast
 
 Dit malplaatje zet Kwesties in Projecten om. U kunt deze aanpassen aan de normen van uw organisatie.
 
-### [!BADGE Nieuw!]{type=Informative}
+### Workfront - Kopieer documenten van uitgaven/verzoeken naar reeds omgezette projecten of taken
 
 Dit flexibele scenario kopieert documenten van kwesties of verzoeken aan eerder omgezette projecten of taken.
 
