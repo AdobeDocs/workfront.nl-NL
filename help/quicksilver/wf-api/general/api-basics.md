@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
+source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4386'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Voor productie, voorproef, en testaandrijvingsmilieu&#39;s hebben de eindgebruik
 ### Disclaimer
 
 Elk gebruik van de API moet in de bètaomgeving van Workfront worden getest voordat het in de productieomgeving wordt uitgevoerd. Als een klant de API gebruikt voor een proces dat Workfront redelijkerwijs als belastend voor de software op aanvraag beschouwt (d.w.z. het proces veroorzaakt een wezenlijk negatief effect op de prestaties van de software voor andere klanten), behoudt Workfront zich het recht voor te vragen dat de klant dat proces beëindigt. Als de klant niet voldoet en het probleem zich blijft voordoen, behoudt Workfront zich het recht voor het proces te beëindigen.
+
+## Workfront API-URL
+
+Ga voor informatie over de URL die u gebruikt om de Workfront API aan te roepen naar [Domeinindeling voor Adobe Workfront API-aanroepen](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
 
 ## Basisbeginselen van REST
 
@@ -124,22 +128,22 @@ De API gebruikt de zelfde op koekje-gebaseerde authentificatie die door Web UI a
 
 >[!IMPORTANT]
 >
-Workfront raadt niet langer het gebruik van het `/login` eindpunt of API-sleutels. Gebruik in plaats daarvan een van de volgende verificatiemethoden:
+>Workfront raadt niet langer het gebruik van het `/login` eindpunt of API-sleutels. Gebruik in plaats daarvan een van de volgende verificatiemethoden:
 >
-* Serververificatie met JWT
-* Gebruikersverificatie met OAuth2
+>* Serververificatie met JWT
+>* Gebruikersverificatie met OAuth2
 >
-Zie voor instructies voor het instellen van deze verificatiemethoden [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Zie voor instructies voor het instellen van deze verificatiemethoden [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
-Voor instructies over het gebruik van serververificatie in Workfront raadpleegt u [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md)
+>Voor instructies over het gebruik van serververificatie in Workfront raadpleegt u [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md)
 >
-Voor instructies over het gebruik van gebruikersverificatie in Workfront raadpleegt u [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md)
+>Voor instructies over het gebruik van gebruikersverificatie in Workfront raadpleegt u [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
-De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
+>De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
 >
-Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is geregistreerd, zie [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is geregistreerd, zie [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Met een geldige gebruikersnaam en wachtwoord kunt u de volgende aanvraag gebruiken om een sessie-id op te halen:
 
@@ -151,7 +155,7 @@ Dit plaatst een koekje om toekomstige verzoeken voor authentiek te verklaren eve
 
 >[!NOTE]
 >
-Als u een aangewezen API-gebruiker hebt die ook beheerder is, wordt u door Workfront sterk aangeraden zich aan te melden met behulp van een API-sleutel.
+>Als u een aangewezen API-gebruiker hebt die ook beheerder is, wordt u door Workfront sterk aangeraden zich aan te melden met behulp van een API-sleutel.
 
 **API-sleutels genereren**
 
@@ -284,7 +288,7 @@ De volgende tabel bevat een aantal opties die u kunt gebruiken met de Workfront 
 
 >[!NOTE]
 >
-Zoekverzoeken zijn hoofdlettergevoelig. Als er een fout optreedt, controleert u of  **_Mod** en **_Bereik** hebben de juiste hoofdletters en kleine letters.
+>Zoekverzoeken zijn hoofdlettergevoelig. Als er een fout optreedt, controleert u of  **_Mod** en **_Bereik** hebben de juiste hoofdletters en kleine letters.
 
 #### OR-instructies gebruiken
 
@@ -326,7 +330,7 @@ U kunt de parameter van het gebiedsverzoek gebruiken om een komma-gescheiden lij
 
 >[!NOTE]
 >
-Deze veldnamen zijn hoofdlettergevoelig.
+>Deze veldnamen zijn hoofdlettergevoelig.
 
 Voor een lijst met mogelijke veldverwijzingen raadpleegt u de  [API Explorer](../../wf-api/general/api-explorer.md)
 
@@ -505,7 +509,7 @@ Sommige objecten hebben privéverzamelingen die kunnen worden bijgewerkt. In het
 
 >[!NOTE]
 >
-Terwijl de updates aan het hoogste niveau worden gemaakt klein zijn, vervangen de updates aan een inzameling of een genesteld voorwerp volledig de bestaande inzameling. Als u één toewijzing op een taak wilt bewerken zonder de objecten te beïnvloeden, gebruikt u PUT op de toewijzing in plaats van op de taak.
+>Terwijl de updates aan het hoogste niveau worden gemaakt klein zijn, vervangen de updates aan een inzameling of een genesteld voorwerp volledig de bestaande inzameling. Als u één toewijzing op een taak wilt bewerken zonder de objecten te beïnvloeden, gebruikt u PUT op de toewijzing in plaats van op de taak.
 
 In het volgende voorbeeld wordt van een project een wachtrij voor een openbare helpdesk gemaakt. De bestaande wachtrijeigenschappen worden vervangen.
 <pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
@@ -546,4 +550,4 @@ Met een bulkupdateinstructie worden meerdere objecten tegelijkertijd bijgewerkt 
 
 >[!NOTE]
 >
-Atoombatchbewerkingen kunnen alleen &#39;success: true&#39; of een fout retourneren.
+>Atoombatchbewerkingen kunnen alleen &#39;success: true&#39; of een fout retourneren.
