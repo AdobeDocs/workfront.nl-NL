@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 {{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidskaarten**].
-1. Klikken [!UICONTROL **Nieuwe tariefkaart**] Typ vervolgens een naam voor de tariefkaart in het dialoogvenster [!UICONTROL **Creditcard**] veld, ter vervanging van &quot;Naamloze tariefkaart&quot;.
-1. Klik op het kaartscherm op [!UICONTROL **Functie toevoegen**].
+1. Klikken [!UICONTROL **Nieuwe tariefkaart**] Typ vervolgens een naam voor de tariefkaart in het dialoogvenster [!UICONTROL New rate card] doos, om &quot;Kaart van het Ontiteltarief te vervangen.&quot;
+1. (Optioneel) Voeg een [!UICONTROL **Beschrijving**].
+1. (Optioneel) Als u een aangepast formulier aan de tariefkaart wilt koppelen, klikt u op de knop [!UICONTROL **Aangepast formulier toevoegen**] in de rechterbovenhoek en selecteer een aangepast formulier in de lijst die wordt weergegeven.
+
+   Zie voor meer informatie over het bijvoegen van een aangepast formulier [Een aangepast formulier toevoegen aan een object](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Klikken [!UICONTROL **Functierollen en -tarieven**] in het linkernavigatievenster.
+1. Klik op het scherm Taken en sneltoetsen voor kaart beoordelen op [!UICONTROL **Functie toevoegen**].
 1. Selecteer een [!UICONTROL **Functie**] om factureringstarieven te bepalen voor.
 
    Het standaardFactureringstarief toont het systeem-vlakke tarief voor deze baanrol, als wordt bepaald.
@@ -82,7 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klikken [!UICONTROL **Opslaan**].
 1. (Optioneel) Als u nog een factureringsniveau wilt toevoegen, voor dezelfde taakrol op een andere locatie of voor een aparte taakrol, klikt u op [!UICONTROL **Functie toevoegen**].
-1. (Optioneel) Als u een factureringssnelheid wilt bewerken, selecteert u de frequentie op de kaart en klikt u op de knop **Bewerken** pictogram.
+1. (Optioneel) Als u een tariefkaart wilt bewerken, klikt u op de naam van de tariefkaart in de lijst Sneltoetsen in Setup. Als u een factureringssnelheid wilt bewerken, klikt u op [!UICONTROL **Functierollen en -tarieven**] in het linkernavigatievenster van de tariefkaart. Selecteer vervolgens de snelheid en klik op de knop **Bewerken** pictogram ![Pictogram Bewerken](assets/edit-icon.png).
 
 ## Een creditcard kopiëren
 
@@ -90,15 +96,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidskaarten**].
 1. Schakel het selectievakje naast de tariefkaart in de lijst in en klik op de knop **Kopiëren** pictogram ![Pictogram kopiëren](assets/copy-icon.png).
+1. Typ een naam voor de tariefkaart in het dialoogvenster [!UICONTROL Copy rate card] doos, om &quot;Kaart van het Ontiteltarief te vervangen.&quot; Klik vervolgens op **Opslaan**.
 
-   Er wordt een creditcard met dubbele snelheden toegevoegd. Klik op de naam van de tariefkaart in de lijst om de naam ervan te wijzigen.
+   De nieuwe tariefkaart wordt opgeslagen. Bewerk indien nodig de gegevens van de tariefkaart, de taakrollen en de tarieven.
 
 ## Een volledige tariefkaart verwijderen
 
 {{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op [!UICONTROL **Snelheidskaarten**].
-1. Schakel het selectievakje naast de tariefkaart in de lijst in en klik op **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png).
+1. Schakel het selectievakje naast de tariefkaart in de lijst in en klik op de knop **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png).
 
    >[!NOTE]
    >
