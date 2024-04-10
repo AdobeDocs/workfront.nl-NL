@@ -1,29 +1,29 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Native integratie-alfa van Adobe Workfront en Frame.io: functies'
-description: Geplande functies voor de native integratie-alfa van Adobe Workfront en Frame.io
+title: 'Geïntegreerde bèta van Adobe Workfront en Frame.io: functies'
+description: Geplande functies voor de geïntegreerde bètaversie van Adobe Workfront en Frame.io
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
+source-git-commit: b7a0fe333f0d8f17bc2d6c612d8cff6ee484c935
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
-# Standaard Adobe Workfront- en Frame.io-integratie alfa: functies en testen
+# Geïntegreerde bèta van Adobe Workfront en Frame.io: functies en tests
 
 Met deze integratie willen we creatieve mensen in staat stellen om in hun keuze (CC of Frame.io) te blijven voor het maken van inhoud en collegiale toetsingen, terwijl we tegelijkertijd projectmanagers hebben die het werk coördineren en het formele evaluatieproces vanuit Workfront initialiseren en controleren. Dit kan worden bereikt door de beste van beide oplossingen te gebruiken: Workfront-goedkeuringen voor nieuwe documenten voor het beheer van goedkeuringen van inhoud, in combinatie met de mogelijkheden voor inhoudsrevisie die Frame.io biedt. De nieuwe goedkeuringen voor documenten en Frame.io vormen samen onze nieuwe complete ervaring voor het beoordelen en goedkeuren van inhoud. 
 
-Ga voor meer informatie over de werking van de alfa en de manier waarop u kunt deelnemen naar [Adobe Workfront- en Frame.io-integratie alfa: overzicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+Ga voor meer informatie over de werking van de bètaversie en de manier waarop u kunt deelnemen naar [Adobe Workfront en Frame.io integratiebèta: overzicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
->Als u deze pagina&#39;s tegenkomt zonder dat uw bedrijf deelneemt aan dit alpha-programma, moet u de informatie hier zorgvuldig behandelen en contact opnemen met uw Workfront of Frame.io-beheerder voor meer informatie.
+>Als u deze pagina&#39;s tegenkomt zonder dat uw bedrijf deelneemt aan dit bètaprogramma, moet u de informatie hier zorgvuldig behandelen en contact opnemen met uw Workfront of Frame.io-beheerder voor meer informatie.
 >
 
 ## Video demo
@@ -32,11 +32,11 @@ Ga voor meer informatie over de werking van de alfa en de manier waarop u kunt d
 
 ## Basis testscenario
 
-Om u toe te staan om de nieuwe eigenschappen van het alpha- programma gemakkelijk te testen, hebben wij een nieuw testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io alpha testing` in uw bestaande Workfront Preview- of Sandbox-omgeving.
+Om u toe te staan om de nieuwe eigenschappen van het bètaprogramma gemakkelijk te testen, hebben wij een nieuwe testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io testing` in uw bestaande Workfront Preview- of Sandbox-omgeving.
 
 Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende stappen uit om de functionaliteit te testen:
 
-1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io alpha testing` groep die als projectgroep wordt toegewezen.
+1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io testing` groep die als projectgroep wordt toegewezen.
 
 1. **Coördinatoren:** Markeer in Workfront de taken waarvoor creatief werk nodig is als &#39;frame-enabled&#39; (in taakdetails) en wijs uw creatieve projecten hieraan toe (wijs uzelf ook toe als u de hele workflow wilt testen).
 
@@ -69,7 +69,9 @@ Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende st
 
 ## Gedetailleerd testscenario
 
-Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer betrokken testscenario gecreeerd. Hier kunt u een handleiding voor dit gedetailleerde testscenario downloaden: [WF + Frame.io Gedetailleerde Analyse van het Scenario van de Test](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
+Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer betrokken testscenario gecreeerd. Hier kunt u een handleiding voor dit gedetailleerde testscenario downloaden: [WF + Frame.io Gedetailleerde Analyse van het Scenario van de Test](/help/quicksilver/product-announcements/betas/assets/MVP-WF-Frame-Detailed-Walk-Through.pdf).
+
+
 
 ## Functieplannen
 
@@ -77,7 +79,7 @@ Hieronder vindt u informatie over de gevallen van primair gebruik die we willen 
 
 >[!NOTE]
 >
->Opsommingstekens onder een **&quot;Mogelijke verbeteringen in toekomstige versies&quot;** header kan al dan niet worden opgenomen in een toekomstige release , afhankelijk van alfafeedback en onze ontwikkelingsplannen .
+>Opsommingstekens onder een **&quot;Mogelijke verbeteringen in toekomstige versies&quot;** header kan al dan niet worden opgenomen in een toekomstige release, afhankelijk van bètafeedback en onze ontwikkelingsplannen die zich ontwikkelen.
 >
 
 ### Workfront-beheerders kunnen een verbinding instellen tussen Workfront-groepen en Frame.io-accounts
