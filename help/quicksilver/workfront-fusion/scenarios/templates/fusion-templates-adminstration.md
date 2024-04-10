@@ -7,9 +7,9 @@ description: Als beheerder hebt u toestemming om sjablonen die door anderen zijn
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>  
@@ -45,9 +45,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -61,17 +61,22 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Weergave [!DNL Workfront Fusion] sjablonen als beheerder
+## Weergave [!DNL Workfront Fusion] sjablonen als een [!DNL Workfront Fusion] beheerder
 
 Een tabel weergeven met alle gemaakte sjablonen en de bijbehorende statussen:
 
 1. Klikken **[!UICONTROL Administration]** in het linkernavigatievenster om het dialoogvenster [!UICONTROL Administration] gebied.
+
+   >[!NOTE]
+   >
+   >Het gebied Beheer is alleen zichtbaar voor Workfront Fusion-beheerders.
+
 1. Klikken **[!UICONTROL Templates]** in het linkernavigatievenster.
 
 Er zijn drie kolommen met betrekking tot de publicatiestatus van sjablonen. Een vinkje in een kolom geeft het volgende aan:
 
 * **[!UICONTROL Published]**: Deze sjablonen zijn momenteel zichtbaar in het dialoogvenster [!UICONTROL Team templates] in de gebruikersinterface.
-* **[!UICONTROL Requested approval]**: Deze templates wachten op goedkeuring. Ze zijn momenteel zichtbaar in het dialoogvenster [!UICONTROL Team templates] in de gebruikersinterface.
+* **[!UICONTROL Requested approval]**: Deze sjablonen wachten op goedkeuring. Ze zijn momenteel zichtbaar in het dialoogvenster [!UICONTROL Team templates] in de gebruikersinterface.
 * **[!UICONTROL Approved]**: Deze sjablonen zijn goedgekeurd. Ze zijn momenteel zichtbaar in het dialoogvenster [!UICONTROL Public templates] in de standaardgebruikersinterface.
 
 >[!NOTE]
@@ -96,7 +101,7 @@ Als u een sjabloon goedkeurt, wordt deze zichtbaar in het dialoogvenster [!UICON
 
 1. Klikken **[!UICONTROL Administration]** in het linkernavigatievenster om het dialoogvenster [!UICONTROL Administration] gebied.
 1. Klikken **[!UICONTROL Templates]** in het linkernavigatievenster.
-1. Als u een sjabloon wilt goedkeuren, klikt u op **[!UICONTROL Approve]** rechts van de sjabloon.
+1. Als u een sjabloon wilt goedkeuren, klikt u **[!UICONTROL Approve]** rechts van de sjabloon.
 1. Als u een sjabloon wilt weigeren, klikt u op **[!UICONTROL Disapprove]** rechts van de sjabloon.
 
 >[!NOTE]
