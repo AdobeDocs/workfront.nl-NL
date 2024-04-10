@@ -4,7 +4,8 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
+source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -90,11 +91,11 @@ Er zijn momenteel geen Workfront Proof-updates beschikbaar. Dit gebied wordt bij
 
 Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de release. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
 
-### API-versie 16
+### API-versie 18
 
-Voor API versie 16 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
+Voor API versie 18 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Voor informatie over nieuwe en bijgewerkte functies raadpleegt u [Nieuwe functies in API-versie 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Zie voor informatie over API-versies [API-versieschema en ondersteuningsschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -105,4 +106,3 @@ Voor informatie over de onderhoudsupdates die tijdens de Derde Kwart versie 2024
 ### Training-updates
 
 Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Raadpleeg voor meer informatie de sectie &quot;Nieuwe functies&quot; van het dialoogvenster [Workfront Tutorials pagina](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-
