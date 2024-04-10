@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ebcd2cae176d4fec2fd0bc308f00fa261621a95c
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 10%
+source-wordcount: '319'
+ht-degree: 8%
 
 ---
 
@@ -37,6 +37,10 @@ In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van
  </thead> 
  <tbody> 
  <tr>
+   <td>18</td> 
+   <td> <p>8 april 2023</p> </td> 
+   <td> <p>**gedurende 2027</p> <p>(met de release van 27.4)</p> </td> 
+  </tr>  <tr>
    <td>17</td> 
    <td> <p>12 oktober 2023</p> </td> 
    <td> <p>**gedurende 2026</p> <p>(met de release van 26.10)</p> </td> 
@@ -122,12 +126,12 @@ In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van
    <td> <p>juli 2017</p> <p>(met de release van 2017.2)</p> </td> 
   </tr> 
   <tr> 
-   <td>0.75</td> 
+   <td>0,75</td> 
    <td>2008</td> 
    <td> <p>juli 2017</p> <p>(met de release van 2017.2)</p> </td> 
   </tr> 
   <tr> 
-   <td>0.5</td> 
+   <td>0,5</td> 
    <td>2008</td> 
    <td> <p>juli 2017</p> <p>(met de release van 2017.2)</p> </td> 
   </tr> 
