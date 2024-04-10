@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
-source-wordcount: '14102'
+source-wordcount: '14108'
 ht-degree: 0%
 
 ---
@@ -2642,6 +2642,7 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met PKCE-stroom](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
+      * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)
       * [Nieuwe functies in API-versie 15](wf-api/api/new-api-version-15.md)
@@ -2698,7 +2699,7 @@ ht-degree: 0%
       * [Categorie](wf-api/wf-objects/category.md)
    * Tips, trucs en probleemoplossing voor de Adobe Workfront API {#tips-troubleshooting-apis}
       * [Tips, trucs en probleemoplossing voor de Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-      * [Domeinindeling voor Adobe Workfront API-aanroepen](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+      * [Domeinindeling voor Adobe Workfront API-aanroepen](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API-fout: &quot;De externe server heeft een fout geretourneerd: (400) Onjuiste aanvraag&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [Duplicaten die worden geretourneerd tijdens een grote gepagineerde zoekopdracht](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [Zoekresultaten sorteren in de API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
