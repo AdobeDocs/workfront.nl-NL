@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
 workflow-type: tm+mt
-source-wordcount: '14108'
+source-wordcount: '14151'
 ht-degree: 0%
 
 ---
@@ -412,6 +412,8 @@ ht-degree: 0%
       * Alfa-integratie tussen Workfront en Frame.io {#frame-io-wf-integration-alpha}
          * [Standaard Adobe Workfront- en Frame.io-integratie alfa: overzicht](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Standaard Adobe Workfront- en Frame.io-integratie alfa: functies](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfront data Lake bèta {#data-lake-beta}
+         * [bèta-informatie over Workfront data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Beheer en installatie {#administration-and-setup}
    * [Beheer en instellingen: artikelindex](administration-and-setup/administration-and-setup.md)
    * Aan de slag met het beheer {#get-started-administration}
@@ -1735,6 +1737,12 @@ ht-degree: 0%
       * [De activiteit per teamvisualisatie bekijken in Uitgebreide analyse](enhanced-analytics/activity-by-team-overview.md)
       * [De visualisatie van de bronnencapaciteit bekijken in Verbeterde analyse](enhanced-analytics/resource-capacity-overview.md)
       * [De visualisatie van de teamcapaciteit bekijken in Verbeterde analyse](enhanced-analytics/team-capacity-overview.md)
+   * Workfront data Lake {#data-lake}
+      * [Overzicht van Workfront-datumpeer](reports-and-dashboards/data-lake/data-lake-overview.md)
+      * [Een lezeraccount maken](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Gegevenswoordenboek van Workfront-gegevensmeergegevens](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Voorbeelden van query&#39;s voor basisgegevens in Workfront](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Gegevens over het datumpeer delen met bedrijfsintelligentiegereedschappen en externe gegevenspakhuizen](reports-and-dashboards/data-lake/share-data-externally.md)
 * Bronnen beheren {#manage-resources}
    * [Bronnen beheren](resource-mgmt/manage-resources.md)
    * Bronbeheer {#resource-management}
