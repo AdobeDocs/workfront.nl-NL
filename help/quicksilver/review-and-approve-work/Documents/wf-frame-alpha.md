@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: f3c724135ae7fa0406f178b10cb0828f978805b7
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # Bèta-programma - Workfront + Frame.io
 
 We zijn erg blij dat we de start van ons bètaprogramma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
+
+Om aan dit Bèta deel te nemen, moet u door het productteam worden toegelaten. Neem contact op met uw Customer Success of accountmanager en verzoek om te worden toegevoegd.
 
 ## Bètaversie wordt bijgewerkt in Frame.io - maart 2024
 

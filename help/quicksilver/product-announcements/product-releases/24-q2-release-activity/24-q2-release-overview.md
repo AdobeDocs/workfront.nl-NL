@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
+source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2172'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">De logica voor het weergeven en overslaan is nu beschikbaar in de voorbeeldmodus van de formulierontwerper</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">De logica voor het weergeven en overslaan is nu beschikbaar in de voorbeeldmodus van de formulierontwerper</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Met de aangepaste bètaformulierontwerper kunt u nu de logica voor weergave testen en logica in de voorbeeldmodus overslaan. Eerder werden alle velden in de voorvertoning weergegeven, zelfs toen de logica werd toegepast.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -81,7 +81,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -97,7 +97,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (selecteren, premier of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -116,7 +116,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Native velden voor Workfront kunnen nu worden toegevoegd aan aangepaste formulieren. Met dit nieuwe veldtype kunt u gegevens op een logische manier ordenen en presenteren aan uw gebruikers, zonder dat u bestaande gegevens opnieuw hoeft te maken in aangepaste velden.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -151,7 +151,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>U kunt nu bestaande weergave bewerken, logica overslaan en nieuwe logica toevoegen aan aangepaste formulieren in de bètaversie van de formulierontwerper. Met een eenvoudig te gebruiken logicaontwikkelaar kunt u definiëren welke velden worden weergegeven of overgeslagen op basis van selecties in het formulier.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -193,7 +193,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een deadline toevoegen aan documentrevisies en -goedkeuringen</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Een deadline toevoegen aan documentrevisies en -goedkeuringen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>U kunt nu een deadline opgeven voor gebruikers of teams die zijn toegewezen om een document te bekijken of goed te keuren. Revisoren en fiatteurs ontvangen 72 uur en vervolgens 24 uur voor de opgegeven deadline e-mailmeldingen. De deadline wordt ook weerspiegeld in de widget Goedkeuringen in het nieuwe gebied Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -209,7 +209,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuringssjablonen maken en gebruiken</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Goedkeuringssjablonen maken en gebruiken</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>U kunt goedkeuringssjablonen nu maken in het gedeelte Instellen om het beoordelings- en goedkeuringsproces te stroomlijnen. Met goedkeuringssjablonen kunt u het beoordelings- en goedkeuringsproces herhaalbaarder maken door
                         <ul>
                             <li>
@@ -234,7 +234,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Informatie over al uw goedkeuringen tegelijk weergeven</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Informatie over al uw goedkeuringen tegelijk weergeven</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, hebben wij de volgende belangrijke prestatiesindicatoren aan Al widget van Goedkeuringen toegevoegd:
                         <ul>
                             <li>
@@ -284,7 +284,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -418,7 +418,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicator voor handmatig aangepaste toewijzingen in de werklastbalans</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p><p>Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicator voor handmatig aangepaste toewijzingen in de werklastbalans</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -455,7 +455,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">De toegang tot het gebied met oudere opmerkingen is verwijderd</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">De toegang tot het gebied met oudere opmerkingen is verwijderd</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>We hebben de schakeloptie Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerkingen zijn nu de standaardoptie en de enige optie voor deze objecten. Door deze wijziging kunt u niet meer terugkeren naar de oudere opmerkingervaring. Bovendien hebben we de instelling 'Percentage voltooide updates tonen bij bijwerken' verwijderd uit het profiel van een gebruiker.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -471,7 +471,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in snelle acties voor nieuwe Home-widgets</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>We hebben nu de nieuwe functionaliteit voor opmerkingen toegevoegd aan de knop Snelle actie toevoegen in Mijn werk, Mijn projecten, Mijn taken en Mijn problemen in de nieuwe widgets Home.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -490,7 +490,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Aanvullende informatie over opmerkingen beschikbaar in de nieuwe ervaring met opmerkingen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De nieuwe opmerkingervaring is als volgt verbeterd:</p>
                         <ul>
                             <li>
@@ -517,7 +517,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Het tabblad Systeemactiviteit van de nieuwe opmerkingervaring ondersteunt alleen-lezen opmerkingen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Het tabblad Systeemactiviteit van de nieuwe opmerkingervaring ondersteunt alleen-lezen opmerkingen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Opmerkingen over de systeemactiviteitenrecords in de oudere opmerkingervaring worden nu op het tabblad Systeemactiviteit van de nieuwe opmerkingervaring alleen-lezen weergegeven. U kunt niet reageren op de records met systeemactiviteiten in de nieuwe opmerkingervaring.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -536,7 +536,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe tab voor updatestroom om zowel opmerkingen als informatie over systeemactiviteiten vast te leggen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Om u een chronologisch samenhangende mening van zowel commentaren als systeemactiviteitenlogboeken te geven, introduceren wij een derde lusje aan het gebied van Updates van alle voorwerpen. Op het tabblad Alles worden zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit in één samenhangende stream vastgelegd.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -555,7 +555,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting</a></p><p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>De nieuwe functionaliteit voor opmerkingen is nu toegevoegd aan het deelvenster Samenvatting voor taken en lijsten met uitgaven.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -593,7 +593,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het tweede kwartaal van 2024</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Updates weergeven en weergeven tijdens het tweede kwartaal van 2024</a></p><p>[!BADGE in productie ]{type=Informative}</p>
                         <p>Kleine updates van de look and feel van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen het tweede kwartaal van 2024. Bekijk de afzonderlijke releaseopmerkingen voor specifieke releasedatums.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
