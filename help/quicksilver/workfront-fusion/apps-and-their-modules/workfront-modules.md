@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5502'
+source-wordcount: '5739'
 ht-degree: 0%
 
 ---
@@ -814,6 +814,58 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 +++
 
 +++ **[!UICONTROL Search]**
+
+Deze zoekmodule zoekt naar records in een object in [!DNL Workfront] die overeenkomen met de zoekquery die u opgeeft.
+
+U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront] app voor [!DNL Workfront Fusion], zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Selecteer het type van [!DNL Workfront] record waarnaar u wilt zoeken in de module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>Selecteer een optie om op te geven of u wilt dat de module het eerste resultaat ophaalt dat overeenkomt met uw zoekcriteria of dat alle resultaten overeenkomen.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria fields]</td> 
+   <td> <p>Selecteer de velden die u voor de zoekcriteria wilt gebruiken. Deze velden zijn dan beschikbaar in het vervolgkeuzemenu Zoekcriteria.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria]</td> 
+   <td> <p>Voer het veld in waarnaar u wilt zoeken, de operator die u in de query wilt gebruiken en de waarde waarnaar u in het veld zoekt.</p> <p>Opmerking: niet gebruiken <code>username </code>in uw zoekcriteria. Inclusief <code>username </code>in een API-query naar [!DNL Workfront] logt de gebruiker in Workfront, en het onderzoek zal niet succesvol zijn.</p> <p>Opmerking: <code>In</code> en <code>NotIn</code>werken met arrays. De invoer moet een arrayindeling hebben.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Selecteer de velden die u in de uitvoer voor deze module wilt opnemen.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL References]</td> 
+   <td>Selecteer de verwijzingsvelden die u in de zoekopdracht wilt opnemen.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>Selecteer de verzamelingen die u aan de zoekopdracht wilt toevoegen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+++
+
++++ **[!UICONTROL Search (Legacy)]**
 
 Deze zoekmodule zoekt naar records in een object in [!DNL Workfront] die overeenkomen met de zoekquery die u opgeeft.
 
