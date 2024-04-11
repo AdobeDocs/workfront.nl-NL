@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: 53194c44b55f5441323672425106d8df4c7cc508
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,15 @@ Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te ve
 | Bronpool (RSPL) | Bronpool |
 
 \* Momenteel niet beschikbaar
+
+>[!NOTE]
+>
+>Overschrijven is momenteel beschikbaar voor de volgende objecten:
+>
+>* Rol
+>* Team
+>* Bedrijf
+>* Groep
 
 
 ## Status van milieubescherming
