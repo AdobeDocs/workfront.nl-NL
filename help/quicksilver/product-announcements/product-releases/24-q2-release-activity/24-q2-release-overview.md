@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
+source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p>Productie voor snelle release: met 24.2 release (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: TBD</p>
+                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -371,7 +371,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
                                 <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met 24.4 release (11 april 2024)</p>
+                                <p>Productie voor driemaandelijkse release: TBD</p>
                             </li>
                         </ul>
                     </td>
