@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-U kunt een nieuw aangepast formulier maken of bewerken. Beide taken worden in dit artikel uitgelegd.
+U kunt een nieuw aangepast formulier maken of een bestaand formulier bewerken. Beide taken worden in dit artikel uitgelegd.
 
 Voor informatie over het maken van een nieuw aangepast formulier op basis van een bestaand formulier raadpleegt u [Een aangepast formulier kopiëren om een nieuw formulier te maken met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ U kunt een aangepast formulier op elk gewenst moment na het maken bewerken.
 
    Aangepaste formulieren worden weergegeven in een lijst. U kunt alle aangepaste formulieren en aangepaste velden bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, welke objecten eraan zijn gekoppeld en of het actief is.
 
-1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
+1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op ![Pictogram Bewerken](assets/edit-icon.png).
 1. (Optioneel) Als u de titel en beschrijving van het aangepaste formulier wilt wijzigen, klikt u op de knop **Formulierinstellingen** en typt u vervolgens een **Formuliertitel** en **Beschrijving**.
 
 1. (Optioneel) Als u meer objecttypen aan het formulier wilt toevoegen zodat het aan meer objecten kan worden gekoppeld, klikt u op het plusteken + na **Objecttypen** Selecteer vervolgens de gewenste tekst in het menu dat wordt weergegeven.

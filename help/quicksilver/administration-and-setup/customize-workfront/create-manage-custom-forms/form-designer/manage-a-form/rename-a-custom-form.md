@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # De naam van een aangepast formulier wijzigen met de formulierontwerper
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 U kunt de naam van een aangepast formulier op elk gewenst moment wijzigen nadat u het met de formulierontwerper hebt gemaakt.
 
@@ -61,7 +55,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    In de weergave die wordt weergegeven, kunt u alle aangepaste formulieren bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, met welk objecttype het werkt en of het actief is.
 
-1. Selecteer het aangepaste formulier waarvan u de naam wilt wijzigen en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon2.png).</span>
+1. Selecteer het aangepaste formulier waarvan u de naam wilt wijzigen en klik of ![Pictogram Bewerken](assets/edit-icon2.png).
 1. Als u de titel wilt wijzigen, klikt u op de naam van het formulier.
 1. Als u de beschrijving wilt wijzigen, klikt u in het tekstvak Beschrijving.
 

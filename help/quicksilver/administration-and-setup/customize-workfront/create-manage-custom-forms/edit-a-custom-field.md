@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Eigenschappen van een aangepast veld, sectie-einde of widget bewerken in een aangepast formulier
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 U kunt de eigenschappen bewerken van een aangepast veld, sectie-einde of widget dat in een aangepast formulier wordt gebruikt in uw Adobe Workfront-exemplaar. Dit zijn onder andere het label, de naam, de instructies, enzovoort van het item.
 
@@ -61,7 +55,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 1. Klikken **Aangepaste Forms.**
 1. Klikken **Velden** het gebied Velden openen.
-1. Selecteer het aangepaste veld, het sectie-einde of de widget en klik vervolgens op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
+1. Selecteer het aangepaste veld, het sectie-einde of de widget en klik vervolgens op ![Pictogram Bewerken](assets/edit-icon.png).
 1. Wijzig in het vak dat wordt weergegeven de opties die beschikbaar zijn voor het item dat u bewerkt.
 
    Meer informatie over deze opties vindt u

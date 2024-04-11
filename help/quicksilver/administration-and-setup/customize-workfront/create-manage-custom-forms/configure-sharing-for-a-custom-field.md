@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # Delen voor aangepaste velden en widgets configureren met de oudere formulierbuilder
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 
@@ -63,11 +57,11 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 1. Als u het delen voor een aangepast veld of een aangepaste widget configureert in de Workfront-instantie van uw organisatie, gaat u als volgt te werk:
 
    1. Klikken **Velden** het gebied Velden openen.
-   1. Selecteer het punt u het delen voor wilt vormen, dan klik **Delen** <span class="preview">of ![Pictogram Delen](assets/share-icon.png).</span>
+   1. Selecteer het punt u het delen voor wilt vormen, dan klik ![Pictogram Delen](assets/share-icon.png).
 
    Of voer de volgende handelingen uit als u het delen configureert voor een aangepast veld of een aangepaste widget in een bestaand aangepast formulier:
 
-   1. Selecteer het aangepaste formulier en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
+   1. Selecteer het aangepaste formulier en klik op ![Pictogram Bewerken](assets/edit-icon.png).
    1. Selecteer in het formulierbewerkingsgebied aan de rechterkant het item waarvoor u het delen wilt configureren.
    1. Klik in het linkerdeelvenster op **Veld delen**.
 
@@ -131,7 +125,7 @@ U kunt erachter komen wie toegang tot een aangepast veld of een aangepaste widge
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Klik op de knop **Velden** en selecteert u vervolgens het veld, de afbeelding of de toegangswidget.
+1. Klikken **Velden** Selecteer vervolgens het veld, de afbeelding of de toegangs-widget.
 1. Klik in het weergegeven vak op **Overgenomen machtigingen** en bekijk de namen die worden weergegeven.
 1. Klikken **Annuleren**.
 

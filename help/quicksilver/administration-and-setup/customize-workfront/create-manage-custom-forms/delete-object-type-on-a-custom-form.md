@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Objecttypen verwijderen op een aangepast formulier
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Op een bestaand aangepast formulier kunt u objecttypen verwijderen die aan het formulier zijn gekoppeld. Nadat u dit hebt gedaan, kunnen gebruikers het formulier niet meer koppelen aan objecten van dat type.
 
@@ -68,7 +62,7 @@ Een aangepast formulier moet ten minste één objecttype hebben.
 {{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
-1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op **Bewerken** <span class="preview">of ![Pictogram Bewerken](assets/edit-icon.png).</span>
+1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op ![Pictogram Bewerken](assets/edit-icon.png).
 1. Klik op de X op een van de **Objecttypen** die u uit het formulier wilt verwijderen, klikt u op **Verwijderen** in het waarschuwingsbericht dat wordt weergegeven.
 
    ![](assets/click-x-object-types.jpg)

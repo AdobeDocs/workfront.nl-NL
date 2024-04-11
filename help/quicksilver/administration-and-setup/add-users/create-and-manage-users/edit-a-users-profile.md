@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '3334'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Gebruikersprofiel bewerken
-
-{{highlighted-preview}}
 
 <!--
 
@@ -234,7 +232,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Aangepaste Forms</td> 
-      <td><p>Koppel een bestaand aangepast gebruikersformulier aan deze gebruiker. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Velden die u niet kunt bewerken, worden niet weergegeven in een afzonderlijk aangepast formulier.</p> <p><span class="preview"><strong>Opmerking:</strong> Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn alleen beschikbaar wanneer u de gebruikersrecord opent op de detailpagina en niet in het dialoogvenster Gebruiker bewerken. (Klik in de lijst met gebruikers op de gebruikersnaam om de details te openen.)</span></p> <p>Zie voor informatie over het maken van aangepaste formulieren <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</p></td> 
+      <td><p>Koppel een bestaand aangepast gebruikersformulier aan deze gebruiker. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Velden die u niet kunt bewerken, worden niet weergegeven in een afzonderlijk aangepast formulier.</p> <p><strong>Opmerking:</strong> Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn alleen beschikbaar wanneer u de gebruikersrecord opent op de detailpagina en niet in het dialoogvenster Gebruiker bewerken. (Klik in de lijst met gebruikers op de gebruikersnaam om de details te openen.)</p> <p>Zie voor informatie over het maken van aangepaste formulieren <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Opmerking</td> 

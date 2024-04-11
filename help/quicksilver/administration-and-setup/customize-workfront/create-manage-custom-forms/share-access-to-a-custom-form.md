@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier delen
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 U kunt toegang voor een douaneformulier vormen om te controleren wie-persoon, rol, groep, team, bedrijf-kan bekijken, delen, en het uitgeven.
 
@@ -69,7 +63,7 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
 {{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Selecteer het aangepaste formulier en klik op **Delen** <span class="preview">of ![Pictogram Delen](assets/share-icon.png).</span>
+1. Selecteer het aangepaste formulier en klik op ![Pictogram Delen](assets/share-icon.png).
 1. In het vak dat wordt weergegeven, onder **Aangepaste formuliertoegang verlenen aan** typt u de naam van de gebruiker, het team, de taakrol, de groep of het bedrijf waarmee u het aangepaste formulier wilt delen. Druk vervolgens op **Enter** wanneer de naam wordt weergegeven.
 1. Als u de toegang wilt aanpassen voor de gebruiker, het team, de taakrol, de groep of het bedrijf dat u net hebt toegevoegd, klikt u op het vervolgkeuzemenu rechts van de naam en configureert u vervolgens een van de volgende beschikbare opties en een van de geavanceerde instellingen:
 
@@ -118,7 +112,7 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
 {{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Selecteer het aangepaste formulier en klik op **Delen** <span class="preview">of ![Pictogram Delen](assets/share-icon.png).</span>
+1. Selecteer het aangepaste formulier en klik op ![Pictogram Delen](assets/share-icon.png).
 1. Klik in het vak dat wordt weergegeven op de X rechts van de naam van de gebruiker, het team, de rol, de groep of het bedrijf waartoe u geen speciale toegang meer wilt hebben.
 1. (Optioneel) Herhaal de vorige stap naar voor andere namen die u wilt verwijderen.
 1. Klikken **Opslaan**.

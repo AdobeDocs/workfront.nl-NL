@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Bedrijven maken en bewerken
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -119,7 +117,7 @@ Een bedrijf toevoegen of bewerken:
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] sectie</td> 
-      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet beschikbaar in zijn [!DNL Workfront]kunt u een aangepast formulier maken en dit koppelen aan uw bedrijf. </p> <p>U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve aangepaste formulieren worden in het menu weergegeven.</p> <p><span class="preview"><strong>Opmerking:</strong> Geavanceerde aangepaste formulierfuncties, zoals velden Extern opzoeken en eigen Workfront-velden, zijn alleen beschikbaar als u de bedrijfsrecord opent op de detailpagina en niet in het dialoogvenster Bedrijf bewerken. (Klik in de lijst met bedrijven op de bedrijfsnaam om de gegevens te openen.)</span></p> <p> Zie voor informatie over het maken van aangepaste formulieren <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>. </p> </td>
+      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet beschikbaar in zijn [!DNL Workfront]kunt u een aangepast formulier maken en dit koppelen aan uw bedrijf. </p> <p>U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve aangepaste formulieren worden in het menu weergegeven.</p> <p><strong>Opmerking:</strong> Geavanceerde aangepaste formulierfuncties, zoals velden Extern opzoeken en eigen Workfront-velden, zijn alleen beschikbaar als u de bedrijfsrecord opent op de detailpagina en niet in het dialoogvenster Bedrijf bewerken. (Klik in de lijst met bedrijven op de bedrijfsnaam om de gegevens te openen.)</p> <p> Zie voor informatie over het maken van aangepaste formulieren <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

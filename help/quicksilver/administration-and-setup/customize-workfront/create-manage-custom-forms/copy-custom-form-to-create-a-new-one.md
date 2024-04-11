@@ -9,20 +9,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Een aangepast formulier kopiëren om een nieuw formulier te maken met de verouderde builder
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 U kunt een nieuw aangepast formulier maken dat is gebaseerd op een bestaand formulier.
 
@@ -59,7 +53,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 {{step-1-to-setup}}
 
 1. Klikken **Aangepaste Forms.**
-1. Selecteer het aangepaste formulier dat u als basis voor een nieuw aangepast formulier wilt gebruiken en klik op **Kopiëren** <span class="preview">of ![Pictogram kopiëren](assets/copy-icon.png).</span>
+1. Selecteer het aangepaste formulier dat u als basis voor een nieuw aangepast formulier wilt gebruiken en klik op ![Pictogram kopiëren](assets/copy-icon.png).
 1. In de **Aangepast formulier kopiëren** Typ de volgende informatie in het vak dat wordt weergegeven:
 
    <table style="table-layout:auto"> 
@@ -73,14 +67,14 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Formuliertypen </p> </td> 
       <td> <p>In de <b>Formuliertype</b> Selecteer de objecttypen waarmee u het aangepaste formulier wilt bewerken en klik op de X naast de typen die u wilt verwijderen. Typen die al aan het formulier zijn gekoppeld, worden in de lijst uitgeschakeld.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>Het formulier moet aan ten minste één objecttype zijn gekoppeld.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Formulier kopiëren**.
+1. Klikken **Kopiëren**.
 
    Als berekende velden in het oorspronkelijke formulier niet compatibel zijn met een objecttype dat u aan het nieuwe formulier toevoegt, wordt u in een bericht gevraagd de berekeningen in die velden te wijzigen.
 
