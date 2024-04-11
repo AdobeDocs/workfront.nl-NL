@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -23,170 +23,172 @@ ht-degree: 0%
 
 <!--info for April 11: hide the disclaimer for preview below-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in Production voor klanten die snelle releases hebben ingeschakeld. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: take out the Important box-->
 
 In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
 
+<!--
 >[!IMPORTANT]
 >
->De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogelijk de volgende functionaliteit voor de sectie Updates:
->* De nieuwe ervaring
->* De oudere ervaring
->* De nieuwe en oudere ervaring
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Ga voor meer informatie over de nieuwe opmerkingervaring en de beschikbaarheid ervan naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> De oudere ervaring met opmerkingen is verwijderd uit projecten, taken, problemen en documenten in de voorvertoningsomgeving. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates van Workfront-objecten. Deze ervaring is niet beschikbaar wanneer u updates opent vanuit de volgende gebieden:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
 > * Home
-> * Samenvattingspaneel in lijsten
-> * Samenvattingspaneel in tijdbladen
-> * Het deelvenster Overzicht in het deelvenster Werklastverdeling
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving en in de productieomgeving voor klanten die voor het snelle releaseproces hebben gekozen.
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
+-->
 
 ## Overzicht van de sectie Updates
 
 De sectie Updates van een object toont systeemupdates en maximaal 200 van de meest recente updates die gebruikers hebben uitgevoerd in de afgelopen 90 dagen.
 
-<div class="preview">
-
 ![Sectie Updates](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
-</div>
+<!--Info for April 11: Add the following right under the screen shot above:-->
 
-<!--Info for April 11: Add the following right under the screen shot above:
+De volgende objecten hebben een sectie Updates waarin u opmerkingen kunt toevoegen of systeemupdates kunt reviseren:
 
-The following objects have an Updates section where you can add comments or review system updates: 
-
-* Projects
-* Tasks
-* Issues
-* Programs
-* Portfolios
-* Templates
-* Template tasks
-* Users
+* Projecten
+* Taken
+* Problemen
+* Programma&#39;s
+* Portfolio&#39;s
+* Sjablonen
+* Sjabloontaken
+* Gebruikers
 * Timesheets
 * Teams
-* Goals
-* Cards in the Boards area
-* Iterations
--->
+* Doelen
+* Kaarten in het gebied van de kamers
+* Herhalingen
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
-Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, kunt u de volgende ervaring vinden voor de sectie Updates:
+<!--
+Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
-* Zowel de nieuwe als de oudere ervaring met opmerkingen voor de volgende objecten:
+* Both the new and legacy commenting experience for the following objects: 
 
-   * Project
-   * Taak (inclusief artikelen)
-   * Probleem
-   * Document
+  * Project
+  * Task (this includes Stories)
+  * Issue
+  * Document
 
-     >[!TIP]
-     >
-     >Met de optie Nieuwe opmerkingen geeft u de nieuwe opmerkingervaring (wanneer u deze inschakelt) of de oudere opmerkingervaring (wanneer u deze uitschakelt) weer. De nieuwe ervaring met opmerkingen is de standaardinstelling. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
-* Alleen de nieuwe opmerkingervaring voor de objecten hieronder. Er is geen optie om de oudere ervaring met opmerkingen in te schakelen voor deze objecten:
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-   * Goal
+  * Goal
 
-     >[!NOTE]
-     >
-     >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 
-   * Kaart aan boord
-   * Team
-   * Sjabloon
-   * Sjabloontaak
-   * Tijdschema
-   * Programma
-   * Portfolio
-   * Gebruiker
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
 
-* Alleen de oudere ervaring met opmerkingen voor de volgende objecten:
+* Only the legacy commenting experience for the following objects:
 
-   * Herhalingen
+  * Iterations
 
-     Er is geen optie om de nieuwe opmerkingervaring voor herhalingen in te schakelen. Zie voor meer informatie [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+    There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+-->
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Overzicht van de sectie Updates in de nieuwe opmerkingervaring
-
-<div class="preview">
+### Overzicht van de sectie Updates <!--in the new commenting experience-->
 
 ![Sectie Updates](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-</div>
-
 <!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
+<!--
 >[!NOTE]
 >
->De nieuwe ervaring met opmerkingen is niet beschikbaar voor herhalingen.
+>The new commenting experience is not available for iterations.
+-->
 
-* In de sectie Updates wordt informatie in de volgende tabbladen weergegeven voor de nieuwe ervaring met opmerkingen:
+* In de sectie Updates wordt informatie weergegeven op de volgende tabbladen<!-- in the new commenting experience-->:
 
-   * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. <span class="preview">Eventuele reacties op de systeemactiviteitenrecords in de oudere opmerkingervaring worden op het tabblad Systeemactiviteit als alleen-lezen ingevuld.</span> Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * <span class="preview">**Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van objecten in de nieuwe opmerkingervaring raadpleegt u [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).</span>
+   * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Informatie over het bijwerken van objecten<!-- in the new commenting experience-->, zie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Informatie over het bijwerken van objecten<!-- in the new commenting experience-->, zie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 
-* De volgende objecten hebben geen tabblad Systeemactiviteit <span class="preview">of een tabblad All:</span>
+* De volgende objecten hebben geen tabblad Systeemactiviteit of een tabblad Alles:
 
    * Team
    * Sjabloon
    * Sjabloontaak
    * Ad-hockaart
+   * Herhalingen
 
      Voor meer informatie over updates op kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* De volgende objecten hebben geen <span class="preview">Alle tabbladen:</span>
+     Voor meer informatie over updates over herhalingen raadpleegt u [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
+* De volgende objecten hebben geen tabblad Alles:
 
    * Doelen
 
      Voor meer informatie over updates over doelstellingen, zie [Doelopmerkingen beheren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!--info for April 11: make the text below live - remove the commented out brackets: 
+NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
 
 * The following objects don't have a System Activity or an All tab: 
 
   * Iterations
 
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
-
--->
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 
-### Overzicht van de sectie Updates van oudere versies
+<!--
+### Overview of the legacy Updates section 
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-De sectie Updates van de erfenis toont de volgende informatie:
+The legacy Updates section shows the following information:
 
-* **Gebruikersupdates**: Opmerkingen van gebruikers en antwoorden op deze opmerkingen.
-* **Systeemupdates**: Informatieve berichten die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. U kunt bijvoorbeeld wijzigingen in status, naam of aangepaste velden vastleggen met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **User updates**: Comments made by users and replies to those comments. 
+* **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-De volgende objecten registreren geen systeemupdates:
+The following objects don't record system updates:
 
 * Team
-* Sjabloon
-* Sjabloontaak
-* Herhalingen
-
+* Template
+* Template Task
+* Iterations
+-->
 
 ## Updates die ook worden weergegeven op objecten met een hogere positie
 
@@ -263,13 +265,15 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
 
 <!--info for April 11: hide the note below-->
 
+<!--
 >[!NOTE]
 >
->De reacties die aan systeemupdates worden toegevoegd rollen niet omhoog aan het oudervoorwerp. Alleen directe antwoorden op een onderliggend object en antwoorden die aan bestaande updates zijn toegevoegd, worden doorgegeven aan bovenliggende objecten.
+>Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 >
->Zie voor informatie over de objecthiërarchie in Adobe Workfront [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+>For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Het is niet mogelijk te reageren op systeemupdates in de nieuwe opmerkingervaring. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+-->
 
 
 ## Beperkingen van de sectie Updates

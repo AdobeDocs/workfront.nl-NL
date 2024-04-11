@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '4288'
+source-wordcount: '2974'
 ht-degree: 0%
 
 ---
@@ -19,35 +19,39 @@ ht-degree: 0%
 
 <!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in Production voor klanten die snelle releases hebben ingeschakeld. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
+<!--
 >[!IMPORTANT]
 >
->De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogelijk de volgende functionaliteit voor de sectie Updates:
->* De nieuwe ervaring
->* De oudere ervaring
->* De nieuwe en oudere ervaring
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Ga voor meer informatie over de nieuwe opmerkingervaring en de beschikbaarheid ervan naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> De oudere ervaring met opmerkingen is verwijderd uit projecten, taken, problemen en documenten in de voorvertoningsomgeving. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates van Workfront-objecten. Deze ervaring is niet beschikbaar wanneer u updates opent vanuit de volgende gebieden:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
 > * Home
-> * Samenvattingspaneel in lijsten
-> * Samenvattingspaneel in tijdbladen
-> * Het deelvenster Overzicht in het deelvenster Werklastverdeling
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving en in de productieomgeving voor klanten die voor het snelle releaseproces hebben gekozen. </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+-->
 
 U kunt een update toevoegen aan een Adobe Workfront-object om te communiceren over de voortgang van het object. Ga voor meer informatie over welke objecten u updates kunt toevoegen in Workfront naar [Overzicht van de sectie Bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -133,113 +137,113 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
-## Een update toevoegen aan een werkitem
+<!--
+## Add an update to a work item
 
-Het toevoegen van een update aan een tijdelijk item hangt af van de versie van de sectie Updates die u gebruikt.
+Adding an update to a work item differs depending on what version of the Updates section you use.
 
-U kunt updates toevoegen aan de volgende objecten:
+You can add updates to the following objects: 
 
-* Projecten
-* Taken
-* Problemen
-* Programma&#39;s
-* Portfolio&#39;s
-* Sjablonen
-* Sjabloontaken
-* Gebruikers
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
 * Timesheets
 * Teams
-* Doelen
-* Kaarten in het gebied van de kamers
-* Herhalingen
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
 
 <!--info for April 11: hide the section below completely:-->
 
-### Een update toevoegen aan een werkitem in de sectie Oudere updates
+<!--
+### Add an update to a work item in the legacy Updates section
 
 >[!IMPORTANT]
 >
->De informatie op deze pagina beschrijft hoe u projecten, taken, en kwesties bijwerkt.
+>The information on this page describes how you update projects, tasks, and issues.
 
-1. Ga naar het het werkpunt waarvoor u een update (zoals een project, een taak, of een kwestie) wilt verstrekken.
-1. Klik op de knop **Updates** sectie.
-1. (Voorwaardelijk) Als deze optie is ingeschakeld, klikt u op de knop **Nieuwe opmerkingen** in de rechterbovenhoek van de sectie Updates om deze uit te schakelen en de ervaring voor oudere opmerkingen in te schakelen.
-1. Klikken **Een nieuwe update starten,** typ vervolgens de update.
-1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
-1. (Optioneel) Werk een van de volgende gegevens bij over het werkitem:
+1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
+1. Click the **Updates** section.
+1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
+1. Click **Start a new update,** then type your update.  
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Waarschuwen</strong></td> 
-      <td>Identificeer gebruikers die van de update moeten worden op de hoogte gebracht. Gebruikers die zijn toegewezen aan of geabonneerd op het object, ontvangen automatisch een melding wanneer een update wordt uitgevoerd.<br><p>Voor informatie over het opnemen van anderen in een update raadpleegt u <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a>.</p></td> 
+      <td role="rowheader"><strong>Notify</strong></td> 
+      <td>Identify users who must be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Vastlegdatum</strong></td> 
-      <td>Selecteer in de datumkiezer de datum die u hebt vastgelegd om het werkitem te voltooien. Voor informatie over de Datum van het Vastleggen, zie <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Overzicht van datum vastleggen</a>.</td> 
+      <td role="rowheader"><strong>Commit Date</strong></td> 
+      <td>In the date picker, select the date that you commit to complete the work item. For information about Commit Date, see <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Voorwaarde</strong></td> 
-      <td>Selecteer een nieuwe voorwaarde voor de taak of kwestie. Voor informatie over het selecteren van een voorwaarde raadpleegt u <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Voorwaarde voor bijwerken voor taken en problemen</a>.</td> 
+      <td role="rowheader"><strong>Condition</strong></td> 
+      <td>Select a new condition for the task or issue. For information about selecting a condition, see <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong></td> 
-      <td>Klik op de pijl naast de huidige status en selecteer vervolgens de gewenste status in het vervolgkeuzemenu. Voor informatie over het instellen van een status raadpleegt u <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Taakstatus bijwerken</a>.<p>Het bijwerken van de status van een werkitem wijzigt niet automatisch de status van een project. Afhankelijk van hoe uw project opstelling is, zou u updates aan de projectstatus afzonderlijk kunnen maken. Voor meer informatie over de diverse types van projectupdate, zie <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecteer het Type van projectupdate </a>.</p><p><b>OPMERKING</b>
-
-   U kunt de status van een tijdelijk onderdeel niet wijzigen als dit onderdeel zich in de status In afwachting van goedkeuring bevindt.</p></td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Voltooiingsbalk</strong></td> 
-      <td>(Alleen beschikbaar voor taken) Geef het percentage op van het werk dat is voltooid door de voortgangsbalk naar het gewenste percentage te verschuiven. U kunt ook dubbelklikken op de voltooiingsbalk en het percentage invoeren dat is voltooid.</td> 
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      
+      You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Privé voor mijn bedrijf</strong></td> 
-      <td> <p>Schakel deze optie uit als u wilt voorkomen dat gebruikers buiten uw bedrijf toegang hebben om deze update te bekijken.</p> 
-      <p><b>OPMERKING</b></p>
-      <p>Deze optie toont slechts wanneer de gebruiker met een Bedrijf wordt geassocieerd.</p>
-      <p>Deze optie is niet beschikbaar in alle gebieden waar u updates kunt toevoegen. Dit is bijvoorbeeld niet beschikbaar in toepassingen van derden waar u updates kunt toevoegen. </p>
+      <td role="rowheader"><strong>Completion Bar</strong></td> 
+      <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Private to my company</strong></td> 
+      <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> 
+      <p><b>NOTE</b></p>
+      <p>This option displays only when the user is associated with a Company.</p>
+      <p>This option is not available in all areas where you can add updates from. For example, this is not available in third-party applications where you can add updates from. </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Bijwerken** om de update aan het Workfront-object toe te voegen.
+1. Click **Update** to add the update to the Workfront object.
 
    >[!NOTE]
    >
-   >Een klein pop-upvenster wordt zeven seconden weergegeven nadat u op **Bijwerken**, zodat u de update ongedaan kunt maken en naar het bewerkingsvenster kunt terugkeren voordat de update wordt geplaatst. De update wordt gepost als u het pop-up ongedaan maken sluit, wacht tot het om verdwijnt, of weg van de pagina navigeert.
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
    >
-   >Als uw Workfront-beheerder de instelling Nooit toestaan dat gebruikers opmerkingen verwijderen selecteert in uw toegangsniveau, kunt u een opmerking niet ongedaan maken. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-1. Als u wilt reageren op een update, raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+-->
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-### Een update aan een tijdelijk item toevoegen met de nieuwe opmerkingervaring
+## Een update toevoegen aan een werkitem <!--using the new commenting experience-->
 
 1. Zoek het object dat u wilt bijwerken (project, taak of uitgave) en klik op de naam van het object om de objectpagina te openen.
 1. Klikken  **Updates** in het linkerdeelvenster.
 De **Opmerkingen** is standaard geselecteerd.
 
-1. (Voorwaardelijk) Als de optie **Nieuwe opmerkingen** is uitgeschakeld. Klik om deze optie in te schakelen.
+<!--
+1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   Hierdoor wordt de nieuwe opmerkingervaring mogelijk.
+   This enables the new commenting experience. 
 
-   >[!TIP]
-   >
-   ><span class="preview">De optie Nieuwe opmerkingen is verwijderd uit de voorvertoningsomgeving.</span>
-
+      >[!TIP]
+      >
+      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+-->
 
 1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
 
-   <div class="preview">
-
    ![Nieuw opmerkingenvenster](assets/comment-box-all-tabs.png)
-
-   </div>
-
 
    >[!TIP]
    >
@@ -248,6 +252,7 @@ De **Opmerkingen** is standaard geselecteerd.
 1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
+
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Zie de klasse [RTF-bestanden gebruiken in een Workfront-update](#use-rich-text-in-a-workfront-update) in dit artikel.
 
@@ -273,7 +278,6 @@ De **Opmerkingen** is standaard geselecteerd.
    >
    >Opmerkingen van het lopende jaar worden niet in het datumstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
 
-
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -282,15 +286,13 @@ De **Opmerkingen** is standaard geselecteerd.
    >* De datumstempel naast de opmerking is de datum van de oorspronkelijke opmerking en niet de datum van de laatste bewerking.
    >* Wanneer u een opmerking toevoegt namens een andere gebruiker (wanneer u zich aanmeldt als een andere gebruiker als Workfront of groepsbeheerder), kunt u de opmerking niet bewerken als u bent aangemeld als de andere gebruiker. U kunt de opmerking alleen bewerken nadat u zich hebt afgemeld als de gebruiker en u weer hebt aangemeld.
 
-
-1. (Optioneel) Klik op **Antwoord** of u begint een opmerking te typen in het dialoogvenster **Antwoord toevoegen...** om te reageren op een bestaande opmerking, volgt u de stappen 4 tot en met 8 hierboven. <!--(**************insure this stays accurate***********)--> Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optioneel) Klik op **Antwoord** of u begint een opmerking te typen in het dialoogvenster **Antwoord toevoegen...** om te reageren op een bestaande opmerking, volgt u de bovenstaande stappen 3-7. <!--(**************insure this stays accurate***********)--> Voor informatie over het beantwoorden van een update raadpleegt u [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Updates worden weergegeven terwijl u uw opmerkingen toevoegde, klikt u op **Weergave** in het blauw **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Aanvullende opmerkingen worden onder in het scherm weergegeven.
-
 
    >[!NOTE]
    >
@@ -305,23 +307,22 @@ De **Opmerkingen** is standaard geselecteerd.
    >
    >De namen van de eerste twee getagde entiteiten worden naast hun avatars weergegeven. Als meer dan twee entiteiten zijn gelabeld, worden alleen de naam van de eerste entiteit en het aantal andere entiteiten weergegeven.
 
-1. <span class="preview"> (Optioneel) Klik op de naam van een opmerking om de naam, de rol en het e-mailadres van de persoon of persoon weer te geven in een informatievak. Klik nogmaals op de naam van de opmerking in het informatievak om het gebruikersprofiel te openen.</span>
+1. (Optioneel) Klik op de naam van een opmerking om de naam, de rol en het e-mailadres van de persoon of persoon weer te geven in een informatievak. Klik nogmaals op de naam van de opmerking in het informatievak om het gebruikersprofiel te openen.
 1. (Optioneel) Klik op de knop **Systeemactiviteit** om updates weer te geven die zijn geregistreerd door het systeem. Wanneer het object of een van de onderliggende items wordt bijgewerkt, genereert Workfront een notitie over die update en geeft deze weer op het tabblad Systeemactiviteit.
 
    Zie voor meer informatie [Overzicht van de sectie Updates](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
-   >U kunt geen opmerking toevoegen aan een systeemupdate. <span class="preview">Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring worden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only.</span>
+   >U kunt geen opmerking toevoegen aan een systeemupdate. Nochtans, worden om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis het becommentariëren ervaring werden gemaakt bevolkt op het lusje van de Activiteit van het Systeem als read-only.
 
-1. <span class="preview">(Optioneel) Klik op de knop **Alles** -tabblad om zowel opmerkingen over de gebruikersactiviteit als opmerkingen over de systeemactiviteit op één plaats weer te geven. Dit is een alleen-weergeven tabblad.</span>
+1. (Optioneel) Klik op de knop **Alles** -tabblad om zowel opmerkingen over de gebruikersactiviteit als opmerkingen over de systeemactiviteit op één plaats weer te geven. Dit is een alleen-weergeven tabblad.
 
    >[!TIP]
    >
-   ><span class="preview">U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een opmerking op het tabblad Alles, klikt u **Reageren in opmerkingen** om de opmerking te openen op het tabblad Opmerkingen.</span>
+   >U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een opmerking op het tabblad Alles, klikt u **Reageren in opmerkingen** om de opmerking te openen op het tabblad Opmerkingen.
 
 ## RTF-bestanden gebruiken in een Workfront-update{#use-rich-text-in-a-workfront-update}
-
 
 U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aan toe te voegen, zoals emojis, koppelingen of afbeeldingen.
 
@@ -338,7 +339,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png) | <br>Het vak Koppelingen toevoegen openen: + K</br> <br>Als u een koppeling over de geselecteerde tekst wilt plakken, drukt u op OK+V</br> | <br>Het vak Koppelingen toevoegen openen: Ctrl+K</br> <br>Een koppeling over de geselecteerde tekst plakken: Ctrl+V</br> |
    | Lijst met opsommingstekens | ![mceclip6.png](assets/mceclip6.png) | Shift+8 | Ctrl+Shift+8 |
    | Genummerde lijst | ![mceclip5.png](assets/mceclip5.png) | Shift+7 | Ctrl+Shift+7 |
-   | Blokprijsopgave | ![](assets/block-quote-icon-large.png) | Shift+9 | <br>Ctrl+Shift+9</br> <br>Dit is niet beschikbaar in de nieuwe ervaring met opmerkingen. </br> |
+   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -354,11 +355,11 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Als uw organisatie Workfront met Internet Explorer gebruikt, verliest alle opgemaakte tekst die in een update wordt geplakt zijn RTF-opmaak en wordt deze als onbewerkte tekst weergegeven. U kunt de tekst opnieuw opmaken met de kenmerken op de werkbalk RTF.
    >* Opmaak van RTF-tekst is niet beschikbaar voor updates die worden uitgevoerd in het gedeelte Timesheets of voor notitie- en laatste-voorwaardenobjecten die worden weergegeven in een rapport.
 
-1. (Optioneel en voorwaardelijk) Als u tekst uit vorige updates of uit andere bronnen wilt opnemen en deze wilt onderscheiden van uw eigen update, kunt u deze markeren als een blokofferte. Klik op de knop **Blokprijsopgave** pictogram ![](assets/block-quote-small.png) en typ de tekst die u wilt aanhalen. De geciteerde tekst wordt gemarkeerd met een verticaal grijze lijn weergegeven. Klik op de knop **Blokprijsopgave** weer op om terug te keren naar de normale opmaak. Dit is niet beschikbaar in de nieuwe ervaring met opmerkingen.
+<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-   <!--remove this picture below and the bullet above when we remove legacy-->
+<!--remove this picture below and the bullet above when we remove legacy-->
 
-   ![](assets/block-quote-marked-350x144.png)</span>
+<!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Optioneel) Klik op de knop **emoji** pictogram ![](assets/emoji-icon.png) om emojis aan uw update toe te voegen.
 
@@ -384,7 +385,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding aan de update te koppelen:
 
    * Sla de afbeelding op onze computer op en sleep deze naar het gebied Nieuwe opmerking.
-   * Kopieer een schermafbeelding van uw computer en plak deze vervolgens in de opmerking. Dit is niet beschikbaar in de oudere ervaring met opmerkingen.
+   * Kopieer een schermafbeelding van uw computer en plak deze vervolgens in de opmerking.<!-- This is not available in the legacy commenting experience.-->
    * Klik op de knop **Afbeelding toevoegen** pictogram ![](assets/add-image-mountain-with-plus-icon.png) en bladert u naar de afbeelding op uw computer.
 
 
@@ -395,10 +396,7 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
    >* Afbeeldingen zijn toegankelijk vanuit de sectie Updates van een object en zijn ook beschikbaar in het gebied Documenten onder het hoofdmenu.
    >* U kunt de afbeelding plakken door met de rechtermuisknop op de nieuwe opmerking te klikken of door op CTRL + V voor Windows (of  V voor Mac) te drukken op het toetsenbord.
    >* U kunt een update verzenden met een afbeelding en geen tekst.
-   >* Wanneer u een opmerking verwijdert die een afbeelding bevat, zijn de volgende scenario&#39;s afhankelijk van de ervaring die u kiest:
-   >
-   >     * In de oudere opmerkingervaring blijft de afbeelding in het gebied Documenten staan, maar deze is niet meer zichtbaar in de sectie Updates.
-   >     * In de nieuwe opmerkingervaring wordt de afbeelding verwijderd uit de sectie Updates en uit het gebied Documenten. De afbeelding wordt ook verwijderd uit het gebied Documenten wanneer u een opmerking bewerkt en de afbeelding verwijdert.
+   >* Wanneer u een opmerking verwijdert die een afbeelding bevat, wordt de afbeelding verwijderd uit de sectie Updates en uit het gebied Documenten. De afbeelding wordt ook verwijderd uit het gebied Documenten wanneer u een opmerking bewerkt en de afbeelding verwijdert.
    >* Wanneer iemand een afbeelding verwijdert die is gekoppeld aan een opmerking in het gebied Documenten, wordt deze ook uit de opmerking verwijderd.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
@@ -437,13 +435,13 @@ U kunt een opmerking of antwoord zoeken in de sectie Updates van een object.
 
 U kunt een update op verschillende manieren kopiëren. Nadat u een koppeling hebt gekopieerd, kunt u de koppeling met anderen delen om deze naar de update te leiden.
 
-Het kopiëren van een update is afhankelijk van de manier waarop u opmerkingen maakt.
+<!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### Een update kopiëren in de nieuwe opmerkingervaring
+### Een update kopiëren <!--in the new commenting experience-->
 
-Voor informatie over welke functies beschikbaar zijn voor de nieuwe opmerkingervaring en voor welke objecten, raadpleegt u [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
 U kunt informatie uit een bestaande opmerking kopiëren door een van de volgende handelingen uit te voeren:
 
@@ -493,61 +491,63 @@ Met de antwoordoptie Citaat kopieert u de oorspronkelijke opmerking naar een nie
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
-### Een update kopiëren in de oudere opmerkingervaring
+<!--
+### Copy an update in the legacy commenting experience
 
-* [De update kopiëren](#copy-the-update)
-* [De koppeling voor de verbinding met de verbinding kopiëren](#copy-the-thread-link)
-* [De koppeling voor bijwerken kopiëren](#copy-the-update-link)
-* [Aanhalingsreactie](#quote-reply)
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
+* [Quote Reply](#quote-reply)
 
-  >[!TIP]
-  >
-  >Wanneer u kopieert en de verbinding van een gesprek over een kindvoorwerp van een hoger-rangschikkend voorwerp deelt, opent de verbinding de draad in het gebied van de Updates van het kindvoorwerp.
-  >
-  >Als u bijvoorbeeld de koppeling van een taakopmerking kopieert vanuit het gedeelte Updates van het project, wordt de taakpagina geopend met de opmerking.
+   >[!TIP]
+   >
+   >When you copy and share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the child object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the task page.
 
-#### De update kopiëren {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
-Met deze optie wordt de tekst van een specifieke update naar het klembord gekopieerd.
+This option copies the text from a specific update to the clipboard.
 
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** en klik vervolgens op **Platte tekst kopiëren**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### De koppeling voor de verbinding met de verbinding kopiëren {#copy-the-thread-link}
-
-Met deze optie wordt de volledige thread-koppeling naar het klembord gekopieerd, zodat u de verbinding met andere gebruikers kunt delen.
-
-1. Ga naar de updatethread die u wilt kopiëren.
-
-1. Klik op de knop **Meer** en klik vervolgens op **Verbindingskoppeling kopiëren**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Plak de koppeling die u in de vorige stap hebt gekopieerd in een e-mail of een andere toepassing om deze met anderen te delen. Met de gedeelde koppeling wordt de opmerking geopend waaruit u de koppeling hebt gedeeld.
+#### Copy the thread link {#copy-the-thread-link}
 
-#### De koppeling voor bijwerken kopiëren {#copy-the-update-link}
+This option copies the full thread link to the clipboard so you can share the thread with other users.
 
-Met deze optie wordt een specifieke updatekoppeling naar het klembord gekopieerd. Wanneer u de update-koppeling deelt, ziet de gebruiker die deze koppeling volgt, een rand rondom de update.
+1. Go to the update thread you want to copy.
 
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** menu naast de afzonderlijke update en klik vervolgens op **Koppeling voor bijwerken kopiëren**.
+1. Click the **More** menu, then click **Copy thread link**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Copy the update link {#copy-the-update-link}
+
+This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/copy-update-link-old-ui.png)
 
-1. Plak de koppeling die u in de vorige stap hebt gekopieerd in een e-mail of een andere toepassing om deze met anderen te delen. Met de gedeelde koppeling wordt de opmerking geopend waaruit u de koppeling hebt gedeeld.
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
-#### Aanhalingsreactie
+#### Quote Reply  
 
-Met de optie Aanhalingsreactie kopieert u de oorspronkelijke opmerking naar een nieuw antwoord als een blokcitaat.
+The Quote Reply option copies the original comment to a new reply as a block quote. 
 
-1. Ga naar de update of het antwoord dat u wilt kopiëren.
-1. Klik op de knop **Meer** en klik vervolgens op **Aanhalingsreactie**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
 
-   Er wordt een nieuw opmerkingsvak geopend en het geciteerde antwoord wordt opgenomen in de nieuwe opmerking en gemarkeerd als een blokcitaat.
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
 
-1. Voeg je update toe en klik op **Antwoord** om de opmerking toe te voegen.
+1. Continue adding your update and click **Reply** to add the comment.
+-->
 
 ## Een update of antwoord verwijderen
 

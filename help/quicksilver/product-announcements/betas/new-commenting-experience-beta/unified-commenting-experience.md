@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,13 @@ ht-degree: 0%
 
 <!--take out legacy, preview, prod references from below-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten.  </span>
-
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 <!--
 
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -567,54 +565,56 @@ Hier volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
 
 >[!IMPORTANT]
 >
->The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>De nieuwe ervaring met opmerkingen is beschikbaar in alle Workfront-omgevingen op alle objecten, met uitzondering van Interacties.
 >
->The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+>De oudere ervaring met opmerkingen is verwijderd uit alle omgevingen voor projecten, taken, problemen en documenten.
 
-For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+Voor informatie over het openen van de sectie Updates van Workfront-objecten raadpleegt u [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+<!--
+
+The new commenting experience is currently available for all customers and for all environments.
+
+Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+
+* Both the new and legacy commenting experience for the following objects: 
+
+    * Project
+    * Task (this includes Stories)
+    * Issue
+    * Document
+
+      >[!NOTE]
+      >
+      ><span class="preview">The legacy commenting experience has been removed from the Preview environment since April 1, 2024. </span>
+
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
+
+    * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+* Only the legacy commenting experience for the following objects:
+
+  * Iterations
+    
+    There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
 
 -->
-
-De nieuwe ervaring met opmerkingen is momenteel beschikbaar voor alle klanten en voor alle omgevingen.
-
-Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogelijk de volgende functionaliteit voor de sectie Updates:
-
-* Zowel de nieuwe als de oudere ervaring met opmerkingen voor de volgende objecten:
-
-   * Project
-   * Taak (inclusief artikelen)
-   * Probleem
-   * Document
-
-     >[!NOTE]
-     >
-     ><span class="preview">De oudere opmerkingervaring is verwijderd uit de voorvertoningsomgeving sinds 1 april 2024. </span>
-
-* Alleen de nieuwe opmerkingervaring voor de objecten hieronder. Er is geen optie om de oudere ervaring met opmerkingen in te schakelen voor deze objecten:
-
-   * Goal
-
-  >[!NOTE]
-  >
-  >U moet een extra licentie voor Adobe Workfront Goals hebben om toegang te krijgen tot dit gebied van Workfront. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * Kaart aan boord
-   * Team
-   * Sjabloon
-   * Sjabloontaak
-   * Tijdschema
-   * Programma
-   * Portfolio
-   * Gebruiker
-
-* Alleen de oudere ervaring met opmerkingen voor de volgende objecten:
-
-   * Herhalingen
-
-     Er is geen optie om de nieuwe opmerkingervaring voor herhalingen in te schakelen. Alleen de oudere ervaring met opmerkingen is beschikbaar voor herhalingen.
 
 
 <!--before August 17: 
@@ -644,19 +644,22 @@ The new commenting experience is currently supported for the following objects:
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>
 -->
 
-U kunt als volgt de optie voor het maken van opmerkingen inschakelen voor projecten, taken, problemen en documenten:
+<!--
 
-1. (Voorwaardelijk) Ga in de productieomgeving naar een object waarvoor u de nieuwe opmerkingervaring wilt activeren en klik vervolgens op **Updates** in het linkerdeelvenster.
-1. (Voorwaardelijk) Als deze is uitgeschakeld, schakelt u de optie **Nieuwe opmerkingen** in de rechterbovenhoek van het gedeelte Updates om dit in te schakelen. Deze moet standaard zijn ingeschakeld.
-   <span class="preview">De optie Nieuwe opmerkingen is verwijderd uit de voorvertoningsomgeving.</span>
+To enable the commenting experience option for projects, tasks, issues, and documents: 
 
-   ![](assets/new-commenting-toggle-off-highlighted.png)
+1. (Conditional) In the Production environment, go to an object that you want to activate the new commenting experience for, then click **Updates** in the left panel.
+1. (Conditional) If it is disabled, enable the **New commenting** option in the upper-right corner of the Updates area to enable it. This should be enabled by default. 
+<span class="preview">The New commenting option has been removed from the Preview environment.</span> 
 
-1. Een update typen in het dialoogvenster **Opmerkingen** tab. Het tabblad Opmerkingen is het standaardtabblad wanneer de nieuwe ervaring wordt geopend
+    ![](assets/new-commenting-toggle-off-highlighted.png)
 
-   of
+1. Start typing an update in the **Comments** tab. The Comments tab is the default tab when the new experience opens
 
-   Klik op de knop  **Systeemactiviteit** om de door Workfront gegenereerde activiteitenupdates weer te geven.
+    Or
 
-1. (Optioneel) Schakel de optie **Nieuwe opmerkingen** -optie.
+    Click the  **System Activity** tab to view the activity updates generated by Workfront. 
 
+1. (Optional) To disable the new commenting experience and return to legacy commenting, deselect the **New commenting** option. 
+
+-->
