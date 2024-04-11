@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    In de weergave die wordt weergegeven, kunt u alle aangepaste formulieren bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, met welk objecttype het werkt en of het actief is.
 
-1. Selecteer het aangepaste formulier waarvan u de naam wilt wijzigen en klik of ![Pictogram Bewerken](assets/edit-icon2.png).
+1. Selecteer het aangepaste formulier waarvan u de naam wilt wijzigen en klik op ![Pictogram Bewerken](assets/edit-icon2.png).
 1. Als u de titel wilt wijzigen, klikt u op de naam van het formulier.
 1. Als u de beschrijving wilt wijzigen, klikt u in het tekstvak Beschrijving.
 
